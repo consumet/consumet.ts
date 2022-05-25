@@ -10,10 +10,10 @@ const providersListToJson = (providers: any): string => {
       providersJson.push(providerInstance.toString);
     }
   }
-  return JSON.stringify(providersJson);
+  return JSON.stringify(providersJson, null, 2);
 };
 
 (() => {
   const providersJson = providersListToJson(PROVIDERS_LIST);
-  fs.writeFileSync(path.resolve(__dirname, 'providers.json'), providersJson, 'utf8');
+  fs.writeFileSync('./providers.json', providersJson);
 })();
