@@ -1,4 +1,5 @@
 import fs from 'fs';
+import path from 'path';
 
 import { PROVIDERS_LIST } from '../../src/index';
 
@@ -14,5 +15,5 @@ const providersListToJson = (providers: any): string => {
 
 (() => {
   const providersJson = providersListToJson(PROVIDERS_LIST);
-  fs.writeFileSync('./providers.json', providersJson, 'utf8');
+  fs.writeFileSync(path.resolve(__dirname, 'providers.json'), providersJson, 'utf8');
 })();
