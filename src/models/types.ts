@@ -11,6 +11,5 @@ export interface IAnimeSearch {
   animeUrl: string;
   animeImage?: string;
   animeReleaseDate?: string;
-  // other fields
-  [x: string]: unknown;
+  [x: string]: unknown; // other fields
 }

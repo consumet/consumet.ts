@@ -1,8 +1,5 @@
 name: "Update Providers"
 on:
-  push:
-    branches: 
-     - update-providers
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:

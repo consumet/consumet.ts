@@ -1,13 +1,14 @@
 import fs from 'fs';
-import path from 'path';
 
 import { PROVIDERS_LIST } from '../../src/index';
 
 const providersListToJson = (providers: any): string => {
-  const providersJson = [];
+  const providersJson: { [k: string]: unknown[] } = {};
+
   for (const provider of Object.keys(providers)) {
+    providersJson[provider] = [];
     for (const providerInstance of providers[provider]) {
-      providersJson.push(providerInstance.toString);
+      providersJson[provider].push(providerInstance.toString);
     }
   }
   return JSON.stringify(providersJson, null, 2);
