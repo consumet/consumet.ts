@@ -15,6 +15,10 @@ class NineAnime extends AnimeParser {
   override async fetchEpisodeSources(episodeLink: string): Promise<void> {
     throw new Error('Method not implemented.');
   }
+
+  override async fetchEpisodeServers(episodeLink: string): Promise<void> {
+    throw new Error('Method not implemented.');
+  }
 }
 
 export default NineAnime;
