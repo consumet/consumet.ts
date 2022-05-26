@@ -1,6 +1,6 @@
 import { AnimeParser, IAnimeSearch } from '../../../models';
 
-export class NineAnime extends AnimeParser {
+class NineAnime extends AnimeParser {
   protected override name = '9anime';
   protected override baseUrl = 'https://9anime.to';
 
@@ -16,3 +16,5 @@ export class NineAnime extends AnimeParser {
     throw new Error('Method not implemented.');
   }
 }
+
+export default NineAnime;

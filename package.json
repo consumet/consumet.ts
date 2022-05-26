@@ -1,16 +1,13 @@
 {
     "name": "consumet-extentions",
     "version": "1.0.0",
-    "description": "TODO",
-    "main": "src/index.js",
+    "description": "Consumet extentions",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
     "scripts": {
         "build": "tsc"
     },
-    "engines": {
-        "npm": "please-use-yarn",
-        "node": ">=12.5.0",
-        "yarn": ">=1.17.3"
-    },
+    "files": ["dist"],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/consumet/consumet-extentions.git"

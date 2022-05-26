@@ -3,12 +3,12 @@ import { load } from 'cheerio';
 
 import { AnimeParser, IAnimeSearch } from '../../../models';
 
-export class Gogoanime extends AnimeParser {
+class Gogoanime extends AnimeParser {
   protected override name = 'gogoanime';
   protected override baseUrl = 'https://gogoanime.gg';
 
-  override async search(query: string, page: number = 1): Promise<IAnimeSearch[]> {
-    const results: IAnimeSearch[] = [];
+  override async search(query: string, page: number = 1): Promise<IAnimeSearch> {
+    const searchResult: IAnimeSearch = { hasNextPage: false, results: [] };
     try {
       const res = await axios.get(
         `${this.baseUrl}/search.html?keyword=${encodeURIComponent(query)}&page=${page}`
@@ -16,8 +16,11 @@ export class Gogoanime extends AnimeParser {
 
       const $ = load(res.data);
 
+      searchResult.hasNextPage =
+        $('div.anime_name.new_series > div > div > ul > li.selected').next().length > 0;
+
       $('div.last_episodes > ul > li').each((i, el) => {
-        results.push({
+        searchResult.results.push({
           animeId: $(el).find('p.name > a').attr('href')?.split('/')[2]!,
           animeTitle: $(el).find('p.name > a').attr('title')!,
           animeUrl: `${this.baseUrl}/${$(el).find('p.name > a').attr('href')}`,
@@ -26,7 +29,7 @@ export class Gogoanime extends AnimeParser {
         });
       });
 
-      return results;
+      return searchResult;
     } catch (err) {
       throw err;
     }
@@ -40,3 +43,5 @@ export class Gogoanime extends AnimeParser {
     throw new Error('Method not implemented.');
   }
 }
+
+export default Gogoanime;
