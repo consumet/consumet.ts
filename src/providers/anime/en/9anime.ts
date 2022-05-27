@@ -1,7 +1,7 @@
 import { AnimeParser, IAnimeSearch } from '../../../models';
 
 class NineAnime extends AnimeParser {
-  protected override name = '9anime';
+  override readonly name = '9anime';
   protected override baseUrl = 'https://9anime.to';
 
   override async search(query: string, page: number = 1): Promise<IAnimeSearch[]> {

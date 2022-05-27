@@ -4,7 +4,7 @@ abstract class BaseProvider {
   /**
    * Name of the provider
    */
-  protected abstract readonly name: string;
+  abstract readonly name: string;
   /**
    * The main URL of the provider
    */
@@ -17,7 +17,7 @@ abstract class BaseProvider {
   /**
    * override as `true` if the provider **only** supports NSFW content
    */
-  protected readonly isNSFW: boolean = false;
+  readonly isNSFW: boolean = false;
 
   /**
    * returns provider stats

@@ -5,7 +5,7 @@ import { AnimeParser, IAnimeSearch, IAnimeInfo, IEpisodeServer, Video } from '..
 import { Goload, StreamSB } from '../../../utils';
 
 class Gogoanime extends AnimeParser {
-  protected override name = 'gogoanime';
+  override readonly name = 'gogoanime';
   protected override baseUrl = 'https://gogoanime.gg';
 
   override async search(query: string, page: number = 1): Promise<IAnimeSearch> {

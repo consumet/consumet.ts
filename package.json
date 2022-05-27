@@ -7,7 +7,9 @@
     "scripts": {
         "build": "tsc"
     },
-    "files": ["dist"],
+    "files": [
+        "dist"
+    ],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/consumet/consumet-extentions.git"
@@ -20,6 +22,7 @@
     },
     "homepage": "https://github.com/consumet/consumet-extentions#readme",
     "dependencies": {
+        "ascii-url-encoder": "^1.2.0",
         "axios": "^0.27.2",
         "cheerio": "^1.0.0-rc.11"
     },

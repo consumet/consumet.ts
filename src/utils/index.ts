@@ -1,4 +1,4 @@
 import { Goload, StreamSB } from './extractors';
-import { USER_AGENT } from './utils';
+import { USER_AGENT, splitAuthor, floorID } from './utils';
 
-export { USER_AGENT, Goload, StreamSB };
+export { USER_AGENT, Goload, StreamSB, splitAuthor, floorID };

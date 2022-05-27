@@ -1,3 +1,5 @@
+import { Book, Hashes } from './base-types';
+
 export interface IProviderStats {
   name: string;
   baseUrl: string;
@@ -65,4 +67,17 @@ export interface Video {
   isM3U8?: boolean;
   size?: number;
   [x: string]: unknown; // other fields
+}
+
+export interface LibgenBook extends Book {
+  id: string;
+  language: string;
+  format: string;
+  size: string;
+  pages: string;
+  image: string;
+  description: string;
+  tableOfContents: string;
+  topic: string;
+  hashes: Hashes;
 }
