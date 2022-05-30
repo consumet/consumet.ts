@@ -4,9 +4,8 @@ abstract class BookParser extends BaseParser {
   /**
    * takes book link
    *
-   * return book info
+   * returns book info
    */
-
   protected abstract fetchBookInfo(bookUrl: string): Promise<unknown>;
 }
 

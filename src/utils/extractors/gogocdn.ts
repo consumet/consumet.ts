@@ -1,7 +1,7 @@
 import { VideoExtractor, IVideo } from '../../models';
 
-class StreamSB extends VideoExtractor {
-  protected override serverName = 'streamsb';
+class GogoCDN extends VideoExtractor {
+  protected override serverName = 'goload';
   protected override sources: IVideo[] = [];
 
   //TODO: implement functions
@@ -10,4 +10,4 @@ class StreamSB extends VideoExtractor {
   }
 }
 
-export default StreamSB;
+export default GogoCDN;

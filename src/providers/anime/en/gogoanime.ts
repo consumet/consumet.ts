@@ -1,14 +1,21 @@
 import axios from 'axios';
 import { load } from 'cheerio';
 
-import { AnimeParser, IAnimeSearch, IAnimeInfo, IEpisodeServer, Video } from '../../../models';
-import { Goload, StreamSB } from '../../../utils';
+import {
+  AnimeParser,
+  IAnimeSearch,
+  IAnimeInfo,
+  IEpisodeServer,
+  IVideo,
+  Servers,
+} from '../../../models';
+import { GogoCDN, StreamSB } from '../../../utils';
 
 class Gogoanime extends AnimeParser {
   override readonly name = 'gogoanime';
   protected override baseUrl = 'https://gogoanime.gg';
 
-  override async search(query: string, page: number = 1): Promise<IAnimeSearch> {
+  override search = async (query: string, page: number = 1): Promise<IAnimeSearch> => {
     const searchResult: IAnimeSearch = { hasNextPage: false, results: [] };
     try {
       const res = await axios.get(
@@ -33,11 +40,11 @@ class Gogoanime extends AnimeParser {
 
       return searchResult;
     } catch (err) {
-      throw err;
+      throw new Error((err as Error).message);
     }
-  }
+  };
 
-  override async fetchAnimeInfo(animeUrl: string): Promise<IAnimeInfo> {
+  override fetchAnimeInfo = async (animeUrl: string): Promise<IAnimeInfo> => {
     if (!animeUrl.startsWith(this.baseUrl)) animeUrl = `${this.baseUrl}/category/${animeUrl}`;
 
     const animeInfo: IAnimeInfo = {
@@ -101,36 +108,35 @@ class Gogoanime extends AnimeParser {
 
       return animeInfo;
     } catch (err) {
-      throw err;
+      throw new Error("Anime doesn't exist.");
     }
-  }
+  };
 
-  override async fetchEpisodeSources(episodeLink: string): Promise<Video[]> {
-    if (!episodeLink.startsWith(this.baseUrl)) {
-      switch (new URL(episodeLink).hostname) {
-        case 'goload.pro':
-          return await new Goload().extract(episodeLink);
-        case 'sbplay2.xyz':
-          return await new StreamSB().extract(episodeLink);
+  override fetchEpisodeSources = async (episodeId: string, server?: Servers): Promise<IVideo[]> => {
+    if (!episodeId.startsWith('http'))
+      switch (server) {
+        case Servers.GogoCDN:
+          return await new GogoCDN().extract(episodeId);
+        case Servers.StreamSB:
+          return await new StreamSB().extract(episodeId);
+        default:
+          return await new GogoCDN().extract(episodeId);
       }
-    }
-
-    // TODO: finish working on this function
 
     try {
-      const res = await axios.get(episodeLink);
+      const res = await axios.get(episodeId);
 
       const $ = load(res.data);
 
       const serverUrl = new URL(`https:${$('#load_anime > div > div > iframe').attr('src')}`);
 
-      return await this.fetchEpisodeSources(serverUrl.href);
+      return await this.fetchEpisodeSources(serverUrl.href, server);
     } catch (err) {
-      throw err;
+      throw new Error("Episode doesn't exist.");
     }
-  }
+  };
 
-  override async fetchEpisodeServers(episodeLink: string): Promise<IEpisodeServer[]> {
+  override fetchEpisodeServers = async (episodeLink: string): Promise<IEpisodeServer[]> => {
     try {
       if (!episodeLink.startsWith(this.baseUrl)) episodeLink = `${this.baseUrl}/${episodeLink}`;
 
@@ -152,9 +158,9 @@ class Gogoanime extends AnimeParser {
 
       return servers;
     } catch (err) {
-      throw err;
+      throw new Error("Episode doesn't exist.");
     }
-  }
+  };
 }
 
 export default Gogoanime;

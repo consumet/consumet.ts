@@ -1,4 +1,4 @@
-import Goload from './goload';
+import GogoCDN from './gogocdn';
 import StreamSB from './streamsb';
 
-export { Goload, StreamSB };
+export { GogoCDN, StreamSB };

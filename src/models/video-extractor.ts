@@ -1,4 +1,4 @@
-import { Video } from '.';
+import { IVideo } from '.';
 
 abstract class VideoExtractor {
   /**
@@ -8,14 +8,14 @@ abstract class VideoExtractor {
   /**
    * list of videos available
    */
-  protected abstract sources: Video[];
+  protected abstract sources: IVideo[];
 
   /**
    * takes video link
    *
    * returns video sources (video links) available
    */
-  protected abstract extract(videoUrl: string, ...args: any): Promise<Video[]>;
+  protected abstract extract(videoUrl: string, ...args: any): Promise<IVideo[]>;
 }
 
 export default VideoExtractor;

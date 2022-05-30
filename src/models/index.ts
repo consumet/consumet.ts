@@ -10,8 +10,9 @@ import {
   IAnimeInfo,
   IAnimeResult,
   IEpisodeServer,
-  Video,
+  IVideo,
   LibgenBook,
+  Servers,
 } from './types';
 import { LibgenBookObject } from './type-classes';
 
@@ -26,8 +27,9 @@ export {
   IAnimeInfo,
   IAnimeResult,
   IEpisodeServer,
-  Video,
+  IVideo,
   VideoExtractor,
   LibgenBook,
   LibgenBookObject,
+  Servers,
 };

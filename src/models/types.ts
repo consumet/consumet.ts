@@ -52,7 +52,7 @@ export interface IEpisodeServer {
   url: string;
 }
 
-export interface Video {
+export interface IVideo {
   /**
    * The **MAIN URL** of the video provider that should take you to the video
    */
@@ -67,6 +67,13 @@ export interface Video {
   isM3U8?: boolean;
   size?: number;
   [x: string]: unknown; // other fields
+}
+
+export enum Servers {
+  GogoCDN = 'gogocdn',
+  StreamSB = 'streamsb',
+  Doodstream = 'doodstream',
+  Mp4Upload = 'mp4upload',
 }
 
 export interface LibgenBook extends Book {
