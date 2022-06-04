@@ -21,9 +21,14 @@ export const splitAuthor = (authors: string) => {
 
 export const floorID = (id: string) => {
   let imp = '';
-  for (let i = 0; i < id.length - 3; i++) {
+  for (let i = 0; i < id?.length - 3; i++) {
     imp += id[i];
   }
   const idV = parseInt(imp);
   return idV * 1000;
+};
+
+export const formatTitle = (title: string) => {
+  const result = title.replace(/[0-9]/g, '');
+  return result.trim();
 };

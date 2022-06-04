@@ -6,7 +6,7 @@ abstract class BookParser extends BaseParser {
    *
    * returns book info
    */
-  protected abstract fetchBookInfo(bookUrl: string): Promise<unknown>;
+  protected abstract scrapePage(pageUrl: string): Promise<unknown>;
 }
 
 export default BookParser;
