@@ -11,6 +11,208 @@ class Libgen extends BookParser {
   protected override readonly baseUrl = 'http://libgen';
   override readonly name = 'libgen';
   readonly downloadIP = 'http://62.182.86.140';
+
+  scrapeBook = async (bookUrl: string) => {
+    const container: LibgenBook = new LibgenBookObject();
+    const data = await get(bookUrl);
+    const $ = load(data.data);
+    for (let i = 0; i < 30; i++) {
+      console.log(`section ${i}`);
+      $(`tbody > tr:eq(${i})`)
+        .children()
+        .each((i, el) => {
+          console.log(`${i}: ${$(el).text()}`);
+        });
+    }
+    let rawAuthor = '';
+    $('tbody > tr:eq(10)')
+      .children()
+      .each((i, el) => {
+        switch (i) {
+          case 1:
+            rawAuthor = $(el).text();
+            break;
+        }
+      });
+    container.authors = splitAuthor(rawAuthor);
+
+    let publisher = '';
+    $('tbody > tr:eq(12)')
+      .children()
+      .each((i, el) => {
+        switch (i) {
+          case 1:
+            publisher = $(el).text();
+            break;
+        }
+      });
+    container.publisher = publisher;
+
+    let ex = '';
+    let size = '';
+    $('tbody > tr:eq(18)')
+      .children()
+      .each((i, el) => {
+        switch (i) {
+          case 1:
+            size = $(el).text();
+            break;
+          case 3:
+            ex = $(el).text();
+            break;
+        }
+      });
+    container.format = ex;
+    container.size = size;
+
+    let lang = '';
+    let page = '';
+    $('tbody > tr:eq(14)')
+      .children()
+      .each((i, el) => {
+        switch (i) {
+          case 1:
+            lang = $(el).text();
+            break;
+          case 3:
+            page = $(el).text().split('/')[0];
+            break;
+        }
+      });
+    container.pages = page;
+    container.language = lang;
+
+    let tempTitle = '';
+    let tempVolume = '';
+    $('tbody > tr:eq(1)')
+      .children()
+      .each((i, el) => {
+        switch (i) {
+          case 2:
+            tempTitle = $(el).text();
+            break;
+          case 4:
+            tempVolume = $(el).text();
+        }
+      });
+    container.title = tempTitle;
+    container.volume = tempVolume;
+    container.image = `${this.baseUrl}${this.extensions[0]}` + $('img').attr('src');
+    let tempIsbn: string[] = [];
+    let id = '';
+    $('tbody > tr:eq(15)')
+      .children()
+      .each((i, el) => {
+        switch (i) {
+          case 1:
+            tempIsbn = $(el).text().split(', ');
+            break;
+          case 3:
+            id = $(el).text();
+            break;
+        }
+      });
+    container.id = id;
+    container.isbn = tempIsbn;
+    container.description = $('tbody > tr:eq(31)').text() || '';
+    container.tableOfContents = $('tbody > tr:eq(32)').text() || '';
+    let tempSeries = '';
+    $('tbody > tr:eq(11)')
+      .children()
+      .each((i, el) => {
+        switch (i) {
+          case 1:
+            tempSeries = $(el).text();
+            break;
+        }
+      });
+    container.series = tempSeries;
+    let tempTopic = '';
+    $('tbody > tr:eq(22)')
+      .children()
+      .each((i, el) => {
+        switch (i) {
+          case 1:
+            tempTopic = $(el).text();
+            break;
+        }
+      });
+    container.topic = tempTopic;
+    let tempEdition = '';
+    let year = '';
+    $('tbody > tr:eq(13)')
+      .children()
+      .each((i, el) => {
+        switch (i) {
+          case 1:
+            year = $(el).text();
+            break;
+          case 3:
+            tempEdition = $(el).text();
+            break;
+        }
+      });
+    container.year = year;
+    container.edition = tempEdition;
+
+    for (let p = 2; p <= 8; p++) {
+      let temp = '';
+      $(`tbody tr:eq(${p})`)
+        .children()
+        .each((i, el) => {
+          switch (i) {
+            case 1:
+              temp = $(el).text();
+          }
+        });
+      switch (p) {
+        case 2:
+          container.hashes.AICH = temp;
+          break;
+        case 3:
+          container.hashes.CRC32 = temp;
+          break;
+        case 4:
+          container.hashes.eDonkey = temp;
+          break;
+        case 5:
+          container.hashes.MD5 = temp;
+          break;
+        case 6:
+          container.hashes.SHA1 = temp;
+          break;
+        case 7:
+          container.hashes.SHA256 = temp.split(' ');
+          break;
+        case 8:
+          container.hashes.TTH = temp;
+          break;
+      }
+    }
+    let realLink: string = '';
+    const fakeLink = bookUrl;
+    for (let i = 0; i < fakeLink.length; i++) {
+      if (
+        fakeLink[i] === 'm' &&
+        fakeLink[i + 1] === 'd' &&
+        fakeLink[i + 2] === '5' &&
+        fakeLink[i + 3] === '='
+      ) {
+        realLink = fakeLink.substring(i + 4, fakeLink.length);
+        break;
+      }
+    }
+    console.log('Real link : ' + realLink);
+    container.link = `${this.downloadIP}/main/${floorID(
+      container.id
+    )}/${realLink.toLowerCase()}/${encode(
+      `${container.series == '' ? '' : `(${container.series})`} ${rawAuthor} - ${container.title}-${
+        container.publisher
+      } (${container.year}).${container.format}`
+    )}`;
+    return container;
+  };
+
   fastSearch = async (query: string, maxResults: number) => {
     let page!: AxiosResponse<any, any>;
     let workingExtension = this.extensions[0];
@@ -63,13 +265,6 @@ class Libgen extends BookParser {
                 break;
               }
             }
-            //containers[i].link = `${this.downloadIP}/main/${floorID(
-            //   container.id
-            // )}/${realLink.toLowerCase()}/${encode(
-            //   `${container.series == '' ? '' : `(${container.series})`} ${rawAuthor} - ${
-            //     container.title
-            //   }-${container.publisher} (${container.year}).${container.format}`
-            // )}`;
             container.title = formatTitle($(e).text());
             container.link = `${this.baseUrl}${workingExtension}/${potLink}`;
           case 6:
@@ -95,7 +290,7 @@ class Libgen extends BookParser {
       container.link = `${this.downloadIP}/main/${floorID(
         container.id
       )}/${realLink.toLowerCase()}/${encode(
-        `${container.series == '' ? '' : `(${container.series})`} ${rawAuthor} - ${
+        `${container.series == '' ? '' : `(${container.series}) `}${rawAuthor} - ${
           container.title
         }-${container.publisher} (${container.year}).${container.format}`
       )}`;
@@ -105,7 +300,6 @@ class Libgen extends BookParser {
     containers.shift();
     containers.shift();
     containers.pop();
-    console.log(containers);
     return containers;
   };
 
@@ -302,17 +496,99 @@ class Libgen extends BookParser {
     return containers;
   };
 
-  override scrapePage = async (pageUrl: string) => {
+  fastScrapePage = async (pageUrl: string) => {
     let page!: AxiosResponse<any, any>;
     let workingExtension = this.extensions[0];
     const containers: LibgenBook[] = [];
     for (let extension of this.extensions) {
       workingExtension = extension;
-      try {
-        page = await get(pageUrl);
-      } catch (e: any) {
-        throw Error(e);
-      }
+      page = await get(pageUrl);
+      if (page.status <= 399) break;
+    }
+    const $ = load(page.data);
+    let rawAuthor = '';
+    let realLink: string = '';
+    $('table tbody tr').each((i, e) => {
+      const container: LibgenBook = new LibgenBookObject();
+      $(e.children).each((i, e) => {
+        if ($(e).text() === '\n\t\t\t\t') return;
+        switch (i) {
+          case 0:
+            container.id = $(e).text();
+            break;
+          case 2:
+            rawAuthor = $(e).text();
+            container.authors = splitAuthor(rawAuthor);
+            break;
+          case 4:
+            let potLink: string = '';
+            $(e)
+              .children()
+              .each((i, el) => {
+                if (potLink != '') {
+                  return;
+                }
+                if ($(el).attr('href')?.at(0) === 'b') {
+                  potLink = $(el).attr('href') || '';
+                }
+              });
+            const fakeLink = `${this.baseUrl}${workingExtension}/${potLink}`;
+            for (let i = 0; i < fakeLink.length; i++) {
+              if (
+                fakeLink[i] === 'm' &&
+                fakeLink[i + 1] === 'd' &&
+                fakeLink[i + 2] === '5' &&
+                fakeLink[i + 3] === '='
+              ) {
+                realLink = fakeLink.substring(i + 4, fakeLink.length);
+                break;
+              }
+            }
+            container.title = formatTitle($(e).text());
+            container.link = `${this.baseUrl}${workingExtension}/${potLink}`;
+          case 6:
+            container.publisher = $(e).text();
+            break;
+          case 8:
+            container.year = $(e).text();
+            break;
+          case 10:
+            container.pages = $(e).text();
+            break;
+          case 12:
+            container.language = $(e).text();
+            break;
+          case 14:
+            container.size = $(e).text();
+            break;
+          case 16:
+            container.format = $(e).text();
+            break;
+        }
+      });
+      container.link = `${this.downloadIP}/main/${floorID(
+        container.id
+      )}/${realLink.toLowerCase()}/${encode(
+        `${container.series == '' ? '' : `(${container.series})`} ${rawAuthor} - ${
+          container.title
+        }-${container.publisher} (${container.year}).${container.format}`
+      )}`;
+      containers[i] = container;
+    });
+    containers.shift();
+    containers.shift();
+    containers.shift();
+    containers.pop();
+    return containers;
+  };
+
+  scrapePage = async (pageUrl: string) => {
+    let page!: AxiosResponse<any, any>;
+    let workingExtension = this.extensions[0];
+    const containers: LibgenBook[] = [];
+    for (let extension of this.extensions) {
+      workingExtension = extension;
+      page = await get(pageUrl);
       if (page.status <= 399) break;
     }
     const $ = load(page.data);
@@ -365,10 +641,14 @@ class Libgen extends BookParser {
       containers[i] = container;
     });
     containers.shift();
-
-    console.log('containers: ');
-    console.log(containers);
+    containers.shift();
+    containers.shift();
+    containers.pop();
     for (let i = 0; i < containers.length; i++) {
+      if (containers[i].link == '') {
+        containers.filter((val) => val != containers[i]);
+        continue;
+      }
       const data = await get(containers[i].link);
       const $ = load(data.data);
       let tempTitle = '';
