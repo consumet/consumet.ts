@@ -12,7 +12,7 @@ import {
   IEpisodeServer,
   IVideo,
   LibgenBook,
-  Servers,
+  StreamingServers,
 } from './types';
 import { LibgenBookObject } from './type-classes';
 
@@ -31,5 +31,5 @@ export {
   VideoExtractor,
   LibgenBook,
   LibgenBookObject,
-  Servers,
+  StreamingServers,
 };

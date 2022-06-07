@@ -7,9 +7,9 @@ import {
   IAnimeInfo,
   IEpisodeServer,
   IVideo,
-  Servers,
+  StreamingServers,
 } from '../../../models';
-import { GogoCDN, StreamSB } from '../../../utils';
+import { GogoCDN, StreamSB, USER_AGENT } from '../../../utils';
 
 class Gogoanime extends AnimeParser {
   override readonly name = 'gogoanime';
@@ -112,27 +112,58 @@ class Gogoanime extends AnimeParser {
     }
   };
 
-  override fetchEpisodeSources = async (episodeId: string, server?: Servers): Promise<IVideo[]> => {
-    if (!episodeId.startsWith('http'))
+  override fetchEpisodeSources = async (
+    episodeId: string,
+    server: StreamingServers = StreamingServers.GogoCDN
+  ): Promise<{ headers: { [k: string]: string }; sources: IVideo[] }> => {
+    if (episodeId.startsWith('http')) {
+      const serverUrl = new URL(episodeId);
       switch (server) {
-        case Servers.GogoCDN:
-          return await new GogoCDN().extract(episodeId);
-        case Servers.StreamSB:
-          return await new StreamSB().extract(episodeId);
+        case StreamingServers.GogoCDN:
+          return {
+            headers: { Referer: serverUrl.href },
+            sources: await new GogoCDN().extract(serverUrl),
+          };
+        case StreamingServers.StreamSB:
+          return {
+            headers: { Referer: serverUrl.href, watchsb: 'streamsb', 'User-Agent': USER_AGENT },
+            sources: await new StreamSB().extract(serverUrl),
+          };
         default:
-          return await new GogoCDN().extract(episodeId);
+          return {
+            headers: { Referer: serverUrl.href },
+            sources: await new GogoCDN().extract(serverUrl),
+          };
       }
+    }
 
     try {
-      const res = await axios.get(episodeId);
+      const res = await axios.get(`${this.baseUrl}/${episodeId}`);
 
       const $ = load(res.data);
 
-      const serverUrl = new URL(`https:${$('#load_anime > div > div > iframe').attr('src')}`);
+      let serverUrl: URL;
+
+      switch (server) {
+        case StreamingServers.GogoCDN:
+          serverUrl = new URL(`https:${$('#load_anime > div > div > iframe').attr('src')}`);
+          break;
+        case StreamingServers.StreamSB:
+          serverUrl = new URL(
+            $('div.anime_video_body > div.anime_muti_link > ul > li.streamsb > a').attr(
+              'data-video'
+            )!
+          );
+          break;
+        default:
+          serverUrl = new URL(`https:${$('#load_anime > div > div > iframe').attr('src')}`);
+          break;
+      }
 
       return await this.fetchEpisodeSources(serverUrl.href, server);
     } catch (err) {
-      throw new Error("Episode doesn't exist.");
+      console.error(err);
+      throw new Error('Episode not found.');
     }
   };
 
@@ -158,9 +189,19 @@ class Gogoanime extends AnimeParser {
 
       return servers;
     } catch (err) {
-      throw new Error("Episode doesn't exist.");
+      throw new Error('Episode not found.');
     }
   };
 }
+
+(async () => {
+  const anime = new Gogoanime();
+  const searchResult = await anime.fetchEpisodeSources(
+    'one-piece-episode-1019',
+    StreamingServers.GogoCDN
+  );
+
+  console.log(searchResult);
+})();
 
 export default Gogoanime;

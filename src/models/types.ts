@@ -58,7 +58,7 @@ export interface IVideo {
    */
   url: string;
   /**
-   * The Quality of the video shouldn't include the `p` suffix
+   * The Quality of the video should include the `p` suffix
    */
   quality?: string;
   /**
@@ -69,7 +69,7 @@ export interface IVideo {
   [x: string]: unknown; // other fields
 }
 
-export enum Servers {
+export enum StreamingServers {
   GogoCDN = 'gogocdn',
   StreamSB = 'streamsb',
   Doodstream = 'doodstream',

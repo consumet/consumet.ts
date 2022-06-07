@@ -15,7 +15,7 @@ abstract class VideoExtractor {
    *
    * returns video sources (video links) available
    */
-  protected abstract extract(videoUrl: string, ...args: any): Promise<IVideo[]>;
+  protected abstract extract(videoUrl: URL, ...args: any): Promise<IVideo[]>;
 }
 
 export default VideoExtractor;
