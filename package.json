@@ -5,7 +5,8 @@
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
-        "build": "tsc"
+        "build": "tsc",
+        "test": "jest"
     },
     "files": [
         "dist"
@@ -15,7 +16,10 @@
         "url": "git+https://github.com/consumet/consumet-extentions.git"
     },
     "keywords": [],
-    "author": "consumet.org",
+    "authors": [
+        "https://github.com/riimuru",
+        "https://github.com/prince-ao"
+    ],
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/consumet/consumet-extentions/issues"
@@ -30,6 +34,9 @@
         "@types/crypto-js": "^4.1.1",
         "@types/node": "^17.0.35",
         "crypto-js": "^4.1.1",
+        "@types/jest": "^28.1.0",
+        "jest": "^28.1.0",
+        "ts-jest": "^28.0.4",
         "typescript": "^4.6.4"
     }
 }
