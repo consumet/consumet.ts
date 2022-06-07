@@ -194,14 +194,4 @@ class Gogoanime extends AnimeParser {
   };
 }
 
-(async () => {
-  const anime = new Gogoanime();
-  const searchResult = await anime.fetchEpisodeSources(
-    'one-piece-episode-1019',
-    StreamingServers.GogoCDN
-  );
-
-  console.log(searchResult);
-})();
-
 export default Gogoanime;
