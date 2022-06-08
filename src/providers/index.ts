@@ -1,3 +1,5 @@
 import * as ANIME from './anime';
+import BOOKS from './books';
+import COMICS from './comics';
 
-export { ANIME };
+export { ANIME, BOOKS, COMICS };

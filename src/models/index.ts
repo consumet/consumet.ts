@@ -2,6 +2,7 @@ import BaseProvider from './base-provider';
 import BaseParser from './base-parser';
 import AnimeParser from './anime-parser';
 import BookParser from './book-parsers';
+import ComicParser from './comic-parser';
 import VideoExtractor from './video-extractor';
 import {
   IProviderStats,
@@ -32,4 +33,5 @@ export {
   LibgenBook,
   LibgenBookObject,
   StreamingServers,
+  ComicParser,
 };

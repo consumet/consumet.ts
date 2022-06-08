@@ -6,7 +6,9 @@
     "types": "dist/index.d.ts",
     "scripts": {
         "build": "tsc",
-        "test": "jest"
+        "test": "jest",
+        "test-books": "jest ./test/books",
+        "test-comics": "jest ./test/comics"
     },
     "files": [
         "dist"
@@ -28,13 +30,14 @@
     "dependencies": {
         "ascii-url-encoder": "^1.2.0",
         "axios": "^0.27.2",
-        "cheerio": "^1.0.0-rc.11"
+        "cheerio": "^1.0.0-rc.11",
+        "ts-node": "^10.8.1"
     },
     "devDependencies": {
         "@types/crypto-js": "^4.1.1",
+        "@types/jest": "^28.1.0",
         "@types/node": "^17.0.35",
         "crypto-js": "^4.1.1",
-        "@types/jest": "^28.1.0",
         "jest": "^28.1.0",
         "ts-jest": "^28.0.4",
         "typescript": "^4.6.4"
