@@ -1,5 +1,6 @@
-import { ANIME } from './providers';
+import { ANIME, BOOKS, COMICS } from './providers';
 import { PROVIDERS_LIST } from './utils/providers-list';
 
-export default ANIME;
+const a = new BOOKS.Libgen();
+export default { ANIME, BOOKS, COMICS };
 export { PROVIDERS_LIST };

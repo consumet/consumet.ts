@@ -302,7 +302,7 @@ class Libgen extends BookParser {
     return containers;
   };
 
-  override search = async (query: string, maxResults: number) => {
+  override search = async (query: string, maxResults?: number) => {
     let page!: AxiosResponse<any, any>;
     let workingExtension = this.extensions[0];
     const containers: LibgenBook[] = [];
@@ -310,7 +310,7 @@ class Libgen extends BookParser {
       workingExtension = extension;
       page = await get(
         `${this.baseUrl}${extension}/search.php?req=${query}&view=simple&res=${
-          maxResults > 0 ? maxResults : 25
+          maxResults ? (maxResults > 0 ? maxResults : 25) : 25
         }`
       );
       if (page.status <= 399) break;

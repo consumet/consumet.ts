@@ -1,72 +1,32 @@
 # Consumet Extentions
-to build the consumet extension privately you need to run the following command:
-```
-tsc
-```
-And then on the consumet repository run:
-```
-yarn add path/to/consumet-extension // find the path to the consumet-extension
+
+> Consumet Extensons is a Node library which provides high-level APIs to get information about several entertainment mediums like books, movies, comics, anime, manga, etc.
+
+## Get Started
+
+### Installation
+
+To use Consumet Extensions in your project, run:
+```bash
+yarn add @consumet/extensions
+# or "npm i @consumet/extensions"
 ```
 
-```mermaid
-classDiagram
-      ProviderBase <|-- BaseParser
-      ProviderBase : +String name
-      ProviderBase : +String baseUrl
-      ProviderBase: +toString()
-      BaseParser <|-- AnimeParser
-      BaseParser <|-- BookParser
-      BaseParser <|-- MangaParser
-      class BaseParser{
-         +search(String url)
-      }
-      class AnimeParser{
-         +fetchAnimeInfo(String animeUrl)
-         +fetchEpisodeSources(String episodeUrl)
-         +fetchEpisodeServers(String episodeUrl)
-      }
-      class BookParser{
-         +fetchBookInfo(String bookUrl)
-      }
-            class MangaParser{
-         +fetchMangaInfo(String mangaUrl)
-      }
+### Usage
 
-```
-```mermaid
-flowchart
-    A(src)-->B(models)
-    A-->C(providers);
-    A-->D(utils);
-    B-->base-parser.ts
-    B-->anime-parser.ts
-    B-->book-parser.ts
-    B-->manga-parser.ts
-    B-->view-extractor.ts
-    B-->types.ts
-    C-->H(anime)
-    C-->I(books)
-    C-->J(manga)
-    C-->K(others)
-    D-->E(extractors)
-    E-->gogocdn.ts
-    E-->streamsb.ts
-    D-->utils.ts
-    H-->F(all)
-    H-->G(en)
-    I-->L(all)
-    I-->M(en)
-    J-->N(all)
-    J-->O(en)
-    K-->P(all)
-    K-->Q(en)
-    G-->gogoanime.ts
-    G-->9anime.ts
-    L-->lebgen.ts
-    
+**Example** - searching for a book using the libgen provider.
+```ts
+import { BOOKS, COMICS } from "@consumet/extensions"
 
+const book = new BOOKS.Libgen();
+
+console.log(books.search("One Hundred Years of Solitude"));
 ```
 
-# Requests
+## Resources
+* [API Documentation](#consumet-extentions)
+* [Examples](#consumet-extentions)
 
-# Contributing
+## Contributing to Consumet Extensions
+
+Check out [contributing guide](https://github.com/consumet/extentions/blob/master/CONTRIBUTING.md) to get an overview of Consumet Extensions development.
