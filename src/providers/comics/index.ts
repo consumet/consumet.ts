@@ -1,3 +1,3 @@
-import GetComics from './GetComics';
+import GetComics from './getComics';
 
 export default { GetComics };

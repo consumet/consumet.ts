@@ -14,8 +14,10 @@ import {
   IVideo,
   LibgenBook,
   StreamingServers,
+  GetComicsComics,
+  ComicRes,
 } from './types';
-import { LibgenBookObject } from './type-classes';
+import { LibgenBookObject, GetComicsComicsObject } from './type-objects';
 
 export {
   BaseProvider,
@@ -34,4 +36,7 @@ export {
   LibgenBookObject,
   StreamingServers,
   ComicParser,
+  GetComicsComics,
+  GetComicsComicsObject,
+  ComicRes,
 };

@@ -202,7 +202,6 @@ class Libgen extends BookParser {
         break;
       }
     }
-    console.log('Real link : ' + realLink);
     container.link = `${this.downloadIP}/main/${floorID(
       container.id
     )}/${realLink.toLowerCase()}/${encode(
