@@ -1,5 +1,5 @@
 import { Hashes } from './base-types';
-import { LibgenBook } from './types';
+import { GetComicsComics, LibgenBook } from './types';
 
 export class LibgenBookObject implements LibgenBook {
   title = '';
@@ -31,4 +31,20 @@ class HashesObject implements Hashes {
   SHA1 = '';
   SHA256 = [];
   TTH = '';
+}
+
+export class GetComicsComicsObject implements GetComicsComics {
+  image = '';
+  title = '';
+  year = '';
+  size = '';
+  excerpt = '';
+  description = '';
+  download = '';
+  category = '';
+  ufile = '';
+  mega = '';
+  mediafire = '';
+  zippyshare = '';
+  readOnline = '';
 }

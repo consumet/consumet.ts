@@ -168,3 +168,24 @@ export interface LibgenBook extends Book {
   topic: string;
   hashes: Hashes;
 }
+
+export interface GetComicsComics {
+  image: string;
+  title: string;
+  year: string;
+  size: string;
+  excerpt: string;
+  category: string;
+  description: string;
+  download: string;
+  ufile: string;
+  mega: string;
+  mediafire: string;
+  zippyshare: string;
+  readOnline: string;
+}
+
+export interface ComicRes {
+  containers: GetComicsComics[];
+  page: number;
+}

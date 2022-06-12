@@ -2,6 +2,7 @@ import BaseProvider from './base-provider';
 import BaseParser from './base-parser';
 import AnimeParser from './anime-parser';
 import BookParser from './book-parsers';
+import ComicParser from './comic-parser';
 import VideoExtractor from './video-extractor';
 import MangaParser from './manga-parser';
 import LightNovelParser from './lightnovel-parser';
@@ -27,7 +28,10 @@ import {
   ILightNovelInfo,
   ILightNovelChapter,
   ILightNovelChapterContent,
+  GetComicsComics,
+  ComicRes,
 } from './types';
+import { LibgenBookObject, GetComicsComicsObject } from './type-objects';
 
 export {
   BaseProvider,
@@ -58,4 +62,8 @@ export {
   ILightNovelInfo,
   ILightNovelChapter,
   ILightNovelChapterContent,
+  ComicParser,
+  GetComicsComics,
+  GetComicsComicsObject,
+  ComicRes,
 };

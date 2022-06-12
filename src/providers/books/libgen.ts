@@ -1,7 +1,7 @@
-import axios, { Axios, AxiosResponse } from 'axios';
+import axios, { AxiosResponse } from 'axios';
 import { load } from 'cheerio';
-import { BookParser, LibgenBook, LibgenBookObject } from '../../../models';
-import { splitAuthor, floorID, formatTitle } from '../../../utils';
+import { BookParser, LibgenBook, LibgenBookObject } from '../../models';
+import { splitAuthor, floorID, formatTitle } from '../../utils';
 import { encode } from 'ascii-url-encoder';
 
 const { get } = axios;
@@ -9,21 +9,21 @@ const { get } = axios;
 class Libgen extends BookParser {
   private readonly extensions = ['.rs', '.is', '.st'];
   protected override readonly baseUrl = 'http://libgen';
-  override readonly name = 'libgen';
+  override readonly name = 'Libgen';
   readonly downloadIP = 'http://62.182.86.140';
 
   scrapeBook = async (bookUrl: string) => {
     const container: LibgenBook = new LibgenBookObject();
     const data = await get(bookUrl);
     const $ = load(data.data);
-    for (let i = 0; i < 30; i++) {
-      console.log(`section ${i}`);
-      $(`tbody > tr:eq(${i})`)
-        .children()
-        .each((i, el) => {
-          console.log(`${i}: ${$(el).text()}`);
-        });
-    }
+    // for (let i = 0; i < 30; i++) {
+    //   console.log(`section ${i}`);
+    //   $(`tbody > tr:eq(${i})`)
+    //     .children()
+    //     .each((i, el) => {
+    //       console.log(`${i}: ${$(el).text()}`);
+    //     });
+    // }
     let rawAuthor = '';
     $('tbody > tr:eq(10)')
       .children()
@@ -202,7 +202,6 @@ class Libgen extends BookParser {
         break;
       }
     }
-    console.log('Real link : ' + realLink);
     container.link = `${this.downloadIP}/main/${floorID(
       container.id
     )}/${realLink.toLowerCase()}/${encode(
@@ -303,7 +302,7 @@ class Libgen extends BookParser {
     return containers;
   };
 
-  override search = async (query: string, maxResults: number) => {
+  override search = async (query: string, maxResults?: number) => {
     let page!: AxiosResponse<any, any>;
     let workingExtension = this.extensions[0];
     const containers: LibgenBook[] = [];
@@ -311,7 +310,7 @@ class Libgen extends BookParser {
       workingExtension = extension;
       page = await get(
         `${this.baseUrl}${extension}/search.php?req=${query}&view=simple&res=${
-          maxResults > 0 ? maxResults : 25
+          maxResults ? (maxResults > 0 ? maxResults : 25) : 25
         }`
       );
       if (page.status <= 399) break;

@@ -1,5 +1,5 @@
-import { ANIME } from './providers';
+import { ANIME, BOOKS, COMICS } from './providers';
 import { PROVIDERS_LIST } from './utils/providers-list';
 
-export default ANIME;
+export { ANIME, BOOKS, COMICS };
 export { PROVIDERS_LIST };
