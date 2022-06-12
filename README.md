@@ -24,8 +24,9 @@ console.log(books.search("One Hundred Years of Solitude"));
 ```
 
 ## Resources
-* [API Documentation](#consumet-extentions)
+* [API Documentation](https://github.com/consumet/extentions/blob/master/docs/api.md)
 * [Examples](#consumet-extentions)
+* [Provider Status]()
 
 ## Contributing to Consumet Extensions
 
