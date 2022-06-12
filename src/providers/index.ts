@@ -1,5 +1,7 @@
-import * as ANIME from './anime';
+import ANIME from './anime';
+import MANGA from './manga';
+import LIGHT_NOVEL from './light-novels';
 import BOOKS from './books';
 import COMICS from './comics';
 
-export { ANIME, BOOKS, COMICS };
+export { ANIME, MANGA, BOOKS, COMICS, LIGHT_NOVEL };

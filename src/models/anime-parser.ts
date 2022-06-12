@@ -2,7 +2,7 @@ import { BaseParser } from '.';
 
 abstract class AnimeParser extends BaseParser {
   /**
-   * takes anime link
+   * takes anime link or id
    *
    * returns anime info
    */
