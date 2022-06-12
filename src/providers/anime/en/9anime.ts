@@ -260,10 +260,4 @@ class NineAnime extends AnimeParser {
   }
 }
 
-(async () => {
-  const parser = new NineAnime();
-  const searchResult = await parser.search('one piece');
-  console.log(searchResult.results.forEach((result) => console.log(result.subOrDub)));
-})();
-
 export default NineAnime;
