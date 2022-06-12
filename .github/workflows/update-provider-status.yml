@@ -18,4 +18,4 @@ jobs:
         with:
           node-version: '14'
       - run: npm install -g ts-node
-      - run: ts-node ./provider_status/scripts.ts
+      - run: ts-node ./provider_status/script.ts
