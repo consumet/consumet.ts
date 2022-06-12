@@ -2,7 +2,7 @@ name: update-providers-status
 
 on:
   schedule:
-    - cron: ""
+    - cron: "30 08-20 * * *"
   workflow_dispatch:
 
 jobs:
