@@ -6,7 +6,6 @@ const main = async () => {
   output += '| **provider** | **Status** | **Time** |\n|:--------:|:------:|:----:|\n';
   output = await checkLibgen({ output });
   output = await checkGetComics({ output });
-
   fs.writeFileSync('./provider_status/README.md', output);
 };
 
@@ -27,7 +26,7 @@ const checkLibgen = async (output: { output: string }) => {
 
     return output.output;
   } catch (e: any) {
-    if (e.config.url == libgenDownload) {
+    if (e?.config?.url == libgenDownload) {
       output.output += `| Libgen Download | 🟥 500 | 3s |\n`;
     }
   }
