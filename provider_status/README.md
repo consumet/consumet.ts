@@ -1,6 +1,6 @@
 # Provider Status
-| **provider** | **Status** | **Time(s)** |
+| **provider** | **Status** | **Time** |
 |:--------:|:------:|:----:|
-| Libgen | 200 | 1.01 |
-| Libgen Download | 500 | 3 |
-| GetComics | 200 | 0.475 |
+| Libgen | 🟩 200 | 1.36s |
+| Libgen Download | 🟥 500 | 3s |
+| GetComics | 🟩 200 | 0.586s |
