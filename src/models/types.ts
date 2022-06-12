@@ -31,8 +31,9 @@ export interface IAnimeInfo {
   genres?: string[];
   description?: string;
   type?: string;
-  status?: string;
+  status?: AnimeStatus;
   totalEpisodes?: number;
+  subOrDub?: SubOrSub;
   episodes?: IAnimeEpisode[];
   [x: string]: unknown; // other fields
 }
@@ -74,6 +75,85 @@ export enum StreamingServers {
   StreamSB = 'streamsb',
   Doodstream = 'doodstream',
   Mp4Upload = 'mp4upload',
+}
+
+export enum AnimeStatus {
+  ONGOING = 'Ongoing',
+  COMPLETED = 'Completed',
+  HIATUS = 'Hiatus',
+  CANCELLED = 'Cancelled',
+  NOT_YET_AIRED = 'Not yet aired',
+  UNKNOWN = 'Unknown',
+}
+
+export enum SubOrSub {
+  SUB = 'sub',
+  DUB = 'dub',
+}
+
+export interface IMangaResult {
+  id: string;
+  title: string | [lang: string][];
+  altTtitles?: string | [lang: string][];
+  image?: string;
+  description?: string | [lang: string][] | { [lang: string]: string };
+  status?: string;
+  releaseDate?: number | string;
+  [x: string]: unknown; // other fields
+}
+
+export interface IMangaSearch {
+  currentPage?: number;
+  results: IMangaResult[];
+}
+
+export interface IMangaChapter {
+  id: string;
+  title: string;
+  volume?: number;
+  pages?: number;
+}
+
+export interface IMangaInfo extends IMangaResult {
+  authors?: string[];
+  genres?: string[];
+  links?: string[];
+  chapters?: IMangaChapter[];
+}
+
+export interface ILightNovelResult {
+  id: string;
+  title: string;
+  url: string;
+  image?: string;
+  [x: string]: unknown; // other fields
+}
+
+export interface ILightNovelSearch {
+  currentPage?: number;
+  results: ILightNovelResult[];
+}
+
+export interface ILightNovelChapter {
+  id: string;
+  title: string;
+  volume?: number | string;
+  url?: string;
+}
+
+export interface ILightNovelChapterContent {
+  text: string;
+  html?: string;
+}
+
+export interface ILightNovelInfo extends ILightNovelResult {
+  authors?: string[];
+  genres?: string[];
+  description?: string;
+  chapters?: ILightNovelChapter[];
+  status?: string;
+  views?: number;
+  rating?: number;
 }
 
 export interface LibgenBook extends Book {

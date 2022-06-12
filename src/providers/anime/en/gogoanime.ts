@@ -8,6 +8,8 @@ import {
   IEpisodeServer,
   IVideo,
   StreamingServers,
+  AnimeStatus,
+  SubOrSub,
 } from '../../../models';
 import { GogoCDN, StreamSB, USER_AGENT } from '../../../utils';
 
@@ -16,7 +18,7 @@ class Gogoanime extends AnimeParser {
   protected override baseUrl = 'https://gogoanime.gg';
 
   override search = async (query: string, page: number = 1): Promise<IAnimeSearch> => {
-    const searchResult: IAnimeSearch = { hasNextPage: false, results: [] };
+    const searchResult: IAnimeSearch = { currentPage: page, hasNextPage: false, results: [] };
     try {
       const res = await axios.get(
         `${this.baseUrl}/search.html?keyword=${encodeURIComponent(query)}&page=${page}`
@@ -24,7 +26,6 @@ class Gogoanime extends AnimeParser {
 
       const $ = load(res.data);
 
-      searchResult.currentPage = page;
       searchResult.hasNextPage =
         $('div.anime_name.new_series > div > div > ul > li.selected').next().length > 0;
 
@@ -35,6 +36,9 @@ class Gogoanime extends AnimeParser {
           url: `${this.baseUrl}/${$(el).find('p.name > a').attr('href')}`,
           image: $(el).find('div > a > img').attr('src'),
           releaseDate: $(el).find('p.released').text().trim(),
+          subOrDub: $(el).find('p.name > a').text().toLowerCase().includes('dub')
+            ? SubOrSub.DUB
+            : SubOrSub.SUB,
         });
       });
 
@@ -75,8 +79,29 @@ class Gogoanime extends AnimeParser {
         .text()
         .trim()
         .replace('Plot Summary: ', '');
+
+      animeInfo.subOrDub = animeInfo.title.toLowerCase().includes('dub')
+        ? SubOrSub.DUB
+        : SubOrSub.SUB;
+
       animeInfo.type = $('div.anime_info_body_bg > p:nth-child(4) > a').text().trim();
-      animeInfo.status = $('div.anime_info_body_bg > p:nth-child(8) > a').text().trim();
+
+      animeInfo.status = AnimeStatus.UNKNOWN;
+
+      switch ($('div.anime_info_body_bg > p:nth-child(8) > a').text().trim()) {
+        case 'Ongoing':
+          animeInfo.status = AnimeStatus.ONGOING;
+          break;
+        case 'Completed':
+          animeInfo.status = AnimeStatus.COMPLETED;
+          break;
+        case 'Upcoming':
+          animeInfo.status = AnimeStatus.NOT_YET_AIRED;
+          break;
+        default:
+          animeInfo.status = AnimeStatus.UNKNOWN;
+          break;
+      }
       animeInfo.otherName = $('div.anime_info_body_bg > p:nth-child(9)')
         .text()
         .replace('Other name: ', '')
