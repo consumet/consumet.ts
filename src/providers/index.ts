@@ -1,6 +1,6 @@
-import * as ANIME from './anime';
-import * as MANGA from './manga';
-import * as LIGHT_NOVEL from './light-novels';
+import ANIME from './anime';
+import MANGA from './manga';
+import LIGHT_NOVEL from './light-novels';
 import BOOKS from './books';
 import COMICS from './comics';
 

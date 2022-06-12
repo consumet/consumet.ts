@@ -6,7 +6,6 @@ import ComicParser from './comic-parser';
 import VideoExtractor from './video-extractor';
 import MangaParser from './manga-parser';
 import LightNovelParser from './lightnovel-parser';
-import { LibgenBookObject } from './type-classes';
 import {
   IProviderStats,
   IAnimeSearch,

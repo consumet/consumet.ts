@@ -1,3 +1,3 @@
 import ReadLightNovels from './readlightnovels';
 
-export { ReadLightNovels };
+export default { ReadLightNovels };

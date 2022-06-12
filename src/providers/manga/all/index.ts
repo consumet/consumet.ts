@@ -1,3 +1,3 @@
 import MangaDex from './mangadex';
 
-export { MangaDex };
+export default { MangaDex };

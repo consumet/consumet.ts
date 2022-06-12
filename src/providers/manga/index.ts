@@ -1,3 +1,3 @@
-import * as all from './all';
+import all from './all';
 
-export { all };
+export default { all };
