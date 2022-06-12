@@ -1,0 +1,21 @@
+name: update-providers-status
+
+on:
+  schedule:
+    - cron: ""
+  workflow_dispatch:
+
+jobs:
+  update_providers:
+    runs-on: ubuntu-latest
+    name: update-providers-status-action
+    permissions:
+      contents: write
+      pacakges: write
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '14'
+      - run: npm install -g ts-node
+      - run: ts-node ./provider_status/scripts.ts
