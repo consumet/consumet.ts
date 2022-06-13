@@ -28,6 +28,8 @@ console.log(books.search("One Hundred Years of Solitude"));
 * [Examples](https://github.com/consumet/extentions/tree/master/examples)
 * [Provider Status](https://github.com/consumet/providers-status/blob/main/README.md)
 
-## Contributing to Consumet Extensions
+## Source Request
+Make a new issue with the label `Source Request` And the name of the source next to it, as well as a link to the source in the body paragraph.
 
+## Contributing to Consumet Extensions
 Check out [contributing guide](https://github.com/consumet/extentions/blob/master/CONTRIBUTING.md) to get an overview of Consumet Extensions development.

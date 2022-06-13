@@ -1,4 +1,4 @@
-import { ANIME, BOOKS, COMICS } from '../providers';
+import { ANIME, MANGA, BOOKS, COMICS, LIGHT_NOVEL } from '../providers';
 
 /**
  * List of providers
@@ -7,8 +7,9 @@ import { ANIME, BOOKS, COMICS } from '../providers';
  */
 export const PROVIDERS_LIST = {
   ANIME: [new ANIME.en.Gogoanime(), new ANIME.en.NineAnime()],
-  MANGA: [],
+  MANGA: [new MANGA.all.MangaDex()],
   BOOKS: [new BOOKS.Libgen()],
   COMICS: [new COMICS.GetComics()],
+  LIGHT_NOVELS: [new LIGHT_NOVEL.en.ReadLightNovels()],
   OTHERS: [],
 };
