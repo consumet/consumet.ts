@@ -31,7 +31,7 @@ visualization of the abstract classes hierarchy:
 <summary>Hierarchy visualization</summary>
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'fontSize': '15px' }}}%%
+%%{init: {'themeVariables': { 'fontSize': '15px'}}}%%
 classDiagram
       ProviderBase <|-- BaseParser
       ProviderBase : +String name
