@@ -29,7 +29,7 @@ console.log(books.search("One Hundred Years of Solitude"));
 * [Provider Status](https://github.com/consumet/providers-status/blob/main/README.md)
 
 ## Provider Request
-Make a new issue with the label `Provider Request` And the name of the source next to it, as well as a link to the source in the body paragraph.
+Make a new issue with the label `Provider Request` And the name of the provider next to it, as well as a link to the provider in the body paragraph.
 
 ## Contributing to Consumet Extensions
 Check out [contributing guide](https://github.com/consumet/extentions/blob/master/CONTRIBUTING.md) to get an overview of Consumet Extensions development.
