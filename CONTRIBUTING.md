@@ -29,6 +29,7 @@ You are welcome to add anything to the abstract class that you believe will be b
 visualization of the abstract classes hierarchy:
 <details>
 <summary>Hierarchy visualization</summary>
+
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': { 'fontSize': '15px', 'tertiaryColor': '#fff0f0', 'primaryColor': '#ffcccc'}}}%%
 classDiagram
