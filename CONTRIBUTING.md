@@ -1,5 +1,5 @@
 # Contributing
-This guide is for people who are interested in contributing to Consumet Extensions. It is not a complete guide yet, but it should help you get started. If you have any questions or any suggestions, please open an [issue](https://github.com/consumet/extentions/issues) with the label `documentation`.
+This guide is for the people who are interested in contributing to Consumet Extensions. It is not a complete guide yet, but it should help you get started. If you have any questions or any suggestions, please open a [issue](https://github.com/consumet/extentions/issues) with the label `documentation`.
 
 ## Getting Started
 1. Clone the repository.
