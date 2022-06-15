@@ -7,6 +7,8 @@ export interface Book {
   volume: string;
   series: string;
   isbn: string[];
+  image: string;
+  description: string;
   link: string;
 }
 

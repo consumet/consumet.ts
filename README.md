@@ -16,7 +16,7 @@ yarn add @consumet/extensions
 
 **Example** - searching for a book using the libgen provider.
 ```ts
-import { BOOKS, COMICS } from "@consumet/extensions"
+import { BOOKS } from "@consumet/extensions"
 
 const book = new BOOKS.Libgen();
 

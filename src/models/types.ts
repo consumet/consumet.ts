@@ -165,8 +165,6 @@ export interface LibgenBook extends Book {
   format: string;
   size: string;
   pages: string;
-  image: string;
-  description: string;
   tableOfContents: string;
   topic: string;
   hashes: Hashes;
@@ -191,4 +189,9 @@ export interface GetComicsComics {
 export interface ComicRes {
   containers: GetComicsComics[];
   page: number;
+}
+
+export interface ZLibrary extends Book {
+  bookRating: string;
+  fileQuality: string;
 }

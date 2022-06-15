@@ -10,7 +10,7 @@ class Libgen extends BookParser {
   private readonly extensions = ['.rs', '.is', '.st'];
   protected override readonly baseUrl = 'http://libgen';
   override readonly name = 'Libgen';
-  readonly downloadIP = 'http://62.182.86.140';
+  private readonly downloadIP = 'http://62.182.86.140';
 
   protected override logo =
     'https://f-droid.org/repo/com.manuelvargastapia.libgen/en-US/icon_TP2ezvMwW5ovE-wixagF1WCThMUohX3T_kzYhuZQ8aY=.png';
@@ -20,14 +20,6 @@ class Libgen extends BookParser {
     const container: LibgenBook = new LibgenBookObject();
     const data = await get(bookUrl);
     const $ = load(data.data);
-    // for (let i = 0; i < 30; i++) {
-    //   console.log(`section ${i}`);
-    //   $(`tbody > tr:eq(${i})`)
-    //     .children()
-    //     .each((i, el) => {
-    //       console.log(`${i}: ${$(el).text()}`);
-    //     });
-    // }
     let rawAuthor = '';
     $('tbody > tr:eq(10)')
       .children()
