@@ -7,6 +7,10 @@ class MangaDex extends MangaParser {
   override readonly name = 'mangadex';
   protected override baseUrl = 'https://mangadex.org';
 
+  protected override logo =
+    'https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2F1391016345714757632%2Fxbt_jW78.jpg';
+  protected override classPath = 'MANGA.all.MangaDex';
+
   private readonly apiUrl = 'https://api.mangadex.org';
 
   override fetchMangaInfo = async (mangaId: string): Promise<IMangaInfo> => {

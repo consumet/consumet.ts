@@ -14,8 +14,12 @@ import {
 import { GogoCDN, StreamSB, USER_AGENT } from '../../../utils';
 
 class Gogoanime extends AnimeParser {
-  override readonly name = 'gogoanime';
+  override readonly name = 'Gogoanime';
   protected override baseUrl = 'https://gogoanime.gg';
+
+  protected override logo =
+    'https://i0.wp.com/cloudfuji.com/wp-content/uploads/2021/12/gogoanime.png?fit=300%2C400&ssl=1';
+  protected override classPath = 'ANIME.en.Gogoanime';
 
   override search = async (query: string, page: number = 1): Promise<IAnimeSearch> => {
     const searchResult: IAnimeSearch = { currentPage: page, hasNextPage: false, results: [] };

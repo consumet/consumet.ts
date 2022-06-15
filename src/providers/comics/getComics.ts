@@ -8,6 +8,11 @@ const s = async () => {};
 class getComics extends ComicParser {
   override readonly baseUrl = 'https://getcomics.info/';
   override readonly name = 'GetComics';
+
+  override readonly logo =
+    'https://scontent-lga3-1.xx.fbcdn.net/v/t31.18172-8/10923821_1548503832063793_2041220008970231476_o.png?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=aQyuLlPZtQAAX8dJviD&_nc_ht=scontent-lga3-1.xx&oh=00_AT_yPS4uuNDGirSqXnTwl2VGS9leFv4-Ujt7l6l5_FZeLw&oe=62D00D68';
+  override readonly classPath = 'COMICS.GetComics';
+
   override search = async (query: string, pages?: number) => {
     const { data } = await axios.get(`${this.baseUrl}/page/${pages ? pages : 1}/?s=${query}`);
     const $ = load(data);

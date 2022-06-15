@@ -15,6 +15,9 @@ class ReadLightNovels extends LightNovelParser {
   override readonly name = 'readlightnovels';
   protected override baseUrl = 'https://readlightnovels.net';
 
+  protected override logo = 'https://i.imgur.com/RDPjbc6.png';
+  protected override classPath = 'LIGHT_NOVELS.en.ReadLightNovels';
+
   /**
    *
    * @param lightNovelUrl light novel link or id

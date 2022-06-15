@@ -26,9 +26,8 @@ src/models/manga-parser.ts # MangaParser
 ```
 You are welcome to add anything to the abstract class that you believe will be beneficial.
 
-visualization of the abstract classes hierarchy:
 <details>
-<summary>Hierarchy visualization</summary>
+<summary>visualization of the abstract classes hierarchy</summary>
 
 ```mermaid
 %%{init: {'themeVariables': { 'fontSize': '15px'}}}%%
@@ -70,6 +69,11 @@ classDiagram
 
 
 #### Project structure
+***\<category>*** is the category of the provider. For example, `anime` or `book`, `etc`.
+***\<lang>*** is the language of the provider. For example, `en` or `jp`, `etc`.
+***\<provider-name>*** is the name of the provider. For example, `libgen` or `gogoanime`, `etc`. (must be in camel case)
+
+
 ```bash
 > tree src/
 src/
@@ -84,7 +88,7 @@ src/
 └── utils
 ```
 ### Setting up the provider
-1. Create a new file in the `src/providers/<category>/<lang>/xxxxx.ts` folder.
+1. Create a new file in the `src/providers/<category>/<lang>/<provider-name>.ts` folder.
 2. Import the abstract class from the `src/models/<category>-parser.ts` file. if you are writing an anime provider, you would need to implement the abstract class `AnimeParser`, which is defined in the `src/models/anime-parser.ts` file.
 3. Start writing your provider code.
 4. Add the provider to the `src/providers/<category>/<lang>/index.ts` file.

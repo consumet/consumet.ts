@@ -12,6 +12,10 @@ class Libgen extends BookParser {
   override readonly name = 'Libgen';
   readonly downloadIP = 'http://62.182.86.140';
 
+  protected override logo =
+    'https://f-droid.org/repo/com.manuelvargastapia.libgen/en-US/icon_TP2ezvMwW5ovE-wixagF1WCThMUohX3T_kzYhuZQ8aY=.png';
+  protected override classPath = 'BOOKS.Libgen';
+
   scrapeBook = async (bookUrl: string) => {
     const container: LibgenBook = new LibgenBookObject();
     const data = await get(bookUrl);
