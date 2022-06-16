@@ -4,7 +4,7 @@ import { encode } from 'ascii-url-encoder';
 import { MangaParser, IMangaSearch, IMangaInfo } from '../../../models/';
 
 class MangaDex extends MangaParser {
-  override readonly name = 'mangadex';
+  override readonly name = 'MangaDex';
   protected override baseUrl = 'https://mangadex.org';
 
   protected override logo =

@@ -32,4 +32,4 @@ console.log(books.search("One Hundred Years of Solitude"));
 Make a new issue with the label `Provider Request` And the name of the provider next to it, as well as a link to the provider in the body paragraph.
 
 ## Contributing to Consumet Extensions
-Check out [contributing guide](https://github.com/consumet/extentions/blob/master/CONTRIBUTING.md) to get an overview of Consumet Extensions development.
+Check out [contributing guide](https://consumet.org/docs/contributing/how-to-contribute/#contribute-to-code) to get an overview of Consumet Extensions development.

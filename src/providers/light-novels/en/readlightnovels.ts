@@ -12,7 +12,7 @@ import {
 import { USER_AGENT } from '../../../utils';
 
 class ReadLightNovels extends LightNovelParser {
-  override readonly name = 'readlightnovels';
+  override readonly name = 'Read Light Novels';
   protected override baseUrl = 'https://readlightnovels.net';
 
   protected override logo = 'https://i.imgur.com/RDPjbc6.png';
