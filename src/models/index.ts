@@ -29,8 +29,9 @@ import {
   ILightNovelChapterContent,
   GetComicsComics,
   ComicRes,
+  ZLibrary,
 } from './types';
-import { LibgenBookObject, GetComicsComicsObject } from './type-objects';
+import { LibgenBookObject, GetComicsComicsObject, ZLibraryObject } from './type-objects';
 
 export {
   BaseProvider,
@@ -65,4 +66,6 @@ export {
   GetComicsComics,
   GetComicsComicsObject,
   ComicRes,
+  ZLibrary,
+  ZLibraryObject,
 };

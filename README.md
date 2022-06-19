@@ -18,13 +18,35 @@ yarn add @consumet/extensions
 ```ts
 import { BOOKS } from "@consumet/extensions"
 
-const book = new BOOKS.Libgen();
 
-console.log(books.search("One Hundred Years of Solitude"));
+const main = async () => {
+  const books = new BOOKS.Libgen();
+
+  const data = await books.search('pride and prejudice');
+
+  for (let v of data) {
+    console.log(v.title);
+  }
+};
+
+main();
+```
+
+**Exmaple** - searching for anime using the gogoanime provider.
+```ts
+import { ANIME } from "@consumet/extensions"
+
+const main = async () => {
+  const gogoanime = new ANIME.en.Gogoanime();
+
+  const onePiece = await gogoanime.search("One Piece");
+
+  console.log(onePience);
+}
 ```
 
 ## Resources
-* [API Documentation](https://github.com/consumet/extentions/blob/master/docs/api.md)
+* [API Documentation](https://github.com/consumet/extensions/tree/master/docs)
 * [Examples](https://github.com/consumet/extentions/tree/master/examples)
 * [Provider Status](https://github.com/consumet/providers-status/blob/main/README.md)
 

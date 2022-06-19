@@ -1,3 +1,5 @@
+import { load } from 'cheerio';
+
 export const USER_AGENT =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36';
 
@@ -31,4 +33,31 @@ export const floorID = (id: string) => {
 export const formatTitle = (title: string) => {
   const result = title.replace(/[0-9]/g, '');
   return result.trim();
+};
+
+export const genElement = (s: string, e: string) => {
+  if (s == '') return;
+  const $ = load(e);
+  let i = 0;
+  let str = '';
+  let el = $();
+  for (; i < s.length; i++) {
+    if (s[i] == ' ') {
+      el = $(str);
+      str = '';
+      i++;
+      break;
+    }
+    str += s[i];
+  }
+  for (; i < s.length; i++) {
+    if (s[i] == ' ') {
+      el = $(el).children(str);
+      str = '';
+      continue;
+    }
+    str += s[i];
+  }
+  el = $(el).children(str);
+  return el;
 };
