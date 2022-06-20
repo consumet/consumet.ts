@@ -4,10 +4,10 @@
  * add new providers here
  */
 export declare const PROVIDERS_LIST: {
-    ANIME: any[];
-    MANGA: any[];
+    ANIME: (import("../providers/anime/gogoanime").default | import("../providers/anime/9anime").default)[];
+    MANGA: import("../providers/manga/mangadex").default[];
     BOOKS: import("../providers/books/libgen").default[];
     COMICS: import("../providers/comics/getComics").default[];
-    LIGHT_NOVELS: any[];
+    LIGHT_NOVELS: import("../providers/light-novels/readlightnovels").default[];
     OTHERS: never[];
 };
