@@ -26,6 +26,7 @@ class Libgen extends BookParser {
    * @returns {Promise<LibgenBook>}
    */
   scrapeBook = async (bookUrl: string): Promise<LibgenBook> => {
+    bookUrl = encodeURIComponent(bookUrl);
     const container: LibgenBook = new LibgenBookObject();
     const { data } = await get(bookUrl);
     const $ = load(data);
@@ -228,6 +229,7 @@ class Libgen extends BookParser {
    * @returns {Promise<LibgenBook[]>}
    */
   fastSearch = async (query: string, maxResults: number): Promise<LibgenBook[]> => {
+    query = encodeURIComponent(query);
     let page!: AxiosResponse<any, any>;
     let workingExtension = this.extensions[0];
     const containers: LibgenBook[] = [];
@@ -325,6 +327,7 @@ class Libgen extends BookParser {
    * @returns {Promise<LibgenBook[]>}
    */
   override search = async (query: string, maxResults?: number): Promise<LibgenBook[]> => {
+    query = encodeURIComponent(query);
     let page!: AxiosResponse<any, any>;
     let workingExtension = this.extensions[0];
     const containers: LibgenBook[] = [];
@@ -528,6 +531,7 @@ class Libgen extends BookParser {
    * @returns {Promise<LibgenBook[]>}
    */
   fastScrapePage = async (pageUrl: string): Promise<LibgenBook[]> => {
+    pageUrl = encodeURIComponent(pageUrl);
     let page!: AxiosResponse<any, any>;
     let workingExtension = this.extensions[0];
     const containers: LibgenBook[] = [];
@@ -621,6 +625,7 @@ class Libgen extends BookParser {
    * @returns {Promise<LibgenBook[]>}
    */
   scrapePage = async (pageUrl: string, maxResults: number = 25): Promise<LibgenBook[]> => {
+    pageUrl = encodeURIComponent(pageUrl);
     let page!: AxiosResponse<any, any>;
     let workingExtension = this.extensions[0];
     const containers: LibgenBook[] = [];
@@ -809,8 +814,5 @@ class Libgen extends BookParser {
     return containers;
   };
 }
-
-const ai = new Libgen();
-ai.scrapeBook;
 
 export default Libgen;

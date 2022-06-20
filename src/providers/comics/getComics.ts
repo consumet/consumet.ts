@@ -16,6 +16,7 @@ class getComics extends ComicParser {
   override readonly classPath = 'COMICS.GetComics';
 
   override search = async (query: string, pages?: number) => {
+    query = encodeURIComponent(query);
     const { data } = await get(`${this.baseUrl}/page/${pages ? pages : 1}/?s=${query}`);
     const $ = load(data);
     const res: ComicRes = { containers: [], page: pages ? pages : 1 };
