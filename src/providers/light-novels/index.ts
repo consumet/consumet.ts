@@ -1,3 +1,3 @@
-import en from './en';
+import ReadLightNovels from './readlightnovels';
 
-export default { en };
+export default { ReadLightNovels };

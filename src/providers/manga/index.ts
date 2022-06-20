@@ -1,3 +1,3 @@
-import all from './all';
+import MangaDex from './mangadex';
 
-export default { all };
+export default { MangaDex };

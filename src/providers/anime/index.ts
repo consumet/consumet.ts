@@ -1,3 +1,4 @@
-import en from './en';
+import Gogoanime from './gogoanime';
+import NineAnime from './9anime';
 
-export default { en };
+export default { Gogoanime, NineAnime };

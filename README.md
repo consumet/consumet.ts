@@ -49,7 +49,7 @@ main();
 import { ANIME } from "@consumet/extensions"
 
 const main = async () => {
-  const gogoanime = new ANIME.en.Gogoanime();
+  const gogoanime = new ANIME.Gogoanime();
 
   const onePiece = await gogoanime.search("One Piece");
 

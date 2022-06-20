@@ -10,8 +10,8 @@ import {
   StreamingServers,
   AnimeStatus,
   SubOrSub,
-} from '../../../models';
-import { GogoCDN, StreamSB, USER_AGENT } from '../../../utils';
+} from '../../models';
+import { GogoCDN, StreamSB, USER_AGENT } from '../../utils';
 
 class Gogoanime extends AnimeParser {
   override readonly name = 'Gogoanime';
@@ -19,7 +19,7 @@ class Gogoanime extends AnimeParser {
 
   protected override logo =
     'https://i0.wp.com/cloudfuji.com/wp-content/uploads/2021/12/gogoanime.png?fit=300%2C400&ssl=1';
-  protected override classPath = 'ANIME.en.Gogoanime';
+  protected override classPath = 'ANIME.Gogoanime';
 
   override search = async (query: string, page: number = 1): Promise<IAnimeSearch> => {
     const searchResult: IAnimeSearch = { currentPage: page, hasNextPage: false, results: [] };

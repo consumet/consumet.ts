@@ -9,7 +9,7 @@ import {
   IAnimeEpisode,
   AnimeStatus,
   SubOrSub,
-} from '../../../models';
+} from '../../models';
 
 /**
  * @deprecated
@@ -21,7 +21,7 @@ class NineAnime extends AnimeParser {
 
   protected override logo =
     'https://d1nxzqpcg2bym0.cloudfront.net/google_play/com.my.nineanime/87b2fe48-9c36-11eb-8292-21241b1c199b/128x128';
-  protected override classPath = 'ANIME.en.NineAnime';
+  protected override classPath = 'ANIME.NineAnime';
 
   override isWorking = false;
 

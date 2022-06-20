@@ -1,7 +1,7 @@
 import axios, { AxiosError, AxiosResponse } from 'axios';
 import { encode } from 'ascii-url-encoder';
 
-import { MangaParser, IMangaSearch, IMangaInfo } from '../../../models/';
+import { MangaParser, IMangaSearch, IMangaInfo } from '../../models';
 
 class MangaDex extends MangaParser {
   override readonly name = 'MangaDex';
@@ -9,7 +9,7 @@ class MangaDex extends MangaParser {
 
   protected override logo =
     'https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2F1391016345714757632%2Fxbt_jW78.jpg';
-  protected override classPath = 'MANGA.all.MangaDex';
+  protected override classPath = 'MANGA.MangaDex';
 
   private readonly apiUrl = 'https://api.mangadex.org';
 
