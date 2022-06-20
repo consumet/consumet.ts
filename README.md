@@ -49,9 +49,10 @@ const main = async () => {
 * [API Documentation](https://github.com/consumet/extensions/tree/master/docs)
 * [Examples](https://github.com/consumet/extentions/tree/master/examples)
 * [Provider Status](https://github.com/consumet/providers-status/blob/main/README.md)
+* [Changelog](https://github.com/consumet/extensions/blob/master/CHANGELOG.md)
 
 ## Provider Request
-Make a new issue with the label `Provider Request` And the name of the provider next to it, as well as a link to the provider in the body paragraph.
+Make a new issue with the label `Provider Request`, And the name of the provider on the title, as well as a link to the provider in the body paragraph.
 
 ## Contributing to Consumet Extensions
 Check out [contributing guide](https://consumet.org/docs/contributing/how-to-contribute/#contribute-to-code) to get an overview of Consumet Extensions development.

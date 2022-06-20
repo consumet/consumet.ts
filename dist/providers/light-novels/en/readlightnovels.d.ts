@@ -1,6 +1,6 @@
 import { LightNovelParser, ILightNovelSearch, ILightNovelInfo, ILightNovelChapterContent } from '../../../models';
 declare class ReadLightNovels extends LightNovelParser {
-    readonly name = "readlightnovels";
+    readonly name = "Read Light Novels";
     protected baseUrl: string;
     protected logo: string;
     protected classPath: string;

@@ -1,11 +1,12 @@
 {
-    "name": "consumet-extentions",
+    "name": "@consumet/extensions",
     "version": "1.0.0",
-    "description": "Consumet extentions",
+    "description": "Consumet extensions",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
         "build": "tsc",
+        "version": "auto-changelog -p && git add CHANGELOG.md",
         "test": "jest",
         "test-anime": "jest ./test/anime",
         "test-books": "jest ./test/books",
@@ -19,7 +20,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/consumet/consumet-extentions.git"
+        "url": "git+https://github.com/consumet/extensions.git"
     },
     "keywords": [],
     "authors": [
@@ -28,9 +29,9 @@
     ],
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/consumet/consumet-extentions/issues"
+        "url": "https://github.com/consumet/extensions/issues"
     },
-    "homepage": "https://github.com/consumet/consumet-extentions#readme",
+    "homepage": "https://github.com/consumet/extensions#readme",
     "dependencies": {
         "ascii-url-encoder": "^1.2.0",
         "axios": "^0.27.2",
@@ -42,9 +43,19 @@
         "@types/crypto-js": "^4.1.1",
         "@types/jest": "^28.1.0",
         "@types/node": "^17.0.35",
+        "auto-changelog": "^2.4.0",
         "crypto-js": "^4.1.1",
         "jest": "^28.1.0",
         "ts-jest": "^28.0.4",
         "typescript": "^4.6.4"
-    }
+    },
+    "auto-changelog": {
+        "template": "keepachangelog"
+    },
+    "directories": {
+        "doc": "docs",
+        "example": "examples",
+        "test": "test"
+    },
+    "author": ""
 }

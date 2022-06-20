@@ -16,6 +16,7 @@ const axios_1 = __importDefault(require("axios"));
 const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
 const utils_1 = require("../../utils");
+const { get } = axios_1.default;
 const s = () => __awaiter(void 0, void 0, void 0, function* () { });
 class getComics extends models_1.ComicParser {
     constructor() {
@@ -25,7 +26,7 @@ class getComics extends models_1.ComicParser {
         this.logo = 'https://scontent-lga3-1.xx.fbcdn.net/v/t31.18172-8/10923821_1548503832063793_2041220008970231476_o.png?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=aQyuLlPZtQAAX8dJviD&_nc_ht=scontent-lga3-1.xx&oh=00_AT_yPS4uuNDGirSqXnTwl2VGS9leFv4-Ujt7l6l5_FZeLw&oe=62D00D68';
         this.classPath = 'COMICS.GetComics';
         this.search = (query, pages) => __awaiter(this, void 0, void 0, function* () {
-            const { data } = yield axios_1.default.get(`${this.baseUrl}/page/${pages ? pages : 1}/?s=${query}`);
+            const { data } = yield get(`${this.baseUrl}/page/${pages ? pages : 1}/?s=${query}`);
             const $ = (0, cheerio_1.load)(data);
             const res = { containers: [], page: pages ? pages : 1 };
             $('article').each((i, el) => {
@@ -44,7 +45,7 @@ class getComics extends models_1.ComicParser {
             });
             for (let container of res.containers) {
                 if (container.ufile != '') {
-                    const { data } = yield axios_1.default.get(container.ufile);
+                    const { data } = yield get(container.ufile);
                     const $ = (0, cheerio_1.load)(data);
                     container.download = $('.aio-red[title="Download Now"]').attr('href') || '';
                     container.readOnline = $('.aio-red[title="Read Online"]').attr('href') || '';
