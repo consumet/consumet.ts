@@ -1,5 +1,5 @@
 {
-    "name": "consumet-extensions",
+    "name": "@consumet/extensions",
     "version": "1.0.0",
     "description": "Consumet extensions",
     "main": "dist/index.js",
@@ -51,5 +51,11 @@
     },
     "auto-changelog": {
         "template": "keepachangelog"
-    }
+    },
+    "directories": {
+        "doc": "docs",
+        "example": "examples",
+        "test": "test"
+    },
+    "author": ""
 }
