@@ -1,6 +1,18 @@
 # Consumet Extentions
 
-> Consumet Extensons is a Node library which provides high-level APIs to get information about several entertainment mediums like books, movies, comics, anime, manga, etc.
+Consumet Extensons is a Node library which provides high-level APIs to get information about several entertainment mediums like books, movies, comics, anime, manga, etc.
+
+<p align="center">
+<a href="https://www.npmjs.com/package/@consumet/extensions">
+    <img src="https://img.shields.io/npm/v/@consumet/extensions?style=flat-square" alt="npm (scoped)">
+  </a>
+  <a href="https://github.com/consumet/extensions/actions?query=workflow%3A%2Node.js+CI%22">
+    <img src="https://img.shields.io/github/workflow/status/consumet/extensions/Node.js%20CI/master?style=flat-square" alt="GitHub Workflow Status (branch)">
+  </a>
+    <a href="https://discord.gg/qTPfvMxzNH">
+    <img src="https://img.shields.io/discord/987492554486452315.svg?label=discord&labelColor=7289da&color=2c2f33" alt="Discord">
+  </a>
+</p>
 
 ## Get Started
 
