@@ -1,7 +1,7 @@
+import Gogoanime from './gogoanime';
+import NineAnime from './9anime';
 declare const _default: {
-    en: {
-        Gogoanime: typeof import("./en/gogoanime").default;
-        NineAnime: typeof import("./en/9anime").default;
-    };
+    Gogoanime: typeof Gogoanime;
+    NineAnime: typeof NineAnime;
 };
 export default _default;

@@ -3,6 +3,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const all_1 = __importDefault(require("./all"));
-exports.default = { all: all_1.default };
+const mangadex_1 = __importDefault(require("./mangadex"));
+exports.default = { MangaDex: mangadex_1.default };
 //# sourceMappingURL=index.js.map

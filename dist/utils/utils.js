@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.formatTitle = exports.floorID = exports.splitAuthor = exports.USER_AGENT = void 0;
+exports.genElement = exports.formatTitle = exports.floorID = exports.splitAuthor = exports.USER_AGENT = void 0;
+const cheerio_1 = require("cheerio");
 exports.USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36';
 const splitAuthor = (authors) => {
     const res = [];
@@ -34,4 +35,32 @@ const formatTitle = (title) => {
     return result.trim();
 };
 exports.formatTitle = formatTitle;
+const genElement = (s, e) => {
+    if (s == '')
+        return;
+    const $ = (0, cheerio_1.load)(e);
+    let i = 0;
+    let str = '';
+    let el = $();
+    for (; i < s.length; i++) {
+        if (s[i] == ' ') {
+            el = $(str);
+            str = '';
+            i++;
+            break;
+        }
+        str += s[i];
+    }
+    for (; i < s.length; i++) {
+        if (s[i] == ' ') {
+            el = $(el).children(str);
+            str = '';
+            continue;
+        }
+        str += s[i];
+    }
+    el = $(el).children(str);
+    return el;
+};
+exports.genElement = genElement;
 //# sourceMappingURL=utils.js.map

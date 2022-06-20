@@ -1,6 +1,5 @@
+import MangaDex from './mangadex';
 declare const _default: {
-    all: {
-        MangaDex: typeof import("./all/mangadex").default;
-    };
+    MangaDex: typeof MangaDex;
 };
 export default _default;

@@ -2,3 +2,4 @@ export declare const USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) App
 export declare const splitAuthor: (authors: string) => string[];
 export declare const floorID: (id: string) => number;
 export declare const formatTitle: (title: string) => string;
+export declare const genElement: (s: string, e: string) => import("cheerio").Cheerio<import("cheerio").AnyNode> | undefined;

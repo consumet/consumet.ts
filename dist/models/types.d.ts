@@ -172,5 +172,8 @@ export interface ComicRes {
 }
 export interface ZLibrary extends Book {
     bookRating: string;
-    fileQuality: string;
+    bookQuality: string;
+    language: string;
+    size: string;
+    pages: string;
 }

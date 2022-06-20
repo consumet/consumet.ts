@@ -1,6 +1,5 @@
+import ReadLightNovels from './readlightnovels';
 declare const _default: {
-    en: {
-        ReadLightNovels: typeof import("./en/readlightnovels").default;
-    };
+    ReadLightNovels: typeof ReadLightNovels;
 };
 export default _default;

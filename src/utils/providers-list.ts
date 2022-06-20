@@ -6,10 +6,10 @@ import { ANIME, MANGA, BOOKS, COMICS, LIGHT_NOVELS } from '../providers';
  * add new providers here
  */
 export const PROVIDERS_LIST = {
-  ANIME: [new ANIME.en.Gogoanime(), new ANIME.en.NineAnime()],
-  MANGA: [new MANGA.all.MangaDex()],
+  ANIME: [new ANIME.Gogoanime(), new ANIME.NineAnime()],
+  MANGA: [new MANGA.MangaDex()],
   BOOKS: [new BOOKS.Libgen()],
   COMICS: [new COMICS.GetComics()],
-  LIGHT_NOVELS: [new LIGHT_NOVELS.en.ReadLightNovels()],
+  LIGHT_NOVELS: [new LIGHT_NOVELS.ReadLightNovels()],
   OTHERS: [],
 };

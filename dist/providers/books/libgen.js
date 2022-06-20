@@ -23,14 +23,23 @@ class Libgen extends models_1.BookParser {
         super(...arguments);
         this.extensions = ['.rs', '.is', '.st'];
         this.baseUrl = 'http://libgen';
+        /**
+         * @type {string}
+         */
         this.name = 'Libgen';
         this.downloadIP = 'http://62.182.86.140';
         this.logo = 'https://f-droid.org/repo/com.manuelvargastapia.libgen/en-US/icon_TP2ezvMwW5ovE-wixagF1WCThMUohX3T_kzYhuZQ8aY=.png';
         this.classPath = 'BOOKS.Libgen';
+        /**
+         * scrapes a ligen book page by book page url
+         *
+         * @param {string} bookUrl - ligen book page url
+         * @returns {Promise<LibgenBook>}
+         */
         this.scrapeBook = (bookUrl) => __awaiter(this, void 0, void 0, function* () {
             const container = new models_1.LibgenBookObject();
-            const data = yield get(bookUrl);
-            const $ = (0, cheerio_1.load)(data.data);
+            const { data } = yield get(bookUrl);
+            const $ = (0, cheerio_1.load)(data);
             let rawAuthor = '';
             $('tbody > tr:eq(10)')
                 .children()
@@ -205,6 +214,16 @@ class Libgen extends models_1.BookParser {
             container.link = `${this.downloadIP}/main/${(0, utils_1.floorID)(container.id)}/${realLink.toLowerCase()}/${(0, ascii_url_encoder_1.encode)(`${container.series == '' ? '' : `(${container.series})`} ${rawAuthor} - ${container.title}-${container.publisher} (${container.year}).${container.format}`)}`;
             return container;
         });
+        /**
+         * scrapes a ligen search page by book query
+         *
+         * @remarks
+         * this method is faster the, but doesn't scrape as much data as libgen.search()
+         *
+         * @param {string} query - the name of the book
+         * @param {number} [maxresults=25] - maximum number of results
+         * @returns {Promise<LibgenBook[]>}
+         */
         this.fastSearch = (query, maxResults) => __awaiter(this, void 0, void 0, function* () {
             let page;
             let workingExtension = this.extensions[0];
@@ -285,6 +304,13 @@ class Libgen extends models_1.BookParser {
             containers.pop();
             return containers;
         });
+        /**
+         * scrapes a libgen search page and returns an array of results
+         *
+         * @param {string} query - the name of the book
+         * @param {number} [maxResults=25] - maximum number of results
+         * @returns {Promise<LibgenBook[]>}
+         */
         this.search = (query, maxResults) => __awaiter(this, void 0, void 0, function* () {
             let page;
             let workingExtension = this.extensions[0];
@@ -468,6 +494,16 @@ class Libgen extends models_1.BookParser {
             }
             return containers;
         });
+        /**
+         * scrapes a ligen search page by page url
+         *
+         * @remarks
+         * this method is faster, but doesn't scrape as much data as libgen.search()
+         *
+         * @param {string} bookUrl - ligen search url
+         * @param {number} [maxresults=25] - maximum number of results
+         * @returns {Promise<LibgenBook[]>}
+         */
         this.fastScrapePage = (pageUrl) => __awaiter(this, void 0, void 0, function* () {
             let page;
             let workingExtension = this.extensions[0];
@@ -548,13 +584,20 @@ class Libgen extends models_1.BookParser {
             containers.pop();
             return containers;
         });
-        this.scrapePage = (pageUrl) => __awaiter(this, void 0, void 0, function* () {
+        /**
+         * scrapes a ligen search page by page url
+         *
+         * @param {string} bookUrl - ligen search url
+         * @param {number} [maxresults=25] - maximum number of results
+         * @returns {Promise<LibgenBook[]>}
+         */
+        this.scrapePage = (pageUrl, maxResults = 25) => __awaiter(this, void 0, void 0, function* () {
             let page;
             let workingExtension = this.extensions[0];
             const containers = [];
             for (let extension of this.extensions) {
                 workingExtension = extension;
-                page = yield get(pageUrl);
+                page = yield get(`${pageUrl}&res=${maxResults}`);
                 if (page.status <= 399)
                     break;
             }
@@ -733,5 +776,7 @@ class Libgen extends models_1.BookParser {
         });
     }
 }
+const ai = new Libgen();
+ai.scrapeBook;
 exports.default = Libgen;
 //# sourceMappingURL=libgen.js.map
