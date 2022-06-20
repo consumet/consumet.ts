@@ -3,7 +3,7 @@ declare class Libgen extends BookParser {
     private readonly extensions;
     protected readonly baseUrl = "http://libgen";
     readonly name = "Libgen";
-    readonly downloadIP = "http://62.182.86.140";
+    private readonly downloadIP;
     protected logo: string;
     protected classPath: string;
     scrapeBook: (bookUrl: string) => Promise<LibgenBook>;

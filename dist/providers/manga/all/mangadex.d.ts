@@ -1,6 +1,6 @@
 import { MangaParser, IMangaSearch, IMangaInfo } from '../../../models/';
 declare class MangaDex extends MangaParser {
-    readonly name = "mangadex";
+    readonly name = "MangaDex";
     protected baseUrl: string;
     protected logo: string;
     protected classPath: string;

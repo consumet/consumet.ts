@@ -18,7 +18,7 @@ const models_1 = require("../../../models/");
 class MangaDex extends models_1.MangaParser {
     constructor() {
         super(...arguments);
-        this.name = 'mangadex';
+        this.name = 'MangaDex';
         this.baseUrl = 'https://mangadex.org';
         this.logo = 'https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2F1391016345714757632%2Fxbt_jW78.jpg';
         this.classPath = 'MANGA.all.MangaDex';

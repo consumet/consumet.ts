@@ -20,7 +20,7 @@ const utils_1 = require("../../../utils");
 class ReadLightNovels extends models_1.LightNovelParser {
     constructor() {
         super(...arguments);
-        this.name = 'readlightnovels';
+        this.name = 'Read Light Novels';
         this.baseUrl = 'https://readlightnovels.net';
         this.logo = 'https://i.imgur.com/RDPjbc6.png';
         this.classPath = 'LIGHT_NOVELS.en.ReadLightNovels';

@@ -31,14 +31,6 @@ class Libgen extends models_1.BookParser {
             const container = new models_1.LibgenBookObject();
             const data = yield get(bookUrl);
             const $ = (0, cheerio_1.load)(data.data);
-            // for (let i = 0; i < 30; i++) {
-            //   console.log(`section ${i}`);
-            //   $(`tbody > tr:eq(${i})`)
-            //     .children()
-            //     .each((i, el) => {
-            //       console.log(`${i}: ${$(el).text()}`);
-            //     });
-            // }
             let rawAuthor = '';
             $('tbody > tr:eq(10)')
                 .children()
