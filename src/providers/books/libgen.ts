@@ -9,17 +9,26 @@ const { get } = axios;
 class Libgen extends BookParser {
   private readonly extensions = ['.rs', '.is', '.st'];
   protected override readonly baseUrl = 'http://libgen';
-  override readonly name = 'Libgen';
+  /**
+   * @type {string}
+   */
+  override readonly name: string = 'Libgen';
   private readonly downloadIP = 'http://62.182.86.140';
 
   protected override logo =
     'https://f-droid.org/repo/com.manuelvargastapia.libgen/en-US/icon_TP2ezvMwW5ovE-wixagF1WCThMUohX3T_kzYhuZQ8aY=.png';
   protected override classPath = 'BOOKS.Libgen';
 
-  scrapeBook = async (bookUrl: string) => {
+  /**
+   * scrapes a ligen book page by book page url
+   *
+   * @param {string} bookUrl - ligen book page url
+   * @returns {Promise<LibgenBook>}
+   */
+  scrapeBook = async (bookUrl: string): Promise<LibgenBook> => {
     const container: LibgenBook = new LibgenBookObject();
-    const data = await get(bookUrl);
-    const $ = load(data.data);
+    const { data } = await get(bookUrl);
+    const $ = load(data);
     let rawAuthor = '';
     $('tbody > tr:eq(10)')
       .children()
@@ -208,7 +217,17 @@ class Libgen extends BookParser {
     return container;
   };
 
-  fastSearch = async (query: string, maxResults: number) => {
+  /**
+   * scrapes a ligen search page by book query
+   *
+   * @remarks
+   * this method is faster the, but doesn't scrape as much data as libgen.search()
+   *
+   * @param {string} query - the name of the book
+   * @param {number} [maxresults=25] - maximum number of results
+   * @returns {Promise<LibgenBook[]>}
+   */
+  fastSearch = async (query: string, maxResults: number): Promise<LibgenBook[]> => {
     let page!: AxiosResponse<any, any>;
     let workingExtension = this.extensions[0];
     const containers: LibgenBook[] = [];
@@ -298,7 +317,14 @@ class Libgen extends BookParser {
     return containers;
   };
 
-  override search = async (query: string, maxResults?: number) => {
+  /**
+   * scrapes a libgen search page and returns an array of results
+   *
+   * @param {string} query - the name of the book
+   * @param {number} [maxResults=25] - maximum number of results
+   * @returns {Promise<LibgenBook[]>}
+   */
+  override search = async (query: string, maxResults?: number): Promise<LibgenBook[]> => {
     let page!: AxiosResponse<any, any>;
     let workingExtension = this.extensions[0];
     const containers: LibgenBook[] = [];
@@ -491,7 +517,17 @@ class Libgen extends BookParser {
     return containers;
   };
 
-  fastScrapePage = async (pageUrl: string) => {
+  /**
+   * scrapes a ligen search page by page url
+   *
+   * @remarks
+   * this method is faster, but doesn't scrape as much data as libgen.search()
+   *
+   * @param {string} bookUrl - ligen search url
+   * @param {number} [maxresults=25] - maximum number of results
+   * @returns {Promise<LibgenBook[]>}
+   */
+  fastScrapePage = async (pageUrl: string): Promise<LibgenBook[]> => {
     let page!: AxiosResponse<any, any>;
     let workingExtension = this.extensions[0];
     const containers: LibgenBook[] = [];
@@ -577,13 +613,20 @@ class Libgen extends BookParser {
     return containers;
   };
 
-  scrapePage = async (pageUrl: string) => {
+  /**
+   * scrapes a ligen search page by page url
+   *
+   * @param {string} bookUrl - ligen search url
+   * @param {number} [maxresults=25] - maximum number of results
+   * @returns {Promise<LibgenBook[]>}
+   */
+  scrapePage = async (pageUrl: string, maxResults: number = 25): Promise<LibgenBook[]> => {
     let page!: AxiosResponse<any, any>;
     let workingExtension = this.extensions[0];
     const containers: LibgenBook[] = [];
     for (let extension of this.extensions) {
       workingExtension = extension;
-      page = await get(pageUrl);
+      page = await get(`${pageUrl}&res=${maxResults}`);
       if (page.status <= 399) break;
     }
     const $ = load(page.data);
@@ -766,5 +809,8 @@ class Libgen extends BookParser {
     return containers;
   };
 }
+
+const ai = new Libgen();
+ai.scrapeBook;
 
 export default Libgen;

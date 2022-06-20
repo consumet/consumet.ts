@@ -1,5 +1,5 @@
 import { Hashes } from './base-types';
-import { GetComicsComics, LibgenBook } from './types';
+import { GetComicsComics, LibgenBook, ZLibrary } from './types';
 
 export class LibgenBookObject implements LibgenBook {
   title = '';
@@ -47,4 +47,24 @@ export class GetComicsComicsObject implements GetComicsComics {
   mediafire = '';
   zippyshare = '';
   readOnline = '';
+}
+
+export class ZLibraryObject implements ZLibrary {
+  bookRating = '';
+  bookQuality = '';
+  description = '';
+  title = '';
+  authors: string[] = [];
+  publisher = '';
+  year = '';
+  edition = '';
+  volume = '';
+  series = '';
+  isbn = [];
+  link = '';
+  id = '';
+  language = '';
+  size = '';
+  pages = '';
+  image = '';
 }
