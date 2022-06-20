@@ -1,7 +1,7 @@
 {
-    "name": "consumet-extentions",
+    "name": "consumet-extensions",
     "version": "1.0.0",
-    "description": "Consumet extentions",
+    "description": "Consumet extensions",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
@@ -19,7 +19,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/consumet/consumet-extentions.git"
+        "url": "git+https://github.com/consumet/extensions.git"
     },
     "keywords": [],
     "authors": [
@@ -28,9 +28,9 @@
     ],
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/consumet/consumet-extentions/issues"
+        "url": "https://github.com/consumet/extensions/issues"
     },
-    "homepage": "https://github.com/consumet/consumet-extentions#readme",
+    "homepage": "https://github.com/consumet/extensions#readme",
     "dependencies": {
         "ascii-url-encoder": "^1.2.0",
         "axios": "^0.27.2",
