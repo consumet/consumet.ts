@@ -19,10 +19,10 @@ export interface IAnimeResult {
   [x: string]: unknown; // other fields
 }
 
-export interface IAnimeSearch {
+export interface ISearch<T> {
   currentPage?: number;
   hasNextPage?: boolean;
-  results: IAnimeResult[];
+  results: T[];
 }
 
 export interface IAnimeInfo {
@@ -34,7 +34,7 @@ export interface IAnimeInfo {
   genres?: string[];
   description?: string;
   type?: string;
-  status?: AnimeStatus;
+  status?: MediaStatus;
   totalEpisodes?: number;
   subOrDub?: SubOrSub;
   episodes?: IAnimeEpisode[];
@@ -80,7 +80,7 @@ export enum StreamingServers {
   Mp4Upload = 'mp4upload',
 }
 
-export enum AnimeStatus {
+export enum MediaStatus {
   ONGOING = 'Ongoing',
   COMPLETED = 'Completed',
   HIATUS = 'Hiatus',
@@ -100,14 +100,9 @@ export interface IMangaResult {
   altTtitles?: string | [lang: string][];
   image?: string;
   description?: string | [lang: string][] | { [lang: string]: string };
-  status?: string;
+  status?: MediaStatus;
   releaseDate?: number | string;
   [x: string]: unknown; // other fields
-}
-
-export interface IMangaSearch {
-  currentPage?: number;
-  results: IMangaResult[];
 }
 
 export interface IMangaChapter {
@@ -132,11 +127,6 @@ export interface ILightNovelResult {
   [x: string]: unknown; // other fields
 }
 
-export interface ILightNovelSearch {
-  currentPage?: number;
-  results: ILightNovelResult[];
-}
-
 export interface ILightNovelChapter {
   id: string;
   title: string;
@@ -154,7 +144,7 @@ export interface ILightNovelInfo extends ILightNovelResult {
   genres?: string[];
   description?: string;
   chapters?: ILightNovelChapter[];
-  status?: string;
+  status?: MediaStatus;
   views?: number;
   rating?: number;
 }

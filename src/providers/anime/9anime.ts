@@ -4,11 +4,12 @@ import { encode } from 'ascii-url-encoder';
 
 import {
   AnimeParser,
-  IAnimeSearch,
+  ISearch,
   IAnimeInfo,
   IAnimeEpisode,
-  AnimeStatus,
+  MediaStatus,
   SubOrSub,
+  IAnimeResult,
 } from '../../models';
 
 /**
@@ -27,8 +28,12 @@ class NineAnime extends AnimeParser {
 
   private readonly base64 = 'c/aUAorINHBLxWTy3uRiPt8J+vjsOheFG1E0q2X9CYwDZlnmd4Kb5M6gSVzfk7pQ';
 
-  override async search(query: string, page: number = 1): Promise<IAnimeSearch> {
-    const searchResult: IAnimeSearch = { currentPage: page, hasNextPage: false, results: [] };
+  override async search(query: string, page: number = 1): Promise<ISearch<IAnimeResult>> {
+    const searchResult: ISearch<IAnimeResult> = {
+      currentPage: page,
+      hasNextPage: false,
+      results: [],
+    };
 
     // MAKE VRF
     try {
@@ -113,22 +118,22 @@ class NineAnime extends AnimeParser {
         .split('to')[0]
         ?.trim();
 
-      animeInfo.status = AnimeStatus.UNKNOWN;
+      animeInfo.status = MediaStatus.UNKNOWN;
       switch ($('.col1 > div:nth-child(4) > div:nth-child(2) > span:nth-child(1)').text()?.trim()) {
         case 'Airing':
-          animeInfo.status = AnimeStatus.ONGOING;
+          animeInfo.status = MediaStatus.ONGOING;
           break;
         case 'Completed':
-          animeInfo.status = AnimeStatus.COMPLETED;
+          animeInfo.status = MediaStatus.COMPLETED;
           break;
         case 'Cancelled':
-          animeInfo.status = AnimeStatus.CANCELLED;
+          animeInfo.status = MediaStatus.CANCELLED;
           break;
         case 'Unknown':
-          animeInfo.status = AnimeStatus.UNKNOWN;
+          animeInfo.status = MediaStatus.UNKNOWN;
           break;
         default:
-          animeInfo.status = AnimeStatus.UNKNOWN;
+          animeInfo.status = MediaStatus.UNKNOWN;
           break;
       }
 

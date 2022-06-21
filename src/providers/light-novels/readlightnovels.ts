@@ -4,10 +4,12 @@ import FormData from 'form-data';
 
 import {
   LightNovelParser,
-  ILightNovelSearch,
+  ISearch,
   ILightNovelInfo,
   ILightNovelChapter,
   ILightNovelChapterContent,
+  ILightNovelResult,
+  MediaStatus,
 } from '../../models';
 import { USER_AGENT } from '../../utils';
 
@@ -21,8 +23,7 @@ class ReadLightNovels extends LightNovelParser {
   /**
    *
    * @param lightNovelUrl light novel link or id
-   * @param chapterPage chapter page number (optional) if not provided, will fetch all chapters
-   * @returns light novel info with chapters
+   * @param chapterPage chapter page number (optional) if not provided, will fetch all chapter pages.
    */
   override fetchLighNovelInfo = async (
     lightNovelUrl: string,
@@ -59,9 +60,6 @@ class ReadLightNovels extends LightNovelParser {
       )
         .map((i, el) => $(el).text())
         .get();
-      lightNovelInfo.status = $(
-        'div.col-xs-12.col-sm-4.col-md-4.info-holder > div.info > div:nth-child(3) > span'
-      ).text();
       lightNovelInfo.rating = parseFloat(
         $(
           'div.col-xs-12.col-sm-8.col-md-8.desc > div.rate > div.small > em > strong:nth-child(1) > span'
@@ -80,6 +78,20 @@ class ReadLightNovels extends LightNovelParser {
           .get()
           .filter((x) => !isNaN(x))
       );
+
+      switch (
+        $('div.col-xs-12.col-sm-4.col-md-4.info-holder > div.info > div:nth-child(3) > span').text()
+      ) {
+        case 'Completed':
+          lightNovelInfo.status = MediaStatus.COMPLETED;
+          break;
+        case 'On Going':
+          lightNovelInfo.status = MediaStatus.ONGOING;
+          break;
+        default:
+          lightNovelInfo.status = MediaStatus.UNKNOWN;
+          break;
+      }
 
       lightNovelInfo.pages = pages;
       lightNovelInfo.chapters = [];
@@ -149,7 +161,6 @@ class ReadLightNovels extends LightNovelParser {
   /**
    *
    * @param chapterId chapter id or url
-   * @returns chapter content as string
    */
   override fetchChapterContent = async (chapterId: string): Promise<ILightNovelChapterContent> => {
     if (!chapterId.startsWith(this.baseUrl)) {
@@ -175,8 +186,12 @@ class ReadLightNovels extends LightNovelParser {
     }
   };
 
-  override search = async (query: string): Promise<ILightNovelSearch> => {
-    const result: ILightNovelSearch = { results: [] };
+  /**
+   *
+   * @param query search query string
+   */
+  override search = async (query: string): Promise<ISearch<ILightNovelResult>> => {
+    const result: ISearch<ILightNovelResult> = { results: [] };
     try {
       const res = await axios.post(`${this.baseUrl}/?s=${query}`);
       const $ = load(res.data);

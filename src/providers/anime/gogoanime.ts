@@ -3,13 +3,14 @@ import { load } from 'cheerio';
 
 import {
   AnimeParser,
-  IAnimeSearch,
+  ISearch,
   IAnimeInfo,
   IEpisodeServer,
   IVideo,
   StreamingServers,
-  AnimeStatus,
+  MediaStatus,
   SubOrSub,
+  IAnimeResult,
 } from '../../models';
 import { GogoCDN, StreamSB, USER_AGENT } from '../../utils';
 
@@ -21,8 +22,17 @@ class Gogoanime extends AnimeParser {
     'https://i0.wp.com/cloudfuji.com/wp-content/uploads/2021/12/gogoanime.png?fit=300%2C400&ssl=1';
   protected override classPath = 'ANIME.Gogoanime';
 
-  override search = async (query: string, page: number = 1): Promise<IAnimeSearch> => {
-    const searchResult: IAnimeSearch = { currentPage: page, hasNextPage: false, results: [] };
+  /**
+   *
+   * @param query search query string
+   * @param page page number (default 1) (optional)
+   */
+  override search = async (query: string, page: number = 1): Promise<ISearch<IAnimeResult>> => {
+    const searchResult: ISearch<IAnimeResult> = {
+      currentPage: page,
+      hasNextPage: false,
+      results: [],
+    };
     try {
       const res = await axios.get(
         `${this.baseUrl}/search.html?keyword=${encodeURIComponent(query)}&page=${page}`
@@ -52,6 +62,10 @@ class Gogoanime extends AnimeParser {
     }
   };
 
+  /**
+   *
+   * @param animeUrl anime url or id
+   */
   override fetchAnimeInfo = async (animeUrl: string): Promise<IAnimeInfo> => {
     if (!animeUrl.startsWith(this.baseUrl)) animeUrl = `${this.baseUrl}/category/${animeUrl}`;
 
@@ -90,20 +104,20 @@ class Gogoanime extends AnimeParser {
 
       animeInfo.type = $('div.anime_info_body_bg > p:nth-child(4) > a').text().trim();
 
-      animeInfo.status = AnimeStatus.UNKNOWN;
+      animeInfo.status = MediaStatus.UNKNOWN;
 
       switch ($('div.anime_info_body_bg > p:nth-child(8) > a').text().trim()) {
         case 'Ongoing':
-          animeInfo.status = AnimeStatus.ONGOING;
+          animeInfo.status = MediaStatus.ONGOING;
           break;
         case 'Completed':
-          animeInfo.status = AnimeStatus.COMPLETED;
+          animeInfo.status = MediaStatus.COMPLETED;
           break;
         case 'Upcoming':
-          animeInfo.status = AnimeStatus.NOT_YET_AIRED;
+          animeInfo.status = MediaStatus.NOT_YET_AIRED;
           break;
         default:
-          animeInfo.status = AnimeStatus.UNKNOWN;
+          animeInfo.status = MediaStatus.UNKNOWN;
           break;
       }
       animeInfo.otherName = $('div.anime_info_body_bg > p:nth-child(9)')
@@ -141,6 +155,11 @@ class Gogoanime extends AnimeParser {
     }
   };
 
+  /**
+   *
+   * @param episodeId episode id
+   * @param server server type (default 'GogoCDN') (optional)
+   */
   override fetchEpisodeSources = async (
     episodeId: string,
     server: StreamingServers = StreamingServers.GogoCDN
@@ -196,6 +215,10 @@ class Gogoanime extends AnimeParser {
     }
   };
 
+  /**
+   *
+   * @param episodeLink episode link or episode id
+   */
   override fetchEpisodeServers = async (episodeLink: string): Promise<IEpisodeServer[]> => {
     try {
       if (!episodeLink.startsWith(this.baseUrl)) episodeLink = `${this.baseUrl}/${episodeLink}`;

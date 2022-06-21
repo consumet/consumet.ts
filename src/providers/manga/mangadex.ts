@@ -1,7 +1,8 @@
 import axios, { AxiosError, AxiosResponse } from 'axios';
 import { encode } from 'ascii-url-encoder';
 
-import { MangaParser, IMangaSearch, IMangaInfo } from '../../models';
+import { MangaParser, ISearch, IMangaInfo, IMangaResult, MediaStatus } from '../../models';
+import { capitalizeFirstLetter } from '../../utils';
 
 class MangaDex extends MangaParser {
   override readonly name = 'MangaDex';
@@ -27,7 +28,7 @@ class MangaDex extends MangaParser {
         themes: data.data.attributes.tags
           .filter((tag: any) => tag.attributes.group === 'theme')
           .map((tag: any) => tag.attributes.name.en),
-        status: data.data.attributes.status,
+        status: capitalizeFirstLetter(data.data.attributes.status) as MediaStatus,
         releaseDate: data.data.attributes.year,
         chapters: [],
       };
@@ -80,7 +81,7 @@ class MangaDex extends MangaParser {
     query: string,
     page: number = 1,
     limit: number = 20
-  ): Promise<IMangaSearch> => {
+  ): Promise<ISearch<IMangaResult>> => {
     if (page <= 0) throw new Error('Page number must be greater than 0');
     if (limit > 100) throw new Error('Limit must be less than or equal to 100');
     if (limit * (page - 1) >= 10000) throw new Error('not enough results');
@@ -93,7 +94,7 @@ class MangaDex extends MangaParser {
       );
 
       if (res.data.result == 'ok') {
-        const results: IMangaSearch = {
+        const results: ISearch<IMangaResult> = {
           currentPage: page + 1,
           results: [],
         };

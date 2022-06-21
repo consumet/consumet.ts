@@ -1,5 +1,12 @@
 import { GogoCDN, StreamSB } from './extractors';
-import { USER_AGENT, splitAuthor, floorID, formatTitle, genElement } from './utils';
+import {
+  USER_AGENT,
+  splitAuthor,
+  floorID,
+  formatTitle,
+  genElement,
+  capitalizeFirstLetter,
+} from './utils';
 import { parsePostInfo } from './getComics';
 import { getSize, splitStar } from './zLibrary';
 
@@ -14,4 +21,5 @@ export {
   getSize,
   splitStar,
   genElement,
+  capitalizeFirstLetter,
 };
