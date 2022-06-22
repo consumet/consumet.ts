@@ -67,4 +67,4 @@ const main = async () => {
 Make a new issue with the label `Provider Request`, And the name of the provider on the title, as well as a link to the provider in the body paragraph.
 
 ## Contributing to Consumet Extensions
-Check out [contributing guide](https://consumet.org/docs/contributing/how-to-contribute/#contribute-to-code) to get an overview of Consumet Extensions development.
+Check out [contributing guide](https://github.com/consumet/extensions/blob/master/CONTRIBUTING.md#contributing) to get an overview of Consumet Extensions development.
