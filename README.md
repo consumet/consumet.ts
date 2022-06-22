@@ -1,3 +1,7 @@
+<div style="display: flex; justify-content: center;">
+  <img src="assets/images/consumetlogo.png" width="200"/>
+</div>
+
 # Consumet Extentions
 
 Consumet Extensons is a Node library which provides high-level APIs to get information about several entertainment mediums like books, movies, comics, anime, manga, etc.
