@@ -29,7 +29,7 @@ abstract class BaseProvider {
 
   /**
    * The class's path is determined by the provider's directory structure for example:\
-   * MangaDex class path is `MANGA.all.MangaDex`. **(case sensitive)**
+   * MangaDex class path is `MANGA.MangaDex`. **(case sensitive)**
    */
   protected abstract readonly classPath: string;
 
