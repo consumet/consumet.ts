@@ -1,6 +1,4 @@
-<div style="display: flex; justify-content: center;">
-  <img src="assets/images/consumetlogo.png" width="200"/>
-</div>
+<p align="center"><img src="assets/images/consumetlogo.png" width="225"/></p>
 
 # Consumet Extentions
 
