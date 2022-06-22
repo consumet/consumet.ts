@@ -178,7 +178,7 @@ export interface GetComicsComics {
 
 export interface ComicRes {
   containers: GetComicsComics[];
-  page: number;
+  pages: number;
 }
 
 export interface ZLibrary extends Book {
