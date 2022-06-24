@@ -74,7 +74,7 @@ class Gogoanime extends AnimeParser {
       title: '',
       url: animeUrl,
       genres: [],
-      episodes: [],
+      totalEpisodes: 0,
     };
     try {
       const res = await axios.get(animeUrl);
@@ -139,6 +139,7 @@ class Gogoanime extends AnimeParser {
       );
       const $$ = load(html.data);
 
+      animeInfo.episodes = [];
       $$('#episode_related > li').each((i, el) => {
         animeInfo.episodes?.push({
           id: $(el).find('a').attr('href')?.split('/')[1]!,

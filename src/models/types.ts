@@ -97,7 +97,7 @@ export enum SubOrSub {
 export interface IMangaResult {
   id: string;
   title: string | [lang: string][];
-  altTtitles?: string | [lang: string][];
+  altTitles?: string | [lang: string][];
   image?: string;
   description?: string | [lang: string][] | { [lang: string]: string };
   status?: MediaStatus;
@@ -117,6 +117,12 @@ export interface IMangaInfo extends IMangaResult {
   genres?: string[];
   links?: string[];
   chapters?: IMangaChapter[];
+}
+
+export interface IMangaChapterPage {
+  img: string;
+  page: number;
+  [x: string]: unknown; // other fields
 }
 
 export interface ILightNovelResult {

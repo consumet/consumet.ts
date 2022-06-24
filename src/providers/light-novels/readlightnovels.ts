@@ -25,7 +25,7 @@ class ReadLightNovels extends LightNovelParser {
    * @param lightNovelUrl light novel link or id
    * @param chapterPage chapter page number (optional) if not provided, will fetch all chapter pages.
    */
-  override fetchLighNovelInfo = async (
+  override fetchLightNovelInfo = async (
     lightNovelUrl: string,
     chapterPage: number = -1
   ): Promise<ILightNovelInfo> => {

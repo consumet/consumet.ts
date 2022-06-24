@@ -1,9 +1,9 @@
 # Contributing
 
-This guide is for the people who are interested in contributing to Consumet Extensions. It is not a complete guide yet, but it should help you get started. If you have any questions or any suggestions, please open a [issue](https://github.com/consumet/extensions/issues/new?assignees=&labels=Bug&template=bug-report.yml&title=%5BBug%5D%3A+) or join the [discord server](https://discord.gg/qTPfvMxzNH).
+This guide is for the people who are interested in contributing to Consumet Extensions. It is not a complete guide yet, but it should help you get started. If you have any questions or any suggestions, please open a [issue](https://github.com/consumet/extensions/issues/new?assignees=&labels=Bug&template=bug-report.yml) or join the [discord server](https://discord.gg/qTPfvMxzNH).
 
-### Prerequisites
-To contribute to Consumet code, you need to have knowledge of the following technologies.
+## Prerequisites
+To contribute to Consumet code, you need to know the following:
    - [Nodejs](https://nodejs.org/)
    - [TypeScript](https://www.typescriptlang.org/)
    - Web scraping
@@ -12,21 +12,21 @@ To contribute to Consumet code, you need to have knowledge of the following tech
        - [Css Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
        - [DevTools](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools)
 
-#### Cloning the repository
+### Cloning the repository
 1. Clone the repository.
 ```bash
 git clone https://github.com/consumet/extensions.git
 ```
-1. Install dependencies. **Using Yarn**.
+2. Install dependencies. **Using Yarn**.
 ```bash
 yarn install
 ```
 3. create a new branch using the name of the provider (source) you want to add.
 ```bash
-git checkout -b <provider-name>
+git checkout -b <provider-name> # or any name you find suitable
 ```
 
-### Writing a provider
+## Writing a provider
 Each provider is a class that extends abstract class. For example, `Libgen` provider extends `BooksParser` class, and `Gogoanime` extends `AnimeParser`. the parser abstract classes can be found in the `src/models/` folder as follows:
 ```bash
 src/models/anime-parser.ts # AnimeParser
@@ -37,42 +37,46 @@ src/models/manga-parser.ts # MangaParser
 ```
 You are welcome to add anything to the abstract class that you believe will be beneficial.
 
-#### visualization of the abstract classes hierarchy
+<details>
+   <summary>
+   visualization of the abstract classes hierarchy
+   </summary>
 
-```mermaid
-classDiagram
-      ProviderBase <|-- BaseParser
-      ProviderBase : +String name
-      ProviderBase : +String baseUrl
-      ProviderBase: +toString()
-      BaseParser <|-- AnimeParser
-      BaseParser <|-- BookParser
-      BaseParser <|-- MangaParser
-      BaseParser <|-- LightNovelParser
-      BaseParser <|-- ComicParser
-      class BaseParser{
-         +search(String query)
-      }
-      class AnimeParser{
-         +fetchAnimeInfo(String animeId)
-         +fetchEpisodeSources(String episodeId)
-         +fetchEpisodeServers(String episodeId)
-      }
-      class BookParser{
-         empty
-      }
-      class MangaParser{
-         +fetchMangaInfo(String mangaId)
-         +fetchChapterPages(String chapterId)
-      }
-      class ComicParser{
-         empty
-      }
-      class LightNovelParser{
-         +fetchLighNovelInfo(String lightNovelId)
-         +fetchChapterContent(String chapterId)
-      }
-```
+   ```mermaid
+   classDiagram
+         ProviderBase <|-- BaseParser
+         ProviderBase : +String name
+         ProviderBase : +String baseUrl
+         ProviderBase: +toString()
+         BaseParser <|-- AnimeParser
+         BaseParser <|-- BookParser
+         BaseParser <|-- MangaParser
+         BaseParser <|-- LightNovelParser
+         BaseParser <|-- ComicParser
+         class BaseParser{
+            +search(String query)
+         }
+         class AnimeParser{
+            +fetchAnimeInfo(String animeId)
+            +fetchEpisodeSources(String episodeId)
+            +fetchEpisodeServers(String episodeId)
+         }
+         class BookParser{
+            empty
+         }
+         class MangaParser{
+            +fetchMangaInfo(String mangaId)
+            +fetchChapterPages(String chapterId)
+         }
+         class ComicParser{
+            empty
+         }
+         class LightNovelParser{
+            +fetchLighNovelInfo(String lightNovelId)
+            +fetchChapterContent(String chapterId)
+         }
+   ```
+</details>
 
 
 #### Project structure

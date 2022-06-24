@@ -1,60 +1,9 @@
-```mermaid
-classDiagram
-      ProviderBase <|-- BaseParser
-      ProviderBase : +String name
-      ProviderBase : +String baseUrl
-      ProviderBase: +toString()
-      BaseParser <|-- AnimeParser
-      BaseParser <|-- BookParser
-      BaseParser <|-- MangaParser
-      class BaseParser{
-         +search(String url)
-      }
-      class AnimeParser{
-         +fetchAnimeInfo(String animeUrl)
-         +fetchEpisodeSources(String episodeUrl)
-         +fetchEpisodeServers(String episodeUrl)
-      }
-      class BookParser{
-         +fetchBookInfo(String bookUrl)
-      }
-            class MangaParser{
-         +fetchMangaInfo(String mangaUrl)
-      }
-```
+<h1 align="center">Consumet Extensions</h1>
+<h2> Table of Contents </h2>
 
-#
-
-```mermaid
-flowchart
-    A(src)-->B(models)
-    A-->C(providers);
-    A-->D(utils);
-    B-->base-parser.ts
-    B-->anime-parser.ts
-    B-->book-parser.ts
-    B-->manga-parser.ts
-    B-->view-extractor.ts
-    B-->types.ts
-    C-->H(anime)
-    C-->I(books)
-    C-->J(manga)
-    C-->K(others)
-    D-->E(extractors)
-    E-->gogocdn.ts
-    E-->streamsb.ts
-    D-->utils.ts
-    H-->F(all)
-    H-->G(en)
-    I-->L(all)
-    I-->M(en)
-    J-->N(all)
-    J-->O(en)
-    K-->P(all)
-    K-->Q(en)
-    G-->gogoanime.ts
-    G-->9anime.ts
-    L-->lebgen.ts
-    
-
-```;
+- [Getting Started](./guides/getting-started.md): Introduction tutorial for Consumet Extensions. This is where beginners should start.
+- [Anime](./guides/anime.md): How to use the anime providers.
+- [Manga](./guides/manga.md): How to use the manga providers.
+- [Light Novel](./guides/light-novels.md): How to use the light novel providers.
+- [Benchmarks](https://github.com/consumet/providers-status#readme): Real-time benchmarking of providers.
+- [Contributing](./guides/contributing.md): Details about how to contribute to Consumet Extensions.

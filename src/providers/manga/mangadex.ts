@@ -1,7 +1,14 @@
 import axios, { AxiosError, AxiosResponse } from 'axios';
 import { encode } from 'ascii-url-encoder';
 
-import { MangaParser, ISearch, IMangaInfo, IMangaResult, MediaStatus } from '../../models';
+import {
+  MangaParser,
+  ISearch,
+  IMangaInfo,
+  IMangaResult,
+  MediaStatus,
+  IMangaChapterPage,
+} from '../../models';
 import { capitalizeFirstLetter } from '../../utils';
 
 class MangaDex extends MangaParser {
@@ -55,7 +62,10 @@ class MangaDex extends MangaParser {
   /**
    * @currently only supports english
    */
-  override fetchChapterPages = async (chapterId: string, ...args: any): Promise<unknown> => {
+  override fetchChapterPages = async (
+    chapterId: string,
+    ...args: any
+  ): Promise<IMangaChapterPage[]> => {
     try {
       const res = await axios.get(`${this.apiUrl}/at-home/server/${chapterId}`);
       const pages: { img: string; page: number }[] = [];
@@ -95,7 +105,7 @@ class MangaDex extends MangaParser {
 
       if (res.data.result == 'ok') {
         const results: ISearch<IMangaResult> = {
-          currentPage: page + 1,
+          currentPage: page,
           results: [],
         };
 
@@ -103,7 +113,7 @@ class MangaDex extends MangaParser {
           results.results.push({
             id: manga.id,
             title: Object.values(manga.attributes.title)[0] as string,
-            altTtitles: manga.attributes.altTitles,
+            altTitles: manga.attributes.altTitles,
             descitption: Object.values(manga.attributes.description)[0] as string,
             status: manga.attributes.status,
             releaseDate: manga.attributes.year,

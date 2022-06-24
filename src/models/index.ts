@@ -28,6 +28,7 @@ import {
   GetComicsComics,
   ComicRes,
   ZLibrary,
+  IMangaChapterPage,
 } from './types';
 import { LibgenBookObject, GetComicsComicsObject, ZLibraryObject } from './type-objects';
 
@@ -64,4 +65,5 @@ export {
   ZLibrary,
   ZLibraryObject,
   ISearch,
+  IMangaChapterPage,
 };

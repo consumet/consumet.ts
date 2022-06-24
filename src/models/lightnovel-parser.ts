@@ -1,12 +1,12 @@
 import { BaseParser } from '.';
 
-abstract class LighNovelParser extends BaseParser {
+abstract class LightNovelParser extends BaseParser {
   /**
    * takes light novel link or id
    *
    * returns lightNovel info
    */
-  protected abstract fetchLighNovelInfo(lightNovelUrl: string, ...args: any): Promise<unknown>;
+  protected abstract fetchLightNovelInfo(lightNovelUrl: string, ...args: any): Promise<unknown>;
 
   /**
    * takes chapter id
@@ -16,4 +16,4 @@ abstract class LighNovelParser extends BaseParser {
   protected abstract fetchChapterContent(chapterId: string, ...args: any): Promise<unknown>;
 }
 
-export default LighNovelParser;
+export default LightNovelParser;

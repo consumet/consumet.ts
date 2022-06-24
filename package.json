@@ -8,12 +8,12 @@
         "build": "tsc",
         "version": "auto-changelog -p && git add CHANGELOG.md",
         "test": "jest",
-        "test-anime": "jest ./test/anime",
-        "test-books": "jest ./test/books",
-        "test-zlibrary": "jest ./test/books/zLibrary.test.ts",
-        "test-comics": "jest ./test/comics",
-        "test-manga": "jest ./test/manga",
-        "test-lightnovels": "jest ./test/light-novels"
+        "test:anime": "jest ./test/anime",
+        "test:books": "jest ./test/books",
+        "test:zlibrary": "jest ./test/books/zLibrary.test.ts",
+        "test:comics": "jest ./test/comics",
+        "test:manga": "jest ./test/manga",
+        "test:lightnovels": "jest ./test/light-novels"
     },
     "files": [
         "dist"
