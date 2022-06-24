@@ -26,7 +26,7 @@ readlightnovels.search("Classrrom of the Elite").then(data => {
 }
 ```
 output:
-```json
+```js
 {
   results: [
     {
@@ -51,7 +51,7 @@ readlightnovels.fetchLightNovelInfo("youkoso-jitsuryoku-shijou-shugi-no-kyoushit
 }
 ```
 output:
-```json
+```js
 {
   id: 'youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e',
   title: 'Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e Novel (Classroom of the Elite Novel)',
