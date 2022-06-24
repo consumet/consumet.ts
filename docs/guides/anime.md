@@ -22,7 +22,7 @@ gogoanime.search("One Piece").then(data => {
 }
 ```
 output:
-```json
+```js
 {
   currentPage: 1, // current page
   hasNextPage: true, // if there is a next page
@@ -59,7 +59,7 @@ gogoanime.fetchAnimeInfo("one-piece").then(data => {
 }
 ```
 output:
-```json
+```js
 {
   id: 'one-piece',
   title: 'One Piece',
@@ -104,7 +104,7 @@ gogoanime.fetchEpisodeSources("one-piece-episode-1022").then(data => {
 }
 ```
 output:
-```json
+```js
 {
   headers: {
     Referer: 'https://goload.pro/streaming.php?id=MTg4MTgx&title=One+Piece+Episode+1022&typesub=SUB'
@@ -132,7 +132,7 @@ gogoanime.fetchEpisodeServers("one-piece-episode-1022").then(data => {
 }
 ```
 output:
-```json
+```js
 [
   {
     name: 'Vidstreaming',

@@ -22,7 +22,7 @@ mangadex.search("Tomodachi Game").then(data => {
 }
 ```
 output:
-```json
+```js
 {
   currentPage: 1,
   results: [
@@ -58,7 +58,7 @@ managdex.fetchMangaInfo("b35f67b6-bfb9-4cbd-86f0-621f37e6cb41").then(data => {
 }
 ```
 output:
-```json
+```js
 {
   id: 'b35f67b6-bfb9-4cbd-86f0-621f37e6cb41',
   title: 'Tomodachi Game',
@@ -104,7 +104,7 @@ mangadex.fetchChapterPages("a79255c8-21b5-4a8c-a586-48469fa87020").then(data => 
 }
 ```
 output:
-```json
+```js
 [
   {
     img: 'https://uploads.mangadex.org/data/67823e99a5e1b53bb44761c5bdcc7f33/1-6d943848bde48cdc712585fa45d97bbbe5a0432c8ecdfa4e673d53ea6fb8fb28.png',

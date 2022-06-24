@@ -84,7 +84,7 @@ readlightnovels.fetchChapterContent("youkoso-jitsuryoku-shijou-shugi-no-kyoushit
 }
 ```
 output:
-```json
+```js
 {
   text: '\n' +
     'It’s a bit sudden,...',
