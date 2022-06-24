@@ -71,7 +71,7 @@ const main = async () => {
 }
 ```
 
-Do you want to know more? Head to the [`Getting Started`](https://github.com/consumet/extensions/tree/master/docs/guides/getting-started).
+Do you want to know more? Head to the [`Getting Started`](https://github.com/consumet/extensions/tree/master/docs/guides/getting-started.md).
 
 ## Documentation
 - [`Getting Started`](https://github.com/consumet/extensions/tree/master/docs/guides/getting-started.md)
@@ -84,7 +84,7 @@ Do you want to know more? Head to the [`Getting Started`](https://github.com/con
 - [Discord Server](https://discord.gg/qTPfvMxzNH) - Join our discord server and chat with the maintainers.
 
 ## Provider Request
-Make a new issue with the label `Provider Request`, And the name of the provider on the title, as well as a link to the provider in the body paragraph.
+Make a new [issue](https://github.com/consumet/extensions/issues/new?assignees=&labels=Provider+Request&template=provider-request.yml) with the name of the provider on the title, as well as a link to the provider in the body paragraph.
 
 ## Contributing
 Check out [contributing guide](https://github.com/consumet/extensions/blob/master/docs/guides/contributing.md) to get an overview of Consumet Extensions development.

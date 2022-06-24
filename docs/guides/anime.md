@@ -1,6 +1,6 @@
 <h1 align="center">Consumet Extensions</h1>
 
-## ANIME
+<h2> ANIME</h2>
 ANIME is a category provider, which provides a list of anime providers. Each anime provider is a subclass of the [`AnimeParser`](https://github.com/consumet/extensions/blob/master/src/models/anime-parser.ts) class.
 
 By using `ANIME` category you can interact with the anime providers. And have access to the anime providers methods.
@@ -9,7 +9,10 @@ in the examples below, we will use the `Gogoanime` provider.
 ```ts
 const gogoanime = new ANIME.Gogoanime();
 ```
-
+- [search](#search)
+- [fetchAnimeInfo](#fetchanimeinfo)
+- [fetchEpisodeSources](#fetchepisodesources)
+- [fetchEpisodeServers](#fetchepisodeservers)
 ### search
 > Note: This method is a subclass of the [`BaseParser`](https://github.com/consumet/extensions/blob/master/src/models/base-parser.ts) class. meaning it is available across most categories.
 
@@ -147,3 +150,4 @@ output:
    ...
 ]
 ```
+<p align="end">(<a href="https://github.com/consumet/extensions/blob/master/docs">back to table of contents</a>)</p>

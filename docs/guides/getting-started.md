@@ -68,9 +68,8 @@ const main = async () => {
   const streamingServers = await gogoanime.fetchEpisodeServers(episodes[0].id);
 }
 ``` 
-see also the [anime providers documentation](./anime.md#anime) for more information.
-
 Awesome, that was easy.
+*see also [ANIME documentation](./anime.md#anime) for more information.*
 
 if you want to use different providers, you can check the providers list [here](https://github.com/consumet/providers-status/blob/main/providers-list.json).
 

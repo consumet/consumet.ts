@@ -1,6 +1,7 @@
 <h1 align="center">Consumet Extensions</h1>
 
-## LIGHT_NOVELS
+<h2> LIGHT_NOVELS </h2>
+
 LIGHT_NOVELS is a category provider, which provides a list of light novels providers. Each light novel provider is a subclass of the [`LightNovelParser`](https://github.com/consumet/extensions/blob/master/src/models/lightnovel-parser.ts) class.
 
 By using `LIGHT_NOVELS` category you can interact with the light novel providers. And have access to the light novel providers methods.
@@ -9,13 +10,16 @@ in the examples below, we will use the `ReadLightNovels` provider.
 ```ts
 const readlightnovels = new LIGHT_NOVELS.ReadLightNovels();
 ```
+- [search](#search)
+- [fetchLightNovelInfo](#fetchlightnovelinfo)
+- [fetchChapterContent](#fetchchaptercontent)
 
 ### search
 > Note: This method is a subclass of the [`BaseParser`](https://github.com/consumet/extensions/blob/master/src/models/base-parser.ts) class. meaning it is available across most categories.
 
 take a string as a parameter and return a list of light novels. In this case, We're searching for `Classrrom of the Elite`
 
-returns a promise which resolves into an array of light novels. (*[`Promise<ISearch<ILightNovelResult>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L128-L134)*)
+returns a promise which resolves into an array of light novels. (*<a href= "https://github.com/consumet/extensions/blob/master/src/models/types.ts#L128-L134"> <code>Promise<ISearch\<ILightNovelResult>></code></a>*)
 ```ts
 readlightnovels.search("Classrrom of the Elite").then(data => {
   console.log(data);
@@ -40,7 +44,7 @@ output:
 ### fetchLightNovelInfo
 take an light novel id or url as a parameter. (*light novel id or url can be found in the light novel search results*)
 
-returns a promise which resolves into an light novel info object (including the chapters or volumes). (*[`Promise<ILightNovelInfo>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L148-L156)*)
+returns a promise which resolves into an light novel info object (including the chapters or volumes). (*<a href="https://github.com/consumet/extensions/blob/master/src/models/types.ts#L148-L156"><code>Promise\<ILightNovelInfo></code></a>*)
 ```ts
 readlightnovels.fetchLightNovelInfo("youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e").then(data => {
   console.log(data);
@@ -77,7 +81,7 @@ output:
 ### fetchChapterContent
 take an chapter id as a parameter. (*chapter id can be found in the light novel info object*)
 
-returns a content object. (*[`Promise<ILightNovelChapterContent>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L143-L146)*)
+returns a content object. (*<a href="https://github.com/consumet/extensions/blob/master/src/models/types.ts#L143-L146"><code>Promise\<ILightNovelChapterContent></code></a>*)
 ```ts
 readlightnovels.fetchChapterContent("youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e/volume-1-prologue-the-structure-of-japanese-society").then(data => {
   console.log(data);
@@ -91,3 +95,4 @@ output:
   html: '<p></p><p>It’s a bit sudden, but listen seriously to the question I’m about to ask and think about...'
 }
 ```
+<p align="end">(<a href="https://github.com/consumet/extensions/blob/master/docs">back to table of contents</a>)</p>

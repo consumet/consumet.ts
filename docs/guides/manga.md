@@ -1,6 +1,6 @@
 <h1 align="center">Consumet Extensions</h1>
 
-## MANGA
+<h2>MANGA</h2>
 MANGA is a category provider, which provides a list of manga providers. Each manga provider is a subclass of the [`MangaParser`](https://github.com/consumet/extensions/blob/master/src/models/manga-parser.ts) class.
 
 By using `MANGA` category you can interact with the manga providers. And have access to the manga providers methods.
@@ -9,6 +9,9 @@ in the examples below, we will use the `MangaDex` provider.
 ```ts
 const mangadex = new MANGA.MangaDex();
 ```
+- [search](#search)
+- [fetchMangaInfo](#fetchmangainfo)
+- [fetchChapterPages](#fetchchapterpages)
 
 ### search
 > Note: This method is a subclass of the [`BaseParser`](https://github.com/consumet/extensions/blob/master/src/models/base-parser.ts) class. meaning it is available across most categories.
@@ -118,3 +121,4 @@ output:
   ...
 ]
 ```
+<p align="end">(<a href="https://github.com/consumet/extensions/blob/master/docs">back to table of contents</a>)</p>
