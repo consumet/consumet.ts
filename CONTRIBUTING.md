@@ -2,6 +2,8 @@
 
 This guide is for the people who are interested in contributing to Consumet Extensions. It is not a complete guide yet, but it should help you get started. If you have any questions or any suggestions, please open a [issue](https://github.com/consumet/extensions/issues/new?assignees=&labels=Bug&template=bug-report.yml) or join the [discord server](https://discord.gg/qTPfvMxzNH).
 
+See our [informal contributing guide](./docs/guides/contributing.md) for more details on contributing to this project.
+
 ## Prerequisites
 To contribute to Consumet code, you need to know the following:
    - [Nodejs](https://nodejs.org/)

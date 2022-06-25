@@ -1,6 +1,9 @@
 <h1> Contributing To Consumet Extensions </h1>
 Thank you for your interest in contributing to Consumet Extensions. We appreciate whatever form of contribution you are willing to make. There is no such thing as a little contribution.
 
+<br/>
+<br/>
+
 > ### Note:
 > This is an informal guide. Please go over the formal [CONTRIBUTING Document](../../CONTRIBUTING.md) for more information.
 

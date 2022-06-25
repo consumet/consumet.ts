@@ -6,16 +6,19 @@ Consumet Extensons is a Node library which provides high-level APIs to get infor
 
 <p align="center">
   <a href="https://www.npmjs.com/package/@consumet/extensions">
-    <img src="https://img.shields.io/npm/v/@consumet/extensions" alt="npm (scoped)">
+    <img src="https://img.shields.io/npm/v/@consumet/extensions?style=flat-square" alt="npm (scoped)">
   </a>
   <a href="https://github.com/consumet/extensions/actions?query=workflow%3A%2Node.js+CI%22">
-    <img src="https://img.shields.io/github/workflow/status/consumet/extensions/Node.js%20CI/master" alt="GitHub Workflow Status (branch)">
+    <img src="https://img.shields.io/github/workflow/status/consumet/extensions/Node.js%20CI/master?style=flat-square" alt="GitHub Workflow Status (branch)">
   </a>
-  <a href="https://github.com/consumet/extensions/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/consumet/extensions" alt="GitHub">
+    <a href="https://discord.gg/qTPfvMxzNH">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="Prs are welcome">
+  </a>
+    <a href="https://github.com/consumet/extensions/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/consumet/extensions?style=flat-square" alt="GitHub">
   </a>
   <a href="https://discord.gg/qTPfvMxzNH">
-    <img src="https://img.shields.io/discord/987492554486452315.svg?label=discord&labelColor=7289da&color=2c2f33" alt="Discord">
+    <img src="https://img.shields.io/discord/987492554486452315.svg?label=discord&labelColor=7289da&color=2c2f33&style=flat-square" alt="Discord">
   </a>
 </p>
 
@@ -49,10 +52,11 @@ import { BOOKS } from "@consumet/extensions"
 
 
 const main = async () => {
+  // Create a new instance of the Libgen provider
   const books = new BOOKS.Libgen();
-
+  // Search for a book. In this case, "Pride and Prejudice"
   const data = await books.search('pride and prejudice');
-
+  // loop through the results and print the title
   for (let v of data) {
     console.log(v.title);
   }
@@ -66,24 +70,30 @@ main();
 import { ANIME } from "@consumet/extensions"
 
 const main = async () => {
+  // Create a new instance of the Gogoanime provider
   const gogoanime = new ANIME.Gogoanime();
-
-  const onePiece = await gogoanime.search("One Piece");
-
-  console.log(onePience);
+  // Search for an anime. In this case, "One Piece"
+  const results = await gogoanime.search("One Piece");
+  // print the results
+  console.log(results);
 }
 ```
 
 Do you want to know more? Head to the [`Getting Started`](https://github.com/consumet/extensions/tree/master/docs/guides/getting-started.md).
 
 ## Documentation
-- [`Getting Started`](https://github.com/consumet/extensions/tree/master/docs/guides/getting-started.md)
+- [`Getting Started`](./docs/guides/getting-started.md)
 - [`Guides`](https://github.com/consumet/extensions/tree/master/docs)
+- [`Anime`](./docs/guides/anime.md)
+- [`Manga`](./docs/guides/manga.md)
+- [`Books`](./docs/guides/books.md)
+- [`Light Novels`](./docs/guides/light-novels.md)
+- [`Comics`](./docs/guides/comics.md)
 
 ## Ecosystem
-- [Examples](https://github.com/consumet/extentions/tree/master/examples) - examples of using Consumet Extensions
+- [Examples](https://github.com/consumet/extentions/tree/master/examples) - examples of using Consumet Extensions.
 - [Provider Status](https://github.com/consumet/providers-status/blob/main/README.md) - A list of providers and their status.
-- [Changelog](https://github.com/consumet/extensions/blob/master/CHANGELOG.md) - See the latest changes
+- [Changelog](https://github.com/consumet/extensions/blob/master/CHANGELOG.md) - See the latest changes.
 - [Discord Server](https://discord.gg/qTPfvMxzNH) - Join our discord server and chat with the maintainers.
 
 ## Provider Request

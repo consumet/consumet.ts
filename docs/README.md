@@ -4,6 +4,8 @@
 - [Getting Started](./guides/getting-started.md): Introduction tutorial for Consumet Extensions. This is where beginners should start.
 - [Anime](./guides/anime.md): How to use anime providers.
 - [Manga](./guides/manga.md): How to use manga providers.
-- [Light Novel](./guides/light-novels.md): How to use light novel providers.
+- [Books](./guides/books.md): How to use book providers.
+- [Light Novels](./guides/light-novels.md): How to use light novel providers.
+- [Comics](./guides/comics.md): How to use comic providers.
 - [Benchmarks](https://github.com/consumet/providers-status#readme): Real-time benchmarking of providers.
 - [Contributing](./guides/contributing.md): Details about how to contribute to Consumet Extensions.

@@ -10,17 +10,17 @@ Let's start!
 
 ### Installation
 Install with npm:
-```bash
+```sh
 npm i @consumet/extensions
 ```
 Install with yarn:
-```bash
+```sh
 yarn add @consumet/extensions
 ```
 
 ### Usage
 
-searching for a book using the libgen provider.
+**Example** - searching for a book using the libgen provider.
 ```ts
 // ESM
 import { BOOKS } from "@consumet/extensions"
@@ -43,7 +43,8 @@ const main = async () => {
 
 main();
 ```
-searching for anime using the gogoanime provider.
+*see also [BOOKS documentation](./books.md#books) for more information.*\
+**Example** - searching for anime using the gogoanime provider.
 ```ts
 // ESM
 import { ANIME } from "@consumet/extensions"
@@ -68,10 +69,10 @@ const main = async () => {
   const streamingServers = await gogoanime.fetchEpisodeServers(episodes[0].id);
 }
 ``` 
+*see also [ANIME documentation](./anime.md#anime) for more information.*\
 Awesome, that was easy.
-*see also [ANIME documentation](./anime.md#anime) for more information.*
 
-if you want to use different providers, you can check the providers list [here](https://github.com/consumet/providers-status/blob/main/providers-list.json).
+if you want to use different providers, you can check the providers list [here](https://consumet.org/extensions/list/) or in [json format](https://github.com/consumet/providers-status/blob/main/providers-list.json).
 
 if you have any questions, please join the [discord server](https://discord.gg/qTPfvMxzNH) or open an [issue](https://github.com/consumet/extensions/issues).
 
