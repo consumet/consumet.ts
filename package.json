@@ -6,7 +6,7 @@
     "types": "dist/index.d.ts",
     "scripts": {
         "build": "tsc",
-        "version": "auto-changelog -p && git add CHANGELOG.md",
+        "version": "auto-changelog -p",
         "test": "jest",
         "test:anime": "jest ./test/anime",
         "test:books": "jest ./test/books",
