@@ -10,7 +10,7 @@ test('returns a filled array of light novels', async () => {
 
 test('returns a filled object of light novel info', async () => {
   const readlightnovels = new LIGHT_NOVELS.ReadLightNovels();
-  const data = await readlightnovels.fetchLighNovelInfo('tensei-shitara-slime-datta-ken');
+  const data = await readlightnovels.fetchLightNovelInfo('tensei-shitara-slime-datta-ken');
   expect(data.chapters).not.toEqual([]);
   expect(data.description).not.toEqual('');
 });
