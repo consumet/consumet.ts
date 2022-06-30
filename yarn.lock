@@ -828,8 +828,8 @@ cheerio-select@^2.1.0:
     domutils "^3.0.1"
 
 cheerio@^1.0.0-rc.11:
-  version "1.0.0-rc.11"
-  resolved "https://registry.npmjs.org/cheerio/-/cheerio-1.0.0-rc.11.tgz"
+  version "1.0.0-rc.12"
+  resolved "https://registry.yarnpkg.com/cheerio/-/cheerio-1.0.0-rc.12.tgz#788bf7466506b1c6bf5fae51d24a2c4d62e47683"
   dependencies:
     cheerio-select "^2.1.0"
     dom-serializer "^2.0.0"
@@ -838,7 +838,6 @@ cheerio@^1.0.0-rc.11:
     htmlparser2 "^8.0.1"
     parse5 "^7.0.0"
     parse5-htmlparser2-tree-adapter "^7.0.0"
-    tslib "^2.4.0"
 
 ci-info@^3.2.0:
   version "3.3.1"
@@ -2108,10 +2107,6 @@ ts-node@^10.8.1:
     make-error "^1.1.1"
     v8-compile-cache-lib "^3.0.1"
     yn "3.1.1"
-
-tslib@^2.4.0:
-  version "2.4.0"
-  resolved "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
 
 type-detect@4.0.8:
   version "4.0.8"
