@@ -12,15 +12,21 @@ const mangadex = new MANGA.MangaDex();
 
 ### search
 > Note: This method is a subclass of the [`BaseParser`](https://github.com/consumet/extensions/blob/master/src/models/base-parser.ts) class. meaning it is available across most categories.
+> 
+<h4>Parameters</h4>
 
-take a string as a parameter and return a list of manga. In this case, We're searching for `Tomodachi Game`
+| Parameter        | Type     | Description                                                                  |
+| ---------------- | -------- | ---------------------------------------------------------------------------- |
+| query            | `string` | query to search for. (*In this case, We're searching for `Tomodachi Gamee`*) |
+| page (optional)  | `number` | page number (default: 1)                                                     |
+| limit (optional) | `number` | limit of results (default: 20)                                               |
 
-returns a promise which resolves into an array of manga. (*[`Promise<ISearch<IMangaResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L97-L106)*)
 ```ts
 mangadex.search("Tomodachi Game").then(data => {
   console.log(data);
 }
 ```
+returns a promise which resolves into an array of manga. (*[`Promise<ISearch<IMangaResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L97-L106)*)
 output:
 ```js
 {
@@ -49,14 +55,19 @@ output:
 ```
 
 ### fetchMangaInfo
-take an manga id as a parameter. (*manga id can be found in the manga search results*)
 
-returns a promise which resolves into an manga info object (including the chapters). (*[`Promise<IMangaInfo>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L115-L120)*)
+<h4>Parameters</h4>
+
+| Parameter | Type     | Description                                                    |
+| --------- | -------- | -------------------------------------------------------------- |
+| mangaId   | `string` | manga id.(*manga id can be found in the manga search results*) |
+
 ```ts
 managdex.fetchMangaInfo("b35f67b6-bfb9-4cbd-86f0-621f37e6cb41").then(data => {
   console.log(data);
 }
 ```
+returns a promise which resolves into an manga info object (including the chapters). (*[`Promise<IMangaInfo>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L115-L120)*)
 output:
 ```js
 {
@@ -95,14 +106,19 @@ output:
 ```
 
 ### fetchChapterPages
-take an chapter id as a parameter. (*chapter id can be found in the manga info object*)
 
-returns an array of pages. (*[`Promise<IMangaChapterPage[]>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L122-L126)*)
+<h4>Parameters</h4>
+
+| Parameter | Type     | Description                                              |
+| --------- | -------- | -------------------------------------------------------- |
+| chapterId | `string` | chapter id.(*chapter id can be found in the manga info*) |
+
 ```ts
 mangadex.fetchChapterPages("a79255c8-21b5-4a8c-a586-48469fa87020").then(data => {
   console.log(data);
 }
 ```
+returns an array of pages. (*[`Promise<IMangaChapterPage[]>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L122-L126)*)
 output:
 ```js
 [

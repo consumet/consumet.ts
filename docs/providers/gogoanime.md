@@ -14,14 +14,21 @@ const gogoanime = new ANIME.Gogoanime();
 ### search
 > Note: This method is a subclass of the [`BaseParser`](https://github.com/consumet/extensions/blob/master/src/models/base-parser.ts) class. meaning it is available across most categories.
 
-take a string as a parameter and return a list of anime. In this case, We're searching for `One Piece`
 
-returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)
+<h4>Parameters</h4>
+
+| Parameter       | Type     | Description                                                            |
+| --------------- | -------- | ---------------------------------------------------------------------- |
+| query           | `string` | query to search for. (*In this case, We're searching for `One Piece`*) |
+| page (optional) | `number` | page number (default: 1)                                               |
+
 ```ts
 gogoanime.search("One Piece").then(data => {
   console.log(data);
 }
 ```
+
+returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)
 output:
 ```js
 {
@@ -51,14 +58,20 @@ output:
 ```
 
 ### fetchAnimeInfo
-take an anime id or url as a parameter. (*anime id or url can be found in the anime search results*)
 
-returns a promise which resolves into an anime info object (including the episodes). (*[`Promise<IAnimeInfo>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L28-L42)*)
+<h4>Parameters</h4>
+
+| Parameter | Type     | Description                                                                                        |
+| --------- | -------- | -------------------------------------------------------------------------------------------------- |
+| animeUrl  | `string` | takes anime url or id as a parameter. (*anime id or url can be found in the anime search results*) |
+
 ```ts
 gogoanime.fetchAnimeInfo("one-piece").then(data => {
   console.log(data);
 }
 ```
+
+returns a promise which resolves into an anime info object (including the episodes). (*[`Promise<IAnimeInfo>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L28-L42)*)
 output:
 ```js
 {
@@ -96,14 +109,21 @@ output:
 ```
 
 ### fetchEpisodeSources
-take an episode id or url as a parameter. (*episode id can be found in the anime info object*)
 
-returns an array of episode sources. (*[`Promise<{ headers: { [k: string]: string }; sources: IVideo[] }>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L59-L74)*)
+<h4>Parameters</h4>
+
+| Parameter         | Type                                                                                                 | Description                                                                                                                                               |
+| ----------------- | ---------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| episodeId         | `string`                                                                                             | takes episode id as a parameter. (*episode id can be found in the anime info object*)                                                                     |
+| server (optional) | [`StreamingServers`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L76-L81) | takes server enum as a parameter. *default: [`StreamingServers.GogoCDN`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L76-L81)* |
+
+
 ```ts
 gogoanime.fetchEpisodeSources("one-piece-episode-1022").then(data => {
   console.log(data);
 }
 ```
+returns a promise which resolves into an array of episode sources. (*[`Promise<{ headers: { [k: string]: string }; sources: IVideo[] }>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L59-L74)*)
 output:
 ```js
 {
@@ -124,14 +144,19 @@ output:
 ```
 
 ### fetchEpisodeServers
-take an episode id or url as a parameter. (*episode id can be found in the anime info object*)
 
-returns an array of episode servers. (*[`Promise<IEpisodeServer[]>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L54-L57)*)
+<h4>Parameters</h4>
+
+| Parameter | Type     | Description                                                                                                   |
+| --------- | -------- | ------------------------------------------------------------------------------------------------------------- |
+| episodeId | `string` | take an episode id or url as a parameter. (*episode id or episode url can be found in the anime info object*) |
+
 ```ts
 gogoanime.fetchEpisodeServers("one-piece-episode-1022").then(data => {
   console.log(data);
 }
 ```
+returns a promise which resolves into an array of episode servers. (*[`Promise<IEpisodeServer[]>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L54-L57)*)
 output:
 ```js
 [

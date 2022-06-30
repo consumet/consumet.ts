@@ -62,10 +62,7 @@ class MangaDex extends MangaParser {
   /**
    * @currently only supports english
    */
-  override fetchChapterPages = async (
-    chapterId: string,
-    ...args: any
-  ): Promise<IMangaChapterPage[]> => {
+  override fetchChapterPages = async (chapterId: string): Promise<IMangaChapterPage[]> => {
     try {
       const res = await axios.get(`${this.apiUrl}/at-home/server/${chapterId}`);
       const pages: { img: string; page: number }[] = [];
