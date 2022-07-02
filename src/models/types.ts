@@ -76,8 +76,8 @@ export interface IVideo {
 export enum StreamingServers {
   GogoCDN = 'gogocdn',
   StreamSB = 'streamsb',
-  Doodstream = 'doodstream',
-  Mp4Upload = 'mp4upload',
+  MixDrop = 'mixdrop',
+  DoodStream = 'doodstream',
 }
 
 export enum MediaStatus {
@@ -193,4 +193,53 @@ export interface ZLibrary extends Book {
   language: string;
   size: string;
   pages: string;
+}
+
+export interface ISource {
+  headers?: { [k: string]: string };
+  sources: IVideo[];
+}
+
+export enum TvType {
+  TVSERIES = 'TV Series',
+  MOVIE = 'Movie',
+}
+
+export interface IMovieEpisode {
+  id: string;
+  title: string;
+  url: string;
+  number?: number;
+  season?: number;
+  image?: string;
+  releaseDate?: string;
+  [x: string]: unknown; // other fields
+}
+
+export interface IMovieInfo {
+  id: string;
+  title: string;
+  url: string;
+  image?: string;
+  releaseDate?: string;
+  genres?: string[];
+  description?: string;
+  rating?: number;
+  type?: TvType;
+  status?: MediaStatus;
+  duration?: string;
+  production?: string;
+  casts?: string[];
+  tags?: string[];
+  totalEpisodes?: number;
+  /**
+   * episodes should only be available if the type is TV Series
+   */
+  episodes?: IMovieEpisode[];
+  /**
+   * servers should only be available if the type is Movie
+   */
+  servers?: IEpisodeServer[];
+
+  [x: string]: unknown; // other fields
 }

@@ -1,4 +1,4 @@
-import { GogoCDN, StreamSB } from './extractors';
+import { GogoCDN, StreamSB, DoodStream, MixDrop } from './extractors';
 import {
   USER_AGENT,
   splitAuthor,
@@ -22,4 +22,6 @@ export {
   splitStar,
   genElement,
   capitalizeFirstLetter,
+  DoodStream,
+  MixDrop,
 };

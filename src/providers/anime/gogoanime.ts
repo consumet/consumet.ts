@@ -11,6 +11,7 @@ import {
   MediaStatus,
   SubOrSub,
   IAnimeResult,
+  ISource,
 } from '../../models';
 import { GogoCDN, StreamSB, USER_AGENT } from '../../utils';
 
@@ -164,7 +165,7 @@ class Gogoanime extends AnimeParser {
   override fetchEpisodeSources = async (
     episodeId: string,
     server: StreamingServers = StreamingServers.GogoCDN
-  ): Promise<{ headers: { [k: string]: string }; sources: IVideo[] }> => {
+  ): Promise<ISource> => {
     if (episodeId.startsWith('http')) {
       const serverUrl = new URL(episodeId);
       switch (server) {
