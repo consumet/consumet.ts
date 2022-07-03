@@ -4,4 +4,4 @@ const _1 = require(".");
 class BookParser extends _1.BaseParser {
 }
 exports.default = BookParser;
-//# sourceMappingURL=book-parsers.js.map
+//# sourceMappingURL=book-parser.js.map

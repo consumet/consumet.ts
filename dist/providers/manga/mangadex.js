@@ -15,6 +15,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const axios_1 = __importDefault(require("axios"));
 const ascii_url_encoder_1 = require("ascii-url-encoder");
 const models_1 = require("../../models");
+const utils_1 = require("../../utils");
 class MangaDex extends models_1.MangaParser {
     constructor() {
         super(...arguments);
@@ -38,7 +39,7 @@ class MangaDex extends models_1.MangaParser {
                     themes: data.data.attributes.tags
                         .filter((tag) => tag.attributes.group === 'theme')
                         .map((tag) => tag.attributes.name.en),
-                    status: data.data.attributes.status,
+                    status: (0, utils_1.capitalizeFirstLetter)(data.data.attributes.status),
                     releaseDate: data.data.attributes.year,
                     chapters: [],
                 };
@@ -62,7 +63,7 @@ class MangaDex extends models_1.MangaParser {
         /**
          * @currently only supports english
          */
-        this.fetchChapterPages = (chapterId, ...args) => __awaiter(this, void 0, void 0, function* () {
+        this.fetchChapterPages = (chapterId) => __awaiter(this, void 0, void 0, function* () {
             try {
                 const res = yield axios_1.default.get(`${this.apiUrl}/at-home/server/${chapterId}`);
                 const pages = [];
@@ -94,14 +95,14 @@ class MangaDex extends models_1.MangaParser {
                 const res = yield axios_1.default.get(`${this.apiUrl}/manga?limit=${limit}&title=${(0, ascii_url_encoder_1.encode)(query)}&limit=${limit}&offset=${limit * (page - 1)}&order[relevance]=desc`);
                 if (res.data.result == 'ok') {
                     const results = {
-                        currentPage: page + 1,
+                        currentPage: page,
                         results: [],
                     };
                     for (const manga of res.data.data) {
                         results.results.push({
                             id: manga.id,
                             title: Object.values(manga.attributes.title)[0],
-                            altTtitles: manga.attributes.altTitles,
+                            altTitles: manga.attributes.altTitles,
                             descitption: Object.values(manga.attributes.description)[0],
                             status: manga.attributes.status,
                             releaseDate: manga.attributes.year,

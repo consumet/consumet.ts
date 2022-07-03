@@ -23,8 +23,17 @@ class Gogoanime extends models_1.AnimeParser {
         this.baseUrl = 'https://gogoanime.gg';
         this.logo = 'https://i0.wp.com/cloudfuji.com/wp-content/uploads/2021/12/gogoanime.png?fit=300%2C400&ssl=1';
         this.classPath = 'ANIME.Gogoanime';
+        /**
+         *
+         * @param query search query string
+         * @param page page number (default 1) (optional)
+         */
         this.search = (query, page = 1) => __awaiter(this, void 0, void 0, function* () {
-            const searchResult = { currentPage: page, hasNextPage: false, results: [] };
+            const searchResult = {
+                currentPage: page,
+                hasNextPage: false,
+                results: [],
+            };
             try {
                 const res = yield axios_1.default.get(`${this.baseUrl}/search.html?keyword=${encodeURIComponent(query)}&page=${page}`);
                 const $ = (0, cheerio_1.load)(res.data);
@@ -49,6 +58,10 @@ class Gogoanime extends models_1.AnimeParser {
                 throw new Error(err.message);
             }
         });
+        /**
+         *
+         * @param animeUrl anime url or id
+         */
         this.fetchAnimeInfo = (animeUrl) => __awaiter(this, void 0, void 0, function* () {
             if (!animeUrl.startsWith(this.baseUrl))
                 animeUrl = `${this.baseUrl}/category/${animeUrl}`;
@@ -57,7 +70,7 @@ class Gogoanime extends models_1.AnimeParser {
                 title: '',
                 url: animeUrl,
                 genres: [],
-                episodes: [],
+                totalEpisodes: 0,
             };
             try {
                 const res = yield axios_1.default.get(animeUrl);
@@ -80,19 +93,19 @@ class Gogoanime extends models_1.AnimeParser {
                     ? models_1.SubOrSub.DUB
                     : models_1.SubOrSub.SUB;
                 animeInfo.type = $('div.anime_info_body_bg > p:nth-child(4) > a').text().trim();
-                animeInfo.status = models_1.AnimeStatus.UNKNOWN;
+                animeInfo.status = models_1.MediaStatus.UNKNOWN;
                 switch ($('div.anime_info_body_bg > p:nth-child(8) > a').text().trim()) {
                     case 'Ongoing':
-                        animeInfo.status = models_1.AnimeStatus.ONGOING;
+                        animeInfo.status = models_1.MediaStatus.ONGOING;
                         break;
                     case 'Completed':
-                        animeInfo.status = models_1.AnimeStatus.COMPLETED;
+                        animeInfo.status = models_1.MediaStatus.COMPLETED;
                         break;
                     case 'Upcoming':
-                        animeInfo.status = models_1.AnimeStatus.NOT_YET_AIRED;
+                        animeInfo.status = models_1.MediaStatus.NOT_YET_AIRED;
                         break;
                     default:
-                        animeInfo.status = models_1.AnimeStatus.UNKNOWN;
+                        animeInfo.status = models_1.MediaStatus.UNKNOWN;
                         break;
                 }
                 animeInfo.otherName = $('div.anime_info_body_bg > p:nth-child(9)')
@@ -109,6 +122,7 @@ class Gogoanime extends models_1.AnimeParser {
                 const alias = $('#alias_anime').attr('value');
                 const html = yield axios_1.default.get(`https://ajax.gogo-load.com/ajax/load-list-episode?ep_start=${ep_start}&ep_end=${ep_end}&id=${movie_id}&default_ep=${0}&alias=${alias}`);
                 const $$ = (0, cheerio_1.load)(html.data);
+                animeInfo.episodes = [];
                 $$('#episode_related > li').each((i, el) => {
                     var _a, _b, _c;
                     (_a = animeInfo.episodes) === null || _a === void 0 ? void 0 : _a.push({
@@ -124,6 +138,11 @@ class Gogoanime extends models_1.AnimeParser {
                 throw new Error("Anime doesn't exist.");
             }
         });
+        /**
+         *
+         * @param episodeId episode id
+         * @param server server type (default 'GogoCDN') (optional)
+         */
         this.fetchEpisodeSources = (episodeId, server = models_1.StreamingServers.GogoCDN) => __awaiter(this, void 0, void 0, function* () {
             if (episodeId.startsWith('http')) {
                 const serverUrl = new URL(episodeId);
@@ -167,6 +186,10 @@ class Gogoanime extends models_1.AnimeParser {
                 throw new Error('Episode not found.');
             }
         });
+        /**
+         *
+         * @param episodeLink episode link or episode id
+         */
         this.fetchEpisodeServers = (episodeLink) => __awaiter(this, void 0, void 0, function* () {
             try {
                 if (!episodeLink.startsWith(this.baseUrl))

@@ -32,7 +32,11 @@ class NineAnime extends models_1.AnimeParser {
     }
     search(query, page = 1) {
         return __awaiter(this, void 0, void 0, function* () {
-            const searchResult = { currentPage: page, hasNextPage: false, results: [] };
+            const searchResult = {
+                currentPage: page,
+                hasNextPage: false,
+                results: [],
+            };
             // MAKE VRF
             try {
                 console.log(`query: ${query}, vrf: ${(0, ascii_url_encoder_1.encode)(this.getVrf(query))}`);
@@ -105,22 +109,22 @@ class NineAnime extends models_1.AnimeParser {
                     .text()
                     .trim()
                     .split('to')[0]) === null || _b === void 0 ? void 0 : _b.trim();
-                animeInfo.status = models_1.AnimeStatus.UNKNOWN;
+                animeInfo.status = models_1.MediaStatus.UNKNOWN;
                 switch ((_c = $('.col1 > div:nth-child(4) > div:nth-child(2) > span:nth-child(1)').text()) === null || _c === void 0 ? void 0 : _c.trim()) {
                     case 'Airing':
-                        animeInfo.status = models_1.AnimeStatus.ONGOING;
+                        animeInfo.status = models_1.MediaStatus.ONGOING;
                         break;
                     case 'Completed':
-                        animeInfo.status = models_1.AnimeStatus.COMPLETED;
+                        animeInfo.status = models_1.MediaStatus.COMPLETED;
                         break;
                     case 'Cancelled':
-                        animeInfo.status = models_1.AnimeStatus.CANCELLED;
+                        animeInfo.status = models_1.MediaStatus.CANCELLED;
                         break;
                     case 'Unknown':
-                        animeInfo.status = models_1.AnimeStatus.UNKNOWN;
+                        animeInfo.status = models_1.MediaStatus.UNKNOWN;
                         break;
                     default:
-                        animeInfo.status = models_1.AnimeStatus.UNKNOWN;
+                        animeInfo.status = models_1.MediaStatus.UNKNOWN;
                         break;
                 }
                 animeInfo.score = parseFloat($('.col2 > div:nth-child(1) > div:nth-child(2) > span:nth-child(1)').text());

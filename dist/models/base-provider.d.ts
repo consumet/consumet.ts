@@ -9,7 +9,8 @@ declare abstract class BaseProvider {
      */
     protected abstract readonly baseUrl: string;
     /**
-     * Most providers are english based, but if the provider is not english based override this value
+     * Most providers are english based, but if the provider is not english based override this value.
+     * must be in [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) format
      */
     protected readonly languages: string[] | string;
     /**
@@ -23,7 +24,7 @@ declare abstract class BaseProvider {
     protected abstract readonly logo: string;
     /**
      * The class's path is determined by the provider's directory structure for example:\
-     * MangaDex class path is `MANGA.all.MangaDex`. **(case sensitive)**
+     * MangaDex class path is `MANGA.MangaDex`. **(case sensitive)**
      */
     protected abstract readonly classPath: string;
     /**

@@ -1,4 +1,4 @@
-import { LightNovelParser, ILightNovelSearch, ILightNovelInfo, ILightNovelChapterContent } from '../../models';
+import { LightNovelParser, ISearch, ILightNovelInfo, ILightNovelChapterContent, ILightNovelResult } from '../../models';
 declare class ReadLightNovels extends LightNovelParser {
     readonly name = "Read Light Novels";
     protected baseUrl: string;
@@ -7,18 +7,20 @@ declare class ReadLightNovels extends LightNovelParser {
     /**
      *
      * @param lightNovelUrl light novel link or id
-     * @param chapterPage chapter page number (optional) if not provided, will fetch all chapters
-     * @returns light novel info with chapters
+     * @param chapterPage chapter page number (optional) if not provided, will fetch all chapter pages.
      */
-    fetchLighNovelInfo: (lightNovelUrl: string, chapterPage?: number) => Promise<ILightNovelInfo>;
+    fetchLightNovelInfo: (lightNovelUrl: string, chapterPage?: number) => Promise<ILightNovelInfo>;
     private fetchChapters;
     private fetchAllChapters;
     /**
      *
      * @param chapterId chapter id or url
-     * @returns chapter content as string
      */
     fetchChapterContent: (chapterId: string) => Promise<ILightNovelChapterContent>;
-    search: (query: string) => Promise<ILightNovelSearch>;
+    /**
+     *
+     * @param query search query string
+     */
+    search: (query: string) => Promise<ISearch<ILightNovelResult>>;
 }
 export default ReadLightNovels;

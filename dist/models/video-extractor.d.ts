@@ -1,4 +1,4 @@
-import { IVideo } from '.';
+import { IVideo, ISource } from '.';
 declare abstract class VideoExtractor {
     /**
      * The server name of the video provider
@@ -13,6 +13,6 @@ declare abstract class VideoExtractor {
      *
      * returns video sources (video links) available
      */
-    protected abstract extract(videoUrl: URL, ...args: any): Promise<IVideo[]>;
+    protected abstract extract(videoUrl: URL, ...args: any): Promise<IVideo[] | ISource>;
 }
 export default VideoExtractor;

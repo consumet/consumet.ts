@@ -26,6 +26,7 @@ class Zlibrary extends models_1.BookParser {
         this.logo = `${this.baseUrl}/img/logo.zlibrary.png`;
         this.isWorking = false;
         this.search = (bookUrl) => __awaiter(this, void 0, void 0, function* () {
+            bookUrl = encodeURIComponent(bookUrl);
             const { data } = yield get(`${this.baseUrl}/s/${bookUrl}`, {
                 headers: {
                     'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0',

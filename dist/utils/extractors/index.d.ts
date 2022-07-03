@@ -1,3 +1,5 @@
 import GogoCDN from './gogocdn';
 import StreamSB from './streamsb';
-export { GogoCDN, StreamSB };
+import VidCloud from './vidcloud';
+import MixDrop from './mixdrop';
+export { GogoCDN, StreamSB, VidCloud, MixDrop };

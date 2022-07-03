@@ -16,10 +16,10 @@ export interface IAnimeResult {
     releaseDate?: string;
     [x: string]: unknown;
 }
-export interface IAnimeSearch {
+export interface ISearch<T> {
     currentPage?: number;
     hasNextPage?: boolean;
-    results: IAnimeResult[];
+    results: T[];
 }
 export interface IAnimeInfo {
     id: string;
@@ -30,7 +30,7 @@ export interface IAnimeInfo {
     genres?: string[];
     description?: string;
     type?: string;
-    status?: AnimeStatus;
+    status?: MediaStatus;
     totalEpisodes?: number;
     subOrDub?: SubOrSub;
     episodes?: IAnimeEpisode[];
@@ -68,10 +68,11 @@ export interface IVideo {
 export declare enum StreamingServers {
     GogoCDN = "gogocdn",
     StreamSB = "streamsb",
-    Doodstream = "doodstream",
-    Mp4Upload = "mp4upload"
+    MixDrop = "mixdrop",
+    UpCloud = "upcloud",
+    VidCloud = "vidcloud"
 }
-export declare enum AnimeStatus {
+export declare enum MediaStatus {
     ONGOING = "Ongoing",
     COMPLETED = "Completed",
     HIATUS = "Hiatus",
@@ -86,18 +87,14 @@ export declare enum SubOrSub {
 export interface IMangaResult {
     id: string;
     title: string | [lang: string][];
-    altTtitles?: string | [lang: string][];
+    altTitles?: string | [lang: string][];
     image?: string;
     description?: string | [lang: string][] | {
         [lang: string]: string;
     };
-    status?: string;
+    status?: MediaStatus;
     releaseDate?: number | string;
     [x: string]: unknown;
-}
-export interface IMangaSearch {
-    currentPage?: number;
-    results: IMangaResult[];
 }
 export interface IMangaChapter {
     id: string;
@@ -111,16 +108,17 @@ export interface IMangaInfo extends IMangaResult {
     links?: string[];
     chapters?: IMangaChapter[];
 }
+export interface IMangaChapterPage {
+    img: string;
+    page: number;
+    [x: string]: unknown;
+}
 export interface ILightNovelResult {
     id: string;
     title: string;
     url: string;
     image?: string;
     [x: string]: unknown;
-}
-export interface ILightNovelSearch {
-    currentPage?: number;
-    results: ILightNovelResult[];
 }
 export interface ILightNovelChapter {
     id: string;
@@ -137,7 +135,7 @@ export interface ILightNovelInfo extends ILightNovelResult {
     genres?: string[];
     description?: string;
     chapters?: ILightNovelChapter[];
-    status?: string;
+    status?: MediaStatus;
     views?: number;
     rating?: number;
 }
@@ -168,7 +166,7 @@ export interface GetComicsComics {
 }
 export interface ComicRes {
     containers: GetComicsComics[];
-    page: number;
+    pages: number;
 }
 export interface ZLibrary extends Book {
     bookRating: string;
@@ -176,4 +174,57 @@ export interface ZLibrary extends Book {
     language: string;
     size: string;
     pages: string;
+}
+export interface ISubtitle {
+    /**
+     * The **url** that should take you to the subtitle **directly**.
+     */
+    url: string;
+    /**
+     * The language of the subtitle
+     */
+    lang: string;
+}
+export interface ISource {
+    headers?: {
+        [k: string]: string;
+    };
+    subtitles?: ISubtitle[];
+    sources: IVideo[];
+}
+export declare enum TvType {
+    TVSERIES = "TV Series",
+    MOVIE = "Movie",
+    ANIME = "Anime"
+}
+export interface IMovieEpisode {
+    id: string;
+    title: string;
+    url: string;
+    number?: number;
+    season?: number;
+    image?: string;
+    releaseDate?: string;
+    [x: string]: unknown;
+}
+export interface IMovieResult {
+    id: string;
+    title: string;
+    url: string;
+    image?: string;
+    releaseDate?: string;
+    type?: TvType;
+    [x: string]: unknown;
+}
+export interface IMovieInfo extends IMovieResult {
+    genres?: string[];
+    description?: string;
+    rating?: number;
+    status?: MediaStatus;
+    duration?: string;
+    production?: string;
+    casts?: string[];
+    tags?: string[];
+    totalEpisodes?: number;
+    episodes?: IMovieEpisode[];
 }

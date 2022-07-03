@@ -34,7 +34,7 @@ declare class Libgen extends BookParser {
      * @param {number} [maxResults=25] - maximum number of results
      * @returns {Promise<LibgenBook[]>}
      */
-    search: (query: string, maxResults?: number | undefined) => Promise<LibgenBook[]>;
+    search: (query: string, maxResults?: number) => Promise<LibgenBook[]>;
     /**
      * scrapes a ligen search page by page url
      *

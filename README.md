@@ -2,7 +2,7 @@
 
 <h1 align="center"> Consumet Extentions </h1>
 
-Consumet Extensons is a Node library which provides high-level APIs to get information about several entertainment mediums like books, movies, comics, anime, manga, etc.
+Consumet Extensions is a Node library which provides high-level APIs to get information about several entertainment mediums like books, movies, comics, anime, manga, etc.
 
 <p align="center">
   <a href="https://www.npmjs.com/package/@consumet/extensions">

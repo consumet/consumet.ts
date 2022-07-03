@@ -1,4 +1,4 @@
-import { AnimeParser, IAnimeSearch, IAnimeInfo } from '../../models';
+import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult } from '../../models';
 /**
  * @deprecated
  * working on it...
@@ -10,7 +10,7 @@ declare class NineAnime extends AnimeParser {
     protected classPath: string;
     isWorking: boolean;
     private readonly base64;
-    search(query: string, page?: number): Promise<IAnimeSearch>;
+    search(query: string, page?: number): Promise<ISearch<IAnimeResult>>;
     fetchAnimeInfo(animeUrl: string): Promise<IAnimeInfo>;
     fetchEpisodeSources(episodeLink: string): Promise<void>;
     fetchEpisodeServers(episodeLink: string): Promise<void>;

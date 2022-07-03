@@ -27,10 +27,9 @@ class ReadLightNovels extends models_1.LightNovelParser {
         /**
          *
          * @param lightNovelUrl light novel link or id
-         * @param chapterPage chapter page number (optional) if not provided, will fetch all chapters
-         * @returns light novel info with chapters
+         * @param chapterPage chapter page number (optional) if not provided, will fetch all chapter pages.
          */
-        this.fetchLighNovelInfo = (lightNovelUrl, chapterPage = -1) => __awaiter(this, void 0, void 0, function* () {
+        this.fetchLightNovelInfo = (lightNovelUrl, chapterPage = -1) => __awaiter(this, void 0, void 0, function* () {
             var _a, _b;
             if (!lightNovelUrl.startsWith(this.baseUrl)) {
                 lightNovelUrl = `${this.baseUrl}/${lightNovelUrl}.html`;
@@ -54,7 +53,6 @@ class ReadLightNovels extends models_1.LightNovelParser {
                 lightNovelInfo.genres = $(' div.col-xs-12.col-sm-4.col-md-4.info-holder > div.info > div:nth-child(2) > a')
                     .map((i, el) => $(el).text())
                     .get();
-                lightNovelInfo.status = $('div.col-xs-12.col-sm-4.col-md-4.info-holder > div.info > div:nth-child(3) > span').text();
                 lightNovelInfo.rating = parseFloat($('div.col-xs-12.col-sm-8.col-md-8.desc > div.rate > div.small > em > strong:nth-child(1) > span').text());
                 lightNovelInfo.views = parseInt($('div.col-xs-12.col-sm-4.col-md-4.info-holder > div.info > div:nth-child(4) > span').text());
                 lightNovelInfo.description = $('div.col-xs-12.col-sm-8.col-md-8.desc > div.desc-text > hr')
@@ -65,6 +63,17 @@ class ReadLightNovels extends models_1.LightNovelParser {
                     .map((i, el) => parseInt($(el).find('a').attr('data-page')))
                     .get()
                     .filter((x) => !isNaN(x)));
+                switch ($('div.col-xs-12.col-sm-4.col-md-4.info-holder > div.info > div:nth-child(3) > span').text()) {
+                    case 'Completed':
+                        lightNovelInfo.status = models_1.MediaStatus.COMPLETED;
+                        break;
+                    case 'On Going':
+                        lightNovelInfo.status = models_1.MediaStatus.ONGOING;
+                        break;
+                    default:
+                        lightNovelInfo.status = models_1.MediaStatus.UNKNOWN;
+                        break;
+                }
                 lightNovelInfo.pages = pages;
                 lightNovelInfo.chapters = [];
                 if (chapterPage === -1) {
@@ -121,7 +130,6 @@ class ReadLightNovels extends models_1.LightNovelParser {
         /**
          *
          * @param chapterId chapter id or url
-         * @returns chapter content as string
          */
         this.fetchChapterContent = (chapterId) => __awaiter(this, void 0, void 0, function* () {
             if (!chapterId.startsWith(this.baseUrl)) {
@@ -144,6 +152,10 @@ class ReadLightNovels extends models_1.LightNovelParser {
                 throw new Error(err.message);
             }
         });
+        /**
+         *
+         * @param query search query string
+         */
         this.search = (query) => __awaiter(this, void 0, void 0, function* () {
             const result = { results: [] };
             try {

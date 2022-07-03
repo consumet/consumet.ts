@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.genElement = exports.formatTitle = exports.floorID = exports.splitAuthor = exports.USER_AGENT = void 0;
+exports.capitalizeFirstLetter = exports.genElement = exports.formatTitle = exports.floorID = exports.splitAuthor = exports.USER_AGENT = void 0;
 const cheerio_1 = require("cheerio");
 exports.USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36';
 const splitAuthor = (authors) => {
@@ -63,4 +63,6 @@ const genElement = (s, e) => {
     return el;
 };
 exports.genElement = genElement;
+const capitalizeFirstLetter = (s) => s.charAt(0).toUpperCase() + s.slice(1);
+exports.capitalizeFirstLetter = capitalizeFirstLetter;
 //# sourceMappingURL=utils.js.map

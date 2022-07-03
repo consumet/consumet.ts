@@ -37,6 +37,7 @@ class Libgen extends models_1.BookParser {
          * @returns {Promise<LibgenBook>}
          */
         this.scrapeBook = (bookUrl) => __awaiter(this, void 0, void 0, function* () {
+            bookUrl = encodeURIComponent(bookUrl);
             const container = new models_1.LibgenBookObject();
             const { data } = yield get(bookUrl);
             const $ = (0, cheerio_1.load)(data);
@@ -225,6 +226,7 @@ class Libgen extends models_1.BookParser {
          * @returns {Promise<LibgenBook[]>}
          */
         this.fastSearch = (query, maxResults) => __awaiter(this, void 0, void 0, function* () {
+            query = encodeURIComponent(query);
             let page;
             let workingExtension = this.extensions[0];
             const containers = [];
@@ -312,6 +314,7 @@ class Libgen extends models_1.BookParser {
          * @returns {Promise<LibgenBook[]>}
          */
         this.search = (query, maxResults) => __awaiter(this, void 0, void 0, function* () {
+            query = encodeURIComponent(query);
             let page;
             let workingExtension = this.extensions[0];
             const containers = [];
@@ -505,6 +508,7 @@ class Libgen extends models_1.BookParser {
          * @returns {Promise<LibgenBook[]>}
          */
         this.fastScrapePage = (pageUrl) => __awaiter(this, void 0, void 0, function* () {
+            pageUrl = encodeURIComponent(pageUrl);
             let page;
             let workingExtension = this.extensions[0];
             const containers = [];
@@ -592,6 +596,7 @@ class Libgen extends models_1.BookParser {
          * @returns {Promise<LibgenBook[]>}
          */
         this.scrapePage = (pageUrl, maxResults = 25) => __awaiter(this, void 0, void 0, function* () {
+            pageUrl = encodeURIComponent(pageUrl);
             let page;
             let workingExtension = this.extensions[0];
             const containers = [];
@@ -776,7 +781,5 @@ class Libgen extends models_1.BookParser {
         });
     }
 }
-const ai = new Libgen();
-ai.scrapeBook;
 exports.default = Libgen;
 //# sourceMappingURL=libgen.js.map
