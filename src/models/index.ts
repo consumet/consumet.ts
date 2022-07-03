@@ -34,6 +34,8 @@ import {
   IMovieEpisode,
   IMovieInfo,
   ISource,
+  ISubtitle,
+  IMovieResult,
 } from './types';
 import { LibgenBookObject, GetComicsComicsObject, ZLibraryObject } from './type-objects';
 
@@ -76,4 +78,6 @@ export {
   IMovieEpisode,
   IMovieInfo,
   ISource,
+  ISubtitle,
+  IMovieResult,
 };

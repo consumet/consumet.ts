@@ -1,5 +1,6 @@
 import { load } from 'cheerio';
-import axios, { AxiosResponse } from 'axios';
+import axios from 'axios';
+import FormData from 'form-data';
 
 import {
   MovieParser,
@@ -8,8 +9,10 @@ import {
   IEpisodeServer,
   StreamingServers,
   ISource,
+  IMovieResult,
+  ISearch,
 } from '../../models';
-import { MixDrop, UpCloud } from '../../utils';
+import { MixDrop, VidCloud } from '../../utils';
 
 class FlixHQ extends MovieParser {
   override readonly name = 'FlixHQ';
@@ -17,10 +20,48 @@ class FlixHQ extends MovieParser {
   protected override logo =
     'https://img.flixhq.to/xxrz/400x400/100/ab/5f/ab5f0e1996cc5b71919e10e910ad593e/ab5f0e1996cc5b71919e10e910ad593e.png';
   protected override classPath = 'MOVIES.FlixHQ';
-  protected override supportedTypes = new Set([TvType.MOVIE, TvType.TVSERIES]);
+  protected override supportedTypes = new Set([TvType.MOVIE, TvType.TVSERIES, TvType.ANIME]);
 
-  override search = (query: string, ...args: any[]): Promise<unknown> => {
-    throw new Error('Method not implemented.');
+  /**
+   *
+   * @param query search query string
+   * @param page page number (default 1) (optional)
+   */
+  override search = async (query: string, page: number = 1): Promise<ISearch<IMovieResult>> => {
+    const searchResult: ISearch<IMovieResult> = {
+      currentPage: page,
+      hasNextPage: false,
+      results: [],
+    };
+    try {
+      const { data } = await axios.get(
+        `${this.baseUrl}/search/${query.replace(/[\W_]+/g, '-')}?page=${page}`
+      );
+
+      const $ = load(data);
+
+      const navSelector = 'div.pre-pagination:nth-child(3) > nav:nth-child(1) > ul:nth-child(1)';
+
+      searchResult.hasNextPage =
+        $(navSelector).length > 0 ? !$(navSelector).children().last().hasClass('active') : false;
+
+      $('.film_list-wrap > div.flw-item').each((i, el) => {
+        searchResult.results.push({
+          id: $(el).find('div.film-poster > a').attr('href')?.slice(1)!,
+          title: $(el).find('div.film-detail > h2 > a').attr('title')!,
+          url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
+          image: $(el).find('div.film-poster > img').attr('data-src'),
+          type:
+            $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
+              ? TvType.MOVIE
+              : TvType.TVSERIES,
+        });
+      });
+
+      return searchResult;
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
   };
 
   /**
@@ -128,7 +169,7 @@ class FlixHQ extends MovieParser {
   override fetchEpisodeSources = async (
     episodeId: string,
     mediaId: string,
-    server: StreamingServers = StreamingServers.MixDrop
+    server: StreamingServers = StreamingServers.VidCloud
   ): Promise<ISource> => {
     if (episodeId.startsWith('http')) {
       const serverUrl = new URL(episodeId);
@@ -138,10 +179,15 @@ class FlixHQ extends MovieParser {
             headers: { Referer: serverUrl.href },
             sources: await new MixDrop().extract(serverUrl),
           };
+        case StreamingServers.VidCloud:
+          return {
+            headers: { Referer: serverUrl.href },
+            ...(await new VidCloud().extract(serverUrl, true)),
+          };
         case StreamingServers.UpCloud:
           return {
             headers: { Referer: serverUrl.href },
-            sources: await new UpCloud().extract(serverUrl),
+            ...(await new VidCloud().extract(serverUrl)),
           };
         default:
           return {
@@ -214,16 +260,5 @@ class FlixHQ extends MovieParser {
     }
   };
 }
-
-(async () => {
-  const flixHQ = new FlixHQ();
-  const movieInfo = await flixHQ.fetchMediaInfo('tv/watch-vincenzo-67955');
-  const episode1 = await flixHQ.fetchEpisodeSources(
-    movieInfo.episodes![1].id,
-    movieInfo.id,
-    'upcloud' as StreamingServers
-  );
-  console.log(episode1);
-})();
 
 export default FlixHQ;

@@ -78,6 +78,7 @@ export enum StreamingServers {
   StreamSB = 'streamsb',
   MixDrop = 'mixdrop',
   UpCloud = 'upcloud',
+  VidCloud = 'vidcloud',
 }
 
 export enum MediaStatus {
@@ -195,14 +196,27 @@ export interface ZLibrary extends Book {
   pages: string;
 }
 
+export interface ISubtitle {
+  /**
+   * The **url** that should take you to the subtitle **directly**.
+   */
+  url: string;
+  /**
+   * The language of the subtitle
+   */
+  lang: string;
+}
+
 export interface ISource {
   headers?: { [k: string]: string };
+  subtitles?: ISubtitle[];
   sources: IVideo[];
 }
 
 export enum TvType {
   TVSERIES = 'TV Series',
   MOVIE = 'Movie',
+  ANIME = 'Anime',
 }
 
 export interface IMovieEpisode {
@@ -216,16 +230,20 @@ export interface IMovieEpisode {
   [x: string]: unknown; // other fields
 }
 
-export interface IMovieInfo {
+export interface IMovieResult {
   id: string;
   title: string;
   url: string;
   image?: string;
   releaseDate?: string;
+  type?: TvType;
+  [x: string]: unknown; // other unkown fields
+}
+
+export interface IMovieInfo extends IMovieResult {
   genres?: string[];
   description?: string;
   rating?: number;
-  type?: TvType;
   status?: MediaStatus;
   duration?: string;
   production?: string;
@@ -233,5 +251,4 @@ export interface IMovieInfo {
   tags?: string[];
   totalEpisodes?: number;
   episodes?: IMovieEpisode[];
-  [x: string]: unknown; // other unkown fields
 }
