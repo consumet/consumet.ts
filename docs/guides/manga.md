@@ -2,9 +2,17 @@
 
 <h2>MANGA</h2>
 
-`MANGA` is a category provider, which provides a list of manga providers. Each manga provider is a subclass of the [`MangaParser`](https://github.com/consumet/extensions/blob/master/src/models/manga-parser.ts) class.
+`MANGA` is a category provider, which provides a list of manga providers. Each manga provider must be a subclass of the [`MangaParser`](https://github.com/consumet/extensions/blob/master/src/models/manga-parser.ts) class.
 
 By using `MANGA` category you can interact with the manga providers. And have access to the manga providers methods.
+
+```ts
+// ESM
+import { MANGA } from '@consumet/extensions';
+
+// <providerName> is the name of the provider you want to use. list of the proivders is below.
+const mangaProvider = MANGA.<providerName>();
+```
 
 ## Manga Providers List
 This list is in alphabetical order. (except the sub bullet points)

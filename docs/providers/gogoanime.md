@@ -115,7 +115,7 @@ output:
 | Parameter         | Type                                                                                                 | Description                                                                                                                                               |
 | ----------------- | ---------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | episodeId         | `string`                                                                                             | takes episode id as a parameter. (*episode id can be found in the anime info object*)                                                                     |
-| server (optional) | [`StreamingServers`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L76-L81) | takes server enum as a parameter. *default: [`StreamingServers.GogoCDN`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L76-L81)* |
+| server (optional) | [`StreamingServers`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L76-L82) | takes server enum as a parameter. *default: [`StreamingServers.GogoCDN`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L76-L82)* |
 
 
 ```ts

@@ -11,6 +11,7 @@
         "test:anime": "jest ./test/anime",
         "test:books": "jest ./test/books",
         "test:comics": "jest ./test/comics",
+        "test:movies": "jest ./test/movies",
         "test:manga": "jest ./test/manga",
         "test:lightnovels": "jest ./test/light-novels"
     },

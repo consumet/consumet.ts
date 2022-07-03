@@ -2,9 +2,17 @@
 
 <h2>ANIME</h2>
 
-`ANIME` is a category provider, which provides a list of anime providers. Each anime provider is a subclass of the [`AnimeParser`](https://github.com/consumet/extensions/blob/master/src/models/anime-parser.ts) class.
+`ANIME` is a category provider, which provides a list of anime providers. Each anime provider must be a subclass of the [`AnimeParser`](https://github.com/consumet/extensions/blob/master/src/models/anime-parser.ts) class.
 
 By using `ANIME` category you can interact with the anime providers. And have access to the anime providers methods.
+
+```ts
+// ESM
+import { ANIME } from '@consumet/extensions';
+
+// <providerName> is the name of the provider you want to use. list of the proivders is below.
+const animeProvider = ANIME.<providerName>();
+```
 
 ## Anime Providers List
 This list is in alphabetical order. (except the sub bullet points)

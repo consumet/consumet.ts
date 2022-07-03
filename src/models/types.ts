@@ -76,8 +76,9 @@ export interface IVideo {
 export enum StreamingServers {
   GogoCDN = 'gogocdn',
   StreamSB = 'streamsb',
-  Doodstream = 'doodstream',
-  Mp4Upload = 'mp4upload',
+  MixDrop = 'mixdrop',
+  UpCloud = 'upcloud',
+  VidCloud = 'vidcloud',
 }
 
 export enum MediaStatus {
@@ -193,4 +194,61 @@ export interface ZLibrary extends Book {
   language: string;
   size: string;
   pages: string;
+}
+
+export interface ISubtitle {
+  /**
+   * The **url** that should take you to the subtitle **directly**.
+   */
+  url: string;
+  /**
+   * The language of the subtitle
+   */
+  lang: string;
+}
+
+export interface ISource {
+  headers?: { [k: string]: string };
+  subtitles?: ISubtitle[];
+  sources: IVideo[];
+}
+
+export enum TvType {
+  TVSERIES = 'TV Series',
+  MOVIE = 'Movie',
+  ANIME = 'Anime',
+}
+
+export interface IMovieEpisode {
+  id: string;
+  title: string;
+  url: string;
+  number?: number;
+  season?: number;
+  image?: string;
+  releaseDate?: string;
+  [x: string]: unknown; // other fields
+}
+
+export interface IMovieResult {
+  id: string;
+  title: string;
+  url: string;
+  image?: string;
+  releaseDate?: string;
+  type?: TvType;
+  [x: string]: unknown; // other unkown fields
+}
+
+export interface IMovieInfo extends IMovieResult {
+  genres?: string[];
+  description?: string;
+  rating?: number;
+  status?: MediaStatus;
+  duration?: string;
+  production?: string;
+  casts?: string[];
+  tags?: string[];
+  totalEpisodes?: number;
+  episodes?: IMovieEpisode[];
 }

@@ -1,8 +1,17 @@
-# Contributing
+<h1>Contributing</h1>
 
 This guide is for the people who are interested in contributing to Consumet Extensions. It is not a complete guide yet, but it should help you get started. If you have any questions or any suggestions, please open a [issue](https://github.com/consumet/extensions/issues/new?assignees=&labels=Bug&template=bug-report.yml) or join the [discord server](https://discord.gg/qTPfvMxzNH).
 
 See our [informal contributing guide](./docs/guides/contributing.md) for more details on contributing to this project.
+
+<h2>Table of Contents</h2>
+
+- [Prerequisites](#prerequisites)
+  - [Cloning the repository](#cloning-the-repository)
+- [Writing a provider](#writing-a-provider)
+    - [Project structure](#project-structure)
+    - [Setting up the provider](#setting-up-the-provider)
+
 
 ## Prerequisites
 To contribute to Consumet code, you need to know the following:
@@ -36,6 +45,7 @@ src/models/book-parser.ts  # BookParser
 src/models/lightnovel-parser.ts  # LightNovelParser
 src/models/comic-parser.ts # ComicParser
 src/models/manga-parser.ts # MangaParser
+src/models/movie-parser.ts # MovieParser
 ```
 You are welcome to add anything to the abstract class that you believe will be beneficial.
 
@@ -55,11 +65,17 @@ You are welcome to add anything to the abstract class that you believe will be b
          BaseParser <|-- MangaParser
          BaseParser <|-- LightNovelParser
          BaseParser <|-- ComicParser
+         BaseParser <|-- MovieParser
          class BaseParser{
             +search(String query)
          }
          class AnimeParser{
             +fetchAnimeInfo(String animeId)
+            +fetchEpisodeSources(String episodeId)
+            +fetchEpisodeServers(String episodeId)
+         }
+         class MovieParser{
+            +fetchMediaInfo(String mediaId)
             +fetchEpisodeSources(String episodeId)
             +fetchEpisodeServers(String episodeId)
          }
@@ -90,6 +106,7 @@ You are welcome to add anything to the abstract class that you believe will be b
 > tree src/
 src/
 ├── index.ts
+|── models
 ├── providers
 │   ├── <category>
 │   │   ├── index.ts
@@ -99,7 +116,7 @@ src/
 ```
 #### Setting up the provider
 1. Create a new file in the `src/providers/<category>/<provider-name>.ts` folder.
-2. Import the abstract class from the `src/models/<category>-parser.ts` file. if you are writing an anime provider, you would need to implement the abstract class `AnimeParser`, which is defined in the `src/models/anime-parser.ts` file.
+2. Import the abstract class from the `src/models/<category>-parser.ts` file. for example: if you are writing an anime provider, you would need to implement the abstract class `AnimeParser`, which is defined in the `src/models/anime-parser.ts` file. 
 3. Start writing your provider code.
 4. Add the provider to the `src/providers/<category>/index.ts` file.
 5. Make a [Pull Request](https://github.com/consumet/extensions/pulls) of the changes.

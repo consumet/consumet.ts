@@ -5,6 +5,7 @@
 - [Anime](./guides/anime.md): How to use anime providers.
 - [Manga](./guides/manga.md): How to use manga providers.
 - [Books](./guides/books.md): How to use book providers.
+- [Movie](./guides/movies.md): How to use movie providers.
 - [Light Novels](./guides/light-novels.md): How to use light novel providers.
 - [Comics](./guides/comics.md): How to use comic providers.
 - [Benchmarks](https://github.com/consumet/providers-status#readme): Real-time benchmarking of providers.
