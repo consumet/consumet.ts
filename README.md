@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/images/consumetlogo.png" width="175"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/consumet/extensions/5c3bc399fd12ebdaa915dc69b7bdf82cbdf4201c/assets/images/consumetlogo.png" width="175"/></p>
 
 <h1 align="center"> Consumet Extentions </h1>
 
