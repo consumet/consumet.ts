@@ -9,7 +9,7 @@ import {
   StreamingServers,
   ISource,
 } from '../../models';
-import { MixDrop, DoodStream } from '../../utils';
+import { MixDrop, UpCloud } from '../../utils';
 
 class FlixHQ extends MovieParser {
   override readonly name = 'FlixHQ';
@@ -101,13 +101,14 @@ class FlixHQ extends MovieParser {
       } else {
         const { data } = await axios.get(ajaxReqUrl(uid, 'movie'));
         const $$$ = load(data);
-        movieInfo.servers = $$$('.nav > li')
+        movieInfo.episodes = $$$('.nav > li')
           .map((i, el) => {
-            const server = {
-              name: $$$(el).find('a').attr('title')!.toLowerCase(),
-              url: `${this.baseUrl}/${$(el).find('a').attr('href')}`,
+            const episode = {
+              id: uid,
+              title: movieInfo.title + ' Movie',
+              url: `${this.baseUrl}/ajax/movie/episodes/${uid}`,
             };
-            return server;
+            return episode;
           })
           .get();
       }
@@ -129,13 +130,18 @@ class FlixHQ extends MovieParser {
     mediaId: string,
     server: StreamingServers = StreamingServers.MixDrop
   ): Promise<ISource> => {
-    if (mediaId.startsWith('http')) {
-      const serverUrl = new URL(mediaId);
+    if (episodeId.startsWith('http')) {
+      const serverUrl = new URL(episodeId);
       switch (server) {
         case StreamingServers.MixDrop:
           return {
             headers: { Referer: serverUrl.href },
             sources: await new MixDrop().extract(serverUrl),
+          };
+        case StreamingServers.UpCloud:
+          return {
+            headers: { Referer: serverUrl.href },
+            sources: await new UpCloud().extract(serverUrl),
           };
         default:
           return {
@@ -145,11 +151,10 @@ class FlixHQ extends MovieParser {
       }
     }
 
-    // TODO: fix movies
     try {
       const servers = await this.fetchEpisodeServers(episodeId, mediaId);
 
-      let i = servers.findIndex((s) => s.name === server);
+      const i = servers.findIndex((s) => s.name === server);
 
       if (i === -1) {
         throw new Error(`Server ${server} not found`);
@@ -161,7 +166,7 @@ class FlixHQ extends MovieParser {
 
       const serverUrl: URL = new URL(data.link);
 
-      return await this.fetchEpisodeSources(episodeId, serverUrl.href, server);
+      return await this.fetchEpisodeSources(serverUrl.href, mediaId, server);
     } catch (err) {
       throw new Error((err as Error).message);
     }
@@ -179,11 +184,7 @@ class FlixHQ extends MovieParser {
     if (!episodeId.startsWith(this.baseUrl + '/ajax') && !mediaId.includes('movie')) {
       episodeId = `${this.baseUrl}/ajax/v2/episode/servers/${episodeId}`;
     } else {
-      episodeId = `${this.baseUrl}/ajax/movie/episodes/${episodeId
-        .split('-')
-        .slice(-1)[0]
-        .split('.')
-        .shift()}`;
+      episodeId = `${this.baseUrl}/ajax/movie/episodes/${episodeId}`;
     }
     try {
       const { data } = await axios.get(episodeId);
@@ -195,7 +196,11 @@ class FlixHQ extends MovieParser {
             name: mediaId.includes('movie')
               ? $(el).find('a').attr('title')!.toLowerCase()
               : $(el).find('a').attr('title')!.slice(6).trim().toLowerCase(),
-            url: `${this.baseUrl}/${mediaId}.${$(el).find('a').attr('data-id')}`.replace(
+            url: `${this.baseUrl}/${mediaId}.${
+              !mediaId.includes('movie')
+                ? $(el).find('a').attr('data-id')
+                : $(el).find('a').attr('data-linkid')
+            }`.replace(
               !mediaId.includes('movie') ? /\/tv\// : /\/movie\//,
               !mediaId.includes('movie') ? '/watch-tv/' : '/watch-movie/'
             ),
@@ -212,8 +217,12 @@ class FlixHQ extends MovieParser {
 
 (async () => {
   const flixHQ = new FlixHQ();
-  const movieInfo = await flixHQ.fetchMediaInfo('movie/watch-top-gun-maverick-5448');
-  const episode1 = await flixHQ.fetchEpisodeSources(movieInfo.servers![0].url, movieInfo.id);
+  const movieInfo = await flixHQ.fetchMediaInfo('tv/watch-vincenzo-67955');
+  const episode1 = await flixHQ.fetchEpisodeSources(
+    movieInfo.episodes![1].id,
+    movieInfo.id,
+    'upcloud' as StreamingServers
+  );
   console.log(episode1);
 })();
 

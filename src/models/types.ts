@@ -77,7 +77,7 @@ export enum StreamingServers {
   GogoCDN = 'gogocdn',
   StreamSB = 'streamsb',
   MixDrop = 'mixdrop',
-  DoodStream = 'doodstream',
+  UpCloud = 'upcloud',
 }
 
 export enum MediaStatus {
@@ -232,14 +232,6 @@ export interface IMovieInfo {
   casts?: string[];
   tags?: string[];
   totalEpisodes?: number;
-  /**
-   * episodes should only be available if the type is TV Series
-   */
   episodes?: IMovieEpisode[];
-  /**
-   * servers should only be available if the type is Movie
-   */
-  servers?: IEpisodeServer[];
-
-  [x: string]: unknown; // other fields
+  [x: string]: unknown; // other unkown fields
 }
