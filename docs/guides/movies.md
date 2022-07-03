@@ -4,7 +4,7 @@
 
 `MOVIES` is a category provider, which provides a list of movies/tv series providers. Each movie/tv series provider must be a subclass of the [`MovieParser`](https://github.com/consumet/extensions/blob/master/src/models/movie-parser.ts) class.
 
-By using `MOVIES` category you can interact with the anime providers. And have access to the anime providers methods.
+By using `MOVIES` category you can interact with the movie providers. And have access to the movie providers methods.
 
 ```ts
 // ESM

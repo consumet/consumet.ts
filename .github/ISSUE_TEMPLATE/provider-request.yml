@@ -1,7 +1,6 @@
-name: Provider request 🍕
+name: 🍕 Provider request
 description: Request a new source to be added
 labels: [provider request]
-title: "[Provider Request]: "
 body:
   - type: input
     id: source-name

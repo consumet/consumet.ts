@@ -261,12 +261,4 @@ class FlixHQ extends MovieParser {
   };
 }
 
-(async () => {
-  const flixhq = new FlixHQ();
-
-  const search = await flixhq.fetchEpisodeServers('1167571', 'tv/watch-vincenzo-67955');
-
-  console.log(search);
-})();
-
 export default FlixHQ;

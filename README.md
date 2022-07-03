@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/images/consumetlogo.png" width="175"/></p>
+<p align="center"><img src=".github/images/consumetlogo.png" width="175"/></p>
 
 <h1 align="center"> Consumet Extentions </h1>
 
@@ -87,6 +87,7 @@ Do you want to know more? Head to the [`Getting Started`](https://github.com/con
 - [`Anime`](./docs/guides/anime.md)
 - [`Manga`](./docs/guides/manga.md)
 - [`Books`](./docs/guides/books.md)
+- [`Movies`](./docs/guides/movies.md)
 - [`Light Novels`](./docs/guides/light-novels.md)
 - [`Comics`](./docs/guides/comics.md)
 
