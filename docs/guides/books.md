@@ -18,6 +18,6 @@ const bookProvider = BOOKS.<providerName>();
 This list is in alphabetical order. (except the sub bullet points)
 
 - [Libgen](../providers/libgen.md)
-- [zLibrary](../providers/zlibrary.md)
+- [zLibrary](../providers/zLibrary.md)
 
 <p align="end">(<a href="https://github.com/consumet/extensions/blob/master/docs">back to table of contents</a>)</p>

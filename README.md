@@ -6,19 +6,19 @@ Consumet Extensions is a Node library which provides high-level APIs to get info
 
 <p align="center">
   <a href="https://www.npmjs.com/package/@consumet/extensions">
-    <img src="https://img.shields.io/npm/v/@consumet/extensions?style=flat-square" alt="npm (scoped)">
+    <img src="https://img.shields.io/npm/v/@consumet/extensions" alt="npm (scoped)">
   </a>
   <a href="https://github.com/consumet/extensions/actions?query=workflow%3A%2Node.js+CI%22">
-    <img src="https://img.shields.io/github/workflow/status/consumet/extensions/Node.js%20CI/master?style=flat-square" alt="GitHub Workflow Status (branch)">
+    <img src="https://img.shields.io/github/workflow/status/consumet/extensions/Node.js%20CI/master" alt="GitHub Workflow Status (branch)">
   </a>
     <a href="https://discord.gg/qTPfvMxzNH">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="Prs are welcome">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="Prs are welcome">
   </a>
     <a href="https://github.com/consumet/extensions/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/consumet/extensions?style=flat-square" alt="GitHub">
+    <img src="https://img.shields.io/github/license/consumet/extensions" alt="GitHub">
   </a>
   <a href="https://discord.gg/qTPfvMxzNH">
-    <img src="https://img.shields.io/discord/987492554486452315.svg?label=discord&labelColor=7289da&color=2c2f33&style=flat-square" alt="Discord">
+    <img src="https://img.shields.io/discord/987492554486452315.svg?label=discord&labelColor=7289da&color=2c2f33" alt="Discord">
   </a>
 </p>
 
@@ -92,6 +92,7 @@ Do you want to know more? Head to the [`Getting Started`](https://github.com/con
 - [`Comics`](./docs/guides/comics.md)
 
 ## Ecosystem
+- [Rest-API Reference](https://docs.consumet.org/) - public rest api documentation
 - [Examples](https://github.com/consumet/extentions/tree/master/examples) - examples of using Consumet Extensions.
 - [Provider Status](https://github.com/consumet/providers-status/blob/main/README.md) - A list of providers and their status.
 - [Changelog](https://github.com/consumet/extensions/blob/master/CHANGELOG.md) - See the latest changes.
@@ -104,9 +105,7 @@ Make a new [issue](https://github.com/consumet/extensions/issues/new?assignees=&
 Check out [contributing guide](https://github.com/consumet/extensions/blob/master/docs/guides/contributing.md) to get an overview of Consumet Extensions development.
 
 ## Support
-
 Please join the [discord server](https://discord.gg/qTPfvMxzNH) to ask questions, get help, or report issues.
 
 ## License
-
 Licensed under [MIT](./LICENSE).
