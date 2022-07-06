@@ -1,34 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.splitStar = exports.getSize = void 0;
-const getSize = (s) => {
-    let result = '';
-    for (let i = 0; i < s.length; i < s.length) {
-        if (result != '' || s[i] == ',') {
-            i += 2;
-            result += s[i];
-        }
-    }
-    return result;
-};
-exports.getSize = getSize;
-const splitStar = (s) => {
-    let rating = '';
-    let quality = '';
-    let switcher = false;
+exports.countDivs = void 0;
+const countDivs = (s) => {
+    let counter = 0;
     for (let i = 0; i < s.length; i++) {
-        if (s[i] == '/') {
-            switcher = true;
-            break;
-        }
-        if (!switcher) {
-            rating += s[i];
-        }
-        else {
-            quality += s[i];
-        }
+        if (s[i] == '<' && s[i + 1] == 'd' && s[i + 2] == 'i' && s[i + 3] == 'v')
+            counter++;
     }
-    return { rating, quality };
+    return counter;
 };
-exports.splitStar = splitStar;
+exports.countDivs = countDivs;
 //# sourceMappingURL=zLibrary.js.map

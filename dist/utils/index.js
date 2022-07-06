@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.MixDrop = exports.VidCloud = exports.capitalizeFirstLetter = exports.genElement = exports.splitStar = exports.getSize = exports.parsePostInfo = exports.formatTitle = exports.floorID = exports.splitAuthor = exports.StreamSB = exports.GogoCDN = exports.USER_AGENT = void 0;
+exports.MixDrop = exports.VidCloud = exports.countDivs = exports.capitalizeFirstLetter = exports.genElement = exports.parsePostInfo = exports.formatTitle = exports.floorID = exports.splitAuthor = exports.StreamSB = exports.GogoCDN = exports.USER_AGENT = void 0;
 const extractors_1 = require("./extractors");
 Object.defineProperty(exports, "GogoCDN", { enumerable: true, get: function () { return extractors_1.GogoCDN; } });
 Object.defineProperty(exports, "StreamSB", { enumerable: true, get: function () { return extractors_1.StreamSB; } });
@@ -16,6 +16,5 @@ Object.defineProperty(exports, "capitalizeFirstLetter", { enumerable: true, get:
 const getComics_1 = require("./getComics");
 Object.defineProperty(exports, "parsePostInfo", { enumerable: true, get: function () { return getComics_1.parsePostInfo; } });
 const zLibrary_1 = require("./zLibrary");
-Object.defineProperty(exports, "getSize", { enumerable: true, get: function () { return zLibrary_1.getSize; } });
-Object.defineProperty(exports, "splitStar", { enumerable: true, get: function () { return zLibrary_1.splitStar; } });
+Object.defineProperty(exports, "countDivs", { enumerable: true, get: function () { return zLibrary_1.countDivs; } });
 //# sourceMappingURL=index.js.map

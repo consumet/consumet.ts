@@ -72,3 +72,5 @@ Libgen.isNSFW; // if NSFW
 */
 Libgen.isWorking; // if provider is working
 ```
+
+<p align="end">(<a href="https://github.com/consumet/extensions/blob/master/docs/guides/books.md#">back to book providers list</a>)</p>
