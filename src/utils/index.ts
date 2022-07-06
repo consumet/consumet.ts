@@ -8,7 +8,7 @@ import {
   capitalizeFirstLetter,
 } from './utils';
 import { parsePostInfo } from './getComics';
-import { getSize, splitStar } from './zLibrary';
+import { countDivs } from './zLibrary';
 
 export {
   USER_AGENT,
@@ -18,10 +18,9 @@ export {
   floorID,
   formatTitle,
   parsePostInfo,
-  getSize,
-  splitStar,
   genElement,
   capitalizeFirstLetter,
+  countDivs,
   VidCloud,
   MixDrop,
 };

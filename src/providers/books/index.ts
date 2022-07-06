@@ -1,4 +1,4 @@
 import Libgen from './libgen';
-// import ZLibrary from './zLibrary';
+import ZLibrary from './zLibrary';
 
-export default { Libgen };
+export default { Libgen, ZLibrary };

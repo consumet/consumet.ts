@@ -1,4 +1,4 @@
-# Libgen Provider Doc
+# Libgen
 
 ## Methods
 

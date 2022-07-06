@@ -9,7 +9,7 @@
         "version": "auto-changelog -p",
         "test": "jest",
         "test:anime": "jest ./test/anime",
-        "test:books": "jest ./test/books",
+        "test:books": "jest ./test/books/zLibrary.test.ts",
         "test:comics": "jest ./test/comics",
         "test:movies": "jest ./test/movies",
         "test:manga": "jest ./test/manga",
