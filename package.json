@@ -50,7 +50,8 @@
         "typescript": "^4.6.4"
     },
     "auto-changelog": {
-        "template": "keepachangelog"
+        "template": "keepachangelog",
+        "preset": "typescript-preset-eslint"
     },
     "directories": {
         "doc": "docs",
