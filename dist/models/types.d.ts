@@ -24,7 +24,7 @@ export interface ISearch<T> {
 export interface IAnimeInfo {
     id: string;
     title: string;
-    url: string;
+    url?: string;
     image?: string;
     releaseDate?: string;
     genres?: string[];
@@ -62,6 +62,9 @@ export interface IVideo {
      * make sure to set this to `true` if the video is hls
      */
     isM3U8?: boolean;
+    /**
+     * size of the video in **bytes**
+     */
     size?: number;
     [x: string]: unknown;
 }
@@ -192,6 +195,9 @@ export interface ISource {
     subtitles?: ISubtitle[];
     sources: IVideo[];
 }
+/**
+ * Used **only** for movie/tvshow providers
+ */
 export declare enum TvType {
     TVSERIES = "TV Series",
     MOVIE = "Movie",

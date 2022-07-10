@@ -23,6 +23,7 @@ class Gogoanime extends models_1.AnimeParser {
         this.baseUrl = 'https://gogoanime.gg';
         this.logo = 'https://i0.wp.com/cloudfuji.com/wp-content/uploads/2021/12/gogoanime.png?fit=300%2C400&ssl=1';
         this.classPath = 'ANIME.Gogoanime';
+        this.ajaxUrl = 'https://ajax.gogo-load.com/ajax';
         /**
          *
          * @param query search query string
@@ -60,26 +61,26 @@ class Gogoanime extends models_1.AnimeParser {
         });
         /**
          *
-         * @param animeUrl anime url or id
+         * @param animeUrl anime id
          */
-        this.fetchAnimeInfo = (animeUrl) => __awaiter(this, void 0, void 0, function* () {
-            if (!animeUrl.startsWith(this.baseUrl))
-                animeUrl = `${this.baseUrl}/category/${animeUrl}`;
+        this.fetchAnimeInfo = (id) => __awaiter(this, void 0, void 0, function* () {
+            if (!id.startsWith(this.baseUrl))
+                id = `${this.baseUrl}/category/${id}`;
             const animeInfo = {
                 id: '',
                 title: '',
-                url: animeUrl,
+                url: id,
                 genres: [],
                 totalEpisodes: 0,
             };
             try {
-                const res = yield axios_1.default.get(animeUrl);
+                const res = yield axios_1.default.get(id);
                 const $ = (0, cheerio_1.load)(res.data);
-                animeInfo.id = new URL(animeUrl).pathname.split('/')[2];
+                animeInfo.id = new URL(id).pathname.split('/')[2];
                 animeInfo.title = $('section.content_left > div.main_body > div:nth-child(2) > div.anime_info_body_bg > h1')
                     .text()
                     .trim();
-                animeInfo.url = animeUrl;
+                animeInfo.url = id;
                 animeInfo.image = $('div.anime_info_body_bg > img').attr('src');
                 animeInfo.releaseDate = $('div.anime_info_body_bg > p:nth-child(7)')
                     .text()
@@ -120,7 +121,7 @@ class Gogoanime extends models_1.AnimeParser {
                 const ep_end = $('#episode_page > li').last().find('a').attr('ep_end');
                 const movie_id = $('#movie_id').attr('value');
                 const alias = $('#alias_anime').attr('value');
-                const html = yield axios_1.default.get(`https://ajax.gogo-load.com/ajax/load-list-episode?ep_start=${ep_start}&ep_end=${ep_end}&id=${movie_id}&default_ep=${0}&alias=${alias}`);
+                const html = yield axios_1.default.get(`${this.ajaxUrl}/load-list-episode?ep_start=${ep_start}&ep_end=${ep_end}&id=${movie_id}&default_ep=${0}&alias=${alias}`);
                 const $$ = (0, cheerio_1.load)(html.data);
                 animeInfo.episodes = [];
                 $$('#episode_related > li').each((i, el) => {
@@ -210,6 +211,72 @@ class Gogoanime extends models_1.AnimeParser {
             }
             catch (err) {
                 throw new Error('Episode not found.');
+            }
+        });
+        /**
+         * @param page page number (optional)
+         * @param type type of media. (optional) (default `1`) `1`: Japanese with subtitles, `2`: english/dub with no subtitles, `3`: chinese with english subtitles
+         */
+        this.fetchRecentEpisodes = (page = 1, type = 1) => __awaiter(this, void 0, void 0, function* () {
+            try {
+                const res = yield axios_1.default.get(`${this.ajaxUrl}/page-recent-release.html?page=${page}&type=${type}`);
+                const $ = (0, cheerio_1.load)(res.data);
+                const recentEpisodes = [];
+                $('div.last_episodes.loaddub > ul > li').each((i, el) => {
+                    var _a, _b, _c, _d;
+                    recentEpisodes.push({
+                        id: (_b = (_a = $(el).find('a').attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[1]) === null || _b === void 0 ? void 0 : _b.split('-episode')[0],
+                        episodeId: (_c = $(el).find('a').attr('href')) === null || _c === void 0 ? void 0 : _c.split('/')[1],
+                        episodeNumber: parseInt($(el).find('p.episode').text().replace('Episode ', '')),
+                        title: $(el).find('p.name > a').attr('title'),
+                        image: $(el).find('div > a > img').attr('src'),
+                        url: `${this.baseUrl}${(_d = $(el).find('a').attr('href')) === null || _d === void 0 ? void 0 : _d.trim()}`,
+                    });
+                });
+                const hasNextPage = !$('div.anime_name_pagination.intro > div > ul > li')
+                    .last()
+                    .hasClass('selected');
+                return {
+                    currentPage: page,
+                    hasNextPage: hasNextPage,
+                    results: recentEpisodes,
+                };
+            }
+            catch (err) {
+                throw new Error('Something went wrong. Please try again later.');
+            }
+        });
+        this.fetchTopAiring = (page = 1) => __awaiter(this, void 0, void 0, function* () {
+            try {
+                const res = yield axios_1.default.get(`${this.ajaxUrl}/page-recent-release-ongoing.html?page=${page}`);
+                const $ = (0, cheerio_1.load)(res.data);
+                const topAiring = [];
+                $('div.added_series_body.popular > ul > li').each((i, el) => {
+                    var _a, _b;
+                    topAiring.push({
+                        id: (_a = $(el).find('a:nth-child(1)').attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[2],
+                        title: $(el).find('a:nth-child(1)').attr('title'),
+                        image: (_b = $(el)
+                            .find('a:nth-child(1) > div')
+                            .attr('style')) === null || _b === void 0 ? void 0 : _b.match('(https?://.*.(?:png|jpg))')[0],
+                        url: `${this.baseUrl}${$(el).find('a:nth-child(1)').attr('href')}`,
+                        genres: $(el)
+                            .find('p.genres > a')
+                            .map((i, el) => $(el).attr('title'))
+                            .get(),
+                    });
+                });
+                const hasNextPage = !$('div.anime_name.comedy > div > div > ul > li')
+                    .last()
+                    .hasClass('selected');
+                return {
+                    currentPage: page,
+                    hasNextPage: hasNextPage,
+                    results: topAiring,
+                };
+            }
+            catch (err) {
+                throw new Error('Something went wrong. Please try again later.');
             }
         });
     }

@@ -23,6 +23,9 @@ var SubOrSub;
     SubOrSub["SUB"] = "sub";
     SubOrSub["DUB"] = "dub";
 })(SubOrSub = exports.SubOrSub || (exports.SubOrSub = {}));
+/**
+ * Used **only** for movie/tvshow providers
+ */
 var TvType;
 (function (TvType) {
     TvType["TVSERIES"] = "TV Series";

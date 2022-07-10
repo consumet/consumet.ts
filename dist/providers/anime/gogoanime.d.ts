@@ -4,6 +4,7 @@ declare class Gogoanime extends AnimeParser {
     protected baseUrl: string;
     protected logo: string;
     protected classPath: string;
+    private readonly ajaxUrl;
     /**
      *
      * @param query search query string
@@ -12,9 +13,9 @@ declare class Gogoanime extends AnimeParser {
     search: (query: string, page?: number) => Promise<ISearch<IAnimeResult>>;
     /**
      *
-     * @param animeUrl anime url or id
+     * @param animeUrl anime id
      */
-    fetchAnimeInfo: (animeUrl: string) => Promise<IAnimeInfo>;
+    fetchAnimeInfo: (id: string) => Promise<IAnimeInfo>;
     /**
      *
      * @param episodeId episode id
@@ -26,5 +27,11 @@ declare class Gogoanime extends AnimeParser {
      * @param episodeLink episode link or episode id
      */
     fetchEpisodeServers: (episodeLink: string) => Promise<IEpisodeServer[]>;
+    /**
+     * @param page page number (optional)
+     * @param type type of media. (optional) (default `1`) `1`: Japanese with subtitles, `2`: english/dub with no subtitles, `3`: chinese with english subtitles
+     */
+    fetchRecentEpisodes: (page?: number, type?: number) => Promise<ISearch<IAnimeResult>>;
+    fetchTopAiring: (page?: number) => Promise<ISearch<IAnimeResult>>;
 }
 export default Gogoanime;

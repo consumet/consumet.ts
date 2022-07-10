@@ -1,11 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.MixDrop = exports.VidCloud = exports.countDivs = exports.capitalizeFirstLetter = exports.genElement = exports.parsePostInfo = exports.formatTitle = exports.floorID = exports.splitAuthor = exports.StreamSB = exports.GogoCDN = exports.USER_AGENT = void 0;
+exports.Kwik = exports.MixDrop = exports.VidCloud = exports.countDivs = exports.capitalizeFirstLetter = exports.genElement = exports.parsePostInfo = exports.formatTitle = exports.floorID = exports.splitAuthor = exports.StreamSB = exports.GogoCDN = exports.USER_AGENT = void 0;
 const extractors_1 = require("./extractors");
 Object.defineProperty(exports, "GogoCDN", { enumerable: true, get: function () { return extractors_1.GogoCDN; } });
 Object.defineProperty(exports, "StreamSB", { enumerable: true, get: function () { return extractors_1.StreamSB; } });
 Object.defineProperty(exports, "VidCloud", { enumerable: true, get: function () { return extractors_1.VidCloud; } });
 Object.defineProperty(exports, "MixDrop", { enumerable: true, get: function () { return extractors_1.MixDrop; } });
+Object.defineProperty(exports, "Kwik", { enumerable: true, get: function () { return extractors_1.Kwik; } });
 const utils_1 = require("./utils");
 Object.defineProperty(exports, "USER_AGENT", { enumerable: true, get: function () { return utils_1.USER_AGENT; } });
 Object.defineProperty(exports, "splitAuthor", { enumerable: true, get: function () { return utils_1.splitAuthor; } });
