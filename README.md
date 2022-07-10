@@ -1,6 +1,6 @@
 <p align="center"><img src="https://raw.githubusercontent.com/consumet/extensions/5c3bc399fd12ebdaa915dc69b7bdf82cbdf4201c/assets/images/consumetlogo.png" width="175"/></p>
 
-<h1 align="center"> Consumet Extentions </h1>
+<h1 align="center"> Consumet Extensions </h1>
 
 Consumet Extensions is a Node library which provides high-level APIs to get information about several entertainment mediums like books, movies, comics, anime, manga, etc.
 
@@ -32,6 +32,7 @@ Consumet Extensions is a Node library which provides high-level APIs to get info
 - [Provider Request](#provider-request)
 - [Contributing](#contributing)
 - [Support](#support)
+- [Contributors](#contributors)
 - [License](#license)
 
 ## Quick Start
@@ -50,33 +51,26 @@ yarn add @consumet/extensions
 ```ts
 import { BOOKS } from "@consumet/extensions"
 
-
-const main = async () => {
-  // Create a new instance of the Libgen provider
-  const books = new BOOKS.Libgen();
-  // Search for a book. In this case, "Pride and Prejudice"
-  const data = await books.search('pride and prejudice');
-  // loop through the results and print the title
-  for (let v of data) {
-    console.log(v.title);
-  }
-};
-
-main();
+// Create a new instance of the Libgen provider
+const books = new BOOKS.Libgen();
+// Search for a book. In this case, "Pride and Prejudice"
+const data = books.search('pride and prejudice').then(data => {
+  // print results
+  console.log(data)
+})
 ```
 
 **Exmaple** - searching for anime using the gogoanime provider.
 ```ts
 import { ANIME } from "@consumet/extensions"
 
-const main = async () => {
-  // Create a new instance of the Gogoanime provider
-  const gogoanime = new ANIME.Gogoanime();
-  // Search for an anime. In this case, "One Piece"
-  const results = await gogoanime.search("One Piece");
-  // print the results
-  console.log(results);
-}
+// Create a new instance of the Gogoanime provider
+const gogoanime = new ANIME.Gogoanime();
+// Search for an anime. In this case, "One Piece"
+const results = gogoanime.search("One Piece").then(data => {
+  // print results
+  console.log(data);
+})
 ```
 
 Do you want to know more? Head to the [`Getting Started`](https://github.com/consumet/extensions/tree/master/docs/guides/getting-started.md).
@@ -99,13 +93,18 @@ Do you want to know more? Head to the [`Getting Started`](https://github.com/con
 - [Discord Server](https://discord.gg/qTPfvMxzNH) - Join our discord server and chat with the maintainers.
 
 ## Provider Request
-Make a new [issue](https://github.com/consumet/extensions/issues/new?assignees=&labels=Provider+Request&template=provider-request.yml) with the name of the provider on the title, as well as a link to the provider in the body paragraph.
+Make a new [issue](https://github.com/consumet/extensions/issues/new?assignees=&labels=provider+request&template=provider-request.yml) with the name of the provider on the title, as well as a link to the provider in the body paragraph.
 
 ## Contributing
 Check out [contributing guide](https://github.com/consumet/extensions/blob/master/docs/guides/contributing.md) to get an overview of Consumet Extensions development.
 
 ## Support
 Please join the [discord server](https://discord.gg/qTPfvMxzNH) to ask questions, get help, or report issues.
+
+## Contributors
+Thanks to the following people who have contributed to this repo:
+
+[![](https://avatars.githubusercontent.com/u/57333995?s=50)](https://github.com/riimuru) [![](https://avatars.githubusercontent.com/u/80477926?s=50)](https://github.com/prince-ao)
 
 ## License
 Licensed under [MIT](./LICENSE).

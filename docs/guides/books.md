@@ -2,9 +2,7 @@
 
 <h2>BOOKS</h2>
 
-`BOOKS` is a category provider, which provides a list of anime providers. Each anime provider must be a subclass of the [`BookParser`](https://github.com/consumet/extensions/blob/master/src/models/book-parsers.ts) class.
-
-By using `BOOKS` category you can interact with the book providers. And have access to the book providers methods.
+By using `BOOKS` category you can interact with the book providers. And have access to the book providers methods. Which allows you to search for books, get the book information, get the book pdf/epub links.
 
 ```ts
 // ESM

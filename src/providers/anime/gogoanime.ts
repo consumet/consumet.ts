@@ -18,10 +18,11 @@ import { GogoCDN, StreamSB, USER_AGENT } from '../../utils';
 class Gogoanime extends AnimeParser {
   override readonly name = 'Gogoanime';
   protected override baseUrl = 'https://gogoanime.gg';
-
   protected override logo =
     'https://i0.wp.com/cloudfuji.com/wp-content/uploads/2021/12/gogoanime.png?fit=300%2C400&ssl=1';
   protected override classPath = 'ANIME.Gogoanime';
+
+  private readonly ajaxUrl = 'https://ajax.gogo-load.com/ajax';
 
   /**
    *
@@ -65,30 +66,30 @@ class Gogoanime extends AnimeParser {
 
   /**
    *
-   * @param animeUrl anime url or id
+   * @param animeUrl anime id
    */
-  override fetchAnimeInfo = async (animeUrl: string): Promise<IAnimeInfo> => {
-    if (!animeUrl.startsWith(this.baseUrl)) animeUrl = `${this.baseUrl}/category/${animeUrl}`;
+  override fetchAnimeInfo = async (id: string): Promise<IAnimeInfo> => {
+    if (!id.startsWith(this.baseUrl)) id = `${this.baseUrl}/category/${id}`;
 
     const animeInfo: IAnimeInfo = {
       id: '',
       title: '',
-      url: animeUrl,
+      url: id,
       genres: [],
       totalEpisodes: 0,
     };
     try {
-      const res = await axios.get(animeUrl);
+      const res = await axios.get(id);
 
       const $ = load(res.data);
 
-      animeInfo.id = new URL(animeUrl).pathname.split('/')[2];
+      animeInfo.id = new URL(id).pathname.split('/')[2];
       animeInfo.title = $(
         'section.content_left > div.main_body > div:nth-child(2) > div.anime_info_body_bg > h1'
       )
         .text()
         .trim();
-      animeInfo.url = animeUrl;
+      animeInfo.url = id;
       animeInfo.image = $('div.anime_info_body_bg > img').attr('src');
       animeInfo.releaseDate = $('div.anime_info_body_bg > p:nth-child(7)')
         .text()
@@ -136,7 +137,9 @@ class Gogoanime extends AnimeParser {
       const alias = $('#alias_anime').attr('value');
 
       const html = await axios.get(
-        `https://ajax.gogo-load.com/ajax/load-list-episode?ep_start=${ep_start}&ep_end=${ep_end}&id=${movie_id}&default_ep=${0}&alias=${alias}`
+        `${
+          this.ajaxUrl
+        }/load-list-episode?ep_start=${ep_start}&ep_end=${ep_end}&id=${movie_id}&default_ep=${0}&alias=${alias}`
       );
       const $$ = load(html.data);
 
@@ -244,6 +247,86 @@ class Gogoanime extends AnimeParser {
       return servers;
     } catch (err) {
       throw new Error('Episode not found.');
+    }
+  };
+
+  /**
+   * @param page page number (optional)
+   * @param type type of media. (optional) (default `1`) `1`: Japanese with subtitles, `2`: english/dub with no subtitles, `3`: chinese with english subtitles
+   */
+  fetchRecentEpisodes = async (
+    page: number = 1,
+    type: number = 1
+  ): Promise<ISearch<IAnimeResult>> => {
+    try {
+      const res = await axios.get(
+        `${this.ajaxUrl}/page-recent-release.html?page=${page}&type=${type}`
+      );
+
+      const $ = load(res.data);
+
+      const recentEpisodes: IAnimeResult[] = [];
+
+      $('div.last_episodes.loaddub > ul > li').each((i, el) => {
+        recentEpisodes.push({
+          id: $(el).find('a').attr('href')?.split('/')[1]?.split('-episode')[0]!,
+          episodeId: $(el).find('a').attr('href')?.split('/')[1]!,
+          episodeNumber: parseInt($(el).find('p.episode').text().replace('Episode ', '')),
+          title: $(el).find('p.name > a').attr('title')!,
+          image: $(el).find('div > a > img').attr('src'),
+          url: `${this.baseUrl}${$(el).find('a').attr('href')?.trim()}`,
+        });
+      });
+
+      const hasNextPage = !$('div.anime_name_pagination.intro > div > ul > li')
+        .last()
+        .hasClass('selected');
+
+      return {
+        currentPage: page,
+        hasNextPage: hasNextPage,
+        results: recentEpisodes,
+      };
+    } catch (err) {
+      throw new Error('Something went wrong. Please try again later.');
+    }
+  };
+
+  fetchTopAiring = async (page: number = 1): Promise<ISearch<IAnimeResult>> => {
+    try {
+      const res = await axios.get(`${this.ajaxUrl}/page-recent-release-ongoing.html?page=${page}`);
+
+      const $ = load(res.data);
+
+      const topAiring: IAnimeResult[] = [];
+
+      $('div.added_series_body.popular > ul > li').each((i, el) => {
+        topAiring.push({
+          id: $(el).find('a:nth-child(1)').attr('href')?.split('/')[2]!,
+          title: $(el).find('a:nth-child(1)').attr('title')!,
+          image: $(el)
+            .find('a:nth-child(1) > div')
+            .attr('style')
+            ?.match('(https?://.*.(?:png|jpg))')![0],
+          url: `${this.baseUrl}${$(el).find('a:nth-child(1)').attr('href')}`,
+          genres: $(el)
+            .find('p.genres > a')
+            .map((i, el) => $(el).attr('title'))
+            .get(),
+        });
+      });
+
+      const hasNextPage = !$('div.anime_name.comedy > div > div > ul > li')
+        .last()
+        .hasClass('selected');
+
+      return {
+        currentPage: page,
+        hasNextPage: hasNextPage,
+        results: topAiring,
+      };
+    } catch (err) {
+      throw new Error('Something went wrong. Please try again later.');
     }
   };
 }

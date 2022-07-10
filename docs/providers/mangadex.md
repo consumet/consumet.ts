@@ -26,7 +26,7 @@ mangadex.search("Tomodachi Game").then(data => {
   console.log(data);
 }
 ```
-returns a promise which resolves into an array of manga. (*[`Promise<ISearch<IMangaResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L97-L106)*)
+returns a promise which resolves into an array of manga. (*[`Promise<ISearch<IMangaResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L97-L106)*)\
 output:
 ```js
 {
@@ -41,7 +41,7 @@ output:
          {...},
          ...
       ],
-      descitption: "Katagiri Yuichi believes that friends are more important than money, but he also knows the hardships of not having enough funds. He works hard to save up in ...',
+      descitption: "Katagiri Yuichi believes that friends are more important than money, but he also knows the hardships of not having enough funds. He works hard to save up in ...",
       status: 'ongoing',
       releaseDate: 2013,
       contentRating: 'suggestive',
@@ -67,7 +67,7 @@ managdex.fetchMangaInfo("b35f67b6-bfb9-4cbd-86f0-621f37e6cb41").then(data => {
   console.log(data);
 }
 ```
-returns a promise which resolves into an manga info object (including the chapters). (*[`Promise<IMangaInfo>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L115-L120)*)
+returns a promise which resolves into an manga info object (including the chapters). (*[`Promise<IMangaInfo>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L115-L120)*)\
 output:
 ```js
 {
@@ -118,7 +118,7 @@ mangadex.fetchChapterPages("a79255c8-21b5-4a8c-a586-48469fa87020").then(data => 
   console.log(data);
 }
 ```
-returns an array of pages. (*[`Promise<IMangaChapterPage[]>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L122-L126)*)
+returns an array of pages. (*[`Promise<IMangaChapterPage[]>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L122-L126)*)\
 output:
 ```js
 [
