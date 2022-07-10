@@ -5,7 +5,7 @@ jest.setTimeout(120000);
 test('returns a filled array of anime list', async () => {
   const gogoanime = new ANIME.Gogoanime();
   const data = await gogoanime.search('spy x family');
-  expect(data).not.toEqual([]);
+  expect(data.results).not.toEqual([]);
 });
 
 test('returns a filled object of anime data', async () => {

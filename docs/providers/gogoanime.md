@@ -7,6 +7,8 @@ const gogoanime = new ANIME.Gogoanime();
 <h2>Methods</h2>
 
 - [search](#search)
+- [fetchRecentEpisodes](#fetchrecentepisodes)
+- [fetchTopAiring](#fetchtopairing)
 - [fetchAnimeInfo](#fetchanimeinfo)
 - [fetchEpisodeSources](#fetchepisodesources)
 - [fetchEpisodeServers](#fetchepisodeservers)
@@ -28,7 +30,7 @@ gogoanime.search("One Piece").then(data => {
 }
 ```
 
-returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)
+returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
 output:
 ```js
 {
@@ -57,6 +59,76 @@ output:
 }
 ```
 
+### fetchRecentEpisodes
+
+<h4>Parameters</h4>
+
+| Parameter       | Type     | Description                                                                                                                         |
+| --------------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| page (optional) | `number` | page number (default: 1)                                                                                                            |
+| type (optional) | `string` | type of anime (default: `1`). `1`: Japanese with subtitles, `2`: english/dub with no subtitles, `3`: chinese with english subtitles |
+
+```ts
+gogoanime.fetchRecentEpisodes().then(data => {
+  console.log(data);
+}
+```
+
+output:
+```js
+{
+  currentPage: 1, // current page
+  hasNextPage: true, // if there is a next page
+  results: [
+    {
+      id: 'hellsing',
+      episodeId: 'hellsing-episode-13',
+      episodeNumber: 13,
+      title: 'Hellsing',
+      image: 'https://gogocdn.net/images/anime/H/hellsing.jpg',
+      url: 'https://gogoanime.gg//hellsing-episode-13'
+    },
+    {...}
+    ...
+  ]
+}
+```
+
+### fetchTopAiring
+
+return top airing anime list.
+
+<h4>Parameters</h4>
+
+| Parameter       | Type     | Description              |
+| --------------- | -------- | ------------------------ |
+| page (optional) | `number` | page number (default: 1) |
+
+```ts
+gogoanime.fetchTopAiring().then(data => {
+  console.log(data);
+}
+```
+
+output:
+```js
+{
+  currentPage: 1,
+  hasNextPage: true,
+  results: [
+    {
+      id: 'overlord-iv',
+      title: 'Overlord IV',
+      image: 'https://gogocdn.net/cover/overlord-iv.png',
+      url: 'https://gogoanime.gg/category/overlord-iv',
+      genres: [ 'Action', 'Fantasy', 'Game', 'Magic', 'Supernatural' ]
+    }
+    {...}
+    ...
+  ]
+}
+```
+
 ### fetchAnimeInfo
 
 <h4>Parameters</h4>
@@ -71,7 +143,7 @@ gogoanime.fetchAnimeInfo("one-piece").then(data => {
 }
 ```
 
-returns a promise which resolves into an anime info object (including the episodes). (*[`Promise<IAnimeInfo>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L28-L42)*)
+returns a promise which resolves into an anime info object (including the episodes). (*[`Promise<IAnimeInfo>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L28-L42)*)\
 output:
 ```js
 {
@@ -123,7 +195,7 @@ gogoanime.fetchEpisodeSources("one-piece-episode-1022").then(data => {
   console.log(data);
 }
 ```
-returns a promise which resolves into an array of episode sources. (*[`Promise<{ headers: { [k: string]: string }; sources: IVideo[] }>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L59-L74)*)
+returns a promise which resolves into an array of episode sources. (*[`Promise<ISource>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L210-L214)*)\
 output:
 ```js
 {
@@ -156,7 +228,7 @@ gogoanime.fetchEpisodeServers("one-piece-episode-1022").then(data => {
   console.log(data);
 }
 ```
-returns a promise which resolves into an array of episode servers. (*[`Promise<IEpisodeServer[]>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L54-L57)*)
+returns a promise which resolves into an array of episode servers. (*[`Promise<IEpisodeServer[]>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L54-L57)*)\
 output:
 ```js
 [

@@ -3,32 +3,38 @@ import { load } from 'cheerio';
 
 import { VideoExtractor, IVideo } from '../../models';
 
-class MixDrop extends VideoExtractor {
-  protected override serverName = 'MixDrop';
+class Kwik extends VideoExtractor {
+  protected override serverName = 'kwik';
   protected override sources: IVideo[] = [];
+
+  private readonly host = 'https://animepahe.com';
 
   override extract = async (videoUrl: URL): Promise<IVideo[]> => {
     try {
-      const { data } = await axios.get(videoUrl.href);
+      const { data } = await axios.get(videoUrl.href, { headers: { Referer: this.host } });
 
       const match = load(data)
         .html()
-        .match(/(?<=p}\().*(?<=wurl).*\}/g);
+        .match(/(?<=p}).*(?<=kwik).*}/g);
 
       if (!match) {
         throw new Error('Video not found.');
       }
-      const [p, a, c, k, e, d] = match[0].split(',').map((x) => x.split('.sp')[0]);
-      const formated = this.format(p, a, c, k, e, JSON.parse(d));
+      let arr: string[] = match[0].split('return p}(')[1].split(',');
 
-      const [poster, source] = formated
-        .match(/(?<=poster'=").+?(?=")|(?<=wurl=").+?(?=")/g)
-        .map((x: string) => (x.startsWith('http') ? x : `https:${x}`));
+      const l = arr.slice(0, arr.length - 5).join('');
+      arr = arr.slice(arr.length - 5, -1);
+      arr.unshift(l);
+
+      const [p, a, c, k, e, d] = arr.map((x) => x.split('.sp')[0]);
+
+      const formated = this.format(p, a, c, k, e, {});
+
+      const source = formated.match(/(?<=source=\\).*(?=\\';)/g)[0].replace(/\'/g, '');
 
       this.sources.push({
         url: source,
         isM3U8: source.includes('.m3u8'),
-        poster: poster,
       });
 
       return this.sources;
@@ -40,11 +46,14 @@ class MixDrop extends VideoExtractor {
   private format = (p: any, a: any, c: any, k: any, e: any, d: any) => {
     k = k.split('|');
     e = (c: any) => {
-      return c.toString(36);
+      return (
+        (c < a ? '' : e(parseInt((c / a).toString()))) +
+        ((c = c % a) > 35 ? String.fromCharCode(c + 29) : c.toString(36))
+      );
     };
     if (!''.replace(/^/, String)) {
       while (c--) {
-        d[c.toString(a)] = k[c] || c.toString(a);
+        d[e(c)] = k[c] || e(c);
       }
       k = [
         (e: any) => {
@@ -64,4 +73,4 @@ class MixDrop extends VideoExtractor {
     return p;
   };
 }
-export default MixDrop;
+export default Kwik;

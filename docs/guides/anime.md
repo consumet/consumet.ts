@@ -2,9 +2,7 @@
 
 <h2>ANIME</h2>
 
-`ANIME` is a category provider, which provides a list of anime providers. Each anime provider must be a subclass of the [`AnimeParser`](https://github.com/consumet/extensions/blob/master/src/models/anime-parser.ts) class.
-
-By using `ANIME` category you can interact with the anime providers. And have access to the anime providers methods.
+By using `ANIME` category you can interact with the anime providers. And get access to the anime providers methods. Which allows you to search for anime, get the anime information, get the anime episodes with streaming links.
 
 ```ts
 // ESM
@@ -17,10 +15,7 @@ const animeProvider = ANIME.<providerName>();
 ## Anime Providers List
 This list is in alphabetical order. (except the sub bullet points)
 
+- [AnimePahe](../providers/animepahe.md)
 - [Gogoanime](../providers/gogoanime.md)
-  - [search](../providers/gogoanime.md#search)
-  - [fetchAnimeInfo](../providers/gogoanime.md#fetchanimeinfo)
-  - [fetchEpisodeSources](../providers/gogoanime.md#fetchepisodesources)
-  - [fetchEpisodeServers](../providers/gogoanime.md#fetchepisodeservers)
 
 <p align="end">(<a href="https://github.com/consumet/extensions/blob/master/docs">back to table of contents</a>)</p>

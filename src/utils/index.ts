@@ -1,4 +1,4 @@
-import { GogoCDN, StreamSB, VidCloud, MixDrop } from './extractors';
+import { GogoCDN, StreamSB, VidCloud, MixDrop, Kwik } from './extractors';
 import {
   USER_AGENT,
   splitAuthor,
@@ -23,4 +23,5 @@ export {
   countDivs,
   VidCloud,
   MixDrop,
+  Kwik,
 };
