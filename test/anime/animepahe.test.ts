@@ -10,7 +10,8 @@ test('returns a filled array of anime list', async () => {
 
 test('returns a filled object of anime data', async () => {
   const animepahe = new ANIME.AnimePahe();
-  const data = await animepahe.fetchAnimeInfo('adb84358-8fec-fe80-1dc5-ad6218421dc1'); // Overlord IV id
+  const res = await animepahe.search('Overlord IV');
+  const data = await animepahe.fetchAnimeInfo(res.results[0].id); // Overlord IV id
   expect(data).not.toBeNull();
   expect(data.description).not.toBeNull();
   expect(data.episodes).not.toEqual([]);
@@ -18,8 +19,8 @@ test('returns a filled object of anime data', async () => {
 
 test('returns a filled object of episode sources', async () => {
   const animepahe = new ANIME.AnimePahe();
-  const data = await animepahe.fetchEpisodeSources(
-    'c673b4d6cedf5e4cd1900d30d61ee2130e23a74e58f4401a85f21a4e95c94f73'
-  ); // Overlord IV episode 1 id
+  const res = await animepahe.search('Overlord IV');
+  const info = await animepahe.fetchAnimeInfo(res.results[0].id);
+  const data = await animepahe.fetchEpisodeSources(info.episodes![0].id); // Overlord IV episode 1 id
   expect(data.sources).not.toEqual([]);
 });

@@ -285,12 +285,4 @@ class Anilist extends AnimeParser {
   };
 }
 
-(async () => {
-  const provider = new Anilist();
-  const anime = await provider.fetchEpisodeSources(
-    'youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-episode-12'
-  );
-  console.log(anime);
-})();
-
 export default Anilist;
