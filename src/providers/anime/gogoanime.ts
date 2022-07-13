@@ -151,6 +151,7 @@ class Gogoanime extends AnimeParser {
           url: `${this.baseUrl}/${$(el).find(`a`).attr('href')?.trim()}`,
         });
       });
+      animeInfo.episodes = animeInfo.episodes.reverse();
 
       animeInfo.totalEpisodes = parseInt(ep_end ?? '0');
 

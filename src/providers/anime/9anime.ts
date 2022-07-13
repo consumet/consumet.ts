@@ -10,6 +10,8 @@ import {
   MediaStatus,
   SubOrSub,
   IAnimeResult,
+  IEpisodeServer,
+  ISource,
 } from '../../models';
 
 /**
@@ -186,11 +188,11 @@ class NineAnime extends AnimeParser {
     }
   }
 
-  override async fetchEpisodeSources(episodeLink: string): Promise<void> {
+  override async fetchEpisodeSources(episodeLink: string): Promise<ISource> {
     throw new Error('Method not implemented.');
   }
 
-  override async fetchEpisodeServers(episodeLink: string): Promise<void> {
+  override async fetchEpisodeServers(episodeLink: string): Promise<IEpisodeServer[]> {
     throw new Error('Method not implemented.');
   }
 

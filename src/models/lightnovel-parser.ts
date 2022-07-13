@@ -4,7 +4,7 @@ abstract class LightNovelParser extends BaseParser {
   /**
    * takes light novel link or id
    *
-   * returns lightNovel info
+   * returns lightNovel info (including chapters)
    */
   protected abstract fetchLightNovelInfo(lightNovelUrl: string, ...args: any): Promise<unknown>;
 

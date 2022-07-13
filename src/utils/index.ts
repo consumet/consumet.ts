@@ -6,6 +6,9 @@ import {
   formatTitle,
   genElement,
   capitalizeFirstLetter,
+  anilistSearchQuery,
+  anilistMediaDetailQuery,
+  kitsuSearchQuery,
 } from './utils';
 import { parsePostInfo } from './getComics';
 import { countDivs } from './zLibrary';
@@ -24,4 +27,7 @@ export {
   VidCloud,
   MixDrop,
   Kwik,
+  anilistSearchQuery,
+  anilistMediaDetailQuery,
+  kitsuSearchQuery,
 };

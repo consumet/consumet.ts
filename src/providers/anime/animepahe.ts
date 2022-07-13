@@ -9,13 +9,14 @@ import {
   IAnimeResult,
   ISource,
   IAnimeEpisode,
+  IEpisodeServer,
 } from '../../models';
 import { Kwik } from '../../utils';
 
 class AnimePahe extends AnimeParser {
   override readonly name = 'AnimePahe';
   protected override baseUrl = 'https://animepahe.com';
-  protected override logo = 'hhttps://animepahe.com/pikacon.ico';
+  protected override logo = 'https://animepahe.com/pikacon.ico';
   protected override classPath = 'ANIME.AnimePahe';
 
   /**
@@ -119,6 +120,7 @@ class AnimePahe extends AnimeParser {
               } as IAnimeEpisode)
           )
         );
+
         for (let i = 1; i < last_page; i++) {
           animeInfo.episodes.push(...(await this.fetchEpisodes(id, i + 1)));
         }
@@ -173,6 +175,7 @@ class AnimePahe extends AnimeParser {
     const res = await axios.get(
       `${this.baseUrl}/api?m=release&id=${id}&sort=episode_asc&page=${page}`
     );
+    console.log(`${this.baseUrl}/api?m=release&id=${id}&sort=episode_asc&page=${page}`);
     const epData = res.data.data;
 
     return [
@@ -192,7 +195,7 @@ class AnimePahe extends AnimeParser {
    * @deprecated
    * @attention AnimePahe doesn't support this method
    */
-  override fetchEpisodeServers = (episodeLink: string): Promise<unknown> => {
+  override fetchEpisodeServers = (episodeLink: string): Promise<IEpisodeServer[]> => {
     throw new Error('Method not implemented.');
   };
 }

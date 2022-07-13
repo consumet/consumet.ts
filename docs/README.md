@@ -8,5 +8,6 @@
 - [Movie](./guides/movies.md): How to use movie providers.
 - [Light Novels](./guides/light-novels.md): How to use light novel providers.
 - [Comics](./guides/comics.md): How to use comic providers.
+- [Meta](./guides/meta.md): How to use meta providers.
 - [Benchmarks](https://github.com/consumet/providers-status#readme): Real-time benchmarking of providers.
 - [Contributing](./guides/contributing.md): Details about how to contribute to Consumet Extensions.
