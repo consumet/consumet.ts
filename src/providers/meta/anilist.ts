@@ -108,9 +108,28 @@ class Anilist extends AnimeParser {
 
       animeInfo.image = data.data.Media.coverImage.large;
       animeInfo.description = data.data.Media.description;
+      switch (data.data.Media.status) {
+        case 'RELEASING':
+          animeInfo.status = MediaStatus.ONGOING;
+          break;
+        case 'FINISHED':
+          animeInfo.status = MediaStatus.COMPLETED;
+          break;
+        case 'NOT_YET_RELEASED':
+          animeInfo.status = MediaStatus.NOT_YET_AIRED;
+          break;
+        case 'CANCELLED':
+          animeInfo.status = MediaStatus.CANCELLED;
+          break;
+        case 'HIATUS':
+          animeInfo.status = MediaStatus.HIATUS;
+        default:
+          animeInfo.status = MediaStatus.UNKNOWN;
+      }
       animeInfo.releaseDate = data.data.Media.startDate.year;
       animeInfo.rating = data.data.Media.averageScore;
       animeInfo.duration = data.data.Media.duration;
+      animeInfo.genres = data.data.Media.genres;
       animeInfo.subOrDub = dub ? SubOrSub.DUB : SubOrSub.SUB;
 
       const possibleAnimeEpisodes = await this.findAnime(
