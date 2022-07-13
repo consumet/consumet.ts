@@ -9,13 +9,14 @@ import {
   IAnimeResult,
   ISource,
   IAnimeEpisode,
+  IEpisodeServer,
 } from '../../models';
 import { Kwik } from '../../utils';
 
 class AnimePahe extends AnimeParser {
   override readonly name = 'AnimePahe';
   protected override baseUrl = 'https://animepahe.com';
-  protected override logo = 'hhttps://animepahe.com/pikacon.ico';
+  protected override logo = 'https://animepahe.com/pikacon.ico';
   protected override classPath = 'ANIME.AnimePahe';
 
   /**
@@ -192,7 +193,7 @@ class AnimePahe extends AnimeParser {
    * @deprecated
    * @attention AnimePahe doesn't support this method
    */
-  override fetchEpisodeServers = (episodeLink: string): Promise<unknown> => {
+  override fetchEpisodeServers = (episodeLink: string): Promise<IEpisodeServer[]> => {
     throw new Error('Method not implemented.');
   };
 }
