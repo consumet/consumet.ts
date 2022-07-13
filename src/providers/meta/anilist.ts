@@ -241,21 +241,21 @@ class Anilist extends AnimeParser {
 
             episodes.forEach((episode: any) => {
               if (episode) {
-                const i = episode.number.toString().replace('"', '');
+                const i = episode.number.toString().replace(/"/g, '');
                 let name = null;
                 let description = null;
                 let thumbnail = null;
                 if (episode.titles?.canonical)
-                  name = episode.titles.canonical.toString().replace('"', '');
+                  name = episode.titles.canonical.toString().replace(/"/g, '');
                 if (episode.description?.en)
                   description = episode.description.en
                     .toString()
-                    .replace('"', '')
+                    .replace(/"/g, '')
                     .replace('\\n', '\n');
                 if (episode.thumbnail)
-                  thumbnail = episode.thumbnail.original.url.toString().replace('"', '');
+                  thumbnail = episode.thumbnail.original.url.toString().replace(/"/g, '');
                 episodesList.set(i, {
-                  episodeNum: episode.number.toString().replace('"', ''),
+                  episodeNum: episode.number.toString().replace(/"/g, ''),
                   title: name,
                   description,
                   thumbnail,
@@ -284,5 +284,13 @@ class Anilist extends AnimeParser {
     return newEpisodeList;
   };
 }
+
+(async () => {
+  const provider = new Anilist();
+  const anime = await provider.fetchEpisodeSources(
+    'youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-episode-12'
+  );
+  console.log(anime);
+})();
 
 export default Anilist;

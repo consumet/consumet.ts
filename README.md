@@ -84,6 +84,7 @@ Do you want to know more? Head to the [`Getting Started`](https://github.com/con
 - [`Movies`](./docs/guides/movies.md)
 - [`Light Novels`](./docs/guides/light-novels.md)
 - [`Comics`](./docs/guides/comics.md)
+- [`Meta`](./docs/guides/meta.md)
 
 ## Ecosystem
 - [Rest-API Reference](https://docs.consumet.org/) - public rest api documentation
