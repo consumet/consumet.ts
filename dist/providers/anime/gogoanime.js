@@ -132,6 +132,7 @@ class Gogoanime extends models_1.AnimeParser {
                         url: `${this.baseUrl}/${(_c = $(el).find(`a`).attr('href')) === null || _c === void 0 ? void 0 : _c.trim()}`,
                     });
                 });
+                animeInfo.episodes = animeInfo.episodes.reverse();
                 animeInfo.totalEpisodes = parseInt(ep_end !== null && ep_end !== void 0 ? ep_end : '0');
                 return animeInfo;
             }

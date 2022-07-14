@@ -5,6 +5,6 @@ declare abstract class BaseParser extends BaseProvider {
      *
      * returns a promise resolving to a data object
      */
-    protected abstract search(query: string, ...args: any[]): Promise<unknown>;
+    abstract search(query: string, ...args: any[]): Promise<unknown>;
 }
 export default BaseParser;

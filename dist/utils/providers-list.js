@@ -14,6 +14,7 @@ exports.PROVIDERS_LIST = {
     COMICS: [new providers_1.COMICS.GetComics()],
     LIGHT_NOVELS: [new providers_1.LIGHT_NOVELS.ReadLightNovels()],
     MOVIES: [new providers_1.MOVIES.FlixHQ()],
+    META: [new providers_1.META.Anilist()],
     OTHERS: [],
 };
 //# sourceMappingURL=providers-list.js.map

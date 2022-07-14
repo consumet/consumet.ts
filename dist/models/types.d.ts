@@ -8,10 +8,16 @@ export interface IProviderStats {
     classPath: string;
     isWorking: boolean;
 }
+export interface ITitle {
+    romaji?: string;
+    english?: string;
+    native?: string;
+    userPreferred?: string;
+}
 export interface IAnimeResult {
     id: string;
-    title: string;
-    url: string;
+    title: string | ITitle;
+    url?: string;
     image?: string;
     releaseDate?: string;
     [x: string]: unknown;
@@ -21,12 +27,7 @@ export interface ISearch<T> {
     hasNextPage?: boolean;
     results: T[];
 }
-export interface IAnimeInfo {
-    id: string;
-    title: string;
-    url?: string;
-    image?: string;
-    releaseDate?: string;
+export interface IAnimeInfo extends IAnimeResult {
     genres?: string[];
     description?: string;
     type?: string;
@@ -34,7 +35,6 @@ export interface IAnimeInfo {
     totalEpisodes?: number;
     subOrDub?: SubOrSub;
     episodes?: IAnimeEpisode[];
-    [x: string]: unknown;
 }
 export interface IAnimeEpisode {
     id: string;
@@ -89,7 +89,7 @@ export declare enum SubOrSub {
 }
 export interface IMangaResult {
     id: string;
-    title: string | [lang: string][];
+    title: string | [lang: string][] | ITitle;
     altTitles?: string | [lang: string][];
     image?: string;
     description?: string | [lang: string][] | {
@@ -118,7 +118,7 @@ export interface IMangaChapterPage {
 }
 export interface ILightNovelResult {
     id: string;
-    title: string;
+    title: string | ITitle;
     url: string;
     image?: string;
     [x: string]: unknown;
@@ -215,7 +215,7 @@ export interface IMovieEpisode {
 }
 export interface IMovieResult {
     id: string;
-    title: string;
+    title: string | ITitle;
     url: string;
     image?: string;
     releaseDate?: string;

@@ -4,3 +4,6 @@ export declare const floorID: (id: string) => number;
 export declare const formatTitle: (title: string) => string;
 export declare const genElement: (s: string, e: string) => import("cheerio").Cheerio<import("cheerio").AnyNode> | undefined;
 export declare const capitalizeFirstLetter: (s: string) => string;
+export declare const anilistSearchQuery: (query: string, page: number, perPage: number) => string;
+export declare const anilistMediaDetailQuery: (id: string) => string;
+export declare const kitsuSearchQuery: (query: string) => string;

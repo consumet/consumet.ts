@@ -4,4 +4,5 @@ import LIGHT_NOVELS from './light-novels';
 import BOOKS from './books';
 import COMICS from './comics';
 import MOVIES from './movies';
-export { ANIME, MANGA, BOOKS, COMICS, LIGHT_NOVELS, MOVIES };
+import META from './meta';
+export { ANIME, MANGA, BOOKS, COMICS, LIGHT_NOVELS, MOVIES, META };

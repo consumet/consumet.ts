@@ -55,23 +55,34 @@ class Ummangurau extends MovieParser {
     }
 
     const movieInfo: IMovieInfo = {
-      id: mediaId.split("com/")[-1],
+      id: mediaId.split('com/')[-1],
       title: '',
-      url: mediaId
-    }
+      url: mediaId,
+    };
     try {
-      const {data} = await get(mediaId);
+      const { data } = await get(mediaId);
       const $ = load(data);
 
-      movieInfo.title = `${$(".heading-name a").text()}`
-      movieInfo.image = `${$("img.film-poster-img").attr("src")}`
-      movieInfo.description = `${$(".description").text()}`
-      movieInfo.type = $("a[title='TV Shows']").text() === "" ? TvType.TVSERIES : TvType.MOVIE
-      movieInfo.releaseDate = $('div.row-line').text().replace('Released: ', "").trim()
-      movieInfo.genres = $('div.row-line:eq(1) a').text().trim().split(", ").map(v => v.trim())
-      
-    }catch (err) {
-      throw new Error((err as Error).message)
+      movieInfo.title = `${$('.heading-name a').text()}`;
+      movieInfo.image = `${$('img.film-poster-img').attr('src')}`;
+      movieInfo.description = `${$('.description').text()}`;
+      movieInfo.type = $("a[title='TV Shows']").text() === '' ? TvType.TVSERIES : TvType.MOVIE;
+      movieInfo.releaseDate = $('div.row-line').text().replace('Released: ', '').trim();
+      movieInfo.genres = $('div.row-line:eq(1) a')
+        .text()
+        .trim()
+        .split(', ')
+        .map((v) => v.trim());
+    } catch (err) {
+      throw new Error((err as Error).message);
     }
+  };
+
+  override fetchEpisodeServers(mediaLink: string, ...args: any): Promise<unknown> {
+    throw new Error('Method not implemented.');
+  }
+
+  protected override fetchEpisodeSources(mediaId: string, ...args: any): Promise<unknown> {
+    throw new Error('Method not implemented.');
   }
 }

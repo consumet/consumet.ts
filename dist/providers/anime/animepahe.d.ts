@@ -1,4 +1,4 @@
-import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, ISource } from '../../models';
+import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, ISource, IEpisodeServer } from '../../models';
 declare class AnimePahe extends AnimeParser {
     readonly name = "AnimePahe";
     protected baseUrl: string;
@@ -23,6 +23,6 @@ declare class AnimePahe extends AnimeParser {
      * @deprecated
      * @attention AnimePahe doesn't support this method
      */
-    fetchEpisodeServers: (episodeLink: string) => Promise<unknown>;
+    fetchEpisodeServers: (episodeLink: string) => Promise<IEpisodeServer[]>;
 }
 export default AnimePahe;

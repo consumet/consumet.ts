@@ -10,5 +10,6 @@ export declare const PROVIDERS_LIST: {
     COMICS: import("../providers/comics/getComics").default[];
     LIGHT_NOVELS: import("../providers/light-novels/readlightnovels").default[];
     MOVIES: import("../providers/movies/flixhq").default[];
+    META: import("../providers/meta/anilist").default[];
     OTHERS: never[];
 };

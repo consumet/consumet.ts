@@ -1,22 +1,22 @@
-import { BaseParser } from '.';
+import { BaseParser, IAnimeInfo, ISource, IEpisodeServer } from '.';
 declare abstract class AnimeParser extends BaseParser {
     /**
-     * takes anime link or id
+     * takes anime id
      *
-     * returns anime info
+     * returns anime info (including episodes)
      */
-    protected abstract fetchAnimeInfo(animeUrl: string): Promise<unknown>;
+    abstract fetchAnimeInfo(animeid: string, ...args: any): Promise<IAnimeInfo>;
     /**
      * takes episode id
      *
      * returns episode sources (video links)
      */
-    protected abstract fetchEpisodeSources(episodeId: string, ...args: any): Promise<unknown>;
+    abstract fetchEpisodeSources(episodeId: string, ...args: any): Promise<ISource>;
     /**
      * takes episode link
      *
      * returns episode servers (video links) available
      */
-    protected abstract fetchEpisodeServers(episodeLink: string): Promise<unknown>;
+    abstract fetchEpisodeServers(episodeLink: string): Promise<IEpisodeServer[]>;
 }
 export default AnimeParser;

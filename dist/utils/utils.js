@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.capitalizeFirstLetter = exports.genElement = exports.formatTitle = exports.floorID = exports.splitAuthor = exports.USER_AGENT = void 0;
+exports.kitsuSearchQuery = exports.anilistMediaDetailQuery = exports.anilistSearchQuery = exports.capitalizeFirstLetter = exports.genElement = exports.formatTitle = exports.floorID = exports.splitAuthor = exports.USER_AGENT = void 0;
 const cheerio_1 = require("cheerio");
 exports.USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36';
 const splitAuthor = (authors) => {
@@ -65,4 +65,10 @@ const genElement = (s, e) => {
 exports.genElement = genElement;
 const capitalizeFirstLetter = (s) => s.charAt(0).toUpperCase() + s.slice(1);
 exports.capitalizeFirstLetter = capitalizeFirstLetter;
+const anilistSearchQuery = (query, page, perPage) => `query ($page: Int = ${page}, $id: Int, $type: MediaType = ANIME, $search: String = "${query}", $isAdult: Boolean = false, $size: Int = ${perPage}) { Page(page: $page, perPage: $size) { pageInfo { total perPage currentPage lastPage hasNextPage } media(id: $id, type: $type, search: $search, isAdult: $isAdult) { id idMal status(version: 2) title { userPreferred romaji english native } bannerImage coverImage{ extraLarge large medium color } episodes meanScore season seasonYear averageScore nextAiringEpisode { airingAt timeUntilAiring episode }  } } }`;
+exports.anilistSearchQuery = anilistSearchQuery;
+const anilistMediaDetailQuery = (id) => `query ($id: Int = ${id}) { Media(id: $id) { id idMal title { userPreferred english native romaji } coverImage { extraLarge large color } startDate { year month day } endDate { year month day } bannerImage season seasonYear description type format status(version: 2) episodes duration chapters volumes genres source averageScore popularity meanScore nextAiringEpisode { airingAt timeUntilAiring episode } characters(sort: ROLE) { edges { role node { id name { first middle last full native userPreferred } image { large medium } } } } recommendations { edges { node { id mediaRecommendation { id idMal title { romaji english native userPreferred } status episodes coverImage { extraLarge large medium color } bannerImage meanScore nextAiringEpisode { episode timeUntilAiring airingAt } } } } } relations { edges { id node { id idMal status coverImage { extraLarge large medium color } bannerImage title { romaji english native userPreferred } episodes nextAiringEpisode { airingAt timeUntilAiring episode } meanScore } } } streamingEpisodes { title thumbnail url } studios { edges { isMain node { id name } } } } }`;
+exports.anilistMediaDetailQuery = anilistMediaDetailQuery;
+const kitsuSearchQuery = (query) => `query{searchAnimeByTitle(first:5, title:"${query}"){ nodes {id season startDate titles { localized } episodes(first: 2000){ nodes { number titles { canonical } description thumbnail { original { url } } } } } } }`;
+exports.kitsuSearchQuery = kitsuSearchQuery;
 //# sourceMappingURL=utils.js.map

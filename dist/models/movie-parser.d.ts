@@ -7,7 +7,7 @@ declare abstract class MovieParser extends BaseParser {
     /**
      * takes media link or id
      *
-     * returns media info
+     * returns media info (including episodes)
      */
     protected abstract fetchMediaInfo(mediaUrl: string): Promise<unknown>;
     /**
