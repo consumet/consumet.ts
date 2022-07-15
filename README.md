@@ -15,7 +15,7 @@ consumet.ts is a Node library which provides high-level APIs to get information 
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="Prs are welcome">
   </a>
     <a href="https://github.com/consumet/consumet.ts/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/consumet/consumet.ts" alt="GitHub">
+    <img src="https://img.shields.io/npm/l/@consumet/extensions" alt="GitHub">
   </a>
   <a href="https://discord.gg/qTPfvMxzNH">
     <img src="https://img.shields.io/discord/987492554486452315.svg?label=discord&labelColor=7289da&color=2c2f33" alt="Discord">
