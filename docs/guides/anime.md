@@ -1,4 +1,4 @@
-<h1 align="center">Consumet Extensions</h1>
+<h1 align="center">consumet.ts</h1>
 
 <h2>ANIME</h2>
 

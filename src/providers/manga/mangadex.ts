@@ -14,7 +14,6 @@ import { capitalizeFirstLetter } from '../../utils';
 class MangaDex extends MangaParser {
   override readonly name = 'MangaDex';
   protected override baseUrl = 'https://mangadex.org';
-
   protected override logo =
     'https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2F1391016345714757632%2Fxbt_jW78.jpg';
   protected override classPath = 'MANGA.MangaDex';

@@ -1,7 +1,7 @@
 # Comment to post when closing a stale issue. Set to `false` to disable
 closeComment: >
   We are closing this issue. If the issue still persists in the latest version of
-  Consumet Extensions, please reopen the issue and update the description. We will try our
+  consumet.ts, please reopen the issue and update the description. We will try our
   best to accomodate it!
 # Number of days of inactivity before an issue becomes stale
 daysUntilStale: 60

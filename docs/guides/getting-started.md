@@ -1,8 +1,8 @@
-<h1 align="center">Consumet Extensions</h1>
+<h1 align="center">consumet.ts</h1>
 
 ## Getting Started
 
-Hello! Thank you for checking out Consumet Extensions!
+Hello! Thank you for checking out consumet.ts!
 
 This document aims to be a gentle introduction to the library and its usage.
 
