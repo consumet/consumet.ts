@@ -28,3 +28,27 @@ body:
         Example: "English"
     validations:
       required: true
+  
+  - type: dropdown
+    id: source-type
+    attributes:
+      label: Source type
+      options:
+        - Anime
+        - Books
+        - Comics
+        - Manga
+        - Movie/TV
+        - Light Novels
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional info
+      description: |
+        Please provide any additional information that may be helpful to the provider.
+      placeholder: |
+        Example: "Anime is also supported by this Movie/TV source."
