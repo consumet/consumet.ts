@@ -1,16 +1,16 @@
-import { BaseParser } from '.';
+import { BaseParser, IMangaInfo, IMangaChapterPage } from '.';
 declare abstract class MangaParser extends BaseParser {
     /**
-     * takes manga link or id
+     * takes manga id
      *
      * returns manga info with chapters
      */
-    protected abstract fetchMangaInfo(mangaUrl: string): Promise<unknown>;
+    abstract fetchMangaInfo(mangaUrl: string, ...args: any): Promise<IMangaInfo>;
     /**
      * takes chapter id
      *
      * returns chapter (image links)
      */
-    protected abstract fetchChapterPages(chapterId: string, ...args: any): Promise<unknown>;
+    abstract fetchChapterPages(chapterId: string, ...args: any): Promise<IMangaChapterPage[]>;
 }
 export default MangaParser;
