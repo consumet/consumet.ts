@@ -1,5 +1,4 @@
-import axios, { AxiosError, AxiosResponse } from 'axios';
-import { encode } from 'ascii-url-encoder';
+import axios from 'axios';
 import { load } from 'cheerio';
 
 import {
