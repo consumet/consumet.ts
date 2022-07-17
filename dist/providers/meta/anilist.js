@@ -23,7 +23,7 @@ class Anilist extends models_1.AnimeParser {
      */
     constructor(provider) {
         super();
-        this.name = 'AnimePahe';
+        this.name = 'AnilistWithKitsu';
         this.baseUrl = 'https://anilist.co/';
         this.logo = 'https://anilist.co/img/icons/icon.svg';
         this.classPath = 'META.Anilist';
@@ -218,7 +218,6 @@ class Anilist extends models_1.AnimeParser {
             }
             const newEpisodeList = [];
             if (episodesList.size !== 0 && (possibleProviderEpisodes === null || possibleProviderEpisodes === void 0 ? void 0 : possibleProviderEpisodes.length) !== 0) {
-                possibleProviderEpisodes === null || possibleProviderEpisodes === void 0 ? void 0 : possibleProviderEpisodes.reverse();
                 possibleProviderEpisodes === null || possibleProviderEpisodes === void 0 ? void 0 : possibleProviderEpisodes.forEach((ep, i) => {
                     var _a, _b, _c, _d, _e;
                     const j = (i + 1).toString();
