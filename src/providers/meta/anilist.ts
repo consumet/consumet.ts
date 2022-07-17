@@ -15,7 +15,7 @@ import { anilistSearchQuery, anilistMediaDetailQuery, kitsuSearchQuery } from '.
 import Gogoanime from '../../providers/anime/gogoanime';
 
 class Anilist extends AnimeParser {
-  override readonly name = 'AnimePahe';
+  override readonly name = 'AnilistWithKitsu';
   protected override baseUrl = 'https://anilist.co/';
   protected override logo = 'https://anilist.co/img/icons/icon.svg';
   protected override classPath = 'META.Anilist';
@@ -269,7 +269,6 @@ class Anilist extends AnimeParser {
     const newEpisodeList: IAnimeEpisode[] = [];
 
     if (episodesList.size !== 0 && possibleProviderEpisodes?.length !== 0) {
-      possibleProviderEpisodes?.reverse();
       possibleProviderEpisodes?.forEach((ep, i) => {
         const j = (i + 1).toString();
         newEpisodeList.push({

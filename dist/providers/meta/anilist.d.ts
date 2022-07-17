@@ -1,6 +1,6 @@
 import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, ISource, IEpisodeServer } from '../../models';
 declare class Anilist extends AnimeParser {
-    readonly name = "AnimePahe";
+    readonly name = "AnilistWithKitsu";
     protected baseUrl: string;
     protected logo: string;
     protected classPath: string;
