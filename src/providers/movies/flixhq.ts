@@ -1,6 +1,5 @@
 import { load } from 'cheerio';
 import axios from 'axios';
-import FormData from 'form-data';
 
 import {
   MovieParser,
