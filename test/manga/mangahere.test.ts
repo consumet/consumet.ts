@@ -10,6 +10,6 @@ test('returns a filled array of manga', async () => {
 
 test('returns a filled array of manga', async () => {
   const mangahere = new MANGA.MangaHere();
-  const data = await mangahere.fetchChapterPages('a_returner_s_magic_should_be_special/c195/1');
+  const data = await mangahere.fetchChapterPages('a_returner_s_magic_should_be_special/c195');
   expect(data).not.toEqual([]);
 });
