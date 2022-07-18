@@ -152,6 +152,10 @@ export interface LibgenBook extends Book {
     topic: string;
     hashes: Hashes;
 }
+export interface LibgenResult {
+    result: LibgenBook[];
+    hasNextPage: boolean;
+}
 export interface GetComicsComics {
     image: string;
     title: string;
