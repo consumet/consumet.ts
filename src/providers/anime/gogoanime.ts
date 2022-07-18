@@ -223,13 +223,13 @@ class Gogoanime extends AnimeParser {
 
   /**
    *
-   * @param episodeLink episode link or episode id
+   * @param episodeId episode link or episode id
    */
-  override fetchEpisodeServers = async (episodeLink: string): Promise<IEpisodeServer[]> => {
+  override fetchEpisodeServers = async (episodeId: string): Promise<IEpisodeServer[]> => {
     try {
-      if (!episodeLink.startsWith(this.baseUrl)) episodeLink = `${this.baseUrl}/${episodeLink}`;
+      if (!episodeId.startsWith(this.baseUrl)) episodeId = `${this.baseUrl}/${episodeId}`;
 
-      const res = await axios.get(episodeLink);
+      const res = await axios.get(episodeId);
 
       const $ = load(res.data);
 
