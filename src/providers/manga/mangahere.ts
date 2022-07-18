@@ -53,7 +53,7 @@ class MangaHere extends MangaParser {
       mangaInfo.authors = $('p.detail-info-right-say > a')
         .map((i, el) => $(el).attr('title'))
         .get();
-      mangaInfo.chapters = $('#list-1 > ul > li')
+      mangaInfo.chapters = $('ul.detail-main-list > li')
         .map((i, el) => ({
           id: $(el).find('a').attr('href')?.split('/manga/')[1].slice(0, -7)!,
           title: $(el).find('a > div > p.title3').text(),
