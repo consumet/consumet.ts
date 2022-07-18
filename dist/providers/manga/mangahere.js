@@ -56,7 +56,7 @@ class MangaHere extends models_1.MangaParser {
                 mangaInfo.authors = $('p.detail-info-right-say > a')
                     .map((i, el) => $(el).attr('title'))
                     .get();
-                mangaInfo.chapters = $('#list-1 > ul > li')
+                mangaInfo.chapters = $('ul.detail-main-list > li')
                     .map((i, el) => {
                     var _a;
                     return ({
