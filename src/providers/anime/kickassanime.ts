@@ -12,6 +12,9 @@ import {
   IEpisodeServer,
 } from '../../models';
 
+/**
+ * @attention Cloudflare bypass is **REQUIRED** for this provider.
+ */
 class KickAssAnime extends AnimeParser {
   override readonly name = 'KickAssAnime';
   protected override baseUrl = 'https://www2.kickassanime.ro';
@@ -23,19 +26,14 @@ class KickAssAnime extends AnimeParser {
    * @param query Search query
    */
   override search = async (query: string): Promise<ISearch<IAnimeResult>> => {
-    throw new Error('Not implemented');
+    throw new Error('Method not implemented.');
   };
 
   /**
    * @param id Anime id
    */
   override fetchAnimeInfo = async (id: string): Promise<IAnimeInfo> => {
-    const animeInfo: IAnimeInfo = {
-      id: id,
-      title: '',
-    };
-
-    throw new Error('Not implemented');
+    throw new Error('Method not implemented.');
   };
 
   /**
@@ -43,15 +41,12 @@ class KickAssAnime extends AnimeParser {
    * @param episodeId Episode id
    */
   override fetchEpisodeSources = async (episodeId: string): Promise<ISource> => {
-    try {
-      throw new Error('Not implemented');
-    } catch (err) {
-      throw new Error((err as Error).message);
-    }
+    throw new Error('Method not implemented.');
   };
 
   /**
-   * @deprecated
+   *
+   * @param episodeId Episode id
    */
   override fetchEpisodeServers = (episodeId: string): Promise<IEpisodeServer[]> => {
     throw new Error('Method not implemented.');

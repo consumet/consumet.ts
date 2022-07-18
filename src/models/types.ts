@@ -102,7 +102,7 @@ export enum SubOrSub {
 export interface IMangaResult {
   id: string;
   title: string | [lang: string][] | ITitle;
-  altTitles?: string | [lang: string][];
+  altTitles?: string | string[] | [lang: string][];
   image?: string;
   description?: string | [lang: string][] | { [lang: string]: string };
   status?: MediaStatus;
@@ -115,6 +115,7 @@ export interface IMangaChapter {
   title: string;
   volume?: number;
   pages?: number;
+  [x: string]: unknown; // other fields
 }
 
 export interface IMangaInfo extends IMangaResult {

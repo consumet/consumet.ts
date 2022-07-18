@@ -71,7 +71,7 @@ output:
   id: 'tomodachi_game',
   title: 'Tomodachi Game',
   description: 'Katagiri Yuichi believes that friends are more important than money, but he also knows the hardships of not having enough funds. He works hard to save up in order to go on the high school trip, because he has promised his four ...',
-  headerForImage: { Referer: 'http://www.mangahere.cc/' },
+  headers: { Referer: 'http://www.mangahere.cc/' },
   image: 'http://fmcdn.mangahere.com/store/manga/15338/cover.jpg?token=18f21960258f216e0920191b8fe78c0b691e88b6&ttl=1658167200&v=1657454312',
   genres: [ 'Mystery', 'Drama', 'Shounen', 'Psychological', 'Ecchi' ],
   status: 'Ongoing',
@@ -109,21 +109,21 @@ output:
   {
     page: 0,
     img: 'https://zjcdn.mangahere.org/store/manga/15338/102.0/compressed/h001.jp',
-    headerForImage: {
+    headers: {
       Referer: 'http://www.mangahere.cc/manga/tomodachi_game/c102/1.html'
     }
   },
   {
     page: 1,
     img: 'https://zjcdn.mangahere.org/store/manga/15338/102.0/compressed/h002.jp',
-    headerForImage: {
+    headers: {
       Referer: 'http://www.mangahere.cc/manga/tomodachi_game/c102/1.html'
     }
   },
   {
     page: 2,
     img: 'https://zjcdn.mangahere.org/store/manga/15338/102.0/compressed/h003.jp',
-    headerForImage: {
+    headers: {
       Referer: 'http://www.mangahere.cc/manga/tomodachi_game/c102/1.html'
     }
   },

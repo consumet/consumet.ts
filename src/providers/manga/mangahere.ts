@@ -1,20 +1,12 @@
 import axios from 'axios';
 import { load } from 'cheerio';
 
-import {
-  MangaParser,
-  ISearch,
-  IMangaInfo,
-  IMangaResult,
-  MediaStatus,
-  IMangaChapterPage,
-} from '../../models';
+import { MangaParser, ISearch, IMangaInfo, IMangaResult, MediaStatus, IMangaChapterPage } from '../../models';
 
 class MangaHere extends MangaParser {
   override readonly name = 'MangaHere';
   protected override baseUrl = 'http://www.mangahere.cc';
-  protected override logo =
-    'https://i.pinimg.com/564x/51/08/62/51086247ed16ff8abae2df0bb06448e4.jpg';
+  protected override logo = 'https://i.pinimg.com/564x/51/08/62/51086247ed16ff8abae2df0bb06448e4.jpg';
   protected override classPath = 'MANGA.MangaHere';
 
   override fetchMangaInfo = async (mangaId: string): Promise<IMangaInfo> => {
@@ -33,7 +25,7 @@ class MangaHere extends MangaParser {
 
       mangaInfo.title = $('span.detail-info-right-title-font').text();
       mangaInfo.description = $('div.detail-info-right > p.fullcontent').text();
-      mangaInfo.headerForImage = { Referer: this.baseUrl };
+      mangaInfo.headers = { Referer: this.baseUrl };
       mangaInfo.image = $('div.detail-info-cover > img').attr('src');
       mangaInfo.genres = $('p.detail-info-right-tag-list > a')
         .map((i, el) => $(el).attr('title')?.trim())
@@ -135,7 +127,7 @@ class MangaHere extends MangaParser {
           chapterPages.push({
             page: i - 1,
             img: `https:${baseLink}${imageLink}`,
-            headerForImage: { Referer: url },
+            headers: { Referer: url },
           });
         }
       }
@@ -162,7 +154,7 @@ class MangaHere extends MangaParser {
           (i, el): IMangaResult => ({
             id: $(el).find('a').attr('href')?.split('/')[2]!,
             title: $(el).find('p.manga-list-4-item-title > a').text(),
-            headerForImage: { Referer: this.baseUrl },
+            headers: { Referer: this.baseUrl },
             image: $(el).find('a > img').attr('src'),
             description: $(el).find('p').last().text(),
             status:
