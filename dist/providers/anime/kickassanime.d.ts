@@ -1,5 +1,4 @@
 import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, ISource, IEpisodeServer } from '../../models';
-
 /**
  * @attention Cloudflare bypass is **REQUIRED** for this provider.
  */
