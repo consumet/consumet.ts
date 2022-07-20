@@ -1,12 +1,20 @@
 import axios from 'axios';
 import { load } from 'cheerio';
 
-import { MangaParser, ISearch, IMangaInfo, IMangaResult, MediaStatus, IMangaChapterPage } from '../../models';
+import {
+  MangaParser,
+  ISearch,
+  IMangaInfo,
+  IMangaResult,
+  MediaStatus,
+  IMangaChapterPage,
+} from '../../models';
 
 class MangaHere extends MangaParser {
   override readonly name = 'MangaHere';
   protected override baseUrl = 'http://www.mangahere.cc';
-  protected override logo = 'https://i.pinimg.com/564x/51/08/62/51086247ed16ff8abae2df0bb06448e4.jpg';
+  protected override logo =
+    'https://i.pinimg.com/564x/51/08/62/51086247ed16ff8abae2df0bb06448e4.jpg';
   protected override classPath = 'MANGA.MangaHere';
 
   override fetchMangaInfo = async (mangaId: string): Promise<IMangaInfo> => {
@@ -70,12 +78,10 @@ class MangaHere extends MangaParser {
         },
       });
 
-      // console.log(data);
-
       const $ = load(data);
+
       const copyrightHandle = $('p.detail-block-content').text().match('Dear user');
       if (copyrightHandle) {
-        console.log(copyrightHandle);
         throw Error(copyrightHandle.input);
       }
 
