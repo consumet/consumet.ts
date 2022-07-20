@@ -190,13 +190,13 @@ class Gogoanime extends models_1.AnimeParser {
         });
         /**
          *
-         * @param episodeLink episode link or episode id
+         * @param episodeId episode link or episode id
          */
-        this.fetchEpisodeServers = (episodeLink) => __awaiter(this, void 0, void 0, function* () {
+        this.fetchEpisodeServers = (episodeId) => __awaiter(this, void 0, void 0, function* () {
             try {
-                if (!episodeLink.startsWith(this.baseUrl))
-                    episodeLink = `${this.baseUrl}/${episodeLink}`;
-                const res = yield axios_1.default.get(episodeLink);
+                if (!episodeId.startsWith(this.baseUrl))
+                    episodeId = `${this.baseUrl}/${episodeId}`;
+                const res = yield axios_1.default.get(episodeId);
                 const $ = (0, cheerio_1.load)(res.data);
                 const servers = [];
                 $('div.anime_video_body > div.anime_muti_link > ul > li').each((i, el) => {
