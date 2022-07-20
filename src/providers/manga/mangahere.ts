@@ -70,14 +70,7 @@ class MangaHere extends MangaParser {
         },
       });
 
-      // console.log(data);
-
       const $ = load(data);
-      const copyrightHandle = $('p.detail-block-content').text().match('Dear user');
-      if (copyrightHandle) {
-        console.log(copyrightHandle);
-        throw Error(copyrightHandle.input);
-      }
 
       const copyrightHandle = $('p.detail-block-content').text().match('Dear user');
       if (copyrightHandle) {

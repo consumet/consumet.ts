@@ -1,6 +1,5 @@
 import axios from 'axios';
 import { load } from 'cheerio';
-import { encode } from 'ascii-url-encoder';
 
 import {
   MangaParser,
