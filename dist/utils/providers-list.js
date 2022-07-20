@@ -9,7 +9,7 @@ const providers_1 = require("../providers");
  */
 exports.PROVIDERS_LIST = {
     ANIME: [new providers_1.ANIME.Gogoanime(), new providers_1.ANIME.NineAnime(), new providers_1.ANIME.AnimePahe()],
-    MANGA: [new providers_1.MANGA.MangaDex(), new providers_1.MANGA.MangaHere()],
+    MANGA: [new providers_1.MANGA.MangaDex(), new providers_1.MANGA.MangaHere(), new providers_1.MANGA.MangaKakalot()],
     BOOKS: [new providers_1.BOOKS.Libgen()],
     COMICS: [new providers_1.COMICS.GetComics()],
     LIGHT_NOVELS: [new providers_1.LIGHT_NOVELS.ReadLightNovels()],
