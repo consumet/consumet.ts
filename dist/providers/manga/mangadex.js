@@ -21,7 +21,7 @@ class MangaDex extends models_1.MangaParser {
         super(...arguments);
         this.name = 'MangaDex';
         this.baseUrl = 'https://mangadex.org';
-        this.logo = 'https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2F1391016345714757632%2Fxbt_jW78.jpg';
+        this.logo = 'https://pbs.twimg.com/profile_images/1391016345714757632/xbt_jW78_400x400.jpg';
         this.classPath = 'MANGA.MangaDex';
         this.apiUrl = 'https://api.mangadex.org';
         this.fetchMangaInfo = (mangaId) => __awaiter(this, void 0, void 0, function* () {
@@ -130,10 +130,7 @@ class MangaDex extends models_1.MangaParser {
                 return [];
             }
             const response = yield axios_1.default.get(`${this.apiUrl}/manga/${mangaId}/feed?offset=${offset}&limit=96&order[volume]=desc&order[chapter]=desc&translatedLanguage[]=en`);
-            return [
-                ...response.data.data,
-                ...(yield this.fetchAllChapters(mangaId, offset + 96, response)),
-            ];
+            return [...response.data.data, ...(yield this.fetchAllChapters(mangaId, offset + 96, response))];
         });
     }
 }

@@ -1,21 +1,13 @@
 import axios, { AxiosError, AxiosResponse } from 'axios';
 import { encode } from 'ascii-url-encoder';
 
-import {
-  MangaParser,
-  ISearch,
-  IMangaInfo,
-  IMangaResult,
-  MediaStatus,
-  IMangaChapterPage,
-} from '../../models';
+import { MangaParser, ISearch, IMangaInfo, IMangaResult, MediaStatus, IMangaChapterPage } from '../../models';
 import { capitalizeFirstLetter } from '../../utils';
 
 class MangaDex extends MangaParser {
   override readonly name = 'MangaDex';
   protected override baseUrl = 'https://mangadex.org';
-  protected override logo =
-    'https://nitter.net/pic/pbs.twimg.com%2Fprofile_images%2F1391016345714757632%2Fxbt_jW78.jpg';
+  protected override logo = 'https://pbs.twimg.com/profile_images/1391016345714757632/xbt_jW78_400x400.jpg';
   protected override classPath = 'MANGA.MangaDex';
 
   private readonly apiUrl = 'https://api.mangadex.org';
@@ -145,10 +137,7 @@ class MangaDex extends MangaParser {
       `${this.apiUrl}/manga/${mangaId}/feed?offset=${offset}&limit=96&order[volume]=desc&order[chapter]=desc&translatedLanguage[]=en`
     );
 
-    return [
-      ...response.data.data,
-      ...(await this.fetchAllChapters(mangaId, offset + 96, response)),
-    ];
+    return [...response.data.data, ...(await this.fetchAllChapters(mangaId, offset + 96, response))];
   };
 }
 

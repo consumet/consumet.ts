@@ -40,7 +40,7 @@ class MangaKakalot extends MangaParser {
           .replace(`${mangaInfo.title} summary:`, '')
           .replace(/\n/g, '')
           .trim();
-        mangaInfo.headers = { Referer: this.baseUrl };
+        mangaInfo.headerForImage = { Referer: this.baseUrl };
         mangaInfo.image = $('div.manga-info-top > div > img').attr('src');
         mangaInfo.genres = $('div.manga-info-top > ul > li:nth-child(7) > a')
           .map((i, el) => $(el).text())
@@ -89,7 +89,7 @@ class MangaKakalot extends MangaParser {
           .replace(`Description :`, '')
           .replace(/\n/g, '')
           .trim();
-        mangaInfo.headers = { Referer: 'https://readmanganato.com' };
+        mangaInfo.headerForImage = { Referer: 'https://readmanganato.com' };
         mangaInfo.image = $('div.story-info-left > span.info-image > img').attr('src');
         mangaInfo.genres = $('div.story-info-right > table > tbody > tr:nth-child(4) > td.table-value > a')
           .map((i, el) => $(el).text())
@@ -147,7 +147,7 @@ class MangaKakalot extends MangaParser {
               .attr('alt')
               ?.replace(/(- Mangakakalot.com)|(- MangaNato.com)/g, ' ')
               .trim()!,
-            headers: { Referer: this.baseUrl },
+            headerForImage: { Referer: this.baseUrl },
           })
         )
         .get();
@@ -173,7 +173,7 @@ class MangaKakalot extends MangaParser {
             id: $(el).find('div > h3 > a').attr('href')?.split('/')[3]!,
             title: $(el).find('div > h3 > a').text(),
             image: $(el).find('a > img').attr('src'),
-            headers: { Referer: this.baseUrl },
+            headerForImage: { Referer: this.baseUrl },
           })
         )
         .get();

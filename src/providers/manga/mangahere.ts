@@ -127,7 +127,7 @@ class MangaHere extends MangaParser {
           chapterPages.push({
             page: i - 1,
             img: `https:${baseLink}${imageLink}`,
-            headers: { Referer: url },
+            headerForImage: { Referer: url },
           });
         }
       }
@@ -154,7 +154,7 @@ class MangaHere extends MangaParser {
           (i, el): IMangaResult => ({
             id: $(el).find('a').attr('href')?.split('/')[2]!,
             title: $(el).find('p.manga-list-4-item-title > a').text(),
-            headers: { Referer: this.baseUrl },
+            headerForImage: { Referer: this.baseUrl },
             image: $(el).find('a > img').attr('src'),
             description: $(el).find('p').last().text(),
             status:
