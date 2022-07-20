@@ -20,7 +20,7 @@ class getComics extends ComicParser {
     const { data } = await get(`${this.baseUrl}/page/${page ? page : 1}/?s=${query}`);
     const $ = load(data);
     const lastPage = $('section section nav:eq(1) ul li:last').text();
-    const res: ComicRes = { containers: [], pages: parseInt(lastPage) };
+    const res: ComicRes = { containers: [], hasNextPage: $('a.pagination-older').text() != '' };
     $('article').each((i, el) => {
       const container: GetComicsComics = new GetComicsComicsObject();
       const vals = parsePostInfo($(el).children('div.post-info').text());
