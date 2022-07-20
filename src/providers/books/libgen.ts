@@ -210,9 +210,7 @@ class Libgen extends BookParser {
         break;
       }
     }
-    container.link = `${this.downloadIP}/main/${floorID(
-      container.id
-    )}/${realLink.toLowerCase()}/${encode(
+    container.link = `${this.downloadIP}/main/${floorID(container.id)}/${realLink.toLowerCase()}/${encode(
       `${container.series == '' ? '' : `(${container.series})`} ${rawAuthor} - ${container.title}-${
         container.publisher
       } (${container.year}).${container.format}`

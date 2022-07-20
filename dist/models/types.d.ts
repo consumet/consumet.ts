@@ -90,7 +90,7 @@ export declare enum SubOrSub {
 export interface IMangaResult {
     id: string;
     title: string | [lang: string][] | ITitle;
-    altTitles?: string | [lang: string][];
+    altTitles?: string | string[] | [lang: string][];
     image?: string;
     description?: string | [lang: string][] | {
         [lang: string]: string;
@@ -104,6 +104,7 @@ export interface IMangaChapter {
     title: string;
     volume?: number;
     pages?: number;
+    [x: string]: unknown;
 }
 export interface IMangaInfo extends IMangaResult {
     authors?: string[];

@@ -36,7 +36,7 @@ class MangaHere extends models_1.MangaParser {
                 const $ = (0, cheerio_1.load)(data);
                 mangaInfo.title = $('span.detail-info-right-title-font').text();
                 mangaInfo.description = $('div.detail-info-right > p.fullcontent').text();
-                mangaInfo.headerForImage = { Referer: this.baseUrl };
+                mangaInfo.headers = { Referer: this.baseUrl };
                 mangaInfo.image = $('div.detail-info-cover > img').attr('src');
                 mangaInfo.genres = $('p.detail-info-right-tag-list > a')
                     .map((i, el) => { var _a; return (_a = $(el).attr('title')) === null || _a === void 0 ? void 0 : _a.trim(); })

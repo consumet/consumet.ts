@@ -25,7 +25,7 @@ class MangaHere extends MangaParser {
 
       mangaInfo.title = $('span.detail-info-right-title-font').text();
       mangaInfo.description = $('div.detail-info-right > p.fullcontent').text();
-      mangaInfo.headerForImage = { Referer: this.baseUrl };
+      mangaInfo.headers = { Referer: this.baseUrl };
       mangaInfo.image = $('div.detail-info-cover > img').attr('src');
       mangaInfo.genres = $('p.detail-info-right-tag-list > a')
         .map((i, el) => $(el).attr('title')?.trim())

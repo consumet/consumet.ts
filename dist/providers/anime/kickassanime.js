@@ -10,6 +10,9 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const models_1 = require("../../models");
+/**
+ * @attention Cloudflare bypass is **REQUIRED** for this provider.
+ */
 class KickAssAnime extends models_1.AnimeParser {
     constructor() {
         super(...arguments);
@@ -21,32 +24,24 @@ class KickAssAnime extends models_1.AnimeParser {
          * @param query Search query
          */
         this.search = (query) => __awaiter(this, void 0, void 0, function* () {
-            throw new Error('Not implemented');
+            throw new Error('Method not implemented.');
         });
         /**
          * @param id Anime id
          */
         this.fetchAnimeInfo = (id) => __awaiter(this, void 0, void 0, function* () {
-            const animeInfo = {
-                id: id,
-                title: '',
-            };
-            throw new Error('Not implemented');
+            throw new Error('Method not implemented.');
         });
         /**
          *
          * @param episodeId Episode id
          */
         this.fetchEpisodeSources = (episodeId) => __awaiter(this, void 0, void 0, function* () {
-            try {
-                throw new Error('Not implemented');
-            }
-            catch (err) {
-                throw new Error(err.message);
-            }
+            throw new Error('Method not implemented.');
         });
         /**
-         * @deprecated
+         *
+         * @param episodeId Episode id
          */
         this.fetchEpisodeServers = (episodeId) => {
             throw new Error('Method not implemented.');

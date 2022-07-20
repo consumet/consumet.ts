@@ -1,4 +1,8 @@
 import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, ISource, IEpisodeServer } from '../../models';
+
+/**
+ * @attention Cloudflare bypass is **REQUIRED** for this provider.
+ */
 declare class KickAssAnime extends AnimeParser {
     readonly name = "KickAssAnime";
     protected baseUrl: string;
@@ -18,7 +22,8 @@ declare class KickAssAnime extends AnimeParser {
      */
     fetchEpisodeSources: (episodeId: string) => Promise<ISource>;
     /**
-     * @deprecated
+     *
+     * @param episodeId Episode id
      */
     fetchEpisodeServers: (episodeId: string) => Promise<IEpisodeServer[]>;
 }

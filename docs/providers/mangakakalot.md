@@ -1,7 +1,7 @@
-<h1> MangaHere </h1>
+<h1> MangaKakalot </h1>
 
 ```ts
-const mangahere = new MANGA.MangaHere();
+const mangakakalot = new MANGA.MangaKakalot();
 ```
 
 <h2>Methods</h2>
@@ -20,7 +20,7 @@ const mangahere = new MANGA.MangaHere();
 | query     | `string` | query to search for. (*In this case, We're searching for `Tomodachi Gamee`*) |
 
 ```ts
-mangahere.search("Tomodachi Game").then(data => {
+mangakakalot.search("Tomodachi Game").then(data => {
   console.log(data);
 }
 ```
@@ -28,23 +28,19 @@ returns a promise which resolves into an array of manga. (*[`Promise<ISearch<IMa
 output:
 ```js
 {
-  currentPage: 1,
-  hasNextPage: true,
   results: [
     {
-      id: 'tomodachi_game',
+      id: 'manga-kr954974',
       title: 'Tomodachi Game',
-      image: 'http://fmcdn.mangahere.com/store/manga/15338/cover.jpg?token=18f21960258f216e0920191b8fe78c0b691e88b6&ttl=1658167200&v=1657454312',
-      description: 'Katagiri Yuichi believes that friends are more important than money, but he also knows the hardships of not ha...',
-      status: 'Ongoing'
+      image: 'https://avt.mkklcdnv6temp.com/24/h/3-1583468630.jpg',
+      headerForImage: { Referer: 'https://mangakakalot.com' }
     },
     {
-      id: 'tomodachi',
-      title: 'Tomodachi',
-      image: 'http://fmcdn.mangahere.com/store/manga/1653/cover.jpg?token=ec848c72fcd6b3596f16d42c1ead656755ed47c6&ttl=1658167200&v=1272884354',
-      description: 'After being overseas for five years, 16-year-old Yamato comes back to Japan to find that her geeky best friend...',
-      status: 'Completed'
-    },
+      id: 'read-nf3ar158504885573',
+      title: 'Hanging Out With A Gamer Girl',
+      image: 'https://avt.mkklcdnv6temp.com/38/v/19-1583500595.jpg',
+      headerForImage: { Referer: 'https://mangakakalot.com' }
+    }
     {...}
     ...
   ]
@@ -60,7 +56,7 @@ output:
 | mangaId   | `string` | manga id.(*manga id can be found in the manga search results*) |
 
 ```ts
-mangahere.fetchMangaInfo("tomodachi_game").then(data => {
+mangakakalot.fetchMangaInfo("manga-kr954974").then(data => {
   console.log(data);
 }
 ```
@@ -68,26 +64,32 @@ returns a promise which resolves into an manga info object (including the chapte
 output:
 ```js
 {
-  id: 'tomodachi_game',
+  id: 'manga-kr954974',
   title: 'Tomodachi Game',
-  description: 'Katagiri Yuichi believes that friends are more important than money, but he also knows the hardships of not having enough funds. He works hard to save up in order to go on the high school trip, because he has promised his four ...',
-  headers: { Referer: 'http://www.mangahere.cc/' },
-  image: 'http://fmcdn.mangahere.com/store/manga/15338/cover.jpg?token=18f21960258f216e0920191b8fe78c0b691e88b6&ttl=1658167200&v=1657454312',
-  genres: [ 'Mystery', 'Drama', 'Shounen', 'Psychological', 'Ecchi' ],
+  altTitles: [
+    'トモダチゲーム (Japanese)',
+    ' 朋友游戏 (Chinese)',
+    '...'
+  ],
+  description: `Katagiri Yuichi believes that friends are more important than money, but he also knows the hardships of not having enough funds....`,
+  headerForImage: { Referer: 'https://readmanganato.com' },
+  image: 'https://avt.mkklcdnv6temp.com/24/h/3-1583468630.jpg',
+  genres: [ 'Drama', 'Mystery', 'Psychological', 'Seinen' ],
   status: 'Ongoing',
-  rating: 4.84,
-  authors: [ 'YAMAGUCHI Mikoto' ],
+  views: 20837606,
+  authors: [ 'Yamaguchi Mikoto' ],
   chapters: [
     {
-      id: 'tomodachi_game/c102',
-      title: 'Ch.102',
-      releasedDate: 'Jul 10,2022 '
+      id: 'manga-kr954974/chapter-102$$READMANGANATO',
+      title: 'Chapter 102',
+      views: 36721,
+      releasedDate: 'Jul 10,2022 22:07'
     },
     {...}
-    ...
   ]
 }
 ```
+Note: The `headerForImage` property might be useful when getting the image to display.
 
 ### fetchChapterPages
 
@@ -98,7 +100,7 @@ output:
 | chapterId | `string` | chapter id.(*chapter id can be found in the manga info*) |
 
 ```ts
-mangahere.fetchChapterPages("tomodachi_game/c102").then(data => {
+mangakakalot.fetchChapterPages("manga-kr954974/chapter-102$$READMANGANATO").then(data => {
   console.log(data);
 }
 ```
@@ -107,28 +109,18 @@ output:
 ```js
 [
   {
+    img: 'https://v17.mkklcdnv6tempv5.com/img/tab_17/00/36/17/kr954974/chapter_102/1-o.jpg',
     page: 0,
-    img: 'https://zjcdn.mangahere.org/store/manga/15338/102.0/compressed/h001.jp',
-    headers: {
-      Referer: 'http://www.mangahere.cc/manga/tomodachi_game/c102/1.html'
-    }
+    title: 'Tomodachi Game Chapter 102 page 1',
+    headerForImage: { Referer: 'https://mangakakalot.com' }
   },
   {
+    img: 'https://v17.mkklcdnv6tempv5.com/img/tab_17/00/36/17/kr954974/chapter_102/2-o.jpg',
     page: 1,
-    img: 'https://zjcdn.mangahere.org/store/manga/15338/102.0/compressed/h002.jp',
-    headers: {
-      Referer: 'http://www.mangahere.cc/manga/tomodachi_game/c102/1.html'
-    }
-  },
-  {
-    page: 2,
-    img: 'https://zjcdn.mangahere.org/store/manga/15338/102.0/compressed/h003.jp',
-    headers: {
-      Referer: 'http://www.mangahere.cc/manga/tomodachi_game/c102/1.html'
-    }
+    title: 'Tomodachi Game Chapter 102 page 2',
+    headerForImage: { Referer: 'https://mangakakalot.com' }
   },
   {...}
-  ...
 ]
 ```
 
