@@ -7,7 +7,7 @@ import { ANIME, MANGA, BOOKS, COMICS, LIGHT_NOVELS, MOVIES, META } from '../prov
  */
 export const PROVIDERS_LIST = {
   ANIME: [new ANIME.Gogoanime(), new ANIME.NineAnime(), new ANIME.AnimePahe()],
-  MANGA: [new MANGA.MangaDex(), new MANGA.MangaHere()],
+  MANGA: [new MANGA.MangaDex(), new MANGA.MangaHere(), new MANGA.MangaKakalot()],
   BOOKS: [new BOOKS.Libgen()],
   COMICS: [new COMICS.GetComics()],
   LIGHT_NOVELS: [new LIGHT_NOVELS.ReadLightNovels()],
