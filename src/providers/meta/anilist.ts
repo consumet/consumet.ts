@@ -130,6 +130,7 @@ class Anilist extends AnimeParser {
       animeInfo.rating = data.data.Media.averageScore;
       animeInfo.duration = data.data.Media.duration;
       animeInfo.genres = data.data.Media.genres;
+      animeInfo.studios = data.data.Media.studios.edges.map((item: any) => item.node.name);
       animeInfo.subOrDub = dub ? SubOrSub.DUB : SubOrSub.SUB;
 
       const possibleAnimeEpisodes = await this.findAnime(
@@ -214,9 +215,7 @@ class Anilist extends AnimeParser {
 
     if (findAnime.results.length === 0) return [];
 
-    const possibleAnime = (await this.provider.fetchAnimeInfo(
-      findAnime.results[0].id
-    )) as IAnimeInfo;
+    const possibleAnime = (await this.provider.fetchAnimeInfo(findAnime.results[0].id)) as IAnimeInfo;
 
     const possibleProviderEpisodes = possibleAnime.episodes;
 
@@ -233,10 +232,7 @@ class Anilist extends AnimeParser {
 
       if (nodes) {
         nodes.forEach((node: any) => {
-          if (
-            node.season === season &&
-            node.startDate.trim().split('-')[0] === startDate.toString()
-          ) {
+          if (node.season === season && node.startDate.trim().split('-')[0] === startDate.toString()) {
             const episodes = node.episodes.nodes;
 
             episodes.forEach((episode: any) => {
@@ -245,13 +241,9 @@ class Anilist extends AnimeParser {
                 let name = null;
                 let description = null;
                 let thumbnail = null;
-                if (episode.titles?.canonical)
-                  name = episode.titles.canonical.toString().replace(/"/g, '');
+                if (episode.titles?.canonical) name = episode.titles.canonical.toString().replace(/"/g, '');
                 if (episode.description?.en)
-                  description = episode.description.en
-                    .toString()
-                    .replace(/"/g, '')
-                    .replace('\\n', '\n');
+                  description = episode.description.en.toString().replace(/"/g, '').replace('\\n', '\n');
                 if (episode.thumbnail)
                   thumbnail = episode.thumbnail.original.url.toString().replace(/"/g, '');
                 episodesList.set(i, {

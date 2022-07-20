@@ -195,7 +195,7 @@ export interface GetComicsComics {
 
 export interface ComicRes {
   containers: GetComicsComics[];
-  pages: number;
+  hasNextPage: boolean;
 }
 
 export interface ZLibrary extends Book {

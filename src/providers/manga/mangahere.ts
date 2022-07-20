@@ -70,7 +70,19 @@ class MangaHere extends MangaParser {
         },
       });
 
+      // console.log(data);
+
       const $ = load(data);
+      const copyrightHandle = $('p.detail-block-content').text().match('Dear user');
+      if (copyrightHandle) {
+        console.log(copyrightHandle);
+        throw Error(copyrightHandle.input);
+      }
+
+      const copyrightHandle = $('p.detail-block-content').text().match('Dear user');
+      if (copyrightHandle) {
+        throw Error(copyrightHandle.input);
+      }
 
       const bar = $('script[src*=chapter_bar]').data();
       const html = $.html();
@@ -131,7 +143,6 @@ class MangaHere extends MangaParser {
           });
         }
       }
-
       return chapterPages;
     } catch (err) {
       throw new Error((err as Error).message);

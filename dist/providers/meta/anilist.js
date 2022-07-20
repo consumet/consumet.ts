@@ -117,6 +117,7 @@ class Anilist extends models_1.AnimeParser {
                 animeInfo.rating = data.data.Media.averageScore;
                 animeInfo.duration = data.data.Media.duration;
                 animeInfo.genres = data.data.Media.genres;
+                animeInfo.studios = data.data.Media.studios.edges.map((item) => item.node.name);
                 animeInfo.subOrDub = dub ? models_1.SubOrSub.DUB : models_1.SubOrSub.SUB;
                 const possibleAnimeEpisodes = yield this.findAnime({ english: (_a = animeInfo.title) === null || _a === void 0 ? void 0 : _a.english, romaji: (_b = animeInfo.title) === null || _b === void 0 ? void 0 : _b.romaji }, data.data.Media.season, data.data.Media.startDate.year);
                 if (possibleAnimeEpisodes) {
@@ -185,8 +186,7 @@ class Anilist extends models_1.AnimeParser {
                 const { nodes } = kitsuEpisodes.data.data.searchAnimeByTitle;
                 if (nodes) {
                     nodes.forEach((node) => {
-                        if (node.season === season &&
-                            node.startDate.trim().split('-')[0] === startDate.toString()) {
+                        if (node.season === season && node.startDate.trim().split('-')[0] === startDate.toString()) {
                             const episodes = node.episodes.nodes;
                             episodes.forEach((episode) => {
                                 var _a, _b;
@@ -198,10 +198,7 @@ class Anilist extends models_1.AnimeParser {
                                     if ((_a = episode.titles) === null || _a === void 0 ? void 0 : _a.canonical)
                                         name = episode.titles.canonical.toString().replace(/"/g, '');
                                     if ((_b = episode.description) === null || _b === void 0 ? void 0 : _b.en)
-                                        description = episode.description.en
-                                            .toString()
-                                            .replace(/"/g, '')
-                                            .replace('\\n', '\n');
+                                        description = episode.description.en.toString().replace(/"/g, '').replace('\\n', '\n');
                                     if (episode.thumbnail)
                                         thumbnail = episode.thumbnail.original.url.toString().replace(/"/g, '');
                                     episodesList.set(i, {
