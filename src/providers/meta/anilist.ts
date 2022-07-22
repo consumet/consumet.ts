@@ -17,7 +17,7 @@ import Gogoanime from '../../providers/anime/gogoanime';
 class Anilist extends AnimeParser {
   override readonly name = 'AnilistWithKitsu';
   protected override baseUrl = 'https://anilist.co/';
-  protected override logo = 'https://anilist.co/img/icons/icon.svg';
+  protected override logo = 'https://upload.wikimedia.org/wikipedia/commons/6/61/AniList_logo.svg';
   protected override classPath = 'META.Anilist';
 
   private readonly anilistGraphqlUrl = 'https://graphql.anilist.co';
@@ -68,7 +68,7 @@ class Anilist extends AnimeParser {
             } || item.title.romaji,
           image: item.coverImage.large,
           rating: item.averageScore,
-          releasedDate: item.seasonYear,
+          releaseDate: item.seasonYear,
         })),
       };
 
