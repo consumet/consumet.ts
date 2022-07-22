@@ -46,6 +46,7 @@ export interface IAnimeEpisode {
   id: string;
   number: number;
   title?: string;
+  isFiller?: boolean;
   url?: string;
   image?: string;
   releaseDate?: string;

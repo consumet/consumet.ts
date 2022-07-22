@@ -10,7 +10,10 @@ import {
   ISource,
   IAnimeEpisode,
   IEpisodeServer,
+  StreamingServers,
 } from '../../models';
+
+import { VidCloud } from '../../utils';
 
 class Zoro extends AnimeParser {
   override readonly name = 'Zoro.to';
@@ -73,15 +76,113 @@ class Zoro extends AnimeParser {
    * @param id Anime id
    */
   override fetchAnimeInfo = async (id: string): Promise<IAnimeInfo> => {
-    throw new Error('Method not implemented.');
+    const info: IAnimeInfo = {
+      id: id,
+      title: '',
+    };
+    try {
+      const { data } = await axios.get(`${this.baseUrl}/watch/${id}`);
+      const $ = load(data);
+
+      info.title = $('h2.film-name > a.text-white').text();
+      info.image = $('img.film-poster-img').attr('src');
+      info.description = $('div.film-description').text().trim();
+      // Movie, TV, OVA, ONA, Special, Music
+      info.type = $('span.item').last().prev().prev().text();
+      info.url = `${this.baseUrl}/${id}`;
+
+      const episodesAjax = await axios.get(`${this.baseUrl}/ajax/v2/episode/list/${id.split('-').pop()}`, {
+        headers: {
+          'X-Requested-With': 'XMLHttpRequest',
+          Referer: `${this.baseUrl}/watch/${id}`,
+        },
+      });
+
+      const $$ = load(episodesAjax.data.html);
+
+      info.totalEpisodes = $$('div.detail-infor-content > div > a').length;
+      info.episodes = [];
+      $$('div.detail-infor-content > div > a').each((i, el) => {
+        const episodeId = $$(el).attr('href')?.split('/')[2]?.replace('?ep=', '$episode$')!;
+        const number = parseInt($$(el).attr('data-number')!);
+        const title = $$(el).attr('title');
+        const url = this.baseUrl + $$(el).attr('href');
+        const isFiller = $$(el).hasClass('ssl-item-filler');
+
+        info.episodes?.push({
+          id: episodeId,
+          number: number,
+          title: title,
+          isFiller: isFiller,
+          url: url,
+        });
+      });
+
+      return info;
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
   };
 
   /**
    *
    * @param episodeId Episode id
    */
-  override fetchEpisodeSources = async (episodeId: string): Promise<ISource> => {
-    throw new Error('Method not implemented.');
+  override fetchEpisodeSources = async (
+    episodeId: string,
+    server: StreamingServers = StreamingServers.VidCloud
+  ): Promise<ISource> => {
+    if (episodeId.startsWith('http')) {
+      const serverUrl = new URL(episodeId);
+      switch (server) {
+        case StreamingServers.VidCloud:
+          return {
+            headers: { Referer: serverUrl.href },
+            ...(await new VidCloud().extract(serverUrl, true)),
+          };
+      }
+    }
+    if (!episodeId.includes('$episode$')) throw new Error('Invalid episode id');
+    episodeId = `${this.baseUrl}/watch/${episodeId.replace('$episode$', '?ep=')}`;
+
+    try {
+      const { data } = await axios.get(
+        `${this.baseUrl}/ajax/v2/episode/servers?episodeId=${episodeId.split('?ep=')[1]}`,
+        {
+          headers: {
+            Referer: episodeId,
+          },
+        }
+      );
+
+      const $ = load(data.html);
+
+      /**
+       * vidtreaming -> 4
+       * vidcloud -> 1
+       * streamsb -> 5
+       * streamtape -> 3
+       */
+      let serverId = '';
+      switch (server) {
+        case StreamingServers.VidCloud:
+          serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
+            .map((i, el) => ($(el).attr('data-server-id') == '1' ? $(el) : null))
+            .get()[0]
+            .attr('data-id')!;
+
+          if (!serverId) throw new Error('VidCloud not found');
+          break;
+      }
+
+      const {
+        data: { link },
+      } = await axios.get(`${this.baseUrl}/ajax/v2/episode/sources?id=${serverId}`);
+
+      return await this.fetchEpisodeSources(link, server);
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
   };
 
   /**
@@ -95,7 +196,7 @@ class Zoro extends AnimeParser {
 
 (async () => {
   const zoro = new Zoro();
-  const info = await zoro.fetchAnimeInfo('1');
+  const info = await zoro.fetchEpisodeSources('one-piece-100$episode$2145');
   console.log(info);
 })();
 
