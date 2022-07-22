@@ -11,24 +11,34 @@ class VidCloud extends VideoExtractor {
 
   private readonly host = 'https://mzzcloud.life';
   private readonly host2 = 'https://rabbitstream.net';
+  private readonly host3 = 'https://rapid-cloud.ru';
 
   override extract = async (
     videoUrl: URL,
     isAlternative: boolean = false
-  ): Promise<{ sources: IVideo[]; subtitles: ISubtitle[] }> => {
+  ): Promise<{ sources: IVideo[] } & { subtitles: ISubtitle[] }> => {
     const result: { sources: IVideo[]; subtitles: ISubtitle[] } = { sources: [], subtitles: [] };
     try {
       const id = videoUrl.href.split('/').pop()?.split('?')[0];
-
-      const res = await axios.get(
-        `${isAlternative ? this.host2 : this.host}/ajax/embed-4/getSources?id=${id}`,
-        {
-          headers: {
-            'X-Requested-With': 'XMLHttpRequest',
-          },
-        }
-      );
-
+      const options = {
+        headers: {
+          'X-Requested-With': 'XMLHttpRequest',
+          Referer: videoUrl.href,
+          'User-Agent': USER_AGENT,
+        },
+      };
+      let res = null;
+      if (videoUrl.href.includes('rapid-cloud.ru')) {
+        res = await axios.get(
+          `${this.host3}/ajax/embed-6/getSources?id=${id}&_number=2&sId=zIlsAXDw5t76TRyfhrDY`,
+          options
+        );
+      } else {
+        res = await axios.get(
+          `${isAlternative ? this.host2 : this.host}/ajax/embed-4/getSources?id=${id}`,
+          options
+        );
+      }
       const {
         data: { sources, tracks },
       } = res;
@@ -40,9 +50,38 @@ class VidCloud extends VideoExtractor {
 
       result.sources.push(...this.sources);
 
+      if (videoUrl.href.includes('rapid-cloud.ru')) {
+        result.sources = [];
+        this.sources = [];
+        for (const source of sources) {
+          const { data } = await axios.get(source.file, options);
+          const m3u8data = data
+            .split('\n')
+            .filter((line: string) => line.includes('.m3u8') && line.includes('RESOLUTION='));
+          const secondHalf = m3u8data.map((line: string) =>
+            line.match(/(?<=RESOLUTION=).*(?<=,C)|(?<=URI=).*/g)
+          );
+
+          const TdArray = secondHalf.map((s: string[]) => {
+            const f1 = s[0].split(',C')[0];
+            const f2 = s[1].replace(/"/g, '');
+
+            return [f1, f2];
+          });
+          for (const [f1, f2] of TdArray) {
+            this.sources.push({
+              url: `${source.file?.split('master.m3u8')[0]}${f2.replace('iframes', 'index')}`,
+              quality: f1.split('x')[1] + 'p',
+              isM3U8: f2.includes('.m3u8'),
+            });
+          }
+          result.sources.push(...this.sources);
+        }
+      }
+
       result.subtitles = tracks.map((s: any) => ({
         url: s.file,
-        lang: s.label,
+        lang: s.label ? s.label : 'Default (maybe)',
       }));
 
       return result;
