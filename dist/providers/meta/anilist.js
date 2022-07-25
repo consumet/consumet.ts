@@ -25,7 +25,7 @@ class Anilist extends models_1.AnimeParser {
         super();
         this.name = 'AnilistWithKitsu';
         this.baseUrl = 'https://anilist.co/';
-        this.logo = 'https://anilist.co/img/icons/icon.svg';
+        this.logo = 'https://upload.wikimedia.org/wikipedia/commons/6/61/AniList_logo.svg';
         this.classPath = 'META.Anilist';
         this.anilistGraphqlUrl = 'https://graphql.anilist.co';
         this.kitsuGraphqlUrl = 'https://kitsu.io/api/graphql';
@@ -57,7 +57,7 @@ class Anilist extends models_1.AnimeParser {
                         } || item.title.romaji,
                         image: item.coverImage.large,
                         rating: item.averageScore,
-                        releasedDate: item.seasonYear,
+                        releaseDate: item.seasonYear,
                     })),
                 };
                 return res;
@@ -186,29 +186,42 @@ class Anilist extends models_1.AnimeParser {
                 const { nodes } = kitsuEpisodes.data.data.searchAnimeByTitle;
                 if (nodes) {
                     nodes.forEach((node) => {
+                        var _a, _b;
+                        console.log({
+                            season: node.season,
+                            anilistSeason: season,
+                            startDate: node.startDate.trim().split('-')[0],
+                            anilistStartDate: startDate,
+                        });
                         if (node.season === season && node.startDate.trim().split('-')[0] === startDate.toString()) {
                             const episodes = node.episodes.nodes;
-                            episodes.forEach((episode) => {
-                                var _a, _b;
+                            for (const episode of episodes) {
+                                const i = episode === null || episode === void 0 ? void 0 : episode.number.toString().replace(/"/g, '');
+                                let name = undefined;
+                                let description = undefined;
+                                let thumbnail = undefined;
+                                if ((_a = episode === null || episode === void 0 ? void 0 : episode.description) === null || _a === void 0 ? void 0 : _a.en)
+                                    description = episode === null || episode === void 0 ? void 0 : episode.description.en.toString().replace(/"/g, '').replace('\\n', '\n');
+                                if (episode === null || episode === void 0 ? void 0 : episode.thumbnail)
+                                    thumbnail = episode === null || episode === void 0 ? void 0 : episode.thumbnail.original.url.toString().replace(/"/g, '');
                                 if (episode) {
-                                    const i = episode.number.toString().replace(/"/g, '');
-                                    let name = null;
-                                    let description = null;
-                                    let thumbnail = null;
-                                    if ((_a = episode.titles) === null || _a === void 0 ? void 0 : _a.canonical)
+                                    if ((_b = episode.titles) === null || _b === void 0 ? void 0 : _b.canonical)
                                         name = episode.titles.canonical.toString().replace(/"/g, '');
-                                    if ((_b = episode.description) === null || _b === void 0 ? void 0 : _b.en)
-                                        description = episode.description.en.toString().replace(/"/g, '').replace('\\n', '\n');
-                                    if (episode.thumbnail)
-                                        thumbnail = episode.thumbnail.original.url.toString().replace(/"/g, '');
                                     episodesList.set(i, {
-                                        episodeNum: episode.number.toString().replace(/"/g, ''),
+                                        episodeNum: episode === null || episode === void 0 ? void 0 : episode.number.toString().replace(/"/g, ''),
                                         title: name,
                                         description,
                                         thumbnail,
                                     });
+                                    continue;
                                 }
-                            });
+                                episodesList.set(i, {
+                                    episodeNum: undefined,
+                                    title: undefined,
+                                    description: undefined,
+                                    thumbnail,
+                                });
+                            }
                         }
                     });
                 }
@@ -216,14 +229,14 @@ class Anilist extends models_1.AnimeParser {
             const newEpisodeList = [];
             if (episodesList.size !== 0 && (possibleProviderEpisodes === null || possibleProviderEpisodes === void 0 ? void 0 : possibleProviderEpisodes.length) !== 0) {
                 possibleProviderEpisodes === null || possibleProviderEpisodes === void 0 ? void 0 : possibleProviderEpisodes.forEach((ep, i) => {
-                    var _a, _b, _c, _d, _e;
+                    var _a, _b, _c, _d, _e, _f;
                     const j = (i + 1).toString();
                     newEpisodeList.push({
                         id: ep.id,
                         title: (_b = (_a = episodesList.get(j)) === null || _a === void 0 ? void 0 : _a.title) !== null && _b !== void 0 ? _b : null,
                         image: (_d = (_c = episodesList.get(j)) === null || _c === void 0 ? void 0 : _c.thumbnail) !== null && _d !== void 0 ? _d : null,
                         number: ep.number,
-                        description: (_e = episodesList.get(j)) === null || _e === void 0 ? void 0 : _e.description,
+                        description: (_f = (_e = episodesList.get(j)) === null || _e === void 0 ? void 0 : _e.description) !== null && _f !== void 0 ? _f : null,
                     });
                 });
             }
