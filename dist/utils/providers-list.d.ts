@@ -4,7 +4,7 @@
  * add new providers here (order does not matter)
  */
 export declare const PROVIDERS_LIST: {
-    ANIME: (import("../providers/anime/gogoanime").default | import("../providers/anime/9anime").default | import("../providers/anime/animepahe").default)[];
+    ANIME: (import("../providers/anime/gogoanime").default | import("../providers/anime/9anime").default | import("../providers/anime/animepahe").default | import("../providers/anime/zoro").default)[];
     MANGA: (import("../providers/manga/mangadex").default | import("../providers/manga/mangahere").default | import("../providers/manga/mangakakalot").default)[];
     BOOKS: import("../providers/books/libgen").default[];
     COMICS: import("../providers/comics/getComics").default[];

@@ -4,8 +4,10 @@ declare class VidCloud extends VideoExtractor {
     protected sources: IVideo[];
     private readonly host;
     private readonly host2;
+    private readonly host3;
     extract: (videoUrl: URL, isAlternative?: boolean) => Promise<{
         sources: IVideo[];
+    } & {
         subtitles: ISubtitle[];
     }>;
 }

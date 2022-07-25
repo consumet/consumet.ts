@@ -80,10 +80,7 @@ class FlixHQ extends models_1.MovieParser {
                 movieInfo.image = $('.m_i-d-poster > div:nth-child(1) > img:nth-child(1)').attr('src');
                 movieInfo.description = $('.description').text();
                 movieInfo.type = movieInfo.id.split('/')[0] === 'tv' ? models_1.TvType.TVSERIES : models_1.TvType.MOVIE;
-                movieInfo.releaseDate = $('div.row-line:nth-child(3)')
-                    .text()
-                    .replace('Released: ', '')
-                    .trim();
+                movieInfo.releaseDate = $('div.row-line:nth-child(3)').text().replace('Released: ', '').trim();
                 movieInfo.genres = $('div.row-line:nth-child(2) > a')
                     .map((i, el) => $(el).text().split('&'))
                     .get()
@@ -149,7 +146,7 @@ class FlixHQ extends models_1.MovieParser {
          *
          * @param episodeId episode id
          * @param mediaId media id
-         * @param server server type (default `MixDrop`) (optional)
+         * @param server server type (default `VidCloud`) (optional)
          */
         this.fetchEpisodeSources = (episodeId, mediaId, server = models_1.StreamingServers.VidCloud) => __awaiter(this, void 0, void 0, function* () {
             if (episodeId.startsWith('http')) {

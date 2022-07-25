@@ -20,7 +20,7 @@ declare class FlixHQ extends MovieParser {
      *
      * @param episodeId episode id
      * @param mediaId media id
-     * @param server server type (default `MixDrop`) (optional)
+     * @param server server type (default `VidCloud`) (optional)
      */
     fetchEpisodeSources: (episodeId: string, mediaId: string, server?: StreamingServers) => Promise<ISource>;
     /**
