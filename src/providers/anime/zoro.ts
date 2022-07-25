@@ -32,6 +32,7 @@ class Zoro extends AnimeParser {
       hasNextPage: false,
       results: [],
     };
+
     try {
       const { data } = await axios.get(
         `${this.baseUrl}/search?keyword=${decodeURIComponent(query)}&page=${page}`
@@ -55,7 +56,7 @@ class Zoro extends AnimeParser {
         // Movie, TV, OVA, ONA, Special, Music
         const type = $(el).find('div:nth-child(2) > div:nth-child(2) > span:nth-child(1)').text();
         const image = $(el).find('div:nth-child(1) > img.film-poster-img').attr('data-src');
-        const url = this.baseUrl + $(el).find('div:nth-child(1) > a:nth-child(4)').attr('href');
+        const url = this.baseUrl + $(el).find('div:nth-child(1) > a').last().attr('href');
 
         res.results.push({
           id: id!,
@@ -193,11 +194,5 @@ class Zoro extends AnimeParser {
     throw new Error('Method not implemented.');
   };
 }
-
-(async () => {
-  const zoro = new Zoro();
-  const info = await zoro.fetchEpisodeSources('one-piece-100$episode$2145');
-  console.log(info);
-})();
 
 export default Zoro;

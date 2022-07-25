@@ -30,7 +30,7 @@ class VidCloud extends VideoExtractor {
       let res = null;
       if (videoUrl.href.includes('rapid-cloud.ru')) {
         res = await axios.get(
-          `${this.host3}/ajax/embed-6/getSources?id=${id}&_number=2&sId=zIlsAXDw5t76TRyfhrDY`,
+          `${this.host3}/ajax/embed-6/getSources?id=${id}&sId=zIlsAXDw5t76TRyfhrDY`,
           options
         );
       } else {
@@ -50,7 +50,7 @@ class VidCloud extends VideoExtractor {
 
       result.sources.push(...this.sources);
 
-      if (videoUrl.href.includes('rapid-cloud.ru')) {
+      if (videoUrl.href.includes(new URL(this.host3).host)) {
         result.sources = [];
         this.sources = [];
         for (const source of sources) {
@@ -72,6 +72,36 @@ class VidCloud extends VideoExtractor {
             this.sources.push({
               url: `${source.file?.split('master.m3u8')[0]}${f2.replace('iframes', 'index')}`,
               quality: f1.split('x')[1] + 'p',
+              isM3U8: f2.includes('.m3u8'),
+            });
+          }
+          result.sources.push(...this.sources);
+        }
+      } else if (
+        videoUrl.href.includes(new URL(this.host2).host) ||
+        videoUrl.href.includes(new URL(this.host).host)
+      ) {
+        result.sources = [];
+        this.sources = [];
+
+        for (const source of sources) {
+          const { data } = await axios.get(source.file, options);
+          const urls = data.split('\n').filter((line: string) => line.includes('.m3u8')) as string[];
+          const qualities = data
+            .split('\n')
+            .filter((line: string) => line.includes('RESOLUTION=')) as string[];
+
+          const TdArray = qualities.map((s, i) => {
+            const f1 = s.split('x')[1];
+            const f2 = urls[i];
+
+            return [f1, f2];
+          });
+
+          for (const [f1, f2] of TdArray) {
+            this.sources.push({
+              url: f2,
+              quality: f1,
               isM3U8: f2.includes('.m3u8'),
             });
           }

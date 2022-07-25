@@ -226,34 +226,48 @@ class Anilist extends AnimeParser {
 
     const kitsuEpisodes = await axios.post(this.kitsuGraphqlUrl, options);
     const episodesList = new Map();
-
     if (kitsuEpisodes?.data.data) {
       const { nodes } = kitsuEpisodes.data.data.searchAnimeByTitle;
 
       if (nodes) {
         nodes.forEach((node: any) => {
+          console.log({
+            season: node.season,
+            anilistSeason: season,
+            startDate: node.startDate.trim().split('-')[0],
+            anilistStartDate: startDate,
+          });
           if (node.season === season && node.startDate.trim().split('-')[0] === startDate.toString()) {
             const episodes = node.episodes.nodes;
 
-            episodes.forEach((episode: any) => {
+            for (const episode of episodes) {
+              const i = episode?.number.toString().replace(/"/g, '');
+              let name = undefined;
+              let description = undefined;
+              let thumbnail = undefined;
+
+              if (episode?.description?.en)
+                description = episode?.description.en.toString().replace(/"/g, '').replace('\\n', '\n');
+              if (episode?.thumbnail)
+                thumbnail = episode?.thumbnail.original.url.toString().replace(/"/g, '');
+
               if (episode) {
-                const i = episode.number.toString().replace(/"/g, '');
-                let name = null;
-                let description = null;
-                let thumbnail = null;
                 if (episode.titles?.canonical) name = episode.titles.canonical.toString().replace(/"/g, '');
-                if (episode.description?.en)
-                  description = episode.description.en.toString().replace(/"/g, '').replace('\\n', '\n');
-                if (episode.thumbnail)
-                  thumbnail = episode.thumbnail.original.url.toString().replace(/"/g, '');
                 episodesList.set(i, {
-                  episodeNum: episode.number.toString().replace(/"/g, ''),
+                  episodeNum: episode?.number.toString().replace(/"/g, ''),
                   title: name,
                   description,
                   thumbnail,
                 });
+                continue;
               }
-            });
+              episodesList.set(i, {
+                episodeNum: undefined,
+                title: undefined,
+                description: undefined,
+                thumbnail,
+              });
+            }
           }
         });
       }
@@ -268,10 +282,11 @@ class Anilist extends AnimeParser {
           title: episodesList.get(j)?.title ?? null,
           image: episodesList.get(j)?.thumbnail ?? null,
           number: ep.number as number,
-          description: episodesList.get(j)?.description,
+          description: episodesList.get(j)?.description ?? null,
         });
       });
     }
+
     return newEpisodeList;
   };
 }

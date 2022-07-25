@@ -86,10 +86,7 @@ class FlixHQ extends MovieParser {
       movieInfo.image = $('.m_i-d-poster > div:nth-child(1) > img:nth-child(1)').attr('src');
       movieInfo.description = $('.description').text();
       movieInfo.type = movieInfo.id.split('/')[0] === 'tv' ? TvType.TVSERIES : TvType.MOVIE;
-      movieInfo.releaseDate = $('div.row-line:nth-child(3)')
-        .text()
-        .replace('Released: ', '')
-        .trim();
+      movieInfo.releaseDate = $('div.row-line:nth-child(3)').text().replace('Released: ', '').trim();
       movieInfo.genres = $('div.row-line:nth-child(2) > a')
         .map((i, el) => $(el).text().split('&'))
         .get()
@@ -129,9 +126,7 @@ class FlixHQ extends MovieParser {
                 title: $$$(el).find('a').attr('title')!,
                 number: parseInt($$$(el).find('a').attr('title')!.split(':')[0].slice(3).trim()),
                 season: season,
-                url: `${this.baseUrl}/ajax/v2/episode/servers/${
-                  $$$(el).find('a').attr('id')!.split('-')[1]
-                }`,
+                url: `${this.baseUrl}/ajax/v2/episode/servers/${$$$(el).find('a').attr('id')!.split('-')[1]}`,
               };
               movieInfo.episodes?.push(episode);
             })
@@ -163,7 +158,7 @@ class FlixHQ extends MovieParser {
    *
    * @param episodeId episode id
    * @param mediaId media id
-   * @param server server type (default `MixDrop`) (optional)
+   * @param server server type (default `VidCloud`) (optional)
    */
   override fetchEpisodeSources = async (
     episodeId: string,
@@ -222,10 +217,7 @@ class FlixHQ extends MovieParser {
    * @param episodeId takes episode link or movie id
    * @param mediaId takes movie link or id (found on movie info object)
    */
-  override fetchEpisodeServers = async (
-    episodeId: string,
-    mediaId: string
-  ): Promise<IEpisodeServer[]> => {
+  override fetchEpisodeServers = async (episodeId: string, mediaId: string): Promise<IEpisodeServer[]> => {
     if (!episodeId.startsWith(this.baseUrl + '/ajax') && !mediaId.includes('movie')) {
       episodeId = `${this.baseUrl}/ajax/v2/episode/servers/${episodeId}`;
     } else {
