@@ -2,7 +2,7 @@ import axios from 'axios';
 import { load } from 'cheerio';
 import FormData from 'form-data';
 
-import { VideoExtractor, IVideo, ISubtitle } from '../../models';
+import { VideoExtractor, IVideo, ISubtitle, Intro } from '../../models';
 import { USER_AGENT } from '..';
 
 class VidCloud extends VideoExtractor {
@@ -17,7 +17,10 @@ class VidCloud extends VideoExtractor {
     videoUrl: URL,
     isAlternative: boolean = false
   ): Promise<{ sources: IVideo[] } & { subtitles: ISubtitle[] }> => {
-    const result: { sources: IVideo[]; subtitles: ISubtitle[] } = { sources: [], subtitles: [] };
+    const result: { sources: IVideo[]; subtitles: ISubtitle[]; intro?: Intro } = {
+      sources: [],
+      subtitles: [],
+    };
     try {
       const id = videoUrl.href.split('/').pop()?.split('?')[0];
       const options = {
@@ -40,7 +43,7 @@ class VidCloud extends VideoExtractor {
         );
       }
       const {
-        data: { sources, tracks },
+        data: { sources, tracks, intro },
       } = res;
 
       this.sources = sources.map((s: any) => ({
@@ -76,6 +79,12 @@ class VidCloud extends VideoExtractor {
             });
           }
           result.sources.push(...this.sources);
+        }
+        if (intro.end > 1) {
+          result.intro = {
+            start: intro.start,
+            end: intro.end,
+          };
         }
       } else if (
         videoUrl.href.includes(new URL(this.host2).host) ||

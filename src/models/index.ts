@@ -36,6 +36,7 @@ import {
   ISource,
   ISubtitle,
   IMovieResult,
+  Intro,
 } from './types';
 import { LibgenBookObject, GetComicsComicsObject, ZLibraryObject } from './type-objects';
 
@@ -80,4 +81,5 @@ export {
   ISource,
   ISubtitle,
   IMovieResult,
+  Intro,
 };
