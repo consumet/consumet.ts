@@ -26,4 +26,6 @@ jobs:
         run: |
           yarn install --frozen-lockfile
           yarn run --if-present build
-          yarn run test
+          yarn run test:anime
+          yarn run test:manga
+          yarn run test:meta

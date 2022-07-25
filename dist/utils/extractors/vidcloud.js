@@ -25,7 +25,10 @@ class VidCloud extends models_1.VideoExtractor {
         this.host3 = 'https://rapid-cloud.ru';
         this.extract = (videoUrl, isAlternative = false) => __awaiter(this, void 0, void 0, function* () {
             var _a, _b;
-            const result = { sources: [], subtitles: [] };
+            const result = {
+                sources: [],
+                subtitles: [],
+            };
             try {
                 const id = (_a = videoUrl.href.split('/').pop()) === null || _a === void 0 ? void 0 : _a.split('?')[0];
                 const options = {
@@ -42,7 +45,7 @@ class VidCloud extends models_1.VideoExtractor {
                 else {
                     res = yield axios_1.default.get(`${isAlternative ? this.host2 : this.host}/ajax/embed-4/getSources?id=${id}`, options);
                 }
-                const { data: { sources, tracks }, } = res;
+                const { data: { sources, tracks, intro }, } = res;
                 this.sources = sources.map((s) => ({
                     url: s.file,
                     isM3U8: s.file.includes('.m3u8'),
@@ -70,6 +73,12 @@ class VidCloud extends models_1.VideoExtractor {
                             });
                         }
                         result.sources.push(...this.sources);
+                    }
+                    if (intro.end > 1) {
+                        result.intro = {
+                            start: intro.start,
+                            end: intro.end,
+                        };
                     }
                 }
                 else if (videoUrl.href.includes(new URL(this.host2).host) ||

@@ -194,10 +194,18 @@ export interface ISubtitle {
      */
     lang: string;
 }
+/**
+ * The start, and the end of the intro or opening in seconds.
+ */
+export interface Intro {
+    start: number;
+    end: number;
+}
 export interface ISource {
     headers?: {
         [k: string]: string;
     };
+    intro?: Intro;
     subtitles?: ISubtitle[];
     sources: IVideo[];
 }

@@ -187,12 +187,6 @@ class Anilist extends models_1.AnimeParser {
                 if (nodes) {
                     nodes.forEach((node) => {
                         var _a, _b;
-                        console.log({
-                            season: node.season,
-                            anilistSeason: season,
-                            startDate: node.startDate.trim().split('-')[0],
-                            anilistStartDate: startDate,
-                        });
                         if (node.season === season && node.startDate.trim().split('-')[0] === startDate.toString()) {
                             const episodes = node.episodes.nodes;
                             for (const episode of episodes) {
