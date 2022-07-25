@@ -17,5 +17,6 @@ This list is in alphabetical order. (except the sub bullet points)
 
 - [AnimePahe](../providers/animepahe.md)
 - [Gogoanime](../providers/gogoanime.md)
+- [Zoro.to](../providers/zoro.md)
 
 <p align="end">(<a href="https://github.com/consumet/extensions/blob/master/docs">back to table of contents</a>)</p>

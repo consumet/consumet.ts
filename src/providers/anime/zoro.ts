@@ -187,7 +187,7 @@ class Zoro extends AnimeParser {
   };
 
   /**
-   *
+   * @deprecated
    * @param episodeId Episode id
    */
   override fetchEpisodeServers = (episodeId: string): Promise<IEpisodeServer[]> => {
