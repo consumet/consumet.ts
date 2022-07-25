@@ -22,6 +22,5 @@ test('returns a filled object of episode sources', async () => {
   const res = await zoro.search('Overlord IV');
   const info = await zoro.fetchAnimeInfo(res.results[3].id);
   const data = await zoro.fetchEpisodeSources(info.episodes![0].id); // Overlord IV episode 1 id
-  console.log(data);
   expect(data.sources).not.toEqual([]);
 });
