@@ -1,6 +1,6 @@
 import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, ISource, IEpisodeServer, StreamingServers } from '../../models';
 declare class Zoro extends AnimeParser {
-    readonly name = "Zoro.to";
+    readonly name = "Zoro";
     protected baseUrl: string;
     protected logo: string;
     protected classPath: string;
