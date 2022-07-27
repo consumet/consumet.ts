@@ -118,6 +118,12 @@ class VidCloud extends VideoExtractor {
         }
       }
 
+      result.sources.push({
+        url: sources[0].file,
+        isM3U8: sources[0].file.includes('.m3u8'),
+        quality: 'auto',
+      });
+
       result.subtitles = tracks.map((s: any) => ({
         url: s.file,
         lang: s.label ? s.label : 'Default (maybe)',
