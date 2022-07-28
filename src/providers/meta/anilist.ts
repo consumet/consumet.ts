@@ -290,10 +290,4 @@ class Anilist extends AnimeParser {
   };
 }
 
-(async () => {
-  const provider = new Anilist();
-  const anime = await provider.fetchAnimeInfo('102454');
-  console.log(anime);
-})();
-
 export default Anilist;
