@@ -72,7 +72,7 @@ class Anilist extends models_1.AnimeParser {
          * @param dub to get dubbed episodes (optional) set to `true` to get dubbed episodes. **ONLY WORKS FOR GOGOANIME**
          */
         this.fetchAnimeInfo = (id, dub = false) => __awaiter(this, void 0, void 0, function* () {
-            var _a, _b, _c;
+            var _a, _b, _c, _d, _e, _f;
             const animeInfo = {
                 id: id,
                 title: '',
@@ -93,7 +93,9 @@ class Anilist extends models_1.AnimeParser {
                     native: data.data.Media.title.native,
                     userPreferred: data.data.Media.title.userPreferred,
                 };
-                animeInfo.image = data.data.Media.coverImage.large;
+                animeInfo.image =
+                    (_b = (_a = data.data.Media.coverImage.large) !== null && _a !== void 0 ? _a : data.data.Media.coverImage.medium) !== null && _b !== void 0 ? _b : data.data.Media.coverImage.small;
+                animeInfo.cover = (_c = data.data.Media.bannerImage) !== null && _c !== void 0 ? _c : animeInfo.image;
                 animeInfo.description = data.data.Media.description;
                 switch (data.data.Media.status) {
                     case 'RELEASING':
@@ -119,7 +121,7 @@ class Anilist extends models_1.AnimeParser {
                 animeInfo.genres = data.data.Media.genres;
                 animeInfo.studios = data.data.Media.studios.edges.map((item) => item.node.name);
                 animeInfo.subOrDub = dub ? models_1.SubOrSub.DUB : models_1.SubOrSub.SUB;
-                const possibleAnimeEpisodes = yield this.findAnime({ english: (_a = animeInfo.title) === null || _a === void 0 ? void 0 : _a.english, romaji: (_b = animeInfo.title) === null || _b === void 0 ? void 0 : _b.romaji }, data.data.Media.season, data.data.Media.startDate.year);
+                const possibleAnimeEpisodes = yield this.findAnime({ english: (_d = animeInfo.title) === null || _d === void 0 ? void 0 : _d.english, romaji: (_e = animeInfo.title) === null || _e === void 0 ? void 0 : _e.romaji }, data.data.Media.season, data.data.Media.startDate.year);
                 if (possibleAnimeEpisodes) {
                     animeInfo.episodes = possibleAnimeEpisodes;
                     if (this.provider.name === 'Gogoanime' && dub) {
@@ -130,7 +132,7 @@ class Anilist extends models_1.AnimeParser {
                         });
                     }
                 }
-                animeInfo.episodes = (_c = animeInfo.episodes) === null || _c === void 0 ? void 0 : _c.map((episode) => {
+                animeInfo.episodes = (_f = animeInfo.episodes) === null || _f === void 0 ? void 0 : _f.map((episode) => {
                     if (!episode.image) {
                         episode.image = animeInfo.image;
                     }
@@ -239,5 +241,10 @@ class Anilist extends models_1.AnimeParser {
         this.provider = provider || new gogoanime_1.default();
     }
 }
+(() => __awaiter(void 0, void 0, void 0, function* () {
+    const provider = new Anilist();
+    const anime = yield provider.fetchAnimeInfo('102454');
+    console.log(anime);
+}))();
 exports.default = Anilist;
 //# sourceMappingURL=anilist.js.map

@@ -106,7 +106,12 @@ class Anilist extends AnimeParser {
         userPreferred: data.data.Media.title.userPreferred,
       };
 
-      animeInfo.image = data.data.Media.coverImage.large;
+      animeInfo.image =
+        data.data.Media.coverImage.large ??
+        data.data.Media.coverImage.medium ??
+        data.data.Media.coverImage.small;
+
+      animeInfo.cover = data.data.Media.bannerImage ?? animeInfo.image;
       animeInfo.description = data.data.Media.description;
       switch (data.data.Media.status) {
         case 'RELEASING':
@@ -284,5 +289,11 @@ class Anilist extends AnimeParser {
     return newEpisodeList;
   };
 }
+
+(async () => {
+  const provider = new Anilist();
+  const anime = await provider.fetchAnimeInfo('102454');
+  console.log(anime);
+})();
 
 export default Anilist;
