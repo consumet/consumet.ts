@@ -104,10 +104,9 @@ Check out [contributing guide](https://github.com/consumet/consumet.ts/blob/mast
 
 ## Support
 You can contact the maintainers of consumet.ts via [email](mailto:consumet.org@gmail.com), or [join the discord server](https://discord.gg/qTPfvMxzNH) (Recommended).
-<p align="center">
-  <a href="https://discord.gg/sP2k8vhjdb">
-    <img src="http://invidget.switchblade.xyz/987492554486452315">
-  </a>
+
+<a href="https://discord.gg/sP2k8vhjdb">
+   <img src="https://discordapp.com/api/guilds/987492554486452315/widget.png?style=banner2">
 </p>
 
 ## Contributors
