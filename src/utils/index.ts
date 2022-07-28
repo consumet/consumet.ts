@@ -9,6 +9,7 @@ import {
   anilistSearchQuery,
   anilistMediaDetailQuery,
   kitsuSearchQuery,
+  range,
 } from './utils';
 import { parsePostInfo } from './getComics';
 import { countDivs } from './zLibrary';
@@ -30,4 +31,5 @@ export {
   anilistSearchQuery,
   anilistMediaDetailQuery,
   kitsuSearchQuery,
+  range,
 };

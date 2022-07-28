@@ -1,6 +1,6 @@
 import { load } from 'cheerio';
 import axios from 'axios';
-import { encode } from 'ascii-url-encoder';
+import { encode, decode } from 'ascii-url-encoder';
 
 import {
   AnimeParser,
@@ -12,7 +12,9 @@ import {
   IAnimeResult,
   IEpisodeServer,
   ISource,
+  StreamingServers,
 } from '../../models';
+import { range } from '../../utils';
 
 /**
  * @deprecated
@@ -28,7 +30,8 @@ class NineAnime extends AnimeParser {
 
   override isWorking = false;
 
-  private readonly base64 = 'c/aUAorINHBLxWTy3uRiPt8J+vjsOheFG1E0q2X9CYwDZlnmd4Kb5M6gSVzfk7pQ';
+  private readonly table = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
+  private readonly key = 'rTKp3auwu0ULA6II';
 
   override async search(query: string, page: number = 1): Promise<ISearch<IAnimeResult>> {
     const searchResult: ISearch<IAnimeResult> = {
@@ -37,40 +40,42 @@ class NineAnime extends AnimeParser {
       results: [],
     };
 
-    // MAKE VRF
     try {
-      console.log(`query: ${query}, vrf: ${encode(this.getVrf(query))}`);
       const res = await axios.get(
-        `${this.baseUrl}/search?keyword=${query}&vrf=iH2V6sFT0eKhzLoOKqxQ%2B&page=${page}`
+        `${this.baseUrl.replace('.to', '.id')}/filter?keyword=${encode(query).replace(
+          /%20/g,
+          '+'
+        )}&vrf=${this.ev(query)}&page=${page}`
       );
 
       const $ = load(res.data);
 
-      searchResult.hasNextPage =
-        $(`div.anime-pagination > div.ap_-nav`).children().length > 0
-          ? $('div.anime-pagination > div > div.ap__-btn.ap__-btn-next > a')
-            ? $('div.anime-pagination > div > div.ap__-btn.ap__-btn-next > a').hasClass('disabled')
-              ? false
-              : true
-            : false
-          : false;
+      searchResult.hasNextPage = $(`ul.pagination`)
+        ? $('ul.pagination > li').last().hasClass('disabled')
+          ? false
+          : true
+        : false;
 
-      $('.anime-list > li').each((i, el) => {
-        const taglist = $(el)
-          .find('a:nth-child(1) > div:nth-child(3) > span')
-          .map((i, el) => $(el).text())
-          .toArray();
-
-        if (!taglist.includes('dub')) taglist.unshift('sub');
+      $('#list-items > div.item').each((i, el) => {
+        const subs = $(el)
+          .find('div.ani > a > div.meta > div > div.left > span.ep-status')
+          .map((i, el) => {
+            if ($(el).hasClass('sub')) {
+              return SubOrSub.SUB;
+            } else if ($(el).hasClass('dub')) {
+              return SubOrSub.DUB;
+            }
+          })
+          .get();
+        console.log(subs);
 
         searchResult.results.push({
-          id: $(el).find('a:nth-child(1)').attr('href')?.split('/')[2]!,
-          title: $(el).find('a:nth-child(2)').text()!,
-          url: `${this.baseUrl}${$(el).find('a:nth-child(2)').attr('href')}`,
-          image: $(el).find('a:nth-child(1) > img').attr('src'),
-          subOrDub: taglist.includes('sub') ? SubOrSub.SUB : SubOrSub.DUB,
-          taglist: taglist,
-          status: $(el).find('a:nth-child(1) > div:nth-child(2)').text().split('Ep')[1]?.trim(),
+          id: $(el).find('div > div.ani > a').attr('href')?.split('/')[2]!,
+          title: $(el).find('div > div.info > div.b1 > a').text()!,
+          url: `${this.baseUrl}${$(el).find('div > div.ani > a').attr('href')}`,
+          image: $(el).find('div > div.ani > a > img').attr('src'),
+          subOrSub: subs.includes(SubOrSub.SUB) && subs.includes(SubOrSub.DUB) ? SubOrSub.BOTH : subs[0],
+          type: $(el).find('div > div.ani > a > div.meta > div > div.right').text()!,
         });
       });
 
@@ -81,15 +86,14 @@ class NineAnime extends AnimeParser {
     }
   }
 
-  override async fetchAnimeInfo(animeUrl: string): Promise<IAnimeInfo> {
-    if (!animeUrl.startsWith(this.baseUrl)) animeUrl = `${this.baseUrl}/watch/${animeUrl}`;
+  override async fetchAnimeInfo(animeUrl: string, isDub: boolean = false): Promise<IAnimeInfo> {
+    if (!animeUrl.startsWith(this.baseUrl.replace('.to', '.id')))
+      animeUrl = `${this.baseUrl.replace('.to', '.id')}/watch/${animeUrl}`;
 
     const animeInfo: IAnimeInfo = {
       id: '',
       title: '',
       url: animeUrl,
-      genres: [],
-      episodes: [],
     };
 
     try {
@@ -98,31 +102,30 @@ class NineAnime extends AnimeParser {
       const $ = load(res.data);
 
       animeInfo.id = new URL(animeUrl).pathname.split('/')[2];
-      animeInfo.title = $('h2.film-name').text();
-      animeInfo.japaneseTitle = $('h2.film-name').attr('data-jname');
+      animeInfo.title = $('h1.title').text();
+      animeInfo.jpTitle = $('h1.title').attr('data-jp');
       animeInfo.genres = Array.from(
-        $('.col1 > div:nth-child(5) > div:nth-child(2) > a').map((i, el) => $(el).text())
+        $('div.meta:nth-child(1) > div:nth-child(5) > span > a').map((i, el) => $(el).text())
       );
-      animeInfo.image = $('.anime-poster > div:nth-child(1) > img.film-poster-img').attr('src');
-      animeInfo.description = $('.film-description').text()?.trim();
-      animeInfo.type = $('.col1 > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)').text();
+      animeInfo.image = $('.binfo > div.poster > span > img').attr('src');
+      animeInfo.description = $('.content').text()?.trim();
+      animeInfo.type = $('div.meta:nth-child(1) > div:nth-child(1) > span:nth-child(1) > a').text();
       animeInfo.studios = Array.from(
-        $('.col1 > div:nth-child(2) > div:nth-child(2)').map((i, el) => {
+        $('div.meta:nth-child(1) > div:nth-child(2) > span:nth-child(1) > a').map((i, el) => {
           return {
-            id: $(el).find('a').attr('href')?.split('/')[2]!,
+            id: $(el).attr('href')?.split('/')[2]!,
             title: $(el).text()?.trim()!,
           };
         })
       );
-      animeInfo.releaseDate = $('.col1 > div:nth-child(3) > div:nth-child(2) > span:nth-child(1)')
+      animeInfo.releaseDate = $('div.meta:nth-child(1) > div:nth-child(3) > span:nth-child(1)')
         .text()
         .trim()
         .split('to')[0]
         ?.trim();
 
-      animeInfo.status = MediaStatus.UNKNOWN;
-      switch ($('.col1 > div:nth-child(4) > div:nth-child(2) > span:nth-child(1)').text()?.trim()) {
-        case 'Airing':
+      switch ($('div.meta:nth-child(1) > div:nth-child(4) > span:nth-child(1)').text()?.trim()) {
+        case 'Releasing':
           animeInfo.status = MediaStatus.ONGOING;
           break;
         case 'Completed':
@@ -140,46 +143,55 @@ class NineAnime extends AnimeParser {
       }
 
       animeInfo.score = parseFloat(
-        $('.col2 > div:nth-child(1) > div:nth-child(2) > span:nth-child(1)').text()
+        $('.bmeta > div:nth-child(2) > div:nth-child(2) > span:nth-child(1)')?.text().split('by')[0]
       );
       animeInfo.premiered = $(
-        '.col2 > div:nth-child(2) > div:nth-child(2) > span:nth-child(1)'
+        '.bmeta > div:nth-child(2) > div:nth-child(3) > span:nth-child(1) > a:nth-child(1)'
       ).text();
-      animeInfo.duration = $(
-        '.col2 > div:nth-child(3) > div:nth-child(2) > span:nth-child(1)'
-      ).text();
-      animeInfo.quality = $(
-        '.col2 > div:nth-child(4) > div:nth-child(2) > span:nth-child(1)'
-      ).text();
+      animeInfo.duration = $('.bmeta > div:nth-child(2) > div:nth-child(4) > span:nth-child(1)').text();
       animeInfo.views = parseInt(
-        $('.col2 > div:nth-child(5) > div:nth-child(2) > span:nth-child(1)')
+        $('.bmeta > div:nth-child(2) > div:nth-child(5) > span:nth-child(1)')
           .text()
+          .split('by')
+          .join('')
           .split(',')
           .join('')
+          .trim()
       );
-      animeInfo.otherNames = $('.alias')
+      animeInfo.otherNames = $('.names')
         .text()
-        .split(',')
+        .split(';')
         .map((name) => name?.trim());
-      animeInfo.totalEpisodes = parseInt($('li.ep-page-item').last().text().split('-')[1]?.trim());
+
+      const id = $('#watch-main').attr('data-id')!;
+
+      const {
+        data: { result },
+      } = await axios.get(`${this.baseUrl.replace('.to', '.id')}/ajax/episode/list/${id}?vrf=${this.ev(id)}`);
+
+      const $$ = load(result);
+
+      animeInfo.totalEpisodes = $$('div.episodes > ul > li > a').length;
+      animeInfo.episodes = [];
       animeInfo.episodes?.push(
-        ...Array.from(
-          $('section.block_area:nth-child(3) > div:nth-child(2) > div.episodes-ul').map(
-            (i, el): IAnimeEpisode[] => {
-              return $(el)
-                .find('a')
-                .map((i, el): IAnimeEpisode => {
-                  return {
-                    id: $(el).attr('data-id')?.toString()!,
-                    number: parseInt($(el).attr('data-number')?.toString()!),
-                    title: $(el).attr('title')?.toString()!,
-                    url: `${this.baseUrl}${$(el).attr('href')}`,
-                  };
-                })
-                .toArray();
-            }
-          )
-        )
+        ...$$('div.episodes > ul > li > a').map((i, el): IAnimeEpisode[] => {
+          return $$(el)
+            .map((i, el): IAnimeEpisode => {
+              const possibleIds = $$(el).attr('data-ids')?.split(',')!;
+              const id = possibleIds[isDub ? 1 : 0] ?? possibleIds[0];
+              const number = parseInt($$(el).attr('data-num')?.toString()!);
+              const title = $$(el).find('span').text().length > 0 ? $$(el).find('span').text() : undefined;
+              const isFiller = $$(el).hasClass('filler');
+              return {
+                id: id,
+                number: number,
+                title: title,
+                isFiller: isFiller,
+                url: `${this.baseUrl.replace('.to', '.id')}/ajax/server/list/${id}?vrf=${this.ev(id)}`,
+              };
+            })
+            .get();
+        })
       );
 
       return animeInfo;
@@ -188,30 +200,100 @@ class NineAnime extends AnimeParser {
     }
   }
 
-  override async fetchEpisodeSources(episodeLink: string): Promise<ISource> {
-    throw new Error('Method not implemented.');
+  override async fetchEpisodeSources(episodeId: string, server?: StreamingServers): Promise<ISource> {
+    // if (episodeId.startsWith(this.baseUrl.replace('.to', '.id'))) {
+
+    // }
+    try {
+      const servers = await this.fetchEpisodeServers(episodeId);
+
+      const server = servers.find((s) => s.name === 'streamtape');
+
+      if (!server) throw new Error('Server not found');
+      // fix vrf
+      console.log(server.url);
+      const {
+        data: { result: url },
+      } = await axios.get(server.url);
+
+      return {
+        sources: [],
+      };
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
   }
 
-  override async fetchEpisodeServers(episodeLink: string): Promise<IEpisodeServer[]> {
-    throw new Error('Method not implemented.');
+  override async fetchEpisodeServers(episodeId: string): Promise<IEpisodeServer[]> {
+    if (!episodeId.startsWith(this.baseUrl.replace('.to', '.id')))
+      episodeId = `${this.baseUrl.replace('.to', '.id')}/ajax/server/list/${episodeId}?vrf=${this.ev(
+        episodeId
+      )}`;
+    try {
+      const {
+        data: { result },
+      } = await axios.get(episodeId);
+
+      const $ = load(result);
+
+      const servers: IEpisodeServer[] = [];
+      $('.type > ul > li').each((i, el) => {
+        const serverId = $(el).attr('data-link-id')!;
+        servers.push({
+          name: $(el).text().toLocaleLowerCase(),
+          url: `${this.baseUrl.replace('.to', '.id')}/ajax/server/${serverId}?vrf=${this.ev(serverId)}`,
+        });
+      });
+
+      return servers;
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
   }
 
-  private getVrf(query: string): string {
-    const vrf = this.cypher(encode(query) + '0000000')
-      .substring(0, 6)
-      .substring(0, 4)
-      .split('')
-      .reverse()
-      .join('');
-    return vrf + this.cypher(this.cypherK(vrf, encode(query))).replace(/=/g, '');
+  private ev(query: string): string {
+    return encode(this.encrypt(this.cipher(encode(query), this.key)).replace(/[=|+|$]/g, ''));
   }
-  private cypher(query: string): string {
-    if (query.length >= 256) throw new Error('Query too long');
+
+  private dv(query: string): string {
+    return decode(this.cipher(this.key, this.decrypt(query)));
+  }
+
+  private cipher(query: string, key: string): string {
+    let u = 0;
+    let v = 0;
+    const arr = range({ from: 0, to: 256 });
+
+    for (let i = 0; i < arr.length; i++) {
+      u = (u + arr[i] + key.charCodeAt(i % key.length)) % 256;
+      v = arr[i];
+      arr[i] = arr[u];
+      arr[u] = v;
+    }
+    u = 0;
+    let j = 0;
+
+    let res = '';
+    for (let i = 0; i < query.length; i++) {
+      j = (j + 1) % 256;
+      u += arr[j] % 256;
+      v = arr[j];
+      arr[j] = arr[u];
+      arr[u] = v;
+      res += String.fromCharCode(query.charCodeAt(i) ^ arr[(arr[j] + arr[u]) % 256]);
+    }
+    return res;
+  }
+
+  private encrypt(query: string): string {
+    query.split('').forEach((char) => {
+      if (char.charCodeAt(0) > 255) throw new Error('Invalid character.');
+    });
     let res = '';
     for (let i = 0; i < query.length; i += 3) {
       const arr: number[] = Array(4).fill(-1);
       arr[0] = query.charCodeAt(i) >> 2;
-      arr[1] = (query.charCodeAt(i) & 3) << 4;
+      arr[1] = (3 & query.charCodeAt(i)) << 4;
 
       if (i + 1 < query.length) {
         arr[1] |= query.charCodeAt(i + 1) >> 4;
@@ -222,55 +304,54 @@ class NineAnime extends AnimeParser {
         arr[3] = query.charCodeAt(i + 2) & 63;
       }
 
-      for (let j = 0; j < 4; j++) {
-        if (arr[j] === -1) res += '=';
-        else res += this.base64.charAt(arr[j]);
+      for (const j of arr) {
+        if (j === -1) res += '=';
+        else if (range({ from: 0, to: 63 }).includes(j)) res += this.table.charAt(j);
       }
     }
     return res;
   }
 
-  // todo
-  private cypherV2(query: string): string {
+  private decrypt(query: string): string {
+    console.log(query);
+    const p = query?.replace(/[\t\n\f\r]/g, '')?.length % 4 === 0 ? query?.replace(/[==|?|$]/g, '') : query;
+
+    if (p?.length % 4 === 1 || /[^+/0-9A-Za-z]/gm.test(p)) throw new Error('Invalid character.');
+
     let res = '';
+    let i = 0;
+    let e = 0;
+    let n = 0;
+    for (let j = 0; j < p?.length; j++) {
+      e <<= 6;
+      i = this.table.indexOf(p[j]);
+      e |= i;
+      n += 6;
 
-    for (const i of this.base64) {
-      const s = (parseInt(i.padEnd(6, '0')) >>> 0).toString(2).padStart(6, '0');
-      if (s.length < 6) {
-        res += s;
-      } else {
-        res += (parseInt(i) >>> 0).toString(2);
+      if (n === 24) {
+        res += String.fromCharCode((e >> 16) & 16711680);
+        res += String.fromCharCode((e >> 8) & 65280);
+        res += String.fromCharCode(e & 255);
+        n = 0;
+        e = 0;
       }
     }
 
+    if (12 === n) return res + String.fromCharCode(e >> 4);
+    else if (18 === n) {
+      e >>= 2;
+      res += String.fromCharCode((e >> 8) & 65280);
+      res += String.fromCharCode(e & 255);
+    }
     return res;
-  }
-
-  private cypherK(res: string, query: string): string {
-    const arr = Array(256).fill(-1);
-    let result = '';
-    let i = 0;
-    let t = 0;
-    for (let j = 0; j < 256; j++) {
-      i = (i + arr[j] + res.charCodeAt(j % res.length)) % 256;
-      t = arr[j];
-      arr[j] = arr[i];
-      arr[i] = t;
-    }
-
-    i = 0;
-    let a = 0;
-    for (let k = 0; k < query.length; k++) {
-      a = (a + a) % 256;
-      i = (i + arr[a]) % 256;
-      t = arr[a];
-      arr[a] = arr[i];
-      arr[i] = t;
-      result += String.fromCharCode(query.charCodeAt(k) ^ arr[(arr[i] + arr[a]) % 256]);
-    }
-
-    return result;
   }
 }
+
+(async () => {
+  const anime = new NineAnime();
+  const info = await anime.fetchAnimeInfo('bleach-sennen-kessen-hen.w190l');
+  const server = await anime.fetchEpisodeSources(info.episodes![0].id);
+  console.log(server);
+})();
 
 export default NineAnime;

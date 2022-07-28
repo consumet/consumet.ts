@@ -98,6 +98,7 @@ export enum MediaStatus {
 export enum SubOrSub {
   SUB = 'sub',
   DUB = 'dub',
+  BOTH = 'both',
 }
 
 export interface IMangaResult {

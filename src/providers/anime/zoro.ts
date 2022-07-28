@@ -52,7 +52,7 @@ class Zoro extends AnimeParser {
           .attr('href')
           ?.split('/')[1]
           .split('?')[0];
-        const title = $(el).find('div:nth-child(2) > h3:nth-child(1) > a:nth-child(1)').text();
+        const title = $(el).find('div.film-detail > h3.film-name > a.dynamic-name').attr('title')!;
         // Movie, TV, OVA, ONA, Special, Music
         const type = $(el).find('div:nth-child(2) > div:nth-child(2) > span:nth-child(1)').text();
         const image = $(el).find('div:nth-child(1) > img.film-poster-img').attr('data-src');
@@ -194,5 +194,11 @@ class Zoro extends AnimeParser {
     throw new Error('Method not implemented.');
   };
 }
+
+(async () => {
+  const anime = new Zoro();
+  const res = await anime.search('sasami');
+  console.log(res);
+})();
 
 export default Zoro;
