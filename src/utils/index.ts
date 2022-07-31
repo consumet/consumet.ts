@@ -1,4 +1,4 @@
-import { GogoCDN, StreamSB, VidCloud, MixDrop, Kwik } from './extractors';
+import { GogoCDN, StreamSB, VidCloud, MixDrop, Kwik, RapidCloud, StreamTape } from './extractors';
 import {
   USER_AGENT,
   splitAuthor,
@@ -32,4 +32,6 @@ export {
   anilistMediaDetailQuery,
   kitsuSearchQuery,
   range,
+  RapidCloud,
+  StreamTape,
 };

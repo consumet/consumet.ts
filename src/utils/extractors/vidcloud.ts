@@ -1,6 +1,7 @@
 import axios from 'axios';
 import { load } from 'cheerio';
 import FormData from 'form-data';
+import WebSocket from 'ws';
 
 import { VideoExtractor, IVideo, ISubtitle, Intro } from '../../models';
 import { USER_AGENT } from '..';
@@ -11,7 +12,6 @@ class VidCloud extends VideoExtractor {
 
   private readonly host = 'https://mzzcloud.life';
   private readonly host2 = 'https://rabbitstream.net';
-  private readonly host3 = 'https://rapid-cloud.ru';
 
   override extract = async (
     videoUrl: URL,
@@ -31,19 +31,14 @@ class VidCloud extends VideoExtractor {
         },
       };
       let res = null;
-      if (videoUrl.href.includes('rapid-cloud.ru')) {
-        res = await axios.get(
-          `${this.host3}/ajax/embed-6/getSources?id=${id}&sId=zIlsAXDw5t76TRyfhrDY`,
-          options
-        );
-      } else {
-        res = await axios.get(
-          `${isAlternative ? this.host2 : this.host}/ajax/embed-4/getSources?id=${id}`,
-          options
-        );
-      }
+
+      res = await axios.get(
+        `${isAlternative ? this.host2 : this.host}/ajax/embed-4/getSources?id=${id}`,
+        options
+      );
+
       const {
-        data: { sources, tracks, intro },
+        data: { sources, tracks },
       } = res;
 
       this.sources = sources.map((s: any) => ({
@@ -53,69 +48,29 @@ class VidCloud extends VideoExtractor {
 
       result.sources.push(...this.sources);
 
-      if (videoUrl.href.includes(new URL(this.host3).host)) {
-        result.sources = [];
-        this.sources = [];
-        for (const source of sources) {
-          const { data } = await axios.get(source.file, options);
-          const m3u8data = data
-            .split('\n')
-            .filter((line: string) => line.includes('.m3u8') && line.includes('RESOLUTION='));
-          const secondHalf = m3u8data.map((line: string) =>
-            line.match(/(?<=RESOLUTION=).*(?<=,C)|(?<=URI=).*/g)
-          );
+      result.sources = [];
+      this.sources = [];
 
-          const TdArray = secondHalf.map((s: string[]) => {
-            const f1 = s[0].split(',C')[0];
-            const f2 = s[1].replace(/"/g, '');
+      for (const source of sources) {
+        const { data } = await axios.get(source.file, options);
+        const urls = data.split('\n').filter((line: string) => line.includes('.m3u8')) as string[];
+        const qualities = data.split('\n').filter((line: string) => line.includes('RESOLUTION=')) as string[];
 
-            return [f1, f2];
+        const TdArray = qualities.map((s, i) => {
+          const f1 = s.split('x')[1];
+          const f2 = urls[i];
+
+          return [f1, f2];
+        });
+
+        for (const [f1, f2] of TdArray) {
+          this.sources.push({
+            url: f2,
+            quality: f1,
+            isM3U8: f2.includes('.m3u8'),
           });
-          for (const [f1, f2] of TdArray) {
-            this.sources.push({
-              url: `${source.file?.split('master.m3u8')[0]}${f2.replace('iframes', 'index')}`,
-              quality: f1.split('x')[1] + 'p',
-              isM3U8: f2.includes('.m3u8'),
-            });
-          }
-          result.sources.push(...this.sources);
         }
-        if (intro.end > 1) {
-          result.intro = {
-            start: intro.start,
-            end: intro.end,
-          };
-        }
-      } else if (
-        videoUrl.href.includes(new URL(this.host2).host) ||
-        videoUrl.href.includes(new URL(this.host).host)
-      ) {
-        result.sources = [];
-        this.sources = [];
-
-        for (const source of sources) {
-          const { data } = await axios.get(source.file, options);
-          const urls = data.split('\n').filter((line: string) => line.includes('.m3u8')) as string[];
-          const qualities = data
-            .split('\n')
-            .filter((line: string) => line.includes('RESOLUTION=')) as string[];
-
-          const TdArray = qualities.map((s, i) => {
-            const f1 = s.split('x')[1];
-            const f2 = urls[i];
-
-            return [f1, f2];
-          });
-
-          for (const [f1, f2] of TdArray) {
-            this.sources.push({
-              url: f2,
-              quality: f1,
-              isM3U8: f2.includes('.m3u8'),
-            });
-          }
-          result.sources.push(...this.sources);
-        }
+        result.sources.push(...this.sources);
       }
 
       result.sources.push({

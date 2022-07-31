@@ -84,6 +84,15 @@ export enum StreamingServers {
   MixDrop = 'mixdrop',
   UpCloud = 'upcloud',
   VidCloud = 'vidcloud',
+  /**
+   * To use rapidcloud, you need to setup web socket connection with rapidcloud.
+   * the web socket server should be connected to `wss://ws1.rapid-cloud.ru/socket.io/?EIO=4&transport=websocket`.
+   * set a **message listener**, and inside the message listener, if you recieve a message equals to "2" send a "3".
+   * when the video is ready to play. send a "3".
+   * when the video stops playing close the web socket connection with the code `4969`.
+   */
+  RapidCloud = 'rapidcloud',
+  StreamTape = 'streamtape',
 }
 
 export enum MediaStatus {
