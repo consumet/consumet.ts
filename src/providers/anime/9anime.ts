@@ -374,10 +374,5 @@ class NineAnime extends AnimeParser {
     return res;
   }
 }
-(async () => {
-  const scraper = new NineAnime();
-  const res = await scraper.fetchEpisodeServers('155250');
-  console.log(res);
-})();
 
 export default NineAnime;

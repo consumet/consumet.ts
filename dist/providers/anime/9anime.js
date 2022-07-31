@@ -19,6 +19,7 @@ const models_1 = require("../../models");
 const utils_1 = require("../../utils");
 /**
  * @currntly only streamtape server works
+ * **Use at your own risk :)**
  */
 class NineAnime extends models_1.AnimeParser {
     constructor() {
@@ -326,10 +327,5 @@ class NineAnime extends models_1.AnimeParser {
         return res;
     }
 }
-(() => __awaiter(void 0, void 0, void 0, function* () {
-    const scraper = new NineAnime();
-    const res = yield scraper.fetchEpisodeServers('155250');
-    console.log(res);
-}))();
 exports.default = NineAnime;
 //# sourceMappingURL=9anime.js.map
