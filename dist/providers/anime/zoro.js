@@ -47,7 +47,7 @@ class Zoro extends models_1.AnimeParser {
                     const id = (_a = $(el)
                         .find('div:nth-child(1) > a.film-poster-ahref')
                         .attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[1].split('?')[0];
-                    const title = $(el).find('div:nth-child(2) > h3:nth-child(1) > a:nth-child(1)').text();
+                    const title = $(el).find('div.film-detail > h3.film-name > a.dynamic-name').attr('title');
                     // Movie, TV, OVA, ONA, Special, Music
                     const type = $(el).find('div:nth-child(2) > div:nth-child(2) > span:nth-child(1)').text();
                     const image = $(el).find('div:nth-child(1) > img.film-poster-img').attr('data-src');
@@ -117,12 +117,25 @@ class Zoro extends models_1.AnimeParser {
          *
          * @param episodeId Episode id
          */
-        this.fetchEpisodeSources = (episodeId, server = models_1.StreamingServers.VidCloud) => __awaiter(this, void 0, void 0, function* () {
+        this.fetchEpisodeSources = (episodeId, server = models_1.StreamingServers.RapidCloud) => __awaiter(this, void 0, void 0, function* () {
             if (episodeId.startsWith('http')) {
                 const serverUrl = new URL(episodeId);
                 switch (server) {
-                    case models_1.StreamingServers.VidCloud:
-                        return Object.assign({ headers: { Referer: serverUrl.href } }, (yield new utils_1.VidCloud().extract(serverUrl, true)));
+                    case models_1.StreamingServers.RapidCloud:
+                        return Object.assign({ headers: { Referer: serverUrl.href } }, (yield new utils_1.RapidCloud().extract(serverUrl)));
+                    case models_1.StreamingServers.StreamSB:
+                        return {
+                            headers: { Referer: serverUrl.href, watchsb: 'streamsb', 'User-Agent': utils_1.USER_AGENT },
+                            sources: yield new utils_1.StreamSB().extract(serverUrl, true),
+                        };
+                    case models_1.StreamingServers.StreamTape:
+                        return {
+                            headers: { Referer: serverUrl.href, 'User-Agent': utils_1.USER_AGENT },
+                            sources: yield new utils_1.StreamTape().extract(serverUrl),
+                        };
+                    default:
+                    case models_1.StreamingServers.RapidCloud:
+                        return Object.assign({ headers: { Referer: serverUrl.href } }, (yield new utils_1.RapidCloud().extract(serverUrl)));
                 }
             }
             if (!episodeId.includes('$episode$'))
@@ -137,19 +150,36 @@ class Zoro extends models_1.AnimeParser {
                 const $ = (0, cheerio_1.load)(data.html);
                 /**
                  * vidtreaming -> 4
-                 * vidcloud -> 1
+                 * rapidcloud  -> 1
                  * streamsb -> 5
                  * streamtape -> 3
                  */
                 let serverId = '';
                 switch (server) {
-                    case models_1.StreamingServers.VidCloud:
+                    case models_1.StreamingServers.RapidCloud:
                         serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
                             .map((i, el) => ($(el).attr('data-server-id') == '1' ? $(el) : null))
                             .get()[0]
                             .attr('data-id');
+                        // zoro's vidcloud server is rapidcloud
                         if (!serverId)
-                            throw new Error('VidCloud not found');
+                            throw new Error('RapidCloud not found');
+                        break;
+                    case models_1.StreamingServers.StreamSB:
+                        serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
+                            .map((i, el) => ($(el).attr('data-server-id') == '5' ? $(el) : null))
+                            .get()[0]
+                            .attr('data-id');
+                        if (!serverId)
+                            throw new Error('StreamSB not found');
+                        break;
+                    case models_1.StreamingServers.StreamTape:
+                        serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
+                            .map((i, el) => ($(el).attr('data-server-id') == '3' ? $(el) : null))
+                            .get()[0]
+                            .attr('data-id');
+                        if (!serverId)
+                            throw new Error('StreamTape not found');
                         break;
                 }
                 const { data: { link }, } = yield axios_1.default.get(`${this.baseUrl}/ajax/v2/episode/sources?id=${serverId}`);

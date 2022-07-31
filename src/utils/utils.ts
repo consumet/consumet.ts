@@ -62,6 +62,9 @@ export const genElement = (s: string, e: string) => {
   return el;
 };
 
+export const range = ({ from = 0, to = 0, step = 1, length = Math.ceil((to - from) / step) }) =>
+  Array.from({ length }, (_, i) => from + i * step);
+
 export const capitalizeFirstLetter = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 
 export const anilistSearchQuery = (query: string, page: number, perPage: number) =>

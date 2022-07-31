@@ -13,7 +13,7 @@ import {
   StreamingServers,
 } from '../../models';
 
-import { VidCloud } from '../../utils';
+import { StreamSB, USER_AGENT, RapidCloud, StreamTape } from '../../utils';
 
 class Zoro extends AnimeParser {
   override readonly name = 'Zoro';
@@ -52,7 +52,7 @@ class Zoro extends AnimeParser {
           .attr('href')
           ?.split('/')[1]
           .split('?')[0];
-        const title = $(el).find('div:nth-child(2) > h3:nth-child(1) > a:nth-child(1)').text();
+        const title = $(el).find('div.film-detail > h3.film-name > a.dynamic-name').attr('title')!;
         // Movie, TV, OVA, ONA, Special, Music
         const type = $(el).find('div:nth-child(2) > div:nth-child(2) > span:nth-child(1)').text();
         const image = $(el).find('div:nth-child(1) > img.film-poster-img').attr('data-src');
@@ -131,15 +131,31 @@ class Zoro extends AnimeParser {
    */
   override fetchEpisodeSources = async (
     episodeId: string,
-    server: StreamingServers = StreamingServers.VidCloud
+    server: StreamingServers = StreamingServers.RapidCloud
   ): Promise<ISource> => {
     if (episodeId.startsWith('http')) {
       const serverUrl = new URL(episodeId);
       switch (server) {
-        case StreamingServers.VidCloud:
+        case StreamingServers.RapidCloud:
           return {
             headers: { Referer: serverUrl.href },
-            ...(await new VidCloud().extract(serverUrl, true)),
+            ...(await new RapidCloud().extract(serverUrl)),
+          };
+        case StreamingServers.StreamSB:
+          return {
+            headers: { Referer: serverUrl.href, watchsb: 'streamsb', 'User-Agent': USER_AGENT },
+            sources: await new StreamSB().extract(serverUrl, true),
+          };
+        case StreamingServers.StreamTape:
+          return {
+            headers: { Referer: serverUrl.href, 'User-Agent': USER_AGENT },
+            sources: await new StreamTape().extract(serverUrl),
+          };
+        default:
+        case StreamingServers.RapidCloud:
+          return {
+            headers: { Referer: serverUrl.href },
+            ...(await new RapidCloud().extract(serverUrl)),
           };
       }
     }
@@ -160,19 +176,36 @@ class Zoro extends AnimeParser {
 
       /**
        * vidtreaming -> 4
-       * vidcloud -> 1
+       * rapidcloud  -> 1
        * streamsb -> 5
        * streamtape -> 3
        */
       let serverId = '';
       switch (server) {
-        case StreamingServers.VidCloud:
+        case StreamingServers.RapidCloud:
           serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
             .map((i, el) => ($(el).attr('data-server-id') == '1' ? $(el) : null))
             .get()[0]
             .attr('data-id')!;
 
-          if (!serverId) throw new Error('VidCloud not found');
+          // zoro's vidcloud server is rapidcloud
+          if (!serverId) throw new Error('RapidCloud not found');
+          break;
+        case StreamingServers.StreamSB:
+          serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
+            .map((i, el) => ($(el).attr('data-server-id') == '5' ? $(el) : null))
+            .get()[0]
+            .attr('data-id')!;
+
+          if (!serverId) throw new Error('StreamSB not found');
+          break;
+        case StreamingServers.StreamTape:
+          serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
+            .map((i, el) => ($(el).attr('data-server-id') == '3' ? $(el) : null))
+            .get()[0]
+            .attr('data-id')!;
+
+          if (!serverId) throw new Error('StreamTape not found');
           break;
       }
 

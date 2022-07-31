@@ -1,4 +1,4 @@
-import { GogoCDN, StreamSB, VidCloud, MixDrop, Kwik } from './extractors';
+import { GogoCDN, StreamSB, VidCloud, MixDrop, Kwik, RapidCloud, StreamTape, VizCloud } from './extractors';
 import {
   USER_AGENT,
   splitAuthor,
@@ -9,6 +9,7 @@ import {
   anilistSearchQuery,
   anilistMediaDetailQuery,
   kitsuSearchQuery,
+  range,
 } from './utils';
 import { parsePostInfo } from './getComics';
 import { countDivs } from './zLibrary';
@@ -30,4 +31,8 @@ export {
   anilistSearchQuery,
   anilistMediaDetailQuery,
   kitsuSearchQuery,
+  range,
+  RapidCloud,
+  StreamTape,
+  VizCloud,
 };
