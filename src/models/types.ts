@@ -93,6 +93,9 @@ export enum StreamingServers {
    */
   RapidCloud = 'rapidcloud',
   StreamTape = 'streamtape',
+  VizCloud = 'vizcloud',
+  // same as vidocloud
+  MyCloud = 'mycloud',
 }
 
 export enum MediaStatus {

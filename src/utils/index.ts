@@ -1,4 +1,4 @@
-import { GogoCDN, StreamSB, VidCloud, MixDrop, Kwik, RapidCloud, StreamTape } from './extractors';
+import { GogoCDN, StreamSB, VidCloud, MixDrop, Kwik, RapidCloud, StreamTape, VizCloud } from './extractors';
 import {
   USER_AGENT,
   splitAuthor,
@@ -34,4 +34,5 @@ export {
   range,
   RapidCloud,
   StreamTape,
+  VizCloud,
 };

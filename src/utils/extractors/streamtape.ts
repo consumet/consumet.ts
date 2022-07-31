@@ -9,7 +9,10 @@ class StreamTape extends VideoExtractor {
 
   override extract = async (videoUrl: URL): Promise<IVideo[]> => {
     try {
-      const { data } = await axios.get(videoUrl.href);
+      const { data } = await axios.get(videoUrl.href).catch(() => {
+        throw new Error('Video not found');
+      });
+
       const $ = load(data);
 
       let [fh, sh] = $.html()

@@ -14,7 +14,7 @@ import {
   ISource,
   StreamingServers,
 } from '../../models';
-import { range } from '../../utils';
+import { range, StreamTape, USER_AGENT, VizCloud } from '../../utils';
 
 /**
  * @deprecated
@@ -23,11 +23,9 @@ import { range } from '../../utils';
 class NineAnime extends AnimeParser {
   override readonly name = '9Anime';
   protected override baseUrl = 'https://9anime.to';
-
   protected override logo =
     'https://d1nxzqpcg2bym0.cloudfront.net/google_play/com.my.nineanime/87b2fe48-9c36-11eb-8292-21241b1c199b/128x128';
   protected override classPath = 'ANIME.NineAnime';
-
   override isWorking = false;
 
   private readonly table = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
@@ -67,7 +65,6 @@ class NineAnime extends AnimeParser {
             }
           })
           .get();
-        console.log(subs);
 
         searchResult.results.push({
           id: $(el).find('div > div.ani > a').attr('href')?.split('/')[2]!,
@@ -81,7 +78,6 @@ class NineAnime extends AnimeParser {
 
       return searchResult;
     } catch (err) {
-      console.error(err);
       throw new Error((err as Error).message);
     }
   }
@@ -200,25 +196,60 @@ class NineAnime extends AnimeParser {
     }
   }
 
-  override async fetchEpisodeSources(episodeId: string, server?: StreamingServers): Promise<ISource> {
-    // if (episodeId.startsWith(this.baseUrl.replace('.to', '.id'))) {
-
-    // }
+  override async fetchEpisodeSources(
+    episodeId: string,
+    server: StreamingServers = StreamingServers.StreamTape
+  ): Promise<ISource> {
+    if (episodeId.startsWith('http')) {
+      const serverUrl = new URL(episodeId);
+      switch (server) {
+        case StreamingServers.StreamTape:
+          return {
+            headers: { Referer: serverUrl.href, 'User-Agent': USER_AGENT },
+            sources: await new StreamTape().extract(serverUrl),
+          };
+        case StreamingServers.VizCloud:
+          return {
+            headers: { Referer: serverUrl.href, 'User-Agent': USER_AGENT },
+            sources: await new VizCloud().extract(serverUrl, this.cipher, this.encrypt),
+          };
+        case StreamingServers.MyCloud:
+          return {
+            headers: { Referer: serverUrl.href, 'User-Agent': USER_AGENT },
+            sources: await new VizCloud().extract(serverUrl, this.cipher, this.encrypt),
+          };
+      }
+    }
     try {
       const servers = await this.fetchEpisodeServers(episodeId);
 
-      const server = servers.find((s) => s.name === 'streamtape');
+      let s = servers.find((s) => s.name === server);
+      switch (server) {
+        case StreamingServers.VizCloud:
+          s = servers.find((s) => s.name === 'vidstream')!;
+          if (!s) throw new Error('Vidstream server found');
+          break;
+        case StreamingServers.StreamTape:
+          s = servers.find((s) => s.name === 'streamtape');
+          if (!s) throw new Error('Streamtape server found');
+          break;
+        case StreamingServers.MyCloud:
+          s = servers.find((s) => s.name === 'mycloud');
+          if (!s) throw new Error('Mycloud server found');
+          break;
+        default:
+          throw new Error('Server not found');
+      }
 
-      if (!server) throw new Error('Server not found');
-      // fix vrf
-      console.log(server.url);
       const {
-        data: { result: url },
-      } = await axios.get(server.url);
+        data: {
+          result: { url },
+        },
+      } = await axios.get(s.url);
 
-      return {
-        sources: [],
-      };
+      const iframe = this.dv(url);
+
+      return await this.fetchEpisodeSources(iframe, server);
     } catch (err) {
       throw new Error((err as Error).message);
     }
@@ -229,34 +260,31 @@ class NineAnime extends AnimeParser {
       episodeId = `${this.baseUrl.replace('.to', '.id')}/ajax/server/list/${episodeId}?vrf=${this.ev(
         episodeId
       )}`;
-    try {
-      const {
-        data: { result },
-      } = await axios.get(episodeId);
 
-      const $ = load(result);
+    const {
+      data: { result },
+    } = await axios.get(episodeId);
 
-      const servers: IEpisodeServer[] = [];
-      $('.type > ul > li').each((i, el) => {
-        const serverId = $(el).attr('data-link-id')!;
-        servers.push({
-          name: $(el).text().toLocaleLowerCase(),
-          url: `${this.baseUrl.replace('.to', '.id')}/ajax/server/${serverId}?vrf=${this.ev(serverId)}`,
-        });
+    const $ = load(result);
+
+    const servers: IEpisodeServer[] = [];
+    $('.type > ul > li').each((i, el) => {
+      const serverId = $(el).attr('data-link-id')!;
+      servers.push({
+        name: $(el).text().toLocaleLowerCase(),
+        url: `${this.baseUrl.replace('.to', '.id')}/ajax/server/${serverId}?vrf=${this.ev(serverId)}`,
       });
+    });
 
-      return servers;
-    } catch (err) {
-      throw new Error((err as Error).message);
-    }
+    return servers;
   }
 
   private ev(query: string): string {
-    return encode(this.encrypt(this.cipher(encode(query), this.key)).replace(/[=|+|$]/g, ''));
+    return encode(this.encrypt(this.cipher(encode(query), this.key), this.table).replace(/[=|$]/g, ''));
   }
 
   private dv(query: string): string {
-    return decode(this.cipher(this.key, this.decrypt(query)));
+    return decode(this.cipher(this.decrypt(query), this.key));
   }
 
   private cipher(query: string, key: string): string {
@@ -276,7 +304,7 @@ class NineAnime extends AnimeParser {
     let res = '';
     for (let i = 0; i < query.length; i++) {
       j = (j + 1) % 256;
-      u += arr[j] % 256;
+      u = (u + arr[j]) % 256;
       v = arr[j];
       arr[j] = arr[u];
       arr[u] = v;
@@ -285,35 +313,35 @@ class NineAnime extends AnimeParser {
     return res;
   }
 
-  private encrypt(query: string): string {
+  private encrypt(query: string, key: string): string {
     query.split('').forEach((char) => {
       if (char.charCodeAt(0) > 255) throw new Error('Invalid character.');
     });
+
     let res = '';
     for (let i = 0; i < query.length; i += 3) {
       const arr: number[] = Array(4).fill(-1);
       arr[0] = query.charCodeAt(i) >> 2;
       arr[1] = (3 & query.charCodeAt(i)) << 4;
 
-      if (i + 1 < query.length) {
-        arr[1] |= query.charCodeAt(i + 1) >> 4;
-        arr[2] = (query.charCodeAt(i + 1) & 15) << 2;
+      if (query.length > i + 1) {
+        arr[1] = arr[1] | (query.charCodeAt(i + 1) >> 4);
+        arr[2] = (15 & query.charCodeAt(i + 1)) << 2;
       }
-      if (i + 2 < query.length) {
-        arr[2] |= query.charCodeAt(i + 2) >> 6;
-        arr[3] = query.charCodeAt(i + 2) & 63;
+      if (query.length > i + 2) {
+        arr[2] = arr[2] | (query.charCodeAt(i + 2) >> 6);
+        arr[3] = 63 & query.charCodeAt(i + 2);
       }
 
       for (const j of arr) {
         if (j === -1) res += '=';
-        else if (range({ from: 0, to: 63 }).includes(j)) res += this.table.charAt(j);
+        else if (range({ from: 0, to: 63 }).includes(j)) res += key.charAt(j);
       }
     }
     return res;
   }
 
   private decrypt(query: string): string {
-    console.log(query);
     const p = query?.replace(/[\t\n\f\r]/g, '')?.length % 4 === 0 ? query?.replace(/[==|?|$]/g, '') : query;
 
     if (p?.length % 4 === 1 || /[^+/0-9A-Za-z]/gm.test(p)) throw new Error('Invalid character.');
@@ -323,15 +351,15 @@ class NineAnime extends AnimeParser {
     let e = 0;
     let n = 0;
     for (let j = 0; j < p?.length; j++) {
-      e <<= 6;
+      e = e << 6;
       i = this.table.indexOf(p[j]);
-      e |= i;
+      e = e | i;
       n += 6;
 
       if (n === 24) {
-        res += String.fromCharCode((e >> 16) & 16711680);
-        res += String.fromCharCode((e >> 8) & 65280);
-        res += String.fromCharCode(e & 255);
+        res += String.fromCharCode((16711680 & e) >> 16);
+        res += String.fromCharCode((65280 & e) >> 8);
+        res += String.fromCharCode(255 & e);
         n = 0;
         e = 0;
       }
@@ -339,19 +367,12 @@ class NineAnime extends AnimeParser {
 
     if (12 === n) return res + String.fromCharCode(e >> 4);
     else if (18 === n) {
-      e >>= 2;
-      res += String.fromCharCode((e >> 8) & 65280);
-      res += String.fromCharCode(e & 255);
+      e = e >> 2;
+      res += String.fromCharCode((65280 & e) >> 8);
+      res += String.fromCharCode(255 & e);
     }
     return res;
   }
 }
-
-(async () => {
-  const anime = new NineAnime();
-  const info = await anime.fetchAnimeInfo('bleach-sennen-kessen-hen.w190l');
-  const server = await anime.fetchEpisodeSources(info.episodes![0].id);
-  console.log(server);
-})();
 
 export default NineAnime;

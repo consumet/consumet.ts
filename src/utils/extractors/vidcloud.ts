@@ -1,7 +1,4 @@
 import axios from 'axios';
-import { load } from 'cheerio';
-import FormData from 'form-data';
-import WebSocket from 'ws';
 
 import { VideoExtractor, IVideo, ISubtitle, Intro } from '../../models';
 import { USER_AGENT } from '..';
