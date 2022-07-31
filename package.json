@@ -1,6 +1,6 @@
 {
     "name": "@consumet/extensions",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "description": "Nodejs library that provides high-level APIs for obtaining information on various entertainment media such as books, movies, comic books, anime, manga, and so on.",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -23,7 +23,18 @@
         "type": "git",
         "url": "git+https://github.com/consumet/consumet.ts.git"
     },
-    "keywords": [],
+    "keywords": [
+        "consumet",
+        "scraper",
+        "streaming",
+        "anime",
+        "books",
+        "comics",
+        "movies",
+        "manga",
+        "light-novels",
+        "meta"
+    ],
     "authors": [
         "https://github.com/riimuru",
         "https://github.com/prince-ao"
