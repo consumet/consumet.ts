@@ -1,22 +1,22 @@
-import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, IEpisodeServer, ISource } from '../../models';
+import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, IEpisodeServer, ISource, StreamingServers } from '../../models';
 /**
- * @deprecated
- * working on it...
+ * @currntly only streamtape server works
  */
 declare class NineAnime extends AnimeParser {
     readonly name = "9Anime";
     protected baseUrl: string;
     protected logo: string;
     protected classPath: string;
-    isWorking: boolean;
-    private readonly base64;
+    private readonly table;
+    private readonly key;
     search(query: string, page?: number): Promise<ISearch<IAnimeResult>>;
-    fetchAnimeInfo(animeUrl: string): Promise<IAnimeInfo>;
-    fetchEpisodeSources(episodeLink: string): Promise<ISource>;
-    fetchEpisodeServers(episodeLink: string): Promise<IEpisodeServer[]>;
-    private getVrf;
-    private cypher;
-    private cypherV2;
-    private cypherK;
+    fetchAnimeInfo(animeUrl: string, isDub?: boolean): Promise<IAnimeInfo>;
+    fetchEpisodeSources(episodeId: string, server?: StreamingServers): Promise<ISource>;
+    fetchEpisodeServers(episodeId: string): Promise<IEpisodeServer[]>;
+    private ev;
+    private dv;
+    private cipher;
+    private encrypt;
+    private decrypt;
 }
 export default NineAnime;

@@ -119,6 +119,10 @@ output:
 ```js
 {
   headers: { Referer: 'https://rapid-cloud.ru/embed-6/hMN2fYuGi1E2?z=' },
+  intro: {
+    start: 0,
+    end: 100
+  }
   sources: [
     {
       url: 'https://c-an-ca3.betterstream.cc:2223/v2-hls-playback/584bca0a36f1cfe0153bc80d79d62f9171c193441d424b2804000153234bb744f6eb7197bd91842408660ab8516c67f5ad565acd0d18e9b565c6abf2b5c0e55879ca70bef239d78711bf0845ddb6005baf5a5e957a17efc7bb6f1b4f3a87fb3723cfc56a1330960ec99ce338d86d49211bc6e8c2830d50842034ed99335c654529d2b0ca1e19045357a6b01876ae12ea313473387cb8c5272b37c7ba8a2bbc3b185c0cc72517ee0237ce673914ac3e54/index-f1-v1-a1.m3u8',

@@ -17,8 +17,8 @@ import {
 import { range, StreamTape, USER_AGENT, VizCloud } from '../../utils';
 
 /**
- * @deprecated
- * working on it...
+ * @currntly only streamtape server works
+ * **Use at your own risk :)**
  */
 class NineAnime extends AnimeParser {
   override readonly name = '9Anime';
@@ -26,7 +26,6 @@ class NineAnime extends AnimeParser {
   protected override logo =
     'https://d1nxzqpcg2bym0.cloudfront.net/google_play/com.my.nineanime/87b2fe48-9c36-11eb-8292-21241b1c199b/128x128';
   protected override classPath = 'ANIME.NineAnime';
-  override isWorking = false;
 
   private readonly table = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
   private readonly key = 'rTKp3auwu0ULA6II';
@@ -48,11 +47,12 @@ class NineAnime extends AnimeParser {
 
       const $ = load(res.data);
 
-      searchResult.hasNextPage = $(`ul.pagination`)
-        ? $('ul.pagination > li').last().hasClass('disabled')
-          ? false
-          : true
-        : false;
+      searchResult.hasNextPage =
+        $(`ul.pagination`).length > 0
+          ? $('ul.pagination > li').last().hasClass('disabled')
+            ? false
+            : true
+          : false;
 
       $('#list-items > div.item').each((i, el) => {
         const subs = $(el)
@@ -280,7 +280,7 @@ class NineAnime extends AnimeParser {
   }
 
   private ev(query: string): string {
-    return encode(this.encrypt(this.cipher(encode(query), this.key), this.table).replace(/[=|$]/g, ''));
+    return this.encrypt(this.cipher(encode(query), this.key), this.table).replace(/[=|$]/gm, '');
   }
 
   private dv(query: string): string {
@@ -374,5 +374,10 @@ class NineAnime extends AnimeParser {
     return res;
   }
 }
+(async () => {
+  const scraper = new NineAnime();
+  const res = await scraper.fetchEpisodeServers('155250');
+  console.log(res);
+})();
 
 export default NineAnime;

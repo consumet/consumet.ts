@@ -74,7 +74,18 @@ export declare enum StreamingServers {
     StreamSB = "streamsb",
     MixDrop = "mixdrop",
     UpCloud = "upcloud",
-    VidCloud = "vidcloud"
+    VidCloud = "vidcloud",
+    /**
+     * To use rapidcloud, you need to setup web socket connection with rapidcloud.\
+     * connect the web socket server to `wss://ws1.rapid-cloud.ru/socket.io/?EIO=4&transport=websocket`. then
+     * set a **message listener**, and inside the message listener, if you recieve a message equals to "2" send a "3".
+     * when the video is ready to play. send a "3".
+     * when the video stops playing close the web socket connection with the code `4969`.
+     */
+    RapidCloud = "rapidcloud",
+    StreamTape = "streamtape",
+    VizCloud = "vizcloud",
+    MyCloud = "mycloud"
 }
 export declare enum MediaStatus {
     ONGOING = "Ongoing",
@@ -86,7 +97,8 @@ export declare enum MediaStatus {
 }
 export declare enum SubOrSub {
     SUB = "sub",
-    DUB = "dub"
+    DUB = "dub",
+    BOTH = "both"
 }
 export interface IMangaResult {
     id: string;

@@ -1,13 +1,14 @@
 import { VideoExtractor, IVideo, ISubtitle } from '../../models';
-declare class VidCloud extends VideoExtractor {
+declare class RapidCloud extends VideoExtractor {
     protected serverName: string;
     protected sources: IVideo[];
     private readonly host;
-    private readonly host2;
-    extract: (videoUrl: URL, isAlternative?: boolean) => Promise<{
+    extract: (videoUrl: URL) => Promise<{
         sources: IVideo[];
     } & {
         subtitles: ISubtitle[];
     }>;
+    private captcha;
+    private wss;
 }
-export default VidCloud;
+export default RapidCloud;
