@@ -14,7 +14,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const axios_1 = __importDefault(require("axios"));
 const cheerio_1 = require("cheerio");
-const ws_1 = __importDefault(require("ws"));
 const models_1 = require("../../models");
 const __1 = require("..");
 class RapidCloud extends models_1.VideoExtractor {
@@ -23,6 +22,7 @@ class RapidCloud extends models_1.VideoExtractor {
         this.serverName = 'RapidCloud';
         this.sources = [];
         this.host = 'https://rapid-cloud.ru';
+        this.enimeApi = 'https://api.enime.moe';
         this.extract = (videoUrl) => __awaiter(this, void 0, void 0, function* () {
             var _a, _b;
             const result = {
@@ -49,7 +49,7 @@ class RapidCloud extends models_1.VideoExtractor {
                     .substring(html.indexOf('recaptchaNumber ='), html.lastIndexOf(';'))
                     .split(' = ')[1]
                     .replace(/\'/g, '');
-                const sId = yield this.wss();
+                const { data: sId } = yield axios_1.default.get(`${this.enimeApi}/tool/rapid-cloud/server-id`);
                 const _token = yield this.captcha(videoUrl.href, key);
                 res = yield axios_1.default.get(`${this.host}/ajax/embed-6/getSources?id=${id}&sId=${sId}&_number=${_number}&_token=${_token}`, options);
                 const { data: { sources, tracks, intro }, } = res;
@@ -130,23 +130,23 @@ class RapidCloud extends models_1.VideoExtractor {
             });
             return res.data.substring(res.data.indexOf('rresp","'), res.data.lastIndexOf('",null'));
         });
-        this.wss = () => __awaiter(this, void 0, void 0, function* () {
-            let sId = '';
-            const ws = new ws_1.default('wss://ws1.rapid-cloud.ru/socket.io/?EIO=4&transport=websocket');
-            ws.on('open', () => {
-                ws.send('40');
-            });
-            return yield new Promise((resolve, reject) => {
-                ws.on('message', (data) => {
-                    data = data.toString();
-                    if (data === null || data === void 0 ? void 0 : data.startsWith('40')) {
-                        sId = JSON.parse(data.split('40')[1]).sid;
-                        ws.close(4969, "I'm a teapot");
-                        resolve(sId);
-                    }
-                });
-            });
-        });
+        // private wss = async (): Promise<string> => {
+        //   let sId = '';
+        //   const ws = new WebSocket('wss://ws1.rapid-cloud.ru/socket.io/?EIO=4&transport=websocket');
+        //   ws.on('open', () => {
+        //     ws.send('40');
+        //   });
+        //   return await new Promise((resolve, reject) => {
+        //     ws.on('message', (data: string) => {
+        //       data = data.toString();
+        //       if (data?.startsWith('40')) {
+        //         sId = JSON.parse(data.split('40')[1]).sid;
+        //         ws.close(4969, "I'm a teapot");
+        //         resolve(sId);
+        //       }
+        //     });
+        //   });
+        // };
     }
 }
 exports.default = RapidCloud;

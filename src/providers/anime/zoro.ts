@@ -138,7 +138,6 @@ class Zoro extends AnimeParser {
       switch (server) {
         case StreamingServers.RapidCloud:
           return {
-            headers: { Referer: serverUrl.href },
             ...(await new RapidCloud().extract(serverUrl)),
           };
         case StreamingServers.StreamSB:

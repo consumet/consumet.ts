@@ -24,9 +24,7 @@ class AnimePahe extends AnimeParser {
    */
   override search = async (query: string): Promise<ISearch<IAnimeResult>> => {
     try {
-      const { data } = await axios.get(
-        `${this.baseUrl}/api?m=search&q=${encodeURIComponent(query)}`
-      );
+      const { data } = await axios.get(`${this.baseUrl}/api?m=search&q=${encodeURIComponent(query)}`);
 
       const res = {
         results: data.data.map((item: any) => ({
@@ -62,9 +60,7 @@ class AnimePahe extends AnimeParser {
 
       animeInfo.title = $('div.header-wrapper > header > div > h1 > span').text();
       animeInfo.image = $('header > div > div > div > a > img').attr('data-src');
-      animeInfo.cover = `https:${$('body > section > article > div.header-wrapper > div').attr(
-        'data-src'
-      )}`;
+      animeInfo.cover = `https:${$('body > section > article > div.header-wrapper > div').attr('data-src')}`;
       animeInfo.description = $('div.col-sm-8.anime-summary > div').text();
       animeInfo.genres = $('div.col-sm-4.anime-info > div > ul > li')
         .map((i, el) => $(el).find('a').attr('title'))
@@ -172,10 +168,8 @@ class AnimePahe extends AnimeParser {
   };
 
   private fetchEpisodes = async (id: string, page: number): Promise<IAnimeEpisode[]> => {
-    const res = await axios.get(
-      `${this.baseUrl}/api?m=release&id=${id}&sort=episode_asc&page=${page}`
-    );
-    console.log(`${this.baseUrl}/api?m=release&id=${id}&sort=episode_asc&page=${page}`);
+    const res = await axios.get(`${this.baseUrl}/api?m=release&id=${id}&sort=episode_asc&page=${page}`);
+
     const epData = res.data.data;
 
     return [

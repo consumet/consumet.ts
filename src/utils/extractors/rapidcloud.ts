@@ -10,6 +10,7 @@ class RapidCloud extends VideoExtractor {
   protected override sources: IVideo[] = [];
 
   private readonly host = 'https://rapid-cloud.ru';
+  private readonly enimeApi = 'https://api.enime.moe';
 
   override extract = async (videoUrl: URL): Promise<{ sources: IVideo[] } & { subtitles: ISubtitle[] }> => {
     const result: { sources: IVideo[]; subtitles: ISubtitle[]; intro?: Intro } = {
@@ -38,7 +39,7 @@ class RapidCloud extends VideoExtractor {
         .split(' = ')[1]
         .replace(/\'/g, '');
 
-      const sId = await this.wss();
+      const { data: sId } = await axios.get(`${this.enimeApi}/tool/rapid-cloud/server-id`);
 
       const _token = await this.captcha(videoUrl.href, key);
 
@@ -149,26 +150,26 @@ class RapidCloud extends VideoExtractor {
     return res.data.substring(res.data.indexOf('rresp","'), res.data.lastIndexOf('",null'));
   };
 
-  private wss = async (): Promise<string> => {
-    let sId = '';
+  // private wss = async (): Promise<string> => {
+  //   let sId = '';
 
-    const ws = new WebSocket('wss://ws1.rapid-cloud.ru/socket.io/?EIO=4&transport=websocket');
+  //   const ws = new WebSocket('wss://ws1.rapid-cloud.ru/socket.io/?EIO=4&transport=websocket');
 
-    ws.on('open', () => {
-      ws.send('40');
-    });
+  //   ws.on('open', () => {
+  //     ws.send('40');
+  //   });
 
-    return await new Promise((resolve, reject) => {
-      ws.on('message', (data: string) => {
-        data = data.toString();
-        if (data?.startsWith('40')) {
-          sId = JSON.parse(data.split('40')[1]).sid;
-          ws.close(4969, "I'm a teapot");
-          resolve(sId);
-        }
-      });
-    });
-  };
+  //   return await new Promise((resolve, reject) => {
+  //     ws.on('message', (data: string) => {
+  //       data = data.toString();
+  //       if (data?.startsWith('40')) {
+  //         sId = JSON.parse(data.split('40')[1]).sid;
+  //         ws.close(4969, "I'm a teapot");
+  //         resolve(sId);
+  //       }
+  //     });
+  //   });
+  // };
 }
 
 export default RapidCloud;

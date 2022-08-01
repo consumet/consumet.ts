@@ -151,7 +151,6 @@ class AnimePahe extends models_1.AnimeParser {
         });
         this.fetchEpisodes = (id, page) => __awaiter(this, void 0, void 0, function* () {
             const res = yield axios_1.default.get(`${this.baseUrl}/api?m=release&id=${id}&sort=episode_asc&page=${page}`);
-            console.log(`${this.baseUrl}/api?m=release&id=${id}&sort=episode_asc&page=${page}`);
             const epData = res.data.data;
             return [
                 ...epData.map((item) => ({
