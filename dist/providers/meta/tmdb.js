@@ -1,35 +1,44 @@
 "use strict";
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
 Object.defineProperty(exports, "__esModule", { value: true });
-// class Tmdb extends MovieParser {
-//   override readonly name = 'FlixHQ';
-//   protected override baseUrl = 'https://flixhq.to';
-//   protected override logo =
-//     'https://img.flixhq.to/xxrz/400x400/100/ab/5f/ab5f0e1996cc5b71919e10e910ad593e/ab5f0e1996cc5b71919e10e910ad593e.png';
-//   protected override classPath = 'MOVIES.FlixHQ';
-//   protected override supportedTypes = new Set([TvType.MOVIE, TvType.TVSERIES]);
-//   /**
-//    *
-//    * @param query search query string
-//    * @param page page number (default 1) (optional)
-//    */
-//   override search = async (query: string, page: number = 1): Promise<ISearch<IMovieResult>> => {};
-//   /**
-//    *
-//    * @param mediaId media link or id
-//    */
-//   override fetchMediaInfo = async (mediaId: string): Promise<IMovieInfo> => {};
-//   /**
-//    *
-//    * @param episodeId episode id
-//    * @param mediaId media id
-//    * @param server server type (default `VidCloud`) (optional)
-//    */
-//   override fetchEpisodeSources = async () => {};
-//   /**
-//    *
-//    * @param episodeId takes episode link or movie id
-//    * @param mediaId takes movie link or id (found on movie info object)
-//    */
-//   override fetchEpisodeServers = async (episodeId: string, mediaId: string): Promise<IEpisodeServer[]> => {};
-// }
+const models_1 = require("../../models");
+class Tmdb extends models_1.MovieParser {
+    constructor(provider) {
+        super();
+        this.name = 'Tmbd';
+        this.baseUrl = 'https://www.themoviedb.org/';
+        this.logo = 'https://img.flixhq.to/xxrz/400x400/100/ab/5f/ab5f0e1996cc5b71919e10e910ad593e/ab5f0e1996cc5b71919e10e910ad593e.png';
+        this.classPath = 'MOVIES.FlixHQ';
+        this.supportedTypes = new Set([models_1.TvType.MOVIE, models_1.TvType.TVSERIES, models_1.TvType.ANIME]);
+        this.search = (query, page = 1) => __awaiter(this, void 0, void 0, function* () {
+            throw new Error('Method not implemented.');
+        });
+        this.fetchMediaInfo = (mediaId) => __awaiter(this, void 0, void 0, function* () {
+            throw new Error('Not implemented');
+        });
+        /**
+         * @param id media id (anime or movie/tv)
+         * @param args optional arguments
+         */
+        this.fetchEpisodeSources = (id, ...args) => __awaiter(this, void 0, void 0, function* () {
+            return this.provider.fetchEpisodeSources(id, ...args);
+        });
+        /**
+         * @param episodeId episode id
+         * @param args optional arguments
+         **/
+        this.fetchEpisodeServers = (episodeId, ...args) => __awaiter(this, void 0, void 0, function* () {
+            return this.provider.fetchEpisodeServers(episodeId, ...args);
+        });
+        this.provider = provider;
+    }
+}
 //# sourceMappingURL=tmdb.js.map

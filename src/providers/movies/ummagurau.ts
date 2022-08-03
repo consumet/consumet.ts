@@ -1,6 +1,14 @@
 import { load } from 'cheerio';
 import axios from 'axios';
-import { IMovieInfo, IMovieResult, ISearch, MovieParser, TvType } from '../../models';
+import {
+  IEpisodeServer,
+  IMovieInfo,
+  IMovieResult,
+  ISearch,
+  ISource,
+  MovieParser,
+  TvType,
+} from '../../models';
 
 const { get } = axios;
 
@@ -9,7 +17,7 @@ class Ummangurau extends MovieParser {
   protected override baseUrl = 'https://www1.ummagurau.com';
   protected override logo = 'https://www1.ummagurau.com/images/group_1/theme_8/logo.png?v=0.1';
   protected override classPath = `MOVIES.${this.name}`;
-  protected override supportedTypes = new Set([TvType.MOVIE, TvType.TVSERIES]);
+  override supportedTypes = new Set([TvType.MOVIE, TvType.TVSERIES]);
 
   override search = async (query: string, page: number = 1) => {
     const searchResult: ISearch<IMovieResult> = {
@@ -18,9 +26,7 @@ class Ummangurau extends MovieParser {
       results: [],
     };
     try {
-      const { data } = await get(
-        `${this.baseUrl}/search/${query.replace(/[\W_]+/g, '-')}?page=${page}`
-      );
+      const { data } = await get(`${this.baseUrl}/search/${query.replace(/[\W_]+/g, '-')}?page=${page}`);
 
       const $ = load(data);
 
@@ -78,11 +84,11 @@ class Ummangurau extends MovieParser {
     }
   };
 
-  override fetchEpisodeServers(mediaLink: string, ...args: any): Promise<unknown> {
+  override fetchEpisodeServers(mediaLink: string, ...args: any): Promise<IEpisodeServer[]> {
     throw new Error('Method not implemented.');
   }
 
-  protected override fetchEpisodeSources(mediaId: string, ...args: any): Promise<unknown> {
+  override fetchEpisodeSources(mediaId: string, ...args: any): Promise<ISource> {
     throw new Error('Method not implemented.');
   }
 }

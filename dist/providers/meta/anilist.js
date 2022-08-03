@@ -282,10 +282,5 @@ class Anilist extends models_1.AnimeParser {
         this.provider = provider || new gogoanime_1.default();
     }
 }
-(() => __awaiter(void 0, void 0, void 0, function* () {
-    const mal = new Anilist();
-    const res = yield mal.search('One Piece');
-    console.log(res);
-}))();
 exports.default = Anilist;
 //# sourceMappingURL=anilist.js.map

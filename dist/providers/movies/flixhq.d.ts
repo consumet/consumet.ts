@@ -4,7 +4,7 @@ declare class FlixHQ extends MovieParser {
     protected baseUrl: string;
     protected logo: string;
     protected classPath: string;
-    protected supportedTypes: Set<TvType>;
+    supportedTypes: Set<TvType>;
     /**
      *
      * @param query search query string

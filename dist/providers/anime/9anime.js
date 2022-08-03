@@ -29,7 +29,7 @@ class NineAnime extends models_1.AnimeParser {
         this.logo = 'https://d1nxzqpcg2bym0.cloudfront.net/google_play/com.my.nineanime/87b2fe48-9c36-11eb-8292-21241b1c199b/128x128';
         this.classPath = 'ANIME.NineAnime';
         this.table = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
-        this.key = 'rTKp3auwu0ULA6II';
+        this.key = 'kMXzgyNzT3k5dYab';
     }
     search(query, page = 1) {
         return __awaiter(this, void 0, void 0, function* () {
@@ -39,7 +39,7 @@ class NineAnime extends models_1.AnimeParser {
                 results: [],
             };
             try {
-                const res = yield axios_1.default.get(`${this.baseUrl.replace('.to', '.id')}/filter?keyword=${(0, ascii_url_encoder_1.encode)(query).replace(/%20/g, '+')}&vrf=${this.ev(query)}&page=${page}`);
+                const res = yield axios_1.default.get(`${this.baseUrl.replace('.to', '.id')}/filter?keyword=${(0, ascii_url_encoder_1.encode)(query).replace(/%20/g, '+')}&vrf=${(0, ascii_url_encoder_1.encode)(this.ev(query))}&page=${page}`);
                 const $ = (0, cheerio_1.load)(res.data);
                 searchResult.hasNextPage =
                     $(`ul.pagination`).length > 0
@@ -136,10 +136,10 @@ class NineAnime extends models_1.AnimeParser {
                     .trim());
                 animeInfo.otherNames = $('.names')
                     .text()
-                    .split(';')
+                    .split('; ')
                     .map((name) => name === null || name === void 0 ? void 0 : name.trim());
                 const id = $('#watch-main').attr('data-id');
-                const { data: { result }, } = yield axios_1.default.get(`${this.baseUrl.replace('.to', '.id')}/ajax/episode/list/${id}?vrf=${this.ev(id)}`);
+                const { data: { result }, } = yield axios_1.default.get(`${this.baseUrl.replace('.to', '.id')}/ajax/episode/list/${id}?vrf=${(0, ascii_url_encoder_1.encode)(this.ev(id))}`);
                 const $$ = (0, cheerio_1.load)(result);
                 animeInfo.totalEpisodes = $$('div.episodes > ul > li > a').length;
                 animeInfo.episodes = [];
@@ -214,7 +214,7 @@ class NineAnime extends models_1.AnimeParser {
                         throw new Error('Server not found');
                 }
                 const { data: { result: { url }, }, } = yield axios_1.default.get(s.url);
-                const iframe = this.dv(url);
+                const iframe = (0, ascii_url_encoder_1.decode)(this.dv(url));
                 return yield this.fetchEpisodeSources(iframe, server);
             }
             catch (err) {
@@ -224,6 +224,7 @@ class NineAnime extends models_1.AnimeParser {
     }
     fetchEpisodeServers(episodeId) {
         return __awaiter(this, void 0, void 0, function* () {
+            episodeId = episodeId + ',123551';
             if (!episodeId.startsWith(this.baseUrl.replace('.to', '.id')))
                 episodeId = `${this.baseUrl.replace('.to', '.id')}/ajax/server/list/${episodeId}?vrf=${this.ev(episodeId)}`;
             const { data: { result }, } = yield axios_1.default.get(episodeId);
@@ -233,17 +234,17 @@ class NineAnime extends models_1.AnimeParser {
                 const serverId = $(el).attr('data-link-id');
                 servers.push({
                     name: $(el).text().toLocaleLowerCase(),
-                    url: `${this.baseUrl.replace('.to', '.id')}/ajax/server/${serverId}?vrf=${this.ev(serverId)}`,
+                    url: `${this.baseUrl.replace('.to', '.id')}/ajax/server/${serverId}?vrf=${(0, ascii_url_encoder_1.encode)(this.ev(serverId))}`,
                 });
             });
             return servers;
         });
     }
     ev(query) {
-        return this.encrypt(this.cipher((0, ascii_url_encoder_1.encode)(query), this.key), this.table).replace(/[=|$]/gm, '');
+        return this.encrypt(this.cipher((0, ascii_url_encoder_1.encode)(query), this.key), this.table);
     }
     dv(query) {
-        return (0, ascii_url_encoder_1.decode)(this.cipher(this.decrypt(query), this.key));
+        return this.cipher(this.decrypt(query), this.key);
     }
     cipher(query, key) {
         let u = 0;
@@ -289,7 +290,7 @@ class NineAnime extends models_1.AnimeParser {
             for (const j of arr) {
                 if (j === -1)
                     res += '=';
-                else if ((0, utils_1.range)({ from: 0, to: 63 }).includes(j))
+                else if ((0, utils_1.range)({ from: 0, to: 64 }).includes(j))
                     res += key.charAt(j);
             }
         }
@@ -327,5 +328,11 @@ class NineAnime extends models_1.AnimeParser {
         return res;
     }
 }
+(() => __awaiter(void 0, void 0, void 0, function* () {
+    const scraper = new NineAnime();
+    const res = yield scraper.search('Steins;Gate 0');
+    const episode = yield scraper.fetchAnimeInfo(res.results[0].id);
+    const lnks = yield scraper.fetchEpisodeSources(episode.episodes[0].id, models_1.StreamingServers.VizCloud);
+}))();
 exports.default = NineAnime;
 //# sourceMappingURL=9anime.js.map

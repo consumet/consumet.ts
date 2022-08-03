@@ -19,7 +19,7 @@ class FlixHQ extends MovieParser {
   protected override logo =
     'https://img.flixhq.to/xxrz/400x400/100/ab/5f/ab5f0e1996cc5b71919e10e910ad593e/ab5f0e1996cc5b71919e10e910ad593e.png';
   protected override classPath = 'MOVIES.FlixHQ';
-  protected override supportedTypes = new Set([TvType.MOVIE, TvType.TVSERIES]);
+  override supportedTypes = new Set([TvType.MOVIE, TvType.TVSERIES]);
 
   /**
    *
