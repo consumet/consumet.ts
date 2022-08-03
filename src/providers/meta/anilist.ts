@@ -331,10 +331,4 @@ class Anilist extends AnimeParser {
   };
 }
 
-(async () => {
-  const mal = new Anilist();
-  const res = await mal.search('One Piece');
-  console.log(res);
-})();
-
 export default Anilist;
