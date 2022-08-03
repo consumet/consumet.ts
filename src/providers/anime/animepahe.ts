@@ -53,11 +53,17 @@ class AnimePahe extends AnimeParser {
       title: '',
     };
 
+    if (id.includes('-')) id = `${this.baseUrl}/anime/${id}`;
+    else id = `${this.baseUrl}/a/${id}`;
+
     try {
-      const res = await axios.get(`${this.baseUrl}/anime/${id}`);
+      const res = await axios.get(id);
 
       const $ = load(res.data);
 
+      const tempId = $('head > meta[property="og:url"]').attr('content')!.split('/').pop()!;
+
+      animeInfo.id = $('head > meta[name="id"]').attr('content')!;
       animeInfo.title = $('div.header-wrapper > header > div > h1 > span').text();
       animeInfo.image = $('header > div > div > div > a > img').attr('data-src');
       animeInfo.cover = `https:${$('body > section > article > div.header-wrapper > div').attr('data-src')}`;
@@ -100,7 +106,7 @@ class AnimePahe extends AnimeParser {
       if (episodePage < 0) {
         const {
           data: { last_page, data },
-        } = await axios.get(`${this.baseUrl}/api?m=release&id=${id}&sort=episode_asc&page=1`);
+        } = await axios.get(`${this.baseUrl}/api?m=release&id=${tempId}&sort=episode_asc&page=1`);
 
         animeInfo.episodePages = last_page;
 
@@ -118,10 +124,10 @@ class AnimePahe extends AnimeParser {
         );
 
         for (let i = 1; i < last_page; i++) {
-          animeInfo.episodes.push(...(await this.fetchEpisodes(id, i + 1)));
+          animeInfo.episodes.push(...(await this.fetchEpisodes(tempId, i + 1)));
         }
       } else {
-        animeInfo.episodes.push(...(await this.fetchEpisodes(id, episodePage)));
+        animeInfo.episodes.push(...(await this.fetchEpisodes(tempId, episodePage)));
       }
 
       return animeInfo;

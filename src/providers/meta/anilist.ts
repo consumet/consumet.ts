@@ -22,10 +22,11 @@ class Anilist extends AnimeParser {
 
   private readonly anilistGraphqlUrl = 'https://graphql.anilist.co';
   private readonly kitsuGraphqlUrl = 'https://kitsu.io/api/graphql';
+  private readonly malSyncUrl = 'https://api.malsync.moe';
   private provider: AnimeParser;
 
   /**
-   * This class maps anilist to kitsu, and anime provider
+   * This class maps anilist to kitsu with any other anime provider.
    * @param provider anime provider (optional) default: Gogoanime
    */
   constructor(provider?: AnimeParser) {
@@ -59,6 +60,7 @@ class Anilist extends AnimeParser {
         hasNextPage: data.data.Page.pageInfo.hasNextPage,
         results: data.data.Page.media.map((item: any) => ({
           id: item.id.toString(),
+          malId: item.idMal,
           title:
             {
               romaji: item.title.romaji,
@@ -97,15 +99,21 @@ class Anilist extends AnimeParser {
     };
 
     try {
-      const { data } = await axios.post(this.anilistGraphqlUrl, options);
-      animeInfo.malId = data.data.Media.idMal.toString();
+      const { data } = await axios.post(this.anilistGraphqlUrl, options).catch(() => {
+        throw new Error('Media not found');
+      });
+      animeInfo.malId = data.data.Media.idMal;
       animeInfo.title = {
         romaji: data.data.Media.title.romaji,
         english: data.data.Media.title.english,
         native: data.data.Media.title.native,
         userPreferred: data.data.Media.title.userPreferred,
       };
-
+      animeInfo.trailer = {
+        id: data.data.Media.trailer?.id,
+        site: data.data.Media.trailer?.site,
+        thumbnail: data.data.Media.trailer?.thumbnail,
+      };
       animeInfo.image =
         data.data.Media.coverImage.large ??
         data.data.Media.coverImage.medium ??
@@ -141,7 +149,8 @@ class Anilist extends AnimeParser {
       const possibleAnimeEpisodes = await this.findAnime(
         { english: animeInfo.title?.english!, romaji: animeInfo.title?.romaji! },
         data.data.Media.season!,
-        data.data.Media.startDate.year
+        data.data.Media.startDate.year,
+        animeInfo.malId as number
       );
 
       if (possibleAnimeEpisodes) {
@@ -187,7 +196,8 @@ class Anilist extends AnimeParser {
   private findAnime = async (
     title: { romaji: string; english: string },
     season: string,
-    startDate: number
+    startDate: number,
+    malId: number
   ): Promise<IAnimeEpisode[]> => {
     title.english = title.english || title.romaji;
     title.romaji = title.romaji || title.english;
@@ -196,34 +206,55 @@ class Anilist extends AnimeParser {
     title.romaji = title.romaji.toLocaleLowerCase();
 
     if (title.english === title.romaji) {
-      return await this.findAnimeSlug(title.english, season, startDate);
+      return await this.findAnimeSlug(title.english, season, startDate, malId);
     }
 
-    const romajiAnime = this.findAnimeSlug(title.romaji, season, startDate);
-    const englishAnime = this.findAnimeSlug(title.english, season, startDate);
+    const romajiPossibleEpisodes = this.findAnimeSlug(title.romaji, season, startDate, malId);
 
-    const episodes = await Promise.all([englishAnime, romajiAnime]).then((r) =>
-      r[0].length > 0 ? r[0] : r[1]
-    );
+    if (romajiPossibleEpisodes) {
+      return romajiPossibleEpisodes;
+    }
 
-    return episodes;
+    const englishPossibleEpisodes = this.findAnimeSlug(title.english, season, startDate, malId);
+    return englishPossibleEpisodes;
   };
 
   private findAnimeSlug = async (
     title: string,
     season: string,
-    startDate: number
+    startDate: number,
+    malId: number
   ): Promise<IAnimeEpisode[]> => {
     const slug = title.replace(/[^0-9a-zA-Z]+/g, ' ');
 
-    const findAnime = (await this.provider.search(slug)) as ISearch<IAnimeResult>;
+    let possibleAnime: any;
 
-    if (findAnime.results.length === 0) return [];
+    if (malId) {
+      const malAsyncReq = await axios({
+        method: 'GET',
+        url: `${this.malSyncUrl}/mal/anime/${malId}`,
+        validateStatus: () => true,
+      });
 
-    const possibleAnime = (await this.provider.fetchAnimeInfo(findAnime.results[0].id)) as IAnimeInfo;
+      if (malAsyncReq.status === 200) {
+        const sitesT = malAsyncReq.data.Sites as {
+          [k: string]: { [k: string]: { url: string; page: string } };
+        };
+        const sites = Object.values(sitesT).map((v, i) => ({
+          page: Object.values(Object.values(sitesT)[i])[0]?.page,
+          url: Object.values(Object.values(sitesT)[i])[0]?.url,
+        }));
+
+        const possibleSource = sites.find(
+          (s) => s.page.toLocaleLowerCase() === this.provider.name.toLocaleLowerCase()
+        );
+        if (possibleSource)
+          possibleAnime = await this.provider.fetchAnimeInfo(possibleSource.url.split('/').pop()!);
+        else possibleAnime = await this.findAnimeRaw(slug);
+      } else possibleAnime = await this.findAnimeRaw(slug);
+    } else possibleAnime = await this.findAnimeRaw(slug);
 
     const possibleProviderEpisodes = possibleAnime.episodes;
-
     const options = {
       headers: { 'Content-Type': 'application/json' },
       query: kitsuSearchQuery(slug),
@@ -271,10 +302,11 @@ class Anilist extends AnimeParser {
         });
       }
     }
+
     const newEpisodeList: IAnimeEpisode[] = [];
 
     if (episodesList.size !== 0 && possibleProviderEpisodes?.length !== 0) {
-      possibleProviderEpisodes?.forEach((ep, i) => {
+      possibleProviderEpisodes?.forEach((ep: any, i: any) => {
         const j = (i + 1).toString();
         newEpisodeList.push({
           id: ep.id as string,
@@ -282,11 +314,20 @@ class Anilist extends AnimeParser {
           image: episodesList.get(j)?.thumbnail ?? null,
           number: ep.number as number,
           description: episodesList.get(j)?.description ?? null,
+          url: (ep.url as string) ?? null,
         });
       });
     }
 
     return newEpisodeList;
+  };
+
+  private findAnimeRaw = async (slug: string) => {
+    const findAnime = (await this.provider.search(slug)) as ISearch<IAnimeResult>;
+
+    if (findAnime.results.length === 0) return [];
+
+    return (await this.provider.fetchAnimeInfo(findAnime.results[0].id)) as IAnimeInfo;
   };
 }
 

@@ -69,7 +69,7 @@ class Gogoanime extends AnimeParser {
    * @param animeUrl anime id
    */
   override fetchAnimeInfo = async (id: string): Promise<IAnimeInfo> => {
-    if (!id.startsWith(this.baseUrl)) id = `${this.baseUrl}/category/${id}`;
+    if (!id.includes('gogoanime')) id = `${this.baseUrl}/category/${id}`;
 
     const animeInfo: IAnimeInfo = {
       id: '',
@@ -100,9 +100,7 @@ class Gogoanime extends AnimeParser {
         .trim()
         .replace('Plot Summary: ', '');
 
-      animeInfo.subOrDub = animeInfo.title.toLowerCase().includes('dub')
-        ? SubOrSub.DUB
-        : SubOrSub.SUB;
+      animeInfo.subOrDub = animeInfo.title.toLowerCase().includes('dub') ? SubOrSub.DUB : SubOrSub.SUB;
 
       animeInfo.type = $('div.anime_info_body_bg > p:nth-child(4) > a').text().trim();
 
@@ -204,9 +202,7 @@ class Gogoanime extends AnimeParser {
           break;
         case StreamingServers.StreamSB:
           serverUrl = new URL(
-            $('div.anime_video_body > div.anime_muti_link > ul > li.streamsb > a').attr(
-              'data-video'
-            )!
+            $('div.anime_video_body > div.anime_muti_link > ul > li.streamsb > a').attr('data-video')!
           );
           break;
         default:
@@ -255,14 +251,9 @@ class Gogoanime extends AnimeParser {
    * @param page page number (optional)
    * @param type type of media. (optional) (default `1`) `1`: Japanese with subtitles, `2`: english/dub with no subtitles, `3`: chinese with english subtitles
    */
-  fetchRecentEpisodes = async (
-    page: number = 1,
-    type: number = 1
-  ): Promise<ISearch<IAnimeResult>> => {
+  fetchRecentEpisodes = async (page: number = 1, type: number = 1): Promise<ISearch<IAnimeResult>> => {
     try {
-      const res = await axios.get(
-        `${this.ajaxUrl}/page-recent-release.html?page=${page}&type=${type}`
-      );
+      const res = await axios.get(`${this.ajaxUrl}/page-recent-release.html?page=${page}&type=${type}`);
 
       const $ = load(res.data);
 
@@ -279,9 +270,7 @@ class Gogoanime extends AnimeParser {
         });
       });
 
-      const hasNextPage = !$('div.anime_name_pagination.intro > div > ul > li')
-        .last()
-        .hasClass('selected');
+      const hasNextPage = !$('div.anime_name_pagination.intro > div > ul > li').last().hasClass('selected');
 
       return {
         currentPage: page,
@@ -305,10 +294,7 @@ class Gogoanime extends AnimeParser {
         topAiring.push({
           id: $(el).find('a:nth-child(1)').attr('href')?.split('/')[2]!,
           title: $(el).find('a:nth-child(1)').attr('title')!,
-          image: $(el)
-            .find('a:nth-child(1) > div')
-            .attr('style')
-            ?.match('(https?://.*.(?:png|jpg))')![0],
+          image: $(el).find('a:nth-child(1) > div').attr('style')?.match('(https?://.*.(?:png|jpg))')![0],
           url: `${this.baseUrl}${$(el).find('a:nth-child(1)').attr('href')}`,
           genres: $(el)
             .find('p.genres > a')
@@ -317,9 +303,7 @@ class Gogoanime extends AnimeParser {
         });
       });
 
-      const hasNextPage = !$('div.anime_name.comedy > div > div > ul > li')
-        .last()
-        .hasClass('selected');
+      const hasNextPage = !$('div.anime_name.comedy > div > div > ul > li').last().hasClass('selected');
 
       return {
         currentPage: page,

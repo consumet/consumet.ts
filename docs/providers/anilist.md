@@ -93,7 +93,13 @@ output:
     native: 'ようこそ実力至上主義の教室へ',
     userPreferred: 'Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e'
   },
-  malId: '35507',
+  malId: 35507,
+  trailer: {
+    id: 'gMZDGyihTyc',
+    site: 'youtube',
+    thumbnail: 'https://i.ytimg.com/vi/gMZDGyihTyc/hqdefault.jpg'
+  },
+  cover: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/111321-nnetF1qONAcE.jpg',
   image: 'https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b98659-sH5z5RfMuyMr.png',
   description: 'Koudo Ikusei Senior High School is a leading school with state-of-the-art facilities. The students there have the freedom to wear any hairstyle ...',
   status: 'Completed',
@@ -108,7 +114,8 @@ output:
       title: 'What is evil? Whatever springs from weakness.',
       image: 'https://media.kitsu.io/episodes/thumbnails/228542/original.jpg',
       number: 12,
-      description: "Melancholy, unmotivated Ayanokoji Kiyotaka attends his first day at Tokyo Metropoiltan Advanced Nuturing High School, ..."
+      description: "Melancholy, unmotivated Ayanokoji Kiyotaka attends his first day at Tokyo Metropoiltan Advanced Nuturing High School, ...",
+      url: '...'
     },
     {...}
     ...
