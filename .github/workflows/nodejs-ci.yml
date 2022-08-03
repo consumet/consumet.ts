@@ -24,4 +24,5 @@ jobs:
           cache: 'yarn'
       - name: Install dependencies & build
         run: |
+          yarn install --frozen-lockfile
           yarn build
