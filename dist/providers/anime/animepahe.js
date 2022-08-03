@@ -54,9 +54,15 @@ class AnimePahe extends models_1.AnimeParser {
                 id: id,
                 title: '',
             };
+            if (id.includes('-'))
+                id = `${this.baseUrl}/anime/${id}`;
+            else
+                id = `${this.baseUrl}/a/${id}`;
             try {
-                const res = yield axios_1.default.get(`${this.baseUrl}/anime/${id}`);
+                const res = yield axios_1.default.get(id);
                 const $ = (0, cheerio_1.load)(res.data);
+                const tempId = $('head > meta[property="og:url"]').attr('content').split('/').pop();
+                animeInfo.id = $('head > meta[name="id"]').attr('content');
                 animeInfo.title = $('div.header-wrapper > header > div > h1 > span').text();
                 animeInfo.image = $('header > div > div > div > a > img').attr('data-src');
                 animeInfo.cover = `https:${$('body > section > article > div.header-wrapper > div').attr('data-src')}`;
@@ -93,7 +99,7 @@ class AnimePahe extends models_1.AnimeParser {
                 animeInfo.totalEpisodes = parseInt($('div.col-sm-4.anime-info > p:nth-child(3)').text().replace('Episodes:', ''));
                 animeInfo.episodes = [];
                 if (episodePage < 0) {
-                    const { data: { last_page, data }, } = yield axios_1.default.get(`${this.baseUrl}/api?m=release&id=${id}&sort=episode_asc&page=1`);
+                    const { data: { last_page, data }, } = yield axios_1.default.get(`${this.baseUrl}/api?m=release&id=${tempId}&sort=episode_asc&page=1`);
                     animeInfo.episodePages = last_page;
                     animeInfo.episodes.push(...data.map((item) => ({
                         id: item.session,
@@ -103,11 +109,11 @@ class AnimePahe extends models_1.AnimeParser {
                         duration: item.duration,
                     })));
                     for (let i = 1; i < last_page; i++) {
-                        animeInfo.episodes.push(...(yield this.fetchEpisodes(id, i + 1)));
+                        animeInfo.episodes.push(...(yield this.fetchEpisodes(tempId, i + 1)));
                     }
                 }
                 else {
-                    animeInfo.episodes.push(...(yield this.fetchEpisodes(id, episodePage)));
+                    animeInfo.episodes.push(...(yield this.fetchEpisodes(tempId, episodePage)));
                 }
                 return animeInfo;
             }

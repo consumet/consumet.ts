@@ -6,9 +6,10 @@ declare class Anilist extends AnimeParser {
     protected classPath: string;
     private readonly anilistGraphqlUrl;
     private readonly kitsuGraphqlUrl;
+    private readonly malSyncUrl;
     private provider;
     /**
-     * This class maps anilist to kitsu, and anime provider
+     * This class maps anilist to kitsu with any other anime provider.
      * @param provider anime provider (optional) default: Gogoanime
      */
     constructor(provider?: AnimeParser);
@@ -36,5 +37,6 @@ declare class Anilist extends AnimeParser {
     fetchEpisodeServers: (episodeId: string) => Promise<IEpisodeServer[]>;
     private findAnime;
     private findAnimeSlug;
+    private findAnimeRaw;
 }
 export default Anilist;

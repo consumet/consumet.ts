@@ -64,7 +64,7 @@ class Gogoanime extends models_1.AnimeParser {
          * @param animeUrl anime id
          */
         this.fetchAnimeInfo = (id) => __awaiter(this, void 0, void 0, function* () {
-            if (!id.startsWith(this.baseUrl))
+            if (!id.includes('gogoanime'))
                 id = `${this.baseUrl}/category/${id}`;
             const animeInfo = {
                 id: '',
@@ -90,9 +90,7 @@ class Gogoanime extends models_1.AnimeParser {
                     .text()
                     .trim()
                     .replace('Plot Summary: ', '');
-                animeInfo.subOrDub = animeInfo.title.toLowerCase().includes('dub')
-                    ? models_1.SubOrSub.DUB
-                    : models_1.SubOrSub.SUB;
+                animeInfo.subOrDub = animeInfo.title.toLowerCase().includes('dub') ? models_1.SubOrSub.DUB : models_1.SubOrSub.SUB;
                 animeInfo.type = $('div.anime_info_body_bg > p:nth-child(4) > a').text().trim();
                 animeInfo.status = models_1.MediaStatus.UNKNOWN;
                 switch ($('div.anime_info_body_bg > p:nth-child(8) > a').text().trim()) {
@@ -234,9 +232,7 @@ class Gogoanime extends models_1.AnimeParser {
                         url: `${this.baseUrl}${(_d = $(el).find('a').attr('href')) === null || _d === void 0 ? void 0 : _d.trim()}`,
                     });
                 });
-                const hasNextPage = !$('div.anime_name_pagination.intro > div > ul > li')
-                    .last()
-                    .hasClass('selected');
+                const hasNextPage = !$('div.anime_name_pagination.intro > div > ul > li').last().hasClass('selected');
                 return {
                     currentPage: page,
                     hasNextPage: hasNextPage,
@@ -257,9 +253,7 @@ class Gogoanime extends models_1.AnimeParser {
                     topAiring.push({
                         id: (_a = $(el).find('a:nth-child(1)').attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[2],
                         title: $(el).find('a:nth-child(1)').attr('title'),
-                        image: (_b = $(el)
-                            .find('a:nth-child(1) > div')
-                            .attr('style')) === null || _b === void 0 ? void 0 : _b.match('(https?://.*.(?:png|jpg))')[0],
+                        image: (_b = $(el).find('a:nth-child(1) > div').attr('style')) === null || _b === void 0 ? void 0 : _b.match('(https?://.*.(?:png|jpg))')[0],
                         url: `${this.baseUrl}${$(el).find('a:nth-child(1)').attr('href')}`,
                         genres: $(el)
                             .find('p.genres > a')
@@ -267,9 +261,7 @@ class Gogoanime extends models_1.AnimeParser {
                             .get(),
                     });
                 });
-                const hasNextPage = !$('div.anime_name.comedy > div > div > ul > li')
-                    .last()
-                    .hasClass('selected');
+                const hasNextPage = !$('div.anime_name.comedy > div > div > ul > li').last().hasClass('selected');
                 return {
                     currentPage: page,
                     hasNextPage: hasNextPage,
