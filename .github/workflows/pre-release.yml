@@ -29,4 +29,5 @@ jobs:
           repo_token: "${{ secrets.TOKEN }}"
           automatic_release_tag: "latest"
           prerelease: true
+          draft: true
           title: "Development Build"

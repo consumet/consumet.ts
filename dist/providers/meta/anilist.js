@@ -201,6 +201,7 @@ class Anilist extends models_1.AnimeParser {
                         });
                     });
                     const possibleSource = sites.find((s) => s.page.toLocaleLowerCase() === this.provider.name.toLocaleLowerCase());
+                    console.log(possibleSource);
                     if (possibleSource)
                         possibleAnime = yield this.provider.fetchAnimeInfo(possibleSource.url.split('/').pop());
                     else
