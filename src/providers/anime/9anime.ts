@@ -249,7 +249,6 @@ class NineAnime extends AnimeParser {
       } = await axios.get(s.url);
 
       const iframe = decode(this.dv(url));
-      console.log('decoded: ' + this.dv(url));
 
       return await this.fetchEpisodeSources(iframe, server);
     } catch (err) {
@@ -377,13 +376,5 @@ class NineAnime extends AnimeParser {
     return res;
   }
 }
-
-(async () => {
-  const scraper = new NineAnime();
-  const search = await scraper.search('naruto');
-  const info = await scraper.fetchAnimeInfo(search.results[0].id);
-  const links = await scraper.fetchEpisodeSources(info.episodes![0].id);
-  console.log(links);
-})();
 
 export default NineAnime;

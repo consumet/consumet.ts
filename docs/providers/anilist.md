@@ -109,13 +109,12 @@ output:
       releaseDate: null,
       totalEpisodes: 0,
       duration: null,
-      score: null,
       type: null
     },
     {
       id: '130592',
       malId: 48413,
-      title: {...}
+      title: {...},
       image: 'https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx130592-LAUlhx15mxQu.jpg',
       trailer: {...},
       cover: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/130592-WPfrW1SR4dnY.jpg',
