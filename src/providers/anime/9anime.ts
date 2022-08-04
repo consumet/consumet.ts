@@ -17,8 +17,7 @@ import {
 import { range, StreamTape, USER_AGENT, VizCloud } from '../../utils';
 
 /**
- * @currntly only streamtape server works
- * **Use at your own risk :)**
+ * **Use at your own risk :)** 9anime devs keep changing the keys every week
  */
 class NineAnime extends AnimeParser {
   override readonly name = '9Anime';
@@ -258,7 +257,6 @@ class NineAnime extends AnimeParser {
   }
 
   override async fetchEpisodeServers(episodeId: string): Promise<IEpisodeServer[]> {
-    episodeId = episodeId + ',123551';
     if (!episodeId.startsWith(this.baseUrl.replace('.to', '.id')))
       episodeId = `${this.baseUrl.replace('.to', '.id')}/ajax/server/list/${episodeId}?vrf=${this.ev(
         episodeId
@@ -378,12 +376,5 @@ class NineAnime extends AnimeParser {
     return res;
   }
 }
-
-(async () => {
-  const scraper = new NineAnime();
-  const res = await scraper.search('Steins;Gate 0');
-  const episode = await scraper.fetchAnimeInfo(res.results[0].id);
-  const lnks = await scraper.fetchEpisodeSources(episode.episodes![0].id, StreamingServers.VizCloud);
-})();
 
 export default NineAnime;

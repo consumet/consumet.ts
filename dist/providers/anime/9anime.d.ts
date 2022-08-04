@@ -1,7 +1,6 @@
 import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, IEpisodeServer, ISource, StreamingServers } from '../../models';
 /**
- * @currntly only streamtape server works
- * **Use at your own risk :)**
+ * **Use at your own risk :)** 9anime devs keep changing the keys every week
  */
 declare class NineAnime extends AnimeParser {
     readonly name = "9Anime";

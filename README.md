@@ -107,7 +107,7 @@ You can contact the maintainers of consumet.ts via [email](mailto:consumet.org@g
 
 <a href="https://discord.gg/qTPfvMxzNH">
    <img src="https://discordapp.com/api/guilds/987492554486452315/widget.png?style=banner2">
-</p>
+</a>
 
 ## Contributors
 Thanks to the following people who have contributed to this repo:

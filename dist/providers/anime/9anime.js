@@ -18,8 +18,7 @@ const ascii_url_encoder_1 = require("ascii-url-encoder");
 const models_1 = require("../../models");
 const utils_1 = require("../../utils");
 /**
- * @currntly only streamtape server works
- * **Use at your own risk :)**
+ * **Use at your own risk :)** 9anime devs keep changing the keys every week
  */
 class NineAnime extends models_1.AnimeParser {
     constructor() {
@@ -224,7 +223,6 @@ class NineAnime extends models_1.AnimeParser {
     }
     fetchEpisodeServers(episodeId) {
         return __awaiter(this, void 0, void 0, function* () {
-            episodeId = episodeId + ',123551';
             if (!episodeId.startsWith(this.baseUrl.replace('.to', '.id')))
                 episodeId = `${this.baseUrl.replace('.to', '.id')}/ajax/server/list/${episodeId}?vrf=${this.ev(episodeId)}`;
             const { data: { result }, } = yield axios_1.default.get(episodeId);
@@ -328,11 +326,5 @@ class NineAnime extends models_1.AnimeParser {
         return res;
     }
 }
-(() => __awaiter(void 0, void 0, void 0, function* () {
-    const scraper = new NineAnime();
-    const res = yield scraper.search('Steins;Gate 0');
-    const episode = yield scraper.fetchAnimeInfo(res.results[0].id);
-    const lnks = yield scraper.fetchEpisodeSources(episode.episodes[0].id, models_1.StreamingServers.VizCloud);
-}))();
 exports.default = NineAnime;
 //# sourceMappingURL=9anime.js.map
