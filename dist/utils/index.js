@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.VizCloud = exports.StreamTape = exports.RapidCloud = exports.range = exports.kitsuSearchQuery = exports.anilistMediaDetailQuery = exports.anilistSearchQuery = exports.Kwik = exports.MixDrop = exports.VidCloud = exports.countDivs = exports.capitalizeFirstLetter = exports.genElement = exports.parsePostInfo = exports.formatTitle = exports.floorID = exports.splitAuthor = exports.StreamSB = exports.GogoCDN = exports.USER_AGENT = void 0;
+exports.anilistTrendingAnimeQuery = exports.VizCloud = exports.StreamTape = exports.RapidCloud = exports.range = exports.kitsuSearchQuery = exports.anilistMediaDetailQuery = exports.anilistSearchQuery = exports.Kwik = exports.MixDrop = exports.VidCloud = exports.countDivs = exports.capitalizeFirstLetter = exports.genElement = exports.parsePostInfo = exports.formatTitle = exports.floorID = exports.splitAuthor = exports.StreamSB = exports.GogoCDN = exports.USER_AGENT = void 0;
 const extractors_1 = require("./extractors");
 Object.defineProperty(exports, "GogoCDN", { enumerable: true, get: function () { return extractors_1.GogoCDN; } });
 Object.defineProperty(exports, "StreamSB", { enumerable: true, get: function () { return extractors_1.StreamSB; } });
@@ -21,6 +21,7 @@ Object.defineProperty(exports, "anilistSearchQuery", { enumerable: true, get: fu
 Object.defineProperty(exports, "anilistMediaDetailQuery", { enumerable: true, get: function () { return utils_1.anilistMediaDetailQuery; } });
 Object.defineProperty(exports, "kitsuSearchQuery", { enumerable: true, get: function () { return utils_1.kitsuSearchQuery; } });
 Object.defineProperty(exports, "range", { enumerable: true, get: function () { return utils_1.range; } });
+Object.defineProperty(exports, "anilistTrendingAnimeQuery", { enumerable: true, get: function () { return utils_1.anilistTrendingAnimeQuery; } });
 const getComics_1 = require("./getComics");
 Object.defineProperty(exports, "parsePostInfo", { enumerable: true, get: function () { return getComics_1.parsePostInfo; } });
 const zLibrary_1 = require("./zLibrary");

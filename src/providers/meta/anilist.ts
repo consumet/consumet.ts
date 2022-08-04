@@ -11,7 +11,12 @@ import {
   SubOrSub,
   IEpisodeServer,
 } from '../../models';
-import { anilistSearchQuery, anilistMediaDetailQuery, kitsuSearchQuery } from '../../utils';
+import {
+  anilistSearchQuery,
+  anilistMediaDetailQuery,
+  kitsuSearchQuery,
+  anilistTrendingAnimeQuery,
+} from '../../utils';
 import Gogoanime from '../../providers/anime/gogoanime';
 
 class Anilist extends AnimeParser {
@@ -320,6 +325,52 @@ class Anilist extends AnimeParser {
     }
 
     return newEpisodeList;
+  };
+
+  fetchTrendingAnime = async (page: number = 1, perPage: number = 10): Promise<ISearch<IAnimeResult>> => {
+    const options = {
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+      query: anilistTrendingAnimeQuery(page, perPage),
+    };
+
+    try {
+      const { data } = await axios.post(this.anilistGraphqlUrl, options);
+
+      const res: ISearch<IAnimeResult> = {
+        currentPage: data.data.Page.pageInfo.currentPage,
+        hasNextPage: data.data.Page.pageInfo.hasNextPage,
+        results: data.data.Page.media.map((item: any) => ({
+          id: item.id.toString(),
+          malId: item.idMal,
+          title:
+            {
+              romaji: item.title.romaji,
+              english: item.title.english,
+              native: item.title.native,
+              userPreferred: item.title.userPreferred,
+            } || item.title.romaji,
+          image: item.coverImage.large ?? item.coverImage.medium ?? item.coverImage.small,
+          trailer: {
+            id: item.trailer?.id,
+            site: item.trailer?.site,
+            thumbnail: item.trailer?.thumbnail,
+          },
+          cover: item.bannerImage ?? item.coverImage.large ?? item.coverImage.medium ?? item.coverImage.small,
+          rating: item.averageScore,
+          releaseDate: item.seasonYear,
+          totalEpisodes: isNaN(item.episodes) ? 0 : item.episodes ?? item.nextAiringEpisode?.episode - 1 ?? 0,
+          duration: item.duration,
+          type: item.format,
+        })),
+      };
+
+      return res;
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
   };
 
   private findAnimeRaw = async (slug: string) => {

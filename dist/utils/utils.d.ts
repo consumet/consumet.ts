@@ -12,4 +12,5 @@ export declare const range: ({ from, to, step, length }: {
 export declare const capitalizeFirstLetter: (s: string) => string;
 export declare const anilistSearchQuery: (query: string, page: number, perPage: number) => string;
 export declare const anilistMediaDetailQuery: (id: string) => string;
+export declare const anilistTrendingAnimeQuery: (page?: number, perPage?: number) => string;
 export declare const kitsuSearchQuery: (query: string) => string;

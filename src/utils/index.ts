@@ -10,6 +10,7 @@ import {
   anilistMediaDetailQuery,
   kitsuSearchQuery,
   range,
+  anilistTrendingAnimeQuery,
 } from './utils';
 import { parsePostInfo } from './getComics';
 import { countDivs } from './zLibrary';
@@ -35,4 +36,5 @@ export {
   RapidCloud,
   StreamTape,
   VizCloud,
+  anilistTrendingAnimeQuery,
 };

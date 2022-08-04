@@ -273,6 +273,51 @@ class Anilist extends models_1.AnimeParser {
             }
             return newEpisodeList;
         });
+        this.fetchTrendingAnime = (page = 1, perPage = 10) => __awaiter(this, void 0, void 0, function* () {
+            const options = {
+                headers: {
+                    'Content-Type': 'application/json',
+                    Accept: 'application/json',
+                },
+                query: (0, utils_1.anilistTrendingAnimeQuery)(page, perPage),
+            };
+            try {
+                const { data } = yield axios_1.default.post(this.anilistGraphqlUrl, options);
+                const res = {
+                    currentPage: data.data.Page.pageInfo.currentPage,
+                    hasNextPage: data.data.Page.pageInfo.hasNextPage,
+                    results: data.data.Page.media.map((item) => {
+                        var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l;
+                        return ({
+                            id: item.id.toString(),
+                            malId: item.idMal,
+                            title: {
+                                romaji: item.title.romaji,
+                                english: item.title.english,
+                                native: item.title.native,
+                                userPreferred: item.title.userPreferred,
+                            } || item.title.romaji,
+                            image: (_b = (_a = item.coverImage.large) !== null && _a !== void 0 ? _a : item.coverImage.medium) !== null && _b !== void 0 ? _b : item.coverImage.small,
+                            trailer: {
+                                id: (_c = item.trailer) === null || _c === void 0 ? void 0 : _c.id,
+                                site: (_d = item.trailer) === null || _d === void 0 ? void 0 : _d.site,
+                                thumbnail: (_e = item.trailer) === null || _e === void 0 ? void 0 : _e.thumbnail,
+                            },
+                            cover: (_h = (_g = (_f = item.bannerImage) !== null && _f !== void 0 ? _f : item.coverImage.large) !== null && _g !== void 0 ? _g : item.coverImage.medium) !== null && _h !== void 0 ? _h : item.coverImage.small,
+                            rating: item.averageScore,
+                            releaseDate: item.seasonYear,
+                            totalEpisodes: isNaN(item.episodes) ? 0 : (_l = (_j = item.episodes) !== null && _j !== void 0 ? _j : ((_k = item.nextAiringEpisode) === null || _k === void 0 ? void 0 : _k.episode) - 1) !== null && _l !== void 0 ? _l : 0,
+                            duration: item.duration,
+                            type: item.format,
+                        });
+                    }),
+                };
+                return res;
+            }
+            catch (err) {
+                throw new Error(err.message);
+            }
+        });
         this.findAnimeRaw = (slug) => __awaiter(this, void 0, void 0, function* () {
             const findAnime = (yield this.provider.search(slug));
             if (findAnime.results.length === 0)
