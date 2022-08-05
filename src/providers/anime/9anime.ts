@@ -28,6 +28,7 @@ class NineAnime extends AnimeParser {
 
   private readonly table = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
   private readonly key = 'oZH6q4X4VAIHk0Ol';
+  private readonly key2 = 'hlPeNwkncH0fq9so';
 
   override async search(query: string, page: number = 1): Promise<ISearch<IAnimeResult>> {
     const searchResult: ISearch<IAnimeResult> = {
@@ -199,7 +200,7 @@ class NineAnime extends AnimeParser {
 
   override async fetchEpisodeSources(
     episodeId: string,
-    server: StreamingServers = StreamingServers.StreamTape
+    server: StreamingServers = StreamingServers.VizCloud
   ): Promise<ISource> {
     if (episodeId.startsWith('http')) {
       const serverUrl = new URL(episodeId);
@@ -285,7 +286,7 @@ class NineAnime extends AnimeParser {
   }
 
   private dv(query: string): string {
-    return this.cipher(this.decrypt(query), this.key);
+    return this.cipher(this.decrypt(query), this.key2);
   }
 
   private cipher(query: string, key: string): string {
