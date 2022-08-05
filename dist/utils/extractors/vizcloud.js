@@ -57,7 +57,12 @@ class VizCloud extends models_1.VideoExtractor {
         };
         this.fetchKeys = () => __awaiter(this, void 0, void 0, function* () {
             const { data } = yield axios_1.default.get('https://raw.githubusercontent.com/chenkaslowankiya/BruhFlow/main/keys.json');
-            return data;
+            return {
+                cipher: data.cipherKey,
+                encrypt: data.encryptKey,
+                main: data.mainKey,
+                dashTable: data.dashTable,
+            };
         });
     }
 }

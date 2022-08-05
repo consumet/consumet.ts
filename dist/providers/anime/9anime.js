@@ -29,6 +29,7 @@ class NineAnime extends models_1.AnimeParser {
         this.classPath = 'ANIME.NineAnime';
         this.table = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
         this.key = 'oZH6q4X4VAIHk0Ol';
+        this.key2 = 'hlPeNwkncH0fq9so';
     }
     search(query, page = 1) {
         return __awaiter(this, void 0, void 0, function* () {
@@ -168,7 +169,7 @@ class NineAnime extends models_1.AnimeParser {
             }
         });
     }
-    fetchEpisodeSources(episodeId, server = models_1.StreamingServers.StreamTape) {
+    fetchEpisodeSources(episodeId, server = models_1.StreamingServers.VizCloud) {
         return __awaiter(this, void 0, void 0, function* () {
             if (episodeId.startsWith('http')) {
                 const serverUrl = new URL(episodeId);
@@ -242,7 +243,7 @@ class NineAnime extends models_1.AnimeParser {
         return this.encrypt(this.cipher((0, ascii_url_encoder_1.encode)(query), this.key), this.table);
     }
     dv(query) {
-        return this.cipher(this.decrypt(query), this.key);
+        return this.cipher(this.decrypt(query), this.key2);
     }
     cipher(query, key) {
         let u = 0;

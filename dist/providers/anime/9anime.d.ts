@@ -9,6 +9,7 @@ declare class NineAnime extends AnimeParser {
     protected classPath: string;
     private readonly table;
     private readonly key;
+    private readonly key2;
     search(query: string, page?: number): Promise<ISearch<IAnimeResult>>;
     fetchAnimeInfo(animeUrl: string, isDub?: boolean): Promise<IAnimeInfo>;
     fetchEpisodeSources(episodeId: string, server?: StreamingServers): Promise<ISource>;
