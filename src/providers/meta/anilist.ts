@@ -150,44 +150,35 @@ class Anilist extends AnimeParser {
       animeInfo.genres = data.data.Media.genres;
       animeInfo.studios = data.data.Media.studios.edges.map((item: any) => item.node.name);
       animeInfo.subOrDub = dub ? SubOrSub.DUB : SubOrSub.SUB;
-      animeInfo.recommendations = data.data.Media.recommendations.edges.map((item: any) => {
-        let info = item;
-        item = {}
-        item.id = info.node.mediaRecommendation.id;
-        item.idMal = info.node.mediaRecommendation.idMal;
-        item.title = { 
-          romaji: info.node.mediaRecommendation.title.romaji,
-          english: info.node.mediaRecommendation.title.english,
-          native: info.node.mediaRecommendation.title.native,
-          userPreferred: info.node.mediaRecommendation.title.userPreferred,
-        }; 
-        switch (info.node.mediaRecommendation.status) {
-          case 'RELEASING':
-            item.status = MediaStatus.ONGOING;
-            break;
-          case 'FINISHED':
-            item.status = MediaStatus.COMPLETED;
-            break;
-          case 'NOT_YET_RELEASED':
-            item.status = MediaStatus.NOT_YET_AIRED;
-            break;
-          case 'CANCELLED':
-            item.status = MediaStatus.CANCELLED;
-            break;
-          case 'HIATUS':
-            item.status = MediaStatus.HIATUS;
-          default:
-            item.status = MediaStatus.UNKNOWN;
-        }
-        item.episodes = info.node.mediaRecommendation.episodes;
-        item.image = 
-          info.node.mediaRecommendation.coverImage.extraLarge ?? 
-          info.node.mediaRecommendation.coverImage.large ?? 
-          info.node.mediaRecommendation.coverImage.medium;
-        item.cover = info.node.mediaRecommendation.bannerImage ?? info.image;
-        item.score = info.node.mediaRecommendation.meanScore;
-        return item
-      });
+      animeInfo.recommendations = data.data.Media.recommendations.edges.map((item: any) => ({
+        id: item.node.mediaRecommendation.id,
+        malId: item.node.mediaRecommendation.idMal,
+        title: {
+          romaji: item.node.mediaRecommendation.title.romaji,
+          english: item.node.mediaRecommendation.title.english,
+          native: item.node.mediaRecommendation.title.native,
+          userPreferred: item.node.mediaRecommendation.title.userPreferred,
+        },
+        status:
+          item.node.mediaRecommendation.status == 'RELEASING'
+            ? MediaStatus.ONGOING
+            : item.node.mediaRecommendation.status == 'FINISHED'
+            ? MediaStatus.COMPLETED
+            : item.node.mediaRecommendation.status == 'NOT_YET_RELEASED'
+            ? MediaStatus.NOT_YET_AIRED
+            : item.node.mediaRecommendation.status == 'CANCELLED'
+            ? MediaStatus.CANCELLED
+            : item.node.mediaRecommendation.status == 'HIATUS'
+            ? MediaStatus.HIATUS
+            : MediaStatus.UNKNOWN,
+        episodes: item.node.mediaRecommendation.episodes,
+        image:
+          item.node.mediaRecommendation.coverImage.extraLarge ??
+          item.node.mediaRecommendation.coverImage.large ??
+          item.node.mediaRecommendation.coverImage.medium,
+        cover: item.node.mediaRecommendation.bannerImage ?? animeInfo.image,
+        score: item.node.mediaRecommendation.meanScore,
+      }));
       const possibleAnimeEpisodes = await this.findAnime(
         { english: animeInfo.title?.english!, romaji: animeInfo.title?.romaji! },
         data.data.Media.season!,
