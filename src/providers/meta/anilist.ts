@@ -184,7 +184,6 @@ class Anilist extends AnimeParser {
           info.node.mediaRecommendation.coverImage.extraLarge ?? 
           info.node.mediaRecommendation.coverImage.large ?? 
           info.node.mediaRecommendation.coverImage.medium;
-        
         item.cover = info.node.mediaRecommendation.bannerImage ?? info.image;
         item.score = info.node.mediaRecommendation.meanScore;
         return item
