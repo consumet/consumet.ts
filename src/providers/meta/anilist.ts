@@ -150,7 +150,35 @@ class Anilist extends AnimeParser {
       animeInfo.genres = data.data.Media.genres;
       animeInfo.studios = data.data.Media.studios.edges.map((item: any) => item.node.name);
       animeInfo.subOrDub = dub ? SubOrSub.DUB : SubOrSub.SUB;
-
+      animeInfo.recommendations = data.data.Media.recommendations.edges.map((item: any) => ({
+        id: item.node.mediaRecommendation.id,
+        malId: item.node.mediaRecommendation.idMal,
+        title: {
+          romaji: item.node.mediaRecommendation.title.romaji,
+          english: item.node.mediaRecommendation.title.english,
+          native: item.node.mediaRecommendation.title.native,
+          userPreferred: item.node.mediaRecommendation.title.userPreferred,
+        },
+        status:
+          item.node.mediaRecommendation.status == 'RELEASING'
+            ? MediaStatus.ONGOING
+            : item.node.mediaRecommendation.status == 'FINISHED'
+            ? MediaStatus.COMPLETED
+            : item.node.mediaRecommendation.status == 'NOT_YET_RELEASED'
+            ? MediaStatus.NOT_YET_AIRED
+            : item.node.mediaRecommendation.status == 'CANCELLED'
+            ? MediaStatus.CANCELLED
+            : item.node.mediaRecommendation.status == 'HIATUS'
+            ? MediaStatus.HIATUS
+            : MediaStatus.UNKNOWN,
+        episodes: item.node.mediaRecommendation.episodes,
+        image:
+          item.node.mediaRecommendation.coverImage.extraLarge ??
+          item.node.mediaRecommendation.coverImage.large ??
+          item.node.mediaRecommendation.coverImage.medium,
+        cover: item.node.mediaRecommendation.bannerImage ?? animeInfo.image,
+        score: item.node.mediaRecommendation.meanScore,
+      }));
       const possibleAnimeEpisodes = await this.findAnime(
         { english: animeInfo.title?.english!, romaji: animeInfo.title?.romaji! },
         data.data.Media.season!,
@@ -253,7 +281,6 @@ class Anilist extends AnimeParser {
         const possibleSource = sites.find(
           (s) => s.page.toLocaleLowerCase() === this.provider.name.toLocaleLowerCase()
         );
-        console.log(possibleSource);
         if (possibleSource)
           possibleAnime = await this.provider.fetchAnimeInfo(possibleSource.url.split('/').pop()!);
         else possibleAnime = await this.findAnimeRaw(slug);
