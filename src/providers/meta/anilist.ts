@@ -150,7 +150,45 @@ class Anilist extends AnimeParser {
       animeInfo.genres = data.data.Media.genres;
       animeInfo.studios = data.data.Media.studios.edges.map((item: any) => item.node.name);
       animeInfo.subOrDub = dub ? SubOrSub.DUB : SubOrSub.SUB;
-
+      animeInfo.recommendations = data.data.Media.recommendations.edges.map((item: any) => {
+        let info = item;
+        item = {}
+        item.id = info.node.mediaRecommendation.id;
+        item.idMal = info.node.mediaRecommendation.idMal;
+        item.title = { 
+          romaji: info.node.mediaRecommendation.title.romaji,
+          english: info.node.mediaRecommendation.title.english,
+          native: info.node.mediaRecommendation.title.native,
+          userPreferred: info.node.mediaRecommendation.title.userPreferred,
+        }; 
+        switch (info.node.mediaRecommendation.status) {
+          case 'RELEASING':
+            item.status = MediaStatus.ONGOING;
+            break;
+          case 'FINISHED':
+            item.status = MediaStatus.COMPLETED;
+            break;
+          case 'NOT_YET_RELEASED':
+            item.status = MediaStatus.NOT_YET_AIRED;
+            break;
+          case 'CANCELLED':
+            item.status = MediaStatus.CANCELLED;
+            break;
+          case 'HIATUS':
+            item.status = MediaStatus.HIATUS;
+          default:
+            item.status = MediaStatus.UNKNOWN;
+        }
+        item.episodes = info.node.mediaRecommendation.episodes;
+        item.image = 
+          info.node.mediaRecommendation.coverImage.extraLarge ?? 
+          info.node.mediaRecommendation.coverImage.large ?? 
+          info.node.mediaRecommendation.coverImage.medium;
+        
+        item.cover = info.node.mediaRecommendation.bannerImage ?? info.image;
+        item.score = info.node.mediaRecommendation.meanScore;
+        return item
+      });
       const possibleAnimeEpisodes = await this.findAnime(
         { english: animeInfo.title?.english!, romaji: animeInfo.title?.romaji! },
         data.data.Media.season!,
@@ -253,7 +291,6 @@ class Anilist extends AnimeParser {
         const possibleSource = sites.find(
           (s) => s.page.toLocaleLowerCase() === this.provider.name.toLocaleLowerCase()
         );
-        console.log(possibleSource);
         if (possibleSource)
           possibleAnime = await this.provider.fetchAnimeInfo(possibleSource.url.split('/').pop()!);
         else possibleAnime = await this.findAnimeRaw(slug);

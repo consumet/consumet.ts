@@ -162,15 +162,35 @@ output:
     site: 'youtube',
     thumbnail: 'https://i.ytimg.com/vi/gMZDGyihTyc/hqdefault.jpg'
   },
-  cover: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/111321-nnetF1qONAcE.jpg',
   image: 'https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b98659-sH5z5RfMuyMr.png',
+  cover: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/111321-nnetF1qONAcE.jpg',
   description: 'Koudo Ikusei Senior High School is a leading school with state-of-the-art facilities. The students there have the freedom to wear any hairstyle ...',
   status: 'Completed',
   releaseDate: 2017,
   rating: 77,
   duration: 24,
   genres: [ 'Drama', 'Psychological' ],
+  studios: [ 'Lerche' ],
   subOrDub: 'sub',
+  recommendations: [ 
+      {
+        id: 101921,
+        idMal: 37999,
+        title: {
+          romaji: 'Kaguya-sama wa Kokurasetai: Tensaitachi no Renai Zunousen',
+          english: 'Kaguya-sama: Love is War',
+          native: undefined,
+          userPreferred: undefined
+        },
+        status: 'Completed',
+        episodes: 12,
+        image: 'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101921-VvdGQy1ZySYf.jpg',
+        cover: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/101921-GgvvFhlNhzlF.jpg',
+        score: 83
+      },
+      {...}
+      ...
+  ],
   episodes: [
     {
       id: 'youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-episode-12',
