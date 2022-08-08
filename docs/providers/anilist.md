@@ -11,6 +11,7 @@ const anilist = new META.Anilist();
 
 - [search](#search)
 - [fetchTrendingAnime](#fetchtrendinganime)
+- [fetchPopularAnime](#fetchpopularanime)
 - [fetchAnimeInfo](#fetchanimeinfo)
 - [fetchEpisodeSources](#fetchepisodesources)
 
@@ -129,6 +130,68 @@ output:
 }
 ```
 
+### fetchPopularAnime
+
+<h4>Parameters</h4>
+
+| Parameter          | Type     | Description                 |
+| ------------------ | -------- | --------------------------- |
+| page (optional)    | `number` | page number to search for.  |
+| perPage (optional) | `number` | number of results per page. |
+
+```ts
+anilist.fetchPopularAnime().then(data => {
+  console.log(data);
+}
+```
+
+returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
+output:
+```ts
+{
+  currentPage: 1,
+  hasNextPage: true,
+  results: [
+    {
+      id: '153288',
+      malId: null,
+      title: {
+          romaji: 'Kaijuu 8-gou',
+          english: 'Kaiju No.8',
+          native: '怪獣８号',
+          userPreferred: 'Kaijuu 8-gou'
+      },
+      image: 'https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx153288-INFE21hHhAUD.jpg',
+      trailer: {
+          id: '-MaTda-Ws3Y',
+          site: 'youtube',
+          thumbnail: 'https://i.ytimg.com/vi/-MaTda-Ws3Y/hqdefault.jpg'
+      },
+      cover: 'https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx153288-INFE21hHhAUD.jpg',
+      rating: null,
+      releaseDate: null,
+      totalEpisodes: 0,
+      duration: null,
+      type: null
+    },
+    {
+      id: '130592',
+      malId: 48413,
+      title: {...},
+      image: 'https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx130592-LAUlhx15mxQu.jpg',
+      trailer: {...},
+      cover: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/130592-WPfrW1SR4dnY.jpg',
+      rating: 74,
+      releaseDate: 2022,
+      totalEpisodes: 12,
+      duration: 24,
+      score: 75,
+      type: 'TV'
+    },
+  ]
+}
+```
+
 ### fetchAnimeInfo
 
 <h4>Parameters</h4>
@@ -162,15 +225,35 @@ output:
     site: 'youtube',
     thumbnail: 'https://i.ytimg.com/vi/gMZDGyihTyc/hqdefault.jpg'
   },
-  cover: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/111321-nnetF1qONAcE.jpg',
   image: 'https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b98659-sH5z5RfMuyMr.png',
+  cover: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/111321-nnetF1qONAcE.jpg',
   description: 'Koudo Ikusei Senior High School is a leading school with state-of-the-art facilities. The students there have the freedom to wear any hairstyle ...',
   status: 'Completed',
   releaseDate: 2017,
   rating: 77,
   duration: 24,
   genres: [ 'Drama', 'Psychological' ],
+  studios: [ 'Lerche' ],
   subOrDub: 'sub',
+  recommendations: [ 
+      {
+        id: 101921,
+        idMal: 37999,
+        title: {
+          romaji: 'Kaguya-sama wa Kokurasetai: Tensaitachi no Renai Zunousen',
+          english: 'Kaguya-sama: Love is War',
+          native: undefined,
+          userPreferred: undefined
+        },
+        status: 'Completed',
+        episodes: 12,
+        image: 'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101921-VvdGQy1ZySYf.jpg',
+        cover: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/101921-GgvvFhlNhzlF.jpg',
+        score: 83
+      },
+      {...}
+      ...
+  ],
   episodes: [
     {
       id: 'youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-episode-12',

@@ -38,6 +38,7 @@ declare class Anilist extends AnimeParser {
     private findAnime;
     private findAnimeSlug;
     fetchTrendingAnime: (page?: number, perPage?: number) => Promise<ISearch<IAnimeResult>>;
+    fetchPopularAnime: (page?: number, perPage?: number) => Promise<ISearch<IAnimeResult>>;
     private findAnimeRaw;
 }
 export default Anilist;

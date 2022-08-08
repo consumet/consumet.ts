@@ -16,6 +16,7 @@ import {
   anilistMediaDetailQuery,
   kitsuSearchQuery,
   anilistTrendingAnimeQuery,
+  anilistPopularAnimeQuery
 } from '../../utils';
 import Gogoanime from '../../providers/anime/gogoanime';
 
@@ -150,7 +151,35 @@ class Anilist extends AnimeParser {
       animeInfo.genres = data.data.Media.genres;
       animeInfo.studios = data.data.Media.studios.edges.map((item: any) => item.node.name);
       animeInfo.subOrDub = dub ? SubOrSub.DUB : SubOrSub.SUB;
-
+      animeInfo.recommendations = data.data.Media.recommendations.edges.map((item: any) => ({
+        id: item.node.mediaRecommendation.id,
+        malId: item.node.mediaRecommendation.idMal,
+        title: {
+          romaji: item.node.mediaRecommendation.title.romaji,
+          english: item.node.mediaRecommendation.title.english,
+          native: item.node.mediaRecommendation.title.native,
+          userPreferred: item.node.mediaRecommendation.title.userPreferred,
+        },
+        status:
+          item.node.mediaRecommendation.status == 'RELEASING'
+            ? MediaStatus.ONGOING
+            : item.node.mediaRecommendation.status == 'FINISHED'
+            ? MediaStatus.COMPLETED
+            : item.node.mediaRecommendation.status == 'NOT_YET_RELEASED'
+            ? MediaStatus.NOT_YET_AIRED
+            : item.node.mediaRecommendation.status == 'CANCELLED'
+            ? MediaStatus.CANCELLED
+            : item.node.mediaRecommendation.status == 'HIATUS'
+            ? MediaStatus.HIATUS
+            : MediaStatus.UNKNOWN,
+        episodes: item.node.mediaRecommendation.episodes,
+        image:
+          item.node.mediaRecommendation.coverImage.extraLarge ??
+          item.node.mediaRecommendation.coverImage.large ??
+          item.node.mediaRecommendation.coverImage.medium,
+        cover: item.node.mediaRecommendation.bannerImage ?? animeInfo.image,
+        score: item.node.mediaRecommendation.meanScore,
+      }));
       const possibleAnimeEpisodes = await this.findAnime(
         { english: animeInfo.title?.english!, romaji: animeInfo.title?.romaji! },
         data.data.Media.season!,
@@ -253,7 +282,6 @@ class Anilist extends AnimeParser {
         const possibleSource = sites.find(
           (s) => s.page.toLocaleLowerCase() === this.provider.name.toLocaleLowerCase()
         );
-        console.log(possibleSource);
         if (possibleSource)
           possibleAnime = await this.provider.fetchAnimeInfo(possibleSource.url.split('/').pop()!);
         else possibleAnime = await this.findAnimeRaw(slug);
@@ -368,7 +396,51 @@ class Anilist extends AnimeParser {
           type: item.format,
         })),
       };
+      return res;
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
+  };
 
+  fetchPopularAnime = async (page: number = 1, perPage: number = 10): Promise<ISearch<IAnimeResult>> => {
+    const options = {
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+      query: anilistPopularAnimeQuery(page, perPage),
+    };
+
+    try {
+      const { data } = await axios.post(this.anilistGraphqlUrl, options);
+
+      const res: ISearch<IAnimeResult> = {
+        currentPage: data.data.Page.pageInfo.currentPage,
+        hasNextPage: data.data.Page.pageInfo.hasNextPage,
+        results: data.data.Page.media.map((item: any) => ({
+          id: item.id.toString(),
+          malId: item.idMal,
+          title:
+            {
+              romaji: item.title.romaji,
+              english: item.title.english,
+              native: item.title.native,
+              userPreferred: item.title.userPreferred,
+            } || item.title.romaji,
+          image: item.coverImage.large ?? item.coverImage.medium ?? item.coverImage.small,
+          trailer: {
+            id: item.trailer?.id,
+            site: item.trailer?.site,
+            thumbnail: item.trailer?.thumbnail,
+          },
+          cover: item.bannerImage ?? item.coverImage.large ?? item.coverImage.medium ?? item.coverImage.small,
+          rating: item.averageScore,
+          releaseDate: item.seasonYear,
+          totalEpisodes: isNaN(item.episodes) ? 0 : item.episodes ?? item.nextAiringEpisode?.episode - 1 ?? 0,
+          duration: item.duration,
+          type: item.format,
+        })),
+      };
       return res;
     } catch (err) {
       throw new Error((err as Error).message);

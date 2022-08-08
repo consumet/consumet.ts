@@ -27,3 +27,15 @@ test('returns a filled object of episode sources', async () => {
   const data = await anilist.fetchEpisodeSources('spy-x-family-episode-9');
   expect(data.sources).not.toEqual([]);
 });
+
+test('returns a filled array of trending anime', async () => {
+  const anilist = new META.Anilist();
+  const data = await anilist.fetchTrendingAnime(1 , 10);
+  expect(data.results).not.toEqual([]);
+});
+
+test('returns a filled array of popular anime', async () => {
+  const anilist = new META.Anilist();
+  const data = await anilist.fetchPopularAnime(1 , 10);
+  expect(data.results).not.toEqual([]);
+})
