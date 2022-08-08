@@ -17,6 +17,12 @@ test('returns a filled object of anime data', async () => {
   expect(data.episodes).not.toEqual([]);
 });
 
+test('returns a filled array of recent animes', async () => {
+  const zoro = new ANIME.Zoro();
+  const data = await zoro.fetchRecentEpisodes();
+  expect(data.results[0]).not.toEqual([]);
+});
+
 test('returns a filled object of episode sources', async () => {
   const zoro = new ANIME.Zoro();
   const res = await zoro.search('Overlord IV');

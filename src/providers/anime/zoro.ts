@@ -219,6 +219,45 @@ class Zoro extends AnimeParser {
   };
 
   /**
+   * @param page Page number
+   */
+  fetchRecentEpisodes = async(page: number = 1):
+  Promise<ISearch<IAnimeResult>> => {
+    try{
+      const { data } = await axios.get(
+        `${this.baseUrl}/recently-updated?page=${page}`
+      );
+      const $ = load(data);
+
+      const hasNextPage =
+      $('.pagination > li').length > 0
+        ? $('.pagination > li').last().hasClass('active')
+          ? false
+          : true
+        : false;
+
+      const recentEpisodes: IAnimeResult[] = [];
+
+      $('div.film_list-wrap > div').each((i, el) => {
+        recentEpisodes.push({
+          id: $(el).find('div.film-poster > a').attr('href')?.replace('/', '')!,
+          image: $(el).find('div.film-poster > img').attr('data-src')!,
+          title: $(el).find('div.film-poster > img').attr('alt')!,
+          url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
+          episodeNumber: parseInt($(el).find('div.tick-eps').text().replace(/\s/g, '').replace('Ep', '').split('/')[0]),
+        });
+      })  
+
+      return {
+        currentPage: page,
+        hasNextPage: hasNextPage,
+        results: recentEpisodes,
+      };
+    } catch (err) {
+      throw new Error('Something went wrong. Please try again later.');
+    }
+  };
+  /**
    * @deprecated
    * @param episodeId Episode id
    */
