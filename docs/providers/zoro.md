@@ -9,6 +9,50 @@ const zoro = new ANIME.Zoro();
 - [search](#search)
 - [fetchAnimeInfo](#fetchanimeinfo)
 - [fetchEpisodeSources](#fetchepisodesources)
+- [fetchRecentEpisodes](#fetchrecentepisodes)
+
+### fetchRecentEpisodes
+> Note: This method is a subclass of the [`BaseParser`](https://github.com/consumet/extensions/blob/master/src/models/base-parser.ts) class. meaning it is available across most categories.
+
+
+<h4>Parameters</h4>
+
+| Parameter | Type     | Description                                                              |
+| --------- | -------- | ------------------------------------------------------------------------ |
+| page (optional) | `number` | page number (default 1) |
+
+```ts
+zoro.fetchRecentEpisodes().then(data => {
+  console.log(data);
+}
+```
+
+returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
+output:
+```js
+{
+  currentPage: 1,
+  hasNextPage: false,
+  results: [ 
+    {
+      id: 'when-will-ayumu-make-his-move-17444',
+      image: 'https://img.zorores.com/_r/300x400/100/ae/f2/aef2fb998beeb3bbb56f2ba93d8d5d11/aef2fb998beeb3bbb56f2ba93d8d5d11.jpg',
+      title: 'When Will Ayumu Make His Move?',
+      url: 'https://zoro.to/when-will-ayumu-make-his-move-17444',
+      episodeNumber: 5
+    },
+    {
+      id: 'when-will-ayumu-make-his-move-17444',
+      image: 'https://img.zorores.com/_r/300x400/100/ae/f2/aef2fb998beeb3bbb56f2ba93d8d5d11/aef2fb998beeb3bbb56f2ba93d8d5d11.jpg',
+      title: 'When Will Ayumu Make His Move?',
+      url: 'https://zoro.to/when-will-ayumu-make-his-move-17444',
+      episodeNumber: 5
+    },
+    {...}
+    ...
+  ]
+}
+```
 
 ### search
 > Note: This method is a subclass of the [`BaseParser`](https://github.com/consumet/extensions/blob/master/src/models/base-parser.ts) class. meaning it is available across most categories.
