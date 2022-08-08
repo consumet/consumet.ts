@@ -11,7 +11,7 @@ const zoro = new ANIME.Zoro();
 - [fetchEpisodeSources](#fetchepisodesources)
 - [fetchRecentEpisodes](#fetchrecentepisodes)
 
-### fetchrecentepisodes
+### fetchRecentEpisodes
 > Note: This method is a subclass of the [`BaseParser`](https://github.com/consumet/extensions/blob/master/src/models/base-parser.ts) class. meaning it is available across most categories.
 
 

@@ -20,7 +20,7 @@ test('returns a filled object of anime data', async () => {
 test('returns a filled array of recent animes', async () => {
   const zoro = new ANIME.Zoro();
   const data = await zoro.fetchRecentEpisodes();
-  expect(data.results[0]).not.toEqual([]);
+  expect(data.results).not.toEqual([]);
 });
 
 test('returns a filled object of episode sources', async () => {
