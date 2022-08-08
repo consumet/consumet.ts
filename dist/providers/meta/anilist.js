@@ -130,6 +130,34 @@ class Anilist extends models_1.AnimeParser {
                 animeInfo.genres = data.data.Media.genres;
                 animeInfo.studios = data.data.Media.studios.edges.map((item) => item.node.name);
                 animeInfo.subOrDub = dub ? models_1.SubOrSub.DUB : models_1.SubOrSub.SUB;
+                animeInfo.recommendations = data.data.Media.recommendations.edges.map((item) => {
+                    var _a, _b, _c;
+                    return ({
+                        id: item.node.mediaRecommendation.id,
+                        malId: item.node.mediaRecommendation.idMal,
+                        title: {
+                            romaji: item.node.mediaRecommendation.title.romaji,
+                            english: item.node.mediaRecommendation.title.english,
+                            native: item.node.mediaRecommendation.title.native,
+                            userPreferred: item.node.mediaRecommendation.title.userPreferred,
+                        },
+                        status: item.node.mediaRecommendation.status == 'RELEASING'
+                            ? models_1.MediaStatus.ONGOING
+                            : item.node.mediaRecommendation.status == 'FINISHED'
+                                ? models_1.MediaStatus.COMPLETED
+                                : item.node.mediaRecommendation.status == 'NOT_YET_RELEASED'
+                                    ? models_1.MediaStatus.NOT_YET_AIRED
+                                    : item.node.mediaRecommendation.status == 'CANCELLED'
+                                        ? models_1.MediaStatus.CANCELLED
+                                        : item.node.mediaRecommendation.status == 'HIATUS'
+                                            ? models_1.MediaStatus.HIATUS
+                                            : models_1.MediaStatus.UNKNOWN,
+                        episodes: item.node.mediaRecommendation.episodes,
+                        image: (_b = (_a = item.node.mediaRecommendation.coverImage.extraLarge) !== null && _a !== void 0 ? _a : item.node.mediaRecommendation.coverImage.large) !== null && _b !== void 0 ? _b : item.node.mediaRecommendation.coverImage.medium,
+                        cover: (_c = item.node.mediaRecommendation.bannerImage) !== null && _c !== void 0 ? _c : animeInfo.image,
+                        score: item.node.mediaRecommendation.meanScore,
+                    });
+                });
                 const possibleAnimeEpisodes = yield this.findAnime({ english: (_g = animeInfo.title) === null || _g === void 0 ? void 0 : _g.english, romaji: (_h = animeInfo.title) === null || _h === void 0 ? void 0 : _h.romaji }, data.data.Media.season, data.data.Media.startDate.year, animeInfo.malId);
                 if (possibleAnimeEpisodes) {
                     animeInfo.episodes = possibleAnimeEpisodes;
@@ -201,7 +229,6 @@ class Anilist extends models_1.AnimeParser {
                         });
                     });
                     const possibleSource = sites.find((s) => s.page.toLocaleLowerCase() === this.provider.name.toLocaleLowerCase());
-                    console.log(possibleSource);
                     if (possibleSource)
                         possibleAnime = yield this.provider.fetchAnimeInfo(possibleSource.url.split('/').pop());
                     else
@@ -281,6 +308,51 @@ class Anilist extends models_1.AnimeParser {
                     Accept: 'application/json',
                 },
                 query: (0, utils_1.anilistTrendingAnimeQuery)(page, perPage),
+            };
+            try {
+                const { data } = yield axios_1.default.post(this.anilistGraphqlUrl, options);
+                const res = {
+                    currentPage: data.data.Page.pageInfo.currentPage,
+                    hasNextPage: data.data.Page.pageInfo.hasNextPage,
+                    results: data.data.Page.media.map((item) => {
+                        var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l;
+                        return ({
+                            id: item.id.toString(),
+                            malId: item.idMal,
+                            title: {
+                                romaji: item.title.romaji,
+                                english: item.title.english,
+                                native: item.title.native,
+                                userPreferred: item.title.userPreferred,
+                            } || item.title.romaji,
+                            image: (_b = (_a = item.coverImage.large) !== null && _a !== void 0 ? _a : item.coverImage.medium) !== null && _b !== void 0 ? _b : item.coverImage.small,
+                            trailer: {
+                                id: (_c = item.trailer) === null || _c === void 0 ? void 0 : _c.id,
+                                site: (_d = item.trailer) === null || _d === void 0 ? void 0 : _d.site,
+                                thumbnail: (_e = item.trailer) === null || _e === void 0 ? void 0 : _e.thumbnail,
+                            },
+                            cover: (_h = (_g = (_f = item.bannerImage) !== null && _f !== void 0 ? _f : item.coverImage.large) !== null && _g !== void 0 ? _g : item.coverImage.medium) !== null && _h !== void 0 ? _h : item.coverImage.small,
+                            rating: item.averageScore,
+                            releaseDate: item.seasonYear,
+                            totalEpisodes: isNaN(item.episodes) ? 0 : (_l = (_j = item.episodes) !== null && _j !== void 0 ? _j : ((_k = item.nextAiringEpisode) === null || _k === void 0 ? void 0 : _k.episode) - 1) !== null && _l !== void 0 ? _l : 0,
+                            duration: item.duration,
+                            type: item.format,
+                        });
+                    }),
+                };
+                return res;
+            }
+            catch (err) {
+                throw new Error(err.message);
+            }
+        });
+        this.fetchPopularAnime = (page = 1, perPage = 10) => __awaiter(this, void 0, void 0, function* () {
+            const options = {
+                headers: {
+                    'Content-Type': 'application/json',
+                    Accept: 'application/json',
+                },
+                query: (0, utils_1.anilistPopularAnimeQuery)(page, perPage),
             };
             try {
                 const { data } = yield axios_1.default.post(this.anilistGraphqlUrl, options);

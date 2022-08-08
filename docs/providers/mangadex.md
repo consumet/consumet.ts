@@ -41,7 +41,7 @@ output:
          {...},
          ...
       ],
-      descitption: "Katagiri Yuichi believes that friends are more important than money, but he also knows the hardships of not having enough funds. He works hard to save up in ...",
+      description: "Katagiri Yuichi believes that friends are more important than money, but he also knows the hardships of not having enough funds. He works hard to save up in ...",
       status: 'ongoing',
       releaseDate: 2013,
       contentRating: 'suggestive',
@@ -79,7 +79,7 @@ output:
     {...},
     ...
   ],
-  descitption: {
+  description: {
     en: "Katagiri Yuichi believes that friends are more important than money, but he also knows the hardships ...',
     pl: 'Dziękujemy za wpłatę dwudziestu milionów jenów! W ten sposób dołączyliście do jedynej w swoim rodzaju gry przyjaciół! Witajcie...",
     ...
