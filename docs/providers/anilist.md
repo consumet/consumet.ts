@@ -11,6 +11,7 @@ const anilist = new META.Anilist();
 
 - [search](#search)
 - [fetchTrendingAnime](#fetchtrendinganime)
+- [fetchPopularAnime](#fetchpopularanime)
 - [fetchAnimeInfo](#fetchanimeinfo)
 - [fetchEpisodeSources](#fetchepisodesources)
 
@@ -78,6 +79,68 @@ output:
 
 ```ts
 anilist.fetchTrendingAnime().then(data => {
+  console.log(data);
+}
+```
+
+returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
+output:
+```ts
+{
+  currentPage: 1,
+  hasNextPage: true,
+  results: [
+    {
+      id: '153288',
+      malId: null,
+      title: {
+          romaji: 'Kaijuu 8-gou',
+          english: 'Kaiju No.8',
+          native: '怪獣８号',
+          userPreferred: 'Kaijuu 8-gou'
+      },
+      image: 'https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx153288-INFE21hHhAUD.jpg',
+      trailer: {
+          id: '-MaTda-Ws3Y',
+          site: 'youtube',
+          thumbnail: 'https://i.ytimg.com/vi/-MaTda-Ws3Y/hqdefault.jpg'
+      },
+      cover: 'https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx153288-INFE21hHhAUD.jpg',
+      rating: null,
+      releaseDate: null,
+      totalEpisodes: 0,
+      duration: null,
+      type: null
+    },
+    {
+      id: '130592',
+      malId: 48413,
+      title: {...},
+      image: 'https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx130592-LAUlhx15mxQu.jpg',
+      trailer: {...},
+      cover: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/130592-WPfrW1SR4dnY.jpg',
+      rating: 74,
+      releaseDate: 2022,
+      totalEpisodes: 12,
+      duration: 24,
+      score: 75,
+      type: 'TV'
+    },
+  ]
+}
+```
+
+### fetchPopularAnime
+
+<h4>Parameters</h4>
+
+| Parameter          | Type     | Description                 |
+| ------------------ | -------- | --------------------------- |
+| page (optional)    | `number` | page number to search for.  |
+| perPage (optional) | `number` | number of results per page. |
+
+```ts
+anilist.fetchPopularAnime().then(data => {
   console.log(data);
 }
 ```
