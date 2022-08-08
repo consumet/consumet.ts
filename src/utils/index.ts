@@ -11,6 +11,7 @@ import {
   kitsuSearchQuery,
   range,
   anilistTrendingAnimeQuery,
+  anilistPopularAnimeQuery,
 } from './utils';
 import { parsePostInfo } from './getComics';
 import { countDivs } from './zLibrary';
@@ -37,4 +38,5 @@ export {
   StreamTape,
   VizCloud,
   anilistTrendingAnimeQuery,
+  anilistPopularAnimeQuery,
 };
