@@ -32,7 +32,7 @@ class MangaDex extends models_1.MangaParser {
                     id: data.data.id,
                     title: data.data.attributes.title.en,
                     altTtitles: data.data.attributes.altTitles,
-                    descitption: data.data.attributes.description,
+                    description: data.data.attributes.description,
                     genres: data.data.attributes.tags
                         .filter((tag) => tag.attributes.group === 'genre')
                         .map((tag) => tag.attributes.name.en),
@@ -103,7 +103,7 @@ class MangaDex extends models_1.MangaParser {
                             id: manga.id,
                             title: Object.values(manga.attributes.title)[0],
                             altTitles: manga.attributes.altTitles,
-                            descitption: Object.values(manga.attributes.description)[0],
+                            description: Object.values(manga.attributes.description)[0],
                             status: manga.attributes.status,
                             releaseDate: manga.attributes.year,
                             contentRating: manga.attributes.contentRating,
