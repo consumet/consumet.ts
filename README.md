@@ -112,7 +112,7 @@ You can contact the maintainers of consumet.ts via [email](mailto:consumet.org@g
 ## Contributors
 Thanks to the following people who have contributed to this repo:
 
-[![](https://avatars.githubusercontent.com/u/57333995?s=50)](https://github.com/riimuru) [![](https://avatars.githubusercontent.com/u/80477926?s=50)](https://github.com/prince-ao)
+[![](https://avatars.githubusercontent.com/u/57333995?s=50)](https://github.com/riimuru) [![](https://avatars.githubusercontent.com/u/80477926?s=50)](https://github.com/prince-ao) [![](https://avatars.githubusercontent.com/u/98132263?s=50)](https://github.com/JLdev0)
 
 ## License
 Licensed under [MIT](./LICENSE).
