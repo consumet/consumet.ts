@@ -339,7 +339,7 @@ class Anilist extends AnimeParser {
 
     const newEpisodeList: IAnimeEpisode[] = [];
 
-    if (episodesList.size !== 0 || possibleProviderEpisodes?.length !== 0) {
+    if (possibleProviderEpisodes?.length !== 0) {
       possibleProviderEpisodes?.forEach((ep: any, i: any) => {
         const j = (i + 1).toString();
         newEpisodeList.push({
