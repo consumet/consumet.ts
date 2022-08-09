@@ -75,5 +75,46 @@ export const anilistTrendingAnimeQuery = (page: number = 1, perPage: number = 20
   `query ($page: Int = ${page}, $id: Int, $type: MediaType = ANIME, $isAdult: Boolean = false, $size: Int = ${perPage}, $sort: [MediaSort] = [TRENDING_DESC, POPULARITY_DESC]) { Page(page: $page, perPage: $size) { pageInfo { total perPage currentPage lastPage hasNextPage } media(id: $id, type: $type, isAdult: $isAdult, sort: $sort) { id idMal status(version: 2) title { userPreferred romaji english native } trailer { id site thumbnail } description format bannerImage coverImage{ extraLarge large medium color } episodes meanScore duration season seasonYear averageScore nextAiringEpisode { airingAt timeUntilAiring episode }  } } }`;
 export const anilistPopularAnimeQuery = (page: number = 1, perPage: number = 20) =>
   `query ($page: Int = ${page}, $id: Int, $type: MediaType = ANIME, $isAdult: Boolean = false, $size: Int = ${perPage}, $sort: [MediaSort] = [POPULARITY_DESC]) { Page(page: $page, perPage: $size) { pageInfo { total perPage currentPage lastPage hasNextPage } media(id: $id, type: $type, isAdult: $isAdult, sort: $sort) { id idMal status(version: 2) title { userPreferred romaji english native } trailer { id site thumbnail } format bannerImage description coverImage { extraLarge large medium color } episodes meanScore duration season seasonYear averageScore nextAiringEpisode { airingAt timeUntilAiring episode }  } } }`;
+
+export const anilistAiringScheduleQuery = (page: number = 1, perPage: number = 20, greater: number , lesser: number, notYetAired: boolean = true) => 
+`query {
+  Page(page: ${page}, perPage: ${perPage}) {
+    pageInfo {
+      total
+      perPage
+      currentPage
+      lastPage
+      hasNextPage
+    }
+    airingSchedules(
+      notYetAired: ${notYetAired}, airingAt_greater: ${greater}, airingAt_lesser: ${lesser}) {
+      airingAt
+      episode
+      media {
+        id
+        description
+        idMal
+        title {
+          romaji
+          english
+          userPreferred
+          native
+        }
+        bannerImage
+        coverImage {
+          extraLarge
+          large
+          medium
+          color
+        }
+        genres
+        averageScore
+        seasonYear
+        format
+      }
+    }
+  }
+}`;
+
 export const kitsuSearchQuery = (query: string) =>
   `query{searchAnimeByTitle(first:5, title:"${query}"){ nodes {id season startDate titles { localized } episodes(first: 2000){ nodes { number titles { canonical } description thumbnail { original { url } } } } } } }`;
