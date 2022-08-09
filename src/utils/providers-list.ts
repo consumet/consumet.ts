@@ -6,7 +6,13 @@ import { ANIME, MANGA, BOOKS, COMICS, LIGHT_NOVELS, MOVIES, META } from '../prov
  * add new providers here (order does not matter)
  */
 export const PROVIDERS_LIST = {
-  ANIME: [new ANIME.Gogoanime(), new ANIME.NineAnime(), new ANIME.AnimePahe(), new ANIME.Zoro()],
+  ANIME: [
+    new ANIME.Gogoanime(),
+    new ANIME.NineAnime(),
+    new ANIME.AnimePahe(),
+    new ANIME.Zoro(),
+    new ANIME.AniMixPlay(),
+  ],
   MANGA: [new MANGA.MangaDex(), new MANGA.MangaHere(), new MANGA.MangaKakalot()],
   BOOKS: [new BOOKS.Libgen()],
   COMICS: [new COMICS.GetComics()],

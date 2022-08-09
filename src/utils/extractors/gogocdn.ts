@@ -23,10 +23,7 @@ class GogoCDN extends VideoExtractor {
     const res = await axios.get(videoUrl.href);
     const $ = load(res.data);
 
-    const encyptedParams = await this.generateEncryptedAjaxParams(
-      $,
-      videoUrl.searchParams.get('id') ?? ''
-    );
+    const encyptedParams = await this.generateEncryptedAjaxParams($, videoUrl.searchParams.get('id') ?? '');
 
     const encryptedData = await axios.get(
       `${videoUrl.protocol}//${videoUrl.hostname}/encrypt-ajax.php?${encyptedParams}`,

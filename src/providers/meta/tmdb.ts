@@ -18,12 +18,15 @@ import {
 import { anilistSearchQuery, anilistMediaDetailQuery, kitsuSearchQuery } from '../../utils';
 import Gogoanime from '../../providers/anime/gogoanime';
 
+/**
+ * Work in progress
+ */
 class Tmdb extends MovieParser {
   override readonly name = 'Tmbd';
   protected override baseUrl = 'https://www.themoviedb.org/';
   protected override logo =
     'https://img.flixhq.to/xxrz/400x400/100/ab/5f/ab5f0e1996cc5b71919e10e910ad593e/ab5f0e1996cc5b71919e10e910ad593e.png';
-  protected override classPath = 'MOVIES.FlixHQ';
+  protected override classPath = 'MOVIES.Tmbd';
   override supportedTypes = new Set([TvType.MOVIE, TvType.TVSERIES, TvType.ANIME]);
 
   private provider: AnimeParser | MovieParser;
