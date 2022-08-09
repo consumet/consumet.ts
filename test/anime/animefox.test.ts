@@ -12,7 +12,6 @@ test('returns a filled object of anime data', async () => {
   const animefox = new ANIME.AnimeFox();
   const res = await animefox.search('Overlord IV');
   const data = await animefox.fetchAnimeInfo(res.results[0].id); // Overlord IV id
-
   expect(data).not.toBeNull();
   expect(data.description).not.toBeNull();
   expect(data.episodes).not.toEqual([]);

@@ -44,10 +44,10 @@ class AnimeFox extends AnimeParser {
             searchResults.push({
                 id: $(el).find('div.film-poster > a').attr('href')?.replace('/anime/', '')!,
                 title: $(el).find('div.film-poster > img').attr('alt')!,
-                type: $(el).find('div.film-poster > img').attr('alt')!,
+                type: $(el).find('div.fd-infor > span').text()!,
                 image: $(el).find('div.fd-infor > span:nth-child(1)').text()!,
                 url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`!,
-                episodeNumber: parseInt($(el).find('div.tick-eps').text().replace('EP', '').trim())!,
+                episode: parseInt($(el).find('div.tick-eps').text().replace('EP', '').trim())!,
             });
         }) 
         return {
@@ -98,10 +98,10 @@ override fetchAnimeInfo = async (id: string): Promise<IAnimeInfo> => {
         episodes.forEach((element, i) => (
             info.episodes?.push(
             {
-               id: id + '-episode-' + (i + 1),
+               id: `${id}-episode-${i + 1}`,
                number: i + 1,
                title: `${info.title} Episode ${i + 1}`,
-               url: `${this.baseUrl}/watch/${id}`
+               url: `${this.baseUrl}/watch/${id}-episode-${i + 1}`
             }
             )
         ));
@@ -135,7 +135,7 @@ override fetchAnimeInfo = async (id: string): Promise<IAnimeInfo> => {
            image: $(el).find('div.film-poster > img').attr('data-src')!,
            title: $(el).find('div.film-poster > img').attr('alt')!,
            url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}!`,
-           episodeNumber: parseInt($(el).find('div.tick-eps').text().replace('EP ', '').split('/')[0])!,
+           episode: parseInt($(el).find('div.tick-eps').text().replace('EP ', '').split('/')[0])!,
          });
        })  
  

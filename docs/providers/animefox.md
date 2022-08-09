@@ -12,8 +12,6 @@ const animefox = new ANIME.AnimeFox();
 - [fetchRecentEpisodes](#fetchrecentepisodes)
 
 ### fetchRecentEpisodes
-> Note: This method is a subclass of the [`BaseParser`](https://github.com/consumet/extensions/blob/master/src/models/base-parser.ts) class. meaning it is available across most categories.
-
 
 <h4>Parameters</h4>
 
@@ -27,34 +25,33 @@ animefox.fetchRecentEpisodes().then(data => {
 }
 ```
 
-returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
-output:
+
 ```js
 {
     currentPage: 1,
     hasNextPage: true,
     results: [
-    {
-        id: 'kinsou-no-vermeil-gakeppuchi-majutsushi-wa-saikyou-no-yakusai-to-mahou-sekai-wo-tsukisusumu-episode-6',
-        image: 'https://cdn.animefox.tv/cover/kinsou-no-vermeil-gakeppuchi-majutsushi-wa-saikyou-no-yakusai-to-mahou-sekai-wo-tsukisusumu.png',
-        title: 'Kinsou no Vermeil: Gakeppuchi Majutsushi wa Saikyou no Yakusai to Mahou Sekai wo Tsukisusumu',
-        url: 'https://animefox.tv/watch/kinsou-no-vermeil-gakeppuchi-majutsushi-wa-saikyou-no-yakusai-to-mahou-sekai-wo-tsukisusumu-episode-6!',
-        episodeNumber: 6
-    },
-    {
-        id: 'overlord-iv-episode-6',
-        image: 'https://cdn.animefox.tv/cover/overlord-iv.png',
-        title: 'Overlord IV',
-        url: 'https://animefox.tv/watch/overlord-iv-episode-6!',
-        episodeNumber: 6
-    },
-    {
-        id: 'sekai-no-owari-ni-shiba-inu-to-episode-5',
-        image: 'https://cdn.animefox.tv/cover/sekai-no-owari-ni-shiba-inu-to.png',
-        title: 'Sekai no Owari ni Shiba Inu to',
-        url: 'https://animefox.tv/watch/sekai-no-owari-ni-shiba-inu-to-episode-5!',
-        episodeNumber: 5
-    },
+        {
+          id: 'kinsou-no-vermeil-gakeppuchi-majutsushi-wa-saikyou-no-yakusai-to-mahou-sekai-wo-tsukisusumu-episode-6',
+          image: 'https://cdn.animefox.tv/cover/kinsou-no-vermeil-gakeppuchi-majutsushi-wa-saikyou-no-yakusai-to-mahou-sekai-wo-tsukisusumu.png',
+          title: 'Kinsou no Vermeil: Gakeppuchi Majutsushi wa Saikyou no Yakusai to Mahou Sekai wo Tsukisusumu',
+          url: 'https://animefox.tv/watch/kinsou-no-vermeil-gakeppuchi-majutsushi-wa-saikyou-no-yakusai-to-mahou-sekai-wo-tsukisusumu-episode-6!',
+          episode: 6
+        },
+        {
+          id: 'overlord-iv-episode-6',
+          image: 'https://cdn.animefox.tv/cover/overlord-iv.png',
+          title: 'Overlord IV',
+          url: 'https://animefox.tv/watch/overlord-iv-episode-6!',
+          episode: 6
+        },
+        {
+          id: 'sekai-no-owari-ni-shiba-inu-to-episode-5',
+          image: 'https://cdn.animefox.tv/cover/sekai-no-owari-ni-shiba-inu-to.png',
+          title: 'Sekai no Owari ni Shiba Inu to',
+          url: 'https://animefox.tv/watch/sekai-no-owari-ni-shiba-inu-to-episode-5!',
+          episode: 5
+        },
     {...},
     ...
     ]
@@ -62,7 +59,6 @@ output:
 ```
 
 ### search
-> Note: This method is a subclass of the [`BaseParser`](https://github.com/consumet/extensions/blob/master/src/models/base-parser.ts) class. meaning it is available across most categories.
 
 
 <h4>Parameters</h4>
@@ -90,7 +86,7 @@ output:
         type: 'Overlord IV',
         image: 'Summer 2022 ',
         url: 'https://animefox.tv/anime/overlord-iv',
-        episodeNumber: 6
+        episode: 6
     },
     {
         id: 'overlord-iv-dub',
@@ -98,7 +94,7 @@ output:
         type: 'Overlord IV (Dub)',
         image: 'TV Series',
         url: 'https://animefox.tv/anime/overlord-iv-dub',
-        episodeNumber: 3
+        episode: 3
     },
     {...}
     ...
@@ -116,7 +112,7 @@ output:
 
 
 ```ts
-animefox.fetchAnimeInfo("overlord-iv-18075").then(data => {
+animefox.fetchAnimeInfo("overlord-iv").then(data => {
   console.log(data);
 }
 ```
@@ -134,18 +130,18 @@ output:
     status: 'Ongoing',
     totalEpisodes: 6,
     url: 'https://animefox.tv/overlord-iv',
-    episodes: [
+      episodes: [
         {
-        id: 'overlord-iv-1',
-        number: 1,
-        title: 'Overlord IV Episode 1',
-        url: 'https://animefox.tv/watch/overlord-iv'
+          id: 'overlord-iv-episode-1',
+          number: 1,
+          title: 'Overlord IV Episode 1',
+          url: 'https://animefox.tv/watch/overlord-iv-episode-1'
         },
         {
-        id: 'overlord-iv-2',
-        number: 2,
-        title: 'Overlord IV Episode 2',
-        url: 'https://animefox.tv/watch/overlord-iv'
+          id: 'overlord-iv-episode-2',
+          number: 2,
+          title: 'Overlord IV Episode 2',
+          url: 'https://animefox.tv/watch/overlord-iv-episode-2'
         },
         {...},
         ...
