@@ -14,4 +14,5 @@ export declare const anilistSearchQuery: (query: string, page: number, perPage: 
 export declare const anilistMediaDetailQuery: (id: string) => string;
 export declare const anilistTrendingAnimeQuery: (page?: number, perPage?: number) => string;
 export declare const anilistPopularAnimeQuery: (page?: number, perPage?: number) => string;
+export declare const anilistAiringScheduleQuery: (page: number | undefined, perPage: number | undefined, weekStart: number, weekEnd: number, notYetAired: boolean) => string;
 export declare const kitsuSearchQuery: (query: string) => string;

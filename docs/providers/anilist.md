@@ -13,8 +13,8 @@ const anilist = new META.Anilist();
 - [fetchTrendingAnime](#fetchtrendinganime)
 - [fetchPopularAnime](#fetchpopularanime)
 - [fetchAnimeInfo](#fetchanimeinfo)
-- [fetchEpisodeSources](#fetchepisodesources)
 - [fetchAiringSchedule](#fetchairingschedule)
+- [fetchEpisodeSources](#fetchepisodesources)
 
 ### search
 
@@ -279,13 +279,13 @@ output:
 
 <h4>Parameters</h4>
 
-| Parameter          | Type     | Description                 |
-| ------------------ | -------- | --------------------------- |
-| page (optional)    | `number` | page number to search for.  |
-| perPage (optional) | `number` | number of results per page. |
-| greater | `number` | Filter by the time of airing. |
-| lesser | `number` | Filter by the time of airing. |
-| notYetAired (optional) | `boolean` | Filter to episodes that haven't yet aired. |
+| Parameter              | Type      | Description                                                                                                                                                                        |
+| ---------------------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| page (optional)        | `number`  | page number to search for.                                                                                                                                                         |
+| perPage (optional)     | `number`  | number of results per page.                                                                                                                                                        |
+| weekStart              | `number`  | Filter by the time of airing. eg. if you set weekStart to this week's monday, and set weekEnd to next week's sunday, you will get all the airing anime in between these two dates. |
+| weekEnd                | `number`  | Filter by the time of airing.                                                                                                                                                      |
+| notYetAired (optional) | `boolean` | Filter to episodes that haven't yet aired. (default: false)                                                                                                                        |
 
 
 ```ts
@@ -305,16 +305,14 @@ output:
         {
           id: '133844',
           malId: 48895,
-          currentEpisode: 6,
+          episode: 6,
           airingAt: 1660050000,
-          title: [
-            {
-              romaji:,
-              english:,
-              userPreferred:,
-              native:,
-            }
-          ],
+          title: {
+            romaji: 'SHINE POST',
+            english: 'SHINEPOST',
+            native: 'シャインポスト',
+            userPreferred: 'SHINE POST'
+          },
           image: 'https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx133844-E32FjKZ0XxEs.jpg',
           description: 'The fourth season of <i>Overlord</i>.',
           cover: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/133844-uIaUmh5aJX3M.jpg',
@@ -325,14 +323,14 @@ output:
         {
           id: '146210',
           malId: 51213,
-          currentEpisode: 6,
+          episode: 6,
           airingAt: 1660051800,
-          title: [{
-              romaji:,
-              english:,
-              userPreferred:,
-              native:,
-            }],
+          title: {
+            romaji: 'Jashin-chan Dropkick X',
+            english: 'Dropkick on My Devil!!! X',
+            native: '邪神ちゃんドロップキックX',
+            userPreferred: 'Jashin-chan Dropkick X'
+          },
           image: 'https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx146210-ZnIithxFLLHn.jpg',
           description: 'Meet Alto, a hapless student at Royal Ortigia Magic Academy whose academic performance leaves much to be desired. Rather than take a more sensible approach to salvaging his grades in time for graduation',
           cover: 'https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx146210-ZnIithxFLLHn.jpg',
