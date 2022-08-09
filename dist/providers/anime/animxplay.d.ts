@@ -13,9 +13,9 @@ declare class AniMixPlay extends AnimeParser {
     /**
      *
      * @param id anime id
-     * @param isDub whether to get dub version of the anime
+     * @param dub whether to get dub version of the anime
      */
-    fetchAnimeInfo: (id: string, isDub?: boolean) => Promise<IAnimeInfo>;
+    fetchAnimeInfo: (id: string, dub?: boolean) => Promise<IAnimeInfo>;
     /**
      *
      * @param episodeId episode id

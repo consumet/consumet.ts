@@ -46,10 +46,10 @@ output:
 
 <h4>Parameters</h4>
 
-| Parameter        | Type      | Description                                                                                               |
-| ---------------- | --------- | --------------------------------------------------------------------------------------------------------- |
-| id               | `string`  | takes anime id as a parameter. (*anime id can be found in the anime search results or anime info object*) |
-| isDub (optional) | `boolean` | if true, will return dubbed episodes. (default: false)                                                    |
+| Parameter      | Type      | Description                                                                                               |
+| -------------- | --------- | --------------------------------------------------------------------------------------------------------- |
+| id             | `string`  | takes anime id as a parameter. (*anime id can be found in the anime search results or anime info object*) |
+| dub (optional) | `boolean` | if true, will return dubbed episodes. (default: false)                                                    |
 
 
 ```ts

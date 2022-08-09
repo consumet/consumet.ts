@@ -184,21 +184,11 @@ class Anilist extends AnimeParser {
         { english: animeInfo.title?.english!, romaji: animeInfo.title?.romaji! },
         data.data.Media.season!,
         data.data.Media.startDate.year,
-        animeInfo.malId as number
+        animeInfo.malId as number,
+        dub
       );
 
-      if (possibleAnimeEpisodes) {
-        animeInfo.episodes = possibleAnimeEpisodes;
-        if (this.provider.name === 'Gogoanime' && dub) {
-          animeInfo.episodes = animeInfo.episodes.map((episode: IAnimeEpisode) => {
-            const [episodeSlug, episodeNumber] = episode.id.split('-episode-')[0];
-            episode.id = `${episodeSlug.replace(/-movie$/, '')}-dub-episode-${episodeNumber}`;
-            return episode;
-          });
-        }
-      }
-
-      animeInfo.episodes = animeInfo.episodes?.map((episode: IAnimeEpisode) => {
+      animeInfo.episodes = possibleAnimeEpisodes?.map((episode: IAnimeEpisode) => {
         if (!episode.image) {
           episode.image = animeInfo.image;
         }
@@ -231,7 +221,8 @@ class Anilist extends AnimeParser {
     title: { romaji: string; english: string },
     season: string,
     startDate: number,
-    malId: number
+    malId: number,
+    dub: boolean
   ): Promise<IAnimeEpisode[]> => {
     title.english = title.english || title.romaji;
     title.romaji = title.romaji || title.english;
@@ -240,16 +231,16 @@ class Anilist extends AnimeParser {
     title.romaji = title.romaji.toLocaleLowerCase();
 
     if (title.english === title.romaji) {
-      return await this.findAnimeSlug(title.english, season, startDate, malId);
+      return await this.findAnimeSlug(title.english, season, startDate, malId, dub);
     }
 
-    const romajiPossibleEpisodes = this.findAnimeSlug(title.romaji, season, startDate, malId);
+    const romajiPossibleEpisodes = this.findAnimeSlug(title.romaji, season, startDate, malId, dub);
 
     if (romajiPossibleEpisodes) {
       return romajiPossibleEpisodes;
     }
 
-    const englishPossibleEpisodes = this.findAnimeSlug(title.english, season, startDate, malId);
+    const englishPossibleEpisodes = this.findAnimeSlug(title.english, season, startDate, malId, dub);
     return englishPossibleEpisodes;
   };
 
@@ -257,7 +248,8 @@ class Anilist extends AnimeParser {
     title: string,
     season: string,
     startDate: number,
-    malId: number
+    malId: number,
+    dub: boolean
   ): Promise<IAnimeEpisode[]> => {
     const slug = title.replace(/[^0-9a-zA-Z]+/g, ' ');
 
@@ -272,16 +264,23 @@ class Anilist extends AnimeParser {
 
       if (malAsyncReq.status === 200) {
         const sitesT = malAsyncReq.data.Sites as {
-          [k: string]: { [k: string]: { url: string; page: string } };
+          [k: string]: { [k: string]: { url: string; page: string; title: string } };
         };
-        const sites = Object.values(sitesT).map((v, i) => ({
-          page: Object.values(Object.values(sitesT)[i])[0]?.page,
-          url: Object.values(Object.values(sitesT)[i])[0]?.url,
-        }));
+        let sites = Object.values(sitesT).map((v, i) => {
+          const obj = [...Object.values(Object.values(sitesT)[i])];
+          const gogos = obj.filter((v) => v.page.toLowerCase() === this.provider.name.toLocaleLowerCase());
+          const pages = obj.map((v) => ({ page: v.page, url: v.url, title: v.title }));
+          return pages;
+        }) as any[];
+
+        sites = sites.flat();
 
         const possibleSource = sites.find(
-          (s) => s.page.toLocaleLowerCase() === this.provider.name.toLocaleLowerCase()
+          (s) =>
+            s.page.toLocaleLowerCase() === this.provider.name.toLocaleLowerCase() &&
+            (dub ? s.title.toLocaleLowerCase().includes('dub') : !s.title.toLocaleLowerCase().includes('dub'))
         );
+
         if (possibleSource)
           possibleAnime = await this.provider.fetchAnimeInfo(possibleSource.url.split('/').pop()!);
         else possibleAnime = await this.findAnimeRaw(slug);

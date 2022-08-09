@@ -50,12 +50,12 @@ class AniMixPlay extends models_1.AnimeParser {
         /**
          *
          * @param id anime id
-         * @param isDub whether to get dub version of the anime
+         * @param dub whether to get dub version of the anime
          */
-        this.fetchAnimeInfo = (id, isDub = false) => __awaiter(this, void 0, void 0, function* () {
+        this.fetchAnimeInfo = (id, dub = false) => __awaiter(this, void 0, void 0, function* () {
             var _a;
             if (!id.startsWith('http'))
-                id = `${this.baseUrl}${isDub ? `${id}-dub` : id}`;
+                id = `${this.baseUrl}${dub ? `${id}-dub` : id}`;
             const animeInfo = {
                 id: id.split(this.baseUrl)[1],
                 title: '',

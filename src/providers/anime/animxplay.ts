@@ -52,10 +52,10 @@ class AniMixPlay extends AnimeParser {
   /**
    *
    * @param id anime id
-   * @param isDub whether to get dub version of the anime
+   * @param dub whether to get dub version of the anime
    */
-  override fetchAnimeInfo = async (id: string, isDub = false): Promise<IAnimeInfo> => {
-    if (!id.startsWith('http')) id = `${this.baseUrl}${isDub ? `${id}-dub` : id}`;
+  override fetchAnimeInfo = async (id: string, dub = false): Promise<IAnimeInfo> => {
+    if (!id.startsWith('http')) id = `${this.baseUrl}${dub ? `${id}-dub` : id}`;
 
     const animeInfo: IAnimeInfo = {
       id: id.split(this.baseUrl)[1],
