@@ -84,7 +84,7 @@ class FlixHQ extends models_1.MovieParser {
                 movieInfo.genres = $('div.row-line:nth-child(2) > a')
                     .map((i, el) => $(el).text().split('&'))
                     .get()
-                    .map((v) => v.trim());
+                    .map(v => v.trim());
                 movieInfo.casts = $('div.row-line:nth-child(5) > a')
                     .map((i, el) => $(el).text())
                     .get();
@@ -170,7 +170,7 @@ class FlixHQ extends models_1.MovieParser {
             }
             try {
                 const servers = yield this.fetchEpisodeServers(episodeId, mediaId);
-                const i = servers.findIndex((s) => s.name === server);
+                const i = servers.findIndex(s => s.name === server);
                 if (i === -1) {
                     throw new Error(`Server ${server} not found`);
                 }

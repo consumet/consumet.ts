@@ -219,11 +219,11 @@ class Anilist extends models_1.AnimeParser {
                     const sitesT = malAsyncReq.data.Sites;
                     let sites = Object.values(sitesT).map((v, i) => {
                         const obj = [...Object.values(Object.values(sitesT)[i])];
-                        const pages = obj.map((v) => ({ page: v.page, url: v.url, title: v.title }));
+                        const pages = obj.map(v => ({ page: v.page, url: v.url, title: v.title }));
                         return pages;
                     });
                     sites = sites.flat();
-                    const possibleSource = sites.find((s) => s.page.toLowerCase() === this.provider.name.toLowerCase() &&
+                    const possibleSource = sites.find(s => s.page.toLowerCase() === this.provider.name.toLowerCase() &&
                         (dub ? s.title.toLowerCase().includes('dub') : !s.title.toLowerCase().includes('dub')));
                     if (possibleSource)
                         possibleAnime = yield this.provider.fetchAnimeInfo(possibleSource.url.split('/').pop());

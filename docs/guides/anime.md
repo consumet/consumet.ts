@@ -16,6 +16,7 @@ const animeProvider = ANIME.<providerName>();
 This list is in alphabetical order. (except the sub bullet points)
 
 - [9anime](../providers/9anime.md)
+- [AnimeFox](../providers/animefox.md)
 - [AnimePahe](../providers/animepahe.md)
 - [AniMixPlay](../providers/animixplay.md)
 - [Gogoanime](../providers/gogoanime.md)

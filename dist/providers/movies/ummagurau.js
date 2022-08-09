@@ -75,7 +75,7 @@ class Ummangurau extends models_1.MovieParser {
                     .text()
                     .trim()
                     .split(', ')
-                    .map((v) => v.trim());
+                    .map(v => v.trim());
             }
             catch (err) {
                 throw new Error(err.message);

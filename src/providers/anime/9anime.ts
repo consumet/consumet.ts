@@ -27,8 +27,23 @@ class NineAnime extends AnimeParser {
   protected override classPath = 'ANIME.NineAnime';
 
   private readonly table = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
-  private readonly key = 'oZH6q4X4VAIHk0Ol';
-  private readonly key2 = 'hlPeNwkncH0fq9so';
+  private cipherKey = '';
+  private decipherKey = '';
+
+  async init() {
+    const {
+      data: { cipher, decipher },
+    } = await axios.get('https://raw.githubusercontent.com/chenkaslowankiya/BruvFlow/main/keys.json');
+    this.cipherKey = cipher;
+    this.decipherKey = decipher;
+  }
+
+  static async create() {
+    const nineanime = new NineAnime();
+    await nineanime.init();
+
+    return nineanime;
+  }
 
   override async search(query: string, page: number = 1): Promise<ISearch<IAnimeResult>> {
     const searchResult: ISearch<IAnimeResult> = {
@@ -157,7 +172,7 @@ class NineAnime extends AnimeParser {
       animeInfo.otherNames = $('.names')
         .text()
         .split('; ')
-        .map((name) => name?.trim());
+        .map(name => name?.trim());
 
       const id = $('#watch-main').attr('data-id')!;
 
@@ -225,18 +240,18 @@ class NineAnime extends AnimeParser {
     try {
       const servers = await this.fetchEpisodeServers(episodeId);
 
-      let s = servers.find((s) => s.name === server);
+      let s = servers.find(s => s.name === server);
       switch (server) {
         case StreamingServers.VizCloud:
-          s = servers.find((s) => s.name === 'vidstream')!;
+          s = servers.find(s => s.name === 'vidstream')!;
           if (!s) throw new Error('Vidstream server found');
           break;
         case StreamingServers.StreamTape:
-          s = servers.find((s) => s.name === 'streamtape');
+          s = servers.find(s => s.name === 'streamtape');
           if (!s) throw new Error('Streamtape server found');
           break;
         case StreamingServers.MyCloud:
-          s = servers.find((s) => s.name === 'mycloud');
+          s = servers.find(s => s.name === 'mycloud');
           if (!s) throw new Error('Mycloud server found');
           break;
         default:
@@ -282,11 +297,11 @@ class NineAnime extends AnimeParser {
   }
 
   private ev(query: string): string {
-    return this.encrypt(this.cipher(encode(query), this.key), this.table);
+    return this.encrypt(this.cipher(encode(query), this.cipherKey), this.table);
   }
 
   private dv(query: string): string {
-    return this.cipher(this.decrypt(query), this.key2);
+    return this.cipher(this.decrypt(query), this.decipherKey);
   }
 
   private cipher(query: string, key: string): string {
@@ -316,7 +331,7 @@ class NineAnime extends AnimeParser {
   }
 
   private encrypt(query: string, key: string): string {
-    query.split('').forEach((char) => {
+    query.split('').forEach(char => {
       if (char.charCodeAt(0) > 255) throw new Error('Invalid character.');
     });
 
