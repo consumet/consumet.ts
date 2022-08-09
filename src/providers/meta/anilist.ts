@@ -16,7 +16,7 @@ import {
   anilistMediaDetailQuery,
   kitsuSearchQuery,
   anilistTrendingAnimeQuery,
-  anilistPopularAnimeQuery
+  anilistPopularAnimeQuery,
 } from '../../utils';
 import Gogoanime from '../../providers/anime/gogoanime';
 
@@ -433,6 +433,7 @@ class Anilist extends AnimeParser {
             site: item.trailer?.site,
             thumbnail: item.trailer?.thumbnail,
           },
+          description: item.description,
           cover: item.bannerImage ?? item.coverImage.large ?? item.coverImage.medium ?? item.coverImage.small,
           rating: item.averageScore,
           releaseDate: item.seasonYear,
