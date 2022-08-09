@@ -8,7 +8,7 @@
         "build": "tsc",
         "version": "auto-changelog -p",
         "lint": "prettier --write .",
-        "prepare": "is-ci || husky install",
+
         "test": "jest",
         "test:anime": "jest ./test/anime",
         "test:books": "jest ./test/books/libgen.test.ts",

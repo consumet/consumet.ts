@@ -85,7 +85,8 @@ export declare enum StreamingServers {
     RapidCloud = "rapidcloud",
     StreamTape = "streamtape",
     VizCloud = "vizcloud",
-    MyCloud = "mycloud"
+    MyCloud = "mycloud",
+    Filemoon = "filemoon"
 }
 export declare enum MediaStatus {
     ONGOING = "Ongoing",

@@ -34,6 +34,8 @@ class VizCloud extends VideoExtractor {
       },
     });
 
+    if (!data.data?.media) throw new Error('Video not found');
+
     this.sources = data.data.media.sources.map((source: any) => ({
       url: source.file,
       isM3U8: source.file?.includes('.m3u8'),

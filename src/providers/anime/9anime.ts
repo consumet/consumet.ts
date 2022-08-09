@@ -14,7 +14,7 @@ import {
   ISource,
   StreamingServers,
 } from '../../models';
-import { range, StreamTape, USER_AGENT, VizCloud } from '../../utils';
+import { range, StreamTape, USER_AGENT, VizCloud, Filemoon } from '../../utils';
 
 /**
  * **Use at your own risk :)** 9anime devs keep changing the keys every week
@@ -235,6 +235,11 @@ class NineAnime extends AnimeParser {
             headers: { Referer: serverUrl.href, 'User-Agent': USER_AGENT },
             sources: await new VizCloud().extract(serverUrl, this.cipher, this.encrypt),
           };
+        case StreamingServers.Filemoon:
+          return {
+            headers: { Referer: serverUrl.href, 'User-Agent': USER_AGENT },
+            sources: await new Filemoon().extract(serverUrl),
+          };
       }
     }
     try {
@@ -253,6 +258,10 @@ class NineAnime extends AnimeParser {
         case StreamingServers.MyCloud:
           s = servers.find(s => s.name === 'mycloud');
           if (!s) throw new Error('Mycloud server found');
+          break;
+        case StreamingServers.Filemoon:
+          s = servers.find(s => s.name === 'filemoon');
+          if (!s) throw new Error('Filemoon server found');
           break;
         default:
           throw new Error('Server not found');

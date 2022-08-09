@@ -1,4 +1,14 @@
-import { GogoCDN, StreamSB, VidCloud, MixDrop, Kwik, RapidCloud, StreamTape, VizCloud } from './extractors';
+import {
+  GogoCDN,
+  StreamSB,
+  VidCloud,
+  MixDrop,
+  Kwik,
+  RapidCloud,
+  StreamTape,
+  VizCloud,
+  Filemoon,
+} from './extractors';
 import {
   USER_AGENT,
   splitAuthor,
@@ -41,4 +51,5 @@ export {
   anilistTrendingAnimeQuery,
   anilistPopularAnimeQuery,
   anilistAiringScheduleQuery,
+  Filemoon,
 };
