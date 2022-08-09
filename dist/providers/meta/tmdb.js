@@ -10,13 +10,16 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const models_1 = require("../../models");
+/**
+ * Work in progress
+ */
 class Tmdb extends models_1.MovieParser {
     constructor(provider) {
         super();
         this.name = 'Tmbd';
         this.baseUrl = 'https://www.themoviedb.org/';
         this.logo = 'https://img.flixhq.to/xxrz/400x400/100/ab/5f/ab5f0e1996cc5b71919e10e910ad593e/ab5f0e1996cc5b71919e10e910ad593e.png';
-        this.classPath = 'MOVIES.FlixHQ';
+        this.classPath = 'MOVIES.Tmbd';
         this.supportedTypes = new Set([models_1.TvType.MOVIE, models_1.TvType.TVSERIES, models_1.TvType.ANIME]);
         this.search = (query, page = 1) => __awaiter(this, void 0, void 0, function* () {
             throw new Error('Method not implemented.');

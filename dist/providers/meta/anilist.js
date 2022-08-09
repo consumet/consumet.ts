@@ -74,7 +74,7 @@ class Anilist extends models_1.AnimeParser {
          * @param dub to get dubbed episodes (optional) set to `true` to get dubbed episodes. **ONLY WORKS FOR GOGOANIME**
          */
         this.fetchAnimeInfo = (id, dub = false) => __awaiter(this, void 0, void 0, function* () {
-            var _a, _b, _c, _d, _e, _f, _g, _h, _j;
+            var _a, _b, _c, _d, _e, _f, _g, _h;
             const animeInfo = {
                 id: id,
                 title: '',
@@ -158,18 +158,8 @@ class Anilist extends models_1.AnimeParser {
                         score: item.node.mediaRecommendation.meanScore,
                     });
                 });
-                const possibleAnimeEpisodes = yield this.findAnime({ english: (_g = animeInfo.title) === null || _g === void 0 ? void 0 : _g.english, romaji: (_h = animeInfo.title) === null || _h === void 0 ? void 0 : _h.romaji }, data.data.Media.season, data.data.Media.startDate.year, animeInfo.malId);
-                if (possibleAnimeEpisodes) {
-                    animeInfo.episodes = possibleAnimeEpisodes;
-                    if (this.provider.name === 'Gogoanime' && dub) {
-                        animeInfo.episodes = animeInfo.episodes.map((episode) => {
-                            const [episodeSlug, episodeNumber] = episode.id.split('-episode-')[0];
-                            episode.id = `${episodeSlug.replace(/-movie$/, '')}-dub-episode-${episodeNumber}`;
-                            return episode;
-                        });
-                    }
-                }
-                animeInfo.episodes = (_j = animeInfo.episodes) === null || _j === void 0 ? void 0 : _j.map((episode) => {
+                const possibleAnimeEpisodes = yield this.findAnime({ english: (_g = animeInfo.title) === null || _g === void 0 ? void 0 : _g.english, romaji: (_h = animeInfo.title) === null || _h === void 0 ? void 0 : _h.romaji }, data.data.Media.season, data.data.Media.startDate.year, animeInfo.malId, dub);
+                animeInfo.episodes = possibleAnimeEpisodes === null || possibleAnimeEpisodes === void 0 ? void 0 : possibleAnimeEpisodes.map((episode) => {
                     if (!episode.image) {
                         episode.image = animeInfo.image;
                     }
@@ -195,22 +185,22 @@ class Anilist extends models_1.AnimeParser {
         this.fetchEpisodeServers = (episodeId) => __awaiter(this, void 0, void 0, function* () {
             return this.provider.fetchEpisodeServers(episodeId);
         });
-        this.findAnime = (title, season, startDate, malId) => __awaiter(this, void 0, void 0, function* () {
+        this.findAnime = (title, season, startDate, malId, dub) => __awaiter(this, void 0, void 0, function* () {
             title.english = title.english || title.romaji;
             title.romaji = title.romaji || title.english;
             title.english = title.english.toLocaleLowerCase();
             title.romaji = title.romaji.toLocaleLowerCase();
             if (title.english === title.romaji) {
-                return yield this.findAnimeSlug(title.english, season, startDate, malId);
+                return yield this.findAnimeSlug(title.english, season, startDate, malId, dub);
             }
-            const romajiPossibleEpisodes = this.findAnimeSlug(title.romaji, season, startDate, malId);
+            const romajiPossibleEpisodes = this.findAnimeSlug(title.romaji, season, startDate, malId, dub);
             if (romajiPossibleEpisodes) {
                 return romajiPossibleEpisodes;
             }
-            const englishPossibleEpisodes = this.findAnimeSlug(title.english, season, startDate, malId);
+            const englishPossibleEpisodes = this.findAnimeSlug(title.english, season, startDate, malId, dub);
             return englishPossibleEpisodes;
         });
-        this.findAnimeSlug = (title, season, startDate, malId) => __awaiter(this, void 0, void 0, function* () {
+        this.findAnimeSlug = (title, season, startDate, malId, dub) => __awaiter(this, void 0, void 0, function* () {
             const slug = title.replace(/[^0-9a-zA-Z]+/g, ' ');
             let possibleAnime;
             if (malId) {
@@ -221,14 +211,15 @@ class Anilist extends models_1.AnimeParser {
                 });
                 if (malAsyncReq.status === 200) {
                     const sitesT = malAsyncReq.data.Sites;
-                    const sites = Object.values(sitesT).map((v, i) => {
-                        var _a, _b;
-                        return ({
-                            page: (_a = Object.values(Object.values(sitesT)[i])[0]) === null || _a === void 0 ? void 0 : _a.page,
-                            url: (_b = Object.values(Object.values(sitesT)[i])[0]) === null || _b === void 0 ? void 0 : _b.url,
-                        });
+                    let sites = Object.values(sitesT).map((v, i) => {
+                        const obj = [...Object.values(Object.values(sitesT)[i])];
+                        const gogos = obj.filter((v) => v.page.toLowerCase() === this.provider.name.toLocaleLowerCase());
+                        const pages = obj.map((v) => ({ page: v.page, url: v.url, title: v.title }));
+                        return pages;
                     });
-                    const possibleSource = sites.find((s) => s.page.toLocaleLowerCase() === this.provider.name.toLocaleLowerCase());
+                    sites = sites.flat();
+                    const possibleSource = sites.find((s) => s.page.toLocaleLowerCase() === this.provider.name.toLocaleLowerCase() &&
+                        (dub ? s.title.toLocaleLowerCase().includes('dub') : !s.title.toLocaleLowerCase().includes('dub')));
                     if (possibleSource)
                         possibleAnime = yield this.provider.fetchAnimeInfo(possibleSource.url.split('/').pop());
                     else
@@ -285,7 +276,7 @@ class Anilist extends models_1.AnimeParser {
                 }
             }
             const newEpisodeList = [];
-            if (episodesList.size !== 0 && (possibleProviderEpisodes === null || possibleProviderEpisodes === void 0 ? void 0 : possibleProviderEpisodes.length) !== 0) {
+            if ((possibleProviderEpisodes === null || possibleProviderEpisodes === void 0 ? void 0 : possibleProviderEpisodes.length) !== 0) {
                 possibleProviderEpisodes === null || possibleProviderEpisodes === void 0 ? void 0 : possibleProviderEpisodes.forEach((ep, i) => {
                     var _a, _b, _c, _d, _e, _f, _g;
                     const j = (i + 1).toString();
@@ -331,6 +322,7 @@ class Anilist extends models_1.AnimeParser {
                                 site: (_d = item.trailer) === null || _d === void 0 ? void 0 : _d.site,
                                 thumbnail: (_e = item.trailer) === null || _e === void 0 ? void 0 : _e.thumbnail,
                             },
+                            description: item.description,
                             cover: (_h = (_g = (_f = item.bannerImage) !== null && _f !== void 0 ? _f : item.coverImage.large) !== null && _g !== void 0 ? _g : item.coverImage.medium) !== null && _h !== void 0 ? _h : item.coverImage.small,
                             rating: item.averageScore,
                             releaseDate: item.seasonYear,
@@ -376,6 +368,7 @@ class Anilist extends models_1.AnimeParser {
                                 site: (_d = item.trailer) === null || _d === void 0 ? void 0 : _d.site,
                                 thumbnail: (_e = item.trailer) === null || _e === void 0 ? void 0 : _e.thumbnail,
                             },
+                            description: item.description,
                             cover: (_h = (_g = (_f = item.bannerImage) !== null && _f !== void 0 ? _f : item.coverImage.large) !== null && _g !== void 0 ? _g : item.coverImage.medium) !== null && _h !== void 0 ? _h : item.coverImage.small,
                             rating: item.averageScore,
                             releaseDate: item.seasonYear,
