@@ -14,6 +14,7 @@ const anilist = new META.Anilist();
 - [fetchPopularAnime](#fetchpopularanime)
 - [fetchAnimeInfo](#fetchanimeinfo)
 - [fetchEpisodeSources](#fetchepisodesources)
+- [fetchAiringSchedule](#fetchairingschedule)
 
 ### search
 
@@ -231,9 +232,9 @@ output:
   status: 'Completed',
   releaseDate: 2017,
   nextAiringEpisode:{
-    airingTime: undefined,
-    timeUntilAiring: undefined,
-    episode: undefined,
+    airingTime: 2312312123,
+    timeUntilAiring: 12512355,
+    episode: 5,
   }
   rating: 77,
   duration: 24,
@@ -274,7 +275,7 @@ output:
 }
 ```
 
-### fetchPopularAnime
+### fetchAiringSchedule
 
 <h4>Parameters</h4>
 

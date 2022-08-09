@@ -147,7 +147,7 @@ class Anilist extends AnimeParser {
           animeInfo.status = MediaStatus.UNKNOWN;
       }
       animeInfo.releaseDate = data.data.Media.startDate.year;
-      animeInfo.nextAiringEpisode = { 
+      if (data.data.Media.nextAiringEpisode?.airingAt) animeInfo.nextAiringEpisode = { 
         airingTime: data.data.Media.nextAiringEpisode?.airingAt, 
         timeUntilAiring: data.data.Media.nextAiringEpisode?.timeUntilAiring,
         episode: data.data.Media.nextAiringEpisode?.episode,
