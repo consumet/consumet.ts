@@ -14,6 +14,7 @@ const anilist = new META.Anilist();
 - [fetchPopularAnime](#fetchpopularanime)
 - [fetchAnimeInfo](#fetchanimeinfo)
 - [fetchEpisodeSources](#fetchepisodesources)
+- [fetchAiringSchedule](#fetchairingschedule)
 
 ### search
 
@@ -230,6 +231,11 @@ output:
   description: 'Koudo Ikusei Senior High School is a leading school with state-of-the-art facilities. The students there have the freedom to wear any hairstyle ...',
   status: 'Completed',
   releaseDate: 2017,
+  nextAiringEpisode:{
+    airingTime: 2312312123,
+    timeUntilAiring: 12512355,
+    episode: 5,
+  }
   rating: 77,
   duration: 24,
   genres: [ 'Drama', 'Psychological' ],
@@ -267,6 +273,78 @@ output:
     ...
   ]
 }
+```
+
+### fetchAiringSchedule
+
+<h4>Parameters</h4>
+
+| Parameter          | Type     | Description                 |
+| ------------------ | -------- | --------------------------- |
+| page (optional)    | `number` | page number to search for.  |
+| perPage (optional) | `number` | number of results per page. |
+| greater | `number` | Filter by the time of airing. |
+| lesser | `number` | Filter by the time of airing. |
+| notYetAired (optional) | `boolean` | Filter to episodes that haven't yet aired. |
+
+
+```ts
+anilist.fetchAiringSchedule(1 , 20, 1660047922, 1661832000, true).then(data => {
+  console.log(data);
+}
+```
+
+returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
+output:
+```ts
+
+    {
+      currentPage: 1,
+      hasNextPage: true,
+      results: [
+        {
+          id: '133844',
+          malId: 48895,
+          currentEpisode: 6,
+          airingAt: 1660050000,
+          title: [
+            {
+              romaji:,
+              english:,
+              userPreferred:,
+              native:,
+            }
+          ],
+          image: 'https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx133844-E32FjKZ0XxEs.jpg',
+          description: 'The fourth season of <i>Overlord</i>.',
+          cover: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/133844-uIaUmh5aJX3M.jpg',
+          rating: 80,
+          releaseDate: 2022,
+          type: 'TV'
+        },
+        {
+          id: '146210',
+          malId: 51213,
+          currentEpisode: 6,
+          airingAt: 1660051800,
+          title: [{
+              romaji:,
+              english:,
+              userPreferred:,
+              native:,
+            }],
+          image: 'https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx146210-ZnIithxFLLHn.jpg',
+          description: 'Meet Alto, a hapless student at Royal Ortigia Magic Academy whose academic performance leaves much to be desired. Rather than take a more sensible approach to salvaging his grades in time for graduation',
+          cover: 'https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx146210-ZnIithxFLLHn.jpg',
+          rating: 69,
+          releaseDate: 2022,
+          type: 'TV'
+        },
+        {...},
+        ...
+      ]
+    }
+  
 ```
 
 ### fetchEpisodeSources

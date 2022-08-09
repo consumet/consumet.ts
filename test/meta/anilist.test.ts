@@ -38,4 +38,10 @@ test('returns a filled array of popular anime', async () => {
   const anilist = new META.Anilist();
   const data = await anilist.fetchPopularAnime(1 , 10);
   expect(data.results).not.toEqual([]);
-})
+});
+
+test('returns a filled array of airing schedule', async () => {
+  const anilist = new META.Anilist();
+  const data = await anilist.fetchAiringSchedule(1 , 20, 1660047922, 1661832000, true);
+  expect(data.results).not.toEqual([]);
+});''

@@ -17,6 +17,7 @@ import {
   kitsuSearchQuery,
   anilistTrendingAnimeQuery,
   anilistPopularAnimeQuery,
+  anilistAiringScheduleQuery,
 } from '../../utils';
 import Gogoanime from '../../providers/anime/gogoanime';
 
@@ -146,6 +147,11 @@ class Anilist extends AnimeParser {
           animeInfo.status = MediaStatus.UNKNOWN;
       }
       animeInfo.releaseDate = data.data.Media.startDate.year;
+      if (data.data.Media.nextAiringEpisode?.airingAt) animeInfo.nextAiringEpisode = { 
+        airingTime: data.data.Media.nextAiringEpisode?.airingAt, 
+        timeUntilAiring: data.data.Media.nextAiringEpisode?.timeUntilAiring,
+        episode: data.data.Media.nextAiringEpisode?.episode,
+      }
       animeInfo.rating = data.data.Media.averageScore;
       animeInfo.duration = data.data.Media.duration;
       animeInfo.genres = data.data.Media.genres;
@@ -194,7 +200,6 @@ class Anilist extends AnimeParser {
         }
         return episode;
       });
-
       return animeInfo;
     } catch (err) {
       throw new Error((err as Error).message);
@@ -439,6 +444,47 @@ class Anilist extends AnimeParser {
           totalEpisodes: isNaN(item.episodes) ? 0 : item.episodes ?? item.nextAiringEpisode?.episode - 1 ?? 0,
           duration: item.duration,
           type: item.format,
+        })),
+      };
+      return res;
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
+  };
+
+  fetchAiringSchedule = async (page: number = 1, perPage: number = 20, greater: number , lesser: number, notYetAired: boolean = true): Promise<ISearch<IAnimeResult>> => {
+    const options = {
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+      query: anilistAiringScheduleQuery(page, perPage, greater, lesser, notYetAired),
+    };
+
+    try {
+      const { data } = await axios.post(this.anilistGraphqlUrl, options);
+
+      const res: ISearch<IAnimeResult> = {
+        currentPage: data.data.Page.pageInfo.currentPage,
+        hasNextPage: data.data.Page.pageInfo.hasNextPage,
+        results: data.data.Page.airingSchedules.map((item: any) => ({
+          id: item.media.id.toString(),
+          malId: item.media.idMal,
+          currentEpisode: item.episode,
+          airingAt: item.airingAt,
+          title:
+            {
+              romaji: item.media.title.romaji,
+              english: item.media.title.english,
+              native: item.media.title.native,
+              userPreferred: item.media.title.userPreferred,
+            } || item.media.title.romaji,
+          image: item.media.coverImage.large ?? item.media.coverImage.medium ?? item.media.coverImage.small,
+          description: item.media.description,
+          cover: item.media.bannerImage ?? item.media.coverImage.large ?? item.media.coverImage.medium ?? item.media.coverImage.small,
+          rating: item.media.averageScore,
+          releaseDate: item.media.seasonYear,
+          type: item.media.format,
         })),
       };
       return res;

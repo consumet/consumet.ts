@@ -12,6 +12,7 @@ import {
   range,
   anilistTrendingAnimeQuery,
   anilistPopularAnimeQuery,
+  anilistAiringScheduleQuery,
 } from './utils';
 import { parsePostInfo } from './getComics';
 import { countDivs } from './zLibrary';
@@ -39,4 +40,5 @@ export {
   VizCloud,
   anilistTrendingAnimeQuery,
   anilistPopularAnimeQuery,
+  anilistAiringScheduleQuery,
 };
