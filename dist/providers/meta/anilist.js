@@ -331,6 +331,7 @@ class Anilist extends models_1.AnimeParser {
                                 site: (_d = item.trailer) === null || _d === void 0 ? void 0 : _d.site,
                                 thumbnail: (_e = item.trailer) === null || _e === void 0 ? void 0 : _e.thumbnail,
                             },
+                            description: item.description,
                             cover: (_h = (_g = (_f = item.bannerImage) !== null && _f !== void 0 ? _f : item.coverImage.large) !== null && _g !== void 0 ? _g : item.coverImage.medium) !== null && _h !== void 0 ? _h : item.coverImage.small,
                             rating: item.averageScore,
                             releaseDate: item.seasonYear,
