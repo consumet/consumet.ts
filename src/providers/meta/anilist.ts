@@ -147,11 +147,12 @@ class Anilist extends AnimeParser {
           animeInfo.status = MediaStatus.UNKNOWN;
       }
       animeInfo.releaseDate = data.data.Media.startDate.year;
-      if (data.data.Media.nextAiringEpisode?.airingAt) animeInfo.nextAiringEpisode = { 
-        airingTime: data.data.Media.nextAiringEpisode?.airingAt, 
-        timeUntilAiring: data.data.Media.nextAiringEpisode?.timeUntilAiring,
-        episode: data.data.Media.nextAiringEpisode?.episode,
-      }
+      if (data.data.Media.nextAiringEpisode?.airingAt)
+        animeInfo.nextAiringEpisode = {
+          airingTime: data.data.Media.nextAiringEpisode?.airingAt,
+          timeUntilAiring: data.data.Media.nextAiringEpisode?.timeUntilAiring,
+          episode: data.data.Media.nextAiringEpisode?.episode,
+        };
       animeInfo.rating = data.data.Media.averageScore;
       animeInfo.duration = data.data.Media.duration;
       animeInfo.genres = data.data.Media.genres;
@@ -232,8 +233,8 @@ class Anilist extends AnimeParser {
     title.english = title.english || title.romaji;
     title.romaji = title.romaji || title.english;
 
-    title.english = title.english.toLocaleLowerCase();
-    title.romaji = title.romaji.toLocaleLowerCase();
+    title.english = title.english.toLowerCase();
+    title.romaji = title.romaji.toLowerCase();
 
     if (title.english === title.romaji) {
       return await this.findAnimeSlug(title.english, season, startDate, malId, dub);
@@ -273,7 +274,6 @@ class Anilist extends AnimeParser {
         };
         let sites = Object.values(sitesT).map((v, i) => {
           const obj = [...Object.values(Object.values(sitesT)[i])];
-          const gogos = obj.filter((v) => v.page.toLowerCase() === this.provider.name.toLocaleLowerCase());
           const pages = obj.map((v) => ({ page: v.page, url: v.url, title: v.title }));
           return pages;
         }) as any[];
@@ -282,8 +282,8 @@ class Anilist extends AnimeParser {
 
         const possibleSource = sites.find(
           (s) =>
-            s.page.toLocaleLowerCase() === this.provider.name.toLocaleLowerCase() &&
-            (dub ? s.title.toLocaleLowerCase().includes('dub') : !s.title.toLocaleLowerCase().includes('dub'))
+            s.page.toLowerCase() === this.provider.name.toLowerCase() &&
+            (dub ? s.title.toLowerCase().includes('dub') : !s.title.toLowerCase().includes('dub'))
         );
 
         if (possibleSource)
@@ -452,13 +452,33 @@ class Anilist extends AnimeParser {
     }
   };
 
-  fetchAiringSchedule = async (page: number = 1, perPage: number = 20, greater: number , lesser: number, notYetAired: boolean = true): Promise<ISearch<IAnimeResult>> => {
+  /**
+   *
+   * @param page page number (optional)
+   * @param perPage number of results per page (optional)
+   * @param weekStart Filter by the time in epoch seconds (optional) eg. if you set weekStart to this week's monday, and set weekEnd to next week's sunday, you will get all the airing anime in between these two dates.
+   * @param weekEnd Filter by the time in epoch seconds (optional)
+   * @param notYetAired if true will return anime that have not yet aired (optional)
+   * @returns the next airing episodes
+   */
+  fetchAiringSchedule = async (
+    page: number = 1,
+    perPage: number = 20,
+    weekStart: number = Math.floor(
+      new Date(new Date().setDate(new Date().getDate() - new Date().getDay() + 1)).getTime() / 1000
+    ),
+    weekEnd: number = Math.floor(
+      (new Date(new Date().setDate(new Date().getDate() - new Date().getDay() + 1)).getTime() + 6.048e8) /
+        1000
+    ),
+    notYetAired: boolean = false
+  ): Promise<ISearch<IAnimeResult>> => {
     const options = {
       headers: {
         'Content-Type': 'application/json',
         Accept: 'application/json',
       },
-      query: anilistAiringScheduleQuery(page, perPage, greater, lesser, notYetAired),
+      query: anilistAiringScheduleQuery(page, perPage, weekStart, weekEnd, notYetAired),
     };
 
     try {
@@ -470,7 +490,7 @@ class Anilist extends AnimeParser {
         results: data.data.Page.airingSchedules.map((item: any) => ({
           id: item.media.id.toString(),
           malId: item.media.idMal,
-          currentEpisode: item.episode,
+          episode: item.episode,
           airingAt: item.airingAt,
           title:
             {
@@ -481,7 +501,11 @@ class Anilist extends AnimeParser {
             } || item.media.title.romaji,
           image: item.media.coverImage.large ?? item.media.coverImage.medium ?? item.media.coverImage.small,
           description: item.media.description,
-          cover: item.media.bannerImage ?? item.media.coverImage.large ?? item.media.coverImage.medium ?? item.media.coverImage.small,
+          cover:
+            item.media.bannerImage ??
+            item.media.coverImage.large ??
+            item.media.coverImage.medium ??
+            item.media.coverImage.small,
           rating: item.media.averageScore,
           releaseDate: item.media.seasonYear,
           type: item.media.format,
@@ -501,5 +525,4 @@ class Anilist extends AnimeParser {
     return (await this.provider.fetchAnimeInfo(findAnime.results[0].id)) as IAnimeInfo;
   };
 }
-
 export default Anilist;
