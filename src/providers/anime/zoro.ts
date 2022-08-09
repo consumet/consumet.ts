@@ -241,7 +241,7 @@ class Zoro extends AnimeParser {
           image: $(el).find('div.film-poster > img').attr('data-src')!,
           title: $(el).find('div.film-poster > img').attr('alt')!,
           url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
-          episodeNumber: parseInt(
+          episode: parseInt(
             $(el).find('div.tick-eps').text().replace(/\s/g, '').replace('Ep', '').split('/')[0]
           ),
         });
