@@ -96,6 +96,7 @@ export enum StreamingServers {
   VizCloud = 'vizcloud',
   // same as vizcloud
   MyCloud = 'mycloud',
+  Filemoon = 'filemoon',
 }
 
 export enum MediaStatus {

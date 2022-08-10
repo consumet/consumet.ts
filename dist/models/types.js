@@ -20,6 +20,7 @@ var StreamingServers;
     StreamingServers["VizCloud"] = "vizcloud";
     // same as vizcloud
     StreamingServers["MyCloud"] = "mycloud";
+    StreamingServers["Filemoon"] = "filemoon";
 })(StreamingServers = exports.StreamingServers || (exports.StreamingServers = {}));
 var MediaStatus;
 (function (MediaStatus) {

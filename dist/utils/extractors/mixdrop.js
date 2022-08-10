@@ -29,7 +29,7 @@ class MixDrop extends models_1.VideoExtractor {
                 if (!match) {
                     throw new Error('Video not found.');
                 }
-                const [p, a, c, k, e, d] = match[0].split(',').map((x) => x.split('.sp')[0]);
+                const [p, a, c, k, e, d] = match[0].split(',').map(x => x.split('.sp')[0]);
                 const formated = this.format(p, a, c, k, e, JSON.parse(d));
                 const [poster, source] = formated
                     .match(/(?<=poster'=").+?(?=")|(?<=wurl=").+?(?=")/g)

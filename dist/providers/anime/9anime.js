@@ -28,8 +28,22 @@ class NineAnime extends models_1.AnimeParser {
         this.logo = 'https://d1nxzqpcg2bym0.cloudfront.net/google_play/com.my.nineanime/87b2fe48-9c36-11eb-8292-21241b1c199b/128x128';
         this.classPath = 'ANIME.NineAnime';
         this.table = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
-        this.key = 'oZH6q4X4VAIHk0Ol';
-        this.key2 = 'hlPeNwkncH0fq9so';
+        this.cipherKey = '';
+        this.decipherKey = '';
+    }
+    init() {
+        return __awaiter(this, void 0, void 0, function* () {
+            const { data: { cipher, decipher }, } = yield axios_1.default.get('https://raw.githubusercontent.com/chenkaslowankiya/BruvFlow/main/keys.json');
+            this.cipherKey = cipher;
+            this.decipherKey = decipher;
+        });
+    }
+    static create() {
+        return __awaiter(this, void 0, void 0, function* () {
+            const nineanime = new NineAnime();
+            yield nineanime.init();
+            return nineanime;
+        });
     }
     search(query, page = 1) {
         return __awaiter(this, void 0, void 0, function* () {
@@ -137,7 +151,7 @@ class NineAnime extends models_1.AnimeParser {
                 animeInfo.otherNames = $('.names')
                     .text()
                     .split('; ')
-                    .map((name) => name === null || name === void 0 ? void 0 : name.trim());
+                    .map(name => name === null || name === void 0 ? void 0 : name.trim());
                 const id = $('#watch-main').attr('data-id');
                 const { data: { result }, } = yield axios_1.default.get(`${this.baseUrl.replace('.to', '.id')}/ajax/episode/list/${id}?vrf=${(0, ascii_url_encoder_1.encode)(this.ev(id))}`);
                 const $$ = (0, cheerio_1.load)(result);
@@ -189,26 +203,36 @@ class NineAnime extends models_1.AnimeParser {
                             headers: { Referer: serverUrl.href, 'User-Agent': utils_1.USER_AGENT },
                             sources: yield new utils_1.VizCloud().extract(serverUrl, this.cipher, this.encrypt),
                         };
+                    case models_1.StreamingServers.Filemoon:
+                        return {
+                            headers: { Referer: serverUrl.href, 'User-Agent': utils_1.USER_AGENT },
+                            sources: yield new utils_1.Filemoon().extract(serverUrl),
+                        };
                 }
             }
             try {
                 const servers = yield this.fetchEpisodeServers(episodeId);
-                let s = servers.find((s) => s.name === server);
+                let s = servers.find(s => s.name === server);
                 switch (server) {
                     case models_1.StreamingServers.VizCloud:
-                        s = servers.find((s) => s.name === 'vidstream');
+                        s = servers.find(s => s.name === 'vidstream');
                         if (!s)
                             throw new Error('Vidstream server found');
                         break;
                     case models_1.StreamingServers.StreamTape:
-                        s = servers.find((s) => s.name === 'streamtape');
+                        s = servers.find(s => s.name === 'streamtape');
                         if (!s)
                             throw new Error('Streamtape server found');
                         break;
                     case models_1.StreamingServers.MyCloud:
-                        s = servers.find((s) => s.name === 'mycloud');
+                        s = servers.find(s => s.name === 'mycloud');
                         if (!s)
                             throw new Error('Mycloud server found');
+                        break;
+                    case models_1.StreamingServers.Filemoon:
+                        s = servers.find(s => s.name === 'filemoon');
+                        if (!s)
+                            throw new Error('Filemoon server found');
                         break;
                     default:
                         throw new Error('Server not found');
@@ -240,10 +264,10 @@ class NineAnime extends models_1.AnimeParser {
         });
     }
     ev(query) {
-        return this.encrypt(this.cipher((0, ascii_url_encoder_1.encode)(query), this.key), this.table);
+        return this.encrypt(this.cipher((0, ascii_url_encoder_1.encode)(query), this.cipherKey), this.table);
     }
     dv(query) {
-        return this.cipher(this.decrypt(query), this.key2);
+        return this.cipher(this.decrypt(query), this.decipherKey);
     }
     cipher(query, key) {
         let u = 0;
@@ -269,7 +293,7 @@ class NineAnime extends models_1.AnimeParser {
         return res;
     }
     encrypt(query, key) {
-        query.split('').forEach((char) => {
+        query.split('').forEach(char => {
             if (char.charCodeAt(0) > 255)
                 throw new Error('Invalid character.');
         });

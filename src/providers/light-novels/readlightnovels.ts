@@ -49,9 +49,9 @@ class ReadLightNovels extends LightNovelParser {
 
       const novelId = parseInt($('#id_post').val() as string);
       lightNovelInfo.title = $('div.col-xs-12.col-sm-8.col-md-8.desc > h3').text();
-      lightNovelInfo.image = $(
-        'div.col-xs-12.col-sm-4.col-md-4.info-holder > div.books > div > img'
-      ).attr('src');
+      lightNovelInfo.image = $('div.col-xs-12.col-sm-4.col-md-4.info-holder > div.books > div > img').attr(
+        'src'
+      );
       lightNovelInfo.author = $(
         'div.col-xs-12.col-sm-4.col-md-4.info-holder > div.info > div:nth-child(1) > a'
       ).text();
@@ -76,12 +76,10 @@ class ReadLightNovels extends LightNovelParser {
         ...$('#pagination > ul > li')
           .map((i, el) => parseInt($(el).find('a').attr('data-page')!))
           .get()
-          .filter((x) => !isNaN(x))
+          .filter(x => !isNaN(x))
       );
 
-      switch (
-        $('div.col-xs-12.col-sm-4.col-md-4.info-holder > div.info > div:nth-child(3) > span').text()
-      ) {
+      switch ($('div.col-xs-12.col-sm-4.col-md-4.info-holder > div.info > div:nth-child(3) > span').text()) {
         case 'Completed':
           lightNovelInfo.status = MediaStatus.COMPLETED;
           break;
@@ -144,11 +142,7 @@ class ReadLightNovels extends LightNovelParser {
     }
     return chapters;
   };
-  private fetchAllChapters = async (
-    novelId: number,
-    pages: number,
-    referer: string
-  ): Promise<any> => {
+  private fetchAllChapters = async (novelId: number, pages: number, referer: string): Promise<any> => {
     const chapters: ILightNovelChapter[] = [];
 
     for (const pageNumber of Array.from({ length: pages }, (_, i) => i + 1)) {

@@ -62,7 +62,7 @@ class ReadLightNovels extends models_1.LightNovelParser {
                 let pages = Math.max(...$('#pagination > ul > li')
                     .map((i, el) => parseInt($(el).find('a').attr('data-page')))
                     .get()
-                    .filter((x) => !isNaN(x)));
+                    .filter(x => !isNaN(x)));
                 switch ($('div.col-xs-12.col-sm-4.col-md-4.info-holder > div.info > div:nth-child(3) > span').text()) {
                     case 'Completed':
                         lightNovelInfo.status = models_1.MediaStatus.COMPLETED;

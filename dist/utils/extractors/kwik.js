@@ -34,7 +34,7 @@ class Kwik extends models_1.VideoExtractor {
                 const l = arr.slice(0, arr.length - 5).join('');
                 arr = arr.slice(arr.length - 5, -1);
                 arr.unshift(l);
-                const [p, a, c, k, e, d] = arr.map((x) => x.split('.sp')[0]);
+                const [p, a, c, k, e, d] = arr.map(x => x.split('.sp')[0]);
                 const formated = this.format(p, a, c, k, e, {});
                 const source = formated.match(/(?<=source=\\).*(?=\\';)/g)[0].replace(/\'/g, '');
                 this.sources.push({

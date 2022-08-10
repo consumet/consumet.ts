@@ -1,7 +1,8 @@
 <h1>9Anime</h1>
 
+>Note: This provider has a special way of initializing
 ```ts
-const nineanime = new ANIME.NineAnime();
+const nineanime = await ANIME.NineAnime.create();
 ```
 
 <h2>Methods</h2>

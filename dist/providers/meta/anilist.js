@@ -74,7 +74,7 @@ class Anilist extends models_1.AnimeParser {
          * @param dub to get dubbed episodes (optional) set to `true` to get dubbed episodes. **ONLY WORKS FOR GOGOANIME**
          */
         this.fetchAnimeInfo = (id, dub = false) => __awaiter(this, void 0, void 0, function* () {
-            var _a, _b, _c, _d, _e, _f, _g, _h;
+            var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m;
             const animeInfo = {
                 id: id,
                 title: '',
@@ -125,6 +125,12 @@ class Anilist extends models_1.AnimeParser {
                         animeInfo.status = models_1.MediaStatus.UNKNOWN;
                 }
                 animeInfo.releaseDate = data.data.Media.startDate.year;
+                if ((_g = data.data.Media.nextAiringEpisode) === null || _g === void 0 ? void 0 : _g.airingAt)
+                    animeInfo.nextAiringEpisode = {
+                        airingTime: (_h = data.data.Media.nextAiringEpisode) === null || _h === void 0 ? void 0 : _h.airingAt,
+                        timeUntilAiring: (_j = data.data.Media.nextAiringEpisode) === null || _j === void 0 ? void 0 : _j.timeUntilAiring,
+                        episode: (_k = data.data.Media.nextAiringEpisode) === null || _k === void 0 ? void 0 : _k.episode,
+                    };
                 animeInfo.rating = data.data.Media.averageScore;
                 animeInfo.duration = data.data.Media.duration;
                 animeInfo.genres = data.data.Media.genres;
@@ -158,7 +164,7 @@ class Anilist extends models_1.AnimeParser {
                         score: item.node.mediaRecommendation.meanScore,
                     });
                 });
-                const possibleAnimeEpisodes = yield this.findAnime({ english: (_g = animeInfo.title) === null || _g === void 0 ? void 0 : _g.english, romaji: (_h = animeInfo.title) === null || _h === void 0 ? void 0 : _h.romaji }, data.data.Media.season, data.data.Media.startDate.year, animeInfo.malId, dub);
+                const possibleAnimeEpisodes = yield this.findAnime({ english: (_l = animeInfo.title) === null || _l === void 0 ? void 0 : _l.english, romaji: (_m = animeInfo.title) === null || _m === void 0 ? void 0 : _m.romaji }, data.data.Media.season, data.data.Media.startDate.year, animeInfo.malId, dub);
                 animeInfo.episodes = possibleAnimeEpisodes === null || possibleAnimeEpisodes === void 0 ? void 0 : possibleAnimeEpisodes.map((episode) => {
                     if (!episode.image) {
                         episode.image = animeInfo.image;
@@ -188,8 +194,8 @@ class Anilist extends models_1.AnimeParser {
         this.findAnime = (title, season, startDate, malId, dub) => __awaiter(this, void 0, void 0, function* () {
             title.english = title.english || title.romaji;
             title.romaji = title.romaji || title.english;
-            title.english = title.english.toLocaleLowerCase();
-            title.romaji = title.romaji.toLocaleLowerCase();
+            title.english = title.english.toLowerCase();
+            title.romaji = title.romaji.toLowerCase();
             if (title.english === title.romaji) {
                 return yield this.findAnimeSlug(title.english, season, startDate, malId, dub);
             }
@@ -213,13 +219,12 @@ class Anilist extends models_1.AnimeParser {
                     const sitesT = malAsyncReq.data.Sites;
                     let sites = Object.values(sitesT).map((v, i) => {
                         const obj = [...Object.values(Object.values(sitesT)[i])];
-                        const gogos = obj.filter((v) => v.page.toLowerCase() === this.provider.name.toLocaleLowerCase());
-                        const pages = obj.map((v) => ({ page: v.page, url: v.url, title: v.title }));
+                        const pages = obj.map(v => ({ page: v.page, url: v.url, title: v.title }));
                         return pages;
                     });
                     sites = sites.flat();
-                    const possibleSource = sites.find((s) => s.page.toLocaleLowerCase() === this.provider.name.toLocaleLowerCase() &&
-                        (dub ? s.title.toLocaleLowerCase().includes('dub') : !s.title.toLocaleLowerCase().includes('dub')));
+                    const possibleSource = sites.find(s => s.page.toLowerCase() === this.provider.name.toLowerCase() &&
+                        (dub ? s.title.toLowerCase().includes('dub') : !s.title.toLowerCase().includes('dub')));
                     if (possibleSource)
                         possibleAnime = yield this.provider.fetchAnimeInfo(possibleSource.url.split('/').pop());
                     else
@@ -375,6 +380,57 @@ class Anilist extends models_1.AnimeParser {
                             totalEpisodes: isNaN(item.episodes) ? 0 : (_l = (_j = item.episodes) !== null && _j !== void 0 ? _j : ((_k = item.nextAiringEpisode) === null || _k === void 0 ? void 0 : _k.episode) - 1) !== null && _l !== void 0 ? _l : 0,
                             duration: item.duration,
                             type: item.format,
+                        });
+                    }),
+                };
+                return res;
+            }
+            catch (err) {
+                throw new Error(err.message);
+            }
+        });
+        /**
+         *
+         * @param page page number (optional)
+         * @param perPage number of results per page (optional)
+         * @param weekStart Filter by the time in epoch seconds (optional) eg. if you set weekStart to this week's monday, and set weekEnd to next week's sunday, you will get all the airing anime in between these two dates.
+         * @param weekEnd Filter by the time in epoch seconds (optional)
+         * @param notYetAired if true will return anime that have not yet aired (optional)
+         * @returns the next airing episodes
+         */
+        this.fetchAiringSchedule = (page = 1, perPage = 20, weekStart = Math.floor(new Date(new Date().setDate(new Date().getDate() - new Date().getDay() + 1)).getTime() / 1000), weekEnd = Math.floor((new Date(new Date().setDate(new Date().getDate() - new Date().getDay() + 1)).getTime() + 6.048e8) /
+            1000), notYetAired = false) => __awaiter(this, void 0, void 0, function* () {
+            const options = {
+                headers: {
+                    'Content-Type': 'application/json',
+                    Accept: 'application/json',
+                },
+                query: (0, utils_1.anilistAiringScheduleQuery)(page, perPage, weekStart, weekEnd, notYetAired),
+            };
+            try {
+                const { data } = yield axios_1.default.post(this.anilistGraphqlUrl, options);
+                const res = {
+                    currentPage: data.data.Page.pageInfo.currentPage,
+                    hasNextPage: data.data.Page.pageInfo.hasNextPage,
+                    results: data.data.Page.airingSchedules.map((item) => {
+                        var _a, _b, _c, _d, _e;
+                        return ({
+                            id: item.media.id.toString(),
+                            malId: item.media.idMal,
+                            episode: item.episode,
+                            airingAt: item.airingAt,
+                            title: {
+                                romaji: item.media.title.romaji,
+                                english: item.media.title.english,
+                                native: item.media.title.native,
+                                userPreferred: item.media.title.userPreferred,
+                            } || item.media.title.romaji,
+                            image: (_b = (_a = item.media.coverImage.large) !== null && _a !== void 0 ? _a : item.media.coverImage.medium) !== null && _b !== void 0 ? _b : item.media.coverImage.small,
+                            description: item.media.description,
+                            cover: (_e = (_d = (_c = item.media.bannerImage) !== null && _c !== void 0 ? _c : item.media.coverImage.large) !== null && _d !== void 0 ? _d : item.media.coverImage.medium) !== null && _e !== void 0 ? _e : item.media.coverImage.small,
+                            rating: item.media.averageScore,
+                            releaseDate: item.media.seasonYear,
+                            type: item.media.format,
                         });
                     }),
                 };

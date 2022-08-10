@@ -28,6 +28,7 @@ class VizCloud extends models_1.VideoExtractor {
         };
         this.base64Table = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+=/_';
         this.extract = (videoUrl, cipher, encrypt) => __awaiter(this, void 0, void 0, function* () {
+            var _a;
             const groups = videoUrl.href.split('/');
             this.keys = yield this.fetchKeys();
             const id = encrypt(cipher(groups[4], this.keys.cipher), this.keys.encrypt);
@@ -37,6 +38,8 @@ class VizCloud extends models_1.VideoExtractor {
                     Referer: videoUrl.href,
                 },
             });
+            if (!((_a = data.data) === null || _a === void 0 ? void 0 : _a.media))
+                throw new Error('Video not found');
             this.sources = data.data.media.sources.map((source) => {
                 var _a;
                 return ({

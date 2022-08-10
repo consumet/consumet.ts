@@ -6,3 +6,5 @@ printWidth: 110
 bracketSpacing: true
 semi: true
 endOfLine: 'lf'
+proseWrap: never
+arrowParens: avoid

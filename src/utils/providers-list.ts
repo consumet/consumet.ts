@@ -12,6 +12,7 @@ export const PROVIDERS_LIST = {
     new ANIME.AnimePahe(),
     new ANIME.Zoro(),
     new ANIME.AniMixPlay(),
+    new ANIME.AnimeFox(),
   ],
   MANGA: [new MANGA.MangaDex(), new MANGA.MangaHere(), new MANGA.MangaKakalot()],
   BOOKS: [new BOOKS.Libgen()],

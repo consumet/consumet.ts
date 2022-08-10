@@ -36,25 +36,19 @@ class Zlibrary extends BookParser {
         $(genElement('div table tbody tr td div div a img', html)).attr('data-src')![2] == 't' &&
         $(genElement('div table tbody tr td div div a img', html)).attr('data-src')![3] == 'p'
           ? `${$(genElement('div table tbody tr td div div a img', html)).attr('data-src')}`
-          : `${this.baseUrl}${$(genElement('div table tbody tr td div div a img', html)).attr(
-              'data-src'
-            )}`;
+          : `${this.baseUrl}${$(genElement('div table tbody tr td div div a img', html)).attr('data-src')}`;
 
       container.title = $(genElement('div table tbody tr td:eq(1) table tbody tr td h3 a', html))
         .text()
         .trim();
 
       container.publisher =
-        countDivs(
-          $(genElement('div table tbody tr td:eq(1) table tbody tr td', html)).html() ?? ''
-        ) == 2
+        countDivs($(genElement('div table tbody tr td:eq(1) table tbody tr td', html)).html() ?? '') == 2
           ? $(genElement('div table tbody tr td:eq(1) table tbody tr td div:eq(0) a', html)).text()
           : '';
 
       container.authors =
-        countDivs(
-          $(genElement('div table tbody tr td:eq(1) table tbody tr td', html)).html() ?? ''
-        ) == 2
+        countDivs($(genElement('div table tbody tr td:eq(1) table tbody tr td', html)).html() ?? '') == 2
           ? $(genElement('div table tbody tr td:eq(1) table tbody tr td div:eq(1) a', html))
               .text()
               .split(', ')
@@ -67,23 +61,14 @@ class Zlibrary extends BookParser {
       ).attr('href')}`;
 
       container.year = $(
-        genElement(
-          'div table tbody tr td:eq(1) table tbody tr:eq(1) td div:eq(1) div div:eq(1)',
-          html
-        )
+        genElement('div table tbody tr td:eq(1) table tbody tr:eq(1) td div:eq(1) div div:eq(1)', html)
       ).text();
 
       container.language = $(
-        genElement(
-          'div table tbody tr td:eq(1) table tbody tr:eq(1) td div:eq(1) div:eq(1) div:eq(1)',
-          html
-        )
+        genElement('div table tbody tr td:eq(1) table tbody tr:eq(1) td div:eq(1) div:eq(1) div:eq(1)', html)
       ).text();
       container.size = $(
-        genElement(
-          'div table tbody tr td:eq(1) table tbody tr:eq(1) td div:eq(1) div:eq(2) div:eq(1)',
-          html
-        )
+        genElement('div table tbody tr td:eq(1) table tbody tr:eq(1) td div:eq(1) div:eq(2) div:eq(1)', html)
       ).text();
       container.bookRating = $(
         genElement(
