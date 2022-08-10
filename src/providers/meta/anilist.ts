@@ -18,6 +18,7 @@ import {
   anilistTrendingAnimeQuery,
   anilistPopularAnimeQuery,
   anilistAiringScheduleQuery,
+  anilistGenresQuery
 } from '../../utils';
 import Gogoanime from '../../providers/anime/gogoanime';
 
@@ -516,7 +517,50 @@ class Anilist extends AnimeParser {
       throw new Error((err as Error).message);
     }
   };
+  fetchAnimeGenres = async (genres: string[], page: number = 1, perPage: number = 20)  => {
+    const options = {
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+      query: anilistGenresQuery(genres, page, perPage),
+    };
+    try {
+      const { data } = await axios.post(this.anilistGraphqlUrl, options);
 
+      const res: ISearch<IAnimeResult> = {
+        currentPage: data.data.Page.pageInfo.currentPage,
+        hasNextPage: data.data.Page.pageInfo.hasNextPage,
+        results: data.data.Page.media.map((item: any) => ({
+          id: item.id.toString(),
+          malId: item.idMal,
+          title:
+            {
+              romaji: item.title.romaji,
+              english: item.title.english,
+              native: item.title.native,
+              userPreferred: item.title.userPreferred,
+            } || item.title.romaji,
+          image: item.coverImage.large ?? item.coverImage.medium ?? item.coverImage.small,
+          trailer: {
+            id: item.trailer?.id,
+            site: item.trailer?.site,
+            thumbnail: item.trailer?.thumbnail,
+          },
+          description: item.description,
+          cover: item.bannerImage ?? item.coverImage.large ?? item.coverImage.medium ?? item.coverImage.small,
+          rating: item.averageScore,
+          releaseDate: item.seasonYear,
+          totalEpisodes: isNaN(item.episodes) ? 0 : item.episodes ?? item.nextAiringEpisode?.episode - 1 ?? 0,
+          duration: item.duration,
+          type: item.format,
+        })),
+      };
+      return res;
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
+  }
   private findAnimeRaw = async (slug: string) => {
     const findAnime = (await this.provider.search(slug)) as ISearch<IAnimeResult>;
 
