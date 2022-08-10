@@ -18,7 +18,7 @@ import {
   anilistTrendingAnimeQuery,
   anilistPopularAnimeQuery,
   anilistAiringScheduleQuery,
-  anilistGenresQuery
+  anilistGenresQuery,
 } from '../../utils';
 import Gogoanime from '../../providers/anime/gogoanime';
 
@@ -393,6 +393,18 @@ class Anilist extends AnimeParser {
             thumbnail: item.trailer?.thumbnail,
           },
           description: item.description,
+          status:
+            item.status == 'RELEASING'
+              ? MediaStatus.ONGOING
+              : item.status == 'FINISHED'
+              ? MediaStatus.COMPLETED
+              : item.status == 'NOT_YET_RELEASED'
+              ? MediaStatus.NOT_YET_AIRED
+              : item.status == 'CANCELLED'
+              ? MediaStatus.CANCELLED
+              : item.status == 'HIATUS'
+              ? MediaStatus.HIATUS
+              : MediaStatus.UNKNOWN,
           cover: item.bannerImage ?? item.coverImage.large ?? item.coverImage.medium ?? item.coverImage.small,
           rating: item.averageScore,
           releaseDate: item.seasonYear,
@@ -439,6 +451,18 @@ class Anilist extends AnimeParser {
             thumbnail: item.trailer?.thumbnail,
           },
           description: item.description,
+          status:
+            item.status == 'RELEASING'
+              ? MediaStatus.ONGOING
+              : item.status == 'FINISHED'
+              ? MediaStatus.COMPLETED
+              : item.status == 'NOT_YET_RELEASED'
+              ? MediaStatus.NOT_YET_AIRED
+              : item.status == 'CANCELLED'
+              ? MediaStatus.CANCELLED
+              : item.status == 'HIATUS'
+              ? MediaStatus.HIATUS
+              : MediaStatus.UNKNOWN,
           cover: item.bannerImage ?? item.coverImage.large ?? item.coverImage.medium ?? item.coverImage.small,
           rating: item.averageScore,
           releaseDate: item.seasonYear,
@@ -517,7 +541,7 @@ class Anilist extends AnimeParser {
       throw new Error((err as Error).message);
     }
   };
-  fetchAnimeGenres = async (genres: string[], page: number = 1, perPage: number = 20)  => {
+  fetchAnimeGenres = async (genres: string[], page: number = 1, perPage: number = 20) => {
     const options = {
       headers: {
         'Content-Type': 'application/json',
@@ -560,7 +584,7 @@ class Anilist extends AnimeParser {
     } catch (err) {
       throw new Error((err as Error).message);
     }
-  }
+  };
   private findAnimeRaw = async (slug: string) => {
     const findAnime = (await this.provider.search(slug)) as ISearch<IAnimeResult>;
 

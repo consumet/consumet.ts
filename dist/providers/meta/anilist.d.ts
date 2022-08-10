@@ -49,6 +49,7 @@ declare class Anilist extends AnimeParser {
      * @returns the next airing episodes
      */
     fetchAiringSchedule: (page?: number, perPage?: number, weekStart?: number, weekEnd?: number, notYetAired?: boolean) => Promise<ISearch<IAnimeResult>>;
+    fetchAnimeGenres: (genres: string[], page?: number, perPage?: number) => Promise<ISearch<IAnimeResult>>;
     private findAnimeRaw;
 }
 export default Anilist;

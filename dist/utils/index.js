@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Filemoon = exports.anilistAiringScheduleQuery = exports.anilistPopularAnimeQuery = exports.anilistTrendingAnimeQuery = exports.VizCloud = exports.StreamTape = exports.RapidCloud = exports.range = exports.kitsuSearchQuery = exports.anilistMediaDetailQuery = exports.anilistSearchQuery = exports.Kwik = exports.MixDrop = exports.VidCloud = exports.countDivs = exports.capitalizeFirstLetter = exports.genElement = exports.parsePostInfo = exports.formatTitle = exports.floorID = exports.splitAuthor = exports.StreamSB = exports.GogoCDN = exports.USER_AGENT = void 0;
+exports.Filemoon = exports.anilistGenresQuery = exports.anilistAiringScheduleQuery = exports.anilistPopularAnimeQuery = exports.anilistTrendingAnimeQuery = exports.VizCloud = exports.StreamTape = exports.RapidCloud = exports.range = exports.kitsuSearchQuery = exports.anilistMediaDetailQuery = exports.anilistSearchQuery = exports.Kwik = exports.MixDrop = exports.VidCloud = exports.countDivs = exports.capitalizeFirstLetter = exports.genElement = exports.parsePostInfo = exports.formatTitle = exports.floorID = exports.splitAuthor = exports.StreamSB = exports.GogoCDN = exports.USER_AGENT = void 0;
 const extractors_1 = require("./extractors");
 Object.defineProperty(exports, "GogoCDN", { enumerable: true, get: function () { return extractors_1.GogoCDN; } });
 Object.defineProperty(exports, "StreamSB", { enumerable: true, get: function () { return extractors_1.StreamSB; } });
@@ -25,6 +25,7 @@ Object.defineProperty(exports, "range", { enumerable: true, get: function () { r
 Object.defineProperty(exports, "anilistTrendingAnimeQuery", { enumerable: true, get: function () { return utils_1.anilistTrendingAnimeQuery; } });
 Object.defineProperty(exports, "anilistPopularAnimeQuery", { enumerable: true, get: function () { return utils_1.anilistPopularAnimeQuery; } });
 Object.defineProperty(exports, "anilistAiringScheduleQuery", { enumerable: true, get: function () { return utils_1.anilistAiringScheduleQuery; } });
+Object.defineProperty(exports, "anilistGenresQuery", { enumerable: true, get: function () { return utils_1.anilistGenresQuery; } });
 const getComics_1 = require("./getComics");
 Object.defineProperty(exports, "parsePostInfo", { enumerable: true, get: function () { return getComics_1.parsePostInfo; } });
 const zLibrary_1 = require("./zLibrary");
