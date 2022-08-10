@@ -13,6 +13,7 @@ const anilist = new META.Anilist();
 - [fetchTrendingAnime](#fetchtrendinganime)
 - [fetchPopularAnime](#fetchpopularanime)
 - [fetchAnimeInfo](#fetchanimeinfo)
+- [fetchAnimeGenres](#fetchanimegenres)
 - [fetchAiringSchedule](#fetchairingschedule)
 - [fetchEpisodeSources](#fetchepisodesources)
 
@@ -271,6 +272,51 @@ output:
     },
     {...}
     ...
+  ]
+}
+```
+
+### fetchAnimeGenres
+
+<h4>Parameters</h4>
+
+| Parameter          | Type     | Description                 |
+| ------------------ | -------- | --------------------------- |
+| genres    | `string[]` | a list containing the genres of the animes to fetch.  |
+| page (optional)    | `number` | page number to search for.  |
+| perPage (optional) | `number` | number of results per page. |
+
+
+```ts
+anilist.fetchAnimeGenres(["Action", "Adventure"])
+.then(data => {
+  console.log(data);
+}
+```
+returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
+output:
+
+```ts
+{
+  currentPage: 1,
+  hasNextPage: true,
+  results: [
+    {
+      id: '1',
+      malId: 1,
+      title: {...},
+      image: 'https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx1-CXtrrkMpJ8Zq.png',
+      trailer: {...},
+      description: 'Enter a world in the distant future, where Bounty Hunters roam the solar system. Spike and Jet, bounty hunting partners, set out on journeys in an ever struggling effort to win bounty rewards to survive.<br><br>\n' +
+        'While traveling, they meet up with other very interesting people. Could Faye, the beautiful and ridiculously poor gambler, Edward, the computer genius, and Ein, the engineered dog be a good addition to the group?',
+      cover: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/1-T3PJUjFJyRwg.jpg',
+      rating: 86,
+      releaseDate: 1998,
+      totalEpisodes: 26,
+      duration: 24,
+      type: 'TV'
+    },
+    {...}
   ]
 }
 ```
