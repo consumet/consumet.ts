@@ -131,12 +131,13 @@ class Zoro extends AnimeParser {
    */
   override fetchEpisodeSources = async (
     episodeId: string,
-    server: StreamingServers = StreamingServers.RapidCloud
+    server: StreamingServers = StreamingServers.VidCloud
   ): Promise<ISource> => {
     if (episodeId.startsWith('http')) {
       const serverUrl = new URL(episodeId);
       switch (server) {
-        case StreamingServers.RapidCloud:
+        case StreamingServers.VidStreaming:
+        case StreamingServers.VidCloud:
           return {
             ...(await new RapidCloud().extract(serverUrl)),
           };
@@ -151,7 +152,7 @@ class Zoro extends AnimeParser {
             sources: await new StreamTape().extract(serverUrl),
           };
         default:
-        case StreamingServers.RapidCloud:
+        case StreamingServers.VidCloud:
           return {
             headers: { Referer: serverUrl.href },
             ...(await new RapidCloud().extract(serverUrl)),
@@ -181,9 +182,18 @@ class Zoro extends AnimeParser {
        */
       let serverId = '';
       switch (server) {
-        case StreamingServers.RapidCloud:
+        case StreamingServers.VidCloud:
           serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
             .map((i, el) => ($(el).attr('data-server-id') == '1' ? $(el) : null))
+            .get()[0]
+            .attr('data-id')!;
+
+          // zoro's vidcloud server is rapidcloud
+          if (!serverId) throw new Error('RapidCloud not found');
+          break;
+        case StreamingServers.VidStreaming:
+          serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
+            .map((i, el) => ($(el).attr('data-server-id') == '4' ? $(el) : null))
             .get()[0]
             .attr('data-id')!;
 

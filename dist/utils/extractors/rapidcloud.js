@@ -21,7 +21,7 @@ class RapidCloud extends models_1.VideoExtractor {
         super(...arguments);
         this.serverName = 'RapidCloud';
         this.sources = [];
-        this.host = 'https://rapid-cloud.ru';
+        this.host = 'https://rapid-cloud.co';
         this.enimeApi = 'https://api.enime.moe';
         this.extract = (videoUrl) => __awaiter(this, void 0, void 0, function* () {
             var _a, _b;
@@ -93,10 +93,14 @@ class RapidCloud extends models_1.VideoExtractor {
                     isM3U8: sources[0].file.includes('.m3u8'),
                     quality: 'auto',
                 });
-                result.subtitles = tracks.map((s) => ({
-                    url: s.file,
-                    lang: s.label ? s.label : 'Default (maybe)',
-                }));
+                result.subtitles = tracks
+                    .map((s) => s.file
+                    ? {
+                        url: s.file,
+                        lang: s.label ? s.label : 'Default (maybe)',
+                    }
+                    : null)
+                    .filter((s) => s);
                 return result;
             }
             catch (err) {

@@ -15,12 +15,12 @@ var StreamingServers;
      * when the video is ready to play. send a "3".
      * when the video stops playing close the web socket connection with the code `4969`.
      */
-    StreamingServers["RapidCloud"] = "rapidcloud";
     StreamingServers["StreamTape"] = "streamtape";
     StreamingServers["VizCloud"] = "vizcloud";
     // same as vizcloud
     StreamingServers["MyCloud"] = "mycloud";
     StreamingServers["Filemoon"] = "filemoon";
+    StreamingServers["VidStreaming"] = "vidstreaming";
 })(StreamingServers = exports.StreamingServers || (exports.StreamingServers = {}));
 var MediaStatus;
 (function (MediaStatus) {

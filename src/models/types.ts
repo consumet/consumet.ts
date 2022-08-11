@@ -91,12 +91,12 @@ export enum StreamingServers {
    * when the video is ready to play. send a "3".
    * when the video stops playing close the web socket connection with the code `4969`.
    */
-  RapidCloud = 'rapidcloud',
   StreamTape = 'streamtape',
   VizCloud = 'vizcloud',
   // same as vizcloud
   MyCloud = 'mycloud',
   Filemoon = 'filemoon',
+  VidStreaming = 'vidstreaming',
 }
 
 export enum MediaStatus {

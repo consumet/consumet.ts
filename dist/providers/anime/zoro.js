@@ -117,11 +117,12 @@ class Zoro extends models_1.AnimeParser {
          *
          * @param episodeId Episode id
          */
-        this.fetchEpisodeSources = (episodeId, server = models_1.StreamingServers.RapidCloud) => __awaiter(this, void 0, void 0, function* () {
+        this.fetchEpisodeSources = (episodeId, server = models_1.StreamingServers.VidCloud) => __awaiter(this, void 0, void 0, function* () {
             if (episodeId.startsWith('http')) {
                 const serverUrl = new URL(episodeId);
                 switch (server) {
-                    case models_1.StreamingServers.RapidCloud:
+                    case models_1.StreamingServers.VidStreaming:
+                    case models_1.StreamingServers.VidCloud:
                         return Object.assign({}, (yield new utils_1.RapidCloud().extract(serverUrl)));
                     case models_1.StreamingServers.StreamSB:
                         return {
@@ -134,7 +135,7 @@ class Zoro extends models_1.AnimeParser {
                             sources: yield new utils_1.StreamTape().extract(serverUrl),
                         };
                     default:
-                    case models_1.StreamingServers.RapidCloud:
+                    case models_1.StreamingServers.VidCloud:
                         return Object.assign({ headers: { Referer: serverUrl.href } }, (yield new utils_1.RapidCloud().extract(serverUrl)));
                 }
             }
@@ -156,9 +157,18 @@ class Zoro extends models_1.AnimeParser {
                  */
                 let serverId = '';
                 switch (server) {
-                    case models_1.StreamingServers.RapidCloud:
+                    case models_1.StreamingServers.VidCloud:
                         serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
                             .map((i, el) => ($(el).attr('data-server-id') == '1' ? $(el) : null))
+                            .get()[0]
+                            .attr('data-id');
+                        // zoro's vidcloud server is rapidcloud
+                        if (!serverId)
+                            throw new Error('RapidCloud not found');
+                        break;
+                    case models_1.StreamingServers.VidStreaming:
+                        serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
+                            .map((i, el) => ($(el).attr('data-server-id') == '4' ? $(el) : null))
                             .get()[0]
                             .attr('data-id');
                         // zoro's vidcloud server is rapidcloud

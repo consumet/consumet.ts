@@ -9,7 +9,7 @@ class RapidCloud extends VideoExtractor {
   protected override serverName = 'RapidCloud';
   protected override sources: IVideo[] = [];
 
-  private readonly host = 'https://rapid-cloud.ru';
+  private readonly host = 'https://rapid-cloud.co';
   private readonly enimeApi = 'https://api.enime.moe';
 
   override extract = async (videoUrl: URL): Promise<{ sources: IVideo[] } & { subtitles: ISubtitle[] }> => {
@@ -100,10 +100,16 @@ class RapidCloud extends VideoExtractor {
         quality: 'auto',
       });
 
-      result.subtitles = tracks.map((s: any) => ({
-        url: s.file,
-        lang: s.label ? s.label : 'Default (maybe)',
-      }));
+      result.subtitles = tracks
+        .map((s: any) =>
+          s.file
+            ? {
+                url: s.file,
+                lang: s.label ? s.label : 'Default (maybe)',
+              }
+            : null
+        )
+        .filter((s: any) => s);
 
       return result;
     } catch (err) {
