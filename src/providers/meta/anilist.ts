@@ -76,7 +76,7 @@ class Anilist extends AnimeParser {
               native: item.title.native,
               userPreferred: item.title.userPreferred,
             } || item.title.romaji,
-          image: item.coverImage.large,
+          image: item.coverImage.extraLarge ?? item.coverImage.large ?? item.coverImage.medium,
           rating: item.averageScore,
           releaseDate: item.seasonYear,
         })),
@@ -123,6 +123,7 @@ class Anilist extends AnimeParser {
         thumbnail: data.data.Media.trailer?.thumbnail,
       };
       animeInfo.image =
+        data.data.Media.coverImage.extraLarge ??
         data.data.Media.coverImage.large ??
         data.data.Media.coverImage.medium ??
         data.data.Media.coverImage.small;
@@ -185,7 +186,11 @@ class Anilist extends AnimeParser {
           item.node.mediaRecommendation.coverImage.extraLarge ??
           item.node.mediaRecommendation.coverImage.large ??
           item.node.mediaRecommendation.coverImage.medium,
-        cover: item.node.mediaRecommendation.bannerImage ?? animeInfo.image,
+        cover:
+          item.node.mediaRecommendation.bannerImage ??
+          item.node.mediaRecommendation.coverImage.extraLarge ??
+          item.node.mediaRecommendation.coverImage.large ??
+          item.node.mediaRecommendation.coverImage.medium,
         score: item.node.mediaRecommendation.meanScore,
       }));
       const possibleAnimeEpisodes = await this.findAnime(
@@ -386,7 +391,7 @@ class Anilist extends AnimeParser {
               native: item.title.native,
               userPreferred: item.title.userPreferred,
             } || item.title.romaji,
-          image: item.coverImage.large ?? item.coverImage.medium ?? item.coverImage.small,
+          image: item.coverImage.extraLarge ?? item.coverImage.large ?? item.coverImage.medium,
           trailer: {
             id: item.trailer?.id,
             site: item.trailer?.site,
@@ -405,7 +410,8 @@ class Anilist extends AnimeParser {
               : item.status == 'HIATUS'
               ? MediaStatus.HIATUS
               : MediaStatus.UNKNOWN,
-          cover: item.bannerImage ?? item.coverImage.large ?? item.coverImage.medium ?? item.coverImage.small,
+          cover:
+            item.bannerImage ?? item.coverImage.extraLarge ?? item.coverImage.large ?? item.coverImage.medium,
           rating: item.averageScore,
           releaseDate: item.seasonYear,
           totalEpisodes: isNaN(item.episodes) ? 0 : item.episodes ?? item.nextAiringEpisode?.episode - 1 ?? 0,
@@ -444,7 +450,7 @@ class Anilist extends AnimeParser {
               native: item.title.native,
               userPreferred: item.title.userPreferred,
             } || item.title.romaji,
-          image: item.coverImage.large ?? item.coverImage.medium ?? item.coverImage.small,
+          image: item.coverImage.extraLarge ?? item.coverImage.large ?? item.coverImage.medium,
           trailer: {
             id: item.trailer?.id,
             site: item.trailer?.site,
@@ -463,7 +469,8 @@ class Anilist extends AnimeParser {
               : item.status == 'HIATUS'
               ? MediaStatus.HIATUS
               : MediaStatus.UNKNOWN,
-          cover: item.bannerImage ?? item.coverImage.large ?? item.coverImage.medium ?? item.coverImage.small,
+          cover:
+            item.bannerImage ?? item.coverImage.extraLarge ?? item.coverImage.large ?? item.coverImage.medium,
           rating: item.averageScore,
           releaseDate: item.seasonYear,
           totalEpisodes: isNaN(item.episodes) ? 0 : item.episodes ?? item.nextAiringEpisode?.episode - 1 ?? 0,
@@ -524,13 +531,14 @@ class Anilist extends AnimeParser {
               native: item.media.title.native,
               userPreferred: item.media.title.userPreferred,
             } || item.media.title.romaji,
-          image: item.media.coverImage.large ?? item.media.coverImage.medium ?? item.media.coverImage.small,
+          image:
+            item.media.coverImage.extraLarge ?? item.media.coverImage.large ?? item.media.coverImage.medium,
           description: item.media.description,
           cover:
             item.media.bannerImage ??
+            item.media.coverImage.extraLarge ??
             item.media.coverImage.large ??
-            item.media.coverImage.medium ??
-            item.media.coverImage.small,
+            item.media.coverImage.medium,
           rating: item.media.averageScore,
           releaseDate: item.media.seasonYear,
           type: item.media.format,
@@ -565,14 +573,15 @@ class Anilist extends AnimeParser {
               native: item.title.native,
               userPreferred: item.title.userPreferred,
             } || item.title.romaji,
-          image: item.coverImage.large ?? item.coverImage.medium ?? item.coverImage.small,
+          image: item.coverImage.extraLarge ?? item.coverImage.large ?? item.coverImage.medium,
           trailer: {
             id: item.trailer?.id,
             site: item.trailer?.site,
             thumbnail: item.trailer?.thumbnail,
           },
           description: item.description,
-          cover: item.bannerImage ?? item.coverImage.large ?? item.coverImage.medium ?? item.coverImage.small,
+          cover:
+            item.bannerImage ?? item.coverImage.extraLarge ?? item.coverImage.large ?? item.coverImage.medium,
           rating: item.averageScore,
           releaseDate: item.seasonYear,
           totalEpisodes: isNaN(item.episodes) ? 0 : item.episodes ?? item.nextAiringEpisode?.episode - 1 ?? 0,

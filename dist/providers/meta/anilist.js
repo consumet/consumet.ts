@@ -48,19 +48,22 @@ class Anilist extends models_1.AnimeParser {
                 const res = {
                     currentPage: data.data.Page.pageInfo.currentPage,
                     hasNextPage: data.data.Page.pageInfo.hasNextPage,
-                    results: data.data.Page.media.map((item) => ({
-                        id: item.id.toString(),
-                        malId: item.idMal,
-                        title: {
-                            romaji: item.title.romaji,
-                            english: item.title.english,
-                            native: item.title.native,
-                            userPreferred: item.title.userPreferred,
-                        } || item.title.romaji,
-                        image: item.coverImage.large,
-                        rating: item.averageScore,
-                        releaseDate: item.seasonYear,
-                    })),
+                    results: data.data.Page.media.map((item) => {
+                        var _a, _b;
+                        return ({
+                            id: item.id.toString(),
+                            malId: item.idMal,
+                            title: {
+                                romaji: item.title.romaji,
+                                english: item.title.english,
+                                native: item.title.native,
+                                userPreferred: item.title.userPreferred,
+                            } || item.title.romaji,
+                            image: (_b = (_a = item.coverImage.extraLarge) !== null && _a !== void 0 ? _a : item.coverImage.large) !== null && _b !== void 0 ? _b : item.coverImage.medium,
+                            rating: item.averageScore,
+                            releaseDate: item.seasonYear,
+                        });
+                    }),
                 };
                 return res;
             }
@@ -74,7 +77,7 @@ class Anilist extends models_1.AnimeParser {
          * @param dub to get dubbed episodes (optional) set to `true` to get dubbed episodes. **ONLY WORKS FOR GOGOANIME**
          */
         this.fetchAnimeInfo = (id, dub = false) => __awaiter(this, void 0, void 0, function* () {
-            var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m;
+            var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o;
             const animeInfo = {
                 id: id,
                 title: '',
@@ -103,8 +106,8 @@ class Anilist extends models_1.AnimeParser {
                     thumbnail: (_c = data.data.Media.trailer) === null || _c === void 0 ? void 0 : _c.thumbnail,
                 };
                 animeInfo.image =
-                    (_e = (_d = data.data.Media.coverImage.large) !== null && _d !== void 0 ? _d : data.data.Media.coverImage.medium) !== null && _e !== void 0 ? _e : data.data.Media.coverImage.small;
-                animeInfo.cover = (_f = data.data.Media.bannerImage) !== null && _f !== void 0 ? _f : animeInfo.image;
+                    (_f = (_e = (_d = data.data.Media.coverImage.extraLarge) !== null && _d !== void 0 ? _d : data.data.Media.coverImage.large) !== null && _e !== void 0 ? _e : data.data.Media.coverImage.medium) !== null && _f !== void 0 ? _f : data.data.Media.coverImage.small;
+                animeInfo.cover = (_g = data.data.Media.bannerImage) !== null && _g !== void 0 ? _g : animeInfo.image;
                 animeInfo.description = data.data.Media.description;
                 switch (data.data.Media.status) {
                     case 'RELEASING':
@@ -125,11 +128,11 @@ class Anilist extends models_1.AnimeParser {
                         animeInfo.status = models_1.MediaStatus.UNKNOWN;
                 }
                 animeInfo.releaseDate = data.data.Media.startDate.year;
-                if ((_g = data.data.Media.nextAiringEpisode) === null || _g === void 0 ? void 0 : _g.airingAt)
+                if ((_h = data.data.Media.nextAiringEpisode) === null || _h === void 0 ? void 0 : _h.airingAt)
                     animeInfo.nextAiringEpisode = {
-                        airingTime: (_h = data.data.Media.nextAiringEpisode) === null || _h === void 0 ? void 0 : _h.airingAt,
-                        timeUntilAiring: (_j = data.data.Media.nextAiringEpisode) === null || _j === void 0 ? void 0 : _j.timeUntilAiring,
-                        episode: (_k = data.data.Media.nextAiringEpisode) === null || _k === void 0 ? void 0 : _k.episode,
+                        airingTime: (_j = data.data.Media.nextAiringEpisode) === null || _j === void 0 ? void 0 : _j.airingAt,
+                        timeUntilAiring: (_k = data.data.Media.nextAiringEpisode) === null || _k === void 0 ? void 0 : _k.timeUntilAiring,
+                        episode: (_l = data.data.Media.nextAiringEpisode) === null || _l === void 0 ? void 0 : _l.episode,
                     };
                 animeInfo.rating = data.data.Media.averageScore;
                 animeInfo.duration = data.data.Media.duration;
@@ -137,7 +140,7 @@ class Anilist extends models_1.AnimeParser {
                 animeInfo.studios = data.data.Media.studios.edges.map((item) => item.node.name);
                 animeInfo.subOrDub = dub ? models_1.SubOrSub.DUB : models_1.SubOrSub.SUB;
                 animeInfo.recommendations = data.data.Media.recommendations.edges.map((item) => {
-                    var _a, _b, _c;
+                    var _a, _b, _c, _d, _e;
                     return ({
                         id: item.node.mediaRecommendation.id,
                         malId: item.node.mediaRecommendation.idMal,
@@ -160,11 +163,11 @@ class Anilist extends models_1.AnimeParser {
                                             : models_1.MediaStatus.UNKNOWN,
                         episodes: item.node.mediaRecommendation.episodes,
                         image: (_b = (_a = item.node.mediaRecommendation.coverImage.extraLarge) !== null && _a !== void 0 ? _a : item.node.mediaRecommendation.coverImage.large) !== null && _b !== void 0 ? _b : item.node.mediaRecommendation.coverImage.medium,
-                        cover: (_c = item.node.mediaRecommendation.bannerImage) !== null && _c !== void 0 ? _c : animeInfo.image,
+                        cover: (_e = (_d = (_c = item.node.mediaRecommendation.bannerImage) !== null && _c !== void 0 ? _c : item.node.mediaRecommendation.coverImage.extraLarge) !== null && _d !== void 0 ? _d : item.node.mediaRecommendation.coverImage.large) !== null && _e !== void 0 ? _e : item.node.mediaRecommendation.coverImage.medium,
                         score: item.node.mediaRecommendation.meanScore,
                     });
                 });
-                const possibleAnimeEpisodes = yield this.findAnime({ english: (_l = animeInfo.title) === null || _l === void 0 ? void 0 : _l.english, romaji: (_m = animeInfo.title) === null || _m === void 0 ? void 0 : _m.romaji }, data.data.Media.season, data.data.Media.startDate.year, animeInfo.malId, dub);
+                const possibleAnimeEpisodes = yield this.findAnime({ english: (_m = animeInfo.title) === null || _m === void 0 ? void 0 : _m.english, romaji: (_o = animeInfo.title) === null || _o === void 0 ? void 0 : _o.romaji }, data.data.Media.season, data.data.Media.startDate.year, animeInfo.malId, dub);
                 animeInfo.episodes = possibleAnimeEpisodes === null || possibleAnimeEpisodes === void 0 ? void 0 : possibleAnimeEpisodes.map((episode) => {
                     if (!episode.image) {
                         episode.image = animeInfo.image;
@@ -321,7 +324,7 @@ class Anilist extends models_1.AnimeParser {
                                 native: item.title.native,
                                 userPreferred: item.title.userPreferred,
                             } || item.title.romaji,
-                            image: (_b = (_a = item.coverImage.large) !== null && _a !== void 0 ? _a : item.coverImage.medium) !== null && _b !== void 0 ? _b : item.coverImage.small,
+                            image: (_b = (_a = item.coverImage.extraLarge) !== null && _a !== void 0 ? _a : item.coverImage.large) !== null && _b !== void 0 ? _b : item.coverImage.medium,
                             trailer: {
                                 id: (_c = item.trailer) === null || _c === void 0 ? void 0 : _c.id,
                                 site: (_d = item.trailer) === null || _d === void 0 ? void 0 : _d.site,
@@ -339,7 +342,7 @@ class Anilist extends models_1.AnimeParser {
                                             : item.status == 'HIATUS'
                                                 ? models_1.MediaStatus.HIATUS
                                                 : models_1.MediaStatus.UNKNOWN,
-                            cover: (_h = (_g = (_f = item.bannerImage) !== null && _f !== void 0 ? _f : item.coverImage.large) !== null && _g !== void 0 ? _g : item.coverImage.medium) !== null && _h !== void 0 ? _h : item.coverImage.small,
+                            cover: (_h = (_g = (_f = item.bannerImage) !== null && _f !== void 0 ? _f : item.coverImage.extraLarge) !== null && _g !== void 0 ? _g : item.coverImage.large) !== null && _h !== void 0 ? _h : item.coverImage.medium,
                             rating: item.averageScore,
                             releaseDate: item.seasonYear,
                             totalEpisodes: isNaN(item.episodes) ? 0 : (_l = (_j = item.episodes) !== null && _j !== void 0 ? _j : ((_k = item.nextAiringEpisode) === null || _k === void 0 ? void 0 : _k.episode) - 1) !== null && _l !== void 0 ? _l : 0,
@@ -378,7 +381,7 @@ class Anilist extends models_1.AnimeParser {
                                 native: item.title.native,
                                 userPreferred: item.title.userPreferred,
                             } || item.title.romaji,
-                            image: (_b = (_a = item.coverImage.large) !== null && _a !== void 0 ? _a : item.coverImage.medium) !== null && _b !== void 0 ? _b : item.coverImage.small,
+                            image: (_b = (_a = item.coverImage.extraLarge) !== null && _a !== void 0 ? _a : item.coverImage.large) !== null && _b !== void 0 ? _b : item.coverImage.medium,
                             trailer: {
                                 id: (_c = item.trailer) === null || _c === void 0 ? void 0 : _c.id,
                                 site: (_d = item.trailer) === null || _d === void 0 ? void 0 : _d.site,
@@ -396,7 +399,7 @@ class Anilist extends models_1.AnimeParser {
                                             : item.status == 'HIATUS'
                                                 ? models_1.MediaStatus.HIATUS
                                                 : models_1.MediaStatus.UNKNOWN,
-                            cover: (_h = (_g = (_f = item.bannerImage) !== null && _f !== void 0 ? _f : item.coverImage.large) !== null && _g !== void 0 ? _g : item.coverImage.medium) !== null && _h !== void 0 ? _h : item.coverImage.small,
+                            cover: (_h = (_g = (_f = item.bannerImage) !== null && _f !== void 0 ? _f : item.coverImage.extraLarge) !== null && _g !== void 0 ? _g : item.coverImage.large) !== null && _h !== void 0 ? _h : item.coverImage.medium,
                             rating: item.averageScore,
                             releaseDate: item.seasonYear,
                             totalEpisodes: isNaN(item.episodes) ? 0 : (_l = (_j = item.episodes) !== null && _j !== void 0 ? _j : ((_k = item.nextAiringEpisode) === null || _k === void 0 ? void 0 : _k.episode) - 1) !== null && _l !== void 0 ? _l : 0,
@@ -447,9 +450,9 @@ class Anilist extends models_1.AnimeParser {
                                 native: item.media.title.native,
                                 userPreferred: item.media.title.userPreferred,
                             } || item.media.title.romaji,
-                            image: (_b = (_a = item.media.coverImage.large) !== null && _a !== void 0 ? _a : item.media.coverImage.medium) !== null && _b !== void 0 ? _b : item.media.coverImage.small,
+                            image: (_b = (_a = item.media.coverImage.extraLarge) !== null && _a !== void 0 ? _a : item.media.coverImage.large) !== null && _b !== void 0 ? _b : item.media.coverImage.medium,
                             description: item.media.description,
-                            cover: (_e = (_d = (_c = item.media.bannerImage) !== null && _c !== void 0 ? _c : item.media.coverImage.large) !== null && _d !== void 0 ? _d : item.media.coverImage.medium) !== null && _e !== void 0 ? _e : item.media.coverImage.small,
+                            cover: (_e = (_d = (_c = item.media.bannerImage) !== null && _c !== void 0 ? _c : item.media.coverImage.extraLarge) !== null && _d !== void 0 ? _d : item.media.coverImage.large) !== null && _e !== void 0 ? _e : item.media.coverImage.medium,
                             rating: item.media.averageScore,
                             releaseDate: item.media.seasonYear,
                             type: item.media.format,
@@ -486,14 +489,14 @@ class Anilist extends models_1.AnimeParser {
                                 native: item.title.native,
                                 userPreferred: item.title.userPreferred,
                             } || item.title.romaji,
-                            image: (_b = (_a = item.coverImage.large) !== null && _a !== void 0 ? _a : item.coverImage.medium) !== null && _b !== void 0 ? _b : item.coverImage.small,
+                            image: (_b = (_a = item.coverImage.extraLarge) !== null && _a !== void 0 ? _a : item.coverImage.large) !== null && _b !== void 0 ? _b : item.coverImage.medium,
                             trailer: {
                                 id: (_c = item.trailer) === null || _c === void 0 ? void 0 : _c.id,
                                 site: (_d = item.trailer) === null || _d === void 0 ? void 0 : _d.site,
                                 thumbnail: (_e = item.trailer) === null || _e === void 0 ? void 0 : _e.thumbnail,
                             },
                             description: item.description,
-                            cover: (_h = (_g = (_f = item.bannerImage) !== null && _f !== void 0 ? _f : item.coverImage.large) !== null && _g !== void 0 ? _g : item.coverImage.medium) !== null && _h !== void 0 ? _h : item.coverImage.small,
+                            cover: (_h = (_g = (_f = item.bannerImage) !== null && _f !== void 0 ? _f : item.coverImage.extraLarge) !== null && _g !== void 0 ? _g : item.coverImage.large) !== null && _h !== void 0 ? _h : item.coverImage.medium,
                             rating: item.averageScore,
                             releaseDate: item.seasonYear,
                             totalEpisodes: isNaN(item.episodes) ? 0 : (_l = (_j = item.episodes) !== null && _j !== void 0 ? _j : ((_k = item.nextAiringEpisode) === null || _k === void 0 ? void 0 : _k.episode) - 1) !== null && _l !== void 0 ? _l : 0,
