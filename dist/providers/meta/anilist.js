@@ -24,7 +24,7 @@ class Anilist extends models_1.AnimeParser {
     constructor(provider) {
         super();
         this.name = 'AnilistWithKitsu';
-        this.baseUrl = 'https://anilist.co/';
+        this.baseUrl = 'https://anilist.co';
         this.logo = 'https://upload.wikimedia.org/wikipedia/commons/6/61/AniList_logo.svg';
         this.classPath = 'META.Anilist';
         this.anilistGraphqlUrl = 'https://graphql.anilist.co';
@@ -466,6 +466,11 @@ class Anilist extends models_1.AnimeParser {
             }
         });
         this.fetchAnimeGenres = (genres, page = 1, perPage = 20) => __awaiter(this, void 0, void 0, function* () {
+            if (genres.length === 0)
+                throw new Error('No genres specified');
+            for (const genre of genres)
+                if (!Object.values(models_1.Genres).includes(genre))
+                    throw new Error('Invalid genre');
             const options = {
                 headers: {
                     'Content-Type': 'application/json',

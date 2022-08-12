@@ -19,6 +19,7 @@ This list is in alphabetical order. (except the sub bullet points)
 - [AnimeFox](../providers/animefox.md)
 - [AnimePahe](../providers/animepahe.md)
 - [AniMixPlay](../providers/animixplay.md)
+- [Enime](../providers/enime.md)
 - [Gogoanime](../providers/gogoanime.md)
 - [Zoro.to](../providers/zoro.md)
 

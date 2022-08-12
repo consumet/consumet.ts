@@ -4,6 +4,7 @@ import AnimePahe from './animepahe';
 import Zoro from './zoro';
 import AniMixPlay from './animxplay';
 import AnimeFox from './animefox';
+import Enime from './enime';
 declare const _default: {
     Gogoanime: typeof Gogoanime;
     NineAnime: typeof NineAnime;
@@ -11,5 +12,6 @@ declare const _default: {
     Zoro: typeof Zoro;
     AniMixPlay: typeof AniMixPlay;
     AnimeFox: typeof AnimeFox;
+    Enime: typeof Enime;
 };
 export default _default;

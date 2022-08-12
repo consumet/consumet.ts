@@ -45,11 +45,13 @@ class FlixHQ extends MovieParser {
         $(navSelector).length > 0 ? !$(navSelector).children().last().hasClass('active') : false;
 
       $('.film_list-wrap > div.flw-item').each((i, el) => {
+        const releaseDate = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text();
         searchResult.results.push({
           id: $(el).find('div.film-poster > a').attr('href')?.slice(1)!,
           title: $(el).find('div.film-detail > h2 > a').attr('title')!,
           url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
           image: $(el).find('div.film-poster > img').attr('data-src'),
+          releaseDate: isNaN(parseInt(releaseDate)) ? undefined : releaseDate,
           type:
             $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
               ? TvType.MOVIE

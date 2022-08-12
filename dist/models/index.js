@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.MovieParser = exports.TvType = exports.ZLibraryObject = exports.GetComicsComicsObject = exports.ComicParser = exports.MangaParser = exports.LightNovelParser = exports.SubOrSub = exports.MediaStatus = exports.StreamingServers = exports.LibgenBookObject = exports.VideoExtractor = exports.BookParser = exports.AnimeParser = exports.BaseParser = exports.BaseProvider = void 0;
+exports.Genres = exports.MovieParser = exports.TvType = exports.ZLibraryObject = exports.GetComicsComicsObject = exports.ComicParser = exports.MangaParser = exports.LightNovelParser = exports.SubOrSub = exports.MediaStatus = exports.StreamingServers = exports.LibgenBookObject = exports.VideoExtractor = exports.BookParser = exports.AnimeParser = exports.BaseParser = exports.BaseProvider = void 0;
 const base_provider_1 = __importDefault(require("./base-provider"));
 exports.BaseProvider = base_provider_1.default;
 const base_parser_1 = __importDefault(require("./base-parser"));
@@ -27,6 +27,7 @@ Object.defineProperty(exports, "StreamingServers", { enumerable: true, get: func
 Object.defineProperty(exports, "MediaStatus", { enumerable: true, get: function () { return types_1.MediaStatus; } });
 Object.defineProperty(exports, "SubOrSub", { enumerable: true, get: function () { return types_1.SubOrSub; } });
 Object.defineProperty(exports, "TvType", { enumerable: true, get: function () { return types_1.TvType; } });
+Object.defineProperty(exports, "Genres", { enumerable: true, get: function () { return types_1.Genres; } });
 const type_objects_1 = require("./type-objects");
 Object.defineProperty(exports, "LibgenBookObject", { enumerable: true, get: function () { return type_objects_1.LibgenBookObject; } });
 Object.defineProperty(exports, "GetComicsComicsObject", { enumerable: true, get: function () { return type_objects_1.GetComicsComicsObject; } });

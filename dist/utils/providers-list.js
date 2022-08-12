@@ -15,6 +15,7 @@ exports.PROVIDERS_LIST = {
         new providers_1.ANIME.Zoro(),
         new providers_1.ANIME.AniMixPlay(),
         new providers_1.ANIME.AnimeFox(),
+        new providers_1.ANIME.Enime(),
     ],
     MANGA: [new providers_1.MANGA.MangaDex(), new providers_1.MANGA.MangaHere(), new providers_1.MANGA.MangaKakalot()],
     BOOKS: [new providers_1.BOOKS.Libgen()],

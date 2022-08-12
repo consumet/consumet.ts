@@ -10,6 +10,7 @@ import {
   IAnimeEpisode,
   SubOrSub,
   IEpisodeServer,
+  Genres,
 } from '../../models';
 import {
   anilistSearchQuery,
@@ -24,7 +25,7 @@ import Gogoanime from '../../providers/anime/gogoanime';
 
 class Anilist extends AnimeParser {
   override readonly name = 'AnilistWithKitsu';
-  protected override baseUrl = 'https://anilist.co/';
+  protected override baseUrl = 'https://anilist.co';
   protected override logo = 'https://upload.wikimedia.org/wikipedia/commons/6/61/AniList_logo.svg';
   protected override classPath = 'META.Anilist';
 
@@ -550,6 +551,11 @@ class Anilist extends AnimeParser {
     }
   };
   fetchAnimeGenres = async (genres: string[], page: number = 1, perPage: number = 20) => {
+    if (genres.length === 0) throw new Error('No genres specified');
+
+    for (const genre of genres)
+      if (!Object.values(Genres).includes(genre as Genres)) throw new Error('Invalid genre');
+
     const options = {
       headers: {
         'Content-Type': 'application/json',
@@ -602,4 +608,5 @@ class Anilist extends AnimeParser {
     return (await this.provider.fetchAnimeInfo(findAnime.results[0].id)) as IAnimeInfo;
   };
 }
+
 export default Anilist;

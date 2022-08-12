@@ -4,5 +4,6 @@ import AnimePahe from './animepahe';
 import Zoro from './zoro';
 import AniMixPlay from './animxplay';
 import AnimeFox from './animefox';
+import Enime from './enime';
 
-export default { Gogoanime, NineAnime, AnimePahe, Zoro, AniMixPlay, AnimeFox };
+export default { Gogoanime, NineAnime, AnimePahe, Zoro, AniMixPlay, AnimeFox, Enime };
