@@ -22,6 +22,7 @@ import {
   anilistGenresQuery,
 } from '../../utils';
 import Gogoanime from '../../providers/anime/gogoanime';
+import Enime from '../anime/enime';
 
 class Anilist extends AnimeParser {
   override readonly name = 'AnilistWithKitsu';
@@ -199,7 +200,8 @@ class Anilist extends AnimeParser {
         data.data.Media.season!,
         data.data.Media.startDate.year,
         animeInfo.malId as number,
-        dub
+        dub,
+        animeInfo.id
       );
 
       animeInfo.episodes = possibleAnimeEpisodes?.map((episode: IAnimeEpisode) => {
@@ -235,7 +237,8 @@ class Anilist extends AnimeParser {
     season: string,
     startDate: number,
     malId: number,
-    dub: boolean
+    dub: boolean,
+    anilistId: string
   ): Promise<IAnimeEpisode[]> => {
     title.english = title.english || title.romaji;
     title.romaji = title.romaji || title.english;
@@ -244,16 +247,23 @@ class Anilist extends AnimeParser {
     title.romaji = title.romaji.toLowerCase();
 
     if (title.english === title.romaji) {
-      return await this.findAnimeSlug(title.english, season, startDate, malId, dub);
+      return await this.findAnimeSlug(title.english, season, startDate, malId, dub, anilistId);
     }
 
-    const romajiPossibleEpisodes = this.findAnimeSlug(title.romaji, season, startDate, malId, dub);
+    const romajiPossibleEpisodes = this.findAnimeSlug(title.romaji, season, startDate, malId, dub, anilistId);
 
     if (romajiPossibleEpisodes) {
       return romajiPossibleEpisodes;
     }
 
-    const englishPossibleEpisodes = this.findAnimeSlug(title.english, season, startDate, malId, dub);
+    const englishPossibleEpisodes = this.findAnimeSlug(
+      title.english,
+      season,
+      startDate,
+      malId,
+      dub,
+      anilistId
+    );
     return englishPossibleEpisodes;
   };
 
@@ -262,8 +272,12 @@ class Anilist extends AnimeParser {
     season: string,
     startDate: number,
     malId: number,
-    dub: boolean
+    dub: boolean,
+    anilistId: string
   ): Promise<IAnimeEpisode[]> => {
+    if (this.provider instanceof Enime)
+      return (await this.provider.fetchAnimeInfoByAnilistId(anilistId)).episodes!;
+
     const slug = title.replace(/[^0-9a-zA-Z]+/g, ' ');
 
     let possibleAnime: any;
@@ -300,11 +314,23 @@ class Anilist extends AnimeParser {
     } else possibleAnime = await this.findAnimeRaw(slug);
 
     const possibleProviderEpisodes = possibleAnime.episodes;
+
     const options = {
       headers: { 'Content-Type': 'application/json' },
       query: kitsuSearchQuery(slug),
     };
 
+    const newEpisodeList = await this.findKitsuAnime(possibleProviderEpisodes, options, season, startDate);
+
+    return newEpisodeList;
+  };
+
+  private findKitsuAnime = async (
+    possibleProviderEpisodes: IAnimeEpisode[],
+    options: {},
+    season?: string,
+    startDate?: number
+  ) => {
     const kitsuEpisodes = await axios.post(this.kitsuGraphqlUrl, options);
     const episodesList = new Map();
     if (kitsuEpisodes?.data.data) {
@@ -312,7 +338,7 @@ class Anilist extends AnimeParser {
 
       if (nodes) {
         nodes.forEach((node: any) => {
-          if (node.season === season && node.startDate.trim().split('-')[0] === startDate.toString()) {
+          if (node.season === season && node.startDate.trim().split('-')[0] === startDate?.toString()) {
             const episodes = node.episodes.nodes;
 
             for (const episode of episodes) {
@@ -349,7 +375,6 @@ class Anilist extends AnimeParser {
     }
 
     const newEpisodeList: IAnimeEpisode[] = [];
-
     if (possibleProviderEpisodes?.length !== 0) {
       possibleProviderEpisodes?.forEach((ep: any, i: any) => {
         const j = (i + 1).toString();
@@ -608,5 +633,13 @@ class Anilist extends AnimeParser {
     return (await this.provider.fetchAnimeInfo(findAnime.results[0].id)) as IAnimeInfo;
   };
 }
+
+(async () => {
+  const anilist = new Anilist(new Enime());
+  console.time('fetching');
+  const anime = await anilist.fetchAnimeInfo('143270');
+  const sources = await anilist.fetchEpisodeSources(anime.episodes![0].id);
+  console.timeEnd('fetching');
+})();
 
 export default Anilist;

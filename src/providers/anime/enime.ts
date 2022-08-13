@@ -99,6 +99,48 @@ class Enime extends AnimeParser {
     return animeInfo;
   };
 
+  /**
+   * @param id anilist id
+   */
+  fetchAnimeInfoByAnilistId = async (id: string): Promise<IAnimeInfo> => {
+    const animeInfo: IAnimeInfo = {
+      id: id,
+      title: '',
+    };
+
+    console.log(`${this.enimeApi}/mapping/anilist/${id}`);
+    const { data } = await axios.get(`${this.enimeApi}/mapping/anilist/${id}`).catch(() => {
+      throw new Error('Anime not found');
+    });
+
+    animeInfo.anilistId = data.anilistId;
+    animeInfo.malId = data.mappings.mal;
+    animeInfo.title = data.title.english ?? data.title.romaji ?? data.title.native;
+    animeInfo.image = data.coverImage;
+    animeInfo.cover = data.bannerImage;
+    animeInfo.season = data.season;
+    animeInfo.releaseDate = data.year;
+    animeInfo.duration = data.duration;
+    animeInfo.popularity = data.popularity;
+    animeInfo.description = data.description;
+    animeInfo.genres = data.genre;
+    animeInfo.rating = data.averageScore;
+    animeInfo.status = data.status as MediaStatus;
+    animeInfo.synonyms = data.synonyms;
+    animeInfo.mappings = data.mappings;
+
+    data.episodes = data.episodes.sort((a: any, b: any) => b.number - a.number);
+    animeInfo.episodes = data.episodes.map(
+      (episode: any): IAnimeEpisode => ({
+        id: episode.id,
+        number: episode.number,
+        title: episode.title,
+      })
+    );
+
+    return animeInfo;
+  };
+
   override fetchEpisodeSources = async (episodeId: string, ...args: any): Promise<ISource> => {
     const res: ISource = {
       headers: {},
