@@ -60,6 +60,93 @@ class Anilist extends models_1.AnimeParser {
                                 native: item.title.native,
                                 userPreferred: item.title.userPreferred,
                             } || item.title.romaji,
+                            status: item.status == 'RELEASING'
+                                ? models_1.MediaStatus.ONGOING
+                                : item.status == 'FINISHED'
+                                    ? models_1.MediaStatus.COMPLETED
+                                    : item.status == 'NOT_YET_RELEASED'
+                                        ? models_1.MediaStatus.NOT_YET_AIRED
+                                        : item.status == 'CANCELLED'
+                                            ? models_1.MediaStatus.CANCELLED
+                                            : item.status == 'HIATUS'
+                                                ? models_1.MediaStatus.HIATUS
+                                                : models_1.MediaStatus.UNKNOWN,
+                            image: (_b = (_a = item.coverImage.extraLarge) !== null && _a !== void 0 ? _a : item.coverImage.large) !== null && _b !== void 0 ? _b : item.coverImage.medium,
+                            rating: item.averageScore,
+                            releaseDate: item.seasonYear,
+                        });
+                    }),
+                };
+                return res;
+            }
+            catch (err) {
+                throw new Error(err.message);
+            }
+        });
+        /**
+         *
+         * @param query Search query (optional)
+         * @param type Media type (optional) (default: `ANIME`) (options: `ANIME`, `MANGA`)
+         * @param page Page number (optional)
+         * @param perPage Number of results per page (optional) (default: `20`) (max: `50`)
+         * @param format Format (optional) (options: `TV`, `TV_SHORT`, `MOVIE`, `SPECIAL`, `OVA`, `ONA`, `MUSIC`)
+         * @param sort Sort (optional) (Default: `[POPULARITY_DESC, SCORE_DESC]`) (options: `POPULARITY_DESC`, `TRENDING_DESC`, `UPDATED_AT_DESC`, `START_DATE_DESC`, `START_DATE_ASC`, `END_DATE_DESC`, `END_DATE_ASC`, `RATING_DESC`, `RATING_ASC`, `TITLE_ASC`, `TITLE_DESC`)
+         * @param genres Genres (optional) (options: `ACTION`, `ADVENTURE`, `CARS`, `COMEDY`, `DEMENTIA`, `DEMONS`, `DRAMA`, `ECCHI`, `FANTASY`, `GAME`, `HENTAI`, `HISTORICAL`, `HORROR`, `KIDS`, `MAGIC`, `MARTIAL_ARTS`, `MECHA`, `MUSIC`, `MYSTERY`, `PARODY`, `PSYCHOLOGICAL`, `ROMANCE`, `SAMURAI`, `SCHOOL`, `SCI_FI`, `SEINEN`, `SHOUJO`, `SHOUJO_AI`, `SHOUNEN`, `SHOUNEN_AI`, `SPACE`, `SPORTS`, `SUPER_POWER`, `VAMPIRE`, `YURI`)
+         * @param id anilist Id (optional)
+         * @returns
+         */
+        this.advancedSearch = (query, type = 'ANIME', page = 1, perPage = 20, format, sort, genres, id) => __awaiter(this, void 0, void 0, function* () {
+            const options = {
+                headers: {
+                    'Content-Type': 'application/json',
+                    Accept: 'application/json',
+                },
+                query: (0, utils_1.anilistAdvancedQuery)(),
+                variables: {
+                    search: query,
+                    type: type,
+                    page: page,
+                    size: perPage,
+                    format: format,
+                    sort: sort,
+                    genres: genres,
+                    id: id,
+                },
+            };
+            if (genres) {
+                genres.forEach(genre => {
+                    if (!Object.values(models_1.Genres).includes(genre)) {
+                        throw new Error(`genre ${genre} is not valid`);
+                    }
+                });
+            }
+            try {
+                const { data } = yield axios_1.default.post(this.anilistGraphqlUrl, options);
+                const res = {
+                    currentPage: data.data.Page.pageInfo.currentPage,
+                    hasNextPage: data.data.Page.pageInfo.hasNextPage,
+                    results: data.data.Page.media.map((item) => {
+                        var _a, _b;
+                        return ({
+                            id: item.id.toString(),
+                            malId: item.idMal,
+                            title: {
+                                romaji: item.title.romaji,
+                                english: item.title.english,
+                                native: item.title.native,
+                                userPreferred: item.title.userPreferred,
+                            } || item.title.romaji,
+                            status: item.status == 'RELEASING'
+                                ? models_1.MediaStatus.ONGOING
+                                : item.status == 'FINISHED'
+                                    ? models_1.MediaStatus.COMPLETED
+                                    : item.status == 'NOT_YET_RELEASED'
+                                        ? models_1.MediaStatus.NOT_YET_AIRED
+                                        : item.status == 'CANCELLED'
+                                            ? models_1.MediaStatus.CANCELLED
+                                            : item.status == 'HIATUS'
+                                                ? models_1.MediaStatus.HIATUS
+                                                : models_1.MediaStatus.UNKNOWN,
                             image: (_b = (_a = item.coverImage.extraLarge) !== null && _a !== void 0 ? _a : item.coverImage.large) !== null && _b !== void 0 ? _b : item.coverImage.medium,
                             rating: item.averageScore,
                             releaseDate: item.seasonYear,

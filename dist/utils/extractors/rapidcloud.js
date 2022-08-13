@@ -15,7 +15,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const axios_1 = __importDefault(require("axios"));
 const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
-const __1 = require("..");
 class RapidCloud extends models_1.VideoExtractor {
     constructor() {
         super(...arguments);
@@ -34,8 +33,6 @@ class RapidCloud extends models_1.VideoExtractor {
                 const options = {
                     headers: {
                         'X-Requested-With': 'XMLHttpRequest',
-                        Referer: videoUrl.href,
-                        'User-Agent': __1.USER_AGENT,
                     },
                 };
                 let res = null;
@@ -50,7 +47,8 @@ class RapidCloud extends models_1.VideoExtractor {
                     .split(' = ')[1]
                     .replace(/\'/g, '');
                 const { data: sId } = yield axios_1.default.get(`${this.enimeApi}/tool/rapid-cloud/server-id`);
-                const _token = yield this.captcha(videoUrl.href, key);
+                // const _token = await this.captcha(videoUrl.href, key);
+                const _token = undefined;
                 res = yield axios_1.default.get(`${this.host}/ajax/embed-6/getSources?id=${id}&sId=${sId}&_number=${_number}&_token=${_token}`, options);
                 const { data: { sources, tracks, intro }, } = res;
                 this.sources = sources.map((s) => ({

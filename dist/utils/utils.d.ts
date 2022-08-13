@@ -10,6 +10,7 @@ export declare const range: ({ from, to, step, length }: {
     length?: number | undefined;
 }) => number[];
 export declare const capitalizeFirstLetter: (s: string) => string;
+export declare const anilistAdvancedQuery: () => string;
 export declare const anilistSearchQuery: (query: string, page: number, perPage: number) => string;
 export declare const anilistMediaDetailQuery: (id: string) => string;
 export declare const anilistTrendingAnimeQuery: (page?: number, perPage?: number) => string;

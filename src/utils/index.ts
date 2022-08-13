@@ -24,6 +24,7 @@ import {
   anilistPopularAnimeQuery,
   anilistAiringScheduleQuery,
   anilistGenresQuery,
+  anilistAdvancedQuery,
 } from './utils';
 import { parsePostInfo } from './getComics';
 import { countDivs } from './zLibrary';
@@ -53,5 +54,6 @@ export {
   anilistPopularAnimeQuery,
   anilistAiringScheduleQuery,
   anilistGenresQuery,
+  anilistAdvancedQuery,
   Filemoon,
 };

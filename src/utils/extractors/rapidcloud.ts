@@ -22,8 +22,6 @@ class RapidCloud extends VideoExtractor {
       const options = {
         headers: {
           'X-Requested-With': 'XMLHttpRequest',
-          Referer: videoUrl.href,
-          'User-Agent': USER_AGENT,
         },
       };
 
@@ -41,7 +39,8 @@ class RapidCloud extends VideoExtractor {
 
       const { data: sId } = await axios.get(`${this.enimeApi}/tool/rapid-cloud/server-id`);
 
-      const _token = await this.captcha(videoUrl.href, key);
+      // const _token = await this.captcha(videoUrl.href, key);
+      const _token = undefined;
 
       res = await axios.get(
         `${this.host}/ajax/embed-6/getSources?id=${id}&sId=${sId}&_number=${_number}&_token=${_token}`,

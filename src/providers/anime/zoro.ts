@@ -164,12 +164,7 @@ class Zoro extends AnimeParser {
 
     try {
       const { data } = await axios.get(
-        `${this.baseUrl}/ajax/v2/episode/servers?episodeId=${episodeId.split('?ep=')[1]}`,
-        {
-          headers: {
-            Referer: episodeId,
-          },
-        }
+        `${this.baseUrl}/ajax/v2/episode/servers?episodeId=${episodeId.split('?ep=')[1]}`
       );
 
       const $ = load(data.html);

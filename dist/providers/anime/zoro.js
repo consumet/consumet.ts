@@ -143,11 +143,7 @@ class Zoro extends models_1.AnimeParser {
                 throw new Error('Invalid episode id');
             episodeId = `${this.baseUrl}/watch/${episodeId.replace('$episode$', '?ep=')}`;
             try {
-                const { data } = yield axios_1.default.get(`${this.baseUrl}/ajax/v2/episode/servers?episodeId=${episodeId.split('?ep=')[1]}`, {
-                    headers: {
-                        Referer: episodeId,
-                    },
-                });
+                const { data } = yield axios_1.default.get(`${this.baseUrl}/ajax/v2/episode/servers?episodeId=${episodeId.split('?ep=')[1]}`);
                 const $ = (0, cheerio_1.load)(data.html);
                 /**
                  * vidtreaming -> 4
