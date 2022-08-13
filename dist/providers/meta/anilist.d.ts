@@ -37,6 +37,7 @@ declare class Anilist extends AnimeParser {
     fetchEpisodeServers: (episodeId: string) => Promise<IEpisodeServer[]>;
     private findAnime;
     private findAnimeSlug;
+    private findKitsuAnime;
     fetchTrendingAnime: (page?: number, perPage?: number) => Promise<ISearch<IAnimeResult>>;
     fetchPopularAnime: (page?: number, perPage?: number) => Promise<ISearch<IAnimeResult>>;
     /**

@@ -16,6 +16,7 @@ const axios_1 = __importDefault(require("axios"));
 const models_1 = require("../../models");
 const utils_1 = require("../../utils");
 const gogoanime_1 = __importDefault(require("../../providers/anime/gogoanime"));
+const enime_1 = __importDefault(require("../anime/enime"));
 class Anilist extends models_1.AnimeParser {
     /**
      * This class maps anilist to kitsu with any other anime provider.
@@ -167,7 +168,7 @@ class Anilist extends models_1.AnimeParser {
                         score: item.node.mediaRecommendation.meanScore,
                     });
                 });
-                const possibleAnimeEpisodes = yield this.findAnime({ english: (_m = animeInfo.title) === null || _m === void 0 ? void 0 : _m.english, romaji: (_o = animeInfo.title) === null || _o === void 0 ? void 0 : _o.romaji }, data.data.Media.season, data.data.Media.startDate.year, animeInfo.malId, dub);
+                const possibleAnimeEpisodes = yield this.findAnime({ english: (_m = animeInfo.title) === null || _m === void 0 ? void 0 : _m.english, romaji: (_o = animeInfo.title) === null || _o === void 0 ? void 0 : _o.romaji }, data.data.Media.season, data.data.Media.startDate.year, animeInfo.malId, dub, animeInfo.id);
                 animeInfo.episodes = possibleAnimeEpisodes === null || possibleAnimeEpisodes === void 0 ? void 0 : possibleAnimeEpisodes.map((episode) => {
                     if (!episode.image) {
                         episode.image = animeInfo.image;
@@ -194,22 +195,24 @@ class Anilist extends models_1.AnimeParser {
         this.fetchEpisodeServers = (episodeId) => __awaiter(this, void 0, void 0, function* () {
             return this.provider.fetchEpisodeServers(episodeId);
         });
-        this.findAnime = (title, season, startDate, malId, dub) => __awaiter(this, void 0, void 0, function* () {
+        this.findAnime = (title, season, startDate, malId, dub, anilistId) => __awaiter(this, void 0, void 0, function* () {
             title.english = title.english || title.romaji;
             title.romaji = title.romaji || title.english;
             title.english = title.english.toLowerCase();
             title.romaji = title.romaji.toLowerCase();
             if (title.english === title.romaji) {
-                return yield this.findAnimeSlug(title.english, season, startDate, malId, dub);
+                return yield this.findAnimeSlug(title.english, season, startDate, malId, dub, anilistId);
             }
-            const romajiPossibleEpisodes = this.findAnimeSlug(title.romaji, season, startDate, malId, dub);
+            const romajiPossibleEpisodes = this.findAnimeSlug(title.romaji, season, startDate, malId, dub, anilistId);
             if (romajiPossibleEpisodes) {
                 return romajiPossibleEpisodes;
             }
-            const englishPossibleEpisodes = this.findAnimeSlug(title.english, season, startDate, malId, dub);
+            const englishPossibleEpisodes = this.findAnimeSlug(title.english, season, startDate, malId, dub, anilistId);
             return englishPossibleEpisodes;
         });
-        this.findAnimeSlug = (title, season, startDate, malId, dub) => __awaiter(this, void 0, void 0, function* () {
+        this.findAnimeSlug = (title, season, startDate, malId, dub, anilistId) => __awaiter(this, void 0, void 0, function* () {
+            if (this.provider instanceof enime_1.default)
+                return (yield this.provider.fetchAnimeInfoByAnilistId(anilistId)).episodes;
             const slug = title.replace(/[^0-9a-zA-Z]+/g, ' ');
             let possibleAnime;
             if (malId) {
@@ -243,6 +246,10 @@ class Anilist extends models_1.AnimeParser {
                 headers: { 'Content-Type': 'application/json' },
                 query: (0, utils_1.kitsuSearchQuery)(slug),
             };
+            const newEpisodeList = yield this.findKitsuAnime(possibleProviderEpisodes, options, season, startDate);
+            return newEpisodeList;
+        });
+        this.findKitsuAnime = (possibleProviderEpisodes, options, season, startDate) => __awaiter(this, void 0, void 0, function* () {
             const kitsuEpisodes = yield axios_1.default.post(this.kitsuGraphqlUrl, options);
             const episodesList = new Map();
             if (kitsuEpisodes === null || kitsuEpisodes === void 0 ? void 0 : kitsuEpisodes.data.data) {
@@ -250,7 +257,7 @@ class Anilist extends models_1.AnimeParser {
                 if (nodes) {
                     nodes.forEach((node) => {
                         var _a, _b;
-                        if (node.season === season && node.startDate.trim().split('-')[0] === startDate.toString()) {
+                        if (node.season === season && node.startDate.trim().split('-')[0] === (startDate === null || startDate === void 0 ? void 0 : startDate.toString())) {
                             const episodes = node.episodes.nodes;
                             for (const episode of episodes) {
                                 const i = episode === null || episode === void 0 ? void 0 : episode.number.toString().replace(/"/g, '');

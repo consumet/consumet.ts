@@ -634,12 +634,4 @@ class Anilist extends AnimeParser {
   };
 }
 
-(async () => {
-  const anilist = new Anilist(new Enime());
-  console.time('fetching');
-  const anime = await anilist.fetchAnimeInfo('143270');
-  const sources = await anilist.fetchEpisodeSources(anime.episodes![0].id);
-  console.timeEnd('fetching');
-})();
-
 export default Anilist;
