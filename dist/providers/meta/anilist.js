@@ -91,9 +91,8 @@ class Anilist extends models_1.AnimeParser {
          * @param perPage Number of results per page (optional) (default: `20`) (max: `50`)
          * @param format Format (optional) (options: `TV`, `TV_SHORT`, `MOVIE`, `SPECIAL`, `OVA`, `ONA`, `MUSIC`)
          * @param sort Sort (optional) (Default: `[POPULARITY_DESC, SCORE_DESC]`) (options: `POPULARITY_DESC`, `TRENDING_DESC`, `UPDATED_AT_DESC`, `START_DATE_DESC`, `START_DATE_ASC`, `END_DATE_DESC`, `END_DATE_ASC`, `RATING_DESC`, `RATING_ASC`, `TITLE_ASC`, `TITLE_DESC`)
-         * @param genres Genres (optional) (options: `ACTION`, `ADVENTURE`, `CARS`, `COMEDY`, `DEMENTIA`, `DEMONS`, `DRAMA`, `ECCHI`, `FANTASY`, `GAME`, `HENTAI`, `HISTORICAL`, `HORROR`, `KIDS`, `MAGIC`, `MARTIAL_ARTS`, `MECHA`, `MUSIC`, `MYSTERY`, `PARODY`, `PSYCHOLOGICAL`, `ROMANCE`, `SAMURAI`, `SCHOOL`, `SCI_FI`, `SEINEN`, `SHOUJO`, `SHOUJO_AI`, `SHOUNEN`, `SHOUNEN_AI`, `SPACE`, `SPORTS`, `SUPER_POWER`, `VAMPIRE`, `YURI`)
+         * @param genres Genres (optional) (options: `Action`, `Adventure`, `Cars`, `Comedy`, `Dementia`, `Demons`, `Drama`, `Ecchi`, `Fantasy`, `Game`, `Harem`, `Historical`, `Horror`, `Josei`, `Kids`, `Magic`, `Martial-Arts`, `Mecha`, `Military`, `Music`, `Mystery`, `Parody`, `Police`, `Psychological`, `Romance`, `Samurai`, `Sci-Fi`, `Seinen`, `Shoujo`, `Shoujo-Ai`, `Shounen`, `Shounen-Ai`, `Slice-Of-Life`, `Space`, `Sports`, `Super-Power`, `Supernatural`, `Thriller`, `Vampire`, `Yaoi`, `Yuri`)
          * @param id anilist Id (optional)
-         * @returns
          */
         this.advancedSearch = (query, type = 'ANIME', page = 1, perPage = 20, format, sort, genres, id) => __awaiter(this, void 0, void 0, function* () {
             const options = {
@@ -615,6 +614,24 @@ class Anilist extends models_1.AnimeParser {
             if (findAnime.results.length === 0)
                 return [];
             return (yield this.provider.fetchAnimeInfo(findAnime.results[0].id));
+        });
+        this.fetchRandomAnime = () => __awaiter(this, void 0, void 0, function* () {
+            const options = {
+                headers: {
+                    'Content-Type': 'application/json',
+                    Accept: 'application/json',
+                },
+                query: (0, utils_1.anilistSiteStatisticsQuery)(),
+            };
+            try {
+                const { data: { data }, } = yield axios_1.default.post(this.anilistGraphqlUrl, options);
+                const selectedAnime = Math.floor(Math.random() * data.SiteStatistics.anime.nodes[data.SiteStatistics.anime.nodes.length - 1].count);
+                const { results } = yield this.advancedSearch(undefined, 'ANIME', Math.ceil(selectedAnime / 50), 50);
+                return yield this.fetchAnimeInfo(results[selectedAnime % 50].id);
+            }
+            catch (err) {
+                throw new Error(err.message);
+            }
         });
         this.provider = provider || new gogoanime_1.default();
     }

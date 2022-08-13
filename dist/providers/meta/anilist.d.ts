@@ -27,9 +27,8 @@ declare class Anilist extends AnimeParser {
      * @param perPage Number of results per page (optional) (default: `20`) (max: `50`)
      * @param format Format (optional) (options: `TV`, `TV_SHORT`, `MOVIE`, `SPECIAL`, `OVA`, `ONA`, `MUSIC`)
      * @param sort Sort (optional) (Default: `[POPULARITY_DESC, SCORE_DESC]`) (options: `POPULARITY_DESC`, `TRENDING_DESC`, `UPDATED_AT_DESC`, `START_DATE_DESC`, `START_DATE_ASC`, `END_DATE_DESC`, `END_DATE_ASC`, `RATING_DESC`, `RATING_ASC`, `TITLE_ASC`, `TITLE_DESC`)
-     * @param genres Genres (optional) (options: `ACTION`, `ADVENTURE`, `CARS`, `COMEDY`, `DEMENTIA`, `DEMONS`, `DRAMA`, `ECCHI`, `FANTASY`, `GAME`, `HENTAI`, `HISTORICAL`, `HORROR`, `KIDS`, `MAGIC`, `MARTIAL_ARTS`, `MECHA`, `MUSIC`, `MYSTERY`, `PARODY`, `PSYCHOLOGICAL`, `ROMANCE`, `SAMURAI`, `SCHOOL`, `SCI_FI`, `SEINEN`, `SHOUJO`, `SHOUJO_AI`, `SHOUNEN`, `SHOUNEN_AI`, `SPACE`, `SPORTS`, `SUPER_POWER`, `VAMPIRE`, `YURI`)
+     * @param genres Genres (optional) (options: `Action`, `Adventure`, `Cars`, `Comedy`, `Dementia`, `Demons`, `Drama`, `Ecchi`, `Fantasy`, `Game`, `Harem`, `Historical`, `Horror`, `Josei`, `Kids`, `Magic`, `Martial-Arts`, `Mecha`, `Military`, `Music`, `Mystery`, `Parody`, `Police`, `Psychological`, `Romance`, `Samurai`, `Sci-Fi`, `Seinen`, `Shoujo`, `Shoujo-Ai`, `Shounen`, `Shounen-Ai`, `Slice-Of-Life`, `Space`, `Sports`, `Super-Power`, `Supernatural`, `Thriller`, `Vampire`, `Yaoi`, `Yuri`)
      * @param id anilist Id (optional)
-     * @returns
      */
     advancedSearch: (query?: string, type?: string, page?: number, perPage?: number, format?: string, sort?: string[], genres?: Genres[] | string[], id?: string | number) => Promise<ISearch<IAnimeResult>>;
     /**
@@ -63,7 +62,8 @@ declare class Anilist extends AnimeParser {
      * @returns the next airing episodes
      */
     fetchAiringSchedule: (page?: number, perPage?: number, weekStart?: number, weekEnd?: number, notYetAired?: boolean) => Promise<ISearch<IAnimeResult>>;
-    fetchAnimeGenres: (genres: string[], page?: number, perPage?: number) => Promise<ISearch<IAnimeResult>>;
+    fetchAnimeGenres: (genres: string[] | Genres[], page?: number, perPage?: number) => Promise<ISearch<IAnimeResult>>;
     private findAnimeRaw;
+    fetchRandomAnime: () => Promise<IAnimeInfo>;
 }
 export default Anilist;

@@ -17,4 +17,5 @@ export declare const anilistTrendingAnimeQuery: (page?: number, perPage?: number
 export declare const anilistPopularAnimeQuery: (page?: number, perPage?: number) => string;
 export declare const anilistGenresQuery: (genres: string[], page?: number, perPage?: number) => string;
 export declare const anilistAiringScheduleQuery: (page: number | undefined, perPage: number | undefined, weekStart: number, weekEnd: number, notYetAired: boolean) => string;
+export declare const anilistSiteStatisticsQuery: () => string;
 export declare const kitsuSearchQuery: (query: string) => string;

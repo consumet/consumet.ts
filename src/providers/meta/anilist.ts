@@ -21,6 +21,7 @@ import {
   anilistAiringScheduleQuery,
   anilistGenresQuery,
   anilistAdvancedQuery,
+  anilistSiteStatisticsQuery,
 } from '../../utils';
 import Gogoanime from '../../providers/anime/gogoanime';
 import Enime from '../anime/enime';
@@ -111,9 +112,8 @@ class Anilist extends AnimeParser {
    * @param perPage Number of results per page (optional) (default: `20`) (max: `50`)
    * @param format Format (optional) (options: `TV`, `TV_SHORT`, `MOVIE`, `SPECIAL`, `OVA`, `ONA`, `MUSIC`)
    * @param sort Sort (optional) (Default: `[POPULARITY_DESC, SCORE_DESC]`) (options: `POPULARITY_DESC`, `TRENDING_DESC`, `UPDATED_AT_DESC`, `START_DATE_DESC`, `START_DATE_ASC`, `END_DATE_DESC`, `END_DATE_ASC`, `RATING_DESC`, `RATING_ASC`, `TITLE_ASC`, `TITLE_DESC`)
-   * @param genres Genres (optional) (options: `ACTION`, `ADVENTURE`, `CARS`, `COMEDY`, `DEMENTIA`, `DEMONS`, `DRAMA`, `ECCHI`, `FANTASY`, `GAME`, `HENTAI`, `HISTORICAL`, `HORROR`, `KIDS`, `MAGIC`, `MARTIAL_ARTS`, `MECHA`, `MUSIC`, `MYSTERY`, `PARODY`, `PSYCHOLOGICAL`, `ROMANCE`, `SAMURAI`, `SCHOOL`, `SCI_FI`, `SEINEN`, `SHOUJO`, `SHOUJO_AI`, `SHOUNEN`, `SHOUNEN_AI`, `SPACE`, `SPORTS`, `SUPER_POWER`, `VAMPIRE`, `YURI`)
+   * @param genres Genres (optional) (options: `Action`, `Adventure`, `Cars`, `Comedy`, `Dementia`, `Demons`, `Drama`, `Ecchi`, `Fantasy`, `Game`, `Harem`, `Historical`, `Horror`, `Josei`, `Kids`, `Magic`, `Martial-Arts`, `Mecha`, `Military`, `Music`, `Mystery`, `Parody`, `Police`, `Psychological`, `Romance`, `Samurai`, `Sci-Fi`, `Seinen`, `Shoujo`, `Shoujo-Ai`, `Shounen`, `Shounen-Ai`, `Slice-Of-Life`, `Space`, `Sports`, `Super-Power`, `Supernatural`, `Thriller`, `Vampire`, `Yaoi`, `Yuri`)
    * @param id anilist Id (optional)
-   * @returns
    */
   advancedSearch = async (
     query?: string,
@@ -677,7 +677,7 @@ class Anilist extends AnimeParser {
       throw new Error((err as Error).message);
     }
   };
-  fetchAnimeGenres = async (genres: string[], page: number = 1, perPage: number = 20) => {
+  fetchAnimeGenres = async (genres: string[] | Genres[], page: number = 1, perPage: number = 20) => {
     if (genres.length === 0) throw new Error('No genres specified');
 
     for (const genre of genres)
@@ -733,6 +733,30 @@ class Anilist extends AnimeParser {
     if (findAnime.results.length === 0) return [];
 
     return (await this.provider.fetchAnimeInfo(findAnime.results[0].id)) as IAnimeInfo;
+  };
+
+  fetchRandomAnime = async (): Promise<IAnimeInfo> => {
+    const options = {
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+      query: anilistSiteStatisticsQuery(),
+    };
+
+    try {
+      const {
+        data: { data },
+      } = await axios.post(this.anilistGraphqlUrl, options);
+
+      const selectedAnime = Math.floor(
+        Math.random() * data.SiteStatistics.anime.nodes[data.SiteStatistics.anime.nodes.length - 1].count
+      );
+      const { results } = await this.advancedSearch(undefined, 'ANIME', Math.ceil(selectedAnime / 50), 50);
+      return await this.fetchAnimeInfo(results[selectedAnime % 50]!.id);
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
   };
 }
 
