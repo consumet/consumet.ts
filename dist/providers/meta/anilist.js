@@ -91,7 +91,7 @@ class Anilist extends models_1.AnimeParser {
          * @param perPage Number of results per page (optional) (default: `20`) (max: `50`)
          * @param format Format (optional) (options: `TV`, `TV_SHORT`, `MOVIE`, `SPECIAL`, `OVA`, `ONA`, `MUSIC`)
          * @param sort Sort (optional) (Default: `[POPULARITY_DESC, SCORE_DESC]`) (options: `POPULARITY_DESC`, `TRENDING_DESC`, `UPDATED_AT_DESC`, `START_DATE_DESC`, `START_DATE_ASC`, `END_DATE_DESC`, `END_DATE_ASC`, `RATING_DESC`, `RATING_ASC`, `TITLE_ASC`, `TITLE_DESC`)
-         * @param genres Genres (optional) (options: `Action`, `Adventure`, `Cars`, `Comedy`, `Dementia`, `Demons`, `Drama`, `Ecchi`, `Fantasy`, `Game`, `Harem`, `Historical`, `Horror`, `Josei`, `Kids`, `Magic`, `Martial-Arts`, `Mecha`, `Military`, `Music`, `Mystery`, `Parody`, `Police`, `Psychological`, `Romance`, `Samurai`, `Sci-Fi`, `Seinen`, `Shoujo`, `Shoujo-Ai`, `Shounen`, `Shounen-Ai`, `Slice-Of-Life`, `Space`, `Sports`, `Super-Power`, `Supernatural`, `Thriller`, `Vampire`, `Yaoi`, `Yuri`)
+         * @param genres Genres (optional) (options: `Action`, `Adventure`, `Cars`, `Comedy`, `Drama`, `Fantasy`, `Horror`, `Mahou Shoujo`, `Mecha`, `Music`, `Mystery`, `Psychological`, `Romance`, `Sci-Fi`, `Slice of Life`, `Sports`, `Supernatural`, `Thriller`)
          * @param id anilist Id (optional)
          */
         this.advancedSearch = (query, type = 'ANIME', page = 1, perPage = 20, format, sort, genres, id) => __awaiter(this, void 0, void 0, function* () {
@@ -558,6 +558,12 @@ class Anilist extends models_1.AnimeParser {
                 throw new Error(err.message);
             }
         });
+        /**
+         *
+         * @param genres An array of genres to filter by (optional) genres: [`Action`, `Adventure`, `Cars`, `Comedy`, `Drama`, `Fantasy`, `Horror`, `Mahou Shoujo`, `Mecha`, `Music`, `Mystery`, `Psychological`, `Romance`, `Sci-Fi`, `Slice of Life`, `Sports`, `Supernatural`, `Thriller`]
+         * @param page page number (optional)
+         * @param perPage number of results per page (optional)
+         */
         this.fetchAnimeGenres = (genres, page = 1, perPage = 20) => __awaiter(this, void 0, void 0, function* () {
             if (genres.length === 0)
                 throw new Error('No genres specified');
