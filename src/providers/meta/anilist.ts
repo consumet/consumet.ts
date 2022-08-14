@@ -663,6 +663,7 @@ class Anilist extends AnimeParser {
               native: item.media.title.native,
               userPreferred: item.media.title.userPreferred,
             } || item.media.title.romaji,
+          country: item.media.countryOfOrigin,  
           image:
             item.media.coverImage.extraLarge ?? item.media.coverImage.large ?? item.media.coverImage.medium,
           description: item.media.description,

@@ -88,7 +88,7 @@ export const anilistAiringScheduleQuery = (
   weekEnd: number,
   notYetAired: boolean
 ) =>
-  `query { Page(page: ${page}, perPage: ${perPage}) { pageInfo { total perPage currentPage lastPage hasNextPage } airingSchedules( notYetAired: ${notYetAired}, airingAt_greater: ${weekStart}, airingAt_lesser: ${weekEnd}) { airingAt episode media { id description idMal title { romaji english userPreferred native } bannerImage coverImage { extraLarge large medium color } genres averageScore seasonYear format } } } }`;
+  `query { Page(page: ${page}, perPage: ${perPage}) { pageInfo { total perPage currentPage lastPage hasNextPage } airingSchedules( notYetAired: ${notYetAired}, airingAt_greater: ${weekStart}, airingAt_lesser: ${weekEnd}) { airingAt episode media { id description idMal title { romaji english userPreferred native } countryOfOrigin bannerImage coverImage { extraLarge large medium color } genres averageScore seasonYear format } } } }`;
 export const anilistSiteStatisticsQuery = () => `query { SiteStatistics { anime { nodes { count } } } }`;
 export const kitsuSearchQuery = (query: string) =>
   `query{searchAnimeByTitle(first:5, title:"${query}"){ nodes {id season startDate titles { localized } episodes(first: 2000){ nodes { number titles { canonical } description thumbnail { original { url } } } } } } }`;
