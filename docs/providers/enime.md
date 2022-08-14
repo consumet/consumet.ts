@@ -19,6 +19,8 @@ const enime = new ANIME.Enime();
 | Parameter | Type     | Description                                                              |
 | --------- | -------- | ------------------------------------------------------------------------ |
 | query     | `string` | query to search for. (*In this case, We're searching for `Overlord IV`*) |
+| page      | `number` | page number to search for.                                               |
+| perPage   | `number` | number of results per page.                                              |
 
 ```ts
 enime.search("Overlord IV").then(data => {
@@ -67,11 +69,9 @@ output:
 
 <h4>Parameters</h4>
 
-| Parameter              | Type     | Description                                                                                                                              |
-| ---------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| id                     | `string` | takes anime id as a parameter. (*anime id can be found in the anime search results or anime info object*)                                |
-| episodePage (optional) | `number` | takes episode page number as a parameter. default: -1 to get all episodes at once (*episodePages can be found in the anime info object*) |
-
+| Parameter | Type     | Description                                                                                               |
+| --------- | -------- | --------------------------------------------------------------------------------------------------------- |
+| id        | `string` | takes anime id as a parameter. (*anime id can be found in the anime search results or anime info object*) |
 
 ```ts
 enime.fetchAnimeInfo("cl6k4l2xt000nh4lu54mqankt").then(data => {

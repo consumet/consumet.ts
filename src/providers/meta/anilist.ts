@@ -221,16 +221,18 @@ class Anilist extends AnimeParser {
         native: data.data.Media.title.native,
         userPreferred: data.data.Media.title.userPreferred,
       };
-      animeInfo.trailer = {
-        id: data.data.Media.trailer?.id,
-        site: data.data.Media.trailer?.site,
-        thumbnail: data.data.Media.trailer?.thumbnail,
-      };
+
+      if (data.data.Media.trailer?.id) {
+        animeInfo.trailer = {
+          id: data.data.Media.trailer?.id,
+          site: data.data.Media.trailer?.site,
+          thumbnail: data.data.Media.trailer?.thumbnail,
+        };
+      }
       animeInfo.image =
         data.data.Media.coverImage.extraLarge ??
         data.data.Media.coverImage.large ??
-        data.data.Media.coverImage.medium ??
-        data.data.Media.coverImage.small;
+        data.data.Media.coverImage.medium;
 
       animeInfo.cover = data.data.Media.bannerImage ?? animeInfo.image;
       animeInfo.description = data.data.Media.description;
@@ -342,8 +344,8 @@ class Anilist extends AnimeParser {
     dub: boolean,
     anilistId: string
   ): Promise<IAnimeEpisode[]> => {
-    title.english = title.english || title.romaji;
-    title.romaji = title.romaji || title.english;
+    title.english = title.english ?? title.romaji;
+    title.romaji = title.romaji ?? title.english;
 
     title.english = title.english.toLowerCase();
     title.romaji = title.romaji.toLowerCase();
@@ -542,6 +544,7 @@ class Anilist extends AnimeParser {
             item.bannerImage ?? item.coverImage.extraLarge ?? item.coverImage.large ?? item.coverImage.medium,
           rating: item.averageScore,
           releaseDate: item.seasonYear,
+          genres: item.genres,
           totalEpisodes: isNaN(item.episodes) ? 0 : item.episodes ?? item.nextAiringEpisode?.episode - 1 ?? 0,
           duration: item.duration,
           type: item.format,
@@ -601,6 +604,7 @@ class Anilist extends AnimeParser {
             item.bannerImage ?? item.coverImage.extraLarge ?? item.coverImage.large ?? item.coverImage.medium,
           rating: item.averageScore,
           releaseDate: item.seasonYear,
+          genres: item.genres,
           totalEpisodes: isNaN(item.episodes) ? 0 : item.episodes ?? item.nextAiringEpisode?.episode - 1 ?? 0,
           duration: item.duration,
           type: item.format,
@@ -667,6 +671,7 @@ class Anilist extends AnimeParser {
             item.media.coverImage.extraLarge ??
             item.media.coverImage.large ??
             item.media.coverImage.medium,
+          genres: item.genres,
           rating: item.media.averageScore,
           releaseDate: item.media.seasonYear,
           type: item.media.format,
@@ -724,6 +729,7 @@ class Anilist extends AnimeParser {
             item.bannerImage ?? item.coverImage.extraLarge ?? item.coverImage.large ?? item.coverImage.medium,
           rating: item.averageScore,
           releaseDate: item.seasonYear,
+          genres: item.genres,
           totalEpisodes: isNaN(item.episodes) ? 0 : item.episodes ?? item.nextAiringEpisode?.episode - 1 ?? 0,
           duration: item.duration,
           type: item.format,

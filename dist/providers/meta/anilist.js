@@ -187,13 +187,15 @@ class Anilist extends models_1.AnimeParser {
                     native: data.data.Media.title.native,
                     userPreferred: data.data.Media.title.userPreferred,
                 };
-                animeInfo.trailer = {
-                    id: (_a = data.data.Media.trailer) === null || _a === void 0 ? void 0 : _a.id,
-                    site: (_b = data.data.Media.trailer) === null || _b === void 0 ? void 0 : _b.site,
-                    thumbnail: (_c = data.data.Media.trailer) === null || _c === void 0 ? void 0 : _c.thumbnail,
-                };
+                if ((_a = data.data.Media.trailer) === null || _a === void 0 ? void 0 : _a.id) {
+                    animeInfo.trailer = {
+                        id: (_b = data.data.Media.trailer) === null || _b === void 0 ? void 0 : _b.id,
+                        site: (_c = data.data.Media.trailer) === null || _c === void 0 ? void 0 : _c.site,
+                        thumbnail: (_d = data.data.Media.trailer) === null || _d === void 0 ? void 0 : _d.thumbnail,
+                    };
+                }
                 animeInfo.image =
-                    (_f = (_e = (_d = data.data.Media.coverImage.extraLarge) !== null && _d !== void 0 ? _d : data.data.Media.coverImage.large) !== null && _e !== void 0 ? _e : data.data.Media.coverImage.medium) !== null && _f !== void 0 ? _f : data.data.Media.coverImage.small;
+                    (_f = (_e = data.data.Media.coverImage.extraLarge) !== null && _e !== void 0 ? _e : data.data.Media.coverImage.large) !== null && _f !== void 0 ? _f : data.data.Media.coverImage.medium;
                 animeInfo.cover = (_g = data.data.Media.bannerImage) !== null && _g !== void 0 ? _g : animeInfo.image;
                 animeInfo.description = data.data.Media.description;
                 switch (data.data.Media.status) {
@@ -282,8 +284,9 @@ class Anilist extends models_1.AnimeParser {
             return this.provider.fetchEpisodeServers(episodeId);
         });
         this.findAnime = (title, season, startDate, malId, dub, anilistId) => __awaiter(this, void 0, void 0, function* () {
-            title.english = title.english || title.romaji;
-            title.romaji = title.romaji || title.english;
+            var _p, _q;
+            title.english = (_p = title.english) !== null && _p !== void 0 ? _p : title.romaji;
+            title.romaji = (_q = title.romaji) !== null && _q !== void 0 ? _q : title.english;
             title.english = title.english.toLowerCase();
             title.romaji = title.romaji.toLowerCase();
             if (title.english === title.romaji) {
@@ -438,6 +441,7 @@ class Anilist extends models_1.AnimeParser {
                             cover: (_h = (_g = (_f = item.bannerImage) !== null && _f !== void 0 ? _f : item.coverImage.extraLarge) !== null && _g !== void 0 ? _g : item.coverImage.large) !== null && _h !== void 0 ? _h : item.coverImage.medium,
                             rating: item.averageScore,
                             releaseDate: item.seasonYear,
+                            genres: item.genres,
                             totalEpisodes: isNaN(item.episodes) ? 0 : (_l = (_j = item.episodes) !== null && _j !== void 0 ? _j : ((_k = item.nextAiringEpisode) === null || _k === void 0 ? void 0 : _k.episode) - 1) !== null && _l !== void 0 ? _l : 0,
                             duration: item.duration,
                             type: item.format,
@@ -495,6 +499,7 @@ class Anilist extends models_1.AnimeParser {
                             cover: (_h = (_g = (_f = item.bannerImage) !== null && _f !== void 0 ? _f : item.coverImage.extraLarge) !== null && _g !== void 0 ? _g : item.coverImage.large) !== null && _h !== void 0 ? _h : item.coverImage.medium,
                             rating: item.averageScore,
                             releaseDate: item.seasonYear,
+                            genres: item.genres,
                             totalEpisodes: isNaN(item.episodes) ? 0 : (_l = (_j = item.episodes) !== null && _j !== void 0 ? _j : ((_k = item.nextAiringEpisode) === null || _k === void 0 ? void 0 : _k.episode) - 1) !== null && _l !== void 0 ? _l : 0,
                             duration: item.duration,
                             type: item.format,
@@ -546,6 +551,7 @@ class Anilist extends models_1.AnimeParser {
                             image: (_b = (_a = item.media.coverImage.extraLarge) !== null && _a !== void 0 ? _a : item.media.coverImage.large) !== null && _b !== void 0 ? _b : item.media.coverImage.medium,
                             description: item.media.description,
                             cover: (_e = (_d = (_c = item.media.bannerImage) !== null && _c !== void 0 ? _c : item.media.coverImage.extraLarge) !== null && _d !== void 0 ? _d : item.media.coverImage.large) !== null && _e !== void 0 ? _e : item.media.coverImage.medium,
+                            genres: item.genres,
                             rating: item.media.averageScore,
                             releaseDate: item.media.seasonYear,
                             type: item.media.format,
@@ -603,6 +609,7 @@ class Anilist extends models_1.AnimeParser {
                             cover: (_h = (_g = (_f = item.bannerImage) !== null && _f !== void 0 ? _f : item.coverImage.extraLarge) !== null && _g !== void 0 ? _g : item.coverImage.large) !== null && _h !== void 0 ? _h : item.coverImage.medium,
                             rating: item.averageScore,
                             releaseDate: item.seasonYear,
+                            genres: item.genres,
                             totalEpisodes: isNaN(item.episodes) ? 0 : (_l = (_j = item.episodes) !== null && _j !== void 0 ? _j : ((_k = item.nextAiringEpisode) === null || _k === void 0 ? void 0 : _k.episode) - 1) !== null && _l !== void 0 ? _l : 0,
                             duration: item.duration,
                             type: item.format,
