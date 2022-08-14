@@ -548,6 +548,7 @@ class Anilist extends models_1.AnimeParser {
                                 native: item.media.title.native,
                                 userPreferred: item.media.title.userPreferred,
                             } || item.media.title.romaji,
+                            country: item.media.countryOfOrigin,
                             image: (_b = (_a = item.media.coverImage.extraLarge) !== null && _a !== void 0 ? _a : item.media.coverImage.large) !== null && _b !== void 0 ? _b : item.media.coverImage.medium,
                             description: item.media.description,
                             cover: (_e = (_d = (_c = item.media.bannerImage) !== null && _c !== void 0 ? _c : item.media.coverImage.extraLarge) !== null && _d !== void 0 ? _d : item.media.coverImage.large) !== null && _e !== void 0 ? _e : item.media.coverImage.medium,
