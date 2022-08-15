@@ -17,7 +17,7 @@ const mangakakalot = new MANGA.MangaKakalot();
 
 | Parameter | Type     | Description                                                                  |
 | --------- | -------- | ---------------------------------------------------------------------------- |
-| query     | `string` | query to search for. (*In this case, We're searching for `Tomodachi Gamee`*) |
+| query     | `string` | query to search for. (*In this case, We're searching for `Tomodachi Game`*) |
 
 ```ts
 mangakakalot.search("Tomodachi Game").then(data => {
