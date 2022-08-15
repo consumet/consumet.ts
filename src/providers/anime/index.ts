@@ -2,7 +2,7 @@ import Gogoanime from './gogoanime';
 import NineAnime from './9anime';
 import AnimePahe from './animepahe';
 import Zoro from './zoro';
-import AniMixPlay from './animxplay';
+import AniMixPlay from './animixplay';
 import AnimeFox from './animefox';
 import Enime from './enime';
 

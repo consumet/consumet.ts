@@ -8,7 +8,6 @@
         "build": "tsc",
         "version": "auto-changelog -p",
         "lint": "prettier --write .",
-
         "test": "jest",
         "test:anime": "jest ./test/anime",
         "test:books": "jest ./test/books/libgen.test.ts",
