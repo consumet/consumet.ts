@@ -637,8 +637,7 @@ class Anilist extends AnimeParser {
       (new Date(new Date().setDate(new Date().getDate() - new Date().getDay() + 1)).getTime() + 6.048e8) /
         1000
     ),
-    notYetAired: boolean = false,
-    countryOfOrigin?: string
+    notYetAired: boolean = false
   ): Promise<ISearch<IAnimeResult>> => {
     const options = {
       headers: {
@@ -646,9 +645,6 @@ class Anilist extends AnimeParser {
         Accept: 'application/json',
       },
       query: anilistAiringScheduleQuery(page, perPage, weekStart, weekEnd, notYetAired),
-      variables: {
-        countryOfOrigin: countryOfOrigin,
-      },
     };
 
     try {

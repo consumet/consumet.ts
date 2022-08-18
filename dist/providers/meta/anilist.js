@@ -524,16 +524,13 @@ class Anilist extends models_1.AnimeParser {
          * @returns the next airing episodes
          */
         this.fetchAiringSchedule = (page = 1, perPage = 20, weekStart = Math.floor(new Date(new Date().setDate(new Date().getDate() - new Date().getDay() + 1)).getTime() / 1000), weekEnd = Math.floor((new Date(new Date().setDate(new Date().getDate() - new Date().getDay() + 1)).getTime() + 6.048e8) /
-            1000), notYetAired = false, countryOfOrigin) => __awaiter(this, void 0, void 0, function* () {
+            1000), notYetAired = false) => __awaiter(this, void 0, void 0, function* () {
             const options = {
                 headers: {
                     'Content-Type': 'application/json',
                     Accept: 'application/json',
                 },
                 query: (0, utils_1.anilistAiringScheduleQuery)(page, perPage, weekStart, weekEnd, notYetAired),
-                variables: {
-                    countryOfOrigin: countryOfOrigin,
-                },
             };
             try {
                 const { data } = yield axios_1.default.post(this.anilistGraphqlUrl, options);

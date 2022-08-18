@@ -43,7 +43,7 @@ class Dramacool extends models_1.MovieParser {
                     (_a = mediaInfo.episodes) === null || _a === void 0 ? void 0 : _a.push({
                         id: (_b = $(el).find('a').attr('href')) === null || _b === void 0 ? void 0 : _b.split('.html')[0].slice(1),
                         title: $(el).find('h3').text(),
-                        number: parseInt((_c = $(el).find('a').attr('href')) === null || _c === void 0 ? void 0 : _c.split('-episode-')[1].split('.html')[0]),
+                        number: parseFloat((_c = $(el).find('a').attr('href')) === null || _c === void 0 ? void 0 : _c.split('-episode-')[1].split('.html')[0]),
                         releaseDate: $(el).find('span.time').text(),
                         url: `${this.baseUrl}${$(el).find('a').attr('href')}`,
                     });

@@ -61,7 +61,7 @@ declare class Anilist extends AnimeParser {
      * @param notYetAired if true will return anime that have not yet aired (optional)
      * @returns the next airing episodes
      */
-    fetchAiringSchedule: (page?: number, perPage?: number, weekStart?: number, weekEnd?: number, notYetAired?: boolean, countryOfOrigin?: string) => Promise<ISearch<IAnimeResult>>;
+    fetchAiringSchedule: (page?: number, perPage?: number, weekStart?: number, weekEnd?: number, notYetAired?: boolean) => Promise<ISearch<IAnimeResult>>;
     /**
      *
      * @param genres An array of genres to filter by (optional) genres: [`Action`, `Adventure`, `Cars`, `Comedy`, `Drama`, `Fantasy`, `Horror`, `Mahou Shoujo`, `Mecha`, `Music`, `Mystery`, `Psychological`, `Romance`, `Sci-Fi`, `Slice of Life`, `Sports`, `Supernatural`, `Thriller`]
