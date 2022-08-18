@@ -670,7 +670,7 @@ class Anilist extends models_1.AnimeParser {
          * @param page page number (optional)
          * @param perPage number of results per page (optional)
          */
-        this.fetchRecentReleases = (provider = 'gogoanime', page = 1, perPage = 15) => __awaiter(this, void 0, void 0, function* () {
+        this.fetchRecentEpisodes = (provider = 'gogoanime', page = 1, perPage = 15) => __awaiter(this, void 0, void 0, function* () {
             try {
                 const { data: { data, meta }, } = yield axios_1.default.get(`${this.enimeUrl}/recent?page=${page}&perPage=${perPage}`);
                 let results = data.map((item) => {

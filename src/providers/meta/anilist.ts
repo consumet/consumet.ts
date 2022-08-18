@@ -795,7 +795,7 @@ class Anilist extends AnimeParser {
    * @param page page number (optional)
    * @param perPage number of results per page (optional)
    */
-  fetchRecentReleases = async (
+  fetchRecentEpisodes = async (
     provider: 'gogoanime' | 'zoro' = 'gogoanime',
     page: number = 1,
     perPage: number = 15
