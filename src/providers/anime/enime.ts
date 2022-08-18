@@ -142,6 +142,11 @@ class Enime extends AnimeParser {
   };
 
   override fetchEpisodeSources = async (episodeId: string, ...args: any): Promise<ISource> => {
+    if (episodeId.includes('enime')) return this.fetchSourceFromSourceId(episodeId.replace('-enime', ''));
+    return this.fetchSourceFromEpisodeId(episodeId);
+  };
+
+  private fetchSourceFromEpisodeId = async (episodeId: string): Promise<ISource> => {
     const res: ISource = {
       headers: {},
       sources: [],
@@ -150,9 +155,26 @@ class Enime extends AnimeParser {
     const { data } = await axios.get(`${this.enimeApi}/episode/${episodeId}`);
     const {
       data: { url, referer },
-    } = await axios.get(
-      `${this.enimeApi}/source/${data.sources[0].id!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!}`
-    );
+    } = await axios.get(`${this.enimeApi}/source/${data.sources[0].id!}`);
+
+    res.headers!['Referer'] = referer;
+    res.sources.push({
+      url: url,
+      isM3U8: url.includes('.m3u8'),
+    });
+
+    return res;
+  };
+
+  private fetchSourceFromSourceId = async (sourceId: string): Promise<ISource> => {
+    const res: ISource = {
+      headers: {},
+      sources: [],
+    };
+
+    const {
+      data: { url, referer },
+    } = await axios.get(`${this.enimeApi}/source/${sourceId}`);
 
     res.headers!['Referer'] = referer;
     res.sources.push({

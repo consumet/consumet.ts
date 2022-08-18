@@ -126,12 +126,30 @@ class Enime extends models_1.AnimeParser {
             return animeInfo;
         });
         this.fetchEpisodeSources = (episodeId, ...args) => __awaiter(this, void 0, void 0, function* () {
+            if (episodeId.includes('enime'))
+                return this.fetchSourceFromSourceId(episodeId.replace('-enime', ''));
+            return this.fetchSourceFromEpisodeId(episodeId);
+        });
+        this.fetchSourceFromEpisodeId = (episodeId) => __awaiter(this, void 0, void 0, function* () {
             const res = {
                 headers: {},
                 sources: [],
             };
             const { data } = yield axios_1.default.get(`${this.enimeApi}/episode/${episodeId}`);
             const { data: { url, referer }, } = yield axios_1.default.get(`${this.enimeApi}/source/${data.sources[0].id}`);
+            res.headers['Referer'] = referer;
+            res.sources.push({
+                url: url,
+                isM3U8: url.includes('.m3u8'),
+            });
+            return res;
+        });
+        this.fetchSourceFromSourceId = (sourceId) => __awaiter(this, void 0, void 0, function* () {
+            const res = {
+                headers: {},
+                sources: [],
+            };
+            const { data: { url, referer }, } = yield axios_1.default.get(`${this.enimeApi}/source/${sourceId}`);
             res.headers['Referer'] = referer;
             res.sources.push({
                 url: url,

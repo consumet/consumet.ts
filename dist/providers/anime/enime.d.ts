@@ -19,6 +19,8 @@ declare class Enime extends AnimeParser {
      */
     fetchAnimeInfoByAnilistId: (id: string) => Promise<IAnimeInfo>;
     fetchEpisodeSources: (episodeId: string, ...args: any) => Promise<ISource>;
+    private fetchSourceFromEpisodeId;
+    private fetchSourceFromSourceId;
     /**
      * @deprecated
      */

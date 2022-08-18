@@ -190,12 +190,10 @@ class FlixHQ extends models_1.MovieParser {
          * @param mediaId takes movie link or id (found on movie info object)
          */
         this.fetchEpisodeServers = (episodeId, mediaId) => __awaiter(this, void 0, void 0, function* () {
-            if (!episodeId.startsWith(this.baseUrl + '/ajax') && !mediaId.includes('movie')) {
+            if (!episodeId.startsWith(this.baseUrl + '/ajax') && !mediaId.includes('movie'))
                 episodeId = `${this.baseUrl}/ajax/v2/episode/servers/${episodeId}`;
-            }
-            else {
+            else
                 episodeId = `${this.baseUrl}/ajax/movie/episodes/${episodeId}`;
-            }
             try {
                 const { data } = yield axios_1.default.get(episodeId);
                 const $ = (0, cheerio_1.load)(data);

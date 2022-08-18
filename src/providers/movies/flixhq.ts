@@ -220,11 +220,10 @@ class FlixHQ extends MovieParser {
    * @param mediaId takes movie link or id (found on movie info object)
    */
   override fetchEpisodeServers = async (episodeId: string, mediaId: string): Promise<IEpisodeServer[]> => {
-    if (!episodeId.startsWith(this.baseUrl + '/ajax') && !mediaId.includes('movie')) {
+    if (!episodeId.startsWith(this.baseUrl + '/ajax') && !mediaId.includes('movie'))
       episodeId = `${this.baseUrl}/ajax/v2/episode/servers/${episodeId}`;
-    } else {
-      episodeId = `${this.baseUrl}/ajax/movie/episodes/${episodeId}`;
-    }
+    else episodeId = `${this.baseUrl}/ajax/movie/episodes/${episodeId}`;
+
     try {
       const { data } = await axios.get(episodeId);
       const $ = load(data);

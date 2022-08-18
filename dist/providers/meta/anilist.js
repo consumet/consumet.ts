@@ -20,6 +20,7 @@ const enime_1 = __importDefault(require("../anime/enime"));
 class Anilist extends models_1.AnimeParser {
     /**
      * This class maps anilist to kitsu with any other anime provider.
+     * kitsu is used for episode images, titles and description.
      * @param provider anime provider (optional) default: Gogoanime
      */
     constructor(provider) {
@@ -31,6 +32,7 @@ class Anilist extends models_1.AnimeParser {
         this.anilistGraphqlUrl = 'https://graphql.anilist.co';
         this.kitsuGraphqlUrl = 'https://kitsu.io/api/graphql';
         this.malSyncUrl = 'https://api.malsync.moe';
+        this.enimeUrl = 'https://api.enime.moe';
         /**
          * @param query Search query
          * @param page Page number (optional)
@@ -276,6 +278,8 @@ class Anilist extends models_1.AnimeParser {
          * @param episodeId Episode id
          */
         this.fetchEpisodeSources = (episodeId) => __awaiter(this, void 0, void 0, function* () {
+            if (episodeId.includes('enime'))
+                return new enime_1.default().fetchEpisodeSources(episodeId);
             return this.provider.fetchEpisodeSources(episodeId);
         });
         /**
@@ -398,6 +402,10 @@ class Anilist extends models_1.AnimeParser {
             }
             return newEpisodeList;
         });
+        /**
+         * @param page page number to search for (optional)
+         * @param perPage number of results per page (optional)
+         */
         this.fetchTrendingAnime = (page = 1, perPage = 10) => __awaiter(this, void 0, void 0, function* () {
             const options = {
                 headers: {
@@ -456,6 +464,11 @@ class Anilist extends models_1.AnimeParser {
                 throw new Error(err.message);
             }
         });
+        /**
+         *
+         * @param page page number to search for (optional)
+         * @param perPage number of results per page (optional)
+         */
         this.fetchPopularAnime = (page = 1, perPage = 10) => __awaiter(this, void 0, void 0, function* () {
             const options = {
                 headers: {
@@ -631,6 +644,9 @@ class Anilist extends models_1.AnimeParser {
                 return [];
             return (yield this.provider.fetchAnimeInfo(findAnime.results[0].id));
         });
+        /**
+         * @returns a random anime
+         */
         this.fetchRandomAnime = () => __awaiter(this, void 0, void 0, function* () {
             const options = {
                 headers: {
@@ -644,6 +660,48 @@ class Anilist extends models_1.AnimeParser {
                 const selectedAnime = Math.floor(Math.random() * data.SiteStatistics.anime.nodes[data.SiteStatistics.anime.nodes.length - 1].count);
                 const { results } = yield this.advancedSearch(undefined, 'ANIME', Math.ceil(selectedAnime / 50), 50);
                 return yield this.fetchAnimeInfo(results[selectedAnime % 50].id);
+            }
+            catch (err) {
+                throw new Error(err.message);
+            }
+        });
+        /**
+         * @param provider The provider to get the episode Ids from (optional) default: `gogoanime` (options: `gogoanime`, `zoro`)
+         * @param page page number (optional)
+         * @param perPage number of results per page (optional)
+         */
+        this.fetchRecentReleases = (provider = 'gogoanime', page = 1, perPage = 15) => __awaiter(this, void 0, void 0, function* () {
+            try {
+                const { data: { data, meta }, } = yield axios_1.default.get(`${this.enimeUrl}/recent?page=${page}&perPage=${perPage}`);
+                let results = data.map((item) => {
+                    var _a, _b, _c, _d, _e, _f, _g, _h, _j;
+                    return ({
+                        id: item.anime.anilistId.toString(),
+                        malId: (_a = item.anime.mappings) === null || _a === void 0 ? void 0 : _a.mal,
+                        title: {
+                            romaji: (_b = item.anime.title) === null || _b === void 0 ? void 0 : _b.romaji,
+                            english: (_c = item.anime.title) === null || _c === void 0 ? void 0 : _c.english,
+                            native: (_d = item.anime.title) === null || _d === void 0 ? void 0 : _d.native,
+                            userPreferred: (_e = item.anime.title) === null || _e === void 0 ? void 0 : _e.userPreferred,
+                        },
+                        image: (_f = item.anime.coverImage) !== null && _f !== void 0 ? _f : item.anime.bannerImage,
+                        rating: item.anime.averageScore,
+                        episodeId: `${provider === 'gogoanime'
+                            ? (_g = item.sources.find((source) => source.website.toLowerCase() === 'gogoanime')) === null || _g === void 0 ? void 0 : _g.id
+                            : (_h = item.sources.find((source) => source.website.toLowerCase() === 'zoro')) === null || _h === void 0 ? void 0 : _h.id}-enime`,
+                        episodeTitle: (_j = item.title) !== null && _j !== void 0 ? _j : `Episode ${item.number}`,
+                        episodeNumber: item.number,
+                        genres: item.anime.genre,
+                    });
+                });
+                results = results.filter((item) => item.episodeNumber !== 0 && item.episodeId.replace('-enime', '').length > 0);
+                return {
+                    currentPage: page,
+                    hasNextPage: meta.lastPage !== page,
+                    totalPages: meta.lastPage,
+                    totalResults: meta.total,
+                    results: results,
+                };
             }
             catch (err) {
                 throw new Error(err.message);

@@ -7,9 +7,11 @@ declare class Anilist extends AnimeParser {
     private readonly anilistGraphqlUrl;
     private readonly kitsuGraphqlUrl;
     private readonly malSyncUrl;
+    private readonly enimeUrl;
     private provider;
     /**
      * This class maps anilist to kitsu with any other anime provider.
+     * kitsu is used for episode images, titles and description.
      * @param provider anime provider (optional) default: Gogoanime
      */
     constructor(provider?: AnimeParser);
@@ -50,7 +52,16 @@ declare class Anilist extends AnimeParser {
     private findAnime;
     private findAnimeSlug;
     private findKitsuAnime;
+    /**
+     * @param page page number to search for (optional)
+     * @param perPage number of results per page (optional)
+     */
     fetchTrendingAnime: (page?: number, perPage?: number) => Promise<ISearch<IAnimeResult>>;
+    /**
+     *
+     * @param page page number to search for (optional)
+     * @param perPage number of results per page (optional)
+     */
     fetchPopularAnime: (page?: number, perPage?: number) => Promise<ISearch<IAnimeResult>>;
     /**
      *
@@ -70,6 +81,15 @@ declare class Anilist extends AnimeParser {
      */
     fetchAnimeGenres: (genres: string[] | Genres[], page?: number, perPage?: number) => Promise<ISearch<IAnimeResult>>;
     private findAnimeRaw;
+    /**
+     * @returns a random anime
+     */
     fetchRandomAnime: () => Promise<IAnimeInfo>;
+    /**
+     * @param provider The provider to get the episode Ids from (optional) default: `gogoanime` (options: `gogoanime`, `zoro`)
+     * @param page page number (optional)
+     * @param perPage number of results per page (optional)
+     */
+    fetchRecentReleases: (provider?: 'gogoanime' | 'zoro', page?: number, perPage?: number) => Promise<ISearch<IAnimeResult>>;
 }
 export default Anilist;

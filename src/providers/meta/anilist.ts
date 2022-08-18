@@ -35,10 +35,12 @@ class Anilist extends AnimeParser {
   private readonly anilistGraphqlUrl = 'https://graphql.anilist.co';
   private readonly kitsuGraphqlUrl = 'https://kitsu.io/api/graphql';
   private readonly malSyncUrl = 'https://api.malsync.moe';
+  private readonly enimeUrl = 'https://api.enime.moe';
   private provider: AnimeParser;
 
   /**
    * This class maps anilist to kitsu with any other anime provider.
+   * kitsu is used for episode images, titles and description.
    * @param provider anime provider (optional) default: Gogoanime
    */
   constructor(provider?: AnimeParser) {
@@ -327,6 +329,7 @@ class Anilist extends AnimeParser {
    * @param episodeId Episode id
    */
   override fetchEpisodeSources = async (episodeId: string): Promise<ISource> => {
+    if (episodeId.includes('enime')) return new Enime().fetchEpisodeSources(episodeId);
     return this.provider.fetchEpisodeSources(episodeId);
   };
 
@@ -498,6 +501,10 @@ class Anilist extends AnimeParser {
     return newEpisodeList;
   };
 
+  /**
+   * @param page page number to search for (optional)
+   * @param perPage number of results per page (optional)
+   */
   fetchTrendingAnime = async (page: number = 1, perPage: number = 10): Promise<ISearch<IAnimeResult>> => {
     const options = {
       headers: {
@@ -558,6 +565,11 @@ class Anilist extends AnimeParser {
     }
   };
 
+  /**
+   *
+   * @param page page number to search for (optional)
+   * @param perPage number of results per page (optional)
+   */
   fetchPopularAnime = async (page: number = 1, perPage: number = 10): Promise<ISearch<IAnimeResult>> => {
     const options = {
       headers: {
@@ -751,6 +763,9 @@ class Anilist extends AnimeParser {
     return (await this.provider.fetchAnimeInfo(findAnime.results[0].id)) as IAnimeInfo;
   };
 
+  /**
+   * @returns a random anime
+   */
   fetchRandomAnime = async (): Promise<IAnimeInfo> => {
     const options = {
       headers: {
@@ -770,6 +785,58 @@ class Anilist extends AnimeParser {
       );
       const { results } = await this.advancedSearch(undefined, 'ANIME', Math.ceil(selectedAnime / 50), 50);
       return await this.fetchAnimeInfo(results[selectedAnime % 50]!.id);
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
+  };
+
+  /**
+   * @param provider The provider to get the episode Ids from (optional) default: `gogoanime` (options: `gogoanime`, `zoro`)
+   * @param page page number (optional)
+   * @param perPage number of results per page (optional)
+   */
+  fetchRecentReleases = async (
+    provider: 'gogoanime' | 'zoro' = 'gogoanime',
+    page: number = 1,
+    perPage: number = 15
+  ): Promise<ISearch<IAnimeResult>> => {
+    try {
+      const {
+        data: { data, meta },
+      } = await axios.get(`${this.enimeUrl}/recent?page=${page}&perPage=${perPage}`);
+
+      let results: IAnimeInfo[] = data.map((item: any) => ({
+        id: item.anime.anilistId.toString(),
+        malId: item.anime.mappings?.mal,
+        title: {
+          romaji: item.anime.title?.romaji,
+          english: item.anime.title?.english,
+          native: item.anime.title?.native,
+          userPreferred: item.anime.title?.userPreferred,
+        },
+        image: item.anime.coverImage ?? item.anime.bannerImage,
+        rating: item.anime.averageScore,
+        episodeId: `${
+          provider === 'gogoanime'
+            ? item.sources.find((source: any) => source.website.toLowerCase() === 'gogoanime')?.id
+            : item.sources.find((source: any) => source.website.toLowerCase() === 'zoro')?.id
+        }-enime`,
+        episodeTitle: item.title ?? `Episode ${item.number}`,
+        episodeNumber: item.number,
+        genres: item.anime.genre,
+      }));
+
+      results = results.filter(
+        (item: any) => item.episodeNumber !== 0 && item.episodeId.replace('-enime', '').length > 0
+      );
+
+      return {
+        currentPage: page,
+        hasNextPage: meta.lastPage !== page,
+        totalPages: meta.lastPage,
+        totalResults: meta.total,
+        results: results,
+      };
     } catch (err) {
       throw new Error((err as Error).message);
     }
