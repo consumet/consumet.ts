@@ -7,5 +7,6 @@ import RapidCloud from './rapidcloud';
 import StreamTape from './streamtape';
 import VizCloud from './vizcloud';
 import Filemoon from './filemoon';
+import Dembed2 from './dembed2';
 
-export { GogoCDN, StreamSB, VidCloud, MixDrop, Kwik, RapidCloud, StreamTape, VizCloud, Filemoon };
+export { GogoCDN, StreamSB, VidCloud, MixDrop, Kwik, RapidCloud, StreamTape, VizCloud, Filemoon, Dembed2 };

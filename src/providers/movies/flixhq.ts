@@ -165,7 +165,7 @@ class FlixHQ extends MovieParser {
   override fetchEpisodeSources = async (
     episodeId: string,
     mediaId: string,
-    server: StreamingServers = StreamingServers.VidCloud
+    server: StreamingServers = StreamingServers.UpCloud
   ): Promise<ISource> => {
     if (episodeId.startsWith('http')) {
       const serverUrl = new URL(episodeId);
@@ -188,7 +188,7 @@ class FlixHQ extends MovieParser {
         default:
           return {
             headers: { Referer: serverUrl.href },
-            sources: await new MixDrop().extract(serverUrl),
+            ...(await new VidCloud().extract(serverUrl)),
           };
       }
     }

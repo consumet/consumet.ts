@@ -95,6 +95,7 @@ export enum StreamingServers {
   MyCloud = 'mycloud',
   Filemoon = 'filemoon',
   VidStreaming = 'vidstreaming',
+  Dembed2 = 'dembed2',
 }
 
 export enum MediaStatus {

@@ -11,7 +11,7 @@ import {
   IMovieResult,
   ISearch,
 } from '../../models';
-import { MixDrop, VidCloud } from '../../utils';
+import { Dembed2, GogoCDN, MixDrop, VidCloud } from '../../utils';
 
 class Dramacool extends MovieParser {
   override readonly name = 'Dramacool';
@@ -42,7 +42,7 @@ class Dramacool extends MovieParser {
       $('div.content-left > div.block-tab > div > div > ul > li').each((i, el) => {
         mediaInfo.episodes?.push({
           id: $(el).find('a').attr('href')?.split('.html')[0].slice(1)!,
-          title: $(el).find('h3').text(),
+          title: $(el).find('h3').text().replace(mediaInfo.title.toString(), ''),
           number: parseFloat($(el).find('a').attr('href')?.split('-episode-')[1].split('.html')[0]!),
           releaseDate: $(el).find('span.time').text(),
           url: `${this.baseUrl}${$(el).find('a').attr('href')}`,
@@ -63,6 +63,12 @@ class Dramacool extends MovieParser {
     try {
       const { data } = await axios.get(episodeId);
 
+      const $ = load(data);
+
+      const server = $('.Standard').attr('data-video');
+
+      new Dembed2().extract(new URL(`https:${server}`));
+
       return {
         sources: [],
       };
@@ -76,10 +82,11 @@ class Dramacool extends MovieParser {
   };
 }
 
-// (async () => {
-//   const drama = new Dramacool();
-//   const mediaInfo = await drama.fetchMediaInfo('vincenzo');
-//   console.log(mediaInfo);
-// })();
+(async () => {
+  const drama = new Dramacool();
+  const mediaInfo = await drama.fetchMediaInfo('vincenzo');
+  console.log(mediaInfo);
+  const sources = await drama.fetchEpisodeSources(mediaInfo.episodes![20].id);
+})();
 
 export default Dramacool;
