@@ -90,7 +90,7 @@ class Anilist extends models_1.AnimeParser {
          * @param page Page number (optional)
          * @param perPage Number of results per page (optional) (default: `20`) (max: `50`)
          * @param format Format (optional) (options: `TV`, `TV_SHORT`, `MOVIE`, `SPECIAL`, `OVA`, `ONA`, `MUSIC`)
-         * @param sort Sort (optional) (Default: `[POPULARITY_DESC, SCORE_DESC]`) (options: `POPULARITY_DESC`, `TRENDING_DESC`, `UPDATED_AT_DESC`, `START_DATE_DESC`, `START_DATE_ASC`, `END_DATE_DESC`, `END_DATE_ASC`, `RATING_DESC`, `RATING_ASC`, `TITLE_ASC`, `TITLE_DESC`)
+         * @param sort Sort (optional) (Default: `[POPULARITY_DESC, SCORE_DESC]`) (options: `POPULARITY_DESC`, `POPULARITY`, `TRENDING_DESC`, `TRENDING`, `UPDATED_AT_DESC`, `UPDATED_AT`, `START_DATE_DESC`, `START_DATE`, `END_DATE_DESC`, `END_DATE`, `FAVOURITES_DESC`, `FAVOURITES`, `SCORE_DESC`, `SCORE`, `TITLE_ROMAJI_DESC`, `TITLE_ROMAJI`, `TITLE_ENGLISH_DESC`, `TITLE_ENGLISH`, `TITLE_NATIVE_DESC`, `TITLE_NATIVE`, `EPISODES_DESC`, `EPISODES`, `ID`, `ID_DESC`)
          * @param genres Genres (optional) (options: `Action`, `Adventure`, `Cars`, `Comedy`, `Drama`, `Fantasy`, `Horror`, `Mahou Shoujo`, `Mecha`, `Music`, `Mystery`, `Psychological`, `Romance`, `Sci-Fi`, `Slice of Life`, `Sports`, `Supernatural`, `Thriller`)
          * @param id anilist Id (optional)
          */
@@ -124,6 +124,8 @@ class Anilist extends models_1.AnimeParser {
                 const res = {
                     currentPage: data.data.Page.pageInfo.currentPage,
                     hasNextPage: data.data.Page.pageInfo.hasNextPage,
+                    totalPages: data.data.Page.pageInfo.lastPage,
+                    totalResults: data.data.Page.pageInfo.total,
                     results: data.data.Page.media.map((item) => {
                         var _a, _b;
                         return ({
@@ -531,7 +533,7 @@ class Anilist extends models_1.AnimeParser {
                 query: (0, utils_1.anilistAiringScheduleQuery)(page, perPage, weekStart, weekEnd, notYetAired),
                 variables: {
                     countryOfOrigin: countryOfOrigin,
-                }
+                },
             };
             try {
                 const { data } = yield axios_1.default.post(this.anilistGraphqlUrl, options);

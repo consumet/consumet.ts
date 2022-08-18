@@ -145,7 +145,7 @@ class Gogoanime extends AnimeParser {
       $$('#episode_related > li').each((i, el) => {
         animeInfo.episodes?.push({
           id: $(el).find('a').attr('href')?.split('/')[1]!,
-          number: parseInt($(el).find(`div.name`).text().replace('EP ', '')),
+          number: parseFloat($(el).find(`div.name`).text().replace('EP ', '')),
           url: `${this.baseUrl}/${$(el).find(`a`).attr('href')?.trim()}`,
         });
       });

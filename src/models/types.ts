@@ -29,6 +29,11 @@ export interface IAnimeResult {
 export interface ISearch<T> {
   currentPage?: number;
   hasNextPage?: boolean;
+  totalPages?: number;
+  /**
+   * total results must include results from all pages
+   */
+  totalResults?: number;
   results: T[];
 }
 
@@ -252,7 +257,7 @@ export enum TvType {
 export interface IMovieEpisode {
   id: string;
   title: string;
-  url: string;
+  url?: string;
   number?: number;
   season?: number;
   image?: string;
@@ -263,7 +268,7 @@ export interface IMovieEpisode {
 export interface IMovieResult {
   id: string;
   title: string | ITitle;
-  url: string;
+  url?: string;
   image?: string;
   releaseDate?: string;
   type?: TvType;

@@ -126,7 +126,7 @@ class Gogoanime extends models_1.AnimeParser {
                     var _a, _b, _c;
                     (_a = animeInfo.episodes) === null || _a === void 0 ? void 0 : _a.push({
                         id: (_b = $(el).find('a').attr('href')) === null || _b === void 0 ? void 0 : _b.split('/')[1],
-                        number: parseInt($(el).find(`div.name`).text().replace('EP ', '')),
+                        number: parseFloat($(el).find(`div.name`).text().replace('EP ', '')),
                         url: `${this.baseUrl}/${(_c = $(el).find(`a`).attr('href')) === null || _c === void 0 ? void 0 : _c.trim()}`,
                     });
                 });
