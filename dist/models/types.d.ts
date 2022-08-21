@@ -39,6 +39,7 @@ export interface IAnimeInfo extends IAnimeResult {
     status?: MediaStatus;
     totalEpisodes?: number;
     subOrDub?: SubOrSub;
+    color?: string;
     episodes?: IAnimeEpisode[];
 }
 export interface IAnimeEpisode {
