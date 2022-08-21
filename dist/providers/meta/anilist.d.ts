@@ -1,6 +1,6 @@
-import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, ISource, IEpisodeServer, Genres } from '../../models';
+import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, ISource, IAnimeEpisode, IEpisodeServer, Genres, MangaParser, IMangaChapterPage, IMangaInfo } from '../../models';
 declare class Anilist extends AnimeParser {
-    readonly name = "AnilistWithKitsu";
+    readonly name = "Anilist";
     protected baseUrl: string;
     protected logo: string;
     protected classPath: string;
@@ -8,7 +8,7 @@ declare class Anilist extends AnimeParser {
     private readonly kitsuGraphqlUrl;
     private readonly malSyncUrl;
     private readonly enimeUrl;
-    private provider;
+    provider: AnimeParser;
     /**
      * This class maps anilist to kitsu with any other anime provider.
      * kitsu is used for episode images, titles and description.
@@ -91,5 +91,31 @@ declare class Anilist extends AnimeParser {
      * @param perPage number of results per page (optional)
      */
     fetchRecentEpisodes: (provider?: 'gogoanime' | 'zoro', page?: number, perPage?: number) => Promise<ISearch<IAnimeResult>>;
+    /**
+     * @param id anilist id
+     * @param dub language of the dubbed version (optional) currently only works for gogoanime
+     * @returns episode list
+     */
+    fetchEpisodesListById: (id: string, dub?: boolean) => Promise<IAnimeEpisode[]>;
+    /**
+     * @param id anilist id
+     * @returns anilist data for the anime
+     */
+    fetchAnilistInfoById: (id: string) => Promise<IAnimeInfo>;
+    /**
+     * Anilist Anime class
+     */
+    static Anime: typeof Anilist;
+    /**
+     * TODO: Anilist Manga Class
+     */
+    static Manga: {
+        new (provider?: MangaParser): {
+            provider: MangaParser;
+            search: (query: string, ...args: any[]) => Promise<unknown>;
+            fetchChapterPages: (chapterId: string, ...args: any) => Promise<IMangaChapterPage[]>;
+            fetchMangaInfo: (mangaUrl: string, ...args: any) => Promise<IMangaInfo>;
+        };
+    };
 }
 export default Anilist;
