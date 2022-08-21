@@ -204,7 +204,7 @@ class Anilist extends models_1.AnimeParser {
                 }
                 animeInfo.image =
                     (_g = (_f = data.data.Media.coverImage.extraLarge) !== null && _f !== void 0 ? _f : data.data.Media.coverImage.large) !== null && _g !== void 0 ? _g : data.data.Media.coverImage.medium;
-                animeInfo.color = (_h = data.data.Media.coverImage.color) !== null && _h !== void 0 ? _h : null;
+                animeInfo.color = (_h = data.data.Media.coverImage) === null || _h === void 0 ? void 0 : _h.color;
                 animeInfo.cover = (_j = data.data.Media.bannerImage) !== null && _j !== void 0 ? _j : animeInfo.image;
                 animeInfo.description = data.data.Media.description;
                 switch (data.data.Media.status) {
