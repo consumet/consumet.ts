@@ -15,6 +15,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const cheerio_1 = require("cheerio");
 const axios_1 = __importDefault(require("axios"));
 const models_1 = require("../../models");
+const utils_1 = require("../../utils");
 class Dramacool extends models_1.MovieParser {
     constructor() {
         super(...arguments);
@@ -37,13 +38,17 @@ class Dramacool extends models_1.MovieParser {
                 const { data } = yield axios_1.default.get(mediaId);
                 const $ = (0, cheerio_1.load)(data);
                 mediaInfo.id = mediaId.split('/').pop().split('.')[0];
+                mediaInfo.title = $('.info > h1:nth-child(1)').text();
+                mediaInfo.otherNames = $('.other_name > a')
+                    .map((i, el) => $(el).text().trim())
+                    .get();
                 mediaInfo.episodes = [];
                 $('div.content-left > div.block-tab > div > div > ul > li').each((i, el) => {
                     var _a, _b, _c;
                     (_a = mediaInfo.episodes) === null || _a === void 0 ? void 0 : _a.push({
                         id: (_b = $(el).find('a').attr('href')) === null || _b === void 0 ? void 0 : _b.split('.html')[0].slice(1),
-                        title: $(el).find('h3').text(),
-                        number: parseFloat((_c = $(el).find('a').attr('href')) === null || _c === void 0 ? void 0 : _c.split('-episode-')[1].split('.html')[0]),
+                        title: $(el).find('h3').text().replace(mediaInfo.title.toString(), ''),
+                        number: parseFloat((_c = $(el).find('a').attr('href')) === null || _c === void 0 ? void 0 : _c.split('-episode-')[1].split('.html')[0].split('-').join('.')),
                         releaseDate: $(el).find('span.time').text(),
                         url: `${this.baseUrl}${$(el).find('a').attr('href')}`,
                     });
@@ -54,14 +59,58 @@ class Dramacool extends models_1.MovieParser {
                 throw new Error(err.message);
             }
         });
-        this.fetchEpisodeSources = (episodeId, server = models_1.StreamingServers.GogoCDN) => __awaiter(this, void 0, void 0, function* () {
+        this.fetchEpisodeSources = (episodeId, server = models_1.StreamingServers.AsianLoad) => __awaiter(this, void 0, void 0, function* () {
+            if (episodeId.startsWith('http')) {
+                const serverUrl = new URL(episodeId);
+                switch (server) {
+                    case models_1.StreamingServers.AsianLoad:
+                        return Object.assign({}, (yield new utils_1.AsianLoad().extract(serverUrl)));
+                    case models_1.StreamingServers.MixDrop:
+                        return {
+                            sources: yield new utils_1.MixDrop().extract(serverUrl),
+                        };
+                    case models_1.StreamingServers.StreamTape:
+                        return {
+                            sources: yield new utils_1.StreamTape().extract(serverUrl),
+                        };
+                    case models_1.StreamingServers.StreamSB:
+                        return {
+                            sources: yield new utils_1.StreamSB().extract(serverUrl),
+                        };
+                    default:
+                        throw new Error('Server not supported');
+                }
+            }
             if (!episodeId.includes('.html'))
                 episodeId = `${this.baseUrl}/${episodeId}.html`;
             try {
                 const { data } = yield axios_1.default.get(episodeId);
-                return {
-                    sources: [],
-                };
+                const $ = (0, cheerio_1.load)(data);
+                let serverUrl = '';
+                switch (server) {
+                    // asianload is the same as the standard server
+                    case models_1.StreamingServers.AsianLoad:
+                        serverUrl = `https:${$('.Standard').attr('data-video')}`;
+                        if (!serverUrl.includes('dembed2'))
+                            throw new Error('Try another server');
+                        break;
+                    case models_1.StreamingServers.MixDrop:
+                        serverUrl = $('.mixdrop').attr('data-video');
+                        if (!serverUrl.includes('mixdrop'))
+                            throw new Error('Try another server');
+                        break;
+                    case models_1.StreamingServers.StreamTape:
+                        serverUrl = $('.streamtape').attr('data-video');
+                        if (!serverUrl.includes('streamtape'))
+                            throw new Error('Try another server');
+                        break;
+                    case models_1.StreamingServers.StreamSB:
+                        serverUrl = $('.streamsb').attr('data-video');
+                        if (!serverUrl.includes('stream'))
+                            throw new Error('Try another server');
+                        break;
+                }
+                return yield this.fetchEpisodeSources(serverUrl, server);
             }
             catch (err) {
                 throw new Error(err.message);
@@ -72,10 +121,12 @@ class Dramacool extends models_1.MovieParser {
         });
     }
 }
-// (async () => {
-//   const drama = new Dramacool();
-//   const mediaInfo = await drama.fetchMediaInfo('vincenzo');
-//   console.log(mediaInfo);
-// })();
+(() => __awaiter(void 0, void 0, void 0, function* () {
+    const drama = new Dramacool();
+    const mediaInfo = yield drama.fetchMediaInfo('vincenzo');
+    console.log(mediaInfo);
+    const sources = yield drama.fetchEpisodeSources(mediaInfo.episodes[20].id, models_1.StreamingServers.StreamSB);
+    console.log(sources);
+}))();
 exports.default = Dramacool;
 //# sourceMappingURL=dramacool.js.map

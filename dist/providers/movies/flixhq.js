@@ -150,7 +150,7 @@ class FlixHQ extends models_1.MovieParser {
          * @param mediaId media id
          * @param server server type (default `VidCloud`) (optional)
          */
-        this.fetchEpisodeSources = (episodeId, mediaId, server = models_1.StreamingServers.VidCloud) => __awaiter(this, void 0, void 0, function* () {
+        this.fetchEpisodeSources = (episodeId, mediaId, server = models_1.StreamingServers.UpCloud) => __awaiter(this, void 0, void 0, function* () {
             if (episodeId.startsWith('http')) {
                 const serverUrl = new URL(episodeId);
                 switch (server) {
@@ -164,10 +164,7 @@ class FlixHQ extends models_1.MovieParser {
                     case models_1.StreamingServers.UpCloud:
                         return Object.assign({ headers: { Referer: serverUrl.href } }, (yield new utils_1.VidCloud().extract(serverUrl)));
                     default:
-                        return {
-                            headers: { Referer: serverUrl.href },
-                            sources: yield new utils_1.MixDrop().extract(serverUrl),
-                        };
+                        return Object.assign({ headers: { Referer: serverUrl.href } }, (yield new utils_1.VidCloud().extract(serverUrl)));
                 }
             }
             try {

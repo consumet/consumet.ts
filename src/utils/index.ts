@@ -8,7 +8,7 @@ import {
   StreamTape,
   VizCloud,
   Filemoon,
-  Dembed2,
+  AsianLoad,
 } from './extractors';
 import {
   USER_AGENT,
@@ -59,5 +59,5 @@ export {
   anilistAdvancedQuery,
   anilistSiteStatisticsQuery,
   Filemoon,
-  Dembed2,
+  AsianLoad,
 };

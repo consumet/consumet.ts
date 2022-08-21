@@ -2,11 +2,11 @@ import axios from 'axios';
 import { CheerioAPI, load } from 'cheerio';
 import CryptoJS from 'crypto-js';
 
-import { VideoExtractor, IVideo } from '../../models';
-import { USER_AGENT } from '../';
+import { VideoExtractor, IVideo, ISubtitle } from '../../models';
+import { USER_AGENT } from '..';
 
-class Dembed2 extends VideoExtractor {
-  protected override serverName = 'dembed2';
+class AsianLoad extends VideoExtractor {
+  protected override serverName = 'asianload';
   protected override sources: IVideo[] = [];
 
   private readonly keys = {
@@ -14,7 +14,7 @@ class Dembed2 extends VideoExtractor {
     iv: CryptoJS.enc.Utf8.parse('9262859232435825'),
   };
 
-  override extract = async (videoUrl: URL): Promise<IVideo[]> => {
+  override extract = async (videoUrl: URL): Promise<{ sources: IVideo[] } & { subtitles: ISubtitle[] }> => {
     const res = await axios.get(videoUrl.href);
     const $ = load(res.data);
 
@@ -47,7 +47,17 @@ class Dembed2 extends VideoExtractor {
       });
     });
 
-    return this.sources;
+    const subtitles = decryptedData.track?.tracks?.map(
+      (track: any): ISubtitle => ({
+        url: track.file,
+        lang: track.kind === 'thumbnails' ? 'Default (maybe)' : track.kind,
+      })
+    );
+
+    return {
+      sources: this.sources,
+      subtitles: subtitles,
+    };
   };
   private generateEncryptedAjaxParams = async ($: CheerioAPI, id: string): Promise<string> => {
     const encryptedKey = CryptoJS.AES.encrypt(id, this.keys.key, {
@@ -56,7 +66,6 @@ class Dembed2 extends VideoExtractor {
 
     const scriptValue = $("script[data-name='crypto']").data().value as string;
 
-    console.log(this.keys.key);
     const decryptedToken = CryptoJS.AES.decrypt(scriptValue, this.keys.key, {
       iv: this.keys.iv,
     }).toString(CryptoJS.enc.Utf8);
@@ -75,4 +84,4 @@ class Dembed2 extends VideoExtractor {
   };
 }
 
-export default Dembed2;
+export default AsianLoad;

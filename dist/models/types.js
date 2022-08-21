@@ -10,10 +10,10 @@ var StreamingServers;
     StreamingServers["VidCloud"] = "vidcloud";
     StreamingServers["StreamTape"] = "streamtape";
     StreamingServers["VizCloud"] = "vizcloud";
-    // same as vizcloud
     StreamingServers["MyCloud"] = "mycloud";
     StreamingServers["Filemoon"] = "filemoon";
     StreamingServers["VidStreaming"] = "vidstreaming";
+    StreamingServers["AsianLoad"] = "asianload";
 })(StreamingServers = exports.StreamingServers || (exports.StreamingServers = {}));
 var MediaStatus;
 (function (MediaStatus) {

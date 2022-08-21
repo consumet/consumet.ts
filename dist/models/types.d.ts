@@ -84,7 +84,8 @@ export declare enum StreamingServers {
     VizCloud = "vizcloud",
     MyCloud = "mycloud",
     Filemoon = "filemoon",
-    VidStreaming = "vidstreaming"
+    VidStreaming = "vidstreaming",
+    AsianLoad = "asianload"
 }
 export declare enum MediaStatus {
     ONGOING = "Ongoing",

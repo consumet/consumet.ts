@@ -11,7 +11,8 @@ import {
   IMovieResult,
   ISearch,
 } from '../../models';
-import { Dembed2, GogoCDN, MixDrop, VidCloud } from '../../utils';
+import { AsianLoad, MixDrop, StreamTape, StreamSB } from '../../utils';
+import { Stream } from 'stream';
 
 class Dramacool extends MovieParser {
   override readonly name = 'Dramacool';
@@ -37,13 +38,19 @@ class Dramacool extends MovieParser {
       const $ = load(data);
 
       mediaInfo.id = mediaId.split('/').pop()!.split('.')[0];
+      mediaInfo.title = $('.info > h1:nth-child(1)').text();
+      mediaInfo.otherNames = $('.other_name > a')
+        .map((i, el) => $(el).text().trim())
+        .get();
 
       mediaInfo.episodes = [];
       $('div.content-left > div.block-tab > div > div > ul > li').each((i, el) => {
         mediaInfo.episodes?.push({
           id: $(el).find('a').attr('href')?.split('.html')[0].slice(1)!,
           title: $(el).find('h3').text().replace(mediaInfo.title.toString(), ''),
-          number: parseFloat($(el).find('a').attr('href')?.split('-episode-')[1].split('.html')[0]!),
+          number: parseFloat(
+            $(el).find('a').attr('href')?.split('-episode-')[1].split('.html')[0].split('-').join('.')!
+          ),
           releaseDate: $(el).find('span.time').text(),
           url: `${this.baseUrl}${$(el).find('a').attr('href')}`,
         });
@@ -57,21 +64,59 @@ class Dramacool extends MovieParser {
 
   override fetchEpisodeSources = async (
     episodeId: string,
-    server: StreamingServers = StreamingServers.GogoCDN
+    server: StreamingServers = StreamingServers.AsianLoad
   ): Promise<ISource> => {
+    if (episodeId.startsWith('http')) {
+      const serverUrl = new URL(episodeId);
+      switch (server) {
+        case StreamingServers.AsianLoad:
+          return {
+            ...(await new AsianLoad().extract(serverUrl)),
+          };
+        case StreamingServers.MixDrop:
+          return {
+            sources: await new MixDrop().extract(serverUrl),
+          };
+        case StreamingServers.StreamTape:
+          return {
+            sources: await new StreamTape().extract(serverUrl),
+          };
+        case StreamingServers.StreamSB:
+          return {
+            sources: await new StreamSB().extract(serverUrl),
+          };
+        default:
+          throw new Error('Server not supported');
+      }
+    }
     if (!episodeId.includes('.html')) episodeId = `${this.baseUrl}/${episodeId}.html`;
     try {
       const { data } = await axios.get(episodeId);
 
       const $ = load(data);
 
-      const server = $('.Standard').attr('data-video');
+      let serverUrl = '';
+      switch (server) {
+        // asianload is the same as the standard server
+        case StreamingServers.AsianLoad:
+          serverUrl = `https:${$('.Standard').attr('data-video')}`;
+          if (!serverUrl.includes('dembed2')) throw new Error('Try another server');
+          break;
+        case StreamingServers.MixDrop:
+          serverUrl = $('.mixdrop').attr('data-video')!;
+          if (!serverUrl.includes('mixdrop')) throw new Error('Try another server');
+          break;
+        case StreamingServers.StreamTape:
+          serverUrl = $('.streamtape').attr('data-video')!;
+          if (!serverUrl.includes('streamtape')) throw new Error('Try another server');
+          break;
+        case StreamingServers.StreamSB:
+          serverUrl = $('.streamsb').attr('data-video')!;
+          if (!serverUrl.includes('stream')) throw new Error('Try another server');
+          break;
+      }
 
-      new Dembed2().extract(new URL(`https:${server}`));
-
-      return {
-        sources: [],
-      };
+      return await this.fetchEpisodeSources(serverUrl, server);
     } catch (err) {
       throw new Error((err as Error).message);
     }
@@ -86,7 +131,8 @@ class Dramacool extends MovieParser {
   const drama = new Dramacool();
   const mediaInfo = await drama.fetchMediaInfo('vincenzo');
   console.log(mediaInfo);
-  const sources = await drama.fetchEpisodeSources(mediaInfo.episodes![20].id);
+  const sources = await drama.fetchEpisodeSources(mediaInfo.episodes![20].id, StreamingServers.StreamSB);
+  console.log(sources);
 })();
 
 export default Dramacool;

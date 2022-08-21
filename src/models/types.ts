@@ -91,11 +91,10 @@ export enum StreamingServers {
   VidCloud = 'vidcloud',
   StreamTape = 'streamtape',
   VizCloud = 'vizcloud',
-  // same as vizcloud
-  MyCloud = 'mycloud',
+  MyCloud = 'mycloud', // same as vizcloud
   Filemoon = 'filemoon',
   VidStreaming = 'vidstreaming',
-  Dembed2 = 'dembed2',
+  AsianLoad = 'asianload',
 }
 
 export enum MediaStatus {

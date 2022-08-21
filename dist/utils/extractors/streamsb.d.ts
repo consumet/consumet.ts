@@ -4,6 +4,7 @@ declare class StreamSB extends VideoExtractor {
     protected sources: IVideo[];
     private readonly host;
     private readonly host2;
+    private readonly host3;
     private PAYLOAD;
     extract: (videoUrl: URL, isAlt?: boolean) => Promise<IVideo[]>;
     private addSources;
