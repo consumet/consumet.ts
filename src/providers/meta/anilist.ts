@@ -244,7 +244,7 @@ class Anilist extends AnimeParser {
         data.data.Media.coverImage.large ??
         data.data.Media.coverImage.medium;
       
-      animeInfo.color = data.data.Media.coverImage.color ?? null;
+      animeInfo.color = data.data.Media.coverImage?.color;
 
       animeInfo.cover = data.data.Media.bannerImage ?? animeInfo.image;
       animeInfo.description = data.data.Media.description;
