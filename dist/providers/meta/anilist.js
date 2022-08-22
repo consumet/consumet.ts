@@ -19,6 +19,7 @@ const utils_1 = require("../../utils");
 const gogoanime_1 = __importDefault(require("../../providers/anime/gogoanime"));
 const enime_1 = __importDefault(require("../anime/enime"));
 const mangadex_1 = __importDefault(require("../manga/mangadex"));
+const zoro_1 = __importDefault(require("../anime/zoro"));
 class Anilist extends models_1.AnimeParser {
     /**
      * This class maps anilist to kitsu with any other anime provider.
@@ -266,11 +267,43 @@ class Anilist extends models_1.AnimeParser {
                         score: item.node.mediaRecommendation.meanScore,
                     });
                 });
-                const possibleAnimeEpisodes = yield this.findAnime({ english: (_s = animeInfo.title) === null || _s === void 0 ? void 0 : _s.english, romaji: (_t = animeInfo.title) === null || _t === void 0 ? void 0 : _t.romaji }, data.data.Media.season, data.data.Media.startDate.year, animeInfo.malId, dub, animeInfo.id);
-                animeInfo.episodes = possibleAnimeEpisodes === null || possibleAnimeEpisodes === void 0 ? void 0 : possibleAnimeEpisodes.map((episode) => {
-                    if (!episode.image) {
-                        episode.image = animeInfo.image;
+                if (this.provider instanceof zoro_1.default &&
+                    !dub &&
+                    (animeInfo.status === models_1.MediaStatus.ONGOING || parseInt(animeInfo.releaseDate) === 2022)) {
+                    try {
+                        animeInfo.episodes = (_p = (yield new enime_1.default().fetchAnimeInfoByAnilistId(id)).episodes) === null || _p === void 0 ? void 0 : _p.map((item) => ({
+                            id: item.slug,
+                            title: item.title,
+                            number: item.number,
+                            image: item.image,
+                        }));
+                        (_q = animeInfo.episodes) === null || _q === void 0 ? void 0 : _q.reverse();
                     }
+                    catch (err) {
+                        animeInfo.episodes = yield this.fetchDefaultEpisodeList({
+                            idMal: animeInfo.malId,
+                            season: data.data.Media.season,
+                            startDate: { year: parseInt(animeInfo.releaseDate) },
+                            title: { english: (_r = animeInfo.title) === null || _r === void 0 ? void 0 : _r.english, romaji: (_s = animeInfo.title) === null || _s === void 0 ? void 0 : _s.romaji },
+                        }, dub, id);
+                        animeInfo.episodes = (_t = animeInfo.episodes) === null || _t === void 0 ? void 0 : _t.map((episode) => {
+                            if (!episode.image)
+                                episode.image = animeInfo.image;
+                            return episode;
+                        });
+                        return animeInfo;
+                    }
+                }
+                else
+                    animeInfo.episodes = yield this.fetchDefaultEpisodeList({
+                        idMal: animeInfo.malId,
+                        season: data.data.Media.season,
+                        startDate: { year: parseInt(animeInfo.releaseDate) },
+                        title: { english: (_u = animeInfo.title) === null || _u === void 0 ? void 0 : _u.english, romaji: (_v = animeInfo.title) === null || _v === void 0 ? void 0 : _v.romaji },
+                    }, dub, id);
+                animeInfo.episodes = (_w = animeInfo.episodes) === null || _w === void 0 ? void 0 : _w.map((episode) => {
+                    if (!episode.image)
+                        episode.image = animeInfo.image;
                     return episode;
                 });
                 return animeInfo;
@@ -296,9 +329,11 @@ class Anilist extends models_1.AnimeParser {
             return this.provider.fetchEpisodeServers(episodeId);
         });
         this.findAnime = (title, season, startDate, malId, dub, anilistId) => __awaiter(this, void 0, void 0, function* () {
-            var _u, _v;
-            title.english = (_u = title.english) !== null && _u !== void 0 ? _u : title.romaji;
-            title.romaji = (_v = title.romaji) !== null && _v !== void 0 ? _v : title.english;
+
+            var _x, _y;
+            title.english = (_x = title.english) !== null && _x !== void 0 ? _x : title.romaji;
+            title.romaji = (_y = title.romaji) !== null && _y !== void 0 ? _y : title.english;
+
             title.english = title.english.toLowerCase();
             title.romaji = title.romaji.toLowerCase();
             if (title.english === title.romaji) {
@@ -713,22 +748,49 @@ class Anilist extends models_1.AnimeParser {
                 throw new Error(err.message);
             }
         });
+        this.fetchDefaultEpisodeList = (Media, dub, id) => __awaiter(this, void 0, void 0, function* () {
+            var _z, _0;
+            let episodes = [];
+            episodes = yield this.findAnime({ english: (_z = Media.title) === null || _z === void 0 ? void 0 : _z.english, romaji: (_0 = Media.title) === null || _0 === void 0 ? void 0 : _0.romaji }, Media.season, Media.startDate.year, Media.idMal, dub, id);
+            return episodes;
+        });
         /**
          * @param id anilist id
          * @param dub language of the dubbed version (optional) currently only works for gogoanime
          * @returns episode list
          */
         this.fetchEpisodesListById = (id, dub = false) => __awaiter(this, void 0, void 0, function* () {
-            var _w, _x;
+
+            var _1;
             const options = {
                 headers: {
                     'Content-Type': 'application/json',
                     Accept: 'application/json',
                 },
-                query: `query($id: Int = ${id}){ Media(id: $id){ idMal title {romaji english} season startDate {year} coverImage {extraLarge large medium} } }`,
+                query: `query($id: Int = ${id}){ Media(id: $id){ idMal title {romaji english} status season startDate {year} coverImage {extraLarge large medium} } }`,
             };
             const { data: { data: { Media }, }, } = yield axios_1.default.post(this.anilistGraphqlUrl, options);
-            let possibleAnimeEpisodes = yield this.findAnime({ english: (_w = Media.title) === null || _w === void 0 ? void 0 : _w.english, romaji: (_x = Media.title) === null || _x === void 0 ? void 0 : _x.romaji }, Media.season, Media.startDate.year, Media.idMal, dub, id);
+
+            let possibleAnimeEpisodes = [];
+            if (this.provider instanceof zoro_1.default &&
+                !dub &&
+                (Media.status === 'RELEASING' || parseInt((_1 = Media.startDate) === null || _1 === void 0 ? void 0 : _1.year) === 2022)) {
+                try {
+                    possibleAnimeEpisodes = (yield new enime_1.default().fetchAnimeInfoByAnilistId(id))
+                        .episodes.map((item) => ({
+                        id: item.slug,
+                        title: item.title,
+                        number: item.number,
+                        image: item.image,
+                    }))
+                        .reverse();
+                }
+                catch (err) {
+                    return yield this.fetchDefaultEpisodeList(Media, dub, id);
+                }
+            }
+            else
+                possibleAnimeEpisodes = yield this.fetchDefaultEpisodeList(Media, dub, id);
             possibleAnimeEpisodes = possibleAnimeEpisodes === null || possibleAnimeEpisodes === void 0 ? void 0 : possibleAnimeEpisodes.map((episode) => {
                 var _b, _c;
                 if (!episode.image)
@@ -742,7 +804,7 @@ class Anilist extends models_1.AnimeParser {
          * @returns anilist data for the anime
          */
         this.fetchAnilistInfoById = (id) => __awaiter(this, void 0, void 0, function* () {
-            var _y, _z, _0, _1, _2, _3, _4, _5, _6, _7, _8, _9, _10, _11;
+            var _2, _3, _4, _5, _6, _7, _8, _9, _10, _11, _12;
             const animeInfo = {
                 id: id,
                 title: '',
@@ -765,16 +827,16 @@ class Anilist extends models_1.AnimeParser {
                     native: data.data.Media.title.native,
                     userPreferred: data.data.Media.title.userPreferred,
                 };
-                if ((_y = data.data.Media.trailer) === null || _y === void 0 ? void 0 : _y.id) {
+                if ((_2 = data.data.Media.trailer) === null || _2 === void 0 ? void 0 : _2.id) {
                     animeInfo.trailer = {
-                        id: (_z = data.data.Media.trailer) === null || _z === void 0 ? void 0 : _z.id,
-                        site: (_0 = data.data.Media.trailer) === null || _0 === void 0 ? void 0 : _0.site,
-                        thumbnail: (_1 = data.data.Media.trailer) === null || _1 === void 0 ? void 0 : _1.thumbnail,
+                        id: (_3 = data.data.Media.trailer) === null || _3 === void 0 ? void 0 : _3.id,
+                        site: (_4 = data.data.Media.trailer) === null || _4 === void 0 ? void 0 : _4.site,
+                        thumbnail: (_5 = data.data.Media.trailer) === null || _5 === void 0 ? void 0 : _5.thumbnail,
                     };
                 }
                 animeInfo.image =
-                    (_3 = (_2 = data.data.Media.coverImage.extraLarge) !== null && _2 !== void 0 ? _2 : data.data.Media.coverImage.large) !== null && _3 !== void 0 ? _3 : data.data.Media.coverImage.medium;
-                animeInfo.cover = (_4 = data.data.Media.bannerImage) !== null && _4 !== void 0 ? _4 : animeInfo.image;
+                    (_7 = (_6 = data.data.Media.coverImage.extraLarge) !== null && _6 !== void 0 ? _6 : data.data.Media.coverImage.large) !== null && _7 !== void 0 ? _7 : data.data.Media.coverImage.medium;
+                animeInfo.cover = (_8 = data.data.Media.bannerImage) !== null && _8 !== void 0 ? _8 : animeInfo.image;
                 animeInfo.description = data.data.Media.description;
                 switch (data.data.Media.status) {
                     case 'RELEASING':
@@ -795,11 +857,11 @@ class Anilist extends models_1.AnimeParser {
                         animeInfo.status = models_1.MediaStatus.UNKNOWN;
                 }
                 animeInfo.releaseDate = data.data.Media.startDate.year;
-                if ((_5 = data.data.Media.nextAiringEpisode) === null || _5 === void 0 ? void 0 : _5.airingAt)
+                if ((_9 = data.data.Media.nextAiringEpisode) === null || _9 === void 0 ? void 0 : _9.airingAt)
                     animeInfo.nextAiringEpisode = {
-                        airingTime: (_6 = data.data.Media.nextAiringEpisode) === null || _6 === void 0 ? void 0 : _6.airingAt,
-                        timeUntilAiring: (_7 = data.data.Media.nextAiringEpisode) === null || _7 === void 0 ? void 0 : _7.timeUntilAiring,
-                        episode: (_8 = data.data.Media.nextAiringEpisode) === null || _8 === void 0 ? void 0 : _8.episode,
+                        airingTime: (_10 = data.data.Media.nextAiringEpisode) === null || _10 === void 0 ? void 0 : _10.airingAt,
+                        timeUntilAiring: (_11 = data.data.Media.nextAiringEpisode) === null || _11 === void 0 ? void 0 : _11.timeUntilAiring,
+                        episode: (_12 = data.data.Media.nextAiringEpisode) === null || _12 === void 0 ? void 0 : _12.episode,
                     };
                 animeInfo.totalEpisodes = (_10 = (_9 = data.data.Media) === null || _9 === void 0 ? void 0 : _9.episodes) !== null && _10 !== void 0 ? _10 : ((_11 = data.data.Media.nextAiringEpisode) === null || _11 === void 0 ? void 0 : _11.episode) - 1;
                 animeInfo.rating = data.data.Media.averageScore;

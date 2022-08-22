@@ -108,7 +108,6 @@ class Enime extends AnimeParser {
       title: '',
     };
 
-    console.log(`${this.enimeApi}/mapping/anilist/${id}`);
     const { data } = await axios.get(`${this.enimeApi}/mapping/anilist/${id}`).catch(() => {
       throw new Error('Anime not found');
     });
@@ -133,8 +132,13 @@ class Enime extends AnimeParser {
     animeInfo.episodes = data.episodes.map(
       (episode: any): IAnimeEpisode => ({
         id: episode.id,
+        slug: episode.sources
+          .find((source: any) => source.target.includes('zoro.to'))
+          .target?.split('/')[4]
+          .replace('?ep=', '$episode$')!,
         number: episode.number,
         title: episode.title,
+        image: episode?.image ?? animeInfo.image,
       })
     );
 
