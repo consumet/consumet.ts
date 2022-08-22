@@ -319,14 +319,15 @@ class Anilist extends AnimeParser {
         (animeInfo.status === MediaStatus.ONGOING || parseInt(animeInfo.releaseDate!) === 2022)
       ) {
         try {
-          animeInfo.episodes = (await new Enime().fetchAnimeInfoByAnilistId(id))
-            .episodes!.map((item: any) => ({
+          animeInfo.episodes = (await new Enime().fetchAnimeInfoByAnilistId(id)).episodes?.map(
+            (item: any) => ({
               id: item.slug,
               title: item.title,
               number: item.number,
               image: item.image,
-            }))
-            .reverse();
+            })
+          );
+          animeInfo.episodes?.reverse();
         } catch (err) {
           animeInfo.episodes = await this.fetchDefaultEpisodeList(
             {
