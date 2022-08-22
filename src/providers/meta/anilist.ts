@@ -338,6 +338,13 @@ class Anilist extends AnimeParser {
             dub,
             id
           );
+
+          animeInfo.episodes = animeInfo.episodes?.map((episode: IAnimeEpisode) => {
+            if (!episode.image) episode.image = animeInfo.image;
+
+            return episode;
+          });
+
           return animeInfo;
         }
       } else
