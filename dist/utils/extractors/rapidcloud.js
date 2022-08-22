@@ -95,7 +95,7 @@ class RapidCloud extends models_1.VideoExtractor {
                     .map((s) => s.file
                     ? {
                         url: s.file,
-                        lang: s.label ? s.label : 'Default (maybe)',
+                        lang: s.label ? s.label : 'Subtitles',
                     }
                     : null)
                     .filter((s) => s);
