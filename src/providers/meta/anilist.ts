@@ -122,6 +122,8 @@ class Anilist extends AnimeParser {
    * @param sort Sort (optional) (Default: `[POPULARITY_DESC, SCORE_DESC]`) (options: `POPULARITY_DESC`, `POPULARITY`, `TRENDING_DESC`, `TRENDING`, `UPDATED_AT_DESC`, `UPDATED_AT`, `START_DATE_DESC`, `START_DATE`, `END_DATE_DESC`, `END_DATE`, `FAVOURITES_DESC`, `FAVOURITES`, `SCORE_DESC`, `SCORE`, `TITLE_ROMAJI_DESC`, `TITLE_ROMAJI`, `TITLE_ENGLISH_DESC`, `TITLE_ENGLISH`, `TITLE_NATIVE_DESC`, `TITLE_NATIVE`, `EPISODES_DESC`, `EPISODES`, `ID`, `ID_DESC`)
    * @param genres Genres (optional) (options: `Action`, `Adventure`, `Cars`, `Comedy`, `Drama`, `Fantasy`, `Horror`, `Mahou Shoujo`, `Mecha`, `Music`, `Mystery`, `Psychological`, `Romance`, `Sci-Fi`, `Slice of Life`, `Sports`, `Supernatural`, `Thriller`)
    * @param id anilist Id (optional)
+   * @param year Year (optional) e.g. `2022`
+   * @param status Status (optional) (options: `RELEASING`, `FINISHED`, `NOT_YET_RELEASED`, `CANCELLED`, `HIATUS`)
    */
   advancedSearch = async (
     query?: string,
@@ -131,7 +133,9 @@ class Anilist extends AnimeParser {
     format?: string,
     sort?: string[],
     genres?: Genres[] | string[],
-    id?: string | number
+    id?: string | number,
+    year?: number,
+    status?: string
   ): Promise<ISearch<IAnimeResult>> => {
     const options = {
       headers: {
@@ -148,6 +152,8 @@ class Anilist extends AnimeParser {
         sort: sort,
         genres: genres,
         id: id,
+        year: `${year}%`,
+        status: status,
       },
     };
 
@@ -244,7 +250,7 @@ class Anilist extends AnimeParser {
         data.data.Media.coverImage.extraLarge ??
         data.data.Media.coverImage.large ??
         data.data.Media.coverImage.medium;
-      
+
       animeInfo.color = data.data.Media.coverImage?.color;
 
       animeInfo.color = data.data.Media.coverImage?.color;
@@ -276,7 +282,7 @@ class Anilist extends AnimeParser {
           timeUntilAiring: data.data.Media.nextAiringEpisode?.timeUntilAiring,
           episode: data.data.Media.nextAiringEpisode?.episode,
         };
-      animeInfo.totalEpisodes = data.data.Media?.episodes ?? data.data.Media.nextAiringEpisode?.episode - 1 ;
+      animeInfo.totalEpisodes = data.data.Media?.episodes ?? data.data.Media.nextAiringEpisode?.episode - 1;
       animeInfo.rating = data.data.Media.averageScore;
       animeInfo.duration = data.data.Media.duration;
       animeInfo.genres = data.data.Media.genres;
@@ -326,6 +332,7 @@ class Anilist extends AnimeParser {
             (item: any) => ({
               id: item.slug,
               title: item.title,
+              description: item.description,
               number: item.number,
               image: item.image,
             })
@@ -948,6 +955,7 @@ class Anilist extends AnimeParser {
           .episodes!.map((item: any) => ({
             id: item.slug,
             title: item.title,
+            description: item.description,
             number: item.number,
             image: item.image,
           }))
@@ -1036,7 +1044,7 @@ class Anilist extends AnimeParser {
           timeUntilAiring: data.data.Media.nextAiringEpisode?.timeUntilAiring,
           episode: data.data.Media.nextAiringEpisode?.episode,
         };
-      animeInfo.totalEpisodes = data.data.Media?.episodes ?? data.data.Media.nextAiringEpisode?.episode - 1 ;
+      animeInfo.totalEpisodes = data.data.Media?.episodes ?? data.data.Media.nextAiringEpisode?.episode - 1;
       animeInfo.rating = data.data.Media.averageScore;
       animeInfo.duration = data.data.Media.duration;
       animeInfo.genres = data.data.Media.genres;

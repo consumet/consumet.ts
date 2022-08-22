@@ -124,6 +124,7 @@ class Enime extends models_1.AnimeParser {
                     slug: (_a = episode.sources
                         .find((source) => source.target.includes('zoro.to'))
                         .target) === null || _a === void 0 ? void 0 : _a.split('/')[4].replace('?ep=', '$episode$'),
+                    description: episode.description,
                     number: episode.number,
                     title: episode.title,
                     image: (_b = episode === null || episode === void 0 ? void 0 : episode.image) !== null && _b !== void 0 ? _b : animeInfo.image,

@@ -136,6 +136,7 @@ class Enime extends AnimeParser {
           .find((source: any) => source.target.includes('zoro.to'))
           .target?.split('/')[4]
           .replace('?ep=', '$episode$')!,
+        description: episode.description,
         number: episode.number,
         title: episode.title,
         image: episode?.image ?? animeInfo.image,
