@@ -122,8 +122,7 @@ class Enime extends models_1.AnimeParser {
                 return ({
                     id: episode.id,
                     slug: (_a = episode.sources
-                        .find((source) => source.target.includes('zoro.to'))
-                        .target) === null || _a === void 0 ? void 0 : _a.split('/')[4].replace('?ep=', '$episode$'),
+                        .find((source) => source.target.includes('zoro.to'))) === null || _a === void 0 ? void 0 : _a.target.split('/')[4].replace('?ep=', '$episode$'),
                     description: episode.description,
                     number: episode.number,
                     title: episode.title,

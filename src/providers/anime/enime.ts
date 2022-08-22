@@ -129,12 +129,13 @@ class Enime extends AnimeParser {
     animeInfo.mappings = data.mappings;
 
     data.episodes = data.episodes.sort((a: any, b: any) => b.number - a.number);
+
     animeInfo.episodes = data.episodes.map(
       (episode: any): IAnimeEpisode => ({
         id: episode.id,
         slug: episode.sources
           .find((source: any) => source.target.includes('zoro.to'))
-          .target?.split('/')[4]
+          ?.target.split('/')[4]
           .replace('?ep=', '$episode$')!,
         description: episode.description,
         number: episode.number,

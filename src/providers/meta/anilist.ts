@@ -152,7 +152,7 @@ class Anilist extends AnimeParser {
         sort: sort,
         genres: genres,
         id: id,
-        year: `${year}%`,
+        year: year ? `${year}%` : undefined,
         status: status,
       },
     };
@@ -951,17 +951,25 @@ class Anilist extends AnimeParser {
       (Media.status === 'RELEASING' || parseInt(Media.startDate?.year!) === 2022)
     ) {
       try {
-        possibleAnimeEpisodes = (await new Enime().fetchAnimeInfoByAnilistId(id))
-          .episodes!.map((item: any) => ({
+        possibleAnimeEpisodes = (await new Enime().fetchAnimeInfoByAnilistId(id)).episodes?.map(
+          (item: any) => ({
             id: item.slug,
             title: item.title,
             description: item.description,
             number: item.number,
             image: item.image,
-          }))
-          .reverse();
+          })
+        )!;
+        possibleAnimeEpisodes.reverse();
       } catch (err) {
-        return await this.fetchDefaultEpisodeList(Media, dub, id);
+        possibleAnimeEpisodes = await this.fetchDefaultEpisodeList(Media, dub, id);
+        possibleAnimeEpisodes = possibleAnimeEpisodes?.map((episode: IAnimeEpisode) => {
+          if (!episode.image)
+            episode.image = Media.coverImage.extraLarge ?? Media.coverImage.large ?? Media.coverImage.medium;
+
+          return episode;
+        });
+        return possibleAnimeEpisodes;
       }
     } else possibleAnimeEpisodes = await this.fetchDefaultEpisodeList(Media, dub, id);
 
