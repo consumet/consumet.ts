@@ -233,6 +233,7 @@ class Anilist extends models_1.AnimeParser {
                         timeUntilAiring: (_m = data.data.Media.nextAiringEpisode) === null || _m === void 0 ? void 0 : _m.timeUntilAiring,
                         episode: (_o = data.data.Media.nextAiringEpisode) === null || _o === void 0 ? void 0 : _o.episode,
                     };
+                animeInfo.totalEpisodes = (_q = (_p = data.data.Media) === null || _p === void 0 ? void 0 : _p.episodes) !== null && _q !== void 0 ? _q : ((_r = data.data.Media.nextAiringEpisode) === null || _r === void 0 ? void 0 : _r.episode) - 1;
                 animeInfo.rating = data.data.Media.averageScore;
                 animeInfo.duration = data.data.Media.duration;
                 animeInfo.genres = data.data.Media.genres;
@@ -328,9 +329,11 @@ class Anilist extends models_1.AnimeParser {
             return this.provider.fetchEpisodeServers(episodeId);
         });
         this.findAnime = (title, season, startDate, malId, dub, anilistId) => __awaiter(this, void 0, void 0, function* () {
+
             var _x, _y;
             title.english = (_x = title.english) !== null && _x !== void 0 ? _x : title.romaji;
             title.romaji = (_y = title.romaji) !== null && _y !== void 0 ? _y : title.english;
+
             title.english = title.english.toLowerCase();
             title.romaji = title.romaji.toLowerCase();
             if (title.english === title.romaji) {
@@ -757,6 +760,7 @@ class Anilist extends models_1.AnimeParser {
          * @returns episode list
          */
         this.fetchEpisodesListById = (id, dub = false) => __awaiter(this, void 0, void 0, function* () {
+
             var _1;
             const options = {
                 headers: {
@@ -766,6 +770,7 @@ class Anilist extends models_1.AnimeParser {
                 query: `query($id: Int = ${id}){ Media(id: $id){ idMal title {romaji english} status season startDate {year} coverImage {extraLarge large medium} } }`,
             };
             const { data: { data: { Media }, }, } = yield axios_1.default.post(this.anilistGraphqlUrl, options);
+
             let possibleAnimeEpisodes = [];
             if (this.provider instanceof zoro_1.default &&
                 !dub &&
@@ -858,6 +863,7 @@ class Anilist extends models_1.AnimeParser {
                         timeUntilAiring: (_11 = data.data.Media.nextAiringEpisode) === null || _11 === void 0 ? void 0 : _11.timeUntilAiring,
                         episode: (_12 = data.data.Media.nextAiringEpisode) === null || _12 === void 0 ? void 0 : _12.episode,
                     };
+                animeInfo.totalEpisodes = (_10 = (_9 = data.data.Media) === null || _9 === void 0 ? void 0 : _9.episodes) !== null && _10 !== void 0 ? _10 : ((_11 = data.data.Media.nextAiringEpisode) === null || _11 === void 0 ? void 0 : _11.episode) - 1;
                 animeInfo.rating = data.data.Media.averageScore;
                 animeInfo.duration = data.data.Media.duration;
                 animeInfo.genres = data.data.Media.genres;

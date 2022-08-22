@@ -244,6 +244,8 @@ class Anilist extends AnimeParser {
         data.data.Media.coverImage.extraLarge ??
         data.data.Media.coverImage.large ??
         data.data.Media.coverImage.medium;
+      
+      animeInfo.color = data.data.Media.coverImage?.color;
 
       animeInfo.color = data.data.Media.coverImage?.color;
 
@@ -274,6 +276,7 @@ class Anilist extends AnimeParser {
           timeUntilAiring: data.data.Media.nextAiringEpisode?.timeUntilAiring,
           episode: data.data.Media.nextAiringEpisode?.episode,
         };
+      animeInfo.totalEpisodes = data.data.Media?.episodes ?? data.data.Media.nextAiringEpisode?.episode - 1 ;
       animeInfo.rating = data.data.Media.averageScore;
       animeInfo.duration = data.data.Media.duration;
       animeInfo.genres = data.data.Media.genres;
@@ -1033,6 +1036,7 @@ class Anilist extends AnimeParser {
           timeUntilAiring: data.data.Media.nextAiringEpisode?.timeUntilAiring,
           episode: data.data.Media.nextAiringEpisode?.episode,
         };
+      animeInfo.totalEpisodes = data.data.Media?.episodes ?? data.data.Media.nextAiringEpisode?.episode - 1 ;
       animeInfo.rating = data.data.Media.averageScore;
       animeInfo.duration = data.data.Media.duration;
       animeInfo.genres = data.data.Media.genres;
