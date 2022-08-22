@@ -29,6 +29,7 @@ import {
 import Gogoanime from '../../providers/anime/gogoanime';
 import Enime from '../anime/enime';
 import MangaDex from '../manga/mangadex';
+import Zoro from '../anime/zoro';
 
 class Anilist extends AnimeParser {
   override readonly name = 'Anilist';
@@ -243,7 +244,7 @@ class Anilist extends AnimeParser {
         data.data.Media.coverImage.extraLarge ??
         data.data.Media.coverImage.large ??
         data.data.Media.coverImage.medium;
-      
+
       animeInfo.color = data.data.Media.coverImage?.color;
 
       animeInfo.cover = data.data.Media.bannerImage ?? animeInfo.image;
@@ -311,21 +312,52 @@ class Anilist extends AnimeParser {
           item.node.mediaRecommendation.coverImage.medium,
         score: item.node.mediaRecommendation.meanScore,
       }));
-      const possibleAnimeEpisodes = await this.findAnime(
-        { english: animeInfo.title?.english!, romaji: animeInfo.title?.romaji! },
-        data.data.Media.season!,
-        data.data.Media.startDate.year,
-        animeInfo.malId as number,
-        dub,
-        animeInfo.id
-      );
 
-      animeInfo.episodes = possibleAnimeEpisodes?.map((episode: IAnimeEpisode) => {
-        if (!episode.image) {
-          episode.image = animeInfo.image;
+      if (
+        this.provider instanceof Zoro &&
+        !dub &&
+        (animeInfo.status === MediaStatus.ONGOING || parseInt(animeInfo.releaseDate!) === 2022)
+      ) {
+        try {
+          animeInfo.episodes = (await new Enime().fetchAnimeInfoByAnilistId(id))
+            .episodes!.map((item: any) => ({
+              id: item.slug,
+              title: item.title,
+              number: item.number,
+              image: item.image,
+            }))
+            .reverse();
+        } catch (err) {
+          animeInfo.episodes = await this.fetchDefaultEpisodeList(
+            {
+              idMal: animeInfo.malId! as number,
+              season: data.data.Media.season,
+              startDate: { year: parseInt(animeInfo.releaseDate!) },
+              title: { english: animeInfo.title?.english!, romaji: animeInfo.title?.romaji! },
+            },
+            dub,
+            id
+          );
+          return animeInfo;
         }
+      } else
+        animeInfo.episodes = await this.fetchDefaultEpisodeList(
+          {
+            idMal: animeInfo.malId! as number,
+            season: data.data.Media.season,
+            startDate: { year: parseInt(animeInfo.releaseDate!) },
+            title: { english: animeInfo.title?.english!, romaji: animeInfo.title?.romaji! },
+          },
+          dub,
+          id
+        );
+
+      animeInfo.episodes = animeInfo.episodes?.map((episode: IAnimeEpisode) => {
+        if (!episode.image) episode.image = animeInfo.image;
+
         return episode;
       });
+
       return animeInfo;
     } catch (err) {
       throw new Error((err as Error).message);
@@ -850,6 +882,30 @@ class Anilist extends AnimeParser {
     }
   };
 
+  private fetchDefaultEpisodeList = async (
+    Media: {
+      idMal: number;
+      title: { english: string; romaji: string };
+      season: string;
+      startDate: { year: number };
+    },
+    dub: boolean,
+    id: string
+  ) => {
+    let episodes: IAnimeEpisode[] = [];
+
+    episodes = await this.findAnime(
+      { english: Media.title?.english!, romaji: Media.title?.romaji! },
+      Media.season!,
+      Media.startDate.year,
+      Media.idMal as number,
+      dub,
+      id
+    );
+
+    return episodes;
+  };
+
   /**
    * @param id anilist id
    * @param dub language of the dubbed version (optional) currently only works for gogoanime
@@ -861,7 +917,7 @@ class Anilist extends AnimeParser {
         'Content-Type': 'application/json',
         Accept: 'application/json',
       },
-      query: `query($id: Int = ${id}){ Media(id: $id){ idMal title {romaji english} season startDate {year} coverImage {extraLarge large medium} } }`,
+      query: `query($id: Int = ${id}){ Media(id: $id){ idMal title {romaji english} status season startDate {year} coverImage {extraLarge large medium} } }`,
     };
 
     const {
@@ -870,14 +926,25 @@ class Anilist extends AnimeParser {
       },
     } = await axios.post(this.anilistGraphqlUrl, options);
 
-    let possibleAnimeEpisodes = await this.findAnime(
-      { english: Media.title?.english!, romaji: Media.title?.romaji! },
-      Media.season!,
-      Media.startDate.year,
-      Media.idMal as number,
-      dub,
-      id
-    );
+    let possibleAnimeEpisodes: IAnimeEpisode[] = [];
+    if (
+      this.provider instanceof Zoro &&
+      !dub &&
+      (Media.status === 'RELEASING' || parseInt(Media.startDate?.year!) === 2022)
+    ) {
+      try {
+        possibleAnimeEpisodes = (await new Enime().fetchAnimeInfoByAnilistId(id))
+          .episodes!.map((item: any) => ({
+            id: item.slug,
+            title: item.title,
+            number: item.number,
+            image: item.image,
+          }))
+          .reverse();
+      } catch (err) {
+        return await this.fetchDefaultEpisodeList(Media, dub, id);
+      }
+    } else possibleAnimeEpisodes = await this.fetchDefaultEpisodeList(Media, dub, id);
 
     possibleAnimeEpisodes = possibleAnimeEpisodes?.map((episode: IAnimeEpisode) => {
       if (!episode.image)

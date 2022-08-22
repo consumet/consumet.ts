@@ -91,6 +91,7 @@ declare class Anilist extends AnimeParser {
      * @param perPage number of results per page (optional)
      */
     fetchRecentEpisodes: (provider?: 'gogoanime' | 'zoro', page?: number, perPage?: number) => Promise<ISearch<IAnimeResult>>;
+    private fetchDefaultEpisodeList;
     /**
      * @param id anilist id
      * @param dub language of the dubbed version (optional) currently only works for gogoanime
