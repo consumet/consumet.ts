@@ -58,7 +58,6 @@ class AnimePahe extends AnimeParser {
 
     try {
       const res = await axios.get(id);
-
       const $ = load(res.data);
 
       const tempId = $('head > meta[property="og:url"]').attr('content')!.split('/').pop()!;

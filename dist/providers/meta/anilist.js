@@ -232,6 +232,16 @@ class Anilist extends models_1.AnimeParser {
                         animeInfo.status = models_1.MediaStatus.UNKNOWN;
                 }
                 animeInfo.releaseDate = data.data.Media.startDate.year;
+                animeInfo.startDate = {
+                    year: data.data.Media.startDate.year,
+                    month: data.data.Media.startDate.month,
+                    day: data.data.Media.startDate.day,
+                };
+                animeInfo.endDate = {
+                    year: data.data.Media.endDate.year,
+                    month: data.data.Media.endDate.month,
+                    day: data.data.Media.endDate.day,
+                };
                 if ((_l = data.data.Media.nextAiringEpisode) === null || _l === void 0 ? void 0 : _l.airingAt)
                     animeInfo.nextAiringEpisode = {
                         airingTime: (_m = data.data.Media.nextAiringEpisode) === null || _m === void 0 ? void 0 : _m.airingAt,
@@ -242,6 +252,7 @@ class Anilist extends models_1.AnimeParser {
                 animeInfo.rating = data.data.Media.averageScore;
                 animeInfo.duration = data.data.Media.duration;
                 animeInfo.genres = data.data.Media.genres;
+                animeInfo.season = data.data.Media.season;
                 animeInfo.studios = data.data.Media.studios.edges.map((item) => item.node.name);
                 animeInfo.subOrDub = dub ? models_1.SubOrSub.DUB : models_1.SubOrSub.SUB;
                 animeInfo.recommendations = data.data.Media.recommendations.edges.map((item) => {
@@ -272,9 +283,54 @@ class Anilist extends models_1.AnimeParser {
                         score: item.node.mediaRecommendation.meanScore,
                     });
                 });
+                animeInfo.characters = data.data.Media.characters.edges.map((item) => {
+                    var _b;
+                    return ({
+                        id: item.node.id,
+                        role: item.role,
+                        name: {
+                            first: item.node.name.first,
+                            last: item.node.name.last,
+                            full: item.node.name.full,
+                            native: item.node.name.native,
+                            userPreferred: item.node.name.userPreferred,
+                        },
+                        image: (_b = item.node.image.large) !== null && _b !== void 0 ? _b : item.node.image.medium,
+                    });
+                });
+                animeInfo.relations = data.data.Media.relations.edges.map((item) => {
+                    var _b, _c, _d, _e, _f;
+                    return ({
+                        id: item.node.id,
+                        relationType: item.relationType,
+                        malId: item.node.idMal,
+                        title: {
+                            romaji: item.node.title.romaji,
+                            english: item.node.title.english,
+                            native: item.node.title.native,
+                            userPreferred: item.node.title.userPreferred,
+                        },
+                        status: item.node.status == 'RELEASING'
+                            ? models_1.MediaStatus.ONGOING
+                            : item.node.status == 'FINISHED'
+                                ? models_1.MediaStatus.COMPLETED
+                                : item.node.status == 'NOT_YET_RELEASED'
+                                    ? models_1.MediaStatus.NOT_YET_AIRED
+                                    : item.node.status == 'CANCELLED'
+                                        ? models_1.MediaStatus.CANCELLED
+                                        : item.node.status == 'HIATUS'
+                                            ? models_1.MediaStatus.HIATUS
+                                            : models_1.MediaStatus.UNKNOWN,
+                        episodes: item.node.episodes,
+                        image: (_c = (_b = item.node.coverImage.extraLarge) !== null && _b !== void 0 ? _b : item.node.coverImage.large) !== null && _c !== void 0 ? _c : item.node.coverImage.medium,
+                        cover: (_f = (_e = (_d = item.node.bannerImage) !== null && _d !== void 0 ? _d : item.node.coverImage.extraLarge) !== null && _e !== void 0 ? _e : item.node.coverImage.large) !== null && _f !== void 0 ? _f : item.node.coverImage.medium,
+                        score: item.node.meanScore,
+                    });
+                });
                 if (this.provider instanceof zoro_1.default &&
                     !dub &&
-                    (animeInfo.status === models_1.MediaStatus.ONGOING || parseInt(animeInfo.releaseDate) === 2022)) {
+                    (animeInfo.status === models_1.MediaStatus.ONGOING ||
+                        (0, utils_1.range)({ from: 2021, to: new Date().getFullYear() + 1 }).includes(parseInt(animeInfo.releaseDate)))) {
                     try {
                         animeInfo.episodes = (_t = (yield new enime_1.default().fetchAnimeInfoByAnilistId(id)).episodes) === null || _t === void 0 ? void 0 : _t.map((item) => ({
                             id: item.slug,
@@ -776,7 +832,8 @@ class Anilist extends models_1.AnimeParser {
             let possibleAnimeEpisodes = [];
             if (this.provider instanceof zoro_1.default &&
                 !dub &&
-                (Media.status === 'RELEASING' || parseInt((_5 = Media.startDate) === null || _5 === void 0 ? void 0 : _5.year) === 2022)) {
+                (Media.status === 'RELEASING' ||
+                    (0, utils_1.range)({ from: 2021, to: new Date().getFullYear() + 1 }).includes(parseInt((_5 = Media.startDate) === null || _5 === void 0 ? void 0 : _5.year)))) {
                 try {
                     possibleAnimeEpisodes = (_6 = (yield new enime_1.default().fetchAnimeInfoByAnilistId(id)).episodes) === null || _6 === void 0 ? void 0 : _6.map((item) => ({
                         id: item.slug,
@@ -813,7 +870,7 @@ class Anilist extends models_1.AnimeParser {
          * @returns anilist data for the anime
          */
         this.fetchAnilistInfoById = (id) => __awaiter(this, void 0, void 0, function* () {
-            var _7, _8, _9, _10, _11, _12, _13, _14, _15, _16, _17, _18, _19, _20;
+            var _7, _8, _9, _10, _11, _12, _13, _14, _15, _16, _17, _18, _19, _20, _21, _22, _23, _24, _25, _26;
             const animeInfo = {
                 id: id,
                 title: '',
@@ -877,6 +934,17 @@ class Anilist extends models_1.AnimeParser {
                 animeInfo.duration = data.data.Media.duration;
                 animeInfo.genres = data.data.Media.genres;
                 animeInfo.studios = data.data.Media.studios.edges.map((item) => item.node.name);
+                animeInfo.season = data.data.Media.season;
+                animeInfo.startDate = {
+                    year: (_21 = data.data.Media.startDate) === null || _21 === void 0 ? void 0 : _21.year,
+                    month: (_22 = data.data.Media.startDate) === null || _22 === void 0 ? void 0 : _22.month,
+                    day: (_23 = data.data.Media.startDate) === null || _23 === void 0 ? void 0 : _23.day,
+                };
+                animeInfo.endDate = {
+                    year: (_24 = data.data.Media.endDate) === null || _24 === void 0 ? void 0 : _24.year,
+                    month: (_25 = data.data.Media.endDate) === null || _25 === void 0 ? void 0 : _25.month,
+                    day: (_26 = data.data.Media.endDate) === null || _26 === void 0 ? void 0 : _26.day,
+                };
                 animeInfo.recommendations = data.data.Media.recommendations.edges.map((item) => {
                     var _b, _c, _d, _e, _f;
                     return ({
@@ -925,6 +993,7 @@ class Anilist extends models_1.AnimeParser {
                     return ({
                         id: item.node.id,
                         malId: item.node.idMal,
+                        relationType: item.relationType,
                         title: {
                             romaji: item.node.title.romaji,
                             english: item.node.title.english,

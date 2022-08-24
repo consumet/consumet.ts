@@ -25,11 +25,13 @@ import {
   anilistGenresQuery,
   anilistAdvancedQuery,
   anilistSiteStatisticsQuery,
+  range,
 } from '../../utils';
 import Gogoanime from '../../providers/anime/gogoanime';
 import Enime from '../anime/enime';
 import MangaDex from '../manga/mangadex';
 import Zoro from '../anime/zoro';
+import AnimePahe from '../anime/animepahe';
 
 class Anilist extends AnimeParser {
   override readonly name = 'Anilist';
@@ -276,6 +278,16 @@ class Anilist extends AnimeParser {
           animeInfo.status = MediaStatus.UNKNOWN;
       }
       animeInfo.releaseDate = data.data.Media.startDate.year;
+      animeInfo.startDate = {
+        year: data.data.Media.startDate.year,
+        month: data.data.Media.startDate.month,
+        day: data.data.Media.startDate.day,
+      };
+      animeInfo.endDate = {
+        year: data.data.Media.endDate.year,
+        month: data.data.Media.endDate.month,
+        day: data.data.Media.endDate.day,
+      };
       if (data.data.Media.nextAiringEpisode?.airingAt)
         animeInfo.nextAiringEpisode = {
           airingTime: data.data.Media.nextAiringEpisode?.airingAt,
@@ -286,6 +298,7 @@ class Anilist extends AnimeParser {
       animeInfo.rating = data.data.Media.averageScore;
       animeInfo.duration = data.data.Media.duration;
       animeInfo.genres = data.data.Media.genres;
+      animeInfo.season = data.data.Media.season;
       animeInfo.studios = data.data.Media.studios.edges.map((item: any) => item.node.name);
       animeInfo.subOrDub = dub ? SubOrSub.DUB : SubOrSub.SUB;
       animeInfo.recommendations = data.data.Media.recommendations.edges.map((item: any) => ({
@@ -322,10 +335,56 @@ class Anilist extends AnimeParser {
         score: item.node.mediaRecommendation.meanScore,
       }));
 
+      animeInfo.characters = data.data.Media.characters.edges.map((item: any) => ({
+        id: item.node.id,
+        role: item.role,
+        name: {
+          first: item.node.name.first,
+          last: item.node.name.last,
+          full: item.node.name.full,
+          native: item.node.name.native,
+          userPreferred: item.node.name.userPreferred,
+        },
+        image: item.node.image.large ?? item.node.image.medium,
+      }));
+
+      animeInfo.relations = data.data.Media.relations.edges.map((item: any) => ({
+        id: item.node.id,
+        relationType: item.relationType,
+        malId: item.node.idMal,
+        title: {
+          romaji: item.node.title.romaji,
+          english: item.node.title.english,
+          native: item.node.title.native,
+          userPreferred: item.node.title.userPreferred,
+        },
+        status:
+          item.node.status == 'RELEASING'
+            ? MediaStatus.ONGOING
+            : item.node.status == 'FINISHED'
+            ? MediaStatus.COMPLETED
+            : item.node.status == 'NOT_YET_RELEASED'
+            ? MediaStatus.NOT_YET_AIRED
+            : item.node.status == 'CANCELLED'
+            ? MediaStatus.CANCELLED
+            : item.node.status == 'HIATUS'
+            ? MediaStatus.HIATUS
+            : MediaStatus.UNKNOWN,
+        episodes: item.node.episodes,
+        image: item.node.coverImage.extraLarge ?? item.node.coverImage.large ?? item.node.coverImage.medium,
+        cover:
+          item.node.bannerImage ??
+          item.node.coverImage.extraLarge ??
+          item.node.coverImage.large ??
+          item.node.coverImage.medium,
+        score: item.node.meanScore,
+      }));
+
       if (
         this.provider instanceof Zoro &&
         !dub &&
-        (animeInfo.status === MediaStatus.ONGOING || parseInt(animeInfo.releaseDate!) === 2022)
+        (animeInfo.status === MediaStatus.ONGOING ||
+          range({ from: 2021, to: new Date().getFullYear() + 1 }).includes(parseInt(animeInfo.releaseDate!)))
       ) {
         try {
           animeInfo.episodes = (await new Enime().fetchAnimeInfoByAnilistId(id)).episodes?.map(
@@ -948,7 +1007,8 @@ class Anilist extends AnimeParser {
     if (
       this.provider instanceof Zoro &&
       !dub &&
-      (Media.status === 'RELEASING' || parseInt(Media.startDate?.year!) === 2022)
+      (Media.status === 'RELEASING' ||
+        range({ from: 2021, to: new Date().getFullYear() + 1 }).includes(parseInt(Media.startDate?.year!)))
     ) {
       try {
         possibleAnimeEpisodes = (await new Enime().fetchAnimeInfoByAnilistId(id)).episodes?.map(
@@ -1057,6 +1117,17 @@ class Anilist extends AnimeParser {
       animeInfo.duration = data.data.Media.duration;
       animeInfo.genres = data.data.Media.genres;
       animeInfo.studios = data.data.Media.studios.edges.map((item: any) => item.node.name);
+      animeInfo.season = data.data.Media.season;
+      animeInfo.startDate = {
+        year: data.data.Media.startDate?.year,
+        month: data.data.Media.startDate?.month,
+        day: data.data.Media.startDate?.day,
+      };
+      animeInfo.endDate = {
+        year: data.data.Media.endDate?.year,
+        month: data.data.Media.endDate?.month,
+        day: data.data.Media.endDate?.day,
+      };
       animeInfo.recommendations = data.data.Media.recommendations.edges.map((item: any) => ({
         id: item.node.mediaRecommendation.id,
         malId: item.node.mediaRecommendation.idMal,
@@ -1107,6 +1178,7 @@ class Anilist extends AnimeParser {
       animeInfo.relations = data.data.Media.relations.edges.map((item: any) => ({
         id: item.node.id,
         malId: item.node.idMal,
+        relationType: item.relationType,
         title: {
           romaji: item.node.title.romaji,
           english: item.node.title.english,
@@ -1169,5 +1241,4 @@ class Anilist extends AnimeParser {
     };
   };
 }
-
 export default Anilist;
