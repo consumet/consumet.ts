@@ -1241,4 +1241,5 @@ class Anilist extends AnimeParser {
     };
   };
 }
+
 export default Anilist;

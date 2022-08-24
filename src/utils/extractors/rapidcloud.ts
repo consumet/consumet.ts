@@ -26,26 +26,10 @@ class RapidCloud extends VideoExtractor {
       };
 
       let res = null;
-      const { data } = await axios.get(videoUrl.href, options);
-      const html = load(data).html();
-      const key = html
-        .substring(html.indexOf('var recaptchaSiteKey ='), html.lastIndexOf(',')!)
-        .split(' = ')[1]
-        .replace(/\'/g, '');
-      const _number = html
-        .substring(html.indexOf('recaptchaNumber ='), html.lastIndexOf(';')!)
-        .split(' = ')[1]
-        .replace(/\'/g, '');
 
       const { data: sId } = await axios.get(`${this.enimeApi}/tool/rapid-cloud/server-id`);
 
-      // const _token = await this.captcha(videoUrl.href, key);
-      const _token = undefined;
-
-      res = await axios.get(
-        `${this.host}/ajax/embed-6/getSources?id=${id}&sId=${sId}&_number=${_number}&_token=${_token}`,
-        options
-      );
+      res = await axios.get(`${this.host}/ajax/embed-6/getSources?id=${id}&sId=${sId}`, options);
 
       const {
         data: { sources, tracks, intro },
