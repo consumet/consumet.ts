@@ -305,41 +305,41 @@ class Anilist extends AnimeParser {
       animeInfo.studios = data.data.Media.studios.edges.map((item: any) => item.node.name);
       animeInfo.subOrDub = dub ? SubOrSub.DUB : SubOrSub.SUB;
       animeInfo.recommendations = data.data.Media.recommendations.edges.map((item: any) => ({
-        id: item.node.mediaRecommendation.id,
-        malId: item.node.mediaRecommendation.idMal,
+        id: item.node.mediaRecommendation?.id,
+        malId: item.node.mediaRecommendation?.idMal,
         title: {
-          romaji: item.node.mediaRecommendation.title.romaji,
-          english: item.node.mediaRecommendation.title.english,
-          native: item.node.mediaRecommendation.title.native,
-          userPreferred: item.node.mediaRecommendation.title.userPreferred,
+          romaji: item.node.mediaRecommendation?.title?.romaji,
+          english: item.node.mediaRecommendation?.title?.english,
+          native: item.node.mediaRecommendation?.title?.native,
+          userPreferred: item.node.mediaRecommendation?.title?.userPreferred,
         },
         status:
-          item.node.mediaRecommendation.status == 'RELEASING'
+          item.node.mediaRecommendation?.status == 'RELEASING'
             ? MediaStatus.ONGOING
-            : item.node.mediaRecommendation.status == 'FINISHED'
+            : item.node.mediaRecommendation?.status == 'FINISHED'
             ? MediaStatus.COMPLETED
-            : item.node.mediaRecommendation.status == 'NOT_YET_RELEASED'
+            : item.node.mediaRecommendation?.status == 'NOT_YET_RELEASED'
             ? MediaStatus.NOT_YET_AIRED
-            : item.node.mediaRecommendation.status == 'CANCELLED'
+            : item.node.mediaRecommendation?.status == 'CANCELLED'
             ? MediaStatus.CANCELLED
-            : item.node.mediaRecommendation.status == 'HIATUS'
+            : item.node.mediaRecommendation?.status == 'HIATUS'
             ? MediaStatus.HIATUS
             : MediaStatus.UNKNOWN,
-        episodes: item.node.mediaRecommendation.episodes,
+        episodes: item.node.mediaRecommendation?.episodes,
         image:
-          item.node.mediaRecommendation.coverImage.extraLarge ??
-          item.node.mediaRecommendation.coverImage.large ??
-          item.node.mediaRecommendation.coverImage.medium,
+          item.node.mediaRecommendation?.coverImage?.extraLarge ??
+          item.node.mediaRecommendation?.coverImage?.large ??
+          item.node.mediaRecommendation?.coverImage?.medium,
         cover:
-          item.node.mediaRecommendation.bannerImage ??
-          item.node.mediaRecommendation.coverImage.extraLarge ??
-          item.node.mediaRecommendation.coverImage.large ??
-          item.node.mediaRecommendation.coverImage.medium,
-        score: item.node.mediaRecommendation.meanScore,
+          item.node.mediaRecommendation?.bannerImage ??
+          item.node.mediaRecommendation?.coverImage?.extraLarge ??
+          item.node.mediaRecommendation?.coverImage?.large ??
+          item.node.mediaRecommendation?.coverImage?.medium,
+        score: item.node.mediaRecommendation?.meanScore,
       }));
 
       animeInfo.characters = data.data.Media.characters.edges.map((item: any) => ({
-        id: item.node.id,
+        id: item.node?.id,
         role: item.role,
         name: {
           first: item.node.name.first,

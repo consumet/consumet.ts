@@ -258,37 +258,37 @@ class Anilist extends models_1.AnimeParser {
                 animeInfo.studios = data.data.Media.studios.edges.map((item) => item.node.name);
                 animeInfo.subOrDub = dub ? models_1.SubOrSub.DUB : models_1.SubOrSub.SUB;
                 animeInfo.recommendations = data.data.Media.recommendations.edges.map((item) => {
-                    var _b, _c, _d, _e, _f;
+                    var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s, _t, _u, _v, _w, _x, _y, _z, _0, _1, _2, _3, _4, _5, _6, _7, _8, _9, _10, _11;
                     return ({
-                        id: item.node.mediaRecommendation.id,
-                        malId: item.node.mediaRecommendation.idMal,
+                        id: (_b = item.node.mediaRecommendation) === null || _b === void 0 ? void 0 : _b.id,
+                        malId: (_c = item.node.mediaRecommendation) === null || _c === void 0 ? void 0 : _c.idMal,
                         title: {
-                            romaji: item.node.mediaRecommendation.title.romaji,
-                            english: item.node.mediaRecommendation.title.english,
-                            native: item.node.mediaRecommendation.title.native,
-                            userPreferred: item.node.mediaRecommendation.title.userPreferred,
+                            romaji: (_e = (_d = item.node.mediaRecommendation) === null || _d === void 0 ? void 0 : _d.title) === null || _e === void 0 ? void 0 : _e.romaji,
+                            english: (_g = (_f = item.node.mediaRecommendation) === null || _f === void 0 ? void 0 : _f.title) === null || _g === void 0 ? void 0 : _g.english,
+                            native: (_j = (_h = item.node.mediaRecommendation) === null || _h === void 0 ? void 0 : _h.title) === null || _j === void 0 ? void 0 : _j.native,
+                            userPreferred: (_l = (_k = item.node.mediaRecommendation) === null || _k === void 0 ? void 0 : _k.title) === null || _l === void 0 ? void 0 : _l.userPreferred,
                         },
-                        status: item.node.mediaRecommendation.status == 'RELEASING'
+                        status: ((_m = item.node.mediaRecommendation) === null || _m === void 0 ? void 0 : _m.status) == 'RELEASING'
                             ? models_1.MediaStatus.ONGOING
-                            : item.node.mediaRecommendation.status == 'FINISHED'
+                            : ((_o = item.node.mediaRecommendation) === null || _o === void 0 ? void 0 : _o.status) == 'FINISHED'
                                 ? models_1.MediaStatus.COMPLETED
-                                : item.node.mediaRecommendation.status == 'NOT_YET_RELEASED'
+                                : ((_p = item.node.mediaRecommendation) === null || _p === void 0 ? void 0 : _p.status) == 'NOT_YET_RELEASED'
                                     ? models_1.MediaStatus.NOT_YET_AIRED
-                                    : item.node.mediaRecommendation.status == 'CANCELLED'
+                                    : ((_q = item.node.mediaRecommendation) === null || _q === void 0 ? void 0 : _q.status) == 'CANCELLED'
                                         ? models_1.MediaStatus.CANCELLED
-                                        : item.node.mediaRecommendation.status == 'HIATUS'
+                                        : ((_r = item.node.mediaRecommendation) === null || _r === void 0 ? void 0 : _r.status) == 'HIATUS'
                                             ? models_1.MediaStatus.HIATUS
                                             : models_1.MediaStatus.UNKNOWN,
-                        episodes: item.node.mediaRecommendation.episodes,
-                        image: (_c = (_b = item.node.mediaRecommendation.coverImage.extraLarge) !== null && _b !== void 0 ? _b : item.node.mediaRecommendation.coverImage.large) !== null && _c !== void 0 ? _c : item.node.mediaRecommendation.coverImage.medium,
-                        cover: (_f = (_e = (_d = item.node.mediaRecommendation.bannerImage) !== null && _d !== void 0 ? _d : item.node.mediaRecommendation.coverImage.extraLarge) !== null && _e !== void 0 ? _e : item.node.mediaRecommendation.coverImage.large) !== null && _f !== void 0 ? _f : item.node.mediaRecommendation.coverImage.medium,
-                        score: item.node.mediaRecommendation.meanScore,
+                        episodes: (_s = item.node.mediaRecommendation) === null || _s === void 0 ? void 0 : _s.episodes,
+                        image: (_y = (_v = (_u = (_t = item.node.mediaRecommendation) === null || _t === void 0 ? void 0 : _t.coverImage) === null || _u === void 0 ? void 0 : _u.extraLarge) !== null && _v !== void 0 ? _v : (_x = (_w = item.node.mediaRecommendation) === null || _w === void 0 ? void 0 : _w.coverImage) === null || _x === void 0 ? void 0 : _x.large) !== null && _y !== void 0 ? _y : (_0 = (_z = item.node.mediaRecommendation) === null || _z === void 0 ? void 0 : _z.coverImage) === null || _0 === void 0 ? void 0 : _0.medium,
+                        cover: (_8 = (_5 = (_2 = (_1 = item.node.mediaRecommendation) === null || _1 === void 0 ? void 0 : _1.bannerImage) !== null && _2 !== void 0 ? _2 : (_4 = (_3 = item.node.mediaRecommendation) === null || _3 === void 0 ? void 0 : _3.coverImage) === null || _4 === void 0 ? void 0 : _4.extraLarge) !== null && _5 !== void 0 ? _5 : (_7 = (_6 = item.node.mediaRecommendation) === null || _6 === void 0 ? void 0 : _6.coverImage) === null || _7 === void 0 ? void 0 : _7.large) !== null && _8 !== void 0 ? _8 : (_10 = (_9 = item.node.mediaRecommendation) === null || _9 === void 0 ? void 0 : _9.coverImage) === null || _10 === void 0 ? void 0 : _10.medium,
+                        score: (_11 = item.node.mediaRecommendation) === null || _11 === void 0 ? void 0 : _11.meanScore,
                     });
                 });
                 animeInfo.characters = data.data.Media.characters.edges.map((item) => {
-                    var _b;
+                    var _b, _c;
                     return ({
-                        id: item.node.id,
+                        id: (_b = item.node) === null || _b === void 0 ? void 0 : _b.id,
                         role: item.role,
                         name: {
                             first: item.node.name.first,
@@ -297,7 +297,7 @@ class Anilist extends models_1.AnimeParser {
                             native: item.node.name.native,
                             userPreferred: item.node.name.userPreferred,
                         },
-                        image: (_b = item.node.image.large) !== null && _b !== void 0 ? _b : item.node.image.medium,
+                        image: (_c = item.node.image.large) !== null && _c !== void 0 ? _c : item.node.image.medium,
                     });
                 });
                 animeInfo.relations = data.data.Media.relations.edges.map((item) => {
