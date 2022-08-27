@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Genres = exports.TvType = exports.SubOrSub = exports.MediaStatus = exports.StreamingServers = void 0;
+exports.Topics = exports.Genres = exports.TvType = exports.SubOrSub = exports.MediaStatus = exports.StreamingServers = void 0;
 var StreamingServers;
 (function (StreamingServers) {
     StreamingServers["GogoCDN"] = "gogocdn";
@@ -61,4 +61,19 @@ var Genres;
     Genres["SUPERNATURAL"] = "Supernatural";
     Genres["THRILLER"] = "Thriller";
 })(Genres = exports.Genres || (exports.Genres = {}));
+var Topics;
+(function (Topics) {
+    Topics["ANIME"] = "anime";
+    Topics["ANIMATION"] = "animation";
+    Topics["MANGA"] = "manga";
+    Topics["GAMES"] = "games";
+    Topics["NOVELS"] = "novels";
+    Topics["LIVE_ACTION"] = "live-action";
+    Topics["COVID_19"] = "covid-19";
+    Topics["INDUSTRY"] = "industry";
+    Topics["MUSIC"] = "music";
+    Topics["PEOPLE"] = "people";
+    Topics["MERCH"] = "merch";
+    Topics["EVENTS"] = "events";
+})(Topics = exports.Topics || (exports.Topics = {}));
 //# sourceMappingURL=types.js.map

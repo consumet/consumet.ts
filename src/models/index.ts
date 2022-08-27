@@ -7,6 +7,7 @@ import VideoExtractor from './video-extractor';
 import MangaParser from './manga-parser';
 import LightNovelParser from './lightnovel-parser';
 import MovieParser from './movie-parser';
+import NewsParser from './news-parser';
 import {
   IProviderStats,
   ISearch,
@@ -38,6 +39,9 @@ import {
   IMovieResult,
   Intro,
   Genres,
+  INewsFeed,
+  Topics,
+  INewsInfo
 } from './types';
 import { LibgenBookObject, GetComicsComicsObject, ZLibraryObject } from './type-objects';
 
@@ -60,6 +64,7 @@ export {
   SubOrSub,
   LightNovelParser,
   MangaParser,
+  NewsParser,
   IMangaResult,
   IMangaChapter,
   IMangaInfo,
@@ -84,4 +89,7 @@ export {
   IMovieResult,
   Intro,
   Genres,
+  INewsFeed,
+  Topics,
+  INewsInfo
 };

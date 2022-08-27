@@ -61,7 +61,7 @@ class Gogoanime extends models_1.AnimeParser {
         });
         /**
          *
-         * @param animeUrl anime id
+         * @param id anime id
          */
         this.fetchAnimeInfo = (id) => __awaiter(this, void 0, void 0, function* () {
             if (!id.includes('gogoanime'))

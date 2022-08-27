@@ -276,6 +276,40 @@ export interface IMovieResult {
   [x: string]: unknown; // other unkown fields
 }
 
+export interface INewsFeed extends INews {
+  /** topics of the feed */
+  topics: Topics[]
+  /** preview of the news feed */
+  preview: INewsFeedPreview
+}
+
+export interface INewsInfo extends INews {
+  /** intro of the news */
+  intro: string
+  /** description of the news */
+  description: string
+}
+
+interface INews {
+  /** id of the news */
+  id: string
+  /** title of the news */
+  title: string
+  /** time at which the news was uploaded */
+  uploadedAt: string
+  /** thumbnail image URL of the news */
+  thumbnail: string
+  /** URL of the news */
+  url: string
+}
+
+interface INewsFeedPreview {
+  /** intro of the feed */
+  intro: string
+  /** some contents of the feed */
+  full: string
+}
+
 export interface IMovieInfo extends IMovieResult {
   genres?: string[];
   description?: string;
@@ -309,4 +343,19 @@ export enum Genres {
   SPORTS = 'Sports',
   SUPERNATURAL = 'Supernatural',
   THRILLER = 'Thriller',
+}
+
+export enum Topics {
+  ANIME = 'anime',
+  ANIMATION = 'animation', 
+  MANGA = 'manga',
+  GAMES = 'games',
+  NOVELS = 'novels',
+  LIVE_ACTION = 'live-action',
+  COVID_19 = 'covid-19',
+  INDUSTRY = 'industry',
+  MUSIC = 'music',
+  PEOPLE = 'people',
+  MERCH = 'merch',
+  EVENTS = 'events'
 }
