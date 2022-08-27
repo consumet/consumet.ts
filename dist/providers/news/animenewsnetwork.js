@@ -41,10 +41,10 @@ class AnimeNewsNetwork extends models_1.NewsParser {
         this.classPath = 'NEWS.ANN';
         this.logo = 'https://i.imgur.com/KkkVr1g.png';
         /**
-         * @param options Options for fetching the feeds
+         * @param topic Topic for fetching the feeds
          */
-        this.fetchNewsFeeds = (options = {}) => __awaiter(this, void 0, void 0, function* () {
-            return yield axios_1.default.get(`${this.baseUrl}/news${options.topic && Object.values(models_1.Topics).includes(options.topic) ? `/?topic=${options.topic}` : ''}`).then(({ data }) => {
+        this.fetchNewsFeeds = (topic) => __awaiter(this, void 0, void 0, function* () {
+            return yield axios_1.default.get(`${this.baseUrl}/news${topic && Object.values(models_1.Topics).includes(topic) ? `/?topic=${topic}` : ''}`).then(({ data }) => {
                 const $ = (0, cheerio_1.load)(data);
                 const feeds = [];
                 $('.herald.box.news').each((i, el) => {

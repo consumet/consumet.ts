@@ -16,11 +16,9 @@ export default class AnimeNewsNetwork extends NewsParser {
     protected classPath: string;
     protected logo: string;
     /**
-     * @param options Options for fetching the feeds
+     * @param topic Topic for fetching the feeds
      */
-    fetchNewsFeeds: (options?: {
-        topic?: Topics;
-    }) => Promise<NewsFeed[]>;
+    fetchNewsFeeds: (topic?: Topics) => Promise<NewsFeed[]>;
     /**
      * @param id ID of the news from Anime News Network
      * @example

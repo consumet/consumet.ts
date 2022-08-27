@@ -19,9 +19,9 @@ export default class AnimeNewsNetwork extends NewsParser {
     protected override logo = 'https://i.imgur.com/KkkVr1g.png'
 
     /**
-     * @param options Options for fetching the feeds
+     * @param topic Topic for fetching the feeds
      */
-    public fetchNewsFeeds = async (options: { topic?: Topics } = {}): Promise<NewsFeed[]> => await axios.get<string>(`${this.baseUrl}/news${options.topic && Object.values(Topics).includes(options.topic) ? `/?topic=${options.topic}` : ''}`).then(({ data }) => {
+    public fetchNewsFeeds = async (topic?: Topics): Promise<NewsFeed[]> => await axios.get<string>(`${this.baseUrl}/news${topic && Object.values(Topics).includes(topic) ? `/?topic=${topic}` : ''}`).then(({ data }) => {
         const $ = load(data)
         const feeds: NewsFeed[] = []
         $('.herald.box.news').each((i, el) => {
