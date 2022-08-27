@@ -66,7 +66,7 @@ class Gogoanime extends AnimeParser {
 
   /**
    *
-   * @param animeUrl anime id
+   * @param id anime id
    */
   override fetchAnimeInfo = async (id: string): Promise<IAnimeInfo> => {
     if (!id.includes('gogoanime')) id = `${this.baseUrl}/category/${id}`;

@@ -13,7 +13,7 @@ declare class Gogoanime extends AnimeParser {
     search: (query: string, page?: number) => Promise<ISearch<IAnimeResult>>;
     /**
      *
-     * @param animeUrl anime id
+     * @param id anime id
      */
     fetchAnimeInfo: (id: string) => Promise<IAnimeInfo>;
     /**

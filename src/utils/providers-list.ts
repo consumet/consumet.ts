@@ -1,4 +1,4 @@
-import { ANIME, MANGA, BOOKS, COMICS, LIGHT_NOVELS, MOVIES, META } from '../providers';
+import { ANIME, MANGA, BOOKS, COMICS, LIGHT_NOVELS, MOVIES, META, NEWS } from '../providers';
 
 /**
  * List of providers
@@ -20,6 +20,7 @@ export const PROVIDERS_LIST = {
   COMICS: [new COMICS.GetComics()],
   LIGHT_NOVELS: [new LIGHT_NOVELS.ReadLightNovels()],
   MOVIES: [new MOVIES.FlixHQ()],
+  NEWS: [new NEWS.ANN()],
   META: [new META.Anilist()],
   OTHERS: [],
 };

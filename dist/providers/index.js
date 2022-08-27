@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.META = exports.MOVIES = exports.LIGHT_NOVELS = exports.COMICS = exports.BOOKS = exports.MANGA = exports.ANIME = void 0;
+exports.NEWS = exports.META = exports.MOVIES = exports.LIGHT_NOVELS = exports.COMICS = exports.BOOKS = exports.MANGA = exports.ANIME = void 0;
 const anime_1 = __importDefault(require("./anime"));
 exports.ANIME = anime_1.default;
 const manga_1 = __importDefault(require("./manga"));
@@ -18,4 +18,6 @@ const movies_1 = __importDefault(require("./movies"));
 exports.MOVIES = movies_1.default;
 const meta_1 = __importDefault(require("./meta"));
 exports.META = meta_1.default;
+const news_1 = __importDefault(require("./news"));
+exports.NEWS = news_1.default;
 //# sourceMappingURL=index.js.map

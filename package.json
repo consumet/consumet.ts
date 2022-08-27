@@ -15,6 +15,7 @@
         "test:movies": "jest ./test/movies",
         "test:manga": "jest ./test/manga",
         "test:lightnovels": "jest ./test/light-novels",
+        "test:news": "jest ./test/news",
         "test:meta": "jest ./test/meta"
     },
     "files": [

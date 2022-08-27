@@ -5,4 +5,5 @@ import BOOKS from './books';
 import COMICS from './comics';
 import MOVIES from './movies';
 import META from './meta';
-export { ANIME, MANGA, BOOKS, COMICS, LIGHT_NOVELS, MOVIES, META };
+import NEWS from './news';
+export { ANIME, MANGA, BOOKS, COMICS, LIGHT_NOVELS, MOVIES, META, NEWS };
