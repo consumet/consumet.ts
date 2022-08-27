@@ -12,7 +12,28 @@ class NewsFeed implements INewsFeed {
     }
 }
 
-export default class AnimeNewsNetwork extends NewsParser {
+
+async function scrapNewsInfo(url: string): Promise<INewsInfo> {
+    const { data } =  await axios.get<string>(url)
+    const $ = load(data)
+    const title = $('#page_header').text().replace('News', '').trim()
+    const intro = $('.intro').first().text().trim()
+    const description = $('.meat > p').text().trim().split('\n\n').join('\n')
+    const time = $('#page-title > small > time').text().trim()
+    const thumbnailSlug = $('.meat > p').find('img').attr('data-src')
+    const thumbnail = thumbnailSlug ? `https://animenewsnetwork.com${thumbnailSlug}` : 'https://i.imgur.com/KkkVr1g.png'
+    return {
+        id: url.split('news/')[1],
+        title,
+        uploadedAt: time,
+        intro,
+        description,
+        thumbnail,
+        url
+    }
+}
+
+class AnimeNewsNetwork extends NewsParser {
     override readonly name = 'Anime News Network'
     protected override baseUrl = 'https://www.animenewsnetwork.com'
     protected override classPath = 'NEWS.ANN'
@@ -61,22 +82,4 @@ export default class AnimeNewsNetwork extends NewsParser {
     }
 }
 
-async function scrapNewsInfo(url: string): Promise<INewsInfo> {
-    const { data } =  await axios.get<string>(url)
-    const $ = load(data)
-    const title = $('#page_header').text().replace('News', '').trim()
-    const intro = $('.intro').first().text().trim()
-    const description = $('.meat > p').text().trim().split('\n\n').join('\n')
-    const time = $('#page-title > small > time').text().trim()
-    const thumbnailSlug = $('.meat > p').find('img').attr('data-src')
-    const thumbnail = thumbnailSlug ? `https://animenewsnetwork.com${thumbnailSlug}` : 'https://i.imgur.com/KkkVr1g.png'
-    return {
-        id: url.split('news/')[1],
-        title,
-        uploadedAt: time,
-        intro,
-        description,
-        thumbnail,
-        url
-    }
-}
+export default AnimeNewsNetwork

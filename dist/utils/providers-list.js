@@ -22,6 +22,7 @@ exports.PROVIDERS_LIST = {
     COMICS: [new providers_1.COMICS.GetComics()],
     LIGHT_NOVELS: [new providers_1.LIGHT_NOVELS.ReadLightNovels()],
     MOVIES: [new providers_1.MOVIES.FlixHQ()],
+    NEWS: [new providers_1.NEWS.ANN()],
     META: [new providers_1.META.Anilist()],
     OTHERS: [],
 };

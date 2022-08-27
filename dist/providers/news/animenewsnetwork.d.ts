@@ -10,7 +10,7 @@ declare class NewsFeed implements INewsFeed {
     constructor(title: string, id: string, uploadedAt: string, topics: Topics[], preview: INewsFeed['preview'], thumbnail: string, url: string);
     getInfo(): Promise<INewsInfo>;
 }
-export default class AnimeNewsNetwork extends NewsParser {
+declare class AnimeNewsNetwork extends NewsParser {
     readonly name = "Anime News Network";
     protected baseUrl: string;
     protected classPath: string;
@@ -26,4 +26,4 @@ export default class AnimeNewsNetwork extends NewsParser {
      */
     fetchNewsInfo: (id: string) => Promise<INewsInfo>;
 }
-export {};
+export default AnimeNewsNetwork;

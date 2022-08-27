@@ -6,16 +6,17 @@ const ann = new NEWS.ANN();
 
 <h2>Methods</h2>
 
-- [fetchNewsFeeds](#fetchNewsFeeds)
-- [fetchNewsInfo](#fetchNewsInfo)
+- [fetchNewsFeeds](#fetchnewsfeeds)
+  - [Getting the news info for one of the feeds](#getting-the-news-info-for-one-of-the-feeds)
+- [fetchNewsInfo](#fetchnewsinfo)
 
 ### fetchNewsFeeds
 
 <h4>Parameters</h4>
 
-| Parameter | Type     | Description                                                                  |
-| --------- | -------- | ---------------------------------------------------------------------------- |
-| topic (optional)    | [`Topics`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L348-361) | topic for getting the feed. |
+| Parameter        | Type                                                                                        | Description                 |
+| ---------------- | ------------------------------------------------------------------------------------------- | --------------------------- |
+| topic (optional) | [`Topics`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L348-361) | topic for getting the feed. |
 
 ```ts
 ann.fetchNewsFeeds().then(console.log)
@@ -69,9 +70,9 @@ ann.fetchNewsFeeds().then((res) => {
 
 <h4>Parameters</h4>
 
-| Parameter | Type     | Description                                                    |
-| --------- | -------- | -------------------------------------------------------------- |
-| id   | `string` | id of the news.(*news id can be found in the url of the news, it is next to the "/news/"*) |
+| Parameter | Type     | Description                                                                                |
+| --------- | -------- | ------------------------------------------------------------------------------------------ |
+| id        | `string` | id of the news.(*news id can be found in the url of the news, it is next to the "/news/"*) |
 
 ```ts
 ann.fetchNewsInfo("2022-08-26/higurashi-no-naku-koro-ni-rei-oni-okoshi-hen-manga-ends/.188996" /* --> https://www.animenewsnetwork.com/news/2022-08-26/higurashi-no-naku-koro-ni-rei-oni-okoshi-hen-manga-ends/.188996*/ ).then(console.log)

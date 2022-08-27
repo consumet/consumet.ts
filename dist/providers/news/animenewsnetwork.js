@@ -33,6 +33,27 @@ class NewsFeed {
         });
     }
 }
+function scrapNewsInfo(url) {
+    return __awaiter(this, void 0, void 0, function* () {
+        const { data } = yield axios_1.default.get(url);
+        const $ = (0, cheerio_1.load)(data);
+        const title = $('#page_header').text().replace('News', '').trim();
+        const intro = $('.intro').first().text().trim();
+        const description = $('.meat > p').text().trim().split('\n\n').join('\n');
+        const time = $('#page-title > small > time').text().trim();
+        const thumbnailSlug = $('.meat > p').find('img').attr('data-src');
+        const thumbnail = thumbnailSlug ? `https://animenewsnetwork.com${thumbnailSlug}` : 'https://i.imgur.com/KkkVr1g.png';
+        return {
+            id: url.split('news/')[1],
+            title,
+            uploadedAt: time,
+            intro,
+            description,
+            thumbnail,
+            url
+        };
+    });
+}
 class AnimeNewsNetwork extends models_1.NewsParser {
     constructor() {
         super(...arguments);
@@ -86,25 +107,4 @@ class AnimeNewsNetwork extends models_1.NewsParser {
     }
 }
 exports.default = AnimeNewsNetwork;
-function scrapNewsInfo(url) {
-    return __awaiter(this, void 0, void 0, function* () {
-        const { data } = yield axios_1.default.get(url);
-        const $ = (0, cheerio_1.load)(data);
-        const title = $('#page_header').text().replace('News', '').trim();
-        const intro = $('.intro').first().text().trim();
-        const description = $('.meat > p').text().trim().split('\n\n').join('\n');
-        const time = $('#page-title > small > time').text().trim();
-        const thumbnailSlug = $('.meat > p').find('img').attr('data-src');
-        const thumbnail = thumbnailSlug ? `https://animenewsnetwork.com${thumbnailSlug}` : 'https://i.imgur.com/KkkVr1g.png';
-        return {
-            id: url.split('news/')[1],
-            title,
-            uploadedAt: time,
-            intro,
-            description,
-            thumbnail,
-            url
-        };
-    });
-}
 //# sourceMappingURL=animenewsnetwork.js.map
