@@ -26,6 +26,7 @@ import {
   anilistGenresQuery,
   anilistAdvancedQuery,
   anilistSiteStatisticsQuery,
+  anilistCharacterQuery,
 } from './utils';
 import { parsePostInfo } from './getComics';
 import { countDivs } from './zLibrary';
@@ -58,4 +59,5 @@ export {
   anilistAdvancedQuery,
   anilistSiteStatisticsQuery,
   Filemoon,
+  anilistCharacterQuery,
 };

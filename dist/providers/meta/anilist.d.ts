@@ -106,6 +106,48 @@ declare class Anilist extends AnimeParser {
      */
     fetchAnilistInfoById: (id: string) => Promise<IAnimeInfo>;
     /**
+     *
+     * @param id character id from anilist
+     */
+    fetchCharacterInfoById: (id: string) => Promise<{
+        id: any;
+        name: {
+            first: any;
+            last: any;
+            full: any;
+            native: any;
+            userPreferred: any;
+            alternative: any;
+            alternativeSpoiler: any;
+        };
+        image: any;
+        description: any;
+        gender: any;
+        dateOfBirth: {
+            year: any;
+            month: any;
+            day: any;
+        };
+        bloodType: any;
+        age: any;
+        hairColor: any;
+        eyeColor: any;
+        height: any;
+        weight: any;
+        occupation: any;
+        partner: any;
+        relatives: any;
+        race: any;
+        rank: any;
+        previousPosition: any;
+        dislikes: any;
+        sign: any;
+        zodicSign: any;
+        zodicAnimal: any;
+        themeSong: any;
+        relations: any;
+    }>;
+    /**
      * Anilist Anime class
      */
     static Anime: typeof Anilist;

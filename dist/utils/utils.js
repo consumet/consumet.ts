@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.kitsuSearchQuery = exports.anilistSiteStatisticsQuery = exports.anilistAiringScheduleQuery = exports.anilistGenresQuery = exports.anilistPopularAnimeQuery = exports.anilistTrendingAnimeQuery = exports.anilistMediaDetailQuery = exports.anilistSearchQuery = exports.anilistAdvancedQuery = exports.capitalizeFirstLetter = exports.range = exports.genElement = exports.formatTitle = exports.floorID = exports.splitAuthor = exports.USER_AGENT = void 0;
+exports.kitsuSearchQuery = exports.anilistCharacterQuery = exports.anilistSiteStatisticsQuery = exports.anilistAiringScheduleQuery = exports.anilistGenresQuery = exports.anilistPopularAnimeQuery = exports.anilistTrendingAnimeQuery = exports.anilistMediaDetailQuery = exports.anilistSearchQuery = exports.anilistAdvancedQuery = exports.capitalizeFirstLetter = exports.range = exports.genElement = exports.formatTitle = exports.floorID = exports.splitAuthor = exports.USER_AGENT = void 0;
 const cheerio_1 = require("cheerio");
 exports.USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36';
 const splitAuthor = (authors) => {
@@ -83,6 +83,8 @@ const anilistAiringScheduleQuery = (page = 1, perPage = 20, weekStart, weekEnd, 
 exports.anilistAiringScheduleQuery = anilistAiringScheduleQuery;
 const anilistSiteStatisticsQuery = () => `query { SiteStatistics { anime { nodes { count } } } }`;
 exports.anilistSiteStatisticsQuery = anilistSiteStatisticsQuery;
+const anilistCharacterQuery = () => `query character($id: Int) { Character(id: $id) { id name { first middle last full native userPreferred alternative alternativeSpoiler } image { large medium } description gender dateOfBirth { year month day } bloodType age favourites media { edges { characterRole node { id idMal title { romaji english native userPreferred } coverImage { extraLarge large medium color } averageScore startDate { year month day } episodes format status } } } } }`;
+exports.anilistCharacterQuery = anilistCharacterQuery;
 const kitsuSearchQuery = (query) => `query{searchAnimeByTitle(first:5, title:"${query}"){ nodes {id season startDate titles { localized } episodes(first: 2000){ nodes { number titles { canonical } description thumbnail { original { url } } } } } } }`;
 exports.kitsuSearchQuery = kitsuSearchQuery;
 //# sourceMappingURL=utils.js.map

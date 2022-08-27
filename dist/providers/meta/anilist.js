@@ -55,7 +55,7 @@ class Anilist extends models_1.AnimeParser {
                     currentPage: data.data.Page.pageInfo.currentPage,
                     hasNextPage: data.data.Page.pageInfo.hasNextPage,
                     results: data.data.Page.media.map((item) => {
-                        var _b, _c;
+                        var _b, _c, _d, _e, _f, _g;
                         return ({
                             id: item.id.toString(),
                             malId: item.idMal,
@@ -76,8 +76,9 @@ class Anilist extends models_1.AnimeParser {
                                             : item.status == 'HIATUS'
                                                 ? models_1.MediaStatus.HIATUS
                                                 : models_1.MediaStatus.UNKNOWN,
-                            image: (_c = (_b = item.coverImage.extraLarge) !== null && _b !== void 0 ? _b : item.coverImage.large) !== null && _c !== void 0 ? _c : item.coverImage.medium,
+                            image: (_e = (_c = (_b = item.coverImage) === null || _b === void 0 ? void 0 : _b.extraLarge) !== null && _c !== void 0 ? _c : (_d = item.coverImage) === null || _d === void 0 ? void 0 : _d.large) !== null && _e !== void 0 ? _e : (_f = item.coverImage) === null || _f === void 0 ? void 0 : _f.medium,
                             rating: item.averageScore,
+                            color: (_g = item.coverImage) === null || _g === void 0 ? void 0 : _g.color,
                             format: item.format,
                             releaseDate: item.seasonYear,
                         });
@@ -137,7 +138,7 @@ class Anilist extends models_1.AnimeParser {
                     totalPages: data.data.Page.pageInfo.lastPage,
                     totalResults: data.data.Page.pageInfo.total,
                     results: data.data.Page.media.map((item) => {
-                        var _b, _c;
+                        var _b, _c, _d;
                         return ({
                             id: item.id.toString(),
                             malId: item.idMal,
@@ -160,6 +161,7 @@ class Anilist extends models_1.AnimeParser {
                                                 : models_1.MediaStatus.UNKNOWN,
                             image: (_c = (_b = item.coverImage.extraLarge) !== null && _b !== void 0 ? _b : item.coverImage.large) !== null && _c !== void 0 ? _c : item.coverImage.medium,
                             rating: item.averageScore,
+                            color: (_d = item.coverImage) === null || _d === void 0 ? void 0 : _d.color,
                             format: item.format,
                             releaseDate: item.seasonYear,
                         });
@@ -299,7 +301,7 @@ class Anilist extends models_1.AnimeParser {
                     });
                 });
                 animeInfo.relations = data.data.Media.relations.edges.map((item) => {
-                    var _b, _c, _d, _e, _f;
+                    var _b, _c, _d, _e, _f, _g;
                     return ({
                         id: item.node.id,
                         relationType: item.relationType,
@@ -323,14 +325,15 @@ class Anilist extends models_1.AnimeParser {
                                             : models_1.MediaStatus.UNKNOWN,
                         episodes: item.node.episodes,
                         image: (_c = (_b = item.node.coverImage.extraLarge) !== null && _b !== void 0 ? _b : item.node.coverImage.large) !== null && _c !== void 0 ? _c : item.node.coverImage.medium,
-                        cover: (_f = (_e = (_d = item.node.bannerImage) !== null && _d !== void 0 ? _d : item.node.coverImage.extraLarge) !== null && _e !== void 0 ? _e : item.node.coverImage.large) !== null && _f !== void 0 ? _f : item.node.coverImage.medium,
+                        color: (_d = item.node.coverImage) === null || _d === void 0 ? void 0 : _d.color,
+                        cover: (_g = (_f = (_e = item.node.bannerImage) !== null && _e !== void 0 ? _e : item.node.coverImage.extraLarge) !== null && _f !== void 0 ? _f : item.node.coverImage.large) !== null && _g !== void 0 ? _g : item.node.coverImage.medium,
                         score: item.node.meanScore,
                     });
                 });
                 if (this.provider instanceof zoro_1.default &&
                     !dub &&
                     (animeInfo.status === models_1.MediaStatus.ONGOING ||
-                        (0, utils_1.range)({ from: 2021, to: new Date().getFullYear() + 1 }).includes(parseInt(animeInfo.releaseDate)))) {
+                        (0, utils_1.range)({ from: 2020, to: new Date().getFullYear() + 1 }).includes(parseInt(animeInfo.releaseDate)))) {
                     try {
                         animeInfo.episodes = (_t = (yield new enime_1.default().fetchAnimeInfoByAnilistId(id)).episodes) === null || _t === void 0 ? void 0 : _t.map((item) => ({
                             id: item.slug,
@@ -552,6 +555,7 @@ class Anilist extends models_1.AnimeParser {
                             cover: (_j = (_h = (_g = item.bannerImage) !== null && _g !== void 0 ? _g : item.coverImage.extraLarge) !== null && _h !== void 0 ? _h : item.coverImage.large) !== null && _j !== void 0 ? _j : item.coverImage.medium,
                             rating: item.averageScore,
                             releaseDate: item.seasonYear,
+                            color: item.color,
                             genres: item.genres,
                             totalEpisodes: isNaN(item.episodes) ? 0 : (_m = (_k = item.episodes) !== null && _k !== void 0 ? _k : ((_l = item.nextAiringEpisode) === null || _l === void 0 ? void 0 : _l.episode) - 1) !== null && _m !== void 0 ? _m : 0,
                             duration: item.duration,
@@ -615,6 +619,7 @@ class Anilist extends models_1.AnimeParser {
                             cover: (_j = (_h = (_g = item.bannerImage) !== null && _g !== void 0 ? _g : item.coverImage.extraLarge) !== null && _h !== void 0 ? _h : item.coverImage.large) !== null && _j !== void 0 ? _j : item.coverImage.medium,
                             rating: item.averageScore,
                             releaseDate: item.seasonYear,
+                            color: item.color,
                             genres: item.genres,
                             totalEpisodes: isNaN(item.episodes) ? 0 : (_m = (_k = item.episodes) !== null && _k !== void 0 ? _k : ((_l = item.nextAiringEpisode) === null || _l === void 0 ? void 0 : _l.episode) - 1) !== null && _m !== void 0 ? _m : 0,
                             duration: item.duration,
@@ -652,7 +657,7 @@ class Anilist extends models_1.AnimeParser {
                     currentPage: data.data.Page.pageInfo.currentPage,
                     hasNextPage: data.data.Page.pageInfo.hasNextPage,
                     results: data.data.Page.airingSchedules.map((item) => {
-                        var _b, _c, _d, _e, _f;
+                        var _b, _c, _d, _e, _f, _g;
                         return ({
                             id: item.media.id.toString(),
                             malId: item.media.idMal,
@@ -669,6 +674,7 @@ class Anilist extends models_1.AnimeParser {
                             description: item.media.description,
                             cover: (_f = (_e = (_d = item.media.bannerImage) !== null && _d !== void 0 ? _d : item.media.coverImage.extraLarge) !== null && _e !== void 0 ? _e : item.media.coverImage.large) !== null && _f !== void 0 ? _f : item.media.coverImage.medium,
                             genres: item.genres,
+                            color: (_g = item.media.coverImage) === null || _g === void 0 ? void 0 : _g.color,
                             rating: item.media.averageScore,
                             releaseDate: item.media.seasonYear,
                             type: item.media.format,
@@ -706,7 +712,7 @@ class Anilist extends models_1.AnimeParser {
                     currentPage: data.data.Page.pageInfo.currentPage,
                     hasNextPage: data.data.Page.pageInfo.hasNextPage,
                     results: data.data.Page.media.map((item) => {
-                        var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m;
+                        var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o;
                         return ({
                             id: item.id.toString(),
                             malId: item.idMal,
@@ -726,8 +732,9 @@ class Anilist extends models_1.AnimeParser {
                             cover: (_j = (_h = (_g = item.bannerImage) !== null && _g !== void 0 ? _g : item.coverImage.extraLarge) !== null && _h !== void 0 ? _h : item.coverImage.large) !== null && _j !== void 0 ? _j : item.coverImage.medium,
                             rating: item.averageScore,
                             releaseDate: item.seasonYear,
+                            color: (_k = item.coverImage) === null || _k === void 0 ? void 0 : _k.color,
                             genres: item.genres,
-                            totalEpisodes: isNaN(item.episodes) ? 0 : (_m = (_k = item.episodes) !== null && _k !== void 0 ? _k : ((_l = item.nextAiringEpisode) === null || _l === void 0 ? void 0 : _l.episode) - 1) !== null && _m !== void 0 ? _m : 0,
+                            totalEpisodes: isNaN(item.episodes) ? 0 : (_o = (_l = item.episodes) !== null && _l !== void 0 ? _l : ((_m = item.nextAiringEpisode) === null || _m === void 0 ? void 0 : _m.episode) - 1) !== null && _o !== void 0 ? _o : 0,
                             duration: item.duration,
                             type: item.format,
                         });
@@ -787,6 +794,7 @@ class Anilist extends models_1.AnimeParser {
                         },
                         image: (_g = item.anime.coverImage) !== null && _g !== void 0 ? _g : item.anime.bannerImage,
                         rating: item.anime.averageScore,
+                        color: item.anime.color,
                         episodeId: `${provider === 'gogoanime'
                             ? (_h = item.sources.find((source) => source.website.toLowerCase() === 'gogoanime')) === null || _h === void 0 ? void 0 : _h.id
                             : (_j = item.sources.find((source) => source.website.toLowerCase() === 'zoro')) === null || _j === void 0 ? void 0 : _j.id}-enime`,
@@ -833,7 +841,7 @@ class Anilist extends models_1.AnimeParser {
             if (this.provider instanceof zoro_1.default &&
                 !dub &&
                 (Media.status === 'RELEASING' ||
-                    (0, utils_1.range)({ from: 2021, to: new Date().getFullYear() + 1 }).includes(parseInt((_5 = Media.startDate) === null || _5 === void 0 ? void 0 : _5.year)))) {
+                    (0, utils_1.range)({ from: 2020, to: new Date().getFullYear() + 1 }).includes(parseInt((_5 = Media.startDate) === null || _5 === void 0 ? void 0 : _5.year)))) {
                 try {
                     possibleAnimeEpisodes = (_6 = (yield new enime_1.default().fetchAnimeInfoByAnilistId(id)).episodes) === null || _6 === void 0 ? void 0 : _6.map((item) => ({
                         id: item.slug,
@@ -870,7 +878,7 @@ class Anilist extends models_1.AnimeParser {
          * @returns anilist data for the anime
          */
         this.fetchAnilistInfoById = (id) => __awaiter(this, void 0, void 0, function* () {
-            var _7, _8, _9, _10, _11, _12, _13, _14, _15, _16, _17, _18, _19, _20, _21, _22, _23, _24, _25, _26;
+            var _7, _8, _9, _10, _11, _12, _13, _14, _15, _16, _17, _18, _19, _20, _21, _22, _23, _24, _25, _26, _27;
             const animeInfo = {
                 id: id,
                 title: '',
@@ -988,6 +996,7 @@ class Anilist extends models_1.AnimeParser {
                         image: (_b = item.node.image.large) !== null && _b !== void 0 ? _b : item.node.image.medium,
                     });
                 });
+                animeInfo.color = (_27 = data.data.Media.coverImage) === null || _27 === void 0 ? void 0 : _27.color;
                 animeInfo.relations = data.data.Media.relations.edges.map((item) => {
                     var _b, _c, _d, _e, _f;
                     return ({
@@ -1018,6 +1027,130 @@ class Anilist extends models_1.AnimeParser {
                     });
                 });
                 return animeInfo;
+            }
+            catch (err) {
+                throw new Error(err.message);
+            }
+        });
+        /**
+         *
+         * @param id character id from anilist
+         */
+        this.fetchCharacterInfoById = (id) => __awaiter(this, void 0, void 0, function* () {
+            var _28, _29, _30, _31, _32, _33, _34, _35, _36, _37, _38, _39, _40, _41, _42, _43, _44, _45, _46, _47, _48, _49, _50, _51, _52, _53, _54, _55, _56, _57, _58, _59, _60;
+            const options = {
+                headers: {
+                    'Content-Type': 'application/json',
+                    Accept: 'application/json',
+                },
+                query: (0, utils_1.anilistCharacterQuery)(),
+                variables: {
+                    id: id,
+                },
+            };
+            try {
+                const { data: { data: { Character }, }, } = yield axios_1.default.post(this.anilistGraphqlUrl, options);
+                const height = (_28 = Character.description.match(/__Height:__(.*)/)) === null || _28 === void 0 ? void 0 : _28[1].trim();
+                const weight = (_29 = Character.description.match(/__Weight:__(.*)/)) === null || _29 === void 0 ? void 0 : _29[1].trim();
+                const hairColor = (_30 = Character.description.match(/__Hair Color:__(.*)/)) === null || _30 === void 0 ? void 0 : _30[1].trim();
+                const eyeColor = (_31 = Character.description.match(/__Eye Color:__(.*)/)) === null || _31 === void 0 ? void 0 : _31[1].trim();
+                const relatives = (_32 = Character.description
+                    .match(/__Relatives:__(.*)/)) === null || _32 === void 0 ? void 0 : _32[1].trim().split(/(, \[)/g).filter((g) => !g.includes(', [')).map((r) => {
+                    var _b, _c, _d;
+                    return ({
+                        id: (_b = r.match(/\/(\d+)/)) === null || _b === void 0 ? void 0 : _b[1],
+                        name: (_c = r.match(/([^)]+)\]/)) === null || _c === void 0 ? void 0 : _c[1].replace(/\[/g, ''),
+                        relationship: (_d = r.match(/\(([^)]+)\).*?(\(([^)]+)\))/)) === null || _d === void 0 ? void 0 : _d[3],
+                    });
+                });
+                const race = (_33 = Character.description
+                    .match(/__Race:__(.*)/)) === null || _33 === void 0 ? void 0 : _33[1].split(', ').map((r) => r.trim());
+                const rank = (_34 = Character.description.match(/__Rank:__(.*)/)) === null || _34 === void 0 ? void 0 : _34[1];
+                const occupation = (_35 = Character.description.match(/__Occupation:__(.*)/)) === null || _35 === void 0 ? void 0 : _35[1];
+                const previousPosition = (_37 = (_36 = Character.description.match(/__Previous Position:__(.*)/)) === null || _36 === void 0 ? void 0 : _36[1]) === null || _37 === void 0 ? void 0 : _37.trim();
+                const partner = (_38 = Character.description
+                    .match(/__Partner:__(.*)/)) === null || _38 === void 0 ? void 0 : _38[1].split(/(, \[)/g).filter((g) => !g.includes(', [')).map((r) => {
+                    var _b, _c;
+                    return ({
+                        id: (_b = r.match(/\/(\d+)/)) === null || _b === void 0 ? void 0 : _b[1],
+                        name: (_c = r.match(/([^)]+)\]/)) === null || _c === void 0 ? void 0 : _c[1].replace(/\[/g, ''),
+                    });
+                });
+                const dislikes = (_39 = Character.description.match(/__Dislikes:__(.*)/)) === null || _39 === void 0 ? void 0 : _39[1];
+                const sign = (_40 = Character.description.match(/__Sign:__(.*)/)) === null || _40 === void 0 ? void 0 : _40[1];
+                const zodicSign = (_42 = (_41 = Character.description.match(/__Zodiac sign:__(.*)/)) === null || _41 === void 0 ? void 0 : _41[1]) === null || _42 === void 0 ? void 0 : _42.trim();
+                const zodicAnimal = (_44 = (_43 = Character.description.match(/__Zodiac Animal:__(.*)/)) === null || _43 === void 0 ? void 0 : _43[1]) === null || _44 === void 0 ? void 0 : _44.trim();
+                const themeSong = (_46 = (_45 = Character.description.match(/__Theme Song:__(.*)/)) === null || _45 === void 0 ? void 0 : _45[1]) === null || _46 === void 0 ? void 0 : _46.trim();
+                Character.description = Character.description.replace(/__Theme Song:__(.*)\n|__Race:__(.*)\n|__Height:__(.*)\n|__Relatives:__(.*)\n|__Rank:__(.*)\n|__Zodiac sign:__(.*)\n|__Zodiac Animal:__(.*)\n|__Weight:__(.*)\n|__Eye Color:__(.*)\n|__Hair Color:__(.*)\n|__Dislikes:__(.*)\n|__Sign:__(.*)\n|__Partner:__(.*)\n|__Previous Position:__(.*)\n|__Occupation:__(.*)\n/gm, '');
+                const characterInfo = {
+                    id: Character.id,
+                    name: {
+                        first: (_47 = Character.name) === null || _47 === void 0 ? void 0 : _47.first,
+                        last: (_48 = Character.name) === null || _48 === void 0 ? void 0 : _48.last,
+                        full: (_49 = Character.name) === null || _49 === void 0 ? void 0 : _49.full,
+                        native: (_50 = Character.name) === null || _50 === void 0 ? void 0 : _50.native,
+                        userPreferred: (_51 = Character.name) === null || _51 === void 0 ? void 0 : _51.userPreferred,
+                        alternative: (_52 = Character.name) === null || _52 === void 0 ? void 0 : _52.alternative,
+                        alternativeSpoiler: (_53 = Character.name) === null || _53 === void 0 ? void 0 : _53.alternativeSpoiler,
+                    },
+                    image: (_55 = (_54 = Character.image) === null || _54 === void 0 ? void 0 : _54.large) !== null && _55 !== void 0 ? _55 : (_56 = Character.image) === null || _56 === void 0 ? void 0 : _56.medium,
+                    description: Character.description,
+                    gender: Character.gender,
+                    dateOfBirth: {
+                        year: (_57 = Character.dateOfBirth) === null || _57 === void 0 ? void 0 : _57.year,
+                        month: (_58 = Character.dateOfBirth) === null || _58 === void 0 ? void 0 : _58.month,
+                        day: (_59 = Character.dateOfBirth) === null || _59 === void 0 ? void 0 : _59.day,
+                    },
+                    bloodType: Character.bloodType,
+                    age: Character.age,
+                    hairColor: hairColor,
+                    eyeColor: eyeColor,
+                    height: height,
+                    weight: weight,
+                    occupation: occupation,
+                    partner: partner,
+                    relatives: relatives,
+                    race: race,
+                    rank: rank,
+                    previousPosition: previousPosition,
+                    dislikes: dislikes,
+                    sign: sign,
+                    zodicSign: zodicSign,
+                    zodicAnimal: zodicAnimal,
+                    themeSong: themeSong,
+                    relations: (_60 = Character.media.edges) === null || _60 === void 0 ? void 0 : _60.map((v) => {
+                        var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m;
+                        return ({
+                            id: v.node.id,
+                            malId: v.node.idMal,
+                            role: v.characterRole,
+                            title: {
+                                romaji: (_b = v.node.title) === null || _b === void 0 ? void 0 : _b.romaji,
+                                english: (_c = v.node.title) === null || _c === void 0 ? void 0 : _c.english,
+                                native: (_d = v.node.title) === null || _d === void 0 ? void 0 : _d.native,
+                                userPreferred: (_e = v.node.title) === null || _e === void 0 ? void 0 : _e.userPreferred,
+                            },
+                            status: v.node.status == 'RELEASING'
+                                ? models_1.MediaStatus.ONGOING
+                                : v.node.status == 'FINISHED'
+                                    ? models_1.MediaStatus.COMPLETED
+                                    : v.node.status == 'NOT_YET_RELEASED'
+                                        ? models_1.MediaStatus.NOT_YET_AIRED
+                                        : v.node.status == 'CANCELLED'
+                                            ? models_1.MediaStatus.CANCELLED
+                                            : v.node.status == 'HIATUS'
+                                                ? models_1.MediaStatus.HIATUS
+                                                : models_1.MediaStatus.UNKNOWN,
+                            episodes: v.node.episodes,
+                            image: (_j = (_g = (_f = v.node.coverImage) === null || _f === void 0 ? void 0 : _f.extraLarge) !== null && _g !== void 0 ? _g : (_h = v.node.coverImage) === null || _h === void 0 ? void 0 : _h.large) !== null && _j !== void 0 ? _j : (_k = v.node.coverImage) === null || _k === void 0 ? void 0 : _k.medium,
+                            rating: v.node.averageScore,
+                            releaseDate: (_l = v.node.startDate) === null || _l === void 0 ? void 0 : _l.year,
+                            format: v.node.format,
+                            color: (_m = v.node.coverImage) === null || _m === void 0 ? void 0 : _m.color,
+                        });
+                    }),
+                };
+                return characterInfo;
             }
             catch (err) {
                 throw new Error(err.message);

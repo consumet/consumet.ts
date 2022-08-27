@@ -25,6 +25,7 @@ import {
   anilistGenresQuery,
   anilistAdvancedQuery,
   anilistSiteStatisticsQuery,
+  anilistCharacterQuery,
   range,
 } from '../../utils';
 import Gogoanime from '../../providers/anime/gogoanime';
@@ -101,8 +102,9 @@ class Anilist extends AnimeParser {
               : item.status == 'HIATUS'
               ? MediaStatus.HIATUS
               : MediaStatus.UNKNOWN,
-          image: item.coverImage.extraLarge ?? item.coverImage.large ?? item.coverImage.medium,
+          image: item.coverImage?.extraLarge ?? item.coverImage?.large ?? item.coverImage?.medium,
           rating: item.averageScore,
+          color: item.coverImage?.color,
           format: item.format,
           releaseDate: item.seasonYear,
         })),
@@ -199,6 +201,7 @@ class Anilist extends AnimeParser {
               : MediaStatus.UNKNOWN,
           image: item.coverImage.extraLarge ?? item.coverImage.large ?? item.coverImage.medium,
           rating: item.averageScore,
+          color: item.coverImage?.color,
           format: item.format,
           releaseDate: item.seasonYear,
         })),
@@ -372,6 +375,7 @@ class Anilist extends AnimeParser {
             : MediaStatus.UNKNOWN,
         episodes: item.node.episodes,
         image: item.node.coverImage.extraLarge ?? item.node.coverImage.large ?? item.node.coverImage.medium,
+        color: item.node.coverImage?.color,
         cover:
           item.node.bannerImage ??
           item.node.coverImage.extraLarge ??
@@ -384,7 +388,7 @@ class Anilist extends AnimeParser {
         this.provider instanceof Zoro &&
         !dub &&
         (animeInfo.status === MediaStatus.ONGOING ||
-          range({ from: 2021, to: new Date().getFullYear() + 1 }).includes(parseInt(animeInfo.releaseDate!)))
+          range({ from: 2020, to: new Date().getFullYear() + 1 }).includes(parseInt(animeInfo.releaseDate!)))
       ) {
         try {
           animeInfo.episodes = (await new Enime().fetchAnimeInfoByAnilistId(id)).episodes?.map(
@@ -670,6 +674,7 @@ class Anilist extends AnimeParser {
             item.bannerImage ?? item.coverImage.extraLarge ?? item.coverImage.large ?? item.coverImage.medium,
           rating: item.averageScore,
           releaseDate: item.seasonYear,
+          color: item.color,
           genres: item.genres,
           totalEpisodes: isNaN(item.episodes) ? 0 : item.episodes ?? item.nextAiringEpisode?.episode - 1 ?? 0,
           duration: item.duration,
@@ -735,6 +740,7 @@ class Anilist extends AnimeParser {
             item.bannerImage ?? item.coverImage.extraLarge ?? item.coverImage.large ?? item.coverImage.medium,
           rating: item.averageScore,
           releaseDate: item.seasonYear,
+          color: item.color,
           genres: item.genres,
           totalEpisodes: isNaN(item.episodes) ? 0 : item.episodes ?? item.nextAiringEpisode?.episode - 1 ?? 0,
           duration: item.duration,
@@ -804,6 +810,7 @@ class Anilist extends AnimeParser {
             item.media.coverImage.large ??
             item.media.coverImage.medium,
           genres: item.genres,
+          color: item.media.coverImage?.color,
           rating: item.media.averageScore,
           releaseDate: item.media.seasonYear,
           type: item.media.format,
@@ -861,6 +868,7 @@ class Anilist extends AnimeParser {
             item.bannerImage ?? item.coverImage.extraLarge ?? item.coverImage.large ?? item.coverImage.medium,
           rating: item.averageScore,
           releaseDate: item.seasonYear,
+          color: item.coverImage?.color,
           genres: item.genres,
           totalEpisodes: isNaN(item.episodes) ? 0 : item.episodes ?? item.nextAiringEpisode?.episode - 1 ?? 0,
           duration: item.duration,
@@ -933,6 +941,7 @@ class Anilist extends AnimeParser {
         },
         image: item.anime.coverImage ?? item.anime.bannerImage,
         rating: item.anime.averageScore,
+        color: item.anime.color,
         episodeId: `${
           provider === 'gogoanime'
             ? item.sources.find((source: any) => source.website.toLowerCase() === 'gogoanime')?.id
@@ -1008,7 +1017,7 @@ class Anilist extends AnimeParser {
       this.provider instanceof Zoro &&
       !dub &&
       (Media.status === 'RELEASING' ||
-        range({ from: 2021, to: new Date().getFullYear() + 1 }).includes(parseInt(Media.startDate?.year!)))
+        range({ from: 2020, to: new Date().getFullYear() + 1 }).includes(parseInt(Media.startDate?.year!)))
     ) {
       try {
         possibleAnimeEpisodes = (await new Enime().fetchAnimeInfoByAnilistId(id)).episodes?.map(
@@ -1174,7 +1183,7 @@ class Anilist extends AnimeParser {
         },
         image: item.node.image.large ?? item.node.image.medium,
       }));
-
+      animeInfo.color = data.data.Media.coverImage?.color;
       animeInfo.relations = data.data.Media.relations.edges.map((item: any) => ({
         id: item.node.id,
         malId: item.node.idMal,
@@ -1208,6 +1217,141 @@ class Anilist extends AnimeParser {
       }));
 
       return animeInfo;
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
+  };
+
+  /**
+   *
+   * @param id character id from anilist
+   */
+  fetchCharacterInfoById = async (id: string) => {
+    const options = {
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+      query: anilistCharacterQuery(),
+      variables: {
+        id: id,
+      },
+    };
+
+    try {
+      const {
+        data: {
+          data: { Character },
+        },
+      } = await axios.post(this.anilistGraphqlUrl, options);
+
+      const height = Character.description.match(/__Height:__(.*)/)?.[1].trim();
+      const weight = Character.description.match(/__Weight:__(.*)/)?.[1].trim();
+      const hairColor = Character.description.match(/__Hair Color:__(.*)/)?.[1].trim();
+      const eyeColor = Character.description.match(/__Eye Color:__(.*)/)?.[1].trim();
+      const relatives = Character.description
+        .match(/__Relatives:__(.*)/)?.[1]
+        .trim()
+        .split(/(, \[)/g)
+        .filter((g: string) => !g.includes(', ['))
+        .map((r: string) => ({
+          id: r.match(/\/(\d+)/)?.[1],
+          name: r.match(/([^)]+)\]/)?.[1].replace(/\[/g, ''),
+          relationship: r.match(/\(([^)]+)\).*?(\(([^)]+)\))/)?.[3],
+        }));
+      const race = Character.description
+        .match(/__Race:__(.*)/)?.[1]
+        .split(', ')
+        .map((r: string) => r.trim());
+      const rank = Character.description.match(/__Rank:__(.*)/)?.[1];
+      const occupation = Character.description.match(/__Occupation:__(.*)/)?.[1];
+      const previousPosition = Character.description.match(/__Previous Position:__(.*)/)?.[1]?.trim();
+      const partner = Character.description
+        .match(/__Partner:__(.*)/)?.[1]
+        .split(/(, \[)/g)
+        .filter((g: string) => !g.includes(', ['))
+        .map((r: string) => ({
+          id: r.match(/\/(\d+)/)?.[1],
+          name: r.match(/([^)]+)\]/)?.[1].replace(/\[/g, ''),
+        }));
+      const dislikes = Character.description.match(/__Dislikes:__(.*)/)?.[1];
+      const sign = Character.description.match(/__Sign:__(.*)/)?.[1];
+      const zodicSign = Character.description.match(/__Zodiac sign:__(.*)/)?.[1]?.trim();
+      const zodicAnimal = Character.description.match(/__Zodiac Animal:__(.*)/)?.[1]?.trim();
+      const themeSong = Character.description.match(/__Theme Song:__(.*)/)?.[1]?.trim();
+      Character.description = Character.description.replace(
+        /__Theme Song:__(.*)\n|__Race:__(.*)\n|__Height:__(.*)\n|__Relatives:__(.*)\n|__Rank:__(.*)\n|__Zodiac sign:__(.*)\n|__Zodiac Animal:__(.*)\n|__Weight:__(.*)\n|__Eye Color:__(.*)\n|__Hair Color:__(.*)\n|__Dislikes:__(.*)\n|__Sign:__(.*)\n|__Partner:__(.*)\n|__Previous Position:__(.*)\n|__Occupation:__(.*)\n/gm,
+        ''
+      );
+
+      const characterInfo = {
+        id: Character.id,
+        name: {
+          first: Character.name?.first,
+          last: Character.name?.last,
+          full: Character.name?.full,
+          native: Character.name?.native,
+          userPreferred: Character.name?.userPreferred,
+          alternative: Character.name?.alternative,
+          alternativeSpoiler: Character.name?.alternativeSpoiler,
+        },
+        image: Character.image?.large ?? Character.image?.medium,
+        description: Character.description,
+        gender: Character.gender,
+        dateOfBirth: {
+          year: Character.dateOfBirth?.year,
+          month: Character.dateOfBirth?.month,
+          day: Character.dateOfBirth?.day,
+        },
+        bloodType: Character.bloodType,
+        age: Character.age,
+        hairColor: hairColor,
+        eyeColor: eyeColor,
+        height: height,
+        weight: weight,
+        occupation: occupation,
+        partner: partner,
+        relatives: relatives,
+        race: race,
+        rank: rank,
+        previousPosition: previousPosition,
+        dislikes: dislikes,
+        sign: sign,
+        zodicSign: zodicSign,
+        zodicAnimal: zodicAnimal,
+        themeSong: themeSong,
+        relations: Character.media.edges?.map((v: any) => ({
+          id: v.node.id,
+          malId: v.node.idMal,
+          role: v.characterRole,
+          title: {
+            romaji: v.node.title?.romaji,
+            english: v.node.title?.english,
+            native: v.node.title?.native,
+            userPreferred: v.node.title?.userPreferred,
+          },
+          status:
+            v.node.status == 'RELEASING'
+              ? MediaStatus.ONGOING
+              : v.node.status == 'FINISHED'
+              ? MediaStatus.COMPLETED
+              : v.node.status == 'NOT_YET_RELEASED'
+              ? MediaStatus.NOT_YET_AIRED
+              : v.node.status == 'CANCELLED'
+              ? MediaStatus.CANCELLED
+              : v.node.status == 'HIATUS'
+              ? MediaStatus.HIATUS
+              : MediaStatus.UNKNOWN,
+          episodes: v.node.episodes,
+          image: v.node.coverImage?.extraLarge ?? v.node.coverImage?.large ?? v.node.coverImage?.medium,
+          rating: v.node.averageScore,
+          releaseDate: v.node.startDate?.year,
+          format: v.node.format,
+          color: v.node.coverImage?.color,
+        })),
+      };
+
+      return characterInfo;
     } catch (err) {
       throw new Error((err as Error).message);
     }
