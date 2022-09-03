@@ -123,12 +123,9 @@ class NineAnime extends AnimeParser {
       animeInfo.description = $('.content').text()?.trim();
       animeInfo.type = $('div.meta:nth-child(1) > div:nth-child(1) > span:nth-child(1) > a').text();
       animeInfo.studios = Array.from(
-        $('div.meta:nth-child(1) > div:nth-child(2) > span:nth-child(1) > a').map((i, el) => {
-          return {
-            id: $(el).attr('href')?.split('/')[2]!,
-            title: $(el).text()?.trim()!,
-          };
-        })
+        $('div.meta:nth-child(1) > div:nth-child(2) > span:nth-child(1) > a').map(
+          (i, el) => $(el).text()?.trim()!
+        )
       );
       animeInfo.releaseDate = $('div.meta:nth-child(1) > div:nth-child(3) > span:nth-child(1)')
         .text()

@@ -22,6 +22,9 @@ export interface IAnimeResult {
   title: string | ITitle;
   url?: string;
   image?: string;
+  cover?: string;
+  status?: MediaStatus;
+  rating?: number;
   releaseDate?: string;
   [x: string]: unknown; // other fields
 }
@@ -37,21 +40,45 @@ export interface ISearch<T> {
   results: T[];
 }
 
+export interface Trailer {
+  id: string;
+  site?: string;
+  thumbnail?: string;
+}
+
+export interface FuzzyDate {
+  year?: number;
+  month?: number;
+  day?: number;
+}
+
 export interface IAnimeInfo extends IAnimeResult {
+  malId?: number | string;
   genres?: string[];
   description?: string;
   type?: string;
   status?: MediaStatus;
   totalEpisodes?: number;
   subOrDub?: SubOrSub;
+  /**
+   * `FALL`, `WINTER`, `SPRING`, `SUMMER`
+   */
+  season?: string;
+  studios?: string[];
   color?: string;
+  cover?: string;
+  trailer?: Trailer;
   episodes?: IAnimeEpisode[];
+  startDate?: FuzzyDate;
+  endDate?: FuzzyDate;
+  recommendations?: IAnimeResult[];
 }
 
 export interface IAnimeEpisode {
   id: string;
   number: number;
   title?: string;
+  description?: string;
   isFiller?: boolean;
   url?: string;
   image?: string;
@@ -278,36 +305,36 @@ export interface IMovieResult {
 
 export interface INewsFeed extends INews {
   /** topics of the feed */
-  topics: Topics[]
+  topics: Topics[];
   /** preview of the news feed */
-  preview: INewsFeedPreview
+  preview: INewsFeedPreview;
 }
 
 export interface INewsInfo extends INews {
   /** intro of the news */
-  intro: string
+  intro: string;
   /** description of the news */
-  description: string
+  description: string;
 }
 
 interface INews {
   /** id of the news */
-  id: string
+  id: string;
   /** title of the news */
-  title: string
+  title: string;
   /** time at which the news was uploaded */
-  uploadedAt: string
+  uploadedAt: string;
   /** thumbnail image URL of the news */
-  thumbnail: string
+  thumbnail: string;
   /** URL of the news */
-  url: string
+  url: string;
 }
 
 interface INewsFeedPreview {
   /** intro of the feed */
-  intro: string
+  intro: string;
   /** some contents of the feed */
-  full: string
+  full: string;
 }
 
 export interface IMovieInfo extends IMovieResult {
@@ -347,7 +374,7 @@ export enum Genres {
 
 export enum Topics {
   ANIME = 'anime',
-  ANIMATION = 'animation', 
+  ANIMATION = 'animation',
   MANGA = 'manga',
   GAMES = 'games',
   NOVELS = 'novels',
@@ -357,5 +384,5 @@ export enum Topics {
   MUSIC = 'music',
   PEOPLE = 'people',
   MERCH = 'merch',
-  EVENTS = 'events'
+  EVENTS = 'events',
 }

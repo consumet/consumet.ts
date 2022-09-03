@@ -246,7 +246,7 @@ class Anilist extends AnimeParser {
 
       if (data.data.Media.trailer?.id) {
         animeInfo.trailer = {
-          id: data.data.Media.trailer?.id,
+          id: data.data.Media.trailer.id,
           site: data.data.Media.trailer?.site,
           thumbnail: data.data.Media.trailer?.thumbnail,
         };
@@ -257,9 +257,6 @@ class Anilist extends AnimeParser {
         data.data.Media.coverImage.medium;
 
       animeInfo.color = data.data.Media.coverImage?.color;
-
-      animeInfo.color = data.data.Media.coverImage?.color;
-
       animeInfo.cover = data.data.Media.bannerImage ?? animeInfo.image;
       animeInfo.description = data.data.Media.description;
       switch (data.data.Media.status) {
@@ -335,7 +332,7 @@ class Anilist extends AnimeParser {
           item.node.mediaRecommendation?.coverImage?.extraLarge ??
           item.node.mediaRecommendation?.coverImage?.large ??
           item.node.mediaRecommendation?.coverImage?.medium,
-        score: item.node.mediaRecommendation?.meanScore,
+        rating: item.node.mediaRecommendation?.meanScore,
       }));
 
       animeInfo.characters = data.data.Media.characters.edges.map((item: any) => ({
@@ -381,7 +378,7 @@ class Anilist extends AnimeParser {
           item.node.coverImage.extraLarge ??
           item.node.coverImage.large ??
           item.node.coverImage.medium,
-        score: item.node.meanScore,
+        rating: item.node.meanScore,
       }));
 
       if (
@@ -1168,7 +1165,7 @@ class Anilist extends AnimeParser {
           item.node.mediaRecommendation.coverImage.extraLarge ??
           item.node.mediaRecommendation.coverImage.large ??
           item.node.mediaRecommendation.coverImage.medium,
-        score: item.node.mediaRecommendation.meanScore,
+        rating: item.node.mediaRecommendation.meanScore,
       }));
 
       animeInfo.characters = data.data.Media.characters.edges.map((item: any) => ({
@@ -1213,7 +1210,7 @@ class Anilist extends AnimeParser {
           item.node.coverImage.extraLarge ??
           item.node.coverImage.large ??
           item.node.coverImage.medium,
-        score: item.node.meanScore,
+        rating: item.node.meanScore,
       }));
 
       return animeInfo;
