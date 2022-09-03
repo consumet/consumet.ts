@@ -34,9 +34,9 @@ class NineAnime extends models_1.AnimeParser {
     }
     init() {
         return __awaiter(this, void 0, void 0, function* () {
-            const { data: { cipher, decipher }, } = yield axios_1.default.get('https://raw.githubusercontent.com/chenkaslowankiya/BruvFlow/main/keys.json');
-            this.cipherKey = cipher;
-            this.decipherKey = decipher;
+            const { data: { encryptKey, decryptKey }, } = yield axios_1.default.get('https://raw.githubusercontent.com/chenkaslowankiya/BruvFlow/main/keys.json');
+            this.cipherKey = encryptKey;
+            this.decipherKey = decryptKey;
         });
     }
     static create() {
@@ -111,13 +111,7 @@ class NineAnime extends models_1.AnimeParser {
                 animeInfo.image = $('.binfo > div.poster > span > img').attr('src');
                 animeInfo.description = (_a = $('.content').text()) === null || _a === void 0 ? void 0 : _a.trim();
                 animeInfo.type = $('div.meta:nth-child(1) > div:nth-child(1) > span:nth-child(1) > a').text();
-                animeInfo.studios = Array.from($('div.meta:nth-child(1) > div:nth-child(2) > span:nth-child(1) > a').map((i, el) => {
-                    var _a, _b;
-                    return {
-                        id: (_a = $(el).attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[2],
-                        title: (_b = $(el).text()) === null || _b === void 0 ? void 0 : _b.trim(),
-                    };
-                }));
+                animeInfo.studios = Array.from($('div.meta:nth-child(1) > div:nth-child(2) > span:nth-child(1) > a').map((i, el) => { var _a; return (_a = $(el).text()) === null || _a === void 0 ? void 0 : _a.trim(); }));
                 animeInfo.releaseDate = (_b = $('div.meta:nth-child(1) > div:nth-child(3) > span:nth-child(1)')
                     .text()
                     .trim()
