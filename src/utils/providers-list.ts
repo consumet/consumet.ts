@@ -15,7 +15,7 @@ export const PROVIDERS_LIST = {
     new ANIME.AnimeFox(),
     new ANIME.Enime(),
   ],
-  MANGA: [new MANGA.MangaDex(), new MANGA.MangaHere(), new MANGA.MangaKakalot()],
+  MANGA: [new MANGA.MangaDex(), new MANGA.MangaHere(), new MANGA.MangaKakalot(), new MANGA.Mangasee123()],
   BOOKS: [new BOOKS.Libgen()],
   COMICS: [new COMICS.GetComics()],
   LIGHT_NOVELS: [new LIGHT_NOVELS.ReadLightNovels()],

@@ -25,6 +25,7 @@ class NineAnime extends AnimeParser {
   protected override logo =
     'https://d1nxzqpcg2bym0.cloudfront.net/google_play/com.my.nineanime/87b2fe48-9c36-11eb-8292-21241b1c199b/128x128';
   protected override classPath = 'ANIME.NineAnime';
+  override readonly isWorking = false;
 
   private readonly table = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
   private cipherKey = '';
@@ -32,10 +33,10 @@ class NineAnime extends AnimeParser {
 
   async init() {
     const {
-      data: { cipher, decipher },
+      data: { encryptKey, decryptKey },
     } = await axios.get('https://raw.githubusercontent.com/chenkaslowankiya/BruvFlow/main/keys.json');
-    this.cipherKey = cipher;
-    this.decipherKey = decipher;
+    this.cipherKey = encryptKey;
+    this.decipherKey = decryptKey;
   }
 
   static async create() {

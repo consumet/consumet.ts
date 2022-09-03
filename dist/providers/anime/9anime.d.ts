@@ -7,6 +7,7 @@ declare class NineAnime extends AnimeParser {
     protected baseUrl: string;
     protected logo: string;
     protected classPath: string;
+    readonly isWorking = false;
     private readonly table;
     private cipherKey;
     private decipherKey;
