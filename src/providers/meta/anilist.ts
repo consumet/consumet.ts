@@ -1436,11 +1436,4 @@ class Anilist extends AnimeParser {
   };
 }
 
-(async () => {
-  const anime = new Anilist(new Zoro());
-  const res = await anime.fetchAnimeInfo('131573');
-  const sources = await anime.fetchEpisodeSources(res.episodes![0].id);
-  console.log(res);
-})();
-
 export default Anilist;
