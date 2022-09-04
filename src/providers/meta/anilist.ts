@@ -27,12 +27,14 @@ import {
   anilistSiteStatisticsQuery,
   anilistCharacterQuery,
   range,
+  getDays,
+  days,
+  capitalizeFirstLetter,
 } from '../../utils';
 import Gogoanime from '../../providers/anime/gogoanime';
 import Enime from '../anime/enime';
 import MangaDex from '../manga/mangadex';
 import Zoro from '../anime/zoro';
-import AnimePahe from '../anime/animepahe';
 
 class Anilist extends AnimeParser {
   override readonly name = 'Anilist';
@@ -103,8 +105,13 @@ class Anilist extends AnimeParser {
               ? MediaStatus.HIATUS
               : MediaStatus.UNKNOWN,
           image: item.coverImage?.extraLarge ?? item.coverImage?.large ?? item.coverImage?.medium,
+          cover: item.bannerImage,
+          popularity: item.popularity,
+          description: item.description,
           rating: item.averageScore,
+          genres: item.genres,
           color: item.coverImage?.color,
+          totalEpisodes: item.episodes ?? item.nextAiringEpisode?.episode - 1,
           format: item.format,
           releaseDate: item.seasonYear,
         })),
@@ -128,6 +135,7 @@ class Anilist extends AnimeParser {
    * @param id anilist Id (optional)
    * @param year Year (optional) e.g. `2022`
    * @param status Status (optional) (options: `RELEASING`, `FINISHED`, `NOT_YET_RELEASED`, `CANCELLED`, `HIATUS`)
+   * @param season Season (optional) (options: `WINTER`, `SPRING`, `SUMMER`, `FALL`)
    */
   advancedSearch = async (
     query?: string,
@@ -139,7 +147,8 @@ class Anilist extends AnimeParser {
     genres?: Genres[] | string[],
     id?: string | number,
     year?: number,
-    status?: string
+    status?: string,
+    season?: string
   ): Promise<ISearch<IAnimeResult>> => {
     const options = {
       headers: {
@@ -158,6 +167,7 @@ class Anilist extends AnimeParser {
         id: id,
         year: year ? `${year}%` : undefined,
         status: status,
+        season: season,
       },
     };
 
@@ -200,6 +210,11 @@ class Anilist extends AnimeParser {
               ? MediaStatus.HIATUS
               : MediaStatus.UNKNOWN,
           image: item.coverImage.extraLarge ?? item.coverImage.large ?? item.coverImage.medium,
+          cover: item.bannerImage,
+          popularity: item.popularity,
+          totalEpisodes: item.episodes ?? item.nextAiringEpisode?.episode - 1,
+          description: item.description,
+          genres: item.genres,
           rating: item.averageScore,
           color: item.coverImage?.color,
           format: item.format,
@@ -233,7 +248,7 @@ class Anilist extends AnimeParser {
     };
 
     try {
-      const { data } = await axios.post(this.anilistGraphqlUrl, options).catch(() => {
+      const { data } = await axios.post(this.anilistGraphqlUrl, options).catch(err => {
         throw new Error('Media not found');
       });
       animeInfo.malId = data.data.Media.idMal;
@@ -256,6 +271,7 @@ class Anilist extends AnimeParser {
         data.data.Media.coverImage.large ??
         data.data.Media.coverImage.medium;
 
+      animeInfo.popularity = data.data.Media.popularity;
       animeInfo.color = data.data.Media.coverImage?.color;
       animeInfo.cover = data.data.Media.bannerImage ?? animeInfo.image;
       animeInfo.description = data.data.Media.description;
@@ -346,6 +362,17 @@ class Anilist extends AnimeParser {
           userPreferred: item.node.name.userPreferred,
         },
         image: item.node.image.large ?? item.node.image.medium,
+        voiceActors: item.voiceActors.map((voiceActor: any) => ({
+          id: voiceActor.id,
+          name: {
+            first: voiceActor.name.first,
+            last: voiceActor.name.last,
+            full: voiceActor.name.full,
+            native: voiceActor.name.native,
+            userPreferred: voiceActor.name.userPreferred,
+          },
+          image: voiceActor.image.large ?? voiceActor.image.medium,
+        })),
       }));
 
       animeInfo.relations = data.data.Media.relations.edges.map((item: any) => ({
@@ -385,7 +412,7 @@ class Anilist extends AnimeParser {
         this.provider instanceof Zoro &&
         !dub &&
         (animeInfo.status === MediaStatus.ONGOING ||
-          range({ from: 2020, to: new Date().getFullYear() + 1 }).includes(parseInt(animeInfo.releaseDate!)))
+          range({ from: 2019, to: new Date().getFullYear() + 1 }).includes(parseInt(animeInfo.releaseDate!)))
       ) {
         try {
           animeInfo.episodes = (await new Enime().fetchAnimeInfoByAnilistId(id)).episodes?.map(
@@ -754,29 +781,36 @@ class Anilist extends AnimeParser {
    *
    * @param page page number (optional)
    * @param perPage number of results per page (optional)
-   * @param weekStart Filter by the time in epoch seconds (optional) eg. if you set weekStart to this week's monday, and set weekEnd to next week's sunday, you will get all the airing anime in between these two dates.
-   * @param weekEnd Filter by the time in epoch seconds (optional)
+   * @param weekStart Filter by the start of the week (optional) (default: todays date) (options: 2 = Monday, 3 = Tuesday, 4 = Wednesday, 5 = Thursday, 6 = Friday, 0 = Saturday, 1 = Sunday) you can use either the number or the string
+   * @param weekEnd Filter by the end of the week (optional) similar to weekStart
    * @param notYetAired if true will return anime that have not yet aired (optional)
    * @returns the next airing episodes
    */
   fetchAiringSchedule = async (
     page: number = 1,
     perPage: number = 20,
-    weekStart: number = Math.floor(
-      new Date(new Date().setDate(new Date().getDate() - new Date().getDay() + 1)).getTime() / 1000
-    ),
-    weekEnd: number = Math.floor(
-      (new Date(new Date().setDate(new Date().getDate() - new Date().getDay() + 1)).getTime() + 6.048e8) /
-        1000
-    ),
+    weekStart: number | string = (new Date().getDay() + 1) % 7,
+    weekEnd: number | string = (new Date().getDay() + 7) % 7,
     notYetAired: boolean = false
   ): Promise<ISearch<IAnimeResult>> => {
+    let day1,
+      day2 = undefined;
+
+    if (typeof weekStart === 'string' && typeof weekEnd === 'string')
+      [day1, day2] = getDays(
+        capitalizeFirstLetter(weekStart.toLowerCase()),
+        capitalizeFirstLetter(weekEnd.toLowerCase())
+      );
+    else if (typeof weekStart === 'number' && typeof weekEnd === 'number')
+      [day1, day2] = getDays(days[weekStart], days[weekEnd]);
+    else throw new Error('Invalid weekStart or weekEnd');
+
     const options = {
       headers: {
         'Content-Type': 'application/json',
         Accept: 'application/json',
       },
-      query: anilistAiringScheduleQuery(page, perPage, weekStart, weekEnd, notYetAired),
+      query: anilistAiringScheduleQuery(page, perPage, day1, day2, notYetAired),
     };
 
     try {
@@ -806,7 +840,7 @@ class Anilist extends AnimeParser {
             item.media.coverImage.extraLarge ??
             item.media.coverImage.large ??
             item.media.coverImage.medium,
-          genres: item.genres,
+          genres: item.media.genres,
           color: item.media.coverImage?.color,
           rating: item.media.averageScore,
           releaseDate: item.media.seasonYear,
@@ -881,7 +915,7 @@ class Anilist extends AnimeParser {
     const findAnime = (await this.provider.search(slug)) as ISearch<IAnimeResult>;
 
     if (findAnime.results.length === 0) return [];
-
+    // TODO: use much better way than this
     return (await this.provider.fetchAnimeInfo(findAnime.results[0].id)) as IAnimeInfo;
   };
 
@@ -992,7 +1026,7 @@ class Anilist extends AnimeParser {
   /**
    * @param id anilist id
    * @param dub language of the dubbed version (optional) currently only works for gogoanime
-   * @returns episode list
+   * @returns episode list **(without anime info)**
    */
   fetchEpisodesListById = async (id: string, dub: boolean = false) => {
     const options = {
@@ -1014,7 +1048,7 @@ class Anilist extends AnimeParser {
       this.provider instanceof Zoro &&
       !dub &&
       (Media.status === 'RELEASING' ||
-        range({ from: 2020, to: new Date().getFullYear() + 1 }).includes(parseInt(Media.startDate?.year!)))
+        range({ from: 2019, to: new Date().getFullYear() + 1 }).includes(parseInt(Media.startDate?.year!)))
     ) {
       try {
         possibleAnimeEpisodes = (await new Enime().fetchAnimeInfoByAnilistId(id)).episodes?.map(
@@ -1051,7 +1085,7 @@ class Anilist extends AnimeParser {
 
   /**
    * @param id anilist id
-   * @returns anilist data for the anime
+   * @returns anilist data for the anime **(without episodes)** (use `fetchEpisodesListById` to get the episodes) (use `fetchAnimeInfo` to get both)
    */
   fetchAnilistInfoById = async (id: string) => {
     const animeInfo: IAnimeInfo = {
@@ -1124,6 +1158,7 @@ class Anilist extends AnimeParser {
       animeInfo.genres = data.data.Media.genres;
       animeInfo.studios = data.data.Media.studios.edges.map((item: any) => item.node.name);
       animeInfo.season = data.data.Media.season;
+      animeInfo.popularity = data.data.Media.popularity;
       animeInfo.startDate = {
         year: data.data.Media.startDate?.year,
         month: data.data.Media.startDate?.month,
@@ -1179,6 +1214,17 @@ class Anilist extends AnimeParser {
           userPreferred: item.node.name.userPreferred,
         },
         image: item.node.image.large ?? item.node.image.medium,
+        voiceActors: item.voiceActors.map((voiceActor: any) => ({
+          id: voiceActor.id,
+          name: {
+            first: voiceActor.name.first,
+            last: voiceActor.name.last,
+            full: voiceActor.name.full,
+            native: voiceActor.name.native,
+            userPreferred: voiceActor.name.userPreferred,
+          },
+          image: voiceActor.image.large ?? voiceActor.image.medium,
+        })),
       }));
       animeInfo.color = data.data.Media.coverImage?.color;
       animeInfo.relations = data.data.Media.relations.edges.map((item: any) => ({
@@ -1218,6 +1264,13 @@ class Anilist extends AnimeParser {
       throw new Error((err as Error).message);
     }
   };
+
+  /**
+   * TODO: finish this (got lazy)
+   * @param id staff id from anilist
+   *
+   */
+  fetchStaffById = async (id: number) => {};
 
   /**
    *
@@ -1382,5 +1435,12 @@ class Anilist extends AnimeParser {
     };
   };
 }
+
+(async () => {
+  const anime = new Anilist(new Zoro());
+  const res = await anime.fetchAnimeInfo('131573');
+  const sources = await anime.fetchEpisodeSources(res.episodes![0].id);
+  console.log(res);
+})();
 
 export default Anilist;

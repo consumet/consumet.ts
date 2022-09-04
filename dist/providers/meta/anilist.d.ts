@@ -33,8 +33,9 @@ declare class Anilist extends AnimeParser {
      * @param id anilist Id (optional)
      * @param year Year (optional) e.g. `2022`
      * @param status Status (optional) (options: `RELEASING`, `FINISHED`, `NOT_YET_RELEASED`, `CANCELLED`, `HIATUS`)
+     * @param season Season (optional) (options: `WINTER`, `SPRING`, `SUMMER`, `FALL`)
      */
-    advancedSearch: (query?: string, type?: string, page?: number, perPage?: number, format?: string, sort?: string[], genres?: Genres[] | string[], id?: string | number, year?: number, status?: string) => Promise<ISearch<IAnimeResult>>;
+    advancedSearch: (query?: string, type?: string, page?: number, perPage?: number, format?: string, sort?: string[], genres?: Genres[] | string[], id?: string | number, year?: number, status?: string, season?: string) => Promise<ISearch<IAnimeResult>>;
     /**
      *
      * @param id Anime id
@@ -69,12 +70,12 @@ declare class Anilist extends AnimeParser {
      *
      * @param page page number (optional)
      * @param perPage number of results per page (optional)
-     * @param weekStart Filter by the time in epoch seconds (optional) eg. if you set weekStart to this week's monday, and set weekEnd to next week's sunday, you will get all the airing anime in between these two dates.
-     * @param weekEnd Filter by the time in epoch seconds (optional)
+     * @param weekStart Filter by the start of the week (optional) (default: todays date) (options: 2 = Monday, 3 = Tuesday, 4 = Wednesday, 5 = Thursday, 6 = Friday, 0 = Saturday, 1 = Sunday) you can use either the number or the string
+     * @param weekEnd Filter by the end of the week (optional) similar to weekStart
      * @param notYetAired if true will return anime that have not yet aired (optional)
      * @returns the next airing episodes
      */
-    fetchAiringSchedule: (page?: number, perPage?: number, weekStart?: number, weekEnd?: number, notYetAired?: boolean) => Promise<ISearch<IAnimeResult>>;
+    fetchAiringSchedule: (page?: number, perPage?: number, weekStart?: number | string, weekEnd?: number | string, notYetAired?: boolean) => Promise<ISearch<IAnimeResult>>;
     /**
      *
      * @param genres An array of genres to filter by (optional) genres: [`Action`, `Adventure`, `Cars`, `Comedy`, `Drama`, `Fantasy`, `Horror`, `Mahou Shoujo`, `Mecha`, `Music`, `Mystery`, `Psychological`, `Romance`, `Sci-Fi`, `Slice of Life`, `Sports`, `Supernatural`, `Thriller`]
@@ -97,14 +98,20 @@ declare class Anilist extends AnimeParser {
     /**
      * @param id anilist id
      * @param dub language of the dubbed version (optional) currently only works for gogoanime
-     * @returns episode list
+     * @returns episode list **(without anime info)**
      */
     fetchEpisodesListById: (id: string, dub?: boolean) => Promise<IAnimeEpisode[]>;
     /**
      * @param id anilist id
-     * @returns anilist data for the anime
+     * @returns anilist data for the anime **(without episodes)** (use `fetchEpisodesListById` to get the episodes) (use `fetchAnimeInfo` to get both)
      */
     fetchAnilistInfoById: (id: string) => Promise<IAnimeInfo>;
+    /**
+     * TODO: finish this (got lazy)
+     * @param id staff id from anilist
+     *
+     */
+    fetchStaffById: (id: number) => Promise<void>;
     /**
      *
      * @param id character id from anilist

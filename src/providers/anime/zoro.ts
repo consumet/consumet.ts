@@ -176,41 +176,45 @@ class Zoro extends AnimeParser {
        * streamtape -> 3
        */
       let serverId = '';
-      switch (server) {
-        case StreamingServers.VidCloud:
-          serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
-            .map((i, el) => ($(el).attr('data-server-id') == '1' ? $(el) : null))
-            .get()[0]
-            .attr('data-id')!;
+      try {
+        switch (server) {
+          case StreamingServers.VidCloud:
+            serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
+              .map((i, el) => ($(el).attr('data-server-id') == '1' ? $(el) : null))
+              .get()[0]
+              .attr('data-id')!;
 
-          // zoro's vidcloud server is rapidcloud
-          if (!serverId) throw new Error('RapidCloud not found');
-          break;
-        case StreamingServers.VidStreaming:
-          serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
-            .map((i, el) => ($(el).attr('data-server-id') == '4' ? $(el) : null))
-            .get()[0]
-            .attr('data-id')!;
+            // zoro's vidcloud server is rapidcloud
+            if (!serverId) throw new Error('RapidCloud not found');
+            break;
+          case StreamingServers.VidStreaming:
+            serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
+              .map((i, el) => ($(el).attr('data-server-id') == '4' ? $(el) : null))
+              .get()[0]
+              .attr('data-id')!;
 
-          // zoro's vidcloud server is rapidcloud
-          if (!serverId) throw new Error('RapidCloud not found');
-          break;
-        case StreamingServers.StreamSB:
-          serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
-            .map((i, el) => ($(el).attr('data-server-id') == '5' ? $(el) : null))
-            .get()[0]
-            .attr('data-id')!;
+            // zoro's vidcloud server is rapidcloud
+            if (!serverId) throw new Error('RapidCloud not found');
+            break;
+          case StreamingServers.StreamSB:
+            serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
+              .map((i, el) => ($(el).attr('data-server-id') == '5' ? $(el) : null))
+              .get()[0]
+              .attr('data-id')!;
 
-          if (!serverId) throw new Error('StreamSB not found');
-          break;
-        case StreamingServers.StreamTape:
-          serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
-            .map((i, el) => ($(el).attr('data-server-id') == '3' ? $(el) : null))
-            .get()[0]
-            .attr('data-id')!;
+            if (!serverId) throw new Error('StreamSB not found');
+            break;
+          case StreamingServers.StreamTape:
+            serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
+              .map((i, el) => ($(el).attr('data-server-id') == '3' ? $(el) : null))
+              .get()[0]
+              .attr('data-id')!;
 
-          if (!serverId) throw new Error('StreamTape not found');
-          break;
+            if (!serverId) throw new Error('StreamTape not found');
+            break;
+        }
+      } catch (err) {
+        throw new Error("Couldn't find server. Try another server");
       }
 
       const {

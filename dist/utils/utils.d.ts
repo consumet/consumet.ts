@@ -1,4 +1,5 @@
 export declare const USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36";
+export declare const days: string[];
 export declare const splitAuthor: (authors: string) => string[];
 export declare const floorID: (id: string) => number;
 export declare const formatTitle: (title: string) => string;
@@ -10,13 +11,4 @@ export declare const range: ({ from, to, step, length }: {
     length?: number | undefined;
 }) => number[];
 export declare const capitalizeFirstLetter: (s: string) => string;
-export declare const anilistAdvancedQuery: () => string;
-export declare const anilistSearchQuery: (query: string, page: number, perPage: number) => string;
-export declare const anilistMediaDetailQuery: (id: string) => string;
-export declare const anilistTrendingAnimeQuery: (page?: number, perPage?: number) => string;
-export declare const anilistPopularAnimeQuery: (page?: number, perPage?: number) => string;
-export declare const anilistGenresQuery: (genres: string[], page?: number, perPage?: number) => string;
-export declare const anilistAiringScheduleQuery: (page: number | undefined, perPage: number | undefined, weekStart: number, weekEnd: number, notYetAired: boolean) => string;
-export declare const anilistSiteStatisticsQuery: () => string;
-export declare const anilistCharacterQuery: () => string;
-export declare const kitsuSearchQuery: (query: string) => string;
+export declare const getDays: (day1: string, day2: string) => number[];

@@ -16,10 +16,14 @@ import {
   formatTitle,
   genElement,
   capitalizeFirstLetter,
+  range,
+  getDays,
+  days,
+} from './utils';
+import {
   anilistSearchQuery,
   anilistMediaDetailQuery,
   kitsuSearchQuery,
-  range,
   anilistTrendingAnimeQuery,
   anilistPopularAnimeQuery,
   anilistAiringScheduleQuery,
@@ -27,7 +31,7 @@ import {
   anilistAdvancedQuery,
   anilistSiteStatisticsQuery,
   anilistCharacterQuery,
-} from './utils';
+} from './queries';
 import { parsePostInfo } from './getComics';
 import { countDivs } from './zLibrary';
 
@@ -60,4 +64,6 @@ export {
   anilistSiteStatisticsQuery,
   Filemoon,
   anilistCharacterQuery,
+  getDays,
+  days,
 };

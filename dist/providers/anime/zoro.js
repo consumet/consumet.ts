@@ -152,41 +152,46 @@ class Zoro extends models_1.AnimeParser {
                  * streamtape -> 3
                  */
                 let serverId = '';
-                switch (server) {
-                    case models_1.StreamingServers.VidCloud:
-                        serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
-                            .map((i, el) => ($(el).attr('data-server-id') == '1' ? $(el) : null))
-                            .get()[0]
-                            .attr('data-id');
-                        // zoro's vidcloud server is rapidcloud
-                        if (!serverId)
-                            throw new Error('RapidCloud not found');
-                        break;
-                    case models_1.StreamingServers.VidStreaming:
-                        serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
-                            .map((i, el) => ($(el).attr('data-server-id') == '4' ? $(el) : null))
-                            .get()[0]
-                            .attr('data-id');
-                        // zoro's vidcloud server is rapidcloud
-                        if (!serverId)
-                            throw new Error('RapidCloud not found');
-                        break;
-                    case models_1.StreamingServers.StreamSB:
-                        serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
-                            .map((i, el) => ($(el).attr('data-server-id') == '5' ? $(el) : null))
-                            .get()[0]
-                            .attr('data-id');
-                        if (!serverId)
-                            throw new Error('StreamSB not found');
-                        break;
-                    case models_1.StreamingServers.StreamTape:
-                        serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
-                            .map((i, el) => ($(el).attr('data-server-id') == '3' ? $(el) : null))
-                            .get()[0]
-                            .attr('data-id');
-                        if (!serverId)
-                            throw new Error('StreamTape not found');
-                        break;
+                try {
+                    switch (server) {
+                        case models_1.StreamingServers.VidCloud:
+                            serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
+                                .map((i, el) => ($(el).attr('data-server-id') == '1' ? $(el) : null))
+                                .get()[0]
+                                .attr('data-id');
+                            // zoro's vidcloud server is rapidcloud
+                            if (!serverId)
+                                throw new Error('RapidCloud not found');
+                            break;
+                        case models_1.StreamingServers.VidStreaming:
+                            serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
+                                .map((i, el) => ($(el).attr('data-server-id') == '4' ? $(el) : null))
+                                .get()[0]
+                                .attr('data-id');
+                            // zoro's vidcloud server is rapidcloud
+                            if (!serverId)
+                                throw new Error('RapidCloud not found');
+                            break;
+                        case models_1.StreamingServers.StreamSB:
+                            serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
+                                .map((i, el) => ($(el).attr('data-server-id') == '5' ? $(el) : null))
+                                .get()[0]
+                                .attr('data-id');
+                            if (!serverId)
+                                throw new Error('StreamSB not found');
+                            break;
+                        case models_1.StreamingServers.StreamTape:
+                            serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
+                                .map((i, el) => ($(el).attr('data-server-id') == '3' ? $(el) : null))
+                                .get()[0]
+                                .attr('data-id');
+                            if (!serverId)
+                                throw new Error('StreamTape not found');
+                            break;
+                    }
+                }
+                catch (err) {
+                    throw new Error("Couldn't find server. Try another server");
                 }
                 const { data: { link }, } = yield axios_1.default.get(`${this.baseUrl}/ajax/v2/episode/sources?id=${serverId}`);
                 return yield this.fetchEpisodeSources(link, server);
