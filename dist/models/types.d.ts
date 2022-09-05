@@ -22,6 +22,7 @@ export interface IAnimeResult {
     cover?: string;
     status?: MediaStatus;
     rating?: number;
+    type?: MediaFormat;
     releaseDate?: string;
     [x: string]: unknown;
 }
@@ -45,11 +46,22 @@ export interface FuzzyDate {
     month?: number;
     day?: number;
 }
+export declare enum MediaFormat {
+    TV = "TV",
+    TV_SHORT = "TV_SHORT",
+    MOVIE = "MOVIE",
+    SPECIAL = "SPECIAL",
+    OVA = "OVA",
+    ONA = "ONA",
+    MUSIC = "MUSIC",
+    MANGA = "MANGA",
+    NOVEL = "NOVEL",
+    ONE_SHOT = "ONE_SHOT"
+}
 export interface IAnimeInfo extends IAnimeResult {
     malId?: number | string;
     genres?: string[];
     description?: string;
-    type?: string;
     status?: MediaStatus;
     totalEpisodes?: number;
     subOrDub?: SubOrSub;
@@ -65,6 +77,7 @@ export interface IAnimeInfo extends IAnimeResult {
     startDate?: FuzzyDate;
     endDate?: FuzzyDate;
     recommendations?: IAnimeResult[];
+    relations?: IAnimeResult[];
 }
 export interface IAnimeEpisode {
     id: string;

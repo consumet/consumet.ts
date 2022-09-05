@@ -1,6 +1,19 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Topics = exports.Genres = exports.TvType = exports.SubOrSub = exports.MediaStatus = exports.StreamingServers = void 0;
+exports.Topics = exports.Genres = exports.TvType = exports.SubOrSub = exports.MediaStatus = exports.StreamingServers = exports.MediaFormat = void 0;
+var MediaFormat;
+(function (MediaFormat) {
+    MediaFormat["TV"] = "TV";
+    MediaFormat["TV_SHORT"] = "TV_SHORT";
+    MediaFormat["MOVIE"] = "MOVIE";
+    MediaFormat["SPECIAL"] = "SPECIAL";
+    MediaFormat["OVA"] = "OVA";
+    MediaFormat["ONA"] = "ONA";
+    MediaFormat["MUSIC"] = "MUSIC";
+    MediaFormat["MANGA"] = "MANGA";
+    MediaFormat["NOVEL"] = "NOVEL";
+    MediaFormat["ONE_SHOT"] = "ONE_SHOT";
+})(MediaFormat = exports.MediaFormat || (exports.MediaFormat = {}));
 var StreamingServers;
 (function (StreamingServers) {
     StreamingServers["GogoCDN"] = "gogocdn";

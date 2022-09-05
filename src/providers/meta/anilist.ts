@@ -350,7 +350,7 @@ class Anilist extends AnimeParser {
           item.node.mediaRecommendation?.coverImage?.large ??
           item.node.mediaRecommendation?.coverImage?.medium,
         rating: item.node.mediaRecommendation?.meanScore,
-        type: item.node.mediaRecommendation?.type,
+        type: item.node.mediaRecommendation?.format,
       }));
 
       animeInfo.characters = data.data.Media.characters.edges.map((item: any) => ({
