@@ -68,7 +68,6 @@ const range = ({ from = 0, to = 0, step = 1, length = Math.ceil((to - from) / st
 exports.range = range;
 const capitalizeFirstLetter = (s) => s.charAt(0).toUpperCase() + s.slice(1);
 exports.capitalizeFirstLetter = capitalizeFirstLetter;
-// create a function that takes 2 days of the week and returns the timestamp of each day at 12:00:00
 const getDays = (day1, day2) => {
     const day1Index = exports.days.indexOf((0, exports.capitalizeFirstLetter)(day1)) - 1;
     const day2Index = exports.days.indexOf((0, exports.capitalizeFirstLetter)(day2)) - 1;

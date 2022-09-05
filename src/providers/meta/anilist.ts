@@ -317,6 +317,7 @@ class Anilist extends AnimeParser {
       animeInfo.season = data.data.Media.season;
       animeInfo.studios = data.data.Media.studios.edges.map((item: any) => item.node.name);
       animeInfo.subOrDub = dub ? SubOrSub.DUB : SubOrSub.SUB;
+      animeInfo.type = data.data.Media.format;
       animeInfo.recommendations = data.data.Media.recommendations.edges.map((item: any) => ({
         id: item.node.mediaRecommendation?.id,
         malId: item.node.mediaRecommendation?.idMal,
@@ -349,6 +350,7 @@ class Anilist extends AnimeParser {
           item.node.mediaRecommendation?.coverImage?.large ??
           item.node.mediaRecommendation?.coverImage?.medium,
         rating: item.node.mediaRecommendation?.meanScore,
+        type: item.node.mediaRecommendation?.type,
       }));
 
       animeInfo.characters = data.data.Media.characters.edges.map((item: any) => ({
@@ -400,6 +402,7 @@ class Anilist extends AnimeParser {
         episodes: item.node.episodes,
         image: item.node.coverImage.extraLarge ?? item.node.coverImage.large ?? item.node.coverImage.medium,
         color: item.node.coverImage?.color,
+        type: item.node.format,
         cover:
           item.node.bannerImage ??
           item.node.coverImage.extraLarge ??
@@ -981,6 +984,7 @@ class Anilist extends AnimeParser {
         episodeTitle: item.title ?? `Episode ${item.number}`,
         episodeNumber: item.number,
         genres: item.anime.genre,
+        type: item.anime.format,
       }));
 
       results = results.filter(
@@ -1159,6 +1163,7 @@ class Anilist extends AnimeParser {
       animeInfo.studios = data.data.Media.studios.edges.map((item: any) => item.node.name);
       animeInfo.season = data.data.Media.season;
       animeInfo.popularity = data.data.Media.popularity;
+      animeInfo.type = data.data.Media.format;
       animeInfo.startDate = {
         year: data.data.Media.startDate?.year,
         month: data.data.Media.startDate?.month,
@@ -1201,6 +1206,7 @@ class Anilist extends AnimeParser {
           item.node.mediaRecommendation.coverImage.large ??
           item.node.mediaRecommendation.coverImage.medium,
         rating: item.node.mediaRecommendation.meanScore,
+        type: item.node.mediaRecommendation.format,
       }));
 
       animeInfo.characters = data.data.Media.characters.edges.map((item: any) => ({
@@ -1257,6 +1263,7 @@ class Anilist extends AnimeParser {
           item.node.coverImage.large ??
           item.node.coverImage.medium,
         rating: item.node.meanScore,
+        type: item.node.format,
       }));
 
       return animeInfo;
