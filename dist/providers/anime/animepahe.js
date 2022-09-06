@@ -80,7 +80,10 @@ class AnimePahe extends models_1.AnimeParser {
                     default:
                         animeInfo.status = models_1.MediaStatus.UNKNOWN;
                 }
-                animeInfo.type = $('div.col-sm-4.anime-info > p:nth-child(2) > a').text().trim();
+                animeInfo.type = $('div.col-sm-4.anime-info > p:nth-child(2) > a')
+                    .text()
+                    .trim()
+                    .toUpperCase();
                 animeInfo.releaseDate = $('div.col-sm-4.anime-info > p:nth-child(5)')
                     .text()
                     .split('to')[0]

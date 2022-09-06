@@ -12,6 +12,7 @@ import {
   SubOrSub,
   IAnimeResult,
   ISource,
+  MediaFormat,
 } from '../../models';
 import { GogoCDN, StreamSB, USER_AGENT } from '../../utils';
 
@@ -102,7 +103,10 @@ class Gogoanime extends AnimeParser {
 
       animeInfo.subOrDub = animeInfo.title.toLowerCase().includes('dub') ? SubOrSub.DUB : SubOrSub.SUB;
 
-      animeInfo.type = $('div.anime_info_body_bg > p:nth-child(4) > a').text().trim();
+      animeInfo.type = $('div.anime_info_body_bg > p:nth-child(4) > a')
+        .text()
+        .trim()
+        .toUpperCase() as MediaFormat;
 
       animeInfo.status = MediaStatus.UNKNOWN;
 

@@ -50,6 +50,7 @@ class Enime extends models_1.AnimeParser {
                     rating: anime.averageScore,
                     status: anime.status,
                     mappings: anime.mappings,
+                    type: anime.format,
                 });
             });
             return res;
@@ -81,6 +82,7 @@ class Enime extends models_1.AnimeParser {
             animeInfo.status = data.status;
             animeInfo.synonyms = data.synonyms;
             animeInfo.mappings = data.mappings;
+            animeInfo.type = data.format;
             data.episodes = data.episodes.sort((a, b) => b.number - a.number);
             animeInfo.episodes = data.episodes.map((episode) => ({
                 id: episode.id,
@@ -116,6 +118,7 @@ class Enime extends models_1.AnimeParser {
             animeInfo.status = data.status;
             animeInfo.synonyms = data.synonyms;
             animeInfo.mappings = data.mappings;
+            animeInfo.type = data.format;
             data.episodes = data.episodes.sort((a, b) => b.number - a.number);
             animeInfo.episodes = data.episodes.map((episode) => {
                 var _a, _b;

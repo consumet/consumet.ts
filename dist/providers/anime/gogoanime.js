@@ -91,7 +91,10 @@ class Gogoanime extends models_1.AnimeParser {
                     .trim()
                     .replace('Plot Summary: ', '');
                 animeInfo.subOrDub = animeInfo.title.toLowerCase().includes('dub') ? models_1.SubOrSub.DUB : models_1.SubOrSub.SUB;
-                animeInfo.type = $('div.anime_info_body_bg > p:nth-child(4) > a').text().trim();
+                animeInfo.type = $('div.anime_info_body_bg > p:nth-child(4) > a')
+                    .text()
+                    .trim()
+                    .toUpperCase();
                 animeInfo.status = models_1.MediaStatus.UNKNOWN;
                 switch ($('div.anime_info_body_bg > p:nth-child(8) > a').text().trim()) {
                     case 'Ongoing':

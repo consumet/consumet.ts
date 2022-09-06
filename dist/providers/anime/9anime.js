@@ -75,13 +75,34 @@ class NineAnime extends models_1.AnimeParser {
                         }
                     })
                         .get();
+                    let type = undefined;
+                    switch ($(el).find('div > div.ani > a > div.meta > div > div.right').text().trim()) {
+                        case 'MOVIE':
+                            type = models_1.MediaFormat.MOVIE;
+                            break;
+                        case 'TV':
+                            type = models_1.MediaFormat.TV;
+                            break;
+                        case 'OVA':
+                            type = models_1.MediaFormat.OVA;
+                            break;
+                        case 'SPECIAL':
+                            type = models_1.MediaFormat.SPECIAL;
+                            break;
+                        case 'ONA':
+                            type = models_1.MediaFormat.ONA;
+                            break;
+                        case 'MUSIC':
+                            type = models_1.MediaFormat.MUSIC;
+                            break;
+                    }
                     searchResult.results.push({
                         id: (_a = $(el).find('div > div.ani > a').attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[2],
                         title: $(el).find('div > div.info > div.b1 > a').text(),
                         url: `${this.baseUrl}${$(el).find('div > div.ani > a').attr('href')}`,
                         image: $(el).find('div > div.ani > a > img').attr('src'),
                         subOrSub: subs.includes(models_1.SubOrSub.SUB) && subs.includes(models_1.SubOrSub.DUB) ? models_1.SubOrSub.BOTH : subs[0],
-                        type: $(el).find('div > div.ani > a > div.meta > div > div.right').text(),
+                        type: type,
                     });
                 });
                 return searchResult;
@@ -110,7 +131,26 @@ class NineAnime extends models_1.AnimeParser {
                 animeInfo.genres = Array.from($('div.meta:nth-child(1) > div:nth-child(5) > span > a').map((i, el) => $(el).text()));
                 animeInfo.image = $('.binfo > div.poster > span > img').attr('src');
                 animeInfo.description = (_a = $('.content').text()) === null || _a === void 0 ? void 0 : _a.trim();
-                animeInfo.type = $('div.meta:nth-child(1) > div:nth-child(1) > span:nth-child(1) > a').text();
+                switch ($('div.meta:nth-child(1) > div:nth-child(1) > span:nth-child(1) > a').text()) {
+                    case 'MOVIE':
+                        animeInfo.type = models_1.MediaFormat.MOVIE;
+                        break;
+                    case 'TV':
+                        animeInfo.type = models_1.MediaFormat.TV;
+                        break;
+                    case 'OVA':
+                        animeInfo.type = models_1.MediaFormat.OVA;
+                        break;
+                    case 'SPECIAL':
+                        animeInfo.type = models_1.MediaFormat.SPECIAL;
+                        break;
+                    case 'ONA':
+                        animeInfo.type = models_1.MediaFormat.ONA;
+                        break;
+                    case 'MUSIC':
+                        animeInfo.type = models_1.MediaFormat.MUSIC;
+                        break;
+                }
                 animeInfo.studios = Array.from($('div.meta:nth-child(1) > div:nth-child(2) > span:nth-child(1) > a').map((i, el) => { var _a; return (_a = $(el).text()) === null || _a === void 0 ? void 0 : _a.trim(); }));
                 animeInfo.releaseDate = (_b = $('div.meta:nth-child(1) > div:nth-child(3) > span:nth-child(1)')
                     .text()

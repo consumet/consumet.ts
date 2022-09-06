@@ -112,7 +112,7 @@ class Anilist extends AnimeParser {
           genres: item.genres,
           color: item.coverImage?.color,
           totalEpisodes: item.episodes ?? item.nextAiringEpisode?.episode - 1,
-          format: item.format,
+          type: item.format,
           releaseDate: item.seasonYear,
         })),
       };
@@ -217,7 +217,7 @@ class Anilist extends AnimeParser {
           genres: item.genres,
           rating: item.averageScore,
           color: item.coverImage?.color,
-          format: item.format,
+          type: item.format,
           releaseDate: item.seasonYear,
         })),
       };
@@ -1403,7 +1403,7 @@ class Anilist extends AnimeParser {
           image: v.node.coverImage?.extraLarge ?? v.node.coverImage?.large ?? v.node.coverImage?.medium,
           rating: v.node.averageScore,
           releaseDate: v.node.startDate?.year,
-          format: v.node.format,
+          type: v.node.format,
           color: v.node.coverImage?.color,
         })),
       };

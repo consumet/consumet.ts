@@ -41,7 +41,10 @@ import {
   Genres,
   INewsFeed,
   Topics,
-  INewsInfo
+  INewsInfo,
+  FuzzyDate,
+  ITitle,
+  MediaFormat,
 } from './types';
 import { LibgenBookObject, GetComicsComicsObject, ZLibraryObject } from './type-objects';
 
@@ -91,5 +94,8 @@ export {
   Genres,
   INewsFeed,
   Topics,
-  INewsInfo
+  INewsInfo,
+  FuzzyDate,
+  ITitle,
+  MediaFormat,
 };

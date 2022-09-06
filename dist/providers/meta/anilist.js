@@ -84,7 +84,7 @@ class Anilist extends models_1.AnimeParser {
                             genres: item.genres,
                             color: (_g = item.coverImage) === null || _g === void 0 ? void 0 : _g.color,
                             totalEpisodes: (_h = item.episodes) !== null && _h !== void 0 ? _h : ((_j = item.nextAiringEpisode) === null || _j === void 0 ? void 0 : _j.episode) - 1,
-                            format: item.format,
+                            type: item.format,
                             releaseDate: item.seasonYear,
                         });
                     }),
@@ -174,7 +174,7 @@ class Anilist extends models_1.AnimeParser {
                             genres: item.genres,
                             rating: item.averageScore,
                             color: (_f = item.coverImage) === null || _f === void 0 ? void 0 : _f.color,
-                            format: item.format,
+                            type: item.format,
                             releaseDate: item.seasonYear,
                         });
                     }),
@@ -1206,7 +1206,7 @@ class Anilist extends models_1.AnimeParser {
                             image: (_j = (_g = (_f = v.node.coverImage) === null || _f === void 0 ? void 0 : _f.extraLarge) !== null && _g !== void 0 ? _g : (_h = v.node.coverImage) === null || _h === void 0 ? void 0 : _h.large) !== null && _j !== void 0 ? _j : (_k = v.node.coverImage) === null || _k === void 0 ? void 0 : _k.medium,
                             rating: v.node.averageScore,
                             releaseDate: (_l = v.node.startDate) === null || _l === void 0 ? void 0 : _l.year,
-                            format: v.node.format,
+                            type: v.node.format,
                             color: (_m = v.node.coverImage) === null || _m === void 0 ? void 0 : _m.color,
                         });
                     }),

@@ -10,6 +10,7 @@ import {
   ISource,
   IAnimeEpisode,
   IEpisodeServer,
+  MediaFormat,
 } from '../../models';
 import { Kwik } from '../../utils';
 
@@ -81,7 +82,10 @@ class AnimePahe extends AnimeParser {
         default:
           animeInfo.status = MediaStatus.UNKNOWN;
       }
-      animeInfo.type = $('div.col-sm-4.anime-info > p:nth-child(2) > a').text().trim();
+      animeInfo.type = $('div.col-sm-4.anime-info > p:nth-child(2) > a')
+        .text()
+        .trim()
+        .toUpperCase() as MediaFormat;
       animeInfo.releaseDate = $('div.col-sm-4.anime-info > p:nth-child(5)')
         .text()
         .split('to')[0]

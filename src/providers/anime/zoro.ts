@@ -11,6 +11,7 @@ import {
   IAnimeEpisode,
   IEpisodeServer,
   StreamingServers,
+  MediaFormat,
 } from '../../models';
 
 import { StreamSB, USER_AGENT, RapidCloud, StreamTape } from '../../utils';
@@ -61,7 +62,7 @@ class Zoro extends AnimeParser {
         res.results.push({
           id: id!,
           title: title,
-          type: type,
+          type: type.toUpperCase() as MediaFormat,
           image: image,
           url: url,
         });
@@ -89,7 +90,7 @@ class Zoro extends AnimeParser {
       info.image = $('img.film-poster-img').attr('src');
       info.description = $('div.film-description').text().trim();
       // Movie, TV, OVA, ONA, Special, Music
-      info.type = $('span.item').last().prev().prev().text();
+      info.type = $('span.item').last().prev().prev().text().toUpperCase() as MediaFormat;
       info.url = `${this.baseUrl}/${id}`;
 
       const episodesAjax = await axios.get(`${this.baseUrl}/ajax/v2/episode/list/${id.split('-').pop()}`, {

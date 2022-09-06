@@ -55,7 +55,7 @@ class Zoro extends models_1.AnimeParser {
                     res.results.push({
                         id: id,
                         title: title,
-                        type: type,
+                        type: type.toUpperCase(),
                         image: image,
                         url: url,
                     });
@@ -81,7 +81,7 @@ class Zoro extends models_1.AnimeParser {
                 info.image = $('img.film-poster-img').attr('src');
                 info.description = $('div.film-description').text().trim();
                 // Movie, TV, OVA, ONA, Special, Music
-                info.type = $('span.item').last().prev().prev().text();
+                info.type = $('span.item').last().prev().prev().text().toUpperCase();
                 info.url = `${this.baseUrl}/${id}`;
                 const episodesAjax = yield axios_1.default.get(`${this.baseUrl}/ajax/v2/episode/list/${id.split('-').pop()}`, {
                     headers: {

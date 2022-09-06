@@ -9,6 +9,7 @@ import {
   IAnimeResult,
   ISource,
   IEpisodeServer,
+  MediaFormat,
 } from '../../models';
 
 import { GogoCDN } from '../../utils';
@@ -37,10 +38,28 @@ class AnimeFox extends AnimeParser {
       const searchResults: IAnimeResult[] = [];
 
       $('div.film_list-wrap > div').each((i, el) => {
+        let type = undefined;
+        switch ($(el).find('div.fd-infor > span').text()) {
+          case 'TV Series':
+            type = MediaFormat.TV;
+            break;
+          case 'Movie':
+            type = MediaFormat.MOVIE;
+            break;
+          case 'Special':
+            type = MediaFormat.SPECIAL;
+            break;
+          case 'OVA':
+            type = MediaFormat.OVA;
+            break;
+          default:
+            type = MediaFormat.TV;
+            break;
+        }
         searchResults.push({
           id: $(el).find('div.film-poster > a').attr('href')?.replace('/anime/', '')!,
           title: $(el).find('div.film-poster > img').attr('alt')!,
-          type: $(el).find('div.fd-infor > span').text()!,
+          type: type,
           image: $(el).find('div.fd-infor > span:nth-child(1)').text()!,
           url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`!,
           episode: parseInt($(el).find('div.tick-eps').text().replace('EP', '').trim())!,
@@ -72,7 +91,24 @@ class AnimeFox extends AnimeParser {
       info.title = $('h2.film-name').attr('data-jname')!;
       info.image = $('img.film-poster-img').attr('data-src')!;
       info.description = $('div.anisc-info > div:nth-child(1) > div').text().trim()!;
-      info.type = $('div.anisc-info > div:nth-child(8) > a').text().trim()!;
+      switch ($('div.anisc-info > div:nth-child(8) > a').text().trim()) {
+        case 'TV Series':
+          info.type = MediaFormat.TV;
+          break;
+        case 'Movie':
+          info.type = MediaFormat.MOVIE;
+          break;
+        case 'Special':
+          info.type = MediaFormat.SPECIAL;
+          break;
+        case 'OVA':
+          info.type = MediaFormat.OVA;
+          break;
+        default:
+          info.type = MediaFormat.TV;
+          break;
+      }
+
       info.releaseYear = $('div.anisc-info > div:nth-child(7) > a').text().trim()!;
       switch ($('div.anisc-info > div:nth-child(9) > a').text().trim()!) {
         case 'Ongoing':

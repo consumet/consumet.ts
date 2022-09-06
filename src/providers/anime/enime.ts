@@ -12,6 +12,7 @@ import {
   IEpisodeServer,
   IAnimeEpisode,
   IVideo,
+  MediaFormat,
 } from '../../models';
 
 class Enime extends AnimeParser {
@@ -54,6 +55,7 @@ class Enime extends AnimeParser {
       rating: anime.averageScore,
       status: anime.status as MediaStatus,
       mappings: anime.mappings,
+      type: anime.format as MediaFormat,
     }));
     return res;
   };
@@ -86,6 +88,7 @@ class Enime extends AnimeParser {
     animeInfo.status = data.status as MediaStatus;
     animeInfo.synonyms = data.synonyms;
     animeInfo.mappings = data.mappings;
+    animeInfo.type = data.format as MediaFormat;
 
     data.episodes = data.episodes.sort((a: any, b: any) => b.number - a.number);
     animeInfo.episodes = data.episodes.map(
@@ -127,6 +130,7 @@ class Enime extends AnimeParser {
     animeInfo.status = data.status as MediaStatus;
     animeInfo.synonyms = data.synonyms;
     animeInfo.mappings = data.mappings;
+    animeInfo.type = data.format as MediaFormat;
 
     data.episodes = data.episodes.sort((a: any, b: any) => b.number - a.number);
 

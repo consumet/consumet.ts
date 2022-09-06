@@ -13,6 +13,7 @@ import {
   IEpisodeServer,
   ISource,
   StreamingServers,
+  MediaFormat,
 } from '../../models';
 import { range, StreamTape, USER_AGENT, VizCloud, Filemoon } from '../../utils';
 
@@ -82,13 +83,35 @@ class NineAnime extends AnimeParser {
           })
           .get();
 
+        let type = undefined;
+        switch ($(el).find('div > div.ani > a > div.meta > div > div.right').text()!.trim()) {
+          case 'MOVIE':
+            type = MediaFormat.MOVIE;
+            break;
+          case 'TV':
+            type = MediaFormat.TV;
+            break;
+          case 'OVA':
+            type = MediaFormat.OVA;
+            break;
+          case 'SPECIAL':
+            type = MediaFormat.SPECIAL;
+            break;
+          case 'ONA':
+            type = MediaFormat.ONA;
+            break;
+          case 'MUSIC':
+            type = MediaFormat.MUSIC;
+            break;
+        }
+
         searchResult.results.push({
           id: $(el).find('div > div.ani > a').attr('href')?.split('/')[2]!,
           title: $(el).find('div > div.info > div.b1 > a').text()!,
           url: `${this.baseUrl}${$(el).find('div > div.ani > a').attr('href')}`,
           image: $(el).find('div > div.ani > a > img').attr('src'),
           subOrSub: subs.includes(SubOrSub.SUB) && subs.includes(SubOrSub.DUB) ? SubOrSub.BOTH : subs[0],
-          type: $(el).find('div > div.ani > a > div.meta > div > div.right').text()!,
+          type: type,
         });
       });
 
@@ -121,7 +144,26 @@ class NineAnime extends AnimeParser {
       );
       animeInfo.image = $('.binfo > div.poster > span > img').attr('src');
       animeInfo.description = $('.content').text()?.trim();
-      animeInfo.type = $('div.meta:nth-child(1) > div:nth-child(1) > span:nth-child(1) > a').text();
+      switch ($('div.meta:nth-child(1) > div:nth-child(1) > span:nth-child(1) > a').text()) {
+        case 'MOVIE':
+          animeInfo.type = MediaFormat.MOVIE;
+          break;
+        case 'TV':
+          animeInfo.type = MediaFormat.TV;
+          break;
+        case 'OVA':
+          animeInfo.type = MediaFormat.OVA;
+          break;
+        case 'SPECIAL':
+          animeInfo.type = MediaFormat.SPECIAL;
+          break;
+        case 'ONA':
+          animeInfo.type = MediaFormat.ONA;
+          break;
+        case 'MUSIC':
+          animeInfo.type = MediaFormat.MUSIC;
+          break;
+      }
       animeInfo.studios = Array.from(
         $('div.meta:nth-child(1) > div:nth-child(2) > span:nth-child(1) > a').map(
           (i, el) => $(el).text()?.trim()!
