@@ -29,5 +29,7 @@ declare class FlixHQ extends MovieParser {
      * @param mediaId takes movie link or id (found on movie info object)
      */
     fetchEpisodeServers: (episodeId: string, mediaId: string) => Promise<IEpisodeServer[]>;
+    fetchRecentMovies: () => Promise<IMovieResult[]>;
+    fetchRecentTvShows: () => Promise<IMovieResult[]>;
 }
 export default FlixHQ;
