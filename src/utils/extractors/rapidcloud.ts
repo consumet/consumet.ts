@@ -10,7 +10,7 @@ class RapidCloud extends VideoExtractor {
   protected override sources: IVideo[] = [];
 
   private readonly host = 'https://rapid-cloud.co';
-  private readonly consumetApi = 'https://api.consumet.org';
+  private readonly consumetApi = 'https://consumet-api.herokuapp.com';
   private readonly enimeApi = 'https://api.enime.moe';
 
   override extract = async (videoUrl: URL): Promise<{ sources: IVideo[] } & { subtitles: ISubtitle[] }> => {
