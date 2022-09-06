@@ -10,6 +10,7 @@ class RapidCloud extends VideoExtractor {
   protected override sources: IVideo[] = [];
 
   private readonly host = 'https://rapid-cloud.co';
+  private readonly consumetApi = 'https://api.consumet.org';
   private readonly enimeApi = 'https://api.enime.moe';
 
   override extract = async (videoUrl: URL): Promise<{ sources: IVideo[] } & { subtitles: ISubtitle[] }> => {
@@ -27,7 +28,19 @@ class RapidCloud extends VideoExtractor {
 
       let res = null;
 
-      const { data: sId } = await axios.get(`${this.enimeApi}/tool/rapid-cloud/server-id`);
+      let { data: sId } = await axios({
+        method: 'GET',
+        url: `${this.consumetApi}/utils/rapid-cloud`,
+        validateStatus: status => true,
+      });
+
+      if (!sId) {
+        sId = await axios({
+          method: 'GET',
+          url: `${this.enimeApi}/tool/rapid-cloud/server-id`,
+          validateStatus: status => true,
+        });
+      }
 
       res = await axios.get(`${this.host}/ajax/embed-6/getSources?id=${id}&sId=${sId}`, options);
 

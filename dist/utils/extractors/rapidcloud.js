@@ -21,6 +21,7 @@ class RapidCloud extends models_1.VideoExtractor {
         this.serverName = 'RapidCloud';
         this.sources = [];
         this.host = 'https://rapid-cloud.co';
+        this.consumetApi = 'https://api.consumet.org';
         this.enimeApi = 'https://api.enime.moe';
         this.extract = (videoUrl) => __awaiter(this, void 0, void 0, function* () {
             var _a, _b;
@@ -36,7 +37,18 @@ class RapidCloud extends models_1.VideoExtractor {
                     },
                 };
                 let res = null;
-                const { data: sId } = yield axios_1.default.get(`${this.enimeApi}/tool/rapid-cloud/server-id`);
+                let { data: sId } = yield (0, axios_1.default)({
+                    method: 'GET',
+                    url: `${this.consumetApi}/utils/rapid-cloud`,
+                    validateStatus: status => true,
+                });
+                if (!sId) {
+                    sId = yield (0, axios_1.default)({
+                        method: 'GET',
+                        url: `${this.enimeApi}/tool/rapid-cloud/server-id`,
+                        validateStatus: status => true,
+                    });
+                }
                 res = yield axios_1.default.get(`${this.host}/ajax/embed-6/getSources?id=${id}&sId=${sId}`, options);
                 const { data: { sources, tracks, intro }, } = res;
                 this.sources = sources.map((s) => ({

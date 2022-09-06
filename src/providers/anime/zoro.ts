@@ -275,4 +275,12 @@ class Zoro extends AnimeParser {
   };
 }
 
+// (async () => {
+//   const zoro = new Zoro();
+//   const anime = await zoro.search('naruto');
+//   const episodes = (await zoro.fetchAnimeInfo(anime.results[0].id)).episodes;
+//   const sources = await zoro.fetchEpisodeSources(episodes![0].id);
+//   console.log(sources);
+// })();
+
 export default Zoro;

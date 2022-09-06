@@ -3,6 +3,7 @@ declare class RapidCloud extends VideoExtractor {
     protected serverName: string;
     protected sources: IVideo[];
     private readonly host;
+    private readonly consumetApi;
     private readonly enimeApi;
     extract: (videoUrl: URL) => Promise<{
         sources: IVideo[];
