@@ -12,7 +12,7 @@ import {
 } from '../../models';
 
 class Mangasee123 extends MangaParser {
-  override readonly name = 'Mangasee123';
+  override readonly name = 'MangaSee';
   protected override baseUrl = 'https://mangasee123.com';
   protected override logo =
     'https://scontent.fman4-1.fna.fbcdn.net/v/t1.6435-1/80033336_1830005343810810_419412485691408384_n.png?stp=dst-png_p148x148&_nc_cat=104&ccb=1-7&_nc_sid=1eb0c7&_nc_ohc=XpeoABDI-sEAX-5hLFV&_nc_ht=scontent.fman4-1.fna&oh=00_AT9nIRz5vPiNqqzNpSg2bJymX22rZ1JumYTKBqg_cD0Alg&oe=6317290E';
@@ -49,7 +49,8 @@ class Mangasee123 extends MangaParser {
         mangaInfo.chapters = chaptersData.map(
           (i: { [x: string]: any }): IMangaChapter => ({
             id: `${mangaId}-chapter-${this.processChapterNumber(i['Chapter'])}`,
-            title: `${i['ChapterName']}`,
+            title: `${i['ChapterName'] ?? `Chapter ${this.processChapterNumber(i['Chapter'])}`}`,
+            releaseDate: i['Date'],
           })
         );
       }

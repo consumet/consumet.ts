@@ -1,4 +1,4 @@
-import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, ISource, IAnimeEpisode, IEpisodeServer, Genres, MangaParser, IMangaChapterPage, IMangaInfo } from '../../models';
+import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, ISource, IAnimeEpisode, IEpisodeServer, Genres, MangaParser, IMangaChapterPage, IMangaInfo, IMangaResult } from '../../models';
 declare class Anilist extends AnimeParser {
     readonly name = "Anilist";
     protected baseUrl: string;
@@ -111,7 +111,7 @@ declare class Anilist extends AnimeParser {
      * @param id staff id from anilist
      *
      */
-    fetchStaffById: (id: number) => Promise<void>;
+    fetchStaffById: (id: number) => Promise<never>;
     /**
      *
      * @param id character id from anilist
@@ -159,15 +159,30 @@ declare class Anilist extends AnimeParser {
      */
     static Anime: typeof Anilist;
     /**
-     * TODO: Anilist Manga Class
+     * Anilist Manga Class
      */
     static Manga: {
         new (provider?: MangaParser): {
             provider: MangaParser;
-            search: (query: string, ...args: any[]) => Promise<unknown>;
+            /**
+             *
+             * @param query query to search for
+             * @param page (optional) page number (default: `1`)
+             * @param perPage (optional) number of results per page (default: `20`)
+             */
+            search: (query: string, page?: number, perPage?: number) => Promise<ISearch<IMangaResult>>;
+            /**
+             *
+             * @param chapterId chapter id
+             * @param args args to pass to the provider (if any)
+             * @returns
+             */
             fetchChapterPages: (chapterId: string, ...args: any) => Promise<IMangaChapterPage[]>;
-            fetchMangaInfo: (mangaUrl: string, ...args: any) => Promise<IMangaInfo>;
+            fetchMangaInfo: (id: string, ...args: any) => Promise<IMangaInfo>;
         };
     };
+    private findMangaSlug;
+    private findMangaRaw;
+    private findManga;
 }
 export default Anilist;

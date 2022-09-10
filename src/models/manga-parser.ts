@@ -6,7 +6,7 @@ abstract class MangaParser extends BaseParser {
    *
    * returns manga info with chapters
    */
-  abstract fetchMangaInfo(mangaUrl: string, ...args: any): Promise<IMangaInfo>;
+  abstract fetchMangaInfo(mangaId: string, ...args: any): Promise<IMangaInfo>;
 
   /**
    * takes chapter id

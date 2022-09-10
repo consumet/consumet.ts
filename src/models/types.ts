@@ -170,13 +170,17 @@ export interface IMangaChapter {
   title: string;
   volume?: number;
   pages?: number;
+  releaseDate?: string;
   [x: string]: unknown; // other fields
 }
 
 export interface IMangaInfo extends IMangaResult {
+  malId?: number | string;
   authors?: string[];
   genres?: string[];
   links?: string[];
+  characters?: any[];
+  recommendations?: IMangaResult[];
   chapters?: IMangaChapter[];
 }
 

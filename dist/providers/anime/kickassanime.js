@@ -11,7 +11,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 const models_1 = require("../../models");
 /**
- * @attention Cloudflare bypass is **REQUIRED** for this provider.
+ * @attention Cloudflare bypass is **REQUIRED**.
  */
 class KickAssAnime extends models_1.AnimeParser {
     constructor() {

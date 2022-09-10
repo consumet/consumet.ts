@@ -1,6 +1,6 @@
 import { MangaParser, ISearch, IMangaInfo, IMangaResult, IMangaChapterPage } from '../../models';
 declare class Mangasee123 extends MangaParser {
-    readonly name = "Mangasee123";
+    readonly name = "MangaSee";
     protected baseUrl: string;
     protected logo: string;
     protected classPath: string;

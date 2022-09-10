@@ -49,7 +49,7 @@ class MangaHere extends MangaParser {
         .map((i, el) => ({
           id: $(el).find('a').attr('href')?.split('/manga/')[1].slice(0, -7)!,
           title: $(el).find('a > div > p.title3').text(),
-          releasedDate: $(el).find('a > div > p.title2').text(),
+          releasedDate: $(el).find('a > div > p.title2').text().trim(),
         }))
         .get();
 
@@ -72,9 +72,11 @@ class MangaHere extends MangaParser {
 
       const $ = load(data);
 
-      const copyrightHandle = $('p.detail-block-content').text().match('Dear user');
+      const copyrightHandle =
+        $('p.detail-block-content').text().match('Dear user') ||
+        $('p.detail-block-content').text().match('blocked');
       if (copyrightHandle) {
-        throw Error(copyrightHandle.input);
+        throw Error(copyrightHandle.input?.trim());
       }
 
       const bar = $('script[src*=chapter_bar]').data();
@@ -110,6 +112,7 @@ class MangaHere extends MangaParser {
               headers: {
                 Referer: url,
                 'X-Requested-With': 'XMLHttpRequest',
+                cookie: 'isAdult=1',
               },
             });
 
@@ -126,7 +129,7 @@ class MangaHere extends MangaParser {
           const baseLink = ds.substring(baseLinksp, baseLinkes);
 
           const imageLinksp = ds.indexOf('pvalue=') + 9;
-          const imageLinkes = ds.indexOf('"', imageLinksp) - 1;
+          const imageLinkes = ds.indexOf('"', imageLinksp);
           const imageLink = ds.substring(imageLinksp, imageLinkes);
 
           chapterPages.push({

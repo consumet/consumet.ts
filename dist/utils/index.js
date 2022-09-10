@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.days = exports.getDays = exports.anilistCharacterQuery = exports.Filemoon = exports.anilistSiteStatisticsQuery = exports.anilistAdvancedQuery = exports.anilistGenresQuery = exports.anilistAiringScheduleQuery = exports.anilistPopularAnimeQuery = exports.anilistTrendingAnimeQuery = exports.VizCloud = exports.StreamTape = exports.RapidCloud = exports.range = exports.kitsuSearchQuery = exports.anilistMediaDetailQuery = exports.anilistSearchQuery = exports.Kwik = exports.MixDrop = exports.VidCloud = exports.countDivs = exports.capitalizeFirstLetter = exports.genElement = exports.parsePostInfo = exports.formatTitle = exports.floorID = exports.splitAuthor = exports.StreamSB = exports.GogoCDN = exports.USER_AGENT = void 0;
+exports.days = exports.getDays = exports.anilistCharacterQuery = exports.Filemoon = exports.anilistSiteStatisticsQuery = exports.anilistAdvancedQuery = exports.anilistGenresQuery = exports.anilistAiringScheduleQuery = exports.anilistPopularQuery = exports.anilistTrendingQuery = exports.VizCloud = exports.StreamTape = exports.RapidCloud = exports.range = exports.kitsuSearchQuery = exports.anilistMediaDetailQuery = exports.anilistSearchQuery = exports.Kwik = exports.MixDrop = exports.VidCloud = exports.countDivs = exports.capitalizeFirstLetter = exports.genElement = exports.parsePostInfo = exports.formatTitle = exports.floorID = exports.splitAuthor = exports.StreamSB = exports.GogoCDN = exports.USER_AGENT = void 0;
 const extractors_1 = require("./extractors");
 Object.defineProperty(exports, "GogoCDN", { enumerable: true, get: function () { return extractors_1.GogoCDN; } });
 Object.defineProperty(exports, "StreamSB", { enumerable: true, get: function () { return extractors_1.StreamSB; } });
@@ -25,8 +25,8 @@ const queries_1 = require("./queries");
 Object.defineProperty(exports, "anilistSearchQuery", { enumerable: true, get: function () { return queries_1.anilistSearchQuery; } });
 Object.defineProperty(exports, "anilistMediaDetailQuery", { enumerable: true, get: function () { return queries_1.anilistMediaDetailQuery; } });
 Object.defineProperty(exports, "kitsuSearchQuery", { enumerable: true, get: function () { return queries_1.kitsuSearchQuery; } });
-Object.defineProperty(exports, "anilistTrendingAnimeQuery", { enumerable: true, get: function () { return queries_1.anilistTrendingAnimeQuery; } });
-Object.defineProperty(exports, "anilistPopularAnimeQuery", { enumerable: true, get: function () { return queries_1.anilistPopularAnimeQuery; } });
+Object.defineProperty(exports, "anilistTrendingQuery", { enumerable: true, get: function () { return queries_1.anilistTrendingQuery; } });
+Object.defineProperty(exports, "anilistPopularQuery", { enumerable: true, get: function () { return queries_1.anilistPopularQuery; } });
 Object.defineProperty(exports, "anilistAiringScheduleQuery", { enumerable: true, get: function () { return queries_1.anilistAiringScheduleQuery; } });
 Object.defineProperty(exports, "anilistGenresQuery", { enumerable: true, get: function () { return queries_1.anilistGenresQuery; } });
 Object.defineProperty(exports, "anilistAdvancedQuery", { enumerable: true, get: function () { return queries_1.anilistAdvancedQuery; } });

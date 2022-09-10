@@ -18,8 +18,8 @@ const models_1 = require("../../models");
 const utils_1 = require("../../utils");
 const gogoanime_1 = __importDefault(require("../../providers/anime/gogoanime"));
 const enime_1 = __importDefault(require("../anime/enime"));
-const mangadex_1 = __importDefault(require("../manga/mangadex"));
 const zoro_1 = __importDefault(require("../anime/zoro"));
+const mangasee123_1 = __importDefault(require("../manga/mangasee123"));
 class Anilist extends models_1.AnimeParser {
     /**
      * This class maps anilist to kitsu with any other anime provider.
@@ -362,7 +362,7 @@ class Anilist extends models_1.AnimeParser {
                 if (this.provider instanceof zoro_1.default &&
                     !dub &&
                     (animeInfo.status === models_1.MediaStatus.ONGOING ||
-                        (0, utils_1.range)({ from: 2019, to: new Date().getFullYear() + 1 }).includes(parseInt(animeInfo.releaseDate)))) {
+                        (0, utils_1.range)({ from: 2018, to: new Date().getFullYear() + 1 }).includes(parseInt(animeInfo.releaseDate)))) {
                     try {
                         animeInfo.episodes = (_r = (yield new enime_1.default().fetchAnimeInfoByAnilistId(id)).episodes) === null || _r === void 0 ? void 0 : _r.map((item) => ({
                             id: item.slug,
@@ -545,7 +545,7 @@ class Anilist extends models_1.AnimeParser {
                     'Content-Type': 'application/json',
                     Accept: 'application/json',
                 },
-                query: (0, utils_1.anilistTrendingAnimeQuery)(page, perPage),
+                query: (0, utils_1.anilistTrendingQuery)(page, perPage),
             };
             try {
                 const { data } = yield axios_1.default.post(this.anilistGraphqlUrl, options);
@@ -609,7 +609,7 @@ class Anilist extends models_1.AnimeParser {
                     'Content-Type': 'application/json',
                     Accept: 'application/json',
                 },
-                query: (0, utils_1.anilistPopularAnimeQuery)(page, perPage),
+                query: (0, utils_1.anilistPopularQuery)(page, perPage),
             };
             try {
                 const { data } = yield axios_1.default.post(this.anilistGraphqlUrl, options);
@@ -878,7 +878,7 @@ class Anilist extends models_1.AnimeParser {
             if (this.provider instanceof zoro_1.default &&
                 !dub &&
                 (Media.status === 'RELEASING' ||
-                    (0, utils_1.range)({ from: 2019, to: new Date().getFullYear() + 1 }).includes(parseInt((_3 = Media.startDate) === null || _3 === void 0 ? void 0 : _3.year)))) {
+                    (0, utils_1.range)({ from: 2018, to: new Date().getFullYear() + 1 }).includes(parseInt((_3 = Media.startDate) === null || _3 === void 0 ? void 0 : _3.year)))) {
                 try {
                     possibleAnimeEpisodes = (_4 = (yield new enime_1.default().fetchAnimeInfoByAnilistId(id)).episodes) === null || _4 === void 0 ? void 0 : _4.map((item) => ({
                         id: item.slug,
@@ -1092,7 +1092,9 @@ class Anilist extends models_1.AnimeParser {
          * @param id staff id from anilist
          *
          */
-        this.fetchStaffById = (id) => __awaiter(this, void 0, void 0, function* () { });
+        this.fetchStaffById = (id) => __awaiter(this, void 0, void 0, function* () {
+            throw new Error('Not implemented yet');
+        });
         /**
          *
          * @param id character id from anilist
@@ -1217,6 +1219,63 @@ class Anilist extends models_1.AnimeParser {
                 throw new Error(err.message);
             }
         });
+        this.findMangaSlug = (provider, title, malId) => __awaiter(this, void 0, void 0, function* () {
+            const slug = title.replace(/[^0-9a-zA-Z]+/g, ' ');
+            let possibleManga;
+            if (malId) {
+                const malAsyncReq = yield (0, axios_1.default)({
+                    method: 'GET',
+                    url: `${this.malSyncUrl}/mal/manga/${malId}`,
+                    validateStatus: () => true,
+                });
+                if (malAsyncReq.status === 200) {
+                    const sitesT = malAsyncReq.data.Sites;
+                    let sites = Object.values(sitesT).map((v, i) => {
+                        const obj = [...Object.values(Object.values(sitesT)[i])];
+                        const pages = obj.map(v => ({ page: v.page, url: v.url, title: v.title }));
+                        return pages;
+                    });
+                    sites = sites.flat();
+                    const possibleSource = sites.find(s => s.page.toLowerCase() === provider.name.toLowerCase());
+                    if (possibleSource)
+                        possibleManga = yield provider.fetchMangaInfo(possibleSource.url.split('/').pop());
+                    else
+                        possibleManga = yield this.findMangaRaw(provider, slug, title);
+                }
+                else
+                    possibleManga = yield this.findMangaRaw(provider, slug, title);
+            }
+            else
+                possibleManga = yield this.findMangaRaw(provider, slug, title);
+            const possibleProviderChapters = possibleManga.chapters;
+            return possibleProviderChapters;
+        });
+        this.findMangaRaw = (provider, slug, title) => __awaiter(this, void 0, void 0, function* () {
+            const findAnime = (yield provider.search(slug));
+            if (findAnime.results.length === 0)
+                return [];
+            // TODO: use much better way than this
+            const possibleManga = findAnime.results.find((manga) => title.toLowerCase() == (typeof manga.title === 'string' ? manga.title.toLowerCase() : ''));
+            if (!possibleManga)
+                return (yield provider.fetchMangaInfo(findAnime.results[0].id));
+            return (yield provider.fetchMangaInfo(possibleManga.id));
+        });
+        this.findManga = (provider, title, malId) => __awaiter(this, void 0, void 0, function* () {
+            var _59, _60;
+            title.english = (_59 = title.english) !== null && _59 !== void 0 ? _59 : title.romaji;
+            title.romaji = (_60 = title.romaji) !== null && _60 !== void 0 ? _60 : title.english;
+            title.english = title.english.toLowerCase();
+            title.romaji = title.romaji.toLowerCase();
+            if (title.english === title.romaji) {
+                return yield this.findMangaSlug(provider, title.english, malId);
+            }
+            const romajiPossibleEpisodes = this.findMangaSlug(provider, title.romaji, malId);
+            if (romajiPossibleEpisodes) {
+                return romajiPossibleEpisodes;
+            }
+            const englishPossibleEpisodes = this.findMangaSlug(provider, title.english, malId);
+            return englishPossibleEpisodes;
+        });
         this.provider = provider || new gogoanime_1.default();
     }
 }
@@ -1226,20 +1285,238 @@ _a = Anilist;
  */
 Anilist.Anime = _a;
 /**
- * TODO: Anilist Manga Class
+ * Anilist Manga Class
  */
 Anilist.Manga = class Manga {
+    /**
+     * Maps anilist manga to any manga provider (mangadex, mangasee, etc)
+     * @param provider MangaParser
+     */
     constructor(provider) {
-        this.search = (query, ...args) => {
-            throw new Error('Method not implemented.');
-        };
+        /**
+         *
+         * @param query query to search for
+         * @param page (optional) page number (default: `1`)
+         * @param perPage (optional) number of results per page (default: `20`)
+         */
+        this.search = (query, page = 1, perPage = 20) => __awaiter(this, void 0, void 0, function* () {
+            const options = {
+                headers: {
+                    'Content-Type': 'application/json',
+                    Accept: 'application/json',
+                },
+                query: (0, utils_1.anilistSearchQuery)(query, page, perPage, 'MANGA'),
+            };
+            try {
+                const { data } = yield axios_1.default.post(new Anilist().anilistGraphqlUrl, options);
+                const res = {
+                    currentPage: data.data.Page.pageInfo.currentPage,
+                    hasNextPage: data.data.Page.pageInfo.hasNextPage,
+                    results: data.data.Page.media.map((item) => {
+                        var _b, _c, _d, _e, _f, _g;
+                        return ({
+                            id: item.id.toString(),
+                            malId: item.idMal,
+                            title: {
+                                romaji: item.title.romaji,
+                                english: item.title.english,
+                                native: item.title.native,
+                                userPreferred: item.title.userPreferred,
+                            } || item.title.romaji,
+                            status: item.status == 'RELEASING'
+                                ? models_1.MediaStatus.ONGOING
+                                : item.status == 'FINISHED'
+                                    ? models_1.MediaStatus.COMPLETED
+                                    : item.status == 'NOT_YET_RELEASED'
+                                        ? models_1.MediaStatus.NOT_YET_AIRED
+                                        : item.status == 'CANCELLED'
+                                            ? models_1.MediaStatus.CANCELLED
+                                            : item.status == 'HIATUS'
+                                                ? models_1.MediaStatus.HIATUS
+                                                : models_1.MediaStatus.UNKNOWN,
+                            image: (_e = (_c = (_b = item.coverImage) === null || _b === void 0 ? void 0 : _b.extraLarge) !== null && _c !== void 0 ? _c : (_d = item.coverImage) === null || _d === void 0 ? void 0 : _d.large) !== null && _e !== void 0 ? _e : (_f = item.coverImage) === null || _f === void 0 ? void 0 : _f.medium,
+                            cover: item.bannerImage,
+                            popularity: item.popularity,
+                            description: item.description,
+                            rating: item.averageScore,
+                            genres: item.genres,
+                            color: (_g = item.coverImage) === null || _g === void 0 ? void 0 : _g.color,
+                            totalChapters: item.chapters,
+                            volumes: item.volumes,
+                            type: item.format,
+                            releaseDate: item.seasonYear,
+                        });
+                    }),
+                };
+                return res;
+            }
+            catch (err) {
+                throw new Error(err.message);
+            }
+        });
+        /**
+         *
+         * @param chapterId chapter id
+         * @param args args to pass to the provider (if any)
+         * @returns
+         */
         this.fetchChapterPages = (chapterId, ...args) => {
-            throw new Error('Method not implemented.');
+            return this.provider.fetchChapterPages(chapterId, ...args);
         };
-        this.fetchMangaInfo = (mangaUrl, ...args) => {
-            throw new Error('Method not implemented.');
-        };
-        this.provider = provider || new mangadex_1.default();
+        this.fetchMangaInfo = (id, ...args) => __awaiter(this, void 0, void 0, function* () {
+            var _b, _c, _d, _e, _f, _g, _h;
+            const mangaInfo = {
+                id: id,
+                title: '',
+            };
+            const options = {
+                headers: {
+                    'Content-Type': 'application/json',
+                    Accept: 'application/json',
+                },
+                query: (0, utils_1.anilistMediaDetailQuery)(id),
+            };
+            try {
+                const { data } = yield axios_1.default.post(new Anilist().anilistGraphqlUrl, options).catch(err => {
+                    throw new Error('Media not found');
+                });
+                mangaInfo.malId = data.data.Media.idMal;
+                mangaInfo.title = {
+                    romaji: data.data.Media.title.romaji,
+                    english: data.data.Media.title.english,
+                    native: data.data.Media.title.native,
+                    userPreferred: data.data.Media.title.userPreferred,
+                };
+                if ((_b = data.data.Media.trailer) === null || _b === void 0 ? void 0 : _b.id) {
+                    mangaInfo.trailer = {
+                        id: data.data.Media.trailer.id,
+                        site: (_c = data.data.Media.trailer) === null || _c === void 0 ? void 0 : _c.site,
+                        thumbnail: (_d = data.data.Media.trailer) === null || _d === void 0 ? void 0 : _d.thumbnail,
+                    };
+                }
+                mangaInfo.image =
+                    (_f = (_e = data.data.Media.coverImage.extraLarge) !== null && _e !== void 0 ? _e : data.data.Media.coverImage.large) !== null && _f !== void 0 ? _f : data.data.Media.coverImage.medium;
+                mangaInfo.popularity = data.data.Media.popularity;
+                mangaInfo.color = (_g = data.data.Media.coverImage) === null || _g === void 0 ? void 0 : _g.color;
+                mangaInfo.cover = (_h = data.data.Media.bannerImage) !== null && _h !== void 0 ? _h : mangaInfo.image;
+                mangaInfo.description = data.data.Media.description;
+                switch (data.data.Media.status) {
+                    case 'RELEASING':
+                        mangaInfo.status = models_1.MediaStatus.ONGOING;
+                        break;
+                    case 'FINISHED':
+                        mangaInfo.status = models_1.MediaStatus.COMPLETED;
+                        break;
+                    case 'NOT_YET_RELEASED':
+                        mangaInfo.status = models_1.MediaStatus.NOT_YET_AIRED;
+                        break;
+                    case 'CANCELLED':
+                        mangaInfo.status = models_1.MediaStatus.CANCELLED;
+                        break;
+                    case 'HIATUS':
+                        mangaInfo.status = models_1.MediaStatus.HIATUS;
+                    default:
+                        mangaInfo.status = models_1.MediaStatus.UNKNOWN;
+                }
+                mangaInfo.releaseDate = data.data.Media.startDate.year;
+                mangaInfo.startDate = {
+                    year: data.data.Media.startDate.year,
+                    month: data.data.Media.startDate.month,
+                    day: data.data.Media.startDate.day,
+                };
+                mangaInfo.endDate = {
+                    year: data.data.Media.endDate.year,
+                    month: data.data.Media.endDate.month,
+                    day: data.data.Media.endDate.day,
+                };
+                mangaInfo.rating = data.data.Media.averageScore;
+                mangaInfo.genres = data.data.Media.genres;
+                mangaInfo.season = data.data.Media.season;
+                mangaInfo.studios = data.data.Media.studios.edges.map((item) => item.node.name);
+                mangaInfo.type = data.data.Media.format;
+                mangaInfo.recommendations = data.data.Media.recommendations.edges.map((item) => {
+                    var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s, _t, _u, _v, _w, _x, _y, _z, _0, _1, _2, _3, _4, _5, _6, _7, _8, _9, _10, _11, _12;
+                    return ({
+                        id: (_b = item.node.mediaRecommendation) === null || _b === void 0 ? void 0 : _b.id,
+                        malId: (_c = item.node.mediaRecommendation) === null || _c === void 0 ? void 0 : _c.idMal,
+                        title: {
+                            romaji: (_e = (_d = item.node.mediaRecommendation) === null || _d === void 0 ? void 0 : _d.title) === null || _e === void 0 ? void 0 : _e.romaji,
+                            english: (_g = (_f = item.node.mediaRecommendation) === null || _f === void 0 ? void 0 : _f.title) === null || _g === void 0 ? void 0 : _g.english,
+                            native: (_j = (_h = item.node.mediaRecommendation) === null || _h === void 0 ? void 0 : _h.title) === null || _j === void 0 ? void 0 : _j.native,
+                            userPreferred: (_l = (_k = item.node.mediaRecommendation) === null || _k === void 0 ? void 0 : _k.title) === null || _l === void 0 ? void 0 : _l.userPreferred,
+                        },
+                        status: ((_m = item.node.mediaRecommendation) === null || _m === void 0 ? void 0 : _m.status) == 'RELEASING'
+                            ? models_1.MediaStatus.ONGOING
+                            : ((_o = item.node.mediaRecommendation) === null || _o === void 0 ? void 0 : _o.status) == 'FINISHED'
+                                ? models_1.MediaStatus.COMPLETED
+                                : ((_p = item.node.mediaRecommendation) === null || _p === void 0 ? void 0 : _p.status) == 'NOT_YET_RELEASED'
+                                    ? models_1.MediaStatus.NOT_YET_AIRED
+                                    : ((_q = item.node.mediaRecommendation) === null || _q === void 0 ? void 0 : _q.status) == 'CANCELLED'
+                                        ? models_1.MediaStatus.CANCELLED
+                                        : ((_r = item.node.mediaRecommendation) === null || _r === void 0 ? void 0 : _r.status) == 'HIATUS'
+                                            ? models_1.MediaStatus.HIATUS
+                                            : models_1.MediaStatus.UNKNOWN,
+                        chapters: (_s = item.node.mediaRecommendation) === null || _s === void 0 ? void 0 : _s.chapters,
+                        image: (_y = (_v = (_u = (_t = item.node.mediaRecommendation) === null || _t === void 0 ? void 0 : _t.coverImage) === null || _u === void 0 ? void 0 : _u.extraLarge) !== null && _v !== void 0 ? _v : (_x = (_w = item.node.mediaRecommendation) === null || _w === void 0 ? void 0 : _w.coverImage) === null || _x === void 0 ? void 0 : _x.large) !== null && _y !== void 0 ? _y : (_0 = (_z = item.node.mediaRecommendation) === null || _z === void 0 ? void 0 : _z.coverImage) === null || _0 === void 0 ? void 0 : _0.medium,
+                        cover: (_8 = (_5 = (_2 = (_1 = item.node.mediaRecommendation) === null || _1 === void 0 ? void 0 : _1.bannerImage) !== null && _2 !== void 0 ? _2 : (_4 = (_3 = item.node.mediaRecommendation) === null || _3 === void 0 ? void 0 : _3.coverImage) === null || _4 === void 0 ? void 0 : _4.extraLarge) !== null && _5 !== void 0 ? _5 : (_7 = (_6 = item.node.mediaRecommendation) === null || _6 === void 0 ? void 0 : _6.coverImage) === null || _7 === void 0 ? void 0 : _7.large) !== null && _8 !== void 0 ? _8 : (_10 = (_9 = item.node.mediaRecommendation) === null || _9 === void 0 ? void 0 : _9.coverImage) === null || _10 === void 0 ? void 0 : _10.medium,
+                        rating: (_11 = item.node.mediaRecommendation) === null || _11 === void 0 ? void 0 : _11.meanScore,
+                        type: (_12 = item.node.mediaRecommendation) === null || _12 === void 0 ? void 0 : _12.format,
+                    });
+                });
+                mangaInfo.characters = data.data.Media.characters.edges.map((item) => {
+                    var _b, _c;
+                    return ({
+                        id: (_b = item.node) === null || _b === void 0 ? void 0 : _b.id,
+                        role: item.role,
+                        name: {
+                            first: item.node.name.first,
+                            last: item.node.name.last,
+                            full: item.node.name.full,
+                            native: item.node.name.native,
+                            userPreferred: item.node.name.userPreferred,
+                        },
+                        image: (_c = item.node.image.large) !== null && _c !== void 0 ? _c : item.node.image.medium,
+                    });
+                });
+                mangaInfo.relations = data.data.Media.relations.edges.map((item) => {
+                    var _b, _c, _d, _e, _f, _g;
+                    return ({
+                        id: item.node.id,
+                        relationType: item.relationType,
+                        malId: item.node.idMal,
+                        title: {
+                            romaji: item.node.title.romaji,
+                            english: item.node.title.english,
+                            native: item.node.title.native,
+                            userPreferred: item.node.title.userPreferred,
+                        },
+                        status: item.node.status == 'RELEASING'
+                            ? models_1.MediaStatus.ONGOING
+                            : item.node.status == 'FINISHED'
+                                ? models_1.MediaStatus.COMPLETED
+                                : item.node.status == 'NOT_YET_RELEASED'
+                                    ? models_1.MediaStatus.NOT_YET_AIRED
+                                    : item.node.status == 'CANCELLED'
+                                        ? models_1.MediaStatus.CANCELLED
+                                        : item.node.status == 'HIATUS'
+                                            ? models_1.MediaStatus.HIATUS
+                                            : models_1.MediaStatus.UNKNOWN,
+                        chapters: item.node.chapters,
+                        image: (_c = (_b = item.node.coverImage.extraLarge) !== null && _b !== void 0 ? _b : item.node.coverImage.large) !== null && _c !== void 0 ? _c : item.node.coverImage.medium,
+                        color: (_d = item.node.coverImage) === null || _d === void 0 ? void 0 : _d.color,
+                        type: item.node.format,
+                        cover: (_g = (_f = (_e = item.node.bannerImage) !== null && _e !== void 0 ? _e : item.node.coverImage.extraLarge) !== null && _f !== void 0 ? _f : item.node.coverImage.large) !== null && _g !== void 0 ? _g : item.node.coverImage.medium,
+                        rating: item.node.meanScore,
+                    });
+                });
+                mangaInfo.chapters = yield new Anilist().findManga(this.provider, { english: mangaInfo.title.english, romaji: mangaInfo.title.romaji }, mangaInfo.malId);
+                return mangaInfo;
+            }
+            catch (error) {
+                throw Error(error.message);
+            }
+        });
+        this.provider = provider || new mangasee123_1.default();
     }
 };
 exports.default = Anilist;

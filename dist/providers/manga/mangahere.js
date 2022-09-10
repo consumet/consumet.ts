@@ -62,7 +62,7 @@ class MangaHere extends models_1.MangaParser {
                     return ({
                         id: (_a = $(el).find('a').attr('href')) === null || _a === void 0 ? void 0 : _a.split('/manga/')[1].slice(0, -7),
                         title: $(el).find('a > div > p.title3').text(),
-                        releasedDate: $(el).find('a > div > p.title2').text(),
+                        releasedDate: $(el).find('a > div > p.title2').text().trim(),
                     });
                 })
                     .get();
@@ -73,7 +73,7 @@ class MangaHere extends models_1.MangaParser {
             }
         });
         this.fetchChapterPages = (chapterId) => __awaiter(this, void 0, void 0, function* () {
-            var _a;
+            var _a, _b;
             const chapterPages = [];
             const url = `${this.baseUrl}/manga/${chapterId}/1.html`;
             try {
@@ -83,9 +83,10 @@ class MangaHere extends models_1.MangaParser {
                     },
                 });
                 const $ = (0, cheerio_1.load)(data);
-                const copyrightHandle = $('p.detail-block-content').text().match('Dear user');
+                const copyrightHandle = $('p.detail-block-content').text().match('Dear user') ||
+                    $('p.detail-block-content').text().match('blocked');
                 if (copyrightHandle) {
-                    throw Error(copyrightHandle.input);
+                    throw Error((_a = copyrightHandle.input) === null || _a === void 0 ? void 0 : _a.trim());
                 }
                 const bar = $('script[src*=chapter_bar]').data();
                 const html = $.html();
@@ -102,7 +103,7 @@ class MangaHere extends models_1.MangaParser {
                     const chapterIdsl = html.indexOf('chapterid');
                     const chapterId = html.substring(chapterIdsl + 11, html.indexOf(';', chapterIdsl)).trim();
                     const chapterPagesElmnt = $('body > div:nth-child(6) > div > span').children('a');
-                    const pages = parseInt((_a = chapterPagesElmnt.last().prev().attr('data-page')) !== null && _a !== void 0 ? _a : '0');
+                    const pages = parseInt((_b = chapterPagesElmnt.last().prev().attr('data-page')) !== null && _b !== void 0 ? _b : '0');
                     const pageBase = url.substring(0, url.lastIndexOf('/'));
                     let resText = '';
                     for (let i = 1; i <= pages; i++) {
@@ -112,6 +113,7 @@ class MangaHere extends models_1.MangaParser {
                                 headers: {
                                     Referer: url,
                                     'X-Requested-With': 'XMLHttpRequest',
+                                    cookie: 'isAdult=1',
                                 },
                             });
                             resText = data;
@@ -125,7 +127,7 @@ class MangaHere extends models_1.MangaParser {
                         const baseLinkes = ds.indexOf(';', baseLinksp) - 1;
                         const baseLink = ds.substring(baseLinksp, baseLinkes);
                         const imageLinksp = ds.indexOf('pvalue=') + 9;
-                        const imageLinkes = ds.indexOf('"', imageLinksp) - 1;
+                        const imageLinkes = ds.indexOf('"', imageLinksp);
                         const imageLink = ds.substring(imageLinksp, imageLinkes);
                         chapterPages.push({
                             page: i - 1,

@@ -13,7 +13,7 @@ import {
 } from '../../models';
 
 /**
- * @attention Cloudflare bypass is **REQUIRED** for this provider.
+ * @attention Cloudflare bypass is **REQUIRED**.
  */
 class KickAssAnime extends AnimeParser {
   override readonly name = 'KickAssAnime';

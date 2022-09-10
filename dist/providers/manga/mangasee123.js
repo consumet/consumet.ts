@@ -19,7 +19,7 @@ const models_1 = require("../../models");
 class Mangasee123 extends models_1.MangaParser {
     constructor() {
         super(...arguments);
-        this.name = 'Mangasee123';
+        this.name = 'MangaSee';
         this.baseUrl = 'https://mangasee123.com';
         this.logo = 'https://scontent.fman4-1.fna.fbcdn.net/v/t1.6435-1/80033336_1830005343810810_419412485691408384_n.png?stp=dst-png_p148x148&_nc_cat=104&ccb=1-7&_nc_sid=1eb0c7&_nc_ohc=XpeoABDI-sEAX-5hLFV&_nc_ht=scontent.fman4-1.fna&oh=00_AT9nIRz5vPiNqqzNpSg2bJymX22rZ1JumYTKBqg_cD0Alg&oe=6317290E';
         this.classPath = 'MANGA.Mangasee123';
@@ -45,10 +45,14 @@ class Mangasee123 extends models_1.MangaParser {
                 const contentScript = $('body > script:nth-child(16)').get()[0].children[0];
                 if ((0, domhandler_1.isText)(contentScript)) {
                     const chaptersData = this.processScriptTagVariable(contentScript.data, 'vm.Chapters = ');
-                    mangaInfo.chapters = chaptersData.map((i) => ({
-                        id: `${mangaId}-chapter-${this.processChapterNumber(i['Chapter'])}`,
-                        title: `${i['ChapterName']}`,
-                    }));
+                    mangaInfo.chapters = chaptersData.map((i) => {
+                        var _a;
+                        return ({
+                            id: `${mangaId}-chapter-${this.processChapterNumber(i['Chapter'])}`,
+                            title: `${(_a = i['ChapterName']) !== null && _a !== void 0 ? _a : `Chapter ${this.processChapterNumber(i['Chapter'])}`}`,
+                            releaseDate: i['Date'],
+                        });
+                    });
                 }
                 return mangaInfo;
             }

@@ -36,6 +36,7 @@ consumet.ts is a Node library which provides high-level APIs to get information 
 - [Contributing](#contributing)
 - [Support](#support)
 - [Contributors ✨](#contributors-)
+  - [Credits](#credits)
 - [License](#license)
 
 ## Quick Start
@@ -114,6 +115,9 @@ You can contact the maintainers of consumet.ts via [email](mailto:consumet.org@g
 Thanks to the following people for keeping this project alive and thriving.
 
 [![](https://avatars.githubusercontent.com/u/57333995?s=50)](https://github.com/riimuru) [![](https://avatars.githubusercontent.com/u/80477926?s=50)](https://github.com/prince-ao) [![](https://avatars.githubusercontent.com/u/98132263?s=50)](https://github.com/JLdev0) [![](https://avatars.githubusercontent.com/u/48152635?s=50)](https://github.com/notSagyo) [![](https://avatars.githubusercontent.com/u/23521035?s=50)](https://github.com/vanelk) [![](https://avatars.githubusercontent.com/u/53954981?s=50)](https://github.com/aidanjuma) [![](https://avatars.githubusercontent.com/u/33759526?s=50)](https://github.com/5H4D0WILA) [![](https://avatars.githubusercontent.com/u/85594230?s=50)](https://github.com/LuckyYam)
+
+### Credits
+- [Enime API](https://github.com/Enime-Project/api.enime.moe) - Used as a caching layer for the meta/anilist provider to speed up responses. 
 
 ## License
 Licensed under [MIT](./LICENSE).
