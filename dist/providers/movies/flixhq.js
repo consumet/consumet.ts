@@ -94,6 +94,7 @@ class FlixHQ extends models_1.MovieParser {
                     .map((i, el) => $(el).text())
                     .get();
                 movieInfo.production = $('div.row-line:nth-child(4) > a:nth-child(2)').text();
+                movieInfo.country = $('div.row-line:nth-child(1) > a:nth-child(2)').text();
                 movieInfo.duration = $('span.item:nth-child(3)').text();
                 movieInfo.rating = parseFloat($('span.item:nth-child(2)').text());
                 let ajaxReqUrl = (id, type, isSeasons = false) => `${this.baseUrl}/ajax/${type === 'movie' ? type : `v2/${type}`}/${isSeasons ? 'seasons' : 'episodes'}/${id}`;

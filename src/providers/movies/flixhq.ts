@@ -100,6 +100,7 @@ class FlixHQ extends MovieParser {
         .map((i, el) => $(el).text())
         .get();
       movieInfo.production = $('div.row-line:nth-child(4) > a:nth-child(2)').text();
+      movieInfo.country = $('div.row-line:nth-child(1) > a:nth-child(2)').text();
       movieInfo.duration = $('span.item:nth-child(3)').text();
       movieInfo.rating = parseFloat($('span.item:nth-child(2)').text());
 
