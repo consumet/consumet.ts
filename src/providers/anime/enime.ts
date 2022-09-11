@@ -138,8 +138,9 @@ class Enime extends AnimeParser {
       (episode: any): IAnimeEpisode => ({
         id: episode.id,
         slug: episode.sources
-          .find((source: any) => source.target.includes('zoro.to'))
-          ?.target.split('/')[4]
+          .find((source: any) => source.target.includes('?ep='))
+          ?.target.split('/')
+          .pop()
           .replace('?ep=', '$episode$')!,
         description: episode.description,
         number: episode.number,
