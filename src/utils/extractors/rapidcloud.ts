@@ -9,6 +9,7 @@ class RapidCloud extends VideoExtractor {
   protected override serverName = 'RapidCloud';
   protected override sources: IVideo[] = [];
 
+  private readonly key = '06a641c0e5111449';
   private readonly host = 'https://rapid-cloud.co';
   private readonly consumetApi = 'https://consumet-api.herokuapp.com';
   private readonly enimeApi = 'https://api.enime.moe';
@@ -42,13 +43,15 @@ class RapidCloud extends VideoExtractor {
         });
       }
 
-      res = await axios.get(`${this.host}/ajax/embed-6/getSources?id=${id}`, options);
-      console.log(`${this.host}/ajax/embed-6/getSources?id=${id}`);
-      const {
-        data: { sources, tracks, intro },
+      res = await axios.get(`${this.host}/ajax/embed-6/getSources?id=${id}&sId=${sId}`, options);
+
+      let {
+        data: { sources, tracks, intro, encrypted },
       } = res;
 
-      if (typeof sources === 'string') throw new Error('Video not found');
+      if (encrypted) {
+        sources = JSON.parse(CryptoJS.AES.decrypt(sources, this.key).toString(CryptoJS.enc.Utf8));
+      }
 
       this.sources = sources?.map((s: any) => ({
         url: s.file,
