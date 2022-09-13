@@ -105,7 +105,7 @@ class Enime extends AnimeParser {
   /**
    * @param id anilist id
    */
-  fetchAnimeInfoByAnilistId = async (id: string): Promise<IAnimeInfo> => {
+  fetchAnimeInfoByAnilistId = async (id: string, type?: 'gogoanime' | 'zoro'): Promise<IAnimeInfo> => {
     const animeInfo: IAnimeInfo = {
       id: id,
       title: '',
@@ -138,7 +138,9 @@ class Enime extends AnimeParser {
       (episode: any): IAnimeEpisode => ({
         id: episode.id,
         slug: episode.sources
-          .find((source: any) => source.target.includes('?ep='))
+          .find((source: any) =>
+            type === 'zoro' ? source.target.includes('?ep=') : source.target.includes('episode')
+          )
           ?.target.split('/')
           .pop()
           .replace('?ep=', '$episode$')!,

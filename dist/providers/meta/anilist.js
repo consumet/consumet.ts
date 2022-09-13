@@ -359,12 +359,12 @@ class Anilist extends models_1.AnimeParser {
                         rating: item.node.meanScore,
                     });
                 });
-                if (this.provider instanceof zoro_1.default &&
+                if ((this.provider instanceof zoro_1.default || this.provider instanceof gogoanime_1.default) &&
                     !dub &&
                     (animeInfo.status === models_1.MediaStatus.ONGOING ||
-                        (0, utils_1.range)({ from: 2018, to: new Date().getFullYear() + 1 }).includes(parseInt(animeInfo.releaseDate)))) {
+                        (0, utils_1.range)({ from: 2014, to: new Date().getFullYear() + 1 }).includes(parseInt(animeInfo.releaseDate)))) {
                     try {
-                        animeInfo.episodes = (_r = (yield new enime_1.default().fetchAnimeInfoByAnilistId(id)).episodes) === null || _r === void 0 ? void 0 : _r.map((item) => ({
+                        animeInfo.episodes = (_r = (yield new enime_1.default().fetchAnimeInfoByAnilistId(id, this.provider.name.toLowerCase())).episodes) === null || _r === void 0 ? void 0 : _r.map((item) => ({
                             id: item.slug,
                             title: item.title,
                             description: item.description,
@@ -875,10 +875,10 @@ class Anilist extends models_1.AnimeParser {
             };
             const { data: { data: { Media }, }, } = yield axios_1.default.post(this.anilistGraphqlUrl, options);
             let possibleAnimeEpisodes = [];
-            if (this.provider instanceof zoro_1.default &&
+            if ((this.provider instanceof zoro_1.default || this.provider instanceof gogoanime_1.default) &&
                 !dub &&
                 (Media.status === 'RELEASING' ||
-                    (0, utils_1.range)({ from: 2018, to: new Date().getFullYear() + 1 }).includes(parseInt((_3 = Media.startDate) === null || _3 === void 0 ? void 0 : _3.year)))) {
+                    (0, utils_1.range)({ from: 2014, to: new Date().getFullYear() + 1 }).includes(parseInt((_3 = Media.startDate) === null || _3 === void 0 ? void 0 : _3.year)))) {
                 try {
                     possibleAnimeEpisodes = (_4 = (yield new enime_1.default().fetchAnimeInfoByAnilistId(id)).episodes) === null || _4 === void 0 ? void 0 : _4.map((item) => ({
                         id: item.slug,

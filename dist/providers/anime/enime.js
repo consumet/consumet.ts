@@ -94,7 +94,7 @@ class Enime extends models_1.AnimeParser {
         /**
          * @param id anilist id
          */
-        this.fetchAnimeInfoByAnilistId = (id) => __awaiter(this, void 0, void 0, function* () {
+        this.fetchAnimeInfoByAnilistId = (id, type) => __awaiter(this, void 0, void 0, function* () {
             var _c, _d;
             const animeInfo = {
                 id: id,
@@ -125,7 +125,7 @@ class Enime extends models_1.AnimeParser {
                 return ({
                     id: episode.id,
                     slug: (_a = episode.sources
-                        .find((source) => source.target.includes('?ep='))) === null || _a === void 0 ? void 0 : _a.target.split('/').pop().replace('?ep=', '$episode$'),
+                        .find((source) => type === 'zoro' ? source.target.includes('?ep=') : source.target.includes('episode'))) === null || _a === void 0 ? void 0 : _a.target.split('/').pop().replace('?ep=', '$episode$'),
                     description: episode.description,
                     number: episode.number,
                     title: episode.title,

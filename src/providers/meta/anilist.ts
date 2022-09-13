@@ -414,21 +414,24 @@ class Anilist extends AnimeParser {
       }));
 
       if (
-        this.provider instanceof Zoro &&
+        (this.provider instanceof Zoro || this.provider instanceof Gogoanime) &&
         !dub &&
         (animeInfo.status === MediaStatus.ONGOING ||
-          range({ from: 2018, to: new Date().getFullYear() + 1 }).includes(parseInt(animeInfo.releaseDate!)))
+          range({ from: 2014, to: new Date().getFullYear() + 1 }).includes(parseInt(animeInfo.releaseDate!)))
       ) {
         try {
-          animeInfo.episodes = (await new Enime().fetchAnimeInfoByAnilistId(id)).episodes?.map(
-            (item: any) => ({
-              id: item.slug,
-              title: item.title,
-              description: item.description,
-              number: item.number,
-              image: item.image,
-            })
-          );
+          animeInfo.episodes = (
+            await new Enime().fetchAnimeInfoByAnilistId(
+              id,
+              this.provider.name.toLowerCase() as 'gogoanime' | 'zoro'
+            )
+          ).episodes?.map((item: any) => ({
+            id: item.slug,
+            title: item.title,
+            description: item.description,
+            number: item.number,
+            image: item.image,
+          }));
           animeInfo.episodes?.reverse();
         } catch (err) {
           animeInfo.episodes = await this.fetchDefaultEpisodeList(
@@ -1051,10 +1054,10 @@ class Anilist extends AnimeParser {
 
     let possibleAnimeEpisodes: IAnimeEpisode[] = [];
     if (
-      this.provider instanceof Zoro &&
+      (this.provider instanceof Zoro || this.provider instanceof Gogoanime) &&
       !dub &&
       (Media.status === 'RELEASING' ||
-        range({ from: 2018, to: new Date().getFullYear() + 1 }).includes(parseInt(Media.startDate?.year!)))
+        range({ from: 2014, to: new Date().getFullYear() + 1 }).includes(parseInt(Media.startDate?.year!)))
     ) {
       try {
         possibleAnimeEpisodes = (await new Enime().fetchAnimeInfoByAnilistId(id)).episodes?.map(

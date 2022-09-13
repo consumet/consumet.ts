@@ -17,7 +17,7 @@ declare class Enime extends AnimeParser {
     /**
      * @param id anilist id
      */
-    fetchAnimeInfoByAnilistId: (id: string) => Promise<IAnimeInfo>;
+    fetchAnimeInfoByAnilistId: (id: string, type?: 'gogoanime' | 'zoro') => Promise<IAnimeInfo>;
     fetchEpisodeSources: (episodeId: string, ...args: any) => Promise<ISource>;
     private fetchSourceFromEpisodeId;
     private fetchSourceFromSourceId;
