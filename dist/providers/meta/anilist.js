@@ -880,7 +880,7 @@ class Anilist extends models_1.AnimeParser {
                 (Media.status === 'RELEASING' ||
                     (0, utils_1.range)({ from: 2014, to: new Date().getFullYear() + 1 }).includes(parseInt((_3 = Media.startDate) === null || _3 === void 0 ? void 0 : _3.year)))) {
                 try {
-                    possibleAnimeEpisodes = (_4 = (yield new enime_1.default().fetchAnimeInfoByAnilistId(id)).episodes) === null || _4 === void 0 ? void 0 : _4.map((item) => ({
+                    possibleAnimeEpisodes = (_4 = (yield new enime_1.default().fetchAnimeInfoByAnilistId(id, this.provider.name.toLowerCase())).episodes) === null || _4 === void 0 ? void 0 : _4.map((item) => ({
                         id: item.slug,
                         title: item.title,
                         description: item.description,

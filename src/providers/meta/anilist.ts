@@ -1060,15 +1060,18 @@ class Anilist extends AnimeParser {
         range({ from: 2014, to: new Date().getFullYear() + 1 }).includes(parseInt(Media.startDate?.year!)))
     ) {
       try {
-        possibleAnimeEpisodes = (await new Enime().fetchAnimeInfoByAnilistId(id)).episodes?.map(
-          (item: any) => ({
-            id: item.slug,
-            title: item.title,
-            description: item.description,
-            number: item.number,
-            image: item.image,
-          })
-        )!;
+        possibleAnimeEpisodes = (
+          await new Enime().fetchAnimeInfoByAnilistId(
+            id,
+            this.provider.name.toLowerCase() as 'gogoanime' | 'zoro'
+          )
+        ).episodes?.map((item: any) => ({
+          id: item.slug,
+          title: item.title,
+          description: item.description,
+          number: item.number,
+          image: item.image,
+        }))!;
         possibleAnimeEpisodes.reverse();
       } catch (err) {
         possibleAnimeEpisodes = await this.fetchDefaultEpisodeList(Media, dub, id);
