@@ -49,9 +49,12 @@ class RapidCloud extends models_1.VideoExtractor {
                         validateStatus: status => true,
                     });
                 }
-                res = yield axios_1.default.get(`${this.host}/ajax/embed-6/getSources?id=${id}&sId=${sId}`, options);
+                res = yield axios_1.default.get(`${this.host}/ajax/embed-6/getSources?id=${id}`, options);
+                console.log(`${this.host}/ajax/embed-6/getSources?id=${id}`);
                 const { data: { sources, tracks, intro }, } = res;
-                this.sources = sources.map((s) => ({
+                if (typeof sources === 'string')
+                    throw new Error('Video not found');
+                this.sources = sources === null || sources === void 0 ? void 0 : sources.map((s) => ({
                     url: s.file,
                     isM3U8: s.file.includes('.m3u8'),
                 }));
@@ -102,7 +105,7 @@ class RapidCloud extends models_1.VideoExtractor {
                 return result;
             }
             catch (err) {
-                throw new Error(err.message);
+                throw err;
             }
         });
         this.captcha = (url, key) => __awaiter(this, void 0, void 0, function* () {

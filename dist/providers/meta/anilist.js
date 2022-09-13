@@ -1519,5 +1519,11 @@ Anilist.Manga = class Manga {
         this.provider = provider || new mangasee123_1.default();
     }
 };
+(() => __awaiter(void 0, void 0, void 0, function* () {
+    const anilist = new Anilist(new zoro_1.default());
+    const manga = yield anilist.fetchAnimeInfo('145545');
+    const sources = yield anilist.fetchEpisodeSources(manga.episodes[0].id);
+    console.log(sources);
+}))();
 exports.default = Anilist;
 //# sourceMappingURL=anilist.js.map

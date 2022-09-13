@@ -18,7 +18,7 @@ import { GogoCDN, StreamSB, USER_AGENT } from '../../utils';
 
 class Gogoanime extends AnimeParser {
   override readonly name = 'Gogoanime';
-  protected override baseUrl = 'https://gogoanime.gg';
+  protected override baseUrl = 'https://www1.gogoanime.ee';
   protected override logo =
     'https://i0.wp.com/cloudfuji.com/wp-content/uploads/2021/12/gogoanime.png?fit=300%2C400&ssl=1';
   protected override classPath = 'ANIME.Gogoanime';

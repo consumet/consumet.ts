@@ -221,10 +221,9 @@ class Zoro extends AnimeParser {
       const {
         data: { link },
       } = await axios.get(`${this.baseUrl}/ajax/v2/episode/sources?id=${serverId}`);
-
       return await this.fetchEpisodeSources(link, server);
     } catch (err) {
-      throw new Error((err as Error).message);
+      throw err;
     }
   };
 

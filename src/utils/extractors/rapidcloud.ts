@@ -42,13 +42,15 @@ class RapidCloud extends VideoExtractor {
         });
       }
 
-      res = await axios.get(`${this.host}/ajax/embed-6/getSources?id=${id}&sId=${sId}`, options);
-
+      res = await axios.get(`${this.host}/ajax/embed-6/getSources?id=${id}`, options);
+      console.log(`${this.host}/ajax/embed-6/getSources?id=${id}`);
       const {
         data: { sources, tracks, intro },
       } = res;
 
-      this.sources = sources.map((s: any) => ({
+      if (typeof sources === 'string') throw new Error('Video not found');
+
+      this.sources = sources?.map((s: any) => ({
         url: s.file,
         isM3U8: s.file.includes('.m3u8'),
       }));
@@ -109,7 +111,7 @@ class RapidCloud extends VideoExtractor {
 
       return result;
     } catch (err) {
-      throw new Error((err as Error).message);
+      throw err;
     }
   };
 

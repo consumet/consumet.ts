@@ -197,7 +197,7 @@ class Zoro extends models_1.AnimeParser {
                 return yield this.fetchEpisodeSources(link, server);
             }
             catch (err) {
-                throw new Error(err.message);
+                throw err;
             }
         });
         /**
