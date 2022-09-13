@@ -1,4 +1,5 @@
 import axios from 'axios';
+import CryptoJS from 'crypto-js';
 
 import { VideoExtractor, IVideo, ISubtitle, Intro } from '../../models';
 import { USER_AGENT } from '..';
@@ -7,6 +8,7 @@ class VidCloud extends VideoExtractor {
   protected override serverName = 'VidCloud';
   protected override sources: IVideo[] = [];
 
+  private readonly key = '06583912eded4b51';
   private readonly host = 'https://mzzcloud.life';
   private readonly host2 = 'https://rabbitstream.net';
 
@@ -34,9 +36,12 @@ class VidCloud extends VideoExtractor {
         options
       );
 
-      const {
-        data: { sources, tracks },
+      let {
+        data: { sources, tracks, encrypted },
       } = res;
+
+      if (encrypted)
+        sources = JSON.parse(CryptoJS.AES.decrypt(sources, this.key).toString(CryptoJS.enc.Utf8));
 
       this.sources = sources.map((s: any) => ({
         url: s.file,

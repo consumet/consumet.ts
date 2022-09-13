@@ -126,18 +126,13 @@ class FlixHQ extends models_1.MovieParser {
                     }
                 }
                 else {
-                    const { data } = yield axios_1.default.get(ajaxReqUrl(uid, 'movie'));
-                    const $$$ = (0, cheerio_1.load)(data);
-                    movieInfo.episodes = $$$('.nav > li')
-                        .map((i, el) => {
-                        const episode = {
+                    movieInfo.episodes = [
+                        {
                             id: uid,
                             title: movieInfo.title + ' Movie',
                             url: `${this.baseUrl}/ajax/movie/episodes/${uid}`,
-                        };
-                        return episode;
-                    })
-                        .get();
+                        },
+                    ];
                 }
                 return movieInfo;
             }

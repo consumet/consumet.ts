@@ -137,18 +137,13 @@ class FlixHQ extends MovieParser {
           season++;
         }
       } else {
-        const { data } = await axios.get(ajaxReqUrl(uid, 'movie'));
-        const $$$ = load(data);
-        movieInfo.episodes = $$$('.nav > li')
-          .map((i, el) => {
-            const episode = {
-              id: uid,
-              title: movieInfo.title + ' Movie',
-              url: `${this.baseUrl}/ajax/movie/episodes/${uid}`,
-            };
-            return episode;
-          })
-          .get();
+        movieInfo.episodes = [
+          {
+            id: uid,
+            title: movieInfo.title + ' Movie',
+            url: `${this.baseUrl}/ajax/movie/episodes/${uid}`,
+          },
+        ];
       }
 
       return movieInfo;

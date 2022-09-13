@@ -13,6 +13,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const axios_1 = __importDefault(require("axios"));
+const crypto_js_1 = __importDefault(require("crypto-js"));
 const models_1 = require("../../models");
 const __1 = require("..");
 class VidCloud extends models_1.VideoExtractor {
@@ -20,6 +21,7 @@ class VidCloud extends models_1.VideoExtractor {
         super(...arguments);
         this.serverName = 'VidCloud';
         this.sources = [];
+        this.key = '06583912eded4b51';
         this.host = 'https://mzzcloud.life';
         this.host2 = 'https://rabbitstream.net';
         this.extract = (videoUrl, isAlternative = false) => __awaiter(this, void 0, void 0, function* () {
@@ -39,7 +41,9 @@ class VidCloud extends models_1.VideoExtractor {
                 };
                 let res = null;
                 res = yield axios_1.default.get(`${isAlternative ? this.host2 : this.host}/ajax/embed-4/getSources?id=${id}`, options);
-                const { data: { sources, tracks }, } = res;
+                let { data: { sources, tracks, encrypted }, } = res;
+                if (encrypted)
+                    sources = JSON.parse(crypto_js_1.default.AES.decrypt(sources, this.key).toString(crypto_js_1.default.enc.Utf8));
                 this.sources = sources.map((s) => ({
                     url: s.file,
                     isM3U8: s.file.includes('.m3u8'),
