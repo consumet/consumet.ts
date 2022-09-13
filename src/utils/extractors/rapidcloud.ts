@@ -1,15 +1,14 @@
 import axios from 'axios';
 import { load } from 'cheerio';
-import WebSocket from 'ws';
+import CryptoJS from 'crypto-js';
 
 import { VideoExtractor, IVideo, ISubtitle, Intro } from '../../models';
-import { USER_AGENT } from '..';
 
 class RapidCloud extends VideoExtractor {
   protected override serverName = 'RapidCloud';
   protected override sources: IVideo[] = [];
 
-  private readonly key = '06a641c0e5111449';
+  private readonly fallbackKey = 'c1d17096f2ca11b7';
   private readonly host = 'https://rapid-cloud.co';
   private readonly consumetApi = 'https://consumet-api.herokuapp.com';
   private readonly enimeApi = 'https://api.enime.moe';
@@ -49,9 +48,11 @@ class RapidCloud extends VideoExtractor {
         data: { sources, tracks, intro, encrypted },
       } = res;
 
-      if (encrypted) {
-        sources = JSON.parse(CryptoJS.AES.decrypt(sources, this.key).toString(CryptoJS.enc.Utf8));
-      }
+      let decryptKey = await (await axios.get(`${this.enimeApi}/tool/rapid-cloud/decryption-key`)).data;
+      if (!decryptKey) decryptKey = this.fallbackKey;
+
+      if (encrypted)
+        sources = JSON.parse(CryptoJS.AES.decrypt(sources, decryptKey).toString(CryptoJS.enc.Utf8));
 
       this.sources = sources?.map((s: any) => ({
         url: s.file,

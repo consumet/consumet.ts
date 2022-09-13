@@ -14,12 +14,14 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const axios_1 = __importDefault(require("axios"));
 const cheerio_1 = require("cheerio");
+const crypto_js_1 = __importDefault(require("crypto-js"));
 const models_1 = require("../../models");
 class RapidCloud extends models_1.VideoExtractor {
     constructor() {
         super(...arguments);
         this.serverName = 'RapidCloud';
         this.sources = [];
+        this.fallbackKey = 'c1d17096f2ca11b7';
         this.host = 'https://rapid-cloud.co';
         this.consumetApi = 'https://consumet-api.herokuapp.com';
         this.enimeApi = 'https://api.enime.moe';
@@ -49,11 +51,13 @@ class RapidCloud extends models_1.VideoExtractor {
                         validateStatus: status => true,
                     });
                 }
-                res = yield axios_1.default.get(`${this.host}/ajax/embed-6/getSources?id=${id}`, options);
-                console.log(`${this.host}/ajax/embed-6/getSources?id=${id}`);
-                const { data: { sources, tracks, intro }, } = res;
-                if (typeof sources === 'string')
-                    throw new Error('Video not found');
+                res = yield axios_1.default.get(`${this.host}/ajax/embed-6/getSources?id=${id}&sId=${sId}`, options);
+                let { data: { sources, tracks, intro, encrypted }, } = res;
+                let decryptKey = yield (yield axios_1.default.get(`${this.enimeApi}/tool/rapid-cloud/decryption-key`)).data;
+                if (!decryptKey)
+                    decryptKey = this.fallbackKey;
+                if (encrypted)
+                    sources = JSON.parse(crypto_js_1.default.AES.decrypt(sources, decryptKey).toString(crypto_js_1.default.enc.Utf8));
                 this.sources = sources === null || sources === void 0 ? void 0 : sources.map((s) => ({
                     url: s.file,
                     isM3U8: s.file.includes('.m3u8'),
