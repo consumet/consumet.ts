@@ -53,7 +53,7 @@ class RapidCloud extends models_1.VideoExtractor {
                 }
                 res = yield axios_1.default.get(`${this.host}/ajax/embed-6/getSources?id=${id}&sId=${sId}`, options);
                 let { data: { sources, tracks, intro, encrypted }, } = res;
-                let decryptKey = yield (yield axios_1.default.get(`${this.enimeApi}/tool/rapid-cloud/decryption-key`)).data;
+                let decryptKey = yield (yield axios_1.default.get('https://rapidclown.riimuru.workers.dev/rapidclown')).data;
                 if (!decryptKey)
                     decryptKey = this.fallbackKey;
                 if (encrypted)
