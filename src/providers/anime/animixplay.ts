@@ -10,8 +10,9 @@ import {
   IAnimeResult,
   ISource,
   IEpisodeServer,
+  StreamingServers,
 } from '../../models';
-import { GogoCDN, USER_AGENT } from '../../utils';
+import { GogoCDN, USER_AGENT, Vrv } from '../../utils';
 
 class AniMixPlay extends AnimeParser {
   override readonly name = 'AniMixPlay';
@@ -84,9 +85,11 @@ class AniMixPlay extends AnimeParser {
 
         for (const key in episodes) {
           animeInfo.episodes.push({
-            id: episodes[key].toString()?.match(/(?<=id=).*(?=&title)/g)[0],
+            id: `${animeInfo.id}/ep${parseInt(key) + 1}`,
+            gogoId: episodes[key].toString()?.match(/(?<=id=).*(?=&title)/g)[0],
             number: parseInt(key) + 1,
-            url: `https:${episodes[key]}`,
+            url: `${this.baseUrl}${animeInfo.id}/ep${parseInt(key) + 1}`,
+            gogoUrl: `https:${episodes[key]}`,
           });
         }
       }
@@ -102,9 +105,8 @@ class AniMixPlay extends AnimeParser {
    * @param episodeId episode id
    */
   override fetchEpisodeSources = async (episodeId: string): Promise<ISource> => {
-    if (!episodeId.startsWith('http')) episodeId = `https://goload.io/streaming.php?id=${episodeId}`;
     return {
-      sources: await new GogoCDN().extract(new URL(episodeId)),
+      sources: await new Vrv().extract(new URL(this.baseUrl + episodeId)),
     };
   };
 
@@ -115,5 +117,12 @@ class AniMixPlay extends AnimeParser {
     throw new Error('Method not implemented.');
   };
 }
+
+// (async () => {
+//   const animixplay = new AniMixPlay();
+//   const animeInfo = await animixplay.fetchAnimeInfo('/v1/one-piece');
+//   const sources = await animixplay.fetchEpisodeSources(animeInfo.episodes![0].id);
+//   console.log(animeInfo);
+// })();
 
 export default AniMixPlay;

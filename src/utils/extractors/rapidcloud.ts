@@ -48,12 +48,13 @@ class RapidCloud extends VideoExtractor {
         data: { sources, tracks, intro, encrypted },
       } = res;
 
-      let decryptKey = await (await axios.get('https://rapidclown.riimuru.workers.dev/rapidclown')).data;
+      let decryptKey = await (
+        await axios.get('https://raw.githubusercontent.com/consumet/rapidclown/main/key.txt')
+      ).data;
       if (!decryptKey) decryptKey = this.fallbackKey;
 
       if (encrypted)
         sources = JSON.parse(CryptoJS.AES.decrypt(sources, decryptKey).toString(CryptoJS.enc.Utf8));
-
       this.sources = sources?.map((s: any) => ({
         url: s.file,
         isM3U8: s.file.includes('.m3u8'),
