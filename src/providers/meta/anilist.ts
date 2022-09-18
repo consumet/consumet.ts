@@ -261,6 +261,11 @@ class Anilist extends AnimeParser {
         userPreferred: data.data.Media.title.userPreferred,
       };
 
+      animeInfo.synonyms = data.data.Media.synonyms;
+      animeInfo.isLicensed = data.data.Media.isLicensed;
+      animeInfo.isAdult = data.data.Media.isAdult;
+      animeInfo.countryOfOrigin = data.data.Media.countryOfOrigin;
+
       if (data.data.Media.trailer?.id) {
         animeInfo.trailer = {
           id: data.data.Media.trailer.id,
@@ -1132,6 +1137,12 @@ class Anilist extends AnimeParser {
           thumbnail: data.data.Media.trailer?.thumbnail,
         };
       }
+
+      animeInfo.synonyms = data.data.Media.synonyms;
+      animeInfo.isLicensed = data.data.Media.isLicensed;
+      animeInfo.isAdult = data.data.Media.isAdult;
+      animeInfo.countryOfOrigin = data.data.Media.countryOfOrigin;
+
       animeInfo.image =
         data.data.Media.coverImage.extraLarge ??
         data.data.Media.coverImage.large ??
