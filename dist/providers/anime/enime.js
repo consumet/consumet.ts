@@ -120,12 +120,21 @@ class Enime extends models_1.AnimeParser {
             animeInfo.mappings = data.mappings;
             animeInfo.type = data.format;
             data.episodes = data.episodes.sort((a, b) => b.number - a.number);
+            let useType = undefined;
+            if (type == 'gogoanime' &&
+                data.episodes.every((e) => e.sources.find((s) => s.target.includes('episode'))))
+                useType = 'gogoanime';
+            else if (type == 'zoro' &&
+                data.episodes.every((e) => e.sources.find((s) => s.target.includes('?ep='))))
+                useType = 'zoro';
+            else
+                throw new Error('Anime not found on Enime');
             animeInfo.episodes = data.episodes.map((episode) => {
                 var _a, _b;
                 return ({
                     id: episode.id,
                     slug: (_a = episode.sources
-                        .find((source) => type === 'zoro' ? source.target.includes('?ep=') : source.target.includes('episode'))) === null || _a === void 0 ? void 0 : _a.target.split('/').pop().replace('?ep=', '$episode$'),
+                        .find((source) => useType === 'zoro' ? source.target.includes('?ep=') : source.target.includes('episode'))) === null || _a === void 0 ? void 0 : _a.target.split('/').pop().replace('?ep=', '$episode$'),
                     description: episode.description,
                     number: episode.number,
                     title: episode.title,

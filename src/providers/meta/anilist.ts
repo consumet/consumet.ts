@@ -422,7 +422,7 @@ class Anilist extends AnimeParser {
         (this.provider instanceof Zoro || this.provider instanceof Gogoanime) &&
         !dub &&
         (animeInfo.status === MediaStatus.ONGOING ||
-          range({ from: 2014, to: new Date().getFullYear() + 1 }).includes(parseInt(animeInfo.releaseDate!)))
+          range({ from: 2010, to: new Date().getFullYear() + 1 }).includes(parseInt(animeInfo.releaseDate!)))
       ) {
         try {
           animeInfo.episodes = (
@@ -1062,7 +1062,7 @@ class Anilist extends AnimeParser {
       (this.provider instanceof Zoro || this.provider instanceof Gogoanime) &&
       !dub &&
       (Media.status === 'RELEASING' ||
-        range({ from: 2014, to: new Date().getFullYear() + 1 }).includes(parseInt(Media.startDate?.year!)))
+        range({ from: 2010, to: new Date().getFullYear() + 1 }).includes(parseInt(Media.startDate?.year!)))
     ) {
       try {
         possibleAnimeEpisodes = (
