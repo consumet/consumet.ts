@@ -65,6 +65,13 @@ export interface IAnimeInfo extends IAnimeResult {
     status?: MediaStatus;
     totalEpisodes?: number;
     subOrDub?: SubOrSub;
+    synonyms?: string[];
+    /**
+     * two letter representation of coutnry: e.g JP for japan
+     */
+    countryOfOrigin?: string;
+    isAdult?: boolean;
+    isLicensed?: boolean;
     /**
      * `FALL`, `WINTER`, `SPRING`, `SUMMER`
      */

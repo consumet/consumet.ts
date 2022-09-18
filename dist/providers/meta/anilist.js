@@ -214,6 +214,10 @@ class Anilist extends models_1.AnimeParser {
                     native: data.data.Media.title.native,
                     userPreferred: data.data.Media.title.userPreferred,
                 };
+                animeInfo.synonyms = data.data.Media.synonyms;
+                animeInfo.isLicensed = data.data.Media.isLicensed;
+                animeInfo.isAdult = data.data.Media.isAdult;
+                animeInfo.countryOfOrigin = data.data.Media.countryOfOrigin;
                 if ((_b = data.data.Media.trailer) === null || _b === void 0 ? void 0 : _b.id) {
                     animeInfo.trailer = {
                         id: data.data.Media.trailer.id,
@@ -945,6 +949,10 @@ class Anilist extends models_1.AnimeParser {
                         thumbnail: (_8 = data.data.Media.trailer) === null || _8 === void 0 ? void 0 : _8.thumbnail,
                     };
                 }
+                animeInfo.synonyms = data.data.Media.synonyms;
+                animeInfo.isLicensed = data.data.Media.isLicensed;
+                animeInfo.isAdult = data.data.Media.isAdult;
+                animeInfo.countryOfOrigin = data.data.Media.countryOfOrigin;
                 animeInfo.image =
                     (_10 = (_9 = data.data.Media.coverImage.extraLarge) !== null && _9 !== void 0 ? _9 : data.data.Media.coverImage.large) !== null && _10 !== void 0 ? _10 : data.data.Media.coverImage.medium;
                 animeInfo.cover = (_11 = data.data.Media.bannerImage) !== null && _11 !== void 0 ? _11 : animeInfo.image;
