@@ -8,6 +8,7 @@ import {
   StreamTape,
   VizCloud,
   Filemoon,
+  Vrv,
 } from './extractors';
 import {
   USER_AGENT,
@@ -66,4 +67,5 @@ export {
   anilistCharacterQuery,
   getDays,
   days,
+  Vrv,
 };

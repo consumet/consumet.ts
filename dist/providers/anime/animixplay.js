@@ -78,9 +78,11 @@ class AniMixPlay extends models_1.AnimeParser {
                     delete episodes[Object.keys(episodes)[Object.keys(episodes).length - 1]];
                     for (const key in episodes) {
                         animeInfo.episodes.push({
-                            id: (_a = episodes[key].toString()) === null || _a === void 0 ? void 0 : _a.match(/(?<=id=).*(?=&title)/g)[0],
+                            id: `${animeInfo.id}/ep${parseInt(key) + 1}`,
+                            gogoId: (_a = episodes[key].toString()) === null || _a === void 0 ? void 0 : _a.match(/(?<=id=).*(?=&title)/g)[0],
                             number: parseInt(key) + 1,
-                            url: `https:${episodes[key]}`,
+                            url: `${this.baseUrl}${animeInfo.id}/ep${parseInt(key) + 1}`,
+                            gogoUrl: `https:${episodes[key]}`,
                         });
                     }
                 }
@@ -95,10 +97,8 @@ class AniMixPlay extends models_1.AnimeParser {
          * @param episodeId episode id
          */
         this.fetchEpisodeSources = (episodeId) => __awaiter(this, void 0, void 0, function* () {
-            if (!episodeId.startsWith('http'))
-                episodeId = `https://goload.io/streaming.php?id=${episodeId}`;
             return {
-                sources: yield new utils_1.GogoCDN().extract(new URL(episodeId)),
+                sources: yield new utils_1.Vrv().extract(new URL(this.baseUrl + episodeId)),
             };
         });
         /**
@@ -109,5 +109,11 @@ class AniMixPlay extends models_1.AnimeParser {
         };
     }
 }
+// (async () => {
+//   const animixplay = new AniMixPlay();
+//   const animeInfo = await animixplay.fetchAnimeInfo('/v1/one-piece');
+//   const sources = await animixplay.fetchEpisodeSources(animeInfo.episodes![0].id);
+//   console.log(animeInfo);
+// })();
 exports.default = AniMixPlay;
 //# sourceMappingURL=animixplay.js.map

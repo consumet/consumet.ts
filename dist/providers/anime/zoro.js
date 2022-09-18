@@ -246,7 +246,7 @@ class Zoro extends models_1.AnimeParser {
 //   const zoro = new Zoro();
 //   const anime = await zoro.search('naruto');
 //   const episodes = (await zoro.fetchAnimeInfo(anime.results[0].id)).episodes;
-//   const sources = await zoro.fetchEpisodeSources(episodes![0].id);
+//   const sources = await zoro.fetchEpisodeSources('bleach-the-movie-fade-to-black-1492$episode$58326');
 //   console.log(sources);
 // })();
 exports.default = Zoro;
