@@ -28,15 +28,18 @@ class NineAnime extends models_1.AnimeParser {
         this.logo = 'https://d1nxzqpcg2bym0.cloudfront.net/google_play/com.my.nineanime/87b2fe48-9c36-11eb-8292-21241b1c199b/128x128';
         this.classPath = 'ANIME.NineAnime';
         this.isWorking = false;
-        this.table = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
+        this.baseTable = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=_';
+        this.table = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+=/_';
         this.cipherKey = '';
         this.decipherKey = '';
+        this.keyMap = '';
     }
     init() {
         return __awaiter(this, void 0, void 0, function* () {
-            const { data: { encryptKey, decryptKey }, } = yield axios_1.default.get('https://raw.githubusercontent.com/chenkaslowankiya/BruvFlow/main/keys.json');
-            this.cipherKey = encryptKey;
-            this.decipherKey = decryptKey;
+            const { data: { cipher, decipher, keyMap }, } = yield axios_1.default.get('https://raw.githubusercontent.com/AnimeJeff/Brohflow/main/keys.json');
+            this.cipherKey = cipher;
+            this.decipherKey = decipher;
+            this.keyMap = keyMap;
         });
     }
     static create() {
@@ -274,7 +277,7 @@ class NineAnime extends models_1.AnimeParser {
                 }
                 const { data: { result: { url }, }, } = yield axios_1.default.get(s.url);
                 const iframe = (0, ascii_url_encoder_1.decode)(this.dv(url));
-                return yield this.fetchEpisodeSources(iframe, server);
+                return yield this.fetchEpisodeSources(`htt${iframe.slice(3)}`, server);
             }
             catch (err) {
                 throw new Error(err.message);
@@ -299,10 +302,17 @@ class NineAnime extends models_1.AnimeParser {
         });
     }
     ev(query) {
-        return this.encrypt(this.cipher((0, ascii_url_encoder_1.encode)(query), this.cipherKey), this.table);
+        return this.encrypt(this.mapKeys(this.encrypt(this.cipher((0, ascii_url_encoder_1.encode)(query), this.cipherKey), this.baseTable), this.keyMap), this.baseTable);
     }
     dv(query) {
-        return this.cipher(this.decrypt(query), this.decipherKey);
+        return (0, ascii_url_encoder_1.decode)(this.cipher(this.decrypt(query), this.decipherKey));
+    }
+    mapKeys(encrypted, keyMap) {
+        const table = keyMap.split('');
+        return encrypted
+            .split('')
+            .map((c, i) => table[this.table.indexOf(c) * 16 + 1 + (1 % 16)])
+            .join('');
     }
     cipher(query, key) {
         let u = 0;
@@ -356,6 +366,7 @@ class NineAnime extends models_1.AnimeParser {
     }
     decrypt(query) {
         var _a;
+        const key = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
         const p = ((_a = query === null || query === void 0 ? void 0 : query.replace(/[\t\n\f\r]/g, '')) === null || _a === void 0 ? void 0 : _a.length) % 4 === 0 ? query === null || query === void 0 ? void 0 : query.replace(/[==|?|$]/g, '') : query;
         if ((p === null || p === void 0 ? void 0 : p.length) % 4 === 1 || /[^+/0-9A-Za-z]/gm.test(p))
             throw new Error('Invalid character.');
@@ -365,7 +376,7 @@ class NineAnime extends models_1.AnimeParser {
         let n = 0;
         for (let j = 0; j < (p === null || p === void 0 ? void 0 : p.length); j++) {
             e = e << 6;
-            i = this.table.indexOf(p[j]);
+            i = key.indexOf(p[j]);
             e = e | i;
             n += 6;
             if (n === 24) {
@@ -386,5 +397,12 @@ class NineAnime extends models_1.AnimeParser {
         return res;
     }
 }
+// (async () => {
+//   const nineanime = await NineAnime.create();
+//   const anime = await nineanime.search('overlord');
+//   const info = await nineanime.fetchAnimeInfo(anime.results[0].id);
+//   const episode = await nineanime.fetchEpisodeSources(info.episodes![0].id);
+//   console.log(episode);
+// })();
 exports.default = NineAnime;
 //# sourceMappingURL=9anime.js.map

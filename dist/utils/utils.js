@@ -76,7 +76,6 @@ const getDays = (day1, day2) => {
     const day2Date = new Date();
     day1Date.setDate(now.getDate() + ((day1Index + 7 - now.getDay()) % 7));
     day2Date.setDate(now.getDate() + ((day2Index + 7 - now.getDay()) % 7));
-    console.log(day1Date, day2Date);
     day1Date.setHours(0, 0, 0, 0);
     day2Date.setHours(0, 0, 0, 0);
     return [day1Date.getTime() / 1000, day2Date.getTime() / 1000];

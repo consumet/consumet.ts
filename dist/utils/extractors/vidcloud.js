@@ -21,8 +21,7 @@ class VidCloud extends models_1.VideoExtractor {
         super(...arguments);
         this.serverName = 'VidCloud';
         this.sources = [];
-        this.key = '06583912eded4b51';
-        this.host = 'https://mzzcloud.life';
+        this.host = 'https://dokicloud.one';
         this.host2 = 'https://rabbitstream.net';
         this.extract = (videoUrl, isAlternative = false) => __awaiter(this, void 0, void 0, function* () {
             var _a;
@@ -42,8 +41,9 @@ class VidCloud extends models_1.VideoExtractor {
                 let res = null;
                 res = yield axios_1.default.get(`${isAlternative ? this.host2 : this.host}/ajax/embed-4/getSources?id=${id}`, options);
                 let { data: { sources, tracks, encrypted }, } = res;
+                const { data: key } = yield axios_1.default.get('https://raw.githubusercontent.com/consumet/rapidclown/rabbitstream/key.txt');
                 if (encrypted)
-                    sources = JSON.parse(crypto_js_1.default.AES.decrypt(sources, this.key).toString(crypto_js_1.default.enc.Utf8));
+                    sources = JSON.parse(crypto_js_1.default.AES.decrypt(sources, key).toString(crypto_js_1.default.enc.Utf8));
                 this.sources = sources.map((s) => ({
                     url: s.file,
                     isM3U8: s.file.includes('.m3u8'),

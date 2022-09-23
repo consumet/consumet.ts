@@ -8,8 +8,7 @@ class VidCloud extends VideoExtractor {
   protected override serverName = 'VidCloud';
   protected override sources: IVideo[] = [];
 
-  private readonly key = '06583912eded4b51';
-  private readonly host = 'https://mzzcloud.life';
+  private readonly host = 'https://dokicloud.one';
   private readonly host2 = 'https://rabbitstream.net';
 
   override extract = async (
@@ -40,8 +39,10 @@ class VidCloud extends VideoExtractor {
         data: { sources, tracks, encrypted },
       } = res;
 
-      if (encrypted)
-        sources = JSON.parse(CryptoJS.AES.decrypt(sources, this.key).toString(CryptoJS.enc.Utf8));
+      const { data: key } = await axios.get(
+        'https://raw.githubusercontent.com/consumet/rapidclown/rabbitstream/key.txt'
+      );
+      if (encrypted) sources = JSON.parse(CryptoJS.AES.decrypt(sources, key).toString(CryptoJS.enc.Utf8));
 
       this.sources = sources.map((s: any) => ({
         url: s.file,
