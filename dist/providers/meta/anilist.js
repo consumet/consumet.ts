@@ -189,8 +189,9 @@ class Anilist extends models_1.AnimeParser {
          *
          * @param id Anime id
          * @param dub to get dubbed episodes (optional) set to `true` to get dubbed episodes. **ONLY WORKS FOR GOGOANIME**
+         * @param fetchFiller to get filler boolean on the episode object (optional) set to `true` to get filler boolean on the episode object.
          */
-        this.fetchAnimeInfo = (id, dub = false) => __awaiter(this, void 0, void 0, function* () {
+        this.fetchAnimeInfo = (id, dub = false, fetchFiller = false) => __awaiter(this, void 0, void 0, function* () {
             var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s, _t, _u, _v, _w, _x, _y;
             const animeInfo = {
                 id: id,
@@ -203,6 +204,7 @@ class Anilist extends models_1.AnimeParser {
                 },
                 query: (0, utils_1.anilistMediaDetailQuery)(id),
             };
+            let fillerEpisodes;
             try {
                 const { data } = yield axios_1.default.post(this.anilistGraphqlUrl, options).catch(err => {
                     throw new Error('Media not found');
@@ -365,6 +367,7 @@ class Anilist extends models_1.AnimeParser {
                 });
                 if ((this.provider instanceof zoro_1.default || this.provider instanceof gogoanime_1.default) &&
                     !dub &&
+                    !fetchFiller &&
                     (animeInfo.status === models_1.MediaStatus.ONGOING ||
                         (0, utils_1.range)({ from: 2000, to: new Date().getFullYear() + 1 }).includes(parseInt(animeInfo.releaseDate)))) {
                     try {
@@ -392,16 +395,26 @@ class Anilist extends models_1.AnimeParser {
                         return animeInfo;
                     }
                 }
-                else
+                else {
+                    let { data: fillerData } = yield axios_1.default.get(`https://raw.githubusercontent.com/saikou-app/mal-id-filler-list/main/fillers/${animeInfo.malId}.json`);
+                    if (!fillerData.toString().startsWith('404')) {
+                        fillerEpisodes = [];
+                        fillerEpisodes === null || fillerEpisodes === void 0 ? void 0 : fillerEpisodes.push(...fillerData.episodes);
+                    }
                     animeInfo.episodes = yield this.fetchDefaultEpisodeList({
                         idMal: animeInfo.malId,
                         season: data.data.Media.season,
                         startDate: { year: parseInt(animeInfo.releaseDate) },
                         title: { english: (_w = animeInfo.title) === null || _w === void 0 ? void 0 : _w.english, romaji: (_x = animeInfo.title) === null || _x === void 0 ? void 0 : _x.romaji },
                     }, dub, id);
+                }
                 animeInfo.episodes = (_y = animeInfo.episodes) === null || _y === void 0 ? void 0 : _y.map((episode) => {
                     if (!episode.image)
                         episode.image = animeInfo.image;
+                    if (fetchFiller && fillerEpisodes.length > 0 && fillerEpisodes.length >= animeInfo.episodes.length) {
+                        if (fillerEpisodes[episode.number - 1])
+                            episode.filler = new Boolean(fillerEpisodes[episode.number - 1]['filler-bool']).valueOf();
+                    }
                     return episode;
                 });
                 return animeInfo;
@@ -866,21 +879,24 @@ class Anilist extends models_1.AnimeParser {
         /**
          * @param id anilist id
          * @param dub language of the dubbed version (optional) currently only works for gogoanime
+         * @param fetchFiller to get filler boolean on the episode object (optional) set to `true` to get filler boolean on the episode object.
          * @returns episode list **(without anime info)**
          */
-        this.fetchEpisodesListById = (id, dub = false) => __awaiter(this, void 0, void 0, function* () {
+        this.fetchEpisodesListById = (id, dub = false, fetchFiller = false) => __awaiter(this, void 0, void 0, function* () {
             var _3, _4;
             const options = {
                 headers: {
                     'Content-Type': 'application/json',
                     Accept: 'application/json',
                 },
-                query: `query($id: Int = ${id}){ Media(id: $id){ idMal title {romaji english} status season startDate {year} coverImage {extraLarge large medium} } }`,
+                query: `query($id: Int = ${id}){ Media(id: $id){ idMal title {romaji english} status season episodes startDate {year} coverImage {extraLarge large medium} } }`,
             };
             const { data: { data: { Media }, }, } = yield axios_1.default.post(this.anilistGraphqlUrl, options);
             let possibleAnimeEpisodes = [];
+            let fillerEpisodes = [];
             if ((this.provider instanceof zoro_1.default || this.provider instanceof gogoanime_1.default) &&
                 !dub &&
+                !fetchFiller &&
                 (Media.status === 'RELEASING' ||
                     (0, utils_1.range)({ from: 2000, to: new Date().getFullYear() + 1 }).includes(parseInt((_3 = Media.startDate) === null || _3 === void 0 ? void 0 : _3.year)))) {
                 try {
@@ -904,12 +920,22 @@ class Anilist extends models_1.AnimeParser {
                     return possibleAnimeEpisodes;
                 }
             }
-            else
+            else {
+                let { data: fillerData } = yield axios_1.default.get(`https://raw.githubusercontent.com/saikou-app/mal-id-filler-list/main/fillers/${Media.idMal}.json`);
+                if (!fillerData.toString().startsWith('404')) {
+                    fillerEpisodes = [];
+                    fillerEpisodes === null || fillerEpisodes === void 0 ? void 0 : fillerEpisodes.push(...fillerData.episodes);
+                }
                 possibleAnimeEpisodes = yield this.fetchDefaultEpisodeList(Media, dub, id);
+            }
             possibleAnimeEpisodes = possibleAnimeEpisodes === null || possibleAnimeEpisodes === void 0 ? void 0 : possibleAnimeEpisodes.map((episode) => {
                 var _b, _c;
                 if (!episode.image)
                     episode.image = (_c = (_b = Media.coverImage.extraLarge) !== null && _b !== void 0 ? _b : Media.coverImage.large) !== null && _c !== void 0 ? _c : Media.coverImage.medium;
+                if (fetchFiller && fillerEpisodes.length > 0 && fillerEpisodes.length >= Media.episodes) {
+                    if (fillerEpisodes[episode.number - 1])
+                        episode.filler = new Boolean(fillerEpisodes[episode.number - 1]['filler-bool']).valueOf();
+                }
                 return episode;
             });
             return possibleAnimeEpisodes;
@@ -1527,5 +1553,9 @@ Anilist.Manga = class Manga {
         this.provider = provider || new mangasee123_1.default();
     }
 };
+// (async () => {
+//   const ani = new Anilist();
+//   const res = await ani.fetchEpisodesListById('20', false, true);
+// })();
 exports.default = Anilist;
 //# sourceMappingURL=anilist.js.map
