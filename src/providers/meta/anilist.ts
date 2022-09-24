@@ -427,7 +427,6 @@ class Anilist extends AnimeParser {
       if (
         (this.provider instanceof Zoro || this.provider instanceof Gogoanime) &&
         !dub &&
-        !fetchFiller &&
         (animeInfo.status === MediaStatus.ONGOING ||
           range({ from: 2000, to: new Date().getFullYear() + 1 }).includes(parseInt(animeInfo.releaseDate!)))
       ) {
@@ -493,7 +492,11 @@ class Anilist extends AnimeParser {
       animeInfo.episodes = animeInfo.episodes?.map((episode: IAnimeEpisode) => {
         if (!episode.image) episode.image = animeInfo.image;
 
-        if (fetchFiller && fillerEpisodes.length > 0 && fillerEpisodes.length >= animeInfo.episodes!.length) {
+        if (
+          fetchFiller &&
+          fillerEpisodes?.length > 0 &&
+          fillerEpisodes?.length >= animeInfo.episodes!.length
+        ) {
           if (fillerEpisodes[episode.number! - 1])
             episode.isFiller = new Boolean(fillerEpisodes[episode.number! - 1]['filler-bool']).valueOf();
         }
@@ -1134,7 +1137,7 @@ class Anilist extends AnimeParser {
       if (!episode.image)
         episode.image = Media.coverImage.extraLarge ?? Media.coverImage.large ?? Media.coverImage.medium;
 
-      if (fetchFiller && fillerEpisodes.length > 0 && fillerEpisodes.length >= Media.episodes) {
+      if (fetchFiller && fillerEpisodes?.length > 0 && fillerEpisodes?.length >= Media.episodes) {
         if (fillerEpisodes[episode.number! - 1])
           episode.isFiller = new Boolean(fillerEpisodes[episode.number! - 1]['filler-bool']).valueOf();
       }
@@ -1832,8 +1835,8 @@ class Anilist extends AnimeParser {
 }
 
 // (async () => {
-//   const ani = new Anilist();
-//   const res = await ani.fetchEpisodesListById('143270', false, true);
+//   const ani = new Anilist(new Zoro());
+//   const res = await ani.fetchAnimeInfo('143270', false, true);
 //   console.log(res);
 // })();
 

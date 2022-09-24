@@ -367,7 +367,6 @@ class Anilist extends models_1.AnimeParser {
                 });
                 if ((this.provider instanceof zoro_1.default || this.provider instanceof gogoanime_1.default) &&
                     !dub &&
-                    !fetchFiller &&
                     (animeInfo.status === models_1.MediaStatus.ONGOING ||
                         (0, utils_1.range)({ from: 2000, to: new Date().getFullYear() + 1 }).includes(parseInt(animeInfo.releaseDate)))) {
                     try {
@@ -416,7 +415,9 @@ class Anilist extends models_1.AnimeParser {
                 animeInfo.episodes = (_y = animeInfo.episodes) === null || _y === void 0 ? void 0 : _y.map((episode) => {
                     if (!episode.image)
                         episode.image = animeInfo.image;
-                    if (fetchFiller && fillerEpisodes.length > 0 && fillerEpisodes.length >= animeInfo.episodes.length) {
+                    if (fetchFiller &&
+                        (fillerEpisodes === null || fillerEpisodes === void 0 ? void 0 : fillerEpisodes.length) > 0 &&
+                        (fillerEpisodes === null || fillerEpisodes === void 0 ? void 0 : fillerEpisodes.length) >= animeInfo.episodes.length) {
                         if (fillerEpisodes[episode.number - 1])
                             episode.isFiller = new Boolean(fillerEpisodes[episode.number - 1]['filler-bool']).valueOf();
                     }
@@ -941,7 +942,7 @@ class Anilist extends models_1.AnimeParser {
                 var _b, _c;
                 if (!episode.image)
                     episode.image = (_c = (_b = Media.coverImage.extraLarge) !== null && _b !== void 0 ? _b : Media.coverImage.large) !== null && _c !== void 0 ? _c : Media.coverImage.medium;
-                if (fetchFiller && fillerEpisodes.length > 0 && fillerEpisodes.length >= Media.episodes) {
+                if (fetchFiller && (fillerEpisodes === null || fillerEpisodes === void 0 ? void 0 : fillerEpisodes.length) > 0 && (fillerEpisodes === null || fillerEpisodes === void 0 ? void 0 : fillerEpisodes.length) >= Media.episodes) {
                     if (fillerEpisodes[episode.number - 1])
                         episode.isFiller = new Boolean(fillerEpisodes[episode.number - 1]['filler-bool']).valueOf();
                 }
@@ -1563,8 +1564,8 @@ Anilist.Manga = class Manga {
     }
 };
 // (async () => {
-//   const ani = new Anilist();
-//   const res = await ani.fetchEpisodesListById('143270', false, true);
+//   const ani = new Anilist(new Zoro());
+//   const res = await ani.fetchAnimeInfo('143270', false, true);
 //   console.log(res);
 // })();
 exports.default = Anilist;
