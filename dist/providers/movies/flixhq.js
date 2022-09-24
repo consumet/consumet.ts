@@ -269,10 +269,10 @@ class FlixHQ extends models_1.MovieParser {
         });
     }
 }
-// (async () => {
-//   const movie = new FlixHQ();
-//   const movieInfo = await movie.fetchEpisodeSources('18617', 'movie/watch-top-gun-18617');
-//   console.log(movieInfo);
-// })();
+(() => __awaiter(void 0, void 0, void 0, function* () {
+    const movie = new FlixHQ();
+    const movieInfo = yield movie.fetchEpisodeSources('18617', 'movie/watch-top-gun-18617');
+    console.log(movieInfo);
+}))();
 exports.default = FlixHQ;
 //# sourceMappingURL=flixhq.js.map

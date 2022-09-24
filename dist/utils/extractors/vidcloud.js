@@ -43,7 +43,7 @@ class VidCloud extends models_1.VideoExtractor {
                 let { data: { sources, tracks, encrypted }, } = res;
                 const { data: key } = yield axios_1.default.get('https://raw.githubusercontent.com/consumet/rapidclown/rabbitstream/key.txt');
                 if (encrypted)
-                    sources = JSON.parse(crypto_js_1.default.AES.decrypt(sources, key).toString(crypto_js_1.default.enc.Utf8));
+                    sources = JSON.parse(crypto_js_1.default.AES.decrypt(sources, key + res.headers['Cookie']).toString(crypto_js_1.default.enc.Utf8));
                 this.sources = sources.map((s) => ({
                     url: s.file,
                     isM3U8: s.file.includes('.m3u8'),

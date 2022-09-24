@@ -42,7 +42,11 @@ class VidCloud extends VideoExtractor {
       const { data: key } = await axios.get(
         'https://raw.githubusercontent.com/consumet/rapidclown/rabbitstream/key.txt'
       );
-      if (encrypted) sources = JSON.parse(CryptoJS.AES.decrypt(sources, key).toString(CryptoJS.enc.Utf8));
+
+      if (encrypted)
+        sources = JSON.parse(
+          CryptoJS.AES.decrypt(sources, key + res.headers['Cookie']).toString(CryptoJS.enc.Utf8)
+        );
 
       this.sources = sources.map((s: any) => ({
         url: s.file,
