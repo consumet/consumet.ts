@@ -492,7 +492,7 @@ class Anilist extends AnimeParser {
 
         if (fetchFiller && fillerEpisodes.length > 0 && fillerEpisodes.length >= animeInfo.episodes!.length) {
           if (fillerEpisodes[episode.number! - 1])
-            episode.filler = new Boolean(fillerEpisodes[episode.number! - 1]['filler-bool']).valueOf();
+            episode.isFiller = new Boolean(fillerEpisodes[episode.number! - 1]['filler-bool']).valueOf();
         }
 
         return episode;
@@ -1131,7 +1131,7 @@ class Anilist extends AnimeParser {
 
       if (fetchFiller && fillerEpisodes.length > 0 && fillerEpisodes.length >= Media.episodes) {
         if (fillerEpisodes[episode.number! - 1])
-          episode.filler = new Boolean(fillerEpisodes[episode.number! - 1]['filler-bool']).valueOf();
+          episode.isFiller = new Boolean(fillerEpisodes[episode.number! - 1]['filler-bool']).valueOf();
       }
 
       return episode;

@@ -413,7 +413,7 @@ class Anilist extends models_1.AnimeParser {
                         episode.image = animeInfo.image;
                     if (fetchFiller && fillerEpisodes.length > 0 && fillerEpisodes.length >= animeInfo.episodes.length) {
                         if (fillerEpisodes[episode.number - 1])
-                            episode.filler = new Boolean(fillerEpisodes[episode.number - 1]['filler-bool']).valueOf();
+                            episode.isFiller = new Boolean(fillerEpisodes[episode.number - 1]['filler-bool']).valueOf();
                     }
                     return episode;
                 });
@@ -934,7 +934,7 @@ class Anilist extends models_1.AnimeParser {
                     episode.image = (_c = (_b = Media.coverImage.extraLarge) !== null && _b !== void 0 ? _b : Media.coverImage.large) !== null && _c !== void 0 ? _c : Media.coverImage.medium;
                 if (fetchFiller && fillerEpisodes.length > 0 && fillerEpisodes.length >= Media.episodes) {
                     if (fillerEpisodes[episode.number - 1])
-                        episode.filler = new Boolean(fillerEpisodes[episode.number - 1]['filler-bool']).valueOf();
+                        episode.isFiller = new Boolean(fillerEpisodes[episode.number - 1]['filler-bool']).valueOf();
                 }
                 return episode;
             });
