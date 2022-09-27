@@ -308,10 +308,10 @@ class FlixHQ extends MovieParser {
   };
 }
 
-(async () => {
-  const movie = new FlixHQ();
-  const movieInfo = await movie.fetchEpisodeSources('18617', 'movie/watch-top-gun-18617');
-  console.log(movieInfo);
-})();
+// (async () => {
+//   const movie = new FlixHQ();
+//   const movieInfo = await movie.fetchEpisodeSources('18617', 'movie/watch-top-gun-18617');
+//   console.log(movieInfo);
+// })();
 
 export default FlixHQ;

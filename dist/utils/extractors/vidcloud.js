@@ -81,7 +81,7 @@ class VidCloud extends models_1.VideoExtractor {
                 return result;
             }
             catch (err) {
-                throw new Error(err.message);
+                throw err;
             }
         });
     }
