@@ -973,15 +973,22 @@ class Anilist extends AnimeParser {
     };
 
     try {
-      const {
-        data: { data },
-      } = await axios.post(this.anilistGraphqlUrl, options);
+      // const {
+      //   data: { data },
+      // } = await axios.post(this.anilistGraphqlUrl, options);
 
-      const selectedAnime = Math.floor(
-        Math.random() * data.SiteStatistics.anime.nodes[data.SiteStatistics.anime.nodes.length - 1].count
+      // const selectedAnime = Math.floor(
+      //   Math.random() * data.SiteStatistics.anime.nodes[data.SiteStatistics.anime.nodes.length - 1].count
+      // );
+      // const { results } = await this.advancedSearch(undefined, 'ANIME', Math.ceil(selectedAnime / 50), 50);
+
+      const { data: data } = await axios.get(
+        'https://raw.githubusercontent.com/5H4D0WILA/IDFetch/main/ids.txt'
       );
-      const { results } = await this.advancedSearch(undefined, 'ANIME', Math.ceil(selectedAnime / 50), 50);
-      return await this.fetchAnimeInfo(results[selectedAnime % 50]!.id);
+
+      const ids = data?.trim().split('\n');
+      const selectedAnime = Math.floor(Math.random() * ids.length);
+      return await this.fetchAnimeInfo(ids[selectedAnime]);
     } catch (err) {
       throw new Error((err as Error).message);
     }
@@ -1838,6 +1845,14 @@ class Anilist extends AnimeParser {
 //   const ani = new Anilist(new Zoro());
 //   const res = await ani.fetchAnimeInfo('143270', false, true);
 //   console.log(res);
+// })();
+
+// (async () => {
+//   const ani = new Anilist(new Zoro());
+//   console.time('fetch');
+//   const res = await ani.fetchRandomAnime();
+//   console.log(res);
+//   console.timeEnd('fetch');
 // })();
 
 export default Anilist;

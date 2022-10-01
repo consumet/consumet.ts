@@ -14,6 +14,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const axios_1 = __importDefault(require("axios"));
 const crypto_js_1 = __importDefault(require("crypto-js"));
+const ws_1 = __importDefault(require("ws"));
 const models_1 = require("../../models");
 const __1 = require("..");
 class VidCloud extends models_1.VideoExtractor {
@@ -38,12 +39,16 @@ class VidCloud extends models_1.VideoExtractor {
                         'User-Agent': __1.USER_AGENT,
                     },
                 };
-                let res = null;
-                res = yield axios_1.default.get(`${isAlternative ? this.host2 : this.host}/ajax/embed-4/getSources?id=${id}`, options);
-                let { data: { sources, tracks, encrypted }, } = res;
-                const { data: key } = yield axios_1.default.get('https://raw.githubusercontent.com/consumet/rapidclown/rabbitstream/key.txt');
-                if (encrypted)
-                    sources = JSON.parse(crypto_js_1.default.AES.decrypt(sources, key + res.headers['Cookie']).toString(crypto_js_1.default.enc.Utf8));
+                //let res = null;
+                // res = await axios.get(
+                //   `${isAlternative ? this.host2 : this.host}/ajax/embed-4/getSources?id=${id}`,
+                //   options
+                // );
+                const res = yield this.wss(id);
+                // const { data: key } = await axios.get(
+                //   'https://raw.githubusercontent.com/consumet/rapidclown/rabbitstream/key.txt'
+                // );
+                const sources = JSON.parse(crypto_js_1.default.AES.decrypt(res.sources, res.sid).toString(crypto_js_1.default.enc.Utf8));
                 this.sources = sources.map((s) => ({
                     url: s.file,
                     isM3U8: s.file.includes('.m3u8'),
@@ -74,7 +79,7 @@ class VidCloud extends models_1.VideoExtractor {
                     isM3U8: sources[0].file.includes('.m3u8'),
                     quality: 'auto',
                 });
-                result.subtitles = tracks.map((s) => ({
+                result.subtitles = res.tracks.map((s) => ({
                     url: s.file,
                     lang: s.label ? s.label : 'Default (maybe)',
                 }));
@@ -83,6 +88,29 @@ class VidCloud extends models_1.VideoExtractor {
             catch (err) {
                 throw err;
             }
+        });
+        this.wss = (iframeId) => __awaiter(this, void 0, void 0, function* () {
+            const ws = new ws_1.default('wss://wsx.dokicloud.one/socket.io/?EIO=4&transport=websocket');
+            ws.onopen = () => {
+                ws.send('40');
+            };
+            return yield new Promise(resolve => {
+                let sid = '';
+                let res = { sid: '', sources: [], tracks: [] };
+                ws.onmessage = e => {
+                    const data = e.data.toString();
+                    if (data.startsWith('40')) {
+                        res.sid = JSON.parse(data.slice(2)).sid;
+                        ws.send(`42["getSources",{"id":"${iframeId}"}]`);
+                    }
+                    else if (data.startsWith('42["getSources"')) {
+                        const ress = JSON.parse(data.slice(2))[1];
+                        res.sources = ress.sources;
+                        res.tracks = ress.tracks;
+                        resolve(res);
+                    }
+                };
+            });
         });
     }
 }

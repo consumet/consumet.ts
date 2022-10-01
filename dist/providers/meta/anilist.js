@@ -823,10 +823,17 @@ class Anilist extends models_1.AnimeParser {
                 query: (0, utils_1.anilistSiteStatisticsQuery)(),
             };
             try {
-                const { data: { data }, } = yield axios_1.default.post(this.anilistGraphqlUrl, options);
-                const selectedAnime = Math.floor(Math.random() * data.SiteStatistics.anime.nodes[data.SiteStatistics.anime.nodes.length - 1].count);
-                const { results } = yield this.advancedSearch(undefined, 'ANIME', Math.ceil(selectedAnime / 50), 50);
-                return yield this.fetchAnimeInfo(results[selectedAnime % 50].id);
+                // const {
+                //   data: { data },
+                // } = await axios.post(this.anilistGraphqlUrl, options);
+                // const selectedAnime = Math.floor(
+                //   Math.random() * data.SiteStatistics.anime.nodes[data.SiteStatistics.anime.nodes.length - 1].count
+                // );
+                // const { results } = await this.advancedSearch(undefined, 'ANIME', Math.ceil(selectedAnime / 50), 50);
+                const { data: data } = yield axios_1.default.get('https://raw.githubusercontent.com/5H4D0WILA/IDFetch/main/ids.txt');
+                const ids = data === null || data === void 0 ? void 0 : data.trim().split('\n');
+                const selectedAnime = Math.floor(Math.random() * ids.length);
+                return yield this.fetchAnimeInfo(ids[selectedAnime]);
             }
             catch (err) {
                 throw new Error(err.message);
@@ -1567,6 +1574,13 @@ Anilist.Manga = class Manga {
 //   const ani = new Anilist(new Zoro());
 //   const res = await ani.fetchAnimeInfo('143270', false, true);
 //   console.log(res);
+// })();
+// (async () => {
+//   const ani = new Anilist(new Zoro());
+//   console.time('fetch');
+//   const res = await ani.fetchRandomAnime();
+//   console.log(res);
+//   console.timeEnd('fetch');
 // })();
 exports.default = Anilist;
 //# sourceMappingURL=anilist.js.map
