@@ -42,16 +42,31 @@ class GogoCDN extends models_1.VideoExtractor {
             const decryptedData = yield this.decryptAjaxData(encryptedData.data.data);
             if (!decryptedData.source)
                 throw new Error('No source found. Try a different server.');
+            //console.log(decryptedData);
+            const resResult = yield axios_1.default.get(decryptedData.source[0].file.toString());
+            const resolutions = resResult.data.match(/(RESOLUTION=)(.*)(\s*?)(\s*.*)/g);
+            resolutions.forEach((res) => {
+                var index = decryptedData.source[0].file.lastIndexOf('/');
+                var quality = res.split('\n')[0].split('x')[1].split(',')[0];
+                var url = decryptedData.source[0].file.slice(0, index);
+                this.sources.push({
+                    url: url + '/' + res.split('\n')[1],
+                    isM3U8: (url + res.split('\n')[1]).includes('.m3u8'),
+                    quality: quality + 'p',
+                });
+            });
             decryptedData.source.forEach((source) => {
                 this.sources.push({
                     url: source.file,
                     isM3U8: source.file.includes('.m3u8'),
+                    quality: 'default'
                 });
             });
             decryptedData.source_bk.forEach((source) => {
                 this.sources.push({
                     url: source.file,
                     isM3U8: source.file.includes('.m3u8'),
+                    quality: 'backup'
                 });
             });
             return this.sources;
