@@ -323,12 +323,3 @@ class Gogoanime extends AnimeParser {
 }
 
 export default Gogoanime;
-
-
-(async () => {
-  const gogoanime = new Gogoanime();
-  //youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-episode-1
-  var result = await gogoanime.fetchEpisodeSources("spy-x-family-part-2-episode-1");
-  //var result = await gogoanime.fetchEpisodeSources("youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-episode-1");
-  console.log(result);
-})()
