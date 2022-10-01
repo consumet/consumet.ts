@@ -278,11 +278,4 @@ class Gogoanime extends models_1.AnimeParser {
     }
 }
 exports.default = Gogoanime;
-(() => __awaiter(void 0, void 0, void 0, function* () {
-    const gogoanime = new Gogoanime();
-    //youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-episode-1
-    var result = yield gogoanime.fetchEpisodeSources("spy-x-family-part-2-episode-1");
-    //var result = await gogoanime.fetchEpisodeSources("youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-episode-1");
-    console.log(result);
-}))();
 //# sourceMappingURL=gogoanime.js.map
