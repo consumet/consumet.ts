@@ -93,7 +93,7 @@ Do you want to know more? Head to the [`Getting Started`](https://github.com/con
 
 ## Ecosystem
 - [Rest-API Reference](https://docs.consumet.org/) - public rest api documentation
-- [Examples](https://github.com/consumet/extentions/tree/master/examples) - examples of using consumet.ts.
+- [Examples](https://github.com/consumet/consumet.ts/tree/master/examples) - examples of using consumet.ts.
 - [Provider Status](https://github.com/consumet/providers-status/blob/main/README.md) - A list of providers and their status.
 - [Changelog](https://github.com/consumet/consumet.ts/blob/master/CHANGELOG.md) - See the latest changes.
 - [Discord Server](https://discord.gg/qTPfvMxzNH) - Join our discord server and chat with the maintainers.
