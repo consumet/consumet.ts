@@ -23,7 +23,7 @@ class RapidCloud extends models_1.VideoExtractor {
         this.sources = [];
         this.fallbackKey = 'c1d17096f2ca11b7';
         this.host = 'https://rapid-cloud.co';
-        this.consumetApi = 'https://consumet-api.herokuapp.com';
+        this.consumetApi = 'https://api.consumet.org';
         this.enimeApi = 'https://api.enime.moe';
         this.extract = (videoUrl) => __awaiter(this, void 0, void 0, function* () {
             var _a, _b;
