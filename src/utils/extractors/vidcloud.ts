@@ -29,20 +29,23 @@ class VidCloud extends VideoExtractor {
           'User-Agent': USER_AGENT,
         },
       };
-      //let res = null;
+      let res = undefined;
+      let sources = undefined;
 
-      // res = await axios.get(
-      //   `${isAlternative ? this.host2 : this.host}/ajax/embed-4/getSources?id=${id}`,
-      //   options
-      // );
+      res = await axios.get(
+        `${isAlternative ? this.host2 : this.host}/ajax/embed-4/getSources?id=${id}`,
+        options
+      );
 
-      const res = await this.wss(id!);
+      //const res = await this.wss(id!);
 
-      // const { data: key } = await axios.get(
-      //   'https://raw.githubusercontent.com/consumet/rapidclown/rabbitstream/key.txt'
-      // );
+      if (!this.isJson(res.data.sources)) {
+        const { data: key } = await axios.get(
+          'https://raw.githubusercontent.com/consumet/rapidclown/rabbitstream/key.txt'
+        );
 
-      const sources = JSON.parse(CryptoJS.AES.decrypt(res.sources, res.sid).toString(CryptoJS.enc.Utf8));
+        sources = JSON.parse(CryptoJS.AES.decrypt(res.data.sources, key).toString(CryptoJS.enc.Utf8));
+      }
 
       this.sources = sources.map((s: any) => ({
         url: s.file,
@@ -82,7 +85,7 @@ class VidCloud extends VideoExtractor {
         quality: 'auto',
       });
 
-      result.subtitles = res.tracks.map((s: any) => ({
+      result.subtitles = res.data.tracks.map((s: any) => ({
         url: s.file,
         lang: s.label ? s.label : 'Default (maybe)',
       }));
@@ -114,6 +117,15 @@ class VidCloud extends VideoExtractor {
         }
       };
     });
+  };
+
+  private isJson = (str: string) => {
+    try {
+      JSON.parse(str);
+    } catch (e) {
+      return false;
+    }
+    return true;
   };
 }
 

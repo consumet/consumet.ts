@@ -10,5 +10,6 @@ declare class VidCloud extends VideoExtractor {
         subtitles: ISubtitle[];
     }>;
     private wss;
+    private isJson;
 }
 export default VidCloud;
