@@ -16,6 +16,17 @@ test('returns a filled object of anime data', async () => {
   expect(data.description).not.toBeNull();
 });
 
+test('returns episodes for sub and dub not available', async () => {
+  const anilist = new META.Anilist();
+  const subData = await anilist.fetchEpisodesListById('949', false);
+  expect(subData).not.toBeNull();
+  expect(subData).not.toEqual([]);
+
+  const dubData = await anilist.fetchEpisodesListById('949', true);
+  expect(dubData).not.toBeNull();
+  expect(dubData).toEqual([]);
+});
+
 test('returns a filled array of servers', async () => {
   const anilist = new META.Anilist();
   const data = await anilist.fetchEpisodeServers('spy-x-family-episode-9');
