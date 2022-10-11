@@ -1,4 +1,6 @@
 import { load } from 'cheerio';
+import { ProxyConfig } from '../models';
+import axios, { AxiosRequestConfig } from 'axios';
 
 export const USER_AGENT =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36';
@@ -79,4 +81,13 @@ export const getDays = (day1: string, day2: string) => {
   day1Date.setHours(0, 0, 0, 0);
   day2Date.setHours(0, 0, 0, 0);
   return [day1Date.getTime() / 1000, day2Date.getTime() / 1000];
+};
+
+export const isJson = (str: string) => {
+  try {
+    JSON.parse(str);
+  } catch (e) {
+    return false;
+  }
+  return true;
 };

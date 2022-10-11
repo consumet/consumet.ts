@@ -203,4 +203,11 @@ class AnimePahe extends AnimeParser {
   };
 }
 
+(async () => {
+  const animepahe = new AnimePahe();
+
+  const anime = await animepahe.search('One Piece');
+  console.log(anime);
+})();
+
 export default AnimePahe;

@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getDays = exports.capitalizeFirstLetter = exports.range = exports.genElement = exports.formatTitle = exports.floorID = exports.splitAuthor = exports.days = exports.USER_AGENT = void 0;
+exports.isJson = exports.getDays = exports.capitalizeFirstLetter = exports.range = exports.genElement = exports.formatTitle = exports.floorID = exports.splitAuthor = exports.days = exports.USER_AGENT = void 0;
 const cheerio_1 = require("cheerio");
 exports.USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36';
 exports.days = ['Saturday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
@@ -81,4 +81,14 @@ const getDays = (day1, day2) => {
     return [day1Date.getTime() / 1000, day2Date.getTime() / 1000];
 };
 exports.getDays = getDays;
+const isJson = (str) => {
+    try {
+        JSON.parse(str);
+    }
+    catch (e) {
+        return false;
+    }
+    return true;
+};
+exports.isJson = isJson;
 //# sourceMappingURL=utils.js.map
