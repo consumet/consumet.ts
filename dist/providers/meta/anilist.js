@@ -500,6 +500,11 @@ class Anilist extends models_1.AnimeParser {
             }
             else
                 possibleAnime = yield this.findAnimeRaw(slug);
+            // To avoid a new request, lets match and see if the anime show found is in sub/dub
+            let expectedType = dub ? models_1.SubOrSub.DUB : models_1.SubOrSub.SUB;
+            if (possibleAnime.subOrDub != models_1.SubOrSub.BOTH && possibleAnime.subOrDub != expectedType) {
+                return [];
+            }
             const possibleProviderEpisodes = possibleAnime.episodes;
             const options = {
                 headers: { 'Content-Type': 'application/json' },

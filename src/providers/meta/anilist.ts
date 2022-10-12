@@ -627,6 +627,14 @@ class Anilist extends AnimeParser {
       } else possibleAnime = await this.findAnimeRaw(slug);
     } else possibleAnime = await this.findAnimeRaw(slug);
 
+    // To avoid a new request, lets match and see if the anime show found is in sub/dub
+
+    let expectedType = dub ? SubOrSub.DUB : SubOrSub.SUB;
+
+    if (possibleAnime.subOrDub != SubOrSub.BOTH && possibleAnime.subOrDub != expectedType) {
+      return [];
+    }
+
     const possibleProviderEpisodes = possibleAnime.episodes;
 
     const options = {
