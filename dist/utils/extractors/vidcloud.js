@@ -43,7 +43,7 @@ class VidCloud extends models_1.VideoExtractor {
                 let sources = undefined;
                 res = yield axios_1.default.get(`${isAlternative ? this.host2 : this.host}/ajax/embed-4/getSources?id=${id}`, options);
                 //const res = await this.wss(id!);
-                if (!this.isJson(res.data.sources)) {
+                if (!(0, __1.isJson)(res.data.sources)) {
                     const { data: key } = yield axios_1.default.get('https://raw.githubusercontent.com/consumet/rapidclown/rabbitstream/key.txt');
                     sources = JSON.parse(crypto_js_1.default.AES.decrypt(res.data.sources, key).toString(crypto_js_1.default.enc.Utf8));
                 }
@@ -110,15 +110,6 @@ class VidCloud extends models_1.VideoExtractor {
                 };
             });
         });
-        this.isJson = (str) => {
-            try {
-                JSON.parse(str);
-            }
-            catch (e) {
-                return false;
-            }
-            return true;
-        };
     }
 }
 exports.default = VidCloud;

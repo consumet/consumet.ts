@@ -20,6 +20,7 @@ import {
   range,
   getDays,
   days,
+  isJson,
 } from './utils';
 import {
   anilistSearchQuery,
@@ -68,4 +69,5 @@ export {
   getDays,
   days,
   Vrv,
+  isJson,
 };

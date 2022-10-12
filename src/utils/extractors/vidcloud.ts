@@ -3,7 +3,7 @@ import CryptoJS from 'crypto-js';
 import WebSocket from 'ws';
 
 import { VideoExtractor, IVideo, ISubtitle, Intro } from '../../models';
-import { USER_AGENT } from '..';
+import { USER_AGENT, isJson } from '..';
 
 class VidCloud extends VideoExtractor {
   protected override serverName = 'VidCloud';
@@ -39,7 +39,7 @@ class VidCloud extends VideoExtractor {
 
       //const res = await this.wss(id!);
 
-      if (!this.isJson(res.data.sources)) {
+      if (!isJson(res.data.sources)) {
         const { data: key } = await axios.get(
           'https://raw.githubusercontent.com/consumet/rapidclown/rabbitstream/key.txt'
         );
@@ -117,15 +117,6 @@ class VidCloud extends VideoExtractor {
         }
       };
     });
-  };
-
-  private isJson = (str: string) => {
-    try {
-      JSON.parse(str);
-    } catch (e) {
-      return false;
-    }
-    return true;
   };
 }
 

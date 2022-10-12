@@ -156,9 +156,22 @@ class Enime extends models_1.AnimeParser {
             const { data } = yield axios_1.default.get(`${this.enimeApi}/episode/${episodeId}`);
             const { data: { url, referer }, } = yield axios_1.default.get(`${this.enimeApi}/source/${data.sources[0].id}`);
             res.headers['Referer'] = referer;
+            const resResult = yield axios_1.default.get(url);
+            const resolutions = resResult.data.match(/(RESOLUTION=)(.*)(\s*?)(\s*.*)/g);
+            resolutions.forEach((ress) => {
+                var index = url.lastIndexOf('/');
+                var quality = ress.split('\n')[0].split('x')[1].split(',')[0];
+                var urll = url.slice(0, index);
+                res.sources.push({
+                    url: urll + '/' + ress.split('\n')[1],
+                    isM3U8: (urll + ress.split('\n')[1]).includes('.m3u8'),
+                    quality: quality + 'p',
+                });
+            });
             res.sources.push({
                 url: url,
                 isM3U8: url.includes('.m3u8'),
+                quality: 'default',
             });
             return res;
         });
@@ -169,9 +182,24 @@ class Enime extends models_1.AnimeParser {
             };
             const { data: { url, referer }, } = yield axios_1.default.get(`${this.enimeApi}/source/${sourceId}`);
             res.headers['Referer'] = referer;
+            const resResult = yield axios_1.default.get(url).catch(() => {
+                throw new Error('Source not found');
+            });
+            const resolutions = resResult.data.match(/(RESOLUTION=)(.*)(\s*?)(\s*.*)/g);
+            resolutions.forEach((ress) => {
+                var index = url.lastIndexOf('/');
+                var quality = ress.split('\n')[0].split('x')[1].split(',')[0];
+                var urll = url.slice(0, index);
+                res.sources.push({
+                    url: urll + '/' + ress.split('\n')[1],
+                    isM3U8: (urll + ress.split('\n')[1]).includes('.m3u8'),
+                    quality: quality + 'p',
+                });
+            });
             res.sources.push({
                 url: url,
                 isM3U8: url.includes('.m3u8'),
+                quality: 'default',
             });
             return res;
         });

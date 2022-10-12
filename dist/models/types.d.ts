@@ -374,4 +374,15 @@ export declare enum Topics {
     MERCH = "merch",
     EVENTS = "events"
 }
+export interface ProxyConfig {
+    /**
+     * The proxy URL
+     * @example https://proxy.com
+     **/
+    url: string;
+    /**
+     * X-API-Key header value (if any)
+     **/
+    key?: string;
+}
 export {};
