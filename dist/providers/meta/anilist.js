@@ -1583,12 +1583,12 @@ Anilist.Manga = class Manga {
         this.provider = provider || new mangasee123_1.default();
     }
 };
-(() => __awaiter(void 0, void 0, void 0, function* () {
-    const ani = new Anilist(new enime_1.default());
-    console.time('fetch');
-    const res = yield ani.search('naruto');
-    console.log(res);
-    console.timeEnd('fetch');
-}))();
+// (async () => {
+//   const ani = new Anilist(new Enime());
+//   console.time('fetch');
+//   const res = await ani.search('naruto');
+//   console.log(res);
+//   console.timeEnd('fetch');
+// })();
 exports.default = Anilist;
 //# sourceMappingURL=anilist.js.map
