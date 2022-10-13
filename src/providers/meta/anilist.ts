@@ -442,7 +442,6 @@ class Anilist extends AnimeParser {
           item.node.coverImage.medium,
         rating: item.node.meanScore,
       }));
-
       if (
         (this.provider instanceof Zoro || this.provider instanceof Gogoanime) &&
         !dub &&
@@ -621,9 +620,14 @@ class Anilist extends AnimeParser {
             (dub ? s.title.toLowerCase().includes('dub') : !s.title.toLowerCase().includes('dub'))
         );
 
-        if (possibleSource)
-          possibleAnime = await this.provider.fetchAnimeInfo(possibleSource.url.split('/').pop()!);
-        else possibleAnime = await this.findAnimeRaw(slug);
+        if (possibleSource) {
+          try {
+            possibleAnime = await this.provider.fetchAnimeInfo(possibleSource.url.split('/').pop()!);
+          } catch (err) {
+            console.error(err);
+            possibleAnime = await this.findAnimeRaw(slug);
+          }
+        } else possibleAnime = await this.findAnimeRaw(slug);
       } else possibleAnime = await this.findAnimeRaw(slug);
     } else possibleAnime = await this.findAnimeRaw(slug);
 
@@ -1144,6 +1148,7 @@ class Anilist extends AnimeParser {
         possibleAnimeEpisodes.reverse();
       } catch (err) {
         possibleAnimeEpisodes = await this.fetchDefaultEpisodeList(Media, dub, id);
+
         possibleAnimeEpisodes = possibleAnimeEpisodes?.map((episode: IAnimeEpisode) => {
           if (!episode.image)
             episode.image = Media.coverImage.extraLarge ?? Media.coverImage.large ?? Media.coverImage.medium;
@@ -1869,9 +1874,9 @@ class Anilist extends AnimeParser {
 }
 
 // (async () => {
-//   const ani = new Anilist(new Enime());
+//   const ani = new Anilist();
 //   console.time('fetch');
-//   const res = await ani.search('naruto');
+//   const res = await ani.fetchAnimeInfo('14813');
 //   console.log(res);
 //   console.timeEnd('fetch');
 // })();

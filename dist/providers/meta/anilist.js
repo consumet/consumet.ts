@@ -490,8 +490,15 @@ class Anilist extends models_1.AnimeParser {
                     sites = sites.flat();
                     const possibleSource = sites.find(s => s.page.toLowerCase() === this.provider.name.toLowerCase() &&
                         (dub ? s.title.toLowerCase().includes('dub') : !s.title.toLowerCase().includes('dub')));
-                    if (possibleSource)
-                        possibleAnime = yield this.provider.fetchAnimeInfo(possibleSource.url.split('/').pop());
+                    if (possibleSource) {
+                        try {
+                            possibleAnime = yield this.provider.fetchAnimeInfo(possibleSource.url.split('/').pop());
+                        }
+                        catch (err) {
+                            console.error(err);
+                            possibleAnime = yield this.findAnimeRaw(slug);
+                        }
+                    }
                     else
                         possibleAnime = yield this.findAnimeRaw(slug);
                 }
@@ -1584,9 +1591,9 @@ Anilist.Manga = class Manga {
     }
 };
 // (async () => {
-//   const ani = new Anilist(new Enime());
+//   const ani = new Anilist();
 //   console.time('fetch');
-//   const res = await ani.search('naruto');
+//   const res = await ani.fetchAnimeInfo('14813');
 //   console.log(res);
 //   console.timeEnd('fetch');
 // })();

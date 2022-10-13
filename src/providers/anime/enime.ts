@@ -111,9 +111,8 @@ class Enime extends AnimeParser {
       id: id,
       title: '',
     };
-
-    const { data } = await axios.get(`${this.enimeApi}/mapping/anilist/${id}`).catch(() => {
-      throw new Error('Anime not found');
+    const { data } = await axios.get(`${this.enimeApi}/mapping/anilist/${id}`).catch(err => {
+      throw new Error(err);
     });
 
     animeInfo.anilistId = data.anilistId;

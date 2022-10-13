@@ -100,8 +100,8 @@ class Enime extends models_1.AnimeParser {
                 id: id,
                 title: '',
             };
-            const { data } = yield axios_1.default.get(`${this.enimeApi}/mapping/anilist/${id}`).catch(() => {
-                throw new Error('Anime not found');
+            const { data } = yield axios_1.default.get(`${this.enimeApi}/mapping/anilist/${id}`).catch(err => {
+                throw new Error(err);
             });
             animeInfo.anilistId = data.anilistId;
             animeInfo.malId = data.mappings.mal;
