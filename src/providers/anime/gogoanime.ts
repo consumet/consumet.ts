@@ -320,4 +320,10 @@ class Gogoanime extends AnimeParser {
   };
 }
 
+// (async () => {
+//   const anime = new Gogoanime();
+//   const animeInfo = await anime.fetchEpisodeSources('juuni-taisen-dub-episode-6', StreamingServers.GogoCDN);
+//   console.log(animeInfo);
+// })();
+
 export default Gogoanime;
