@@ -23,7 +23,7 @@ const animepahe = new ANIME.AnimePahe();
 ```ts
 animepahe.search("Overlord IV").then(data => {
   console.log(data);
-}
+})
 ```
 
 returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
@@ -66,7 +66,7 @@ output:
 ```ts
 animepahe.fetchAnimeInfo("adb84358-8fec-fe80-1dc5-ad6218421dc1").then(data => {
   console.log(data);
-}
+})
 ```
 
 returns a promise which resolves into an anime info object (including the episodes). (*[`Promise<IAnimeInfo>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L28-L42)*)\
@@ -111,7 +111,7 @@ In this example, we're getting the sources for the first episode of Overlord IV.
 ```ts
 animepahe.fetchEpisodeSources("c673b4d6cedf5e4cd1900d30d61ee2130e23a74e58f4401a85f21a4e95c94f73").then(data => {
   console.log(data);
-}
+})
 ```
 
 returns a promise which resolves into an array of episode sources. (*[`Promise<ISource>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L210-L214)*)\
