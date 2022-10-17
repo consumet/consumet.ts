@@ -22,7 +22,7 @@ const readlightnovels = new LIGHT_NOVELS.ReadLightNovels();
 ```ts
 readlightnovels.search("Classrrom of the Elite").then(data => {
   console.log(data);
-}
+})
 ```
 returns a promise which resolves into an array of light novels. (*<a href= "https://github.com/consumet/extensions/blob/master/src/models/types.ts#L128-L134"> <code>Promise<ISearch\<ILightNovelResult>></code></a>*)\
 output:
@@ -53,7 +53,7 @@ output:
 ```ts
 readlightnovels.fetchLightNovelInfo("youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e").then(data => {
   console.log(data);
-}
+})
 ```
 returns a promise which resolves into an light novel info object (including the chapters or volumes). (*<a href="https://github.com/consumet/extensions/blob/master/src/models/types.ts#L148-L156"><code>Promise\<ILightNovelInfo></code></a>*)\
 output:
@@ -95,7 +95,7 @@ output:
 ```ts
 readlightnovels.fetchChapterContent("youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e/volume-1-prologue-the-structure-of-japanese-society").then(data => {
   console.log(data);
-}
+})
 ```
 returns a content object. (*<a href="https://github.com/consumet/extensions/blob/master/src/models/types.ts#L143-L146"><code>Promise\<ILightNovelChapterContent></code></a>*)\
 output:

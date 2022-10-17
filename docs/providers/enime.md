@@ -25,7 +25,7 @@ const enime = new ANIME.Enime();
 ```ts
 enime.search("Overlord IV").then(data => {
   console.log(data);
-}
+})
 ```
 
 returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
@@ -76,7 +76,7 @@ output:
 ```ts
 enime.fetchAnimeInfo("cl6k4l2xt000nh4lu54mqankt").then(data => {
   console.log(data);
-}
+})
 ```
 
 returns a promise which resolves into an anime info object (including the episodes). (*[`Promise<IAnimeInfo>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L28-L42)*)\
@@ -142,7 +142,7 @@ In this example, we're getting the sources for the first episode of Overlord IV.
 ```ts
 enime.fetchEpisodeSources("cl6m9svrt380392sm8x1u89gzh").then(data => {
   console.log(data);
-}
+})
 ```
 
 returns a promise which resolves into an array of episode sources. (*[`Promise<ISource>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L210-L214)*)\

@@ -27,7 +27,7 @@ const gogoanime = new ANIME.Gogoanime();
 ```ts
 gogoanime.search("One Piece").then(data => {
   console.log(data);
-}
+})
 ```
 
 returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
@@ -71,7 +71,7 @@ output:
 ```ts
 gogoanime.fetchRecentEpisodes().then(data => {
   console.log(data);
-}
+})
 ```
 
 output:
@@ -107,7 +107,7 @@ return top airing anime list.
 ```ts
 gogoanime.fetchTopAiring().then(data => {
   console.log(data);
-}
+})
 ```
 
 output:
@@ -140,7 +140,7 @@ output:
 ```ts
 gogoanime.fetchAnimeInfo("one-piece").then(data => {
   console.log(data);
-}
+})
 ```
 
 returns a promise which resolves into an anime info object (including the episodes). (*[`Promise<IAnimeInfo>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L28-L42)*)\
@@ -193,7 +193,7 @@ output:
 ```ts
 gogoanime.fetchEpisodeSources("one-piece-episode-1022").then(data => {
   console.log(data);
-}
+})
 ```
 returns a promise which resolves into an array of episode sources. (*[`Promise<ISource>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L210-L214)*)\
 output:
@@ -226,7 +226,7 @@ output:
 ```ts
 gogoanime.fetchEpisodeServers("one-piece-episode-1022").then(data => {
   console.log(data);
-}
+})
 ```
 returns a promise which resolves into an array of episode servers. (*[`Promise<IEpisodeServer[]>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L54-L57)*)\
 output:

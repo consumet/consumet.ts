@@ -25,7 +25,7 @@ const nineanime = await ANIME.NineAnime.create();
 ```ts
 nineanime.search("ojisan").then(data => {
   console.log(data);
-}
+})
 ```
 
 returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
@@ -69,7 +69,7 @@ output:
 ```ts
 nineanime.fetchAnimeInfo("uncle-from-another-world.oj9q8").then(data => {
   console.log(data);
-}
+})
 ```
 
 returns a promise which resolves into an anime info object (including the episodes). (*[`Promise<IAnimeInfo>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L28-L42)*)\
@@ -127,7 +127,7 @@ In this example, we're getting the sources for the first episode of Overlord IV.
 ```ts
 nineanime.fetchEpisodeSources("155250").then(data => {
   console.log(data);
-}
+})
 ```
 
 returns a promise which resolves into an array of episode sources. (*[`Promise<ISource>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L210-L214)*)\
@@ -147,7 +147,7 @@ lol jk. it doesnt work yet :).
 ```ts
 nineanime.fetchEpisodeServers("155250").then(data => {
   console.log(data);
-}
+})
 ```
 returns a promise which resolves into an array of episode servers. (*[`Promise<IEpisodeServer[]>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L54-L57)*)\
 output:
