@@ -1,5 +1,6 @@
-import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, ISource, IAnimeEpisode, IEpisodeServer, Genres, MangaParser, IMangaChapterPage, IMangaInfo, IMangaResult } from '../../models';
+import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, ISource, IAnimeEpisode, IEpisodeServer, Genres, MangaParser, IMangaChapterPage, IMangaInfo, IMangaResult, ProxyConfig } from '../../models';
 declare class Anilist extends AnimeParser {
+    proxyConfig?: ProxyConfig | undefined;
     readonly name = "Anilist";
     protected baseUrl: string;
     protected logo: string;
@@ -14,7 +15,7 @@ declare class Anilist extends AnimeParser {
      * kitsu is used for episode images, titles and description.
      * @param provider anime provider (optional) default: Gogoanime
      */
-    constructor(provider?: AnimeParser);
+    constructor(provider?: AnimeParser, proxyConfig?: ProxyConfig | undefined);
     /**
      * @param query Search query
      * @param page Page number (optional)

@@ -1,5 +1,6 @@
 import axios from 'axios';
 import { load } from 'cheerio';
+import { Console } from 'console';
 import anime from '.';
 
 import {
@@ -110,9 +111,8 @@ class Enime extends AnimeParser {
       id: id,
       title: '',
     };
-
-    const { data } = await axios.get(`${this.enimeApi}/mapping/anilist/${id}`).catch(() => {
-      throw new Error('Anime not found');
+    const { data } = await axios.get(`${this.enimeApi}/mapping/anilist/${id}`).catch(err => {
+      throw new Error(err);
     });
 
     animeInfo.anilistId = data.anilistId;
@@ -184,9 +184,24 @@ class Enime extends AnimeParser {
     } = await axios.get(`${this.enimeApi}/source/${data.sources[0].id!}`);
 
     res.headers!['Referer'] = referer;
+
+    const resResult = await axios.get(url);
+    const resolutions = resResult.data.match(/(RESOLUTION=)(.*)(\s*?)(\s*.*)/g);
+    resolutions.forEach((ress: string) => {
+      var index = url.lastIndexOf('/');
+      var quality = ress.split('\n')[0].split('x')[1].split(',')[0];
+      var urll = url.slice(0, index);
+      res.sources.push({
+        url: urll + '/' + ress.split('\n')[1],
+        isM3U8: (urll + ress.split('\n')[1]).includes('.m3u8'),
+        quality: quality + 'p',
+      });
+    });
+
     res.sources.push({
       url: url,
       isM3U8: url.includes('.m3u8'),
+      quality: 'default',
     });
 
     return res;
@@ -203,9 +218,26 @@ class Enime extends AnimeParser {
     } = await axios.get(`${this.enimeApi}/source/${sourceId}`);
 
     res.headers!['Referer'] = referer;
+
+    const resResult = await axios.get(url).catch(() => {
+      throw new Error('Source not found');
+    });
+    const resolutions = resResult.data.match(/(RESOLUTION=)(.*)(\s*?)(\s*.*)/g);
+    resolutions.forEach((ress: string) => {
+      var index = url.lastIndexOf('/');
+      var quality = ress.split('\n')[0].split('x')[1].split(',')[0];
+      var urll = url.slice(0, index);
+      res.sources.push({
+        url: urll + '/' + ress.split('\n')[1],
+        isM3U8: (urll + ress.split('\n')[1]).includes('.m3u8'),
+        quality: quality + 'p',
+      });
+    });
+
     res.sources.push({
       url: url,
       isM3U8: url.includes('.m3u8'),
+      quality: 'default',
     });
 
     return res;

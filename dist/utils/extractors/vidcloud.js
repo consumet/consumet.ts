@@ -39,16 +39,14 @@ class VidCloud extends models_1.VideoExtractor {
                         'User-Agent': __1.USER_AGENT,
                     },
                 };
-                //let res = null;
-                // res = await axios.get(
-                //   `${isAlternative ? this.host2 : this.host}/ajax/embed-4/getSources?id=${id}`,
-                //   options
-                // );
-                const res = yield this.wss(id);
-                // const { data: key } = await axios.get(
-                //   'https://raw.githubusercontent.com/consumet/rapidclown/rabbitstream/key.txt'
-                // );
-                const sources = JSON.parse(crypto_js_1.default.AES.decrypt(res.sources, res.sid).toString(crypto_js_1.default.enc.Utf8));
+                let res = undefined;
+                let sources = undefined;
+                res = yield axios_1.default.get(`${isAlternative ? this.host2 : this.host}/ajax/embed-4/getSources?id=${id}`, options);
+                //const res = await this.wss(id!);
+                if (!(0, __1.isJson)(res.data.sources)) {
+                    const { data: key } = yield axios_1.default.get('https://raw.githubusercontent.com/consumet/rapidclown/rabbitstream/key.txt');
+                    sources = JSON.parse(crypto_js_1.default.AES.decrypt(res.data.sources, key).toString(crypto_js_1.default.enc.Utf8));
+                }
                 this.sources = sources.map((s) => ({
                     url: s.file,
                     isM3U8: s.file.includes('.m3u8'),
@@ -79,7 +77,7 @@ class VidCloud extends models_1.VideoExtractor {
                     isM3U8: sources[0].file.includes('.m3u8'),
                     quality: 'auto',
                 });
-                result.subtitles = res.tracks.map((s) => ({
+                result.subtitles = res.data.tracks.map((s) => ({
                     url: s.file,
                     lang: s.label ? s.label : 'Default (maybe)',
                 }));

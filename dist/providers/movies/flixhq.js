@@ -271,7 +271,7 @@ class FlixHQ extends models_1.MovieParser {
 }
 // (async () => {
 //   const movie = new FlixHQ();
-//   const movieInfo = await movie.fetchEpisodeSources('18617', 'movie/watch-top-gun-18617');
+//   const movieInfo = await movie.fetchEpisodeSources('1168337', 'tv/watch-vincenzo-67955');
 //   console.log(movieInfo);
 // })();
 exports.default = FlixHQ;

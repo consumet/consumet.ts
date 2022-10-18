@@ -22,7 +22,7 @@ const mangakakalot = new MANGA.MangaKakalot();
 ```ts
 mangakakalot.search("Tomodachi Game").then(data => {
   console.log(data);
-}
+})
 ```
 returns a promise which resolves into an array of manga. (*[`Promise<ISearch<IMangaResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L97-L106)*)\
 output:
@@ -58,7 +58,7 @@ output:
 ```ts
 mangakakalot.fetchMangaInfo("manga-kr954974").then(data => {
   console.log(data);
-}
+})
 ```
 returns a promise which resolves into an manga info object (including the chapters). (*[`Promise<IMangaInfo>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L115-L120)*)\
 output:
@@ -102,7 +102,7 @@ Note: The `headerForImage` property might be useful when getting the image to di
 ```ts
 mangakakalot.fetchChapterPages("manga-kr954974/chapter-102$$READMANGANATO").then(data => {
   console.log(data);
-}
+})
 ```
 returns an array of pages. (*[`Promise<IMangaChapterPage[]>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L122-L126)*)\
 output:

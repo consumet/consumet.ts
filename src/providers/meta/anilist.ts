@@ -16,6 +16,7 @@ import {
   IMangaInfo,
   IMangaResult,
   IMangaChapter,
+  ProxyConfig,
 } from '../../models';
 import {
   anilistSearchQuery,
@@ -32,6 +33,7 @@ import {
   getDays,
   days,
   capitalizeFirstLetter,
+  isJson,
 } from '../../utils';
 import Gogoanime from '../../providers/anime/gogoanime';
 import Enime from '../anime/enime';
@@ -55,7 +57,7 @@ class Anilist extends AnimeParser {
    * kitsu is used for episode images, titles and description.
    * @param provider anime provider (optional) default: Gogoanime
    */
-  constructor(provider?: AnimeParser) {
+  constructor(provider?: AnimeParser, public proxyConfig?: ProxyConfig) {
     super();
     this.provider = provider || new Gogoanime();
   }
@@ -74,12 +76,29 @@ class Anilist extends AnimeParser {
       headers: {
         'Content-Type': 'application/json',
         Accept: 'application/json',
+        ...Object.values([
+          typeof this.proxyConfig?.key != 'undefined' ? { 'x-api-key': this.proxyConfig?.key } : undefined,
+        ])[0],
       },
-      query: anilistSearchQuery(query, page, perPage),
+      ...Object.values([
+        typeof this.proxyConfig == 'undefined'
+          ? { query: anilistSearchQuery(query, page, perPage) }
+          : {
+              body: JSON.stringify({
+                query: anilistSearchQuery(query, page, perPage),
+              }),
+            },
+      ])[0],
     };
 
     try {
-      const { data } = await axios.post(this.anilistGraphqlUrl, options);
+      const { data, status } = await axios.post(
+        typeof this.proxyConfig != 'undefined'
+          ? `${this.proxyConfig.url}/?url=${this.anilistGraphqlUrl}`
+          : this.anilistGraphqlUrl,
+        typeof this.proxyConfig == 'undefined' ? options : options.body,
+        typeof this.proxyConfig == 'undefined' ? undefined : { headers: options.headers }
+      );
 
       const res: ISearch<IAnimeResult> = {
         currentPage: data.data.Page.pageInfo.currentPage,
@@ -423,7 +442,6 @@ class Anilist extends AnimeParser {
           item.node.coverImage.medium,
         rating: item.node.meanScore,
       }));
-
       if (
         (this.provider instanceof Zoro || this.provider instanceof Gogoanime) &&
         !dub &&
@@ -602,11 +620,24 @@ class Anilist extends AnimeParser {
             (dub ? s.title.toLowerCase().includes('dub') : !s.title.toLowerCase().includes('dub'))
         );
 
-        if (possibleSource)
-          possibleAnime = await this.provider.fetchAnimeInfo(possibleSource.url.split('/').pop()!);
-        else possibleAnime = await this.findAnimeRaw(slug);
+        if (possibleSource) {
+          try {
+            possibleAnime = await this.provider.fetchAnimeInfo(possibleSource.url.split('/').pop()!);
+          } catch (err) {
+            console.error(err);
+            possibleAnime = await this.findAnimeRaw(slug);
+          }
+        } else possibleAnime = await this.findAnimeRaw(slug);
       } else possibleAnime = await this.findAnimeRaw(slug);
     } else possibleAnime = await this.findAnimeRaw(slug);
+
+    // To avoid a new request, lets match and see if the anime show found is in sub/dub
+
+    let expectedType = dub ? SubOrSub.DUB : SubOrSub.SUB;
+
+    if (possibleAnime.subOrDub != SubOrSub.BOTH && possibleAnime.subOrDub != expectedType) {
+      return [];
+    }
 
     const possibleProviderEpisodes = possibleAnime.episodes;
 
@@ -1120,6 +1151,7 @@ class Anilist extends AnimeParser {
         possibleAnimeEpisodes.reverse();
       } catch (err) {
         possibleAnimeEpisodes = await this.fetchDefaultEpisodeList(Media, dub, id);
+
         possibleAnimeEpisodes = possibleAnimeEpisodes?.map((episode: IAnimeEpisode) => {
           if (!episode.image)
             episode.image = Media.coverImage.extraLarge ?? Media.coverImage.large ?? Media.coverImage.medium;
@@ -1845,15 +1877,9 @@ class Anilist extends AnimeParser {
 }
 
 // (async () => {
-//   const ani = new Anilist(new Zoro());
-//   const res = await ani.fetchAnimeInfo('143270', false, true);
-//   console.log(res);
-// })();
-
-// (async () => {
-//   const ani = new Anilist(new Zoro());
+//   const ani = new Anilist();
 //   console.time('fetch');
-//   const res = await ani.fetchRandomAnime();
+//   const res = await ani.fetchAnimeInfo('14813');
 //   console.log(res);
 //   console.timeEnd('fetch');
 // })();

@@ -20,7 +20,7 @@ class Gogoanime extends models_1.AnimeParser {
     constructor() {
         super(...arguments);
         this.name = 'Gogoanime';
-        this.baseUrl = 'https://www1.gogoanime.ee';
+        this.baseUrl = 'https://www.gogoanime.dk';
         this.logo = 'https://i0.wp.com/cloudfuji.com/wp-content/uploads/2021/12/gogoanime.png?fit=300%2C400&ssl=1';
         this.classPath = 'ANIME.Gogoanime';
         this.ajaxUrl = 'https://ajax.gogo-load.com/ajax';
@@ -277,5 +277,10 @@ class Gogoanime extends models_1.AnimeParser {
         });
     }
 }
+// (async () => {
+//   const anime = new Gogoanime();
+//   const animeInfo = await anime.fetchEpisodeSources('juuni-taisen-dub-episode-6', StreamingServers.GogoCDN);
+//   console.log(animeInfo);
+// })();
 exports.default = Gogoanime;
 //# sourceMappingURL=gogoanime.js.map

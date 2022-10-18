@@ -23,7 +23,7 @@ const animixplay = new ANIME.AniMixPlay();
 ```ts
 animixplay.search("Overlord IV").then(data => {
   console.log(data);
-}
+})
 ```
 
 returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
@@ -55,7 +55,7 @@ output:
 ```ts
 animixplay.fetchAnimeInfo("/v1/overlord-iv").then(data => {
   console.log(data);
-}
+})
 ```
 
 returns a promise which resolves into an anime info object (including the episodes). (*[`Promise<IAnimeInfo>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L28-L42)*)\
@@ -97,7 +97,7 @@ In this example, we're getting the sources for the first episode of Overlord IV.
 ```ts
 animixplay.fetchEpisodeSources("MTg4NzY5").then(data => {
   console.log(data);
-}
+})
 ```
 
 returns a promise which resolves into an array of episode sources. (*[`Promise<ISource>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L210-L214)*)\

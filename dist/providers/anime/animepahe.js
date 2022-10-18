@@ -180,5 +180,10 @@ class AnimePahe extends models_1.AnimeParser {
         };
     }
 }
+// (async () => {
+//   const animepahe = new AnimePahe();
+//   const anime = await animepahe.search('One Piece');
+//   console.log(anime);
+// })();
 exports.default = AnimePahe;
 //# sourceMappingURL=animepahe.js.map

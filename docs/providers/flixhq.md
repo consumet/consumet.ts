@@ -25,7 +25,7 @@ const flixhq = new MOVIES.FlixHQ();
 ```ts
 flixhq.search("Vincenzo").then(data => {
   console.log(data);
-}
+})
 ```
 
 returns a promise which resolves into an array of movies/tv series. (*[`Promise<ISearch<IMovieResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L233-L241)*)\
@@ -59,7 +59,7 @@ output:
 ```ts
 flixhq.fetchMediaInfo("tv/watch-vincenzo-67955").then(data => {
   console.log(data);
-}
+})
 ```
 
 returns a promise which resolves into an anime info object (including the episodes). (*[`Promise<IMovieInfo>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L243-L254)*)\
@@ -117,7 +117,7 @@ output:
 ```ts
 flixhq.fetchEpisodeSources("1167571", "tv/watch-vincenzo-67955").then(data => {
   console.log(data);
-}
+})
 ```
 returns a promise which resolves into an array of episode sources and subtitles. (*[`Promise<ISource>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L210-L214)*)\
 output:
@@ -157,7 +157,7 @@ output:
 ```ts
 flixhq.fetchEpisodeServers('1167571', 'tv/watch-vincenzo-67955').then(data => {
   console.log(data);
-}
+})
 ```
 returns a promise which resolves into an array of episode servers. (*[`Promise<IEpisodeServer[]>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L54-L57)*)\
 output:

@@ -45,6 +45,7 @@ import {
   FuzzyDate,
   ITitle,
   MediaFormat,
+  ProxyConfig,
 } from './types';
 import { LibgenBookObject, GetComicsComicsObject, ZLibraryObject } from './type-objects';
 
@@ -98,4 +99,5 @@ export {
   FuzzyDate,
   ITitle,
   MediaFormat,
+  ProxyConfig,
 };

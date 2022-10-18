@@ -22,7 +22,7 @@ const animefox = new ANIME.AnimeFox();
 ```ts
 animefox.fetchRecentEpisodes().then(data => {
   console.log(data);
-}
+})
 ```
 
 
@@ -70,7 +70,7 @@ animefox.fetchRecentEpisodes().then(data => {
 ```ts
 animefox.search("Overlord IV").then(data => {
   console.log(data);
-}
+})
 ```
 
 returns a promise which resolves into an array of anime. (*[`Promise<ISearch<IAnimeResult[]>>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L13-L26)*)\
@@ -114,7 +114,7 @@ output:
 ```ts
 animefox.fetchAnimeInfo("overlord-iv").then(data => {
   console.log(data);
-}
+})
 ```
 
 returns a promise which resolves into an anime info object (including the episodes). (*[`Promise<IAnimeInfo>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L28-L42)*)\
@@ -162,7 +162,7 @@ In this example, we're getting the sources for the first episode of Overlord IV.
 ```ts
 animefox.fetchEpisodeSources("overlord-iv").then(data => {
   console.log(data);
-}
+})
 ```
 
 returns a promise which resolves into an array of episode sources. (*[`Promise<ISource>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L210-L214)*)\

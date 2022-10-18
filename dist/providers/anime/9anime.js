@@ -57,7 +57,7 @@ class NineAnime extends models_1.AnimeParser {
                 results: [],
             };
             try {
-                const res = yield axios_1.default.get(`${this.baseUrl.replace('.to', '.id')}/filter?keyword=${(0, ascii_url_encoder_1.encode)(query).replace(/%20/g, '+')}&vrf=${(0, ascii_url_encoder_1.encode)(this.ev(query))}&page=${page}`);
+                const res = yield axios_1.default.get(`${this.baseUrl}/filter?keyword=${(0, ascii_url_encoder_1.encode)(query).replace(/%20/g, '+')}&vrf=${(0, ascii_url_encoder_1.encode)(this.ev(query))}&page=${page}`);
                 const $ = (0, cheerio_1.load)(res.data);
                 searchResult.hasNextPage =
                     $(`ul.pagination`).length > 0
@@ -118,8 +118,8 @@ class NineAnime extends models_1.AnimeParser {
     fetchAnimeInfo(animeUrl, isDub = false) {
         var _a, _b, _c, _d, _e;
         return __awaiter(this, void 0, void 0, function* () {
-            if (!animeUrl.startsWith(this.baseUrl.replace('.to', '.id')))
-                animeUrl = `${this.baseUrl.replace('.to', '.id')}/watch/${animeUrl}`;
+            if (!animeUrl.startsWith(this.baseUrl))
+                animeUrl = `${this.baseUrl}/watch/${animeUrl}`;
             const animeInfo = {
                 id: '',
                 title: '',
@@ -191,7 +191,7 @@ class NineAnime extends models_1.AnimeParser {
                     .split('; ')
                     .map(name => name === null || name === void 0 ? void 0 : name.trim());
                 const id = $('#watch-main').attr('data-id');
-                const { data: { result }, } = yield axios_1.default.get(`${this.baseUrl.replace('.to', '.id')}/ajax/episode/list/${id}?vrf=${(0, ascii_url_encoder_1.encode)(this.ev(id))}`);
+                const { data: { result }, } = yield axios_1.default.get(`${this.baseUrl}/ajax/episode/list/${id}?vrf=${(0, ascii_url_encoder_1.encode)(this.ev(id))}`);
                 const $$ = (0, cheerio_1.load)(result);
                 animeInfo.totalEpisodes = $$('div.episodes > ul > li > a').length;
                 animeInfo.episodes = [];
@@ -209,7 +209,7 @@ class NineAnime extends models_1.AnimeParser {
                             number: number,
                             title: title,
                             isFiller: isFiller,
-                            url: `${this.baseUrl.replace('.to', '.id')}/ajax/server/list/${id}?vrf=${this.ev(id)}`,
+                            url: `${this.baseUrl}/ajax/server/list/${id}?vrf=${this.ev(id)}`,
                         };
                     })
                         .get();
@@ -286,8 +286,8 @@ class NineAnime extends models_1.AnimeParser {
     }
     fetchEpisodeServers(episodeId) {
         return __awaiter(this, void 0, void 0, function* () {
-            if (!episodeId.startsWith(this.baseUrl.replace('.to', '.id')))
-                episodeId = `${this.baseUrl.replace('.to', '.id')}/ajax/server/list/${episodeId}?vrf=${this.ev(episodeId)}`;
+            if (!episodeId.startsWith(this.baseUrl))
+                episodeId = `${this.baseUrl}/ajax/server/list/${episodeId}?vrf=${this.ev(episodeId)}`;
             const { data: { result }, } = yield axios_1.default.get(episodeId);
             const $ = (0, cheerio_1.load)(result);
             const servers = [];
@@ -295,7 +295,7 @@ class NineAnime extends models_1.AnimeParser {
                 const serverId = $(el).attr('data-link-id');
                 servers.push({
                     name: $(el).text().toLocaleLowerCase(),
-                    url: `${this.baseUrl.replace('.to', '.id')}/ajax/server/${serverId}?vrf=${(0, ascii_url_encoder_1.encode)(this.ev(serverId))}`,
+                    url: `${this.baseUrl}/ajax/server/${serverId}?vrf=${(0, ascii_url_encoder_1.encode)(this.ev(serverId))}`,
                 });
             });
             return servers;

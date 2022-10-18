@@ -59,10 +59,9 @@ class NineAnime extends AnimeParser {
 
     try {
       const res = await axios.get(
-        `${this.baseUrl.replace('.to', '.id')}/filter?keyword=${encode(query).replace(
-          /%20/g,
-          '+'
-        )}&vrf=${encode(this.ev(query))}&page=${page}`
+        `${this.baseUrl}/filter?keyword=${encode(query).replace(/%20/g, '+')}&vrf=${encode(
+          this.ev(query)
+        )}&page=${page}`
       );
 
       const $ = load(res.data);
@@ -125,8 +124,7 @@ class NineAnime extends AnimeParser {
   }
 
   override async fetchAnimeInfo(animeUrl: string, isDub: boolean = false): Promise<IAnimeInfo> {
-    if (!animeUrl.startsWith(this.baseUrl.replace('.to', '.id')))
-      animeUrl = `${this.baseUrl.replace('.to', '.id')}/watch/${animeUrl}`;
+    if (!animeUrl.startsWith(this.baseUrl)) animeUrl = `${this.baseUrl}/watch/${animeUrl}`;
 
     const animeInfo: IAnimeInfo = {
       id: '',
@@ -221,9 +219,7 @@ class NineAnime extends AnimeParser {
 
       const {
         data: { result },
-      } = await axios.get(
-        `${this.baseUrl.replace('.to', '.id')}/ajax/episode/list/${id}?vrf=${encode(this.ev(id))}`
-      );
+      } = await axios.get(`${this.baseUrl}/ajax/episode/list/${id}?vrf=${encode(this.ev(id))}`);
 
       const $$ = load(result);
 
@@ -244,7 +240,7 @@ class NineAnime extends AnimeParser {
                 number: number,
                 title: title,
                 isFiller: isFiller,
-                url: `${this.baseUrl.replace('.to', '.id')}/ajax/server/list/${id}?vrf=${this.ev(id)}`,
+                url: `${this.baseUrl}/ajax/server/list/${id}?vrf=${this.ev(id)}`,
               };
             })
             .get();
@@ -324,10 +320,8 @@ class NineAnime extends AnimeParser {
   }
 
   override async fetchEpisodeServers(episodeId: string): Promise<IEpisodeServer[]> {
-    if (!episodeId.startsWith(this.baseUrl.replace('.to', '.id')))
-      episodeId = `${this.baseUrl.replace('.to', '.id')}/ajax/server/list/${episodeId}?vrf=${this.ev(
-        episodeId
-      )}`;
+    if (!episodeId.startsWith(this.baseUrl))
+      episodeId = `${this.baseUrl}/ajax/server/list/${episodeId}?vrf=${this.ev(episodeId)}`;
 
     const {
       data: { result },
@@ -340,7 +334,7 @@ class NineAnime extends AnimeParser {
       const serverId = $(el).attr('data-link-id')!;
       servers.push({
         name: $(el).text().toLocaleLowerCase(),
-        url: `${this.baseUrl.replace('.to', '.id')}/ajax/server/${serverId}?vrf=${encode(this.ev(serverId))}`,
+        url: `${this.baseUrl}/ajax/server/${serverId}?vrf=${encode(this.ev(serverId))}`,
       });
     });
 
