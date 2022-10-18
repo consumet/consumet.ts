@@ -161,7 +161,7 @@ class FlixHQ extends MovieParser {
   override fetchEpisodeSources = async (
     episodeId: string,
     mediaId: string,
-    server: StreamingServers = StreamingServers.VidCloud
+    server: StreamingServers = StreamingServers.UpCloud
   ): Promise<ISource> => {
     if (episodeId.startsWith('http')) {
       const serverUrl = new URL(episodeId);
@@ -307,5 +307,11 @@ class FlixHQ extends MovieParser {
     }
   };
 }
+
+// (async () => {
+//   const movie = new FlixHQ();
+//   const movieInfo = await movie.fetchEpisodeSources('18617', 'movie/watch-top-gun-18617');
+//   console.log(movieInfo);
+// })();
 
 export default FlixHQ;

@@ -8,9 +8,11 @@ declare class NineAnime extends AnimeParser {
     protected logo: string;
     protected classPath: string;
     readonly isWorking = false;
+    private readonly baseTable;
     private readonly table;
     private cipherKey;
     private decipherKey;
+    private keyMap;
     init(): Promise<void>;
     static create(): Promise<NineAnime>;
     search(query: string, page?: number): Promise<ISearch<IAnimeResult>>;
@@ -19,6 +21,7 @@ declare class NineAnime extends AnimeParser {
     fetchEpisodeServers(episodeId: string): Promise<IEpisodeServer[]>;
     private ev;
     private dv;
+    private mapKeys;
     private cipher;
     private encrypt;
     private decrypt;

@@ -59,6 +59,8 @@ class Gogoanime extends AnimeParser {
         });
       });
 
+
+
       return searchResult;
     } catch (err) {
       throw new Error((err as Error).message);

@@ -78,8 +78,8 @@ class AniMixPlay extends models_1.AnimeParser {
                     delete episodes[Object.keys(episodes)[Object.keys(episodes).length - 1]];
                     for (const key in episodes) {
                         animeInfo.episodes.push({
-                            id: `${animeInfo.id}/ep${parseInt(key) + 1}`,
-                            gogoId: (_a = episodes[key].toString()) === null || _a === void 0 ? void 0 : _a.match(/(?<=id=).*(?=&title)/g)[0],
+                            id: (_a = episodes[key].toString()) === null || _a === void 0 ? void 0 : _a.match(/(?<=id=).*(?=&title)/g)[0],
+                            animixplayId: `${animeInfo.id}/ep${parseInt(key) + 1}`,
                             number: parseInt(key) + 1,
                             url: `${this.baseUrl}${animeInfo.id}/ep${parseInt(key) + 1}`,
                             gogoUrl: `https:${episodes[key]}`,
@@ -97,8 +97,14 @@ class AniMixPlay extends models_1.AnimeParser {
          * @param episodeId episode id
          */
         this.fetchEpisodeSources = (episodeId) => __awaiter(this, void 0, void 0, function* () {
+            if (!episodeId.startsWith('http'))
+                episodeId = 'https://gogohd.net/streaming.php?id=' + episodeId;
+            // const { data } = await axios.get(this.baseUrl + episodeId);
+            // console.log(data);
+            // const iframe = data.match(/(?<=<iframe src=").*(?=")/g)![0];
+            // console.log(iframe);
             return {
-                sources: yield new utils_1.Vrv().extract(new URL(this.baseUrl + episodeId)),
+                sources: yield new utils_1.GogoCDN().extract(new URL(episodeId)),
             };
         });
         /**
@@ -113,7 +119,7 @@ class AniMixPlay extends models_1.AnimeParser {
 //   const animixplay = new AniMixPlay();
 //   const animeInfo = await animixplay.fetchAnimeInfo('/v1/one-piece');
 //   const sources = await animixplay.fetchEpisodeSources(animeInfo.episodes![0].id);
-//   console.log(animeInfo);
+//   console.log(sources);
 // })();
 exports.default = AniMixPlay;
 //# sourceMappingURL=animixplay.js.map

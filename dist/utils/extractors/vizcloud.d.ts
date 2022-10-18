@@ -4,8 +4,9 @@ declare class VizCloud extends VideoExtractor {
     protected sources: IVideo[];
     private readonly host;
     private keys;
-    private readonly base64Table;
     extract: (videoUrl: URL, cipher: (query: string, key: string) => string, encrypt: (query: string, key: string) => string) => Promise<IVideo[]>;
+    private encrypt;
+    private s;
     private dashify;
     private fetchKeys;
 }

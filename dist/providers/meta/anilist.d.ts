@@ -40,8 +40,9 @@ declare class Anilist extends AnimeParser {
      *
      * @param id Anime id
      * @param dub to get dubbed episodes (optional) set to `true` to get dubbed episodes. **ONLY WORKS FOR GOGOANIME**
+     * @param fetchFiller to get filler boolean on the episode object (optional) set to `true` to get filler boolean on the episode object.
      */
-    fetchAnimeInfo: (id: string, dub?: boolean) => Promise<IAnimeInfo>;
+    fetchAnimeInfo: (id: string, dub?: boolean, fetchFiller?: boolean) => Promise<IAnimeInfo>;
     /**
      *
      * @param episodeId Episode id
@@ -98,9 +99,10 @@ declare class Anilist extends AnimeParser {
     /**
      * @param id anilist id
      * @param dub language of the dubbed version (optional) currently only works for gogoanime
+     * @param fetchFiller to get filler boolean on the episode object (optional) set to `true` to get filler boolean on the episode object.
      * @returns episode list **(without anime info)**
      */
-    fetchEpisodesListById: (id: string, dub?: boolean) => Promise<IAnimeEpisode[]>;
+    fetchEpisodesListById: (id: string, dub?: boolean, fetchFiller?: boolean) => Promise<IAnimeEpisode[]>;
     /**
      * @param id anilist id
      * @returns anilist data for the anime **(without episodes)** (use `fetchEpisodesListById` to get the episodes) (use `fetchAnimeInfo` to get both)

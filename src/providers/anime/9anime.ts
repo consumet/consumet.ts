@@ -22,22 +22,25 @@ import { range, StreamTape, USER_AGENT, VizCloud, Filemoon } from '../../utils';
  */
 class NineAnime extends AnimeParser {
   override readonly name = '9Anime';
-  protected override baseUrl = 'https://9anime.to';
+  protected override baseUrl = 'https://9anime.pl';
   protected override logo =
     'https://d1nxzqpcg2bym0.cloudfront.net/google_play/com.my.nineanime/87b2fe48-9c36-11eb-8292-21241b1c199b/128x128';
   protected override classPath = 'ANIME.NineAnime';
   override readonly isWorking = false;
 
-  private readonly table = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
+  private readonly baseTable = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=_';
+  private readonly table = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+=/_';
   private cipherKey = '';
   private decipherKey = '';
+  private keyMap = '';
 
   async init() {
     const {
-      data: { encryptKey, decryptKey },
-    } = await axios.get('https://raw.githubusercontent.com/chenkaslowankiya/BruvFlow/main/keys.json');
-    this.cipherKey = encryptKey;
-    this.decipherKey = decryptKey;
+      data: { cipher, decipher, keyMap },
+    } = await axios.get('https://raw.githubusercontent.com/AnimeJeff/Brohflow/main/keys.json');
+    this.cipherKey = cipher;
+    this.decipherKey = decipher;
+    this.keyMap = keyMap;
   }
 
   static async create() {
@@ -235,6 +238,7 @@ class NineAnime extends AnimeParser {
               const number = parseInt($$(el).attr('data-num')?.toString()!);
               const title = $$(el).find('span').text().length > 0 ? $$(el).find('span').text() : undefined;
               const isFiller = $$(el).hasClass('filler');
+
               return {
                 id: id,
                 number: number,
@@ -306,16 +310,14 @@ class NineAnime extends AnimeParser {
         default:
           throw new Error('Server not found');
       }
-
       const {
         data: {
           result: { url },
         },
       } = await axios.get(s.url);
-
       const iframe = decode(this.dv(url));
 
-      return await this.fetchEpisodeSources(iframe, server);
+      return await this.fetchEpisodeSources(`htt${iframe.slice(3)}`, server);
     } catch (err) {
       throw new Error((err as Error).message);
     }
@@ -346,11 +348,22 @@ class NineAnime extends AnimeParser {
   }
 
   private ev(query: string): string {
-    return this.encrypt(this.cipher(encode(query), this.cipherKey), this.table);
+    return this.encrypt(
+      this.mapKeys(this.encrypt(this.cipher(encode(query), this.cipherKey), this.baseTable), this.keyMap),
+      this.baseTable
+    );
   }
 
   private dv(query: string): string {
-    return this.cipher(this.decrypt(query), this.decipherKey);
+    return decode(this.cipher(this.decrypt(query), this.decipherKey));
+  }
+
+  private mapKeys(encrypted: string, keyMap: string): string {
+    const table = keyMap.split('');
+    return encrypted
+      .split('')
+      .map((c, i) => table[this.table.indexOf(c) * 16 + 1 + (1 % 16)])
+      .join('');
   }
 
   private cipher(query: string, key: string): string {
@@ -409,6 +422,7 @@ class NineAnime extends AnimeParser {
   }
 
   private decrypt(query: string): string {
+    const key = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
     const p = query?.replace(/[\t\n\f\r]/g, '')?.length % 4 === 0 ? query?.replace(/[==|?|$]/g, '') : query;
 
     if (p?.length % 4 === 1 || /[^+/0-9A-Za-z]/gm.test(p)) throw new Error('Invalid character.');
@@ -419,7 +433,7 @@ class NineAnime extends AnimeParser {
     let n = 0;
     for (let j = 0; j < p?.length; j++) {
       e = e << 6;
-      i = this.table.indexOf(p[j]);
+      i = key.indexOf(p[j]);
       e = e | i;
       n += 6;
 
@@ -441,5 +455,14 @@ class NineAnime extends AnimeParser {
     return res;
   }
 }
+
+// (async () => {
+//   const nineanime = await NineAnime.create();
+//   const anime = await nineanime.search('overlord');
+//   console.log(anime);
+//   const info = await nineanime.fetchAnimeInfo(anime.results[0].id);
+//   const episode = await nineanime.fetchEpisodeSources(info.episodes![0].id);
+//   console.log(episode);
+// })();
 
 export default NineAnime;

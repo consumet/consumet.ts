@@ -146,7 +146,7 @@ class FlixHQ extends models_1.MovieParser {
          * @param mediaId media id
          * @param server server type (default `VidCloud`) (optional)
          */
-        this.fetchEpisodeSources = (episodeId, mediaId, server = models_1.StreamingServers.VidCloud) => __awaiter(this, void 0, void 0, function* () {
+        this.fetchEpisodeSources = (episodeId, mediaId, server = models_1.StreamingServers.UpCloud) => __awaiter(this, void 0, void 0, function* () {
             if (episodeId.startsWith('http')) {
                 const serverUrl = new URL(episodeId);
                 switch (server) {
@@ -269,5 +269,10 @@ class FlixHQ extends models_1.MovieParser {
         });
     }
 }
+// (async () => {
+//   const movie = new FlixHQ();
+//   const movieInfo = await movie.fetchEpisodeSources('18617', 'movie/watch-top-gun-18617');
+//   console.log(movieInfo);
+// })();
 exports.default = FlixHQ;
 //# sourceMappingURL=flixhq.js.map

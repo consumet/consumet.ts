@@ -134,12 +134,25 @@ class Enime extends AnimeParser {
 
     data.episodes = data.episodes.sort((a: any, b: any) => b.number - a.number);
 
+    let useType: 'zoro' | 'gogoanime' | undefined = undefined;
+    if (
+      type == 'gogoanime' &&
+      data.episodes.every((e: any) => e.sources.find((s: any) => s.target.includes('episode')))
+    )
+      useType = 'gogoanime';
+    else if (
+      type == 'zoro' &&
+      data.episodes.every((e: any) => e.sources.find((s: any) => s.target.includes('?ep=')))
+    )
+      useType = 'zoro';
+    else throw new Error('Anime not found on Enime');
+
     animeInfo.episodes = data.episodes.map(
       (episode: any): IAnimeEpisode => ({
         id: episode.id,
         slug: episode.sources
           .find((source: any) =>
-            type === 'zoro' ? source.target.includes('?ep=') : source.target.includes('episode')
+            useType === 'zoro' ? source.target.includes('?ep=') : source.target.includes('episode')
           )
           ?.target.split('/')
           .pop()
