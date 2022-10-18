@@ -890,7 +890,9 @@ class Anilist extends models_1.AnimeParser {
                         type: item.anime.format,
                     });
                 });
-                results = results.filter((item) => item.episodeNumber !== 0 && item.episodeId.replace('-enime', '').length > 0);
+                results = results.filter((item) => item.episodeNumber !== 0 &&
+                    item.episodeId.replace('-enime', '').length > 0 &&
+                    item.episodeId.replace('-enime', '') !== 'undefined');
                 return {
                     currentPage: page,
                     hasNextPage: meta.lastPage !== page,

@@ -1064,7 +1064,10 @@ class Anilist extends AnimeParser {
       }));
 
       results = results.filter(
-        (item: any) => item.episodeNumber !== 0 && item.episodeId.replace('-enime', '').length > 0
+        (item: any) =>
+          item.episodeNumber !== 0 &&
+          item.episodeId.replace('-enime', '').length > 0 &&
+          item.episodeId.replace('-enime', '') !== 'undefined'
       );
 
       return {
