@@ -1,7 +1,7 @@
-import axios, { AxiosError, AxiosResponse } from 'axios';
 import { encode } from 'ascii-url-encoder';
+import axios, { AxiosError, AxiosResponse } from 'axios';
 
-import { MangaParser, ISearch, IMangaInfo, IMangaResult, MediaStatus, IMangaChapterPage } from '../../models';
+import { IMangaChapterPage, IMangaInfo, IMangaResult, ISearch, MangaParser, MediaStatus } from '../../models';
 import { capitalizeFirstLetter } from '../../utils';
 
 class MangaDex extends MangaParser {
@@ -18,7 +18,7 @@ class MangaDex extends MangaParser {
       const mangaInfo: IMangaInfo = {
         id: data.data.id,
         title: data.data.attributes.title.en,
-        altTtitles: data.data.attributes.altTitles,
+        altTitles: data.data.attributes.altTitles,
         description: data.data.attributes.description,
         genres: data.data.attributes.tags
           .filter((tag: any) => tag.attributes.group === 'genre')

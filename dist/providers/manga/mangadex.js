@@ -31,7 +31,7 @@ class MangaDex extends models_1.MangaParser {
                 const mangaInfo = {
                     id: data.data.id,
                     title: data.data.attributes.title.en,
-                    altTtitles: data.data.attributes.altTitles,
+                    altTitles: data.data.attributes.altTitles,
                     description: data.data.attributes.description,
                     genres: data.data.attributes.tags
                         .filter((tag) => tag.attributes.group === 'genre')
