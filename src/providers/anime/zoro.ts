@@ -12,6 +12,7 @@ import {
   IEpisodeServer,
   StreamingServers,
   MediaFormat,
+  SubOrSub,
 } from '../../models';
 
 import { StreamSB, USER_AGENT, RapidCloud, StreamTape } from '../../utils';
@@ -93,6 +94,13 @@ class Zoro extends AnimeParser {
       info.type = $('span.item').last().prev().prev().text().toUpperCase() as MediaFormat;
       info.url = `${this.baseUrl}/${id}`;
 
+      const subDub = $('div.film-stats span.item div.tick-dub').toArray().map((value) => $(value).text().toLowerCase())
+      if (subDub.length > 1) {
+        info.subOrDub = SubOrSub.BOTH
+      } else if (subDub.length > 0) {
+        info.subOrDub = subDub[0] as SubOrSub
+      }
+
       const episodesAjax = await axios.get(`${this.baseUrl}/ajax/v2/episode/list/${id.split('-').pop()}`, {
         headers: {
           'X-Requested-With': 'XMLHttpRequest',
@@ -132,7 +140,8 @@ class Zoro extends AnimeParser {
    */
   override fetchEpisodeSources = async (
     episodeId: string,
-    server: StreamingServers = StreamingServers.VidCloud
+    server: StreamingServers = StreamingServers.VidCloud,
+    isDub: boolean = false
   ): Promise<ISource> => {
     if (episodeId.startsWith('http')) {
       const serverUrl = new URL(episodeId);
@@ -176,11 +185,12 @@ class Zoro extends AnimeParser {
        * streamsb -> 5
        * streamtape -> 3
        */
+      const subOrDub = isDub ? 'dub' : "sub"
       let serverId = '';
       try {
         switch (server) {
           case StreamingServers.VidCloud:
-            serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
+            serverId = $(`div.ps_-block.ps_-block-sub.servers-${subOrDub} > div.ps__-list > div`)
               .map((i, el) => ($(el).attr('data-server-id') == '1' ? $(el) : null))
               .get()[0]
               .attr('data-id')!;
@@ -189,7 +199,7 @@ class Zoro extends AnimeParser {
             if (!serverId) throw new Error('RapidCloud not found');
             break;
           case StreamingServers.VidStreaming:
-            serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
+            serverId = $(`div.ps_-block.ps_-block-sub.servers-${subOrDub} > div.ps__-list > div`)
               .map((i, el) => ($(el).attr('data-server-id') == '4' ? $(el) : null))
               .get()[0]
               .attr('data-id')!;
@@ -198,7 +208,7 @@ class Zoro extends AnimeParser {
             if (!serverId) throw new Error('RapidCloud not found');
             break;
           case StreamingServers.StreamSB:
-            serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
+            serverId = $(`div.ps_-block.ps_-block-sub.servers-${subOrDub} > div.ps__-list > div`)
               .map((i, el) => ($(el).attr('data-server-id') == '5' ? $(el) : null))
               .get()[0]
               .attr('data-id')!;
@@ -206,7 +216,7 @@ class Zoro extends AnimeParser {
             if (!serverId) throw new Error('StreamSB not found');
             break;
           case StreamingServers.StreamTape:
-            serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
+            serverId = $(`div.ps_-block.ps_-block-sub.servers-${subOrDub} > div.ps__-list > div`)
               .map((i, el) => ($(el).attr('data-server-id') == '3' ? $(el) : null))
               .get()[0]
               .attr('data-id')!;

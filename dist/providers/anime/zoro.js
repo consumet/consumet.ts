@@ -83,6 +83,13 @@ class Zoro extends models_1.AnimeParser {
                 // Movie, TV, OVA, ONA, Special, Music
                 info.type = $('span.item').last().prev().prev().text().toUpperCase();
                 info.url = `${this.baseUrl}/${id}`;
+                const subDub = $('div.film-stats span.item div.tick-dub').toArray().map((value) => $(value).text().toLowerCase());
+                if (subDub.length > 1) {
+                    info.subOrDub = models_1.SubOrSub.BOTH;
+                }
+                else if (subDub.length > 0) {
+                    info.subOrDub = subDub[0];
+                }
                 const episodesAjax = yield axios_1.default.get(`${this.baseUrl}/ajax/v2/episode/list/${id.split('-').pop()}`, {
                     headers: {
                         'X-Requested-With': 'XMLHttpRequest',
@@ -117,7 +124,7 @@ class Zoro extends models_1.AnimeParser {
          *
          * @param episodeId Episode id
          */
-        this.fetchEpisodeSources = (episodeId, server = models_1.StreamingServers.VidCloud) => __awaiter(this, void 0, void 0, function* () {
+        this.fetchEpisodeSources = (episodeId, server = models_1.StreamingServers.VidCloud, isDub = false) => __awaiter(this, void 0, void 0, function* () {
             if (episodeId.startsWith('http')) {
                 const serverUrl = new URL(episodeId);
                 switch (server) {
@@ -151,11 +158,12 @@ class Zoro extends models_1.AnimeParser {
                  * streamsb -> 5
                  * streamtape -> 3
                  */
+                const subOrDub = isDub ? 'dub' : "sub";
                 let serverId = '';
                 try {
                     switch (server) {
                         case models_1.StreamingServers.VidCloud:
-                            serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
+                            serverId = $(`div.ps_-block.ps_-block-sub.servers-${subOrDub} > div.ps__-list > div`)
                                 .map((i, el) => ($(el).attr('data-server-id') == '1' ? $(el) : null))
                                 .get()[0]
                                 .attr('data-id');
@@ -164,7 +172,7 @@ class Zoro extends models_1.AnimeParser {
                                 throw new Error('RapidCloud not found');
                             break;
                         case models_1.StreamingServers.VidStreaming:
-                            serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
+                            serverId = $(`div.ps_-block.ps_-block-sub.servers-${subOrDub} > div.ps__-list > div`)
                                 .map((i, el) => ($(el).attr('data-server-id') == '4' ? $(el) : null))
                                 .get()[0]
                                 .attr('data-id');
@@ -173,7 +181,7 @@ class Zoro extends models_1.AnimeParser {
                                 throw new Error('RapidCloud not found');
                             break;
                         case models_1.StreamingServers.StreamSB:
-                            serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
+                            serverId = $(`div.ps_-block.ps_-block-sub.servers-${subOrDub} > div.ps__-list > div`)
                                 .map((i, el) => ($(el).attr('data-server-id') == '5' ? $(el) : null))
                                 .get()[0]
                                 .attr('data-id');
@@ -181,7 +189,7 @@ class Zoro extends models_1.AnimeParser {
                                 throw new Error('StreamSB not found');
                             break;
                         case models_1.StreamingServers.StreamTape:
-                            serverId = $('div.ps_-block.ps_-block-sub.servers-sub > div.ps__-list > div')
+                            serverId = $(`div.ps_-block.ps_-block-sub.servers-${subOrDub} > div.ps__-list > div`)
                                 .map((i, el) => ($(el).attr('data-server-id') == '3' ? $(el) : null))
                                 .get()[0]
                                 .attr('data-id');
