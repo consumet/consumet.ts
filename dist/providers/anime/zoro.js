@@ -90,6 +90,9 @@ class Zoro extends models_1.AnimeParser {
                 else if (subDub.length > 0) {
                     info.subOrDub = subDub[0];
                 }
+                else {
+                    info.subOrDub = models_1.SubOrSub.SUB;
+                }
                 const episodesAjax = yield axios_1.default.get(`${this.baseUrl}/ajax/v2/episode/list/${id.split('-').pop()}`, {
                     headers: {
                         'X-Requested-With': 'XMLHttpRequest',
@@ -100,13 +103,13 @@ class Zoro extends models_1.AnimeParser {
                 info.totalEpisodes = $$('div.detail-infor-content > div > a').length;
                 info.episodes = [];
                 $$('div.detail-infor-content > div > a').each((i, el) => {
-                    var _a, _b, _c;
-                    const episodeId = (_b = (_a = $$(el).attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[2]) === null || _b === void 0 ? void 0 : _b.replace('?ep=', '$episode$');
+                    var _a, _b, _c, _d;
+                    const episodeId = (_c = (_b = (_a = $$(el).attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[2]) === null || _b === void 0 ? void 0 : _b.replace('?ep=', '$episode$')) === null || _c === void 0 ? void 0 : _c.concat(`$${info.subOrDub}`);
                     const number = parseInt($$(el).attr('data-number'));
                     const title = $$(el).attr('title');
                     const url = this.baseUrl + $$(el).attr('href');
                     const isFiller = $$(el).hasClass('ssl-item-filler');
-                    (_c = info.episodes) === null || _c === void 0 ? void 0 : _c.push({
+                    (_d = info.episodes) === null || _d === void 0 ? void 0 : _d.push({
                         id: episodeId,
                         number: number,
                         title: title,
@@ -124,7 +127,8 @@ class Zoro extends models_1.AnimeParser {
          *
          * @param episodeId Episode id
          */
-        this.fetchEpisodeSources = (episodeId, server = models_1.StreamingServers.VidCloud, isDub = false) => __awaiter(this, void 0, void 0, function* () {
+        this.fetchEpisodeSources = (episodeId, server = models_1.StreamingServers.VidCloud) => __awaiter(this, void 0, void 0, function* () {
+            var _a;
             if (episodeId.startsWith('http')) {
                 const serverUrl = new URL(episodeId);
                 switch (server) {
@@ -148,7 +152,10 @@ class Zoro extends models_1.AnimeParser {
             }
             if (!episodeId.includes('$episode$'))
                 throw new Error('Invalid episode id');
-            episodeId = `${this.baseUrl}/watch/${episodeId.replace('$episode$', '?ep=')}`;
+            // Fallback to using sub if no info found in case of compatibility
+            // TODO: add both options later
+            let subOrDub = ((_a = episodeId.split('$')) === null || _a === void 0 ? void 0 : _a.pop()) === 'dub' ? 'dub' : 'sub';
+            episodeId = `${this.baseUrl}/watch/${episodeId.replace('$episode$', '?ep=').replace(/\$auto|\$sub|\$dub/gi, '')}`;
             try {
                 const { data } = yield axios_1.default.get(`${this.baseUrl}/ajax/v2/episode/servers?episodeId=${episodeId.split('?ep=')[1]}`);
                 const $ = (0, cheerio_1.load)(data.html);
@@ -158,41 +165,28 @@ class Zoro extends models_1.AnimeParser {
                  * streamsb -> 5
                  * streamtape -> 3
                  */
-                const subOrDub = isDub ? 'dub' : "sub";
                 let serverId = '';
                 try {
                     switch (server) {
                         case models_1.StreamingServers.VidCloud:
-                            serverId = $(`div.ps_-block.ps_-block-sub.servers-${subOrDub} > div.ps__-list > div`)
-                                .map((i, el) => ($(el).attr('data-server-id') == '1' ? $(el) : null))
-                                .get()[0]
-                                .attr('data-id');
+                            serverId = this.retrieveServerId($, 1, subOrDub);
                             // zoro's vidcloud server is rapidcloud
                             if (!serverId)
                                 throw new Error('RapidCloud not found');
                             break;
                         case models_1.StreamingServers.VidStreaming:
-                            serverId = $(`div.ps_-block.ps_-block-sub.servers-${subOrDub} > div.ps__-list > div`)
-                                .map((i, el) => ($(el).attr('data-server-id') == '4' ? $(el) : null))
-                                .get()[0]
-                                .attr('data-id');
+                            serverId = this.retrieveServerId($, 4, subOrDub);
                             // zoro's vidcloud server is rapidcloud
                             if (!serverId)
-                                throw new Error('RapidCloud not found');
+                                throw new Error('vidtreaming not found');
                             break;
                         case models_1.StreamingServers.StreamSB:
-                            serverId = $(`div.ps_-block.ps_-block-sub.servers-${subOrDub} > div.ps__-list > div`)
-                                .map((i, el) => ($(el).attr('data-server-id') == '5' ? $(el) : null))
-                                .get()[0]
-                                .attr('data-id');
+                            serverId = this.retrieveServerId($, 5, subOrDub);
                             if (!serverId)
                                 throw new Error('StreamSB not found');
                             break;
                         case models_1.StreamingServers.StreamTape:
-                            serverId = $(`div.ps_-block.ps_-block-sub.servers-${subOrDub} > div.ps__-list > div`)
-                                .map((i, el) => ($(el).attr('data-server-id') == '3' ? $(el) : null))
-                                .get()[0]
-                                .attr('data-id');
+                            serverId = this.retrieveServerId($, 3, subOrDub);
                             if (!serverId)
                                 throw new Error('StreamTape not found');
                             break;
@@ -208,6 +202,12 @@ class Zoro extends models_1.AnimeParser {
                 throw err;
             }
         });
+        this.retrieveServerId = ($, index, subOrDub) => {
+            return $(`div.ps_-block.ps_-block-sub.servers-${subOrDub} > div.ps__-list > div`)
+                .map((i, el) => ($(el).attr('data-server-id') == `${index}` ? $(el) : null))
+                .get()[0]
+                .attr('data-id');
+        };
         /**
          * @param page Page number
          */
