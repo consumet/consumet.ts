@@ -130,15 +130,15 @@ class Enime extends models_1.AnimeParser {
             else
                 throw new Error('Anime not found on Enime');
             animeInfo.episodes = data.episodes.map((episode) => {
-                var _a, _b;
+                var _a, _b, _c;
                 return ({
                     id: episode.id,
-                    slug: (_a = episode.sources
-                        .find((source) => useType === 'zoro' ? source.target.includes('?ep=') : source.target.includes('episode'))) === null || _a === void 0 ? void 0 : _a.target.split('/').pop().replace('?ep=', '$episode$'),
+                    slug: (_b = (_a = episode.sources
+                        .find((source) => useType === 'zoro' ? source.target.includes('?ep=') : source.target.includes('episode'))) === null || _a === void 0 ? void 0 : _a.target.split('/').pop().replace('?ep=', '$episode$')) === null || _b === void 0 ? void 0 : _b.concat(useType === 'zoro' ? "$sub" : ""),
                     description: episode.description,
                     number: episode.number,
                     title: episode.title,
-                    image: (_b = episode === null || episode === void 0 ? void 0 : episode.image) !== null && _b !== void 0 ? _b : animeInfo.image,
+                    image: (_c = episode === null || episode === void 0 ? void 0 : episode.image) !== null && _c !== void 0 ? _c : animeInfo.image,
                 });
             });
             return animeInfo;

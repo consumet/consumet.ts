@@ -512,6 +512,14 @@ class Anilist extends models_1.AnimeParser {
             if (possibleAnime.subOrDub != models_1.SubOrSub.BOTH && possibleAnime.subOrDub != expectedType) {
                 return [];
             }
+            if (this.provider instanceof zoro_1.default) {
+                // Set the correct episode sub/dub request type
+                possibleAnime.episodes.forEach((_, index) => {
+                    if (possibleAnime.subOrDub === models_1.SubOrSub.BOTH) {
+                        possibleAnime.episodes[index].id = possibleAnime.episodes[index].id.replace(`$both`, dub ? '$dub' : '$sub');
+                    }
+                });
+            }
             const possibleProviderEpisodes = possibleAnime.episodes;
             const options = {
                 headers: { 'Content-Type': 'application/json' },

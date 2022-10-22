@@ -639,6 +639,15 @@ class Anilist extends AnimeParser {
       return [];
     }
 
+    if (this.provider instanceof Zoro) {
+      // Set the correct episode sub/dub request type
+      possibleAnime.episodes.forEach((_: any, index: number) => {
+        if (possibleAnime.subOrDub === SubOrSub.BOTH) {
+          possibleAnime.episodes[index].id = possibleAnime.episodes[index].id.replace(`$both`, dub ? '$dub' : '$sub');  
+        }
+      });
+    }
+
     const possibleProviderEpisodes = possibleAnime.episodes;
 
     const options = {
