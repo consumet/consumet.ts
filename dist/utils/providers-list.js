@@ -16,6 +16,7 @@ exports.PROVIDERS_LIST = {
         new providers_1.ANIME.AniMixPlay(),
         new providers_1.ANIME.AnimeFox(),
         new providers_1.ANIME.Enime(),
+        new providers_1.ANIME.Crunchyroll(),
     ],
     MANGA: [new providers_1.MANGA.MangaDex(), new providers_1.MANGA.MangaHere(), new providers_1.MANGA.MangaKakalot(), new providers_1.MANGA.Mangasee123()],
     BOOKS: [new providers_1.BOOKS.Libgen()],

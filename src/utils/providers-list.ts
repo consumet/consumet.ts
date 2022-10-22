@@ -14,6 +14,7 @@ export const PROVIDERS_LIST = {
     new ANIME.AniMixPlay(),
     new ANIME.AnimeFox(),
     new ANIME.Enime(),
+    new ANIME.Crunchyroll(),
   ],
   MANGA: [new MANGA.MangaDex(), new MANGA.MangaHere(), new MANGA.MangaKakalot(), new MANGA.Mangasee123()],
   BOOKS: [new BOOKS.Libgen()],

@@ -5,6 +5,7 @@ import Zoro from './zoro';
 import AniMixPlay from './animixplay';
 import AnimeFox from './animefox';
 import Enime from './enime';
+import Crunchyroll from './crunchyroll';
 declare const _default: {
     Gogoanime: typeof Gogoanime;
     NineAnime: typeof NineAnime;
@@ -13,5 +14,6 @@ declare const _default: {
     AniMixPlay: typeof AniMixPlay;
     AnimeFox: typeof AnimeFox;
     Enime: typeof Enime;
+    Crunchyroll: typeof Crunchyroll;
 };
 export default _default;
