@@ -12,8 +12,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const axios_1 = __importDefault(require("axios"));
 const ascii_url_encoder_1 = require("ascii-url-encoder");
+const axios_1 = __importDefault(require("axios"));
 const models_1 = require("../../models");
 const utils_1 = require("../../utils");
 class MangaDex extends models_1.MangaParser {
