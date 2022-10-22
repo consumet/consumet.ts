@@ -156,7 +156,8 @@ class Enime extends AnimeParser {
           )
           ?.target.split('/')
           .pop()
-          .replace('?ep=', '$episode$')!,
+          .replace('?ep=', '$episode$')
+          ?.concat(useType === 'zoro' ? "$sub" : "")!,
         description: episode.description,
         number: episode.number,
         title: episode.title,

@@ -99,6 +99,8 @@ class Zoro extends AnimeParser {
         info.subOrDub = SubOrSub.BOTH
       } else if (subDub.length > 0) {
         info.subOrDub = subDub[0] as SubOrSub
+      } else {
+        info.subOrDub = SubOrSub.SUB
       }
 
       const episodesAjax = await axios.get(`${this.baseUrl}/ajax/v2/episode/list/${id.split('-').pop()}`, {
@@ -113,7 +115,7 @@ class Zoro extends AnimeParser {
       info.totalEpisodes = $$('div.detail-infor-content > div > a').length;
       info.episodes = [];
       $$('div.detail-infor-content > div > a').each((i, el) => {
-        const episodeId = $$(el).attr('href')?.split('/')[2]?.replace('?ep=', '$episode$')!;
+        const episodeId = $$(el).attr('href')?.split('/')[2]?.replace('?ep=', '$episode$')?.concat(`$${info.subOrDub}`)!;
         const number = parseInt($$(el).attr('data-number')!);
         const title = $$(el).attr('title');
         const url = this.baseUrl + $$(el).attr('href');
@@ -140,8 +142,7 @@ class Zoro extends AnimeParser {
    */
   override fetchEpisodeSources = async (
     episodeId: string,
-    server: StreamingServers = StreamingServers.VidCloud,
-    isDub: boolean = false
+    server: StreamingServers = StreamingServers.VidCloud
   ): Promise<ISource> => {
     if (episodeId.startsWith('http')) {
       const serverUrl = new URL(episodeId);
@@ -170,7 +171,13 @@ class Zoro extends AnimeParser {
       }
     }
     if (!episodeId.includes('$episode$')) throw new Error('Invalid episode id');
-    episodeId = `${this.baseUrl}/watch/${episodeId.replace('$episode$', '?ep=')}`;
+
+    // Fallback to using sub if no info found in case of compatibility
+
+    // TODO: add both options later
+    let subOrDub:'sub' | 'dub' = episodeId.split('$')?.pop() === 'dub' ? 'dub' : 'sub';
+
+    episodeId = `${this.baseUrl}/watch/${episodeId.replace('$episode$', '?ep=').replace(/\$auto|\$sub|\$dub/gi, '')}`;
 
     try {
       const { data } = await axios.get(
@@ -185,41 +192,28 @@ class Zoro extends AnimeParser {
        * streamsb -> 5
        * streamtape -> 3
        */
-      const subOrDub = isDub ? 'dub' : "sub"
       let serverId = '';
       try {
         switch (server) {
           case StreamingServers.VidCloud:
-            serverId = $(`div.ps_-block.ps_-block-sub.servers-${subOrDub} > div.ps__-list > div`)
-              .map((i, el) => ($(el).attr('data-server-id') == '1' ? $(el) : null))
-              .get()[0]
-              .attr('data-id')!;
+            serverId = this.retrieveServerId($, 1, subOrDub);
 
             // zoro's vidcloud server is rapidcloud
             if (!serverId) throw new Error('RapidCloud not found');
             break;
           case StreamingServers.VidStreaming:
-            serverId = $(`div.ps_-block.ps_-block-sub.servers-${subOrDub} > div.ps__-list > div`)
-              .map((i, el) => ($(el).attr('data-server-id') == '4' ? $(el) : null))
-              .get()[0]
-              .attr('data-id')!;
+            serverId = this.retrieveServerId($, 4, subOrDub);
 
             // zoro's vidcloud server is rapidcloud
-            if (!serverId) throw new Error('RapidCloud not found');
+            if (!serverId) throw new Error('vidtreaming not found');
             break;
           case StreamingServers.StreamSB:
-            serverId = $(`div.ps_-block.ps_-block-sub.servers-${subOrDub} > div.ps__-list > div`)
-              .map((i, el) => ($(el).attr('data-server-id') == '5' ? $(el) : null))
-              .get()[0]
-              .attr('data-id')!;
+            serverId = this.retrieveServerId($, 5, subOrDub);
 
             if (!serverId) throw new Error('StreamSB not found');
             break;
           case StreamingServers.StreamTape:
-            serverId = $(`div.ps_-block.ps_-block-sub.servers-${subOrDub} > div.ps__-list > div`)
-              .map((i, el) => ($(el).attr('data-server-id') == '3' ? $(el) : null))
-              .get()[0]
-              .attr('data-id')!;
+            serverId = this.retrieveServerId($, 3, subOrDub);
 
             if (!serverId) throw new Error('StreamTape not found');
             break;
@@ -236,6 +230,13 @@ class Zoro extends AnimeParser {
       throw err;
     }
   };
+
+  private retrieveServerId = ($: any, index: number, subOrDub: 'sub' | 'dub') => {
+    return $(`div.ps_-block.ps_-block-sub.servers-${subOrDub} > div.ps__-list > div`)
+      .map((i: any, el: any) => ($(el).attr('data-server-id') == `${index}` ? $(el) : null))
+      .get()[0]
+      .attr('data-id')!;
+  }
 
   /**
    * @param page Page number
