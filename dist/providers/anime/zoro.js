@@ -83,7 +83,9 @@ class Zoro extends models_1.AnimeParser {
                 // Movie, TV, OVA, ONA, Special, Music
                 info.type = $('span.item').last().prev().prev().text().toUpperCase();
                 info.url = `${this.baseUrl}/${id}`;
-                const subDub = $('div.film-stats span.item div.tick-dub').toArray().map((value) => $(value).text().toLowerCase());
+                const subDub = $('div.film-stats span.item div.tick-dub')
+                    .toArray()
+                    .map(value => $(value).text().toLowerCase());
                 if (subDub.length > 1) {
                     info.subOrDub = models_1.SubOrSub.BOTH;
                 }
@@ -104,7 +106,8 @@ class Zoro extends models_1.AnimeParser {
                 info.episodes = [];
                 $$('div.detail-infor-content > div > a').each((i, el) => {
                     var _a, _b, _c, _d;
-                    const episodeId = (_c = (_b = (_a = $$(el).attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[2]) === null || _b === void 0 ? void 0 : _b.replace('?ep=', '$episode$')) === null || _c === void 0 ? void 0 : _c.concat(`$${info.subOrDub}`);
+                    const episodeId = (_c = (_b = (_a = $$(el)
+                        .attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[2]) === null || _b === void 0 ? void 0 : _b.replace('?ep=', '$episode$')) === null || _c === void 0 ? void 0 : _c.concat(`$${info.subOrDub}`);
                     const number = parseInt($$(el).attr('data-number'));
                     const title = $$(el).attr('title');
                     const url = this.baseUrl + $$(el).attr('href');
@@ -155,7 +158,9 @@ class Zoro extends models_1.AnimeParser {
             // Fallback to using sub if no info found in case of compatibility
             // TODO: add both options later
             let subOrDub = ((_a = episodeId.split('$')) === null || _a === void 0 ? void 0 : _a.pop()) === 'dub' ? 'dub' : 'sub';
-            episodeId = `${this.baseUrl}/watch/${episodeId.replace('$episode$', '?ep=').replace(/\$auto|\$sub|\$dub/gi, '')}`;
+            episodeId = `${this.baseUrl}/watch/${episodeId
+                .replace('$episode$', '?ep=')
+                .replace(/\$auto|\$sub|\$dub/gi, '')}`;
             try {
                 const { data } = yield axios_1.default.get(`${this.baseUrl}/ajax/v2/episode/servers?episodeId=${episodeId.split('?ep=')[1]}`);
                 const $ = (0, cheerio_1.load)(data.html);

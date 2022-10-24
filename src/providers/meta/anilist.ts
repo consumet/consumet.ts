@@ -39,6 +39,7 @@ import Gogoanime from '../../providers/anime/gogoanime';
 import Enime from '../anime/enime';
 import Zoro from '../anime/zoro';
 import Mangasee123 from '../manga/mangasee123';
+import Crunchyroll from '../anime/crunchyroll';
 
 class Anilist extends AnimeParser {
   override readonly name = 'Anilist';
@@ -643,7 +644,10 @@ class Anilist extends AnimeParser {
       // Set the correct episode sub/dub request type
       possibleAnime.episodes.forEach((_: any, index: number) => {
         if (possibleAnime.subOrDub === SubOrSub.BOTH) {
-          possibleAnime.episodes[index].id = possibleAnime.episodes[index].id.replace(`$both`, dub ? '$dub' : '$sub');  
+          possibleAnime.episodes[index].id = possibleAnime.episodes[index].id.replace(
+            `$both`,
+            dub ? '$dub' : '$sub'
+          );
         }
       });
     }

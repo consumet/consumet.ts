@@ -39,19 +39,19 @@ class RapidCloud extends models_1.VideoExtractor {
                     },
                 };
                 let res = null;
-                let { data: sId } = yield (0, axios_1.default)({
-                    method: 'GET',
-                    url: `${this.consumetApi}/utils/rapid-cloud`,
-                    validateStatus: status => true,
-                });
-                if (!sId) {
-                    sId = yield (0, axios_1.default)({
-                        method: 'GET',
-                        url: `${this.enimeApi}/tool/rapid-cloud/server-id`,
-                        validateStatus: status => true,
-                    });
-                }
-                res = yield axios_1.default.get(`${this.host}/ajax/embed-6/getSources?id=${id}&sId=${sId}`, options);
+                // let { data: sId } = await axios({
+                //   method: 'GET',
+                //   url: `${this.consumetApi}/utils/rapid-cloud`,
+                //   validateStatus: status => true,
+                // });
+                // if (!sId) {
+                //   sId = await axios({
+                //     method: 'GET',
+                //     url: `${this.enimeApi}/tool/rapid-cloud/server-id`,
+                //     validateStatus: status => true,
+                //   });
+                // }
+                res = yield axios_1.default.get(`${this.host}/ajax/embed-6/getSources?id=${id}`, options);
                 let { data: { sources, tracks, intro, encrypted }, } = res;
                 let decryptKey = yield (yield axios_1.default.get('https://raw.githubusercontent.com/consumet/rapidclown/main/key.txt')).data;
                 if (!decryptKey)

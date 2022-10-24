@@ -28,21 +28,21 @@ class RapidCloud extends VideoExtractor {
 
       let res = null;
 
-      let { data: sId } = await axios({
-        method: 'GET',
-        url: `${this.consumetApi}/utils/rapid-cloud`,
-        validateStatus: status => true,
-      });
+      // let { data: sId } = await axios({
+      //   method: 'GET',
+      //   url: `${this.consumetApi}/utils/rapid-cloud`,
+      //   validateStatus: status => true,
+      // });
 
-      if (!sId) {
-        sId = await axios({
-          method: 'GET',
-          url: `${this.enimeApi}/tool/rapid-cloud/server-id`,
-          validateStatus: status => true,
-        });
-      }
+      // if (!sId) {
+      //   sId = await axios({
+      //     method: 'GET',
+      //     url: `${this.enimeApi}/tool/rapid-cloud/server-id`,
+      //     validateStatus: status => true,
+      //   });
+      // }
 
-      res = await axios.get(`${this.host}/ajax/embed-6/getSources?id=${id}&sId=${sId}`, options);
+      res = await axios.get(`${this.host}/ajax/embed-6/getSources?id=${id}`, options);
 
       let {
         data: { sources, tracks, intro, encrypted },

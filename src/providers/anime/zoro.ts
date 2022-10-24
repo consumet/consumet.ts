@@ -94,13 +94,15 @@ class Zoro extends AnimeParser {
       info.type = $('span.item').last().prev().prev().text().toUpperCase() as MediaFormat;
       info.url = `${this.baseUrl}/${id}`;
 
-      const subDub = $('div.film-stats span.item div.tick-dub').toArray().map((value) => $(value).text().toLowerCase())
+      const subDub = $('div.film-stats span.item div.tick-dub')
+        .toArray()
+        .map(value => $(value).text().toLowerCase());
       if (subDub.length > 1) {
-        info.subOrDub = SubOrSub.BOTH
+        info.subOrDub = SubOrSub.BOTH;
       } else if (subDub.length > 0) {
-        info.subOrDub = subDub[0] as SubOrSub
+        info.subOrDub = subDub[0] as SubOrSub;
       } else {
-        info.subOrDub = SubOrSub.SUB
+        info.subOrDub = SubOrSub.SUB;
       }
 
       const episodesAjax = await axios.get(`${this.baseUrl}/ajax/v2/episode/list/${id.split('-').pop()}`, {
@@ -115,7 +117,11 @@ class Zoro extends AnimeParser {
       info.totalEpisodes = $$('div.detail-infor-content > div > a').length;
       info.episodes = [];
       $$('div.detail-infor-content > div > a').each((i, el) => {
-        const episodeId = $$(el).attr('href')?.split('/')[2]?.replace('?ep=', '$episode$')?.concat(`$${info.subOrDub}`)!;
+        const episodeId = $$(el)
+          .attr('href')
+          ?.split('/')[2]
+          ?.replace('?ep=', '$episode$')
+          ?.concat(`$${info.subOrDub}`)!;
         const number = parseInt($$(el).attr('data-number')!);
         const title = $$(el).attr('title');
         const url = this.baseUrl + $$(el).attr('href');
@@ -175,9 +181,11 @@ class Zoro extends AnimeParser {
     // Fallback to using sub if no info found in case of compatibility
 
     // TODO: add both options later
-    let subOrDub:'sub' | 'dub' = episodeId.split('$')?.pop() === 'dub' ? 'dub' : 'sub';
+    let subOrDub: 'sub' | 'dub' = episodeId.split('$')?.pop() === 'dub' ? 'dub' : 'sub';
 
-    episodeId = `${this.baseUrl}/watch/${episodeId.replace('$episode$', '?ep=').replace(/\$auto|\$sub|\$dub/gi, '')}`;
+    episodeId = `${this.baseUrl}/watch/${episodeId
+      .replace('$episode$', '?ep=')
+      .replace(/\$auto|\$sub|\$dub/gi, '')}`;
 
     try {
       const { data } = await axios.get(
@@ -236,7 +244,7 @@ class Zoro extends AnimeParser {
       .map((i: any, el: any) => ($(el).attr('data-server-id') == `${index}` ? $(el) : null))
       .get()[0]
       .attr('data-id')!;
-  }
+  };
 
   /**
    * @param page Page number
