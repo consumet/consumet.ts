@@ -142,11 +142,12 @@ class Crunchyroll extends models_1.AnimeParser {
                     title: data.items[0].title,
                     slug: data.items[0].slug_title,
                     description: data.items[0].description,
+                    subOrDub: models_1.SubOrSub.BOTH,
                     episodes: episodes,
                 };
             }
             else {
-                const { data } = yield axios_1.default.get(`${this.baseUrl}/content/v1/movies?id=${id}?channel_id=${this.channelId}&locale=${this.locale}`, this.options);
+                const { data } = yield axios_1.default.get(`${this.baseUrl}/content/v1/movies?id=${id}&channel_id=${this.channelId}&locale=${this.locale}`, this.options);
                 const episode = data.items.map((item) => ({
                     id: item.id,
                     number: 1,

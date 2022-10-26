@@ -17,6 +17,7 @@ import {
   IMangaResult,
   IMangaChapter,
   ProxyConfig,
+  MediaFormat,
 } from '../../models';
 import {
   anilistSearchQuery,
@@ -594,9 +595,9 @@ class Anilist extends AnimeParser {
 
     const slug = title.replace(/[^0-9a-zA-Z]+/g, ' ');
 
-    let possibleAnime: any;
+    let possibleAnime: any | undefined;
 
-    if (malId) {
+    if (malId && !(this.provider instanceof Crunchyroll)) {
       const malAsyncReq = await axios({
         method: 'GET',
         url: `${this.malSyncUrl}/mal/anime/${malId}`,
@@ -650,6 +651,12 @@ class Anilist extends AnimeParser {
           );
         }
       });
+    }
+
+    if (this.provider instanceof Crunchyroll) {
+      return dub
+        ? possibleAnime.episodes.filter((ep: any) => ep.isDubbed)
+        : possibleAnime.episodes.filter((ep: any) => ep.type == 'Subbed');
     }
 
     const possibleProviderEpisodes = possibleAnime.episodes;
@@ -998,8 +1005,9 @@ class Anilist extends AnimeParser {
   };
   private findAnimeRaw = async (slug: string) => {
     const findAnime = (await this.provider.search(slug)) as ISearch<IAnimeResult>;
-
     if (findAnime.results.length === 0) return [];
+    if (this.provider instanceof Crunchyroll)
+      return await this.provider.fetchAnimeInfo(findAnime.results[0].id, findAnime.results[0].type as string);
     // TODO: use much better way than this
     return (await this.provider.fetchAnimeInfo(findAnime.results[0].id)) as IAnimeInfo;
   };
@@ -1890,9 +1898,15 @@ class Anilist extends AnimeParser {
 }
 
 // (async () => {
-//   const ani = new Anilist();
+//   const ani = new Anilist(
+//     await Crunchyroll.create(
+//       undefined,
+//       'O+xmBPFx1UxoAiQYjDc9YYq01SdCZo1ABBoHDrNuIScEIKmYfIZoj57l1xeoLWGW3R2ZlxPlyqUf5R3hWzx+xSQnmPyk3GoUIFF19P0oCqp2B9ivNhtYiqir06rBK71mRzIjVUCmN3C7MvQUhH82QQhiUPhOY962XyXwVpfRNIQ=',
+//       undefined
+//     )
+//   );
 //   console.time('fetch');
-//   const res = await ani.fetchAnimeInfo('14813');
+//   const res = await ani.fetchAnimeInfo('98659');
 //   console.log(res);
 //   console.timeEnd('fetch');
 // })();

@@ -20,6 +20,7 @@ const gogoanime_1 = __importDefault(require("../../providers/anime/gogoanime"));
 const enime_1 = __importDefault(require("../anime/enime"));
 const zoro_1 = __importDefault(require("../anime/zoro"));
 const mangasee123_1 = __importDefault(require("../manga/mangasee123"));
+const crunchyroll_1 = __importDefault(require("../anime/crunchyroll"));
 class Anilist extends models_1.AnimeParser {
     /**
      * This class maps anilist to kitsu with any other anime provider.
@@ -474,7 +475,7 @@ class Anilist extends models_1.AnimeParser {
                 return (yield this.provider.fetchAnimeInfoByAnilistId(anilistId)).episodes;
             const slug = title.replace(/[^0-9a-zA-Z]+/g, ' ');
             let possibleAnime;
-            if (malId) {
+            if (malId && !(this.provider instanceof crunchyroll_1.default)) {
                 const malAsyncReq = yield (0, axios_1.default)({
                     method: 'GET',
                     url: `${this.malSyncUrl}/mal/anime/${malId}`,
@@ -519,6 +520,11 @@ class Anilist extends models_1.AnimeParser {
                         possibleAnime.episodes[index].id = possibleAnime.episodes[index].id.replace(`$both`, dub ? '$dub' : '$sub');
                     }
                 });
+            }
+            if (this.provider instanceof crunchyroll_1.default) {
+                return dub
+                    ? possibleAnime.episodes.filter((ep) => ep.isDubbed)
+                    : possibleAnime.episodes.filter((ep) => ep.type == 'Subbed');
             }
             const possibleProviderEpisodes = possibleAnime.episodes;
             const options = {
@@ -836,6 +842,8 @@ class Anilist extends models_1.AnimeParser {
             const findAnime = (yield this.provider.search(slug));
             if (findAnime.results.length === 0)
                 return [];
+            if (this.provider instanceof crunchyroll_1.default)
+                return yield this.provider.fetchAnimeInfo(findAnime.results[0].id, findAnime.results[0].type);
             // TODO: use much better way than this
             return (yield this.provider.fetchAnimeInfo(findAnime.results[0].id));
         });
@@ -1601,9 +1609,15 @@ Anilist.Manga = class Manga {
     }
 };
 // (async () => {
-//   const ani = new Anilist();
+//   const ani = new Anilist(
+//     await Crunchyroll.create(
+//       undefined,
+//       'O+xmBPFx1UxoAiQYjDc9YYq01SdCZo1ABBoHDrNuIScEIKmYfIZoj57l1xeoLWGW3R2ZlxPlyqUf5R3hWzx+xSQnmPyk3GoUIFF19P0oCqp2B9ivNhtYiqir06rBK71mRzIjVUCmN3C7MvQUhH82QQhiUPhOY962XyXwVpfRNIQ=',
+//       undefined
+//     )
+//   );
 //   console.time('fetch');
-//   const res = await ani.fetchAnimeInfo('14813');
+//   const res = await ani.fetchAnimeInfo('98659');
 //   console.log(res);
 //   console.timeEnd('fetch');
 // })();

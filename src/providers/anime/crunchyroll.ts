@@ -10,6 +10,7 @@ import {
   IAnimeEpisode,
   IEpisodeServer,
   ISubtitle,
+  SubOrSub,
 } from '../../models';
 import { USER_AGENT } from '../../utils';
 
@@ -197,11 +198,12 @@ class Crunchyroll extends AnimeParser {
         title: data.items[0].title,
         slug: data.items[0].slug_title,
         description: data.items[0].description,
+        subOrDub: SubOrSub.BOTH,
         episodes: episodes,
       };
     } else {
       const { data } = await axios.get(
-        `${this.baseUrl}/content/v1/movies?id=${id}?channel_id=${this.channelId}&locale=${this.locale}`,
+        `${this.baseUrl}/content/v1/movies?id=${id}&channel_id=${this.channelId}&locale=${this.locale}`,
         this.options
       );
 
