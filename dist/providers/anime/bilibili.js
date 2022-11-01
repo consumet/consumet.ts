@@ -25,10 +25,10 @@ class Bilibili extends models_1.AnimeParser {
         this.apiUrl = 'https://api.bilibili.tv/intl/gateway/web';
         this.cookie = '';
         this.locale = 'en_US';
-        this.sgProxy = 'https://seashell-app-zkngd.ondigitalocean.app';
+        this.sgProxy = 'https://cors.proxy.consumet.org';
         this.locale = locale !== null && locale !== void 0 ? locale : this.locale;
         if (!cookie)
-            throw new Error('Cookie is required');
+            return;
         this.cookie = cookie;
     }
     search(query) {

@@ -26,7 +26,7 @@ class Bilibili extends AnimeParser {
   constructor(cookie?: string, locale?: string) {
     super();
     this.locale = locale ?? this.locale;
-    if (!cookie) throw new Error('Cookie is required');
+    if (!cookie) return;
     this.cookie = cookie;
   }
 
