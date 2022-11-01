@@ -61,11 +61,12 @@ class Bilibili extends AnimeParser {
         `${this.sgProxy}/https://app.biliintl.com/intl/gateway/v2/ogv/view/app/season2?locale=${this.locale}&platform=android&season_id=${id}`,
         { headers: { cookie: this.cookie } }
       );
+      let counter = 1;
       const episodes = data.data.sections.section.flatMap((section: any) =>
         section.ep_details.map(
-          (ep: any, i: number): IAnimeEpisode => ({
+          (ep: any): IAnimeEpisode => ({
             id: ep.episode_id.toString(),
-            number: i + 1,
+            number: counter++,
             title: ep.long_title || ep.title,
             image: ep.horizontal_cover,
           })

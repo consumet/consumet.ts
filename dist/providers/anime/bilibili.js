@@ -55,9 +55,10 @@ class Bilibili extends models_1.AnimeParser {
         return __awaiter(this, void 0, void 0, function* () {
             try {
                 const { data } = yield axios_1.default.get(`${this.sgProxy}/https://app.biliintl.com/intl/gateway/v2/ogv/view/app/season2?locale=${this.locale}&platform=android&season_id=${id}`, { headers: { cookie: this.cookie } });
-                const episodes = data.data.sections.section.flatMap((section) => section.ep_details.map((ep, i) => ({
+                let counter = 1;
+                const episodes = data.data.sections.section.flatMap((section) => section.ep_details.map((ep) => ({
                     id: ep.episode_id.toString(),
-                    number: i + 1,
+                    number: counter++,
                     title: ep.long_title || ep.title,
                     image: ep.horizontal_cover,
                 })));
