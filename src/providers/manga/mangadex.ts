@@ -32,7 +32,6 @@ class MangaDex extends MangaParser {
       };
 
       const allChapters = await this.fetchAllChapters(mangaId, 0);
-
       for (const chapter of allChapters) {
         mangaInfo.chapters?.push({
           id: chapter.id,
@@ -40,6 +39,10 @@ class MangaDex extends MangaParser {
           pages: chapter.attributes.pages,
         });
       }
+
+      const coverArt = await this.fetchCoverImage(data.data.relationships[2].id);
+      mangaInfo.image = `${this.baseUrl}/covers/${mangaInfo.id}/${coverArt}`;
+
       return mangaInfo;
     } catch (err) {
       if ((err as AxiosError).code == 'ERR_BAD_REQUEST') {
@@ -138,6 +141,14 @@ class MangaDex extends MangaParser {
     );
 
     return [...response.data.data, ...(await this.fetchAllChapters(mangaId, offset + 96, response))];
+  };
+
+  private fetchCoverImage = async (coverId: string): Promise<string> => {
+    const { data } = await axios.get(`${this.apiUrl}/cover/${coverId}`);
+
+    const fileName = data.data.attributes.fileName;
+
+    return fileName;
   };
 }
 
