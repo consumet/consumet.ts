@@ -15,6 +15,7 @@ export const PROVIDERS_LIST = {
     new ANIME.AnimeFox(),
     new ANIME.Enime(),
     new ANIME.Crunchyroll(),
+    new ANIME.Bilibili(),
   ],
   MANGA: [new MANGA.MangaDex(), new MANGA.MangaHere(), new MANGA.MangaKakalot(), new MANGA.Mangasee123()],
   BOOKS: [new BOOKS.Libgen()],

@@ -6,5 +6,6 @@ import AniMixPlay from './animixplay';
 import AnimeFox from './animefox';
 import Enime from './enime';
 import Crunchyroll from './crunchyroll';
+import Bilibili from './bilibili';
 
-export default { Gogoanime, NineAnime, AnimePahe, Zoro, AniMixPlay, AnimeFox, Enime, Crunchyroll };
+export default { Gogoanime, NineAnime, AnimePahe, Zoro, AniMixPlay, AnimeFox, Enime, Crunchyroll, Bilibili };

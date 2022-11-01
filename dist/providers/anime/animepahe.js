@@ -182,8 +182,10 @@ class AnimePahe extends models_1.AnimeParser {
 }
 // (async () => {
 //   const animepahe = new AnimePahe();
-//   const anime = await animepahe.search('One Piece');
-//   console.log(anime);
+//   const anime = await animepahe.search('Classroom of the elite');
+//   const info = await animepahe.fetchAnimeInfo(anime.results[0].id);
+//   const sources = await animepahe.fetchEpisodeSources(info.episodes![0].id);
+//   console.log(sources);
 // })();
 exports.default = AnimePahe;
 //# sourceMappingURL=animepahe.js.map

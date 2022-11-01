@@ -126,6 +126,10 @@ export interface IVideo {
    */
   isM3U8?: boolean;
   /**
+   * set this to `true` if the video is dash (mpd)
+   */
+  isDASH?: boolean;
+  /**
    * size of the video in **bytes**
    */
   size?: number;
@@ -273,6 +277,10 @@ export interface ZLibrary extends Book {
 }
 
 export interface ISubtitle {
+  /**
+   * The id of the subtitle. **not** required
+   */
+  id?: string;
   /**
    * The **url** that should take you to the subtitle **directly**.
    */

@@ -9,6 +9,7 @@ import {
   VizCloud,
   Filemoon,
   Vrv,
+  BilibiliExtractor,
 } from './extractors';
 import {
   USER_AGENT,
@@ -21,6 +22,7 @@ import {
   getDays,
   days,
   isJson,
+  convertDuration,
 } from './utils';
 import {
   anilistSearchQuery,
@@ -70,4 +72,6 @@ export {
   days,
   Vrv,
   isJson,
+  convertDuration,
+  BilibiliExtractor,
 };
