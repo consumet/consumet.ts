@@ -21,6 +21,7 @@ const enime_1 = __importDefault(require("../anime/enime"));
 const zoro_1 = __importDefault(require("../anime/zoro"));
 const mangasee123_1 = __importDefault(require("../manga/mangasee123"));
 const crunchyroll_1 = __importDefault(require("../anime/crunchyroll"));
+const bilibili_1 = __importDefault(require("../anime/bilibili"));
 class Anilist extends models_1.AnimeParser {
     /**
      * This class maps anilist to kitsu with any other anime provider.
@@ -475,7 +476,7 @@ class Anilist extends models_1.AnimeParser {
                 return (yield this.provider.fetchAnimeInfoByAnilistId(anilistId)).episodes;
             const slug = title.replace(/[^0-9a-zA-Z]+/g, ' ');
             let possibleAnime;
-            if (malId && !(this.provider instanceof crunchyroll_1.default)) {
+            if (malId && !(this.provider instanceof crunchyroll_1.default || this.provider instanceof bilibili_1.default)) {
                 const malAsyncReq = yield (0, axios_1.default)({
                     method: 'GET',
                     url: `${this.malSyncUrl}/mal/anime/${malId}`,
@@ -527,6 +528,10 @@ class Anilist extends models_1.AnimeParser {
                     : possibleAnime.episodes.filter((ep) => ep.type == 'Subbed');
             }
             const possibleProviderEpisodes = possibleAnime.episodes;
+            if (typeof possibleProviderEpisodes[0].image !== 'undefined' &&
+                typeof possibleProviderEpisodes[0].title !== 'undefined' &&
+                typeof possibleProviderEpisodes[0].description !== 'undefined')
+                return possibleProviderEpisodes;
             const options = {
                 headers: { 'Content-Type': 'application/json' },
                 query: (0, utils_1.kitsuSearchQuery)(slug),
@@ -578,15 +583,15 @@ class Anilist extends models_1.AnimeParser {
             const newEpisodeList = [];
             if ((possibleProviderEpisodes === null || possibleProviderEpisodes === void 0 ? void 0 : possibleProviderEpisodes.length) !== 0) {
                 possibleProviderEpisodes === null || possibleProviderEpisodes === void 0 ? void 0 : possibleProviderEpisodes.forEach((ep, i) => {
-                    var _b, _c, _d, _e, _f, _g, _h;
+                    var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l;
                     const j = (i + 1).toString();
                     newEpisodeList.push({
                         id: ep.id,
-                        title: (_c = (_b = episodesList.get(j)) === null || _b === void 0 ? void 0 : _b.title) !== null && _c !== void 0 ? _c : null,
-                        image: (_e = (_d = episodesList.get(j)) === null || _d === void 0 ? void 0 : _d.thumbnail) !== null && _e !== void 0 ? _e : null,
+                        title: (_d = (_b = ep.title) !== null && _b !== void 0 ? _b : (_c = episodesList.get(j)) === null || _c === void 0 ? void 0 : _c.title) !== null && _d !== void 0 ? _d : null,
+                        image: (_g = (_e = ep.image) !== null && _e !== void 0 ? _e : (_f = episodesList.get(j)) === null || _f === void 0 ? void 0 : _f.thumbnail) !== null && _g !== void 0 ? _g : null,
                         number: ep.number,
-                        description: (_g = (_f = episodesList.get(j)) === null || _f === void 0 ? void 0 : _f.description) !== null && _g !== void 0 ? _g : null,
-                        url: (_h = ep.url) !== null && _h !== void 0 ? _h : null,
+                        description: (_k = (_h = ep.description) !== null && _h !== void 0 ? _h : (_j = episodesList.get(j)) === null || _j === void 0 ? void 0 : _j.description) !== null && _k !== void 0 ? _k : null,
+                        url: (_l = ep.url) !== null && _l !== void 0 ? _l : null,
                     });
                 });
             }
@@ -1619,6 +1624,16 @@ Anilist.Manga = class Manga {
 //   console.time('fetch');
 //   const res = await ani.fetchAnimeInfo('98659');
 //   console.log(res);
+//   console.timeEnd('fetch');
+// })();
+// (async () => {
+//   const ani = new Anilist(
+//     new Bilibili(    )
+//   );
+//   console.time('fetch');
+//   const res = await ani.fetchAnimeInfo('98659');
+//   const sources = await ani.fetchEpisodeSources(res.episodes![0].id);
+//   console.log(sources);
 //   console.timeEnd('fetch');
 // })();
 exports.default = Anilist;

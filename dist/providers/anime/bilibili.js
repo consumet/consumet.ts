@@ -77,6 +77,7 @@ class Bilibili extends models_1.AnimeParser {
                         genres: section.styles.split(' / '),
                         views: section.view,
                     })),
+                    subOrDub: models_1.SubOrSub.SUB,
                     episodes: episodes,
                     totalEpisodes: episodes.length,
                 };
@@ -90,10 +91,8 @@ class Bilibili extends models_1.AnimeParser {
         return __awaiter(this, void 0, void 0, function* () {
             try {
                 const { data } = yield axios_1.default.get(`${this.sgProxy}/${this.apiUrl}/v2/subtitle?s_locale=${this.locale}&platform=web&episode_id=${episodeId}`, { headers: { cookie: this.cookie } });
-                // const ss = await axios.get(
-                //   `${this.sgProxy}/${this.apiUrl}/playurl?s_locale=${this.locale}&platform=web&ep_id=${episodeId}`,
-                //   { headers: { cookie: this.cookie } }
-                // );
+                const ss = yield axios_1.default.get(`${this.sgProxy}/${this.apiUrl}/playurl?s_locale=${this.locale}&platform=web&ep_id=${episodeId}`, { headers: { cookie: this.cookie } });
+                console.log(ss.data);
                 const sources = yield new utils_1.BilibiliExtractor().extract(episodeId);
                 return {
                     sources: sources.sources,
@@ -116,10 +115,10 @@ class Bilibili extends models_1.AnimeParser {
     }
 }
 // (async () => {
-//   const source = new Bilibili();
+//   const source = new Bilibili(//   );
 //   const result = await source.search('classroom of the elite');
 //   const info = await source.fetchAnimeInfo(result.results[0].id);
-//   const episode = await source.fetchEpisodeSources(info.episodes![0].id);
+//   const episode = await source.fetchEpisodeSources('10143090');
 //   console.log(episode);
 // })();
 exports.default = Bilibili;

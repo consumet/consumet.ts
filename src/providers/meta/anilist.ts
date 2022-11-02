@@ -41,6 +41,7 @@ import Enime from '../anime/enime';
 import Zoro from '../anime/zoro';
 import Mangasee123 from '../manga/mangasee123';
 import Crunchyroll from '../anime/crunchyroll';
+import Bilibili from '../anime/bilibili';
 
 class Anilist extends AnimeParser {
   override readonly name = 'Anilist';
@@ -597,7 +598,7 @@ class Anilist extends AnimeParser {
 
     let possibleAnime: any | undefined;
 
-    if (malId && !(this.provider instanceof Crunchyroll)) {
+    if (malId && !(this.provider instanceof Crunchyroll || this.provider instanceof Bilibili)) {
       const malAsyncReq = await axios({
         method: 'GET',
         url: `${this.malSyncUrl}/mal/anime/${malId}`,
@@ -659,7 +660,14 @@ class Anilist extends AnimeParser {
         : possibleAnime.episodes.filter((ep: any) => ep.type == 'Subbed');
     }
 
-    const possibleProviderEpisodes = possibleAnime.episodes;
+    const possibleProviderEpisodes = possibleAnime.episodes as IAnimeEpisode[];
+
+    if (
+      typeof possibleProviderEpisodes[0].image !== 'undefined' &&
+      typeof possibleProviderEpisodes[0].title !== 'undefined' &&
+      typeof possibleProviderEpisodes[0].description !== 'undefined'
+    )
+      return possibleProviderEpisodes;
 
     const options = {
       headers: { 'Content-Type': 'application/json' },
@@ -726,10 +734,10 @@ class Anilist extends AnimeParser {
         const j = (i + 1).toString();
         newEpisodeList.push({
           id: ep.id as string,
-          title: episodesList.get(j)?.title ?? null,
-          image: episodesList.get(j)?.thumbnail ?? null,
+          title: ep.title ?? episodesList.get(j)?.title ?? null,
+          image: ep.image ?? episodesList.get(j)?.thumbnail ?? null,
           number: ep.number as number,
-          description: episodesList.get(j)?.description ?? null,
+          description: ep.description ?? episodesList.get(j)?.description ?? null,
           url: (ep.url as string) ?? null,
         });
       });
@@ -1908,6 +1916,17 @@ class Anilist extends AnimeParser {
 //   console.time('fetch');
 //   const res = await ani.fetchAnimeInfo('98659');
 //   console.log(res);
+//   console.timeEnd('fetch');
+// })();
+
+// (async () => {
+//   const ani = new Anilist(
+//     new Bilibili(    )
+//   );
+//   console.time('fetch');
+//   const res = await ani.fetchAnimeInfo('98659');
+//   const sources = await ani.fetchEpisodeSources(res.episodes![0].id);
+//   console.log(sources);
 //   console.timeEnd('fetch');
 // })();
 
