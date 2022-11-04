@@ -1,13 +1,4 @@
 "use strict";
-var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
-    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
-    return new (P || (P = Promise))(function (resolve, reject) {
-        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
-        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-    });
-};
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
@@ -29,14 +20,14 @@ class Gogoanime extends models_1.AnimeParser {
          * @param query search query string
          * @param page page number (default 1) (optional)
          */
-        this.search = (query, page = 1) => __awaiter(this, void 0, void 0, function* () {
+        this.search = async (query, page = 1) => {
             const searchResult = {
                 currentPage: page,
                 hasNextPage: false,
                 results: [],
             };
             try {
-                const res = yield axios_1.default.get(`${this.baseUrl}/search.html?keyword=${encodeURIComponent(query)}&page=${page}`);
+                const res = await axios_1.default.get(`${this.baseUrl}/search.html?keyword=${encodeURIComponent(query)}&page=${page}`);
                 const $ = (0, cheerio_1.load)(res.data);
                 searchResult.hasNextPage =
                     $('div.anime_name.new_series > div > div > ul > li.selected').next().length > 0;
@@ -58,12 +49,12 @@ class Gogoanime extends models_1.AnimeParser {
             catch (err) {
                 throw new Error(err.message);
             }
-        });
+        };
         /**
          *
          * @param id anime id
          */
-        this.fetchAnimeInfo = (id) => __awaiter(this, void 0, void 0, function* () {
+        this.fetchAnimeInfo = async (id) => {
             if (!id.includes('gogoanime'))
                 id = `${this.baseUrl}/category/${id}`;
             const animeInfo = {
@@ -74,7 +65,7 @@ class Gogoanime extends models_1.AnimeParser {
                 totalEpisodes: 0,
             };
             try {
-                const res = yield axios_1.default.get(id);
+                const res = await axios_1.default.get(id);
                 const $ = (0, cheerio_1.load)(res.data);
                 animeInfo.id = new URL(id).pathname.split('/')[2];
                 animeInfo.title = $('section.content_left > div.main_body > div:nth-child(2) > div.anime_info_body_bg > h1')
@@ -122,7 +113,7 @@ class Gogoanime extends models_1.AnimeParser {
                 const ep_end = $('#episode_page > li').last().find('a').attr('ep_end');
                 const movie_id = $('#movie_id').attr('value');
                 const alias = $('#alias_anime').attr('value');
-                const html = yield axios_1.default.get(`${this.ajaxUrl}/load-list-episode?ep_start=${ep_start}&ep_end=${ep_end}&id=${movie_id}&default_ep=${0}&alias=${alias}`);
+                const html = await axios_1.default.get(`${this.ajaxUrl}/load-list-episode?ep_start=${ep_start}&ep_end=${ep_end}&id=${movie_id}&default_ep=${0}&alias=${alias}`);
                 const $$ = (0, cheerio_1.load)(html.data);
                 animeInfo.episodes = [];
                 $$('#episode_related > li').each((i, el) => {
@@ -140,35 +131,35 @@ class Gogoanime extends models_1.AnimeParser {
             catch (err) {
                 throw new Error("Anime doesn't exist.");
             }
-        });
+        };
         /**
          *
          * @param episodeId episode id
          * @param server server type (default 'GogoCDN') (optional)
          */
-        this.fetchEpisodeSources = (episodeId, server = models_1.StreamingServers.GogoCDN) => __awaiter(this, void 0, void 0, function* () {
+        this.fetchEpisodeSources = async (episodeId, server = models_1.StreamingServers.GogoCDN) => {
             if (episodeId.startsWith('http')) {
                 const serverUrl = new URL(episodeId);
                 switch (server) {
                     case models_1.StreamingServers.GogoCDN:
                         return {
                             headers: { Referer: serverUrl.href },
-                            sources: yield new utils_1.GogoCDN().extract(serverUrl),
+                            sources: await new utils_1.GogoCDN().extract(serverUrl),
                         };
                     case models_1.StreamingServers.StreamSB:
                         return {
                             headers: { Referer: serverUrl.href, watchsb: 'streamsb', 'User-Agent': utils_1.USER_AGENT },
-                            sources: yield new utils_1.StreamSB().extract(serverUrl),
+                            sources: await new utils_1.StreamSB().extract(serverUrl),
                         };
                     default:
                         return {
                             headers: { Referer: serverUrl.href },
-                            sources: yield new utils_1.GogoCDN().extract(serverUrl),
+                            sources: await new utils_1.GogoCDN().extract(serverUrl),
                         };
                 }
             }
             try {
-                const res = yield axios_1.default.get(`${this.baseUrl}/${episodeId}`);
+                const res = await axios_1.default.get(`${this.baseUrl}/${episodeId}`);
                 const $ = (0, cheerio_1.load)(res.data);
                 let serverUrl;
                 switch (server) {
@@ -182,22 +173,22 @@ class Gogoanime extends models_1.AnimeParser {
                         serverUrl = new URL(`https:${$('#load_anime > div > div > iframe').attr('src')}`);
                         break;
                 }
-                return yield this.fetchEpisodeSources(serverUrl.href, server);
+                return await this.fetchEpisodeSources(serverUrl.href, server);
             }
             catch (err) {
                 console.error(err);
                 throw new Error('Episode not found.');
             }
-        });
+        };
         /**
          *
          * @param episodeId episode link or episode id
          */
-        this.fetchEpisodeServers = (episodeId) => __awaiter(this, void 0, void 0, function* () {
+        this.fetchEpisodeServers = async (episodeId) => {
             try {
                 if (!episodeId.startsWith(this.baseUrl))
                     episodeId = `${this.baseUrl}/${episodeId}`;
-                const res = yield axios_1.default.get(episodeId);
+                const res = await axios_1.default.get(episodeId);
                 const $ = (0, cheerio_1.load)(res.data);
                 const servers = [];
                 $('div.anime_video_body > div.anime_muti_link > ul > li').each((i, el) => {
@@ -214,14 +205,14 @@ class Gogoanime extends models_1.AnimeParser {
             catch (err) {
                 throw new Error('Episode not found.');
             }
-        });
+        };
         /**
          * @param page page number (optional)
          * @param type type of media. (optional) (default `1`) `1`: Japanese with subtitles, `2`: english/dub with no subtitles, `3`: chinese with english subtitles
          */
-        this.fetchRecentEpisodes = (page = 1, type = 1) => __awaiter(this, void 0, void 0, function* () {
+        this.fetchRecentEpisodes = async (page = 1, type = 1) => {
             try {
-                const res = yield axios_1.default.get(`${this.ajaxUrl}/page-recent-release.html?page=${page}&type=${type}`);
+                const res = await axios_1.default.get(`${this.ajaxUrl}/page-recent-release.html?page=${page}&type=${type}`);
                 const $ = (0, cheerio_1.load)(res.data);
                 const recentEpisodes = [];
                 $('div.last_episodes.loaddub > ul > li').each((i, el) => {
@@ -245,10 +236,10 @@ class Gogoanime extends models_1.AnimeParser {
             catch (err) {
                 throw new Error('Something went wrong. Please try again later.');
             }
-        });
-        this.fetchTopAiring = (page = 1) => __awaiter(this, void 0, void 0, function* () {
+        };
+        this.fetchTopAiring = async (page = 1) => {
             try {
-                const res = yield axios_1.default.get(`${this.ajaxUrl}/page-recent-release-ongoing.html?page=${page}`);
+                const res = await axios_1.default.get(`${this.ajaxUrl}/page-recent-release-ongoing.html?page=${page}`);
                 const $ = (0, cheerio_1.load)(res.data);
                 const topAiring = [];
                 $('div.added_series_body.popular > ul > li').each((i, el) => {
@@ -274,7 +265,7 @@ class Gogoanime extends models_1.AnimeParser {
             catch (err) {
                 throw new Error('Something went wrong. Please try again later.');
             }
-        });
+        };
     }
 }
 // (async () => {

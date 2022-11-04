@@ -1,13 +1,4 @@
 "use strict";
-var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
-    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
-    return new (P || (P = Promise))(function (resolve, reject) {
-        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
-        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-    });
-};
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
@@ -23,14 +14,14 @@ class Mangasee123 extends models_1.MangaParser {
         this.baseUrl = 'https://mangasee123.com';
         this.logo = 'https://scontent.fman4-1.fna.fbcdn.net/v/t1.6435-1/80033336_1830005343810810_419412485691408384_n.png?stp=dst-png_p148x148&_nc_cat=104&ccb=1-7&_nc_sid=1eb0c7&_nc_ohc=XpeoABDI-sEAX-5hLFV&_nc_ht=scontent.fman4-1.fna&oh=00_AT9nIRz5vPiNqqzNpSg2bJymX22rZ1JumYTKBqg_cD0Alg&oe=6317290E';
         this.classPath = 'MANGA.Mangasee123';
-        this.fetchMangaInfo = (mangaId, ...args) => __awaiter(this, void 0, void 0, function* () {
+        this.fetchMangaInfo = async (mangaId, ...args) => {
             const mangaInfo = {
                 id: mangaId,
                 title: '',
             };
             const url = `${this.baseUrl}/manga`;
             try {
-                const { data } = yield axios_1.default.get(`${url}/${mangaId}`);
+                const { data } = await axios_1.default.get(`${url}/${mangaId}`);
                 const $ = (0, cheerio_1.load)(data);
                 const schemaScript = $('body > script:nth-child(15)').get()[0].children[0];
                 if ((0, domhandler_1.isText)(schemaScript)) {
@@ -59,12 +50,12 @@ class Mangasee123 extends models_1.MangaParser {
             catch (err) {
                 throw new Error(err.message);
             }
-        });
-        this.fetchChapterPages = (chapterId, ...args) => __awaiter(this, void 0, void 0, function* () {
+        };
+        this.fetchChapterPages = async (chapterId, ...args) => {
             let images = [];
             const url = `${this.baseUrl}/read-online/${chapterId}-page-1.html`;
             try {
-                const { data } = yield axios_1.default.get(url);
+                const { data } = await axios_1.default.get(url);
                 const $ = (0, cheerio_1.load)(data);
                 const chapterScript = $('body > script:nth-child(19)').get()[0].children[0];
                 if ((0, domhandler_1.isText)(chapterScript)) {
@@ -89,12 +80,12 @@ class Mangasee123 extends models_1.MangaParser {
             catch (err) {
                 throw new Error(err.message);
             }
-        });
-        this.search = (query, ...args) => __awaiter(this, void 0, void 0, function* () {
+        };
+        this.search = async (query, ...args) => {
             let matches = [];
             const sanitizedQuery = query.replace(/\s/g, '').toLowerCase();
             try {
-                const { data } = yield axios_1.default.get('https://mangasee123.com/_search.php');
+                const { data } = await axios_1.default.get('https://mangasee123.com/_search.php');
                 for (let i in data) {
                     let sanitizedAlts = [];
                     const item = data[i];
@@ -125,7 +116,7 @@ class Mangasee123 extends models_1.MangaParser {
             catch (err) {
                 throw new Error(err.message);
             }
-        });
+        };
         this.processScriptTagVariable = (script, variable) => {
             const chopFront = script.substring(script.search(variable) + variable.length, script.length);
             const chapters = JSON.parse(chopFront.substring(0, chopFront.search(';')));

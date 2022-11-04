@@ -1,13 +1,4 @@
 "use strict";
-var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
-    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
-    return new (P || (P = Promise))(function (resolve, reject) {
-        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
-        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-    });
-};
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
@@ -27,14 +18,14 @@ class Zoro extends models_1.AnimeParser {
          * @param query Search query
          * @param page Page number (optional)
          */
-        this.search = (query, page = 1) => __awaiter(this, void 0, void 0, function* () {
+        this.search = async (query, page = 1) => {
             const res = {
                 currentPage: page,
                 hasNextPage: false,
                 results: [],
             };
             try {
-                const { data } = yield axios_1.default.get(`${this.baseUrl}/search?keyword=${decodeURIComponent(query)}&page=${page}`);
+                const { data } = await axios_1.default.get(`${this.baseUrl}/search?keyword=${decodeURIComponent(query)}&page=${page}`);
                 const $ = (0, cheerio_1.load)(data);
                 res.hasNextPage =
                     $('.pagination > li').length > 0
@@ -65,17 +56,17 @@ class Zoro extends models_1.AnimeParser {
             catch (err) {
                 throw new Error(err);
             }
-        });
+        };
         /**
          * @param id Anime id
          */
-        this.fetchAnimeInfo = (id) => __awaiter(this, void 0, void 0, function* () {
+        this.fetchAnimeInfo = async (id) => {
             const info = {
                 id: id,
                 title: '',
             };
             try {
-                const { data } = yield axios_1.default.get(`${this.baseUrl}/watch/${id}`);
+                const { data } = await axios_1.default.get(`${this.baseUrl}/watch/${id}`);
                 const $ = (0, cheerio_1.load)(data);
                 info.title = $('h2.film-name > a.text-white').text();
                 info.image = $('img.film-poster-img').attr('src');
@@ -95,7 +86,7 @@ class Zoro extends models_1.AnimeParser {
                 else {
                     info.subOrDub = models_1.SubOrSub.SUB;
                 }
-                const episodesAjax = yield axios_1.default.get(`${this.baseUrl}/ajax/v2/episode/list/${id.split('-').pop()}`, {
+                const episodesAjax = await axios_1.default.get(`${this.baseUrl}/ajax/v2/episode/list/${id.split('-').pop()}`, {
                     headers: {
                         'X-Requested-With': 'XMLHttpRequest',
                         Referer: `${this.baseUrl}/watch/${id}`,
@@ -125,32 +116,32 @@ class Zoro extends models_1.AnimeParser {
             catch (err) {
                 throw new Error(err.message);
             }
-        });
+        };
         /**
          *
          * @param episodeId Episode id
          */
-        this.fetchEpisodeSources = (episodeId, server = models_1.StreamingServers.VidCloud) => __awaiter(this, void 0, void 0, function* () {
+        this.fetchEpisodeSources = async (episodeId, server = models_1.StreamingServers.VidCloud) => {
             var _a;
             if (episodeId.startsWith('http')) {
                 const serverUrl = new URL(episodeId);
                 switch (server) {
                     case models_1.StreamingServers.VidStreaming:
                     case models_1.StreamingServers.VidCloud:
-                        return Object.assign({}, (yield new utils_1.RapidCloud().extract(serverUrl)));
+                        return Object.assign({}, (await new utils_1.RapidCloud().extract(serverUrl)));
                     case models_1.StreamingServers.StreamSB:
                         return {
                             headers: { Referer: serverUrl.href, watchsb: 'streamsb', 'User-Agent': utils_1.USER_AGENT },
-                            sources: yield new utils_1.StreamSB().extract(serverUrl, true),
+                            sources: await new utils_1.StreamSB().extract(serverUrl, true),
                         };
                     case models_1.StreamingServers.StreamTape:
                         return {
                             headers: { Referer: serverUrl.href, 'User-Agent': utils_1.USER_AGENT },
-                            sources: yield new utils_1.StreamTape().extract(serverUrl),
+                            sources: await new utils_1.StreamTape().extract(serverUrl),
                         };
                     default:
                     case models_1.StreamingServers.VidCloud:
-                        return Object.assign({ headers: { Referer: serverUrl.href } }, (yield new utils_1.RapidCloud().extract(serverUrl)));
+                        return Object.assign({ headers: { Referer: serverUrl.href } }, (await new utils_1.RapidCloud().extract(serverUrl)));
                 }
             }
             if (!episodeId.includes('$episode$'))
@@ -162,7 +153,7 @@ class Zoro extends models_1.AnimeParser {
                 .replace('$episode$', '?ep=')
                 .replace(/\$auto|\$sub|\$dub/gi, '')}`;
             try {
-                const { data } = yield axios_1.default.get(`${this.baseUrl}/ajax/v2/episode/servers?episodeId=${episodeId.split('?ep=')[1]}`);
+                const { data } = await axios_1.default.get(`${this.baseUrl}/ajax/v2/episode/servers?episodeId=${episodeId.split('?ep=')[1]}`);
                 const $ = (0, cheerio_1.load)(data.html);
                 /**
                  * vidtreaming -> 4
@@ -200,13 +191,13 @@ class Zoro extends models_1.AnimeParser {
                 catch (err) {
                     throw new Error("Couldn't find server. Try another server");
                 }
-                const { data: { link }, } = yield axios_1.default.get(`${this.baseUrl}/ajax/v2/episode/sources?id=${serverId}`);
-                return yield this.fetchEpisodeSources(link, server);
+                const { data: { link }, } = await axios_1.default.get(`${this.baseUrl}/ajax/v2/episode/sources?id=${serverId}`);
+                return await this.fetchEpisodeSources(link, server);
             }
             catch (err) {
                 throw err;
             }
-        });
+        };
         this.retrieveServerId = ($, index, subOrDub) => {
             return $(`div.ps_-block.ps_-block-sub.servers-${subOrDub} > div.ps__-list > div`)
                 .map((i, el) => ($(el).attr('data-server-id') == `${index}` ? $(el) : null))
@@ -216,9 +207,9 @@ class Zoro extends models_1.AnimeParser {
         /**
          * @param page Page number
          */
-        this.fetchRecentEpisodes = (page = 1) => __awaiter(this, void 0, void 0, function* () {
+        this.fetchRecentEpisodes = async (page = 1) => {
             try {
-                const { data } = yield axios_1.default.get(`${this.baseUrl}/recently-updated?page=${page}`);
+                const { data } = await axios_1.default.get(`${this.baseUrl}/recently-updated?page=${page}`);
                 const $ = (0, cheerio_1.load)(data);
                 const hasNextPage = $('.pagination > li').length > 0
                     ? $('.pagination > li').last().hasClass('active')
@@ -245,7 +236,7 @@ class Zoro extends models_1.AnimeParser {
             catch (err) {
                 throw new Error('Something went wrong. Please try again later.');
             }
-        });
+        };
         /**
          * @deprecated
          * @param episodeId Episode id

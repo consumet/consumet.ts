@@ -1,13 +1,4 @@
 "use strict";
-var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
-    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
-    return new (P || (P = Promise))(function (resolve, reject) {
-        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
-        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-    });
-};
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
@@ -66,9 +57,9 @@ class Crunchyroll extends models_1.AnimeParser {
          * @param query Search query
          * @param limit Limit of results (default: 25) (max: 100)
          */
-        this.search = (query, limit = 25) => __awaiter(this, void 0, void 0, function* () {
+        this.search = async (query, limit = 25) => {
             try {
-                const { data } = yield axios_1.default.get(`${this.baseUrl}/content/v1/search?query=${query}&limit=${limit}&channel_id=${this.channelId}&locale=${this.locale}`, this.options);
+                const { data } = await axios_1.default.get(`${this.baseUrl}/content/v1/search?query=${query}&limit=${limit}&channel_id=${this.channelId}&locale=${this.locale}`, this.options);
                 const list = data.items.map((item) => item.items).flat();
                 return {
                     totalResults: list.length,
@@ -104,14 +95,14 @@ class Crunchyroll extends models_1.AnimeParser {
             catch (error) {
                 throw new Error("Couldn't fetch data from Crunchyroll");
             }
-        });
+        };
         /**
          * @param id Anime id
          * @param mediaType Anime type (series, movie)
          */
-        this.fetchAnimeInfo = (id, mediaType) => __awaiter(this, void 0, void 0, function* () {
+        this.fetchAnimeInfo = async (id, mediaType) => {
             if (mediaType == 'series') {
-                const { data } = yield axios_1.default.get(`${this.baseUrl}/content/v1/seasons?id=${id}&channel_id=${this.channelId}&locale=${this.locale}`, this.options);
+                const { data } = await axios_1.default.get(`${this.baseUrl}/content/v1/seasons?id=${id}&channel_id=${this.channelId}&locale=${this.locale}`, this.options);
                 const items = data.items.map((item) => item.episodes).flat();
                 const regx_extract = /\(([^\)]+)\)[^\(]*$/gm;
                 const episodes = items
@@ -147,7 +138,7 @@ class Crunchyroll extends models_1.AnimeParser {
                 };
             }
             else {
-                const { data } = yield axios_1.default.get(`${this.baseUrl}/content/v1/movies?id=${id}&channel_id=${this.channelId}&locale=${this.locale}`, this.options);
+                const { data } = await axios_1.default.get(`${this.baseUrl}/content/v1/movies?id=${id}&channel_id=${this.channelId}&locale=${this.locale}`, this.options);
                 const episode = data.items.map((item) => ({
                     id: item.id,
                     number: 1,
@@ -166,15 +157,15 @@ class Crunchyroll extends models_1.AnimeParser {
                     episodes: episode,
                 };
             }
-        });
+        };
         /**
          *
          * @param episodeId Episode id
          * @param format subtitle format (default: `srt`) (srt, vtt, ass)
          * @param type Video type (default: `adaptive_hls` (m3u8)) `adaptive_dash` (dash), `drm_adaptive_dash` (dash with drm)
          */
-        this.fetchEpisodeSources = (episodeId, format = 'vtt', type = 'adaptive_hls') => __awaiter(this, void 0, void 0, function* () {
-            const { data } = yield axios_1.default.get(`${this.baseUrl}/videos/v1/streams?id=${episodeId}&channel_id=${this.channelId}&format=${format}&type=${type}`, this.options);
+        this.fetchEpisodeSources = async (episodeId, format = 'vtt', type = 'adaptive_hls') => {
+            const { data } = await axios_1.default.get(`${this.baseUrl}/videos/v1/streams?id=${episodeId}&channel_id=${this.channelId}&format=${format}&type=${type}`, this.options);
             data.subtitles = data.subtitles.sort((a, b) => {
                 if (a.locale == b.locale)
                     return 0;
@@ -196,7 +187,7 @@ class Crunchyroll extends models_1.AnimeParser {
                     },
                 ],
             };
-        });
+        };
         /**
          *
          * @param episodeId Episode id
@@ -205,33 +196,31 @@ class Crunchyroll extends models_1.AnimeParser {
             throw new Error('Method not implemented.');
         };
     }
-    fetch(locale, token, accessToken) {
-        return __awaiter(this, void 0, void 0, function* () {
-            let data = undefined;
-            if (!token && accessToken) {
-                data = yield axios_1.default.post(`${this.baseUrl}/auth/v1/token`, new URLSearchParams({
-                    device_id: 'whatvalueshouldbeforweb',
-                    device_type: 'com.service.data',
-                    access_token: accessToken,
-                }), {
-                    headers: {
-                        'Content-Type': 'application/x-www-form-urlencoded',
-                    },
-                });
-            }
-            if (locale && !this.locales.find(l => l.includes(locale)))
-                throw new Error('Invalid locale');
-            else
-                this.locale = locale || this.locale;
-            if (locale)
-                this.locale = locale;
-            if (token)
-                this.TOKEN = token;
-            if (data)
-                return data.data.access_token;
-            else
-                return token;
-        });
+    async fetch(locale, token, accessToken) {
+        let data = undefined;
+        if (!token && accessToken) {
+            data = await axios_1.default.post(`${this.baseUrl}/auth/v1/token`, new URLSearchParams({
+                device_id: 'whatvalueshouldbeforweb',
+                device_type: 'com.service.data',
+                access_token: accessToken,
+            }), {
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+            });
+        }
+        if (locale && !this.locales.find(l => l.includes(locale)))
+            throw new Error('Invalid locale');
+        else
+            this.locale = locale || this.locale;
+        if (locale)
+            this.locale = locale;
+        if (token)
+            this.TOKEN = token;
+        if (data)
+            return data.data.access_token;
+        else
+            return token;
     }
     /**
      *
@@ -239,14 +228,12 @@ class Crunchyroll extends models_1.AnimeParser {
      * @param token Token
      * @param accessToken Access Token
      */
-    static create(locale, token, accessToken) {
-        return __awaiter(this, void 0, void 0, function* () {
-            const instance = new Crunchyroll();
-            const data = yield instance.fetch(locale, token, accessToken);
-            instance.TOKEN = data;
-            instance.options.headers.Authorization = 'Bearer ' + instance.TOKEN;
-            return instance;
-        });
+    static async create(locale, token, accessToken) {
+        const instance = new Crunchyroll();
+        const data = await instance.fetch(locale, token, accessToken);
+        instance.TOKEN = data;
+        instance.options.headers.Authorization = 'Bearer ' + instance.TOKEN;
+        return instance;
     }
 }
 // (async () => {
