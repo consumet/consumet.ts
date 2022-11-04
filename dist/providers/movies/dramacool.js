@@ -1,13 +1,4 @@
 "use strict";
-var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
-    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
-    return new (P || (P = Promise))(function (resolve, reject) {
-        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
-        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-    });
-};
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
@@ -23,10 +14,10 @@ class Dramacool extends models_1.MovieParser {
         this.logo = 'https://editorialge.com/media/2021/12/Dramacool.jpg';
         this.classPath = 'MOVIES.Dramacool';
         this.supportedTypes = new Set([models_1.TvType.MOVIE, models_1.TvType.TVSERIES]);
-        this.search = (query, page = 1) => __awaiter(this, void 0, void 0, function* () {
+        this.search = async (query, page = 1) => {
             throw new Error('Method not implemented.');
-        });
-        this.fetchMediaInfo = (mediaId) => __awaiter(this, void 0, void 0, function* () {
+        };
+        this.fetchMediaInfo = async (mediaId) => {
             if (!mediaId.includes('drama-detail'))
                 mediaId = `${this.baseUrl}/drama-detail/${mediaId}`;
             const mediaInfo = {
@@ -34,7 +25,7 @@ class Dramacool extends models_1.MovieParser {
                 title: '',
             };
             try {
-                const { data } = yield axios_1.default.get(mediaId);
+                const { data } = await axios_1.default.get(mediaId);
                 const $ = (0, cheerio_1.load)(data);
                 mediaInfo.id = mediaId.split('/').pop().split('.')[0];
                 mediaInfo.episodes = [];
@@ -53,12 +44,12 @@ class Dramacool extends models_1.MovieParser {
             catch (err) {
                 throw new Error(err.message);
             }
-        });
-        this.fetchEpisodeSources = (episodeId, server = models_1.StreamingServers.GogoCDN) => __awaiter(this, void 0, void 0, function* () {
+        };
+        this.fetchEpisodeSources = async (episodeId, server = models_1.StreamingServers.GogoCDN) => {
             if (!episodeId.includes('.html'))
                 episodeId = `${this.baseUrl}/${episodeId}.html`;
             try {
-                const { data } = yield axios_1.default.get(episodeId);
+                const { data } = await axios_1.default.get(episodeId);
                 return {
                     sources: [],
                 };
@@ -66,10 +57,10 @@ class Dramacool extends models_1.MovieParser {
             catch (err) {
                 throw new Error(err.message);
             }
-        });
-        this.fetchEpisodeServers = (mediaLink, ...args) => __awaiter(this, void 0, void 0, function* () {
+        };
+        this.fetchEpisodeServers = async (mediaLink, ...args) => {
             throw new Error('Method not implemented.');
-        });
+        };
     }
 }
 // (async () => {

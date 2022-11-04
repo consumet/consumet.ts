@@ -1,13 +1,4 @@
 "use strict";
-var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
-    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
-    return new (P || (P = Promise))(function (resolve, reject) {
-        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
-        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-    });
-};
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
@@ -28,13 +19,13 @@ class Zlibrary extends models_1.BookParser {
         this.headers = {
             'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0',
         };
-        this.search = (bookTitle, page = 1) => __awaiter(this, void 0, void 0, function* () {
+        this.search = async (bookTitle, page = 1) => {
             var _a;
             bookTitle = encodeURIComponent(bookTitle);
             if (page > 10 || page < 1) {
                 return;
             }
-            const { data } = yield get(`${this.baseUrl}/s/${bookTitle}?page=${page}`, {
+            const { data } = await get(`${this.baseUrl}/s/${bookTitle}?page=${page}`, {
                 headers: this.headers,
             });
             const $ = (0, cheerio_1.load)(data);
@@ -78,7 +69,7 @@ class Zlibrary extends models_1.BookParser {
                 containers.push(container);
             });
             for (let c of containers) {
-                const { data } = yield get(c.link, {
+                const { data } = await get(c.link, {
                     headers: this.headers,
                 });
                 const $ = (0, cheerio_1.load)(data);
@@ -95,7 +86,7 @@ class Zlibrary extends models_1.BookParser {
                 containers,
                 page,
             };
-        });
+        };
     }
 }
 exports.default = Zlibrary;

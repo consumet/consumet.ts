@@ -1,13 +1,4 @@
 "use strict";
-var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
-    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
-    return new (P || (P = Promise))(function (resolve, reject) {
-        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
-        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-    });
-};
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
@@ -28,14 +19,14 @@ class VizCloud extends models_1.VideoExtractor {
             pre: [],
             post: [],
         };
-        this.extract = (videoUrl, cipher, encrypt) => __awaiter(this, void 0, void 0, function* () {
+        this.extract = async (videoUrl, cipher, encrypt) => {
             var _a;
             const groups = new RegExp('(.+?/)e(?:mbed)?/([a-zA-Z0-9]+)').exec(videoUrl.href);
-            this.keys = yield this.fetchKeys();
+            this.keys = await this.fetchKeys();
             const id = encrypt(cipher(groups[2], this.keys.cipher), this.keys.encrypt);
             const encrypted = this.encrypt(this.dashify(this.encrypt(id, this.keys.pre, encrypt)), this.keys.post, encrypt);
             const url = `${groups[1]}${this.keys.main}/${encrypted}`;
-            const { data } = yield axios_1.default.get(url, {
+            const { data } = await axios_1.default.get(url, {
                 headers: {
                     Referer: videoUrl.href,
                 },
@@ -72,7 +63,7 @@ class VizCloud extends models_1.VideoExtractor {
                 }),
             ];
             return this.sources;
-        });
+        };
         this.encrypt = (query, steps, encrypt) => {
             var _a;
             let result = query;
@@ -130,8 +121,8 @@ class VizCloud extends models_1.VideoExtractor {
                 .join('-');
             return mapped;
         };
-        this.fetchKeys = () => __awaiter(this, void 0, void 0, function* () {
-            let { data } = yield axios_1.default.get('https://raw.githubusercontent.com/AnimeJeff/Overflow/main/syek');
+        this.fetchKeys = async () => {
+            let { data } = await axios_1.default.get('https://raw.githubusercontent.com/AnimeJeff/Overflow/main/syek');
             data = JSON.parse(atob(atob(atob(data))));
             return {
                 cipher: data.cipherKey,
@@ -141,7 +132,7 @@ class VizCloud extends models_1.VideoExtractor {
                 post: data.post,
                 pre: data.pre,
             };
-        });
+        };
     }
 }
 exports.default = VizCloud;
