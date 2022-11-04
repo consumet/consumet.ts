@@ -401,6 +401,7 @@ class Anilist extends AnimeParser {
         image: item.node.image.large ?? item.node.image.medium,
         voiceActors: item.voiceActors.map((voiceActor: any) => ({
           id: voiceActor.id,
+          language: voiceActor.languageV2,
           name: {
             first: voiceActor.name.first,
             last: voiceActor.name.last,
