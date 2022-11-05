@@ -19,5 +19,5 @@ test('fetchMangaInfo: returns filled manga info when given a mangaId.', async ()
 test('fetchChapterPages: returns filled page data when given a chapterId.', async () => {
   const mangasee123 = new MANGA.Mangasee123();
   const data = await mangasee123.fetchChapterPages('Yofukashi-no-Uta-chapter-1');
-  expect(data).not.toEqual({});
+  expect(data).not.toEqual([]);
 });
