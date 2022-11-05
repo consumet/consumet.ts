@@ -62,7 +62,7 @@ class Mangasee123 extends MangaParser {
   };
 
   override fetchChapterPages = async (chapterId: string, ...args: any): Promise<IMangaChapterPage[]> => {
-    let images = [];
+    let images: string[] = [];
     const url = `${this.baseUrl}/read-online/${chapterId}-page-1.html`;
 
     try {
@@ -84,6 +84,7 @@ class Mangasee123 extends MangaParser {
           images.push(imagePath);
         }
       }
+
       const pages = images.map(
         (image, i): IMangaChapterPage => ({
           page: i + 1,
