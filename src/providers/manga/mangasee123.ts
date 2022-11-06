@@ -18,6 +18,8 @@ class Mangasee123 extends MangaParser {
     'https://scontent.fman4-1.fna.fbcdn.net/v/t1.6435-1/80033336_1830005343810810_419412485691408384_n.png?stp=dst-png_p148x148&_nc_cat=104&ccb=1-7&_nc_sid=1eb0c7&_nc_ohc=XpeoABDI-sEAX-5hLFV&_nc_ht=scontent.fman4-1.fna&oh=00_AT9nIRz5vPiNqqzNpSg2bJymX22rZ1JumYTKBqg_cD0Alg&oe=6317290E';
   protected override classPath = 'MANGA.Mangasee123';
 
+  private readonly sgProxy = 'https://cors.proxy.consumet.org';
+
   override fetchMangaInfo = async (mangaId: string, ...args: any): Promise<IMangaInfo> => {
     const mangaInfo: IMangaInfo = {
       id: mangaId,
@@ -26,7 +28,7 @@ class Mangasee123 extends MangaParser {
     const url = `${this.baseUrl}/manga`;
 
     try {
-      const { data } = await axios.get(`${url}/${mangaId}`);
+      const { data } = await axios.get(`${this.sgProxy}/${url}/${mangaId}`);
       const $ = load(data);
 
       const schemaScript = $('body > script:nth-child(15)').get()[0].children[0];
@@ -66,7 +68,7 @@ class Mangasee123 extends MangaParser {
     const url = `${this.baseUrl}/read-online/${chapterId}-page-1.html`;
 
     try {
-      const { data } = await axios.get(url);
+      const { data } = await axios.get(`${this.sgProxy}/${url}`);
       const $ = load(data);
 
       const chapterScript = $('body > script:nth-child(19)').get()[0].children[0];
@@ -104,7 +106,7 @@ class Mangasee123 extends MangaParser {
     const sanitizedQuery = query.replace(/\s/g, '').toLowerCase();
 
     try {
-      const { data } = await axios.get('https://mangasee123.com/_search.php');
+      const { data } = await axios.get(`${this.sgProxy}/https://mangasee123.com/_search.php`);
 
       for (let i in data) {
         let sanitizedAlts: string[] = [];
@@ -170,5 +172,11 @@ class Mangasee123 extends MangaParser {
     return `${pad}.${values[1]}`;
   };
 }
+
+// (async () => {
+//   const manga = new Mangasee123();
+//   const mediaInfo = await manga.search('oyasumi');
+//   console.log(mediaInfo);
+// })();
 
 export default Mangasee123;
