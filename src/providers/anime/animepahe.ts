@@ -20,12 +20,16 @@ class AnimePahe extends AnimeParser {
   protected override logo = 'https://animepahe.com/pikacon.ico';
   protected override classPath = 'ANIME.AnimePahe';
 
+  private readonly sgProxy = 'https://cors.proxy.consumet.org';
+
   /**
    * @param query Search query
    */
   override search = async (query: string): Promise<ISearch<IAnimeResult>> => {
     try {
-      const { data } = await axios.get(`${this.baseUrl}/api?m=search&q=${encodeURIComponent(query)}`);
+      const { data } = await axios.get(
+        `${this.sgProxy}/${this.baseUrl}/api?m=search&q=${encodeURIComponent(query)}`
+      );
 
       const res = {
         results: data.data.map((item: any) => ({
@@ -58,7 +62,7 @@ class AnimePahe extends AnimeParser {
     else id = `${this.baseUrl}/a/${id}`;
 
     try {
-      const res = await axios.get(id);
+      const res = await axios.get(`${this.sgProxy}/${id}`);
       const $ = load(res.data);
 
       const tempId = $('head > meta[property="og:url"]').attr('content')!.split('/').pop()!;
@@ -109,7 +113,9 @@ class AnimePahe extends AnimeParser {
       if (episodePage < 0) {
         const {
           data: { last_page, data },
-        } = await axios.get(`${this.baseUrl}/api?m=release&id=${tempId}&sort=episode_asc&page=1`);
+        } = await axios.get(
+          `${this.sgProxy}/${this.baseUrl}/api?m=release&id=${tempId}&sort=episode_asc&page=1`
+        );
 
         animeInfo.episodePages = last_page;
 
@@ -145,7 +151,7 @@ class AnimePahe extends AnimeParser {
    */
   override fetchEpisodeSources = async (episodeId: string): Promise<ISource> => {
     try {
-      const { data } = await axios.get(`${this.baseUrl}/api?m=links&id=${episodeId}`, {
+      const { data } = await axios.get(`${this.sgProxy}/${this.baseUrl}/api?m=links&id=${episodeId}`, {
         headers: {
           Referer: `${this.baseUrl}`,
         },
@@ -177,7 +183,9 @@ class AnimePahe extends AnimeParser {
   };
 
   private fetchEpisodes = async (id: string, page: number): Promise<IAnimeEpisode[]> => {
-    const res = await axios.get(`${this.baseUrl}/api?m=release&id=${id}&sort=episode_asc&page=${page}`);
+    const res = await axios.get(
+      `${this.sgProxy}/${this.baseUrl}/api?m=release&id=${id}&sort=episode_asc&page=${page}`
+    );
 
     const epData = res.data.data;
 

@@ -4,6 +4,7 @@ declare class AnimePahe extends AnimeParser {
     protected baseUrl: string;
     protected logo: string;
     protected classPath: string;
+    private readonly sgProxy;
     /**
      * @param query Search query
      */
