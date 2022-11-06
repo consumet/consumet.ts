@@ -17,6 +17,14 @@ class Enime extends models_1.AnimeParser {
          * @param query Search query
          * @param page Page number (optional)
          */
+        this.rawSearch = async (query, page = 1, perPage = 15) => {
+            const { data } = await axios_1.default.get(`${this.enimeApi}/search/${query}?page=${page}&perPage=${perPage}`);
+            return data;
+        };
+        /**
+         * @param query Search query
+         * @param page Page number (optional)
+         */
         this.search = async (query, page = 1, perPage = 15) => {
             const res = {
                 currentPage: page,
@@ -82,6 +90,12 @@ class Enime extends models_1.AnimeParser {
             }));
             return animeInfo;
         };
+        this.fetchAnimeInfoByIdRaw = async (id) => {
+            const { data } = await axios_1.default.get(`${this.enimeApi}/mapping/anilist/${id}`).catch(err => {
+                throw new Error("Backup api seems to be down! Can't fetch anime info");
+            });
+            return data;
+        };
         /**
          * @param id anilist id
          */
@@ -125,7 +139,7 @@ class Enime extends models_1.AnimeParser {
                 return ({
                     id: episode.id,
                     slug: (_b = (_a = episode.sources
-                        .find((source) => useType === 'zoro' ? source.target.includes('?ep=') : source.target.includes('episode'))) === null || _a === void 0 ? void 0 : _a.target.split('/').pop().replace('?ep=', '$episode$')) === null || _b === void 0 ? void 0 : _b.concat(useType === 'zoro' ? "$sub" : ""),
+                        .find((source) => useType === 'zoro' ? source.target.includes('?ep=') : source.target.includes('episode'))) === null || _a === void 0 ? void 0 : _a.target.split('/').pop().replace('?ep=', '$episode$')) === null || _b === void 0 ? void 0 : _b.concat(useType === 'zoro' ? '$sub' : ''),
                     description: episode.description,
                     number: episode.number,
                     title: episode.title,
