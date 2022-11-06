@@ -20,12 +20,16 @@ class AnimePahe extends AnimeParser {
   protected override logo = 'https://animepahe.com/pikacon.ico';
   protected override classPath = 'ANIME.AnimePahe';
 
+  private sgProxy = 'https://cors.proxy.consumet.org';
+
   /**
    * @param query Search query
    */
   override search = async (query: string): Promise<ISearch<IAnimeResult>> => {
     try {
-      const { data } = await axios.get(`${this.baseUrl}/api?m=search&q=${encodeURIComponent(query)}`);
+      const { data } = await axios.get(
+        `${this.sgProxy}/${this.baseUrl}/api?m=search&q=${encodeURIComponent(query)}`
+      );
 
       const res = {
         results: data.data.map((item: any) => ({
@@ -58,7 +62,7 @@ class AnimePahe extends AnimeParser {
     else id = `${this.baseUrl}/a/${id}`;
 
     try {
-      const res = await axios.get(id);
+      const res = await axios.get(`${this.sgProxy}/${id}`);
       const $ = load(res.data);
 
       const tempId = $('head > meta[property="og:url"]').attr('content')!.split('/').pop()!;
@@ -109,7 +113,9 @@ class AnimePahe extends AnimeParser {
       if (episodePage < 0) {
         const {
           data: { last_page, data },
-        } = await axios.get(`${this.baseUrl}/api?m=release&id=${tempId}&sort=episode_asc&page=1`);
+        } = await axios.get(
+          `${this.sgProxy}/${this.baseUrl}/api?m=release&id=${tempId}&sort=episode_asc&page=1`
+        );
 
         animeInfo.episodePages = last_page;
 
@@ -145,11 +151,13 @@ class AnimePahe extends AnimeParser {
    */
   override fetchEpisodeSources = async (episodeId: string): Promise<ISource> => {
     try {
-      const { data } = await axios.get(`${this.baseUrl}/api?m=links&id=${episodeId}`, {
+      const { data } = await axios.get(`${this.sgProxy}/${this.baseUrl}/api?m=links&id=${episodeId}`, {
         headers: {
           Referer: `${this.baseUrl}`,
         },
       });
+
+      console.log('data', data);
 
       const links = data.data.map((item: any) => ({
         quality: Object.keys(item)[0],
@@ -172,12 +180,15 @@ class AnimePahe extends AnimeParser {
 
       return iSource;
     } catch (err) {
+      console.log(err);
       throw new Error((err as Error).message);
     }
   };
 
   private fetchEpisodes = async (id: string, page: number): Promise<IAnimeEpisode[]> => {
-    const res = await axios.get(`${this.baseUrl}/api?m=release&id=${id}&sort=episode_asc&page=${page}`);
+    const res = await axios.get(
+      `${this.sgProxy}/${this.baseUrl}/api?m=release&id=${id}&sort=episode_asc&page=${page}`
+    );
 
     const epData = res.data.data;
 
@@ -203,13 +214,13 @@ class AnimePahe extends AnimeParser {
   };
 }
 
-// (async () => {
-//   const animepahe = new AnimePahe();
+(async () => {
+  const animepahe = new AnimePahe();
 
-//   const anime = await animepahe.search('Classroom of the elite');
-//   const info = await animepahe.fetchAnimeInfo(anime.results[0].id);
-//   const sources = await animepahe.fetchEpisodeSources(info.episodes![0].id);
-//   console.log(sources);
-// })();
+  const anime = await animepahe.search('Classroom of the elite');
+  const info = await animepahe.fetchAnimeInfo(anime.results[0].id);
+  const sources = await animepahe.fetchEpisodeSources(info.episodes![0].id);
+  console.log(sources);
+})();
 
 export default AnimePahe;

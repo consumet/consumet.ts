@@ -14,12 +14,13 @@ class AnimePahe extends models_1.AnimeParser {
         this.baseUrl = 'https://animepahe.com';
         this.logo = 'https://animepahe.com/pikacon.ico';
         this.classPath = 'ANIME.AnimePahe';
+        this.sgProxy = 'https://cors.proxy.consumet.org';
         /**
          * @param query Search query
          */
         this.search = async (query) => {
             try {
-                const { data } = await axios_1.default.get(`${this.baseUrl}/api?m=search&q=${encodeURIComponent(query)}`);
+                const { data } = await axios_1.default.get(`${this.sgProxy}/${this.baseUrl}/api?m=search&q=${encodeURIComponent(query)}`);
                 const res = {
                     results: data.data.map((item) => ({
                         id: item.session,
@@ -50,7 +51,7 @@ class AnimePahe extends models_1.AnimeParser {
             else
                 id = `${this.baseUrl}/a/${id}`;
             try {
-                const res = await axios_1.default.get(id);
+                const res = await axios_1.default.get(`${this.sgProxy}/${id}`);
                 const $ = (0, cheerio_1.load)(res.data);
                 const tempId = $('head > meta[property="og:url"]').attr('content').split('/').pop();
                 animeInfo.id = $('head > meta[name="id"]').attr('content');
@@ -93,7 +94,7 @@ class AnimePahe extends models_1.AnimeParser {
                 animeInfo.totalEpisodes = parseInt($('div.col-sm-4.anime-info > p:nth-child(3)').text().replace('Episodes:', ''));
                 animeInfo.episodes = [];
                 if (episodePage < 0) {
-                    const { data: { last_page, data }, } = await axios_1.default.get(`${this.baseUrl}/api?m=release&id=${tempId}&sort=episode_asc&page=1`);
+                    const { data: { last_page, data }, } = await axios_1.default.get(`${this.sgProxy}/${this.baseUrl}/api?m=release&id=${tempId}&sort=episode_asc&page=1`);
                     animeInfo.episodePages = last_page;
                     animeInfo.episodes.push(...data.map((item) => ({
                         id: item.session,
@@ -121,11 +122,12 @@ class AnimePahe extends models_1.AnimeParser {
          */
         this.fetchEpisodeSources = async (episodeId) => {
             try {
-                const { data } = await axios_1.default.get(`${this.baseUrl}/api?m=links&id=${episodeId}`, {
+                const { data } = await axios_1.default.get(`${this.sgProxy}/${this.baseUrl}/api?m=links&id=${episodeId}`, {
                     headers: {
                         Referer: `${this.baseUrl}`,
                     },
                 });
+                console.log('data', data);
                 const links = data.data.map((item) => ({
                     quality: Object.keys(item)[0],
                     iframe: item[Object.keys(item)[0]].kwik,
@@ -146,11 +148,12 @@ class AnimePahe extends models_1.AnimeParser {
                 return iSource;
             }
             catch (err) {
+                console.log(err);
                 throw new Error(err.message);
             }
         };
         this.fetchEpisodes = async (id, page) => {
-            const res = await axios_1.default.get(`${this.baseUrl}/api?m=release&id=${id}&sort=episode_asc&page=${page}`);
+            const res = await axios_1.default.get(`${this.sgProxy}/${this.baseUrl}/api?m=release&id=${id}&sort=episode_asc&page=${page}`);
             const epData = res.data.data;
             return [
                 ...epData.map((item) => ({
@@ -171,12 +174,12 @@ class AnimePahe extends models_1.AnimeParser {
         };
     }
 }
-// (async () => {
-//   const animepahe = new AnimePahe();
-//   const anime = await animepahe.search('Classroom of the elite');
-//   const info = await animepahe.fetchAnimeInfo(anime.results[0].id);
-//   const sources = await animepahe.fetchEpisodeSources(info.episodes![0].id);
-//   console.log(sources);
-// })();
+(async () => {
+    const animepahe = new AnimePahe();
+    const anime = await animepahe.search('Classroom of the elite');
+    const info = await animepahe.fetchAnimeInfo(anime.results[0].id);
+    const sources = await animepahe.fetchEpisodeSources(info.episodes[0].id);
+    console.log(sources);
+})();
 exports.default = AnimePahe;
 //# sourceMappingURL=animepahe.js.map
