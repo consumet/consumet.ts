@@ -127,7 +127,6 @@ class AnimePahe extends models_1.AnimeParser {
                         Referer: `${this.baseUrl}`,
                     },
                 });
-                console.log('data', data);
                 const links = data.data.map((item) => ({
                     quality: Object.keys(item)[0],
                     iframe: item[Object.keys(item)[0]].kwik,
@@ -174,12 +173,12 @@ class AnimePahe extends models_1.AnimeParser {
         };
     }
 }
-(async () => {
-    const animepahe = new AnimePahe();
-    const anime = await animepahe.search('Classroom of the elite');
-    const info = await animepahe.fetchAnimeInfo(anime.results[0].id);
-    const sources = await animepahe.fetchEpisodeSources(info.episodes[0].id);
-    console.log(sources);
-})();
+// (async () => {
+//   const animepahe = new AnimePahe();
+//   const anime = await animepahe.search('Classroom of the elite');
+//   const info = await animepahe.fetchAnimeInfo(anime.results[0].id);
+//   const sources = await animepahe.fetchEpisodeSources(info.episodes![0].id);
+//   console.log(sources);
+// })();
 exports.default = AnimePahe;
 //# sourceMappingURL=animepahe.js.map

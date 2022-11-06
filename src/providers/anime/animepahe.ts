@@ -157,8 +157,6 @@ class AnimePahe extends AnimeParser {
         },
       });
 
-      console.log('data', data);
-
       const links = data.data.map((item: any) => ({
         quality: Object.keys(item)[0],
         iframe: item[Object.keys(item)[0]].kwik,
@@ -214,13 +212,13 @@ class AnimePahe extends AnimeParser {
   };
 }
 
-(async () => {
-  const animepahe = new AnimePahe();
+// (async () => {
+//   const animepahe = new AnimePahe();
 
-  const anime = await animepahe.search('Classroom of the elite');
-  const info = await animepahe.fetchAnimeInfo(anime.results[0].id);
-  const sources = await animepahe.fetchEpisodeSources(info.episodes![0].id);
-  console.log(sources);
-})();
+//   const anime = await animepahe.search('Classroom of the elite');
+//   const info = await animepahe.fetchAnimeInfo(anime.results[0].id);
+//   const sources = await animepahe.fetchEpisodeSources(info.episodes![0].id);
+//   console.log(sources);
+// })();
 
 export default AnimePahe;
