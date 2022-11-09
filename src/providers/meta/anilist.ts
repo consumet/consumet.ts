@@ -1135,11 +1135,8 @@ class Anilist extends AnimeParser {
       let firstTitle: string;
       let secondTitle: string;
 
-      if (typeof a.title == 'string') {
-        firstTitle = a.title as string;
-      } else {
-        firstTitle = a.title.english ?? a.title.romaji ?? '';
-      }
+      if (typeof a.title == 'string') firstTitle = a.title as string;
+      else firstTitle = a.title.english ?? a.title.romaji ?? '';
 
       if (typeof b.title == 'string') secondTitle = b.title as string;
       else secondTitle = b.title.english ?? b.title.romaji ?? '';

@@ -945,12 +945,10 @@ class Anilist extends models_1.AnimeParser {
                 const targetTitle = slug.toLowerCase();
                 let firstTitle;
                 let secondTitle;
-                if (typeof a.title == 'string') {
+                if (typeof a.title == 'string')
                     firstTitle = a.title;
-                }
-                else {
+                else
                     firstTitle = (_c = (_b = a.title.english) !== null && _b !== void 0 ? _b : a.title.romaji) !== null && _c !== void 0 ? _c : '';
-                }
                 if (typeof b.title == 'string')
                     secondTitle = b.title;
                 else
