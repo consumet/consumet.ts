@@ -13,6 +13,7 @@ const zoro_1 = __importDefault(require("../anime/zoro"));
 const mangasee123_1 = __importDefault(require("../manga/mangasee123"));
 const crunchyroll_1 = __importDefault(require("../anime/crunchyroll"));
 const bilibili_1 = __importDefault(require("../anime/bilibili"));
+const utils_2 = require("../../utils/utils");
 class Anilist extends models_1.AnimeParser {
     /**
      * This class maps anilist to kitsu with any other anime provider.
@@ -540,6 +541,7 @@ class Anilist extends models_1.AnimeParser {
             return englishPossibleEpisodes;
         };
         this.findAnimeSlug = async (title, season, startDate, malId, dub, anilistId, externalLinks) => {
+            var _b, _c, _d;
             if (this.provider instanceof enime_1.default)
                 return (await this.provider.fetchAnimeInfoByAnilistId(anilistId)).episodes;
             const slug = title.replace(/[^0-9a-zA-Z]+/g, ' ');
@@ -558,8 +560,21 @@ class Anilist extends models_1.AnimeParser {
                         return pages;
                     });
                     sites = sites.flat();
-                    const possibleSource = sites.find(s => s.page.toLowerCase() === this.provider.name.toLowerCase() &&
-                        (dub ? s.title.toLowerCase().includes('dub') : !s.title.toLowerCase().includes('dub')));
+                    sites.sort((a, b) => {
+                        const targetTitle = malAsyncReq.data.title.toLowerCase();
+                        const firstRating = (0, utils_2.compareTwoStrings)(targetTitle, a.title.toLowerCase());
+                        const secondRating = (0, utils_2.compareTwoStrings)(targetTitle, b.title.toLowerCase());
+                        // Sort in descending order
+                        return secondRating - firstRating;
+                    });
+                    const possibleSource = sites.find(s => {
+                        if (s.page.toLowerCase() === this.provider.name.toLowerCase())
+                            if (this.provider instanceof gogoanime_1.default)
+                                return dub ? s.title.toLowerCase().includes('dub') : !s.title.toLowerCase().includes('dub');
+                            else
+                                return true;
+                        return false;
+                    });
                     if (possibleSource) {
                         try {
                             possibleAnime = await this.provider.fetchAnimeInfo(possibleSource.url.split('/').pop());
@@ -596,9 +611,9 @@ class Anilist extends models_1.AnimeParser {
                     : possibleAnime.episodes.filter((ep) => ep.type == 'Subbed');
             }
             const possibleProviderEpisodes = possibleAnime.episodes;
-            if (typeof possibleProviderEpisodes[0].image !== 'undefined' &&
-                typeof possibleProviderEpisodes[0].title !== 'undefined' &&
-                typeof possibleProviderEpisodes[0].description !== 'undefined')
+            if (typeof ((_b = possibleProviderEpisodes[0]) === null || _b === void 0 ? void 0 : _b.image) !== 'undefined' &&
+                typeof ((_c = possibleProviderEpisodes[0]) === null || _c === void 0 ? void 0 : _c.title) !== 'undefined' &&
+                typeof ((_d = possibleProviderEpisodes[0]) === null || _d === void 0 ? void 0 : _d.description) !== 'undefined')
                 return possibleProviderEpisodes;
             const options = {
                 headers: { 'Content-Type': 'application/json' },
@@ -924,6 +939,25 @@ class Anilist extends models_1.AnimeParser {
             const findAnime = (await this.provider.search(slug));
             if (findAnime.results.length === 0)
                 return [];
+            // Sort the retrieved info for more accurate results.
+            findAnime.results.sort((a, b) => {
+                var _b, _c, _d, _e;
+                const targetTitle = slug.toLowerCase();
+                let firstTitle;
+                let secondTitle;
+                if (typeof a.title == 'string')
+                    firstTitle = a.title;
+                else
+                    firstTitle = (_c = (_b = a.title.english) !== null && _b !== void 0 ? _b : a.title.romaji) !== null && _c !== void 0 ? _c : '';
+                if (typeof b.title == 'string')
+                    secondTitle = b.title;
+                else
+                    secondTitle = (_e = (_d = b.title.english) !== null && _d !== void 0 ? _d : b.title.romaji) !== null && _e !== void 0 ? _e : '';
+                const firstRating = (0, utils_2.compareTwoStrings)(targetTitle, firstTitle.toLowerCase());
+                const secondRating = (0, utils_2.compareTwoStrings)(targetTitle, secondTitle.toLowerCase());
+                // Sort in descending order
+                return secondRating - firstRating;
+            });
             if (this.provider instanceof crunchyroll_1.default) {
                 return await this.provider.fetchAnimeInfo(findAnime.results[0].id, findAnime.results[0].type);
             }

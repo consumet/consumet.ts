@@ -43,6 +43,7 @@ import Zoro from '../anime/zoro';
 import Mangasee123 from '../manga/mangasee123';
 import Crunchyroll from '../anime/crunchyroll';
 import Bilibili from '../anime/bilibili';
+import { compareTwoStrings } from '../../utils/utils';
 
 class Anilist extends AnimeParser {
   override readonly name = 'Anilist';
@@ -706,11 +707,23 @@ class Anilist extends AnimeParser {
 
         sites = sites.flat();
 
-        const possibleSource = sites.find(
-          s =>
-            s.page.toLowerCase() === this.provider.name.toLowerCase() &&
-            (dub ? s.title.toLowerCase().includes('dub') : !s.title.toLowerCase().includes('dub'))
-        );
+        sites.sort((a, b) => {
+          const targetTitle = malAsyncReq.data.title.toLowerCase();
+
+          const firstRating = compareTwoStrings(targetTitle, a.title.toLowerCase());
+          const secondRating = compareTwoStrings(targetTitle, b.title.toLowerCase());
+
+          // Sort in descending order
+          return secondRating - firstRating;
+        });
+
+        const possibleSource = sites.find(s => {
+          if (s.page.toLowerCase() === this.provider.name.toLowerCase())
+            if (this.provider instanceof Gogoanime)
+              return dub ? s.title.toLowerCase().includes('dub') : !s.title.toLowerCase().includes('dub');
+            else return true;
+          return false;
+        });
 
         if (possibleSource) {
           try {
@@ -752,9 +765,9 @@ class Anilist extends AnimeParser {
     const possibleProviderEpisodes = possibleAnime.episodes as IAnimeEpisode[];
 
     if (
-      typeof possibleProviderEpisodes[0].image !== 'undefined' &&
-      typeof possibleProviderEpisodes[0].title !== 'undefined' &&
-      typeof possibleProviderEpisodes[0].description !== 'undefined'
+      typeof possibleProviderEpisodes[0]?.image !== 'undefined' &&
+      typeof possibleProviderEpisodes[0]?.title !== 'undefined' &&
+      typeof possibleProviderEpisodes[0]?.description !== 'undefined'
     )
       return possibleProviderEpisodes;
 
@@ -1113,6 +1126,28 @@ class Anilist extends AnimeParser {
     }
     const findAnime = (await this.provider.search(slug)) as ISearch<IAnimeResult>;
     if (findAnime.results.length === 0) return [];
+
+    // Sort the retrieved info for more accurate results.
+
+    findAnime.results.sort((a, b) => {
+      const targetTitle = slug.toLowerCase();
+
+      let firstTitle: string;
+      let secondTitle: string;
+
+      if (typeof a.title == 'string') firstTitle = a.title as string;
+      else firstTitle = a.title.english ?? a.title.romaji ?? '';
+
+      if (typeof b.title == 'string') secondTitle = b.title as string;
+      else secondTitle = b.title.english ?? b.title.romaji ?? '';
+
+      const firstRating = compareTwoStrings(targetTitle, firstTitle.toLowerCase());
+      const secondRating = compareTwoStrings(targetTitle, secondTitle.toLowerCase());
+
+      // Sort in descending order
+      return secondRating - firstRating;
+    });
+
     if (this.provider instanceof Crunchyroll) {
       return await this.provider.fetchAnimeInfo(findAnime.results[0].id, findAnime.results[0].type as string);
     }
