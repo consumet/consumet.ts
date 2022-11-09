@@ -708,25 +708,23 @@ class Anilist extends AnimeParser {
         sites = sites.flat();
 
         sites.sort((a, b) => {
-          let targetTitle = malAsyncReq.data.title.toLowerCase();
+          const targetTitle = malAsyncReq.data.title.toLowerCase();
 
-          let firstRating = compareTwoStrings(targetTitle, a.title.toLowerCase());
-          let secondRating = compareTwoStrings(targetTitle, b.title.toLowerCase())
+          const firstRating = compareTwoStrings(targetTitle, a.title.toLowerCase());
+          const secondRating = compareTwoStrings(targetTitle, b.title.toLowerCase())
 
           // Sort in descending order
           return secondRating - firstRating
         });
 
         const possibleSource = sites.find(s => {
-          if (s.page.toLowerCase() === this.provider.name.toLowerCase()) {
-            if (this.provider instanceof Gogoanime) {
+          if (s.page.toLowerCase() === this.provider.name.toLowerCase())
+            if (this.provider instanceof Gogoanime)
               return (dub ? s.title.toLowerCase().includes('dub') : !s.title.toLowerCase().includes('dub'))
-            } else {
+            else
               return true
-            }
-          }
           return false
-      });
+        });
 
         if (possibleSource) {
           try {
@@ -1133,10 +1131,10 @@ class Anilist extends AnimeParser {
     // Sort the retrieved info for more accurate results.
 
     findAnime.results.sort((a, b) => {
-      let targetTitle = slug.toLowerCase();
+      const targetTitle = slug.toLowerCase();
 
-      var firstTitle: string
-      var secondTitle: string
+      let firstTitle: string
+      let secondTitle: string
 
       if (typeof(a.title) == 'string') {
         firstTitle = a.title as string;
@@ -1150,8 +1148,8 @@ class Anilist extends AnimeParser {
         secondTitle = b.title.english ?? b.title.romaji ?? "";
       }
 
-      let firstRating = compareTwoStrings(targetTitle, firstTitle.toLowerCase());
-      let secondRating = compareTwoStrings(targetTitle, secondTitle.toLowerCase());
+      const firstRating = compareTwoStrings(targetTitle, firstTitle.toLowerCase());
+      const secondRating = compareTwoStrings(targetTitle, secondTitle.toLowerCase());
 
       // Sort in descending order
       return secondRating - firstRating

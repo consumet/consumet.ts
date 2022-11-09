@@ -561,21 +561,18 @@ class Anilist extends models_1.AnimeParser {
                     });
                     sites = sites.flat();
                     sites.sort((a, b) => {
-                        let targetTitle = malAsyncReq.data.title.toLowerCase();
-                        let firstRating = (0, utils_2.compareTwoStrings)(targetTitle, a.title.toLowerCase());
-                        let secondRating = (0, utils_2.compareTwoStrings)(targetTitle, b.title.toLowerCase());
+                        const targetTitle = malAsyncReq.data.title.toLowerCase();
+                        const firstRating = (0, utils_2.compareTwoStrings)(targetTitle, a.title.toLowerCase());
+                        const secondRating = (0, utils_2.compareTwoStrings)(targetTitle, b.title.toLowerCase());
                         // Sort in descending order
                         return secondRating - firstRating;
                     });
                     const possibleSource = sites.find(s => {
-                        if (s.page.toLowerCase() === this.provider.name.toLowerCase()) {
-                            if (this.provider instanceof gogoanime_1.default) {
+                        if (s.page.toLowerCase() === this.provider.name.toLowerCase())
+                            if (this.provider instanceof gogoanime_1.default)
                                 return (dub ? s.title.toLowerCase().includes('dub') : !s.title.toLowerCase().includes('dub'));
-                            }
-                            else {
+                            else
                                 return true;
-                            }
-                        }
                         return false;
                     });
                     if (possibleSource) {
@@ -945,9 +942,9 @@ class Anilist extends models_1.AnimeParser {
             // Sort the retrieved info for more accurate results.
             findAnime.results.sort((a, b) => {
                 var _b, _c, _d, _e;
-                let targetTitle = slug.toLowerCase();
-                var firstTitle;
-                var secondTitle;
+                const targetTitle = slug.toLowerCase();
+                let firstTitle;
+                let secondTitle;
                 if (typeof (a.title) == 'string') {
                     firstTitle = a.title;
                 }
@@ -960,8 +957,8 @@ class Anilist extends models_1.AnimeParser {
                 else {
                     secondTitle = (_e = (_d = b.title.english) !== null && _d !== void 0 ? _d : b.title.romaji) !== null && _e !== void 0 ? _e : "";
                 }
-                let firstRating = (0, utils_2.compareTwoStrings)(targetTitle, firstTitle.toLowerCase());
-                let secondRating = (0, utils_2.compareTwoStrings)(targetTitle, secondTitle.toLowerCase());
+                const firstRating = (0, utils_2.compareTwoStrings)(targetTitle, firstTitle.toLowerCase());
+                const secondRating = (0, utils_2.compareTwoStrings)(targetTitle, secondTitle.toLowerCase());
                 // Sort in descending order
                 return secondRating - firstRating;
             });
