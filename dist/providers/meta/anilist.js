@@ -570,7 +570,7 @@ class Anilist extends models_1.AnimeParser {
                     const possibleSource = sites.find(s => {
                         if (s.page.toLowerCase() === this.provider.name.toLowerCase())
                             if (this.provider instanceof gogoanime_1.default)
-                                return (dub ? s.title.toLowerCase().includes('dub') : !s.title.toLowerCase().includes('dub'));
+                                return dub ? s.title.toLowerCase().includes('dub') : !s.title.toLowerCase().includes('dub');
                             else
                                 return true;
                         return false;
@@ -945,18 +945,16 @@ class Anilist extends models_1.AnimeParser {
                 const targetTitle = slug.toLowerCase();
                 let firstTitle;
                 let secondTitle;
-                if (typeof (a.title) == 'string') {
+                if (typeof a.title == 'string') {
                     firstTitle = a.title;
                 }
                 else {
-                    firstTitle = (_c = (_b = a.title.english) !== null && _b !== void 0 ? _b : a.title.romaji) !== null && _c !== void 0 ? _c : "";
+                    firstTitle = (_c = (_b = a.title.english) !== null && _b !== void 0 ? _b : a.title.romaji) !== null && _c !== void 0 ? _c : '';
                 }
-                if (typeof (b.title) == 'string') {
+                if (typeof b.title == 'string')
                     secondTitle = b.title;
-                }
-                else {
-                    secondTitle = (_e = (_d = b.title.english) !== null && _d !== void 0 ? _d : b.title.romaji) !== null && _e !== void 0 ? _e : "";
-                }
+                else
+                    secondTitle = (_e = (_d = b.title.english) !== null && _d !== void 0 ? _d : b.title.romaji) !== null && _e !== void 0 ? _e : '';
                 const firstRating = (0, utils_2.compareTwoStrings)(targetTitle, firstTitle.toLowerCase());
                 const secondRating = (0, utils_2.compareTwoStrings)(targetTitle, secondTitle.toLowerCase());
                 // Sort in descending order

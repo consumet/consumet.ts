@@ -711,19 +711,18 @@ class Anilist extends AnimeParser {
           const targetTitle = malAsyncReq.data.title.toLowerCase();
 
           const firstRating = compareTwoStrings(targetTitle, a.title.toLowerCase());
-          const secondRating = compareTwoStrings(targetTitle, b.title.toLowerCase())
+          const secondRating = compareTwoStrings(targetTitle, b.title.toLowerCase());
 
           // Sort in descending order
-          return secondRating - firstRating
+          return secondRating - firstRating;
         });
 
         const possibleSource = sites.find(s => {
           if (s.page.toLowerCase() === this.provider.name.toLowerCase())
             if (this.provider instanceof Gogoanime)
-              return (dub ? s.title.toLowerCase().includes('dub') : !s.title.toLowerCase().includes('dub'))
-            else
-              return true
-          return false
+              return dub ? s.title.toLowerCase().includes('dub') : !s.title.toLowerCase().includes('dub');
+            else return true;
+          return false;
         });
 
         if (possibleSource) {
@@ -1133,26 +1132,23 @@ class Anilist extends AnimeParser {
     findAnime.results.sort((a, b) => {
       const targetTitle = slug.toLowerCase();
 
-      let firstTitle: string
-      let secondTitle: string
+      let firstTitle: string;
+      let secondTitle: string;
 
-      if (typeof(a.title) == 'string') {
+      if (typeof a.title == 'string') {
         firstTitle = a.title as string;
       } else {
-        firstTitle = a.title.english ?? a.title.romaji ?? "";
+        firstTitle = a.title.english ?? a.title.romaji ?? '';
       }
 
-      if (typeof(b.title) == 'string') {
-        secondTitle = b.title as string;
-      } else {
-        secondTitle = b.title.english ?? b.title.romaji ?? "";
-      }
+      if (typeof b.title == 'string') secondTitle = b.title as string;
+      else secondTitle = b.title.english ?? b.title.romaji ?? '';
 
       const firstRating = compareTwoStrings(targetTitle, firstTitle.toLowerCase());
       const secondRating = compareTwoStrings(targetTitle, secondTitle.toLowerCase());
 
       // Sort in descending order
-      return secondRating - firstRating
+      return secondRating - firstRating;
     });
 
     if (this.provider instanceof Crunchyroll) {
