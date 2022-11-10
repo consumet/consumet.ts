@@ -242,13 +242,6 @@ export interface ComicRes {
     containers: GetComicsComics[];
     hasNextPage: boolean;
 }
-export interface ZLibrary extends Book {
-    bookRating: string;
-    bookQuality: string;
-    language: string;
-    size: string;
-    pages: string;
-}
 export interface ISubtitle {
     /**
      * The id of the subtitle. **not** required

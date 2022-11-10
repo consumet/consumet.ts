@@ -30,7 +30,9 @@ async function scrapNewsInfo(url) {
     const description = $('.meat > p').text().trim().split('\n\n').join('\n');
     const time = $('#page-title > small > time').text().trim();
     const thumbnailSlug = $('.meat > p').find('img').attr('data-src');
-    const thumbnail = thumbnailSlug ? `https://animenewsnetwork.com${thumbnailSlug}` : 'https://i.imgur.com/KkkVr1g.png';
+    const thumbnail = thumbnailSlug
+        ? `https://animenewsnetwork.com${thumbnailSlug}`
+        : 'https://i.imgur.com/KkkVr1g.png';
     return {
         id: url.split('news/')[1],
         title,
@@ -38,7 +40,7 @@ async function scrapNewsInfo(url) {
         intro,
         description,
         thumbnail,
-        url
+        url,
     };
 }
 class AnimeNewsNetwork extends models_1.NewsParser {
@@ -51,7 +53,9 @@ class AnimeNewsNetwork extends models_1.NewsParser {
         /**
          * @param topic Topic for fetching the feeds
          */
-        this.fetchNewsFeeds = async (topic) => await axios_1.default.get(`${this.baseUrl}/news${topic && Object.values(models_1.Topics).includes(topic) ? `/?topic=${topic}` : ''}`).then(({ data }) => {
+        this.fetchNewsFeeds = async (topic) => await axios_1.default
+            .get(`${this.baseUrl}/news${topic && Object.values(models_1.Topics).includes(topic) ? `/?topic=${topic}` : ''}`)
+            .then(({ data }) => {
             const $ = (0, cheerio_1.load)(data);
             const feeds = [];
             $('.herald.box.news').each((i, el) => {
@@ -69,12 +73,13 @@ class AnimeNewsNetwork extends models_1.NewsParser {
                 const El = $(el).find('.preview');
                 const preview = {
                     intro: El.find('.intro').text().trim(),
-                    full: El.find('.full').text().replace('―', '').trim()
+                    full: El.find('.full').text().replace('―', '').trim(),
                 };
                 feeds.push(new NewsFeed(title, slug.replace('/news/', ''), time, topics, preview, thumbnail, url));
             });
             return feeds;
-        }).catch((err) => {
+        })
+            .catch((err) => {
             throw new Error(err.message);
         });
         /**
