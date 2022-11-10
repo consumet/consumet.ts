@@ -1,3 +1,3 @@
-import { default as ANN } from './animenewsnetwork'
+import { default as ANN } from './animenewsnetwork';
 
-export default { ANN }
+export default { ANN };

@@ -37,7 +37,6 @@ import {
   anilistCharacterQuery,
 } from './queries';
 import { parsePostInfo } from './getComics';
-import { countDivs } from './zLibrary';
 
 export {
   USER_AGENT,
@@ -49,7 +48,6 @@ export {
   parsePostInfo,
   genElement,
   capitalizeFirstLetter,
-  countDivs,
   VidCloud,
   MixDrop,
   Kwik,

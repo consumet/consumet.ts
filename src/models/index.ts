@@ -29,7 +29,6 @@ import {
   ILightNovelChapterContent,
   GetComicsComics,
   ComicRes,
-  ZLibrary,
   IMangaChapterPage,
   TvType,
   IMovieEpisode,
@@ -47,7 +46,7 @@ import {
   MediaFormat,
   ProxyConfig,
 } from './types';
-import { LibgenBookObject, GetComicsComicsObject, ZLibraryObject } from './type-objects';
+import { LibgenBookObject, GetComicsComicsObject } from './type-objects';
 
 export {
   BaseProvider,
@@ -80,8 +79,6 @@ export {
   GetComicsComics,
   GetComicsComicsObject,
   ComicRes,
-  ZLibrary,
-  ZLibraryObject,
   ISearch,
   IMangaChapterPage,
   TvType,

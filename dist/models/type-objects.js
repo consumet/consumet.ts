@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.ZLibraryObject = exports.GetComicsComicsObject = exports.LibgenBookObject = void 0;
+exports.GetComicsComicsObject = exports.LibgenBookObject = void 0;
 class LibgenBookObject {
     constructor() {
         this.title = '';
@@ -54,26 +54,4 @@ class GetComicsComicsObject {
     }
 }
 exports.GetComicsComicsObject = GetComicsComicsObject;
-class ZLibraryObject {
-    constructor() {
-        this.bookRating = '';
-        this.bookQuality = '';
-        this.description = '';
-        this.title = '';
-        this.authors = [];
-        this.publisher = '';
-        this.year = '';
-        this.edition = '';
-        this.volume = '';
-        this.series = '';
-        this.isbn = [];
-        this.link = '';
-        this.id = '';
-        this.language = '';
-        this.size = '';
-        this.pages = '';
-        this.image = '';
-    }
-}
-exports.ZLibraryObject = ZLibraryObject;
 //# sourceMappingURL=type-objects.js.map
