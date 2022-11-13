@@ -64,7 +64,7 @@ class MangaDex extends MangaParser {
       for (const id of res.data.chapter.data) {
         pages.push({
           img: `${res.data.baseUrl}/data/${res.data.chapter.hash}/${id}`,
-          page: parseInt(/x(.*)-/g.exec(id)![1]),
+          page: parseInt(id.split('-')[0]),
         });
       }
       return pages;
@@ -151,12 +151,5 @@ class MangaDex extends MangaParser {
     return fileName;
   };
 }
-
-(async () => {
-  const mangadex = new MangaDex();
-
-  const pages = await mangadex.fetchChapterPages('e1bdc8ef-54fa-499f-8553-0aef745e1230');
-  console.log(pages);
-})();
 
 export default MangaDex;
