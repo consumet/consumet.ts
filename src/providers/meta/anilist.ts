@@ -44,7 +44,6 @@ import Mangasee123 from '../manga/mangasee123';
 import Crunchyroll from '../anime/crunchyroll';
 import Bilibili from '../anime/bilibili';
 import { compareTwoStrings } from '../../utils/utils';
-import AnimePahe from '../anime/animepahe';
 
 class Anilist extends AnimeParser {
   override readonly name = 'Anilist';
@@ -58,14 +57,18 @@ class Anilist extends AnimeParser {
   private readonly enimeUrl = 'https://api.enime.moe';
   provider: AnimeParser;
 
+  
+
   /**
    * This class maps anilist to kitsu with any other anime provider.
    * kitsu is used for episode images, titles and description.
    * @param provider anime provider (optional) default: Gogoanime
+   * @param proxy proxy config (optional) default: null
    */
   constructor(provider?: AnimeParser, public proxyConfig?: ProxyConfig) {
     super();
     this.provider = provider || new Gogoanime();
+    this.proxyUrl = proxyConfig?.url;
   }
 
   /**
@@ -99,8 +102,8 @@ class Anilist extends AnimeParser {
 
     try {
       let { data, status } = await axios.post(
-        typeof this.proxyConfig != 'undefined'
-          ? `${this.proxyConfig.url}/?url=${this.anilistGraphqlUrl}`
+        typeof this.proxyUrl != 'undefined'
+          ? `${this.proxyUrl}/${this.anilistGraphqlUrl}`
           : this.anilistGraphqlUrl,
         typeof this.proxyConfig == 'undefined' ? options : options.body,
         typeof this.proxyConfig == 'undefined'
@@ -239,7 +242,7 @@ class Anilist extends AnimeParser {
     }
 
     try {
-      let { data, status } = await axios.post(this.anilistGraphqlUrl, options, {
+      let { data, status } = await axios.post(this.proxyUrl ? this.proxyUrl + this.anilistGraphqlUrl : this.anilistGraphqlUrl, options, {
         validateStatus: () => true,
       });
 
@@ -346,7 +349,7 @@ class Anilist extends AnimeParser {
 
     let fillerEpisodes: { number: string; 'filler-bool': boolean }[];
     try {
-      let { data, status } = await axios.post(this.anilistGraphqlUrl, options, {
+      let { data, status } = await axios.post(this.proxyUrl ? this.proxyUrl +this.anilistGraphqlUrl : this.anilistGraphqlUrl, options, {
         validateStatus: () => true,
       });
 
@@ -865,7 +868,7 @@ class Anilist extends AnimeParser {
     };
 
     try {
-      const { data } = await axios.post(this.anilistGraphqlUrl, options);
+      const { data } = await axios.post(this.proxyUrl ? this.proxyUrl +this.anilistGraphqlUrl :this.anilistGraphqlUrl, options);
 
       const res: ISearch<IAnimeResult> = {
         currentPage: data.data.Page.pageInfo.currentPage,
@@ -931,7 +934,7 @@ class Anilist extends AnimeParser {
     };
 
     try {
-      const { data } = await axios.post(this.anilistGraphqlUrl, options);
+      const { data } = await axios.post(this.proxyUrl ? this.proxyUrl +this.anilistGraphqlUrl : this.anilistGraphqlUrl, options);
 
       const res: ISearch<IAnimeResult> = {
         currentPage: data.data.Page.pageInfo.currentPage,
@@ -1019,7 +1022,7 @@ class Anilist extends AnimeParser {
     };
 
     try {
-      const { data } = await axios.post(this.anilistGraphqlUrl, options);
+      const { data } = await axios.post(this.proxyUrl ? this.proxyUrl +this.anilistGraphqlUrl : this.anilistGraphqlUrl, options);
 
       const res: ISearch<IAnimeResult> = {
         currentPage: data.data.Page.pageInfo.currentPage,
@@ -1078,7 +1081,7 @@ class Anilist extends AnimeParser {
       query: anilistGenresQuery(genres, page, perPage),
     };
     try {
-      const { data } = await axios.post(this.anilistGraphqlUrl, options);
+      const { data } = await axios.post(this.proxyUrl ? this.proxyUrl +this.anilistGraphqlUrl : this.anilistGraphqlUrl, options);
 
       const res: ISearch<IAnimeResult> = {
         currentPage: data.data.Page.pageInfo.currentPage,
@@ -1294,7 +1297,7 @@ class Anilist extends AnimeParser {
       data: {
         data: { Media },
       },
-    } = await axios.post(this.anilistGraphqlUrl, options);
+    } = await axios.post(this.proxyUrl ? this.proxyUrl +this.anilistGraphqlUrl : this.anilistGraphqlUrl, options);
 
     let possibleAnimeEpisodes: IAnimeEpisode[] = [];
     let fillerEpisodes: { number: string; 'filler-bool': boolean }[] = [];
@@ -1378,7 +1381,7 @@ class Anilist extends AnimeParser {
     };
 
     try {
-      const { data } = await axios.post(this.anilistGraphqlUrl, options).catch(() => {
+      const { data } = await axios.post(this.proxyUrl ? this.proxyUrl +this.anilistGraphqlUrl : this.anilistGraphqlUrl, options).catch(() => {
         throw new Error('Media not found');
       });
       animeInfo.malId = data.data.Media.idMal;
@@ -1581,7 +1584,7 @@ class Anilist extends AnimeParser {
         data: {
           data: { Character },
         },
-      } = await axios.post(this.anilistGraphqlUrl, options);
+      } = await axios.post(this.proxyUrl ? this.proxyUrl +this.anilistGraphqlUrl: this.anilistGraphqlUrl, options);
 
       const height = Character.description.match(/__Height:__(.*)/)?.[1].trim();
       const weight = Character.description.match(/__Weight:__(.*)/)?.[1].trim();
@@ -2046,17 +2049,6 @@ class Anilist extends AnimeParser {
   };
 }
 
-// (async () => {
-//   const ani = new Anilist(new AnimePahe());
-//   console.time('fetch');
-//   let res: any
-//   for (let i = 0; i < 1; i++) {
-//      res = await ani.fetchAnimeInfo('6325');
-//  }
-
-//   console.log(res);
-//   console.timeEnd('fetch');
-// })();
 
 // (async () => {
 //   const ani = new Anilist(
