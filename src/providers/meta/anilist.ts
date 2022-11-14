@@ -44,6 +44,7 @@ import Mangasee123 from '../manga/mangasee123';
 import Crunchyroll from '../anime/crunchyroll';
 import Bilibili from '../anime/bilibili';
 import { compareTwoStrings } from '../../utils/utils';
+import AnimePahe from '../anime/animepahe';
 
 class Anilist extends AnimeParser {
   override readonly name = 'Anilist';
@@ -430,6 +431,8 @@ class Anilist extends AnimeParser {
       animeInfo.season = data.data.Media.season;
       animeInfo.studios = data.data.Media.studios.edges.map((item: any) => item.node.name);
       animeInfo.subOrDub = dub ? SubOrSub.DUB : SubOrSub.SUB;
+      animeInfo.hasSub = dub ? false : true;
+      animeInfo.hasDub = dub ? true : false;
       animeInfo.type = data.data.Media.format;
       animeInfo.recommendations = data.data.Media?.recommendations?.edges?.map((item: any) => ({
         id: item.node.mediaRecommendation?.id,
@@ -2044,10 +2047,10 @@ class Anilist extends AnimeParser {
 }
 
 // (async () => {
-//   const ani = new Anilist();
+//   const ani = new Anilist(new AnimePahe());
 //   console.time('fetch');
 //   let res: any
-//   for (let i = 0; i < 20; i++) {
+//   for (let i = 0; i < 1; i++) {
 //      res = await ani.fetchAnimeInfo('6325');
 //  }
 
