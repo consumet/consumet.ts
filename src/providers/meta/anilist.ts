@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios from 'axios'
 
 import {
   AnimeParser,
@@ -107,13 +107,13 @@ class Anilist extends AnimeParser {
           : { headers: options.headers, validateStatus: () => true }
       );
 
-      if (status >= 500) data = await new Enime().rawSearch(query, page, perPage);
+      if (status >= 500 || status == 429) data = await new Enime().rawSearch(query, page, perPage);
 
       const res: ISearch<IAnimeResult> = {
-        currentPage: data.data.Page?.pageInfo?.currentPage ?? data.meta.currentPage,
-        hasNextPage: data.data.Page?.pageInfo?.hasNextPage ?? data.meta.currentPage != data.meta.lastPage,
+        currentPage: data.data!.Page?.pageInfo?.currentPage ?? data.meta?.currentPage,
+        hasNextPage: data.data!.Page?.pageInfo?.hasNextPage ?? data.meta?.currentPage != data.meta?.lastPage,
         results:
-          data.data.Page?.media?.map((item: any) => ({
+          data.data?.Page?.media?.map((item: any) => ({
             id: item.id.toString(),
             malId: item.idMal,
             title:
@@ -148,7 +148,7 @@ class Anilist extends AnimeParser {
           })) ??
           data.data.map((item: any) => ({
             id: item.anilistId.toString(),
-            malId: item.mappings['mal'],
+            malId: item.mappings!['mal']!,
             title: item.title,
             status:
               item.status == 'RELEASING'
@@ -349,13 +349,13 @@ class Anilist extends AnimeParser {
         validateStatus: () => true,
       });
 
-      if (status == 426) throw new Error('Please wait for a few minutes before trying again');
+      if (status == 429) throw new Error('Anilist seems to have some issues. Please try again later.');
       // if (status >= 500) throw new Error('Anilist seems to be down. Please try again later');
-      if (status != 200 && status < 426)
+      if (status != 200 && status < 429)
         throw Error('Media not found. If the problem persists, please contact the developer');
       if (status >= 500) data = await new Enime().fetchAnimeInfoByIdRaw(id);
 
-      animeInfo.malId = data.data?.Media?.idMal ?? data?.mappings['mal'];
+      animeInfo.malId = data.data?.Media?.idMal ?? data?.mappings!['mal'];
       animeInfo.title = data.data.Media
         ? {
             romaji: data.data.Media.title.romaji,
@@ -2044,15 +2044,13 @@ class Anilist extends AnimeParser {
 }
 
 // (async () => {
-//   const ani = new Anilist(
-//     await Crunchyroll.create(
-//       undefined,
-//       'O+xmBPFx1UxoAiQYjDc9YYq01SdCZo1ABBoHDrNuIScEIKmYfIZoj57l1xeoLWGW3R2ZlxPlyqUf5R3hWzx+xSQnmPyk3GoUIFF19P0oCqp2B9ivNhtYiqir06rBK71mRzIjVUCmN3C7MvQUhH82QQhiUPhOY962XyXwVpfRNIQ=',
-//       undefined
-//     )
-//   );
+//   const ani = new Anilist();
 //   console.time('fetch');
-//   const res = await ani.fetchAnimeInfo('98659');
+//   let res: any
+//   for (let i = 0; i < 20; i++) {
+//      res = await ani.fetchAnimeInfo('6325');
+//  }
+
 //   console.log(res);
 //   console.timeEnd('fetch');
 // })();

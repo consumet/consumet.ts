@@ -37,7 +37,7 @@ class Anilist extends models_1.AnimeParser {
          * @param perPage Number of results per page (optional) (default: 15) (max: 50)
          */
         this.search = async (query, page = 1, perPage = 15) => {
-            var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m;
+            var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r;
             const options = Object.assign({ headers: Object.assign({ 'Content-Type': 'application/json', Accept: 'application/json' }, Object.values([
                     typeof ((_b = this.proxyConfig) === null || _b === void 0 ? void 0 : _b.key) != 'undefined' ? { 'x-api-key': (_c = this.proxyConfig) === null || _c === void 0 ? void 0 : _c.key } : undefined,
                 ])[0]) }, Object.values([
@@ -55,12 +55,12 @@ class Anilist extends models_1.AnimeParser {
                     : this.anilistGraphqlUrl, typeof this.proxyConfig == 'undefined' ? options : options.body, typeof this.proxyConfig == 'undefined'
                     ? { validateStatus: () => true }
                     : { headers: options.headers, validateStatus: () => true });
-                if (status >= 500)
+                if (status >= 500 || status == 429)
                     data = await new enime_1.default().rawSearch(query, page, perPage);
                 const res = {
-                    currentPage: (_f = (_e = (_d = data.data.Page) === null || _d === void 0 ? void 0 : _d.pageInfo) === null || _e === void 0 ? void 0 : _e.currentPage) !== null && _f !== void 0 ? _f : data.meta.currentPage,
-                    hasNextPage: (_j = (_h = (_g = data.data.Page) === null || _g === void 0 ? void 0 : _g.pageInfo) === null || _h === void 0 ? void 0 : _h.hasNextPage) !== null && _j !== void 0 ? _j : data.meta.currentPage != data.meta.lastPage,
-                    results: (_m = (_l = (_k = data.data.Page) === null || _k === void 0 ? void 0 : _k.media) === null || _l === void 0 ? void 0 : _l.map((item) => {
+                    currentPage: (_f = (_e = (_d = data.data.Page) === null || _d === void 0 ? void 0 : _d.pageInfo) === null || _e === void 0 ? void 0 : _e.currentPage) !== null && _f !== void 0 ? _f : (_g = data.meta) === null || _g === void 0 ? void 0 : _g.currentPage,
+                    hasNextPage: (_k = (_j = (_h = data.data.Page) === null || _h === void 0 ? void 0 : _h.pageInfo) === null || _j === void 0 ? void 0 : _j.hasNextPage) !== null && _k !== void 0 ? _k : ((_l = data.meta) === null || _l === void 0 ? void 0 : _l.currentPage) != ((_m = data.meta) === null || _m === void 0 ? void 0 : _m.lastPage),
+                    results: (_r = (_q = (_p = (_o = data.data) === null || _o === void 0 ? void 0 : _o.Page) === null || _p === void 0 ? void 0 : _p.media) === null || _q === void 0 ? void 0 : _q.map((item) => {
                         var _b, _c, _d, _e, _f, _g, _h, _j;
                         return ({
                             id: item.id.toString(),
@@ -93,7 +93,7 @@ class Anilist extends models_1.AnimeParser {
                             type: item.format,
                             releaseDate: item.seasonYear,
                         });
-                    })) !== null && _m !== void 0 ? _m : data.data.map((item) => {
+                    })) !== null && _r !== void 0 ? _r : data.data.map((item) => {
                         var _b;
                         return ({
                             id: item.anilistId.toString(),
@@ -278,10 +278,10 @@ class Anilist extends models_1.AnimeParser {
                 let { data, status } = await axios_1.default.post(this.anilistGraphqlUrl, options, {
                     validateStatus: () => true,
                 });
-                if (status == 426)
-                    throw new Error('Please wait for a few minutes before trying again');
+                if (status == 429)
+                    throw new Error('Anilist seems to have some issues. Please try again later.');
                 // if (status >= 500) throw new Error('Anilist seems to be down. Please try again later');
-                if (status != 200 && status < 426)
+                if (status != 200 && status < 429)
                     throw Error('Media not found. If the problem persists, please contact the developer');
                 if (status >= 500)
                     data = await new enime_1.default().fetchAnimeInfoByIdRaw(id);
@@ -1727,15 +1727,12 @@ Anilist.Manga = class Manga {
     }
 };
 // (async () => {
-//   const ani = new Anilist(
-//     await Crunchyroll.create(
-//       undefined,
-//       'O+xmBPFx1UxoAiQYjDc9YYq01SdCZo1ABBoHDrNuIScEIKmYfIZoj57l1xeoLWGW3R2ZlxPlyqUf5R3hWzx+xSQnmPyk3GoUIFF19P0oCqp2B9ivNhtYiqir06rBK71mRzIjVUCmN3C7MvQUhH82QQhiUPhOY962XyXwVpfRNIQ=',
-//       undefined
-//     )
-//   );
+//   const ani = new Anilist();
 //   console.time('fetch');
-//   const res = await ani.fetchAnimeInfo('98659');
+//   let res: any
+//   for (let i = 0; i < 20; i++) {
+//      res = await ani.fetchAnimeInfo('6325');
+//  }
 //   console.log(res);
 //   console.timeEnd('fetch');
 // })();

@@ -47,9 +47,8 @@ class MangaDex extends models_1.MangaParser {
                 return mangaInfo;
             }
             catch (err) {
-                if (err.code == 'ERR_BAD_REQUEST') {
-                    throw new Error('Bad request. Make sure you have entered a valid query.');
-                }
+                if (err.code == 'ERR_BAD_REQUEST')
+                    throw new Error(`[${this.name}] Bad request. Make sure you have entered a valid query.`);
                 throw new Error(err.message);
             }
         };
@@ -63,7 +62,7 @@ class MangaDex extends models_1.MangaParser {
                 for (const id of res.data.chapter.data) {
                     pages.push({
                         img: `${res.data.baseUrl}/data/${res.data.chapter.hash}/${id}`,
-                        page: parseInt(id.split('-')[0]),
+                        page: parseInt(/x(.*)-/g.exec(id)[1]),
                     });
                 }
                 return pages;
