@@ -11,6 +11,7 @@ import {
   IAnimeEpisode,
   IEpisodeServer,
   MediaFormat,
+  SubOrSub,
 } from '../../models';
 import { Kwik } from '../../utils';
 
@@ -72,6 +73,9 @@ class AnimePahe extends AnimeParser {
       animeInfo.image = $('header > div > div > div > a > img').attr('data-src');
       animeInfo.cover = `https:${$('body > section > article > div.header-wrapper > div').attr('data-src')}`;
       animeInfo.description = $('div.col-sm-8.anime-summary > div').text();
+      animeInfo.subOrDub = SubOrSub.SUB
+      animeInfo.hasSub = true;
+      animeInfo.hasDub = false;
       animeInfo.genres = $('div.col-sm-4.anime-info > div > ul > li')
         .map((i, el) => $(el).find('a').attr('title'))
         .get();

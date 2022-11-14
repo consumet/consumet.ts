@@ -4,6 +4,7 @@ import axios, { AxiosError, AxiosResponse } from 'axios';
 import { IMangaChapterPage, IMangaInfo, IMangaResult, ISearch, MangaParser, MediaStatus } from '../../models';
 import { capitalizeFirstLetter } from '../../utils';
 
+
 class MangaDex extends MangaParser {
   override readonly name = 'MangaDex';
   protected override baseUrl = 'https://mangadex.org';
@@ -45,9 +46,8 @@ class MangaDex extends MangaParser {
 
       return mangaInfo;
     } catch (err) {
-      if ((err as AxiosError).code == 'ERR_BAD_REQUEST') {
-        throw new Error('Bad request. Make sure you have entered a valid query.');
-      }
+      if ((err as AxiosError).code == 'ERR_BAD_REQUEST') throw new Error(`[${this.name}] Bad request. Make sure you have entered a valid query.`);
+      
 
       throw new Error((err as Error).message);
     }
@@ -151,12 +151,5 @@ class MangaDex extends MangaParser {
     return fileName;
   };
 }
-
-(async () => {
-  const mangadex = new MangaDex();
-
-  const pages = await mangadex.fetchChapterPages('e1bdc8ef-54fa-499f-8553-0aef745e1230');
-  console.log(pages);
-})();
 
 export default MangaDex;
