@@ -137,6 +137,7 @@ export interface IVideo {
 }
 
 export enum StreamingServers {
+  AsianLoad = 'asianload',
   GogoCDN = 'gogocdn',
   StreamSB = 'streamsb',
   MixDrop = 'mixdrop',

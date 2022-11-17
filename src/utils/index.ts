@@ -10,6 +10,7 @@ import {
   Filemoon,
   Vrv,
   BilibiliExtractor,
+  AsianLoad,
 } from './extractors';
 import {
   USER_AGENT,
@@ -72,4 +73,5 @@ export {
   isJson,
   convertDuration,
   BilibiliExtractor,
+  AsianLoad,
 };

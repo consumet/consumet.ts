@@ -27,7 +27,7 @@ export const PROVIDERS_LIST = {
   BOOKS: [new BOOKS.Libgen()],
   COMICS: [new COMICS.GetComics()],
   LIGHT_NOVELS: [new LIGHT_NOVELS.ReadLightNovels()],
-  MOVIES: [new MOVIES.FlixHQ()],
+  MOVIES: [new MOVIES.FlixHQ(), new MOVIES.ViewAsian()],
   NEWS: [new NEWS.ANN()],
   META: [new META.Anilist()],
   OTHERS: [],
