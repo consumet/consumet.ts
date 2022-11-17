@@ -63,7 +63,7 @@ class ViewAsian extends MovieParser {
     }
   };
 
-  override fetchMediaInfo = async (mediaId: string) => {
+  override fetchMediaInfo = async (mediaId: string): Promise<IMovieInfo> => {
     const realMediaId = mediaId;
     if (!mediaId.startsWith(this.baseUrl))
       mediaId = `${this.baseUrl}/watch/${mediaId.split('/').slice(1)}/watching.html`;
@@ -174,13 +174,5 @@ class ViewAsian extends MovieParser {
     throw new Error('Method not implemented.');
   }
 }
-
-(async () => {
-  const movie = new ViewAsian();
-  const search = await movie.search('vincenzo');
-  const movieInfo = await movie.fetchMediaInfo(search.results[0].id);
-  const sources = await movie.fetchEpisodeSources(movieInfo.episodes![0].id);
-  console.log(sources);
-})();
 
 export default ViewAsian;

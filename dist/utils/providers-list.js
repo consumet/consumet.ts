@@ -29,7 +29,7 @@ exports.PROVIDERS_LIST = {
     BOOKS: [new providers_1.BOOKS.Libgen()],
     COMICS: [new providers_1.COMICS.GetComics()],
     LIGHT_NOVELS: [new providers_1.LIGHT_NOVELS.ReadLightNovels()],
-    MOVIES: [new providers_1.MOVIES.FlixHQ()],
+    MOVIES: [new providers_1.MOVIES.FlixHQ(), new providers_1.MOVIES.ViewAsian()],
     NEWS: [new providers_1.NEWS.ANN()],
     META: [new providers_1.META.Anilist()],
     OTHERS: [],

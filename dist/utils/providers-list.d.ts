@@ -9,7 +9,7 @@ export declare const PROVIDERS_LIST: {
     BOOKS: import("../providers/books/libgen").default[];
     COMICS: import("../providers/comics/getComics").default[];
     LIGHT_NOVELS: import("../providers/light-novels/readlightnovels").default[];
-    MOVIES: import("../providers/movies/flixhq").default[];
+    MOVIES: (import("../providers/movies/flixhq").default | import("../providers/movies/viewAsian").default)[];
     NEWS: import("../providers/news/animenewsnetwork").default[];
     META: import("../providers/meta/anilist").default[];
     OTHERS: never[];
