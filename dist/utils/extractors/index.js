@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.BilibiliExtractor = exports.Vrv = exports.Filemoon = exports.VizCloud = exports.StreamTape = exports.RapidCloud = exports.Kwik = exports.MixDrop = exports.VidCloud = exports.StreamSB = exports.GogoCDN = void 0;
+exports.AsianLoad = exports.BilibiliExtractor = exports.Vrv = exports.Filemoon = exports.VizCloud = exports.StreamTape = exports.RapidCloud = exports.Kwik = exports.MixDrop = exports.VidCloud = exports.StreamSB = exports.GogoCDN = void 0;
 const gogocdn_1 = __importDefault(require("./gogocdn"));
 exports.GogoCDN = gogocdn_1.default;
 const streamsb_1 = __importDefault(require("./streamsb"));
@@ -26,4 +26,6 @@ const vrv_1 = __importDefault(require("./vrv"));
 exports.Vrv = vrv_1.default;
 const bilibili_1 = __importDefault(require("./bilibili"));
 exports.BilibiliExtractor = bilibili_1.default;
+const asianload_1 = __importDefault(require("./asianload"));
+exports.AsianLoad = asianload_1.default;
 //# sourceMappingURL=index.js.map
