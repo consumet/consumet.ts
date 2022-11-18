@@ -25,6 +25,7 @@ class Gogoanime extends AnimeParser {
 
   private readonly ajaxUrl = 'https://ajax.gogo-load.com/ajax';
 
+
   /**
    *
    * @param query search query string

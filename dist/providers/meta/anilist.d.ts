@@ -14,6 +14,7 @@ declare class Anilist extends AnimeParser {
      * This class maps anilist to kitsu with any other anime provider.
      * kitsu is used for episode images, titles and description.
      * @param provider anime provider (optional) default: Gogoanime
+     * @param proxy proxy config (optional) default: null
      */
     constructor(provider?: AnimeParser, proxyConfig?: ProxyConfig | undefined);
     /**

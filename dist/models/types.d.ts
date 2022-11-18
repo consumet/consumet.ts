@@ -64,7 +64,12 @@ export interface IAnimeInfo extends IAnimeResult {
     description?: string;
     status?: MediaStatus;
     totalEpisodes?: number;
+    /**
+     * @deprecated use `hasSub` or `hasDub` instead
+     */
     subOrDub?: SubOrSub;
+    hasSub?: boolean;
+    hasDub?: boolean;
     synonyms?: string[];
     /**
      * two letter representation of coutnry: e.g JP for japan
