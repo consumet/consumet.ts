@@ -91,7 +91,7 @@ class ViewAsian extends MovieParser {
       //   mediaInfo.status = $('.mvic-info p:contains(Status)').text().replace('Status: ', '').trim();
       mediaInfo.director = $('.mvic-info p:contains(Director)').text().replace('Director: ', '').trim();
       mediaInfo.country = $('.mvic-info p:contains(Country) a').text().trim();
-      mediaInfo.release = $('.mvic-info p:contains(Release)').text().replace('Release: ', '').trim();
+      mediaInfo.releaseDate = $('.mvic-info p:contains(Release)').text().replace('Release: ', '').trim();
 
       mediaInfo.episodes = [];
       $('ul#episodes-sv-1 li').each((i, el) => {
