@@ -77,7 +77,7 @@ output:
     ],
     director: 'Kim Hee Won [김희원]',
     country: 'Korean',
-    release: '2021',
+    releaseDate: '2021',
     episodes: [
         {
             id: '/watch/vincenzo/watching.html$episode$20',
