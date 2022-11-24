@@ -8,10 +8,13 @@ class Kwik extends VideoExtractor {
   protected override sources: IVideo[] = [];
 
   private readonly host = 'https://animepahe.com';
+  private readonly sgProxy = 'https://cors.proxy.consumet.org';
 
   override extract = async (videoUrl: URL): Promise<IVideo[]> => {
     try {
-      const { data } = await axios.get(videoUrl.href, { headers: { Referer: this.host } });
+      const { data } = await axios.get(`${this.sgProxy}/${videoUrl.href}`, {
+        headers: { Referer: this.host },
+      });
 
       const match = load(data)
         .html()

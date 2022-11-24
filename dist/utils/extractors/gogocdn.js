@@ -1,13 +1,4 @@
 "use strict";
-var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
-    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
-    return new (P || (P = Promise))(function (resolve, reject) {
-        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
-        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-    });
-};
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
@@ -28,22 +19,22 @@ class GogoCDN extends models_1.VideoExtractor {
             iv: crypto_js_1.default.enc.Utf8.parse('3134003223491201'),
         };
         this.referer = '';
-        this.extract = (videoUrl) => __awaiter(this, void 0, void 0, function* () {
+        this.extract = async (videoUrl) => {
             var _a;
             this.referer = videoUrl.href;
-            const res = yield axios_1.default.get(videoUrl.href);
+            const res = await axios_1.default.get(videoUrl.href);
             const $ = (0, cheerio_1.load)(res.data);
-            const encyptedParams = yield this.generateEncryptedAjaxParams($, (_a = videoUrl.searchParams.get('id')) !== null && _a !== void 0 ? _a : '');
-            const encryptedData = yield axios_1.default.get(`${videoUrl.protocol}//${videoUrl.hostname}/encrypt-ajax.php?${encyptedParams}`, {
+            const encyptedParams = await this.generateEncryptedAjaxParams($, (_a = videoUrl.searchParams.get('id')) !== null && _a !== void 0 ? _a : '');
+            const encryptedData = await axios_1.default.get(`${videoUrl.protocol}//${videoUrl.hostname}/encrypt-ajax.php?${encyptedParams}`, {
                 headers: {
                     'X-Requested-With': 'XMLHttpRequest',
                 },
             });
-            const decryptedData = yield this.decryptAjaxData(encryptedData.data.data);
+            const decryptedData = await this.decryptAjaxData(encryptedData.data.data);
             if (!decryptedData.source)
                 throw new Error('No source found. Try a different server.');
             if (decryptedData.source[0].file.includes('.m3u8')) {
-                const resResult = yield axios_1.default.get(decryptedData.source[0].file.toString());
+                const resResult = await axios_1.default.get(decryptedData.source[0].file.toString());
                 const resolutions = resResult.data.match(/(RESOLUTION=)(.*)(\s*?)(\s*.*)/g);
                 resolutions.forEach((res) => {
                     var index = decryptedData.source[0].file.lastIndexOf('/');
@@ -79,10 +70,10 @@ class GogoCDN extends models_1.VideoExtractor {
                 });
             });
             return this.sources;
-        });
-        this.addSources = (source) => __awaiter(this, void 0, void 0, function* () {
+        };
+        this.addSources = async (source) => {
             if (source.file.includes('m3u8')) {
-                const m3u8Urls = yield axios_1.default
+                const m3u8Urls = await axios_1.default
                     .get(source.file, {
                     headers: {
                         Referer: this.referer,
@@ -112,8 +103,8 @@ class GogoCDN extends models_1.VideoExtractor {
                 url: source.file,
                 isM3U8: source.file.includes('.m3u8'),
             });
-        });
-        this.generateEncryptedAjaxParams = ($, id) => __awaiter(this, void 0, void 0, function* () {
+        };
+        this.generateEncryptedAjaxParams = async ($, id) => {
             const encryptedKey = crypto_js_1.default.AES.encrypt(id, this.keys.key, {
                 iv: this.keys.iv,
             });
@@ -122,13 +113,13 @@ class GogoCDN extends models_1.VideoExtractor {
                 iv: this.keys.iv,
             }).toString(crypto_js_1.default.enc.Utf8);
             return `id=${encryptedKey}&alias=${id}&${decryptedToken}`;
-        });
-        this.decryptAjaxData = (encryptedData) => __awaiter(this, void 0, void 0, function* () {
+        };
+        this.decryptAjaxData = async (encryptedData) => {
             const decryptedData = crypto_js_1.default.enc.Utf8.stringify(crypto_js_1.default.AES.decrypt(encryptedData, this.keys.secondKey, {
                 iv: this.keys.iv,
             }));
             return JSON.parse(decryptedData);
-        });
+        };
     }
 }
 exports.default = GogoCDN;

@@ -1,4 +1,4 @@
-import { BaseProvider } from '.'
+import { BaseProvider } from '.';
 
 abstract class NewsParser extends BaseProvider {}
-export default NewsParser
+export default NewsParser;

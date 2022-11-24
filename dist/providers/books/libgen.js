@@ -1,13 +1,4 @@
 "use strict";
-var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
-    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
-    return new (P || (P = Promise))(function (resolve, reject) {
-        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
-        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-    });
-};
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
@@ -36,10 +27,10 @@ class Libgen extends models_1.BookParser {
          * @param {string} bookUrl - ligen book page url
          * @returns {Promise<LibgenBook>}
          */
-        this.scrapeBook = (bookUrl) => __awaiter(this, void 0, void 0, function* () {
+        this.scrapeBook = async (bookUrl) => {
             bookUrl = encodeURIComponent(bookUrl);
             const container = new models_1.LibgenBookObject();
-            const { data } = yield get(bookUrl);
+            const { data } = await get(bookUrl);
             const $ = (0, cheerio_1.load)(data);
             let rawAuthor = '';
             $('tbody > tr:eq(10)')
@@ -214,7 +205,7 @@ class Libgen extends models_1.BookParser {
             }
             container.link = `${this.downloadIP}/main/${(0, utils_1.floorID)(container.id)}/${realLink.toLowerCase()}/${(0, ascii_url_encoder_1.encode)(`${container.series == '' ? '' : `(${container.series})`} ${rawAuthor} - ${container.title}-${container.publisher} (${container.year}).${container.format}`)}`;
             return container;
-        });
+        };
         /**
          * scrapes a libgen search page and returns an array of results
          *
@@ -222,11 +213,11 @@ class Libgen extends models_1.BookParser {
          * @param {number} [maxResults=25] - maximum number of results
          * @returns {Promise<LibgenBook[]>}
          */
-        this.search = (query, page = 1) => __awaiter(this, void 0, void 0, function* () {
+        this.search = async (query, page = 1) => {
             query = encodeURIComponent(query);
             let workingExtension = this.extensions[0];
             const containers = [];
-            const { data } = yield get(`${this.baseUrl}.rs/search.php?req=${query}&view=simple&res=25&sort=def&sortmode=ASC&page=${page}`);
+            const { data } = await get(`${this.baseUrl}.rs/search.php?req=${query}&view=simple&res=25&sort=def&sortmode=ASC&page=${page}`);
             const $ = (0, cheerio_1.load)(data);
             let rawAuthor = '';
             $('table tbody tr').each((i, e) => {
@@ -286,7 +277,7 @@ class Libgen extends models_1.BookParser {
                 if (containers[i].link == '') {
                     continue;
                 }
-                const data = yield get(containers[i].link);
+                const data = await get(containers[i].link);
                 const $ = (0, cheerio_1.load)(data.data);
                 let tempTitle = '';
                 let tempVolume = '';
@@ -404,7 +395,7 @@ class Libgen extends models_1.BookParser {
                     ? true
                     : false,
             };
-        });
+        };
     }
 }
 exports.default = Libgen;

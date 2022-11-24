@@ -1,13 +1,4 @@
 "use strict";
-var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
-    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
-    return new (P || (P = Promise))(function (resolve, reject) {
-        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
-        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-    });
-};
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
@@ -26,13 +17,21 @@ class Enime extends models_1.AnimeParser {
          * @param query Search query
          * @param page Page number (optional)
          */
-        this.search = (query, page = 1, perPage = 15) => __awaiter(this, void 0, void 0, function* () {
+        this.rawSearch = async (query, page = 1, perPage = 15) => {
+            const { data } = await axios_1.default.get(`${this.enimeApi}/search/${query}?page=${page}&perPage=${perPage}`);
+            return data;
+        };
+        /**
+         * @param query Search query
+         * @param page Page number (optional)
+         */
+        this.search = async (query, page = 1, perPage = 15) => {
             const res = {
                 currentPage: page,
                 hasNextPage: false,
                 results: [],
             };
-            const { data } = yield axios_1.default.get(`${this.enimeApi}/search/${query}?page=${page}&perPage=${perPage}`);
+            const { data } = await axios_1.default.get(`${this.enimeApi}/search/${query}?page=${page}&perPage=${perPage}`);
             if (data.currentPage !== res.currentPage)
                 res.hasNextPage = true;
             res.results = data.data.map((anime) => {
@@ -54,17 +53,17 @@ class Enime extends models_1.AnimeParser {
                 });
             });
             return res;
-        });
+        };
         /**
          * @param id Anime id
          */
-        this.fetchAnimeInfo = (id) => __awaiter(this, void 0, void 0, function* () {
+        this.fetchAnimeInfo = async (id) => {
             var _a, _b;
             const animeInfo = {
                 id: id,
                 title: '',
             };
-            const { data } = yield axios_1.default.get(`${this.enimeApi}/anime/${id}`).catch(() => {
+            const { data } = await axios_1.default.get(`${this.enimeApi}/anime/${id}`).catch(() => {
                 throw new Error('Anime not found');
             });
             animeInfo.anilistId = data.anilistId;
@@ -90,22 +89,28 @@ class Enime extends models_1.AnimeParser {
                 title: episode.title,
             }));
             return animeInfo;
-        });
+        };
+        this.fetchAnimeInfoByIdRaw = async (id) => {
+            const { data } = await axios_1.default.get(`${this.enimeApi}/mapping/anilist/${id}`).catch(err => {
+                throw new Error("Backup api seems to be down! Can't fetch anime info");
+            });
+            return data;
+        };
         /**
          * @param id anilist id
          */
-        this.fetchAnimeInfoByAnilistId = (id, type) => __awaiter(this, void 0, void 0, function* () {
-            var _c, _d;
+        this.fetchAnimeInfoByAnilistId = async (id, type) => {
+            var _a, _b;
             const animeInfo = {
                 id: id,
                 title: '',
             };
-            const { data } = yield axios_1.default.get(`${this.enimeApi}/mapping/anilist/${id}`).catch(err => {
+            const { data } = await axios_1.default.get(`${this.enimeApi}/mapping/anilist/${id}`).catch(err => {
                 throw new Error(err);
             });
             animeInfo.anilistId = data.anilistId;
             animeInfo.malId = data.mappings.mal;
-            animeInfo.title = (_d = (_c = data.title.english) !== null && _c !== void 0 ? _c : data.title.romaji) !== null && _d !== void 0 ? _d : data.title.native;
+            animeInfo.title = (_b = (_a = data.title.english) !== null && _a !== void 0 ? _a : data.title.romaji) !== null && _b !== void 0 ? _b : data.title.native;
             animeInfo.image = data.coverImage;
             animeInfo.cover = data.bannerImage;
             animeInfo.season = data.season;
@@ -130,33 +135,33 @@ class Enime extends models_1.AnimeParser {
             else
                 throw new Error('Anime not found on Enime');
             animeInfo.episodes = data.episodes.map((episode) => {
-                var _a, _b;
+                var _a, _b, _c;
                 return ({
                     id: episode.id,
-                    slug: (_a = episode.sources
-                        .find((source) => useType === 'zoro' ? source.target.includes('?ep=') : source.target.includes('episode'))) === null || _a === void 0 ? void 0 : _a.target.split('/').pop().replace('?ep=', '$episode$'),
+                    slug: (_b = (_a = episode.sources
+                        .find((source) => useType === 'zoro' ? source.target.includes('?ep=') : source.target.includes('episode'))) === null || _a === void 0 ? void 0 : _a.target.split('/').pop().replace('?ep=', '$episode$')) === null || _b === void 0 ? void 0 : _b.concat(useType === 'zoro' ? '$sub' : ''),
                     description: episode.description,
                     number: episode.number,
                     title: episode.title,
-                    image: (_b = episode === null || episode === void 0 ? void 0 : episode.image) !== null && _b !== void 0 ? _b : animeInfo.image,
+                    image: (_c = episode === null || episode === void 0 ? void 0 : episode.image) !== null && _c !== void 0 ? _c : animeInfo.image,
                 });
             });
             return animeInfo;
-        });
-        this.fetchEpisodeSources = (episodeId, ...args) => __awaiter(this, void 0, void 0, function* () {
+        };
+        this.fetchEpisodeSources = async (episodeId, ...args) => {
             if (episodeId.includes('enime'))
                 return this.fetchSourceFromSourceId(episodeId.replace('-enime', ''));
             return this.fetchSourceFromEpisodeId(episodeId);
-        });
-        this.fetchSourceFromEpisodeId = (episodeId) => __awaiter(this, void 0, void 0, function* () {
+        };
+        this.fetchSourceFromEpisodeId = async (episodeId) => {
             const res = {
                 headers: {},
                 sources: [],
             };
-            const { data } = yield axios_1.default.get(`${this.enimeApi}/episode/${episodeId}`);
-            const { data: { url, referer }, } = yield axios_1.default.get(`${this.enimeApi}/source/${data.sources[0].id}`);
+            const { data } = await axios_1.default.get(`${this.enimeApi}/episode/${episodeId}`);
+            const { data: { url, referer }, } = await axios_1.default.get(`${this.enimeApi}/source/${data.sources[0].id}`);
             res.headers['Referer'] = referer;
-            const resResult = yield axios_1.default.get(url);
+            const resResult = await axios_1.default.get(url);
             const resolutions = resResult.data.match(/(RESOLUTION=)(.*)(\s*?)(\s*.*)/g);
             resolutions.forEach((ress) => {
                 var index = url.lastIndexOf('/');
@@ -174,15 +179,15 @@ class Enime extends models_1.AnimeParser {
                 quality: 'default',
             });
             return res;
-        });
-        this.fetchSourceFromSourceId = (sourceId) => __awaiter(this, void 0, void 0, function* () {
+        };
+        this.fetchSourceFromSourceId = async (sourceId) => {
             const res = {
                 headers: {},
                 sources: [],
             };
-            const { data: { url, referer }, } = yield axios_1.default.get(`${this.enimeApi}/source/${sourceId}`);
+            const { data: { url, referer }, } = await axios_1.default.get(`${this.enimeApi}/source/${sourceId}`);
             res.headers['Referer'] = referer;
-            const resResult = yield axios_1.default.get(url).catch(() => {
+            const resResult = await axios_1.default.get(url).catch(() => {
                 throw new Error('Source not found');
             });
             const resolutions = resResult.data.match(/(RESOLUTION=)(.*)(\s*?)(\s*.*)/g);
@@ -202,7 +207,7 @@ class Enime extends models_1.AnimeParser {
                 quality: 'default',
             });
             return res;
-        });
+        };
     }
     /**
      * @deprecated

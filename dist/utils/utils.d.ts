@@ -13,3 +13,5 @@ export declare const range: ({ from, to, step, length }: {
 export declare const capitalizeFirstLetter: (s: string) => string;
 export declare const getDays: (day1: string, day2: string) => number[];
 export declare const isJson: (str: string) => boolean;
+export declare function convertDuration(milliseconds: number): string;
+export declare const compareTwoStrings: (first: string, second: string) => number;

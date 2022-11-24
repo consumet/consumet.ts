@@ -16,6 +16,7 @@ var MediaFormat;
 })(MediaFormat = exports.MediaFormat || (exports.MediaFormat = {}));
 var StreamingServers;
 (function (StreamingServers) {
+    StreamingServers["AsianLoad"] = "asianload";
     StreamingServers["GogoCDN"] = "gogocdn";
     StreamingServers["StreamSB"] = "streamsb";
     StreamingServers["MixDrop"] = "mixdrop";

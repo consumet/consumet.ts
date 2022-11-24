@@ -12,7 +12,7 @@ const mangadex = new MANGA.MangaDex();
 
 ### search
 > Note: This method is a subclass of the [`BaseParser`](https://github.com/consumet/extensions/blob/master/src/models/base-parser.ts) class. meaning it is available across most categories.
-> 
+>
 <h4>Parameters</h4>
 
 | Parameter        | Type     | Description                                                                  |
@@ -35,7 +35,7 @@ output:
     {
       id: 'b35f67b6-bfb9-4cbd-86f0-621f37e6cb41', // manga id
       title: 'Tomodachi Game',
-      altTtitles: [
+      altTitles: [
          { en: 'Friends Games' },
          { ja: 'トモダチゲーム' },
          {...},
@@ -73,7 +73,7 @@ output:
 {
   id: 'b35f67b6-bfb9-4cbd-86f0-621f37e6cb41',
   title: 'Tomodachi Game',
-  altTtitles: [
+  altTitles: [
     { en: 'Friends Games' },
     { ja: 'トモダチゲーム' },
     {...},

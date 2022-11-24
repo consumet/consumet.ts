@@ -50,7 +50,7 @@ output:
 | mangaId   | `string` | manga id (*can be found in the manga search results*) |
 
 ```ts
-mangakakalot.fetchMangaInfo('Yofukashi-no-Uta').then(data => {
+mangasee123.fetchMangaInfo('Yofukashi-no-Uta').then(data => {
   console.log(data);
 })
 ```
@@ -89,7 +89,7 @@ Note: The `headerForImage` property might be useful when getting the image to di
 | chapterId | `string` | chapter id (*can be found in the manga info*) |
 
 ```ts
-mangakakalot.fetchChapterPages('Yofukashi-no-Uta-chapter-1').then(data => {
+mangasee123.fetchChapterPages('Yofukashi-no-Uta-chapter-1').then(data => {
   console.log(data);
 })
 ```

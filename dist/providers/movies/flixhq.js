@@ -1,13 +1,4 @@
 "use strict";
-var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
-    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
-    return new (P || (P = Promise))(function (resolve, reject) {
-        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
-        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-    });
-};
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
@@ -29,14 +20,14 @@ class FlixHQ extends models_1.MovieParser {
          * @param query search query string
          * @param page page number (default 1) (optional)
          */
-        this.search = (query, page = 1) => __awaiter(this, void 0, void 0, function* () {
+        this.search = async (query, page = 1) => {
             const searchResult = {
                 currentPage: page,
                 hasNextPage: false,
                 results: [],
             };
             try {
-                const { data } = yield axios_1.default.get(`${this.baseUrl}/search/${query.replace(/[\W_]+/g, '-')}?page=${page}`);
+                const { data } = await axios_1.default.get(`${this.baseUrl}/search/${query.replace(/[\W_]+/g, '-')}?page=${page}`);
                 const $ = (0, cheerio_1.load)(data);
                 const navSelector = 'div.pre-pagination:nth-child(3) > nav:nth-child(1) > ul:nth-child(1)';
                 searchResult.hasNextPage =
@@ -60,12 +51,12 @@ class FlixHQ extends models_1.MovieParser {
             catch (err) {
                 throw new Error(err.message);
             }
-        });
+        };
         /**
          *
          * @param mediaId media link or id
          */
-        this.fetchMediaInfo = (mediaId) => __awaiter(this, void 0, void 0, function* () {
+        this.fetchMediaInfo = async (mediaId) => {
             if (!mediaId.startsWith(this.baseUrl)) {
                 mediaId = `${this.baseUrl}/${mediaId}`;
             }
@@ -75,7 +66,7 @@ class FlixHQ extends models_1.MovieParser {
                 url: mediaId,
             };
             try {
-                const { data } = yield axios_1.default.get(mediaId);
+                const { data } = await axios_1.default.get(mediaId);
                 const $ = (0, cheerio_1.load)(data);
                 const uid = $('.watch_block').attr('data-id');
                 movieInfo.title = $('.heading-name > a:nth-child(1)').text();
@@ -99,7 +90,7 @@ class FlixHQ extends models_1.MovieParser {
                 movieInfo.rating = parseFloat($('span.item:nth-child(2)').text());
                 let ajaxReqUrl = (id, type, isSeasons = false) => `${this.baseUrl}/ajax/${type === 'movie' ? type : `v2/${type}`}/${isSeasons ? 'seasons' : 'episodes'}/${id}`;
                 if (movieInfo.type === models_1.TvType.TVSERIES) {
-                    const { data } = yield axios_1.default.get(ajaxReqUrl(uid, 'tv', true));
+                    const { data } = await axios_1.default.get(ajaxReqUrl(uid, 'tv', true));
                     const $$ = (0, cheerio_1.load)(data);
                     const seasonsIds = $$('.dropdown-menu > a')
                         .map((i, el) => $(el).attr('data-id'))
@@ -107,7 +98,7 @@ class FlixHQ extends models_1.MovieParser {
                     movieInfo.episodes = [];
                     let season = 1;
                     for (const id of seasonsIds) {
-                        const { data } = yield axios_1.default.get(ajaxReqUrl(id, 'season'));
+                        const { data } = await axios_1.default.get(ajaxReqUrl(id, 'season'));
                         const $$$ = (0, cheerio_1.load)(data);
                         $$$('.nav > li')
                             .map((i, el) => {
@@ -139,59 +130,59 @@ class FlixHQ extends models_1.MovieParser {
             catch (err) {
                 throw new Error(err.message);
             }
-        });
+        };
         /**
          *
          * @param episodeId episode id
          * @param mediaId media id
          * @param server server type (default `VidCloud`) (optional)
          */
-        this.fetchEpisodeSources = (episodeId, mediaId, server = models_1.StreamingServers.UpCloud) => __awaiter(this, void 0, void 0, function* () {
+        this.fetchEpisodeSources = async (episodeId, mediaId, server = models_1.StreamingServers.UpCloud) => {
             if (episodeId.startsWith('http')) {
                 const serverUrl = new URL(episodeId);
                 switch (server) {
                     case models_1.StreamingServers.MixDrop:
                         return {
                             headers: { Referer: serverUrl.href },
-                            sources: yield new utils_1.MixDrop().extract(serverUrl),
+                            sources: await new utils_1.MixDrop().extract(serverUrl),
                         };
                     case models_1.StreamingServers.VidCloud:
-                        return Object.assign({ headers: { Referer: serverUrl.href } }, (yield new utils_1.VidCloud().extract(serverUrl, true)));
+                        return Object.assign({ headers: { Referer: serverUrl.href } }, (await new utils_1.VidCloud().extract(serverUrl, true)));
                     case models_1.StreamingServers.UpCloud:
-                        return Object.assign({ headers: { Referer: serverUrl.href } }, (yield new utils_1.VidCloud().extract(serverUrl)));
+                        return Object.assign({ headers: { Referer: serverUrl.href } }, (await new utils_1.VidCloud().extract(serverUrl)));
                     default:
                         return {
                             headers: { Referer: serverUrl.href },
-                            sources: yield new utils_1.MixDrop().extract(serverUrl),
+                            sources: await new utils_1.MixDrop().extract(serverUrl),
                         };
                 }
             }
             try {
-                const servers = yield this.fetchEpisodeServers(episodeId, mediaId);
+                const servers = await this.fetchEpisodeServers(episodeId, mediaId);
                 const i = servers.findIndex(s => s.name === server);
                 if (i === -1) {
                     throw new Error(`Server ${server} not found`);
                 }
-                const { data } = yield axios_1.default.get(`${this.baseUrl}/ajax/get_link/${servers[i].url.split('.').slice(-1).shift()}`);
+                const { data } = await axios_1.default.get(`${this.baseUrl}/ajax/get_link/${servers[i].url.split('.').slice(-1).shift()}`);
                 const serverUrl = new URL(data.link);
-                return yield this.fetchEpisodeSources(serverUrl.href, mediaId, server);
+                return await this.fetchEpisodeSources(serverUrl.href, mediaId, server);
             }
             catch (err) {
                 throw new Error(err.message);
             }
-        });
+        };
         /**
          *
          * @param episodeId takes episode link or movie id
          * @param mediaId takes movie link or id (found on movie info object)
          */
-        this.fetchEpisodeServers = (episodeId, mediaId) => __awaiter(this, void 0, void 0, function* () {
+        this.fetchEpisodeServers = async (episodeId, mediaId) => {
             if (!episodeId.startsWith(this.baseUrl + '/ajax') && !mediaId.includes('movie'))
                 episodeId = `${this.baseUrl}/ajax/v2/episode/servers/${episodeId}`;
             else
                 episodeId = `${this.baseUrl}/ajax/movie/episodes/${episodeId}`;
             try {
-                const { data } = yield axios_1.default.get(episodeId);
+                const { data } = await axios_1.default.get(episodeId);
                 const $ = (0, cheerio_1.load)(data);
                 const servers = $('.nav > li')
                     .map((i, el) => {
@@ -211,10 +202,10 @@ class FlixHQ extends models_1.MovieParser {
             catch (err) {
                 throw new Error(err.message);
             }
-        });
-        this.fetchRecentMovies = () => __awaiter(this, void 0, void 0, function* () {
+        };
+        this.fetchRecentMovies = async () => {
             try {
-                const { data } = yield axios_1.default.get(`${this.baseUrl}/home`);
+                const { data } = await axios_1.default.get(`${this.baseUrl}/home`);
                 const $ = (0, cheerio_1.load)(data);
                 const movies = $('section.block_area:nth-child(5) > div:nth-child(2) > div:nth-child(1) > div.flw-item')
                     .map((i, el) => {
@@ -239,10 +230,10 @@ class FlixHQ extends models_1.MovieParser {
             catch (err) {
                 throw new Error(err.message);
             }
-        });
-        this.fetchRecentTvShows = () => __awaiter(this, void 0, void 0, function* () {
+        };
+        this.fetchRecentTvShows = async () => {
             try {
-                const { data } = yield axios_1.default.get(`${this.baseUrl}/home`);
+                const { data } = await axios_1.default.get(`${this.baseUrl}/home`);
                 const $ = (0, cheerio_1.load)(data);
                 const tvshows = $('section.block_area:nth-child(6) > div:nth-child(2) > div:nth-child(1) > div.flw-item')
                     .map((i, el) => {
@@ -266,7 +257,7 @@ class FlixHQ extends models_1.MovieParser {
             catch (err) {
                 throw new Error(err.message);
             }
-        });
+        };
     }
 }
 // (async () => {

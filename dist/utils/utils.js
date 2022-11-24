@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.isJson = exports.getDays = exports.capitalizeFirstLetter = exports.range = exports.genElement = exports.formatTitle = exports.floorID = exports.splitAuthor = exports.days = exports.USER_AGENT = void 0;
+exports.compareTwoStrings = exports.convertDuration = exports.isJson = exports.getDays = exports.capitalizeFirstLetter = exports.range = exports.genElement = exports.formatTitle = exports.floorID = exports.splitAuthor = exports.days = exports.USER_AGENT = void 0;
 const cheerio_1 = require("cheerio");
 exports.USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36';
 exports.days = ['Saturday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
@@ -91,4 +91,38 @@ const isJson = (str) => {
     return true;
 };
 exports.isJson = isJson;
+function convertDuration(milliseconds) {
+    let seconds = Math.floor(milliseconds / 1000);
+    let minutes = Math.floor(seconds / 60);
+    const hours = Math.floor(minutes / 60);
+    seconds = seconds % 60;
+    minutes = minutes % 60;
+    return `PT${hours}H${minutes}M${seconds}S`;
+}
+exports.convertDuration = convertDuration;
+const compareTwoStrings = (first, second) => {
+    first = first.replace(/\s+/g, '');
+    second = second.replace(/\s+/g, '');
+    if (first === second)
+        return 1; // identical or empty
+    if (first.length < 2 || second.length < 2)
+        return 0; // if either is a 0-letter or 1-letter string
+    let firstBigrams = new Map();
+    for (let i = 0; i < first.length - 1; i++) {
+        const bigram = first.substring(i, i + 2);
+        const count = firstBigrams.has(bigram) ? firstBigrams.get(bigram) + 1 : 1;
+        firstBigrams.set(bigram, count);
+    }
+    let intersectionSize = 0;
+    for (let i = 0; i < second.length - 1; i++) {
+        const bigram = second.substring(i, i + 2);
+        const count = firstBigrams.has(bigram) ? firstBigrams.get(bigram) : 0;
+        if (count > 0) {
+            firstBigrams.set(bigram, count - 1);
+            intersectionSize++;
+        }
+    }
+    return (2.0 * intersectionSize) / (first.length + second.length - 2);
+};
+exports.compareTwoStrings = compareTwoStrings;
 //# sourceMappingURL=utils.js.map

@@ -9,6 +9,8 @@ import {
   VizCloud,
   Filemoon,
   Vrv,
+  BilibiliExtractor,
+  AsianLoad,
 } from './extractors';
 import {
   USER_AGENT,
@@ -21,6 +23,7 @@ import {
   getDays,
   days,
   isJson,
+  convertDuration,
 } from './utils';
 import {
   anilistSearchQuery,
@@ -35,7 +38,6 @@ import {
   anilistCharacterQuery,
 } from './queries';
 import { parsePostInfo } from './getComics';
-import { countDivs } from './zLibrary';
 
 export {
   USER_AGENT,
@@ -47,7 +49,6 @@ export {
   parsePostInfo,
   genElement,
   capitalizeFirstLetter,
-  countDivs,
   VidCloud,
   MixDrop,
   Kwik,
@@ -70,4 +71,7 @@ export {
   days,
   Vrv,
   isJson,
+  convertDuration,
+  BilibiliExtractor,
+  AsianLoad,
 };

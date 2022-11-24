@@ -1,4 +1,4 @@
-import { MangaParser, ISearch, IMangaInfo, IMangaResult, IMangaChapterPage } from '../../models';
+import { IMangaChapterPage, IMangaInfo, IMangaResult, ISearch, MangaParser } from '../../models';
 declare class MangaDex extends MangaParser {
     readonly name = "MangaDex";
     protected baseUrl: string;
@@ -17,5 +17,6 @@ declare class MangaDex extends MangaParser {
      */
     search: (query: string, page?: number, limit?: number) => Promise<ISearch<IMangaResult>>;
     private fetchAllChapters;
+    private fetchCoverImage;
 }
 export default MangaDex;

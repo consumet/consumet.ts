@@ -16,5 +16,6 @@ const movieProvider = MOVIES.<providerName>();
 This list is in alphabetical order. (except the sub bullet points)
 
 - [FlixHQ](../providers/flixhq.md)
+- [ViewAsian](../providers/viewAsian.md)
 
 <p align="end">(<a href="https://github.com/consumet/extensions/blob/master/docs">back to table of contents</a>)</p>

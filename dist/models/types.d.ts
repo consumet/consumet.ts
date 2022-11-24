@@ -64,7 +64,12 @@ export interface IAnimeInfo extends IAnimeResult {
     description?: string;
     status?: MediaStatus;
     totalEpisodes?: number;
+    /**
+     * @deprecated use `hasSub` or `hasDub` instead
+     */
     subOrDub?: SubOrSub;
+    hasSub?: boolean;
+    hasDub?: boolean;
     synonyms?: string[];
     /**
      * two letter representation of coutnry: e.g JP for japan
@@ -115,12 +120,17 @@ export interface IVideo {
      */
     isM3U8?: boolean;
     /**
+     * set this to `true` if the video is dash (mpd)
+     */
+    isDASH?: boolean;
+    /**
      * size of the video in **bytes**
      */
     size?: number;
     [x: string]: unknown;
 }
 export declare enum StreamingServers {
+    AsianLoad = "asianload",
     GogoCDN = "gogocdn",
     StreamSB = "streamsb",
     MixDrop = "mixdrop",
@@ -238,14 +248,11 @@ export interface ComicRes {
     containers: GetComicsComics[];
     hasNextPage: boolean;
 }
-export interface ZLibrary extends Book {
-    bookRating: string;
-    bookQuality: string;
-    language: string;
-    size: string;
-    pages: string;
-}
 export interface ISubtitle {
+    /**
+     * The id of the subtitle. **not** required
+     */
+    id?: string;
     /**
      * The **url** that should take you to the subtitle **directly**.
      */

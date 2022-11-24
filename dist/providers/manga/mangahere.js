@@ -1,13 +1,4 @@
 "use strict";
-var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
-    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
-    return new (P || (P = Promise))(function (resolve, reject) {
-        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
-        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-    });
-};
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
@@ -22,13 +13,13 @@ class MangaHere extends models_1.MangaParser {
         this.baseUrl = 'http://www.mangahere.cc';
         this.logo = 'https://i.pinimg.com/564x/51/08/62/51086247ed16ff8abae2df0bb06448e4.jpg';
         this.classPath = 'MANGA.MangaHere';
-        this.fetchMangaInfo = (mangaId) => __awaiter(this, void 0, void 0, function* () {
+        this.fetchMangaInfo = async (mangaId) => {
             const mangaInfo = {
                 id: mangaId,
                 title: '',
             };
             try {
-                const { data } = yield axios_1.default.get(`${this.baseUrl}/manga/${mangaId}`, {
+                const { data } = await axios_1.default.get(`${this.baseUrl}/manga/${mangaId}`, {
                     headers: {
                         cookie: 'isAdult=1',
                     },
@@ -71,13 +62,13 @@ class MangaHere extends models_1.MangaParser {
             catch (err) {
                 throw new Error(err.message);
             }
-        });
-        this.fetchChapterPages = (chapterId) => __awaiter(this, void 0, void 0, function* () {
+        };
+        this.fetchChapterPages = async (chapterId) => {
             var _a, _b;
             const chapterPages = [];
             const url = `${this.baseUrl}/manga/${chapterId}/1.html`;
             try {
-                const { data } = yield axios_1.default.get(url, {
+                const { data } = await axios_1.default.get(url, {
                     headers: {
                         cookie: 'isAdult=1',
                     },
@@ -109,7 +100,7 @@ class MangaHere extends models_1.MangaParser {
                     for (let i = 1; i <= pages; i++) {
                         const pageLink = `${pageBase}/chapterfun.ashx?cid=${chapterId}&page=${i}&key=${sKey}`;
                         for (let j = 1; j <= 3; j++) {
-                            const { data } = yield axios_1.default.get(pageLink, {
+                            const { data } = await axios_1.default.get(pageLink, {
                                 headers: {
                                     Referer: url,
                                     'X-Requested-With': 'XMLHttpRequest',
@@ -141,14 +132,14 @@ class MangaHere extends models_1.MangaParser {
             catch (err) {
                 throw new Error(err.message);
             }
-        });
-        this.search = (query, page = 1) => __awaiter(this, void 0, void 0, function* () {
+        };
+        this.search = async (query, page = 1) => {
             const searchRes = {
                 currentPage: page,
                 results: [],
             };
             try {
-                const { data } = yield axios_1.default.get(`${this.baseUrl}/search?title=${query}&page=${page}`);
+                const { data } = await axios_1.default.get(`${this.baseUrl}/search?title=${query}&page=${page}`);
                 const $ = (0, cheerio_1.load)(data);
                 searchRes.hasNextPage = $('div.pager-list-left > a.active').next().text() !== '>';
                 searchRes.results = $('div.container > div > div > ul > li')
@@ -173,7 +164,7 @@ class MangaHere extends models_1.MangaParser {
             catch (err) {
                 throw new Error(err.message);
             }
-        });
+        };
         /**
          *  credit: [tachiyomi-extensions](https://github.com/tachiyomiorg/tachiyomi-extensions/blob/master/src/en/mangahere/src/eu/kanade/tachiyomi/extension/en/mangahere/Mangahere.kt)
          */

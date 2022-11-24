@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.MediaFormat = exports.Topics = exports.Genres = exports.MovieParser = exports.TvType = exports.ZLibraryObject = exports.GetComicsComicsObject = exports.ComicParser = exports.NewsParser = exports.MangaParser = exports.LightNovelParser = exports.SubOrSub = exports.MediaStatus = exports.StreamingServers = exports.LibgenBookObject = exports.VideoExtractor = exports.BookParser = exports.AnimeParser = exports.BaseParser = exports.BaseProvider = void 0;
+exports.MediaFormat = exports.Topics = exports.Genres = exports.MovieParser = exports.TvType = exports.GetComicsComicsObject = exports.ComicParser = exports.NewsParser = exports.MangaParser = exports.LightNovelParser = exports.SubOrSub = exports.MediaStatus = exports.StreamingServers = exports.LibgenBookObject = exports.VideoExtractor = exports.BookParser = exports.AnimeParser = exports.BaseParser = exports.BaseProvider = void 0;
 const base_provider_1 = __importDefault(require("./base-provider"));
 exports.BaseProvider = base_provider_1.default;
 const base_parser_1 = __importDefault(require("./base-parser"));
@@ -35,5 +35,4 @@ Object.defineProperty(exports, "MediaFormat", { enumerable: true, get: function 
 const type_objects_1 = require("./type-objects");
 Object.defineProperty(exports, "LibgenBookObject", { enumerable: true, get: function () { return type_objects_1.LibgenBookObject; } });
 Object.defineProperty(exports, "GetComicsComicsObject", { enumerable: true, get: function () { return type_objects_1.GetComicsComicsObject; } });
-Object.defineProperty(exports, "ZLibraryObject", { enumerable: true, get: function () { return type_objects_1.ZLibraryObject; } });
 //# sourceMappingURL=index.js.map

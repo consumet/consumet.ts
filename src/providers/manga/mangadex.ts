@@ -1,8 +1,9 @@
-import axios, { AxiosError, AxiosResponse } from 'axios';
 import { encode } from 'ascii-url-encoder';
+import axios, { AxiosError, AxiosResponse } from 'axios';
 
-import { MangaParser, ISearch, IMangaInfo, IMangaResult, MediaStatus, IMangaChapterPage } from '../../models';
+import { IMangaChapterPage, IMangaInfo, IMangaResult, ISearch, MangaParser, MediaStatus } from '../../models';
 import { capitalizeFirstLetter } from '../../utils';
+
 
 class MangaDex extends MangaParser {
   override readonly name = 'MangaDex';
@@ -18,7 +19,7 @@ class MangaDex extends MangaParser {
       const mangaInfo: IMangaInfo = {
         id: data.data.id,
         title: data.data.attributes.title.en,
-        altTtitles: data.data.attributes.altTitles,
+        altTitles: data.data.attributes.altTitles,
         description: data.data.attributes.description,
         genres: data.data.attributes.tags
           .filter((tag: any) => tag.attributes.group === 'genre')
@@ -32,7 +33,6 @@ class MangaDex extends MangaParser {
       };
 
       const allChapters = await this.fetchAllChapters(mangaId, 0);
-
       for (const chapter of allChapters) {
         mangaInfo.chapters?.push({
           id: chapter.id,
@@ -40,11 +40,14 @@ class MangaDex extends MangaParser {
           pages: chapter.attributes.pages,
         });
       }
+
+      const coverArt = await this.fetchCoverImage(data.data.relationships[2].id);
+      mangaInfo.image = `${this.baseUrl}/covers/${mangaInfo.id}/${coverArt}`;
+
       return mangaInfo;
     } catch (err) {
-      if ((err as AxiosError).code == 'ERR_BAD_REQUEST') {
-        throw new Error('Bad request. Make sure you have entered a valid query.');
-      }
+      if ((err as AxiosError).code == 'ERR_BAD_REQUEST') throw new Error(`[${this.name}] Bad request. Make sure you have entered a valid query.`);
+      
 
       throw new Error((err as Error).message);
     }
@@ -61,7 +64,7 @@ class MangaDex extends MangaParser {
       for (const id of res.data.chapter.data) {
         pages.push({
           img: `${res.data.baseUrl}/data/${res.data.chapter.hash}/${id}`,
-          page: parseInt(id.split('-')[0]),
+          page: parseInt(/x(.*)-/g.exec(id)![1]),
         });
       }
       return pages;
@@ -138,6 +141,14 @@ class MangaDex extends MangaParser {
     );
 
     return [...response.data.data, ...(await this.fetchAllChapters(mangaId, offset + 96, response))];
+  };
+
+  private fetchCoverImage = async (coverId: string): Promise<string> => {
+    const { data } = await axios.get(`${this.apiUrl}/cover/${coverId}`);
+
+    const fileName = data.data.attributes.fileName;
+
+    return fileName;
   };
 }
 

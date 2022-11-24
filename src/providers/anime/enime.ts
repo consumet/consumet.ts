@@ -28,6 +28,15 @@ class Enime extends AnimeParser {
    * @param query Search query
    * @param page Page number (optional)
    */
+  rawSearch = async (query: string, page: number = 1, perPage: number = 15): Promise<any> => {
+    const { data } = await axios.get(`${this.enimeApi}/search/${query}?page=${page}&perPage=${perPage}`);
+
+    return data;
+  };
+  /**
+   * @param query Search query
+   * @param page Page number (optional)
+   */
   override search = async (
     query: string,
     page: number = 1,
@@ -103,6 +112,14 @@ class Enime extends AnimeParser {
     return animeInfo;
   };
 
+  fetchAnimeInfoByIdRaw = async (id: string): Promise<any> => {
+    const { data } = await axios.get(`${this.enimeApi}/mapping/anilist/${id}`).catch(err => {
+      throw new Error("Backup api seems to be down! Can't fetch anime info");
+    });
+
+    return data;
+  };
+
   /**
    * @param id anilist id
    */
@@ -156,7 +173,8 @@ class Enime extends AnimeParser {
           )
           ?.target.split('/')
           .pop()
-          .replace('?ep=', '$episode$')!,
+          .replace('?ep=', '$episode$')
+          ?.concat(useType === 'zoro' ? '$sub' : '')!,
         description: episode.description,
         number: episode.number,
         title: episode.title,
