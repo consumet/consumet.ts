@@ -2,8 +2,8 @@ import axios from 'axios';
 import CryptoJS from 'crypto-js';
 import WebSocket from 'ws';
 
-import { VideoExtractor, IVideo, ISubtitle, Intro } from '../../models';
-import { USER_AGENT, isJson } from '..';
+import { VideoExtractor, IVideo, ISubtitle, Intro } from '../models';
+import { USER_AGENT, isJson } from '../utils';
 
 class VidCloud extends VideoExtractor {
   protected override serverName = 'VidCloud';

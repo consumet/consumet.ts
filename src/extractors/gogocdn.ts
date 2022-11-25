@@ -2,8 +2,8 @@ import axios from 'axios';
 import { CheerioAPI, load } from 'cheerio';
 import CryptoJS from 'crypto-js';
 
-import { VideoExtractor, IVideo } from '../../models';
-import { USER_AGENT } from '../';
+import { VideoExtractor, IVideo } from '../models';
+import { USER_AGENT } from '../utils';
 
 class GogoCDN extends VideoExtractor {
   protected override serverName = 'goload';

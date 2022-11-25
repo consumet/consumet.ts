@@ -20,11 +20,10 @@ class Gogoanime extends AnimeParser {
   override readonly name = 'Gogoanime';
   protected override baseUrl = 'https://www.gogoanime.dk';
   protected override logo =
-    'https://i0.wp.com/cloudfuji.com/wp-content/uploads/2021/12/gogoanime.png?fit=300%2C400&ssl=1';
+    'https://play-lh.googleusercontent.com/MaGEiAEhNHAJXcXKzqTNgxqRmhuKB1rCUgb15UrN_mWUNRnLpO5T1qja64oRasO7mn0';
   protected override classPath = 'ANIME.Gogoanime';
 
   private readonly ajaxUrl = 'https://ajax.gogo-load.com/ajax';
-
 
   /**
    *

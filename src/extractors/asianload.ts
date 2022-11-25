@@ -2,8 +2,8 @@ import axios from 'axios';
 import { CheerioAPI, load } from 'cheerio';
 import CryptoJS from 'crypto-js';
 
-import { VideoExtractor, IVideo, ISubtitle } from '../../models';
-import { USER_AGENT } from '..';
+import { VideoExtractor, IVideo, ISubtitle } from '../models';
+import { USER_AGENT } from '../utils';
 
 class AsianLoad extends VideoExtractor {
   protected override serverName = 'asianload';

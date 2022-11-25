@@ -1,8 +1,5 @@
 import axios from 'axios';
-import { CheerioAPI, load } from 'cheerio';
-import { val } from 'cheerio/lib/api/attributes';
-import { assert, timeEnd } from 'console';
-import { stat } from 'fs';
+import { load } from 'cheerio';
 
 import {
   AnimeParser,
@@ -25,56 +22,36 @@ import {
   ITitle,
   FuzzyDate,
 } from '../../models';
-
-let substringAfter = function substringAfter(str: string, toFind: string) {
-  let index = str.indexOf(toFind);
-  return index == -1 ? '' : str.substring(index + toFind.length);
-};
-
-let substringBefore = function substringBefore(str: string, toFind: string) {
-  let index = str.indexOf(toFind);
-  return index == -1 ? '' : str.substring(0, index);
-};
+import { substringAfter, substringBefore } from '../../utils';
+import Gogoanime from '../anime/gogoanime';
 
 class Myanimelist extends AnimeParser {
-  fetchAnimeInfo(animeId: string, ...args: any): Promise<IAnimeInfo> {
-    throw new Error('Method not implemented.');
-  }
-  fetchEpisodeSources(episodeId: string, ...args: any): Promise<ISource> {
-    throw new Error('Method not implemented.');
-  }
-  fetchEpisodeServers(episodeId: string): Promise<IEpisodeServer[]> {
-    throw new Error('Method not implemented.');
-  }
-
   override readonly name = 'Myanimelist';
   protected override baseUrl = 'https://myanimelist.net/';
   protected override logo = 'https://en.wikipedia.org/wiki/MyAnimeList#/media/File:MyAnimeList.png';
   protected override classPath = 'META.MAL';
 
   /**
-   * This class maps anilist to kitsu with any other anime provider.
+   * This class maps myanimelist to kitsu with any other anime provider.
    * kitsu is used for episode images, titles and description.
    * @param provider anime provider (optional) default: Gogoanime
-   * @param proxy proxy config (optional) default: null
    */
-  constructor() {
+  constructor(public provider: AnimeParser = new Gogoanime()) {
     super();
   }
 
-  malStatusToMediaStatus(status: string): MediaStatus {
-    if (status == 'currently airing') {
-      return MediaStatus.ONGOING;
-    } else if (status == 'finished airing') {
-      return MediaStatus.COMPLETED;
-    } else if (status == 'not yet aired') {
-      return MediaStatus.NOT_YET_AIRED;
-    }
-
+  private malStatusToMediaStatus(status: string): MediaStatus {
+    if (status == 'currently airing') return MediaStatus.ONGOING;
+    else if (status == 'finished airing') return MediaStatus.COMPLETED;
+    else if (status == 'not yet aired') return MediaStatus.NOT_YET_AIRED;
     return MediaStatus.UNKNOWN;
   }
 
-  async populateEpisodeList(episodes: IAnimeEpisode[], url: string, count: number = 1): Promise<void> {
+  private async populateEpisodeList(
+    episodes: IAnimeEpisode[],
+    url: string,
+    count: number = 1
+  ): Promise<void> {
     try {
       let { data } = await axios.request({
         method: 'get',
@@ -85,8 +62,8 @@ class Myanimelist extends AnimeParser {
         },
       });
 
-      let hasEpisodes: boolean = false;
-      let $: CheerioAPI = load(data);
+      let hasEpisodes = false;
+      let $ = load(data);
       for (let elem of $('.video-list').toArray()) {
         let href = $(elem).attr('href');
         let image = $(elem).find('img').attr('data-src');
@@ -110,24 +87,19 @@ class Myanimelist extends AnimeParser {
         }
       }
 
-      if (hasEpisodes) {
-        await this.populateEpisodeList(episodes, url, ++count);
-      }
+      if (hasEpisodes) await this.populateEpisodeList(episodes, url, ++count);
     } catch (err) {
       console.error(err);
     }
   }
 
-  override search = async (
-    query: string,
-    page: number = 1
-  ): Promise<ISearch<IAnimeResult>> => {
+  override search = async (query: string, page: number = 1): Promise<ISearch<IAnimeResult>> => {
     let searchResults: ISearch<IAnimeResult> = {
-        currentPage: page,
+      currentPage: page,
       results: [],
     };
 
-    let { data } = await axios.request({
+    const { data } = await axios.request({
       method: 'get',
       url: `https://myanimelist.net/anime.php?q=${query}&cat=anime&show=${50 * page - 1}`,
       headers: {
@@ -136,22 +108,22 @@ class Myanimelist extends AnimeParser {
       },
     });
 
-    let $ = load(data);
+    const $ = load(data);
 
-    let pages = $('.normal_header').find('span').children();
-    let maxPage = parseInt(pages.last().text());
-    let hasNextPage = page < maxPage;
+    const pages = $('.normal_header').find('span').children();
+    const maxPage = parseInt(pages.last().text());
+    const hasNextPage = page < maxPage;
     searchResults.hasNextPage = hasNextPage;
 
-    $('tr').each(function (i, item) {
-        let id = $(this).find('.hoverinfo_trigger').attr('href')?.split('anime/')[1].split('/')[0];
-      let title = $(this).find('strong').text();
-      let description = $(this).find('.pt4').text().replace('...read more.', '...');
-      let type = $(this).children().eq(2).text().trim();
-      let episodeCount = $(this).children().eq(3).text().trim();
-      let score = (parseFloat($(this).children().eq(4).text()) * 10).toFixed(0);
-      let imageTmp = $(this).children().first().find('img').attr('data-src');
-      let imageUrl = `https://cdn.myanimelist.net/images/anime/${imageTmp?.split('anime/')[1]}`;
+    $('tr').each((i, item) => {
+      const id = $(item).find('.hoverinfo_trigger').attr('href')?.split('anime/')[1].split('/')[0];
+      const title = $(item).find('strong').text();
+      const description = $(item).find('.pt4').text().replace('...read more.', '...');
+      const type = $(item).children().eq(2).text().trim();
+      const episodeCount = $(item).children().eq(3).text().trim();
+      const score = (parseFloat($(item).children().eq(4).text()) * 10).toFixed(0);
+      const imageTmp = $(item).children().first().find('img').attr('data-src');
+      const imageUrl = `https://cdn.myanimelist.net/images/anime/${imageTmp?.split('anime/')[1]}`;
 
       if (title != '') {
         searchResults.results.push({
@@ -183,7 +155,6 @@ class Myanimelist extends AnimeParser {
               : type == 'ONE_SHOT'
               ? MediaFormat.ONE_SHOT
               : undefined,
-
         });
       }
     });
@@ -191,14 +162,29 @@ class Myanimelist extends AnimeParser {
     return searchResults;
   };
 
+  fetchAnimeInfo(animeId: string, ...args: any): Promise<IAnimeInfo> {
+    throw new Error('Method not implemented.');
+  }
+  fetchEpisodeSources(episodeId: string, ...args: any): Promise<ISource> {
+    throw new Error('Method not implemented.');
+  }
+  fetchEpisodeServers(episodeId: string): Promise<IEpisodeServer[]> {
+    throw new Error('Method not implemented.');
+  }
+
+  /**
+   *
+   * @param id anime id
+   * @returns anime info without streamable episodes
+   */
   fetchMalInfoById = async (id: string): Promise<IAnimeInfo> => {
     const animeInfo: IAnimeInfo = {
       id: id,
       title: '',
     };
 
-    let { data } = await axios.request({
-      method: 'get',
+    const { data } = await axios.request({
+      method: 'GET',
       url: `https://myanimelist.net/anime/${id}`,
       headers: {
         'user-agent':
@@ -206,30 +192,27 @@ class Myanimelist extends AnimeParser {
       },
     });
 
-    let $ = load(data);
-    let episodes: IAnimeEpisode[] = [];
-    let desc = $('[itemprop="description"]').first().text();
-    let imageElem = $('[itemprop="image"]').first();
-    let image = imageElem.attr('src') || imageElem.attr('data-image') || imageElem.attr('data-src');
-    let genres: string[] = [];
-    let genreDOM = $('[itemprop="genre"]').get();
+    const $ = load(data);
+    const episodes: IAnimeEpisode[] = [];
+    const desc = $('[itemprop="description"]').first().text();
+    const imageElem = $('[itemprop="image"]').first();
+    const image = imageElem.attr('src') || imageElem.attr('data-image') || imageElem.attr('data-src');
+    const genres: string[] = [];
+    const genreDOM = $('[itemprop="genre"]').get();
 
-    genreDOM.forEach(elem => {
-      let genreText = $(elem).text();
-      genres.push(genreText);
-    });
+    genreDOM.forEach(elem => genres.push($(elem).text()));
 
     animeInfo.genres = genres;
     animeInfo.image = image;
     animeInfo.description = desc;
     animeInfo.title = $('.title-name')?.text();
     animeInfo.studios = [];
-    animeInfo.episodes = episodes;
+    // animeInfo.episodes = episodes;
 
-    let teaserDOM = $('.video-promotion > a');
+    const teaserDOM = $('.video-promotion > a');
     if (teaserDOM.length > 0) {
-      let teaserURL = $(teaserDOM).attr('href');
-      let style = $(teaserDOM).attr('style');
+      const teaserURL = $(teaserDOM).attr('href');
+      const style = $(teaserDOM).attr('style');
       if (teaserURL) {
         animeInfo.trailer = {
           id: substringAfter(teaserURL, 'embed/').split('?')[0],
@@ -239,21 +222,19 @@ class Myanimelist extends AnimeParser {
       }
     }
 
-    let description = $('.spaceit_pad').get();
+    const description = $('.spaceit_pad').get();
 
     description.forEach(elem => {
-      let text = $(elem).text().toLowerCase().trim();
-      let key = text.split(':')[0];
-      let value = substringAfter(text, `${key}:`).trim();
+      const text = $(elem).text().toLowerCase().trim();
+      const key = text.split(':')[0];
+      const value = substringAfter(text, `${key}:`).trim();
       switch (key) {
         case 'status':
           animeInfo.status = this.malStatusToMediaStatus(value);
           break;
         case 'episodes':
           animeInfo.totalEpisodes = parseInt(value);
-          if (isNaN(animeInfo.totalEpisodes)) {
-            animeInfo.totalEpisodes = 0;
-          }
+          if (isNaN(animeInfo.totalEpisodes)) animeInfo.totalEpisodes = 0;
           break;
         case 'premiered':
           animeInfo.season = value.split(' ')[0];
@@ -290,14 +271,10 @@ class Myanimelist extends AnimeParser {
           break;
         case 'synonyms':
           animeInfo.synonyms = value.split(',');
-          animeInfo.synonyms = animeInfo.synonyms.map(x => {
-            return x.trim();
-          });
+          animeInfo.synonyms = animeInfo.synonyms.map(x => x.trim());
           break;
         case 'studios':
-          for (let studio of $(elem).find('a')) {
-            animeInfo.studios?.push($(studio).text());
-          }
+          for (let studio of $(elem).find('a')) animeInfo.studios?.push($(studio).text());
           break;
         case 'rating':
           animeInfo.ageRating = value;
@@ -305,10 +282,10 @@ class Myanimelist extends AnimeParser {
     });
 
     // Only works on certain animes, so it is unreliable
-    let videoLink = $('.mt4.ar a').attr('href');
-    if (videoLink) {
-      await this.populateEpisodeList(episodes, videoLink);
-    }
+    // let videoLink = $('.mt4.ar a').attr('href');
+    // if (videoLink) {
+    //   await this.populateEpisodeList(episodes, videoLink);
+    // }
     return animeInfo;
   };
 }

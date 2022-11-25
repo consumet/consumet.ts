@@ -15,7 +15,8 @@ import { BilibiliExtractor } from '../../utils';
 class Bilibili extends AnimeParser {
   override readonly name = 'Bilibili';
   protected override baseUrl = 'https://bilibili.tv';
-  protected override logo = 'https://www.apksforfree.com/wp-content/uploads/2021/10/oie_1413343NvdZCZR5.png';
+  protected override logo =
+    'https://w7.pngwing.com/pngs/656/356/png-transparent-bilibili-thumbnail-social-media-icons.png';
   protected override classPath = 'ANIME.Bilibili';
 
   private apiUrl = 'https://api.bilibili.tv/intl/gateway/web';
