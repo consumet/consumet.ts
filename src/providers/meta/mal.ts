@@ -138,6 +138,11 @@ class Myanimelist extends AnimeParser {
 
     let $ = load(data);
 
+    let pages = $('.normal_header').find('span').children();
+    let maxPage = parseInt(pages.last().text());
+    let hasNextPage = page < maxPage;
+    searchResults.hasNextPage = hasNextPage;
+
     $('tr').each(function (i, item) {
         let id = $(this).find('.hoverinfo_trigger').attr('href')?.split('anime/')[1].split('/')[0];
       let title = $(this).find('strong').text();
