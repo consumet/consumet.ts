@@ -22,8 +22,12 @@ import {
   ITitle,
   FuzzyDate,
 } from '../../models';
-import { substringAfter, substringBefore } from '../../utils';
+import { substringAfter, substringBefore, compareTwoStrings, kitsuSearchQuery, range } from '../../utils';
 import Gogoanime from '../anime/gogoanime';
+import Zoro from '../anime/zoro';
+import Crunchyroll from '../anime/crunchyroll';
+import Enime from '../anime/enime';
+import Bilibili from '../anime/bilibili';
 
 class Myanimelist extends AnimeParser {
   override readonly name = 'Myanimelist';
@@ -31,13 +35,20 @@ class Myanimelist extends AnimeParser {
   protected override logo = 'https://en.wikipedia.org/wiki/MyAnimeList#/media/File:MyAnimeList.png';
   protected override classPath = 'META.MAL';
 
+  private readonly anilistGraphqlUrl = 'https://graphql.anilist.co';
+  private readonly kitsuGraphqlUrl = 'https://kitsu.io/api/graphql';
+  private readonly malSyncUrl = 'https://api.malsync.moe';
+  private readonly enimeUrl = 'https://api.enime.moe';
+  provider: AnimeParser;
+
   /**
    * This class maps myanimelist to kitsu with any other anime provider.
    * kitsu is used for episode images, titles and description.
    * @param provider anime provider (optional) default: Gogoanime
    */
-  constructor(public provider: AnimeParser = new Gogoanime()) {
+  constructor(provider?: AnimeParser) {
     super();
+    this.provider = provider || new Gogoanime();
   }
 
   private malStatusToMediaStatus(status: string): MediaStatus {
@@ -162,15 +173,323 @@ class Myanimelist extends AnimeParser {
     return searchResults;
   };
 
-  fetchAnimeInfo(animeId: string, ...args: any): Promise<IAnimeInfo> {
-    throw new Error('Method not implemented.');
-  }
+  /**
+   *
+   * @param animeId anime id
+   * @param fetchFiller fetch filler episodes
+   */
+  fetchAnimeInfo = async (
+    animeId: string,
+    dub: boolean = false,
+    fetchFiller: boolean = false
+  ): Promise<IAnimeInfo> => {
+    try {
+      const animeInfo = await this.fetchMalInfoById(animeId);
+      let fillerEpisodes: { number: string; 'filler-bool': boolean }[];
+      if (
+        (this.provider instanceof Zoro || this.provider instanceof Gogoanime) &&
+        !dub &&
+        (animeInfo.status === MediaStatus.ONGOING ||
+          range({ from: 2000, to: new Date().getFullYear() + 1 }).includes(animeInfo.startDate!.year!))
+      ) {
+        try {
+          animeInfo.episodes = (
+            await new Enime().fetchAnimeInfoByMalId(
+              animeId,
+              this.provider.name.toLowerCase() as 'gogoanime' | 'zoro'
+            )
+          ).episodes?.map((item: any) => ({
+            id: item.slug,
+            title: item.title,
+            description: item.description,
+            number: item.number,
+            image: item.image,
+          }));
+          animeInfo.episodes?.reverse();
+        } catch (err) {
+          animeInfo.episodes = await this.findAnimeSlug(
+            animeInfo.title as string,
+            animeInfo.season!,
+            animeInfo.startDate?.year!,
+            animeId,
+            dub
+          );
+
+          animeInfo.episodes = animeInfo.episodes?.map((episode: IAnimeEpisode) => {
+            if (!episode.image) episode.image = animeInfo.image;
+
+            return episode;
+          });
+
+          return animeInfo;
+        }
+      } else
+        animeInfo.episodes = await this.findAnimeSlug(
+          animeInfo.title as string,
+          animeInfo.season!,
+          animeInfo.startDate?.year!,
+          animeId,
+          dub
+        );
+
+      if (fetchFiller) {
+        let { data: fillerData } = await axios({
+          baseURL: `https://raw.githubusercontent.com/saikou-app/mal-id-filler-list/main/fillers/${animeId}.json`,
+          method: 'GET',
+          validateStatus: () => true,
+        });
+
+        if (!fillerData.toString().startsWith('404')) {
+          fillerEpisodes = [];
+          fillerEpisodes?.push(...(fillerData.episodes as { number: string; 'filler-bool': boolean }[]));
+        }
+      }
+
+      animeInfo.episodes = animeInfo.episodes?.map((episode: IAnimeEpisode) => {
+        if (!episode.image) episode.image = animeInfo.image;
+
+        if (
+          fetchFiller &&
+          fillerEpisodes?.length > 0 &&
+          fillerEpisodes?.length >= animeInfo.episodes!.length
+        ) {
+          if (fillerEpisodes[episode.number! - 1])
+            episode.isFiller = new Boolean(fillerEpisodes[episode.number! - 1]['filler-bool']).valueOf();
+        }
+
+        return episode;
+      });
+
+      return animeInfo;
+    } catch (err) {
+      console.error(err);
+      throw err;
+    }
+  };
+
   fetchEpisodeSources(episodeId: string, ...args: any): Promise<ISource> {
-    throw new Error('Method not implemented.');
+    if (episodeId.includes('enime')) return new Enime().fetchEpisodeSources(episodeId);
+    return this.provider.fetchEpisodeSources(episodeId, ...args);
   }
   fetchEpisodeServers(episodeId: string): Promise<IEpisodeServer[]> {
-    throw new Error('Method not implemented.');
+    return this.provider.fetchEpisodeServers(episodeId);
   }
+
+  private findAnimeRaw = async (slug: string, externalLinks?: any) => {
+    if (externalLinks && this.provider instanceof Crunchyroll) {
+      if (externalLinks.map((link: any) => link.site.includes('Crunchyroll'))) {
+        const link = externalLinks.find((link: any) => link.site.includes('Crunchyroll'));
+        const { request } = await axios.get(link.url, { validateStatus: () => true });
+        const mediaType = request.res.responseUrl.split('/')[3];
+        const id = request.res.responseUrl.split('/')[4];
+
+        return await this.provider.fetchAnimeInfo(id, mediaType);
+      }
+    }
+    const findAnime = (await this.provider.search(slug)) as ISearch<IAnimeResult>;
+    if (findAnime.results.length === 0) return [];
+
+    // Sort the retrieved info for more accurate results.
+
+    findAnime.results.sort((a, b) => {
+      const targetTitle = slug.toLowerCase();
+
+      let firstTitle: string;
+      let secondTitle: string;
+
+      if (typeof a.title == 'string') firstTitle = a.title as string;
+      else firstTitle = a.title.english ?? a.title.romaji ?? '';
+
+      if (typeof b.title == 'string') secondTitle = b.title as string;
+      else secondTitle = b.title.english ?? b.title.romaji ?? '';
+
+      const firstRating = compareTwoStrings(targetTitle, firstTitle.toLowerCase());
+      const secondRating = compareTwoStrings(targetTitle, secondTitle.toLowerCase());
+
+      // Sort in descending order
+      return secondRating - firstRating;
+    });
+
+    if (this.provider instanceof Crunchyroll) {
+      return await this.provider.fetchAnimeInfo(findAnime.results[0].id, findAnime.results[0].type as string);
+    }
+    // TODO: use much better way than this
+    return (await this.provider.fetchAnimeInfo(findAnime.results[0].id)) as IAnimeInfo;
+  };
+
+  private findAnimeSlug = async (
+    title: string,
+    season: string,
+    startDate: number,
+    malId: string,
+    dub: boolean,
+    externalLinks?: any
+  ): Promise<IAnimeEpisode[]> => {
+    if (this.provider instanceof Enime) return (await this.provider.fetchAnimeInfoByMalId(malId)).episodes!;
+
+    const slug = title.replace(/[^0-9a-zA-Z]+/g, ' ');
+
+    let possibleAnime: any | undefined;
+
+    if (malId && !(this.provider instanceof Crunchyroll || this.provider instanceof Bilibili)) {
+      const malAsyncReq = await axios({
+        method: 'GET',
+        url: `${this.malSyncUrl}/mal/anime/${malId}`,
+        validateStatus: () => true,
+      });
+
+      if (malAsyncReq.status === 200) {
+        const sitesT = malAsyncReq.data.Sites as {
+          [k: string]: { [k: string]: { url: string; page: string; title: string } };
+        };
+        let sites = Object.values(sitesT).map((v, i) => {
+          const obj = [...Object.values(Object.values(sitesT)[i])];
+          const pages = obj.map(v => ({ page: v.page, url: v.url, title: v.title }));
+          return pages;
+        }) as any[];
+
+        sites = sites.flat();
+
+        sites.sort((a, b) => {
+          const targetTitle = malAsyncReq.data.title.toLowerCase();
+
+          const firstRating = compareTwoStrings(targetTitle, a.title.toLowerCase());
+          const secondRating = compareTwoStrings(targetTitle, b.title.toLowerCase());
+
+          // Sort in descending order
+          return secondRating - firstRating;
+        });
+
+        const possibleSource = sites.find(s => {
+          if (s.page.toLowerCase() === this.provider.name.toLowerCase())
+            if (this.provider instanceof Gogoanime)
+              return dub ? s.title.toLowerCase().includes('dub') : !s.title.toLowerCase().includes('dub');
+            else return true;
+          return false;
+        });
+
+        if (possibleSource) {
+          try {
+            possibleAnime = await this.provider.fetchAnimeInfo(possibleSource.url.split('/').pop()!);
+          } catch (err) {
+            console.error(err);
+            possibleAnime = await this.findAnimeRaw(slug);
+          }
+        } else possibleAnime = await this.findAnimeRaw(slug);
+      } else possibleAnime = await this.findAnimeRaw(slug);
+    } else possibleAnime = await this.findAnimeRaw(slug, externalLinks);
+
+    // To avoid a new request, lets match and see if the anime show found is in sub/dub
+
+    let expectedType = dub ? SubOrSub.DUB : SubOrSub.SUB;
+
+    if (possibleAnime.subOrDub != SubOrSub.BOTH && possibleAnime.subOrDub != expectedType) {
+      return [];
+    }
+
+    if (this.provider instanceof Zoro) {
+      // Set the correct episode sub/dub request type
+      possibleAnime.episodes.forEach((_: any, index: number) => {
+        if (possibleAnime.subOrDub === SubOrSub.BOTH) {
+          possibleAnime.episodes[index].id = possibleAnime.episodes[index].id.replace(
+            `$both`,
+            dub ? '$dub' : '$sub'
+          );
+        }
+      });
+    }
+
+    if (this.provider instanceof Crunchyroll) {
+      return dub
+        ? possibleAnime.episodes.filter((ep: any) => ep.isDubbed)
+        : possibleAnime.episodes.filter((ep: any) => ep.type == 'Subbed');
+    }
+
+    const possibleProviderEpisodes = possibleAnime.episodes as IAnimeEpisode[];
+
+    if (
+      typeof possibleProviderEpisodes[0]?.image !== 'undefined' &&
+      typeof possibleProviderEpisodes[0]?.title !== 'undefined' &&
+      typeof possibleProviderEpisodes[0]?.description !== 'undefined'
+    )
+      return possibleProviderEpisodes;
+
+    const options = {
+      headers: { 'Content-Type': 'application/json' },
+      query: kitsuSearchQuery(slug),
+    };
+
+    const newEpisodeList = await this.findKitsuAnime(possibleProviderEpisodes, options, season, startDate);
+
+    return newEpisodeList;
+  };
+
+  private findKitsuAnime = async (
+    possibleProviderEpisodes: IAnimeEpisode[],
+    options: {},
+    season?: string,
+    startDate?: number
+  ) => {
+    const kitsuEpisodes = await axios.post(this.kitsuGraphqlUrl, options);
+    const episodesList = new Map();
+    if (kitsuEpisodes?.data.data) {
+      const { nodes } = kitsuEpisodes.data.data.searchAnimeByTitle;
+
+      if (nodes) {
+        nodes.forEach((node: any) => {
+          if (node.season === season && node.startDate.trim().split('-')[0] === startDate?.toString()) {
+            const episodes = node.episodes.nodes;
+
+            for (const episode of episodes) {
+              const i = episode?.number.toString().replace(/"/g, '');
+              let name = undefined;
+              let description = undefined;
+              let thumbnail = undefined;
+
+              if (episode?.description?.en)
+                description = episode?.description.en.toString().replace(/"/g, '').replace('\\n', '\n');
+              if (episode?.thumbnail)
+                thumbnail = episode?.thumbnail.original.url.toString().replace(/"/g, '');
+
+              if (episode) {
+                if (episode.titles?.canonical) name = episode.titles.canonical.toString().replace(/"/g, '');
+                episodesList.set(i, {
+                  episodeNum: episode?.number.toString().replace(/"/g, ''),
+                  title: name,
+                  description,
+                  thumbnail,
+                });
+                continue;
+              }
+              episodesList.set(i, {
+                episodeNum: undefined,
+                title: undefined,
+                description: undefined,
+                thumbnail,
+              });
+            }
+          }
+        });
+      }
+    }
+
+    const newEpisodeList: IAnimeEpisode[] = [];
+    if (possibleProviderEpisodes?.length !== 0) {
+      possibleProviderEpisodes?.forEach((ep: any, i: any) => {
+        const j = (i + 1).toString();
+        newEpisodeList.push({
+          id: ep.id as string,
+          title: ep.title ?? episodesList.get(j)?.title ?? null,
+          image: ep.image ?? episodesList.get(j)?.thumbnail ?? null,
+          number: ep.number as number,
+          description: ep.description ?? episodesList.get(j)?.description ?? null,
+          url: (ep.url as string) ?? null,
+        });
+      });
+    }
+
+    return newEpisodeList;
+  };
 
   /**
    *
@@ -292,23 +611,23 @@ class Myanimelist extends AnimeParser {
 
 export default Myanimelist;
 
-(async () => {
-  const mal = new Myanimelist();
-  console.log(await mal.search('Naruto'));
-  //console.log((await mal.fetchMalInfoById("1535")));
-  // setInterval(async function(){
-  //     let numReqs = 1;
-  //     let promises = [];
-  //     for(let i = 0; i < numReqs; i++){
-  //         promises.push(mal.fetchMalInfoById("28223"));
-  //     }
-  //     let data : IAnimeInfo[] = await Promise.all(promises);
+// (async () => {
+//   const mal = new Myanimelist();
+//   console.log(await mal.fetchAnimeInfo('21'));
+//   //console.log((await mal.fetchMalInfoById("1535")));
+//   // setInterval(async function(){
+//   //     let numReqs = 1;
+//   //     let promises = [];
+//   //     for(let i = 0; i < numReqs; i++){
+//   //         promises.push(mal.fetchMalInfoById("28223"));
+//   //     }
+//   //     let data : IAnimeInfo[] = await Promise.all(promises);
 
-  //     for(let i = 0; i < numReqs; i++){
-  //         assert(data[i].rating === 8.161);
-  //     }
+//   //     for(let i = 0; i < numReqs; i++){
+//   //         assert(data[i].rating === 8.161);
+//   //     }
 
-  //     count+=numReqs;
-  //     console.log("Count: ", count, "Time: ", (performance.now() - start));
-  // },1000);
-})();
+//   //     count+=numReqs;
+//   //     console.log("Count: ", count, "Time: ", (performance.now() - start));
+//   // },1000);
+// })();
