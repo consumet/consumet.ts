@@ -1,8 +1,8 @@
 import axios from 'axios';
 import { load } from 'cheerio';
 
-import { VideoExtractor, IVideo, ISubtitle, Intro } from '../../models';
-import { USER_AGENT } from '..';
+import { VideoExtractor, IVideo, ISubtitle, Intro } from '../models';
+import { USER_AGENT } from '../utils';
 import { Console } from 'console';
 
 /**

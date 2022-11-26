@@ -18,7 +18,7 @@ class Crunchyroll extends AnimeParser {
   override readonly name = 'Crunchyroll';
   protected override baseUrl = 'https://api.kamyroll.tech';
   protected override logo =
-    'https://user-images.githubusercontent.com/65111632/95666535-4f6dba80-0ba6-11eb-8583-e3a2074590e9.png';
+    'https://play-lh.googleusercontent.com/CjzbMcLbmTswzCGauGQExkFsSHvwjKEeWLbVVJx0B-J9G6OQ-UCl2eOuGBfaIozFqow';
   protected override classPath = 'ANIME.Crunchyroll';
 
   private locale = 'en-US';

@@ -11,7 +11,7 @@ import {
   Vrv,
   BilibiliExtractor,
   AsianLoad,
-} from './extractors';
+} from '../extractors';
 import {
   USER_AGENT,
   splitAuthor,
@@ -24,6 +24,9 @@ import {
   days,
   isJson,
   convertDuration,
+  substringAfter,
+  substringBefore,
+  compareTwoStrings,
 } from './utils';
 import {
   anilistSearchQuery,
@@ -74,4 +77,7 @@ export {
   convertDuration,
   BilibiliExtractor,
   AsianLoad,
+  substringAfter,
+  substringBefore,
+  compareTwoStrings,
 };

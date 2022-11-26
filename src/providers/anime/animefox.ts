@@ -12,7 +12,7 @@ import {
   MediaFormat,
 } from '../../models';
 
-import { GogoCDN } from '../../utils';
+import { GogoCDN } from '../../extractors';
 
 class AnimeFox extends AnimeParser {
   override readonly name = 'AnimeFox';

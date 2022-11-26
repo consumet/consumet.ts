@@ -131,3 +131,13 @@ export const compareTwoStrings = (first: string, second: string): number => {
 
   return (2.0 * intersectionSize) / (first.length + second.length - 2);
 };
+
+export const substringAfter = (str: string, toFind: string) => {
+  let index = str.indexOf(toFind);
+  return index == -1 ? '' : str.substring(index + toFind.length);
+};
+
+export const substringBefore = (str: string, toFind: string) => {
+  let index = str.indexOf(toFind);
+  return index == -1 ? '' : str.substring(0, index);
+};

@@ -12,7 +12,8 @@ import {
   IEpisodeServer,
   StreamingServers,
 } from '../../models';
-import { GogoCDN, USER_AGENT, Vrv } from '../../utils';
+import { GogoCDN, Vrv } from '../../extractors';
+import { USER_AGENT } from '../../utils';
 
 class AniMixPlay extends AnimeParser {
   override readonly name = 'AniMixPlay';

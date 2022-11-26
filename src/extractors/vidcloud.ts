@@ -1,9 +1,9 @@
 import axios from 'axios';
 import CryptoJS from 'crypto-js';
-import WebSocket from 'ws';
+// import WebSocket from 'ws';
 
-import { VideoExtractor, IVideo, ISubtitle, Intro } from '../../models';
-import { USER_AGENT, isJson } from '..';
+import { VideoExtractor, IVideo, ISubtitle, Intro } from '../models';
+import { USER_AGENT, isJson } from '../utils';
 
 class VidCloud extends VideoExtractor {
   protected override serverName = 'VidCloud';
@@ -96,28 +96,28 @@ class VidCloud extends VideoExtractor {
     }
   };
 
-  private wss = async (iframeId: string): Promise<any> => {
-    const ws = new WebSocket('wss://wsx.dokicloud.one/socket.io/?EIO=4&transport=websocket');
-    ws.onopen = () => {
-      ws.send('40');
-    };
-    return await new Promise(resolve => {
-      let sid = '';
-      let res: { sid: string; sources: any[]; tracks: any[] } = { sid: '', sources: [], tracks: [] };
-      ws.onmessage = e => {
-        const data = e.data.toString();
-        if (data.startsWith('40')) {
-          res.sid = JSON.parse(data.slice(2)).sid;
-          ws.send(`42["getSources",{"id":"${iframeId}"}]`);
-        } else if (data.startsWith('42["getSources"')) {
-          const ress = JSON.parse(data.slice(2))[1];
-          res.sources = ress.sources;
-          res.tracks = ress.tracks;
-          resolve(res);
-        }
-      };
-    });
-  };
+  // private wss = async (iframeId: string): Promise<any> => {
+  //   const ws = new WebSocket('wss://wsx.dokicloud.one/socket.io/?EIO=4&transport=websocket');
+  //   ws.onopen = () => {
+  //     ws.send('40');
+  //   };
+  //   return await new Promise(resolve => {
+  //     let sid = '';
+  //     let res: { sid: string; sources: any[]; tracks: any[] } = { sid: '', sources: [], tracks: [] };
+  //     ws.onmessage = e => {
+  //       const data = e.data.toString();
+  //       if (data.startsWith('40')) {
+  //         res.sid = JSON.parse(data.slice(2)).sid;
+  //         ws.send(`42["getSources",{"id":"${iframeId}"}]`);
+  //       } else if (data.startsWith('42["getSources"')) {
+  //         const ress = JSON.parse(data.slice(2))[1];
+  //         res.sources = ress.sources;
+  //         res.tracks = ress.tracks;
+  //         resolve(res);
+  //       }
+  //     };
+  //   });
+  // };
 }
 
 export default VidCloud;
