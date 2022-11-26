@@ -205,6 +205,11 @@ class Gogoanime extends AnimeParser {
         case StreamingServers.GogoCDN:
           serverUrl = new URL(`https:${$('#load_anime > div > div > iframe').attr('src')}`);
           break;
+        case StreamingServers.VidStreaming:
+          serverUrl = new URL(
+            `https:${$('div.anime_video_body > div.anime_muti_link > ul > li.vidcdn > a').attr('data-video')}`
+          );
+          break;
         case StreamingServers.StreamSB:
           serverUrl = new URL(
             $('div.anime_video_body > div.anime_muti_link > ul > li.streamsb > a').attr('data-video')!
