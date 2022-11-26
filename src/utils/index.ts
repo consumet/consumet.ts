@@ -26,6 +26,7 @@ import {
   convertDuration,
   substringAfter,
   substringBefore,
+  compareTwoStrings,
 } from './utils';
 import {
   anilistSearchQuery,
@@ -78,4 +79,5 @@ export {
   AsianLoad,
   substringAfter,
   substringBefore,
+  compareTwoStrings,
 };
