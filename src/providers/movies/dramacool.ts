@@ -11,7 +11,7 @@ import {
   IMovieResult,
   ISearch,
 } from '../../models';
-import { MixDrop, VidCloud } from '../../utils';
+import { MixDrop, VidCloud } from '../../extractors';
 
 class Dramacool extends MovieParser {
   override readonly name = 'Dramacool';

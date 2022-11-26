@@ -15,7 +15,8 @@ import {
   StreamingServers,
   MediaFormat,
 } from '../../models';
-import { range, StreamTape, USER_AGENT, VizCloud, Filemoon } from '../../utils';
+import { StreamTape, VizCloud, Filemoon } from '../../extractors';
+import { USER_AGENT, range } from '../../utils';
 
 /**
  * **Use at your own risk :)** 9anime devs keep changing the keys every week

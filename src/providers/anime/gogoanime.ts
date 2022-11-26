@@ -14,7 +14,8 @@ import {
   ISource,
   MediaFormat,
 } from '../../models';
-import { GogoCDN, StreamSB, USER_AGENT } from '../../utils';
+import { USER_AGENT } from '../../utils';
+import { GogoCDN, StreamSB } from '../../extractors';
 
 class Gogoanime extends AnimeParser {
   override readonly name = 'Gogoanime';

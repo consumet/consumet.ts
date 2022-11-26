@@ -1,7 +1,4 @@
 import axios from 'axios';
-import { load } from 'cheerio';
-import { Console } from 'console';
-import anime from '.';
 
 import {
   AnimeParser,

@@ -10,7 +10,7 @@ import {
   ISubtitle,
   SubOrSub,
 } from '../../models';
-import { BilibiliExtractor } from '../../utils';
+import { BilibiliExtractor } from '../../extractors';
 
 class Bilibili extends AnimeParser {
   override readonly name = 'Bilibili';

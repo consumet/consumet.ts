@@ -15,7 +15,8 @@ import {
   SubOrSub,
 } from '../../models';
 
-import { StreamSB, USER_AGENT, RapidCloud, StreamTape } from '../../utils';
+import { StreamSB, RapidCloud, StreamTape } from '../../utils';
+import { USER_AGENT } from '../../utils';
 
 class Zoro extends AnimeParser {
   override readonly name = 'Zoro';
