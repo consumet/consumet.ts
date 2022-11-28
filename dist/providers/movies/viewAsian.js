@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const axios_1 = __importDefault(require("axios"));
 const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
-const utils_1 = require("../../utils");
+const extractors_1 = require("../../extractors");
 class ViewAsian extends models_1.MovieParser {
     constructor() {
         super(...arguments);
@@ -97,18 +97,18 @@ class ViewAsian extends models_1.MovieParser {
                 const serverUrl = new URL(episodeId);
                 switch (server) {
                     case models_1.StreamingServers.AsianLoad:
-                        return Object.assign({}, (await new utils_1.AsianLoad().extract(serverUrl)));
+                        return Object.assign({}, (await new extractors_1.AsianLoad().extract(serverUrl)));
                     case models_1.StreamingServers.MixDrop:
                         return {
-                            sources: await new utils_1.MixDrop().extract(serverUrl),
+                            sources: await new extractors_1.MixDrop().extract(serverUrl),
                         };
                     case models_1.StreamingServers.StreamTape:
                         return {
-                            sources: await new utils_1.StreamTape().extract(serverUrl),
+                            sources: await new extractors_1.StreamTape().extract(serverUrl),
                         };
                     case models_1.StreamingServers.StreamSB:
                         return {
-                            sources: await new utils_1.StreamSB().extract(serverUrl),
+                            sources: await new extractors_1.StreamSB().extract(serverUrl),
                         };
                     default:
                         throw new Error('Server not supported');

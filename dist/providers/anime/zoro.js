@@ -7,6 +7,7 @@ const axios_1 = __importDefault(require("axios"));
 const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
 const utils_1 = require("../../utils");
+const utils_2 = require("../../utils");
 class Zoro extends models_1.AnimeParser {
     constructor() {
         super(...arguments);
@@ -131,12 +132,12 @@ class Zoro extends models_1.AnimeParser {
                         return Object.assign({}, (await new utils_1.RapidCloud().extract(serverUrl)));
                     case models_1.StreamingServers.StreamSB:
                         return {
-                            headers: { Referer: serverUrl.href, watchsb: 'streamsb', 'User-Agent': utils_1.USER_AGENT },
+                            headers: { Referer: serverUrl.href, watchsb: 'streamsb', 'User-Agent': utils_2.USER_AGENT },
                             sources: await new utils_1.StreamSB().extract(serverUrl, true),
                         };
                     case models_1.StreamingServers.StreamTape:
                         return {
-                            headers: { Referer: serverUrl.href, 'User-Agent': utils_1.USER_AGENT },
+                            headers: { Referer: serverUrl.href, 'User-Agent': utils_2.USER_AGENT },
                             sources: await new utils_1.StreamTape().extract(serverUrl),
                         };
                     default:

@@ -1478,9 +1478,8 @@ class Anilist extends models_1.AnimeParser {
             title.romaji = (_c = title.romaji) !== null && _c !== void 0 ? _c : title.english;
             title.english = title.english.toLowerCase();
             title.romaji = title.romaji.toLowerCase();
-            if (title.english === title.romaji) {
+            if (title.english === title.romaji)
                 return await this.findMangaSlug(provider, title.english, malId);
-            }
             const romajiPossibleEpisodes = this.findMangaSlug(provider, title.romaji, malId);
             if (romajiPossibleEpisodes) {
                 return romajiPossibleEpisodes;

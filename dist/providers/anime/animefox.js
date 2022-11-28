@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const axios_1 = __importDefault(require("axios"));
 const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
-const utils_1 = require("../../utils");
+const extractors_1 = require("../../extractors");
 class AnimeFox extends models_1.AnimeParser {
     constructor() {
         super(...arguments);
@@ -168,7 +168,7 @@ class AnimeFox extends models_1.AnimeParser {
                 const iframe = $('#iframe-to-load').attr('src') || '';
                 const streamUrl = `https://goload.io/streaming.php?id=${iframe.split('=').pop()}`;
                 return {
-                    sources: await new utils_1.GogoCDN().extract(new URL(streamUrl)),
+                    sources: await new extractors_1.GogoCDN().extract(new URL(streamUrl)),
                 };
             }
             catch (err) {

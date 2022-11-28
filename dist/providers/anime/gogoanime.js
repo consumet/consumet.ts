@@ -7,12 +7,13 @@ const axios_1 = __importDefault(require("axios"));
 const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
 const utils_1 = require("../../utils");
+const extractors_1 = require("../../extractors");
 class Gogoanime extends models_1.AnimeParser {
     constructor() {
         super(...arguments);
         this.name = 'Gogoanime';
         this.baseUrl = 'https://www.gogoanime.dk';
-        this.logo = 'https://i0.wp.com/cloudfuji.com/wp-content/uploads/2021/12/gogoanime.png?fit=300%2C400&ssl=1';
+        this.logo = 'https://play-lh.googleusercontent.com/MaGEiAEhNHAJXcXKzqTNgxqRmhuKB1rCUgb15UrN_mWUNRnLpO5T1qja64oRasO7mn0';
         this.classPath = 'ANIME.Gogoanime';
         this.ajaxUrl = 'https://ajax.gogo-load.com/ajax';
         /**
@@ -144,17 +145,17 @@ class Gogoanime extends models_1.AnimeParser {
                     case models_1.StreamingServers.GogoCDN:
                         return {
                             headers: { Referer: serverUrl.href },
-                            sources: await new utils_1.GogoCDN().extract(serverUrl),
+                            sources: await new extractors_1.GogoCDN().extract(serverUrl),
                         };
                     case models_1.StreamingServers.StreamSB:
                         return {
                             headers: { Referer: serverUrl.href, watchsb: 'streamsb', 'User-Agent': utils_1.USER_AGENT },
-                            sources: await new utils_1.StreamSB().extract(serverUrl),
+                            sources: await new extractors_1.StreamSB().extract(serverUrl),
                         };
                     default:
                         return {
                             headers: { Referer: serverUrl.href },
-                            sources: await new utils_1.GogoCDN().extract(serverUrl),
+                            sources: await new extractors_1.GogoCDN().extract(serverUrl),
                         };
                 }
             }
@@ -165,6 +166,9 @@ class Gogoanime extends models_1.AnimeParser {
                 switch (server) {
                     case models_1.StreamingServers.GogoCDN:
                         serverUrl = new URL(`https:${$('#load_anime > div > div > iframe').attr('src')}`);
+                        break;
+                    case models_1.StreamingServers.VidStreaming:
+                        serverUrl = new URL(`https:${$('div.anime_video_body > div.anime_muti_link > ul > li.vidcdn > a').attr('data-video')}`);
                         break;
                     case models_1.StreamingServers.StreamSB:
                         serverUrl = new URL($('div.anime_video_body > div.anime_muti_link > ul > li.streamsb > a').attr('data-video'));
