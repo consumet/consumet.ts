@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.compareTwoStrings = exports.convertDuration = exports.isJson = exports.getDays = exports.capitalizeFirstLetter = exports.range = exports.genElement = exports.formatTitle = exports.floorID = exports.splitAuthor = exports.days = exports.USER_AGENT = void 0;
+exports.substringBefore = exports.substringAfter = exports.compareTwoStrings = exports.convertDuration = exports.isJson = exports.getDays = exports.capitalizeFirstLetter = exports.range = exports.genElement = exports.formatTitle = exports.floorID = exports.splitAuthor = exports.days = exports.USER_AGENT = void 0;
 const cheerio_1 = require("cheerio");
 exports.USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36';
 exports.days = ['Saturday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
@@ -125,4 +125,14 @@ const compareTwoStrings = (first, second) => {
     return (2.0 * intersectionSize) / (first.length + second.length - 2);
 };
 exports.compareTwoStrings = compareTwoStrings;
+const substringAfter = (str, toFind) => {
+    let index = str.indexOf(toFind);
+    return index == -1 ? '' : str.substring(index + toFind.length);
+};
+exports.substringAfter = substringAfter;
+const substringBefore = (str, toFind) => {
+    let index = str.indexOf(toFind);
+    return index == -1 ? '' : str.substring(0, index);
+};
+exports.substringBefore = substringBefore;
 //# sourceMappingURL=utils.js.map

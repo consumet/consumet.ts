@@ -148,6 +148,58 @@ class Enime extends models_1.AnimeParser {
             });
             return animeInfo;
         };
+        /**
+         * @param id mal id
+         */
+        this.fetchAnimeInfoByMalId = async (id, type) => {
+            var _a, _b;
+            const animeInfo = {
+                id: id,
+                title: '',
+            };
+            const { data } = await axios_1.default.get(`${this.enimeApi}/mapping/mal/${id}`).catch(err => {
+                throw new Error(err);
+            });
+            animeInfo.anilistId = data.anilistId;
+            animeInfo.malId = data.mappings.mal;
+            animeInfo.title = (_b = (_a = data.title.english) !== null && _a !== void 0 ? _a : data.title.romaji) !== null && _b !== void 0 ? _b : data.title.native;
+            animeInfo.image = data.coverImage;
+            animeInfo.cover = data.bannerImage;
+            animeInfo.season = data.season;
+            animeInfo.releaseDate = data.year;
+            animeInfo.duration = data.duration;
+            animeInfo.popularity = data.popularity;
+            animeInfo.description = data.description;
+            animeInfo.genres = data.genre;
+            animeInfo.rating = data.averageScore;
+            animeInfo.status = data.status;
+            animeInfo.synonyms = data.synonyms;
+            animeInfo.mappings = data.mappings;
+            animeInfo.type = data.format;
+            data.episodes = data.episodes.sort((a, b) => b.number - a.number);
+            let useType = undefined;
+            if (type == 'gogoanime' &&
+                data.episodes.every((e) => e.sources.find((s) => s.target.includes('episode'))))
+                useType = 'gogoanime';
+            else if (type == 'zoro' &&
+                data.episodes.every((e) => e.sources.find((s) => s.target.includes('?ep='))))
+                useType = 'zoro';
+            else
+                throw new Error('Anime not found on Enime');
+            animeInfo.episodes = data.episodes.map((episode) => {
+                var _a, _b, _c;
+                return ({
+                    id: episode.id,
+                    slug: (_b = (_a = episode.sources
+                        .find((source) => useType === 'zoro' ? source.target.includes('?ep=') : source.target.includes('episode'))) === null || _a === void 0 ? void 0 : _a.target.split('/').pop().replace('?ep=', '$episode$')) === null || _b === void 0 ? void 0 : _b.concat(useType === 'zoro' ? '$sub' : ''),
+                    description: episode.description,
+                    number: episode.number,
+                    title: episode.title,
+                    image: (_c = episode === null || episode === void 0 ? void 0 : episode.image) !== null && _c !== void 0 ? _c : animeInfo.image,
+                });
+            });
+            return animeInfo;
+        };
         this.fetchEpisodeSources = async (episodeId, ...args) => {
             if (episodeId.includes('enime'))
                 return this.fetchSourceFromSourceId(episodeId.replace('-enime', ''));

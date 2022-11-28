@@ -7,6 +7,7 @@ const axios_1 = __importDefault(require("axios"));
 const cheerio_1 = require("cheerio");
 const form_data_1 = __importDefault(require("form-data"));
 const models_1 = require("../../models");
+const extractors_1 = require("../../extractors");
 const utils_1 = require("../../utils");
 class AniMixPlay extends models_1.AnimeParser {
     constructor() {
@@ -95,7 +96,7 @@ class AniMixPlay extends models_1.AnimeParser {
             // const iframe = data.match(/(?<=<iframe src=").*(?=")/g)![0];
             // console.log(iframe);
             return {
-                sources: await new utils_1.GogoCDN().extract(new URL(episodeId)),
+                sources: await new extractors_1.GogoCDN().extract(new URL(episodeId)),
             };
         };
         /**

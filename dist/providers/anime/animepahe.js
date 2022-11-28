@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const axios_1 = __importDefault(require("axios"));
 const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
-const utils_1 = require("../../utils");
+const extractors_1 = require("../../extractors");
 class AnimePahe extends models_1.AnimeParser {
     constructor() {
         super(...arguments);
@@ -142,7 +142,7 @@ class AnimePahe extends models_1.AnimeParser {
                     sources: [],
                 };
                 for (const link of links) {
-                    const res = await new utils_1.Kwik().extract(new URL(link.iframe));
+                    const res = await new extractors_1.Kwik().extract(new URL(link.iframe));
                     res[0].quality = link.quality;
                     res[0].size = link.size;
                     iSource.sources.push(res[0]);

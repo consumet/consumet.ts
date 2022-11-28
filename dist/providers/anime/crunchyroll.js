@@ -11,7 +11,7 @@ class Crunchyroll extends models_1.AnimeParser {
         super(...arguments);
         this.name = 'Crunchyroll';
         this.baseUrl = 'https://api.kamyroll.tech';
-        this.logo = 'https://user-images.githubusercontent.com/65111632/95666535-4f6dba80-0ba6-11eb-8583-e3a2074590e9.png';
+        this.logo = 'https://play-lh.googleusercontent.com/CjzbMcLbmTswzCGauGQExkFsSHvwjKEeWLbVVJx0B-J9G6OQ-UCl2eOuGBfaIozFqow';
         this.classPath = 'ANIME.Crunchyroll';
         this.locale = 'en-US';
         this.channelId = 'crunchyroll';

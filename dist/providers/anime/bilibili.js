@@ -5,13 +5,13 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const axios_1 = __importDefault(require("axios"));
 const models_1 = require("../../models");
-const utils_1 = require("../../utils");
+const extractors_1 = require("../../extractors");
 class Bilibili extends models_1.AnimeParser {
     constructor(cookie, locale) {
         super();
         this.name = 'Bilibili';
         this.baseUrl = 'https://bilibili.tv';
-        this.logo = 'https://www.apksforfree.com/wp-content/uploads/2021/10/oie_1413343NvdZCZR5.png';
+        this.logo = 'https://w7.pngwing.com/pngs/656/356/png-transparent-bilibili-thumbnail-social-media-icons.png';
         this.classPath = 'ANIME.Bilibili';
         this.apiUrl = 'https://api.bilibili.tv/intl/gateway/web';
         this.cookie = '';
@@ -79,7 +79,7 @@ class Bilibili extends models_1.AnimeParser {
             const { data } = await axios_1.default.get(`${this.sgProxy}/${this.apiUrl}/v2/subtitle?s_locale=${this.locale}&platform=web&episode_id=${episodeId}`, { headers: { cookie: this.cookie } });
             const ss = await axios_1.default.get(`${this.sgProxy}/${this.apiUrl}/playurl?s_locale=${this.locale}&platform=web&ep_id=${episodeId}`, { headers: { cookie: this.cookie } });
             console.log(ss.data);
-            const sources = await new utils_1.BilibiliExtractor().extract(episodeId);
+            const sources = await new extractors_1.BilibiliExtractor().extract(episodeId);
             return {
                 sources: sources.sources,
                 subtitles: data.data.subtitles.map((sub) => ({

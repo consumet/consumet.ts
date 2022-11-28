@@ -7,6 +7,7 @@ const cheerio_1 = require("cheerio");
 const axios_1 = __importDefault(require("axios"));
 const ascii_url_encoder_1 = require("ascii-url-encoder");
 const models_1 = require("../../models");
+const extractors_1 = require("../../extractors");
 const utils_1 = require("../../utils");
 /**
  * **Use at your own risk :)** 9anime devs keep changing the keys every week
@@ -211,22 +212,22 @@ class NineAnime extends models_1.AnimeParser {
                 case models_1.StreamingServers.StreamTape:
                     return {
                         headers: { Referer: serverUrl.href, 'User-Agent': utils_1.USER_AGENT },
-                        sources: await new utils_1.StreamTape().extract(serverUrl),
+                        sources: await new extractors_1.StreamTape().extract(serverUrl),
                     };
                 case models_1.StreamingServers.VizCloud:
                     return {
                         headers: { Referer: serverUrl.href, 'User-Agent': utils_1.USER_AGENT },
-                        sources: await new utils_1.VizCloud().extract(serverUrl, this.cipher, this.encrypt),
+                        sources: await new extractors_1.VizCloud().extract(serverUrl, this.cipher, this.encrypt),
                     };
                 case models_1.StreamingServers.MyCloud:
                     return {
                         headers: { Referer: serverUrl.href, 'User-Agent': utils_1.USER_AGENT },
-                        sources: await new utils_1.VizCloud().extract(serverUrl, this.cipher, this.encrypt),
+                        sources: await new extractors_1.VizCloud().extract(serverUrl, this.cipher, this.encrypt),
                     };
                 case models_1.StreamingServers.Filemoon:
                     return {
                         headers: { Referer: serverUrl.href, 'User-Agent': utils_1.USER_AGENT },
-                        sources: await new utils_1.Filemoon().extract(serverUrl),
+                        sources: await new extractors_1.Filemoon().extract(serverUrl),
                     };
             }
         }
