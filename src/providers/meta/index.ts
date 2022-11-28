@@ -1,3 +1,4 @@
 import Anilist from './anilist';
+import Myanimelist from './mal';
 
-export default { Anilist };
+export default { Anilist, Myanimelist };
