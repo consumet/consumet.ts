@@ -1133,7 +1133,9 @@ class Anilist extends models_1.AnimeParser {
                 query: (0, utils_1.anilistMediaDetailQuery)(id),
             };
             try {
-                const { data } = await axios_1.default.post(this.proxyUrl ? this.proxyUrl + this.anilistGraphqlUrl : this.anilistGraphqlUrl, options).catch(() => {
+                const { data } = await axios_1.default
+                    .post(this.proxyUrl ? this.proxyUrl + this.anilistGraphqlUrl : this.anilistGraphqlUrl, options)
+                    .catch(() => {
                     throw new Error('Media not found');
                 });
                 animeInfo.malId = data.data.Media.idMal;
@@ -1731,16 +1733,12 @@ Anilist.Manga = class Manga {
     }
 };
 // (async () => {
-//   const ani = new Anilist(
-//     await Crunchyroll.create(
-//       undefined,
-//       'O+xmBPFx1UxoAiQYjDc9YYq01SdCZo1ABBoHDrNuIScEIKmYfIZoj57l1xeoLWGW3R2ZlxPlyqUf5R3hWzx+xSQnmPyk3GoUIFF19P0oCqp2B9ivNhtYiqir06rBK71mRzIjVUCmN3C7MvQUhH82QRyvR0mtMgSk0QQi1a3Nzhs='
-//     )
-//   );
+//   const ani = new Anilist();
 //   console.time('fetch');
-//   const se = await ani.advancedSearch('one piece');
-//   //console.log(se);
-//   const res = await ani.fetchEpisodesListById('98659');
+//   for (let i = 0; i < 10; i++) {
+//     const res = await anifetchMangaInfo(1);.
+//     console.log(res);
+//   }
 //   //const sources = await ani.fetchEpisodeSources(res.episodes![0].id);
 //   //console.log(res);
 //   console.timeEnd('fetch');

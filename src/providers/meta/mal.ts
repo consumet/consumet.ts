@@ -129,11 +129,12 @@ class Myanimelist extends AnimeParser {
 
     let { data } = await axios.request({
       method: 'get',
-      url: `https://myanimelist.net/anime.php?q=${query}&cat=anime&show=${50 * page - 1}`,
+      url: `${this.baseUrl}anime.php?q=${query}&cat=anime&show=${50 * page - 1}`,
       headers: {
         'user-agent':
           'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35',
       },
+
     });
 
     let $ = load(data);
@@ -199,7 +200,7 @@ class Myanimelist extends AnimeParser {
 
     let { data } = await axios.request({
       method: 'get',
-      url: `https://myanimelist.net/anime/${id}`,
+      url: `${this.baseUrl}anime/${id}`,
       headers: {
         'user-agent':
           'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35',
