@@ -4,5 +4,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const anilist_1 = __importDefault(require("./anilist"));
-exports.default = { Anilist: anilist_1.default };
+const mal_1 = __importDefault(require("./mal"));
+exports.default = { Anilist: anilist_1.default, Myanimelist: mal_1.default };
 //# sourceMappingURL=index.js.map
