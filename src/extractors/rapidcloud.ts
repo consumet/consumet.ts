@@ -2,7 +2,7 @@ import axios from 'axios';
 import { load } from 'cheerio';
 import CryptoJS from 'crypto-js';
 
-import { VideoExtractor, IVideo, ISubtitle, Intro } from '../../models';
+import { VideoExtractor, IVideo, ISubtitle, Intro } from '../models';
 
 class RapidCloud extends VideoExtractor {
   protected override serverName = 'RapidCloud';

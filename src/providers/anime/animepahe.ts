@@ -13,7 +13,7 @@ import {
   MediaFormat,
   SubOrSub,
 } from '../../models';
-import { Kwik } from '../../utils';
+import { Kwik } from '../../extractors';
 
 class AnimePahe extends AnimeParser {
   override readonly name = 'AnimePahe';
@@ -73,7 +73,7 @@ class AnimePahe extends AnimeParser {
       animeInfo.image = $('header > div > div > div > a > img').attr('data-src');
       animeInfo.cover = `https:${$('body > section > article > div.header-wrapper > div').attr('data-src')}`;
       animeInfo.description = $('div.col-sm-8.anime-summary > div').text();
-      animeInfo.subOrDub = SubOrSub.SUB
+      animeInfo.subOrDub = SubOrSub.SUB;
       animeInfo.hasSub = true;
       animeInfo.hasDub = false;
       animeInfo.genres = $('div.col-sm-4.anime-info > div > ul > li')

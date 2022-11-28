@@ -11,7 +11,7 @@ import {
   IMovieResult,
   ISearch,
 } from '../../models';
-import { MixDrop, AsianLoad, StreamTape, StreamSB } from '../../utils';
+import { MixDrop, AsianLoad, StreamTape, StreamSB } from '../../extractors';
 
 class ViewAsian extends MovieParser {
   override readonly name = 'ViewAsian';

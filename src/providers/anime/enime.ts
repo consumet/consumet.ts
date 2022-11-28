@@ -1,7 +1,4 @@
 import axios from 'axios';
-import { load } from 'cheerio';
-import { Console } from 'console';
-import anime from '.';
 
 import {
   AnimeParser,
@@ -129,6 +126,71 @@ class Enime extends AnimeParser {
       title: '',
     };
     const { data } = await axios.get(`${this.enimeApi}/mapping/anilist/${id}`).catch(err => {
+      throw new Error(err);
+    });
+
+    animeInfo.anilistId = data.anilistId;
+    animeInfo.malId = data.mappings.mal;
+    animeInfo.title = data.title.english ?? data.title.romaji ?? data.title.native;
+    animeInfo.image = data.coverImage;
+    animeInfo.cover = data.bannerImage;
+    animeInfo.season = data.season;
+    animeInfo.releaseDate = data.year;
+    animeInfo.duration = data.duration;
+    animeInfo.popularity = data.popularity;
+    animeInfo.description = data.description;
+    animeInfo.genres = data.genre;
+    animeInfo.rating = data.averageScore;
+    animeInfo.status = data.status as MediaStatus;
+    animeInfo.synonyms = data.synonyms;
+    animeInfo.mappings = data.mappings;
+    animeInfo.type = data.format as MediaFormat;
+
+    data.episodes = data.episodes.sort((a: any, b: any) => b.number - a.number);
+
+    let useType: 'zoro' | 'gogoanime' | undefined = undefined;
+    if (
+      type == 'gogoanime' &&
+      data.episodes.every((e: any) => e.sources.find((s: any) => s.target.includes('episode')))
+    )
+      useType = 'gogoanime';
+    else if (
+      type == 'zoro' &&
+      data.episodes.every((e: any) => e.sources.find((s: any) => s.target.includes('?ep=')))
+    )
+      useType = 'zoro';
+    else throw new Error('Anime not found on Enime');
+
+    animeInfo.episodes = data.episodes.map(
+      (episode: any): IAnimeEpisode => ({
+        id: episode.id,
+        slug: episode.sources
+          .find((source: any) =>
+            useType === 'zoro' ? source.target.includes('?ep=') : source.target.includes('episode')
+          )
+          ?.target.split('/')
+          .pop()
+          .replace('?ep=', '$episode$')
+          ?.concat(useType === 'zoro' ? '$sub' : '')!,
+        description: episode.description,
+        number: episode.number,
+        title: episode.title,
+        image: episode?.image ?? animeInfo.image,
+      })
+    );
+
+    return animeInfo;
+  };
+
+  /**
+   * @param id mal id
+   */
+  fetchAnimeInfoByMalId = async (id: string, type?: 'gogoanime' | 'zoro'): Promise<IAnimeInfo> => {
+    const animeInfo: IAnimeInfo = {
+      id: id,
+      title: '',
+    };
+    const { data } = await axios.get(`${this.enimeApi}/mapping/mal/${id}`).catch(err => {
       throw new Error(err);
     });
 

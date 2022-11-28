@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { load } from 'cheerio';
 
-import { VideoExtractor, IVideo } from '../../models';
+import { VideoExtractor, IVideo } from '../models';
 
 class Kwik extends VideoExtractor {
   protected override serverName = 'kwik';

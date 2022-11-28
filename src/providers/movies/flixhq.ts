@@ -11,7 +11,7 @@ import {
   IMovieResult,
   ISearch,
 } from '../../models';
-import { MixDrop, VidCloud } from '../../utils';
+import { MixDrop, VidCloud } from '../../extractors';
 
 class FlixHQ extends MovieParser {
   override readonly name = 'FlixHQ';
