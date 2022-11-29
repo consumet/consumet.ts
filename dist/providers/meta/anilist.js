@@ -452,13 +452,17 @@ class Anilist extends models_1.AnimeParser {
                     (animeInfo.status === models_1.MediaStatus.ONGOING ||
                         (0, utils_1.range)({ from: 2000, to: new Date().getFullYear() + 1 }).includes(parseInt(animeInfo.releaseDate)))) {
                     try {
-                        animeInfo.episodes = (_49 = (await new enime_1.default().fetchAnimeInfoByAnilistId(id, this.provider.name.toLowerCase())).episodes) === null || _49 === void 0 ? void 0 : _49.map((item) => ({
-                            id: item.slug,
-                            title: item.title,
-                            description: item.description,
-                            number: item.number,
-                            image: item.image,
-                        }));
+                        animeInfo.episodes = (_49 = (await new enime_1.default().fetchAnimeInfoByAnilistId(id, this.provider.name.toLowerCase())).episodes) === null || _49 === void 0 ? void 0 : _49.map((item) => {
+                            var _b;
+                            return ({
+                                id: item.slug,
+                                title: item.title,
+                                description: item.description,
+                                number: item.number,
+                                image: item.image,
+                                airDate: (_b = item.airDate) !== null && _b !== void 0 ? _b : null,
+                            });
+                        });
                         (_50 = animeInfo.episodes) === null || _50 === void 0 ? void 0 : _50.reverse();
                     }
                     catch (err) {
@@ -1734,10 +1738,8 @@ Anilist.Manga = class Manga {
 // (async () => {
 //   const ani = new Anilist();
 //   console.time('fetch');
-//   for (let i = 0; i < 10; i++) {
-//     const res = await anifetchMangaInfo(1);.
-//     console.log(res);
-//   }
+//   const anime = await ani.fetchAnimeInfo('21');
+//   console.log(anime);
 //   //const sources = await ani.fetchEpisodeSources(res.episodes![0].id);
 //   //console.log(res);
 //   console.timeEnd('fetch');

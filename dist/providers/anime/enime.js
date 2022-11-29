@@ -144,6 +144,7 @@ class Enime extends models_1.AnimeParser {
                     number: episode.number,
                     title: episode.title,
                     image: (_c = episode === null || episode === void 0 ? void 0 : episode.image) !== null && _c !== void 0 ? _c : animeInfo.image,
+                    airDate: episode.airedAt,
                 });
             });
             return animeInfo;

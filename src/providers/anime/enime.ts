@@ -176,6 +176,7 @@ class Enime extends AnimeParser {
         number: episode.number,
         title: episode.title,
         image: episode?.image ?? animeInfo.image,
+        airDate: episode.airedAt,
       })
     );
 

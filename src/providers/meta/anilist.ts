@@ -554,6 +554,7 @@ class Anilist extends AnimeParser {
             description: item.description,
             number: item.number,
             image: item.image,
+            airDate: item.airDate ?? null,
           }));
           animeInfo.episodes?.reverse();
         } catch (err) {
@@ -2076,11 +2077,10 @@ class Anilist extends AnimeParser {
 // (async () => {
 //   const ani = new Anilist();
 //   console.time('fetch');
+//   const anime = await ani.fetchAnimeInfo('21');
 
-//   for (let i = 0; i < 10; i++) {
-//     const res = await anifetchMangaInfo(1);.
-//     console.log(res);
-//   }
+//   console.log(anime);
+
 //   //const sources = await ani.fetchEpisodeSources(res.episodes![0].id);
 //   //console.log(res);
 //   console.timeEnd('fetch');
