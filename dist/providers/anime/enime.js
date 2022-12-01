@@ -124,6 +124,7 @@ class Enime extends models_1.AnimeParser {
             animeInfo.synonyms = data.synonyms;
             animeInfo.mappings = data.mappings;
             animeInfo.type = data.format;
+            animeInfo.mappings = data.mappings;
             data.episodes = data.episodes.sort((a, b) => b.number - a.number);
             let useType = undefined;
             if (type == 'gogoanime' &&

@@ -452,7 +452,9 @@ class Anilist extends models_1.AnimeParser {
                     (animeInfo.status === models_1.MediaStatus.ONGOING ||
                         (0, utils_1.range)({ from: 2000, to: new Date().getFullYear() + 1 }).includes(parseInt(animeInfo.releaseDate)))) {
                     try {
-                        animeInfo.episodes = (_49 = (await new enime_1.default().fetchAnimeInfoByAnilistId(id, this.provider.name.toLowerCase())).episodes) === null || _49 === void 0 ? void 0 : _49.map((item) => {
+                        const enimeInfo = await new enime_1.default().fetchAnimeInfoByAnilistId(id, this.provider.name.toLowerCase());
+                        animeInfo.mappings = enimeInfo.mappings;
+                        animeInfo.episodes = (_49 = enimeInfo.episodes) === null || _49 === void 0 ? void 0 : _49.map((item) => {
                             var _b;
                             return ({
                                 id: item.slug,
