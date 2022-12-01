@@ -145,6 +145,7 @@ class Enime extends AnimeParser {
     animeInfo.synonyms = data.synonyms;
     animeInfo.mappings = data.mappings;
     animeInfo.type = data.format as MediaFormat;
+    animeInfo.mappings = data.mappings;
 
     data.episodes = data.episodes.sort((a: any, b: any) => b.number - a.number);
 

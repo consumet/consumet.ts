@@ -543,12 +543,12 @@ class Anilist extends AnimeParser {
           range({ from: 2000, to: new Date().getFullYear() + 1 }).includes(parseInt(animeInfo.releaseDate!)))
       ) {
         try {
-          animeInfo.episodes = (
-            await new Enime().fetchAnimeInfoByAnilistId(
-              id,
-              this.provider.name.toLowerCase() as 'gogoanime' | 'zoro'
-            )
-          ).episodes?.map((item: any) => ({
+          const enimeInfo = await new Enime().fetchAnimeInfoByAnilistId(
+            id,
+            this.provider.name.toLowerCase() as 'gogoanime' | 'zoro'
+          );
+          animeInfo.mappings = enimeInfo.mappings;
+          animeInfo.episodes = enimeInfo.episodes?.map((item: any) => ({
             id: item.slug,
             title: item.title,
             description: item.description,
