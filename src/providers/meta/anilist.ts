@@ -440,8 +440,6 @@ class Anilist extends AnimeParser {
       animeInfo.season = data.data.Media.season;
       animeInfo.studios = data.data.Media.studios.edges.map((item: any) => item.node.name);
       animeInfo.subOrDub = dub ? SubOrSub.DUB : SubOrSub.SUB;
-      animeInfo.hasSub = dub ? false : true;
-      animeInfo.hasDub = dub ? true : false;
       animeInfo.type = data.data.Media.format;
       animeInfo.recommendations = data.data.Media?.recommendations?.edges?.map((item: any) => ({
         id: item.node.mediaRecommendation?.id,
