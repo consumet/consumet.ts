@@ -16,6 +16,7 @@ import {
 } from '../../models';
 import { USER_AGENT } from '../../utils';
 import { GogoCDN, StreamSB } from '../../extractors';
+import { IGenreData } from '../../models/types';
 
 class Gogoanime extends AnimeParser {
   override readonly name = 'Gogoanime';
@@ -291,6 +292,35 @@ class Gogoanime extends AnimeParser {
       throw new Error('Something went wrong. Please try again later.');
     }
   };
+
+
+  fetchGenreInfo = async (genre: string, page: number = 1): Promise<ISearch<IGenreData>> => {
+    try {
+      const res = await axios.get(`${this.baseUrl}/genre/${genre}?page=${page}`);
+
+      const $ = load(res.data);
+
+      const genreInfo: IGenreData[] = [];
+
+      $('div.last_episodes > ul > li').each((i, elem) => {
+        genreInfo.push({
+          id: $(elem).find('p.name > a').attr('href')?.split('/')[2],
+          title: $(elem).find('p.name > a').attr('title'),
+          image: $(elem).find('div > a > img').attr('src'),
+          released: $(elem).find('p.released').text().replace('Released: ', '').trim(),
+          url: this.baseUrl + '/' + $(elem).find('p.name > a').attr('href'),
+        });
+      });
+
+      return {
+        currentPage: page,
+        results: genreInfo,
+      };
+    } catch (err) {
+      throw new Error('Something went wrong. Please try again later.');
+    }
+  };
+
 
   fetchTopAiring = async (page: number = 1): Promise<ISearch<IAnimeResult>> => {
     try {

@@ -14,6 +14,12 @@ test('returns a filled object of anime data', async () => {
   expect(data).not.toBeNull();
 });
 
+test("Returns genre info for gogoanime", async () => {
+  const gogoanime = new ANIME.Gogoanime();
+  const data = await gogoanime.fetchGenreInfo('cars', 2)
+  expect(data).not.toEqual([])
+})
+
 test('returns a filled array of servers', async () => {
   const gogoanime = new ANIME.Gogoanime();
   const data = await gogoanime.fetchEpisodeServers('spy-x-family-episode-9');
