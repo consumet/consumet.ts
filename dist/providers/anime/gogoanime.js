@@ -241,6 +241,30 @@ class Gogoanime extends models_1.AnimeParser {
                 throw new Error('Something went wrong. Please try again later.');
             }
         };
+        this.fetchGenreInfo = async (genre, page = 1) => {
+            try {
+                const res = await axios_1.default.get(`${this.baseUrl}/genre/${genre}?page=${page}`);
+                const $ = (0, cheerio_1.load)(res.data);
+                const genreInfo = [];
+                $('div.last_episodes > ul > li').each((i, elem) => {
+                    var _a;
+                    genreInfo.push({
+                        id: (_a = $(elem).find('p.name > a').attr('href')) === null || _a === void 0 ? void 0 : _a.split('/')[2],
+                        title: $(elem).find('p.name > a').attr('title'),
+                        image: $(elem).find('div > a > img').attr('src'),
+                        released: $(elem).find('p.released').text().replace('Released: ', '').trim(),
+                        url: this.baseUrl + '/' + $(elem).find('p.name > a').attr('href'),
+                    });
+                });
+                return {
+                    currentPage: page,
+                    results: genreInfo,
+                };
+            }
+            catch (err) {
+                throw new Error('Something went wrong. Please try again later.');
+            }
+        };
         this.fetchTopAiring = async (page = 1) => {
             try {
                 const res = await axios_1.default.get(`${this.ajaxUrl}/page-recent-release-ongoing.html?page=${page}`);

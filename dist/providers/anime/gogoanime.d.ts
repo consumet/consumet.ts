@@ -1,4 +1,5 @@
 import { AnimeParser, ISearch, IAnimeInfo, IEpisodeServer, StreamingServers, IAnimeResult, ISource } from '../../models';
+import { IGenreData } from '../../models/types';
 declare class Gogoanime extends AnimeParser {
     readonly name = "Gogoanime";
     protected baseUrl: string;
@@ -32,6 +33,7 @@ declare class Gogoanime extends AnimeParser {
      * @param type type of media. (optional) (default `1`) `1`: Japanese with subtitles, `2`: english/dub with no subtitles, `3`: chinese with english subtitles
      */
     fetchRecentEpisodes: (page?: number, type?: number) => Promise<ISearch<IAnimeResult>>;
+    fetchGenreInfo: (genre: string, page?: number) => Promise<ISearch<IGenreData>>;
     fetchTopAiring: (page?: number) => Promise<ISearch<IAnimeResult>>;
 }
 export default Gogoanime;

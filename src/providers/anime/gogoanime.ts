@@ -292,6 +292,35 @@ class Gogoanime extends AnimeParser {
     }
   };
 
+
+  fetchGenreInfo = async (genre: string, page: number = 1): Promise<ISearch<IAnimeResult>> => {
+    try {
+      const res = await axios.get(`${this.baseUrl}/genre/${genre}?page=${page}`);
+
+      const $ = load(res.data);
+
+      const genreInfo: IAnimeResult[] = [];
+
+      $('div.last_episodes > ul > li').each((i, elem) => {
+        genreInfo.push({
+          id: $(elem).find('p.name > a').attr('href')?.split('/')[2] as string,
+          title: $(elem).find('p.name > a').attr('title') as string,
+          image: $(elem).find('div > a > img').attr('src'),
+          released: $(elem).find('p.released').text().replace('Released: ', '').trim(),
+          url: this.baseUrl + '/' + $(elem).find('p.name > a').attr('href'),
+        });
+      });
+
+      return {
+        currentPage: page,
+        results: genreInfo,
+      };
+    } catch (err) {
+      throw new Error('Something went wrong. Please try again later.');
+    }
+  };
+
+
   fetchTopAiring = async (page: number = 1): Promise<ISearch<IAnimeResult>> => {
     try {
       const res = await axios.get(`${this.ajaxUrl}/page-recent-release-ongoing.html?page=${page}`);
