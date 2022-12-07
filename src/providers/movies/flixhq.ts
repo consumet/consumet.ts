@@ -103,7 +103,7 @@ class FlixHQ extends MovieParser {
       movieInfo.duration = $('span.item:nth-child(3)').text();
       movieInfo.rating = parseFloat($('span.item:nth-child(2)').text());
 
-      let ajaxReqUrl = (id: string, type: string, isSeasons: boolean = false) =>
+      const ajaxReqUrl = (id: string, type: string, isSeasons: boolean = false) =>
         `${this.baseUrl}/ajax/${type === 'movie' ? type : `v2/${type}`}/${
           isSeasons ? 'seasons' : 'episodes'
         }/${id}`;
