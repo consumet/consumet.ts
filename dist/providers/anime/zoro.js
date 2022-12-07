@@ -149,7 +149,7 @@ class Zoro extends models_1.AnimeParser {
                 throw new Error('Invalid episode id');
             // Fallback to using sub if no info found in case of compatibility
             // TODO: add both options later
-            let subOrDub = ((_a = episodeId.split('$')) === null || _a === void 0 ? void 0 : _a.pop()) === 'dub' ? 'dub' : 'sub';
+            const subOrDub = ((_a = episodeId.split('$')) === null || _a === void 0 ? void 0 : _a.pop()) === 'dub' ? 'dub' : 'sub';
             episodeId = `${this.baseUrl}/watch/${episodeId
                 .replace('$episode$', '?ep=')
                 .replace(/\$auto|\$sub|\$dub/gi, '')}`;

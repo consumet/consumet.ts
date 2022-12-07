@@ -29,7 +29,7 @@ class Myanimelist extends models_1.AnimeParser {
         this.malSyncUrl = 'https://api.malsync.moe';
         this.enimeUrl = 'https://api.enime.moe';
         this.search = async (query, page = 1) => {
-            let searchResults = {
+            const searchResults = {
                 currentPage: page,
                 results: [],
             };
@@ -126,7 +126,7 @@ class Myanimelist extends models_1.AnimeParser {
                 else
                     animeInfo.episodes = await this.findAnimeSlug(animeInfo.title, animeInfo.season, (_e = animeInfo.startDate) === null || _e === void 0 ? void 0 : _e.year, animeId, dub);
                 if (fetchFiller) {
-                    let { data: fillerData } = await (0, axios_1.default)({
+                    const { data: fillerData } = await (0, axios_1.default)({
                         baseURL: `https://raw.githubusercontent.com/saikou-app/mal-id-filler-list/main/fillers/${animeId}.json`,
                         method: 'GET',
                         validateStatus: () => true,
@@ -245,7 +245,7 @@ class Myanimelist extends models_1.AnimeParser {
             else
                 possibleAnime = await this.findAnimeRaw(slug, externalLinks);
             // To avoid a new request, lets match and see if the anime show found is in sub/dub
-            let expectedType = dub ? models_1.SubOrSub.DUB : models_1.SubOrSub.SUB;
+            const expectedType = dub ? models_1.SubOrSub.DUB : models_1.SubOrSub.SUB;
             if (possibleAnime.subOrDub != models_1.SubOrSub.BOTH && possibleAnime.subOrDub != expectedType) {
                 return [];
             }
@@ -397,10 +397,10 @@ class Myanimelist extends models_1.AnimeParser {
                     case 'aired':
                         const dates = value.split('to');
                         if (dates.length >= 2) {
-                            let start = dates[0].trim();
-                            let end = dates[1].trim();
-                            let startDate = new Date(start);
-                            let endDate = new Date(end);
+                            const start = dates[0].trim();
+                            const end = dates[1].trim();
+                            const startDate = new Date(start);
+                            const endDate = new Date(end);
                             if (startDate.toString() !== 'Invalid Date') {
                                 animeInfo.startDate = {
                                     day: startDate.getDate(),
@@ -425,7 +425,7 @@ class Myanimelist extends models_1.AnimeParser {
                         animeInfo.synonyms = animeInfo.synonyms.map(x => x.trim());
                         break;
                     case 'studios':
-                        for (let studio of $(elem).find('a'))
+                        for (const studio of $(elem).find('a'))
                             (_a = animeInfo.studios) === null || _a === void 0 ? void 0 : _a.push($(studio).text());
                         break;
                     case 'rating':
@@ -452,7 +452,7 @@ class Myanimelist extends models_1.AnimeParser {
     }
     async populateEpisodeList(episodes, url, count = 1) {
         try {
-            let { data } = await axios_1.default.request({
+            const { data } = await axios_1.default.request({
                 method: 'get',
                 url: `${url}?p=${count}`,
                 headers: {
@@ -460,14 +460,14 @@ class Myanimelist extends models_1.AnimeParser {
                 },
             });
             let hasEpisodes = false;
-            let $ = (0, cheerio_1.load)(data);
-            for (let elem of $('.video-list').toArray()) {
-                let href = $(elem).attr('href');
-                let image = $(elem).find('img').attr('data-src');
-                let titleDOM = $(elem).find('.episode-title');
-                let title = titleDOM === null || titleDOM === void 0 ? void 0 : titleDOM.text();
+            const $ = (0, cheerio_1.load)(data);
+            for (const elem of $('.video-list').toArray()) {
+                const href = $(elem).attr('href');
+                const image = $(elem).find('img').attr('data-src');
+                const titleDOM = $(elem).find('.episode-title');
+                const title = titleDOM === null || titleDOM === void 0 ? void 0 : titleDOM.text();
                 titleDOM.remove();
-                let numberDOM = $(elem).find('.title').text().split(' ');
+                const numberDOM = $(elem).find('.title').text().split(' ');
                 let number = 0;
                 if (numberDOM.length > 1) {
                     number = Number(numberDOM[1]);

@@ -26,17 +26,6 @@ export interface IAnimeResult {
     releaseDate?: string;
     [x: string]: unknown;
 }
-export interface IGenreData {
-    id?: string;
-    title?: string;
-    url?: string;
-    image?: string;
-    cover?: string;
-    rating?: number;
-    type?: MediaFormat;
-    releaseDate?: string;
-    [x: string]: unknown;
-}
 export interface ISearch<T> {
     currentPage?: number;
     hasNextPage?: boolean;
@@ -287,6 +276,7 @@ export interface ISource {
     intro?: Intro;
     subtitles?: ISubtitle[];
     sources: IVideo[];
+    download?: string;
 }
 /**
  * Used **only** for movie/tvshow providers

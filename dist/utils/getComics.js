@@ -25,7 +25,7 @@ const parsePostInfo = (post) => {
             post[i + 4] == ' ' &&
             post[i + 5] == ':') {
             let j = i + 7;
-            let temp = j;
+            const temp = j;
             for (; j < temp + 4; j++) {
                 if (!isNaN(Number(post[j]))) {
                     size += post[j];

@@ -15,7 +15,7 @@ class Tenshi extends models_1.AnimeParser {
         this.classPath = 'ANIME.Tenshi';
         this.fetchAnimeInfo = async (id) => {
             try {
-                let { data } = await axios_1.default.request({
+                const { data } = await axios_1.default.request({
                     method: 'get',
                     url: `${this.baseUrl}anime/${id}`,
                     headers: {
@@ -24,19 +24,19 @@ class Tenshi extends models_1.AnimeParser {
                     },
                 });
                 const maxEpisodesPerPage = 36;
-                let $ = (0, cheerio_1.load)(data);
+                const $ = (0, cheerio_1.load)(data);
                 let english_title = undefined;
                 let native_title = undefined;
-                let synonyms = [];
-                let genres = [];
-                let info = $('.entry-content').children();
-                let extraInfo = $('.info-list').children();
-                let status = $('.status.meta-data').text().trim().replace('Status', '').trim();
-                let hasDub = $('.audio.meta-data').children().length > 2;
-                let producers = [];
-                let episodeList = [];
-                let totalEpisodes = Number($('.entry-episodes').text().trim().replace('Episodes ', '').trim());
-                let hasMultiplePages = $('.entry-episodes').find('nav').length > 0;
+                const synonyms = [];
+                const genres = [];
+                const info = $('.entry-content').children();
+                const extraInfo = $('.info-list').children();
+                const status = $('.status.meta-data').text().trim().replace('Status', '').trim();
+                const hasDub = $('.audio.meta-data').children().length > 2;
+                const producers = [];
+                const episodeList = [];
+                const totalEpisodes = Number($('.entry-episodes').text().trim().replace('Episodes ', '').trim());
+                const hasMultiplePages = $('.entry-episodes').find('nav').length > 0;
                 $('.info-box')
                     .find('.value')
                     .each(function (i, item) {
@@ -65,16 +65,16 @@ class Tenshi extends models_1.AnimeParser {
                     .each(function (i, item) {
                     producers.push($(this).text().trim());
                 });
-                let age = $('.content-rating.meta-data')
+                const age = $('.content-rating.meta-data')
                     .text()
                     .trim()
                     .replace('Content Rating', '')
                     .trim()
                     .split(' - ');
                 if (hasMultiplePages) {
-                    let lastPage = Number($('.pagination').children().eq(-2).first().text());
+                    const lastPage = Number($('.pagination').children().eq(-2).first().text());
                     for (let i = 1; i <= lastPage; i++) {
-                        let { data } = await axios_1.default.request({
+                        const { data } = await axios_1.default.request({
                             method: 'get',
                             url: `${this.baseUrl}anime/${id}?page=${i}`,
                             headers: {
@@ -82,7 +82,7 @@ class Tenshi extends models_1.AnimeParser {
                                 cookie: 'loop-view=thumb;__ddg1_=;__ddg2_=',
                             },
                         });
-                        let ep = (0, cheerio_1.load)(data);
+                        const ep = (0, cheerio_1.load)(data);
                         ep('.loop.episode-loop.thumb')
                             .children()
                             .each(function (i, item) {
@@ -111,7 +111,7 @@ class Tenshi extends models_1.AnimeParser {
                         });
                     });
                 }
-                let animeInfo = {
+                const animeInfo = {
                     id: id,
                     title: {
                         romaji: $('.entry-header').first().text().trim(),
