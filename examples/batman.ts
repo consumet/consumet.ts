@@ -5,7 +5,7 @@ const main = async () => {
 
   const { containers } = await getComics.search('Batman');
 
-  for (let v of containers) {
+  for (const v of containers) {
     console.log(v.title);
   }
 };

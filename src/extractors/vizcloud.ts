@@ -12,14 +12,14 @@ class VizCloud extends VideoExtractor {
     cipher: string;
     encrypt: string;
     main: string;
-    operations: Map<String, String>;
+    operations: Map<string, string>;
     post: string[];
     pre: string[];
   } = {
     cipher: '',
     encrypt: '',
     main: '',
-    operations: new Map<String, String>(),
+    operations: new Map<string, string>(),
     pre: [],
     post: [],
   };
@@ -145,7 +145,7 @@ class VizCloud extends VideoExtractor {
     cipher: string;
     encrypt: string;
     main: string;
-    operations: Map<String, String>;
+    operations: Map<string, string>;
     post: string[];
     pre: string[];
   }> => {

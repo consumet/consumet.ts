@@ -270,9 +270,9 @@ class Enime extends AnimeParser {
     const resResult = await axios.get(url);
     const resolutions = resResult.data.match(/(RESOLUTION=)(.*)(\s*?)(\s*.*)/g);
     resolutions.forEach((ress: string) => {
-      var index = url.lastIndexOf('/');
-      var quality = ress.split('\n')[0].split('x')[1].split(',')[0];
-      var urll = url.slice(0, index);
+      const index = url.lastIndexOf('/');
+      const quality = ress.split('\n')[0].split('x')[1].split(',')[0];
+      const urll = url.slice(0, index);
       res.sources.push({
         url: urll + '/' + ress.split('\n')[1],
         isM3U8: (urll + ress.split('\n')[1]).includes('.m3u8'),
@@ -306,9 +306,9 @@ class Enime extends AnimeParser {
     });
     const resolutions = resResult.data.match(/(RESOLUTION=)(.*)(\s*?)(\s*.*)/g);
     resolutions.forEach((ress: string) => {
-      var index = url.lastIndexOf('/');
-      var quality = ress.split('\n')[0].split('x')[1].split(',')[0];
-      var urll = url.slice(0, index);
+      const index = url.lastIndexOf('/');
+      const quality = ress.split('\n')[0].split('x')[1].split(',')[0];
+      const urll = url.slice(0, index);
       res.sources.push({
         url: urll + '/' + ress.split('\n')[1],
         isM3U8: (urll + ress.split('\n')[1]).includes('.m3u8'),

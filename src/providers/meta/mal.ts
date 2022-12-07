@@ -64,7 +64,7 @@ class Myanimelist extends AnimeParser {
     count: number = 1
   ): Promise<void> {
     try {
-      let { data } = await axios.request({
+      const { data } = await axios.request({
         method: 'get',
         url: `${url}?p=${count}`,
         headers: {
@@ -74,15 +74,15 @@ class Myanimelist extends AnimeParser {
       });
 
       let hasEpisodes = false;
-      let $ = load(data);
-      for (let elem of $('.video-list').toArray()) {
-        let href = $(elem).attr('href');
-        let image = $(elem).find('img').attr('data-src');
-        let titleDOM = $(elem).find('.episode-title');
-        let title = titleDOM?.text();
+      const $ = load(data);
+      for (const elem of $('.video-list').toArray()) {
+        const href = $(elem).attr('href');
+        const image = $(elem).find('img').attr('data-src');
+        const titleDOM = $(elem).find('.episode-title');
+        const title = titleDOM?.text();
         titleDOM.remove();
 
-        let numberDOM = $(elem).find('.title').text().split(' ');
+        const numberDOM = $(elem).find('.title').text().split(' ');
         let number = 0;
         if (numberDOM.length > 1) {
           number = Number(numberDOM[1]);
@@ -105,7 +105,7 @@ class Myanimelist extends AnimeParser {
   }
 
   override search = async (query: string, page: number = 1): Promise<ISearch<IAnimeResult>> => {
-    let searchResults: ISearch<IAnimeResult> = {
+    const searchResults: ISearch<IAnimeResult> = {
       currentPage: page,
       results: [],
     };
@@ -233,7 +233,7 @@ class Myanimelist extends AnimeParser {
         );
 
       if (fetchFiller) {
-        let { data: fillerData } = await axios({
+        const { data: fillerData } = await axios({
           baseURL: `https://raw.githubusercontent.com/saikou-app/mal-id-filler-list/main/fillers/${animeId}.json`,
           method: 'GET',
           validateStatus: () => true,
@@ -381,7 +381,7 @@ class Myanimelist extends AnimeParser {
 
     // To avoid a new request, lets match and see if the anime show found is in sub/dub
 
-    let expectedType = dub ? SubOrSub.DUB : SubOrSub.SUB;
+    const expectedType = dub ? SubOrSub.DUB : SubOrSub.SUB;
 
     if (possibleAnime.subOrDub != SubOrSub.BOTH && possibleAnime.subOrDub != expectedType) {
       return [];
@@ -561,10 +561,10 @@ class Myanimelist extends AnimeParser {
         case 'aired':
           const dates = value.split('to');
           if (dates.length >= 2) {
-            let start = dates[0].trim();
-            let end = dates[1].trim();
-            let startDate = new Date(start);
-            let endDate = new Date(end);
+            const start = dates[0].trim();
+            const end = dates[1].trim();
+            const startDate = new Date(start);
+            const endDate = new Date(end);
 
             if (startDate.toString() !== 'Invalid Date') {
               animeInfo.startDate = {
@@ -593,7 +593,7 @@ class Myanimelist extends AnimeParser {
           animeInfo.synonyms = animeInfo.synonyms.map(x => x.trim());
           break;
         case 'studios':
-          for (let studio of $(elem).find('a')) animeInfo.studios?.push($(studio).text());
+          for (const studio of $(elem).find('a')) animeInfo.studios?.push($(studio).text());
           break;
         case 'rating':
           animeInfo.ageRating = value;

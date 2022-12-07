@@ -33,7 +33,7 @@ class Tenshi extends AnimeParser {
 
   override fetchAnimeInfo = async (id: string): Promise<IAnimeInfo> => {
     try {
-      let { data } = await axios.request({
+      const { data } = await axios.request({
         method: 'get',
         url: `${this.baseUrl}anime/${id}`,
         headers: {
@@ -45,20 +45,20 @@ class Tenshi extends AnimeParser {
 
       const maxEpisodesPerPage = 36;
 
-      let $ = load(data);
+      const $ = load(data);
 
       let english_title: string | undefined = undefined;
       let native_title: string | undefined = undefined;
-      let synonyms: string[] = [];
-      let genres: string[] = [];
-      let info = $('.entry-content').children();
-      let extraInfo = $('.info-list').children();
-      let status = $('.status.meta-data').text().trim().replace('Status', '').trim();
-      let hasDub = $('.audio.meta-data').children().length > 2;
-      let producers: string[] = [];
-      let episodeList: IAnimeEpisode[] = [];
-      let totalEpisodes = Number($('.entry-episodes').text().trim().replace('Episodes ', '').trim());
-      let hasMultiplePages = $('.entry-episodes').find('nav').length > 0;
+      const synonyms: string[] = [];
+      const genres: string[] = [];
+      const info = $('.entry-content').children();
+      const extraInfo = $('.info-list').children();
+      const status = $('.status.meta-data').text().trim().replace('Status', '').trim();
+      const hasDub = $('.audio.meta-data').children().length > 2;
+      const producers: string[] = [];
+      const episodeList: IAnimeEpisode[] = [];
+      const totalEpisodes = Number($('.entry-episodes').text().trim().replace('Episodes ', '').trim());
+      const hasMultiplePages = $('.entry-episodes').find('nav').length > 0;
 
       $('.info-box')
         .find('.value')
@@ -90,7 +90,7 @@ class Tenshi extends AnimeParser {
           producers.push($(this).text().trim());
         });
 
-      let age = $('.content-rating.meta-data')
+      const age = $('.content-rating.meta-data')
         .text()
         .trim()
         .replace('Content Rating', '')
@@ -98,9 +98,9 @@ class Tenshi extends AnimeParser {
         .split(' - ');
 
       if (hasMultiplePages) {
-        let lastPage = Number($('.pagination').children().eq(-2).first().text());
+        const lastPage = Number($('.pagination').children().eq(-2).first().text());
         for (let i = 1; i <= lastPage; i++) {
-          let { data } = await axios.request({
+          const { data } = await axios.request({
             method: 'get',
             url: `${this.baseUrl}anime/${id}?page=${i}`,
             headers: {
@@ -110,7 +110,7 @@ class Tenshi extends AnimeParser {
             },
           });
 
-          let ep = load(data);
+          const ep = load(data);
 
           ep('.loop.episode-loop.thumb')
             .children()
@@ -140,7 +140,7 @@ class Tenshi extends AnimeParser {
           });
       }
 
-      let animeInfo: IAnimeInfo = {
+      const animeInfo: IAnimeInfo = {
         id: id,
         title: {
           romaji: $('.entry-header').first().text().trim(),
