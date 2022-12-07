@@ -110,7 +110,7 @@ export const compareTwoStrings = (first: string, second: string): number => {
   if (first === second) return 1; // identical or empty
   if (first.length < 2 || second.length < 2) return 0; // if either is a 0-letter or 1-letter string
 
-  let firstBigrams = new Map();
+  const firstBigrams = new Map();
   for (let i = 0; i < first.length - 1; i++) {
     const bigram = first.substring(i, i + 2);
     const count = firstBigrams.has(bigram) ? firstBigrams.get(bigram) + 1 : 1;
@@ -133,11 +133,11 @@ export const compareTwoStrings = (first: string, second: string): number => {
 };
 
 export const substringAfter = (str: string, toFind: string) => {
-  let index = str.indexOf(toFind);
+  const index = str.indexOf(toFind);
   return index == -1 ? '' : str.substring(index + toFind.length);
 };
 
 export const substringBefore = (str: string, toFind: string) => {
-  let index = str.indexOf(toFind);
+  const index = str.indexOf(toFind);
   return index == -1 ? '' : str.substring(0, index);
 };

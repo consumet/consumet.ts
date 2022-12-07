@@ -64,7 +64,7 @@ class Mangasee123 extends MangaParser {
   };
 
   override fetchChapterPages = async (chapterId: string, ...args: any): Promise<IMangaChapterPage[]> => {
-    let images: string[] = [];
+    const images: string[] = [];
     const url = `${this.baseUrl}/read-online/${chapterId}-page-1.html`;
 
     try {
@@ -102,14 +102,14 @@ class Mangasee123 extends MangaParser {
   };
 
   override search = async (query: string, ...args: any[]): Promise<ISearch<IMangaResult>> => {
-    let matches = [];
+    const matches = [];
     const sanitizedQuery = query.replace(/\s/g, '').toLowerCase();
 
     try {
       const { data } = await axios.get(`${this.sgProxy}/https://mangasee123.com/_search.php`);
 
-      for (let i in data) {
-        let sanitizedAlts: string[] = [];
+      for (const i in data) {
+        const sanitizedAlts: string[] = [];
 
         const item = data[i];
         const altTitles: string[] = data[i]['a'];
