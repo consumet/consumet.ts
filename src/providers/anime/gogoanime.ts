@@ -180,16 +180,19 @@ class Gogoanime extends AnimeParser {
           return {
             headers: { Referer: serverUrl.href },
             sources: await new GogoCDN().extract(serverUrl),
+            download: `https://gogohd.net/download${serverUrl.search}`,
           };
         case StreamingServers.StreamSB:
           return {
             headers: { Referer: serverUrl.href, watchsb: 'streamsb', 'User-Agent': USER_AGENT },
             sources: await new StreamSB().extract(serverUrl),
+            download: `https://gogohd.net/download${serverUrl.search}`,
           };
         default:
           return {
             headers: { Referer: serverUrl.href },
             sources: await new GogoCDN().extract(serverUrl),
+            download: `https://gogohd.net/download${serverUrl.search}`,
           };
       }
     }

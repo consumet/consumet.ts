@@ -88,7 +88,7 @@ class FlixHQ extends models_1.MovieParser {
                 movieInfo.country = $('div.row-line:nth-child(1) > a:nth-child(2)').text();
                 movieInfo.duration = $('span.item:nth-child(3)').text();
                 movieInfo.rating = parseFloat($('span.item:nth-child(2)').text());
-                let ajaxReqUrl = (id, type, isSeasons = false) => `${this.baseUrl}/ajax/${type === 'movie' ? type : `v2/${type}`}/${isSeasons ? 'seasons' : 'episodes'}/${id}`;
+                const ajaxReqUrl = (id, type, isSeasons = false) => `${this.baseUrl}/ajax/${type === 'movie' ? type : `v2/${type}`}/${isSeasons ? 'seasons' : 'episodes'}/${id}`;
                 if (movieInfo.type === models_1.TvType.TVSERIES) {
                     const { data } = await axios_1.default.get(ajaxReqUrl(uid, 'tv', true));
                     const $$ = (0, cheerio_1.load)(data);

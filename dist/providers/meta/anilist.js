@@ -488,7 +488,7 @@ class Anilist extends models_1.AnimeParser {
                         title: { english: (_54 = animeInfo.title) === null || _54 === void 0 ? void 0 : _54.english, romaji: (_55 = animeInfo.title) === null || _55 === void 0 ? void 0 : _55.romaji },
                     }, dub, id);
                 if (fetchFiller) {
-                    let { data: fillerData } = await (0, axios_1.default)({
+                    const { data: fillerData } = await (0, axios_1.default)({
                         baseURL: `https://raw.githubusercontent.com/saikou-app/mal-id-filler-list/main/fillers/${animeInfo.malId}.json`,
                         method: 'GET',
                         validateStatus: () => true,
@@ -600,7 +600,7 @@ class Anilist extends models_1.AnimeParser {
             else
                 possibleAnime = await this.findAnimeRaw(slug, externalLinks);
             // To avoid a new request, lets match and see if the anime show found is in sub/dub
-            let expectedType = dub ? models_1.SubOrSub.DUB : models_1.SubOrSub.SUB;
+            const expectedType = dub ? models_1.SubOrSub.DUB : models_1.SubOrSub.SUB;
             if (possibleAnime.subOrDub != models_1.SubOrSub.BOTH && possibleAnime.subOrDub != expectedType) {
                 return [];
             }
@@ -1097,7 +1097,7 @@ class Anilist extends models_1.AnimeParser {
             else
                 possibleAnimeEpisodes = await this.fetchDefaultEpisodeList(Media, dub, id);
             if (fetchFiller) {
-                let { data: fillerData } = await (0, axios_1.default)({
+                const { data: fillerData } = await (0, axios_1.default)({
                     baseURL: `https://raw.githubusercontent.com/saikou-app/mal-id-filler-list/main/fillers/${Media.idMal}.json`,
                     method: 'GET',
                     validateStatus: () => true,

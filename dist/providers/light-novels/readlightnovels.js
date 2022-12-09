@@ -50,7 +50,7 @@ class ReadLightNovels extends models_1.LightNovelParser {
                     .eq(0)
                     .nextUntil('hr')
                     .text();
-                let pages = Math.max(...$('#pagination > ul > li')
+                const pages = Math.max(...$('#pagination > ul > li')
                     .map((i, el) => parseInt($(el).find('a').attr('data-page')))
                     .get()
                     .filter(x => !isNaN(x)));
