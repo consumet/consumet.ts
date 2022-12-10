@@ -190,7 +190,7 @@ class Myanimelist extends AnimeParser {
         (this.provider instanceof Zoro || this.provider instanceof Gogoanime) &&
         !dub &&
         (animeInfo.status === MediaStatus.ONGOING ||
-          range({ from: 2000, to: new Date().getFullYear() + 1 }).includes(animeInfo.startDate!.year!))
+          range({ from: 2000, to: new Date().getFullYear() + 1 }).includes(animeInfo.startDate?.year!))
       ) {
         try {
           animeInfo.episodes = (
