@@ -524,8 +524,32 @@ class Myanimelist extends AnimeParser {
     animeInfo.genres = genres;
     animeInfo.image = image;
     animeInfo.description = desc;
-    animeInfo.title = $('.title-name')?.text();
+    animeInfo.title = {
+      english: $('.js-alternative-titles.hide').children().eq(0).text().replace('English: ', '').trim(),
+      romaji: $('.title-name').text(),
+      native: $('.js-alternative-titles.hide').parent().children().eq(9).text().trim(),
+      userPreferred: $('.js-alternative-titles.hide').children().eq(0).text().replace('English: ', '').trim(),
+    };
+    animeInfo.synonyms = $('.js-alternative-titles.hide')
+      .parent()
+      .children()
+      .eq(8)
+      .text()
+      .replace('Synonyms:', '')
+      .trim()
+      .split(',');
     animeInfo.studios = [];
+
+    let producers: string[] = [];
+    $('a').each(function (i: number, link: any) {
+      if (
+        $(link).attr('href')?.includes('producer') &&
+        $(link).parent().children().eq(0).text() == 'Producers:'
+      ) {
+        producers.push($(link).text());
+      }
+    });
+    animeInfo.producers = producers;
     // animeInfo.episodes = episodes;
 
     const teaserDOM = $('.video-promotion > a');
@@ -556,7 +580,7 @@ class Myanimelist extends AnimeParser {
           if (isNaN(animeInfo.totalEpisodes)) animeInfo.totalEpisodes = 0;
           break;
         case 'premiered':
-          animeInfo.season = value.split(' ')[0];
+          animeInfo.season = value.split(' ')[0].toUpperCase();
           break;
         case 'aired':
           const dates = value.split('to');
@@ -588,10 +612,6 @@ class Myanimelist extends AnimeParser {
         case 'score':
           animeInfo.rating = parseFloat(value);
           break;
-        case 'synonyms':
-          animeInfo.synonyms = value.split(',');
-          animeInfo.synonyms = animeInfo.synonyms.map(x => x.trim());
-          break;
         case 'studios':
           for (const studio of $(elem).find('a')) animeInfo.studios?.push($(studio).text());
           break;
@@ -611,23 +631,7 @@ class Myanimelist extends AnimeParser {
 
 export default Myanimelist;
 
-// (async () => {
-//   const mal = new Myanimelist();
-//   console.log(await mal.fetchAnimeInfo('21'));
-//   //console.log((await mal.fetchMalInfoById("1535")));
-//   // setInterval(async function(){
-//   //     let numReqs = 1;
-//   //     let promises = [];
-//   //     for(let i = 0; i < numReqs; i++){
-//   //         promises.push(mal.fetchMalInfoById("28223"));
-//   //     }
-//   //     let data : IAnimeInfo[] = await Promise.all(promises);
-
-//   //     for(let i = 0; i < numReqs; i++){
-//   //         assert(data[i].rating === 8.161);
-//   //     }
-
-//   //     count+=numReqs;
-//   //     console.log("Count: ", count, "Time: ", (performance.now() - start));
-//   // },1000);
-// })();
+(async () => {
+  const mal = new Myanimelist();
+  console.log(await mal.fetchAnimeInfo('35507'));
+})();
