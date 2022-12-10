@@ -540,7 +540,7 @@ class Myanimelist extends AnimeParser {
       .split(',');
     animeInfo.studios = [];
 
-    let producers: string[] = [];
+    const producers: string[] = [];
     $('a').each(function (i: number, link: any) {
       if (
         $(link).attr('href')?.includes('producer') &&
