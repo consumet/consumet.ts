@@ -22,7 +22,7 @@ const animeProvider = ANIME.<providerName>();
 
 ``isDubAvailableSeparately`` - bool, ``true`` if the provider providers dubbed content. 
 
-``name`` - string, the name of the current provider, example: ``languages: 'Crunchyroll'``
+``name`` - string, the name of the current provider, example: ``name: 'Crunchyroll'``
 
 ``baseUrl`` - string, url to the base URL of the current provider
 
