@@ -20,7 +20,7 @@ const movieProvider = MOVIES.<providerName>();
 
 ``isWorking`` - bool, a bool to identify the state of the current provider, ``true`` if the provider is working, ``false`` otherwise. 
 
-``name`` - string, the name of the current provider, example: ``languages: 'Crunchyroll'``
+``name`` - string, the name of the current provider, example: ``name: 'FlixHQ'``
 
 ``baseUrl`` - string, url to the base URL of the current provider
 
