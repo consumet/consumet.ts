@@ -1984,6 +1984,7 @@ class Anilist extends AnimeParser {
           { english: mangaInfo.title.english!, romaji: mangaInfo.title.romaji! },
           mangaInfo.malId as number
         );
+        mangaInfo.chapters = mangaInfo.chapters.reverse();
 
         return mangaInfo;
       } catch (error) {
@@ -2074,14 +2075,13 @@ class Anilist extends AnimeParser {
 
 // (async () => {
 //   const ani = new Anilist();
-//   console.time('fetch');
-//   const anime = await ani.fetchAnimeInfo('21');
 
-//   console.log(anime);
+//   const aniManga = new Anilist.Manga();
 
-//   //const sources = await ani.fetchEpisodeSources(res.episodes![0].id);
-//   //console.log(res);
-//   console.timeEnd('fetch');
+//   const search = await aniManga.search('one piece');
+//   const info = await aniManga.fetchMangaInfo(search.results[0].id);
+
+//   console.log(info);
 // })();
 
 export default Anilist;
