@@ -631,7 +631,7 @@ class Myanimelist extends AnimeParser {
 
 export default Myanimelist;
 
-(async () => {
-  const mal = new Myanimelist();
-  console.log(await mal.fetchAnimeInfo('35507'));
-})();
+// (async () => {
+//   const mal = new Myanimelist();
+//   console.log(await mal.fetchAnimeInfo('35507'));
+// })();
