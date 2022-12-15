@@ -3,5 +3,6 @@ import MangaHere from './mangahere';
 import MangaKakalot from './mangakakalot';
 import Mangasee123 from './mangasee123';
 import Mangapark from './mangapark';
+import MangaPill from './mangapill';
 
-export default { MangaDex, MangaHere, MangaKakalot, Mangasee123, Mangapark };
+export default { MangaDex, MangaHere, MangaKakalot, Mangasee123, Mangapark, MangaPill };
