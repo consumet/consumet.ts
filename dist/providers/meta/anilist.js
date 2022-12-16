@@ -1726,6 +1726,7 @@ Anilist.Manga = class Manga {
                     });
                 });
                 mangaInfo.chapters = await new Anilist().findManga(this.provider, { english: mangaInfo.title.english, romaji: mangaInfo.title.romaji }, mangaInfo.malId);
+                mangaInfo.chapters = mangaInfo.chapters.reverse();
                 return mangaInfo;
             }
             catch (error) {
@@ -1737,12 +1738,10 @@ Anilist.Manga = class Manga {
 };
 // (async () => {
 //   const ani = new Anilist();
-//   console.time('fetch');
-//   const anime = await ani.fetchAnimeInfo('21');
-//   console.log(anime);
-//   //const sources = await ani.fetchEpisodeSources(res.episodes![0].id);
-//   //console.log(res);
-//   console.timeEnd('fetch');
+//   const aniManga = new Anilist.Manga();
+//   const search = await aniManga.search('one piece');
+//   const info = await aniManga.fetchMangaInfo(search.results[0].id);
+//   console.log(info);
 // })();
 exports.default = Anilist;
 //# sourceMappingURL=anilist.js.map

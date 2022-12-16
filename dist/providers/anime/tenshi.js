@@ -156,9 +156,9 @@ class Tenshi extends models_1.AnimeParser {
     }
 }
 exports.default = Tenshi;
-(async () => {
-    const tenshi = new Tenshi();
-    //console.log(await tenshi.fetchAnimeInfo('dewhzcns'));
-    console.log(await tenshi.fetchAnimeInfo('fntoucz2'));
-})();
+// (async () => {
+//   const tenshi = new Tenshi();
+//   //console.log(await tenshi.fetchAnimeInfo('dewhzcns'));
+//   console.log(await tenshi.fetchAnimeInfo('fntoucz2'));
+// })();
 //# sourceMappingURL=tenshi.js.map

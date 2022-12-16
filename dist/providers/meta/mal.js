@@ -516,8 +516,8 @@ class Myanimelist extends models_1.AnimeParser {
     }
 }
 exports.default = Myanimelist;
-(async () => {
-    const mal = new Myanimelist();
-    console.log(await mal.fetchAnimeInfo('35507'));
-})();
+// (async () => {
+//   const mal = new Myanimelist();
+//   console.log(await mal.fetchAnimeInfo('35507'));
+// })();
 //# sourceMappingURL=mal.js.map

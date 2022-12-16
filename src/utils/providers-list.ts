@@ -23,6 +23,7 @@ export const PROVIDERS_LIST = {
     new MANGA.MangaKakalot(),
     new MANGA.Mangasee123(),
     new MANGA.Mangapark(),
+    new MANGA.MangaPill(),
   ],
   BOOKS: [new BOOKS.Libgen()],
   COMICS: [new COMICS.GetComics()],
