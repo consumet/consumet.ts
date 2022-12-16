@@ -24,6 +24,7 @@ export const PROVIDERS_LIST = {
     new MANGA.Mangasee123(),
     new MANGA.Mangapark(),
     new MANGA.MangaPill(),
+    new MANGA.MangaReader(),
   ],
   BOOKS: [new BOOKS.Libgen()],
   COMICS: [new COMICS.GetComics()],
