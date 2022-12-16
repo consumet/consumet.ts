@@ -26,6 +26,7 @@ exports.PROVIDERS_LIST = {
         new providers_1.MANGA.Mangasee123(),
         new providers_1.MANGA.Mangapark(),
         new providers_1.MANGA.MangaPill(),
+        new providers_1.MANGA.MangaReader(),
     ],
     BOOKS: [new providers_1.BOOKS.Libgen()],
     COMICS: [new providers_1.COMICS.GetComics()],

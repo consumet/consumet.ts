@@ -9,5 +9,6 @@ const mangakakalot_1 = __importDefault(require("./mangakakalot"));
 const mangasee123_1 = __importDefault(require("./mangasee123"));
 const mangapark_1 = __importDefault(require("./mangapark"));
 const mangapill_1 = __importDefault(require("./mangapill"));
-exports.default = { MangaDex: mangadex_1.default, MangaHere: mangahere_1.default, MangaKakalot: mangakakalot_1.default, Mangasee123: mangasee123_1.default, Mangapark: mangapark_1.default, MangaPill: mangapill_1.default };
+const mangareader_1 = __importDefault(require("./mangareader"));
+exports.default = { MangaDex: mangadex_1.default, MangaHere: mangahere_1.default, MangaKakalot: mangakakalot_1.default, Mangasee123: mangasee123_1.default, Mangapark: mangapark_1.default, MangaPill: mangapill_1.default, MangaReader: mangareader_1.default };
 //# sourceMappingURL=index.js.map
