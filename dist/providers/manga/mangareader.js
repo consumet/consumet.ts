@@ -103,12 +103,12 @@ class MangaReader extends models_1.MangaParser {
         };
     }
 }
-(async () => {
-    const manga = new MangaReader();
-    const search = await manga.search('one piece');
-    const info = await manga.fetchMangaInfo(search.results[0].id);
-    const pages = await manga.fetchChapterPages(info.chapters[0].id);
-    console.log(pages);
-})();
+// (async () => {
+//   const manga = new MangaReader();
+//   const search = await manga.search('one piece');
+//   const info = await manga.fetchMangaInfo(search.results[0].id);
+//   const pages = await manga.fetchChapterPages(info.chapters![0].id);
+//   console.log(pages);
+// })();
 exports.default = MangaReader;
 //# sourceMappingURL=mangareader.js.map
