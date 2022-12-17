@@ -16,14 +16,15 @@ class MixDrop extends models_1.VideoExtractor {
                 const { data } = await axios_1.default.get(videoUrl.href);
                 const match = (0, cheerio_1.load)(data)
                     .html()
-                    .match(/(?<=p}\().*(?<=wurl).*\}/g);
+                    .match(/p}(.+?)wurl.+?}/g);
                 if (!match) {
                     throw new Error('Video not found.');
                 }
                 const [p, a, c, k, e, d] = match[0].split(',').map(x => x.split('.sp')[0]);
                 const formated = this.format(p, a, c, k, e, JSON.parse(d));
                 const [poster, source] = formated
-                    .match(/(?<=poster'=").+?(?=")|(?<=wurl=").+?(?=")/g)
+                    .match(/poster'="([^"]+)"|wurl="([^"]+)"/g)
+                    .map((x) => x.split(`="`)[1].replace(/"/g, ''))
                     .map((x) => (x.startsWith('http') ? x : `https:${x}`));
                 this.sources.push({
                     url: source,
