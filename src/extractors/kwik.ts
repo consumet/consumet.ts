@@ -18,7 +18,7 @@ class Kwik extends VideoExtractor {
 
       const match = load(data)
         .html()
-        .match(/(?<=p}).*(?<=kwik).*}/g);
+        .match(/p\}.*kwik.*/g);
 
       if (!match) {
         throw new Error('Video not found.');
@@ -33,7 +33,11 @@ class Kwik extends VideoExtractor {
 
       const formated = this.format(p, a, c, k, e, {});
 
-      const source = formated.match(/(?<=source=\\).*(?=\\';)/g)[0].replace(/\'/g, '');
+      const source = formated
+        .match(/source=\\(.*?)\\'/g)[0]
+        .replace(/\'/g, '')
+        .replace(/source=/g, '')
+        .replace(/\\/g, '');
 
       this.sources.push({
         url: source,

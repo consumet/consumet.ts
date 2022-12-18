@@ -86,7 +86,7 @@ class AniMixPlay extends AnimeParser {
 
         for (const key in episodes) {
           animeInfo.episodes.push({
-            id: episodes[key].toString()?.match(/(?<=id=).*(?=&title)/g)[0],
+            id: episodes[key].toString().split('id=')[1].split('&title')[0],
             animixplayId: `${animeInfo.id}/ep${parseInt(key) + 1}`,
             number: parseInt(key) + 1,
             url: `${this.baseUrl}${animeInfo.id}/ep${parseInt(key) + 1}`,
@@ -128,7 +128,7 @@ class AniMixPlay extends AnimeParser {
 //   const animixplay = new AniMixPlay();
 //   const animeInfo = await animixplay.fetchAnimeInfo('/v1/one-piece');
 //   const sources = await animixplay.fetchEpisodeSources(animeInfo.episodes![0].id);
-//   console.log(sources);
+//    console.log(sources);
 // })();
 
 export default AniMixPlay;
