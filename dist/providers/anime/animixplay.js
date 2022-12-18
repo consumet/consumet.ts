@@ -45,7 +45,6 @@ class AniMixPlay extends models_1.AnimeParser {
          * @param dub whether to get dub version of the anime
          */
         this.fetchAnimeInfo = async (id, dub = false) => {
-            var _a;
             if (!id.startsWith('http'))
                 id = `${this.baseUrl}${dub ? `${id}-dub` : id}`;
             const animeInfo = {
@@ -70,7 +69,7 @@ class AniMixPlay extends models_1.AnimeParser {
                     delete episodes[Object.keys(episodes)[Object.keys(episodes).length - 1]];
                     for (const key in episodes) {
                         animeInfo.episodes.push({
-                            id: (_a = episodes[key].toString()) === null || _a === void 0 ? void 0 : _a.match(/(?<=id=).*(?=&title)/g)[0],
+                            id: episodes[key].toString().split('id=')[1].split('&title')[0],
                             animixplayId: `${animeInfo.id}/ep${parseInt(key) + 1}`,
                             number: parseInt(key) + 1,
                             url: `${this.baseUrl}${animeInfo.id}/ep${parseInt(key) + 1}`,
@@ -111,7 +110,7 @@ class AniMixPlay extends models_1.AnimeParser {
 //   const animixplay = new AniMixPlay();
 //   const animeInfo = await animixplay.fetchAnimeInfo('/v1/one-piece');
 //   const sources = await animixplay.fetchEpisodeSources(animeInfo.episodes![0].id);
-//   console.log(sources);
+//    console.log(sources);
 // })();
 exports.default = AniMixPlay;
 //# sourceMappingURL=animixplay.js.map

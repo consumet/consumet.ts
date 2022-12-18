@@ -62,6 +62,7 @@ class RapidCloud extends models_1.VideoExtractor {
                         const m3u8data = data
                             .split('\n')
                             .filter((line) => line.includes('.m3u8') && line.includes('RESOLUTION='));
+                        // TODO: Remove positive lookbehind
                         const secondHalf = m3u8data.map((line) => line.match(/(?<=RESOLUTION=).*(?<=,C)|(?<=URI=).*/g));
                         const TdArray = secondHalf.map((s) => {
                             const f1 = s[0].split(',C')[0];
