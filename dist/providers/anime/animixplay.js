@@ -90,10 +90,6 @@ class AniMixPlay extends models_1.AnimeParser {
         this.fetchEpisodeSources = async (episodeId) => {
             if (!episodeId.startsWith('http'))
                 episodeId = 'https://gogohd.net/streaming.php?id=' + episodeId;
-            // const { data } = await axios.get(this.baseUrl + episodeId);
-            // console.log(data);
-            // const iframe = data.match(/(?<=<iframe src=").*(?=")/g)![0];
-            // console.log(iframe);
             return {
                 sources: await new extractors_1.GogoCDN().extract(new URL(episodeId)),
             };
