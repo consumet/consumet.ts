@@ -1,8 +1,26 @@
-import { BaseProvider } from '.';
-import axios from 'axios';
+import { BaseProvider, ProxyConfig } from '.';
+import axios, { AxiosInstance } from 'axios';
 
 abstract class BaseParser extends BaseProvider {
+  constructor(baseUrl?: string, proxy?: ProxyConfig) {
+    super();
+    // make a new axios instance for the parser and set it to outClient
+    this.client = axios.create({
+      baseURL: baseUrl,
+    });
+    this.client.interceptors.request.use(config => {
+      if (proxy?.url) {
+        config.headers = {
+          ...config.headers,
+          'x-api-key': proxy?.key ?? '',
+        };
+        config.url = proxy.url + config.url;
+      }
+      return config;
+    });
+  }
 
+  protected client: AxiosInstance;
   /**
    * proxy url for fetching the data
    */
@@ -17,16 +35,13 @@ abstract class BaseParser extends BaseProvider {
 
   set proxyUrl(url: string | undefined) {
     if (url && !url.startsWith('http')) throw new Error('[BaseParser] Invalid proxy url');
-    if (url && !url.endsWith('/')) url += '/';    
+    if (url && !url.endsWith('/')) url += '/';
     this.proxy = url;
   }
 
   get proxyUrl(): string | undefined {
     return this.proxy;
   }
-
-
-
 }
 
 export default BaseParser;
