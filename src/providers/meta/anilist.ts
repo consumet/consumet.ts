@@ -65,7 +65,7 @@ class Anilist extends AnimeParser {
    */
   constructor(provider?: AnimeParser, public proxyConfig?: ProxyConfig) {
     super('https://graphql.anilist.co/', proxyConfig);
-    this.provider = provider || new Gogoanime();
+    this.provider = provider || new Gogoanime(proxyConfig);
   }
 
   /**
@@ -329,15 +329,13 @@ class Anilist extends AnimeParser {
 
     let fillerEpisodes: { number: string; 'filler-bool': boolean }[];
     try {
-      let { data, status } = await this.client.post(
-        this.proxyUrl ? this.proxyUrl + this.anilistGraphqlUrl : this.anilistGraphqlUrl,
-        options,
-        {
-          validateStatus: () => true,
-        }
-      );
+      let { data, status } = await this.client.post('', options, {
+        validateStatus: () => true,
+      });
 
-      if (status == 429) throw new Error('Anilist seems to have some issues. Please try again later.');
+      if (status == 404)
+        throw new Error('Media not found. Perhaps the id is invalid or the anime is not in anilist');
+      if (status == 429) throw new Error('You have been ratelimited by anilist. Please try again later');
       // if (status >= 500) throw new Error('Anilist seems to be down. Please try again later');
       if (status != 200 && status < 429)
         throw Error('Media not found. If the problem persists, please contact the developer');
@@ -604,8 +602,12 @@ class Anilist extends AnimeParser {
    * @param episodeId Episode id
    */
   override fetchEpisodeSources = async (episodeId: string, ...args: any): Promise<ISource> => {
-    if (episodeId.includes('enime')) return new Enime().fetchEpisodeSources(episodeId);
-    return this.provider.fetchEpisodeSources(episodeId, ...args);
+    try {
+      if (episodeId.includes('enime')) return new Enime().fetchEpisodeSources(episodeId);
+      return this.provider.fetchEpisodeSources(episodeId, ...args);
+    } catch (err) {
+      throw new Error(`Failed to fetch episode sources from ${this.provider.name}: ${err}`);
+    }
   };
 
   /**
@@ -613,7 +615,11 @@ class Anilist extends AnimeParser {
    * @param episodeId Episode id
    */
   override fetchEpisodeServers = async (episodeId: string): Promise<IEpisodeServer[]> => {
-    return this.provider.fetchEpisodeServers(episodeId);
+    try {
+      return this.provider.fetchEpisodeServers(episodeId);
+    } catch (err) {
+      throw new Error(`Failed to fetch episode servers from ${this.provider.name}: ${err}`);
+    }
   };
 
   private findAnime = async (
@@ -2034,9 +2040,9 @@ class Anilist extends AnimeParser {
 // (async () => {
 //   const ani = new Anilist();
 
-//   const search = await ani.search('naruto');
-
-//   console.log(search);
+//   const search = await ani.fetchAnimeInfo('1');
+//   const sources = await ani.fetchEpisodeSources(search.episodes![0].id);
+//   console.log(sources);
 // })();
 
 export default Anilist;

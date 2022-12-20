@@ -13,6 +13,7 @@ import {
   IAnimeResult,
   ISource,
   MediaFormat,
+  ProxyConfig,
 } from '../../models';
 import { USER_AGENT } from '../../utils';
 import { GogoCDN, StreamSB } from '../../extractors';
@@ -25,6 +26,9 @@ class Gogoanime extends AnimeParser {
   protected override classPath = 'ANIME.Gogoanime';
 
   private readonly ajaxUrl = 'https://ajax.gogo-load.com/ajax';
+  constructor(proxyConfig?: ProxyConfig) {
+    super('https://www.gogoanime.dk', proxyConfig);
+  }
 
   /**
    *
@@ -38,9 +42,7 @@ class Gogoanime extends AnimeParser {
       results: [],
     };
     try {
-      const res = await axios.get(
-        `${this.baseUrl}/search.html?keyword=${encodeURIComponent(query)}&page=${page}`
-      );
+      const res = await this.client.get(`/search.html?keyword=${encodeURIComponent(query)}&page=${page}`);
 
       const $ = load(res.data);
 
@@ -71,21 +73,21 @@ class Gogoanime extends AnimeParser {
    * @param id anime id
    */
   override fetchAnimeInfo = async (id: string): Promise<IAnimeInfo> => {
-    if (!id.includes('gogoanime')) id = `${this.baseUrl}/category/${id}`;
+    if (!id.includes('gogoanime')) id = `/category/${id}`;
 
     const animeInfo: IAnimeInfo = {
       id: '',
       title: '',
-      url: id,
+      url: `${this.baseUrl}${id}`,
       genres: [],
       totalEpisodes: 0,
     };
     try {
-      const res = await axios.get(id);
+      const res = await this.client.get(id);
 
       const $ = load(res.data);
 
-      animeInfo.id = new URL(id).pathname.split('/')[2];
+      animeInfo.id = new URL(animeInfo.url!).pathname.split('/')[2];
       animeInfo.title = $(
         'section.content_left > div.main_body > div:nth-child(2) > div.anime_info_body_bg > h1'
       )
@@ -160,7 +162,7 @@ class Gogoanime extends AnimeParser {
 
       return animeInfo;
     } catch (err) {
-      throw new Error("Anime doesn't exist.");
+      throw new Error(`failed to fetch anime info: ${err}`);
     }
   };
 
@@ -198,7 +200,7 @@ class Gogoanime extends AnimeParser {
     }
 
     try {
-      const res = await axios.get(`${this.baseUrl}/${episodeId}`);
+      const res = await this.client.get(`/${episodeId}`);
 
       const $ = load(res.data);
 
@@ -236,9 +238,9 @@ class Gogoanime extends AnimeParser {
    */
   override fetchEpisodeServers = async (episodeId: string): Promise<IEpisodeServer[]> => {
     try {
-      if (!episodeId.startsWith(this.baseUrl)) episodeId = `${this.baseUrl}/${episodeId}`;
+      if (!episodeId.startsWith(this.baseUrl)) episodeId = `/${episodeId}`;
 
-      const res = await axios.get(episodeId);
+      const res = await this.client.get(episodeId);
 
       const $ = load(res.data);
 
@@ -295,10 +297,9 @@ class Gogoanime extends AnimeParser {
     }
   };
 
-
   fetchGenreInfo = async (genre: string, page: number = 1): Promise<ISearch<IAnimeResult>> => {
     try {
-      const res = await axios.get(`${this.baseUrl}/genre/${genre}?page=${page}`);
+      const res = await this.client.get(`/genre/${genre}?page=${page}`);
 
       const $ = load(res.data);
 
@@ -322,7 +323,6 @@ class Gogoanime extends AnimeParser {
       throw new Error('Something went wrong. Please try again later.');
     }
   };
-
 
   fetchTopAiring = async (page: number = 1): Promise<ISearch<IAnimeResult>> => {
     try {
@@ -360,6 +360,8 @@ class Gogoanime extends AnimeParser {
 
 // (async () => {
 //   const anime = new Gogoanime();
+//   const search = await anime.search('juuni taisen');
+//   console.log(search);
 //   const animeInfo = await anime.fetchEpisodeSources('juuni-taisen-dub-episode-6', StreamingServers.GogoCDN);
 //   console.log(animeInfo);
 // })();
