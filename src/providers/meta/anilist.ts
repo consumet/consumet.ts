@@ -2037,12 +2037,12 @@ class Anilist extends AnimeParser {
   };
 }
 
-(async () => {
-  const ani = new Anilist(new Zoro());
+// (async () => {
+//   const ani = new Anilist(new Zoro());
 
-  const search = await ani.fetchAnimeInfo('21');
-  const sources = await ani.fetchEpisodeSources(search.episodes![1000].id);
-  console.log(sources);
-})();
+//   const search = await ani.fetchAnimeInfo('21');
+//   const sources = await ani.fetchEpisodeSources(search.episodes![1000].id);
+//   console.log(sources);
+// })();
 
 export default Anilist;
