@@ -359,11 +359,11 @@ class Gogoanime extends AnimeParser {
 }
 
 // (async () => {
-//   const anime = new Gogoanime();
-//   const search = await anime.search('juuni taisen');
-//   console.log(search);
-//   const animeInfo = await anime.fetchEpisodeSources('juuni-taisen-dub-episode-6', StreamingServers.GogoCDN);
-//   console.log(animeInfo);
-// })();
+// //   const anime = new Gogoanime();
+// //   const search = await anime.search('juuni taisen');
+// //   console.log(search);
+// //   const animeInfo = await anime.fetchEpisodeSources('juuni-taisen-dub-episode-6', StreamingServers.GogoCDN);
+// //   console.log(animeInfo);
+// // })();
 
 export default Gogoanime;

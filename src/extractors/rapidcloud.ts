@@ -53,8 +53,12 @@ class RapidCloud extends VideoExtractor {
       ).data;
       if (!decryptKey) decryptKey = this.fallbackKey;
 
-      if (encrypted)
-        sources = JSON.parse(CryptoJS.AES.decrypt(sources, decryptKey).toString(CryptoJS.enc.Utf8));
+      try {
+        if (encrypted)
+          sources = JSON.parse(CryptoJS.AES.decrypt(sources, decryptKey).toString(CryptoJS.enc.Utf8));
+      } catch (err) {
+        throw new Error('Cannot decrypt sources. Perhaps the key is invalid.');
+      }
       this.sources = sources?.map((s: any) => ({
         url: s.file,
         isM3U8: s.file.includes('.m3u8'),
