@@ -1,4 +1,4 @@
-import { BaseParser, IAnimeInfo, ISource, IEpisodeServer} from '.';
+import { BaseParser, IAnimeInfo, ISource, IEpisodeServer } from '.';
 
 abstract class AnimeParser extends BaseParser {
   /**

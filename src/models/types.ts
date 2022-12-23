@@ -303,6 +303,7 @@ export interface ISource {
   subtitles?: ISubtitle[];
   sources: IVideo[];
   download?: string;
+  [x: string]: unknown; // other fields
 }
 
 /**

@@ -540,7 +540,7 @@ class Myanimelist extends AnimeParser {
       .split(',');
     animeInfo.studios = [];
 
-    let producers: string[] = [];
+    const producers: string[] = [];
     $('a').each(function (i: number, link: any) {
       if (
         $(link).attr('href')?.includes('producer') &&
@@ -631,7 +631,7 @@ class Myanimelist extends AnimeParser {
 
 export default Myanimelist;
 
-(async () => {
-  const mal = new Myanimelist();
-  console.log(await mal.fetchAnimeInfo('35507'));
-})();
+// (async () => {
+//   const mal = new Myanimelist();
+//   console.log(await mal.fetchAnimeInfo('35507'));
+// })();
