@@ -49,7 +49,7 @@ declare class Anilist extends AnimeParser {
      *
      * @param episodeId Episode id
      */
-    fetchEpisodeSources: (episodeId: string) => Promise<ISource>;
+    fetchEpisodeSources: (episodeId: string, ...args: any) => Promise<ISource>;
     /**
      *
      * @param episodeId Episode id

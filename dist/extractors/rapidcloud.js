@@ -47,9 +47,14 @@ class RapidCloud extends models_1.VideoExtractor {
                 let decryptKey = await (await axios_1.default.get('https://raw.githubusercontent.com/consumet/rapidclown/main/key.txt')).data;
                 if (!decryptKey)
                     decryptKey = this.fallbackKey;
-                if (encrypted) {
-                    const decrypt = crypto_js_1.default.AES.decrypt(sources, decryptKey);
-                    sources = JSON.parse(decrypt.toString(crypto_js_1.default.enc.Utf8));
+                try {
+                    if (encrypted) {
+                        const decrypt = crypto_js_1.default.AES.decrypt(sources, decryptKey);
+                        sources = JSON.parse(decrypt.toString(crypto_js_1.default.enc.Utf8));
+                    }
+                }
+                catch (err) {
+                    throw new Error('Cannot decrypt sources. Perhaps the key is invalid.');
                 }
                 this.sources = sources === null || sources === void 0 ? void 0 : sources.map((s) => ({
                     url: s.file,
