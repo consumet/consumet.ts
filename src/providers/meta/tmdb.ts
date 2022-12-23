@@ -61,9 +61,10 @@ class Tmdb extends MovieParser {
             id: result.id,
             title: result?.title || result?.name,
             poster: {
-              w500: `https://image.tmdb.org/t/p/w500${result?.poster_path}`,
-              w780: `https://image.tmdb.org/t/p/w780${result?.poster_path}`,
-              w1280: `https://image.tmdb.org/t/p/w1280${result?.poster_path}`,
+              path: result?.poster_path,
+              low: `https://image.tmdb.org/t/p/w500${result?.poster_path}`,
+              high: `https://image.tmdb.org/t/p/w780${result?.poster_path}`,
+              hd: `https://image.tmdb.org/t/p/w1280${result?.poster_path}`,
               original: `https://image.tmdb.org/t/p/original${result?.poster_path}`,
             },
             type: result.media_type === 'movie' ? TvType.MOVIE : TvType.TVSERIES,
