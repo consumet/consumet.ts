@@ -1,5 +1,5 @@
 import Anilist from './anilist';
 import Myanimelist from './mal';
-import Tmdb from './tmdb';
+import TMDB from './tmdb';
 
-export default { Anilist, Myanimelist, Tmdb };
+export default { Anilist, Myanimelist, TMDB };

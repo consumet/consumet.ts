@@ -30,6 +30,6 @@ export const PROVIDERS_LIST = {
   LIGHT_NOVELS: [new LIGHT_NOVELS.ReadLightNovels()],
   MOVIES: [new MOVIES.FlixHQ(), new MOVIES.ViewAsian()],
   NEWS: [new NEWS.ANN()],
-  META: [new META.Anilist()],
+  META: [new META.Anilist(), new META.TMDB(), new META.Myanimelist()],
   OTHERS: [],
 };

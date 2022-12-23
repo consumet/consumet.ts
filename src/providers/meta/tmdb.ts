@@ -14,9 +14,6 @@ import {
 import { compareTwoStrings } from '../../utils';
 import FlixHQ from '../movies/flixhq';
 
-/**
- * Work in progress
- */
 class TMDB extends MovieParser {
   override readonly name = 'TMDB';
   protected override baseUrl = 'https://www.themoviedb.org';
@@ -25,11 +22,11 @@ class TMDB extends MovieParser {
   protected override classPath = 'MOVIES.TMDB';
   override supportedTypes = new Set([TvType.MOVIE, TvType.TVSERIES, TvType.ANIME]);
 
-  private api_key = ``;
+  private api_key = process.env.TMDB_API_KEY;
 
   private provider: MovieParser;
 
-  constructor(provider: MovieParser) {
+  constructor(provider?: MovieParser) {
     super();
     this.provider = provider || new FlixHQ();
   }
@@ -42,7 +39,7 @@ class TMDB extends MovieParser {
     query: string,
     page: number = 1
   ): Promise<ISearch<IMovieResult | IAnimeResult>> => {
-    const searchUrl = `${this.baseUrl}/search/multi?api_key=${this.api_key}&language=en-US&page=1&include_adult=false&query=${query}`;
+    const searchUrl = `${this.baseUrl}/search/multi?api_key=${this.api_key}&language=en-US&page=${page}&include_adult=false&query=${query}`;
 
     const search: ISearch<IMovieResult | IAnimeResult> = {
       currentPage: 1,
@@ -299,6 +296,7 @@ class TMDB extends MovieParser {
 //   const tmdb = new TMDB(flixhq);
 //   const search = await tmdb.search('the flash');
 //   const info = await tmdb.fetchMediaInfo(search.results![0].id, search.results![0].type as string);
+//   const sources = await tmdb.fetchEpisodeSources((info.seasons as any[])![0].episodes![0].id, info.id);
 //   // const id = await tmdb.findIdFromTitle('avengers');
 //   // console.log((info?.seasons as any[])![0].episodes);
 // })();
