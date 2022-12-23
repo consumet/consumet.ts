@@ -1,44 +1,43 @@
-import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, ISource, IEpisodeServer } from '../../models';
+import { AnimeParser, IAnimeInfo, ISource, IEpisodeServer } from '../../models';
+export interface EpisodeData {
+    id: string;
+    number: number;
+    title?: string;
+    animeTitle?: string;
+    description?: string;
+    image?: string;
+    releaseDate?: string;
+    streamData?: StreamData;
+    [x: string]: unknown;
+}
+export interface StreamData {
+    sources?: Source[];
+    subtitles?: Subtitle[];
+}
+export interface Source {
+    url: string;
+    quality: string;
+}
+export interface Subtitle {
+    url: string;
+    lang: string;
+}
 declare class Crunchyroll extends AnimeParser {
+    fetchEpisodeServers(episodeId: string): Promise<IEpisodeServer[]>;
     readonly name = "Crunchyroll";
     protected baseUrl: string;
     protected logo: string;
     protected classPath: string;
     private locale;
     private channelId;
-    private TOKEN;
-    private options;
-    private locales;
+    private languageNames;
     private subOrder;
-    fetch(locale?: string, token?: string, accessToken?: string): Promise<any>;
-    /**
-     *
-     * @param locale Locale (default: en-US) (ar-ME, ar-SA, de-DE, en-US, es-419, es-ES, fr-FR, he-IL, it-IT, pt-BR, pl-PL, ru-RU, tr-TR)
-     * @param token Token
-     * @param accessToken Access Token
-     */
-    static create(locale?: string, token?: string, accessToken?: string): Promise<Crunchyroll>;
-    /**
-     * @param query Search query
-     * @param limit Limit of results (default: 25) (max: 100)
-     */
-    search: (query: string, limit?: number) => Promise<ISearch<IAnimeResult>>;
+    search(query: string, locale?: string): Promise<unknown>;
     /**
      * @param id Anime id
      * @param mediaType Anime type (series, movie)
      */
-    fetchAnimeInfo: (id: string, mediaType: string) => Promise<IAnimeInfo>;
-    /**
-     *
-     * @param episodeId Episode id
-     * @param format subtitle format (default: `srt`) (srt, vtt, ass)
-     * @param type Video type (default: `adaptive_hls` (m3u8)) `adaptive_dash` (dash), `drm_adaptive_dash` (dash with drm)
-     */
-    fetchEpisodeSources: (episodeId: string, format?: string, type?: string) => Promise<ISource>;
-    /**
-     *
-     * @param episodeId Episode id
-     */
-    fetchEpisodeServers: (episodeId: string) => Promise<IEpisodeServer[]>;
+    fetchAnimeInfo: (id: string, mediaType: string, locale?: string, fetchAllSeason?: boolean) => Promise<IAnimeInfo>;
+    fetchEpisodeSources: (episodeId: string, locale?: string) => Promise<ISource>;
 }
 export default Crunchyroll;

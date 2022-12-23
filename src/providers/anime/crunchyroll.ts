@@ -133,16 +133,3 @@ class Crunchyroll extends AnimeParser {
   };
 }
 export default Crunchyroll;
-
-(async () => {
-  const cr = new Crunchyroll();
-  try {
-    console.time('doSomething');
-    //console.log(await cr.fetchAnimeInfo('GRMG8ZQZR', 'series', 'en-US', true));
-    //console.log(await cr.fetchEpisodeSources('G6P8ZP8M6', 'en-US'));
-    console.log(await cr.search('Classroom of the Elite', 'en-US'));
-    console.timeEnd('doSomething');
-  } catch (err) {
-    console.error(err);
-  }
-})();
