@@ -1,4 +1,4 @@
-import { BaseParser, TvType, ISource, IEpisodeServer } from '.';
+import { BaseParser, TvType, ISource, IEpisodeServer, IMovieInfo } from '.';
 
 abstract class MovieParser extends BaseParser {
   /**
@@ -11,7 +11,7 @@ abstract class MovieParser extends BaseParser {
    *
    * returns media info (including episodes)
    */
-  abstract fetchMediaInfo(mediaId: string, type: string): Promise<unknown>;
+  abstract fetchMediaInfo(mediaId: string, type: string): Promise<IMovieInfo | unknown>;
 
   /**
    * takes episode id

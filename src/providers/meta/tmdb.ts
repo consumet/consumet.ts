@@ -14,6 +14,7 @@ import {
 } from '../../models';
 import { compareTwoStrings } from '../../utils';
 import FlixHQ from '../movies/flixhq';
+import ViewAsian from '../movies/viewAsian';
 
 /**
  * Work in progress
@@ -28,9 +29,9 @@ class Tmdb extends MovieParser {
 
   private api_key = ``;
 
-  private provider: AnimeParser | MovieParser;
+  private provider: MovieParser | AnimeParser;
 
-  constructor(provider: AnimeParser | MovieParser) {
+  constructor(provider: MovieParser | AnimeParser) {
     super();
     this.provider = provider || new FlixHQ();
   }
@@ -99,7 +100,12 @@ class Tmdb extends MovieParser {
 
     try {
       const { data } = await axios.get(infoUrl);
-      const providerId = await this.findIdFromTitle(data?.title || data?.name);
+      const providerId = await this.findIdFromTitle(data?.title || data?.name, {
+        type: type === 'movie' ? TvType.MOVIE : TvType.TVSERIES,
+        totalSeasons: data?.number_of_seasons,
+        totalEpisodes: data?.number_of_episodes,
+        year: new Date(data?.release_year || data?.first_air_date).getFullYear(),
+      });
 
       info.providerId = providerId;
       info.title = data?.title || data?.name;
@@ -202,6 +208,7 @@ class Tmdb extends MovieParser {
         const seasons = info.seasons as any[];
         for (let i = 1; i <= totalSeasons; i++) {
           const { data: seasonData } = await axios.get(seasonUrl(i.toString()));
+
           const episodes =
             seasonData?.episodes?.length <= 0
               ? undefined
@@ -239,6 +246,7 @@ class Tmdb extends MovieParser {
         }
       }
     } catch (err) {
+      console.log(err);
       throw new Error((err as Error).message);
     }
 
@@ -246,12 +254,23 @@ class Tmdb extends MovieParser {
   };
 
   // search provider for media
-  findIdFromTitle = async (title: string): Promise<string> => {
+  findIdFromTitle = async (
+    title: string,
+    extraData: {
+      type: TvType;
+      year?: number;
+      totalSeasons?: number;
+      totalEpisodes?: number;
+    }
+  ): Promise<string | undefined> => {
     //clean title
     title = title.replace(/[^a-zA-Z0-9 ]/g, '').toLowerCase();
 
     const findMedia = (await this.provider.search(title)) as ISearch<IAnimeResult>;
     if (findMedia.results.length === 0) return '';
+
+    // console.log(findMedia.results);
+    // console.log(extraData);
 
     // Sort the retrieved info for more accurate results.
     findMedia.results.sort((a, b) => {
@@ -273,7 +292,27 @@ class Tmdb extends MovieParser {
       return secondRating - firstRating;
     });
 
-    return findMedia.results[0].id;
+    // if extraData contains a year, filter out the results that don't match the year
+    if (extraData && extraData.year) {
+      findMedia.results = findMedia.results.filter(result => {
+        if (!result?.year) return result;
+        return result.releaseDate?.split('-')[0] === extraData.year;
+      });
+    }
+
+    // check if the result contains the total number of seasons and compare it to the extraData by 1 up or down
+    if (extraData && extraData.totalSeasons) {
+      findMedia.results = findMedia.results.filter(result => {
+        if (!result?.seasons) return result;
+        return (
+          result?.seasons === extraData.totalSeasons ||
+          result?.seasons === extraData.totalSeasons! + 1 ||
+          result?.seasons === extraData.totalSeasons! - 1
+        );
+      });
+    }
+
+    return findMedia?.results[0]?.id || undefined;
   };
 
   /**
@@ -293,12 +332,13 @@ class Tmdb extends MovieParser {
   };
 }
 
-// (async () => {
-//   const tmdb = new Tmdb(new FlixHQ());
-//   const search = await tmdb.search('the flash');
-//   const info = await tmdb.fetchMediaInfo(search.results![0].id, search.results![0].type as string);
-//   // const id = await tmdb.findIdFromTitle('avengers');
-//   console.log(info);
-// })();
+(async () => {
+  const flixhq = new FlixHQ();
+  const tmdb = new Tmdb(flixhq);
+  const search = await tmdb.search('the flash');
+  const info = await tmdb.fetchMediaInfo(search.results![0].id, search.results![0].type as string);
+  // const id = await tmdb.findIdFromTitle('avengers');
+  console.log(info);
+})();
 
 export default Tmdb;
