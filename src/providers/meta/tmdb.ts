@@ -1,7 +1,6 @@
 import axios from 'axios';
 
 import {
-  AnimeParser,
   ISearch,
   IAnimeInfo,
   IAnimeResult,
@@ -14,7 +13,6 @@ import {
 } from '../../models';
 import { compareTwoStrings } from '../../utils';
 import FlixHQ from '../movies/flixhq';
-import ViewAsian from '../movies/viewAsian';
 
 /**
  * Work in progress
@@ -61,13 +59,7 @@ class TMDB extends MovieParser {
           const movie: IMovieResult = {
             id: result.id,
             title: result?.title || result?.name,
-            poster: {
-              path: result?.poster_path,
-              low: `https://image.tmdb.org/t/p/w500${result?.poster_path}`,
-              high: `https://image.tmdb.org/t/p/w780${result?.poster_path}`,
-              hd: `https://image.tmdb.org/t/p/w1280${result?.poster_path}`,
-              original: `https://image.tmdb.org/t/p/original${result?.poster_path}`,
-            },
+            image: `https://image.tmdb.org/t/p/original${result?.poster_path}`,
             type: result.media_type === 'movie' ? TvType.MOVIE : TvType.TVSERIES,
             rating: result?.vote_average || 0,
             releaseDate: `${date.getFullYear()}` || '0',
@@ -100,6 +92,8 @@ class TMDB extends MovieParser {
 
     try {
       const { data } = await axios.get(infoUrl);
+
+      //get provider id from title and year (if available) to get the correct provider id for the movie/tv series (e.g. flixhq)
       const providerId = await this.findIdFromTitle(data?.title || data?.name, {
         type: type === 'movie' ? TvType.MOVIE : TvType.TVSERIES,
         totalSeasons: data?.number_of_seasons,
@@ -109,13 +103,8 @@ class TMDB extends MovieParser {
 
       info.id = (providerId as string) || mediaId;
       info.title = data?.title || data?.name;
-      info.poster = {
-        path: data?.poster_path,
-        low: `https://image.tmdb.org/t/p/w500${data?.poster_path}`,
-        high: `https://image.tmdb.org/t/p/w780${data?.poster_path}`,
-        hd: `https://image.tmdb.org/t/p/w1280${data?.poster_path}`,
-        original: `https://image.tmdb.org/t/p/original${data?.poster_path}`,
-      };
+      info.image = `https://image.tmdb.org/t/p/original${data?.poster_path}`;
+      info.cover = `https://image.tmdb.org/t/p/original${data?.backdrop_path}`;
       info.type = type === 'movie' ? TvType.MOVIE : TvType.TVSERIES;
       info.rating = data?.vote_average || 0;
       info.releaseDate = data?.release_date || data?.first_air_date;
@@ -130,36 +119,13 @@ class TMDB extends MovieParser {
       info.writers = data?.credits?.crew
         .filter((crew: any) => crew.job === 'Screenplay')
         .map((crew: any) => crew.name);
-      info.actors = data?.credits?.cast.map((cast: any) => cast.name);
+      info.actors = data?.credits?.cast.map((cast: { name: string }) => cast.name);
       info.trailer = {
         id: data?.videos?.results[0]?.key,
         site: data?.videos?.results[0]?.site,
         url: `https://www.youtube.com/watch?v=${data?.videos?.results[0]?.key}`,
       };
-      info.backdrops =
-        data?.images?.backdrops?.length <= 0
-          ? undefined
-          : data?.images?.backdrops.map((backdrop: any) => {
-              return {
-                path: backdrop.file_path,
-                low: `https://image.tmdb.org/t/p/w300${backdrop.file_path}`,
-                high: `https://image.tmdb.org/t/p/w780${backdrop.file_path}`,
-                hd: `https://image.tmdb.org/t/p/w1280${backdrop.file_path}`,
-                original: `https://image.tmdb.org/t/p/original${backdrop.file_path}`,
-              };
-            });
-      info.posters =
-        data?.images?.posters?.length <= 0
-          ? undefined
-          : data?.images?.posters.map((poster: any) => {
-              return {
-                path: poster.file_path,
-                low: `https://image.tmdb.org/t/p/w500${poster.file_path}`,
-                high: `https://image.tmdb.org/t/p/w780${poster.file_path}`,
-                hd: `https://image.tmdb.org/t/p/w1280${poster.file_path}`,
-                original: `https://image.tmdb.org/t/p/original${poster.file_path}`,
-              };
-            });
+
       info.similar =
         data?.similar?.results?.length <= 0
           ? undefined
@@ -167,13 +133,7 @@ class TMDB extends MovieParser {
               return {
                 id: result.id,
                 title: result.title || result.name,
-                poster: {
-                  path: result.poster_path,
-                  low: `https://image.tmdb.org/t/p/w500${result.poster_path}`,
-                  high: `https://image.tmdb.org/t/p/w780${result.poster_path}`,
-                  hd: `https://image.tmdb.org/t/p/w1280${result.poster_path}`,
-                  original: `https://image.tmdb.org/t/p/original${result.poster_path}`,
-                },
+                image: `https://image.tmdb.org/t/p/original${result.poster_path}`,
                 type: type === 'movie' ? TvType.MOVIE : TvType.TVSERIES,
                 rating: result.vote_average || 0,
                 releaseDate: result.release_date || result.first_air_date,
@@ -186,13 +146,7 @@ class TMDB extends MovieParser {
               return {
                 id: result.id,
                 title: result.title || result.name,
-                poster: {
-                  path: result.poster_path,
-                  low: `https://image.tmdb.org/t/p/w500${result.poster_path}`,
-                  high: `https://image.tmdb.org/t/p/w780${result.poster_path}`,
-                  hd: `https://image.tmdb.org/t/p/w1280${result.poster_path}`,
-                  original: `https://image.tmdb.org/t/p/original${result.poster_path}`,
-                },
+                image: `https://image.tmdb.org/t/p/original${result.poster_path}`,
                 type: type === 'movie' ? TvType.MOVIE : TvType.TVSERIES,
                 rating: result.vote_average || 0,
                 releaseDate: result.release_date || result.first_air_date,
@@ -235,27 +189,15 @@ class TMDB extends MovieParser {
                     url: episodeFromProvider?.url || undefined,
                     img: !episode?.still_path
                       ? undefined
-                      : {
-                          path: episode.still_path,
-                          low: `https://image.tmdb.org/t/p/w300${episode.still_path}`,
-                          high: `https://image.tmdb.org/t/p/w780${episode.still_path}`,
-                          hd: `https://image.tmdb.org/t/p/w1280${episode.still_path}`,
-                          original: `https://image.tmdb.org/t/p/original${episode.still_path}`,
-                        },
+                      : `https://image.tmdb.org/t/p/original${episode.still_path}`,
                   };
                 });
 
           seasons.push({
             season: i,
-            poster: !seasonData?.poster_path
+            image: !seasonData?.poster_path
               ? undefined
-              : {
-                  path: seasonData.poster_path,
-                  low: `https://image.tmdb.org/t/p/w300${seasonData.poster_path}`,
-                  high: `https://image.tmdb.org/t/p/w780${seasonData.poster_path}`,
-                  hd: `https://image.tmdb.org/t/p/w1280${seasonData.poster_path}`,
-                  original: `https://image.tmdb.org/t/p/original${seasonData.poster_path}`,
-                },
+              : `https://image.tmdb.org/t/p/original${seasonData.poster_path}`,
             episodes,
           });
         }
@@ -358,7 +300,7 @@ class TMDB extends MovieParser {
 //   const search = await tmdb.search('the flash');
 //   const info = await tmdb.fetchMediaInfo(search.results![0].id, search.results![0].type as string);
 //   // const id = await tmdb.findIdFromTitle('avengers');
-//   console.log((info?.seasons as any[])![0].episodes);
+//   // console.log((info?.seasons as any[])![0].episodes);
 // })();
 
 export default TMDB;
