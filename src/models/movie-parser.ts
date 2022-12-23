@@ -11,7 +11,7 @@ abstract class MovieParser extends BaseParser {
    *
    * returns media info (including episodes)
    */
-  abstract fetchMediaInfo(mediaId: string): Promise<unknown>;
+  abstract fetchMediaInfo(mediaId: string, type: string): Promise<unknown>;
 
   /**
    * takes episode id

@@ -23,9 +23,9 @@ import Gogoanime from '../../providers/anime/gogoanime';
  */
 class Tmdb extends MovieParser {
   override readonly name = 'Tmbd';
-  protected override baseUrl = 'https://www.themoviedb.org/';
-  protected override logo =
-    'https://img.flixhq.to/xxrz/400x400/100/ab/5f/ab5f0e1996cc5b71919e10e910ad593e/ab5f0e1996cc5b71919e10e910ad593e.png';
+  protected override baseUrl = 'https://www.themoviedb.org';
+  protected apiUrl = 'https://api.themoviedb.org/3';
+  protected override logo = 'https://pbs.twimg.com/profile_images/1243623122089041920/gVZIvphd_400x400.jpg';
   protected override classPath = 'MOVIES.Tmbd';
   override supportedTypes = new Set([TvType.MOVIE, TvType.TVSERIES, TvType.ANIME]);
 
@@ -40,10 +40,46 @@ class Tmdb extends MovieParser {
     query: string,
     page: number = 1
   ): Promise<ISearch<IMovieResult | IAnimeResult>> => {
-    throw new Error('Method not implemented.');
+    const searchUrl = `${this.baseUrl}/search/multi?api_key=${this.api_key}&language=en-US&page=1&include_adult=false&query=${query}`;
+
+    const search: ISearch<IMovieResult | IAnimeResult> = {
+      currentPage: 1,
+      results: [],
+    };
+
+    try {
+      const { data } = await axios.get(searchUrl);
+
+      if (data.results.length > 0) {
+        data.results.forEach((result: any) => {
+          const date = new Date(result?.release_date || result?.first_air_date);
+          const movie: IMovieResult = {
+            id: result.id,
+            title: result?.title || result?.name,
+            poster: {
+              w500: `https://image.tmdb.org/t/p/w500${result?.poster_path}`,
+              w780: `https://image.tmdb.org/t/p/w780${result?.poster_path}`,
+              w1280: `https://image.tmdb.org/t/p/w1280${result?.poster_path}`,
+              original: `https://image.tmdb.org/t/p/original${result?.poster_path}`,
+            },
+            type: result.media_type === 'movie' ? TvType.MOVIE : TvType.TVSERIES,
+            rating: result?.vote_average || 0,
+            releaseDate: `${date.getFullYear()}` || '0',
+          };
+          search.results.push(movie);
+        });
+      } else {
+        throw new Error('No results found');
+      }
+
+      return search;
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
   };
 
-  override fetchMediaInfo = async (mediaId: string): Promise<IMovieInfo | IAnimeInfo> => {
+  override fetchMediaInfo = async (mediaId: string, type: string): Promise<IMovieInfo | IAnimeInfo> => {
+    const infoUrl = `${this.baseUrl}/${type}/${mediaId}?api_key=${this.api_key}&language=en-US&append_to_response=videos,images,credits,external_ids,recommendations,similar,keywords,release_dates,translations,watch/providers,alternative_titles,changes,lists,account_states,credits,external_ids,images,keywords,rating,recommendations,reviews,similar,translations,videos&include_image_language=en`;
     throw new Error('Not implemented');
   };
 
@@ -63,3 +99,11 @@ class Tmdb extends MovieParser {
     return this.provider.fetchEpisodeServers(episodeId, ...args);
   };
 }
+
+(async () => {
+  const tmdb = new Tmdb(new Gogoanime());
+  const search = await tmdb.search('naruto');
+  console.log(search.results![0]);
+})();
+
+export default Tmdb;
