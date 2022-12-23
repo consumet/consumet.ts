@@ -52,6 +52,7 @@ class FlixHQ extends MovieParser {
           url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
           image: $(el).find('div.film-poster > img').attr('data-src'),
           releaseDate: isNaN(parseInt(releaseDate)) ? undefined : releaseDate,
+          seasons: releaseDate.includes('SS') ? parseInt(releaseDate.split('SS')[1]) : undefined,
           type:
             $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
               ? TvType.MOVIE
@@ -369,9 +370,10 @@ class FlixHQ extends MovieParser {
 
 // (async () => {
 //   const movie = new FlixHQ();
-//   const movieInfo = await movie.fetchEpisodeSources('1168337', 'tv/watch-vincenzo-67955');
-//   const recentTv = await movie.fetchTrendingTvShows();
-//   console.log(recentTv);
+//   const search = await movie.search('vincenzo');
+//   // const movieInfo = await movie.fetchEpisodeSources('1168337', 'tv/watch-vincenzo-67955');
+//   // const recentTv = await movie.fetchTrendingTvShows();
+//   console.log(search);
 // })();
 
 export default FlixHQ;
