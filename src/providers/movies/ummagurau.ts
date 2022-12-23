@@ -55,7 +55,7 @@ class Ummangurau extends MovieParser {
     }
   };
 
-  override fetchMediaInfo = async (mediaId: string) => {
+  override fetchMediaInfo = async (mediaId: string): Promise<IMovieInfo> => {
     if (!mediaId.startsWith(this.baseUrl)) {
       mediaId = `${this.baseUrl}/${mediaId}`;
     }
@@ -82,6 +82,8 @@ class Ummangurau extends MovieParser {
     } catch (err) {
       throw new Error((err as Error).message);
     }
+
+    return movieInfo;
   };
 
   override fetchEpisodeServers(mediaLink: string, ...args: any): Promise<IEpisodeServer[]> {

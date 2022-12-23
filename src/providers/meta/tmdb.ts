@@ -19,19 +19,19 @@ import ViewAsian from '../movies/viewAsian';
 /**
  * Work in progress
  */
-class Tmdb extends MovieParser {
-  override readonly name = 'Tmbd';
+class TMDB extends MovieParser {
+  override readonly name = 'TMDB';
   protected override baseUrl = 'https://www.themoviedb.org';
   protected apiUrl = 'https://api.themoviedb.org/3';
   protected override logo = 'https://pbs.twimg.com/profile_images/1243623122089041920/gVZIvphd_400x400.jpg';
-  protected override classPath = 'MOVIES.Tmbd';
+  protected override classPath = 'MOVIES.TMDB';
   override supportedTypes = new Set([TvType.MOVIE, TvType.TVSERIES, TvType.ANIME]);
 
   private api_key = ``;
 
-  private provider: MovieParser | AnimeParser;
+  private provider: MovieParser;
 
-  constructor(provider: MovieParser | AnimeParser) {
+  constructor(provider: MovieParser) {
     super();
     this.provider = provider || new FlixHQ();
   }
@@ -107,7 +107,7 @@ class Tmdb extends MovieParser {
         year: new Date(data?.release_year || data?.first_air_date).getFullYear(),
       });
 
-      info.providerId = providerId;
+      info.id = (providerId as string) || mediaId;
       info.title = data?.title || data?.name;
       info.poster = {
         path: data?.poster_path,
@@ -206,26 +206,40 @@ class Tmdb extends MovieParser {
 
         info.seasons = [];
         const seasons = info.seasons as any[];
+
+        const InfoFromProvider = await this.provider.fetchMediaInfo(providerId as string);
+        const providerEpisodes = InfoFromProvider?.episodes as any[];
+
         for (let i = 1; i <= totalSeasons; i++) {
           const { data: seasonData } = await axios.get(seasonUrl(i.toString()));
+
+          //find season in each episode (providerEpisodes)
+          const seasonEpisodes = providerEpisodes?.filter(episode => episode.season === i);
 
           const episodes =
             seasonData?.episodes?.length <= 0
               ? undefined
               : seasonData?.episodes.map((episode: any) => {
+                  //find episode in each season (seasonEpisodes)
+                  const episodeFromProvider = seasonEpisodes?.find(
+                    ep => ep.number === episode.episode_number
+                  );
+
                   return {
-                    id: episode.id,
+                    id: episodeFromProvider?.id || undefined,
                     title: episode.name,
-                    episodeNumber: episode.episode_number,
-                    seasonNumber: episode.season_number,
-                    airDate: episode.air_date,
+                    episode: episode.episode_number,
+                    season: episode.season_number,
+                    releaseDate: episode.air_date,
                     overview: episode.overview,
+                    url: episodeFromProvider?.url || undefined,
                     img: !episode?.still_path
                       ? undefined
                       : {
-                          w300: `https://image.tmdb.org/t/p/w300${episode.still_path}`,
-                          w780: `https://image.tmdb.org/t/p/w780${episode.still_path}`,
-                          w1280: `https://image.tmdb.org/t/p/w1280${episode.still_path}`,
+                          path: episode.still_path,
+                          low: `https://image.tmdb.org/t/p/w300${episode.still_path}`,
+                          high: `https://image.tmdb.org/t/p/w780${episode.still_path}`,
+                          hd: `https://image.tmdb.org/t/p/w1280${episode.still_path}`,
                           original: `https://image.tmdb.org/t/p/original${episode.still_path}`,
                         },
                   };
@@ -236,9 +250,10 @@ class Tmdb extends MovieParser {
             poster: !seasonData?.poster_path
               ? undefined
               : {
-                  w300: `https://image.tmdb.org/t/p/w300${seasonData.poster_path}`,
-                  w780: `https://image.tmdb.org/t/p/w780${seasonData.poster_path}`,
-                  w1280: `https://image.tmdb.org/t/p/w1280${seasonData.poster_path}`,
+                  path: seasonData.poster_path,
+                  low: `https://image.tmdb.org/t/p/w300${seasonData.poster_path}`,
+                  high: `https://image.tmdb.org/t/p/w780${seasonData.poster_path}`,
+                  hd: `https://image.tmdb.org/t/p/w1280${seasonData.poster_path}`,
                   original: `https://image.tmdb.org/t/p/original${seasonData.poster_path}`,
                 },
             episodes,
@@ -253,7 +268,12 @@ class Tmdb extends MovieParser {
     return info;
   };
 
-  // search provider for media
+  /**
+   * Find the id of a media from its title. and extra data. (year, totalSeasons, totalEpisodes)
+   * @param title
+   * @param extraData
+   * @returns id of the media
+   */
   findIdFromTitle = async (
     title: string,
     extraData: {
@@ -332,13 +352,13 @@ class Tmdb extends MovieParser {
   };
 }
 
-(async () => {
-  const flixhq = new FlixHQ();
-  const tmdb = new Tmdb(flixhq);
-  const search = await tmdb.search('the flash');
-  const info = await tmdb.fetchMediaInfo(search.results![0].id, search.results![0].type as string);
-  // const id = await tmdb.findIdFromTitle('avengers');
-  console.log(info);
-})();
+// (async () => {
+//   const flixhq = new FlixHQ();
+//   const tmdb = new TMDB(flixhq);
+//   const search = await tmdb.search('the flash');
+//   const info = await tmdb.fetchMediaInfo(search.results![0].id, search.results![0].type as string);
+//   // const id = await tmdb.findIdFromTitle('avengers');
+//   console.log((info?.seasons as any[])![0].episodes);
+// })();
 
-export default Tmdb;
+export default TMDB;

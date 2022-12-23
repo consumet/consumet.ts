@@ -368,12 +368,12 @@ class FlixHQ extends MovieParser {
   };
 }
 
-(async () => {
-  const movie = new FlixHQ();
-  const search = await movie.search('the flash');
-  // const movieInfo = await movie.fetchEpisodeSources('1168337', 'tv/watch-vincenzo-67955');
-  // const recentTv = await movie.fetchTrendingTvShows();
-  console.log(search);
-})();
+// (async () => {
+//   const movie = new FlixHQ();
+//   const search = await movie.search('the flash');
+//   // const movieInfo = await movie.fetchEpisodeSources('1168337', 'tv/watch-vincenzo-67955');
+//   // const recentTv = await movie.fetchTrendingTvShows();
+//   console.log(search);
+// })();
 
 export default FlixHQ;
