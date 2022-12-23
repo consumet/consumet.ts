@@ -1133,6 +1133,14 @@ caniuse-lite@^1.0.30001370:
   resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001376.tgz"
   integrity sha512-I27WhtOQ3X3v3it9gNs/oTpoE5KpwmqKR5oKPA8M0G7uMXh9Ty81Q904HpKUrM30ei7zfcL5jE7AXefgbOfMig==
 
+cfbypass@^0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/cfbypass/-/cfbypass-0.0.8.tgz#2396e12c9edff019ff95978bdc5a0e7f30e035f8"
+  integrity sha512-vlrtim0dq4e9rtLg8k25JBwGh8eAyjZAmfh3uX69i0/aYwglsDfqKc+Q9bY+IHjpqfIEJUp6vZBaXJqi2jh+pQ==
+  dependencies:
+    cheerio "^1.0.0-rc.12"
+    js-base64 "^3.7.3"
+
 chalk@^2.0.0:
   version "2.4.2"
   resolved "https://registry.npmjs.org/chalk/-/chalk-2.4.2.tgz"
@@ -1167,7 +1175,7 @@ cheerio-select@^2.1.0:
     domhandler "^5.0.3"
     domutils "^3.0.1"
 
-cheerio@^1.0.0-rc.11:
+cheerio@^1.0.0-rc.11, cheerio@^1.0.0-rc.12:
   version "1.0.0-rc.12"
   resolved "https://registry.npmjs.org/cheerio/-/cheerio-1.0.0-rc.12.tgz"
   integrity sha512-VqR8m68vM46BNnuZ5NtnGBKIE/DfN0cRIzg9n40EIq9NOv90ayxLBXA8fXC5gquFRGJSTRqBq25Jt2ECLR431Q==
@@ -2222,6 +2230,11 @@ jest@^28.1.0:
     "@jest/types" "^28.1.3"
     import-local "^3.0.2"
     jest-cli "^28.1.3"
+
+js-base64@^3.7.3:
+  version "3.7.3"
+  resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-3.7.3.tgz#2e784bb0851636bf1e99ef12e4f3a8a8c9b7639f"
+  integrity sha512-PAr6Xg2jvd7MCR6Ld9Jg3BmTcjYsHEBx1VlwEwULb/qowPf5VD9kEMagj23Gm7JRnSvE/Da/57nChZjnvL8v6A==
 
 js-tokens@^4.0.0:
   version "4.0.0"

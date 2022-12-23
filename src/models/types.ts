@@ -93,11 +93,27 @@ export interface IAnimeInfo extends IAnimeResult {
   color?: string;
   cover?: string;
   trailer?: Trailer;
-  episodes?: IAnimeEpisode[];
+  episodes?: IAnimeEpisode[] | IAnimeEpisodeV2[];
   startDate?: FuzzyDate;
   endDate?: FuzzyDate;
   recommendations?: IAnimeResult[];
   relations?: IAnimeResult[];
+}
+
+export interface IAnimeEpisodeV2 {
+  [x: string]: {
+    id: string;
+    season_number: number;
+    title: string;
+    image: string;
+    description: string;
+    releaseDate: string;
+    isHD: boolean;
+    isAdult: boolean;
+    isDubbed: boolean;
+    isSubbed: boolean;
+    duration: number;
+  }[];
 }
 
 export interface IAnimeEpisode {
@@ -303,6 +319,7 @@ export interface ISource {
   subtitles?: ISubtitle[];
   sources: IVideo[];
   download?: string;
+  [x: string]: unknown; // other fields
 }
 
 /**
