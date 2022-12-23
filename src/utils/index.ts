@@ -8,7 +8,6 @@ import {
   StreamTape,
   VizCloud,
   Filemoon,
-  Vrv,
   BilibiliExtractor,
   AsianLoad,
 } from '../extractors';
@@ -72,7 +71,6 @@ export {
   anilistCharacterQuery,
   getDays,
   days,
-  Vrv,
   isJson,
   convertDuration,
   BilibiliExtractor,
