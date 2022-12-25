@@ -73,6 +73,7 @@ output:
   id: 'tv/watch-vincenzo-67955', // media id
   title: 'Vincenzo',
   url: 'https://flixhq.to/tv/watch-vincenzo-67955', // media url
+  cover: "https://img.flixhq.to/xxrz/1200x600/379/54/ed/54ed3e2164e4efa4c9ccc248e03f0032/54ed3e2164e4efa4c9ccc248e03f0032.jpg",
   image: 'https://img.flixhq.to/xxrz/250x400/379/79/6b/796b32989cf1308b9e0619524af5b022/796b32989cf1308b9e0619524af5b022.jpg',
   description: '\n' +
     '        At age of 8, Park Joo-Hyung went to Italy after he was adopted. He is now an adult and has the name of Vincenzo Cassano. ...\n' +
@@ -93,6 +94,15 @@ output:
   production: 'Studio Dragon',
   duration: '60 min',
   rating: 8.4,
+  recommendations: [
+          {
+            id: 'tv/watch-shantaram-89158',
+            title: 'Shantaram',
+            image: 'https://img.flixhq.to/xxrz/250x400/379/92/e9/92e9cd794fa25a8cc70542fdebeb4585/92e9cd794fa25a8cc70542fdebeb4585.jpg',
+            duration: '',
+            type: 'TV Series'
+          },
+  ],
   episodes: [
     {
       id: '1167571',
