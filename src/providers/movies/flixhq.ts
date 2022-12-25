@@ -52,6 +52,7 @@ class FlixHQ extends MovieParser {
           url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
           image: $(el).find('div.film-poster > img').attr('data-src'),
           releaseDate: isNaN(parseInt(releaseDate)) ? undefined : releaseDate,
+          seasons: releaseDate.includes('SS') ? parseInt(releaseDate.split('SS')[1]) : undefined,
           type:
             $(el).find('div.film-detail > div.fd-infor > span.float-right').text() === 'Movie'
               ? TvType.MOVIE
@@ -276,7 +277,7 @@ class FlixHQ extends MovieParser {
       )
         .map((i, el) => {
           const releaseDate = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text();
-          const movie = {
+          const movie: any = {
             id: $(el).find('div.film-poster > a').attr('href')?.slice(1)!,
             title: $(el).find('div.film-detail > h3.film-name > a').attr('title')!,
             url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
@@ -335,7 +336,7 @@ class FlixHQ extends MovieParser {
       const movies = $('div#trending-movies div.film_list-wrap div.flw-item')
         .map((i, el) => {
           const releaseDate = $(el).find('div.film-detail > div.fd-infor > span:nth-child(1)').text();
-          const movie = {
+          const movie: any = {
             id: $(el).find('div.film-poster > a').attr('href')?.slice(1)!,
             title: $(el).find('div.film-detail > h3.film-name > a').attr('title')!,
             url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
@@ -387,9 +388,10 @@ class FlixHQ extends MovieParser {
 
 // (async () => {
 //   const movie = new FlixHQ();
-//   const movieInfo = await movie.fetchEpisodeSources('1168337', 'tv/watch-vincenzo-67955');
-//   const recentTv = await movie.fetchTrendingTvShows();
-//   console.log(recentTv);
+//   const search = await movie.search('the flash');
+//   // const movieInfo = await movie.fetchEpisodeSources('1168337', 'tv/watch-vincenzo-67955');
+//   // const recentTv = await movie.fetchTrendingTvShows();
+//   console.log(search);
 // })();
 
 export default FlixHQ;
