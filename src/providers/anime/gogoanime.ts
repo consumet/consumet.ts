@@ -14,6 +14,7 @@ import {
   ISource,
   MediaFormat,
   ProxyConfig,
+  IAnimeEpisode,
 } from '../../models';
 import { USER_AGENT } from '../../utils';
 import { GogoCDN, StreamSB } from '../../extractors';
