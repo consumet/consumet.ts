@@ -73,7 +73,7 @@ class Kitsu extends AnimeParser {
   async search(query: string): Promise<unknown> {
     const data = await (await axios.get(`${this.baseUrl}anime?filter[text]=${query}`)).data;
 
-    let results: any[] = [];
+    const results: any[] = [];
     data.data.forEach((anime: any) => {
       results.push({
         id: anime.id,
