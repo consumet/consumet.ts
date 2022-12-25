@@ -1,8 +1,18 @@
-import * as dotenv from 'dotenv';
-dotenv.config()
-
 import { ANIME, BOOKS, COMICS, LIGHT_NOVELS, MANGA, MOVIES, META, NEWS } from './providers';
 import { PROVIDERS_LIST } from './utils/providers-list';
+import {
+  VizCloud,
+  AsianLoad,
+  GogoCDN,
+  Kwik,
+  MixDrop,
+  RapidCloud,
+  BilibiliExtractor,
+  Filemoon,
+  StreamSB,
+  StreamTape,
+  VidCloud,
+} from './extractors';
 import {
   IProviderStats,
   ISearch,
@@ -81,4 +91,15 @@ export {
   ITitle,
   MediaFormat,
   ProxyConfig,
+  GogoCDN,
+  StreamSB,
+  VidCloud,
+  MixDrop,
+  Kwik,
+  RapidCloud,
+  StreamTape,
+  VizCloud,
+  Filemoon,
+  BilibiliExtractor,
+  AsianLoad,
 };
