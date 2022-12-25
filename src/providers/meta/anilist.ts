@@ -342,6 +342,15 @@ class Anilist extends AnimeParser {
       if (status >= 500) data = await new Enime().fetchAnimeInfoByIdRaw(id);
 
       animeInfo.malId = data.data?.Media?.idMal ?? data?.mappings!['mal'];
+      try {
+        const enimeInfo = await new Enime().fetchAnimeInfoByAnilistId(
+          id,
+          this.provider.name.toLowerCase() as 'gogoanime' | 'zoro'
+        );
+        animeInfo.mappings = enimeInfo.mappings;
+      } catch (err) {
+        console.log(err);
+      }
       animeInfo.title = data.data.Media
         ? {
             romaji: data.data.Media.title.romaji,
@@ -521,7 +530,6 @@ class Anilist extends AnimeParser {
             id,
             this.provider.name.toLowerCase() as 'gogoanime' | 'zoro'
           );
-          animeInfo.mappings = enimeInfo.mappings;
           animeInfo.episodes = enimeInfo.episodes?.map((item: any) => ({
             id: item.slug,
             title: item.title,
