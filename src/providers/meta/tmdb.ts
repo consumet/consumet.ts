@@ -1,5 +1,6 @@
 import axios from 'axios';
 import { Console } from 'console';
+import { type } from 'os';
 
 import {
   ISearch,
@@ -232,6 +233,7 @@ class TMDB extends MovieParser {
     const findMedia = (await this.provider.search(title)) as ISearch<IAnimeResult>;
     if (findMedia.results.length === 0) return '';
 
+    // console.log(findMedia.results);
     // console.log(extraData);
 
     // Sort the retrieved info for more accurate results.
@@ -254,25 +256,36 @@ class TMDB extends MovieParser {
       return secondRating - firstRating;
     });
 
+    //remove results that dont match the type
+    findMedia.results = findMedia.results.filter(result => {
+      if (extraData.type === TvType.MOVIE) return (result.type as string) === TvType.MOVIE;
+      else if (extraData.type === TvType.TVSERIES) return (result.type as string) === TvType.TVSERIES;
+      else return result;
+    });
+
     // if extraData contains a year, filter out the results that don't match the year
-    if (extraData && extraData.year) {
+    if (extraData && extraData.year && extraData.type === TvType.MOVIE) {
       findMedia.results = findMedia.results.filter(result => {
-        if (!result?.year) return result;
         return result.releaseDate?.split('-')[0] === extraData.year;
       });
     }
 
-    // check if the result contains the total number of seasons and compare it to the extraData by 1 up or down
-    if (extraData && extraData.totalSeasons) {
+    // console.log({ test1: findMedia.results });
+
+    // check if the result contains the total number of seasons and compare it to the extraData by 1 up or down and make sure that its a number
+    if (extraData && extraData.totalSeasons && extraData.type === TvType.TVSERIES) {
       findMedia.results = findMedia.results.filter(result => {
-        if (!result?.seasons) return result;
+        const totalSeasons = (result.seasons as number) || 0;
+        const extraDataSeasons = (extraData.totalSeasons as number) || 0;
         return (
-          result?.seasons === extraData.totalSeasons ||
-          result?.seasons === extraData.totalSeasons! + 1 ||
-          result?.seasons === extraData.totalSeasons! - 1
+          totalSeasons === extraDataSeasons ||
+          totalSeasons === extraDataSeasons + 1 ||
+          totalSeasons === extraDataSeasons - 1
         );
       });
     }
+
+    // console.log(findMedia.results);
 
     return findMedia?.results[0]?.id || undefined;
   };
@@ -296,9 +309,9 @@ class TMDB extends MovieParser {
 
 // (async () => {
 //   const tmdb = new TMDB();
-//   const search = await tmdb.search('the flash');
-//   console.log(search);
+//   const search = await tmdb.search('vincenzo');
 //   const info = await tmdb.fetchMediaInfo(search.results[0].id, search.results![0].type as string);
+//   console.log(info);
 //   //const sources = await tmdb.fetchEpisodeSources((info.seasons as any[])![0].episodes![0].id, info.id);
 //   // const id = await tmdb.findIdFromTitle('avengers');
 //   //console.log(info);
