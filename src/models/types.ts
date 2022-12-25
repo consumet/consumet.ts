@@ -369,6 +369,8 @@ interface INewsFeedPreview {
 }
 
 export interface IMovieInfo extends IMovieResult {
+  cover?: string;
+  recommendations?: IMovieResult;
   genres?: string[];
   description?: string;
   rating?: number;

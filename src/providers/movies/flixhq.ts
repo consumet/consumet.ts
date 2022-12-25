@@ -82,8 +82,26 @@ class FlixHQ extends MovieParser {
     try {
       const { data } = await axios.get(mediaId);
       const $ = load(data);
+      const recommendationsArray: IMovieResult[] = [];
+
+      $(
+        'div.movie_information > div.container > div.m_i-related > div.film-related > section.block_area > div.block_area-content > div.film_list-wrap > div.flw-item'
+      ).each((i, el) => {
+        recommendationsArray.push({
+          id: $(el).find('div.film-poster > a').attr('href')?.slice(1)!,
+          title: $(el).find('div.film-detail > h3.film-name > a').text(),
+          image: $(el).find('div.film-poster > img').attr('data-src'),
+          duration:
+            $(el).find('div.film-detail > div.fd-infor > span.fdi-duration').text().replace('m', '') ?? null,
+          type:
+            $(el).find('div.film-detail > div.fd-infor > span.fdi-type').text().toLowerCase() === 'tv'
+              ? TvType.TVSERIES
+              : TvType.MOVIE ?? null,
+        });
+      });
 
       const uid = $('.watch_block').attr('data-id')!;
+      movieInfo.cover = $('div.w_b-cover').attr('style')?.slice(22).replace(')', '').replace(';', '');
       movieInfo.title = $('.heading-name > a:nth-child(1)').text();
       movieInfo.image = $('.m_i-d-poster > div:nth-child(1) > img:nth-child(1)').attr('src');
       movieInfo.description = $('.description').text();
@@ -103,7 +121,7 @@ class FlixHQ extends MovieParser {
       movieInfo.country = $('div.row-line:nth-child(1) > a:nth-child(2)').text();
       movieInfo.duration = $('span.item:nth-child(3)').text();
       movieInfo.rating = parseFloat($('span.item:nth-child(2)').text());
-
+      movieInfo.recommendations = recommendationsArray as any;
       let ajaxReqUrl = (id: string, type: string, isSeasons: boolean = false) =>
         `${this.baseUrl}/ajax/${type === 'movie' ? type : `v2/${type}`}/${
           isSeasons ? 'seasons' : 'episodes'
