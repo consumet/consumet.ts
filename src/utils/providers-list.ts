@@ -11,7 +11,6 @@ export const PROVIDERS_LIST = {
     new ANIME.NineAnime(),
     new ANIME.AnimePahe(),
     new ANIME.Zoro(),
-    new ANIME.AniMixPlay(),
     new ANIME.AnimeFox(),
     new ANIME.Enime(),
     new ANIME.Crunchyroll(),

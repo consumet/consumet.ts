@@ -7,7 +7,6 @@ import RapidCloud from './rapidcloud';
 import StreamTape from './streamtape';
 import VizCloud from './vizcloud';
 import Filemoon from './filemoon';
-import Vrv from './vrv';
 import BilibiliExtractor from './bilibili';
 import AsianLoad from './asianload';
-export { GogoCDN, StreamSB, VidCloud, MixDrop, Kwik, RapidCloud, StreamTape, VizCloud, Filemoon, Vrv, BilibiliExtractor, AsianLoad, };
+export { GogoCDN, StreamSB, VidCloud, MixDrop, Kwik, RapidCloud, StreamTape, VizCloud, Filemoon, BilibiliExtractor, AsianLoad, };

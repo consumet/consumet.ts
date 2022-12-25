@@ -13,7 +13,6 @@ exports.PROVIDERS_LIST = {
         new providers_1.ANIME.NineAnime(),
         new providers_1.ANIME.AnimePahe(),
         new providers_1.ANIME.Zoro(),
-        new providers_1.ANIME.AniMixPlay(),
         new providers_1.ANIME.AnimeFox(),
         new providers_1.ANIME.Enime(),
         new providers_1.ANIME.Crunchyroll(),
