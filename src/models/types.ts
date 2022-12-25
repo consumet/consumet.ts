@@ -320,6 +320,7 @@ export interface IMovieEpisode {
   url?: string;
   number?: number;
   season?: number;
+  description?: string;
   image?: string;
   releaseDate?: string;
   [x: string]: unknown; // other fields
@@ -379,6 +380,7 @@ export interface IMovieInfo extends IMovieResult {
   casts?: string[];
   tags?: string[];
   totalEpisodes?: number;
+  seasons?: { season: number; image?: string; episodes: IMovieEpisode[] }[];
   episodes?: IMovieEpisode[];
 }
 

@@ -1,4 +1,5 @@
 import axios from 'axios';
+import { Console } from 'console';
 
 import {
   ISearch,
@@ -10,6 +11,8 @@ import {
   TvType,
   IMovieResult,
   IMovieInfo,
+  ProxyConfig,
+  IMovieEpisode,
 } from '../../models';
 import { compareTwoStrings } from '../../utils';
 import FlixHQ from '../movies/flixhq';
@@ -22,12 +25,14 @@ class TMDB extends MovieParser {
   protected override classPath = 'MOVIES.TMDB';
   override supportedTypes = new Set([TvType.MOVIE, TvType.TVSERIES, TvType.ANIME]);
 
-  private api_key = process.env.TMDB_API_KEY;
-
   private provider: MovieParser;
 
-  constructor(provider?: MovieParser) {
-    super();
+  constructor(
+    private apiKey: string = '5201b54eb0968700e693a30576d7d4dc',
+    provider?: MovieParser,
+    proxyConfig?: ProxyConfig
+  ) {
+    super('https://api.themoviedb.org/3', proxyConfig);
     this.provider = provider || new FlixHQ();
   }
 
@@ -39,7 +44,7 @@ class TMDB extends MovieParser {
     query: string,
     page: number = 1
   ): Promise<ISearch<IMovieResult | IAnimeResult>> => {
-    const searchUrl = `${this.baseUrl}/search/multi?api_key=${this.api_key}&language=en-US&page=${page}&include_adult=false&query=${query}`;
+    const searchUrl = `/search/multi?api_key=${this.apiKey}&language=en-US&page=${page}&include_adult=false&query=${query}`;
 
     const search: ISearch<IMovieResult | IAnimeResult> = {
       currentPage: 1,
@@ -47,26 +52,24 @@ class TMDB extends MovieParser {
     };
 
     try {
-      const { data } = await axios.get(searchUrl);
+      const { data } = await this.client.get(searchUrl);
 
-      if (data.results.length > 0) {
-        data.results.forEach((result: any) => {
-          const date = new Date(result?.release_date || result?.first_air_date);
+      if (data.results.length < 1) return search;
 
-          const movie: IMovieResult = {
-            id: result.id,
-            title: result?.title || result?.name,
-            image: `https://image.tmdb.org/t/p/original${result?.poster_path}`,
-            type: result.media_type === 'movie' ? TvType.MOVIE : TvType.TVSERIES,
-            rating: result?.vote_average || 0,
-            releaseDate: `${date.getFullYear()}` || '0',
-          };
+      data.results.forEach((result: any) => {
+        const date = new Date(result?.release_date || result?.first_air_date);
 
-          return search.results.push(movie);
-        });
-      } else {
-        throw new Error('No results found');
-      }
+        const movie: IMovieResult = {
+          id: result.id,
+          title: result?.title || result?.name,
+          image: `https://image.tmdb.org/t/p/original${result?.poster_path}`,
+          type: result.media_type === 'movie' ? TvType.MOVIE : TvType.TVSERIES,
+          rating: result?.vote_average || 0,
+          releaseDate: `${date.getFullYear()}` || '0',
+        };
+
+        return search.results.push(movie);
+      });
 
       return search;
     } catch (err) {
@@ -80,7 +83,7 @@ class TMDB extends MovieParser {
    */
   override fetchMediaInfo = async (mediaId: string, type: string): Promise<IMovieInfo | IAnimeInfo> => {
     type = type.toLowerCase() === 'movie' ? 'movie' : 'tv';
-    const infoUrl = `${this.apiUrl}/${type}/${mediaId}?api_key=${this.api_key}&language=en-US&append_to_response=release_dates,watch/providers,alternative_titles,credits,external_ids,images,keywords,recommendations,reviews,similar,translations,videos&include_image_language=en`;
+    const infoUrl = `/${type}/${mediaId}?api_key=${this.apiKey}&language=en-US&append_to_response=release_dates,watch/providers,alternative_titles,credits,external_ids,images,keywords,recommendations,reviews,similar,translations,videos&include_image_language=en`;
 
     const info: IMovieInfo = {
       id: mediaId,
@@ -88,7 +91,7 @@ class TMDB extends MovieParser {
     };
 
     try {
-      const { data } = await axios.get(infoUrl);
+      const { data } = await this.client.get(infoUrl);
 
       //get provider id from title and year (if available) to get the correct provider id for the movie/tv series (e.g. flixhq)
       const providerId = await this.findIdFromTitle(data?.title || data?.name, {
@@ -152,8 +155,7 @@ class TMDB extends MovieParser {
 
       const totalSeasons = (info?.totalSeasons as number) || 0;
       if (type === 'tv' && totalSeasons > 0) {
-        const seasonUrl = (season: string) =>
-          `${this.apiUrl}/tv/${mediaId}/season/${season}?api_key=${this.api_key}`;
+        const seasonUrl = (season: string) => `/tv/${mediaId}/season/${season}?api_key=${this.apiKey}`;
 
         info.seasons = [];
         const seasons = info.seasons as any[];
@@ -161,28 +163,29 @@ class TMDB extends MovieParser {
         const InfoFromProvider = await this.provider.fetchMediaInfo(providerId as string);
         const providerEpisodes = InfoFromProvider?.episodes as any[];
 
+        if (providerEpisodes?.length < 1) return info;
+
         for (let i = 1; i <= totalSeasons; i++) {
-          const { data: seasonData } = await axios.get(seasonUrl(i.toString()));
+          const { data: seasonData } = await this.client.get(seasonUrl(i.toString()));
 
           //find season in each episode (providerEpisodes)
           const seasonEpisodes = providerEpisodes?.filter(episode => episode.season === i);
-
           const episodes =
             seasonData?.episodes?.length <= 0
               ? undefined
-              : seasonData?.episodes.map((episode: any) => {
+              : seasonData?.episodes.map((episode: any): IMovieEpisode => {
                   //find episode in each season (seasonEpisodes)
                   const episodeFromProvider = seasonEpisodes?.find(
                     ep => ep.number === episode.episode_number
                   );
 
                   return {
-                    id: episodeFromProvider?.id || undefined,
+                    id: episodeFromProvider?.id,
                     title: episode.name,
                     episode: episode.episode_number,
                     season: episode.season_number,
                     releaseDate: episode.air_date,
-                    overview: episode.overview,
+                    description: episode.overview,
                     url: episodeFromProvider?.url || undefined,
                     img: !episode?.still_path
                       ? undefined
@@ -203,7 +206,7 @@ class TMDB extends MovieParser {
       console.log(err);
       throw new Error((err as Error).message);
     }
-
+    info.seasons?.reverse();
     return info;
   };
 
@@ -213,13 +216,14 @@ class TMDB extends MovieParser {
    * @param extraData
    * @returns id of the media
    */
-  findIdFromTitle = async (
+  private findIdFromTitle = async (
     title: string,
     extraData: {
       type: TvType;
       year?: number;
       totalSeasons?: number;
       totalEpisodes?: number;
+      [key: string]: any;
     }
   ): Promise<string | undefined> => {
     //clean title
@@ -228,7 +232,6 @@ class TMDB extends MovieParser {
     const findMedia = (await this.provider.search(title)) as ISearch<IAnimeResult>;
     if (findMedia.results.length === 0) return '';
 
-    // console.log(findMedia.results);
     // console.log(extraData);
 
     // Sort the retrieved info for more accurate results.
@@ -292,12 +295,13 @@ class TMDB extends MovieParser {
 }
 
 // (async () => {
-//   const flixhq = new FlixHQ();
-//   const tmdb = new TMDB(flixhq);
+//   const tmdb = new TMDB();
 //   const search = await tmdb.search('the flash');
-//   const info = await tmdb.fetchMediaInfo(search.results![0].id, search.results![0].type as string);
-//   const sources = await tmdb.fetchEpisodeSources((info.seasons as any[])![0].episodes![0].id, info.id);
+//   console.log(search);
+//   const info = await tmdb.fetchMediaInfo(search.results[0].id, search.results![0].type as string);
+//   //const sources = await tmdb.fetchEpisodeSources((info.seasons as any[])![0].episodes![0].id, info.id);
 //   // const id = await tmdb.findIdFromTitle('avengers');
+//   //console.log(info);
 //   // console.log((info?.seasons as any[])![0].episodes);
 // })();
 
