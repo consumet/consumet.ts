@@ -53,7 +53,7 @@ class Mangasee123 extends models_1.MangaParser {
             }
         };
         this.fetchChapterPages = async (chapterId, ...args) => {
-            let images = [];
+            const images = [];
             const url = `${this.baseUrl}/read-online/${chapterId}-page-1.html`;
             try {
                 const { data } = await axios_1.default.get(`${this.sgProxy}/${url}`);
@@ -83,12 +83,12 @@ class Mangasee123 extends models_1.MangaParser {
             }
         };
         this.search = async (query, ...args) => {
-            let matches = [];
+            const matches = [];
             const sanitizedQuery = query.replace(/\s/g, '').toLowerCase();
             try {
                 const { data } = await axios_1.default.get(`${this.sgProxy}/https://mangasee123.com/_search.php`);
-                for (let i in data) {
-                    let sanitizedAlts = [];
+                for (const i in data) {
+                    const sanitizedAlts = [];
                     const item = data[i];
                     const altTitles = data[i]['a'];
                     switch (altTitles.length == 0) {

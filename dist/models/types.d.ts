@@ -276,6 +276,7 @@ export interface ISource {
     intro?: Intro;
     subtitles?: ISubtitle[];
     sources: IVideo[];
+    download?: string;
 }
 /**
  * Used **only** for movie/tvshow providers

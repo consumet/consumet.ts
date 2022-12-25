@@ -72,7 +72,7 @@ class ReadLightNovels extends LightNovelParser {
         .eq(0)
         .nextUntil('hr')
         .text();
-      let pages = Math.max(
+      const pages = Math.max(
         ...$('#pagination > ul > li')
           .map((i, el) => parseInt($(el).find('a').attr('data-page')!))
           .get()

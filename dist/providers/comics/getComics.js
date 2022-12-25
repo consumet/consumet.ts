@@ -36,7 +36,7 @@ class getComics extends models_1.ComicParser {
                 container.ufile = link || '';
                 res.containers.push(container);
             });
-            for (let container of res.containers) {
+            for (const container of res.containers) {
                 if (container.ufile != '') {
                     const { data } = await get(container.ufile);
                     const $ = (0, cheerio_1.load)(data);
