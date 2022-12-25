@@ -86,7 +86,7 @@ class Dramacool extends MovieParser {
           id: $(el).find('a').attr('href')?.split('.html')[0].slice(1)!,
           title: $(el).find('h3').text().replace(mediaInfo.title.toString(), '').trim(),
           episode: parseFloat(
-            $(el).find('a').attr('href')?.split('-episode-')[1].split('.html')[0].split('-').join('.')
+            $(el).find('a').attr('href')?.split('-episode-')[1].split('.html')[0].split('-').join('.')!
           ),
           releaseDate: $(el).find('span.time').text(),
           url: `${this.baseUrl}${$(el).find('a').attr('href')}`,
