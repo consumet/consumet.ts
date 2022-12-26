@@ -168,7 +168,7 @@ class Dramacool extends MovieParser {
     throw new Error('Method not implemented.');
   }
 
-  removeContainsFromString = (str: string, contains: string) => {
+  private removeContainsFromString = (str: string, contains: string) => {
     contains = contains.toLowerCase();
     return str.toLowerCase().replace(/\n/g, '').replace(`${contains}:`, '').trim();
   };
