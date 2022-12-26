@@ -41,7 +41,7 @@ import Gogoanime from '../../providers/anime/gogoanime';
 import Enime from '../anime/enime';
 import Zoro from '../anime/zoro';
 import Mangasee123 from '../manga/mangasee123';
-import Crunchyroll from '../anime/crunchyroll';
+import Crunchyroll from '../anime/kamyroll';
 import Bilibili from '../anime/bilibili';
 import { compareTwoStrings } from '../../utils/utils';
 

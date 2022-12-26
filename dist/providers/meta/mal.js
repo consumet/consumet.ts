@@ -9,7 +9,7 @@ const models_1 = require("../../models");
 const utils_1 = require("../../utils");
 const gogoanime_1 = __importDefault(require("../anime/gogoanime"));
 const zoro_1 = __importDefault(require("../anime/zoro"));
-const crunchyroll_1 = __importDefault(require("../anime/crunchyroll"));
+const kamyroll_1 = __importDefault(require("../anime/kamyroll"));
 const enime_1 = __importDefault(require("../anime/enime"));
 const bilibili_1 = __importDefault(require("../anime/bilibili"));
 class Myanimelist extends models_1.AnimeParser {
@@ -155,7 +155,7 @@ class Myanimelist extends models_1.AnimeParser {
             }
         };
         this.findAnimeRaw = async (slug, externalLinks) => {
-            if (externalLinks && this.provider instanceof crunchyroll_1.default) {
+            if (externalLinks && this.provider instanceof kamyroll_1.default) {
                 if (externalLinks.map((link) => link.site.includes('Crunchyroll'))) {
                     const link = externalLinks.find((link) => link.site.includes('Crunchyroll'));
                     const { request } = await axios_1.default.get(link.url, { validateStatus: () => true });
@@ -186,7 +186,7 @@ class Myanimelist extends models_1.AnimeParser {
                 // Sort in descending order
                 return secondRating - firstRating;
             });
-            if (this.provider instanceof crunchyroll_1.default) {
+            if (this.provider instanceof kamyroll_1.default) {
                 return await this.provider.fetchAnimeInfo(findAnime.results[0].id, findAnime.results[0].type);
             }
             // TODO: use much better way than this
@@ -198,7 +198,7 @@ class Myanimelist extends models_1.AnimeParser {
                 return (await this.provider.fetchAnimeInfoByMalId(malId)).episodes;
             const slug = title.replace(/[^0-9a-zA-Z]+/g, ' ');
             let possibleAnime;
-            if (malId && !(this.provider instanceof crunchyroll_1.default || this.provider instanceof bilibili_1.default)) {
+            if (malId && !(this.provider instanceof kamyroll_1.default || this.provider instanceof bilibili_1.default)) {
                 const malAsyncReq = await (0, axios_1.default)({
                     method: 'GET',
                     url: `${this.malSyncUrl}/mal/anime/${malId}`,
@@ -257,7 +257,7 @@ class Myanimelist extends models_1.AnimeParser {
                     }
                 });
             }
-            if (this.provider instanceof crunchyroll_1.default) {
+            if (this.provider instanceof kamyroll_1.default) {
                 return dub
                     ? possibleAnime.episodes.filter((ep) => ep.isDubbed)
                     : possibleAnime.episodes.filter((ep) => ep.type == 'Subbed');

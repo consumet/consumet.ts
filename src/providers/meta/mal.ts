@@ -25,7 +25,7 @@ import {
 import { substringAfter, substringBefore, compareTwoStrings, kitsuSearchQuery, range } from '../../utils';
 import Gogoanime from '../anime/gogoanime';
 import Zoro from '../anime/zoro';
-import Crunchyroll from '../anime/crunchyroll';
+import Crunchyroll from '../anime/kamyroll';
 import Enime from '../anime/enime';
 import Bilibili from '../anime/bilibili';
 

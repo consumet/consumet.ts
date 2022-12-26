@@ -100,6 +100,22 @@ export interface IAnimeInfo extends IAnimeResult {
   relations?: IAnimeResult[];
 }
 
+export interface IAnimeEpisodeV2 {
+  [x: string]: {
+    id: string;
+    season_number: number;
+    title: string;
+    image: string;
+    description: string;
+    releaseDate: string;
+    isHD: boolean;
+    isAdult: boolean;
+    isDubbed: boolean;
+    isSubbed: boolean;
+    duration: number;
+  }[];
+}
+
 export interface IAnimeEpisode {
   id: string;
   number: number;

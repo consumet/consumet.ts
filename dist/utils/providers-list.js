@@ -30,9 +30,9 @@ exports.PROVIDERS_LIST = {
     BOOKS: [new providers_1.BOOKS.Libgen()],
     COMICS: [new providers_1.COMICS.GetComics()],
     LIGHT_NOVELS: [new providers_1.LIGHT_NOVELS.ReadLightNovels()],
-    MOVIES: [new providers_1.MOVIES.FlixHQ(), new providers_1.MOVIES.ViewAsian()],
+    MOVIES: [new providers_1.MOVIES.FlixHQ(), new providers_1.MOVIES.ViewAsian(), new providers_1.MOVIES.DramaCool()],
     NEWS: [new providers_1.NEWS.ANN()],
-    META: [new providers_1.META.Anilist()],
+    META: [new providers_1.META.Anilist(), new providers_1.META.TMDB(), new providers_1.META.Myanimelist()],
     OTHERS: [],
 };
 //# sourceMappingURL=providers-list.js.map

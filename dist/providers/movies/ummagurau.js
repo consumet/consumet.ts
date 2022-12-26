@@ -71,6 +71,7 @@ class Ummangurau extends models_1.MovieParser {
             catch (err) {
                 throw new Error(err.message);
             }
+            return movieInfo;
         };
     }
     fetchEpisodeServers(mediaLink, ...args) {

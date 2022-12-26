@@ -4,7 +4,7 @@ import AnimePahe from './animepahe';
 import Zoro from './zoro';
 import AnimeFox from './animefox';
 import Enime from './enime';
-import Crunchyroll from './crunchyroll';
+import Crunchyroll from './kamyroll';
 import Bilibili from './bilibili';
 
 export default { Gogoanime, NineAnime, AnimePahe, Zoro, AnimeFox, Enime, Crunchyroll, Bilibili };
