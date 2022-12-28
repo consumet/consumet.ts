@@ -53,7 +53,7 @@ class TVDB extends AnimeParser {
   }
 
   override search = async (query: string, page: number = 1): Promise<ISearch<IAnimeResult>> => {
-    let searchResults: ISearch<IAnimeResult> = {
+    const searchResults: ISearch<IAnimeResult> = {
       currentPage: page,
       results: [],
     };
@@ -140,18 +140,18 @@ class TVDB extends AnimeParser {
 
       const data = await (await axios.get(`${this.baseUrl}${animeId}`)).data
 
-			let $ = load(data)
+			const $ = load(data)
 
 			console.log($(".translated_title").text().trim())
 
-			let titles: ITitle = {
+			const titles: ITitle = {
 				english: undefined,
 				romaji: "",
 				native: $(".translated_title").text().trim()
 			}
 
-			let descriptions: any[] = []
-			let synonyms: any[] = []
+			const descriptions: any[] = []
+			const synonyms: any[] = []
 
 			$('#translations').children().map((i, el) => {
 				if($(el).data('language') == "eng") {
@@ -166,19 +166,19 @@ class TVDB extends AnimeParser {
 			})
 
 			const posters = $("#artwork-posters").children().eq(0).children()
-			let posters_list: any[] = []
+			const posters_list: any[] = []
 			posters.map((i: any, el) => {
 				posters_list.push($(el).children('a').attr('href'))
 			})
 
 			const covers = $("#artwork-backgrounds").children().eq(0).children()
-			let covers_list: any[] = []
+			const covers_list: any[] = []
 			covers.map((i: any, el) => {
 				covers_list.push($(el).children('a').attr('href'))
 			})
 
 			const logos = $("#artwork-clearlogo").children().eq(0).children()
-			let logos_list: any[] = []
+			const logos_list: any[] = []
 			logos.map((i: any, el) => {
 				logos_list.push($(el).children('a').attr('href'))
 			})
@@ -186,7 +186,7 @@ class TVDB extends AnimeParser {
 			let releaseDate = ""
 			let totalEpisodes = 0
 
-			let seasons: any[] = []
+			const seasons: any[] = []
 			$('.table.table-bordered.table-hover.table-colored').children().eq(1).find('a').map((i, el) => {
 				if($(el).text().trim() == "Season 1") {
 					releaseDate = $(el).parent().parent().children().eq(1).text().trim().replace(/\D/g,'').trim()
@@ -209,7 +209,7 @@ class TVDB extends AnimeParser {
 				})
 			})
 
-			let genres: any[] = []
+			const genres: any[] = []
 			$('.list-group').find('a').map((i, el) => {
 				if($(el).attr('href')?.includes('genres')) {
 					genres.push($(el).text().trim())
@@ -219,7 +219,7 @@ class TVDB extends AnimeParser {
 			let country = ""
 			let duration: number | undefined = undefined
 			let studio = ""
-			let mappings: {
+			const mappings: {
 				imdb: string | undefined,
 				tmdb: number | undefined
 			} = {
@@ -247,11 +247,11 @@ class TVDB extends AnimeParser {
 				}
 			})
 
-			let cast: any[] = []
+			const cast: any[] = []
 
 			$('.thumbnail').map((i, el) => {
-				let data = $(el)
-				let names = data.children().eq(0).text().split(' as ')
+				const data = $(el)
+				const names = data.children().eq(0).text().split(' as ')
 				cast.push({
 					name: names[0].trim(),
 					image: $(el).find('img').data('src'),
