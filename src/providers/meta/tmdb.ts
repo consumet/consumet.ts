@@ -48,7 +48,8 @@ class TMDB extends MovieParser {
     const searchUrl = `/search/multi?api_key=${this.apiKey}&language=en-US&page=${page}&include_adult=false&query=${query}`;
 
     const search: ISearch<IMovieResult | IAnimeResult> = {
-      currentPage: 1,
+      currentPage: page,
+      hasNextPage: false,
       results: [],
     };
 
@@ -56,6 +57,11 @@ class TMDB extends MovieParser {
       const { data } = await this.client.get(searchUrl);
 
       if (data.results.length < 1) return search;
+
+      search.hasNextPage = page + 1 <= data.total_pages;
+      search.currentPage = page;
+      search.totalResults = data.total_results;
+      search.totalPages = data.total_pages;
 
       data.results.forEach((result: any) => {
         const date = new Date(result?.release_date || result?.first_air_date);
@@ -309,13 +315,9 @@ class TMDB extends MovieParser {
 
 // (async () => {
 //   const tmdb = new TMDB();
-//   const search = await tmdb.search('vincenzo');
-//   const info = await tmdb.fetchMediaInfo(search.results[0].id, search.results![0].type as string);
-//   console.log(info);
-//   //const sources = await tmdb.fetchEpisodeSources((info.seasons as any[])![0].episodes![0].id, info.id);
-//   // const id = await tmdb.findIdFromTitle('avengers');
-//   //console.log(info);
-//   // console.log((info?.seasons as any[])![0].episodes);
+//   const search = await tmdb.search('the flash', 2);
+//   // const info = await tmdb.fetchMediaInfo(search.results[0].id, search.results![0].type as string);
+//   console.log(search);
 // })();
 
 export default TMDB;
