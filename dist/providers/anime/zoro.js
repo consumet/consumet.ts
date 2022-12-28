@@ -149,7 +149,7 @@ class Zoro extends models_1.AnimeParser {
                 throw new Error('Invalid episode id');
             // Fallback to using sub if no info found in case of compatibility
             // TODO: add both options later
-            let subOrDub = ((_a = episodeId.split('$')) === null || _a === void 0 ? void 0 : _a.pop()) === 'dub' ? 'dub' : 'sub';
+            const subOrDub = ((_a = episodeId.split('$')) === null || _a === void 0 ? void 0 : _a.pop()) === 'dub' ? 'dub' : 'sub';
             episodeId = `${this.baseUrl}/watch/${episodeId
                 .replace('$episode$', '?ep=')
                 .replace(/\$auto|\$sub|\$dub/gi, '')}`;
@@ -250,7 +250,6 @@ class Zoro extends models_1.AnimeParser {
 // (async () => {
 //   const zoro = new Zoro();
 //   const anime = await zoro.search('classroom of the elite');
-//   const episodes = (await zoro.fetchAnimeInfo(anime.results[1].id)).episodes;
 //   const sources = await zoro.fetchEpisodeSources('bleach-the-movie-fade-to-black-1492$episode$58326');
 //   console.log(sources);
 // })();

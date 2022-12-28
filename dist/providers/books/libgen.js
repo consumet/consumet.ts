@@ -215,7 +215,7 @@ class Libgen extends models_1.BookParser {
          */
         this.search = async (query, page = 1) => {
             query = encodeURIComponent(query);
-            let workingExtension = this.extensions[0];
+            const workingExtension = this.extensions[0];
             const containers = [];
             const { data } = await get(`${this.baseUrl}.rs/search.php?req=${query}&view=simple&res=25&sort=def&sortmode=ASC&page=${page}`);
             const $ = (0, cheerio_1.load)(data);

@@ -52,9 +52,15 @@ class RapidCloud extends VideoExtractor {
         await axios.get('https://raw.githubusercontent.com/consumet/rapidclown/main/key.txt')
       ).data;
       if (!decryptKey) decryptKey = this.fallbackKey;
-
-      if (encrypted)
-        sources = JSON.parse(CryptoJS.AES.decrypt(sources, decryptKey).toString(CryptoJS.enc.Utf8));
+      
+      try {
+        if (encrypted) {
+          const decrypt = CryptoJS.AES.decrypt(sources, decryptKey);
+          sources = JSON.parse(decrypt.toString(CryptoJS.enc.Utf8));
+        }
+      } catch (err) {
+        throw new Error('Cannot decrypt sources. Perhaps the key is invalid.');
+      }
       this.sources = sources?.map((s: any) => ({
         url: s.file,
         isM3U8: s.file.includes('.m3u8'),
@@ -70,8 +76,9 @@ class RapidCloud extends VideoExtractor {
           const m3u8data = data
             .split('\n')
             .filter((line: string) => line.includes('.m3u8') && line.includes('RESOLUTION='));
+
           const secondHalf = m3u8data.map((line: string) =>
-            line.match(/(?<=RESOLUTION=).*(?<=,C)|(?<=URI=).*/g)
+            line.match(/RESOLUTION=.*,(C)|URI=.*/g)?.map((s: string) => s.split('=')[1])
           );
 
           const TdArray = secondHalf.map((s: string[]) => {

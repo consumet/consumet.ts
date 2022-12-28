@@ -1,6 +1,6 @@
 import { MOVIES } from '../../src/providers';
 
-jest.setTimeout(120000);
+// jest.setTimeout(120000);
 
 test('returns a filled array of movies/tv', async () => {
   const flixhq = new MOVIES.FlixHQ();

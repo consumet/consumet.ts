@@ -1,4 +1,5 @@
 "use strict";
+<<<<<<< HEAD
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
@@ -244,4 +245,6 @@ class Crunchyroll extends models_1.AnimeParser {
 //   console.log(sources);
 // })();
 exports.default = Crunchyroll;
+=======
+>>>>>>> c3497c83b28d7379f76180556bf10ea5a3ffb73c
 //# sourceMappingURL=crunchyroll.js.map

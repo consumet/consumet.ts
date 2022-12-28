@@ -20,7 +20,11 @@ class Kwik extends models_1.VideoExtractor {
                 });
                 const match = (0, cheerio_1.load)(data)
                     .html()
+<<<<<<< HEAD
                     .match(/(?<=p}).*(?<=kwik).*}/g);
+=======
+                    .match(/p\}.*kwik.*/g);
+>>>>>>> c3497c83b28d7379f76180556bf10ea5a3ffb73c
                 if (!match) {
                     throw new Error('Video not found.');
                 }
@@ -30,7 +34,15 @@ class Kwik extends models_1.VideoExtractor {
                 arr.unshift(l);
                 const [p, a, c, k, e, d] = arr.map(x => x.split('.sp')[0]);
                 const formated = this.format(p, a, c, k, e, {});
+<<<<<<< HEAD
                 const source = formated.match(/(?<=source=\\).*(?=\\';)/g)[0].replace(/\'/g, '');
+=======
+                const source = formated
+                    .match(/source=\\(.*?)\\'/g)[0]
+                    .replace(/\'/g, '')
+                    .replace(/source=/g, '')
+                    .replace(/\\/g, '');
+>>>>>>> c3497c83b28d7379f76180556bf10ea5a3ffb73c
                 this.sources.push({
                     url: source,
                     isM3U8: source.includes('.m3u8'),

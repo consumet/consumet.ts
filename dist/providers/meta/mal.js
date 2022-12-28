@@ -9,7 +9,11 @@ const models_1 = require("../../models");
 const utils_1 = require("../../utils");
 const gogoanime_1 = __importDefault(require("../anime/gogoanime"));
 const zoro_1 = __importDefault(require("../anime/zoro"));
+<<<<<<< HEAD
 const crunchyroll_1 = __importDefault(require("../anime/crunchyroll"));
+=======
+const kamyroll_1 = __importDefault(require("../anime/kamyroll"));
+>>>>>>> c3497c83b28d7379f76180556bf10ea5a3ffb73c
 const enime_1 = __importDefault(require("../anime/enime"));
 const bilibili_1 = __importDefault(require("../anime/bilibili"));
 class Myanimelist extends models_1.AnimeParser {
@@ -29,7 +33,7 @@ class Myanimelist extends models_1.AnimeParser {
         this.malSyncUrl = 'https://api.malsync.moe';
         this.enimeUrl = 'https://api.enime.moe';
         this.search = async (query, page = 1) => {
-            let searchResults = {
+            const searchResults = {
                 currentPage: page,
                 results: [],
             };
@@ -95,27 +99,45 @@ class Myanimelist extends models_1.AnimeParser {
          * @param fetchFiller fetch filler episodes
          */
         this.fetchAnimeInfo = async (animeId, dub = false, fetchFiller = false) => {
+<<<<<<< HEAD
             var _a, _b, _c, _d, _e, _f;
+=======
+            var _a, _b, _c, _d, _e, _f, _g;
+>>>>>>> c3497c83b28d7379f76180556bf10ea5a3ffb73c
             try {
                 const animeInfo = await this.fetchMalInfoById(animeId);
                 let fillerEpisodes;
                 if ((this.provider instanceof zoro_1.default || this.provider instanceof gogoanime_1.default) &&
                     !dub &&
                     (animeInfo.status === models_1.MediaStatus.ONGOING ||
+<<<<<<< HEAD
                         (0, utils_1.range)({ from: 2000, to: new Date().getFullYear() + 1 }).includes(animeInfo.startDate.year))) {
                     try {
                         animeInfo.episodes = (_a = (await new enime_1.default().fetchAnimeInfoByMalId(animeId, this.provider.name.toLowerCase())).episodes) === null || _a === void 0 ? void 0 : _a.map((item) => ({
+=======
+                        (0, utils_1.range)({ from: 2000, to: new Date().getFullYear() + 1 }).includes((_a = animeInfo.startDate) === null || _a === void 0 ? void 0 : _a.year))) {
+                    try {
+                        animeInfo.episodes = (_b = (await new enime_1.default().fetchAnimeInfoByMalId(animeId, this.provider.name.toLowerCase())).episodes) === null || _b === void 0 ? void 0 : _b.map((item) => ({
+>>>>>>> c3497c83b28d7379f76180556bf10ea5a3ffb73c
                             id: item.slug,
                             title: item.title,
                             description: item.description,
                             number: item.number,
                             image: item.image,
                         }));
+<<<<<<< HEAD
                         (_b = animeInfo.episodes) === null || _b === void 0 ? void 0 : _b.reverse();
                     }
                     catch (err) {
                         animeInfo.episodes = await this.findAnimeSlug(animeInfo.title, animeInfo.season, (_c = animeInfo.startDate) === null || _c === void 0 ? void 0 : _c.year, animeId, dub);
                         animeInfo.episodes = (_d = animeInfo.episodes) === null || _d === void 0 ? void 0 : _d.map((episode) => {
+=======
+                        (_c = animeInfo.episodes) === null || _c === void 0 ? void 0 : _c.reverse();
+                    }
+                    catch (err) {
+                        animeInfo.episodes = await this.findAnimeSlug(animeInfo.title, animeInfo.season, (_d = animeInfo.startDate) === null || _d === void 0 ? void 0 : _d.year, animeId, dub);
+                        animeInfo.episodes = (_e = animeInfo.episodes) === null || _e === void 0 ? void 0 : _e.map((episode) => {
+>>>>>>> c3497c83b28d7379f76180556bf10ea5a3ffb73c
                             if (!episode.image)
                                 episode.image = animeInfo.image;
                             return episode;
@@ -124,9 +146,15 @@ class Myanimelist extends models_1.AnimeParser {
                     }
                 }
                 else
+<<<<<<< HEAD
                     animeInfo.episodes = await this.findAnimeSlug(animeInfo.title, animeInfo.season, (_e = animeInfo.startDate) === null || _e === void 0 ? void 0 : _e.year, animeId, dub);
                 if (fetchFiller) {
                     let { data: fillerData } = await (0, axios_1.default)({
+=======
+                    animeInfo.episodes = await this.findAnimeSlug(animeInfo.title, animeInfo.season, (_f = animeInfo.startDate) === null || _f === void 0 ? void 0 : _f.year, animeId, dub);
+                if (fetchFiller) {
+                    const { data: fillerData } = await (0, axios_1.default)({
+>>>>>>> c3497c83b28d7379f76180556bf10ea5a3ffb73c
                         baseURL: `https://raw.githubusercontent.com/saikou-app/mal-id-filler-list/main/fillers/${animeId}.json`,
                         method: 'GET',
                         validateStatus: () => true,
@@ -136,7 +164,11 @@ class Myanimelist extends models_1.AnimeParser {
                         fillerEpisodes === null || fillerEpisodes === void 0 ? void 0 : fillerEpisodes.push(...fillerData.episodes);
                     }
                 }
+<<<<<<< HEAD
                 animeInfo.episodes = (_f = animeInfo.episodes) === null || _f === void 0 ? void 0 : _f.map((episode) => {
+=======
+                animeInfo.episodes = (_g = animeInfo.episodes) === null || _g === void 0 ? void 0 : _g.map((episode) => {
+>>>>>>> c3497c83b28d7379f76180556bf10ea5a3ffb73c
                     if (!episode.image)
                         episode.image = animeInfo.image;
                     if (fetchFiller &&
@@ -155,7 +187,11 @@ class Myanimelist extends models_1.AnimeParser {
             }
         };
         this.findAnimeRaw = async (slug, externalLinks) => {
+<<<<<<< HEAD
             if (externalLinks && this.provider instanceof crunchyroll_1.default) {
+=======
+            if (externalLinks && this.provider instanceof kamyroll_1.default) {
+>>>>>>> c3497c83b28d7379f76180556bf10ea5a3ffb73c
                 if (externalLinks.map((link) => link.site.includes('Crunchyroll'))) {
                     const link = externalLinks.find((link) => link.site.includes('Crunchyroll'));
                     const { request } = await axios_1.default.get(link.url, { validateStatus: () => true });
@@ -186,7 +222,11 @@ class Myanimelist extends models_1.AnimeParser {
                 // Sort in descending order
                 return secondRating - firstRating;
             });
+<<<<<<< HEAD
             if (this.provider instanceof crunchyroll_1.default) {
+=======
+            if (this.provider instanceof kamyroll_1.default) {
+>>>>>>> c3497c83b28d7379f76180556bf10ea5a3ffb73c
                 return await this.provider.fetchAnimeInfo(findAnime.results[0].id, findAnime.results[0].type);
             }
             // TODO: use much better way than this
@@ -198,7 +238,11 @@ class Myanimelist extends models_1.AnimeParser {
                 return (await this.provider.fetchAnimeInfoByMalId(malId)).episodes;
             const slug = title.replace(/[^0-9a-zA-Z]+/g, ' ');
             let possibleAnime;
+<<<<<<< HEAD
             if (malId && !(this.provider instanceof crunchyroll_1.default || this.provider instanceof bilibili_1.default)) {
+=======
+            if (malId && !(this.provider instanceof kamyroll_1.default || this.provider instanceof bilibili_1.default)) {
+>>>>>>> c3497c83b28d7379f76180556bf10ea5a3ffb73c
                 const malAsyncReq = await (0, axios_1.default)({
                     method: 'GET',
                     url: `${this.malSyncUrl}/mal/anime/${malId}`,
@@ -245,7 +289,11 @@ class Myanimelist extends models_1.AnimeParser {
             else
                 possibleAnime = await this.findAnimeRaw(slug, externalLinks);
             // To avoid a new request, lets match and see if the anime show found is in sub/dub
+<<<<<<< HEAD
             let expectedType = dub ? models_1.SubOrSub.DUB : models_1.SubOrSub.SUB;
+=======
+            const expectedType = dub ? models_1.SubOrSub.DUB : models_1.SubOrSub.SUB;
+>>>>>>> c3497c83b28d7379f76180556bf10ea5a3ffb73c
             if (possibleAnime.subOrDub != models_1.SubOrSub.BOTH && possibleAnime.subOrDub != expectedType) {
                 return [];
             }
@@ -257,7 +305,11 @@ class Myanimelist extends models_1.AnimeParser {
                     }
                 });
             }
+<<<<<<< HEAD
             if (this.provider instanceof crunchyroll_1.default) {
+=======
+            if (this.provider instanceof kamyroll_1.default) {
+>>>>>>> c3497c83b28d7379f76180556bf10ea5a3ffb73c
                 return dub
                     ? possibleAnime.episodes.filter((ep) => ep.isDubbed)
                     : possibleAnime.episodes.filter((ep) => ep.type == 'Subbed');
@@ -338,7 +390,6 @@ class Myanimelist extends models_1.AnimeParser {
          * @returns anime info without streamable episodes
          */
         this.fetchMalInfoById = async (id) => {
-            var _a;
             const animeInfo = {
                 id: id,
                 title: '',
@@ -361,8 +412,33 @@ class Myanimelist extends models_1.AnimeParser {
             animeInfo.genres = genres;
             animeInfo.image = image;
             animeInfo.description = desc;
-            animeInfo.title = (_a = $('.title-name')) === null || _a === void 0 ? void 0 : _a.text();
+            animeInfo.title = {
+                english: $('.js-alternative-titles.hide').children().eq(0).text().replace('English: ', '').trim(),
+                romaji: $('.title-name').text(),
+                native: $('.js-alternative-titles.hide').parent().children().eq(9).text().trim(),
+                userPreferred: $('.js-alternative-titles.hide').children().eq(0).text().replace('English: ', '').trim(),
+            };
+            animeInfo.synonyms = $('.js-alternative-titles.hide')
+                .parent()
+                .children()
+                .eq(8)
+                .text()
+                .replace('Synonyms:', '')
+                .trim()
+                .split(',');
             animeInfo.studios = [];
+<<<<<<< HEAD
+=======
+            const producers = [];
+            $('a').each(function (i, link) {
+                var _a;
+                if (((_a = $(link).attr('href')) === null || _a === void 0 ? void 0 : _a.includes('producer')) &&
+                    $(link).parent().children().eq(0).text() == 'Producers:') {
+                    producers.push($(link).text());
+                }
+            });
+            animeInfo.producers = producers;
+>>>>>>> c3497c83b28d7379f76180556bf10ea5a3ffb73c
             // animeInfo.episodes = episodes;
             const teaserDOM = $('.video-promotion > a');
             if (teaserDOM.length > 0) {
@@ -392,15 +468,15 @@ class Myanimelist extends models_1.AnimeParser {
                             animeInfo.totalEpisodes = 0;
                         break;
                     case 'premiered':
-                        animeInfo.season = value.split(' ')[0];
+                        animeInfo.season = value.split(' ')[0].toUpperCase();
                         break;
                     case 'aired':
                         const dates = value.split('to');
                         if (dates.length >= 2) {
-                            let start = dates[0].trim();
-                            let end = dates[1].trim();
-                            let startDate = new Date(start);
-                            let endDate = new Date(end);
+                            const start = dates[0].trim();
+                            const end = dates[1].trim();
+                            const startDate = new Date(start);
+                            const endDate = new Date(end);
                             if (startDate.toString() !== 'Invalid Date') {
                                 animeInfo.startDate = {
                                     day: startDate.getDate(),
@@ -420,12 +496,17 @@ class Myanimelist extends models_1.AnimeParser {
                     case 'score':
                         animeInfo.rating = parseFloat(value);
                         break;
+<<<<<<< HEAD
                     case 'synonyms':
                         animeInfo.synonyms = value.split(',');
                         animeInfo.synonyms = animeInfo.synonyms.map(x => x.trim());
                         break;
                     case 'studios':
                         for (let studio of $(elem).find('a'))
+=======
+                    case 'studios':
+                        for (const studio of $(elem).find('a'))
+>>>>>>> c3497c83b28d7379f76180556bf10ea5a3ffb73c
                             (_a = animeInfo.studios) === null || _a === void 0 ? void 0 : _a.push($(studio).text());
                         break;
                     case 'rating':
@@ -452,7 +533,7 @@ class Myanimelist extends models_1.AnimeParser {
     }
     async populateEpisodeList(episodes, url, count = 1) {
         try {
-            let { data } = await axios_1.default.request({
+            const { data } = await axios_1.default.request({
                 method: 'get',
                 url: `${url}?p=${count}`,
                 headers: {
@@ -460,14 +541,14 @@ class Myanimelist extends models_1.AnimeParser {
                 },
             });
             let hasEpisodes = false;
-            let $ = (0, cheerio_1.load)(data);
-            for (let elem of $('.video-list').toArray()) {
-                let href = $(elem).attr('href');
-                let image = $(elem).find('img').attr('data-src');
-                let titleDOM = $(elem).find('.episode-title');
-                let title = titleDOM === null || titleDOM === void 0 ? void 0 : titleDOM.text();
+            const $ = (0, cheerio_1.load)(data);
+            for (const elem of $('.video-list').toArray()) {
+                const href = $(elem).attr('href');
+                const image = $(elem).find('img').attr('data-src');
+                const titleDOM = $(elem).find('.episode-title');
+                const title = titleDOM === null || titleDOM === void 0 ? void 0 : titleDOM.text();
                 titleDOM.remove();
-                let numberDOM = $(elem).find('.title').text().split(' ');
+                const numberDOM = $(elem).find('.title').text().split(' ');
                 let number = 0;
                 if (numberDOM.length > 1) {
                     number = Number(numberDOM[1]);
@@ -501,6 +582,7 @@ class Myanimelist extends models_1.AnimeParser {
 exports.default = Myanimelist;
 // (async () => {
 //   const mal = new Myanimelist();
+<<<<<<< HEAD
 //   console.log(await mal.fetchAnimeInfo('21'));
 //   //console.log((await mal.fetchMalInfoById("1535")));
 //   // setInterval(async function(){
@@ -516,5 +598,8 @@ exports.default = Myanimelist;
 //   //     count+=numReqs;
 //   //     console.log("Count: ", count, "Time: ", (performance.now() - start));
 //   // },1000);
+=======
+//   console.log(await mal.fetchAnimeInfo('35507'));
+>>>>>>> c3497c83b28d7379f76180556bf10ea5a3ffb73c
 // })();
 //# sourceMappingURL=mal.js.map

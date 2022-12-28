@@ -124,6 +124,60 @@ class Enime extends models_1.AnimeParser {
             animeInfo.synonyms = data.synonyms;
             animeInfo.mappings = data.mappings;
             animeInfo.type = data.format;
+            animeInfo.mappings = data.mappings;
+            data.episodes = data.episodes.sort((a, b) => b.number - a.number);
+            let useType = undefined;
+            if (type == 'gogoanime' &&
+                data.episodes.every((e) => e.sources.find((s) => s.target.includes('episode'))))
+                useType = 'gogoanime';
+            else if (type == 'zoro' &&
+                data.episodes.every((e) => e.sources.find((s) => s.target.includes('?ep='))))
+                useType = 'zoro';
+            else
+                throw new Error('Anime not found on Enime');
+            animeInfo.episodes = data.episodes.map((episode) => {
+                var _a, _b, _c;
+                return ({
+                    id: episode.id,
+                    slug: (_b = (_a = episode.sources
+                        .find((source) => useType === 'zoro' ? source.target.includes('?ep=') : source.target.includes('episode'))) === null || _a === void 0 ? void 0 : _a.target.split('/').pop().replace('?ep=', '$episode$')) === null || _b === void 0 ? void 0 : _b.concat(useType === 'zoro' ? '$sub' : ''),
+                    description: episode.description,
+                    number: episode.number,
+                    title: episode.title,
+                    image: (_c = episode === null || episode === void 0 ? void 0 : episode.image) !== null && _c !== void 0 ? _c : animeInfo.image,
+                    airDate: episode.airedAt,
+                });
+            });
+            return animeInfo;
+        };
+        /**
+         * @param id mal id
+         */
+        this.fetchAnimeInfoByMalId = async (id, type) => {
+            var _a, _b;
+            const animeInfo = {
+                id: id,
+                title: '',
+            };
+            const { data } = await axios_1.default.get(`${this.enimeApi}/mapping/mal/${id}`).catch(err => {
+                throw new Error(err);
+            });
+            animeInfo.anilistId = data.anilistId;
+            animeInfo.malId = data.mappings.mal;
+            animeInfo.title = (_b = (_a = data.title.english) !== null && _a !== void 0 ? _a : data.title.romaji) !== null && _b !== void 0 ? _b : data.title.native;
+            animeInfo.image = data.coverImage;
+            animeInfo.cover = data.bannerImage;
+            animeInfo.season = data.season;
+            animeInfo.releaseDate = data.year;
+            animeInfo.duration = data.duration;
+            animeInfo.popularity = data.popularity;
+            animeInfo.description = data.description;
+            animeInfo.genres = data.genre;
+            animeInfo.rating = data.averageScore;
+            animeInfo.status = data.status;
+            animeInfo.synonyms = data.synonyms;
+            animeInfo.mappings = data.mappings;
+            animeInfo.type = data.format;
             data.episodes = data.episodes.sort((a, b) => b.number - a.number);
             let useType = undefined;
             if (type == 'gogoanime' &&
@@ -216,9 +270,9 @@ class Enime extends models_1.AnimeParser {
             const resResult = await axios_1.default.get(url);
             const resolutions = resResult.data.match(/(RESOLUTION=)(.*)(\s*?)(\s*.*)/g);
             resolutions.forEach((ress) => {
-                var index = url.lastIndexOf('/');
-                var quality = ress.split('\n')[0].split('x')[1].split(',')[0];
-                var urll = url.slice(0, index);
+                const index = url.lastIndexOf('/');
+                const quality = ress.split('\n')[0].split('x')[1].split(',')[0];
+                const urll = url.slice(0, index);
                 res.sources.push({
                     url: urll + '/' + ress.split('\n')[1],
                     isM3U8: (urll + ress.split('\n')[1]).includes('.m3u8'),
@@ -244,9 +298,9 @@ class Enime extends models_1.AnimeParser {
             });
             const resolutions = resResult.data.match(/(RESOLUTION=)(.*)(\s*?)(\s*.*)/g);
             resolutions.forEach((ress) => {
-                var index = url.lastIndexOf('/');
-                var quality = ress.split('\n')[0].split('x')[1].split(',')[0];
-                var urll = url.slice(0, index);
+                const index = url.lastIndexOf('/');
+                const quality = ress.split('\n')[0].split('x')[1].split(',')[0];
+                const urll = url.slice(0, index);
                 res.sources.push({
                     url: urll + '/' + ress.split('\n')[1],
                     isM3U8: (urll + ress.split('\n')[1]).includes('.m3u8'),

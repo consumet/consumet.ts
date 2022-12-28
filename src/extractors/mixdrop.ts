@@ -13,7 +13,7 @@ class MixDrop extends VideoExtractor {
 
       const match = load(data)
         .html()
-        .match(/(?<=p}\().*(?<=wurl).*\}/g);
+        .match(/p}(.+?)wurl.+?}/g);
 
       if (!match) {
         throw new Error('Video not found.');
@@ -22,7 +22,8 @@ class MixDrop extends VideoExtractor {
       const formated = this.format(p, a, c, k, e, JSON.parse(d));
 
       const [poster, source] = formated
-        .match(/(?<=poster'=").+?(?=")|(?<=wurl=").+?(?=")/g)
+        .match(/poster'="([^"]+)"|wurl="([^"]+)"/g)
+        .map((x: string) => x.split(`="`)[1].replace(/"/g, ''))
         .map((x: string) => (x.startsWith('http') ? x : `https:${x}`));
 
       this.sources.push({

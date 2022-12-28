@@ -1,10 +1,11 @@
-import { AnimeParser, ISearch, IAnimeInfo, IEpisodeServer, StreamingServers, IAnimeResult, ISource } from '../../models';
+import { AnimeParser, ISearch, IAnimeInfo, IEpisodeServer, StreamingServers, IAnimeResult, ISource, ProxyConfig } from '../../models';
 declare class Gogoanime extends AnimeParser {
     readonly name = "Gogoanime";
     protected baseUrl: string;
     protected logo: string;
     protected classPath: string;
     private readonly ajaxUrl;
+    constructor(proxyConfig?: ProxyConfig);
     /**
      *
      * @param query search query string
@@ -32,6 +33,7 @@ declare class Gogoanime extends AnimeParser {
      * @param type type of media. (optional) (default `1`) `1`: Japanese with subtitles, `2`: english/dub with no subtitles, `3`: chinese with english subtitles
      */
     fetchRecentEpisodes: (page?: number, type?: number) => Promise<ISearch<IAnimeResult>>;
+    fetchGenreInfo: (genre: string, page?: number) => Promise<ISearch<IAnimeResult>>;
     fetchTopAiring: (page?: number) => Promise<ISearch<IAnimeResult>>;
 }
 export default Gogoanime;

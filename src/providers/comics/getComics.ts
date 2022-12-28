@@ -35,7 +35,7 @@ class getComics extends ComicParser {
       container.ufile = link || '';
       res.containers.push(container);
     });
-    for (let container of res.containers) {
+    for (const container of res.containers) {
       if (container.ufile != '') {
         const { data } = await get(container.ufile);
         const $ = load(data);
