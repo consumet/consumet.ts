@@ -49,7 +49,7 @@ class RapidCloud extends VideoExtractor {
       } = res;
 
       let decryptKey = await (
-        await axios.get('https://raw.githubusercontent.com/consumet/rapidclown/main/key.txt')
+        await axios.get('https://raw.githubusercontent.com/enimax-anime/key/e6/key.txt')
       ).data;
       if (!decryptKey) decryptKey = this.fallbackKey;
       
