@@ -1,7 +1,3 @@
-import axios from 'axios';
-import { Console } from 'console';
-import { type } from 'os';
-
 import {
   ISearch,
   IAnimeInfo,
@@ -98,6 +94,7 @@ class TMDB extends MovieParser {
     };
 
     try {
+      //request api to get media info from tmdb
       const { data } = await this.client.get(infoUrl);
 
       //get provider id from title and year (if available) to get the correct provider id for the movie/tv series (e.g. flixhq)
@@ -108,7 +105,14 @@ class TMDB extends MovieParser {
         year: new Date(data?.release_year || data?.first_air_date).getFullYear(),
       });
 
-      info.id = (providerId as string) || mediaId;
+      //fetch media info from provider
+      const InfoFromProvider = await this.provider.fetchMediaInfo(providerId as string);
+
+      info.id = providerId as string;
+
+      //check if the movie so episode id does not show on tv shows
+      if (type === 'movie') info.episodeId = InfoFromProvider?.episodes![0]?.id;
+
       info.title = data?.title || data?.name;
       info.image = `https://image.tmdb.org/t/p/original${data?.poster_path}`;
       info.cover = `https://image.tmdb.org/t/p/original${data?.backdrop_path}`;
@@ -116,16 +120,16 @@ class TMDB extends MovieParser {
       info.rating = data?.vote_average || 0;
       info.releaseDate = data?.release_date || data?.first_air_date;
       info.description = data?.overview;
-      info.genres = data?.genres.map((genre: any) => genre.name);
+      info.genres = data?.genres.map((genre: { name: string }) => genre.name);
       info.duration = data?.runtime || data?.episode_run_time[0];
       info.totalEpisodes = data?.number_of_episodes;
       info.totalSeasons = data?.number_of_seasons as number;
       info.directors = data?.credits?.crew
-        .filter((crew: any) => crew.job === 'Director')
-        .map((crew: any) => crew.name);
+        .filter((crew: { job: string }) => crew.job === 'Director')
+        .map((crew: { name: string }) => crew.name);
       info.writers = data?.credits?.crew
-        .filter((crew: any) => crew.job === 'Screenplay')
-        .map((crew: any) => crew.name);
+        .filter((crew: { job: string }) => crew.job === 'Screenplay')
+        .map((crew: { name: string }) => crew.name);
       info.actors = data?.credits?.cast.map((cast: { name: string }) => cast.name);
       info.trailer = {
         id: data?.videos?.results[0]?.key,
@@ -167,7 +171,6 @@ class TMDB extends MovieParser {
         info.seasons = [];
         const seasons = info.seasons as any[];
 
-        const InfoFromProvider = await this.provider.fetchMediaInfo(providerId as string);
         const providerEpisodes = InfoFromProvider?.episodes as any[];
 
         if (providerEpisodes?.length < 1) return info;
@@ -210,10 +213,9 @@ class TMDB extends MovieParser {
         }
       }
     } catch (err) {
-      console.log(err);
       throw new Error((err as Error).message);
     }
-    info.seasons?.reverse();
+
     return info;
   };
 
@@ -315,9 +317,9 @@ class TMDB extends MovieParser {
 
 // (async () => {
 //   const tmdb = new TMDB();
-//   const search = await tmdb.search('the flash', 2);
-//   // const info = await tmdb.fetchMediaInfo(search.results[0].id, search.results![0].type as string);
-//   console.log(search);
+//   const search = await tmdb.search('the flash');
+//   const info = await tmdb.fetchMediaInfo(search.results[0].id, search.results![0].type as string);
+//   console.log(info);
 // })();
 
 export default TMDB;
