@@ -215,7 +215,7 @@ class TMDB extends MovieParser {
     } catch (err) {
       throw new Error((err as Error).message);
     }
-    info.seasons?.reverse();
+
     return info;
   };
 
