@@ -1,7 +1,3 @@
-import axios from 'axios';
-import { Console } from 'console';
-import { type } from 'os';
-
 import {
   ISearch,
   IAnimeInfo,
@@ -124,16 +120,16 @@ class TMDB extends MovieParser {
       info.rating = data?.vote_average || 0;
       info.releaseDate = data?.release_date || data?.first_air_date;
       info.description = data?.overview;
-      info.genres = data?.genres.map((genre: any) => genre.name);
+      info.genres = data?.genres.map((genre: { name: string }) => genre.name);
       info.duration = data?.runtime || data?.episode_run_time[0];
       info.totalEpisodes = data?.number_of_episodes;
       info.totalSeasons = data?.number_of_seasons as number;
       info.directors = data?.credits?.crew
-        .filter((crew: any) => crew.job === 'Director')
-        .map((crew: any) => crew.name);
+        .filter((crew: { job: string }) => crew.job === 'Director')
+        .map((crew: { name: string }) => crew.name);
       info.writers = data?.credits?.crew
-        .filter((crew: any) => crew.job === 'Screenplay')
-        .map((crew: any) => crew.name);
+        .filter((crew: { job: string }) => crew.job === 'Screenplay')
+        .map((crew: { name: string }) => crew.name);
       info.actors = data?.credits?.cast.map((cast: { name: string }) => cast.name);
       info.trailer = {
         id: data?.videos?.results[0]?.key,
