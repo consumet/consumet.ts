@@ -17,6 +17,11 @@ import {
 } from '../../models';
 
 class Tenshi extends AnimeParser {
+  override readonly name = 'Tenshi';
+  protected override baseUrl = 'https://tenshi.moe/';
+  protected override logo = '';
+  protected override classPath = 'ANIME.Tenshi';
+
   fetchEpisodeSources(episodeId: string, ...args: any): Promise<ISource> {
     throw new Error('Method not implemented.');
   }
@@ -26,10 +31,6 @@ class Tenshi extends AnimeParser {
   search(query: string, ...args: any[]): Promise<unknown> {
     throw new Error('Method not implemented.');
   }
-  override readonly name = 'Tenshi';
-  protected override baseUrl = 'https://tenshi.moe/';
-  protected override logo = '';
-  protected override classPath = 'ANIME.Tenshi';
 
   override fetchAnimeInfo = async (id: string): Promise<IAnimeInfo> => {
     try {
