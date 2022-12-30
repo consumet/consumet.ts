@@ -114,8 +114,23 @@ class TMDB extends MovieParser {
       if (type === 'movie') info.episodeId = InfoFromProvider?.episodes![0]?.id;
 
       info.title = data?.title || data?.name;
+      info.translations = data?.translations?.translations.map((translation: any) => ({
+        title: translation.data?.title || data?.name || undefined,
+        description: translation.data?.overview || undefined,
+        language: translation?.english_name || undefined,
+      }));
+
+      //images
       info.image = `https://image.tmdb.org/t/p/original${data?.poster_path}`;
       info.cover = `https://image.tmdb.org/t/p/original${data?.backdrop_path}`;
+      info.logos = data?.images?.logos.map(
+        (logo: { file_path: string; aspect_ratio: number; width: number }) => ({
+          url: `https://image.tmdb.org/t/p/original${logo.file_path}`,
+          aspectRatio: logo?.aspect_ratio,
+          width: logo?.width,
+        })
+      );
+
       info.type = type === 'movie' ? TvType.MOVIE : TvType.TVSERIES;
       info.rating = data?.vote_average || 0;
       info.releaseDate = data?.release_date || data?.first_air_date;
@@ -137,6 +152,11 @@ class TMDB extends MovieParser {
         url: `https://www.youtube.com/watch?v=${data?.videos?.results[0]?.key}`,
       };
 
+      info.mappings = {
+        imdb: data?.external_ids?.imdb_id || undefined,
+        tmdb: data?.external_ids?.imdb_id || undefined,
+      };
+
       info.similar =
         data?.similar?.results?.length <= 0
           ? undefined
@@ -150,6 +170,7 @@ class TMDB extends MovieParser {
                 releaseDate: result.release_date || result.first_air_date,
               };
             });
+
       info.recommendations =
         data?.recommendations?.results?.length <= 0
           ? undefined
@@ -174,6 +195,17 @@ class TMDB extends MovieParser {
         const providerEpisodes = InfoFromProvider?.episodes as any[];
 
         if (providerEpisodes?.length < 1) return info;
+
+        info.nextAiringEpisode = data?.next_episode_to_air
+          ? {
+              season: data.next_episode_to_air?.season_number || undefined,
+              episode: data.next_episode_to_air?.episode_number || undefined,
+              releaseDate: data.next_episode_to_air?.air_date || undefined,
+              title: data.next_episode_to_air?.name || undefined,
+              description: data.next_episode_to_air?.overview || undefined,
+              runtime: data.next_episode_to_air?.runtime || undefined,
+            }
+          : undefined;
 
         for (let i = 1; i <= totalSeasons; i++) {
           const { data: seasonData } = await this.client.get(seasonUrl(i.toString()));
