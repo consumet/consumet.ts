@@ -173,7 +173,7 @@ class Gogoanime extends AnimeParser {
    */
   override fetchEpisodeSources = async (
     episodeId: string,
-    server: StreamingServers = StreamingServers.GogoCDN
+    server: StreamingServers = StreamingServers.VidStreaming
   ): Promise<ISource> => {
     if (episodeId.startsWith('http')) {
       const serverUrl = new URL(episodeId);
