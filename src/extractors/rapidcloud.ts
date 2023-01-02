@@ -49,7 +49,7 @@ class RapidCloud extends VideoExtractor {
       } = res;
 
       let decryptKey = await (
-        await axios.get('https://raw.githubusercontent.com/enimax-anime/key/e6/key.txt')
+        await axios.get('https://github.com/enimax-anime/key/blob/e6/key.txt')
       ).data;
       
       decryptKey = substringBefore(substringAfter(decryptKey, '"blob-code blob-code-inner js-file-line">'), '</td>');
