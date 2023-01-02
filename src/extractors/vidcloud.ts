@@ -44,8 +44,13 @@ class VidCloud extends VideoExtractor {
           'https://github.com/enimax-anime/key/blob/e4/key.txt'
         );
         
-        key =  substringBefore(substringAfter(key, '"blob-code blob-code-inner js-file-line">'), "</td>");
-
+        key = substringBefore(substringAfter(key, '"blob-code blob-code-inner js-file-line">'), "</td>");
+        if(!key){
+           key = await (
+              'https://raw.githubusercontent.com/enimax-anime/key/e4/key.txt'
+           ).data;
+        }
+        
         sources = JSON.parse(CryptoJS.AES.decrypt(res.data.sources, key).toString(CryptoJS.enc.Utf8));
       }
 
