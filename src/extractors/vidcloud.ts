@@ -3,7 +3,7 @@ import CryptoJS from 'crypto-js';
 // import WebSocket from 'ws';
 
 import { VideoExtractor, IVideo, ISubtitle, Intro } from '../models';
-import { USER_AGENT, isJson } from '../utils';
+import { USER_AGENT, isJson, substringAfter, substringBefore } from '../utils';
 
 class VidCloud extends VideoExtractor {
   protected override serverName = 'VidCloud';
@@ -40,9 +40,17 @@ class VidCloud extends VideoExtractor {
       //const res = await this.wss(id!);
 
       if (!isJson(res.data.sources)) {
-        const { data: key } = await axios.get(
-          'https://raw.githubusercontent.com/consumet/rapidclown/rabbitstream/key.txt'
+        let { data: key } = await axios.get(
+          'https://github.com/enimax-anime/key/blob/e4/key.txt'
         );
+
+        key = substringBefore(substringAfter(key, '"blob-code blob-code-inner js-file-line">'), '</td>');
+
+        if (!key) {
+          key = await (
+            await axios.get('https://raw.githubusercontent.com/enimax-anime/key/e4/key.txt')
+          ).data;
+        }
 
         sources = JSON.parse(CryptoJS.AES.decrypt(res.data.sources, key).toString(CryptoJS.enc.Utf8));
       }
