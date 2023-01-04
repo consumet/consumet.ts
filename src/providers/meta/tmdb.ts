@@ -233,7 +233,7 @@ class TMDB extends MovieParser {
                       ? undefined
                       : {
                           mobile: `https://image.tmdb.org/t/p/w300${episode.still_path}`,
-                          hd: `https://image.tmdb.org/t/p/original${episode.still_path}`,
+                          hd: `https://image.tmdb.org/t/p/w780${episode.still_path}`,
                         },
                   };
                 });
@@ -244,7 +244,7 @@ class TMDB extends MovieParser {
               ? undefined
               : {
                   mobile: `https://image.tmdb.org/t/p/w300${seasonData.poster_path}`,
-                  hd: `https://image.tmdb.org/t/p/original${seasonData.poster_path}`,
+                  hd: `https://image.tmdb.org/t/p/w780${seasonData.poster_path}`,
                 },
             episodes,
             isReleased: seasonData?.episodes[0]?.air_date > new Date().toISOString() ? false : true,
