@@ -231,7 +231,10 @@ class TMDB extends MovieParser {
                     url: episodeFromProvider?.url || undefined,
                     img: !episode?.still_path
                       ? undefined
-                      : `https://image.tmdb.org/t/p/original${episode.still_path}`,
+                      : {
+                          mobile: `https://image.tmdb.org/t/p/w300${episode.still_path}`,
+                          hd: `https://image.tmdb.org/t/p/original${episode.still_path}`,
+                        },
                   };
                 });
 
@@ -239,7 +242,10 @@ class TMDB extends MovieParser {
             season: i,
             image: !seasonData?.poster_path
               ? undefined
-              : `https://image.tmdb.org/t/p/original${seasonData.poster_path}`,
+              : {
+                  mobile: `https://image.tmdb.org/t/p/w300${seasonData.poster_path}`,
+                  hd: `https://image.tmdb.org/t/p/original${seasonData.poster_path}`,
+                },
             episodes,
             isReleased: seasonData?.episodes[0]?.air_date > new Date().toISOString() ? false : true,
           });
@@ -352,7 +358,7 @@ class TMDB extends MovieParser {
 //   const tmdb = new TMDB();
 //   const search = await tmdb.search('the flash');
 //   const info = await tmdb.fetchMediaInfo(search.results[0].id, search.results![0].type as string);
-//   console.log(info);
+//   // console.log(info);
 // })();
 
 export default TMDB;
