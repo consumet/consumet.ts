@@ -16,7 +16,8 @@ import { MixDrop, AsianLoad, StreamTape, StreamSB } from '../../extractors';
 class Dramacool extends MovieParser {
   override readonly name = 'Dramacool';
   protected override baseUrl = 'https://www1.dramacool.cr';
-  protected override logo = 'https://editorialge.com/media/2021/12/Dramacool.jpg';
+  protected override logo =
+    'https://play-lh.googleusercontent.com/IaCb2JXII0OV611MQ-wSA8v_SAs9XF6E3TMDiuxGGXo4wp9bI60GtDASIqdERSTO5XU';
   protected override classPath = 'MOVIES.Dramacool';
   override supportedTypes = new Set([TvType.MOVIE, TvType.TVSERIES]);
 

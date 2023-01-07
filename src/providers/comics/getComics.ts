@@ -12,7 +12,7 @@ class getComics extends ComicParser {
   override readonly name = 'GetComics';
 
   override readonly logo =
-    'https://scontent-lga3-1.xx.fbcdn.net/v/t31.18172-8/10923821_1548503832063793_2041220008970231476_o.png?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=aQyuLlPZtQAAX8dJviD&_nc_ht=scontent-lga3-1.xx&oh=00_AT_yPS4uuNDGirSqXnTwl2VGS9leFv4-Ujt7l6l5_FZeLw&oe=62D00D68';
+    'https://i0.wp.com/getcomics.info/share/uploads/2020/04/cropped-GetComics-Favicon.png?fit=192%2C192&ssl=1';
   override readonly classPath = 'COMICS.GetComics';
 
   override search = async (query: string, page: number | undefined = 1) => {

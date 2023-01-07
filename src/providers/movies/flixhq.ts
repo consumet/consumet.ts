@@ -16,8 +16,7 @@ import { MixDrop, VidCloud } from '../../extractors';
 class FlixHQ extends MovieParser {
   override readonly name = 'FlixHQ';
   protected override baseUrl = 'https://flixhq.to';
-  protected override logo =
-    'https://img.flixhq.to/xxrz/400x400/100/ab/5f/ab5f0e1996cc5b71919e10e910ad593e/ab5f0e1996cc5b71919e10e910ad593e.png';
+  protected override logo = 'https://upload.wikimedia.org/wikipedia/commons/7/7a/MyAnimeList_Logo.png';
   protected override classPath = 'MOVIES.FlixHQ';
   override supportedTypes = new Set([TvType.MOVIE, TvType.TVSERIES]);
 
