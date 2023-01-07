@@ -482,6 +482,7 @@ class Anilist extends models_1.AnimeParser {
                         season: data.data.Media.season,
                         startDate: { year: parseInt(animeInfo.releaseDate) },
                         title: { english: (_54 = animeInfo.title) === null || _54 === void 0 ? void 0 : _54.english, romaji: (_55 = animeInfo.title) === null || _55 === void 0 ? void 0 : _55.romaji },
+                        externalLinks: data.data.Media.externalLinks.filter((link) => link.type === "STREAMING")
                     }, dub, id);
                 if (fetchFiller) {
                     const { data: fillerData } = await (0, axios_1.default)({
@@ -538,20 +539,20 @@ class Anilist extends models_1.AnimeParser {
             }
         };
         this.findAnime = async (title, season, startDate, malId, dub, anilistId, externalLinks) => {
-            var _b, _c;
+            var _b, _c, _d;
             title.english = (_b = title.english) !== null && _b !== void 0 ? _b : title.romaji;
             title.romaji = (_c = title.romaji) !== null && _c !== void 0 ? _c : title.english;
             title.english = title.english.toLowerCase();
             title.romaji = title.romaji.toLowerCase();
             if (title.english === title.romaji) {
-                return await this.findAnimeSlug(title.english, season, startDate, malId, dub, anilistId, externalLinks);
+                return (_d = await this.findAnimeSlug(title.english, season, startDate, malId, dub, anilistId, externalLinks)) !== null && _d !== void 0 ? _d : [];
             }
             const romajiPossibleEpisodes = await this.findAnimeSlug(title.romaji, season, startDate, malId, dub, anilistId, externalLinks);
             if (romajiPossibleEpisodes) {
                 return romajiPossibleEpisodes;
             }
             const englishPossibleEpisodes = await this.findAnimeSlug(title.english, season, startDate, malId, dub, anilistId, externalLinks);
-            return englishPossibleEpisodes;
+            return englishPossibleEpisodes !== null && englishPossibleEpisodes !== void 0 ? englishPossibleEpisodes : [];
         };
         this.findAnimeSlug = async (title, season, startDate, malId, dub, anilistId, externalLinks) => {
             var _b, _c, _d;
@@ -605,10 +606,13 @@ class Anilist extends models_1.AnimeParser {
             }
             else
                 possibleAnime = await this.findAnimeRaw(slug, externalLinks);
+            if (!possibleAnime) {
+                return undefined;
+            }
             // To avoid a new request, lets match and see if the anime show found is in sub/dub
             const expectedType = dub ? models_1.SubOrSub.DUB : models_1.SubOrSub.SUB;
             if (possibleAnime.subOrDub != models_1.SubOrSub.BOTH && possibleAnime.subOrDub != expectedType) {
-                return [];
+                return undefined;
             }
             if (this.provider instanceof zoro_1.default) {
                 // Set the correct episode sub/dub request type
@@ -940,19 +944,22 @@ class Anilist extends models_1.AnimeParser {
             }
         };
         this.findAnimeRaw = async (slug, externalLinks) => {
-            if (externalLinks && this.provider instanceof kamyroll_1.default) {
-                if (externalLinks.map((link) => link.site.includes('Crunchyroll'))) {
-                    const link = externalLinks.find((link) => link.site.includes('Crunchyroll'));
+            if (this.provider instanceof kamyroll_1.default && externalLinks) {
+                const link = externalLinks.find((link) => link.site.includes('Crunchyroll'));
+                if (link) {
                     const { request } = await axios_1.default.get(link.url, { validateStatus: () => true });
-                    const mediaType = request.res.responseUrl.split('/')[3];
-                    const id = request.res.responseUrl.split('/')[4];
-                    return await this.provider.fetchAnimeInfo(id, mediaType);
+                    if (request.res.responseUrl.includes("series") || request.res.responseUrl.includes("watch")) {
+                        const mediaType = request.res.responseUrl.split('/')[3];
+                        const id = request.res.responseUrl.split('/')[4];
+                        return await this.provider.fetchAnimeInfo(id, mediaType);
+                    }
                 }
             }
             const findAnime = (await this.provider.search(slug));
             if (findAnime.results.length === 0)
                 return [];
             // Sort the retrieved info for more accurate results.
+            let topRating = 0;
             findAnime.results.sort((a, b) => {
                 var _b, _c, _d, _e;
                 const targetTitle = slug.toLowerCase();
@@ -968,14 +975,24 @@ class Anilist extends models_1.AnimeParser {
                     secondTitle = (_e = (_d = b.title.english) !== null && _d !== void 0 ? _d : b.title.romaji) !== null && _e !== void 0 ? _e : '';
                 const firstRating = (0, utils_2.compareTwoStrings)(targetTitle, firstTitle.toLowerCase());
                 const secondRating = (0, utils_2.compareTwoStrings)(targetTitle, secondTitle.toLowerCase());
+                if (firstRating > topRating) {
+                    topRating = firstRating;
+                }
+                if (secondRating > topRating) {
+                    topRating = secondRating;
+                }
                 // Sort in descending order
                 return secondRating - firstRating;
             });
-            if (this.provider instanceof kamyroll_1.default) {
-                return await this.provider.fetchAnimeInfo(findAnime.results[0].id, findAnime.results[0].type);
+            if (topRating >= 0.7) {
+                if (this.provider instanceof kamyroll_1.default) {
+                    return await this.provider.fetchAnimeInfo(findAnime.results[0].id, findAnime.results[0].type);
+                }
+                else {
+                    return await this.provider.fetchAnimeInfo(findAnime.results[0].id);
+                }
             }
-            // TODO: use much better way than this
-            return (await this.provider.fetchAnimeInfo(findAnime.results[0].id));
+            return undefined;
         };
         /**
          * @returns a random anime
@@ -1070,7 +1087,7 @@ class Anilist extends models_1.AnimeParser {
                     'Content-Type': 'application/json',
                     Accept: 'application/json',
                 },
-                query: `query($id: Int = ${id}){ Media(id: $id){ idMal externalLinks {site url} title {romaji english} status season episodes startDate {year} coverImage {extraLarge large medium} } }`,
+                query: `query($id: Int = ${id}){ Media(id: $id){ idMal externalLinks { site url } title { romaji english } status season episodes startDate { year month day } endDate { year month day }  coverImage {extraLarge large medium} } }`,
             };
             const { data: { data: { Media }, }, } = await this.client.post('', options);
             let possibleAnimeEpisodes = [];

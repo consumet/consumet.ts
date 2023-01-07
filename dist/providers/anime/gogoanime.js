@@ -138,7 +138,7 @@ class Gogoanime extends models_1.AnimeParser {
          * @param episodeId episode id
          * @param server server type (default 'GogoCDN') (optional)
          */
-        this.fetchEpisodeSources = async (episodeId, server = models_1.StreamingServers.GogoCDN) => {
+        this.fetchEpisodeSources = async (episodeId, server = models_1.StreamingServers.VidStreaming) => {
             if (episodeId.startsWith('http')) {
                 const serverUrl = new URL(episodeId);
                 switch (server) {

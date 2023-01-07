@@ -35,7 +35,11 @@ class VidCloud extends models_1.VideoExtractor {
                 res = await axios_1.default.get(`${isAlternative ? this.host2 : this.host}/ajax/embed-4/getSources?id=${id}`, options);
                 //const res = await this.wss(id!);
                 if (!(0, utils_1.isJson)(res.data.sources)) {
-                    const { data: key } = await axios_1.default.get('https://raw.githubusercontent.com/consumet/rapidclown/rabbitstream/key.txt');
+                    let { data: key } = await axios_1.default.get('https://github.com/enimax-anime/key/blob/e4/key.txt');
+                    key = (0, utils_1.substringBefore)((0, utils_1.substringAfter)(key, '"blob-code blob-code-inner js-file-line">'), '</td>');
+                    if (!key) {
+                        key = await (await axios_1.default.get('https://raw.githubusercontent.com/enimax-anime/key/e4/key.txt')).data;
+                    }
                     sources = JSON.parse(crypto_js_1.default.AES.decrypt(res.data.sources, key).toString(crypto_js_1.default.enc.Utf8));
                 }
                 this.sources = sources.map((s) => ({
