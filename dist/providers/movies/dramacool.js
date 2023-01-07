@@ -12,7 +12,7 @@ class Dramacool extends models_1.MovieParser {
         super(...arguments);
         this.name = 'Dramacool';
         this.baseUrl = 'https://www1.dramacool.cr';
-        this.logo = 'https://editorialge.com/media/2021/12/Dramacool.jpg';
+        this.logo = 'https://play-lh.googleusercontent.com/IaCb2JXII0OV611MQ-wSA8v_SAs9XF6E3TMDiuxGGXo4wp9bI60GtDASIqdERSTO5XU';
         this.classPath = 'MOVIES.Dramacool';
         this.supportedTypes = new Set([models_1.TvType.MOVIE, models_1.TvType.TVSERIES]);
         this.search = async (query, page = 1) => {

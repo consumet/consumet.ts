@@ -11,7 +11,7 @@ class MangaPill extends models_1.MangaParser {
         super(...arguments);
         this.name = 'MangaPill';
         this.baseUrl = 'https://mangapill.com';
-        this.logo = '';
+        this.logo = 'https://scontent-man2-1.xx.fbcdn.net/v/t39.30808-6/300819578_399903675586699_2357525969702348451_n.png?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Md2cQ4wRNWwAX-_U0fz&_nc_ht=scontent-man2-1.xx&oh=00_AfCJjAYDk9bsndz8uyNG-GdFIYcPvdIzbHnetHGzf1pVSw&oe=63BDD131';
         this.classPath = 'MANGA.MangaPill';
         /**
          *

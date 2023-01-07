@@ -6,6 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const axios_1 = __importDefault(require("axios"));
 const cheerio_1 = require("cheerio");
 const crypto_js_1 = __importDefault(require("crypto-js"));
+const utils_1 = require("../utils");
 const models_1 = require("../models");
 class RapidCloud extends models_1.VideoExtractor {
     constructor() {
@@ -44,7 +45,11 @@ class RapidCloud extends models_1.VideoExtractor {
                 // }
                 res = await axios_1.default.get(`${this.host}/ajax/embed-6/getSources?id=${id}`, options);
                 let { data: { sources, tracks, intro, encrypted }, } = res;
-                let decryptKey = await (await axios_1.default.get('https://raw.githubusercontent.com/consumet/rapidclown/main/key.txt')).data;
+                let decryptKey = await (await axios_1.default.get('https://github.com/enimax-anime/key/blob/e6/key.txt')).data;
+                decryptKey = (0, utils_1.substringBefore)((0, utils_1.substringAfter)(decryptKey, '"blob-code blob-code-inner js-file-line">'), '</td>');
+                if (!decryptKey) {
+                    decryptKey = await (await axios_1.default.get('https://raw.githubusercontent.com/enimax-anime/key/e6/key.txt')).data;
+                }
                 if (!decryptKey)
                     decryptKey = this.fallbackKey;
                 try {

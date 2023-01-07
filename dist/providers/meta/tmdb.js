@@ -58,7 +58,7 @@ class TMDB extends models_1.MovieParser {
          * @param type movie or tv
          */
         this.fetchMediaInfo = async (mediaId, type) => {
-            var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s, _t;
+            var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s, _t, _u, _v, _w, _x, _y, _z, _0, _1, _2, _3;
             type = type.toLowerCase() === 'movie' ? 'movie' : 'tv';
             const infoUrl = `/${type}/${mediaId}?api_key=${this.apiKey}&language=en-US&append_to_response=release_dates,watch/providers,alternative_titles,credits,external_ids,images,keywords,recommendations,reviews,similar,translations,videos&include_image_language=en`;
             const info = {
@@ -82,8 +82,22 @@ class TMDB extends models_1.MovieParser {
                 if (type === 'movie')
                     info.episodeId = (_a = InfoFromProvider === null || InfoFromProvider === void 0 ? void 0 : InfoFromProvider.episodes[0]) === null || _a === void 0 ? void 0 : _a.id;
                 info.title = (data === null || data === void 0 ? void 0 : data.title) || (data === null || data === void 0 ? void 0 : data.name);
+                info.translations = (_b = data === null || data === void 0 ? void 0 : data.translations) === null || _b === void 0 ? void 0 : _b.translations.map((translation) => {
+                    var _a, _b;
+                    return ({
+                        title: ((_a = translation.data) === null || _a === void 0 ? void 0 : _a.title) || (data === null || data === void 0 ? void 0 : data.name) || undefined,
+                        description: ((_b = translation.data) === null || _b === void 0 ? void 0 : _b.overview) || undefined,
+                        language: (translation === null || translation === void 0 ? void 0 : translation.english_name) || undefined,
+                    });
+                });
+                //images
                 info.image = `https://image.tmdb.org/t/p/original${data === null || data === void 0 ? void 0 : data.poster_path}`;
                 info.cover = `https://image.tmdb.org/t/p/original${data === null || data === void 0 ? void 0 : data.backdrop_path}`;
+                info.logos = (_c = data === null || data === void 0 ? void 0 : data.images) === null || _c === void 0 ? void 0 : _c.logos.map((logo) => ({
+                    url: `https://image.tmdb.org/t/p/original${logo.file_path}`,
+                    aspectRatio: logo === null || logo === void 0 ? void 0 : logo.aspect_ratio,
+                    width: logo === null || logo === void 0 ? void 0 : logo.width,
+                }));
                 info.type = type === 'movie' ? models_1.TvType.MOVIE : models_1.TvType.TVSERIES;
                 info.rating = (data === null || data === void 0 ? void 0 : data.vote_average) || 0;
                 info.releaseDate = (data === null || data === void 0 ? void 0 : data.release_date) || (data === null || data === void 0 ? void 0 : data.first_air_date);
@@ -92,18 +106,22 @@ class TMDB extends models_1.MovieParser {
                 info.duration = (data === null || data === void 0 ? void 0 : data.runtime) || (data === null || data === void 0 ? void 0 : data.episode_run_time[0]);
                 info.totalEpisodes = data === null || data === void 0 ? void 0 : data.number_of_episodes;
                 info.totalSeasons = data === null || data === void 0 ? void 0 : data.number_of_seasons;
-                info.directors = (_b = data === null || data === void 0 ? void 0 : data.credits) === null || _b === void 0 ? void 0 : _b.crew.filter((crew) => crew.job === 'Director').map((crew) => crew.name);
-                info.writers = (_c = data === null || data === void 0 ? void 0 : data.credits) === null || _c === void 0 ? void 0 : _c.crew.filter((crew) => crew.job === 'Screenplay').map((crew) => crew.name);
-                info.actors = (_d = data === null || data === void 0 ? void 0 : data.credits) === null || _d === void 0 ? void 0 : _d.cast.map((cast) => cast.name);
+                info.directors = (_d = data === null || data === void 0 ? void 0 : data.credits) === null || _d === void 0 ? void 0 : _d.crew.filter((crew) => crew.job === 'Director').map((crew) => crew.name);
+                info.writers = (_e = data === null || data === void 0 ? void 0 : data.credits) === null || _e === void 0 ? void 0 : _e.crew.filter((crew) => crew.job === 'Screenplay').map((crew) => crew.name);
+                info.actors = (_f = data === null || data === void 0 ? void 0 : data.credits) === null || _f === void 0 ? void 0 : _f.cast.map((cast) => cast.name);
                 info.trailer = {
-                    id: (_f = (_e = data === null || data === void 0 ? void 0 : data.videos) === null || _e === void 0 ? void 0 : _e.results[0]) === null || _f === void 0 ? void 0 : _f.key,
-                    site: (_h = (_g = data === null || data === void 0 ? void 0 : data.videos) === null || _g === void 0 ? void 0 : _g.results[0]) === null || _h === void 0 ? void 0 : _h.site,
-                    url: `https://www.youtube.com/watch?v=${(_k = (_j = data === null || data === void 0 ? void 0 : data.videos) === null || _j === void 0 ? void 0 : _j.results[0]) === null || _k === void 0 ? void 0 : _k.key}`,
+                    id: (_h = (_g = data === null || data === void 0 ? void 0 : data.videos) === null || _g === void 0 ? void 0 : _g.results[0]) === null || _h === void 0 ? void 0 : _h.key,
+                    site: (_k = (_j = data === null || data === void 0 ? void 0 : data.videos) === null || _j === void 0 ? void 0 : _j.results[0]) === null || _k === void 0 ? void 0 : _k.site,
+                    url: `https://www.youtube.com/watch?v=${(_m = (_l = data === null || data === void 0 ? void 0 : data.videos) === null || _l === void 0 ? void 0 : _l.results[0]) === null || _m === void 0 ? void 0 : _m.key}`,
+                };
+                info.mappings = {
+                    imdb: ((_o = data === null || data === void 0 ? void 0 : data.external_ids) === null || _o === void 0 ? void 0 : _o.imdb_id) || undefined,
+                    tmdb: ((_p = data === null || data === void 0 ? void 0 : data.external_ids) === null || _p === void 0 ? void 0 : _p.imdb_id) || undefined,
                 };
                 info.similar =
-                    ((_m = (_l = data === null || data === void 0 ? void 0 : data.similar) === null || _l === void 0 ? void 0 : _l.results) === null || _m === void 0 ? void 0 : _m.length) <= 0
+                    ((_r = (_q = data === null || data === void 0 ? void 0 : data.similar) === null || _q === void 0 ? void 0 : _q.results) === null || _r === void 0 ? void 0 : _r.length) <= 0
                         ? undefined
-                        : (_o = data === null || data === void 0 ? void 0 : data.similar) === null || _o === void 0 ? void 0 : _o.results.map((result) => {
+                        : (_s = data === null || data === void 0 ? void 0 : data.similar) === null || _s === void 0 ? void 0 : _s.results.map((result) => {
                             return {
                                 id: result.id,
                                 title: result.title || result.name,
@@ -114,9 +132,9 @@ class TMDB extends models_1.MovieParser {
                             };
                         });
                 info.recommendations =
-                    ((_q = (_p = data === null || data === void 0 ? void 0 : data.recommendations) === null || _p === void 0 ? void 0 : _p.results) === null || _q === void 0 ? void 0 : _q.length) <= 0
+                    ((_u = (_t = data === null || data === void 0 ? void 0 : data.recommendations) === null || _t === void 0 ? void 0 : _t.results) === null || _u === void 0 ? void 0 : _u.length) <= 0
                         ? undefined
-                        : (_r = data === null || data === void 0 ? void 0 : data.recommendations) === null || _r === void 0 ? void 0 : _r.results.map((result) => {
+                        : (_v = data === null || data === void 0 ? void 0 : data.recommendations) === null || _v === void 0 ? void 0 : _v.results.map((result) => {
                             return {
                                 id: result.id,
                                 title: result.title || result.name,
@@ -134,11 +152,21 @@ class TMDB extends models_1.MovieParser {
                     const providerEpisodes = InfoFromProvider === null || InfoFromProvider === void 0 ? void 0 : InfoFromProvider.episodes;
                     if ((providerEpisodes === null || providerEpisodes === void 0 ? void 0 : providerEpisodes.length) < 1)
                         return info;
+                    info.nextAiringEpisode = (data === null || data === void 0 ? void 0 : data.next_episode_to_air)
+                        ? {
+                            season: ((_w = data.next_episode_to_air) === null || _w === void 0 ? void 0 : _w.season_number) || undefined,
+                            episode: ((_x = data.next_episode_to_air) === null || _x === void 0 ? void 0 : _x.episode_number) || undefined,
+                            releaseDate: ((_y = data.next_episode_to_air) === null || _y === void 0 ? void 0 : _y.air_date) || undefined,
+                            title: ((_z = data.next_episode_to_air) === null || _z === void 0 ? void 0 : _z.name) || undefined,
+                            description: ((_0 = data.next_episode_to_air) === null || _0 === void 0 ? void 0 : _0.overview) || undefined,
+                            runtime: ((_1 = data.next_episode_to_air) === null || _1 === void 0 ? void 0 : _1.runtime) || undefined,
+                        }
+                        : undefined;
                     for (let i = 1; i <= totalSeasons; i++) {
                         const { data: seasonData } = await this.client.get(seasonUrl(i.toString()));
                         //find season in each episode (providerEpisodes)
                         const seasonEpisodes = providerEpisodes === null || providerEpisodes === void 0 ? void 0 : providerEpisodes.filter(episode => episode.season === i);
-                        const episodes = ((_s = seasonData === null || seasonData === void 0 ? void 0 : seasonData.episodes) === null || _s === void 0 ? void 0 : _s.length) <= 0
+                        const episodes = ((_2 = seasonData === null || seasonData === void 0 ? void 0 : seasonData.episodes) === null || _2 === void 0 ? void 0 : _2.length) <= 0
                             ? undefined
                             : seasonData === null || seasonData === void 0 ? void 0 : seasonData.episodes.map((episode) => {
                                 //find episode in each season (seasonEpisodes)
@@ -153,15 +181,22 @@ class TMDB extends models_1.MovieParser {
                                     url: (episodeFromProvider === null || episodeFromProvider === void 0 ? void 0 : episodeFromProvider.url) || undefined,
                                     img: !(episode === null || episode === void 0 ? void 0 : episode.still_path)
                                         ? undefined
-                                        : `https://image.tmdb.org/t/p/original${episode.still_path}`,
+                                        : {
+                                            mobile: `https://image.tmdb.org/t/p/w300${episode.still_path}`,
+                                            hd: `https://image.tmdb.org/t/p/w780${episode.still_path}`,
+                                        },
                                 };
                             });
                         seasons.push({
                             season: i,
                             image: !(seasonData === null || seasonData === void 0 ? void 0 : seasonData.poster_path)
                                 ? undefined
-                                : `https://image.tmdb.org/t/p/original${seasonData.poster_path}`,
+                                : {
+                                    mobile: `https://image.tmdb.org/t/p/w300${seasonData.poster_path}`,
+                                    hd: `https://image.tmdb.org/t/p/w780${seasonData.poster_path}`,
+                                },
                             episodes,
+                            isReleased: ((_3 = seasonData === null || seasonData === void 0 ? void 0 : seasonData.episodes[0]) === null || _3 === void 0 ? void 0 : _3.air_date) > new Date().toISOString() ? false : true,
                         });
                     }
                 }
@@ -169,7 +204,6 @@ class TMDB extends models_1.MovieParser {
             catch (err) {
                 throw new Error(err.message);
             }
-            (_t = info.seasons) === null || _t === void 0 ? void 0 : _t.reverse();
             return info;
         };
         /**
@@ -257,7 +291,7 @@ class TMDB extends models_1.MovieParser {
 //   const tmdb = new TMDB();
 //   const search = await tmdb.search('the flash');
 //   const info = await tmdb.fetchMediaInfo(search.results[0].id, search.results![0].type as string);
-//   console.log(info);
+//   // console.log(info);
 // })();
 exports.default = TMDB;
 //# sourceMappingURL=tmdb.js.map
