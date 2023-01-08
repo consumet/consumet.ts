@@ -482,7 +482,7 @@ class Anilist extends models_1.AnimeParser {
                         season: data.data.Media.season,
                         startDate: { year: parseInt(animeInfo.releaseDate) },
                         title: { english: (_54 = animeInfo.title) === null || _54 === void 0 ? void 0 : _54.english, romaji: (_55 = animeInfo.title) === null || _55 === void 0 ? void 0 : _55.romaji },
-                        externalLinks: data.data.Media.externalLinks.filter((link) => link.type === "STREAMING")
+                        externalLinks: data.data.Media.externalLinks.filter((link) => link.type === 'STREAMING'),
                     }, dub, id);
                 if (fetchFiller) {
                     const { data: fillerData } = await (0, axios_1.default)({
@@ -545,7 +545,7 @@ class Anilist extends models_1.AnimeParser {
             title.english = title.english.toLowerCase();
             title.romaji = title.romaji.toLowerCase();
             if (title.english === title.romaji) {
-                return (_d = await this.findAnimeSlug(title.english, season, startDate, malId, dub, anilistId, externalLinks)) !== null && _d !== void 0 ? _d : [];
+                return ((_d = (await this.findAnimeSlug(title.english, season, startDate, malId, dub, anilistId, externalLinks))) !== null && _d !== void 0 ? _d : []);
             }
             const romajiPossibleEpisodes = await this.findAnimeSlug(title.romaji, season, startDate, malId, dub, anilistId, externalLinks);
             if (romajiPossibleEpisodes) {
@@ -948,7 +948,7 @@ class Anilist extends models_1.AnimeParser {
                 const link = externalLinks.find((link) => link.site.includes('Crunchyroll'));
                 if (link) {
                     const { request } = await axios_1.default.get(link.url, { validateStatus: () => true });
-                    if (request.res.responseUrl.includes("series") || request.res.responseUrl.includes("watch")) {
+                    if (request.res.responseUrl.includes('series') || request.res.responseUrl.includes('watch')) {
                         const mediaType = request.res.responseUrl.split('/')[3];
                         const id = request.res.responseUrl.split('/')[4];
                         return await this.provider.fetchAnimeInfo(id, mediaType);

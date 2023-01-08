@@ -91,18 +91,12 @@ class Mangasee123 extends models_1.MangaParser {
                     const sanitizedAlts = [];
                     const item = data[i];
                     const altTitles = data[i]['a'];
-                    switch (altTitles.length == 0) {
-                        // Has altTitles, search through them...
-                        case false:
-                            sanitizedAlts.map(alt => {
-                                alt.replace(/\s/g, '').toLowerCase();
-                            });
-                            if (item['s'].toLowerCase().includes(sanitizedQuery) || sanitizedAlts.includes(sanitizedQuery))
-                                matches.push(item);
-                        // Does not have altTitles, ignore 'a' key:
-                        case true:
-                            if (item['s'].replace(/\s/g, '').toLowerCase().includes(sanitizedQuery))
-                                matches.push(item);
+                    for (const alt of altTitles) {
+                        sanitizedAlts.push(alt.replace(/\s/g, '').toLowerCase());
+                    }
+                    if (item['s'].replace(/\s/g, '').toLowerCase().includes(sanitizedQuery) ||
+                        sanitizedAlts.includes(sanitizedQuery)) {
+                        matches.push(item);
                     }
                 }
                 const results = matches.map((val) => ({
