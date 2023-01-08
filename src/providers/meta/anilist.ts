@@ -558,7 +558,7 @@ class Anilist extends AnimeParser {
             season: data.data.Media.season,
             startDate: { year: parseInt(animeInfo.releaseDate!) },
             title: { english: animeInfo.title?.english!, romaji: animeInfo.title?.romaji! },
-            externalLinks: data.data.Media.externalLinks.filter((link: any) => link.type === "STREAMING")
+            externalLinks: data.data.Media.externalLinks.filter((link: any) => link.type === 'STREAMING'),
           },
           dub,
           id
@@ -639,7 +639,10 @@ class Anilist extends AnimeParser {
     title.romaji = title.romaji.toLowerCase();
 
     if (title.english === title.romaji) {
-      return await this.findAnimeSlug(title.english, season, startDate, malId, dub, anilistId, externalLinks) ?? [];
+      return (
+        (await this.findAnimeSlug(title.english, season, startDate, malId, dub, anilistId, externalLinks)) ??
+        []
+      );
     }
 
     const romajiPossibleEpisodes = await this.findAnimeSlug(
@@ -732,7 +735,9 @@ class Anilist extends AnimeParser {
       } else possibleAnime = await this.findAnimeRaw(slug);
     } else possibleAnime = await this.findAnimeRaw(slug, externalLinks);
 
-    if (!possibleAnime) { return undefined; }
+    if (!possibleAnime) {
+      return undefined;
+    }
 
     // To avoid a new request, lets match and see if the anime show found is in sub/dub
 
@@ -1116,7 +1121,7 @@ class Anilist extends AnimeParser {
       const link = externalLinks.find((link: any) => link.site.includes('Crunchyroll'));
       if (link) {
         const { request } = await axios.get(link.url, { validateStatus: () => true });
-        if (request.res.responseUrl.includes("series") || request.res.responseUrl.includes("watch")) {
+        if (request.res.responseUrl.includes('series') || request.res.responseUrl.includes('watch')) {
           const mediaType = request.res.responseUrl.split('/')[3];
           const id = request.res.responseUrl.split('/')[4];
           return await this.provider.fetchAnimeInfo(id, mediaType);
@@ -1129,7 +1134,7 @@ class Anilist extends AnimeParser {
     // Sort the retrieved info for more accurate results.
 
     let topRating = 0;
-  
+
     findAnime.results.sort((a, b) => {
       const targetTitle = slug.toLowerCase();
 
@@ -1146,10 +1151,10 @@ class Anilist extends AnimeParser {
       const secondRating = compareTwoStrings(targetTitle, secondTitle.toLowerCase());
 
       if (firstRating > topRating) {
-        topRating = firstRating
-      } 
+        topRating = firstRating;
+      }
       if (secondRating > topRating) {
-        topRating = secondRating
+        topRating = secondRating;
       }
 
       // Sort in descending order
@@ -1158,9 +1163,12 @@ class Anilist extends AnimeParser {
 
     if (topRating >= 0.7) {
       if (this.provider instanceof Crunchyroll) {
-        return await this.provider.fetchAnimeInfo(findAnime.results[0].id, findAnime.results[0].type as string)
+        return await this.provider.fetchAnimeInfo(
+          findAnime.results[0].id,
+          findAnime.results[0].type as string
+        );
       } else {
-        return await this.provider.fetchAnimeInfo(findAnime.results[0].id)
+        return await this.provider.fetchAnimeInfo(findAnime.results[0].id);
       }
     }
 

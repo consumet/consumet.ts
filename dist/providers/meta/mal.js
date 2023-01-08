@@ -98,6 +98,7 @@ class Myanimelist extends models_1.AnimeParser {
             var _a, _b, _c, _d, _e, _f, _g;
             try {
                 const animeInfo = await this.fetchMalInfoById(animeId);
+                const titleWithLanguages = animeInfo === null || animeInfo === void 0 ? void 0 : animeInfo.title;
                 let fillerEpisodes;
                 if ((this.provider instanceof zoro_1.default || this.provider instanceof gogoanime_1.default) &&
                     !dub &&
@@ -114,7 +115,10 @@ class Myanimelist extends models_1.AnimeParser {
                         (_c = animeInfo.episodes) === null || _c === void 0 ? void 0 : _c.reverse();
                     }
                     catch (err) {
-                        animeInfo.episodes = await this.findAnimeSlug(animeInfo.title, animeInfo.season, (_d = animeInfo.startDate) === null || _d === void 0 ? void 0 : _d.year, animeId, dub);
+                        animeInfo.episodes = await this.findAnimeSlug((titleWithLanguages === null || titleWithLanguages === void 0 ? void 0 : titleWithLanguages.english) ||
+                            (titleWithLanguages === null || titleWithLanguages === void 0 ? void 0 : titleWithLanguages.romaji) ||
+                            (titleWithLanguages === null || titleWithLanguages === void 0 ? void 0 : titleWithLanguages.native) ||
+                            (titleWithLanguages === null || titleWithLanguages === void 0 ? void 0 : titleWithLanguages.userPreferred), animeInfo.season, (_d = animeInfo.startDate) === null || _d === void 0 ? void 0 : _d.year, animeId, dub);
                         animeInfo.episodes = (_e = animeInfo.episodes) === null || _e === void 0 ? void 0 : _e.map((episode) => {
                             if (!episode.image)
                                 episode.image = animeInfo.image;
@@ -124,7 +128,10 @@ class Myanimelist extends models_1.AnimeParser {
                     }
                 }
                 else
-                    animeInfo.episodes = await this.findAnimeSlug(animeInfo.title, animeInfo.season, (_f = animeInfo.startDate) === null || _f === void 0 ? void 0 : _f.year, animeId, dub);
+                    animeInfo.episodes = await this.findAnimeSlug((titleWithLanguages === null || titleWithLanguages === void 0 ? void 0 : titleWithLanguages.english) ||
+                        (titleWithLanguages === null || titleWithLanguages === void 0 ? void 0 : titleWithLanguages.romaji) ||
+                        (titleWithLanguages === null || titleWithLanguages === void 0 ? void 0 : titleWithLanguages.native) ||
+                        (titleWithLanguages === null || titleWithLanguages === void 0 ? void 0 : titleWithLanguages.userPreferred), animeInfo.season, (_f = animeInfo.startDate) === null || _f === void 0 ? void 0 : _f.year, animeId, dub);
                 if (fetchFiller) {
                     const { data: fillerData } = await (0, axios_1.default)({
                         baseURL: `https://raw.githubusercontent.com/saikou-app/mal-id-filler-list/main/fillers/${animeId}.json`,
@@ -196,7 +203,8 @@ class Myanimelist extends models_1.AnimeParser {
             var _a, _b, _c;
             if (this.provider instanceof enime_1.default)
                 return (await this.provider.fetchAnimeInfoByMalId(malId)).episodes;
-            const slug = title.replace(/[^0-9a-zA-Z]+/g, ' ');
+            // console.log({ title });
+            const slug = title === null || title === void 0 ? void 0 : title.replace(/[^0-9a-zA-Z]+/g, ' ');
             let possibleAnime;
             if (malId && !(this.provider instanceof kamyroll_1.default || this.provider instanceof bilibili_1.default)) {
                 const malAsyncReq = await (0, axios_1.default)({
@@ -518,6 +526,8 @@ class Myanimelist extends models_1.AnimeParser {
 exports.default = Myanimelist;
 // (async () => {
 //   const mal = new Myanimelist();
-//   console.log(await mal.fetchAnimeInfo('35507'));
+//   // const search = await mal.search('one piece');
+//   const info = await mal.fetchAnimeInfo('21', true);
+//   console.log(info);
 // })();
 //# sourceMappingURL=mal.js.map

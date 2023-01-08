@@ -11,16 +11,7 @@ import {
   IAnimeEpisode,
   SubOrSub,
   IEpisodeServer,
-  Genres,
-  MangaParser,
-  IMangaChapterPage,
-  IMangaInfo,
-  IMangaResult,
-  IMangaChapter,
-  ProxyConfig,
   MediaFormat,
-  ITitle,
-  FuzzyDate,
 } from '../../models';
 import { substringAfter, substringBefore, compareTwoStrings, kitsuSearchQuery, range } from '../../utils';
 import Gogoanime from '../anime/gogoanime';
@@ -185,6 +176,13 @@ class Myanimelist extends AnimeParser {
   ): Promise<IAnimeInfo> => {
     try {
       const animeInfo = await this.fetchMalInfoById(animeId);
+
+      const titleWithLanguages = animeInfo?.title as {
+        english: string;
+        romaji: string;
+        native: string;
+        userPreferred: string;
+      };
       let fillerEpisodes: { number: string; 'filler-bool': boolean }[];
       if (
         (this.provider instanceof Zoro || this.provider instanceof Gogoanime) &&
@@ -208,7 +206,10 @@ class Myanimelist extends AnimeParser {
           animeInfo.episodes?.reverse();
         } catch (err) {
           animeInfo.episodes = await this.findAnimeSlug(
-            animeInfo.title as string,
+            titleWithLanguages?.english ||
+              titleWithLanguages?.romaji ||
+              titleWithLanguages?.native ||
+              titleWithLanguages?.userPreferred,
             animeInfo.season!,
             animeInfo.startDate?.year!,
             animeId,
@@ -225,7 +226,10 @@ class Myanimelist extends AnimeParser {
         }
       } else
         animeInfo.episodes = await this.findAnimeSlug(
-          animeInfo.title as string,
+          titleWithLanguages?.english ||
+            titleWithLanguages?.romaji ||
+            titleWithLanguages?.native ||
+            titleWithLanguages?.userPreferred,
           animeInfo.season!,
           animeInfo.startDate?.year!,
           animeId,
@@ -271,6 +275,7 @@ class Myanimelist extends AnimeParser {
     if (episodeId.includes('enime')) return new Enime().fetchEpisodeSources(episodeId);
     return this.provider.fetchEpisodeSources(episodeId, ...args);
   }
+
   fetchEpisodeServers(episodeId: string): Promise<IEpisodeServer[]> {
     return this.provider.fetchEpisodeServers(episodeId);
   }
@@ -327,7 +332,8 @@ class Myanimelist extends AnimeParser {
   ): Promise<IAnimeEpisode[]> => {
     if (this.provider instanceof Enime) return (await this.provider.fetchAnimeInfoByMalId(malId)).episodes!;
 
-    const slug = title.replace(/[^0-9a-zA-Z]+/g, ' ');
+    // console.log({ title });
+    const slug = title?.replace(/[^0-9a-zA-Z]+/g, ' ');
 
     let possibleAnime: any | undefined;
 
@@ -633,5 +639,7 @@ export default Myanimelist;
 
 // (async () => {
 //   const mal = new Myanimelist();
-//   console.log(await mal.fetchAnimeInfo('35507'));
+//   // const search = await mal.search('one piece');
+//   const info = await mal.fetchAnimeInfo('21', true);
+//   console.log(info);
 // })();
