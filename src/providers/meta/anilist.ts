@@ -736,7 +736,6 @@ class Anilist extends AnimeParser {
     } else possibleAnime = await this.findAnimeRaw(slug, externalLinks);
 
     if (!possibleAnime) return undefined;
-      return undefined;
     }
 
     // To avoid a new request, lets match and see if the anime show found is in sub/dub
