@@ -40,7 +40,7 @@ class GogoCDN extends VideoExtractor {
     if (decryptedData.source[0].file.includes('.m3u8')) {
       const resResult = await axios.get(decryptedData.source[0].file.toString());
       const resolutions = resResult.data.match(/(RESOLUTION=)(.*)(\s*?)(\s*.*)/g);
-      resolutions.forEach((res: string) => {
+      resolutions?.forEach((res: string) => {
         const index = decryptedData.source[0].file.lastIndexOf('/');
         const quality = res.split('\n')[0].split('x')[1].split(',')[0];
         const url = decryptedData.source[0].file.slice(0, index);
