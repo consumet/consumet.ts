@@ -735,7 +735,7 @@ class Anilist extends AnimeParser {
       } else possibleAnime = await this.findAnimeRaw(slug);
     } else possibleAnime = await this.findAnimeRaw(slug, externalLinks);
 
-    if (!possibleAnime) {
+    if (!possibleAnime) return undefined;
       return undefined;
     }
 
