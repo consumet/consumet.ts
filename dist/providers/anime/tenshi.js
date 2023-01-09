@@ -6,6 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const axios_1 = __importDefault(require("axios"));
 const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
+const utils_1 = require("../../utils");
 class Tenshi extends models_1.AnimeParser {
     constructor() {
         super(...arguments);
@@ -145,20 +146,103 @@ class Tenshi extends models_1.AnimeParser {
             }
         };
     }
-    fetchEpisodeSources(episodeId, ...args) {
-        throw new Error('Method not implemented.');
+    async search(query, page = 1) {
+        const searchUrl = `${this.baseUrl}anime?q=${query}&page=${page}`;
+        const searchResult = {
+            currentPage: page,
+            hasNextPage: false,
+            results: [],
+        };
+        try {
+            const { data } = await axios_1.default.get(searchUrl, {
+                headers: {
+                    'user-agent': utils_1.USER_AGENT,
+                    cookie: 'loop-view=thumb;__ddg1_=;__ddg2_=',
+                },
+            });
+            const $ = (0, cheerio_1.load)(data);
+            searchResult.hasNextPage = $('ul.pagination li.page-item.active').next().length > 0;
+            const itemSelector = $('ul.loop.anime-loop li');
+            itemSelector.each((i, el) => {
+                var _a;
+                const title = $(el).find('a').attr('title');
+                const id = (_a = $(el).find('a').attr('href')) === null || _a === void 0 ? void 0 : _a.split('/').slice(3).join('/');
+                const url = $(el).find('a').attr('href');
+                const image = $(el).find('img').attr('src');
+                const rating = parseFloat($(el).find('div.rating').text()) || undefined;
+                searchResult.results.push({
+                    id,
+                    title,
+                    url,
+                    image,
+                    rating,
+                });
+            });
+        }
+        catch (err) {
+            console.log(err);
+            throw new Error(err.message);
+        }
+        return searchResult;
+    }
+    async fetchEpisodeSources(episodeId) {
+        if (!episodeId.startsWith('http'))
+            episodeId = `${this.baseUrl}/anime/${episodeId}`;
+        const referer = episodeId;
+        const sources = [];
+        const headers = {
+            'user-agent': utils_1.USER_AGENT,
+            cookie: 'loop-view=thumb;__ddg1_=;__ddg2_=',
+            referer: referer,
+        };
+        try {
+            const { data } = await axios_1.default.get(episodeId, {
+                headers: headers,
+            });
+            const $ = (0, cheerio_1.load)(data);
+            const embedLink = $('div.embed-responsive iframe').attr('src');
+            if (!embedLink)
+                throw new Error('No sources found');
+            const { data: embedData } = await axios_1.default.get(embedLink, {
+                headers: headers,
+            });
+            // get player.source from data
+            const playerSource = (0, utils_1.substringBefore)((0, utils_1.substringAfter)(embedData, 'sources: ['), ']');
+            // get each source
+            const sourcesArray = playerSource.split('},');
+            // loop through each source
+            for (const source of sourcesArray) {
+                // get source url
+                const sourceUrl = (0, utils_1.substringBefore)((0, utils_1.substringAfter)(source, `src: '`), `'`);
+                // get source type
+                const sourceType = (0, utils_1.substringBefore)((0, utils_1.substringAfter)(source, `type: '`), `'`).split('/')[1];
+                // get source size
+                const sourceSize = parseInt((0, utils_1.substringBefore)((0, utils_1.substringAfter)(source, `size: `), `,`));
+                if (sourceUrl) {
+                    // push source to sources array
+                    sources.push({
+                        url: sourceUrl,
+                        type: sourceType,
+                        size: sourceSize,
+                    });
+                }
+            }
+        }
+        catch (err) {
+            throw new Error('No sources found');
+        }
+        if (sources.length === 0)
+            throw new Error('No sources found');
+        return { sources };
     }
     fetchEpisodeServers(episodeId) {
-        throw new Error('Method not implemented.');
-    }
-    search(query, ...args) {
         throw new Error('Method not implemented.');
     }
 }
 exports.default = Tenshi;
 // (async () => {
 //   const tenshi = new Tenshi();
-//   //console.log(await tenshi.fetchAnimeInfo('dewhzcns'));
-//   console.log(await tenshi.fetchAnimeInfo('fntoucz2'));
+//   const source = await tenshi.search('a');
+//   console.log(source);
 // })();
 //# sourceMappingURL=tenshi.js.map

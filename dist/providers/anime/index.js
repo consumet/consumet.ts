@@ -11,5 +11,6 @@ const animefox_1 = __importDefault(require("./animefox"));
 const enime_1 = __importDefault(require("./enime"));
 const kamyroll_1 = __importDefault(require("./kamyroll"));
 const bilibili_1 = __importDefault(require("./bilibili"));
-exports.default = { Gogoanime: gogoanime_1.default, NineAnime: _9anime_1.default, AnimePahe: animepahe_1.default, Zoro: zoro_1.default, AnimeFox: animefox_1.default, Enime: enime_1.default, Crunchyroll: kamyroll_1.default, Bilibili: bilibili_1.default };
+const tenshi_1 = __importDefault(require("./tenshi"));
+exports.default = { Gogoanime: gogoanime_1.default, NineAnime: _9anime_1.default, AnimePahe: animepahe_1.default, Zoro: zoro_1.default, AnimeFox: animefox_1.default, Enime: enime_1.default, Crunchyroll: kamyroll_1.default, Bilibili: bilibili_1.default, Tenshi: tenshi_1.default };
 //# sourceMappingURL=index.js.map

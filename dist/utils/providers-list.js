@@ -16,6 +16,7 @@ exports.PROVIDERS_LIST = {
         new providers_1.ANIME.Crunchyroll(),
         new providers_1.ANIME.Enime(),
         new providers_1.ANIME.Gogoanime(),
+        new providers_1.ANIME.Tenshi(),
         new providers_1.ANIME.Zoro(),
     ],
     MANGA: [
