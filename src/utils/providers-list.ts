@@ -14,6 +14,7 @@ export const PROVIDERS_LIST = {
     new ANIME.Crunchyroll(),
     new ANIME.Enime(),
     new ANIME.Gogoanime(),
+    new ANIME.Tenshi(),
     new ANIME.Zoro(),
   ],
   MANGA: [

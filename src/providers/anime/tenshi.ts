@@ -1,3 +1,4 @@
+import { TvType } from './../../models/types';
 import axios from 'axios';
 import { load } from 'cheerio';
 
@@ -15,6 +16,7 @@ import {
   MediaFormat,
   IAnimeEpisode,
 } from '../../models';
+import { substringAfter, substringBefore, USER_AGENT } from '../../utils';
 
 class Tenshi extends AnimeParser {
   override readonly name = 'Tenshi';
@@ -22,14 +24,50 @@ class Tenshi extends AnimeParser {
   protected override logo = '';
   protected override classPath = 'ANIME.Tenshi';
 
-  fetchEpisodeSources(episodeId: string, ...args: any): Promise<ISource> {
-    throw new Error('Method not implemented.');
-  }
-  fetchEpisodeServers(episodeId: string): Promise<IEpisodeServer[]> {
-    throw new Error('Method not implemented.');
-  }
-  search(query: string, ...args: any[]): Promise<unknown> {
-    throw new Error('Method not implemented.');
+  async search(query: string, page: number = 1): Promise<ISearch<IAnimeResult>> {
+    const searchUrl = `${this.baseUrl}anime?q=${query}&page=${page}`;
+
+    const searchResult: ISearch<IAnimeResult> = {
+      currentPage: page,
+      hasNextPage: false,
+      results: [],
+    };
+
+    try {
+      const { data } = await axios.get(searchUrl, {
+        headers: {
+          'user-agent': USER_AGENT,
+          cookie: 'loop-view=thumb;__ddg1_=;__ddg2_=',
+        },
+      });
+
+      const $ = load(data);
+
+      searchResult.hasNextPage = $('ul.pagination li.page-item.active').next().length > 0;
+
+      const itemSelector = $('ul.loop.anime-loop li');
+
+      itemSelector.each((i, el) => {
+        const title = $(el).find('a').attr('title')!;
+        const id = $(el).find('a').attr('href')?.split('/').slice(3).join('/')!;
+        const url = $(el).find('a').attr('href');
+        const image = $(el).find('img').attr('src');
+        const rating = parseFloat($(el).find('div.rating').text()) || undefined;
+
+        searchResult.results.push({
+          id,
+          title,
+          url,
+          image,
+          rating,
+        });
+      });
+    } catch (err) {
+      console.log(err);
+      throw new Error((err as Error).message);
+    }
+
+    return searchResult;
   }
 
   override fetchAnimeInfo = async (id: string): Promise<IAnimeInfo> => {
@@ -175,12 +213,72 @@ class Tenshi extends AnimeParser {
       throw new Error("Anime doesn't exist.");
     }
   };
+
+  override async fetchEpisodeSources(episodeId: string): Promise<ISource> {
+    if (!episodeId.startsWith('http')) episodeId = `${this.baseUrl}/anime/${episodeId}`;
+    const referer = episodeId;
+
+    const sources: IVideo[] = [];
+
+    const headers = {
+      'user-agent': USER_AGENT,
+      cookie: 'loop-view=thumb;__ddg1_=;__ddg2_=',
+      referer: referer,
+    };
+
+    try {
+      const { data } = await axios.get(episodeId, {
+        headers: headers,
+      });
+
+      const $ = load(data);
+      const embedLink = $('div.embed-responsive iframe').attr('src');
+
+      if (!embedLink) throw new Error('No sources found');
+
+      const { data: embedData } = await axios.get(embedLink, {
+        headers: headers,
+      });
+
+      // get player.source from data
+      const playerSource = substringBefore(substringAfter(embedData, 'sources: ['), ']');
+      // get each source
+      const sourcesArray = playerSource.split('},');
+      // loop through each source
+      for (const source of sourcesArray) {
+        // get source url
+        const sourceUrl = substringBefore(substringAfter(source, `src: '`), `'`) as string;
+        // get source type
+        const sourceType = substringBefore(substringAfter(source, `type: '`), `'`).split('/')[1] as string;
+        // get source size
+        const sourceSize = parseInt(substringBefore(substringAfter(source, `size: `), `,`));
+
+        if (sourceUrl) {
+          // push source to sources array
+          sources.push({
+            url: sourceUrl,
+            type: sourceType,
+            size: sourceSize,
+          });
+        }
+      }
+    } catch (err) {
+      throw new Error('No sources found');
+    }
+
+    if (sources.length === 0) throw new Error('No sources found');
+    return { sources };
+  }
+
+  fetchEpisodeServers(episodeId: string): Promise<IEpisodeServer[]> {
+    throw new Error('Method not implemented.');
+  }
 }
 
 export default Tenshi;
 
 // (async () => {
 //   const tenshi = new Tenshi();
-//   //console.log(await tenshi.fetchAnimeInfo('dewhzcns'));
-//   console.log(await tenshi.fetchAnimeInfo('fntoucz2'));
+//   const source = await tenshi.search('a');
+//   console.log(source);
 // })();
