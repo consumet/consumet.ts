@@ -59,7 +59,7 @@ const main = async () => {
   // Print the results
   console.log(results);
   // Get the first anime info
-  const firstAnime = results[0];
+  const firstAnime = results.results[0];
   const animeInfo = await gogoanime.fetchAnimeInfo(firstAnime.id);
   // Print the info
   console.log(animeInfo);
