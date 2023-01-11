@@ -71,10 +71,12 @@ class Tenshi extends AnimeParser {
   }
 
   override fetchAnimeInfo = async (id: string): Promise<IAnimeInfo> => {
+    if (!id.startsWith('http')) id = `${this.baseUrl}${id}`;
+
     try {
       const { data } = await axios.request({
         method: 'get',
-        url: `${this.baseUrl}anime/${id}`,
+        url: id,
         headers: {
           'user-agent':
             'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35',
@@ -141,7 +143,7 @@ class Tenshi extends AnimeParser {
         for (let i = 1; i <= lastPage; i++) {
           const { data } = await axios.request({
             method: 'get',
-            url: `${this.baseUrl}anime/${id}?page=${i}`,
+            url: `${id}?page=${i}`,
             headers: {
               'user-agent':
                 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35',
@@ -210,12 +212,13 @@ class Tenshi extends AnimeParser {
 
       return animeInfo;
     } catch (err) {
+      console.log(err);
       throw new Error("Anime doesn't exist.");
     }
   };
 
   override async fetchEpisodeSources(episodeId: string): Promise<ISource> {
-    if (!episodeId.startsWith('http')) episodeId = `${this.baseUrl}/anime/${episodeId}`;
+    if (!episodeId.startsWith('http')) episodeId = `${this.baseUrl}${episodeId}`;
     const referer = episodeId;
 
     const sources: IVideo[] = [];
@@ -263,6 +266,7 @@ class Tenshi extends AnimeParser {
         }
       }
     } catch (err) {
+      console.log(err);
       throw new Error('No sources found');
     }
 
@@ -279,6 +283,8 @@ export default Tenshi;
 
 // (async () => {
 //   const tenshi = new Tenshi();
-//   const source = await tenshi.search('a');
+//   const search = await tenshi.search('one piece');
+//   const info = await tenshi.fetchAnimeInfo(search.results[0].id);
+//   const source = await tenshi.fetchEpisodeSources(info.episodes![2].id);
 //   console.log(source);
 // })();

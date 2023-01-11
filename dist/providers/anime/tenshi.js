@@ -15,10 +15,12 @@ class Tenshi extends models_1.AnimeParser {
         this.logo = '';
         this.classPath = 'ANIME.Tenshi';
         this.fetchAnimeInfo = async (id) => {
+            if (!id.startsWith('http'))
+                id = `${this.baseUrl}${id}`;
             try {
                 const { data } = await axios_1.default.request({
                     method: 'get',
-                    url: `${this.baseUrl}anime/${id}`,
+                    url: id,
                     headers: {
                         'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35',
                         cookie: 'loop-view=thumb;__ddg1_=;__ddg2_=',
@@ -77,7 +79,7 @@ class Tenshi extends models_1.AnimeParser {
                     for (let i = 1; i <= lastPage; i++) {
                         const { data } = await axios_1.default.request({
                             method: 'get',
-                            url: `${this.baseUrl}anime/${id}?page=${i}`,
+                            url: `${id}?page=${i}`,
                             headers: {
                                 'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35',
                                 cookie: 'loop-view=thumb;__ddg1_=;__ddg2_=',
@@ -142,6 +144,7 @@ class Tenshi extends models_1.AnimeParser {
                 return animeInfo;
             }
             catch (err) {
+                console.log(err);
                 throw new Error("Anime doesn't exist.");
             }
         };
@@ -187,7 +190,7 @@ class Tenshi extends models_1.AnimeParser {
     }
     async fetchEpisodeSources(episodeId) {
         if (!episodeId.startsWith('http'))
-            episodeId = `${this.baseUrl}/anime/${episodeId}`;
+            episodeId = `${this.baseUrl}${episodeId}`;
         const referer = episodeId;
         const sources = [];
         const headers = {
@@ -229,6 +232,7 @@ class Tenshi extends models_1.AnimeParser {
             }
         }
         catch (err) {
+            console.log(err);
             throw new Error('No sources found');
         }
         if (sources.length === 0)
@@ -242,7 +246,9 @@ class Tenshi extends models_1.AnimeParser {
 exports.default = Tenshi;
 // (async () => {
 //   const tenshi = new Tenshi();
-//   const source = await tenshi.search('a');
+//   const search = await tenshi.search('one piece');
+//   const info = await tenshi.fetchAnimeInfo(search.results[0].id);
+//   const source = await tenshi.fetchEpisodeSources(info.episodes![2].id);
 //   console.log(source);
 // })();
 //# sourceMappingURL=tenshi.js.map
