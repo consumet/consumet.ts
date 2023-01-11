@@ -41,7 +41,8 @@ import Gogoanime from '../../providers/anime/gogoanime';
 import Enime from '../anime/enime';
 import Zoro from '../anime/zoro';
 import Mangasee123 from '../manga/mangasee123';
-import Crunchyroll from '../anime/kamyroll';
+import Crunchyroll from '../anime/crunchyroll';
+import Kamyroll from '../anime/kamyroll';
 import Bilibili from '../anime/bilibili';
 import { compareTwoStrings } from '../../utils/utils';
 
@@ -687,7 +688,7 @@ class Anilist extends AnimeParser {
 
     let possibleAnime: any | undefined;
 
-    if (malId && !(this.provider instanceof Crunchyroll || this.provider instanceof Bilibili)) {
+    if (malId && !(this.provider instanceof Kamyroll || this.provider instanceof Crunchyroll || this.provider instanceof Bilibili)) {
       const malAsyncReq = await axios({
         method: 'GET',
         url: `${this.malSyncUrl}/mal/anime/${malId}`,
@@ -741,7 +742,12 @@ class Anilist extends AnimeParser {
 
     const expectedType = dub ? SubOrSub.DUB : SubOrSub.SUB;
 
-    if (possibleAnime.subOrDub != SubOrSub.BOTH && possibleAnime.subOrDub != expectedType) {
+    // Have this as a fallback in the meantime for compatibility
+    if (possibleAnime.subOrDub) {
+      if (possibleAnime.subOrDub != SubOrSub.BOTH && possibleAnime.subOrDub != expectedType) {
+        return undefined;
+      }  
+    } else if (!possibleAnime.hasDub && dub || !possibleAnime.hasSub && !dub) {
       return undefined;
     }
 
@@ -758,6 +764,18 @@ class Anilist extends AnimeParser {
     }
 
     if (this.provider instanceof Crunchyroll) {
+      const nestedEpisodes = Object.keys(possibleAnime.episodes)
+        .filter((key: any) => key.toLowerCase().includes(dub ? "dub" : "sub"))
+        .sort((first: any, second: any) => {
+          return (possibleAnime.episodes[first]?.[0].season_number ?? 0) - (possibleAnime.episodes[second]?.[0].season_number ?? 0)
+        })
+        .map((key: any) => {
+          const audio = key.replace(/[0-9]/g, '').replace(/(^\w{1})|(\s+\w{1})/g, (letter: string) => letter.toUpperCase());
+          possibleAnime.episodes[key].forEach((element: any) => element.type = audio);
+          return possibleAnime.episodes[key];
+        });
+      return nestedEpisodes.flat();
+    } else if (this.provider instanceof Kamyroll) {
       return dub
         ? possibleAnime.episodes.filter((ep: any) => ep.isDubbed)
         : possibleAnime.episodes.filter((ep: any) => ep.type == 'Subbed');
@@ -1114,8 +1132,9 @@ class Anilist extends AnimeParser {
       throw new Error((err as Error).message);
     }
   };
+
   private findAnimeRaw = async (slug: string, externalLinks?: any) => {
-    if (this.provider instanceof Crunchyroll && externalLinks) {
+    if ((this.provider instanceof Crunchyroll || this.provider instanceof Kamyroll) && externalLinks) {
       const link = externalLinks.find((link: any) => link.site.includes('Crunchyroll'));
       if (link) {
         const { request } = await axios.get(link.url, { validateStatus: () => true });
@@ -1127,7 +1146,8 @@ class Anilist extends AnimeParser {
       }
     }
     const findAnime = (await this.provider.search(slug)) as ISearch<IAnimeResult>;
-    if (findAnime.results.length === 0) return [];
+  
+    if (findAnime.results.length === 0) return undefined;
 
     // Sort the retrieved info for more accurate results.
 
@@ -1160,7 +1180,7 @@ class Anilist extends AnimeParser {
     });
 
     if (topRating >= 0.7) {
-      if (this.provider instanceof Crunchyroll) {
+      if (this.provider instanceof Crunchyroll || this.provider instanceof Kamyroll) {
         return await this.provider.fetchAnimeInfo(
           findAnime.results[0].id,
           findAnime.results[0].type as string
@@ -2061,10 +2081,9 @@ class Anilist extends AnimeParser {
 }
 
 // (async () => {
-//   const ani = new Anilist(new Zoro());
-
-//   const search = await ani.fetchAnimeInfo('21');
-//   const sources = await ani.fetchEpisodeSources(search.episodes![1000].id);
+//   const ani = new Anilist(new Crunchyroll());
+//   const search = await ani.fetchAnimeInfo('113415', false);
+//   const sources = await ani.fetchEpisodeSources(search.episodes![5].id);
 //   console.log(sources);
 // })();
 
