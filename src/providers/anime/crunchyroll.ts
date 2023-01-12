@@ -31,7 +31,7 @@ class Crunchyroll extends AnimeParser {
           Authorization: 'Bearer ' + this.TOKEN?.access_token,
         }
     }    
-  };
+  }
 
   private locales = [
     '[ar-ME] Arabic',
