@@ -7,6 +7,5 @@ import Enime from './enime';
 import Crunchyroll from './crunchyroll';
 import Kamyroll from './kamyroll';
 import Bilibili from './bilibili';
-import Tenshi from './tenshi';
 
-export default { Gogoanime, NineAnime, AnimePahe, Zoro, AnimeFox, Enime, Crunchyroll, Kamyroll, Tenshi, Bilibili };
+export default { Gogoanime, NineAnime, AnimePahe, Zoro, AnimeFox, Enime, Crunchyroll, Kamyroll, Bilibili };
