@@ -68,16 +68,14 @@ class Kamyroll extends AnimeParser {
     let data = undefined;
     if (!token && accessToken) {
       data = await axios.get(
-        `${this.baseUrl}/auth/v1/token`,
-        }),
-        {
+        `${this.baseUrl}/auth/v1/token`, {
           headers: {
             'Content-Type': 'application/x-www-form-urlencoded',
           },
           params: {
               device_id: 'com.service.data',
               device_type: 'consumet.org',
-              access_token: process.env.ACCESS_TOKEN!,
+              access_token: accessToken,
           }
         }
       );
