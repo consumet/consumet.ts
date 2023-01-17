@@ -120,7 +120,7 @@ class Enime extends AnimeParser {
   /**
    * @param id anilist id
    */
-  fetchAnimeInfoByAnilistId = async (id: string, type?: 'gogoanime' | 'zoro'): Promise<IAnimeInfo> => {
+  fetchAnimeInfoByAnilistId = async (id: string, type: 'gogoanime' | 'zoro' = 'gogoanime'): Promise<IAnimeInfo> => {
     const animeInfo: IAnimeInfo = {
       id: id,
       title: '',
