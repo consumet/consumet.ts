@@ -1,12 +1,12 @@
 {
     "name": "@consumet/extensions",
-    "version": "1.3.1",
+    "version": "1.3.3",
     "description": "Nodejs library that provides high-level APIs for obtaining information on various entertainment media such as books, movies, comic books, anime, manga, and so on.",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
         "build": "tsc",
-        "version": "auto-changelog -p",
+        "version": "auto-changelog -p && git add CHANGELOG.md",
         "lint": "prettier --write .",
         "test": "jest",
         "test:anime": "jest ./test/anime",
@@ -72,7 +72,12 @@
     },
     "auto-changelog": {
         "template": "keepachangelog",
-        "preset": "typescript-preset-eslint"
+        "preset": "typescript-preset-eslint",
+        "output": "CHANGELOG.md",
+        "commitUrl": "https://github.com/consumet/consumet.ts/commit/{id}",
+        "compareUrl": "https://github.com/consumet/consumet.ts/compare/{from}...{to}",
+        "issueUrl": "https://github.com/consumet/consumet.ts/issues/{id}",
+        "mergeUrl": "https://github.com/consumet/consumet.ts/pull/{id}"
     },
     "directories": {
         "doc": "docs",
