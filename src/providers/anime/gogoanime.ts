@@ -205,7 +205,6 @@ class Gogoanime extends AnimeParser {
       const $ = load(res.data);
 
       let serverUrl: URL;
-      let serverString: any;
 
       switch (server) {
         case StreamingServers.GogoCDN:
