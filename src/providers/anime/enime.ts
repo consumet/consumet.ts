@@ -296,7 +296,7 @@ class Enime extends AnimeParser {
     };
 
     const {
-      data: { url, referer },
+      data: { url, referer, subtitle },
     } = await axios.get(`${this.enimeApi}/source/${sourceId}`);
 
     res.headers!['Referer'] = referer;
@@ -321,6 +321,15 @@ class Enime extends AnimeParser {
       isM3U8: url.includes('.m3u8'),
       quality: 'default',
     });
+
+    if (subtitle) {
+      res.subtitles = [
+        {
+          url: subtitle,
+          lang: "English"
+        }        
+      ]
+    }
 
     return res;
   };
