@@ -129,6 +129,8 @@ class AnimeFox extends AnimeParser {
       )!;
       info.url = `${this.baseUrl}/${id}`;
       info.episodes = [];
+      info.hasSub = $('div.anisc-info > div:nth-child(3) > span:nth-child(2)').text().trim() == 'Subbed';
+      info.hasDub = $('div.anisc-info > div:nth-child(3) > span:nth-child(2)').text().trim() == 'Dubbed';
       const episodes = Array.from({ length: info.totalEpisodes }, (_, i) => i + 1);
       episodes.forEach((element, i) =>
         info.episodes?.push({
