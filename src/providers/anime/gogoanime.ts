@@ -205,6 +205,7 @@ class Gogoanime extends AnimeParser {
       const $ = load(res.data);
 
       let serverUrl: URL;
+      let serverString: any;
 
       switch (server) {
         case StreamingServers.GogoCDN:
@@ -212,7 +213,7 @@ class Gogoanime extends AnimeParser {
           break;
         case StreamingServers.VidStreaming:
           serverUrl = new URL(
-            `https:${$('div.anime_video_body > div.anime_muti_link > ul > li.vidcdn > a').attr('data-video')}`
+            `https:${$('div.anime_video_body > div.anime_muti_link > ul > li.vidcdn > a').attr('data-video')?.replace('.pro', '.net')}`
           );
           break;
         case StreamingServers.StreamSB:
