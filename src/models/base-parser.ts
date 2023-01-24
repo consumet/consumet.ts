@@ -19,6 +19,22 @@ abstract class BaseParser extends BaseProvider {
       return config;
     });
   }
+  
+  /**
+    * Set or Change the proxy config
+    */
+  setProxy(proxy: ProxyConfig) {
+    this.client.interceptors.request.use(config => {
+      if (proxy?.url) {
+        config.headers = {
+          ...config.headers,
+          'x-api-key': proxy?.key ?? '',
+        };
+        config.url = proxy.url + config.url;
+      }
+      return config;
+    });
+  }
 
   protected client: AxiosInstance;
 
