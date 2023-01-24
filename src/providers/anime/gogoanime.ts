@@ -212,7 +212,7 @@ class Gogoanime extends AnimeParser {
           break;
         case StreamingServers.VidStreaming:
           serverUrl = new URL(
-            `https:${$('div.anime_video_body > div.anime_muti_link > ul > li.vidcdn > a').attr('data-video')}`
+            `https:${$('div.anime_video_body > div.anime_muti_link > ul > li.vidcdn > a').attr('data-video')?.replace('.pro', '.net')}`
           );
           break;
         case StreamingServers.StreamSB:
