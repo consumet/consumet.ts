@@ -18,7 +18,7 @@ class Kamyroll extends AnimeParser {
   override readonly name = 'Kamyroll';
   protected override baseUrl = 'https://api.kamyroll.tech';
   protected override logo =
-    'https://play-lh.googleusercontent.com/CjzbMcLbmTswzCGauGQExkFsSHvwjKEeWLbVVJx0B-J9G6OQ-UCl2eOuGBfaIozFqow';
+    'https://raw.githubusercontent.com/kamyroll/Kamyroll-Tauri/main/src-tauri/icons/128x128.png';
   protected override classPath = 'ANIME.Kamyroll';
 
   private locale = 'en-US';
@@ -67,18 +67,16 @@ class Kamyroll extends AnimeParser {
   async fetch(locale?: string, token?: string, accessToken?: string) {
     let data = undefined;
     if (!token && accessToken) {
-      data = await axios.get(
-        `${this.baseUrl}/auth/v1/token`, {
-          headers: {
-            'Content-Type': 'application/x-www-form-urlencoded',
-          },
-          params: {
-              device_id: 'com.service.data',
-              device_type: 'consumet.org',
-              access_token: accessToken,
-          }
-        }
-      );
+      data = await axios.get(`${this.baseUrl}/auth/v1/token`, {
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        params: {
+          device_id: 'com.service.data',
+          device_type: 'consumet.org',
+          access_token: accessToken,
+        },
+      });
     }
 
     if (locale && !this.locales.find(l => l.includes(locale))) throw new Error('Invalid locale');
