@@ -19,7 +19,6 @@ import Zoro from '../anime/zoro';
 import Crunchyroll from '../anime/crunchyroll';
 import Enime from '../anime/enime';
 import Bilibili from '../anime/bilibili';
-import Kamyroll from '../anime/kamyroll';
 
 class Myanimelist extends AnimeParser {
   override readonly name = 'Myanimelist';
@@ -282,7 +281,7 @@ class Myanimelist extends AnimeParser {
   }
 
   private findAnimeRaw = async (slug: string, externalLinks?: any) => {
-    if (externalLinks && (this.provider instanceof Crunchyroll) || this.provider instanceof Kamyroll) {
+    if (externalLinks && this.provider instanceof Crunchyroll) {
       if (externalLinks.map((link: any) => link.site.includes('Crunchyroll'))) {
         const link = externalLinks.find((link: any) => link.site.includes('Crunchyroll'));
         const { request } = await axios.get(link.url, { validateStatus: () => true });
@@ -316,7 +315,7 @@ class Myanimelist extends AnimeParser {
       return secondRating - firstRating;
     });
 
-    if (this.provider instanceof Crunchyroll || this.provider instanceof Kamyroll) {
+    if (this.provider instanceof Crunchyroll) {
       return await this.provider.fetchAnimeInfo(findAnime.results[0].id, findAnime.results[0].type as string);
     }
     // TODO: use much better way than this
@@ -338,7 +337,7 @@ class Myanimelist extends AnimeParser {
 
     let possibleAnime: any | undefined;
 
-    if (malId && !(this.provider instanceof Crunchyroll  || this.provider instanceof Kamyroll || this.provider instanceof Bilibili)) {
+    if (malId && !(this.provider instanceof Crunchyroll || this.provider instanceof Bilibili)) {
       const malAsyncReq = await axios({
         method: 'GET',
         url: `${this.malSyncUrl}/mal/anime/${malId}`,
@@ -405,23 +404,24 @@ class Myanimelist extends AnimeParser {
         }
       });
     }
-  
+
     if (this.provider instanceof Crunchyroll) {
       const nestedEpisodes = Object.keys(possibleAnime.episodes)
-        .filter((key: any) => key.toLowerCase().includes(dub ? "dub" : "sub"))
+        .filter((key: any) => key.toLowerCase().includes(dub ? 'dub' : 'sub'))
         .sort((first: any, second: any) => {
-          return (possibleAnime.episodes[first]?.[0].season_number ?? 0) - (possibleAnime.episodes[second]?.[0].season_number ?? 0)
+          return (
+            (possibleAnime.episodes[first]?.[0].season_number ?? 0) -
+            (possibleAnime.episodes[second]?.[0].season_number ?? 0)
+          );
         })
         .map((key: any) => {
-          const audio = key.replace(/[0-9]/g, '').replace(/(^\w{1})|(\s+\w{1})/g, (letter: string) => letter.toUpperCase());
-          possibleAnime.episodes[key].forEach((element: any) => element.type = audio);
+          const audio = key
+            .replace(/[0-9]/g, '')
+            .replace(/(^\w{1})|(\s+\w{1})/g, (letter: string) => letter.toUpperCase());
+          possibleAnime.episodes[key].forEach((element: any) => (element.type = audio));
           return possibleAnime.episodes[key];
         });
       return nestedEpisodes.flat();
-    } else if (this.provider instanceof Kamyroll) {
-      return dub
-        ? possibleAnime.episodes.filter((ep: any) => ep.isDubbed)
-        : possibleAnime.episodes.filter((ep: any) => ep.type == 'Subbed');
     }
 
     const possibleProviderEpisodes = possibleAnime.episodes as IAnimeEpisode[];
