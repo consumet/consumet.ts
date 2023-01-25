@@ -42,7 +42,6 @@ import Enime from '../anime/enime';
 import Zoro from '../anime/zoro';
 import Mangasee123 from '../manga/mangasee123';
 import Crunchyroll from '../anime/crunchyroll';
-import Kamyroll from '../anime/kamyroll';
 import Bilibili from '../anime/bilibili';
 import { compareTwoStrings } from '../../utils/utils';
 
@@ -688,7 +687,7 @@ class Anilist extends AnimeParser {
 
     let possibleAnime: any | undefined;
 
-    if (malId && !(this.provider instanceof Kamyroll || this.provider instanceof Crunchyroll || this.provider instanceof Bilibili)) {
+    if (malId && !(this.provider instanceof Crunchyroll || this.provider instanceof Bilibili)) {
       const malAsyncReq = await axios({
         method: 'GET',
         url: `${this.malSyncUrl}/mal/anime/${malId}`,
@@ -746,8 +745,8 @@ class Anilist extends AnimeParser {
     if (possibleAnime.subOrDub) {
       if (possibleAnime.subOrDub != SubOrSub.BOTH && possibleAnime.subOrDub != expectedType) {
         return undefined;
-      }  
-    } else if (!possibleAnime.hasDub && dub || !possibleAnime.hasSub && !dub) {
+      }
+    } else if ((!possibleAnime.hasDub && dub) || (!possibleAnime.hasSub && !dub)) {
       return undefined;
     }
 
@@ -765,20 +764,21 @@ class Anilist extends AnimeParser {
 
     if (this.provider instanceof Crunchyroll) {
       const nestedEpisodes = Object.keys(possibleAnime.episodes)
-        .filter((key: any) => key.toLowerCase().includes(dub ? "dub" : "sub"))
+        .filter((key: any) => key.toLowerCase().includes(dub ? 'dub' : 'sub'))
         .sort((first: any, second: any) => {
-          return (possibleAnime.episodes[first]?.[0].season_number ?? 0) - (possibleAnime.episodes[second]?.[0].season_number ?? 0)
+          return (
+            (possibleAnime.episodes[first]?.[0].season_number ?? 0) -
+            (possibleAnime.episodes[second]?.[0].season_number ?? 0)
+          );
         })
         .map((key: any) => {
-          const audio = key.replace(/[0-9]/g, '').replace(/(^\w{1})|(\s+\w{1})/g, (letter: string) => letter.toUpperCase());
-          possibleAnime.episodes[key].forEach((element: any) => element.type = audio);
+          const audio = key
+            .replace(/[0-9]/g, '')
+            .replace(/(^\w{1})|(\s+\w{1})/g, (letter: string) => letter.toUpperCase());
+          possibleAnime.episodes[key].forEach((element: any) => (element.type = audio));
           return possibleAnime.episodes[key];
         });
       return nestedEpisodes.flat();
-    } else if (this.provider instanceof Kamyroll) {
-      return dub
-        ? possibleAnime.episodes.filter((ep: any) => ep.isDubbed)
-        : possibleAnime.episodes.filter((ep: any) => ep.type == 'Subbed');
     }
 
     const possibleProviderEpisodes = possibleAnime.episodes as IAnimeEpisode[];
@@ -1134,7 +1134,7 @@ class Anilist extends AnimeParser {
   };
 
   private findAnimeRaw = async (slug: string, externalLinks?: any) => {
-    if ((this.provider instanceof Crunchyroll || this.provider instanceof Kamyroll) && externalLinks) {
+    if (this.provider instanceof Crunchyroll && externalLinks) {
       const link = externalLinks.find((link: any) => link.site.includes('Crunchyroll'));
       if (link) {
         const { request } = await axios.get(link.url, { validateStatus: () => true });
@@ -1146,7 +1146,7 @@ class Anilist extends AnimeParser {
       }
     }
     const findAnime = (await this.provider.search(slug)) as ISearch<IAnimeResult>;
-  
+
     if (findAnime.results.length === 0) return undefined;
 
     // Sort the retrieved info for more accurate results.
@@ -1180,7 +1180,7 @@ class Anilist extends AnimeParser {
     });
 
     if (topRating >= 0.7) {
-      if (this.provider instanceof Crunchyroll || this.provider instanceof Kamyroll) {
+      if (this.provider instanceof Crunchyroll) {
         return await this.provider.fetchAnimeInfo(
           findAnime.results[0].id,
           findAnime.results[0].type as string

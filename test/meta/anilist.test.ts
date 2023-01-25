@@ -2,14 +2,14 @@ import { META } from '../../src/providers';
 
 jest.setTimeout(120000);
 
+const anilist = new META.Anilist();
+
 test('returns a filled array of anime list', async () => {
-  const anilist = new META.Anilist();
   const data = await anilist.search('spy x family');
   expect(data.results).not.toEqual([]);
 });
 
 test('returns a filled object of anime data', async () => {
-  const anilist = new META.Anilist();
   const data = await anilist.fetchAnimeInfo('140960');
   expect(data).not.toBeNull();
   expect(data.episodes).not.toEqual([]);
@@ -17,7 +17,6 @@ test('returns a filled object of anime data', async () => {
 });
 
 test('returns episodes for sub and dub not available', async () => {
-  const anilist = new META.Anilist();
   const subData = await anilist.fetchEpisodesListById('949', false);
   expect(subData).not.toBeNull();
   expect(subData).not.toEqual([]);
@@ -28,31 +27,26 @@ test('returns episodes for sub and dub not available', async () => {
 });
 
 test('returns a filled array of servers', async () => {
-  const anilist = new META.Anilist();
   const data = await anilist.fetchEpisodeServers('spy-x-family-episode-9');
   expect(data).not.toEqual([]);
 });
 
 test('returns a filled object of episode sources', async () => {
-  const anilist = new META.Anilist();
   const data = await anilist.fetchEpisodeSources('spy-x-family-episode-9');
   expect(data.sources).not.toEqual([]);
 });
 
 test('returns a filled array of trending anime', async () => {
-  const anilist = new META.Anilist();
   const data = await anilist.fetchTrendingAnime(1, 10);
   expect(data.results).not.toEqual([]);
 });
 
 test('returns a filled array of popular anime', async () => {
-  const anilist = new META.Anilist();
   const data = await anilist.fetchPopularAnime(1, 10);
   expect(data.results).not.toEqual([]);
 });
 
 test('returns a filled array of airing schedule', async () => {
-  const anilist = new META.Anilist();
   const data = await anilist.fetchAiringSchedule(1, 20, 1660047922, 1661832000, true);
   expect(data.results).not.toEqual([]);
 });
