@@ -88,6 +88,9 @@ class Zoro extends AnimeParser {
       const { data } = await axios.get(`${this.baseUrl}/watch/${id}`);
       const $ = load(data);
 
+      const { mal_id, anilist_id } = JSON.parse($('#syncData').text())
+      info.malID = Number(mal_id)
+      info.alID = Number(anilist_id)
       info.title = $('h2.film-name > a.text-white').text();
       info.image = $('img.film-poster-img').attr('src');
       info.description = $('div.film-description').text().trim();
