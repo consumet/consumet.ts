@@ -112,12 +112,14 @@ zoro.fetchAnimeInfo("overlord-iv-18075").then(data => {
 })
 ```
 
-returns a promise which resolves into an anime info object (including the episodes). (*[`Promise<IAnimeInfo>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L28-L42)*)\
+returns a promise which resolves into an anime info object (including the episodes and optionally MAL and Anilist ID ). (*[`Promise<IAnimeInfo>`](https://github.com/consumet/extensions/blob/master/src/models/types.ts#L28-L42)*)\
 output:
 ```js
 {
   id: 'overlord-iv-18075',
   title: 'Overlord IV',
+  malID: 48895,
+  alID: 133844,
   image: 'https://img.zorores.com/_r/300x400/100/ef/1d/ef1d1028cf6c177587805651b78282a6/ef1d1028cf6c177587805651b78282a6.jpg',
   description: 'Fourth season of Overlord',
   type: 'TV',
