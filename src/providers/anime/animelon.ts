@@ -1,5 +1,4 @@
 import axios from 'axios';
-import { load } from 'cheerio';
 
 import {
   AnimeParser,
@@ -11,8 +10,6 @@ import {
   IEpisodeServer,
   MediaFormat,
 } from '../../models';
-
-import { GogoCDN } from '../../extractors';
 
 class Animelon extends AnimeParser {
   override readonly name = 'Animelon';
