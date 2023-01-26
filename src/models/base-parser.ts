@@ -8,6 +8,14 @@ abstract class BaseParser extends BaseProvider {
     this.client = axios.create({
       baseURL: baseUrl,
     });
+    
+    if (proxy) this.setProxy(proxy);
+  }
+
+  /**
+   * Set or Change the proxy config
+   */
+  setProxy(proxy: ProxyConfig) {
     this.client.interceptors.request.use(config => {
       if (proxy?.url) {
         config.headers = {
