@@ -11,9 +11,6 @@ consumet.ts is a Node library which provides high-level APIs to get information 
   <a href="https://github.com/consumet/consumet.ts/actions/workflows/npm-publish.yml">
     <img src="https://github.com/consumet/consumet.ts/actions/workflows/npm-publish.yml/badge.svg" alt="npm (scoped)">
   </a>
-  <a href="https://www.codefactor.io/repository/github/consumet/consumet.ts">
-    <img src="https://www.codefactor.io/repository/github/consumet/consumet.ts/badge" alt="npm (scoped)">
-  </a>
     <a href="https://discord.gg/qTPfvMxzNH">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="Prs are welcome">
   </a>
