@@ -3,6 +3,8 @@ name: Node.js Package
 on:
   release:
     types: [created]
+  workflow_dispatch:
+    branches: [master]
 
 jobs:
   build:
@@ -13,6 +15,7 @@ jobs:
         with:
           node-version: 16
       - run: npm install
+      - run: npm run build
       # - run: npm test
 
   publish-npm:
@@ -25,6 +28,7 @@ jobs:
           node-version: 16
           registry-url: https://registry.npmjs.org/
       - run: npm install
+      - run: npm run build
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}

@@ -227,7 +227,7 @@ class Libgen extends BookParser {
    */
   override search = async (query: string, page: number = 1): Promise<LibgenResult> => {
     query = encodeURIComponent(query);
-    let workingExtension = this.extensions[0];
+    const workingExtension = this.extensions[0];
     const containers: LibgenBook[] = [];
     const { data } = await get(
       `${this.baseUrl}.rs/search.php?req=${query}&view=simple&res=25&sort=def&sortmode=ASC&page=${page}`

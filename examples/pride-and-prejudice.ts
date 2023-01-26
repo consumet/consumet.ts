@@ -5,7 +5,7 @@ const main = async () => {
 
   const res = await books.search('pride and prejudice');
 
-  for (let v of res) {
+  for (const v of res) {
     console.log(v.title);
   }
 };

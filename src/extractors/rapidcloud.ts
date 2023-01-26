@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { load } from 'cheerio';
 import CryptoJS from 'crypto-js';
-
+import { substringAfter, substringBefore} from '../utils';
 import { VideoExtractor, IVideo, ISubtitle, Intro } from '../models';
 
 class RapidCloud extends VideoExtractor {
@@ -49,12 +49,27 @@ class RapidCloud extends VideoExtractor {
       } = res;
 
       let decryptKey = await (
-        await axios.get('https://raw.githubusercontent.com/consumet/rapidclown/main/key.txt')
+        await axios.get('https://github.com/enimax-anime/key/blob/e6/key.txt')
       ).data;
-      if (!decryptKey) decryptKey = this.fallbackKey;
 
-      if (encrypted)
-        sources = JSON.parse(CryptoJS.AES.decrypt(sources, decryptKey).toString(CryptoJS.enc.Utf8));
+      decryptKey = substringBefore(substringAfter(decryptKey, '"blob-code blob-code-inner js-file-line">'), '</td>');
+
+      if(!decryptKey){
+           decryptKey = await (
+            await axios.get('https://raw.githubusercontent.com/enimax-anime/key/e6/key.txt')
+           ).data;
+      }
+      
+      if (!decryptKey) decryptKey = this.fallbackKey;
+      
+      try {
+        if (encrypted) {
+          const decrypt = CryptoJS.AES.decrypt(sources, decryptKey);
+          sources = JSON.parse(decrypt.toString(CryptoJS.enc.Utf8));
+        }
+      } catch (err) {
+        throw new Error('Cannot decrypt sources. Perhaps the key is invalid.');
+      }
       this.sources = sources?.map((s: any) => ({
         url: s.file,
         isM3U8: s.file.includes('.m3u8'),
@@ -70,8 +85,9 @@ class RapidCloud extends VideoExtractor {
           const m3u8data = data
             .split('\n')
             .filter((line: string) => line.includes('.m3u8') && line.includes('RESOLUTION='));
+
           const secondHalf = m3u8data.map((line: string) =>
-            line.match(/(?<=RESOLUTION=).*(?<=,C)|(?<=URI=).*/g)
+            line.match(/RESOLUTION=.*,(C)|URI=.*/g)?.map((s: string) => s.split('=')[1])
           );
 
           const TdArray = secondHalf.map((s: string[]) => {

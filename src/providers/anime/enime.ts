@@ -120,7 +120,7 @@ class Enime extends AnimeParser {
   /**
    * @param id anilist id
    */
-  fetchAnimeInfoByAnilistId = async (id: string, type?: 'gogoanime' | 'zoro'): Promise<IAnimeInfo> => {
+  fetchAnimeInfoByAnilistId = async (id: string, type: 'gogoanime' | 'zoro' = 'gogoanime'): Promise<IAnimeInfo> => {
     const animeInfo: IAnimeInfo = {
       id: id,
       title: '',
@@ -145,6 +145,7 @@ class Enime extends AnimeParser {
     animeInfo.synonyms = data.synonyms;
     animeInfo.mappings = data.mappings;
     animeInfo.type = data.format as MediaFormat;
+    animeInfo.mappings = data.mappings;
 
     data.episodes = data.episodes.sort((a: any, b: any) => b.number - a.number);
 
@@ -269,9 +270,9 @@ class Enime extends AnimeParser {
     const resResult = await axios.get(url);
     const resolutions = resResult.data.match(/(RESOLUTION=)(.*)(\s*?)(\s*.*)/g);
     resolutions.forEach((ress: string) => {
-      var index = url.lastIndexOf('/');
-      var quality = ress.split('\n')[0].split('x')[1].split(',')[0];
-      var urll = url.slice(0, index);
+      const index = url.lastIndexOf('/');
+      const quality = ress.split('\n')[0].split('x')[1].split(',')[0];
+      const urll = url.slice(0, index);
       res.sources.push({
         url: urll + '/' + ress.split('\n')[1],
         isM3U8: (urll + ress.split('\n')[1]).includes('.m3u8'),
@@ -295,7 +296,7 @@ class Enime extends AnimeParser {
     };
 
     const {
-      data: { url, referer },
+      data: { url, referer, subtitle },
     } = await axios.get(`${this.enimeApi}/source/${sourceId}`);
 
     res.headers!['Referer'] = referer;
@@ -305,9 +306,9 @@ class Enime extends AnimeParser {
     });
     const resolutions = resResult.data.match(/(RESOLUTION=)(.*)(\s*?)(\s*.*)/g);
     resolutions.forEach((ress: string) => {
-      var index = url.lastIndexOf('/');
-      var quality = ress.split('\n')[0].split('x')[1].split(',')[0];
-      var urll = url.slice(0, index);
+      const index = url.lastIndexOf('/');
+      const quality = ress.split('\n')[0].split('x')[1].split(',')[0];
+      const urll = url.slice(0, index);
       res.sources.push({
         url: urll + '/' + ress.split('\n')[1],
         isM3U8: (urll + ress.split('\n')[1]).includes('.m3u8'),
@@ -320,6 +321,15 @@ class Enime extends AnimeParser {
       isM3U8: url.includes('.m3u8'),
       quality: 'default',
     });
+
+    if (subtitle) {
+      res.subtitles = [
+        {
+          url: subtitle,
+          lang: "English"
+        }        
+      ]
+    }
 
     return res;
   };

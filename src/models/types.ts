@@ -100,6 +100,22 @@ export interface IAnimeInfo extends IAnimeResult {
   relations?: IAnimeResult[];
 }
 
+export interface IAnimeEpisodeV2 {
+  [x: string]: {
+    id: string;
+    season_number: number;
+    title: string;
+    image: string;
+    description: string;
+    releaseDate: string;
+    isHD: boolean;
+    isAdult: boolean;
+    isDubbed: boolean;
+    isSubbed: boolean;
+    duration: number;
+  }[];
+}
+
 export interface IAnimeEpisode {
   id: string;
   number: number;
@@ -302,6 +318,7 @@ export interface ISource {
   intro?: Intro;
   subtitles?: ISubtitle[];
   sources: IVideo[];
+  download?: string;
 }
 
 /**
@@ -319,6 +336,7 @@ export interface IMovieEpisode {
   url?: string;
   number?: number;
   season?: number;
+  description?: string;
   image?: string;
   releaseDate?: string;
   [x: string]: unknown; // other fields
@@ -369,6 +387,8 @@ interface INewsFeedPreview {
 }
 
 export interface IMovieInfo extends IMovieResult {
+  cover?: string;
+  recommendations?: IMovieResult[];
   genres?: string[];
   description?: string;
   rating?: number;
@@ -378,6 +398,7 @@ export interface IMovieInfo extends IMovieResult {
   casts?: string[];
   tags?: string[];
   totalEpisodes?: number;
+  seasons?: { season: number; image?: string; episodes: IMovieEpisode[] }[];
   episodes?: IMovieEpisode[];
 }
 
