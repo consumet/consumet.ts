@@ -21,7 +21,7 @@ class AnimePahe extends AnimeParser {
   protected override logo = 'https://animepahe.com/pikacon.ico';
   protected override classPath = 'ANIME.AnimePahe';
 
-  private readonly sgProxy = 'https://cors.proxy.consumet.org';
+  private readonly sgProxy = 'https://cors.consumet.stream';
 
   /**
    * @param query Search query

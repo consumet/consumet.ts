@@ -23,7 +23,7 @@ class Bilibili extends AnimeParser {
 
   private cookie = '';
   private locale = 'en_US';
-  private sgProxy = 'https://cors.proxy.consumet.org';
+  private sgProxy = 'https://cors.consumet.stream';
 
   constructor(cookie?: string, locale?: string) {
     super();
