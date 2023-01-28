@@ -227,7 +227,6 @@ class Gogoanime extends AnimeParser {
 
       return await this.fetchEpisodeSources(serverUrl.href, server);
     } catch (err) {
-      console.error(err);
       throw new Error('Episode not found.');
     }
   };
