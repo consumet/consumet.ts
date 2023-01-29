@@ -81,7 +81,7 @@ class AnimePahe extends AnimeParser {
         .map((i, el) => $(el).find('a').attr('title'))
         .get();
 
-      switch ($('div.col-sm-4.anime-info > p:nth-child(4) > a').text().trim()) {
+      switch ($('div.col-sm-4.anime-info > p:nth-child(5) > strong > a').text().trim()) {
         case 'Currently Airing':
           animeInfo.status = MediaStatus.ONGOING;
           break;
@@ -91,27 +91,30 @@ class AnimePahe extends AnimeParser {
         default:
           animeInfo.status = MediaStatus.UNKNOWN;
       }
-      animeInfo.type = $('div.col-sm-4.anime-info > p:nth-child(2) > a')
+      animeInfo.type = $('div.col-sm-4.anime-info > p:nth-child(3) > strong > a')
         .text()
         .trim()
         .toUpperCase() as MediaFormat;
-      animeInfo.releaseDate = $('div.col-sm-4.anime-info > p:nth-child(5)')
+      animeInfo.releaseDate = $('div.col-sm-4.anime-info > p:nth-child(7)')
         .text()
         .split('to')[0]
         .replace('Aired:', '')
         .trim();
-      animeInfo.aired = $('div.col-sm-4.anime-info > p:nth-child(5)')
+      animeInfo.aired = $('div.col-sm-4.anime-info > p:nth-child(7)')
         .text()
         .replace('Aired:', '')
         .trim()
         .replace('\n', ' ');
-      animeInfo.studios = $('div.col-sm-4.anime-info > p:nth-child(7)')
+      animeInfo.studios = $('div.col-sm-4.anime-info > p:nth-child(9)')
         .text()
         .replace('Studio:', '')
         .trim()
         .split('\n');
       animeInfo.totalEpisodes = parseInt(
-        $('div.col-sm-4.anime-info > p:nth-child(3)').text().replace('Episodes:', '')
+        $('div.col-sm-4.anime-info > p:nth-child(3)')
+          .text()
+          .replace('Episode:', '')
+          .replace('Episodes:', '')
       );
 
       animeInfo.episodes = [];
