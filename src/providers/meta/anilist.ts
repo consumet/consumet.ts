@@ -341,7 +341,7 @@ class Anilist extends AnimeParser {
         throw Error('Media not found. If the problem persists, please contact the developer');
       if (status >= 500) data = await new Enime().fetchAnimeInfoByIdRaw(id);
 
-      animeInfo.malId = data.data?.Media?.idMal ?? data?.mappings!['mal'];
+      animeInfo.malId = data.data?.Media?.idMal ?? data?.mappings?.mal;
       animeInfo.title = data.data.Media
         ? {
             romaji: data.data.Media.title.romaji,
@@ -2081,10 +2081,10 @@ class Anilist extends AnimeParser {
 }
 
 // (async () => {
-//   const ani = new Anilist(new Crunchyroll());
-//   const search = await ani.fetchAnimeInfo('113415', false);
-//   const sources = await ani.fetchEpisodeSources(search.episodes![5].id);
-//   console.log(sources);
+//   const ani = new Anilist();
+//   const search = await ani.fetchAnimeInfo('157127', false);
+//   // const sources = await ani.fetchEpisodeSources(search.episodes![5].id);
+//   console.log(search);
 // })();
 
 export default Anilist;
