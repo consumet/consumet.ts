@@ -84,7 +84,7 @@ class Gogoanime extends AnimeParser {
     };
     try {
       const res = await this.client.get(id);
-
+      
       const $ = load(res.data);
 
       animeInfo.id = new URL(animeInfo.url!).pathname.split('/')[2];
@@ -242,6 +242,8 @@ class Gogoanime extends AnimeParser {
       const res = await this.client.get(episodeId);
 
       const $ = load(res.data);
+      console.log("#wrapper_bg > section > section.content_left > div:nth-child(1) > div.anime_video_body > div.anime_video_body_cate > div.anime-info > a");
+      console.log(($("#wrapper_bg > section > section.content_left > div:nth-child(1) > div.anime_video_body > div.anime_video_body_cate > div.anime-info > a").attr('href') as string).split('/')[2]);
 
       const servers: IEpisodeServer[] = [];
 
@@ -260,7 +262,24 @@ class Gogoanime extends AnimeParser {
       throw new Error('Episode not found.');
     }
   };
+/**
+   *
+   * @param episodeId episode link or episode id
+   */
+fetchAnimeInfoIdFromEpisodesPage = async (episodeId: string): Promise<string> => {
+  try {
+    if (!episodeId.startsWith(this.baseUrl)) episodeId = `/${episodeId}`;
 
+    const res = await this.client.get(episodeId);
+
+    const $ = load(res.data);
+
+    return ($("#wrapper_bg > section > section.content_left > div:nth-child(1) > div.anime_video_body > div.anime_video_body_cate > div.anime-info > a").attr('href') as string).split('/')[2];
+    
+  } catch (err) {
+    throw new Error('Episode not found.');
+  }
+};
   /**
    * @param page page number (optional)
    * @param type type of media. (optional) (default `1`) `1`: Japanese with subtitles, `2`: english/dub with no subtitles, `3`: chinese with english subtitles
