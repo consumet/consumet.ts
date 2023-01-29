@@ -18,7 +18,7 @@ class Mangasee123 extends MangaParser {
     'https://scontent.fman4-1.fna.fbcdn.net/v/t1.6435-1/80033336_1830005343810810_419412485691408384_n.png?stp=dst-png_p148x148&_nc_cat=104&ccb=1-7&_nc_sid=1eb0c7&_nc_ohc=XpeoABDI-sEAX-5hLFV&_nc_ht=scontent.fman4-1.fna&oh=00_AT9nIRz5vPiNqqzNpSg2bJymX22rZ1JumYTKBqg_cD0Alg&oe=6317290E';
   protected override classPath = 'MANGA.Mangasee123';
 
-  private readonly sgProxy = 'https://cors.proxy.consumet.org';
+  private readonly sgProxy = 'https://cors.consumet.stream';
 
   override fetchMangaInfo = async (mangaId: string, ...args: any): Promise<IMangaInfo> => {
     const mangaInfo: IMangaInfo = {
