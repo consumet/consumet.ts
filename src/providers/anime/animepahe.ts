@@ -111,7 +111,7 @@ class AnimePahe extends AnimeParser {
         .trim()
         .split('\n');
       animeInfo.totalEpisodes = parseInt(
-        $('div.col-sm-4.anime-info > p:nth-child(3)')
+        $('div.col-sm-4.anime-info > p:nth-child(4)')
           .text()
           .replace('Episode:', '')
           .replace('Episodes:', '')
