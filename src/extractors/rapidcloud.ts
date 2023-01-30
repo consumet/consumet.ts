@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { load } from 'cheerio';
 import CryptoJS from 'crypto-js';
-import { substringAfter, substringBefore} from '../utils';
+import { substringAfter, substringBefore } from '../utils';
 import { VideoExtractor, IVideo, ISubtitle, Intro } from '../models';
 
 class RapidCloud extends VideoExtractor {
@@ -48,20 +48,21 @@ class RapidCloud extends VideoExtractor {
         data: { sources, tracks, intro, encrypted },
       } = res;
 
-      let decryptKey = await (
-        await axios.get('https://github.com/enimax-anime/key/blob/e6/key.txt')
-      ).data;
+      let decryptKey = await (await axios.get('https://github.com/enimax-anime/key/blob/e6/key.txt')).data;
 
-      decryptKey = substringBefore(substringAfter(decryptKey, '"blob-code blob-code-inner js-file-line">'), '</td>');
+      decryptKey = substringBefore(
+        substringAfter(decryptKey, '"blob-code blob-code-inner js-file-line">'),
+        '</td>'
+      );
 
-      if(!decryptKey){
-           decryptKey = await (
-            await axios.get('https://raw.githubusercontent.com/enimax-anime/key/e6/key.txt')
-           ).data;
+      if (!decryptKey) {
+        decryptKey = await (
+          await axios.get('https://raw.githubusercontent.com/enimax-anime/key/e6/key.txt')
+        ).data;
       }
-      
+
       if (!decryptKey) decryptKey = this.fallbackKey;
-      
+
       try {
         if (encrypted) {
           const decrypt = CryptoJS.AES.decrypt(sources, decryptKey);
