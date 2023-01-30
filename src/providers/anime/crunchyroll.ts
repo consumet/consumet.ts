@@ -26,11 +26,11 @@ class Crunchyroll extends AnimeParser {
 
   private get options() {
     return {
-        headers: {
-          'User-Agent': USER_AGENT,
-          Authorization: 'Bearer ' + this.TOKEN?.access_token,
-        }
-    }    
+      headers: {
+        'User-Agent': USER_AGENT,
+        Authorization: 'Bearer ' + this.TOKEN?.access_token,
+      },
+    };
   }
 
   private locales = [
@@ -76,12 +76,9 @@ class Crunchyroll extends AnimeParser {
    */
   override search = async (query: string): Promise<ISearch<IAnimeResult>> => {
     try {
-      const { data } = await this.client.get(
-        `${this.baseUrl}/search/${query}`,
-        this.options
-      );
-  
-      return data;  
+      const { data } = await this.client.get(`${this.baseUrl}/search/${query}`, this.options);
+
+      return data;
     } catch (error) {
       throw new Error(`Couldn't fetch data from ${this.name}`);
     }
@@ -92,7 +89,11 @@ class Crunchyroll extends AnimeParser {
    * @param mediaType Anime type (series, movie)
    * @param fetchAllSeasons Fetch all episode seasons
    */
-  override fetchAnimeInfo = async (id: string, mediaType: string, fetchAllSeasons: boolean = false): Promise<IAnimeInfo> => {
+  override fetchAnimeInfo = async (
+    id: string,
+    mediaType: string,
+    fetchAllSeasons: boolean = false
+  ): Promise<IAnimeInfo> => {
     if (mediaType == 'series') {
       const { data } = await this.client.get(
         `${this.baseUrl}/info/${id}?type=${mediaType}&fetchAllSeasons=${fetchAllSeasons}`,
@@ -111,13 +112,8 @@ class Crunchyroll extends AnimeParser {
    * @param format subtitle format (default: `srt`) (srt, vtt, ass)
    * @param type Video type (default: `adaptive_hls` (m3u8)) `adaptive_dash` (dash), `drm_adaptive_dash` (dash with drm)
    */
-  override fetchEpisodeSources = async (
-    episodeId: string
-  ): Promise<ISource> => {
-    const { data } = await this.client.get(
-      `${this.baseUrl}/episode/${episodeId}`,
-      this.options
-    );
+  override fetchEpisodeSources = async (episodeId: string): Promise<ISource> => {
+    const { data } = await this.client.get(`${this.baseUrl}/episode/${episodeId}`, this.options);
     //TODO: Add hardcoded subtitles for all languages
     return data;
   };

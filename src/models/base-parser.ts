@@ -8,7 +8,7 @@ abstract class BaseParser extends BaseProvider {
     this.client = axios.create({
       baseURL: baseUrl,
     });
-    
+
     if (proxy) this.setProxy(proxy);
   }
 

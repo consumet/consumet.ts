@@ -120,7 +120,10 @@ class Enime extends AnimeParser {
   /**
    * @param id anilist id
    */
-  fetchAnimeInfoByAnilistId = async (id: string, type: 'gogoanime' | 'zoro' = 'gogoanime'): Promise<IAnimeInfo> => {
+  fetchAnimeInfoByAnilistId = async (
+    id: string,
+    type: 'gogoanime' | 'zoro' = 'gogoanime'
+  ): Promise<IAnimeInfo> => {
     const animeInfo: IAnimeInfo = {
       id: id,
       title: '',
@@ -326,9 +329,9 @@ class Enime extends AnimeParser {
       res.subtitles = [
         {
           url: subtitle,
-          lang: "English"
-        }        
-      ]
+          lang: 'English',
+        },
+      ];
     }
 
     return res;
