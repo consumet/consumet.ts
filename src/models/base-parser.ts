@@ -17,12 +17,14 @@ abstract class BaseParser extends BaseProvider {
    */
   setProxy(proxy: ProxyConfig) {
     this.client.interceptors.request.use(config => {
+      console.log({config});
+      
       if (proxy?.url) {
         config.headers = {
           ...config.headers,
           'x-api-key': proxy?.key ?? '',
         };
-        config.url = proxy.url + config.url;
+        config.url = `${proxy.url}${config?.baseURL}${config?.url ? config?.url : ''}}`;
       }
       return config;
     });

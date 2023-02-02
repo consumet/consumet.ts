@@ -2082,7 +2082,7 @@ class Anilist extends AnimeParser {
 
 // (async () => {
 //   const ani = new Anilist();
-//   const search = await ani.fetchAnimeInfo('157127', false);
+//   const search = await ani.fetchAnimeInfo('21', false);
 //   // const sources = await ani.fetchEpisodeSources(search.episodes![5].id);
 //   console.log(search);
 // })();
