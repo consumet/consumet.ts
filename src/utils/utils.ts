@@ -68,7 +68,7 @@ export const genElement = (s: string, e: string) => {
 export const range = ({ from = 0, to = 0, step = 1, length = Math.ceil((to - from) / step) }) =>
   Array.from({ length }, (_, i) => from + i * step);
 
-export const capitalizeFirstLetter = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
+export const capitalizeFirstLetter = (s: string) => s?.charAt(0).toUpperCase() + s.slice(1);
 
 export const getDays = (day1: string, day2: string) => {
   const day1Index = days.indexOf(capitalizeFirstLetter(day1)) - 1;

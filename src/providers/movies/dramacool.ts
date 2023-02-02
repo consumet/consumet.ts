@@ -50,7 +50,6 @@ class Dramacool extends MovieParser {
       });
       return searchResult;
     } catch (err) {
-      console.log(err);
       throw new Error((err as Error).message);
     }
   };
@@ -97,7 +96,6 @@ class Dramacool extends MovieParser {
 
       return mediaInfo;
     } catch (err) {
-      console.log(err);
       throw new Error((err as Error).message);
     }
   };
@@ -160,7 +158,6 @@ class Dramacool extends MovieParser {
 
       return await this.fetchEpisodeSources(serverUrl, server);
     } catch (err) {
-      console.log(err);
       throw new Error((err as Error).message);
     }
   };

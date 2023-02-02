@@ -17,7 +17,7 @@ test('returns a filled object of anime data', async () => {
 
 test('returns a filled object of episode sources', async () => {
   const data = await animepahe.fetchEpisodeSources(
-    '08a9af4f41d91079b16015bedd762e4db89bbc61ff545316d57f1fd7d8c3542c'
+    'c579af27bb9835094ee384fb811e679a6955d68de3f7ee3c6cda21e97cd8c8b7'
   ); // Episode 1 of Overlord IV
   expect(data.sources).not.toEqual([]);
 });
