@@ -558,6 +558,7 @@ class Myanimelist extends AnimeParser {
       .trim()
       .split(',');
     animeInfo.studios = [];
+    animeInfo.popularity = parseInt($('.numbers.popularity').text().trim().replace("Popularity #", "").trim())
 
     const producers: string[] = [];
     $('a').each(function (i: number, link: any) {
@@ -650,9 +651,9 @@ class Myanimelist extends AnimeParser {
 
 export default Myanimelist;
 
-// (async () => {
-//   const mal = new Myanimelist();
-//   // const search = await mal.search('one piece');
-//   const info = await mal.fetchAnimeInfo('21', true);
-//   console.log(info);
-// })();
+(async () => {
+  const mal = new Myanimelist();
+  // const search = await mal.search('one piece');
+  const info = await mal.fetchAnimeInfo('21', true);
+  console.log(info);
+})();
