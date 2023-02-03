@@ -17,8 +17,6 @@ abstract class BaseParser extends BaseProvider {
    */
   setProxy(proxy: ProxyConfig) {
     this.client.interceptors.request.use(config => {
-      console.log({config});
-      
       if (proxy?.url) {
         config.headers = {
           ...config.headers,
