@@ -127,6 +127,7 @@ class Anilist extends AnimeParser {
             genres: item.genres,
             color: item.coverImage?.color,
             totalEpisodes: item.episodes ?? item.nextAiringEpisode?.episode - 1,
+            currentEpisodeCount: item?.nextAiringEpisode ? item?.nextAiringEpisode?.episode - 1 : item.episodes,
             type: item.format,
             releaseDate: item.seasonYear,
           })) ??
@@ -154,6 +155,7 @@ class Anilist extends AnimeParser {
             genres: item.genre,
             color: item.color,
             totalEpisodes: item.currentEpisode,
+            currentEpisodeCount: item?.nextAiringEpisode ? item?.nextAiringEpisode?.episode - 1 : item.currentEpisode,
             type: item.format,
             releaseDate: item.year,
           })),
@@ -410,6 +412,7 @@ class Anilist extends AnimeParser {
           episode: data.data.Media.nextAiringEpisode?.episode,
         };
       animeInfo.totalEpisodes = data.data.Media?.episodes ?? data.data.Media.nextAiringEpisode?.episode - 1;
+      animeInfo.currentEpisode =  data.data.Media?.nextAiringEpisode?.episode ? data.data.Media.nextAiringEpisode?.episode - 1 : data.data.Media?.episodes;
       animeInfo.rating = data.data.Media.averageScore;
       animeInfo.duration = data.data.Media.duration;
       animeInfo.genres = data.data.Media.genres;
@@ -1463,13 +1466,15 @@ class Anilist extends AnimeParser {
           animeInfo.status = MediaStatus.UNKNOWN;
       }
       animeInfo.releaseDate = data.data.Media.startDate.year;
-      if (data.data.Media.nextAiringEpisode?.airingAt)
+      if (data.data.Media.nextAiringEpisode?.airingAt) 
         animeInfo.nextAiringEpisode = {
           airingTime: data.data.Media.nextAiringEpisode?.airingAt,
           timeUntilAiring: data.data.Media.nextAiringEpisode?.timeUntilAiring,
           episode: data.data.Media.nextAiringEpisode?.episode,
         };
+
       animeInfo.totalEpisodes = data.data.Media?.episodes ?? data.data.Media.nextAiringEpisode?.episode - 1;
+      animeInfo.currentEpisode =  data.data.Media?.nextAiringEpisode?.episode ? data.data.Media.nextAiringEpisode?.episode - 1 : data.data.Media?.episodes || undefined;
       animeInfo.rating = data.data.Media.averageScore;
       animeInfo.duration = data.data.Media.duration;
       animeInfo.genres = data.data.Media.genres;
@@ -1570,6 +1575,7 @@ class Anilist extends AnimeParser {
             ? MediaStatus.HIATUS
             : MediaStatus.UNKNOWN,
         episodes: item.node.episodes,
+        
         image: item.node.coverImage.extraLarge ?? item.node.coverImage.large ?? item.node.coverImage.medium,
         cover:
           item.node.bannerImage ??
@@ -2082,7 +2088,7 @@ class Anilist extends AnimeParser {
 
 // (async () => {
 //   const ani = new Anilist();
-//   const search = await ani.fetchAnimeInfo('21', false);
+//   const search = await ani.fetchAnimeInfo('136430');
 //   // const sources = await ani.fetchEpisodeSources(search.episodes![5].id);
 //   console.log(search);
 // })();
