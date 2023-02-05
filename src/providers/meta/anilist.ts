@@ -127,6 +127,7 @@ class Anilist extends AnimeParser {
             genres: item.genres,
             color: item.coverImage?.color,
             totalEpisodes: item.episodes ?? item.nextAiringEpisode?.episode - 1,
+            currentEpisodeCount: item?.nextAiringEpisode ? item?.nextAiringEpisode?.episode - 1 : item.episodes,
             type: item.format,
             releaseDate: item.seasonYear,
           })) ??
@@ -154,6 +155,7 @@ class Anilist extends AnimeParser {
             genres: item.genre,
             color: item.color,
             totalEpisodes: item.currentEpisode,
+            currentEpisodeCount: item?.nextAiringEpisode ? item?.nextAiringEpisode?.episode - 1 : item.currentEpisode,
             type: item.format,
             releaseDate: item.year,
           })),
@@ -2080,11 +2082,11 @@ class Anilist extends AnimeParser {
   };
 }
 
-// (async () => {
-//   const ani = new Anilist();
-//   const search = await ani.fetchAnimeInfo('21', false);
-//   // const sources = await ani.fetchEpisodeSources(search.episodes![5].id);
-//   console.log(search);
-// })();
+(async () => {
+  const ani = new Anilist();
+  const search = await ani.search('Vinland Saga Season 2');
+  // const sources = await ani.fetchEpisodeSources(search.episodes![5].id);
+  console.log(search);
+})();
 
 export default Anilist;
