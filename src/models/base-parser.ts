@@ -22,7 +22,7 @@ abstract class BaseParser extends BaseProvider {
           ...config.headers,
           'x-api-key': proxy?.key ?? '',
         };
-        config.url = `${proxy.url}${config?.baseURL}${config?.url ? config?.url : ''}}`;
+        config.url = `${proxy.url}${config?.baseURL}${config?.url ? config?.url : ''}`;
       }
       return config;
     });
