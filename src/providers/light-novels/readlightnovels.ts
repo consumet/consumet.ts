@@ -214,8 +214,8 @@ class ReadLightNovels extends LightNovelParser {
 
 export default ReadLightNovels;
 
-(async () => {
-  const ln = new ReadLightNovels();
-  const chap = await ln.fetchChapterContent('youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e/volume-1-prologue-the-structure-of-japanese-society');
-  console.log(chap);
-})();
+// (async () => {
+//   const ln = new ReadLightNovels();
+//   const chap = await ln.fetchChapterContent('youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e/volume-1-prologue-the-structure-of-japanese-society');
+//   console.log(chap);
+// })();
