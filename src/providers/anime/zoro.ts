@@ -37,6 +37,7 @@ class Zoro extends AnimeParser {
     const res: ISearch<IAnimeResult> = {
       currentPage: page,
       hasNextPage: false,
+      totalPages: 0,
       results: [],
     };
 
@@ -52,6 +53,14 @@ class Zoro extends AnimeParser {
             $('.pagination > li').last().hasClass('active') ? false : true
           : false
         : false;
+
+      res.totalPages = parseInt(
+        $('.pagination > .page-item a[title="Last"]')?.attr('href')?.split("=").pop()
+          ??
+        $('.pagination > .page-item.active a')?.text()?.trim()
+      ) || 0;
+
+      if (res.totalPages === 0 && !res.hasNextPage) res.totalPages = 1;
 
       $('.film_list-wrap > div.flw-item').each((i, el) => {
         const id = $(el)
@@ -73,6 +82,11 @@ class Zoro extends AnimeParser {
           url: url,
         });
       });
+
+      if (res.results.length === 0) {
+        res.totalPages = 0;
+        res.hasNextPage = false;
+      }
 
       return res;
     } catch (err: any) {
