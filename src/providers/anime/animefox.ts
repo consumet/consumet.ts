@@ -207,8 +207,8 @@ class AnimeFox extends AnimeParser {
 
 export default AnimeFox;
 
-(async () => {
-  const animepahe = new AnimeFox();
-  const sources = await animepahe.fetchEpisodeSources("youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-episode-1");
-  console.log(sources);
-})();
+// (async () => {
+//   const animepahe = new AnimeFox();
+//   const sources = await animepahe.fetchEpisodeSources("youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-episode-1");
+//   console.log(sources);
+// })();
