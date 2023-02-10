@@ -161,17 +161,21 @@ class ReadLightNovels extends LightNovelParser {
       chapterId = `${this.baseUrl}/${chapterId}.html`;
     }
     const contents: ILightNovelChapterContent = {
-      text: '',
-      html: '',
+      novelTitle: '',
+      chapterTitle: '',
+      text: ''
     };
 
     try {
       const page = await axios.get(chapterId);
       const $ = load(page.data);
 
+      contents.novelTitle = $('.truyen-title').text()
+      contents.chapterTitle = $('.chapter-title').text()
       for (const line of $('div.chapter-content > p')) {
-        contents.html += `<p>${$(line).html()}</p>`;
-        contents.text += `${$(line).text()}\n`;
+        if($(line).text() != "﻿") {
+          contents.text += `${$(line).text()}\n`;
+        }
       }
 
       return contents;
@@ -209,3 +213,9 @@ class ReadLightNovels extends LightNovelParser {
 }
 
 export default ReadLightNovels;
+
+// (async () => {
+//   const ln = new ReadLightNovels();
+//   const chap = await ln.fetchChapterContent('youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e/volume-1-prologue-the-structure-of-japanese-society');
+//   console.log(chap);
+// })();

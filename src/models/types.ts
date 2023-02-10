@@ -239,8 +239,9 @@ export interface ILightNovelChapter {
 }
 
 export interface ILightNovelChapterContent {
+  novelTitle: string;
+  chapterTitle: string;
   text: string;
-  html?: string;
 }
 
 export interface ILightNovelInfo extends ILightNovelResult {
