@@ -166,7 +166,10 @@ class AnimePahe extends AnimeParser {
         quality: Object.keys(item)[0],
         iframe: item[Object.keys(item)[0]].kwik,
         size: item[Object.keys(item)[0]].filesize,
+        audio: item[Object.keys(item)[0]].audio,
       }));
+
+      //console.log(data.data)
 
       const iSource: ISource = {
         headers: {
@@ -177,6 +180,7 @@ class AnimePahe extends AnimeParser {
       for (const link of links) {
         const res = await new Kwik().extract(new URL(link.iframe));
         res[0].quality = link.quality;
+        res[0].isDub = link.audio === 'eng';
         res[0].size = link.size;
         iSource.sources.push(res[0]);
       }
@@ -216,13 +220,13 @@ class AnimePahe extends AnimeParser {
   };
 }
 
+export default AnimePahe;
+
 // (async () => {
 //   const animepahe = new AnimePahe();
-
+//
 //   const anime = await animepahe.search('Classroom of the elite');
 //   const info = await animepahe.fetchAnimeInfo(anime.results[0].id);
 //   const sources = await animepahe.fetchEpisodeSources(info.episodes![0].id);
 //   console.log(sources);
 // })();
-
-export default AnimePahe;
