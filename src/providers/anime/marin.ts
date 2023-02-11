@@ -213,7 +213,7 @@ class Marin extends AnimeParser {
 
 export default Marin;
 
-(async () => {
-  let marin = new Marin();
-  console.log(await marin.fetchEpisodeSources('dewhzcns', 1));
-})();
+// (async () => {
+//   let marin = new Marin();
+//   console.log(await marin.fetchEpisodeSources('dewhzcns', 1));
+// })();
