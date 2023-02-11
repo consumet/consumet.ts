@@ -1,6 +1,5 @@
 import { load } from 'cheerio';
 import axios from 'axios';
-import { encode, decode } from 'ascii-url-encoder';
 
 import {
   AnimeParser,
@@ -29,28 +28,6 @@ class NineAnime extends AnimeParser {
   protected override classPath = 'ANIME.NineAnime';
   override readonly isWorking = false;
 
-  private readonly baseTable = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=_';
-  private readonly table = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+=/_';
-  private cipherKey = '';
-  private decipherKey = '';
-  private keyMap = '';
-
-  async init() {
-    const {
-      data: { cipher, decipher, keyMap },
-    } = await axios.get('https://raw.githubusercontent.com/AnimeJeff/Brohflow/main/keys.json');
-    this.cipherKey = cipher;
-    this.decipherKey = decipher;
-    this.keyMap = keyMap;
-  }
-
-  static async create() {
-    const nineanime = new NineAnime();
-    await nineanime.init();
-
-    return nineanime;
-  }
-
   override async search(query: string, page: number = 1): Promise<ISearch<IAnimeResult>> {
     const searchResult: ISearch<IAnimeResult> = {
       currentPage: page,
@@ -59,10 +36,9 @@ class NineAnime extends AnimeParser {
     };
 
     try {
+      const vrf = await this.ev(query);
       const res = await axios.get(
-        `${this.baseUrl}/filter?keyword=${encode(query).replace(/%20/g, '+')}&vrf=${encode(
-          this.ev(query)
-        )}&page=${page}`
+        `${this.baseUrl}/filter?keyword=${query.replace(/%20/g, '+')}&vrf=${vrf}&page=${page}`
       );
 
       const $ = load(res.data);
@@ -218,35 +194,40 @@ class NineAnime extends AnimeParser {
 
       const id = $('#watch-main').attr('data-id')!;
 
-      const {
-        data: { result },
-      } = await axios.get(`${this.baseUrl}/ajax/episode/list/${id}?vrf=${encode(this.ev(id))}`);
+      const vrf = await this.ev(id);
+      const { data: { result } } = await axios.get(`${this.baseUrl}/ajax/episode/list/${id}?vrf=${vrf}`);
 
       const $$ = load(result);
 
       animeInfo.totalEpisodes = $$('div.episodes > ul > li > a').length;
       animeInfo.episodes = [];
-      animeInfo.episodes?.push(
-        ...$$('div.episodes > ul > li > a').map((i, el): IAnimeEpisode[] => {
-          return $$(el)
-            .map((i, el): IAnimeEpisode => {
-              const possibleIds = $$(el).attr('data-ids')?.split(',')!;
-              const id = possibleIds[isDub ? 1 : 0] ?? possibleIds[0];
-              const number = parseInt($$(el).attr('data-num')?.toString()!);
-              const title = $$(el).find('span').text().length > 0 ? $$(el).find('span').text() : undefined;
-              const isFiller = $$(el).hasClass('filler');
 
-              return {
-                id: id,
-                number: number,
-                title: title,
-                isFiller: isFiller,
-                url: `${this.baseUrl}/ajax/server/list/${id}?vrf=${this.ev(id)}`,
-              };
+      const promises = [];
+      const episodes:IAnimeEpisode[] = [];
+      $$('div.episodes > ul > li > a').map((i, el) => {
+        $$(el).map((i, el) => {
+            const promise = new Promise(async(resolve, reject) => {
+                const possibleIds = $$(el).attr('data-ids')?.split(',')!;
+                const id = possibleIds[isDub ? 1 : 0] ?? possibleIds[0];
+                const number = parseInt($$(el).attr('data-num')?.toString()!);
+                const title = $$(el).find('span').text().length > 0 ? $$(el).find('span').text() : undefined;
+                const isFiller = $$(el).hasClass('filler');
+    
+                const vrf = await this.ev(id);
+
+                episodes.push({
+                  id: id,
+                  number: number,
+                  title: title,
+                  isFiller: isFiller,
+                  url: `${this.baseUrl}/ajax/server/list/${id}?vrf=${vrf}`,
+                });
+                resolve(true);
             })
-            .get();
-        })
-      );
+            promises.push(promise);
+          }).get();
+      })
+      animeInfo.episodes?.push(...episodes);
 
       return animeInfo;
     } catch (err) {
@@ -269,12 +250,12 @@ class NineAnime extends AnimeParser {
         case StreamingServers.VizCloud:
           return {
             headers: { Referer: serverUrl.href, 'User-Agent': USER_AGENT },
-            sources: await new VizCloud().extract(serverUrl, this.cipher, this.encrypt),
+            sources: await new VizCloud().extract(serverUrl, (query, string) => "", (query, string) => ""), // todo
           };
         case StreamingServers.MyCloud:
           return {
             headers: { Referer: serverUrl.href, 'User-Agent': USER_AGENT },
-            sources: await new VizCloud().extract(serverUrl, this.cipher, this.encrypt),
+            sources: await new VizCloud().extract(serverUrl, (query, string) => "", (query, string) => ""),
           };
         case StreamingServers.Filemoon:
           return {
@@ -312,7 +293,7 @@ class NineAnime extends AnimeParser {
           result: { url },
         },
       } = await axios.get(s.url);
-      const iframe = decode(this.dv(url));
+      const iframe = ""; // todo
 
       return await this.fetchEpisodeSources(`htt${iframe.slice(3)}`, server);
     } catch (err) {
@@ -331,133 +312,32 @@ class NineAnime extends AnimeParser {
     const $ = load(result);
 
     const servers: IEpisodeServer[] = [];
+    const promises = [];
     $('.type > ul > li').each((i, el) => {
-      const serverId = $(el).attr('data-link-id')!;
-      servers.push({
-        name: $(el).text().toLocaleLowerCase(),
-        url: `${this.baseUrl}/ajax/server/${serverId}?vrf=${encode(this.ev(serverId))}`,
-      });
+        const promise = new Promise(async(resolve, reject) => {
+            const serverId = $(el).attr('data-link-id')!;
+            const vrf = await this.ev(serverId);
+
+            servers.push({
+              name: $(el).text().toLocaleLowerCase(),
+              url: `${this.baseUrl}/ajax/server/${serverId}?vrf=${vrf}`,
+            });
+            resolve(true);
+        })
+        promises.push(promise);
     });
 
     return servers;
   }
 
-  private ev(query: string): string {
-    return this.encrypt(
-      this.mapKeys(this.encrypt(this.cipher(encode(query), this.cipherKey), this.baseTable), this.keyMap),
-      this.baseTable
-    );
+  private async ev(query: string): Promise<string> {
+    const { data } = await axios.get(`https://9anime.anify.tv/vrf?query=${encodeURIComponent(query)}`);
+    return data;
   }
 
   private dv(query: string): string {
-    return decode(this.cipher(this.decrypt(query), this.decipherKey));
-  }
-
-  private mapKeys(encrypted: string, keyMap: string): string {
-    const table = keyMap.split('');
-    return encrypted
-      .split('')
-      .map((c, i) => table[this.table.indexOf(c) * 16 + 1 + (1 % 16)])
-      .join('');
-  }
-
-  private cipher(query: string, key: string): string {
-    let u = 0;
-    let v = 0;
-    const arr = range({ from: 0, to: 256 });
-
-    for (let i = 0; i < arr.length; i++) {
-      u = (u + arr[i] + key.charCodeAt(i % key.length)) % 256;
-      v = arr[i];
-      arr[i] = arr[u];
-      arr[u] = v;
-    }
-    u = 0;
-    let j = 0;
-
-    let res = '';
-    for (let i = 0; i < query.length; i++) {
-      j = (j + 1) % 256;
-      u = (u + arr[j]) % 256;
-      v = arr[j];
-      arr[j] = arr[u];
-      arr[u] = v;
-      res += String.fromCharCode(query.charCodeAt(i) ^ arr[(arr[j] + arr[u]) % 256]);
-    }
-    return res;
-  }
-
-  private encrypt(query: string, key: string): string {
-    query.split('').forEach(char => {
-      if (char.charCodeAt(0) > 255) throw new Error('Invalid character.');
-    });
-
-    let res = '';
-    for (let i = 0; i < query.length; i += 3) {
-      const arr: number[] = Array(4).fill(-1);
-
-      arr[0] = query.charCodeAt(i) >> 2;
-      arr[1] = (3 & query.charCodeAt(i)) << 4;
-
-      if (query.length > i + 1) {
-        arr[1] = arr[1] | (query.charCodeAt(i + 1) >> 4);
-        arr[2] = (15 & query.charCodeAt(i + 1)) << 2;
-      }
-      if (query.length > i + 2) {
-        arr[2] = arr[2] | (query.charCodeAt(i + 2) >> 6);
-        arr[3] = 63 & query.charCodeAt(i + 2);
-      }
-
-      for (const j of arr) {
-        if (j === -1) res += '=';
-        else if (range({ from: 0, to: 64 }).includes(j)) res += key.charAt(j);
-      }
-    }
-    return res;
-  }
-
-  private decrypt(query: string): string {
-    const key = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
-    const p = query?.replace(/[\t\n\f\r]/g, '')?.length % 4 === 0 ? query?.replace(/[==|?|$]/g, '') : query;
-
-    if (p?.length % 4 === 1 || /[^+/0-9A-Za-z]/gm.test(p)) throw new Error('Invalid character.');
-
-    let res = '';
-    let i = 0;
-    let e = 0;
-    let n = 0;
-    for (let j = 0; j < p?.length; j++) {
-      e = e << 6;
-      i = key.indexOf(p[j]);
-      e = e | i;
-      n += 6;
-
-      if (n === 24) {
-        res += String.fromCharCode((16711680 & e) >> 16);
-        res += String.fromCharCode((65280 & e) >> 8);
-        res += String.fromCharCode(255 & e);
-        n = 0;
-        e = 0;
-      }
-    }
-
-    if (12 === n) return res + String.fromCharCode(e >> 4);
-    else if (18 === n) {
-      e = e >> 2;
-      res += String.fromCharCode((65280 & e) >> 8);
-      res += String.fromCharCode(255 & e);
-    }
-    return res;
+    return "";
   }
 }
-
-// (async () => {
-//   const nineanime = await NineAnime.create();
-//   const anime = await nineanime.search('overlord');
-//   console.log(anime);
-//   const info = await nineanime.fetchAnimeInfo(anime.results[0].id);
-//   const episode = await nineanime.fetchEpisodeSources(info.episodes![0].id);
-//   console.log(episode);
-// })();
 
 export default NineAnime;
