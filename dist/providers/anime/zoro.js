@@ -9,8 +9,8 @@ const models_1 = require("../../models");
 const utils_1 = require("../../utils");
 const utils_2 = require("../../utils");
 class Zoro extends models_1.AnimeParser {
-    constructor() {
-        super(...arguments);
+    constructor(zoroBase) {
+        super();
         this.name = 'Zoro';
         this.baseUrl = 'https://zoro.to';
         this.logo = 'https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/7e/91/00/7e9100ee-2b62-0942-4cdc-e9b93252ce1c/source/512x512bb.jpg';
@@ -20,20 +20,25 @@ class Zoro extends models_1.AnimeParser {
          * @param page Page number (optional)
          */
         this.search = async (query, page = 1) => {
+            var _a, _b, _c, _d, _e;
             const res = {
                 currentPage: page,
                 hasNextPage: false,
+                totalPages: 0,
                 results: [],
             };
             try {
                 const { data } = await axios_1.default.get(`${this.baseUrl}/search?keyword=${decodeURIComponent(query)}&page=${page}`);
                 const $ = (0, cheerio_1.load)(data);
                 res.hasNextPage =
-                    $('.pagination > li').length > 0
-                        ? $('.pagination > li').last().hasClass('active')
-                            ? false
-                            : true
+                    $('.pagination > li').length > 0 ?
+                        $('.pagination li.active').length > 0 ?
+                            $('.pagination > li').last().hasClass('active') ? false : true
+                            : false
                         : false;
+                res.totalPages = parseInt((_c = (_b = (_a = $('.pagination > .page-item a[title="Last"]')) === null || _a === void 0 ? void 0 : _a.attr('href')) === null || _b === void 0 ? void 0 : _b.split("=").pop()) !== null && _c !== void 0 ? _c : (_e = (_d = $('.pagination > .page-item.active a')) === null || _d === void 0 ? void 0 : _d.text()) === null || _e === void 0 ? void 0 : _e.trim()) || 0;
+                if (res.totalPages === 0 && !res.hasNextPage)
+                    res.totalPages = 1;
                 $('.film_list-wrap > div.flw-item').each((i, el) => {
                     var _a;
                     const id = (_a = $(el)
@@ -52,6 +57,10 @@ class Zoro extends models_1.AnimeParser {
                         url: url,
                     });
                 });
+                if (res.results.length === 0) {
+                    res.totalPages = 0;
+                    res.hasNextPage = false;
+                }
                 return res;
             }
             catch (err) {
@@ -248,6 +257,7 @@ class Zoro extends models_1.AnimeParser {
         this.fetchEpisodeServers = (episodeId) => {
             throw new Error('Method not implemented.');
         };
+        this.baseUrl = zoroBase ? zoroBase : this.baseUrl;
     }
 }
 // (async () => {

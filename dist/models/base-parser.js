@@ -22,7 +22,7 @@ class BaseParser extends _1.BaseProvider {
             var _a;
             if (proxy === null || proxy === void 0 ? void 0 : proxy.url) {
                 config.headers = Object.assign(Object.assign({}, config.headers), { 'x-api-key': (_a = proxy === null || proxy === void 0 ? void 0 : proxy.key) !== null && _a !== void 0 ? _a : '' });
-                config.url = `${proxy.url}${config === null || config === void 0 ? void 0 : config.baseURL}${(config === null || config === void 0 ? void 0 : config.url) ? config === null || config === void 0 ? void 0 : config.url : ''}}`;
+                config.url = `${proxy.url}${config === null || config === void 0 ? void 0 : config.baseURL}${(config === null || config === void 0 ? void 0 : config.url) ? config === null || config === void 0 ? void 0 : config.url : ''}`;
             }
             return config;
         });

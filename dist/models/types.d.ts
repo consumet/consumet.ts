@@ -218,8 +218,9 @@ export interface ILightNovelChapter {
     url?: string;
 }
 export interface ILightNovelChapterContent {
+    novelTitle: string;
+    chapterTitle: string;
     text: string;
-    html?: string;
 }
 export interface ILightNovelInfo extends ILightNovelResult {
     authors?: string[];
