@@ -56,7 +56,7 @@ class Anilist extends models_1.AnimeParser {
                     currentPage: (_d = (_c = (_b = data.data.Page) === null || _b === void 0 ? void 0 : _b.pageInfo) === null || _c === void 0 ? void 0 : _c.currentPage) !== null && _d !== void 0 ? _d : (_e = data.meta) === null || _e === void 0 ? void 0 : _e.currentPage,
                     hasNextPage: (_h = (_g = (_f = data.data.Page) === null || _f === void 0 ? void 0 : _f.pageInfo) === null || _g === void 0 ? void 0 : _g.hasNextPage) !== null && _h !== void 0 ? _h : ((_j = data.meta) === null || _j === void 0 ? void 0 : _j.currentPage) != ((_k = data.meta) === null || _k === void 0 ? void 0 : _k.lastPage),
                     results: (_p = (_o = (_m = (_l = data.data) === null || _l === void 0 ? void 0 : _l.Page) === null || _m === void 0 ? void 0 : _m.media) === null || _o === void 0 ? void 0 : _o.map((item) => {
-                        var _b, _c, _d, _e, _f, _g, _h, _j;
+                        var _b, _c, _d, _e, _f, _g, _h, _j, _k;
                         return ({
                             id: item.id.toString(),
                             malId: item.idMal,
@@ -85,11 +85,12 @@ class Anilist extends models_1.AnimeParser {
                             genres: item.genres,
                             color: (_g = item.coverImage) === null || _g === void 0 ? void 0 : _g.color,
                             totalEpisodes: (_h = item.episodes) !== null && _h !== void 0 ? _h : ((_j = item.nextAiringEpisode) === null || _j === void 0 ? void 0 : _j.episode) - 1,
+                            currentEpisodeCount: (item === null || item === void 0 ? void 0 : item.nextAiringEpisode) ? ((_k = item === null || item === void 0 ? void 0 : item.nextAiringEpisode) === null || _k === void 0 ? void 0 : _k.episode) - 1 : item.episodes,
                             type: item.format,
                             releaseDate: item.seasonYear,
                         });
                     })) !== null && _p !== void 0 ? _p : data.data.map((item) => {
-                        var _b;
+                        var _b, _c;
                         return ({
                             id: item.anilistId.toString(),
                             malId: item.mappings['mal'],
@@ -113,6 +114,7 @@ class Anilist extends models_1.AnimeParser {
                             genres: item.genre,
                             color: item.color,
                             totalEpisodes: item.currentEpisode,
+                            currentEpisodeCount: (item === null || item === void 0 ? void 0 : item.nextAiringEpisode) ? ((_c = item === null || item === void 0 ? void 0 : item.nextAiringEpisode) === null || _c === void 0 ? void 0 : _c.episode) - 1 : item.currentEpisode,
                             type: item.format,
                             releaseDate: item.year,
                         });
@@ -256,7 +258,7 @@ class Anilist extends models_1.AnimeParser {
          * @param fetchFiller to get filler boolean on the episode object (optional) set to `true` to get filler boolean on the episode object.
          */
         this.fetchAnimeInfo = async (id, dub = false, fetchFiller = false) => {
-            var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s, _t, _u, _v, _w, _x, _y, _z, _0, _1, _2, _3, _4, _5, _6, _7, _8, _9, _10, _11, _12, _13, _14, _15, _16, _17, _18, _19, _20, _21, _22, _23, _24, _25, _26, _27, _28, _29, _30, _31, _32, _33, _34, _35, _36, _37, _38, _39, _40, _41, _42, _43, _44, _45, _46, _47, _48, _49, _50, _51, _52, _53, _54, _55, _56, _57;
+            var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s, _t, _u, _v, _w, _x, _y, _z, _0, _1, _2, _3, _4, _5, _6, _7, _8, _9, _10, _11, _12, _13, _14, _15, _16, _17, _18, _19, _20, _21, _22, _23, _24, _25, _26, _27, _28, _29, _30, _31, _32, _33, _34, _35, _36, _37, _38, _39, _40, _41, _42, _43, _44, _45, _46, _47, _48, _49, _50, _51, _52, _53, _54, _55, _56, _57, _58, _59, _60, _61;
             const animeInfo = {
                 id: id,
                 title: '',
@@ -344,6 +346,7 @@ class Anilist extends models_1.AnimeParser {
                         episode: (_35 = data.data.Media.nextAiringEpisode) === null || _35 === void 0 ? void 0 : _35.episode,
                     };
                 animeInfo.totalEpisodes = (_37 = (_36 = data.data.Media) === null || _36 === void 0 ? void 0 : _36.episodes) !== null && _37 !== void 0 ? _37 : ((_38 = data.data.Media.nextAiringEpisode) === null || _38 === void 0 ? void 0 : _38.episode) - 1;
+                animeInfo.currentEpisode = ((_40 = (_39 = data.data.Media) === null || _39 === void 0 ? void 0 : _39.nextAiringEpisode) === null || _40 === void 0 ? void 0 : _40.episode) ? ((_41 = data.data.Media.nextAiringEpisode) === null || _41 === void 0 ? void 0 : _41.episode) - 1 : (_42 = data.data.Media) === null || _42 === void 0 ? void 0 : _42.episodes;
                 animeInfo.rating = data.data.Media.averageScore;
                 animeInfo.duration = data.data.Media.duration;
                 animeInfo.genres = data.data.Media.genres;
@@ -351,7 +354,7 @@ class Anilist extends models_1.AnimeParser {
                 animeInfo.studios = data.data.Media.studios.edges.map((item) => item.node.name);
                 animeInfo.subOrDub = dub ? models_1.SubOrSub.DUB : models_1.SubOrSub.SUB;
                 animeInfo.type = data.data.Media.format;
-                animeInfo.recommendations = (_41 = (_40 = (_39 = data.data.Media) === null || _39 === void 0 ? void 0 : _39.recommendations) === null || _40 === void 0 ? void 0 : _40.edges) === null || _41 === void 0 ? void 0 : _41.map((item) => {
+                animeInfo.recommendations = (_45 = (_44 = (_43 = data.data.Media) === null || _43 === void 0 ? void 0 : _43.recommendations) === null || _44 === void 0 ? void 0 : _44.edges) === null || _45 === void 0 ? void 0 : _45.map((item) => {
                     var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s, _t, _u, _v, _w, _x, _y, _z, _0, _1, _2, _3, _4, _5, _6, _7, _8, _9, _10, _11, _12;
                     return ({
                         id: (_b = item.node.mediaRecommendation) === null || _b === void 0 ? void 0 : _b.id,
@@ -380,7 +383,7 @@ class Anilist extends models_1.AnimeParser {
                         type: (_12 = item.node.mediaRecommendation) === null || _12 === void 0 ? void 0 : _12.format,
                     });
                 });
-                animeInfo.characters = (_45 = (_44 = (_43 = (_42 = data.data) === null || _42 === void 0 ? void 0 : _42.Media) === null || _43 === void 0 ? void 0 : _43.characters) === null || _44 === void 0 ? void 0 : _44.edges) === null || _45 === void 0 ? void 0 : _45.map((item) => {
+                animeInfo.characters = (_49 = (_48 = (_47 = (_46 = data.data) === null || _46 === void 0 ? void 0 : _46.Media) === null || _47 === void 0 ? void 0 : _47.characters) === null || _48 === void 0 ? void 0 : _48.edges) === null || _49 === void 0 ? void 0 : _49.map((item) => {
                     var _b, _c;
                     return ({
                         id: (_b = item.node) === null || _b === void 0 ? void 0 : _b.id,
@@ -410,7 +413,7 @@ class Anilist extends models_1.AnimeParser {
                         }),
                     });
                 });
-                animeInfo.relations = (_49 = (_48 = (_47 = (_46 = data.data) === null || _46 === void 0 ? void 0 : _46.Media) === null || _47 === void 0 ? void 0 : _47.relations) === null || _48 === void 0 ? void 0 : _48.edges) === null || _49 === void 0 ? void 0 : _49.map((item) => {
+                animeInfo.relations = (_53 = (_52 = (_51 = (_50 = data.data) === null || _50 === void 0 ? void 0 : _50.Media) === null || _51 === void 0 ? void 0 : _51.relations) === null || _52 === void 0 ? void 0 : _52.edges) === null || _53 === void 0 ? void 0 : _53.map((item) => {
                     var _b, _c, _d, _e, _f, _g;
                     return ({
                         id: item.node.id,
@@ -448,7 +451,7 @@ class Anilist extends models_1.AnimeParser {
                     try {
                         const enimeInfo = await new enime_1.default().fetchAnimeInfoByAnilistId(id, this.provider.name.toLowerCase());
                         animeInfo.mappings = enimeInfo.mappings;
-                        animeInfo.episodes = (_50 = enimeInfo.episodes) === null || _50 === void 0 ? void 0 : _50.map((item) => {
+                        animeInfo.episodes = (_54 = enimeInfo.episodes) === null || _54 === void 0 ? void 0 : _54.map((item) => {
                             var _b;
                             return ({
                                 id: item.slug,
@@ -459,16 +462,16 @@ class Anilist extends models_1.AnimeParser {
                                 airDate: (_b = item.airDate) !== null && _b !== void 0 ? _b : null,
                             });
                         });
-                        (_51 = animeInfo.episodes) === null || _51 === void 0 ? void 0 : _51.reverse();
+                        (_55 = animeInfo.episodes) === null || _55 === void 0 ? void 0 : _55.reverse();
                     }
                     catch (err) {
                         animeInfo.episodes = await this.fetchDefaultEpisodeList({
                             idMal: animeInfo.malId,
                             season: data.data.Media.season,
                             startDate: { year: parseInt(animeInfo.releaseDate) },
-                            title: { english: (_52 = animeInfo.title) === null || _52 === void 0 ? void 0 : _52.english, romaji: (_53 = animeInfo.title) === null || _53 === void 0 ? void 0 : _53.romaji },
+                            title: { english: (_56 = animeInfo.title) === null || _56 === void 0 ? void 0 : _56.english, romaji: (_57 = animeInfo.title) === null || _57 === void 0 ? void 0 : _57.romaji },
                         }, dub, id);
-                        animeInfo.episodes = (_54 = animeInfo.episodes) === null || _54 === void 0 ? void 0 : _54.map((episode) => {
+                        animeInfo.episodes = (_58 = animeInfo.episodes) === null || _58 === void 0 ? void 0 : _58.map((episode) => {
                             if (!episode.image)
                                 episode.image = animeInfo.image;
                             return episode;
@@ -481,7 +484,7 @@ class Anilist extends models_1.AnimeParser {
                         idMal: animeInfo.malId,
                         season: data.data.Media.season,
                         startDate: { year: parseInt(animeInfo.releaseDate) },
-                        title: { english: (_55 = animeInfo.title) === null || _55 === void 0 ? void 0 : _55.english, romaji: (_56 = animeInfo.title) === null || _56 === void 0 ? void 0 : _56.romaji },
+                        title: { english: (_59 = animeInfo.title) === null || _59 === void 0 ? void 0 : _59.english, romaji: (_60 = animeInfo.title) === null || _60 === void 0 ? void 0 : _60.romaji },
                         externalLinks: data.data.Media.externalLinks.filter((link) => link.type === 'STREAMING'),
                     }, dub, id);
                 if (fetchFiller) {
@@ -495,7 +498,7 @@ class Anilist extends models_1.AnimeParser {
                         fillerEpisodes === null || fillerEpisodes === void 0 ? void 0 : fillerEpisodes.push(...fillerData.episodes);
                     }
                 }
-                animeInfo.episodes = (_57 = animeInfo.episodes) === null || _57 === void 0 ? void 0 : _57.map((episode) => {
+                animeInfo.episodes = (_61 = animeInfo.episodes) === null || _61 === void 0 ? void 0 : _61.map((episode) => {
                     if (!episode.image)
                         episode.image = animeInfo.image;
                     if (fetchFiller &&
@@ -1164,7 +1167,7 @@ class Anilist extends models_1.AnimeParser {
          * @returns anilist data for the anime **(without episodes)** (use `fetchEpisodesListById` to get the episodes) (use `fetchAnimeInfo` to get both)
          */
         this.fetchAnilistInfoById = async (id) => {
-            var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s, _t, _u, _v, _w, _x;
+            var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s, _t, _u, _v, _w, _x, _y, _z, _0, _1;
             const animeInfo = {
                 id: id,
                 title: '',
@@ -1228,6 +1231,7 @@ class Anilist extends models_1.AnimeParser {
                         episode: (_m = data.data.Media.nextAiringEpisode) === null || _m === void 0 ? void 0 : _m.episode,
                     };
                 animeInfo.totalEpisodes = (_p = (_o = data.data.Media) === null || _o === void 0 ? void 0 : _o.episodes) !== null && _p !== void 0 ? _p : ((_q = data.data.Media.nextAiringEpisode) === null || _q === void 0 ? void 0 : _q.episode) - 1;
+                animeInfo.currentEpisode = ((_s = (_r = data.data.Media) === null || _r === void 0 ? void 0 : _r.nextAiringEpisode) === null || _s === void 0 ? void 0 : _s.episode) ? ((_t = data.data.Media.nextAiringEpisode) === null || _t === void 0 ? void 0 : _t.episode) - 1 : ((_u = data.data.Media) === null || _u === void 0 ? void 0 : _u.episodes) || undefined;
                 animeInfo.rating = data.data.Media.averageScore;
                 animeInfo.duration = data.data.Media.duration;
                 animeInfo.genres = data.data.Media.genres;
@@ -1236,14 +1240,14 @@ class Anilist extends models_1.AnimeParser {
                 animeInfo.popularity = data.data.Media.popularity;
                 animeInfo.type = data.data.Media.format;
                 animeInfo.startDate = {
-                    year: (_r = data.data.Media.startDate) === null || _r === void 0 ? void 0 : _r.year,
-                    month: (_s = data.data.Media.startDate) === null || _s === void 0 ? void 0 : _s.month,
-                    day: (_t = data.data.Media.startDate) === null || _t === void 0 ? void 0 : _t.day,
+                    year: (_v = data.data.Media.startDate) === null || _v === void 0 ? void 0 : _v.year,
+                    month: (_w = data.data.Media.startDate) === null || _w === void 0 ? void 0 : _w.month,
+                    day: (_x = data.data.Media.startDate) === null || _x === void 0 ? void 0 : _x.day,
                 };
                 animeInfo.endDate = {
-                    year: (_u = data.data.Media.endDate) === null || _u === void 0 ? void 0 : _u.year,
-                    month: (_v = data.data.Media.endDate) === null || _v === void 0 ? void 0 : _v.month,
-                    day: (_w = data.data.Media.endDate) === null || _w === void 0 ? void 0 : _w.day,
+                    year: (_y = data.data.Media.endDate) === null || _y === void 0 ? void 0 : _y.year,
+                    month: (_z = data.data.Media.endDate) === null || _z === void 0 ? void 0 : _z.month,
+                    day: (_0 = data.data.Media.endDate) === null || _0 === void 0 ? void 0 : _0.day,
                 };
                 animeInfo.recommendations = data.data.Media.recommendations.edges.map((item) => {
                     var _b, _c, _d, _e, _f;
@@ -1304,7 +1308,7 @@ class Anilist extends models_1.AnimeParser {
                         }),
                     });
                 });
-                animeInfo.color = (_x = data.data.Media.coverImage) === null || _x === void 0 ? void 0 : _x.color;
+                animeInfo.color = (_1 = data.data.Media.coverImage) === null || _1 === void 0 ? void 0 : _1.color;
                 animeInfo.relations = data.data.Media.relations.edges.map((item) => {
                     var _b, _c, _d, _e, _f;
                     return ({
@@ -1775,7 +1779,7 @@ Anilist.Manga = class Manga {
 };
 // (async () => {
 //   const ani = new Anilist();
-//   const search = await ani.fetchAnimeInfo('21', false);
+//   const search = await ani.fetchAnimeInfo('136430');
 //   // const sources = await ani.fetchEpisodeSources(search.episodes![5].id);
 //   console.log(search);
 // })();
