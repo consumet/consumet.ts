@@ -108,7 +108,6 @@ class Bilibili extends AnimeParser {
         `${this.sgProxy}/${this.apiUrl}/playurl?s_locale=${this.locale}&platform=web&ep_id=${episodeId}`,
         { headers: { cookie: this.cookie } }
       );
-      console.log(ss.data);
 
       const sources = await new BilibiliExtractor().extract(episodeId);
       return {
