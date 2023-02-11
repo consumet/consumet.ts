@@ -15,6 +15,7 @@ export const PROVIDERS_LIST = {
     new ANIME.Enime(),
     new ANIME.Gogoanime(),
     new ANIME.Zoro(),
+    new ANIME.Marin(),
   ],
   MANGA: [
     new MANGA.MangaDex(),
