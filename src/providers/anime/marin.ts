@@ -163,9 +163,9 @@ class Marin extends AnimeParser {
         romaji: data.props.anime.title,
         english: data.props.anime.alt_titles["Official Title"][1].text
       },
-      synonyms: data.props.anime.alt_titles["Synonym"].map((el: any) => {
+      synonyms: data.props.anime.alt_titles["Synonym"]?.map((el: any) => {
         return el.text
-      }),
+      }) || [],
       image: data.props.anime.cover,
       cover: data.props.anime.cover,
       description: data.props.anime.description,
