@@ -8,6 +8,7 @@ declare class Marin extends AnimeParser {
     protected logo: string;
     protected classPath: string;
     private getToken;
+    recentEpisodes: (page?: number) => Promise<ISearch<IAnimeResult>>;
     /**
      * @param query Search query
      */
