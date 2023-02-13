@@ -735,7 +735,7 @@ class Anilist extends models_1.AnimeParser {
                     currentPage: data.data.Page.pageInfo.currentPage,
                     hasNextPage: data.data.Page.pageInfo.hasNextPage,
                     results: data.data.Page.media.map((item) => {
-                        var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m;
+                        var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o;
                         return ({
                             id: item.id.toString(),
                             malId: item.idMal,
@@ -766,9 +766,9 @@ class Anilist extends models_1.AnimeParser {
                             cover: (_j = (_h = (_g = item.bannerImage) !== null && _g !== void 0 ? _g : item.coverImage.extraLarge) !== null && _h !== void 0 ? _h : item.coverImage.large) !== null && _j !== void 0 ? _j : item.coverImage.medium,
                             rating: item.averageScore,
                             releaseDate: item.seasonYear,
-                            color: item.color,
+                            color: (_k = item.coverImage) === null || _k === void 0 ? void 0 : _k.color,
                             genres: item.genres,
-                            totalEpisodes: isNaN(item.episodes) ? 0 : (_m = (_k = item.episodes) !== null && _k !== void 0 ? _k : ((_l = item.nextAiringEpisode) === null || _l === void 0 ? void 0 : _l.episode) - 1) !== null && _m !== void 0 ? _m : 0,
+                            totalEpisodes: isNaN(item.episodes) ? 0 : (_o = (_l = item.episodes) !== null && _l !== void 0 ? _l : ((_m = item.nextAiringEpisode) === null || _m === void 0 ? void 0 : _m.episode) - 1) !== null && _o !== void 0 ? _o : 0,
                             duration: item.duration,
                             type: item.format,
                         });
@@ -799,7 +799,7 @@ class Anilist extends models_1.AnimeParser {
                     currentPage: data.data.Page.pageInfo.currentPage,
                     hasNextPage: data.data.Page.pageInfo.hasNextPage,
                     results: data.data.Page.media.map((item) => {
-                        var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m;
+                        var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o;
                         return ({
                             id: item.id.toString(),
                             malId: item.idMal,
@@ -830,9 +830,9 @@ class Anilist extends models_1.AnimeParser {
                             cover: (_j = (_h = (_g = item.bannerImage) !== null && _g !== void 0 ? _g : item.coverImage.extraLarge) !== null && _h !== void 0 ? _h : item.coverImage.large) !== null && _j !== void 0 ? _j : item.coverImage.medium,
                             rating: item.averageScore,
                             releaseDate: item.seasonYear,
-                            color: item.color,
+                            color: (_k = item.coverImage) === null || _k === void 0 ? void 0 : _k.color,
                             genres: item.genres,
-                            totalEpisodes: isNaN(item.episodes) ? 0 : (_m = (_k = item.episodes) !== null && _k !== void 0 ? _k : ((_l = item.nextAiringEpisode) === null || _l === void 0 ? void 0 : _l.episode) - 1) !== null && _m !== void 0 ? _m : 0,
+                            totalEpisodes: isNaN(item.episodes) ? 0 : (_o = (_l = item.episodes) !== null && _l !== void 0 ? _l : ((_m = item.nextAiringEpisode) === null || _m === void 0 ? void 0 : _m.episode) - 1) !== null && _o !== void 0 ? _o : 0,
                             duration: item.duration,
                             type: item.format,
                         });
@@ -1051,7 +1051,7 @@ class Anilist extends models_1.AnimeParser {
             try {
                 const { data: { data, meta }, } = await axios_1.default.get(`${this.enimeUrl}/recent?page=${page}&perPage=${perPage}`);
                 let results = data.map((item) => {
-                    var _b, _c, _d, _e, _f, _g, _h, _j, _k;
+                    var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l;
                     return ({
                         id: item.anime.anilistId.toString(),
                         malId: (_b = item.anime.mappings) === null || _b === void 0 ? void 0 : _b.mal,
@@ -1063,11 +1063,11 @@ class Anilist extends models_1.AnimeParser {
                         },
                         image: (_g = item.anime.coverImage) !== null && _g !== void 0 ? _g : item.anime.bannerImage,
                         rating: item.anime.averageScore,
-                        color: item.anime.color,
+                        color: (_h = item.anime) === null || _h === void 0 ? void 0 : _h.color,
                         episodeId: `${provider === 'gogoanime'
-                            ? (_h = item.sources.find((source) => source.website.toLowerCase() === 'gogoanime')) === null || _h === void 0 ? void 0 : _h.id
-                            : (_j = item.sources.find((source) => source.website.toLowerCase() === 'zoro')) === null || _j === void 0 ? void 0 : _j.id}-enime`,
-                        episodeTitle: (_k = item.title) !== null && _k !== void 0 ? _k : `Episode ${item.number}`,
+                            ? (_j = item.sources.find((source) => source.website.toLowerCase() === 'gogoanime')) === null || _j === void 0 ? void 0 : _j.id
+                            : (_k = item.sources.find((source) => source.website.toLowerCase() === 'zoro')) === null || _k === void 0 ? void 0 : _k.id}-enime`,
+                        episodeTitle: (_l = item.title) !== null && _l !== void 0 ? _l : `Episode ${item.number}`,
                         episodeNumber: item.number,
                         genres: item.anime.genre,
                         type: item.anime.format,
@@ -1490,7 +1490,7 @@ class Anilist extends models_1.AnimeParser {
                     const sitesT = malAsyncReq.data.Sites;
                     let sites = Object.values(sitesT).map((v, i) => {
                         const obj = [...Object.values(Object.values(sitesT)[i])];
-                        const pages = obj.map(v => ({ page: v.page, url: v.url, title: v.title }));
+                        const pages = obj.map((v) => ({ page: v.page, url: v.url, title: v.title }));
                         return pages;
                     });
                     sites = sites.flat();
@@ -1779,9 +1779,14 @@ Anilist.Manga = class Manga {
 };
 // (async () => {
 //   const ani = new Anilist();
-//   const search = await ani.fetchAnimeInfo('136430');
+//   // const search = await ani.fetchAnimeInfo('136430');
+//   const trending = await ani.fetchTrendingAnime();
+//   const popular = await ani.fetchPopularAnime();
+//   const recent = await ani.fetchRecentEpisodes();
 //   // const sources = await ani.fetchEpisodeSources(search.episodes![5].id);
-//   console.log(search);
+//   console.log(trending.results[0]?.color);
+//   console.log(popular.results[0]?.color);
+//   console.log(recent.results[0]?.color);
 // })();
 exports.default = Anilist;
 //# sourceMappingURL=anilist.js.map

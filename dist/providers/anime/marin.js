@@ -15,14 +15,11 @@ class Marin extends models_1.AnimeParser {
         this.baseUrl = 'https://marin.moe';
         this.logo = 'https://i.pinimg.com/736x/62/8d/3f/628d3f2e60b0aa8c8fa9598e8dae6320.jpg';
         this.classPath = 'ANIME.Marin';
-        /**
-         * @param query Search query
-         */
-        this.search = async (query, page = 1) => {
-            let token = await this.getToken();
+        this.recentEpisodes = async (page = 1) => {
+            const token = await this.getToken();
             let data;
             try {
-                let response = await axios_1.default.post('https://marin.moe/anime', { "page": page, "sort": "az-a", "filter": { "type": [], "status": [], "content_rating": [], "genre": [], "group": [], "production": [], "source": [], "resolution": [], "audio": [], "subtitle": [] }, "search": query }, {
+                const response = await axios_1.default.post('https://marin.moe/anime', { "page": page, "sort": "rel-d", "filter": { "type": [], "status": [], "content_rating": [], "genre": [], "group": [], "production": [], "source": [], "resolution": [], "audio": [], "subtitle": [] }, "search": "" }, {
                     headers: {
                         Origin: 'https://marin.moe/',
                         Referer: 'https://marin.moe/anime',
@@ -37,7 +34,44 @@ class Marin extends models_1.AnimeParser {
             catch (error) {
                 console.log(error);
             }
-            let response_data = {
+            const response_data = {
+                currentPage: page,
+                hasNextPage: data.props.anime_list.meta.last_page > page,
+                results: data.props.anime_list.data.map((el) => {
+                    return {
+                        id: el.slug,
+                        title: el.title,
+                        image: el.cover,
+                        releaseDate: el.year,
+                        type: el.type
+                    };
+                })
+            };
+            return response_data;
+        };
+        /**
+         * @param query Search query
+         */
+        this.search = async (query, page = 1) => {
+            const token = await this.getToken();
+            let data;
+            try {
+                const response = await axios_1.default.post('https://marin.moe/anime', { "page": page, "sort": "az-a", "filter": { "type": [], "status": [], "content_rating": [], "genre": [], "group": [], "production": [], "source": [], "resolution": [], "audio": [], "subtitle": [] }, "search": query }, {
+                    headers: {
+                        Origin: 'https://marin.moe/',
+                        Referer: 'https://marin.moe/anime',
+                        Cookie: `__ddg1=;__ddg2_=; XSRF-TOKEN=${token[1]}; marinmoe_session=${token[0]};`,
+                        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
+                        "x-xsrf-token": token[1].split(';')[0].replace("%3D", "="),
+                        "x-inertia": true
+                    },
+                });
+                data = await response.data;
+            }
+            catch (error) {
+                console.log(error);
+            }
+            const response_data = {
                 currentPage: page,
                 hasNextPage: data.props.anime_list.meta.last_page > page,
                 results: data.props.anime_list.data.map((el) => {
@@ -56,9 +90,10 @@ class Marin extends models_1.AnimeParser {
          * @param id Anime id
          */
         this.fetchAnimeInfo = async (id) => {
+            var _a;
             let data;
             try {
-                let response = await axios_1.default.get(`https://marin.moe/anime/${id}`, {
+                const response = await axios_1.default.get(`https://marin.moe/anime/${id}`, {
                     headers: {
                         Origin: 'https://marin.moe/',
                         Referer: `https://marin.moe/anime/${id}`,
@@ -76,9 +111,9 @@ class Marin extends models_1.AnimeParser {
             }
             let episodes = data.props.episode_list.data;
             if (data.props.anime.last_episode > 36) {
-                let token = await this.getToken();
+                const token = await this.getToken();
                 for (let index = 2; index < data.props.anime.last_episode / 36; index++) {
-                    let response = await axios_1.default.post(`https://marin.moe/anime/${id}`, { "filter": { "episodes": true, "specials": true }, "eps_page": index }, {
+                    const response = await axios_1.default.post(`https://marin.moe/anime/${id}`, { "filter": { "episodes": true, "specials": true }, "eps_page": index }, {
                         headers: {
                             Origin: 'https://marin.moe/',
                             Referer: `https://marin.moe/anime/${id}`,
@@ -90,22 +125,21 @@ class Marin extends models_1.AnimeParser {
                             "x-xsrf-token": token[1].split(';')[0].replace("%3D", "="),
                         },
                     });
-                    let data = await response.data;
-                    console.log(data.props.episode_list.data[0]);
+                    const data = await response.data;
                     episodes = episodes.concat(data.props.episode_list.data);
                 }
             }
             //{"filter":{"episodes":true,"specials":true},"eps_page":2}
-            let response_data = {
+            const response_data = {
                 id: id,
                 title: {
                     native: data.props.anime.alt_titles["Official Title"][0].text,
                     romaji: data.props.anime.title,
                     english: data.props.anime.alt_titles["Official Title"][1].text
                 },
-                synonyms: data.props.anime.alt_titles["Synonym"].map((el) => {
+                synonyms: ((_a = data.props.anime.alt_titles["Synonym"]) === null || _a === void 0 ? void 0 : _a.map((el) => {
                     return el.text;
-                }),
+                })) || [],
                 image: data.props.anime.cover,
                 cover: data.props.anime.cover,
                 description: data.props.anime.description,
@@ -123,7 +157,7 @@ class Marin extends models_1.AnimeParser {
                 ageRating: data.props.anime.content_rating.name,
                 episodes: episodes.map((el) => {
                     return {
-                        id: el.sort,
+                        id: `${id}/${el.sort}`,
                         title: el.title,
                         number: el.sort,
                         image: el.cover,
@@ -140,7 +174,7 @@ class Marin extends models_1.AnimeParser {
         this.fetchEpisodeSources = async (id, episodeNumber) => {
             let data;
             try {
-                let response = await axios_1.default.get(`https://marin.moe/anime/${id}/${episodeNumber}`, {
+                const response = await axios_1.default.get(`https://marin.moe/anime/${id}/${episodeNumber}`, {
                     headers: {
                         Origin: 'https://marin.moe/',
                         Referer: `https://marin.moe/anime/${id}/${episodeNumber}`,
@@ -156,7 +190,7 @@ class Marin extends models_1.AnimeParser {
             catch (error) {
                 console.log(error);
             }
-            let response_data = {
+            const response_data = {
                 sources: data.props.video.data.mirror.map((el) => {
                     return {
                         url: el.code.file,
@@ -180,8 +214,8 @@ class Marin extends models_1.AnimeParser {
         };
     }
     async getToken() {
-        let token = [];
-        let response = await axios_1.default.get('https://marin.moe/anime', {
+        const token = [];
+        const response = await axios_1.default.get('https://marin.moe/anime', {
             headers: {
                 Referer: 'https://marin.moe/anime',
                 Cookie: '__ddg1_=;__ddg2_=;',
@@ -193,8 +227,8 @@ class Marin extends models_1.AnimeParser {
     }
 }
 exports.default = Marin;
-(async () => {
-    let marin = new Marin();
-    console.log(await marin.fetchEpisodeSources('dewhzcns', 1));
-})();
+//(async () => {
+//  const marin = new Marin();
+//  console.log(await marin.recentEpisodes(1));
+//})();
 //# sourceMappingURL=marin.js.map

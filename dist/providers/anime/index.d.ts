@@ -6,6 +6,7 @@ import AnimeFox from './animefox';
 import Enime from './enime';
 import Crunchyroll from './crunchyroll';
 import Bilibili from './bilibili';
+import Marin from './marin';
 declare const _default: {
     Gogoanime: typeof Gogoanime;
     NineAnime: typeof NineAnime;
@@ -15,5 +16,6 @@ declare const _default: {
     Enime: typeof Enime;
     Crunchyroll: typeof Crunchyroll;
     Bilibili: typeof Bilibili;
+    Marin: typeof Marin;
 };
 export default _default;

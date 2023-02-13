@@ -78,7 +78,6 @@ class Bilibili extends models_1.AnimeParser {
         try {
             const { data } = await axios_1.default.get(`${this.sgProxy}/${this.apiUrl}/v2/subtitle?s_locale=${this.locale}&platform=web&episode_id=${episodeId}`, { headers: { cookie: this.cookie } });
             const ss = await axios_1.default.get(`${this.sgProxy}/${this.apiUrl}/playurl?s_locale=${this.locale}&platform=web&ep_id=${episodeId}`, { headers: { cookie: this.cookie } });
-            console.log(ss.data);
             const sources = await new extractors_1.BilibiliExtractor().extract(episodeId);
             return {
                 sources: sources.sources,
