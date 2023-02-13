@@ -922,7 +922,7 @@ class Anilist extends AnimeParser {
             item.bannerImage ?? item.coverImage.extraLarge ?? item.coverImage.large ?? item.coverImage.medium,
           rating: item.averageScore,
           releaseDate: item.seasonYear,
-          color: item.color,
+          color: item.coverImage?.color,
           genres: item.genres,
           totalEpisodes: isNaN(item.episodes) ? 0 : item.episodes ?? item.nextAiringEpisode?.episode - 1 ?? 0,
           duration: item.duration,
@@ -988,7 +988,7 @@ class Anilist extends AnimeParser {
             item.bannerImage ?? item.coverImage.extraLarge ?? item.coverImage.large ?? item.coverImage.medium,
           rating: item.averageScore,
           releaseDate: item.seasonYear,
-          color: item.color,
+          color: item.coverImage?.color,
           genres: item.genres,
           totalEpisodes: isNaN(item.episodes) ? 0 : item.episodes ?? item.nextAiringEpisode?.episode - 1 ?? 0,
           duration: item.duration,
@@ -1256,7 +1256,7 @@ class Anilist extends AnimeParser {
         },
         image: item.anime.coverImage ?? item.anime.bannerImage,
         rating: item.anime.averageScore,
-        color: item.anime.color,
+        color: item.anime?.color,
         episodeId: `${
           provider === 'gogoanime'
             ? item.sources.find((source: any) => source.website.toLowerCase() === 'gogoanime')?.id
@@ -2027,8 +2027,8 @@ class Anilist extends AnimeParser {
           [k: string]: { [k: string]: { url: string; page: string; title: string } };
         };
         let sites = Object.values(sitesT).map((v, i) => {
-          const obj = [...Object.values(Object.values(sitesT)[i])];
-          const pages = obj.map(v => ({ page: v.page, url: v.url, title: v.title }));
+          const obj: any = [...Object.values(Object.values(sitesT)[i])];
+          const pages: any = obj.map((v: any) => ({ page: v.page, url: v.url, title: v.title }));
           return pages;
         }) as any[];
 
@@ -2088,9 +2088,14 @@ class Anilist extends AnimeParser {
 
 // (async () => {
 //   const ani = new Anilist();
-//   const search = await ani.fetchAnimeInfo('136430');
+//   // const search = await ani.fetchAnimeInfo('136430');
+//   const trending = await ani.fetchTrendingAnime();
+//   const popular = await ani.fetchPopularAnime();
+//   const recent = await ani.fetchRecentEpisodes();
 //   // const sources = await ani.fetchEpisodeSources(search.episodes![5].id);
-//   console.log(search);
+//   console.log(trending.results[0]?.color);
+//   console.log(popular.results[0]?.color);
+//   console.log(recent.results[0]?.color);
 // })();
 
 export default Anilist;
