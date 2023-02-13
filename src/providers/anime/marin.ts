@@ -151,7 +151,6 @@ class Marin extends AnimeParser {
           },
         });
         const data = await response.data;
-        console.log(data.props.episode_list.data[0])
         episodes = episodes.concat(data.props.episode_list.data);
       }
     }
@@ -248,7 +247,7 @@ class Marin extends AnimeParser {
 
 export default Marin;
 
-(async () => {
-  const marin = new Marin();
-  console.log(await marin.recentEpisodes(1));
-})();
+//(async () => {
+//  const marin = new Marin();
+//  console.log(await marin.recentEpisodes(1));
+//})();
