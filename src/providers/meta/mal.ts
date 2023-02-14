@@ -719,7 +719,6 @@ export default Myanimelist;
 
 // (async () => {
 //   const mal = new Myanimelist();
-//   // const search = await mal.search('one piece');
 //   const info = await mal.fetchAnimeInfo('21', true);
 //   //console.log(info);
 // })();
