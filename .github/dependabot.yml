@@ -8,7 +8,8 @@ updates:
     allow:
       - dependency-type: 'production'
     ignore:
-      - package-name: axios
+      - dependency-name: "axios"
+        versions: ["1.x"]
   - package-ecosystem: github-actions
     directory: '/'
     schedule:
