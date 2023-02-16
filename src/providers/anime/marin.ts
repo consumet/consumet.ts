@@ -32,7 +32,7 @@ class Marin extends AnimeParser {
       },
     });
 
-    token.push(response.headers['set-cookie']![1].replace('marinmoe_session=', ''));
+    token.push(response.headers['set-cookie']![1].replace('marin_session=', ''));
     token.push(response.headers['set-cookie']![0].replace('XSRF-TOKEN=', ''));
 
     return token;
@@ -46,7 +46,7 @@ class Marin extends AnimeParser {
         headers: {
           Origin: 'https://marin.moe/',
           Referer: 'https://marin.moe/anime',
-          Cookie: `__ddg1=;__ddg2_=; XSRF-TOKEN=${token[1]}; marinmoe_session=${token[0]};`,
+          Cookie: `__ddg1=;__ddg2_=; XSRF-TOKEN=${token[1]}; marin_session=${token[0]};`,
           'User-Agent':
             'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
           "x-xsrf-token": token[1].split(';')[0].replace("%3D", "="),
@@ -84,7 +84,7 @@ class Marin extends AnimeParser {
         headers: {
           Origin: 'https://marin.moe/',
           Referer: 'https://marin.moe/anime',
-          Cookie: `__ddg1=;__ddg2_=; XSRF-TOKEN=${token[1]}; marinmoe_session=${token[0]};`,
+          Cookie: `__ddg1=;__ddg2_=; XSRF-TOKEN=${token[1]}; marin_session=${token[0]};`,
           'User-Agent':
             'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
           "x-xsrf-token": token[1].split(';')[0].replace("%3D", "="),
@@ -115,33 +115,35 @@ class Marin extends AnimeParser {
    * @param id Anime id
    */
   override fetchAnimeInfo = async (id: string): Promise<IAnimeInfo> => {
+    const token = await this.getToken()
     let data;
     try {
-      const response = await axios.get(`https://marin.moe/anime/${id}`, {
+      const response = await axios.post(`https://marin.moe/anime/${id}`,{}, {
         headers: {
           Origin: 'https://marin.moe/',
           Referer: `https://marin.moe/anime/${id}`,
-          Cookie: `__ddg1=;__ddg2_=;`,
+          Cookie: `__ddg1=;__ddg2_=; XSRF-TOKEN=${token[1].split(';')[0]}; marin_session=${token[0].split(';')[0]};`,
           'User-Agent':
             'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
           "x-inertia": true,
           "x-inertia-version": "884345c4d568d16e3bb2fb3ae350cca9",
           "x-requested-with": "XMLHttpRequest",
+          "x-xsrf-token": token[1].split(';')[0].replace('%3D', '=')
         },
       });
       data = await response.data;
+      console.log(data)
     } catch (error) {
       console.log(error)
     }
     let episodes: any[] = data.props.episode_list.data
     if(data.props.anime.last_episode > 36) {
-      const token = await this.getToken()
       for (let index = 2; index < data.props.anime.last_episode / 36; index++) {
         const response = await axios.post(`https://marin.moe/anime/${id}`, {"filter":{"episodes":true,"specials":true},"eps_page": index}, {
           headers: {
             Origin: 'https://marin.moe/',
             Referer: `https://marin.moe/anime/${id}`,
-            Cookie: `__ddg1=;__ddg2_=; XSRF-TOKEN=${token[1]}; marinmoe_session=${token[0]};`,
+            Cookie: `__ddg1=;__ddg2_=; XSRF-TOKEN=${token[1].split(';')[0]}; marin_session=${token[0].split(';')[0]};`,
             'User-Agent':
               'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
             "x-inertia": true,
@@ -200,18 +202,20 @@ class Marin extends AnimeParser {
    * @param episodeId Episode id
    */
   override fetchEpisodeSources = async (id: string, episodeNumber: number): Promise<ISource> => {
+    const token = await this.getToken()
     let data;
     try {
-      const response = await axios.get(`https://marin.moe/anime/${id}/${episodeNumber}`, {
+      const response = await axios.post(`https://marin.moe/anime/${id}/${episodeNumber}`, {}, {
         headers: {
           Origin: 'https://marin.moe/',
           Referer: `https://marin.moe/anime/${id}/${episodeNumber}`,
-          Cookie: `__ddg1=;__ddg2_=;`,
+          Cookie: `__ddg1=;__ddg2_=; XSRF-TOKEN=${token[1].split(';')[0]}; marin_session=${token[0].split(';')[0]};`,
           'User-Agent':
             'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
           "x-inertia": true,
           "x-inertia-version": "884345c4d568d16e3bb2fb3ae350cca9",
           "x-requested-with": "XMLHttpRequest",
+          "x-xsrf-token": token[1].split(';')[0].replace("%3D", "="),
         },
       });
       data = await response.data;
@@ -249,5 +253,5 @@ export default Marin;
 
 //(async () => {
 //  const marin = new Marin();
-//  console.log(await marin.recentEpisodes(1));
+//  console.log(await marin.fetchEpisodeSources("dewhzcns", 1));
 //})();
