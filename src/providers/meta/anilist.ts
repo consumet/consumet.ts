@@ -127,7 +127,9 @@ class Anilist extends AnimeParser {
             genres: item.genres,
             color: item.coverImage?.color,
             totalEpisodes: item.episodes ?? item.nextAiringEpisode?.episode - 1,
-            currentEpisodeCount: item?.nextAiringEpisode ? item?.nextAiringEpisode?.episode - 1 : item.episodes,
+            currentEpisodeCount: item?.nextAiringEpisode
+              ? item?.nextAiringEpisode?.episode - 1
+              : item.episodes,
             type: item.format,
             releaseDate: item.seasonYear,
           })) ??
@@ -155,7 +157,9 @@ class Anilist extends AnimeParser {
             genres: item.genre,
             color: item.color,
             totalEpisodes: item.currentEpisode,
-            currentEpisodeCount: item?.nextAiringEpisode ? item?.nextAiringEpisode?.episode - 1 : item.currentEpisode,
+            currentEpisodeCount: item?.nextAiringEpisode
+              ? item?.nextAiringEpisode?.episode - 1
+              : item.currentEpisode,
             type: item.format,
             releaseDate: item.year,
           })),
@@ -412,7 +416,9 @@ class Anilist extends AnimeParser {
           episode: data.data.Media.nextAiringEpisode?.episode,
         };
       animeInfo.totalEpisodes = data.data.Media?.episodes ?? data.data.Media.nextAiringEpisode?.episode - 1;
-      animeInfo.currentEpisode =  data.data.Media?.nextAiringEpisode?.episode ? data.data.Media.nextAiringEpisode?.episode - 1 : data.data.Media?.episodes;
+      animeInfo.currentEpisode = data.data.Media?.nextAiringEpisode?.episode
+        ? data.data.Media.nextAiringEpisode?.episode - 1
+        : data.data.Media?.episodes;
       animeInfo.rating = data.data.Media.averageScore;
       animeInfo.duration = data.data.Media.duration;
       animeInfo.genres = data.data.Media.genres;
@@ -702,8 +708,12 @@ class Anilist extends AnimeParser {
           [k: string]: { [k: string]: { url: string; page: string; title: string } };
         };
         let sites = Object.values(sitesT).map((v, i) => {
-          const obj = [...Object.values(Object.values(sitesT)[i])];
-          const pages = obj.map(v => ({ page: v.page, url: v.url, title: v.title }));
+          const obj: any = [...Object.values(Object.values(sitesT)[i])];
+          const pages = obj.map((v: { page: string; url: string; title: string }) => ({
+            page: v.page,
+            url: v.url,
+            title: v.title,
+          }));
           return pages;
         }) as any[];
 
@@ -1466,7 +1476,7 @@ class Anilist extends AnimeParser {
           animeInfo.status = MediaStatus.UNKNOWN;
       }
       animeInfo.releaseDate = data.data.Media.startDate.year;
-      if (data.data.Media.nextAiringEpisode?.airingAt) 
+      if (data.data.Media.nextAiringEpisode?.airingAt)
         animeInfo.nextAiringEpisode = {
           airingTime: data.data.Media.nextAiringEpisode?.airingAt,
           timeUntilAiring: data.data.Media.nextAiringEpisode?.timeUntilAiring,
@@ -1474,7 +1484,9 @@ class Anilist extends AnimeParser {
         };
 
       animeInfo.totalEpisodes = data.data.Media?.episodes ?? data.data.Media.nextAiringEpisode?.episode - 1;
-      animeInfo.currentEpisode =  data.data.Media?.nextAiringEpisode?.episode ? data.data.Media.nextAiringEpisode?.episode - 1 : data.data.Media?.episodes || undefined;
+      animeInfo.currentEpisode = data.data.Media?.nextAiringEpisode?.episode
+        ? data.data.Media.nextAiringEpisode?.episode - 1
+        : data.data.Media?.episodes || undefined;
       animeInfo.rating = data.data.Media.averageScore;
       animeInfo.duration = data.data.Media.duration;
       animeInfo.genres = data.data.Media.genres;
@@ -1575,7 +1587,7 @@ class Anilist extends AnimeParser {
             ? MediaStatus.HIATUS
             : MediaStatus.UNKNOWN,
         episodes: item.node.episodes,
-        
+
         image: item.node.coverImage.extraLarge ?? item.node.coverImage.large ?? item.node.coverImage.medium,
         cover:
           item.node.bannerImage ??
@@ -2088,14 +2100,6 @@ class Anilist extends AnimeParser {
 
 // (async () => {
 //   const ani = new Anilist();
-//   // const search = await ani.fetchAnimeInfo('136430');
-//   const trending = await ani.fetchTrendingAnime();
-//   const popular = await ani.fetchPopularAnime();
-//   const recent = await ani.fetchRecentEpisodes();
-//   // const sources = await ani.fetchEpisodeSources(search.episodes![5].id);
-//   console.log(trending.results[0]?.color);
-//   console.log(popular.results[0]?.color);
-//   console.log(recent.results[0]?.color);
 // })();
 
 export default Anilist;

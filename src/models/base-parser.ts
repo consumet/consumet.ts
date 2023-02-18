@@ -1,5 +1,7 @@
-import { BaseProvider, ProxyConfig } from '.';
 import axios, { AxiosInstance } from 'axios';
+
+import { BaseProvider, ProxyConfig } from '.';
+import { toMap } from '../utils';
 
 abstract class BaseParser extends BaseProvider {
   constructor(baseUrl?: string, proxy?: ProxyConfig) {
@@ -11,11 +13,21 @@ abstract class BaseParser extends BaseProvider {
 
     if (proxy) this.setProxy(proxy);
   }
-
+  private validUrl = /^https?:\/\/.+/;
   /**
    * Set or Change the proxy config
    */
   setProxy(proxy: ProxyConfig) {
+    if (!proxy?.url) throw new Error('Proxy URL is required!');
+    if (typeof proxy?.url === 'string')
+      if (!this.validUrl.test(proxy.url)) throw new Error('Proxy URL is invalid!');
+    if (Array.isArray(proxy?.url)) {
+      for (const [i, url] of toMap<string>(proxy.url))
+        if (!this.validUrl.test(url)) throw new Error(`Proxy URL at index ${i} is invalid!`);
+
+      this.rotateProxy({ ...proxy, urls: proxy.url });
+    }
+
     this.client.interceptors.request.use(config => {
       if (proxy?.url) {
         config.headers = {
@@ -27,6 +39,19 @@ abstract class BaseParser extends BaseProvider {
       return config;
     });
   }
+
+  // Change the type of ProxyConfig.url to string[] and use this function
+  // to rotate the proxy every 5 seconds
+
+  private rotateProxy = (proxy: Omit<ProxyConfig, 'url'> & { urls: string[] }, ms: number = 5000) => {
+    // rotate proxy every 5 seconds
+    setInterval(() => {
+      const url = proxy.urls.shift();
+      if (url) proxy.urls.push(url);
+
+      this.setProxy({ url: proxy.urls[0], key: proxy.key });
+    }, ms);
+  };
 
   protected client: AxiosInstance;
 
