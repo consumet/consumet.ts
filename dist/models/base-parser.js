@@ -3,11 +3,24 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const _1 = require(".");
 const axios_1 = __importDefault(require("axios"));
+const _1 = require(".");
+const utils_1 = require("../utils");
 class BaseParser extends _1.BaseProvider {
     constructor(baseUrl, proxy) {
         super();
+        this.validUrl = /^https?:\/\/.+/;
+        // Change the type of ProxyConfig.url to string[] and use this function
+        // to rotate the proxy every 5 seconds
+        this.rotateProxy = (proxy, ms = 5000) => {
+            // rotate proxy every 5 seconds
+            setInterval(() => {
+                const url = proxy.urls.shift();
+                if (url)
+                    proxy.urls.push(url);
+                this.setProxy({ url: proxy.urls[0], key: proxy.key });
+            }, ms);
+        };
         this.client = axios_1.default.create({
             baseURL: baseUrl,
         });
@@ -18,6 +31,17 @@ class BaseParser extends _1.BaseProvider {
      * Set or Change the proxy config
      */
     setProxy(proxy) {
+        if (!(proxy === null || proxy === void 0 ? void 0 : proxy.url))
+            throw new Error('Proxy URL is required!');
+        if (typeof (proxy === null || proxy === void 0 ? void 0 : proxy.url) === 'string')
+            if (!this.validUrl.test(proxy.url))
+                throw new Error('Proxy URL is invalid!');
+        if (Array.isArray(proxy === null || proxy === void 0 ? void 0 : proxy.url)) {
+            for (const [i, url] of (0, utils_1.toMap)(proxy.url))
+                if (!this.validUrl.test(url))
+                    throw new Error(`Proxy URL at index ${i} is invalid!`);
+            this.rotateProxy(Object.assign(Object.assign({}, proxy), { urls: proxy.url }));
+        }
         this.client.interceptors.request.use(config => {
             var _a;
             if (proxy === null || proxy === void 0 ? void 0 : proxy.url) {

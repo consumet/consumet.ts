@@ -411,7 +411,7 @@ export interface ProxyConfig {
      * The proxy URL
      * @example https://proxy.com
      **/
-    url: string;
+    url: string | string[];
     /**
      * X-API-Key header value (if any)
      **/

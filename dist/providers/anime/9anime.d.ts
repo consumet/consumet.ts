@@ -4,26 +4,18 @@ import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, IEpisodeServer, ISource
  */
 declare class NineAnime extends AnimeParser {
     readonly name = "9Anime";
+    private nineAnimeResolver;
     protected baseUrl: string;
     protected logo: string;
     protected classPath: string;
     readonly isWorking = false;
-    private readonly baseTable;
-    private readonly table;
-    private cipherKey;
-    private decipherKey;
-    private keyMap;
-    init(): Promise<void>;
-    static create(): Promise<NineAnime>;
+    constructor(nineAnimeResolver?: string);
     search(query: string, page?: number): Promise<ISearch<IAnimeResult>>;
     fetchAnimeInfo(animeUrl: string, isDub?: boolean): Promise<IAnimeInfo>;
+    extractServerViz(serverID: string): Promise<any>;
     fetchEpisodeSources(episodeId: string, server?: StreamingServers): Promise<ISource>;
     fetchEpisodeServers(episodeId: string): Promise<IEpisodeServer[]>;
     private ev;
     private dv;
-    private mapKeys;
-    private cipher;
-    private encrypt;
-    private decrypt;
 }
 export default NineAnime;

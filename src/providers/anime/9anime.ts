@@ -22,16 +22,18 @@ import { USER_AGENT, range } from '../../utils';
  */
 class NineAnime extends AnimeParser {
   override readonly name = '9Anime';
-  private superSecretAPI = "";
+  private nineAnimeResolver = '';
   protected override baseUrl = 'https://9anime.pl';
   protected override logo =
     'https://d1nxzqpcg2bym0.cloudfront.net/google_play/com.my.nineanime/87b2fe48-9c36-11eb-8292-21241b1c199b/128x128';
   protected override classPath = 'ANIME.NineAnime';
   override readonly isWorking = false;
 
-  constructor(nineAnimeBase? : string){
+  constructor(nineAnimeResolver?: string) {
     super();
-    this.superSecretAPI = nineAnimeBase ? nineAnimeBase : this.superSecretAPI;
+    this.nineAnimeResolver = nineAnimeResolver ?? this.nineAnimeResolver;
+
+    if (this.nineAnimeResolver === '') throw new Error('9Anime resolver is not set.');
   }
 
   override async search(query: string, page: number = 1): Promise<ISearch<IAnimeResult>> {
@@ -60,11 +62,8 @@ class NineAnime extends AnimeParser {
         const subs = $(el)
           .find('div.ani > a > div.meta > div > div.left > span.ep-status')
           .map((i, el) => {
-            if ($(el).hasClass('sub')) {
-              return SubOrSub.SUB;
-            } else if ($(el).hasClass('dub')) {
-              return SubOrSub.DUB;
-            }
+            if ($(el).hasClass('sub')) return SubOrSub.SUB;
+            else if ($(el).hasClass('dub')) return SubOrSub.DUB;
           })
           .get();
 
@@ -201,32 +200,35 @@ class NineAnime extends AnimeParser {
       const id = $('#watch-main').attr('data-id')!;
 
       const vrf = await this.ev(id);
-      const { data: { result } } = await axios.get(`${this.baseUrl}/ajax/episode/list/${id}?vrf=${vrf}`);
+      const {
+        data: { result },
+      } = await axios.get(`${this.baseUrl}/ajax/episode/list/${id}?vrf=${vrf}`);
       const $$ = load(result);
       animeInfo.totalEpisodes = $$('div.episodes > ul > li > a').length;
       animeInfo.episodes = [];
 
       const promises = [];
-      const episodes:IAnimeEpisode[] = [];
+      const episodes: IAnimeEpisode[] = [];
       $$('div.episodes > ul > li > a').map((i, el) => {
-        $$(el).map((i, el) => {
-                const possibleIds = $$(el).attr('data-ids')?.split(',')!;
-                const id = possibleIds[isDub ? 1 : 0] ?? possibleIds[0];
-                const number = parseInt($$(el).attr('data-num')?.toString()!);
-                const title = $$(el).find('span').text().length > 0 ? $$(el).find('span').text() : undefined;
-                const isFiller = $$(el).hasClass('filler');
-    
+        $$(el)
+          .map((i, el) => {
+            const possibleIds = $$(el).attr('data-ids')?.split(',')!;
+            const id = possibleIds[isDub ? 1 : 0] ?? possibleIds[0];
+            const number = parseInt($$(el).attr('data-num')?.toString()!);
+            const title = $$(el).find('span').text().length > 0 ? $$(el).find('span').text() : undefined;
+            const isFiller = $$(el).hasClass('filler');
 
-                episodes.push({
-                  id: id,
-                  number: number,
-                  title: title,
-                  isFiller: isFiller,
-                  url: `${id}`,
-                  // url: `${this.baseUrl}/ajax/server/list/${id}?vrf=${vrf}`,
-                });
-          }).get();
-      })
+            episodes.push({
+              id: id,
+              number: number,
+              title: title,
+              isFiller: isFiller,
+              url: `${id}`,
+              // url: `${this.baseUrl}/ajax/server/list/${id}?vrf=${vrf}`,
+            });
+          })
+          .get();
+      });
       animeInfo.episodes?.push(...episodes);
 
       return animeInfo;
@@ -235,21 +237,30 @@ class NineAnime extends AnimeParser {
     }
   }
 
-  async extractServerViz(serverID : string){
-    const serverVrf = (await axios.get(`${this.superSecretAPI}/vrf?query=${encodeURIComponent(serverID)}`)).data.url;
+  async extractServerViz(serverID: string) {
+    const serverVrf = (await axios.get(`${this.nineAnimeResolver}/vrf?query=${encodeURIComponent(serverID)}`))
+      .data.url;
     const serverSource = (await axios.get(`https://9anime.to/ajax/server/${serverID}?vrf=${serverVrf}`)).data;
-    const vidStreamID = (await axios.get(`${this.superSecretAPI}/decrypt?query=${encodeURIComponent(serverSource.result.url)}`)).data.url.split("/").pop();
-    const m3u8File = (await axios.get(`${this.superSecretAPI}/getLink?query=${encodeURIComponent(vidStreamID)}`)).data.data.media.sources[0].file;
+    const vidStreamID = (
+      await axios.get(
+        `${this.nineAnimeResolver}/decrypt?query=${encodeURIComponent(serverSource.result.url)}`
+      )
+    ).data.url
+      .split('/')
+      .pop();
+    const m3u8File = (
+      await axios.get(`${this.nineAnimeResolver}/getLink?query=${encodeURIComponent(vidStreamID)}`)
+    ).data.data.media.sources[0].file;
     return m3u8File;
   }
-  
+
   override async fetchEpisodeSources(
     episodeId: string,
     server: StreamingServers = StreamingServers.VizCloud
   ): Promise<ISource> {
     if (episodeId.startsWith('http')) {
       const serverUrl = new URL(episodeId);
-      switch (server) { 
+      switch (server) {
         case StreamingServers.StreamTape:
           return {
             headers: { Referer: serverUrl.href, 'User-Agent': USER_AGENT },
@@ -258,12 +269,20 @@ class NineAnime extends AnimeParser {
         case StreamingServers.VizCloud:
           return {
             headers: { Referer: serverUrl.href, 'User-Agent': USER_AGENT },
-            sources: await new VizCloud().extract(serverUrl, (query, string) => "", (query, string) => ""), // todo
+            sources: await new VizCloud().extract(
+              serverUrl,
+              (query, string) => '',
+              (query, string) => ''
+            ), // todo
           };
         case StreamingServers.MyCloud:
           return {
             headers: { Referer: serverUrl.href, 'User-Agent': USER_AGENT },
-            sources: await new VizCloud().extract(serverUrl, (query, string) => "", (query, string) => ""),
+            sources: await new VizCloud().extract(
+              serverUrl,
+              (query, string) => '',
+              (query, string) => ''
+            ),
           };
         case StreamingServers.Filemoon:
           return {
@@ -295,9 +314,9 @@ class NineAnime extends AnimeParser {
         default:
           throw new Error('Server not found');
       }
-      
-      const response : ISource = {
-        "sources" : [await this.extractServerViz(s.url)]
+
+      const response: ISource = {
+        sources: [await this.extractServerViz(s.url)],
       };
 
       return response;
@@ -310,7 +329,6 @@ class NineAnime extends AnimeParser {
     if (!episodeId.startsWith(this.baseUrl))
       episodeId = `${this.baseUrl}/ajax/server/list/${episodeId}?vrf=${await this.ev(episodeId)}`;
 
-
     const {
       data: { result },
     } = await axios.get(episodeId);
@@ -319,26 +337,26 @@ class NineAnime extends AnimeParser {
 
     const servers: IEpisodeServer[] = [];
     $('.type > ul > li').each((i, el) => {
-          const serverId = $(el).attr('data-link-id')!;
-          servers.push({
-            name: $(el).text().toLocaleLowerCase(),
-            url: `${serverId}`,
-          });
+      const serverId = $(el).attr('data-link-id')!;
+      servers.push({
+        name: $(el).text().toLocaleLowerCase(),
+        url: `${serverId}`,
+      });
     });
 
     return servers;
   }
 
   private async ev(query: string): Promise<string> {
-    const { data } = await axios.get(`${this.superSecretAPI}/vrf?query=${encodeURIComponent(query)}`);
+    const { data } = await axios.get(`${this.nineAnimeResolver}/vrf?query=${encodeURIComponent(query)}`);
     return data.url;
   }
 
   private dv(query: string): string {
-    return "";
+    return '';
   }
 }
-``
+
 // let _9 = new NineAnime();
 // _9.search("odd taxi").then((x) => console.log(x)).catch((x) => console.error(x));
 // _9.fetchAnimeInfo("oddtaxi.3w6y").then((x) => console.log(x)).catch((x) => console.error(x));

@@ -85,7 +85,9 @@ class Anilist extends models_1.AnimeParser {
                             genres: item.genres,
                             color: (_g = item.coverImage) === null || _g === void 0 ? void 0 : _g.color,
                             totalEpisodes: (_h = item.episodes) !== null && _h !== void 0 ? _h : ((_j = item.nextAiringEpisode) === null || _j === void 0 ? void 0 : _j.episode) - 1,
-                            currentEpisodeCount: (item === null || item === void 0 ? void 0 : item.nextAiringEpisode) ? ((_k = item === null || item === void 0 ? void 0 : item.nextAiringEpisode) === null || _k === void 0 ? void 0 : _k.episode) - 1 : item.episodes,
+                            currentEpisodeCount: (item === null || item === void 0 ? void 0 : item.nextAiringEpisode)
+                                ? ((_k = item === null || item === void 0 ? void 0 : item.nextAiringEpisode) === null || _k === void 0 ? void 0 : _k.episode) - 1
+                                : item.episodes,
                             type: item.format,
                             releaseDate: item.seasonYear,
                         });
@@ -114,7 +116,9 @@ class Anilist extends models_1.AnimeParser {
                             genres: item.genre,
                             color: item.color,
                             totalEpisodes: item.currentEpisode,
-                            currentEpisodeCount: (item === null || item === void 0 ? void 0 : item.nextAiringEpisode) ? ((_c = item === null || item === void 0 ? void 0 : item.nextAiringEpisode) === null || _c === void 0 ? void 0 : _c.episode) - 1 : item.currentEpisode,
+                            currentEpisodeCount: (item === null || item === void 0 ? void 0 : item.nextAiringEpisode)
+                                ? ((_c = item === null || item === void 0 ? void 0 : item.nextAiringEpisode) === null || _c === void 0 ? void 0 : _c.episode) - 1
+                                : item.currentEpisode,
                             type: item.format,
                             releaseDate: item.year,
                         });
@@ -346,7 +350,9 @@ class Anilist extends models_1.AnimeParser {
                         episode: (_35 = data.data.Media.nextAiringEpisode) === null || _35 === void 0 ? void 0 : _35.episode,
                     };
                 animeInfo.totalEpisodes = (_37 = (_36 = data.data.Media) === null || _36 === void 0 ? void 0 : _36.episodes) !== null && _37 !== void 0 ? _37 : ((_38 = data.data.Media.nextAiringEpisode) === null || _38 === void 0 ? void 0 : _38.episode) - 1;
-                animeInfo.currentEpisode = ((_40 = (_39 = data.data.Media) === null || _39 === void 0 ? void 0 : _39.nextAiringEpisode) === null || _40 === void 0 ? void 0 : _40.episode) ? ((_41 = data.data.Media.nextAiringEpisode) === null || _41 === void 0 ? void 0 : _41.episode) - 1 : (_42 = data.data.Media) === null || _42 === void 0 ? void 0 : _42.episodes;
+                animeInfo.currentEpisode = ((_40 = (_39 = data.data.Media) === null || _39 === void 0 ? void 0 : _39.nextAiringEpisode) === null || _40 === void 0 ? void 0 : _40.episode)
+                    ? ((_41 = data.data.Media.nextAiringEpisode) === null || _41 === void 0 ? void 0 : _41.episode) - 1
+                    : (_42 = data.data.Media) === null || _42 === void 0 ? void 0 : _42.episodes;
                 animeInfo.rating = data.data.Media.averageScore;
                 animeInfo.duration = data.data.Media.duration;
                 animeInfo.genres = data.data.Media.genres;
@@ -573,7 +579,11 @@ class Anilist extends models_1.AnimeParser {
                     const sitesT = malAsyncReq.data.Sites;
                     let sites = Object.values(sitesT).map((v, i) => {
                         const obj = [...Object.values(Object.values(sitesT)[i])];
-                        const pages = obj.map(v => ({ page: v.page, url: v.url, title: v.title }));
+                        const pages = obj.map((v) => ({
+                            page: v.page,
+                            url: v.url,
+                            title: v.title,
+                        }));
                         return pages;
                     });
                     sites = sites.flat();
@@ -1231,7 +1241,9 @@ class Anilist extends models_1.AnimeParser {
                         episode: (_m = data.data.Media.nextAiringEpisode) === null || _m === void 0 ? void 0 : _m.episode,
                     };
                 animeInfo.totalEpisodes = (_p = (_o = data.data.Media) === null || _o === void 0 ? void 0 : _o.episodes) !== null && _p !== void 0 ? _p : ((_q = data.data.Media.nextAiringEpisode) === null || _q === void 0 ? void 0 : _q.episode) - 1;
-                animeInfo.currentEpisode = ((_s = (_r = data.data.Media) === null || _r === void 0 ? void 0 : _r.nextAiringEpisode) === null || _s === void 0 ? void 0 : _s.episode) ? ((_t = data.data.Media.nextAiringEpisode) === null || _t === void 0 ? void 0 : _t.episode) - 1 : ((_u = data.data.Media) === null || _u === void 0 ? void 0 : _u.episodes) || undefined;
+                animeInfo.currentEpisode = ((_s = (_r = data.data.Media) === null || _r === void 0 ? void 0 : _r.nextAiringEpisode) === null || _s === void 0 ? void 0 : _s.episode)
+                    ? ((_t = data.data.Media.nextAiringEpisode) === null || _t === void 0 ? void 0 : _t.episode) - 1
+                    : ((_u = data.data.Media) === null || _u === void 0 ? void 0 : _u.episodes) || undefined;
                 animeInfo.rating = data.data.Media.averageScore;
                 animeInfo.duration = data.data.Media.duration;
                 animeInfo.genres = data.data.Media.genres;
@@ -1779,14 +1791,6 @@ Anilist.Manga = class Manga {
 };
 // (async () => {
 //   const ani = new Anilist();
-//   // const search = await ani.fetchAnimeInfo('136430');
-//   const trending = await ani.fetchTrendingAnime();
-//   const popular = await ani.fetchPopularAnime();
-//   const recent = await ani.fetchRecentEpisodes();
-//   // const sources = await ani.fetchEpisodeSources(search.episodes![5].id);
-//   console.log(trending.results[0]?.color);
-//   console.log(popular.results[0]?.color);
-//   console.log(recent.results[0]?.color);
 // })();
 exports.default = Anilist;
 //# sourceMappingURL=anilist.js.map
