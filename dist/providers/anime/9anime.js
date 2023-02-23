@@ -21,8 +21,6 @@ class NineAnime extends models_1.AnimeParser {
         this.classPath = 'ANIME.NineAnime';
         this.isWorking = false;
         this.nineAnimeResolver = nineAnimeResolver !== null && nineAnimeResolver !== void 0 ? nineAnimeResolver : this.nineAnimeResolver;
-        if (this.nineAnimeResolver === '')
-            throw new Error('9Anime resolver is not set.');
     }
     async search(query, page = 1) {
         const searchResult = {

@@ -32,8 +32,6 @@ class NineAnime extends AnimeParser {
   constructor(nineAnimeResolver?: string) {
     super();
     this.nineAnimeResolver = nineAnimeResolver ?? this.nineAnimeResolver;
-
-    if (this.nineAnimeResolver === '') throw new Error('9Anime resolver is not set.');
   }
 
   override async search(query: string, page: number = 1): Promise<ISearch<IAnimeResult>> {

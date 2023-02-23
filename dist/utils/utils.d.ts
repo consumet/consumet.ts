@@ -17,4 +17,3 @@ export declare function convertDuration(milliseconds: number): string;
 export declare const compareTwoStrings: (first: string, second: string) => number;
 export declare const substringAfter: (str: string, toFind: string) => string;
 export declare const substringBefore: (str: string, toFind: string) => string;
-export declare const toMap: <T>(arr: T[]) => [number, T][];

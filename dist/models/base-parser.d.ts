@@ -8,6 +8,7 @@ declare abstract class BaseParser extends BaseProvider {
      */
     setProxy(proxy: ProxyConfig): void;
     private rotateProxy;
+    private toMap;
     protected client: AxiosInstance;
     /**
      * Search for books/anime/manga/etc using the given query

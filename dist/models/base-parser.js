@@ -5,7 +5,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const axios_1 = __importDefault(require("axios"));
 const _1 = require(".");
-const utils_1 = require("../utils");
 class BaseParser extends _1.BaseProvider {
     constructor(baseUrl, proxy) {
         super();
@@ -21,6 +20,7 @@ class BaseParser extends _1.BaseProvider {
                 this.setProxy({ url: proxy.urls[0], key: proxy.key });
             }, ms);
         };
+        this.toMap = (arr) => arr.map((v, i) => [i, v]);
         this.client = axios_1.default.create({
             baseURL: baseUrl,
         });
@@ -37,7 +37,7 @@ class BaseParser extends _1.BaseProvider {
             if (!this.validUrl.test(proxy.url))
                 throw new Error('Proxy URL is invalid!');
         if (Array.isArray(proxy === null || proxy === void 0 ? void 0 : proxy.url)) {
-            for (const [i, url] of (0, utils_1.toMap)(proxy.url))
+            for (const [i, url] of this.toMap(proxy.url))
                 if (!this.validUrl.test(url))
                     throw new Error(`Proxy URL at index ${i} is invalid!`);
             this.rotateProxy(Object.assign(Object.assign({}, proxy), { urls: proxy.url }));

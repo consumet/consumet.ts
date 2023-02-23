@@ -39,11 +39,7 @@ abstract class BaseParser extends BaseProvider {
     });
   }
 
-  // Change the type of ProxyConfig.url to string[] and use this function
-  // to rotate the proxy every 5 seconds
-
   private rotateProxy = (proxy: Omit<ProxyConfig, 'url'> & { urls: string[] }, ms: number = 5000) => {
-    // rotate proxy every 5 seconds
     setInterval(() => {
       const url = proxy.urls.shift();
       if (url) proxy.urls.push(url);
