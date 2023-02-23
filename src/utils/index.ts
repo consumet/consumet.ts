@@ -26,7 +26,6 @@ import {
   substringAfter,
   substringBefore,
   compareTwoStrings,
-  toMap,
 } from './utils';
 import {
   anilistSearchQuery,
@@ -79,5 +78,4 @@ export {
   substringAfter,
   substringBefore,
   compareTwoStrings,
-  toMap,
 };

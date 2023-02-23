@@ -1,7 +1,6 @@
 import axios, { AxiosInstance } from 'axios';
 
 import { BaseProvider, ProxyConfig } from '.';
-import { toMap } from '../utils';
 
 abstract class BaseParser extends BaseProvider {
   constructor(baseUrl?: string, proxy?: ProxyConfig) {
@@ -22,7 +21,7 @@ abstract class BaseParser extends BaseProvider {
     if (typeof proxy?.url === 'string')
       if (!this.validUrl.test(proxy.url)) throw new Error('Proxy URL is invalid!');
     if (Array.isArray(proxy?.url)) {
-      for (const [i, url] of toMap<string>(proxy.url))
+      for (const [i, url] of this.toMap<string>(proxy.url))
         if (!this.validUrl.test(url)) throw new Error(`Proxy URL at index ${i} is invalid!`);
 
       this.rotateProxy({ ...proxy, urls: proxy.url });
@@ -52,6 +51,8 @@ abstract class BaseParser extends BaseProvider {
       this.setProxy({ url: proxy.urls[0], key: proxy.key });
     }, ms);
   };
+
+  private toMap = <T>(arr: T[]): [number, T][] => arr.map((v, i) => [i, v]);
 
   protected client: AxiosInstance;
 
