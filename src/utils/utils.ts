@@ -141,5 +141,3 @@ export const substringBefore = (str: string, toFind: string) => {
   const index = str.indexOf(toFind);
   return index == -1 ? '' : str.substring(0, index);
 };
-
-export const toMap = <T>(arr: T[]): [number, T][] => arr.map((v, i) => [i, v]);
