@@ -103,7 +103,7 @@ class NineAnime extends AnimeParser {
     }
   }
 
-  override async fetchAnimeInfo(animeUrl: string, isDub: boolean = true): Promise<IAnimeInfo> {
+  override async fetchAnimeInfo(animeUrl: string, isDub: boolean = false): Promise<IAnimeInfo> {
     if (!animeUrl.startsWith(this.baseUrl)) animeUrl = `${this.baseUrl}/watch/${animeUrl}`;
 
     const animeInfo: IAnimeInfo = {
@@ -205,7 +205,6 @@ class NineAnime extends AnimeParser {
       animeInfo.totalEpisodes = $$('div.episodes > ul > li > a').length;
       animeInfo.episodes = [];
 
-      const promises = [];
       const episodes: IAnimeEpisode[] = [];
       $$('div.episodes > ul > li > a').map((i, el) => {
         $$(el)
@@ -221,8 +220,6 @@ class NineAnime extends AnimeParser {
               number: number,
               title: title,
               isFiller: isFiller,
-              url: `${id}`,
-              // url: `${this.baseUrl}/ajax/server/list/${id}?vrf=${vrf}`,
             });
           })
           .get();
@@ -233,19 +230,6 @@ class NineAnime extends AnimeParser {
     } catch (err) {
       throw new Error((err as Error).message);
     }
-  }
-
-  async extractVizCloudURL(serverID: string) {
-    const serverVrf = (await axios.get(`${this.nineAnimeResolver}/vrf?query=${encodeURIComponent(serverID)}`))
-      .data.url;
-    const serverSource = (await axios.get(`https://9anime.to/ajax/server/${serverID}?vrf=${serverVrf}`)).data;
-    const vizCloudURL = (
-      await axios.get(
-        `${this.nineAnimeResolver}/decrypt?query=${encodeURIComponent(serverSource.result.url)}`
-      )
-    ).data.url;
-
-    return vizCloudURL;
   }
 
   override async fetchEpisodeSources(
@@ -307,10 +291,28 @@ class NineAnime extends AnimeParser {
           throw new Error('Server not found');
       }
 
-      const vizCloudURL = await this.extractVizCloudURL(s.url);
-      const response: ISource = await this.fetchEpisodeSources(vizCloudURL, server);
 
-      return response;
+      const serverVrf = (await axios.get(`${this.nineAnimeResolver}/vrf?query=${encodeURIComponent(s.url)}`))
+        .data.url;
+      const serverSource = (await axios.get(`https://9anime.to/ajax/server/${s.url}?vrf=${serverVrf}`)).data;
+      const vizCloudURL = (
+        await axios.get(
+          `${this.nineAnimeResolver}/decrypt?query=${encodeURIComponent(serverSource.result.url)}`
+        )
+      ).data.url;
+      
+      if (vizCloudURL.startsWith('http')) {
+        const response =  await this.fetchEpisodeSources(vizCloudURL, server);
+        response.intro = {
+          start : serverSource?.result?.skip_data?.intro_begin ?? 0,
+          end : serverSource?.result?.skip_data?.intro_end ?? 0,
+        };
+
+        return response;
+      } else {
+        throw new Error("Server did not respond correctly");
+      }
+
     } catch (err) {
       console.log(err);
       throw new Error((err as Error).message);
@@ -343,14 +345,11 @@ class NineAnime extends AnimeParser {
     const { data } = await axios.get(`${this.nineAnimeResolver}/vrf?query=${encodeURIComponent(query)}`);
     return data.url;
   }
-
-  private dv(query: string): string {
-    return '';
-  }
 }
 
 // let _9 = new NineAnime();
 // _9.search("odd taxi").then((x) => console.log(x)).catch((x) => console.error(x));
-// _9.fetchAnimeInfo("oddtaxi.3w6y").then((x) => console.log(x)).catch((x) => console.error(x));
-// _9.fetchEpisodeSources("152510").then((x) => console.log(x)).catch((x) => console.error(x));
+// _9.fetchAnimeInfo("attack-on-titan.kww", true).then((x) => console.log(x.episodes![0].id)).catch((x) => console.error(x));
+// _9.fetchAnimeInfo("attack-on-titan.kww", false).then((x) => console.log(x.episodes![0].id)).catch((x) => console.error(x));
+// _9.fetchEpisodeSources("174321").then((x) => console.log(x)).catch((x) => console.error(x));
 export default NineAnime;
