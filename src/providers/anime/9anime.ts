@@ -308,9 +308,13 @@ class NineAnime extends AnimeParser {
       }
 
       const vizCloudURL = await this.extractVizCloudURL(s.url);
-      const response: ISource = await this.fetchEpisodeSources(vizCloudURL, server);
+      
+      if(vizCloudURL.startsWith('http')){
+          return await this.fetchEpisodeSources(vizCloudURL, server);
+      }else{
+          throw new Error('Server did not respond correctly');
+      }
 
-      return response;
     } catch (err) {
       console.log(err);
       throw new Error((err as Error).message);
