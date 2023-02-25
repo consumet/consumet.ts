@@ -9,10 +9,7 @@ class BaseParser extends _1.BaseProvider {
     constructor(baseUrl, proxy) {
         super();
         this.validUrl = /^https?:\/\/.+/;
-        // Change the type of ProxyConfig.url to string[] and use this function
-        // to rotate the proxy every 5 seconds
         this.rotateProxy = (proxy, ms = 5000) => {
-            // rotate proxy every 5 seconds
             setInterval(() => {
                 const url = proxy.urls.shift();
                 if (url)

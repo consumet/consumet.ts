@@ -194,15 +194,12 @@ class NineAnime extends models_1.AnimeParser {
             throw new Error(err.message);
         }
     }
-    async extractServerViz(serverID) {
+    async extractVizCloudURL(serverID) {
         const serverVrf = (await axios_1.default.get(`${this.nineAnimeResolver}/vrf?query=${encodeURIComponent(serverID)}`))
             .data.url;
         const serverSource = (await axios_1.default.get(`https://9anime.to/ajax/server/${serverID}?vrf=${serverVrf}`)).data;
-        const vidStreamID = (await axios_1.default.get(`${this.nineAnimeResolver}/decrypt?query=${encodeURIComponent(serverSource.result.url)}`)).data.url
-            .split('/')
-            .pop();
-        const m3u8File = (await axios_1.default.get(`${this.nineAnimeResolver}/getLink?query=${encodeURIComponent(vidStreamID)}`)).data.data.media.sources[0].file;
-        return m3u8File;
+        const vizCloudURL = (await axios_1.default.get(`${this.nineAnimeResolver}/decrypt?query=${encodeURIComponent(serverSource.result.url)}`)).data.url;
+        return vizCloudURL;
     }
     async fetchEpisodeSources(episodeId, server = models_1.StreamingServers.VizCloud) {
         if (episodeId.startsWith('http')) {
@@ -216,12 +213,12 @@ class NineAnime extends models_1.AnimeParser {
                 case models_1.StreamingServers.VizCloud:
                     return {
                         headers: { Referer: serverUrl.href, 'User-Agent': utils_1.USER_AGENT },
-                        sources: await new extractors_1.VizCloud().extract(serverUrl, (query, string) => '', (query, string) => ''), // todo
+                        sources: await new extractors_1.VizCloud().extract(serverUrl, this.nineAnimeResolver),
                     };
                 case models_1.StreamingServers.MyCloud:
                     return {
                         headers: { Referer: serverUrl.href, 'User-Agent': utils_1.USER_AGENT },
-                        sources: await new extractors_1.VizCloud().extract(serverUrl, (query, string) => '', (query, string) => ''),
+                        sources: await new extractors_1.VizCloud().extract(serverUrl, this.nineAnimeResolver),
                     };
                 case models_1.StreamingServers.Filemoon:
                     return {
@@ -257,12 +254,12 @@ class NineAnime extends models_1.AnimeParser {
                 default:
                     throw new Error('Server not found');
             }
-            const response = {
-                sources: [await this.extractServerViz(s.url)],
-            };
+            const vizCloudURL = await this.extractVizCloudURL(s.url);
+            const response = await this.fetchEpisodeSources(vizCloudURL, server);
             return response;
         }
         catch (err) {
+            console.log(err);
             throw new Error(err.message);
         }
     }

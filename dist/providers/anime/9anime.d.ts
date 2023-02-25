@@ -12,7 +12,7 @@ declare class NineAnime extends AnimeParser {
     constructor(nineAnimeResolver?: string);
     search(query: string, page?: number): Promise<ISearch<IAnimeResult>>;
     fetchAnimeInfo(animeUrl: string, isDub?: boolean): Promise<IAnimeInfo>;
-    extractServerViz(serverID: string): Promise<any>;
+    extractVizCloudURL(serverID: string): Promise<any>;
     fetchEpisodeSources(episodeId: string, server?: StreamingServers): Promise<ISource>;
     fetchEpisodeServers(episodeId: string): Promise<IEpisodeServer[]>;
     private ev;
