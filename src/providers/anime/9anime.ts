@@ -235,21 +235,17 @@ class NineAnime extends AnimeParser {
     }
   }
 
-  async extractServerViz(serverID: string) {
+  async extractVizCloudURL(serverID: string) {
     const serverVrf = (await axios.get(`${this.nineAnimeResolver}/vrf?query=${encodeURIComponent(serverID)}`))
       .data.url;
     const serverSource = (await axios.get(`https://9anime.to/ajax/server/${serverID}?vrf=${serverVrf}`)).data;
-    const vidStreamID = (
+    const vizCloudURL = (
       await axios.get(
         `${this.nineAnimeResolver}/decrypt?query=${encodeURIComponent(serverSource.result.url)}`
       )
-    ).data.url
-      .split('/')
-      .pop();
-    const m3u8File = (
-      await axios.get(`${this.nineAnimeResolver}/getLink?query=${encodeURIComponent(vidStreamID)}`)
-    ).data.data.media.sources[0].file;
-    return m3u8File;
+    ).data.url;
+
+    return vizCloudURL;
   }
 
   override async fetchEpisodeSources(
@@ -269,17 +265,15 @@ class NineAnime extends AnimeParser {
             headers: { Referer: serverUrl.href, 'User-Agent': USER_AGENT },
             sources: await new VizCloud().extract(
               serverUrl,
-              (query, string) => '',
-              (query, string) => ''
-            ), // todo
+              this.nineAnimeResolver
+            ),
           };
         case StreamingServers.MyCloud:
           return {
             headers: { Referer: serverUrl.href, 'User-Agent': USER_AGENT },
             sources: await new VizCloud().extract(
               serverUrl,
-              (query, string) => '',
-              (query, string) => ''
+              this.nineAnimeResolver
             ),
           };
         case StreamingServers.Filemoon:
@@ -313,12 +307,12 @@ class NineAnime extends AnimeParser {
           throw new Error('Server not found');
       }
 
-      const response: ISource = {
-        sources: [await this.extractServerViz(s.url)],
-      };
+      const vizCloudURL = await this.extractVizCloudURL(s.url);
+      const response: ISource = await this.fetchEpisodeSources(vizCloudURL, server);
 
       return response;
     } catch (err) {
+      console.log(err);
       throw new Error((err as Error).message);
     }
   }
