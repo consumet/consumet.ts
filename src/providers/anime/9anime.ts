@@ -24,15 +24,17 @@ import { USER_AGENT, range } from '../../utils';
 class NineAnime extends AnimeParser {
   override readonly name = '9Anime';
   private nineAnimeResolver = '';
+  private apiKey = '';
   protected override baseUrl = 'https://9anime.pl';
   protected override logo =
     'https://d1nxzqpcg2bym0.cloudfront.net/google_play/com.my.nineanime/87b2fe48-9c36-11eb-8292-21241b1c199b/128x128';
   protected override classPath = 'ANIME.NineAnime';
   override readonly isWorking = false;
 
-  constructor(nineAnimeResolver?: string, proxyConfig?: ProxyConfig) {
-    super(`https://9anime.pl`, proxyConfig);
+  constructor(nineAnimeResolver?: string, proxyConfig?: ProxyConfig, apiKey?: string) {
+    super("https://9anime.pl", (proxyConfig && proxyConfig.url) ? proxyConfig : undefined);
     this.nineAnimeResolver = nineAnimeResolver ?? this.nineAnimeResolver;
+    this.apiKey = apiKey ?? this.apiKey;
   }
 
   override async search(query: string, page: number = 1): Promise<ISearch<IAnimeResult>> {
@@ -248,12 +250,12 @@ class NineAnime extends AnimeParser {
         case StreamingServers.VizCloud:
           return {
             headers: { Referer: serverUrl.href, 'User-Agent': USER_AGENT },
-            sources: await new VizCloud().extract(serverUrl, this.nineAnimeResolver),
+            sources: await new VizCloud().extract(serverUrl, this.nineAnimeResolver, this.apiKey),
           };
         case StreamingServers.MyCloud:
           return {
             headers: { Referer: serverUrl.href, 'User-Agent': USER_AGENT },
-            sources: await new VizCloud().extract(serverUrl, this.nineAnimeResolver),
+            sources: await new VizCloud().extract(serverUrl, this.nineAnimeResolver, this.apiKey),
           };
         case StreamingServers.Filemoon:
           return {
@@ -286,17 +288,18 @@ class NineAnime extends AnimeParser {
           throw new Error('Server not found');
       }
 
-      const serverVrf = (await axios.get(`${this.nineAnimeResolver}/vrf?query=${encodeURIComponent(s.url)}`))
+      const serverVrf = (await axios.get(`${this.nineAnimeResolver}/vrf?query=${encodeURIComponent(s.url)}&apikey=${this.apiKey}`))
         .data.url;
       const serverSource = (await this.client.get(`/ajax/server/${s.url}?vrf=${serverVrf}`)).data;
-      const vizCloudURL = (
+      const embedURL = (
         await axios.get(
-          `${this.nineAnimeResolver}/decrypt?query=${encodeURIComponent(serverSource.result.url)}`
+          `${this.nineAnimeResolver}/decrypt?query=${encodeURIComponent(serverSource.result.url)}&apikey=${this.apiKey}`
         )
       ).data.url;
 
-      if (vizCloudURL.startsWith('http')) {
-        const response = await this.fetchEpisodeSources(vizCloudURL, server);
+      if (embedURL.startsWith('http')) {
+        const response : ISource = await this.fetchEpisodeSources(embedURL, server);
+        response.embedURL = embedURL;
         response.intro = {
           start: serverSource?.result?.skip_data?.intro_begin ?? 0,
           end: serverSource?.result?.skip_data?.intro_end ?? 0,
@@ -334,7 +337,7 @@ class NineAnime extends AnimeParser {
   }
 
   private async ev(query: string): Promise<string> {
-    const { data } = await axios.get(`${this.nineAnimeResolver}/vrf?query=${encodeURIComponent(query)}`);
+    const { data } = await axios.get(`${this.nineAnimeResolver}/vrf?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`);
     return data.url;
   }
 }
@@ -343,7 +346,7 @@ class NineAnime extends AnimeParser {
 //   const nineAnime = new NineAnime();
 //   const searchResults = await nineAnime.search('attack on titan');
 //   const animeInfo = await nineAnime.fetchAnimeInfo(searchResults.results[0].id);
-//   const episodeSources = await nineAnime.fetchEpisodeSources(animeInfo.episodes![0].id);
+//   const episodeSources = await nineAnime.fetchEpisodeSources(animeInfo.episodes![0].id, StreamingServers.Filemoon);
 //   console.log(episodeSources);
 // })();
 

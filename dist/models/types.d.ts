@@ -293,6 +293,7 @@ export interface ISource {
     subtitles?: ISubtitle[];
     sources: IVideo[];
     download?: string;
+    embedURL?: string;
 }
 /**
  * Used **only** for movie/tvshow providers
