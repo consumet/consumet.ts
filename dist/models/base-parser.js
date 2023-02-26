@@ -29,7 +29,7 @@ class BaseParser extends _1.BaseProvider {
      */
     setProxy(proxy) {
         if (!(proxy === null || proxy === void 0 ? void 0 : proxy.url))
-            throw new Error('Proxy URL is required!');
+            return;
         if (typeof (proxy === null || proxy === void 0 ? void 0 : proxy.url) === 'string')
             if (!this.validUrl.test(proxy.url))
                 throw new Error('Proxy URL is invalid!');

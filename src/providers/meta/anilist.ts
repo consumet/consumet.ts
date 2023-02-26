@@ -2100,6 +2100,10 @@ class Anilist extends AnimeParser {
 
 // (async () => {
 //   const ani = new Anilist();
+//   const search = await ani.search('naruto');
+//   const anime = await ani.fetchAnimeInfo(search.results[0].id);
+//   const sources = await ani.fetchEpisodeSources(anime.episodes![0].id);
+//   console.log(anime);
 // })();
 
 export default Anilist;
