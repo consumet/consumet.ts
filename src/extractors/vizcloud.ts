@@ -25,7 +25,8 @@ class VizCloud extends VideoExtractor {
 
   override extract = async (
     videoUrl: URL,
-    vizCloudHelper : string
+    vizCloudHelper : string,
+    apiKey : string,
   ): Promise<IVideo[]> => {
 
     const vizID: Array<string> = videoUrl.href.split("/");
@@ -33,7 +34,7 @@ class VizCloud extends VideoExtractor {
     if (!vizID.length) {
       throw new Error('Video not found');
     } else {
-      url = `${vizCloudHelper}/vizcloud?query=${vizID.pop()}`;
+      url = `${vizCloudHelper}/vizcloud?query=${vizID.pop()}&apikey=${apiKey}`;
     }
 
     const { data } = await axios.get(url);

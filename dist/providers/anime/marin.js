@@ -107,7 +107,6 @@ class Marin extends models_1.AnimeParser {
                     },
                 });
                 data = await response.data;
-                console.log(data);
             }
             catch (error) {
                 console.log(error);
