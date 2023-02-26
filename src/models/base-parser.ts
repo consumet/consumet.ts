@@ -17,9 +17,11 @@ abstract class BaseParser extends BaseProvider {
    * Set or Change the proxy config
    */
   setProxy(proxy: ProxyConfig) {
-    if (!proxy?.url) throw new Error('Proxy URL is required!');
+    if (!proxy?.url) return;
+
     if (typeof proxy?.url === 'string')
       if (!this.validUrl.test(proxy.url)) throw new Error('Proxy URL is invalid!');
+
     if (Array.isArray(proxy?.url)) {
       for (const [i, url] of this.toMap<string>(proxy.url))
         if (!this.validUrl.test(url)) throw new Error(`Proxy URL at index ${i} is invalid!`);

@@ -289,7 +289,7 @@ class NineAnime extends models_1.AnimeParser {
     }
 }
 // (async () => {
-//   const nineAnime = new NineAnime("https://9anime.enimax.xyz", {"url" : ""},"d2201a320490458a9cee7360f1da6252");
+//   const nineAnime = new NineAnime();
 //   const searchResults = await nineAnime.search('attack on titan');
 //   const animeInfo = await nineAnime.fetchAnimeInfo(searchResults.results[0].id);
 //   const episodeSources = await nineAnime.fetchEpisodeSources(animeInfo.episodes![0].id, StreamingServers.Filemoon);
