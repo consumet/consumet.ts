@@ -38,10 +38,24 @@ class VizCloud extends models_1.VideoExtractor {
                     var _a;
                     return ({
                         url: source.file,
+                        quality: 'auto',
                         isM3U8: (_a = source.file) === null || _a === void 0 ? void 0 : _a.includes('.m3u8'),
                     });
                 }),
             ];
+            const main = this.sources[this.sources.length - 1].url;
+            const req = await axios_1.default.get(main);
+            const resolutions = req.data.match(/(RESOLUTION=)(.*)(\s*?)(\s*.*)/g);
+            resolutions === null || resolutions === void 0 ? void 0 : resolutions.forEach((res) => {
+                const index = main.lastIndexOf('/');
+                const quality = res.split('\n')[0].split('x')[1].split(',')[0];
+                const url = main.slice(0, index);
+                this.sources.push({
+                    url: url + '/' + res.split('\n')[1],
+                    isM3U8: (url + res.split('\n')[1]).includes('.m3u8'),
+                    quality: quality + 'p',
+                });
+            });
             return this.sources;
         };
     }
