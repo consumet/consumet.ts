@@ -60,14 +60,6 @@ class NineAnime extends AnimeParser {
           : false;
 
       $('#list-items > div.item').each((i, el) => {
-        const subs = $(el)
-          .find('div.ani > a > div.meta > div > div.left > span.ep-status')
-          .map((i, el) => {
-            if ($(el).hasClass('sub')) return SubOrSub.SUB;
-            else if ($(el).hasClass('dub')) return SubOrSub.DUB;
-          })
-          .get();
-
         let type = undefined;
         switch ($(el).find('div > div.ani > a > div.meta > div > div.right').text()!.trim()) {
           case 'MOVIE':
@@ -95,8 +87,9 @@ class NineAnime extends AnimeParser {
           title: $(el).find('div > div.info > div.b1 > a').text()!,
           url: `${this.baseUrl}${$(el).find('div > div.ani > a').attr('href')}`,
           image: $(el).find('div > div.ani > a > img').attr('src'),
-          subOrDub: subs.includes(SubOrSub.SUB) && subs.includes(SubOrSub.DUB) ? SubOrSub.BOTH : subs[0],
           type: type,
+          hasSub: $(el).find('div > div.ani > a .meta .sub').length > 0,
+          hasDub: $(el).find('div > div.ani > a .meta .dub').length > 0
         });
       });
 
@@ -106,7 +99,7 @@ class NineAnime extends AnimeParser {
     }
   }
 
-  override async fetchAnimeInfo(animeUrl: string, isDub: boolean = false): Promise<IAnimeInfo> {
+  override async fetchAnimeInfo(animeUrl: string): Promise<IAnimeInfo> {
     if (!animeUrl.startsWith(this.baseUrl)) animeUrl = `/watch/${animeUrl}`;
 
     const animeInfo: IAnimeInfo = {
@@ -197,6 +190,8 @@ class NineAnime extends AnimeParser {
         .text()
         .split('; ')
         .map(name => name?.trim());
+      animeInfo.hasSub = $('div#w-info > .binfo > .info > .meta .sub').length == 1
+      animeInfo.hasDub = $('div#w-info > .binfo > .info > .meta .dub').length == 1
 
       const id = $('#watch-main').attr('data-id')!;
 
@@ -213,13 +208,13 @@ class NineAnime extends AnimeParser {
         $$(el)
           .map((i, el) => {
             const possibleIds = $$(el).attr('data-ids')?.split(',')!;
-            const id = possibleIds[isDub ? 1 : 0] ?? possibleIds[0];
             const number = parseInt($$(el).attr('data-num')?.toString()!);
             const title = $$(el).find('span').text().length > 0 ? $$(el).find('span').text() : undefined;
             const isFiller = $$(el).hasClass('filler');
 
             episodes.push({
-              id: id,
+              id: possibleIds[0],
+              dubId: possibleIds[1],
               number: number,
               title: title,
               isFiller: isFiller,

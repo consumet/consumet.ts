@@ -43,6 +43,7 @@ import Zoro from '../anime/zoro';
 import Mangasee123 from '../manga/mangasee123';
 import Crunchyroll from '../anime/crunchyroll';
 import Bilibili from '../anime/bilibili';
+import NineAnime from '../anime/9anime';
 import { compareTwoStrings } from '../../utils/utils';
 
 class Anilist extends AnimeParser {
@@ -792,6 +793,19 @@ class Anilist extends AnimeParser {
           return possibleAnime.episodes[key];
         });
       return nestedEpisodes.flat();
+    }
+
+    if (this.provider instanceof NineAnime) {
+      possibleAnime.episodes.forEach((_: any, index: number) => {
+        if (expectedType == SubOrSub.DUB) {
+          possibleAnime.episodes[index].id = possibleAnime.episodes[index].dubId
+        }
+
+        if (possibleAnime.episodes[index].dubId) {
+          delete possibleAnime.episodes[index].dubId;
+        }
+      });
+      possibleAnime.episodes = possibleAnime.episodes.filter((el: any) => el.id != undefined)
     }
 
     const possibleProviderEpisodes = possibleAnime.episodes as IAnimeEpisode[];
