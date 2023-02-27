@@ -13,6 +13,7 @@ const zoro_1 = __importDefault(require("../anime/zoro"));
 const mangasee123_1 = __importDefault(require("../manga/mangasee123"));
 const crunchyroll_1 = __importDefault(require("../anime/crunchyroll"));
 const bilibili_1 = __importDefault(require("../anime/bilibili"));
+const _9anime_1 = __importDefault(require("../anime/9anime"));
 const utils_2 = require("../../utils/utils");
 class Anilist extends models_1.AnimeParser {
     /**
@@ -656,6 +657,17 @@ class Anilist extends models_1.AnimeParser {
                     return possibleAnime.episodes[key];
                 });
                 return nestedEpisodes.flat();
+            }
+            if (this.provider instanceof _9anime_1.default) {
+                possibleAnime.episodes.forEach((_, index) => {
+                    if (expectedType == models_1.SubOrSub.DUB) {
+                        possibleAnime.episodes[index].id = possibleAnime.episodes[index].dubId;
+                    }
+                    if (possibleAnime.episodes[index].dubId) {
+                        delete possibleAnime.episodes[index].dubId;
+                    }
+                });
+                possibleAnime.episodes = possibleAnime.episodes.filter((el) => el.id != undefined);
             }
             const possibleProviderEpisodes = possibleAnime.episodes;
             if (typeof ((_b = possibleProviderEpisodes[0]) === null || _b === void 0 ? void 0 : _b.image) !== 'undefined' &&

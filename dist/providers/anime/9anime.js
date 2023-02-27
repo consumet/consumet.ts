@@ -42,15 +42,6 @@ class NineAnime extends models_1.AnimeParser {
                     : false;
             $('#list-items > div.item').each((i, el) => {
                 var _a;
-                const subs = $(el)
-                    .find('div.ani > a > div.meta > div > div.left > span.ep-status')
-                    .map((i, el) => {
-                    if ($(el).hasClass('sub'))
-                        return models_1.SubOrSub.SUB;
-                    else if ($(el).hasClass('dub'))
-                        return models_1.SubOrSub.DUB;
-                })
-                    .get();
                 let type = undefined;
                 switch ($(el).find('div > div.ani > a > div.meta > div > div.right').text().trim()) {
                     case 'MOVIE':
@@ -77,8 +68,9 @@ class NineAnime extends models_1.AnimeParser {
                     title: $(el).find('div > div.info > div.b1 > a').text(),
                     url: `${this.baseUrl}${$(el).find('div > div.ani > a').attr('href')}`,
                     image: $(el).find('div > div.ani > a > img').attr('src'),
-                    subOrDub: subs.includes(models_1.SubOrSub.SUB) && subs.includes(models_1.SubOrSub.DUB) ? models_1.SubOrSub.BOTH : subs[0],
                     type: type,
+                    hasSub: $(el).find('div > div.ani > a .meta .sub').length > 0,
+                    hasDub: $(el).find('div > div.ani > a .meta .dub').length > 0
                 });
             });
             return searchResult;
@@ -87,7 +79,7 @@ class NineAnime extends models_1.AnimeParser {
             throw new Error(err.message);
         }
     }
-    async fetchAnimeInfo(animeUrl, isDub = false) {
+    async fetchAnimeInfo(animeUrl) {
         var _a, _b, _c, _d, _e;
         if (!animeUrl.startsWith(this.baseUrl))
             animeUrl = `/watch/${animeUrl}`;
@@ -161,6 +153,8 @@ class NineAnime extends models_1.AnimeParser {
                 .text()
                 .split('; ')
                 .map(name => name === null || name === void 0 ? void 0 : name.trim());
+            animeInfo.hasSub = $('div#w-info > .binfo > .info > .meta .sub').length == 1;
+            animeInfo.hasDub = $('div#w-info > .binfo > .info > .meta .dub').length == 1;
             const id = $('#watch-main').attr('data-id');
             const vrf = await this.ev(id);
             const { data: { result }, } = await this.client.get(`/ajax/episode/list/${id}?vrf=${vrf}`);
@@ -171,14 +165,14 @@ class NineAnime extends models_1.AnimeParser {
             $$('div.episodes > ul > li > a').map((i, el) => {
                 $$(el)
                     .map((i, el) => {
-                    var _a, _b, _c;
+                    var _a, _b;
                     const possibleIds = (_a = $$(el).attr('data-ids')) === null || _a === void 0 ? void 0 : _a.split(',');
-                    const id = (_b = possibleIds[isDub ? 1 : 0]) !== null && _b !== void 0 ? _b : possibleIds[0];
-                    const number = parseInt((_c = $$(el).attr('data-num')) === null || _c === void 0 ? void 0 : _c.toString());
+                    const number = parseInt((_b = $$(el).attr('data-num')) === null || _b === void 0 ? void 0 : _b.toString());
                     const title = $$(el).find('span').text().length > 0 ? $$(el).find('span').text() : undefined;
                     const isFiller = $$(el).hasClass('filler');
                     episodes.push({
-                        id: id,
+                        id: possibleIds[0],
+                        dubId: possibleIds[1],
                         number: number,
                         title: title,
                         isFiller: isFiller,
