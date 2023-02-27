@@ -13,7 +13,7 @@ const utils_1 = require("../../utils");
  */
 class NineAnime extends models_1.AnimeParser {
     constructor(nineAnimeResolver, proxyConfig, apiKey) {
-        super("https://9anime.pl", (proxyConfig && proxyConfig.url) ? proxyConfig : undefined);
+        super('https://9anime.pl', proxyConfig && proxyConfig.url ? proxyConfig : undefined);
         this.name = '9Anime';
         this.nineAnimeResolver = '';
         this.apiKey = '';
@@ -77,7 +77,7 @@ class NineAnime extends models_1.AnimeParser {
                     title: $(el).find('div > div.info > div.b1 > a').text(),
                     url: `${this.baseUrl}${$(el).find('div > div.ani > a').attr('href')}`,
                     image: $(el).find('div > div.ani > a > img').attr('src'),
-                    subOrSub: subs.includes(models_1.SubOrSub.SUB) && subs.includes(models_1.SubOrSub.DUB) ? models_1.SubOrSub.BOTH : subs[0],
+                    subOrDub: subs.includes(models_1.SubOrSub.SUB) && subs.includes(models_1.SubOrSub.DUB) ? models_1.SubOrSub.BOTH : subs[0],
                     type: type,
                 });
             });
@@ -247,8 +247,7 @@ class NineAnime extends models_1.AnimeParser {
                 default:
                     throw new Error('Server not found');
             }
-            const serverVrf = (await axios_1.default.get(`${this.nineAnimeResolver}/vrf?query=${encodeURIComponent(s.url)}&apikey=${this.apiKey}`))
-                .data.url;
+            const serverVrf = (await axios_1.default.get(`${this.nineAnimeResolver}/vrf?query=${encodeURIComponent(s.url)}&apikey=${this.apiKey}`)).data.url;
             const serverSource = (await this.client.get(`/ajax/server/${s.url}?vrf=${serverVrf}`)).data;
             const embedURL = (await axios_1.default.get(`${this.nineAnimeResolver}/decrypt?query=${encodeURIComponent(serverSource.result.url)}&apikey=${this.apiKey}`)).data.url;
             if (embedURL.startsWith('http')) {

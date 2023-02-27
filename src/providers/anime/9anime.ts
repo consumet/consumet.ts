@@ -32,7 +32,7 @@ class NineAnime extends AnimeParser {
   override readonly isWorking = false;
 
   constructor(nineAnimeResolver?: string, proxyConfig?: ProxyConfig, apiKey?: string) {
-    super("https://9anime.pl", (proxyConfig && proxyConfig.url) ? proxyConfig : undefined);
+    super('https://9anime.pl', proxyConfig && proxyConfig.url ? proxyConfig : undefined);
     this.nineAnimeResolver = nineAnimeResolver ?? this.nineAnimeResolver;
     this.apiKey = apiKey ?? this.apiKey;
   }
@@ -95,7 +95,7 @@ class NineAnime extends AnimeParser {
           title: $(el).find('div > div.info > div.b1 > a').text()!,
           url: `${this.baseUrl}${$(el).find('div > div.ani > a').attr('href')}`,
           image: $(el).find('div > div.ani > a > img').attr('src'),
-          subOrSub: subs.includes(SubOrSub.SUB) && subs.includes(SubOrSub.DUB) ? SubOrSub.BOTH : subs[0],
+          subOrDub: subs.includes(SubOrSub.SUB) && subs.includes(SubOrSub.DUB) ? SubOrSub.BOTH : subs[0],
           type: type,
         });
       });
@@ -288,17 +288,22 @@ class NineAnime extends AnimeParser {
           throw new Error('Server not found');
       }
 
-      const serverVrf = (await axios.get(`${this.nineAnimeResolver}/vrf?query=${encodeURIComponent(s.url)}&apikey=${this.apiKey}`))
-        .data.url;
+      const serverVrf = (
+        await axios.get(
+          `${this.nineAnimeResolver}/vrf?query=${encodeURIComponent(s.url)}&apikey=${this.apiKey}`
+        )
+      ).data.url;
       const serverSource = (await this.client.get(`/ajax/server/${s.url}?vrf=${serverVrf}`)).data;
       const embedURL = (
         await axios.get(
-          `${this.nineAnimeResolver}/decrypt?query=${encodeURIComponent(serverSource.result.url)}&apikey=${this.apiKey}`
+          `${this.nineAnimeResolver}/decrypt?query=${encodeURIComponent(serverSource.result.url)}&apikey=${
+            this.apiKey
+          }`
         )
       ).data.url;
 
       if (embedURL.startsWith('http')) {
-        const response : ISource = await this.fetchEpisodeSources(embedURL, server);
+        const response: ISource = await this.fetchEpisodeSources(embedURL, server);
         response.embedURL = embedURL;
         response.intro = {
           start: serverSource?.result?.skip_data?.intro_begin ?? 0,
@@ -337,7 +342,9 @@ class NineAnime extends AnimeParser {
   }
 
   private async ev(query: string): Promise<string> {
-    const { data } = await axios.get(`${this.nineAnimeResolver}/vrf?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`);
+    const { data } = await axios.get(
+      `${this.nineAnimeResolver}/vrf?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`
+    );
     return data.url;
   }
 }
