@@ -214,6 +214,7 @@ class Anilist extends models_1.AnimeParser {
                             popularity: item.popularity,
                             totalEpisodes: (_d = item.episodes) !== null && _d !== void 0 ? _d : ((_e = item.nextAiringEpisode) === null || _e === void 0 ? void 0 : _e.episode) - 1,
                             currentEpisode: (_f = item.nextAiringEpisode) === null || _f === void 0 ? void 0 : _f.episode,
+                            countryOfOrigin: item.countryOfOrigin,
                             description: item.description,
                             genres: item.genres,
                             rating: item.averageScore,
