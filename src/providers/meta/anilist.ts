@@ -268,7 +268,7 @@ class Anilist extends AnimeParser {
             cover: item.bannerImage,
             popularity: item.popularity,
             totalEpisodes: item.episodes ?? item.nextAiringEpisode?.episode - 1,
-            currentEpisode: item.nextAiringEpisode?.episode,
+            currentEpisode: item.nextAiringEpisode?.episode - 1 ?? item.episodes,
             countryOfOrigin: item.countryOfOrigin,
             description: item.description,
             genres: item.genres,
