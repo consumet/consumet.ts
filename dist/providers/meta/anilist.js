@@ -188,7 +188,7 @@ class Anilist extends models_1.AnimeParser {
                     totalPages: (_q = (_p = (_o = data.data) === null || _o === void 0 ? void 0 : _o.Page) === null || _p === void 0 ? void 0 : _p.pageInfo) === null || _q === void 0 ? void 0 : _q.lastPage,
                     totalResults: (_t = (_s = (_r = data.data) === null || _r === void 0 ? void 0 : _r.Page) === null || _s === void 0 ? void 0 : _s.pageInfo) === null || _t === void 0 ? void 0 : _t.total,
                     results: (_x = (_w = (_v = (_u = data.data) === null || _u === void 0 ? void 0 : _u.Page) === null || _v === void 0 ? void 0 : _v.media) === null || _w === void 0 ? void 0 : _w.map((item) => {
-                        var _b, _c, _d, _e, _f;
+                        var _b, _c, _d, _e, _f, _g;
                         return ({
                             id: item.id.toString(),
                             malId: item.idMal,
@@ -213,10 +213,11 @@ class Anilist extends models_1.AnimeParser {
                             cover: item.bannerImage,
                             popularity: item.popularity,
                             totalEpisodes: (_d = item.episodes) !== null && _d !== void 0 ? _d : ((_e = item.nextAiringEpisode) === null || _e === void 0 ? void 0 : _e.episode) - 1,
+                            currentEpisode: (_f = item.nextAiringEpisode) === null || _f === void 0 ? void 0 : _f.episode,
                             description: item.description,
                             genres: item.genres,
                             rating: item.averageScore,
-                            color: (_f = item.coverImage) === null || _f === void 0 ? void 0 : _f.color,
+                            color: (_g = item.coverImage) === null || _g === void 0 ? void 0 : _g.color,
                             type: item.format,
                             releaseDate: item.seasonYear,
                         });

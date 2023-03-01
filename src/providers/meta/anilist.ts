@@ -268,6 +268,7 @@ class Anilist extends AnimeParser {
             cover: item.bannerImage,
             popularity: item.popularity,
             totalEpisodes: item.episodes ?? item.nextAiringEpisode?.episode - 1,
+            currentEpisode: item.nextAiringEpisode?.episode,
             description: item.description,
             genres: item.genres,
             rating: item.averageScore,
@@ -798,14 +799,14 @@ class Anilist extends AnimeParser {
     if (this.provider instanceof NineAnime) {
       possibleAnime.episodes.forEach((_: any, index: number) => {
         if (expectedType == SubOrSub.DUB) {
-          possibleAnime.episodes[index].id = possibleAnime.episodes[index].dubId
+          possibleAnime.episodes[index].id = possibleAnime.episodes[index].dubId;
         }
 
         if (possibleAnime.episodes[index].dubId) {
           delete possibleAnime.episodes[index].dubId;
         }
       });
-      possibleAnime.episodes = possibleAnime.episodes.filter((el: any) => el.id != undefined)
+      possibleAnime.episodes = possibleAnime.episodes.filter((el: any) => el.id != undefined);
     }
 
     const possibleProviderEpisodes = possibleAnime.episodes as IAnimeEpisode[];
