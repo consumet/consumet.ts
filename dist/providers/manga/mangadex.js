@@ -39,6 +39,8 @@ class MangaDex extends models_1.MangaParser {
                     (_a = mangaInfo.chapters) === null || _a === void 0 ? void 0 : _a.push({
                         id: chapter.id,
                         title: chapter.attributes.title ? chapter.attributes.title : chapter.attributes.chapter,
+                        chapterNumber: chapter.attributes.chapter,
+                        volumeNumber: chapter.attributes.volume,
                         pages: chapter.attributes.pages,
                     });
                 }

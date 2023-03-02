@@ -36,6 +36,8 @@ class MangaDex extends MangaParser {
         mangaInfo.chapters?.push({
           id: chapter.id,
           title: chapter.attributes.title ? chapter.attributes.title : chapter.attributes.chapter,
+          chapterNumber: chapter.attributes.chapter,
+          volumeNumber: chapter.attributes.volume,
           pages: chapter.attributes.pages,
         });
       }
