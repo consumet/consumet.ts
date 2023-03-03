@@ -25,17 +25,18 @@ class VizCloud extends VideoExtractor {
 
   override extract = async (
     videoUrl: URL,
-    vizCloudHelper : string,
-    apiKey : string,
+    vizCloudHelper: string,
+    apiKey: string,
   ): Promise<IVideo[]> => {
 
-    const vizID: Array<string> = videoUrl.href.split("/");
+    const vizID = videoUrl.href.split("/").pop();
     let url;
-    if (!vizID.length) {
-      throw new Error('Video not found');
+    if (vizID) {
+      url = `${vizCloudHelper}/vizcloud?query=${encodeURIComponent(vizID)}&apikey=${apiKey}`;
     } else {
-      url = `${vizCloudHelper}/vizcloud?query=${vizID.pop()}&apikey=${apiKey}`;
+      throw new Error('Video not found');
     }
+
 
     const { data } = await axios.get(url);
     if (!data.data?.media) throw new Error('Video not found');
@@ -53,14 +54,14 @@ class VizCloud extends VideoExtractor {
     const req = await axios.get(main);
     const resolutions = req.data.match(/(RESOLUTION=)(.*)(\s*?)(\s*.*)/g);
     resolutions?.forEach((res: string) => {
-        const index = main.lastIndexOf('/');
-        const quality = res.split('\n')[0].split('x')[1].split(',')[0];
-        const url = main.slice(0, index);
-        this.sources.push({
-            url: url + '/' + res.split('\n')[1],
-            isM3U8: (url + res.split('\n')[1]).includes('.m3u8'),
-            quality: quality + 'p',
-        });
+      const index = main.lastIndexOf('/');
+      const quality = res.split('\n')[0].split('x')[1].split(',')[0];
+      const url = main.slice(0, index);
+      this.sources.push({
+        url: url + '/' + res.split('\n')[1],
+        isM3U8: (url + res.split('\n')[1]).includes('.m3u8'),
+        quality: quality + 'p',
+      });
     });
     return this.sources;
   };
