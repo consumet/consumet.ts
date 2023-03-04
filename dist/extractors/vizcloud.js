@@ -20,17 +20,17 @@ class VizCloud extends models_1.VideoExtractor {
             post: [],
         };
         this.extract = async (videoUrl, vizCloudHelper, apiKey) => {
-            var _a;
+            var _a, _b;
             const vizID = videoUrl.href.split("/");
             let url;
             if (!vizID.length) {
                 throw new Error('Video not found');
             }
             else {
-                url = `${vizCloudHelper}/vizcloud?query=${vizID.pop()}&apikey=${apiKey}`;
+                url = `${vizCloudHelper}/vizcloud?query=${encodeURIComponent((_a = vizID.pop()) !== null && _a !== void 0 ? _a : "")}&apikey=${apiKey}`;
             }
             const { data } = await axios_1.default.get(url);
-            if (!((_a = data.data) === null || _a === void 0 ? void 0 : _a.media))
+            if (!((_b = data.data) === null || _b === void 0 ? void 0 : _b.media))
                 throw new Error('Video not found');
             this.sources = [
                 ...this.sources,

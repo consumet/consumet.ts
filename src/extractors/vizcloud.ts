@@ -34,7 +34,7 @@ class VizCloud extends VideoExtractor {
     if (!vizID.length) {
       throw new Error('Video not found');
     } else {
-      url = `${vizCloudHelper}/vizcloud?query=${vizID.pop()}&apikey=${apiKey}`;
+      url = `${vizCloudHelper}/vizcloud?query=${encodeURIComponent(vizID.pop() ?? "")}&apikey=${apiKey}`;
     }
 
     const { data } = await axios.get(url);
