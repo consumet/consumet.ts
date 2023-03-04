@@ -46,8 +46,9 @@ class NineAnime extends AnimeParser {
 
     try {
       const vrf = await this.ev(query);
+      console.log({ vrf });
       const res = await this.client.get(
-        `/filter?keyword=${query.replace(/%20/g, '+')}&vrf=${vrf}&page=${page}`
+        `/filter?keyword=${query.replace(/%20/g, '+')}&vrf=${encodeURIComponent(vrf)}&page=${page}`
       );
 
       const $ = load(res.data);
@@ -89,7 +90,7 @@ class NineAnime extends AnimeParser {
           image: $(el).find('div > div.ani > a > img').attr('src'),
           type: type,
           hasSub: $(el).find('div > div.ani > a .meta .sub').length > 0,
-          hasDub: $(el).find('div > div.ani > a .meta .dub').length > 0
+          hasDub: $(el).find('div > div.ani > a .meta .dub').length > 0,
         });
       });
 
@@ -190,15 +191,15 @@ class NineAnime extends AnimeParser {
         .text()
         .split('; ')
         .map(name => name?.trim());
-      animeInfo.hasSub = $('div#w-info > .binfo > .info > .meta .sub').length == 1
-      animeInfo.hasDub = $('div#w-info > .binfo > .info > .meta .dub').length == 1
+      animeInfo.hasSub = $('div#w-info > .binfo > .info > .meta .sub').length == 1;
+      animeInfo.hasDub = $('div#w-info > .binfo > .info > .meta .dub').length == 1;
 
       const id = $('#watch-main').attr('data-id')!;
 
       const vrf = await this.ev(id);
       const {
         data: { result },
-      } = await this.client.get(`/ajax/episode/list/${id}?vrf=${vrf}`);
+      } = await this.client.get(`/ajax/episode/list/${id}?vrf=${encodeURIComponent(vrf)}`);
       const $$ = load(result);
       animeInfo.totalEpisodes = $$('div.episodes > ul > li > a').length;
       animeInfo.episodes = [];
@@ -226,6 +227,7 @@ class NineAnime extends AnimeParser {
 
       return animeInfo;
     } catch (err) {
+      console.log(err);
       throw new Error((err as Error).message);
     }
   }
@@ -288,7 +290,9 @@ class NineAnime extends AnimeParser {
           `${this.nineAnimeResolver}/vrf?query=${encodeURIComponent(s.url)}&apikey=${this.apiKey}`
         )
       ).data.url;
-      const serverSource = (await this.client.get(`/ajax/server/${s.url}?vrf=${serverVrf}`)).data;
+      const serverSource = (
+        await this.client.get(`/ajax/server/${s.url}?vrf=${encodeURIComponent(serverVrf)}`)
+      ).data;
       const embedURL = (
         await axios.get(
           `${this.nineAnimeResolver}/decrypt?query=${encodeURIComponent(serverSource.result.url)}&apikey=${
@@ -316,7 +320,7 @@ class NineAnime extends AnimeParser {
 
   override async fetchEpisodeServers(episodeId: string): Promise<IEpisodeServer[]> {
     if (!episodeId.startsWith(this.baseUrl))
-      episodeId = `/ajax/server/list/${episodeId}?vrf=${await this.ev(episodeId)}`;
+      episodeId = `/ajax/server/list/${episodeId}?vrf=${encodeURIComponent(await this.ev(episodeId))}`;
 
     const {
       data: { result },
@@ -346,10 +350,11 @@ class NineAnime extends AnimeParser {
 
 // (async () => {
 //   const nineAnime = new NineAnime();
-//   const searchResults = await nineAnime.search('attack on titan');
-//   const animeInfo = await nineAnime.fetchAnimeInfo(searchResults.results[0].id);
-//   const episodeSources = await nineAnime.fetchEpisodeSources(animeInfo.episodes![0].id, StreamingServers.Filemoon);
-//   console.log(episodeSources);
+
+//   // const searchResults = await nineAnime.search('attack on titan');
+//   const animeInfo = await nineAnime.fetchAnimeInfo('shadowverse-flame.rljqn');
+//   // const episodeSources = await nineAnime.fetchEpisodeSources(animeInfo.episodes![0].id, StreamingServers.Filemoon);
+//   console.log(animeInfo);
 // })();
 
 export default NineAnime;
