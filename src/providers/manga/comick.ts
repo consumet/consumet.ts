@@ -1,8 +1,6 @@
-import { encode } from 'ascii-url-encoder';
-import axios, { AxiosError, AxiosResponse } from 'axios';
+import axios, { AxiosError } from 'axios';
 
 import { IMangaChapterPage, IMangaInfo, IMangaResult, ISearch, MangaParser, MediaStatus } from '../../models';
-import { capitalizeFirstLetter, substringBefore } from '../../utils';
 
 class ComicK extends MangaParser {
   override readonly name = 'ComicK';
@@ -68,7 +66,7 @@ class ComicK extends MangaParser {
 
       const pages: { img: string; page: number }[] = [];
 
-      data.chapter.md_images.map((image:any, index:number) => {
+      data.chapter.md_images.map((image: { b2key: string; w: string; }, index:number) => {
           pages.push({
               img: `https://meo.comick.pictures/${image.b2key}?width=${image.w}`,
               page: index
@@ -108,7 +106,7 @@ class ComicK extends MangaParser {
       const data: SearchResult[] = res.data;
 
       for (const manga of data) {
-        let cover:any = manga.md_covers ? manga.md_covers[0] : null;
+        let cover:Cover | string | null = manga.md_covers ? manga.md_covers[0] : null;
         if (cover && cover.b2key != undefined) {
             cover = `https://meo.comick.pictures${cover.b2key}`;
         }
@@ -117,7 +115,7 @@ class ComicK extends MangaParser {
           id: manga.slug,
           title: manga.title ?? manga.slug,
           altTitles: manga.md_titles ? manga.md_titles.map((title) => title.title) : [],
-          image: cover
+          image: cover as string
         });
       }
 
