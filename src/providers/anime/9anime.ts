@@ -48,7 +48,7 @@ class NineAnime extends AnimeParser {
       const vrf = await this.ev(query);
       console.log({ vrf });
       const res = await this.client.get(
-        `/filter?keyword=${encodeURIComponent(query)}&vrf=${encodeURIComponent(vrf)}&page=${page}`
+        `/filter?keyword=${encodeURIComponent(query.replace(/%20/g, "+"))}&vrf=${encodeURIComponent(vrf)}&page=${page}`
       );
 
       const $ = load(res.data);
