@@ -44,7 +44,11 @@ class VizCloud extends models_1.VideoExtractor {
                 }),
             ];
             const main = this.sources[this.sources.length - 1].url;
-            const req = await axios_1.default.get(main);
+            const req = await (0, axios_1.default)({
+                method: 'get',
+                url: main,
+                headers: { 'referer': 'https://9anime.to' }
+            });
             const resolutions = req.data.match(/(RESOLUTION=)(.*)(\s*?)(\s*.*)/g);
             resolutions === null || resolutions === void 0 ? void 0 : resolutions.forEach((res) => {
                 const index = main.lastIndexOf('/');
