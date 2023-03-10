@@ -237,7 +237,7 @@ class Fmovies extends MovieParser {
                 const servers: { [key: string]: string } = {};
 
                 $$('.server').each((i, el) => {
-                    let serverId = $(el).attr('data-id')!;
+                    const serverId = $(el).attr('data-id')!;
                     let serverName = $(el).text().toLowerCase().split("server")[1].trim();
                     if (serverName == "vidstream") {
                         serverName = "vizcloud"
@@ -284,7 +284,7 @@ class Fmovies extends MovieParser {
     private async ajaxReqUrl(id: string) {
         const vrf = await this.ev(id);
         return `${this.baseUrl}/ajax/film/servers?id=${id}&vrf=${vrf}&token=`;
-    };
+    }
 }
 
 // (async () => {

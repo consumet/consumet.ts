@@ -143,11 +143,11 @@ export const substringBefore = (str: string, toFind: string) => {
 };
 
 export const substringAfterLast = (str: string, toFind: string) => {
-  let index = str.lastIndexOf(toFind);
+  const index = str.lastIndexOf(toFind);
   return index == -1 ? '' : str.substring(index + toFind.length);
 }
 
 export const substringBeforeLast = (str: string, toFind: string) => {
-  let index = str.lastIndexOf(toFind);
+  const index = str.lastIndexOf(toFind);
   return index == -1 ? '' : str.substring(0, index);
 }
