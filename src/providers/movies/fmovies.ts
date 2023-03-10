@@ -13,7 +13,7 @@ import {
     ISearch,
     IMovieEpisode,
 } from '../../models';
-import {StreamTape, VizCloud } from '../../extractors';
+import { StreamTape, VizCloud } from '../../extractors';
 
 class Fmovies extends MovieParser {
     private fmoviesResolver = '';
@@ -58,9 +58,9 @@ class Fmovies extends MovieParser {
             $('.filmlist > div.item').each((i, el) => {
                 const releaseDate = $(el).find('.meta').text();
                 searchResult.results.push({
-                    id: $(el).find('a.title').attr('href')?.slice(1)!,
+                    id: $(el).find('a.title').attr('href')!.slice(1),
                     title: $(el).find('a.title').text()!,
-                    url: `${this.baseUrl}/${$(el).find('a.title').attr('href')?.slice(1)!}`,
+                    url: `${this.baseUrl}/${$(el).find('a.title').attr('href')!.slice(1)}`,
                     image: $(el).find('img').attr('src'),
                     releaseDate: isNaN(parseInt(releaseDate)) ? undefined : parseInt(releaseDate).toString(),
                     seasons: releaseDate.includes('SS') ? parseInt(releaseDate.split('SS')[1]) : undefined,
@@ -146,13 +146,13 @@ class Fmovies extends MovieParser {
             movieInfo.episodes = [];
             $$('.episode').each((i, el) => {
                 const episode: IMovieEpisode = {
-                    id: $(el).find('a')?.attr('data-kname')!,
+                    id: $(el).find('a').attr('data-kname')!,
                     title: $(el).find('a')?.attr('title') ?? "",
                 };
 
                 if (movieInfo.type === TvType.TVSERIES) {
-                    episode.number = parseInt($(el).find('a')?.attr('data-kname')?.split("-")[1]!);
-                    episode.season = parseInt($(el).find('a')?.attr('data-kname')?.split("-")[0]!);
+                    episode.number = parseInt($(el).find('a')?.attr('data-kname')!.split("-")[1]);
+                    episode.season = parseInt($(el).find('a')?.attr('data-kname')!.split("-")[0]);
                 }
 
                 movieInfo.episodes?.push(episode);
@@ -231,37 +231,35 @@ class Fmovies extends MovieParser {
             const uid = $('#watch').attr('data-id')!;
             const epsiodeServers: IEpisodeServer[] = [];
 
-            if (true) {
-                const { data } = await axios.get(await this.ajaxReqUrl(uid));
-                const $$ = load(data.html);
-                const servers: { [key: string]: string } = {};
+            const ajaxData = (await axios.get(await this.ajaxReqUrl(uid))).data;
+            const $$ = load(ajaxData.html);
+            const servers: { [key: string]: string } = {};
 
-                $$('.server').each((i, el) => {
-                    const serverId = $(el).attr('data-id')!;
-                    let serverName = $(el).text().toLowerCase().split("server")[1].trim();
-                    if (serverName == "vidstream") {
-                        serverName = "vizcloud"
-                    }
-                    servers[serverId] = serverName;
-                });
+            $$('.server').each((i, el) => {
+                const serverId = $(el).attr('data-id')!;
+                let serverName = $(el).text().toLowerCase().split("server")[1].trim();
+                if (serverName == "vidstream") {
+                    serverName = "vizcloud"
+                }
+                servers[serverId] = serverName;
+            });
 
-                const el = $$(`a[data-kname="${episodeId}"]`);
-                try {
-                    const serverString: { [key: string]: string } = JSON.parse(el.attr('data-ep')!);
-                    for (const serverId in serverString) {
-                        epsiodeServers.push({
-                            name: servers[serverId],
-                            url: serverString[serverId],
-                        });
-                    }
-
-                    return epsiodeServers;
-                } catch (err) {
-                    console.log(err);
-                    throw new Error("Episode not found");
+            const el = $$(`a[data-kname="${episodeId}"]`);
+            try {
+                const serverString: { [key: string]: string } = JSON.parse(el.attr('data-ep')!);
+                for (const serverId in serverString) {
+                    epsiodeServers.push({
+                        name: servers[serverId],
+                        url: serverString[serverId],
+                    });
                 }
 
+                return epsiodeServers;
+            } catch (err) {
+                console.log(err);
+                throw new Error("Episode not found");
             }
+
         } catch (err) {
             throw new Error("Episode not found");
         }
