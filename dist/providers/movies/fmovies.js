@@ -38,12 +38,11 @@ class Fmovies extends models_1.MovieParser {
                 searchResult.hasNextPage =
                     (_a = $('.pagination')) === null || _a === void 0 ? void 0 : _a.find('.active').next().hasClass("disabled");
                 $('.filmlist > div.item').each((i, el) => {
-                    var _a, _b;
                     const releaseDate = $(el).find('.meta').text();
                     searchResult.results.push({
-                        id: (_a = $(el).find('a.title').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1),
+                        id: $(el).find('a.title').attr('href').slice(1),
                         title: $(el).find('a.title').text(),
-                        url: `${this.baseUrl}/${(_b = $(el).find('a.title').attr('href')) === null || _b === void 0 ? void 0 : _b.slice(1)}`,
+                        url: `${this.baseUrl}/${$(el).find('a.title').attr('href').slice(1)}`,
                         image: $(el).find('img').attr('src'),
                         releaseDate: isNaN(parseInt(releaseDate)) ? undefined : parseInt(releaseDate).toString(),
                         seasons: releaseDate.includes('SS') ? parseInt(releaseDate.split('SS')[1]) : undefined,
@@ -120,16 +119,16 @@ class Fmovies extends models_1.MovieParser {
                 const $$ = (0, cheerio_1.load)(ajaxData.html);
                 movieInfo.episodes = [];
                 $$('.episode').each((i, el) => {
-                    var _a, _b, _c, _d, _e, _f, _g, _h;
+                    var _a, _b, _c, _d, _e;
                     const episode = {
-                        id: (_a = $(el).find('a')) === null || _a === void 0 ? void 0 : _a.attr('data-kname'),
-                        title: (_c = (_b = $(el).find('a')) === null || _b === void 0 ? void 0 : _b.attr('title')) !== null && _c !== void 0 ? _c : "",
+                        id: $(el).find('a').attr('data-kname'),
+                        title: (_b = (_a = $(el).find('a')) === null || _a === void 0 ? void 0 : _a.attr('title')) !== null && _b !== void 0 ? _b : "",
                     };
                     if (movieInfo.type === models_1.TvType.TVSERIES) {
-                        episode.number = parseInt((_e = (_d = $(el).find('a')) === null || _d === void 0 ? void 0 : _d.attr('data-kname')) === null || _e === void 0 ? void 0 : _e.split("-")[1]);
-                        episode.season = parseInt((_g = (_f = $(el).find('a')) === null || _f === void 0 ? void 0 : _f.attr('data-kname')) === null || _g === void 0 ? void 0 : _g.split("-")[0]);
+                        episode.number = parseInt((_c = $(el).find('a')) === null || _c === void 0 ? void 0 : _c.attr('data-kname').split("-")[1]);
+                        episode.season = parseInt((_d = $(el).find('a')) === null || _d === void 0 ? void 0 : _d.attr('data-kname').split("-")[0]);
                     }
-                    (_h = movieInfo.episodes) === null || _h === void 0 ? void 0 : _h.push(episode);
+                    (_e = movieInfo.episodes) === null || _e === void 0 ? void 0 : _e.push(episode);
                 });
                 return movieInfo;
             }
@@ -187,33 +186,31 @@ class Fmovies extends models_1.MovieParser {
                 const $ = (0, cheerio_1.load)(data);
                 const uid = $('#watch').attr('data-id');
                 const epsiodeServers = [];
-                if (true) {
-                    const { data } = await axios_1.default.get(await this.ajaxReqUrl(uid));
-                    const $$ = (0, cheerio_1.load)(data.html);
-                    const servers = {};
-                    $$('.server').each((i, el) => {
-                        let serverId = $(el).attr('data-id');
-                        let serverName = $(el).text().toLowerCase().split("server")[1].trim();
-                        if (serverName == "vidstream") {
-                            serverName = "vizcloud";
-                        }
-                        servers[serverId] = serverName;
-                    });
-                    const el = $$(`a[data-kname="${episodeId}"]`);
-                    try {
-                        const serverString = JSON.parse(el.attr('data-ep'));
-                        for (const serverId in serverString) {
-                            epsiodeServers.push({
-                                name: servers[serverId],
-                                url: serverString[serverId],
-                            });
-                        }
-                        return epsiodeServers;
+                const ajaxData = (await axios_1.default.get(await this.ajaxReqUrl(uid))).data;
+                const $$ = (0, cheerio_1.load)(ajaxData.html);
+                const servers = {};
+                $$('.server').each((i, el) => {
+                    const serverId = $(el).attr('data-id');
+                    let serverName = $(el).text().toLowerCase().split("server")[1].trim();
+                    if (serverName == "vidstream") {
+                        serverName = "vizcloud";
                     }
-                    catch (err) {
-                        console.log(err);
-                        throw new Error("Episode not found");
+                    servers[serverId] = serverName;
+                });
+                const el = $$(`a[data-kname="${episodeId}"]`);
+                try {
+                    const serverString = JSON.parse(el.attr('data-ep'));
+                    for (const serverId in serverString) {
+                        epsiodeServers.push({
+                            name: servers[serverId],
+                            url: serverString[serverId],
+                        });
                     }
+                    return epsiodeServers;
+                }
+                catch (err) {
+                    console.log(err);
+                    throw new Error("Episode not found");
                 }
             }
             catch (err) {
@@ -235,7 +232,6 @@ class Fmovies extends models_1.MovieParser {
         const vrf = await this.ev(id);
         return `${this.baseUrl}/ajax/film/servers?id=${id}&vrf=${vrf}&token=`;
     }
-    ;
 }
 // (async () => {
 //     const movie = new Fmovies();
