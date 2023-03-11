@@ -136,12 +136,12 @@ const substringBefore = (str, toFind) => {
 };
 exports.substringBefore = substringBefore;
 const substringAfterLast = (str, toFind) => {
-    let index = str.lastIndexOf(toFind);
+    const index = str.lastIndexOf(toFind);
     return index == -1 ? '' : str.substring(index + toFind.length);
 };
 exports.substringAfterLast = substringAfterLast;
 const substringBeforeLast = (str, toFind) => {
-    let index = str.lastIndexOf(toFind);
+    const index = str.lastIndexOf(toFind);
     return index == -1 ? '' : str.substring(0, index);
 };
 exports.substringBeforeLast = substringBeforeLast;
