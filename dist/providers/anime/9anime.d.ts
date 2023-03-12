@@ -16,5 +16,6 @@ declare class NineAnime extends AnimeParser {
     fetchEpisodeSources(episodeId: string, server?: StreamingServers): Promise<ISource>;
     fetchEpisodeServers(episodeId: string): Promise<IEpisodeServer[]>;
     private ev;
+    private searchVrf;
 }
 export default NineAnime;

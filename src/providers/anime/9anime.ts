@@ -45,8 +45,7 @@ class NineAnime extends AnimeParser {
     };
 
     try {
-      const vrf = await this.ev(query);
-      console.log({ vrf });
+      const vrf = await this.searchVrf(query);
       const res = await this.client.get(
         `/filter?keyword=${encodeURIComponent(query).replace(/%20/g, "+")}&vrf=${encodeURIComponent(vrf)}&page=${page}`
       );
@@ -295,8 +294,7 @@ class NineAnime extends AnimeParser {
       ).data;
       const embedURL = (
         await axios.get(
-          `${this.nineAnimeResolver}/decrypt?query=${encodeURIComponent(serverSource.result.url)}&apikey=${
-            this.apiKey
+          `${this.nineAnimeResolver}/decrypt?query=${encodeURIComponent(serverSource.result.url)}&apikey=${this.apiKey
           }`
         )
       ).data.url;
@@ -346,15 +344,22 @@ class NineAnime extends AnimeParser {
     );
     return data.url;
   }
+
+  private async searchVrf(query: string): Promise<string> {
+    const { data } = await axios.get(
+      `${this.nineAnimeResolver}/9anime-search?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`
+    );
+    return data.url;
+  }
 }
 
 // (async () => {
 //   const nineAnime = new NineAnime();
 
-//   // const searchResults = await nineAnime.search('attack on titan');
-//   const animeInfo = await nineAnime.fetchAnimeInfo('shadowverse-flame.rljqn');
+//   const searchResults = await nineAnime.search('attack on titan');
+//   // const animeInfo = await nineAnime.fetchAnimeInfo('shadowverse-flame.rljqn');
 //   // const episodeSources = await nineAnime.fetchEpisodeSources(animeInfo.episodes![0].id, StreamingServers.Filemoon);
-//   console.log(animeInfo);
+//   console.log(searchResults);
 // })();
 
 export default NineAnime;
