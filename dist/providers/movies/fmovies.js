@@ -11,13 +11,13 @@ const extractors_1 = require("../../extractors");
 class Fmovies extends models_1.MovieParser {
     constructor(fmoviesResolver, apiKey) {
         super();
-        this.fmoviesResolver = '';
-        this.apiKey = '';
         this.name = 'Fmovies';
         this.baseUrl = 'https://fmovies.to';
         this.logo = 'https://s1.bunnycdn.ru/assets/sites/fmovies/logo2.png';
         this.classPath = 'MOVIES.Fmovies';
         this.supportedTypes = new Set([models_1.TvType.MOVIE, models_1.TvType.TVSERIES]);
+        this.fmoviesResolver = '';
+        this.apiKey = '';
         /**
          *
          * @param query search query string
@@ -35,8 +35,7 @@ class Fmovies extends models_1.MovieParser {
                 const vrf = await this.ev(query);
                 const { data } = await axios_1.default.get(`${this.baseUrl}/search?keyword=${query}&vrf=${vrf}&page=${page}`);
                 const $ = (0, cheerio_1.load)(data);
-                searchResult.hasNextPage =
-                    (_a = $('.pagination')) === null || _a === void 0 ? void 0 : _a.find('.active').next().hasClass("disabled");
+                searchResult.hasNextPage = (_a = $('.pagination')) === null || _a === void 0 ? void 0 : _a.find('.active').next().hasClass('disabled');
                 $('.filmlist > div.item').each((i, el) => {
                     const releaseDate = $(el).find('.meta').text();
                     searchResult.results.push({
@@ -46,9 +45,7 @@ class Fmovies extends models_1.MovieParser {
                         image: $(el).find('img').attr('src'),
                         releaseDate: isNaN(parseInt(releaseDate)) ? undefined : parseInt(releaseDate).toString(),
                         seasons: releaseDate.includes('SS') ? parseInt(releaseDate.split('SS')[1]) : undefined,
-                        type: $(el).find('i.type').text() === 'Movie'
-                            ? models_1.TvType.MOVIE
-                            : models_1.TvType.TVSERIES,
+                        type: $(el).find('i.type').text() === 'Movie' ? models_1.TvType.MOVIE : models_1.TvType.TVSERIES,
                     });
                 });
                 return searchResult;
@@ -93,7 +90,7 @@ class Fmovies extends models_1.MovieParser {
                 //     });
                 // });
                 const container = $('.watch-extra');
-                movieInfo.cover = (0, utils_1.substringBeforeLast)((0, utils_1.substringAfter)((_b = (_a = $('#watch').find('.play')) === null || _a === void 0 ? void 0 : _a.attr('style')) !== null && _b !== void 0 ? _b : "", 'url('), ')');
+                movieInfo.cover = (0, utils_1.substringBeforeLast)((0, utils_1.substringAfter)((_b = (_a = $('#watch').find('.play')) === null || _a === void 0 ? void 0 : _a.attr('style')) !== null && _b !== void 0 ? _b : '', 'url('), ')');
                 movieInfo.title = container.find(`h1[itemprop="name"]`).text();
                 movieInfo.image = container.find(`img[itemprop="image"]`).attr('src');
                 movieInfo.description = (_d = (_c = container.find('div[itemprop="description"]')) === null || _c === void 0 ? void 0 : _c.text()) === null || _d === void 0 ? void 0 : _d.trim();
@@ -122,11 +119,11 @@ class Fmovies extends models_1.MovieParser {
                     var _a, _b, _c, _d, _e;
                     const episode = {
                         id: $(el).find('a').attr('data-kname'),
-                        title: (_b = (_a = $(el).find('a')) === null || _a === void 0 ? void 0 : _a.attr('title')) !== null && _b !== void 0 ? _b : "",
+                        title: (_b = (_a = $(el).find('a')) === null || _a === void 0 ? void 0 : _a.attr('title')) !== null && _b !== void 0 ? _b : '',
                     };
                     if (movieInfo.type === models_1.TvType.TVSERIES) {
-                        episode.number = parseInt((_c = $(el).find('a')) === null || _c === void 0 ? void 0 : _c.attr('data-kname').split("-")[1]);
-                        episode.season = parseInt((_d = $(el).find('a')) === null || _d === void 0 ? void 0 : _d.attr('data-kname').split("-")[0]);
+                        episode.number = parseInt((_c = $(el).find('a')) === null || _c === void 0 ? void 0 : _c.attr('data-kname').split('-')[1]);
+                        episode.season = parseInt((_d = $(el).find('a')) === null || _d === void 0 ? void 0 : _d.attr('data-kname').split('-')[0]);
                     }
                     (_e = movieInfo.episodes) === null || _e === void 0 ? void 0 : _e.push(episode);
                 });
@@ -149,7 +146,7 @@ class Fmovies extends models_1.MovieParser {
                     case models_1.StreamingServers.StreamTape:
                         return {
                             headers: { Referer: serverUrl.href },
-                            sources: await new extractors_1.StreamTape().extract(serverUrl)
+                            sources: await new extractors_1.StreamTape().extract(serverUrl),
                         };
                     default:
                         return {
@@ -191,9 +188,9 @@ class Fmovies extends models_1.MovieParser {
                 const servers = {};
                 $$('.server').each((i, el) => {
                     const serverId = $(el).attr('data-id');
-                    let serverName = $(el).text().toLowerCase().split("server")[1].trim();
-                    if (serverName == "vidstream") {
-                        serverName = "vizcloud";
+                    let serverName = $(el).text().toLowerCase().split('server')[1].trim();
+                    if (serverName == 'vidstream') {
+                        serverName = 'vizcloud';
                     }
                     servers[serverId] = serverName;
                 });
@@ -210,11 +207,11 @@ class Fmovies extends models_1.MovieParser {
                 }
                 catch (err) {
                     console.log(err);
-                    throw new Error("Episode not found");
+                    throw new Error('Episode not found');
                 }
             }
             catch (err) {
-                throw new Error("Episode not found");
+                throw new Error('Episode not found');
             }
         };
         this.fmoviesResolver = fmoviesResolver !== null && fmoviesResolver !== void 0 ? fmoviesResolver : this.fmoviesResolver;
