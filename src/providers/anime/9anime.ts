@@ -358,16 +358,23 @@ class NineAnime extends AnimeParser {
     );
     return data.url;
   }
+
+  public async vizcloud(query: string): Promise<string> {
+    const { data } = await axios.get(
+      `${this.nineAnimeResolver}/vizcloud?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`
+    );
+    return data;
+  }
 }
 
 // (async () => {
-//   // const nineAnime = new NineAnime();
+//   const nineAnime = new NineAnime();
 
 //   // const searchResults = await nineAnime.search('attack on titan');
 //   // const animeInfo = await nineAnime.fetchAnimeInfo('shadowverse-flame.rljqn');
 //   // @ts-ignore
 //   // const episodeSources = await nineAnime.fetchEpisodeSources("ab68", "decrypt");
-//   // console.log(episodeSources);
+//   console.log(await nineAnime.vizcloud("LNPEK8Q0QPXW"));
 // })();
 
 export default NineAnime;
