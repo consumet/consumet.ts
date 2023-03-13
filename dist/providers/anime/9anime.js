@@ -285,13 +285,18 @@ class NineAnime extends models_1.AnimeParser {
         const { data } = await axios_1.default.get(`${this.nineAnimeResolver}/9anime-search?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`);
         return data.url;
     }
+    async decrypt(query) {
+        const { data } = await axios_1.default.get(`${this.nineAnimeResolver}/decrypt?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`);
+        return data.url;
+    }
 }
 // (async () => {
-//   const nineAnime = new NineAnime();
-//   const searchResults = await nineAnime.search('attack on titan');
+//   // const nineAnime = new NineAnime();
+//   // const searchResults = await nineAnime.search('attack on titan');
 //   // const animeInfo = await nineAnime.fetchAnimeInfo('shadowverse-flame.rljqn');
-//   // const episodeSources = await nineAnime.fetchEpisodeSources(animeInfo.episodes![0].id, StreamingServers.Filemoon);
-//   console.log(searchResults);
+//   // @ts-ignore
+//   // const episodeSources = await nineAnime.fetchEpisodeSources("ab68", "decrypt");
+//   // console.log(episodeSources);
 // })();
 exports.default = NineAnime;
 //# sourceMappingURL=9anime.js.map
