@@ -34,6 +34,7 @@ abstract class BaseParser extends BaseProvider {
         config.headers = {
           ...config.headers,
           'x-api-key': proxy?.key ?? '',
+          "Origin": "axios"
         };
         config.url = `${proxy.url}${config?.baseURL}${config?.url ? config?.url : ''}`;
       }
