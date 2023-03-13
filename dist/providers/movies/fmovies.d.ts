@@ -1,12 +1,12 @@
 import { MovieParser, TvType, IMovieInfo, IEpisodeServer, StreamingServers, ISource, IMovieResult, ISearch } from '../../models';
 declare class Fmovies extends MovieParser {
-    private fmoviesResolver;
-    private apiKey;
     readonly name = "Fmovies";
     protected baseUrl: string;
     protected logo: string;
     protected classPath: string;
     supportedTypes: Set<TvType>;
+    private fmoviesResolver;
+    private apiKey;
     constructor(fmoviesResolver?: string, apiKey?: string);
     /**
      *
