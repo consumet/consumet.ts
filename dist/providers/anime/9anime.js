@@ -277,17 +277,32 @@ class NineAnime extends models_1.AnimeParser {
         });
         return servers;
     }
-    async ev(query) {
+    async ev(query, raw = false) {
         const { data } = await axios_1.default.get(`${this.nineAnimeResolver}/vrf?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`);
-        return data.url;
+        if (raw) {
+            return data;
+        }
+        else {
+            return data.url;
+        }
     }
-    async searchVrf(query) {
+    async searchVrf(query, raw = false) {
         const { data } = await axios_1.default.get(`${this.nineAnimeResolver}/9anime-search?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`);
-        return data.url;
+        if (raw) {
+            return data;
+        }
+        else {
+            return data.url;
+        }
     }
-    async decrypt(query) {
+    async decrypt(query, raw = false) {
         const { data } = await axios_1.default.get(`${this.nineAnimeResolver}/decrypt?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`);
-        return data.url;
+        if (raw) {
+            return data;
+        }
+        else {
+            return data.url;
+        }
     }
     async vizcloud(query) {
         const { data } = await axios_1.default.get(`${this.nineAnimeResolver}/vizcloud?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`);
@@ -301,6 +316,8 @@ class NineAnime extends models_1.AnimeParser {
 //   // @ts-ignore
 //   // const episodeSources = await nineAnime.fetchEpisodeSources("ab68", "decrypt");
 //   console.log(await nineAnime.vizcloud("LNPEK8Q0QPXW"));
+//   console.log(await nineAnime.decrypt("ab6/", true));
+//   console.log(await nineAnime.searchVrf("hello", true));
 // })();
 exports.default = NineAnime;
 //# sourceMappingURL=9anime.js.map
