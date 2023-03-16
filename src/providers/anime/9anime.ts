@@ -374,7 +374,7 @@ class NineAnime extends AnimeParser {
     }
   }
 
-  public async vizcloud(query: string, raw = false): Promise<string> {
+  public async vizcloud(query: string): Promise<string> {
     const { data } = await axios.get(
       `${this.nineAnimeResolver}/vizcloud?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`
     );

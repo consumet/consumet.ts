@@ -304,7 +304,7 @@ class NineAnime extends models_1.AnimeParser {
             return data.url;
         }
     }
-    async vizcloud(query, raw = false) {
+    async vizcloud(query) {
         const { data } = await axios_1.default.get(`${this.nineAnimeResolver}/vizcloud?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`);
         return data;
     }
