@@ -19,14 +19,30 @@ class Marin extends models_1.AnimeParser {
             const token = await this.getToken();
             let data;
             try {
-                const response = await axios_1.default.post('https://marin.moe/anime', { "page": page, "sort": "rel-d", "filter": { "type": [], "status": [], "content_rating": [], "genre": [], "group": [], "production": [], "source": [], "resolution": [], "audio": [], "subtitle": [] }, "search": "" }, {
+                const response = await axios_1.default.post('https://marin.moe/anime', {
+                    page: page,
+                    sort: 'rel-d',
+                    filter: {
+                        type: [],
+                        status: [],
+                        content_rating: [],
+                        genre: [],
+                        group: [],
+                        production: [],
+                        source: [],
+                        resolution: [],
+                        audio: [],
+                        subtitle: [],
+                    },
+                    search: '',
+                }, {
                     headers: {
                         Origin: 'https://marin.moe/',
                         Referer: 'https://marin.moe/anime',
                         Cookie: `__ddg1=;__ddg2_=; XSRF-TOKEN=${token[1]}; marin_session=${token[0]};`,
                         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
-                        "x-xsrf-token": token[1].split(';')[0].replace("%3D", "="),
-                        "x-inertia": true
+                        'x-xsrf-token': token[1].split(';')[0].replace('%3D', '='),
+                        'x-inertia': true,
                     },
                 });
                 data = await response.data;
@@ -43,9 +59,9 @@ class Marin extends models_1.AnimeParser {
                         title: el.title,
                         image: el.cover,
                         releaseDate: el.year,
-                        type: el.type
+                        type: el.type,
                     };
-                })
+                }),
             };
             return response_data;
         };
@@ -56,14 +72,30 @@ class Marin extends models_1.AnimeParser {
             const token = await this.getToken();
             let data;
             try {
-                const response = await axios_1.default.post('https://marin.moe/anime', { "page": page, "sort": "az-a", "filter": { "type": [], "status": [], "content_rating": [], "genre": [], "group": [], "production": [], "source": [], "resolution": [], "audio": [], "subtitle": [] }, "search": query }, {
+                const response = await axios_1.default.post('https://marin.moe/anime', {
+                    page: page,
+                    sort: 'az-a',
+                    filter: {
+                        type: [],
+                        status: [],
+                        content_rating: [],
+                        genre: [],
+                        group: [],
+                        production: [],
+                        source: [],
+                        resolution: [],
+                        audio: [],
+                        subtitle: [],
+                    },
+                    search: query,
+                }, {
                     headers: {
                         Origin: 'https://marin.moe/',
                         Referer: 'https://marin.moe/anime',
                         Cookie: `__ddg1=;__ddg2_=; XSRF-TOKEN=${token[1]}; marin_session=${token[0]};`,
                         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
-                        "x-xsrf-token": token[1].split(';')[0].replace("%3D", "="),
-                        "x-inertia": true
+                        'x-xsrf-token': token[1].split(';')[0].replace('%3D', '='),
+                        'x-inertia': true,
                     },
                 });
                 data = await response.data;
@@ -80,9 +112,9 @@ class Marin extends models_1.AnimeParser {
                         title: el.title,
                         image: el.cover,
                         releaseDate: el.year,
-                        type: el.type
+                        type: el.type,
                     };
-                })
+                }),
             };
             return response_data;
         };
@@ -100,13 +132,14 @@ class Marin extends models_1.AnimeParser {
                         Referer: `https://marin.moe/anime/${id}`,
                         Cookie: `__ddg1=;__ddg2_=; XSRF-TOKEN=${token[1].split(';')[0]}; marin_session=${token[0].split(';')[0]};`,
                         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
-                        "x-inertia": true,
-                        "x-inertia-version": "884345c4d568d16e3bb2fb3ae350cca9",
-                        "x-requested-with": "XMLHttpRequest",
-                        "x-xsrf-token": token[1].split(';')[0].replace('%3D', '=')
+                        'x-inertia': true,
+                        'x-inertia-version': '884345c4d568d16e3bb2fb3ae350cca9',
+                        'x-requested-with': 'XMLHttpRequest',
+                        'x-xsrf-token': token[1].split(';')[0].replace('%3D', '='),
                     },
                 });
                 data = await response.data;
+                console.log(data);
             }
             catch (error) {
                 console.log(error);
@@ -114,16 +147,16 @@ class Marin extends models_1.AnimeParser {
             let episodes = data.props.episode_list.data;
             if (data.props.anime.last_episode > 36) {
                 for (let index = 2; index < data.props.anime.last_episode / 36; index++) {
-                    const response = await axios_1.default.post(`https://marin.moe/anime/${id}`, { "filter": { "episodes": true, "specials": true }, "eps_page": index }, {
+                    const response = await axios_1.default.post(`https://marin.moe/anime/${id}`, { filter: { episodes: true, specials: true }, eps_page: index }, {
                         headers: {
                             Origin: 'https://marin.moe/',
                             Referer: `https://marin.moe/anime/${id}`,
                             Cookie: `__ddg1=;__ddg2_=; XSRF-TOKEN=${token[1].split(';')[0]}; marin_session=${token[0].split(';')[0]};`,
                             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
-                            "x-inertia": true,
-                            "x-inertia-version": "884345c4d568d16e3bb2fb3ae350cca9",
-                            "x-requested-with": "XMLHttpRequest",
-                            "x-xsrf-token": token[1].split(';')[0].replace("%3D", "="),
+                            'x-inertia': true,
+                            'x-inertia-version': '884345c4d568d16e3bb2fb3ae350cca9',
+                            'x-requested-with': 'XMLHttpRequest',
+                            'x-xsrf-token': token[1].split(';')[0].replace('%3D', '='),
                         },
                     });
                     const data = await response.data;
@@ -134,11 +167,11 @@ class Marin extends models_1.AnimeParser {
             const response_data = {
                 id: id,
                 title: {
-                    native: data.props.anime.alt_titles["Official Title"][0].text,
+                    native: data.props.anime.alt_titles['Official Title'][0].text,
                     romaji: data.props.anime.title,
-                    english: data.props.anime.alt_titles["Official Title"][1].text
+                    english: data.props.anime.alt_titles['Official Title'][1].text,
                 },
-                synonyms: ((_a = data.props.anime.alt_titles["Synonym"]) === null || _a === void 0 ? void 0 : _a.map((el) => {
+                synonyms: ((_a = data.props.anime.alt_titles['Synonym']) === null || _a === void 0 ? void 0 : _a.map((el) => {
                     return el.text;
                 })) || [],
                 image: data.props.anime.cover,
@@ -162,9 +195,9 @@ class Marin extends models_1.AnimeParser {
                         title: el.title,
                         number: el.sort,
                         image: el.cover,
-                        airdate: el.release_date
+                        airdate: el.release_date,
                     };
-                })
+                }),
             };
             return response_data;
         };
@@ -172,20 +205,20 @@ class Marin extends models_1.AnimeParser {
          *
          * @param episodeId Episode id
          */
-        this.fetchEpisodeSources = async (id, episodeNumber) => {
+        this.fetchEpisodeSources = async (id) => {
             const token = await this.getToken();
             let data;
             try {
-                const response = await axios_1.default.post(`https://marin.moe/anime/${id}/${episodeNumber}`, {}, {
+                const response = await axios_1.default.post(`https://marin.moe/anime/${id}`, {}, {
                     headers: {
                         Origin: 'https://marin.moe/',
-                        Referer: `https://marin.moe/anime/${id}/${episodeNumber}`,
+                        Referer: `https://marin.moe/anime/${id}`,
                         Cookie: `__ddg1=;__ddg2_=; XSRF-TOKEN=${token[1].split(';')[0]}; marin_session=${token[0].split(';')[0]};`,
                         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
-                        "x-inertia": true,
-                        "x-inertia-version": "884345c4d568d16e3bb2fb3ae350cca9",
-                        "x-requested-with": "XMLHttpRequest",
-                        "x-xsrf-token": token[1].split(';')[0].replace("%3D", "="),
+                        'x-inertia': true,
+                        'x-inertia-version': '884345c4d568d16e3bb2fb3ae350cca9',
+                        'x-requested-with': 'XMLHttpRequest',
+                        'x-xsrf-token': token[1].split(';')[0].replace('%3D', '='),
                     },
                 });
                 data = await response.data;
@@ -200,7 +233,7 @@ class Marin extends models_1.AnimeParser {
                         quality: el.resolution,
                         isM3U8: false,
                         duration: el.code.duration,
-                        thumbnail: el.code.thumbnail
+                        thumbnail: el.code.thumbnail,
                     };
                 }),
                 sprites: data.props.video.data.mirror[0].code.sprite,
@@ -230,8 +263,11 @@ class Marin extends models_1.AnimeParser {
     }
 }
 exports.default = Marin;
-//(async () => {
-//  const marin = new Marin();
-//  console.log(await marin.fetchEpisodeSources("dewhzcns", 1));
-//})();
+// (async () => {
+//   const marin = new Marin();
+//   const search = await marin.search('vermeil in gold');
+//   const anime = await marin.fetchAnimeInfo(search.results[0].id);
+//   const sources = await marin.fetchEpisodeSources(anime.episodes![0].id);
+//   console.log(sources);
+// })();
 //# sourceMappingURL=marin.js.map

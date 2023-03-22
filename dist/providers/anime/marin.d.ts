@@ -21,7 +21,7 @@ declare class Marin extends AnimeParser {
      *
      * @param episodeId Episode id
      */
-    fetchEpisodeSources: (id: string, episodeNumber: number) => Promise<ISource>;
+    fetchEpisodeSources: (id: string) => Promise<ISource>;
     /**
      *
      * @param episodeId Episode id
