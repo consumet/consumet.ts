@@ -43,8 +43,8 @@ class VidCloud extends VideoExtractor {
         if (!key) {
           key = await (await axios.get('https://raw.githubusercontent.com/enimax-anime/key/e4/key.txt')).data;
         }
-
-        sources = JSON.parse(CryptoJS.AES.decrypt(res.data.sources, key).toString(CryptoJS.enc.Utf8));
+        const decryptedVal = CryptoJS.AES.decrypt(res.data.sources, key).toString(CryptoJS.enc.Utf8)
+        sources = isJson(decryptedVal) ? JSON.parse(decryptedVal) : res.data.sources
       }
 
       this.sources = sources.map((s: any) => ({
