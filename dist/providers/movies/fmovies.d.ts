@@ -1,4 +1,4 @@
-import { MovieParser, TvType, IMovieInfo, IEpisodeServer, StreamingServers, ISource, IMovieResult, ISearch } from '../../models';
+import { MovieParser, TvType, IMovieInfo, IEpisodeServer, StreamingServers, ISource, IMovieResult, ISearch, ProxyConfig } from '../../models';
 declare class Fmovies extends MovieParser {
     readonly name = "Fmovies";
     protected baseUrl: string;
@@ -7,7 +7,7 @@ declare class Fmovies extends MovieParser {
     supportedTypes: Set<TvType>;
     private fmoviesResolver;
     private apiKey;
-    constructor(fmoviesResolver?: string, apiKey?: string);
+    constructor(fmoviesResolver?: string, proxyConfig?: ProxyConfig, apiKey?: string);
     /**
      *
      * @param query search query string

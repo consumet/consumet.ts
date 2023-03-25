@@ -9,8 +9,8 @@ const utils_1 = require("../../utils/utils");
 const models_1 = require("../../models");
 const extractors_1 = require("../../extractors");
 class Fmovies extends models_1.MovieParser {
-    constructor(fmoviesResolver, apiKey) {
-        super();
+    constructor(fmoviesResolver, proxyConfig, apiKey) {
+        super('https://fmovies.to', proxyConfig && proxyConfig.url ? proxyConfig : undefined);
         this.name = 'Fmovies';
         this.baseUrl = 'https://fmovies.to';
         this.logo = 'https://s1.bunnycdn.ru/assets/sites/fmovies/logo2.png';
