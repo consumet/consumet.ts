@@ -36,7 +36,7 @@ class VidCloud extends VideoExtractor {
       );
 
       if (!isJson(res.data.sources)) {
-        let { da ta: key } = await axios.get('https://github.com/enimax-anime/key/blob/e4/key.txt');
+        let { data: key } = await axios.get('https://github.com/enimax-anime/key/blob/e4/key.txt');
 
         key = substringBefore(substringAfter(key, '"blob-code blob-code-inner js-file-line">'), '</td>');
 
