@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 import { VideoExtractor, IVideo, ISubtitle, Intro } from '../models';
-import { USER_AGENT } from '../utils';
+import { USER_AGENT, isJson, substringAfter, substringBefore } from '../utils';
 
 class VidCloud extends VideoExtractor {
   protected override serverName = 'VidCloud';
