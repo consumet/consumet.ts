@@ -25,8 +25,8 @@ class Fmovies extends MovieParser {
   private fmoviesResolver = '';
   private apiKey = '';
 
-  constructor(fmoviesResolver?: string, apiKey?: string) {
-    super();
+  constructor(fmoviesResolver?: string, proxyConfig?: ProxyConfig, apiKey?: string) {
+    super('https://fmovies.to', proxyConfig && proxyConfig.url ? proxyConfig : undefined);
     this.fmoviesResolver = fmoviesResolver ?? this.fmoviesResolver;
     this.apiKey = apiKey ?? this.apiKey;
   }
