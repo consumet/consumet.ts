@@ -1,4 +1,5 @@
 import axios from 'axios';
+import CryptoJS from 'crypto-js';
 
 import { VideoExtractor, IVideo, ISubtitle, Intro } from '../models';
 import { USER_AGENT, isJson, substringAfter, substringBefore } from '../utils';
