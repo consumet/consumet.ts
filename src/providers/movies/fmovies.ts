@@ -47,7 +47,7 @@ class Fmovies extends MovieParser {
       query = query.replace(/[\W_]+/g, '+');
       const vrf = await this.ev(query);
 
-      const { data } = await axios.get(`${this.baseUrl}/search?keyword=${query}&vrf=${vrf}&page=${page}`);
+      const { data } = await this.client.get(`/search?keyword=${query}&vrf=${vrf}&page=${page}`);
 
       const $ = load(data);
 
@@ -78,7 +78,7 @@ class Fmovies extends MovieParser {
    */
   override fetchMediaInfo = async (mediaId: string): Promise<IMovieInfo> => {
     if (!mediaId.startsWith(this.baseUrl)) {
-      mediaId = `${this.baseUrl}/${mediaId}`;
+      mediaId = `/${mediaId}`;
     }
 
     const movieInfo: IMovieInfo = {
@@ -87,7 +87,8 @@ class Fmovies extends MovieParser {
       url: mediaId,
     };
     try {
-      const { data } = await axios.get(mediaId);
+      const { data } = await this.client.get(mediaId);
+
       const $ = load(data);
       const uid = $('#watch').attr('data-id')!;
 
@@ -136,7 +137,7 @@ class Fmovies extends MovieParser {
       // movieInfo.rating = parseFloat($('span.item:nth-child(2)').text());
       // movieInfo.recommendations = recommendationsArray as any;
 
-      const ajaxData = (await axios.get(await this.ajaxReqUrl(uid))).data;
+      const ajaxData = (await this.client.get(await this.ajaxReqUrl(uid))).data;
       const $$ = load(ajaxData.html);
 
       movieInfo.episodes = [];
@@ -195,7 +196,7 @@ class Fmovies extends MovieParser {
         throw new Error(`Server ${server} not found`);
       }
 
-      const { data } = await axios.get(`${this.baseUrl}/ajax/episode/info?id=${selectedServer.url}`);
+      const { data } = await this.client.get(`/ajax/episode/info?id=${selectedServer.url}`);
 
       const serverUrl: URL = new URL(await this.decrypt(data.url));
 
@@ -212,16 +213,16 @@ class Fmovies extends MovieParser {
    */
   override fetchEpisodeServers = async (episodeId: string, mediaId: string): Promise<IEpisodeServer[]> => {
     if (!mediaId.startsWith(this.baseUrl)) {
-      mediaId = `${this.baseUrl}/${mediaId}`;
+      mediaId = `/${mediaId}`;
     }
 
     try {
-      const { data } = await axios.get(mediaId);
+      const { data } = await this.client.get(mediaId);
       const $ = load(data);
       const uid = $('#watch').attr('data-id')!;
       const epsiodeServers: IEpisodeServer[] = [];
 
-      const ajaxData = (await axios.get(await this.ajaxReqUrl(uid))).data;
+      const ajaxData = (await this.client.get(await this.ajaxReqUrl(uid))).data;
       const $$ = load(ajaxData.html);
       const servers: { [key: string]: string } = {};
 
@@ -270,18 +271,18 @@ class Fmovies extends MovieParser {
 
   private async ajaxReqUrl(id: string) {
     const vrf = await this.ev(id);
-    return `${this.baseUrl}/ajax/film/servers?id=${id}&vrf=${vrf}&token=`;
+    return `/ajax/film/servers?id=${id}&vrf=${vrf}&token=`;
   }
 }
 
 // (async () => {
-//     const movie = new Fmovies();
-//     // const search = await movie.search('friends');
+//     const movie = new Fmovies("https://9anime.enimax.xyz", {url: "https://proxy.vnxservers.com/"}, "848624aaffec43808c86f5e47e3fa5b0");
+//     const search = await movie.search('friends');
 
 //     // const search = await movie.fetchMediaInfo('series/friends-3rvj9');
-//     const search = await movie.fetchMediaInfo('movie/chimes-at-midnight-1qvnw');
+//     // const search = await movie.fetchMediaInfo('movie/chimes-at-midnight-1qvnw');
 //     // const search = await movie.fetchEpisodeSources('1-full','movie/chimes-at-midnight-1qvnw');
-//     // const movieInfo = await movie.fetchMediaInfo('series/friends-3rvj9');
+//     // const search = await movie.fetchMediaInfo('series/friends-3rvj9');
 //     // console.log(JSON.stringify(movieInfo));
 
 //     console.log(
