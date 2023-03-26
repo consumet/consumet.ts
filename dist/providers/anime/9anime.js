@@ -32,7 +32,7 @@ class NineAnime extends models_1.AnimeParser {
         };
         try {
             const vrf = await this.searchVrf(query);
-            const res = await this.client.get(`/filter?keyword=${encodeURIComponent(query).replace(/%20/g, "+")}&vrf=${encodeURIComponent(vrf)}&page=${page}`);
+            const res = await this.client.get(`/filter?keyword=${encodeURIComponent(query).replace(/%20/g, '+')}&vrf=${encodeURIComponent(vrf)}&page=${page}`);
             const $ = (0, cheerio_1.load)(res.data);
             searchResult.hasNextPage =
                 $(`ul.pagination`).length > 0
@@ -199,6 +199,7 @@ class NineAnime extends models_1.AnimeParser {
                         sources: await new extractors_1.StreamTape().extract(serverUrl),
                     };
                 case models_1.StreamingServers.VizCloud:
+                case models_1.StreamingServers.VidCloud:
                     return {
                         headers: { Referer: serverUrl.href, 'User-Agent': utils_1.USER_AGENT },
                         sources: await new extractors_1.VizCloud().extract(serverUrl, this.nineAnimeResolver, this.apiKey),
@@ -213,6 +214,8 @@ class NineAnime extends models_1.AnimeParser {
                         headers: { Referer: serverUrl.href, 'User-Agent': utils_1.USER_AGENT },
                         sources: await new extractors_1.Filemoon().extract(serverUrl),
                     };
+                default:
+                    throw new Error('Server not supported');
             }
         }
         try {

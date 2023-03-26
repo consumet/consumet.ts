@@ -47,7 +47,9 @@ class NineAnime extends AnimeParser {
     try {
       const vrf = await this.searchVrf(query);
       const res = await this.client.get(
-        `/filter?keyword=${encodeURIComponent(query).replace(/%20/g, "+")}&vrf=${encodeURIComponent(vrf)}&page=${page}`
+        `/filter?keyword=${encodeURIComponent(query).replace(/%20/g, '+')}&vrf=${encodeURIComponent(
+          vrf
+        )}&page=${page}`
       );
 
       const $ = load(res.data);
@@ -244,6 +246,7 @@ class NineAnime extends AnimeParser {
             sources: await new StreamTape().extract(serverUrl),
           };
         case StreamingServers.VizCloud:
+        case StreamingServers.VidCloud:
           return {
             headers: { Referer: serverUrl.href, 'User-Agent': USER_AGENT },
             sources: await new VizCloud().extract(serverUrl, this.nineAnimeResolver, this.apiKey),
@@ -258,6 +261,8 @@ class NineAnime extends AnimeParser {
             headers: { Referer: serverUrl.href, 'User-Agent': USER_AGENT },
             sources: await new Filemoon().extract(serverUrl),
           };
+        default:
+          throw new Error('Server not supported');
       }
     }
     try {
@@ -294,7 +299,8 @@ class NineAnime extends AnimeParser {
       ).data;
       const embedURL = (
         await axios.get(
-          `${this.nineAnimeResolver}/decrypt?query=${encodeURIComponent(serverSource.result.url)}&apikey=${this.apiKey
+          `${this.nineAnimeResolver}/decrypt?query=${encodeURIComponent(serverSource.result.url)}&apikey=${
+            this.apiKey
           }`
         )
       ).data.url;
@@ -399,7 +405,7 @@ class NineAnime extends AnimeParser {
 //   // console.log(await nineAnime.vizcloud("LNPEK8Q0QPXW"));
 //   // console.log(await nineAnime.decrypt("ab6/", true));
 //   // console.log(await nineAnime.customRequest("LNPEK8Q0QPXW", "9anime-search"));
-  
+
 // })();
 
 export default NineAnime;
