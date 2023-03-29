@@ -12,6 +12,7 @@ import {
   StreamSB,
   StreamTape,
   VidCloud,
+  StreamLare,
 } from './extractors';
 import {
   IProviderStats,
