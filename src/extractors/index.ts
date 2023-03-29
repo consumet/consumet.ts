@@ -9,6 +9,7 @@ import VizCloud from './vizcloud';
 import Filemoon from './filemoon';
 import BilibiliExtractor from './bilibili';
 import AsianLoad from './asianload';
+import StreamLare from './streamlare';
 
 export {
   GogoCDN,
@@ -22,4 +23,5 @@ export {
   Filemoon,
   BilibiliExtractor,
   AsianLoad,
+  StreamLare,
 };
