@@ -14,19 +14,19 @@ class StreamLare extends VideoExtractor {
     private readonly USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
 
     async extract(videoUrl: URL, userAgent: string = this.USER_AGENT.toString(), ...args: any): Promise<IVideo[] | ISource> {
-        let res = await axios.get(videoUrl.href);
+        const res = await axios.get(videoUrl.href);
 
-        let $ = load(res.data);
+        const $ = load(res.data);
 
-        let CSRF_TOKEN = $("head > meta:nth-child(3)").attr("content")?.toString();
+        const CSRF_TOKEN = $("head > meta:nth-child(3)").attr("content")?.toString();
 
-        let videoId = videoUrl.href.match(this.regex)![1];
+        const videoId = videoUrl.href.match(this.regex)![1];
 
         if (videoId == undefined) {
             throw new Error("Video id not matched!");
         }
 
-        let POST = await axios.post(this.host + "/api/video/stream/get", {
+        const POST = await axios.post(this.host + "/api/video/stream/get", {
             id: videoId,
         }, {
             headers: {
@@ -34,9 +34,9 @@ class StreamLare extends VideoExtractor {
             }
         })
 
-        let POST_RES = POST.data;
+        const POST_RES = POST.data;
 
-        let result = {
+        const result = {
             headers: {
                 "User-Agent": userAgent,
             },
