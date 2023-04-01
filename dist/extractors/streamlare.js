@@ -17,22 +17,22 @@ class StreamLare extends video_extractor_1.default {
     }
     async extract(videoUrl, userAgent = this.USER_AGENT.toString(), ...args) {
         var _a;
-        let res = await axios_1.default.get(videoUrl.href);
-        let $ = (0, cheerio_1.load)(res.data);
-        let CSRF_TOKEN = (_a = $("head > meta:nth-child(3)").attr("content")) === null || _a === void 0 ? void 0 : _a.toString();
-        let videoId = videoUrl.href.match(this.regex)[1];
+        const res = await axios_1.default.get(videoUrl.href);
+        const $ = (0, cheerio_1.load)(res.data);
+        const CSRF_TOKEN = (_a = $("head > meta:nth-child(3)").attr("content")) === null || _a === void 0 ? void 0 : _a.toString();
+        const videoId = videoUrl.href.match(this.regex)[1];
         if (videoId == undefined) {
             throw new Error("Video id not matched!");
         }
-        let POST = await axios_1.default.post(this.host + "/api/video/stream/get", {
+        const POST = await axios_1.default.post(this.host + "/api/video/stream/get", {
             id: videoId,
         }, {
             headers: {
                 "User-Agent": userAgent,
             }
         });
-        let POST_RES = POST.data;
-        let result = {
+        const POST_RES = POST.data;
+        const result = {
             headers: {
                 "User-Agent": userAgent,
             },

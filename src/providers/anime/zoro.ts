@@ -51,12 +51,12 @@ class Zoro extends AnimeParser {
         $('.pagination > li').length > 0 ?
           $('.pagination li.active').length > 0 ?
             $('.pagination > li').last().hasClass('active') ? false : true
-          : false
-        : false;
+            : false
+          : false;
 
       res.totalPages = parseInt(
         $('.pagination > .page-item a[title="Last"]')?.attr('href')?.split("=").pop()
-          ??
+        ??
         $('.pagination > .page-item.active a')?.text()?.trim()
       ) || 0;
 
@@ -306,6 +306,22 @@ class Zoro extends AnimeParser {
       throw new Error('Something went wrong. Please try again later.');
     }
   };
+
+  /**
+   * 
+   * @param keyID Key's ID. It's either 4 or 6
+   * @returns The key
+   */
+  getKey = async (keyID: number) => {
+    try {
+      const { data } = await axios.get(`http://9anime.to/e${keyID}.txt`);
+      return data;
+    } catch (err) {
+      console.log(err);
+      throw new Error('Something went wrong. Please try again later.');
+    }
+  };
+
   /**
    * @deprecated
    * @param episodeId Episode id
