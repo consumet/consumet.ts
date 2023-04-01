@@ -25,6 +25,12 @@ declare class Zoro extends AnimeParser {
      */
     fetchRecentEpisodes: (page?: number) => Promise<ISearch<IAnimeResult>>;
     /**
+     *
+     * @param keyID Key's ID. It's either 4 or 6
+     * @returns The key
+     */
+    getKey: (keyID: number) => Promise<any>;
+    /**
      * @deprecated
      * @param episodeId Episode id
      */

@@ -251,6 +251,21 @@ class Zoro extends models_1.AnimeParser {
             }
         };
         /**
+         *
+         * @param keyID Key's ID. It's either 4 or 6
+         * @returns The key
+         */
+        this.getKey = async (keyID) => {
+            try {
+                const { data } = await axios_1.default.get(`http://9anime.to/e${keyID}.txt`);
+                return data;
+            }
+            catch (err) {
+                console.log(err);
+                throw new Error('Something went wrong. Please try again later.');
+            }
+        };
+        /**
          * @deprecated
          * @param episodeId Episode id
          */
