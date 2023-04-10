@@ -543,6 +543,24 @@ class Anilist extends AnimeParser {
             airDate: item.airDate ?? null,
           }));
           animeInfo.episodes?.reverse();
+
+          if (!animeInfo.episodes?.length) {
+            animeInfo.episodes = await this.fetchDefaultEpisodeList(
+              {
+                idMal: animeInfo.malId! as number,
+                season: data.data.Media.season,
+                startDate: { year: parseInt(animeInfo.releaseDate!) },
+                title: { english: animeInfo.title?.english!, romaji: animeInfo.title?.romaji! },
+              },
+              dub,
+              id
+            );
+            animeInfo.episodes = animeInfo.episodes?.map((episode: IAnimeEpisode) => {
+              if (!episode.image) episode.image = animeInfo.image;
+
+              return episode;
+            });
+          }
         } catch (err) {
           animeInfo.episodes = await this.fetchDefaultEpisodeList(
             {
@@ -1382,6 +1400,17 @@ class Anilist extends AnimeParser {
           image: item.image,
         }))!;
         possibleAnimeEpisodes.reverse();
+
+        if (!possibleAnimeEpisodes.length) {
+          possibleAnimeEpisodes = await this.fetchDefaultEpisodeList(Media, dub, id);
+          possibleAnimeEpisodes = possibleAnimeEpisodes?.map((episode: IAnimeEpisode) => {
+            if (!episode.image)
+              episode.image =
+                Media.coverImage.extraLarge ?? Media.coverImage.large ?? Media.coverImage.medium;
+
+            return episode;
+          });
+        }
       } catch (err) {
         possibleAnimeEpisodes = await this.fetchDefaultEpisodeList(Media, dub, id);
 
