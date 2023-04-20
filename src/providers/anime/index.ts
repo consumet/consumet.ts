@@ -7,5 +7,6 @@ import Enime from './enime';
 import Crunchyroll from './crunchyroll';
 import Bilibili from './bilibili';
 import Marin from './marin';
+import AnimeSaturn from './animesaturn';
 
-export default { Gogoanime, NineAnime, AnimePahe, Zoro, AnimeFox, Enime, Crunchyroll, Bilibili, Marin };
+export default { Gogoanime, NineAnime, AnimePahe, Zoro, AnimeFox, Enime, Crunchyroll, Bilibili, Marin, AnimeSaturn };
