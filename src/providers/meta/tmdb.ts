@@ -19,7 +19,7 @@ class TMDB extends MovieParser {
   protected override baseUrl = 'https://www.themoviedb.org';
   protected apiUrl = 'https://api.themoviedb.org/3';
   protected override logo = 'https://pbs.twimg.com/profile_images/1243623122089041920/gVZIvphd_400x400.jpg';
-  protected override classPath = 'MOVIES.TMDB';
+  protected override classPath = 'META.TMDB';
   override supportedTypes = new Set([TvType.MOVIE, TvType.TVSERIES, TvType.ANIME]);
 
   private provider: MovieParser;

@@ -14,7 +14,7 @@ class TMDB extends models_1.MovieParser {
         this.baseUrl = 'https://www.themoviedb.org';
         this.apiUrl = 'https://api.themoviedb.org/3';
         this.logo = 'https://pbs.twimg.com/profile_images/1243623122089041920/gVZIvphd_400x400.jpg';
-        this.classPath = 'MOVIES.TMDB';
+        this.classPath = 'META.TMDB';
         this.supportedTypes = new Set([models_1.TvType.MOVIE, models_1.TvType.TVSERIES, models_1.TvType.ANIME]);
         /**
          * @param query search query
