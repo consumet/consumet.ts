@@ -7,13 +7,13 @@ const cheerio_1 = require("cheerio");
 const axios_1 = __importDefault(require("axios"));
 const models_1 = require("../../models");
 const extractors_1 = require("../../extractors");
-class Dramacool extends models_1.MovieParser {
+class DramaCool extends models_1.MovieParser {
     constructor() {
         super(...arguments);
-        this.name = 'Dramacool';
+        this.name = 'DramaCool';
         this.baseUrl = 'https://www1.dramacool.cr';
         this.logo = 'https://play-lh.googleusercontent.com/IaCb2JXII0OV611MQ-wSA8v_SAs9XF6E3TMDiuxGGXo4wp9bI60GtDASIqdERSTO5XU';
-        this.classPath = 'MOVIES.Dramacool';
+        this.classPath = 'MOVIES.DramaCool';
         this.supportedTypes = new Set([models_1.TvType.MOVIE, models_1.TvType.TVSERIES]);
         this.search = async (query, page = 1) => {
             const searchResult = {
@@ -153,5 +153,5 @@ class Dramacool extends models_1.MovieParser {
 //   // const sources = await drama.fetchEpisodeSources(mediaInfo.episodes![0].id);
 //   console.log(mediaInfo);
 // })();
-exports.default = Dramacool;
+exports.default = DramaCool;
 //# sourceMappingURL=dramacool.js.map

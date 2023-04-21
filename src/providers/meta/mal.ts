@@ -24,7 +24,7 @@ class Myanimelist extends AnimeParser {
   override readonly name = 'Myanimelist';
   protected override baseUrl = 'https://myanimelist.net/';
   protected override logo = 'https://en.wikipedia.org/wiki/MyAnimeList#/media/File:MyAnimeList.png';
-  protected override classPath = 'META.MAL';
+  protected override classPath = 'META.Myanimelist';
 
   private readonly anilistGraphqlUrl = 'https://graphql.anilist.co';
   private readonly kitsuGraphqlUrl = 'https://kitsu.io/api/graphql';

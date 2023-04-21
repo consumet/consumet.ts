@@ -187,71 +187,72 @@ class Anilist extends models_1.AnimeParser {
                     hasNextPage: (_k = (_j = (_h = (_g = data.data) === null || _g === void 0 ? void 0 : _g.Page) === null || _h === void 0 ? void 0 : _h.pageInfo) === null || _j === void 0 ? void 0 : _j.hasNextPage) !== null && _k !== void 0 ? _k : ((_l = data.meta) === null || _l === void 0 ? void 0 : _l.currentPage) != ((_m = data.meta) === null || _m === void 0 ? void 0 : _m.lastPage),
                     totalPages: (_q = (_p = (_o = data.data) === null || _o === void 0 ? void 0 : _o.Page) === null || _p === void 0 ? void 0 : _p.pageInfo) === null || _q === void 0 ? void 0 : _q.lastPage,
                     totalResults: (_t = (_s = (_r = data.data) === null || _r === void 0 ? void 0 : _r.Page) === null || _s === void 0 ? void 0 : _s.pageInfo) === null || _t === void 0 ? void 0 : _t.total,
-                    results: (_x = (_w = (_v = (_u = data.data) === null || _u === void 0 ? void 0 : _u.Page) === null || _v === void 0 ? void 0 : _v.media) === null || _w === void 0 ? void 0 : _w.map((item) => {
-                        var _b, _c, _d, _e, _f, _g, _h;
-                        return ({
-                            id: item.id.toString(),
-                            malId: item.idMal,
-                            title: {
-                                romaji: item.title.romaji,
-                                english: item.title.english,
-                                native: item.title.native,
-                                userPreferred: item.title.userPreferred,
-                            } || item.title.romaji,
-                            status: item.status == 'RELEASING'
-                                ? models_1.MediaStatus.ONGOING
-                                : item.status == 'FINISHED'
-                                    ? models_1.MediaStatus.COMPLETED
-                                    : item.status == 'NOT_YET_RELEASED'
-                                        ? models_1.MediaStatus.NOT_YET_AIRED
-                                        : item.status == 'CANCELLED'
-                                            ? models_1.MediaStatus.CANCELLED
-                                            : item.status == 'HIATUS'
-                                                ? models_1.MediaStatus.HIATUS
-                                                : models_1.MediaStatus.UNKNOWN,
-                            image: (_c = (_b = item.coverImage.extraLarge) !== null && _b !== void 0 ? _b : item.coverImage.large) !== null && _c !== void 0 ? _c : item.coverImage.medium,
-                            cover: item.bannerImage,
-                            popularity: item.popularity,
-                            totalEpisodes: (_d = item.episodes) !== null && _d !== void 0 ? _d : ((_e = item.nextAiringEpisode) === null || _e === void 0 ? void 0 : _e.episode) - 1,
-                            currentEpisode: (_g = ((_f = item.nextAiringEpisode) === null || _f === void 0 ? void 0 : _f.episode) - 1) !== null && _g !== void 0 ? _g : item.episodes,
-                            countryOfOrigin: item.countryOfOrigin,
-                            description: item.description,
-                            genres: item.genres,
-                            rating: item.averageScore,
-                            color: (_h = item.coverImage) === null || _h === void 0 ? void 0 : _h.color,
-                            type: item.format,
-                            releaseDate: item.seasonYear,
-                        });
-                    })) !== null && _x !== void 0 ? _x : (_y = data.data) === null || _y === void 0 ? void 0 : _y.map((item) => {
-                        var _b;
-                        return ({
-                            id: item.anilistId.toString(),
-                            malId: item.mappings['mal'],
-                            title: item.title,
-                            status: item.status == 'RELEASING'
-                                ? models_1.MediaStatus.ONGOING
-                                : item.status == 'FINISHED'
-                                    ? models_1.MediaStatus.COMPLETED
-                                    : item.status == 'NOT_YET_RELEASED'
-                                        ? models_1.MediaStatus.NOT_YET_AIRED
-                                        : item.status == 'CANCELLED'
-                                            ? models_1.MediaStatus.CANCELLED
-                                            : item.status == 'HIATUS'
-                                                ? models_1.MediaStatus.HIATUS
-                                                : models_1.MediaStatus.UNKNOWN,
-                            image: (_b = item.coverImage) !== null && _b !== void 0 ? _b : item.bannerImage,
-                            cover: item.bannerImage,
-                            popularity: item.popularity,
-                            description: item.description,
-                            rating: item.averageScore,
-                            genres: item.genre,
-                            color: item.color,
-                            totalEpisodes: item.currentEpisode,
-                            type: item.format,
-                            releaseDate: item.year,
-                        });
-                    }),
+                    results: [],
                 };
+                res.results.push(...((_x = (_w = (_v = (_u = data.data) === null || _u === void 0 ? void 0 : _u.Page) === null || _v === void 0 ? void 0 : _v.media) === null || _w === void 0 ? void 0 : _w.map((item) => {
+                    var _b, _c, _d, _e, _f, _g, _h;
+                    return ({
+                        id: item.id.toString(),
+                        malId: item.idMal,
+                        title: {
+                            romaji: item.title.romaji,
+                            english: item.title.english,
+                            native: item.title.native,
+                            userPreferred: item.title.userPreferred,
+                        } || item.title.romaji,
+                        status: item.status == 'RELEASING'
+                            ? models_1.MediaStatus.ONGOING
+                            : item.status == 'FINISHED'
+                                ? models_1.MediaStatus.COMPLETED
+                                : item.status == 'NOT_YET_RELEASED'
+                                    ? models_1.MediaStatus.NOT_YET_AIRED
+                                    : item.status == 'CANCELLED'
+                                        ? models_1.MediaStatus.CANCELLED
+                                        : item.status == 'HIATUS'
+                                            ? models_1.MediaStatus.HIATUS
+                                            : models_1.MediaStatus.UNKNOWN,
+                        image: (_c = (_b = item.coverImage.extraLarge) !== null && _b !== void 0 ? _b : item.coverImage.large) !== null && _c !== void 0 ? _c : item.coverImage.medium,
+                        cover: item.bannerImage,
+                        popularity: item.popularity,
+                        totalEpisodes: (_d = item.episodes) !== null && _d !== void 0 ? _d : ((_e = item.nextAiringEpisode) === null || _e === void 0 ? void 0 : _e.episode) - 1,
+                        currentEpisode: (_g = ((_f = item.nextAiringEpisode) === null || _f === void 0 ? void 0 : _f.episode) - 1) !== null && _g !== void 0 ? _g : item.episodes,
+                        countryOfOrigin: item.countryOfOrigin,
+                        description: item.description,
+                        genres: item.genres,
+                        rating: item.averageScore,
+                        color: (_h = item.coverImage) === null || _h === void 0 ? void 0 : _h.color,
+                        type: item.format,
+                        releaseDate: item.seasonYear,
+                    });
+                })) !== null && _x !== void 0 ? _x : (_y = data.data) === null || _y === void 0 ? void 0 : _y.map((item) => {
+                    var _b;
+                    return ({
+                        id: item.anilistId.toString(),
+                        malId: item.mappings['mal'],
+                        title: item.title,
+                        status: item.status == 'RELEASING'
+                            ? models_1.MediaStatus.ONGOING
+                            : item.status == 'FINISHED'
+                                ? models_1.MediaStatus.COMPLETED
+                                : item.status == 'NOT_YET_RELEASED'
+                                    ? models_1.MediaStatus.NOT_YET_AIRED
+                                    : item.status == 'CANCELLED'
+                                        ? models_1.MediaStatus.CANCELLED
+                                        : item.status == 'HIATUS'
+                                            ? models_1.MediaStatus.HIATUS
+                                            : models_1.MediaStatus.UNKNOWN,
+                        image: (_b = item.coverImage) !== null && _b !== void 0 ? _b : item.bannerImage,
+                        cover: item.bannerImage,
+                        popularity: item.popularity,
+                        description: item.description,
+                        rating: item.averageScore,
+                        genres: item.genre,
+                        color: item.color,
+                        totalEpisodes: item.currentEpisode,
+                        type: item.format,
+                        releaseDate: item.year,
+                    });
+                })));
                 return res;
             }
             catch (err) {
@@ -1828,9 +1829,8 @@ Anilist.Manga = class Manga {
 };
 // (async () => {
 //   const ani = new Anilist();
-//   const search = await ani.search('naruto');
+//   const search = await ani.search('lycoris recoil');
 //   const anime = await ani.fetchAnimeInfo(search.results[0].id);
-//   const sources = await ani.fetchEpisodeSources(anime.episodes![0].id);
 //   console.log(anime);
 // })();
 exports.default = Anilist;

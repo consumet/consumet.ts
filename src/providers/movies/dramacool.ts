@@ -13,12 +13,12 @@ import {
 } from '../../models';
 import { MixDrop, AsianLoad, StreamTape, StreamSB } from '../../extractors';
 
-class Dramacool extends MovieParser {
-  override readonly name = 'Dramacool';
+class DramaCool extends MovieParser {
+  override readonly name = 'DramaCool';
   protected override baseUrl = 'https://www1.dramacool.cr';
   protected override logo =
     'https://play-lh.googleusercontent.com/IaCb2JXII0OV611MQ-wSA8v_SAs9XF6E3TMDiuxGGXo4wp9bI60GtDASIqdERSTO5XU';
-  protected override classPath = 'MOVIES.Dramacool';
+  protected override classPath = 'MOVIES.DramaCool';
   override supportedTypes = new Set([TvType.MOVIE, TvType.TVSERIES]);
 
   override search = async (query: string, page: number = 1): Promise<ISearch<IMovieResult>> => {
@@ -180,4 +180,4 @@ class Dramacool extends MovieParser {
 //   console.log(mediaInfo);
 // })();
 
-export default Dramacool;
+export default DramaCool;

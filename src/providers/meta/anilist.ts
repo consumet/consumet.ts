@@ -241,42 +241,45 @@ class Anilist extends AnimeParser {
         hasNextPage: data.data?.Page?.pageInfo?.hasNextPage ?? data.meta?.currentPage != data.meta?.lastPage,
         totalPages: data.data?.Page?.pageInfo?.lastPage,
         totalResults: data.data?.Page?.pageInfo?.total,
-        results:
-          data.data?.Page?.media?.map((item: any) => ({
-            id: item.id.toString(),
-            malId: item.idMal,
-            title:
-              {
-                romaji: item.title.romaji,
-                english: item.title.english,
-                native: item.title.native,
-                userPreferred: item.title.userPreferred,
-              } || item.title.romaji,
-            status:
-              item.status == 'RELEASING'
-                ? MediaStatus.ONGOING
-                : item.status == 'FINISHED'
-                ? MediaStatus.COMPLETED
-                : item.status == 'NOT_YET_RELEASED'
-                ? MediaStatus.NOT_YET_AIRED
-                : item.status == 'CANCELLED'
-                ? MediaStatus.CANCELLED
-                : item.status == 'HIATUS'
-                ? MediaStatus.HIATUS
-                : MediaStatus.UNKNOWN,
-            image: item.coverImage.extraLarge ?? item.coverImage.large ?? item.coverImage.medium,
-            cover: item.bannerImage,
-            popularity: item.popularity,
-            totalEpisodes: item.episodes ?? item.nextAiringEpisode?.episode - 1,
-            currentEpisode: item.nextAiringEpisode?.episode - 1 ?? item.episodes,
-            countryOfOrigin: item.countryOfOrigin,
-            description: item.description,
-            genres: item.genres,
-            rating: item.averageScore,
-            color: item.coverImage?.color,
-            type: item.format,
-            releaseDate: item.seasonYear,
-          })) ??
+        results: [],
+      };
+
+      res.results.push(
+        ...(data.data?.Page?.media?.map((item: any) => ({
+          id: item.id.toString(),
+          malId: item.idMal,
+          title:
+            {
+              romaji: item.title.romaji,
+              english: item.title.english,
+              native: item.title.native,
+              userPreferred: item.title.userPreferred,
+            } || item.title.romaji,
+          status:
+            item.status == 'RELEASING'
+              ? MediaStatus.ONGOING
+              : item.status == 'FINISHED'
+              ? MediaStatus.COMPLETED
+              : item.status == 'NOT_YET_RELEASED'
+              ? MediaStatus.NOT_YET_AIRED
+              : item.status == 'CANCELLED'
+              ? MediaStatus.CANCELLED
+              : item.status == 'HIATUS'
+              ? MediaStatus.HIATUS
+              : MediaStatus.UNKNOWN,
+          image: item.coverImage.extraLarge ?? item.coverImage.large ?? item.coverImage.medium,
+          cover: item.bannerImage,
+          popularity: item.popularity,
+          totalEpisodes: item.episodes ?? item.nextAiringEpisode?.episode - 1,
+          currentEpisode: item.nextAiringEpisode?.episode - 1 ?? item.episodes,
+          countryOfOrigin: item.countryOfOrigin,
+          description: item.description,
+          genres: item.genres,
+          rating: item.averageScore,
+          color: item.coverImage?.color,
+          type: item.format,
+          releaseDate: item.seasonYear,
+        })) ??
           data.data?.map((item: any) => ({
             id: item.anilistId.toString(),
             malId: item.mappings['mal'],
@@ -303,8 +306,8 @@ class Anilist extends AnimeParser {
             totalEpisodes: item.currentEpisode,
             type: item.format,
             releaseDate: item.year,
-          })),
-      };
+          })))
+      );
 
       return res;
     } catch (err) {
@@ -543,7 +546,6 @@ class Anilist extends AnimeParser {
             airDate: item.airDate ?? null,
           }));
           animeInfo.episodes?.reverse();
-
           if (!animeInfo.episodes?.length) {
             animeInfo.episodes = await this.fetchDefaultEpisodeList(
               {
@@ -2145,9 +2147,8 @@ class Anilist extends AnimeParser {
 
 // (async () => {
 //   const ani = new Anilist();
-//   const search = await ani.search('naruto');
+//   const search = await ani.search('lycoris recoil');
 //   const anime = await ani.fetchAnimeInfo(search.results[0].id);
-//   const sources = await ani.fetchEpisodeSources(anime.episodes![0].id);
 //   console.log(anime);
 // })();
 

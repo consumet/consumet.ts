@@ -1,6 +1,6 @@
 import { MovieParser, TvType, IMovieInfo, IEpisodeServer, StreamingServers, ISource, IMovieResult, ISearch } from '../../models';
-declare class Dramacool extends MovieParser {
-    readonly name = "Dramacool";
+declare class DramaCool extends MovieParser {
+    readonly name = "DramaCool";
     protected baseUrl: string;
     protected logo: string;
     protected classPath: string;
@@ -11,4 +11,4 @@ declare class Dramacool extends MovieParser {
     fetchEpisodeServers(episodeId: string, ...args: any): Promise<IEpisodeServer[]>;
     private removeContainsFromString;
 }
-export default Dramacool;
+export default DramaCool;
