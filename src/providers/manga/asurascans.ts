@@ -92,22 +92,33 @@ class AsuraScans extends MangaParser {
   };
 
   override fetchChapterPages = async (chapterId: string): Promise<IMangaChapterPage[]> => {
+    const options = {
+      method: 'GET',
+      url: `${this.baseUrl}/${chapterId.trim()}`,
+      headers: {
+        'User-Agent': 'Ubuntu Chromium/34.0.1847.116 Chrome/34.0.1847.116 Safari/537.36',
+        'Cache-Control': 'private',
+        'Accept': 'application/xml,application/xhtml+xml,text/html;q=0.9, text/plain;q=0.8,image/png,*/*;q=0.5'
+      },
+      cloudflareTimeout: 5000,
+      cloudflareMaxTimeout: 30000,
+      followAllRedirects: true,
+      challengesToSolve: 3,
+      decodeEmails: false,
+      gzip: true,
+    };
+
     try {
-      const url = !chapterId.includes('$$READMANGANATO')
-        ? `${this.baseUrl}/chapter/${chapterId}`
-        : `https://readmanganato.com/${chapterId.replace('$$READMANGANATO', '')}`;
-      const { data } = await axios.get(url);
+      const data = await cloudscraper(options).then((response: any) => response);
       const $ = load(data);
 
-      const pages = $('div.container-chapter-reader > img')
+      const pageSelector = 'div#readerarea img'
+
+      const pages = $(pageSelector)
         .map(
           (i, el): IMangaChapterPage => ({
             img: $(el).attr('src')!,
             page: i,
-            title: $(el)
-              .attr('alt')
-              ?.replace(/(- Mangakakalot.com)|(- MangaNato.com)/g, ' ')
-              .trim()!,
             headerForImage: { Referer: this.baseUrl },
           })
         )

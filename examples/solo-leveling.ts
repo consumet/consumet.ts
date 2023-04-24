@@ -8,6 +8,9 @@ const main = async () => {
 
   const results = await getManga.fetchMangaInfo('1948049029-the-hero-returns');
   console.log(results)
+
+  const resultsPage = await getManga.fetchChapterPages('4675140488-the-hero-returns-chapter-1');
+  console.log(resultsPage)
 };
 
 main();
