@@ -40,7 +40,7 @@ class AsuraScans extends MangaParser {
     };
 
     try {
-      const data = await cloudscraper(options).then((response: any) => response);
+      const data: string = await cloudscraper(options).then((response: any) => response);
       const $: CheerioAPI = load(data);
 
       const seriesTitleSelector = "h1.entry-title"
@@ -108,7 +108,7 @@ class AsuraScans extends MangaParser {
     };
 
     try {
-      const data = await cloudscraper(options).then((response: any) => response);
+      const data: string = await cloudscraper(options).then((response: any) => response);
       const $: CheerioAPI = load(data);
 
       const pageSelector = 'div#readerarea img'
@@ -151,7 +151,7 @@ class AsuraScans extends MangaParser {
         gzip: true,
       };
 
-      const data = await cloudscraper(options).then((response: any) => response);
+      const data: string = await cloudscraper(options).then((response: any) => response);
 
       const $: CheerioAPI = load(data);
 
