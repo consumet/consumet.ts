@@ -136,7 +136,7 @@ class AsuraScans extends MangaParser {
    */
   override search = async (query: string, page: number = 1): Promise<ISearch<IMangaResult>> => {
     try {
-      let options = {
+      const options = {
         method: 'GET',
         url: `${this.baseUrl}/?s=${query.replace(/ /g, '%20')}`,
         headers: {
