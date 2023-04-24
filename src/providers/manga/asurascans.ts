@@ -1,4 +1,4 @@
-import { load } from 'cheerio';
+import { CheerioAPI, load } from 'cheerio';
 import cloudscraper from 'cloudscraper'
 
 import {
@@ -41,7 +41,7 @@ class AsuraScans extends MangaParser {
 
     try {
       const data = await cloudscraper(options).then((response: any) => response);
-      const $ = load(data);
+      const $: CheerioAPI = load(data);
 
       const seriesTitleSelector = "h1.entry-title"
       const seriesArtistSelector = ".infotable tr:icontains('artist') td:last-child, .tsinfo .imptdt:icontains('artist') i, .fmed b:icontains('artist')+span, span:icontains('artist')"
@@ -109,7 +109,7 @@ class AsuraScans extends MangaParser {
 
     try {
       const data = await cloudscraper(options).then((response: any) => response);
-      const $ = load(data);
+      const $: CheerioAPI = load(data);
 
       const pageSelector = 'div#readerarea img'
 
@@ -153,7 +153,7 @@ class AsuraScans extends MangaParser {
 
       const data = await cloudscraper(options).then((response: any) => response);
 
-      const $ = load(data);
+      const $: CheerioAPI = load(data);
 
       const searchMangaSelector = '.utao .uta .imgu, .listupd .bs .bsx, .listo .bs .bsx'
 
