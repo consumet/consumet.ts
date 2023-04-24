@@ -16,9 +16,7 @@
         "test:manga": "jest ./test/manga",
         "test:lightnovels": "jest ./test/light-novels",
         "test:news": "jest ./test/news",
-        "test:meta": "jest ./test/meta",
-        "asura":"npm run build && npm run build ./examples/solo-leveling.ts && node ./examples/solo-leveling.js",
-        "asura:search":"npm run build ./examples/solo-leveling.ts && node ./examples/solo-leveling.js"
+        "test:meta": "jest ./test/meta"
     },
     "files": [
         "dist"
