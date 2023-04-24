@@ -1,4 +1,3 @@
-import axios from 'axios';
 import { load } from 'cheerio';
 import cloudscraper from 'cloudscraper'
 
@@ -79,7 +78,7 @@ class AsuraScans extends MangaParser {
       mangaInfo.chapters = $(seriesChaptersSelector)
         .map(
           (i, el): IMangaChapter => ({
-            id: $(el).find('a').attr('href')?.split('/')[3]!,
+            id: $(el).find('a').attr('href')?.split('/')[3] ?? '',
             title: $(el).find('.lch a, .chapternum').text(),
             releasedDate: $(el).find('.chapterdate').text(),
           })
@@ -134,7 +133,7 @@ class AsuraScans extends MangaParser {
    *
    * @param query Search query
    */
-  override search = async (query: string, page: number = 1): Promise<ISearch<IMangaResult>> => {
+  override search = async (query: string): Promise<ISearch<IMangaResult>> => {
     try {
       const options = {
         method: 'GET',
@@ -161,7 +160,7 @@ class AsuraScans extends MangaParser {
       const results = $(searchMangaSelector)
         .map(
           (i, el): IMangaResult => ({
-            id: $(el).find('a').attr('href')?.split('/')[4]!,
+            id: $(el).find('a').attr('href')?.split('/')[4] ?? '',
             title: $(el).find('a').attr('title')!,
             image: $(el).find('img').attr('src'),
             headerForImage: { Referer: this.baseUrl },
