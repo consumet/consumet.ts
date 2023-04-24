@@ -55,7 +55,7 @@ class AsuraScans extends MangaParser {
       const seriesChaptersSelector = "div.bxcl li, div.cl li, #chapterlist li, ul li:has(div.chbox):has(div.eph-num)"
 
       mangaInfo.title = $(seriesTitleSelector).text().trim()
-      mangaInfo.altTitles = $(seriesAltNameSelector).text().split(',').map(item => item.trim())
+      mangaInfo.altTitles = $(seriesAltNameSelector).text() ? $(seriesAltNameSelector).text().split(',').map(item => item.trim()) : []
       mangaInfo.description = $(seriesDescriptionSelector).text().trim()
       mangaInfo.headerForImage = { Referer: this.baseUrl }
       mangaInfo.image = $(seriesThumbnailSelector).attr('src')
@@ -74,8 +74,8 @@ class AsuraScans extends MangaParser {
           mangaInfo.status = MediaStatus.UNKNOWN
           break;
       }
-      mangaInfo.authors = $(seriesAuthorSelector).text().split(',').map(item => item.trim())
-      mangaInfo.artist = $(seriesArtistSelector).text().trim()
+      mangaInfo.authors = $(seriesAuthorSelector).text().replace('-', '').trim() ? $(seriesAuthorSelector).text().split(',').map(item => item.trim()) : []
+      mangaInfo.artist = $(seriesArtistSelector).text().trim() ? $(seriesArtistSelector).text().trim() : 'N/A'
       mangaInfo.chapters = $(seriesChaptersSelector)
         .map(
           (i, el): IMangaChapter => ({
