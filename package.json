@@ -51,7 +51,6 @@
         "ascii-url-encoder": "^1.2.0",
         "axios": "^0.27.2",
         "cheerio": "^1.0.0-rc.11",
-        "cloudscraper": "^4.6.0",
         "crypto-js": "^4.1.1",
         "form-data": "^4.0.0"
     },
@@ -64,6 +63,8 @@
         "@types/ws": "^8.5.3",
         "auto-changelog": "^2.4.0",
         "husky": "^8.0.1",
+        "request": "^2.88.2",
+        "cloudscraper": "^4.6.0",
         "is-ci": "^3.0.1",
         "jest": "^28.1.0",
         "prettier": "^2.7.1",
