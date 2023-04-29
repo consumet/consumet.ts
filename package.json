@@ -63,6 +63,8 @@
         "@types/ws": "^8.5.3",
         "auto-changelog": "^2.4.0",
         "husky": "^8.0.1",
+        "request": "^2.88.2",
+        "cloudscraper": "^4.6.0",
         "is-ci": "^3.0.1",
         "jest": "^28.1.0",
         "prettier": "^2.7.1",
