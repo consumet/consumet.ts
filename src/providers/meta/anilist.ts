@@ -529,7 +529,7 @@ class Anilist extends AnimeParser {
         (this.provider instanceof Zoro || this.provider instanceof Gogoanime) &&
         !dub &&
         (animeInfo.status === MediaStatus.ONGOING ||
-          range({ from: 2000, to: new Date().getFullYear() + 1 }).includes(parseInt(animeInfo.releaseDate!)))
+          range({ from: 1940, to: new Date().getFullYear() + 1 }).includes(parseInt(animeInfo.releaseDate!)))
       ) {
         try {
           const enimeInfo = await new Enime().fetchAnimeInfoByAnilistId(
@@ -867,6 +867,7 @@ class Anilist extends AnimeParser {
 
             for (const episode of episodes) {
               const i = episode?.number.toString().replace(/"/g, '');
+
               let name = undefined;
               let description = undefined;
               let thumbnail = undefined;
@@ -882,6 +883,7 @@ class Anilist extends AnimeParser {
                   episodeNum: episode?.number.toString().replace(/"/g, ''),
                   title: name,
                   description,
+                  createdAt: episode?.createdAt,
                   thumbnail,
                 });
                 continue;
@@ -890,6 +892,7 @@ class Anilist extends AnimeParser {
                 episodeNum: undefined,
                 title: undefined,
                 description: undefined,
+                createdAt: undefined,
                 thumbnail,
               });
             }
@@ -907,6 +910,7 @@ class Anilist extends AnimeParser {
           title: ep.title ?? episodesList.get(j)?.title ?? null,
           image: ep.image ?? episodesList.get(j)?.thumbnail ?? null,
           number: ep.number as number,
+          createdAt: ep.createdAt ?? episodesList.get(j)?.createdAt ?? null,
           description: ep.description ?? episodesList.get(j)?.description ?? null,
           url: (ep.url as string) ?? null,
         });
@@ -2147,9 +2151,7 @@ class Anilist extends AnimeParser {
 
 // (async () => {
 //   const ani = new Anilist();
-//   const search = await ani.search('lycoris recoil');
-//   const anime = await ani.fetchAnimeInfo(search.results[0].id);
-//   console.log(anime);
+//   const anime = await ani.fetchAnimeInfo('1412');
 // })();
 
 export default Anilist;
