@@ -41,8 +41,6 @@ class AnimePahe extends AnimeParser {
         })),
       };
 
-      console.log(res);
-
       return res;
     } catch (err) {
       throw new Error((err as Error).message);
@@ -139,7 +137,6 @@ class AnimePahe extends AnimeParser {
         animeInfo.episodes.push(...(await this.fetchEpisodes(session, episodePage)));
       }
 
-      console.log(animeInfo);
       return animeInfo;
     } catch (err) {
       throw new Error((err as Error).message);
