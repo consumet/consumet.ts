@@ -31,8 +31,7 @@ class AnimePahe extends AnimeParser {
 
       const res = {
         results: data.data.map((item: any) => ({
-          id: item.id,
-          session: item.session,
+          id: `${item.id}/${item.session}`,
           title: item.title,
           image: item.poster,
           rating: item.score,
@@ -48,23 +47,17 @@ class AnimePahe extends AnimeParser {
   };
 
   /**
-   * @param id Anime id
-   * @param session Anime Session
+   * @param id id format id/session
    * @param episodePage Episode page number (optional) default: -1 to get all episodes. number of episode pages can be found in the anime info object
    */
-  override fetchAnimeInfo = async (
-    id: string,
-    session: string,
-    episodePage: number = -1
-  ): Promise<IAnimeInfo> => {
+  override fetchAnimeInfo = async (id: string, episodePage: number = -1): Promise<IAnimeInfo> => {
     const animeInfo: IAnimeInfo = {
       id: id,
-      session: session,
       title: '',
     };
 
     try {
-      const res = await axios.get(`${this.baseUrl}/anime/${session}?anime_id=${id}`);
+      const res = await axios.get(`${this.baseUrl}/anime/${id.split('/')[1]}?anime_id=${id.split('/')[0]}`);
       const $ = load(res.data);
 
       animeInfo.title = $('div.title-wrapper > h1 > span').first().text();
@@ -112,7 +105,7 @@ class AnimePahe extends AnimeParser {
       if (episodePage < 0) {
         const {
           data: { last_page, data },
-        } = await axios.get(`${this.baseUrl}/api?m=release&id=${session}&sort=episode_asc&page=1`);
+        } = await axios.get(`${this.baseUrl}/api?m=release&id=${id.split('/')[1]}&sort=episode_asc&page=1`);
 
         animeInfo.episodePages = last_page;
 
@@ -120,21 +113,21 @@ class AnimePahe extends AnimeParser {
           ...data.map(
             (item: any) =>
               ({
-                id: item.anime_id,
+                id: `${id.split('/')[1]}/${item.session}`,
                 number: item.episode,
                 title: item.title,
                 image: item.snapshot,
                 duration: item.duration,
-                url: `${this.baseUrl}/play/${session}/${item.session}`,
+                url: `${this.baseUrl}/play/${id.split('/')[1]}/${item.session}`,
               } as IAnimeEpisode)
           )
         );
 
         for (let i = 1; i < last_page; i++) {
-          animeInfo.episodes.push(...(await this.fetchEpisodes(session, i + 1)));
+          animeInfo.episodes.push(...(await this.fetchEpisodes(id.split('/')[1], i + 1)));
         }
       } else {
-        animeInfo.episodes.push(...(await this.fetchEpisodes(session, episodePage)));
+        animeInfo.episodes.push(...(await this.fetchEpisodes(id.split('/')[1], episodePage)));
       }
 
       return animeInfo;
@@ -145,11 +138,11 @@ class AnimePahe extends AnimeParser {
 
   /**
    *
-   * @param episodeId we use Episode Url instead of Episode Id
+   * @param episodeId episode id
    */
   override fetchEpisodeSources = async (episodeId: string): Promise<ISource> => {
     try {
-      const { data } = await axios.get(episodeId, {
+      const { data } = await axios.get(`${this.baseUrl}/play/${episodeId}`, {
         headers: {
           Referer: `${this.baseUrl}`,
         },
