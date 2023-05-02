@@ -16,8 +16,8 @@ test('returns a filled object of anime data', async () => {
 });
 
 test('returns a filled object of episode sources', async () => {
-  const data = await animepahe.fetchEpisodeSources(
-    'c579af27bb9835094ee384fb811e679a6955d68de3f7ee3c6cda21e97cd8c8b7'
-  ); // Episode 1 of Overlord IV
+  const res = await animepahe.search('Overlord IV');
+  const data1 = await animepahe.fetchAnimeInfo(res.results[0].id);
+  const data = await animepahe.fetchEpisodeSources(data1.episodes![0].id); // Episode 1 of Overlord IV
   expect(data.sources).not.toEqual([]);
 });
