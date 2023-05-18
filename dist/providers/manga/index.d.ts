@@ -6,6 +6,8 @@ import Mangasee123 from './mangasee123';
 import Mangapark from './mangapark';
 import MangaPill from './mangapill';
 import MangaReader from './mangareader';
+import AsuraScans from './asurascans';
+import FlameScans from './flamescans';
 declare const _default: {
     MangaDex: typeof MangaDex;
     ComicK: typeof ComicK;
@@ -15,5 +17,7 @@ declare const _default: {
     Mangapark: typeof Mangapark;
     MangaPill: typeof MangaPill;
     MangaReader: typeof MangaReader;
+    AsuraScans: typeof AsuraScans;
+    FlameScans: typeof FlameScans;
 };
 export default _default;

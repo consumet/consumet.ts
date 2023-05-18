@@ -24,7 +24,7 @@ export interface IAnimeResult {
     rating?: number;
     type?: MediaFormat;
     releaseDate?: string;
-    [x: string]: unknown;
+    [x: string]: any;
 }
 export interface ISearch<T> {
     currentPage?: number;

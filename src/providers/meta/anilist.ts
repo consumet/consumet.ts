@@ -545,7 +545,6 @@ class Anilist extends AnimeParser {
             image: item.image,
             airDate: item.airDate ?? null,
           }));
-          animeInfo.episodes?.reverse();
           if (!animeInfo.episodes?.length) {
             animeInfo.episodes = await this.fetchDefaultEpisodeList(
               {
@@ -1405,7 +1404,6 @@ class Anilist extends AnimeParser {
           number: item.number,
           image: item.image,
         }))!;
-        possibleAnimeEpisodes.reverse();
 
         if (!possibleAnimeEpisodes.length) {
           possibleAnimeEpisodes = await this.fetchDefaultEpisodeList(Media, dub, id);

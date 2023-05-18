@@ -12,10 +12,10 @@ class Kwik extends models_1.VideoExtractor {
         this.serverName = 'kwik';
         this.sources = [];
         this.host = 'https://animepahe.com';
-        this.sgProxy = 'https://cors.consumet.stream';
+        // private readonly sgProxy = 'https://cors.consumet.stream';
         this.extract = async (videoUrl) => {
             try {
-                const { data } = await axios_1.default.get(`${this.sgProxy}/${videoUrl.href}`, {
+                const { data } = await axios_1.default.get(`${videoUrl.href}`, {
                     headers: { Referer: this.host },
                 });
                 const match = (0, cheerio_1.load)(data)
