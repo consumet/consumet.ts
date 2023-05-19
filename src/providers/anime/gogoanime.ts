@@ -223,7 +223,7 @@ class Gogoanime extends AnimeParser {
           );
           break;
         default:
-          serverUrl = new URL(`https:${$('#load_anime > div > div > iframe').attr('src')}`);
+          serverUrl = new URL(`${$('#load_anime > div > div > iframe').attr('src')}`);
           break;
       }
 

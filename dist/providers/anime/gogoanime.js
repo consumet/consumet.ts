@@ -179,7 +179,7 @@ class Gogoanime extends models_1.AnimeParser {
                         serverUrl = new URL($('div.anime_video_body > div.anime_muti_link > ul > li.streamsb > a').attr('data-video'));
                         break;
                     default:
-                        serverUrl = new URL(`https:${$('#load_anime > div > div > iframe').attr('src')}`);
+                        serverUrl = new URL(`${$('#load_anime > div > div > iframe').attr('src')}`);
                         break;
                 }
                 return await this.fetchEpisodeSources(serverUrl.href, server);
