@@ -12,7 +12,7 @@ class Gogoanime extends models_1.AnimeParser {
     constructor(proxyConfig) {
         super('https://www.gogoanime.dk', proxyConfig);
         this.name = 'Gogoanime';
-        this.baseUrl = 'https://gogoanime.gr';
+        this.baseUrl = 'https://gogoanime.cl';
         this.logo = 'https://play-lh.googleusercontent.com/MaGEiAEhNHAJXcXKzqTNgxqRmhuKB1rCUgb15UrN_mWUNRnLpO5T1qja64oRasO7mn0';
         this.classPath = 'ANIME.Gogoanime';
         this.ajaxUrl = 'https://ajax.gogo-load.com/ajax';
@@ -169,22 +169,23 @@ class Gogoanime extends models_1.AnimeParser {
                 let serverUrl;
                 switch (server) {
                     case models_1.StreamingServers.GogoCDN:
-                        serverUrl = new URL(`https:${$('#load_anime > div > div > iframe').attr('src')}`);
+                        serverUrl = new URL(`${$('#load_anime > div > div > iframe').attr('src')}`);
                         break;
                     case models_1.StreamingServers.VidStreaming:
-                        serverUrl = new URL(`https:${(_a = $('div.anime_video_body > div.anime_muti_link > ul > li.vidcdn > a')
+                        serverUrl = new URL(`${(_a = $('div.anime_video_body > div.anime_muti_link > ul > li.vidcdn > a')
                             .attr('data-video')) === null || _a === void 0 ? void 0 : _a.replace('.pro', '.net')}`);
                         break;
                     case models_1.StreamingServers.StreamSB:
                         serverUrl = new URL($('div.anime_video_body > div.anime_muti_link > ul > li.streamsb > a').attr('data-video'));
                         break;
                     default:
-                        serverUrl = new URL(`https:${$('#load_anime > div > div > iframe').attr('src')}`);
+                        serverUrl = new URL(`${$('#load_anime > div > div > iframe').attr('src')}`);
                         break;
                 }
                 return await this.fetchEpisodeSources(serverUrl.href, server);
             }
             catch (err) {
+                console.log(err);
                 throw new Error('Episode not found.');
             }
         };
@@ -316,5 +317,10 @@ class Gogoanime extends models_1.AnimeParser {
         };
     }
 }
+// (async () => {
+//   const gogo = new Gogoanime();
+//   const search = await gogo.fetchEpisodeSources('jigokuraku-dub-episode-1');
+//   console.log(search);
+// })();
 exports.default = Gogoanime;
 //# sourceMappingURL=gogoanime.js.map
