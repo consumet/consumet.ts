@@ -62,7 +62,7 @@ class MangaHost extends MangaParser {
             .match(/Adicionado em (.+?)"/);
 
           return {
-            id: `/${$(el).find('a.btn-caps').text()}`,
+            id: `${$(el).find('a.btn-caps').text()}`,
             title: $(el).find('a.btn-caps').attr('title')!,
             views: null,
             releasedDate: releasedDate ? releasedDate[1] : '',
@@ -82,7 +82,7 @@ class MangaHost extends MangaParser {
       const { data } = await axios.get(url);
       const $ = load(data);
 
-      const pages = $('section#imageWrapper > div > div.read-slideshow > a > picture > img')
+      const pages = $('section#imageWrapper > div > div.read-slideshow > a > img')
         .map(
           (i, el): IMangaChapterPage => ({
             img: $(el).attr('src')!,
