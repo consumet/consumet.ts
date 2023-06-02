@@ -116,7 +116,7 @@ class TMDB extends models_1.MovieParser {
                 };
                 info.mappings = {
                     imdb: ((_o = data === null || data === void 0 ? void 0 : data.external_ids) === null || _o === void 0 ? void 0 : _o.imdb_id) || undefined,
-                    tmdb: ((_p = data === null || data === void 0 ? void 0 : data.external_ids) === null || _p === void 0 ? void 0 : _p.imdb_id) || undefined,
+                    tmdb: ((_p = data === null || data === void 0 ? void 0 : data.external_ids) === null || _p === void 0 ? void 0 : _p.id) || undefined,
                 };
                 info.similar =
                     ((_r = (_q = data === null || data === void 0 ? void 0 : data.similar) === null || _q === void 0 ? void 0 : _q.results) === null || _r === void 0 ? void 0 : _r.length) <= 0
