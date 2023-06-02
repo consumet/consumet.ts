@@ -18,7 +18,7 @@ const mangaProvider = MANGA.<providerName>();
 
 ``isNSFW`` - bool, ``true`` if the provider providers NSFW content.
 
-``isWorking`` - bool, a bool to identify the state of the current provider, ``true`` if the provider is working, ``false`` otherwise. 
+``isWorking`` - bool, a bool to identify the state of the current provider, ``true`` if the provider is working, ``false`` otherwise.
 
 ``name`` - string, the name of the current provider, example: ``name: 'Crunchyroll'``
 
@@ -36,6 +36,7 @@ This list is in alphabetical order. (except the sub bullet points)
 - [MangaHere](../providers/mangahere.md)
 - [MangaKakalot](../providers/mangakakalot.md)
 - [Mangasee123](../providers/mangasee123.md)
+- [MangaHost](../providers/mangahost.md)
 
 
 <p align="end">(<a href="https://github.com/consumet/extensions/blob/master/docs">back to table of contents</a>)</p>
