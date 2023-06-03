@@ -14,6 +14,7 @@ const mangareader_1 = __importDefault(require("./mangareader"));
 const asurascans_1 = __importDefault(require("./asurascans"));
 const flamescans_1 = __importDefault(require("./flamescans"));
 const mangahost_1 = __importDefault(require("./mangahost"));
+const brmangas_1 = __importDefault(require("./brmangas"));
 exports.default = {
     MangaDex: mangadex_1.default,
     ComicK: comick_1.default,
@@ -26,5 +27,6 @@ exports.default = {
     AsuraScans: asurascans_1.default,
     FlameScans: flamescans_1.default,
     MangaHost: mangahost_1.default,
+    BRMangas: brmangas_1.default,
 };
 //# sourceMappingURL=index.js.map
