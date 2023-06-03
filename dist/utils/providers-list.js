@@ -30,6 +30,7 @@ exports.PROVIDERS_LIST = {
         new providers_1.MANGA.ComicK(),
         new providers_1.MANGA.FlameScans(),
         new providers_1.MANGA.MangaHost(),
+        new providers_1.MANGA.BRMangas(),
     ],
     BOOKS: [new providers_1.BOOKS.Libgen()],
     COMICS: [new providers_1.COMICS.GetComics()],
