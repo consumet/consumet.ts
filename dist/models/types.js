@@ -13,7 +13,7 @@ var MediaFormat;
     MediaFormat["MANGA"] = "MANGA";
     MediaFormat["NOVEL"] = "NOVEL";
     MediaFormat["ONE_SHOT"] = "ONE_SHOT";
-})(MediaFormat = exports.MediaFormat || (exports.MediaFormat = {}));
+})(MediaFormat || (exports.MediaFormat = MediaFormat = {}));
 var StreamingServers;
 (function (StreamingServers) {
     StreamingServers["AsianLoad"] = "asianload";
@@ -28,7 +28,7 @@ var StreamingServers;
     StreamingServers["MyCloud"] = "mycloud";
     StreamingServers["Filemoon"] = "filemoon";
     StreamingServers["VidStreaming"] = "vidstreaming";
-})(StreamingServers = exports.StreamingServers || (exports.StreamingServers = {}));
+})(StreamingServers || (exports.StreamingServers = StreamingServers = {}));
 var MediaStatus;
 (function (MediaStatus) {
     MediaStatus["ONGOING"] = "Ongoing";
@@ -37,13 +37,13 @@ var MediaStatus;
     MediaStatus["CANCELLED"] = "Cancelled";
     MediaStatus["NOT_YET_AIRED"] = "Not yet aired";
     MediaStatus["UNKNOWN"] = "Unknown";
-})(MediaStatus = exports.MediaStatus || (exports.MediaStatus = {}));
+})(MediaStatus || (exports.MediaStatus = MediaStatus = {}));
 var SubOrSub;
 (function (SubOrSub) {
     SubOrSub["SUB"] = "sub";
     SubOrSub["DUB"] = "dub";
     SubOrSub["BOTH"] = "both";
-})(SubOrSub = exports.SubOrSub || (exports.SubOrSub = {}));
+})(SubOrSub || (exports.SubOrSub = SubOrSub = {}));
 /**
  * Used **only** for movie/tvshow providers
  */
@@ -52,7 +52,7 @@ var TvType;
     TvType["TVSERIES"] = "TV Series";
     TvType["MOVIE"] = "Movie";
     TvType["ANIME"] = "Anime";
-})(TvType = exports.TvType || (exports.TvType = {}));
+})(TvType || (exports.TvType = TvType = {}));
 var Genres;
 (function (Genres) {
     Genres["ACTION"] = "Action";
@@ -74,7 +74,7 @@ var Genres;
     Genres["SPORTS"] = "Sports";
     Genres["SUPERNATURAL"] = "Supernatural";
     Genres["THRILLER"] = "Thriller";
-})(Genres = exports.Genres || (exports.Genres = {}));
+})(Genres || (exports.Genres = Genres = {}));
 var Topics;
 (function (Topics) {
     Topics["ANIME"] = "anime";
@@ -89,5 +89,5 @@ var Topics;
     Topics["PEOPLE"] = "people";
     Topics["MERCH"] = "merch";
     Topics["EVENTS"] = "events";
-})(Topics = exports.Topics || (exports.Topics = {}));
+})(Topics || (exports.Topics = Topics = {}));
 //# sourceMappingURL=types.js.map

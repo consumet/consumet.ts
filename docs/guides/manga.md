@@ -37,6 +37,7 @@ This list is in alphabetical order. (except the sub bullet points)
 - [MangaKakalot](../providers/mangakakalot.md)
 - [Mangasee123](../providers/mangasee123.md)
 - [MangaHost](../providers/mangahost.md)
+- [BRManga](../providers/brmanga.md)
 
 
 <p align="end">(<a href="https://github.com/consumet/extensions/blob/master/docs">back to table of contents</a>)</p>

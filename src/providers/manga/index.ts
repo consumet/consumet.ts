@@ -9,6 +9,7 @@ import MangaReader from './mangareader';
 import AsuraScans from './asurascans';
 import FlameScans from './flamescans';
 import MangaHost from './mangahost';
+import BRMangas from './brmangas';
 
 export default {
   MangaDex,
@@ -22,4 +23,5 @@ export default {
   AsuraScans,
   FlameScans,
   MangaHost,
+  BRMangas,
 };
