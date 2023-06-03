@@ -92,7 +92,6 @@ Note: The `headerForImage` property might be useful when getting the image to di
 
 | Parameter | Type     | Description                                              |
 | --------- | -------- | -------------------------------------------------------- |
-| mangaId | `string` | manga id.(*chapter id is the same one from the fetchMangaInfo function*) |
 | chapterId | `string` | chapter id.(*chapter id can be found in the manga info*) |
 
 ```ts
