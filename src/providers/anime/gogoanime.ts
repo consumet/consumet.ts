@@ -337,8 +337,11 @@ class Gogoanime extends AnimeParser {
         });
       });
 
+      const paginatorDom = $('div.anime_name_pagination > div > ul > li');
+      const hasNextPage = paginatorDom.length > 0 && !paginatorDom.last().hasClass('selected');
       return {
         currentPage: page,
+        hasNextPage: hasNextPage,
         results: genreInfo,
       };
     } catch (err) {
