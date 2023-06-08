@@ -154,7 +154,7 @@ class TMDB extends MovieParser {
 
       info.mappings = {
         imdb: data?.external_ids?.imdb_id || undefined,
-        tmdb: data?.external_ids?.id || undefined,
+        tmdb: data?.id || undefined,
       };
 
       info.similar =
