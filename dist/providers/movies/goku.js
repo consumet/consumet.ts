@@ -113,7 +113,7 @@ class Goku extends models_1.MovieParser {
                     const $$ = (0, cheerio_1.load)(data);
                     const seasonsIds = $$('.dropdown-menu > a')
                         .map((i, el) => {
-                        let seasonsId = $(el).text().replace('Season', '').trim();
+                        const seasonsId = $(el).text().replace('Season', '').trim();
                         return {
                             id: $(el).attr('data-id'),
                             season: isNaN(parseInt(seasonsId)) ? undefined : parseInt(seasonsId),
@@ -217,7 +217,7 @@ class Goku extends models_1.MovieParser {
                     });
                 })
                     .get();
-                for (let server of servers) {
+                for (const server of servers) {
                     const { data } = await axios_1.default.get(`${this.baseUrl}/ajax/movie/episode/server/sources/${server.id}`);
                     epsiodeServers.push({
                         name: server.name,
