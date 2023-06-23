@@ -7,5 +7,6 @@ const flixhq_1 = __importDefault(require("./flixhq"));
 const viewAsian_1 = __importDefault(require("./viewAsian"));
 const dramacool_1 = __importDefault(require("./dramacool"));
 const fmovies_1 = __importDefault(require("./fmovies"));
-exports.default = { FlixHQ: flixhq_1.default, ViewAsian: viewAsian_1.default, DramaCool: dramacool_1.default, Fmovies: fmovies_1.default };
+const goku_1 = __importDefault(require("./goku"));
+exports.default = { FlixHQ: flixhq_1.default, ViewAsian: viewAsian_1.default, DramaCool: dramacool_1.default, Fmovies: fmovies_1.default, Goku: goku_1.default };
 //# sourceMappingURL=index.js.map
