@@ -58,7 +58,7 @@ class TMDB extends models_1.MovieParser {
          * @param type movie or tv
          */
         this.fetchMediaInfo = async (mediaId, type) => {
-            var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s, _t, _u, _v, _w, _x, _y, _z, _0, _1, _2, _3;
+            var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s, _t, _u, _v, _w, _x, _y, _z, _0, _1, _2;
             type = type.toLowerCase() === 'movie' ? 'movie' : 'tv';
             const infoUrl = `/${type}/${mediaId}?api_key=${this.apiKey}&language=en-US&append_to_response=release_dates,watch/providers,alternative_titles,credits,external_ids,images,keywords,recommendations,reviews,similar,translations,videos&include_image_language=en`;
             const info = {
@@ -116,12 +116,12 @@ class TMDB extends models_1.MovieParser {
                 };
                 info.mappings = {
                     imdb: ((_o = data === null || data === void 0 ? void 0 : data.external_ids) === null || _o === void 0 ? void 0 : _o.imdb_id) || undefined,
-                    tmdb: ((_p = data === null || data === void 0 ? void 0 : data.external_ids) === null || _p === void 0 ? void 0 : _p.id) || undefined,
+                    tmdb: (data === null || data === void 0 ? void 0 : data.id) || undefined,
                 };
                 info.similar =
-                    ((_r = (_q = data === null || data === void 0 ? void 0 : data.similar) === null || _q === void 0 ? void 0 : _q.results) === null || _r === void 0 ? void 0 : _r.length) <= 0
+                    ((_q = (_p = data === null || data === void 0 ? void 0 : data.similar) === null || _p === void 0 ? void 0 : _p.results) === null || _q === void 0 ? void 0 : _q.length) <= 0
                         ? undefined
-                        : (_s = data === null || data === void 0 ? void 0 : data.similar) === null || _s === void 0 ? void 0 : _s.results.map((result) => {
+                        : (_r = data === null || data === void 0 ? void 0 : data.similar) === null || _r === void 0 ? void 0 : _r.results.map((result) => {
                             return {
                                 id: result.id,
                                 title: result.title || result.name,
@@ -132,9 +132,9 @@ class TMDB extends models_1.MovieParser {
                             };
                         });
                 info.recommendations =
-                    ((_u = (_t = data === null || data === void 0 ? void 0 : data.recommendations) === null || _t === void 0 ? void 0 : _t.results) === null || _u === void 0 ? void 0 : _u.length) <= 0
+                    ((_t = (_s = data === null || data === void 0 ? void 0 : data.recommendations) === null || _s === void 0 ? void 0 : _s.results) === null || _t === void 0 ? void 0 : _t.length) <= 0
                         ? undefined
-                        : (_v = data === null || data === void 0 ? void 0 : data.recommendations) === null || _v === void 0 ? void 0 : _v.results.map((result) => {
+                        : (_u = data === null || data === void 0 ? void 0 : data.recommendations) === null || _u === void 0 ? void 0 : _u.results.map((result) => {
                             return {
                                 id: result.id,
                                 title: result.title || result.name,
@@ -154,19 +154,19 @@ class TMDB extends models_1.MovieParser {
                         return info;
                     info.nextAiringEpisode = (data === null || data === void 0 ? void 0 : data.next_episode_to_air)
                         ? {
-                            season: ((_w = data.next_episode_to_air) === null || _w === void 0 ? void 0 : _w.season_number) || undefined,
-                            episode: ((_x = data.next_episode_to_air) === null || _x === void 0 ? void 0 : _x.episode_number) || undefined,
-                            releaseDate: ((_y = data.next_episode_to_air) === null || _y === void 0 ? void 0 : _y.air_date) || undefined,
-                            title: ((_z = data.next_episode_to_air) === null || _z === void 0 ? void 0 : _z.name) || undefined,
-                            description: ((_0 = data.next_episode_to_air) === null || _0 === void 0 ? void 0 : _0.overview) || undefined,
-                            runtime: ((_1 = data.next_episode_to_air) === null || _1 === void 0 ? void 0 : _1.runtime) || undefined,
+                            season: ((_v = data.next_episode_to_air) === null || _v === void 0 ? void 0 : _v.season_number) || undefined,
+                            episode: ((_w = data.next_episode_to_air) === null || _w === void 0 ? void 0 : _w.episode_number) || undefined,
+                            releaseDate: ((_x = data.next_episode_to_air) === null || _x === void 0 ? void 0 : _x.air_date) || undefined,
+                            title: ((_y = data.next_episode_to_air) === null || _y === void 0 ? void 0 : _y.name) || undefined,
+                            description: ((_z = data.next_episode_to_air) === null || _z === void 0 ? void 0 : _z.overview) || undefined,
+                            runtime: ((_0 = data.next_episode_to_air) === null || _0 === void 0 ? void 0 : _0.runtime) || undefined,
                         }
                         : undefined;
                     for (let i = 1; i <= totalSeasons; i++) {
                         const { data: seasonData } = await this.client.get(seasonUrl(i.toString()));
                         //find season in each episode (providerEpisodes)
                         const seasonEpisodes = providerEpisodes === null || providerEpisodes === void 0 ? void 0 : providerEpisodes.filter(episode => episode.season === i);
-                        const episodes = ((_2 = seasonData === null || seasonData === void 0 ? void 0 : seasonData.episodes) === null || _2 === void 0 ? void 0 : _2.length) <= 0
+                        const episodes = ((_1 = seasonData === null || seasonData === void 0 ? void 0 : seasonData.episodes) === null || _1 === void 0 ? void 0 : _1.length) <= 0
                             ? undefined
                             : seasonData === null || seasonData === void 0 ? void 0 : seasonData.episodes.map((episode) => {
                                 //find episode in each season (seasonEpisodes)
@@ -196,7 +196,7 @@ class TMDB extends models_1.MovieParser {
                                     hd: `https://image.tmdb.org/t/p/w780${seasonData.poster_path}`,
                                 },
                             episodes,
-                            isReleased: ((_3 = seasonData === null || seasonData === void 0 ? void 0 : seasonData.episodes[0]) === null || _3 === void 0 ? void 0 : _3.air_date) > new Date().toISOString() ? false : true,
+                            isReleased: ((_2 = seasonData === null || seasonData === void 0 ? void 0 : seasonData.episodes[0]) === null || _2 === void 0 ? void 0 : _2.air_date) > new Date().toISOString() ? false : true,
                         });
                     }
                 }
