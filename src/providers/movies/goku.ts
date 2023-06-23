@@ -91,6 +91,10 @@ class Goku extends MovieParser {
    * @param mediaId media link or id
    */
   override fetchMediaInfo = async (mediaId: string): Promise<IMovieInfo> => {
+    if (mediaId.startsWith(this.baseUrl)) {
+      mediaId = mediaId.replace(this.baseUrl + '/', '');
+    }
+
     try {
       const { data } = await axios.get(`${this.baseUrl}/${mediaId}`);
       const $ = load(data);

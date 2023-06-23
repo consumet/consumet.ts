@@ -41,3 +41,23 @@ test('returns a filled object of streaming tv sources', async () => {
   const data = await goku.fetchEpisodeSources('46259', 'watch-series/watch-batman-39276');
   expect(data.sources).not.toEqual([]);
 });
+
+test('returns a filled object of recent movies', async () => {
+  const data = await goku.fetchRecentMovies();
+  expect(data).not.toEqual([]);
+});
+
+test('returns a filled object of recent tv shows', async () => {
+  const data = await goku.fetchRecentTvShows();
+  expect(data).not.toEqual([]);
+});
+
+test('returns a filled object of trending movies', async () => {
+  const data = await goku.fetchTrendingMovies();
+  expect(data).not.toEqual([]);
+});
+
+test('returns a filled object of trending tv shows', async () => {
+  const data = await goku.fetchTrendingTvShows();
+  expect(data).not.toEqual([]);
+});

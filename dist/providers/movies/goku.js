@@ -76,6 +76,9 @@ class Goku extends models_1.MovieParser {
          * @param mediaId media link or id
          */
         this.fetchMediaInfo = async (mediaId) => {
+            if (mediaId.startsWith(this.baseUrl)) {
+                mediaId = mediaId.replace(this.baseUrl + '/', '');
+            }
             try {
                 const { data } = await axios_1.default.get(`${this.baseUrl}/${mediaId}`);
                 const $ = (0, cheerio_1.load)(data);
