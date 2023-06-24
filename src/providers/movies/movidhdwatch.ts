@@ -48,8 +48,8 @@ class MovieHdWatch extends MovieParser {
         const releaseDate = $(el).find('div.film-detail > div.film-infor > span:nth-child(2)').text();
         const duration = $(el).find('div.film-detail > div.film-infor > span:nth-child(4)').text();
         searchResult.results.push({
-          id: $(el).find('div.film-poster > a').attr('href')?.slice(1)!,
-          title: $(el).find('div.film-detail > h2 > a').attr('title')!,
+          id: $(el).find('div.film-poster > a').attr('href')?.slice(1) ?? '',
+          title: $(el).find('div.film-detail > h2 > a').attr('title') ?? '',
           url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
           image: $(el).find('div.film-poster > img').attr('data-src'),
           releaseDate: isNaN(parseInt(releaseDate)) ? undefined : releaseDate,
@@ -148,7 +148,7 @@ class MovieHdWatch extends MovieParser {
         });
       });
 
-      movieInfo.recommendations = recommendationsArray as any;
+      movieInfo.recommendations = recommendationsArray;
       const ajaxReqUrl = (id: string, type: string, isSeasons: boolean = false) =>
         `${this.baseUrl}/ajax/${type === 'movie' ? type : `v2/${type}`}/${
           isSeasons ? 'seasons' : 'episodes'
@@ -169,7 +169,7 @@ class MovieHdWatch extends MovieParser {
 
           $$$('.nav > li')
             .map((i, el) => {
-              const episode = {
+              const episode: IMovieEpisode = {
                 id: $$$(el).find('a').attr('id')!.split('-')[1],
                 title: $$$(el).find('a').attr('title')!,
                 number: parseInt($$$(el).find('a').attr('title')!.split(':')[0].slice(3).trim()),
@@ -309,9 +309,9 @@ class MovieHdWatch extends MovieParser {
         .map((i, el) => {
           const releaseDate = $(el).find('div.film-detail > div.film-infor > span:nth-child(2)').text();
           const duration = $(el).find('div.film-detail > div.film-infor > span:nth-child(4)').text();
-          const movie: any = {
-            id: $(el).find('div.film-poster > a').attr('href')?.slice(1)!,
-            title: $(el).find('div.film-detail > h3.film-name > a').attr('title')!,
+          const movie: IMovieResult = {
+            id: $(el).find('div.film-poster > a').attr('href')?.slice(1) ?? '',
+            title: $(el).find('div.film-detail > h3.film-name > a').attr('title') ?? '',
             url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
             image: $(el).find('div.film-poster > img').attr('data-src'),
             releaseDate: isNaN(parseInt(releaseDate)) ? undefined : releaseDate,
@@ -340,8 +340,8 @@ class MovieHdWatch extends MovieParser {
           const season = $(el).find('div.film-detail > div.film-infor > span:nth-child(2)').text();
           const episode = $(el).find('div.film-detail > div.film-infor > span:nth-child(4)').text();
           const tvshow = {
-            id: $(el).find('div.film-poster > a').attr('href')?.slice(1)!,
-            title: $(el).find('div.film-detail > h3.film-name > a').attr('title')!,
+            id: $(el).find('div.film-poster > a').attr('href')?.slice(1) ?? '',
+            title: $(el).find('div.film-detail > h3.film-name > a').attr('title') ?? '',
             url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
             image: $(el).find('div.film-poster > img').attr('data-src'),
             season: season.includes('SS') ? parseInt(season.split('SS')[1]) : undefined,
@@ -369,9 +369,9 @@ class MovieHdWatch extends MovieParser {
         .map((i, el) => {
           const releaseDate = $(el).find('div.film-detail > div.film-infor > span:nth-child(2)').text();
           const duration = $(el).find('div.film-detail > div.film-infor > span:nth-child(4)').text();
-          const movie: any = {
-            id: $(el).find('div.film-poster > a').attr('href')?.slice(1)!,
-            title: $(el).find('div.film-detail > h3.film-name > a').attr('title')!,
+          const movie: IMovieResult = {
+            id: $(el).find('div.film-poster > a').attr('href')?.slice(1) ?? '',
+            title: $(el).find('div.film-detail > h3.film-name > a').attr('title') ?? '',
             url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
             image: $(el).find('div.film-poster > img').attr('data-src'),
             releaseDate: isNaN(parseInt(releaseDate)) ? undefined : releaseDate,
@@ -400,8 +400,8 @@ class MovieHdWatch extends MovieParser {
           const season = $(el).find('div.film-detail > div.film-infor > span:nth-child(2)').text();
           const episode = $(el).find('div.film-detail > div.film-infor > span:nth-child(4)').text();
           const tvshow = {
-            id: $(el).find('div.film-poster > a').attr('href')?.slice(1)!,
-            title: $(el).find('div.film-detail > h3.film-name > a').attr('title')!,
+            id: $(el).find('div.film-poster > a').attr('href')?.slice(1) ?? '',
+            title: $(el).find('div.film-detail > h3.film-name > a').attr('title') ?? '',
             url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
             image: $(el).find('div.film-poster > img').attr('data-src'),
             season: season.includes('SS') ? parseInt(season.split('SS')[1]) : undefined,

@@ -1,4 +1,3 @@
-import { StreamingServers } from '../../src/models';
 import { MOVIES } from '../../src/providers';
 
 jest.setTimeout(120000);

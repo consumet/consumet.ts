@@ -33,18 +33,18 @@ class MovieHdWatch extends models_1.MovieParser {
                 searchResult.hasNextPage =
                     $(navSelector).length > 0 ? !$(navSelector).children().last().hasClass('active') : false;
                 $('.film_list-wrap > div.flw-item').each((i, el) => {
-                    var _a, _b;
+                    var _a, _b, _c, _d;
                     const releaseDate = $(el).find('div.film-detail > div.film-infor > span:nth-child(2)').text();
                     const duration = $(el).find('div.film-detail > div.film-infor > span:nth-child(4)').text();
                     searchResult.results.push({
-                        id: (_a = $(el).find('div.film-poster > a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1),
-                        title: $(el).find('div.film-detail > h2 > a').attr('title'),
+                        id: (_b = (_a = $(el).find('div.film-poster > a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1)) !== null && _b !== void 0 ? _b : '',
+                        title: (_c = $(el).find('div.film-detail > h2 > a').attr('title')) !== null && _c !== void 0 ? _c : '',
                         url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
                         image: $(el).find('div.film-poster > img').attr('data-src'),
                         releaseDate: isNaN(parseInt(releaseDate)) ? undefined : releaseDate,
                         seasons: releaseDate.includes('SS') ? parseInt(releaseDate.split('SS')[1]) : undefined,
                         duration: !duration.includes('EPS') ? duration : undefined,
-                        type: ((_b = $(el).find('div.film-poster > a').attr('href')) === null || _b === void 0 ? void 0 : _b.includes('tv/'))
+                        type: ((_d = $(el).find('div.film-poster > a').attr('href')) === null || _d === void 0 ? void 0 : _d.includes('tv/'))
                             ? models_1.TvType.TVSERIES
                             : models_1.TvType.MOVIE,
                     });
@@ -255,17 +255,17 @@ class MovieHdWatch extends models_1.MovieParser {
                 const movies = $('.section-id-02')
                     .find('div.flw-item')
                     .map((i, el) => {
-                    var _a, _b;
+                    var _a, _b, _c, _d;
                     const releaseDate = $(el).find('div.film-detail > div.film-infor > span:nth-child(2)').text();
                     const duration = $(el).find('div.film-detail > div.film-infor > span:nth-child(4)').text();
                     const movie = {
-                        id: (_a = $(el).find('div.film-poster > a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1),
-                        title: $(el).find('div.film-detail > h3.film-name > a').attr('title'),
+                        id: (_b = (_a = $(el).find('div.film-poster > a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1)) !== null && _b !== void 0 ? _b : '',
+                        title: (_c = $(el).find('div.film-detail > h3.film-name > a').attr('title')) !== null && _c !== void 0 ? _c : '',
                         url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
                         image: $(el).find('div.film-poster > img').attr('data-src'),
                         releaseDate: isNaN(parseInt(releaseDate)) ? undefined : releaseDate,
                         duration: !duration.includes('EPS') ? duration : undefined,
-                        type: ((_b = $(el).find('div.film-poster > a').attr('href')) === null || _b === void 0 ? void 0 : _b.includes('movie/'))
+                        type: ((_d = $(el).find('div.film-poster > a').attr('href')) === null || _d === void 0 ? void 0 : _d.includes('movie/'))
                             ? models_1.TvType.MOVIE
                             : models_1.TvType.TVSERIES,
                     };
@@ -285,17 +285,17 @@ class MovieHdWatch extends models_1.MovieParser {
                 const tvshows = $('.section-id-03')
                     .find('div.flw-item')
                     .map((i, el) => {
-                    var _a, _b;
+                    var _a, _b, _c, _d;
                     const season = $(el).find('div.film-detail > div.film-infor > span:nth-child(2)').text();
                     const episode = $(el).find('div.film-detail > div.film-infor > span:nth-child(4)').text();
                     const tvshow = {
-                        id: (_a = $(el).find('div.film-poster > a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1),
-                        title: $(el).find('div.film-detail > h3.film-name > a').attr('title'),
+                        id: (_b = (_a = $(el).find('div.film-poster > a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1)) !== null && _b !== void 0 ? _b : '',
+                        title: (_c = $(el).find('div.film-detail > h3.film-name > a').attr('title')) !== null && _c !== void 0 ? _c : '',
                         url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
                         image: $(el).find('div.film-poster > img').attr('data-src'),
                         season: season.includes('SS') ? parseInt(season.split('SS')[1]) : undefined,
                         latestEpisode: episode.includes('EPS') ? parseInt(episode.split('EPS')[1]) : undefined,
-                        type: ((_b = $(el).find('div.film-poster > a').attr('href')) === null || _b === void 0 ? void 0 : _b.includes('tv/'))
+                        type: ((_d = $(el).find('div.film-poster > a').attr('href')) === null || _d === void 0 ? void 0 : _d.includes('tv/'))
                             ? models_1.TvType.TVSERIES
                             : models_1.TvType.MOVIE,
                     };
@@ -315,17 +315,17 @@ class MovieHdWatch extends models_1.MovieParser {
                 const movies = $('#trending-movies')
                     .find('div.flw-item')
                     .map((i, el) => {
-                    var _a, _b;
+                    var _a, _b, _c, _d;
                     const releaseDate = $(el).find('div.film-detail > div.film-infor > span:nth-child(2)').text();
                     const duration = $(el).find('div.film-detail > div.film-infor > span:nth-child(4)').text();
                     const movie = {
-                        id: (_a = $(el).find('div.film-poster > a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1),
-                        title: $(el).find('div.film-detail > h3.film-name > a').attr('title'),
+                        id: (_b = (_a = $(el).find('div.film-poster > a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1)) !== null && _b !== void 0 ? _b : '',
+                        title: (_c = $(el).find('div.film-detail > h3.film-name > a').attr('title')) !== null && _c !== void 0 ? _c : '',
                         url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
                         image: $(el).find('div.film-poster > img').attr('data-src'),
                         releaseDate: isNaN(parseInt(releaseDate)) ? undefined : releaseDate,
                         duration: !duration.includes('EPS') ? duration : undefined,
-                        type: ((_b = $(el).find('div.film-poster > a').attr('href')) === null || _b === void 0 ? void 0 : _b.includes('movie/'))
+                        type: ((_d = $(el).find('div.film-poster > a').attr('href')) === null || _d === void 0 ? void 0 : _d.includes('movie/'))
                             ? models_1.TvType.MOVIE
                             : models_1.TvType.TVSERIES,
                     };
@@ -345,17 +345,17 @@ class MovieHdWatch extends models_1.MovieParser {
                 const tvshows = $('#trending-tv')
                     .find('div.flw-item')
                     .map((i, el) => {
-                    var _a, _b;
+                    var _a, _b, _c, _d;
                     const season = $(el).find('div.film-detail > div.film-infor > span:nth-child(2)').text();
                     const episode = $(el).find('div.film-detail > div.film-infor > span:nth-child(4)').text();
                     const tvshow = {
-                        id: (_a = $(el).find('div.film-poster > a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1),
-                        title: $(el).find('div.film-detail > h3.film-name > a').attr('title'),
+                        id: (_b = (_a = $(el).find('div.film-poster > a').attr('href')) === null || _a === void 0 ? void 0 : _a.slice(1)) !== null && _b !== void 0 ? _b : '',
+                        title: (_c = $(el).find('div.film-detail > h3.film-name > a').attr('title')) !== null && _c !== void 0 ? _c : '',
                         url: `${this.baseUrl}${$(el).find('div.film-poster > a').attr('href')}`,
                         image: $(el).find('div.film-poster > img').attr('data-src'),
                         season: season.includes('SS') ? parseInt(season.split('SS')[1]) : undefined,
                         latestEpisode: episode.includes('EPS') ? parseInt(episode.split('EPS')[1]) : undefined,
-                        type: ((_b = $(el).find('div.film-poster > a').attr('href')) === null || _b === void 0 ? void 0 : _b.includes('tv/'))
+                        type: ((_d = $(el).find('div.film-poster > a').attr('href')) === null || _d === void 0 ? void 0 : _d.includes('tv/'))
                             ? models_1.TvType.TVSERIES
                             : models_1.TvType.MOVIE,
                     };
