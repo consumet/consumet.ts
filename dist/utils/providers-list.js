@@ -41,6 +41,7 @@ exports.PROVIDERS_LIST = {
         new providers_1.MOVIES.DramaCool(),
         new providers_1.MOVIES.Fmovies(),
         new providers_1.MOVIES.Goku(),
+        new providers_1.MOVIES.MovieHdWatch(),
     ],
     NEWS: [new providers_1.NEWS.ANN()],
     META: [new providers_1.META.Anilist(), new providers_1.META.TMDB(), new providers_1.META.Myanimelist()],
