@@ -18,7 +18,7 @@ class Goku extends MovieParser {
   override readonly name = 'Goku';
   protected override baseUrl = 'https://goku.sx';
   protected override logo =
-    'https://img.goku.sx/xxrz/100x100/100/81/94/819455c601168a1fd7caf7cdf77a8bbf/819455c601168a1fd7caf7cdf77a8bbf.png?v=1.1';
+    'https://img.goku.sx/xxrz/400x400/100/9c/e7/9ce7510639c4204bfe43904fad8f361f/9ce7510639c4204bfe43904fad8f361f.png';
   protected override classPath = 'MOVIES.Goku';
   override supportedTypes = new Set([TvType.MOVIE, TvType.TVSERIES]);
 

@@ -12,7 +12,7 @@ class Goku extends models_1.MovieParser {
         super(...arguments);
         this.name = 'Goku';
         this.baseUrl = 'https://goku.sx';
-        this.logo = 'https://img.goku.sx/xxrz/100x100/100/81/94/819455c601168a1fd7caf7cdf77a8bbf/819455c601168a1fd7caf7cdf77a8bbf.png?v=1.1';
+        this.logo = 'https://img.goku.sx/xxrz/400x400/100/9c/e7/9ce7510639c4204bfe43904fad8f361f/9ce7510639c4204bfe43904fad8f361f.png';
         this.classPath = 'MOVIES.Goku';
         this.supportedTypes = new Set([models_1.TvType.MOVIE, models_1.TvType.TVSERIES]);
         /**

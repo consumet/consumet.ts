@@ -39,6 +39,7 @@ export const PROVIDERS_LIST = {
     new MOVIES.DramaCool(),
     new MOVIES.Fmovies(),
     new MOVIES.Goku(),
+    new MOVIES.MovieHdWatch(),
   ],
   NEWS: [new NEWS.ANN()],
   META: [new META.Anilist(), new META.TMDB(), new META.Myanimelist()],
