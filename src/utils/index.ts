@@ -10,6 +10,7 @@ import {
   Filemoon,
   BilibiliExtractor,
   AsianLoad,
+  SmashyStream
 } from '../extractors';
 import {
   USER_AGENT,
@@ -45,6 +46,7 @@ export {
   USER_AGENT,
   GogoCDN,
   StreamSB,
+  SmashyStream,
   splitAuthor,
   floorID,
   formatTitle,

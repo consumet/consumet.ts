@@ -13,6 +13,7 @@ import {
   StreamTape,
   VidCloud,
   StreamLare,
+  SmashyStream
 } from './extractors';
 import {
   IProviderStats,
@@ -99,6 +100,7 @@ export {
   Kwik,
   RapidCloud,
   StreamTape,
+  SmashyStream,
   VizCloud,
   Filemoon,
   BilibiliExtractor,

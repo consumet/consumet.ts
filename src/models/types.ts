@@ -170,6 +170,7 @@ export enum StreamingServers {
   MyCloud = 'mycloud',
   Filemoon = 'filemoon',
   VidStreaming = 'vidstreaming',
+  SmashyStream = 'smashystream',
 }
 
 export enum MediaStatus {
