@@ -1,5 +1,3 @@
-import axios, { AxiosError } from 'axios';
-
 import { IMangaChapterPage, IMangaInfo, IMangaResult, ISearch, MangaParser, MediaStatus } from '../../models';
 
 class ComicK extends MangaParser {
