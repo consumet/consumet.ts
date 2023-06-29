@@ -47,14 +47,13 @@ class Seez extends MovieParser {
             const streamLink = $(el).attr('data-id') ?? '';
 
             epsiodeServers.push({
-              name: $(el).text().trim(),
+              name: $(el).text().replace(/  +/g, ' ').trim(),
               url: streamLink,
             });
           })
           .get()
       );
-
-      console.log(epsiodeServers);
+      
       return epsiodeServers;
     } catch (err) {
       throw new Error((err as Error).message);
@@ -71,11 +70,12 @@ class Seez extends MovieParser {
       const servers = await this.fetchEpisodeServers(tmdbId, season, episode);
       const selectedServer = servers.find(s => s.name.toLowerCase() === server.toLowerCase());
 
+      //console.log(servers);
+      //console.log(selectedServer);
+
       if (!selectedServer) {
         throw new Error(`Server ${server} not found`);
       }
-
-      const serverUrl: URL = new URL(selectedServer.url);
 
       if (selectedServer.url.includes('/ffix')) {
         return {
@@ -84,14 +84,18 @@ class Seez extends MovieParser {
         };
       }
 
+      if (selectedServer.url.includes('/nflim')) {
+        return {
+          headers: { Referer: this.baseUrl },
+          ...(await new SmashyStream().invokeSmashyNflim(selectedServer.url)),
+        };
+      }
+
       // streamLink.includes("/gtop") -> {
       //     invokeSmashyGtop(it.second, streamLink, callback)
       // }
       // streamLink.includes("/dude_tv") -> {
       //     invokeSmashyDude(it.second, streamLink, callback)
-      // }
-      // streamLink.includes("/nflim") -> {
-      //     invokeSmashyNflim(it.second, streamLink, subtitleCallback, callback)
       // }
       // streamLink.includes("/rip") -> {
       //     invokeSmashyRip(it.second, streamLink, subtitleCallback, callback)
