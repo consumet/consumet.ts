@@ -17,13 +17,13 @@ class ComicK extends MangaParser {
    */
   override fetchMangaInfo = async (mangaId: string): Promise<IMangaInfo> => {
     try {
-      const req = await axios.get(`${this.apiUrl}/comic/${mangaId}`);
-      const data: Comic = req.data.comic;
-      
+      const req = await fetch(`${this.apiUrl}/comic/${mangaId}`);
+      const data: Comic = (await req.json()).comic;
+
       const links = Object.values(data.links ?? []).filter((link) => link !== null);
 
       const mangaInfo: IMangaInfo = {
-        id: String(data.id),
+        id: data.hid,
         title: data.title,
         altTitles: data.md_titles ? data.md_titles.map((title) => title.title) : [],
         description: data.desc,
@@ -48,21 +48,19 @@ class ComicK extends MangaParser {
 
       return mangaInfo;
     } catch (err) {
-      if ((err as AxiosError).code == 'ERR_BAD_REQUEST')
         throw new Error(`[${this.name}] Bad request. Make sure you have entered a valid query.`);
-
-      throw new Error((err as Error).message);
     }
   };
 
   /**
-   * 
+   *
    * @param chapterId Chapter ID (HID)
    * @returns Promise<IMangaChapterPage[]>
    */
   override fetchChapterPages = async (chapterId: string): Promise<IMangaChapterPage[]> => {
     try {
-      const { data } = await axios(`${this.apiUrl}/chapter/${chapterId}`);
+      const req = await fetch(`${this.apiUrl}/chapter/${chapterId}`);
+      const data = await req.json()
 
       const pages: { img: string; page: number }[] = [];
 
@@ -94,7 +92,7 @@ class ComicK extends MangaParser {
     if (limit * (page - 1) >= 10000) throw new Error('not enough results');
 
     try {
-      const res = await axios.get(
+      const req = await fetch(
         `${this.apiUrl}/v1.0/search?q=${encodeURIComponent(query)}&limit=${limit}&page=${page}`
       );
 
@@ -103,7 +101,7 @@ class ComicK extends MangaParser {
         results: [],
       };
 
-      const data: SearchResult[] = res.data;
+      const data: SearchResult[] = await req.json();
 
       for (const manga of data) {
         let cover:Cover | string | null = manga.md_covers ? manga.md_covers[0] : null;
@@ -133,19 +131,19 @@ class ComicK extends MangaParser {
       page = 1;
     }
     const comicId = await this.getComicId(mangaId);
-    const data = await axios(`${this.apiUrl}/comic/${comicId}/chapter?page=${page}`);
-    return data.data.chapters;
+    const req = await fetch(`${this.apiUrl}/comic/${comicId}/chapters?page=${page}`);
+    return (await req.json()).chapters;
   };
 
   /**
-   * @description Fetches the comic ID from the slug
+   * @description Fetches the comic HID from the slug
    * @param id Comic slug
-   * @returns Promise<number> -1 if not found
+   * @returns Promise<string> empty if not found
    */
-  private async getComicId(id:string): Promise<number> {
-    const req = await axios(`${this.apiUrl}/comic/${id}`);
-    const data:Comic = req.data["comic"];
-    return data ? data.id : -1;
+  private async getComicId(id:string): Promise<string> {
+    const req = await fetch(`${this.apiUrl}/comic/${id}`);
+    const data:Comic = (await req.json())["comic"];
+    return data ? data.hid : '';
   }
 }
 
@@ -186,7 +184,7 @@ interface MDTitle {
 }
 
 interface Comic {
-  id: number;
+  hid: string;
   title: string;
   country: string;
   status: number;
@@ -264,7 +262,7 @@ interface ChapterData {
   created_at: string;
   updated_at: string;
   up_count: number;
-  down_coount: number;
+  down_count: number;
   group_name: string[];
   hid: string;
   md_groups: string[];
