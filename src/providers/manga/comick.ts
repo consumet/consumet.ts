@@ -1,3 +1,4 @@
+import axios, { AxiosError } from 'axios';
 import { IMangaChapterPage, IMangaInfo, IMangaResult, ISearch, MangaParser, MediaStatus } from '../../models';
 
 class ComicK extends MangaParser {
@@ -8,6 +9,15 @@ class ComicK extends MangaParser {
 
   private readonly apiUrl = 'https://api.comick.app';
 
+  private _axios() {
+    return axios.create({
+      baseURL: this.apiUrl,
+      headers: {
+        "User-Agent": "Mozilla/5.0",
+      }
+    });
+  }
+
   /**
    * @description Fetches info about the manga
    * @param mangaId Comic slug
@@ -15,8 +25,8 @@ class ComicK extends MangaParser {
    */
   override fetchMangaInfo = async (mangaId: string): Promise<IMangaInfo> => {
     try {
-      const req = await fetch(`${this.apiUrl}/comic/${mangaId}`);
-      const data: Comic = (await req.json()).comic;
+      const req = await this._axios().get(`/comic/${mangaId}`);
+      const data: Comic = req.data.comic;
 
       const links = Object.values(data.links ?? []).filter((link) => link !== null);
 
@@ -46,7 +56,10 @@ class ComicK extends MangaParser {
 
       return mangaInfo;
     } catch (err) {
+      if ((err as AxiosError).code == 'ERR_BAD_REQUEST')
         throw new Error(`[${this.name}] Bad request. Make sure you have entered a valid query.`);
+
+      throw new Error((err as Error).message);
     }
   };
 
@@ -57,8 +70,7 @@ class ComicK extends MangaParser {
    */
   override fetchChapterPages = async (chapterId: string): Promise<IMangaChapterPage[]> => {
     try {
-      const req = await fetch(`${this.apiUrl}/chapter/${chapterId}`);
-      const data = await req.json()
+      const { data } = await this._axios().get(`/chapter/${chapterId}`);
 
       const pages: { img: string; page: number }[] = [];
 
@@ -90,8 +102,8 @@ class ComicK extends MangaParser {
     if (limit * (page - 1) >= 10000) throw new Error('not enough results');
 
     try {
-      const req = await fetch(
-        `${this.apiUrl}/v1.0/search?q=${encodeURIComponent(query)}&limit=${limit}&page=${page}`
+      const req = await this._axios().get(
+        `/v1.0/search?q=${encodeURIComponent(query)}&limit=${limit}&page=${page}`
       );
 
       const results: ISearch<IMangaResult> = {
@@ -99,7 +111,7 @@ class ComicK extends MangaParser {
         results: [],
       };
 
-      const data: SearchResult[] = await req.json();
+      const data: SearchResult[] = await req.data;
 
       for (const manga of data) {
         let cover:Cover | string | null = manga.md_covers ? manga.md_covers[0] : null;
@@ -129,8 +141,8 @@ class ComicK extends MangaParser {
       page = 1;
     }
     const comicId = await this.getComicId(mangaId);
-    const req = await fetch(`${this.apiUrl}/comic/${comicId}/chapters?page=${page}`);
-    return (await req.json()).chapters;
+    const req = await this._axios().get(`/comic/${comicId}/chapters?page=${page}`);
+    return req.data.chapters;
   };
 
   /**
@@ -139,8 +151,8 @@ class ComicK extends MangaParser {
    * @returns Promise<string> empty if not found
    */
   private async getComicId(id:string): Promise<string> {
-    const req = await fetch(`${this.apiUrl}/comic/${id}`);
-    const data:Comic = (await req.json())["comic"];
+    const req = await this._axios().get(`/comic/${id}`);
+    const data:Comic = req.data["comic"];
     return data ? data.hid : '';
   }
 }
