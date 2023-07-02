@@ -15,10 +15,10 @@ class SmashyStream extends models_1.MovieParser {
         this.logo = 'https://smashystream.xyz/logo.png';
         this.classPath = 'MOVIES.SmashyStream';
         this.supportedTypes = new Set([models_1.TvType.MOVIE, models_1.TvType.TVSERIES]);
-        this.search = async (...args) => {
+        this.search = async () => {
             throw new Error('Method not implemented.');
         };
-        this.fetchMediaInfo = async (...args) => {
+        this.fetchMediaInfo = async () => {
             throw new Error('Method not implemented.');
         };
         this.fetchEpisodeServers = async (tmdbId, season, episode) => {

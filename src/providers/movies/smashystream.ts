@@ -18,12 +18,12 @@ class SmashyStream extends MovieParser {
   protected override classPath = 'MOVIES.SmashyStream';
   override supportedTypes = new Set([TvType.MOVIE, TvType.TVSERIES]);
 
-  override search = async (...args: any): Promise<ISearch<IMovieResult>> => {
+  override search = async (): Promise<ISearch<IMovieResult>> => {
     throw new Error('Method not implemented.');
   };
 
-  override fetchMediaInfo = async (...args: any): Promise<IMovieInfo> => {
-    throw new Error('Method not implemented.');
+  override fetchMediaInfo = async (): Promise<IMovieInfo> => {
+    throw new Error('Method not implemented.',);
   };
 
   override fetchEpisodeServers = async (
