@@ -97,17 +97,21 @@ class SmashyStream extends VideoExtractor {
       });
       const config = JSON.parse(res.data.match(/var\s+config\s*=\s*({.*?});/)[1]);
 
-      const files = config.file.match(/\[([^\]]+)\](https?:\/\/\S+?)(?=,\[|$)/g).map((entry: any) => {
-        const [, quality, link] = entry.match(/\[([^\]]+)\](https?:\/\/\S+?)(?=,\[|$)/);
-        return { quality, link: link.replace(',', '') };
-      });
+      const files = config.file
+        .match(/\[([^\]]+)\](https?:\/\/\S+?)(?=,\[|$)/g)
+        .map((entry: { match: (arg0: RegExp) => [string, string, string] }) => {
+          const [, quality, link] = entry.match(/\[([^\]]+)\](https?:\/\/\S+?)(?=,\[|$)/);
+          return { quality, link: link.replace(',', '') };
+        });
 
-      const vttArray = config.subtitle.match(/\[([^\]]+)\](https?:\/\/\S+?)(?=,\[|$)/g).map((entry: any) => {
-        const [, language, link] = entry.match(/\[([^\]]+)\](https?:\/\/\S+?)(?=,\[|$)/);
-        return { language, link: link.replace(',', '') };
-      });
+      const vttArray = config.subtitle
+        .match(/\[([^\]]+)\](https?:\/\/\S+?)(?=,\[|$)/g)
+        .map((entry: { match: (arg0: RegExp) => [string, string, string] }) => {
+          const [, language, link] = entry.match(/\[([^\]]+)\](https?:\/\/\S+?)(?=,\[|$)/);
+          return { language, link: link.replace(',', '') };
+        });
 
-      files.map((source: { link: string; quality: any }) => {
+      files.map((source: { link: string; quality: string }) => {
         result.sources.push({
           url: source.link,
           quality: source.quality,
@@ -115,7 +119,7 @@ class SmashyStream extends VideoExtractor {
         });
       });
 
-      vttArray.map((subtitle: { language: string; link: any }) => {
+      vttArray.map((subtitle: { language: string; link: string }) => {
         result.subtitles.push({
           url: subtitle.link,
           lang: subtitle.language,
@@ -167,9 +171,11 @@ class SmashyStream extends VideoExtractor {
       const sources = JSON.parse(decrypted.match(/sources: ([^\]]*\])/)![1]);
       const tracks = JSON.parse(decrypted.match(/tracks: ([^]*?\}\])/)![1]);
 
-      const subtitles = tracks.filter((it: any) => it.kind === 'captions');
+      const subtitles = tracks.filter(
+        (it: { file: string; label: string; kind: string }) => it.kind === 'captions'
+      );
 
-      sources.map((source: any) => {
+      sources.map((source: { file: string; label: string }) => {
         result.sources.push({
           url: source.file,
           quality: source.label,
@@ -177,7 +183,7 @@ class SmashyStream extends VideoExtractor {
         });
       });
 
-      subtitles.map((subtitle: any) => {
+      subtitles.map((subtitle: { file: string; label: string }) => {
         result.subtitles.push({
           url: subtitle.file,
           lang: subtitle.label,
@@ -206,27 +212,33 @@ class SmashyStream extends VideoExtractor {
 
       const config = JSON.parse(configData?.length > 0 ? configData[1] : null);
 
-      const files = config?.file.match(/\[([^\]]+)\](https?:\/\/\S+?)(?=,\[|$)/g).map((entry: any) => {
-        const [, quality, link] = entry.match(/\[([^\]]+)\](https?:\/\/\S+?)(?=,\[|$)/);
-        return { quality, link: link.replace(',', '') };
-      });
+      const files = config?.file
+        .match(/\[([^\]]+)\](https?:\/\/\S+?)(?=,\[|$)/g)
+        .map((entry: { match: (arg0: RegExp) => [string, string, string] }) => {
+          const [, quality, link] = entry.match(/\[([^\]]+)\](https?:\/\/\S+?)(?=,\[|$)/);
+          return { quality, link: link.replace(',', '') };
+        });
 
-      const vttArray = config?.subtitle.match(/\[([^\]]+)\](https?:\/\/\S+?)(?=,\[|$)/g).map((entry: any) => {
-        const [, language, link] = entry.match(/\[([^\]]+)\](https?:\/\/\S+?)(?=,\[|$)/);
-        return { language, link: link.replace(',', '') };
-      });
+      const vttArray = config?.subtitle
+        .match(/\[([^\]]+)\](https?:\/\/\S+?)(?=,\[|$)/g)
+        .map((entry: { match: (arg0: RegExp) => [string, string, string] }) => {
+          const [, language, link] = entry.match(/\[([^\]]+)\](https?:\/\/\S+?)(?=,\[|$)/);
+          return { language, link: link.replace(',', '') };
+        });
 
       let validFiles = files;
 
       if (files) {
         await Promise.all(
-          files?.map(async (source: { link: string; quality: any }) => {
+          files?.map(async (source: { link: string; quality: string }) => {
             await axios
               .head(source.link)
               .then(res => console.log(res.status))
               .catch(err => {
                 if (err.response.status.status !== 200) {
-                  validFiles = validFiles.filter((obj: any) => obj.link !== source.link);
+                  validFiles = validFiles.filter(
+                    (obj: { link: string; quality: string }) => obj.link !== source.link
+                  );
                 }
               });
           })
@@ -234,7 +246,7 @@ class SmashyStream extends VideoExtractor {
       }
 
       if (validFiles) {
-        validFiles?.map((source: { link: string; quality: any }) => {
+        validFiles?.map((source: { link: string; quality: string }) => {
           result.sources.push({
             url: source.link,
             quality: source.quality,
@@ -243,7 +255,7 @@ class SmashyStream extends VideoExtractor {
         });
 
         if (vttArray) {
-          vttArray?.map((subtitle: { language: string; link: any }) => {
+          vttArray?.map((subtitle: { language: string; link: string }) => {
             result.subtitles.push({
               url: subtitle.link,
               lang: subtitle.language,

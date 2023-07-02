@@ -88,11 +88,15 @@ class SmashyStream extends models_1.VideoExtractor {
                 },
             });
             const config = JSON.parse(res.data.match(/var\s+config\s*=\s*({.*?});/)[1]);
-            const files = config.file.match(/\[([^\]]+)\](https?:\/\/\S+?)(?=,\[|$)/g).map((entry) => {
+            const files = config.file
+                .match(/\[([^\]]+)\](https?:\/\/\S+?)(?=,\[|$)/g)
+                .map((entry) => {
                 const [, quality, link] = entry.match(/\[([^\]]+)\](https?:\/\/\S+?)(?=,\[|$)/);
                 return { quality, link: link.replace(',', '') };
             });
-            const vttArray = config.subtitle.match(/\[([^\]]+)\](https?:\/\/\S+?)(?=,\[|$)/g).map((entry) => {
+            const vttArray = config.subtitle
+                .match(/\[([^\]]+)\](https?:\/\/\S+?)(?=,\[|$)/g)
+                .map((entry) => {
                 const [, language, link] = entry.match(/\[([^\]]+)\](https?:\/\/\S+?)(?=,\[|$)/);
                 return { language, link: link.replace(',', '') };
             });
