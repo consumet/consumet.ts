@@ -9,13 +9,13 @@ import {
 } from '../../models';
 import axios from 'axios';
 import { load } from 'cheerio';
-import { SmashyStream } from '../../extractors';
+import { SmashyStream as SS } from '../../extractors';
 
-class Seez extends MovieParser {
-  override readonly name = 'Seez';
+class SmashyStream extends MovieParser {
+  override readonly name = 'Smashystream';
   protected override baseUrl = 'https://embed.smashystream.com';
-  protected override logo = 'https://seez.su/favicon.ico';
-  protected override classPath = 'MOVIES.Seez';
+  protected override logo = 'https://smashystream.xyz/logo.png';
+  protected override classPath = 'MOVIES.SmashyStream';
   override supportedTypes = new Set([TvType.MOVIE, TvType.TVSERIES]);
 
   override search = async (query: string, page: number = 1): Promise<ISearch<IMovieResult>> => {
@@ -28,8 +28,8 @@ class Seez extends MovieParser {
 
   override fetchEpisodeServers = async (
     tmdbId: string,
-    season: number,
-    episode: number
+    season?: number,
+    episode?: number
   ): Promise<IEpisodeServer[]> => {
     try {
       const epsiodeServers: IEpisodeServer[] = [];
@@ -53,7 +53,7 @@ class Seez extends MovieParser {
           })
           .get()
       );
-      
+
       return epsiodeServers;
     } catch (err) {
       throw new Error((err as Error).message);
@@ -62,44 +62,67 @@ class Seez extends MovieParser {
 
   override fetchEpisodeSources = async (
     tmdbId: string,
-    season: number,
-    episode: number,
-    server: string
+    season?: number,
+    episode?: number,
+    server?: string
   ): Promise<ISource> => {
     try {
       const servers = await this.fetchEpisodeServers(tmdbId, season, episode);
-      const selectedServer = servers.find(s => s.name.toLowerCase() === server.toLowerCase());
-
-      //console.log(servers);
-      //console.log(selectedServer);
+      const selectedServer = servers.find(s => s.name.toLowerCase() === server?.toLowerCase());
 
       if (!selectedServer) {
-        throw new Error(`Server ${server} not found`);
+        let url = `${this.baseUrl}/playere.php?tmdb=${tmdbId}`;
+        if (season) {
+          url = `${this.baseUrl}/playere.php?tmdb=${tmdbId}&season=${season}&episode=${episode}`;
+        }
+
+        return {
+          headers: { Referer: this.baseUrl },
+          ...(await new SS().extract(new URL(url))),
+        };
       }
 
       if (selectedServer.url.includes('/ffix')) {
         return {
           headers: { Referer: this.baseUrl },
-          ...(await new SmashyStream().invokeSmashyFfix(selectedServer.url)),
+          ...(await new SS().extractSmashyFfix(selectedServer.url)),
+        };
+      }
+
+      if (selectedServer.url.includes('/watchx')) {
+        return {
+          headers: { Referer: this.baseUrl },
+          ...(await new SS().extractSmashyWatchX(selectedServer.url)),
         };
       }
 
       if (selectedServer.url.includes('/nflim')) {
         return {
           headers: { Referer: this.baseUrl },
-          ...(await new SmashyStream().invokeSmashyNflim(selectedServer.url)),
+          ...(await new SS().extractSmashyNFlim(selectedServer.url)),
         };
       }
 
-      // streamLink.includes("/gtop") -> {
-      //     invokeSmashyGtop(it.second, streamLink, callback)
-      // }
-      // streamLink.includes("/dude_tv") -> {
-      //     invokeSmashyDude(it.second, streamLink, callback)
-      // }
-      // streamLink.includes("/rip") -> {
-      //     invokeSmashyRip(it.second, streamLink, subtitleCallback, callback)
-      // }
+      if (selectedServer.url.includes('/fx')) {
+        return {
+          headers: { Referer: this.baseUrl },
+          ...(await new SS().extractSmashyFX(selectedServer.url)),
+        };
+      }
+
+      if (selectedServer.url.includes('/cf')) {
+        return {
+          headers: { Referer: this.baseUrl },
+          ...(await new SS().extractSmashyCF(selectedServer.url)),
+        };
+      }
+
+      if (selectedServer.url.includes('/eemovie')) {
+        return {
+          headers: { Referer: this.baseUrl },
+          ...(await new SS().extractSmashyEEMovie(selectedServer.url)),
+        };
+      }
 
       return await this.fetchEpisodeSources(selectedServer.url, season, episode, server);
     } catch (err) {
@@ -108,4 +131,4 @@ class Seez extends MovieParser {
   };
 }
 
-export default Seez;
+export default SmashyStream;

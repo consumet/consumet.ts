@@ -1,99 +1,125 @@
 import axios from 'axios';
-
+import crypto from 'crypto';
 import { VideoExtractor, IVideo, ISubtitle } from '../models';
 import { load } from 'cheerio';
 
+// Copied form https://github.com/JorrinKievit/restreamer/blob/main/src/main/extractors/smashystream.ts/smashystream.ts
+// Thanks Jorrin Kievit
 class SmashyStream extends VideoExtractor {
   protected override serverName = 'SmashyStream';
   protected override sources: IVideo[] = [];
 
   private readonly host = 'https://embed.smashystream.com';
 
-  override extract = async (
-    videoUrl: URL,
-    player: string = 'Player F'
-  ): Promise<{ sources: IVideo[] } & { subtitles: ISubtitle[] }> => {
+  override extract = async (videoUrl: URL): Promise<{ sources: IVideo[] } & { subtitles: ISubtitle[] }> => {
     try {
-      let result: { sources: IVideo[] } & { subtitles: ISubtitle[] } = {
-        sources: [],
-        subtitles: [],
-      };
+      let result: { source: string; data: { sources: IVideo[] } & { subtitles: ISubtitle[] } }[] = [];
 
       const { data } = await axios.get(videoUrl.href);
       const $ = load(data);
 
+      const sourceUrls = $('.dropdown-menu a[data-id]')
+        .map((_, el) => $(el).attr('data-id'))
+        .get()
+        .filter(it => it !== '_default');
+
       await Promise.all(
-        $('div#_default-servers a.server')
-          .map(async (i, el) => {
-            const streamLink = $(el).attr('data-id') ?? '';
+        sourceUrls.map(async sourceUrl => {
+          if (sourceUrl.includes('/ffix')) {
+            const data = await this.extractSmashyFfix(sourceUrl);
+            result.push({
+              source: 'FFix',
+              data: data,
+            });
+          }
 
-            if (streamLink.includes('/ffix') && player.toLowerCase() === $(el).text().toLowerCase()) {
-              result = await this.invokeSmashyFfix(videoUrl.href);
-            }
+          if (sourceUrl.includes('/watchx')) {
+            const data = await this.extractSmashyWatchX(sourceUrl);
+            result.push({
+              source: 'WatchX',
+              data: data,
+            });
+          }
 
-            if (streamLink.includes('/nflim') && player.toLowerCase() === $(el).text().toLowerCase()) {
-              result = await this.invokeSmashyNflim(videoUrl.href);
-            }
+          if (sourceUrl.includes('/nflim')) {
+            const data = await this.extractSmashyNFlim(sourceUrl);
+            result.push({
+              source: 'NFilm',
+              data: data,
+            });
+          }
 
-            if (streamLink.includes('/gtop') && player.toLowerCase() === $(el).text().toLowerCase()) {
-              result = await this.invokeSmashyGtop(videoUrl.href);
-            }
-            if (streamLink.includes('/dude_tv') && player.toLowerCase() === $(el).text().toLowerCase()) {
-              result = await this.invokeSmashyDude(videoUrl.href);
-            }
-            if (streamLink.includes('/rip') && player.toLowerCase() === $(el).text().toLowerCase()) {
-              result = await this.invokeSmashyRip(videoUrl.href);
-            }
-          })
-          .get()
+          if (sourceUrl.includes('/fx')) {
+            const data = await this.extractSmashyFX(sourceUrl);
+            result.push({
+              source: 'FX',
+              data: data,
+            });
+          }
+
+          if (sourceUrl.includes('/cf')) {
+            const data = await this.extractSmashyCF(sourceUrl);
+            result.push({
+              source: 'CF',
+              data: data,
+            });
+          }
+
+          if (sourceUrl.includes('eemovie')) {
+            const data = await this.extractSmashyEEMovie(sourceUrl);
+            result.push({
+              source: 'EEMovie',
+              data: data,
+            });
+          }
+
+          return undefined;
+        })
       );
 
-      return result;
+      return result.filter(a => a.source === 'FFix')[0].data;
     } catch (err) {
       throw err;
     }
   };
 
-  async invokeSmashyFfix(url: string): Promise<{ sources: IVideo[] } & { subtitles: ISubtitle[] }> {
+  async extractSmashyFfix(url: string): Promise<{ sources: IVideo[] } & { subtitles: ISubtitle[] }> {
     try {
       const result: { sources: IVideo[]; subtitles: ISubtitle[] } = {
         sources: [],
         subtitles: [],
       };
 
-      const { data } = await axios.get(url, {
+      const res = await axios.get(url, {
         headers: {
-          Referer: `${this.host}`,
+          referer: url,
         },
       });
-      const $ = load(data);
+      const config = JSON.parse(res.data.match(/var\s+config\s*=\s*({.*?});/)[1]);
 
-      let sources = $('script:contains(player =)').text()?.match('[\'"]?file[\'"]?:\\s*"([^"]+)') ?? '';
-      let subtitles = $('script:contains(player =)').text()?.match('[\'"]?subtitle[\'"]?:\\s*"([^"]+)') ?? '';
-
-      sources[1].split(',').map(links => {
-        let quality = links.split(/[\[\]]/)[1];
-        let link = links?.replace(`[${quality}]`, '').trim() ?? '';
-
-        if (quality) {
-          result.sources.push({
-            url: link.replace(/\\/g, ''),
-            quality: quality,
-            isM3U8: link.includes('.m3u8'),
-          });
-        }
+      const files = config.file.match(/\[([^\]]+)\](https?:\/\/\S+?)(?=,\[|$)/g).map((entry: any) => {
+        const [, quality, link] = entry.match(/\[([^\]]+)\](https?:\/\/\S+?)(?=,\[|$)/);
+        return { quality, link: link.replace(',', '') };
       });
 
-      subtitles[1].split(',').map(links => {
-        let language = links.split(/[\[\]]/)[1];
-        let link = links?.replace(`[${language}]`, '').trim() ?? '';
+      const vttArray = config.subtitle.match(/\[([^\]]+)\](https?:\/\/\S+?)(?=,\[|$)/g).map((entry: any) => {
+        const [, language, link] = entry.match(/\[([^\]]+)\](https?:\/\/\S+?)(?=,\[|$)/);
+        return { language, link: link.replace(',', '') };
+      });
 
-        if (language) {
-          result.subtitles.push({
-            url: link.replace(/\\/g, ''),
-            lang: language,
-          });
-        }
+      files.map((source: { link: string; quality: any }) => {
+        result.sources.push({
+          url: source.link,
+          quality: source.quality,
+          isM3U8: source.link.includes('.m3u8'),
+        });
+      });
+
+      vttArray.map((subtitle: { language: string; link: any }) => {
+        result.subtitles.push({
+          url: subtitle.link,
+          lang: subtitle.language,
+        });
       });
 
       return result;
@@ -102,50 +128,60 @@ class SmashyStream extends VideoExtractor {
     }
   }
 
-  async invokeSmashyNflim(url: string): Promise<{ sources: IVideo[] } & { subtitles: ISubtitle[] }> {
+  async extractSmashyWatchX(url: string): Promise<{ sources: IVideo[] } & { subtitles: ISubtitle[] }> {
     try {
       const result: { sources: IVideo[]; subtitles: ISubtitle[] } = {
         sources: [],
         subtitles: [],
       };
 
-      const { data } = await axios.get(url, {
+      const key = '4VqE3#N7zt&HEP^a';
+
+      const res = await axios.get(url, {
         headers: {
-          Referer: `${this.host}`,
+          referer: url,
         },
       });
-      const $ = load(data);
 
-      let sources = $('script:contains(player =)').text()?.match("['\"]?file['\"]?:\\s*\"([^\"]+)") ?? '';
-      let subtitles = $('script:contains(player =)').text()?.match("['\"]?subtitle['\"]?:\\s*\"([^\"]+)") ?? '';
+      const regex = /MasterJS\s*=\s*'([^']*)'/;
+      const base64EncryptedData = regex.exec(res.data)![1];
+      const base64DecryptedData = JSON.parse(Buffer.from(base64EncryptedData, 'base64').toString('utf8'));
 
-      console.log(sources);
-      console.log(subtitles);
-      console.log($('script:contains(player =)').html());
+      const derivedKey = crypto.pbkdf2Sync(
+        key,
+        Buffer.from(base64DecryptedData.salt, 'hex'),
+        base64DecryptedData.iterations,
+        32,
+        'sha512'
+      );
+      const decipher = crypto.createDecipheriv(
+        'aes-256-cbc',
+        derivedKey,
+        Buffer.from(base64DecryptedData.iv, 'hex')
+      );
+      decipher.setEncoding('utf8');
 
-      sources[1].split(',').map(links => {
-        let quality = links.split(/[\[\]]/)[1];
-        let link = links?.replace(`[${quality}]`, '').trim() ?? '';
+      let decrypted = decipher.update(base64DecryptedData.ciphertext, 'base64', 'utf8');
+      decrypted += decipher.final('utf8');
 
-        if (quality) {
-          result.sources.push({
-            url: link.replace(/\\/g, ''),
-            quality: quality,
-            isM3U8: link.includes('.m3u8'),
-          });
-        }
+      const sources = JSON.parse(decrypted.match(/sources: ([^\]]*\])/)![1]);
+      const tracks = JSON.parse(decrypted.match(/tracks: ([^]*?\}\])/)![1]);
+
+      const subtitles = tracks.filter((it: any) => it.kind === 'captions');
+
+      sources.map((source: any) => {
+        result.sources.push({
+          url: source.file,
+          quality: source.label,
+          isM3U8: source.file.includes('.m3u8'),
+        });
       });
 
-      subtitles[1].split(',').map(links => {
-        let language = links.split(/[\[\]]/)[1];
-        let link = links?.replace(`[${language}]`, '').trim() ?? '';
-
-        if (language) {
-          result.subtitles.push({
-            url: link.replace(/\\/g, ''),
-            lang: language,
-          });
-        }
+      subtitles.map((subtitle: any) => {
+        result.subtitles.push({
+          url: subtitle.file,
+          lang: subtitle.label,
+        });
       });
 
       return result;
@@ -154,87 +190,92 @@ class SmashyStream extends VideoExtractor {
     }
   }
 
-  // suspend fun invokeSmashyNflim(
-  //     name: String,
-  //     url: String,
-  //     subtitleCallback: (SubtitleFile) -> Unit,
-  //     callback: (ExtractorLink) -> Unit,
-  // ) {
-  //     val script =
-  //         app.get(url).document.selectFirst("script:containsData(player =)")?.data() ?: return
-
-  //     val sources = Regex("['\"]?file['\"]?:\\s*\"([^\"]+)").find(script)?.groupValues?.get(1) ?: return
-  //     val subtitles = Regex("['\"]?subtitle['\"]?:\\s*\"([^\"]+)").find(script)?.groupValues?.get(1) ?: return
-
-  //     sources.split(",").map { links ->
-  //         val quality = Regex("\\[(\\d+)]").find(links)?.groupValues?.getOrNull(1)?.trim()
-  //         val trimmedLink = links.removePrefix("[$quality]").trim()
-  //         callback.invoke(
-  //             ExtractorLink(
-  //                 "Smashy [$name]",
-  //                 "Smashy [$name]",
-  //                 trimmedLink,
-  //                 "",
-  //                 quality?.toIntOrNull() ?: return@map,
-  //                 isM3u8 = true,
-  //             )
-  //         )
-  //     }
-
-  //     subtitles.split(",").map { sub ->
-  //         val lang = Regex("\\[(.*?)]").find(sub)?.groupValues?.getOrNull(1)?.trim() ?: return@map
-  //         val trimmedSubLink = sub.removePrefix("[$lang]").trim().substringAfter("?url=")
-  //         if(lang.contains("\\u")) return@map
-  //         subtitleCallback.invoke(
-  //             SubtitleFile(
-  //                 lang,
-  //                 trimmedSubLink
-  //             )
-  //         )
-  //     }
-
-  // }
-
-  async invokeSmashyGtop(url: string): Promise<{ sources: IVideo[] } & { subtitles: ISubtitle[] }> {
+  async extractSmashyNFlim(url: string): Promise<{ sources: IVideo[] } & { subtitles: ISubtitle[] }> {
     try {
       const result: { sources: IVideo[]; subtitles: ISubtitle[] } = {
         sources: [],
         subtitles: [],
       };
 
-      const { data } = await axios.get(url, {
+      const res = await axios.get(url, {
         headers: {
-          Referer: `${this.host}`,
+          referer: url,
         },
       });
-      const $ = load(data);
+      const configData = res.data.match(/var\s+config\s*=\s*({.*?});/);
 
-      let source = $('script:contains(player =)').text()?.match('[\'"]?file[\'"]?:\\s*"([^"]+)') ?? '';
-      let subtitle = $('script:contains(player =)').text()?.match('[\'"]?subtitle[\'"]?:\\s*"([^"]+)') ?? '';
+      const config = JSON.parse(configData?.length > 0 ? configData[1] : null);
 
-      source[1].split(',').map(links => {
-        let quality = links.split(/[\[\]]/)[1];
-        let link = links?.replace(`[${quality}]`, '').trim() ?? '';
-
-        if (quality) {
-          result.sources.push({
-            url: link.replace(/\\/g, ''),
-            quality: quality,
-            isM3U8: link.includes('.m3u8'),
-          });
-        }
+      const files = config?.file.match(/\[([^\]]+)\](https?:\/\/\S+?)(?=,\[|$)/g).map((entry: any) => {
+        const [, quality, link] = entry.match(/\[([^\]]+)\](https?:\/\/\S+?)(?=,\[|$)/);
+        return { quality, link: link.replace(',', '') };
       });
 
-      subtitle[1].split(',').map(links => {
-        let language = links.split(/[\[\]]/)[1];
-        let link = links?.replace(`[${language}]`, '').trim() ?? '';
+      const vttArray = config?.subtitle.match(/\[([^\]]+)\](https?:\/\/\S+?)(?=,\[|$)/g).map((entry: any) => {
+        const [, language, link] = entry.match(/\[([^\]]+)\](https?:\/\/\S+?)(?=,\[|$)/);
+        return { language, link: link.replace(',', '') };
+      });
 
-        if (language) {
-          result.subtitles.push({
-            url: link.replace(/\\/g, ''),
-            lang: language,
+      let validFiles = files;
+
+      if (files) {
+        await Promise.all(
+          files?.map(async (source: { link: string; quality: any }) => {
+            await axios
+              .head(source.link)
+              .then(res => console.log(res.status))
+              .catch(err => {
+                if (err.response.status.status !== 200) {
+                  validFiles = validFiles.filter((obj: any) => obj.link !== source.link);
+                }
+              });
+          })
+        );
+      }
+
+      if (validFiles) {
+        validFiles?.map((source: { link: string; quality: any }) => {
+          result.sources.push({
+            url: source.link,
+            quality: source.quality,
+            isM3U8: source.link.includes('.m3u8'),
+          });
+        });
+
+        if (vttArray) {
+          vttArray?.map((subtitle: { language: string; link: any }) => {
+            result.subtitles.push({
+              url: subtitle.link,
+              lang: subtitle.language,
+            });
           });
         }
+      }
+
+      return result;
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
+  }
+
+  async extractSmashyFX(url: string): Promise<{ sources: IVideo[] } & { subtitles: ISubtitle[] }> {
+    try {
+      const result: { sources: IVideo[]; subtitles: ISubtitle[] } = {
+        sources: [],
+        subtitles: [],
+      };
+
+      const res = await axios.get(url, {
+        headers: {
+          referer: url,
+        },
+      });
+
+      const file = res.data.match(/file:\s*"([^"]+)"/)[1];
+
+      result.sources.push({
+        url: file,
+        isM3U8: file.includes('.m3u8'),
       });
 
       return result;
@@ -243,80 +284,54 @@ class SmashyStream extends VideoExtractor {
     }
   }
 
-  //   suspend fun invokeSmashyGtop(
-  //     name: String,
-  //     url: String,
-  //     callback: (ExtractorLink) -> Unit
-  // ) {
-  //     val doc = app.get(url).document
-  //     val script = doc.selectFirst("script:containsData(var secret)")?.data() ?: return
-  //     val secret =
-  //         script.substringAfter("secret = \"").substringBefore("\";").let { base64Decode(it) }
-  //     val key = script.substringAfter("token = \"").substringBefore("\";")
-  //     val source = app.get(
-  //         "$secret$key",
-  //         headers = mapOf(
-  //             "X-Requested-With" to "XMLHttpRequest"
-  //         )
-  //     ).parsedSafe<Smashy1Source>() ?: return
-
-  //     val videoUrl = base64Decode(source.file ?: return)
-  //     if (videoUrl.contains("/bug")) return
-  //     val quality =
-  //         Regex("(\\d{3,4})[Pp]").find(videoUrl)?.groupValues?.getOrNull(1)?.toIntOrNull()
-  //             ?: Qualities.P720.value
-  //     callback.invoke(
-  //         ExtractorLink(
-  //             "Smashy [$name]",
-  //             "Smashy [$name]",
-  //             videoUrl,
-  //             "",
-  //             quality,
-  //             videoUrl.contains(".m3u8")
-  //         )
-  //     )
-  // }
-
-  async invokeSmashyDude(url: string): Promise<{ sources: IVideo[] } & { subtitles: ISubtitle[] }> {
+  async extractSmashyCF(url: string): Promise<{ sources: IVideo[] } & { subtitles: ISubtitle[] }> {
     try {
       const result: { sources: IVideo[]; subtitles: ISubtitle[] } = {
         sources: [],
         subtitles: [],
       };
 
-      const { data } = await axios.get(url, {
+      const res = await axios.get(url, {
         headers: {
-          Referer: `${this.host}`,
+          referer: url,
         },
       });
-      const $ = load(data);
 
-      let source = $('script:contains(player =)').text()?.match('[\'"]?file[\'"]?:\\s*"([^"]+)') ?? '';
-      let subtitle = $('script:contains(player =)').text()?.match('[\'"]?subtitle[\'"]?:\\s*"([^"]+)') ?? '';
+      const file = res.data.match(/file:\s*"([^"]+)"/)[1];
+      const fileRes = await axios.head(file);
 
-      source[1].split(',').map(links => {
-        let quality = links.split(/[\[\]]/)[1];
-        let link = links?.replace(`[${quality}]`, '').trim() ?? '';
+      if (fileRes.status !== 200 || fileRes.data.includes('404')) {
+        return result;
+      } else {
+        result.sources.push({
+          url: file,
+          isM3U8: file.includes('.m3u8'),
+        });
+      }
+      return result;
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
+  }
 
-        if (quality) {
-          result.sources.push({
-            url: link.replace(/\\/g, ''),
-            quality: quality,
-            isM3U8: link.includes('.m3u8'),
-          });
-        }
+  async extractSmashyEEMovie(url: string): Promise<{ sources: IVideo[] } & { subtitles: ISubtitle[] }> {
+    try {
+      const result: { sources: IVideo[]; subtitles: ISubtitle[] } = {
+        sources: [],
+        subtitles: [],
+      };
+
+      const res = await axios.get(url, {
+        headers: {
+          referer: url,
+        },
       });
 
-      subtitle[1].split(',').map(links => {
-        let language = links.split(/[\[\]]/)[1];
-        let link = links?.replace(`[${language}]`, '').trim() ?? '';
+      const file = res.data.match(/file:\s*"([^"]+)"/)[1];
 
-        if (language) {
-          result.subtitles.push({
-            url: link.replace(/\\/g, ''),
-            lang: language,
-          });
-        }
+      result.sources.push({
+        url: file,
+        isM3U8: file.includes('.m3u8'),
       });
 
       return result;
@@ -324,115 +339,6 @@ class SmashyStream extends VideoExtractor {
       throw new Error((err as Error).message);
     }
   }
-
-  async invokeSmashyRip(url: string): Promise<{ sources: IVideo[] } & { subtitles: ISubtitle[] }> {
-    try {
-      const result: { sources: IVideo[]; subtitles: ISubtitle[] } = {
-        sources: [],
-        subtitles: [],
-      };
-
-      const { data } = await axios.get(url, {
-        headers: {
-          Referer: `${this.host}`,
-        },
-      });
-      const $ = load(data);
-
-      let source = $('script:contains(player =)').text()?.match('[\'"]?file[\'"]?:\\s*"([^"]+)') ?? '';
-      let subtitle = $('script:contains(player =)').text()?.match('[\'"]?subtitle[\'"]?:\\s*"([^"]+)') ?? '';
-
-      source[1].split(',').map(links => {
-        let quality = links.split(/[\[\]]/)[1];
-        let link = links?.replace(`[${quality}]`, '').trim() ?? '';
-
-        if (quality) {
-          result.sources.push({
-            url: link.replace(/\\/g, ''),
-            quality: quality,
-            isM3U8: link.includes('.m3u8'),
-          });
-        }
-      });
-
-      subtitle[1].split(',').map(links => {
-        let language = links.split(/[\[\]]/)[1];
-        let link = links?.replace(`[${language}]`, '').trim() ?? '';
-
-        if (language) {
-          result.subtitles.push({
-            url: link.replace(/\\/g, ''),
-            lang: language,
-          });
-        }
-      });
-
-      return result;
-    } catch (err) {
-      throw new Error((err as Error).message);
-    }
-  }
-
-  // suspend fun invokeSmashyDude(
-  //     name: String,
-  //     url: String,
-  //     callback: (ExtractorLink) -> Unit
-  // ) {
-  //     val script =
-  //         app.get(url).document.selectFirst("script:containsData(player =)")?.data() ?: return
-
-  //     val source = Regex("file:\\s*(\\[.*]),").find(script)?.groupValues?.get(1) ?: return
-
-  //     tryParseJson<ArrayList<DudetvSources>>(source)?.filter { it.title == "English" }?.map {
-  //         M3u8Helper.generateM3u8(
-  //             "Smashy [Player 2]",
-  //             it.file ?: return@map,
-  //             ""
-  //         ).forEach(callback)
-  //     }
-
-  // }
-
-  // suspend fun invokeSmashyRip(
-  //     name: String,
-  //     url: String,
-  //     subtitleCallback: (SubtitleFile) -> Unit,
-  //     callback: (ExtractorLink) -> Unit,
-  // ) {
-  //     val script =
-  //         app.get(url).document.selectFirst("script:containsData(player =)")?.data() ?: return
-
-  //     val source = Regex("file:\\s*\"([^\"]+)").find(script)?.groupValues?.get(1)
-  //     val subtitle = Regex("subtitle:\\s*\"([^\"]+)").find(script)?.groupValues?.get(1)
-
-  //     source?.split(",")?.map { links ->
-  //         val quality = Regex("\\[(\\d+)]").find(links)?.groupValues?.getOrNull(1)?.trim()
-  //         val link = links.removePrefix("[$quality]").substringAfter("dev/").trim()
-  //         if (link.isEmpty()) return@map
-  //         callback.invoke(
-  //             ExtractorLink(
-  //                 "Smashy [$name]",
-  //                 "Smashy [$name]",
-  //                 link,
-  //                 "",
-  //                 quality?.toIntOrNull() ?: return@map,
-  //                 isM3u8 = true,
-  //             )
-  //         )
-  //     }
-
-  //     subtitle?.replace("<br>", "")?.split(",")?.map { sub ->
-  //         val lang = Regex("\\[(.*?)]").find(sub)?.groupValues?.getOrNull(1)?.trim()
-  //         val link = sub.removePrefix("[$lang]")
-  //         subtitleCallback.invoke(
-  //             SubtitleFile(
-  //                 lang.orEmpty().ifEmpty { return@map },
-  //                 link
-  //             )
-  //         )
-  //     }
-
-  // }
 }
 
 export default SmashyStream;
