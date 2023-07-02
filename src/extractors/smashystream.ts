@@ -13,7 +13,7 @@ class SmashyStream extends VideoExtractor {
 
   override extract = async (videoUrl: URL): Promise<{ sources: IVideo[] } & { subtitles: ISubtitle[] }> => {
     try {
-      let result: { source: string; data: { sources: IVideo[] } & { subtitles: ISubtitle[] } }[] = [];
+      const result: { source: string; data: { sources: IVideo[] } & { subtitles: ISubtitle[] } }[] = [];
 
       const { data } = await axios.get(videoUrl.href);
       const $ = load(data);
@@ -79,7 +79,7 @@ class SmashyStream extends VideoExtractor {
 
       return result.filter(a => a.source === 'FFix')[0].data;
     } catch (err) {
-      throw err;
+      throw new Error((err as Error).message);
     }
   };
 

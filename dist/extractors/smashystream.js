@@ -17,7 +17,7 @@ class SmashyStream extends models_1.VideoExtractor {
         this.host = 'https://embed.smashystream.com';
         this.extract = async (videoUrl) => {
             try {
-                let result = [];
+                const result = [];
                 const { data } = await axios_1.default.get(videoUrl.href);
                 const $ = (0, cheerio_1.load)(data);
                 const sourceUrls = $('.dropdown-menu a[data-id]')
@@ -72,7 +72,7 @@ class SmashyStream extends models_1.VideoExtractor {
                 return result.filter(a => a.source === 'FFix')[0].data;
             }
             catch (err) {
-                throw err;
+                throw new Error(err.message);
             }
         };
     }
