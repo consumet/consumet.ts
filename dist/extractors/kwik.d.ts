@@ -4,6 +4,5 @@ declare class Kwik extends VideoExtractor {
     protected sources: IVideo[];
     private readonly host;
     extract: (videoUrl: URL) => Promise<IVideo[]>;
-    private format;
 }
 export default Kwik;
