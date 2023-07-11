@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.AsianLoad = exports.BilibiliExtractor = exports.Filemoon = exports.VizCloud = exports.SmashyStream = exports.StreamTape = exports.RapidCloud = exports.Kwik = exports.MixDrop = exports.VidCloud = exports.StreamSB = exports.GogoCDN = exports.MediaFormat = exports.TvType = exports.MediaStatus = exports.StreamingServers = exports.SubOrSub = exports.Genres = exports.Topics = exports.PROVIDERS_LIST = exports.NEWS = exports.META = exports.MOVIES = exports.LIGHT_NOVELS = exports.MANGA = exports.COMICS = exports.BOOKS = exports.ANIME = void 0;
+exports.AsianLoad = exports.BilibiliExtractor = exports.Filemoon = exports.VizCloud = exports.SmashyStream = exports.StreamHub = exports.StreamTape = exports.RapidCloud = exports.Kwik = exports.MixDrop = exports.VidCloud = exports.StreamSB = exports.GogoCDN = exports.MediaFormat = exports.TvType = exports.MediaStatus = exports.StreamingServers = exports.SubOrSub = exports.Genres = exports.Topics = exports.PROVIDERS_LIST = exports.NEWS = exports.META = exports.MOVIES = exports.LIGHT_NOVELS = exports.MANGA = exports.COMICS = exports.BOOKS = exports.ANIME = void 0;
 const providers_1 = require("./providers");
 Object.defineProperty(exports, "ANIME", { enumerable: true, get: function () { return providers_1.ANIME; } });
 Object.defineProperty(exports, "BOOKS", { enumerable: true, get: function () { return providers_1.BOOKS; } });
@@ -24,6 +24,7 @@ Object.defineProperty(exports, "Filemoon", { enumerable: true, get: function () 
 Object.defineProperty(exports, "StreamSB", { enumerable: true, get: function () { return extractors_1.StreamSB; } });
 Object.defineProperty(exports, "StreamTape", { enumerable: true, get: function () { return extractors_1.StreamTape; } });
 Object.defineProperty(exports, "VidCloud", { enumerable: true, get: function () { return extractors_1.VidCloud; } });
+Object.defineProperty(exports, "StreamHub", { enumerable: true, get: function () { return extractors_1.StreamHub; } });
 Object.defineProperty(exports, "SmashyStream", { enumerable: true, get: function () { return extractors_1.SmashyStream; } });
 const models_1 = require("./models");
 Object.defineProperty(exports, "StreamingServers", { enumerable: true, get: function () { return models_1.StreamingServers; } });

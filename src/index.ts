@@ -13,6 +13,7 @@ import {
   StreamTape,
   VidCloud,
   StreamLare,
+  StreamHub,
   SmashyStream
 } from './extractors';
 import {
@@ -100,6 +101,7 @@ export {
   Kwik,
   RapidCloud,
   StreamTape,
+  StreamHub,
   SmashyStream,
   VizCloud,
   Filemoon,

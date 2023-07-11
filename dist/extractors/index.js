@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.SmashyStream = exports.StreamLare = exports.AsianLoad = exports.BilibiliExtractor = exports.Filemoon = exports.VizCloud = exports.StreamTape = exports.RapidCloud = exports.Kwik = exports.MixDrop = exports.VidCloud = exports.StreamSB = exports.GogoCDN = void 0;
+exports.SmashyStream = exports.StreamLare = exports.StreamHub = exports.AsianLoad = exports.BilibiliExtractor = exports.Filemoon = exports.VizCloud = exports.StreamTape = exports.RapidCloud = exports.Kwik = exports.MixDrop = exports.VidCloud = exports.StreamSB = exports.GogoCDN = void 0;
 const gogocdn_1 = __importDefault(require("./gogocdn"));
 exports.GogoCDN = gogocdn_1.default;
 const streamsb_1 = __importDefault(require("./streamsb"));
@@ -30,4 +30,6 @@ const streamlare_1 = __importDefault(require("./streamlare"));
 exports.StreamLare = streamlare_1.default;
 const smashystream_1 = __importDefault(require("./smashystream"));
 exports.SmashyStream = smashystream_1.default;
+const streamhub_1 = __importDefault(require("./streamhub"));
+exports.StreamHub = streamhub_1.default;
 //# sourceMappingURL=index.js.map
