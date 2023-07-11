@@ -42,7 +42,7 @@ class RapidCloud extends VideoExtractor {
       //   });
       // }
 
-      res = await axios.get(`${this.host}/ajax/embed-6/getSources?id=${id}`, options);
+      res = await axios.get(`https://${videoUrl.hostname}/embed-2/ajax/e-1/getSources?id=${id}`, options);
 
       let {
         data: { sources, tracks, intro, encrypted },
