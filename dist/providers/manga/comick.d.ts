@@ -5,6 +5,7 @@ declare class ComicK extends MangaParser {
     protected logo: string;
     protected classPath: string;
     private readonly apiUrl;
+    private _axios;
     /**
      * @description Fetches info about the manga
      * @param mangaId Comic slug
@@ -25,9 +26,9 @@ declare class ComicK extends MangaParser {
     search: (query: string, page?: number, limit?: number) => Promise<ISearch<IMangaResult>>;
     private fetchAllChapters;
     /**
-     * @description Fetches the comic ID from the slug
+     * @description Fetches the comic HID from the slug
      * @param id Comic slug
-     * @returns Promise<number> -1 if not found
+     * @returns Promise<string> empty if not found
      */
     private getComicId;
 }

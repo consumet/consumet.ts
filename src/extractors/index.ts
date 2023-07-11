@@ -11,6 +11,7 @@ import BilibiliExtractor from './bilibili';
 import AsianLoad from './asianload';
 import StreamLare from './streamlare';
 import SmashyStream from './smashystream';
+import StreamHub from './streamhub';
 
 export {
   GogoCDN,
@@ -24,6 +25,7 @@ export {
   Filemoon,
   BilibiliExtractor,
   AsianLoad,
+  StreamHub,
   StreamLare,
-  SmashyStream
+  SmashyStream,
 };

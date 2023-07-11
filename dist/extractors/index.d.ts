@@ -11,4 +11,5 @@ import BilibiliExtractor from './bilibili';
 import AsianLoad from './asianload';
 import StreamLare from './streamlare';
 import SmashyStream from './smashystream';
-export { GogoCDN, StreamSB, VidCloud, MixDrop, Kwik, RapidCloud, StreamTape, VizCloud, Filemoon, BilibiliExtractor, AsianLoad, StreamLare, SmashyStream };
+import StreamHub from './streamhub';
+export { GogoCDN, StreamSB, VidCloud, MixDrop, Kwik, RapidCloud, StreamTape, VizCloud, Filemoon, BilibiliExtractor, AsianLoad, StreamHub, StreamLare, SmashyStream, };
