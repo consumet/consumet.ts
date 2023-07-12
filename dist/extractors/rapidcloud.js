@@ -43,7 +43,7 @@ class RapidCloud extends models_1.VideoExtractor {
                 //     validateStatus: status => true,
                 //   });
                 // }
-                res = await axios_1.default.get(`${this.host}/ajax/embed-6/getSources?id=${id}`, options);
+                res = await axios_1.default.get(`https://${videoUrl.hostname}/embed-2/ajax/e-1/getSources?id=${id}`, options);
                 let { data: { sources, tracks, intro, encrypted }, } = res;
                 let decryptKey = await (await axios_1.default.get('https://github.com/enimax-anime/key/blob/e6/key.txt')).data;
                 decryptKey = (0, utils_1.substringBefore)((0, utils_1.substringAfter)(decryptKey, '"blob-code blob-code-inner js-file-line">'), '</td>');
