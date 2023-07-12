@@ -12,7 +12,7 @@ class Zoro extends models_1.AnimeParser {
     constructor(zoroBase) {
         super();
         this.name = 'Zoro';
-        this.baseUrl = 'https://zoro.to';
+        this.baseUrl = 'https://aniwatch.to';
         this.logo = 'https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/7e/91/00/7e9100ee-2b62-0942-4cdc-e9b93252ce1c/source/512x512bb.jpg';
         this.classPath = 'ANIME.Zoro';
         /**
