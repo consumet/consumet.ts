@@ -12,8 +12,8 @@ class VidCloud extends models_1.VideoExtractor {
         super(...arguments);
         this.serverName = 'VidCloud';
         this.sources = [];
-        this.host = 'https://dokicloud.one';
-        this.host2 = 'https://rabbitstream.net';
+        this.host = 'https://megacloud.tv';
+        this.host2 = 'https://megacloud.tv';
         this.extract = async (videoUrl, isAlternative = false) => {
             var _a;
             const result = {
@@ -31,7 +31,7 @@ class VidCloud extends models_1.VideoExtractor {
                 };
                 let res = undefined;
                 let sources = undefined;
-                res = await axios_1.default.get(`${isAlternative ? this.host2 : this.host}/ajax/embed-4/getSources?id=${id}`, options);
+                res = await axios_1.default.get(`${isAlternative ? this.host2 : this.host}/embed-2/ajax/e-1/getSources?id=${id}`, options);
                 if (!(0, utils_1.isJson)(res.data.sources)) {
                     let { data: key } = await axios_1.default.get('https://github.com/enimax-anime/key/blob/e4/key.txt');
                     key = (0, utils_1.substringBefore)((0, utils_1.substringAfter)(key, '"blob-code blob-code-inner js-file-line">'), '</td>');
