@@ -171,6 +171,7 @@ export enum StreamingServers {
   Filemoon = 'filemoon',
   VidStreaming = 'vidstreaming',
   SmashyStream = 'smashystream',
+  StreamHub = 'streamhub',
 }
 
 export enum MediaStatus {
