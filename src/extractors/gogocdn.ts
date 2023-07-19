@@ -2,7 +2,7 @@ import axios from 'axios';
 import { CheerioAPI, load } from 'cheerio';
 import CryptoJS from 'crypto-js';
 
-import { VideoExtractor, IVideo } from '../models';
+import { VideoExtractor, IVideo, ProxyConfig } from '../models';
 import { USER_AGENT } from '../utils';
 
 class GogoCDN extends VideoExtractor {
@@ -17,15 +17,19 @@ class GogoCDN extends VideoExtractor {
 
   private referer: string = '';
 
+  constructor(proxyConfig?: ProxyConfig) {
+    super(proxyConfig);
+  }
+
   override extract = async (videoUrl: URL): Promise<IVideo[]> => {
     this.referer = videoUrl.href;
 
-    const res = await axios.get(videoUrl.href);
+    const res = await this.client.get(videoUrl.href);
     const $ = load(res.data);
 
     const encyptedParams = await this.generateEncryptedAjaxParams($, videoUrl.searchParams.get('id') ?? '');
 
-    const encryptedData = await axios.get(
+    const encryptedData = await this.client.get(
       `${videoUrl.protocol}//${videoUrl.hostname}/encrypt-ajax.php?${encyptedParams}`,
       {
         headers: {

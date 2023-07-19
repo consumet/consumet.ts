@@ -1,4 +1,4 @@
-import { VideoExtractor, IVideo, ISubtitle } from '../models';
+import { VideoExtractor, IVideo, ISubtitle, ProxyConfig } from '../models';
 declare class RapidCloud extends VideoExtractor {
     protected serverName: string;
     protected sources: IVideo[];
@@ -6,6 +6,7 @@ declare class RapidCloud extends VideoExtractor {
     private readonly host;
     private readonly consumetApi;
     private readonly enimeApi;
+    constructor(proxyConfig?: ProxyConfig);
     extract: (videoUrl: URL) => Promise<{
         sources: IVideo[];
     } & {

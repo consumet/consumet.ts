@@ -9,8 +9,8 @@ const crypto_js_1 = __importDefault(require("crypto-js"));
 const models_1 = require("../models");
 const utils_1 = require("../utils");
 class GogoCDN extends models_1.VideoExtractor {
-    constructor() {
-        super(...arguments);
+    constructor(proxyConfig) {
+        super(proxyConfig);
         this.serverName = 'goload';
         this.sources = [];
         this.keys = {
@@ -22,10 +22,10 @@ class GogoCDN extends models_1.VideoExtractor {
         this.extract = async (videoUrl) => {
             var _a;
             this.referer = videoUrl.href;
-            const res = await axios_1.default.get(videoUrl.href);
+            const res = await this.client.get(videoUrl.href);
             const $ = (0, cheerio_1.load)(res.data);
             const encyptedParams = await this.generateEncryptedAjaxParams($, (_a = videoUrl.searchParams.get('id')) !== null && _a !== void 0 ? _a : '');
-            const encryptedData = await axios_1.default.get(`${videoUrl.protocol}//${videoUrl.hostname}/encrypt-ajax.php?${encyptedParams}`, {
+            const encryptedData = await this.client.get(`${videoUrl.protocol}//${videoUrl.hostname}/encrypt-ajax.php?${encyptedParams}`, {
                 headers: {
                     'X-Requested-With': 'XMLHttpRequest',
                 },

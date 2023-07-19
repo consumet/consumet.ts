@@ -379,7 +379,6 @@ export declare enum Genres {
     CARS = "Cars",
     COMEDY = "Comedy",
     DRAMA = "Drama",
-    ECCHI = "Ecchi",
     FANTASY = "Fantasy",
     HORROR = "Horror",
     MAHOU_SHOUJO = "Mahou Shoujo",

@@ -1,5 +1,6 @@
-import { BaseParser, IAnimeInfo, ISource, IEpisodeServer } from '.';
+import { BaseParser, IAnimeInfo, ISource, IEpisodeServer, ProxyConfig } from '.';
 declare abstract class AnimeParser extends BaseParser {
+    constructor(baseUrl?: string, proxyConfig?: ProxyConfig);
     /**
      * if the provider has dub and it's avialable seperatly from sub set this to `true`
      */
