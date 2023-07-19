@@ -20,14 +20,25 @@ import { GogoCDN, StreamSB } from '../../extractors';
 
 class Gogoanime extends AnimeParser {
   override readonly name = 'Gogoanime';
-  protected override baseUrl = 'https://gogoanime.cl';
+  protected override baseUrl = 'https://gogoanimehd.to';
   protected override logo =
     'https://play-lh.googleusercontent.com/MaGEiAEhNHAJXcXKzqTNgxqRmhuKB1rCUgb15UrN_mWUNRnLpO5T1qja64oRasO7mn0';
   protected override classPath = 'ANIME.Gogoanime';
 
   private readonly ajaxUrl = 'https://ajax.gogo-load.com/ajax';
-  constructor(proxyConfig?: ProxyConfig) {
-    super('https://www.gogoanime.dk', proxyConfig);
+
+  /**
+   *
+   * @param proxyConfig proxy configuration (optional)
+   * @example
+   * ```ts
+   * const gogo = new Gogoanime({ url: 'https://cors-anywhere.herokuapp.com' });
+   * // or with multiple proxies
+   * const gogo = new Gogoanime({ url: ['https://cors-anywhere.herokuapp.com', ...]});
+   * ```
+   */
+  constructor(private proxyConfig?: ProxyConfig) {
+    super('https://gogoanimehd.to', proxyConfig);
   }
 
   /**
@@ -181,7 +192,7 @@ class Gogoanime extends AnimeParser {
         case StreamingServers.GogoCDN:
           return {
             headers: { Referer: serverUrl.href },
-            sources: await new GogoCDN().extract(serverUrl),
+            sources: await new GogoCDN(this.proxyConfig).extract(serverUrl),
             download: `https://gogohd.net/download${serverUrl.search}`,
           };
         case StreamingServers.StreamSB:
@@ -193,7 +204,7 @@ class Gogoanime extends AnimeParser {
         default:
           return {
             headers: { Referer: serverUrl.href },
-            sources: await new GogoCDN().extract(serverUrl),
+            sources: await new GogoCDN(this.proxyConfig).extract(serverUrl),
             download: `https://gogohd.net/download${serverUrl.search}`,
           };
       }
@@ -383,11 +394,10 @@ class Gogoanime extends AnimeParser {
   };
 }
 
-// (async () => {
-//   const gogo = new Gogoanime();
-
-//   const search = await gogo.fetchEpisodeSources('jigokuraku-dub-episode-1');
-//   console.log(search);
-// })();
+(async () => {
+  const gogo = new Gogoanime();
+  const search = await gogo.fetchEpisodeSources('jigokuraku-dub-episode-1');
+  console.log(search);
+})();
 
 export default Gogoanime;
