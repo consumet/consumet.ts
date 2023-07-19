@@ -38,7 +38,6 @@ namespace Proxy {
             origin: 'axios',
           };
           config.url = `${proxy.url}/${config?.baseURL}${config?.url ? config?.url : ''}`;
-          console.log(config.url);
         }
         return config;
       });

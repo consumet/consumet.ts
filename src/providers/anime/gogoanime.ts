@@ -394,10 +394,10 @@ class Gogoanime extends AnimeParser {
   };
 }
 
-(async () => {
-  const gogo = new Gogoanime();
-  const search = await gogo.fetchEpisodeSources('jigokuraku-dub-episode-1');
-  console.log(search);
-})();
+// (async () => {
+//   const gogo = new Gogoanime();
+//   const search = await gogo.fetchEpisodeSources('jigokuraku-dub-episode-1');
+//   console.log(search);
+// })();
 
 export default Gogoanime;
