@@ -185,7 +185,6 @@ class KissAsian extends MovieParser {
             element.name = StreamingServers.Mp4Upload;
             break;
           default:
-            element.name = element.name;
             break;
         }
       });
@@ -234,7 +233,7 @@ class KissAsian extends MovieParser {
 
       return await this.fetchEpisodeSources(serverUrl.href, server);
     } catch (err) {
-      throw err;
+      throw new Error((err as Error).message);
     }
   };
 }
