@@ -109,7 +109,7 @@ class DramaCool extends MovieParser {
       const $ = load(data);
 
       $('div.anime_muti_link > ul > li').map(async (i, ele) => {
-        let url = $(ele).attr('data-video')!;
+        const url = $(ele).attr('data-video')!;
         let name = $(ele).attr('class')!.replace('selected', '').trim();
         if (name.includes('Standard')) {
           name = StreamingServers.AsianLoad
