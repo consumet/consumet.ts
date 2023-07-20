@@ -17,10 +17,6 @@ class GogoCDN extends VideoExtractor {
 
   private referer: string = '';
 
-  constructor(proxyConfig?: ProxyConfig) {
-    super(proxyConfig);
-  }
-
   override extract = async (videoUrl: URL): Promise<IVideo[]> => {
     this.referer = videoUrl.href;
 

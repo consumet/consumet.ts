@@ -31,21 +31,23 @@ class VidCloud extends VideoExtractor {
       let res = undefined;
       let sources = undefined;
 
-      res = await axios.get(
+      res = await this.client.get(
         `${isAlternative ? this.host2 : this.host}/ajax/embed-4/getSources?id=${id}`,
         options
       );
 
       if (!isJson(res.data.sources)) {
-        let { data: key } = await axios.get('https://github.com/enimax-anime/key/blob/e4/key.txt');
+        let { data: key } = await this.client.get('https://github.com/enimax-anime/key/blob/e4/key.txt');
 
         key = substringBefore(substringAfter(key, '"blob-code blob-code-inner js-file-line">'), '</td>');
 
         if (!key) {
-          key = await (await axios.get('https://raw.githubusercontent.com/enimax-anime/key/e4/key.txt')).data;
+          key = await (
+            await this.client.get('https://raw.githubusercontent.com/enimax-anime/key/e4/key.txt')
+          ).data;
         }
-        const decryptedVal = CryptoJS.AES.decrypt(res.data.sources, key).toString(CryptoJS.enc.Utf8)
-        sources = isJson(decryptedVal) ? JSON.parse(decryptedVal) : res.data.sources
+        const decryptedVal = CryptoJS.AES.decrypt(res.data.sources, key).toString(CryptoJS.enc.Utf8);
+        sources = isJson(decryptedVal) ? JSON.parse(decryptedVal) : res.data.sources;
       }
 
       this.sources = sources.map((s: any) => ({
@@ -59,7 +61,7 @@ class VidCloud extends VideoExtractor {
       this.sources = [];
 
       for (const source of sources) {
-        const { data } = await axios.get(source.file, options);
+        const { data } = await this.client.get(source.file, options);
         const urls = data.split('\n').filter((line: string) => line.includes('.m3u8')) as string[];
         const qualities = data.split('\n').filter((line: string) => line.includes('RESOLUTION=')) as string[];
 

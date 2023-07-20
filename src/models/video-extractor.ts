@@ -1,7 +1,7 @@
 import { IVideo, ISource, ISubtitle, ProxyConfig } from '.';
 import Proxy from '../models/proxy';
 
-abstract class VideoExtractor extends Proxy.ExtractorProxy {
+abstract class VideoExtractor extends Proxy.Extractor {
   constructor(proxyConfig?: ProxyConfig) {
     super(proxyConfig);
   }

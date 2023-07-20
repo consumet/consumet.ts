@@ -13,10 +13,6 @@ class RapidCloud extends VideoExtractor {
   private readonly consumetApi = 'https://api.consumet.org';
   private readonly enimeApi = 'https://api.enime.moe';
 
-  constructor(proxyConfig?: ProxyConfig) {
-    super(proxyConfig);
-  }
-
   override extract = async (videoUrl: URL): Promise<{ sources: IVideo[] } & { subtitles: ISubtitle[] }> => {
     const result: { sources: IVideo[]; subtitles: ISubtitle[]; intro?: Intro } = {
       sources: [],

@@ -4,12 +4,15 @@ import { ProxyConfig } from './types';
 import BaseProvider from './base-provider';
 
 namespace Proxy {
-  export abstract class ProviderProxy extends BaseProvider {
+  export abstract class Provider extends BaseProvider {
     constructor(baseUrl?: string, proxy?: ProxyConfig) {
       super();
-      this.client = axios.create({
-        baseURL: baseUrl,
-      });
+
+      if (baseUrl)
+        this.client = axios.create({
+          baseURL: baseUrl,
+        });
+      else this.client = axios.create();
 
       if (proxy) this.setProxy(proxy);
     }
@@ -57,7 +60,7 @@ namespace Proxy {
     protected client: AxiosInstance;
   }
 
-  export class ExtractorProxy {
+  export class Extractor {
     constructor(proxy?: ProxyConfig) {
       this.client = axios.create();
 
