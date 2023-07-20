@@ -12,6 +12,7 @@ import AsianLoad from './asianload';
 import StreamLare from './streamlare';
 import SmashyStream from './smashystream';
 import StreamHub from './streamhub';
+import VidMoly from './vidmoly';
 
 export {
   GogoCDN,
@@ -28,4 +29,5 @@ export {
   StreamHub,
   StreamLare,
   SmashyStream,
+  VidMoly,
 };
