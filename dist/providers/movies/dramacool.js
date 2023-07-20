@@ -130,7 +130,7 @@ class DramaCool extends models_1.MovieParser {
             const { data } = await axios_1.default.get(episodeId);
             const $ = (0, cheerio_1.load)(data);
             $('div.anime_muti_link > ul > li').map(async (i, ele) => {
-                let url = $(ele).attr('data-video');
+                const url = $(ele).attr('data-video');
                 let name = $(ele).attr('class').replace('selected', '').trim();
                 if (name.includes('Standard')) {
                     name = models_1.StreamingServers.AsianLoad;
