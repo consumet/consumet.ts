@@ -15,7 +15,7 @@ import { MixDrop, AsianLoad, StreamTape, StreamSB } from '../../extractors';
 
 class DramaCool extends MovieParser {
   override readonly name = 'DramaCool';
-  protected override baseUrl = 'https://www1.dramacool.cr';
+  protected override baseUrl = 'https://dramacool.hr';
   protected override logo =
     'https://play-lh.googleusercontent.com/IaCb2JXII0OV611MQ-wSA8v_SAs9XF6E3TMDiuxGGXo4wp9bI60GtDASIqdERSTO5XU';
   protected override classPath = 'MOVIES.DramaCool';
@@ -100,37 +100,30 @@ class DramaCool extends MovieParser {
   };
 
   override async fetchEpisodeServers(episodeId: string, ...args: any): Promise<IEpisodeServer[]> {
-    throw new Error('Method not implemented.');
-    // try {
-    //   const { data } = await axios.get(episodeId);
+    try {
+      const episodeServers: IEpisodeServer[] = [];
 
-    //   const $ = load(data);
+      if (!episodeId.includes('.html')) episodeId = `${this.baseUrl}/${episodeId}.html`;
 
-    //   let serverUrl = '';
-    // switch (server) {
-    //   // asianload is the same as the standard server
-    //   case StreamingServers.AsianLoad:
-    //     serverUrl = `https:${$('.Standard').attr('data-video')}`;
-    //     if (!serverUrl.includes('asian')) throw new Error('Try another server');
-    //     break;
-    //   case StreamingServers.MixDrop:
-    //     serverUrl = $('.mixdrop').attr('data-video')!;
-    //     if (!serverUrl.includes('mixdrop')) throw new Error('Try another server');
-    //     break;
-    //   case StreamingServers.StreamTape:
-    //     serverUrl = $('.streamtape').attr('data-video')!;
-    //     if (!serverUrl.includes('streamtape')) throw new Error('Try another server');
-    //     break;
-    //   case StreamingServers.StreamSB:
-    //     serverUrl = $('.streamsb').attr('data-video')!;
-    //     if (!serverUrl.includes('stream')) throw new Error('Try another server');
-    //     break;
-    // }
+      const { data } = await axios.get(episodeId);
+      const $ = load(data);
 
-    // return await this.fetchEpisodeSources(serverUrl, server);
-    // } catch (err) {
-    //   throw new Error((err as Error).message);
-    // }
+      $('div.anime_muti_link > ul > li').map(async (i, ele) => {
+        let url = $(ele).attr('data-video')!;
+        let name = $(ele).attr('class')!.replace('selected', '').trim();
+        if (name.includes('Standard')) {
+          name = StreamingServers.AsianLoad
+        }
+        episodeServers.push({
+          name: name,
+          url: url.startsWith('//') ? url?.replace('//', 'https://') : url,
+        });
+      });
+
+      return episodeServers;
+    } catch (err) {
+      throw new Error((err as Error).message);
+    }
   }
 
   override fetchEpisodeSources = async (
@@ -161,35 +154,19 @@ class DramaCool extends MovieParser {
       }
     }
 
-    if (!episodeId.includes('.html')) episodeId = `${this.baseUrl}/${episodeId}.html`;
-
     try {
-      const { data } = await axios.get(episodeId);
+      if (!episodeId.includes('.html')) episodeId = `${this.baseUrl}/${episodeId}.html`;
 
-      const $ = load(data);
-
-      let serverUrl = '';
-      switch (server) {
-        // asianload is the same as the standard server
-        case StreamingServers.AsianLoad:
-          serverUrl = `https:${$('.Standard').attr('data-video')}`;
-          if (!serverUrl.includes('asian')) throw new Error('Try another server');
-          break;
-        case StreamingServers.MixDrop:
-          serverUrl = $('.mixdrop').attr('data-video')!;
-          if (!serverUrl.includes('mixdrop')) throw new Error('Try another server');
-          break;
-        case StreamingServers.StreamTape:
-          serverUrl = $('.streamtape').attr('data-video')!;
-          if (!serverUrl.includes('streamtape')) throw new Error('Try another server');
-          break;
-        case StreamingServers.StreamSB:
-          serverUrl = $('.streamsb').attr('data-video')!;
-          if (!serverUrl.includes('stream')) throw new Error('Try another server');
-          break;
+      const servers = await this.fetchEpisodeServers(episodeId);
+      const i = servers.findIndex(s => s.name.toLowerCase() === server.toLowerCase());
+      if (i === -1) {
+        throw new Error(`Server ${server} not found`);
       }
+      const serverUrl: URL = new URL(
+        servers.filter(s => s.name.toLowerCase() === server.toLowerCase())[0].url
+      );
 
-      return await this.fetchEpisodeSources(serverUrl, server);
+      return await this.fetchEpisodeSources(serverUrl.href, server);
     } catch (err) {
       throw new Error((err as Error).message);
     }

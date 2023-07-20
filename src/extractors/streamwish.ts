@@ -3,15 +3,15 @@ import axios from 'axios';
 import { VideoExtractor, IVideo } from '../models';
 
 class StreamWish extends VideoExtractor {
-  protected override serverName = 'StreamWish';
+  protected override serverName = 'streamwish';
   protected override sources: IVideo[] = [];
 
   override extract = async (videoUrl: URL): Promise<IVideo[]> => {
     try {
       const { data } = await axios.get(videoUrl.href);
 
-      const formated = eval(/(eval)(\(f.*?)(\n<\/script>)/s.exec(data)![2]);
-      const links = formated.match(/file:\s*"([^"]+)"/);
+      const unPackagedData = eval(/(eval)(\(f.*?)(\n<\/script>)/s.exec(data)![2]);
+      const links = unPackagedData.match(/file:\s*"([^"]+)"/);
 
       this.sources.push({
         quality: 'auto',
@@ -25,15 +25,12 @@ class StreamWish extends VideoExtractor {
         },
       });
 
-      console.log(links[1]);
-      console.log(m3u8Content);
-
       if (m3u8Content.data.includes('EXTM3U')) {
         const videoList = m3u8Content.data.split('#EXT-X-STREAM-INF:');
         for (const video of videoList ?? []) {
           if (!video.includes('m3u8')) continue;
 
-          const url = video.split('\n')[1];
+          const url = links[1].split('master.m3u8')[0] + video.split('\n')[1];
           const quality = video.split('RESOLUTION=')[1].split(',')[0].split('x')[1];
 
           this.sources.push({

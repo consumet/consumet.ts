@@ -12,9 +12,7 @@ import {
   ISearch,
   MediaStatus,
 } from '../../models';
-import { MixDrop, StreamTape, StreamSB, VidMoly } from '../../extractors';
-import StreamWish from '../../extractors/streamwish';
-
+import { Mp4Upload, StreamWish, VidMoly } from '../../extractors';
 class KissAsian extends MovieParser {
   override readonly name = 'KissAsian';
   protected override baseUrl = 'https://kissasian.mx';
@@ -142,7 +140,7 @@ class KissAsian extends MovieParser {
 
   override async fetchEpisodeServers(episodeId: string): Promise<IEpisodeServer[]> {
     try {
-      const epsiodeServers: IEpisodeServer[] = [];
+      const episodeServers: IEpisodeServer[] = [];
 
       const { data } = await axios.post(`${this.baseUrl}/${episodeId}`, {
         headers: {
@@ -151,7 +149,7 @@ class KissAsian extends MovieParser {
       });
 
       const $ = load(data);
-      epsiodeServers.push({
+      episodeServers.push({
         name: $('ul.mirrorTab > li > a.actived').text().trim(),
         url: $('iframe#mVideo').attr('src')!,
       });
@@ -167,7 +165,7 @@ class KissAsian extends MovieParser {
           const $$ = load(data);
           if ($$('ul.mirrorTab > li > a.actived').text().trim()) {
             const url = $$('iframe#mVideo').attr('src')!;
-            epsiodeServers.push({
+            episodeServers.push({
               name: $$('ul.mirrorTab > li > a.actived').text().trim(),
               url: url.startsWith('https') ? url : url.replace('//', 'https://'),
             });
@@ -175,7 +173,7 @@ class KissAsian extends MovieParser {
         })
       );
 
-      epsiodeServers.map(element => {
+      episodeServers.map(element => {
         switch (element.name) {
           case 'VM':
             element.name = StreamingServers.VidMoly;
@@ -183,8 +181,8 @@ class KissAsian extends MovieParser {
           case 'SW':
             element.name = StreamingServers.StreamWish;
             break;
-          case 'Unknown':
-            element.name = StreamingServers.VidMoly;
+          case 'MP':
+            element.name = StreamingServers.Mp4Upload;
             break;
           default:
             element.name = element.name;
@@ -192,7 +190,7 @@ class KissAsian extends MovieParser {
         }
       });
 
-      return epsiodeServers;
+      return episodeServers;
     } catch (err) {
       throw new Error((err as Error).message);
     }
@@ -200,7 +198,7 @@ class KissAsian extends MovieParser {
 
   override fetchEpisodeSources = async (
     episodeId: string,
-    server: StreamingServers = StreamingServers.StreamWish
+    server: StreamingServers = StreamingServers.Mp4Upload
   ): Promise<ISource> => {
     if (episodeId.startsWith('http')) {
       const serverUrl = new URL(episodeId);
@@ -213,13 +211,9 @@ class KissAsian extends MovieParser {
           return {
             sources: await new StreamWish().extract(serverUrl),
           };
-        case StreamingServers.StreamTape:
+        case StreamingServers.Mp4Upload:
           return {
-            sources: await new StreamTape().extract(serverUrl),
-          };
-        case StreamingServers.StreamSB:
-          return {
-            sources: await new StreamSB().extract(serverUrl),
+            sources: await new Mp4Upload().extract(serverUrl),
           };
         default:
           throw new Error('Server not supported');
@@ -228,7 +222,6 @@ class KissAsian extends MovieParser {
 
     try {
       const servers = await this.fetchEpisodeServers(episodeId);
-      console.log(servers);
       const i = servers.findIndex(s => s.name.toLowerCase() === server.toLowerCase());
 
       if (i === -1) {
