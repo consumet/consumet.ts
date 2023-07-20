@@ -173,6 +173,7 @@ export enum StreamingServers {
   SmashyStream = 'smashystream',
   StreamHub = 'streamhub',
   VidMoly = 'vidmoly',
+  StreamWish = 'streamwish'
 }
 
 export enum MediaStatus {

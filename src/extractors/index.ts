@@ -13,6 +13,7 @@ import StreamLare from './streamlare';
 import SmashyStream from './smashystream';
 import StreamHub from './streamhub';
 import VidMoly from './vidmoly';
+import StreamWish from './streamwish';
 
 export {
   GogoCDN,
@@ -26,8 +27,9 @@ export {
   Filemoon,
   BilibiliExtractor,
   AsianLoad,
+  SmashyStream,
   StreamHub,
   StreamLare,
-  SmashyStream,
+  StreamWish,
   VidMoly,
 };

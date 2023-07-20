@@ -13,6 +13,7 @@ import {
   MediaStatus,
 } from '../../models';
 import { MixDrop, StreamTape, StreamSB, VidMoly } from '../../extractors';
+import StreamWish from '../../extractors/streamwish';
 
 class KissAsian extends MovieParser {
   override readonly name = 'KissAsian';
@@ -179,8 +180,8 @@ class KissAsian extends MovieParser {
           case 'VM':
             element.name = StreamingServers.VidMoly;
             break;
-          case 'Cancelled':
-            element.name = StreamingServers.VidMoly;
+          case 'SW':
+            element.name = StreamingServers.StreamWish;
             break;
           case 'Unknown':
             element.name = StreamingServers.VidMoly;
@@ -199,7 +200,7 @@ class KissAsian extends MovieParser {
 
   override fetchEpisodeSources = async (
     episodeId: string,
-    server: StreamingServers = StreamingServers.VidMoly
+    server: StreamingServers = StreamingServers.StreamWish
   ): Promise<ISource> => {
     if (episodeId.startsWith('http')) {
       const serverUrl = new URL(episodeId);
@@ -208,9 +209,9 @@ class KissAsian extends MovieParser {
           return {
             sources: await new VidMoly().extract(serverUrl),
           };
-        case StreamingServers.StreamTape:
+        case StreamingServers.StreamWish:
           return {
-            sources: await new StreamTape().extract(serverUrl),
+            sources: await new StreamWish().extract(serverUrl),
           };
         case StreamingServers.StreamTape:
           return {
