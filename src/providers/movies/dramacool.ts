@@ -22,17 +22,16 @@ class DramaCool extends MovieParser {
   override supportedTypes = new Set([TvType.MOVIE, TvType.TVSERIES]);
 
   override search = async (query: string, page: number = 1): Promise<ISearch<IMovieResult>> => {
-    const searchResult: ISearch<IMovieResult> = {
-      currentPage: page,
-      hasNextPage: false,
-      results: [],
-    };
-
     try {
+      const searchResult: ISearch<IMovieResult> = {
+        currentPage: page,
+        hasNextPage: false,
+        results: [],
+      };
+
       const { data } = await axios.get(
         `${this.baseUrl}/search?keyword=${query.replace(/[\W_]+/g, '-')}&page=${page}`
       );
-
       const $ = load(data);
 
       const navSelector = 'ul.pagination';
@@ -55,16 +54,16 @@ class DramaCool extends MovieParser {
   };
 
   override fetchMediaInfo = async (mediaId: string): Promise<IMovieInfo> => {
-    const realMediaId = mediaId;
-    if (!mediaId.startsWith(this.baseUrl)) mediaId = `${this.baseUrl}/${mediaId}`;
-
-    const mediaInfo: IMovieInfo = {
-      id: '',
-      title: '',
-    };
     try {
-      const { data } = await axios.get(mediaId);
+      const realMediaId = mediaId;
+      if (!mediaId.startsWith(this.baseUrl)) mediaId = `${this.baseUrl}/${mediaId}`;
 
+      const mediaInfo: IMovieInfo = {
+        id: '',
+        title: '',
+      };
+
+      const { data } = await axios.get(mediaId);
       const $ = load(data);
 
       mediaInfo.id = realMediaId;
@@ -99,6 +98,40 @@ class DramaCool extends MovieParser {
       throw new Error((err as Error).message);
     }
   };
+
+  override async fetchEpisodeServers(episodeId: string, ...args: any): Promise<IEpisodeServer[]> {
+    throw new Error('Method not implemented.');
+    // try {
+    //   const { data } = await axios.get(episodeId);
+
+    //   const $ = load(data);
+
+    //   let serverUrl = '';
+    // switch (server) {
+    //   // asianload is the same as the standard server
+    //   case StreamingServers.AsianLoad:
+    //     serverUrl = `https:${$('.Standard').attr('data-video')}`;
+    //     if (!serverUrl.includes('asian')) throw new Error('Try another server');
+    //     break;
+    //   case StreamingServers.MixDrop:
+    //     serverUrl = $('.mixdrop').attr('data-video')!;
+    //     if (!serverUrl.includes('mixdrop')) throw new Error('Try another server');
+    //     break;
+    //   case StreamingServers.StreamTape:
+    //     serverUrl = $('.streamtape').attr('data-video')!;
+    //     if (!serverUrl.includes('streamtape')) throw new Error('Try another server');
+    //     break;
+    //   case StreamingServers.StreamSB:
+    //     serverUrl = $('.streamsb').attr('data-video')!;
+    //     if (!serverUrl.includes('stream')) throw new Error('Try another server');
+    //     break;
+    // }
+
+    // return await this.fetchEpisodeSources(serverUrl, server);
+    // } catch (err) {
+    //   throw new Error((err as Error).message);
+    // }
+  }
 
   override fetchEpisodeSources = async (
     episodeId: string,
@@ -162,22 +195,10 @@ class DramaCool extends MovieParser {
     }
   };
 
-  override fetchEpisodeServers(episodeId: string, ...args: any): Promise<IEpisodeServer[]> {
-    throw new Error('Method not implemented.');
-  }
-
   private removeContainsFromString = (str: string, contains: string) => {
     contains = contains.toLowerCase();
     return str.toLowerCase().replace(/\n/g, '').replace(`${contains}:`, '').trim();
   };
 }
-
-// (async () => {
-//   const drama = new Dramacool();
-//   const search = await drama.search('vincenzo');
-//   const mediaInfo = await drama.fetchMediaInfo(search.results[0].id);
-//   // const sources = await drama.fetchEpisodeSources(mediaInfo.episodes![0].id);
-//   console.log(mediaInfo);
-// })();
 
 export default DramaCool;

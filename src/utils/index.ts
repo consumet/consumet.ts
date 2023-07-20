@@ -12,6 +12,7 @@ import {
   AsianLoad,
   SmashyStream,
   StreamHub,
+  VidMoly,
 } from '../extractors';
 import {
   USER_AGENT,
@@ -82,4 +83,5 @@ export {
   substringAfter,
   substringBefore,
   compareTwoStrings,
+  VidMoly,
 };
