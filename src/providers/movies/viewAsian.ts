@@ -10,6 +10,7 @@ import {
   ISource,
   IMovieResult,
   ISearch,
+  ProxyConfig,
 } from '../../models';
 import { MixDrop, AsianLoad, StreamTape, StreamSB } from '../../extractors';
 
@@ -20,6 +21,10 @@ class ViewAsian extends MovieParser {
   protected override classPath = 'MOVIES.ViewAsian';
   override supportedTypes = new Set([TvType.MOVIE, TvType.TVSERIES]);
 
+  constructor(private proxyConfig?: ProxyConfig) {
+    super('https://viewasian.co', proxyConfig);
+  }
+
   override search = async (query: string, page: number = 1): Promise<ISearch<IMovieResult>> => {
     const searchResult: ISearch<IMovieResult> = {
       currentPage: page,
@@ -28,9 +33,7 @@ class ViewAsian extends MovieParser {
     };
 
     try {
-      const { data } = await axios.get(
-        `${this.baseUrl}/movie/search/${query.replace(/[\W_]+/g, '-')}?page=${page}`
-      );
+      const { data } = await this.client.get(`/movie/search/${query.replace(/[\W_]+/g, '-')}?page=${page}`);
 
       const $ = load(data);
 
@@ -64,8 +67,8 @@ class ViewAsian extends MovieParser {
 
   override fetchMediaInfo = async (mediaId: string): Promise<IMovieInfo> => {
     const realMediaId = mediaId;
-    if (!mediaId.startsWith(this.baseUrl))
-      mediaId = `${this.baseUrl}/watch/${mediaId.split('/').slice(1)}/watching.html`;
+    if (!mediaId.startsWith(this.baseUrl)) mediaId = `/watch/${mediaId.split('/').slice(1)}/watching.html`;
+    if (mediaId.startsWith(this.baseUrl)) mediaId = mediaId.replace(this.baseUrl, '');
 
     const mediaInfo: IMovieInfo = {
       id: '',
@@ -73,7 +76,7 @@ class ViewAsian extends MovieParser {
     };
 
     try {
-      const { data } = await axios.get(mediaId);
+      const { data } = await this.client.get(mediaId);
 
       const $ = load(data);
 
@@ -116,29 +119,29 @@ class ViewAsian extends MovieParser {
       const serverUrl = new URL(episodeId);
       switch (server) {
         case StreamingServers.AsianLoad:
-          return { ...(await new AsianLoad().extract(serverUrl)) };
+          return { ...(await new AsianLoad(this.proxyConfig).extract(serverUrl)) };
         case StreamingServers.MixDrop:
           return {
-            sources: await new MixDrop().extract(serverUrl),
+            sources: await new MixDrop(this.proxyConfig).extract(serverUrl),
           };
         case StreamingServers.StreamTape:
           return {
-            sources: await new StreamTape().extract(serverUrl),
+            sources: await new StreamTape(this.proxyConfig).extract(serverUrl),
           };
         case StreamingServers.StreamSB:
           return {
-            sources: await new StreamSB().extract(serverUrl),
+            sources: await new StreamSB(this.proxyConfig).extract(serverUrl),
           };
         default:
           throw new Error('Server not supported');
       }
     }
     if (!episodeId.includes('$episode$')) throw new Error('Invalid episode id');
-    episodeId = `${this.baseUrl}${episodeId.replace('$episode$', '?ep=')}`;
+    episodeId = `${episodeId.replace('$episode$', '?ep=')}`;
 
     // return episodeId;
     try {
-      const { data } = await axios.get(episodeId);
+      const { data } = await this.client.get(episodeId);
 
       const $ = load(data);
 

@@ -10,7 +10,7 @@ class Kwik extends VideoExtractor {
 
   override extract = async (videoUrl: URL): Promise<IVideo[]> => {
     try {
-      const { data } = await axios.get(`${videoUrl.href}`, {
+      const { data } = await this.client.get(`${videoUrl.href}`, {
         headers: { Referer: this.host },
       });
 
