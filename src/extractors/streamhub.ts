@@ -1,5 +1,4 @@
 import axios from 'axios';
-import { load } from 'cheerio';
 
 import { VideoExtractor, IVideo, ISubtitle } from '../models';
 
@@ -18,11 +17,7 @@ class StreamHub extends VideoExtractor {
         throw new Error('Video not found');
       });
 
-      const $ = load(data);
-      const ss = $.html().indexOf('eval(function(p,a,c,k,e,d)');
-      const se = $.html().indexOf('</script>', ss);
-      const s = $.html().substring(ss, se).replace('eval', '');
-      const unpackedData = eval(s) as string;
+      const unpackedData = eval(/(eval)(\(f.*?)(\n<\/script>)/s.exec(data)![2].replace('eval', ''));
 
       const links = unpackedData.match(new RegExp('sources:\\[\\{src:"(.*?)"')) ?? [];
       const m3u8Content = await axios.get(links[1], {

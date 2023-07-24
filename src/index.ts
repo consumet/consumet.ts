@@ -14,7 +14,10 @@ import {
   VidCloud,
   StreamLare,
   StreamHub,
-  SmashyStream
+  SmashyStream,
+  VidMoly,
+  Mp4Upload,
+  StreamWish,
 } from './extractors';
 import {
   IProviderStats,
@@ -104,7 +107,10 @@ export {
   StreamHub,
   SmashyStream,
   VizCloud,
-  Filemoon,
-  BilibiliExtractor,
   AsianLoad,
+  BilibiliExtractor,
+  Filemoon,
+  Mp4Upload,
+  StreamWish,
+  VidMoly,
 };

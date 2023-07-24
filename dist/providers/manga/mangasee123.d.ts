@@ -4,7 +4,6 @@ declare class Mangasee123 extends MangaParser {
     protected baseUrl: string;
     protected logo: string;
     protected classPath: string;
-    private readonly sgProxy;
     fetchMangaInfo: (mangaId: string, ...args: any) => Promise<IMangaInfo>;
     fetchChapterPages: (chapterId: string, ...args: any) => Promise<IMangaChapterPage[]>;
     search: (query: string, ...args: any[]) => Promise<ISearch<IMangaResult>>;
