@@ -38,7 +38,7 @@ class SmashyStream extends MovieParser {
       if (season) {
         url = `${this.baseUrl}/playere.php?tmdb=${tmdbId}&season=${season}&episode=${episode}`;
       }
-      const { data } = await axios.get(url);
+      const { data } = await this.client.get(url);
       const $ = load(data);
 
       await Promise.all(

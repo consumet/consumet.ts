@@ -4,9 +4,10 @@ const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
 const extractors_1 = require("../../extractors");
 class FlixHQ extends models_1.MovieParser {
-    constructor(proxyConfig) {
-        super('https://flixhq.to', proxyConfig);
+    constructor(proxyConfig, adapter) {
+        super('https://flixhq.to', proxyConfig, adapter);
         this.proxyConfig = proxyConfig;
+        this.adapter = adapter;
         this.name = 'FlixHQ';
         this.baseUrl = 'https://flixhq.to';
         this.logo = 'https://upload.wikimedia.org/wikipedia/commons/7/7a/MyAnimeList_Logo.png';
@@ -158,16 +159,16 @@ class FlixHQ extends models_1.MovieParser {
                     case models_1.StreamingServers.MixDrop:
                         return {
                             headers: { Referer: serverUrl.href },
-                            sources: await new extractors_1.MixDrop(this.proxyConfig).extract(serverUrl),
+                            sources: await new extractors_1.MixDrop(this.proxyConfig, this.adapter).extract(serverUrl),
                         };
                     case models_1.StreamingServers.VidCloud:
-                        return Object.assign({ headers: { Referer: serverUrl.href } }, (await new extractors_1.VidCloud(this.proxyConfig).extract(serverUrl, true)));
+                        return Object.assign({ headers: { Referer: serverUrl.href } }, (await new extractors_1.VidCloud(this.proxyConfig, this.adapter).extract(serverUrl, true)));
                     case models_1.StreamingServers.UpCloud:
-                        return Object.assign({ headers: { Referer: serverUrl.href } }, (await new extractors_1.VidCloud(this.proxyConfig).extract(serverUrl)));
+                        return Object.assign({ headers: { Referer: serverUrl.href } }, (await new extractors_1.VidCloud(this.proxyConfig, this.adapter).extract(serverUrl)));
                     default:
                         return {
                             headers: { Referer: serverUrl.href },
-                            sources: await new extractors_1.MixDrop(this.proxyConfig).extract(serverUrl),
+                            sources: await new extractors_1.MixDrop(this.proxyConfig, this.adapter).extract(serverUrl),
                         };
                 }
             }

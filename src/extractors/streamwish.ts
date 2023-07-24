@@ -8,7 +8,7 @@ class StreamWish extends VideoExtractor {
 
   override extract = async (videoUrl: URL): Promise<IVideo[]> => {
     try {
-      const { data } = await axios.get(videoUrl.href);
+      const { data } = await this.client.get(videoUrl.href);
 
       const unPackagedData = eval(/(eval)(\(f.*?)(\n<\/script>)/s.exec(data)![2]);
       const links = unPackagedData.match(/file:\s*"([^"]+)"/);
@@ -19,7 +19,7 @@ class StreamWish extends VideoExtractor {
         isM3U8: links[1].includes('.m3u8'),
       });
 
-      const m3u8Content = await axios.get(links[1], {
+      const m3u8Content = await this.client.get(links[1], {
         headers: {
           Referer: videoUrl.href,
         },

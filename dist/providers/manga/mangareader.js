@@ -1,9 +1,5 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const axios_1 = __importDefault(require("axios"));
 const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
 class MangaReader extends models_1.MangaParser {
@@ -19,7 +15,7 @@ class MangaReader extends models_1.MangaParser {
          */
         this.search = async (query) => {
             try {
-                const { data } = await axios_1.default.get(`${this.baseUrl}/search?keyword=${query}`);
+                const { data } = await this.client.get(`${this.baseUrl}/search?keyword=${query}`);
                 const $ = (0, cheerio_1.load)(data);
                 const results = $('div.manga_list-sbs div.mls-wrap div.item')
                     .map((i, el) => {
@@ -50,7 +46,7 @@ class MangaReader extends models_1.MangaParser {
                 title: '',
             };
             try {
-                const { data } = await axios_1.default.get(`${this.baseUrl}/${mangaId}`);
+                const { data } = await this.client.get(`${this.baseUrl}/${mangaId}`);
                 const $ = (0, cheerio_1.load)(data);
                 const container = $('div.container');
                 mangaInfo.title = container.find('div.anisc-detail h2.manga-name').text().trim();
@@ -79,14 +75,14 @@ class MangaReader extends models_1.MangaParser {
         };
         this.fetchChapterPages = async (chapterId) => {
             try {
-                const { data } = await axios_1.default.get(`${this.baseUrl}/read/${chapterId}`);
+                const { data } = await this.client.get(`${this.baseUrl}/read/${chapterId}`);
                 const $ = (0, cheerio_1.load)(data);
                 const readingId = $('div#wrapper').attr('data-reading-id');
                 if (!readingId) {
                     throw new Error('Unable to find pages');
                 }
                 const ajaxURL = `https://mangareader.to/ajax/image/list/chap/${readingId}?mode=vertical&quality=high`;
-                const { data: pagesData } = await axios_1.default.get(ajaxURL);
+                const { data: pagesData } = await this.client.get(ajaxURL);
                 const $PagesHTML = (0, cheerio_1.load)(pagesData.html);
                 const pagesSelector = $PagesHTML('div#main-wrapper div.container-reader-chapter div.iv-card');
                 const pages = pagesSelector

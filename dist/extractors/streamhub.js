@@ -1,9 +1,5 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const axios_1 = __importDefault(require("axios"));
 const models_1 = require("../models");
 class StreamHub extends models_1.VideoExtractor {
     constructor() {
@@ -17,12 +13,12 @@ class StreamHub extends models_1.VideoExtractor {
                     sources: [],
                     subtitles: [],
                 };
-                const { data } = await axios_1.default.get(videoUrl.href).catch(() => {
+                const { data } = await this.client.get(videoUrl.href).catch(() => {
                     throw new Error('Video not found');
                 });
                 const unpackedData = eval(/(eval)(\(f.*?)(\n<\/script>)/s.exec(data)[2].replace('eval', ''));
                 const links = (_a = unpackedData.match(new RegExp('sources:\\[\\{src:"(.*?)"'))) !== null && _a !== void 0 ? _a : [];
-                const m3u8Content = await axios_1.default.get(links[1], {
+                const m3u8Content = await this.client.get(links[1], {
                     headers: {
                         Referer: links[1],
                     },

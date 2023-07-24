@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios, {AxiosAdapter} from 'axios';
 import { load } from 'cheerio';
 
 import {
@@ -30,13 +30,14 @@ class Zoro extends AnimeParser {
    *
    * @param zoroBase Base url of zoro (optional) (default: https://aniwatch.to)
    * @param proxyConfig Proxy configuration (optional)
+   * @param adapter
    * @example
    * ```ts
    * const zoro = new Zoro(undefined, { url: "http://localhost:8080" });
    * ```
    */
-  constructor(zoroBase?: string, private proxyConfig?: ProxyConfig) {
-    super(zoroBase ?? 'https://aniwatch.to', proxyConfig);
+  constructor(zoroBase?: string, private proxyConfig?: ProxyConfig, private adapter?: AxiosAdapter) {
+    super(zoroBase ?? 'https://aniwatch.to', proxyConfig, adapter);
     this.baseUrl = zoroBase ? zoroBase : this.baseUrl;
   }
   /**
@@ -188,7 +189,7 @@ class Zoro extends AnimeParser {
         case StreamingServers.VidStreaming:
         case StreamingServers.VidCloud:
           return {
-            ...(await new RapidCloud(this.proxyConfig).extract(serverUrl)),
+            ...(await new RapidCloud(this.proxyConfig, this.adapter).extract(serverUrl)),
           };
         case StreamingServers.StreamSB:
           return {
@@ -204,7 +205,7 @@ class Zoro extends AnimeParser {
         case StreamingServers.VidCloud:
           return {
             headers: { Referer: serverUrl.href },
-            ...(await new RapidCloud(this.proxyConfig).extract(serverUrl)),
+            ...(await new RapidCloud(this.proxyConfig, this.adapter).extract(serverUrl)),
           };
       }
     }
@@ -220,7 +221,7 @@ class Zoro extends AnimeParser {
       .replace(/\$auto|\$sub|\$dub/gi, '')}`;
 
     try {
-      const { data } = await axios.get(
+      const { data } = await this.client.get(
         `${this.baseUrl}/ajax/v2/episode/servers?episodeId=${episodeId.split('?ep=')[1]}`
       );
 
@@ -264,7 +265,7 @@ class Zoro extends AnimeParser {
 
       const {
         data: { link },
-      } = await axios.get(`${this.baseUrl}/ajax/v2/episode/sources?id=${serverId}`);
+      } = await this.client.get(`${this.baseUrl}/ajax/v2/episode/sources?id=${serverId}`);
       return await this.fetchEpisodeSources(link, server);
     } catch (err) {
       throw err;
@@ -283,7 +284,7 @@ class Zoro extends AnimeParser {
    */
   fetchRecentEpisodes = async (page: number = 1): Promise<ISearch<IAnimeResult>> => {
     try {
-      const { data } = await axios.get(`${this.baseUrl}/recently-updated?page=${page}`);
+      const { data } = await this.client.get(`${this.baseUrl}/recently-updated?page=${page}`);
       const $ = load(data);
 
       const hasNextPage =

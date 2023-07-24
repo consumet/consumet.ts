@@ -1,16 +1,12 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 const cheerio_1 = require("cheerio");
-const axios_1 = __importDefault(require("axios"));
 const utils_1 = require("../../utils/utils");
 const models_1 = require("../../models");
 const extractors_1 = require("../../extractors");
 class Fmovies extends models_1.MovieParser {
-    constructor(fmoviesResolver, proxyConfig, apiKey) {
-        super('https://fmovies.to', proxyConfig && proxyConfig.url ? proxyConfig : undefined);
+    constructor(fmoviesResolver, proxyConfig, apiKey, adapter) {
+        super('https://fmovies.to', proxyConfig && proxyConfig.url ? proxyConfig : undefined, adapter);
         this.name = 'Fmovies';
         this.baseUrl = 'https://fmovies.to';
         this.logo = 'https://s1.bunnycdn.ru/assets/sites/fmovies/logo2.png';
@@ -218,11 +214,11 @@ class Fmovies extends models_1.MovieParser {
         this.apiKey = apiKey !== null && apiKey !== void 0 ? apiKey : this.apiKey;
     }
     async ev(query) {
-        const { data } = await axios_1.default.get(`${this.fmoviesResolver}/fmovies-vrf?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`);
+        const { data } = await this.client.get(`${this.fmoviesResolver}/fmovies-vrf?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`);
         return encodeURIComponent(data.url);
     }
     async decrypt(query) {
-        const { data } = await axios_1.default.get(`${this.fmoviesResolver}/fmovies-decrypt?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`);
+        const { data } = await this.client.get(`${this.fmoviesResolver}/fmovies-decrypt?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`);
         return data.url;
     }
     async ajaxReqUrl(id) {

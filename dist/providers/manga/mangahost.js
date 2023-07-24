@@ -1,9 +1,5 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const axios_1 = __importDefault(require("axios"));
 const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
 class MangaHost extends models_1.MangaParser {
@@ -19,7 +15,7 @@ class MangaHost extends models_1.MangaParser {
                 title: '',
             };
             try {
-                const { data } = await axios_1.default.get(`${this.baseUrl}/manga/${mangaId}`);
+                const { data } = await this.client.get(`${this.baseUrl}/manga/${mangaId}`);
                 const $ = (0, cheerio_1.load)(data);
                 mangaInfo.title = $('article.ejeCg > h1.title').text();
                 mangaInfo.altTitles = $('article.ejeCg > h3.subtitle').text();
@@ -66,7 +62,7 @@ class MangaHost extends models_1.MangaParser {
         this.fetchChapterPages = async (mangaId, chapterId) => {
             try {
                 const url = `${this.baseUrl}/manga/${mangaId}/${chapterId}`;
-                const { data } = await axios_1.default.get(url);
+                const { data } = await this.client.get(url);
                 const $ = (0, cheerio_1.load)(data);
                 const pages = $('section#imageWrapper > div > div.read-slideshow > a > img')
                     .map((i, el) => ({
@@ -88,7 +84,7 @@ class MangaHost extends models_1.MangaParser {
          */
         this.search = async (query) => {
             try {
-                const { data } = await axios_1.default.get(`${this.baseUrl}/find/${query.replace(/ /g, '+')}`);
+                const { data } = await this.client.get(`${this.baseUrl}/find/${query.replace(/ /g, '+')}`);
                 const $ = (0, cheerio_1.load)(data);
                 const results = $('body > div.w-container > main > table > tbody > tr')
                     .map((i, row) => {

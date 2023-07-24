@@ -4,7 +4,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const cheerio_1 = require("cheerio");
-const axios_1 = __importDefault(require("axios"));
 const form_data_1 = __importDefault(require("form-data"));
 const models_1 = require("../../models");
 const utils_1 = require("../../utils");
@@ -31,7 +30,7 @@ class ReadLightNovels extends models_1.LightNovelParser {
                 url: lightNovelUrl,
             };
             try {
-                const page = await axios_1.default.get(lightNovelUrl, {
+                const page = await this.client.get(lightNovelUrl, {
                     headers: {
                         Referer: lightNovelUrl,
                     },
@@ -87,7 +86,7 @@ class ReadLightNovels extends models_1.LightNovelParser {
             bodyFormData.append('type', 'pagination');
             bodyFormData.append('page', chapterPage);
             bodyFormData.append('id', novelId);
-            const page = await (0, axios_1.default)({
+            const page = await this.client({
                 method: 'post',
                 url: `${this.baseUrl}/wp-admin/admin-ajax.php`,
                 data: bodyFormData,
@@ -132,7 +131,7 @@ class ReadLightNovels extends models_1.LightNovelParser {
                 text: ''
             };
             try {
-                const page = await axios_1.default.get(chapterId);
+                const page = await this.client.get(chapterId);
                 const $ = (0, cheerio_1.load)(page.data);
                 contents.novelTitle = $('.truyen-title').text();
                 contents.chapterTitle = $('.chapter-title').text();
@@ -154,7 +153,7 @@ class ReadLightNovels extends models_1.LightNovelParser {
         this.search = async (query) => {
             const result = { results: [] };
             try {
-                const res = await axios_1.default.post(`${this.baseUrl}/?s=${query}`);
+                const res = await this.client.post(`${this.baseUrl}/?s=${query}`);
                 const $ = (0, cheerio_1.load)(res.data);
                 $('div.col-xs-12.col-sm-12.col-md-9.col-truyen-main > div:nth-child(1) > div > div:nth-child(2) > div.col-md-3.col-sm-6.col-xs-6.home-truyendecu').each((i, el) => {
                     var _a;

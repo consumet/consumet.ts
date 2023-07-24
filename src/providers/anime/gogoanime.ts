@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios, {AxiosAdapter} from 'axios';
 import { load } from 'cheerio';
 
 import {
@@ -30,6 +30,7 @@ class Gogoanime extends AnimeParser {
   /**
    *
    * @param proxyConfig proxy configuration (optional)
+   * @param adapter axios adapter (optional)
    * @example
    * ```ts
    * const gogo = new Gogoanime({ url: 'https://cors-anywhere.herokuapp.com' });
@@ -37,8 +38,8 @@ class Gogoanime extends AnimeParser {
    * const gogo = new Gogoanime({ url: ['https://cors-anywhere.herokuapp.com', ...]});
    * ```
    */
-  constructor(private proxyConfig?: ProxyConfig) {
-    super('https://gogoanimehd.to', proxyConfig);
+  constructor(private proxyConfig?: ProxyConfig, private adapter?: AxiosAdapter) {
+    super('https://gogoanimehd.to', proxyConfig, adapter);
   }
 
   /**
@@ -152,7 +153,7 @@ class Gogoanime extends AnimeParser {
       const movie_id = $('#movie_id').attr('value');
       const alias = $('#alias_anime').attr('value');
 
-      const html = await axios.get(
+      const html = await this.client.get(
         `${
           this.ajaxUrl
         }/load-list-episode?ep_start=${ep_start}&ep_end=${ep_end}&id=${movie_id}&default_ep=${0}&alias=${alias}`
@@ -192,7 +193,7 @@ class Gogoanime extends AnimeParser {
         case StreamingServers.GogoCDN:
           return {
             headers: { Referer: serverUrl.href },
-            sources: await new GogoCDN(this.proxyConfig).extract(serverUrl),
+            sources: await new GogoCDN(this.proxyConfig, this.adapter).extract(serverUrl),
             download: `https://gogohd.net/download${serverUrl.search}`,
           };
         case StreamingServers.StreamSB:
@@ -204,7 +205,7 @@ class Gogoanime extends AnimeParser {
         default:
           return {
             headers: { Referer: serverUrl.href },
-            sources: await new GogoCDN(this.proxyConfig).extract(serverUrl),
+            sources: await new GogoCDN(this.proxyConfig, this.adapter).extract(serverUrl),
             download: `https://gogohd.net/download${serverUrl.search}`,
           };
       }
@@ -301,7 +302,7 @@ class Gogoanime extends AnimeParser {
    */
   fetchRecentEpisodes = async (page: number = 1, type: number = 1): Promise<ISearch<IAnimeResult>> => {
     try {
-      const res = await axios.get(`${this.ajaxUrl}/page-recent-release.html?page=${page}&type=${type}`);
+      const res = await this.client.get(`${this.ajaxUrl}/page-recent-release.html?page=${page}&type=${type}`);
 
       const $ = load(res.data);
 
@@ -362,7 +363,7 @@ class Gogoanime extends AnimeParser {
 
   fetchTopAiring = async (page: number = 1): Promise<ISearch<IAnimeResult>> => {
     try {
-      const res = await axios.get(`${this.ajaxUrl}/page-recent-release-ongoing.html?page=${page}`);
+      const res = await this.client.get(`${this.ajaxUrl}/page-recent-release-ongoing.html?page=${page}`);
 
       const $ = load(res.data);
 

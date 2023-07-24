@@ -1,9 +1,5 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const axios_1 = __importDefault(require("axios"));
 const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
 class MangaHere extends models_1.MangaParser {
@@ -19,7 +15,7 @@ class MangaHere extends models_1.MangaParser {
                 title: '',
             };
             try {
-                const { data } = await axios_1.default.get(`${this.baseUrl}/manga/${mangaId}`, {
+                const { data } = await this.client.get(`${this.baseUrl}/manga/${mangaId}`, {
                     headers: {
                         cookie: 'isAdult=1',
                     },
@@ -68,7 +64,7 @@ class MangaHere extends models_1.MangaParser {
             const chapterPages = [];
             const url = `${this.baseUrl}/manga/${chapterId}/1.html`;
             try {
-                const { data } = await axios_1.default.get(url, {
+                const { data } = await this.client.get(url, {
                     headers: {
                         cookie: 'isAdult=1',
                     },
@@ -100,7 +96,7 @@ class MangaHere extends models_1.MangaParser {
                     for (let i = 1; i <= pages; i++) {
                         const pageLink = `${pageBase}/chapterfun.ashx?cid=${chapterId}&page=${i}&key=${sKey}`;
                         for (let j = 1; j <= 3; j++) {
-                            const { data } = await axios_1.default.get(pageLink, {
+                            const { data } = await this.client.get(pageLink, {
                                 headers: {
                                     Referer: url,
                                     'X-Requested-With': 'XMLHttpRequest',
@@ -139,7 +135,7 @@ class MangaHere extends models_1.MangaParser {
                 results: [],
             };
             try {
-                const { data } = await axios_1.default.get(`${this.baseUrl}/search?title=${query}&page=${page}`);
+                const { data } = await this.client.get(`${this.baseUrl}/search?title=${query}&page=${page}`);
                 const $ = (0, cheerio_1.load)(data);
                 searchRes.hasNextPage = $('div.pager-list-left > a.active').next().text() !== '>';
                 searchRes.results = $('div.container > div > div > ul > li')

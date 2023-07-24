@@ -1,5 +1,5 @@
 import { load } from 'cheerio';
-import axios from 'axios';
+import axios, {AxiosAdapter} from 'axios';
 
 import {
   MovieParser,
@@ -22,8 +22,8 @@ class DramaCool extends MovieParser {
   protected override classPath = 'MOVIES.DramaCool';
   override supportedTypes = new Set([TvType.MOVIE, TvType.TVSERIES]);
 
-  constructor(private proxyConfig?: ProxyConfig) {
-    super('https://www1.dramacool.cr', proxyConfig);
+  constructor(private proxyConfig?: ProxyConfig, private adapter?: AxiosAdapter) {
+    super('https://www1.dramacool.cr', proxyConfig, adapter);
   }
 
   override search = async (query: string, page: number = 1): Promise<ISearch<IMovieResult>> => {
@@ -62,7 +62,7 @@ class DramaCool extends MovieParser {
 
   override fetchMediaInfo = async (mediaId: string): Promise<IMovieInfo> => {
     try {
-      
+
       const realMediaId = mediaId;
       if (!mediaId.startsWith(this.baseUrl)) mediaId = `/${mediaId}`;
       if (mediaId.startsWith(this.baseUrl)) mediaId = mediaId.replace(this.baseUrl, '');
@@ -144,19 +144,19 @@ class DramaCool extends MovieParser {
       switch (server) {
         case StreamingServers.AsianLoad:
           return {
-            ...(await new AsianLoad(this.proxyConfig).extract(serverUrl)),
+            ...(await new AsianLoad(this.proxyConfig, this.adapter).extract(serverUrl)),
           };
         case StreamingServers.MixDrop:
           return {
-            sources: await new MixDrop(this.proxyConfig).extract(serverUrl),
+            sources: await new MixDrop(this.proxyConfig, this.adapter).extract(serverUrl),
           };
         case StreamingServers.StreamTape:
           return {
-            sources: await new StreamTape(this.proxyConfig).extract(serverUrl),
+            sources: await new StreamTape(this.proxyConfig, this.adapter).extract(serverUrl),
           };
         case StreamingServers.StreamSB:
           return {
-            sources: await new StreamSB(this.proxyConfig).extract(serverUrl),
+            sources: await new StreamSB(this.proxyConfig, this.adapter).extract(serverUrl),
           };
         default:
           throw new Error('Server not supported');

@@ -38,7 +38,7 @@ class GogoCDN extends VideoExtractor {
     if (!decryptedData.source) throw new Error('No source found. Try a different server.');
 
     if (decryptedData.source[0].file.includes('.m3u8')) {
-      const resResult = await axios.get(decryptedData.source[0].file.toString());
+      const resResult = await this.client.get(decryptedData.source[0].file.toString());
       const resolutions = resResult.data.match(/(RESOLUTION=)(.*)(\s*?)(\s*.*)/g);
       resolutions?.forEach((res: string) => {
         const index = decryptedData.source[0].file.lastIndexOf('/');
@@ -80,7 +80,7 @@ class GogoCDN extends VideoExtractor {
 
   private addSources = async (source: any) => {
     if (source.file.includes('m3u8')) {
-      const m3u8Urls = await axios
+      const m3u8Urls = await this.client
         .get(source.file, {
           headers: {
             Referer: this.referer,

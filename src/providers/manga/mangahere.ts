@@ -15,7 +15,7 @@ class MangaHere extends MangaParser {
       title: '',
     };
     try {
-      const { data } = await axios.get(`${this.baseUrl}/manga/${mangaId}`, {
+      const { data } = await this.client.get(`${this.baseUrl}/manga/${mangaId}`, {
         headers: {
           cookie: 'isAdult=1',
         },
@@ -64,7 +64,7 @@ class MangaHere extends MangaParser {
     const url = `${this.baseUrl}/manga/${chapterId}/1.html`;
 
     try {
-      const { data } = await axios.get(url, {
+      const { data } = await this.client.get(url, {
         headers: {
           cookie: 'isAdult=1',
         },
@@ -108,7 +108,7 @@ class MangaHere extends MangaParser {
           const pageLink = `${pageBase}/chapterfun.ashx?cid=${chapterId}&page=${i}&key=${sKey}`;
 
           for (let j = 1; j <= 3; j++) {
-            const { data } = await axios.get(pageLink, {
+            const { data } = await this.client.get(pageLink, {
               headers: {
                 Referer: url,
                 'X-Requested-With': 'XMLHttpRequest',
@@ -151,7 +151,7 @@ class MangaHere extends MangaParser {
       results: [],
     };
     try {
-      const { data } = await axios.get(`${this.baseUrl}/search?title=${query}&page=${page}`);
+      const { data } = await this.client.get(`${this.baseUrl}/search?title=${query}&page=${page}`);
       const $ = load(data);
 
       searchRes.hasNextPage = $('div.pager-list-left > a.active').next().text() !== '>';

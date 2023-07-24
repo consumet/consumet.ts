@@ -13,6 +13,7 @@ import {
 } from '../../models';
 import { compareTwoStrings } from '../../utils';
 import FlixHQ from '../movies/flixhq';
+import {AxiosAdapter} from "axios";
 
 class TMDB extends MovieParser {
   override readonly name = 'TMDB';
@@ -27,9 +28,10 @@ class TMDB extends MovieParser {
   constructor(
     private apiKey: string = '5201b54eb0968700e693a30576d7d4dc',
     provider?: MovieParser,
-    proxyConfig?: ProxyConfig
+    proxyConfig?: ProxyConfig,
+    adapter?: AxiosAdapter
   ) {
-    super('https://api.themoviedb.org/3', proxyConfig);
+    super('https://api.themoviedb.org/3', proxyConfig, adapter);
     this.provider = provider || new FlixHQ();
   }
 

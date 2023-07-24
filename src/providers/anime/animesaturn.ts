@@ -25,7 +25,7 @@ class AnimeSaturn extends AnimeParser {
   override search = async (query: string): Promise<ISearch<IAnimeResult>> => {
     // baseUrl/animelist?search={query}
 
-    const data = await axios.get(`${this.baseUrl}animelist?search=${query}`)
+    const data = await this.client.get(`${this.baseUrl}animelist?search=${query}`)
 
     const $ = await load(data.data);
 
@@ -61,7 +61,7 @@ class AnimeSaturn extends AnimeParser {
    * @param id Anime id
    */
   override fetchAnimeInfo = async (id: string): Promise<IAnimeInfo> => {
-    const data = await axios.get(`${this.baseUrl}anime/${id}`);
+    const data = await this.client.get(`${this.baseUrl}anime/${id}`);
     const $ = await load(data.data);
 
     const info: IAnimeInfo = {
@@ -100,13 +100,13 @@ class AnimeSaturn extends AnimeParser {
    * @param episodeId Episode id
    */
   override fetchEpisodeSources = async (episodeId: string): Promise<ISource> => {
-    const fakeData = await axios.get(`${this.baseUrl}ep/${episodeId}`);
+    const fakeData = await this.client.get(`${this.baseUrl}ep/${episodeId}`);
     const $2 = await load(fakeData.data);
 
     const newUrl = $2("div > a:contains('Streaming')").attr('href')
 
     if (newUrl == null) throw new Error('Invalid url');
-    const data = await axios.get(newUrl);
+    const data = await this.client.get(newUrl);
     const $ = await load(data.data);
 
     const sources: ISource = {

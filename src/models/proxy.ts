@@ -1,11 +1,11 @@
-import axios, { AxiosInstance } from 'axios';
+import axios, {AxiosAdapter, AxiosInstance} from 'axios';
 
 import { ProxyConfig } from './types';
 import BaseProvider from './base-provider';
 
 namespace Proxy {
   export abstract class Provider extends BaseProvider {
-    constructor(baseUrl?: string, proxy?: ProxyConfig) {
+    constructor(baseUrl?: string, proxy?: ProxyConfig, adapter?: AxiosAdapter) {
       super();
 
       if (baseUrl)
@@ -15,6 +15,8 @@ namespace Proxy {
       else this.client = axios.create();
 
       if (proxy) this.setProxy(proxy);
+
+      if (adapter) this.setAxiosAdapter(adapter);
     }
     private validUrl = /^https?:\/\/.+/;
     /**
@@ -46,6 +48,12 @@ namespace Proxy {
       });
     }
 
+    /**
+     * Set or Change the axios adapter
+     */
+    setAxiosAdapter(adapter: AxiosAdapter) {
+      this.client.defaults.adapter = adapter;
+    }
     private rotateProxy = (proxy: Omit<ProxyConfig, 'url'> & { urls: string[] }, ms: number = 5000) => {
       setInterval(() => {
         const url = proxy.urls.shift();
@@ -61,10 +69,12 @@ namespace Proxy {
   }
 
   export class Extractor {
-    constructor(proxy?: ProxyConfig) {
+    constructor(proxy?: ProxyConfig, adapter?: AxiosAdapter) {
       this.client = axios.create();
 
       if (proxy) this.setProxy(proxy);
+
+      if (adapter) this.setAxiosAdapter(adapter);
     }
     private validUrl = /^https?:\/\/.+/;
     /**
@@ -94,6 +104,13 @@ namespace Proxy {
         }
         return config;
       });
+    }
+
+    /**
+     * Set or Change the axios adapter
+     */
+    setAxiosAdapter(adapter: AxiosAdapter) {
+      this.client.defaults.adapter = adapter;
     }
 
     private rotateProxy = (proxy: Omit<ProxyConfig, 'url'> & { urls: string[] }, ms: number = 5000) => {

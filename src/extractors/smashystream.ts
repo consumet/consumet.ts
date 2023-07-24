@@ -15,7 +15,7 @@ class SmashyStream extends VideoExtractor {
     try {
       const result: { source: string; data: { sources: IVideo[] } & { subtitles: ISubtitle[] } }[] = [];
 
-      const { data } = await axios.get(videoUrl.href);
+      const { data } = await this.client.get(videoUrl.href);
       const $ = load(data);
 
       const sourceUrls = $('.dropdown-menu a[data-id]')
@@ -90,7 +90,7 @@ class SmashyStream extends VideoExtractor {
         subtitles: [],
       };
 
-      const res = await axios.get(url, {
+      const res = await this.client.get(url, {
         headers: {
           referer: url,
         },
@@ -141,7 +141,7 @@ class SmashyStream extends VideoExtractor {
 
       const key = '4VqE3#N7zt&HEP^a';
 
-      const res = await axios.get(url, {
+      const res = await this.client.get(url, {
         headers: {
           referer: url,
         },
@@ -203,7 +203,7 @@ class SmashyStream extends VideoExtractor {
         subtitles: [],
       };
 
-      const res = await axios.get(url, {
+      const res = await this.client.get(url, {
         headers: {
           referer: url,
         },
@@ -231,7 +231,7 @@ class SmashyStream extends VideoExtractor {
       if (files) {
         await Promise.all(
           files?.map(async (source: { link: string; quality: string }) => {
-            await axios
+            await this.client
               .head(source.link)
               .then(res => console.log(res.status))
               .catch(err => {
@@ -277,7 +277,7 @@ class SmashyStream extends VideoExtractor {
         subtitles: [],
       };
 
-      const res = await axios.get(url, {
+      const res = await this.client.get(url, {
         headers: {
           referer: url,
         },
@@ -303,14 +303,14 @@ class SmashyStream extends VideoExtractor {
         subtitles: [],
       };
 
-      const res = await axios.get(url, {
+      const res = await this.client.get(url, {
         headers: {
           referer: url,
         },
       });
 
       const file = res.data.match(/file:\s*"([^"]+)"/)[1];
-      const fileRes = await axios.head(file);
+      const fileRes = await this.client.head(file);
 
       if (fileRes.status !== 200 || fileRes.data.includes('404')) {
         return result;
@@ -333,7 +333,7 @@ class SmashyStream extends VideoExtractor {
         subtitles: [],
       };
 
-      const res = await axios.get(url, {
+      const res = await this.client.get(url, {
         headers: {
           referer: url,
         },

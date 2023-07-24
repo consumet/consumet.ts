@@ -1,9 +1,5 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const axios_1 = __importDefault(require("axios"));
 const models_1 = require("../models");
 const utils_1 = require("../utils");
 /**
@@ -24,7 +20,7 @@ class Filemoon extends models_1.VideoExtractor {
                     'X-Requested-With': 'XMLHttpRequest',
                 },
             };
-            const { data } = await axios_1.default.get(videoUrl.href);
+            const { data } = await this.client.get(videoUrl.href);
             const s = data.substring(data.indexOf('eval(function') + 5, data.lastIndexOf(')))'));
             try {
                 const newScript = 'function run(' + s.split('function(')[1] + '))';

@@ -1,9 +1,5 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const axios_1 = __importDefault(require("axios"));
 const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
 const utils_1 = require("../../utils");
@@ -13,14 +9,16 @@ class Zoro extends models_1.AnimeParser {
      *
      * @param zoroBase Base url of zoro (optional) (default: https://aniwatch.to)
      * @param proxyConfig Proxy configuration (optional)
+     * @param adapter
      * @example
      * ```ts
      * const zoro = new Zoro(undefined, { url: "http://localhost:8080" });
      * ```
      */
-    constructor(zoroBase, proxyConfig) {
-        super(zoroBase !== null && zoroBase !== void 0 ? zoroBase : 'https://aniwatch.to', proxyConfig);
+    constructor(zoroBase, proxyConfig, adapter) {
+        super(zoroBase !== null && zoroBase !== void 0 ? zoroBase : 'https://aniwatch.to', proxyConfig, adapter);
         this.proxyConfig = proxyConfig;
+        this.adapter = adapter;
         this.name = 'Zoro';
         this.baseUrl = 'https://aniwatch.to';
         this.logo = 'https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/7e/91/00/7e9100ee-2b62-0942-4cdc-e9b93252ce1c/source/512x512bb.jpg';
@@ -154,7 +152,7 @@ class Zoro extends models_1.AnimeParser {
                 switch (server) {
                     case models_1.StreamingServers.VidStreaming:
                     case models_1.StreamingServers.VidCloud:
-                        return Object.assign({}, (await new utils_1.RapidCloud(this.proxyConfig).extract(serverUrl)));
+                        return Object.assign({}, (await new utils_1.RapidCloud(this.proxyConfig, this.adapter).extract(serverUrl)));
                     case models_1.StreamingServers.StreamSB:
                         return {
                             headers: { Referer: serverUrl.href, watchsb: 'streamsb', 'User-Agent': utils_2.USER_AGENT },
@@ -167,7 +165,7 @@ class Zoro extends models_1.AnimeParser {
                         };
                     default:
                     case models_1.StreamingServers.VidCloud:
-                        return Object.assign({ headers: { Referer: serverUrl.href } }, (await new utils_1.RapidCloud(this.proxyConfig).extract(serverUrl)));
+                        return Object.assign({ headers: { Referer: serverUrl.href } }, (await new utils_1.RapidCloud(this.proxyConfig, this.adapter).extract(serverUrl)));
                 }
             }
             if (!episodeId.includes('$episode$'))
@@ -179,7 +177,7 @@ class Zoro extends models_1.AnimeParser {
                 .replace('$episode$', '?ep=')
                 .replace(/\$auto|\$sub|\$dub/gi, '')}`;
             try {
-                const { data } = await axios_1.default.get(`${this.baseUrl}/ajax/v2/episode/servers?episodeId=${episodeId.split('?ep=')[1]}`);
+                const { data } = await this.client.get(`${this.baseUrl}/ajax/v2/episode/servers?episodeId=${episodeId.split('?ep=')[1]}`);
                 const $ = (0, cheerio_1.load)(data.html);
                 /**
                  * vidtreaming -> 4
@@ -217,7 +215,7 @@ class Zoro extends models_1.AnimeParser {
                 catch (err) {
                     throw new Error("Couldn't find server. Try another server");
                 }
-                const { data: { link }, } = await axios_1.default.get(`${this.baseUrl}/ajax/v2/episode/sources?id=${serverId}`);
+                const { data: { link }, } = await this.client.get(`${this.baseUrl}/ajax/v2/episode/sources?id=${serverId}`);
                 return await this.fetchEpisodeSources(link, server);
             }
             catch (err) {
@@ -235,7 +233,7 @@ class Zoro extends models_1.AnimeParser {
          */
         this.fetchRecentEpisodes = async (page = 1) => {
             try {
-                const { data } = await axios_1.default.get(`${this.baseUrl}/recently-updated?page=${page}`);
+                const { data } = await this.client.get(`${this.baseUrl}/recently-updated?page=${page}`);
                 const $ = (0, cheerio_1.load)(data);
                 const hasNextPage = $('.pagination > li').length > 0
                     ? $('.pagination > li').last().hasClass('active')

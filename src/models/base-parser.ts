@@ -1,11 +1,11 @@
-import axios, { AxiosInstance } from 'axios';
+import axios, {AxiosAdapter, AxiosInstance} from 'axios';
 
 import { ProxyConfig } from '.';
 import Proxy from './proxy';
 
 abstract class BaseParser extends Proxy.Provider {
-  constructor(baseUrl?: string, proxyConfig?: ProxyConfig) {
-    super(baseUrl, proxyConfig);
+  constructor(baseUrl?: string, proxyConfig?: ProxyConfig, adapter?: AxiosAdapter) {
+    super(baseUrl, proxyConfig, adapter);
   }
 
   /**

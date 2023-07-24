@@ -1,9 +1,5 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const axios_1 = __importDefault(require("axios"));
 const cheerio_1 = require("cheerio");
 const models_1 = require("../models");
 class StreamTape extends models_1.VideoExtractor {
@@ -14,7 +10,7 @@ class StreamTape extends models_1.VideoExtractor {
         this.extract = async (videoUrl) => {
             var _a;
             try {
-                const { data } = await axios_1.default.get(videoUrl.href).catch(() => {
+                const { data } = await this.client.get(videoUrl.href).catch(() => {
                     throw new Error('Video not found');
                 });
                 const $ = (0, cheerio_1.load)(data);

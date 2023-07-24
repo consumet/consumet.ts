@@ -7,8 +7,8 @@ const models_1 = require("../../models");
 const utils_1 = require("../../utils");
 const flixhq_1 = __importDefault(require("../movies/flixhq"));
 class TMDB extends models_1.MovieParser {
-    constructor(apiKey = '5201b54eb0968700e693a30576d7d4dc', provider, proxyConfig) {
-        super('https://api.themoviedb.org/3', proxyConfig);
+    constructor(apiKey = '5201b54eb0968700e693a30576d7d4dc', provider, proxyConfig, adapter) {
+        super('https://api.themoviedb.org/3', proxyConfig, adapter);
         this.apiKey = apiKey;
         this.name = 'TMDB';
         this.baseUrl = 'https://www.themoviedb.org';

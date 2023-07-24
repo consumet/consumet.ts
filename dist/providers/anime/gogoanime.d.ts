@@ -1,6 +1,8 @@
+import { AxiosAdapter } from 'axios';
 import { AnimeParser, ISearch, IAnimeInfo, IEpisodeServer, StreamingServers, IAnimeResult, ISource, ProxyConfig } from '../../models';
 declare class Gogoanime extends AnimeParser {
     private proxyConfig?;
+    private adapter?;
     readonly name = "Gogoanime";
     protected baseUrl: string;
     protected logo: string;
@@ -9,6 +11,7 @@ declare class Gogoanime extends AnimeParser {
     /**
      *
      * @param proxyConfig proxy configuration (optional)
+     * @param adapter axios adapter (optional)
      * @example
      * ```ts
      * const gogo = new Gogoanime({ url: 'https://cors-anywhere.herokuapp.com' });
@@ -16,7 +19,7 @@ declare class Gogoanime extends AnimeParser {
      * const gogo = new Gogoanime({ url: ['https://cors-anywhere.herokuapp.com', ...]});
      * ```
      */
-    constructor(proxyConfig?: ProxyConfig | undefined);
+    constructor(proxyConfig?: ProxyConfig | undefined, adapter?: AxiosAdapter | undefined);
     /**
      *
      * @param query search query string

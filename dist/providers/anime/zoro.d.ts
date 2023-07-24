@@ -1,6 +1,8 @@
+import { AxiosAdapter } from 'axios';
 import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, ISource, IEpisodeServer, StreamingServers, ProxyConfig } from '../../models';
 declare class Zoro extends AnimeParser {
     private proxyConfig?;
+    private adapter?;
     readonly name = "Zoro";
     protected baseUrl: string;
     protected logo: string;
@@ -9,12 +11,13 @@ declare class Zoro extends AnimeParser {
      *
      * @param zoroBase Base url of zoro (optional) (default: https://aniwatch.to)
      * @param proxyConfig Proxy configuration (optional)
+     * @param adapter
      * @example
      * ```ts
      * const zoro = new Zoro(undefined, { url: "http://localhost:8080" });
      * ```
      */
-    constructor(zoroBase?: string, proxyConfig?: ProxyConfig | undefined);
+    constructor(zoroBase?: string, proxyConfig?: ProxyConfig | undefined, adapter?: AxiosAdapter | undefined);
     /**
      * @param query Search query
      * @param page Page number (optional)

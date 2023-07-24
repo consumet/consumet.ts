@@ -1,3 +1,4 @@
+import { AxiosAdapter } from 'axios';
 import { MovieParser, TvType, IMovieInfo, IEpisodeServer, StreamingServers, ISource, IMovieResult, ISearch, ProxyConfig } from '../../models';
 declare class Fmovies extends MovieParser {
     readonly name = "Fmovies";
@@ -7,7 +8,7 @@ declare class Fmovies extends MovieParser {
     supportedTypes: Set<TvType>;
     private fmoviesResolver;
     private apiKey;
-    constructor(fmoviesResolver?: string, proxyConfig?: ProxyConfig, apiKey?: string);
+    constructor(fmoviesResolver?: string, proxyConfig?: ProxyConfig, apiKey?: string, adapter?: AxiosAdapter);
     /**
      *
      * @param query search query string

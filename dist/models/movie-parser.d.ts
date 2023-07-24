@@ -1,6 +1,7 @@
 import { BaseParser, TvType, ISource, IEpisodeServer, IMovieInfo, IAnimeInfo, ProxyConfig } from '.';
+import { AxiosAdapter } from "axios";
 declare abstract class MovieParser extends BaseParser {
-    constructor(baseUrl?: string, proxyConfig?: ProxyConfig);
+    constructor(baseUrl?: string, proxyConfig?: ProxyConfig, adapter?: AxiosAdapter);
     /**
      * The supported types of the provider (e.g. `TV`, `Movie`)
      */

@@ -27,7 +27,7 @@ class AnimePahe extends AnimeParser {
    */
   override search = async (query: string): Promise<ISearch<IAnimeResult>> => {
     try {
-      const { data } = await axios.get(`${this.baseUrl}/api?m=search&q=${encodeURIComponent(query)}`);
+      const { data } = await this.client.get(`${this.baseUrl}/api?m=search&q=${encodeURIComponent(query)}`);
 
       const res = {
         results: data.data.map((item: any) => ({
@@ -57,7 +57,7 @@ class AnimePahe extends AnimeParser {
     };
 
     try {
-      const res = await axios.get(`${this.baseUrl}/anime/${id.split('/')[1]}?anime_id=${id.split('/')[0]}`);
+      const res = await this.client.get(`${this.baseUrl}/anime/${id.split('/')[1]}?anime_id=${id.split('/')[0]}`);
       const $ = load(res.data);
 
       animeInfo.title = $('div.title-wrapper > h1 > span').first().text();
@@ -105,7 +105,7 @@ class AnimePahe extends AnimeParser {
       if (episodePage < 0) {
         const {
           data: { last_page, data },
-        } = await axios.get(`${this.baseUrl}/api?m=release&id=${id.split('/')[1]}&sort=episode_asc&page=1`);
+        } = await this.client.get(`${this.baseUrl}/api?m=release&id=${id.split('/')[1]}&sort=episode_asc&page=1`);
 
         animeInfo.episodePages = last_page;
 
@@ -142,7 +142,7 @@ class AnimePahe extends AnimeParser {
    */
   override fetchEpisodeSources = async (episodeId: string): Promise<ISource> => {
     try {
-      const { data } = await axios.get(`${this.baseUrl}/play/${episodeId}`, {
+      const { data } = await this.client.get(`${this.baseUrl}/play/${episodeId}`, {
         headers: {
           Referer: `${this.baseUrl}`,
         },
@@ -177,7 +177,7 @@ class AnimePahe extends AnimeParser {
   };
 
   private fetchEpisodes = async (session: string, page: number): Promise<IAnimeEpisode[]> => {
-    const res = await axios.get(`${this.baseUrl}/api?m=release&id=${session}&sort=episode_asc&page=${page}`);
+    const res = await this.client.get(`${this.baseUrl}/api?m=release&id=${session}&sort=episode_asc&page=${page}`);
 
     const epData = res.data.data;
 

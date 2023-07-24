@@ -1,6 +1,7 @@
 import { BaseParser, IAnimeInfo, ISource, IEpisodeServer, ProxyConfig } from '.';
+import { AxiosAdapter } from "axios";
 declare abstract class AnimeParser extends BaseParser {
-    constructor(baseUrl?: string, proxyConfig?: ProxyConfig);
+    constructor(baseUrl?: string, proxyConfig?: ProxyConfig, adapter?: AxiosAdapter);
     /**
      * if the provider has dub and it's avialable seperatly from sub set this to `true`
      */

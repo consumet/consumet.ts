@@ -1,9 +1,5 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const axios_1 = __importDefault(require("axios"));
 const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
 const utils_1 = require("../../utils");
@@ -12,6 +8,7 @@ class Gogoanime extends models_1.AnimeParser {
     /**
      *
      * @param proxyConfig proxy configuration (optional)
+     * @param adapter axios adapter (optional)
      * @example
      * ```ts
      * const gogo = new Gogoanime({ url: 'https://cors-anywhere.herokuapp.com' });
@@ -19,9 +16,10 @@ class Gogoanime extends models_1.AnimeParser {
      * const gogo = new Gogoanime({ url: ['https://cors-anywhere.herokuapp.com', ...]});
      * ```
      */
-    constructor(proxyConfig) {
-        super('https://gogoanimehd.to', proxyConfig);
+    constructor(proxyConfig, adapter) {
+        super('https://gogoanimehd.to', proxyConfig, adapter);
         this.proxyConfig = proxyConfig;
+        this.adapter = adapter;
         this.name = 'Gogoanime';
         this.baseUrl = 'https://gogoanimehd.to';
         this.logo = 'https://play-lh.googleusercontent.com/MaGEiAEhNHAJXcXKzqTNgxqRmhuKB1rCUgb15UrN_mWUNRnLpO5T1qja64oRasO7mn0';
@@ -125,7 +123,7 @@ class Gogoanime extends models_1.AnimeParser {
                 const ep_end = $('#episode_page > li').last().find('a').attr('ep_end');
                 const movie_id = $('#movie_id').attr('value');
                 const alias = $('#alias_anime').attr('value');
-                const html = await axios_1.default.get(`${this.ajaxUrl}/load-list-episode?ep_start=${ep_start}&ep_end=${ep_end}&id=${movie_id}&default_ep=${0}&alias=${alias}`);
+                const html = await this.client.get(`${this.ajaxUrl}/load-list-episode?ep_start=${ep_start}&ep_end=${ep_end}&id=${movie_id}&default_ep=${0}&alias=${alias}`);
                 const $$ = (0, cheerio_1.load)(html.data);
                 animeInfo.episodes = [];
                 $$('#episode_related > li').each((i, el) => {
@@ -157,7 +155,7 @@ class Gogoanime extends models_1.AnimeParser {
                     case models_1.StreamingServers.GogoCDN:
                         return {
                             headers: { Referer: serverUrl.href },
-                            sources: await new extractors_1.GogoCDN(this.proxyConfig).extract(serverUrl),
+                            sources: await new extractors_1.GogoCDN(this.proxyConfig, this.adapter).extract(serverUrl),
                             download: `https://gogohd.net/download${serverUrl.search}`,
                         };
                     case models_1.StreamingServers.StreamSB:
@@ -169,7 +167,7 @@ class Gogoanime extends models_1.AnimeParser {
                     default:
                         return {
                             headers: { Referer: serverUrl.href },
-                            sources: await new extractors_1.GogoCDN(this.proxyConfig).extract(serverUrl),
+                            sources: await new extractors_1.GogoCDN(this.proxyConfig, this.adapter).extract(serverUrl),
                             download: `https://gogohd.net/download${serverUrl.search}`,
                         };
                 }
@@ -248,7 +246,7 @@ class Gogoanime extends models_1.AnimeParser {
          */
         this.fetchRecentEpisodes = async (page = 1, type = 1) => {
             try {
-                const res = await axios_1.default.get(`${this.ajaxUrl}/page-recent-release.html?page=${page}&type=${type}`);
+                const res = await this.client.get(`${this.ajaxUrl}/page-recent-release.html?page=${page}&type=${type}`);
                 const $ = (0, cheerio_1.load)(res.data);
                 const recentEpisodes = [];
                 $('div.last_episodes.loaddub > ul > li').each((i, el) => {
@@ -302,7 +300,7 @@ class Gogoanime extends models_1.AnimeParser {
         };
         this.fetchTopAiring = async (page = 1) => {
             try {
-                const res = await axios_1.default.get(`${this.ajaxUrl}/page-recent-release-ongoing.html?page=${page}`);
+                const res = await this.client.get(`${this.ajaxUrl}/page-recent-release-ongoing.html?page=${page}`);
                 const $ = (0, cheerio_1.load)(res.data);
                 const topAiring = [];
                 $('div.added_series_body.popular > ul > li').each((i, el) => {

@@ -596,7 +596,7 @@ class Anilist extends AnimeParser {
         );
 
       if (fetchFiller) {
-        const { data: fillerData } = await axios({
+        const { data: fillerData } = await this.client({
           baseURL: `https://raw.githubusercontent.com/saikou-app/mal-id-filler-list/main/fillers/${animeInfo.malId}.json`,
           method: 'GET',
           validateStatus: () => true,
@@ -719,7 +719,7 @@ class Anilist extends AnimeParser {
     let possibleAnime: any | undefined;
 
     if (malId && !(this.provider instanceof Crunchyroll || this.provider instanceof Bilibili)) {
-      const malAsyncReq = await axios({
+      const malAsyncReq = await this.client({
         method: 'GET',
         url: `${this.malSyncUrl}/mal/anime/${malId}`,
         validateStatus: () => true,
@@ -854,7 +854,7 @@ class Anilist extends AnimeParser {
     season?: string,
     startDate?: number
   ) => {
-    const kitsuEpisodes = await axios.post(this.kitsuGraphqlUrl, options);
+    const kitsuEpisodes = await this.client.post(this.kitsuGraphqlUrl, options);
     const episodesList = new Map();
     if (kitsuEpisodes?.data.data) {
       const { nodes } = kitsuEpisodes.data.data.searchAnimeByTitle;
@@ -1189,7 +1189,7 @@ class Anilist extends AnimeParser {
     if (this.provider instanceof Crunchyroll && externalLinks) {
       const link = externalLinks.find((link: any) => link.site.includes('Crunchyroll'));
       if (link) {
-        const { request } = await axios.get(link.url, { validateStatus: () => true });
+        const { request } = await this.client.get(link.url, { validateStatus: () => true });
         if (request.res.responseUrl.includes('series') || request.res.responseUrl.includes('watch')) {
           const mediaType = request.res.responseUrl.split('/')[3];
           const id = request.res.responseUrl.split('/')[4];
@@ -1260,14 +1260,14 @@ class Anilist extends AnimeParser {
     try {
       // const {
       //   data: { data },
-      // } = await axios.post(this.anilistGraphqlUrl, options);
+      // } = await this.client.post(this.anilistGraphqlUrl, options);
 
       // const selectedAnime = Math.floor(
       //   Math.random() * data.SiteStatistics.anime.nodes[data.SiteStatistics.anime.nodes.length - 1].count
       // );
       // const { results } = await this.advancedSearch(undefined, 'ANIME', Math.ceil(selectedAnime / 50), 50);
 
-      const { data: data } = await axios.get(
+      const { data: data } = await this.client.get(
         'https://raw.githubusercontent.com/5H4D0WILA/IDFetch/main/ids.txt'
       );
 
@@ -1292,7 +1292,7 @@ class Anilist extends AnimeParser {
     try {
       const {
         data: { data, meta },
-      } = await axios.get(`${this.enimeUrl}/recent?page=${page}&perPage=${perPage}`);
+      } = await this.client.get(`${this.enimeUrl}/recent?page=${page}&perPage=${perPage}`);
 
       let results: IAnimeInfo[] = data.map((item: any) => ({
         id: item.anime.anilistId.toString(),
@@ -1429,7 +1429,7 @@ class Anilist extends AnimeParser {
     } else possibleAnimeEpisodes = await this.fetchDefaultEpisodeList(Media, dub, id);
 
     if (fetchFiller) {
-      const { data: fillerData } = await axios({
+      const { data: fillerData } = await this.client({
         baseURL: `https://raw.githubusercontent.com/saikou-app/mal-id-filler-list/main/fillers/${Media.idMal}.json`,
         method: 'GET',
         validateStatus: () => true,
@@ -2077,7 +2077,7 @@ class Anilist extends AnimeParser {
     let possibleManga: any;
 
     if (malId) {
-      const malAsyncReq = await axios({
+      const malAsyncReq = await this.client({
         method: 'GET',
         url: `${this.malSyncUrl}/mal/manga/${malId}`,
         validateStatus: () => true,

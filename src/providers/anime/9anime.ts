@@ -1,5 +1,5 @@
 import { load } from 'cheerio';
-import axios from 'axios';
+import axios, {AxiosAdapter} from 'axios';
 
 import {
   AnimeParser,
@@ -31,8 +31,8 @@ class NineAnime extends AnimeParser {
   protected override classPath = 'ANIME.NineAnime';
   override readonly isWorking = false;
 
-  constructor(nineAnimeResolver?: string, proxyConfig?: ProxyConfig, apiKey?: string) {
-    super('https://9anime.pl', proxyConfig && proxyConfig.url ? proxyConfig : undefined);
+  constructor(nineAnimeResolver?: string, proxyConfig?: ProxyConfig, apiKey?: string, adapter?: AxiosAdapter) {
+    super('https://9anime.pl', proxyConfig && proxyConfig.url ? proxyConfig : undefined, adapter);
     this.nineAnimeResolver = nineAnimeResolver ?? this.nineAnimeResolver;
     this.apiKey = apiKey ?? this.apiKey;
   }
@@ -290,7 +290,7 @@ class NineAnime extends AnimeParser {
       }
 
       const serverVrf = (
-        await axios.get(
+        await this.client.get(
           `${this.nineAnimeResolver}/vrf?query=${encodeURIComponent(s.url)}&apikey=${this.apiKey}`
         )
       ).data.url;
@@ -298,7 +298,7 @@ class NineAnime extends AnimeParser {
         await this.client.get(`/ajax/server/${s.url}?vrf=${encodeURIComponent(serverVrf)}`)
       ).data;
       const embedURL = (
-        await axios.get(
+        await this.client.get(
           `${this.nineAnimeResolver}/decrypt?query=${encodeURIComponent(serverSource.result.url)}&apikey=${
             this.apiKey
           }`
@@ -345,7 +345,7 @@ class NineAnime extends AnimeParser {
   }
 
   public async ev(query: string, raw = false): Promise<string> {
-    const { data } = await axios.get(
+    const { data } = await this.client.get(
       `${this.nineAnimeResolver}/vrf?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`
     );
 
@@ -357,7 +357,7 @@ class NineAnime extends AnimeParser {
   }
 
   public async searchVrf(query: string, raw = false): Promise<string> {
-    const { data } = await axios.get(
+    const { data } = await this.client.get(
       `${this.nineAnimeResolver}/9anime-search?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`
     );
 
@@ -369,7 +369,7 @@ class NineAnime extends AnimeParser {
   }
 
   public async decrypt(query: string, raw = false): Promise<string> {
-    const { data } = await axios.get(
+    const { data } = await this.client.get(
       `${this.nineAnimeResolver}/decrypt?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`
     );
 
@@ -381,14 +381,14 @@ class NineAnime extends AnimeParser {
   }
 
   public async vizcloud(query: string): Promise<string> {
-    const { data } = await axios.get(
+    const { data } = await this.client.get(
       `${this.nineAnimeResolver}/vizcloud?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`
     );
     return data;
   }
 
   public async customRequest(query: string, action: string): Promise<string> {
-    const { data } = await axios.get(
+    const { data } = await this.client.get(
       `${this.nineAnimeResolver}/${action}?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`
     );
     return data;

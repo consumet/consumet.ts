@@ -28,7 +28,7 @@ class KissAsian extends MovieParser {
         results: [],
       };
 
-      const response = await axios.post(
+      const response = await this.client.post(
         `${this.baseUrl}/Search/Drama`,
         `keyword=${query.replace(/[\W_]+/g, '-')}`,
         {
@@ -73,7 +73,7 @@ class KissAsian extends MovieParser {
         title: '',
       };
 
-      const { data } = await axios.post(mediaId, {
+      const { data } = await this.client.post(mediaId, {
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',
         },
@@ -142,7 +142,7 @@ class KissAsian extends MovieParser {
     try {
       const episodeServers: IEpisodeServer[] = [];
 
-      const { data } = await axios.post(`${this.baseUrl}/${episodeId}`, {
+      const { data } = await this.client.post(`${this.baseUrl}/${episodeId}`, {
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',
         },
@@ -156,7 +156,7 @@ class KissAsian extends MovieParser {
 
       await Promise.all(
         $('ul.mirrorTab > li > a.ign').map(async (i, ele) => {
-          const { data } = await axios.post(`${this.baseUrl}${$(ele).attr('href')}`, {
+          const { data } = await this.client.post(`${this.baseUrl}${$(ele).attr('href')}`, {
             headers: {
               'Content-Type': 'application/x-www-form-urlencoded',
             },

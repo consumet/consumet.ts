@@ -1,8 +1,9 @@
 import { BaseParser, IAnimeInfo, ISource, IEpisodeServer, ProxyConfig } from '.';
+import {AxiosAdapter} from "axios";
 
 abstract class AnimeParser extends BaseParser {
-  constructor(baseUrl?: string, proxyConfig?: ProxyConfig) {
-    super(baseUrl, proxyConfig);
+  constructor(baseUrl?: string, proxyConfig?: ProxyConfig, adapter?: AxiosAdapter) {
+    super(baseUrl, proxyConfig, adapter);
   }
 
   /**

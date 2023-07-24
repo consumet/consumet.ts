@@ -1,9 +1,5 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const axios_1 = __importDefault(require("axios"));
 const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
 class MangaPill extends models_1.MangaParser {
@@ -19,7 +15,7 @@ class MangaPill extends models_1.MangaParser {
          */
         this.search = async (query) => {
             try {
-                const { data } = await axios_1.default.get(`${this.baseUrl}/search?q=${encodeURIComponent(query)}`);
+                const { data } = await this.client.get(`${this.baseUrl}/search?q=${encodeURIComponent(query)}`);
                 const $ = (0, cheerio_1.load)(data);
                 const results = $('div.container div.my-3.justify-end > div')
                     .map((i, el) => {
@@ -46,7 +42,7 @@ class MangaPill extends models_1.MangaParser {
                 title: '',
             };
             try {
-                const { data } = await axios_1.default.get(`${this.baseUrl}/manga/${mangaId}`);
+                const { data } = await this.client.get(`${this.baseUrl}/manga/${mangaId}`);
                 const $ = (0, cheerio_1.load)(data);
                 mangaInfo.title = $('div.container div.my-3 div.flex-col div.mb-3 h1').text().trim();
                 mangaInfo.description = $('div.container div.my-3  div.flex-col p.text--secondary')
@@ -80,7 +76,7 @@ class MangaPill extends models_1.MangaParser {
         };
         this.fetchChapterPages = async (chapterId) => {
             try {
-                const { data } = await axios_1.default.get(`${this.baseUrl}/chapters/${chapterId}`);
+                const { data } = await this.client.get(`${this.baseUrl}/chapters/${chapterId}`);
                 const $ = (0, cheerio_1.load)(data);
                 const chapterSelector = $('chapter-page');
                 const pages = chapterSelector

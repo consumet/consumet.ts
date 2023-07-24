@@ -1,10 +1,6 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 const cheerio_1 = require("cheerio");
-const axios_1 = __importDefault(require("axios"));
 const models_1 = require("../../models");
 const extractors_1 = require("../../extractors");
 class Goku extends models_1.MovieParser {
@@ -27,7 +23,7 @@ class Goku extends models_1.MovieParser {
                 results: [],
             };
             try {
-                const { data } = await axios_1.default.get(`${this.baseUrl}/search?keyword=${query.replace(/[\W_]+/g, '-')}&page=${page}`);
+                const { data } = await this.client.get(`${this.baseUrl}/search?keyword=${query.replace(/[\W_]+/g, '-')}&page=${page}`);
                 const $ = (0, cheerio_1.load)(data);
                 searchResult.hasNextPage =
                     $('.page-link').length > 0 ? $('.page-link').last().attr('title') === 'Last' : false;
@@ -48,7 +44,7 @@ class Goku extends models_1.MovieParser {
                     });
                 });
                 return searchResult;
-                // const { data } = await axios.get(
+                // const { data } = await this.client.get(
                 //   `${this.baseUrl}/ajax/movie/search?keyword=${query.replace(/[\W_]+/g, '-')}&page=${page}`
                 // );
                 // const $ = load(data);
@@ -80,7 +76,7 @@ class Goku extends models_1.MovieParser {
                 mediaId = mediaId.replace(this.baseUrl + '/', '');
             }
             try {
-                const { data } = await axios_1.default.get(`${this.baseUrl}/${mediaId}`);
+                const { data } = await this.client.get(`${this.baseUrl}/${mediaId}`);
                 const $ = (0, cheerio_1.load)(data);
                 const mediaInfo = {
                     id: mediaId,
@@ -109,7 +105,7 @@ class Goku extends models_1.MovieParser {
                     .join();
                 mediaInfo.duration = $("div.name:contains('Duration:')").siblings().text().split('\n').join('').trim();
                 if (mediaInfo.type === models_1.TvType.TVSERIES) {
-                    const { data } = await axios_1.default.get(`${this.baseUrl}/ajax/movie/seasons/${mediaInfo.id.split('-').pop()}`);
+                    const { data } = await this.client.get(`${this.baseUrl}/ajax/movie/seasons/${mediaInfo.id.split('-').pop()}`);
                     const $$ = (0, cheerio_1.load)(data);
                     const seasonsIds = $$('.dropdown-menu > a')
                         .map((i, el) => {
@@ -122,7 +118,7 @@ class Goku extends models_1.MovieParser {
                         .get();
                     mediaInfo.episodes = [];
                     for (const season of seasonsIds) {
-                        const { data } = await axios_1.default.get(`${this.baseUrl}/ajax/movie/season/episodes/${season.id}`);
+                        const { data } = await this.client.get(`${this.baseUrl}/ajax/movie/season/episodes/${season.id}`);
                         const $$$ = (0, cheerio_1.load)(data);
                         $$$('.item')
                             .map((i, el) => {
@@ -206,7 +202,7 @@ class Goku extends models_1.MovieParser {
         this.fetchEpisodeServers = async (episodeId, mediaId) => {
             try {
                 const epsiodeServers = [];
-                const { data } = await axios_1.default.get(`${this.baseUrl}/ajax/movie/episode/servers/${episodeId}`);
+                const { data } = await this.client.get(`${this.baseUrl}/ajax/movie/episode/servers/${episodeId}`);
                 const $ = (0, cheerio_1.load)(data);
                 const servers = $('.dropdown-menu > a')
                     .map((i, ele) => {
@@ -218,7 +214,7 @@ class Goku extends models_1.MovieParser {
                 })
                     .get();
                 for (const server of servers) {
-                    const { data } = await axios_1.default.get(`${this.baseUrl}/ajax/movie/episode/server/sources/${server.id}`);
+                    const { data } = await this.client.get(`${this.baseUrl}/ajax/movie/episode/server/sources/${server.id}`);
                     epsiodeServers.push({
                         name: server.name,
                         url: data.data.link,
@@ -232,7 +228,7 @@ class Goku extends models_1.MovieParser {
         };
         this.fetchRecentMovies = async () => {
             try {
-                const { data } = await axios_1.default.get(`${this.baseUrl}/home`);
+                const { data } = await this.client.get(`${this.baseUrl}/home`);
                 const $ = (0, cheerio_1.load)(data);
                 const movies = $('.section-last')
                     .first()
@@ -262,7 +258,7 @@ class Goku extends models_1.MovieParser {
         };
         this.fetchRecentTvShows = async () => {
             try {
-                const { data } = await axios_1.default.get(`${this.baseUrl}/home`);
+                const { data } = await this.client.get(`${this.baseUrl}/home`);
                 const $ = (0, cheerio_1.load)(data);
                 const tvShowes = $('.section-last')
                     .last()
@@ -301,7 +297,7 @@ class Goku extends models_1.MovieParser {
         };
         this.fetchTrendingMovies = async () => {
             try {
-                const { data } = await axios_1.default.get(`${this.baseUrl}/home`);
+                const { data } = await this.client.get(`${this.baseUrl}/home`);
                 const $ = (0, cheerio_1.load)(data);
                 const movies = $('#trending-movies')
                     .find('.item')
@@ -330,7 +326,7 @@ class Goku extends models_1.MovieParser {
         };
         this.fetchTrendingTvShows = async () => {
             try {
-                const { data } = await axios_1.default.get(`${this.baseUrl}/home`);
+                const { data } = await this.client.get(`${this.baseUrl}/home`);
                 const $ = (0, cheerio_1.load)(data);
                 const tvShowes = $('#trending-series')
                     .find('.item')

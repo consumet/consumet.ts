@@ -33,7 +33,7 @@ class Bilibili extends AnimeParser {
   }
 
   override async search(query: string): Promise<ISearch<IAnimeResult>> {
-    const { data } = await axios.get(
+    const { data } = await this.client.get(
       `${this.sgProxy}/${this.apiUrl}/v2/search?keyword=${query}&platform=web&pn=1&ps=20&qid=&s_locale=${this.locale}`,
       { headers: { cookie: this.cookie } }
     );
@@ -59,7 +59,7 @@ class Bilibili extends AnimeParser {
 
   override async fetchAnimeInfo(id: string): Promise<IAnimeInfo> {
     try {
-      const { data } = await axios.get(
+      const { data } = await this.client.get(
         `${this.sgProxy}/https://app.biliintl.com/intl/gateway/v2/ogv/view/app/season2?locale=${this.locale}&platform=android&season_id=${id}`,
         { headers: { cookie: this.cookie } }
       );
@@ -100,11 +100,11 @@ class Bilibili extends AnimeParser {
 
   override async fetchEpisodeSources(episodeId: string, ...args: any): Promise<ISource> {
     try {
-      const { data } = await axios.get(
+      const { data } = await this.client.get(
         `${this.sgProxy}/${this.apiUrl}/v2/subtitle?s_locale=${this.locale}&platform=web&episode_id=${episodeId}`,
         { headers: { cookie: this.cookie } }
       );
-      const ss = await axios.get(
+      const ss = await this.client.get(
         `${this.sgProxy}/${this.apiUrl}/playurl?s_locale=${this.locale}&platform=web&ep_id=${episodeId}`,
         { headers: { cookie: this.cookie } }
       );

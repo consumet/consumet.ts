@@ -8,7 +8,7 @@ const base_provider_1 = __importDefault(require("./base-provider"));
 var Proxy;
 (function (Proxy) {
     class Provider extends base_provider_1.default {
-        constructor(baseUrl, proxy) {
+        constructor(baseUrl, proxy, adapter) {
             super();
             this.validUrl = /^https?:\/\/.+/;
             this.rotateProxy = (proxy, ms = 5000) => {
@@ -28,6 +28,8 @@ var Proxy;
                 this.client = axios_1.default.create();
             if (proxy)
                 this.setProxy(proxy);
+            if (adapter)
+                this.setAxiosAdapter(adapter);
         }
         /**
          * Set or Change the proxy config
@@ -53,10 +55,16 @@ var Proxy;
                 return config;
             });
         }
+        /**
+         * Set or Change the axios adapter
+         */
+        setAxiosAdapter(adapter) {
+            this.client.defaults.adapter = adapter;
+        }
     }
     Proxy.Provider = Provider;
     class Extractor {
-        constructor(proxy) {
+        constructor(proxy, adapter) {
             this.validUrl = /^https?:\/\/.+/;
             this.rotateProxy = (proxy, ms = 5000) => {
                 setInterval(() => {
@@ -70,6 +78,8 @@ var Proxy;
             this.client = axios_1.default.create();
             if (proxy)
                 this.setProxy(proxy);
+            if (adapter)
+                this.setAxiosAdapter(adapter);
         }
         /**
          * Set or Change the proxy config
@@ -94,6 +104,12 @@ var Proxy;
                 }
                 return config;
             });
+        }
+        /**
+         * Set or Change the axios adapter
+         */
+        setAxiosAdapter(adapter) {
+            this.client.defaults.adapter = adapter;
         }
     }
     Proxy.Extractor = Extractor;

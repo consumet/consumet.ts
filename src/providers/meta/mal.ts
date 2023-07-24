@@ -55,7 +55,7 @@ class Myanimelist extends AnimeParser {
     count: number = 1
   ): Promise<void> {
     try {
-      const { data } = await axios.request({
+      const { data } = await this.client.request({
         method: 'get',
         url: `${url}?p=${count}`,
         headers: {
@@ -101,7 +101,7 @@ class Myanimelist extends AnimeParser {
       results: [],
     };
 
-    const { data } = await axios.request({
+    const { data } = await this.client.request({
       method: 'get',
       url: `https://myanimelist.net/anime.php?q=${query}&cat=anime&show=${50 * (page - 1)}`,
       headers: {
@@ -237,7 +237,7 @@ class Myanimelist extends AnimeParser {
         );
 
       if (fetchFiller) {
-        const { data: fillerData } = await axios({
+        const { data: fillerData } = await this.client({
           baseURL: `https://raw.githubusercontent.com/saikou-app/mal-id-filler-list/main/fillers/${animeId}.json`,
           method: 'GET',
           validateStatus: () => true,
@@ -284,7 +284,7 @@ class Myanimelist extends AnimeParser {
     if (externalLinks && this.provider instanceof Crunchyroll) {
       if (externalLinks.map((link: any) => link.site.includes('Crunchyroll'))) {
         const link = externalLinks.find((link: any) => link.site.includes('Crunchyroll'));
-        const { request } = await axios.get(link.url, { validateStatus: () => true });
+        const { request } = await this.client.get(link.url, { validateStatus: () => true });
         const mediaType = request.res.responseUrl.split('/')[3];
         const id = request.res.responseUrl.split('/')[4];
 
@@ -338,7 +338,7 @@ class Myanimelist extends AnimeParser {
     let possibleAnime: any | undefined;
 
     if (malId && !(this.provider instanceof Crunchyroll || this.provider instanceof Bilibili)) {
-      const malAsyncReq = await axios({
+      const malAsyncReq = await this.client({
         method: 'GET',
         url: `${this.malSyncUrl}/mal/anime/${malId}`,
         validateStatus: () => true,
@@ -449,7 +449,7 @@ class Myanimelist extends AnimeParser {
     season?: string,
     startDate?: number
   ) => {
-    const kitsuEpisodes = await axios.post(this.kitsuGraphqlUrl, options);
+    const kitsuEpisodes = await this.client.post(this.kitsuGraphqlUrl, options);
     const episodesList = new Map();
     if (kitsuEpisodes?.data.data) {
       const { nodes } = kitsuEpisodes.data.data.searchAnimeByTitle;
@@ -521,7 +521,7 @@ class Myanimelist extends AnimeParser {
       title: '',
     };
 
-    const { data } = await axios.request({
+    const { data } = await this.client.request({
       method: 'GET',
       url: `https://myanimelist.net/anime/${id}`,
       headers: {

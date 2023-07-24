@@ -4,9 +4,10 @@ const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
 const extractors_1 = require("../../extractors");
 class DramaCool extends models_1.MovieParser {
-    constructor(proxyConfig) {
-        super('https://www1.dramacool.cr', proxyConfig);
+    constructor(proxyConfig, adapter) {
+        super('https://www1.dramacool.cr', proxyConfig, adapter);
         this.proxyConfig = proxyConfig;
+        this.adapter = adapter;
         this.name = 'DramaCool';
         this.baseUrl = 'https://dramacool.hr';
         this.logo = 'https://play-lh.googleusercontent.com/IaCb2JXII0OV611MQ-wSA8v_SAs9XF6E3TMDiuxGGXo4wp9bI60GtDASIqdERSTO5XU';
@@ -84,18 +85,18 @@ class DramaCool extends models_1.MovieParser {
                 const serverUrl = new URL(episodeId);
                 switch (server) {
                     case models_1.StreamingServers.AsianLoad:
-                        return Object.assign({}, (await new extractors_1.AsianLoad(this.proxyConfig).extract(serverUrl)));
+                        return Object.assign({}, (await new extractors_1.AsianLoad(this.proxyConfig, this.adapter).extract(serverUrl)));
                     case models_1.StreamingServers.MixDrop:
                         return {
-                            sources: await new extractors_1.MixDrop(this.proxyConfig).extract(serverUrl),
+                            sources: await new extractors_1.MixDrop(this.proxyConfig, this.adapter).extract(serverUrl),
                         };
                     case models_1.StreamingServers.StreamTape:
                         return {
-                            sources: await new extractors_1.StreamTape(this.proxyConfig).extract(serverUrl),
+                            sources: await new extractors_1.StreamTape(this.proxyConfig, this.adapter).extract(serverUrl),
                         };
                     case models_1.StreamingServers.StreamSB:
                         return {
-                            sources: await new extractors_1.StreamSB(this.proxyConfig).extract(serverUrl),
+                            sources: await new extractors_1.StreamSB(this.proxyConfig, this.adapter).extract(serverUrl),
                         };
                     default:
                         throw new Error('Server not supported');

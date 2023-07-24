@@ -1,5 +1,5 @@
 import { load } from 'cheerio';
-import axios from 'axios';
+import axios, {AxiosAdapter} from 'axios';
 
 import {
   MovieParser,
@@ -20,8 +20,8 @@ class FlixHQ extends MovieParser {
   protected override classPath = 'MOVIES.FlixHQ';
   override supportedTypes = new Set([TvType.MOVIE, TvType.TVSERIES]);
 
-  constructor(private proxyConfig?: any) {
-    super('https://flixhq.to', proxyConfig);
+  constructor(private proxyConfig?: any, private adapter?: AxiosAdapter) {
+    super('https://flixhq.to', proxyConfig, adapter);
   }
 
   /**
@@ -187,22 +187,22 @@ class FlixHQ extends MovieParser {
         case StreamingServers.MixDrop:
           return {
             headers: { Referer: serverUrl.href },
-            sources: await new MixDrop(this.proxyConfig).extract(serverUrl),
+            sources: await new MixDrop(this.proxyConfig, this.adapter).extract(serverUrl),
           };
         case StreamingServers.VidCloud:
           return {
             headers: { Referer: serverUrl.href },
-            ...(await new VidCloud(this.proxyConfig).extract(serverUrl, true)),
+            ...(await new VidCloud(this.proxyConfig, this.adapter).extract(serverUrl, true)),
           };
         case StreamingServers.UpCloud:
           return {
             headers: { Referer: serverUrl.href },
-            ...(await new VidCloud(this.proxyConfig).extract(serverUrl)),
+            ...(await new VidCloud(this.proxyConfig, this.adapter).extract(serverUrl)),
           };
         default:
           return {
             headers: { Referer: serverUrl.href },
-            sources: await new MixDrop(this.proxyConfig).extract(serverUrl),
+            sources: await new MixDrop(this.proxyConfig, this.adapter).extract(serverUrl),
           };
       }
     }

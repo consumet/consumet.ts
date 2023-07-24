@@ -1,9 +1,5 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const axios_1 = __importDefault(require("axios"));
 const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
 const extractors_1 = require("../../extractors");
@@ -20,7 +16,7 @@ class AnimePahe extends models_1.AnimeParser {
          */
         this.search = async (query) => {
             try {
-                const { data } = await axios_1.default.get(`${this.baseUrl}/api?m=search&q=${encodeURIComponent(query)}`);
+                const { data } = await this.client.get(`${this.baseUrl}/api?m=search&q=${encodeURIComponent(query)}`);
                 const res = {
                     results: data.data.map((item) => ({
                         id: `${item.id}/${item.session}`,
@@ -47,7 +43,7 @@ class AnimePahe extends models_1.AnimeParser {
                 title: '',
             };
             try {
-                const res = await axios_1.default.get(`${this.baseUrl}/anime/${id.split('/')[1]}?anime_id=${id.split('/')[0]}`);
+                const res = await this.client.get(`${this.baseUrl}/anime/${id.split('/')[1]}?anime_id=${id.split('/')[0]}`);
                 const $ = (0, cheerio_1.load)(res.data);
                 animeInfo.title = $('div.title-wrapper > h1 > span').first().text();
                 animeInfo.image = $('div.anime-poster a').attr('href');
@@ -88,7 +84,7 @@ class AnimePahe extends models_1.AnimeParser {
                 animeInfo.totalEpisodes = parseInt($('div.col-sm-4.anime-info > p:nth-child(3)').text().replace('Episodes:', ''));
                 animeInfo.episodes = [];
                 if (episodePage < 0) {
-                    const { data: { last_page, data }, } = await axios_1.default.get(`${this.baseUrl}/api?m=release&id=${id.split('/')[1]}&sort=episode_asc&page=1`);
+                    const { data: { last_page, data }, } = await this.client.get(`${this.baseUrl}/api?m=release&id=${id.split('/')[1]}&sort=episode_asc&page=1`);
                     animeInfo.episodePages = last_page;
                     animeInfo.episodes.push(...data.map((item) => ({
                         id: `${id.split('/')[1]}/${item.session}`,
@@ -117,7 +113,7 @@ class AnimePahe extends models_1.AnimeParser {
          */
         this.fetchEpisodeSources = async (episodeId) => {
             try {
-                const { data } = await axios_1.default.get(`${this.baseUrl}/play/${episodeId}`, {
+                const { data } = await this.client.get(`${this.baseUrl}/play/${episodeId}`, {
                     headers: {
                         Referer: `${this.baseUrl}`,
                     },
@@ -147,7 +143,7 @@ class AnimePahe extends models_1.AnimeParser {
             }
         };
         this.fetchEpisodes = async (session, page) => {
-            const res = await axios_1.default.get(`${this.baseUrl}/api?m=release&id=${session}&sort=episode_asc&page=${page}`);
+            const res = await this.client.get(`${this.baseUrl}/api?m=release&id=${session}&sort=episode_asc&page=${page}`);
             const epData = res.data.data;
             return [
                 ...epData.map((item) => ({

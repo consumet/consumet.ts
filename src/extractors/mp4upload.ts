@@ -8,7 +8,7 @@ class Mp4Upload extends VideoExtractor {
 
   override extract = async (videoUrl: URL): Promise<IVideo[]> => {
     try {
-      const { data } = await axios.get(videoUrl.href);
+      const { data } = await this.client.get(videoUrl.href);
 
       const playerSrc = data.match(/(?<=player\.src\()\s*{\s*type:\s*"[^"]+",\s*src:\s*"([^"]+)"\s*}\s*(?=\);)/s);
       const streamUrl = playerSrc[1];

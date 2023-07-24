@@ -13,14 +13,14 @@ class StreamHub extends VideoExtractor {
         subtitles: [],
       };
 
-      const { data } = await axios.get(videoUrl.href).catch(() => {
+      const { data } = await this.client.get(videoUrl.href).catch(() => {
         throw new Error('Video not found');
       });
 
       const unpackedData = eval(/(eval)(\(f.*?)(\n<\/script>)/s.exec(data)![2].replace('eval', ''));
 
       const links = unpackedData.match(new RegExp('sources:\\[\\{src:"(.*?)"')) ?? [];
-      const m3u8Content = await axios.get(links[1], {
+      const m3u8Content = await this.client.get(links[1], {
         headers: {
           Referer: links[1],
         },

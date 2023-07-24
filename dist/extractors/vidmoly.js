@@ -1,9 +1,5 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const axios_1 = __importDefault(require("axios"));
 const models_1 = require("../models");
 class VidMoly extends models_1.VideoExtractor {
     constructor() {
@@ -12,9 +8,9 @@ class VidMoly extends models_1.VideoExtractor {
         this.sources = [];
         this.extract = async (videoUrl) => {
             try {
-                const { data } = await axios_1.default.get(videoUrl.href);
+                const { data } = await this.client.get(videoUrl.href);
                 const links = data.match(/file:\s*"([^"]+)"/);
-                const m3u8Content = await axios_1.default.get(links[1], {
+                const m3u8Content = await this.client.get(links[1], {
                     headers: {
                         Referer: videoUrl.href,
                     },

@@ -1,5 +1,5 @@
 import { load } from 'cheerio';
-import axios from 'axios';
+import axios, {AxiosAdapter} from 'axios';
 import { substringAfter, substringBeforeLast } from '../../utils/utils';
 
 import {
@@ -26,8 +26,8 @@ class Fmovies extends MovieParser {
   private fmoviesResolver = '';
   private apiKey = '';
 
-  constructor(fmoviesResolver?: string, proxyConfig?: ProxyConfig, apiKey?: string) {
-    super('https://fmovies.to', proxyConfig && proxyConfig.url ? proxyConfig : undefined);
+  constructor(fmoviesResolver?: string, proxyConfig?: ProxyConfig, apiKey?: string, adapter?: AxiosAdapter) {
+    super('https://fmovies.to', proxyConfig && proxyConfig.url ? proxyConfig : undefined, adapter);
     this.fmoviesResolver = fmoviesResolver ?? this.fmoviesResolver;
     this.apiKey = apiKey ?? this.apiKey;
   }
@@ -256,14 +256,14 @@ class Fmovies extends MovieParser {
   };
 
   private async ev(query: string): Promise<string> {
-    const { data } = await axios.get(
+    const { data } = await this.client.get(
       `${this.fmoviesResolver}/fmovies-vrf?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`
     );
     return encodeURIComponent(data.url);
   }
 
   private async decrypt(query: string): Promise<string> {
-    const { data } = await axios.get(
+    const { data } = await this.client.get(
       `${this.fmoviesResolver}/fmovies-decrypt?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`
     );
     return data.url;
