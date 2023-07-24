@@ -149,6 +149,7 @@ export declare enum StreamingServers {
     GogoCDN = "gogocdn",
     StreamSB = "streamsb",
     MixDrop = "mixdrop",
+    Mp4Upload = "mp4upload",
     UpCloud = "upcloud",
     VidCloud = "vidcloud",
     StreamTape = "streamtape",
@@ -156,7 +157,10 @@ export declare enum StreamingServers {
     MyCloud = "mycloud",
     Filemoon = "filemoon",
     VidStreaming = "vidstreaming",
-    SmashyStream = "smashystream"
+    SmashyStream = "smashystream",
+    StreamHub = "streamhub",
+    StreamWish = "streamwish",
+    VidMoly = "vidmoly"
 }
 export declare enum MediaStatus {
     ONGOING = "Ongoing",

@@ -162,6 +162,7 @@ export enum StreamingServers {
   GogoCDN = 'gogocdn',
   StreamSB = 'streamsb',
   MixDrop = 'mixdrop',
+  Mp4Upload = 'mp4upload',
   UpCloud = 'upcloud',
   VidCloud = 'vidcloud',
   StreamTape = 'streamtape',
@@ -171,6 +172,9 @@ export enum StreamingServers {
   Filemoon = 'filemoon',
   VidStreaming = 'vidstreaming',
   SmashyStream = 'smashystream',
+  StreamHub = 'streamhub',
+  StreamWish = 'streamwish',
+  VidMoly = 'vidmoly',
 }
 
 export enum MediaStatus {

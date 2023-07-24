@@ -20,6 +20,7 @@ var StreamingServers;
     StreamingServers["GogoCDN"] = "gogocdn";
     StreamingServers["StreamSB"] = "streamsb";
     StreamingServers["MixDrop"] = "mixdrop";
+    StreamingServers["Mp4Upload"] = "mp4upload";
     StreamingServers["UpCloud"] = "upcloud";
     StreamingServers["VidCloud"] = "vidcloud";
     StreamingServers["StreamTape"] = "streamtape";
@@ -29,6 +30,9 @@ var StreamingServers;
     StreamingServers["Filemoon"] = "filemoon";
     StreamingServers["VidStreaming"] = "vidstreaming";
     StreamingServers["SmashyStream"] = "smashystream";
+    StreamingServers["StreamHub"] = "streamhub";
+    StreamingServers["StreamWish"] = "streamwish";
+    StreamingServers["VidMoly"] = "vidmoly";
 })(StreamingServers = exports.StreamingServers || (exports.StreamingServers = {}));
 var MediaStatus;
 (function (MediaStatus) {
