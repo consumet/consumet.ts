@@ -70,6 +70,19 @@ class RapidCloud extends VideoExtractor {
 
       try {
         if (encrypted) {
+          const sourcesArray = sources.split("");
+          let extractedKey = "";
+
+          for (const index of decryptKey) {
+            for (let i = index[0]; i < index[1]; i++) {
+              extractedKey += sources[i];
+              sourcesArray[i] = "";
+            }
+          }
+
+          decryptKey = extractedKey;
+          sources = sourcesArray.join("");
+
           const decrypt = CryptoJS.AES.decrypt(sources, decryptKey);
           sources = JSON.parse(decrypt.toString(CryptoJS.enc.Utf8));
         }
