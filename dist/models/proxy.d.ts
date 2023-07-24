@@ -2,7 +2,7 @@ import { AxiosInstance } from 'axios';
 import { ProxyConfig } from './types';
 import BaseProvider from './base-provider';
 declare namespace Proxy {
-    abstract class ProviderProxy extends BaseProvider {
+    abstract class Provider extends BaseProvider {
         constructor(baseUrl?: string, proxy?: ProxyConfig);
         private validUrl;
         /**
@@ -13,7 +13,7 @@ declare namespace Proxy {
         private toMap;
         protected client: AxiosInstance;
     }
-    class ExtractorProxy {
+    class Extractor {
         constructor(proxy?: ProxyConfig);
         private validUrl;
         /**

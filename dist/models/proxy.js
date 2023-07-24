@@ -7,7 +7,7 @@ const axios_1 = __importDefault(require("axios"));
 const base_provider_1 = __importDefault(require("./base-provider"));
 var Proxy;
 (function (Proxy) {
-    class ProviderProxy extends base_provider_1.default {
+    class Provider extends base_provider_1.default {
         constructor(baseUrl, proxy) {
             super();
             this.validUrl = /^https?:\/\/.+/;
@@ -20,9 +20,12 @@ var Proxy;
                 }, ms);
             };
             this.toMap = (arr) => arr.map((v, i) => [i, v]);
-            this.client = axios_1.default.create({
-                baseURL: baseUrl,
-            });
+            if (baseUrl)
+                this.client = axios_1.default.create({
+                    baseURL: baseUrl,
+                });
+            else
+                this.client = axios_1.default.create();
             if (proxy)
                 this.setProxy(proxy);
         }
@@ -46,14 +49,13 @@ var Proxy;
                 if (proxy === null || proxy === void 0 ? void 0 : proxy.url) {
                     config.headers = Object.assign(Object.assign({}, config.headers), { 'x-api-key': (_a = proxy === null || proxy === void 0 ? void 0 : proxy.key) !== null && _a !== void 0 ? _a : '', origin: 'axios' });
                     config.url = `${proxy.url}/${config === null || config === void 0 ? void 0 : config.baseURL}${(config === null || config === void 0 ? void 0 : config.url) ? config === null || config === void 0 ? void 0 : config.url : ''}`;
-                    console.log(config.url);
                 }
                 return config;
             });
         }
     }
-    Proxy.ProviderProxy = ProviderProxy;
-    class ExtractorProxy {
+    Proxy.Provider = Provider;
+    class Extractor {
         constructor(proxy) {
             this.validUrl = /^https?:\/\/.+/;
             this.rotateProxy = (proxy, ms = 5000) => {
@@ -94,7 +96,7 @@ var Proxy;
             });
         }
     }
-    Proxy.ExtractorProxy = ExtractorProxy;
+    Proxy.Extractor = Extractor;
 })(Proxy || (Proxy = {}));
 exports.default = Proxy;
 //# sourceMappingURL=proxy.js.map

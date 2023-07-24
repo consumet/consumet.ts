@@ -273,12 +273,12 @@ class Zoro extends models_1.AnimeParser {
         this.baseUrl = zoroBase ? zoroBase : this.baseUrl;
     }
 }
-(async () => {
-    const zoro = new Zoro();
-    const anime = await zoro.search('classroom of the elite');
-    const info = await zoro.fetchAnimeInfo(anime.results[0].id);
-    const sources = await zoro.fetchEpisodeSources(info.episodes[0].id);
-    console.log(sources);
-})();
+// (async () => {
+//   const zoro = new Zoro();
+//   const anime = await zoro.search('classroom of the elite');
+//   const info = await zoro.fetchAnimeInfo(anime.results[0].id);
+//   const sources = await zoro.fetchEpisodeSources(info.episodes![0].id);
+//   console.log(sources);
+// })();
 exports.default = Zoro;
 //# sourceMappingURL=zoro.js.map

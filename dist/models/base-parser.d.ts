@@ -1,6 +1,6 @@
 import { ProxyConfig } from '.';
 import Proxy from './proxy';
-declare abstract class BaseParser extends Proxy.ProviderProxy {
+declare abstract class BaseParser extends Proxy.Provider {
     constructor(baseUrl?: string, proxyConfig?: ProxyConfig);
     /**
      * Search for books/anime/manga/etc using the given query

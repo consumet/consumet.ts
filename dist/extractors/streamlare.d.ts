@@ -1,4 +1,4 @@
-import { IVideo, ISource } from "../models";
+import { IVideo, ISource } from '../models';
 import VideoExtractor from '../models/video-extractor';
 declare class StreamLare extends VideoExtractor {
     protected serverName: string;

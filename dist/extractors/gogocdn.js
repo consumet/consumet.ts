@@ -9,8 +9,8 @@ const crypto_js_1 = __importDefault(require("crypto-js"));
 const models_1 = require("../models");
 const utils_1 = require("../utils");
 class GogoCDN extends models_1.VideoExtractor {
-    constructor(proxyConfig) {
-        super(proxyConfig);
+    constructor() {
+        super(...arguments);
         this.serverName = 'goload';
         this.sources = [];
         this.keys = {

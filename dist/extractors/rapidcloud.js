@@ -9,8 +9,8 @@ const crypto_js_1 = __importDefault(require("crypto-js"));
 const utils_1 = require("../utils");
 const models_1 = require("../models");
 class RapidCloud extends models_1.VideoExtractor {
-    constructor(proxyConfig) {
-        super(proxyConfig);
+    constructor() {
+        super(...arguments);
         this.serverName = 'RapidCloud';
         this.sources = [];
         this.fallbackKey = 'c1d17096f2ca11b7';
@@ -142,6 +142,23 @@ class RapidCloud extends models_1.VideoExtractor {
             });
             return res.data.substring(res.data.indexOf('rresp","'), res.data.lastIndexOf('",null'));
         };
+        // private wss = async (): Promise<string> => {
+        //   let sId = '';
+        //   const ws = new WebSocket('wss://ws1.rapid-cloud.ru/socket.io/?EIO=4&transport=websocket');
+        //   ws.on('open', () => {
+        //     ws.send('40');
+        //   });
+        //   return await new Promise((resolve, reject) => {
+        //     ws.on('message', (data: string) => {
+        //       data = data.toString();
+        //       if (data?.startsWith('40')) {
+        //         sId = JSON.parse(data.split('40')[1]).sid;
+        //         ws.close(4969, "I'm a teapot");
+        //         resolve(sId);
+        //       }
+        //     });
+        //   });
+        // };
     }
 }
 exports.default = RapidCloud;

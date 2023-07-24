@@ -1,6 +1,6 @@
 import { IVideo, ISource, ProxyConfig } from '.';
 import Proxy from '../models/proxy';
-declare abstract class VideoExtractor extends Proxy.ExtractorProxy {
+declare abstract class VideoExtractor extends Proxy.Extractor {
     constructor(proxyConfig?: ProxyConfig);
     /**
      * The server name of the video provider
