@@ -1,9 +1,5 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const axios_1 = __importDefault(require("axios"));
 const models_1 = require("../models");
 class Kwik extends models_1.VideoExtractor {
     constructor() {
@@ -13,7 +9,7 @@ class Kwik extends models_1.VideoExtractor {
         this.host = 'https://animepahe.com';
         this.extract = async (videoUrl) => {
             try {
-                const { data } = await axios_1.default.get(`${videoUrl.href}`, {
+                const { data } = await this.client.get(`${videoUrl.href}`, {
                     headers: { Referer: this.host },
                 });
                 const source = eval(/(eval)(\(f.*?)(\n<\/script>)/s.exec(data)[2].replace('eval', '')).match(/https.*?m3u8/);

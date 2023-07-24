@@ -1,15 +1,7 @@
-import { AxiosInstance } from 'axios';
-import { BaseProvider, ProxyConfig } from '.';
-declare abstract class BaseParser extends BaseProvider {
-    constructor(baseUrl?: string, proxy?: ProxyConfig);
-    private validUrl;
-    /**
-     * Set or Change the proxy config
-     */
-    setProxy(proxy: ProxyConfig): void;
-    private rotateProxy;
-    private toMap;
-    protected client: AxiosInstance;
+import { ProxyConfig } from '.';
+import Proxy from './proxy';
+declare abstract class BaseParser extends Proxy.Provider {
+    constructor(baseUrl?: string, proxyConfig?: ProxyConfig);
     /**
      * Search for books/anime/manga/etc using the given query
      *

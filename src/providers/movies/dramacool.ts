@@ -10,6 +10,7 @@ import {
   ISource,
   IMovieResult,
   ISearch,
+  ProxyConfig,
 } from '../../models';
 import { MixDrop, AsianLoad, StreamTape, StreamSB } from '../../extractors';
 
@@ -21,17 +22,23 @@ class DramaCool extends MovieParser {
   protected override classPath = 'MOVIES.DramaCool';
   override supportedTypes = new Set([TvType.MOVIE, TvType.TVSERIES]);
 
+  constructor(private proxyConfig?: ProxyConfig) {
+    super('https://www1.dramacool.cr', proxyConfig);
+  }
+
   override search = async (query: string, page: number = 1): Promise<ISearch<IMovieResult>> => {
     try {
+
       const searchResult: ISearch<IMovieResult> = {
         currentPage: page,
         hasNextPage: false,
         results: [],
       };
 
-      const { data } = await axios.get(
-        `${this.baseUrl}/search?keyword=${query.replace(/[\W_]+/g, '-')}&page=${page}`
+      const { data } = await this.client.get(
+        `/search?keyword=${query.replace(/[\W_]+/g, '-')}&page=${page}`
       );
+
       const $ = load(data);
 
       const navSelector = 'ul.pagination';
@@ -55,15 +62,17 @@ class DramaCool extends MovieParser {
 
   override fetchMediaInfo = async (mediaId: string): Promise<IMovieInfo> => {
     try {
+      
       const realMediaId = mediaId;
-      if (!mediaId.startsWith(this.baseUrl)) mediaId = `${this.baseUrl}/${mediaId}`;
+      if (!mediaId.startsWith(this.baseUrl)) mediaId = `/${mediaId}`;
+      if (mediaId.startsWith(this.baseUrl)) mediaId = mediaId.replace(this.baseUrl, '');
 
       const mediaInfo: IMovieInfo = {
         id: '',
         title: '',
       };
 
-      const { data } = await axios.get(mediaId);
+      const { data } = await this.client.get(mediaId);
       const $ = load(data);
 
       mediaInfo.id = realMediaId;
@@ -103,9 +112,9 @@ class DramaCool extends MovieParser {
     try {
       const episodeServers: IEpisodeServer[] = [];
 
-      if (!episodeId.includes('.html')) episodeId = `${this.baseUrl}/${episodeId}.html`;
+      if (!episodeId.includes('.html')) episodeId = `/${episodeId}.html`;
 
-      const { data } = await axios.get(episodeId);
+      const { data } = await this.client.get(episodeId);
       const $ = load(data);
 
       $('div.anime_muti_link > ul > li').map(async (i, ele) => {
@@ -135,19 +144,19 @@ class DramaCool extends MovieParser {
       switch (server) {
         case StreamingServers.AsianLoad:
           return {
-            ...(await new AsianLoad().extract(serverUrl)),
+            ...(await new AsianLoad(this.proxyConfig).extract(serverUrl)),
           };
         case StreamingServers.MixDrop:
           return {
-            sources: await new MixDrop().extract(serverUrl),
+            sources: await new MixDrop(this.proxyConfig).extract(serverUrl),
           };
         case StreamingServers.StreamTape:
           return {
-            sources: await new StreamTape().extract(serverUrl),
+            sources: await new StreamTape(this.proxyConfig).extract(serverUrl),
           };
         case StreamingServers.StreamSB:
           return {
-            sources: await new StreamSB().extract(serverUrl),
+            sources: await new StreamSB(this.proxyConfig).extract(serverUrl),
           };
         default:
           throw new Error('Server not supported');
@@ -155,7 +164,7 @@ class DramaCool extends MovieParser {
     }
 
     try {
-      if (!episodeId.includes('.html')) episodeId = `${this.baseUrl}/${episodeId}.html`;
+      if (!episodeId.includes('.html')) episodeId = `/${episodeId}.html`;
 
       const servers = await this.fetchEpisodeServers(episodeId);
       const i = servers.findIndex(s => s.name.toLowerCase() === server.toLowerCase());

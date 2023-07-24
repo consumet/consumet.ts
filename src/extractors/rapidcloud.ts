@@ -2,7 +2,7 @@ import axios from 'axios';
 import { load } from 'cheerio';
 import CryptoJS from 'crypto-js';
 import { substringAfter, substringBefore } from '../utils';
-import { VideoExtractor, IVideo, ISubtitle, Intro } from '../models';
+import { VideoExtractor, IVideo, ISubtitle, Intro, ProxyConfig } from '../models';
 
 class RapidCloud extends VideoExtractor {
   protected override serverName = 'RapidCloud';
@@ -42,13 +42,18 @@ class RapidCloud extends VideoExtractor {
       //   });
       // }
 
-      res = await axios.get(`https://${videoUrl.hostname}/embed-2/ajax/e-1/getSources?id=${id}`, options);
+      res = await this.client.get(
+        `https://${videoUrl.hostname}/embed-2/ajax/e-1/getSources?id=${id}`,
+        options
+      );
 
       let {
         data: { sources, tracks, intro, encrypted },
       } = res;
 
-      let decryptKey = await (await axios.get('https://github.com/enimax-anime/key/blob/e6/key.txt')).data;
+      let decryptKey = await (
+        await this.client.get('https://github.com/enimax-anime/key/blob/e6/key.txt')
+      ).data;
 
       decryptKey = substringBefore(
         substringAfter(decryptKey, '"blob-code blob-code-inner js-file-line">'),
@@ -57,7 +62,7 @@ class RapidCloud extends VideoExtractor {
 
       if (!decryptKey) {
         decryptKey = await (
-          await axios.get('https://raw.githubusercontent.com/enimax-anime/key/e6/key.txt')
+          await this.client.get('https://raw.githubusercontent.com/enimax-anime/key/e6/key.txt')
         ).data;
       }
 

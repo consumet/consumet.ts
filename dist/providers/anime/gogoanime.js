@@ -9,10 +9,21 @@ const models_1 = require("../../models");
 const utils_1 = require("../../utils");
 const extractors_1 = require("../../extractors");
 class Gogoanime extends models_1.AnimeParser {
+    /**
+     *
+     * @param proxyConfig proxy configuration (optional)
+     * @example
+     * ```ts
+     * const gogo = new Gogoanime({ url: 'https://cors-anywhere.herokuapp.com' });
+     * // or with multiple proxies
+     * const gogo = new Gogoanime({ url: ['https://cors-anywhere.herokuapp.com', ...]});
+     * ```
+     */
     constructor(proxyConfig) {
-        super('https://www.gogoanime.dk', proxyConfig);
+        super('https://gogoanimehd.to', proxyConfig);
+        this.proxyConfig = proxyConfig;
         this.name = 'Gogoanime';
-        this.baseUrl = 'https://gogoanime.cl';
+        this.baseUrl = 'https://gogoanimehd.to';
         this.logo = 'https://play-lh.googleusercontent.com/MaGEiAEhNHAJXcXKzqTNgxqRmhuKB1rCUgb15UrN_mWUNRnLpO5T1qja64oRasO7mn0';
         this.classPath = 'ANIME.Gogoanime';
         this.ajaxUrl = 'https://ajax.gogo-load.com/ajax';
@@ -146,7 +157,7 @@ class Gogoanime extends models_1.AnimeParser {
                     case models_1.StreamingServers.GogoCDN:
                         return {
                             headers: { Referer: serverUrl.href },
-                            sources: await new extractors_1.GogoCDN().extract(serverUrl),
+                            sources: await new extractors_1.GogoCDN(this.proxyConfig).extract(serverUrl),
                             download: `https://gogohd.net/download${serverUrl.search}`,
                         };
                     case models_1.StreamingServers.StreamSB:
@@ -158,7 +169,7 @@ class Gogoanime extends models_1.AnimeParser {
                     default:
                         return {
                             headers: { Referer: serverUrl.href },
-                            sources: await new extractors_1.GogoCDN().extract(serverUrl),
+                            sources: await new extractors_1.GogoCDN(this.proxyConfig).extract(serverUrl),
                             download: `https://gogohd.net/download${serverUrl.search}`,
                         };
                 }

@@ -1,15 +1,12 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 const cheerio_1 = require("cheerio");
-const axios_1 = __importDefault(require("axios"));
 const models_1 = require("../../models");
 const extractors_1 = require("../../extractors");
 class DramaCool extends models_1.MovieParser {
-    constructor() {
-        super(...arguments);
+    constructor(proxyConfig) {
+        super('https://www1.dramacool.cr', proxyConfig);
+        this.proxyConfig = proxyConfig;
         this.name = 'DramaCool';
         this.baseUrl = 'https://dramacool.hr';
         this.logo = 'https://play-lh.googleusercontent.com/IaCb2JXII0OV611MQ-wSA8v_SAs9XF6E3TMDiuxGGXo4wp9bI60GtDASIqdERSTO5XU';
@@ -22,7 +19,7 @@ class DramaCool extends models_1.MovieParser {
                     hasNextPage: false,
                     results: [],
                 };
-                const { data } = await axios_1.default.get(`${this.baseUrl}/search?keyword=${query.replace(/[\W_]+/g, '-')}&page=${page}`);
+                const { data } = await this.client.get(`/search?keyword=${query.replace(/[\W_]+/g, '-')}&page=${page}`);
                 const $ = (0, cheerio_1.load)(data);
                 const navSelector = 'ul.pagination';
                 searchResult.hasNextPage =
@@ -46,12 +43,14 @@ class DramaCool extends models_1.MovieParser {
             try {
                 const realMediaId = mediaId;
                 if (!mediaId.startsWith(this.baseUrl))
-                    mediaId = `${this.baseUrl}/${mediaId}`;
+                    mediaId = `/${mediaId}`;
+                if (mediaId.startsWith(this.baseUrl))
+                    mediaId = mediaId.replace(this.baseUrl, '');
                 const mediaInfo = {
                     id: '',
                     title: '',
                 };
-                const { data } = await axios_1.default.get(mediaId);
+                const { data } = await this.client.get(mediaId);
                 const $ = (0, cheerio_1.load)(data);
                 mediaInfo.id = realMediaId;
                 mediaInfo.title = $('.info > h1:nth-child(1)').text();
@@ -85,18 +84,18 @@ class DramaCool extends models_1.MovieParser {
                 const serverUrl = new URL(episodeId);
                 switch (server) {
                     case models_1.StreamingServers.AsianLoad:
-                        return Object.assign({}, (await new extractors_1.AsianLoad().extract(serverUrl)));
+                        return Object.assign({}, (await new extractors_1.AsianLoad(this.proxyConfig).extract(serverUrl)));
                     case models_1.StreamingServers.MixDrop:
                         return {
-                            sources: await new extractors_1.MixDrop().extract(serverUrl),
+                            sources: await new extractors_1.MixDrop(this.proxyConfig).extract(serverUrl),
                         };
                     case models_1.StreamingServers.StreamTape:
                         return {
-                            sources: await new extractors_1.StreamTape().extract(serverUrl),
+                            sources: await new extractors_1.StreamTape(this.proxyConfig).extract(serverUrl),
                         };
                     case models_1.StreamingServers.StreamSB:
                         return {
-                            sources: await new extractors_1.StreamSB().extract(serverUrl),
+                            sources: await new extractors_1.StreamSB(this.proxyConfig).extract(serverUrl),
                         };
                     default:
                         throw new Error('Server not supported');
@@ -104,7 +103,7 @@ class DramaCool extends models_1.MovieParser {
             }
             try {
                 if (!episodeId.includes('.html'))
-                    episodeId = `${this.baseUrl}/${episodeId}.html`;
+                    episodeId = `/${episodeId}.html`;
                 const servers = await this.fetchEpisodeServers(episodeId);
                 const i = servers.findIndex(s => s.name.toLowerCase() === server.toLowerCase());
                 if (i === -1) {
@@ -126,8 +125,8 @@ class DramaCool extends models_1.MovieParser {
         try {
             const episodeServers = [];
             if (!episodeId.includes('.html'))
-                episodeId = `${this.baseUrl}/${episodeId}.html`;
-            const { data } = await axios_1.default.get(episodeId);
+                episodeId = `/${episodeId}.html`;
+            const { data } = await this.client.get(episodeId);
             const $ = (0, cheerio_1.load)(data);
             $('div.anime_muti_link > ul > li').map(async (i, ele) => {
                 const url = $(ele).attr('data-video');

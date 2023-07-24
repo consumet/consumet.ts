@@ -1,0 +1,39 @@
+name: Compile TS
+
+on: 
+  workflow_run:
+    workflows: ["Node.js CI"]
+    types:
+      - completed
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+       # run only if this is a pull request
+      - name: Check if pull request
+        id: pr
+        run: echo "::set-output name=is_pr::$(test ${{ github.event.workflow_run.event.pull_request }} -eq 1 && echo true || echo false)"
+     # exit if this is not a pull request
+      - name: Exit if not pull request
+        if: steps.pr.outputs.is_pr == 'false'
+        run: exit 0
+
+      # clone the repo
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      # compile typescript
+      - name: Compile TS
+        run: npm run build
+
+      # push changes to the pull request
+      - name: Push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 'build: compile typescript'
+          commit_options: '--no-verify'
+          repository: ${{ github.repository }}
+          branch: ${{ github.head_ref }}
+
+      
