@@ -455,4 +455,8 @@ export interface ProxyConfig {
    * X-API-Key header value (if any)
    **/
   key?: string;
+  /**
+   * The proxy rotation interval in milliseconds. (default: 5000)
+   */
+  rotateInterval?: number;
 }

@@ -131,7 +131,7 @@ class AnimePahe extends models_1.AnimeParser {
                     sources: [],
                 };
                 for (const link of links) {
-                    const res = await new extractors_1.Kwik().extract(new URL(link.url));
+                    const res = await new extractors_1.Kwik(this.proxyConfig).extract(new URL(link.url));
                     res[0].quality = link.quality;
                     res[0].isDub = link.audio === 'eng';
                     iSource.sources.push(res[0]);

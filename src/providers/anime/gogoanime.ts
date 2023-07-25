@@ -29,21 +29,6 @@ class Gogoanime extends AnimeParser {
 
   /**
    *
-   * @param proxyConfig proxy configuration (optional)
-   * @param adapter axios adapter (optional)
-   * @example
-   * ```ts
-   * const gogo = new Gogoanime({ url: 'https://cors-anywhere.herokuapp.com' });
-   * // or with multiple proxies
-   * const gogo = new Gogoanime({ url: ['https://cors-anywhere.herokuapp.com', ...]});
-   * ```
-   */
-  constructor(private proxyConfig?: ProxyConfig, private adapter?: AxiosAdapter) {
-    super('https://gogoanimehd.to', proxyConfig, adapter);
-  }
-
-  /**
-   *
    * @param query search query string
    * @param page page number (default 1) (optional)
    */
@@ -54,7 +39,9 @@ class Gogoanime extends AnimeParser {
       results: [],
     };
     try {
-      const res = await this.client.get(`/search.html?keyword=${encodeURIComponent(query)}&page=${page}`);
+      const res = await this.client.get(
+        `${this.baseUrl}/search.html?keyword=${encodeURIComponent(query)}&page=${page}`
+      );
 
       const $ = load(res.data);
 
@@ -85,7 +72,7 @@ class Gogoanime extends AnimeParser {
    * @param id anime id
    */
   override fetchAnimeInfo = async (id: string): Promise<IAnimeInfo> => {
-    if (!id.includes('gogoanime')) id = `/category/${id}`;
+    if (!id.includes('gogoanime')) id = `${this.baseUrl}/category/${id}`;
 
     const animeInfo: IAnimeInfo = {
       id: '',
@@ -199,7 +186,7 @@ class Gogoanime extends AnimeParser {
         case StreamingServers.StreamSB:
           return {
             headers: { Referer: serverUrl.href, watchsb: 'streamsb', 'User-Agent': USER_AGENT },
-            sources: await new StreamSB().extract(serverUrl),
+            sources: await new StreamSB(this.proxyConfig, this.adapter).extract(serverUrl),
             download: `https://gogohd.net/download${serverUrl.search}`,
           };
         default:
@@ -212,7 +199,7 @@ class Gogoanime extends AnimeParser {
     }
 
     try {
-      const res = await this.client.get(`/${episodeId}`);
+      const res = await this.client.get(`${this.baseUrl}/${episodeId}`);
 
       const $ = load(res.data);
 
@@ -252,7 +239,7 @@ class Gogoanime extends AnimeParser {
    */
   override fetchEpisodeServers = async (episodeId: string): Promise<IEpisodeServer[]> => {
     try {
-      if (!episodeId.startsWith(this.baseUrl)) episodeId = `/${episodeId}`;
+      if (!episodeId.startsWith(this.baseUrl)) episodeId = `${this.baseUrl}/${episodeId}`;
 
       const res = await this.client.get(episodeId);
 
@@ -281,7 +268,7 @@ class Gogoanime extends AnimeParser {
    */
   fetchAnimeIdFromEpisodeId = async (episodeId: string): Promise<string> => {
     try {
-      if (!episodeId.startsWith(this.baseUrl)) episodeId = `/${episodeId}`;
+      if (!episodeId.startsWith(this.baseUrl)) episodeId = `${this.baseUrl}/${episodeId}`;
 
       const res = await this.client.get(episodeId);
 
@@ -333,7 +320,7 @@ class Gogoanime extends AnimeParser {
 
   fetchGenreInfo = async (genre: string, page: number = 1): Promise<ISearch<IAnimeResult>> => {
     try {
-      const res = await this.client.get(`/genre/${genre}?page=${page}`);
+      const res = await this.client.get(`${this.baseUrl}/genre/${genre}?page=${page}`);
 
       const $ = load(res.data);
 

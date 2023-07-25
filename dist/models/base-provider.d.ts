@@ -1,5 +1,6 @@
 import { IProviderStats } from '.';
-declare abstract class BaseProvider {
+import Proxy from './proxy';
+declare abstract class BaseProvider extends Proxy {
     /**
      * Name of the provider
      */

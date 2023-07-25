@@ -20,10 +20,11 @@ class Anilist extends models_1.AnimeParser {
      * This class maps anilist to kitsu with any other anime provider.
      * kitsu is used for episode images, titles and description.
      * @param provider anime provider (optional) default: Gogoanime
-     * @param proxy proxy config (optional) default: null
+     * @param proxyConfig proxy config (optional)
+     * @param adapter axios adapter (optional)
      */
-    constructor(provider, proxyConfig) {
-        super('https://graphql.anilist.co/', proxyConfig);
+    constructor(provider, proxyConfig, adapter) {
+        super(proxyConfig, adapter);
         this.proxyConfig = proxyConfig;
         this.name = 'Anilist';
         this.baseUrl = 'https://anilist.co';
@@ -48,7 +49,7 @@ class Anilist extends models_1.AnimeParser {
                 query: (0, utils_1.anilistSearchQuery)(query, page, perPage),
             };
             try {
-                let { data, status } = await this.client.post('', options, {
+                let { data, status } = await this.client.post(this.anilistGraphqlUrl, options, {
                     validateStatus: () => true,
                 });
                 if (status >= 500 || status == 429)
@@ -175,7 +176,7 @@ class Anilist extends models_1.AnimeParser {
                 });
             }
             try {
-                let { data, status } = await this.client.post('', options, {
+                let { data, status } = await this.client.post(this.anilistGraphqlUrl, options, {
                     validateStatus: () => true,
                 });
                 if (status >= 500 && !query)
@@ -280,7 +281,7 @@ class Anilist extends models_1.AnimeParser {
             };
             let fillerEpisodes;
             try {
-                let { data, status } = await this.client.post('', options, {
+                let { data, status } = await this.client.post(this.anilistGraphqlUrl, options, {
                     validateStatus: () => true,
                 });
                 if (status == 404)
@@ -510,11 +511,7 @@ class Anilist extends models_1.AnimeParser {
                         externalLinks: data.data.Media.externalLinks.filter((link) => link.type === 'STREAMING'),
                     }, dub, id);
                 if (fetchFiller) {
-                    const { data: fillerData } = await this.client({
-                        baseURL: `https://raw.githubusercontent.com/saikou-app/mal-id-filler-list/main/fillers/${animeInfo.malId}.json`,
-                        method: 'GET',
-                        validateStatus: () => true,
-                    });
+                    const { data: fillerData } = await this.client.get(`https://raw.githubusercontent.com/saikou-app/mal-id-filler-list/main/fillers/${animeInfo.malId}.json`, { validateStatus: () => true });
                     if (!fillerData.toString().startsWith('404')) {
                         fillerEpisodes = [];
                         fillerEpisodes === null || fillerEpisodes === void 0 ? void 0 : fillerEpisodes.push(...fillerData.episodes);
@@ -586,9 +583,7 @@ class Anilist extends models_1.AnimeParser {
             const slug = title.replace(/[^0-9a-zA-Z]+/g, ' ');
             let possibleAnime;
             if (malId && !(this.provider instanceof crunchyroll_1.default || this.provider instanceof bilibili_1.default)) {
-                const malAsyncReq = await this.client({
-                    method: 'GET',
-                    url: `${this.malSyncUrl}/mal/anime/${malId}`,
+                const malAsyncReq = await this.client.get(`${this.malSyncUrl}/mal/anime/${malId}`, {
                     validateStatus: () => true,
                 });
                 if (malAsyncReq.status === 200) {
@@ -770,7 +765,7 @@ class Anilist extends models_1.AnimeParser {
                 query: (0, utils_1.anilistTrendingQuery)(page, perPage),
             };
             try {
-                const { data } = await this.client.post('', options);
+                const { data } = await this.client.post(this.anilistGraphqlUrl, options);
                 const res = {
                     currentPage: data.data.Page.pageInfo.currentPage,
                     hasNextPage: data.data.Page.pageInfo.hasNextPage,
@@ -834,7 +829,7 @@ class Anilist extends models_1.AnimeParser {
                 query: (0, utils_1.anilistPopularQuery)(page, perPage),
             };
             try {
-                const { data } = await this.client.post('', options);
+                const { data } = await this.client.post(this.anilistGraphqlUrl, options);
                 const res = {
                     currentPage: data.data.Page.pageInfo.currentPage,
                     hasNextPage: data.data.Page.pageInfo.hasNextPage,
@@ -909,7 +904,7 @@ class Anilist extends models_1.AnimeParser {
                 query: (0, utils_1.anilistAiringScheduleQuery)(page, perPage, day1, day2, notYetAired),
             };
             try {
-                const { data } = await this.client.post('', options);
+                const { data } = await this.client.post(this.anilistGraphqlUrl, options);
                 const res = {
                     currentPage: data.data.Page.pageInfo.currentPage,
                     hasNextPage: data.data.Page.pageInfo.hasNextPage,
@@ -964,7 +959,7 @@ class Anilist extends models_1.AnimeParser {
                 query: (0, utils_1.anilistGenresQuery)(genres, page, perPage),
             };
             try {
-                const { data } = await this.client.post('', options);
+                const { data } = await this.client.post(this.anilistGraphqlUrl, options);
                 const res = {
                     currentPage: data.data.Page.pageInfo.currentPage,
                     hasNextPage: data.data.Page.pageInfo.hasNextPage,
@@ -1149,7 +1144,7 @@ class Anilist extends models_1.AnimeParser {
                 },
                 query: `query($id: Int = ${id}){ Media(id: $id){ idMal externalLinks { site url } title { romaji english } status season episodes startDate { year month day } endDate { year month day }  coverImage {extraLarge large medium} } }`,
             };
-            const { data: { data: { Media }, }, } = await this.client.post('', options);
+            const { data: { data: { Media }, }, } = await this.client.post(this.anilistGraphqlUrl, options);
             let possibleAnimeEpisodes = [];
             let fillerEpisodes = [];
             if ((this.provider instanceof zoro_1.default || this.provider instanceof gogoanime_1.default) &&
@@ -1189,9 +1184,7 @@ class Anilist extends models_1.AnimeParser {
             else
                 possibleAnimeEpisodes = await this.fetchDefaultEpisodeList(Media, dub, id);
             if (fetchFiller) {
-                const { data: fillerData } = await this.client({
-                    baseURL: `https://raw.githubusercontent.com/saikou-app/mal-id-filler-list/main/fillers/${Media.idMal}.json`,
-                    method: 'GET',
+                const { data: fillerData } = await this.client.get(`https://raw.githubusercontent.com/saikou-app/mal-id-filler-list/main/fillers/${Media.idMal}.json`, {
                     validateStatus: () => true,
                 });
                 if (!fillerData.toString().startsWith('404')) {
@@ -1229,7 +1222,7 @@ class Anilist extends models_1.AnimeParser {
                 query: (0, utils_1.anilistMediaDetailQuery)(id),
             };
             try {
-                const { data } = await this.client.post('', options).catch(() => {
+                const { data } = await this.client.post(this.anilistGraphqlUrl, options).catch(() => {
                     throw new Error('Media not found');
                 });
                 animeInfo.malId = data.data.Media.idMal;
@@ -1421,7 +1414,7 @@ class Anilist extends models_1.AnimeParser {
                 },
             };
             try {
-                const { data: { data: { Character }, }, } = await this.client.post('', options);
+                const { data: { data: { Character }, }, } = await this.client.post(this.anilistGraphqlUrl, options);
                 const height = (_b = Character.description.match(/__Height:__(.*)/)) === null || _b === void 0 ? void 0 : _b[1].trim();
                 const weight = (_c = Character.description.match(/__Weight:__(.*)/)) === null || _c === void 0 ? void 0 : _c[1].trim();
                 const hairColor = (_d = Character.description.match(/__Hair Color:__(.*)/)) === null || _d === void 0 ? void 0 : _d[1].trim();
@@ -1532,9 +1525,7 @@ class Anilist extends models_1.AnimeParser {
             const slug = title.replace(/[^0-9a-zA-Z]+/g, ' ');
             let possibleManga;
             if (malId) {
-                const malAsyncReq = await this.client({
-                    method: 'GET',
-                    url: `${this.malSyncUrl}/mal/manga/${malId}`,
+                const malAsyncReq = await this.client.get(`${this.malSyncUrl}/mal/manga/${malId}`, {
                     validateStatus: () => true,
                 });
                 if (malAsyncReq.status === 200) {

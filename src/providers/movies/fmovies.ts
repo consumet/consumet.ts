@@ -12,7 +12,7 @@ import {
   IMovieResult,
   ISearch,
   IMovieEpisode,
-  ProxyConfig
+  ProxyConfig,
 } from '../../models';
 import { StreamTape, VizCloud } from '../../extractors';
 
@@ -27,7 +27,7 @@ class Fmovies extends MovieParser {
   private apiKey = '';
 
   constructor(fmoviesResolver?: string, proxyConfig?: ProxyConfig, apiKey?: string, adapter?: AxiosAdapter) {
-    super('https://fmovies.to', proxyConfig && proxyConfig.url ? proxyConfig : undefined, adapter);
+    super(proxyConfig && proxyConfig.url ? proxyConfig : undefined, adapter);
     this.fmoviesResolver = fmoviesResolver ?? this.fmoviesResolver;
     this.apiKey = apiKey ?? this.apiKey;
   }
@@ -47,7 +47,9 @@ class Fmovies extends MovieParser {
       query = query.replace(/[\W_]+/g, '+');
       const vrf = await this.ev(query);
 
-      const { data } = await this.client.get(`/search?keyword=${query}&vrf=${vrf}&page=${page}`);
+      const { data } = await this.client.get(
+        `${this.baseUrl}/search?keyword=${query}&vrf=${vrf}&page=${page}`
+      );
 
       const $ = load(data);
 
@@ -78,7 +80,7 @@ class Fmovies extends MovieParser {
    */
   override fetchMediaInfo = async (mediaId: string): Promise<IMovieInfo> => {
     if (!mediaId.startsWith(this.baseUrl)) {
-      mediaId = `/${mediaId}`;
+      mediaId = `${this.baseUrl}/${mediaId}`;
     }
 
     const movieInfo: IMovieInfo = {
@@ -196,7 +198,7 @@ class Fmovies extends MovieParser {
         throw new Error(`Server ${server} not found`);
       }
 
-      const { data } = await this.client.get(`/ajax/episode/info?id=${selectedServer.url}`);
+      const { data } = await this.client.get(`${this.baseUrl}/ajax/episode/info?id=${selectedServer.url}`);
 
       const serverUrl: URL = new URL(await this.decrypt(data.url));
 
@@ -213,7 +215,7 @@ class Fmovies extends MovieParser {
    */
   override fetchEpisodeServers = async (episodeId: string, mediaId: string): Promise<IEpisodeServer[]> => {
     if (!mediaId.startsWith(this.baseUrl)) {
-      mediaId = `/${mediaId}`;
+      mediaId = `${this.baseUrl}/${mediaId}`;
     }
 
     try {
@@ -271,7 +273,7 @@ class Fmovies extends MovieParser {
 
   private async ajaxReqUrl(id: string) {
     const vrf = await this.ev(id);
-    return `/ajax/film/servers?id=${id}&vrf=${vrf}&token=`;
+    return `${this.baseUrl}/ajax/film/servers?id=${id}&vrf=${vrf}&token=`;
   }
 }
 

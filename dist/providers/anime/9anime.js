@@ -9,7 +9,7 @@ const utils_1 = require("../../utils");
  */
 class NineAnime extends models_1.AnimeParser {
     constructor(nineAnimeResolver, proxyConfig, apiKey, adapter) {
-        super('https://9anime.pl', proxyConfig && proxyConfig.url ? proxyConfig : undefined, adapter);
+        super(proxyConfig, adapter);
         this.name = '9Anime';
         this.nineAnimeResolver = '';
         this.apiKey = '';
@@ -28,7 +28,7 @@ class NineAnime extends models_1.AnimeParser {
         };
         try {
             const vrf = await this.searchVrf(query);
-            const res = await this.client.get(`/filter?keyword=${encodeURIComponent(query).replace(/%20/g, '+')}&vrf=${encodeURIComponent(vrf)}&page=${page}`);
+            const res = await this.client.get(`${this.baseUrl}/filter?keyword=${encodeURIComponent(query).replace(/%20/g, '+')}&vrf=${encodeURIComponent(vrf)}&page=${page}`);
             const $ = (0, cheerio_1.load)(res.data);
             searchResult.hasNextPage =
                 $(`ul.pagination`).length > 0
@@ -78,7 +78,7 @@ class NineAnime extends models_1.AnimeParser {
     async fetchAnimeInfo(animeUrl) {
         var _a, _b, _c, _d, _e;
         if (!animeUrl.startsWith(this.baseUrl))
-            animeUrl = `/watch/${animeUrl}`;
+            animeUrl = `${this.baseUrl}/watch/${animeUrl}`;
         const animeInfo = {
             id: '',
             title: '',
@@ -153,7 +153,7 @@ class NineAnime extends models_1.AnimeParser {
             animeInfo.hasDub = $('div#w-info > .binfo > .info > .meta .dub').length == 1;
             const id = $('#watch-main').attr('data-id');
             const vrf = await this.ev(id);
-            const { data: { result }, } = await this.client.get(`/ajax/episode/list/${id}?vrf=${encodeURIComponent(vrf)}`);
+            const { data: { result }, } = await this.client.get(`${this.baseUrl}/ajax/episode/list/${id}?vrf=${encodeURIComponent(vrf)}`);
             const $$ = (0, cheerio_1.load)(result);
             animeInfo.totalEpisodes = $$('div.episodes > ul > li > a').length;
             animeInfo.episodes = [];
@@ -242,7 +242,7 @@ class NineAnime extends models_1.AnimeParser {
                     throw new Error('Server not found');
             }
             const serverVrf = (await this.client.get(`${this.nineAnimeResolver}/vrf?query=${encodeURIComponent(s.url)}&apikey=${this.apiKey}`)).data.url;
-            const serverSource = (await this.client.get(`/ajax/server/${s.url}?vrf=${encodeURIComponent(serverVrf)}`)).data;
+            const serverSource = (await this.client.get(`${this.baseUrl}/ajax/server/${s.url}?vrf=${encodeURIComponent(serverVrf)}`)).data;
             const embedURL = (await this.client.get(`${this.nineAnimeResolver}/decrypt?query=${encodeURIComponent(serverSource.result.url)}&apikey=${this.apiKey}`)).data.url;
             if (embedURL.startsWith('http')) {
                 const response = await this.fetchEpisodeSources(embedURL, server);
@@ -263,7 +263,7 @@ class NineAnime extends models_1.AnimeParser {
     }
     async fetchEpisodeServers(episodeId) {
         if (!episodeId.startsWith(this.baseUrl))
-            episodeId = `/ajax/server/list/${episodeId}?vrf=${encodeURIComponent(await this.ev(episodeId))}`;
+            episodeId = `${this.baseUrl}/ajax/server/list/${episodeId}?vrf=${encodeURIComponent(await this.ev(episodeId))}`;
         const { data: { result }, } = await this.client.get(episodeId);
         const $ = (0, cheerio_1.load)(result);
         const servers = [];

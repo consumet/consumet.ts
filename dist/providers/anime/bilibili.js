@@ -3,8 +3,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const models_1 = require("../../models");
 const extractors_1 = require("../../extractors");
 class Bilibili extends models_1.AnimeParser {
-    constructor(cookie, locale) {
-        super();
+    constructor(cookie, locale, proxyConfig, adapter) {
+        super(proxyConfig, adapter);
         this.name = 'Bilibili';
         this.baseUrl = 'https://bilibili.tv';
         this.logo = 'https://w7.pngwing.com/pngs/656/356/png-transparent-bilibili-thumbnail-social-media-icons.png';
@@ -93,7 +93,7 @@ class Bilibili extends models_1.AnimeParser {
     }
 }
 // (async () => {
-//   const source = new Bilibili(//   );
+//   const source = new Bilibili();
 //   const result = await source.search('classroom of the elite');
 //   const info = await source.fetchAnimeInfo(result.results[0].id);
 //   const episode = await source.fetchEpisodeSources('10143090');

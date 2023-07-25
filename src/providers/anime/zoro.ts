@@ -27,20 +27,6 @@ class Zoro extends AnimeParser {
   protected override classPath = 'ANIME.Zoro';
 
   /**
-   *
-   * @param zoroBase Base url of zoro (optional) (default: https://aniwatch.to)
-   * @param proxyConfig Proxy configuration (optional)
-   * @param adapter
-   * @example
-   * ```ts
-   * const zoro = new Zoro(undefined, { url: "http://localhost:8080" });
-   * ```
-   */
-  constructor(zoroBase?: string, private proxyConfig?: ProxyConfig, private adapter?: AxiosAdapter) {
-    super(zoroBase ?? 'https://aniwatch.to', proxyConfig, adapter);
-    this.baseUrl = zoroBase ? zoroBase : this.baseUrl;
-  }
-  /**
    * @param query Search query
    * @param page Page number (optional)
    */
@@ -53,7 +39,9 @@ class Zoro extends AnimeParser {
     };
 
     try {
-      const { data } = await this.client.get(`/search?keyword=${decodeURIComponent(query)}&page=${page}`);
+      const { data } = await this.client.get(
+        `${this.baseUrl}/search?keyword=${decodeURIComponent(query)}&page=${page}`
+      );
       const $ = load(data);
 
       res.hasNextPage =
@@ -114,7 +102,7 @@ class Zoro extends AnimeParser {
       title: '',
     };
     try {
-      const { data } = await this.client.get(`/watch/${id}`);
+      const { data } = await this.client.get(`${this.baseUrl}/watch/${id}`);
       const $ = load(data);
 
       const { mal_id, anilist_id } = JSON.parse($('#syncData').text());
@@ -138,12 +126,15 @@ class Zoro extends AnimeParser {
         info.subOrDub = SubOrSub.SUB;
       }
 
-      const episodesAjax = await this.client.get(`/ajax/v2/episode/list/${id.split('-').pop()}`, {
-        headers: {
-          'X-Requested-With': 'XMLHttpRequest',
-          Referer: `${this.baseUrl}/watch/${id}`,
-        },
-      });
+      const episodesAjax = await this.client.get(
+        `${this.baseUrl}/ajax/v2/episode/list/${id.split('-').pop()}`,
+        {
+          headers: {
+            'X-Requested-With': 'XMLHttpRequest',
+            Referer: `${this.baseUrl}/watch/${id}`,
+          },
+        }
+      );
 
       const $$ = load(episodesAjax.data.html);
 
@@ -194,12 +185,12 @@ class Zoro extends AnimeParser {
         case StreamingServers.StreamSB:
           return {
             headers: { Referer: serverUrl.href, watchsb: 'streamsb', 'User-Agent': USER_AGENT },
-            sources: await new StreamSB().extract(serverUrl, true),
+            sources: await new StreamSB(this.proxyConfig, this.adapter).extract(serverUrl, true),
           };
         case StreamingServers.StreamTape:
           return {
             headers: { Referer: serverUrl.href, 'User-Agent': USER_AGENT },
-            sources: await new StreamTape().extract(serverUrl),
+            sources: await new StreamTape(this.proxyConfig, this.adapter).extract(serverUrl),
           };
         default:
         case StreamingServers.VidCloud:

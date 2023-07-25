@@ -7,9 +7,11 @@ import {
   ISearch,
   ISource,
   ISubtitle,
+  ProxyConfig,
   SubOrSub,
 } from '../../models';
 import { BilibiliExtractor } from '../../extractors';
+import { AxiosAdapter } from 'axios';
 
 class Bilibili extends AnimeParser {
   override readonly name = 'Bilibili';
@@ -24,8 +26,8 @@ class Bilibili extends AnimeParser {
   private locale = 'en_US';
   private sgProxy = 'https://cors.consumet.stream';
 
-  constructor(cookie?: string, locale?: string) {
-    super();
+  constructor(cookie?: string, locale?: string, proxyConfig?: ProxyConfig, adapter?: AxiosAdapter) {
+    super(proxyConfig, adapter);
     this.locale = locale ?? this.locale;
     if (!cookie) return;
     this.cookie = cookie;
@@ -130,7 +132,7 @@ class Bilibili extends AnimeParser {
 }
 
 // (async () => {
-//   const source = new Bilibili(//   );
+//   const source = new Bilibili();
 
 //   const result = await source.search('classroom of the elite');
 //   const info = await source.fetchAnimeInfo(result.results[0].id);

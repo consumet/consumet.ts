@@ -31,8 +31,13 @@ class NineAnime extends AnimeParser {
   protected override classPath = 'ANIME.NineAnime';
   override readonly isWorking = false;
 
-  constructor(nineAnimeResolver?: string, proxyConfig?: ProxyConfig, apiKey?: string, adapter?: AxiosAdapter) {
-    super('https://9anime.pl', proxyConfig && proxyConfig.url ? proxyConfig : undefined, adapter);
+  constructor(
+    nineAnimeResolver?: string,
+    proxyConfig?: ProxyConfig,
+    apiKey?: string,
+    adapter?: AxiosAdapter
+  ) {
+    super(proxyConfig, adapter);
     this.nineAnimeResolver = nineAnimeResolver ?? this.nineAnimeResolver;
     this.apiKey = apiKey ?? this.apiKey;
   }
@@ -47,9 +52,10 @@ class NineAnime extends AnimeParser {
     try {
       const vrf = await this.searchVrf(query);
       const res = await this.client.get(
-        `/filter?keyword=${encodeURIComponent(query).replace(/%20/g, '+')}&vrf=${encodeURIComponent(
-          vrf
-        )}&page=${page}`
+        `${this.baseUrl}/filter?keyword=${encodeURIComponent(query).replace(
+          /%20/g,
+          '+'
+        )}&vrf=${encodeURIComponent(vrf)}&page=${page}`
       );
 
       const $ = load(res.data);
@@ -102,7 +108,7 @@ class NineAnime extends AnimeParser {
   }
 
   override async fetchAnimeInfo(animeUrl: string): Promise<IAnimeInfo> {
-    if (!animeUrl.startsWith(this.baseUrl)) animeUrl = `/watch/${animeUrl}`;
+    if (!animeUrl.startsWith(this.baseUrl)) animeUrl = `${this.baseUrl}/watch/${animeUrl}`;
 
     const animeInfo: IAnimeInfo = {
       id: '',
@@ -200,7 +206,7 @@ class NineAnime extends AnimeParser {
       const vrf = await this.ev(id);
       const {
         data: { result },
-      } = await this.client.get(`/ajax/episode/list/${id}?vrf=${encodeURIComponent(vrf)}`);
+      } = await this.client.get(`${this.baseUrl}/ajax/episode/list/${id}?vrf=${encodeURIComponent(vrf)}`);
       const $$ = load(result);
       animeInfo.totalEpisodes = $$('div.episodes > ul > li > a').length;
       animeInfo.episodes = [];
@@ -295,7 +301,7 @@ class NineAnime extends AnimeParser {
         )
       ).data.url;
       const serverSource = (
-        await this.client.get(`/ajax/server/${s.url}?vrf=${encodeURIComponent(serverVrf)}`)
+        await this.client.get(`${this.baseUrl}/ajax/server/${s.url}?vrf=${encodeURIComponent(serverVrf)}`)
       ).data;
       const embedURL = (
         await this.client.get(
@@ -324,7 +330,9 @@ class NineAnime extends AnimeParser {
 
   override async fetchEpisodeServers(episodeId: string): Promise<IEpisodeServer[]> {
     if (!episodeId.startsWith(this.baseUrl))
-      episodeId = `/ajax/server/list/${episodeId}?vrf=${encodeURIComponent(await this.ev(episodeId))}`;
+      episodeId = `${this.baseUrl}/ajax/server/list/${episodeId}?vrf=${encodeURIComponent(
+        await this.ev(episodeId)
+      )}`;
 
     const {
       data: { result },
@@ -397,7 +405,6 @@ class NineAnime extends AnimeParser {
 
 // (async () => {
 //   // const nineAnime = new NineAnime();
-
 //   // const searchResults = await nineAnime.search('attack on titan');
 //   // const animeInfo = await nineAnime.fetchAnimeInfo('shadowverse-flame.rljqn');
 //   // @ts-ignore
@@ -405,7 +412,6 @@ class NineAnime extends AnimeParser {
 //   // console.log(await nineAnime.vizcloud("LNPEK8Q0QPXW"));
 //   // console.log(await nineAnime.decrypt("ab6/", true));
 //   // console.log(await nineAnime.customRequest("LNPEK8Q0QPXW", "9anime-search"));
-
 // })();
 
 export default NineAnime;

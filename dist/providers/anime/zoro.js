@@ -5,20 +5,8 @@ const models_1 = require("../../models");
 const utils_1 = require("../../utils");
 const utils_2 = require("../../utils");
 class Zoro extends models_1.AnimeParser {
-    /**
-     *
-     * @param zoroBase Base url of zoro (optional) (default: https://aniwatch.to)
-     * @param proxyConfig Proxy configuration (optional)
-     * @param adapter
-     * @example
-     * ```ts
-     * const zoro = new Zoro(undefined, { url: "http://localhost:8080" });
-     * ```
-     */
-    constructor(zoroBase, proxyConfig, adapter) {
-        super(zoroBase !== null && zoroBase !== void 0 ? zoroBase : 'https://aniwatch.to', proxyConfig, adapter);
-        this.proxyConfig = proxyConfig;
-        this.adapter = adapter;
+    constructor() {
+        super(...arguments);
         this.name = 'Zoro';
         this.baseUrl = 'https://aniwatch.to';
         this.logo = 'https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/7e/91/00/7e9100ee-2b62-0942-4cdc-e9b93252ce1c/source/512x512bb.jpg';
@@ -36,7 +24,7 @@ class Zoro extends models_1.AnimeParser {
                 results: [],
             };
             try {
-                const { data } = await this.client.get(`/search?keyword=${decodeURIComponent(query)}&page=${page}`);
+                const { data } = await this.client.get(`${this.baseUrl}/search?keyword=${decodeURIComponent(query)}&page=${page}`);
                 const $ = (0, cheerio_1.load)(data);
                 res.hasNextPage =
                     $('.pagination > li').length > 0
@@ -87,7 +75,7 @@ class Zoro extends models_1.AnimeParser {
                 title: '',
             };
             try {
-                const { data } = await this.client.get(`/watch/${id}`);
+                const { data } = await this.client.get(`${this.baseUrl}/watch/${id}`);
                 const $ = (0, cheerio_1.load)(data);
                 const { mal_id, anilist_id } = JSON.parse($('#syncData').text());
                 info.malID = Number(mal_id);
@@ -110,7 +98,7 @@ class Zoro extends models_1.AnimeParser {
                 else {
                     info.subOrDub = models_1.SubOrSub.SUB;
                 }
-                const episodesAjax = await this.client.get(`/ajax/v2/episode/list/${id.split('-').pop()}`, {
+                const episodesAjax = await this.client.get(`${this.baseUrl}/ajax/v2/episode/list/${id.split('-').pop()}`, {
                     headers: {
                         'X-Requested-With': 'XMLHttpRequest',
                         Referer: `${this.baseUrl}/watch/${id}`,
@@ -156,12 +144,12 @@ class Zoro extends models_1.AnimeParser {
                     case models_1.StreamingServers.StreamSB:
                         return {
                             headers: { Referer: serverUrl.href, watchsb: 'streamsb', 'User-Agent': utils_2.USER_AGENT },
-                            sources: await new utils_1.StreamSB().extract(serverUrl, true),
+                            sources: await new utils_1.StreamSB(this.proxyConfig, this.adapter).extract(serverUrl, true),
                         };
                     case models_1.StreamingServers.StreamTape:
                         return {
                             headers: { Referer: serverUrl.href, 'User-Agent': utils_2.USER_AGENT },
-                            sources: await new utils_1.StreamTape().extract(serverUrl),
+                            sources: await new utils_1.StreamTape(this.proxyConfig, this.adapter).extract(serverUrl),
                         };
                     default:
                     case models_1.StreamingServers.VidCloud:
@@ -268,7 +256,6 @@ class Zoro extends models_1.AnimeParser {
         this.fetchEpisodeServers = (episodeId) => {
             throw new Error('Method not implemented.');
         };
-        this.baseUrl = zoroBase ? zoroBase : this.baseUrl;
     }
 }
 // (async () => {

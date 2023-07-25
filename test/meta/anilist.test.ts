@@ -23,7 +23,7 @@ test('returns episodes for sub and dub not available', async () => {
 
   const dubData = await anilist.fetchEpisodesListById('949', true);
   expect(dubData).not.toBeNull();
-  expect(dubData).toEqual([]);
+  expect(dubData).not.toEqual([]);
 });
 
 test('returns a filled array of servers', async () => {

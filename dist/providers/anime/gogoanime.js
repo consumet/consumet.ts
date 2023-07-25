@@ -5,21 +5,8 @@ const models_1 = require("../../models");
 const utils_1 = require("../../utils");
 const extractors_1 = require("../../extractors");
 class Gogoanime extends models_1.AnimeParser {
-    /**
-     *
-     * @param proxyConfig proxy configuration (optional)
-     * @param adapter axios adapter (optional)
-     * @example
-     * ```ts
-     * const gogo = new Gogoanime({ url: 'https://cors-anywhere.herokuapp.com' });
-     * // or with multiple proxies
-     * const gogo = new Gogoanime({ url: ['https://cors-anywhere.herokuapp.com', ...]});
-     * ```
-     */
-    constructor(proxyConfig, adapter) {
-        super('https://gogoanimehd.to', proxyConfig, adapter);
-        this.proxyConfig = proxyConfig;
-        this.adapter = adapter;
+    constructor() {
+        super(...arguments);
         this.name = 'Gogoanime';
         this.baseUrl = 'https://gogoanimehd.to';
         this.logo = 'https://play-lh.googleusercontent.com/MaGEiAEhNHAJXcXKzqTNgxqRmhuKB1rCUgb15UrN_mWUNRnLpO5T1qja64oRasO7mn0';
@@ -37,7 +24,7 @@ class Gogoanime extends models_1.AnimeParser {
                 results: [],
             };
             try {
-                const res = await this.client.get(`/search.html?keyword=${encodeURIComponent(query)}&page=${page}`);
+                const res = await this.client.get(`${this.baseUrl}/search.html?keyword=${encodeURIComponent(query)}&page=${page}`);
                 const $ = (0, cheerio_1.load)(res.data);
                 searchResult.hasNextPage =
                     $('div.anime_name.new_series > div > div > ul > li.selected').next().length > 0;
@@ -66,7 +53,7 @@ class Gogoanime extends models_1.AnimeParser {
          */
         this.fetchAnimeInfo = async (id) => {
             if (!id.includes('gogoanime'))
-                id = `/category/${id}`;
+                id = `${this.baseUrl}/category/${id}`;
             const animeInfo = {
                 id: '',
                 title: '',
@@ -161,7 +148,7 @@ class Gogoanime extends models_1.AnimeParser {
                     case models_1.StreamingServers.StreamSB:
                         return {
                             headers: { Referer: serverUrl.href, watchsb: 'streamsb', 'User-Agent': utils_1.USER_AGENT },
-                            sources: await new extractors_1.StreamSB().extract(serverUrl),
+                            sources: await new extractors_1.StreamSB(this.proxyConfig, this.adapter).extract(serverUrl),
                             download: `https://gogohd.net/download${serverUrl.search}`,
                         };
                     default:
@@ -173,7 +160,7 @@ class Gogoanime extends models_1.AnimeParser {
                 }
             }
             try {
-                const res = await this.client.get(`/${episodeId}`);
+                const res = await this.client.get(`${this.baseUrl}/${episodeId}`);
                 const $ = (0, cheerio_1.load)(res.data);
                 let serverUrl;
                 switch (server) {
@@ -205,7 +192,7 @@ class Gogoanime extends models_1.AnimeParser {
         this.fetchEpisodeServers = async (episodeId) => {
             try {
                 if (!episodeId.startsWith(this.baseUrl))
-                    episodeId = `/${episodeId}`;
+                    episodeId = `${this.baseUrl}/${episodeId}`;
                 const res = await this.client.get(episodeId);
                 const $ = (0, cheerio_1.load)(res.data);
                 const servers = [];
@@ -231,7 +218,7 @@ class Gogoanime extends models_1.AnimeParser {
         this.fetchAnimeIdFromEpisodeId = async (episodeId) => {
             try {
                 if (!episodeId.startsWith(this.baseUrl))
-                    episodeId = `/${episodeId}`;
+                    episodeId = `${this.baseUrl}/${episodeId}`;
                 const res = await this.client.get(episodeId);
                 const $ = (0, cheerio_1.load)(res.data);
                 return $('#wrapper_bg > section > section.content_left > div:nth-child(1) > div.anime_video_body > div.anime_video_body_cate > div.anime-info > a').attr('href').split('/')[2];
@@ -273,7 +260,7 @@ class Gogoanime extends models_1.AnimeParser {
         };
         this.fetchGenreInfo = async (genre, page = 1) => {
             try {
-                const res = await this.client.get(`/genre/${genre}?page=${page}`);
+                const res = await this.client.get(`${this.baseUrl}/genre/${genre}?page=${page}`);
                 const $ = (0, cheerio_1.load)(res.data);
                 const genreInfo = [];
                 $('div.last_episodes > ul > li').each((i, elem) => {

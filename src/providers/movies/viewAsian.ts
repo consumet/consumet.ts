@@ -21,10 +21,6 @@ class ViewAsian extends MovieParser {
   protected override classPath = 'MOVIES.ViewAsian';
   override supportedTypes = new Set([TvType.MOVIE, TvType.TVSERIES]);
 
-  constructor(private proxyConfig?: ProxyConfig, private adapter?: AxiosAdapter) {
-    super('https://viewasian.co', proxyConfig, adapter);
-  }
-
   override search = async (query: string, page: number = 1): Promise<ISearch<IMovieResult>> => {
     const searchResult: ISearch<IMovieResult> = {
       currentPage: page,
@@ -33,7 +29,9 @@ class ViewAsian extends MovieParser {
     };
 
     try {
-      const { data } = await this.client.get(`/movie/search/${query.replace(/[\W_]+/g, '-')}?page=${page}`);
+      const { data } = await this.client.get(
+        `${this.baseUrl}/movie/search/${query.replace(/[\W_]+/g, '-')}?page=${page}`
+      );
 
       const $ = load(data);
 
@@ -67,8 +65,8 @@ class ViewAsian extends MovieParser {
 
   override fetchMediaInfo = async (mediaId: string): Promise<IMovieInfo> => {
     const realMediaId = mediaId;
-    if (!mediaId.startsWith(this.baseUrl)) mediaId = `/watch/${mediaId.split('/').slice(1)}/watching.html`;
-    if (mediaId.startsWith(this.baseUrl)) mediaId = mediaId.replace(this.baseUrl, '');
+    if (!mediaId.startsWith(this.baseUrl))
+      mediaId = `${this.baseUrl}/watch/${mediaId.split('/').slice(1)}/watching.html`;
 
     const mediaInfo: IMovieInfo = {
       id: '',

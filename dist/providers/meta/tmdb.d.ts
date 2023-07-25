@@ -1,5 +1,5 @@
 import { ISearch, IAnimeInfo, IAnimeResult, ISource, IEpisodeServer, MovieParser, TvType, IMovieResult, IMovieInfo, ProxyConfig } from '../../models';
-import { AxiosAdapter } from "axios";
+import { AxiosAdapter } from 'axios';
 declare class TMDB extends MovieParser {
     private apiKey;
     readonly name = "TMDB";

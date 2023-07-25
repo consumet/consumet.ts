@@ -23,7 +23,6 @@ class AnimeFox extends AnimeParser {
    * @param query Search query
    * @param page Page number (optional)
    */
-
   override search = async (query: string, page: number = 1): Promise<ISearch<IAnimeResult>> => {
     try {
       const { data } = await this.client.get(
@@ -77,7 +76,6 @@ class AnimeFox extends AnimeParser {
   /**
    * @param id Anime id
    */
-
   override fetchAnimeInfo = async (id: string): Promise<IAnimeInfo> => {
     const info: IAnimeInfo = {
       id: id,
@@ -188,10 +186,10 @@ class AnimeFox extends AnimeParser {
       const iframe = $('#iframe-to-load').attr('src') || '';
       const streamUrl = `https://goload.io/streaming.php?id=${iframe.split('=')[1]}`;
       return {
-        sources: await new GogoCDN().extract(new URL(streamUrl)),
+        sources: await new GogoCDN(this.proxyConfig).extract(new URL(streamUrl)),
       };
     } catch (err) {
-      console.log(err)
+      console.log(err);
       throw new Error('Something went wrong. Please try again later.');
     }
   };
@@ -208,6 +206,8 @@ export default AnimeFox;
 
 // (async () => {
 //   const animepahe = new AnimeFox();
-//   const sources = await animepahe.fetchEpisodeSources("youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-episode-1");
+//   const sources = await animepahe.fetchEpisodeSources(
+//     'youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-episode-1'
+//   );
 //   console.log(sources);
 // })();

@@ -22,13 +22,8 @@ class DramaCool extends MovieParser {
   protected override classPath = 'MOVIES.DramaCool';
   override supportedTypes = new Set([TvType.MOVIE, TvType.TVSERIES]);
 
-  constructor(private proxyConfig?: ProxyConfig, private adapter?: AxiosAdapter) {
-    super('https://www1.dramacool.cr', proxyConfig, adapter);
-  }
-
   override search = async (query: string, page: number = 1): Promise<ISearch<IMovieResult>> => {
     try {
-
       const searchResult: ISearch<IMovieResult> = {
         currentPage: page,
         hasNextPage: false,
@@ -36,7 +31,7 @@ class DramaCool extends MovieParser {
       };
 
       const { data } = await this.client.get(
-        `/search?keyword=${query.replace(/[\W_]+/g, '-')}&page=${page}`
+        `${this.baseUrl}/search?keyword=${query.replace(/[\W_]+/g, '-')}&page=${page}`
       );
 
       const $ = load(data);
@@ -62,10 +57,8 @@ class DramaCool extends MovieParser {
 
   override fetchMediaInfo = async (mediaId: string): Promise<IMovieInfo> => {
     try {
-
       const realMediaId = mediaId;
-      if (!mediaId.startsWith(this.baseUrl)) mediaId = `/${mediaId}`;
-      if (mediaId.startsWith(this.baseUrl)) mediaId = mediaId.replace(this.baseUrl, '');
+      if (!mediaId.startsWith(this.baseUrl)) mediaId = `${this.baseUrl}/${mediaId}`;
 
       const mediaInfo: IMovieInfo = {
         id: '',
@@ -112,7 +105,7 @@ class DramaCool extends MovieParser {
     try {
       const episodeServers: IEpisodeServer[] = [];
 
-      if (!episodeId.includes('.html')) episodeId = `/${episodeId}.html`;
+      if (!episodeId.includes('.html')) episodeId = `${this.baseUrl}/${episodeId}.html`;
 
       const { data } = await this.client.get(episodeId);
       const $ = load(data);
@@ -121,7 +114,7 @@ class DramaCool extends MovieParser {
         const url = $(ele).attr('data-video')!;
         let name = $(ele).attr('class')!.replace('selected', '').trim();
         if (name.includes('Standard')) {
-          name = StreamingServers.AsianLoad
+          name = StreamingServers.AsianLoad;
         }
         episodeServers.push({
           name: name,
@@ -164,7 +157,7 @@ class DramaCool extends MovieParser {
     }
 
     try {
-      if (!episodeId.includes('.html')) episodeId = `/${episodeId}.html`;
+      if (!episodeId.includes('.html')) episodeId = `${this.baseUrl}/${episodeId}.html`;
 
       const servers = await this.fetchEpisodeServers(episodeId);
       const i = servers.findIndex(s => s.name.toLowerCase() === server.toLowerCase());

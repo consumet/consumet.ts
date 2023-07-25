@@ -4,10 +4,8 @@ const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
 const extractors_1 = require("../../extractors");
 class ViewAsian extends models_1.MovieParser {
-    constructor(proxyConfig, adapter) {
-        super('https://viewasian.co', proxyConfig, adapter);
-        this.proxyConfig = proxyConfig;
-        this.adapter = adapter;
+    constructor() {
+        super(...arguments);
         this.name = 'ViewAsian';
         this.baseUrl = 'https://viewasian.co';
         this.logo = 'https://viewasian.co/images/logo.png';
@@ -20,7 +18,7 @@ class ViewAsian extends models_1.MovieParser {
                 results: [],
             };
             try {
-                const { data } = await this.client.get(`/movie/search/${query.replace(/[\W_]+/g, '-')}?page=${page}`);
+                const { data } = await this.client.get(`${this.baseUrl}/movie/search/${query.replace(/[\W_]+/g, '-')}?page=${page}`);
                 const $ = (0, cheerio_1.load)(data);
                 const navSelector = 'div#pagination > nav:nth-child(1) > ul:nth-child(1)';
                 searchResult.hasNextPage =
@@ -51,9 +49,7 @@ class ViewAsian extends models_1.MovieParser {
         this.fetchMediaInfo = async (mediaId) => {
             const realMediaId = mediaId;
             if (!mediaId.startsWith(this.baseUrl))
-                mediaId = `/watch/${mediaId.split('/').slice(1)}/watching.html`;
-            if (mediaId.startsWith(this.baseUrl))
-                mediaId = mediaId.replace(this.baseUrl, '');
+                mediaId = `${this.baseUrl}/watch/${mediaId.split('/').slice(1)}/watching.html`;
             const mediaInfo = {
                 id: '',
                 title: '',

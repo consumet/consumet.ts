@@ -1,4 +1,5 @@
-import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, ISource, IEpisodeServer } from '../../models';
+import { AxiosAdapter } from 'axios';
+import { AnimeParser, ISearch, IAnimeInfo, IAnimeResult, ISource, IEpisodeServer, ProxyConfig } from '../../models';
 declare class Crunchyroll extends AnimeParser {
     readonly name = "Crunchyroll";
     protected baseUrl: string;
@@ -9,7 +10,7 @@ declare class Crunchyroll extends AnimeParser {
     private get options();
     private locales;
     private subOrder;
-    static create(locale?: string, token?: string, accessToken?: string): Promise<Crunchyroll>;
+    static create(locale?: string, token?: string, accessToken?: string, proxyConfig?: ProxyConfig, adapter?: AxiosAdapter): Promise<Crunchyroll>;
     /**
      * @param query Search query
      */

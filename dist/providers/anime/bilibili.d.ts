@@ -1,4 +1,5 @@
-import { AnimeParser, IAnimeInfo, IAnimeResult, IEpisodeServer, ISearch, ISource } from '../../models';
+import { AnimeParser, IAnimeInfo, IAnimeResult, IEpisodeServer, ISearch, ISource, ProxyConfig } from '../../models';
+import { AxiosAdapter } from 'axios';
 declare class Bilibili extends AnimeParser {
     readonly name = "Bilibili";
     protected baseUrl: string;
@@ -8,7 +9,7 @@ declare class Bilibili extends AnimeParser {
     private cookie;
     private locale;
     private sgProxy;
-    constructor(cookie?: string, locale?: string);
+    constructor(cookie?: string, locale?: string, proxyConfig?: ProxyConfig, adapter?: AxiosAdapter);
     search(query: string): Promise<ISearch<IAnimeResult>>;
     fetchAnimeInfo(id: string): Promise<IAnimeInfo>;
     fetchEpisodeSources(episodeId: string, ...args: any): Promise<ISource>;

@@ -1,4 +1,4 @@
-import {Cheerio, load} from 'cheerio';
+import { Cheerio, load } from 'cheerio';
 
 import {
   AnimeParser,
@@ -14,8 +14,7 @@ import {
 class AnimeSaturn extends AnimeParser {
   override readonly name = 'AnimeSaturn';
   protected override baseUrl = 'https://www.animesaturn.tv/';
-  protected override logo =
-    'https://www.animesaturn.tv/immagini/favicon-32x32.png';
+  protected override logo = 'https://www.animesaturn.tv/immagini/favicon-32x32.png';
   protected override classPath = 'ANIME.AnimeSaturn';
 
   /**
@@ -24,7 +23,7 @@ class AnimeSaturn extends AnimeParser {
   override search = async (query: string): Promise<ISearch<IAnimeResult>> => {
     // baseUrl/animelist?search={query}
 
-    const data = await this.client.get(`${this.baseUrl}animelist?search=${query}`)
+    const data = await this.client.get(`${this.baseUrl}animelist?search=${query}`);
 
     const $ = await load(data.data);
 
@@ -38,7 +37,6 @@ class AnimeSaturn extends AnimeParser {
       results: [],
     };
 
-
     $('ul.list-group li').each((i, element) => {
       const item: IAnimeResult = {
         id: $(element)?.find('a.thumb')?.attr('href')?.split('/')?.pop() ?? '',
@@ -47,11 +45,10 @@ class AnimeSaturn extends AnimeParser {
         url: $(element)?.find('h3 a')?.attr('href'),
       };
 
-      if (!item.id )throw new Error('Invalid id');
+      if (!item.id) throw new Error('Invalid id');
 
       res.results.push(item);
     });
-
 
     return res;
   };
@@ -66,27 +63,35 @@ class AnimeSaturn extends AnimeParser {
     const info: IAnimeInfo = {
       id,
       title: $('div.container.anime-title-as> b').text(),
-      genres: $('div.container a.badge.badge-light')?.map((i, element): string => {
-        return $(element).text();
-      }).toArray() ?? undefined,
+      genres:
+        $('div.container a.badge.badge-light')
+          ?.map((i, element): string => {
+            return $(element).text();
+          })
+          .toArray() ?? undefined,
       image: $('img.img-fluid')?.attr('src') || undefined,
-      cover: $('div.banner')?.attr('style')?.match(/background:\s*url\(['"]?([^'")]+)['"]?\)/i)?.[1] || undefined,
+      cover:
+        $('div.banner')
+          ?.attr('style')
+          ?.match(/background:\s*url\(['"]?([^'")]+)['"]?\)/i)?.[1] || undefined,
       description: $('#full-trama').text(),
       episodes: [],
     };
 
-    const episodes: IAnimeEpisode[] = []
+    const episodes: IAnimeEpisode[] = [];
 
     $('.tab-pane.fade').each((i, element) => {
-      $(element).find('.bottone-ep').each((i, element) => {
-        const link = $(element).attr('href');
-        const episodeNumber = $(element).text().trim().replace('Episodio ', '').trim();
+      $(element)
+        .find('.bottone-ep')
+        .each((i, element) => {
+          const link = $(element).attr('href');
+          const episodeNumber = $(element).text().trim().replace('Episodio ', '').trim();
 
-        episodes.push({
-          number: parseInt(episodeNumber),
-          id: link?.split('/')?.pop() ?? '',
+          episodes.push({
+            number: parseInt(episodeNumber),
+            id: link?.split('/')?.pop() ?? '',
+          });
         });
-      });
     });
 
     info.episodes = episodes.sort((a, b) => a.number - b.number);
@@ -102,22 +107,20 @@ class AnimeSaturn extends AnimeParser {
     const fakeData = await this.client.get(`${this.baseUrl}ep/${episodeId}`);
     const $2 = await load(fakeData.data);
 
-    const newUrl = $2("div > a:contains('Streaming')").attr('href')
+    const newUrl = $2("div > a:contains('Streaming')").attr('href');
 
     if (newUrl == null) throw new Error('Invalid url');
     const data = await this.client.get(newUrl);
     const $ = await load(data.data);
 
     const sources: ISource = {
-      headers: {
-
-      },
+      headers: {},
       subtitles: [],
       sources: [],
-    }
+    };
 
-    const scriptTag = $('script').filter(function() {
-      return $(this).text().includes('jwplayer(\'player_hls\')');
+    const scriptTag = $('script').filter(function () {
+      return $(this).text().includes("jwplayer('player_hls')");
     });
 
     let getOneSource: string | undefined;
@@ -125,7 +128,7 @@ class AnimeSaturn extends AnimeParser {
     scriptTag.each((i, element) => {
       const scriptText = $(element).text();
 
-      scriptText.split("\n").forEach((line) => {
+      scriptText.split('\n').forEach(line => {
         if (line.includes('file:') && !getOneSource) {
           getOneSource = line.split('file:')[1].trim().replace(/'/g, '').replace(/,/g, '').replace(/"/g, '');
         }
@@ -134,16 +137,15 @@ class AnimeSaturn extends AnimeParser {
 
     if (!getOneSource) throw new Error('Invalid source');
 
-
     sources.sources.push({
       url: getOneSource,
       isM3U8: getOneSource.includes('.m3u8'),
     });
 
     sources.subtitles?.push({
-      url: getOneSource.replace("playlist.m3u8", "subtitles.vtt"),
-      lang: 'Spanish'
-    })
+      url: getOneSource.replace('playlist.m3u8', 'subtitles.vtt'),
+      lang: 'Spanish',
+    });
 
     return sources;
   };

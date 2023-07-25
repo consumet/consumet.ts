@@ -22,7 +22,7 @@ class SmashyStream extends MovieParser {
   };
 
   override fetchMediaInfo = async (): Promise<IMovieInfo> => {
-    throw new Error('Method not implemented.',);
+    throw new Error('Method not implemented.');
   };
 
   override fetchEpisodeServers = async (
@@ -77,49 +77,49 @@ class SmashyStream extends MovieParser {
 
         return {
           headers: { Referer: this.baseUrl },
-          ...(await new SS().extract(new URL(url))),
+          ...(await new SS(this.proxyConfig, this.adapter).extract(new URL(url))),
         };
       }
 
       if (selectedServer.url.includes('/ffix')) {
         return {
           headers: { Referer: this.baseUrl },
-          ...(await new SS().extractSmashyFfix(selectedServer.url)),
+          ...(await new SS(this.proxyConfig, this.adapter).extractSmashyFfix(selectedServer.url)),
         };
       }
 
       if (selectedServer.url.includes('/watchx')) {
         return {
           headers: { Referer: this.baseUrl },
-          ...(await new SS().extractSmashyWatchX(selectedServer.url)),
+          ...(await new SS(this.proxyConfig, this.adapter).extractSmashyWatchX(selectedServer.url)),
         };
       }
 
       if (selectedServer.url.includes('/nflim')) {
         return {
           headers: { Referer: this.baseUrl },
-          ...(await new SS().extractSmashyNFlim(selectedServer.url)),
+          ...(await new SS(this.proxyConfig, this.adapter).extractSmashyNFlim(selectedServer.url)),
         };
       }
 
       if (selectedServer.url.includes('/fx')) {
         return {
           headers: { Referer: this.baseUrl },
-          ...(await new SS().extractSmashyFX(selectedServer.url)),
+          ...(await new SS(this.proxyConfig, this.adapter).extractSmashyFX(selectedServer.url)),
         };
       }
 
       if (selectedServer.url.includes('/cf')) {
         return {
           headers: { Referer: this.baseUrl },
-          ...(await new SS().extractSmashyCF(selectedServer.url)),
+          ...(await new SS(this.proxyConfig, this.adapter).extractSmashyCF(selectedServer.url)),
         };
       }
 
       if (selectedServer.url.includes('/eemovie')) {
         return {
           headers: { Referer: this.baseUrl },
-          ...(await new SS().extractSmashyEEMovie(selectedServer.url)),
+          ...(await new SS(this.proxyConfig, this.adapter).extractSmashyEEMovie(selectedServer.url)),
         };
       }
 

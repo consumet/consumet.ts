@@ -121,15 +121,15 @@ class KissAsian extends models_1.MovieParser {
                 switch (server) {
                     case models_1.StreamingServers.VidMoly:
                         return {
-                            sources: await new extractors_1.VidMoly().extract(serverUrl),
+                            sources: await new extractors_1.VidMoly(this.proxyConfig, this.adapter).extract(serverUrl),
                         };
                     case models_1.StreamingServers.StreamWish:
                         return {
-                            sources: await new extractors_1.StreamWish().extract(serverUrl),
+                            sources: await new extractors_1.StreamWish(this.proxyConfig, this.adapter).extract(serverUrl),
                         };
                     case models_1.StreamingServers.Mp4Upload:
                         return {
-                            sources: await new extractors_1.Mp4Upload().extract(serverUrl),
+                            sources: await new extractors_1.Mp4Upload(this.proxyConfig, this.adapter).extract(serverUrl),
                         };
                     default:
                         throw new Error('Server not supported');

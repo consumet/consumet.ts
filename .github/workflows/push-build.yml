@@ -1,10 +1,6 @@
 name: Compile TS
 
-on: 
-  workflow_run:
-    workflows: ["Node.js CI"]
-    types:
-      - completed
+on: [pull_request]
 
 jobs:
   build:

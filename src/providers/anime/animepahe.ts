@@ -56,7 +56,9 @@ class AnimePahe extends AnimeParser {
     };
 
     try {
-      const res = await this.client.get(`${this.baseUrl}/anime/${id.split('/')[1]}?anime_id=${id.split('/')[0]}`);
+      const res = await this.client.get(
+        `${this.baseUrl}/anime/${id.split('/')[1]}?anime_id=${id.split('/')[0]}`
+      );
       const $ = load(res.data);
 
       animeInfo.title = $('div.title-wrapper > h1 > span').first().text();
@@ -104,7 +106,9 @@ class AnimePahe extends AnimeParser {
       if (episodePage < 0) {
         const {
           data: { last_page, data },
-        } = await this.client.get(`${this.baseUrl}/api?m=release&id=${id.split('/')[1]}&sort=episode_asc&page=1`);
+        } = await this.client.get(
+          `${this.baseUrl}/api?m=release&id=${id.split('/')[1]}&sort=episode_asc&page=1`
+        );
 
         animeInfo.episodePages = last_page;
 
@@ -163,7 +167,7 @@ class AnimePahe extends AnimeParser {
       };
 
       for (const link of links) {
-        const res = await new Kwik().extract(new URL(link.url));
+        const res = await new Kwik(this.proxyConfig).extract(new URL(link.url));
         res[0].quality = link.quality;
         res[0].isDub = link.audio === 'eng';
         iSource.sources.push(res[0]);
@@ -176,7 +180,9 @@ class AnimePahe extends AnimeParser {
   };
 
   private fetchEpisodes = async (session: string, page: number): Promise<IAnimeEpisode[]> => {
-    const res = await this.client.get(`${this.baseUrl}/api?m=release&id=${session}&sort=episode_asc&page=${page}`);
+    const res = await this.client.get(
+      `${this.baseUrl}/api?m=release&id=${session}&sort=episode_asc&page=${page}`
+    );
 
     const epData = res.data.data;
 

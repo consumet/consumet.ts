@@ -1,7 +1,12 @@
 "use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
-class BaseProvider {
+const proxy_1 = __importDefault(require("./proxy"));
+class BaseProvider extends proxy_1.default {
     constructor() {
+        super(...arguments);
         /**
          * Most providers are english based, but if the provider is not english based override this value.
          * must be in [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) format
