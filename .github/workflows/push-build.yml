@@ -7,8 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # clone the repo
-      - name: Checkout
-        uses: actions/checkout@v3
+      - name: Checkout PR
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh pr checkout ${{ github.event.pull_request.number }}
 
       # install dependencies
       - name: Install dependencies
@@ -18,13 +20,18 @@ jobs:
       - name: Compile TS
         run: yarn build
 
-      # push changes to the pull request
-      - name: Push changes
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: 'chore (build): compile ts'
-          commit_options: '--no-verify'
-          repository: ${{ github.repository }}
-          branch: ${{ github.head_ref }}
+      # commit changes
+      - name: Commit changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "chore (build): Compile TS"
 
+      - name: Push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+        run: git push
       
