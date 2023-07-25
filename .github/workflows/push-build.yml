@@ -32,7 +32,7 @@ jobs:
           if [ $? -eq 0 ]
           then
             echo "No changes to commit"
-            exit 1
+            exit 0
           fi
         shell: bash
         
