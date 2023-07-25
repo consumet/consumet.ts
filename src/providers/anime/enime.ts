@@ -1,5 +1,3 @@
-import axios from 'axios';
-
 import {
   AnimeParser,
   ISearch,
@@ -26,7 +24,7 @@ class Enime extends AnimeParser {
    * @param page Page number (optional)
    */
   rawSearch = async (query: string, page: number = 1, perPage: number = 15): Promise<any> => {
-    const { data } = await axios.get(`${this.enimeApi}/search/${query}?page=${page}&perPage=${perPage}`);
+    const { data } = await this.client.get(`${this.enimeApi}/search/${query}?page=${page}&perPage=${perPage}`);
 
     return data;
   };
@@ -45,7 +43,7 @@ class Enime extends AnimeParser {
       results: [],
     };
 
-    const { data } = await axios.get(`${this.enimeApi}/search/${query}?page=${page}&perPage=${perPage}`);
+    const { data } = await this.client.get(`${this.enimeApi}/search/${query}?page=${page}&perPage=${perPage}`);
 
     if (data.currentPage !== res.currentPage) res.hasNextPage = true;
 
@@ -76,7 +74,7 @@ class Enime extends AnimeParser {
       title: '',
     };
 
-    const { data } = await axios.get(`${this.enimeApi}/anime/${id}`).catch(() => {
+    const { data } = await this.client.get(`${this.enimeApi}/anime/${id}`).catch(() => {
       throw new Error('Anime not found');
     });
 
@@ -110,7 +108,7 @@ class Enime extends AnimeParser {
   };
 
   fetchAnimeInfoByIdRaw = async (id: string): Promise<any> => {
-    const { data } = await axios.get(`${this.enimeApi}/mapping/anilist/${id}`).catch(err => {
+    const { data } = await this.client.get(`${this.enimeApi}/mapping/anilist/${id}`).catch(err => {
       throw new Error("Backup api seems to be down! Can't fetch anime info");
     });
 
@@ -128,7 +126,7 @@ class Enime extends AnimeParser {
       id: id,
       title: '',
     };
-    const { data } = await axios.get(`${this.enimeApi}/mapping/anilist/${id}`).catch(err => {
+    const { data } = await this.client.get(`${this.enimeApi}/mapping/anilist/${id}`).catch(err => {
       throw new Error(err);
     });
 
@@ -195,7 +193,7 @@ class Enime extends AnimeParser {
       id: id,
       title: '',
     };
-    const { data } = await axios.get(`${this.enimeApi}/mapping/mal/${id}`).catch(err => {
+    const { data } = await this.client.get(`${this.enimeApi}/mapping/mal/${id}`).catch(err => {
       throw new Error(err);
     });
 
@@ -263,14 +261,14 @@ class Enime extends AnimeParser {
       sources: [],
     };
 
-    const { data } = await axios.get(`${this.enimeApi}/episode/${episodeId}`);
+    const { data } = await this.client.get(`${this.enimeApi}/episode/${episodeId}`);
     const {
       data: { url, referer },
-    } = await axios.get(`${this.enimeApi}/source/${data.sources[0].id!}`);
+    } = await this.client.get(`${this.enimeApi}/source/${data.sources[0].id!}`);
 
     res.headers!['Referer'] = referer;
 
-    const resResult = await axios.get(url);
+    const resResult = await this.client.get(url);
     const resolutions = resResult.data.match(/(RESOLUTION=)(.*)(\s*?)(\s*.*)/g);
     resolutions.forEach((ress: string) => {
       const index = url.lastIndexOf('/');
@@ -300,11 +298,11 @@ class Enime extends AnimeParser {
 
     const {
       data: { url, referer, subtitle },
-    } = await axios.get(`${this.enimeApi}/source/${sourceId}`);
+    } = await this.client.get(`${this.enimeApi}/source/${sourceId}`);
 
     res.headers!['Referer'] = referer;
 
-    const resResult = await axios.get(url).catch(() => {
+    const resResult = await this.client.get(url).catch(() => {
       throw new Error('Source not found');
     });
     const resolutions = resResult.data.match(/(RESOLUTION=)(.*)(\s*?)(\s*.*)/g);

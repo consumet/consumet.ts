@@ -1,4 +1,3 @@
-import axios from 'axios';
 import { load } from 'cheerio';
 
 import {
@@ -28,7 +27,7 @@ class KissAsian extends MovieParser {
         results: [],
       };
 
-      const response = await axios.post(
+      const response = await this.client.post(
         `${this.baseUrl}/Search/Drama`,
         `keyword=${query.replace(/[\W_]+/g, '-')}`,
         {
@@ -73,7 +72,7 @@ class KissAsian extends MovieParser {
         title: '',
       };
 
-      const { data } = await axios.post(mediaId, {
+      const { data } = await this.client.post(mediaId, {
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',
         },
@@ -142,7 +141,7 @@ class KissAsian extends MovieParser {
     try {
       const episodeServers: IEpisodeServer[] = [];
 
-      const { data } = await axios.post(`${this.baseUrl}/${episodeId}`, {
+      const { data } = await this.client.post(`${this.baseUrl}/${episodeId}`, {
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',
         },
@@ -156,7 +155,7 @@ class KissAsian extends MovieParser {
 
       await Promise.all(
         $('ul.mirrorTab > li > a.ign').map(async (i, ele) => {
-          const { data } = await axios.post(`${this.baseUrl}${$(ele).attr('href')}`, {
+          const { data } = await this.client.post(`${this.baseUrl}${$(ele).attr('href')}`, {
             headers: {
               'Content-Type': 'application/x-www-form-urlencoded',
             },
@@ -204,15 +203,15 @@ class KissAsian extends MovieParser {
       switch (server) {
         case StreamingServers.VidMoly:
           return {
-            sources: await new VidMoly().extract(serverUrl),
+            sources: await new VidMoly(this.proxyConfig, this.adapter).extract(serverUrl),
           };
         case StreamingServers.StreamWish:
           return {
-            sources: await new StreamWish().extract(serverUrl),
+            sources: await new StreamWish(this.proxyConfig, this.adapter).extract(serverUrl),
           };
         case StreamingServers.Mp4Upload:
           return {
-            sources: await new Mp4Upload().extract(serverUrl),
+            sources: await new Mp4Upload(this.proxyConfig, this.adapter).extract(serverUrl),
           };
         default:
           throw new Error('Server not supported');

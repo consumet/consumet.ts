@@ -1,9 +1,5 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const axios_1 = __importDefault(require("axios"));
 const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
 const extractors_1 = require("../../extractors");
@@ -22,7 +18,7 @@ class KissAsian extends models_1.MovieParser {
                     hasNextPage: false,
                     results: [],
                 };
-                const response = await axios_1.default.post(`${this.baseUrl}/Search/Drama`, `keyword=${query.replace(/[\W_]+/g, '-')}`, {
+                const response = await this.client.post(`${this.baseUrl}/Search/Drama`, `keyword=${query.replace(/[\W_]+/g, '-')}`, {
                     headers: {
                         'Content-Type': 'application/x-www-form-urlencoded',
                     },
@@ -61,7 +57,7 @@ class KissAsian extends models_1.MovieParser {
                     id: '',
                     title: '',
                 };
-                const { data } = await axios_1.default.post(mediaId, {
+                const { data } = await this.client.post(mediaId, {
                     headers: {
                         'Content-Type': 'application/x-www-form-urlencoded',
                     },
@@ -125,15 +121,15 @@ class KissAsian extends models_1.MovieParser {
                 switch (server) {
                     case models_1.StreamingServers.VidMoly:
                         return {
-                            sources: await new extractors_1.VidMoly().extract(serverUrl),
+                            sources: await new extractors_1.VidMoly(this.proxyConfig, this.adapter).extract(serverUrl),
                         };
                     case models_1.StreamingServers.StreamWish:
                         return {
-                            sources: await new extractors_1.StreamWish().extract(serverUrl),
+                            sources: await new extractors_1.StreamWish(this.proxyConfig, this.adapter).extract(serverUrl),
                         };
                     case models_1.StreamingServers.Mp4Upload:
                         return {
-                            sources: await new extractors_1.Mp4Upload().extract(serverUrl),
+                            sources: await new extractors_1.Mp4Upload(this.proxyConfig, this.adapter).extract(serverUrl),
                         };
                     default:
                         throw new Error('Server not supported');
@@ -156,7 +152,7 @@ class KissAsian extends models_1.MovieParser {
     async fetchEpisodeServers(episodeId) {
         try {
             const episodeServers = [];
-            const { data } = await axios_1.default.post(`${this.baseUrl}/${episodeId}`, {
+            const { data } = await this.client.post(`${this.baseUrl}/${episodeId}`, {
                 headers: {
                     'Content-Type': 'application/x-www-form-urlencoded',
                 },
@@ -167,7 +163,7 @@ class KissAsian extends models_1.MovieParser {
                 url: $('iframe#mVideo').attr('src'),
             });
             await Promise.all($('ul.mirrorTab > li > a.ign').map(async (i, ele) => {
-                const { data } = await axios_1.default.post(`${this.baseUrl}${$(ele).attr('href')}`, {
+                const { data } = await this.client.post(`${this.baseUrl}${$(ele).attr('href')}`, {
                     headers: {
                         'Content-Type': 'application/x-www-form-urlencoded',
                     },

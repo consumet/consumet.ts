@@ -1,10 +1,6 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 const cheerio_1 = require("cheerio");
-const axios_1 = __importDefault(require("axios"));
 const models_1 = require("../../models");
 const extractors_1 = require("../../extractors");
 const utils_1 = require("../../utils");
@@ -12,8 +8,8 @@ const utils_1 = require("../../utils");
  * **Use at your own risk :)** 9anime devs keep changing the keys every week
  */
 class NineAnime extends models_1.AnimeParser {
-    constructor(nineAnimeResolver, proxyConfig, apiKey) {
-        super('https://9anime.pl', proxyConfig && proxyConfig.url ? proxyConfig : undefined);
+    constructor(nineAnimeResolver, proxyConfig, apiKey, adapter) {
+        super(proxyConfig, adapter);
         this.name = '9Anime';
         this.nineAnimeResolver = '';
         this.apiKey = '';
@@ -32,7 +28,7 @@ class NineAnime extends models_1.AnimeParser {
         };
         try {
             const vrf = await this.searchVrf(query);
-            const res = await this.client.get(`/filter?keyword=${encodeURIComponent(query).replace(/%20/g, '+')}&vrf=${encodeURIComponent(vrf)}&page=${page}`);
+            const res = await this.client.get(`${this.baseUrl}/filter?keyword=${encodeURIComponent(query).replace(/%20/g, '+')}&vrf=${encodeURIComponent(vrf)}&page=${page}`);
             const $ = (0, cheerio_1.load)(res.data);
             searchResult.hasNextPage =
                 $(`ul.pagination`).length > 0
@@ -82,7 +78,7 @@ class NineAnime extends models_1.AnimeParser {
     async fetchAnimeInfo(animeUrl) {
         var _a, _b, _c, _d, _e;
         if (!animeUrl.startsWith(this.baseUrl))
-            animeUrl = `/watch/${animeUrl}`;
+            animeUrl = `${this.baseUrl}/watch/${animeUrl}`;
         const animeInfo = {
             id: '',
             title: '',
@@ -157,7 +153,7 @@ class NineAnime extends models_1.AnimeParser {
             animeInfo.hasDub = $('div#w-info > .binfo > .info > .meta .dub').length == 1;
             const id = $('#watch-main').attr('data-id');
             const vrf = await this.ev(id);
-            const { data: { result }, } = await this.client.get(`/ajax/episode/list/${id}?vrf=${encodeURIComponent(vrf)}`);
+            const { data: { result }, } = await this.client.get(`${this.baseUrl}/ajax/episode/list/${id}?vrf=${encodeURIComponent(vrf)}`);
             const $$ = (0, cheerio_1.load)(result);
             animeInfo.totalEpisodes = $$('div.episodes > ul > li > a').length;
             animeInfo.episodes = [];
@@ -245,9 +241,9 @@ class NineAnime extends models_1.AnimeParser {
                 default:
                     throw new Error('Server not found');
             }
-            const serverVrf = (await axios_1.default.get(`${this.nineAnimeResolver}/vrf?query=${encodeURIComponent(s.url)}&apikey=${this.apiKey}`)).data.url;
-            const serverSource = (await this.client.get(`/ajax/server/${s.url}?vrf=${encodeURIComponent(serverVrf)}`)).data;
-            const embedURL = (await axios_1.default.get(`${this.nineAnimeResolver}/decrypt?query=${encodeURIComponent(serverSource.result.url)}&apikey=${this.apiKey}`)).data.url;
+            const serverVrf = (await this.client.get(`${this.nineAnimeResolver}/vrf?query=${encodeURIComponent(s.url)}&apikey=${this.apiKey}`)).data.url;
+            const serverSource = (await this.client.get(`${this.baseUrl}/ajax/server/${s.url}?vrf=${encodeURIComponent(serverVrf)}`)).data;
+            const embedURL = (await this.client.get(`${this.nineAnimeResolver}/decrypt?query=${encodeURIComponent(serverSource.result.url)}&apikey=${this.apiKey}`)).data.url;
             if (embedURL.startsWith('http')) {
                 const response = await this.fetchEpisodeSources(embedURL, server);
                 response.embedURL = embedURL;
@@ -267,7 +263,7 @@ class NineAnime extends models_1.AnimeParser {
     }
     async fetchEpisodeServers(episodeId) {
         if (!episodeId.startsWith(this.baseUrl))
-            episodeId = `/ajax/server/list/${episodeId}?vrf=${encodeURIComponent(await this.ev(episodeId))}`;
+            episodeId = `${this.baseUrl}/ajax/server/list/${episodeId}?vrf=${encodeURIComponent(await this.ev(episodeId))}`;
         const { data: { result }, } = await this.client.get(episodeId);
         const $ = (0, cheerio_1.load)(result);
         const servers = [];
@@ -281,7 +277,7 @@ class NineAnime extends models_1.AnimeParser {
         return servers;
     }
     async ev(query, raw = false) {
-        const { data } = await axios_1.default.get(`${this.nineAnimeResolver}/vrf?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`);
+        const { data } = await this.client.get(`${this.nineAnimeResolver}/vrf?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`);
         if (raw) {
             return data;
         }
@@ -290,7 +286,7 @@ class NineAnime extends models_1.AnimeParser {
         }
     }
     async searchVrf(query, raw = false) {
-        const { data } = await axios_1.default.get(`${this.nineAnimeResolver}/9anime-search?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`);
+        const { data } = await this.client.get(`${this.nineAnimeResolver}/9anime-search?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`);
         if (raw) {
             return data;
         }
@@ -299,7 +295,7 @@ class NineAnime extends models_1.AnimeParser {
         }
     }
     async decrypt(query, raw = false) {
-        const { data } = await axios_1.default.get(`${this.nineAnimeResolver}/decrypt?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`);
+        const { data } = await this.client.get(`${this.nineAnimeResolver}/decrypt?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`);
         if (raw) {
             return data;
         }
@@ -308,11 +304,11 @@ class NineAnime extends models_1.AnimeParser {
         }
     }
     async vizcloud(query) {
-        const { data } = await axios_1.default.get(`${this.nineAnimeResolver}/vizcloud?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`);
+        const { data } = await this.client.get(`${this.nineAnimeResolver}/vizcloud?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`);
         return data;
     }
     async customRequest(query, action) {
-        const { data } = await axios_1.default.get(`${this.nineAnimeResolver}/${action}?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`);
+        const { data } = await this.client.get(`${this.nineAnimeResolver}/${action}?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`);
         return data;
     }
 }

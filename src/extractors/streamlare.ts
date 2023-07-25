@@ -1,4 +1,3 @@
-import axios from 'axios';
 import { load } from 'cheerio';
 import { IVideo, ISource } from '../models';
 import VideoExtractor from '../models/video-extractor';
@@ -31,7 +30,7 @@ class StreamLare extends VideoExtractor {
       throw new Error('Video id not matched!');
     }
 
-    const POST = await axios.post(
+    const POST = await this.client.post(
       this.host + '/api/video/stream/get',
       {
         id: videoId,

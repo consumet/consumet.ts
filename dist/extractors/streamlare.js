@@ -3,7 +3,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const axios_1 = __importDefault(require("axios"));
 const cheerio_1 = require("cheerio");
 const video_extractor_1 = __importDefault(require("../models/video-extractor"));
 class StreamLare extends video_extractor_1.default {
@@ -24,7 +23,7 @@ class StreamLare extends video_extractor_1.default {
         if (videoId == undefined) {
             throw new Error('Video id not matched!');
         }
-        const POST = await axios_1.default.post(this.host + '/api/video/stream/get', {
+        const POST = await this.client.post(this.host + '/api/video/stream/get', {
             id: videoId,
         }, {
             headers: {

@@ -1,16 +1,12 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 const cheerio_1 = require("cheerio");
-const axios_1 = __importDefault(require("axios"));
 const utils_1 = require("../../utils/utils");
 const models_1 = require("../../models");
 const extractors_1 = require("../../extractors");
 class Fmovies extends models_1.MovieParser {
-    constructor(fmoviesResolver, proxyConfig, apiKey) {
-        super('https://fmovies.to', proxyConfig && proxyConfig.url ? proxyConfig : undefined);
+    constructor(fmoviesResolver, proxyConfig, apiKey, adapter) {
+        super(proxyConfig && proxyConfig.url ? proxyConfig : undefined, adapter);
         this.name = 'Fmovies';
         this.baseUrl = 'https://fmovies.to';
         this.logo = 'https://s1.bunnycdn.ru/assets/sites/fmovies/logo2.png';
@@ -33,7 +29,7 @@ class Fmovies extends models_1.MovieParser {
             try {
                 query = query.replace(/[\W_]+/g, '+');
                 const vrf = await this.ev(query);
-                const { data } = await this.client.get(`/search?keyword=${query}&vrf=${vrf}&page=${page}`);
+                const { data } = await this.client.get(`${this.baseUrl}/search?keyword=${query}&vrf=${vrf}&page=${page}`);
                 const $ = (0, cheerio_1.load)(data);
                 searchResult.hasNextPage = (_a = $('.pagination')) === null || _a === void 0 ? void 0 : _a.find('.active').next().hasClass('disabled');
                 $('.filmlist > div.item').each((i, el) => {
@@ -61,7 +57,7 @@ class Fmovies extends models_1.MovieParser {
         this.fetchMediaInfo = async (mediaId) => {
             var _a, _b, _c, _d, _e, _f;
             if (!mediaId.startsWith(this.baseUrl)) {
-                mediaId = `/${mediaId}`;
+                mediaId = `${this.baseUrl}/${mediaId}`;
             }
             const movieInfo = {
                 id: mediaId.split('to/').pop(),
@@ -161,7 +157,7 @@ class Fmovies extends models_1.MovieParser {
                 if (!selectedServer) {
                     throw new Error(`Server ${server} not found`);
                 }
-                const { data } = await this.client.get(`/ajax/episode/info?id=${selectedServer.url}`);
+                const { data } = await this.client.get(`${this.baseUrl}/ajax/episode/info?id=${selectedServer.url}`);
                 const serverUrl = new URL(await this.decrypt(data.url));
                 return await this.fetchEpisodeSources(serverUrl.href, mediaId, server);
             }
@@ -176,7 +172,7 @@ class Fmovies extends models_1.MovieParser {
          */
         this.fetchEpisodeServers = async (episodeId, mediaId) => {
             if (!mediaId.startsWith(this.baseUrl)) {
-                mediaId = `/${mediaId}`;
+                mediaId = `${this.baseUrl}/${mediaId}`;
             }
             try {
                 const { data } = await this.client.get(mediaId);
@@ -218,16 +214,16 @@ class Fmovies extends models_1.MovieParser {
         this.apiKey = apiKey !== null && apiKey !== void 0 ? apiKey : this.apiKey;
     }
     async ev(query) {
-        const { data } = await axios_1.default.get(`${this.fmoviesResolver}/fmovies-vrf?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`);
+        const { data } = await this.client.get(`${this.fmoviesResolver}/fmovies-vrf?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`);
         return encodeURIComponent(data.url);
     }
     async decrypt(query) {
-        const { data } = await axios_1.default.get(`${this.fmoviesResolver}/fmovies-decrypt?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`);
+        const { data } = await this.client.get(`${this.fmoviesResolver}/fmovies-decrypt?query=${encodeURIComponent(query)}&apikey=${this.apiKey}`);
         return data.url;
     }
     async ajaxReqUrl(id) {
         const vrf = await this.ev(id);
-        return `/ajax/film/servers?id=${id}&vrf=${vrf}&token=`;
+        return `${this.baseUrl}/ajax/film/servers?id=${id}&vrf=${vrf}&token=`;
     }
 }
 // (async () => {

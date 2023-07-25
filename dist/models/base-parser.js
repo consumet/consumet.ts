@@ -1,13 +1,7 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const proxy_1 = __importDefault(require("./proxy"));
-class BaseParser extends proxy_1.default.Provider {
-    constructor(baseUrl, proxyConfig) {
-        super(baseUrl, proxyConfig);
-    }
+const _1 = require(".");
+class BaseParser extends _1.BaseProvider {
 }
 exports.default = BaseParser;
 //# sourceMappingURL=base-parser.js.map

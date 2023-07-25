@@ -1,12 +1,10 @@
 import { MovieParser, TvType, IMovieInfo, IEpisodeServer, StreamingServers, ISource, IMovieResult, ISearch } from '../../models';
 declare class FlixHQ extends MovieParser {
-    private proxyConfig?;
     readonly name = "FlixHQ";
     protected baseUrl: string;
     protected logo: string;
     protected classPath: string;
     supportedTypes: Set<TvType>;
-    constructor(proxyConfig?: any);
     /**
      *
      * @param query search query string

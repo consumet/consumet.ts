@@ -1,4 +1,3 @@
-import axios from 'axios';
 import { load } from 'cheerio';
 
 import { VideoExtractor, IVideo, ISubtitle, Intro } from '../models';
@@ -24,7 +23,7 @@ class Filemoon extends VideoExtractor {
       },
     };
 
-    const { data } = await axios.get(videoUrl.href);
+    const { data } = await this.client.get(videoUrl.href);
 
     const s = data.substring(data.indexOf('eval(function') + 5, data.lastIndexOf(')))'));
     try {

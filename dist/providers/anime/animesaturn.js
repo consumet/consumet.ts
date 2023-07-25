@@ -1,9 +1,5 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const axios_1 = __importDefault(require("axios"));
 const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
 class AnimeSaturn extends models_1.AnimeParser {
@@ -18,7 +14,7 @@ class AnimeSaturn extends models_1.AnimeParser {
          */
         this.search = async (query) => {
             // baseUrl/animelist?search={query}
-            const data = await axios_1.default.get(`${this.baseUrl}animelist?search=${query}`);
+            const data = await this.client.get(`${this.baseUrl}animelist?search=${query}`);
             const $ = await (0, cheerio_1.load)(data.data);
             if (!$)
                 return { results: [] };
@@ -45,7 +41,7 @@ class AnimeSaturn extends models_1.AnimeParser {
          */
         this.fetchAnimeInfo = async (id) => {
             var _a, _b, _c, _d, _e, _f;
-            const data = await axios_1.default.get(`${this.baseUrl}anime/${id}`);
+            const data = await this.client.get(`${this.baseUrl}anime/${id}`);
             const $ = await (0, cheerio_1.load)(data.data);
             const info = {
                 id,
@@ -60,7 +56,9 @@ class AnimeSaturn extends models_1.AnimeParser {
             };
             const episodes = [];
             $('.tab-pane.fade').each((i, element) => {
-                $(element).find('.bottone-ep').each((i, element) => {
+                $(element)
+                    .find('.bottone-ep')
+                    .each((i, element) => {
                     var _a, _b;
                     const link = $(element).attr('href');
                     const episodeNumber = $(element).text().trim().replace('Episodio ', '').trim();
@@ -79,12 +77,12 @@ class AnimeSaturn extends models_1.AnimeParser {
          */
         this.fetchEpisodeSources = async (episodeId) => {
             var _a;
-            const fakeData = await axios_1.default.get(`${this.baseUrl}ep/${episodeId}`);
+            const fakeData = await this.client.get(`${this.baseUrl}ep/${episodeId}`);
             const $2 = await (0, cheerio_1.load)(fakeData.data);
             const newUrl = $2("div > a:contains('Streaming')").attr('href');
             if (newUrl == null)
                 throw new Error('Invalid url');
-            const data = await axios_1.default.get(newUrl);
+            const data = await this.client.get(newUrl);
             const $ = await (0, cheerio_1.load)(data.data);
             const sources = {
                 headers: {},
@@ -92,12 +90,12 @@ class AnimeSaturn extends models_1.AnimeParser {
                 sources: [],
             };
             const scriptTag = $('script').filter(function () {
-                return $(this).text().includes('jwplayer(\'player_hls\')');
+                return $(this).text().includes("jwplayer('player_hls')");
             });
             let getOneSource;
             scriptTag.each((i, element) => {
                 const scriptText = $(element).text();
-                scriptText.split("\n").forEach((line) => {
+                scriptText.split('\n').forEach(line => {
                     if (line.includes('file:') && !getOneSource) {
                         getOneSource = line.split('file:')[1].trim().replace(/'/g, '').replace(/,/g, '').replace(/"/g, '');
                     }
@@ -110,8 +108,8 @@ class AnimeSaturn extends models_1.AnimeParser {
                 isM3U8: getOneSource.includes('.m3u8'),
             });
             (_a = sources.subtitles) === null || _a === void 0 ? void 0 : _a.push({
-                url: getOneSource.replace("playlist.m3u8", "subtitles.vtt"),
-                lang: 'Spanish'
+                url: getOneSource.replace('playlist.m3u8', 'subtitles.vtt'),
+                lang: 'Spanish',
             });
             return sources;
         };

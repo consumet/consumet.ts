@@ -13,6 +13,7 @@ import {
 } from '../../models';
 import { compareTwoStrings } from '../../utils';
 import FlixHQ from '../movies/flixhq';
+import { AxiosAdapter } from 'axios';
 
 class TMDB extends MovieParser {
   override readonly name = 'TMDB';
@@ -27,9 +28,10 @@ class TMDB extends MovieParser {
   constructor(
     private apiKey: string = '5201b54eb0968700e693a30576d7d4dc',
     provider?: MovieParser,
-    proxyConfig?: ProxyConfig
+    proxyConfig?: ProxyConfig,
+    adapter?: AxiosAdapter
   ) {
-    super('https://api.themoviedb.org/3', proxyConfig);
+    super(proxyConfig, adapter);
     this.provider = provider || new FlixHQ();
   }
 
@@ -41,7 +43,7 @@ class TMDB extends MovieParser {
     query: string,
     page: number = 1
   ): Promise<ISearch<IMovieResult | IAnimeResult>> => {
-    const searchUrl = `/search/multi?api_key=${this.apiKey}&language=en-US&page=${page}&include_adult=false&query=${query}`;
+    const searchUrl = `${this.apiUrl}/search/multi?api_key=${this.apiKey}&language=en-US&page=${page}&include_adult=false&query=${query}`;
 
     const search: ISearch<IMovieResult | IAnimeResult> = {
       currentPage: page,
@@ -86,7 +88,7 @@ class TMDB extends MovieParser {
    */
   override fetchMediaInfo = async (mediaId: string, type: string): Promise<IMovieInfo | IAnimeInfo> => {
     type = type.toLowerCase() === 'movie' ? 'movie' : 'tv';
-    const infoUrl = `/${type}/${mediaId}?api_key=${this.apiKey}&language=en-US&append_to_response=release_dates,watch/providers,alternative_titles,credits,external_ids,images,keywords,recommendations,reviews,similar,translations,videos&include_image_language=en`;
+    const infoUrl = `${this.apiUrl}/${type}/${mediaId}?api_key=${this.apiKey}&language=en-US&append_to_response=release_dates,watch/providers,alternative_titles,credits,external_ids,images,keywords,recommendations,reviews,similar,translations,videos&include_image_language=en`;
 
     const info: IMovieInfo = {
       id: mediaId,
@@ -187,7 +189,8 @@ class TMDB extends MovieParser {
 
       const totalSeasons = (info?.totalSeasons as number) || 0;
       if (type === 'tv' && totalSeasons > 0) {
-        const seasonUrl = (season: string) => `/tv/${mediaId}/season/${season}?api_key=${this.apiKey}`;
+        const seasonUrl = (season: string) =>
+          `${this.apiUrl}/tv/${mediaId}/season/${season}?api_key=${this.apiKey}`;
 
         info.seasons = [];
         const seasons = info.seasons as any[];

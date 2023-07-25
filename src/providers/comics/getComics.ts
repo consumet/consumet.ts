@@ -1,9 +1,6 @@
-import axios from 'axios';
 import { load } from 'cheerio';
 import { ComicParser, ComicRes, GetComicsComics, GetComicsComicsObject } from '../../models';
 import { parsePostInfo } from '../../utils';
-
-const { get } = axios;
 
 const s = async () => {};
 
@@ -17,7 +14,7 @@ class getComics extends ComicParser {
 
   override search = async (query: string, page: number | undefined = 1) => {
     query = encodeURIComponent(query);
-    const { data } = await get(`${this.baseUrl}/page/${page ? page : 1}/?s=${query}`);
+    const { data } = await this.client.get(`${this.baseUrl}/page/${page ? page : 1}/?s=${query}`);
     const $ = load(data);
     const lastPage = $('section section nav:eq(1) ul li:last').text();
     const res: ComicRes = { containers: [], hasNextPage: $('a.pagination-older').text() != '' };
@@ -37,7 +34,7 @@ class getComics extends ComicParser {
     });
     for (const container of res.containers) {
       if (container.ufile != '') {
-        const { data } = await get(container.ufile);
+        const { data } = await this.client.get(container.ufile);
         const $ = load(data);
         container.download = $('.aio-red[title="Download Now"]').attr('href') || '';
         container.readOnline = $('.aio-red[title="Read Online"]').attr('href') || '';

@@ -1,9 +1,5 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const axios_1 = __importDefault(require("axios"));
 const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
 class MangaKakalot extends models_1.MangaParser {
@@ -20,7 +16,7 @@ class MangaKakalot extends models_1.MangaParser {
             };
             const url = mangaId.includes('read') ? this.baseUrl : 'https://readmanganato.com';
             try {
-                const { data } = await axios_1.default.get(`${url}/${mangaId}`);
+                const { data } = await this.client.get(`${url}/${mangaId}`);
                 const $ = (0, cheerio_1.load)(data);
                 if (url.includes('mangakakalot')) {
                     mangaInfo.title = $('div.manga-info-top > ul > li:nth-child(1) > h1').text();
@@ -120,7 +116,7 @@ class MangaKakalot extends models_1.MangaParser {
                 const url = !chapterId.includes('$$READMANGANATO')
                     ? `${this.baseUrl}/chapter/${chapterId}`
                     : `https://readmanganato.com/${chapterId.replace('$$READMANGANATO', '')}`;
-                const { data } = await axios_1.default.get(url);
+                const { data } = await this.client.get(url);
                 const $ = (0, cheerio_1.load)(data);
                 const pages = $('div.container-chapter-reader > img')
                     .map((i, el) => {
@@ -146,7 +142,7 @@ class MangaKakalot extends models_1.MangaParser {
          */
         this.search = async (query) => {
             try {
-                const { data } = await axios_1.default.get(`${this.baseUrl}/search/story/${query.replace(/ /g, '_')}`);
+                const { data } = await this.client.get(`${this.baseUrl}/search/story/${query.replace(/ /g, '_')}`);
                 const $ = (0, cheerio_1.load)(data);
                 const results = $('div.daily-update > div > div')
                     .map((i, el) => {

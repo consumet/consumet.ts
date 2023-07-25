@@ -7,8 +7,8 @@ const models_1 = require("../../models");
 const utils_1 = require("../../utils");
 const flixhq_1 = __importDefault(require("../movies/flixhq"));
 class TMDB extends models_1.MovieParser {
-    constructor(apiKey = '5201b54eb0968700e693a30576d7d4dc', provider, proxyConfig) {
-        super('https://api.themoviedb.org/3', proxyConfig);
+    constructor(apiKey = '5201b54eb0968700e693a30576d7d4dc', provider, proxyConfig, adapter) {
+        super(proxyConfig, adapter);
         this.apiKey = apiKey;
         this.name = 'TMDB';
         this.baseUrl = 'https://www.themoviedb.org';
@@ -21,7 +21,7 @@ class TMDB extends models_1.MovieParser {
          * @param page page number
          */
         this.search = async (query, page = 1) => {
-            const searchUrl = `/search/multi?api_key=${this.apiKey}&language=en-US&page=${page}&include_adult=false&query=${query}`;
+            const searchUrl = `${this.apiUrl}/search/multi?api_key=${this.apiKey}&language=en-US&page=${page}&include_adult=false&query=${query}`;
             const search = {
                 currentPage: page,
                 hasNextPage: false,
@@ -60,7 +60,7 @@ class TMDB extends models_1.MovieParser {
         this.fetchMediaInfo = async (mediaId, type) => {
             var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s, _t, _u, _v, _w, _x, _y, _z, _0, _1, _2;
             type = type.toLowerCase() === 'movie' ? 'movie' : 'tv';
-            const infoUrl = `/${type}/${mediaId}?api_key=${this.apiKey}&language=en-US&append_to_response=release_dates,watch/providers,alternative_titles,credits,external_ids,images,keywords,recommendations,reviews,similar,translations,videos&include_image_language=en`;
+            const infoUrl = `${this.apiUrl}/${type}/${mediaId}?api_key=${this.apiKey}&language=en-US&append_to_response=release_dates,watch/providers,alternative_titles,credits,external_ids,images,keywords,recommendations,reviews,similar,translations,videos&include_image_language=en`;
             const info = {
                 id: mediaId,
                 title: '',
@@ -146,7 +146,7 @@ class TMDB extends models_1.MovieParser {
                         });
                 const totalSeasons = (info === null || info === void 0 ? void 0 : info.totalSeasons) || 0;
                 if (type === 'tv' && totalSeasons > 0) {
-                    const seasonUrl = (season) => `/tv/${mediaId}/season/${season}?api_key=${this.apiKey}`;
+                    const seasonUrl = (season) => `${this.apiUrl}/tv/${mediaId}/season/${season}?api_key=${this.apiKey}`;
                     info.seasons = [];
                     const seasons = info.seasons;
                     const providerEpisodes = InfoFromProvider === null || InfoFromProvider === void 0 ? void 0 : InfoFromProvider.episodes;

@@ -1,5 +1,4 @@
 import { load } from 'cheerio';
-import axios from 'axios';
 
 import {
   MovieParser,
@@ -34,7 +33,7 @@ class Goku extends MovieParser {
       results: [],
     };
     try {
-      const { data } = await axios.get(
+      const { data } = await this.client.get(
         `${this.baseUrl}/search?keyword=${query.replace(/[\W_]+/g, '-')}&page=${page}`
       );
       const $ = load(data);
@@ -61,7 +60,7 @@ class Goku extends MovieParser {
 
       return searchResult;
 
-      // const { data } = await axios.get(
+      // const { data } = await this.client.get(
       //   `${this.baseUrl}/ajax/movie/search?keyword=${query.replace(/[\W_]+/g, '-')}&page=${page}`
       // );
       // const $ = load(data);
@@ -96,7 +95,7 @@ class Goku extends MovieParser {
     }
 
     try {
-      const { data } = await axios.get(`${this.baseUrl}/${mediaId}`);
+      const { data } = await this.client.get(`${this.baseUrl}/${mediaId}`);
       const $ = load(data);
 
       const mediaInfo: IMovieInfo = {
@@ -128,7 +127,7 @@ class Goku extends MovieParser {
       mediaInfo.duration = $("div.name:contains('Duration:')").siblings().text().split('\n').join('').trim();
 
       if (mediaInfo.type === TvType.TVSERIES) {
-        const { data } = await axios.get(
+        const { data } = await this.client.get(
           `${this.baseUrl}/ajax/movie/seasons/${mediaInfo.id.split('-').pop()}`
         );
         const $$ = load(data);
@@ -146,7 +145,7 @@ class Goku extends MovieParser {
         mediaInfo.episodes = [];
 
         for (const season of seasonsIds) {
-          const { data } = await axios.get(`${this.baseUrl}/ajax/movie/season/episodes/${season.id}`);
+          const { data } = await this.client.get(`${this.baseUrl}/ajax/movie/season/episodes/${season.id}`);
           const $$$ = load(data);
 
           $$$('.item')
@@ -199,22 +198,22 @@ class Goku extends MovieParser {
         case StreamingServers.MixDrop:
           return {
             headers: { Referer: serverUrl.href },
-            sources: await new MixDrop().extract(serverUrl),
+            sources: await new MixDrop(this.proxyConfig, this.adapter).extract(serverUrl),
           };
         case StreamingServers.VidCloud:
           return {
             headers: { Referer: serverUrl.href },
-            ...(await new VidCloud().extract(serverUrl, true)),
+            ...(await new VidCloud(this.proxyConfig, this.adapter).extract(serverUrl, true)),
           };
         case StreamingServers.UpCloud:
           return {
             headers: { Referer: serverUrl.href },
-            ...(await new VidCloud().extract(serverUrl)),
+            ...(await new VidCloud(this.proxyConfig, this.adapter).extract(serverUrl)),
           };
         default:
           return {
             headers: { Referer: serverUrl.href },
-            sources: await new MixDrop().extract(serverUrl),
+            sources: await new MixDrop(this.proxyConfig, this.adapter).extract(serverUrl),
           };
       }
     }
@@ -246,7 +245,7 @@ class Goku extends MovieParser {
   override fetchEpisodeServers = async (episodeId: string, mediaId: string): Promise<IEpisodeServer[]> => {
     try {
       const epsiodeServers: IEpisodeServer[] = [];
-      const { data } = await axios.get(`${this.baseUrl}/ajax/movie/episode/servers/${episodeId}`);
+      const { data } = await this.client.get(`${this.baseUrl}/ajax/movie/episode/servers/${episodeId}`);
       const $ = load(data);
 
       const servers = $('.dropdown-menu > a')
@@ -257,7 +256,9 @@ class Goku extends MovieParser {
         .get();
 
       for (const server of servers) {
-        const { data } = await axios.get(`${this.baseUrl}/ajax/movie/episode/server/sources/${server.id}`);
+        const { data } = await this.client.get(
+          `${this.baseUrl}/ajax/movie/episode/server/sources/${server.id}`
+        );
 
         epsiodeServers.push({
           name: server.name,
@@ -273,7 +274,7 @@ class Goku extends MovieParser {
 
   fetchRecentMovies = async (): Promise<IMovieResult[]> => {
     try {
-      const { data } = await axios.get(`${this.baseUrl}/home`);
+      const { data } = await this.client.get(`${this.baseUrl}/home`);
       const $ = load(data);
 
       const movies = $('.section-last')
@@ -304,7 +305,7 @@ class Goku extends MovieParser {
 
   fetchRecentTvShows = async (): Promise<IMovieResult[]> => {
     try {
-      const { data } = await axios.get(`${this.baseUrl}/home`);
+      const { data } = await this.client.get(`${this.baseUrl}/home`);
       const $ = load(data);
 
       const tvShowes = $('.section-last')
@@ -344,7 +345,7 @@ class Goku extends MovieParser {
 
   fetchTrendingMovies = async (): Promise<IMovieResult[]> => {
     try {
-      const { data } = await axios.get(`${this.baseUrl}/home`);
+      const { data } = await this.client.get(`${this.baseUrl}/home`);
       const $ = load(data);
 
       const movies = $('#trending-movies')
@@ -374,7 +375,7 @@ class Goku extends MovieParser {
 
   fetchTrendingTvShows = async (): Promise<IMovieResult[]> => {
     try {
-      const { data } = await axios.get(`${this.baseUrl}/home`);
+      const { data } = await this.client.get(`${this.baseUrl}/home`);
       const $ = load(data);
 
       const tvShowes = $('#trending-series')

@@ -1,9 +1,5 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const axios_1 = __importDefault(require("axios"));
 const models_1 = require("../models");
 const utils_1 = require("../utils");
 class StreamSB extends models_1.VideoExtractor {
@@ -25,7 +21,7 @@ class StreamSB extends models_1.VideoExtractor {
             if (id === null || id === void 0 ? void 0 : id.includes('html'))
                 id = id.split('.html')[0];
             const bytes = new TextEncoder().encode(id);
-            const res = await axios_1.default
+            const res = await this.client
                 .get(`${isAlt ? this.host2 : this.host}/${this.PAYLOAD(Buffer.from(bytes).toString('hex'))}`, {
                 headers,
             })
@@ -36,7 +32,7 @@ class StreamSB extends models_1.VideoExtractor {
                 'User-Agent': utils_1.USER_AGENT,
                 Referer: videoUrl.href.split('e/')[0],
             };
-            const m3u8Urls = await axios_1.default.get(res.data.stream_data.file, {
+            const m3u8Urls = await this.client.get(res.data.stream_data.file, {
                 headers,
             });
             const videoList = m3u8Urls.data.split('#EXT-X-STREAM-INF:');

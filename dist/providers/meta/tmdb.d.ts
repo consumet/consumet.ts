@@ -1,4 +1,5 @@
 import { ISearch, IAnimeInfo, IAnimeResult, ISource, IEpisodeServer, MovieParser, TvType, IMovieResult, IMovieInfo, ProxyConfig } from '../../models';
+import { AxiosAdapter } from 'axios';
 declare class TMDB extends MovieParser {
     private apiKey;
     readonly name = "TMDB";
@@ -8,7 +9,7 @@ declare class TMDB extends MovieParser {
     protected classPath: string;
     supportedTypes: Set<TvType>;
     private provider;
-    constructor(apiKey?: string, provider?: MovieParser, proxyConfig?: ProxyConfig);
+    constructor(apiKey?: string, provider?: MovieParser, proxyConfig?: ProxyConfig, adapter?: AxiosAdapter);
     /**
      * @param query search query
      * @param page page number

@@ -1,4 +1,3 @@
-import axios from 'axios';
 import { load } from 'cheerio';
 import { isText } from 'domhandler';
 
@@ -28,7 +27,7 @@ class Mangasee123 extends MangaParser {
     const url = `${this.baseUrl}/manga`;
 
     try {
-      const { data } = await axios.get(`${url}/${mangaId}`);
+      const { data } = await this.client.get(`${url}/${mangaId}`);
       const $ = load(data);
 
       const schemaScript = $('body > script:nth-child(15)').get()[0].children[0];
@@ -68,7 +67,7 @@ class Mangasee123 extends MangaParser {
     const url = `${this.baseUrl}/read-online/${chapterId}-page-1.html`;
 
     try {
-      const { data } = await axios.get(`${url}`);
+      const { data } = await this.client.get(`${url}`);
       const $ = load(data);
 
       const chapterScript = $('body > script:nth-child(19)').get()[0].children[0];
@@ -106,7 +105,7 @@ class Mangasee123 extends MangaParser {
     const sanitizedQuery = query.replace(/\s/g, '').toLowerCase();
 
     try {
-      const { data } = await axios.get(`https://mangasee123.com/_search.php`);
+      const { data } = await this.client.get(`https://mangasee123.com/_search.php`);
 
       for (const i in data) {
         const sanitizedAlts: string[] = [];

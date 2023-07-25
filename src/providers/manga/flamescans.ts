@@ -1,4 +1,3 @@
-import axios from 'axios';
 import { load } from 'cheerio';
 
 import {
@@ -25,7 +24,7 @@ class FlameScans extends MangaParser {
 
   override search = async (query: string): Promise<ISearch<IMangaResult>> => {
     try {
-      const { data } = await axios.get(`${this.baseUrl}/series/?title=${query.replace(/ /g, '%20')}`);
+      const { data } = await this.client.get(`${this.baseUrl}/series/?title=${query.replace(/ /g, '%20')}`);
       const $ = load(data);
 
       const searchMangaSelector = '.utao .uta .imgu, .listupd .bs .bsx, .listo .bs .bsx';
@@ -53,7 +52,7 @@ class FlameScans extends MangaParser {
       title: '',
     };
     try {
-      const { data } = await axios.get(`${this.baseUrl}/manga/${mangaId}`);
+      const { data } = await this.client.get(`${this.baseUrl}/manga/${mangaId}`);
       const $ = load(data);
 
       // base from https://github.com/tachiyomiorg/tachiyomi-extensions/blob/661311c13b3b550e3fa906c1130b77a037ef7a11/multisrc/src/main/java/eu/kanade/tachiyomi/multisrc/mangathemesia/MangaThemesia.kt#L233
@@ -127,7 +126,7 @@ class FlameScans extends MangaParser {
 
   override fetchChapterPages = async (chapterId: string): Promise<IMangaChapterPage[]> => {
     try {
-      const { data } = await axios.get(`${this.baseUrl}/${chapterId}`);
+      const { data } = await this.client.get(`${this.baseUrl}/${chapterId}`);
       const $ = load(data);
 
       const pageSelector = 'div#readerarea img, #readerarea div.figure_container div.composed_figure';

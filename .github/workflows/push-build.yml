@@ -1,39 +1,47 @@
 name: Compile TS
 
-on: 
-  workflow_run:
-    workflows: ["Node.js CI"]
-    types:
-      - completed
+on: [pull_request]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-       # run only if this is a pull request
-      - name: Check if pull request
-        id: pr
-        run: echo "::set-output name=is_pr::$(test ${{ github.event.workflow_run.event.pull_request }} -eq 1 && echo true || echo false)"
-     # exit if this is not a pull request
-      - name: Exit if not pull request
-        if: steps.pr.outputs.is_pr == 'false'
-        run: exit 0
+      - uses: actions/checkout@v3
+      - name: Checkout PR
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh pr checkout ${{ github.event.pull_request.number }}
 
-      # clone the repo
-      - name: Checkout
-        uses: actions/checkout@v3
+      - name: Install dependencies
+        run: yarn install
 
-      # compile typescript
       - name: Compile TS
-        run: npm run build
+        run: yarn build
 
-      # push changes to the pull request
-      - name: Push changes
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: 'build: compile typescript'
-          commit_options: '--no-verify'
-          repository: ${{ github.repository }}
-          branch: ${{ github.head_ref }}
-
+      - name: Setup Git
+        run: |
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "Rapid Stream Bot"
+          git config --global credential.helper store
+          echo "https://${{ secrets.USERNAME }}:${{ secrets.TOKEN }}@github.com" > ~/.git-credentials
+        shell: bash
+ 
+      - name: Check Diff 
+        id: check_diff
+        run: |
+          git diff --exit-code
+          if [ $? -eq 0 ]
+          then
+            echo "push_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "push_changes=true" >> $GITHUB_OUTPUT
+          fi
+        shell: bash
+        
+      - name: Push Changes
+        if: steps.check_diff.outputs.push_changes == 'true'
+        run: |
+         git add .
+         git commit -am "Compile TS"
+         git push
       

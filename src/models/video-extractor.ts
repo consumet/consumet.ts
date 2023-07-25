@@ -1,11 +1,7 @@
-import { IVideo, ISource, ISubtitle, ProxyConfig } from '.';
+import { IVideo, ISource } from '.';
 import Proxy from '../models/proxy';
 
-abstract class VideoExtractor extends Proxy.Extractor {
-  constructor(proxyConfig?: ProxyConfig) {
-    super(proxyConfig);
-  }
-
+abstract class VideoExtractor extends Proxy {
   /**
    * The server name of the video provider
    */

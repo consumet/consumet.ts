@@ -1,5 +1,3 @@
-import axios from 'axios';
-
 import { VideoExtractor, IVideo } from '../models';
 import { USER_AGENT } from '../utils';
 
@@ -24,7 +22,7 @@ class StreamSB extends VideoExtractor {
     if (id?.includes('html')) id = id.split('.html')[0];
     const bytes = new TextEncoder().encode(id);
 
-    const res = await axios
+    const res = await this.client
       .get(`${isAlt ? this.host2 : this.host}/${this.PAYLOAD(Buffer.from(bytes).toString('hex'))}`, {
         headers,
       })
@@ -36,7 +34,7 @@ class StreamSB extends VideoExtractor {
       'User-Agent': USER_AGENT,
       Referer: videoUrl.href.split('e/')[0],
     };
-    const m3u8Urls = await axios.get(res.data.stream_data.file, {
+    const m3u8Urls = await this.client.get(res.data.stream_data.file, {
       headers,
     });
 

@@ -3,7 +3,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const axios_1 = __importDefault(require("axios"));
 const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
 const utils_1 = require("../../utils");
@@ -33,7 +32,7 @@ class Myanimelist extends models_1.AnimeParser {
                 currentPage: page,
                 results: [],
             };
-            const { data } = await axios_1.default.request({
+            const { data } = await this.client.request({
                 method: 'get',
                 url: `https://myanimelist.net/anime.php?q=${query}&cat=anime&show=${50 * (page - 1)}`,
                 headers: {
@@ -133,7 +132,7 @@ class Myanimelist extends models_1.AnimeParser {
                         (titleWithLanguages === null || titleWithLanguages === void 0 ? void 0 : titleWithLanguages.native) ||
                         (titleWithLanguages === null || titleWithLanguages === void 0 ? void 0 : titleWithLanguages.userPreferred), animeInfo.season, (_f = animeInfo.startDate) === null || _f === void 0 ? void 0 : _f.year, animeId, dub);
                 if (fetchFiller) {
-                    const { data: fillerData } = await (0, axios_1.default)({
+                    const { data: fillerData } = await this.client({
                         baseURL: `https://raw.githubusercontent.com/saikou-app/mal-id-filler-list/main/fillers/${animeId}.json`,
                         method: 'GET',
                         validateStatus: () => true,
@@ -165,7 +164,7 @@ class Myanimelist extends models_1.AnimeParser {
             if (externalLinks && this.provider instanceof crunchyroll_1.default) {
                 if (externalLinks.map((link) => link.site.includes('Crunchyroll'))) {
                     const link = externalLinks.find((link) => link.site.includes('Crunchyroll'));
-                    const { request } = await axios_1.default.get(link.url, { validateStatus: () => true });
+                    const { request } = await this.client.get(link.url, { validateStatus: () => true });
                     const mediaType = request.res.responseUrl.split('/')[3];
                     const id = request.res.responseUrl.split('/')[4];
                     return await this.provider.fetchAnimeInfo(id, mediaType);
@@ -207,7 +206,7 @@ class Myanimelist extends models_1.AnimeParser {
             const slug = title === null || title === void 0 ? void 0 : title.replace(/[^0-9a-zA-Z]+/g, ' ');
             let possibleAnime;
             if (malId && !(this.provider instanceof crunchyroll_1.default || this.provider instanceof bilibili_1.default)) {
-                const malAsyncReq = await (0, axios_1.default)({
+                const malAsyncReq = await this.client({
                     method: 'GET',
                     url: `${this.malSyncUrl}/mal/anime/${malId}`,
                     validateStatus: () => true,
@@ -295,7 +294,7 @@ class Myanimelist extends models_1.AnimeParser {
             return newEpisodeList;
         };
         this.findKitsuAnime = async (possibleProviderEpisodes, options, season, startDate) => {
-            const kitsuEpisodes = await axios_1.default.post(this.kitsuGraphqlUrl, options);
+            const kitsuEpisodes = await this.client.post(this.kitsuGraphqlUrl, options);
             const episodesList = new Map();
             if (kitsuEpisodes === null || kitsuEpisodes === void 0 ? void 0 : kitsuEpisodes.data.data) {
                 const { nodes } = kitsuEpisodes.data.data.searchAnimeByTitle;
@@ -362,7 +361,7 @@ class Myanimelist extends models_1.AnimeParser {
                 id: id,
                 title: '',
             };
-            const { data } = await axios_1.default.request({
+            const { data } = await this.client.request({
                 method: 'GET',
                 url: `https://myanimelist.net/anime/${id}`,
                 headers: {
@@ -551,7 +550,7 @@ class Myanimelist extends models_1.AnimeParser {
     }
     async populateEpisodeList(episodes, url, count = 1) {
         try {
-            const { data } = await axios_1.default.request({
+            const { data } = await this.client.request({
                 method: 'get',
                 url: `${url}?p=${count}`,
                 headers: {

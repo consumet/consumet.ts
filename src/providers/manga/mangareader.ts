@@ -1,4 +1,3 @@
-import axios from 'axios';
 import { load } from 'cheerio';
 
 import {
@@ -22,7 +21,7 @@ class MangaReader extends MangaParser {
    */
   override search = async (query: string): Promise<ISearch<IMangaResult>> => {
     try {
-      const { data } = await axios.get(`${this.baseUrl}/search?keyword=${query}`);
+      const { data } = await this.client.get(`${this.baseUrl}/search?keyword=${query}`);
       const $ = load(data);
 
       const results = $('div.manga_list-sbs div.mls-wrap div.item')
@@ -54,7 +53,7 @@ class MangaReader extends MangaParser {
       title: '',
     };
     try {
-      const { data } = await axios.get(`${this.baseUrl}/${mangaId}`);
+      const { data } = await this.client.get(`${this.baseUrl}/${mangaId}`);
       const $ = load(data);
 
       const container = $('div.container');
@@ -86,7 +85,7 @@ class MangaReader extends MangaParser {
 
   override fetchChapterPages = async (chapterId: string): Promise<IMangaChapterPage[]> => {
     try {
-      const { data } = await axios.get(`${this.baseUrl}/read/${chapterId}`);
+      const { data } = await this.client.get(`${this.baseUrl}/read/${chapterId}`);
       const $ = load(data);
 
       const readingId = $('div#wrapper').attr('data-reading-id');
@@ -96,7 +95,7 @@ class MangaReader extends MangaParser {
       }
 
       const ajaxURL = `https://mangareader.to/ajax/image/list/chap/${readingId}?mode=vertical&quality=high`;
-      const { data: pagesData } = await axios.get(ajaxURL);
+      const { data: pagesData } = await this.client.get(ajaxURL);
       const $PagesHTML = load(pagesData.html);
 
       const pagesSelector = $PagesHTML('div#main-wrapper div.container-reader-chapter div.iv-card');

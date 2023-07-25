@@ -1,4 +1,3 @@
-import axios from 'axios';
 import { load } from 'cheerio';
 
 import {
@@ -24,7 +23,7 @@ class MangaKakalot extends MangaParser {
     };
     const url = mangaId.includes('read') ? this.baseUrl : 'https://readmanganato.com';
     try {
-      const { data } = await axios.get(`${url}/${mangaId}`);
+      const { data } = await this.client.get(`${url}/${mangaId}`);
       const $ = load(data);
 
       if (url.includes('mangakakalot')) {
@@ -133,7 +132,7 @@ class MangaKakalot extends MangaParser {
       const url = !chapterId.includes('$$READMANGANATO')
         ? `${this.baseUrl}/chapter/${chapterId}`
         : `https://readmanganato.com/${chapterId.replace('$$READMANGANATO', '')}`;
-      const { data } = await axios.get(url);
+      const { data } = await this.client.get(url);
       const $ = load(data);
 
       const pages = $('div.container-chapter-reader > img')
@@ -162,7 +161,7 @@ class MangaKakalot extends MangaParser {
    */
   override search = async (query: string): Promise<ISearch<IMangaResult>> => {
     try {
-      const { data } = await axios.get(`${this.baseUrl}/search/story/${query.replace(/ /g, '_')}`);
+      const { data } = await this.client.get(`${this.baseUrl}/search/story/${query.replace(/ /g, '_')}`);
       const $ = load(data);
 
       const results = $('div.daily-update > div > div')

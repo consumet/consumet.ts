@@ -1,14 +1,10 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const axios_1 = __importDefault(require("axios"));
 const models_1 = require("../../models");
 const extractors_1 = require("../../extractors");
 class Bilibili extends models_1.AnimeParser {
-    constructor(cookie, locale) {
-        super();
+    constructor(cookie, locale, proxyConfig, adapter) {
+        super(proxyConfig, adapter);
         this.name = 'Bilibili';
         this.baseUrl = 'https://bilibili.tv';
         this.logo = 'https://w7.pngwing.com/pngs/656/356/png-transparent-bilibili-thumbnail-social-media-icons.png';
@@ -24,7 +20,7 @@ class Bilibili extends models_1.AnimeParser {
     }
     async search(query) {
         var _a;
-        const { data } = await axios_1.default.get(`${this.sgProxy}/${this.apiUrl}/v2/search?keyword=${query}&platform=web&pn=1&ps=20&qid=&s_locale=${this.locale}`, { headers: { cookie: this.cookie } });
+        const { data } = await this.client.get(`${this.sgProxy}/${this.apiUrl}/v2/search?keyword=${query}&platform=web&pn=1&ps=20&qid=&s_locale=${this.locale}`, { headers: { cookie: this.cookie } });
         if (!data.data.filter((item) => item.module.includes('ogv')).length)
             return { results: [], totalResults: 0 };
         const results = data.data.find((item) => item.module.includes('ogv'));
@@ -42,7 +38,7 @@ class Bilibili extends models_1.AnimeParser {
     }
     async fetchAnimeInfo(id) {
         try {
-            const { data } = await axios_1.default.get(`${this.sgProxy}/https://app.biliintl.com/intl/gateway/v2/ogv/view/app/season2?locale=${this.locale}&platform=android&season_id=${id}`, { headers: { cookie: this.cookie } });
+            const { data } = await this.client.get(`${this.sgProxy}/https://app.biliintl.com/intl/gateway/v2/ogv/view/app/season2?locale=${this.locale}&platform=android&season_id=${id}`, { headers: { cookie: this.cookie } });
             let counter = 1;
             const episodes = data.data.sections.section.flatMap((section) => section.ep_details.map((ep) => ({
                 id: ep.episode_id.toString(),
@@ -76,8 +72,8 @@ class Bilibili extends models_1.AnimeParser {
     }
     async fetchEpisodeSources(episodeId, ...args) {
         try {
-            const { data } = await axios_1.default.get(`${this.sgProxy}/${this.apiUrl}/v2/subtitle?s_locale=${this.locale}&platform=web&episode_id=${episodeId}`, { headers: { cookie: this.cookie } });
-            const ss = await axios_1.default.get(`${this.sgProxy}/${this.apiUrl}/playurl?s_locale=${this.locale}&platform=web&ep_id=${episodeId}`, { headers: { cookie: this.cookie } });
+            const { data } = await this.client.get(`${this.sgProxy}/${this.apiUrl}/v2/subtitle?s_locale=${this.locale}&platform=web&episode_id=${episodeId}`, { headers: { cookie: this.cookie } });
+            const ss = await this.client.get(`${this.sgProxy}/${this.apiUrl}/playurl?s_locale=${this.locale}&platform=web&ep_id=${episodeId}`, { headers: { cookie: this.cookie } });
             const sources = await new extractors_1.BilibiliExtractor().extract(episodeId);
             return {
                 sources: sources.sources,
@@ -97,7 +93,7 @@ class Bilibili extends models_1.AnimeParser {
     }
 }
 // (async () => {
-//   const source = new Bilibili(//   );
+//   const source = new Bilibili();
 //   const result = await source.search('classroom of the elite');
 //   const info = await source.fetchAnimeInfo(result.results[0].id);
 //   const episode = await source.fetchEpisodeSources('10143090');

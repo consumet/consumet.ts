@@ -99,18 +99,18 @@ class Crunchyroll extends models_1.AnimeParser {
             },
         };
     }
-    static async create(locale, token, accessToken) {
+    static async create(locale, token, accessToken, proxyConfig, adapter) {
         var _a;
-        const instance = new Crunchyroll();
+        const instance = new Crunchyroll(proxyConfig, adapter);
         instance.TOKEN = (_a = instance.TOKEN) !== null && _a !== void 0 ? _a : (await axios_1.default.get(`${instance.baseUrl}/token`)).data;
         return instance;
     }
 }
 exports.default = Crunchyroll;
 // (async () => {
-//     const crunchyroll = await Crunchyroll.create();
-//     const search = await crunchyroll.search('spy-x-family');
-//     const res = await crunchyroll.fetchAnimeInfo(search.results[0].id, search.results[0].type!);
-//     const sources = await crunchyroll.fetchEpisodeSources(res.episodes![res.episodes?.length! - 1].id);
+//   const crunchyroll = await Crunchyroll.create();
+//   const search = await crunchyroll.search('spy-x-family');
+//   const res = await crunchyroll.fetchAnimeInfo(search.results[0].id, search.results[0].type!);
+//   const sources = await crunchyroll.fetchEpisodeSources(res.episodes![res.episodes?.length! - 1].id);
 // })();
 //# sourceMappingURL=crunchyroll.js.map

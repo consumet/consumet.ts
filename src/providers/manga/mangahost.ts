@@ -1,4 +1,3 @@
-import axios from 'axios';
 import { load } from 'cheerio';
 
 import {
@@ -23,7 +22,7 @@ class MangaHost extends MangaParser {
       title: '',
     };
     try {
-      const { data } = await axios.get(`${this.baseUrl}/manga/${mangaId}`);
+      const { data } = await this.client.get(`${this.baseUrl}/manga/${mangaId}`);
       const $ = load(data);
 
       mangaInfo.title = $('article.ejeCg > h1.title').text();
@@ -79,7 +78,7 @@ class MangaHost extends MangaParser {
   override fetchChapterPages = async (mangaId: string, chapterId: string): Promise<IMangaChapterPage[]> => {
     try {
       const url = `${this.baseUrl}/manga/${mangaId}/${chapterId}`;
-      const { data } = await axios.get(url);
+      const { data } = await this.client.get(url);
       const $ = load(data);
 
       const pages = $('section#imageWrapper > div > div.read-slideshow > a > img')
@@ -105,7 +104,7 @@ class MangaHost extends MangaParser {
    */
   override search = async (query: string): Promise<ISearch<IMangaResult>> => {
     try {
-      const { data } = await axios.get(`${this.baseUrl}/find/${query.replace(/ /g, '+')}`);
+      const { data } = await this.client.get(`${this.baseUrl}/find/${query.replace(/ /g, '+')}`);
       const $ = load(data);
 
       const results = $('body > div.w-container > main > table > tbody > tr')

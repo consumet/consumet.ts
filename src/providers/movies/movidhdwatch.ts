@@ -1,5 +1,4 @@
 import { load } from 'cheerio';
-import axios from 'axios';
 
 import {
   MovieParser,
@@ -34,7 +33,7 @@ class MovieHdWatch extends MovieParser {
       results: [],
     };
     try {
-      const { data } = await axios.get(
+      const { data } = await this.client.get(
         `${this.baseUrl}/search/${query.replace(/[\W_]+/g, '-')}?page=${page}`
       );
       const $ = load(data);
@@ -77,7 +76,7 @@ class MovieHdWatch extends MovieParser {
     }
 
     try {
-      const { data } = await axios.get(`${this.baseUrl}/${mediaId}`);
+      const { data } = await this.client.get(`${this.baseUrl}/${mediaId}`);
       const $ = load(data);
       const recommendationsArray: IMovieResult[] = [];
 
@@ -155,7 +154,7 @@ class MovieHdWatch extends MovieParser {
         }/${id}`;
 
       if (movieInfo.type === TvType.TVSERIES) {
-        const { data } = await axios.get(ajaxReqUrl(uid, 'tv', true));
+        const { data } = await this.client.get(ajaxReqUrl(uid, 'tv', true));
         const $$ = load(data);
         const seasonsIds = $$('.dropdown-menu > a')
           .map((i, el) => $(el).attr('data-id'))
@@ -164,7 +163,7 @@ class MovieHdWatch extends MovieParser {
         movieInfo.episodes = [];
         let season = 1;
         for (const id of seasonsIds) {
-          const { data } = await axios.get(ajaxReqUrl(id, 'season'));
+          const { data } = await this.client.get(ajaxReqUrl(id, 'season'));
           const $$$ = load(data);
 
           $$$('.nav > li')
@@ -214,22 +213,22 @@ class MovieHdWatch extends MovieParser {
         case StreamingServers.MixDrop:
           return {
             headers: { Referer: serverUrl.href },
-            sources: await new MixDrop().extract(serverUrl),
+            sources: await new MixDrop(this.proxyConfig, this.adapter).extract(serverUrl),
           };
         case StreamingServers.VidCloud:
           return {
             headers: { Referer: serverUrl.href },
-            ...(await new VidCloud().extract(serverUrl, true)),
+            ...(await new VidCloud(this.proxyConfig, this.adapter).extract(serverUrl, true)),
           };
         case StreamingServers.UpCloud:
           return {
             headers: { Referer: serverUrl.href },
-            ...(await new VidCloud().extract(serverUrl)),
+            ...(await new VidCloud(this.proxyConfig, this.adapter).extract(serverUrl)),
           };
         default:
           return {
             headers: { Referer: serverUrl.href },
-            sources: await new MixDrop().extract(serverUrl),
+            sources: await new MixDrop(this.proxyConfig, this.adapter).extract(serverUrl),
           };
       }
     }
@@ -264,7 +263,7 @@ class MovieHdWatch extends MovieParser {
     else episodeId = `${this.baseUrl}/ajax/movie/episodes/${episodeId}`;
 
     try {
-      const { data } = await axios.get(episodeId);
+      const { data } = await this.client.get(episodeId);
       const $ = load(data);
       const servers: IEpisodeServer[] = [];
 
@@ -282,7 +281,7 @@ class MovieHdWatch extends MovieParser {
             ),
           };
 
-          const { data } = await axios.get(
+          const { data } = await this.client.get(
             `${this.baseUrl}/ajax/get_link/${server.url.split('.').slice(-1).shift()}`
           );
 
@@ -301,7 +300,7 @@ class MovieHdWatch extends MovieParser {
 
   fetchRecentMovies = async (): Promise<IMovieResult[]> => {
     try {
-      const { data } = await axios.get(`${this.baseUrl}/home`);
+      const { data } = await this.client.get(`${this.baseUrl}/home`);
       const $ = load(data);
 
       const movies = $('.section-id-02')
@@ -331,7 +330,7 @@ class MovieHdWatch extends MovieParser {
 
   fetchRecentTvShows = async (): Promise<IMovieResult[]> => {
     try {
-      const { data } = await axios.get(`${this.baseUrl}/home`);
+      const { data } = await this.client.get(`${this.baseUrl}/home`);
       const $ = load(data);
 
       const tvshows = $('.section-id-03')
@@ -361,7 +360,7 @@ class MovieHdWatch extends MovieParser {
 
   fetchTrendingMovies = async (): Promise<IMovieResult[]> => {
     try {
-      const { data } = await axios.get(`${this.baseUrl}/home`);
+      const { data } = await this.client.get(`${this.baseUrl}/home`);
       const $ = load(data);
 
       const movies = $('#trending-movies')
@@ -391,7 +390,7 @@ class MovieHdWatch extends MovieParser {
 
   fetchTrendingTvShows = async (): Promise<IMovieResult[]> => {
     try {
-      const { data } = await axios.get(`${this.baseUrl}/home`);
+      const { data } = await this.client.get(`${this.baseUrl}/home`);
       const $ = load(data);
 
       const tvshows = $('#trending-tv')

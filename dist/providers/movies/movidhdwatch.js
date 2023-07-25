@@ -1,10 +1,6 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 const cheerio_1 = require("cheerio");
-const axios_1 = __importDefault(require("axios"));
 const models_1 = require("../../models");
 const extractors_1 = require("../../extractors");
 class MovieHdWatch extends models_1.MovieParser {
@@ -27,7 +23,7 @@ class MovieHdWatch extends models_1.MovieParser {
                 results: [],
             };
             try {
-                const { data } = await axios_1.default.get(`${this.baseUrl}/search/${query.replace(/[\W_]+/g, '-')}?page=${page}`);
+                const { data } = await this.client.get(`${this.baseUrl}/search/${query.replace(/[\W_]+/g, '-')}?page=${page}`);
                 const $ = (0, cheerio_1.load)(data);
                 const navSelector = 'div.pre-pagination:nth-child(3) > nav:nth-child(1) > ul:nth-child(1)';
                 searchResult.hasNextPage =
@@ -65,7 +61,7 @@ class MovieHdWatch extends models_1.MovieParser {
                 mediaId = mediaId.replace(this.baseUrl + '/', '');
             }
             try {
-                const { data } = await axios_1.default.get(`${this.baseUrl}/${mediaId}`);
+                const { data } = await this.client.get(`${this.baseUrl}/${mediaId}`);
                 const $ = (0, cheerio_1.load)(data);
                 const recommendationsArray = [];
                 const movieInfo = {
@@ -136,7 +132,7 @@ class MovieHdWatch extends models_1.MovieParser {
                 movieInfo.recommendations = recommendationsArray;
                 const ajaxReqUrl = (id, type, isSeasons = false) => `${this.baseUrl}/ajax/${type === 'movie' ? type : `v2/${type}`}/${isSeasons ? 'seasons' : 'episodes'}/${id}`;
                 if (movieInfo.type === models_1.TvType.TVSERIES) {
-                    const { data } = await axios_1.default.get(ajaxReqUrl(uid, 'tv', true));
+                    const { data } = await this.client.get(ajaxReqUrl(uid, 'tv', true));
                     const $$ = (0, cheerio_1.load)(data);
                     const seasonsIds = $$('.dropdown-menu > a')
                         .map((i, el) => $(el).attr('data-id'))
@@ -144,7 +140,7 @@ class MovieHdWatch extends models_1.MovieParser {
                     movieInfo.episodes = [];
                     let season = 1;
                     for (const id of seasonsIds) {
-                        const { data } = await axios_1.default.get(ajaxReqUrl(id, 'season'));
+                        const { data } = await this.client.get(ajaxReqUrl(id, 'season'));
                         const $$$ = (0, cheerio_1.load)(data);
                         $$$('.nav > li')
                             .map((i, el) => {
@@ -190,16 +186,16 @@ class MovieHdWatch extends models_1.MovieParser {
                     case models_1.StreamingServers.MixDrop:
                         return {
                             headers: { Referer: serverUrl.href },
-                            sources: await new extractors_1.MixDrop().extract(serverUrl),
+                            sources: await new extractors_1.MixDrop(this.proxyConfig, this.adapter).extract(serverUrl),
                         };
                     case models_1.StreamingServers.VidCloud:
-                        return Object.assign({ headers: { Referer: serverUrl.href } }, (await new extractors_1.VidCloud().extract(serverUrl, true)));
+                        return Object.assign({ headers: { Referer: serverUrl.href } }, (await new extractors_1.VidCloud(this.proxyConfig, this.adapter).extract(serverUrl, true)));
                     case models_1.StreamingServers.UpCloud:
-                        return Object.assign({ headers: { Referer: serverUrl.href } }, (await new extractors_1.VidCloud().extract(serverUrl)));
+                        return Object.assign({ headers: { Referer: serverUrl.href } }, (await new extractors_1.VidCloud(this.proxyConfig, this.adapter).extract(serverUrl)));
                     default:
                         return {
                             headers: { Referer: serverUrl.href },
-                            sources: await new extractors_1.MixDrop().extract(serverUrl),
+                            sources: await new extractors_1.MixDrop(this.proxyConfig, this.adapter).extract(serverUrl),
                         };
                 }
             }
@@ -227,7 +223,7 @@ class MovieHdWatch extends models_1.MovieParser {
             else
                 episodeId = `${this.baseUrl}/ajax/movie/episodes/${episodeId}`;
             try {
-                const { data } = await axios_1.default.get(episodeId);
+                const { data } = await this.client.get(episodeId);
                 const $ = (0, cheerio_1.load)(data);
                 const servers = [];
                 await Promise.all($('.nav > li').map(async (i, el) => {
@@ -237,7 +233,7 @@ class MovieHdWatch extends models_1.MovieParser {
                             ? $(el).find('a').attr('data-id')
                             : $(el).find('a').attr('data-linkid')}`.replace(!mediaId.includes('movie') ? /\/tv\// : /\/movie\//, !mediaId.includes('movie') ? '/watch-tv/' : '/watch-movie/'),
                     };
-                    const { data } = await axios_1.default.get(`${this.baseUrl}/ajax/get_link/${server.url.split('.').slice(-1).shift()}`);
+                    const { data } = await this.client.get(`${this.baseUrl}/ajax/get_link/${server.url.split('.').slice(-1).shift()}`);
                     const serverUrl = new URL(data.link);
                     server.url = serverUrl.href;
                     servers.push(server);
@@ -250,7 +246,7 @@ class MovieHdWatch extends models_1.MovieParser {
         };
         this.fetchRecentMovies = async () => {
             try {
-                const { data } = await axios_1.default.get(`${this.baseUrl}/home`);
+                const { data } = await this.client.get(`${this.baseUrl}/home`);
                 const $ = (0, cheerio_1.load)(data);
                 const movies = $('.section-id-02')
                     .find('div.flw-item')
@@ -280,7 +276,7 @@ class MovieHdWatch extends models_1.MovieParser {
         };
         this.fetchRecentTvShows = async () => {
             try {
-                const { data } = await axios_1.default.get(`${this.baseUrl}/home`);
+                const { data } = await this.client.get(`${this.baseUrl}/home`);
                 const $ = (0, cheerio_1.load)(data);
                 const tvshows = $('.section-id-03')
                     .find('div.flw-item')
@@ -310,7 +306,7 @@ class MovieHdWatch extends models_1.MovieParser {
         };
         this.fetchTrendingMovies = async () => {
             try {
-                const { data } = await axios_1.default.get(`${this.baseUrl}/home`);
+                const { data } = await this.client.get(`${this.baseUrl}/home`);
                 const $ = (0, cheerio_1.load)(data);
                 const movies = $('#trending-movies')
                     .find('div.flw-item')
@@ -340,7 +336,7 @@ class MovieHdWatch extends models_1.MovieParser {
         };
         this.fetchTrendingTvShows = async () => {
             try {
-                const { data } = await axios_1.default.get(`${this.baseUrl}/home`);
+                const { data } = await this.client.get(`${this.baseUrl}/home`);
                 const $ = (0, cheerio_1.load)(data);
                 const tvshows = $('#trending-tv')
                     .find('div.flw-item')

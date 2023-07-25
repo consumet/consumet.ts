@@ -1,4 +1,3 @@
-import axios from 'axios';
 import { load } from 'cheerio';
 import CryptoJS from 'crypto-js';
 import { substringAfter, substringBefore } from '../utils';
@@ -28,14 +27,14 @@ class RapidCloud extends VideoExtractor {
 
       let res = null;
 
-      // let { data: sId } = await axios({
+      // let { data: sId } = await this.client({
       //   method: 'GET',
       //   url: `${this.consumetApi}/utils/rapid-cloud`,
       //   validateStatus: status => true,
       // });
 
       // if (!sId) {
-      //   sId = await axios({
+      //   sId = await this.client({
       //     method: 'GET',
       //     url: `${this.enimeApi}/tool/rapid-cloud/server-id`,
       //     validateStatus: status => true,
@@ -100,7 +99,7 @@ class RapidCloud extends VideoExtractor {
         result.sources = [];
         this.sources = [];
         for (const source of sources) {
-          const { data } = await axios.get(source.file, options);
+          const { data } = await this.client.get(source.file, options);
           const m3u8data = data
             .split('\n')
             .filter((line: string) => line.includes('.m3u8') && line.includes('RESOLUTION='));
@@ -159,7 +158,7 @@ class RapidCloud extends VideoExtractor {
     const uri = new URL(url);
     const domain = uri.protocol + '//' + uri.host;
 
-    const { data } = await axios.get(`https://www.google.com/recaptcha/api.js?render=${key}`, {
+    const { data } = await this.client.get(`https://www.google.com/recaptcha/api.js?render=${key}`, {
       headers: {
         Referer: domain,
       },
@@ -171,10 +170,10 @@ class RapidCloud extends VideoExtractor {
 
     //TODO: NEED to fix the co (domain) parameter to work with every domain
     const anchor = `https://www.google.com/recaptcha/api2/anchor?ar=1&hl=en&size=invisible&cb=kr42069kr&k=${key}&co=aHR0cHM6Ly9yYXBpZC1jbG91ZC5ydTo0NDM.&v=${v}`;
-    const c = load((await axios.get(anchor)).data)('#recaptcha-token').attr('value');
+    const c = load((await this.client.get(anchor)).data)('#recaptcha-token').attr('value');
 
     // currently its not returning proper response. not sure why
-    const res = await axios.post(
+    const res = await this.client.post(
       `https://www.google.com/recaptcha/api2/reload?k=${key}`,
       {
         v: v,

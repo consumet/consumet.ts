@@ -1,114 +1,67 @@
-import axios, { AxiosInstance } from 'axios';
+import axios, { AxiosAdapter, AxiosInstance } from 'axios';
 
 import { ProxyConfig } from './types';
 import BaseProvider from './base-provider';
 
-namespace Proxy {
-  export abstract class Provider extends BaseProvider {
-    constructor(baseUrl?: string, proxy?: ProxyConfig) {
-      super();
+export abstract class Proxy {
+  /**
+   *
+   * @param proxyConfig The proxy config (optional)
+   * @param adapter The axios adapter (optional)
+   */
+  constructor(protected proxyConfig?: ProxyConfig, protected adapter?: AxiosAdapter) {
+    this.client = axios.create();
 
-      if (baseUrl)
-        this.client = axios.create({
-          baseURL: baseUrl,
-        });
-      else this.client = axios.create();
+    if (proxyConfig) this.setProxy(proxyConfig);
+    if (adapter) this.setAxiosAdapter(adapter);
+  }
+  private validUrl = /^https?:\/\/.+/;
+  /**
+   * Set or Change the proxy config
+   */
+  setProxy(proxyConfig: ProxyConfig) {
+    if (!proxyConfig?.url) return;
 
-      if (proxy) this.setProxy(proxy);
+    if (typeof proxyConfig?.url === 'string')
+      if (!this.validUrl.test(proxyConfig.url)) throw new Error('Proxy URL is invalid!');
+
+    if (Array.isArray(proxyConfig?.url)) {
+      for (const [i, url] of this.toMap<string>(proxyConfig.url))
+        if (!this.validUrl.test(url)) throw new Error(`Proxy URL at index ${i} is invalid!`);
+
+      this.rotateProxy({ ...proxyConfig, urls: proxyConfig.url });
     }
-    private validUrl = /^https?:\/\/.+/;
-    /**
-     * Set or Change the proxy config
-     */
-    setProxy(proxy: ProxyConfig) {
-      if (!proxy?.url) return;
 
-      if (typeof proxy?.url === 'string')
-        if (!this.validUrl.test(proxy.url)) throw new Error('Proxy URL is invalid!');
-
-      if (Array.isArray(proxy?.url)) {
-        for (const [i, url] of this.toMap<string>(proxy.url))
-          if (!this.validUrl.test(url)) throw new Error(`Proxy URL at index ${i} is invalid!`);
-
-        this.rotateProxy({ ...proxy, urls: proxy.url });
+    this.client.interceptors.request.use(config => {
+      if (proxyConfig?.url) {
+        config.headers = {
+          ...config.headers,
+          'x-api-key': proxyConfig?.key ?? '',
+        };
+        config.url = `${proxyConfig.url}/${config?.url ? config?.url : ''}`;
       }
-
-      this.client.interceptors.request.use(config => {
-        if (proxy?.url) {
-          config.headers = {
-            ...config.headers,
-            'x-api-key': proxy?.key ?? '',
-            origin: 'axios',
-          };
-          config.url = `${proxy.url}/${config?.baseURL}${config?.url ? config?.url : ''}`;
-        }
-        return config;
-      });
-    }
-
-    private rotateProxy = (proxy: Omit<ProxyConfig, 'url'> & { urls: string[] }, ms: number = 5000) => {
-      setInterval(() => {
-        const url = proxy.urls.shift();
-        if (url) proxy.urls.push(url);
-
-        this.setProxy({ url: proxy.urls[0], key: proxy.key });
-      }, ms);
-    };
-
-    private toMap = <T>(arr: T[]): [number, T][] => arr.map((v, i) => [i, v]);
-
-    protected client: AxiosInstance;
+      return config;
+    });
   }
 
-  export class Extractor {
-    constructor(proxy?: ProxyConfig) {
-      this.client = axios.create();
-
-      if (proxy) this.setProxy(proxy);
-    }
-    private validUrl = /^https?:\/\/.+/;
-    /**
-     * Set or Change the proxy config
-     */
-    setProxy(proxy: ProxyConfig) {
-      if (!proxy?.url) return;
-
-      if (typeof proxy?.url === 'string')
-        if (!this.validUrl.test(proxy.url)) throw new Error('Proxy URL is invalid!');
-
-      if (Array.isArray(proxy?.url)) {
-        for (const [i, url] of this.toMap<string>(proxy.url))
-          if (!this.validUrl.test(url)) throw new Error(`Proxy URL at index ${i} is invalid!`);
-
-        this.rotateProxy({ ...proxy, urls: proxy.url });
-      }
-
-      this.client.interceptors.request.use(config => {
-        if (proxy?.url) {
-          config.headers = {
-            ...config.headers,
-            'x-api-key': proxy?.key ?? '',
-            Origin: 'axios',
-          };
-          config.url = `${proxy.url}/${config?.url ? config?.url : ''}`;
-        }
-        return config;
-      });
-    }
-
-    private rotateProxy = (proxy: Omit<ProxyConfig, 'url'> & { urls: string[] }, ms: number = 5000) => {
-      setInterval(() => {
-        const url = proxy.urls.shift();
-        if (url) proxy.urls.push(url);
-
-        this.setProxy({ url: proxy.urls[0], key: proxy.key });
-      }, ms);
-    };
-
-    private toMap = <T>(arr: T[]): [number, T][] => arr.map((v, i) => [i, v]);
-
-    protected client: AxiosInstance;
+  /**
+   * Set or Change the axios adapter
+   */
+  setAxiosAdapter(adapter: AxiosAdapter) {
+    this.client.defaults.adapter = adapter;
   }
+  private rotateProxy = (proxy: Omit<ProxyConfig, 'url'> & { urls: string[] }) => {
+    setInterval(() => {
+      const url = proxy.urls.shift();
+      if (url) proxy.urls.push(url);
+
+      this.setProxy({ url: proxy.urls[0], key: proxy.key });
+    }, proxy?.rotateInterval ?? 5000);
+  };
+
+  private toMap = <T>(arr: T[]): [number, T][] => arr.map((v, i) => [i, v]);
+
+  protected client: AxiosInstance;
 }
 
 export default Proxy;

@@ -3,7 +3,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const axios_1 = __importDefault(require("axios"));
 const crypto_1 = __importDefault(require("crypto"));
 const models_1 = require("../models");
 const cheerio_1 = require("cheerio");
@@ -18,7 +17,7 @@ class SmashyStream extends models_1.VideoExtractor {
         this.extract = async (videoUrl) => {
             try {
                 const result = [];
-                const { data } = await axios_1.default.get(videoUrl.href);
+                const { data } = await this.client.get(videoUrl.href);
                 const $ = (0, cheerio_1.load)(data);
                 const sourceUrls = $('.dropdown-menu a[data-id]')
                     .map((_, el) => $(el).attr('data-id'))
@@ -82,7 +81,7 @@ class SmashyStream extends models_1.VideoExtractor {
                 sources: [],
                 subtitles: [],
             };
-            const res = await axios_1.default.get(url, {
+            const res = await this.client.get(url, {
                 headers: {
                     referer: url,
                 },
@@ -126,7 +125,7 @@ class SmashyStream extends models_1.VideoExtractor {
                 subtitles: [],
             };
             const key = '4VqE3#N7zt&HEP^a';
-            const res = await axios_1.default.get(url, {
+            const res = await this.client.get(url, {
                 headers: {
                     referer: url,
                 },
@@ -167,7 +166,7 @@ class SmashyStream extends models_1.VideoExtractor {
                 sources: [],
                 subtitles: [],
             };
-            const res = await axios_1.default.get(url, {
+            const res = await this.client.get(url, {
                 headers: {
                     referer: url,
                 },
@@ -185,7 +184,7 @@ class SmashyStream extends models_1.VideoExtractor {
             let validFiles = files;
             if (files) {
                 await Promise.all(files === null || files === void 0 ? void 0 : files.map(async (source) => {
-                    await axios_1.default
+                    await this.client
                         .head(source.link)
                         .then(res => console.log(res.status))
                         .catch(err => {
@@ -224,7 +223,7 @@ class SmashyStream extends models_1.VideoExtractor {
                 sources: [],
                 subtitles: [],
             };
-            const res = await axios_1.default.get(url, {
+            const res = await this.client.get(url, {
                 headers: {
                     referer: url,
                 },
@@ -246,13 +245,13 @@ class SmashyStream extends models_1.VideoExtractor {
                 sources: [],
                 subtitles: [],
             };
-            const res = await axios_1.default.get(url, {
+            const res = await this.client.get(url, {
                 headers: {
                     referer: url,
                 },
             });
             const file = res.data.match(/file:\s*"([^"]+)"/)[1];
-            const fileRes = await axios_1.default.head(file);
+            const fileRes = await this.client.head(file);
             if (fileRes.status !== 200 || fileRes.data.includes('404')) {
                 return result;
             }
@@ -274,7 +273,7 @@ class SmashyStream extends models_1.VideoExtractor {
                 sources: [],
                 subtitles: [],
             };
-            const res = await axios_1.default.get(url, {
+            const res = await this.client.get(url, {
                 headers: {
                     referer: url,
                 },

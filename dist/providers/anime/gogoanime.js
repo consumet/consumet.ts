@@ -1,27 +1,12 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const axios_1 = __importDefault(require("axios"));
 const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
 const utils_1 = require("../../utils");
 const extractors_1 = require("../../extractors");
 class Gogoanime extends models_1.AnimeParser {
-    /**
-     *
-     * @param proxyConfig proxy configuration (optional)
-     * @example
-     * ```ts
-     * const gogo = new Gogoanime({ url: 'https://cors-anywhere.herokuapp.com' });
-     * // or with multiple proxies
-     * const gogo = new Gogoanime({ url: ['https://cors-anywhere.herokuapp.com', ...]});
-     * ```
-     */
-    constructor(proxyConfig) {
-        super('https://gogoanimehd.to', proxyConfig);
-        this.proxyConfig = proxyConfig;
+    constructor() {
+        super(...arguments);
         this.name = 'Gogoanime';
         this.baseUrl = 'https://gogoanimehd.to';
         this.logo = 'https://play-lh.googleusercontent.com/MaGEiAEhNHAJXcXKzqTNgxqRmhuKB1rCUgb15UrN_mWUNRnLpO5T1qja64oRasO7mn0';
@@ -39,7 +24,7 @@ class Gogoanime extends models_1.AnimeParser {
                 results: [],
             };
             try {
-                const res = await this.client.get(`/search.html?keyword=${encodeURIComponent(query)}&page=${page}`);
+                const res = await this.client.get(`${this.baseUrl}/search.html?keyword=${encodeURIComponent(query)}&page=${page}`);
                 const $ = (0, cheerio_1.load)(res.data);
                 searchResult.hasNextPage =
                     $('div.anime_name.new_series > div > div > ul > li.selected').next().length > 0;
@@ -68,7 +53,7 @@ class Gogoanime extends models_1.AnimeParser {
          */
         this.fetchAnimeInfo = async (id) => {
             if (!id.includes('gogoanime'))
-                id = `/category/${id}`;
+                id = `${this.baseUrl}/category/${id}`;
             const animeInfo = {
                 id: '',
                 title: '',
@@ -125,7 +110,7 @@ class Gogoanime extends models_1.AnimeParser {
                 const ep_end = $('#episode_page > li').last().find('a').attr('ep_end');
                 const movie_id = $('#movie_id').attr('value');
                 const alias = $('#alias_anime').attr('value');
-                const html = await axios_1.default.get(`${this.ajaxUrl}/load-list-episode?ep_start=${ep_start}&ep_end=${ep_end}&id=${movie_id}&default_ep=${0}&alias=${alias}`);
+                const html = await this.client.get(`${this.ajaxUrl}/load-list-episode?ep_start=${ep_start}&ep_end=${ep_end}&id=${movie_id}&default_ep=${0}&alias=${alias}`);
                 const $$ = (0, cheerio_1.load)(html.data);
                 animeInfo.episodes = [];
                 $$('#episode_related > li').each((i, el) => {
@@ -157,25 +142,25 @@ class Gogoanime extends models_1.AnimeParser {
                     case models_1.StreamingServers.GogoCDN:
                         return {
                             headers: { Referer: serverUrl.href },
-                            sources: await new extractors_1.GogoCDN(this.proxyConfig).extract(serverUrl),
+                            sources: await new extractors_1.GogoCDN(this.proxyConfig, this.adapter).extract(serverUrl),
                             download: `https://gogohd.net/download${serverUrl.search}`,
                         };
                     case models_1.StreamingServers.StreamSB:
                         return {
                             headers: { Referer: serverUrl.href, watchsb: 'streamsb', 'User-Agent': utils_1.USER_AGENT },
-                            sources: await new extractors_1.StreamSB().extract(serverUrl),
+                            sources: await new extractors_1.StreamSB(this.proxyConfig, this.adapter).extract(serverUrl),
                             download: `https://gogohd.net/download${serverUrl.search}`,
                         };
                     default:
                         return {
                             headers: { Referer: serverUrl.href },
-                            sources: await new extractors_1.GogoCDN(this.proxyConfig).extract(serverUrl),
+                            sources: await new extractors_1.GogoCDN(this.proxyConfig, this.adapter).extract(serverUrl),
                             download: `https://gogohd.net/download${serverUrl.search}`,
                         };
                 }
             }
             try {
-                const res = await this.client.get(`/${episodeId}`);
+                const res = await this.client.get(`${this.baseUrl}/${episodeId}`);
                 const $ = (0, cheerio_1.load)(res.data);
                 let serverUrl;
                 switch (server) {
@@ -207,7 +192,7 @@ class Gogoanime extends models_1.AnimeParser {
         this.fetchEpisodeServers = async (episodeId) => {
             try {
                 if (!episodeId.startsWith(this.baseUrl))
-                    episodeId = `/${episodeId}`;
+                    episodeId = `${this.baseUrl}/${episodeId}`;
                 const res = await this.client.get(episodeId);
                 const $ = (0, cheerio_1.load)(res.data);
                 const servers = [];
@@ -233,7 +218,7 @@ class Gogoanime extends models_1.AnimeParser {
         this.fetchAnimeIdFromEpisodeId = async (episodeId) => {
             try {
                 if (!episodeId.startsWith(this.baseUrl))
-                    episodeId = `/${episodeId}`;
+                    episodeId = `${this.baseUrl}/${episodeId}`;
                 const res = await this.client.get(episodeId);
                 const $ = (0, cheerio_1.load)(res.data);
                 return $('#wrapper_bg > section > section.content_left > div:nth-child(1) > div.anime_video_body > div.anime_video_body_cate > div.anime-info > a').attr('href').split('/')[2];
@@ -248,7 +233,7 @@ class Gogoanime extends models_1.AnimeParser {
          */
         this.fetchRecentEpisodes = async (page = 1, type = 1) => {
             try {
-                const res = await axios_1.default.get(`${this.ajaxUrl}/page-recent-release.html?page=${page}&type=${type}`);
+                const res = await this.client.get(`${this.ajaxUrl}/page-recent-release.html?page=${page}&type=${type}`);
                 const $ = (0, cheerio_1.load)(res.data);
                 const recentEpisodes = [];
                 $('div.last_episodes.loaddub > ul > li').each((i, el) => {
@@ -275,7 +260,7 @@ class Gogoanime extends models_1.AnimeParser {
         };
         this.fetchGenreInfo = async (genre, page = 1) => {
             try {
-                const res = await this.client.get(`/genre/${genre}?page=${page}`);
+                const res = await this.client.get(`${this.baseUrl}/genre/${genre}?page=${page}`);
                 const $ = (0, cheerio_1.load)(res.data);
                 const genreInfo = [];
                 $('div.last_episodes > ul > li').each((i, elem) => {
@@ -302,7 +287,7 @@ class Gogoanime extends models_1.AnimeParser {
         };
         this.fetchTopAiring = async (page = 1) => {
             try {
-                const res = await axios_1.default.get(`${this.ajaxUrl}/page-recent-release-ongoing.html?page=${page}`);
+                const res = await this.client.get(`${this.ajaxUrl}/page-recent-release-ongoing.html?page=${page}`);
                 const $ = (0, cheerio_1.load)(res.data);
                 const topAiring = [];
                 $('div.added_series_body.popular > ul > li').each((i, el) => {

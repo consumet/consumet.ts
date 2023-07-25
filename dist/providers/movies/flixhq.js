@@ -4,9 +4,8 @@ const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
 const extractors_1 = require("../../extractors");
 class FlixHQ extends models_1.MovieParser {
-    constructor(proxyConfig) {
-        super('https://flixhq.to', proxyConfig);
-        this.proxyConfig = proxyConfig;
+    constructor() {
+        super(...arguments);
         this.name = 'FlixHQ';
         this.baseUrl = 'https://flixhq.to';
         this.logo = 'https://upload.wikimedia.org/wikipedia/commons/7/7a/MyAnimeList_Logo.png';
@@ -24,7 +23,7 @@ class FlixHQ extends models_1.MovieParser {
                 results: [],
             };
             try {
-                const { data } = await this.client.get(`/search/${query.replace(/[\W_]+/g, '-')}?page=${page}`);
+                const { data } = await this.client.get(`${this.baseUrl}/search/${query.replace(/[\W_]+/g, '-')}?page=${page}`);
                 const $ = (0, cheerio_1.load)(data);
                 const navSelector = 'div.pre-pagination:nth-child(3) > nav:nth-child(1) > ul:nth-child(1)';
                 searchResult.hasNextPage =
@@ -57,7 +56,7 @@ class FlixHQ extends models_1.MovieParser {
         this.fetchMediaInfo = async (mediaId) => {
             var _a;
             if (!mediaId.startsWith(this.baseUrl)) {
-                mediaId = `/${mediaId}`;
+                mediaId = `${this.baseUrl}/${mediaId}`;
             }
             const movieInfo = {
                 id: mediaId.split('to/').pop(),
@@ -102,7 +101,7 @@ class FlixHQ extends models_1.MovieParser {
                 movieInfo.duration = $('span.item:nth-child(3)').text();
                 movieInfo.rating = parseFloat($('span.item:nth-child(2)').text());
                 movieInfo.recommendations = recommendationsArray;
-                const ajaxReqUrl = (id, type, isSeasons = false) => `/ajax/${type === 'movie' ? type : `v2/${type}`}/${isSeasons ? 'seasons' : 'episodes'}/${id}`;
+                const ajaxReqUrl = (id, type, isSeasons = false) => `${this.baseUrl}/ajax/${type === 'movie' ? type : `v2/${type}`}/${isSeasons ? 'seasons' : 'episodes'}/${id}`;
                 if (movieInfo.type === models_1.TvType.TVSERIES) {
                     const { data } = await this.client.get(ajaxReqUrl(uid, 'tv', true));
                     const $$ = (0, cheerio_1.load)(data);
@@ -158,16 +157,16 @@ class FlixHQ extends models_1.MovieParser {
                     case models_1.StreamingServers.MixDrop:
                         return {
                             headers: { Referer: serverUrl.href },
-                            sources: await new extractors_1.MixDrop(this.proxyConfig).extract(serverUrl),
+                            sources: await new extractors_1.MixDrop(this.proxyConfig, this.adapter).extract(serverUrl),
                         };
                     case models_1.StreamingServers.VidCloud:
-                        return Object.assign({ headers: { Referer: serverUrl.href } }, (await new extractors_1.VidCloud(this.proxyConfig).extract(serverUrl, true)));
+                        return Object.assign({ headers: { Referer: serverUrl.href } }, (await new extractors_1.VidCloud(this.proxyConfig, this.adapter).extract(serverUrl, true)));
                     case models_1.StreamingServers.UpCloud:
-                        return Object.assign({ headers: { Referer: serverUrl.href } }, (await new extractors_1.VidCloud(this.proxyConfig).extract(serverUrl)));
+                        return Object.assign({ headers: { Referer: serverUrl.href } }, (await new extractors_1.VidCloud(this.proxyConfig, this.adapter).extract(serverUrl)));
                     default:
                         return {
                             headers: { Referer: serverUrl.href },
-                            sources: await new extractors_1.MixDrop(this.proxyConfig).extract(serverUrl),
+                            sources: await new extractors_1.MixDrop(this.proxyConfig, this.adapter).extract(serverUrl),
                         };
                 }
             }
@@ -177,7 +176,7 @@ class FlixHQ extends models_1.MovieParser {
                 if (i === -1) {
                     throw new Error(`Server ${server} not found`);
                 }
-                const { data } = await this.client.get(`/ajax/get_link/${servers[i].url.split('.').slice(-1).shift()}`);
+                const { data } = await this.client.get(`${this.baseUrl}/ajax/get_link/${servers[i].url.split('.').slice(-1).shift()}`);
                 const serverUrl = new URL(data.link);
                 return await this.fetchEpisodeSources(serverUrl.href, mediaId, server);
             }
@@ -192,9 +191,9 @@ class FlixHQ extends models_1.MovieParser {
          */
         this.fetchEpisodeServers = async (episodeId, mediaId) => {
             if (!episodeId.startsWith(this.baseUrl + '/ajax') && !mediaId.includes('movie'))
-                episodeId = `/ajax/v2/episode/servers/${episodeId}`;
+                episodeId = `${this.baseUrl}/ajax/v2/episode/servers/${episodeId}`;
             else
-                episodeId = `/ajax/movie/episodes/${episodeId}`;
+                episodeId = `${this.baseUrl}/ajax/movie/episodes/${episodeId}`;
             try {
                 const { data } = await this.client.get(episodeId);
                 const $ = (0, cheerio_1.load)(data);
@@ -219,7 +218,7 @@ class FlixHQ extends models_1.MovieParser {
         };
         this.fetchRecentMovies = async () => {
             try {
-                const { data } = await this.client.get(`/home`);
+                const { data } = await this.client.get(`${this.baseUrl}/home`);
                 const $ = (0, cheerio_1.load)(data);
                 const movies = $('section.block_area:contains("Latest Movies") > div:nth-child(2) > div:nth-child(1) > div.flw-item')
                     .map((i, el) => {
@@ -247,7 +246,7 @@ class FlixHQ extends models_1.MovieParser {
         };
         this.fetchRecentTvShows = async () => {
             try {
-                const { data } = await this.client.get(`/home`);
+                const { data } = await this.client.get(`${this.baseUrl}/home`);
                 const $ = (0, cheerio_1.load)(data);
                 const tvshows = $('section.block_area:contains("Latest TV Shows") > div:nth-child(2) > div:nth-child(1) > div.flw-item')
                     .map((i, el) => {
@@ -274,7 +273,7 @@ class FlixHQ extends models_1.MovieParser {
         };
         this.fetchTrendingMovies = async () => {
             try {
-                const { data } = await this.client.get(`/home`);
+                const { data } = await this.client.get(`${this.baseUrl}/home`);
                 const $ = (0, cheerio_1.load)(data);
                 const movies = $('div#trending-movies div.film_list-wrap div.flw-item')
                     .map((i, el) => {
@@ -302,7 +301,7 @@ class FlixHQ extends models_1.MovieParser {
         };
         this.fetchTrendingTvShows = async () => {
             try {
-                const { data } = await this.client.get(`/home`);
+                const { data } = await this.client.get(`${this.baseUrl}/home`);
                 const $ = (0, cheerio_1.load)(data);
                 const tvshows = $('div#trending-tv div.film_list-wrap div.flw-item')
                     .map((i, el) => {

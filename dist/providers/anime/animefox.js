@@ -1,9 +1,5 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const axios_1 = __importDefault(require("axios"));
 const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
 const extractors_1 = require("../../extractors");
@@ -20,7 +16,7 @@ class AnimeFox extends models_1.AnimeParser {
          */
         this.search = async (query, page = 1) => {
             try {
-                const { data } = await axios_1.default.get(`${this.baseUrl}/search?keyword=${decodeURIComponent(query)}&page=${page}`);
+                const { data } = await this.client.get(`${this.baseUrl}/search?keyword=${decodeURIComponent(query)}&page=${page}`);
                 const $ = (0, cheerio_1.load)(data);
                 const hasNextPage = $('.pagination > nav > ul > li').last().hasClass('disabled') ? false : true;
                 const searchResults = [];
@@ -72,7 +68,7 @@ class AnimeFox extends models_1.AnimeParser {
                 title: '',
             };
             try {
-                const { data } = await axios_1.default.get(`${this.baseUrl}/anime/${id}`);
+                const { data } = await this.client.get(`${this.baseUrl}/anime/${id}`);
                 const $ = (0, cheerio_1.load)(data);
                 info.title = $('h2.film-name').attr('data-jname');
                 info.image = $('img.film-poster-img').attr('data-src');
@@ -135,7 +131,7 @@ class AnimeFox extends models_1.AnimeParser {
          */
         this.fetchRecentEpisodes = async (page = 1) => {
             try {
-                const { data } = await axios_1.default.get(`${this.baseUrl}/latest-added?page=${page}`);
+                const { data } = await this.client.get(`${this.baseUrl}/latest-added?page=${page}`);
                 const $ = (0, cheerio_1.load)(data);
                 const hasNextPage = $('.pagination > nav > ul > li').last().hasClass('disabled') ? false : true;
                 const recentEpisodes = [];
@@ -165,12 +161,12 @@ class AnimeFox extends models_1.AnimeParser {
          */
         this.fetchEpisodeSources = async (episodeId) => {
             try {
-                const { data } = await axios_1.default.get(`${this.baseUrl}/watch/${episodeId}`);
+                const { data } = await this.client.get(`${this.baseUrl}/watch/${episodeId}`);
                 const $ = (0, cheerio_1.load)(data);
                 const iframe = $('#iframe-to-load').attr('src') || '';
                 const streamUrl = `https://goload.io/streaming.php?id=${iframe.split('=')[1]}`;
                 return {
-                    sources: await new extractors_1.GogoCDN().extract(new URL(streamUrl)),
+                    sources: await new extractors_1.GogoCDN(this.proxyConfig).extract(new URL(streamUrl)),
                 };
             }
             catch (err) {
@@ -189,7 +185,9 @@ class AnimeFox extends models_1.AnimeParser {
 exports.default = AnimeFox;
 // (async () => {
 //   const animepahe = new AnimeFox();
-//   const sources = await animepahe.fetchEpisodeSources("youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-episode-1");
+//   const sources = await animepahe.fetchEpisodeSources(
+//     'youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-episode-1'
+//   );
 //   console.log(sources);
 // })();
 //# sourceMappingURL=animefox.js.map

@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios, { AxiosAdapter } from 'axios';
 
 import {
   AnimeParser,
@@ -11,6 +11,7 @@ import {
   IEpisodeServer,
   ISubtitle,
   SubOrSub,
+  ProxyConfig,
 } from '../../models';
 import { USER_AGENT } from '../../utils';
 
@@ -65,8 +66,14 @@ class Crunchyroll extends AnimeParser {
     'Portuguese Dub',
   ];
 
-  static async create(locale?: string, token?: string, accessToken?: string) {
-    const instance = new Crunchyroll();
+  static async create(
+    locale?: string,
+    token?: string,
+    accessToken?: string,
+    proxyConfig?: ProxyConfig,
+    adapter?: AxiosAdapter
+  ) {
+    const instance = new Crunchyroll(proxyConfig, adapter);
     instance.TOKEN = instance.TOKEN ?? (await axios.get(`${instance.baseUrl}/token`)).data;
     return instance;
   }
@@ -130,8 +137,8 @@ class Crunchyroll extends AnimeParser {
 export default Crunchyroll;
 
 // (async () => {
-//     const crunchyroll = await Crunchyroll.create();
-//     const search = await crunchyroll.search('spy-x-family');
-//     const res = await crunchyroll.fetchAnimeInfo(search.results[0].id, search.results[0].type!);
-//     const sources = await crunchyroll.fetchEpisodeSources(res.episodes![res.episodes?.length! - 1].id);
+//   const crunchyroll = await Crunchyroll.create();
+//   const search = await crunchyroll.search('spy-x-family');
+//   const res = await crunchyroll.fetchAnimeInfo(search.results[0].id, search.results[0].type!);
+//   const sources = await crunchyroll.fetchEpisodeSources(res.episodes![res.episodes?.length! - 1].id);
 // })();
