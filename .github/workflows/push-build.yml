@@ -27,16 +27,19 @@ jobs:
         shell: bash
  
       - name: Check Diff 
+        id: check_diff
         run: |
           git diff --exit-code
           if [ $? -eq 0 ]
           then
-            echo "No changes to commit"
-            exit 0
+            echo "push_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "push_changes=true" >> $GITHUB_OUTPUT
           fi
         shell: bash
         
       - name: Push Changes
+        if: steps.check_diff.outputs.push_changes == 'true'
         run: |
          git add .
          git commit -am "Compile TS"
