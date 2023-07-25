@@ -34,7 +34,7 @@ jobs:
             echo "No changes to commit"
             exit 1
           fi
-        shell: bashs
+        shell: bash
         
       - name: Push Changes
         run: |
