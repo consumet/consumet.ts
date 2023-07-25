@@ -18,17 +18,27 @@ jobs:
       - name: Compile TS
         run: yarn build
 
-      - name: Commit changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+      - name: Setup Git
         run: |
-          git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "chore (build): Compile TS"
-
-      - name: Push changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
-        run: git push
+          git config --global user.name "Rapid Stream Bot"
+          git config --global credential.helper store
+          echo "https://${{ secrets.USERNAME }}:${{ secrets.TOKEN }}@github.com" > ~/.git-credentials
+        shell: bash
+ 
+      - name: Check Diff 
+        run: |
+          git diff --exit-code
+          if [ $? -eq 0 ]
+          then
+            echo "No changes to commit"
+            exit 1
+          fi
+        shell: bashs
+        
+      - name: Push Changes
+        run: |
+         git add .
+         git commit -am "Compile TS"
+         git push
       
