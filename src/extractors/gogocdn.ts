@@ -1,4 +1,3 @@
-import axios from 'axios';
 import { CheerioAPI, load } from 'cheerio';
 import CryptoJS from 'crypto-js';
 

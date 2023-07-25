@@ -1,5 +1,5 @@
 import { encode } from 'ascii-url-encoder';
-import axios, { AxiosError, AxiosResponse } from 'axios';
+import { AxiosError, AxiosResponse } from 'axios';
 
 import { IMangaChapterPage, IMangaInfo, IMangaResult, ISearch, MangaParser, MediaStatus } from '../../models';
 import { capitalizeFirstLetter, substringBefore } from '../../utils';

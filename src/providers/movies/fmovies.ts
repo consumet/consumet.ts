@@ -1,5 +1,5 @@
 import { load } from 'cheerio';
-import axios, {AxiosAdapter} from 'axios';
+import { AxiosAdapter } from 'axios';
 import { substringAfter, substringBeforeLast } from '../../utils/utils';
 
 import {

@@ -1,12 +1,9 @@
-import axios, { AxiosResponse } from 'axios';
 import { load } from 'cheerio';
 import { BookParser, LibgenBook, LibgenBookObject } from '../../models';
 import { splitAuthor, floorID, formatTitle } from '../../utils';
 import { encode } from 'ascii-url-encoder';
 import { Worker } from 'worker_threads';
 import { LibgenResult } from '../../models/types';
-
-const { get } = axios;
 
 class Libgen extends BookParser {
   private readonly extensions = ['.rs', '.is', '.st'];
@@ -30,7 +27,7 @@ class Libgen extends BookParser {
   scrapeBook = async (bookUrl: string): Promise<LibgenBook> => {
     bookUrl = encodeURIComponent(bookUrl);
     const container: LibgenBook = new LibgenBookObject();
-    const { data } = await get(bookUrl);
+    const { data } = await this.client.get(bookUrl);
     const $ = load(data);
     let rawAuthor = '';
     $('tbody > tr:eq(10)')
@@ -229,7 +226,7 @@ class Libgen extends BookParser {
     query = encodeURIComponent(query);
     const workingExtension = this.extensions[0];
     const containers: LibgenBook[] = [];
-    const { data } = await get(
+    const { data } = await this.client.get(
       `${this.baseUrl}.rs/search.php?req=${query}&view=simple&res=25&sort=def&sortmode=ASC&page=${page}`
     );
     const $ = load(data);
@@ -289,7 +286,7 @@ class Libgen extends BookParser {
       if (containers[i].link == '') {
         continue;
       }
-      const data = await get(containers[i].link);
+      const data = await this.client.get(containers[i].link);
       const $ = load(data.data);
       let tempTitle = '';
       let tempVolume = '';

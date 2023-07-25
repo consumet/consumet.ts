@@ -1,12 +1,7 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 const cheerio_1 = require("cheerio");
-const axios_1 = __importDefault(require("axios"));
 const models_1 = require("../../models");
-const { get } = axios_1.default;
 class Ummangurau extends models_1.MovieParser {
     constructor() {
         super(...arguments);
@@ -22,7 +17,7 @@ class Ummangurau extends models_1.MovieParser {
                 results: [],
             };
             try {
-                const { data } = await get(`${this.baseUrl}/search/${query.replace(/[\W_]+/g, '-')}?page=${page}`);
+                const { data } = await this.client.get(`${this.baseUrl}/search/${query.replace(/[\W_]+/g, '-')}?page=${page}`);
                 const $ = (0, cheerio_1.load)(data);
                 searchResult.hasNextPage =
                     $("nav[area-label='Page navigation']").html() === null
@@ -55,7 +50,7 @@ class Ummangurau extends models_1.MovieParser {
                 url: mediaId,
             };
             try {
-                const { data } = await get(mediaId);
+                const { data } = await this.client.get(mediaId);
                 const $ = (0, cheerio_1.load)(data);
                 movieInfo.title = `${$('.heading-name a').text()}`;
                 movieInfo.image = `${$('img.film-poster-img').attr('src')}`;

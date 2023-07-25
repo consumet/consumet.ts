@@ -1,4 +1,4 @@
-import axios, {AxiosAdapter, AxiosInstance} from 'axios';
+import axios, { AxiosAdapter, AxiosInstance } from 'axios';
 
 import { ProxyConfig } from './types';
 import BaseProvider from './base-provider';

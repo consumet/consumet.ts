@@ -13,7 +13,7 @@ import {
 } from '../../models';
 import { compareTwoStrings } from '../../utils';
 import FlixHQ from '../movies/flixhq';
-import {AxiosAdapter} from "axios";
+import { AxiosAdapter } from "axios";
 
 class TMDB extends MovieParser {
   override readonly name = 'TMDB';

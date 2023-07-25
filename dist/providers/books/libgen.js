@@ -1,14 +1,9 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const axios_1 = __importDefault(require("axios"));
 const cheerio_1 = require("cheerio");
 const models_1 = require("../../models");
 const utils_1 = require("../../utils");
 const ascii_url_encoder_1 = require("ascii-url-encoder");
-const { get } = axios_1.default;
 class Libgen extends models_1.BookParser {
     constructor() {
         super(...arguments);
@@ -30,7 +25,7 @@ class Libgen extends models_1.BookParser {
         this.scrapeBook = async (bookUrl) => {
             bookUrl = encodeURIComponent(bookUrl);
             const container = new models_1.LibgenBookObject();
-            const { data } = await get(bookUrl);
+            const { data } = await this.client.get(bookUrl);
             const $ = (0, cheerio_1.load)(data);
             let rawAuthor = '';
             $('tbody > tr:eq(10)')
@@ -217,7 +212,7 @@ class Libgen extends models_1.BookParser {
             query = encodeURIComponent(query);
             const workingExtension = this.extensions[0];
             const containers = [];
-            const { data } = await get(`${this.baseUrl}.rs/search.php?req=${query}&view=simple&res=25&sort=def&sortmode=ASC&page=${page}`);
+            const { data } = await this.client.get(`${this.baseUrl}.rs/search.php?req=${query}&view=simple&res=25&sort=def&sortmode=ASC&page=${page}`);
             const $ = (0, cheerio_1.load)(data);
             let rawAuthor = '';
             $('table tbody tr').each((i, e) => {
@@ -277,7 +272,7 @@ class Libgen extends models_1.BookParser {
                 if (containers[i].link == '') {
                     continue;
                 }
-                const data = await get(containers[i].link);
+                const data = await this.client.get(containers[i].link);
                 const $ = (0, cheerio_1.load)(data.data);
                 let tempTitle = '';
                 let tempVolume = '';

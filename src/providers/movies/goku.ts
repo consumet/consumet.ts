@@ -1,5 +1,4 @@
 import { load } from 'cheerio';
-import axios from 'axios';
 
 import {
   MovieParser,

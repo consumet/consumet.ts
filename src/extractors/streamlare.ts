@@ -1,4 +1,3 @@
-import axios from 'axios';
 import { load } from 'cheerio';
 import { IVideo, ISource } from '../models';
 import VideoExtractor from '../models/video-extractor';

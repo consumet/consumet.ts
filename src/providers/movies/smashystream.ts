@@ -7,7 +7,6 @@ import {
   IMovieResult,
   ISearch,
 } from '../../models';
-import axios from 'axios';
 import { load } from 'cheerio';
 import { SmashyStream as SS } from '../../extractors';
 

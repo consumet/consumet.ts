@@ -1,4 +1,3 @@
-import axios from 'axios';
 import {Cheerio, load} from 'cheerio';
 
 import {
@@ -174,4 +173,3 @@ console.log(res);
     })
   });
 });*/
-

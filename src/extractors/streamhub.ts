@@ -1,5 +1,3 @@
-import axios from 'axios';
-
 import { VideoExtractor, IVideo, ISubtitle } from '../models';
 
 class StreamHub extends VideoExtractor {

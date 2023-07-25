@@ -1,5 +1,3 @@
-import axios from 'axios';
-
 import { VideoExtractor, IVideo } from '../models';
 
 class Mp4Upload extends VideoExtractor {

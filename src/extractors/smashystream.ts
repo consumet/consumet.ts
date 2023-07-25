@@ -1,4 +1,3 @@
-import axios from 'axios';
 import crypto from 'crypto';
 import { VideoExtractor, IVideo, ISubtitle } from '../models';
 import { load } from 'cheerio';

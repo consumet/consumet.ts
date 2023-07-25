@@ -1,5 +1,3 @@
-import axios from 'axios';
-
 import { VideoExtractor, IVideo, ISubtitle, Intro } from '../models';
 
 class VizCloud extends VideoExtractor {

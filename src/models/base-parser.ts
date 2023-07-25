@@ -1,4 +1,4 @@
-import axios, {AxiosAdapter, AxiosInstance} from 'axios';
+import { AxiosAdapter } from 'axios';
 
 import { ProxyConfig } from '.';
 import Proxy from './proxy';
