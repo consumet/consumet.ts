@@ -4,6 +4,7 @@ import Filemoon from './filemoon';
 import GogoCDN from './gogocdn';
 import Kwik from './kwik';
 import MixDrop from './mixdrop';
+import Mp4Player from './mp4player';
 import Mp4Upload from './mp4upload';
 import RapidCloud from './rapidcloud';
 import SmashyStream from './smashystream';
@@ -15,6 +16,7 @@ import StreamWish from './streamwish';
 import VidCloud from './vidcloud';
 import VidMoly from './vidmoly';
 import VizCloud from './vizcloud';
+import Voe from './voe';
 
 export {
   AsianLoad,
@@ -23,6 +25,7 @@ export {
   GogoCDN,
   Kwik,
   MixDrop,
+  Mp4Player,
   Mp4Upload,
   RapidCloud,
   SmashyStream,
@@ -34,4 +37,5 @@ export {
   VidCloud,
   VidMoly,
   VizCloud,
+  Voe
 };
