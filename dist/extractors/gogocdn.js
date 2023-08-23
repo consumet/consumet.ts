@@ -107,7 +107,7 @@ class GogoCDN extends models_1.VideoExtractor {
             const encryptedKey = crypto_js_1.default.AES.encrypt(id, this.keys.key, {
                 iv: this.keys.iv,
             });
-            const scriptValue = $("script[data-name='episode']").data().value;
+            const scriptValue = $("script[data-name='episode']").attr('data-value');
             const decryptedToken = crypto_js_1.default.AES.decrypt(scriptValue, this.keys.key, {
                 iv: this.keys.iv,
             }).toString(crypto_js_1.default.enc.Utf8);

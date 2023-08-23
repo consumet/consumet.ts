@@ -8,7 +8,7 @@ class Gogoanime extends models_1.AnimeParser {
     constructor() {
         super(...arguments);
         this.name = 'Gogoanime';
-        this.baseUrl = 'https://gogoanimehd.to';
+        this.baseUrl = 'https://gogoanimehd.io';
         this.logo = 'https://play-lh.googleusercontent.com/MaGEiAEhNHAJXcXKzqTNgxqRmhuKB1rCUgb15UrN_mWUNRnLpO5T1qja64oRasO7mn0';
         this.classPath = 'ANIME.Gogoanime';
         this.ajaxUrl = 'https://ajax.gogo-load.com/ajax';
@@ -135,7 +135,6 @@ class Gogoanime extends models_1.AnimeParser {
          * @param server server type (default 'GogoCDN') (optional)
          */
         this.fetchEpisodeSources = async (episodeId, server = models_1.StreamingServers.VidStreaming) => {
-            var _a;
             if (episodeId.startsWith('http')) {
                 const serverUrl = new URL(episodeId);
                 switch (server) {
@@ -168,8 +167,7 @@ class Gogoanime extends models_1.AnimeParser {
                         serverUrl = new URL(`${$('#load_anime > div > div > iframe').attr('src')}`);
                         break;
                     case models_1.StreamingServers.VidStreaming:
-                        serverUrl = new URL(`${(_a = $('div.anime_video_body > div.anime_muti_link > ul > li.vidcdn > a')
-                            .attr('data-video')) === null || _a === void 0 ? void 0 : _a.replace('.pro', '.net')}`);
+                        serverUrl = new URL(`${$('div.anime_video_body > div.anime_muti_link > ul > li.vidcdn > a').attr('data-video')}`);
                         break;
                     case models_1.StreamingServers.StreamSB:
                         serverUrl = new URL($('div.anime_video_body > div.anime_muti_link > ul > li.streamsb > a').attr('data-video'));
