@@ -2,13 +2,13 @@ import { AxiosAdapter, AxiosInstance } from 'axios';
 import { ProxyConfig } from './types';
 export declare abstract class Proxy {
     protected proxyConfig?: ProxyConfig | undefined;
-    protected adapter?: any;
+    protected adapter?: AxiosAdapter | undefined;
     /**
      *
      * @param proxyConfig The proxy config (optional)
      * @param adapter The axios adapter (optional)
      */
-    constructor(proxyConfig?: ProxyConfig | undefined, adapter?: any);
+    constructor(proxyConfig?: ProxyConfig | undefined, adapter?: AxiosAdapter | undefined);
     private validUrl;
     /**
      * Set or Change the proxy config
