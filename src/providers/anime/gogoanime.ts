@@ -20,11 +20,10 @@ import { GogoCDN, StreamSB } from '../../extractors';
 
 class Gogoanime extends AnimeParser {
   override readonly name = 'Gogoanime';
-  protected override baseUrl = 'https://gogoanimehd.to';
+  protected override baseUrl = 'https://gogoanimehd.io';
   protected override logo =
     'https://play-lh.googleusercontent.com/MaGEiAEhNHAJXcXKzqTNgxqRmhuKB1rCUgb15UrN_mWUNRnLpO5T1qja64oRasO7mn0';
   protected override classPath = 'ANIME.Gogoanime';
-
   private readonly ajaxUrl = 'https://ajax.gogo-load.com/ajax';
 
   /**
@@ -141,8 +140,7 @@ class Gogoanime extends AnimeParser {
       const alias = $('#alias_anime').attr('value');
 
       const html = await this.client.get(
-        `${
-          this.ajaxUrl
+        `${this.ajaxUrl
         }/load-list-episode?ep_start=${ep_start}&ep_end=${ep_end}&id=${movie_id}&default_ep=${0}&alias=${alias}`
       );
       const $$ = load(html.data);
@@ -211,9 +209,7 @@ class Gogoanime extends AnimeParser {
           break;
         case StreamingServers.VidStreaming:
           serverUrl = new URL(
-            `${$('div.anime_video_body > div.anime_muti_link > ul > li.vidcdn > a')
-              .attr('data-video')
-              ?.replace('.pro', '.net')}`
+            `${$('div.anime_video_body > div.anime_muti_link > ul > li.vidcdn > a').attr('data-video')}`
           );
           break;
         case StreamingServers.StreamSB:

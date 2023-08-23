@@ -120,7 +120,7 @@ class GogoCDN extends VideoExtractor {
       iv: this.keys.iv,
     });
 
-    const scriptValue = $("script[data-name='episode']").data().value as string;
+    const scriptValue = $("script[data-name='episode']").attr('data-value') as string;
 
     const decryptedToken = CryptoJS.AES.decrypt(scriptValue, this.keys.key, {
       iv: this.keys.iv,
