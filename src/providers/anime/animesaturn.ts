@@ -106,25 +106,26 @@ class AnimeSaturn extends AnimeParser {
   override fetchEpisodeSources = async (episodeId: string): Promise<ISource> => {
     const fakeData = await this.client.get(`${this.baseUrl}ep/${episodeId}`);
     const $2 = await load(fakeData.data);
-
+    
     const newUrl = $2("div > a:contains('Streaming')").attr('href');
-
+    
     if (newUrl == null) throw new Error('Invalid url');
     const data = await this.client.get(newUrl);
     const $ = await load(data.data);
-
+    
     const sources: ISource = {
-      headers: {},
-      subtitles: [],
-      sources: [],
+        headers: {},
+        subtitles: [],
+        sources: [],
     };
-
+    
     const scriptTag = $('script').filter(function () {
-      return $(this).text().includes("jwplayer('player_hls')");
+        return $(this).text().includes("jwplayer('player_hls')");
     });
 
     let getOneSource: string | undefined;
 
+    // m3u8
     scriptTag.each((i, element) => {
       const scriptText = $(element).text();
 
@@ -135,6 +136,11 @@ class AnimeSaturn extends AnimeParser {
       });
     });
 
+    // mp4
+    if (!getOneSource) {
+        getOneSource =  $('#myvideo > source').attr('src')
+    }
+
     if (!getOneSource) throw new Error('Invalid source');
 
     sources.sources.push({
@@ -142,10 +148,12 @@ class AnimeSaturn extends AnimeParser {
       isM3U8: getOneSource.includes('.m3u8'),
     });
 
-    sources.subtitles?.push({
-      url: getOneSource.replace('playlist.m3u8', 'subtitles.vtt'),
-      lang: 'Spanish',
-    });
+    if (getOneSource.includes('.m3u8')) {    
+        sources.subtitles?.push({
+          url: getOneSource.replace('playlist.m3u8', 'subtitles.vtt'),
+          lang: 'Spanish',
+        });
+    }
 
     return sources;
   };
