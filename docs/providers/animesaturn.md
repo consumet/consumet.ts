@@ -117,7 +117,7 @@ output:
 | episodeId | `string` | takes episode id as a parameter. (*episode id can be found in the anime info object*) |
 
 
-In this example, we're getting the sources for the first episode of Overlord IV.
+In this example, we're getting the sources for the first episode of Tokyo Revengers.
 ```ts
 animesaturn.fetchEpisodeSources("Tokyo-Revengers-ep-1").then(data => {
   console.log(data);
