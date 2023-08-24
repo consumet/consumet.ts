@@ -18,10 +18,10 @@ const animesaturn = new ANIME.AnimeSaturn();
 
 | Parameter | Type     | Description                                                              |
 | --------- | -------- | ------------------------------------------------------------------------ |
-| query     | `string` | query to search for. (*In this case, We're searching for `One Piece`*) |
+| query     | `string` | query to search for. (*In this case, We're searching for `Tokyo Revengers`*) |
 
 ```ts
-animesaturn.search("One Piece").then(data => {
+animesaturn.search("Tokyo Revengers").then(data => {
   console.log(data);
 })
 ```
