@@ -93,6 +93,7 @@ class AnimeSaturn extends models_1.AnimeParser {
                 return $(this).text().includes("jwplayer('player_hls')");
             });
             let getOneSource;
+            // m3u8
             scriptTag.each((i, element) => {
                 const scriptText = $(element).text();
                 scriptText.split('\n').forEach(line => {
@@ -101,16 +102,22 @@ class AnimeSaturn extends models_1.AnimeParser {
                     }
                 });
             });
+            // mp4
+            if (!getOneSource) {
+                getOneSource = $('#myvideo > source').attr('src');
+            }
             if (!getOneSource)
                 throw new Error('Invalid source');
             sources.sources.push({
                 url: getOneSource,
                 isM3U8: getOneSource.includes('.m3u8'),
             });
-            (_a = sources.subtitles) === null || _a === void 0 ? void 0 : _a.push({
-                url: getOneSource.replace('playlist.m3u8', 'subtitles.vtt'),
-                lang: 'Spanish',
-            });
+            if (getOneSource.includes('.m3u8')) {
+                (_a = sources.subtitles) === null || _a === void 0 ? void 0 : _a.push({
+                    url: getOneSource.replace('playlist.m3u8', 'subtitles.vtt'),
+                    lang: 'Spanish',
+                });
+            }
             return sources;
         };
         /**

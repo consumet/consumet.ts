@@ -57,14 +57,14 @@ class Gogoanime extends models_1.AnimeParser {
             const animeInfo = {
                 id: '',
                 title: '',
-                url: `${this.baseUrl}${id}`,
+                url: '',
                 genres: [],
                 totalEpisodes: 0,
             };
             try {
                 const res = await this.client.get(id);
                 const $ = (0, cheerio_1.load)(res.data);
-                animeInfo.id = new URL(animeInfo.url).pathname.split('/')[2];
+                animeInfo.id = new URL(id).pathname.split('/')[2];
                 animeInfo.title = $('section.content_left > div.main_body > div:nth-child(2) > div.anime_info_body_bg > h1')
                     .text()
                     .trim();
