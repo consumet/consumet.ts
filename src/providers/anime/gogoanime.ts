@@ -76,7 +76,7 @@ class Gogoanime extends AnimeParser {
     const animeInfo: IAnimeInfo = {
       id: '',
       title: '',
-      url: `${this.baseUrl}${id}`,
+      url: '',
       genres: [],
       totalEpisodes: 0,
     };
@@ -85,7 +85,7 @@ class Gogoanime extends AnimeParser {
 
       const $ = load(res.data);
 
-      animeInfo.id = new URL(animeInfo.url!).pathname.split('/')[2];
+      animeInfo.id = new URL(id).pathname.split('/')[2];
       animeInfo.title = $(
         'section.content_left > div.main_body > div:nth-child(2) > div.anime_info_body_bg > h1'
       )
@@ -140,7 +140,8 @@ class Gogoanime extends AnimeParser {
       const alias = $('#alias_anime').attr('value');
 
       const html = await this.client.get(
-        `${this.ajaxUrl
+        `${
+          this.ajaxUrl
         }/load-list-episode?ep_start=${ep_start}&ep_end=${ep_end}&id=${movie_id}&default_ep=${0}&alias=${alias}`
       );
       const $$ = load(html.data);
