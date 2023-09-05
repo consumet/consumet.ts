@@ -115,15 +115,19 @@ class Zoro extends AnimeParser {
       info.type = $('span.item').last().prev().prev().text().toUpperCase() as MediaFormat;
       info.url = `${this.baseUrl}/${id}`;
 
-      const subDub = $('div.film-stats span.item div.tick-dub')
-        .toArray()
-        .map(value => $(value).text().toLowerCase());
-      if (subDub.length > 1) {
-        info.subOrDub = SubOrSub.BOTH;
-      } else if (subDub.length > 0) {
-        info.subOrDub = subDub[0] as SubOrSub;
-      } else {
+      const hasSub: boolean = $('div.film-stats div.tick div.tick-item.tick-sub').length > 0;
+      const hasDub: boolean = $('div.film-stats div.tick div.tick-item.tick-dub').length > 0;
+
+      if (hasSub) {
         info.subOrDub = SubOrSub.SUB;
+        info.hasSub = hasSub;
+      }
+      if (hasDub) {
+        info.subOrDub = SubOrSub.DUB;
+        info.hasDub = hasDub;
+      }
+      if (hasSub && hasDub) {
+        info.subOrDub = SubOrSub.BOTH;
       }
 
       const episodesAjax = await this.client.get(
