@@ -89,6 +89,8 @@ class ViewAsian extends MovieParser {
         .get();
       mediaInfo.description = $('.desc').text().trim();
       //   mediaInfo.status = $('.mvic-info p:contains(Status)').text().replace('Status: ', '').trim();
+      mediaInfo.image = $('.dm-thumb img').attr('src');
+      mediaInfo.cover = $('.page-cover').css('background-image').slice(5, -2);
       mediaInfo.director = $('.mvic-info p:contains(Director)').text().replace('Director: ', '').trim();
       mediaInfo.country = $('.mvic-info p:contains(Country) a').text().trim();
       mediaInfo.releaseDate = $('.mvic-info p:contains(Release)').text().replace('Release: ', '').trim();
