@@ -1073,7 +1073,7 @@ class Anilist extends AnimeParser {
         capitalizeFirstLetter(weekEnd.toLowerCase())
       );
     else if (typeof weekStart === 'number' && typeof weekEnd === 'number')
-      [day1, day2] = getDays(days[weekStart], days[weekEnd]);
+      [day1, day2] = [weekStart, weekEnd];
     else throw new Error('Invalid weekStart or weekEnd');
 
     const options = {
