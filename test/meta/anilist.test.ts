@@ -47,7 +47,8 @@ test('returns a filled array of popular anime', async () => {
 });
 
 test('returns a filled array of airing schedule', async () => {
-  const data = await anilist.fetchAiringSchedule(1, 20, 1660047922, 1661832000, true);
+  const weekStart = Math.ceil(Date.now() / 1000);
+  const data = await anilist.fetchAiringSchedule(1, 20, weekStart, weekStart + 604800, true);
   expect(data.results).not.toEqual([]);
 });
 ('');
