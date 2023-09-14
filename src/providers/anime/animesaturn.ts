@@ -67,6 +67,8 @@ class AnimeSaturn extends AnimeParser {
     const info: IAnimeInfo = {
       id,
       title: $('div.container.anime-title-as> b').text(),
+      malID: $('a[href^="https://myanimelist.net/anime/"]').attr('href')?.slice(30, -1),
+      alID: $('a[href^="https://anilist.co/anime/"]').attr('href')?.slice(25, -1),
       genres:
         $('div.container a.badge.badge-light')
           ?.map((i, element): string => {
