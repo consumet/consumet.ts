@@ -114,8 +114,8 @@ class AnimeSaturn extends AnimeParser {
     const serverOneUrl = $2("div > a:contains('Streaming')").attr('href'); // scrape from server 1 (m3u8 and mp4 urls)
     if (serverOneUrl == null) throw new Error('Invalid url');
 
-    var data = await this.client.get(serverOneUrl);
-    var $ = await load(data.data);
+    let data = await this.client.get(serverOneUrl);
+    let $ = await load(data.data);
     
     const sources: ISource = {
         headers: {},
@@ -165,8 +165,8 @@ class AnimeSaturn extends AnimeParser {
     data = await this.client.get(serverTwoUrl);
     $ = await load(data.data);
 
-    let videoUrl = $('.embed-container > iframe').attr('src');
-    let serverTwoSource = await new StreamTape(this.proxyConfig, this.adapter).extract(new URL(videoUrl!));
+    const videoUrl = $('.embed-container > iframe').attr('src');
+    const serverTwoSource = await new StreamTape(this.proxyConfig, this.adapter).extract(new URL(videoUrl!));
 
     if (!serverTwoSource) throw new Error('Invalid source');
 
