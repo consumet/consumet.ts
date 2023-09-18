@@ -86,17 +86,18 @@ class Zoro extends models_1.AnimeParser {
                 // Movie, TV, OVA, ONA, Special, Music
                 info.type = $('span.item').last().prev().prev().text().toUpperCase();
                 info.url = `${this.baseUrl}/${id}`;
-                const subDub = $('div.film-stats span.item div.tick-dub')
-                    .toArray()
-                    .map(value => $(value).text().toLowerCase());
-                if (subDub.length > 1) {
-                    info.subOrDub = models_1.SubOrSub.BOTH;
-                }
-                else if (subDub.length > 0) {
-                    info.subOrDub = subDub[0];
-                }
-                else {
+                const hasSub = $('div.film-stats div.tick div.tick-item.tick-sub').length > 0;
+                const hasDub = $('div.film-stats div.tick div.tick-item.tick-dub').length > 0;
+                if (hasSub) {
                     info.subOrDub = models_1.SubOrSub.SUB;
+                    info.hasSub = hasSub;
+                }
+                if (hasDub) {
+                    info.subOrDub = models_1.SubOrSub.DUB;
+                    info.hasDub = hasDub;
+                }
+                if (hasSub && hasDub) {
+                    info.subOrDub = models_1.SubOrSub.BOTH;
                 }
                 const episodesAjax = await this.client.get(`${this.baseUrl}/ajax/v2/episode/list/${id.split('-').pop()}`, {
                     headers: {
