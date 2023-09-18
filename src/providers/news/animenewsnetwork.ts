@@ -102,13 +102,4 @@ class AnimeNewsNetwork extends NewsParser {
   };
 }
 
-(async () => {
-  const ann = new AnimeNewsNetwork();
-  const info = ann.fetchNewsInfo(
-    '2023-09-17/queen-bee-kairi-yagi-perform-undead-unluck-anime-theme-songs/.202446'
-  );
-
-  console.log(await info);
-})();
-
 export default AnimeNewsNetwork;
