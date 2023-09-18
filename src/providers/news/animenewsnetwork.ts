@@ -27,7 +27,7 @@ async function scrapNewsInfo(url: string): Promise<INewsInfo> {
   const intro = $('.intro').first().text().trim();
   const description = $('.meat > p').text().trim().split('\n\n').join('\n');
   const time = $('#page-title > small > time').text().trim();
-  const thumbnailSlug = $('.meat > figure').first().find('img').attr('data-src');
+  const thumbnailSlug = $('.meat > figure.fright').first().find('img').attr('data-src');
 
   const thumbnail = thumbnailSlug
     ? `https://animenewsnetwork.com${thumbnailSlug}`
@@ -101,5 +101,14 @@ class AnimeNewsNetwork extends NewsParser {
     });
   };
 }
+
+(async () => {
+  const ann = new AnimeNewsNetwork();
+  const info = ann.fetchNewsInfo(
+    '2023-09-17/queen-bee-kairi-yagi-perform-undead-unluck-anime-theme-songs/.202446'
+  );
+
+  console.log(await info);
+})();
 
 export default AnimeNewsNetwork;
