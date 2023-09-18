@@ -29,7 +29,7 @@ async function scrapNewsInfo(url) {
     const intro = $('.intro').first().text().trim();
     const description = $('.meat > p').text().trim().split('\n\n').join('\n');
     const time = $('#page-title > small > time').text().trim();
-    const thumbnailSlug = $('.meat > p').find('img').attr('data-src');
+    const thumbnailSlug = $('.meat > figure.fright').first().find('img').attr('data-src');
     const thumbnail = thumbnailSlug
         ? `https://animenewsnetwork.com${thumbnailSlug}`
         : 'https://i.imgur.com/KkkVr1g.png';
