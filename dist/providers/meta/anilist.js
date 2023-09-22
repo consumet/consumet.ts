@@ -893,7 +893,7 @@ class Anilist extends models_1.AnimeParser {
             if (typeof weekStart === 'string' && typeof weekEnd === 'string')
                 [day1, day2] = (0, utils_1.getDays)((0, utils_1.capitalizeFirstLetter)(weekStart.toLowerCase()), (0, utils_1.capitalizeFirstLetter)(weekEnd.toLowerCase()));
             else if (typeof weekStart === 'number' && typeof weekEnd === 'number')
-                [day1, day2] = (0, utils_1.getDays)(utils_1.days[weekStart], utils_1.days[weekEnd]);
+                [day1, day2] = [weekStart, weekEnd];
             else
                 throw new Error('Invalid weekStart or weekEnd');
             const options = {
