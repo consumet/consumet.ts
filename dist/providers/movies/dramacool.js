@@ -65,6 +65,7 @@ class DramaCool extends models_1.MovieParser {
                         id: (_b = $(el).find('a').attr('href')) === null || _b === void 0 ? void 0 : _b.split('.html')[0].slice(1),
                         title: $(el).find('h3').text().replace(mediaInfo.title.toString(), '').trim(),
                         episode: parseFloat((_c = $(el).find('a').attr('href')) === null || _c === void 0 ? void 0 : _c.split('-episode-')[1].split('.html')[0].split('-').join('.')),
+                        subType: $(el).find('span.type').text(),
                         releaseDate: $(el).find('span.time').text(),
                         url: `${this.baseUrl}${$(el).find('a').attr('href')}`,
                     });
