@@ -80,6 +80,7 @@ class ViewAsian extends MovieParser {
 
       mediaInfo.id = realMediaId;
       mediaInfo.title = $('.detail-mod h3').text();
+      mediaInfo.banner = $('.detail-mod > dm-thumb > img').attr('src');
       mediaInfo.otherNames = $('.other-name a')
         .map((i, el) => $(el).attr('title')!.trim())
         .get();
