@@ -9,7 +9,7 @@ declare class Anilist extends AnimeParser {
     private readonly anilistGraphqlUrl;
     private readonly kitsuGraphqlUrl;
     private readonly malSyncUrl;
-    private readonly enimeUrl;
+    private readonly anifyUrl;
     provider: AnimeParser;
     /**
      * This class maps anilist to kitsu with any other anime provider.
@@ -98,7 +98,7 @@ declare class Anilist extends AnimeParser {
      * @param page page number (optional)
      * @param perPage number of results per page (optional)
      */
-    fetchRecentEpisodes: (provider?: 'gogoanime' | 'zoro', page?: number, perPage?: number) => Promise<ISearch<IAnimeResult>>;
+    fetchRecentEpisodes: (provider?: 'gogoanime' | 'zoro', page?: number) => Promise<ISearch<IAnimeResult>>;
     private fetchDefaultEpisodeList;
     /**
      * @param id anilist id

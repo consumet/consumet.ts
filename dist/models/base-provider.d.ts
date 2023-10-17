@@ -22,7 +22,7 @@ declare abstract class BaseProvider extends Proxy {
      * Logo of the provider (used in the website) or `undefined` if not available. ***128x128px is preferred***\
      * Must be a valid URL (not a data URL)
      */
-    protected abstract readonly logo: string;
+    protected readonly logo: string;
     /**
      * The class's path is determined by the provider's directory structure for example:\
      * MangaDex class path is `MANGA.MangaDex`. **(case sensitive)**

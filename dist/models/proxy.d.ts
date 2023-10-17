@@ -1,6 +1,6 @@
 import { AxiosAdapter, AxiosInstance } from 'axios';
 import { ProxyConfig } from './types';
-export declare abstract class Proxy {
+export declare class Proxy {
     protected proxyConfig?: ProxyConfig | undefined;
     protected adapter?: AxiosAdapter | undefined;
     /**

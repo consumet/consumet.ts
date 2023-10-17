@@ -7,7 +7,7 @@ declare class Myanimelist extends AnimeParser {
     private readonly anilistGraphqlUrl;
     private readonly kitsuGraphqlUrl;
     private readonly malSyncUrl;
-    private readonly enimeUrl;
+    private readonly anifyUrl;
     provider: AnimeParser;
     /**
      * This class maps myanimelist to kitsu with any other anime provider.
@@ -24,7 +24,7 @@ declare class Myanimelist extends AnimeParser {
      * @param fetchFiller fetch filler episodes
      */
     fetchAnimeInfo: (animeId: string, dub?: boolean, fetchFiller?: boolean) => Promise<IAnimeInfo>;
-    fetchEpisodeSources(episodeId: string, ...args: any): Promise<ISource>;
+    fetchEpisodeSources: (episodeId: string, ...args: any) => Promise<ISource>;
     fetchEpisodeServers(episodeId: string): Promise<IEpisodeServer[]>;
     private findAnimeRaw;
     private findAnimeSlug;

@@ -8,7 +8,7 @@ const axios_1 = __importDefault(require("axios"));
 const models_1 = require("../../models");
 const utils_1 = require("../../utils");
 const gogoanime_1 = __importDefault(require("../../providers/anime/gogoanime"));
-const enime_1 = __importDefault(require("../anime/enime"));
+const anify_1 = __importDefault(require("../anime/anify"));
 const zoro_1 = __importDefault(require("../anime/zoro"));
 const mangasee123_1 = __importDefault(require("../manga/mangasee123"));
 const crunchyroll_1 = __importDefault(require("../anime/crunchyroll"));
@@ -33,7 +33,7 @@ class Anilist extends models_1.AnimeParser {
         this.anilistGraphqlUrl = 'https://graphql.anilist.co';
         this.kitsuGraphqlUrl = 'https://kitsu.io/api/graphql';
         this.malSyncUrl = 'https://api.malsync.moe';
-        this.enimeUrl = 'https://api.enime.moe';
+        this.anifyUrl = 'https://api.anify.tv';
         /**
          * @param query Search query
          * @param page Page number (optional)
@@ -53,7 +53,7 @@ class Anilist extends models_1.AnimeParser {
                     validateStatus: () => true,
                 });
                 if (status >= 500 || status == 429)
-                    data = await new enime_1.default().rawSearch(query, page, perPage);
+                    data = await new anify_1.default().rawSearch(query, page);
                 const res = {
                     currentPage: (_d = (_c = (_b = data.data.Page) === null || _b === void 0 ? void 0 : _b.pageInfo) === null || _c === void 0 ? void 0 : _c.currentPage) !== null && _d !== void 0 ? _d : (_e = data.meta) === null || _e === void 0 ? void 0 : _e.currentPage,
                     hasNextPage: (_h = (_g = (_f = data.data.Page) === null || _f === void 0 ? void 0 : _f.pageInfo) === null || _g === void 0 ? void 0 : _g.hasNextPage) !== null && _h !== void 0 ? _h : ((_j = data.meta) === null || _j === void 0 ? void 0 : _j.currentPage) != ((_k = data.meta) === null || _k === void 0 ? void 0 : _k.lastPage),
@@ -182,7 +182,7 @@ class Anilist extends models_1.AnimeParser {
                 if (status >= 500 && !query)
                     throw new Error('No results found');
                 if (status >= 500)
-                    data = await new enime_1.default().rawSearch(query, page, perPage);
+                    data = await new anify_1.default().rawSearch(query, page);
                 const res = {
                     currentPage: (_e = (_d = (_c = (_b = data.data) === null || _b === void 0 ? void 0 : _b.Page) === null || _c === void 0 ? void 0 : _c.pageInfo) === null || _d === void 0 ? void 0 : _d.currentPage) !== null && _e !== void 0 ? _e : (_f = data.meta) === null || _f === void 0 ? void 0 : _f.currentPage,
                     hasNextPage: (_k = (_j = (_h = (_g = data.data) === null || _g === void 0 ? void 0 : _g.Page) === null || _h === void 0 ? void 0 : _h.pageInfo) === null || _j === void 0 ? void 0 : _j.hasNextPage) !== null && _k !== void 0 ? _k : ((_l = data.meta) === null || _l === void 0 ? void 0 : _l.currentPage) != ((_m = data.meta) === null || _m === void 0 ? void 0 : _m.lastPage),
@@ -292,7 +292,7 @@ class Anilist extends models_1.AnimeParser {
                 if (status != 200 && status < 429)
                     throw Error('Media not found. If the problem persists, please contact the developer');
                 if (status >= 500)
-                    data = await new enime_1.default().fetchAnimeInfoByIdRaw(id);
+                    data = await new anify_1.default().fetchAnimeInfoByIdRaw(id);
                 animeInfo.malId = (_d = (_c = (_b = data.data) === null || _b === void 0 ? void 0 : _b.Media) === null || _c === void 0 ? void 0 : _c.idMal) !== null && _d !== void 0 ? _d : (_e = data === null || data === void 0 ? void 0 : data.mappings) === null || _e === void 0 ? void 0 : _e.mal;
                 animeInfo.title = data.data.Media
                     ? {
@@ -460,12 +460,13 @@ class Anilist extends models_1.AnimeParser {
                     (animeInfo.status === models_1.MediaStatus.ONGOING ||
                         (0, utils_1.range)({ from: 1940, to: new Date().getFullYear() + 1 }).includes(parseInt(animeInfo.releaseDate)))) {
                     try {
-                        const enimeInfo = await new enime_1.default().fetchAnimeInfoByAnilistId(id, this.provider.name.toLowerCase());
-                        animeInfo.mappings = enimeInfo.mappings;
-                        animeInfo.episodes = (_54 = enimeInfo.episodes) === null || _54 === void 0 ? void 0 : _54.map((item) => {
+                        const anifyInfo = await new anify_1.default().fetchAnimeInfo(id, this.provider.name.toLowerCase());
+                        animeInfo.mappings = anifyInfo.mappings;
+                        animeInfo.artwork = anifyInfo.artwork;
+                        animeInfo.episodes = (_54 = anifyInfo.episodes) === null || _54 === void 0 ? void 0 : _54.map((item) => {
                             var _b;
                             return ({
-                                id: item.slug,
+                                id: item.id,
                                 title: item.title,
                                 description: item.description,
                                 number: item.number,
@@ -540,8 +541,8 @@ class Anilist extends models_1.AnimeParser {
          */
         this.fetchEpisodeSources = async (episodeId, ...args) => {
             try {
-                if (episodeId.includes('enime'))
-                    return new enime_1.default().fetchEpisodeSources(episodeId);
+                if (episodeId.includes('/') && this.provider instanceof anify_1.default)
+                    return new anify_1.default().fetchEpisodeSources(episodeId, args[0], args[1]);
                 return this.provider.fetchEpisodeSources(episodeId, ...args);
             }
             catch (err) {
@@ -578,8 +579,8 @@ class Anilist extends models_1.AnimeParser {
         };
         this.findAnimeSlug = async (title, season, startDate, malId, dub, anilistId, externalLinks) => {
             var _b, _c, _d;
-            if (this.provider instanceof enime_1.default)
-                return (await this.provider.fetchAnimeInfoByAnilistId(anilistId)).episodes;
+            if (this.provider instanceof anify_1.default)
+                return (await this.provider.fetchAnimeInfo(anilistId)).episodes;
             const slug = title.replace(/[^0-9a-zA-Z]+/g, ' ');
             let possibleAnime;
             if (malId && !(this.provider instanceof crunchyroll_1.default || this.provider instanceof bilibili_1.default)) {
@@ -1082,9 +1083,9 @@ class Anilist extends models_1.AnimeParser {
          * @param page page number (optional)
          * @param perPage number of results per page (optional)
          */
-        this.fetchRecentEpisodes = async (provider = 'gogoanime', page = 1, perPage = 15) => {
+        this.fetchRecentEpisodes = async (provider = 'gogoanime', page = 1) => {
             try {
-                const { data: { data, meta }, } = await this.client.get(`${this.enimeUrl}/recent?page=${page}&perPage=${perPage}`);
+                const { data: { data, meta }, } = await this.client.get(`${this.anifyUrl}/recent?page=${page}`);
                 let results = data.map((item) => {
                     var _b, _c, _d, _e, _f, _g, _h, _j, _k, _l;
                     return ({
@@ -1101,7 +1102,7 @@ class Anilist extends models_1.AnimeParser {
                         color: (_h = item.anime) === null || _h === void 0 ? void 0 : _h.color,
                         episodeId: `${provider === 'gogoanime'
                             ? (_j = item.sources.find((source) => source.website.toLowerCase() === 'gogoanime')) === null || _j === void 0 ? void 0 : _j.id
-                            : (_k = item.sources.find((source) => source.website.toLowerCase() === 'zoro')) === null || _k === void 0 ? void 0 : _k.id}-enime`,
+                            : (_k = item.sources.find((source) => source.website.toLowerCase() === 'zoro')) === null || _k === void 0 ? void 0 : _k.id}`,
                         episodeTitle: (_l = item.title) !== null && _l !== void 0 ? _l : `Episode ${item.number}`,
                         episodeNumber: item.number,
                         genres: item.anime.genre,
@@ -1152,7 +1153,7 @@ class Anilist extends models_1.AnimeParser {
                 (Media.status === 'RELEASING' ||
                     (0, utils_1.range)({ from: 2000, to: new Date().getFullYear() + 1 }).includes(parseInt((_b = Media.startDate) === null || _b === void 0 ? void 0 : _b.year)))) {
                 try {
-                    possibleAnimeEpisodes = (_c = (await new enime_1.default().fetchAnimeInfoByAnilistId(id, this.provider.name.toLowerCase())).episodes) === null || _c === void 0 ? void 0 : _c.map((item) => ({
+                    possibleAnimeEpisodes = (_c = (await new anify_1.default().fetchAnimeInfoByAnilistId(id, this.provider.name.toLowerCase())).episodes) === null || _c === void 0 ? void 0 : _c.map((item) => ({
                         id: item.slug,
                         title: item.title,
                         description: item.description,
@@ -1821,7 +1822,9 @@ Anilist.Manga = class Manga {
 };
 // (async () => {
 //   const ani = new Anilist();
-//   const anime = await ani.fetchAnimeInfo('1412');
+//   const anime = await ani.fetchAnimeInfo('1');
+//   const sources = await ani.fetchEpisodeSources(anime.episodes![0].id, anime.episodes![0].number, anime.id);
+//   console.log(sources);
 // })();
 exports.default = Anilist;
 //# sourceMappingURL=anilist.js.map

@@ -17,6 +17,11 @@ class BaseProvider extends proxy_1.default {
          */
         this.isNSFW = false;
         /**
+         * Logo of the provider (used in the website) or `undefined` if not available. ***128x128px is preferred***\
+         * Must be a valid URL (not a data URL)
+         */
+        this.logo = 'https://png.pngtree.com/png-vector/20210221/ourmid/pngtree-error-404-not-found-neon-effect-png-image_2928214.jpg';
+        /**
          * override as `false` if the provider is **down** or **not working**
          */
         this.isWorking = true;

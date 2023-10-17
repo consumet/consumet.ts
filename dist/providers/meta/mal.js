@@ -9,7 +9,7 @@ const utils_1 = require("../../utils");
 const gogoanime_1 = __importDefault(require("../anime/gogoanime"));
 const zoro_1 = __importDefault(require("../anime/zoro"));
 const crunchyroll_1 = __importDefault(require("../anime/crunchyroll"));
-const enime_1 = __importDefault(require("../anime/enime"));
+const anify_1 = __importDefault(require("../anime/anify"));
 const bilibili_1 = __importDefault(require("../anime/bilibili"));
 class Myanimelist extends models_1.AnimeParser {
     /**
@@ -26,7 +26,7 @@ class Myanimelist extends models_1.AnimeParser {
         this.anilistGraphqlUrl = 'https://graphql.anilist.co';
         this.kitsuGraphqlUrl = 'https://kitsu.io/api/graphql';
         this.malSyncUrl = 'https://api.malsync.moe';
-        this.enimeUrl = 'https://api.enime.moe';
+        this.anifyUrl = 'https://api.anify.tv';
         this.search = async (query, page = 1) => {
             const searchResults = {
                 currentPage: page,
@@ -104,7 +104,7 @@ class Myanimelist extends models_1.AnimeParser {
                     (animeInfo.status === models_1.MediaStatus.ONGOING ||
                         (0, utils_1.range)({ from: 2000, to: new Date().getFullYear() + 1 }).includes((_a = animeInfo.startDate) === null || _a === void 0 ? void 0 : _a.year))) {
                     try {
-                        animeInfo.episodes = (_b = (await new enime_1.default().fetchAnimeInfoByMalId(animeId, this.provider.name.toLowerCase())).episodes) === null || _b === void 0 ? void 0 : _b.map((item) => ({
+                        animeInfo.episodes = (_b = (await new anify_1.default().fetchAnimeInfo(animeId, this.provider.name.toLowerCase())).episodes) === null || _b === void 0 ? void 0 : _b.map((item) => ({
                             id: item.slug,
                             title: item.title,
                             description: item.description,
@@ -160,6 +160,16 @@ class Myanimelist extends models_1.AnimeParser {
                 throw err;
             }
         };
+        this.fetchEpisodeSources = async (episodeId, ...args) => {
+            try {
+                if (episodeId.includes('/') && this.provider instanceof anify_1.default)
+                    return new anify_1.default().fetchEpisodeSources(episodeId, args[0], args[1]);
+                return this.provider.fetchEpisodeSources(episodeId, ...args);
+            }
+            catch (err) {
+                throw new Error(`Failed to fetch episode sources from ${this.provider.name}: ${err}`);
+            }
+        };
         this.findAnimeRaw = async (slug, externalLinks) => {
             if (externalLinks && this.provider instanceof crunchyroll_1.default) {
                 if (externalLinks.map((link) => link.site.includes('Crunchyroll'))) {
@@ -200,8 +210,8 @@ class Myanimelist extends models_1.AnimeParser {
         };
         this.findAnimeSlug = async (title, season, startDate, malId, dub, externalLinks) => {
             var _a, _b, _c;
-            if (this.provider instanceof enime_1.default)
-                return (await this.provider.fetchAnimeInfoByMalId(malId)).episodes;
+            if (this.provider instanceof anify_1.default)
+                return (await this.provider.fetchAnimeInfo(malId)).episodes;
             // console.log({ title });
             const slug = title === null || title === void 0 ? void 0 : title.replace(/[^0-9a-zA-Z]+/g, ' ');
             let possibleAnime;
@@ -586,11 +596,6 @@ class Myanimelist extends models_1.AnimeParser {
         catch (err) {
             console.error(err);
         }
-    }
-    fetchEpisodeSources(episodeId, ...args) {
-        if (episodeId.includes('enime'))
-            return new enime_1.default().fetchEpisodeSources(episodeId);
-        return this.provider.fetchEpisodeSources(episodeId, ...args);
     }
     fetchEpisodeServers(episodeId) {
         return this.provider.fetchEpisodeServers(episodeId);
