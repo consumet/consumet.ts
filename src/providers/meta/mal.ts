@@ -16,7 +16,7 @@ import { substringAfter, substringBefore, compareTwoStrings, kitsuSearchQuery, r
 import Gogoanime from '../anime/gogoanime';
 import Zoro from '../anime/zoro';
 import Crunchyroll from '../anime/crunchyroll';
-import Enime from '../anime/enime';
+import Enime from '../anime/anify';
 import Bilibili from '../anime/bilibili';
 
 class Myanimelist extends AnimeParser {

@@ -27,7 +27,8 @@ abstract class BaseProvider extends Proxy {
    * Logo of the provider (used in the website) or `undefined` if not available. ***128x128px is preferred***\
    * Must be a valid URL (not a data URL)
    */
-  protected abstract readonly logo: string;
+  protected readonly logo: string =
+    'https://png.pngtree.com/png-vector/20210221/ourmid/pngtree-error-404-not-found-neon-effect-png-image_2928214.jpg';
 
   /**
    * The class's path is determined by the provider's directory structure for example:\

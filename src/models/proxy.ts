@@ -1,9 +1,8 @@
 import axios, { AxiosAdapter, AxiosInstance } from 'axios';
 
 import { ProxyConfig } from './types';
-import BaseProvider from './base-provider';
 
-export abstract class Proxy {
+export class Proxy {
   /**
    *
    * @param proxyConfig The proxy config (optional)
@@ -40,6 +39,13 @@ export abstract class Proxy {
         };
         config.url = `${proxyConfig.url}/${config?.url ? config?.url : ''}`;
       }
+
+      if (config?.url?.includes('anify'))
+        config.headers = {
+          ...config.headers,
+          'User-Agent': 'consumet',
+        };
+
       return config;
     });
   }
