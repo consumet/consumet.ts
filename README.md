@@ -61,7 +61,7 @@ const data = books.search('pride and prejudice').then(data => {
 })
 ```
 
-**Exmaple** - searching for anime using the gogoanime provider.
+**Example** - searching for anime using the gogoanime provider.
 ```ts
 import { ANIME } from "@consumet/extensions"
 
