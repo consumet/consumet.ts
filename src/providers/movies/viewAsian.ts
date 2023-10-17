@@ -118,7 +118,9 @@ class ViewAsian extends MovieParser {
       const serverUrl = new URL(episodeId);
       switch (server) {
         case StreamingServers.AsianLoad:
-          return { ...(await new AsianLoad(this.proxyConfig, this.adapter).extract(serverUrl)) };
+          return {
+            ...(await new AsianLoad(this.proxyConfig, this.adapter).extract(serverUrl)),
+          };
         case StreamingServers.MixDrop:
           return {
             sources: await new MixDrop(this.proxyConfig, this.adapter).extract(serverUrl),

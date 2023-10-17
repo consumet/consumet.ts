@@ -83,7 +83,11 @@ class MangaHere extends models_1.MangaParser {
                     const s = html.substring(ss, se).replace('eval', '');
                     const ds = eval(s);
                     const urls = ds.split("['")[1].split("']")[0].split("','");
-                    urls.map((url, i) => chapterPages.push({ page: i, img: `https:${url}`, headerForImage: { Referer: url } }));
+                    urls.map((url, i) => chapterPages.push({
+                        page: i,
+                        img: `https:${url}`,
+                        headerForImage: { Referer: url },
+                    }));
                 }
                 else {
                     let sKey = this.extractKey(html);

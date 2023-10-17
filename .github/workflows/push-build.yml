@@ -25,8 +25,8 @@ jobs:
           git config --global credential.helper store
           echo "https://${{ secrets.USERNAME }}:${{ secrets.TOKEN }}@github.com" > ~/.git-credentials
         shell: bash
- 
-      - name: Check Diff 
+
+      - name: Check Diff
         id: check_diff
         run: |
           git diff --exit-code
@@ -37,11 +37,10 @@ jobs:
             echo "push_changes=true" >> $GITHUB_OUTPUT
           fi
         shell: bash
-        
+
       - name: Push Changes
         if: steps.check_diff.outputs.push_changes == 'true'
         run: |
-         git add .
-         git commit -am "Compile TS"
-         git push
-      
+          git add .
+          git commit -am "Compile TS"
+          git push

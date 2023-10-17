@@ -23,15 +23,15 @@ class ComicK extends models_1.MangaParser {
             try {
                 const req = await this._axios().get(`/comic/${mangaId}`);
                 const data = req.data.comic;
-                const links = Object.values((_a = data.links) !== null && _a !== void 0 ? _a : []).filter((link) => link !== null);
+                const links = Object.values((_a = data.links) !== null && _a !== void 0 ? _a : []).filter(link => link !== null);
                 const mangaInfo = {
                     id: data.hid,
                     title: data.title,
-                    altTitles: data.md_titles ? data.md_titles.map((title) => title.title) : [],
+                    altTitles: data.md_titles ? data.md_titles.map(title => title.title) : [],
                     description: data.desc,
-                    genres: (_b = data.md_comic_md_genres) === null || _b === void 0 ? void 0 : _b.map((genre) => genre.md_genres.name),
+                    genres: (_b = data.md_comic_md_genres) === null || _b === void 0 ? void 0 : _b.map(genre => genre.md_genres.name),
                     status: ((_c = data.status) !== null && _c !== void 0 ? _c : 0 === 0) ? models_1.MediaStatus.ONGOING : models_1.MediaStatus.COMPLETED,
-                    image: `https://meo.comick.pictures${data.md_covers ? data.md_covers[0].b2key : ""}`,
+                    image: `https://meo.comick.pictures${data.md_covers ? data.md_covers[0].b2key : ''}`,
                     malId: (_d = data.links) === null || _d === void 0 ? void 0 : _d.mal,
                     links: links,
                     chapters: [],
@@ -66,7 +66,7 @@ class ComicK extends models_1.MangaParser {
                 data.chapter.md_images.map((image, index) => {
                     pages.push({
                         img: `https://meo.comick.pictures/${image.b2key}?width=${image.w}`,
-                        page: index
+                        page: index,
                     });
                 });
                 return pages;
@@ -103,8 +103,8 @@ class ComicK extends models_1.MangaParser {
                     results.results.push({
                         id: manga.slug,
                         title: (_a = manga.title) !== null && _a !== void 0 ? _a : manga.slug,
-                        altTitles: manga.md_titles ? manga.md_titles.map((title) => title.title) : [],
-                        image: cover
+                        altTitles: manga.md_titles ? manga.md_titles.map(title => title.title) : [],
+                        image: cover,
                     });
                 }
                 return results;
@@ -126,8 +126,8 @@ class ComicK extends models_1.MangaParser {
         return axios_1.default.create({
             baseURL: this.apiUrl,
             headers: {
-                "User-Agent": "Mozilla/5.0",
-            }
+                'User-Agent': 'Mozilla/5.0',
+            },
         });
     }
     /**
@@ -137,7 +137,7 @@ class ComicK extends models_1.MangaParser {
      */
     async getComicId(id) {
         const req = await this._axios().get(`/comic/${id}`);
-        const data = req.data["comic"];
+        const data = req.data['comic'];
         return data ? data.hid : '';
     }
 }

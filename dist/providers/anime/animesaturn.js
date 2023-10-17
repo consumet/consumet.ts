@@ -102,7 +102,12 @@ class AnimeSaturn extends models_1.AnimeParser {
                 const scriptText = $(element).text();
                 scriptText.split('\n').forEach(line => {
                     if (line.includes('file:') && !serverOneSource) {
-                        serverOneSource = line.split('file:')[1].trim().replace(/'/g, '').replace(/,/g, '').replace(/"/g, '');
+                        serverOneSource = line
+                            .split('file:')[1]
+                            .trim()
+                            .replace(/'/g, '')
+                            .replace(/,/g, '')
+                            .replace(/"/g, '');
                     }
                 });
             });

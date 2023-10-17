@@ -7,4 +7,13 @@ import MovieHdWatch from './movidhdwatch';
 import SmashyStream from './smashystream';
 import ViewAsian from './viewAsian';
 
-export default { DramaCool, FlixHQ, Fmovies, Goku, KissAsian, MovieHdWatch, SmashyStream, ViewAsian };
+export default {
+  DramaCool,
+  FlixHQ,
+  Fmovies,
+  Goku,
+  KissAsian,
+  MovieHdWatch,
+  SmashyStream,
+  ViewAsian,
+};

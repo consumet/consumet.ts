@@ -128,7 +128,7 @@ class ReadLightNovels extends models_1.LightNovelParser {
             const contents = {
                 novelTitle: '',
                 chapterTitle: '',
-                text: ''
+                text: '',
             };
             try {
                 const page = await this.client.get(chapterId);
@@ -136,7 +136,7 @@ class ReadLightNovels extends models_1.LightNovelParser {
                 contents.novelTitle = $('.truyen-title').text();
                 contents.chapterTitle = $('.chapter-title').text();
                 for (const line of $('div.chapter-content > p')) {
-                    if ($(line).text() != "﻿") {
+                    if ($(line).text() != '﻿') {
                         contents.text += `${$(line).text()}\n`;
                     }
                 }

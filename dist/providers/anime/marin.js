@@ -225,7 +225,7 @@ class Marin extends models_1.AnimeParser {
             }
             const response_data = {
                 headers: {
-                    Cookie: cookie
+                    Cookie: cookie,
                 },
                 sources: data.props.video.data.mirror.map((el) => {
                     return {

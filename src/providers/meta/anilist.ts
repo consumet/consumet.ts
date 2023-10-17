@@ -552,7 +552,10 @@ class Anilist extends AnimeParser {
                 idMal: animeInfo.malId! as number,
                 season: data.data.Media.season,
                 startDate: { year: parseInt(animeInfo.releaseDate!) },
-                title: { english: animeInfo.title?.english!, romaji: animeInfo.title?.romaji! },
+                title: {
+                  english: animeInfo.title?.english!,
+                  romaji: animeInfo.title?.romaji!,
+                },
               },
               dub,
               id
@@ -569,7 +572,10 @@ class Anilist extends AnimeParser {
               idMal: animeInfo.malId! as number,
               season: data.data.Media.season,
               startDate: { year: parseInt(animeInfo.releaseDate!) },
-              title: { english: animeInfo.title?.english!, romaji: animeInfo.title?.romaji! },
+              title: {
+                english: animeInfo.title?.english!,
+                romaji: animeInfo.title?.romaji!,
+              },
             },
             dub,
             id
@@ -589,7 +595,10 @@ class Anilist extends AnimeParser {
             idMal: animeInfo.malId! as number,
             season: data.data.Media.season,
             startDate: { year: parseInt(animeInfo.releaseDate!) },
-            title: { english: animeInfo.title?.english!, romaji: animeInfo.title?.romaji! },
+            title: {
+              english: animeInfo.title?.english!,
+              romaji: animeInfo.title?.romaji!,
+            },
             externalLinks: data.data.Media.externalLinks.filter((link: any) => link.type === 'STREAMING'),
           },
           dub,
@@ -604,7 +613,12 @@ class Anilist extends AnimeParser {
 
         if (!fillerData.toString().startsWith('404')) {
           fillerEpisodes = [];
-          fillerEpisodes?.push(...(fillerData.episodes as { number: string; 'filler-bool': boolean }[]));
+          fillerEpisodes?.push(
+            ...(fillerData.episodes as {
+              number: string;
+              'filler-bool': boolean;
+            }[])
+          );
         }
       }
 
@@ -725,7 +739,9 @@ class Anilist extends AnimeParser {
 
       if (malAsyncReq.status === 200) {
         const sitesT = malAsyncReq.data.Sites as {
-          [k: string]: { [k: string]: { url: string; page: string; title: string } };
+          [k: string]: {
+            [k: string]: { url: string; page: string; title: string };
+          };
         };
         let sites = Object.values(sitesT).map((v, i) => {
           const obj: any = [...Object.values(Object.values(sitesT)[i])];
@@ -1187,7 +1203,9 @@ class Anilist extends AnimeParser {
     if (this.provider instanceof Crunchyroll && externalLinks) {
       const link = externalLinks.find((link: any) => link.site.includes('Crunchyroll'));
       if (link) {
-        const { request } = await this.client.get(link.url, { validateStatus: () => true });
+        const { request } = await this.client.get(link.url, {
+          validateStatus: () => true,
+        });
         if (request.res.responseUrl.includes('series') || request.res.responseUrl.includes('watch')) {
           const mediaType = request.res.responseUrl.split('/')[3];
           const id = request.res.responseUrl.split('/')[4];
@@ -1436,7 +1454,12 @@ class Anilist extends AnimeParser {
 
       if (!fillerData.toString().startsWith('404')) {
         fillerEpisodes = [];
-        fillerEpisodes?.push(...(fillerData.episodes as { number: string; 'filler-bool': boolean }[]));
+        fillerEpisodes?.push(
+          ...(fillerData.episodes as {
+            number: string;
+            'filler-bool': boolean;
+          }[])
+        );
       }
     }
 
@@ -2054,7 +2077,10 @@ class Anilist extends AnimeParser {
 
         mangaInfo.chapters = await new Anilist().findManga(
           this.provider,
-          { english: mangaInfo.title.english!, romaji: mangaInfo.title.romaji! },
+          {
+            english: mangaInfo.title.english!,
+            romaji: mangaInfo.title.romaji!,
+          },
           mangaInfo.malId as number
         );
         mangaInfo.chapters = mangaInfo.chapters.reverse();
@@ -2082,11 +2108,17 @@ class Anilist extends AnimeParser {
 
       if (malAsyncReq.status === 200) {
         const sitesT = malAsyncReq.data.Sites as {
-          [k: string]: { [k: string]: { url: string; page: string; title: string } };
+          [k: string]: {
+            [k: string]: { url: string; page: string; title: string };
+          };
         };
         let sites = Object.values(sitesT).map((v, i) => {
           const obj: any = [...Object.values(Object.values(sitesT)[i])];
-          const pages: any = obj.map((v: any) => ({ page: v.page, url: v.url, title: v.title }));
+          const pages: any = obj.map((v: any) => ({
+            page: v.page,
+            url: v.url,
+            title: v.title,
+          }));
           return pages;
         }) as any[];
 

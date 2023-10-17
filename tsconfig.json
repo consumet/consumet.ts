@@ -12,10 +12,6 @@
     "strict": true,
     "skipLibCheck": true
   },
-  "ts-node": {
-    
-    "esm": true
-  },
   "lib": ["esnext"],
   "include": ["src"]
 }

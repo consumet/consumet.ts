@@ -46,18 +46,18 @@ class VidCloud extends VideoExtractor {
           ).data;
         }
 
-        const sourcesArray = res.data.sources.split("");
-        let extractedKey = "";
+        const sourcesArray = res.data.sources.split('');
+        let extractedKey = '';
 
         for (const index of key) {
           for (let i = index[0]; i < index[1]; i++) {
             extractedKey += res.data.sources[i];
-            sourcesArray[i] = "";
+            sourcesArray[i] = '';
           }
         }
 
         key = extractedKey;
-        res.data.sources = sourcesArray.join("");
+        res.data.sources = sourcesArray.join('');
 
         const decryptedVal = CryptoJS.AES.decrypt(res.data.sources, key).toString(CryptoJS.enc.Utf8);
         sources = isJson(decryptedVal) ? JSON.parse(decryptedVal) : res.data.sources;

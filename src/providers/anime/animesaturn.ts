@@ -118,16 +118,16 @@ class AnimeSaturn extends AnimeParser {
 
     let data = await this.client.get(serverOneUrl);
     let $ = await load(data.data);
-    
+
     const sources: ISource = {
-        headers: {},
-        subtitles: [],
-        sources: [],
+      headers: {},
+      subtitles: [],
+      sources: [],
     };
-    
+
     // M3U8 and MP4
     const scriptTag = $('script').filter(function () {
-        return $(this).text().includes("jwplayer('player_hls')");
+      return $(this).text().includes("jwplayer('player_hls')");
     });
 
     let serverOneSource: string | undefined;
@@ -138,14 +138,19 @@ class AnimeSaturn extends AnimeParser {
 
       scriptText.split('\n').forEach(line => {
         if (line.includes('file:') && !serverOneSource) {
-          serverOneSource = line.split('file:')[1].trim().replace(/'/g, '').replace(/,/g, '').replace(/"/g, '');
+          serverOneSource = line
+            .split('file:')[1]
+            .trim()
+            .replace(/'/g, '')
+            .replace(/,/g, '')
+            .replace(/"/g, '');
         }
       });
     });
 
     // mp4
     if (!serverOneSource) {
-        serverOneSource =  $('#myvideo > source').attr('src')
+      serverOneSource = $('#myvideo > source').attr('src');
     }
 
     if (!serverOneSource) throw new Error('Invalid source');
@@ -155,15 +160,15 @@ class AnimeSaturn extends AnimeParser {
       isM3U8: serverOneSource.includes('.m3u8'),
     });
 
-    if (serverOneSource.includes('.m3u8')) {    
-        sources.subtitles?.push({
-          url: serverOneSource.replace('playlist.m3u8', 'subtitles.vtt'),
-          lang: 'Spanish',
-        });
+    if (serverOneSource.includes('.m3u8')) {
+      sources.subtitles?.push({
+        url: serverOneSource.replace('playlist.m3u8', 'subtitles.vtt'),
+        lang: 'Spanish',
+      });
     }
 
     // STREAMTAPE
-    const serverTwoUrl = serverOneUrl + '&server=1' // scrape from server 2 (streamtape)
+    const serverTwoUrl = serverOneUrl + '&server=1'; // scrape from server 2 (streamtape)
     data = await this.client.get(serverTwoUrl);
     $ = await load(data.data);
 
@@ -173,8 +178,8 @@ class AnimeSaturn extends AnimeParser {
     if (!serverTwoSource) throw new Error('Invalid source');
 
     sources.sources.push({
-        url: serverTwoSource[0].url,
-        isM3U8: serverTwoSource[0].isM3U8,
+      url: serverTwoSource[0].url,
+      isM3U8: serverTwoSource[0].isM3U8,
     });
 
     return sources;

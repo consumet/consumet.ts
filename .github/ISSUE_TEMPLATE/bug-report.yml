@@ -45,7 +45,7 @@ body:
           "This happened instead..."
     validations:
       required: true
-    
+
   - type: textarea
     id: additional-context
     attributes:

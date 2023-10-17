@@ -28,7 +28,7 @@ body:
         Example: "English"
     validations:
       required: true
-  
+
   - type: dropdown
     id: source-type
     attributes:

@@ -258,7 +258,7 @@ class Marin extends AnimeParser {
     const token = await this.getToken();
     const cookie = `__ddg1=;__ddg2_=; XSRF-TOKEN=${token[1].split(';')[0]}; marin_session=${
       token[0].split(';')[0]
-    };`
+    };`;
     let data;
     try {
       const response = await this.client.post(
@@ -285,7 +285,7 @@ class Marin extends AnimeParser {
 
     const response_data = {
       headers: {
-        Cookie: cookie
+        Cookie: cookie,
       },
       sources: data.props.video.data.mirror.map((el: any) => {
         return {

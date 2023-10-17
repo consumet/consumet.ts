@@ -16,6 +16,7 @@ const lightnovelProvider = LIGHT_NOVELS.<providerName>();
 ## Light Novels Providers List
 This list is in alphabetical order. (except the sub bullet points)
 
+- [NovelUpdates](../providers/novelupdates.md)
 - [ReadLightNovels](../providers/readlightnovels.md)
 
 
