@@ -164,7 +164,9 @@ class Myanimelist extends models_1.AnimeParser {
             if (externalLinks && this.provider instanceof crunchyroll_1.default) {
                 if (externalLinks.map((link) => link.site.includes('Crunchyroll'))) {
                     const link = externalLinks.find((link) => link.site.includes('Crunchyroll'));
-                    const { request } = await this.client.get(link.url, { validateStatus: () => true });
+                    const { request } = await this.client.get(link.url, {
+                        validateStatus: () => true,
+                    });
                     const mediaType = request.res.responseUrl.split('/')[3];
                     const id = request.res.responseUrl.split('/')[4];
                     return await this.provider.fetchAnimeInfo(id, mediaType);
@@ -215,7 +217,11 @@ class Myanimelist extends models_1.AnimeParser {
                     const sitesT = malAsyncReq.data.Sites;
                     let sites = Object.values(sitesT).map((v, i) => {
                         const obj = [...Object.values(Object.values(sitesT)[i])];
-                        const pages = obj.map(v => ({ page: v.page, url: v.url, title: v.title }));
+                        const pages = obj.map(v => ({
+                            page: v.page,
+                            url: v.url,
+                            title: v.title,
+                        }));
                         return pages;
                     });
                     sites = sites.flat();

@@ -13,5 +13,16 @@ const crunchyroll_1 = __importDefault(require("./crunchyroll"));
 const bilibili_1 = __importDefault(require("./bilibili"));
 const marin_1 = __importDefault(require("./marin"));
 const animesaturn_1 = __importDefault(require("./animesaturn"));
-exports.default = { Gogoanime: gogoanime_1.default, NineAnime: _9anime_1.default, AnimePahe: animepahe_1.default, Zoro: zoro_1.default, AnimeFox: animefox_1.default, Enime: enime_1.default, Crunchyroll: crunchyroll_1.default, Bilibili: bilibili_1.default, Marin: marin_1.default, AnimeSaturn: animesaturn_1.default };
+exports.default = {
+    Gogoanime: gogoanime_1.default,
+    NineAnime: _9anime_1.default,
+    AnimePahe: animepahe_1.default,
+    Zoro: zoro_1.default,
+    AnimeFox: animefox_1.default,
+    Enime: enime_1.default,
+    Crunchyroll: crunchyroll_1.default,
+    Bilibili: bilibili_1.default,
+    Marin: marin_1.default,
+    AnimeSaturn: animesaturn_1.default,
+};
 //# sourceMappingURL=index.js.map

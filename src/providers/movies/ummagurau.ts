@@ -23,7 +23,9 @@ class Ummangurau extends MovieParser {
       results: [],
     };
     try {
-      const { data } = await this.client.get(`${this.baseUrl}/search/${query.replace(/[\W_]+/g, '-')}?page=${page}`);
+      const { data } = await this.client.get(
+        `${this.baseUrl}/search/${query.replace(/[\W_]+/g, '-')}?page=${page}`
+      );
 
       const $ = load(data);
 

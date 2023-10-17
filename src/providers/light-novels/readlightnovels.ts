@@ -162,17 +162,17 @@ class ReadLightNovels extends LightNovelParser {
     const contents: ILightNovelChapterContent = {
       novelTitle: '',
       chapterTitle: '',
-      text: ''
+      text: '',
     };
 
     try {
       const page = await this.client.get(chapterId);
       const $ = load(page.data);
 
-      contents.novelTitle = $('.truyen-title').text()
-      contents.chapterTitle = $('.chapter-title').text()
+      contents.novelTitle = $('.truyen-title').text();
+      contents.chapterTitle = $('.chapter-title').text();
       for (const line of $('div.chapter-content > p')) {
-        if($(line).text() != "﻿") {
+        if ($(line).text() != '﻿') {
           contents.text += `${$(line).text()}\n`;
         }
       }

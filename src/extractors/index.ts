@@ -37,5 +37,5 @@ export {
   VidCloud,
   VidMoly,
   VizCloud,
-  Voe
+  Voe,
 };

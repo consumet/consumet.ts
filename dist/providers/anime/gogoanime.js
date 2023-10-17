@@ -146,7 +146,11 @@ class Gogoanime extends models_1.AnimeParser {
                         };
                     case models_1.StreamingServers.StreamSB:
                         return {
-                            headers: { Referer: serverUrl.href, watchsb: 'streamsb', 'User-Agent': utils_1.USER_AGENT },
+                            headers: {
+                                Referer: serverUrl.href,
+                                watchsb: 'streamsb',
+                                'User-Agent': utils_1.USER_AGENT,
+                            },
                             sources: await new extractors_1.StreamSB(this.proxyConfig, this.adapter).extract(serverUrl),
                             download: `https://gogohd.net/download${serverUrl.search}`,
                         };

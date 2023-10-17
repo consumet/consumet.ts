@@ -144,7 +144,11 @@ class Zoro extends models_1.AnimeParser {
                         return Object.assign({}, (await new utils_1.RapidCloud(this.proxyConfig, this.adapter).extract(serverUrl)));
                     case models_1.StreamingServers.StreamSB:
                         return {
-                            headers: { Referer: serverUrl.href, watchsb: 'streamsb', 'User-Agent': utils_2.USER_AGENT },
+                            headers: {
+                                Referer: serverUrl.href,
+                                watchsb: 'streamsb',
+                                'User-Agent': utils_2.USER_AGENT,
+                            },
                             sources: await new utils_1.StreamSB(this.proxyConfig, this.adapter).extract(serverUrl, true),
                         };
                     case models_1.StreamingServers.StreamTape:

@@ -37,16 +37,16 @@ class VidCloud extends models_1.VideoExtractor {
                     if (!key) {
                         key = await (await this.client.get('https://raw.githubusercontent.com/enimax-anime/key/e4/key.txt')).data;
                     }
-                    const sourcesArray = res.data.sources.split("");
-                    let extractedKey = "";
+                    const sourcesArray = res.data.sources.split('');
+                    let extractedKey = '';
                     for (const index of key) {
                         for (let i = index[0]; i < index[1]; i++) {
                             extractedKey += res.data.sources[i];
-                            sourcesArray[i] = "";
+                            sourcesArray[i] = '';
                         }
                     }
                     key = extractedKey;
-                    res.data.sources = sourcesArray.join("");
+                    res.data.sources = sourcesArray.join('');
                     const decryptedVal = crypto_js_1.default.AES.decrypt(res.data.sources, key).toString(crypto_js_1.default.enc.Utf8);
                     sources = (0, utils_1.isJson)(decryptedVal) ? JSON.parse(decryptedVal) : res.data.sources;
                 }

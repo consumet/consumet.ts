@@ -24,7 +24,9 @@ class Enime extends AnimeParser {
    * @param page Page number (optional)
    */
   rawSearch = async (query: string, page: number = 1, perPage: number = 15): Promise<any> => {
-    const { data } = await this.client.get(`${this.enimeApi}/search/${query}?page=${page}&perPage=${perPage}`);
+    const { data } = await this.client.get(
+      `${this.enimeApi}/search/${query}?page=${page}&perPage=${perPage}`
+    );
 
     return data;
   };
@@ -43,7 +45,9 @@ class Enime extends AnimeParser {
       results: [],
     };
 
-    const { data } = await this.client.get(`${this.enimeApi}/search/${query}?page=${page}&perPage=${perPage}`);
+    const { data } = await this.client.get(
+      `${this.enimeApi}/search/${query}?page=${page}&perPage=${perPage}`
+    );
 
     if (data.currentPage !== res.currentPage) res.hasNextPage = true;
 

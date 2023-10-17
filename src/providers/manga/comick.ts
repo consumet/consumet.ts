@@ -13,8 +13,8 @@ class ComicK extends MangaParser {
     return axios.create({
       baseURL: this.apiUrl,
       headers: {
-        "User-Agent": "Mozilla/5.0",
-      }
+        'User-Agent': 'Mozilla/5.0',
+      },
     });
   }
 
@@ -28,16 +28,16 @@ class ComicK extends MangaParser {
       const req = await this._axios().get(`/comic/${mangaId}`);
       const data: Comic = req.data.comic;
 
-      const links = Object.values(data.links ?? []).filter((link) => link !== null);
+      const links = Object.values(data.links ?? []).filter(link => link !== null);
 
       const mangaInfo: IMangaInfo = {
         id: data.hid,
         title: data.title,
-        altTitles: data.md_titles ? data.md_titles.map((title) => title.title) : [],
+        altTitles: data.md_titles ? data.md_titles.map(title => title.title) : [],
         description: data.desc,
-        genres: data.md_comic_md_genres?.map((genre) => genre.md_genres.name),
+        genres: data.md_comic_md_genres?.map(genre => genre.md_genres.name),
         status: data.status ?? 0 === 0 ? MediaStatus.ONGOING : MediaStatus.COMPLETED,
-        image: `https://meo.comick.pictures${data.md_covers ? data.md_covers[0].b2key : ""}`,
+        image: `https://meo.comick.pictures${data.md_covers ? data.md_covers[0].b2key : ''}`,
         malId: data.links?.mal,
         links: links,
         chapters: [],
@@ -74,11 +74,11 @@ class ComicK extends MangaParser {
 
       const pages: { img: string; page: number }[] = [];
 
-      data.chapter.md_images.map((image: { b2key: string; w: string; }, index:number) => {
-          pages.push({
-              img: `https://meo.comick.pictures/${image.b2key}?width=${image.w}`,
-              page: index
-          });
+      data.chapter.md_images.map((image: { b2key: string; w: string }, index: number) => {
+        pages.push({
+          img: `https://meo.comick.pictures/${image.b2key}?width=${image.w}`,
+          page: index,
+        });
       });
 
       return pages;
@@ -114,16 +114,16 @@ class ComicK extends MangaParser {
       const data: SearchResult[] = await req.data;
 
       for (const manga of data) {
-        let cover:Cover | string | null = manga.md_covers ? manga.md_covers[0] : null;
+        let cover: Cover | string | null = manga.md_covers ? manga.md_covers[0] : null;
         if (cover && cover.b2key != undefined) {
-            cover = `https://meo.comick.pictures${cover.b2key}`;
+          cover = `https://meo.comick.pictures${cover.b2key}`;
         }
 
         results.results.push({
           id: manga.slug,
           title: manga.title ?? manga.slug,
-          altTitles: manga.md_titles ? manga.md_titles.map((title) => title.title) : [],
-          image: cover as string
+          altTitles: manga.md_titles ? manga.md_titles.map(title => title.title) : [],
+          image: cover as string,
         });
       }
 
@@ -133,10 +133,7 @@ class ComicK extends MangaParser {
     }
   };
 
-  private fetchAllChapters = async (
-    mangaId: string,
-    page: number
-  ): Promise<any[]> => {
+  private fetchAllChapters = async (mangaId: string, page: number): Promise<any[]> => {
     if (page <= 0) {
       page = 1;
     }
@@ -150,9 +147,9 @@ class ComicK extends MangaParser {
    * @param id Comic slug
    * @returns Promise<string> empty if not found
    */
-  private async getComicId(id:string): Promise<string> {
+  private async getComicId(id: string): Promise<string> {
     const req = await this._axios().get(`/comic/${id}`);
-    const data:Comic = req.data["comic"];
+    const data: Comic = req.data['comic'];
     return data ? data.hid : '';
   }
 }
@@ -220,7 +217,10 @@ interface Comic {
   mies: any;
   md_titles: Array<ComicTitles>;
   md_comic_md_genres: Array<ComicGenres>;
-  mu_comics: { licensed_in_english: any, mu_comic_categories: Array<ComicCategories> };
+  mu_comics: {
+    licensed_in_english: any;
+    mu_comic_categories: Array<ComicCategories>;
+  };
   md_covers: Array<Cover>;
   iso639_1: string;
   lang_name: string;
@@ -246,18 +246,18 @@ interface ComicTitles {
 
 interface ComicGenres {
   md_genres: {
-      name: string;
-      type: string|null;
-      slug: string;
-      group: string;
-  }
+    name: string;
+    type: string | null;
+    slug: string;
+    group: string;
+  };
 }
 
 interface ComicCategories {
   mu_categories: {
-      title: string;
-      slug: string;
-  }
+    title: string;
+    slug: string;
+  };
   positive_vote: number;
   negative_vote: number;
 }

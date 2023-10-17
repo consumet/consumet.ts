@@ -12,7 +12,7 @@ class Mp4Upload extends models_1.VideoExtractor {
                 const playerSrc = data.match(/(?<=player\.src\()\s*{\s*type:\s*"[^"]+",\s*src:\s*"([^"]+)"\s*}\s*(?=\);)/s);
                 const streamUrl = playerSrc[1];
                 if (!streamUrl)
-                    throw new Error("Stream url not found");
+                    throw new Error('Stream url not found');
                 this.sources.push({
                     quality: 'auto',
                     url: streamUrl,

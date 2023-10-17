@@ -244,7 +244,12 @@ class Myanimelist extends AnimeParser {
 
         if (!fillerData.toString().startsWith('404')) {
           fillerEpisodes = [];
-          fillerEpisodes?.push(...(fillerData.episodes as { number: string; 'filler-bool': boolean }[]));
+          fillerEpisodes?.push(
+            ...(fillerData.episodes as {
+              number: string;
+              'filler-bool': boolean;
+            }[])
+          );
         }
       }
 
@@ -283,7 +288,9 @@ class Myanimelist extends AnimeParser {
     if (externalLinks && this.provider instanceof Crunchyroll) {
       if (externalLinks.map((link: any) => link.site.includes('Crunchyroll'))) {
         const link = externalLinks.find((link: any) => link.site.includes('Crunchyroll'));
-        const { request } = await this.client.get(link.url, { validateStatus: () => true });
+        const { request } = await this.client.get(link.url, {
+          validateStatus: () => true,
+        });
         const mediaType = request.res.responseUrl.split('/')[3];
         const id = request.res.responseUrl.split('/')[4];
 
@@ -345,11 +352,17 @@ class Myanimelist extends AnimeParser {
 
       if (malAsyncReq.status === 200) {
         const sitesT = malAsyncReq.data.Sites as {
-          [k: string]: { [k: string]: { url: string; page: string; title: string } };
+          [k: string]: {
+            [k: string]: { url: string; page: string; title: string };
+          };
         };
         let sites = Object.values(sitesT).map((v, i) => {
           const obj = [...Object.values(Object.values(sitesT)[i])];
-          const pages = obj.map(v => ({ page: v.page, url: v.url, title: v.title }));
+          const pages = obj.map(v => ({
+            page: v.page,
+            url: v.url,
+            title: v.title,
+          }));
           return pages;
         }) as any[];
 

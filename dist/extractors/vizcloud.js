@@ -17,13 +17,13 @@ class VizCloud extends models_1.VideoExtractor {
         };
         this.extract = async (videoUrl, vizCloudHelper, apiKey) => {
             var _a, _b;
-            const vizID = videoUrl.href.split("/");
+            const vizID = videoUrl.href.split('/');
             let url;
             if (!vizID.length) {
                 throw new Error('Video not found');
             }
             else {
-                url = `${vizCloudHelper}/vizcloud?query=${encodeURIComponent((_a = vizID.pop()) !== null && _a !== void 0 ? _a : "")}&apikey=${apiKey}`;
+                url = `${vizCloudHelper}/vizcloud?query=${encodeURIComponent((_a = vizID.pop()) !== null && _a !== void 0 ? _a : '')}&apikey=${apiKey}`;
             }
             const { data } = await this.client.get(url);
             if (!((_b = data.data) === null || _b === void 0 ? void 0 : _b.media))
@@ -43,7 +43,7 @@ class VizCloud extends models_1.VideoExtractor {
             const req = await this.client({
                 method: 'get',
                 url: main,
-                headers: { 'referer': 'https://9anime.to' }
+                headers: { referer: 'https://9anime.to' },
             });
             const resolutions = req.data.match(/(RESOLUTION=)(.*)(\s*?)(\s*.*)/g);
             resolutions === null || resolutions === void 0 ? void 0 : resolutions.forEach((res) => {

@@ -16,7 +16,10 @@ class getComics extends models_1.ComicParser {
             const { data } = await this.client.get(`${this.baseUrl}/page/${page ? page : 1}/?s=${query}`);
             const $ = (0, cheerio_1.load)(data);
             const lastPage = $('section section nav:eq(1) ul li:last').text();
-            const res = { containers: [], hasNextPage: $('a.pagination-older').text() != '' };
+            const res = {
+                containers: [],
+                hasNextPage: $('a.pagination-older').text() != '',
+            };
             $('article').each((i, el) => {
                 const container = new models_1.GetComicsComicsObject();
                 const vals = (0, utils_1.parsePostInfo)($(el).children('div.post-info').text());
