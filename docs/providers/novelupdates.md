@@ -1,7 +1,7 @@
-<h1>ReadLightNovels</h1>
+<h1>NovelUpdates</h1>
 
 ```ts
-const readlightnovels = new LIGHT_NOVELS.ReadLightNovels();
+const novelupdates = new LIGHT_NOVELS.NovelUpdates();
 ```
 
 <h2>Methods</h2>
@@ -20,7 +20,7 @@ const readlightnovels = new LIGHT_NOVELS.ReadLightNovels();
 | query     | `string` | query to search for. (*In this case, We're searching for `Classrrom of the Elite`*) |
 
 ```ts
-readlightnovels.search("Classrrom of the Elite").then(data => {
+novelupdates.search("Clasroom of the Elite").then(data => {
   console.log(data);
 })
 ```
@@ -31,9 +31,9 @@ output:
   results: [
     {
       id: 'youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e', // the light novel id
-      title: 'Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e Novel (Classroom of the Elite Novel)',
-      url: 'https://readlightnovels.net/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e.html',
-      image: 'https://readlightnovels.net/wp-content/uploads/2020/01/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e.jpg'
+      title: 'Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e',
+      url: 'https://www-novelupdates-com.translate.goog/series/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e/?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en-US',
+      image: 'https://cdn.novelupdates.com/imgmid/series_10266.jpg'
     },
     {...}
     ...
@@ -51,7 +51,7 @@ output:
 | chapterPage (optional) | `number` | chapter page number (*default: -1 meaning will fetch all chapters*)                                    |
 
 ```ts
-readlightnovels.fetchLightNovelInfo("youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e").then(data => {
+novelupdates.fetchLightNovelInfo("youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e").then(data => {
   console.log(data);
 })
 ```
@@ -60,25 +60,24 @@ output:
 ```js
 {
   id: 'youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e',
-  title: 'Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e Novel (Classroom of the Elite Novel)',
-  url: 'https://readlightnovels.net/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e.html',
-  image: 'https://readlightnovels.net/wp-content/uploads/2020/01/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e.jpg',
+  title: 'Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e',
+  url: 'https://www.novelupdates.com/series/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e',
+  image: 'https://cdn.novelupdates.com/images/2017/02/cover00219.jpeg',
   author: 'Kinugasa Shougo衣笠彰梧',
   genres: [
     'Drama',
-    'Harem',
+    'Psychological',
     '...'
   ],
-  rating: 8.6,
-  views: 651729,
+  rating: 9,
+  views: NaN,
   description: 'Kōdo Ikusei Senior High School, a leading prestigious school with state-of-the-art facilities where nearly...',
-  status: 'Ongoing',
-  pages: 13,
+  status: 'Completed',
   chapters: [
     {
-      id: 'youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e/volume-1-prologue-the-structure-of-japanese-society',
-      title: 'Volume 1, Prologue: The structure of Japanese society',
-      url: 'https://readlightnovels.net/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e/volume-1-prologue-the-structure-of-japanese-society.html'
+      id: '6659442',
+      title: 'v17...',
+      url: 'https://www.novelupdates.com/extnu/6659442'
     },
     {...}
     ...
@@ -93,7 +92,7 @@ output:
 | chapterId | `string` | chapter id. (*chapter id can be found in the light novel info object*) |
 
 ```ts
-readlightnovels.fetchChapterContent("youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e/volume-1-prologue-the-structure-of-japanese-society").then(data => {
+readlightnovels.fetchChapterContent("5692421").then(data => {
   console.log(data);
 })
 ```
