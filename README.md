@@ -114,7 +114,7 @@ Thanks to the following people for keeping this project alive and thriving.
 [![](https://contrib.rocks/image?repo=consumet/consumet.ts)](https://github.com/consumet/consumet.ts/graphs/contributors)
 
 ### Credits
-- [Enime API](https://github.com/Enime-Project/api.enime.moe) - Used as a caching layer for the meta/anilist provider to speed up responses. 
+- [Anify API](https://github.com/Eltik/Anify) - Used as a caching layer for the meta/anilist provider to speed up responses. 
 
 ## License
 Licensed under [MIT](./LICENSE).

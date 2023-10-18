@@ -7,7 +7,6 @@ import {
   ISource,
   IEpisodeServer,
   IAnimeEpisode,
-  IVideo,
   MediaFormat,
 } from '../../models';
 
@@ -76,7 +75,7 @@ class Anify extends AnimeParser {
       throw new Error('Anime not found. Please use a valid id!');
     });
 
-    animeInfo.anilistId = data.id;
+    animeInfo.anilistId = data.mappings.find((m: any) => m.providerId === 'anilist').id;
     animeInfo.title = data.title.english ?? data.title.romaji ?? data.title.native;
     animeInfo.image = data.coverImage;
     animeInfo.cover = data.bannerImage;
@@ -138,7 +137,7 @@ class Anify extends AnimeParser {
       throw new Error(err);
     });
 
-    animeInfo.anilistId = data.id;
+    animeInfo.anilistId = data.mappings.find((m: any) => m.providerId === 'anilist').id;
     animeInfo.title = data.title.english ?? data.title.romaji ?? data.title.native;
     animeInfo.image = data.coverImage;
     animeInfo.cover = data.bannerImage;
@@ -176,76 +175,10 @@ class Anify extends AnimeParser {
     return animeInfo;
   };
 
-  /**
-   * @deprecated
-   * @param id mal id
-   */
-  fetchAnimeInfoByMalId = async (id: string, type?: 'gogoanime' | 'zoro'): Promise<IAnimeInfo> => {
-    const animeInfo: IAnimeInfo = {
-      id: id,
-      title: '',
-    };
-    const { data } = await this.client.get(`${this.baseUrl}/mapping/mal/${id}`).catch(err => {
-      throw new Error(err);
-    });
-
-    animeInfo.anilistId = data.anilistId;
-    animeInfo.malId = data.mappings.mal;
-    animeInfo.title = data.title.english ?? data.title.romaji ?? data.title.native;
-    animeInfo.image = data.coverImage;
-    animeInfo.cover = data.bannerImage;
-    animeInfo.season = data.season;
-    animeInfo.releaseDate = data.year;
-    animeInfo.duration = data.duration;
-    animeInfo.popularity = data.popularity;
-    animeInfo.description = data.description;
-    animeInfo.genres = data.genre;
-    animeInfo.rating = data.averageScore;
-    animeInfo.status = data.status as MediaStatus;
-    animeInfo.synonyms = data.synonyms;
-    animeInfo.mappings = data.mappings;
-    animeInfo.type = data.format as MediaFormat;
-
-    data.episodes = data.episodes.sort((a: any, b: any) => b.number - a.number);
-
-    let useType: 'zoro' | 'gogoanime' | undefined = undefined;
-    if (
-      type == 'gogoanime' &&
-      data.episodes.every((e: any) => e.sources.find((s: any) => s.target.includes('episode')))
-    )
-      useType = 'gogoanime';
-    else if (
-      type == 'zoro' &&
-      data.episodes.every((e: any) => e.sources.find((s: any) => s.target.includes('?ep=')))
-    )
-      useType = 'zoro';
-    else throw new Error('Anime not found on Enime');
-
-    animeInfo.episodes = data.episodes.map(
-      (episode: any): IAnimeEpisode => ({
-        id: episode.id,
-        slug: episode.sources
-          .find((source: any) =>
-            useType === 'zoro' ? source.target.includes('?ep=') : source.target.includes('episode')
-          )
-          ?.target.split('/')
-          .pop()
-          .replace('?ep=', '$episode$')
-          ?.concat(useType === 'zoro' ? '$sub' : '')!,
-        description: episode.description,
-        number: episode.number,
-        title: episode.title,
-        image: episode?.image ?? animeInfo.image,
-      })
-    );
-
-    return animeInfo;
-  };
-
   override fetchEpisodeSources = async (
     episodeId: string,
     episodeNumber: number,
-    id: number
+    id: string
   ): Promise<ISource> => {
     const { data } = await this.client.get(
       `${this.baseUrl}/sources?providerId=gogoanime&watchId=${episodeId}&episodeNumber=${episodeNumber}&id=${id}&subType=sub&server=gogocdn`
@@ -253,86 +186,6 @@ class Anify extends AnimeParser {
 
     return data;
   };
-
-  // private fetchSourceFromEpisodeId = async (episodeId: string): Promise<ISource> => {
-  //   const res: ISource = {
-  //     headers: {},
-  //     sources: [],
-  //   };
-
-  //   const { data } = await this.client.get(`${this.baseUrl}/episode/${episodeId}`);
-  //   const {
-  //     data: { url, referer },
-  //   } = await this.client.get(`${this.baseUrl}/source/${data.sources[0].id!}`);
-
-  //   res.headers!['Referer'] = referer;
-
-  //   const resResult = await this.client.get(url);
-  //   const resolutions = resResult.data.match(/(RESOLUTION=)(.*)(\s*?)(\s*.*)/g);
-  //   resolutions.forEach((ress: string) => {
-  //     const index = url.lastIndexOf('/');
-  //     const quality = ress.split('\n')[0].split('x')[1].split(',')[0];
-  //     const urll = url.slice(0, index);
-  //     res.sources.push({
-  //       url: urll + '/' + ress.split('\n')[1],
-  //       isM3U8: (urll + ress.split('\n')[1]).includes('.m3u8'),
-  //       quality: quality + 'p',
-  //     });
-  //   });
-
-  //   res.sources.push({
-  //     url: url,
-  //     isM3U8: url.includes('.m3u8'),
-  //     quality: 'default',
-  //   });
-
-  //   return res;
-  // };
-
-  // private fetchSourceFromSourceId = async (sourceId: string): Promise<ISource> => {
-  //   const res: ISource = {
-  //     headers: {},
-  //     sources: [],
-  //   };
-
-  //   const {
-  //     data: { url, referer, subtitle },
-  //   } = await this.client.get(`${this.baseUrl}/source/${sourceId}`);
-
-  //   res.headers!['Referer'] = referer;
-
-  //   const resResult = await this.client.get(url).catch(() => {
-  //     throw new Error('Source not found');
-  //   });
-  //   const resolutions = resResult.data.match(/(RESOLUTION=)(.*)(\s*?)(\s*.*)/g);
-  //   resolutions.forEach((ress: string) => {
-  //     const index = url.lastIndexOf('/');
-  //     const quality = ress.split('\n')[0].split('x')[1].split(',')[0];
-  //     const urll = url.slice(0, index);
-  //     res.sources.push({
-  //       url: urll + '/' + ress.split('\n')[1],
-  //       isM3U8: (urll + ress.split('\n')[1]).includes('.m3u8'),
-  //       quality: quality + 'p',
-  //     });
-  //   });
-
-  //   res.sources.push({
-  //     url: url,
-  //     isM3U8: url.includes('.m3u8'),
-  //     quality: 'default',
-  //   });
-
-  //   if (subtitle) {
-  //     res.subtitles = [
-  //       {
-  //         url: subtitle,
-  //         lang: 'English',
-  //       },
-  //     ];
-  //   }
-
-  //   return res;
-  // };
 
   /**
    * @deprecated

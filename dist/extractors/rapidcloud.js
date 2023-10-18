@@ -14,8 +14,6 @@ class RapidCloud extends models_1.VideoExtractor {
         this.sources = [];
         this.fallbackKey = 'c1d17096f2ca11b7';
         this.host = 'https://rapid-cloud.co';
-        this.consumetApi = 'https://api.consumet.org';
-        this.enimeApi = 'https://api.enime.moe';
         this.extract = async (videoUrl) => {
             var _a, _b;
             const result = {
@@ -30,18 +28,6 @@ class RapidCloud extends models_1.VideoExtractor {
                     },
                 };
                 let res = null;
-                // let { data: sId } = await this.client({
-                //   method: 'GET',
-                //   url: `${this.consumetApi}/utils/rapid-cloud`,
-                //   validateStatus: status => true,
-                // });
-                // if (!sId) {
-                //   sId = await this.client({
-                //     method: 'GET',
-                //     url: `${this.enimeApi}/tool/rapid-cloud/server-id`,
-                //     validateStatus: status => true,
-                //   });
-                // }
                 res = await this.client.get(`https://${videoUrl.hostname}/embed-2/ajax/e-1/getSources?id=${id}`, options);
                 let { data: { sources, tracks, intro, encrypted }, } = res;
                 let decryptKey = await (await this.client.get('https://github.com/enimax-anime/key/blob/e6/key.txt')).data;
