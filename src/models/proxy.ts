@@ -37,7 +37,7 @@ export class Proxy {
           ...config.headers,
           'x-api-key': proxyConfig?.key ?? '',
         };
-        config.url = `${proxyConfig.url}/${config?.url ? config?.url : ''}`;
+        config.url = `${proxyConfig.url}${config?.url ? config?.url : ''}`;
       }
 
       if (config?.url?.includes('anify'))

@@ -1308,7 +1308,7 @@ class Anilist extends AnimeParser {
     try {
       const {
         data: { data, meta },
-      } = await this.client.get(`${this.anifyUrl}/recent?page=${page}`);
+      } = await this.client.get(`${this.anifyUrl}/recent?page=${page}&type=anime`);
 
       let results: IAnimeInfo[] = data.map((item: any) => ({
         id: item.anime.anilistId.toString(),
