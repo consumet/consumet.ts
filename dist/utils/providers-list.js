@@ -14,7 +14,7 @@ exports.PROVIDERS_LIST = {
         new providers_1.ANIME.AnimePahe(),
         new providers_1.ANIME.Bilibili(),
         new providers_1.ANIME.Crunchyroll(),
-        new providers_1.ANIME.Enime(),
+        new providers_1.ANIME.Anify(),
         new providers_1.ANIME.Gogoanime(),
         new providers_1.ANIME.Zoro(),
         new providers_1.ANIME.Marin(),

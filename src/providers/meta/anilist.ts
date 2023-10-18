@@ -38,7 +38,7 @@ import {
   isJson,
 } from '../../utils';
 import Gogoanime from '../../providers/anime/gogoanime';
-import Enime from '../anime/enime';
+import Anify from '../anime/anify';
 import Zoro from '../anime/zoro';
 import Mangasee123 from '../manga/mangasee123';
 import Crunchyroll from '../anime/crunchyroll';
@@ -55,7 +55,7 @@ class Anilist extends AnimeParser {
   private readonly anilistGraphqlUrl = 'https://graphql.anilist.co';
   private readonly kitsuGraphqlUrl = 'https://kitsu.io/api/graphql';
   private readonly malSyncUrl = 'https://api.malsync.moe';
-  private readonly enimeUrl = 'https://api.enime.moe';
+  private readonly anifyUrl = 'https://api.anify.tv';
   provider: AnimeParser;
 
   /**
@@ -93,7 +93,7 @@ class Anilist extends AnimeParser {
         validateStatus: () => true,
       });
 
-      if (status >= 500 || status == 429) data = await new Enime().rawSearch(query, page, perPage);
+      if (status >= 500 || status == 429) data = await new Anify().rawSearch(query, page);
 
       const res: ISearch<IAnimeResult> = {
         currentPage: data.data!.Page?.pageInfo?.currentPage ?? data.meta?.currentPage,
@@ -235,7 +235,7 @@ class Anilist extends AnimeParser {
       });
 
       if (status >= 500 && !query) throw new Error('No results found');
-      if (status >= 500) data = await new Enime().rawSearch(query!, page, perPage);
+      if (status >= 500) data = await new Anify().rawSearch(query!, page);
 
       const res: ISearch<IAnimeResult> = {
         currentPage: data.data?.Page?.pageInfo?.currentPage ?? data.meta?.currentPage,
@@ -352,7 +352,7 @@ class Anilist extends AnimeParser {
       // if (status >= 500) throw new Error('Anilist seems to be down. Please try again later');
       if (status != 200 && status < 429)
         throw Error('Media not found. If the problem persists, please contact the developer');
-      if (status >= 500) data = await new Enime().fetchAnimeInfoByIdRaw(id);
+      if (status >= 500) data = await new Anify().fetchAnimeInfoByIdRaw(id);
 
       animeInfo.malId = data.data?.Media?.idMal ?? data?.mappings?.mal;
       animeInfo.title = data.data.Media
@@ -533,13 +533,14 @@ class Anilist extends AnimeParser {
           range({ from: 1940, to: new Date().getFullYear() + 1 }).includes(parseInt(animeInfo.releaseDate!)))
       ) {
         try {
-          const enimeInfo = await new Enime().fetchAnimeInfoByAnilistId(
+          const anifyInfo = await new Anify().fetchAnimeInfo(
             id,
-            this.provider.name.toLowerCase() as 'gogoanime' | 'zoro'
+            this.provider.name.toLowerCase() as 'gogoanime' | 'zoro' | 'animepahe' | '9anime'
           );
-          animeInfo.mappings = enimeInfo.mappings;
-          animeInfo.episodes = enimeInfo.episodes?.map((item: any) => ({
-            id: item.slug,
+          animeInfo.mappings = anifyInfo.mappings;
+          animeInfo.artwork = anifyInfo.artwork;
+          animeInfo.episodes = anifyInfo.episodes?.map((item: any) => ({
+            id: item.id,
             title: item.title,
             description: item.description,
             number: item.number,
@@ -649,7 +650,8 @@ class Anilist extends AnimeParser {
    */
   override fetchEpisodeSources = async (episodeId: string, ...args: any): Promise<ISource> => {
     try {
-      if (episodeId.includes('enime')) return new Enime().fetchEpisodeSources(episodeId);
+      if (episodeId.includes('/') && this.provider instanceof Anify)
+        return new Anify().fetchEpisodeSources(episodeId, args[0], args[1]);
       return this.provider.fetchEpisodeSources(episodeId, ...args);
     } catch (err) {
       throw new Error(`Failed to fetch episode sources from ${this.provider.name}: ${err}`);
@@ -725,8 +727,7 @@ class Anilist extends AnimeParser {
     anilistId: string,
     externalLinks?: any
   ): Promise<IAnimeEpisode[] | undefined> => {
-    if (this.provider instanceof Enime)
-      return (await this.provider.fetchAnimeInfoByAnilistId(anilistId)).episodes!;
+    if (this.provider instanceof Anify) return (await this.provider.fetchAnimeInfo(anilistId)).episodes!;
 
     const slug = title.replace(/[^0-9a-zA-Z]+/g, ' ');
 
@@ -1302,13 +1303,12 @@ class Anilist extends AnimeParser {
    */
   fetchRecentEpisodes = async (
     provider: 'gogoanime' | 'zoro' = 'gogoanime',
-    page: number = 1,
-    perPage: number = 15
+    page: number = 1
   ): Promise<ISearch<IAnimeResult>> => {
     try {
       const {
         data: { data, meta },
-      } = await this.client.get(`${this.enimeUrl}/recent?page=${page}&perPage=${perPage}`);
+      } = await this.client.get(`${this.anifyUrl}/recent?page=${page}`);
 
       let results: IAnimeInfo[] = data.map((item: any) => ({
         id: item.anime.anilistId.toString(),
@@ -1326,7 +1326,7 @@ class Anilist extends AnimeParser {
           provider === 'gogoanime'
             ? item.sources.find((source: any) => source.website.toLowerCase() === 'gogoanime')?.id
             : item.sources.find((source: any) => source.website.toLowerCase() === 'zoro')?.id
-        }-enime`,
+        }`,
         episodeTitle: item.title ?? `Episode ${item.number}`,
         episodeNumber: item.number,
         genres: item.anime.genre,
@@ -1409,7 +1409,7 @@ class Anilist extends AnimeParser {
     ) {
       try {
         possibleAnimeEpisodes = (
-          await new Enime().fetchAnimeInfoByAnilistId(
+          await new Anify().fetchAnimeInfoByAnilistId(
             id,
             this.provider.name.toLowerCase() as 'gogoanime' | 'zoro'
           )
@@ -2178,7 +2178,9 @@ class Anilist extends AnimeParser {
 
 // (async () => {
 //   const ani = new Anilist();
-//   const anime = await ani.fetchAnimeInfo('1412');
+//   const anime = await ani.fetchAnimeInfo('1');
+//   const sources = await ani.fetchEpisodeSources(anime.episodes![0].id, anime.episodes![0].number, anime.id);
+//   console.log(sources);
 // })();
 
 export default Anilist;

@@ -16,7 +16,7 @@ import { substringAfter, substringBefore, compareTwoStrings, kitsuSearchQuery, r
 import Gogoanime from '../anime/gogoanime';
 import Zoro from '../anime/zoro';
 import Crunchyroll from '../anime/crunchyroll';
-import Enime from '../anime/enime';
+import Anify from '../anime/anify';
 import Bilibili from '../anime/bilibili';
 
 class Myanimelist extends AnimeParser {
@@ -28,7 +28,7 @@ class Myanimelist extends AnimeParser {
   private readonly anilistGraphqlUrl = 'https://graphql.anilist.co';
   private readonly kitsuGraphqlUrl = 'https://kitsu.io/api/graphql';
   private readonly malSyncUrl = 'https://api.malsync.moe';
-  private readonly enimeUrl = 'https://api.enime.moe';
+  private readonly anifyUrl = 'https://api.anify.tv';
   provider: AnimeParser;
 
   /**
@@ -191,7 +191,7 @@ class Myanimelist extends AnimeParser {
       ) {
         try {
           animeInfo.episodes = (
-            await new Enime().fetchAnimeInfoByMalId(
+            await new Anify().fetchAnimeInfo(
               animeId,
               this.provider.name.toLowerCase() as 'gogoanime' | 'zoro'
             )
@@ -275,10 +275,15 @@ class Myanimelist extends AnimeParser {
     }
   };
 
-  fetchEpisodeSources(episodeId: string, ...args: any): Promise<ISource> {
-    if (episodeId.includes('enime')) return new Enime().fetchEpisodeSources(episodeId);
-    return this.provider.fetchEpisodeSources(episodeId, ...args);
-  }
+  override fetchEpisodeSources = async (episodeId: string, ...args: any): Promise<ISource> => {
+    try {
+      if (episodeId.includes('/') && this.provider instanceof Anify)
+        return new Anify().fetchEpisodeSources(episodeId, args[0], args[1]);
+      return this.provider.fetchEpisodeSources(episodeId, ...args);
+    } catch (err) {
+      throw new Error(`Failed to fetch episode sources from ${this.provider.name}: ${err}`);
+    }
+  };
 
   fetchEpisodeServers(episodeId: string): Promise<IEpisodeServer[]> {
     return this.provider.fetchEpisodeServers(episodeId);
@@ -336,7 +341,7 @@ class Myanimelist extends AnimeParser {
     dub: boolean,
     externalLinks?: any
   ): Promise<IAnimeEpisode[]> => {
-    if (this.provider instanceof Enime) return (await this.provider.fetchAnimeInfoByMalId(malId)).episodes!;
+    if (this.provider instanceof Anify) return (await this.provider.fetchAnimeInfo(malId)).episodes!;
 
     // console.log({ title });
     const slug = title?.replace(/[^0-9a-zA-Z]+/g, ' ');

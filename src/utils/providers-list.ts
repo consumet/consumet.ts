@@ -12,7 +12,7 @@ export const PROVIDERS_LIST = {
     new ANIME.AnimePahe(),
     new ANIME.Bilibili(),
     new ANIME.Crunchyroll(),
-    new ANIME.Enime(),
+    new ANIME.Anify(),
     new ANIME.Gogoanime(),
     new ANIME.Zoro(),
     new ANIME.Marin(),

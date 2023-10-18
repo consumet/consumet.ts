@@ -295,6 +295,7 @@ export interface ISource {
         [k: string]: string;
     };
     intro?: Intro;
+    outro?: Intro;
     subtitles?: ISubtitle[];
     sources: IVideo[];
     download?: string;

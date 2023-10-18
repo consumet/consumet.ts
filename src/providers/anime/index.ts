@@ -3,7 +3,7 @@ import NineAnime from './9anime';
 import AnimePahe from './animepahe';
 import Zoro from './zoro';
 import AnimeFox from './animefox';
-import Enime from './enime';
+import Anify from './anify';
 import Crunchyroll from './crunchyroll';
 import Bilibili from './bilibili';
 import Marin from './marin';
@@ -15,7 +15,7 @@ export default {
   AnimePahe,
   Zoro,
   AnimeFox,
-  Enime,
+  Anify,
   Crunchyroll,
   Bilibili,
   Marin,
