@@ -1,7 +1,7 @@
-<h1>Enime</h1>
+<h1>Anify</h1>
 
 ```ts
-const enime = new ANIME.Enime();
+const anify = new ANIME.Anify();
 ```
 
 <h2>Methods</h2>
@@ -23,7 +23,7 @@ const enime = new ANIME.Enime();
 | perPage   | `number` | number of results per page.                                              |
 
 ```ts
-enime.search("Overlord IV").then(data => {
+anify.search("Overlord IV").then(data => {
   console.log(data);
 })
 ```
@@ -36,7 +36,7 @@ output:
   hasNextPage: true,
   results: [
     {
-      id: 'cl6k4l2xt000nh4lu54mqankt',
+      id: '133844',
       anilistId: 133844,
       malId: 48895,
       title: 'Overlord IV',
@@ -45,19 +45,22 @@ output:
       releaseDate: 2022,
       description: 'The fourth season of <i>Overlord</i>.',
       genres: [ 'Action', 'Fantasy', 'Adventure' ],
-      rating: 80,
+      rating: 8,
       status: 'RELEASING',
-      mappings: {
-        mal: 48895,
-        anidb: 16296,
-        kitsu: 44529,
-        anilist: 133844,
-        thetvdb: 294002,
-        anisearch: 14553,
-        livechart: 10571,
-        'notify.moe': 'LXvVrNCMg',
-        'anime-planet': 'overlord-iv'
-      }
+      mappings: [
+        {
+          id: "/watch/overlord-iv.r77y",
+          providerId: "9anime",
+          providerType: "ANIME",
+          similarity: 1
+        },
+        {
+          id: "48895",
+          providerId: "mal",
+          providerType: "META",
+          similarity: 1
+        }
+      ]
     },
     {...},
     ...
@@ -74,7 +77,7 @@ output:
 | id        | `string` | takes anime id as a parameter. (*anime id can be found in the anime search results or anime info object*) |
 
 ```ts
-enime.fetchAnimeInfo("cl6k4l2xt000nh4lu54mqankt").then(data => {
+anify.fetchAnimeInfo("133844").then(data => {
   console.log(data);
 })
 ```
@@ -83,45 +86,49 @@ returns a promise which resolves into an anime info object (including the episod
 output:
 ```js
 {
-  id: 'cl6k4l2xt000nh4lu54mqankt',
-  title: 'Overlord IV',
+  id: '133844',
   anilistId: 133844,
   malId: 48895,
+  title: 'Overlord IV',
   image: 'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx133844-E32FjKZ0XxEs.jpg',
   cover: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/133844-uIaUmh5aJX3M.jpg',
-  season: 'SUMMER',
   releaseDate: 2022,
-  duration: 24,
-  popularity: 62892,
   description: 'The fourth season of <i>Overlord</i>.',
-  genres: [ 'Action', 'Fantasy', '...' ],
-  rating: 80,
+  genres: [ 'Action', 'Fantasy', 'Adventure' ],
+  rating: 8,
   status: 'RELEASING',
-  synonyms: [
-    'Overlord 4',
-    '...',
-  ],
-  mappings: {
-    mal: 48895,
-    anidb: 16296,
-    kitsu: 44529,
-    anilist: 133844,
-    thetvdb: 294002,
-    anisearch: 14553,
-    livechart: 10571,
-    'notify.moe': 'LXvVrNCMg',
-    'anime-planet': 'overlord-iv'
-  },
-  episodes: [
-   {
-      id: 'cl6m9svrt380392sm8x1u89gzh',
-      number: 6,
-      title: 'The Impending Crisis'
+  mappings: [
+    {
+      id: "/watch/overlord-iv.r77y",
+      providerId: "9anime",
+      providerType: "ANIME",
+      similarity: 1
     },
     {
-      id: 'cl6k50hqt115332sob6ooreaol',
+      id: "48895",
+      providerId: "mal",
+      providerType: "META",
+      similarity: 1
+    }
+  ],
+  episodes: [
+   {
+      id: '/overlord-iv-episode-6',
+      number: 6,
+      title: 'The Impending Crisis',
+      isFiller: false,
+      description: null,
+      image: null,
+      rating: null
+    },
+    {
+      id: '/overlord-iv-episode-5',
       number: 5,
-      title: 'In Pursuit of the Land of Dwarves'
+      title: 'In Pursuit of the Land of Dwarves',
+      isFiller: false,
+      description: null,
+      image: null,
+      rating: null
     },
     {...},
     ...
@@ -136,11 +143,13 @@ output:
 | Parameter | Type     | Description                                                                           |
 | --------- | -------- | ------------------------------------------------------------------------------------- |
 | episodeId | `string` | takes episode id as a parameter. (*episode id can be found in the anime info object*) |
+| episodeNumber | `number` | takes episode number as a parameter. (*episode number can be found in the anime info object*) |
+| id | `string` | takes anime ID as a parameter. (*anime id can be found in the anime search results or anime info object*) |
 
 
 In this example, we're getting the sources for the first episode of Overlord IV.
 ```ts
-enime.fetchEpisodeSources("cl6m9svrt380392sm8x1u89gzh").then(data => {
+anify.fetchEpisodeSources("/overlord-iv-episode-5", 11, "133844").then(data => {
   console.log(data);
 })
 ```
@@ -154,10 +163,14 @@ output:
   },
   sources: [
     {
-      url: 'https://cache.387e6278d8e06083d813358762e0ac63.com/222844359429.m3u8',
-      isM3U8: true
+      url: 'https://www050.vipanicdn.net/streamhls/42f4d05521ce0b276e0d779493c16837/ep.11.1697533391.360.m3u8',
+      quality: '360p'
     }
-  ]
+  ],
+  subtitles: [],
+  audio: [],
+  intro: { start: 0, end: 0 },
+  outro: { start: 0, end: 0 }
 }
 ```
 

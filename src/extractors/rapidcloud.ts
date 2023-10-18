@@ -9,8 +9,6 @@ class RapidCloud extends VideoExtractor {
 
   private readonly fallbackKey = 'c1d17096f2ca11b7';
   private readonly host = 'https://rapid-cloud.co';
-  private readonly consumetApi = 'https://api.consumet.org';
-  private readonly enimeApi = 'https://api.enime.moe';
 
   override extract = async (videoUrl: URL): Promise<{ sources: IVideo[] } & { subtitles: ISubtitle[] }> => {
     const result: { sources: IVideo[]; subtitles: ISubtitle[]; intro?: Intro } = {
@@ -26,20 +24,6 @@ class RapidCloud extends VideoExtractor {
       };
 
       let res = null;
-
-      // let { data: sId } = await this.client({
-      //   method: 'GET',
-      //   url: `${this.consumetApi}/utils/rapid-cloud`,
-      //   validateStatus: status => true,
-      // });
-
-      // if (!sId) {
-      //   sId = await this.client({
-      //     method: 'GET',
-      //     url: `${this.enimeApi}/tool/rapid-cloud/server-id`,
-      //     validateStatus: status => true,
-      //   });
-      // }
 
       res = await this.client.get(
         `https://${videoUrl.hostname}/embed-2/ajax/e-1/getSources?id=${id}`,

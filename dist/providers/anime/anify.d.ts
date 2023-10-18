@@ -24,12 +24,7 @@ declare class Anify extends AnimeParser {
      * @param providerId Provider id (optional) default: gogoanime
      */
     fetchAnimeInfoByAnilistId: (id: string, providerId?: '9anime' | 'animepahe' | 'zoro' | 'gogoanime') => Promise<IAnimeInfo>;
-    /**
-     * @deprecated
-     * @param id mal id
-     */
-    fetchAnimeInfoByMalId: (id: string, type?: 'gogoanime' | 'zoro') => Promise<IAnimeInfo>;
-    fetchEpisodeSources: (episodeId: string, episodeNumber: number, id: number) => Promise<ISource>;
+    fetchEpisodeSources: (episodeId: string, episodeNumber: number, id: string) => Promise<ISource>;
     /**
      * @deprecated
      */

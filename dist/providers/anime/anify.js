@@ -59,7 +59,7 @@ class Anify extends models_1.AnimeParser {
             const { data } = await this.client.get(`${this.baseUrl}/info/${id}`).catch(() => {
                 throw new Error('Anime not found. Please use a valid id!');
             });
-            animeInfo.anilistId = data.id;
+            animeInfo.anilistId = data.mappings.find((m) => m.providerId === 'anilist').id;
             animeInfo.title = (_b = (_a = data.title.english) !== null && _a !== void 0 ? _a : data.title.romaji) !== null && _b !== void 0 ? _b : data.title.native;
             animeInfo.image = data.coverImage;
             animeInfo.cover = data.bannerImage;
@@ -106,7 +106,7 @@ class Anify extends models_1.AnimeParser {
             const { data } = await this.client.get(`${this.baseUrl}/mapping/anilist/${id}`).catch(err => {
                 throw new Error(err);
             });
-            animeInfo.anilistId = data.id;
+            animeInfo.anilistId = data.mappings.find((m) => m.providerId === 'anilist').id;
             animeInfo.title = (_b = (_a = data.title.english) !== null && _a !== void 0 ? _a : data.title.romaji) !== null && _b !== void 0 ? _b : data.title.native;
             animeInfo.image = data.coverImage;
             animeInfo.cover = data.bannerImage;
@@ -134,131 +134,11 @@ class Anify extends models_1.AnimeParser {
             }));
             return animeInfo;
         };
-        /**
-         * @deprecated
-         * @param id mal id
-         */
-        this.fetchAnimeInfoByMalId = async (id, type) => {
-            var _a, _b;
-            const animeInfo = {
-                id: id,
-                title: '',
-            };
-            const { data } = await this.client.get(`${this.baseUrl}/mapping/mal/${id}`).catch(err => {
-                throw new Error(err);
-            });
-            animeInfo.anilistId = data.anilistId;
-            animeInfo.malId = data.mappings.mal;
-            animeInfo.title = (_b = (_a = data.title.english) !== null && _a !== void 0 ? _a : data.title.romaji) !== null && _b !== void 0 ? _b : data.title.native;
-            animeInfo.image = data.coverImage;
-            animeInfo.cover = data.bannerImage;
-            animeInfo.season = data.season;
-            animeInfo.releaseDate = data.year;
-            animeInfo.duration = data.duration;
-            animeInfo.popularity = data.popularity;
-            animeInfo.description = data.description;
-            animeInfo.genres = data.genre;
-            animeInfo.rating = data.averageScore;
-            animeInfo.status = data.status;
-            animeInfo.synonyms = data.synonyms;
-            animeInfo.mappings = data.mappings;
-            animeInfo.type = data.format;
-            data.episodes = data.episodes.sort((a, b) => b.number - a.number);
-            let useType = undefined;
-            if (type == 'gogoanime' &&
-                data.episodes.every((e) => e.sources.find((s) => s.target.includes('episode'))))
-                useType = 'gogoanime';
-            else if (type == 'zoro' &&
-                data.episodes.every((e) => e.sources.find((s) => s.target.includes('?ep='))))
-                useType = 'zoro';
-            else
-                throw new Error('Anime not found on Enime');
-            animeInfo.episodes = data.episodes.map((episode) => {
-                var _a, _b, _c;
-                return ({
-                    id: episode.id,
-                    slug: (_b = (_a = episode.sources
-                        .find((source) => useType === 'zoro' ? source.target.includes('?ep=') : source.target.includes('episode'))) === null || _a === void 0 ? void 0 : _a.target.split('/').pop().replace('?ep=', '$episode$')) === null || _b === void 0 ? void 0 : _b.concat(useType === 'zoro' ? '$sub' : ''),
-                    description: episode.description,
-                    number: episode.number,
-                    title: episode.title,
-                    image: (_c = episode === null || episode === void 0 ? void 0 : episode.image) !== null && _c !== void 0 ? _c : animeInfo.image,
-                });
-            });
-            return animeInfo;
-        };
         this.fetchEpisodeSources = async (episodeId, episodeNumber, id) => {
             const { data } = await this.client.get(`${this.baseUrl}/sources?providerId=gogoanime&watchId=${episodeId}&episodeNumber=${episodeNumber}&id=${id}&subType=sub&server=gogocdn`);
             return data;
         };
     }
-    // private fetchSourceFromEpisodeId = async (episodeId: string): Promise<ISource> => {
-    //   const res: ISource = {
-    //     headers: {},
-    //     sources: [],
-    //   };
-    //   const { data } = await this.client.get(`${this.baseUrl}/episode/${episodeId}`);
-    //   const {
-    //     data: { url, referer },
-    //   } = await this.client.get(`${this.baseUrl}/source/${data.sources[0].id!}`);
-    //   res.headers!['Referer'] = referer;
-    //   const resResult = await this.client.get(url);
-    //   const resolutions = resResult.data.match(/(RESOLUTION=)(.*)(\s*?)(\s*.*)/g);
-    //   resolutions.forEach((ress: string) => {
-    //     const index = url.lastIndexOf('/');
-    //     const quality = ress.split('\n')[0].split('x')[1].split(',')[0];
-    //     const urll = url.slice(0, index);
-    //     res.sources.push({
-    //       url: urll + '/' + ress.split('\n')[1],
-    //       isM3U8: (urll + ress.split('\n')[1]).includes('.m3u8'),
-    //       quality: quality + 'p',
-    //     });
-    //   });
-    //   res.sources.push({
-    //     url: url,
-    //     isM3U8: url.includes('.m3u8'),
-    //     quality: 'default',
-    //   });
-    //   return res;
-    // };
-    // private fetchSourceFromSourceId = async (sourceId: string): Promise<ISource> => {
-    //   const res: ISource = {
-    //     headers: {},
-    //     sources: [],
-    //   };
-    //   const {
-    //     data: { url, referer, subtitle },
-    //   } = await this.client.get(`${this.baseUrl}/source/${sourceId}`);
-    //   res.headers!['Referer'] = referer;
-    //   const resResult = await this.client.get(url).catch(() => {
-    //     throw new Error('Source not found');
-    //   });
-    //   const resolutions = resResult.data.match(/(RESOLUTION=)(.*)(\s*?)(\s*.*)/g);
-    //   resolutions.forEach((ress: string) => {
-    //     const index = url.lastIndexOf('/');
-    //     const quality = ress.split('\n')[0].split('x')[1].split(',')[0];
-    //     const urll = url.slice(0, index);
-    //     res.sources.push({
-    //       url: urll + '/' + ress.split('\n')[1],
-    //       isM3U8: (urll + ress.split('\n')[1]).includes('.m3u8'),
-    //       quality: quality + 'p',
-    //     });
-    //   });
-    //   res.sources.push({
-    //     url: url,
-    //     isM3U8: url.includes('.m3u8'),
-    //     quality: 'default',
-    //   });
-    //   if (subtitle) {
-    //     res.subtitles = [
-    //       {
-    //         url: subtitle,
-    //         lang: 'English',
-    //       },
-    //     ];
-    //   }
-    //   return res;
-    // };
     /**
      * @deprecated
      */
