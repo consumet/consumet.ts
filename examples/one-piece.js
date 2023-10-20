@@ -65,7 +65,7 @@ var main = function () { return __awaiter(void 0, void 0, void 0, function () {
                 zoro = new __1.ANIME.Zoro();
                 aniwatchPageWithoutSlash = animeInfo.aniwatchPage.replace(/\//g, '');
                 animeFilePath = "zoro/".concat(animeInfo.aniwatchPage.replace(/\//g, ''), ".json");
-                if (fs.existsSync(animeFilePath)) return [3 /*break*/, 4];
+                if (!!fs.existsSync(animeFilePath)) return [3 /*break*/, 4];
                 return [4 /*yield*/, zoro.fetchAnimeInfo(aniwatchPageWithoutSlash)];
             case 3:
                 data = _d.sent();
