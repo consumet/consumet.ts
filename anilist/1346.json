@@ -1,0 +1,924 @@
+{
+  "id": "1346",
+  "title": {
+    "romaji": "AD Police",
+    "english": "A.D. Police Files",
+    "native": "ADポリス"
+  },
+  "malId": 1346,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1346-SkXLEWaU1GeI.jpg",
+  "popularity": 4270,
+  "color": "#e4a135",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n1346-3bUAj2aa630X.jpg",
+  "description": "The year is 2027 in MegaTokyo, six years before the Knight Sabers will make their debut. Boomers (artificial humans) are still a relatively new advancement, and the implementation and integration of boomers into society is still a bit buggy -- sometimes fatally so. Whenever a boomer incident occurs, though, there is the Advanced Police, a special force trained to deal with boomer crimes.<br><br>\nLeon McNichol is a rookie in the AD Police, and is just starting to become exposed to the horrors and tragedies one finds every day in MegaTokyo. He and his veteran partner, Gina Marceau, slowly learn about the ever-fading line that separates man from machine. ",
+  "status": "Completed",
+  "releaseDate": 1990,
+  "startDate": {
+    "year": 1990,
+    "month": 5,
+    "day": 25
+  },
+  "endDate": {
+    "year": 1990,
+    "month": 11,
+    "day": 22
+  },
+  "totalEpisodes": 3,
+  "currentEpisode": 3,
+  "rating": 57,
+  "duration": 27,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Horror",
+    "Mecha",
+    "Mystery",
+    "Psychological",
+    "Sci-Fi",
+    "Thriller"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "AIC",
+    "Artmic"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 937,
+      "malId": 937,
+      "title": {
+        "romaji": "Appleseed",
+        "english": "Appleseed",
+        "native": "アップルシード",
+        "userPreferred": "Appleseed"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx937-2SYiMKI3qPkp.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/937-QB6I9ZzJ3Jwp.jpg",
+      "rating": 59,
+      "type": "OVA"
+    },
+    {
+      "id": 1352,
+      "malId": 1352,
+      "title": {
+        "romaji": "Cyber City OEDO 808",
+        "english": "Cyber City Oedo 808",
+        "native": "サイバーシティ OEDO 808",
+        "userPreferred": "Cyber City OEDO 808"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1352-1Sytay3y8ZON.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1352-YR39oBZLsbLz.jpg",
+      "rating": 69,
+      "type": "OVA"
+    },
+    {
+      "id": 120377,
+      "malId": 42310,
+      "title": {
+        "romaji": "Cyberpunk: Edgerunners",
+        "english": "Cyberpunk: Edgerunners",
+        "native": "サイバーパンク エッジランナーズ",
+        "userPreferred": "Cyberpunk: Edgerunners"
+      },
+      "status": "Completed",
+      "episodes": 10,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120377-GdoVPT4ZVxJn.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/120377-c15oLS8CA31s.jpg",
+      "rating": 85,
+      "type": "ONA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 3636,
+      "role": "MAIN",
+      "name": {
+        "first": "Leon",
+        "last": "McNichol",
+        "full": "Leon McNichol",
+        "native": "レオン・マクニコル",
+        "userPreferred": "Leon McNichol"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3636.jpg",
+      "voiceActors": [
+        {
+          "id": 95673,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshio",
+            "last": "Furukawa",
+            "full": "Toshio Furukawa",
+            "native": "古川登志夫",
+            "userPreferred": "Toshio Furukawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95673-jNN4GqGgpssj.png"
+        },
+        {
+          "id": 104951,
+          "language": "English",
+          "name": {
+            "first": "Adam",
+            "last": "Henderson",
+            "full": "Adam Henderson",
+            "native": null,
+            "userPreferred": "Adam Henderson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9951.jpg"
+        },
+        {
+          "id": 115456,
+          "language": "English",
+          "name": {
+            "first": "Brad",
+            "last": "Moranz",
+            "full": "Brad Moranz",
+            "native": null,
+            "userPreferred": "Brad Moranz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n115456-qck4A9TNHmeS.png"
+        },
+        {
+          "id": 105734,
+          "language": "French",
+          "name": {
+            "first": "Tony",
+            "last": "Jourdier",
+            "full": "Tony Jourdier",
+            "native": null,
+            "userPreferred": "Tony Jourdier"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105734-CdwOL92oiJiM.jpg"
+        }
+      ]
+    },
+    {
+      "id": 199148,
+      "role": "MAIN",
+      "name": {
+        "first": "Dieork",
+        "last": null,
+        "full": "Dieork",
+        "native": null,
+        "userPreferred": "Dieork"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95761,
+          "language": "Japanese",
+          "name": {
+            "first": "Tesshou",
+            "last": "Genda",
+            "full": "Tesshou Genda",
+            "native": "玄田哲章",
+            "userPreferred": "Tesshou Genda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95761-nwndYRCqJxno.png"
+        },
+        {
+          "id": 137406,
+          "language": "English",
+          "name": {
+            "first": "Bob",
+            "last": "Sherman",
+            "full": "Bob Sherman",
+            "native": null,
+            "userPreferred": "Bob Sherman"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n137406-GVXvldXqYcWO.jpg"
+        },
+        {
+          "id": 199362,
+          "language": "English",
+          "name": {
+            "first": "Mark",
+            "last": "Fincannon",
+            "full": "Mark Fincannon",
+            "native": null,
+            "userPreferred": "Mark Fincannon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n199362-dfbuK5OISvlt.jpg"
+        }
+      ]
+    },
+    {
+      "id": 37224,
+      "role": "MAIN",
+      "name": {
+        "first": "Gina",
+        "last": "Marceau",
+        "full": "Gina Marceau",
+        "native": null,
+        "userPreferred": "Gina Marceau"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b37224-U5kDMuyi3qay.jpg",
+      "voiceActors": [
+        {
+          "id": 96301,
+          "language": "Japanese",
+          "name": {
+            "first": "Youko",
+            "last": "Matsuoka",
+            "full": "Youko Matsuoka",
+            "native": "松岡洋子",
+            "userPreferred": "Youko Matsuoka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96301-FZZGgxCdNODm.png"
+        },
+        {
+          "id": 185778,
+          "language": "English",
+          "name": {
+            "first": "Shelley",
+            "last": "Thompson",
+            "full": "Shelley Thompson",
+            "native": null,
+            "userPreferred": "Shelley Thompson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 160638,
+          "language": "English",
+          "name": {
+            "first": "Regan",
+            "last": "Forman",
+            "full": "Regan Forman",
+            "native": null,
+            "userPreferred": "Regan Forman"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n160638-bJjt6Czbykjd.jpg"
+        },
+        {
+          "id": 162282,
+          "language": "French",
+          "name": {
+            "first": "Paule",
+            "last": "Pascal",
+            "full": "Paule Pascal",
+            "native": null,
+            "userPreferred": "Paule Pascal"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13922,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Billy",
+        "last": "Fanword",
+        "full": "Billy Fanword",
+        "native": null,
+        "userPreferred": "Billy Fanword"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b13922-UWSWdi9goePC.jpg",
+      "voiceActors": [
+        {
+          "id": 95084,
+          "language": "Japanese",
+          "name": {
+            "first": "Norio",
+            "last": "Wakamoto",
+            "full": "Norio Wakamoto",
+            "native": "若本規夫",
+            "userPreferred": "Norio Wakamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95084-RTrZSU38POPF.png"
+        },
+        {
+          "id": 145504,
+          "language": "English",
+          "name": {
+            "first": "Pierre",
+            "last": "Brulatour",
+            "full": "Pierre Brulatour",
+            "native": null,
+            "userPreferred": "Pierre Brulatour"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n145504-9vRItHK8Os1Q.jpg"
+        },
+        {
+          "id": 101367,
+          "language": "English",
+          "name": {
+            "first": "Seán",
+            "last": "Barrett",
+            "full": "Seán Barrett",
+            "native": null,
+            "userPreferred": "Seán Barrett"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101367-k63VCiu7cHUe.png"
+        },
+        {
+          "id": 149874,
+          "language": "French",
+          "name": {
+            "first": "Michel",
+            "last": "Blin",
+            "full": "Michel Blin",
+            "native": null,
+            "userPreferred": "Michel Blin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 199145,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hyde",
+        "last": "Cash",
+        "full": "Hyde Cash",
+        "native": null,
+        "userPreferred": "Hyde Cash"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 96129,
+          "language": "Japanese",
+          "name": {
+            "first": "Kiyonobu",
+            "last": "Suzuki",
+            "full": "Kiyonobu Suzuki",
+            "native": "鈴木清信",
+            "userPreferred": "Kiyonobu Suzuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96129-7bThBoEPzMsd.png"
+        },
+        {
+          "id": 190466,
+          "language": "English",
+          "name": {
+            "first": "Paul",
+            "last": "Sincoff",
+            "full": "Paul Sincoff",
+            "native": null,
+            "userPreferred": "Paul Sincoff"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n190466-1TPxVJnOxCc8.jpg"
+        }
+      ]
+    },
+    {
+      "id": 22562,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Iris",
+        "last": "Cara",
+        "full": "Iris Cara",
+        "native": null,
+        "userPreferred": "Iris Cara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/22562.jpg",
+      "voiceActors": [
+        {
+          "id": 95637,
+          "language": "Japanese",
+          "name": {
+            "first": "Miina",
+            "last": "Tominaga",
+            "full": "Miina Tominaga",
+            "native": "冨永みーな",
+            "userPreferred": "Miina Tominaga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95637-LT2PGGiw1HSB.jpg"
+        },
+        {
+          "id": 101082,
+          "language": "English",
+          "name": {
+            "first": "Juliet",
+            "last": "Cesario",
+            "full": "Juliet Cesario",
+            "native": null,
+            "userPreferred": "Juliet Cesario"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6082.jpg"
+        },
+        {
+          "id": 96044,
+          "language": "English",
+          "name": {
+            "first": "Annemarie",
+            "last": "Zola",
+            "full": "Annemarie Zola",
+            "native": "Annemarie Lawless",
+            "userPreferred": "Annemarie Zola"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96044-TH5NudyPuyGH.jpg"
+        },
+        {
+          "id": 95826,
+          "language": "French",
+          "name": {
+            "first": "Hélène",
+            "last": "Bizot",
+            "full": "Hélène Bizot",
+            "native": null,
+            "userPreferred": "Hélène Bizot"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/826.jpg"
+        }
+      ]
+    },
+    {
+      "id": 199146,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Researcher",
+        "last": null,
+        "full": "Researcher",
+        "native": null,
+        "userPreferred": "Researcher"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 141267,
+          "language": "English",
+          "name": {
+            "first": "Nigel ",
+            "last": "Greaves",
+            "full": "Nigel  Greaves",
+            "native": null,
+            "userPreferred": "Nigel  Greaves"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n141267-OevqwHIkxi4U.jpg"
+        }
+      ]
+    },
+    {
+      "id": 199147,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Debtor",
+        "last": null,
+        "full": "Debtor",
+        "native": null,
+        "userPreferred": "Debtor"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 154551,
+          "language": "English",
+          "name": {
+            "first": "Adam",
+            "last": "Matalon",
+            "full": "Adam Matalon",
+            "native": null,
+            "userPreferred": "Adam Matalon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n154551-01RyKJlRc09m.png"
+        }
+      ]
+    },
+    {
+      "id": 37225,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Phantom",
+        "last": "Woman",
+        "full": "Phantom Woman",
+        "native": null,
+        "userPreferred": "Phantom Woman"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/37225.jpg",
+      "voiceActors": [
+        {
+          "id": 96119,
+          "language": "Japanese",
+          "name": {
+            "first": "Harumi",
+            "last": "Ichiryuusai",
+            "full": "Harumi Ichiryuusai",
+            "native": "一龍斎春水",
+            "userPreferred": "Harumi Ichiryuusai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96119-fc73Td5Qm6RB.jpg"
+        },
+        {
+          "id": 181133,
+          "language": "English",
+          "name": {
+            "first": "Debora",
+            "last": "Weston",
+            "full": "Debora Weston",
+            "native": null,
+            "userPreferred": "Debora Weston"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 153011,
+          "language": "English",
+          "name": {
+            "first": "Kelly",
+            "last": "Chalaire",
+            "full": "Kelly Chalaire",
+            "native": null,
+            "userPreferred": "Kelly Chalaire"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n153011-JH3QGu4jFd2G.jpg"
+        },
+        {
+          "id": 95826,
+          "language": "French",
+          "name": {
+            "first": "Hélène",
+            "last": "Bizot",
+            "full": "Hélène Bizot",
+            "native": null,
+            "userPreferred": "Hélène Bizot"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/826.jpg"
+        }
+      ]
+    },
+    {
+      "id": 199149,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Youko",
+        "last": "Takagi",
+        "full": "Youko Takagi",
+        "native": null,
+        "userPreferred": "Youko Takagi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95448,
+          "language": "Japanese",
+          "name": {
+            "first": "Sakiko",
+            "last": "Tamagawa",
+            "full": "Sakiko Tamagawa",
+            "native": "玉川砂記子",
+            "userPreferred": "Sakiko Tamagawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95448-aZ4oV0K3UJf2.png"
+        },
+        {
+          "id": 199373,
+          "language": "English",
+          "name": {
+            "first": "Suesann",
+            "last": "Cullen",
+            "full": "Suesann Cullen",
+            "native": null,
+            "userPreferred": "Suesann Cullen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 95826,
+          "language": "French",
+          "name": {
+            "first": "Hélène",
+            "last": "Bizot",
+            "full": "Hélène Bizot",
+            "native": null,
+            "userPreferred": "Hélène Bizot"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/826.jpg"
+        }
+      ]
+    },
+    {
+      "id": 199142,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Vanessa",
+        "last": "Bach",
+        "full": "Vanessa Bach",
+        "native": null,
+        "userPreferred": "Vanessa Bach"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 96119,
+          "language": "Japanese",
+          "name": {
+            "first": "Harumi",
+            "last": "Ichiryuusai",
+            "full": "Harumi Ichiryuusai",
+            "native": "一龍斎春水",
+            "userPreferred": "Harumi Ichiryuusai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96119-fc73Td5Qm6RB.jpg"
+        },
+        {
+          "id": 104925,
+          "language": "English",
+          "name": {
+            "first": "Larissa",
+            "last": "Murray",
+            "full": "Larissa Murray",
+            "native": null,
+            "userPreferred": "Larissa Murray"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9925.jpg"
+        },
+        {
+          "id": 199375,
+          "language": "English",
+          "name": {
+            "first": "Amy",
+            "last": "Nelson",
+            "full": "Amy Nelson",
+            "native": null,
+            "userPreferred": "Amy Nelson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 199150,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Saeki",
+        "last": null,
+        "full": "Saeki",
+        "native": null,
+        "userPreferred": "Saeki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95259,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryuusei",
+            "last": "Nakao",
+            "full": "Ryuusei Nakao",
+            "native": "中尾隆聖",
+            "userPreferred": "Ryuusei Nakao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95259-A1sNVqfD2MWp.png"
+        },
+        {
+          "id": 153020,
+          "language": "English",
+          "name": {
+            "first": "David",
+            "last": "Collings",
+            "full": "David Collings",
+            "native": null,
+            "userPreferred": "David Collings"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n153020-zXoXWdC0ojjF.jpg"
+        },
+        {
+          "id": 199372,
+          "language": "English",
+          "name": {
+            "first": "Donn",
+            "last": "Ansell",
+            "full": "Donn Ansell",
+            "native": null,
+            "userPreferred": "Donn Ansell"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n199372-YqI0sHApM3ex.jpg"
+        }
+      ]
+    },
+    {
+      "id": 199143,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Alus",
+        "last": null,
+        "full": "Alus",
+        "native": null,
+        "userPreferred": "Alus"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95991,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsushi",
+            "last": "Abe",
+            "full": "Atsushi Abe",
+            "native": "阿部敦",
+            "userPreferred": "Atsushi Abe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95991-4u24gUBgqeTA.jpg"
+        },
+        {
+          "id": 199374,
+          "language": "English",
+          "name": {
+            "first": "Trampas",
+            "last": "Thompson",
+            "full": "Trampas Thompson",
+            "native": null,
+            "userPreferred": "Trampas Thompson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n199374-zEU0AXZZ4BS6.jpg"
+        },
+        {
+          "id": 96041,
+          "language": "English",
+          "name": {
+            "first": "Jeff",
+            "last": "Harding",
+            "full": "Jeff Harding",
+            "native": null,
+            "userPreferred": "Jeff Harding"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96041-Ogqupllc3bLG.jpg"
+        }
+      ]
+    },
+    {
+      "id": 199144,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Caroline",
+        "last": "Evers",
+        "full": "Caroline Evers",
+        "native": null,
+        "userPreferred": "Caroline Evers"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b199144-manZvIOf2daV.png",
+      "voiceActors": [
+        {
+          "id": 95155,
+          "language": "Japanese",
+          "name": {
+            "first": "Mika",
+            "last": "Doi",
+            "full": "Mika Doi",
+            "native": "土井美加",
+            "userPreferred": "Mika Doi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95155-hLCyqylRTNOo.png"
+        },
+        {
+          "id": 153163,
+          "language": "English",
+          "name": {
+            "first": "Liza",
+            "last": "Ross",
+            "full": "Liza Ross",
+            "native": null,
+            "userPreferred": "Liza Ross"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n153163-WTgS52EBSQxa.jpg"
+        },
+        {
+          "id": 190472,
+          "language": "English",
+          "name": {
+            "first": "Hadley",
+            "last": "Eure",
+            "full": "Hadley Eure",
+            "native": null,
+            "userPreferred": "Hadley Eure"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n190472-XbnEXCkybOKX.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 1349,
+      "relationType": "SEQUEL",
+      "malId": 1349,
+      "title": {
+        "romaji": "A.D. Police",
+        "english": "A.D. Police: To Protect and Serve",
+        "native": "アドバンスドポリス",
+        "userPreferred": "A.D. Police"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1349-hoytSWr7f1cq.jpg",
+      "color": "#f1501a",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n1349-VcWeuV64w3Kf.jpg",
+      "rating": 53
+    },
+    {
+      "id": 1347,
+      "relationType": "SEQUEL",
+      "malId": 1347,
+      "title": {
+        "romaji": "Bubblegum Crisis",
+        "english": "Bubblegum Crisis",
+        "native": "バブルガムクライシス",
+        "userPreferred": "Bubblegum Crisis"
+      },
+      "status": "Completed",
+      "episodes": 8,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1347-4NzCZYQQwIjb.jpg",
+      "color": "#35a1e4",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1347-vgFUa6HCzYu8.jpg",
+      "rating": 69
+    },
+    {
+      "id": 33416,
+      "relationType": "ALTERNATIVE",
+      "malId": 3416,
+      "title": {
+        "romaji": "AD. POLICE: Shuuen Toshi",
+        "english": "AD Police",
+        "native": "AD.POLICE 終焉都市",
+        "userPreferred": "AD. POLICE: Shuuen Toshi"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx33416-LWZA9gkwHRAz.jpg",
+      "color": "#e42835",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/33416-7rWlpC70iVgq.jpg",
+      "rating": 61
+    },
+    {
+      "id": 133305,
+      "relationType": "ADAPTATION",
+      "malId": null,
+      "title": {
+        "romaji": "AD. Police 25-ji",
+        "english": null,
+        "native": "AD.ポリス25時",
+        "userPreferred": "AD. Police 25-ji"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx133305-nfGWO8W410AT.jpg",
+      "color": "#d6281a",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx133305-nfGWO8W410AT.jpg",
+      "rating": 85
+    },
+    {
+      "id": 2466,
+      "relationType": "CHARACTER",
+      "malId": 2466,
+      "title": {
+        "romaji": "Scramble Wars: Tsuppashire! Genom Trophy Rally",
+        "english": null,
+        "native": "スクランブル・ウォーズ　突っ走る！ゲノムトロフィーラリー",
+        "userPreferred": "Scramble Wars: Tsuppashire! Genom Trophy Rally"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2466.jpg",
+      "color": "#e4d635",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2466.jpg",
+      "rating": 55
+    }
+  ],
+  "episodes": [
+    {
+      "id": "ad-police-episode-1",
+      "title": "The Phantom Woman",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1346-SkXLEWaU1GeI.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:22:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ad-police-episode-1"
+    },
+    {
+      "id": "ad-police-episode-2",
+      "title": "The Ripper",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1346-SkXLEWaU1GeI.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:22:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ad-police-episode-2"
+    },
+    {
+      "id": "ad-police-episode-3",
+      "title": "The Man Who Bites His Tongue",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1346-SkXLEWaU1GeI.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:22:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ad-police-episode-3"
+    }
+  ]
+}

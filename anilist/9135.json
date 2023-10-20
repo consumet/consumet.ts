@@ -1,0 +1,968 @@
+{
+  "id": "9135",
+  "title": {
+    "romaji": "Hagane no Renkinjutsushi: Milos no Seinaru Hoshi",
+    "english": "Fullmetal Alchemist: The Sacred Star of Milos",
+    "native": "劇場版 鋼の錬金術師 嘆きの丘の聖なる星"
+  },
+  "malId": 9135,
+  "synonyms": [
+    "Fullmetal Alchemist Movie 2",
+    "Hagane no Renkinjutsushi Movie 2",
+    "FMA Movie 2",
+    "Fullmetal Alchemist: La Estrella Sagrada de Milos",
+    "钢之炼金术师 叹息之丘的圣星"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9135-nPvbvO7QCx7L.jpg",
+  "popularity": 29777,
+  "color": "#785028",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/9135-Ffg7j7Rd641G.jpg",
+  "description": "A fugitive alchemist with mysterious abilities leads the Elric brothers to a distant valley of slums inhabited by the Milos, a proud people struggling against bureaucratic exploitation. Ed and Al quickly find themselves in the middle of a rising rebellion, as the exiled Milos lash out against their oppressors. At the heart of the conflict is Julia, a young alchemist befriended by Alphonse. She'll stop at nothing to restore the Milos to their former glory – even if that means harnessing the awful power of the mythical Philosopher's Stone. <br><br>\r\n(Source: FUNimation) ",
+  "status": "Completed",
+  "releaseDate": 2011,
+  "startDate": {
+    "year": 2011,
+    "month": 7,
+    "day": 2
+  },
+  "endDate": {
+    "year": 2011,
+    "month": 7,
+    "day": 2
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 69,
+  "duration": 110,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Drama",
+    "Fantasy"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "bones"
+  ],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [
+    {
+      "id": 20447,
+      "malId": 20507,
+      "title": {
+        "romaji": "Noragami",
+        "english": "Noragami",
+        "native": "ノラガミ",
+        "userPreferred": "Noragami"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20447-EoQXeygHaVCK.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20447-nlgQQzcgWbgw.jpg",
+      "rating": 78,
+      "type": "TV"
+    },
+    {
+      "id": 430,
+      "malId": 430,
+      "title": {
+        "romaji": "Hagane no Renkinjutsushi: Shamballa wo Yuku Mono",
+        "english": "Fullmetal Alchemist: The Movie - Conqueror of Shamballa",
+        "native": "劇場版 鋼の錬金術師 シャンバラを征く者",
+        "userPreferred": "Hagane no Renkinjutsushi: Shamballa wo Yuku Mono"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx430-Fx7lVxpcwArH.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/430-G07rfvPsD2Zg.jpg",
+      "rating": 70,
+      "type": "MOVIE"
+    },
+    {
+      "id": 102161,
+      "malId": 33536,
+      "title": {
+        "romaji": "FLY",
+        "english": null,
+        "native": "「FLY」フライ",
+        "userPreferred": "FLY"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx102161-biaIabGRrvRf.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx102161-biaIabGRrvRf.png",
+      "rating": 35,
+      "type": "ONA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 40943,
+      "role": "MAIN",
+      "name": {
+        "first": "Melvin",
+        "last": "Voyager",
+        "full": "Melvin Voyager",
+        "native": "メルビン・ボイジャー",
+        "userPreferred": "Melvin Voyager"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/40943.jpg",
+      "voiceActors": [
+        {
+          "id": 95006,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiyuki",
+            "last": "Morikawa",
+            "full": "Toshiyuki Morikawa",
+            "native": "森川智之",
+            "userPreferred": "Toshiyuki Morikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95006-hoLuiZANeD3Q.png"
+        },
+        {
+          "id": 109213,
+          "language": "English",
+          "name": {
+            "first": "Matthew",
+            "last": "Mercer",
+            "full": "Matthew Mercer",
+            "native": "Matthew Christopher Miller",
+            "userPreferred": "Matthew Mercer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109213-mMlmuym6yRHQ.jpg"
+        },
+        {
+          "id": 96232,
+          "language": "Italian",
+          "name": {
+            "first": "Alessandro",
+            "last": "D'Errico",
+            "full": "Alessandro D'Errico",
+            "native": null,
+            "userPreferred": "Alessandro D'Errico"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96232-IIIfLggIYqZd.jpg"
+        },
+        {
+          "id": 199067,
+          "language": "French",
+          "name": {
+            "first": "Stéphane",
+            "last": "Roux-Weiss",
+            "full": "Stéphane Roux-Weiss",
+            "native": null,
+            "userPreferred": "Stéphane Roux-Weiss"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "role": "MAIN",
+      "name": {
+        "first": "Alphonse",
+        "last": "Elric",
+        "full": "Alphonse Elric",
+        "native": "アルフォンス・エルリック",
+        "userPreferred": "Alphonse Elric"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b12-tCKu8yK5kFL5.jpg",
+      "voiceActors": [
+        {
+          "id": 95008,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Kugimiya",
+            "full": "Rie Kugimiya",
+            "native": "釘宮理恵",
+            "userPreferred": "Rie Kugimiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95008-2y0EeuSTHIri.png"
+        },
+        {
+          "id": 103722,
+          "language": "English",
+          "name": {
+            "first": "Maxey",
+            "last": "Whitehead",
+            "full": "Maxey Whitehead",
+            "native": null,
+            "userPreferred": "Maxey Whitehead"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103722-4IYtnwwabhYI.jpg"
+        },
+        {
+          "id": 96162,
+          "language": "Italian",
+          "name": {
+            "first": "Benedetta",
+            "last": "Ponticelli",
+            "full": "Benedetta Ponticelli",
+            "native": null,
+            "userPreferred": "Benedetta Ponticelli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1162.jpg"
+        },
+        {
+          "id": 154940,
+          "language": "French",
+          "name": {
+            "first": "Audrey",
+            "last": "Pic",
+            "full": "Audrey Pic",
+            "native": null,
+            "userPreferred": "Audrey Pic"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "role": "MAIN",
+      "name": {
+        "first": "Edward",
+        "last": "Elric",
+        "full": "Edward Elric",
+        "native": "エドワード・エルリック",
+        "userPreferred": "Edward Elric"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b11-TA5Nuk7EDUZG.jpg",
+      "voiceActors": [
+        {
+          "id": 95082,
+          "language": "Japanese",
+          "name": {
+            "first": "Romi",
+            "last": "Park",
+            "full": "Romi Park",
+            "native": "朴璐美",
+            "userPreferred": "Romi Park"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95082-pNGbnYv4cHAK.png"
+        },
+        {
+          "id": 95043,
+          "language": "English",
+          "name": {
+            "first": "Vic",
+            "last": "Mignogna",
+            "full": "Vic Mignogna",
+            "native": "Victor Joseph Mignogna",
+            "userPreferred": "Vic Mignogna"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95043-cgQunZolvkPW.png"
+        },
+        {
+          "id": 96163,
+          "language": "Italian",
+          "name": {
+            "first": "Renato",
+            "last": "Novara",
+            "full": "Renato Novara",
+            "native": null,
+            "userPreferred": "Renato Novara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96163-YaGjTo1XM8qd.png"
+        },
+        {
+          "id": 116201,
+          "language": "French",
+          "name": {
+            "first": "Arthur",
+            "last": "Pestel",
+            "full": "Arthur Pestel",
+            "native": null,
+            "userPreferred": "Arthur Pestel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/21201.jpg"
+        }
+      ]
+    },
+    {
+      "id": 40942,
+      "role": "MAIN",
+      "name": {
+        "first": "Julia",
+        "last": "Crichton",
+        "full": "Julia Crichton",
+        "native": "ジュリア・クライトン",
+        "userPreferred": "Julia Crichton"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/40942.jpg",
+      "voiceActors": [
+        {
+          "id": 95090,
+          "language": "Japanese",
+          "name": {
+            "first": "Maaya",
+            "last": "Sakamoto",
+            "full": "Maaya Sakamoto",
+            "native": "坂本真綾",
+            "userPreferred": "Maaya Sakamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95090-oARRP42NEhu0.jpg"
+        },
+        {
+          "id": 104091,
+          "language": "English",
+          "name": {
+            "first": "Alexis",
+            "last": "Tipton",
+            "full": "Alexis Tipton",
+            "native": null,
+            "userPreferred": "Alexis Tipton"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104091-OZpJbFWFwnvV.jpg"
+        },
+        {
+          "id": 109569,
+          "language": "Italian",
+          "name": {
+            "first": "Gea",
+            "last": "Riva",
+            "full": "Gea Riva",
+            "native": null,
+            "userPreferred": "Gea Riva"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109569-T6AuklGMbcKh.png"
+        },
+        {
+          "id": 158831,
+          "language": "French",
+          "name": {
+            "first": "Céline",
+            "last": "Melloul",
+            "full": "Céline Melloul",
+            "native": null,
+            "userPreferred": "Céline Melloul"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n158831-18d3bDPeV6MB.jpg"
+        },
+        {
+          "id": 102109,
+          "language": "German",
+          "name": {
+            "first": "Jennifer",
+            "last": "Weiß",
+            "full": "Jennifer Weiß",
+            "native": null,
+            "userPreferred": "Jennifer Weiß"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7109.jpg"
+        },
+        {
+          "id": 102765,
+          "language": "Hungarian",
+          "name": {
+            "first": "Titanilla",
+            "last": "Bogdányi",
+            "full": "Titanilla Bogdányi",
+            "native": null,
+            "userPreferred": "Titanilla Bogdányi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102765-OYsgMI1EOmfp.png"
+        }
+      ]
+    },
+    {
+      "id": 57657,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Herschel",
+        "last": null,
+        "full": "Herschel",
+        "native": "ハーシェル",
+        "userPreferred": "Herschel"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/57657.jpg",
+      "voiceActors": [
+        {
+          "id": 95174,
+          "language": "Japanese",
+          "name": {
+            "first": "Hidenobu",
+            "last": "Kiuchi",
+            "full": "Hidenobu Kiuchi",
+            "native": "木内秀信",
+            "userPreferred": "Hidenobu Kiuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95174-yTsadXRKchp7.png"
+        },
+        {
+          "id": 95340,
+          "language": "English",
+          "name": {
+            "first": "Patrick",
+            "last": "Seitz",
+            "full": "Patrick Seitz",
+            "native": null,
+            "userPreferred": "Patrick Seitz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95340-W5PAwurtgtXs.jpg"
+        },
+        {
+          "id": 160266,
+          "language": "Italian",
+          "name": {
+            "first": "Massimiliano",
+            "last": "Lotti",
+            "full": "Massimiliano Lotti",
+            "native": null,
+            "userPreferred": "Massimiliano Lotti"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n160266-5OJb8QO3Bgsz.jpg"
+        }
+      ]
+    },
+    {
+      "id": 42826,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Miranda",
+        "last": null,
+        "full": "Miranda",
+        "native": "ミランダ",
+        "userPreferred": "Miranda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/42826.jpg",
+      "voiceActors": [
+        {
+          "id": 95448,
+          "language": "Japanese",
+          "name": {
+            "first": "Sakiko",
+            "last": "Tamagawa",
+            "full": "Sakiko Tamagawa",
+            "native": "玉川砂記子",
+            "userPreferred": "Sakiko Tamagawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95448-aZ4oV0K3UJf2.png"
+        },
+        {
+          "id": 95193,
+          "language": "English",
+          "name": {
+            "first": "Shelley",
+            "last": "Calene-Black",
+            "full": "Shelley Calene-Black",
+            "native": null,
+            "userPreferred": "Shelley Calene-Black"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95193-Nvdjk8BIcEJb.png"
+        },
+        {
+          "id": 104985,
+          "language": "Italian",
+          "name": {
+            "first": "Cinzia",
+            "last": "Massironi",
+            "full": "Cinzia Massironi",
+            "native": null,
+            "userPreferred": "Cinzia Massironi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9985.jpg"
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Roy",
+        "last": "Mustang",
+        "full": "Roy Mustang",
+        "native": "ロイ・マスタング",
+        "userPreferred": "Roy Mustang"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b68-moBLY2WO2am3.png",
+      "voiceActors": [
+        {
+          "id": 95022,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinichirou",
+            "last": "Miki",
+            "full": "Shinichirou Miki",
+            "native": "三木眞一郎",
+            "userPreferred": "Shinichirou Miki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95022-BXggjIr4KHqd.png"
+        },
+        {
+          "id": 95026,
+          "language": "English",
+          "name": {
+            "first": "Travis",
+            "last": "Willingham",
+            "full": "Travis Willingham",
+            "native": null,
+            "userPreferred": "Travis Willingham"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95026-8rP8eX7zsekz.jpg"
+        },
+        {
+          "id": 96087,
+          "language": "Italian",
+          "name": {
+            "first": "Gianluca",
+            "last": "Iacono",
+            "full": "Gianluca Iacono",
+            "native": null,
+            "userPreferred": "Gianluca Iacono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96087-FUVmdkMXQmE5.png"
+        },
+        {
+          "id": 104252,
+          "language": "French",
+          "name": {
+            "first": "Martial",
+            "last": "Le Minoux",
+            "full": "Martial Le Minoux",
+            "native": null,
+            "userPreferred": "Martial Le Minoux"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104252-9edSGIeaGh5J.png"
+        }
+      ]
+    },
+    {
+      "id": 42825,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tony",
+        "last": null,
+        "full": "Tony",
+        "native": "トニ",
+        "userPreferred": "Tony"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/42825.jpg",
+      "voiceActors": [
+        {
+          "id": 95410,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinji",
+            "last": "Kawada",
+            "full": "Shinji Kawada",
+            "native": "川田紳司",
+            "userPreferred": "Shinji Kawada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95410-AosJKUc7YZXE.jpg"
+        },
+        {
+          "id": 95610,
+          "language": "English",
+          "name": {
+            "first": "Christopher",
+            "last": "Bevins",
+            "full": "Christopher Bevins",
+            "native": null,
+            "userPreferred": "Christopher Bevins"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95610-4FScrXVJmH3V.jpg"
+        },
+        {
+          "id": 167062,
+          "language": "Italian",
+          "name": {
+            "first": "Dario",
+            "last": "Sansalone",
+            "full": "Dario Sansalone",
+            "native": null,
+            "userPreferred": "Dario Sansalone"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 42827,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Alan",
+        "last": null,
+        "full": "Alan",
+        "native": "アラン",
+        "userPreferred": "Alan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/42827.jpg",
+      "voiceActors": [
+        {
+          "id": 96052,
+          "language": "Japanese",
+          "name": {
+            "first": "Takanori",
+            "last": "Hoshino",
+            "full": "Takanori Hoshino",
+            "native": "星野貴紀",
+            "userPreferred": "Takanori Hoshino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1052.jpg"
+        },
+        {
+          "id": 96345,
+          "language": "English",
+          "name": {
+            "first": "Andrew",
+            "last": "Chandler",
+            "full": "Andrew Chandler",
+            "native": null,
+            "userPreferred": "Andrew Chandler"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96345-kgQtbStttBO7.png"
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Winry",
+        "last": "Rockbell",
+        "full": "Winry Rockbell",
+        "native": "ウィンリィ・ロックベル",
+        "userPreferred": "Winry Rockbell"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/63-xloedtYxiJ2E.jpg",
+      "voiceActors": [
+        {
+          "id": 95046,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Takamoto",
+            "full": "Megumi Takamoto",
+            "native": "高本めぐみ",
+            "userPreferred": "Megumi Takamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95046-3vW0I3zKOpfW.jpg"
+        },
+        {
+          "id": 95313,
+          "language": "English",
+          "name": {
+            "first": "Caitlin",
+            "last": "Glass",
+            "full": "Caitlin Glass",
+            "native": null,
+            "userPreferred": "Caitlin Glass"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95313-zK3WpeNtACvm.jpg"
+        },
+        {
+          "id": 96280,
+          "language": "Italian",
+          "name": {
+            "first": "Elisabetta",
+            "last": "Spinelli",
+            "full": "Elisabetta Spinelli",
+            "native": null,
+            "userPreferred": "Elisabetta Spinelli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96280-Z4a9OF7HxJ75.jpg"
+        },
+        {
+          "id": 104887,
+          "language": "French",
+          "name": {
+            "first": "Marie",
+            "last": "Diot",
+            "full": "Marie Diot",
+            "native": null,
+            "userPreferred": "Marie Diot"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104887-XMkRbR9YX0MF.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16648,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Heymans",
+        "last": "Breda",
+        "full": "Heymans Breda",
+        "native": "ハイマンス・ブレダ",
+        "userPreferred": "Heymans Breda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b16648-fJ18o1PPtBYk.jpg",
+      "voiceActors": [
+        {
+          "id": 105601,
+          "language": "Japanese",
+          "name": {
+            "first": "Biichi",
+            "last": "Sato",
+            "full": "Biichi Sato",
+            "native": "佐藤美一",
+            "userPreferred": "Biichi Sato"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10601.jpg"
+        },
+        {
+          "id": 96339,
+          "language": "English",
+          "name": {
+            "first": "Jeremy",
+            "last": "Inman",
+            "full": "Jeremy Inman",
+            "native": null,
+            "userPreferred": "Jeremy Inman"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1339.jpg"
+        },
+        {
+          "id": 153456,
+          "language": "Italian",
+          "name": {
+            "first": "Marco",
+            "last": "Benedetti",
+            "full": "Marco Benedetti",
+            "native": null,
+            "userPreferred": "Marco Benedetti"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n153456-au2y9zeAClez.jpg"
+        }
+      ]
+    },
+    {
+      "id": 59375,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gonzales",
+        "last": null,
+        "full": "Gonzales",
+        "native": "ゴンザレス",
+        "userPreferred": "Gonzales"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/59375.jpg",
+      "voiceActors": [
+        {
+          "id": 100845,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukimasa",
+            "last": "Kishino",
+            "full": "Yukimasa Kishino",
+            "native": "岸野幸正",
+            "userPreferred": "Yukimasa Kishino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100845-LOsfDDyjfnfj.jpg"
+        },
+        {
+          "id": 96276,
+          "language": "Italian",
+          "name": {
+            "first": "Giovanni",
+            "last": "Battezzato",
+            "full": "Giovanni Battezzato",
+            "native": null,
+            "userPreferred": "Giovanni Battezzato"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1276.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2079,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Alex Louis",
+        "last": "Armstrong",
+        "full": "Alex Louis Armstrong",
+        "native": "アレックス・ルイ・アームストロング",
+        "userPreferred": "Alex Louis Armstrong"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2079-RnhPS44vyqpJ.jpg",
+      "voiceActors": [
+        {
+          "id": 95138,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenji",
+            "last": "Utsumi",
+            "full": "Kenji Utsumi",
+            "native": "内海賢二",
+            "userPreferred": "Kenji Utsumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95138-0iK7jnkuJb6o.png"
+        },
+        {
+          "id": 95253,
+          "language": "English",
+          "name": {
+            "first": "Christopher",
+            "last": "Sabat",
+            "full": "Christopher Sabat",
+            "native": null,
+            "userPreferred": "Christopher Sabat"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95253-Z7Yqog73M7E8.png"
+        },
+        {
+          "id": 96089,
+          "language": "Italian",
+          "name": {
+            "first": "Mario",
+            "last": "Zucca",
+            "full": "Mario Zucca",
+            "native": null,
+            "userPreferred": "Mario Zucca"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96089-q69sRJKRPl65.jpg"
+        },
+        {
+          "id": 163977,
+          "language": "French",
+          "name": {
+            "first": "Benoît",
+            "last": "Allemane",
+            "full": "Benoît Allemane",
+            "native": null,
+            "userPreferred": "Benoît Allemane"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n163977-fxT2j9I5SjF7.jpg"
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Riza",
+        "last": "Hawkeye",
+        "full": "Riza Hawkeye",
+        "native": "リザ・ホークアイ",
+        "userPreferred": "Riza Hawkeye"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b70-k4bCgDspyOdI.png",
+      "voiceActors": [
+        {
+          "id": 95152,
+          "language": "Japanese",
+          "name": {
+            "first": "Fumiko",
+            "last": "Orikasa",
+            "full": "Fumiko Orikasa",
+            "native": "折笠富美子",
+            "userPreferred": "Fumiko Orikasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95152-X9K5ciNGSX35.jpg"
+        },
+        {
+          "id": 95472,
+          "language": "English",
+          "name": {
+            "first": "Colleen",
+            "last": "Clinkenbeard",
+            "full": "Colleen Clinkenbeard",
+            "native": null,
+            "userPreferred": "Colleen Clinkenbeard"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95472-fznpewUW95vm.jpg"
+        },
+        {
+          "id": 158216,
+          "language": "Italian",
+          "name": {
+            "first": "Tania De",
+            "last": "Domenico",
+            "full": "Tania De Domenico",
+            "native": null,
+            "userPreferred": "Tania De Domenico"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 104881,
+          "language": "French",
+          "name": {
+            "first": "Agnès",
+            "last": "Manoury",
+            "full": "Agnès Manoury",
+            "native": null,
+            "userPreferred": "Agnès Manoury"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104881-2aX39ScaXWqg.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 5114,
+      "relationType": "PARENT",
+      "malId": 5114,
+      "title": {
+        "romaji": "Hagane no Renkinjutsushi: FULLMETAL ALCHEMIST",
+        "english": "Fullmetal Alchemist: Brotherhood",
+        "native": "鋼の錬金術師 FULLMETAL ALCHEMIST",
+        "userPreferred": "Hagane no Renkinjutsushi: FULLMETAL ALCHEMIST"
+      },
+      "status": "Completed",
+      "episodes": 64,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5114-KJTQz9AIm6Wk.jpg",
+      "color": "#e4c993",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/5114-q0V5URebphSG.jpg",
+      "rating": 90
+    },
+    {
+      "id": 10842,
+      "relationType": "SPIN_OFF",
+      "malId": 10842,
+      "title": {
+        "romaji": "Hagane no Renkinjutsushi: Milos no Seinaru Hoshi Tokubetsu Eizou",
+        "english": null,
+        "native": "鋼の錬金術師 嘆きの丘[ミロス]の聖なる星 特別動画",
+        "userPreferred": "Hagane no Renkinjutsushi: Milos no Seinaru Hoshi Tokubetsu Eizou"
+      },
+      "status": "Completed",
+      "episodes": 4,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10842.jpg",
+      "color": "#e4ae5d",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10842.jpg",
+      "rating": 62
+    },
+    {
+      "id": 166142,
+      "relationType": "ALTERNATIVE",
+      "malId": null,
+      "title": {
+        "romaji": "Hagane no Renkinjutsushi 11.5: Tabidachi no Mae ni",
+        "english": null,
+        "native": "鋼の錬金術師 第11.5巻 ー旅立ちの前にー ",
+        "userPreferred": "Hagane no Renkinjutsushi 11.5: Tabidachi no Mae ni"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b166142-w9z50N9KrJih.jpg",
+      "color": "#43bbe4",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b166142-w9z50N9KrJih.jpg",
+      "rating": 76
+    }
+  ],
+  "episodes": [
+    {
+      "id": "fullmetal-alchemist-the-sacred-star-of-milos-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9135-nPvbvO7QCx7L.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//fullmetal-alchemist-the-sacred-star-of-milos-episode-1"
+    }
+  ]
+}

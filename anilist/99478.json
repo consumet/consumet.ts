@@ -1,0 +1,508 @@
+{
+  "id": "99478",
+  "title": {
+    "romaji": "Koneko no Chii: Ponponra Dairyokou",
+    "english": "Chi's Sweet Adventure Season 2",
+    "native": "こねこのチー 〜ポンポンらー大旅行〜"
+  },
+  "malId": 36418,
+  "synonyms": [
+    "こねこのチー ポンポンらー大冒険 2",
+    "Koneko no Chii: Ponponra Daibouken 2",
+    "As Doces Aventuras de Chi 2",
+    "Chi, mon chaton"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99478-51yPecTKIGaN.jpg",
+  "popularity": 1134,
+  "color": "#50c9e4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99478-51yPecTKIGaN.jpg",
+  "description": "The second season of the new 3DCG anime series for Koneko no Chii.",
+  "status": "Completed",
+  "releaseDate": 2018,
+  "startDate": {
+    "year": 2018,
+    "month": 4,
+    "day": 8
+  },
+  "endDate": {
+    "year": 2018,
+    "month": 9,
+    "day": 30
+  },
+  "totalEpisodes": 25,
+  "currentEpisode": 25,
+  "rating": 61,
+  "duration": 12,
+  "genres": [
+    "Comedy",
+    "Slice of Life"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Marza Animation Planet"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 21228,
+      "malId": 30651,
+      "title": {
+        "romaji": "Itoshi no Muco",
+        "english": "Lovely Muuuuuuuco!",
+        "native": "いとしのムーコ",
+        "userPreferred": "Itoshi no Muco"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21228-MjCN5xVPgigR.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21228-MjCN5xVPgigR.png",
+      "rating": 58,
+      "type": "TV_SHORT"
+    }
+  ],
+  "characters": [
+    {
+      "id": 13564,
+      "role": "MAIN",
+      "name": {
+        "first": "Miwa",
+        "last": "Yamada",
+        "full": "Miwa Yamada",
+        "native": "山田ミワ",
+        "userPreferred": "Miwa Yamada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/13564.jpg",
+      "voiceActors": [
+        {
+          "id": 95090,
+          "language": "Japanese",
+          "name": {
+            "first": "Maaya",
+            "last": "Sakamoto",
+            "full": "Maaya Sakamoto",
+            "native": "坂本真綾",
+            "userPreferred": "Maaya Sakamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95090-oARRP42NEhu0.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11809,
+      "role": "MAIN",
+      "name": {
+        "first": "Youhei",
+        "last": "Yamada",
+        "full": "Youhei Yamada",
+        "native": "山田 ヨウヘイ",
+        "userPreferred": "Youhei Yamada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11809.jpg",
+      "voiceActors": [
+        {
+          "id": 95348,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouko",
+            "last": "Shiraishi",
+            "full": "Ryouko Shiraishi",
+            "native": "白石涼子",
+            "userPreferred": "Ryouko Shiraishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95348-sLIy7IMrgZeA.png"
+        }
+      ]
+    },
+    {
+      "id": 10765,
+      "role": "MAIN",
+      "name": {
+        "first": "Chi",
+        "last": "Yamada",
+        "full": "Chi Yamada",
+        "native": "山田チー",
+        "userPreferred": "Chi Yamada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10765.jpg",
+      "voiceActors": [
+        {
+          "id": 95470,
+          "language": "Japanese",
+          "name": {
+            "first": "Satomi",
+            "last": "Koorogi",
+            "full": "Satomi Koorogi",
+            "native": "こおろぎさとみ",
+            "userPreferred": "Satomi Koorogi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95470-xZYG14WGMlmS.png"
+        }
+      ]
+    },
+    {
+      "id": 13563,
+      "role": "MAIN",
+      "name": {
+        "first": "Kento",
+        "last": "Yamada",
+        "full": "Kento Yamada",
+        "native": "山田ケント",
+        "userPreferred": "Kento Yamada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/13563.jpg",
+      "voiceActors": [
+        {
+          "id": 96074,
+          "language": "Japanese",
+          "name": {
+            "first": "Makoto",
+            "last": "Yasumura",
+            "full": "Makoto Yasumura",
+            "native": "保村真",
+            "userPreferred": "Makoto Yasumura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96074-mcIujin2kl4o.png"
+        }
+      ]
+    },
+    {
+      "id": 48845,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kocchi",
+        "last": null,
+        "full": "Kocchi",
+        "native": "コッチ",
+        "userPreferred": "Kocchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/48845.jpg",
+      "voiceActors": [
+        {
+          "id": 95181,
+          "language": "Japanese",
+          "name": {
+            "first": "Noriko",
+            "last": "Hidaka",
+            "full": "Noriko Hidaka",
+            "native": "日高のり子",
+            "userPreferred": "Noriko Hidaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95181-vMjqcku6ZHtF.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16307,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kuroino",
+        "last": null,
+        "full": "Kuroino",
+        "native": "クロいの",
+        "userPreferred": "Kuroino"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16307.jpg",
+      "voiceActors": [
+        {
+          "id": 95113,
+          "language": "Japanese",
+          "name": {
+            "first": "Rikiya",
+            "last": "Koyama",
+            "full": "Rikiya Koyama",
+            "native": "小山力也",
+            "userPreferred": "Rikiya Koyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95113-z9eyYjTKSTX4.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 21796,
+      "relationType": "PREQUEL",
+      "malId": 33240,
+      "title": {
+        "romaji": "Koneko no Chii: Ponponra Daibouken",
+        "english": "Chi's Sweet Adventure",
+        "native": "こねこのチー ポンポンらー大冒険",
+        "userPreferred": "Koneko no Chii: Ponponra Daibouken"
+      },
+      "status": "Completed",
+      "episodes": 51,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21796-cwyH8pphj3gU.jpg",
+      "color": null,
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21796-dv4dEdpITnZd.jpg",
+      "rating": 63
+    },
+    {
+      "id": 31397,
+      "relationType": "ADAPTATION",
+      "malId": 1397,
+      "title": {
+        "romaji": "Chi's Sweet Home",
+        "english": "Chi's Sweet Home",
+        "native": "チーズスイートホーム",
+        "userPreferred": "Chi's Sweet Home"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx31397-tdkqytauwvsa.jpg",
+      "color": "#f1e4c9",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/31397-TRs1vYmORpbZ.jpg",
+      "rating": 77
+    },
+    {
+      "id": 103286,
+      "relationType": "ADAPTATION",
+      "malId": 114073,
+      "title": {
+        "romaji": "Kyo no Koneko no Chii",
+        "english": "Chi's Sweet Adventures",
+        "native": "今日のこねこのチー",
+        "userPreferred": "Kyo no Koneko no Chii"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx103286-T5FLAPq3MLdg.png",
+      "color": "#1a93d6",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx103286-T5FLAPq3MLdg.png",
+      "rating": 66
+    }
+  ],
+  "episodes": [
+    {
+      "id": "koneko-no-chii-ponponraa-dairyokou-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99478-51yPecTKIGaN.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//koneko-no-chii-ponponraa-dairyokou-episode-1"
+    },
+    {
+      "id": "koneko-no-chii-ponponraa-dairyokou-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99478-51yPecTKIGaN.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//koneko-no-chii-ponponraa-dairyokou-episode-2"
+    },
+    {
+      "id": "koneko-no-chii-ponponraa-dairyokou-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99478-51yPecTKIGaN.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//koneko-no-chii-ponponraa-dairyokou-episode-3"
+    },
+    {
+      "id": "koneko-no-chii-ponponraa-dairyokou-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99478-51yPecTKIGaN.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//koneko-no-chii-ponponraa-dairyokou-episode-4"
+    },
+    {
+      "id": "koneko-no-chii-ponponraa-dairyokou-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99478-51yPecTKIGaN.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//koneko-no-chii-ponponraa-dairyokou-episode-5"
+    },
+    {
+      "id": "koneko-no-chii-ponponraa-dairyokou-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99478-51yPecTKIGaN.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//koneko-no-chii-ponponraa-dairyokou-episode-6"
+    },
+    {
+      "id": "koneko-no-chii-ponponraa-dairyokou-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99478-51yPecTKIGaN.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//koneko-no-chii-ponponraa-dairyokou-episode-7"
+    },
+    {
+      "id": "koneko-no-chii-ponponraa-dairyokou-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99478-51yPecTKIGaN.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//koneko-no-chii-ponponraa-dairyokou-episode-8"
+    },
+    {
+      "id": "koneko-no-chii-ponponraa-dairyokou-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99478-51yPecTKIGaN.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//koneko-no-chii-ponponraa-dairyokou-episode-9"
+    },
+    {
+      "id": "koneko-no-chii-ponponraa-dairyokou-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99478-51yPecTKIGaN.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//koneko-no-chii-ponponraa-dairyokou-episode-10"
+    },
+    {
+      "id": "koneko-no-chii-ponponraa-dairyokou-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99478-51yPecTKIGaN.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//koneko-no-chii-ponponraa-dairyokou-episode-11"
+    },
+    {
+      "id": "koneko-no-chii-ponponraa-dairyokou-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99478-51yPecTKIGaN.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//koneko-no-chii-ponponraa-dairyokou-episode-12"
+    },
+    {
+      "id": "koneko-no-chii-ponponraa-dairyokou-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99478-51yPecTKIGaN.jpg",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//koneko-no-chii-ponponraa-dairyokou-episode-13"
+    },
+    {
+      "id": "koneko-no-chii-ponponraa-dairyokou-episode-14",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99478-51yPecTKIGaN.jpg",
+      "number": 14,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//koneko-no-chii-ponponraa-dairyokou-episode-14"
+    },
+    {
+      "id": "koneko-no-chii-ponponraa-dairyokou-episode-15",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99478-51yPecTKIGaN.jpg",
+      "number": 15,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//koneko-no-chii-ponponraa-dairyokou-episode-15"
+    },
+    {
+      "id": "koneko-no-chii-ponponraa-dairyokou-episode-16",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99478-51yPecTKIGaN.jpg",
+      "number": 16,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//koneko-no-chii-ponponraa-dairyokou-episode-16"
+    },
+    {
+      "id": "koneko-no-chii-ponponraa-dairyokou-episode-17",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99478-51yPecTKIGaN.jpg",
+      "number": 17,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//koneko-no-chii-ponponraa-dairyokou-episode-17"
+    },
+    {
+      "id": "koneko-no-chii-ponponraa-dairyokou-episode-18",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99478-51yPecTKIGaN.jpg",
+      "number": 18,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//koneko-no-chii-ponponraa-dairyokou-episode-18"
+    },
+    {
+      "id": "koneko-no-chii-ponponraa-dairyokou-episode-19",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99478-51yPecTKIGaN.jpg",
+      "number": 19,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//koneko-no-chii-ponponraa-dairyokou-episode-19"
+    },
+    {
+      "id": "koneko-no-chii-ponponraa-dairyokou-episode-20",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99478-51yPecTKIGaN.jpg",
+      "number": 20,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//koneko-no-chii-ponponraa-dairyokou-episode-20"
+    },
+    {
+      "id": "koneko-no-chii-ponponraa-dairyokou-episode-21",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99478-51yPecTKIGaN.jpg",
+      "number": 21,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//koneko-no-chii-ponponraa-dairyokou-episode-21"
+    },
+    {
+      "id": "koneko-no-chii-ponponraa-dairyokou-episode-22",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99478-51yPecTKIGaN.jpg",
+      "number": 22,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//koneko-no-chii-ponponraa-dairyokou-episode-22"
+    },
+    {
+      "id": "koneko-no-chii-ponponraa-dairyokou-episode-23",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99478-51yPecTKIGaN.jpg",
+      "number": 23,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//koneko-no-chii-ponponraa-dairyokou-episode-23"
+    },
+    {
+      "id": "koneko-no-chii-ponponraa-dairyokou-episode-24",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99478-51yPecTKIGaN.jpg",
+      "number": 24,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//koneko-no-chii-ponponraa-dairyokou-episode-24"
+    },
+    {
+      "id": "koneko-no-chii-ponponraa-dairyokou-episode-25",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99478-51yPecTKIGaN.jpg",
+      "number": 25,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//koneko-no-chii-ponponraa-dairyokou-episode-25"
+    }
+  ]
+}

@@ -1,0 +1,908 @@
+{
+  "id": "11783",
+  "title": {
+    "romaji": "Dog Days'",
+    "english": "Dog Days Season 2",
+    "native": "ドッグデイズ'"
+  },
+  "malId": 11783,
+  "synonyms": [
+    "Dog Days 2"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11783-R9MxLofk3OH4.png",
+  "popularity": 16839,
+  "color": "#e4d635",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11783-z57cDQbDYb9h.jpg",
+  "description": "The second season of <i>Dog Days</i>.<br>\n<br>\nCinque returns to the land of Flonyard in <i>Dog Days'</i> to resume his duties as the hero of the Biscotti Republic and it's as though he never left!<br>\n<br>\nThe difference this time is that he's brought two friends with him who become heroes in their own right: childhood best friend Rebecca Anderson, who becomes the hero for the Principality of Pastillage at the urging of their leader Princess Couvert Eschenbach Pastillage, and his cousin Nanami Takatsuki, who becomes the hero for the Galette Lion Dominion.<br>\n<br>\nAs with the first season though, with so many secrets to be uncovered and mysteries to be solved, will there even be time for the athletic events that these three hyper and athletic teenagers love to participate in so much?",
+  "status": "Completed",
+  "releaseDate": 2012,
+  "startDate": {
+    "year": 2012,
+    "month": 7,
+    "day": 7
+  },
+  "endDate": {
+    "year": 2012,
+    "month": 9,
+    "day": 29
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 66,
+  "duration": 23,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Seven Arcs"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 202,
+      "malId": 202,
+      "title": {
+        "romaji": "Wolf's Rain",
+        "english": "Wolf's Rain",
+        "native": "ウルフズレイン",
+        "userPreferred": "Wolf's Rain"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx202-876AzCrdWaZ7.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/202-3Ud0fKK0ithq.jpg",
+      "rating": 74,
+      "type": "TV"
+    },
+    {
+      "id": 2966,
+      "malId": 2966,
+      "title": {
+        "romaji": "Ookami to Koushinryou",
+        "english": "Spice and Wolf",
+        "native": "狼と香辛料",
+        "userPreferred": "Ookami to Koushinryou"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2966-BDusgFy0UzDy.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2966-h1ZiL7o7oYPs.jpg",
+      "rating": 80,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 39498,
+      "role": "MAIN",
+      "name": {
+        "first": "Millhiore",
+        "last": "Firianno Biscotti",
+        "full": "Millhiore Firianno Biscotti",
+        "native": "ミルヒオーレ・フィリアンノ・ビスコッティ",
+        "userPreferred": "Millhiore Firianno Biscotti"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/39498.jpg",
+      "voiceActors": [
+        {
+          "id": 95028,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Horie",
+            "full": "Yui Horie",
+            "native": "堀江由衣",
+            "userPreferred": "Yui Horie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95028-MHT1m3E5wGZx.png"
+        }
+      ]
+    },
+    {
+      "id": 39624,
+      "role": "MAIN",
+      "name": {
+        "first": "Cinque",
+        "last": "Izumi",
+        "full": "Cinque Izumi",
+        "native": "シンク・イズミ",
+        "userPreferred": "Cinque Izumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/39624.jpg",
+      "voiceActors": [
+        {
+          "id": 95065,
+          "language": "Japanese",
+          "name": {
+            "first": "Mamoru",
+            "last": "Miyano",
+            "full": "Mamoru Miyano",
+            "native": "宮野真守",
+            "userPreferred": "Mamoru Miyano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95065-eyynywrhombR.png"
+        }
+      ]
+    },
+    {
+      "id": 39633,
+      "role": "MAIN",
+      "name": {
+        "first": "Rebecca",
+        "last": "Anderson",
+        "full": "Rebecca Anderson",
+        "native": "レベッカ・アンダーソン",
+        "userPreferred": "Rebecca Anderson"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/39633.jpg",
+      "voiceActors": [
+        {
+          "id": 95132,
+          "language": "Japanese",
+          "name": {
+            "first": "Mikako",
+            "last": "Takahashi",
+            "full": "Mikako Takahashi",
+            "native": "高橋美佳子",
+            "userPreferred": "Mikako Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95132-TpIFKL0tJg84.jpg"
+        }
+      ]
+    },
+    {
+      "id": 39631,
+      "role": "MAIN",
+      "name": {
+        "first": "Leonmitchelli",
+        "last": "Galette des Rois",
+        "full": "Leonmitchelli Galette des Rois",
+        "native": "レオンミシェリ・ガレット・デ・ロワ",
+        "userPreferred": "Leonmitchelli Galette des Rois"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/39631.jpg",
+      "voiceActors": [
+        {
+          "id": 95070,
+          "language": "Japanese",
+          "name": {
+            "first": "Ami",
+            "last": "Koshimizu",
+            "full": "Ami Koshimizu",
+            "native": "小清水亜美",
+            "userPreferred": "Ami Koshimizu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95070-klkIfKz1VItS.png"
+        }
+      ]
+    },
+    {
+      "id": 66665,
+      "role": "MAIN",
+      "name": {
+        "first": "Couvert",
+        "last": "Eschenbach Pastillage",
+        "full": "Couvert Eschenbach Pastillage",
+        "native": "クーベル・エッシェンバッハ・パスティヤージュ",
+        "userPreferred": "Couvert Eschenbach Pastillage"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/66665.jpg",
+      "voiceActors": [
+        {
+          "id": 101686,
+          "language": "Japanese",
+          "name": {
+            "first": "Aoi",
+            "last": "Yuuki",
+            "full": "Aoi Yuuki",
+            "native": "悠木碧",
+            "userPreferred": "Aoi Yuuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101686-PTd0lQZMsmcv.png"
+        }
+      ]
+    },
+    {
+      "id": 64271,
+      "role": "MAIN",
+      "name": {
+        "first": "Nanami",
+        "last": "Takatsuki",
+        "full": "Nanami Takatsuki",
+        "native": "ナナミ・タカツキ",
+        "userPreferred": "Nanami Takatsuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/64271.jpg",
+      "voiceActors": [
+        {
+          "id": 95081,
+          "language": "Japanese",
+          "name": {
+            "first": "Nana",
+            "last": "Mizuki",
+            "full": "Nana Mizuki",
+            "native": "水樹奈々",
+            "userPreferred": "Nana Mizuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95081-qto4UanYkpQT.png"
+        }
+      ]
+    },
+    {
+      "id": 39627,
+      "role": "MAIN",
+      "name": {
+        "first": "Éclair",
+        "last": "Martinozzi",
+        "full": "Éclair Martinozzi",
+        "native": "エクレール・マルティノッジ",
+        "userPreferred": "Éclair Martinozzi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/39627.jpg",
+      "voiceActors": [
+        {
+          "id": 101996,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayana",
+            "last": "Taketatsu",
+            "full": "Ayana Taketatsu",
+            "native": "竹達彩奈",
+            "userPreferred": "Ayana Taketatsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101996-W14XnDV34VpO.jpg"
+        }
+      ]
+    },
+    {
+      "id": 42079,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Violle",
+        "last": "Amaretto",
+        "full": "Violle Amaretto",
+        "native": "ビオレ・アマレット",
+        "userPreferred": "Violle Amaretto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/42079.jpg",
+      "voiceActors": [
+        {
+          "id": 95115,
+          "language": "Japanese",
+          "name": {
+            "first": "Sakura",
+            "last": "Tange",
+            "full": "Sakura Tange",
+            "native": "丹下桜",
+            "userPreferred": "Sakura Tange"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95115-AtF7VsdIk51q.png"
+        }
+      ]
+    },
+    {
+      "id": 67933,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Isuka",
+        "last": "Makishima",
+        "full": "Isuka Makishima",
+        "native": "イスカ・マキシマ",
+        "userPreferred": "Isuka Makishima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/67933.jpg",
+      "voiceActors": [
+        {
+          "id": 95756,
+          "language": "Japanese",
+          "name": {
+            "first": "Anri",
+            "last": "Katsu",
+            "full": "Anri Katsu",
+            "native": "勝杏里",
+            "userPreferred": "Anri Katsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95756-MmmuyQK4Thzl.png"
+        }
+      ]
+    },
+    {
+      "id": 80301,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Percy",
+        "last": "Gaudi",
+        "full": "Percy Gaudi",
+        "native": "パーシー・ガウディ",
+        "userPreferred": "Percy Gaudi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/80301.jpg",
+      "voiceActors": [
+        {
+          "id": 104789,
+          "language": "Japanese",
+          "name": {
+            "first": "Mana",
+            "last": "Hirata",
+            "full": "Mana Hirata",
+            "native": "平田真菜",
+            "userPreferred": "Mana Hirata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104789-lRMqTFX6SdvJ.png"
+        }
+      ]
+    },
+    {
+      "id": 39630,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yukikaze",
+        "last": "Panettone",
+        "full": "Yukikaze Panettone",
+        "native": "ユキカゼ・パネトーネ",
+        "userPreferred": "Yukikaze Panettone"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/39630.jpg",
+      "voiceActors": [
+        {
+          "id": 95817,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Asumi",
+            "full": "Kana Asumi",
+            "native": "阿澄佳奈",
+            "userPreferred": "Kana Asumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95817-UHqRZ5xuSJgW.png"
+        }
+      ]
+    },
+    {
+      "id": 39628,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Loran",
+        "last": "Martinozzi",
+        "full": "Loran Martinozzi",
+        "native": "ロラン・マルティノッジ",
+        "userPreferred": "Loran Martinozzi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/39628.jpg",
+      "voiceActors": [
+        {
+          "id": 95160,
+          "language": "Japanese",
+          "name": {
+            "first": "Takehito",
+            "last": "Koyasu",
+            "full": "Takehito Koyasu",
+            "native": "子安武人",
+            "userPreferred": "Takehito Koyasu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95160-jWevcH7BmfE1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 66133,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Emilio",
+        "last": "Alcide",
+        "full": "Emilio Alcide",
+        "native": "エミリオ・アラシード",
+        "userPreferred": "Emilio Alcide"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/66133.jpg",
+      "voiceActors": [
+        {
+          "id": 96154,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Ono",
+            "full": "Yuuki Ono",
+            "native": "小野友樹",
+            "userPreferred": "Yuuki Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96154-B8GAO9wm1Fbd.jpg"
+        }
+      ]
+    },
+    {
+      "id": 41953,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Framboise",
+        "last": "Charle",
+        "full": "Framboise Charle",
+        "native": "フランボワーズ・シャルレー",
+        "userPreferred": "Framboise Charle"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/41953.jpg",
+      "voiceActors": [
+        {
+          "id": 95079,
+          "language": "Japanese",
+          "name": {
+            "first": "Takahiro",
+            "last": "Sakurai",
+            "full": "Takahiro Sakurai",
+            "native": "櫻井孝宏",
+            "userPreferred": "Takahiro Sakurai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95079-MdbWTLxPUvFf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 39632,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gaul",
+        "last": "Galette des Rois",
+        "full": "Gaul Galette des Rois",
+        "native": "ガルウ・ガレット・デ・ロワ",
+        "userPreferred": "Gaul Galette des Rois"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/39632.jpg",
+      "voiceActors": [
+        {
+          "id": 95167,
+          "language": "Japanese",
+          "name": {
+            "first": "Tetsuya",
+            "last": "Kakihara",
+            "full": "Tetsuya Kakihara",
+            "native": "柿原徹也",
+            "userPreferred": "Tetsuya Kakihara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95167-wjIShzThRTlS.png"
+        }
+      ]
+    },
+    {
+      "id": 41956,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Vert",
+        "last": "Far Breton",
+        "full": "Vert Far Breton",
+        "native": "ベール・ファーブルトン",
+        "userPreferred": "Vert Far Breton"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/41956.jpg",
+      "voiceActors": [
+        {
+          "id": 101634,
+          "language": "Japanese",
+          "name": {
+            "first": "Minako",
+            "last": "Kotobuki",
+            "full": "Minako Kotobuki",
+            "native": "寿美菜子",
+            "userPreferred": "Minako Kotobuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101634-IiPW117K0ybp.png"
+        }
+      ]
+    },
+    {
+      "id": 39626,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ricotta",
+        "last": "Elmar",
+        "full": "Ricotta Elmar",
+        "native": "リコッタ・エルマール",
+        "userPreferred": "Ricotta Elmar"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/39626.jpg",
+      "voiceActors": [
+        {
+          "id": 95081,
+          "language": "Japanese",
+          "name": {
+            "first": "Nana",
+            "last": "Mizuki",
+            "full": "Nana Mizuki",
+            "native": "水樹奈々",
+            "userPreferred": "Nana Mizuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95081-qto4UanYkpQT.png"
+        }
+      ]
+    },
+    {
+      "id": 41638,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Noir",
+        "last": "Vinocacao",
+        "full": "Noir Vinocacao",
+        "native": "ノワール・ヴィノカカオ",
+        "userPreferred": "Noir Vinocacao"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/41638.jpg",
+      "voiceActors": [
+        {
+          "id": 95185,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Hanazawa",
+            "full": "Kana Hanazawa",
+            "native": "花澤香菜",
+            "userPreferred": "Kana Hanazawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95185-vZ6nmfBKQgw1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 41927,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bernard",
+        "last": "Sabrage",
+        "full": "Bernard Sabrage",
+        "native": "バナード・サブラージュ",
+        "userPreferred": "Bernard Sabrage"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b41927-JWhpiktxeKYI.png",
+      "voiceActors": [
+        {
+          "id": 95212,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Ono",
+            "full": "Daisuke Ono",
+            "native": "小野大輔",
+            "userPreferred": "Daisuke Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95212-wX1M4LJN96q2.png"
+        }
+      ]
+    },
+    {
+      "id": 41642,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Godwin",
+        "last": "Dorure",
+        "full": "Godwin Dorure",
+        "native": "ゴドウィン将軍",
+        "userPreferred": "Godwin Dorure"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/41642.jpg",
+      "voiceActors": [
+        {
+          "id": 95084,
+          "language": "Japanese",
+          "name": {
+            "first": "Norio",
+            "last": "Wakamoto",
+            "full": "Norio Wakamoto",
+            "native": "若本規夫",
+            "userPreferred": "Norio Wakamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95084-RTrZSU38POPF.png"
+        }
+      ]
+    },
+    {
+      "id": 66329,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Callaway",
+        "last": "Risler",
+        "full": "Callaway Risler",
+        "native": "キャラウェイ・リスレ",
+        "userPreferred": "Callaway Risler"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/66329.jpg",
+      "voiceActors": [
+        {
+          "id": 95279,
+          "language": "Japanese",
+          "name": {
+            "first": "Takahiro",
+            "last": "Mizushima",
+            "full": "Takahiro Mizushima",
+            "native": "水島大宙",
+            "userPreferred": "Takahiro Mizushima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95279-5fMO4r9szQKL.jpg"
+        }
+      ]
+    },
+    {
+      "id": 39629,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Brioche",
+        "last": "d’Arquien",
+        "full": "Brioche d’Arquien",
+        "native": "ブリオッシュ・ダルキアン",
+        "userPreferred": "Brioche d’Arquien"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/39629.jpg",
+      "voiceActors": [
+        {
+          "id": 102263,
+          "language": "Japanese",
+          "name": {
+            "first": "Youko",
+            "last": "Hikasa",
+            "full": "Youko Hikasa",
+            "native": "日笠陽子",
+            "userPreferred": "Youko Hikasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102263-aaPZtNXVUljW.jpg"
+        }
+      ]
+    },
+    {
+      "id": 67635,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Valério",
+        "last": "Calvados",
+        "full": "Valério Calvados",
+        "native": "ヴァレリオ・カルバドス",
+        "userPreferred": "Valério Calvados"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/67635.jpg",
+      "voiceActors": [
+        {
+          "id": 95097,
+          "language": "Japanese",
+          "name": {
+            "first": "Kousuke",
+            "last": "Toriumi",
+            "full": "Kousuke Toriumi",
+            "native": "鳥海浩輔",
+            "userPreferred": "Kousuke Toriumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95097-BhSegy6KBLbE.png"
+        }
+      ]
+    },
+    {
+      "id": 67637,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Adélaïde",
+        "last": "Grand Marnier",
+        "full": "Adélaïde Grand Marnier",
+        "native": "アデライド・グランマニエ",
+        "userPreferred": "Adélaïde Grand Marnier"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/67637.jpg",
+      "voiceActors": [
+        {
+          "id": 95413,
+          "language": "Japanese",
+          "name": {
+            "first": "Eri",
+            "last": "Kitamura",
+            "full": "Eri Kitamura",
+            "native": "喜多村英梨",
+            "userPreferred": "Eri Kitamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95413-FwAIrc8Ishpt.png"
+        }
+      ]
+    },
+    {
+      "id": 41955,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jaune",
+        "last": "Clafoutis",
+        "full": "Jaune Clafoutis",
+        "native": "ジョーヌ・クラフティ",
+        "userPreferred": "Jaune Clafoutis"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/41955.jpg",
+      "voiceActors": [
+        {
+          "id": 104557,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoriko",
+            "last": "Nagata",
+            "full": "Yoriko Nagata",
+            "native": "永田依子",
+            "userPreferred": "Yoriko Nagata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104557-uRGthGTaHkn8.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 10155,
+      "relationType": "PREQUEL",
+      "malId": 10155,
+      "title": {
+        "romaji": "Dog Days",
+        "english": "Dog Days",
+        "native": "ドッグデイズ",
+        "userPreferred": "Dog Days"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10155-e5d9PukNkE8D.jpg",
+      "color": "#5d86e4",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10155-E433GYveGz8I.jpg",
+      "rating": 64
+    },
+    {
+      "id": 16385,
+      "relationType": "SEQUEL",
+      "malId": 16385,
+      "title": {
+        "romaji": "Dog Days''",
+        "english": "Dog Days Season 3",
+        "native": "ドッグデイズ''",
+        "userPreferred": "Dog Days''"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16385-ws6NmloFQ37V.png",
+      "color": "#e49350",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16385-MZ1JOl5ChObM.jpg",
+      "rating": 66
+    },
+    {
+      "id": 17419,
+      "relationType": "SUMMARY",
+      "malId": 17419,
+      "title": {
+        "romaji": "Dog Days' Specials",
+        "english": null,
+        "native": null,
+        "userPreferred": "Dog Days' Specials"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/17419.jpg",
+      "color": "#d6a11a",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/17419.jpg",
+      "rating": 62
+    }
+  ],
+  "episodes": [
+    {
+      "id": "dog-days-episode-1",
+      "title": "A Hero Appears!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/97509/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:29:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//dog-days-episode-1"
+    },
+    {
+      "id": "dog-days-episode-2",
+      "title": "Pastillage Joins The Battle!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/97510/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:29:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//dog-days-episode-2"
+    },
+    {
+      "id": "dog-days-episode-3",
+      "title": "Three Heroes!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/97511/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:29:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//dog-days-episode-3"
+    },
+    {
+      "id": "dog-days-episode-4",
+      "title": "Biscotti Summer Camp!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/97512/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:29:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//dog-days-episode-4"
+    },
+    {
+      "id": "dog-days-episode-5",
+      "title": "Galette Sword Style Record!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/97513/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:29:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//dog-days-episode-5"
+    },
+    {
+      "id": "dog-days-episode-6",
+      "title": "Pastillage's Hero King Legend",
+      "image": "https://media.kitsu.io/episodes/thumbnails/97514/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:29:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//dog-days-episode-6"
+    },
+    {
+      "id": "dog-days-episode-7",
+      "title": "Battle at the Cave of Sealing!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/97515/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:29:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//dog-days-episode-7"
+    },
+    {
+      "id": "dog-days-episode-8",
+      "title": "Esnart Arts and Music Festival",
+      "image": "https://media.kitsu.io/episodes/thumbnails/97516/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:29:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//dog-days-episode-8"
+    },
+    {
+      "id": "dog-days-episode-9",
+      "title": "Union Fest",
+      "image": "https://media.kitsu.io/episodes/thumbnails/97517/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:29:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//dog-days-episode-9"
+    },
+    {
+      "id": "dog-days-episode-10",
+      "title": "One-On-One In The Skies and On Land",
+      "image": "https://media.kitsu.io/episodes/thumbnails/97518/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:29:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//dog-days-episode-10"
+    },
+    {
+      "id": "dog-days-episode-11",
+      "title": "Change My Heart",
+      "image": "https://media.kitsu.io/episodes/thumbnails/97519/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:29:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//dog-days-episode-11"
+    },
+    {
+      "id": "dog-days-episode-12",
+      "title": "Final Stage",
+      "image": "https://media.kitsu.io/episodes/thumbnails/97520/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:29:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//dog-days-episode-12"
+    },
+    {
+      "id": "dog-days-episode-13",
+      "title": "Summer Memories",
+      "image": "https://media.kitsu.io/episodes/thumbnails/97521/original.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:29:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//dog-days-episode-13"
+    }
+  ]
+}

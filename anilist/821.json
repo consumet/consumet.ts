@@ -1,0 +1,675 @@
+{
+  "id": "821",
+  "title": {
+    "romaji": "Initial D BATTLE STAGE",
+    "english": null,
+    "native": "頭文字〈イニシャル〉D BATTLE STAGE"
+  },
+  "malId": 821,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/821.jpg",
+  "popularity": 6767,
+  "color": "#e45028",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/821.jpg",
+  "description": "There are many street races in the Initial D Series. This OAV has no plot other than to collect all the street races into one stage. The dialog during the original races is left in. <br>",
+  "status": "Completed",
+  "releaseDate": 2002,
+  "startDate": {
+    "year": 2002,
+    "month": 5,
+    "day": 15
+  },
+  "endDate": {
+    "year": 2002,
+    "month": 5,
+    "day": 15
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 72,
+  "duration": 52,
+  "genres": [
+    "Action",
+    "Sports"
+  ],
+  "season": "SPRING",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 12725,
+      "malId": 12725,
+      "title": {
+        "romaji": "Initial D to the Next Stage: Project D e Mukete",
+        "english": null,
+        "native": "頭文字D to the Next Stage ～プロジェクトDへ向けて～",
+        "userPreferred": "Initial D to the Next Stage: Project D e Mukete"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/12725.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/12725.jpg",
+      "rating": 71,
+      "type": "SPECIAL"
+    },
+    {
+      "id": 145405,
+      "malId": 50846,
+      "title": {
+        "romaji": "New Initial D Movie: BATTLE DIGEST",
+        "english": null,
+        "native": "新劇場版 頭文字D BATTLE DIGEST",
+        "userPreferred": "New Initial D Movie: BATTLE DIGEST"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx145405-2GPZk0jdxsya.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/145405-0CqwahF2l9iE.jpg",
+      "rating": 74,
+      "type": "OVA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 2819,
+      "role": "MAIN",
+      "name": {
+        "first": "Takumi",
+        "last": "Fujiwara",
+        "full": "Takumi Fujiwara",
+        "native": "藤原拓海",
+        "userPreferred": "Takumi Fujiwara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2819-FaPLslMytO9p.png",
+      "voiceActors": [
+        {
+          "id": 95022,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinichirou",
+            "last": "Miki",
+            "full": "Shinichirou Miki",
+            "native": "三木眞一郎",
+            "userPreferred": "Shinichirou Miki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95022-BXggjIr4KHqd.png"
+        }
+      ]
+    },
+    {
+      "id": 2822,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Keisuke",
+        "last": "Takahashi",
+        "full": "Keisuke Takahashi",
+        "native": "高橋啓介",
+        "userPreferred": "Keisuke Takahashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2822-HsgCNP5rMXHU.png",
+      "voiceActors": [
+        {
+          "id": 95001,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Seki",
+            "full": "Tomokazu Seki",
+            "native": "関智一",
+            "userPreferred": "Tomokazu Seki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95001-vm0RtZhmlzhK.png"
+        }
+      ]
+    },
+    {
+      "id": 21175,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sayuki",
+        "last": null,
+        "full": "Sayuki",
+        "native": "沙雪",
+        "userPreferred": "Sayuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b21175-t7hsvYvMYzow.jpg",
+      "voiceActors": [
+        {
+          "id": 95298,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Kakazu",
+            "full": "Yumi Kakazu",
+            "native": "かかずゆみ",
+            "userPreferred": "Yumi Kakazu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95298-wWENaJp9ERf7.jpg"
+        }
+      ]
+    },
+    {
+      "id": 37085,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kai",
+        "last": "Kogashiwa",
+        "full": "Kai Kogashiwa",
+        "native": "小柏 カイ",
+        "userPreferred": "Kai Kogashiwa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/37085.jpg",
+      "voiceActors": [
+        {
+          "id": 95096,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobutoshi",
+            "last": "Kanna",
+            "full": "Nobutoshi Kanna",
+            "native": "神奈延年",
+            "userPreferred": "Nobutoshi Kanna"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95096-7XONtZWj5lIw.png"
+        }
+      ]
+    },
+    {
+      "id": 17255,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Natsuki",
+        "last": "Mogi",
+        "full": "Natsuki Mogi",
+        "native": "茂木 なつき",
+        "userPreferred": "Natsuki Mogi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b17255-FyQe48duTmEW.png",
+      "voiceActors": [
+        {
+          "id": 95013,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayako",
+            "last": "Kawasumi",
+            "full": "Ayako Kawasumi",
+            "native": "川澄綾子",
+            "userPreferred": "Ayako Kawasumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95013-cwl64qXuP2r7.png"
+        }
+      ]
+    },
+    {
+      "id": 7955,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Itsuki",
+        "last": "Takeuchi",
+        "full": "Itsuki Takeuchi",
+        "native": "武内樹",
+        "userPreferred": "Itsuki Takeuchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7955-fJpOaM6vC0Q2.png",
+      "voiceActors": [
+        {
+          "id": 95399,
+          "language": "Japanese",
+          "name": {
+            "first": "Mitsuo",
+            "last": "Iwata",
+            "full": "Mitsuo Iwata",
+            "native": "岩田光央",
+            "userPreferred": "Mitsuo Iwata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/95399-HGKWUmKmZ1el.jpg"
+        }
+      ]
+    },
+    {
+      "id": 35977,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Wataru",
+        "last": "Akiyama",
+        "full": "Wataru Akiyama",
+        "native": "秋山渉",
+        "userPreferred": "Wataru Akiyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/35977.jpg",
+      "voiceActors": [
+        {
+          "id": 95310,
+          "language": "Japanese",
+          "name": {
+            "first": "Yasunori",
+            "last": "Matsumoto",
+            "full": "Yasunori Matsumoto",
+            "native": "松本保典",
+            "userPreferred": "Yasunori Matsumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95310-n59AcIeJBg9W.png"
+        }
+      ]
+    },
+    {
+      "id": 2823,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kyouichi",
+        "last": "Sudou",
+        "full": "Kyouichi Sudou",
+        "native": "須藤京一",
+        "userPreferred": "Kyouichi Sudou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2823.jpg",
+      "voiceActors": [
+        {
+          "id": 96414,
+          "language": "Japanese",
+          "name": {
+            "first": "Masahiko",
+            "last": "Tanaka",
+            "full": "Masahiko Tanaka",
+            "native": "田中正彦",
+            "userPreferred": "Masahiko Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96414-0dvcgzJwFZO4.png"
+        }
+      ]
+    },
+    {
+      "id": 15003,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kouichirou",
+        "last": "Iketani",
+        "full": "Kouichirou Iketani",
+        "native": "池谷浩一郎",
+        "userPreferred": "Kouichirou Iketani"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15003.jpg",
+      "voiceActors": [
+        {
+          "id": 95131,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuki",
+            "last": "Yao",
+            "full": "Kazuki Yao",
+            "native": "矢尾一樹",
+            "userPreferred": "Kazuki Yao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95131-TCVTgxb08tfE.png"
+        }
+      ]
+    },
+    {
+      "id": 32008,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shingo",
+        "last": "Shouji",
+        "full": "Shingo Shouji",
+        "native": "庄司真吾",
+        "userPreferred": "Shingo Shouji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b32008-DwmzYlJXLIsT.png",
+      "voiceActors": [
+        {
+          "id": 95063,
+          "language": "Japanese",
+          "name": {
+            "first": "Keiji",
+            "last": "Fujiwara",
+            "full": "Keiji Fujiwara",
+            "native": "藤原啓治",
+            "userPreferred": "Keiji Fujiwara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95063-xAsEUzspuLMG.jpg"
+        }
+      ]
+    },
+    {
+      "id": 37066,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Seiji",
+        "last": "Iwaki",
+        "full": "Seiji Iwaki",
+        "native": null,
+        "userPreferred": "Seiji Iwaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/37066.jpg",
+      "voiceActors": [
+        {
+          "id": 106303,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuhisa",
+            "last": "Kawahara",
+            "full": "Kazuhisa Kawahara",
+            "native": "川原和久",
+            "userPreferred": "Kazuhisa Kawahara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106303-lPBlz9AibfMZ.png"
+        }
+      ]
+    },
+    {
+      "id": 37074,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kenji",
+        "last": null,
+        "full": "Kenji",
+        "native": "健二",
+        "userPreferred": "Kenji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/37074.jpg",
+      "voiceActors": [
+        {
+          "id": 95133,
+          "language": "Japanese",
+          "name": {
+            "first": "Wataru",
+            "last": "Takagi",
+            "full": "Wataru Takagi",
+            "native": "高木渉",
+            "userPreferred": "Wataru Takagi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95133-cqDtu078voZ1.png"
+        }
+      ]
+    },
+    {
+      "id": 37067,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kenta",
+        "last": "Nakamura",
+        "full": "Kenta Nakamura",
+        "native": "中村賢太",
+        "userPreferred": "Kenta Nakamura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/37067.jpg",
+      "voiceActors": [
+        {
+          "id": 95434,
+          "language": "Japanese",
+          "name": {
+            "first": "Kousuke",
+            "last": "Okano",
+            "full": "Kousuke Okano",
+            "native": "岡野浩介",
+            "userPreferred": "Kousuke Okano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95434-xQdjmxXTMJcU.png"
+        }
+      ]
+    },
+    {
+      "id": 2821,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ryousuke",
+        "last": "Takahashi",
+        "full": "Ryousuke Takahashi",
+        "native": "高橋涼介",
+        "userPreferred": "Ryousuke Takahashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2821-riOywKuCISDx.png",
+      "voiceActors": [
+        {
+          "id": 95160,
+          "language": "Japanese",
+          "name": {
+            "first": "Takehito",
+            "last": "Koyasu",
+            "full": "Takehito Koyasu",
+            "native": "子安武人",
+            "userPreferred": "Takehito Koyasu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95160-jWevcH7BmfE1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 37083,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "",
+        "last": "Miki",
+        "full": "Miki",
+        "native": null,
+        "userPreferred": "Miki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95346,
+          "language": "Japanese",
+          "name": {
+            "first": "Takumi",
+            "last": "Yamazaki",
+            "full": "Takumi Yamazaki",
+            "native": "山崎たくみ",
+            "userPreferred": "Takumi Yamazaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95346-YNXEZtXvJttr.png"
+        }
+      ]
+    },
+    {
+      "id": 11652,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mako",
+        "last": "Satou",
+        "full": "Mako Satou",
+        "native": "佐藤真子",
+        "userPreferred": "Mako Satou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b11652-PP03K2IoyWLc.jpg",
+      "voiceActors": [
+        {
+          "id": 95176,
+          "language": "Japanese",
+          "name": {
+            "first": "Michiko",
+            "last": "Neya",
+            "full": "Michiko Neya",
+            "native": "根谷美智子",
+            "userPreferred": "Michiko Neya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95176-3yZnUwXap7nX.png"
+        }
+      ]
+    },
+    {
+      "id": 3867,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Takeshi",
+        "last": "Nakazato",
+        "full": "Takeshi Nakazato",
+        "native": "中里毅",
+        "userPreferred": "Takeshi Nakazato"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b3867-Ay48n2wq6WER.png",
+      "voiceActors": [
+        {
+          "id": 95257,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobuyuki",
+            "last": "Hiyama",
+            "full": "Nobuyuki Hiyama",
+            "native": "檜山修之",
+            "userPreferred": "Nobuyuki Hiyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95257-PgYwsBplRSJa.png"
+        }
+      ]
+    },
+    {
+      "id": 36309,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Narrator",
+        "last": null,
+        "full": "Narrator",
+        "native": "ナレーター",
+        "userPreferred": "Narrator"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36309-yRLEQYd2dDI5.jpg",
+      "voiceActors": [
+        {
+          "id": 101631,
+          "language": "Japanese",
+          "name": {
+            "first": "Osamu",
+            "last": "Hosoi",
+            "full": "Osamu Hosoi",
+            "native": "細井治",
+            "userPreferred": "Osamu Hosoi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101631-jKXrzq8ykbFL.png"
+        }
+      ]
+    },
+    {
+      "id": 37069,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Hiroshi",
+        "last": "Fumihiro",
+        "full": "Hiroshi Fumihiro",
+        "native": "史浩弘",
+        "userPreferred": "Hiroshi Fumihiro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b37069-xK1R8B1d9wjf.png",
+      "voiceActors": [
+        {
+          "id": 101631,
+          "language": "Japanese",
+          "name": {
+            "first": "Osamu",
+            "last": "Hosoi",
+            "full": "Osamu Hosoi",
+            "native": "細井治",
+            "userPreferred": "Osamu Hosoi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101631-jKXrzq8ykbFL.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 3931,
+      "relationType": "SEQUEL",
+      "malId": 3931,
+      "title": {
+        "romaji": "Initial D BATTLE STAGE 2",
+        "english": null,
+        "native": "頭文字〈イニシャル〉D BATTLE STAGE 2",
+        "userPreferred": "Initial D BATTLE STAGE 2"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3931.jpg",
+      "color": "#6b501a",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3931.jpg",
+      "rating": 73
+    },
+    {
+      "id": 30375,
+      "relationType": "ADAPTATION",
+      "malId": 375,
+      "title": {
+        "romaji": "Initial D",
+        "english": "Initial D",
+        "native": "頭文字D",
+        "userPreferred": "Initial D"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx30375-YFIIOwp5kSqW.jpg",
+      "color": "#e4860d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/n30375-CgsR4Bc75EPi.jpg",
+      "rating": 81
+    },
+    {
+      "id": 185,
+      "relationType": "PARENT",
+      "malId": 185,
+      "title": {
+        "romaji": "Initial D",
+        "english": "Initial D 1st Stage",
+        "native": "頭文字D",
+        "userPreferred": "Initial D"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b185-kcYw18EEmh59.jpg",
+      "color": "#e45043",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/185-Z724xydTic8N.jpg",
+      "rating": 81
+    },
+    {
+      "id": 186,
+      "relationType": "PARENT",
+      "malId": 186,
+      "title": {
+        "romaji": "Initial D SECOND STAGE",
+        "english": "Initial D 2nd Stage",
+        "native": "頭文字〈イニシャル〉D SECOND STAGE",
+        "userPreferred": "Initial D SECOND STAGE"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b186-xlQSLsOJbrx4.jpg",
+      "color": "#f1c943",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n186-R2K9rwXRPhi9.jpg",
+      "rating": 80
+    },
+    {
+      "id": 187,
+      "relationType": "PARENT",
+      "malId": 187,
+      "title": {
+        "romaji": "Initial D THIRD STAGE",
+        "english": "Initial D 3rd Stage",
+        "native": "頭文字〈イニシャル〉D THIRD STAGE",
+        "userPreferred": "Initial D THIRD STAGE"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx187-QyCAlBGY3EWw.jpg",
+      "color": "#e4ae1a",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/187-EPd7ahDZZHyg.jpg",
+      "rating": 78
+    }
+  ],
+  "episodes": [
+    {
+      "id": "initial-d-battle-stage-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/821.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//initial-d-battle-stage-episode-1"
+    }
+  ]
+}

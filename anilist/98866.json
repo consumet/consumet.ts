@@ -1,0 +1,565 @@
+{
+  "id": "98866",
+  "title": {
+    "romaji": "Yama no Susume: Third Season",
+    "english": "Encouragement of Climb Season 3",
+    "native": "ヤマノススメ サードシーズン"
+  },
+  "malId": 35672,
+  "synonyms": [
+    "Yama no Susume 3"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "N0IR7vF49iE",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/N0IR7vF49iE/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98866-S9BGReBVRkt1.jpg",
+  "popularity": 8720,
+  "color": "#a1c9e4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n98866-gJKlU8KK7tD6.jpg",
+  "description": "The third season of <i>Yama no Susume</i>.<br>\n<br>\nAoi and Hinata are childhood friends. Aoi prefers staying indoors and is afraid of heights, whereas Hinata is outgoing and loves mountaineering. They both decide to climb a mountain in order to see a sunrise they saw together when they were younger.<br>\n<br>\nIn the coming third season, they enjoy hiking beautiful mountains with colored leaves and the story gets even more colorful when they become friends with local school girls!!<br>\n<br>\n(Source: Yomiuri TV Enterprise)",
+  "status": "Completed",
+  "releaseDate": 2018,
+  "startDate": {
+    "year": 2018,
+    "month": 7,
+    "day": 3
+  },
+  "endDate": {
+    "year": 2018,
+    "month": 9,
+    "day": 24
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 76,
+  "duration": 14,
+  "genres": [
+    "Adventure",
+    "Comedy",
+    "Slice of Life"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "8-bit"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 98444,
+      "malId": 34798,
+      "title": {
+        "romaji": "Yuru Camp△",
+        "english": "Laid-Back Camp",
+        "native": "ゆるキャン△",
+        "userPreferred": "Yuru Camp△"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98444-zzhSw9o3LJSy.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98444-FpH9lzLiafe9.jpg",
+      "rating": 81,
+      "type": "TV"
+    },
+    {
+      "id": 99426,
+      "malId": 35839,
+      "title": {
+        "romaji": "Sora yori mo Tooi Basho",
+        "english": "A Place Further Than the Universe",
+        "native": "宇宙よりも遠い場所",
+        "userPreferred": "Sora yori mo Tooi Basho"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99426-5jWTUs719lQN.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99426-KsFVCSwVC3x3.jpg",
+      "rating": 84,
+      "type": "TV"
+    },
+    {
+      "id": 10232,
+      "malId": 10232,
+      "title": {
+        "romaji": "Tamayura: hitotose",
+        "english": "Tamayura: Hitotose",
+        "native": "たまゆら～hitotose～",
+        "userPreferred": "Tamayura: hitotose"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10232-inIllgXxoMqC.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10232-CEe4TrbTWT9G.jpg",
+      "rating": 72,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 69503,
+      "role": "MAIN",
+      "name": {
+        "first": "Hinata",
+        "last": "Kuraue",
+        "full": "Hinata Kuraue",
+        "native": "倉上ひなた",
+        "userPreferred": "Hinata Kuraue"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b69503-StrvAv5f0wZf.png",
+      "voiceActors": [
+        {
+          "id": 95817,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Asumi",
+            "full": "Kana Asumi",
+            "native": "阿澄佳奈",
+            "userPreferred": "Kana Asumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95817-UHqRZ5xuSJgW.png"
+        }
+      ]
+    },
+    {
+      "id": 69499,
+      "role": "MAIN",
+      "name": {
+        "first": "Aoi",
+        "last": "Yukimura",
+        "full": "Aoi Yukimura",
+        "native": "雪村あおい",
+        "userPreferred": "Aoi Yukimura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b69499-9VY5YTnspIxw.png",
+      "voiceActors": [
+        {
+          "id": 95885,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuka",
+            "last": "Iguchi",
+            "full": "Yuka Iguchi",
+            "native": "井口裕香",
+            "userPreferred": "Yuka Iguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95885-8Le2NWyACKNt.png"
+        }
+      ]
+    },
+    {
+      "id": 69505,
+      "role": "MAIN",
+      "name": {
+        "first": "Kokona",
+        "last": "Aoba",
+        "full": "Kokona Aoba",
+        "native": "青羽ここな",
+        "userPreferred": "Kokona Aoba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b69505-YX09k9a6WapA.png",
+      "voiceActors": [
+        {
+          "id": 105981,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Ogura",
+            "full": "Yui Ogura",
+            "native": "小倉唯",
+            "userPreferred": "Yui Ogura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105981-CDMPx1Q79Aum.png"
+        }
+      ]
+    },
+    {
+      "id": 69501,
+      "role": "MAIN",
+      "name": {
+        "first": "Kaede",
+        "last": "Saitou",
+        "full": "Kaede Saitou",
+        "native": "斉藤楓",
+        "userPreferred": "Kaede Saitou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b69501-yYgqyrBO065e.png",
+      "voiceActors": [
+        {
+          "id": 102263,
+          "language": "Japanese",
+          "name": {
+            "first": "Youko",
+            "last": "Hikasa",
+            "full": "Youko Hikasa",
+            "native": "日笠陽子",
+            "userPreferred": "Youko Hikasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102263-aaPZtNXVUljW.jpg"
+        }
+      ]
+    },
+    {
+      "id": 131470,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hikari",
+        "last": "Onozuka",
+        "full": "Hikari Onozuka",
+        "native": "小野塚ひかり",
+        "userPreferred": "Hikari Onozuka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n131470-j8ljWjQB087b.jpg",
+      "voiceActors": [
+        {
+          "id": 101625,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Gibu",
+            "full": "Yuuko Gibu",
+            "native": "儀武ゆう子",
+            "userPreferred": "Yuuko Gibu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/101625-xy2dEvGoLudC.jpg"
+        }
+      ]
+    },
+    {
+      "id": 131472,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuuka",
+        "last": "Sasahara",
+        "full": "Yuuka Sasahara",
+        "native": "笹原ゆうか",
+        "userPreferred": "Yuuka Sasahara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n131472-hU5YoPYt8sDQ.jpg",
+      "voiceActors": [
+        {
+          "id": 95089,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Makino",
+            "full": "Yui Makino",
+            "native": "牧野由依",
+            "userPreferred": "Yui Makino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95089-DCoCxSfkD1HC.png"
+        }
+      ]
+    },
+    {
+      "id": 131474,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Honoka",
+        "last": "Kurosaki",
+        "full": "Honoka Kurosaki",
+        "native": "黒崎ほのか",
+        "userPreferred": "Honoka Kurosaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b131474-fXktiukSi6UO.png",
+      "voiceActors": [
+        {
+          "id": 106184,
+          "language": "Japanese",
+          "name": {
+            "first": "Nao",
+            "last": "Touyama",
+            "full": "Nao Touyama",
+            "native": "東山奈央",
+            "userPreferred": "Nao Touyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106184-rFA0sHFJrbk4.png"
+        }
+      ]
+    },
+    {
+      "id": 76976,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kenichi",
+        "last": "Kuraue",
+        "full": "Kenichi Kuraue",
+        "native": "倉上健一",
+        "userPreferred": "Kenichi Kuraue"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/76976.jpg",
+      "voiceActors": [
+        {
+          "id": 106629,
+          "language": "Japanese",
+          "name": {
+            "first": "Seirou",
+            "last": "Ogino",
+            "full": "Seirou Ogino",
+            "native": "荻野晴朗",
+            "userPreferred": "Seirou Ogino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106629-TT3F7WfC3wLq.png"
+        }
+      ]
+    },
+    {
+      "id": 132285,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Yuri",
+        "last": null,
+        "full": "Yuri",
+        "native": "ゆり",
+        "userPreferred": "Yuri"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b132285-l3tqFyMZqtqI.jpg",
+      "voiceActors": [
+        {
+          "id": 132283,
+          "language": "Japanese",
+          "name": {
+            "first": "Kanon",
+            "last": "Takao",
+            "full": "Kanon Takao",
+            "native": "高尾奏音",
+            "userPreferred": "Kanon Takao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n132283-QTBB7K8jTjXM.png"
+        }
+      ]
+    },
+    {
+      "id": 132286,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Kasumi",
+        "last": null,
+        "full": "Kasumi",
+        "native": "かすみ",
+        "userPreferred": "Kasumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b132286-qnGQuZxLjFrm.jpg",
+      "voiceActors": [
+        {
+          "id": 137765,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Yamamoto",
+            "full": "Ai Yamamoto",
+            "native": "山本亜衣",
+            "userPreferred": "Ai Yamamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n137765-2uxEb6aYbPzC.png"
+        }
+      ]
+    },
+    {
+      "id": 132287,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Mio",
+        "last": null,
+        "full": "Mio",
+        "native": "みお",
+        "userPreferred": "Mio"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b132287-uih2iPszr6fc.jpg",
+      "voiceActors": [
+        {
+          "id": 119626,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayaka",
+            "last": "Nanase",
+            "full": "Ayaka Nanase",
+            "native": "七瀬彩夏",
+            "userPreferred": "Ayaka Nanase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119626-dYC5gag3c25s.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 71049,
+      "relationType": "ADAPTATION",
+      "malId": 41049,
+      "title": {
+        "romaji": "Yama no Susume",
+        "english": null,
+        "native": "ヤマノススメ",
+        "userPreferred": "Yama no Susume"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx71049-FrpQWq0U8QZP.png",
+      "color": null,
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/71049-8Rt0DtwicNKA.jpg",
+      "rating": 71
+    },
+    {
+      "id": 98868,
+      "relationType": "PREQUEL",
+      "malId": 35673,
+      "title": {
+        "romaji": "Yama no Susume: Omoide Present",
+        "english": "Encouragement of Climb Season 3 OVA",
+        "native": "ヤマノススメ おもいでプレゼント",
+        "userPreferred": "Yama no Susume: Omoide Present"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98868-65Vw0ZWuQ3J4.png",
+      "color": "#e4a15d",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98868-wtlc1rqm24Vx.jpg",
+      "rating": 74
+    },
+    {
+      "id": 131182,
+      "relationType": "SEQUEL",
+      "malId": 48491,
+      "title": {
+        "romaji": "Yama no Susume: Next Summit",
+        "english": "Encouragement of Climb: Next Summit",
+        "native": "ヤマノススメ Next Summit",
+        "userPreferred": "Yama no Susume: Next Summit"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx131182-NYATKomnS2RQ.jpg",
+      "color": "#1a78d6",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/131182-TzjQXweBVFvk.jpg",
+      "rating": 77
+    }
+  ],
+  "episodes": [
+    {
+      "id": "yama-no-susume-third-season-episode-1",
+      "title": "First Date at Mt. Tsukuba!?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98866-S9BGReBVRkt1.jpg",
+      "number": 1,
+      "createdAt": "2017-12-19T14:25:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yama-no-susume-third-season-episode-1"
+    },
+    {
+      "id": "yama-no-susume-third-season-episode-2",
+      "title": "Are Hiking Shoes Really Awesome?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98866-S9BGReBVRkt1.jpg",
+      "number": 2,
+      "createdAt": "2018-03-01T05:17:06Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yama-no-susume-third-season-episode-2"
+    },
+    {
+      "id": "yama-no-susume-third-season-episode-3",
+      "title": "Alps in Hanno?!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98866-S9BGReBVRkt1.jpg",
+      "number": 3,
+      "createdAt": "2018-06-10T07:54:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yama-no-susume-third-season-episode-3"
+    },
+    {
+      "id": "yama-no-susume-third-season-episode-4",
+      "title": "Having Fun with Classmates!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98866-S9BGReBVRkt1.jpg",
+      "number": 4,
+      "createdAt": "2018-06-10T07:54:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yama-no-susume-third-season-episode-4"
+    },
+    {
+      "id": "yama-no-susume-third-season-episode-5",
+      "title": "Let's Photograph Our Memories!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98866-S9BGReBVRkt1.jpg",
+      "number": 5,
+      "createdAt": "2018-06-10T07:54:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yama-no-susume-third-season-episode-5"
+    },
+    {
+      "id": "yama-no-susume-third-season-episode-6",
+      "title": "What Does Coffee Taste Like?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98866-S9BGReBVRkt1.jpg",
+      "number": 6,
+      "createdAt": "2018-06-10T07:54:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yama-no-susume-third-season-episode-6"
+    },
+    {
+      "id": "yama-no-susume-third-season-episode-7",
+      "title": "She Who Does Not Work, Neither Shall She Climb?!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98866-S9BGReBVRkt1.jpg",
+      "number": 7,
+      "createdAt": "2018-06-10T07:54:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yama-no-susume-third-season-episode-7"
+    },
+    {
+      "id": "yama-no-susume-third-season-episode-8",
+      "title": "Two Promises",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98866-S9BGReBVRkt1.jpg",
+      "number": 8,
+      "createdAt": "2018-06-10T07:54:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yama-no-susume-third-season-episode-8"
+    },
+    {
+      "id": "yama-no-susume-third-season-episode-9",
+      "title": "Everyone's Own Views",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98866-S9BGReBVRkt1.jpg",
+      "number": 9,
+      "createdAt": "2018-06-10T07:54:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yama-no-susume-third-season-episode-9"
+    },
+    {
+      "id": "yama-no-susume-third-season-episode-10",
+      "title": "Season of Misunderstandings",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98866-S9BGReBVRkt1.jpg",
+      "number": 10,
+      "createdAt": "2018-06-10T07:54:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yama-no-susume-third-season-episode-10"
+    },
+    {
+      "id": "yama-no-susume-third-season-episode-11",
+      "title": "A Clumsy Traversal",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98866-S9BGReBVRkt1.jpg",
+      "number": 11,
+      "createdAt": "2018-06-10T07:54:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yama-no-susume-third-season-episode-11"
+    },
+    {
+      "id": "yama-no-susume-third-season-episode-12",
+      "title": "Friends",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98866-S9BGReBVRkt1.jpg",
+      "number": 12,
+      "createdAt": "2018-06-10T07:54:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yama-no-susume-third-season-episode-12"
+    },
+    {
+      "id": "yama-no-susume-third-season-episode-13",
+      "title": "It's a Secret",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98866-S9BGReBVRkt1.jpg",
+      "number": 13,
+      "createdAt": "2018-06-10T07:54:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yama-no-susume-third-season-episode-13"
+    }
+  ]
+}

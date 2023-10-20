@@ -1,0 +1,492 @@
+{
+  "id": "2335",
+  "title": {
+    "romaji": "Kenyuu Densetsu YAIBA",
+    "english": "Legendary Brave Swordsman Yaiba",
+    "native": "剣勇伝説YAIBA"
+  },
+  "malId": 2335,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2335-zdHIPIdf5Zr3.png",
+  "popularity": 1515,
+  "color": "#f1a150",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2335-FJST0P0ktlYk.jpg",
+  "description": "Kurogane Yaiba is a boy who doesn't want to become what any regular kid would: He wants to be a samurai. That's why he undergoes a hard training with his father, knowing only the forest as his world. Then, one day, he is sent to Japan, where he has to deal with a whole new civilized reality, meeting the Mine family, the evil Onimaru and even the legendary Musashi, having lots of dangerous adventures, becoming stronger everyday.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 1993,
+  "startDate": {
+    "year": 1993,
+    "month": 4,
+    "day": 9
+  },
+  "endDate": {
+    "year": 1994,
+    "month": 4,
+    "day": 1
+  },
+  "totalEpisodes": 52,
+  "currentEpisode": 52,
+  "rating": 63,
+  "duration": 22,
+  "genres": [
+    "Action",
+    "Comedy",
+    "Fantasy"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Pastel"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 3036,
+      "malId": 3036,
+      "title": {
+        "romaji": "Tobe! Isami",
+        "english": "Soar High! Isami",
+        "native": "飛べ！イサミ",
+        "userPreferred": "Tobe! Isami"
+      },
+      "status": "Completed",
+      "episodes": 50,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3036-0MywYGWOr5RX.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3036-0MywYGWOr5RX.jpg",
+      "rating": 64,
+      "type": "TV"
+    },
+    {
+      "id": 223,
+      "malId": 223,
+      "title": {
+        "romaji": "Dragon Ball",
+        "english": "Dragon Ball",
+        "native": "ドラゴンボール",
+        "userPreferred": "Dragon Ball"
+      },
+      "status": "Completed",
+      "episodes": 153,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx223-Ld6vrSnd081L.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/223-vyRuUBBYfcUb.jpg",
+      "rating": 77,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 24710,
+      "role": "MAIN",
+      "name": {
+        "first": "Sayaka",
+        "last": "Mine",
+        "full": "Sayaka Mine",
+        "native": "峰さやか",
+        "userPreferred": "Sayaka Mine"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24710.jpg",
+      "voiceActors": [
+        {
+          "id": 95009,
+          "language": "Japanese",
+          "name": {
+            "first": "Kotono",
+            "last": "Mitsuishi",
+            "full": "Kotono Mitsuishi",
+            "native": "三石琴乃",
+            "userPreferred": "Kotono Mitsuishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95009-d01Dg8mMwcg6.png"
+        },
+        {
+          "id": 109771,
+          "language": "Korean",
+          "name": {
+            "first": "Sun-Hee",
+            "last": "Moon",
+            "full": "Sun-Hee Moon",
+            "native": "문선희",
+            "userPreferred": "Sun-Hee Moon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14771.jpg"
+        },
+        {
+          "id": 107681,
+          "language": "Spanish",
+          "name": {
+            "first": "María Fernanda",
+            "last": "Morales",
+            "full": "María Fernanda Morales",
+            "native": "María Fernanda del Carmen Morales Ponce de León",
+            "userPreferred": "María Fernanda Morales"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107681-iVC3CSUHtc6j.png"
+        }
+      ]
+    },
+    {
+      "id": 49169,
+      "role": "MAIN",
+      "name": {
+        "first": "Musashi",
+        "last": "Miyamoto",
+        "full": "Musashi Miyamoto",
+        "native": "宮本 武蔵",
+        "userPreferred": "Musashi Miyamoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/49169.jpg",
+      "voiceActors": [
+        {
+          "id": 100386,
+          "language": "Japanese",
+          "name": {
+            "first": "Masaharu",
+            "last": "Satou",
+            "full": "Masaharu Satou",
+            "native": "佐藤正治",
+            "userPreferred": "Masaharu Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5386.jpg"
+        }
+      ]
+    },
+    {
+      "id": 24709,
+      "role": "MAIN",
+      "name": {
+        "first": "Yaiba",
+        "last": "Kurogane",
+        "full": "Yaiba Kurogane",
+        "native": "鉄刃",
+        "userPreferred": "Yaiba Kurogane"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24709.jpg",
+      "voiceActors": [
+        {
+          "id": 95024,
+          "language": "Japanese",
+          "name": {
+            "first": "Minami",
+            "last": "Takayama",
+            "full": "Minami Takayama",
+            "native": "高山みなみ",
+            "userPreferred": "Minami Takayama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95024-qsZgGp8VHqMP.png"
+        },
+        {
+          "id": 100029,
+          "language": "Spanish",
+          "name": {
+            "first": "Patricia",
+            "last": "Acevedo",
+            "full": "Patricia Acevedo",
+            "native": "María del Socorro Patricia Acevedo Limón",
+            "userPreferred": "Patricia Acevedo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5029.jpg"
+        }
+      ]
+    },
+    {
+      "id": 24712,
+      "role": "MAIN",
+      "name": {
+        "first": "Takeshi",
+        "last": "Onimaru",
+        "full": "Takeshi Onimaru",
+        "native": "鬼丸猛",
+        "userPreferred": "Takeshi Onimaru"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24712.jpg",
+      "voiceActors": [
+        {
+          "id": 95518,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryou",
+            "last": "Horikawa",
+            "full": "Ryou Horikawa",
+            "native": "堀川りょう",
+            "userPreferred": "Ryou Horikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95518-6VFuLBDEPjTa.png"
+        },
+        {
+          "id": 110099,
+          "language": "Korean",
+          "name": {
+            "first": "Si Ho",
+            "last": "Hong",
+            "full": "Si Ho Hong",
+            "native": "시호 홍",
+            "userPreferred": "Si Ho Hong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15099.jpg"
+        },
+        {
+          "id": 101499,
+          "language": "Korean",
+          "name": {
+            "first": "Yeong-seon",
+            "last": "Kim",
+            "full": "Yeong-seon Kim",
+            "native": "김영선",
+            "userPreferred": "Yeong-seon Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101499-aHFkv5mYhE5m.png"
+        }
+      ]
+    },
+    {
+      "id": 49175,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sayaka's Grandmother",
+        "last": null,
+        "full": "Sayaka's Grandmother",
+        "native": null,
+        "userPreferred": "Sayaka's Grandmother"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/49175.jpg",
+      "voiceActors": [
+        {
+          "id": 101504,
+          "language": "Japanese",
+          "name": {
+            "first": "Reiko",
+            "last": "Suzuki",
+            "full": "Reiko Suzuki",
+            "native": "鈴木れい子",
+            "userPreferred": "Reiko Suzuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101504-v5pnjcD80zDL.png"
+        }
+      ]
+    },
+    {
+      "id": 49171,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Raizo",
+        "last": "Mine",
+        "full": "Raizo Mine",
+        "native": "峰 雷蔵",
+        "userPreferred": "Raizo Mine"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/49171.jpg",
+      "voiceActors": [
+        {
+          "id": 95357,
+          "language": "Japanese",
+          "name": {
+            "first": "Unshou",
+            "last": "Ishizuka",
+            "full": "Unshou Ishizuka",
+            "native": "石塚運昇",
+            "userPreferred": "Unshou Ishizuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95357-umndcceko65h.png"
+        }
+      ]
+    },
+    {
+      "id": 49173,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shizuka",
+        "last": "Mine",
+        "full": "Shizuka Mine",
+        "native": null,
+        "userPreferred": "Shizuka Mine"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/49173.jpg",
+      "voiceActors": [
+        {
+          "id": 104032,
+          "language": "Japanese",
+          "name": {
+            "first": "Kyouko",
+            "last": "Terase",
+            "full": "Kyouko Terase",
+            "native": "寺瀬今日子",
+            "userPreferred": "Kyouko Terase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104032-T2WQPMRn19IB.png"
+        }
+      ]
+    },
+    {
+      "id": 43973,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kumo Otoko",
+        "last": null,
+        "full": "Kumo Otoko",
+        "native": null,
+        "userPreferred": "Kumo Otoko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43973.jpg",
+      "voiceActors": [
+        {
+          "id": 107706,
+          "language": "Japanese",
+          "name": {
+            "first": "Tetsuo",
+            "last": "Sakaguchi",
+            "full": "Tetsuo Sakaguchi",
+            "native": "坂口哲夫",
+            "userPreferred": "Tetsuo Sakaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107706-quxzn4fLFqsr.jpg"
+        }
+      ]
+    },
+    {
+      "id": 26673,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shounosuke",
+        "last": null,
+        "full": "Shounosuke",
+        "native": "庄之助",
+        "userPreferred": "Shounosuke"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26673.jpg",
+      "voiceActors": [
+        {
+          "id": 95518,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryou",
+            "last": "Horikawa",
+            "full": "Ryou Horikawa",
+            "native": "堀川りょう",
+            "userPreferred": "Ryou Horikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95518-6VFuLBDEPjTa.png"
+        }
+      ]
+    },
+    {
+      "id": 24711,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kenjuro",
+        "last": "Kurogane",
+        "full": "Kenjuro Kurogane",
+        "native": "鉄剣十郎",
+        "userPreferred": "Kenjuro Kurogane"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24711.jpg",
+      "voiceActors": [
+        {
+          "id": 95651,
+          "language": "Japanese",
+          "name": {
+            "first": "Bin",
+            "last": "Shimada",
+            "full": "Bin Shimada",
+            "native": "島田敏",
+            "userPreferred": "Bin Shimada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95651-6kRo7F4yb6Yt.png"
+        }
+      ]
+    },
+    {
+      "id": 26672,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gerozaimon",
+        "last": "Geroda",
+        "full": "Gerozaimon Geroda",
+        "native": "ゲロ田ゲロ左衛門,",
+        "userPreferred": "Gerozaimon Geroda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26672.jpg",
+      "voiceActors": [
+        {
+          "id": 95738,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazunari",
+            "last": "Tanaka",
+            "full": "Kazunari Tanaka",
+            "native": "田中一成",
+            "userPreferred": "Kazunari Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95738-TbYK2DzO5d1Y.png"
+        }
+      ]
+    },
+    {
+      "id": 32368,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kagetora",
+        "last": null,
+        "full": "Kagetora",
+        "native": "カゲトラ",
+        "userPreferred": "Kagetora"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32368.jpg",
+      "voiceActors": [
+        {
+          "id": 96481,
+          "language": "Japanese",
+          "name": {
+            "first": "Hisao",
+            "last": "Egawa",
+            "full": "Hisao Egawa",
+            "native": "江川央生",
+            "userPreferred": "Hisao Egawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96481-7houCLOMkp3g.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 31631,
+      "relationType": "ADAPTATION",
+      "malId": 1631,
+      "title": {
+        "romaji": "YAIBA",
+        "english": null,
+        "native": "YAIBA",
+        "userPreferred": "YAIBA"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b31631-nygEtfnhGNYD.jpg",
+      "color": "#f1d61a",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/31631-T81lLT6eRUVT.jpg",
+      "rating": 73
+    },
+    {
+      "id": 1369,
+      "relationType": "SIDE_STORY",
+      "malId": 1369,
+      "title": {
+        "romaji": "Meitantei Conan: Conan VS KID VS YAIBA",
+        "english": "Case Closed: Conan vs. Kid vs. Yaiba",
+        "native": "名探偵コナン: Conan VS KID VS YAIBA",
+        "userPreferred": "Meitantei Conan: Conan VS KID VS YAIBA"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1369.jpg",
+      "color": "#d6bb78",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1369.jpg",
+      "rating": 69
+    }
+  ],
+  "episodes": []
+}

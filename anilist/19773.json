@@ -1,0 +1,146 @@
+{
+  "id": "19773",
+  "title": {
+    "romaji": "Akuma Tou no Prince: Mitsume ga Tooru",
+    "english": null,
+    "native": "悪魔島のプリンス 三つ目がとおる"
+  },
+  "malId": 19773,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/19773.jpg",
+  "popularity": 242,
+  "color": "#e43535",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/19773.jpg",
+  "description": "The popular Manga \"The Three-Eyed Boy Comes Here\" was produced as the eighth in an animated series for a special 24-hour broadcast. This time, the movie was produced by Toei Animation Co., Ltd. instead of by Tezuka Productions Co., Ltd. Here, Tezuka Osamu was in charge of only the original story and a synopsis for animation. <br><br>\nBased on the original Manga, \"Easter Island: Sea voyage,\" Sharaku and Wato investigate a mysterious old ship, only to find themselves getting involved in a sea voyage around strange islands. More emphasis was placed on entertainment factors than on theme, and this change in the concept line resulted in the withdrawal of Tezuka Productions Co., Ltd. from this series.<br><br>\n(Source: tezukaosamu.net)",
+  "status": "Completed",
+  "releaseDate": 1985,
+  "startDate": {
+    "year": 1985,
+    "month": 8,
+    "day": 25
+  },
+  "endDate": {
+    "year": 1985,
+    "month": 8,
+    "day": 25
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 47,
+  "duration": 79,
+  "genres": [
+    "Adventure",
+    "Comedy",
+    "Supernatural"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Toei Animation"
+  ],
+  "subOrDub": "sub",
+  "type": "SPECIAL",
+  "recommendations": [
+    {
+      "id": 150114,
+      "malId": null,
+      "title": {
+        "romaji": "MOMONGA-MON",
+        "english": null,
+        "native": "ももんがぁモン",
+        "userPreferred": "MOMONGA-MON"
+      },
+      "status": "Completed",
+      "episodes": 15,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b150114-YfMxQ2bqdODA.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b150114-YfMxQ2bqdODA.jpg",
+      "rating": 35,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 971,
+      "malId": 971,
+      "title": {
+        "romaji": "Astro Boy Tetsuwan Atom",
+        "english": "Astro Boy (2003)",
+        "native": "アストロボーイ・鉄腕アトム",
+        "userPreferred": "Astro Boy Tetsuwan Atom"
+      },
+      "status": "Completed",
+      "episodes": 50,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx971-zUOKQLxg0pL2.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/971-WjQ8lXLMGiRs.jpg",
+      "rating": 69,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 16092,
+      "role": "MAIN",
+      "name": {
+        "first": "Housuke",
+        "last": "Sharaku",
+        "full": "Housuke Sharaku",
+        "native": "写楽保介",
+        "userPreferred": "Housuke Sharaku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b16092-BQICOKsE9IRi.png",
+      "voiceActors": []
+    },
+    {
+      "id": 18327,
+      "role": "MAIN",
+      "name": {
+        "first": "Wato",
+        "last": "Chiyoko",
+        "full": "Wato Chiyoko",
+        "native": "千代子和登",
+        "userPreferred": "Wato Chiyoko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18327.jpg",
+      "voiceActors": []
+    }
+  ],
+  "relations": [
+    {
+      "id": 5249,
+      "relationType": "ALTERNATIVE",
+      "malId": 5249,
+      "title": {
+        "romaji": "Mitsume ga Tooru",
+        "english": null,
+        "native": "三つ目がとおる",
+        "userPreferred": "Mitsume ga Tooru"
+      },
+      "status": "Completed",
+      "episodes": 48,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5249-azgs2i5vKwLa.jpg",
+      "color": "#785d28",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5249-azgs2i5vKwLa.jpg",
+      "rating": 56
+    },
+    {
+      "id": 40798,
+      "relationType": "ADAPTATION",
+      "malId": 10798,
+      "title": {
+        "romaji": "Mitsume ga Tooru",
+        "english": null,
+        "native": "三つ目がとおる",
+        "userPreferred": "Mitsume ga Tooru"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b40798-PqPOdiQ6PBYU.jpg",
+      "color": "#f1ae43",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b40798-PqPOdiQ6PBYU.jpg",
+      "rating": 64
+    }
+  ],
+  "episodes": []
+}

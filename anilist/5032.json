@@ -1,0 +1,426 @@
+{
+  "id": "5032",
+  "title": {
+    "romaji": "COBRA THE ANIMATION",
+    "english": null,
+    "native": "COBRA THE ANIMATION"
+  },
+  "malId": 5032,
+  "synonyms": [
+    "Cobra The Animation: Rokunin no Yuushi"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/5032.jpg",
+  "popularity": 1748,
+  "color": "#0d7893",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/5032.jpg",
+  "description": "This Cobra adaptation features short arcs of Cobra saving the world, his friends or himself.",
+  "status": "Completed",
+  "releaseDate": 2010,
+  "startDate": {
+    "year": 2010,
+    "month": 1,
+    "day": 2
+  },
+  "endDate": {
+    "year": 2010,
+    "month": 3,
+    "day": 27
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 63,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Sci-Fi"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "Magic Bus"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 9916,
+      "role": "MAIN",
+      "name": {
+        "first": "Cobra",
+        "last": null,
+        "full": "Cobra",
+        "native": "コブラ",
+        "userPreferred": "Cobra"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9916.jpg",
+      "voiceActors": [
+        {
+          "id": 95338,
+          "language": "Japanese",
+          "name": {
+            "first": "Naoya",
+            "last": "Uchida",
+            "full": "Naoya Uchida",
+            "native": "内田直哉",
+            "userPreferred": "Naoya Uchida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95338-i2Jdgc5rQNMa.png"
+        },
+        {
+          "id": 144166,
+          "language": "French",
+          "name": {
+            "first": "Jean-Claude",
+            "last": "Montalban",
+            "full": "Jean-Claude Montalban",
+            "native": null,
+            "userPreferred": "Jean-Claude Montalban"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n144166-ImDXgittovoK.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29833,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Secret",
+        "last": null,
+        "full": "Secret",
+        "native": "シークレット",
+        "userPreferred": "Secret"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29833.jpg",
+      "voiceActors": [
+        {
+          "id": 95090,
+          "language": "Japanese",
+          "name": {
+            "first": "Maaya",
+            "last": "Sakamoto",
+            "full": "Maaya Sakamoto",
+            "native": "坂本真綾",
+            "userPreferred": "Maaya Sakamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95090-oARRP42NEhu0.jpg"
+        }
+      ]
+    },
+    {
+      "id": 30320,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ellis",
+        "last": "Lloyd",
+        "full": "Ellis Lloyd",
+        "native": "エリス",
+        "userPreferred": "Ellis Lloyd"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/30320.jpg",
+      "voiceActors": [
+        {
+          "id": 95158,
+          "language": "Japanese",
+          "name": {
+            "first": "Marina",
+            "last": "Inoue",
+            "full": "Marina Inoue",
+            "native": "井上麻里奈",
+            "userPreferred": "Marina Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95158-OLhgs8zv5xsp.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29834,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Blackborn",
+        "last": null,
+        "full": "Blackborn",
+        "native": "ブラックボーン",
+        "userPreferred": "Blackborn"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29834.jpg",
+      "voiceActors": [
+        {
+          "id": 95316,
+          "language": "Japanese",
+          "name": {
+            "first": "Mayumi",
+            "last": "Yamaguchi",
+            "full": "Mayumi Yamaguchi",
+            "native": "山口眞弓",
+            "userPreferred": "Mayumi Yamaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95316-sp5oQEI6tURH.png"
+        }
+      ]
+    },
+    {
+      "id": 29836,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bonny",
+        "last": null,
+        "full": "Bonny",
+        "native": "ボニー",
+        "userPreferred": "Bonny"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29836.jpg",
+      "voiceActors": [
+        {
+          "id": 95348,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouko",
+            "last": "Shiraishi",
+            "full": "Ryouko Shiraishi",
+            "native": "白石涼子",
+            "userPreferred": "Ryouko Shiraishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95348-sLIy7IMrgZeA.png"
+        }
+      ]
+    },
+    {
+      "id": 17855,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lady",
+        "last": "Armaroid",
+        "full": "Lady Armaroid",
+        "native": "アーマロイド・レディ",
+        "userPreferred": "Lady Armaroid"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17855.jpg",
+      "voiceActors": [
+        {
+          "id": 95362,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshiko",
+            "last": "Sakakibara",
+            "full": "Yoshiko Sakakibara",
+            "native": "榊原良子",
+            "userPreferred": "Yoshiko Sakakibara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95362-OdfKlvHimh3b.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29835,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Zoros",
+        "last": null,
+        "full": "Zoros",
+        "native": "ゾロス",
+        "userPreferred": "Zoros"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29835.jpg",
+      "voiceActors": [
+        {
+          "id": 104749,
+          "language": "Japanese",
+          "name": {
+            "first": "Mitsuaki",
+            "last": "Kanuka",
+            "full": "Mitsuaki Kanuka",
+            "native": "かぬか光明",
+            "userPreferred": "Mitsuaki Kanuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104749-myXbX5rrrJaq.png"
+        }
+      ]
+    },
+    {
+      "id": 35989,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "King",
+        "last": null,
+        "full": "King",
+        "native": "キング",
+        "userPreferred": "King"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/35989.jpg",
+      "voiceActors": [
+        {
+          "id": 105987,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinshuu",
+            "last": "Fuji",
+            "full": "Shinshuu Fuji",
+            "native": "藤真秀",
+            "userPreferred": "Shinshuu Fuji"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105987-1hmhXNCGLVat.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 5031,
+      "relationType": "PREQUEL",
+      "malId": 5031,
+      "title": {
+        "romaji": "COBRA THE ANIMATION: Time Drive",
+        "english": "Cobra Time Drive",
+        "native": "COBRA THE ANIMATION タイム・ドライブ",
+        "userPreferred": "COBRA THE ANIMATION: Time Drive"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/5031.jpg",
+      "color": "#a17835",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/5031.jpg",
+      "rating": 66
+    },
+    {
+      "id": 31062,
+      "relationType": "ADAPTATION",
+      "malId": 1062,
+      "title": {
+        "romaji": "Cobra",
+        "english": "Cobra",
+        "native": "コブラ",
+        "userPreferred": "Cobra"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx31062-5uQ2mmbAPA7K.jpg",
+      "color": "#e45043",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/31062-4CVx3adCVcoh.jpg",
+      "rating": 70
+    }
+  ],
+  "episodes": [
+    {
+      "id": "cobra-the-animation-episode-1",
+      "title": "The Key of Shiva",
+      "image": "https://media.kitsu.io/episodes/thumbnails/162936/original.jpg",
+      "number": 1,
+      "createdAt": "2014-11-16T20:35:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//cobra-the-animation-episode-1"
+    },
+    {
+      "id": "cobra-the-animation-episode-2",
+      "title": "The Golden Gate",
+      "image": "https://media.kitsu.io/episodes/thumbnails/162945/original.jpg",
+      "number": 2,
+      "createdAt": "2014-11-16T20:35:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//cobra-the-animation-episode-2"
+    },
+    {
+      "id": "cobra-the-animation-episode-3",
+      "title": "A Starless Street",
+      "image": "https://media.kitsu.io/episodes/thumbnails/162958/original.jpg",
+      "number": 3,
+      "createdAt": "2014-11-16T20:35:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//cobra-the-animation-episode-3"
+    },
+    {
+      "id": "cobra-the-animation-episode-4",
+      "title": "The Ghost of El Dorado",
+      "image": "https://media.kitsu.io/episodes/thumbnails/162969/original.jpg",
+      "number": 4,
+      "createdAt": "2014-11-16T20:35:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//cobra-the-animation-episode-4"
+    },
+    {
+      "id": "cobra-the-animation-episode-5",
+      "title": "The Legend of the Loitering Beauty",
+      "image": "https://media.kitsu.io/episodes/thumbnails/162980/original.jpg",
+      "number": 5,
+      "createdAt": "2014-11-16T20:35:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//cobra-the-animation-episode-5"
+    },
+    {
+      "id": "cobra-the-animation-episode-6",
+      "title": "Mountain Climbing In Heat Haze",
+      "image": "https://media.kitsu.io/episodes/thumbnails/162991/original.jpg",
+      "number": 6,
+      "createdAt": "2014-11-16T20:36:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//cobra-the-animation-episode-6"
+    },
+    {
+      "id": "cobra-the-animation-episode-7",
+      "title": "To the Summit",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163009/original.jpg",
+      "number": 7,
+      "createdAt": "2014-11-16T20:36:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//cobra-the-animation-episode-7"
+    },
+    {
+      "id": "cobra-the-animation-episode-8",
+      "title": "Mandrad",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163023/original.jpg",
+      "number": 8,
+      "createdAt": "2014-11-16T20:36:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//cobra-the-animation-episode-8"
+    },
+    {
+      "id": "cobra-the-animation-episode-9",
+      "title": "The Black Bullet",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163037/original.jpg",
+      "number": 9,
+      "createdAt": "2014-11-16T20:36:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//cobra-the-animation-episode-9"
+    },
+    {
+      "id": "cobra-the-animation-episode-10",
+      "title": "Galaxy Nights",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163049/original.jpg",
+      "number": 10,
+      "createdAt": "2014-11-16T20:36:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//cobra-the-animation-episode-10"
+    },
+    {
+      "id": "cobra-the-animation-episode-11",
+      "title": "The 13th Man",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163072/original.jpg",
+      "number": 11,
+      "createdAt": "2014-11-16T20:36:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//cobra-the-animation-episode-11"
+    },
+    {
+      "id": "cobra-the-animation-episode-12",
+      "title": "Demonic Entity of the Temple",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163083/original.jpg",
+      "number": 12,
+      "createdAt": "2014-11-16T20:36:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//cobra-the-animation-episode-12"
+    },
+    {
+      "id": "cobra-the-animation-episode-13",
+      "title": "Distant Memories",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163113/original.jpg",
+      "number": 13,
+      "createdAt": "2014-11-16T20:36:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//cobra-the-animation-episode-13"
+    }
+  ]
+}

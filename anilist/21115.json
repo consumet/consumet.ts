@@ -1,0 +1,667 @@
+{
+  "id": "21115",
+  "title": {
+    "romaji": "Aquarion Logos",
+    "english": "Aquarion Logos",
+    "native": "アクエリオンロゴス"
+  },
+  "malId": 30382,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "szjAot0GEQM",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/szjAot0GEQM/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21115-jkOCEIYlWRCQ.jpg",
+  "popularity": 4554,
+  "color": "#e45d50",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21115-y7ll8s8Vo3Bn.jpg",
+  "description": "Once upon a time, human voices had defined the true nature of all things, yet the invention of text changed the status quo, while creating a \"Logos World\" between the voice and the truth. Millennia have passed since then, advancements of civilizations have made the \"Logos World\" too big to control \"texts.\" A group of young people dedicate themselves to counter chaotic \"texts\" with \"Creative Voice Power,\" and among them, a boy named Akira Kaibuki living in Asagaya.<br><br>(Source: Daisuki)",
+  "status": "Completed",
+  "releaseDate": 2015,
+  "startDate": {
+    "year": 2015,
+    "month": 7,
+    "day": 3
+  },
+  "endDate": {
+    "year": 2015,
+    "month": 12,
+    "day": 25
+  },
+  "totalEpisodes": 26,
+  "currentEpisode": 26,
+  "rating": 51,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Fantasy",
+    "Mecha",
+    "Sci-Fi"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Satelight",
+    "C2C"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 263451,
+      "role": "MAIN",
+      "name": {
+        "first": "Maia",
+        "last": "Tsukigane",
+        "full": "Maia Tsukigane",
+        "native": "月銀舞亜",
+        "userPreferred": "Maia Tsukigane"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b263451-uQhQG58zytcI.png",
+      "voiceActors": [
+        {
+          "id": 106622,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayane",
+            "last": "Sakura",
+            "full": "Ayane Sakura",
+            "native": "佐倉綾音",
+            "userPreferred": "Ayane Sakura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106622-yemj6ymLz4lY.png"
+        }
+      ]
+    },
+    {
+      "id": 263455,
+      "role": "MAIN",
+      "name": {
+        "first": "Akira",
+        "last": "Kaibuki",
+        "full": "Akira Kaibuki",
+        "native": "灰吹陽",
+        "userPreferred": "Akira Kaibuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b263455-hgiuEPvgFgI6.png",
+      "voiceActors": [
+        {
+          "id": 105989,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobunaga",
+            "last": "Shimazaki",
+            "full": "Nobunaga Shimazaki",
+            "native": "島崎信長",
+            "userPreferred": "Nobunaga Shimazaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105989-96etzH1dLNug.jpg"
+        }
+      ]
+    },
+    {
+      "id": 263461,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shintarou",
+        "last": "Hayashi",
+        "full": "Shintarou Hayashi",
+        "native": "林晋太郎",
+        "userPreferred": "Shintarou Hayashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b263461-oIKfAD5MLNPJ.png",
+      "voiceActors": [
+        {
+          "id": 95829,
+          "language": "Japanese",
+          "name": {
+            "first": "Takayuki",
+            "last": "Kondou",
+            "full": "Takayuki Kondou",
+            "native": "近藤孝行",
+            "userPreferred": "Takayuki Kondou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/829.jpg"
+        }
+      ]
+    },
+    {
+      "id": 263452,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kokone",
+        "last": "Kikogami",
+        "full": "Kokone Kikogami",
+        "native": "綺声神心音",
+        "userPreferred": "Kokone Kikogami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b263452-XMXGMfwospsN.png",
+      "voiceActors": [
+        {
+          "id": 115795,
+          "language": "Japanese",
+          "name": {
+            "first": "Haruka",
+            "last": "Chisuga",
+            "full": "Haruka Chisuga",
+            "native": "千菅春香",
+            "userPreferred": "Haruka Chisuga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n115795-PWCVeGruHain.jpg"
+        }
+      ]
+    },
+    {
+      "id": 263462,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shouko",
+        "last": "Iwagami",
+        "full": "Shouko Iwagami",
+        "native": "岩上ショウコ",
+        "userPreferred": "Shouko Iwagami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b263462-kQj7Bkbmvg4z.png",
+      "voiceActors": [
+        {
+          "id": 115480,
+          "language": "Japanese",
+          "name": {
+            "first": "Saima",
+            "last": "Nakano",
+            "full": "Saima Nakano",
+            "native": "中野さいま",
+            "userPreferred": "Saima Nakano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n115480-n2LmLGvo1RKQ.png"
+        }
+      ]
+    },
+    {
+      "id": 263463,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kento",
+        "last": "Yoshida",
+        "full": "Kento Yoshida",
+        "native": "吉打ケント",
+        "userPreferred": "Kento Yoshida"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b263463-pIByCv7oJxfF.png",
+      "voiceActors": [
+        {
+          "id": 263464,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshifumi",
+            "last": "Nakabayashi",
+            "full": "Toshifumi Nakabayashi",
+            "native": "中林俊史",
+            "userPreferred": "Toshifumi Nakabayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n263464-yjLDM44WuHJ4.png"
+        }
+      ]
+    },
+    {
+      "id": 263456,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hayato",
+        "last": "Kuujou",
+        "full": "Hayato Kuujou",
+        "native": "空篠翼人",
+        "userPreferred": "Hayato Kuujou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b263456-mZvybFmGP0P1.png",
+      "voiceActors": [
+        {
+          "id": 118908,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuichirou",
+            "last": "Umehara",
+            "full": "Yuuichirou Umehara",
+            "native": "梅原裕一郎",
+            "userPreferred": "Yuuichirou Umehara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/118908-f16PugVCnZfT.jpg"
+        }
+      ]
+    },
+    {
+      "id": 263467,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nesta",
+        "last": null,
+        "full": "Nesta",
+        "native": "ネスタ",
+        "userPreferred": "Nesta"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b263467-ezbOQe6uuyok.jpg",
+      "voiceActors": [
+        {
+          "id": 107282,
+          "language": "Japanese",
+          "name": {
+            "first": "Risa",
+            "last": "Shimizu",
+            "full": "Risa Shimizu",
+            "native": "清水理沙",
+            "userPreferred": "Risa Shimizu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107282-fyEJs2MuyVqP.png"
+        }
+      ]
+    },
+    {
+      "id": 263457,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Subete",
+        "last": "Kenzaki",
+        "full": "Subete Kenzaki",
+        "native": "剣嵜総",
+        "userPreferred": "Subete Kenzaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b263457-zMaSlqP2Rn39.jpg",
+      "voiceActors": [
+        {
+          "id": 119673,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuto",
+            "last": "Adachi",
+            "full": "Yuuto Adachi",
+            "native": "安達勇人",
+            "userPreferred": "Yuuto Adachi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119673-U03n9UqONHWq.png"
+        }
+      ]
+    },
+    {
+      "id": 263465,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tsutomu",
+        "last": "Domon",
+        "full": "Tsutomu Domon",
+        "native": "土聞努虫",
+        "userPreferred": "Tsutomu Domon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b263465-F1BXUEqnbVXk.png",
+      "voiceActors": [
+        {
+          "id": 263466,
+          "language": "Japanese",
+          "name": {
+            "first": "Takayuki",
+            "last": "Asai",
+            "full": "Takayuki Asai",
+            "native": "淺井孝行",
+            "userPreferred": "Takayuki Asai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n263466-64WZTLJ5lvRg.png"
+        }
+      ]
+    },
+    {
+      "id": 263458,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Karan",
+        "last": "Uminagi",
+        "full": "Karan Uminagi",
+        "native": "海凪花嵐",
+        "userPreferred": "Karan Uminagi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b263458-7c4wSIAJIisq.png",
+      "voiceActors": [
+        {
+          "id": 118663,
+          "language": "Japanese",
+          "name": {
+            "first": "Ari",
+            "last": "Ozawa",
+            "full": "Ari Ozawa",
+            "native": "小澤亜李",
+            "userPreferred": "Ari Ozawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118663-fFzQqJDtYNdA.png"
+        }
+      ]
+    },
+    {
+      "id": 263459,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sakurako",
+        "last": "Soda",
+        "full": "Sakurako Soda",
+        "native": "粗朶桜子",
+        "userPreferred": "Sakurako Soda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b263459-0ulwlalWlHof.png",
+      "voiceActors": [
+        {
+          "id": 95348,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouko",
+            "last": "Shiraishi",
+            "full": "Ryouko Shiraishi",
+            "native": "白石涼子",
+            "userPreferred": "Ryouko Shiraishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95348-sLIy7IMrgZeA.png"
+        }
+      ]
+    },
+    {
+      "id": 263460,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sougon",
+        "last": "Kenzaki",
+        "full": "Sougon Kenzaki",
+        "native": "剣嵜荘厳",
+        "userPreferred": "Sougon Kenzaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b263460-8mvhy5uzWhLg.png",
+      "voiceActors": [
+        {
+          "id": 95091,
+          "language": "Japanese",
+          "name": {
+            "first": "Jouji",
+            "last": "Nakata",
+            "full": "Jouji Nakata",
+            "native": "中田譲治",
+            "userPreferred": "Jouji Nakata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95091-idoMaN26z80B.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 10447,
+      "relationType": "PREQUEL",
+      "malId": 10447,
+      "title": {
+        "romaji": "Aquarion EVOL",
+        "english": "Aquarion EVOL",
+        "native": "アクエリオンEVOL",
+        "userPreferred": "Aquarion EVOL"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10447-NDvwjLUF9znA.png",
+      "color": "#f15035",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10447-NDvwjLUF9znA.png",
+      "rating": 67
+    },
+    {
+      "id": 162921,
+      "relationType": "SEQUEL",
+      "malId": 54769,
+      "title": {
+        "romaji": "Sousei no Aquarion: Myth of Emotions",
+        "english": "AQUARION: Myth of Emotions",
+        "native": "想星のアクエリオン Myth of Emotions",
+        "userPreferred": "Sousei no Aquarion: Myth of Emotions"
+      },
+      "status": "Not yet aired",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx162921-ghKCeMjC9prF.jpg",
+      "color": "#feae28",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx162921-ghKCeMjC9prF.jpg",
+      "rating": null
+    }
+  ],
+  "episodes": [
+    {
+      "id": "aquarion-logos-episode-1",
+      "title": "Shout! Sousei Gattai!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21115-jkOCEIYlWRCQ.jpg",
+      "number": 1,
+      "createdAt": "2015-06-24T22:38:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-logos-episode-1"
+    },
+    {
+      "id": "aquarion-logos-episode-2",
+      "title": "Shine! Light of Thought",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21115-jkOCEIYlWRCQ.jpg",
+      "number": 2,
+      "createdAt": "2015-06-24T22:38:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-logos-episode-2"
+    },
+    {
+      "id": "aquarion-logos-episode-3",
+      "title": "Resound! A Dream for Me Alone",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21115-jkOCEIYlWRCQ.jpg",
+      "number": 3,
+      "createdAt": "2015-06-24T22:38:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-logos-episode-3"
+    },
+    {
+      "id": "aquarion-logos-episode-4",
+      "title": "Let Fly! An Arrow that Pierces the Heart",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21115-jkOCEIYlWRCQ.jpg",
+      "number": 4,
+      "createdAt": "2015-06-24T22:38:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-logos-episode-4"
+    },
+    {
+      "id": "aquarion-logos-episode-5",
+      "title": "Take it Back! Our Summer",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21115-jkOCEIYlWRCQ.jpg",
+      "number": 5,
+      "createdAt": "2015-06-24T22:38:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-logos-episode-5"
+    },
+    {
+      "id": "aquarion-logos-episode-6",
+      "title": "Light Up! Your Strength",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21115-jkOCEIYlWRCQ.jpg",
+      "number": 6,
+      "createdAt": "2015-06-24T22:38:18Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-logos-episode-6"
+    },
+    {
+      "id": "aquarion-logos-episode-7",
+      "title": "Burn It! The Savior's Flames!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21115-jkOCEIYlWRCQ.jpg",
+      "number": 7,
+      "createdAt": "2015-06-24T22:38:18Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-logos-episode-7"
+    },
+    {
+      "id": "aquarion-logos-episode-8",
+      "title": "Pierce It! The Insect Part",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21115-jkOCEIYlWRCQ.jpg",
+      "number": 8,
+      "createdAt": "2015-06-24T22:38:18Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-logos-episode-8"
+    },
+    {
+      "id": "aquarion-logos-episode-9",
+      "title": "Clear Them! The Inviting Shadows",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21115-jkOCEIYlWRCQ.jpg",
+      "number": 9,
+      "createdAt": "2015-06-24T22:38:20Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-logos-episode-9"
+    },
+    {
+      "id": "aquarion-logos-episode-10",
+      "title": "Reach Them! My True Voice",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21115-jkOCEIYlWRCQ.jpg",
+      "number": 10,
+      "createdAt": "2015-06-24T22:38:20Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-logos-episode-10"
+    },
+    {
+      "id": "aquarion-logos-episode-11",
+      "title": "Flap! Bound Wings",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21115-jkOCEIYlWRCQ.jpg",
+      "number": 11,
+      "createdAt": "2015-06-24T22:38:20Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-logos-episode-11"
+    },
+    {
+      "id": "aquarion-logos-episode-12",
+      "title": "Bring Them Together! Heart and Heart",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21115-jkOCEIYlWRCQ.jpg",
+      "number": 12,
+      "createdAt": "2015-06-24T22:38:20Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-logos-episode-12"
+    },
+    {
+      "id": "aquarion-logos-episode-13",
+      "title": "A Great Victory! We Are the Saviors",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21115-jkOCEIYlWRCQ.jpg",
+      "number": 13,
+      "createdAt": "2015-06-24T22:38:20Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-logos-episode-13"
+    },
+    {
+      "id": "aquarion-logos-episode-14",
+      "title": "Show It! You at Your Worst",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21115-jkOCEIYlWRCQ.jpg",
+      "number": 14,
+      "createdAt": "2015-06-24T22:38:21Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-logos-episode-14"
+    },
+    {
+      "id": "aquarion-logos-episode-15",
+      "title": "Ah! Days of Our Youth",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21115-jkOCEIYlWRCQ.jpg",
+      "number": 15,
+      "createdAt": "2015-06-24T22:38:21Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-logos-episode-15"
+    },
+    {
+      "id": "aquarion-logos-episode-16",
+      "title": "Carve Them In! The Scars of Destiny",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21115-jkOCEIYlWRCQ.jpg",
+      "number": 16,
+      "createdAt": "2015-06-24T22:38:21Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-logos-episode-16"
+    },
+    {
+      "id": "aquarion-logos-episode-17",
+      "title": "Shatter! The One I Must Strike Down",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21115-jkOCEIYlWRCQ.jpg",
+      "number": 17,
+      "createdAt": "2015-06-24T22:38:21Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-logos-episode-17"
+    },
+    {
+      "id": "aquarion-logos-episode-18",
+      "title": "Howl! An Honest Beaten Dog",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21115-jkOCEIYlWRCQ.jpg",
+      "number": 18,
+      "createdAt": "2015-06-24T22:38:21Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-logos-episode-18"
+    },
+    {
+      "id": "aquarion-logos-episode-19",
+      "title": "Fall in Love! Asagaya",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21115-jkOCEIYlWRCQ.jpg",
+      "number": 19,
+      "createdAt": "2015-06-24T22:38:21Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-logos-episode-19"
+    },
+    {
+      "id": "aquarion-logos-episode-20",
+      "title": "Know It! The Reason You Were Born",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21115-jkOCEIYlWRCQ.jpg",
+      "number": 20,
+      "createdAt": "2015-06-24T22:38:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-logos-episode-20"
+    },
+    {
+      "id": "aquarion-logos-episode-21",
+      "title": "Tragic! An Immoral Gattai",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21115-jkOCEIYlWRCQ.jpg",
+      "number": 21,
+      "createdAt": "2015-06-24T22:38:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-logos-episode-21"
+    },
+    {
+      "id": "aquarion-logos-episode-22",
+      "title": "Listen! The Voice Calling out to You",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21115-jkOCEIYlWRCQ.jpg",
+      "number": 22,
+      "createdAt": "2015-06-24T22:38:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-logos-episode-22"
+    },
+    {
+      "id": "aquarion-logos-episode-23",
+      "title": "Revive! The Vow Beneath the Moonlight",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21115-jkOCEIYlWRCQ.jpg",
+      "number": 23,
+      "createdAt": "2015-06-24T22:38:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-logos-episode-23"
+    },
+    {
+      "id": "aquarion-logos-episode-24",
+      "title": "To Battle! With My Existence on the Line",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21115-jkOCEIYlWRCQ.jpg",
+      "number": 24,
+      "createdAt": "2015-06-24T22:38:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-logos-episode-24"
+    },
+    {
+      "id": "aquarion-logos-episode-25",
+      "title": "Gather! Voices for Tomorrow",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21115-jkOCEIYlWRCQ.jpg",
+      "number": 25,
+      "createdAt": "2015-06-24T22:38:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-logos-episode-25"
+    },
+    {
+      "id": "aquarion-logos-episode-26",
+      "title": "It Will Not End! Aquarion Logos",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21115-jkOCEIYlWRCQ.jpg",
+      "number": 26,
+      "createdAt": "2015-06-24T22:38:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-logos-episode-26"
+    }
+  ]
+}

@@ -1,0 +1,438 @@
+{
+  "id": "5292",
+  "title": {
+    "romaji": "Getter Robo Go",
+    "english": "Getter Robo Go",
+    "native": "ゲッターロボ號"
+  },
+  "malId": 5292,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5292-DLiutsWESCEr.jpg",
+  "popularity": 778,
+  "color": "#e41a35",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5292-DLiutsWESCEr.jpg",
+  "description": "A new Getter robot is piloted by three youth as they combat the evil terrors that plague the world.",
+  "status": "Completed",
+  "releaseDate": 1991,
+  "startDate": {
+    "year": 1991,
+    "month": 2,
+    "day": 11
+  },
+  "endDate": {
+    "year": 1992,
+    "month": 1,
+    "day": 27
+  },
+  "totalEpisodes": 50,
+  "currentEpisode": 50,
+  "rating": 52,
+  "duration": 20,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Mecha"
+  ],
+  "season": "WINTER",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 519,
+      "malId": 519,
+      "title": {
+        "romaji": "Mahoraba: Heartful days",
+        "english": "Mahoraba ~HeartfuL days~",
+        "native": "まほらば ~Heartful days~",
+        "userPreferred": "Mahoraba: Heartful days"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx519-GS6gb1XtiIDg.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/519-QnSlolwR60Rx.jpg",
+      "rating": 69,
+      "type": "TV"
+    },
+    {
+      "id": 978,
+      "malId": 978,
+      "title": {
+        "romaji": "Change!! Getter Robo: Sekai Saigo no Hi",
+        "english": "Getter Robo: Armageddon",
+        "native": "真(チェンジ!!)ゲッターロボ~世界最後の日",
+        "userPreferred": "Change!! Getter Robo: Sekai Saigo no Hi"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx978-43VWQ0zq6fV5.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/978-Eh5jBmAncg3i.jpg",
+      "rating": 76,
+      "type": "OVA"
+    },
+    {
+      "id": 125640,
+      "malId": 43741,
+      "title": {
+        "romaji": "Getter Robo Arc",
+        "english": null,
+        "native": "ゲッターロボ アーク",
+        "userPreferred": "Getter Robo Arc"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125640-RghOmQmgKzWi.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/125640-BH5wkpp6TduJ.jpg",
+      "rating": 58,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 15784,
+      "role": "MAIN",
+      "name": {
+        "first": "Go",
+        "last": "Ichimonji",
+        "full": "Go Ichimonji",
+        "native": "一文字號",
+        "userPreferred": "Go Ichimonji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15784.jpg",
+      "voiceActors": [
+        {
+          "id": 95134,
+          "language": "Japanese",
+          "name": {
+            "first": "Takeshi",
+            "last": "Kusao",
+            "full": "Takeshi Kusao",
+            "native": "草尾毅",
+            "userPreferred": "Takeshi Kusao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95134-OZzRIDS8eAUd.png"
+        }
+      ]
+    },
+    {
+      "id": 174767,
+      "role": "MAIN",
+      "name": {
+        "first": "Sho",
+        "last": "Tachibana",
+        "full": "Sho Tachibana",
+        "native": "橘翔",
+        "userPreferred": "Sho Tachibana"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b174767-5FS2YGJogIdc.jpg",
+      "voiceActors": [
+        {
+          "id": 95983,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Kobayashi",
+            "full": "Yuuko Kobayashi",
+            "native": "小林優子",
+            "userPreferred": "Yuuko Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/983.jpg"
+        }
+      ]
+    },
+    {
+      "id": 26571,
+      "role": "MAIN",
+      "name": {
+        "first": "Gai",
+        "last": "Daidou",
+        "full": "Gai Daidou",
+        "native": "大道剴",
+        "userPreferred": "Gai Daidou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26571.jpg",
+      "voiceActors": [
+        {
+          "id": 95416,
+          "language": "Japanese",
+          "name": {
+            "first": "Akira",
+            "last": "Kamiya",
+            "full": "Akira Kamiya",
+            "native": "神谷明",
+            "userPreferred": "Akira Kamiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95416-8rk0Oq3ZXYjt.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 938,
+      "relationType": "ALTERNATIVE",
+      "malId": 938,
+      "title": {
+        "romaji": "Shin Getter Robo vs. Neo Getter Robo",
+        "english": "Shin Getter Robo vs. Neo Getter Robo",
+        "native": "真ゲッターロボ対ネオゲッターロボ",
+        "userPreferred": "Shin Getter Robo vs. Neo Getter Robo"
+      },
+      "status": "Completed",
+      "episodes": 4,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx938-VZBqo0JtsljD.jpg",
+      "color": "#d61a28",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/938-QILcCsbP6gID.jpg",
+      "rating": 70
+    },
+    {
+      "id": 3579,
+      "relationType": "ALTERNATIVE",
+      "malId": 3579,
+      "title": {
+        "romaji": "Getter Robo",
+        "english": "Getter Robo",
+        "native": "ゲッターロボ",
+        "userPreferred": "Getter Robo"
+      },
+      "status": "Completed",
+      "episodes": 51,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3579-U2gqGxuuoGkM.jpg",
+      "color": "#e49343",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n3579-9kypGOgFsKxk.jpg",
+      "rating": 62
+    },
+    {
+      "id": 4486,
+      "relationType": "ALTERNATIVE",
+      "malId": 4486,
+      "title": {
+        "romaji": "Getter Robo G",
+        "english": "Getter Robo G",
+        "native": "ゲッターロボG",
+        "userPreferred": "Getter Robo G"
+      },
+      "status": "Completed",
+      "episodes": 39,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4486-KWPJIXTe8p19.jpg",
+      "color": "#f1355d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4486-KWPJIXTe8p19.jpg",
+      "rating": 60
+    }
+  ],
+  "episodes": [
+    {
+      "id": "getter-robo-go-episode-1",
+      "title": "Dispatch! Battle without Weapons!",
+      "image": "https://media.kitsu.io/episode/67873/thumbnail/bc91871cb84afe54f8f779f7a6d18943.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//getter-robo-go-episode-1"
+    },
+    {
+      "id": "getter-robo-go-episode-2",
+      "title": "Battle Helicopter",
+      "image": "https://media.kitsu.io/episode/67874/thumbnail/2746503e8d75fdd4cb814447eb500d92.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//getter-robo-go-episode-2"
+    },
+    {
+      "id": "getter-robo-go-episode-3",
+      "title": "Arm up! Getter Robo",
+      "image": "https://media.kitsu.io/episode/67875/thumbnail/9bd9ef0564b416d7253ededd6e627b92.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//getter-robo-go-episode-3"
+    },
+    {
+      "id": "getter-robo-go-episode-4",
+      "title": "Double Bomber Explosion!",
+      "image": "https://media.kitsu.io/episode/67876/thumbnail/ea6ce6f31bbb2c955a7c689982eeb068.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//getter-robo-go-episode-4"
+    },
+    {
+      "id": "getter-robo-go-episode-5",
+      "title": "Gai, Death Diving",
+      "image": "https://media.kitsu.io/episode/67877/thumbnail/087adbb1bb8656646965674ce95b8ce5.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//getter-robo-go-episode-5"
+    },
+    {
+      "id": "getter-robo-go-episode-6",
+      "title": "Dr. Tachibana's recovery strategy!",
+      "image": "https://media.kitsu.io/episode/67878/thumbnail/cc5c881184c8463d33c197ac14699954.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//getter-robo-go-episode-6"
+    },
+    {
+      "id": "getter-robo-go-episode-7",
+      "title": "Scream !! Burning Brotherly Bonds",
+      "image": "https://media.kitsu.io/episode/67879/thumbnail/763d2b69fb47f1b7439bcdf7a224e4ee.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//getter-robo-go-episode-7"
+    },
+    {
+      "id": "getter-robo-go-episode-8",
+      "title": "Amazing! The enemy is in the sky",
+      "image": "https://media.kitsu.io/episode/67880/thumbnail/1025d1736b62800145d74a0ee5addabf.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//getter-robo-go-episode-8"
+    },
+    {
+      "id": "getter-robo-go-episode-9",
+      "title": "NISAR Headquarters close call!",
+      "image": "https://media.kitsu.io/episode/67881/thumbnail/2b055275c386da7122dbab939695d68d.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//getter-robo-go-episode-9"
+    },
+    {
+      "id": "getter-robo-go-episode-10",
+      "title": "Clash !! Terrifying Undersea Battle",
+      "image": "https://media.kitsu.io/episode/67882/thumbnail/e867bdbb9921df41d5fe279140cea125.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//getter-robo-go-episode-10"
+    },
+    {
+      "id": "getter-robo-go-episode-11",
+      "title": "Combine! Steel Warrior",
+      "image": "https://media.kitsu.io/episode/67883/thumbnail/336da4dd63921ae818f61f7ebf7370db.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//getter-robo-go-episode-11"
+    },
+    {
+      "id": "getter-robo-go-episode-12",
+      "title": "Sho's Revenge Ballad",
+      "image": "https://media.kitsu.io/episode/67884/thumbnail/8cb0b48502102e8a883672d93eb82495.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//getter-robo-go-episode-12"
+    },
+    {
+      "id": "getter-robo-go-episode-13",
+      "title": "Counterattack! Getter Gai",
+      "image": "https://media.kitsu.io/episode/67885/thumbnail/9775c010618ac61ee8c34ea187dcb7b5.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//getter-robo-go-episode-13"
+    },
+    {
+      "id": "getter-robo-go-episode-14",
+      "title": "The Fear of Cloned Humans",
+      "image": "https://media.kitsu.io/episode/67886/thumbnail/ff43bb8245d11da9a023116648418d80.jpg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//getter-robo-go-episode-14"
+    },
+    {
+      "id": "getter-robo-go-episode-15",
+      "title": "Rescue the Children",
+      "image": "https://media.kitsu.io/episode/67887/thumbnail/3430d68a93aec6229c8c0fbf92db441b.jpg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//getter-robo-go-episode-15"
+    },
+    {
+      "id": "getter-robo-go-episode-16",
+      "title": "Can you do it? First Underwater Combination",
+      "image": "https://media.kitsu.io/episode/67888/thumbnail/9db400d947847ad9114f9782185bf0fd.jpg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//getter-robo-go-episode-16"
+    },
+    {
+      "id": "getter-robo-go-episode-17",
+      "title": "Stand Tetsu! Beat Yourself",
+      "image": "https://media.kitsu.io/episode/67889/thumbnail/c5f401003953e3306ceae183ed513a5b.jpg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//getter-robo-go-episode-17"
+    },
+    {
+      "id": "getter-robo-go-episode-18",
+      "title": "Lawless Challenger",
+      "image": "https://media.kitsu.io/episode/67890/thumbnail/521877ee05497b5467d115544aa7896a.jpg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//getter-robo-go-episode-18"
+    },
+    {
+      "id": "getter-robo-go-episode-19",
+      "title": "Ghost of the Metal Beast",
+      "image": "https://media.kitsu.io/episode/67891/thumbnail/c94297592c7973eda4d83c085ab044bc.jpg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//getter-robo-go-episode-19"
+    },
+    {
+      "id": "getter-robo-go-episode-20",
+      "title": "Brilliant Speed Showdown",
+      "image": "https://media.kitsu.io/episode/67892/thumbnail/de9a79a2c638b57a81ccd24962fb12c7.jpg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//getter-robo-go-episode-20"
+    },
+    {
+      "id": "getter-robo-go-episode-21",
+      "title": "NISAR Base Destruction Operation",
+      "image": "https://media.kitsu.io/episode/67893/thumbnail/bfbe6652a4d0da5bb68e5e137857c878.jpg",
+      "number": 21,
+      "createdAt": "2013-02-20T18:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//getter-robo-go-episode-21"
+    },
+    {
+      "id": "getter-robo-go-episode-22",
+      "title": "Tragedy! Underwater Dictator",
+      "image": "https://media.kitsu.io/episode/67894/thumbnail/260a1295ab2f3c11f0505d1b3b059fd0.jpg",
+      "number": 22,
+      "createdAt": "2013-02-20T18:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//getter-robo-go-episode-22"
+    },
+    {
+      "id": "getter-robo-go-episode-23",
+      "title": "Fight Together! My Friend",
+      "image": "https://media.kitsu.io/episode/67895/thumbnail/eb18829d3e12282f16a4a21ae18680d1.jpg",
+      "number": 23,
+      "createdAt": "2013-02-20T18:26:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//getter-robo-go-episode-23"
+    }
+  ]
+}

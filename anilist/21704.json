@@ -1,0 +1,869 @@
+{
+  "id": "21704",
+  "title": {
+    "romaji": "Bananya",
+    "english": "Bananya",
+    "native": "ばなにゃ"
+  },
+  "malId": 32664,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "n7iHFBHXUms",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/n7iHFBHXUms/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21704-He11JaJgPPiQ.jpg",
+  "popularity": 16745,
+  "color": "#f1e45d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21704-5qafbI4umdo7.jpg",
+  "description": "An adaptation of Bananya, the banana cat mascot of the stationary company Q-Lia.",
+  "status": "Completed",
+  "releaseDate": 2016,
+  "startDate": {
+    "year": 2016,
+    "month": 7,
+    "day": 4
+  },
+  "endDate": {
+    "year": 2016,
+    "month": 9,
+    "day": 26
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 63,
+  "duration": 3,
+  "genres": [
+    "Comedy",
+    "Fantasy",
+    "Slice of Life"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Gathering"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 100849,
+      "malId": 36982,
+      "title": {
+        "romaji": "Micchiri Neko",
+        "english": "Mitchiri Neko",
+        "native": "みっちりねこ",
+        "userPreferred": "Micchiri Neko"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100849-sM7dn7VkKW8G.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100849-2pJq6dVD1oRW.jpg",
+      "rating": 63,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 21600,
+      "malId": 32572,
+      "title": {
+        "romaji": "Neko Neko Nihonshi",
+        "english": "Meow Meow Japanese History",
+        "native": "ねこねこ日本史",
+        "userPreferred": "Neko Neko Nihonshi"
+      },
+      "status": "Completed",
+      "episodes": 32,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21600-I9uNvjRBlrLB.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21600-I9uNvjRBlrLB.jpg",
+      "rating": 60,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 18755,
+      "malId": 18755,
+      "title": {
+        "romaji": "Donyatsu",
+        "english": "Donyatsu",
+        "native": "どーにゃつ",
+        "userPreferred": "Donyatsu"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/18755.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/18755.jpg",
+      "rating": 53,
+      "type": "SPECIAL"
+    },
+    {
+      "id": 98425,
+      "malId": 35015,
+      "title": {
+        "romaji": "Ani ni Tsukeru Kusuri wa Nai!",
+        "english": "Take My Brother Away!",
+        "native": "兄に付ける薬はない！",
+        "userPreferred": "Ani ni Tsukeru Kusuri wa Nai!"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98425-VT8p8fG8AMPF.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98425-CjnlR95nW19F.jpg",
+      "rating": 72,
+      "type": "ONA"
+    },
+    {
+      "id": 100873,
+      "malId": 36784,
+      "title": {
+        "romaji": "Hataraku Onii-san!",
+        "english": "Working Buddies!",
+        "native": "働くお兄さん!",
+        "userPreferred": "Hataraku Onii-san!"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx100873-UrcidqbT35jd.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100873-1AkNLMmWG9Wd.jpg",
+      "rating": 59,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 10197,
+      "malId": 10197,
+      "title": {
+        "romaji": "Nyanpire The Animation",
+        "english": "Nyanpire - The Vampire Cat",
+        "native": "にゃんぱいあ The Animation",
+        "userPreferred": "Nyanpire The Animation"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10197.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10197-eztzQQHap8UU.jpg",
+      "rating": 61,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 97861,
+      "malId": 23539,
+      "title": {
+        "romaji": "Gudetama",
+        "english": null,
+        "native": "ぐでたま",
+        "userPreferred": "Gudetama"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97861-IIUEKYDc3Kkv.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97861-IIUEKYDc3Kkv.jpg",
+      "rating": 62,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 1839,
+      "malId": 1839,
+      "title": {
+        "romaji": "Jagainu-kun",
+        "english": null,
+        "native": "じゃがいぬくん",
+        "userPreferred": "Jagainu-kun"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1839.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1839.jpg",
+      "rating": 56,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 121799,
+      "malId": 42514,
+      "title": {
+        "romaji": "Anime Kapibara-san",
+        "english": "Anime KAPIBARASAN",
+        "native": "アニメ カピバラさん",
+        "userPreferred": "Anime Kapibara-san"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx121799-32cdW6JKWb6Z.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx121799-32cdW6JKWb6Z.png",
+      "rating": 61,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 123474,
+      "malId": 41688,
+      "title": {
+        "romaji": "Toutotsu ni Egypt Shin",
+        "english": "Oh, Suddenly Egyptian God",
+        "native": "とーとつにエジプト神",
+        "userPreferred": "Toutotsu ni Egypt Shin"
+      },
+      "status": "Completed",
+      "episodes": 10,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx123474-goJkeXu38bhV.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx123474-goJkeXu38bhV.png",
+      "rating": 63,
+      "type": "ONA"
+    },
+    {
+      "id": 12021,
+      "malId": 12021,
+      "title": {
+        "romaji": "Poyopoyo Kansatsu Nikki",
+        "english": "Poyopoyo",
+        "native": "ポヨポヨ観察日記",
+        "userPreferred": "Poyopoyo Kansatsu Nikki"
+      },
+      "status": "Completed",
+      "episodes": 52,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/12021.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/12021.jpg",
+      "rating": 71,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 127690,
+      "malId": 44235,
+      "title": {
+        "romaji": "PUI PUI Molcar",
+        "english": "PUI PUI MOLCAR",
+        "native": "PUI PUI モルカー",
+        "userPreferred": "PUI PUI Molcar"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx127690-v9vKElA1Wv1y.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/127690-TrAntygTBhmR.jpg",
+      "rating": 78,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 130392,
+      "malId": 48252,
+      "title": {
+        "romaji": "Ore, Tsushima",
+        "english": "I, Tsushima",
+        "native": "俺、つしま",
+        "userPreferred": "Ore, Tsushima"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130392-4Wpdaq4W5XMB.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/130392-7wR8haFqhtqA.jpg",
+      "rating": 64,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 112145,
+      "malId": 21713,
+      "title": {
+        "romaji": "Usagi no Mofy",
+        "english": null,
+        "native": "うさぎのモフィ",
+        "userPreferred": "Usagi no Mofy"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b112145-unzWZHLlL8uW.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112145-uSEJR0GMB05n.jpg",
+      "rating": 56,
+      "type": "ONA"
+    },
+    {
+      "id": 3841,
+      "malId": 3841,
+      "title": {
+        "romaji": "Chi's Sweet Home",
+        "english": null,
+        "native": "チーズスイートホーム",
+        "userPreferred": "Chi's Sweet Home"
+      },
+      "status": "Completed",
+      "episodes": 104,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3841-PSDYqPPpBVBC.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/3841-kkjmWatQAo9O.jpg",
+      "rating": 72,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 144858,
+      "malId": 50985,
+      "title": {
+        "romaji": "CHIMIMO",
+        "english": "Chimimo",
+        "native": "ちみも",
+        "userPreferred": "CHIMIMO"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx144858-vZvLHPGsLAID.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx144858-vZvLHPGsLAID.jpg",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 130514,
+      "malId": 44848,
+      "title": {
+        "romaji": "iii icecrin",
+        "english": null,
+        "native": "iiiあいすくりん",
+        "userPreferred": "iii icecrin"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130514-Ov48bcqOU6Jw.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/130514-xzaw0p1LzmwL.jpg",
+      "rating": 57,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 580,
+      "malId": 580,
+      "title": {
+        "romaji": "Kogepan",
+        "english": "Scorched Bread",
+        "native": "こげぱん",
+        "userPreferred": "Kogepan"
+      },
+      "status": "Completed",
+      "episodes": 10,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/580.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/580.jpg",
+      "rating": 61,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 140369,
+      "malId": null,
+      "title": {
+        "romaji": "Doggie Corgi",
+        "english": "Doggy Corgi",
+        "native": "도기코기",
+        "userPreferred": "Doggie Corgi"
+      },
+      "status": "Completed",
+      "episodes": 10,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b140369-I5dw3B2w0Ozj.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b140369-I5dw3B2w0Ozj.png",
+      "rating": 67,
+      "type": "ONA"
+    },
+    {
+      "id": 104395,
+      "malId": 35349,
+      "title": {
+        "romaji": "Marumofubiyori",
+        "english": null,
+        "native": "まるもふびより",
+        "userPreferred": "Marumofubiyori"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/104395-SLXmPRx9mI13.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/104395-SLXmPRx9mI13.jpg",
+      "rating": 48,
+      "type": "ONA"
+    },
+    {
+      "id": 118569,
+      "malId": 33986,
+      "title": {
+        "romaji": "Elite Banana Banao",
+        "english": null,
+        "native": "エリートバナナ バナ夫",
+        "userPreferred": "Elite Banana Banao"
+      },
+      "status": "Completed",
+      "episodes": 9,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b118569-TWUWW9T4yDSx.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b118569-TWUWW9T4yDSx.jpg",
+      "rating": 38,
+      "type": "ONA"
+    },
+    {
+      "id": 165426,
+      "malId": 55463,
+      "title": {
+        "romaji": "Odekake Kozame",
+        "english": "Little Shark's Day Out",
+        "native": "おでかけ子ザメ",
+        "userPreferred": "Odekake Kozame"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx165426-Q93dCaAlRx6b.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx165426-Q93dCaAlRx6b.jpg",
+      "rating": 75,
+      "type": "ONA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 129260,
+      "role": "MAIN",
+      "name": {
+        "first": "Bananya",
+        "last": null,
+        "full": "Bananya",
+        "native": "ばなにゃ",
+        "userPreferred": "Bananya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n129260-7Pu4ilGet4Mu.jpg",
+      "voiceActors": [
+        {
+          "id": 95672,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Kaji",
+            "full": "Yuuki Kaji",
+            "native": "梶裕貴",
+            "userPreferred": "Yuuki Kaji"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95672-RN4nm0OFwCyU.png"
+        }
+      ]
+    },
+    {
+      "id": 36309,
+      "role": "MAIN",
+      "name": {
+        "first": "Narrator",
+        "last": null,
+        "full": "Narrator",
+        "native": "ナレーター",
+        "userPreferred": "Narrator"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36309-yRLEQYd2dDI5.jpg",
+      "voiceActors": [
+        {
+          "id": 105896,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshikazu",
+            "last": "Ebisu",
+            "full": "Yoshikazu Ebisu",
+            "native": "蛭子能収 ",
+            "userPreferred": "Yoshikazu Ebisu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105896-yMCuURTZJouk.png"
+        },
+        {
+          "id": 259741,
+          "language": "English",
+          "name": {
+            "first": "Mike",
+            "last": "Toole",
+            "full": "Mike Toole",
+            "native": null,
+            "userPreferred": "Mike Toole"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n259741-L6OHkZtN4Vs3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 127700,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kenaga Bananya",
+        "last": null,
+        "full": "Kenaga Bananya",
+        "native": "けながばなにゃ",
+        "userPreferred": "Kenaga Bananya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n127700-JOK1mH5dR3s6.png",
+      "voiceActors": [
+        {
+          "id": 95672,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Kaji",
+            "full": "Yuuki Kaji",
+            "native": "梶裕貴",
+            "userPreferred": "Yuuki Kaji"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95672-RN4nm0OFwCyU.png"
+        }
+      ]
+    },
+    {
+      "id": 195103,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Elizabeth Bananya",
+        "last": null,
+        "full": "Elizabeth Bananya",
+        "native": null,
+        "userPreferred": "Elizabeth Bananya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b195103-WZ4RO8XAezu9.png",
+      "voiceActors": [
+        {
+          "id": 110919,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumu",
+            "last": "Murase",
+            "full": "Ayumu Murase",
+            "native": "村瀬歩",
+            "userPreferred": "Ayumu Murase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n110919-zz5dq39kyzNC.png"
+        }
+      ]
+    },
+    {
+      "id": 129259,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bananyako",
+        "last": null,
+        "full": "Bananyako",
+        "native": "ばなにゃ子",
+        "userPreferred": "Bananyako"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n129259-yQjgdIRR11eI.jpg",
+      "voiceActors": [
+        {
+          "id": 110919,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumu",
+            "last": "Murase",
+            "full": "Ayumu Murase",
+            "native": "村瀬歩",
+            "userPreferred": "Ayumu Murase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n110919-zz5dq39kyzNC.png"
+        }
+      ]
+    },
+    {
+      "id": 195105,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Baby Bananya",
+        "last": null,
+        "full": "Baby Bananya",
+        "native": " ベビーバニヤ",
+        "userPreferred": "Baby Bananya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b195105-G653kMAD3CFF.png",
+      "voiceActors": [
+        {
+          "id": 110919,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumu",
+            "last": "Murase",
+            "full": "Ayumu Murase",
+            "native": "村瀬歩",
+            "userPreferred": "Ayumu Murase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n110919-zz5dq39kyzNC.png"
+        }
+      ]
+    },
+    {
+      "id": 195107,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mike Bananya",
+        "last": null,
+        "full": "Mike Bananya",
+        "native": "みけばなにゃ",
+        "userPreferred": "Mike Bananya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b195107-c41tnw2cfODe.png",
+      "voiceActors": [
+        {
+          "id": 95672,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Kaji",
+            "full": "Yuuki Kaji",
+            "native": "梶裕貴",
+            "userPreferred": "Yuuki Kaji"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95672-RN4nm0OFwCyU.png"
+        }
+      ]
+    },
+    {
+      "id": 129261,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kuro Bananya",
+        "last": null,
+        "full": "Kuro Bananya",
+        "native": "くろばなにゃ",
+        "userPreferred": "Kuro Bananya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n129261-CvSM1JYhzHSz.jpg",
+      "voiceActors": [
+        {
+          "id": 95672,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Kaji",
+            "full": "Yuuki Kaji",
+            "native": "梶裕貴",
+            "userPreferred": "Yuuki Kaji"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95672-RN4nm0OFwCyU.png"
+        }
+      ]
+    },
+    {
+      "id": 195106,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Saba Tora Bananya",
+        "last": null,
+        "full": "Saba Tora Bananya",
+        "native": "さばとらばなにゃ",
+        "userPreferred": "Saba Tora Bananya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b195106-WjRLnkgjNqYL.png",
+      "voiceActors": [
+        {
+          "id": 110919,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumu",
+            "last": "Murase",
+            "full": "Ayumu Murase",
+            "native": "村瀬歩",
+            "userPreferred": "Ayumu Murase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n110919-zz5dq39kyzNC.png"
+        }
+      ]
+    },
+    {
+      "id": 129262,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tora Bananya",
+        "last": null,
+        "full": "Tora Bananya",
+        "native": "とらばなにゃ",
+        "userPreferred": "Tora Bananya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n129262-jwfEIbmr87ze.jpg",
+      "voiceActors": [
+        {
+          "id": 110919,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumu",
+            "last": "Murase",
+            "full": "Ayumu Murase",
+            "native": "村瀬歩",
+            "userPreferred": "Ayumu Murase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n110919-zz5dq39kyzNC.png"
+        }
+      ]
+    },
+    {
+      "id": 134118,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Oyaji Bananya",
+        "last": null,
+        "full": "Oyaji Bananya",
+        "native": "おやじばなにゃ",
+        "userPreferred": "Oyaji Bananya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n134118-6CytU2qZOaZk.jpg",
+      "voiceActors": [
+        {
+          "id": 95672,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Kaji",
+            "full": "Yuuki Kaji",
+            "native": "梶裕貴",
+            "userPreferred": "Yuuki Kaji"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95672-RN4nm0OFwCyU.png"
+        }
+      ]
+    },
+    {
+      "id": 195102,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Namaste Bananya",
+        "last": "",
+        "full": "Namaste Bananya",
+        "native": null,
+        "userPreferred": "Namaste Bananya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b195102-eCaNAPLmLdq1.jpg",
+      "voiceActors": [
+        {
+          "id": 95672,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Kaji",
+            "full": "Yuuki Kaji",
+            "native": "梶裕貴",
+            "userPreferred": "Yuuki Kaji"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95672-RN4nm0OFwCyU.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 110881,
+      "relationType": "PREQUEL",
+      "malId": 40228,
+      "title": {
+        "romaji": "Bananya: Fushigi na Nakamatachi",
+        "english": "Bananya and the Curious Bunch",
+        "native": "ばなにゃ ふしぎななかまたち",
+        "userPreferred": "Bananya: Fushigi na Nakamatachi"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110881-GCLFxS80cmsb.png",
+      "color": "#f1d643",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110881-DTIizARCzWzy.jpg",
+      "rating": 63
+    }
+  ],
+  "episodes": [
+    {
+      "id": "bananya-episode-1",
+      "title": "The Kitty Who Lives in a Banana",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21704-He11JaJgPPiQ.jpg",
+      "number": 1,
+      "createdAt": "2016-09-20T15:26:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bananya-episode-1"
+    },
+    {
+      "id": "bananya-episode-2",
+      "title": "Bananya and Friends, Nya",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21704-He11JaJgPPiQ.jpg",
+      "number": 2,
+      "createdAt": "2016-09-20T15:26:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bananya-episode-2"
+    },
+    {
+      "id": "bananya-episode-3",
+      "title": "Bananya Watches TV, Nya",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21704-He11JaJgPPiQ.jpg",
+      "number": 3,
+      "createdAt": "2016-09-20T15:26:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bananya-episode-3"
+    },
+    {
+      "id": "bananya-episode-4",
+      "title": "Bananya and the Mouse, Nya",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21704-He11JaJgPPiQ.jpg",
+      "number": 4,
+      "createdAt": "2016-09-20T15:26:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bananya-episode-4"
+    },
+    {
+      "id": "bananya-episode-5",
+      "title": "Bananya and the Refrigerator, Nya",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21704-He11JaJgPPiQ.jpg",
+      "number": 5,
+      "createdAt": "2016-09-20T15:26:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bananya-episode-5"
+    },
+    {
+      "id": "bananya-episode-6",
+      "title": "Bananya Goes Out, Nya",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21704-He11JaJgPPiQ.jpg",
+      "number": 6,
+      "createdAt": "2016-09-20T15:26:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bananya-episode-6"
+    },
+    {
+      "id": "bananya-episode-7",
+      "title": "Bananya in the Middle of the Night, Nya",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21704-He11JaJgPPiQ.jpg",
+      "number": 7,
+      "createdAt": "2016-09-20T15:26:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bananya-episode-7"
+    },
+    {
+      "id": "bananya-episode-8",
+      "title": "Bananya and the Stray Cat, Nya",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21704-He11JaJgPPiQ.jpg",
+      "number": 8,
+      "createdAt": "2016-09-20T15:26:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bananya-episode-8"
+    },
+    {
+      "id": "bananya-episode-9",
+      "title": "Bananya in the Bathroom, Nya",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21704-He11JaJgPPiQ.jpg",
+      "number": 9,
+      "createdAt": "2016-09-20T15:26:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bananya-episode-9"
+    },
+    {
+      "id": "bananya-episode-10",
+      "title": "Bananya and the Balloon, Nya",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21704-He11JaJgPPiQ.jpg",
+      "number": 10,
+      "createdAt": "2016-09-20T15:26:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bananya-episode-10"
+    },
+    {
+      "id": "bananya-episode-11",
+      "title": "Bananya Takes a Walk, Nya",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21704-He11JaJgPPiQ.jpg",
+      "number": 11,
+      "createdAt": "2016-09-20T15:26:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bananya-episode-11"
+    },
+    {
+      "id": "bananya-episode-12",
+      "title": "Bananya's Afternoon Nap, Nya",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21704-He11JaJgPPiQ.jpg",
+      "number": 12,
+      "createdAt": "2016-09-20T15:26:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bananya-episode-12"
+    },
+    {
+      "id": "bananya-episode-13",
+      "title": "Bananya and the Birthday, Nya",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21704-He11JaJgPPiQ.jpg",
+      "number": 13,
+      "createdAt": "2016-09-20T15:26:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bananya-episode-13"
+    }
+  ]
+}

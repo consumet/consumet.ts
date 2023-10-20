@@ -1,0 +1,904 @@
+{
+  "id": "669",
+  "title": {
+    "romaji": "Kujibiki Unbalance",
+    "english": null,
+    "native": "くじびきアンバランス"
+  },
+  "malId": 669,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/669.jpg",
+  "popularity": 2355,
+  "color": "#e4d65d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/669.jpg",
+  "description": "Chihiro Enomoto is a freshman that just got to a new school called Rikkyoin High School. He lost his parents in a traffic accidents when he was 10. Since then, he has been living only with his elder sister Shinobu. He is good at cooking and cleaning, and does all the housekeeping jobs. He fell in love with Tokino (orange hair) at the first sight when he met her in the school library on the first day of school. Another girl named Ritsuko (the big yellow helmet), childhood friend of Chihiro and the chair of student council, falls in the love with the boy instantly after this long-awaited reunion. But she is not the only one who is in love with him. This is the story about a one-year campaign among the candidates for the next students government leaders, who are also chosen by the lot (kujibiki), in order to gain the position.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2004,
+  "startDate": {
+    "year": 2004,
+    "month": 12,
+    "day": 22
+  },
+  "endDate": {
+    "year": 2005,
+    "month": 4,
+    "day": 22
+  },
+  "totalEpisodes": 3,
+  "currentEpisode": 3,
+  "rating": 55,
+  "duration": 25,
+  "genres": [
+    "Comedy",
+    "Romance"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "Palm Studio"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 6318,
+      "malId": 6318,
+      "title": {
+        "romaji": "Kigurumikku☆V3",
+        "english": null,
+        "native": "きグルみっく☆V3",
+        "userPreferred": "Kigurumikku☆V3"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6318-LelEh06dGlvv.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6318-LelEh06dGlvv.jpg",
+      "rating": 44,
+      "type": "ONA"
+    },
+    {
+      "id": 7882,
+      "malId": 7882,
+      "title": {
+        "romaji": "Ramen Tenshi Pretty Menma",
+        "english": null,
+        "native": "ラーメン天使プリティメンマ",
+        "userPreferred": "Ramen Tenshi Pretty Menma"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/7882.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/7882.jpg",
+      "rating": 39,
+      "type": "SPECIAL"
+    },
+    {
+      "id": 1813,
+      "malId": 1813,
+      "title": {
+        "romaji": "Genshiken OVA",
+        "english": null,
+        "native": "げんしけん OVA",
+        "userPreferred": "Genshiken OVA"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1813.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1813.jpg",
+      "rating": 73,
+      "type": "OVA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 14615,
+      "role": "MAIN",
+      "name": {
+        "first": "Tokino",
+        "last": "Akiyama",
+        "full": "Tokino Akiyama",
+        "native": "秋山時乃",
+        "userPreferred": "Tokino Akiyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14615.jpg",
+      "voiceActors": [
+        {
+          "id": 95239,
+          "language": "Japanese",
+          "name": {
+            "first": "Akemi",
+            "last": "Kanda",
+            "full": "Akemi Kanda",
+            "native": "神田朱未",
+            "userPreferred": "Akemi Kanda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/239.jpg"
+        },
+        {
+          "id": 95905,
+          "language": "English",
+          "name": {
+            "first": "Veronica",
+            "last": "Taylor",
+            "full": "Veronica Taylor",
+            "native": null,
+            "userPreferred": "Veronica Taylor"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95905-X3mxkcZkmmKN.jpg"
+        },
+        {
+          "id": 110129,
+          "language": "Korean",
+          "name": {
+            "first": "Sin Jeong",
+            "last": "Han",
+            "full": "Sin Jeong Han",
+            "native": "신정 한",
+            "userPreferred": "Sin Jeong Han"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15129.jpg"
+        },
+        {
+          "id": 126223,
+          "language": "German",
+          "name": {
+            "first": "Yvonne",
+            "last": "Greitzke",
+            "full": "Yvonne Greitzke",
+            "native": null,
+            "userPreferred": "Yvonne Greitzke"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/126223-WBucop9efdWC.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14612,
+      "role": "MAIN",
+      "name": {
+        "first": "Chihiro",
+        "last": "Enomoto",
+        "full": "Chihiro Enomoto",
+        "native": null,
+        "userPreferred": "Chihiro Enomoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14612.jpg",
+      "voiceActors": [
+        {
+          "id": 95374,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuka",
+            "last": "Imai",
+            "full": "Yuka Imai",
+            "native": "今井由香",
+            "userPreferred": "Yuka Imai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95374-ZCLR2wSfxYDX.jpg"
+        },
+        {
+          "id": 100145,
+          "language": "English",
+          "name": {
+            "first": "Rich",
+            "last": "McNanna",
+            "full": "Rich McNanna",
+            "native": null,
+            "userPreferred": "Rich McNanna"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100145-2TZVqLxNyXVJ.jpg"
+        },
+        {
+          "id": 110097,
+          "language": "Korean",
+          "name": {
+            "first": "In-Seong",
+            "last": "Oh",
+            "full": "In-Seong Oh",
+            "native": "오인성",
+            "userPreferred": "In-Seong Oh"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15097.jpg"
+        },
+        {
+          "id": 153914,
+          "language": "German",
+          "name": {
+            "first": "Raúl",
+            "last": "Richter",
+            "full": "Raúl Richter",
+            "native": "Raúl Amadeus Mark Richter",
+            "userPreferred": "Raúl Richter"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n153914-upSj31RUtO56.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19578,
+      "role": "MAIN",
+      "name": {
+        "first": "Komaki",
+        "last": "Asagiri",
+        "full": "Komaki Asagiri",
+        "native": "朝霧小牧",
+        "userPreferred": "Komaki Asagiri"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/19578.jpg",
+      "voiceActors": [
+        {
+          "id": 95027,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukari",
+            "last": "Tamura",
+            "full": "Yukari Tamura",
+            "native": "田村ゆかり",
+            "userPreferred": "Yukari Tamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95027-Zm9onZDUN7ih.jpg"
+        },
+        {
+          "id": 102251,
+          "language": "English",
+          "name": {
+            "first": "Amanda",
+            "last": "Goodman",
+            "full": "Amanda Goodman",
+            "native": null,
+            "userPreferred": "Amanda Goodman"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7251.jpg"
+        },
+        {
+          "id": 109823,
+          "language": "Korean",
+          "name": {
+            "first": "Mi Na",
+            "last": "Yun",
+            "full": "Mi Na Yun",
+            "native": "미나 윤",
+            "userPreferred": "Mi Na Yun"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14823.jpg"
+        },
+        {
+          "id": 105698,
+          "language": "German",
+          "name": {
+            "first": "Marie-Luise",
+            "last": "Schramm",
+            "full": "Marie-Luise Schramm",
+            "native": null,
+            "userPreferred": "Marie-Luise Schramm"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10698.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15225,
+      "role": "MAIN",
+      "name": {
+        "first": "Izumi",
+        "last": "Tachibana",
+        "full": "Izumi Tachibana",
+        "native": "橘いづみ",
+        "userPreferred": "Izumi Tachibana"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15225.jpg",
+      "voiceActors": [
+        {
+          "id": 95428,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Kaida",
+            "full": "Yuuko Kaida",
+            "native": "甲斐田裕子",
+            "userPreferred": "Yuuko Kaida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95428-1e4kSvr5fkmQ.png"
+        },
+        {
+          "id": 100259,
+          "language": "English",
+          "name": {
+            "first": "Meg",
+            "last": "Francis",
+            "full": "Meg Francis",
+            "native": null,
+            "userPreferred": "Meg Francis"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 110291,
+          "language": "Korean",
+          "name": {
+            "first": "Chea Eun",
+            "last": "Han",
+            "full": "Chea Eun Han",
+            "native": "채언 한",
+            "userPreferred": "Chea Eun Han"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15291.jpg"
+        },
+        {
+          "id": 101104,
+          "language": "German",
+          "name": {
+            "first": "Peggy",
+            "last": "Sander",
+            "full": "Peggy Sander",
+            "native": null,
+            "userPreferred": "Peggy Sander"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6104.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14616,
+      "role": "MAIN",
+      "name": {
+        "first": "Renko",
+        "last": "Kamishakuji",
+        "full": "Renko Kamishakuji",
+        "native": "上石神井蓮子",
+        "userPreferred": "Renko Kamishakuji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14616.jpg",
+      "voiceActors": [
+        {
+          "id": 95128,
+          "language": "Japanese",
+          "name": {
+            "first": "Ikue",
+            "last": "Ootani",
+            "full": "Ikue Ootani",
+            "native": "大谷育江",
+            "userPreferred": "Ikue Ootani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95128-9YWpE1d2U8Sj.png"
+        },
+        {
+          "id": 100127,
+          "language": "English",
+          "name": {
+            "first": "Debora",
+            "last": "Rabbai",
+            "full": "Debora Rabbai",
+            "native": null,
+            "userPreferred": "Debora Rabbai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5127.jpg"
+        },
+        {
+          "id": 109823,
+          "language": "Korean",
+          "name": {
+            "first": "Mi Na",
+            "last": "Yun",
+            "full": "Mi Na Yun",
+            "native": "미나 윤",
+            "userPreferred": "Mi Na Yun"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14823.jpg"
+        },
+        {
+          "id": 96210,
+          "language": "German",
+          "name": {
+            "first": "Diana",
+            "last": "Borgwardt",
+            "full": "Diana Borgwardt",
+            "native": null,
+            "userPreferred": "Diana Borgwardt"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1210.jpg"
+        }
+      ]
+    },
+    {
+      "id": 30627,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mugio",
+        "last": "Rokuhara",
+        "full": "Mugio Rokuhara",
+        "native": "六原麦男",
+        "userPreferred": "Mugio Rokuhara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/30627.jpg",
+      "voiceActors": [
+        {
+          "id": 95005,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenichi",
+            "last": "Suzumura",
+            "full": "Kenichi Suzumura",
+            "native": "鈴村健一",
+            "userPreferred": "Kenichi Suzumura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95005-SkoVN02iOglr.png"
+        },
+        {
+          "id": 95736,
+          "language": "English",
+          "name": {
+            "first": "Jonathan Todd",
+            "last": "Ross",
+            "full": "Jonathan Todd Ross",
+            "native": null,
+            "userPreferred": "Jonathan Todd Ross"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95736-TZhA1SrYY1ey.jpg"
+        },
+        {
+          "id": 110101,
+          "language": "Korean",
+          "name": {
+            "first": "Hyeon Wu",
+            "last": "Byeon",
+            "full": "Hyeon Wu Byeon",
+            "native": "현우 변",
+            "userPreferred": "Hyeon Wu Byeon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15101.jpg"
+        },
+        {
+          "id": 102219,
+          "language": "German",
+          "name": {
+            "first": "Konrad",
+            "last": "Bösherz",
+            "full": "Konrad Bösherz",
+            "native": null,
+            "userPreferred": "Konrad Bösherz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102219-Od3pasyGCIbf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18660,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kasumi",
+        "last": "Kisaragi",
+        "full": "Kasumi Kisaragi",
+        "native": "如月香澄",
+        "userPreferred": "Kasumi Kisaragi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18660.jpg",
+      "voiceActors": [
+        {
+          "id": 95013,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayako",
+            "last": "Kawasumi",
+            "full": "Ayako Kawasumi",
+            "native": "川澄綾子",
+            "userPreferred": "Ayako Kawasumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95013-cwl64qXuP2r7.png"
+        },
+        {
+          "id": 96503,
+          "language": "English",
+          "name": {
+            "first": "Rachael",
+            "last": "Lillis",
+            "full": "Rachael Lillis",
+            "native": null,
+            "userPreferred": "Rachael Lillis"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96503-BpnE3dFXJnyF.jpg"
+        },
+        {
+          "id": 109835,
+          "language": "Korean",
+          "name": {
+            "first": "Hyeon-Jin",
+            "last": "Lee",
+            "full": "Hyeon-Jin Lee",
+            "native": "이현진",
+            "userPreferred": "Hyeon-Jin Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14835.jpg"
+        },
+        {
+          "id": 139695,
+          "language": "German",
+          "name": {
+            "first": "Anja",
+            "last": "Stadlober",
+            "full": "Anja Stadlober",
+            "native": null,
+            "userPreferred": "Anja Stadlober"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n139695-1jFPW1iunblc.png"
+        }
+      ]
+    },
+    {
+      "id": 30626,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shinobu",
+        "last": "Enomoto",
+        "full": "Shinobu Enomoto",
+        "native": "榎本忍",
+        "userPreferred": "Shinobu Enomoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/30626.jpg",
+      "voiceActors": [
+        {
+          "id": 95258,
+          "language": "Japanese",
+          "name": {
+            "first": "Haruko",
+            "last": "Momoi",
+            "full": "Haruko Momoi",
+            "native": "桃井はるこ",
+            "userPreferred": "Haruko Momoi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95258-cTKT3ONucnZU.jpg"
+        },
+        {
+          "id": 101108,
+          "language": "German",
+          "name": {
+            "first": "Maria",
+            "last": "Koschny",
+            "full": "Maria Koschny",
+            "native": null,
+            "userPreferred": "Maria Koschny"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6108.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14619,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Koyuki",
+        "last": "Asagiri",
+        "full": "Koyuki Asagiri",
+        "native": "朝霧小雪",
+        "userPreferred": "Koyuki Asagiri"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14619.jpg",
+      "voiceActors": [
+        {
+          "id": 95027,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukari",
+            "last": "Tamura",
+            "full": "Yukari Tamura",
+            "native": "田村ゆかり",
+            "userPreferred": "Yukari Tamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95027-Zm9onZDUN7ih.jpg"
+        },
+        {
+          "id": 95905,
+          "language": "English",
+          "name": {
+            "first": "Veronica",
+            "last": "Taylor",
+            "full": "Veronica Taylor",
+            "native": null,
+            "userPreferred": "Veronica Taylor"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95905-X3mxkcZkmmKN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15034,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaoruko",
+        "last": "Yamada",
+        "full": "Kaoruko Yamada",
+        "native": "山田薫子",
+        "userPreferred": "Kaoruko Yamada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15034.jpg",
+      "voiceActors": [
+        {
+          "id": 95105,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Gotou",
+            "full": "Yuuko Gotou",
+            "native": "後藤邑子",
+            "userPreferred": "Yuuko Gotou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95105-5r4AYMjJS51Y.png"
+        },
+        {
+          "id": 95783,
+          "language": "English",
+          "name": {
+            "first": "Lisa",
+            "last": "Ortiz",
+            "full": "Lisa Ortiz",
+            "native": null,
+            "userPreferred": "Lisa Ortiz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95783-B8D6v4SFpgA7.jpg"
+        },
+        {
+          "id": 140337,
+          "language": "German",
+          "name": {
+            "first": "Jill",
+            "last": "Böttcher",
+            "full": "Jill Böttcher",
+            "native": null,
+            "userPreferred": "Jill Böttcher"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n140337-iOuFLeLRziHy.png"
+        }
+      ]
+    },
+    {
+      "id": 30625,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Risa",
+        "last": "Humvee",
+        "full": "Risa Humvee",
+        "native": "リサ·ハンビー",
+        "userPreferred": "Risa Humvee"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/30625.jpg",
+      "voiceActors": [
+        {
+          "id": 95116,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Ueda",
+            "full": "Kana Ueda",
+            "native": "植田佳奈",
+            "userPreferred": "Kana Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95116-NvhEn6vNMiAq.png"
+        },
+        {
+          "id": 105291,
+          "language": "English",
+          "name": {
+            "first": "Dana",
+            "last": "Halsted",
+            "full": "Dana Halsted",
+            "native": null,
+            "userPreferred": "Dana Halsted"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10291.jpg"
+        },
+        {
+          "id": 183722,
+          "language": "German",
+          "name": {
+            "first": "Kalpna",
+            "last": "Joshi",
+            "full": "Kalpna Joshi",
+            "native": null,
+            "userPreferred": "Kalpna Joshi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15033,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ritsuko Kübel",
+        "last": "Kettenkrad",
+        "full": "Ritsuko Kübel Kettenkrad",
+        "native": "律子・キューベル・ケッテンクラート",
+        "userPreferred": "Ritsuko Kübel Kettenkrad"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15033.jpg",
+      "voiceActors": [
+        {
+          "id": 95135,
+          "language": "Japanese",
+          "name": {
+            "first": "Saeko",
+            "last": "Chiba",
+            "full": "Saeko Chiba",
+            "native": "千葉紗子",
+            "userPreferred": "Saeko Chiba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95135-zptQ6sZjTSU9.png"
+        },
+        {
+          "id": 103812,
+          "language": "Korean",
+          "name": {
+            "first": "Mi Sook",
+            "last": "Jeong",
+            "full": "Mi Sook Jeong",
+            "native": "숙 정미",
+            "userPreferred": "Mi Sook Jeong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8812.jpg"
+        },
+        {
+          "id": 138555,
+          "language": "German",
+          "name": {
+            "first": "Susanne",
+            "last": "Geier",
+            "full": "Susanne Geier",
+            "native": null,
+            "userPreferred": "Susanne Geier"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n138555-5SXvJ5yS0B2p.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 1591,
+      "relationType": "ALTERNATIVE",
+      "malId": 1591,
+      "title": {
+        "romaji": "Kujibiki♥Unbalance (TV)",
+        "english": null,
+        "native": "くじびき♥アンバランス",
+        "userPreferred": "Kujibiki♥Unbalance (TV)"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1591-iRgw2UFRYtB8.png",
+      "color": "#f1d6bb",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1591-iRgw2UFRYtB8.png",
+      "rating": 56
+    },
+    {
+      "id": 240,
+      "relationType": "OTHER",
+      "malId": 240,
+      "title": {
+        "romaji": "Genshiken",
+        "english": "Genshiken",
+        "native": "げんしけん",
+        "userPreferred": "Genshiken"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx240-YaEXxztQRFix.jpg",
+      "color": "#e4ae50",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/240-FbZV9cTu6ixW.jpg",
+      "rating": 74
+    }
+  ],
+  "episodes": [
+    {
+      "id": "kujibiki-unbalance-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/669.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//kujibiki-unbalance-episode-1"
+    },
+    {
+      "id": "kujibiki-unbalance-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/669.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//kujibiki-unbalance-episode-2"
+    },
+    {
+      "id": "kujibiki-unbalance-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/669.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//kujibiki-unbalance-episode-3"
+    },
+    {
+      "id": "kujibiki-unbalance-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/669.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//kujibiki-unbalance-episode-4"
+    },
+    {
+      "id": "kujibiki-unbalance-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/669.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//kujibiki-unbalance-episode-5"
+    },
+    {
+      "id": "kujibiki-unbalance-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/669.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//kujibiki-unbalance-episode-6"
+    },
+    {
+      "id": "kujibiki-unbalance-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/669.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//kujibiki-unbalance-episode-7"
+    },
+    {
+      "id": "kujibiki-unbalance-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/669.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//kujibiki-unbalance-episode-8"
+    },
+    {
+      "id": "kujibiki-unbalance-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/669.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//kujibiki-unbalance-episode-9"
+    },
+    {
+      "id": "kujibiki-unbalance-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/669.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//kujibiki-unbalance-episode-10"
+    },
+    {
+      "id": "kujibiki-unbalance-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/669.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//kujibiki-unbalance-episode-11"
+    },
+    {
+      "id": "kujibiki-unbalance-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/669.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//kujibiki-unbalance-episode-12"
+    }
+  ]
+}

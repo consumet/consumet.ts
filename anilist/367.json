@@ -1,0 +1,155 @@
+{
+  "id": "367",
+  "title": {
+    "romaji": "Akazukin Chacha OVA",
+    "english": null,
+    "native": "赤ずきんチャチャ (1995)"
+  },
+  "malId": 367,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/367.jpg",
+  "popularity": 545,
+  "color": "#f1a10d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/367-yWHdrHzie6T6.jpg",
+  "description": "Following the original TV series, the story tells the efforts of Momiji Gakuen, Chacha's rival school principal, to discover what is so special about Urara Gakuen students and what she could do to \"produce\" the best students.",
+  "status": "Completed",
+  "releaseDate": 1995,
+  "startDate": {
+    "year": 1995,
+    "month": 12,
+    "day": 6
+  },
+  "endDate": {
+    "year": 1996,
+    "month": 3,
+    "day": 6
+  },
+  "totalEpisodes": 3,
+  "currentEpisode": 3,
+  "rating": 56,
+  "duration": 24,
+  "genres": [
+    "Comedy",
+    "Fantasy"
+  ],
+  "season": "WINTER",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 654,
+      "malId": 654,
+      "title": {
+        "romaji": "Galaxy Angel Ａ Specials",
+        "english": null,
+        "native": "ギャラクシーエンジェルＡ",
+        "userPreferred": "Galaxy Angel Ａ Specials"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/654.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/654.jpg",
+      "rating": 69,
+      "type": "SPECIAL"
+    }
+  ],
+  "characters": [
+    {
+      "id": 17811,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Orin",
+        "last": null,
+        "full": "Orin",
+        "native": "お鈴",
+        "userPreferred": "Orin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b17811-ZtE757yZanfF.jpg",
+      "voiceActors": [
+        {
+          "id": 101152,
+          "language": "Japanese",
+          "name": {
+            "first": "Noriko",
+            "last": "Namiki",
+            "full": "Noriko Namiki",
+            "native": "並木のり子",
+            "userPreferred": "Noriko Namiki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6152.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 103,
+      "relationType": "PREQUEL",
+      "malId": 103,
+      "title": {
+        "romaji": "Akazukin Chacha",
+        "english": "Red Riding Hood Chacha",
+        "native": "赤ずきんチャチャ",
+        "userPreferred": "Akazukin Chacha"
+      },
+      "status": "Completed",
+      "episodes": 74,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx103-v029gLfcQajN.jpg",
+      "color": "#f1bb5d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n103-dPxprIcIeq1Q.jpg",
+      "rating": 68
+    },
+    {
+      "id": 37270,
+      "relationType": "ADAPTATION",
+      "malId": 7270,
+      "title": {
+        "romaji": "Akazukin Chacha",
+        "english": "Red Riding Hood Chacha",
+        "native": "赤ずきんチャチャ",
+        "userPreferred": "Akazukin Chacha"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b37270-QC7oRwBPoYmn.jpg",
+      "color": "#f1c90d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b37270-QC7oRwBPoYmn.jpg",
+      "rating": 70
+    }
+  ],
+  "episodes": [
+    {
+      "id": "akazukin-chacha-ova-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/367.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//akazukin-chacha-ova-episode-1"
+    },
+    {
+      "id": "akazukin-chacha-ova-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/367.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//akazukin-chacha-ova-episode-2"
+    },
+    {
+      "id": "akazukin-chacha-ova-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/367.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//akazukin-chacha-ova-episode-3"
+    }
+  ]
+}

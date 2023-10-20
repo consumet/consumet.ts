@@ -1,0 +1,759 @@
+{
+  "id": "144",
+  "title": {
+    "romaji": "Kanon",
+    "english": null,
+    "native": "カノン"
+  },
+  "malId": 144,
+  "synonyms": [
+    "Kanon (2002)"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx144-YdWsrDNssRIX.png",
+  "popularity": 10865,
+  "color": "#e4781a",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/144-QWsc7jOc2qTU.jpg",
+  "description": "Changing schools is something Yuuchi is accustomed to, due to his parent's profession, and with their recent venture to Africa, he is returning to his aunt's home after 7 years. The time that has passed since his last visit has faded his memories of the people he knew, and the ties that bonded them to him, including his cousin Nayuki. Slowly those people, coincidently all being girls, find their way back to him. However, time has passed and things have happened in their own lives that sets the tone for the series. Secrets that are coming to surface, and memories that are returning to not only Yuuichi, but to those surrounding him. A very heartwarming tale that touches upon a spectrum of emotions, mystery, and the supernatural.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2002,
+  "startDate": {
+    "year": 2002,
+    "month": 1,
+    "day": 31
+  },
+  "endDate": {
+    "year": 2002,
+    "month": 3,
+    "day": 28
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 63,
+  "duration": 24,
+  "genres": [
+    "Drama",
+    "Romance",
+    "Slice of Life",
+    "Supernatural"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "Toei Animation"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 2167,
+      "malId": 2167,
+      "title": {
+        "romaji": "CLANNAD",
+        "english": "Clannad",
+        "native": "ＣＬＡＮＮＡＤ -クラナド-",
+        "userPreferred": "CLANNAD"
+      },
+      "status": "Completed",
+      "episodes": 23,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2167-ubU2875AFRTH.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2167.jpg",
+      "rating": 76,
+      "type": "TV"
+    },
+    {
+      "id": 101,
+      "malId": 101,
+      "title": {
+        "romaji": "AIR",
+        "english": "Air",
+        "native": "AIR",
+        "userPreferred": "AIR"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx101-x3YmfrzYZ9kM.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101-EDcz219IrCEc.jpg",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 125,
+      "malId": 125,
+      "title": {
+        "romaji": "Futakoi",
+        "english": "Twin Love",
+        "native": "双恋",
+        "userPreferred": "Futakoi"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/125.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/125.jpg",
+      "rating": 59,
+      "type": "TV"
+    },
+    {
+      "id": 713,
+      "malId": 713,
+      "title": {
+        "romaji": "AIR (Movie)",
+        "english": "Air: The Motion Picture",
+        "native": "AIR (劇場版)",
+        "userPreferred": "AIR (Movie)"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx713-NMntmhlt9mV5.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx713-NMntmhlt9mV5.jpg",
+      "rating": 66,
+      "type": "MOVIE"
+    },
+    {
+      "id": 1723,
+      "malId": 1723,
+      "title": {
+        "romaji": "Clannad Movie",
+        "english": "Clannad: The Motion Picture",
+        "native": "劇場版 クラナド",
+        "userPreferred": "Clannad Movie"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1723-PzMdQPvfcxxA.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1723-elyPZO1iWjgS.jpg",
+      "rating": 66,
+      "type": "MOVIE"
+    },
+    {
+      "id": 21382,
+      "malId": 31716,
+      "title": {
+        "romaji": "Rewrite",
+        "english": null,
+        "native": "Rewrite",
+        "userPreferred": "Rewrite"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21382-bBJghvjTP8Dr.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21382-WylQ6DZFuGLK.jpg",
+      "rating": 61,
+      "type": "TV"
+    },
+    {
+      "id": 132528,
+      "malId": 48775,
+      "title": {
+        "romaji": "Kaginado",
+        "english": "KAGINADO",
+        "native": "かぎなど",
+        "userPreferred": "Kaginado"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx132528-rIUN5MRBPGy9.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/132528-zmx7bHH7PM5P.jpg",
+      "rating": 70,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 472,
+      "malId": 472,
+      "title": {
+        "romaji": "ToHeart",
+        "english": "To Heart",
+        "native": "ToHeart",
+        "userPreferred": "ToHeart"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx472-xH5Ia6fpPE6c.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/472-SNXJ4aiBVhO8.jpg",
+      "rating": 62,
+      "type": "TV"
+    },
+    {
+      "id": 4789,
+      "malId": 4789,
+      "title": {
+        "romaji": "ef: a tale of melodies.",
+        "english": "ef ~ A Tale of Melodies",
+        "native": "ef - a tale of melodies.",
+        "userPreferred": "ef: a tale of melodies."
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4789-zpt5UsK70dJh.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4789-vI3WUKB98Zg9.jpg",
+      "rating": 77,
+      "type": "TV"
+    },
+    {
+      "id": 12467,
+      "malId": 12467,
+      "title": {
+        "romaji": "Nazo no Kanojo X",
+        "english": "Mysterious Girlfriend X",
+        "native": "謎の彼女X",
+        "userPreferred": "Nazo no Kanojo X"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12467-FtvouFLt2Vkr.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/12467-dAyKxWP88iYh.jpg",
+      "rating": 69,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 318,
+      "role": "MAIN",
+      "name": {
+        "first": "Makoto",
+        "last": "Sawatari",
+        "full": "Makoto Sawatari",
+        "native": "沢渡真琴",
+        "userPreferred": "Makoto Sawatari"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b318-PUhMEXKka9LM.png",
+      "voiceActors": [
+        {
+          "id": 95273,
+          "language": "Japanese",
+          "name": {
+            "first": "Mayumi",
+            "last": "Iizuka",
+            "full": "Mayumi Iizuka",
+            "native": "飯塚雅弓",
+            "userPreferred": "Mayumi Iizuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95273-qtMQIJyybJ7O.png"
+        }
+      ]
+    },
+    {
+      "id": 317,
+      "role": "MAIN",
+      "name": {
+        "first": "Shiori",
+        "last": "Misaka",
+        "full": "Shiori Misaka",
+        "native": "美坂栞",
+        "userPreferred": "Shiori Misaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/317.jpg",
+      "voiceActors": [
+        {
+          "id": 95274,
+          "language": "Japanese",
+          "name": {
+            "first": "Akemi",
+            "last": "Satou",
+            "full": "Akemi Satou",
+            "native": "佐藤朱",
+            "userPreferred": "Akemi Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95274-zeVeO8QgCJQC.png"
+        }
+      ]
+    },
+    {
+      "id": 319,
+      "role": "MAIN",
+      "name": {
+        "first": "Mai",
+        "last": "Kawasumi",
+        "full": "Mai Kawasumi",
+        "native": "川澄舞",
+        "userPreferred": "Mai Kawasumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b319-D8BE4oKCpD1f.png",
+      "voiceActors": [
+        {
+          "id": 95027,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukari",
+            "last": "Tamura",
+            "full": "Yukari Tamura",
+            "native": "田村ゆかり",
+            "userPreferred": "Yukari Tamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95027-Zm9onZDUN7ih.jpg"
+        }
+      ]
+    },
+    {
+      "id": 248,
+      "role": "MAIN",
+      "name": {
+        "first": "Nayuki",
+        "last": "Minase",
+        "full": "Nayuki Minase",
+        "native": "水瀬名雪",
+        "userPreferred": "Nayuki Minase"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/248.jpg",
+      "voiceActors": [
+        {
+          "id": 95275,
+          "language": "Japanese",
+          "name": {
+            "first": "Mariko",
+            "last": "Kouda",
+            "full": "Mariko Kouda",
+            "native": "國府田マリ子",
+            "userPreferred": "Mariko Kouda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95275-qm6Ep9IcLAv7.png"
+        },
+        {
+          "id": 103812,
+          "language": "Korean",
+          "name": {
+            "first": "Mi Sook",
+            "last": "Jeong",
+            "full": "Mi Sook Jeong",
+            "native": "숙 정미",
+            "userPreferred": "Mi Sook Jeong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8812.jpg"
+        }
+      ]
+    },
+    {
+      "id": 250,
+      "role": "MAIN",
+      "name": {
+        "first": "Ayu",
+        "last": "Tsukimiya",
+        "full": "Ayu Tsukimiya",
+        "native": "月宮あゆ",
+        "userPreferred": "Ayu Tsukimiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b250-nHDtLhTa83UB.png",
+      "voiceActors": [
+        {
+          "id": 95028,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Horie",
+            "full": "Yui Horie",
+            "native": "堀江由衣",
+            "userPreferred": "Yui Horie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95028-MHT1m3E5wGZx.png"
+        }
+      ]
+    },
+    {
+      "id": 316,
+      "role": "MAIN",
+      "name": {
+        "first": "Yuuichi",
+        "last": "Aizawa",
+        "full": "Yuuichi Aizawa",
+        "native": "相沢祐一",
+        "userPreferred": "Yuuichi Aizawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b316-3yga6umZ6NLZ.png",
+      "voiceActors": [
+        {
+          "id": 95560,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsushi",
+            "last": "Kisaichi",
+            "full": "Atsushi Kisaichi",
+            "native": "私市淳",
+            "userPreferred": "Atsushi Kisaichi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95560-zMj9LRxhYkMX.jpg"
+        },
+        {
+          "id": 109757,
+          "language": "Korean",
+          "name": {
+            "first": "Won Hyeong",
+            "last": "Choi",
+            "full": "Won Hyeong Choi",
+            "native": "원형 최",
+            "userPreferred": "Won Hyeong Choi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14757.jpg"
+        }
+      ]
+    },
+    {
+      "id": 334,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jun",
+        "last": "Kitagawa",
+        "full": "Jun Kitagawa",
+        "native": "北川潤",
+        "userPreferred": "Jun Kitagawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/334.jpg",
+      "voiceActors": [
+        {
+          "id": 95001,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Seki",
+            "full": "Tomokazu Seki",
+            "native": "関智一",
+            "userPreferred": "Tomokazu Seki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95001-vm0RtZhmlzhK.png"
+        }
+      ]
+    },
+    {
+      "id": 321,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaori",
+        "last": "Misaka",
+        "full": "Kaori Misaka",
+        "native": "美坂 香里",
+        "userPreferred": "Kaori Misaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/321.jpg",
+      "voiceActors": [
+        {
+          "id": 95013,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayako",
+            "last": "Kawasumi",
+            "full": "Ayako Kawasumi",
+            "native": "川澄綾子",
+            "userPreferred": "Ayako Kawasumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95013-cwl64qXuP2r7.png"
+        }
+      ]
+    },
+    {
+      "id": 333,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sayuri",
+        "last": "Kurata",
+        "full": "Sayuri Kurata",
+        "native": "倉田 佐祐理",
+        "userPreferred": "Sayuri Kurata"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/333.jpg",
+      "voiceActors": [
+        {
+          "id": 95071,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoko",
+            "last": "Kawakami",
+            "full": "Tomoko Kawakami",
+            "native": "川上とも子",
+            "userPreferred": "Tomoko Kawakami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95071-bmS9MxvAdsTr.png"
+        }
+      ]
+    },
+    {
+      "id": 322,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mishio",
+        "last": "Amano",
+        "full": "Mishio Amano",
+        "native": "天野 美汐",
+        "userPreferred": "Mishio Amano"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b322-ogs9iz6SfaNH.png",
+      "voiceActors": [
+        {
+          "id": 95090,
+          "language": "Japanese",
+          "name": {
+            "first": "Maaya",
+            "last": "Sakamoto",
+            "full": "Maaya Sakamoto",
+            "native": "坂本真綾",
+            "userPreferred": "Maaya Sakamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95090-oARRP42NEhu0.jpg"
+        }
+      ]
+    },
+    {
+      "id": 53091,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kuze",
+        "last": null,
+        "full": "Kuze",
+        "native": "久瀬",
+        "userPreferred": "Kuze"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/53091.jpg",
+      "voiceActors": [
+        {
+          "id": 95118,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Kamiya",
+            "full": "Hiroshi Kamiya",
+            "native": "神谷浩史",
+            "userPreferred": "Hiroshi Kamiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95118-oOElrn1aSaiC.png"
+        }
+      ]
+    },
+    {
+      "id": 320,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Akiko",
+        "last": "Minase",
+        "full": "Akiko Minase",
+        "native": "水瀬 秋子",
+        "userPreferred": "Akiko Minase"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/320.jpg",
+      "voiceActors": [
+        {
+          "id": 95170,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Minaguchi",
+            "full": "Yuuko Minaguchi",
+            "native": "皆口裕子",
+            "userPreferred": "Yuuko Minaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95170-oAiTh7t2T1J0.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 704,
+      "relationType": "SEQUEL",
+      "malId": 704,
+      "title": {
+        "romaji": "Kanon: Kazahana",
+        "english": null,
+        "native": "カノン 風花",
+        "userPreferred": "Kanon: Kazahana"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx704-Szb9OaoyahU7.png",
+      "color": "#d6501a",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/704-M0ZJZrMkATVl.jpg",
+      "rating": 62
+    },
+    {
+      "id": 1530,
+      "relationType": "ALTERNATIVE",
+      "malId": 1530,
+      "title": {
+        "romaji": "Kanon (2006)",
+        "english": "Kanon (2006)",
+        "native": "カノン (2006)",
+        "userPreferred": "Kanon (2006)"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1530-nkzstlVZhZNG.jpg",
+      "color": "#e4a15d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1530-xl96EB4lBzGL.jpg",
+      "rating": 76
+    },
+    {
+      "id": 31822,
+      "relationType": "ALTERNATIVE",
+      "malId": 1822,
+      "title": {
+        "romaji": "Kanon",
+        "english": null,
+        "native": "Kanon",
+        "userPreferred": "Kanon"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx31822-4uwIE6yJvcLq.png",
+      "color": "#f15035",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx31822-4uwIE6yJvcLq.png",
+      "rating": 59
+    },
+    {
+      "id": 132528,
+      "relationType": "CHARACTER",
+      "malId": 48775,
+      "title": {
+        "romaji": "Kaginado",
+        "english": "KAGINADO",
+        "native": "かぎなど",
+        "userPreferred": "Kaginado"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx132528-rIUN5MRBPGy9.png",
+      "color": "#aee45d",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/132528-zmx7bHH7PM5P.jpg",
+      "rating": 70
+    },
+    {
+      "id": 143150,
+      "relationType": "CHARACTER",
+      "malId": 50685,
+      "title": {
+        "romaji": "Kaginado Season 2",
+        "english": "KAGI-NADO Season 2",
+        "native": "かぎなど シーズン２",
+        "userPreferred": "Kaginado Season 2"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143150-yYb9yimEQocm.png",
+      "color": "#4393ff",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143150-yYb9yimEQocm.png",
+      "rating": 72
+    }
+  ],
+  "episodes": [
+    {
+      "id": "kanon-episode-1",
+      "title": "The Girl of Snow",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx144-YdWsrDNssRIX.png",
+      "number": 1,
+      "createdAt": "2013-04-27T14:35:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kanon-episode-1"
+    },
+    {
+      "id": "kanon-episode-2",
+      "title": "A Sunny City",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx144-YdWsrDNssRIX.png",
+      "number": 2,
+      "createdAt": "2013-04-27T14:35:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kanon-episode-2"
+    },
+    {
+      "id": "kanon-episode-3",
+      "title": "Just This One Little Memory",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx144-YdWsrDNssRIX.png",
+      "number": 3,
+      "createdAt": "2013-04-27T14:35:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kanon-episode-3"
+    },
+    {
+      "id": "kanon-episode-4",
+      "title": "To the Night",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx144-YdWsrDNssRIX.png",
+      "number": 4,
+      "createdAt": "2013-04-27T14:35:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kanon-episode-4"
+    },
+    {
+      "id": "kanon-episode-5",
+      "title": "The Fox and the Grapes",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx144-YdWsrDNssRIX.png",
+      "number": 5,
+      "createdAt": "2013-04-27T14:35:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kanon-episode-5"
+    },
+    {
+      "id": "kanon-episode-6",
+      "title": "The Girls' Opinions",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx144-YdWsrDNssRIX.png",
+      "number": 6,
+      "createdAt": "2013-04-27T14:35:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kanon-episode-6"
+    },
+    {
+      "id": "kanon-episode-7",
+      "title": "The Butou Ceremony",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx144-YdWsrDNssRIX.png",
+      "number": 7,
+      "createdAt": "2013-04-27T14:35:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kanon-episode-7"
+    },
+    {
+      "id": "kanon-episode-8",
+      "title": "The Cage for the Girl",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx144-YdWsrDNssRIX.png",
+      "number": 8,
+      "createdAt": "2013-04-27T14:35:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kanon-episode-8"
+    },
+    {
+      "id": "kanon-episode-9",
+      "title": "Beyond That Smile",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx144-YdWsrDNssRIX.png",
+      "number": 9,
+      "createdAt": "2013-04-27T14:35:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kanon-episode-9"
+    },
+    {
+      "id": "kanon-episode-10",
+      "title": "The Winter Firework",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx144-YdWsrDNssRIX.png",
+      "number": 10,
+      "createdAt": "2013-04-27T14:35:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kanon-episode-10"
+    },
+    {
+      "id": "kanon-episode-11",
+      "title": "Promise",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx144-YdWsrDNssRIX.png",
+      "number": 11,
+      "createdAt": "2013-04-27T14:35:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kanon-episode-11"
+    },
+    {
+      "id": "kanon-episode-12",
+      "title": "The Mark of a Dream",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx144-YdWsrDNssRIX.png",
+      "number": 12,
+      "createdAt": "2013-04-27T14:35:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kanon-episode-12"
+    },
+    {
+      "id": "kanon-episode-13",
+      "title": "Where the Wind Leads",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx144-YdWsrDNssRIX.png",
+      "number": 13,
+      "createdAt": "2013-04-27T14:35:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kanon-episode-13"
+    }
+  ]
+}

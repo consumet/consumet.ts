@@ -1,0 +1,637 @@
+{
+  "id": "151280",
+  "title": {
+    "romaji": "Sancun Renjian",
+    "english": "A World Worth Protecting",
+    "native": "三寸人间"
+  },
+  "malId": 52180,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "CN",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151280-54trztO68Sbs.jpg",
+  "popularity": 95,
+  "color": "#e4bb5d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151280-54trztO68Sbs.jpg",
+  "description": "By the year 3029 CE, Earth's technology has developed rapidly, borders no longer exist, and Earth has been unified, marking the beginning of the era of the Federation.\n<br><br>\nAt that time, a huge sword flew from the heavens, piercing the sun and causing a huge sensation on Earth.\n<br><br>\nPerhaps because the scabbard of the sword was already in tatters, countless shards have broken off from it following the collision with the sun and spread across the universe. Many of these shards have landed on various places across Earth.\n<br><br>\nWith the arrival of the bronze sword and its shards, a new unlimited energy source has suddenly appeared on Earth. This energy source has since been named Spirit Qi.\n<br><br>\nSpirit Qi is like air, thick in some places and thin in others. As the Federation and other factions gather more shards, they discover more information on cultivation, pill refinement, Spirit Stone refinement, and other techniques. The words on the shards have an ancient feel to them, making it a trend for people to use ancient language.\n<br><br>\nThe appearance of Spirit Qi rapidly makes the original energy sources obsolete and has completely changed people's lives. Not only has the Spirit Internet been formed, Spirit Qi has also changed the course of Human Civilization, causing the world to enter a civilization of cultivation. This would later come to be known as the Spirit Inception Era.\n<br><br>\n(Source: Webnovel)",
+  "status": "Completed",
+  "releaseDate": 2022,
+  "startDate": {
+    "year": 2022,
+    "month": 8,
+    "day": 11
+  },
+  "endDate": {
+    "year": 2022,
+    "month": 12,
+    "day": 15
+  },
+  "totalEpisodes": 16,
+  "currentEpisode": 16,
+  "rating": null,
+  "duration": 15,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+  ],
+  "season": null,
+  "studios": [
+    "Foch"
+  ],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 280074,
+      "role": "MAIN",
+      "name": {
+        "first": "Baole",
+        "last": "Wang",
+        "full": "Baole Wang",
+        "native": "王宝乐",
+        "userPreferred": "Baole Wang"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 219468,
+          "language": "Chinese",
+          "name": {
+            "first": "Maomao",
+            "last": "Lin",
+            "full": "Maomao Lin",
+            "native": "林帽帽",
+            "userPreferred": "Maomao Lin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n219468-V2SoQg3EZDnX.png"
+        }
+      ]
+    },
+    {
+      "id": 280080,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yunhai",
+        "last": "Zou",
+        "full": "Yunhai Zou",
+        "native": "邹云海",
+        "userPreferred": "Yunhai Zou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 188397,
+          "language": "Chinese",
+          "name": {
+            "first": "Cong",
+            "last": "Liu",
+            "full": "Cong Liu",
+            "native": "刘琮",
+            "userPreferred": "Cong Liu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188397-1B5G5QPuCpSQ.png"
+        }
+      ]
+    },
+    {
+      "id": 280081,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lin",
+        "last": "Jiang",
+        "full": "Lin Jiang",
+        "native": "姜林",
+        "userPreferred": "Lin Jiang"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 163265,
+          "language": "Chinese",
+          "name": {
+            "first": "Mingyue",
+            "last": "Liu",
+            "full": "Mingyue Liu",
+            "native": "刘明月",
+            "userPreferred": "Mingyue Liu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n163265-cBltg2lrRcSN.png"
+        }
+      ]
+    },
+    {
+      "id": 280085,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kun",
+        "last": "Cao",
+        "full": "Kun Cao",
+        "native": "曹坤",
+        "userPreferred": "Kun Cao"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 280091,
+          "language": "Chinese",
+          "name": {
+            "first": "Fuyao",
+            "last": "Wang",
+            "full": "Fuyao Wang",
+            "native": "王扶瑶",
+            "userPreferred": "Fuyao Wang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n280091-JQapCB511mPd.png"
+        }
+      ]
+    },
+    {
+      "id": 280078,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Daobin",
+        "last": "Liu",
+        "full": "Daobin Liu",
+        "native": "柳道斌",
+        "userPreferred": "Daobin Liu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 270727,
+          "language": "Chinese",
+          "name": {
+            "first": "Muxin",
+            "last": "Qiao",
+            "full": "Muxin Qiao",
+            "native": "乔木心",
+            "userPreferred": "Muxin Qiao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n270727-QZRUu42VRVUf.png"
+        }
+      ]
+    },
+    {
+      "id": 280084,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Haiyang",
+        "last": "Xie",
+        "full": "Haiyang Xie",
+        "native": "谢海洋",
+        "userPreferred": "Haiyang Xie"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 249062,
+          "language": "Chinese",
+          "name": {
+            "first": "Beiyan",
+            "last": null,
+            "full": "Beiyan",
+            "native": "北炎",
+            "userPreferred": "Beiyan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n249062-UOQjWoW8Pbul.png"
+        }
+      ]
+    },
+    {
+      "id": 280077,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Min",
+        "last": "Du",
+        "full": "Min Du",
+        "native": "杜敏",
+        "userPreferred": "Min Du"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 217356,
+          "language": "Chinese",
+          "name": {
+            "first": "Meme",
+            "last": "Yan",
+            "full": "Meme Yan",
+            "native": "阎么么",
+            "userPreferred": "Meme Yan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n217356-v83Bzw8cePO6.png"
+        }
+      ]
+    },
+    {
+      "id": 280087,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lu",
+        "last": "Zhou",
+        "full": "Lu Zhou",
+        "native": "周璐",
+        "userPreferred": "Lu Zhou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 217500,
+          "language": "Chinese",
+          "name": {
+            "first": "Rongshan",
+            "last": "Chang",
+            "full": "Rongshan Chang",
+            "native": "常蓉珊",
+            "userPreferred": "Rongshan Chang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n217500-YjTB0BftT331.png"
+        }
+      ]
+    },
+    {
+      "id": 280079,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yifan",
+        "last": "Zhuo",
+        "full": "Yifan Zhuo",
+        "native": "卓一凡",
+        "userPreferred": "Yifan Zhuo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 229503,
+          "language": "Chinese",
+          "name": {
+            "first": "Zhenyan",
+            "last": "Liu",
+            "full": "Zhenyan Liu",
+            "native": "柳真颜",
+            "userPreferred": "Zhenyan Liu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n229503-wWA6dQ4N9gMZ.png"
+        }
+      ]
+    },
+    {
+      "id": 280086,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tianhao",
+        "last": "Lin",
+        "full": "Tianhao Lin",
+        "native": "林天浩",
+        "userPreferred": "Tianhao Lin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 188377,
+          "language": "Chinese",
+          "name": {
+            "first": "Yin",
+            "last": "Tong",
+            "full": "Yin Tong",
+            "native": "瞳音",
+            "userPreferred": "Yin Tong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188377-6sPy5A6JzQp0.png"
+        }
+      ]
+    },
+    {
+      "id": 280082,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Xiaodao",
+        "last": null,
+        "full": "Xiaodao",
+        "native": "小道",
+        "userPreferred": "Xiaodao"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 188374,
+          "language": "Chinese",
+          "name": {
+            "first": "Lanling",
+            "last": "Li",
+            "full": "Lanling Li",
+            "native": "李兰陵",
+            "userPreferred": "Lanling Li"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188374-kWjAs9h1w4Oi.png"
+        }
+      ]
+    },
+    {
+      "id": 280075,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ziheng",
+        "last": "Chen",
+        "full": "Ziheng Chen",
+        "native": "陈子恒",
+        "userPreferred": "Ziheng Chen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 220999,
+          "language": "Chinese",
+          "name": {
+            "first": "Qingyang",
+            "last": "Li",
+            "full": "Qingyang Li",
+            "native": "李轻扬",
+            "userPreferred": "Qingyang Li"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n220999-V1pMgQm28Iwo.png"
+        }
+      ]
+    },
+    {
+      "id": 280088,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Zihao",
+        "last": "Lu",
+        "full": "Zihao Lu",
+        "native": "陆子浩",
+        "userPreferred": "Zihao Lu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 248974,
+          "language": "Chinese",
+          "name": {
+            "first": "Xinran",
+            "last": "Yang",
+            "full": "Xinran Yang",
+            "native": "杨昕燃",
+            "userPreferred": "Xinran Yang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n248974-WfMLMsnLsFOq.png"
+        }
+      ]
+    },
+    {
+      "id": 280076,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Xiaoya",
+        "last": "Zhou",
+        "full": "Xiaoya Zhou",
+        "native": "周小雅",
+        "userPreferred": "Xiaoya Zhou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 188833,
+          "language": "Chinese",
+          "name": {
+            "first": "Nianru",
+            "last": "Shen",
+            "full": "Nianru Shen",
+            "native": "沈念如",
+            "userPreferred": "Nianru Shen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188833-KRGse7SWvLJx.png"
+        }
+      ]
+    },
+    {
+      "id": 280089,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jing",
+        "last": "Zhou",
+        "full": "Jing Zhou",
+        "native": "周静",
+        "userPreferred": "Jing Zhou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 190664,
+          "language": "Chinese",
+          "name": {
+            "first": "Yeqiao",
+            "last": "Yan",
+            "full": "Yeqiao Yan",
+            "native": "闫夜桥",
+            "userPreferred": "Yeqiao Yan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n190664-rlOPtLHISO3a.png"
+        }
+      ]
+    },
+    {
+      "id": 280083,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Youde",
+        "last": "Zhang",
+        "full": "Youde Zhang",
+        "native": "张有德",
+        "userPreferred": "Youde Zhang"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 218581,
+          "language": "Chinese",
+          "name": {
+            "first": "Mingzhou",
+            "last": "Zhao",
+            "full": "Mingzhou Zhao",
+            "native": "赵铭洲",
+            "userPreferred": "Mingzhou Zhao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n218581-6mZmeA02GwwS.png"
+        }
+      ]
+    },
+    {
+      "id": 280090,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yishi",
+        "last": "Lu",
+        "full": "Yishi Lu",
+        "native": "卢医师",
+        "userPreferred": "Yishi Lu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 175031,
+          "language": "Chinese",
+          "name": {
+            "first": "Zhongyang",
+            "last": "Baomu",
+            "full": "Zhongyang Baomu",
+            "native": "宝木中阳",
+            "userPreferred": "Zhongyang Baomu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n175031-zsl22ZzSAJiY.png"
+        }
+      ]
+    }
+  ],
+  "relations": [],
+  "episodes": [
+    {
+      "id": "san-cun-renjian-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151280-54trztO68Sbs.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//san-cun-renjian-episode-1"
+    },
+    {
+      "id": "san-cun-renjian-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151280-54trztO68Sbs.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//san-cun-renjian-episode-2"
+    },
+    {
+      "id": "san-cun-renjian-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151280-54trztO68Sbs.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//san-cun-renjian-episode-3"
+    },
+    {
+      "id": "san-cun-renjian-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151280-54trztO68Sbs.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//san-cun-renjian-episode-4"
+    },
+    {
+      "id": "san-cun-renjian-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151280-54trztO68Sbs.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//san-cun-renjian-episode-5"
+    },
+    {
+      "id": "san-cun-renjian-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151280-54trztO68Sbs.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//san-cun-renjian-episode-6"
+    },
+    {
+      "id": "san-cun-renjian-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151280-54trztO68Sbs.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//san-cun-renjian-episode-7"
+    },
+    {
+      "id": "san-cun-renjian-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151280-54trztO68Sbs.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//san-cun-renjian-episode-8"
+    },
+    {
+      "id": "san-cun-renjian-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151280-54trztO68Sbs.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//san-cun-renjian-episode-9"
+    },
+    {
+      "id": "san-cun-renjian-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151280-54trztO68Sbs.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//san-cun-renjian-episode-10"
+    },
+    {
+      "id": "san-cun-renjian-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151280-54trztO68Sbs.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//san-cun-renjian-episode-11"
+    },
+    {
+      "id": "san-cun-renjian-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151280-54trztO68Sbs.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//san-cun-renjian-episode-12"
+    },
+    {
+      "id": "san-cun-renjian-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151280-54trztO68Sbs.jpg",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//san-cun-renjian-episode-13"
+    },
+    {
+      "id": "san-cun-renjian-episode-14",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151280-54trztO68Sbs.jpg",
+      "number": 14,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//san-cun-renjian-episode-14"
+    },
+    {
+      "id": "san-cun-renjian-episode-15",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151280-54trztO68Sbs.jpg",
+      "number": 15,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//san-cun-renjian-episode-15"
+    },
+    {
+      "id": "san-cun-renjian-episode-16",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151280-54trztO68Sbs.jpg",
+      "number": 16,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//san-cun-renjian-episode-16"
+    }
+  ]
+}

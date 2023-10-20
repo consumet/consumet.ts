@@ -1,0 +1,496 @@
+{
+  "id": "102928",
+  "title": {
+    "romaji": "Hulaing Babies",
+    "english": null,
+    "native": "フライングベイビーズ"
+  },
+  "malId": 34332,
+  "synonyms": [
+    "Flying Babies"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102928-RD0UN0jKCSyw.png",
+  "popularity": 1907,
+  "color": "#e47843",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n102928-Tlm5VRA4p8Gk.jpg",
+  "description": "The anime will center on a group of young girls and their struggle as they aim to become Hula Girls.",
+  "status": "Completed",
+  "releaseDate": 2019,
+  "startDate": {
+    "year": 2019,
+    "month": 1,
+    "day": 11
+  },
+  "endDate": {
+    "year": 2019,
+    "month": 3,
+    "day": 29
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 56,
+  "duration": 5,
+  "genres": [
+    "Comedy",
+    "Slice of Life"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "Gaina"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 15125,
+      "malId": 15125,
+      "title": {
+        "romaji": "Teekyuu",
+        "english": "Teekyuu",
+        "native": "てーきゅう",
+        "userPreferred": "Teekyuu"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15125-2ngZyS4KrMqA.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15125.jpg",
+      "rating": 63,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 98513,
+      "malId": 35250,
+      "title": {
+        "romaji": "URAHARA",
+        "english": null,
+        "native": "URAHARA",
+        "userPreferred": "URAHARA"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98513-IARUSpAhc1Mu.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98513-DXFHco9Sr6I6.jpg",
+      "rating": 52,
+      "type": "TV"
+    },
+    {
+      "id": 109298,
+      "malId": 39792,
+      "title": {
+        "romaji": "Eizouken ni wa Te wo Dasu na!",
+        "english": "Keep Your Hands Off Eizouken!",
+        "native": "映像研には手を出すな！",
+        "userPreferred": "Eizouken ni wa Te wo Dasu na!"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109298-YvjfI88hX76T.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/109298-ej4YYg87HHoA.jpg",
+      "rating": 79,
+      "type": "TV"
+    },
+    {
+      "id": 125841,
+      "malId": 43762,
+      "title": {
+        "romaji": "Hula Fulla Dance",
+        "english": "Hula Fulla Dance",
+        "native": "フラ・フラダンス",
+        "userPreferred": "Hula Fulla Dance"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125841-UODyqabwgKEb.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125841-UODyqabwgKEb.jpg",
+      "rating": 62,
+      "type": "MOVIE"
+    }
+  ],
+  "characters": [
+    {
+      "id": 132133,
+      "role": "MAIN",
+      "name": {
+        "first": "Suzu",
+        "last": null,
+        "full": "Suzu",
+        "native": "すず",
+        "userPreferred": "Suzu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n132133-JWPEVCjz6NXz.png",
+      "voiceActors": [
+        {
+          "id": 118914,
+          "language": "Japanese",
+          "name": {
+            "first": "Haruka",
+            "last": "Yoshimura",
+            "full": "Haruka Yoshimura",
+            "native": "佳村はるか",
+            "userPreferred": "Haruka Yoshimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118914-y5SToHdnK2uZ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 132134,
+      "role": "MAIN",
+      "name": {
+        "first": "Shina",
+        "last": null,
+        "full": "Shina",
+        "native": "しいな",
+        "userPreferred": "Shina"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n132134-AIgeHIXysISc.png",
+      "voiceActors": [
+        {
+          "id": 112247,
+          "language": "Japanese",
+          "name": {
+            "first": "Rikako",
+            "last": "Yamaguchi",
+            "full": "Rikako Yamaguchi",
+            "native": "山口立花子",
+            "userPreferred": "Rikako Yamaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n112247-wlARp1TTDJMI.png"
+        }
+      ]
+    },
+    {
+      "id": 132135,
+      "role": "MAIN",
+      "name": {
+        "first": "Nagisa",
+        "last": null,
+        "full": "Nagisa",
+        "native": "なぎさ",
+        "userPreferred": "Nagisa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n132135-3VU6YRxgP6lM.png",
+      "voiceActors": [
+        {
+          "id": 114371,
+          "language": "Japanese",
+          "name": {
+            "first": "Sarah Emi",
+            "last": "Bridcutt",
+            "full": "Sarah Emi Bridcutt",
+            "native": "ブリドカットセーラ恵美",
+            "userPreferred": "Sarah Emi Bridcutt"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n114371-OEVE30OTFBsk.png"
+        }
+      ]
+    },
+    {
+      "id": 132137,
+      "role": "MAIN",
+      "name": {
+        "first": "Mona",
+        "last": null,
+        "full": "Mona",
+        "native": "モナ",
+        "userPreferred": "Mona"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n132137-bJNH9OqLtwPB.png",
+      "voiceActors": [
+        {
+          "id": 106359,
+          "language": "Japanese",
+          "name": {
+            "first": "Suzuko",
+            "last": "Mimori",
+            "full": "Suzuko Mimori",
+            "native": "三森すずこ",
+            "userPreferred": "Suzuko Mimori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106359-G8dROMWpwlM6.png"
+        }
+      ]
+    },
+    {
+      "id": 132136,
+      "role": "MAIN",
+      "name": {
+        "first": "Fumi",
+        "last": null,
+        "full": "Fumi",
+        "native": "ふみ",
+        "userPreferred": "Fumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n132136-CuqfAijbwbBa.png",
+      "voiceActors": [
+        {
+          "id": 106360,
+          "language": "Japanese",
+          "name": {
+            "first": "Mikoi",
+            "last": "Sasaki",
+            "full": "Mikoi Sasaki",
+            "native": "佐々木未来",
+            "userPreferred": "Mikoi Sasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106360-v5iXFAn6YX1q.png"
+        }
+      ]
+    },
+    {
+      "id": 132138,
+      "role": "MAIN",
+      "name": {
+        "first": "Moe",
+        "last": null,
+        "full": "Moe",
+        "native": "もえ",
+        "userPreferred": "Moe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n132138-Q77vpYLkA6hn.png",
+      "voiceActors": [
+        {
+          "id": 118398,
+          "language": "Japanese",
+          "name": {
+            "first": "Moe",
+            "last": "Toyota",
+            "full": "Moe Toyota",
+            "native": "豊田萌絵",
+            "userPreferred": "Moe Toyota"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118398-zJucBJqURpw2.png"
+        }
+      ]
+    },
+    {
+      "id": 132139,
+      "role": "MAIN",
+      "name": {
+        "first": "Miku",
+        "last": null,
+        "full": "Miku",
+        "native": "みく",
+        "userPreferred": "Miku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n132139-9eS40htLMZhb.png",
+      "voiceActors": [
+        {
+          "id": 118581,
+          "language": "Japanese",
+          "name": {
+            "first": "Miku",
+            "last": "Itou",
+            "full": "Miku Itou",
+            "native": "伊藤美来",
+            "userPreferred": "Miku Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118581-JzwZhJUqhNGr.png"
+        }
+      ]
+    },
+    {
+      "id": 181589,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rei",
+        "last": null,
+        "full": "Rei",
+        "native": "れい",
+        "userPreferred": "Rei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b181589-pJaKOsjaVwxu.png",
+      "voiceActors": [
+        {
+          "id": 181592,
+          "language": "Japanese",
+          "name": {
+            "first": "Amami",
+            "last": "Kokumai",
+            "full": "Amami Kokumai",
+            "native": "國米天麻美",
+            "userPreferred": "Amami Kokumai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n181592-CPA9tnjV8vkk.png"
+        }
+      ]
+    },
+    {
+      "id": 181590,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Natsu",
+        "last": null,
+        "full": "Natsu",
+        "native": "なつ",
+        "userPreferred": "Natsu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b181590-RgBqDoEZ0xgl.png",
+      "voiceActors": [
+        {
+          "id": 181591,
+          "language": "Japanese",
+          "name": {
+            "first": "Non",
+            "last": "Harusaki",
+            "full": "Non Harusaki",
+            "native": "春咲暖",
+            "userPreferred": "Non Harusaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n181591-rKDnFVjVJone.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 113463,
+      "relationType": "SPIN_OFF",
+      "malId": 40758,
+      "title": {
+        "romaji": "Hulaing Babies☆Petit",
+        "english": null,
+        "native": "フライングベイビーズ☆プチ",
+        "userPreferred": "Hulaing Babies☆Petit"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113463-zHcmCnrgiKTK.jpg",
+      "color": "#f1c950",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113463-zHcmCnrgiKTK.jpg",
+      "rating": 43
+    },
+    {
+      "id": 120211,
+      "relationType": "OTHER",
+      "malId": 42145,
+      "title": {
+        "romaji": "Hulaing Babies Aratame: Staying Babies",
+        "english": null,
+        "native": "フライングベイビーズ改め ステイングベイビーズ",
+        "userPreferred": "Hulaing Babies Aratame: Staying Babies"
+      },
+      "status": "Completed",
+      "episodes": 5,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b120211-VglgB9Se1wVE.jpg",
+      "color": "#ffc91a",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b120211-VglgB9Se1wVE.jpg",
+      "rating": 47
+    }
+  ],
+  "episodes": [
+    {
+      "id": "hulaing-babies-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102928-RD0UN0jKCSyw.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//hulaing-babies-episode-1"
+    },
+    {
+      "id": "hulaing-babies-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102928-RD0UN0jKCSyw.png",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//hulaing-babies-episode-2"
+    },
+    {
+      "id": "hulaing-babies-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102928-RD0UN0jKCSyw.png",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//hulaing-babies-episode-3"
+    },
+    {
+      "id": "hulaing-babies-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102928-RD0UN0jKCSyw.png",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//hulaing-babies-episode-4"
+    },
+    {
+      "id": "hulaing-babies-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102928-RD0UN0jKCSyw.png",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//hulaing-babies-episode-5"
+    },
+    {
+      "id": "hulaing-babies-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102928-RD0UN0jKCSyw.png",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//hulaing-babies-episode-6"
+    },
+    {
+      "id": "hulaing-babies-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102928-RD0UN0jKCSyw.png",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//hulaing-babies-episode-7"
+    },
+    {
+      "id": "hulaing-babies-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102928-RD0UN0jKCSyw.png",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//hulaing-babies-episode-8"
+    },
+    {
+      "id": "hulaing-babies-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102928-RD0UN0jKCSyw.png",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//hulaing-babies-episode-9"
+    },
+    {
+      "id": "hulaing-babies-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102928-RD0UN0jKCSyw.png",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//hulaing-babies-episode-10"
+    },
+    {
+      "id": "hulaing-babies-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102928-RD0UN0jKCSyw.png",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//hulaing-babies-episode-11"
+    },
+    {
+      "id": "hulaing-babies-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102928-RD0UN0jKCSyw.png",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//hulaing-babies-episode-12"
+    }
+  ]
+}

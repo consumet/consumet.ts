@@ -1,0 +1,989 @@
+{
+  "id": "1230",
+  "title": {
+    "romaji": "Innocent Venus",
+    "english": null,
+    "native": "イノセント・ヴィーナス"
+  },
+  "malId": 1230,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1230-ntjhDVD5oOFa.png",
+  "popularity": 3478,
+  "color": "#e45d6b",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1230-kMCa9UD4OrAL.jpg",
+  "description": " In the year 2010 AD, Hyper Hurricanes born concurrently all over the world caused severe damage. Five billion people lost their lives, decreasing the world's population to 3 billion. Existing economies and militaries were wiped out. Countries were frozen under solid ice, plains sank beneath seas, the world was changed dramatically. <br><br>\nHuman civilization enters a chaotic era. Poverty flourished outside of these ecomomic zones and slums were widespread. The ruling class called themselves Logos and maintained their position by force of arms. They call the poor Revenus, who are exiled to live outside the special economic areas. <br><br>\nTime has passed since then. Katsuragi Jo and Tsurasawa Jin, escape from Phantom, a force organised to watch Revenus and to suppress renegade elements of the Logos, taking with them a mysterious girl, Noto Sana. There are many who are interested in her, all with their own reasons. ",
+  "status": "Completed",
+  "releaseDate": 2006,
+  "startDate": {
+    "year": 2006,
+    "month": 7,
+    "day": 27
+  },
+  "endDate": {
+    "year": 2006,
+    "month": 10,
+    "day": 26
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 61,
+  "duration": 23,
+  "genres": [
+    "Adventure",
+    "Drama",
+    "Mecha",
+    "Sci-Fi"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Brain's Base"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 20632,
+      "malId": 22729,
+      "title": {
+        "romaji": "Aldnoah.Zero",
+        "english": "ALDNOAH.ZERO",
+        "native": "アルドノア・ゼロ",
+        "userPreferred": "Aldnoah.Zero"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx20632-Mkgbtvi1kmhD.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20632.jpg",
+      "rating": 70,
+      "type": "TV"
+    },
+    {
+      "id": 56,
+      "malId": 56,
+      "title": {
+        "romaji": "Avenger",
+        "english": null,
+        "native": "アヴェンジャー",
+        "userPreferred": "Avenger"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b56-u0q9CHIgtbQG.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b56-u0q9CHIgtbQG.jpg",
+      "rating": 53,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 466,
+      "role": "MAIN",
+      "name": {
+        "first": "Jin",
+        "last": "Tsurasawa",
+        "full": "Jin Tsurasawa",
+        "native": "鶴沢仁",
+        "userPreferred": "Jin Tsurasawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b466-KfHZ12EjaLA2.png",
+      "voiceActors": [
+        {
+          "id": 95079,
+          "language": "Japanese",
+          "name": {
+            "first": "Takahiro",
+            "last": "Sakurai",
+            "full": "Takahiro Sakurai",
+            "native": "櫻井孝宏",
+            "userPreferred": "Takahiro Sakurai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95079-MdbWTLxPUvFf.jpg"
+        },
+        {
+          "id": 95043,
+          "language": "English",
+          "name": {
+            "first": "Vic",
+            "last": "Mignogna",
+            "full": "Vic Mignogna",
+            "native": "Victor Joseph Mignogna",
+            "userPreferred": "Vic Mignogna"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95043-cgQunZolvkPW.png"
+        },
+        {
+          "id": 109855,
+          "language": "Korean",
+          "name": {
+            "first": "Ju Chang",
+            "last": "Lee",
+            "full": "Ju Chang Lee",
+            "native": "주창 이",
+            "userPreferred": "Ju Chang Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14855.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2776,
+      "role": "MAIN",
+      "name": {
+        "first": "Jou",
+        "last": "Katsuragi",
+        "full": "Jou Katsuragi",
+        "native": "葛城丈",
+        "userPreferred": "Jou Katsuragi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2776-3w13My2qTPrm.png",
+      "voiceActors": [
+        {
+          "id": 95074,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenji",
+            "last": "Nojima",
+            "full": "Kenji Nojima",
+            "native": "野島健児",
+            "userPreferred": "Kenji Nojima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95074-ilLCdbpWIgrF.png"
+        },
+        {
+          "id": 95190,
+          "language": "English",
+          "name": {
+            "first": "Chris",
+            "last": "Patton",
+            "full": "Chris Patton",
+            "native": null,
+            "userPreferred": "Chris Patton"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95190-Ht5ukZFcl0PX.jpg"
+        },
+        {
+          "id": 109827,
+          "language": "Korean",
+          "name": {
+            "first": "Wan gyeong",
+            "last": "Seong",
+            "full": "Wan gyeong Seong",
+            "native": "완경 성",
+            "userPreferred": "Wan gyeong Seong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14827.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3551,
+      "role": "MAIN",
+      "name": {
+        "first": "Sana",
+        "last": "Nobuto",
+        "full": "Sana Nobuto",
+        "native": "登戸沙那",
+        "userPreferred": "Sana Nobuto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b3551-76YD8gDo1drg.png",
+      "voiceActors": [
+        {
+          "id": 95078,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaori",
+            "last": "Nazuka",
+            "full": "Kaori Nazuka",
+            "native": "名塚佳織",
+            "userPreferred": "Kaori Nazuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95078-tMm7zdlRNZ3P.jpg"
+        },
+        {
+          "id": 95199,
+          "language": "English",
+          "name": {
+            "first": "Jessica",
+            "last": "Boone",
+            "full": "Jessica Boone",
+            "native": null,
+            "userPreferred": "Jessica Boone"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95199-0ArwCGT722iO.jpg"
+        },
+        {
+          "id": 109773,
+          "language": "Korean",
+          "name": {
+            "first": "Jeong sin",
+            "last": "Wu",
+            "full": "Jeong sin Wu",
+            "native": "정신 우",
+            "userPreferred": "Jeong sin Wu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14773.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15788,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaneda",
+        "last": null,
+        "full": "Kaneda",
+        "native": "金田",
+        "userPreferred": "Kaneda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b15788-v5cvJsIIx3R9.png",
+      "voiceActors": [
+        {
+          "id": 95784,
+          "language": "Japanese",
+          "name": {
+            "first": "Eiji",
+            "last": "Miyashita",
+            "full": "Eiji Miyashita",
+            "native": "宮下栄治",
+            "userPreferred": "Eiji Miyashita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/784.jpg"
+        },
+        {
+          "id": 95039,
+          "language": "English",
+          "name": {
+            "first": "Jason",
+            "last": "Douglas",
+            "full": "Jason Douglas",
+            "native": null,
+            "userPreferred": "Jason Douglas"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95039-F0UuxfqLslls.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14918,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Riki",
+        "last": null,
+        "full": "Riki",
+        "native": "リキ",
+        "userPreferred": "Riki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b14918-33y3coLkWATq.png",
+      "voiceActors": [
+        {
+          "id": 101169,
+          "language": "Japanese",
+          "name": {
+            "first": "Riichi",
+            "last": "Nishimoto",
+            "full": "Riichi Nishimoto",
+            "native": "西本理一",
+            "userPreferred": "Riichi Nishimoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6169.jpg"
+        },
+        {
+          "id": 95191,
+          "language": "English",
+          "name": {
+            "first": "Chris",
+            "last": "Ayres",
+            "full": "Chris Ayres",
+            "native": null,
+            "userPreferred": "Chris Ayres"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95191-Aw9ipWm83bS8.png"
+        }
+      ]
+    },
+    {
+      "id": 283451,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Katsura",
+        "last": null,
+        "full": "Katsura",
+        "native": "桂",
+        "userPreferred": "Katsura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b283451-wyhha0AmqdCa.png",
+      "voiceActors": [
+        {
+          "id": 103035,
+          "language": "Japanese",
+          "name": {
+            "first": "Katsumi",
+            "last": "Chou",
+            "full": "Katsumi Chou",
+            "native": "長克巳",
+            "userPreferred": "Katsumi Chou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8035.jpg"
+        },
+        {
+          "id": 100990,
+          "language": "English",
+          "name": {
+            "first": "Charles",
+            "last": "Campbell",
+            "full": "Charles Campbell",
+            "native": null,
+            "userPreferred": "Charles Campbell"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5990.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14915,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Maximus",
+        "last": "Drake",
+        "full": "Maximus Drake",
+        "native": "マキシマス・ドレイク",
+        "userPreferred": "Maximus Drake"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14915.jpg",
+      "voiceActors": [
+        {
+          "id": 95243,
+          "language": "Japanese",
+          "name": {
+            "first": "Tooru",
+            "last": "Ookawa",
+            "full": "Tooru Ookawa",
+            "native": "大川透",
+            "userPreferred": "Tooru Ookawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95243-zhk18RRqSAmx.png"
+        },
+        {
+          "id": 95201,
+          "language": "English",
+          "name": {
+            "first": "John",
+            "last": "Swasey",
+            "full": "John Swasey",
+            "native": null,
+            "userPreferred": "John Swasey"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95201-cas6XbtZmMay.jpg"
+        }
+      ]
+    },
+    {
+      "id": 283452,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kengo",
+        "last": null,
+        "full": "Kengo",
+        "native": "剣吾",
+        "userPreferred": "Kengo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b283452-aJaxmFXJH4nZ.png",
+      "voiceActors": [
+        {
+          "id": 95212,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Ono",
+            "full": "Daisuke Ono",
+            "native": "小野大輔",
+            "userPreferred": "Daisuke Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95212-wX1M4LJN96q2.png"
+        },
+        {
+          "id": 105617,
+          "language": "English",
+          "name": {
+            "first": "Kyle",
+            "last": "Jones",
+            "full": "Kyle Jones",
+            "native": "Kyle Colby Jones",
+            "userPreferred": "Kyle C.  Jones"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105617-5arIxAKK7VvT.png"
+        }
+      ]
+    },
+    {
+      "id": 3623,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Toraji",
+        "last": "Shiba",
+        "full": "Toraji Shiba",
+        "native": "司馬虎二",
+        "userPreferred": "Toraji Shiba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b3623-5C04PGthJAG9.png",
+      "voiceActors": [
+        {
+          "id": 95412,
+          "language": "Japanese",
+          "name": {
+            "first": "Hideo",
+            "last": "Ishikawa",
+            "full": "Hideo Ishikawa",
+            "native": "石川英郎",
+            "userPreferred": "Hideo Ishikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95412-czaGpvAm5pWx.png"
+        },
+        {
+          "id": 95282,
+          "language": "English",
+          "name": {
+            "first": "Illich",
+            "last": "Guardiola",
+            "full": "Illich Guardiola",
+            "native": null,
+            "userPreferred": "Illich Guardiola"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/282.jpg"
+        }
+      ]
+    },
+    {
+      "id": 283453,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kouichirou",
+        "last": "Nobuto",
+        "full": "Kouichirou Nobuto",
+        "native": "登戸孝一郎",
+        "userPreferred": "Kouichirou Nobuto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b283453-621fdAM6vjQD.png",
+      "voiceActors": [
+        {
+          "id": 95838,
+          "language": "Japanese",
+          "name": {
+            "first": "Dai",
+            "last": "Matsumoto",
+            "full": "Dai Matsumoto",
+            "native": "松本大",
+            "userPreferred": "Dai Matsumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/838.jpg"
+        },
+        {
+          "id": 95191,
+          "language": "English",
+          "name": {
+            "first": "Chris",
+            "last": "Ayres",
+            "full": "Chris Ayres",
+            "native": null,
+            "userPreferred": "Chris Ayres"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95191-Aw9ipWm83bS8.png"
+        }
+      ]
+    },
+    {
+      "id": 14916,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Steve",
+        "last": null,
+        "full": "Steve",
+        "native": "スティーブ",
+        "userPreferred": "Steve"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b14916-XMMvhPbZes0X.png",
+      "voiceActors": [
+        {
+          "id": 95720,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenta",
+            "last": "Miyake",
+            "full": "Kenta Miyake",
+            "native": "三宅健太",
+            "userPreferred": "Kenta Miyake"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95720-enxx6kZKuwGi.jpg"
+        },
+        {
+          "id": 95473,
+          "language": "English",
+          "name": {
+            "first": "John",
+            "last": "Gremillion",
+            "full": "John Gremillion",
+            "native": null,
+            "userPreferred": "John Gremillion"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/473.jpg"
+        }
+      ]
+    },
+    {
+      "id": 283454,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Buichi",
+        "last": "Nakahira",
+        "full": "Buichi Nakahira",
+        "native": "半平武市",
+        "userPreferred": "Buichi Nakahira"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b283454-nOohlOl4GWlc.png",
+      "voiceActors": [
+        {
+          "id": 96052,
+          "language": "Japanese",
+          "name": {
+            "first": "Takanori",
+            "last": "Hoshino",
+            "full": "Takanori Hoshino",
+            "native": "星野貴紀",
+            "userPreferred": "Takanori Hoshino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1052.jpg"
+        },
+        {
+          "id": 95039,
+          "language": "English",
+          "name": {
+            "first": "Jason",
+            "last": "Douglas",
+            "full": "Jason Douglas",
+            "native": null,
+            "userPreferred": "Jason Douglas"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95039-F0UuxfqLslls.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14919,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hijin",
+        "last": null,
+        "full": "Hijin",
+        "native": "ヒジン",
+        "userPreferred": "Hijin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b14919-Im3L3uufU7AP.png",
+      "voiceActors": [
+        {
+          "id": 95082,
+          "language": "Japanese",
+          "name": {
+            "first": "Romi",
+            "last": "Park",
+            "full": "Romi Park",
+            "native": "朴璐美",
+            "userPreferred": "Romi Park"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95082-pNGbnYv4cHAK.png"
+        },
+        {
+          "id": 95455,
+          "language": "English",
+          "name": {
+            "first": "Alice",
+            "last": "Fulks",
+            "full": "Alice Fulks",
+            "native": null,
+            "userPreferred": "Alice Fulks"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/455.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14917,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kyoushirou",
+        "last": null,
+        "full": "Kyoushirou",
+        "native": "狂死郎",
+        "userPreferred": "Kyoushirou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b14917-xhGQDipFeqcD.png",
+      "voiceActors": [
+        {
+          "id": 96818,
+          "language": "Japanese",
+          "name": {
+            "first": "Shintarou",
+            "last": "Oohata",
+            "full": "Shintarou Oohata",
+            "native": "大畑伸太郎",
+            "userPreferred": "Shintarou Oohata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96818-yAH3Krh7Y7Uy.png"
+        },
+        {
+          "id": 96047,
+          "language": "English",
+          "name": {
+            "first": "Jessie James",
+            "last": "Grelle",
+            "full": "Jessie James Grelle",
+            "native": null,
+            "userPreferred": "Jessie James Grelle"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96047-E9nBWn3YL0Tn.jpg"
+        },
+        {
+          "id": 110101,
+          "language": "Korean",
+          "name": {
+            "first": "Hyeon Wu",
+            "last": "Byeon",
+            "full": "Hyeon Wu Byeon",
+            "native": "현우 변",
+            "userPreferred": "Hyeon Wu Byeon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15101.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4880,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Qing",
+        "last": "Lang",
+        "full": "Qing Lang",
+        "native": "青狼",
+        "userPreferred": "Qing Lang"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4880-SGOf62zWf4hE.png",
+      "voiceActors": [
+        {
+          "id": 95086,
+          "language": "Japanese",
+          "name": {
+            "first": "Jun",
+            "last": "Fukuyama",
+            "full": "Jun Fukuyama",
+            "native": "福山潤",
+            "userPreferred": "Jun Fukuyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95086-cwKYmhOFNtH5.png"
+        },
+        {
+          "id": 96608,
+          "language": "English",
+          "name": {
+            "first": "Don",
+            "last": "Rush",
+            "full": "Don Rush",
+            "native": null,
+            "userPreferred": "Don Rush"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96608-WzlD43XIlrMO.png"
+        }
+      ]
+    },
+    {
+      "id": 283449,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gonza",
+        "last": null,
+        "full": "Gonza",
+        "native": "ゴンザ",
+        "userPreferred": "Gonza"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b283449-SiTyEwGCbSlM.png",
+      "voiceActors": [
+        {
+          "id": 95125,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroaki",
+            "last": "Hirata",
+            "full": "Hiroaki Hirata",
+            "native": "平田広明",
+            "userPreferred": "Hiroaki Hirata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95125-NeFFiJupoDVj.png"
+        },
+        {
+          "id": 96848,
+          "language": "English",
+          "name": {
+            "first": "Andrew",
+            "last": "Love",
+            "full": "Andrew Love",
+            "native": null,
+            "userPreferred": "Andrew Love"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1848.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3624,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gora",
+        "last": null,
+        "full": "Gora",
+        "native": "ごら",
+        "userPreferred": "Gora"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3624.jpg",
+      "voiceActors": [
+        {
+          "id": 95139,
+          "language": "Japanese",
+          "name": {
+            "first": "Naoki",
+            "last": "Yanagi",
+            "full": "Naoki Yanagi",
+            "native": "直樹矢薙",
+            "userPreferred": "Naoki Yanagi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95139-F6HlfoxdS4jW.jpg"
+        },
+        {
+          "id": 95192,
+          "language": "English",
+          "name": {
+            "first": "Greg",
+            "last": "Ayres",
+            "full": "Greg Ayres",
+            "native": null,
+            "userPreferred": "Greg Ayres"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95192-igLHZjSO4eE0.png"
+        }
+      ]
+    },
+    {
+      "id": 4879,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lenny",
+        "last": "Vikro",
+        "full": "Lenny Vikro",
+        "native": "レニー・ヴィクロー",
+        "userPreferred": "Lenny Vikro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4879-KGSziY0dWDty.png",
+      "voiceActors": [
+        {
+          "id": 95144,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Toyoguchi",
+            "full": "Megumi Toyoguchi",
+            "native": "豊口めぐみ",
+            "userPreferred": "Megumi Toyoguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95144-9Y8CtDVmxogE.jpg"
+        },
+        {
+          "id": 95159,
+          "language": "English",
+          "name": {
+            "first": "Monica",
+            "last": "Rial",
+            "full": "Monica Rial",
+            "native": null,
+            "userPreferred": "Monica Rial"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95159-iTd65o5LhA62.png"
+        }
+      ]
+    },
+    {
+      "id": 283450,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shuuzou",
+        "last": "Chikura",
+        "full": "Shuuzou Chikura",
+        "native": "千倉周三",
+        "userPreferred": "Shuuzou Chikura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b283450-GiPORgmD7jsB.png",
+      "voiceActors": [
+        {
+          "id": 102260,
+          "language": "Japanese",
+          "name": {
+            "first": "Yutaka",
+            "last": "Nakano",
+            "full": "Yutaka Nakano",
+            "native": "仲野裕",
+            "userPreferred": "Yutaka Nakano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102260-OSLwIM0iBKFa.jpg"
+        },
+        {
+          "id": 103036,
+          "language": "English",
+          "name": {
+            "first": "Marty",
+            "last": "Fleck",
+            "full": "Marty Fleck",
+            "native": null,
+            "userPreferred": "Marty Fleck"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103036-np5jNWkWgOqC.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36309,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Narrator",
+        "last": null,
+        "full": "Narrator",
+        "native": "ナレーター",
+        "userPreferred": "Narrator"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36309-yRLEQYd2dDI5.jpg",
+      "voiceActors": [
+        {
+          "id": 95412,
+          "language": "Japanese",
+          "name": {
+            "first": "Hideo",
+            "last": "Ishikawa",
+            "full": "Hideo Ishikawa",
+            "native": "石川英郎",
+            "userPreferred": "Hideo Ishikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95412-czaGpvAm5pWx.png"
+        }
+      ]
+    }
+  ],
+  "relations": [],
+  "episodes": [
+    {
+      "id": "innocent-venus-episode-1",
+      "title": "Hell",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161221/original.jpg",
+      "number": 1,
+      "createdAt": "2014-11-16T20:31:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//innocent-venus-episode-1"
+    },
+    {
+      "id": "innocent-venus-episode-2",
+      "title": "Madness",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161228/original.jpg",
+      "number": 2,
+      "createdAt": "2014-11-16T20:31:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//innocent-venus-episode-2"
+    },
+    {
+      "id": "innocent-venus-episode-3",
+      "title": "Pirates",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161236/original.jpg",
+      "number": 3,
+      "createdAt": "2014-11-16T20:31:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//innocent-venus-episode-3"
+    },
+    {
+      "id": "innocent-venus-episode-4",
+      "title": "Invasion",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161242/original.jpg",
+      "number": 4,
+      "createdAt": "2014-11-16T20:31:47Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//innocent-venus-episode-4"
+    },
+    {
+      "id": "innocent-venus-episode-5",
+      "title": "Four Handed Performance",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161250/original.jpg",
+      "number": 5,
+      "createdAt": "2014-11-16T20:31:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//innocent-venus-episode-5"
+    },
+    {
+      "id": "innocent-venus-episode-6",
+      "title": "Rampage",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161258/original.jpg",
+      "number": 6,
+      "createdAt": "2014-11-16T20:31:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//innocent-venus-episode-6"
+    },
+    {
+      "id": "innocent-venus-episode-7",
+      "title": "Strategy",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161269/original.jpg",
+      "number": 7,
+      "createdAt": "2014-11-16T20:31:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//innocent-venus-episode-7"
+    },
+    {
+      "id": "innocent-venus-episode-8",
+      "title": "Forfeit",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161281/original.jpg",
+      "number": 8,
+      "createdAt": "2014-11-16T20:31:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//innocent-venus-episode-8"
+    },
+    {
+      "id": "innocent-venus-episode-9",
+      "title": "Aid",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161294/original.jpg",
+      "number": 9,
+      "createdAt": "2014-11-16T20:31:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//innocent-venus-episode-9"
+    },
+    {
+      "id": "innocent-venus-episode-10",
+      "title": "Determination",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161328/original.jpg",
+      "number": 10,
+      "createdAt": "2014-11-16T20:32:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//innocent-venus-episode-10"
+    },
+    {
+      "id": "innocent-venus-episode-11",
+      "title": "Beautiful God",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161335/original.jpg",
+      "number": 11,
+      "createdAt": "2014-11-16T20:32:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//innocent-venus-episode-11"
+    },
+    {
+      "id": "innocent-venus-episode-12",
+      "title": "World",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161339/original.jpg",
+      "number": 12,
+      "createdAt": "2014-11-16T20:32:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//innocent-venus-episode-12"
+    }
+  ]
+}

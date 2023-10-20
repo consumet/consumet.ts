@@ -1,0 +1,161 @@
+{
+  "id": "17727",
+  "title": {
+    "romaji": "Haitai Nanafa 2nd Season",
+    "english": null,
+    "native": "はいたい七葉 2"
+  },
+  "malId": 17727,
+  "synonyms": [
+    "Haitai Nana Fa 2"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b17727-owUS2NOjoSdu.jpg",
+  "popularity": 1200,
+  "color": "#e48650",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b17727-owUS2NOjoSdu.jpg",
+  "description": "Continuation of the first season.",
+  "status": "Completed",
+  "releaseDate": 2013,
+  "startDate": {
+    "year": 2013,
+    "month": 4,
+    "day": 6
+  },
+  "endDate": {
+    "year": 2013,
+    "month": 6,
+    "day": 29
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 56,
+  "duration": 3,
+  "genres": [
+    "Comedy",
+    "Supernatural"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Passione"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 77209,
+      "role": "MAIN",
+      "name": {
+        "first": "Nanao",
+        "last": "Kyan",
+        "full": "Nanao Kyan",
+        "native": "喜屋武七緒",
+        "userPreferred": "Nanao Kyan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/77209.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 77211,
+      "role": "MAIN",
+      "name": {
+        "first": "Nanafa",
+        "last": "Kyan",
+        "full": "Nanafa Kyan",
+        "native": "喜屋武七葉",
+        "userPreferred": "Nanafa Kyan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/77211.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 77213,
+      "role": "MAIN",
+      "name": {
+        "first": "Kokona",
+        "last": "Kyan",
+        "full": "Kokona Kyan",
+        "native": "喜屋武心七",
+        "userPreferred": "Kokona Kyan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/77213.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 77215,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kana",
+        "last": null,
+        "full": "Kana",
+        "native": "カーナ",
+        "userPreferred": "Kana"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/77215.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 77227,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Maiko",
+        "last": "Shimoji",
+        "full": "Maiko Shimoji",
+        "native": "下地舞子",
+        "userPreferred": "Maiko Shimoji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/77227.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 77231,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ojii",
+        "last": null,
+        "full": "Ojii",
+        "native": "おじぃ",
+        "userPreferred": "Ojii"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/77231.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 77233,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Obaa",
+        "last": null,
+        "full": "Obaa",
+        "native": "おばぁ",
+        "userPreferred": "Obaa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/77233.jpg",
+      "voiceActors": []
+    }
+  ],
+  "relations": [
+    {
+      "id": 15043,
+      "relationType": "PREQUEL",
+      "malId": 15043,
+      "title": {
+        "romaji": "Haitai Nanafa",
+        "english": null,
+        "native": "はいたい七葉",
+        "userPreferred": "Haitai Nanafa"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b15043-m7jfJrAGvFQp.jpg",
+      "color": "#e48650",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b15043-m7jfJrAGvFQp.jpg",
+      "rating": 55
+    }
+  ],
+  "episodes": []
+}

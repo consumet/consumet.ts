@@ -1,0 +1,120 @@
+{
+  "id": "15979",
+  "title": {
+    "romaji": "Eureka Seven AO: Aratanari Fukaki Ao",
+    "english": null,
+    "native": "エウレカセブンAO 新たなり深き青"
+  },
+  "malId": 15979,
+  "synonyms": [
+    "Eureka Seven AO Original Short Anime"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15979.jpg",
+  "popularity": 1027,
+  "color": "#50bbd6",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15979.jpg",
+  "description": "A short anime series that describes the everyday life of Ao and other Eureka Seven Ao characters.",
+  "status": "Completed",
+  "releaseDate": 2012,
+  "startDate": {
+    "year": 2012,
+    "month": 10,
+    "day": 5
+  },
+  "endDate": {
+    "year": 2012,
+    "month": 12,
+    "day": 7
+  },
+  "totalEpisodes": 10,
+  "currentEpisode": 10,
+  "rating": 50,
+  "duration": 1,
+  "genres": [
+    "Comedy",
+    "Slice of Life"
+  ],
+  "season": "FALL",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 53897,
+      "role": "MAIN",
+      "name": {
+        "first": "Ao",
+        "last": "Fukai",
+        "full": "Ao Fukai",
+        "native": "フカイ・アオ",
+        "userPreferred": "Ao Fukai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/53897.jpg",
+      "voiceActors": [
+        {
+          "id": 101445,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuutaro",
+            "last": "Honjou",
+            "full": "Yuutaro Honjou",
+            "native": "雄太郎  本城 ",
+            "userPreferred": "Yuutaro Honjou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6445.jpg"
+        }
+      ]
+    },
+    {
+      "id": 54877,
+      "role": "MAIN",
+      "name": {
+        "first": "Naru",
+        "last": "Arata",
+        "full": "Naru Arata",
+        "native": "アラタ・ナル",
+        "userPreferred": "Naru Arata"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/54877.jpg",
+      "voiceActors": [
+        {
+          "id": 106699,
+          "language": "Japanese",
+          "name": {
+            "first": "Kanako",
+            "last": "Miyamoto",
+            "full": "Kanako Miyamoto",
+            "native": "宮本佳那子",
+            "userPreferred": "Kanako Miyamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106699-K9r6MOJx17dZ.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 12471,
+      "relationType": "PARENT",
+      "malId": 12471,
+      "title": {
+        "romaji": "Eureka Seven AO",
+        "english": "Eureka Seven AO",
+        "native": "エウレカセブンAO",
+        "userPreferred": "Eureka Seven AO"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12471-XFE6k5eDGhOt.jpg",
+      "color": "#5da1f1",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12471-XFE6k5eDGhOt.jpg",
+      "rating": 61
+    }
+  ],
+  "episodes": []
+}

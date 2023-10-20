@@ -1,0 +1,558 @@
+{
+  "id": "1591",
+  "title": {
+    "romaji": "Kujibiki♥Unbalance (TV)",
+    "english": null,
+    "native": "くじびき♥アンバランス"
+  },
+  "malId": 1591,
+  "synonyms": [
+    "Kujian",
+    "Kujibiki♥Unbalance (2006)"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1591-iRgw2UFRYtB8.png",
+  "popularity": 2521,
+  "color": "#f1d6bb",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1591-iRgw2UFRYtB8.png",
+  "description": "Once a year prestigious Rikkyouin High School has a lottery to determine the next year's Student Council membership. On their first day of school Chihiro Enomoto wins the presidency while his childhood friend Tokino Akiyama picks the vice-president's ticket. There is one catch though, they must first pass a one year apprenticeship under the current Student Council and any failure to perform the tasks assigned, however minor, will result in immediate expulsion from the school.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2006,
+  "startDate": {
+    "year": 2006,
+    "month": 7,
+    "day": 10
+  },
+  "endDate": {
+    "year": 2006,
+    "month": 12,
+    "day": 23
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 55,
+  "duration": 23,
+  "genres": [
+    "Comedy",
+    "Romance"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Ajiado"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 240,
+      "malId": 240,
+      "title": {
+        "romaji": "Genshiken",
+        "english": "Genshiken",
+        "native": "げんしけん",
+        "userPreferred": "Genshiken"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx240-YaEXxztQRFix.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/240-FbZV9cTu6ixW.jpg",
+      "rating": 74,
+      "type": "TV"
+    },
+    {
+      "id": 125,
+      "malId": 125,
+      "title": {
+        "romaji": "Futakoi",
+        "english": "Twin Love",
+        "native": "双恋",
+        "userPreferred": "Futakoi"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/125.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/125.jpg",
+      "rating": 59,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 14615,
+      "role": "MAIN",
+      "name": {
+        "first": "Tokino",
+        "last": "Akiyama",
+        "full": "Tokino Akiyama",
+        "native": "秋山時乃",
+        "userPreferred": "Tokino Akiyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14615.jpg",
+      "voiceActors": [
+        {
+          "id": 95032,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Nonaka",
+            "full": "Ai Nonaka",
+            "native": "野中藍",
+            "userPreferred": "Ai Nonaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95032-P8Hvtz5iaaoI.png"
+        },
+        {
+          "id": 95905,
+          "language": "English",
+          "name": {
+            "first": "Veronica",
+            "last": "Taylor",
+            "full": "Veronica Taylor",
+            "native": null,
+            "userPreferred": "Veronica Taylor"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95905-X3mxkcZkmmKN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15033,
+      "role": "MAIN",
+      "name": {
+        "first": "Ritsuko Kübel",
+        "last": "Kettenkrad",
+        "full": "Ritsuko Kübel Kettenkrad",
+        "native": "律子・キューベル・ケッテンクラート",
+        "userPreferred": "Ritsuko Kübel Kettenkrad"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15033.jpg",
+      "voiceActors": [
+        {
+          "id": 95070,
+          "language": "Japanese",
+          "name": {
+            "first": "Ami",
+            "last": "Koshimizu",
+            "full": "Ami Koshimizu",
+            "native": "小清水亜美",
+            "userPreferred": "Ami Koshimizu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95070-klkIfKz1VItS.png"
+        },
+        {
+          "id": 100908,
+          "language": "English",
+          "name": {
+            "first": "Emlyn",
+            "last": "Morinelli",
+            "full": "Emlyn Morinelli",
+            "native": null,
+            "userPreferred": "Emlyn Morinelli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100908-8cGadyzbHqPb.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14619,
+      "role": "MAIN",
+      "name": {
+        "first": "Koyuki",
+        "last": "Asagiri",
+        "full": "Koyuki Asagiri",
+        "native": "朝霧小雪",
+        "userPreferred": "Koyuki Asagiri"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14619.jpg",
+      "voiceActors": [
+        {
+          "id": 95712,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuko",
+            "last": "Kojima",
+            "full": "Kazuko Kojima",
+            "native": "こじまかずこ",
+            "userPreferred": "Kazuko Kojima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/712.jpg"
+        },
+        {
+          "id": 96325,
+          "language": "English",
+          "name": {
+            "first": "Michele",
+            "last": "Knotz",
+            "full": "Michele Knotz",
+            "native": null,
+            "userPreferred": "Michele Knotz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1325.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14616,
+      "role": "MAIN",
+      "name": {
+        "first": "Renko",
+        "last": "Kamishakuji",
+        "full": "Renko Kamishakuji",
+        "native": "上石神井蓮子",
+        "userPreferred": "Renko Kamishakuji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14616.jpg",
+      "voiceActors": [
+        {
+          "id": 95725,
+          "language": "Japanese",
+          "name": {
+            "first": "Kumiko",
+            "last": "Nishihara",
+            "full": "Kumiko Nishihara",
+            "native": "西原久美子",
+            "userPreferred": "Kumiko Nishihara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95725-3IPq0deHGIj2.jpg"
+        },
+        {
+          "id": 100127,
+          "language": "English",
+          "name": {
+            "first": "Debora",
+            "last": "Rabbai",
+            "full": "Debora Rabbai",
+            "native": null,
+            "userPreferred": "Debora Rabbai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5127.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14612,
+      "role": "MAIN",
+      "name": {
+        "first": "Chihiro",
+        "last": "Enomoto",
+        "full": "Chihiro Enomoto",
+        "native": null,
+        "userPreferred": "Chihiro Enomoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14612.jpg",
+      "voiceActors": [
+        {
+          "id": 95451,
+          "language": "Japanese",
+          "name": {
+            "first": "Fujiko",
+            "last": "Takimoto",
+            "full": "Fujiko Takimoto",
+            "native": "富士子 瀧本",
+            "userPreferred": "Fujiko Takimoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95451-NuJHY4CzBM8O.jpg"
+        },
+        {
+          "id": 100145,
+          "language": "English",
+          "name": {
+            "first": "Rich",
+            "last": "McNanna",
+            "full": "Rich McNanna",
+            "native": null,
+            "userPreferred": "Rich McNanna"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100145-2TZVqLxNyXVJ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19578,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Komaki",
+        "last": "Asagiri",
+        "full": "Komaki Asagiri",
+        "native": "朝霧小牧",
+        "userPreferred": "Komaki Asagiri"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/19578.jpg",
+      "voiceActors": [
+        {
+          "id": 95616,
+          "language": "Japanese",
+          "name": {
+            "first": "Masayo",
+            "last": "Kurata",
+            "full": "Masayo Kurata",
+            "native": "倉田雅世",
+            "userPreferred": "Masayo Kurata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95616-CmlD2OKyZCss.png"
+        },
+        {
+          "id": 102251,
+          "language": "English",
+          "name": {
+            "first": "Amanda",
+            "last": "Goodman",
+            "full": "Amanda Goodman",
+            "native": null,
+            "userPreferred": "Amanda Goodman"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7251.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15034,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaoruko",
+        "last": "Yamada",
+        "full": "Kaoruko Yamada",
+        "native": "山田薫子",
+        "userPreferred": "Kaoruko Yamada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15034.jpg",
+      "voiceActors": [
+        {
+          "id": 95105,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Gotou",
+            "full": "Yuuko Gotou",
+            "native": "後藤邑子",
+            "userPreferred": "Yuuko Gotou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95105-5r4AYMjJS51Y.png"
+        },
+        {
+          "id": 95783,
+          "language": "English",
+          "name": {
+            "first": "Lisa",
+            "last": "Ortiz",
+            "full": "Lisa Ortiz",
+            "native": null,
+            "userPreferred": "Lisa Ortiz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95783-B8D6v4SFpgA7.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18660,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kasumi",
+        "last": "Kisaragi",
+        "full": "Kasumi Kisaragi",
+        "native": "如月香澄",
+        "userPreferred": "Kasumi Kisaragi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18660.jpg",
+      "voiceActors": [
+        {
+          "id": 95140,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukana",
+            "last": "",
+            "full": "Yukana",
+            "native": "ゆかな",
+            "userPreferred": "Yukana"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95140-sFp0uedEmZ9f.png"
+        },
+        {
+          "id": 96503,
+          "language": "English",
+          "name": {
+            "first": "Rachael",
+            "last": "Lillis",
+            "full": "Rachael Lillis",
+            "native": null,
+            "userPreferred": "Rachael Lillis"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96503-BpnE3dFXJnyF.jpg"
+        }
+      ]
+    },
+    {
+      "id": 30627,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mugio",
+        "last": "Rokuhara",
+        "full": "Mugio Rokuhara",
+        "native": "六原麦男",
+        "userPreferred": "Mugio Rokuhara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/30627.jpg",
+      "voiceActors": [
+        {
+          "id": 95186,
+          "language": "Japanese",
+          "name": {
+            "first": "Shintarou",
+            "last": "Asanuma",
+            "full": "Shintarou Asanuma",
+            "native": "浅沼晋太郎",
+            "userPreferred": "Shintarou Asanuma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95186-XMdPPqYhMrwN.jpg"
+        },
+        {
+          "id": 102231,
+          "language": "English",
+          "name": {
+            "first": "Anthony",
+            "last": "Salerno",
+            "full": "Anthony Salerno",
+            "native": null,
+            "userPreferred": "Anthony Salerno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102231-6WPyta62vcoL.jpg"
+        }
+      ]
+    },
+    {
+      "id": 30625,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Risa",
+        "last": "Humvee",
+        "full": "Risa Humvee",
+        "native": "リサ·ハンビー",
+        "userPreferred": "Risa Humvee"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/30625.jpg",
+      "voiceActors": [
+        {
+          "id": 95429,
+          "language": "Japanese",
+          "name": {
+            "first": "Reiko",
+            "last": "Takagi",
+            "full": "Reiko Takagi",
+            "native": "高木礼子",
+            "userPreferred": "Reiko Takagi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95429-UOUUXfVWaQN2.png"
+        },
+        {
+          "id": 105291,
+          "language": "English",
+          "name": {
+            "first": "Dana",
+            "last": "Halsted",
+            "full": "Dana Halsted",
+            "native": null,
+            "userPreferred": "Dana Halsted"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10291.jpg"
+        }
+      ]
+    },
+    {
+      "id": 30626,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shinobu",
+        "last": "Enomoto",
+        "full": "Shinobu Enomoto",
+        "native": "榎本忍",
+        "userPreferred": "Shinobu Enomoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/30626.jpg",
+      "voiceActors": [
+        {
+          "id": 95503,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Sasamoto",
+            "full": "Yuuko Sasamoto",
+            "native": "笹本優子",
+            "userPreferred": "Yuuko Sasamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95503-GnKAFk8sIBPc.jpg"
+        },
+        {
+          "id": 100124,
+          "language": "English",
+          "name": {
+            "first": "Georgette",
+            "last": "Reilly",
+            "full": "Georgette Reilly",
+            "native": null,
+            "userPreferred": "Georgette Reilly"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5124.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 34156,
+      "relationType": "ADAPTATION",
+      "malId": 4156,
+      "title": {
+        "romaji": "Kujibiki Unbalance",
+        "english": "Kujibiki Unbalance",
+        "native": "くじびきアンバランス",
+        "userPreferred": "Kujibiki Unbalance"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx34156-7229amoJVwIn.jpg",
+      "color": "#fe930d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx34156-7229amoJVwIn.jpg",
+      "rating": 63
+    },
+    {
+      "id": 669,
+      "relationType": "ALTERNATIVE",
+      "malId": 669,
+      "title": {
+        "romaji": "Kujibiki Unbalance",
+        "english": null,
+        "native": "くじびきアンバランス",
+        "userPreferred": "Kujibiki Unbalance"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/669.jpg",
+      "color": "#e4d65d",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/669.jpg",
+      "rating": 55
+    },
+    {
+      "id": 1813,
+      "relationType": "PARENT",
+      "malId": 1813,
+      "title": {
+        "romaji": "Genshiken OVA",
+        "english": null,
+        "native": "げんしけん OVA",
+        "userPreferred": "Genshiken OVA"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1813.jpg",
+      "color": "#e493bb",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1813.jpg",
+      "rating": 73
+    }
+  ],
+  "episodes": []
+}

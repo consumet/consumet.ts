@@ -1,0 +1,64 @@
+{
+  "id": "126258",
+  "title": {
+    "romaji": "Hana no Zundamaru: Junk",
+    "english": null,
+    "native": "花のずんだ丸 じゃんく"
+  },
+  "malId": 22953,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b126258-SXPGCAjnrxSW.png",
+  "popularity": 71,
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b126258-SXPGCAjnrxSW.png",
+  "description": "Zundamaru is back... For now! Even without missions, we elite ninjas face grave dangers every day! (Anime Bancho)",
+  "status": "Completed",
+  "releaseDate": 2014,
+  "startDate": {
+    "year": 2014,
+    "month": 2,
+    "day": 13
+  },
+  "endDate": {
+    "year": 2014,
+    "month": 2,
+    "day": 27
+  },
+  "totalEpisodes": 3,
+  "currentEpisode": 3,
+  "rating": null,
+  "duration": 1,
+  "genres": [
+    "Action",
+    "Comedy"
+  ],
+  "season": null,
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [],
+  "characters": [],
+  "relations": [
+    {
+      "id": 100983,
+      "relationType": "PREQUEL",
+      "malId": 20873,
+      "title": {
+        "romaji": "Hana no Zundamaru",
+        "english": "Hana no Zundamaru",
+        "native": "花のずんだ丸",
+        "userPreferred": "Hana no Zundamaru"
+      },
+      "status": "Completed",
+      "episodes": 8,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/100983-EzaIm2fbP8TX.jpg",
+      "color": "#aef1bb",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/100983-EzaIm2fbP8TX.jpg",
+      "rating": 50
+    }
+  ],
+  "episodes": []
+}

@@ -1,0 +1,483 @@
+{
+  "id": "101169",
+  "title": {
+    "romaji": "IDOLiSH7 Vibrato",
+    "english": "IDOLiSH7 Vibrato",
+    "native": "アイドリッシュセブンVibrato"
+  },
+  "malId": 36963,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "y4Id2KGDbb8",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/y4Id2KGDbb8/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b101169-ER4hSLwQH4F9.jpg",
+  "popularity": 3896,
+  "color": "#e4c9a1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101169-yHNUIrnpbzvt.jpg",
+  "description": "A spin-off series of the IDOLiSH7 TV series streamed exclusively on YouTube.",
+  "status": "Completed",
+  "releaseDate": 2018,
+  "startDate": {
+    "year": 2018,
+    "month": 2,
+    "day": 17
+  },
+  "endDate": {
+    "year": 2019,
+    "month": 3,
+    "day": 7
+  },
+  "totalEpisodes": 8,
+  "currentEpisode": 8,
+  "rating": 77,
+  "duration": 14,
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Music",
+    "Slice of Life"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "TROYCA"
+  ],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [
+    {
+      "id": 136192,
+      "malId": 49310,
+      "title": {
+        "romaji": "Fruits Basket: prelude",
+        "english": "Fruits Basket -prelude-",
+        "native": "フルーツバスケット -prelude-",
+        "userPreferred": "Fruits Basket: prelude"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136192-hxeNRzBHizBZ.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/136192-laocRSlhO6dc.jpg",
+      "rating": 84,
+      "type": "MOVIE"
+    },
+    {
+      "id": 134710,
+      "malId": 49053,
+      "title": {
+        "romaji": "Given: Uragawa no Sonzai",
+        "english": "given: on the other hand",
+        "native": "ギヴン うらがわの存在",
+        "userPreferred": "Given: Uragawa no Sonzai"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx134710-m3VYouLXKIYv.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx134710-m3VYouLXKIYv.jpg",
+      "rating": 81,
+      "type": "OVA"
+    },
+    {
+      "id": 128890,
+      "malId": 46654,
+      "title": {
+        "romaji": "IDOLiSH7: Third BEAT! Part 2",
+        "english": "IDOLiSH7 Third BEAT! Part 2",
+        "native": "アイドリッシュセブン Third BEAT! 第2クール",
+        "userPreferred": "IDOLiSH7: Third BEAT! Part 2"
+      },
+      "status": "Completed",
+      "episodes": 17,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx128890-gx7O2sOT2tFy.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/128890-Hqjpgvk0oXKg.jpg",
+      "rating": 83,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 89894,
+      "role": "MAIN",
+      "name": {
+        "first": "Tenn",
+        "last": "Kujo",
+        "full": "Tenn Kujo",
+        "native": "九条 天",
+        "userPreferred": "Tenn Kujo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b89894-oDRhwLUABVF7.png",
+      "voiceActors": [
+        {
+          "id": 113227,
+          "language": "Japanese",
+          "name": {
+            "first": "Souma",
+            "last": "Saitou",
+            "full": "Souma Saitou",
+            "native": "斉藤壮馬",
+            "userPreferred": "Souma Saitou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n113227-x0UXLNL6v08X.png"
+        }
+      ]
+    },
+    {
+      "id": 126246,
+      "role": "MAIN",
+      "name": {
+        "first": "Riku",
+        "last": "Nanase",
+        "full": "Riku Nanase",
+        "native": "七瀬陸",
+        "userPreferred": "Riku Nanase"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b126246-X8NA66o9wf4z.png",
+      "voiceActors": [
+        {
+          "id": 95819,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenshou",
+            "last": "Ono",
+            "full": "Kenshou Ono",
+            "native": "小野賢章",
+            "userPreferred": "Kenshou Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95819-O4fosAY0a1Ml.jpg"
+        }
+      ]
+    },
+    {
+      "id": 126250,
+      "role": "MAIN",
+      "name": {
+        "first": "Gaku",
+        "last": "Yaotome",
+        "full": "Gaku Yaotome",
+        "native": "八乙女 楽",
+        "userPreferred": "Gaku Yaotome"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/126250-FfoBFNdnXi2T.png",
+      "voiceActors": [
+        {
+          "id": 95098,
+          "language": "Japanese",
+          "name": {
+            "first": "Wataru",
+            "last": "Hatano",
+            "full": "Wataru Hatano",
+            "native": "羽多野渉",
+            "userPreferred": "Wataru Hatano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95098-x6T2xOTuvkuY.jpg"
+        }
+      ]
+    },
+    {
+      "id": 126248,
+      "role": "MAIN",
+      "name": {
+        "first": "Nagi",
+        "last": "Rokuya",
+        "full": "Nagi Rokuya",
+        "native": "六弥 ナギ",
+        "userPreferred": "Nagi Rokuya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b126248-TQtG2jVaVvdb.png",
+      "voiceActors": [
+        {
+          "id": 102695,
+          "language": "Japanese",
+          "name": {
+            "first": "Takuya",
+            "last": "Eguchi",
+            "full": "Takuya Eguchi",
+            "native": "江口拓也",
+            "userPreferred": "Takuya Eguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102695-dGzsJkor0KMj.jpg"
+        }
+      ]
+    },
+    {
+      "id": 126249,
+      "role": "MAIN",
+      "name": {
+        "first": "Ryuunosuke",
+        "last": "Tsunashi",
+        "full": "Ryuunosuke Tsunashi",
+        "native": "十龍之介",
+        "userPreferred": "Ryuunosuke Tsunashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b126249-K6asVfNhdnaM.png",
+      "voiceActors": [
+        {
+          "id": 104580,
+          "language": "Japanese",
+          "name": {
+            "first": "Takuya",
+            "last": "Satou",
+            "full": "Takuya Satou",
+            "native": "佐藤拓也",
+            "userPreferred": "Takuya Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104580-UtA5zydwu3ai.png"
+        }
+      ]
+    },
+    {
+      "id": 126106,
+      "role": "MAIN",
+      "name": {
+        "first": "Yamato",
+        "last": "Nikaidou",
+        "full": "Yamato Nikaidou",
+        "native": "二階堂大和",
+        "userPreferred": "Yamato Nikaidou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b126106-FeOtYXgj8ufY.jpg",
+      "voiceActors": [
+        {
+          "id": 114641,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuusuke",
+            "last": "Shirai",
+            "full": "Yuusuke Shirai",
+            "native": "白井悠介",
+            "userPreferred": "Yuusuke Shirai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n114641-sFxCz9z3KQC9.png"
+        }
+      ]
+    },
+    {
+      "id": 126095,
+      "role": "MAIN",
+      "name": {
+        "first": "Tamaki",
+        "last": "Yotsuba",
+        "full": "Tamaki Yotsuba",
+        "native": "四葉環",
+        "userPreferred": "Tamaki Yotsuba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/126095-C593FfKnr9HZ.png",
+      "voiceActors": [
+        {
+          "id": 95857,
+          "language": "Japanese",
+          "name": {
+            "first": "KENN",
+            "last": "",
+            "full": "KENN",
+            "native": "KENN",
+            "userPreferred": "KENN"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95857-oHOhHwEDyAlL.png"
+        }
+      ]
+    },
+    {
+      "id": 126159,
+      "role": "MAIN",
+      "name": {
+        "first": "Iori",
+        "last": "Izumi",
+        "full": "Iori Izumi",
+        "native": "和泉 一織",
+        "userPreferred": "Iori Izumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b126159-B5UXXZ0mRtdt.png",
+      "voiceActors": [
+        {
+          "id": 107017,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiki",
+            "last": "Masuda",
+            "full": "Toshiki Masuda",
+            "native": "増田俊樹",
+            "userPreferred": "Toshiki Masuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107017-Jv96B9DBJOy9.png"
+        }
+      ]
+    },
+    {
+      "id": 125894,
+      "role": "MAIN",
+      "name": {
+        "first": "Mitsuki",
+        "last": "Izumi",
+        "full": "Mitsuki Izumi",
+        "native": "和泉三月",
+        "userPreferred": "Mitsuki Izumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b125894-dQdnk7GPrHri.png",
+      "voiceActors": [
+        {
+          "id": 95556,
+          "language": "Japanese",
+          "name": {
+            "first": "Tsubasa",
+            "last": "Yonaga",
+            "full": "Tsubasa Yonaga",
+            "native": "代永翼",
+            "userPreferred": "Tsubasa Yonaga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95556-Tgolp8AzO49n.png"
+        }
+      ]
+    },
+    {
+      "id": 126247,
+      "role": "MAIN",
+      "name": {
+        "first": "Sougo",
+        "last": "Osaka",
+        "full": "Sougo Osaka",
+        "native": "逢坂壮五",
+        "userPreferred": "Sougo Osaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b126247-OIlJ8QIB4fdN.png",
+      "voiceActors": [
+        {
+          "id": 95991,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsushi",
+            "last": "Abe",
+            "full": "Atsushi Abe",
+            "native": "阿部敦",
+            "userPreferred": "Atsushi Abe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95991-4u24gUBgqeTA.jpg"
+        }
+      ]
+    },
+    {
+      "id": 127081,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tsumugi",
+        "last": "Takanashi",
+        "full": "Tsumugi Takanashi",
+        "native": "小鳥遊紡",
+        "userPreferred": "Tsumugi Takanashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b127081-nuRCpkrxVf7v.jpg",
+      "voiceActors": [
+        {
+          "id": 101560,
+          "language": "Japanese",
+          "name": {
+            "first": "Satomi",
+            "last": "Satou",
+            "full": "Satomi Satou",
+            "native": "佐藤聡美",
+            "userPreferred": "Satomi Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101560-x0Va6GS2YMeH.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 87495,
+      "relationType": "PARENT",
+      "malId": 33899,
+      "title": {
+        "romaji": "IDOLiSH7",
+        "english": "IDOLiSH7",
+        "native": "アイドリッシュセブン",
+        "userPreferred": "IDOLiSH7"
+      },
+      "status": "Completed",
+      "episodes": 17,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx87495-ARGOIUGZreoN.jpg",
+      "color": "#e4a143",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/87495-nFpvMZCbfJNZ.jpg",
+      "rating": 75
+    }
+  ],
+  "episodes": [
+    {
+      "id": "idolish7-vibrato-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b101169-ER4hSLwQH4F9.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//idolish7-vibrato-episode-1"
+    },
+    {
+      "id": "idolish7-vibrato-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b101169-ER4hSLwQH4F9.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//idolish7-vibrato-episode-2"
+    },
+    {
+      "id": "idolish7-vibrato-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b101169-ER4hSLwQH4F9.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//idolish7-vibrato-episode-3"
+    },
+    {
+      "id": "idolish7-vibrato-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b101169-ER4hSLwQH4F9.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//idolish7-vibrato-episode-4"
+    },
+    {
+      "id": "idolish7-vibrato-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b101169-ER4hSLwQH4F9.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//idolish7-vibrato-episode-5"
+    },
+    {
+      "id": "idolish7-vibrato-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b101169-ER4hSLwQH4F9.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//idolish7-vibrato-episode-6"
+    },
+    {
+      "id": "idolish7-vibrato-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b101169-ER4hSLwQH4F9.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//idolish7-vibrato-episode-7"
+    },
+    {
+      "id": "idolish7-vibrato-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b101169-ER4hSLwQH4F9.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//idolish7-vibrato-episode-8"
+    }
+  ]
+}

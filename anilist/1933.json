@@ -1,0 +1,449 @@
+{
+  "id": "1933",
+  "title": {
+    "romaji": "Growlanser IV: Wayfarer of the time",
+    "english": "Growlanser IV: Wayfarer of Time",
+    "native": "グローランサーIV ~Wayfarer of the time~"
+  },
+  "malId": 1933,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1933-dFQ0KXtmfaLL.jpg",
+  "popularity": 545,
+  "color": "#e4935d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1933-7GFCQpLeKzDU.jpg",
+  "description": "A promotional ova that came with the PS2 game, Growlanser IV Returns which is an add-on featuring a compilation of three short stories that is told in visual novel style.<br><br>\nSince it is a promotional ova, various main characters from Growlanser I, Growlanser II, and Growlanser III do appear in the ED. Actually, some of the fairies of these main characters do appear in Growlanser IV as that the entire Growlanser story is based on anti-war featuring time freeze, time traveling, and parallel worlds.",
+  "status": "Completed",
+  "releaseDate": 2005,
+  "startDate": {
+    "year": 2005,
+    "month": 3,
+    "day": 10
+  },
+  "endDate": {
+    "year": 2005,
+    "month": 3,
+    "day": 10
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 44,
+  "duration": 30,
+  "genres": [
+    "Action"
+  ],
+  "season": "SPRING",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 26145,
+      "role": "MAIN",
+      "name": {
+        "first": "Dianna",
+        "last": "Silvernale",
+        "full": "Dianna Silvernale",
+        "native": "ディアーナ・シルヴァネール",
+        "userPreferred": "Dianna Silvernale"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26145.jpg",
+      "voiceActors": [
+        {
+          "id": 95602,
+          "language": "Japanese",
+          "name": {
+            "first": "Mie",
+            "last": "Sonozaki",
+            "full": "Mie Sonozaki",
+            "native": "園崎未恵",
+            "userPreferred": "Mie Sonozaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95602-kU7d6TvluxWB.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10761,
+      "role": "MAIN",
+      "name": {
+        "first": "Frane",
+        "last": null,
+        "full": "Frane",
+        "native": "フレーネ",
+        "userPreferred": "Frane"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10761.jpg",
+      "voiceActors": [
+        {
+          "id": 96597,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuki",
+            "last": "Makishima",
+            "full": "Yuki Makishima",
+            "native": "有希 牧島",
+            "userPreferred": "Yuki Makishima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1597.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6681,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Crevaniel",
+        "last": null,
+        "full": "Crevaniel",
+        "native": "クレヴァニール",
+        "userPreferred": "Crevaniel"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6681.jpg",
+      "voiceActors": [
+        {
+          "id": 95047,
+          "language": "Japanese",
+          "name": {
+            "first": "Naozumi",
+            "last": "Takahashi",
+            "full": "Naozumi Takahashi",
+            "native": "高橋直純",
+            "userPreferred": "Naozumi Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95047-TpYPJprWRBE3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 26147,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Alphonce",
+        "last": "Ordineil",
+        "full": "Alphonce Ordineil",
+        "native": "アルフォンス・オーディネル",
+        "userPreferred": "Alphonce Ordineil"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26147.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 26158,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Xenos",
+        "last": "Langley",
+        "full": "Xenos Langley",
+        "native": "ゼノス・ラングレー",
+        "userPreferred": "Xenos Langley"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26158.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 26148,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Crestfer",
+        "last": "Ordineil",
+        "full": "Crestfer Ordineil",
+        "native": "クリストファー・オーディネル",
+        "userPreferred": "Crestfer Ordineil"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26148.jpg",
+      "voiceActors": [
+        {
+          "id": 95064,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroki",
+            "last": "Takahashi",
+            "full": "Hiroki Takahashi",
+            "native": "高橋広樹",
+            "userPreferred": "Hiroki Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95064-p83l3UvfQ6n6.png"
+        }
+      ]
+    },
+    {
+      "id": 26151,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Carmaine",
+        "last": "Fallsmyer",
+        "full": "Carmaine Fallsmyer",
+        "native": "カーマイン・フォルスマイヤー",
+        "userPreferred": "Carmaine Fallsmyer"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26151.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 26159,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Karen",
+        "last": "Langley",
+        "full": "Karen Langley",
+        "native": "カレン・ラングレー",
+        "userPreferred": "Karen Langley"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26159.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 26144,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Eliza",
+        "last": "Mayfield",
+        "full": "Eliza Mayfield",
+        "native": "イライザ・メイフィールド",
+        "userPreferred": "Eliza Mayfield"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26144.jpg",
+      "voiceActors": [
+        {
+          "id": 95077,
+          "language": "Japanese",
+          "name": {
+            "first": "Masumi",
+            "last": "Asano",
+            "full": "Masumi Asano",
+            "native": "浅野真澄",
+            "userPreferred": "Masumi Asano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95077-d2OK4xiiRWAu.png"
+        }
+      ]
+    },
+    {
+      "id": 26152,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tippi",
+        "last": null,
+        "full": "Tippi",
+        "native": "ティピ",
+        "userPreferred": "Tippi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26152.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 26160,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Wein",
+        "last": "Cruz",
+        "full": "Wein Cruz",
+        "native": "ウェイン・クルーズ",
+        "userPreferred": "Wein Cruz"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26160.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 26143,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Vallery",
+        "last": null,
+        "full": "Vallery",
+        "native": "ヴァレリー",
+        "userPreferred": "Vallery"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26143.jpg",
+      "voiceActors": [
+        {
+          "id": 95079,
+          "language": "Japanese",
+          "name": {
+            "first": "Takahiro",
+            "last": "Sakurai",
+            "full": "Takahiro Sakurai",
+            "native": "櫻井孝宏",
+            "userPreferred": "Takahiro Sakurai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95079-MdbWTLxPUvFf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 26153,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Julia",
+        "last": "Douglas",
+        "full": "Julia Douglas",
+        "native": "ジュリア・ダグラス",
+        "userPreferred": "Julia Douglas"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26153.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 26161,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Charlone",
+        "last": "Claudius",
+        "full": "Charlone Claudius",
+        "native": "シャルローネ・クラウディオス",
+        "userPreferred": "Charlone Claudius"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26161.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 26142,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rems",
+        "last": null,
+        "full": "Rems",
+        "native": "レムス",
+        "userPreferred": "Rems"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26142.jpg",
+      "voiceActors": [
+        {
+          "id": 95154,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouko",
+            "last": "Nagata",
+            "full": "Ryouko Nagata",
+            "native": "永田亮子",
+            "userPreferred": "Ryouko Nagata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/154.jpg"
+        }
+      ]
+    },
+    {
+      "id": 26154,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ernest",
+        "last": "Lyell",
+        "full": "Ernest Lyell",
+        "native": "アーネスト･ライエル",
+        "userPreferred": "Ernest Lyell"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26154.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 26162,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hans",
+        "last": "Bearnt",
+        "full": "Hans Bearnt",
+        "native": "ハンス・バート",
+        "userPreferred": "Hans Bearnt"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26162.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 26155,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Eliotte",
+        "last": null,
+        "full": "Eliotte",
+        "native": "エリオット",
+        "userPreferred": "Eliotte"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26155.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 26163,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Maximillian",
+        "last": "Schneider",
+        "full": "Maximillian Schneider",
+        "native": "マクシミリアン・シュナイダー",
+        "userPreferred": "Maximillian Schneider"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b26163-zvfyGB7lowBB.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 26156,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ariost",
+        "last": null,
+        "full": "Ariost",
+        "native": "アリオスト",
+        "userPreferred": "Ariost"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26156.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 26165,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Riviera",
+        "last": "Marius",
+        "full": "Riviera Marius",
+        "native": "リビエラ・マリウス",
+        "userPreferred": "Riviera Marius"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26165.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 26146,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Belhart",
+        "last": "Munzer",
+        "full": "Belhart Munzer",
+        "native": "ミュンツァ",
+        "userPreferred": "Belhart Munzer"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26146.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 26157,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Misha",
+        "last": null,
+        "full": "Misha",
+        "native": "ミーシャ",
+        "userPreferred": "Misha"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26157.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 26167,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Orpheus",
+        "last": "Liedbulk",
+        "full": "Orpheus Liedbulk",
+        "native": "オルフェウス・リードブルク",
+        "userPreferred": "Orpheus Liedbulk"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26167.jpg",
+      "voiceActors": []
+    }
+  ],
+  "relations": [],
+  "episodes": []
+}

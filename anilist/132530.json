@@ -1,0 +1,267 @@
+{
+  "id": "132530",
+  "title": {
+    "romaji": "Hanhua Riji 3",
+    "english": "God Troubles Me 3",
+    "native": "汉化日记 第三季"
+  },
+  "malId": 50401,
+  "synonyms": [
+    "Sacrée galère ! 3"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "CN",
+  "trailer": {
+    "id": "Pn57QeC0Sq4",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/Pn57QeC0Sq4/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx132530-sN2TnsOMclNe.png",
+  "popularity": 482,
+  "color": "#50aec9",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx132530-sN2TnsOMclNe.png",
+  "description": "The third season of <i>Hanhua Riji</i>.",
+  "status": "Completed",
+  "releaseDate": 2022,
+  "startDate": {
+    "year": 2022,
+    "month": 7,
+    "day": 31
+  },
+  "endDate": {
+    "year": 2022,
+    "month": 10,
+    "day": 9
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 69,
+  "duration": 15,
+  "genres": [
+    "Comedy",
+    "Slice of Life",
+    "Supernatural"
+  ],
+  "season": null,
+  "studios": [
+    "L² Studio"
+  ],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [
+    {
+      "id": 15417,
+      "malId": 15417,
+      "title": {
+        "romaji": "Gintama': Enchousen",
+        "english": "Gintama Season 3",
+        "native": "銀魂’延長戦",
+        "userPreferred": "Gintama': Enchousen"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15417-Uc2uNdWEixwi.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15417-0T9JCwFZM99Q.jpg",
+      "rating": 89,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 219261,
+      "role": "MAIN",
+      "name": {
+        "first": "",
+        "last": "Dikui Xing",
+        "full": "Dikui Xing",
+        "native": "地魁星",
+        "userPreferred": "Dikui Xing"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b219261-6KqDxghsMjpr.png",
+      "voiceActors": [
+        {
+          "id": 163165,
+          "language": "Chinese",
+          "name": {
+            "first": "Tengxin",
+            "last": "",
+            "full": "Tengxin",
+            "native": "藤新",
+            "userPreferred": "Tengxin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n163165-M71Ui3wUubzz.png"
+        }
+      ]
+    },
+    {
+      "id": 219263,
+      "role": "MAIN",
+      "name": {
+        "first": "Moting",
+        "last": "Su",
+        "full": "Moting Su",
+        "native": "苏莫婷",
+        "userPreferred": "Moting Su"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b219263-oHqJzstD0Hrb.png",
+      "voiceActors": [
+        {
+          "id": 219265,
+          "language": "Chinese",
+          "name": {
+            "first": "Feifei",
+            "last": "Qiao",
+            "full": "Feifei Qiao",
+            "native": "乔菲菲",
+            "userPreferred": "Feifei Qiao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n219265-wdHafe23qh3Q.png"
+        }
+      ]
+    },
+    {
+      "id": 219264,
+      "role": "MAIN",
+      "name": {
+        "first": "",
+        "last": "Tianji Xing",
+        "full": "Tianji Xing",
+        "native": "天机星",
+        "userPreferred": "Tianji Xing"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b219264-ISXoQlmnBZds.jpg",
+      "voiceActors": [
+        {
+          "id": 217579,
+          "language": "Chinese",
+          "name": {
+            "first": "Zhenji",
+            "last": "Huang",
+            "full": "Zhenji Huang",
+            "native": "皇贞季",
+            "userPreferred": "Zhenji Huang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n217579-QKtCvwQVNGIt.png"
+        }
+      ]
+    },
+    {
+      "id": 219373,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Moting",
+        "last": "Su Baba",
+        "full": "Moting Su Baba",
+        "native": "苏莫婷爸爸",
+        "userPreferred": "Moting Su Baba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 175031,
+          "language": "Chinese",
+          "name": {
+            "first": "Zhongyang",
+            "last": "Baomu",
+            "full": "Zhongyang Baomu",
+            "native": "宝木中阳",
+            "userPreferred": "Zhongyang Baomu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n175031-zsl22ZzSAJiY.png"
+        }
+      ]
+    },
+    {
+      "id": 219267,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Zhengshen",
+        "last": "Fude",
+        "full": "Zhengshen Fude",
+        "native": "福德正神",
+        "userPreferred": "Zhengshen Fude"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b219267-XZcsXYGPf0jd.png",
+      "voiceActors": [
+        {
+          "id": 163269,
+          "language": "Chinese",
+          "name": {
+            "first": "Siyu",
+            "last": "Chen",
+            "full": "Siyu Chen",
+            "native": "陈思宇",
+            "userPreferred": "Siyu Chen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n163269-yuQ26sh6vjJ8.png"
+        }
+      ]
+    },
+    {
+      "id": 219374,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Moting",
+        "last": "Su Mama",
+        "full": "Moting Su Mama",
+        "native": "苏莫婷妈妈",
+        "userPreferred": "Moting Su Mama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 217500,
+          "language": "Chinese",
+          "name": {
+            "first": "Rongshan",
+            "last": "Chang",
+            "full": "Rongshan Chang",
+            "native": "常蓉珊",
+            "userPreferred": "Rongshan Chang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n217500-YjTB0BftT331.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 121679,
+      "relationType": "PREQUEL",
+      "malId": 42956,
+      "title": {
+        "romaji": "Hanhua Riji 2",
+        "english": "God Troubles Me 2",
+        "native": "汉化日记 第二季",
+        "userPreferred": "Hanhua Riji 2"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx121679-YiCOoRNYk8I5.png",
+      "color": "#e4c950",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx121679-YiCOoRNYk8I5.png",
+      "rating": 75
+    },
+    {
+      "id": 156109,
+      "relationType": "SEQUEL",
+      "malId": null,
+      "title": {
+        "romaji": "Hanhua Riji 4",
+        "english": null,
+        "native": "汉化日记 第四季",
+        "userPreferred": "Hanhua Riji 4"
+      },
+      "status": "Not yet aired",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx156109-L3gsaRaacZit.jpg",
+      "color": "#e4d65d",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx156109-L3gsaRaacZit.jpg",
+      "rating": null
+    }
+  ],
+  "episodes": []
+}

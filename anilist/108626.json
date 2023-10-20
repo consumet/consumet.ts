@@ -1,0 +1,703 @@
+{
+  "id": "108626",
+  "title": {
+    "romaji": "HUMAN LOST",
+    "english": "HUMAN LOST",
+    "native": "HUMAN LOST人間失格"
+  },
+  "malId": 39584,
+  "synonyms": [
+    "Ningen Shikkaku",
+    "No Longer Human"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "T2ezT-RVccI",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/T2ezT-RVccI/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108626-0TtoR6rqVMoI.jpg",
+  "popularity": 5883,
+  "color": "#e45d43",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108626-0TtoR6rqVMoI.jpg",
+  "description": "A 3D animated film adaptation of Osamu Dazai’s “No Longer Human” novel\n<br><br>\nThe year is 2036. A revolution in medical treatment has conquered death by means of internal nanomachines and the “Shell System”, yet only the richest can afford to partake.Yozo Oba isn’t the richest. Troubled by strange dreams, he flippantly joins his friend’s biker gang on an ill-fated incursion to “The Inside”, where society’s elite lives. This instigates a journey of terrifying discovery that will change Yozo’s life forever.",
+  "status": "Completed",
+  "releaseDate": 2019,
+  "startDate": {
+    "year": 2019,
+    "month": 10,
+    "day": 22
+  },
+  "endDate": {
+    "year": 2019,
+    "month": 10,
+    "day": 22
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 54,
+  "duration": 110,
+  "genres": [
+    "Action",
+    "Sci-Fi"
+  ],
+  "season": "FALL",
+  "studios": [
+    "POLYGON PICTURES"
+  ],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [
+    {
+      "id": 7651,
+      "malId": 7651,
+      "title": {
+        "romaji": "Ningen Shikkaku: Director's Cut Ban",
+        "english": "No Longer Human",
+        "native": "人間失格 ディレクターズカット版",
+        "userPreferred": "Ningen Shikkaku: Director's Cut Ban"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/7651.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/7651.jpg",
+      "rating": 75,
+      "type": "MOVIE"
+    },
+    {
+      "id": 7193,
+      "malId": 7193,
+      "title": {
+        "romaji": "Aoi Bungaku Series",
+        "english": "Blue Literature Series",
+        "native": "青い文学シリーズ",
+        "userPreferred": "Aoi Bungaku Series"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx7193-gC4ULfgsznxh.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/7193-vh46utU8WjIJ.jpg",
+      "rating": 73,
+      "type": "TV"
+    },
+    {
+      "id": 47,
+      "malId": 47,
+      "title": {
+        "romaji": "AKIRA",
+        "english": "Akira",
+        "native": "AKIRA",
+        "userPreferred": "AKIRA"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx47-Sjkc8RDBjqwT.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/47-fof8HqtNDtvx.jpg",
+      "rating": 79,
+      "type": "MOVIE"
+    }
+  ],
+  "characters": [
+    {
+      "id": 141098,
+      "role": "MAIN",
+      "name": {
+        "first": null,
+        "last": "Takeichi",
+        "full": "Takeichi",
+        "native": "竹一",
+        "userPreferred": "Takeichi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b141098-1EpXOTf6DSKv.jpg",
+      "voiceActors": [
+        {
+          "id": 95086,
+          "language": "Japanese",
+          "name": {
+            "first": "Jun",
+            "last": "Fukuyama",
+            "full": "Jun Fukuyama",
+            "native": "福山潤",
+            "userPreferred": "Jun Fukuyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95086-cwKYmhOFNtH5.png"
+        },
+        {
+          "id": 95650,
+          "language": "English",
+          "name": {
+            "first": "Jason",
+            "last": "Liebrecht",
+            "full": "Jason Liebrecht",
+            "native": null,
+            "userPreferred": "Jason Liebrecht"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95650-jLPHOvW60DX3.jpg"
+        },
+        {
+          "id": 176908,
+          "language": "Portuguese",
+          "name": {
+            "first": "Renan",
+            "last": "Freitas",
+            "full": "Renan Freitas",
+            "native": null,
+            "userPreferred": "Renan Freitas"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n176908-vVMA21gXfYKf.jpg"
+        },
+        {
+          "id": 116417,
+          "language": "German",
+          "name": {
+            "first": "Roman",
+            "last": "Wolko",
+            "full": "Roman Wolko",
+            "native": null,
+            "userPreferred": "Roman Wolko"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n116417-TJXhgYKKp2hs.jpg"
+        }
+      ]
+    },
+    {
+      "id": 141097,
+      "role": "MAIN",
+      "name": {
+        "first": "Youzou",
+        "last": "Ooba",
+        "full": "Youzou Ooba",
+        "native": "大庭葉藏",
+        "userPreferred": "Youzou Ooba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b141097-TNBDGk2QHkLw.jpg",
+      "voiceActors": [
+        {
+          "id": 95065,
+          "language": "Japanese",
+          "name": {
+            "first": "Mamoru",
+            "last": "Miyano",
+            "full": "Mamoru Miyano",
+            "native": "宮野真守",
+            "userPreferred": "Mamoru Miyano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95065-eyynywrhombR.png"
+        },
+        {
+          "id": 111641,
+          "language": "English",
+          "name": {
+            "first": "Austin",
+            "last": "Tindle",
+            "full": "Austin Tindle",
+            "native": null,
+            "userPreferred": "Austin Tindle"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n111641-DbiOaZhYsNsi.jpg"
+        },
+        {
+          "id": 168029,
+          "language": "Portuguese",
+          "name": {
+            "first": "Erick",
+            "last": "Bougleux",
+            "full": "Erick Bougleux",
+            "native": null,
+            "userPreferred": "Erick Bougleux"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n168029-oLSY8MZuwRne.jpg"
+        },
+        {
+          "id": 101066,
+          "language": "German",
+          "name": {
+            "first": "Wanja",
+            "last": "Gerick",
+            "full": "Wanja Gerick",
+            "native": null,
+            "userPreferred": "Wanja Gerick"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6066.jpg"
+        }
+      ]
+    },
+    {
+      "id": 141099,
+      "role": "MAIN",
+      "name": {
+        "first": "Yoshiko",
+        "last": "Hiiragi",
+        "full": "Yoshiko Hiiragi",
+        "native": "柊美子",
+        "userPreferred": "Yoshiko Hiiragi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b141099-QaMNJkhCSVjv.jpg",
+      "voiceActors": [
+        {
+          "id": 95185,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Hanazawa",
+            "full": "Kana Hanazawa",
+            "native": "花澤香菜",
+            "userPreferred": "Kana Hanazawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95185-vZ6nmfBKQgw1.jpg"
+        },
+        {
+          "id": 138785,
+          "language": "English",
+          "name": {
+            "first": "Macy Anne",
+            "last": "Johnson",
+            "full": "Macy Anne Johnson",
+            "native": null,
+            "userPreferred": "Macy Anne Johnson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n138785-8eEJxk4QsT0e.png"
+        },
+        {
+          "id": 238225,
+          "language": "Portuguese",
+          "name": {
+            "first": "Luiza",
+            "last": "Cesar",
+            "full": "Luiza Cesar",
+            "native": null,
+            "userPreferred": "Luiza Cesar"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n238225-f9SU3pz6uNcd.png"
+        },
+        {
+          "id": 96217,
+          "language": "German",
+          "name": {
+            "first": "Marie",
+            "last": "Bierstedt",
+            "full": "Marie Bierstedt",
+            "native": null,
+            "userPreferred": "Marie Bierstedt"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1217.jpg"
+        }
+      ]
+    },
+    {
+      "id": 141100,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Madam",
+        "last": null,
+        "full": "Madam",
+        "native": "マダム",
+        "userPreferred": "Madam"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b141100-yXtvZiaK83ys.png",
+      "voiceActors": [
+        {
+          "id": 95099,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyuki",
+            "last": "Sawashiro",
+            "full": "Miyuki Sawashiro",
+            "native": "沢城みゆき",
+            "userPreferred": "Miyuki Sawashiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95099-jKP4LfPWqetk.jpg"
+        },
+        {
+          "id": 95475,
+          "language": "English",
+          "name": {
+            "first": "Stephanie",
+            "last": "Young",
+            "full": "Stephanie Young",
+            "native": null,
+            "userPreferred": "Stephanie Young"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95475-QV9KFgsYrsPb.jpg"
+        },
+        {
+          "id": 175180,
+          "language": "Portuguese",
+          "name": {
+            "first": "Carina",
+            "last": "Eiras",
+            "full": "Carina Eiras",
+            "native": null,
+            "userPreferred": "Carina Eiras"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n175180-5fLNR6eHvCiV.png"
+        },
+        {
+          "id": 144148,
+          "language": "German",
+          "name": {
+            "first": "Bianca",
+            "last": "Krahl",
+            "full": "Bianca Krahl",
+            "native": null,
+            "userPreferred": "Bianca Krahl"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 141101,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tsuneko",
+        "last": null,
+        "full": "Tsuneko",
+        "native": "恒子",
+        "userPreferred": "Tsuneko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b141101-uWMh5EFQcvLe.png",
+      "voiceActors": [
+        {
+          "id": 115795,
+          "language": "Japanese",
+          "name": {
+            "first": "Haruka",
+            "last": "Chisuga",
+            "full": "Haruka Chisuga",
+            "native": "千菅春香",
+            "userPreferred": "Haruka Chisuga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n115795-PWCVeGruHain.jpg"
+        },
+        {
+          "id": 119619,
+          "language": "English",
+          "name": {
+            "first": "Sarah",
+            "last": "Wiedenheft",
+            "full": "Sarah Wiedenheft",
+            "native": null,
+            "userPreferred": "Sarah Wiedenheft"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119619-ozgAK9to6Ijy.jpg"
+        },
+        {
+          "id": 182115,
+          "language": "Portuguese",
+          "name": {
+            "first": "Tais",
+            "last": "Feijo",
+            "full": "Tais Feijo",
+            "native": "Taís Feijó",
+            "userPreferred": "Tais Feijo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n182115-6VTwNIfYP0Gd.jpg"
+        },
+        {
+          "id": 141337,
+          "language": "German",
+          "name": {
+            "first": "Sarah",
+            "last": "Tkotsch",
+            "full": "Sarah Tkotsch",
+            "native": null,
+            "userPreferred": "Sarah Tkotsch"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n141337-ucvmcETR1pts.png"
+        }
+      ]
+    },
+    {
+      "id": 141102,
+      "role": "SUPPORTING",
+      "name": {
+        "first": null,
+        "last": "Shibuta",
+        "full": "Shibuta",
+        "native": "澁田",
+        "userPreferred": "Shibuta"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b141102-HnukRj93uRdA.jpg",
+      "voiceActors": [
+        {
+          "id": 105273,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenichirou",
+            "last": "Matsuda",
+            "full": "Kenichirou Matsuda",
+            "native": "松田健一郎",
+            "userPreferred": "Kenichirou Matsuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105273-asextl049B2s.png"
+        },
+        {
+          "id": 96342,
+          "language": "English",
+          "name": {
+            "first": "Chris",
+            "last": "Rager",
+            "full": "Chris Rager",
+            "native": null,
+            "userPreferred": "Chris Rager"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1342.jpg"
+        },
+        {
+          "id": 195051,
+          "language": "Portuguese",
+          "name": {
+            "first": "Reinaldo",
+            "last": "Pimenta",
+            "full": "Reinaldo Pimenta",
+            "native": null,
+            "userPreferred": "Reinaldo Pimenta"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n195051-45MLuifHZNXA.png"
+        },
+        {
+          "id": 139857,
+          "language": "German",
+          "name": {
+            "first": "Thomas Nero",
+            "last": "Wolff",
+            "full": "Thomas Nero Wolff",
+            "native": null,
+            "userPreferred": "Thomas Nero Wolff"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 141104,
+      "role": "SUPPORTING",
+      "name": {
+        "first": null,
+        "last": "Atsugi",
+        "full": "Atsugi",
+        "native": "厚木",
+        "userPreferred": "Atsugi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b141104-yFrgwerGD3HN.jpg",
+      "voiceActors": [
+        {
+          "id": 95113,
+          "language": "Japanese",
+          "name": {
+            "first": "Rikiya",
+            "last": "Koyama",
+            "full": "Rikiya Koyama",
+            "native": "小山力也",
+            "userPreferred": "Rikiya Koyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95113-z9eyYjTKSTX4.png"
+        },
+        {
+          "id": 104777,
+          "language": "English",
+          "name": {
+            "first": "David",
+            "last": "Wald",
+            "full": "David Wald",
+            "native": null,
+            "userPreferred": "David Wald"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9777.jpg"
+        },
+        {
+          "id": 182481,
+          "language": "Portuguese",
+          "name": {
+            "first": "Ronaldo",
+            "last": "Júlio",
+            "full": "Ronaldo Júlio",
+            "native": null,
+            "userPreferred": "Ronaldo Júlio"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n182481-6owdSPaiqCp8.jpg"
+        },
+        {
+          "id": 130285,
+          "language": "German",
+          "name": {
+            "first": "Matthias",
+            "last": "Klie",
+            "full": "Matthias Klie",
+            "native": null,
+            "userPreferred": "Matthias Klie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n130285-gYqy4ckdOWSv.png"
+        }
+      ]
+    },
+    {
+      "id": 141105,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Masao",
+        "last": "Horiki",
+        "full": "Masao Horiki",
+        "native": "堀木正雄",
+        "userPreferred": "Masao Horiki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b141105-XWmKQbz6vVSJ.jpg",
+      "voiceActors": [
+        {
+          "id": 95079,
+          "language": "Japanese",
+          "name": {
+            "first": "Takahiro",
+            "last": "Sakurai",
+            "full": "Takahiro Sakurai",
+            "native": "櫻井孝宏",
+            "userPreferred": "Takahiro Sakurai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95079-MdbWTLxPUvFf.jpg"
+        },
+        {
+          "id": 95666,
+          "language": "English",
+          "name": {
+            "first": "Robert",
+            "last": "McCollum",
+            "full": "Robert McCollum",
+            "native": null,
+            "userPreferred": "Robert McCollum"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95666-er3JLtqV1TLy.jpg"
+        },
+        {
+          "id": 183844,
+          "language": "Portuguese",
+          "name": {
+            "first": "Eduardo",
+            "last": "Ribeiro",
+            "full": "Eduardo Ribeiro",
+            "native": null,
+            "userPreferred": "Eduardo Ribeiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n183844-Wma8QG3mqSsR.jpg"
+        },
+        {
+          "id": 101107,
+          "language": "German",
+          "name": {
+            "first": "Dennis",
+            "last": "Schmidt-Foß",
+            "full": "Dennis Schmidt-Foß",
+            "native": null,
+            "userPreferred": "Dennis Schmidt-Foß"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101107-Sqeq9mkbDGQg.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 107790,
+      "relationType": "ALTERNATIVE",
+      "malId": 106609,
+      "title": {
+        "romaji": "Ningen Shikkaku",
+        "english": "No Longer Human",
+        "native": "人間失格",
+        "userPreferred": "Ningen Shikkaku"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx107790-t9grmWstxxSP.jpg",
+      "color": "#e4865d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/107790-QkIXzzdmpoWv.jpg",
+      "rating": 78
+    },
+    {
+      "id": 43290,
+      "relationType": "ALTERNATIVE",
+      "malId": 13290,
+      "title": {
+        "romaji": "Ningen Shikkaku",
+        "english": "No Longer Human",
+        "native": "人間失格",
+        "userPreferred": "Ningen Shikkaku"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx43290-Xcx293VdnG8d.jpg",
+      "color": "#e4351a",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/43290-CIuMQ1sZirKd.jpg",
+      "rating": 78
+    },
+    {
+      "id": 110217,
+      "relationType": "ADAPTATION",
+      "malId": null,
+      "title": {
+        "romaji": "Human Lost: Ningen Shikkaku",
+        "english": null,
+        "native": "HUMAN LOST 人間失格",
+        "userPreferred": "Human Lost: Ningen Shikkaku"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx110217-c08Dw2FcG9rY.jpg",
+      "color": "#f1e4c9",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx110217-c08Dw2FcG9rY.jpg",
+      "rating": 62
+    },
+    {
+      "id": 124430,
+      "relationType": "CHARACTER",
+      "malId": 40792,
+      "title": {
+        "romaji": "HUMAN LOST (Music)",
+        "english": "HUMAN LOST (Music)",
+        "native": "HUMAN LOST (Music)",
+        "userPreferred": "HUMAN LOST (Music)"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx124430-M6LYc5nRUCBv.png",
+      "color": "#f1c9a1",
+      "type": "MUSIC",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/124430-dE3NKQCSJdJo.jpg",
+      "rating": 53
+    },
+    {
+      "id": 7193,
+      "relationType": "ALTERNATIVE",
+      "malId": 7193,
+      "title": {
+        "romaji": "Aoi Bungaku Series",
+        "english": "Blue Literature Series",
+        "native": "青い文学シリーズ",
+        "userPreferred": "Aoi Bungaku Series"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx7193-gC4ULfgsznxh.png",
+      "color": null,
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/7193-vh46utU8WjIJ.jpg",
+      "rating": 73
+    }
+  ],
+  "episodes": [
+    {
+      "id": "human-lost-ningen-shikkaku-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108626-0TtoR6rqVMoI.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//human-lost-ningen-shikkaku-episode-1"
+    }
+  ]
+}

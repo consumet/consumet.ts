@@ -1,0 +1,904 @@
+{
+  "id": "18767",
+  "title": {
+    "romaji": "BlazBlue: Alter Memory",
+    "english": "BlazBlue: Alter Memory",
+    "native": "ブレイブルー オルターメモリー"
+  },
+  "malId": 18767,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx18767-d0WG5AuetQZ9.jpg",
+  "popularity": 14589,
+  "color": "#e45d5d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/18767-BaaX4zW3wlZ8.jpg",
+  "description": "The story is set in December of 2199, when the streets are full of anticipation for the end of the year and the start of the new one. Amid the celebrations, word spreads that Ragna the Bloodedge, an SS-class rebel with the highest ever bounty on his head, has appeared in the 13th Hierarchical City of Kagutsuchi. The apparent aim of Ragna or the \"Grim Reaper\" is the destruction of the system controlling the world. To collect the bounty, a motley array of unrivaled fighters converge on Kagutsuchi.<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2013,
+  "startDate": {
+    "year": 2013,
+    "month": 10,
+    "day": 9
+  },
+  "endDate": {
+    "year": 2013,
+    "month": 12,
+    "day": 25
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 54,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Fantasy"
+  ],
+  "season": "FALL",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 101168,
+      "malId": 37345,
+      "title": {
+        "romaji": "Plunderer",
+        "english": "Plunderer",
+        "native": "プランダラ",
+        "userPreferred": "Plunderer"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101168-LY3XA61byAVo.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101168-55dmHGtGlJOY.jpg",
+      "rating": 62,
+      "type": "TV"
+    },
+    {
+      "id": 6030,
+      "malId": 6030,
+      "title": {
+        "romaji": "NEEDLESS",
+        "english": "Needless",
+        "native": "NEEDLESS",
+        "userPreferred": "NEEDLESS"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6030.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n6030-CywvXlV7xjyj.jpg",
+      "rating": 67,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 31972,
+      "role": "MAIN",
+      "name": {
+        "first": "Ragna",
+        "last": "the Bloodedge",
+        "full": "Ragna the Bloodedge",
+        "native": "ラグナ・ザ・ブラッドエッジ",
+        "userPreferred": "Ragna the Bloodedge"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b31972-DdbKnVhmNJix.png",
+      "voiceActors": [
+        {
+          "id": 95241,
+          "language": "Japanese",
+          "name": {
+            "first": "Rina",
+            "last": "Satou",
+            "full": "Rina Satou",
+            "native": "佐藤利奈",
+            "userPreferred": "Rina Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95241-4XvR64oguxwS.png"
+        },
+        {
+          "id": 95002,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Sugita",
+            "full": "Tomokazu Sugita",
+            "native": "杉田智和",
+            "userPreferred": "Tomokazu Sugita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95002-nDIvHaynicEg.png"
+        },
+        {
+          "id": 95313,
+          "language": "English",
+          "name": {
+            "first": "Caitlin",
+            "last": "Glass",
+            "full": "Caitlin Glass",
+            "native": null,
+            "userPreferred": "Caitlin Glass"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95313-zK3WpeNtACvm.jpg"
+        },
+        {
+          "id": 95340,
+          "language": "English",
+          "name": {
+            "first": "Patrick",
+            "last": "Seitz",
+            "full": "Patrick Seitz",
+            "native": null,
+            "userPreferred": "Patrick Seitz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95340-W5PAwurtgtXs.jpg"
+        }
+      ]
+    },
+    {
+      "id": 31973,
+      "role": "MAIN",
+      "name": {
+        "first": "Noel",
+        "last": "Vermillion",
+        "full": "Noel Vermillion",
+        "native": "ノエル・ヴァーミリオン ",
+        "userPreferred": "Noel Vermillion"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b31973-bPn7FNlcTjEL.png",
+      "voiceActors": [
+        {
+          "id": 103343,
+          "language": "Japanese",
+          "name": {
+            "first": "Kanako",
+            "last": "Kondou",
+            "full": "Kanako Kondou",
+            "native": "佳奈子 近藤",
+            "userPreferred": "Kanako Kondou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103343-IGJD0ggC48WP.png"
+        },
+        {
+          "id": 95489,
+          "language": "English",
+          "name": {
+            "first": "Cristina",
+            "last": "Valenzuela",
+            "full": "Cristina Valenzuela",
+            "native": null,
+            "userPreferred": "Cristina Danielle Valenzuela"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95489-oq44nRsWj8NN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 33804,
+      "role": "MAIN",
+      "name": {
+        "first": "Rachel",
+        "last": "Alucard",
+        "full": "Rachel Alucard",
+        "native": "レイチェル＝アルカード",
+        "userPreferred": "Rachel Alucard"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b33804-IpdWgQ44a9Yj.png",
+      "voiceActors": [
+        {
+          "id": 95116,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Ueda",
+            "full": "Kana Ueda",
+            "native": "植田佳奈",
+            "userPreferred": "Kana Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95116-NvhEn6vNMiAq.png"
+        },
+        {
+          "id": 96862,
+          "language": "English",
+          "name": {
+            "first": "Mela",
+            "last": "Lee",
+            "full": "Mela Lee",
+            "native": null,
+            "userPreferred": "Mela Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1862.jpg"
+        }
+      ]
+    },
+    {
+      "id": 31951,
+      "role": "MAIN",
+      "name": {
+        "first": "Jin",
+        "last": "Kisaragi",
+        "full": "Jin Kisaragi",
+        "native": "ジン・キサラギ",
+        "userPreferred": "Jin Kisaragi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b31951-NPI7Wz1VBb84.png",
+      "voiceActors": [
+        {
+          "id": 95167,
+          "language": "Japanese",
+          "name": {
+            "first": "Tetsuya",
+            "last": "Kakihara",
+            "full": "Tetsuya Kakihara",
+            "native": "柿原徹也",
+            "userPreferred": "Tetsuya Kakihara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95167-wjIShzThRTlS.png"
+        },
+        {
+          "id": 95036,
+          "language": "English",
+          "name": {
+            "first": "Wendee",
+            "last": "Lee",
+            "full": "Wendee Lee",
+            "native": null,
+            "userPreferred": "Wendee Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95036-UkyIYVtEhoPk.png"
+        },
+        {
+          "id": 101457,
+          "language": "English",
+          "name": {
+            "first": "David",
+            "last": "Vincent",
+            "full": "David Vincent",
+            "native": null,
+            "userPreferred": "David Vincent"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101457-DXEZhScJUr5I.png"
+        }
+      ]
+    },
+    {
+      "id": 31974,
+      "role": "MAIN",
+      "name": {
+        "first": "Hazama",
+        "last": null,
+        "full": "Hazama",
+        "native": "ハザマ",
+        "userPreferred": "Hazama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b31974-V8DUdqkD1cjp.png",
+      "voiceActors": [
+        {
+          "id": 95513,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuichi",
+            "last": "Nakamura",
+            "full": "Yuuichi Nakamura",
+            "native": "中村悠一",
+            "userPreferred": "Yuuichi Nakamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95513-up9ZDuocHgRs.png"
+        },
+        {
+          "id": 96547,
+          "language": "English",
+          "name": {
+            "first": "Doug",
+            "last": "Erholtz",
+            "full": "Doug Erholtz",
+            "native": null,
+            "userPreferred": "Doug Erholtz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96547-AH4pebJhH8yY.png"
+        }
+      ]
+    },
+    {
+      "id": 190710,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mitsuyoshi",
+        "last": null,
+        "full": "Mitsuyoshi",
+        "native": "ミツヨシ",
+        "userPreferred": "Mitsuyoshi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b190710-QgNUgUGDaoF3.png",
+      "voiceActors": [
+        {
+          "id": 95563,
+          "language": "Japanese",
+          "name": {
+            "first": "Masaki",
+            "last": "Terasoma",
+            "full": "Masaki Terasoma",
+            "native": "てらそままさき",
+            "userPreferred": "Masaki Terasoma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95563-tMN0xtsy1qyh.png"
+        }
+      ]
+    },
+    {
+      "id": 31976,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Taokaka",
+        "last": null,
+        "full": "Taokaka",
+        "native": "タオカカ",
+        "userPreferred": "Taokaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/31976.jpg",
+      "voiceActors": [
+        {
+          "id": 95061,
+          "language": "Japanese",
+          "name": {
+            "first": "Chiwa",
+            "last": "Saitou",
+            "full": "Chiwa Saitou",
+            "native": "斎藤千和",
+            "userPreferred": "Chiwa Saitou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95061-R8YSAYX7UFCO.png"
+        },
+        {
+          "id": 95406,
+          "language": "English",
+          "name": {
+            "first": "Philece",
+            "last": "Sampler",
+            "full": "Philece Sampler",
+            "native": null,
+            "userPreferred": "Philece Sampler"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95406-2ZSSErZT2xNL.png"
+        }
+      ]
+    },
+    {
+      "id": 33753,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tsubaki",
+        "last": "Yayoi",
+        "full": "Tsubaki Yayoi",
+        "native": "ツバキ・ヤヨイ",
+        "userPreferred": "Tsubaki Yayoi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b33753-mRPxW5rRJ89A.png",
+      "voiceActors": [
+        {
+          "id": 103662,
+          "language": "Japanese",
+          "name": {
+            "first": "Asami",
+            "last": "Imai",
+            "full": "Asami Imai",
+            "native": "今井麻美",
+            "userPreferred": "Asami Imai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103662-1gAPfy3TvPK8.png"
+        },
+        {
+          "id": 95069,
+          "language": "English",
+          "name": {
+            "first": "Julie Ann",
+            "last": "Taylor",
+            "full": "Julie Ann Taylor",
+            "native": null,
+            "userPreferred": "Julie Ann Taylor"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95069-p9hAHPHgmu8Y.jpg"
+        }
+      ]
+    },
+    {
+      "id": 271285,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Valkenhayn",
+        "last": "Hellsing",
+        "full": "Valkenhayn Hellsing",
+        "native": "ヴァルケンハイン＝R＝ヘルシング",
+        "userPreferred": "Valkenhayn R. Hellsing"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b271285-LTiAv5w9UEFN.png",
+      "voiceActors": [
+        {
+          "id": 95333,
+          "language": "Japanese",
+          "name": {
+            "first": "Motomu",
+            "last": "Kiyokawa",
+            "full": "Motomu Kiyokawa",
+            "native": "清川元夢",
+            "userPreferred": "Motomu Kiyokawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95333-11aYjXsaWLIp.png"
+        }
+      ]
+    },
+    {
+      "id": 38407,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Makoto",
+        "last": "Nanaya",
+        "full": "Makoto Nanaya",
+        "native": "マコト・ナナヤ",
+        "userPreferred": "Makoto Nanaya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b38407-T4V5YjjsEAkH.png",
+      "voiceActors": [
+        {
+          "id": 104711,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomomi",
+            "last": "Isomura",
+            "full": "Tomomi Isomura",
+            "native": "磯村知美",
+            "userPreferred": "Tomomi Isomura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104711-bBelIbos3Khs.png"
+        },
+        {
+          "id": 95733,
+          "language": "English",
+          "name": {
+            "first": "Cindy",
+            "last": "Robinson",
+            "full": "Cindy Robinson",
+            "native": null,
+            "userPreferred": "Cindy Robinson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95733-34PimWRfaPKr.jpg"
+        }
+      ]
+    },
+    {
+      "id": 35436,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hakumen",
+        "last": null,
+        "full": "Hakumen",
+        "native": "ハクメン",
+        "userPreferred": "Hakumen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b35436-JbuY1zDGOIlK.jpg",
+      "voiceActors": [
+        {
+          "id": 95167,
+          "language": "Japanese",
+          "name": {
+            "first": "Tetsuya",
+            "last": "Kakihara",
+            "full": "Tetsuya Kakihara",
+            "native": "柿原徹也",
+            "userPreferred": "Tetsuya Kakihara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95167-wjIShzThRTlS.png"
+        },
+        {
+          "id": 101457,
+          "language": "English",
+          "name": {
+            "first": "David",
+            "last": "Vincent",
+            "full": "David Vincent",
+            "native": null,
+            "userPreferred": "David Vincent"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101457-DXEZhScJUr5I.png"
+        }
+      ]
+    },
+    {
+      "id": 44639,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Iron",
+        "last": "Tager",
+        "full": "Iron Tager",
+        "native": "アイアン・テイガー",
+        "userPreferred": "Iron Tager"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b44639-1PgUgct4xPBJ.png",
+      "voiceActors": [
+        {
+          "id": 95299,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenji",
+            "last": "Nomura",
+            "full": "Kenji Nomura",
+            "native": "乃村健次",
+            "userPreferred": "Kenji Nomura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95299-emNsgDYS4DBi.jpg"
+        },
+        {
+          "id": 95353,
+          "language": "English",
+          "name": {
+            "first": "Jamieson",
+            "last": "Price",
+            "full": "Jamieson Price",
+            "native": null,
+            "userPreferred": "Jamieson K. Price"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95353-Oe3Ehd7Yo37k.png"
+        }
+      ]
+    },
+    {
+      "id": 42211,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Arakune",
+        "last": null,
+        "full": "Arakune",
+        "native": "アラクネ",
+        "userPreferred": "Arakune"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b42211-tACIvbEYbq4d.png",
+      "voiceActors": [
+        {
+          "id": 105839,
+          "language": "Japanese",
+          "name": {
+            "first": "Takashi",
+            "last": "Hikida",
+            "full": "Takashi Hikida",
+            "native": "疋田高志",
+            "userPreferred": "Takashi Hikida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10839.jpg"
+        },
+        {
+          "id": 95150,
+          "language": "English",
+          "name": {
+            "first": "Spike",
+            "last": "Spencer",
+            "full": "Spike Spencer",
+            "native": null,
+            "userPreferred": "Spike Spencer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95150-VC7hhr2mVRBT.jpg"
+        }
+      ]
+    },
+    {
+      "id": 43333,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lambda-11 ",
+        "last": null,
+        "full": "Lambda-11 ",
+        "native": "ラムダ・イレブン",
+        "userPreferred": "Lambda-11 "
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b43333-pvzcguHfDVf2.png",
+      "voiceActors": [
+        {
+          "id": 103343,
+          "language": "Japanese",
+          "name": {
+            "first": "Kanako",
+            "last": "Kondou",
+            "full": "Kanako Kondou",
+            "native": "佳奈子 近藤",
+            "userPreferred": "Kanako Kondou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103343-IGJD0ggC48WP.png"
+        },
+        {
+          "id": 95489,
+          "language": "English",
+          "name": {
+            "first": "Cristina",
+            "last": "Valenzuela",
+            "full": "Cristina Valenzuela",
+            "native": null,
+            "userPreferred": "Cristina Danielle Valenzuela"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95489-oq44nRsWj8NN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 31975,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Litchi",
+        "last": "Faye-Ling",
+        "full": "Litchi Faye-Ling",
+        "native": "ライチ・フェイ・リン ",
+        "userPreferred": "Litchi Faye-Ling"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b31975-i9XW8ucmlZt6.png",
+      "voiceActors": [
+        {
+          "id": 95584,
+          "language": "Japanese",
+          "name": {
+            "first": "Chiaki",
+            "last": "Takahashi",
+            "full": "Chiaki Takahashi",
+            "native": "たかはし智秋",
+            "userPreferred": "Chiaki Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95584-TgaiagGVcsSp.jpg"
+        },
+        {
+          "id": 102993,
+          "language": "English",
+          "name": {
+            "first": "Lauren",
+            "last": "Landa",
+            "full": "Lauren Landa",
+            "native": null,
+            "userPreferred": "Lauren Landa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102993-gxDKjC1EvJ4S.jpg"
+        }
+      ]
+    },
+    {
+      "id": 43332,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nu-13",
+        "last": null,
+        "full": "Nu-13",
+        "native": "ニュー・サーティーン",
+        "userPreferred": "Nu-13"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b43332-y8eAnoJp5j1Z.png",
+      "voiceActors": [
+        {
+          "id": 103343,
+          "language": "Japanese",
+          "name": {
+            "first": "Kanako",
+            "last": "Kondou",
+            "full": "Kanako Kondou",
+            "native": "佳奈子 近藤",
+            "userPreferred": "Kanako Kondou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103343-IGJD0ggC48WP.png"
+        },
+        {
+          "id": 95489,
+          "language": "English",
+          "name": {
+            "first": "Cristina",
+            "last": "Valenzuela",
+            "full": "Cristina Valenzuela",
+            "native": null,
+            "userPreferred": "Cristina Danielle Valenzuela"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95489-oq44nRsWj8NN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32438,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kokonoe",
+        "last": null,
+        "full": "Kokonoe",
+        "native": "ココノエ",
+        "userPreferred": "Kokonoe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b32438-ZcACXeqmJDQZ.png",
+      "voiceActors": [
+        {
+          "id": 101172,
+          "language": "Japanese",
+          "name": {
+            "first": "Chie",
+            "last": "Matsuura",
+            "full": "Chie Matsuura",
+            "native": "松浦チエ",
+            "userPreferred": "Chie Matsuura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101172-PI3KwThqoqtX.png"
+        },
+        {
+          "id": 95069,
+          "language": "English",
+          "name": {
+            "first": "Julie Ann",
+            "last": "Taylor",
+            "full": "Julie Ann Taylor",
+            "native": null,
+            "userPreferred": "Julie Ann Taylor"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95069-p9hAHPHgmu8Y.jpg"
+        }
+      ]
+    },
+    {
+      "id": 190709,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Trinity",
+        "last": "Glassfille",
+        "full": "Trinity Glassfille",
+        "native": "トリニティ＝グラスフィール",
+        "userPreferred": "Trinity Glassfille"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b190709-YHewqveMD41v.png",
+      "voiceActors": [
+        {
+          "id": 101686,
+          "language": "Japanese",
+          "name": {
+            "first": "Aoi",
+            "last": "Yuuki",
+            "full": "Aoi Yuuki",
+            "native": "悠木碧",
+            "userPreferred": "Aoi Yuuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101686-PTd0lQZMsmcv.png"
+        },
+        {
+          "id": 104091,
+          "language": "English",
+          "name": {
+            "first": "Alexis",
+            "last": "Tipton",
+            "full": "Alexis Tipton",
+            "native": null,
+            "userPreferred": "Alexis Tipton"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104091-OZpJbFWFwnvV.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 90108,
+      "relationType": "ADAPTATION",
+      "malId": 65099,
+      "title": {
+        "romaji": "BlazBlue",
+        "english": null,
+        "native": "BLAZBLUE －ブレイブルー－",
+        "userPreferred": "BlazBlue"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/90108-crGtMDYby0D2.jpg",
+      "color": "#28aee4",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/90108-crGtMDYby0D2.jpg",
+      "rating": 73
+    }
+  ],
+  "episodes": [
+    {
+      "id": "blazblue-alter-memory-episode-1",
+      "title": "Crimson Rebel",
+      "image": "https://media.kitsu.io/episodes/thumbnails/158950/original.jpg",
+      "number": 1,
+      "createdAt": "2014-11-16T20:24:15Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blazblue-alter-memory-episode-1"
+    },
+    {
+      "id": "blazblue-alter-memory-episode-2",
+      "title": "Successor of the Azure",
+      "image": "https://media.kitsu.io/episodes/thumbnails/158955/original.jpg",
+      "number": 2,
+      "createdAt": "2014-11-16T20:24:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blazblue-alter-memory-episode-2"
+    },
+    {
+      "id": "blazblue-alter-memory-episode-3",
+      "title": "The Observing Eye",
+      "image": "https://media.kitsu.io/episodes/thumbnails/158961/original.jpg",
+      "number": 3,
+      "createdAt": "2014-11-16T20:24:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blazblue-alter-memory-episode-3"
+    },
+    {
+      "id": "blazblue-alter-memory-episode-4",
+      "title": "Probabilistic Events",
+      "image": "https://media.kitsu.io/episodes/thumbnails/158965/original.jpg",
+      "number": 4,
+      "createdAt": "2014-11-16T20:24:18Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blazblue-alter-memory-episode-4"
+    },
+    {
+      "id": "blazblue-alter-memory-episode-5",
+      "title": "The Pair of White Guns",
+      "image": "https://media.kitsu.io/episodes/thumbnails/158974/original.jpg",
+      "number": 5,
+      "createdAt": "2014-11-16T20:24:19Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blazblue-alter-memory-episode-5"
+    },
+    {
+      "id": "blazblue-alter-memory-episode-6",
+      "title": "False World",
+      "image": "https://media.kitsu.io/episodes/thumbnails/158984/original.jpg",
+      "number": 6,
+      "createdAt": "2014-11-16T20:24:21Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blazblue-alter-memory-episode-6"
+    },
+    {
+      "id": "blazblue-alter-memory-episode-7",
+      "title": "The Wings of Judgment",
+      "image": "https://media.kitsu.io/episodes/thumbnails/158994/original.jpg",
+      "number": 7,
+      "createdAt": "2014-11-16T20:24:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blazblue-alter-memory-episode-7"
+    },
+    {
+      "id": "blazblue-alter-memory-episode-8",
+      "title": "The Mechanical Soul",
+      "image": "https://media.kitsu.io/episodes/thumbnails/159005/original.jpg",
+      "number": 8,
+      "createdAt": "2014-11-16T20:24:24Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blazblue-alter-memory-episode-8"
+    },
+    {
+      "id": "blazblue-alter-memory-episode-9",
+      "title": "The Power of Order",
+      "image": "https://media.kitsu.io/episodes/thumbnails/159012/original.jpg",
+      "number": 9,
+      "createdAt": "2014-11-16T20:24:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blazblue-alter-memory-episode-9"
+    },
+    {
+      "id": "blazblue-alter-memory-episode-10",
+      "title": "Cocoon of the Godslayer",
+      "image": "https://media.kitsu.io/episodes/thumbnails/159020/original.jpg",
+      "number": 10,
+      "createdAt": "2014-11-16T20:24:27Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blazblue-alter-memory-episode-10"
+    },
+    {
+      "id": "blazblue-alter-memory-episode-11",
+      "title": "Murakumo Awakens",
+      "image": "https://media.kitsu.io/episodes/thumbnails/159029/original.jpg",
+      "number": 11,
+      "createdAt": "2014-11-16T20:24:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blazblue-alter-memory-episode-11"
+    },
+    {
+      "id": "blazblue-alter-memory-episode-12",
+      "title": "Expense for the Future",
+      "image": "https://media.kitsu.io/episodes/thumbnails/159036/original.jpg",
+      "number": 12,
+      "createdAt": "2014-11-16T20:24:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blazblue-alter-memory-episode-12"
+    }
+  ]
+}

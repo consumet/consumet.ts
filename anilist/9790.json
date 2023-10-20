@@ -1,0 +1,671 @@
+{
+  "id": "9790",
+  "title": {
+    "romaji": "Sora no Otoshimono: Tokeijikake no Angeloid",
+    "english": "Heaven's Lost Property the Movie: The Angeloid of Clockwork",
+    "native": "劇場版 そらのおとしもの 時計じかけの哀女神（エンジェロイド）"
+  },
+  "malId": 9790,
+  "synonyms": [
+    "Gekijouban Sora no Otoshimono: Tokeijikake no Angeloid",
+    "Sora no Otoshimono: The Movie",
+    "Lost Property of the Sky Movie",
+    "Misplaced by Heaven"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9790-OAQA9JYhzFxz.jpg",
+  "popularity": 21233,
+  "color": "#e45d50",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9790-OAQA9JYhzFxz.jpg",
+  "description": "Movie adaptation of the Sora no Otoshimono manga, based on Kazane Hiyori's arc.",
+  "status": "Completed",
+  "releaseDate": 2011,
+  "startDate": {
+    "year": 2011,
+    "month": 6,
+    "day": 25
+  },
+  "endDate": {
+    "year": 2011,
+    "month": 6,
+    "day": 25
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 71,
+  "duration": 96,
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Ecchi",
+    "Romance",
+    "Sci-Fi"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "AIC A.S.T.A."
+  ],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [
+    {
+      "id": 20741,
+      "malId": 24655,
+      "title": {
+        "romaji": "Date A Live Movie: Mayuri Judgement",
+        "english": "Date A Live Mayuri Judgement",
+        "native": "劇場版デート・ア・ライブ 万由里ジャッジメント",
+        "userPreferred": "Date A Live Movie: Mayuri Judgement"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20741-WdThAhseSo1y.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n20741-HYmNMUQfT0JM.jpg",
+      "rating": 70,
+      "type": "MOVIE"
+    }
+  ],
+  "characters": [
+    {
+      "id": 23496,
+      "role": "MAIN",
+      "name": {
+        "first": "Nymph",
+        "last": null,
+        "full": "Nymph",
+        "native": "ニンフ",
+        "userPreferred": "Nymph"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b23496-I31MUgD2E9Dq.png",
+      "voiceActors": [
+        {
+          "id": 103956,
+          "language": "Japanese",
+          "name": {
+            "first": "Iori",
+            "last": "Nomizu",
+            "full": "Iori Nomizu",
+            "native": "野水伊織",
+            "userPreferred": "Iori Nomizu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103956-SBfEe7v8hV4r.png"
+        },
+        {
+          "id": 95773,
+          "language": "English",
+          "name": {
+            "first": "Kara",
+            "last": "Edwards",
+            "full": "Kara Edwards",
+            "native": null,
+            "userPreferred": "Kara Edwards"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/773.jpg"
+        }
+      ]
+    },
+    {
+      "id": 23490,
+      "role": "MAIN",
+      "name": {
+        "first": "Tomoki",
+        "last": "Sakurai",
+        "full": "Tomoki Sakurai",
+        "native": "桜井智樹",
+        "userPreferred": "Tomoki Sakurai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b23490-2z5avxHoE9hO.png",
+      "voiceActors": [
+        {
+          "id": 95030,
+          "language": "Japanese",
+          "name": {
+            "first": "Souichirou",
+            "last": "Hoshi",
+            "full": "Souichirou Hoshi",
+            "native": "保志総一朗",
+            "userPreferred": "Souichirou Hoshi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95030-kj64Uy6Zr3bq.png"
+        },
+        {
+          "id": 95192,
+          "language": "English",
+          "name": {
+            "first": "Greg",
+            "last": "Ayres",
+            "full": "Greg Ayres",
+            "native": null,
+            "userPreferred": "Greg Ayres"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95192-igLHZjSO4eE0.png"
+        }
+      ]
+    },
+    {
+      "id": 23495,
+      "role": "MAIN",
+      "name": {
+        "first": "Mikako",
+        "last": "Satsukitane",
+        "full": "Mikako Satsukitane",
+        "native": "五月田根 美香子",
+        "userPreferred": "Mikako Satsukitane"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b23495-YT6KOUHOydDb.png",
+      "voiceActors": [
+        {
+          "id": 95823,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayahi",
+            "last": "Takagaki",
+            "full": "Ayahi Takagaki",
+            "native": "高垣彩陽",
+            "userPreferred": "Ayahi Takagaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95823-gJC6Tr9HDOqy.png"
+        },
+        {
+          "id": 95891,
+          "language": "English",
+          "name": {
+            "first": "Jamie",
+            "last": "Marchi",
+            "full": "Jamie Marchi",
+            "native": null,
+            "userPreferred": "Jamie Marchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95891-QG8dyefPjUIz.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28859,
+      "role": "MAIN",
+      "name": {
+        "first": "Astraea",
+        "last": null,
+        "full": "Astraea",
+        "native": "アストレア",
+        "userPreferred": "Astraea"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28859.jpg",
+      "voiceActors": [
+        {
+          "id": 95051,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaori",
+            "last": "Fukuhara",
+            "full": "Kaori Fukuhara",
+            "native": "福原香織",
+            "userPreferred": "Kaori Fukuhara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95051-cTWmIVG5piAG.png"
+        },
+        {
+          "id": 101181,
+          "language": "English",
+          "name": {
+            "first": "Carli",
+            "last": "Mosier",
+            "full": "Carli Mosier",
+            "native": "Carlin Cyd Mosier",
+            "userPreferred": "Carli Mosier"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101181-LTc5rfaUef91.png"
+        }
+      ]
+    },
+    {
+      "id": 23491,
+      "role": "MAIN",
+      "name": {
+        "first": "Sohara",
+        "last": "Mitsuki",
+        "full": "Sohara Mitsuki",
+        "native": "見月そはら",
+        "userPreferred": "Sohara Mitsuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b23491-8X5P0t25wvAO.png",
+      "voiceActors": [
+        {
+          "id": 103930,
+          "language": "Japanese",
+          "name": {
+            "first": "Mina ",
+            "last": "Kasai",
+            "full": "Mina  Kasai",
+            "native": "葛西美名",
+            "userPreferred": "Mina  Kasai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8930.jpg"
+        },
+        {
+          "id": 96804,
+          "language": "English",
+          "name": {
+            "first": "Trina",
+            "last": "Nishimura",
+            "full": "Trina Nishimura",
+            "native": null,
+            "userPreferred": "Trina Nishimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96804-0OKQgacznkZ4.png"
+        }
+      ]
+    },
+    {
+      "id": 23494,
+      "role": "MAIN",
+      "name": {
+        "first": "Eishirou",
+        "last": "Sugata",
+        "full": "Eishirou Sugata",
+        "native": "守形 英四郎",
+        "userPreferred": "Eishirou Sugata"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b23494-cOOxV2ygDecg.png",
+      "voiceActors": [
+        {
+          "id": 95735,
+          "language": "Japanese",
+          "name": {
+            "first": "Tatsuhisa",
+            "last": "Suzuki",
+            "full": "Tatsuhisa Suzuki",
+            "native": "鈴木達央",
+            "userPreferred": "Tatsuhisa Suzuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95735-xssSe5BRSkaq.jpg"
+        },
+        {
+          "id": 95312,
+          "language": "English",
+          "name": {
+            "first": "Eric",
+            "last": "Vale",
+            "full": "Eric Vale",
+            "native": null,
+            "userPreferred": "Eric Vale"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95312-lixmVhwE8AXE.png"
+        }
+      ]
+    },
+    {
+      "id": 21150,
+      "role": "MAIN",
+      "name": {
+        "first": "Ikaros",
+        "last": null,
+        "full": "Ikaros",
+        "native": "イカロス",
+        "userPreferred": "Ikaros"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b21150-VDqnMYaHeSg4.png",
+      "voiceActors": [
+        {
+          "id": 95869,
+          "language": "Japanese",
+          "name": {
+            "first": "Saori",
+            "last": "Hayami",
+            "full": "Saori Hayami",
+            "native": "早見沙織",
+            "userPreferred": "Saori Hayami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95869-qCQ0EaWpq1QT.png"
+        },
+        {
+          "id": 95414,
+          "language": "English",
+          "name": {
+            "first": "Brittney",
+            "last": "Karbowski",
+            "full": "Brittney Karbowski",
+            "native": null,
+            "userPreferred": "Brittney Karbowski"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/414.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29580,
+      "role": "MAIN",
+      "name": {
+        "first": "Hiyori",
+        "last": "Kazane",
+        "full": "Hiyori Kazane",
+        "native": "風音 日和",
+        "userPreferred": "Hiyori Kazane"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29580-ukPx93lmb6xD.png",
+      "voiceActors": [
+        {
+          "id": 102263,
+          "language": "Japanese",
+          "name": {
+            "first": "Youko",
+            "last": "Hikasa",
+            "full": "Youko Hikasa",
+            "native": "日笠陽子",
+            "userPreferred": "Youko Hikasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102263-aaPZtNXVUljW.jpg"
+        },
+        {
+          "id": 95472,
+          "language": "English",
+          "name": {
+            "first": "Colleen",
+            "last": "Clinkenbeard",
+            "full": "Colleen Clinkenbeard",
+            "native": null,
+            "userPreferred": "Colleen Clinkenbeard"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95472-fznpewUW95vm.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28758,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Minos",
+        "last": null,
+        "full": "Minos",
+        "native": "シナプスの男",
+        "userPreferred": "Minos"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28758.jpg",
+      "voiceActors": [
+        {
+          "id": 95022,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinichirou",
+            "last": "Miki",
+            "full": "Shinichirou Miki",
+            "native": "三木眞一郎",
+            "userPreferred": "Shinichirou Miki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95022-BXggjIr4KHqd.png"
+        },
+        {
+          "id": 95202,
+          "language": "English",
+          "name": {
+            "first": "Mike",
+            "last": "McFarland",
+            "full": "Mike McFarland",
+            "native": null,
+            "userPreferred": "Mike McFarland"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/202.jpg"
+        }
+      ]
+    },
+    {
+      "id": 60813,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tsukino",
+        "last": "Hououin",
+        "full": "Tsukino Hououin",
+        "native": "鳳凰院月乃",
+        "userPreferred": "Tsukino Hououin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b60813-c0qOTcyBBjHZ.png",
+      "voiceActors": [
+        {
+          "id": 101634,
+          "language": "Japanese",
+          "name": {
+            "first": "Minako",
+            "last": "Kotobuki",
+            "full": "Minako Kotobuki",
+            "native": "寿美菜子",
+            "userPreferred": "Minako Kotobuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101634-IiPW117K0ybp.png"
+        },
+        {
+          "id": 96650,
+          "language": "English",
+          "name": {
+            "first": "Cherami",
+            "last": "Leigh",
+            "full": "Cherami Leigh",
+            "native": null,
+            "userPreferred": "Cherami Leigh"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96650-oYspSQuaFo3N.jpg"
+        }
+      ]
+    },
+    {
+      "id": 37553,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Daedalus",
+        "last": null,
+        "full": "Daedalus",
+        "native": "ダイダロス",
+        "userPreferred": "Daedalus"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b37553-4Cghix0LmOXT.png",
+      "voiceActors": [
+        {
+          "id": 102489,
+          "language": "Japanese",
+          "name": {
+            "first": "Asuka",
+            "last": "Oogame",
+            "full": "Asuka Oogame",
+            "native": "大亀あすか",
+            "userPreferred": "Asuka Oogame"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102489-73FNdRKuEYh4.png"
+        },
+        {
+          "id": 95159,
+          "language": "English",
+          "name": {
+            "first": "Monica",
+            "last": "Rial",
+            "full": "Monica Rial",
+            "native": null,
+            "userPreferred": "Monica Rial"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95159-iTd65o5LhA62.png"
+        }
+      ]
+    },
+    {
+      "id": 37694,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Harpy 1",
+        "last": null,
+        "full": "Harpy 1",
+        "native": "ハーピー",
+        "userPreferred": "Harpy 1"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/37694.jpg",
+      "voiceActors": [
+        {
+          "id": 95176,
+          "language": "Japanese",
+          "name": {
+            "first": "Michiko",
+            "last": "Neya",
+            "full": "Michiko Neya",
+            "native": "根谷美智子",
+            "userPreferred": "Michiko Neya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95176-3yZnUwXap7nX.png"
+        },
+        {
+          "id": 95661,
+          "language": "English",
+          "name": {
+            "first": "Clarine",
+            "last": "Harp",
+            "full": "Clarine Harp",
+            "native": null,
+            "userPreferred": "Clarine Harp"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/661.jpg"
+        }
+      ]
+    },
+    {
+      "id": 60811,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yoshitsune",
+        "last": "Hououin",
+        "full": "Yoshitsune Hououin",
+        "native": "鳳凰院キング経義",
+        "userPreferred": "Yoshitsune Hououin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b60811-EZTS9SYIxX7R.png",
+      "voiceActors": [
+        {
+          "id": 95410,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinji",
+            "last": "Kawada",
+            "full": "Shinji Kawada",
+            "native": "川田紳司",
+            "userPreferred": "Shinji Kawada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95410-AosJKUc7YZXE.jpg"
+        },
+        {
+          "id": 96602,
+          "language": "English",
+          "name": {
+            "first": "J. Michael",
+            "last": "Tatum",
+            "full": "J. Michael Tatum",
+            "native": "John Michael Tatum",
+            "userPreferred": "J. Michael Tatum"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96602-ztTfuo3nzu5t.png"
+        }
+      ]
+    },
+    {
+      "id": 37695,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Harpy 2",
+        "last": null,
+        "full": "Harpy 2",
+        "native": "ハーピー",
+        "userPreferred": "Harpy 2"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/37695.jpg",
+      "voiceActors": [
+        {
+          "id": 95867,
+          "language": "Japanese",
+          "name": {
+            "first": "Maya",
+            "last": "Okamoto",
+            "full": "Maya Okamoto",
+            "native": "岡本麻弥",
+            "userPreferred": "Maya Okamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95867-dmx5f6eJ0DiP.jpg"
+        },
+        {
+          "id": 95475,
+          "language": "English",
+          "name": {
+            "first": "Stephanie",
+            "last": "Young",
+            "full": "Stephanie Young",
+            "native": null,
+            "userPreferred": "Stephanie Young"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95475-QV9KFgsYrsPb.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 8407,
+      "relationType": "PREQUEL",
+      "malId": 8407,
+      "title": {
+        "romaji": "Sora no Otoshimono: Forte",
+        "english": "Heaven's Lost Property: Forte",
+        "native": "そらのおとしものf（フォルテ）",
+        "userPreferred": "Sora no Otoshimono: Forte"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx8407-lgUv2tUNTONy.png",
+      "color": "#f1d693",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/8407-qNBaS8YsnpLK.jpg",
+      "rating": 70
+    },
+    {
+      "id": 12783,
+      "relationType": "SEQUEL",
+      "malId": 12783,
+      "title": {
+        "romaji": "Sora no Otoshimono Final: Eien no Watashi no Torikago",
+        "english": "Heaven’s Lost Property Final – The Movie: Eternally My Master",
+        "native": "そらのおとしものＦｉｎａｌ永遠の私の鳥籠［エターナルマイマスター］",
+        "userPreferred": "Sora no Otoshimono Final: Eien no Watashi no Torikago"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12783-xWgKouYg3i2u.jpg",
+      "color": "#e4935d",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12783-xWgKouYg3i2u.jpg",
+      "rating": 62
+    },
+    {
+      "id": 38144,
+      "relationType": "ADAPTATION",
+      "malId": 8144,
+      "title": {
+        "romaji": "Sora no Otoshimono",
+        "english": null,
+        "native": "そらのおとしもの",
+        "userPreferred": "Sora no Otoshimono"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx38144-mPs2QWbRy2n3.jpg",
+      "color": null,
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/38144-2GgU1yKvX7pA.jpg",
+      "rating": 77
+    }
+  ],
+  "episodes": [
+    {
+      "id": "sora-no-otoshimono-tokeijikake-no-angeloid-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9790-OAQA9JYhzFxz.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//sora-no-otoshimono-tokeijikake-no-angeloid-episode-1"
+    }
+  ]
+}

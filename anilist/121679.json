@@ -1,0 +1,377 @@
+{
+  "id": "121679",
+  "title": {
+    "romaji": "Hanhua Riji 2",
+    "english": "God Troubles Me 2",
+    "native": "汉化日记 第二季"
+  },
+  "malId": 42956,
+  "synonyms": [
+    "Men's Diary 2",
+    "Sacrée galère ! 2"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "CN",
+  "trailer": {
+    "id": "bDezRaApqbg",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/bDezRaApqbg/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx121679-YiCOoRNYk8I5.png",
+  "popularity": 567,
+  "color": "#e4c950",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx121679-YiCOoRNYk8I5.png",
+  "description": "The second season of <i>Hanhua Riji</i>.",
+  "status": "Completed",
+  "releaseDate": 2020,
+  "startDate": {
+    "year": 2020,
+    "month": 11,
+    "day": 15
+  },
+  "endDate": {
+    "year": 2021,
+    "month": 1,
+    "day": 24
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 68,
+  "duration": 10,
+  "genres": [
+    "Comedy",
+    "Slice of Life",
+    "Supernatural"
+  ],
+  "season": null,
+  "studios": [
+    "L² Studio"
+  ],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [
+    {
+      "id": 9969,
+      "malId": 9969,
+      "title": {
+        "romaji": "Gintama'",
+        "english": "Gintama Season 2",
+        "native": "銀魂’",
+        "userPreferred": "Gintama'"
+      },
+      "status": "Completed",
+      "episodes": 51,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9969-XyP8TZwb3L6S.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/9969-pxE6nSzGGyUB.jpg",
+      "rating": 89,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 219261,
+      "role": "MAIN",
+      "name": {
+        "first": "",
+        "last": "Dikui Xing",
+        "full": "Dikui Xing",
+        "native": "地魁星",
+        "userPreferred": "Dikui Xing"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b219261-6KqDxghsMjpr.png",
+      "voiceActors": [
+        {
+          "id": 163165,
+          "language": "Chinese",
+          "name": {
+            "first": "Tengxin",
+            "last": "",
+            "full": "Tengxin",
+            "native": "藤新",
+            "userPreferred": "Tengxin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n163165-M71Ui3wUubzz.png"
+        }
+      ]
+    },
+    {
+      "id": 219263,
+      "role": "MAIN",
+      "name": {
+        "first": "Moting",
+        "last": "Su",
+        "full": "Moting Su",
+        "native": "苏莫婷",
+        "userPreferred": "Moting Su"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b219263-oHqJzstD0Hrb.png",
+      "voiceActors": [
+        {
+          "id": 219265,
+          "language": "Chinese",
+          "name": {
+            "first": "Feifei",
+            "last": "Qiao",
+            "full": "Feifei Qiao",
+            "native": "乔菲菲",
+            "userPreferred": "Feifei Qiao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n219265-wdHafe23qh3Q.png"
+        }
+      ]
+    },
+    {
+      "id": 219264,
+      "role": "MAIN",
+      "name": {
+        "first": "",
+        "last": "Tianji Xing",
+        "full": "Tianji Xing",
+        "native": "天机星",
+        "userPreferred": "Tianji Xing"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b219264-ISXoQlmnBZds.jpg",
+      "voiceActors": [
+        {
+          "id": 217579,
+          "language": "Chinese",
+          "name": {
+            "first": "Zhenji",
+            "last": "Huang",
+            "full": "Zhenji Huang",
+            "native": "皇贞季",
+            "userPreferred": "Zhenji Huang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n217579-QKtCvwQVNGIt.png"
+        }
+      ]
+    },
+    {
+      "id": 219373,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Moting",
+        "last": "Su Baba",
+        "full": "Moting Su Baba",
+        "native": "苏莫婷爸爸",
+        "userPreferred": "Moting Su Baba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 175031,
+          "language": "Chinese",
+          "name": {
+            "first": "Zhongyang",
+            "last": "Baomu",
+            "full": "Zhongyang Baomu",
+            "native": "宝木中阳",
+            "userPreferred": "Zhongyang Baomu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n175031-zsl22ZzSAJiY.png"
+        }
+      ]
+    },
+    {
+      "id": 219267,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Zhengshen",
+        "last": "Fude",
+        "full": "Zhengshen Fude",
+        "native": "福德正神",
+        "userPreferred": "Zhengshen Fude"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b219267-XZcsXYGPf0jd.png",
+      "voiceActors": [
+        {
+          "id": 163269,
+          "language": "Chinese",
+          "name": {
+            "first": "Siyu",
+            "last": "Chen",
+            "full": "Siyu Chen",
+            "native": "陈思宇",
+            "userPreferred": "Siyu Chen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n163269-yuQ26sh6vjJ8.png"
+        }
+      ]
+    },
+    {
+      "id": 219374,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Moting",
+        "last": "Su Mama",
+        "full": "Moting Su Mama",
+        "native": "苏莫婷妈妈",
+        "userPreferred": "Moting Su Mama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 217500,
+          "language": "Chinese",
+          "name": {
+            "first": "Rongshan",
+            "last": "Chang",
+            "full": "Rongshan Chang",
+            "native": "常蓉珊",
+            "userPreferred": "Rongshan Chang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n217500-YjTB0BftT331.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 110646,
+      "relationType": "PREQUEL",
+      "malId": 39676,
+      "title": {
+        "romaji": "Hanhua Riji",
+        "english": "God Troubles Me",
+        "native": "汉化日记",
+        "userPreferred": "Hanhua Riji"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110646-xwYrUop0l3zX.jpg",
+      "color": null,
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110646-xwYrUop0l3zX.jpg",
+      "rating": 72
+    },
+    {
+      "id": 132530,
+      "relationType": "SEQUEL",
+      "malId": 50401,
+      "title": {
+        "romaji": "Hanhua Riji 3",
+        "english": "God Troubles Me 3",
+        "native": "汉化日记 第三季",
+        "userPreferred": "Hanhua Riji 3"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx132530-sN2TnsOMclNe.png",
+      "color": "#50aec9",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx132530-sN2TnsOMclNe.png",
+      "rating": 78
+    }
+  ],
+  "episodes": [
+    {
+      "id": "han-hua-ri-ji-2nd-season-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx121679-YiCOoRNYk8I5.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//han-hua-ri-ji-2nd-season-episode-1"
+    },
+    {
+      "id": "han-hua-ri-ji-2nd-season-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx121679-YiCOoRNYk8I5.png",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//han-hua-ri-ji-2nd-season-episode-2"
+    },
+    {
+      "id": "han-hua-ri-ji-2nd-season-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx121679-YiCOoRNYk8I5.png",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//han-hua-ri-ji-2nd-season-episode-3"
+    },
+    {
+      "id": "han-hua-ri-ji-2nd-season-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx121679-YiCOoRNYk8I5.png",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//han-hua-ri-ji-2nd-season-episode-4"
+    },
+    {
+      "id": "han-hua-ri-ji-2nd-season-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx121679-YiCOoRNYk8I5.png",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//han-hua-ri-ji-2nd-season-episode-5"
+    },
+    {
+      "id": "han-hua-ri-ji-2nd-season-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx121679-YiCOoRNYk8I5.png",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//han-hua-ri-ji-2nd-season-episode-6"
+    },
+    {
+      "id": "han-hua-ri-ji-2nd-season-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx121679-YiCOoRNYk8I5.png",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//han-hua-ri-ji-2nd-season-episode-7"
+    },
+    {
+      "id": "han-hua-ri-ji-2nd-season-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx121679-YiCOoRNYk8I5.png",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//han-hua-ri-ji-2nd-season-episode-8"
+    },
+    {
+      "id": "han-hua-ri-ji-2nd-season-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx121679-YiCOoRNYk8I5.png",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//han-hua-ri-ji-2nd-season-episode-9"
+    },
+    {
+      "id": "han-hua-ri-ji-2nd-season-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx121679-YiCOoRNYk8I5.png",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//han-hua-ri-ji-2nd-season-episode-10"
+    },
+    {
+      "id": "han-hua-ri-ji-2nd-season-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx121679-YiCOoRNYk8I5.png",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//han-hua-ri-ji-2nd-season-episode-11"
+    },
+    {
+      "id": "han-hua-ri-ji-2nd-season-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx121679-YiCOoRNYk8I5.png",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//han-hua-ri-ji-2nd-season-episode-12"
+    }
+  ]
+}

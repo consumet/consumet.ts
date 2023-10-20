@@ -1,0 +1,705 @@
+{
+  "id": "4550",
+  "title": {
+    "romaji": "Hyakko",
+    "english": "Hyakko",
+    "native": "ヒャッコ"
+  },
+  "malId": 4550,
+  "synonyms": [
+    "แก๊งสาวซ่า"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4550.jpg",
+  "popularity": 6808,
+  "color": "#f1ae50",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4550.jpg",
+  "description": "On their first day of high school shy Ayumi Nonomura and taciturn Tatsuki Iizuka become lost on the immense campus of Kamizono Academy. An irresistible force of nature named Torako Kageyama accompanied by her best friend Suzume Saotome appears in front of them. Led, sometimes pushed, by Torako, the girls and their classmates work through problems of school, home and adolescence.",
+  "status": "Completed",
+  "releaseDate": 2008,
+  "startDate": {
+    "year": 2008,
+    "month": 10,
+    "day": 2
+  },
+  "endDate": {
+    "year": 2008,
+    "month": 12,
+    "day": 25
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 67,
+  "duration": 24,
+  "genres": [
+    "Comedy",
+    "Slice of Life"
+  ],
+  "season": "FALL",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 1858,
+      "malId": 1858,
+      "title": {
+        "romaji": "Gakuen Utopia Manabi Straight!",
+        "english": null,
+        "native": "がくえんゆーとぴあ まなびストレート！",
+        "userPreferred": "Gakuen Utopia Manabi Straight!"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1858-qUMdLN4Avj69.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1858-m2iWzzPYu5B7.jpg",
+      "rating": 70,
+      "type": "TV"
+    },
+    {
+      "id": 105081,
+      "malId": 38619,
+      "title": {
+        "romaji": "Joshikousei no Mudazukai",
+        "english": "Wasteful Days of High School Girls",
+        "native": "女子高生の無駄づかい",
+        "userPreferred": "Joshikousei no Mudazukai"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx105081-pc4jgCmAP0dZ.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/105081-9EnxVsn9iNq9.jpg",
+      "rating": 75,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 14720,
+      "role": "MAIN",
+      "name": {
+        "first": "Ayumi",
+        "last": "Nonomura",
+        "full": "Ayumi Nonomura",
+        "native": "能々村 歩巳",
+        "userPreferred": "Ayumi Nonomura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14720.jpg",
+      "voiceActors": [
+        {
+          "id": 95004,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Hirano",
+            "full": "Aya Hirano",
+            "native": "平野綾",
+            "userPreferred": "Aya Hirano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95004-qWQQHGzY3wqr.png"
+        }
+      ]
+    },
+    {
+      "id": 14800,
+      "role": "MAIN",
+      "name": {
+        "first": "Suzume",
+        "last": "Saotome",
+        "full": "Suzume Saotome",
+        "native": "早乙女雀",
+        "userPreferred": "Suzume Saotome"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14800.jpg",
+      "voiceActors": [
+        {
+          "id": 95049,
+          "language": "Japanese",
+          "name": {
+            "first": "Yurina",
+            "last": "Hase",
+            "full": "Yurina Hase",
+            "native": "長谷優里奈",
+            "userPreferred": "Yurina Hase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95049-kOO0H03y43pW.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14799,
+      "role": "MAIN",
+      "name": {
+        "first": "Torako",
+        "last": "Kageyama",
+        "full": "Torako Kageyama",
+        "native": "上下山 虎子",
+        "userPreferred": "Torako Kageyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14799.jpg",
+      "voiceActors": [
+        {
+          "id": 95152,
+          "language": "Japanese",
+          "name": {
+            "first": "Fumiko",
+            "last": "Orikasa",
+            "full": "Fumiko Orikasa",
+            "native": "折笠富美子",
+            "userPreferred": "Fumiko Orikasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95152-X9K5ciNGSX35.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15590,
+      "role": "MAIN",
+      "name": {
+        "first": "Tatsuki",
+        "last": "Iizuka",
+        "full": "Tatsuki Iizuka",
+        "native": "伊井塚 龍姫",
+        "userPreferred": "Tatsuki Iizuka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15590.jpg",
+      "voiceActors": [
+        {
+          "id": 95176,
+          "language": "Japanese",
+          "name": {
+            "first": "Michiko",
+            "last": "Neya",
+            "full": "Michiko Neya",
+            "native": "根谷美智子",
+            "userPreferred": "Michiko Neya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95176-3yZnUwXap7nX.png"
+        }
+      ]
+    },
+    {
+      "id": 17687,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Oniyuri",
+        "last": "Kageyama",
+        "full": "Oniyuri Kageyama",
+        "native": "上下山鬼百合",
+        "userPreferred": "Oniyuri Kageyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17687.jpg",
+      "voiceActors": [
+        {
+          "id": 95690,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroko",
+            "last": "Kasahara",
+            "full": "Hiroko Kasahara",
+            "native": "笠原弘子",
+            "userPreferred": "Hiroko Kasahara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95690-tXJK0bhRJ0qf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18409,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yanagi",
+        "last": "Kyougoku",
+        "full": "Yanagi Kyougoku",
+        "native": "京極 柳",
+        "userPreferred": "Yanagi Kyougoku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18409.jpg",
+      "voiceActors": [
+        {
+          "id": 101968,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsushi",
+            "last": "Kousaka",
+            "full": "Atsushi Kousaka",
+            "native": "髙坂篤志",
+            "userPreferred": "Atsushi Kousaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101968-MbkpqticPIk4.png"
+        }
+      ]
+    },
+    {
+      "id": 14802,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chie",
+        "last": "Suzugasaki",
+        "full": "Chie Suzugasaki",
+        "native": "涼ヶ崎 知恵",
+        "userPreferred": "Chie Suzugasaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14802.jpg",
+      "voiceActors": [
+        {
+          "id": 95028,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Horie",
+            "full": "Yui Horie",
+            "native": "堀江由衣",
+            "userPreferred": "Yui Horie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95028-MHT1m3E5wGZx.png"
+        }
+      ]
+    },
+    {
+      "id": 15594,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Minato",
+        "last": "Ooba",
+        "full": "Minato Ooba",
+        "native": "大場 湊兎",
+        "userPreferred": "Minato Ooba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15594.jpg",
+      "voiceActors": [
+        {
+          "id": 95797,
+          "language": "Japanese",
+          "name": {
+            "first": "Asuka",
+            "last": "Nakase",
+            "full": "Asuka Nakase",
+            "native": "中世明日香",
+            "userPreferred": "Asuka Nakase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/797.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18411,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuki",
+        "last": "Yagi",
+        "full": "Yuki Yagi",
+        "native": "八木 ユキ",
+        "userPreferred": "Yuki Yagi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18411.jpg",
+      "voiceActors": [
+        {
+          "id": 101969,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuki",
+            "last": "Gotou",
+            "full": "Yuki Gotou",
+            "native": "後藤夕貴",
+            "userPreferred": "Yuki Gotou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101969-Eti1BEq42G9d.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17939,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hitsugi",
+        "last": "Nikaidou",
+        "full": "Hitsugi Nikaidou",
+        "native": "弐街道 火継",
+        "userPreferred": "Hitsugi Nikaidou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17939.jpg",
+      "voiceActors": [
+        {
+          "id": 95968,
+          "language": "Japanese",
+          "name": {
+            "first": "Mana",
+            "last": "Ogawa",
+            "full": "Mana Ogawa",
+            "native": "小川真奈",
+            "userPreferred": "Mana Ogawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95968-BeliRy07NNu7.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14801,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Touma",
+        "last": "Kazamatsuri",
+        "full": "Touma Kazamatsuri",
+        "native": "風茉莉冬馬",
+        "userPreferred": "Touma Kazamatsuri"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b14801-wyL4hsBN7191.jpg",
+      "voiceActors": [
+        {
+          "id": 95057,
+          "language": "Japanese",
+          "name": {
+            "first": "Houko",
+            "last": "Kuwashima",
+            "full": "Houko Kuwashima",
+            "native": "桑島法子",
+            "userPreferred": "Houko Kuwashima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95057-nMZEwJet445W.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18410,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shishimaru",
+        "last": "Sengoku",
+        "full": "Shishimaru Sengoku",
+        "native": "京極 柳",
+        "userPreferred": "Shishimaru Sengoku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18410.jpg",
+      "voiceActors": [
+        {
+          "id": 96030,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenji",
+            "last": "Takahashi",
+            "full": "Kenji Takahashi",
+            "native": "高橋研二",
+            "userPreferred": "Kenji Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96030-1lePCWAH7pfP.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15595,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kyouichirou",
+        "last": "Amagasa",
+        "full": "Kyouichirou Amagasa",
+        "native": "傘 叶一狼",
+        "userPreferred": "Kyouichirou Amagasa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15595.jpg",
+      "voiceActors": [
+        {
+          "id": 95063,
+          "language": "Japanese",
+          "name": {
+            "first": "Keiji",
+            "last": "Fujiwara",
+            "full": "Keiji Fujiwara",
+            "native": "藤原啓治",
+            "userPreferred": "Keiji Fujiwara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95063-xAsEUzspuLMG.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17468,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kitsune",
+        "last": "Kageyama",
+        "full": "Kitsune Kageyama",
+        "native": "上下山 狐",
+        "userPreferred": "Kitsune Kageyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17468.jpg",
+      "voiceActors": [
+        {
+          "id": 96527,
+          "language": "Japanese",
+          "name": {
+            "first": "Mitsuhiro",
+            "last": "Ichiki",
+            "full": "Mitsuhiro Ichiki",
+            "native": "市来光弘",
+            "userPreferred": "Mitsuhiro Ichiki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1527.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15593,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Inori",
+        "last": "Tsubomiya",
+        "full": "Inori Tsubomiya",
+        "native": "蕾家 祈",
+        "userPreferred": "Inori Tsubomiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15593.jpg",
+      "voiceActors": [
+        {
+          "id": 101560,
+          "language": "Japanese",
+          "name": {
+            "first": "Satomi",
+            "last": "Satou",
+            "full": "Satomi Satou",
+            "native": "佐藤聡美",
+            "userPreferred": "Satomi Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101560-x0Va6GS2YMeH.png"
+        }
+      ]
+    },
+    {
+      "id": 15591,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nene",
+        "last": "Andou",
+        "full": "Nene Andou",
+        "native": "杏藤 子々",
+        "userPreferred": "Nene Andou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15591.jpg",
+      "voiceActors": [
+        {
+          "id": 101711,
+          "language": "Japanese",
+          "name": {
+            "first": "Masayo",
+            "last": "Fujita",
+            "full": "Masayo Fujita",
+            "native": "藤田昌代",
+            "userPreferred": "Masayo Fujita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6711.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14803,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ushio",
+        "last": "Makunouchi",
+        "full": "Ushio Makunouchi",
+        "native": "幕之内 潮",
+        "userPreferred": "Ushio Makunouchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14803.jpg",
+      "voiceActors": [
+        {
+          "id": 95428,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Kaida",
+            "full": "Yuuko Kaida",
+            "native": "甲斐田裕子",
+            "userPreferred": "Yuuko Kaida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95428-1e4kSvr5fkmQ.png"
+        }
+      ]
+    },
+    {
+      "id": 15592,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Koma",
+        "last": "Kobayashi",
+        "full": "Koma Kobayashi",
+        "native": "古囃 独楽",
+        "userPreferred": "Koma Kobayashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15592.jpg",
+      "voiceActors": [
+        {
+          "id": 101712,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroko",
+            "last": "Igarashi",
+            "full": "Hiroko Igarashi",
+            "native": "浩子 五十嵐",
+            "userPreferred": "Hiroko Igarashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6712.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 38482,
+      "relationType": "ADAPTATION",
+      "malId": 8482,
+      "title": {
+        "romaji": "Hyakko",
+        "english": null,
+        "native": "ヒャッコ",
+        "userPreferred": "Hyakko"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx38482-sZHNjHhFwVDY.jpg",
+      "color": "#e48635",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/38482-kuxbzqU0v9oP.jpg",
+      "rating": 71
+    },
+    {
+      "id": 6958,
+      "relationType": "SIDE_STORY",
+      "malId": 6958,
+      "title": {
+        "romaji": "Hyakko OVA",
+        "english": null,
+        "native": "ヒャッコOVA",
+        "userPreferred": "Hyakko OVA"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6958.jpg",
+      "color": "#f1a150",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6958.jpg",
+      "rating": 64
+    }
+  ],
+  "episodes": [
+    {
+      "id": "hyakko-episode-1",
+      "title": "Coming Face-to-Face with the Tiger Cub",
+      "image": "https://media.kitsu.io/episodes/thumbnails/60725/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:25:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyakko-episode-1"
+    },
+    {
+      "id": "hyakko-episode-2",
+      "title": "Can't Catch a Tiger Cub Without Going Into the Tiger's Den",
+      "image": "https://media.kitsu.io/episodes/thumbnails/60726/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:25:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyakko-episode-2"
+    },
+    {
+      "id": "hyakko-episode-3",
+      "title": "A Tiger at the Front Gate and a Tiger at the School Gate / Paper Tiger",
+      "image": "https://media.kitsu.io/episodes/thumbnails/60727/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:25:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyakko-episode-3"
+    },
+    {
+      "id": "hyakko-episode-4",
+      "title": "Drink like a Cow, Eat like a Horse, Eat like a Tiger / Tigers Hang Out with Tigers",
+      "image": "https://media.kitsu.io/episodes/thumbnails/60728/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:25:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyakko-episode-4"
+    },
+    {
+      "id": "hyakko-episode-5",
+      "title": "An Uncanny Relationship of Tigers / Try to Live Up to People's Expectations, Try Fighting a Tiger",
+      "image": "https://media.kitsu.io/episodes/thumbnails/60729/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:25:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyakko-episode-5"
+    },
+    {
+      "id": "hyakko-episode-6",
+      "title": "Tigers on Three Sides",
+      "image": "https://media.kitsu.io/episodes/thumbnails/60730/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:25:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyakko-episode-6"
+    },
+    {
+      "id": "hyakko-episode-7",
+      "title": "A Fox and a Tiger Finally Meet",
+      "image": "https://media.kitsu.io/episodes/thumbnails/60731/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:25:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyakko-episode-7"
+    },
+    {
+      "id": "hyakko-episode-8",
+      "title": "An Arrow Stuck in a Tiger",
+      "image": "https://media.kitsu.io/episodes/thumbnails/60732/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:25:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyakko-episode-8"
+    },
+    {
+      "id": "hyakko-episode-9",
+      "title": "Pity, Not for the Tiger's Sake / Suzume and You Shall Receive",
+      "image": "https://media.kitsu.io/episodes/thumbnails/60733/original.jpeg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:25:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyakko-episode-9"
+    },
+    {
+      "id": "hyakko-episode-10",
+      "title": "A Winged Tiger",
+      "image": "https://media.kitsu.io/episodes/thumbnails/60734/original.jpeg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:25:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyakko-episode-10"
+    },
+    {
+      "id": "hyakko-episode-11",
+      "title": "Escape from the Tiger's Jaw",
+      "image": "https://media.kitsu.io/episodes/thumbnails/60735/original.jpeg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:25:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyakko-episode-11"
+    },
+    {
+      "id": "hyakko-episode-12",
+      "title": "First a Daughter, Second a Son, and Third a Tiger Cub / A Demon's Heart for a Lost Tiger Cub",
+      "image": "https://media.kitsu.io/episodes/thumbnails/60736/original.jpeg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:25:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyakko-episode-12"
+    },
+    {
+      "id": "hyakko-episode-13",
+      "title": "Four People Form a Tiger",
+      "image": "https://media.kitsu.io/episodes/thumbnails/60737/original.jpeg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:25:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyakko-episode-13"
+    }
+  ]
+}

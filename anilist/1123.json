@@ -1,0 +1,397 @@
+{
+  "id": "1123",
+  "title": {
+    "romaji": "Bouken Ou Beet Excellion",
+    "english": "Beet the Vandel Buster Excellion",
+    "native": "冒険王ビィト エクセリオン"
+  },
+  "malId": 1123,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1123.jpg",
+  "popularity": 988,
+  "color": "#e4bb28",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1123.jpg",
+  "description": "It is the dark century and the people are suffering under the rule of the devil, Vandel, who is able to manipulate monsters. The Vandel Busters are a group of people who hunt these devils, and among them, the Zenon Squad is known to be the strongest busters on the continent. A young boy, Beet, dreams of joining the Zenon Squad. However, one day, as a result of Beet's fault, the Zenon squad was defeated by the devil, Beltose. The five dying busters sacrificed their life power into their five weapons, Saiga. After giving their weapons to Beet, they passed away. Years have passed since then and the young Vandel Buster, Beet, begins his adventure to carry out the Zenon Squad's will to put an end to the dark century. <br>",
+  "status": "Completed",
+  "releaseDate": 2005,
+  "startDate": {
+    "year": 2005,
+    "month": 10,
+    "day": 6
+  },
+  "endDate": {
+    "year": 2006,
+    "month": 3,
+    "day": 30
+  },
+  "totalEpisodes": 25,
+  "currentEpisode": 25,
+  "rating": 58,
+  "duration": 24,
+  "genres": [
+    "Adventure",
+    "Fantasy",
+    "Supernatural"
+  ],
+  "season": "FALL",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 9058,
+      "role": "MAIN",
+      "name": {
+        "first": "Kissu",
+        "last": null,
+        "full": "Kissu",
+        "native": "キッス",
+        "userPreferred": "Kissu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9058.jpg",
+      "voiceActors": [
+        {
+          "id": 95080,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Hisakawa",
+            "full": "Aya Hisakawa",
+            "native": "久川綾",
+            "userPreferred": "Aya Hisakawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95080-7dOAcrnsSghI.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9054,
+      "role": "MAIN",
+      "name": {
+        "first": "Beet",
+        "last": null,
+        "full": "Beet",
+        "native": "ビィト",
+        "userPreferred": "Beet"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9054.jpg",
+      "voiceActors": [
+        {
+          "id": 95447,
+          "language": "Japanese",
+          "name": {
+            "first": "Reiko",
+            "last": "Kiuchi",
+            "full": "Reiko Kiuchi",
+            "native": "木内レイコ",
+            "userPreferred": "Reiko Kiuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95447-azSzomyrIIUR.png"
+        }
+      ]
+    },
+    {
+      "id": 9056,
+      "role": "MAIN",
+      "name": {
+        "first": "Poala",
+        "last": null,
+        "full": "Poala",
+        "native": "ポアラ",
+        "userPreferred": "Poala"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9056.jpg",
+      "voiceActors": [
+        {
+          "id": 95487,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Maeda",
+            "full": "Ai Maeda",
+            "native": "前田愛",
+            "userPreferred": "Ai Maeda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95487-AryHTm78n9to.png"
+        }
+      ]
+    },
+    {
+      "id": 31656,
+      "role": "MAIN",
+      "name": {
+        "first": "Milfa",
+        "last": null,
+        "full": "Milfa",
+        "native": "ミルファ",
+        "userPreferred": "Milfa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/31656.jpg",
+      "voiceActors": [
+        {
+          "id": 95709,
+          "language": "Japanese",
+          "name": {
+            "first": "Rumi",
+            "last": "Shishido",
+            "full": "Rumi Shishido",
+            "native": "宍戸留美",
+            "userPreferred": "Rumi Shishido"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95709-1rUYsS5GXdN3.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 8,
+      "relationType": "PREQUEL",
+      "malId": 8,
+      "title": {
+        "romaji": "Bouken Ou Beet",
+        "english": "Beet the Vandel Buster",
+        "native": "冒険王ビィト",
+        "userPreferred": "Bouken Ou Beet"
+      },
+      "status": "Completed",
+      "episodes": 52,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8-ReS3TwSgrDDi.jpg",
+      "color": "#e46b50",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8-ReS3TwSgrDDi.jpg",
+      "rating": 63
+    }
+  ],
+  "episodes": [
+    {
+      "id": "beet-the-vandel-buster-excellion-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1123.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beet-the-vandel-buster-excellion-episode-1"
+    },
+    {
+      "id": "beet-the-vandel-buster-excellion-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1123.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beet-the-vandel-buster-excellion-episode-2"
+    },
+    {
+      "id": "beet-the-vandel-buster-excellion-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1123.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beet-the-vandel-buster-excellion-episode-3"
+    },
+    {
+      "id": "beet-the-vandel-buster-excellion-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1123.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beet-the-vandel-buster-excellion-episode-4"
+    },
+    {
+      "id": "beet-the-vandel-buster-excellion-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1123.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beet-the-vandel-buster-excellion-episode-5"
+    },
+    {
+      "id": "beet-the-vandel-buster-excellion-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1123.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beet-the-vandel-buster-excellion-episode-6"
+    },
+    {
+      "id": "beet-the-vandel-buster-excellion-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1123.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beet-the-vandel-buster-excellion-episode-7"
+    },
+    {
+      "id": "beet-the-vandel-buster-excellion-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1123.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beet-the-vandel-buster-excellion-episode-8"
+    },
+    {
+      "id": "beet-the-vandel-buster-excellion-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1123.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beet-the-vandel-buster-excellion-episode-9"
+    },
+    {
+      "id": "beet-the-vandel-buster-excellion-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1123.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beet-the-vandel-buster-excellion-episode-10"
+    },
+    {
+      "id": "beet-the-vandel-buster-excellion-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1123.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beet-the-vandel-buster-excellion-episode-11"
+    },
+    {
+      "id": "beet-the-vandel-buster-excellion-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1123.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beet-the-vandel-buster-excellion-episode-12"
+    },
+    {
+      "id": "beet-the-vandel-buster-excellion-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1123.jpg",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beet-the-vandel-buster-excellion-episode-13"
+    },
+    {
+      "id": "beet-the-vandel-buster-excellion-episode-14",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1123.jpg",
+      "number": 14,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beet-the-vandel-buster-excellion-episode-14"
+    },
+    {
+      "id": "beet-the-vandel-buster-excellion-episode-15",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1123.jpg",
+      "number": 15,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beet-the-vandel-buster-excellion-episode-15"
+    },
+    {
+      "id": "beet-the-vandel-buster-excellion-episode-16",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1123.jpg",
+      "number": 16,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beet-the-vandel-buster-excellion-episode-16"
+    },
+    {
+      "id": "beet-the-vandel-buster-excellion-episode-17",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1123.jpg",
+      "number": 17,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beet-the-vandel-buster-excellion-episode-17"
+    },
+    {
+      "id": "beet-the-vandel-buster-excellion-episode-18",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1123.jpg",
+      "number": 18,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beet-the-vandel-buster-excellion-episode-18"
+    },
+    {
+      "id": "beet-the-vandel-buster-excellion-episode-19",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1123.jpg",
+      "number": 19,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beet-the-vandel-buster-excellion-episode-19"
+    },
+    {
+      "id": "beet-the-vandel-buster-excellion-episode-20",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1123.jpg",
+      "number": 20,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beet-the-vandel-buster-excellion-episode-20"
+    },
+    {
+      "id": "beet-the-vandel-buster-excellion-episode-21",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1123.jpg",
+      "number": 21,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beet-the-vandel-buster-excellion-episode-21"
+    },
+    {
+      "id": "beet-the-vandel-buster-excellion-episode-22",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1123.jpg",
+      "number": 22,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beet-the-vandel-buster-excellion-episode-22"
+    },
+    {
+      "id": "beet-the-vandel-buster-excellion-episode-23",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1123.jpg",
+      "number": 23,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beet-the-vandel-buster-excellion-episode-23"
+    },
+    {
+      "id": "beet-the-vandel-buster-excellion-episode-24",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1123.jpg",
+      "number": 24,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beet-the-vandel-buster-excellion-episode-24"
+    },
+    {
+      "id": "beet-the-vandel-buster-excellion-episode-25",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1123.jpg",
+      "number": 25,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beet-the-vandel-buster-excellion-episode-25"
+    }
+  ]
+}

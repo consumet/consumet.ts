@@ -1,0 +1,921 @@
+{
+  "id": "551",
+  "title": {
+    "romaji": "Grappler Baki: Saidai Tournament-hen",
+    "english": "Grappler Baki Maximum Tournament",
+    "native": "グラップラー刃牙(バキ) 最大トーナメント編"
+  },
+  "malId": 551,
+  "synonyms": [
+    "Grappler Baki TV 2",
+    "BAKI the Grappler II"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/551.jpg",
+  "popularity": 14635,
+  "color": "#f1ae50",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/551.jpg",
+  "description": "Baki, a great grappler needs to live up to his name being the son of the the greatest grapplers of all time: Hanma Yujiro. At the Shinshinkai Organization's private arena, anything goes and the odds are always stacked against you. Current champion of the urderground tournament he fight to defend his title against the worlds strongest and best martial artists, including \"the beast\" his own father Yujiro.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2001,
+  "startDate": {
+    "year": 2001,
+    "month": 7,
+    "day": 24
+  },
+  "endDate": {
+    "year": 2001,
+    "month": 12,
+    "day": 25
+  },
+  "totalEpisodes": 24,
+  "currentEpisode": 24,
+  "rating": 72,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Sports"
+  ],
+  "season": "SUMMER",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 100891,
+      "malId": 36903,
+      "title": {
+        "romaji": "Kengan Ashura",
+        "english": "KENGAN ASHURA Part I",
+        "native": "ケンガンアシュラ",
+        "userPreferred": "Kengan Ashura"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100891-vPfnfkzizYFe.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100891-ykOVRCdJGNhi.jpg",
+      "rating": 72,
+      "type": "ONA"
+    },
+    {
+      "id": 230,
+      "malId": 230,
+      "title": {
+        "romaji": "Air Master",
+        "english": "Air Master",
+        "native": "エアマスター",
+        "userPreferred": "Air Master"
+      },
+      "status": "Completed",
+      "episodes": 27,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx230-5vY01r9G3ihu.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx230-5vY01r9G3ihu.png",
+      "rating": 61,
+      "type": "TV"
+    },
+    {
+      "id": 17671,
+      "malId": 17671,
+      "title": {
+        "romaji": "Animal 1",
+        "english": null,
+        "native": "アニマル１",
+        "userPreferred": "Animal 1"
+      },
+      "status": "Completed",
+      "episodes": 27,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b17671-5FX5kKX8BcaG.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b17671-5FX5kKX8BcaG.png",
+      "rating": 49,
+      "type": "TV"
+    },
+    {
+      "id": 111048,
+      "malId": 40269,
+      "title": {
+        "romaji": "Kengan Ashura Part 2",
+        "english": "KENGAN ASHURA Part II",
+        "native": "ケンガンアシュラ Part 2",
+        "userPreferred": "Kengan Ashura Part 2"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111048-eN50zZM0YqkL.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/111048-BPc3ZWPcjUVA.jpg",
+      "rating": 76,
+      "type": "ONA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 10498,
+      "role": "MAIN",
+      "name": {
+        "first": "Baki",
+        "last": "Hanma",
+        "full": "Baki Hanma",
+        "native": "範馬刃牙",
+        "userPreferred": "Baki Hanma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b10498-Ep1aY2liGmIA.png",
+      "voiceActors": [
+        {
+          "id": 95488,
+          "language": "Japanese",
+          "name": {
+            "first": "Masami",
+            "last": "Kikuchi",
+            "full": "Masami Kikuchi",
+            "native": "菊池正美",
+            "userPreferred": "Masami Kikuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95488-XPg4VA6rW4jJ.png"
+        },
+        {
+          "id": 95666,
+          "language": "English",
+          "name": {
+            "first": "Robert",
+            "last": "McCollum",
+            "full": "Robert McCollum",
+            "native": null,
+            "userPreferred": "Robert McCollum"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95666-er3JLtqV1TLy.jpg"
+        },
+        {
+          "id": 109825,
+          "language": "Korean",
+          "name": {
+            "first": "Gwang ju",
+            "last": "Jeon",
+            "full": "Gwang ju Jeon",
+            "native": "광주 전",
+            "userPreferred": "Gwang ju Jeon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14825.jpg"
+        },
+        {
+          "id": 117927,
+          "language": "German",
+          "name": {
+            "first": "Linus",
+            "last": "Kraus",
+            "full": "Linus Kraus",
+            "native": null,
+            "userPreferred": "Linus Kraus"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/22927.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16290,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Katsumi",
+        "last": "Orochi",
+        "full": "Katsumi Orochi",
+        "native": "愚地克巳",
+        "userPreferred": "Katsumi Orochi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b16290-iAf9m2jkUXWG.jpg",
+      "voiceActors": [
+        {
+          "id": 95063,
+          "language": "Japanese",
+          "name": {
+            "first": "Keiji",
+            "last": "Fujiwara",
+            "full": "Keiji Fujiwara",
+            "native": "藤原啓治",
+            "userPreferred": "Keiji Fujiwara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95063-xAsEUzspuLMG.jpg"
+        },
+        {
+          "id": 95360,
+          "language": "English",
+          "name": {
+            "first": "Sonny",
+            "last": "Strait",
+            "full": "Sonny Strait",
+            "native": null,
+            "userPreferred": "Sonny Strait"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/360.jpg"
+        },
+        {
+          "id": 212312,
+          "language": "German",
+          "name": {
+            "first": "Christoph",
+            "last": "Bautz",
+            "full": "Christoph Bautz",
+            "native": null,
+            "userPreferred": "Christoph Bautz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16875,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jack",
+        "last": "Hammer",
+        "full": "Jack Hammer",
+        "native": "ジャック・ハンマー",
+        "userPreferred": "Jack Hammer"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b16875-F0oZJ4W0RTrH.jpg",
+      "voiceActors": [
+        {
+          "id": 96145,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouichi",
+            "last": "Sakaguchi",
+            "full": "Kouichi Sakaguchi",
+            "native": "坂口候一",
+            "userPreferred": "Kouichi Sakaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96145-5FqzsN2pOiB4.png"
+        },
+        {
+          "id": 96553,
+          "language": "English",
+          "name": {
+            "first": "Daniel",
+            "last": "Penz",
+            "full": "Daniel Penz",
+            "native": null,
+            "userPreferred": "Daniel Penz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1553.jpg"
+        },
+        {
+          "id": 167488,
+          "language": "German",
+          "name": {
+            "first": "Matthias",
+            "last": "Lühn",
+            "full": "Matthias Lühn",
+            "native": null,
+            "userPreferred": "Matthias Lühn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16291,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kyosumi",
+        "last": "Katou",
+        "full": "Kyosumi Katou",
+        "native": "加藤清澄",
+        "userPreferred": "Kyosumi Katou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16291.jpg",
+      "voiceActors": [
+        {
+          "id": 96543,
+          "language": "Japanese",
+          "name": {
+            "first": "Takehiro",
+            "last": "Murozono",
+            "full": "Takehiro Murozono",
+            "native": "室園丈裕",
+            "userPreferred": "Takehiro Murozono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1543.jpg"
+        },
+        {
+          "id": 95182,
+          "language": "English",
+          "name": {
+            "first": "Troy",
+            "last": "Baker",
+            "full": "Troy Baker",
+            "native": null,
+            "userPreferred": "Troy Baker"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95182-TiZXT6F98sV2.png"
+        },
+        {
+          "id": 172238,
+          "language": "German",
+          "name": {
+            "first": "Erik",
+            "last": "Borner",
+            "full": "Erik Borner",
+            "native": null,
+            "userPreferred": "Erik Borner"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16261,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Doppo",
+        "last": "Orochi",
+        "full": "Doppo Orochi",
+        "native": "愚地独歩",
+        "userPreferred": "Doppo Orochi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b16261-LMY1cYT8oIt2.jpg",
+      "voiceActors": [
+        {
+          "id": 96436,
+          "language": "Japanese",
+          "name": {
+            "first": "Mugihito",
+            "last": "",
+            "full": "Mugihito",
+            "native": "麦人 ",
+            "userPreferred": "Mugihito"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1436.jpg"
+        },
+        {
+          "id": 96551,
+          "language": "English",
+          "name": {
+            "first": "Greg",
+            "last": "Dulcie",
+            "full": "Greg Dulcie",
+            "native": null,
+            "userPreferred": "Greg Dulcie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1551.jpg"
+        },
+        {
+          "id": 172237,
+          "language": "German",
+          "name": {
+            "first": "Gordon",
+            "last": "Piedesack",
+            "full": "Gordon Piedesack",
+            "native": null,
+            "userPreferred": "Gordon Piedesack"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19674,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Koushou",
+        "last": "Shinogi",
+        "full": "Koushou Shinogi",
+        "native": "鎬昂昇",
+        "userPreferred": "Koushou Shinogi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/19674.jpg",
+      "voiceActors": [
+        {
+          "id": 95122,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuhiro",
+            "last": "Nakata",
+            "full": "Kazuhiro Nakata",
+            "native": "中田和宏",
+            "userPreferred": "Kazuhiro Nakata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/122.jpg"
+        },
+        {
+          "id": 95253,
+          "language": "English",
+          "name": {
+            "first": "Christopher",
+            "last": "Sabat",
+            "full": "Christopher Sabat",
+            "native": null,
+            "userPreferred": "Christopher Sabat"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95253-Z7Yqog73M7E8.png"
+        },
+        {
+          "id": 144920,
+          "language": "German",
+          "name": {
+            "first": "Michael-Che",
+            "last": "Koch",
+            "full": "Michael-Che Koch",
+            "native": null,
+            "userPreferred": "Michael-Che Koch"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n144920-prNNpFQmuzOw.png"
+        }
+      ]
+    },
+    {
+      "id": 35484,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Oliva",
+        "last": "Biscuit",
+        "full": "Oliva Biscuit",
+        "native": "ビスケット・オリバ",
+        "userPreferred": "Oliva Biscuit"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b35484-T0yowGuxYXS0.png",
+      "voiceActors": [
+        {
+          "id": 100770,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuusaku",
+            "last": "Yara",
+            "full": "Yuusaku Yara",
+            "native": "屋良有作",
+            "userPreferred": "Yuusaku Yara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100770-UwcMoND5FIgC.png"
+        },
+        {
+          "id": 96221,
+          "language": "English",
+          "name": {
+            "first": "Markus",
+            "last": "Lloyd",
+            "full": "Markus Lloyd",
+            "native": null,
+            "userPreferred": "Markus Lloyd"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96221-LgdZfjVT53Nz.png"
+        }
+      ]
+    },
+    {
+      "id": 22281,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kozue",
+        "last": "Matsumoto",
+        "full": "Kozue Matsumoto",
+        "native": "松本梢江",
+        "userPreferred": "Kozue Matsumoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/22281.jpg",
+      "voiceActors": [
+        {
+          "id": 95276,
+          "language": "Japanese",
+          "name": {
+            "first": "Sachiko",
+            "last": "Kojima",
+            "full": "Sachiko Kojima",
+            "native": "小島幸子",
+            "userPreferred": "Sachiko Kojima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95276-uj7NdE0RLmEU.png"
+        },
+        {
+          "id": 96550,
+          "language": "English",
+          "name": {
+            "first": "Kate",
+            "last": "Oxley",
+            "full": "Kate Oxley",
+            "native": null,
+            "userPreferred": "Kate Oxley"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1550.jpg"
+        },
+        {
+          "id": 117903,
+          "language": "German",
+          "name": {
+            "first": "Tanja",
+            "last": "Esche",
+            "full": "Tanja Esche",
+            "native": null,
+            "userPreferred": "Tanja Esche"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/22903.jpg"
+        }
+      ]
+    },
+    {
+      "id": 82289,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Izo",
+        "last": "Motobe",
+        "full": "Izo Motobe",
+        "native": "本部以蔵",
+        "userPreferred": "Izo Motobe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b82289-qlSDZGlwqSm7.png",
+      "voiceActors": [
+        {
+          "id": 104562,
+          "language": "Japanese",
+          "name": {
+            "first": "Masayuki",
+            "last": "Omoro",
+            "full": "Masayuki Omoro",
+            "native": "小室正幸",
+            "userPreferred": "Masayuki Omoro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104562-b8p3boRWsQcf.jpg"
+        },
+        {
+          "id": 106990,
+          "language": "English",
+          "name": {
+            "first": "Jim",
+            "last": "Johnson",
+            "full": "Jim Johnson",
+            "native": null,
+            "userPreferred": "Jim Johnson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/11990.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20059,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chiharu",
+        "last": "Shiba",
+        "full": "Chiharu Shiba",
+        "native": "柴千春",
+        "userPreferred": "Chiharu Shiba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20059.jpg",
+      "voiceActors": [
+        {
+          "id": 95295,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomohiro",
+            "last": "Nishimura",
+            "full": "Tomohiro Nishimura",
+            "native": "西村朋紘",
+            "userPreferred": "Tomohiro Nishimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95295-wAC8cLzBjWet.png"
+        },
+        {
+          "id": 120248,
+          "language": "English",
+          "name": {
+            "first": "Robbie",
+            "last": "Daymond",
+            "full": "Robbie Daymond",
+            "native": null,
+            "userPreferred": "Robbie Daymond"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n120248-Htn17gfEQPHX.jpg"
+        },
+        {
+          "id": 172239,
+          "language": "German",
+          "name": {
+            "first": "Oliver",
+            "last": "Wronka",
+            "full": "Oliver Wronka",
+            "native": null,
+            "userPreferred": "Oliver Wronka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 80249,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaiou",
+        "last": "Retsu",
+        "full": "Kaiou Retsu",
+        "native": "烈海王",
+        "userPreferred": "Kaiou Retsu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b80249-YffPZTKKGdko.png",
+      "voiceActors": [
+        {
+          "id": 96243,
+          "language": "Japanese",
+          "name": {
+            "first": "Kunihiko",
+            "last": "Yasui",
+            "full": "Kunihiko Yasui",
+            "native": "安井邦彦",
+            "userPreferred": "Kunihiko Yasui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96243-8Dh4B8TraUJn.jpg"
+        },
+        {
+          "id": 96336,
+          "language": "English",
+          "name": {
+            "first": "Thomas",
+            "last": "Blaylock, Jr.",
+            "full": "Thomas Blaylock, Jr.",
+            "native": null,
+            "userPreferred": "Thomas Edwin Blaylock, Jr."
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1336.jpg"
+        },
+        {
+          "id": 212313,
+          "language": "German",
+          "name": {
+            "first": "Martin",
+            "last": "Schäfer",
+            "full": "Martin Schäfer",
+            "native": null,
+            "userPreferred": "Martin Schäfer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10499,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yujiro",
+        "last": "Hanma",
+        "full": "Yujiro Hanma",
+        "native": "範馬勇次郎",
+        "userPreferred": "Yujiro Hanma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b10499-4wu6gFnSGhz5.jpg",
+      "voiceActors": [
+        {
+          "id": 95299,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenji",
+            "last": "Nomura",
+            "full": "Kenji Nomura",
+            "native": "乃村健次",
+            "userPreferred": "Kenji Nomura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95299-emNsgDYS4DBi.jpg"
+        },
+        {
+          "id": 107295,
+          "language": "English",
+          "name": {
+            "first": "Matthew",
+            "last": "Thomkins",
+            "full": "Matthew Thomkins",
+            "native": null,
+            "userPreferred": "Matthew Thomkins"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12295.jpg"
+        },
+        {
+          "id": 172235,
+          "language": "German",
+          "name": {
+            "first": "Rolf",
+            "last": "Buschpeter",
+            "full": "Rolf Buschpeter",
+            "native": null,
+            "userPreferred": "Rolf Buschpeter"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19675,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kureha",
+        "last": "Shinogi",
+        "full": "Kureha Shinogi",
+        "native": "昂昇紅葉",
+        "userPreferred": "Kureha Shinogi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/19675.jpg",
+      "voiceActors": [
+        {
+          "id": 96469,
+          "language": "Japanese",
+          "name": {
+            "first": "Mitsuru",
+            "last": "Miyamoto",
+            "full": "Mitsuru Miyamoto",
+            "native": "宮本充",
+            "userPreferred": "Mitsuru Miyamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96469-uVRO2mYXvXxP.png"
+        },
+        {
+          "id": 145725,
+          "language": "English",
+          "name": {
+            "first": "Mark",
+            "last": "Lancaster",
+            "full": "Mark Lancaster",
+            "native": null,
+            "userPreferred": "Mark Lancaster"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n145725-WpjFbJj3GhnE.jpg"
+        },
+        {
+          "id": 154228,
+          "language": "German",
+          "name": {
+            "first": "Matthias",
+            "last": "Keller",
+            "full": "Matthias Keller",
+            "native": null,
+            "userPreferred": "Matthias Keller"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10501,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaoru",
+        "last": "Hanayama",
+        "full": "Kaoru Hanayama",
+        "native": "花山薫",
+        "userPreferred": "Kaoru Hanayama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b10501-YXNA2kF1bi5X.png",
+      "voiceActors": [
+        {
+          "id": 103868,
+          "language": "Japanese",
+          "name": {
+            "first": "Masayuki",
+            "last": "Nakata",
+            "full": "Masayuki Nakata",
+            "native": "雅之 中田",
+            "userPreferred": "Masayuki Nakata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8868.jpg"
+        },
+        {
+          "id": 95336,
+          "language": "English",
+          "name": {
+            "first": "Kyle",
+            "last": "Hebert",
+            "full": "Kyle Hebert",
+            "native": null,
+            "userPreferred": "Kyle Hebert"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95336-VVMKFINwPYZ8.jpg"
+        },
+        {
+          "id": 117907,
+          "language": "German",
+          "name": {
+            "first": "Djamil",
+            "last": "Deininger",
+            "full": "Djamil Deininger",
+            "native": null,
+            "userPreferred": "Djamil Deininger"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/22907.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36384,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gouki",
+        "last": "Shibukawa",
+        "full": "Gouki Shibukawa",
+        "native": "渋川剛気",
+        "userPreferred": "Gouki Shibukawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/36384.jpg",
+      "voiceActors": [
+        {
+          "id": 96174,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Naka",
+            "full": "Hiroshi Naka",
+            "native": "中博史",
+            "userPreferred": "Hiroshi Naka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96174-xESRSYS5NSwN.jpg"
+        },
+        {
+          "id": 95480,
+          "language": "English",
+          "name": {
+            "first": "R. Bruce",
+            "last": "Elliott",
+            "full": "R. Bruce Elliott",
+            "native": null,
+            "userPreferred": "R. Bruce Elliott"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/480.jpg"
+        },
+        {
+          "id": 212311,
+          "language": "German",
+          "name": {
+            "first": "Peter",
+            "last": "Heusch",
+            "full": "Peter Heusch",
+            "native": null,
+            "userPreferred": "Peter Heusch"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 26330,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Andreas",
+        "last": "Regan",
+        "full": "Andreas Regan",
+        "native": "アンドレアス・リーガン",
+        "userPreferred": "Andreas Regan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26330.jpg",
+      "voiceActors": []
+    }
+  ],
+  "relations": [
+    {
+      "id": 287,
+      "relationType": "PREQUEL",
+      "malId": 287,
+      "title": {
+        "romaji": "Grappler Baki (TV)",
+        "english": "Baki the Grappler",
+        "native": "グラップラー刃牙 (TV)",
+        "userPreferred": "Grappler Baki (TV)"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx287-goNFQRZPze2g.jpg",
+      "color": "#e45d43",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/287-iCmAPCmck31R.jpg",
+      "rating": 72
+    },
+    {
+      "id": 41425,
+      "relationType": "ADAPTATION",
+      "malId": 11425,
+      "title": {
+        "romaji": "Grappler Baki",
+        "english": null,
+        "native": "グラップラー刃牙",
+        "userPreferred": "Grappler Baki"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx41425-h4goOXcXI7yY.png",
+      "color": "#f17835",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/41425-eWHATepBk1BD.jpg",
+      "rating": 77
+    },
+    {
+      "id": 97888,
+      "relationType": "SEQUEL",
+      "malId": 34443,
+      "title": {
+        "romaji": "Baki",
+        "english": "BAKI",
+        "native": "バキ",
+        "userPreferred": "Baki"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97888-xog2zolFnj12.jpg",
+      "color": "#e4865d",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97888-0GMFaK3scX5B.jpg",
+      "rating": 72
+    }
+  ],
+  "episodes": []
+}

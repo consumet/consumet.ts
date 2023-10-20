@@ -1,0 +1,818 @@
+{
+  "id": "953",
+  "title": {
+    "romaji": "Juu Ou Sei",
+    "english": "Jyu-Oh-Sei: Planet of the Beast King",
+    "native": "獣王星"
+  },
+  "malId": 953,
+  "synonyms": [
+    "Juuousei"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx953-aW4L92eHDDJj.jpg",
+  "popularity": 9118,
+  "color": "#f1e4c9",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/953-WjbCMR4H88uq.jpg",
+  "description": "Thor and his twin brother, Rai, are cast off to a forsaken planet by unknown masked men after witnessing the suspicious death of their parents. Given only a beam knife and a smelly satchel, they wander together in search of civilization on the primarily plant based world. They soon discover the plants have the advantage. Only the strong survive; the ones who throw away their humanity and become the beasts humans once were.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2006,
+  "startDate": {
+    "year": 2006,
+    "month": 4,
+    "day": 14
+  },
+  "endDate": {
+    "year": 2006,
+    "month": 6,
+    "day": 23
+  },
+  "totalEpisodes": 11,
+  "currentEpisode": 11,
+  "rating": 66,
+  "duration": 22,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Drama",
+    "Mystery",
+    "Sci-Fi"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "bones"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 2158,
+      "malId": 2158,
+      "title": {
+        "romaji": "Terra e... (TV)",
+        "english": "Toward the Terra (TV)",
+        "native": "地球へ… (TV)",
+        "userPreferred": "Terra e... (TV)"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2158-HQQCVlw2B7iz.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2158-rPFjcos7QEPx.jpg",
+      "rating": 75,
+      "type": "TV"
+    },
+    {
+      "id": 105807,
+      "malId": 38735,
+      "title": {
+        "romaji": "7SEEDS",
+        "english": "7SEEDS",
+        "native": "7SEEDS",
+        "userPreferred": "7SEEDS"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx105807-cq1TUGWJmvRE.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx105807-cq1TUGWJmvRE.jpg",
+      "rating": 63,
+      "type": "ONA"
+    },
+    {
+      "id": 10161,
+      "malId": 10161,
+      "title": {
+        "romaji": "NO.6",
+        "english": "No.6",
+        "native": "NO.6",
+        "userPreferred": "NO.6"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx10161-GxQ9Wwof1zP7.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10161-GbnVZzkRxwU2.jpg",
+      "rating": 72,
+      "type": "TV"
+    },
+    {
+      "id": 107663,
+      "malId": 39198,
+      "title": {
+        "romaji": "Kanata no Astra",
+        "english": "ASTRA LOST IN SPACE",
+        "native": "彼方のアストラ",
+        "userPreferred": "Kanata no Astra"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107663-eDkgpoa4UWhN.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/107663-tIwWetvU4k6W.jpg",
+      "rating": 78,
+      "type": "TV"
+    },
+    {
+      "id": 21452,
+      "malId": 32032,
+      "title": {
+        "romaji": "Seikaisuru Kado",
+        "english": "KADO: The Right Answer",
+        "native": "正解するカド",
+        "userPreferred": "Seikaisuru Kado"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21452-nMuqJmziSDn3.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n21452-HttTXJ1kgmxs.jpg",
+      "rating": 63,
+      "type": "TV"
+    },
+    {
+      "id": 16668,
+      "malId": 16668,
+      "title": {
+        "romaji": "Kakumeiki Valvrave",
+        "english": "Valvrave the Liberator",
+        "native": "革命機ヴァルヴレイヴ",
+        "userPreferred": "Kakumeiki Valvrave"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16668-ShG8DE2t0ryW.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16668-7kiygsBfIXKm.jpg",
+      "rating": 66,
+      "type": "TV"
+    },
+    {
+      "id": 1140,
+      "malId": 1140,
+      "title": {
+        "romaji": "Giniro no Kami no Agito",
+        "english": "Origin: Spirits of the Past",
+        "native": "銀色の髪のアギト",
+        "userPreferred": "Giniro no Kami no Agito"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1140-5SWhZ6CkGCZw.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1140-pBWtFaQbzIUp.jpg",
+      "rating": 65,
+      "type": "MOVIE"
+    },
+    {
+      "id": 2560,
+      "malId": 2560,
+      "title": {
+        "romaji": "Terra e...",
+        "english": "Toward the Terra",
+        "native": "地球へ...",
+        "userPreferred": "Terra e..."
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2560-fGJFfEvVBGMB.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2560-IwgxLlDphkwQ.jpg",
+      "rating": 60,
+      "type": "MOVIE"
+    },
+    {
+      "id": 5041,
+      "malId": 5041,
+      "title": {
+        "romaji": "Guin Saga",
+        "english": "Guin Saga",
+        "native": "グイン・サーガ",
+        "userPreferred": "Guin Saga"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/5041.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/5041-EGDVV1FKzJ47.jpg",
+      "rating": 67,
+      "type": "TV"
+    },
+    {
+      "id": 5835,
+      "malId": 5835,
+      "title": {
+        "romaji": "Hanasakeru Seishounen",
+        "english": "Hanasakeru Seishounen ",
+        "native": "花咲ける青少年",
+        "userPreferred": "Hanasakeru Seishounen"
+      },
+      "status": "Completed",
+      "episodes": 39,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5835-g7Q2Ra5N8X7b.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/5835-dbV8AQPWtzFe.jpg",
+      "rating": 71,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 1751,
+      "role": "MAIN",
+      "name": {
+        "first": "Thor",
+        "last": "Klein",
+        "full": "Thor Klein",
+        "native": "トール",
+        "userPreferred": "Thor Klein"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1751.jpg",
+      "voiceActors": [
+        {
+          "id": 95024,
+          "language": "Japanese",
+          "name": {
+            "first": "Minami",
+            "last": "Takayama",
+            "full": "Minami Takayama",
+            "native": "高山みなみ",
+            "userPreferred": "Minami Takayama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95024-qsZgGp8VHqMP.png"
+        },
+        {
+          "id": 95657,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouichi",
+            "last": "Domoto",
+            "full": "Kouichi Domoto",
+            "native": "堂本光一",
+            "userPreferred": "Kouichi Domoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/657.jpg"
+        },
+        {
+          "id": 95479,
+          "language": "English",
+          "name": {
+            "first": "Alison",
+            "last": "Viktorin",
+            "full": "Alison Viktorin",
+            "native": null,
+            "userPreferred": "Alison Viktorin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/479.jpg"
+        },
+        {
+          "id": 96326,
+          "language": "English",
+          "name": {
+            "first": "Sean",
+            "last": "Michael Teague",
+            "full": "Sean Michael Teague",
+            "native": null,
+            "userPreferred": "Sean Michael Teague"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1326.jpg"
+        },
+        {
+          "id": 101105,
+          "language": "German",
+          "name": {
+            "first": "David",
+            "last": "Turba",
+            "full": "David Turba",
+            "native": null,
+            "userPreferred": "David Turba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101105-Yp2wxjRexBwR.png"
+        }
+      ]
+    },
+    {
+      "id": 1753,
+      "role": "MAIN",
+      "name": {
+        "first": "Tiz",
+        "last": null,
+        "full": "Tiz",
+        "native": "ティズ",
+        "userPreferred": "Tiz"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1753.jpg",
+      "voiceActors": [
+        {
+          "id": 95081,
+          "language": "Japanese",
+          "name": {
+            "first": "Nana",
+            "last": "Mizuki",
+            "full": "Nana Mizuki",
+            "native": "水樹奈々",
+            "userPreferred": "Nana Mizuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95081-qto4UanYkpQT.png"
+        },
+        {
+          "id": 96804,
+          "language": "English",
+          "name": {
+            "first": "Trina",
+            "last": "Nishimura",
+            "full": "Trina Nishimura",
+            "native": null,
+            "userPreferred": "Trina Nishimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96804-0OKQgacznkZ4.png"
+        },
+        {
+          "id": 109865,
+          "language": "Korean",
+          "name": {
+            "first": "So-Yeon",
+            "last": "",
+            "full": "So-Yeon",
+            "native": "소연",
+            "userPreferred": "So-Yeon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109865-MYklOuRucAAZ.jpg"
+        },
+        {
+          "id": 101128,
+          "language": "German",
+          "name": {
+            "first": "Kirstin",
+            "last": "Hesse",
+            "full": "Kirstin Hesse",
+            "native": null,
+            "userPreferred": "Kirstin Hesse"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6128.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1755,
+      "role": "MAIN",
+      "name": {
+        "first": "Zagi",
+        "last": null,
+        "full": "Zagi",
+        "native": null,
+        "userPreferred": "Zagi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1755.jpg",
+      "voiceActors": [
+        {
+          "id": 95123,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuya",
+            "last": "Nakai",
+            "full": "Kazuya Nakai",
+            "native": "中井和哉",
+            "userPreferred": "Kazuya Nakai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95123-qdVFNraYmQ5K.png"
+        },
+        {
+          "id": 95312,
+          "language": "English",
+          "name": {
+            "first": "Eric",
+            "last": "Vale",
+            "full": "Eric Vale",
+            "native": null,
+            "userPreferred": "Eric Vale"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95312-lixmVhwE8AXE.png"
+        },
+        {
+          "id": 109853,
+          "language": "Korean",
+          "name": {
+            "first": "Yong-Woo",
+            "last": "Shin",
+            "full": "Yong-Woo Shin",
+            "native": "신용우",
+            "userPreferred": "Yong-Woo Shin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109853-j96EqRUBocBE.jpg"
+        },
+        {
+          "id": 101116,
+          "language": "German",
+          "name": {
+            "first": "Heiko",
+            "last": "Obermöller",
+            "full": "Heiko Obermöller",
+            "native": null,
+            "userPreferred": "Heiko Obermöller"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6116.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1754,
+      "role": "MAIN",
+      "name": {
+        "first": "Third",
+        "last": null,
+        "full": "Third",
+        "native": null,
+        "userPreferred": "Third"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1754.jpg",
+      "voiceActors": [
+        {
+          "id": 95398,
+          "language": "Japanese",
+          "name": {
+            "first": "Shun",
+            "last": "Oguri",
+            "full": "Shun Oguri",
+            "native": "小栗旬",
+            "userPreferred": "Shun Oguri"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/398.jpg"
+        },
+        {
+          "id": 101998,
+          "language": "English",
+          "name": {
+            "first": "Duncan",
+            "last": "Brannan",
+            "full": "Duncan Brannan",
+            "native": null,
+            "userPreferred": "Duncan Brannan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6998.jpg"
+        },
+        {
+          "id": 109867,
+          "language": "Korean",
+          "name": {
+            "first": "Jang",
+            "last": "Kim",
+            "full": "Jang Kim",
+            "native": "장 김",
+            "userPreferred": "Jang Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14867.jpg"
+        },
+        {
+          "id": 101112,
+          "language": "German",
+          "name": {
+            "first": "Julien",
+            "last": "Haggege",
+            "full": "Julien Haggege",
+            "native": "Julien Haggège",
+            "userPreferred": "Julien Haggege"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6112.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1752,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rai",
+        "last": "Klein",
+        "full": "Rai Klein",
+        "native": "ラーイ",
+        "userPreferred": "Rai Klein"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1752.jpg",
+      "voiceActors": [
+        {
+          "id": 95024,
+          "language": "Japanese",
+          "name": {
+            "first": "Minami",
+            "last": "Takayama",
+            "full": "Minami Takayama",
+            "native": "高山みなみ",
+            "userPreferred": "Minami Takayama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95024-qsZgGp8VHqMP.png"
+        },
+        {
+          "id": 95479,
+          "language": "English",
+          "name": {
+            "first": "Alison",
+            "last": "Viktorin",
+            "full": "Alison Viktorin",
+            "native": null,
+            "userPreferred": "Alison Viktorin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/479.jpg"
+        },
+        {
+          "id": 109867,
+          "language": "Korean",
+          "name": {
+            "first": "Jang",
+            "last": "Kim",
+            "full": "Jang Kim",
+            "native": "장 김",
+            "userPreferred": "Jang Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14867.jpg"
+        },
+        {
+          "id": 107320,
+          "language": "German",
+          "name": {
+            "first": "Hannes",
+            "last": "Maurer",
+            "full": "Hannes Maurer",
+            "native": null,
+            "userPreferred": "Hannes Maurer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12320.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1756,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Karim",
+        "last": null,
+        "full": "Karim",
+        "native": null,
+        "userPreferred": "Karim"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1756.jpg",
+      "voiceActors": [
+        {
+          "id": 95082,
+          "language": "Japanese",
+          "name": {
+            "first": "Romi",
+            "last": "Park",
+            "full": "Romi Park",
+            "native": "朴璐美",
+            "userPreferred": "Romi Park"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95082-pNGbnYv4cHAK.png"
+        },
+        {
+          "id": 95891,
+          "language": "English",
+          "name": {
+            "first": "Jamie",
+            "last": "Marchi",
+            "full": "Jamie Marchi",
+            "native": null,
+            "userPreferred": "Jamie Marchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95891-QG8dyefPjUIz.jpg"
+        },
+        {
+          "id": 101148,
+          "language": "German",
+          "name": {
+            "first": "Gabriele",
+            "last": "Wienand",
+            "full": "Gabriele Wienand",
+            "native": null,
+            "userPreferred": "Gabriele Wienand"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101148-xXxO9hNuKgl8.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1757,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Cheng",
+        "last": null,
+        "full": "Cheng",
+        "native": null,
+        "userPreferred": "Cheng"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1757.jpg",
+      "voiceActors": [
+        {
+          "id": 95436,
+          "language": "Japanese",
+          "name": {
+            "first": "Rika",
+            "last": "Fukami",
+            "full": "Rika Fukami",
+            "native": "深見梨加",
+            "userPreferred": "Rika Fukami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95436-2md6ij7fGO88.png"
+        },
+        {
+          "id": 95661,
+          "language": "English",
+          "name": {
+            "first": "Clarine",
+            "last": "Harp",
+            "full": "Clarine Harp",
+            "native": null,
+            "userPreferred": "Clarine Harp"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/661.jpg"
+        },
+        {
+          "id": 109865,
+          "language": "Korean",
+          "name": {
+            "first": "So-Yeon",
+            "last": "",
+            "full": "So-Yeon",
+            "native": "소연",
+            "userPreferred": "So-Yeon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109865-MYklOuRucAAZ.jpg"
+        },
+        {
+          "id": 103783,
+          "language": "German",
+          "name": {
+            "first": "Ilya",
+            "last": "Welter",
+            "full": "Ilya Welter",
+            "native": null,
+            "userPreferred": "Ilya Welter"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103783-YmOozd096H2Q.png"
+        }
+      ]
+    },
+    {
+      "id": 38173,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mao",
+        "last": null,
+        "full": "Mao",
+        "native": null,
+        "userPreferred": "Mao"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/38173.jpg",
+      "voiceActors": [
+        {
+          "id": 102069,
+          "language": "Japanese",
+          "name": {
+            "first": "Eriko",
+            "last": "Hirata",
+            "full": "Eriko Hirata",
+            "native": "平田絵里子",
+            "userPreferred": "Eriko Hirata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102069-L6rWTL9BH34b.png"
+        },
+        {
+          "id": 106522,
+          "language": "English",
+          "name": {
+            "first": "Maeghan",
+            "last": "Albach",
+            "full": "Maeghan Albach",
+            "native": null,
+            "userPreferred": "Maeghan Albach"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/11522.jpg"
+        },
+        {
+          "id": 101123,
+          "language": "German",
+          "name": {
+            "first": "Ulrike",
+            "last": "Hötzel",
+            "full": "Ulrike Hötzel",
+            "native": null,
+            "userPreferred": "Ulrike Hötzel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 30382,
+      "relationType": "ADAPTATION",
+      "malId": 382,
+      "title": {
+        "romaji": "Juu Ou Sei",
+        "english": "Jyu-Oh-Sei",
+        "native": "獣王星",
+        "userPreferred": "Juu Ou Sei"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/382.jpg",
+      "color": "#e4ae5d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/30382-xq6qV9gmsvLS.jpg",
+      "rating": 74
+    }
+  ],
+  "episodes": [
+    {
+      "id": "jyu-oh-sei-episode-1",
+      "title": "Fate",
+      "image": "https://media.kitsu.io/episodes/thumbnails/17643/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:22:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jyu-oh-sei-episode-1"
+    },
+    {
+      "id": "jyu-oh-sei-episode-2",
+      "title": "Ochre Ring",
+      "image": "https://media.kitsu.io/episodes/thumbnails/17644/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:22:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jyu-oh-sei-episode-2"
+    },
+    {
+      "id": "jyu-oh-sei-episode-3",
+      "title": "Ally",
+      "image": "https://media.kitsu.io/episodes/thumbnails/17645/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:22:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jyu-oh-sei-episode-3"
+    },
+    {
+      "id": "jyu-oh-sei-episode-4",
+      "title": "Challenge",
+      "image": "https://media.kitsu.io/episodes/thumbnails/17646/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:22:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jyu-oh-sei-episode-4"
+    },
+    {
+      "id": "jyu-oh-sei-episode-5",
+      "title": "Duel",
+      "image": "https://media.kitsu.io/episodes/thumbnails/17647/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:22:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jyu-oh-sei-episode-5"
+    },
+    {
+      "id": "jyu-oh-sei-episode-6",
+      "title": "Blanc Ro",
+      "image": "https://media.kitsu.io/episodes/thumbnails/17648/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:22:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jyu-oh-sei-episode-6"
+    },
+    {
+      "id": "jyu-oh-sei-episode-7",
+      "title": "Independence",
+      "image": "https://media.kitsu.io/episodes/thumbnails/17649/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:22:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jyu-oh-sei-episode-7"
+    },
+    {
+      "id": "jyu-oh-sei-episode-8",
+      "title": "The Depths",
+      "image": "https://media.kitsu.io/episodes/thumbnails/17650/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:22:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jyu-oh-sei-episode-8"
+    },
+    {
+      "id": "jyu-oh-sei-episode-9",
+      "title": "Beast King",
+      "image": "https://media.kitsu.io/episodes/thumbnails/17651/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:22:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jyu-oh-sei-episode-9"
+    },
+    {
+      "id": "jyu-oh-sei-episode-10",
+      "title": "Nightmare",
+      "image": "https://media.kitsu.io/episodes/thumbnails/17652/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:22:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jyu-oh-sei-episode-10"
+    },
+    {
+      "id": "jyu-oh-sei-episode-11",
+      "title": "Hope",
+      "image": "https://media.kitsu.io/episodes/thumbnails/17653/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:22:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jyu-oh-sei-episode-11"
+    }
+  ]
+}

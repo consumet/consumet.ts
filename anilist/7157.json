@@ -1,0 +1,94 @@
+{
+  "id": "7157",
+  "title": {
+    "romaji": "Dr. Slump Movie 7: Arale-chan Ncha! Penguin Mura yori Ai wo Komete",
+    "english": "Dr. Slump and Arale-chan: N-cha! Love Comes From Penguin Village",
+    "native": "Ｄｒ．スランプ アラレちゃん んちゃ！ペンギン村より愛をこめて"
+  },
+  "malId": 7157,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/7157.jpg",
+  "popularity": 401,
+  "color": "#e4bb28",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/7157.jpg",
+  "description": "Dr. Slump movie 7.",
+  "status": "Completed",
+  "releaseDate": 1993,
+  "startDate": {
+    "year": 1993,
+    "month": 7,
+    "day": 10
+  },
+  "endDate": {
+    "year": 1993,
+    "month": 7,
+    "day": 10
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 54,
+  "duration": 31,
+  "genres": [
+    "Comedy",
+    "Slice of Life"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Toei Animation"
+  ],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 3182,
+      "role": "MAIN",
+      "name": {
+        "first": "Arale",
+        "last": "Norimaki",
+        "full": "Arale Norimaki",
+        "native": "則巻アラレ",
+        "userPreferred": "Arale Norimaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3182.jpg",
+      "voiceActors": [
+        {
+          "id": 95571,
+          "language": "Japanese",
+          "name": {
+            "first": "Mami",
+            "last": "Koyama",
+            "full": "Mami Koyama",
+            "native": "小山茉美",
+            "userPreferred": "Mami Koyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95571-QuL7zlRwRcxa.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 2222,
+      "relationType": "PARENT",
+      "malId": 2222,
+      "title": {
+        "romaji": "Dr. Slump: Arale-chan",
+        "english": null,
+        "native": "Dr.スランプ・アラレちゃん",
+        "userPreferred": "Dr. Slump: Arale-chan"
+      },
+      "status": "Completed",
+      "episodes": 243,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2222-wJc3oXlh4SDV.jpg",
+      "color": "#ffd600",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2222-v9bANWdxPTd4.jpg",
+      "rating": 68
+    }
+  ],
+  "episodes": []
+}

@@ -1,0 +1,640 @@
+{
+  "id": "106568",
+  "title": {
+    "romaji": "BAKUMATSU Crisis",
+    "english": "BAKUMATSU Crisis",
+    "native": "BAKUMATSUクライシス"
+  },
+  "malId": 38860,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "WpJky_B-5IY",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/WpJky_B-5IY/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx106568-h1OtYxFbceNt.jpg",
+  "popularity": 2475,
+  "color": "#e45d6b",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx106568-h1OtYxFbceNt.jpg",
+  "description": "The chronometer is a legendary treasure that has the power to manipulate time.<br><br>\nThe Susanoo Incident unfolded in the capital of Kyoto and ended with the death of the masked shogun, Mugensai. Having finished visiting the grave of his former master, Yoshida Shouin, Takasugi Shinsaku and his partner, Katsura Kogorou, return to Kyoto once again.<br><br>\nSuddenly, the earth trembles and the sky splits open, and the chronometer, which was supposed to have been destroyed, appears from a rift in space-time. Now with a will of its own, the chronometer starts going on an uncontrollable rampage!!<br><br>\n(Source: crunchyroll)",
+  "status": "Completed",
+  "releaseDate": 2019,
+  "startDate": {
+    "year": 2019,
+    "month": 4,
+    "day": 5
+  },
+  "endDate": {
+    "year": 2019,
+    "month": 6,
+    "day": 21
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 49,
+  "duration": 25,
+  "genres": [
+    "Action"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Studio DEEN"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 98603,
+      "malId": 35251,
+      "title": {
+        "romaji": "Sengoku Night Blood",
+        "english": "SENGOKU NIGHT BLOOD",
+        "native": "戦刻ナイトブラッド",
+        "userPreferred": "Sengoku Night Blood"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98603-PPWyXBNCgWvd.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98603-FAv9LlEh2eNY.jpg",
+      "rating": 53,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 133581,
+      "role": "MAIN",
+      "name": {
+        "first": "Mikado",
+        "last": null,
+        "full": "Mikado",
+        "native": "帝",
+        "userPreferred": "Mikado"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b133581-Res0KJVjwq7h.png",
+      "voiceActors": [
+        {
+          "id": 119185,
+          "language": "Japanese",
+          "name": {
+            "first": "Shunsuke",
+            "last": "Takeuchi",
+            "full": "Shunsuke Takeuchi",
+            "native": "武内駿輔",
+            "userPreferred": "Shunsuke Takeuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119185-65kkxuTRxAgo.png"
+        }
+      ]
+    },
+    {
+      "id": 133588,
+      "role": "MAIN",
+      "name": {
+        "first": "Hajime",
+        "last": "Saitou",
+        "full": "Hajime Saitou",
+        "native": "斎藤一",
+        "userPreferred": "Hajime Saitou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b133588-JFfaGLHUEriZ.png",
+      "voiceActors": [
+        {
+          "id": 133589,
+          "language": "Japanese",
+          "name": {
+            "first": "Keita",
+            "last": "Tada",
+            "full": "Keita Tada",
+            "native": "多田啓太",
+            "userPreferred": "Keita Tada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n133589-LK6PSklAgAqA.jpg"
+        }
+      ]
+    },
+    {
+      "id": 133587,
+      "role": "MAIN",
+      "name": {
+        "first": "Toshizou",
+        "last": "Hijikata",
+        "full": "Toshizou Hijikata",
+        "native": "土方歳三",
+        "userPreferred": "Toshizou Hijikata"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b133587-9UgcOhfglYQw.png",
+      "voiceActors": [
+        {
+          "id": 120209,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiyuki",
+            "last": "Someya",
+            "full": "Toshiyuki Someya",
+            "native": "染谷俊之",
+            "userPreferred": "Toshiyuki Someya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/120209-hfHTB3k0SmG8.jpg"
+        }
+      ]
+    },
+    {
+      "id": 133582,
+      "role": "MAIN",
+      "name": {
+        "first": "Isami",
+        "last": "Kondou",
+        "full": "Isami Kondou",
+        "native": "近藤勇",
+        "userPreferred": "Isami Kondou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b133582-J10E6PA1e3xI.png",
+      "voiceActors": [
+        {
+          "id": 104580,
+          "language": "Japanese",
+          "name": {
+            "first": "Takuya",
+            "last": "Satou",
+            "full": "Takuya Satou",
+            "native": "佐藤拓也",
+            "userPreferred": "Takuya Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104580-UtA5zydwu3ai.png"
+        }
+      ]
+    },
+    {
+      "id": 133576,
+      "role": "MAIN",
+      "name": {
+        "first": "Shinsaku",
+        "last": "Takasugi",
+        "full": "Shinsaku Takasugi",
+        "native": "高杉晋作",
+        "userPreferred": "Shinsaku Takasugi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b133576-s7vsQasBnXRJ.png",
+      "voiceActors": [
+        {
+          "id": 95513,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuichi",
+            "last": "Nakamura",
+            "full": "Yuuichi Nakamura",
+            "native": "中村悠一",
+            "userPreferred": "Yuuichi Nakamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95513-up9ZDuocHgRs.png"
+        }
+      ]
+    },
+    {
+      "id": 133575,
+      "role": "MAIN",
+      "name": {
+        "first": "Kogorou",
+        "last": "Katsura",
+        "full": "Kogorou Katsura",
+        "native": "桂小五郎",
+        "userPreferred": "Kogorou Katsura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b133575-FTOXLWqrPXpQ.png",
+      "voiceActors": [
+        {
+          "id": 102695,
+          "language": "Japanese",
+          "name": {
+            "first": "Takuya",
+            "last": "Eguchi",
+            "full": "Takuya Eguchi",
+            "native": "江口拓也",
+            "userPreferred": "Takuya Eguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102695-dGzsJkor0KMj.jpg"
+        }
+      ]
+    },
+    {
+      "id": 133583,
+      "role": "MAIN",
+      "name": {
+        "first": "Yoshinobu",
+        "last": "Tokugawa",
+        "full": "Yoshinobu Tokugawa",
+        "native": "徳川慶喜",
+        "userPreferred": "Yoshinobu Tokugawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b133583-QWNCB073gRrb.png",
+      "voiceActors": [
+        {
+          "id": 95735,
+          "language": "Japanese",
+          "name": {
+            "first": "Tatsuhisa",
+            "last": "Suzuki",
+            "full": "Tatsuhisa Suzuki",
+            "native": "鈴木達央",
+            "userPreferred": "Tatsuhisa Suzuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95735-xssSe5BRSkaq.jpg"
+        }
+      ]
+    },
+    {
+      "id": 133577,
+      "role": "MAIN",
+      "name": {
+        "first": "Ryouma",
+        "last": "Sakamoto",
+        "full": "Ryouma Sakamoto",
+        "native": "坂本龍馬",
+        "userPreferred": "Ryouma Sakamoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b133577-onOhIABxzcz9.png",
+      "voiceActors": [
+        {
+          "id": 95022,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinichirou",
+            "last": "Miki",
+            "full": "Shinichirou Miki",
+            "native": "三木眞一郎",
+            "userPreferred": "Shinichirou Miki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95022-BXggjIr4KHqd.png"
+        }
+      ]
+    },
+    {
+      "id": 133584,
+      "role": "MAIN",
+      "name": {
+        "first": "Seimei",
+        "last": null,
+        "full": "Seimei",
+        "native": "晴明",
+        "userPreferred": "Seimei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b133584-3ArugUXRHdLw.png",
+      "voiceActors": [
+        {
+          "id": 115096,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshiki",
+            "last": "Nakajima",
+            "full": "Yoshiki Nakajima",
+            "native": "中島ヨシキ",
+            "userPreferred": "Yoshiki Nakajima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n115096-bge79ik3lOOR.png"
+        }
+      ]
+    },
+    {
+      "id": 133579,
+      "role": "MAIN",
+      "name": {
+        "first": "Izou",
+        "last": "Okada",
+        "full": "Izou Okada",
+        "native": "岡田以蔵",
+        "userPreferred": "Izou Okada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b133579-8946M0O1hy0M.png",
+      "voiceActors": [
+        {
+          "id": 106817,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshitsugu",
+            "last": "Matsuoka",
+            "full": "Yoshitsugu Matsuoka",
+            "native": "松岡禎丞",
+            "userPreferred": "Yoshitsugu Matsuoka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106817-mioGQjbTWWQ6.png"
+        }
+      ]
+    },
+    {
+      "id": 133580,
+      "role": "MAIN",
+      "name": {
+        "first": "Susumu",
+        "last": "Yamazaki",
+        "full": "Susumu Yamazaki",
+        "native": "山崎烝",
+        "userPreferred": "Susumu Yamazaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b133580-58ivLbRE99nt.png",
+      "voiceActors": [
+        {
+          "id": 119833,
+          "language": "Japanese",
+          "name": {
+            "first": "Taku",
+            "last": "Yashiro",
+            "full": "Taku Yashiro",
+            "native": "八代拓",
+            "userPreferred": "Taku Yashiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119833-0SP13A92YLm4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 133586,
+      "role": "MAIN",
+      "name": {
+        "first": "Souji",
+        "last": "Okita",
+        "full": "Souji Okita",
+        "native": "沖田総司",
+        "userPreferred": "Souji Okita"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b133586-evIZrNNS3WtV.png",
+      "voiceActors": [
+        {
+          "id": 95556,
+          "language": "Japanese",
+          "name": {
+            "first": "Tsubasa",
+            "last": "Yonaga",
+            "full": "Tsubasa Yonaga",
+            "native": "代永翼",
+            "userPreferred": "Tsubasa Yonaga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95556-Tgolp8AzO49n.png"
+        }
+      ]
+    },
+    {
+      "id": 147202,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hyou",
+        "last": null,
+        "full": "Hyou",
+        "native": "雹",
+        "userPreferred": "Hyou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b147202-LO94jlCNSTmS.png",
+      "voiceActors": [
+        {
+          "id": 118472,
+          "language": "Japanese",
+          "name": {
+            "first": "Nanami",
+            "last": "Yamashita",
+            "full": "Nanami Yamashita",
+            "native": "山下七海",
+            "userPreferred": "Nanami Yamashita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118472-YEwaeltqQmPc.jpg"
+        }
+      ]
+    },
+    {
+      "id": 133585,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shouin",
+        "last": "Yoshida",
+        "full": "Shouin Yoshida",
+        "native": "吉田松陰",
+        "userPreferred": "Shouin Yoshida"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b133585-PczK1dxJuQYk.png",
+      "voiceActors": [
+        {
+          "id": 95098,
+          "language": "Japanese",
+          "name": {
+            "first": "Wataru",
+            "last": "Hatano",
+            "full": "Wataru Hatano",
+            "native": "羽多野渉",
+            "userPreferred": "Wataru Hatano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95098-x6T2xOTuvkuY.jpg"
+        }
+      ]
+    },
+    {
+      "id": 147200,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hisako",
+        "last": "Takasu",
+        "full": "Hisako Takasu",
+        "native": "高須久子",
+        "userPreferred": "Hisako Takasu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b147200-cDOVOovYOaJq.png",
+      "voiceActors": [
+        {
+          "id": 95935,
+          "language": "Japanese",
+          "name": {
+            "first": "Fuyuka",
+            "last": "Ooura",
+            "full": "Fuyuka Ooura",
+            "native": "大浦冬華",
+            "userPreferred": "Fuyuka Ooura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/935.jpg"
+        }
+      ]
+    },
+    {
+      "id": 133578,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mugensai",
+        "last": null,
+        "full": "Mugensai",
+        "native": "無限斎",
+        "userPreferred": "Mugensai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b133578-OnWx4NlEM4c7.png",
+      "voiceActors": [
+        {
+          "id": 100356,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroyuki",
+            "last": "Kinoshita",
+            "full": "Hiroyuki Kinoshita",
+            "native": "木下浩之",
+            "userPreferred": "Hiroyuki Kinoshita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100356-s2RKgZdLPAor.jpg"
+        }
+      ]
+    },
+    {
+      "id": 147201,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kasumi",
+        "last": null,
+        "full": "Kasumi",
+        "native": "霞",
+        "userPreferred": "Kasumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b147201-DSNN94K19FLi.png",
+      "voiceActors": [
+        {
+          "id": 95594,
+          "language": "Japanese",
+          "name": {
+            "first": "Kei",
+            "last": "Shindou",
+            "full": "Kei Shindou",
+            "native": "真堂圭",
+            "userPreferred": "Kei Shindou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95594-uUAU6lh6TMQW.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 101373,
+      "relationType": "PREQUEL",
+      "malId": 37584,
+      "title": {
+        "romaji": "BAKUMATSU: Renai Bakumatsu Kareshi Gaiden",
+        "english": "BAKUMATSU",
+        "native": "BAKUMATSU ~恋愛幕末カレシ 外伝~",
+        "userPreferred": "BAKUMATSU: Renai Bakumatsu Kareshi Gaiden"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx101373-qpJIXrKofqON.jpg",
+      "color": "#28785d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101373-wqNISOZVIx8n.jpg",
+      "rating": 49
+    }
+  ],
+  "episodes": [
+    {
+      "id": "bakumatsu-crisis-episode-1",
+      "title": "Black Ship Invasion and Mugensai's Return!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/260088/original.jpg",
+      "number": 1,
+      "createdAt": "2019-03-03T15:47:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bakumatsu-crisis-episode-1"
+    },
+    {
+      "id": "bakumatsu-crisis-episode-2",
+      "title": "Kyoto on Fire! The Mysterious Ghost Light",
+      "image": "https://media.kitsu.io/episodes/thumbnails/260089/original.jpg",
+      "number": 2,
+      "createdAt": "2019-03-03T15:47:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bakumatsu-crisis-episode-2"
+    },
+    {
+      "id": "bakumatsu-crisis-episode-3",
+      "title": "Bakumatsu Supernatural Tales: Tiger Sighting!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/260090/original.jpg",
+      "number": 3,
+      "createdAt": "2019-03-03T15:47:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bakumatsu-crisis-episode-3"
+    },
+    {
+      "id": "bakumatsu-crisis-episode-4",
+      "title": "Reunion with Hijikata: Ikedaya Incident!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/260091/original.jpg",
+      "number": 4,
+      "createdAt": "2019-03-03T15:47:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bakumatsu-crisis-episode-4"
+    },
+    {
+      "id": "bakumatsu-crisis-episode-5",
+      "title": "Who Goes There? Night Sky Konpeito",
+      "image": "https://media.kitsu.io/episodes/thumbnails/260092/original.jpg",
+      "number": 5,
+      "createdAt": "2019-03-03T15:47:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bakumatsu-crisis-episode-5"
+    },
+    {
+      "id": "bakumatsu-crisis-episode-6",
+      "title": "Chronometer Out of Control! Kyoto's Motionless Day",
+      "image": "https://media.kitsu.io/episodes/thumbnails/260093/original.jpg",
+      "number": 6,
+      "createdAt": "2019-03-03T15:47:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bakumatsu-crisis-episode-6"
+    },
+    {
+      "id": "bakumatsu-crisis-episode-7",
+      "title": "Birth of the Chronometer! Destined Siblings",
+      "image": "https://media.kitsu.io/episodes/thumbnails/260094/original.jpg",
+      "number": 7,
+      "createdAt": "2019-03-03T15:47:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bakumatsu-crisis-episode-7"
+    },
+    {
+      "id": "bakumatsu-crisis-episode-8",
+      "title": "Yoshinobu's Thoughts and Kondo's Feelings",
+      "image": "https://media.kitsu.io/episodes/thumbnails/260095/original.jpg",
+      "number": 8,
+      "createdAt": "2019-03-03T15:47:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bakumatsu-crisis-episode-8"
+    },
+    {
+      "id": "bakumatsu-crisis-episode-9",
+      "title": "Hidden Feelings! A Masked Confession!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/260096/original.jpg",
+      "number": 9,
+      "createdAt": "2019-03-03T15:47:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bakumatsu-crisis-episode-9"
+    },
+    {
+      "id": "bakumatsu-crisis-episode-10",
+      "title": "Vanished! Giant Castle Susanoo!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/260097/original.jpg",
+      "number": 10,
+      "createdAt": "2019-03-03T15:47:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bakumatsu-crisis-episode-10"
+    },
+    {
+      "id": "bakumatsu-crisis-episode-11",
+      "title": "Birth! The Great God Susanoo!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/260098/original.jpg",
+      "number": 11,
+      "createdAt": "2019-03-03T15:47:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bakumatsu-crisis-episode-11"
+    },
+    {
+      "id": "bakumatsu-crisis-episode-12",
+      "title": "To a New Bakumatsu!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/260099/original.jpg",
+      "number": 12,
+      "createdAt": "2019-03-03T15:47:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bakumatsu-crisis-episode-12"
+    }
+  ]
+}

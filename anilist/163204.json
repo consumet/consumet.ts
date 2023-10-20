@@ -1,0 +1,144 @@
+{
+  "id": "163204",
+  "title": {
+    "romaji": "GUNDAM BUILD METAVERSE",
+    "english": null,
+    "native": "ガンダムビルドメタバース"
+  },
+  "malId": 54902,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "V90yloBeenA",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/V90yloBeenA/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163204-gT8mIUIrC1lI.jpg",
+  "popularity": 1153,
+  "color": "#e443d6",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163204-gT8mIUIrC1lI.jpg",
+  "description": "A series to commemorate the 10th anniversary of the \"Gundam Build\" franchise. <br><br>\n\nA new Internet service has been born in the world of Gunpla. Within the Metaverse realm, the user can control their own avatar, interact with other users, play Gunpla Battle, and purchase actual Gunpla. Rio Hojo is a boy who has dived into this new world. Studying Gunpla building techniques in the real world with Seria Urutuski, and absorbing Gunpla Battle know-how from Mask Lady in the Metaverse world, he has been honing his skills day by day. After completing his own original Gunpla, the Lah Gundam, Rio happens to encounter some past champions of Gunpla Battle in the Metaverse realm.\n<br><br>\n\n(Source: GUNDAM.INFO, edited)",
+  "status": "Ongoing",
+  "releaseDate": 2023,
+  "startDate": {
+    "year": 2023,
+    "month": 10,
+    "day": 6
+  },
+  "endDate": {
+    "year": 2023,
+    "month": 10,
+    "day": 20
+  },
+  "totalEpisodes": 3,
+  "currentEpisode": 3,
+  "rating": 53,
+  "duration": null,
+  "genres": [
+    "Action",
+    "Mecha",
+    "Sci-Fi"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Sunrise Beyond"
+  ],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 305118,
+      "role": "MAIN",
+      "name": {
+        "first": "Rio",
+        "last": "Houjou",
+        "full": "Rio Houjou",
+        "native": "ホウジョウ・リオ",
+        "userPreferred": "Rio Houjou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b305118-3ZgP7Q4F1Rew.png",
+      "voiceActors": [
+        {
+          "id": 106030,
+          "language": "Japanese",
+          "name": {
+            "first": "Chika",
+            "last": "Anzai",
+            "full": "Chika Anzai",
+            "native": "安済知佳",
+            "userPreferred": "Chika Anzai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106030-oz4RUJZ3D9v9.png"
+        }
+      ]
+    },
+    {
+      "id": 305119,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Seria",
+        "last": "Urutsuki",
+        "full": "Seria Urutsuki",
+        "native": "ウルツキ・セリア",
+        "userPreferred": "Seria Urutsuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 198603,
+          "language": "Japanese",
+          "name": {
+            "first": "Rio",
+            "last": "Tsuchiya",
+            "full": "Rio Tsuchiya",
+            "native": "土屋李央",
+            "userPreferred": "Rio Tsuchiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n198603-Ed2Nldm8pBAi.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 19319,
+      "relationType": "OTHER",
+      "malId": 19319,
+      "title": {
+        "romaji": "Gundam Build Fighters",
+        "english": "Gundam Build Fighters",
+        "native": "ガンダムビルドファイターズ",
+        "userPreferred": "Gundam Build Fighters"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx19319-0YuU672PSgix.jpg",
+      "color": "#5da1e4",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx19319-0YuU672PSgix.jpg",
+      "rating": 76
+    },
+    {
+      "id": 101036,
+      "relationType": "OTHER",
+      "malId": 37245,
+      "title": {
+        "romaji": "Gundam Build Divers",
+        "english": "Gundam Build Divers",
+        "native": "ガンダムビルドダイバーズ",
+        "userPreferred": "Gundam Build Divers"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx101036-XhEmZnLx9JHE.jpg",
+      "color": "#50bbf1",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101036-IOCaHzp9eC3n.png",
+      "rating": 59
+    }
+  ],
+  "episodes": []
+}

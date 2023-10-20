@@ -1,0 +1,68 @@
+{
+  "id": "7308",
+  "title": {
+    "romaji": "Mirai Shounen Conan (Movie)",
+    "english": "Future Boy Conan Movie",
+    "native": "未来少年コナン (1979)"
+  },
+  "malId": 7308,
+  "synonyms": [
+    "Mirai Shounen Conan (1979)",
+    "The Boy in Future (1979)"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx7308-71r9lfdAwke2.jpg",
+  "popularity": 678,
+  "color": "#d6351a",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx7308-71r9lfdAwke2.jpg",
+  "description": "In the aftermath of a war fought by magnetic weapons which caused massive earthquakes, a young and spunky boy naned Conan gets involved in a grand adventure. Conan lives in a world that is mostly oceans; the major land masses having been destroyed by the weapons of the great war. He meets a young girl named Lana, and they eventually foil the plans of the city-state of  Industria which wants to regain the lethal weapons.",
+  "status": "Completed",
+  "releaseDate": 1979,
+  "startDate": {
+    "year": 1979,
+    "month": 9,
+    "day": 15
+  },
+  "endDate": {
+    "year": 1979,
+    "month": 9,
+    "day": 15
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 59,
+  "duration": 122,
+  "genres": [
+    "Adventure",
+    "Sci-Fi"
+  ],
+  "season": "FALL",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [],
+  "characters": [],
+  "relations": [
+    {
+      "id": 302,
+      "relationType": "PARENT",
+      "malId": 302,
+      "title": {
+        "romaji": "Mirai Shounen Conan",
+        "english": "Future Boy Conan",
+        "native": "未来少年コナン",
+        "userPreferred": "Mirai Shounen Conan"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/302-S5gpJhVePiNq.png",
+      "color": "#e4d65d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/302-6lfV0hg7KVj1.jpg",
+      "rating": 77
+    }
+  ],
+  "episodes": []
+}

@@ -1,0 +1,381 @@
+{
+  "id": "17705",
+  "title": {
+    "romaji": "DD Hokuto no Ken",
+    "english": "DD Fist of the North Star",
+    "native": "DD北斗の拳"
+  },
+  "malId": 17705,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/17705.jpg",
+  "popularity": 963,
+  "color": "#e4d635",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/17705.jpg",
+  "description": "It's a special project commemorating the 30th anniversary of Hokuto no Ken.",
+  "status": "Completed",
+  "releaseDate": 2013,
+  "startDate": {
+    "year": 2013,
+    "month": 4,
+    "day": 2
+  },
+  "endDate": {
+    "year": 2015,
+    "month": 12,
+    "day": 22
+  },
+  "totalEpisodes": 25,
+  "currentEpisode": 25,
+  "rating": 57,
+  "duration": 24,
+  "genres": [],
+  "season": "SPRING",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 9130,
+      "role": "MAIN",
+      "name": {
+        "first": "Toki",
+        "last": null,
+        "full": "Toki",
+        "native": "トキ",
+        "userPreferred": "Toki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b9130-JKivXRAnd81j.jpg",
+      "voiceActors": [
+        {
+          "id": 95001,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Seki",
+            "full": "Tomokazu Seki",
+            "native": "関智一",
+            "userPreferred": "Tomokazu Seki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95001-vm0RtZhmlzhK.png"
+        }
+      ]
+    },
+    {
+      "id": 2511,
+      "role": "MAIN",
+      "name": {
+        "first": "Kenshiro",
+        "last": null,
+        "full": "Kenshiro",
+        "native": "ケンシロウ",
+        "userPreferred": "Kenshiro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2511-I5ff3jioC5Ze.jpg",
+      "voiceActors": [
+        {
+          "id": 95792,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinnosuke",
+            "last": "Tachibana",
+            "full": "Shinnosuke Tachibana",
+            "native": "立花慎之介",
+            "userPreferred": "Shinnosuke Tachibana"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95792-5413Ip70mSdV.jpg"
+        }
+      ]
+    },
+    {
+      "id": 8738,
+      "role": "MAIN",
+      "name": {
+        "first": "Raoh",
+        "last": null,
+        "full": "Raoh",
+        "native": "ラオウ",
+        "userPreferred": "Raoh"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b8738-0Ig51QXoeLBW.png",
+      "voiceActors": [
+        {
+          "id": 96519,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuya",
+            "last": "Ichijou",
+            "full": "Kazuya Ichijou",
+            "native": "一条和矢",
+            "userPreferred": "Kazuya Ichijou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1519.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16419,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shin",
+        "last": null,
+        "full": "Shin",
+        "native": "シン",
+        "userPreferred": "Shin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b16419-YHMrqGXbxVUl.jpg",
+      "voiceActors": [
+        {
+          "id": 95177,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryoutarou",
+            "last": "Okiayu",
+            "full": "Ryoutarou Okiayu",
+            "native": "置鮎龍太郎",
+            "userPreferred": "Ryoutarou Okiayu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95177-6SiaUTf3CLkN.png"
+        }
+      ]
+    },
+    {
+      "id": 17985,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ryuuken",
+        "last": null,
+        "full": "Ryuuken",
+        "native": "リュウケン",
+        "userPreferred": "Ryuuken"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b17985-ojQ0e1f9Iv2D.png",
+      "voiceActors": [
+        {
+          "id": 95416,
+          "language": "Japanese",
+          "name": {
+            "first": "Akira",
+            "last": "Kamiya",
+            "full": "Akira Kamiya",
+            "native": "神谷明",
+            "userPreferred": "Akira Kamiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95416-8rk0Oq3ZXYjt.png"
+        }
+      ]
+    },
+    {
+      "id": 17907,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bat",
+        "last": null,
+        "full": "Bat",
+        "native": "バット",
+        "userPreferred": "Bat"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17907.jpg",
+      "voiceActors": [
+        {
+          "id": 106743,
+          "language": "Japanese",
+          "name": {
+            "first": "Shuuta",
+            "last": "Morishima",
+            "full": "Shuuta Morishima",
+            "native": "森嶋秀太",
+            "userPreferred": "Shuuta Morishima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106743-a37RvMZbYnfP.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17983,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Airi",
+        "last": null,
+        "full": "Airi",
+        "native": "アイリ",
+        "userPreferred": "Airi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17983.jpg",
+      "voiceActors": [
+        {
+          "id": 101560,
+          "language": "Japanese",
+          "name": {
+            "first": "Satomi",
+            "last": "Satou",
+            "full": "Satomi Satou",
+            "native": "佐藤聡美",
+            "userPreferred": "Satomi Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101560-x0Va6GS2YMeH.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 55880,
+      "relationType": "ADAPTATION",
+      "malId": 25880,
+      "title": {
+        "romaji": "DD Hokuto no Ken",
+        "english": null,
+        "native": "DD北斗の拳",
+        "userPreferred": "DD Hokuto no Ken"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx55880-jl3FR0K2uMck.png",
+      "color": "#f1935d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/55880-F5J8itZtI7cC.jpg",
+      "rating": 58
+    },
+    {
+      "id": 10177,
+      "relationType": "ALTERNATIVE",
+      "malId": 10177,
+      "title": {
+        "romaji": "DD Hokuto no Ken",
+        "english": null,
+        "native": "DD北斗之拳",
+        "userPreferred": "DD Hokuto no Ken"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10177.jpg",
+      "color": "#e49343",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10177.jpg",
+      "rating": 53
+    }
+  ],
+  "episodes": [
+    {
+      "id": "-dd-hokuto-no-ken-2013-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/17705.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//-dd-hokuto-no-ken-2013-episode-1"
+    },
+    {
+      "id": "-dd-hokuto-no-ken-2013-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/17705.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//-dd-hokuto-no-ken-2013-episode-2"
+    },
+    {
+      "id": "-dd-hokuto-no-ken-2013-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/17705.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//-dd-hokuto-no-ken-2013-episode-3"
+    },
+    {
+      "id": "-dd-hokuto-no-ken-2013-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/17705.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//-dd-hokuto-no-ken-2013-episode-4"
+    },
+    {
+      "id": "-dd-hokuto-no-ken-2013-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/17705.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//-dd-hokuto-no-ken-2013-episode-5"
+    },
+    {
+      "id": "-dd-hokuto-no-ken-2013-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/17705.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//-dd-hokuto-no-ken-2013-episode-6"
+    },
+    {
+      "id": "-dd-hokuto-no-ken-2013-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/17705.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//-dd-hokuto-no-ken-2013-episode-7"
+    },
+    {
+      "id": "-dd-hokuto-no-ken-2013-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/17705.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//-dd-hokuto-no-ken-2013-episode-8"
+    },
+    {
+      "id": "-dd-hokuto-no-ken-2013-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/17705.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//-dd-hokuto-no-ken-2013-episode-9"
+    },
+    {
+      "id": "-dd-hokuto-no-ken-2013-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/17705.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//-dd-hokuto-no-ken-2013-episode-10"
+    },
+    {
+      "id": "-dd-hokuto-no-ken-2013-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/17705.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//-dd-hokuto-no-ken-2013-episode-11"
+    },
+    {
+      "id": "-dd-hokuto-no-ken-2013-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/17705.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//-dd-hokuto-no-ken-2013-episode-12"
+    },
+    {
+      "id": "-dd-hokuto-no-ken-2013-episode-13",
+      "title": "Battle to the Death! South Star vs. North Star  The Final Battle, Kenshiro vs. Yuria?!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/17705.jpg",
+      "number": 13,
+      "createdAt": "2014-11-18T09:47:19Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-dd-hokuto-no-ken-2013-episode-13"
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "id": "4672",
+  "title": {
+    "romaji": "GHOST IN THE SHELL: Koukaku Kidoutai 2.0",
+    "english": "Ghost in the Shell 2.0",
+    "native": "GHOST IN THE SHELL / 攻殻機動隊2.0"
+  },
+  "malId": 4672,
+  "synonyms": [
+    "GitS 2.0"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4672-NFXxVPGXSZQB.png",
+  "popularity": 15463,
+  "color": "#f17850",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n4672-sBjtUTvKDovt.jpg",
+  "description": "In the year 2029, the world is made borderless by the net; augmented humans live in virtual environments, watched over by law enforcement that is able to download themselves into super-powered, crime busting mecha. The ultimate secret agent of the future is not human, has no physical body, and can freely travel the information highways of the world, hacking and manipulating whatever and whenever required.<br>\n<br>\n<i>Note: Ghost in the Shell 2.0 is a renewed version of the 1995 film produced as part of celebration for the release of The Sky Crawlers in 2008. For the Version 2.0, all the animation was re-produced using the latest technology such as 3D-CGI, and the soundtrack was also remastered. All the voices were re-recorded. Notably, the voice actor of the \"Puppet Master\" was changed from Kayumi Iemasa to that of Sakakibara Yoshiko, and some dialogues were changed from the original. Kawai Kenji remixed the music with 6.1 channel surround, and Randy Thom of Skywalker Sound joined as Sound Designer to improve the sound.</i><br>\n<br>\n(Source: AniDB)\n",
+  "status": "Completed",
+  "releaseDate": 2008,
+  "startDate": {
+    "year": 2008,
+    "month": 7,
+    "day": 12
+  },
+  "endDate": {
+    "year": 2008,
+    "month": 7,
+    "day": 12
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 76,
+  "duration": 85,
+  "genres": [
+    "Action",
+    "Mecha",
+    "Psychological",
+    "Sci-Fi"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Production I.G"
+  ],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [
+    {
+      "id": 47,
+      "malId": 47,
+      "title": {
+        "romaji": "AKIRA",
+        "english": "Akira",
+        "native": "AKIRA",
+        "userPreferred": "AKIRA"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx47-Sjkc8RDBjqwT.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/47-fof8HqtNDtvx.jpg",
+      "rating": 79,
+      "type": "MOVIE"
+    }
+  ],
+  "characters": [
+    {
+      "id": 2654,
+      "role": "MAIN",
+      "name": {
+        "first": "Togusa",
+        "last": null,
+        "full": "Togusa",
+        "native": "トグサ",
+        "userPreferred": "Togusa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2654.jpg",
+      "voiceActors": [
+        {
+          "id": 95011,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouichi",
+            "last": "Yamadera",
+            "full": "Kouichi Yamadera",
+            "native": "山寺宏一",
+            "userPreferred": "Kouichi Yamadera"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95011-2RfLzncNyvbR.png"
+        },
+        {
+          "id": 104253,
+          "language": "Italian",
+          "name": {
+            "first": "Francesco",
+            "last": "Bulckaen",
+            "full": "Francesco Bulckaen",
+            "native": null,
+            "userPreferred": "Francesco Bulckaen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9253.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1795,
+      "role": "MAIN",
+      "name": {
+        "first": "Motoko",
+        "last": "Kusanagi",
+        "full": "Motoko Kusanagi",
+        "native": "草薙素子",
+        "userPreferred": "Motoko Kusanagi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1795-8gU3FasFefKG.jpg",
+      "voiceActors": [
+        {
+          "id": 95100,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsuko",
+            "last": "Tanaka",
+            "full": "Atsuko Tanaka",
+            "native": "田中敦子",
+            "userPreferred": "Atsuko Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95100-QZdjWZLCoWkf.png"
+        },
+        {
+          "id": 144774,
+          "language": "Italian",
+          "name": {
+            "first": "Alessandra",
+            "last": "Korompay",
+            "full": "Alessandra Korompay",
+            "native": null,
+            "userPreferred": "Alessandra Korompay"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n144774-NXwEs5Rm4nn4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2653,
+      "role": "MAIN",
+      "name": {
+        "first": "Batou",
+        "last": null,
+        "full": "Batou",
+        "native": "バト",
+        "userPreferred": "Batou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2653.jpg",
+      "voiceActors": [
+        {
+          "id": 95146,
+          "language": "Japanese",
+          "name": {
+            "first": "Akio",
+            "last": "Ootsuka",
+            "full": "Akio Ootsuka",
+            "native": "大塚明夫",
+            "userPreferred": "Akio Ootsuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95146-T6IEmqXW3xUN.jpg"
+        },
+        {
+          "id": 95352,
+          "language": "English",
+          "name": {
+            "first": "Richard",
+            "last": "Epcar",
+            "full": "Richard Epcar",
+            "native": null,
+            "userPreferred": "Richard Epcar"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95352-kin2JggyOwqx.png"
+        },
+        {
+          "id": 171958,
+          "language": "Italian",
+          "name": {
+            "first": "Alessandro",
+            "last": "Rossi",
+            "full": "Alessandro Rossi",
+            "native": null,
+            "userPreferred": "Alessandro Rossi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n171958-oIpk9J5qc2kU.png"
+        }
+      ]
+    },
+    {
+      "id": 2677,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Daisuke",
+        "last": "Aramaki",
+        "full": "Daisuke Aramaki",
+        "native": "荒巻大輔",
+        "userPreferred": "Daisuke Aramaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n2677-lPWyWsFWTJhp.png",
+      "voiceActors": [
+        {
+          "id": 95493,
+          "language": "English",
+          "name": {
+            "first": "William",
+            "last": "Knight",
+            "full": "William Knight",
+            "native": null,
+            "userPreferred": "William Frederick Knight"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95493-MHsCTykyDyfA.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18516,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Project 2501",
+        "last": null,
+        "full": "Project 2501",
+        "native": "人形使い",
+        "userPreferred": "Project 2501"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18516.jpg",
+      "voiceActors": [
+        {
+          "id": 95362,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshiko",
+            "last": "Sakakibara",
+            "full": "Yoshiko Sakakibara",
+            "native": "榊原良子",
+            "userPreferred": "Yoshiko Sakakibara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95362-OdfKlvHimh3b.jpg"
+        },
+        {
+          "id": 166668,
+          "language": "Italian",
+          "name": {
+            "first": "Roberta",
+            "last": "Pellini",
+            "full": "Roberta Pellini",
+            "native": null,
+            "userPreferred": "Roberta Pellini"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 43,
+      "relationType": "ALTERNATIVE",
+      "malId": 43,
+      "title": {
+        "romaji": "GHOST IN THE SHELL: Koukaku Kidoutai",
+        "english": "Ghost in the Shell",
+        "native": "GHOST IN THE SHELL / 攻殻機動隊",
+        "userPreferred": "GHOST IN THE SHELL: Koukaku Kidoutai"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx43-LMGXobx4D6in.png",
+      "color": null,
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/43-uDbk1jrG9yod.jpg",
+      "rating": 80
+    }
+  ],
+  "episodes": [
+    {
+      "id": "ghost-in-the-shell-2-0-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4672-NFXxVPGXSZQB.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ghost-in-the-shell-2-0-episode-1"
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "id": "21120",
+  "title": {
+    "romaji": "Haikyuu!!: Owari to Hajimari",
+    "english": "Haikyu!! the Movie: The End and the Beginning",
+    "native": "ハイキュー!! 終わりと始まり"
+  },
+  "malId": 29755,
+  "synonyms": [
+    "排球少年剧场版 结束与开始",
+    "ไฮคิว!! คู่ตบฟ้าประทาน เดอะมูฟวี่ 1"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "K3H8Wtvh_jQ",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/K3H8Wtvh_jQ/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21120-x1TAu6HfHnyr.jpg",
+  "popularity": 17818,
+  "color": "#e49343",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21120-x1TAu6HfHnyr.jpg",
+  "description": "A retelling of the first season of the TV anime Haikyuu!!. Includes some new story material not previously released in the TV anime.",
+  "status": "Completed",
+  "releaseDate": 2015,
+  "startDate": {
+    "year": 2015,
+    "month": 7,
+    "day": 3
+  },
+  "endDate": {
+    "year": 2015,
+    "month": 7,
+    "day": 3
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 77,
+  "duration": 89,
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Sports"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Production I.G"
+  ],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [
+    {
+      "id": 11771,
+      "malId": 11771,
+      "title": {
+        "romaji": "Kuroko no Basket",
+        "english": "Kuroko's Basketball",
+        "native": "黒子のバスケ",
+        "userPreferred": "Kuroko no Basket"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11771-ScM6Hde1NYrd.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11771-Bjm9Q0ow0nEh.jpg",
+      "rating": 78,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 64769,
+      "role": "MAIN",
+      "name": {
+        "first": "Shouyou",
+        "last": "Hinata",
+        "full": "Shouyou Hinata",
+        "native": "日向翔陽",
+        "userPreferred": "Shouyou Hinata"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b64769-WoWlCMLLgJ14.png",
+      "voiceActors": [
+        {
+          "id": 110919,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumu",
+            "last": "Murase",
+            "full": "Ayumu Murase",
+            "native": "村瀬歩",
+            "userPreferred": "Ayumu Murase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n110919-zz5dq39kyzNC.png"
+        }
+      ]
+    },
+    {
+      "id": 64771,
+      "role": "MAIN",
+      "name": {
+        "first": "Tobio",
+        "last": "Kageyama",
+        "full": "Tobio Kageyama",
+        "native": "影山飛雄",
+        "userPreferred": "Tobio Kageyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b64771-BuCVs7B8bBdh.png",
+      "voiceActors": [
+        {
+          "id": 115156,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaito",
+            "last": "Ishikawa",
+            "full": "Kaito Ishikawa",
+            "native": "石川界人",
+            "userPreferred": "Kaito Ishikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n115156-ngYfqBazlxYQ.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 21244,
+      "relationType": "SEQUEL",
+      "malId": 30364,
+      "title": {
+        "romaji": "Haikyuu!!: Shousha to Haisha",
+        "english": "Haikyuu!! the Movie: The Winner and the Loser",
+        "native": "ハイキュー!! 勝者と敗者",
+        "userPreferred": "Haikyuu!!: Shousha to Haisha"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21244-xvjWi4fV0qkw.png",
+      "color": "#e49343",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21244-xvjWi4fV0qkw.png",
+      "rating": 78
+    },
+    {
+      "id": 20464,
+      "relationType": "PARENT",
+      "malId": 20583,
+      "title": {
+        "romaji": "Haikyuu!!",
+        "english": "HAIKYU!!",
+        "native": "ハイキュー!!",
+        "userPreferred": "Haikyuu!!"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20464-eW7ZDBOcn74a.png",
+      "color": "#e48635",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20464-PpYjO9cPN1gs.jpg",
+      "rating": 83
+    },
+    {
+      "id": 65243,
+      "relationType": "ADAPTATION",
+      "malId": 35243,
+      "title": {
+        "romaji": "Haikyuu!!",
+        "english": "Haikyu!!",
+        "native": "ハイキュー！！",
+        "userPreferred": "Haikyuu!!"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx65243-mR4MnJFmfaOF.png",
+      "color": "#f17843",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/65243-naohhXW4M4b9.jpg",
+      "rating": 88
+    }
+  ],
+  "episodes": [
+    {
+      "id": "haikyuu-movie-1-owari-to-hajimari-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21120-x1TAu6HfHnyr.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//haikyuu-movie-1-owari-to-hajimari-episode-1"
+    }
+  ]
+}

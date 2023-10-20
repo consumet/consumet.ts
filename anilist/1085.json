@@ -1,0 +1,771 @@
+{
+  "id": "1085",
+  "title": {
+    "romaji": "Interlude",
+    "english": "Interlude",
+    "native": "インタールード"
+  },
+  "malId": 1085,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1085-FuEraf1V2azp.jpg",
+  "popularity": 2523,
+  "color": "#352878",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1085-FuEraf1V2azp.jpg",
+  "description": "The unnamed main character has been having strange dreams, seeing strange things, and meeting strange people. He investigates these events and finds a strange girl named Aya. With her help, he discovers that his world may not in fact be real and many of the people he thinks he knows may not exist anymore.<br><br>\n(Source: Funimation)",
+  "status": "Completed",
+  "releaseDate": 2004,
+  "startDate": {
+    "year": 2004,
+    "month": 3,
+    "day": 25
+  },
+  "endDate": {
+    "year": 2004,
+    "month": 8,
+    "day": 27
+  },
+  "totalEpisodes": 3,
+  "currentEpisode": 3,
+  "rating": 54,
+  "duration": 40,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Horror",
+    "Mystery",
+    "Sci-Fi"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Toei Animation",
+    "Happinet Pictures"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 4878,
+      "role": "MAIN",
+      "name": {
+        "first": "Maiko",
+        "last": "Tamaki",
+        "full": "Maiko Tamaki",
+        "native": "玉城 麻衣子",
+        "userPreferred": "Maiko Tamaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4878.jpg",
+      "voiceActors": [
+        {
+          "id": 95027,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukari",
+            "last": "Tamura",
+            "full": "Yukari Tamura",
+            "native": "田村ゆかり",
+            "userPreferred": "Yukari Tamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95027-Zm9onZDUN7ih.jpg"
+        },
+        {
+          "id": 107075,
+          "language": "English",
+          "name": {
+            "first": "Stephanie",
+            "last": "Mills",
+            "full": "Stephanie Mills",
+            "native": null,
+            "userPreferred": "Stephanie Mills"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107075-QEP4JJvQYAFx.jpg"
+        },
+        {
+          "id": 100681,
+          "language": "French",
+          "name": {
+            "first": "Isabelle",
+            "last": "Volpe",
+            "full": "Isabelle Volpe",
+            "native": null,
+            "userPreferred": "Isabelle Volpe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5681.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4876,
+      "role": "MAIN",
+      "name": {
+        "first": "Aya",
+        "last": "Watsuji",
+        "full": "Aya Watsuji",
+        "native": "和辻 綾",
+        "userPreferred": "Aya Watsuji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4876.jpg",
+      "voiceActors": [
+        {
+          "id": 95057,
+          "language": "Japanese",
+          "name": {
+            "first": "Houko",
+            "last": "Kuwashima",
+            "full": "Houko Kuwashima",
+            "native": "桑島法子",
+            "userPreferred": "Houko Kuwashima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95057-nMZEwJet445W.jpg"
+        },
+        {
+          "id": 96381,
+          "language": "English",
+          "name": {
+            "first": "Terri",
+            "last": "Hawkes",
+            "full": "Terri Hawkes",
+            "native": null,
+            "userPreferred": "Terri Hawkes"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1381.jpg"
+        },
+        {
+          "id": 95826,
+          "language": "French",
+          "name": {
+            "first": "Hélène",
+            "last": "Bizot",
+            "full": "Hélène Bizot",
+            "native": null,
+            "userPreferred": "Hélène Bizot"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/826.jpg"
+        }
+      ]
+    },
+    {
+      "id": 35691,
+      "role": "MAIN",
+      "name": {
+        "first": "Mutsuki",
+        "last": "Saegusa",
+        "full": "Mutsuki Saegusa",
+        "native": null,
+        "userPreferred": "Mutsuki Saegusa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/35691.jpg",
+      "voiceActors": [
+        {
+          "id": 95128,
+          "language": "Japanese",
+          "name": {
+            "first": "Ikue",
+            "last": "Ootani",
+            "full": "Ikue Ootani",
+            "native": "大谷育江",
+            "userPreferred": "Ikue Ootani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95128-9YWpE1d2U8Sj.png"
+        },
+        {
+          "id": 183719,
+          "language": "English",
+          "name": {
+            "first": "Bryn",
+            "last": "Mcauley",
+            "full": "Bryn Mcauley",
+            "native": null,
+            "userPreferred": "Bryn Mcauley"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n183719-57cV1SyH1rra.jpg"
+        },
+        {
+          "id": 184918,
+          "language": "French",
+          "name": {
+            "first": "Catherine",
+            "last": "Artigala",
+            "full": "Catherine Artigala",
+            "native": null,
+            "userPreferred": "Catherine Artigala"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 35693,
+      "role": "MAIN",
+      "name": {
+        "first": "Ikuo",
+        "last": "Fuyuki",
+        "full": "Ikuo Fuyuki",
+        "native": null,
+        "userPreferred": "Ikuo Fuyuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/35693.jpg",
+      "voiceActors": [
+        {
+          "id": 95936,
+          "language": "Japanese",
+          "name": {
+            "first": "Hozumi",
+            "last": "Gouda",
+            "full": "Hozumi Gouda",
+            "native": "郷田ほづみ",
+            "userPreferred": "Hozumi Gouda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95936-cBkm9F8KgrRD.png"
+        },
+        {
+          "id": 174239,
+          "language": "English",
+          "name": {
+            "first": "Richard",
+            "last": "Clarkin",
+            "full": "Richard Clarkin",
+            "native": null,
+            "userPreferred": "Richard Clarkin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n174239-3tvAJu2h6zqg.jpg"
+        },
+        {
+          "id": 105733,
+          "language": "French",
+          "name": {
+            "first": "Frédéric",
+            "last": "Popovic",
+            "full": "Frédéric Popovic",
+            "native": null,
+            "userPreferred": "Frédéric Popovic"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105733-jDc2sJ3Ldtzr.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16920,
+      "role": "MAIN",
+      "name": {
+        "first": "Nameless",
+        "last": null,
+        "full": "Nameless",
+        "native": null,
+        "userPreferred": "Nameless"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16920.jpg",
+      "voiceActors": [
+        {
+          "id": 95205,
+          "language": "Japanese",
+          "name": {
+            "first": "Masakazu",
+            "last": "Morita",
+            "full": "Masakazu Morita",
+            "native": "森田成一",
+            "userPreferred": "Masakazu Morita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95205-5P3tKe3eTG9n.jpg"
+        },
+        {
+          "id": 107073,
+          "language": "English",
+          "name": {
+            "first": "Marlowe",
+            "last": "Gardiner-Heslin",
+            "full": "Marlowe Gardiner-Heslin",
+            "native": null,
+            "userPreferred": "Marlowe Gardiner-Heslin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107073-5YUQartYWgXQ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 35694,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chika",
+        "last": "Kimura",
+        "full": "Chika Kimura",
+        "native": null,
+        "userPreferred": "Chika Kimura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/35694.jpg",
+      "voiceActors": [
+        {
+          "id": 95725,
+          "language": "Japanese",
+          "name": {
+            "first": "Kumiko",
+            "last": "Nishihara",
+            "full": "Kumiko Nishihara",
+            "native": "西原久美子",
+            "userPreferred": "Kumiko Nishihara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95725-3IPq0deHGIj2.jpg"
+        },
+        {
+          "id": 96398,
+          "language": "English",
+          "name": {
+            "first": "Julie",
+            "last": "Lemieux",
+            "full": "Julie Lemieux",
+            "native": null,
+            "userPreferred": "Julie Lemieux"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96398-BscUiR7LA4KP.jpg"
+        },
+        {
+          "id": 104881,
+          "language": "French",
+          "name": {
+            "first": "Agnès",
+            "last": "Manoury",
+            "full": "Agnès Manoury",
+            "native": null,
+            "userPreferred": "Agnès Manoury"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104881-2aX39ScaXWqg.png"
+        }
+      ]
+    },
+    {
+      "id": 35754,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Aya's Mother",
+        "last": null,
+        "full": "Aya's Mother",
+        "native": null,
+        "userPreferred": "Aya's Mother"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/35754.jpg",
+      "voiceActors": [
+        {
+          "id": 95745,
+          "language": "Japanese",
+          "name": {
+            "first": "Makiko",
+            "last": "Oomoto",
+            "full": "Makiko Oomoto",
+            "native": "大本眞基子",
+            "userPreferred": "Makiko Oomoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95745-CQXJmwHVOdpn.jpg"
+        },
+        {
+          "id": 184912,
+          "language": "English",
+          "name": {
+            "first": "Deborah",
+            "last": "Drakeford",
+            "full": "Deborah Drakeford",
+            "native": null,
+            "userPreferred": "Deborah Drakeford"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n184912-V4fQq7BoV6QN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 35698,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Buta",
+        "last": null,
+        "full": "Buta",
+        "native": null,
+        "userPreferred": "Buta"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/35698.jpg",
+      "voiceActors": [
+        {
+          "id": 96260,
+          "language": "Japanese",
+          "name": {
+            "first": "Takashi",
+            "last": "Nagasako",
+            "full": "Takashi Nagasako",
+            "native": "長嶝高士",
+            "userPreferred": "Takashi Nagasako"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96260-IhjrEBKbw8aN.png"
+        },
+        {
+          "id": 184916,
+          "language": "English",
+          "name": {
+            "first": "Rod",
+            "last": "Wilson",
+            "full": "Rod Wilson",
+            "native": null,
+            "userPreferred": "Rod Wilson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n184916-IPJHk8H78cxa.jpg"
+        }
+      ]
+    },
+    {
+      "id": 35696,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Miyako",
+        "last": "Saegusa",
+        "full": "Miyako Saegusa",
+        "native": null,
+        "userPreferred": "Miyako Saegusa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/35696.jpg",
+      "voiceActors": [
+        {
+          "id": 95230,
+          "language": "Japanese",
+          "name": {
+            "first": "Misa",
+            "last": "Watanabe",
+            "full": "Misa Watanabe",
+            "native": "渡辺美佐",
+            "userPreferred": "Misa Watanabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95230-lCHOeyeVaISA.png"
+        },
+        {
+          "id": 184917,
+          "language": "English",
+          "name": {
+            "first": "Chantal",
+            "last": "Quesnel",
+            "full": "Chantal Quesnel",
+            "native": null,
+            "userPreferred": "Chantal Quesnel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n184917-93oj6YTLUuhz.jpg"
+        }
+      ]
+    },
+    {
+      "id": 35689,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sugiura",
+        "last": null,
+        "full": "Sugiura",
+        "native": null,
+        "userPreferred": "Sugiura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/35689.jpg",
+      "voiceActors": [
+        {
+          "id": 96302,
+          "language": "Japanese",
+          "name": {
+            "first": "Keiichi",
+            "last": "Sonobe",
+            "full": "Keiichi Sonobe",
+            "native": "園部啓一",
+            "userPreferred": "Keiichi Sonobe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96302-LV7xdQBELja3.png"
+        },
+        {
+          "id": 184916,
+          "language": "English",
+          "name": {
+            "first": "Rod",
+            "last": "Wilson",
+            "full": "Rod Wilson",
+            "native": null,
+            "userPreferred": "Rod Wilson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n184916-IPJHk8H78cxa.jpg"
+        },
+        {
+          "id": 104868,
+          "language": "French",
+          "name": {
+            "first": "Frédéric",
+            "last": "Souterelle",
+            "full": "Frédéric Souterelle",
+            "native": null,
+            "userPreferred": "Frédéric Souterelle"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104868-7WbmksR5cloP.jpg"
+        }
+      ]
+    },
+    {
+      "id": 35695,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Haruka",
+        "last": "Fujinobe",
+        "full": "Haruka Fujinobe",
+        "native": null,
+        "userPreferred": "Haruka Fujinobe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/35695.jpg",
+      "voiceActors": [
+        {
+          "id": 95435,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Touma",
+            "full": "Yumi Touma",
+            "native": "冬馬由美",
+            "userPreferred": "Yumi Touma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95435-REiTyMQqIfH4.jpg"
+        },
+        {
+          "id": 159507,
+          "language": "English",
+          "name": {
+            "first": "Caitriona",
+            "last": "Murphy",
+            "full": "Caitriona Murphy",
+            "native": null,
+            "userPreferred": "Caitriona Murphy"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n159507-9vdiGmY4HXJp.jpg"
+        },
+        {
+          "id": 184915,
+          "language": "French",
+          "name": {
+            "first": "Chrissis",
+            "last": "Angelopoulos",
+            "full": "Chrissis Angelopoulos",
+            "native": null,
+            "userPreferred": "Chrissis Angelopoulos"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 35697,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "General",
+        "last": null,
+        "full": "General",
+        "native": "大将",
+        "userPreferred": "General"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/35697.jpg",
+      "voiceActors": [
+        {
+          "id": 96481,
+          "language": "Japanese",
+          "name": {
+            "first": "Hisao",
+            "last": "Egawa",
+            "full": "Hisao Egawa",
+            "native": "江川央生",
+            "userPreferred": "Hisao Egawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96481-7houCLOMkp3g.png"
+        },
+        {
+          "id": 161035,
+          "language": "English",
+          "name": {
+            "first": "Drew",
+            "last": "Coombs",
+            "full": "Drew Coombs",
+            "native": null,
+            "userPreferred": "Drew Coombs"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n161035-Q2pjElrpkN49.jpg"
+        },
+        {
+          "id": 105733,
+          "language": "French",
+          "name": {
+            "first": "Frédéric",
+            "last": "Popovic",
+            "full": "Frédéric Popovic",
+            "native": null,
+            "userPreferred": "Frédéric Popovic"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105733-jDc2sJ3Ldtzr.jpg"
+        }
+      ]
+    },
+    {
+      "id": 35686,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuuki",
+        "last": "Takase",
+        "full": "Yuuki Takase",
+        "native": null,
+        "userPreferred": "Yuuki Takase"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/35686.jpg",
+      "voiceActors": [
+        {
+          "id": 95496,
+          "language": "Japanese",
+          "name": {
+            "first": "Wakana",
+            "last": "Yamazaki",
+            "full": "Wakana Yamazaki",
+            "native": "山崎和佳奈",
+            "userPreferred": "Wakana Yamazaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95496-PAwWafRnHtEf.png"
+        },
+        {
+          "id": 184912,
+          "language": "English",
+          "name": {
+            "first": "Deborah",
+            "last": "Drakeford",
+            "full": "Deborah Drakeford",
+            "native": null,
+            "userPreferred": "Deborah Drakeford"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n184912-V4fQq7BoV6QN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 35687,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaoruko",
+        "last": "Minegishi",
+        "full": "Kaoruko Minegishi",
+        "native": null,
+        "userPreferred": "Kaoruko Minegishi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/35687.jpg",
+      "voiceActors": [
+        {
+          "id": 101007,
+          "language": "Japanese",
+          "name": {
+            "first": "Machiko",
+            "last": "Toyoshima",
+            "full": "Machiko Toyoshima",
+            "native": "豊嶋真千子",
+            "userPreferred": "Machiko Toyoshima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101007-NREmoviauQET.jpg"
+        },
+        {
+          "id": 96380,
+          "language": "English",
+          "name": {
+            "first": "Katie",
+            "last": "Griffin",
+            "full": "Katie Griffin",
+            "native": null,
+            "userPreferred": "Katie Griffin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96380-1zDEmNN36ZB5.jpg"
+        },
+        {
+          "id": 104881,
+          "language": "French",
+          "name": {
+            "first": "Agnès",
+            "last": "Manoury",
+            "full": "Agnès Manoury",
+            "native": null,
+            "userPreferred": "Agnès Manoury"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104881-2aX39ScaXWqg.png"
+        }
+      ]
+    },
+    {
+      "id": 4877,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Izumi",
+        "last": "Marufuji",
+        "full": "Izumi Marufuji",
+        "native": "丸藤 泉美",
+        "userPreferred": "Izumi Marufuji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4877.jpg",
+      "voiceActors": [
+        {
+          "id": 95538,
+          "language": "Japanese",
+          "name": {
+            "first": "Mami",
+            "last": "Kingetsu",
+            "full": "Mami Kingetsu",
+            "native": "金月真美",
+            "userPreferred": "Mami Kingetsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95538-nSDqRQxKlb9E.png"
+        },
+        {
+          "id": 107074,
+          "language": "English",
+          "name": {
+            "first": "Stéphanie",
+            "last": "Martin",
+            "full": "Stéphanie Martin",
+            "native": null,
+            "userPreferred": "Stéphanie Martin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107074-Lmt8TJE4sqVq.jpg"
+        },
+        {
+          "id": 153016,
+          "language": "French",
+          "name": {
+            "first": "Florence",
+            "last": "Dumortier",
+            "full": "Florence Dumortier",
+            "native": null,
+            "userPreferred": "Florence Dumortier"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [],
+  "episodes": [
+    {
+      "id": "interlude-episode-1",
+      "title": "Interlude Vol. 1",
+      "image": "https://media.kitsu.io/episodes/thumbnails/19425/original.jpeg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:22:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//interlude-episode-1"
+    },
+    {
+      "id": "interlude-episode-2",
+      "title": "Interlude Vol. 2",
+      "image": "https://media.kitsu.io/episodes/thumbnails/19426/original.jpeg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:22:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//interlude-episode-2"
+    },
+    {
+      "id": "interlude-episode-3",
+      "title": "Interlude Vol. 3",
+      "image": "https://media.kitsu.io/episodes/thumbnails/19427/original.jpeg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:22:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//interlude-episode-3"
+    }
+  ]
+}

@@ -1,0 +1,637 @@
+{
+  "id": "108146",
+  "title": {
+    "romaji": "Yichang Shengwu Jianwen Lu",
+    "english": null,
+    "native": "异常生物见闻录"
+  },
+  "malId": 39421,
+  "synonyms": [
+    "Journal of the Mysterious Creatures",
+    "Ijo Seibutsu Kenbunroku",
+    "異常生物見聞録",
+    "Registro de criaturas fantásticas"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "CN",
+  "trailer": {
+    "id": "q51Uw5zjtIE",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/q51Uw5zjtIE/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108146-MNTOvV1kDFX3.png",
+  "popularity": 3164,
+  "color": "#f1a135",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108146-lwd8ctlXIuDJ.jpg",
+  "description": "The work centers on Ren Hao, a 23-year-old man who has no job or girlfriend. In order to make ends meet he rents out one of the rooms in his house. While he’s showing Lili, his first tenant, around the house, she’s suddenly attacked by a vampire named Vivian, and Ren Hao notices that Lili is actually a werewolf. As Ren Hao and Lili start living in the same house, Ren Hao is scouted for an organization that maintains order of the parallel universes, and strange creatures one after another become tenants in his house.",
+  "status": "Completed",
+  "releaseDate": 2019,
+  "startDate": {
+    "year": 2019,
+    "month": 6,
+    "day": 28
+  },
+  "endDate": {
+    "year": 2019,
+    "month": 9,
+    "day": 20
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 59,
+  "duration": 22,
+  "genres": [
+    "Comedy",
+    "Supernatural"
+  ],
+  "season": null,
+  "studios": [
+    "MMT"
+  ],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [
+    {
+      "id": 20638,
+      "malId": 22865,
+      "title": {
+        "romaji": "Rokujouma no Shinryakusha!?",
+        "english": "Invaders of the Rokujoma!?",
+        "native": "六畳間の侵略者!?",
+        "userPreferred": "Rokujouma no Shinryakusha!?"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20638-SbFNGXcc4Fgi.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20638-tHQu2YsLHRum.jpg",
+      "rating": 68,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 136268,
+      "role": "MAIN",
+      "name": {
+        "first": "Ren",
+        "last": "Hao",
+        "full": "Ren Hao",
+        "native": "郝仁",
+        "userPreferred": "Ren Hao"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b136268-1I6Nm4nmiKzz.png",
+      "voiceActors": [
+        {
+          "id": 136271,
+          "language": "Japanese",
+          "name": {
+            "first": "Jou",
+            "last": "Mikami",
+            "full": "Jou Mikami",
+            "native": "三上丈",
+            "userPreferred": "Jou Mikami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n136271-qexv618PoGfj.png"
+        },
+        {
+          "id": 102094,
+          "language": "Spanish",
+          "name": {
+            "first": "Eduardo",
+            "last": "Garza",
+            "full": "Eduardo Garza",
+            "native": "José Eduardo Garza Escudero",
+            "userPreferred": "Eduardo Garza"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102094-IK5XCbLdQNrZ.png"
+        },
+        {
+          "id": 217587,
+          "language": "Chinese",
+          "name": {
+            "first": "Hongbo",
+            "last": "Guo",
+            "full": "Hongbo Guo",
+            "native": "郭鸿博",
+            "userPreferred": "Hongbo Guo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n217587-BicOTyxmLoOo.png"
+        }
+      ]
+    },
+    {
+      "id": 136269,
+      "role": "MAIN",
+      "name": {
+        "first": "Lili",
+        "last": "Liou",
+        "full": "Lili Liou",
+        "native": "刘莉莉",
+        "userPreferred": "Lili Liou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b136269-1vQoZEnTPoQH.png",
+      "voiceActors": [
+        {
+          "id": 114834,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Suzaki",
+            "full": "Aya Suzaki",
+            "native": "洲崎綾",
+            "userPreferred": "Aya Suzaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n114834-WWHMBVvu2Lzu.png"
+        },
+        {
+          "id": 202438,
+          "language": "Spanish",
+          "name": {
+            "first": "Desireé",
+            "last": "González",
+            "full": "Desireé González",
+            "native": null,
+            "userPreferred": "Desireé González"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n202438-Ov4z4EIy8W0T.png"
+        },
+        {
+          "id": 217588,
+          "language": "Chinese",
+          "name": {
+            "first": "Wan",
+            "last": "Su",
+            "full": "Wan Su",
+            "native": "苏婉",
+            "userPreferred": "Wan Su"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n217588-am2Vwwee63dJ.png"
+        }
+      ]
+    },
+    {
+      "id": 136270,
+      "role": "MAIN",
+      "name": {
+        "first": "Vivian",
+        "last": "Ancestor",
+        "full": "Vivian Ancestor",
+        "native": "薇薇安·安塞斯塔",
+        "userPreferred": "Vivian Ancestor"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b136270-J0iXX1utehlm.png",
+      "voiceActors": [
+        {
+          "id": 136272,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Natsuyoshi",
+            "full": "Yuuko Natsuyoshi",
+            "native": "夏吉ゆうこ",
+            "userPreferred": "Yuuko Natsuyoshi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n136272-eshqjVqwnM9a.png"
+        },
+        {
+          "id": 139013,
+          "language": "Spanish",
+          "name": {
+            "first": "Montserrat",
+            "last": "Aguilar",
+            "full": "Montserrat Aguilar",
+            "native": "Montserrat Alejandra Aguilar Ortiz",
+            "userPreferred": "Montserrat Aguilar"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n139013-G54ZhBGpZqmC.png"
+        },
+        {
+          "id": 188421,
+          "language": "Chinese",
+          "name": {
+            "first": "Junhua",
+            "last": "Feng",
+            "full": "Junhua Feng",
+            "native": "冯骏骅",
+            "userPreferred": "Junhua Feng"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188421-VRpAwZoFSo7T.png"
+        }
+      ]
+    },
+    {
+      "id": 226584,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Wuyue",
+        "last": "Nangong",
+        "full": "Wuyue Nangong",
+        "native": "南宫五月",
+        "userPreferred": "Wuyue Nangong"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b226584-MYYB0zg4EKFs.png",
+      "voiceActors": [
+        {
+          "id": 119901,
+          "language": "Japanese",
+          "name": {
+            "first": "Nanaka",
+            "last": "Suwa",
+            "full": "Nanaka Suwa",
+            "native": "諏訪ななか",
+            "userPreferred": "Nanaka Suwa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119901-1pDmgN7AJlsP.png"
+        },
+        {
+          "id": 188835,
+          "language": "Chinese",
+          "name": {
+            "first": "Cucu",
+            "last": null,
+            "full": "Cucu",
+            "native": "醋醋",
+            "userPreferred": "Cucu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188835-jj1HnA6RMZ2h.png"
+        }
+      ]
+    },
+    {
+      "id": 226588,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sanba",
+        "last": "Nangong",
+        "full": "Sanba Nangong",
+        "native": "南宫三八",
+        "userPreferred": "Sanba Nangong"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b226588-NQsQaxyAMhi0.png",
+      "voiceActors": [
+        {
+          "id": 95410,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinji",
+            "last": "Kawada",
+            "full": "Shinji Kawada",
+            "native": "川田紳司",
+            "userPreferred": "Shinji Kawada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95410-AosJKUc7YZXE.jpg"
+        },
+        {
+          "id": 116453,
+          "language": "Spanish",
+          "name": {
+            "first": "Gabriel",
+            "last": "Gama",
+            "full": "Gabriel Gama",
+            "native": null,
+            "userPreferred": "Gabriel Gama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n116453-QvCizGoCgZh5.jpg"
+        },
+        {
+          "id": 219659,
+          "language": "Chinese",
+          "name": {
+            "first": "Tiantian",
+            "last": "Xie",
+            "full": "Tiantian Xie",
+            "native": "谢添天",
+            "userPreferred": "Tiantian Xie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n219659-NBA5z0uws2LL.png"
+        }
+      ]
+    },
+    {
+      "id": 226589,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Duya 12345",
+        "last": null,
+        "full": "Duya 12345",
+        "native": "渡鸦12345",
+        "userPreferred": "Duya 12345"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b226589-4AnXBObjFuzv.png",
+      "voiceActors": [
+        {
+          "id": 103805,
+          "language": "Japanese",
+          "name": {
+            "first": "Mariko",
+            "last": "Honda",
+            "full": "Mariko Honda",
+            "native": "本多真梨子",
+            "userPreferred": "Mariko Honda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103805-HvYDh8Y5Dmgi.png"
+        },
+        {
+          "id": 190700,
+          "language": "Spanish",
+          "name": {
+            "first": "Rosalinda",
+            "last": "Márquez",
+            "full": "Rosalinda Márquez",
+            "native": "Rosalinda Malinali Márquez Escondrillas",
+            "userPreferred": "Rosalinda Márquez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n190700-Y9IlB2H0i0PZ.png"
+        },
+        {
+          "id": 188836,
+          "language": "Chinese",
+          "name": {
+            "first": "Niang",
+            "last": "Gui",
+            "full": "Niang Gui",
+            "native": "龟娘",
+            "userPreferred": "Niang Gui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188836-mlSmXQT2C2Tt.png"
+        }
+      ]
+    },
+    {
+      "id": 226591,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Isaacs",
+        "last": "Goodman",
+        "full": "Isaacs Goodman",
+        "native": "伊扎克斯·古德曼",
+        "userPreferred": "Isaacs Goodman"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b226591-i8WOTBBSFWrZ.png",
+      "voiceActors": [
+        {
+          "id": 95761,
+          "language": "Japanese",
+          "name": {
+            "first": "Tesshou",
+            "last": "Genda",
+            "full": "Tesshou Genda",
+            "native": "玄田哲章",
+            "userPreferred": "Tesshou Genda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95761-nwndYRCqJxno.png"
+        },
+        {
+          "id": 189578,
+          "language": "Spanish",
+          "name": {
+            "first": "Enrique",
+            "last": "Cervantes",
+            "full": "Enrique Cervantes",
+            "native": "Juan José Enrique Cervantes Cervantes",
+            "userPreferred": "Enrique Cervantes"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n189578-TlxwWwiYZ3DE.png"
+        },
+        {
+          "id": 174200,
+          "language": "Chinese",
+          "name": {
+            "first": "Lei",
+            "last": "Xia",
+            "full": "Lei Xia",
+            "native": "夏磊",
+            "userPreferred": "Lei Xia"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n174200-8lyQ0y4TbAxA.png"
+        }
+      ]
+    },
+    {
+      "id": 226592,
+      "role": "SUPPORTING",
+      "name": {
+        "first": null,
+        "last": "Shuju Zhongduan",
+        "full": "Shuju Zhongduan",
+        "native": "数据终端",
+        "userPreferred": "Shuju Zhongduan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b226592-9RYtiVcmpaSj.png",
+      "voiceActors": [
+        {
+          "id": 95257,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobuyuki",
+            "last": "Hiyama",
+            "full": "Nobuyuki Hiyama",
+            "native": "檜山修之",
+            "userPreferred": "Nobuyuki Hiyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95257-PgYwsBplRSJa.png"
+        },
+        {
+          "id": 189452,
+          "language": "Spanish",
+          "name": {
+            "first": "Erick",
+            "last": "Salinas",
+            "full": "Erick Salinas",
+            "native": null,
+            "userPreferred": "Erick Salinas"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n189452-VtF2OP54pAam.jpg"
+        },
+        {
+          "id": 188417,
+          "language": "Chinese",
+          "name": {
+            "first": "Dawei",
+            "last": "Shen",
+            "full": "Dawei Shen",
+            "native": "沈达威",
+            "userPreferred": "Dawei Shen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188417-9B0Xz1Cnoe6B.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 141811,
+      "relationType": "ALTERNATIVE",
+      "malId": null,
+      "title": {
+        "romaji": "Yichang Shengwu Jianwen Lu",
+        "english": "The Record of Unusual Creatures",
+        "native": "异常生物见闻录",
+        "userPreferred": "Yichang Shengwu Jianwen Lu"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx141811-ActLro51Mpkf.jpg",
+      "color": "#f15093",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx141811-ActLro51Mpkf.jpg",
+      "rating": 63
+    },
+    {
+      "id": 155918,
+      "relationType": "SPIN_OFF",
+      "malId": null,
+      "title": {
+        "romaji": "Yichang Shengwu Jianwen Lu Special",
+        "english": null,
+        "native": "异常生物见闻录 特别篇",
+        "userPreferred": "Yichang Shengwu Jianwen Lu Special"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx155918-7Q2paD0Rawym.jpg",
+      "color": "#ffbb43",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx155918-7Q2paD0Rawym.jpg",
+      "rating": 51
+    },
+    {
+      "id": 156104,
+      "relationType": "PREQUEL",
+      "malId": null,
+      "title": {
+        "romaji": "Xin Yichang Shengwu Jianwen Lu: Xu",
+        "english": null,
+        "native": "新·异常生物见闻录：序",
+        "userPreferred": "Xin Yichang Shengwu Jianwen Lu: Xu"
+      },
+      "status": "Not yet aired",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx156104-9VvBcc1JTieA.png",
+      "color": "#50bbe4",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx156104-9VvBcc1JTieA.png",
+      "rating": null
+    }
+  ],
+  "episodes": [
+    {
+      "id": "yichang-shengwu-jianwenlu-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108146-MNTOvV1kDFX3.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yichang-shengwu-jianwenlu-episode-1"
+    },
+    {
+      "id": "yichang-shengwu-jianwenlu-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108146-MNTOvV1kDFX3.png",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yichang-shengwu-jianwenlu-episode-2"
+    },
+    {
+      "id": "yichang-shengwu-jianwenlu-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108146-MNTOvV1kDFX3.png",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yichang-shengwu-jianwenlu-episode-3"
+    },
+    {
+      "id": "yichang-shengwu-jianwenlu-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108146-MNTOvV1kDFX3.png",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yichang-shengwu-jianwenlu-episode-4"
+    },
+    {
+      "id": "yichang-shengwu-jianwenlu-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108146-MNTOvV1kDFX3.png",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yichang-shengwu-jianwenlu-episode-5"
+    },
+    {
+      "id": "yichang-shengwu-jianwenlu-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108146-MNTOvV1kDFX3.png",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yichang-shengwu-jianwenlu-episode-6"
+    },
+    {
+      "id": "yichang-shengwu-jianwenlu-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108146-MNTOvV1kDFX3.png",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yichang-shengwu-jianwenlu-episode-7"
+    },
+    {
+      "id": "yichang-shengwu-jianwenlu-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108146-MNTOvV1kDFX3.png",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yichang-shengwu-jianwenlu-episode-8"
+    },
+    {
+      "id": "yichang-shengwu-jianwenlu-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108146-MNTOvV1kDFX3.png",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yichang-shengwu-jianwenlu-episode-9"
+    },
+    {
+      "id": "yichang-shengwu-jianwenlu-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108146-MNTOvV1kDFX3.png",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yichang-shengwu-jianwenlu-episode-10"
+    },
+    {
+      "id": "yichang-shengwu-jianwenlu-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108146-MNTOvV1kDFX3.png",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yichang-shengwu-jianwenlu-episode-11"
+    },
+    {
+      "id": "yichang-shengwu-jianwenlu-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108146-MNTOvV1kDFX3.png",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yichang-shengwu-jianwenlu-episode-12"
+    },
+    {
+      "id": "yichang-shengwu-jianwenlu-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108146-MNTOvV1kDFX3.png",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yichang-shengwu-jianwenlu-episode-13"
+    }
+  ]
+}

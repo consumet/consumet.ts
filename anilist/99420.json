@@ -1,0 +1,987 @@
+{
+  "id": "99420",
+  "title": {
+    "romaji": "Shoujo Shuumatsu Ryokou",
+    "english": "Girls' Last Tour",
+    "native": "少女終末旅行"
+  },
+  "malId": 35838,
+  "synonyms": [
+    "少女终末旅行 ",
+    "GLT",
+    "Wisata Gadis di Akhir Hayat"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "SuVVs4giZrI",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/SuVVs4giZrI/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99420-ROmwm2suzoNJ.png",
+  "popularity": 89501,
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99420-wwjSxDuLveEu.jpg",
+  "description": "Civilization is dead, but Chito and Yuuri are still alive. So they hop aboard their beloved Kettenkrad motorbike and aimlessly wander the ruins of the world they once knew. Day after hopeless day, they look for their next meal and fuel for their ride. But as long as the two are together, even an existence as bleak as theirs has a ray or two of sunshine in it, whether they're sucking down their fill of soup or hunting for machine parts to tinker with. For two girls in a world full of nothing, the experiences and feelings the two share give them something to live for…<br>\n<br>\n(Source: Yen Press)",
+  "status": "Completed",
+  "releaseDate": 2017,
+  "startDate": {
+    "year": 2017,
+    "month": 10,
+    "day": 6
+  },
+  "endDate": {
+    "year": 2017,
+    "month": 12,
+    "day": 22
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 81,
+  "duration": 24,
+  "genres": [
+    "Adventure",
+    "Sci-Fi",
+    "Slice of Life"
+  ],
+  "season": "FALL",
+  "studios": [
+    "White Fox"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 97986,
+      "malId": 34599,
+      "title": {
+        "romaji": "Made in Abyss",
+        "english": "Made in Abyss",
+        "native": "メイドインアビス",
+        "userPreferred": "Made in Abyss"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97986-8oxwTF84hzue.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97986-C55UnbJKB7ZF.jpg",
+      "rating": 85,
+      "type": "TV"
+    },
+    {
+      "id": 98444,
+      "malId": 34798,
+      "title": {
+        "romaji": "Yuru Camp△",
+        "english": "Laid-Back Camp",
+        "native": "ゆるキャン△",
+        "userPreferred": "Yuru Camp△"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98444-zzhSw9o3LJSy.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98444-FpH9lzLiafe9.jpg",
+      "rating": 81,
+      "type": "TV"
+    },
+    {
+      "id": 387,
+      "malId": 387,
+      "title": {
+        "romaji": "Haibane Renmei",
+        "english": "Haibane Renmei",
+        "native": "灰羽連盟",
+        "userPreferred": "Haibane Renmei"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx387-eewftYhOOFVP.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/387-2ogrNTbIYy2T.jpg",
+      "rating": 79,
+      "type": "TV"
+    },
+    {
+      "id": 20754,
+      "malId": 24765,
+      "title": {
+        "romaji": "Gakkou Gurashi!",
+        "english": "SCHOOL-LIVE!",
+        "native": "がっこうぐらし!",
+        "userPreferred": "Gakkou Gurashi!"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20754-akxAqF4QwYzJ.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20754-Hwnbsm4uaVFD.jpg",
+      "rating": 74,
+      "type": "TV"
+    },
+    {
+      "id": 4981,
+      "malId": 4981,
+      "title": {
+        "romaji": "Casshern Sins",
+        "english": "Casshern Sins",
+        "native": "キャシャーンSins",
+        "userPreferred": "Casshern Sins"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4981-V6MbMiJUqdvP.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4981-lMta9qbqmkq3.png",
+      "rating": 73,
+      "type": "TV"
+    },
+    {
+      "id": 6802,
+      "malId": 6802,
+      "title": {
+        "romaji": "So Ra No Wo To",
+        "english": "Sound of the Sky",
+        "native": "ソ・ラ・ノ・ヲ・ト",
+        "userPreferred": "So Ra No Wo To"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6802-MmsfM8KAgZuR.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6802-6fhoYM8iGJsL.jpg",
+      "rating": 74,
+      "type": "TV"
+    },
+    {
+      "id": 1852,
+      "malId": 1852,
+      "title": {
+        "romaji": "Hidamari Sketch",
+        "english": "Hidamari Sketch",
+        "native": "ひだまりスケッチ",
+        "userPreferred": "Hidamari Sketch"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1852-ru4zOAvNn1Aq.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1852-luCP33l49lkR.jpg",
+      "rating": 73,
+      "type": "TV"
+    },
+    {
+      "id": 486,
+      "malId": 486,
+      "title": {
+        "romaji": "Kino no Tabi: the Beautiful World",
+        "english": "Kino's Journey",
+        "native": "キノの旅 -the Beautiful World-",
+        "userPreferred": "Kino no Tabi: the Beautiful World"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx486-ygOzgiYJJsB9.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/486-cDPgzYdzHNEq.jpg",
+      "rating": 81,
+      "type": "TV"
+    },
+    {
+      "id": 3701,
+      "malId": 3701,
+      "title": {
+        "romaji": "Kaiba",
+        "english": "Kaiba",
+        "native": "カイバ",
+        "userPreferred": "Kaiba"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3701-IKmPkBHPIukF.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/3701-8mD0yBstxxuX.jpg",
+      "rating": 79,
+      "type": "TV"
+    },
+    {
+      "id": 457,
+      "malId": 457,
+      "title": {
+        "romaji": "Mushishi",
+        "english": "MUSHI-SHI",
+        "native": "蟲師",
+        "userPreferred": "Mushishi"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx457-Si9avlyStAXj.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n457-sWOJfqYC7s2I.jpg",
+      "rating": 85,
+      "type": "TV"
+    },
+    {
+      "id": 477,
+      "malId": 477,
+      "title": {
+        "romaji": "ARIA The ANIMATION",
+        "english": "ARIA The ANIMATION",
+        "native": "ARIA The ANIMATION",
+        "userPreferred": "ARIA The ANIMATION"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx477-IhmzyyzROh27.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/477.jpg",
+      "rating": 75,
+      "type": "TV"
+    },
+    {
+      "id": 98707,
+      "malId": 35557,
+      "title": {
+        "romaji": "Houseki no Kuni",
+        "english": "Land of the Lustrous",
+        "native": "宝石の国",
+        "userPreferred": "Houseki no Kuni"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98707-iGdx1gFXQs01.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98707-ZcFGfUAS4YwK.jpg",
+      "rating": 83,
+      "type": "TV"
+    },
+    {
+      "id": 99426,
+      "malId": 35839,
+      "title": {
+        "romaji": "Sora yori mo Tooi Basho",
+        "english": "A Place Further Than the Universe",
+        "native": "宇宙よりも遠い場所",
+        "userPreferred": "Sora yori mo Tooi Basho"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99426-5jWTUs719lQN.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99426-KsFVCSwVC3x3.jpg",
+      "rating": 84,
+      "type": "TV"
+    },
+    {
+      "id": 87496,
+      "malId": 33089,
+      "title": {
+        "romaji": "Kemono Friends",
+        "english": null,
+        "native": "けものフレンズ",
+        "userPreferred": "Kemono Friends"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx87496-22ELi0gTAGro.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/87496-OR27I0tcbgzc.jpg",
+      "rating": 72,
+      "type": "TV"
+    },
+    {
+      "id": 4081,
+      "malId": 4081,
+      "title": {
+        "romaji": "Natsume Yuujinchou",
+        "english": "Natsume's Book of Friends",
+        "native": "夏目友人帳",
+        "userPreferred": "Natsume Yuujinchou"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4081-33BLrdaPdZjP.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4081-dbeE4uMExtgc.jpg",
+      "rating": 80,
+      "type": "TV"
+    },
+    {
+      "id": 5300,
+      "malId": 5300,
+      "title": {
+        "romaji": "Zoku Natsume Yuujinchou",
+        "english": "Natsume's Book of Friends 2",
+        "native": "続 夏目友人帳",
+        "userPreferred": "Zoku Natsume Yuujinchou"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5300-aQaHNUn5sQ9z.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/5300-sEIrQMgijOo7.jpg",
+      "rating": 83,
+      "type": "TV"
+    },
+    {
+      "id": 10379,
+      "malId": 10379,
+      "title": {
+        "romaji": "Natsume Yuujinchou San",
+        "english": "Natsume's Book of Friends 3",
+        "native": "夏目友人帳 参",
+        "userPreferred": "Natsume Yuujinchou San"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10379-lS2Mk6lX4lZr.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10379-QrQ5hQCZzdN1.jpg",
+      "rating": 84,
+      "type": "TV"
+    },
+    {
+      "id": 11665,
+      "malId": 11665,
+      "title": {
+        "romaji": "Natsume Yuujinchou Shi",
+        "english": "Natsume's Book of Friends 4",
+        "native": "夏目友人帳 肆",
+        "userPreferred": "Natsume Yuujinchou Shi"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11665-nfbt94cwKySE.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11665-JYylw0x1Qi1H.jpg",
+      "rating": 85,
+      "type": "TV"
+    },
+    {
+      "id": 97983,
+      "malId": 34591,
+      "title": {
+        "romaji": "Natsume Yuujinchou Roku",
+        "english": "Natsume's Book of Friends 6",
+        "native": "夏目友人帳 陸",
+        "userPreferred": "Natsume Yuujinchou Roku"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97983-Uqn04SR6hVW9.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97983-gnWWi3k6xstM.jpg",
+      "rating": 85,
+      "type": "TV"
+    },
+    {
+      "id": 100283,
+      "malId": 36275,
+      "title": {
+        "romaji": "Natsume Yuujinchou Roku Specials",
+        "english": "Natsume Yujin-cho 6 Specials",
+        "native": "夏目友人帳 陸 特別編",
+        "userPreferred": "Natsume Yuujinchou Roku Specials"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100283-R41Jk9AHLuXj.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100283-rIiiC4d63JZ4.png",
+      "rating": 81,
+      "type": "SPECIAL"
+    },
+    {
+      "id": 101123,
+      "malId": 37302,
+      "title": {
+        "romaji": "Kemurikusa",
+        "english": "kemurikusa.",
+        "native": "ケムリクサ",
+        "userPreferred": "Kemurikusa"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx101123-3SzWQNaV6PTi.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101123-Lud6NAjMgV61.jpg",
+      "rating": 64,
+      "type": "TV"
+    },
+    {
+      "id": 975,
+      "malId": 975,
+      "title": {
+        "romaji": "Yokohama Kaidashi Kikou",
+        "english": null,
+        "native": "ヨコハマ買い出し紀行",
+        "userPreferred": "Yokohama Kaidashi Kikou"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/975-EDNYnBJCctSD.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/975-6Fcen4DGT5vD.jpg",
+      "rating": 73,
+      "type": "OVA"
+    },
+    {
+      "id": 101696,
+      "malId": 37109,
+      "title": {
+        "romaji": "Hakumei to Mikochi: Neji to Bed to Irori to Bakuchi",
+        "english": null,
+        "native": "ハクメイとミコチ 「ネジとベッド と 囲炉裏と博打」",
+        "userPreferred": "Hakumei to Mikochi: Neji to Bed to Irori to Bakuchi"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx101696-BkAiyJKXdI85.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx101696-BkAiyJKXdI85.jpg",
+      "rating": 74,
+      "type": "SPECIAL"
+    },
+    {
+      "id": 10357,
+      "malId": 10357,
+      "title": {
+        "romaji": "Jinrui wa Suitai Shimashita",
+        "english": "Humanity Has Declined",
+        "native": "人類は衰退しました",
+        "userPreferred": "Jinrui wa Suitai Shimashita"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx10357-mCskMbKFVHmu.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10357-Vq4ued5Ue0um.jpg",
+      "rating": 76,
+      "type": "TV"
+    },
+    {
+      "id": 99748,
+      "malId": 36094,
+      "title": {
+        "romaji": "Hakumei to Mikochi",
+        "english": "Hakumei and Mikochi",
+        "native": "ハクメイとミコチ",
+        "userPreferred": "Hakumei to Mikochi"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99748-AdUXWhNTVLEy.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99748-qZNhL9visYfS.jpg",
+      "rating": 73,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 120889,
+      "role": "MAIN",
+      "name": {
+        "first": "",
+        "last": "Chito",
+        "full": "Chito",
+        "native": "チト",
+        "userPreferred": "Chito"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/120889-o9uGSBNtqgJ8.png",
+      "voiceActors": [
+        {
+          "id": 106297,
+          "language": "Japanese",
+          "name": {
+            "first": "Inori",
+            "last": "Minase",
+            "full": "Inori Minase",
+            "native": "水瀬いのり",
+            "userPreferred": "Inori Minase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106297-KnzvgfxB1byY.png"
+        },
+        {
+          "id": 129171,
+          "language": "English",
+          "name": {
+            "first": "Cat",
+            "last": "Thomas",
+            "full": "Cat Thomas",
+            "native": null,
+            "userPreferred": "Cat Thomas"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n129171-h2tjC9k09wiG.jpg"
+        },
+        {
+          "id": 139162,
+          "language": "German",
+          "name": {
+            "first": "Leonie",
+            "last": "Landa",
+            "full": "Leonie Landa",
+            "native": null,
+            "userPreferred": "Leonie Landa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n139162-qAol8QTLWQzh.png"
+        }
+      ]
+    },
+    {
+      "id": 120890,
+      "role": "MAIN",
+      "name": {
+        "first": "",
+        "last": "Yuuri",
+        "full": "Yuuri",
+        "native": "ユーリ",
+        "userPreferred": "Yuuri"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b120890-pu5qO3xxvvcx.png",
+      "voiceActors": [
+        {
+          "id": 112209,
+          "language": "Japanese",
+          "name": {
+            "first": "Yurika",
+            "last": "Kubo",
+            "full": "Yurika Kubo",
+            "native": "久保ユリカ",
+            "userPreferred": "Yurika Kubo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n112209-6rgze0vZlnG6.png"
+        },
+        {
+          "id": 124165,
+          "language": "English",
+          "name": {
+            "first": "Juliet",
+            "last": "Simmons",
+            "full": "Juliet Simmons",
+            "native": null,
+            "userPreferred": "Juliet Simmons"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/124165-H4pJed6F03Yq.jpg"
+        },
+        {
+          "id": 139368,
+          "language": "German",
+          "name": {
+            "first": "Katrin",
+            "last": "Heß",
+            "full": "Katrin Heß",
+            "native": null,
+            "userPreferred": "Katrin Heß"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n139368-lchyJfVISfR6.png"
+        }
+      ]
+    },
+    {
+      "id": 124302,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ishii",
+        "last": null,
+        "full": "Ishii",
+        "native": "イシイ",
+        "userPreferred": "Ishii"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/124302-GQwCbSnY4ILt.jpg",
+      "voiceActors": [
+        {
+          "id": 95009,
+          "language": "Japanese",
+          "name": {
+            "first": "Kotono",
+            "last": "Mitsuishi",
+            "full": "Kotono Mitsuishi",
+            "native": "三石琴乃",
+            "userPreferred": "Kotono Mitsuishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95009-d01Dg8mMwcg6.png"
+        },
+        {
+          "id": 95811,
+          "language": "English",
+          "name": {
+            "first": "Stephanie",
+            "last": "Wittels",
+            "full": "Stephanie Wittels",
+            "native": null,
+            "userPreferred": "Stephanie Wittels"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95811-o2fnOs9BXUQv.png"
+        },
+        {
+          "id": 145744,
+          "language": "German",
+          "name": {
+            "first": "Bettina",
+            "last": "Weiß",
+            "full": "Bettina Weiß",
+            "native": null,
+            "userPreferred": "Bettina Weiß"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 124303,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "",
+        "last": "Kanazawa",
+        "full": "Kanazawa",
+        "native": "カナザワ",
+        "userPreferred": "Kanazawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/124303-CHDdY0qj8Ajn.jpg",
+      "voiceActors": [
+        {
+          "id": 95017,
+          "language": "Japanese",
+          "name": {
+            "first": "Akira",
+            "last": "Ishida",
+            "full": "Akira Ishida",
+            "native": "石田彰",
+            "userPreferred": "Akira Ishida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95017-GSRcmQ97a8ZT.png"
+        },
+        {
+          "id": 101917,
+          "language": "English",
+          "name": {
+            "first": "Mark",
+            "last": "Laskowski",
+            "full": "Mark Laskowski",
+            "native": null,
+            "userPreferred": "Mark Laskowski"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101917-bIZf8FRgWTMv.jpg"
+        },
+        {
+          "id": 145743,
+          "language": "German",
+          "name": {
+            "first": "Axel",
+            "last": "Malzacher",
+            "full": "Axel Malzacher",
+            "native": null,
+            "userPreferred": "Axel Malzacher"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n145743-201Jz6plyiMa.png"
+        }
+      ]
+    },
+    {
+      "id": 124936,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nuko",
+        "last": null,
+        "full": "Nuko",
+        "native": "ヌコ",
+        "userPreferred": "Nuko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/124936-Jjy56R1xBIbc.jpg",
+      "voiceActors": [
+        {
+          "id": 95185,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Hanazawa",
+            "full": "Kana Hanazawa",
+            "native": "花澤香菜",
+            "userPreferred": "Kana Hanazawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95185-vZ6nmfBKQgw1.jpg"
+        },
+        {
+          "id": 116549,
+          "language": "English",
+          "name": {
+            "first": "Kalin",
+            "last": "Coates",
+            "full": "Kalin Coates",
+            "native": null,
+            "userPreferred": "Kalin Coates"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n116549-nixFyeEvSdSp.jpg"
+        },
+        {
+          "id": 145745,
+          "language": "German",
+          "name": {
+            "first": "Alma",
+            "last": "Lühn",
+            "full": "Alma Lühn",
+            "native": null,
+            "userPreferred": "Alma Lühn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n145745-l7c6sA3mHpq0.jpg"
+        }
+      ]
+    },
+    {
+      "id": 124937,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jiritsu Kikai",
+        "last": null,
+        "full": "Jiritsu Kikai",
+        "native": "自律機械",
+        "userPreferred": "Jiritsu Kikai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/124937-bXNG7t2RumEn.jpg",
+      "voiceActors": [
+        {
+          "id": 95672,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Kaji",
+            "full": "Yuuki Kaji",
+            "native": "梶裕貴",
+            "userPreferred": "Yuuki Kaji"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95672-RN4nm0OFwCyU.png"
+        },
+        {
+          "id": 129172,
+          "language": "English",
+          "name": {
+            "first": "Kregg",
+            "last": "Dailey",
+            "full": "Kregg Dailey",
+            "native": null,
+            "userPreferred": "Kregg Dailey"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n129172-scCbg45x4v1o.jpg"
+        },
+        {
+          "id": 145742,
+          "language": "German",
+          "name": {
+            "first": "Christian",
+            "last": "Wunderlich",
+            "full": "Christian Wunderlich",
+            "native": null,
+            "userPreferred": "Christian Wunderlich"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n145742-zhf93wWLlKf0.jpg"
+        }
+      ]
+    },
+    {
+      "id": 250110,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ojii-san",
+        "last": null,
+        "full": "Ojii-san",
+        "native": "おじいさん",
+        "userPreferred": "Ojii-san"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b250110-QmjfI76Z8kOl.png",
+      "voiceActors": [
+        {
+          "id": 95333,
+          "language": "Japanese",
+          "name": {
+            "first": "Motomu",
+            "last": "Kiyokawa",
+            "full": "Motomu Kiyokawa",
+            "native": "清川元夢",
+            "userPreferred": "Motomu Kiyokawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95333-11aYjXsaWLIp.png"
+        },
+        {
+          "id": 95201,
+          "language": "English",
+          "name": {
+            "first": "John",
+            "last": "Swasey",
+            "full": "John Swasey",
+            "native": null,
+            "userPreferred": "John Swasey"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95201-cas6XbtZmMay.jpg"
+        }
+      ]
+    },
+    {
+      "id": 252286,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Eringi",
+        "last": null,
+        "full": "Eringi",
+        "native": "エリンギ",
+        "userPreferred": "Eringi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b252286-sGHrrIDB2rjX.png",
+      "voiceActors": [
+        {
+          "id": 95425,
+          "language": "Japanese",
+          "name": {
+            "first": "Sumi",
+            "last": "Shimamoto",
+            "full": "Sumi Shimamoto",
+            "native": "島本須美",
+            "userPreferred": "Sumi Shimamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95425-wEl09IWpLxIA.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 85412,
+      "relationType": "ADAPTATION",
+      "malId": 72467,
+      "title": {
+        "romaji": "Shoujo Shuumatsu Ryokou",
+        "english": "Girls' Last Tour",
+        "native": "少女終末旅行",
+        "userPreferred": "Shoujo Shuumatsu Ryokou"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx85412-3kJSfIV9pji2.jpg",
+      "color": null,
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/85412-H9Uo0YNhxd9J.jpg",
+      "rating": 86
+    },
+    {
+      "id": 100180,
+      "relationType": "SIDE_STORY",
+      "malId": 36468,
+      "title": {
+        "romaji": "Shoujo Shuumatsu Jugyou",
+        "english": "Girls' Weekend Class",
+        "native": "少女週末授業",
+        "userPreferred": "Shoujo Shuumatsu Jugyou"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100180-vPtNXnPCS7bR.jpg",
+      "color": "#a16b35",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100180-LBVQbTPyfTMD.jpg",
+      "rating": 63
+    },
+    {
+      "id": 163661,
+      "relationType": "SIDE_STORY",
+      "malId": null,
+      "title": {
+        "romaji": "Shoujo Shuumatsu Ryokou Special Comic",
+        "english": null,
+        "native": "少女終末旅行 Special Comic",
+        "userPreferred": "Shoujo Shuumatsu Ryokou Special Comic"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx163661-FTxUHMjm5Kni.jpg",
+      "color": null,
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx163661-FTxUHMjm5Kni.jpg",
+      "rating": 83
+    }
+  ],
+  "episodes": [
+    {
+      "id": "shoujo-shuumatsu-ryokou-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99420-ROmwm2suzoNJ.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shoujo-shuumatsu-ryokou-episode-1"
+    },
+    {
+      "id": "shoujo-shuumatsu-ryokou-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99420-ROmwm2suzoNJ.png",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shoujo-shuumatsu-ryokou-episode-2"
+    },
+    {
+      "id": "shoujo-shuumatsu-ryokou-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99420-ROmwm2suzoNJ.png",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shoujo-shuumatsu-ryokou-episode-3"
+    },
+    {
+      "id": "shoujo-shuumatsu-ryokou-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99420-ROmwm2suzoNJ.png",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shoujo-shuumatsu-ryokou-episode-4"
+    },
+    {
+      "id": "shoujo-shuumatsu-ryokou-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99420-ROmwm2suzoNJ.png",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shoujo-shuumatsu-ryokou-episode-5"
+    },
+    {
+      "id": "shoujo-shuumatsu-ryokou-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99420-ROmwm2suzoNJ.png",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shoujo-shuumatsu-ryokou-episode-6"
+    },
+    {
+      "id": "shoujo-shuumatsu-ryokou-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99420-ROmwm2suzoNJ.png",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shoujo-shuumatsu-ryokou-episode-7"
+    },
+    {
+      "id": "shoujo-shuumatsu-ryokou-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99420-ROmwm2suzoNJ.png",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shoujo-shuumatsu-ryokou-episode-8"
+    },
+    {
+      "id": "shoujo-shuumatsu-ryokou-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99420-ROmwm2suzoNJ.png",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shoujo-shuumatsu-ryokou-episode-9"
+    },
+    {
+      "id": "shoujo-shuumatsu-ryokou-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99420-ROmwm2suzoNJ.png",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shoujo-shuumatsu-ryokou-episode-10"
+    },
+    {
+      "id": "shoujo-shuumatsu-ryokou-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99420-ROmwm2suzoNJ.png",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shoujo-shuumatsu-ryokou-episode-11"
+    },
+    {
+      "id": "shoujo-shuumatsu-ryokou-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99420-ROmwm2suzoNJ.png",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shoujo-shuumatsu-ryokou-episode-12"
+    }
+  ]
+}

@@ -1,0 +1,504 @@
+{
+  "id": "590",
+  "title": {
+    "romaji": "Kage kara Mamoru!",
+    "english": "Protect from the Shadows!",
+    "native": "陰からマモル！"
+  },
+  "malId": 590,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/590.jpg",
+  "popularity": 3542,
+  "color": "#e45043",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/590.jpg",
+  "description": "Kagemori Mamoru is a dowdy boy whose hair is disheveled and who wears thick glasses, but he is actually the son of a ninja family. They have protected their neighbors, the Konnyaku family, secretly for 400 years. Mamoru has personally protected their daughter, Konnyaku Yuuna, since they were in kindergarten. When Yuuna is in trouble, Mamoru puts on ninja suit and turns into a competent ninja to help her.",
+  "status": "Completed",
+  "releaseDate": 2006,
+  "startDate": {
+    "year": 2006,
+    "month": 1,
+    "day": 8
+  },
+  "endDate": {
+    "year": 2006,
+    "month": 3,
+    "day": 26
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 60,
+  "duration": 24,
+  "genres": [
+    "Comedy",
+    "Romance"
+  ],
+  "season": "WINTER",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 910,
+      "malId": 910,
+      "title": {
+        "romaji": "Himawari!",
+        "english": "Himawari!",
+        "native": "ひまわりっ!",
+        "userPreferred": "Himawari!"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b910-4XEZfwIGeD2p.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b910-4XEZfwIGeD2p.png",
+      "rating": 57,
+      "type": "TV"
+    },
+    {
+      "id": 2026,
+      "malId": 2026,
+      "title": {
+        "romaji": "Hayate no Gotoku!",
+        "english": "Hayate the Combat Butler",
+        "native": "ハヤテのごとく！",
+        "userPreferred": "Hayate no Gotoku!"
+      },
+      "status": "Completed",
+      "episodes": 52,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2026-xoCa4unn5iOi.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2026.jpg",
+      "rating": 72,
+      "type": "TV"
+    },
+    {
+      "id": 4999,
+      "malId": 4999,
+      "title": {
+        "romaji": "Asu no Yoichi!",
+        "english": "Samurai Harem",
+        "native": "明日のよいち！",
+        "userPreferred": "Asu no Yoichi!"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4999.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4999.jpg",
+      "rating": 62,
+      "type": "TV"
+    },
+    {
+      "id": 127911,
+      "malId": 45613,
+      "title": {
+        "romaji": "Kawaii dake ja Nai Shikimori-san",
+        "english": "Shikimori's Not Just a Cutie",
+        "native": "可愛いだけじゃない式守さん",
+        "userPreferred": "Kawaii dake ja Nai Shikimori-san"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx127911-cQVL0dhldFwn.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/127911-YRSP7vuUy801.jpg",
+      "rating": 68,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 4412,
+      "role": "MAIN",
+      "name": {
+        "first": "Yuna",
+        "last": "Konnyaku",
+        "full": "Yuna Konnyaku",
+        "native": null,
+        "userPreferred": "Yuna Konnyaku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4412.jpg",
+      "voiceActors": [
+        {
+          "id": 95031,
+          "language": "Japanese",
+          "name": {
+            "first": "Mai",
+            "last": "Nakahara",
+            "full": "Mai Nakahara",
+            "native": "中原麻衣",
+            "userPreferred": "Mai Nakahara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95031-tipPIz2k0Ncw.png"
+        }
+      ]
+    },
+    {
+      "id": 4411,
+      "role": "MAIN",
+      "name": {
+        "first": "Mamoru",
+        "last": "Kagemori",
+        "full": "Mamoru Kagemori",
+        "native": "陰守 マモル",
+        "userPreferred": "Mamoru Kagemori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4411.jpg",
+      "voiceActors": [
+        {
+          "id": 95471,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoe",
+            "last": "Hanba",
+            "full": "Tomoe Hanba",
+            "native": "半場友恵",
+            "userPreferred": "Tomoe Hanba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95471-QFtcXqtRwhlS.png"
+        },
+        {
+          "id": 95560,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsushi",
+            "last": "Kisaichi",
+            "full": "Atsushi Kisaichi",
+            "native": "私市淳",
+            "userPreferred": "Atsushi Kisaichi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95560-zMj9LRxhYkMX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 33824,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Burumaru",
+        "last": null,
+        "full": "Burumaru",
+        "native": null,
+        "userPreferred": "Burumaru"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/33824.jpg",
+      "voiceActors": [
+        {
+          "id": 107500,
+          "language": "Japanese",
+          "name": {
+            "first": "Noboru",
+            "last": "Yamaguchi",
+            "full": "Noboru Yamaguchi",
+            "native": "登 山口",
+            "userPreferred": "Noboru Yamaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12500.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4415,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yamame",
+        "last": "Hatori",
+        "full": "Yamame Hatori",
+        "native": null,
+        "userPreferred": "Yamame Hatori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4415.jpg",
+      "voiceActors": [
+        {
+          "id": 95072,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Shimizu",
+            "full": "Ai Shimizu",
+            "native": "清水愛",
+            "userPreferred": "Ai Shimizu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95072-V8FWqUIDJ57b.png"
+        }
+      ]
+    },
+    {
+      "id": 4417,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sakurako",
+        "last": "Kagemori",
+        "full": "Sakurako Kagemori",
+        "native": null,
+        "userPreferred": "Sakurako Kagemori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4417.jpg",
+      "voiceActors": [
+        {
+          "id": 95121,
+          "language": "Japanese",
+          "name": {
+            "first": "Miki",
+            "last": "Itou",
+            "full": "Miki Itou",
+            "native": "伊藤美紀 ",
+            "userPreferred": "Miki Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95121-FCp9NcoFgKZk.png"
+        }
+      ]
+    },
+    {
+      "id": 4414,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tsubaki",
+        "last": "Mapputatsu",
+        "full": "Tsubaki Mapputatsu",
+        "native": null,
+        "userPreferred": "Tsubaki Mapputatsu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4414.jpg",
+      "voiceActors": [
+        {
+          "id": 95276,
+          "language": "Japanese",
+          "name": {
+            "first": "Sachiko",
+            "last": "Kojima",
+            "full": "Sachiko Kojima",
+            "native": "小島幸子",
+            "userPreferred": "Sachiko Kojima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95276-uj7NdE0RLmEU.png"
+        }
+      ]
+    },
+    {
+      "id": 4413,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Airi",
+        "last": "Sawagashi",
+        "full": "Airi Sawagashi",
+        "native": null,
+        "userPreferred": "Airi Sawagashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4413.jpg",
+      "voiceActors": [
+        {
+          "id": 95315,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouko",
+            "last": "Shintani",
+            "full": "Ryouko Shintani",
+            "native": "新谷良子",
+            "userPreferred": "Ryouko Shintani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95315-6lzPWFB0mhh8.png"
+        }
+      ]
+    },
+    {
+      "id": 4416,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hotaru",
+        "last": "Kumogakure",
+        "full": "Hotaru Kumogakure",
+        "native": null,
+        "userPreferred": "Hotaru Kumogakure"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4416.jpg",
+      "voiceActors": [
+        {
+          "id": 95564,
+          "language": "Japanese",
+          "name": {
+            "first": "Erina",
+            "last": "Furukawa",
+            "full": "Erina Furukawa",
+            "native": "古川絵里奈",
+            "userPreferred": "Erina Furukawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95564-Hbm8aKtDhRnD.png"
+        }
+      ]
+    },
+    {
+      "id": 4418,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kengo",
+        "last": "Kagemori",
+        "full": "Kengo Kagemori",
+        "native": "陰守堅護",
+        "userPreferred": "Kengo Kagemori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4418.jpg",
+      "voiceActors": [
+        {
+          "id": 106748,
+          "language": "Japanese",
+          "name": {
+            "first": "Hisashi",
+            "last": "Izumi",
+            "full": "Hisashi Izumi",
+            "native": "尚 いずみ",
+            "userPreferred": "Hisashi Izumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/11748.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 89675,
+      "relationType": "ADAPTATION",
+      "malId": 63111,
+      "title": {
+        "romaji": "Kage kara Mamoru!",
+        "english": null,
+        "native": "陰からマモル！",
+        "userPreferred": "Kage kara Mamoru!"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx89675-54h8KNLkWZzh.jpg",
+      "color": "#e46b35",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx89675-54h8KNLkWZzh.jpg",
+      "rating": 71
+    },
+    {
+      "id": 34149,
+      "relationType": "ALTERNATIVE",
+      "malId": 4149,
+      "title": {
+        "romaji": "Kage Kara Mamoru!",
+        "english": "Mamoru The Shadow Protector",
+        "native": "陰からマモル！",
+        "userPreferred": "Kage Kara Mamoru!"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx34149-cjXE6t8Eb5u8.jpg",
+      "color": "#e47835",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx34149-cjXE6t8Eb5u8.jpg",
+      "rating": 60
+    }
+  ],
+  "episodes": [
+    {
+      "id": "kage-kara-mamoru-episode-1",
+      "title": "Continuing To Protect For 400 Years",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/590.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:21:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kage-kara-mamoru-episode-1"
+    },
+    {
+      "id": "kage-kara-mamoru-episode-2",
+      "title": "There Is Nothing In This World That I Cannot Cut",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/590.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:21:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kage-kara-mamoru-episode-2"
+    },
+    {
+      "id": "kage-kara-mamoru-episode-3",
+      "title": "Girl From The Village Of Ninjas",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/590.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:21:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kage-kara-mamoru-episode-3"
+    },
+    {
+      "id": "kage-kara-mamoru-episode-4",
+      "title": "Such Thing as an Idol",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/590.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:21:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kage-kara-mamoru-episode-4"
+    },
+    {
+      "id": "kage-kara-mamoru-episode-5",
+      "title": "A Maiden's Heart And A Samurai's Soul",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/590.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:21:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kage-kara-mamoru-episode-5"
+    },
+    {
+      "id": "kage-kara-mamoru-episode-6",
+      "title": "The New Transfer Student is a Sensational Pretty Girl",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/590.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:21:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kage-kara-mamoru-episode-6"
+    },
+    {
+      "id": "kage-kara-mamoru-episode-7",
+      "title": "Ninja Boy Mamoru",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/590.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:21:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kage-kara-mamoru-episode-7"
+    },
+    {
+      "id": "kage-kara-mamoru-episode-8",
+      "title": "The Sawagashi Household's Crime Prevention Battle",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/590.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:21:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kage-kara-mamoru-episode-8"
+    },
+    {
+      "id": "kage-kara-mamoru-episode-9",
+      "title": "Kokanei's... UFO Watch!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/590.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:21:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kage-kara-mamoru-episode-9"
+    },
+    {
+      "id": "kage-kara-mamoru-episode-10",
+      "title": "Yuna's Golden Legend",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/590.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:21:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kage-kara-mamoru-episode-10"
+    },
+    {
+      "id": "kage-kara-mamoru-episode-11",
+      "title": "Bye, Bye, Yuna",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/590.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:21:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kage-kara-mamoru-episode-11"
+    },
+    {
+      "id": "kage-kara-mamoru-episode-12",
+      "title": "Kage Kara Mamoru!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/590.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:21:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kage-kara-mamoru-episode-12"
+    }
+  ]
+}

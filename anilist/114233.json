@@ -1,0 +1,841 @@
+{
+  "id": "114233",
+  "title": {
+    "romaji": "Gundam Build Divers Re:RISE 2nd Season",
+    "english": "Gundam Build Divers Re:RISE 2nd Season",
+    "native": "ガンダムビルドダイバーズRe:RISE 2nd Season"
+  },
+  "malId": 40942,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "x3lkjrRJ11U",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/x3lkjrRJ11U/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114233-FUlAGLqFOVrT.jpg",
+  "popularity": 2987,
+  "color": "#e443e4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114233-FUlAGLqFOVrT.jpg",
+  "description": "The second season of <i>Gundam Build Divers Re:RISE</i>.",
+  "status": "Completed",
+  "releaseDate": 2020,
+  "startDate": {
+    "year": 2020,
+    "month": 4,
+    "day": 9
+  },
+  "endDate": {
+    "year": 2020,
+    "month": 8,
+    "day": 27
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 72,
+  "duration": 25,
+  "genres": [
+    "Action",
+    "Mecha",
+    "Sci-Fi"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Sunrise Beyond"
+  ],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [
+    {
+      "id": 19319,
+      "malId": 19319,
+      "title": {
+        "romaji": "Gundam Build Fighters",
+        "english": "Gundam Build Fighters",
+        "native": "ガンダムビルドファイターズ",
+        "userPreferred": "Gundam Build Fighters"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx19319-0YuU672PSgix.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx19319-0YuU672PSgix.jpg",
+      "rating": 76,
+      "type": "TV"
+    },
+    {
+      "id": 101036,
+      "malId": 37245,
+      "title": {
+        "romaji": "Gundam Build Divers",
+        "english": "Gundam Build Divers",
+        "native": "ガンダムビルドダイバーズ",
+        "userPreferred": "Gundam Build Divers"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx101036-XhEmZnLx9JHE.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101036-IOCaHzp9eC3n.png",
+      "rating": 59,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 148842,
+      "role": "MAIN",
+      "name": {
+        "first": "Kazami",
+        "last": "Torimachi",
+        "full": "Kazami Torimachi",
+        "native": "トリマチ・カザミ",
+        "userPreferred": "Kazami Torimachi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b148842-Od9IG0IBUwrE.png",
+      "voiceActors": [
+        {
+          "id": 126794,
+          "language": "Japanese",
+          "name": {
+            "first": "Masaaki",
+            "last": "Mizunaka",
+            "full": "Masaaki Mizunaka",
+            "native": "水中雅章",
+            "userPreferred": "Masaaki Mizunaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n126794-tZzYeLEQbsrj.png"
+        }
+      ]
+    },
+    {
+      "id": 148860,
+      "role": "MAIN",
+      "name": {
+        "first": "May",
+        "last": null,
+        "full": "May",
+        "native": "メイ",
+        "userPreferred": "May"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b148860-CuW8ScAUnknW.png",
+      "voiceActors": [
+        {
+          "id": 104593,
+          "language": "Japanese",
+          "name": {
+            "first": "Mai",
+            "last": "Fuchigami",
+            "full": "Mai Fuchigami",
+            "native": "渕上舞",
+            "userPreferred": "Mai Fuchigami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104593-yZz5rvm3oIXH.png"
+        }
+      ]
+    },
+    {
+      "id": 148847,
+      "role": "MAIN",
+      "name": {
+        "first": "Parviz",
+        "last": null,
+        "full": "Parviz",
+        "native": "パルヴィーズ",
+        "userPreferred": "Parviz"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b148847-lW6Ub7z7JoIv.png",
+      "voiceActors": [
+        {
+          "id": 148844,
+          "language": "Japanese",
+          "name": {
+            "first": "Mayu",
+            "last": "Minami",
+            "full": "Mayu Minami",
+            "native": "南真由",
+            "userPreferred": "Mayu Minami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n148844-GDJ8hpOUAa4j.jpg"
+        }
+      ]
+    },
+    {
+      "id": 148843,
+      "role": "MAIN",
+      "name": {
+        "first": "Hiroto",
+        "last": "Kuga",
+        "full": "Hiroto Kuga",
+        "native": "クガ・ヒロト",
+        "userPreferred": "Hiroto Kuga"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b148843-b7DKhwszK0Bv.png",
+      "voiceActors": [
+        {
+          "id": 133507,
+          "language": "Japanese",
+          "name": {
+            "first": "Chiaki",
+            "last": "Kobayashi",
+            "full": "Chiaki Kobayashi",
+            "native": "小林千晃",
+            "userPreferred": "Chiaki Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n133507-oT1bd4Gax1Qg.jpg"
+        }
+      ]
+    },
+    {
+      "id": 177953,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Cuadorn",
+        "last": null,
+        "full": "Cuadorn",
+        "native": "クアドルン",
+        "userPreferred": "Cuadorn"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b177953-uyBUdBH5AElr.jpg",
+      "voiceActors": [
+        {
+          "id": 100427,
+          "language": "Japanese",
+          "name": {
+            "first": "Takaya",
+            "last": "Hashi",
+            "full": "Takaya Hashi",
+            "native": "土師孝也",
+            "userPreferred": "Takaya Hashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100427-rXj5mx6gGNfH.png"
+        }
+      ]
+    },
+    {
+      "id": 177780,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mizuki",
+        "last": "Shido",
+        "full": "Mizuki Shido",
+        "native": "シドー・ミズキ",
+        "userPreferred": "Mizuki Shido"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b177780-v3tBq1fHCoO5.jpg",
+      "voiceActors": [
+        {
+          "id": 107652,
+          "language": "Japanese",
+          "name": {
+            "first": "Chinatsu",
+            "last": "Akasaki",
+            "full": "Chinatsu Akasaki",
+            "native": "赤﨑千夏",
+            "userPreferred": "Chinatsu Akasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107652-wHdkKzhetbiH.jpg"
+        }
+      ]
+    },
+    {
+      "id": 148851,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Towana",
+        "last": null,
+        "full": "Towana",
+        "native": "トワナ",
+        "userPreferred": "Towana"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b148851-QI6yse0u8erT.png",
+      "voiceActors": [
+        {
+          "id": 129351,
+          "language": "Japanese",
+          "name": {
+            "first": "Asuna",
+            "last": "Tomari",
+            "full": "Asuna Tomari",
+            "native": "泊明日菜",
+            "userPreferred": "Asuna Tomari"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n129351-XYMaAkroHj8S.jpg"
+        }
+      ]
+    },
+    {
+      "id": 148852,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Stola",
+        "last": null,
+        "full": "Stola",
+        "native": "ストラ",
+        "userPreferred": "Stola"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b148852-sRJdBFdQwPRc.png",
+      "voiceActors": [
+        {
+          "id": 127073,
+          "language": "Japanese",
+          "name": {
+            "first": "Kotomi",
+            "last": "Aihara",
+            "full": "Kotomi Aihara",
+            "native": "藍原ことみ",
+            "userPreferred": "Kotomi Aihara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n127073-sQBsSSfR3cfp.png"
+        }
+      ]
+    },
+    {
+      "id": 148855,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Magee",
+        "last": null,
+        "full": "Magee",
+        "native": "マギー",
+        "userPreferred": "Magee"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b148855-bD41f7WMQ6qf.png",
+      "voiceActors": [
+        {
+          "id": 107705,
+          "language": "Japanese",
+          "name": {
+            "first": "Taishi",
+            "last": "Murata",
+            "full": "Taishi Murata",
+            "native": "村田太志",
+            "userPreferred": "Taishi Murata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107705-lVfYRzWY5AFW.jpg"
+        }
+      ]
+    },
+    {
+      "id": 148853,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hulun",
+        "last": null,
+        "full": "Hulun",
+        "native": "フルン",
+        "userPreferred": "Hulun"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b148853-boaD5QhSPrz1.png",
+      "voiceActors": [
+        {
+          "id": 116813,
+          "language": "Japanese",
+          "name": {
+            "first": "Michiyo",
+            "last": "Murase",
+            "full": "Michiyo Murase",
+            "native": "村瀬迪与",
+            "userPreferred": "Michiyo Murase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n116813-Eo0TRZCaHlDy.jpg"
+        }
+      ]
+    },
+    {
+      "id": 177788,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Alus",
+        "last": null,
+        "full": "Alus",
+        "native": "アルス",
+        "userPreferred": "Alus"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b177788-rn5VswCnC3v5.jpg",
+      "voiceActors": [
+        {
+          "id": 95017,
+          "language": "Japanese",
+          "name": {
+            "first": "Akira",
+            "last": "Ishida",
+            "full": "Akira Ishida",
+            "native": "石田彰",
+            "userPreferred": "Akira Ishida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95017-GSRcmQ97a8ZT.png"
+        }
+      ]
+    },
+    {
+      "id": 148859,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Maiya",
+        "last": null,
+        "full": "Maiya",
+        "native": "マイヤ",
+        "userPreferred": "Maiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b148859-0bn814UKWpyA.png",
+      "voiceActors": [
+        {
+          "id": 117657,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuna",
+            "last": "Mimura",
+            "full": "Yuuna Mimura",
+            "native": "三村ゆうな",
+            "userPreferred": "Yuuna Mimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n117657-Hx3of6PcuYFA.png"
+        }
+      ]
+    },
+    {
+      "id": 148856,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Freddie",
+        "last": null,
+        "full": "Freddie",
+        "native": "フレディ",
+        "userPreferred": "Freddie"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b148856-zv84HWxZhBWm.png",
+      "voiceActors": [
+        {
+          "id": 113511,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Kakuma",
+            "full": "Ai Kakuma",
+            "native": "加隈亜衣",
+            "userPreferred": "Ai Kakuma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n113511-9zlSX9E2ne5G.jpg"
+        }
+      ]
+    },
+    {
+      "id": 177784,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jed",
+        "last": null,
+        "full": "Jed",
+        "native": "ジェド",
+        "userPreferred": "Jed"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b177784-vq1mB1HywThQ.jpg",
+      "voiceActors": [
+        {
+          "id": 114639,
+          "language": "Japanese",
+          "name": {
+            "first": "Junichi",
+            "last": "Yanagita",
+            "full": "Junichi Yanagita",
+            "native": "柳田淳一",
+            "userPreferred": "Junichi Yanagita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n114639-m4NGkgcT7ss1.png"
+        }
+      ]
+    },
+    {
+      "id": 148849,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hinata",
+        "last": "Mukai",
+        "full": "Hinata Mukai",
+        "native": "ムカイ・ヒナタ",
+        "userPreferred": "Hinata Mukai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b148849-mqCu5ySlKExL.png",
+      "voiceActors": [
+        {
+          "id": 148220,
+          "language": "Japanese",
+          "name": {
+            "first": "Shion",
+            "last": "Wakayama",
+            "full": "Shion Wakayama",
+            "native": "若山詩音",
+            "userPreferred": "Shion Wakayama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n148220-VY4dx4JwvAer.png"
+        }
+      ]
+    },
+    {
+      "id": 177779,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tonoi",
+        "last": null,
+        "full": "Tonoi",
+        "native": "トノイ",
+        "userPreferred": "Tonoi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b177779-59oVbvtCUeIO.jpg",
+      "voiceActors": [
+        {
+          "id": 100280,
+          "language": "Japanese",
+          "name": {
+            "first": "Kan",
+            "last": "Tanaka",
+            "full": "Kan Tanaka",
+            "native": "田中完",
+            "userPreferred": "Kan Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100280-GsF9Q2rOs0d0.png"
+        }
+      ]
+    },
+    {
+      "id": 148857,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jiric",
+        "last": null,
+        "full": "Jiric",
+        "native": "ジリク",
+        "userPreferred": "Jiric"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b148857-jYMZYkPlTuDe.png",
+      "voiceActors": [
+        {
+          "id": 113545,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouichi",
+            "last": "Souma",
+            "full": "Kouichi Souma",
+            "native": "相馬康一",
+            "userPreferred": "Kouichi Souma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n113545-AiM4kzCRQROf.png"
+        }
+      ]
+    },
+    {
+      "id": 177783,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Osamu",
+        "last": "Kuga",
+        "full": "Osamu Kuga",
+        "native": "クガ・オサム",
+        "userPreferred": "Osamu Kuga"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b177783-BGxPNCiSNPlM.jpg",
+      "voiceActors": [
+        {
+          "id": 95527,
+          "language": "Japanese",
+          "name": {
+            "first": "Gou",
+            "last": "Inoue",
+            "full": "Gou Inoue",
+            "native": "井上剛",
+            "userPreferred": "Gou Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/527.jpg"
+        }
+      ]
+    },
+    {
+      "id": 177785,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Eve",
+        "last": null,
+        "full": "Eve",
+        "native": "イヴ",
+        "userPreferred": "Eve"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b177785-tLg8mlEtDtyY.jpg",
+      "voiceActors": [
+        {
+          "id": 106297,
+          "language": "Japanese",
+          "name": {
+            "first": "Inori",
+            "last": "Minase",
+            "full": "Inori Minase",
+            "native": "水瀬いのり",
+            "userPreferred": "Inori Minase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106297-KnzvgfxB1byY.png"
+        }
+      ]
+    },
+    {
+      "id": 177781,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Muran",
+        "last": null,
+        "full": "Muran",
+        "native": "ムラン",
+        "userPreferred": "Muran"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b177781-RRb76dvt3TAa.jpg",
+      "voiceActors": [
+        {
+          "id": 95410,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinji",
+            "last": "Kawada",
+            "full": "Shinji Kawada",
+            "native": "川田紳司",
+            "userPreferred": "Shinji Kawada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95410-AosJKUc7YZXE.jpg"
+        }
+      ]
+    },
+    {
+      "id": 177787,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Calico",
+        "last": null,
+        "full": "Calico",
+        "native": "カリコ",
+        "userPreferred": "Calico"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b177787-s8SaTVY6LFfi.jpg",
+      "voiceActors": [
+        {
+          "id": 127044,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouji",
+            "last": "Okino",
+            "full": "Kouji Okino",
+            "native": "沖野晃司",
+            "userPreferred": "Kouji Okino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n127044-YGqvBYZ6ZfG2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 148854,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Asha",
+        "last": null,
+        "full": "Asha",
+        "native": "アシャ",
+        "userPreferred": "Asha"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b148854-Byj10CrAIs0N.png",
+      "voiceActors": [
+        {
+          "id": 119154,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Takada",
+            "full": "Yuuki Takada",
+            "native": "高田憂希",
+            "userPreferred": "Yuuki Takada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119154-x2un4m4ECxn4.png"
+        }
+      ]
+    },
+    {
+      "id": 177778,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Zabun",
+        "last": null,
+        "full": "Zabun",
+        "native": "ザブン",
+        "userPreferred": "Zabun"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b177778-VVz8ux2bfd3p.jpg",
+      "voiceActors": [
+        {
+          "id": 120276,
+          "language": "Japanese",
+          "name": {
+            "first": "Shunichi",
+            "last": "Maki",
+            "full": "Shunichi Maki",
+            "native": "真木駿一",
+            "userPreferred": "Shunichi Maki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n120276-CPmQg72991Yr.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 110786,
+      "relationType": "PREQUEL",
+      "malId": 40192,
+      "title": {
+        "romaji": "Gundam Build Divers Re:RISE",
+        "english": "Gundam Build Divers Re:RISE",
+        "native": "ガンダムビルドダイバーズRe:RISE",
+        "userPreferred": "Gundam Build Divers Re:RISE"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110786-fkPT1rFx9VFU.png",
+      "color": "#5de4f1",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110786-fkPT1rFx9VFU.png",
+      "rating": 68
+    },
+    {
+      "id": 126662,
+      "relationType": "SEQUEL",
+      "malId": 44050,
+      "title": {
+        "romaji": "Gundam Build Divers Battlogue",
+        "english": null,
+        "native": "ガンダムビルドダイバーズ バトローグ",
+        "userPreferred": "Gundam Build Divers Battlogue"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b126662-b7uVrmrOHFeW.jpg",
+      "color": "#f1a128",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b126662-b7uVrmrOHFeW.jpg",
+      "rating": 64
+    }
+  ],
+  "episodes": [
+    {
+      "id": "gundam-build-divers-rerise-2nd-season-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114233-FUlAGLqFOVrT.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gundam-build-divers-rerise-2nd-season-episode-1"
+    },
+    {
+      "id": "gundam-build-divers-rerise-2nd-season-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114233-FUlAGLqFOVrT.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gundam-build-divers-rerise-2nd-season-episode-2"
+    },
+    {
+      "id": "gundam-build-divers-rerise-2nd-season-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114233-FUlAGLqFOVrT.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gundam-build-divers-rerise-2nd-season-episode-3"
+    },
+    {
+      "id": "gundam-build-divers-rerise-2nd-season-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114233-FUlAGLqFOVrT.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gundam-build-divers-rerise-2nd-season-episode-4"
+    },
+    {
+      "id": "gundam-build-divers-rerise-2nd-season-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114233-FUlAGLqFOVrT.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gundam-build-divers-rerise-2nd-season-episode-5"
+    },
+    {
+      "id": "gundam-build-divers-rerise-2nd-season-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114233-FUlAGLqFOVrT.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gundam-build-divers-rerise-2nd-season-episode-6"
+    },
+    {
+      "id": "gundam-build-divers-rerise-2nd-season-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114233-FUlAGLqFOVrT.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gundam-build-divers-rerise-2nd-season-episode-7"
+    },
+    {
+      "id": "gundam-build-divers-rerise-2nd-season-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114233-FUlAGLqFOVrT.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gundam-build-divers-rerise-2nd-season-episode-8"
+    },
+    {
+      "id": "gundam-build-divers-rerise-2nd-season-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114233-FUlAGLqFOVrT.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gundam-build-divers-rerise-2nd-season-episode-9"
+    },
+    {
+      "id": "gundam-build-divers-rerise-2nd-season-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114233-FUlAGLqFOVrT.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gundam-build-divers-rerise-2nd-season-episode-10"
+    },
+    {
+      "id": "gundam-build-divers-rerise-2nd-season-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114233-FUlAGLqFOVrT.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gundam-build-divers-rerise-2nd-season-episode-11"
+    },
+    {
+      "id": "gundam-build-divers-rerise-2nd-season-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114233-FUlAGLqFOVrT.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gundam-build-divers-rerise-2nd-season-episode-12"
+    },
+    {
+      "id": "gundam-build-divers-rerise-2nd-season-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114233-FUlAGLqFOVrT.jpg",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gundam-build-divers-rerise-2nd-season-episode-13"
+    }
+  ]
+}

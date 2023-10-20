@@ -1,0 +1,944 @@
+{
+  "id": "101267",
+  "title": {
+    "romaji": "Cinderella Girls Gekijou 3rd Season",
+    "english": "THE IDOLM@STER CINDERELLA GIRLS Theater 3rd Season",
+    "native": "シンデレラガールズ劇場 第3期"
+  },
+  "malId": 37422,
+  "synonyms": [
+    "Cingeki"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101267-5brbONhJSSlO.png",
+  "popularity": 2348,
+  "color": "#43aef1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101267-5brbONhJSSlO.png",
+  "description": "The third season of <i>Cinderella Girls Gekijou</i>.",
+  "status": "Completed",
+  "releaseDate": 2018,
+  "startDate": {
+    "year": 2018,
+    "month": 7,
+    "day": 3
+  },
+  "endDate": {
+    "year": 2018,
+    "month": 9,
+    "day": 25
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 64,
+  "duration": 3,
+  "genres": [
+    "Comedy",
+    "Music",
+    "Slice of Life"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Gathering"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 135171,
+      "malId": 49123,
+      "title": {
+        "romaji": "BanG Dream! Garupa☆Pico Fever!",
+        "english": "BanG Dream! Girls Band Party!☆PICO FEVER!",
+        "native": "BanG Dream! ガルパ☆ピコ ふぃーばー！",
+        "userPreferred": "BanG Dream! Garupa☆Pico Fever!"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135171-prqopjfpm21S.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/135171-ILctKrGrmLSB.jpg",
+      "rating": 77,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 128563,
+      "malId": 45782,
+      "title": {
+        "romaji": "♪D4DJ Petit Mix",
+        "english": "D4DJ Petit Mix",
+        "native": "ぷっちみく♪D4DJ Petit Mix",
+        "userPreferred": "♪D4DJ Petit Mix"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx128563-5KhOY54B1Mpy.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/128563-gOCp70XTXLU0.jpg",
+      "rating": 68,
+      "type": "TV_SHORT"
+    }
+  ],
+  "characters": [
+    {
+      "id": 129276,
+      "role": "MAIN",
+      "name": {
+        "first": "Nao",
+        "last": "Kamiya",
+        "full": "Nao Kamiya",
+        "native": "神谷奈緒",
+        "userPreferred": "Nao Kamiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b129276-F3TiA4qXulvP.png",
+      "voiceActors": [
+        {
+          "id": 115835,
+          "language": "Japanese",
+          "name": {
+            "first": "Eriko",
+            "last": "Matsui",
+            "full": "Eriko Matsui",
+            "native": "松井恵理子",
+            "userPreferred": "Eriko Matsui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n115835-3uhE3pEKEsEN.png"
+        }
+      ]
+    },
+    {
+      "id": 129293,
+      "role": "MAIN",
+      "name": {
+        "first": "Syuko",
+        "last": "Shiomi",
+        "full": "Syuko Shiomi",
+        "native": "塩見周子",
+        "userPreferred": "Syuko Shiomi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b129293-JXrzPNmq5ats.png",
+      "voiceActors": [
+        {
+          "id": 129315,
+          "language": "Japanese",
+          "name": {
+            "first": "Ru",
+            "last": "Thing",
+            "full": "Ru Thing",
+            "native": "ルゥティン",
+            "userPreferred": "Ru Thing"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n129315-tYs68mMi87Qf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 129294,
+      "role": "MAIN",
+      "name": {
+        "first": "Haru",
+        "last": "Yuuki",
+        "full": "Haru Yuuki",
+        "native": "結城晴",
+        "userPreferred": "Haru Yuuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b129294-tjLBCtYdSOA2.png",
+      "voiceActors": [
+        {
+          "id": 129325,
+          "language": "Japanese",
+          "name": {
+            "first": "Makoto",
+            "last": "Koichi",
+            "full": "Makoto Koichi",
+            "native": "小市眞琴",
+            "userPreferred": "Makoto Koichi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n129325-RhR0e5aA6Yj5.png"
+        }
+      ]
+    },
+    {
+      "id": 129284,
+      "role": "MAIN",
+      "name": {
+        "first": "Tomoe ",
+        "last": "Murakami",
+        "full": "Tomoe  Murakami",
+        "native": "村上巴",
+        "userPreferred": "Tomoe  Murakami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b129284-9ZrrfXgYocgy.png",
+      "voiceActors": [
+        {
+          "id": 121455,
+          "language": "Japanese",
+          "name": {
+            "first": "Miharu",
+            "last": "Hanai",
+            "full": "Miharu Hanai",
+            "native": "花井美春",
+            "userPreferred": "Miharu Hanai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n121455-VHoKmxk3tITu.png"
+        }
+      ]
+    },
+    {
+      "id": 71273,
+      "role": "MAIN",
+      "name": {
+        "first": "Rin",
+        "last": "Shibuya",
+        "full": "Rin Shibuya",
+        "native": "渋谷凛",
+        "userPreferred": "Rin Shibuya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b71273-zXfBpQK9zQko.png",
+      "voiceActors": [
+        {
+          "id": 117223,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayaka",
+            "last": "Fukuhara",
+            "full": "Ayaka Fukuhara",
+            "native": "福原綾香",
+            "userPreferred": "Ayaka Fukuhara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n117223-vZXqGnmQhUEO.png"
+        }
+      ]
+    },
+    {
+      "id": 129268,
+      "role": "MAIN",
+      "name": {
+        "first": "Mizuki",
+        "last": "Kawashima",
+        "full": "Mizuki Kawashima",
+        "native": "川島瑞樹",
+        "userPreferred": "Mizuki Kawashima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b129268-EBWrFmXkAV0q.png",
+      "voiceActors": [
+        {
+          "id": 106184,
+          "language": "Japanese",
+          "name": {
+            "first": "Nao",
+            "last": "Touyama",
+            "full": "Nao Touyama",
+            "native": "東山奈央",
+            "userPreferred": "Nao Touyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106184-rFA0sHFJrbk4.png"
+        }
+      ]
+    },
+    {
+      "id": 129281,
+      "role": "MAIN",
+      "name": {
+        "first": "Miyu",
+        "last": "Mifune",
+        "full": "Miyu Mifune",
+        "native": "三船美優",
+        "userPreferred": "Miyu Mifune"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b129281-B6g671eAeqAp.png",
+      "voiceActors": [
+        {
+          "id": 121049,
+          "language": "Japanese",
+          "name": {
+            "first": "Sayaka",
+            "last": "Harada",
+            "full": "Sayaka Harada",
+            "native": "原田彩楓",
+            "userPreferred": "Sayaka Harada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n121049-R3O74zAFacxv.png"
+        }
+      ]
+    },
+    {
+      "id": 129277,
+      "role": "MAIN",
+      "name": {
+        "first": "Arisu",
+        "last": "Tachibana",
+        "full": "Arisu Tachibana",
+        "native": "橘ありす",
+        "userPreferred": "Arisu Tachibana"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b129277-Q8PcGzEmJ31J.png",
+      "voiceActors": [
+        {
+          "id": 107625,
+          "language": "Japanese",
+          "name": {
+            "first": "Amina",
+            "last": "Satou",
+            "full": "Amina Satou",
+            "native": "佐藤亜美菜",
+            "userPreferred": "Amina Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107625-9lAsFqEglp1Q.png"
+        }
+      ]
+    },
+    {
+      "id": 70883,
+      "role": "MAIN",
+      "name": {
+        "first": "Uzuki",
+        "last": "Shimamura",
+        "full": "Uzuki Shimamura",
+        "native": "島村卯月",
+        "userPreferred": "Uzuki Shimamura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b70883-DreEmVe3UADs.png",
+      "voiceActors": [
+        {
+          "id": 110903,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayaka",
+            "last": "Oohashi",
+            "full": "Ayaka Oohashi",
+            "native": "大橋彩香",
+            "userPreferred": "Ayaka Oohashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n110903-GTQtkAs2pmO5.png"
+        }
+      ]
+    },
+    {
+      "id": 137663,
+      "role": "MAIN",
+      "name": {
+        "first": "Kyoko",
+        "last": "Igarashi",
+        "full": "Kyoko Igarashi",
+        "native": "五十嵐響子",
+        "userPreferred": "Kyoko Igarashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b137663-uq7VqypB8pje.png",
+      "voiceActors": [
+        {
+          "id": 112215,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsumi",
+            "last": "Tanezaki",
+            "full": "Atsumi Tanezaki",
+            "native": "種﨑敦美",
+            "userPreferred": "Atsumi Tanezaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n112215-kfABGD8W2YSJ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 129285,
+      "role": "MAIN",
+      "name": {
+        "first": "Mirei",
+        "last": "Hayasaka",
+        "full": "Mirei Hayasaka",
+        "native": "早坂美玲",
+        "userPreferred": "Mirei Hayasaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b129285-xxfUUnm4rAgO.jpg",
+      "voiceActors": [
+        {
+          "id": 118939,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayaka",
+            "last": "Asai",
+            "full": "Ayaka Asai",
+            "native": "朝井彩加",
+            "userPreferred": "Ayaka Asai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118939-6W4V2P4JL6QH.png"
+        }
+      ]
+    },
+    {
+      "id": 75002,
+      "role": "MAIN",
+      "name": {
+        "first": "Nina",
+        "last": "Ichihara",
+        "full": "Nina Ichihara",
+        "native": "市原仁奈",
+        "userPreferred": "Nina Ichihara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b75002-X3i8oiTu3irk.png",
+      "voiceActors": [
+        {
+          "id": 106641,
+          "language": "Japanese",
+          "name": {
+            "first": "Misaki",
+            "last": "Kuno",
+            "full": "Misaki Kuno",
+            "native": "久野美咲",
+            "userPreferred": "Misaki Kuno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106641-zsyRkJ74NXvE.png"
+        }
+      ]
+    },
+    {
+      "id": 129300,
+      "role": "MAIN",
+      "name": {
+        "first": "Tamami",
+        "last": "Wakiyama",
+        "full": "Tamami Wakiyama",
+        "native": "脇山珠美",
+        "userPreferred": "Tamami Wakiyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b129300-fIz0aTQSZoQS.png",
+      "voiceActors": [
+        {
+          "id": 129324,
+          "language": "Japanese",
+          "name": {
+            "first": "Misa",
+            "last": "Kayama",
+            "full": "Misa Kayama",
+            "native": "嘉山未紗",
+            "userPreferred": "Misa Kayama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n129324-Wa1Z0cOgx2TF.png"
+        }
+      ]
+    },
+    {
+      "id": 78121,
+      "role": "MAIN",
+      "name": {
+        "first": "Mika",
+        "last": "Jougasaki",
+        "full": "Mika Jougasaki",
+        "native": "城ヶ崎美嘉",
+        "userPreferred": "Mika Jougasaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b78121-QLKIdJBjSawx.jpg",
+      "voiceActors": [
+        {
+          "id": 118914,
+          "language": "Japanese",
+          "name": {
+            "first": "Haruka",
+            "last": "Yoshimura",
+            "full": "Haruka Yoshimura",
+            "native": "佳村はるか",
+            "userPreferred": "Haruka Yoshimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118914-y5SToHdnK2uZ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 120773,
+      "role": "MAIN",
+      "name": {
+        "first": "Syoko",
+        "last": "Hoshi",
+        "full": "Syoko Hoshi",
+        "native": "星輝子",
+        "userPreferred": "Syoko Hoshi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b120773-xDDa2saZJazx.png",
+      "voiceActors": [
+        {
+          "id": 119959,
+          "language": "Japanese",
+          "name": {
+            "first": "Satsumi",
+            "last": "Matsuda",
+            "full": "Satsumi Matsuda",
+            "native": "松田颯水",
+            "userPreferred": "Satsumi Matsuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119959-dN9jj8PMUmiU.png"
+        }
+      ]
+    },
+    {
+      "id": 88909,
+      "role": "MAIN",
+      "name": {
+        "first": "Chieri",
+        "last": "Ogata",
+        "full": "Chieri Ogata",
+        "native": "緒方智絵里",
+        "userPreferred": "Chieri Ogata"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b88909-j4M0tRi2KHdq.png",
+      "voiceActors": [
+        {
+          "id": 117329,
+          "language": "Japanese",
+          "name": {
+            "first": "Naomi",
+            "last": "Oozora",
+            "full": "Naomi Oozora",
+            "native": "大空直美",
+            "userPreferred": "Naomi Oozora"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n117329-lF0lh3HMfjRd.jpg"
+        }
+      ]
+    },
+    {
+      "id": 71275,
+      "role": "MAIN",
+      "name": {
+        "first": "Mio",
+        "last": "Honda",
+        "full": "Mio Honda",
+        "native": "本田未央",
+        "userPreferred": "Mio Honda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b71275-he7wDOs5MUXd.jpg",
+      "voiceActors": [
+        {
+          "id": 107013,
+          "language": "Japanese",
+          "name": {
+            "first": "Sayuri",
+            "last": "Hara",
+            "full": "Sayuri Hara",
+            "native": "原紗友里",
+            "userPreferred": "Sayuri Hara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107013-4CjqalfRRmg9.png"
+        }
+      ]
+    },
+    {
+      "id": 129273,
+      "role": "MAIN",
+      "name": {
+        "first": "Yuki",
+        "last": "Himekawa",
+        "full": "Yuki Himekawa",
+        "native": "姫川友紀",
+        "userPreferred": "Yuki Himekawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b129273-DSW1OHz4f9sb.png",
+      "voiceActors": [
+        {
+          "id": 119435,
+          "language": "Japanese",
+          "name": {
+            "first": "Mako",
+            "last": "Morino",
+            "full": "Mako Morino",
+            "native": "杜野まこ",
+            "userPreferred": "Mako Morino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/24435-z5f9Aac9vR6S.jpg"
+        }
+      ]
+    },
+    {
+      "id": 75008,
+      "role": "MAIN",
+      "name": {
+        "first": "Riina",
+        "last": "Tada",
+        "full": "Riina Tada",
+        "native": "多田李衣菜",
+        "userPreferred": "Riina Tada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/75008-vc1FvC9e3qAS.png",
+      "voiceActors": [
+        {
+          "id": 119922,
+          "language": "Japanese",
+          "name": {
+            "first": "Ruriko",
+            "last": "Aoki",
+            "full": "Ruriko Aoki",
+            "native": "青木瑠璃子",
+            "userPreferred": "Ruriko Aoki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/24922-GZMYC1vTwn4W.jpg"
+        }
+      ]
+    },
+    {
+      "id": 121282,
+      "role": "MAIN",
+      "name": {
+        "first": "Fumika",
+        "last": "Sagisawa",
+        "full": "Fumika Sagisawa",
+        "native": "鷺沢文香",
+        "userPreferred": "Fumika Sagisawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b121282-Qa0MVaVGnQks.png",
+      "voiceActors": [
+        {
+          "id": 118510,
+          "language": "Japanese",
+          "name": {
+            "first": "Mao",
+            "last": "Ichimichi",
+            "full": "Mao Ichimichi",
+            "native": "市道真央",
+            "userPreferred": "Mao Ichimichi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118510-iMUv5D7W99C1.png"
+        }
+      ]
+    },
+    {
+      "id": 121169,
+      "role": "MAIN",
+      "name": {
+        "first": "Mayu",
+        "last": "Sakuma",
+        "full": "Mayu Sakuma",
+        "native": "佐久間まゆ",
+        "userPreferred": "Mayu Sakuma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b121169-QhNFu7bi6u5V.png",
+      "voiceActors": [
+        {
+          "id": 95089,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Makino",
+            "full": "Yui Makino",
+            "native": "牧野由依",
+            "userPreferred": "Yui Makino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95089-DCoCxSfkD1HC.png"
+        }
+      ]
+    },
+    {
+      "id": 78117,
+      "role": "MAIN",
+      "name": {
+        "first": "Karen",
+        "last": "Hojo",
+        "full": "Karen Hojo",
+        "native": "北条加蓮",
+        "userPreferred": "Karen Hojo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b78117-QjYaQ4S3QQ4S.png",
+      "voiceActors": [
+        {
+          "id": 104593,
+          "language": "Japanese",
+          "name": {
+            "first": "Mai",
+            "last": "Fuchigami",
+            "full": "Mai Fuchigami",
+            "native": "渕上舞",
+            "userPreferred": "Mai Fuchigami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104593-yZz5rvm3oIXH.png"
+        }
+      ]
+    },
+    {
+      "id": 129279,
+      "role": "MAIN",
+      "name": {
+        "first": "Yuka",
+        "last": "Nakano",
+        "full": "Yuka Nakano",
+        "native": "中野有香",
+        "userPreferred": "Yuka Nakano"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b129279-CBMgbck1xF4m.png",
+      "voiceActors": [
+        {
+          "id": 118841,
+          "language": "Japanese",
+          "name": {
+            "first": "Shino",
+            "last": "Shimoji",
+            "full": "Shino Shimoji",
+            "native": "下地紫野",
+            "userPreferred": "Shino Shimoji"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118841-X6nIv6aMxf0m.png"
+        }
+      ]
+    },
+    {
+      "id": 129299,
+      "role": "MAIN",
+      "name": {
+        "first": "Asuka",
+        "last": "Ninomiya",
+        "full": "Asuka Ninomiya",
+        "native": "二宮飛鳥",
+        "userPreferred": "Asuka Ninomiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b129299-mZeC1aEzJvLu.png",
+      "voiceActors": [
+        {
+          "id": 129329,
+          "language": "Japanese",
+          "name": {
+            "first": "Shiki",
+            "last": "Aoki",
+            "full": "Shiki Aoki",
+            "native": "青木志貴",
+            "userPreferred": "Shiki Aoki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n129329-ij7ziHZt7CsE.png"
+        }
+      ]
+    },
+    {
+      "id": 88908,
+      "role": "MAIN",
+      "name": {
+        "first": "Minami",
+        "last": "Nitta",
+        "full": "Minami Nitta",
+        "native": "新田美波",
+        "userPreferred": "Minami Nitta"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b88908-JilW2JtZPrTZ.png",
+      "voiceActors": [
+        {
+          "id": 114834,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Suzaki",
+            "full": "Aya Suzaki",
+            "native": "洲崎綾",
+            "userPreferred": "Aya Suzaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n114834-WWHMBVvu2Lzu.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 99742,
+      "relationType": "PREQUEL",
+      "malId": 35883,
+      "title": {
+        "romaji": "Cinderella Girls Gekijou 2nd Season",
+        "english": "THE iDOLM@STER CINDERELLA GIRLS Theater 2nd Season (TV)",
+        "native": "シンデレラガールズ劇場 2期",
+        "userPreferred": "Cinderella Girls Gekijou 2nd Season"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99742-duoJA5BKNBNe.jpg",
+      "color": "#4393ff",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99742-duoJA5BKNBNe.jpg",
+      "rating": 66
+    },
+    {
+      "id": 102184,
+      "relationType": "ADAPTATION",
+      "malId": 107016,
+      "title": {
+        "romaji": "Cinderella Girls Gekijou",
+        "english": null,
+        "native": "シンデレラガールズ劇場",
+        "userPreferred": "Cinderella Girls Gekijou"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx102184-UDhLpEN3e5kQ.jpg",
+      "color": "#e48628",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/102184-LloulDLPLhCq.jpg",
+      "rating": 72
+    },
+    {
+      "id": 103311,
+      "relationType": "SIDE_STORY",
+      "malId": 37424,
+      "title": {
+        "romaji": "Cinderella Girls Gekijou: Kayou Cinderella Theater 3rd Season",
+        "english": null,
+        "native": "シンデレラガールズ劇場 火曜シンデレラシアター 第3期",
+        "userPreferred": "Cinderella Girls Gekijou: Kayou Cinderella Theater 3rd Season"
+      },
+      "status": "Completed",
+      "episodes": 7,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx103311-yKbEw1PwJPmt.jpg",
+      "color": "#35a1e4",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx103311-yKbEw1PwJPmt.jpg",
+      "rating": 63
+    },
+    {
+      "id": 105962,
+      "relationType": "SEQUEL",
+      "malId": 38767,
+      "title": {
+        "romaji": "Cinderella Girls Gekijou CLIMAX SEASON",
+        "english": null,
+        "native": "アイドルマスター シンデレラガールズ劇場CLIMAX SEASON",
+        "userPreferred": "Cinderella Girls Gekijou CLIMAX SEASON"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b105962-ftNGhs8OKPD7.png",
+      "color": "#ffd635",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b105962-ftNGhs8OKPD7.png",
+      "rating": 65
+    },
+    {
+      "id": 122207,
+      "relationType": "SIDE_STORY",
+      "malId": 38211,
+      "title": {
+        "romaji": "Cinderella Girls Gekijou 3rd Season Specials",
+        "english": null,
+        "native": "シンデレラガールズ劇場 3期 スペシャル",
+        "userPreferred": "Cinderella Girls Gekijou 3rd Season Specials"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx122207-rcdYVjS7t3bQ.jpg",
+      "color": "#fef150",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx122207-rcdYVjS7t3bQ.jpg",
+      "rating": 57
+    }
+  ],
+  "episodes": [
+    {
+      "id": "cinderella-girls-gekijou-3rd-season-episode-1",
+      "title": "Pinky Swear Gently",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101267-5brbONhJSSlO.png",
+      "number": 1,
+      "createdAt": "2018-07-06T18:07:32Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//cinderella-girls-gekijou-3rd-season-episode-1"
+    },
+    {
+      "id": "cinderella-girls-gekijou-3rd-season-episode-2",
+      "title": "Where Used Articles Go",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101267-5brbONhJSSlO.png",
+      "number": 2,
+      "createdAt": "2018-07-06T18:07:32Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//cinderella-girls-gekijou-3rd-season-episode-2"
+    },
+    {
+      "id": "cinderella-girls-gekijou-3rd-season-episode-3",
+      "title": "I Sometimes Forget",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101267-5brbONhJSSlO.png",
+      "number": 3,
+      "createdAt": "2018-07-06T18:07:33Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//cinderella-girls-gekijou-3rd-season-episode-3"
+    },
+    {
+      "id": "cinderella-girls-gekijou-3rd-season-episode-4",
+      "title": "Do You Want to Hear Me Out?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101267-5brbONhJSSlO.png",
+      "number": 4,
+      "createdAt": "2018-07-06T18:07:33Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//cinderella-girls-gekijou-3rd-season-episode-4"
+    },
+    {
+      "id": "cinderella-girls-gekijou-3rd-season-episode-5",
+      "title": "What Are You Talking About?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101267-5brbONhJSSlO.png",
+      "number": 5,
+      "createdAt": "2018-07-06T18:07:33Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//cinderella-girls-gekijou-3rd-season-episode-5"
+    },
+    {
+      "id": "cinderella-girls-gekijou-3rd-season-episode-6",
+      "title": "Fre-song Special Version",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101267-5brbONhJSSlO.png",
+      "number": 6,
+      "createdAt": "2018-07-06T18:07:33Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//cinderella-girls-gekijou-3rd-season-episode-6"
+    },
+    {
+      "id": "cinderella-girls-gekijou-3rd-season-episode-7",
+      "title": "Rin-chan Has Talent",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101267-5brbONhJSSlO.png",
+      "number": 7,
+      "createdAt": "2018-07-06T18:07:33Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//cinderella-girls-gekijou-3rd-season-episode-7"
+    },
+    {
+      "id": "cinderella-girls-gekijou-3rd-season-episode-8",
+      "title": "The Summer's Night Sky and the Maiden's Cry | The Summer's Night Sky and the Maiden's Scream | Wishing Upon the Summer's Night Sky",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101267-5brbONhJSSlO.png",
+      "number": 8,
+      "createdAt": "2018-06-04T05:20:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//cinderella-girls-gekijou-3rd-season-episode-8"
+    },
+    {
+      "id": "cinderella-girls-gekijou-3rd-season-episode-9",
+      "title": "I Do Like Dirt, After All | Girly Today | Wish Fulfilled Just a Bit",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101267-5brbONhJSSlO.png",
+      "number": 9,
+      "createdAt": "2018-06-04T05:20:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//cinderella-girls-gekijou-3rd-season-episode-9"
+    },
+    {
+      "id": "cinderella-girls-gekijou-3rd-season-episode-10",
+      "title": "I Didn't Run Away! | It Didn't Come Out... | I Recommend Her Too",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101267-5brbONhJSSlO.png",
+      "number": 10,
+      "createdAt": "2018-06-04T05:20:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//cinderella-girls-gekijou-3rd-season-episode-10"
+    },
+    {
+      "id": "cinderella-girls-gekijou-3rd-season-episode-11",
+      "title": "Kanako and Kaede's Wandering Hot Springs Trip | Like That Light | Like Pouring Water Over Yourself",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101267-5brbONhJSSlO.png",
+      "number": 11,
+      "createdAt": "2018-06-04T05:20:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//cinderella-girls-gekijou-3rd-season-episode-11"
+    },
+    {
+      "id": "cinderella-girls-gekijou-3rd-season-episode-12",
+      "title": "Chieri Round and Round | Kirari of the Autumn Forest | Lost in Thought in Autumn",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101267-5brbONhJSSlO.png",
+      "number": 12,
+      "createdAt": "2018-06-04T05:20:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//cinderella-girls-gekijou-3rd-season-episode-12"
+    },
+    {
+      "id": "cinderella-girls-gekijou-3rd-season-episode-13",
+      "title": "Flower Fairies Mage Floral Yumi",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101267-5brbONhJSSlO.png",
+      "number": 13,
+      "createdAt": "2018-06-04T05:20:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//cinderella-girls-gekijou-3rd-season-episode-13"
+    }
+  ]
+}

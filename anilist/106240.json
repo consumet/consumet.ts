@@ -1,0 +1,780 @@
+{
+  "id": "106240",
+  "title": {
+    "romaji": "HELLO WORLD",
+    "english": null,
+    "native": "HELLO WORLD"
+  },
+  "malId": 38816,
+  "synonyms": [
+    "ハロー・ワールド"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "shoWFRnNoWw",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/shoWFRnNoWw/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx106240-XeWQ4YhKzv7h.png",
+  "popularity": 66558,
+  "color": "#f1c9a1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/106240-aRO9crHZda8S.jpg",
+  "description": "In Kyoto in the year 2027, Naomi Katagaki, a male high school student encounters a person who is claiming to be Naomi from 10 years in the future. Together, they must change the future and save a classmate, Ruri, whom the younger Naomi starts to date in three months.",
+  "status": "Completed",
+  "releaseDate": 2019,
+  "startDate": {
+    "year": 2019,
+    "month": 9,
+    "day": 20
+  },
+  "endDate": {
+    "year": 2019,
+    "month": 9,
+    "day": 20
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 73,
+  "duration": 98,
+  "genres": [
+    "Drama",
+    "Psychological",
+    "Romance",
+    "Sci-Fi"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Graphinica"
+  ],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [
+    {
+      "id": 106286,
+      "malId": 38826,
+      "title": {
+        "romaji": "Tenki no Ko",
+        "english": "Weathering With You",
+        "native": "天気の子",
+        "userPreferred": "Tenki no Ko"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx106286-5COcpd0J9VbL.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/106286-3oKwiwjd7Wkm.jpg",
+      "rating": 81,
+      "type": "MOVIE"
+    },
+    {
+      "id": 97908,
+      "malId": 34498,
+      "title": {
+        "romaji": "Uchiage Hanabi, Shita kara Miru ka? Yoko kara Miru ka?",
+        "english": "Fireworks",
+        "native": "打ち上げ花火、下から見るか？横から見るか？",
+        "userPreferred": "Uchiage Hanabi, Shita kara Miru ka? Yoko kara Miru ka?"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97908-CbfTf71GjJjg.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97908-bOLWf1OwdRS7.png",
+      "rating": 59,
+      "type": "MOVIE"
+    },
+    {
+      "id": 104562,
+      "malId": 38464,
+      "title": {
+        "romaji": "Ashita Sekai ga Owaru toshitemo",
+        "english": "The Relative Worlds",
+        "native": "あした世界が終わるとしても",
+        "userPreferred": "Ashita Sekai ga Owaru toshitemo"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx104562-7qQr6Zcg6dhY.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx104562-7qQr6Zcg6dhY.jpg",
+      "rating": 60,
+      "type": "MOVIE"
+    },
+    {
+      "id": 21519,
+      "malId": 32281,
+      "title": {
+        "romaji": "Kimi no Na wa.",
+        "english": "Your Name.",
+        "native": "君の名は。",
+        "userPreferred": "Kimi no Na wa."
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21519-XIr3PeczUjjF.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21519-1ayMXgNlmByb.jpg",
+      "rating": 85,
+      "type": "MOVIE"
+    },
+    {
+      "id": 103643,
+      "malId": 37970,
+      "title": {
+        "romaji": "Yakusoku no Nanaya Matsuri",
+        "english": "Starlight Promises",
+        "native": "約束の七夜祭り",
+        "userPreferred": "Yakusoku no Nanaya Matsuri"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx103643-ZmJnBZGFmRag.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx103643-ZmJnBZGFmRag.png",
+      "rating": 63,
+      "type": "ONA"
+    },
+    {
+      "id": 20591,
+      "malId": 21845,
+      "title": {
+        "romaji": "Ushinawareta Mirai wo Motomete",
+        "english": "In Search of the Lost Future",
+        "native": "失われた未来を求めて",
+        "userPreferred": "Ushinawareta Mirai wo Motomete"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b20591-xeTJt8QoFCXA.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20591.jpg",
+      "rating": 62,
+      "type": "TV"
+    },
+    {
+      "id": 5681,
+      "malId": 5681,
+      "title": {
+        "romaji": "Summer Wars",
+        "english": "Summer Wars",
+        "native": "サマーウォーズ",
+        "userPreferred": "Summer Wars"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5681-3DmxUVn3grD0.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/5681-gANFEmT8uIFF.jpg",
+      "rating": 77,
+      "type": "MOVIE"
+    },
+    {
+      "id": 13391,
+      "malId": 13391,
+      "title": {
+        "romaji": "Rakuen Tsuihou: Expelled From Paradise",
+        "english": "Expelled From Paradise",
+        "native": "楽園追放 -Expelled From Paradise-",
+        "userPreferred": "Rakuen Tsuihou: Expelled From Paradise"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx13391-uj1wsF4E8mXO.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/13391-I4GeJZD2X1HS.jpg",
+      "rating": 70,
+      "type": "MOVIE"
+    },
+    {
+      "id": 120120,
+      "malId": 42249,
+      "title": {
+        "romaji": "Tokyo Revengers",
+        "english": "Tokyo Revengers",
+        "native": "東京リベンジャーズ",
+        "userPreferred": "Tokyo Revengers"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120120-mBmQUtMloszF.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/120120-UDYgoHA69peT.jpg",
+      "rating": 78,
+      "type": "TV"
+    },
+    {
+      "id": 101316,
+      "malId": 37497,
+      "title": {
+        "romaji": "Irozuku Sekai no Ashita kara",
+        "english": "IRODUKU: The World in Colors",
+        "native": "色づく世界の明日から",
+        "userPreferred": "Irozuku Sekai no Ashita kara"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101316-yI1ZvMrsDUn9.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n101316-UpEVwWWyOx1i.jpg",
+      "rating": 73,
+      "type": "TV"
+    },
+    {
+      "id": 142455,
+      "malId": 50549,
+      "title": {
+        "romaji": "Bubble",
+        "english": "Bubble",
+        "native": "バブル",
+        "userPreferred": "Bubble"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142455-0QwdqZahKC8A.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/142455-HCT4izfAzmcw.jpg",
+      "rating": 71,
+      "type": "ONA"
+    },
+    {
+      "id": 127911,
+      "malId": 45613,
+      "title": {
+        "romaji": "Kawaii dake ja Nai Shikimori-san",
+        "english": "Shikimori's Not Just a Cutie",
+        "native": "可愛いだけじゃない式守さん",
+        "userPreferred": "Kawaii dake ja Nai Shikimori-san"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx127911-cQVL0dhldFwn.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/127911-YRSP7vuUy801.jpg",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 1689,
+      "malId": 1689,
+      "title": {
+        "romaji": "Byousoku 5 Centimeter",
+        "english": "5 Centimeters per Second",
+        "native": "秒速５センチメートル",
+        "userPreferred": "Byousoku 5 Centimeter"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1689-hlkAI78WBahK.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1689.jpg",
+      "rating": 72,
+      "type": "MOVIE"
+    },
+    {
+      "id": 139311,
+      "malId": 49835,
+      "title": {
+        "romaji": "Kimi wo Aishita Hitori no Boku e",
+        "english": "To Me, The One Who Loved You",
+        "native": "君を愛したひとりの僕へ",
+        "userPreferred": "Kimi wo Aishita Hitori no Boku e"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx139311-5iHY459iwQ46.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx139311-5iHY459iwQ46.jpg",
+      "rating": 72,
+      "type": "MOVIE"
+    },
+    {
+      "id": 32,
+      "malId": 32,
+      "title": {
+        "romaji": "Shin Seiki Evangelion Movie: Air / Magokoro wo, Kimi ni",
+        "english": "Neon Genesis Evangelion: The End of Evangelion",
+        "native": "新世紀エヴァンゲリオン劇場版 Air/まごころを、君に",
+        "userPreferred": "Shin Seiki Evangelion Movie: Air / Magokoro wo, Kimi ni"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx32-i4ijZI4MuPiV.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n32-BH9yHJBQqeOa.jpg",
+      "rating": 85,
+      "type": "MOVIE"
+    },
+    {
+      "id": 139310,
+      "malId": 49834,
+      "title": {
+        "romaji": "Boku ga Aishita Subete no Kimi e",
+        "english": "To Every You I’ve Loved Before",
+        "native": "僕が愛したすべての君へ",
+        "userPreferred": "Boku ga Aishita Subete no Kimi e"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx139310-OM1RKpk5YH7g.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx139310-OM1RKpk5YH7g.jpg",
+      "rating": 73,
+      "type": "MOVIE"
+    },
+    {
+      "id": 142769,
+      "malId": 50593,
+      "title": {
+        "romaji": "Natsu e no Tunnel, Sayonara no Deguchi",
+        "english": "The Tunnel to Summer, the Exit of Goodbyes",
+        "native": "夏へのトンネル、さよならの出口",
+        "userPreferred": "Natsu e no Tunnel, Sayonara no Deguchi"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142769-kNyyqpwC9gGV.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142769-kNyyqpwC9gGV.jpg",
+      "rating": 78,
+      "type": "MOVIE"
+    },
+    {
+      "id": 127271,
+      "malId": 44807,
+      "title": {
+        "romaji": "Ryuu to Sobakasu no Hime",
+        "english": "BELLE",
+        "native": "竜とそばかすの姫",
+        "userPreferred": "Ryuu to Sobakasu no Hime"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx127271-juJIu4WFTM8q.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/127271-PYK1XpL5Ha90.jpg",
+      "rating": 74,
+      "type": "MOVIE"
+    }
+  ],
+  "characters": [
+    {
+      "id": 142129,
+      "role": "MAIN",
+      "name": {
+        "first": "Naomi",
+        "last": "Katagaki",
+        "full": "Naomi Katagaki",
+        "native": "カタガキナオミ",
+        "userPreferred": "Naomi Katagaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b142129-xMceYebBgmUb.png",
+      "voiceActors": [
+        {
+          "id": 109301,
+          "language": "Japanese",
+          "name": {
+            "first": "Toori",
+            "last": "Matsuzaka",
+            "full": "Toori Matsuzaka",
+            "native": "松坂桃李",
+            "userPreferred": "Toori Matsuzaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14301.jpg"
+        },
+        {
+          "id": 258941,
+          "language": "Italian",
+          "name": {
+            "first": "Gabriele",
+            "last": "Vender",
+            "full": "Gabriele Vender",
+            "native": null,
+            "userPreferred": "Gabriele Vender"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n258941-ZNGIqMxtlqW9.jpg"
+        },
+        {
+          "id": 141777,
+          "language": "German",
+          "name": {
+            "first": "Florian",
+            "last": "Clyde",
+            "full": "Florian Clyde",
+            "native": null,
+            "userPreferred": "Florian Clyde"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n141777-pEKyyYBPC0Vq.jpg"
+        }
+      ]
+    },
+    {
+      "id": 142131,
+      "role": "MAIN",
+      "name": {
+        "first": "Ruri",
+        "last": "Ichigyou",
+        "full": "Ruri Ichigyou",
+        "native": "一行瑠璃",
+        "userPreferred": "Ruri Ichigyou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b142131-tPOm5OKo9Yof.jpg",
+      "voiceActors": [
+        {
+          "id": 137655,
+          "language": "Japanese",
+          "name": {
+            "first": "Minami",
+            "last": "Hamabe",
+            "full": "Minami Hamabe",
+            "native": "浜辺美波",
+            "userPreferred": "Minami Hamabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n137655-iXGDlyH1P1Y7.jpg"
+        },
+        {
+          "id": 172670,
+          "language": "Italian",
+          "name": {
+            "first": "Agnese",
+            "last": "Marteddu",
+            "full": "Agnese Marteddu",
+            "native": null,
+            "userPreferred": "Agnese Marteddu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n172670-tePMCHl99gTw.png"
+        },
+        {
+          "id": 156683,
+          "language": "German",
+          "name": {
+            "first": "Alina",
+            "last": "Freund",
+            "full": "Alina Freund",
+            "native": null,
+            "userPreferred": "Alina Freund"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n156683-N3fTP37CUzW6.jpg"
+        }
+      ]
+    },
+    {
+      "id": 142133,
+      "role": "MAIN",
+      "name": {
+        "first": "Naomi",
+        "last": "Katagaki",
+        "full": "Naomi Katagaki",
+        "native": "堅書直実",
+        "userPreferred": "Naomi Katagaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b142133-PnSHMPGyggnU.jpg",
+      "voiceActors": [
+        {
+          "id": 142134,
+          "language": "Japanese",
+          "name": {
+            "first": "Takumi",
+            "last": "Kitamura",
+            "full": "Takumi Kitamura",
+            "native": "北村匠海",
+            "userPreferred": "Takumi Kitamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n142134-wLZtkNQ4uJMY.jpg"
+        },
+        {
+          "id": 183879,
+          "language": "Italian",
+          "name": {
+            "first": "Mirko",
+            "last": "Cannella",
+            "full": "Mirko Cannella",
+            "native": null,
+            "userPreferred": "Mirko Cannella"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n183879-UNOjvH1GjwLj.jpg"
+        },
+        {
+          "id": 195608,
+          "language": "German",
+          "name": {
+            "first": "Nicolas",
+            "last": "Rathod",
+            "full": "Nicolas Rathod",
+            "native": null,
+            "userPreferred": "Nicolas Rathod"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n195608-lWSll3q1LcvW.jpg"
+        }
+      ]
+    },
+    {
+      "id": 142127,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yiyi",
+        "last": "Xu",
+        "full": "Yiyi Xu",
+        "native": "シュー・イーイー",
+        "userPreferred": "Yiyi Xu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b142127-5MPDC4rDPmF3.png",
+      "voiceActors": [
+        {
+          "id": 101634,
+          "language": "Japanese",
+          "name": {
+            "first": "Minako",
+            "last": "Kotobuki",
+            "full": "Minako Kotobuki",
+            "native": "寿美菜子",
+            "userPreferred": "Minako Kotobuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101634-IiPW117K0ybp.png"
+        },
+        {
+          "id": 279602,
+          "language": "Italian",
+          "name": {
+            "first": "Chiara",
+            "last": "Oliviero",
+            "full": "Chiara Oliviero",
+            "native": null,
+            "userPreferred": "Chiara Oliviero"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 139128,
+          "language": "German",
+          "name": {
+            "first": "Milena",
+            "last": "Karas",
+            "full": "Milena Karas",
+            "native": null,
+            "userPreferred": "Milena Karas"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n139128-o0WgGAI9kiBm.png"
+        }
+      ]
+    },
+    {
+      "id": 142128,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tsunehisa",
+        "last": "Senko",
+        "full": "Tsunehisa Senko",
+        "native": "千古恒久",
+        "userPreferred": "Tsunehisa Senko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b142128-3wTm02miovEN.png",
+      "voiceActors": [
+        {
+          "id": 95160,
+          "language": "Japanese",
+          "name": {
+            "first": "Takehito",
+            "last": "Koyasu",
+            "full": "Takehito Koyasu",
+            "native": "子安武人",
+            "userPreferred": "Takehito Koyasu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95160-jWevcH7BmfE1.jpg"
+        },
+        {
+          "id": 158223,
+          "language": "Italian",
+          "name": {
+            "first": "Luigi",
+            "last": "Scribani",
+            "full": "Luigi Scribani",
+            "native": null,
+            "userPreferred": "Luigi Scribani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n158223-qf9apqrrAAKM.jpg"
+        },
+        {
+          "id": 130895,
+          "language": "German",
+          "name": {
+            "first": "Martin",
+            "last": "Bross",
+            "full": "Martin Bross",
+            "native": null,
+            "userPreferred": "Martin Bross"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n130895-FCAQCE6j3Bmr.jpg"
+        }
+      ]
+    },
+    {
+      "id": 142132,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Misuzu",
+        "last": "Kadenokouji",
+        "full": "Misuzu Kadenokouji",
+        "native": "勘解由小路美鈴",
+        "userPreferred": "Misuzu Kadenokouji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b142132-u5fYSPBPT0yE.png",
+      "voiceActors": [
+        {
+          "id": 102322,
+          "language": "Japanese",
+          "name": {
+            "first": "Haruka",
+            "last": "Fukuhara",
+            "full": "Haruka Fukuhara",
+            "native": "福原遥",
+            "userPreferred": "Haruka Fukuhara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102322-GkjxD99Pt3rT.png"
+        },
+        {
+          "id": 175907,
+          "language": "Italian",
+          "name": {
+            "first": "Giulia",
+            "last": "Tarquini",
+            "full": "Giulia Tarquini",
+            "native": null,
+            "userPreferred": "Giulia Tarquini"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n175907-Oz8ATQQnE6uI.png"
+        },
+        {
+          "id": 134081,
+          "language": "German",
+          "name": {
+            "first": "Amira",
+            "last": "Leisner",
+            "full": "Amira Leisner",
+            "native": null,
+            "userPreferred": "Amira Leisner"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n134081-PsFE2JwaSynl.jpg"
+        }
+      ]
+    },
+    {
+      "id": 142126,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Karasu",
+        "last": null,
+        "full": "Karasu",
+        "native": "カラス",
+        "userPreferred": "Karasu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b142126-yJKSyxABpfwS.png",
+      "voiceActors": [
+        {
+          "id": 95008,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Kugimiya",
+            "full": "Rie Kugimiya",
+            "native": "釘宮理恵",
+            "userPreferred": "Rie Kugimiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95008-2y0EeuSTHIri.png"
+        },
+        {
+          "id": 137987,
+          "language": "Italian",
+          "name": {
+            "first": "Lucrezia",
+            "last": "Marricchi",
+            "full": "Lucrezia Marricchi",
+            "native": null,
+            "userPreferred": "Lucrezia Marricchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n137987-jgPsSuyYFfkd.jpg"
+        },
+        {
+          "id": 146816,
+          "language": "German",
+          "name": {
+            "first": "Céline",
+            "last": "Vogt",
+            "full": "Céline Vogt",
+            "native": null,
+            "userPreferred": "Céline Vogt"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n146816-85ZGlV5RLXQR.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 111733,
+      "relationType": "SPIN_OFF",
+      "malId": 40295,
+      "title": {
+        "romaji": "Another World",
+        "english": "Another World",
+        "native": "アナザー・ワールド",
+        "userPreferred": "Another World"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111733-0nvIm7cJ7BGq.jpg",
+      "color": "#f1c986",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111733-0nvIm7cJ7BGq.jpg",
+      "rating": 68
+    },
+    {
+      "id": 133884,
+      "relationType": "SPIN_OFF",
+      "malId": null,
+      "title": {
+        "romaji": "Hello (LoveCome) World",
+        "english": null,
+        "native": "はろー（らぶこめ）わーるど",
+        "userPreferred": "Hello (LoveCome) World"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx133884-rx4vW0vfHRXK.jpg",
+      "color": "#e4505d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx133884-rx4vW0vfHRXK.jpg",
+      "rating": 65
+    },
+    {
+      "id": 110599,
+      "relationType": "ADAPTATION",
+      "malId": 121294,
+      "title": {
+        "romaji": "HELLO WORLD",
+        "english": "HELLO WORLD: The Manga",
+        "native": "HELLO WORLD",
+        "userPreferred": "HELLO WORLD"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx110599-4ZfA4SeovNz5.jpg",
+      "color": "#f1c9ae",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx110599-4ZfA4SeovNz5.jpg",
+      "rating": 70
+    },
+    {
+      "id": 152814,
+      "relationType": "SPIN_OFF",
+      "malId": 145651,
+      "title": {
+        "romaji": "HELLO WORLD if: Kadenokouji Misuzu wa Sekai de Saisho no Shitsuren wo Suru",
+        "english": null,
+        "native": "HELLO WORLD if ー勘解由小路三鈴は世界で最初の失恋をするー",
+        "userPreferred": "HELLO WORLD if: Kadenokouji Misuzu wa Sekai de Saisho no Shitsuren wo Suru"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx152814-o1dxr2BRq6fo.jpg",
+      "color": "#f15d86",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx152814-o1dxr2BRq6fo.jpg",
+      "rating": 76
+    }
+  ],
+  "episodes": [
+    {
+      "id": "hello-world-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx106240-XeWQ4YhKzv7h.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//hello-world-episode-1"
+    }
+  ]
+}

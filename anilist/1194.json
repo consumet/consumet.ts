@@ -1,0 +1,1347 @@
+{
+  "id": "1194",
+  "title": {
+    "romaji": "Coyote Ragtime Show",
+    "english": "Coyote Ragtime Show",
+    "native": "コヨーテ ラグタイムショー"
+  },
+  "malId": 1194,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1194-n7KvZpGs7fU0.jpg",
+  "popularity": 3155,
+  "color": "#f1a15d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1194-AwGUU1CaQ0Vb.jpg",
+  "description": "Mister is a \"coyote\" or space faring outlaw who has been sitting in prison for a year for a traffic offence. Ten days from release, he breaks out with the help of his old partners Bishop and Katana. He then seeks out Franka who has been left in his care by her dead father and takes her on a journey to find her father's treasure. On their heels are the federal investigators Angelica and Chelsea as well as the android assassins of the Criminal Guild, Madame Marciano's Twelve Sisters.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2006,
+  "startDate": {
+    "year": 2006,
+    "month": 7,
+    "day": 4
+  },
+  "endDate": {
+    "year": 2006,
+    "month": 9,
+    "day": 19
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 61,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Mecha",
+    "Sci-Fi"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "ufotable"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 1,
+      "malId": 1,
+      "title": {
+        "romaji": "Cowboy Bebop",
+        "english": "Cowboy Bebop",
+        "native": "カウボーイビバップ",
+        "userPreferred": "Cowboy Bebop"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1-CXtrrkMpJ8Zq.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1-OquNCNB6srGe.jpg",
+      "rating": 86,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 4105,
+      "role": "MAIN",
+      "name": {
+        "first": "Katana",
+        "last": null,
+        "full": "Katana",
+        "native": "カタナ",
+        "userPreferred": "Katana"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4105.jpg",
+      "voiceActors": [
+        {
+          "id": 95001,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Seki",
+            "full": "Tomokazu Seki",
+            "native": "関智一",
+            "userPreferred": "Tomokazu Seki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95001-vm0RtZhmlzhK.png"
+        },
+        {
+          "id": 95190,
+          "language": "English",
+          "name": {
+            "first": "Chris",
+            "last": "Patton",
+            "full": "Chris Patton",
+            "native": null,
+            "userPreferred": "Chris Patton"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95190-Ht5ukZFcl0PX.jpg"
+        },
+        {
+          "id": 96219,
+          "language": "German",
+          "name": {
+            "first": "Stefan",
+            "last": "Staudinger",
+            "full": "Stefan Staudinger",
+            "native": null,
+            "userPreferred": "Stefan Staudinger"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1219.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7263,
+      "role": "MAIN",
+      "name": {
+        "first": "Franca",
+        "last": "Dochley",
+        "full": "Franca Dochley",
+        "native": "フランカ・ドックリー",
+        "userPreferred": "Franca Dochley"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7263.jpg",
+      "voiceActors": [
+        {
+          "id": 95111,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryou",
+            "last": "Hirohashi",
+            "full": "Ryou Hirohashi",
+            "native": "広橋涼",
+            "userPreferred": "Ryou Hirohashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/95111-iw76EbsupYkS.jpg"
+        },
+        {
+          "id": 95414,
+          "language": "English",
+          "name": {
+            "first": "Brittney",
+            "last": "Karbowski",
+            "full": "Brittney Karbowski",
+            "native": null,
+            "userPreferred": "Brittney Karbowski"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/414.jpg"
+        },
+        {
+          "id": 105696,
+          "language": "German",
+          "name": {
+            "first": "Tanja",
+            "last": "Schmitz",
+            "full": "Tanja Schmitz",
+            "native": null,
+            "userPreferred": "Tanja Schmitz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10696.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7262,
+      "role": "MAIN",
+      "name": {
+        "first": "Mister",
+        "last": null,
+        "full": "Mister",
+        "native": "ミスター",
+        "userPreferred": "Mister"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7262.jpg",
+      "voiceActors": [
+        {
+          "id": 95146,
+          "language": "Japanese",
+          "name": {
+            "first": "Akio",
+            "last": "Ootsuka",
+            "full": "Akio Ootsuka",
+            "native": "大塚明夫",
+            "userPreferred": "Akio Ootsuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95146-T6IEmqXW3xUN.jpg"
+        },
+        {
+          "id": 95201,
+          "language": "English",
+          "name": {
+            "first": "John",
+            "last": "Swasey",
+            "full": "John Swasey",
+            "native": null,
+            "userPreferred": "John Swasey"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95201-cas6XbtZmMay.jpg"
+        },
+        {
+          "id": 96667,
+          "language": "German",
+          "name": {
+            "first": "Tilo",
+            "last": "Schmitz",
+            "full": "Tilo Schmitz",
+            "native": null,
+            "userPreferred": "Tilo Schmitz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96667-9lkA3mCJVALw.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7265,
+      "role": "MAIN",
+      "name": {
+        "first": "Swamp",
+        "last": "Gordon",
+        "full": "Swamp Gordon",
+        "native": "スワンプ・ゴードン",
+        "userPreferred": "Swamp Gordon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7265.jpg",
+      "voiceActors": [
+        {
+          "id": 100317,
+          "language": "Japanese",
+          "name": {
+            "first": "Katsuhisa",
+            "last": "Houki",
+            "full": "Katsuhisa Houki",
+            "native": "宝亀克寿",
+            "userPreferred": "Katsuhisa Houki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100317-8qR7ph0AKfXu.png"
+        },
+        {
+          "id": 96848,
+          "language": "English",
+          "name": {
+            "first": "Andrew",
+            "last": "Love",
+            "full": "Andrew Love",
+            "native": null,
+            "userPreferred": "Andrew Love"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1848.jpg"
+        },
+        {
+          "id": 138580,
+          "language": "German",
+          "name": {
+            "first": "Axel",
+            "last": "Lutter",
+            "full": "Axel Lutter",
+            "native": null,
+            "userPreferred": "Axel Lutter"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n138580-0EoAOyyoZ9m8.png"
+        }
+      ]
+    },
+    {
+      "id": 7264,
+      "role": "MAIN",
+      "name": {
+        "first": "Bishop",
+        "last": null,
+        "full": "Bishop",
+        "native": "ビショップ",
+        "userPreferred": "Bishop"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7264.jpg",
+      "voiceActors": [
+        {
+          "id": 95262,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenyuu",
+            "last": "Horiuchi",
+            "full": "Kenyuu Horiuchi",
+            "native": "堀内賢雄",
+            "userPreferred": "Kenyuu Horiuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/262.jpg"
+        },
+        {
+          "id": 107769,
+          "language": "English",
+          "name": {
+            "first": "Lowell",
+            "last": "Bartholomee",
+            "full": "Lowell Bartholomee",
+            "native": null,
+            "userPreferred": "Lowell Bartholomee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12769.jpg"
+        },
+        {
+          "id": 159531,
+          "language": "German",
+          "name": {
+            "first": "Detlef",
+            "last": "Klein",
+            "full": "Detlef Klein",
+            "native": null,
+            "userPreferred": "Detlef Klein"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7282,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "April",
+        "last": null,
+        "full": "April",
+        "native": "エイプリル,",
+        "userPreferred": "April"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7282.jpg",
+      "voiceActors": [
+        {
+          "id": 95184,
+          "language": "Japanese",
+          "name": {
+            "first": "Hitomi",
+            "last": "Nabatame",
+            "full": "Hitomi Nabatame",
+            "native": "生天目仁美",
+            "userPreferred": "Hitomi Nabatame"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95184-OpXCWNXhJJpg.png"
+        },
+        {
+          "id": 95605,
+          "language": "English",
+          "name": {
+            "first": "Sofia",
+            "last": "Mendez",
+            "full": "Sofia Mendez",
+            "native": null,
+            "userPreferred": "Sofia Mendez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95605-5PA3jVAN4LBm.jpg"
+        },
+        {
+          "id": 103551,
+          "language": "German",
+          "name": {
+            "first": "Susanne",
+            "last": "Kaps",
+            "full": "Susanne Kaps",
+            "native": null,
+            "userPreferred": "Susanne Kaps"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8551.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14921,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bruce",
+        "last": "Dochley",
+        "full": "Bruce Dochley",
+        "native": "ブルース・ドックリー",
+        "userPreferred": "Bruce Dochley"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95337,
+          "language": "Japanese",
+          "name": {
+            "first": "Houchuu",
+            "last": "Ootsuka",
+            "full": "Houchuu Ootsuka",
+            "native": "大塚芳忠",
+            "userPreferred": "Houchuu Ootsuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95337-NnvEQEBKV2dR.jpg"
+        },
+        {
+          "id": 95473,
+          "language": "English",
+          "name": {
+            "first": "John",
+            "last": "Gremillion",
+            "full": "John Gremillion",
+            "native": null,
+            "userPreferred": "John Gremillion"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/473.jpg"
+        },
+        {
+          "id": 137929,
+          "language": "German",
+          "name": {
+            "first": "Rainer",
+            "last": "Doering",
+            "full": "Rainer Doering",
+            "native": null,
+            "userPreferred": "Rainer Doering"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n137929-V78zxsIT1u5v.png"
+        }
+      ]
+    },
+    {
+      "id": 5486,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "January",
+        "last": null,
+        "full": "January",
+        "native": "ジャニアリー",
+        "userPreferred": "January"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5486.jpg",
+      "voiceActors": [
+        {
+          "id": 96016,
+          "language": "Japanese",
+          "name": {
+            "first": "Satomi",
+            "last": "Hanamura",
+            "full": "Satomi Hanamura",
+            "native": "怜美花村",
+            "userPreferred": "Satomi Hanamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96016-hYYcJu5yuu51.png"
+        },
+        {
+          "id": 95189,
+          "language": "English",
+          "name": {
+            "first": "Luci",
+            "last": "Christian",
+            "full": "Luci Christian",
+            "native": null,
+            "userPreferred": "Luci Christian"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95189-M2IkMNRzHYcF.jpg"
+        },
+        {
+          "id": 105708,
+          "language": "German",
+          "name": {
+            "first": "Sabine",
+            "last": "Winterfeldt",
+            "full": "Sabine Winterfeldt",
+            "native": null,
+            "userPreferred": "Sabine Winterfeldt"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105708-AN5uI3j43zuW.png"
+        }
+      ]
+    },
+    {
+      "id": 7266,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Angelica",
+        "last": "Burns",
+        "full": "Angelica Burns",
+        "native": "アンジェリカ・バーンズ",
+        "userPreferred": "Angelica Burns"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7266.jpg",
+      "voiceActors": [
+        {
+          "id": 96463,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsuko",
+            "last": "Yuya",
+            "full": "Atsuko Yuya",
+            "native": "湯屋敦子",
+            "userPreferred": "Atsuko Yuya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96463-FrXKgtjzzqNF.png"
+        },
+        {
+          "id": 95509,
+          "language": "English",
+          "name": {
+            "first": "Christine",
+            "last": "Auten",
+            "full": "Christine Auten",
+            "native": null,
+            "userPreferred": "Christine Auten"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95509-fSwGUErqAkmA.jpg"
+        },
+        {
+          "id": 101141,
+          "language": "German",
+          "name": {
+            "first": "Katrin",
+            "last": "Zimmermann",
+            "full": "Katrin Zimmermann",
+            "native": null,
+            "userPreferred": "Katrin Zimmermann"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6141.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7267,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chelsea",
+        "last": "Muir",
+        "full": "Chelsea Muir",
+        "native": "チェルシィ・ムーア",
+        "userPreferred": "Chelsea Muir"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7267.jpg",
+      "voiceActors": [
+        {
+          "id": 95120,
+          "language": "Japanese",
+          "name": {
+            "first": "Noriko",
+            "last": "Shitaya",
+            "full": "Noriko Shitaya",
+            "native": "下屋則子",
+            "userPreferred": "Noriko Shitaya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95120-XwX1WdxBi5C2.png"
+        },
+        {
+          "id": 95159,
+          "language": "English",
+          "name": {
+            "first": "Monica",
+            "last": "Rial",
+            "full": "Monica Rial",
+            "native": null,
+            "userPreferred": "Monica Rial"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95159-iTd65o5LhA62.png"
+        },
+        {
+          "id": 103585,
+          "language": "German",
+          "name": {
+            "first": "Uschi",
+            "last": "Hugo",
+            "full": "Uschi Hugo",
+            "native": null,
+            "userPreferred": "Uschi Hugo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8585.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7283,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "May",
+        "last": null,
+        "full": "May",
+        "native": "メイ",
+        "userPreferred": "May"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7283.jpg",
+      "voiceActors": [
+        {
+          "id": 101171,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Tamaki",
+            "full": "Yuuki Tamaki",
+            "native": "環有希",
+            "userPreferred": "Yuuki Tamaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6171.jpg"
+        },
+        {
+          "id": 95194,
+          "language": "English",
+          "name": {
+            "first": "Allison",
+            "last": "Keith-Shipp",
+            "full": "Allison Keith-Shipp",
+            "native": null,
+            "userPreferred": "Allison Keith-Shipp"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95194-Ij7tty2nbUFi.jpg"
+        },
+        {
+          "id": 103550,
+          "language": "German",
+          "name": {
+            "first": "Silvia",
+            "last": "Mißbach",
+            "full": "Silvia Mißbach",
+            "native": null,
+            "userPreferred": "Silvia Mißbach"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10856,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "August",
+        "last": null,
+        "full": "August",
+        "native": "オーガスト,",
+        "userPreferred": "August"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10856.jpg",
+      "voiceActors": [
+        {
+          "id": 96172,
+          "language": "Japanese",
+          "name": {
+            "first": "Kokoro",
+            "last": "Kikuchi",
+            "full": "Kokoro Kikuchi",
+            "native": "菊池こころ",
+            "userPreferred": "Kokoro Kikuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96172-dgERUIzNtAoG.png"
+        },
+        {
+          "id": 95606,
+          "language": "English",
+          "name": {
+            "first": "Sasha",
+            "last": "Paysinger",
+            "full": "Sasha Paysinger",
+            "native": null,
+            "userPreferred": "Sasha Paysinger"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/606.jpg"
+        },
+        {
+          "id": 105696,
+          "language": "German",
+          "name": {
+            "first": "Tanja",
+            "last": "Schmitz",
+            "full": "Tanja Schmitz",
+            "native": null,
+            "userPreferred": "Tanja Schmitz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10696.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7281,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "March",
+        "last": null,
+        "full": "March",
+        "native": "マーチ",
+        "userPreferred": "March"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7281.jpg",
+      "voiceActors": [
+        {
+          "id": 95124,
+          "language": "Japanese",
+          "name": {
+            "first": "Satomi",
+            "last": "Arai",
+            "full": "Satomi Arai",
+            "native": "新井里美",
+            "userPreferred": "Satomi Arai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95124-8C0BORTX7Bfd.jpg"
+        },
+        {
+          "id": 104155,
+          "language": "English",
+          "name": {
+            "first": "Natalie",
+            "last": "Nassar",
+            "full": "Natalie Nassar",
+            "native": null,
+            "userPreferred": "Natalie Nassar"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9155.jpg"
+        },
+        {
+          "id": 103550,
+          "language": "German",
+          "name": {
+            "first": "Silvia",
+            "last": "Mißbach",
+            "full": "Silvia Mißbach",
+            "native": null,
+            "userPreferred": "Silvia Mißbach"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10857,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "October",
+        "last": null,
+        "full": "October",
+        "native": "オクト",
+        "userPreferred": "October"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10857.jpg",
+      "voiceActors": [
+        {
+          "id": 95933,
+          "language": "Japanese",
+          "name": {
+            "first": "Eriko",
+            "last": "Kigawa",
+            "full": "Eriko Kigawa",
+            "native": "絵理子 木川",
+            "userPreferred": "Eriko Kigawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/933.jpg"
+        },
+        {
+          "id": 95199,
+          "language": "English",
+          "name": {
+            "first": "Jessica",
+            "last": "Boone",
+            "full": "Jessica Boone",
+            "native": null,
+            "userPreferred": "Jessica Boone"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95199-0ArwCGT722iO.jpg"
+        },
+        {
+          "id": 105708,
+          "language": "German",
+          "name": {
+            "first": "Sabine",
+            "last": "Winterfeldt",
+            "full": "Sabine Winterfeldt",
+            "native": null,
+            "userPreferred": "Sabine Winterfeldt"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105708-AN5uI3j43zuW.png"
+        }
+      ]
+    },
+    {
+      "id": 7284,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "July",
+        "last": null,
+        "full": "July",
+        "native": "ジュライ,",
+        "userPreferred": "July"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7284.jpg",
+      "voiceActors": [
+        {
+          "id": 96465,
+          "language": "Japanese",
+          "name": {
+            "first": "Akiko",
+            "last": "Kawase",
+            "full": "Akiko Kawase",
+            "native": "川瀬晶子",
+            "userPreferred": "Akiko Kawase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1465.jpg"
+        },
+        {
+          "id": 95928,
+          "language": "English",
+          "name": {
+            "first": "Nancy",
+            "last": "Novotny",
+            "full": "Nancy Novotny",
+            "native": null,
+            "userPreferred": "Nancy Novotny"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95928-TWiUny7lqanh.jpg"
+        },
+        {
+          "id": 140377,
+          "language": "German",
+          "name": {
+            "first": "Gabriele",
+            "last": "Schramm-Philipp",
+            "full": "Gabriele Schramm-Philipp",
+            "native": null,
+            "userPreferred": "Gabriele Schramm-Philipp"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14924,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "September",
+        "last": null,
+        "full": "September",
+        "native": "セプ",
+        "userPreferred": "September"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14924.jpg",
+      "voiceActors": [
+        {
+          "id": 95124,
+          "language": "Japanese",
+          "name": {
+            "first": "Satomi",
+            "last": "Arai",
+            "full": "Satomi Arai",
+            "native": "新井里美",
+            "userPreferred": "Satomi Arai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95124-8C0BORTX7Bfd.jpg"
+        },
+        {
+          "id": 104036,
+          "language": "English",
+          "name": {
+            "first": "Melissa",
+            "last": "Pritchett",
+            "full": "Melissa Pritchett",
+            "native": null,
+            "userPreferred": "Melissa Pritchett"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104036-mRSOb7pS1I8k.jpg"
+        },
+        {
+          "id": 140377,
+          "language": "German",
+          "name": {
+            "first": "Gabriele",
+            "last": "Schramm-Philipp",
+            "full": "Gabriele Schramm-Philipp",
+            "native": null,
+            "userPreferred": "Gabriele Schramm-Philipp"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10858,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "November",
+        "last": null,
+        "full": "November",
+        "native": "ノヴェ",
+        "userPreferred": "November"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10858.jpg",
+      "voiceActors": [
+        {
+          "id": 95933,
+          "language": "Japanese",
+          "name": {
+            "first": "Eriko",
+            "last": "Kigawa",
+            "full": "Eriko Kigawa",
+            "native": "絵理子 木川",
+            "userPreferred": "Eriko Kigawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/933.jpg"
+        },
+        {
+          "id": 95199,
+          "language": "English",
+          "name": {
+            "first": "Jessica",
+            "last": "Boone",
+            "full": "Jessica Boone",
+            "native": null,
+            "userPreferred": "Jessica Boone"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95199-0ArwCGT722iO.jpg"
+        },
+        {
+          "id": 140377,
+          "language": "German",
+          "name": {
+            "first": "Gabriele",
+            "last": "Schramm-Philipp",
+            "full": "Gabriele Schramm-Philipp",
+            "native": null,
+            "userPreferred": "Gabriele Schramm-Philipp"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14923,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "June",
+        "last": null,
+        "full": "June",
+        "native": "ジューン",
+        "userPreferred": "June"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14923.jpg",
+      "voiceActors": [
+        {
+          "id": 101172,
+          "language": "Japanese",
+          "name": {
+            "first": "Chie",
+            "last": "Matsuura",
+            "full": "Chie Matsuura",
+            "native": "松浦チエ",
+            "userPreferred": "Chie Matsuura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101172-PI3KwThqoqtX.png"
+        },
+        {
+          "id": 96606,
+          "language": "English",
+          "name": {
+            "first": "Allison",
+            "last": "Sumrall",
+            "full": "Allison Sumrall",
+            "native": null,
+            "userPreferred": "Allison Sumrall"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96606-oaTOj5bbSpDs.jpg"
+        },
+        {
+          "id": 103550,
+          "language": "German",
+          "name": {
+            "first": "Silvia",
+            "last": "Mißbach",
+            "full": "Silvia Mißbach",
+            "native": null,
+            "userPreferred": "Silvia Mißbach"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20009,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hunter",
+        "last": "Bennett",
+        "full": "Hunter Bennett",
+        "native": null,
+        "userPreferred": "Hunter Bennett"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20009.jpg",
+      "voiceActors": [
+        {
+          "id": 95137,
+          "language": "Japanese",
+          "name": {
+            "first": "Shou",
+            "last": "Hayami",
+            "full": "Shou Hayami",
+            "native": "速水奨",
+            "userPreferred": "Shou Hayami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95137-2Q5l3Br9G7sk.png"
+        },
+        {
+          "id": 95282,
+          "language": "English",
+          "name": {
+            "first": "Illich",
+            "last": "Guardiola",
+            "full": "Illich Guardiola",
+            "native": null,
+            "userPreferred": "Illich Guardiola"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/282.jpg"
+        },
+        {
+          "id": 100130,
+          "language": "German",
+          "name": {
+            "first": "Peter",
+            "last": "Flechtner",
+            "full": "Peter Flechtner",
+            "native": null,
+            "userPreferred": "Peter Flechtner"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100130-8uV5PEqiYW6k.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10859,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "December",
+        "last": null,
+        "full": "December",
+        "native": "ディッセ",
+        "userPreferred": "December"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10859.jpg",
+      "voiceActors": [
+        {
+          "id": 95933,
+          "language": "Japanese",
+          "name": {
+            "first": "Eriko",
+            "last": "Kigawa",
+            "full": "Eriko Kigawa",
+            "native": "絵理子 木川",
+            "userPreferred": "Eriko Kigawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/933.jpg"
+        },
+        {
+          "id": 95199,
+          "language": "English",
+          "name": {
+            "first": "Jessica",
+            "last": "Boone",
+            "full": "Jessica Boone",
+            "native": null,
+            "userPreferred": "Jessica Boone"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95199-0ArwCGT722iO.jpg"
+        },
+        {
+          "id": 105711,
+          "language": "German",
+          "name": {
+            "first": "Anja",
+            "last": "Rybiczka",
+            "full": "Anja Rybiczka",
+            "native": null,
+            "userPreferred": "Anja Rybiczka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10711.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14922,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nielsen",
+        "last": null,
+        "full": "Nielsen",
+        "native": "ニルソン",
+        "userPreferred": "Nielsen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 107803,
+          "language": "Japanese",
+          "name": {
+            "first": "Masakazu",
+            "last": "Itou",
+            "full": "Masakazu Itou",
+            "native": "伊藤昌一",
+            "userPreferred": "Masakazu Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12803.jpg"
+        },
+        {
+          "id": 96666,
+          "language": "English",
+          "name": {
+            "first": "Mike",
+            "last": "Vance",
+            "full": "Mike Vance",
+            "native": null,
+            "userPreferred": "Mike Vance"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96666-dF7NnBE68nyH.png"
+        },
+        {
+          "id": 195190,
+          "language": "German",
+          "name": {
+            "first": "Manfred",
+            "last": "Petersen",
+            "full": "Manfred Petersen",
+            "native": null,
+            "userPreferred": "Manfred Petersen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5145,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "February",
+        "last": null,
+        "full": "February",
+        "native": "フェブラリー",
+        "userPreferred": "February"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5145.jpg",
+      "voiceActors": [
+        {
+          "id": 95241,
+          "language": "Japanese",
+          "name": {
+            "first": "Rina",
+            "last": "Satou",
+            "full": "Rina Satou",
+            "native": "佐藤利奈",
+            "userPreferred": "Rina Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95241-4XvR64oguxwS.png"
+        },
+        {
+          "id": 95721,
+          "language": "English",
+          "name": {
+            "first": "Cynthia",
+            "last": "Martinez",
+            "full": "Cynthia Martinez",
+            "native": null,
+            "userPreferred": "Cynthia Martinez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95721-4wGzyO12bXAP.jpg"
+        },
+        {
+          "id": 105711,
+          "language": "German",
+          "name": {
+            "first": "Anja",
+            "last": "Rybiczka",
+            "full": "Anja Rybiczka",
+            "native": null,
+            "userPreferred": "Anja Rybiczka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10711.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7269,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Marciano",
+        "last": null,
+        "full": "Marciano",
+        "native": "マルチアーノ",
+        "userPreferred": "Marciano"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7269.jpg",
+      "voiceActors": [
+        {
+          "id": 95912,
+          "language": "Japanese",
+          "name": {
+            "first": "Youko",
+            "last": "Soumi",
+            "full": "Youko Soumi",
+            "native": "沢海陽子",
+            "userPreferred": "Youko Soumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95912-8ZUpdG5UjcAL.png"
+        },
+        {
+          "id": 95162,
+          "language": "English",
+          "name": {
+            "first": "Kira",
+            "last": "Vincent-Davis",
+            "full": "Kira Vincent-Davis",
+            "native": null,
+            "userPreferred": "Kira Vincent-Davis"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/162.jpg"
+        },
+        {
+          "id": 145367,
+          "language": "German",
+          "name": {
+            "first": "Arianne",
+            "last": "Borbach",
+            "full": "Arianne Borbach",
+            "native": null,
+            "userPreferred": "Arianne Borbach"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n145367-6LfWTHdqhoVp.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 34420,
+      "relationType": "ALTERNATIVE",
+      "malId": 4420,
+      "title": {
+        "romaji": "Coyote Ragtime Show",
+        "english": "Coyote Ragtime Show",
+        "native": "コヨーテ ラグタイムショー",
+        "userPreferred": "Coyote Ragtime Show"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/4420.jpg",
+      "color": "#f19343",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/4420.jpg",
+      "rating": 63
+    }
+  ],
+  "episodes": [
+    {
+      "id": "coyote-ragtime-show-episode-1",
+      "title": "Prison Break",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20630/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:22:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//coyote-ragtime-show-episode-1"
+    },
+    {
+      "id": "coyote-ragtime-show-episode-2",
+      "title": "The Girl from the Pirate Hideout",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20631/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:22:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//coyote-ragtime-show-episode-2"
+    },
+    {
+      "id": "coyote-ragtime-show-episode-3",
+      "title": "The One they Called",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20632/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:22:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//coyote-ragtime-show-episode-3"
+    },
+    {
+      "id": "coyote-ragtime-show-episode-4",
+      "title": "Bygone Days",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20633/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:22:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//coyote-ragtime-show-episode-4"
+    },
+    {
+      "id": "coyote-ragtime-show-episode-5",
+      "title": "Never Change",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20634/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:22:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//coyote-ragtime-show-episode-5"
+    },
+    {
+      "id": "coyote-ragtime-show-episode-6",
+      "title": "Fierce Fight",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20635/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:22:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//coyote-ragtime-show-episode-6"
+    },
+    {
+      "id": "coyote-ragtime-show-episode-7",
+      "title": "Marciano, the Traitor",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20636/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:22:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//coyote-ragtime-show-episode-7"
+    },
+    {
+      "id": "coyote-ragtime-show-episode-8",
+      "title": "The Road to Gigabanks",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20637/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:22:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//coyote-ragtime-show-episode-8"
+    },
+    {
+      "id": "coyote-ragtime-show-episode-9",
+      "title": "Jupiter",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20638/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:22:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//coyote-ragtime-show-episode-9"
+    },
+    {
+      "id": "coyote-ragtime-show-episode-10",
+      "title": "Angelica Burns",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20639/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:22:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//coyote-ragtime-show-episode-10"
+    },
+    {
+      "id": "coyote-ragtime-show-episode-11",
+      "title": "Fading Memories",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20640/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:22:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//coyote-ragtime-show-episode-11"
+    },
+    {
+      "id": "coyote-ragtime-show-episode-12",
+      "title": "Coyote",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20641/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:22:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//coyote-ragtime-show-episode-12"
+    }
+  ]
+}

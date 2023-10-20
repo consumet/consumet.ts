@@ -1,0 +1,623 @@
+{
+  "id": "141893",
+  "title": {
+    "romaji": "Yuan Long 3",
+    "english": null,
+    "native": "元龙 第三季"
+  },
+  "malId": 50406,
+  "synonyms": [
+    "Carp Reborn S3"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "CN",
+  "trailer": {
+    "id": "mTngintR3cE",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/mTngintR3cE/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141893-QL6OHgpY1B8r.png",
+  "popularity": 334,
+  "color": "#e45d50",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141893-QL6OHgpY1B8r.png",
+  "description": "The third season of <i>Yuan Long</i>.",
+  "status": "Completed",
+  "releaseDate": 2022,
+  "startDate": {
+    "year": 2022,
+    "month": 11,
+    "day": 24
+  },
+  "endDate": {
+    "year": 2023,
+    "month": 3,
+    "day": 16
+  },
+  "totalEpisodes": 16,
+  "currentEpisode": 16,
+  "rating": null,
+  "duration": null,
+  "genres": [
+    "Action",
+    "Fantasy"
+  ],
+  "season": null,
+  "studios": [
+    "CG Year"
+  ],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 249296,
+      "role": "MAIN",
+      "name": {
+        "first": "Sheng",
+        "last": "Wang",
+        "full": "Sheng Wang",
+        "native": "王胜",
+        "userPreferred": "Sheng Wang"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b249296-oyJ57wV1YXWE.png",
+      "voiceActors": [
+        {
+          "id": 208804,
+          "language": "Chinese",
+          "name": {
+            "first": "Fei",
+            "last": "Ling",
+            "full": "Fei Ling",
+            "native": "凌飞",
+            "userPreferred": "Fei Ling"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n208804-qxFgPQAXy7RO.png"
+        }
+      ]
+    },
+    {
+      "id": 249297,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yao",
+        "last": "Gao",
+        "full": "Yao Gao",
+        "native": "高瑶",
+        "userPreferred": "Yao Gao"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b249297-pd1TuuMUxZxd.png",
+      "voiceActors": [
+        {
+          "id": 188440,
+          "language": "Chinese",
+          "name": {
+            "first": "Xiaoxi",
+            "last": "Tang",
+            "full": "Xiaoxi Tang",
+            "native": "唐小喜",
+            "userPreferred": "Xiaoxi Tang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188440-2Ep61ywmDH1d.png"
+        }
+      ]
+    },
+    {
+      "id": 292697,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Meier",
+        "last": null,
+        "full": "Meier",
+        "native": "媚儿",
+        "userPreferred": "Meier"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 164997,
+          "language": "Chinese",
+          "name": {
+            "first": "Shimeng",
+            "last": "Li",
+            "full": "Shimeng Li",
+            "native": "李诗萌",
+            "userPreferred": "Shimeng Li"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n164997-n8nBhdTNuA1l.png"
+        }
+      ]
+    },
+    {
+      "id": 268380,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yue",
+        "last": "Qing",
+        "full": "Yue Qing",
+        "native": "清月",
+        "userPreferred": "Yue Qing"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b268380-REOUx1bhiBW2.png",
+      "voiceActors": [
+        {
+          "id": 188441,
+          "language": "Chinese",
+          "name": {
+            "first": "Boheng",
+            "last": "Zhang",
+            "full": "Boheng Zhang",
+            "native": "张博恒",
+            "userPreferred": "Boheng Zhang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188441-M9PubbGqWQee.png"
+        }
+      ]
+    },
+    {
+      "id": 292700,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Xiao",
+        "last": "Dai",
+        "full": "Xiao Dai",
+        "native": "戴笑",
+        "userPreferred": "Xiao Dai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 292701,
+          "language": "Chinese",
+          "name": {
+            "first": "Weiyi",
+            "last": "Yun",
+            "full": "Weiyi Yun",
+            "native": "云唯一",
+            "userPreferred": "Weiyi Yun"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 249299,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Xu",
+        "last": "Ling",
+        "full": "Xu Ling",
+        "native": "凌虚",
+        "userPreferred": "Xu Ling"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b249299-rl0ExsUfYVOQ.png",
+      "voiceActors": [
+        {
+          "id": 188372,
+          "language": "Chinese",
+          "name": {
+            "first": "Kai",
+            "last": "Wang",
+            "full": "Kai Wang",
+            "native": "王凯",
+            "userPreferred": "Kai Wang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188372-xn5o3WATqNn3.png"
+        }
+      ]
+    },
+    {
+      "id": 249301,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ming",
+        "last": "Song",
+        "full": "Ming Song",
+        "native": "宋命",
+        "userPreferred": "Ming Song"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b249301-OJlRxtmnaKsy.png",
+      "voiceActors": [
+        {
+          "id": 188449,
+          "language": "Chinese",
+          "name": {
+            "first": "Jiang",
+            "last": "Bian",
+            "full": "Jiang Bian",
+            "native": "边江",
+            "userPreferred": "Jiang Bian"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188449-YQejGLFpzjh8.png"
+        }
+      ]
+    },
+    {
+      "id": 292704,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Xiu",
+        "last": "Lin",
+        "full": "Xiu Lin",
+        "native": "林秀",
+        "userPreferred": "Xiu Lin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 268293,
+          "language": "Chinese",
+          "name": {
+            "first": "Jinger",
+            "last": "Wang",
+            "full": "Jinger Wang",
+            "native": "王婧儿",
+            "userPreferred": "Jinger Wang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n268293-ZKSNsVFHR1ao.png"
+        }
+      ]
+    },
+    {
+      "id": 249300,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yan",
+        "last": "Song",
+        "full": "Yan Song",
+        "native": "宋嫣",
+        "userPreferred": "Yan Song"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b249300-E61ig9gt4ahj.png",
+      "voiceActors": [
+        {
+          "id": 142145,
+          "language": "Chinese",
+          "name": {
+            "first": "Jing",
+            "last": "Yang",
+            "full": "Jing Yang",
+            "native": "杨婧",
+            "userPreferred": "Jing Yang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n142145-GMjqyXNTqcfs.png"
+        }
+      ]
+    },
+    {
+      "id": 292702,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yinqiang",
+        "last": "Shi",
+        "full": "Yinqiang Shi",
+        "native": "史银枪",
+        "userPreferred": "Yinqiang Shi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 188807,
+          "language": "Chinese",
+          "name": {
+            "first": "Mengmeng",
+            "last": "Yan",
+            "full": "Mengmeng Yan",
+            "native": "阎萌萌",
+            "userPreferred": "Mengmeng Yan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188807-CMMA4fl7jh1w.png"
+        }
+      ]
+    },
+    {
+      "id": 292696,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Feng",
+        "last": "Ming",
+        "full": "Feng Ming",
+        "native": "明风",
+        "userPreferred": "Feng Ming"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 261389,
+          "language": "Chinese",
+          "name": {
+            "first": "Yifan",
+            "last": null,
+            "full": "Yifan",
+            "native": "一凡",
+            "userPreferred": "Yifan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 292705,
+      "role": "SUPPORTING",
+      "name": {
+        "first": null,
+        "last": "Qin Er Ye",
+        "full": "Qin Er Ye",
+        "native": "秦二爷",
+        "userPreferred": "Qin Er Ye"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 218581,
+          "language": "Chinese",
+          "name": {
+            "first": "Mingzhou",
+            "last": "Zhao",
+            "full": "Mingzhou Zhao",
+            "native": "赵铭洲",
+            "userPreferred": "Mingzhou Zhao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n218581-6mZmeA02GwwS.png"
+        }
+      ]
+    },
+    {
+      "id": 292698,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ze",
+        "last": "Lu",
+        "full": "Ze Lu",
+        "native": "鲁泽",
+        "userPreferred": "Ze Lu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 292703,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Longti Laoren",
+        "last": null,
+        "full": "Longti Laoren",
+        "native": "灵体老人",
+        "userPreferred": "Longti Laoren"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 188808,
+          "language": "Chinese",
+          "name": {
+            "first": "Mo",
+            "last": "Yang",
+            "full": "Mo Yang",
+            "native": "杨默",
+            "userPreferred": "Mo Yang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188808-OOLm4loUeUHs.png"
+        }
+      ]
+    },
+    {
+      "id": 292699,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Qiao",
+        "last": "Tang",
+        "full": "Qiao Tang",
+        "native": "唐巧",
+        "userPreferred": "Qiao Tang"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 188442,
+          "language": "Chinese",
+          "name": {
+            "first": "Xiaopu",
+            "last": "Zheng",
+            "full": "Xiaopu Zheng",
+            "native": "郑小璞",
+            "userPreferred": "Xiaopu Zheng"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188442-gxU3RnSNCrfP.png"
+        }
+      ]
+    },
+    {
+      "id": 292706,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Langya",
+        "last": null,
+        "full": "Langya",
+        "native": "狼牙",
+        "userPreferred": "Langya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 188807,
+          "language": "Chinese",
+          "name": {
+            "first": "Mengmeng",
+            "last": "Yan",
+            "full": "Mengmeng Yan",
+            "native": "阎萌萌",
+            "userPreferred": "Mengmeng Yan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188807-CMMA4fl7jh1w.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 126360,
+      "relationType": "PREQUEL",
+      "malId": 44071,
+      "title": {
+        "romaji": "Yuan Long 2",
+        "english": "Carp Reborn S2",
+        "native": "元龙 第二季",
+        "userPreferred": "Yuan Long 2"
+      },
+      "status": "Completed",
+      "episodes": 16,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126360-01fMMbU77mxA.png",
+      "color": "#5daee4",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126360-01fMMbU77mxA.png",
+      "rating": 71
+    }
+  ],
+  "episodes": [
+    {
+      "id": "yuan-long-3rd-season-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141893-QL6OHgpY1B8r.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yuan-long-3rd-season-episode-1"
+    },
+    {
+      "id": "yuan-long-3rd-season-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141893-QL6OHgpY1B8r.png",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yuan-long-3rd-season-episode-2"
+    },
+    {
+      "id": "yuan-long-3rd-season-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141893-QL6OHgpY1B8r.png",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yuan-long-3rd-season-episode-3"
+    },
+    {
+      "id": "yuan-long-3rd-season-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141893-QL6OHgpY1B8r.png",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yuan-long-3rd-season-episode-4"
+    },
+    {
+      "id": "yuan-long-3rd-season-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141893-QL6OHgpY1B8r.png",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yuan-long-3rd-season-episode-5"
+    },
+    {
+      "id": "yuan-long-3rd-season-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141893-QL6OHgpY1B8r.png",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yuan-long-3rd-season-episode-6"
+    },
+    {
+      "id": "yuan-long-3rd-season-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141893-QL6OHgpY1B8r.png",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yuan-long-3rd-season-episode-7"
+    },
+    {
+      "id": "yuan-long-3rd-season-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141893-QL6OHgpY1B8r.png",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yuan-long-3rd-season-episode-8"
+    },
+    {
+      "id": "yuan-long-3rd-season-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141893-QL6OHgpY1B8r.png",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yuan-long-3rd-season-episode-9"
+    },
+    {
+      "id": "yuan-long-3rd-season-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141893-QL6OHgpY1B8r.png",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yuan-long-3rd-season-episode-10"
+    },
+    {
+      "id": "yuan-long-3rd-season-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141893-QL6OHgpY1B8r.png",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yuan-long-3rd-season-episode-11"
+    },
+    {
+      "id": "yuan-long-3rd-season-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141893-QL6OHgpY1B8r.png",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yuan-long-3rd-season-episode-12"
+    },
+    {
+      "id": "yuan-long-3rd-season-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141893-QL6OHgpY1B8r.png",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yuan-long-3rd-season-episode-13"
+    },
+    {
+      "id": "yuan-long-3rd-season-episode-14",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141893-QL6OHgpY1B8r.png",
+      "number": 14,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yuan-long-3rd-season-episode-14"
+    },
+    {
+      "id": "yuan-long-3rd-season-episode-15",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141893-QL6OHgpY1B8r.png",
+      "number": 15,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yuan-long-3rd-season-episode-15"
+    },
+    {
+      "id": "yuan-long-3rd-season-episode-16",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141893-QL6OHgpY1B8r.png",
+      "number": 16,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//yuan-long-3rd-season-episode-16"
+    }
+  ]
+}

@@ -1,0 +1,888 @@
+{
+  "id": "109150",
+  "title": {
+    "romaji": "Shi Huang Zhi Shen",
+    "english": "God of Deception",
+    "native": "嗜谎之神"
+  },
+  "malId": 39298,
+  "synonyms": [
+    "Liar God"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "CN",
+  "trailer": {
+    "id": "1FK_aDiC01k",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/1FK_aDiC01k/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109150-KGI0tG3v7fjQ.jpg",
+  "popularity": 1174,
+  "color": "#f1f150",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109150-KGI0tG3v7fjQ.jpg",
+  "description": "Lian En is a god who has lied too much and has now attracted bad karma. One day, he meets a high school student who will change his destiny forever!",
+  "status": "Completed",
+  "releaseDate": 2020,
+  "startDate": {
+    "year": 2020,
+    "month": 4,
+    "day": 1
+  },
+  "endDate": {
+    "year": 2020,
+    "month": 6,
+    "day": 17
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 53,
+  "duration": 18,
+  "genres": [
+    "Action",
+    "Comedy"
+  ],
+  "season": null,
+  "studios": [
+    "Haoliners Animation"
+  ],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [
+    {
+      "id": 131573,
+      "malId": 48561,
+      "title": {
+        "romaji": "Jujutsu Kaisen 0",
+        "english": "JUJUTSU KAISEN 0",
+        "native": "呪術廻戦 0",
+        "userPreferred": "Jujutsu Kaisen 0"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx131573-rpl82vDEDRm6.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/131573-3veuVz5p0z2I.jpg",
+      "rating": 85,
+      "type": "MOVIE"
+    },
+    {
+      "id": 113415,
+      "malId": 40748,
+      "title": {
+        "romaji": "Jujutsu Kaisen",
+        "english": "JUJUTSU KAISEN",
+        "native": "呪術廻戦",
+        "userPreferred": "Jujutsu Kaisen"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113415-bbBWj4pEFseh.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113415-jQBSkxWAAk83.jpg",
+      "rating": 86,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 229120,
+      "role": "MAIN",
+      "name": {
+        "first": "Minglu",
+        "last": "Wu",
+        "full": "Minglu Wu",
+        "native": "乌明路",
+        "userPreferred": "Minglu Wu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b229120-TQFfSCxBDIUl.png",
+      "voiceActors": [
+        {
+          "id": 163270,
+          "language": "Chinese",
+          "name": {
+            "first": "Dingdang",
+            "last": null,
+            "full": "Dingdang",
+            "native": "叮当",
+            "userPreferred": "Dingdang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n163270-IOzMSemyjR1P.png"
+        }
+      ]
+    },
+    {
+      "id": 229122,
+      "role": "MAIN",
+      "name": {
+        "first": "Lianen",
+        "last": null,
+        "full": "Lianen",
+        "native": "怜恩",
+        "userPreferred": "Lianen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b229122-moxt2awmcMts.png",
+      "voiceActors": [
+        {
+          "id": 217500,
+          "language": "Chinese",
+          "name": {
+            "first": "Rongshan",
+            "last": "Chang",
+            "full": "Rongshan Chang",
+            "native": "常蓉珊",
+            "userPreferred": "Rongshan Chang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n217500-YjTB0BftT331.png"
+        }
+      ]
+    },
+    {
+      "id": 229131,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Siren",
+        "last": null,
+        "full": "Siren",
+        "native": "塞壬",
+        "userPreferred": "Siren"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b229131-XBuZAqnNBsSB.png",
+      "voiceActors": [
+        {
+          "id": 217356,
+          "language": "Chinese",
+          "name": {
+            "first": "Meme",
+            "last": "Yan",
+            "full": "Meme Yan",
+            "native": "阎么么",
+            "userPreferred": "Meme Yan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n217356-v83Bzw8cePO6.png"
+        }
+      ]
+    },
+    {
+      "id": 229139,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Becky",
+        "last": null,
+        "full": "Becky",
+        "native": "贝琪",
+        "userPreferred": "Becky"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b229139-9idmXgvWFqbh.png",
+      "voiceActors": [
+        {
+          "id": 190664,
+          "language": "Chinese",
+          "name": {
+            "first": "Yeqiao",
+            "last": "Yan",
+            "full": "Yeqiao Yan",
+            "native": "闫夜桥",
+            "userPreferred": "Yeqiao Yan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n190664-rlOPtLHISO3a.png"
+        }
+      ]
+    },
+    {
+      "id": 229148,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dammer",
+        "last": null,
+        "full": "Dammer",
+        "native": "达默",
+        "userPreferred": "Dammer"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 163272,
+          "language": "Chinese",
+          "name": {
+            "first": "Hameng",
+            "last": "Tute",
+            "full": "Hameng Tute",
+            "native": "图特哈蒙",
+            "userPreferred": "Hameng Tute"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n163272-zMPUL6ULEbrP.png"
+        }
+      ]
+    },
+    {
+      "id": 229132,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chenru",
+        "last": "Mei",
+        "full": "Chenru Mei",
+        "native": "琛茹",
+        "userPreferred": "Chenru Mei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 190664,
+          "language": "Chinese",
+          "name": {
+            "first": "Yeqiao",
+            "last": "Yan",
+            "full": "Yeqiao Yan",
+            "native": "闫夜桥",
+            "userPreferred": "Yeqiao Yan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n190664-rlOPtLHISO3a.png"
+        }
+      ]
+    },
+    {
+      "id": 229140,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tamaga",
+        "last": null,
+        "full": "Tamaga",
+        "native": "塔玛加",
+        "userPreferred": "Tamaga"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b229140-9dlJnvWNy7jG.png",
+      "voiceActors": [
+        {
+          "id": 229141,
+          "language": "Chinese",
+          "name": {
+            "first": "Xi",
+            "last": "Gong",
+            "full": "Xi Gong",
+            "native": "龚玺",
+            "userPreferred": "Xi Gong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 229149,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Muti",
+        "last": null,
+        "full": "Muti",
+        "native": "母体",
+        "userPreferred": "Muti"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 217356,
+          "language": "Chinese",
+          "name": {
+            "first": "Meme",
+            "last": "Yan",
+            "full": "Meme Yan",
+            "native": "阎么么",
+            "userPreferred": "Meme Yan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n217356-v83Bzw8cePO6.png"
+        },
+        {
+          "id": 188465,
+          "language": "Chinese",
+          "name": {
+            "first": "Qi",
+            "last": "Jin",
+            "full": "Qi Jin",
+            "native": "金琪",
+            "userPreferred": "Qi Jin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188465-wADxQuuxaI5A.png"
+        }
+      ]
+    },
+    {
+      "id": 229123,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ivan",
+        "last": null,
+        "full": "Ivan",
+        "native": "伊万",
+        "userPreferred": "Ivan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b229123-YjtvFfHoMnFy.png",
+      "voiceActors": [
+        {
+          "id": 188377,
+          "language": "Chinese",
+          "name": {
+            "first": "Yin",
+            "last": "Tong",
+            "full": "Yin Tong",
+            "native": "瞳音",
+            "userPreferred": "Yin Tong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188377-6sPy5A6JzQp0.png"
+        }
+      ]
+    },
+    {
+      "id": 229133,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chenru Fu",
+        "last": null,
+        "full": "Chenru Fu",
+        "native": "琛茹父",
+        "userPreferred": "Chenru Fu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 218483,
+          "language": "Chinese",
+          "name": {
+            "first": "Enze",
+            "last": "Zhang",
+            "full": "Enze Zhang",
+            "native": "张恩泽",
+            "userPreferred": "Enze Zhang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n218483-pulGhn4xqijv.png"
+        }
+      ]
+    },
+    {
+      "id": 229142,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Keke",
+        "last": "Ou",
+        "full": "Keke Ou",
+        "native": "欧可可",
+        "userPreferred": "Keke Ou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 188833,
+          "language": "Chinese",
+          "name": {
+            "first": "Nianru",
+            "last": "Shen",
+            "full": "Nianru Shen",
+            "native": "沈念如",
+            "userPreferred": "Nianru Shen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188833-KRGse7SWvLJx.png"
+        }
+      ]
+    },
+    {
+      "id": 229150,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Stanley",
+        "last": null,
+        "full": "Stanley",
+        "native": "斯坦莉",
+        "userPreferred": "Stanley"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b229150-7Gy2Qa5ZTaQI.png",
+      "voiceActors": [
+        {
+          "id": 174197,
+          "language": "Chinese",
+          "name": {
+            "first": "Xinzhu",
+            "last": "Tong",
+            "full": "Xinzhu Tong",
+            "native": "佟心竹",
+            "userPreferred": "Xinzhu Tong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n174197-DHEHKCvz0eUo.png"
+        }
+      ]
+    },
+    {
+      "id": 229124,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Canon",
+        "last": null,
+        "full": "Canon",
+        "native": "卡农",
+        "userPreferred": "Canon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b229124-tPO5ik84gKTJ.png",
+      "voiceActors": [
+        {
+          "id": 217579,
+          "language": "Chinese",
+          "name": {
+            "first": "Zhenji",
+            "last": "Huang",
+            "full": "Zhenji Huang",
+            "native": "皇贞季",
+            "userPreferred": "Zhenji Huang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n217579-QKtCvwQVNGIt.png"
+        }
+      ]
+    },
+    {
+      "id": 229134,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Aoze",
+        "last": null,
+        "full": "Aoze",
+        "native": "傲泽",
+        "userPreferred": "Aoze"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 163272,
+          "language": "Chinese",
+          "name": {
+            "first": "Hameng",
+            "last": "Tute",
+            "full": "Hameng Tute",
+            "native": "图特哈蒙",
+            "userPreferred": "Hameng Tute"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n163272-zMPUL6ULEbrP.png"
+        }
+      ]
+    },
+    {
+      "id": 229143,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Keke Ba",
+        "last": null,
+        "full": "Keke Ba",
+        "native": "可可爸",
+        "userPreferred": "Keke Ba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 218483,
+          "language": "Chinese",
+          "name": {
+            "first": "Enze",
+            "last": "Zhang",
+            "full": "Enze Zhang",
+            "native": "张恩泽",
+            "userPreferred": "Enze Zhang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n218483-pulGhn4xqijv.png"
+        }
+      ]
+    },
+    {
+      "id": 229151,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Andy",
+        "last": null,
+        "full": "Andy",
+        "native": "安迪",
+        "userPreferred": "Andy"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b229151-znFZhQLOJECa.png",
+      "voiceActors": [
+        {
+          "id": 217497,
+          "language": "Chinese",
+          "name": {
+            "first": "Zhiqiu",
+            "last": "Ye",
+            "full": "Zhiqiu Ye",
+            "native": "叶知秋",
+            "userPreferred": "Zhiqiu Ye"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n217497-zkHLmFbeESW2.png"
+        }
+      ]
+    },
+    {
+      "id": 229126,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Maiyane",
+        "last": null,
+        "full": "Maiyane",
+        "native": "玛伊亚涅",
+        "userPreferred": "Maiyane"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b229126-8cKuktkxSXub.png",
+      "voiceActors": [
+        {
+          "id": 163264,
+          "language": "Chinese",
+          "name": {
+            "first": "Xin",
+            "last": "Shan",
+            "full": "Xin Shan",
+            "native": "山新",
+            "userPreferred": "Xin Shan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n163264-uAqkdQmp7QwE.png"
+        }
+      ]
+    },
+    {
+      "id": 229135,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Guanjia",
+        "last": null,
+        "full": "Guanjia",
+        "native": "管家",
+        "userPreferred": "Guanjia"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 163269,
+          "language": "Chinese",
+          "name": {
+            "first": "Siyu",
+            "last": "Chen",
+            "full": "Siyu Chen",
+            "native": "陈思宇",
+            "userPreferred": "Siyu Chen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n163269-yuQ26sh6vjJ8.png"
+        }
+      ]
+    },
+    {
+      "id": 229144,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Keke Ma",
+        "last": null,
+        "full": "Keke Ma",
+        "native": "可可妈",
+        "userPreferred": "Keke Ma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 188465,
+          "language": "Chinese",
+          "name": {
+            "first": "Qi",
+            "last": "Jin",
+            "full": "Qi Jin",
+            "native": "金琪",
+            "userPreferred": "Qi Jin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188465-wADxQuuxaI5A.png"
+        }
+      ]
+    },
+    {
+      "id": 229152,
+      "role": "SUPPORTING",
+      "name": {
+        "first": null,
+        "last": "Du Wang",
+        "full": "Du Wang",
+        "native": "毒王",
+        "userPreferred": "Du Wang"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 218483,
+          "language": "Chinese",
+          "name": {
+            "first": "Enze",
+            "last": "Zhang",
+            "full": "Enze Zhang",
+            "native": "张恩泽",
+            "userPreferred": "Enze Zhang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n218483-pulGhn4xqijv.png"
+        }
+      ]
+    },
+    {
+      "id": 229127,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Youli",
+        "last": null,
+        "full": "Youli",
+        "native": "幽丽",
+        "userPreferred": "Youli"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b229127-eHjd9hJs6OSL.png",
+      "voiceActors": [
+        {
+          "id": 217497,
+          "language": "Chinese",
+          "name": {
+            "first": "Zhiqiu",
+            "last": "Ye",
+            "full": "Zhiqiu Ye",
+            "native": "叶知秋",
+            "userPreferred": "Zhiqiu Ye"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n217497-zkHLmFbeESW2.png"
+        }
+      ]
+    },
+    {
+      "id": 229136,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Xingu",
+        "last": null,
+        "full": "Xingu",
+        "native": "辛古",
+        "userPreferred": "Xingu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 218608,
+          "language": "Chinese",
+          "name": {
+            "first": "Yingjun",
+            "last": "Jiang",
+            "full": "Yingjun Jiang",
+            "native": "姜英俊",
+            "userPreferred": "Yingjun Jiang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n218608-gYaQ7UdI9ZFK.png"
+        }
+      ]
+    },
+    {
+      "id": 229145,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Wenjing",
+        "last": null,
+        "full": "Wenjing",
+        "native": "文静",
+        "userPreferred": "Wenjing"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 163165,
+          "language": "Chinese",
+          "name": {
+            "first": "Tengxin",
+            "last": "",
+            "full": "Tengxin",
+            "native": "藤新",
+            "userPreferred": "Tengxin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n163165-M71Ui3wUubzz.png"
+        }
+      ]
+    },
+    {
+      "id": 229153,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mengmeng",
+        "last": null,
+        "full": "Mengmeng",
+        "native": "梦梦",
+        "userPreferred": "Mengmeng"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 217356,
+          "language": "Chinese",
+          "name": {
+            "first": "Meme",
+            "last": "Yan",
+            "full": "Meme Yan",
+            "native": "阎么么",
+            "userPreferred": "Meme Yan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n217356-v83Bzw8cePO6.png"
+        }
+      ]
+    },
+    {
+      "id": 229128,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Qiluoluo",
+        "last": null,
+        "full": "Qiluoluo",
+        "native": "弃罗罗",
+        "userPreferred": "Qiluoluo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b229128-rbonejObFp7L.png",
+      "voiceActors": [
+        {
+          "id": 188374,
+          "language": "Chinese",
+          "name": {
+            "first": "Lanling",
+            "last": "Li",
+            "full": "Lanling Li",
+            "native": "李兰陵",
+            "userPreferred": "Lanling Li"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188374-kWjAs9h1w4Oi.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 139605,
+      "relationType": "ADAPTATION",
+      "malId": 151054,
+      "title": {
+        "romaji": "Shi Huang Zhi Shen",
+        "english": "God of Deception",
+        "native": "嗜谎之神",
+        "userPreferred": "Shi Huang Zhi Shen"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx139605-1ky3WUIQQqTm.jpg",
+      "color": "#e49328",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx139605-1ky3WUIQQqTm.jpg",
+      "rating": 76
+    }
+  ],
+  "episodes": [
+    {
+      "id": "shi-huang-zhi-shen-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109150-KGI0tG3v7fjQ.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shi-huang-zhi-shen-episode-1"
+    },
+    {
+      "id": "shi-huang-zhi-shen-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109150-KGI0tG3v7fjQ.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shi-huang-zhi-shen-episode-2"
+    },
+    {
+      "id": "shi-huang-zhi-shen-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109150-KGI0tG3v7fjQ.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shi-huang-zhi-shen-episode-3"
+    },
+    {
+      "id": "shi-huang-zhi-shen-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109150-KGI0tG3v7fjQ.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shi-huang-zhi-shen-episode-4"
+    },
+    {
+      "id": "shi-huang-zhi-shen-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109150-KGI0tG3v7fjQ.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shi-huang-zhi-shen-episode-5"
+    },
+    {
+      "id": "shi-huang-zhi-shen-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109150-KGI0tG3v7fjQ.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shi-huang-zhi-shen-episode-6"
+    },
+    {
+      "id": "shi-huang-zhi-shen-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109150-KGI0tG3v7fjQ.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shi-huang-zhi-shen-episode-7"
+    },
+    {
+      "id": "shi-huang-zhi-shen-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109150-KGI0tG3v7fjQ.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shi-huang-zhi-shen-episode-8"
+    },
+    {
+      "id": "shi-huang-zhi-shen-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109150-KGI0tG3v7fjQ.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shi-huang-zhi-shen-episode-9"
+    },
+    {
+      "id": "shi-huang-zhi-shen-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109150-KGI0tG3v7fjQ.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shi-huang-zhi-shen-episode-10"
+    },
+    {
+      "id": "shi-huang-zhi-shen-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109150-KGI0tG3v7fjQ.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shi-huang-zhi-shen-episode-11"
+    },
+    {
+      "id": "shi-huang-zhi-shen-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109150-KGI0tG3v7fjQ.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shi-huang-zhi-shen-episode-12"
+    },
+    {
+      "id": "shi-huang-zhi-shen-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109150-KGI0tG3v7fjQ.jpg",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shi-huang-zhi-shen-episode-13"
+    }
+  ]
+}

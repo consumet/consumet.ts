@@ -1,0 +1,884 @@
+{
+  "id": "99624",
+  "title": {
+    "romaji": "Kemono Friends 2",
+    "english": "Kemono Friends 2",
+    "native": "けものフレンズ 2"
+  },
+  "malId": 35313,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "ckAJGAOOa1M",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/ckAJGAOOa1M/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99624-E3pSM9JgOGVc.jpg",
+  "popularity": 5050,
+  "color": "#5da1e4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99624-U9BzGBqeriEl.jpg",
+  "description": "Serval and Caracal find a \"human\" child in the forest. As they travel with the child, they meet new Friends, uncover the secrets of Japari Park, and become involved in an event that will \"shake the earth.\"<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2019,
+  "startDate": {
+    "year": 2019,
+    "month": 1,
+    "day": 15
+  },
+  "endDate": {
+    "year": 2019,
+    "month": 4,
+    "day": 2
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 53,
+  "duration": 23,
+  "genres": [
+    "Comedy"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "Tomason"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 112293,
+      "malId": 40483,
+      "title": {
+        "romaji": "Murenase! Seton Gakuen",
+        "english": "Seton Academy: Join the Pack!",
+        "native": "群れなせ！シートン学園",
+        "userPreferred": "Murenase! Seton Gakuen"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112293-UXFSGOfRbBe8.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112293-dgnTgHiXyAIc.jpg",
+      "rating": 67,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 128489,
+      "role": "MAIN",
+      "name": {
+        "first": "Lucky Beast",
+        "last": "",
+        "full": "Lucky Beast",
+        "native": "ラッキービースト",
+        "userPreferred": "Lucky Beast"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n128489-oF7QinncUY97.jpg",
+      "voiceActors": [
+        {
+          "id": 103921,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Uchida",
+            "full": "Aya Uchida",
+            "native": "内田彩",
+            "userPreferred": "Aya Uchida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103921-bnSaJsF0jgH1.png"
+        }
+      ]
+    },
+    {
+      "id": 122324,
+      "role": "MAIN",
+      "name": {
+        "first": "Serval",
+        "last": "",
+        "full": "Serval",
+        "native": "サーバル",
+        "userPreferred": "Serval"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/122324-sYmcOVD85B4O.png",
+      "voiceActors": [
+        {
+          "id": 122322,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuka",
+            "last": "Ozaki",
+            "full": "Yuka Ozaki",
+            "native": "尾崎由香",
+            "userPreferred": "Yuka Ozaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/122322-xmIT4uI4lB5J.png"
+        }
+      ]
+    },
+    {
+      "id": 133540,
+      "role": "MAIN",
+      "name": {
+        "first": "Caracal",
+        "last": null,
+        "full": "Caracal",
+        "native": "カラカル",
+        "userPreferred": "Caracal"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n133540-2LdEzlNzmMSC.png",
+      "voiceActors": [
+        {
+          "id": 133546,
+          "language": "Japanese",
+          "name": {
+            "first": "Riko",
+            "last": "Koike",
+            "full": "Riko Koike",
+            "native": "小池理子",
+            "userPreferred": "Riko Koike"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n133546-F4kW0WBxO7AD.png"
+        }
+      ]
+    },
+    {
+      "id": 133534,
+      "role": "MAIN",
+      "name": {
+        "first": "Kyururu",
+        "last": null,
+        "full": "Kyururu",
+        "native": "キュルル",
+        "userPreferred": "Kyururu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n133534-MSFhKLumNyz4.png",
+      "voiceActors": [
+        {
+          "id": 100142,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Ishikawa",
+            "full": "Yui Ishikawa",
+            "native": "石川由依",
+            "userPreferred": "Yui Ishikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100142-k6RP0HzXffUG.png"
+        }
+      ]
+    },
+    {
+      "id": 133538,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Iwatobi Penguin",
+        "last": null,
+        "full": "Iwatobi Penguin",
+        "native": "イワトビペンギン",
+        "userPreferred": "Iwatobi Penguin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n133538-hAqSw5GvJWpu.png",
+      "voiceActors": [
+        {
+          "id": 126659,
+          "language": "Japanese",
+          "name": {
+            "first": "Aina",
+            "last": "Aiba",
+            "full": "Aina Aiba",
+            "native": "相羽あいな",
+            "userPreferred": "Aina Aiba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n126659-tE8qI5LLjbVF.jpg"
+        }
+      ]
+    },
+    {
+      "id": 151246,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bandouiruka ",
+        "last": null,
+        "full": "Bandouiruka ",
+        "native": "バンドウイルカ",
+        "userPreferred": "Bandouiruka "
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b151246-G5lpxDdf8UJX.jpg",
+      "voiceActors": [
+        {
+          "id": 119822,
+          "language": "Japanese",
+          "name": {
+            "first": "Hina",
+            "last": "Kino",
+            "full": "Hina Kino",
+            "native": "木野日菜",
+            "userPreferred": "Hina Kino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/24822-ry2jbsM1CjQa.jpg"
+        }
+      ]
+    },
+    {
+      "id": 151254,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kuro Hyou",
+        "last": null,
+        "full": "Kuro Hyou",
+        "native": "クロヒョウ",
+        "userPreferred": "Kuro Hyou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b151254-uaA7tUxkMHB5.jpg",
+      "voiceActors": [
+        {
+          "id": 119959,
+          "language": "Japanese",
+          "name": {
+            "first": "Satsumi",
+            "last": "Matsuda",
+            "full": "Satsumi Matsuda",
+            "native": "松田颯水",
+            "userPreferred": "Satsumi Matsuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119959-dN9jj8PMUmiU.png"
+        }
+      ]
+    },
+    {
+      "id": 151263,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Oosenzankou",
+        "last": null,
+        "full": "Oosenzankou",
+        "native": "オオセンザンコウ",
+        "userPreferred": "Oosenzankou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b151263-6k2ZrohzLPdi.png",
+      "voiceActors": [
+        {
+          "id": 118723,
+          "language": "Japanese",
+          "name": {
+            "first": "Saki",
+            "last": "Ono",
+            "full": "Saki Ono",
+            "native": "小野早稀",
+            "userPreferred": "Saki Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118723-3HcrMheBwGaa.png"
+        }
+      ]
+    },
+    {
+      "id": 151273,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kanzashi Fuuchou",
+        "last": null,
+        "full": "Kanzashi Fuuchou",
+        "native": "カンザシフウチョウ",
+        "userPreferred": "Kanzashi Fuuchou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b151273-8LfJtPKZbi0L.jpg",
+      "voiceActors": [
+        {
+          "id": 151271,
+          "language": "Japanese",
+          "name": {
+            "first": "Madoka",
+            "last": "Kan",
+            "full": "Madoka Kan",
+            "native": "菅まどか",
+            "userPreferred": "Madoka Kan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n151271-ztY7gRJ4DdlV.png"
+        }
+      ]
+    },
+    {
+      "id": 133539,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Emperor Penguin",
+        "last": null,
+        "full": "Emperor Penguin",
+        "native": "コウテイペンギン",
+        "userPreferred": "Emperor Penguin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n133539-lE3dvifemNoI.png",
+      "voiceActors": [
+        {
+          "id": 133545,
+          "language": "Japanese",
+          "name": {
+            "first": "Ruka",
+            "last": "Nemoto",
+            "full": "Ruka Nemoto",
+            "native": "根本流風",
+            "userPreferred": "Ruka Nemoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n133545-LdIvDpDcNmx1.png"
+        }
+      ]
+    },
+    {
+      "id": 151247,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "California Ashika",
+        "last": null,
+        "full": "California Ashika",
+        "native": "カリフォルニアアシカ",
+        "userPreferred": "California Ashika"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b151247-3kH86rfNcT8c.jpg",
+      "voiceActors": [
+        {
+          "id": 118477,
+          "language": "Japanese",
+          "name": {
+            "first": "Mayu",
+            "last": "Yoshioka",
+            "full": "Mayu Yoshioka",
+            "native": "吉岡茉祐",
+            "userPreferred": "Mayu Yoshioka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118477-3qPqVRGIv40V.jpg"
+        }
+      ]
+    },
+    {
+      "id": 151255,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Megane Kaiman",
+        "last": null,
+        "full": "Megane Kaiman",
+        "native": "メガネカイマン",
+        "userPreferred": "Megane Kaiman"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b151255-LY1h31nbwSBn.jpg",
+      "voiceActors": [
+        {
+          "id": 118920,
+          "language": "Japanese",
+          "name": {
+            "first": "Hitomi",
+            "last": "Oowada",
+            "full": "Hitomi Oowada",
+            "native": "大和田仁美",
+            "userPreferred": "Hitomi Oowada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118920-SpiFYXoPCzkJ.png"
+        }
+      ]
+    },
+    {
+      "id": 151262,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ie Inu",
+        "last": null,
+        "full": "Ie Inu",
+        "native": "イエイヌ（雑種）",
+        "userPreferred": "Ie Inu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b151262-AJ2TWtB14h8e.jpg",
+      "voiceActors": [
+        {
+          "id": 95885,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuka",
+            "last": "Iguchi",
+            "full": "Yuka Iguchi",
+            "native": "井口裕香",
+            "userPreferred": "Yuka Iguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95885-8Le2NWyACKNt.png"
+        }
+      ]
+    },
+    {
+      "id": 151260,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Amur Tora",
+        "last": null,
+        "full": "Amur Tora",
+        "native": "アムールトラ",
+        "userPreferred": "Amur Tora"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b151260-8GlNrOkFvQDw.jpg",
+      "voiceActors": [
+        {
+          "id": 95077,
+          "language": "Japanese",
+          "name": {
+            "first": "Masumi",
+            "last": "Asano",
+            "full": "Masumi Asano",
+            "native": "浅野真澄",
+            "userPreferred": "Masumi Asano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95077-d2OK4xiiRWAu.png"
+        }
+      ]
+    },
+    {
+      "id": 128497,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Araiguma",
+        "last": null,
+        "full": "Araiguma",
+        "native": "アライグマ",
+        "userPreferred": "Araiguma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b128497-n7fJNX8fgpzG.png",
+      "voiceActors": [
+        {
+          "id": 118723,
+          "language": "Japanese",
+          "name": {
+            "first": "Saki",
+            "last": "Ono",
+            "full": "Saki Ono",
+            "native": "小野早稀",
+            "userPreferred": "Saki Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118723-3HcrMheBwGaa.png"
+        }
+      ]
+    },
+    {
+      "id": 151248,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Iriewani",
+        "last": null,
+        "full": "Iriewani",
+        "native": "イリエワニ",
+        "userPreferred": "Iriewani"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b151248-l5TdJgKhsMw7.jpg",
+      "voiceActors": [
+        {
+          "id": 104876,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiromi",
+            "last": "Igarashi",
+            "full": "Hiromi Igarashi",
+            "native": "五十嵐裕美",
+            "userPreferred": "Hiromi Igarashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104876-CF5LzglyzCXx.jpg"
+        }
+      ]
+    },
+    {
+      "id": 151256,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gorilla",
+        "last": null,
+        "full": "Gorilla",
+        "native": "ゴリラ",
+        "userPreferred": "Gorilla"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b151256-hqcjg7Yxi9Nc.jpg",
+      "voiceActors": [
+        {
+          "id": 104973,
+          "language": "Japanese",
+          "name": {
+            "first": "Manami",
+            "last": "Numakura",
+            "full": "Manami Numakura",
+            "native": "沼倉愛美",
+            "userPreferred": "Manami Numakura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104973-rymSxCu8uP0Y.png"
+        }
+      ]
+    },
+    {
+      "id": 151264,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Habu",
+        "last": null,
+        "full": "Habu",
+        "native": "ハブ",
+        "userPreferred": "Habu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b151264-qTkPcQ1PGIi0.jpg",
+      "voiceActors": [
+        {
+          "id": 95655,
+          "language": "Japanese",
+          "name": {
+            "first": "Mariya",
+            "last": "Ise",
+            "full": "Mariya Ise",
+            "native": "伊瀬茉莉也",
+            "userPreferred": "Mariya Ise"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95655-KbQUnQTroukJ.png"
+        }
+      ]
+    },
+    {
+      "id": 129204,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Fennec",
+        "last": null,
+        "full": "Fennec",
+        "native": "フェネック",
+        "userPreferred": "Fennec"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n129204-wMENuXoPk0Ch.jpg",
+      "voiceActors": [
+        {
+          "id": 129205,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Motomiya",
+            "full": "Kana Motomiya",
+            "native": "佳奈 本宮",
+            "userPreferred": "Kana Motomiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n129205-IHF8E9Q1biah.jpg"
+        }
+      ]
+    },
+    {
+      "id": 133541,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Karugamo",
+        "last": null,
+        "full": "Karugamo",
+        "native": "カルガモ",
+        "userPreferred": "Karugamo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n133541-jdZ8D0gRQ5Vr.png",
+      "voiceActors": [
+        {
+          "id": 133547,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuki",
+            "last": "Kaneko",
+            "full": "Yuki Kaneko",
+            "native": "金子有希",
+            "userPreferred": "Yuki Kaneko"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n133547-60vXaoG1Iz46.png"
+        }
+      ]
+    },
+    {
+      "id": 151249,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hyou",
+        "last": null,
+        "full": "Hyou",
+        "native": "ヒョウ",
+        "userPreferred": "Hyou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b151249-dK9TVibMKakz.jpg",
+      "voiceActors": [
+        {
+          "id": 119960,
+          "language": "Japanese",
+          "name": {
+            "first": "Risae",
+            "last": "Matsuda",
+            "full": "Risae Matsuda",
+            "native": "松田利冴",
+            "userPreferred": "Risae Matsuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119960-1b9eah3Af5f2.png"
+        }
+      ]
+    },
+    {
+      "id": 151257,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Oomichibashiri",
+        "last": null,
+        "full": "Oomichibashiri",
+        "native": "オオミチバシリ",
+        "userPreferred": "Oomichibashiri"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b151257-xpkYtkMBnNDe.jpg",
+      "voiceActors": [
+        {
+          "id": 122320,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoyo",
+            "last": "Takayanagi",
+            "full": "Tomoyo Takayanagi",
+            "native": "高柳知葉",
+            "userPreferred": "Tomoyo Takayanagi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n122320-tV8CERbhYcNV.png"
+        }
+      ]
+    },
+    {
+      "id": 151265,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Cheetah",
+        "last": null,
+        "full": "Cheetah",
+        "native": "チーター",
+        "userPreferred": "Cheetah"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b151265-eDX81hq1vsGZ.jpg",
+      "voiceActors": [
+        {
+          "id": 95156,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaori",
+            "last": "Mizuhashi",
+            "full": "Kaori Mizuhashi",
+            "native": "水橋かおり",
+            "userPreferred": "Kaori Mizuhashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95156-7tw0zP396ecG.png"
+        }
+      ]
+    },
+    {
+      "id": 133542,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Margay",
+        "last": null,
+        "full": "Margay",
+        "native": "マーゲイ",
+        "userPreferred": "Margay"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n133542-Iq3r6k4E1SDm.jpg",
+      "voiceActors": [
+        {
+          "id": 133548,
+          "language": "Japanese",
+          "name": {
+            "first": "Mami",
+            "last": "Yamashita",
+            "full": "Mami Yamashita",
+            "native": "山下まみ",
+            "userPreferred": "Mami Yamashita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n133548-bYYDoRomnmis.png"
+        }
+      ]
+    },
+    {
+      "id": 151250,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Aardwolf",
+        "last": null,
+        "full": "Aardwolf",
+        "native": "アードウルフ",
+        "userPreferred": "Aardwolf"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b151250-MyA6HA6P1uhY.jpg",
+      "voiceActors": [
+        {
+          "id": 109161,
+          "language": "Japanese",
+          "name": {
+            "first": "Haruka",
+            "last": "Terui",
+            "full": "Haruka Terui",
+            "native": "照井春佳",
+            "userPreferred": "Haruka Terui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109161-vJHWg4PyYW0a.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 106763,
+      "relationType": "ADAPTATION",
+      "malId": 117268,
+      "title": {
+        "romaji": "Kemono Friends 2",
+        "english": null,
+        "native": "けものフレンズ 2",
+        "userPreferred": "Kemono Friends 2"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx106763-iyaO2WXsvxDY.jpg",
+      "color": "#e4ae28",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx106763-iyaO2WXsvxDY.jpg",
+      "rating": 65
+    },
+    {
+      "id": 87496,
+      "relationType": "PREQUEL",
+      "malId": 33089,
+      "title": {
+        "romaji": "Kemono Friends",
+        "english": null,
+        "native": "けものフレンズ",
+        "userPreferred": "Kemono Friends"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx87496-22ELi0gTAGro.png",
+      "color": "#e4a150",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/87496-OR27I0tcbgzc.jpg",
+      "rating": 72
+    },
+    {
+      "id": 115238,
+      "relationType": "OTHER",
+      "malId": 39653,
+      "title": {
+        "romaji": "Chokotto Anime Kemono Friends 3",
+        "english": null,
+        "native": "ちょこっとアニメ けものフレンズ３",
+        "userPreferred": "Chokotto Anime Kemono Friends 3"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115238-1nK7TTco0HC4.png",
+      "color": "#f19343",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115238-1nK7TTco0HC4.png",
+      "rating": 54
+    }
+  ],
+  "episodes": [
+    {
+      "id": "kemono-friends-2-episode-1",
+      "title": "Beyond Memories",
+      "image": "https://media.kitsu.io/episodes/thumbnails/213499/original.jpg",
+      "number": 1,
+      "createdAt": "2017-08-09T04:45:19Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kemono-friends-2-episode-1"
+    },
+    {
+      "id": "kemono-friends-2-episode-2",
+      "title": "Panda and Panda",
+      "image": "https://media.kitsu.io/episodes/thumbnails/257374/original.jpg",
+      "number": 2,
+      "createdAt": "2018-12-02T01:36:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kemono-friends-2-episode-2"
+    },
+    {
+      "id": "kemono-friends-2-episode-3",
+      "title": "Creatures of the Sea",
+      "image": "https://media.kitsu.io/episodes/thumbnails/257375/original.jpg",
+      "number": 3,
+      "createdAt": "2018-12-02T01:36:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kemono-friends-2-episode-3"
+    },
+    {
+      "id": "kemono-friends-2-episode-4",
+      "title": "Different Kinds of Houses",
+      "image": "https://media.kitsu.io/episodes/thumbnails/257376/original.jpg",
+      "number": 4,
+      "createdAt": "2018-12-02T01:36:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kemono-friends-2-episode-4"
+    },
+    {
+      "id": "kemono-friends-2-episode-5",
+      "title": "The Power of Humans",
+      "image": "https://media.kitsu.io/episodes/thumbnails/257377/original.jpg",
+      "number": 5,
+      "createdAt": "2018-12-02T01:36:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kemono-friends-2-episode-5"
+    },
+    {
+      "id": "kemono-friends-2-episode-6",
+      "title": "A New Morning",
+      "image": "https://media.kitsu.io/episodes/thumbnails/257378/original.jpg",
+      "number": 6,
+      "createdAt": "2018-12-02T01:36:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kemono-friends-2-episode-6"
+    },
+    {
+      "id": "kemono-friends-2-episode-7",
+      "title": "Beyond Speed",
+      "image": "https://media.kitsu.io/episodes/thumbnails/257379/original.jpg",
+      "number": 7,
+      "createdAt": "2018-12-02T01:36:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kemono-friends-2-episode-7"
+    },
+    {
+      "id": "kemono-friends-2-episode-8",
+      "title": "New Song in Concert",
+      "image": "https://media.kitsu.io/episodes/thumbnails/257380/original.jpg",
+      "number": 8,
+      "createdAt": "2018-12-02T01:36:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kemono-friends-2-episode-8"
+    },
+    {
+      "id": "kemono-friends-2-episode-9",
+      "title": "Go Back Home",
+      "image": "https://media.kitsu.io/episodes/thumbnails/257381/original.jpg",
+      "number": 9,
+      "createdAt": "2018-12-02T01:36:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kemono-friends-2-episode-9"
+    },
+    {
+      "id": "kemono-friends-2-episode-10",
+      "title": "Check-in",
+      "image": "https://media.kitsu.io/episodes/thumbnails/257382/original.jpg",
+      "number": 10,
+      "createdAt": "2018-12-02T01:36:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kemono-friends-2-episode-10"
+    },
+    {
+      "id": "kemono-friends-2-episode-11",
+      "title": "The Ocean's Mood",
+      "image": "https://media.kitsu.io/episodes/thumbnails/257383/original.jpg",
+      "number": 11,
+      "createdAt": "2018-12-02T01:36:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kemono-friends-2-episode-11"
+    },
+    {
+      "id": "kemono-friends-2-episode-12",
+      "title": "Untitled",
+      "image": "https://media.kitsu.io/episodes/thumbnails/257384/original.jpg",
+      "number": 12,
+      "createdAt": "2018-12-02T01:36:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kemono-friends-2-episode-12"
+    }
+  ]
+}

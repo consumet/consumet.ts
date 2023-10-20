@@ -1,0 +1,450 @@
+{
+  "id": "5755",
+  "title": {
+    "romaji": "Aoki Ryuusei SPT Layzner OVA",
+    "english": "Blue Comet SPT Layzner",
+    "native": "蒼き流星SPTレイズナー"
+  },
+  "malId": 5755,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx5755-OkEeBIBFm0zd.jpg",
+  "popularity": 763,
+  "color": "#f16b35",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx5755-OkEeBIBFm0zd.jpg",
+  "description": "The Layzner OVA serves as an alternative version of the TV series. <br><br>\nThe first episode, titled \"Eiji 1996\", recaps the first part of the series (episodes 01-24). <br><br>\nThe second episode (\"Le Caine 1999\") takes place after a time skip, and contains episodes 26 through 37 (episode 25 of the TV series, being a recap itself, is skipped here). <br><br>\nThe final episode, \"Seal 2000\", is an expanded version of the final episode of the TV series (38) and features new animation and a longer epilogue. ",
+  "status": "Completed",
+  "releaseDate": 1986,
+  "startDate": {
+    "year": 1986,
+    "month": 8,
+    "day": 21
+  },
+  "endDate": {
+    "year": 1986,
+    "month": 10,
+    "day": 21
+  },
+  "totalEpisodes": 3,
+  "currentEpisode": 3,
+  "rating": 61,
+  "duration": 55,
+  "genres": [
+    "Action",
+    "Mecha",
+    "Sci-Fi"
+  ],
+  "season": "SUMMER",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 9385,
+      "malId": 9385,
+      "title": {
+        "romaji": "Rokushin Gattai GodMars Gekijouban",
+        "english": "Six God Combination GodMars: The Movie",
+        "native": "六神合体ゴッドマーズ 劇場版",
+        "userPreferred": "Rokushin Gattai GodMars Gekijouban"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9385-HDjkeprG8pja.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9385-HDjkeprG8pja.png",
+      "rating": 54,
+      "type": "MOVIE"
+    }
+  ],
+  "characters": [
+    {
+      "id": 9138,
+      "role": "MAIN",
+      "name": {
+        "first": "Eiji",
+        "last": "Asuka",
+        "full": "Eiji Asuka",
+        "native": "エイジ・アスカ",
+        "userPreferred": "Eiji Asuka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9138.jpg",
+      "voiceActors": [
+        {
+          "id": 95021,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuhiko",
+            "last": "Inoue",
+            "full": "Kazuhiko Inoue",
+            "native": "井上和彦",
+            "userPreferred": "Kazuhiko Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95021-9qAoAn6GNZ3S.png"
+        }
+      ]
+    },
+    {
+      "id": 38210,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Arthur",
+        "last": "Cummings Jr.",
+        "full": "Arthur Cummings Jr.",
+        "native": "アーサー・カミングスJr.",
+        "userPreferred": "Arthur Cummings Jr."
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/38210.jpg",
+      "voiceActors": [
+        {
+          "id": 243913,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuji",
+            "last": "Shikamata",
+            "full": "Yuuji Shikamata",
+            "native": "鹿又裕司",
+            "userPreferred": "Yuuji Shikamata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 38208,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Roanne",
+        "last": "Demitrich",
+        "full": "Roanne Demitrich",
+        "native": "ロアン・デミトリッヒ",
+        "userPreferred": "Roanne Demitrich"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/38208.jpg",
+      "voiceActors": [
+        {
+          "id": 102091,
+          "language": "Japanese",
+          "name": {
+            "first": "Katsumi",
+            "last": "Toriumi",
+            "full": "Katsumi Toriumi",
+            "native": "勝美鳥海",
+            "userPreferred": "Katsumi Toriumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7091.jpg"
+        }
+      ]
+    },
+    {
+      "id": 38212,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Julia",
+        "last": "Asuka",
+        "full": "Julia Asuka",
+        "native": "ジュリア・アスカ",
+        "userPreferred": "Julia Asuka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/38212.jpg",
+      "voiceActors": [
+        {
+          "id": 104472,
+          "language": "Japanese",
+          "name": {
+            "first": "Mari",
+            "last": "Yokoo",
+            "full": "Mari Yokoo",
+            "native": "横尾まり",
+            "userPreferred": "Mari Yokoo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104472-lwGxYMW80n8P.png"
+        }
+      ]
+    },
+    {
+      "id": 38215,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "",
+        "last": "Gresco",
+        "full": "Gresco",
+        "native": "グレスコ",
+        "userPreferred": "Gresco"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/38215.jpg",
+      "voiceActors": [
+        {
+          "id": 100766,
+          "language": "Japanese",
+          "name": {
+            "first": "Takeshi",
+            "last": "Watabe",
+            "full": "Takeshi Watabe",
+            "native": "渡部猛",
+            "userPreferred": "Takeshi Watabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100766-pEmshnWgDwiN.png"
+        }
+      ]
+    },
+    {
+      "id": 38213,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rei",
+        "last": null,
+        "full": "Rei",
+        "native": "レイ",
+        "userPreferred": "Rei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/38213.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 38216,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ahmos",
+        "last": "Gale",
+        "full": "Ahmos Gale",
+        "native": "アーマス・ゲイル",
+        "userPreferred": "Ahmos Gale"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/38216.jpg",
+      "voiceActors": [
+        {
+          "id": 96027,
+          "language": "Japanese",
+          "name": {
+            "first": "Hideyuki",
+            "last": "Hori",
+            "full": "Hideyuki Hori",
+            "native": "堀秀行",
+            "userPreferred": "Hideyuki Hori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96027-mDC23xjXMdC5.png"
+        }
+      ]
+    },
+    {
+      "id": 9139,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Le",
+        "last": "Cain",
+        "full": "Le Cain",
+        "native": "ル・カイン",
+        "userPreferred": "Le Cain"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9139.jpg",
+      "voiceActors": [
+        {
+          "id": 95424,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaneto",
+            "last": "Shiozawa",
+            "full": "Kaneto Shiozawa",
+            "native": "塩沢兼人",
+            "userPreferred": "Kaneto Shiozawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95424-Zd7vHDVhSWKs.jpg"
+        }
+      ]
+    },
+    {
+      "id": 38206,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Anna",
+        "last": "Stephanie",
+        "full": "Anna Stephanie",
+        "native": "アンナ・ステファニー",
+        "userPreferred": "Anna Stephanie"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/38206.jpg",
+      "voiceActors": [
+        {
+          "id": 103760,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroko",
+            "last": "Emori",
+            "full": "Hiroko Emori",
+            "native": "江森浩子",
+            "userPreferred": "Hiroko Emori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103760-dpGyjwM4R4Uz.png"
+        }
+      ]
+    },
+    {
+      "id": 38217,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Fouron",
+        "last": null,
+        "full": "Fouron",
+        "native": null,
+        "userPreferred": "Fouron"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 38207,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "David",
+        "last": "Rutherford",
+        "full": "David Rutherford",
+        "native": "デビッド・ラザフォード",
+        "userPreferred": "David Rutherford"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/38207.jpg",
+      "voiceActors": [
+        {
+          "id": 101602,
+          "language": "Japanese",
+          "name": {
+            "first": "Hideyuki",
+            "last": "Umezu",
+            "full": "Hideyuki Umezu",
+            "native": "梅津秀行",
+            "userPreferred": "Hideyuki Umezu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101602-wUvWtCkvNGNB.jpg"
+        }
+      ]
+    },
+    {
+      "id": 38211,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Elizabeth",
+        "last": "Clabery",
+        "full": "Elizabeth Clabery",
+        "native": "エリザベス・クレブリー",
+        "userPreferred": "Elizabeth Clabery"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/38211.jpg",
+      "voiceActors": [
+        {
+          "id": 96271,
+          "language": "Japanese",
+          "name": {
+            "first": "Keiko",
+            "last": "Toda",
+            "full": "Keiko Toda",
+            "native": "戸田恵子",
+            "userPreferred": "Keiko Toda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96271-m3jBqqUfSo33.jpg"
+        }
+      ]
+    },
+    {
+      "id": 38209,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Simone",
+        "last": "Reflann",
+        "full": "Simone Reflann",
+        "native": "シモーヌ・ルフラン",
+        "userPreferred": "Simone Reflann"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/38209.jpg",
+      "voiceActors": [
+        {
+          "id": 96067,
+          "language": "Japanese",
+          "name": {
+            "first": "Fumi",
+            "last": "Hirano",
+            "full": "Fumi Hirano",
+            "native": "平野文",
+            "userPreferred": "Fumi Hirano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96067-Joe6uMJ9OgXF.png"
+        }
+      ]
+    },
+    {
+      "id": 38214,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gosterro",
+        "last": null,
+        "full": "Gosterro",
+        "native": "ゴステロ",
+        "userPreferred": "Gosterro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/38214.jpg",
+      "voiceActors": [
+        {
+          "id": 102886,
+          "language": "Japanese",
+          "name": {
+            "first": "Masashi",
+            "last": "Hirose",
+            "full": "Masashi Hirose",
+            "native": "広瀬正志",
+            "userPreferred": "Masashi Hirose"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7886.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 3079,
+      "relationType": "ALTERNATIVE",
+      "malId": 3079,
+      "title": {
+        "romaji": "Aoki Ryuusei SPT Layzner",
+        "english": "Blue Comet SPT Layzner",
+        "native": "蒼き流星SPTレイズナー",
+        "userPreferred": "Aoki Ryuusei SPT Layzner"
+      },
+      "status": "Completed",
+      "episodes": 38,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3079-JDUaluzPIDps.jpg",
+      "color": "#5086e4",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/3079-uqMaDfmNrtfA.jpg",
+      "rating": 65
+    }
+  ],
+  "episodes": [
+    {
+      "id": "aoki-ryuusei-spt-layzner-ova-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx5755-OkEeBIBFm0zd.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//aoki-ryuusei-spt-layzner-ova-episode-1"
+    },
+    {
+      "id": "aoki-ryuusei-spt-layzner-ova-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx5755-OkEeBIBFm0zd.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//aoki-ryuusei-spt-layzner-ova-episode-2"
+    },
+    {
+      "id": "aoki-ryuusei-spt-layzner-ova-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx5755-OkEeBIBFm0zd.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//aoki-ryuusei-spt-layzner-ova-episode-3"
+    }
+  ]
+}

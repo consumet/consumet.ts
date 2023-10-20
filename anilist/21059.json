@@ -1,0 +1,379 @@
+{
+  "id": "21059",
+  "title": {
+    "romaji": "Danchigai",
+    "english": "Danchigai",
+    "native": "だんちがい"
+  },
+  "malId": 30127,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "T2MtmwckgP0",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/T2MtmwckgP0/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21059-hiwZMOWm2khS.jpg",
+  "popularity": 22558,
+  "color": "#aee443",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21059-gzeX4kRNWPCp.jpg",
+  "description": "The original manga follows the everyday lives of five siblings, four sisters and one brother, who share a multi-unit apartment.<br>\n<br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2015,
+  "startDate": {
+    "year": 2015,
+    "month": 7,
+    "day": 10
+  },
+  "endDate": {
+    "year": 2015,
+    "month": 9,
+    "day": 25
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 61,
+  "duration": 4,
+  "genres": [
+    "Comedy",
+    "Slice of Life"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Creators in Pack"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 2963,
+      "malId": 2963,
+      "title": {
+        "romaji": "Minami-ke",
+        "english": null,
+        "native": "みなみけ",
+        "userPreferred": "Minami-ke"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2963-JxvWsnzcs4IP.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2963-WP4D4YxOk04F.jpg",
+      "rating": 73,
+      "type": "TV"
+    },
+    {
+      "id": 144676,
+      "malId": 50955,
+      "title": {
+        "romaji": "Onipan!",
+        "english": "Onipan!",
+        "native": "おにぱん！",
+        "userPreferred": "Onipan!"
+      },
+      "status": "Completed",
+      "episodes": 60,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx144676-xnbnEthBjW3L.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/144676-ocCJbtichr57.jpg",
+      "rating": 62,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 20473,
+      "malId": 20931,
+      "title": {
+        "romaji": "Onee-chan ga Kita",
+        "english": "My Big Sister Arrived",
+        "native": "お姉ちゃんが来た",
+        "userPreferred": "Onee-chan ga Kita"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20473-NcBriU779t0k.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20473-CuifGGggRCL2.jpg",
+      "rating": 60,
+      "type": "TV_SHORT"
+    }
+  ],
+  "characters": [
+    {
+      "id": 89104,
+      "role": "MAIN",
+      "name": {
+        "first": "Mutsuki",
+        "last": "Nakano",
+        "full": "Mutsuki Nakano",
+        "native": "仲野夢月",
+        "userPreferred": "Mutsuki Nakano"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b89104-NBBcOsndyWoZ.png",
+      "voiceActors": [
+        {
+          "id": 95723,
+          "language": "Japanese",
+          "name": {
+            "first": "Satomi",
+            "last": "Akesaka",
+            "full": "Satomi Akesaka",
+            "native": "明坂聡美",
+            "userPreferred": "Satomi Akesaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95723-bV625Jngt5o6.png"
+        }
+      ]
+    },
+    {
+      "id": 134866,
+      "role": "MAIN",
+      "name": {
+        "first": "Uzuki",
+        "last": "Nakano",
+        "full": "Uzuki Nakano",
+        "native": "仲野羽月",
+        "userPreferred": "Uzuki Nakano"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b134866-oHdivrcgL6ye.jpg",
+      "voiceActors": [
+        {
+          "id": 106361,
+          "language": "Japanese",
+          "name": {
+            "first": "Sora",
+            "last": "Tokui",
+            "full": "Sora Tokui",
+            "native": "徳井青空",
+            "userPreferred": "Sora Tokui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106361-EMvWLkEKavEM.png"
+        }
+      ]
+    },
+    {
+      "id": 134865,
+      "role": "MAIN",
+      "name": {
+        "first": "Satsuki",
+        "last": "Nakano",
+        "full": "Satsuki Nakano",
+        "native": "仲野咲月",
+        "userPreferred": "Satsuki Nakano"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b134865-aqxlN900syvv.png",
+      "voiceActors": [
+        {
+          "id": 133656,
+          "language": "Japanese",
+          "name": {
+            "first": "Sayaka",
+            "last": "Horino",
+            "full": "Sayaka Horino",
+            "native": "紗也加 堀野",
+            "userPreferred": "Sayaka Horino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n133656-2QTUbXcDINOB.jpg"
+        }
+      ]
+    },
+    {
+      "id": 134863,
+      "role": "MAIN",
+      "name": {
+        "first": "Yayoi",
+        "last": "Nakano",
+        "full": "Yayoi Nakano",
+        "native": "仲野弥生",
+        "userPreferred": "Yayoi Nakano"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b134863-pJ977mBJhgVL.png",
+      "voiceActors": [
+        {
+          "id": 105071,
+          "language": "Japanese",
+          "name": {
+            "first": "Mikako",
+            "last": "Komatsu",
+            "full": "Mikako Komatsu",
+            "native": "小松未可子",
+            "userPreferred": "Mikako Komatsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105071-Hcj0X2gcliPq.png"
+        }
+      ]
+    },
+    {
+      "id": 134864,
+      "role": "MAIN",
+      "name": {
+        "first": "Haruki",
+        "last": "Nakano",
+        "full": "Haruki Nakano",
+        "native": "仲野晴輝",
+        "userPreferred": "Haruki Nakano"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b134864-EnygTFDldF6B.png",
+      "voiceActors": [
+        {
+          "id": 95991,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsushi",
+            "last": "Abe",
+            "full": "Atsushi Abe",
+            "native": "阿部敦",
+            "userPreferred": "Atsushi Abe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95991-4u24gUBgqeTA.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 21381,
+      "relationType": "SIDE_STORY",
+      "malId": 31683,
+      "title": {
+        "romaji": "Danchigai Special",
+        "english": null,
+        "native": "だんちがい 未放送1話",
+        "userPreferred": "Danchigai Special"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21381-9c2jemtO2UiE.jpg",
+      "color": "#f1bb43",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21381-GXZ5LNV49MrS.jpg",
+      "rating": 61
+    },
+    {
+      "id": 86517,
+      "relationType": "ADAPTATION",
+      "malId": 86633,
+      "title": {
+        "romaji": "Danchigai",
+        "english": null,
+        "native": "だんちがい",
+        "userPreferred": "Danchigai"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx86517-MxCyzcvu4Oxp.jpg",
+      "color": "#5dbbe4",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/86517-X0cKuHDeOgdC.jpg",
+      "rating": 75
+    }
+  ],
+  "episodes": [
+    {
+      "id": "danchigai-episode-1",
+      "title": "Building One: The Yumeno Apartments",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21059-hiwZMOWm2khS.jpg",
+      "number": 1,
+      "createdAt": "2015-05-23T15:21:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//danchigai-episode-1"
+    },
+    {
+      "id": "danchigai-episode-2",
+      "title": "Building Two:The Twin's Homework",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21059-hiwZMOWm2khS.jpg",
+      "number": 2,
+      "createdAt": "2015-05-23T15:21:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//danchigai-episode-2"
+    },
+    {
+      "id": "danchigai-episode-3",
+      "title": "Building Three: Mutsuki's True Colors",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21059-hiwZMOWm2khS.jpg",
+      "number": 3,
+      "createdAt": "2015-05-23T15:21:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//danchigai-episode-3"
+    },
+    {
+      "id": "danchigai-episode-4",
+      "title": "Building Four: Curry and Rice",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21059-hiwZMOWm2khS.jpg",
+      "number": 4,
+      "createdAt": "2015-05-23T15:21:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//danchigai-episode-4"
+    },
+    {
+      "id": "danchigai-episode-5",
+      "title": "Building Five: Satsuki's Anime Clock",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21059-hiwZMOWm2khS.jpg",
+      "number": 5,
+      "createdAt": "2015-05-23T15:21:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//danchigai-episode-5"
+    },
+    {
+      "id": "danchigai-episode-6",
+      "title": "Building Six: The Siblings' Multiplication",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21059-hiwZMOWm2khS.jpg",
+      "number": 6,
+      "createdAt": "2015-05-23T15:21:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//danchigai-episode-6"
+    },
+    {
+      "id": "danchigai-episode-7",
+      "title": "Building Seven: The Apartment Complex's Pool Opening?!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21059-hiwZMOWm2khS.jpg",
+      "number": 7,
+      "createdAt": "2015-05-23T15:21:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//danchigai-episode-7"
+    },
+    {
+      "id": "danchigai-episode-8",
+      "title": "Building Eight: Definitely Siblings",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21059-hiwZMOWm2khS.jpg",
+      "number": 8,
+      "createdAt": "2015-05-23T15:21:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//danchigai-episode-8"
+    },
+    {
+      "id": "danchigai-episode-9",
+      "title": "Building Nine: For the Love of Pranks?!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21059-hiwZMOWm2khS.jpg",
+      "number": 9,
+      "createdAt": "2015-05-23T15:21:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//danchigai-episode-9"
+    },
+    {
+      "id": "danchigai-episode-10",
+      "title": "Building Ten: Mutsuki's Request?!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21059-hiwZMOWm2khS.jpg",
+      "number": 10,
+      "createdAt": "2015-05-23T15:21:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//danchigai-episode-10"
+    },
+    {
+      "id": "danchigai-episode-11",
+      "title": "Building Eleven: How Yayoi Nurses?!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21059-hiwZMOWm2khS.jpg",
+      "number": 11,
+      "createdAt": "2015-05-23T15:21:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//danchigai-episode-11"
+    },
+    {
+      "id": "danchigai-episode-12",
+      "title": "Building Twelve: The Bond Between Haruki and His Sisters",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21059-hiwZMOWm2khS.jpg",
+      "number": 12,
+      "createdAt": "2015-05-23T15:21:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//danchigai-episode-12"
+    }
+  ]
+}

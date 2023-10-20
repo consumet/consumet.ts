@@ -1,0 +1,823 @@
+{
+  "id": "653",
+  "title": {
+    "romaji": "Galaxy Angel A",
+    "english": "Galaxy Angel A",
+    "native": "ギャラクシーエンジェルA"
+  },
+  "malId": 653,
+  "synonyms": [
+    "Galaxy Angel AA"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/653.jpg",
+  "popularity": 1797,
+  "color": "#ffe443",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/653.jpg",
+  "description": "Their mission is to locate and retrieve the mysterious Lost Technology, even though these girls have never been known to stick to their mission. Milfeulle, Forte, Ranpha, Mint, and Vanilla are back for another round of hilarity. The Galaxy Angels have sworn to protect the galaxy one planet at a time. Now with some competition with the newly-formed Twin Star Brigade, they continue to find themselves in the center of chaos... though usually they're the ones at fault for its cause.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2002,
+  "startDate": {
+    "year": 2002,
+    "month": 10,
+    "day": 6
+  },
+  "endDate": {
+    "year": 2003,
+    "month": 3,
+    "day": 31
+  },
+  "totalEpisodes": 26,
+  "currentEpisode": 26,
+  "rating": 68,
+  "duration": 24,
+  "genres": [
+    "Comedy",
+    "Sci-Fi"
+  ],
+  "season": "FALL",
+  "studios": [
+    "MADHOUSE"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 3171,
+      "role": "MAIN",
+      "name": {
+        "first": "Milfeulle",
+        "last": "Sakuraba",
+        "full": "Milfeulle Sakuraba",
+        "native": "ミルフィーユ・桜葉",
+        "userPreferred": "Milfeulle Sakuraba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b3171-eH7hl2FWuQB1.jpg",
+      "voiceActors": [
+        {
+          "id": 95315,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouko",
+            "last": "Shintani",
+            "full": "Ryouko Shintani",
+            "native": "新谷良子",
+            "userPreferred": "Ryouko Shintani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95315-6lzPWFB0mhh8.png"
+        },
+        {
+          "id": 95879,
+          "language": "English",
+          "name": {
+            "first": "Jocelyne",
+            "last": "Loewen",
+            "full": "Jocelyne Loewen",
+            "native": null,
+            "userPreferred": "Jocelyne Loewen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95879-VUlw0ouH7zdi.jpg"
+        },
+        {
+          "id": 100085,
+          "language": "Portuguese",
+          "name": {
+            "first": "Daniela",
+            "last": "Piquet",
+            "full": "Daniela Piquet",
+            "native": null,
+            "userPreferred": "Daniela Piquet"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5085.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3172,
+      "role": "MAIN",
+      "name": {
+        "first": "Mint",
+        "last": "Blancmanche",
+        "full": "Mint Blancmanche",
+        "native": "ミント・ブラマンシュ",
+        "userPreferred": "Mint Blancmanche"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3172.jpg",
+      "voiceActors": [
+        {
+          "id": 95099,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyuki",
+            "last": "Sawashiro",
+            "full": "Miyuki Sawashiro",
+            "native": "沢城みゆき",
+            "userPreferred": "Miyuki Sawashiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95099-jKP4LfPWqetk.jpg"
+        },
+        {
+          "id": 95443,
+          "language": "English",
+          "name": {
+            "first": "Nicole",
+            "last": "Bouma",
+            "full": "Nicole Bouma",
+            "native": null,
+            "userPreferred": "Nicole Bouma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95443-iQ2opI1W3srj.png"
+        },
+        {
+          "id": 100178,
+          "language": "Portuguese",
+          "name": {
+            "first": "Samira",
+            "last": "Fernandes",
+            "full": "Samira Fernandes",
+            "native": null,
+            "userPreferred": "Samira Fernandes"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5178.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3174,
+      "role": "MAIN",
+      "name": {
+        "first": "Forte",
+        "last": "Stollen",
+        "full": "Forte Stollen",
+        "native": "フォルテ・シュトーレン",
+        "userPreferred": "Forte Stollen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3174.jpg",
+      "voiceActors": [
+        {
+          "id": 95316,
+          "language": "Japanese",
+          "name": {
+            "first": "Mayumi",
+            "last": "Yamaguchi",
+            "full": "Mayumi Yamaguchi",
+            "native": "山口眞弓",
+            "userPreferred": "Mayumi Yamaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95316-sp5oQEI6tURH.png"
+        },
+        {
+          "id": 95841,
+          "language": "English",
+          "name": {
+            "first": "Alison",
+            "last": "Matthews",
+            "full": "Alison Matthews",
+            "native": null,
+            "userPreferred": "Alison Matthews"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/841.jpg"
+        },
+        {
+          "id": 174304,
+          "language": "Portuguese",
+          "name": {
+            "first": "Fernanda",
+            "last": "Bock",
+            "full": "Fernanda Bock",
+            "native": null,
+            "userPreferred": "Fernanda Bock"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n174304-Ka1EWA2PLfyD.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3173,
+      "role": "MAIN",
+      "name": {
+        "first": "Ranpha",
+        "last": "Franboise",
+        "full": "Ranpha Franboise",
+        "native": "蘭花・フランボワーズ",
+        "userPreferred": "Ranpha Franboise"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3173.jpg",
+      "voiceActors": [
+        {
+          "id": 95027,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukari",
+            "last": "Tamura",
+            "full": "Yukari Tamura",
+            "native": "田村ゆかり",
+            "userPreferred": "Yukari Tamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95027-Zm9onZDUN7ih.jpg"
+        },
+        {
+          "id": 105718,
+          "language": "English",
+          "name": {
+            "first": "Nicole",
+            "last": "Leroux",
+            "full": "Nicole Leroux",
+            "native": null,
+            "userPreferred": "Nicole Leroux"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10718.jpg"
+        },
+        {
+          "id": 96442,
+          "language": "Portuguese",
+          "name": {
+            "first": "Tatiane",
+            "last": "Keplmair",
+            "full": "Tatiane Keplmair",
+            "native": null,
+            "userPreferred": "Tatiane Keplmair"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96442-gv5GmEg0qPEK.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3186,
+      "role": "MAIN",
+      "name": {
+        "first": "Vanilla",
+        "last": "H",
+        "full": "Vanilla H",
+        "native": "ヴァニラ・H",
+        "userPreferred": "Vanilla H"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3186.jpg",
+      "voiceActors": [
+        {
+          "id": 95029,
+          "language": "Japanese",
+          "name": {
+            "first": "Mika",
+            "last": "Kanai",
+            "full": "Mika Kanai",
+            "native": "かないみか",
+            "userPreferred": "Mika Kanai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95029-XUWWmrBWrwYm.jpg"
+        },
+        {
+          "id": 96167,
+          "language": "English",
+          "name": {
+            "first": "Anna",
+            "last": "Cummer",
+            "full": "Anna Cummer",
+            "native": null,
+            "userPreferred": "Anna Cummer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1167.jpg"
+        },
+        {
+          "id": 96445,
+          "language": "Portuguese",
+          "name": {
+            "first": "Fernanda",
+            "last": "Bullara",
+            "full": "Fernanda Bullara",
+            "native": null,
+            "userPreferred": "Fernanda Bullara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96445-74PzPrUhV5pi.jpg"
+        }
+      ]
+    },
+    {
+      "id": 312681,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Cocomo",
+        "last": "Perot",
+        "full": "Cocomo Perot",
+        "native": null,
+        "userPreferred": "Cocomo Perot"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95407,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Sanpei",
+            "full": "Yuuko Sanpei",
+            "native": "三瓶由布子",
+            "userPreferred": "Yuuko Sanpei"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95407-u8MV6kcAJNV6.png"
+        },
+        {
+          "id": 105473,
+          "language": "English",
+          "name": {
+            "first": "Reece",
+            "last": "Thompson",
+            "full": "Reece Thompson",
+            "native": null,
+            "userPreferred": "Reece Thompson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10473.jpg"
+        }
+      ]
+    },
+    {
+      "id": 312682,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Major Mary",
+        "last": null,
+        "full": "Major Mary",
+        "native": null,
+        "userPreferred": "Major Mary"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95092,
+          "language": "Japanese",
+          "name": {
+            "first": "Sayaka",
+            "last": "Oohara",
+            "full": "Sayaka Oohara",
+            "native": "大原さやか",
+            "userPreferred": "Sayaka Oohara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95092-dQXsTFQXLg3o.png"
+        },
+        {
+          "id": 106898,
+          "language": "English",
+          "name": {
+            "first": "Sylvia",
+            "last": "Zaradic",
+            "full": "Sylvia Zaradic",
+            "native": null,
+            "userPreferred": "Sylvia Zaradic"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/11898.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10679,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Normad",
+        "last": null,
+        "full": "Normad",
+        "native": "ノーマッド",
+        "userPreferred": "Normad"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10679.jpg",
+      "voiceActors": [
+        {
+          "id": 95029,
+          "language": "Japanese",
+          "name": {
+            "first": "Mika",
+            "last": "Kanai",
+            "full": "Mika Kanai",
+            "native": "かないみか",
+            "userPreferred": "Mika Kanai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95029-XUWWmrBWrwYm.jpg"
+        },
+        {
+          "id": 95306,
+          "language": "English",
+          "name": {
+            "first": "Richard Ian",
+            "last": "Cox",
+            "full": "Richard Ian Cox",
+            "native": null,
+            "userPreferred": "Richard Ian Cox"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95306-aRS4cm1GScFW.jpg"
+        },
+        {
+          "id": 186563,
+          "language": "Portuguese",
+          "name": {
+            "first": "Julia",
+            "last": "Castro",
+            "full": "Julia Castro",
+            "native": null,
+            "userPreferred": "Julia Castro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n186563-dFHjnLsvOdG0.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15862,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Volcott",
+        "last": "O'Huey",
+        "full": "Volcott O'Huey",
+        "native": "ウォルコット・O・ヒューイ",
+        "userPreferred": "Volcott O'Huey"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15862.jpg",
+      "voiceActors": [
+        {
+          "id": 95063,
+          "language": "Japanese",
+          "name": {
+            "first": "Keiji",
+            "last": "Fujiwara",
+            "full": "Keiji Fujiwara",
+            "native": "藤原啓治",
+            "userPreferred": "Keiji Fujiwara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95063-xAsEUzspuLMG.jpg"
+        },
+        {
+          "id": 101835,
+          "language": "English",
+          "name": {
+            "first": "Michael",
+            "last": "Kopsa",
+            "full": "Michael Kopsa",
+            "native": null,
+            "userPreferred": "Michael Kopsa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101835-GIn02PcSIOEy.jpg"
+        },
+        {
+          "id": 102351,
+          "language": "Portuguese",
+          "name": {
+            "first": "Gilberto",
+            "last": "Baroli",
+            "full": "Gilberto Baroli",
+            "native": null,
+            "userPreferred": "Gilberto Baroli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7351.jpg"
+        }
+      ]
+    },
+    {
+      "id": 312680,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Malibu",
+        "last": "Perot",
+        "full": "Malibu Perot",
+        "native": "マリブ・ペイロー",
+        "userPreferred": "Malibu Perot"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 96078,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomo",
+            "last": "Saeki",
+            "full": "Tomo Saeki",
+            "native": "サエキトモ",
+            "userPreferred": "Tomo Saeki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96078-bxM3axGOq3xi.png"
+        },
+        {
+          "id": 96389,
+          "language": "English",
+          "name": {
+            "first": "Danny",
+            "last": "McKinnon",
+            "full": "Danny McKinnon",
+            "native": null,
+            "userPreferred": "Danny McKinnon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 652,
+      "relationType": "PREQUEL",
+      "malId": 652,
+      "title": {
+        "romaji": "Galaxy Angel Z",
+        "english": "Galaxy Angel Z",
+        "native": "ギャラクシーエンジェルＺ",
+        "userPreferred": "Galaxy Angel Z"
+      },
+      "status": "Completed",
+      "episodes": 9,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b652-Mn2wleNS7sKY.jpg",
+      "color": "#28aef1",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b652-Mn2wleNS7sKY.jpg",
+      "rating": 69
+    },
+    {
+      "id": 655,
+      "relationType": "SEQUEL",
+      "malId": 655,
+      "title": {
+        "romaji": "Galaxy Angel X",
+        "english": "Galaxy Angel X",
+        "native": "ギャラクシーエンジェル X",
+        "userPreferred": "Galaxy Angel X"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b655-7QFJtVvdu0Hq.jpg",
+      "color": "#50bbe4",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b655-7QFJtVvdu0Hq.jpg",
+      "rating": 68
+    },
+    {
+      "id": 654,
+      "relationType": "SIDE_STORY",
+      "malId": 654,
+      "title": {
+        "romaji": "Galaxy Angel Ａ Specials",
+        "english": null,
+        "native": "ギャラクシーエンジェルＡ",
+        "userPreferred": "Galaxy Angel Ａ Specials"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/654.jpg",
+      "color": "#ffe443",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/654.jpg",
+      "rating": 69
+    },
+    {
+      "id": 12225,
+      "relationType": "SIDE_STORY",
+      "malId": 12225,
+      "title": {
+        "romaji": "Galaxy Angel S",
+        "english": "Galaxy Angel S",
+        "native": "ギャラクシーエンジェルS",
+        "userPreferred": "Galaxy Angel S"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/12225.jpg",
+      "color": "#f1d643",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/12225.jpg",
+      "rating": 67
+    }
+  ],
+  "episodes": [
+    {
+      "id": "galaxy-angel-3-episode-1",
+      "title": "Old Man Detective Novel Rice Porridge / Original Angel Parfait with the Works ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161022/original.jpg",
+      "number": 1,
+      "createdAt": "2014-11-16T20:31:15Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//galaxy-angel-3-episode-1"
+    },
+    {
+      "id": "galaxy-angel-3-episode-2",
+      "title": "Shuffle French without Dessert / Special Appetizer without Main Dish",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161039/original.jpg",
+      "number": 2,
+      "createdAt": "2014-11-16T20:31:18Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//galaxy-angel-3-episode-2"
+    },
+    {
+      "id": "galaxy-angel-3-episode-3",
+      "title": "Deluxe Milfeulle Surprise Sandwich / Hug Hug Fish Pot",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161060/original.jpg",
+      "number": 3,
+      "createdAt": "2014-11-16T20:31:20Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//galaxy-angel-3-episode-3"
+    },
+    {
+      "id": "galaxy-angel-3-episode-4",
+      "title": "Chilled Mackerel with a Prize / Slippery Pasta ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161064/original.jpg",
+      "number": 4,
+      "createdAt": "2014-11-16T20:31:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//galaxy-angel-3-episode-4"
+    },
+    {
+      "id": "galaxy-angel-3-episode-5",
+      "title": "Overpriced Salad Bar / Angel Banana Discount",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161077/original.jpg",
+      "number": 5,
+      "createdAt": "2014-11-16T20:31:24Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//galaxy-angel-3-episode-5"
+    },
+    {
+      "id": "galaxy-angel-3-episode-6",
+      "title": "Painful Walnut Pie / Angel Hotchpotch Taste Test",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161089/original.jpg",
+      "number": 6,
+      "createdAt": "2014-11-16T20:31:26Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//galaxy-angel-3-episode-6"
+    },
+    {
+      "id": "galaxy-angel-3-episode-7",
+      "title": "Ultra Rare Fortune Cookie / Ultra Hot Kid's Meal",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161103/original.jpg",
+      "number": 7,
+      "createdAt": "2014-11-16T20:31:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//galaxy-angel-3-episode-7"
+    },
+    {
+      "id": "galaxy-angel-3-episode-8",
+      "title": "Good-bye to our Steaming Teapot / Mustached Beef Rib Rice Bowl with Rich Sauce",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161118/original.jpg",
+      "number": 8,
+      "createdAt": "2014-11-16T20:31:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//galaxy-angel-3-episode-8"
+    },
+    {
+      "id": "galaxy-angel-3-episode-9",
+      "title": "Pour, Ambitious, Chilled Seasame Chicken / A String of Handmade Noodles with No Connection",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161129/original.jpg",
+      "number": 9,
+      "createdAt": "2014-11-16T20:31:32Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//galaxy-angel-3-episode-9"
+    },
+    {
+      "id": "galaxy-angel-3-episode-10",
+      "title": "Bamboo-Cutter Platter / Wandering Cat Food",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161146/original.jpg",
+      "number": 10,
+      "createdAt": "2014-11-16T20:31:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//galaxy-angel-3-episode-10"
+    },
+    {
+      "id": "galaxy-angel-3-episode-11",
+      "title": "Frequently Ordered Sushi / Fortuitous Family Set",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161165/original.jpg",
+      "number": 11,
+      "createdAt": "2014-11-16T20:31:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//galaxy-angel-3-episode-11"
+    },
+    {
+      "id": "galaxy-angel-3-episode-12",
+      "title": "All-You-Can-Eat Juicy Yakiniku / Glitter Clunk Mixed Juice",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161182/original.jpg",
+      "number": 12,
+      "createdAt": "2014-11-16T20:31:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//galaxy-angel-3-episode-12"
+    },
+    {
+      "id": "galaxy-angel-3-episode-13",
+      "title": "Junk Ramen, Extra Noodles Available / Continuously Pushed Sweet Red Bean Soup",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161200/original.jpg",
+      "number": 13,
+      "createdAt": "2014-11-16T20:31:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//galaxy-angel-3-episode-13"
+    },
+    {
+      "id": "galaxy-angel-3-episode-14",
+      "title": "Ryuru-riku Magical Steak / Baum-kuhen to Worry Over",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161214/original.jpg",
+      "number": 14,
+      "createdAt": "2014-11-16T20:31:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//galaxy-angel-3-episode-14"
+    },
+    {
+      "id": "galaxy-angel-3-episode-15",
+      "title": "Sun-dried Pork Feet / Top Imitation Goose",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161224/original.jpg",
+      "number": 15,
+      "createdAt": "2014-11-16T20:31:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//galaxy-angel-3-episode-15"
+    },
+    {
+      "id": "galaxy-angel-3-episode-16",
+      "title": "The Sign is Boullion / Acting Angel Seafood Soup",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161237/original.jpg",
+      "number": 16,
+      "createdAt": "2014-11-16T20:31:47Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//galaxy-angel-3-episode-16"
+    },
+    {
+      "id": "galaxy-angel-3-episode-17",
+      "title": "Specialty Rocky Fish Cake / Broken-up Hot Spring Rice Cracker",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161249/original.jpg",
+      "number": 17,
+      "createdAt": "2014-11-16T20:31:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//galaxy-angel-3-episode-17"
+    },
+    {
+      "id": "galaxy-angel-3-episode-18",
+      "title": "Competitive Sake Full of Predictions / Jiggly Pudding",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161261/original.jpg",
+      "number": 18,
+      "createdAt": "2014-11-16T20:31:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//galaxy-angel-3-episode-18"
+    },
+    {
+      "id": "galaxy-angel-3-episode-19",
+      "title": "Deep Fried Love Letter / Galatic Rose Tea",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161287/original.jpg",
+      "number": 19,
+      "createdAt": "2014-11-16T20:31:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//galaxy-angel-3-episode-19"
+    },
+    {
+      "id": "galaxy-angel-3-episode-20",
+      "title": "Premium Tuna that just won't Slip / Assort Rock Candy Delivery",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161306/original.jpg",
+      "number": 20,
+      "createdAt": "2014-11-16T20:31:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//galaxy-angel-3-episode-20"
+    },
+    {
+      "id": "galaxy-angel-3-episode-21",
+      "title": "Magic Pot Roast / Sub-zero Hot Hot Dog",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161316/original.jpg",
+      "number": 21,
+      "createdAt": "2014-11-16T20:31:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//galaxy-angel-3-episode-21"
+    },
+    {
+      "id": "galaxy-angel-3-episode-22",
+      "title": "Retry Rice / An Offering That you Must Not Eat",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161329/original.jpg",
+      "number": 22,
+      "createdAt": "2014-11-16T20:32:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//galaxy-angel-3-episode-22"
+    },
+    {
+      "id": "galaxy-angel-3-episode-23",
+      "title": "Sneaky Seaweed Wrap / Fish Jerky Over a Thousand Nights",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161337/original.jpg",
+      "number": 23,
+      "createdAt": "2014-11-16T20:32:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//galaxy-angel-3-episode-23"
+    },
+    {
+      "id": "galaxy-angel-3-episode-24",
+      "title": "Anyway Angel Morning Set / Starchild Sausage",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161345/original.jpg",
+      "number": 24,
+      "createdAt": "2014-11-16T20:32:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//galaxy-angel-3-episode-24"
+    },
+    {
+      "id": "galaxy-angel-3-episode-25",
+      "title": "Fresh Packed Fish / Prohibited String-pulling Fermented Beans",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161355/original.jpg",
+      "number": 25,
+      "createdAt": "2014-11-16T20:32:06Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//galaxy-angel-3-episode-25"
+    },
+    {
+      "id": "galaxy-angel-3-episode-26",
+      "title": "Final Dish REBECCA (Part 1) / Final Dish REBECCA (Part 2)",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161388/original.jpg",
+      "number": 26,
+      "createdAt": "2014-11-16T20:32:12Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//galaxy-angel-3-episode-26"
+    }
+  ]
+}

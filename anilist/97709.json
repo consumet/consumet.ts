@@ -1,0 +1,456 @@
+{
+  "id": "97709",
+  "title": {
+    "romaji": "FOREST FAIRY FIVE",
+    "english": "FOREST FAIRY FIVE",
+    "native": "FOREST FAIRY FIVE"
+  },
+  "malId": 34223,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97709-75D2keANAFJm.jpg",
+  "popularity": 1274,
+  "color": "#50e45d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97709-Fsxhq9W1cqLg.jpg",
+  "description": "A beautiful nation, prospering since ancient times, Japan is now known as the Anime Kingdom. There are more than just humans living there; animes truly do exist in Japan. Past the Fairy Ring, to the world of fairies, live anime-chans. There's a Fairy Ring in your town, too. Here. And there. Even in Harajuku. Maybe even in the Ashigara mountains. By some chance, we'll open that door. And we might get to meet the anime-chans. This is the land where you get to meet anime-chans.<br><br>\n\n(Source: Crunchyroll)",
+  "status": "Completed",
+  "releaseDate": 2017,
+  "startDate": {
+    "year": 2017,
+    "month": 1,
+    "day": 6
+  },
+  "endDate": {
+    "year": 2017,
+    "month": 3,
+    "day": 31
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 27,
+  "duration": 14,
+  "genres": [
+    "Comedy",
+    "Fantasy",
+    "Music"
+  ],
+  "season": "WINTER",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 11809,
+      "malId": 11809,
+      "title": {
+        "romaji": "gdgd Fairies",
+        "english": null,
+        "native": "gdgd妖精s（ぐだぐだふぇありーず）",
+        "userPreferred": "gdgd Fairies"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11809-xm8BSgZ9i9vx.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11809-m6nGsipsPAgD.jpg",
+      "rating": 65,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 108852,
+      "malId": 39622,
+      "title": {
+        "romaji": "Bakugan Battle Planet",
+        "english": "Bakugan: Battle Planet",
+        "native": "爆丸バトルプラネット",
+        "userPreferred": "Bakugan Battle Planet"
+      },
+      "status": "Completed",
+      "episodes": 50,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108852-Hbg9Va5sEJQz.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108852-Hbg9Va5sEJQz.jpg",
+      "rating": 46,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 230971,
+      "role": "MAIN",
+      "name": {
+        "first": "Amanita",
+        "last": "Muscaria",
+        "full": "Amanita Muscaria",
+        "native": "アマ二タ・ムスカリア",
+        "userPreferred": "Amanita Muscaria"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b230971-V7UPQRXBHBeW.jpg",
+      "voiceActors": [
+        {
+          "id": 230972,
+          "language": "Japanese",
+          "name": {
+            "first": "Aimi",
+            "last": "Nakano",
+            "full": "Aimi Nakano",
+            "native": "中野あいみ",
+            "userPreferred": "Aimi Nakano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n230972-IxYbwTGRFcBb.jpg"
+        }
+      ]
+    },
+    {
+      "id": 231458,
+      "role": "MAIN",
+      "name": {
+        "first": "Yamadori",
+        "last": "Porcini",
+        "full": "Yamadori Porcini",
+        "native": "ヤマドリ・B・ポルチーニ",
+        "userPreferred": "Yamadori B. Porcini"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b231458-t89zGyF1jVrX.jpg",
+      "voiceActors": [
+        {
+          "id": 231460,
+          "language": "Japanese",
+          "name": {
+            "first": "Haruka",
+            "last": "Iwasaki",
+            "full": "Haruka Iwasaki",
+            "native": "岩崎春果",
+            "userPreferred": "Haruka Iwasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n231460-m2GtiQrFmH9T.jpg"
+        }
+      ]
+    },
+    {
+      "id": 231459,
+      "role": "MAIN",
+      "name": {
+        "first": "Amanita",
+        "last": "Virosa",
+        "full": "Amanita Virosa",
+        "native": "アマ二タ・ヴィロサ",
+        "userPreferred": "Amanita Virosa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b231459-YHHdH7A6LAjw.jpg",
+      "voiceActors": [
+        {
+          "id": 231461,
+          "language": "Japanese",
+          "name": {
+            "first": "Sana",
+            "last": "Kaneshi",
+            "full": "Sana Kaneshi",
+            "native": "兼次桜菜",
+            "userPreferred": "Sana Kaneshi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n231461-13BAaMcRZVrb.jpg"
+        }
+      ]
+    },
+    {
+      "id": 231566,
+      "role": "MAIN",
+      "name": {
+        "first": "Mai",
+        "last": "Mizunara",
+        "full": "Mai Mizunara",
+        "native": "水楢舞",
+        "userPreferred": "Mai Mizunara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b231566-eEzpjndQ0LOY.jpg",
+      "voiceActors": [
+        {
+          "id": 231567,
+          "language": "Japanese",
+          "name": {
+            "first": "Hina",
+            "last": "Hiratsuka",
+            "full": "Hina Hiratsuka",
+            "native": "平塚日菜",
+            "userPreferred": "Hina Hiratsuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n231567-7uyildhKtJGY.jpg"
+        }
+      ]
+    },
+    {
+      "id": 231568,
+      "role": "MAIN",
+      "name": {
+        "first": "Paludosa",
+        "last": "Kamuriya",
+        "full": "Paludosa Kamuriya",
+        "native": "カムリヤ・パルドーサ",
+        "userPreferred": "Paludosa Kamuriya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b231568-N3MPPUmXaPPY.jpg",
+      "voiceActors": [
+        {
+          "id": 231569,
+          "language": "Japanese",
+          "name": {
+            "first": "Rurika",
+            "last": "Yoshizawa",
+            "full": "Rurika Yoshizawa",
+            "native": "吉澤瑠莉花",
+            "userPreferred": "Rurika Yoshizawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n231569-6GEQ2c70BOo8.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 135443,
+      "relationType": "SEQUEL",
+      "malId": 35383,
+      "title": {
+        "romaji": "Yousei Land Mukashibanashi",
+        "english": "Forest Fairy Five ~Fairy Tale~",
+        "native": "妖精ランドむかし話",
+        "userPreferred": "Yousei Land Mukashibanashi"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135443-p3QXilKumVB5.png",
+      "color": "#50aee4",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/135443-x9Jr6C0aaW4m.jpg",
+      "rating": 30
+    }
+  ],
+  "episodes": [
+    {
+      "id": "mori-no-yousei-kinoko-no-musume-episode-1",
+      "title": "Unititled",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97709-75D2keANAFJm.jpg",
+      "number": 1,
+      "createdAt": "2017-07-10T20:53:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mori-no-yousei-kinoko-no-musume-episode-1"
+    },
+    {
+      "id": "mori-no-yousei-kinoko-no-musume-episode-2",
+      "title": "Untitled",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97709-75D2keANAFJm.jpg",
+      "number": 2,
+      "createdAt": "2017-07-10T20:53:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mori-no-yousei-kinoko-no-musume-episode-2"
+    },
+    {
+      "id": "mori-no-yousei-kinoko-no-musume-episode-3",
+      "title": "Untitled",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97709-75D2keANAFJm.jpg",
+      "number": 3,
+      "createdAt": "2017-07-10T20:53:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mori-no-yousei-kinoko-no-musume-episode-3"
+    },
+    {
+      "id": "mori-no-yousei-kinoko-no-musume-episode-4",
+      "title": "Untitled",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97709-75D2keANAFJm.jpg",
+      "number": 4,
+      "createdAt": "2017-07-10T20:53:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mori-no-yousei-kinoko-no-musume-episode-4"
+    },
+    {
+      "id": "mori-no-yousei-kinoko-no-musume-episode-5",
+      "title": "Untitled",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97709-75D2keANAFJm.jpg",
+      "number": 5,
+      "createdAt": "2017-07-10T20:53:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mori-no-yousei-kinoko-no-musume-episode-5"
+    },
+    {
+      "id": "mori-no-yousei-kinoko-no-musume-episode-6",
+      "title": "Untitled",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97709-75D2keANAFJm.jpg",
+      "number": 6,
+      "createdAt": "2017-07-10T20:53:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mori-no-yousei-kinoko-no-musume-episode-6"
+    },
+    {
+      "id": "mori-no-yousei-kinoko-no-musume-episode-7",
+      "title": "Untitled",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97709-75D2keANAFJm.jpg",
+      "number": 7,
+      "createdAt": "2017-07-10T20:53:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mori-no-yousei-kinoko-no-musume-episode-7"
+    },
+    {
+      "id": "mori-no-yousei-kinoko-no-musume-episode-8",
+      "title": "Untitled",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97709-75D2keANAFJm.jpg",
+      "number": 8,
+      "createdAt": "2017-07-10T20:53:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mori-no-yousei-kinoko-no-musume-episode-8"
+    },
+    {
+      "id": "mori-no-yousei-kinoko-no-musume-episode-9",
+      "title": "Untitled",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97709-75D2keANAFJm.jpg",
+      "number": 9,
+      "createdAt": "2017-07-10T20:53:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mori-no-yousei-kinoko-no-musume-episode-9"
+    },
+    {
+      "id": "mori-no-yousei-kinoko-no-musume-episode-10",
+      "title": "Untitled",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97709-75D2keANAFJm.jpg",
+      "number": 10,
+      "createdAt": "2017-07-10T20:53:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mori-no-yousei-kinoko-no-musume-episode-10"
+    },
+    {
+      "id": "mori-no-yousei-kinoko-no-musume-episode-11",
+      "title": "Untitled",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97709-75D2keANAFJm.jpg",
+      "number": 11,
+      "createdAt": "2017-07-10T20:53:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mori-no-yousei-kinoko-no-musume-episode-11"
+    },
+    {
+      "id": "mori-no-yousei-kinoko-no-musume-episode-12",
+      "title": "Untitled",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97709-75D2keANAFJm.jpg",
+      "number": 12,
+      "createdAt": "2017-07-10T20:53:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mori-no-yousei-kinoko-no-musume-episode-12"
+    },
+    {
+      "id": "mori-no-yousei-kinoko-no-musume-episode-13",
+      "title": "Untitled",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97709-75D2keANAFJm.jpg",
+      "number": 13,
+      "createdAt": "2017-07-10T20:53:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//mori-no-yousei-kinoko-no-musume-episode-13"
+    },
+    {
+      "id": "mori-no-yousei-kinoko-no-musume-episode-14",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97709-75D2keANAFJm.jpg",
+      "number": 14,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//mori-no-yousei-kinoko-no-musume-episode-14"
+    },
+    {
+      "id": "mori-no-yousei-kinoko-no-musume-episode-15",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97709-75D2keANAFJm.jpg",
+      "number": 15,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//mori-no-yousei-kinoko-no-musume-episode-15"
+    },
+    {
+      "id": "mori-no-yousei-kinoko-no-musume-episode-16",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97709-75D2keANAFJm.jpg",
+      "number": 16,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//mori-no-yousei-kinoko-no-musume-episode-16"
+    },
+    {
+      "id": "mori-no-yousei-kinoko-no-musume-episode-17",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97709-75D2keANAFJm.jpg",
+      "number": 17,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//mori-no-yousei-kinoko-no-musume-episode-17"
+    },
+    {
+      "id": "mori-no-yousei-kinoko-no-musume-episode-18",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97709-75D2keANAFJm.jpg",
+      "number": 18,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//mori-no-yousei-kinoko-no-musume-episode-18"
+    },
+    {
+      "id": "mori-no-yousei-kinoko-no-musume-episode-19",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97709-75D2keANAFJm.jpg",
+      "number": 19,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//mori-no-yousei-kinoko-no-musume-episode-19"
+    },
+    {
+      "id": "mori-no-yousei-kinoko-no-musume-episode-20",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97709-75D2keANAFJm.jpg",
+      "number": 20,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//mori-no-yousei-kinoko-no-musume-episode-20"
+    },
+    {
+      "id": "mori-no-yousei-kinoko-no-musume-episode-21",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97709-75D2keANAFJm.jpg",
+      "number": 21,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//mori-no-yousei-kinoko-no-musume-episode-21"
+    },
+    {
+      "id": "mori-no-yousei-kinoko-no-musume-episode-22",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97709-75D2keANAFJm.jpg",
+      "number": 22,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//mori-no-yousei-kinoko-no-musume-episode-22"
+    },
+    {
+      "id": "mori-no-yousei-kinoko-no-musume-episode-23",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97709-75D2keANAFJm.jpg",
+      "number": 23,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//mori-no-yousei-kinoko-no-musume-episode-23"
+    },
+    {
+      "id": "mori-no-yousei-kinoko-no-musume-episode-24",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97709-75D2keANAFJm.jpg",
+      "number": 24,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//mori-no-yousei-kinoko-no-musume-episode-24"
+    },
+    {
+      "id": "mori-no-yousei-kinoko-no-musume-episode-25",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97709-75D2keANAFJm.jpg",
+      "number": 25,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//mori-no-yousei-kinoko-no-musume-episode-25"
+    }
+  ]
+}

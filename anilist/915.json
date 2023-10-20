@@ -1,0 +1,989 @@
+{
+  "id": "915",
+  "title": {
+    "romaji": "Ginga Densetsu Weed",
+    "english": null,
+    "native": "銀牙伝説ウィード"
+  },
+  "malId": 915,
+  "synonyms": [
+    "Ginga Legend Weed",
+    "Weed - Hopeanuolen poika"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/915-Y7tGnj7BJVZq.png",
+  "popularity": 2136,
+  "color": "#28935d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/915-Y7tGnj7BJVZq.png",
+  "description": "A dog named Weed happens to hear that he is the son of Gin, The great leader of Ohu, Who lead the dogs of Ohu to victory in a fight against monsterous bear Akakabuto. Weed wants to find his father no matter of what. On a way to his father Weed meets many friends and enemies.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2005,
+  "startDate": {
+    "year": 2005,
+    "month": 11,
+    "day": 3
+  },
+  "endDate": {
+    "year": 2006,
+    "month": 5,
+    "day": 11
+  },
+  "totalEpisodes": 26,
+  "currentEpisode": 26,
+  "rating": 65,
+  "duration": 24,
+  "genres": [
+    "Adventure",
+    "Drama"
+  ],
+  "season": "FALL",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 3905,
+      "malId": 3905,
+      "title": {
+        "romaji": "Wanpaku Ouji no Orochi Taiji",
+        "english": "Orochi, the Eight-Headed Dragon",
+        "native": "わんぱく王子の大蛇退治",
+        "userPreferred": "Wanpaku Ouji no Orochi Taiji"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3905-uu3lXujtSS6M.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/3905-sVCTDm9yYTmj.jpg",
+      "rating": 60,
+      "type": "MOVIE"
+    }
+  ],
+  "characters": [
+    {
+      "id": 9827,
+      "role": "MAIN",
+      "name": {
+        "first": "Hougen",
+        "last": null,
+        "full": "Hougen",
+        "native": "法玄",
+        "userPreferred": "Hougen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9827.jpg",
+      "voiceActors": [
+        {
+          "id": 95045,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouji",
+            "last": "Ishii",
+            "full": "Kouji Ishii",
+            "native": "石井康嗣",
+            "userPreferred": "Kouji Ishii"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95045-xvCXMLXwg44s.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15020,
+      "role": "MAIN",
+      "name": {
+        "first": "Ken",
+        "last": null,
+        "full": "Ken",
+        "native": "剣",
+        "userPreferred": "Ken"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15020.jpg",
+      "voiceActors": [
+        {
+          "id": 96459,
+          "language": "Japanese",
+          "name": {
+            "first": "Teruaki",
+            "last": "Ogawa",
+            "full": "Teruaki Ogawa",
+            "native": "小川輝晃",
+            "userPreferred": "Teruaki Ogawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1459.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9826,
+      "role": "MAIN",
+      "name": {
+        "first": "Jerome",
+        "last": null,
+        "full": "Jerome",
+        "native": "ジェロム",
+        "userPreferred": "Jerome"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9826.jpg",
+      "voiceActors": [
+        {
+          "id": 96832,
+          "language": "Japanese",
+          "name": {
+            "first": "Masaya",
+            "last": "Takatsuka",
+            "full": "Masaya Takatsuka",
+            "native": "高塚正也",
+            "userPreferred": "Masaya Takatsuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96832-mZ5khNnGAfB9.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9819,
+      "role": "MAIN",
+      "name": {
+        "first": "Weed",
+        "last": null,
+        "full": "Weed",
+        "native": "ウィード",
+        "userPreferred": "Weed"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9819.jpg",
+      "voiceActors": [
+        {
+          "id": 100997,
+          "language": "Japanese",
+          "name": {
+            "first": "Sachi",
+            "last": "Kokuryuu",
+            "full": "Sachi Kokuryuu",
+            "native": "國立幸",
+            "userPreferred": "Sachi Kokuryuu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100997-LpXQJVqFUVpW.png"
+        }
+      ]
+    },
+    {
+      "id": 10551,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hiro",
+        "last": null,
+        "full": "Hiro",
+        "native": "ヒロ",
+        "userPreferred": "Hiro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10551.jpg",
+      "voiceActors": [
+        {
+          "id": 95299,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenji",
+            "last": "Nomura",
+            "full": "Kenji Nomura",
+            "native": "乃村健次",
+            "userPreferred": "Kenji Nomura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95299-emNsgDYS4DBi.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9829,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kurotora",
+        "last": null,
+        "full": "Kurotora",
+        "native": "黒虎",
+        "userPreferred": "Kurotora"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9829.jpg",
+      "voiceActors": [
+        {
+          "id": 95861,
+          "language": "Japanese",
+          "name": {
+            "first": "Tadashi",
+            "last": "Miyazawa",
+            "full": "Tadashi Miyazawa",
+            "native": "宮澤正",
+            "userPreferred": "Tadashi Miyazawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/861.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10553,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lector",
+        "last": null,
+        "full": "Lector",
+        "native": "レクター",
+        "userPreferred": "Lector"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10553.jpg",
+      "voiceActors": [
+        {
+          "id": 96459,
+          "language": "Japanese",
+          "name": {
+            "first": "Teruaki",
+            "last": "Ogawa",
+            "full": "Teruaki Ogawa",
+            "native": "小川輝晃",
+            "userPreferred": "Teruaki Ogawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1459.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14350,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dodo",
+        "last": null,
+        "full": "Dodo",
+        "native": "土怒",
+        "userPreferred": "Dodo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14350.jpg",
+      "voiceActors": [
+        {
+          "id": 101003,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Shimozaki",
+            "full": "Hiroshi Shimozaki",
+            "native": "紘史 下崎",
+            "userPreferred": "Hiroshi Shimozaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6003.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14263,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kamakiri",
+        "last": null,
+        "full": "Kamakiri",
+        "native": "カマキリ",
+        "userPreferred": "Kamakiri"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14263.jpg",
+      "voiceActors": [
+        {
+          "id": 105256,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshitaka",
+            "last": "Kaidu",
+            "full": "Yoshitaka Kaidu",
+            "native": "義孝 海津",
+            "userPreferred": "Yoshitaka Kaidu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32184,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Buruge",
+        "last": null,
+        "full": "Buruge",
+        "native": null,
+        "userPreferred": "Buruge"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32184.jpg",
+      "voiceActors": [
+        {
+          "id": 95068,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouji",
+            "last": "Yusa",
+            "full": "Kouji Yusa",
+            "native": "遊佐浩二",
+            "userPreferred": "Kouji Yusa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95068-nf823DpvyKof.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32172,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shouji",
+        "last": null,
+        "full": "Shouji",
+        "native": "昭治",
+        "userPreferred": "Shouji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32172.jpg",
+      "voiceActors": [
+        {
+          "id": 95299,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenji",
+            "last": "Nomura",
+            "full": "Kenji Nomura",
+            "native": "乃村健次",
+            "userPreferred": "Kenji Nomura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95299-emNsgDYS4DBi.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9823,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaibutsu",
+        "last": null,
+        "full": "Kaibutsu",
+        "native": null,
+        "userPreferred": "Kaibutsu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9823.jpg",
+      "voiceActors": [
+        {
+          "id": 95909,
+          "language": "Japanese",
+          "name": {
+            "first": "Kuwata",
+            "last": "Kong",
+            "full": "Kuwata Kong",
+            "native": "桑田コング",
+            "userPreferred": "Kuwata Kong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/909.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19186,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Robert",
+        "last": null,
+        "full": "Robert",
+        "native": "ロバート ",
+        "userPreferred": "Robert"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/19186.jpg",
+      "voiceActors": [
+        {
+          "id": 101003,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Shimozaki",
+            "full": "Hiroshi Shimozaki",
+            "native": "紘史 下崎",
+            "userPreferred": "Hiroshi Shimozaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6003.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32175,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shirozaku",
+        "last": null,
+        "full": "Shirozaku",
+        "native": null,
+        "userPreferred": "Shirozaku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32175.jpg",
+      "voiceActors": [
+        {
+          "id": 105266,
+          "language": "Japanese",
+          "name": {
+            "first": "Kunihiro",
+            "last": "Kawamoto",
+            "full": "Kunihiro Kawamoto",
+            "native": "河本邦弘",
+            "userPreferred": "Kunihiro Kawamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105266-Ka4xAbCDZm0b.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32166,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Teru",
+        "last": null,
+        "full": "Teru",
+        "native": null,
+        "userPreferred": "Teru"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32166.jpg",
+      "voiceActors": [
+        {
+          "id": 95168,
+          "language": "Japanese",
+          "name": {
+            "first": "Mika",
+            "last": "Itou",
+            "full": "Mika Itou",
+            "native": "実華伊藤",
+            "userPreferred": "Mika Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/168.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14262,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kagetora",
+        "last": null,
+        "full": "Kagetora",
+        "native": "影虎",
+        "userPreferred": "Kagetora"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14262.jpg",
+      "voiceActors": [
+        {
+          "id": 95576,
+          "language": "Japanese",
+          "name": {
+            "first": "Eiji",
+            "last": "Takemoto",
+            "full": "Eiji Takemoto",
+            "native": "竹本英史",
+            "userPreferred": "Eiji Takemoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95576-daJz6YMxGaX6.png"
+        }
+      ]
+    },
+    {
+      "id": 14226,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tokimune",
+        "last": null,
+        "full": "Tokimune",
+        "native": "時宗",
+        "userPreferred": "Tokimune"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14226.jpg",
+      "voiceActors": [
+        {
+          "id": 95936,
+          "language": "Japanese",
+          "name": {
+            "first": "Hozumi",
+            "last": "Gouda",
+            "full": "Hozumi Gouda",
+            "native": "郷田ほづみ",
+            "userPreferred": "Hozumi Gouda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95936-cBkm9F8KgrRD.png"
+        }
+      ]
+    },
+    {
+      "id": 14227,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sasuke",
+        "last": null,
+        "full": "Sasuke",
+        "native": "佐助",
+        "userPreferred": "Sasuke"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14227.jpg",
+      "voiceActors": [
+        {
+          "id": 96611,
+          "language": "Japanese",
+          "name": {
+            "first": "Makoto",
+            "last": "Ueki",
+            "full": "Makoto Ueki",
+            "native": "植木誠",
+            "userPreferred": "Makoto Ueki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96611-5YdNo2Ao4SCj.png"
+        }
+      ]
+    },
+    {
+      "id": 32149,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ned",
+        "last": null,
+        "full": "Ned",
+        "native": "ネッド",
+        "userPreferred": "Ned"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32149.jpg",
+      "voiceActors": [
+        {
+          "id": 101003,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Shimozaki",
+            "full": "Hiroshi Shimozaki",
+            "native": "紘史 下崎",
+            "userPreferred": "Hiroshi Shimozaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6003.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32178,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Stone",
+        "last": null,
+        "full": "Stone",
+        "native": "ストーン",
+        "userPreferred": "Stone"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32178.jpg",
+      "voiceActors": [
+        {
+          "id": 105266,
+          "language": "Japanese",
+          "name": {
+            "first": "Kunihiro",
+            "last": "Kawamoto",
+            "full": "Kunihiro Kawamoto",
+            "native": "河本邦弘",
+            "userPreferred": "Kunihiro Kawamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105266-Ka4xAbCDZm0b.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32185,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kite",
+        "last": null,
+        "full": "Kite",
+        "native": "カイト",
+        "userPreferred": "Kite"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32185.jpg",
+      "voiceActors": [
+        {
+          "id": 95212,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Ono",
+            "full": "Daisuke Ono",
+            "native": "小野大輔",
+            "userPreferred": "Daisuke Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95212-wX1M4LJN96q2.png"
+        }
+      ]
+    },
+    {
+      "id": 9077,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Akame",
+        "last": null,
+        "full": "Akame",
+        "native": "赤目",
+        "userPreferred": "Akame"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9077.jpg",
+      "voiceActors": [
+        {
+          "id": 95685,
+          "language": "Japanese",
+          "name": {
+            "first": "Takashi",
+            "last": "Matsuyama",
+            "full": "Takashi Matsuyama",
+            "native": "松山鷹志",
+            "userPreferred": "Takashi Matsuyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95685-hBzFgdWzq43x.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14225,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Reika",
+        "last": null,
+        "full": "Reika",
+        "native": "麗華",
+        "userPreferred": "Reika"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14225.jpg",
+      "voiceActors": [
+        {
+          "id": 95941,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Nakagawa",
+            "full": "Rie Nakagawa",
+            "native": "中川里江",
+            "userPreferred": "Rie Nakagawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/941.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10549,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kyoshiro Shirogane",
+        "last": null,
+        "full": "Kyoshiro Shirogane",
+        "native": "白銀狂四郎 ",
+        "userPreferred": "Kyoshiro Shirogane"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10549.jpg",
+      "voiceActors": [
+        {
+          "id": 96641,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Masuda",
+            "full": "Yuuki Masuda",
+            "native": "増田裕生",
+            "userPreferred": "Yuuki Masuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96641-LW4dDxi4rrF5.png"
+        }
+      ]
+    },
+    {
+      "id": 32174,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shintarou",
+        "last": null,
+        "full": "Shintarou",
+        "native": null,
+        "userPreferred": "Shintarou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32174.jpg",
+      "voiceActors": [
+        {
+          "id": 101003,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Shimozaki",
+            "full": "Hiroshi Shimozaki",
+            "native": "紘史 下崎",
+            "userPreferred": "Hiroshi Shimozaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6003.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 589,
+      "relationType": "PREQUEL",
+      "malId": 589,
+      "title": {
+        "romaji": "Ginga: Nagareboshi Gin",
+        "english": null,
+        "native": "銀牙 -流れ星 銀-",
+        "userPreferred": "Ginga: Nagareboshi Gin"
+      },
+      "status": "Completed",
+      "episodes": 21,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b589-H6dhNw4ssJCK.jpg",
+      "color": "#e4ae5d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/589-9KYFh6K7PIxX.jpg",
+      "rating": 74
+    },
+    {
+      "id": 34010,
+      "relationType": "ADAPTATION",
+      "malId": 4010,
+      "title": {
+        "romaji": "Ginga Densetsu Weed",
+        "english": "Ginga Legend Weed",
+        "native": "銀牙伝説ウィード",
+        "userPreferred": "Ginga Densetsu Weed"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx34010-acyCF9qZ16DV.jpg",
+      "color": "#fea150",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx34010-acyCF9qZ16DV.jpg",
+      "rating": 71
+    }
+  ],
+  "episodes": [
+    {
+      "id": "ginga-densetsu-weed-episode-1",
+      "title": "His Name is Weed",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/915-Y7tGnj7BJVZq.png",
+      "number": 1,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ginga-densetsu-weed-episode-1"
+    },
+    {
+      "id": "ginga-densetsu-weed-episode-2",
+      "title": "The Tool of the Leader",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/915-Y7tGnj7BJVZq.png",
+      "number": 2,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ginga-densetsu-weed-episode-2"
+    },
+    {
+      "id": "ginga-densetsu-weed-episode-3",
+      "title": "Truth of the Twin Peaks",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/915-Y7tGnj7BJVZq.png",
+      "number": 3,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ginga-densetsu-weed-episode-3"
+    },
+    {
+      "id": "ginga-densetsu-weed-episode-4",
+      "title": "Succeeding Soul",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/915-Y7tGnj7BJVZq.png",
+      "number": 4,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ginga-densetsu-weed-episode-4"
+    },
+    {
+      "id": "ginga-densetsu-weed-episode-5",
+      "title": "Released Decision",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/915-Y7tGnj7BJVZq.png",
+      "number": 5,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ginga-densetsu-weed-episode-5"
+    },
+    {
+      "id": "ginga-densetsu-weed-episode-6",
+      "title": "Imminent Ambition",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/915-Y7tGnj7BJVZq.png",
+      "number": 6,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ginga-densetsu-weed-episode-6"
+    },
+    {
+      "id": "ginga-densetsu-weed-episode-7",
+      "title": "A New Rumbling",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/915-Y7tGnj7BJVZq.png",
+      "number": 7,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ginga-densetsu-weed-episode-7"
+    },
+    {
+      "id": "ginga-densetsu-weed-episode-8",
+      "title": "The Other Side Of The Bond",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/915-Y7tGnj7BJVZq.png",
+      "number": 8,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ginga-densetsu-weed-episode-8"
+    },
+    {
+      "id": "ginga-densetsu-weed-episode-9",
+      "title": "A Broken Oath",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/915-Y7tGnj7BJVZq.png",
+      "number": 9,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ginga-densetsu-weed-episode-9"
+    },
+    {
+      "id": "ginga-densetsu-weed-episode-10",
+      "title": "The Justice of Two",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/915-Y7tGnj7BJVZq.png",
+      "number": 10,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ginga-densetsu-weed-episode-10"
+    },
+    {
+      "id": "ginga-densetsu-weed-episode-11",
+      "title": "Weed Awakens",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/915-Y7tGnj7BJVZq.png",
+      "number": 11,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ginga-densetsu-weed-episode-11"
+    },
+    {
+      "id": "ginga-densetsu-weed-episode-12",
+      "title": "An Honourable Promise",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/915-Y7tGnj7BJVZq.png",
+      "number": 12,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ginga-densetsu-weed-episode-12"
+    },
+    {
+      "id": "ginga-densetsu-weed-episode-13",
+      "title": "Eternal Pride",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/915-Y7tGnj7BJVZq.png",
+      "number": 13,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ginga-densetsu-weed-episode-13"
+    },
+    {
+      "id": "ginga-densetsu-weed-episode-14",
+      "title": "The Assassin's Slithering Dagger",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/915-Y7tGnj7BJVZq.png",
+      "number": 14,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ginga-densetsu-weed-episode-14"
+    },
+    {
+      "id": "ginga-densetsu-weed-episode-15",
+      "title": "The Zetsu Tenrou Battouga",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/915-Y7tGnj7BJVZq.png",
+      "number": 15,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ginga-densetsu-weed-episode-15"
+    },
+    {
+      "id": "ginga-densetsu-weed-episode-16",
+      "title": "Farewell",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/915-Y7tGnj7BJVZq.png",
+      "number": 16,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ginga-densetsu-weed-episode-16"
+    },
+    {
+      "id": "ginga-densetsu-weed-episode-17",
+      "title": "The Struggle in the Blizzard",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/915-Y7tGnj7BJVZq.png",
+      "number": 17,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ginga-densetsu-weed-episode-17"
+    },
+    {
+      "id": "ginga-densetsu-weed-episode-18",
+      "title": "An Outcry to a Friend",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/915-Y7tGnj7BJVZq.png",
+      "number": 18,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ginga-densetsu-weed-episode-18"
+    },
+    {
+      "id": "ginga-densetsu-weed-episode-19",
+      "title": "A Fool's Disposition",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/915-Y7tGnj7BJVZq.png",
+      "number": 19,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ginga-densetsu-weed-episode-19"
+    },
+    {
+      "id": "ginga-densetsu-weed-episode-20",
+      "title": "The Ohu Suicide Corps",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/915-Y7tGnj7BJVZq.png",
+      "number": 20,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ginga-densetsu-weed-episode-20"
+    },
+    {
+      "id": "ginga-densetsu-weed-episode-21",
+      "title": "Infiltrating Gajou",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/915-Y7tGnj7BJVZq.png",
+      "number": 21,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ginga-densetsu-weed-episode-21"
+    },
+    {
+      "id": "ginga-densetsu-weed-episode-22",
+      "title": "Father and Son",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/915-Y7tGnj7BJVZq.png",
+      "number": 22,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ginga-densetsu-weed-episode-22"
+    },
+    {
+      "id": "ginga-densetsu-weed-episode-23",
+      "title": "The War of Futago Pass Begins",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/915-Y7tGnj7BJVZq.png",
+      "number": 23,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ginga-densetsu-weed-episode-23"
+    },
+    {
+      "id": "ginga-densetsu-weed-episode-24",
+      "title": "A War of Fire & Snow",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/915-Y7tGnj7BJVZq.png",
+      "number": 24,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ginga-densetsu-weed-episode-24"
+    },
+    {
+      "id": "ginga-densetsu-weed-episode-25",
+      "title": "The Raging Stream",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/915-Y7tGnj7BJVZq.png",
+      "number": 25,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ginga-densetsu-weed-episode-25"
+    },
+    {
+      "id": "ginga-densetsu-weed-episode-26",
+      "title": "The True Ginga Legend",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/915-Y7tGnj7BJVZq.png",
+      "number": 26,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ginga-densetsu-weed-episode-26"
+    }
+  ]
+}

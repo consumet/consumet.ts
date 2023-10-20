@@ -1,0 +1,796 @@
+{
+  "id": "8440",
+  "title": {
+    "romaji": "Black Lagoon Omake",
+    "english": null,
+    "native": "ブラック・ラグーン オマケ"
+  },
+  "malId": 8440,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n8440-Dha2nkfPGQBW.png",
+  "popularity": 11680,
+  "color": "#e45d93",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/8440-7f7gtdZ0naf0.jpg",
+  "description": "Special omake episodes from the Blu-Ray releases, showing the heroines and foes in funny, uncommon situations.",
+  "status": "Completed",
+  "releaseDate": 2009,
+  "startDate": {
+    "year": 2009,
+    "month": 12,
+    "day": 23
+  },
+  "endDate": {
+    "year": 2010,
+    "month": 3,
+    "day": 25
+  },
+  "totalEpisodes": 7,
+  "currentEpisode": 7,
+  "rating": 63,
+  "duration": 3,
+  "genres": [
+    "Comedy"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "MADHOUSE"
+  ],
+  "subOrDub": "sub",
+  "type": "SPECIAL",
+  "recommendations": [
+    {
+      "id": 889,
+      "malId": 889,
+      "title": {
+        "romaji": "BLACK LAGOON",
+        "english": "Black Lagoon",
+        "native": "BLACK LAGOON",
+        "userPreferred": "BLACK LAGOON"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx889-Wf4GZRnHv6Dp.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/889-qZE1iFHexJVz.jpg",
+      "rating": 78,
+      "type": "TV"
+    },
+    {
+      "id": 12413,
+      "malId": 12413,
+      "title": {
+        "romaji": "Jormungand",
+        "english": "Jormungand",
+        "native": "ヨルムンガンド",
+        "userPreferred": "Jormungand"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12413-ERry5jCkhEPO.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/12413-zOxRG3P6jgvs.jpg",
+      "rating": 75,
+      "type": "TV"
+    },
+    {
+      "id": 4901,
+      "malId": 4901,
+      "title": {
+        "romaji": "BLACK LAGOON: Roberta's Blood Trail",
+        "english": "Black Lagoon: Roberta's Blood Trail",
+        "native": "BLACK LAGOON Roberta's Blood Trail",
+        "userPreferred": "BLACK LAGOON: Roberta's Blood Trail"
+      },
+      "status": "Completed",
+      "episodes": 5,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4901-evMxxc1A8pCF.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4901-bV0wgMLO3yc5.jpg",
+      "rating": 78,
+      "type": "OVA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 2762,
+      "role": "MAIN",
+      "name": {
+        "first": "Roberta",
+        "last": "Cisneros",
+        "full": "Roberta Cisneros",
+        "native": "ロベルタ・チスネロス",
+        "userPreferred": "Roberta Cisneros"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2762-j8CEA7sYiDP6.png",
+      "voiceActors": [
+        {
+          "id": 95437,
+          "language": "Japanese",
+          "name": {
+            "first": "Michie",
+            "last": "Tomizawa",
+            "full": "Michie Tomizawa",
+            "native": "富沢美智恵",
+            "userPreferred": "Michie Tomizawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95437-E2FrR8aqJoFm.png"
+        }
+      ]
+    },
+    {
+      "id": 459,
+      "role": "MAIN",
+      "name": {
+        "first": "Rokuro",
+        "last": "Okajima",
+        "full": "Rokuro Okajima",
+        "native": "岡島緑郎",
+        "userPreferred": "Rokuro Okajima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b459-QsGmozEvK0jM.png",
+      "voiceActors": [
+        {
+          "id": 95087,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Namikawa",
+            "full": "Daisuke Namikawa",
+            "native": "浪川大輔",
+            "userPreferred": "Daisuke Namikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95087-6dlBBbejsPyg.png"
+        }
+      ]
+    },
+    {
+      "id": 461,
+      "role": "MAIN",
+      "name": {
+        "first": "Balalaika",
+        "last": null,
+        "full": "Balalaika",
+        "native": "バラライカ",
+        "userPreferred": "Balalaika"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b461-1hBKMLSpTY0e.png",
+      "voiceActors": [
+        {
+          "id": 95571,
+          "language": "Japanese",
+          "name": {
+            "first": "Mami",
+            "last": "Koyama",
+            "full": "Mami Koyama",
+            "native": "小山茉美",
+            "userPreferred": "Mami Koyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95571-QuL7zlRwRcxa.png"
+        }
+      ]
+    },
+    {
+      "id": 458,
+      "role": "MAIN",
+      "name": {
+        "first": "Revy",
+        "last": null,
+        "full": "Revy",
+        "native": "レヴィ",
+        "userPreferred": "Revy"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b458-tlKqPcuR287U.png",
+      "voiceActors": [
+        {
+          "id": 95144,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Toyoguchi",
+            "full": "Megumi Toyoguchi",
+            "native": "豊口めぐみ",
+            "userPreferred": "Megumi Toyoguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95144-9Y8CtDVmxogE.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29904,
+      "role": "MAIN",
+      "name": {
+        "first": "Gretel",
+        "last": null,
+        "full": "Gretel",
+        "native": "グレーテル",
+        "userPreferred": "Gretel"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29904.jpg",
+      "voiceActors": [
+        {
+          "id": 95272,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoko",
+            "last": "Kaneda",
+            "full": "Tomoko Kaneda",
+            "native": "金田朋子",
+            "userPreferred": "Tomoko Kaneda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95272-qfGnqI0gkKK5.png"
+        }
+      ]
+    },
+    {
+      "id": 6373,
+      "role": "MAIN",
+      "name": {
+        "first": "Hänsel",
+        "last": null,
+        "full": "Hänsel",
+        "native": "ヘンゼル",
+        "userPreferred": "Hänsel"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6373.jpg",
+      "voiceActors": [
+        {
+          "id": 95323,
+          "language": "Japanese",
+          "name": {
+            "first": "Omi",
+            "last": "Minami",
+            "full": "Omi Minami",
+            "native": "南央美",
+            "userPreferred": "Omi Minami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95323-IEzYhIR4WaHK.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3450,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bai Ji-Shin",
+        "last": "Chang",
+        "full": "Bai Ji-Shin Chang",
+        "native": "張維新",
+        "userPreferred": "Bai Ji-Shin Chang"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3450.jpg",
+      "voiceActors": [
+        {
+          "id": 95006,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiyuki",
+            "last": "Morikawa",
+            "full": "Toshiyuki Morikawa",
+            "native": "森川智之",
+            "userPreferred": "Toshiyuki Morikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95006-hoLuiZANeD3Q.png"
+        }
+      ]
+    },
+    {
+      "id": 15758,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bao",
+        "last": null,
+        "full": "Bao",
+        "native": "バオ",
+        "userPreferred": "Bao"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b15758-Od8NVPoYyjpZ.png",
+      "voiceActors": [
+        {
+          "id": 96431,
+          "language": "Japanese",
+          "name": {
+            "first": "Shirou",
+            "last": "Saitou",
+            "full": "Shirou Saitou",
+            "native": "斎藤志郎",
+            "userPreferred": "Shirou Saitou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1431.jpg"
+        }
+      ]
+    },
+    {
+      "id": 22312,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yukio",
+        "last": "Washimine",
+        "full": "Yukio Washimine",
+        "native": "鷲峰雪緒",
+        "userPreferred": "Yukio Washimine"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b22312-SQzNFYjVHFcL.png",
+      "voiceActors": [
+        {
+          "id": 95057,
+          "language": "Japanese",
+          "name": {
+            "first": "Houko",
+            "last": "Kuwashima",
+            "full": "Houko Kuwashima",
+            "native": "桑島法子",
+            "userPreferred": "Houko Kuwashima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95057-nMZEwJet445W.jpg"
+        }
+      ]
+    },
+    {
+      "id": 457,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dutch",
+        "last": null,
+        "full": "Dutch",
+        "native": "ダッチ",
+        "userPreferred": "Dutch"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b457-BdoXIN7tNvoz.png",
+      "voiceActors": [
+        {
+          "id": 95450,
+          "language": "Japanese",
+          "name": {
+            "first": "Tsutomu",
+            "last": "Isobe",
+            "full": "Tsutomu Isobe",
+            "native": "勉磯部",
+            "userPreferred": "Tsutomu Isobe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95450-rw0UlIXU7keU.jpg"
+        }
+      ]
+    },
+    {
+      "id": 50383,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Maki",
+        "last": null,
+        "full": "Maki",
+        "native": "真希",
+        "userPreferred": "Maki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b50383-bLEwR1W68sUM.jpg",
+      "voiceActors": [
+        {
+          "id": 95465,
+          "language": "Japanese",
+          "name": {
+            "first": "Shiho",
+            "last": "Kawaragi",
+            "full": "Shiho Kawaragi",
+            "native": "河原木志穂",
+            "userPreferred": "Shiho Kawaragi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95465-gyAtV4yZ1A9L.png"
+        }
+      ]
+    },
+    {
+      "id": 14385,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ginji",
+        "last": "Matsuzaki",
+        "full": "Ginji Matsuzaki",
+        "native": "松崎銀次",
+        "userPreferred": "Ginji Matsuzaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14385.jpg",
+      "voiceActors": [
+        {
+          "id": 95798,
+          "language": "Japanese",
+          "name": {
+            "first": "Kiyoyuki",
+            "last": "Yanada",
+            "full": "Kiyoyuki Yanada",
+            "native": "梁田清之",
+            "userPreferred": "Kiyoyuki Yanada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95798-zbNPAckSWMKV.png"
+        }
+      ]
+    },
+    {
+      "id": 460,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Benny",
+        "last": null,
+        "full": "Benny",
+        "native": "ベニー",
+        "userPreferred": "Benny"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/460.jpg",
+      "voiceActors": [
+        {
+          "id": 95125,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroaki",
+            "last": "Hirata",
+            "full": "Hiroaki Hirata",
+            "native": "平田広明",
+            "userPreferred": "Hiroaki Hirata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95125-NeFFiJupoDVj.png"
+        }
+      ]
+    },
+    {
+      "id": 462,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Eda",
+        "last": null,
+        "full": "Eda",
+        "native": "エダ",
+        "userPreferred": "Eda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b462-v7jdOHUT6hPI.png",
+      "voiceActors": [
+        {
+          "id": 96816,
+          "language": "Japanese",
+          "name": {
+            "first": "Jun",
+            "last": "Karasawa",
+            "full": "Jun Karasawa",
+            "native": "唐沢潤",
+            "userPreferred": "Jun Karasawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96816-ki8j2KehKAOL.jpg"
+        }
+      ]
+    },
+    {
+      "id": 248055,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yoshida",
+        "last": null,
+        "full": "Yoshida",
+        "native": "吉田",
+        "userPreferred": "Yoshida"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95720,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenta",
+            "last": "Miyake",
+            "full": "Kenta Miyake",
+            "native": "三宅健太",
+            "userPreferred": "Kenta Miyake"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95720-enxx6kZKuwGi.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9007,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shenhua",
+        "last": null,
+        "full": "Shenhua",
+        "native": "シェンホア",
+        "userPreferred": "Shenhua"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b9007-vADI4jKONEh7.png",
+      "voiceActors": [
+        {
+          "id": 101224,
+          "language": "Japanese",
+          "name": {
+            "first": "Youko",
+            "last": "Sasaki",
+            "full": "Youko Sasaki",
+            "native": "佐々木瑶子",
+            "userPreferred": "Youko Sasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101224-fwgVjt0rSF4A.png"
+        }
+      ]
+    },
+    {
+      "id": 248056,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tsugio",
+        "last": "Bandou",
+        "full": "Tsugio Bandou",
+        "native": "坂東次男",
+        "userPreferred": "Tsugio Bandou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 101175,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomomichi",
+            "last": "Nishimura",
+            "full": "Tomomichi Nishimura",
+            "native": "西村知道",
+            "userPreferred": "Tomomichi Nishimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6175.jpg"
+        }
+      ]
+    },
+    {
+      "id": 248057,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yoshibo",
+        "last": null,
+        "full": "Yoshibo",
+        "native": "ヨシ坊",
+        "userPreferred": "Yoshibo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b248057-T9k7bOMG24Vn.png",
+      "voiceActors": [
+        {
+          "id": 95931,
+          "language": "Japanese",
+          "name": {
+            "first": "Asami",
+            "last": "Yaguchi",
+            "full": "Asami Yaguchi",
+            "native": "矢口アサミ",
+            "userPreferred": "Asami Yaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95931-wW2ljSdYbkDa.jpg"
+        }
+      ]
+    },
+    {
+      "id": 58147,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Boris",
+        "last": null,
+        "full": "Boris",
+        "native": "ボリス",
+        "userPreferred": "Boris"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b58147-3UXcLiuFXe8o.png",
+      "voiceActors": [
+        {
+          "id": 95893,
+          "language": "Japanese",
+          "name": {
+            "first": "Taiten",
+            "last": "Kusunoki",
+            "full": "Taiten Kusunoki",
+            "native": "楠大典",
+            "userPreferred": "Taiten Kusunoki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95893-k0qEVnRygyIn.png"
+        }
+      ]
+    },
+    {
+      "id": 248058,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mamicchi",
+        "last": null,
+        "full": "Mamicchi",
+        "native": "まみっち",
+        "userPreferred": "Mamicchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b248058-C0nZ19rmnm3u.png",
+      "voiceActors": [
+        {
+          "id": 106070,
+          "language": "Japanese",
+          "name": {
+            "first": "Komina",
+            "last": "Matsushita",
+            "full": "Komina Matsushita",
+            "native": "松下こみな",
+            "userPreferred": "Komina Matsushita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106070-XYCR4jiO0ddc.png"
+        }
+      ]
+    },
+    {
+      "id": 14238,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Garcia",
+        "last": "Lovelace",
+        "full": "Garcia Lovelace",
+        "native": "ガルシア・フェルナンド・ラブレス",
+        "userPreferred": "Garcia Fernando Lovelace"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14238.jpg",
+      "voiceActors": [
+        {
+          "id": 95420,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazue",
+            "last": "Ikura",
+            "full": "Kazue Ikura",
+            "native": "伊倉一恵",
+            "userPreferred": "Kazue Ikura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95420-or3epAZNwUdi.png"
+        }
+      ]
+    },
+    {
+      "id": 22186,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yolanda",
+        "last": null,
+        "full": "Yolanda",
+        "native": "シスター・ヨランダ",
+        "userPreferred": "Yolanda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b22186-inZE84OgoeVd.png",
+      "voiceActors": [
+        {
+          "id": 101224,
+          "language": "Japanese",
+          "name": {
+            "first": "Youko",
+            "last": "Sasaki",
+            "full": "Youko Sasaki",
+            "native": "佐々木瑶子",
+            "userPreferred": "Youko Sasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101224-fwgVjt0rSF4A.png"
+        }
+      ]
+    },
+    {
+      "id": 36309,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Narrator",
+        "last": null,
+        "full": "Narrator",
+        "native": "ナレーター",
+        "userPreferred": "Narrator"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36309-yRLEQYd2dDI5.jpg",
+      "voiceActors": [
+        {
+          "id": 96431,
+          "language": "Japanese",
+          "name": {
+            "first": "Shirou",
+            "last": "Saitou",
+            "full": "Shirou Saitou",
+            "native": "斎藤志郎",
+            "userPreferred": "Shirou Saitou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1431.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 30735,
+      "relationType": "ADAPTATION",
+      "malId": 735,
+      "title": {
+        "romaji": "BLACK LAGOON",
+        "english": "Black Lagoon",
+        "native": "ブラック・ラグーン",
+        "userPreferred": "BLACK LAGOON"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx30735-P31qXacg4eOc.jpg",
+      "color": "#e4505d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/30735-IWxTS98mRVS4.jpg",
+      "rating": 81
+    },
+    {
+      "id": 1519,
+      "relationType": "PARENT",
+      "malId": 1519,
+      "title": {
+        "romaji": "BLACK LAGOON: The Second Barrage",
+        "english": "Black Lagoon: The Second Barrage",
+        "native": "BLACK LAGOON The Second Barrage",
+        "userPreferred": "BLACK LAGOON: The Second Barrage"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1519-cScqJxQW3LNL.png",
+      "color": "#e4c9a1",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1519-vKeFZRQNC3HB.jpg",
+      "rating": 80
+    }
+  ],
+  "episodes": [
+    {
+      "id": "black-lagoon-omake-episode-1",
+      "title": "Highschool Life",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n8440-Dha2nkfPGQBW.png",
+      "number": 1,
+      "createdAt": "2013-02-20T18:27:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//black-lagoon-omake-episode-1"
+    },
+    {
+      "id": "black-lagoon-omake-episode-2",
+      "title": "The Magical Girl",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n8440-Dha2nkfPGQBW.png",
+      "number": 2,
+      "createdAt": "2013-02-20T18:27:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//black-lagoon-omake-episode-2"
+    },
+    {
+      "id": "black-lagoon-omake-episode-3",
+      "title": "The Melancholy of Balalaika",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n8440-Dha2nkfPGQBW.png",
+      "number": 3,
+      "createdAt": "2013-02-20T18:27:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//black-lagoon-omake-episode-3"
+    },
+    {
+      "id": "black-lagoon-omake-episode-4",
+      "title": "Boys and Girls",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n8440-Dha2nkfPGQBW.png",
+      "number": 4,
+      "createdAt": "2013-02-20T18:27:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//black-lagoon-omake-episode-4"
+    },
+    {
+      "id": "black-lagoon-omake-episode-5",
+      "title": "Summer Evening Spooky Story Contest",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n8440-Dha2nkfPGQBW.png",
+      "number": 5,
+      "createdAt": "2013-02-20T18:27:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//black-lagoon-omake-episode-5"
+    },
+    {
+      "id": "black-lagoon-omake-episode-6",
+      "title": "Viva! Youth!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n8440-Dha2nkfPGQBW.png",
+      "number": 6,
+      "createdAt": "2013-02-20T18:27:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//black-lagoon-omake-episode-6"
+    },
+    {
+      "id": "black-lagoon-omake-episode-7",
+      "title": "Go for it! Manzai Grand Prix!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n8440-Dha2nkfPGQBW.png",
+      "number": 7,
+      "createdAt": "2013-02-20T18:27:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//black-lagoon-omake-episode-7"
+    }
+  ]
+}

@@ -1,0 +1,971 @@
+{
+  "id": "21451",
+  "title": {
+    "romaji": "Full Metal Panic! Invisible Victory",
+    "english": "Full Metal Panic! Invisible Victory",
+    "native": "フルメタル・パニック！Invisible Victory"
+  },
+  "malId": 31931,
+  "synonyms": [
+    "FULL METAL PANIC! IV"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "c997H2H9i3I",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/c997H2H9i3I/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21451-zsRlkUF9sW02.jpg",
+  "popularity": 19295,
+  "color": "#f1e4c9",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21451-n724W1YmcdPZ.jpg",
+  "description": "Nine months have passed since teen soldier Sousuke Sagara first became Kaname Chidori's covert protector. In that time, Mithril has been remarkably successful at thwarting Amalgam's efforts, but this has only made Amalgam more determined. Leonard Testarossa's visits with Tessa and Kaname are just preludes to all-out attacks that begin with global communications disruptions. Kaname's status as a Whispered makes her one of Amalgam's main targets, which means that any semblance of a peaceful life at Jindai Municipal High School is now over for her.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2018,
+  "startDate": {
+    "year": 2018,
+    "month": 4,
+    "day": 13
+  },
+  "endDate": {
+    "year": 2018,
+    "month": 7,
+    "day": 18
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 73,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Mecha",
+    "Sci-Fi"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Xebec"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 3613,
+      "malId": 3613,
+      "title": {
+        "romaji": "Toshokan Sensou",
+        "english": "Library War",
+        "native": "図書館戦争",
+        "userPreferred": "Toshokan Sensou"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3613-b066tE3vNUAQ.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/3613-TTaBaLPGF1AG.jpg",
+      "rating": 70,
+      "type": "TV"
+    },
+    {
+      "id": 5356,
+      "malId": 5356,
+      "title": {
+        "romaji": "Canaan",
+        "english": null,
+        "native": "カナン",
+        "userPreferred": "Canaan"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5356-RRwXlRIIYe7g.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/5356-HhX084YNmr86.jpg",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 116589,
+      "malId": 41457,
+      "title": {
+        "romaji": "86: Eighty Six",
+        "english": "86 EIGHTY-SIX",
+        "native": "86－エイティシックス－",
+        "userPreferred": "86: Eighty Six"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116589-WSpNedJdAH3L.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/116589-SqwYWzaZCdD5.jpg",
+      "rating": 82,
+      "type": "TV"
+    },
+    {
+      "id": 131586,
+      "malId": 48569,
+      "title": {
+        "romaji": "86: Eighty Six Part 2",
+        "english": "86 EIGHTY-SIX Part 2",
+        "native": "86－エイティシックス－ 第2クール",
+        "userPreferred": "86: Eighty Six Part 2"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx131586-k0X2kVpUOkqX.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/131586-TQED17cUhGnT.jpg",
+      "rating": 86,
+      "type": "TV"
+    },
+    {
+      "id": 20632,
+      "malId": 22729,
+      "title": {
+        "romaji": "Aldnoah.Zero",
+        "english": "ALDNOAH.ZERO",
+        "native": "アルドノア・ゼロ",
+        "userPreferred": "Aldnoah.Zero"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx20632-Mkgbtvi1kmhD.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20632.jpg",
+      "rating": 70,
+      "type": "TV"
+    },
+    {
+      "id": 2581,
+      "malId": 2581,
+      "title": {
+        "romaji": "Kidou Senshi Gundam 00",
+        "english": "Mobile Suit Gundam 00",
+        "native": "機動戦士ガンダム00",
+        "userPreferred": "Kidou Senshi Gundam 00"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2581-MLEf00dNAfqY.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2581-YJ1YJmB8QRJj.jpg",
+      "rating": 77,
+      "type": "TV"
+    },
+    {
+      "id": 93,
+      "malId": 93,
+      "title": {
+        "romaji": "Kidou Senshi Gundam SEED",
+        "english": "Mobile Suit Gundam Seed",
+        "native": "機動戦士ガンダムSEED",
+        "userPreferred": "Kidou Senshi Gundam SEED"
+      },
+      "status": "Completed",
+      "episodes": 50,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx93-3b9jdMQjxEFf.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/93-KZlqRAri1Os5.jpg",
+      "rating": 72,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 168,
+      "role": "MAIN",
+      "name": {
+        "first": "Sousuke",
+        "last": "Sagara",
+        "full": "Sousuke Sagara",
+        "native": "相良宗介",
+        "userPreferred": "Sousuke Sagara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/168.jpg",
+      "voiceActors": [
+        {
+          "id": 95001,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Seki",
+            "full": "Tomokazu Seki",
+            "native": "関智一",
+            "userPreferred": "Tomokazu Seki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95001-vm0RtZhmlzhK.png"
+        }
+      ]
+    },
+    {
+      "id": 272,
+      "role": "MAIN",
+      "name": {
+        "first": "Kaname",
+        "last": "Chidori",
+        "full": "Kaname Chidori",
+        "native": "千鳥かなめ",
+        "userPreferred": "Kaname Chidori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b272-PAyS6eeHE4v9.png",
+      "voiceActors": [
+        {
+          "id": 95003,
+          "language": "Japanese",
+          "name": {
+            "first": "Satsuki",
+            "last": "Yukino",
+            "full": "Satsuki Yukino",
+            "native": "ゆきのさつき",
+            "userPreferred": "Satsuki Yukino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95003-Du7wb5JJzb8P.png"
+        }
+      ]
+    },
+    {
+      "id": 273,
+      "role": "MAIN",
+      "name": {
+        "first": "Teletha",
+        "last": "Testarossa",
+        "full": "Teletha Testarossa",
+        "native": "テレサ・テスタロッサ",
+        "userPreferred": "Teletha Testarossa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b273-fCyaRnsggzeY.png",
+      "voiceActors": [
+        {
+          "id": 95140,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukana",
+            "last": "",
+            "full": "Yukana",
+            "native": "ゆかな",
+            "userPreferred": "Yukana"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95140-sFp0uedEmZ9f.png"
+        }
+      ]
+    },
+    {
+      "id": 6255,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Richard",
+        "last": "Mardukas",
+        "full": "Richard Mardukas",
+        "native": null,
+        "userPreferred": "Richard Mardukas"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6255-boUGf32AZjce.png",
+      "voiceActors": [
+        {
+          "id": 101175,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomomichi",
+            "last": "Nishimura",
+            "full": "Tomomichi Nishimura",
+            "native": "西村知道",
+            "userPreferred": "Tomomichi Nishimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6175.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10430,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nora",
+        "last": "Lemming",
+        "full": "Nora Lemming",
+        "native": "ノーラ・レミング",
+        "userPreferred": "Nora Lemming"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b10430-uFut9bSN5TXI.jpg",
+      "voiceActors": [
+        {
+          "id": 95130,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuriko",
+            "last": "Yamaguchi",
+            "full": "Yuriko Yamaguchi",
+            "native": "山口由里子",
+            "userPreferred": "Yuriko Yamaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95130-GoO41ve3YWQw.png"
+        }
+      ]
+    },
+    {
+      "id": 316603,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Wilhelm",
+        "last": "Caspar",
+        "full": "Wilhelm Caspar",
+        "native": "ヴィルヘルム・カスパー",
+        "userPreferred": "Wilhelm Caspar"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b316603-R8HaZCX2rwuU.png",
+      "voiceActors": [
+        {
+          "id": 95563,
+          "language": "Japanese",
+          "name": {
+            "first": "Masaki",
+            "last": "Terasoma",
+            "full": "Masaki Terasoma",
+            "native": "てらそままさき",
+            "userPreferred": "Masaki Terasoma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95563-tMN0xtsy1qyh.png"
+        }
+      ]
+    },
+    {
+      "id": 2168,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kurz",
+        "last": "Weber",
+        "full": "Kurz Weber",
+        "native": "クルツ・ウェーバー",
+        "userPreferred": "Kurz Weber"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2168-bCryZ2JNakRJ.png",
+      "voiceActors": [
+        {
+          "id": 95022,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinichirou",
+            "last": "Miki",
+            "full": "Shinichirou Miki",
+            "native": "三木眞一郎",
+            "userPreferred": "Shinichirou Miki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95022-BXggjIr4KHqd.png"
+        }
+      ]
+    },
+    {
+      "id": 5766,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Atsunobu",
+        "last": "Hayashimizu",
+        "full": "Atsunobu Hayashimizu",
+        "native": "林水敦信",
+        "userPreferred": "Atsunobu Hayashimizu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5766-UiNis8OkeifV.jpg",
+      "voiceActors": [
+        {
+          "id": 95006,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiyuki",
+            "last": "Morikawa",
+            "full": "Toshiyuki Morikawa",
+            "native": "森川智之",
+            "userPreferred": "Toshiyuki Morikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95006-hoLuiZANeD3Q.png"
+        }
+      ]
+    },
+    {
+      "id": 10676,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nami",
+        "last": null,
+        "full": "Nami",
+        "native": null,
+        "userPreferred": "Nami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b10676-NntoCuy5kurA.jpg",
+      "voiceActors": [
+        {
+          "id": 95053,
+          "language": "Japanese",
+          "name": {
+            "first": "Minori",
+            "last": "Chihara",
+            "full": "Minori Chihara",
+            "native": "茅原実里",
+            "userPreferred": "Minori Chihara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95053-wN1MdNMSGTMn.png"
+        }
+      ]
+    },
+    {
+      "id": 313793,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mira",
+        "last": "Kudan",
+        "full": "Mira Kudan",
+        "native": "クダン・ミラ",
+        "userPreferred": "Mira Kudan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b313793-elwQzbVeF9wK.jpg",
+      "voiceActors": [
+        {
+          "id": 96858,
+          "language": "Japanese",
+          "name": {
+            "first": "Shiho",
+            "last": "Kikuchi",
+            "full": "Shiho Kikuchi",
+            "native": "志穂菊池",
+            "userPreferred": "Shiho Kikuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1858.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2747,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Andrei Sergeivich",
+        "last": "Kalinin",
+        "full": "Andrei Sergeivich Kalinin",
+        "native": null,
+        "userPreferred": "Andrei Sergeivich Kalinin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2747-6hin9Axy8EYE.png",
+      "voiceActors": [
+        {
+          "id": 95146,
+          "language": "Japanese",
+          "name": {
+            "first": "Akio",
+            "last": "Ootsuka",
+            "full": "Akio Ootsuka",
+            "native": "大塚明夫",
+            "userPreferred": "Akio Ootsuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95146-T6IEmqXW3xUN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2745,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kyoko",
+        "last": "Tokiwa",
+        "full": "Kyoko Tokiwa",
+        "native": "常盤恭子",
+        "userPreferred": "Kyoko Tokiwa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2745-JsLizuLd51jV.png",
+      "voiceActors": [
+        {
+          "id": 96688,
+          "language": "Japanese",
+          "name": {
+            "first": "Ikue",
+            "last": "Kimura",
+            "full": "Ikue Kimura",
+            "native": "木村郁絵",
+            "userPreferred": "Ikue Kimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96688-TvUeQTyg2bUv.png"
+        }
+      ]
+    },
+    {
+      "id": 10669,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gavin",
+        "last": "Hunter",
+        "full": "Gavin Hunter",
+        "native": null,
+        "userPreferred": "Gavin Hunter"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10669.jpg",
+      "voiceActors": [
+        {
+          "id": 95651,
+          "language": "Japanese",
+          "name": {
+            "first": "Bin",
+            "last": "Shimada",
+            "full": "Bin Shimada",
+            "native": "島田敏",
+            "userPreferred": "Bin Shimada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95651-6kRo7F4yb6Yt.png"
+        }
+      ]
+    },
+    {
+      "id": 8529,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Leonard",
+        "last": "Testarossa",
+        "full": "Leonard Testarossa",
+        "native": null,
+        "userPreferred": "Leonard Testarossa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/8529.jpg",
+      "voiceActors": [
+        {
+          "id": 95087,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Namikawa",
+            "full": "Daisuke Namikawa",
+            "native": "浪川大輔",
+            "userPreferred": "Daisuke Namikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95087-6dlBBbejsPyg.png"
+        }
+      ]
+    },
+    {
+      "id": 131299,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lee",
+        "last": "Fowler",
+        "full": "Lee Fowler",
+        "native": "リー・ファウラー",
+        "userPreferred": "Lee Fowler"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b131299-bsxvBeLGHrs5.jpg",
+      "voiceActors": [
+        {
+          "id": 95002,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Sugita",
+            "full": "Tomokazu Sugita",
+            "native": "杉田智和",
+            "userPreferred": "Tomokazu Sugita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95002-nDIvHaynicEg.png"
+        }
+      ]
+    },
+    {
+      "id": 10678,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "AL",
+        "last": null,
+        "full": "AL",
+        "native": "アル",
+        "userPreferred": "AL"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b10678-nJsd3qs40gic.jpg",
+      "voiceActors": [
+        {
+          "id": 96543,
+          "language": "Japanese",
+          "name": {
+            "first": "Takehiro",
+            "last": "Murozono",
+            "full": "Takehiro Murozono",
+            "native": "室園丈裕",
+            "userPreferred": "Takehiro Murozono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1543.jpg"
+        }
+      ]
+    },
+    {
+      "id": 781,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Melissa",
+        "last": "Mao",
+        "full": "Melissa Mao",
+        "native": "メリッサ・マオ",
+        "userPreferred": "Melissa Mao"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b781-oTCT72pwC5Zd.png",
+      "voiceActors": [
+        {
+          "id": 95176,
+          "language": "Japanese",
+          "name": {
+            "first": "Michiko",
+            "last": "Neya",
+            "full": "Michiko Neya",
+            "native": "根谷美智子",
+            "userPreferred": "Michiko Neya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95176-3yZnUwXap7nX.png"
+        }
+      ]
+    },
+    {
+      "id": 131300,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kurama",
+        "last": null,
+        "full": "Kurama",
+        "native": null,
+        "userPreferred": "Kurama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n131300-KJEs4WLcy3Rb.jpg",
+      "voiceActors": [
+        {
+          "id": 101755,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuhiro",
+            "last": "Yamaji",
+            "full": "Kazuhiro Yamaji",
+            "native": "山路和弘",
+            "userPreferred": "Kazuhiro Yamaji"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101755-LsVbHCwg6Pel.png"
+        }
+      ]
+    },
+    {
+      "id": 316527,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sabina",
+        "last": "Rechnio",
+        "full": "Sabina Rechnio",
+        "native": "サビーナ・レフニオ",
+        "userPreferred": "Sabina Rechnio"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b316527-DqgwJTimbmqt.png",
+      "voiceActors": [
+        {
+          "id": 95158,
+          "language": "Japanese",
+          "name": {
+            "first": "Marina",
+            "last": "Inoue",
+            "full": "Marina Inoue",
+            "native": "井上麻里奈",
+            "userPreferred": "Marina Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95158-OLhgs8zv5xsp.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10671,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Wraith",
+        "last": null,
+        "full": "Wraith",
+        "native": "レイス",
+        "userPreferred": "Wraith"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b10671-D4nJPTMd6EPt.png",
+      "voiceActors": [
+        {
+          "id": 95092,
+          "language": "Japanese",
+          "name": {
+            "first": "Sayaka",
+            "last": "Oohara",
+            "full": "Sayaka Oohara",
+            "native": "大原さやか",
+            "userPreferred": "Sayaka Oohara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95092-dQXsTFQXLg3o.png"
+        }
+      ]
+    },
+    {
+      "id": 84963,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Topas",
+        "last": null,
+        "full": "Topas",
+        "native": null,
+        "userPreferred": "Topas"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/84963.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 316553,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Michel",
+        "last": "Lemon",
+        "full": "Michel Lemon",
+        "native": "ミシェル・レモン",
+        "userPreferred": "Michel Lemon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b316553-wHVEDlkiPBum.png",
+      "voiceActors": [
+        {
+          "id": 95591,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenjirou",
+            "last": "Tsuda",
+            "full": "Kenjirou Tsuda",
+            "native": "津田健次郎",
+            "userPreferred": "Kenjirou Tsuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95591-WQGdD3ubbeoq.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2746,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shinji",
+        "last": "Kazama",
+        "full": "Shinji Kazama",
+        "native": "風間信二",
+        "userPreferred": "Shinji Kazama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2746-Yg1i1zzTZz26.png",
+      "voiceActors": [
+        {
+          "id": 95040,
+          "language": "Japanese",
+          "name": {
+            "first": "Mamiko",
+            "last": "Noto",
+            "full": "Mamiko Noto",
+            "native": "能登麻美子",
+            "userPreferred": "Mamiko Noto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95040-CskhFn4LiOti.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10655,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Belfangan",
+        "last": "Clouseau",
+        "full": "Belfangan Clouseau",
+        "native": null,
+        "userPreferred": "Belfangan Clouseau"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10655.jpg",
+      "voiceActors": [
+        {
+          "id": 95113,
+          "language": "Japanese",
+          "name": {
+            "first": "Rikiya",
+            "last": "Koyama",
+            "full": "Rikiya Koyama",
+            "native": "小山力也",
+            "userPreferred": "Rikiya Koyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95113-z9eyYjTKSTX4.png"
+        }
+      ]
+    },
+    {
+      "id": 316602,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "John",
+        "last": "Courtney",
+        "full": "John Courtney",
+        "native": "ジョン・ジョージ・コートニー",
+        "userPreferred": "John George Courtney"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b316602-X3nSPmyUyAvq.png",
+      "voiceActors": [
+        {
+          "id": 95803,
+          "language": "Japanese",
+          "name": {
+            "first": "Masaru",
+            "last": "Ikeda",
+            "full": "Masaru Ikeda",
+            "native": "池田勝",
+            "userPreferred": "Masaru Ikeda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/803.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 40892,
+      "relationType": "ADAPTATION",
+      "malId": 10892,
+      "title": {
+        "romaji": "Full Metal Panic!",
+        "english": "Full Metal Panic!",
+        "native": "フルメタル・パニック!",
+        "userPreferred": "Full Metal Panic!"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx40892-p57bJIrTRA11.jpg",
+      "color": "#e450a1",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/40892-JOp0K8g2CZ6I.jpg",
+      "rating": 79
+    },
+    {
+      "id": 73,
+      "relationType": "PREQUEL",
+      "malId": 73,
+      "title": {
+        "romaji": "Full Metal Panic! The Second Raid",
+        "english": "Full Metal Panic! The Second Raid",
+        "native": "フルメタル パニック！The Second Raid",
+        "userPreferred": "Full Metal Panic! The Second Raid"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx73-UgXDGEMBPGle.jpg",
+      "color": "#aec9e4",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/73-UdHqZ4qFc4o8.png",
+      "rating": 77
+    }
+  ],
+  "episodes": [
+    {
+      "id": "full-metal-panic-invisible-victory-episode-1",
+      "title": "Zero Hour",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21451-zsRlkUF9sW02.jpg",
+      "number": 1,
+      "createdAt": "2018-02-28T12:43:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//full-metal-panic-invisible-victory-episode-1"
+    },
+    {
+      "id": "full-metal-panic-invisible-victory-episode-2",
+      "title": "Damage Control",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21451-zsRlkUF9sW02.jpg",
+      "number": 2,
+      "createdAt": "2018-02-28T12:43:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//full-metal-panic-invisible-victory-episode-2"
+    },
+    {
+      "id": "full-metal-panic-invisible-victory-episode-3",
+      "title": "Big One Percent",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21451-zsRlkUF9sW02.jpg",
+      "number": 3,
+      "createdAt": "2018-03-04T07:56:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//full-metal-panic-invisible-victory-episode-3"
+    },
+    {
+      "id": "full-metal-panic-invisible-victory-episode-4",
+      "title": "On My Own",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21451-zsRlkUF9sW02.jpg",
+      "number": 4,
+      "createdAt": "2018-03-08T19:47:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//full-metal-panic-invisible-victory-episode-4"
+    },
+    {
+      "id": "full-metal-panic-invisible-victory-episode-4-5",
+      "title": "Welcome to the Jungle",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21451-zsRlkUF9sW02.jpg",
+      "number": 4.5,
+      "createdAt": "2018-03-08T19:47:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//full-metal-panic-invisible-victory-episode-4-5"
+    },
+    {
+      "id": "full-metal-panic-invisible-victory-episode-5",
+      "title": "Rotten Repose",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21451-zsRlkUF9sW02.jpg",
+      "number": 5,
+      "createdAt": "2018-03-08T19:47:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//full-metal-panic-invisible-victory-episode-5"
+    },
+    {
+      "id": "full-metal-panic-invisible-victory-episode-6",
+      "title": "Giant Killing",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21451-zsRlkUF9sW02.jpg",
+      "number": 6,
+      "createdAt": "2018-03-08T19:47:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//full-metal-panic-invisible-victory-episode-6"
+    },
+    {
+      "id": "full-metal-panic-invisible-victory-episode-7",
+      "title": "One-Man Force",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21451-zsRlkUF9sW02.jpg",
+      "number": 7,
+      "createdAt": "2018-03-08T19:47:32Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//full-metal-panic-invisible-victory-episode-7"
+    },
+    {
+      "id": "full-metal-panic-invisible-victory-episode-8",
+      "title": "The Fallen Witch",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21451-zsRlkUF9sW02.jpg",
+      "number": 8,
+      "createdAt": "2018-03-08T19:47:33Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//full-metal-panic-invisible-victory-episode-8"
+    },
+    {
+      "id": "full-metal-panic-invisible-victory-episode-8-5",
+      "title": "Onward, Onward",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21451-zsRlkUF9sW02.jpg",
+      "number": 8.5,
+      "createdAt": "2018-03-08T19:47:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//full-metal-panic-invisible-victory-episode-8-5"
+    },
+    {
+      "id": "full-metal-panic-invisible-victory-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21451-zsRlkUF9sW02.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//full-metal-panic-invisible-victory-episode-9"
+    },
+    {
+      "id": "full-metal-panic-invisible-victory-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21451-zsRlkUF9sW02.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//full-metal-panic-invisible-victory-episode-10"
+    },
+    {
+      "id": "full-metal-panic-invisible-victory-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21451-zsRlkUF9sW02.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//full-metal-panic-invisible-victory-episode-11"
+    },
+    {
+      "id": "full-metal-panic-invisible-victory-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21451-zsRlkUF9sW02.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//full-metal-panic-invisible-victory-episode-12"
+    }
+  ]
+}

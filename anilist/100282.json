@@ -1,0 +1,166 @@
+{
+  "id": "100282",
+  "title": {
+    "romaji": "Fireball Humorous",
+    "english": "Fireball Humorous",
+    "native": "ファイアボール ユーモラス"
+  },
+  "malId": 36166,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/100282-vLo96yvYezTW.jpg",
+  "popularity": 986,
+  "color": "#e45d43",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100282-BNO3i0ZfCNpi.jpg",
+  "description": "Gag shorts of the 'Fireball' series.",
+  "status": "Completed",
+  "releaseDate": 2017,
+  "startDate": {
+    "year": 2017,
+    "month": 10,
+    "day": 6
+  },
+  "endDate": {
+    "year": 2017,
+    "month": 12,
+    "day": 18
+  },
+  "totalEpisodes": 3,
+  "currentEpisode": 3,
+  "rating": 52,
+  "duration": 3,
+  "genres": [
+    "Comedy",
+    "Sci-Fi"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Jinni's Animation Studios"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 12296,
+      "role": "MAIN",
+      "name": {
+        "first": "Gedächtnis",
+        "last": null,
+        "full": "Gedächtnis",
+        "native": "ゲデヒトニス",
+        "userPreferred": "Gedächtnis"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12296.jpg",
+      "voiceActors": [
+        {
+          "id": 95243,
+          "language": "Japanese",
+          "name": {
+            "first": "Tooru",
+            "last": "Ookawa",
+            "full": "Tooru Ookawa",
+            "native": "大川透",
+            "userPreferred": "Tooru Ookawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95243-zhk18RRqSAmx.png"
+        }
+      ]
+    },
+    {
+      "id": 12297,
+      "role": "MAIN",
+      "name": {
+        "first": "Drossel",
+        "last": "von Flügel",
+        "full": "Drossel von Flügel",
+        "native": "ドロッセル",
+        "userPreferred": "Drossel von Flügel"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b12297-vqXhZwp7paGd.png",
+      "voiceActors": [
+        {
+          "id": 101056,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyuki",
+            "last": "Kawasho",
+            "full": "Miyuki Kawasho",
+            "native": "川庄美雪",
+            "userPreferred": "Miyuki Kawasho"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6056.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 10348,
+      "relationType": "SEQUEL",
+      "malId": 10348,
+      "title": {
+        "romaji": "Fireball Charming",
+        "english": null,
+        "native": "ファイアボール チャーミング",
+        "userPreferred": "Fireball Charming"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10348.jpg",
+      "color": "#f1a135",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10348-vNMoILNeJhMU.jpg",
+      "rating": 64
+    },
+    {
+      "id": 125491,
+      "relationType": "PREQUEL",
+      "malId": 43350,
+      "title": {
+        "romaji": "Gebaude=Baude",
+        "english": null,
+        "native": "ゲボイデ＝ボイデ",
+        "userPreferred": "Gebaude=Baude"
+      },
+      "status": "Completed",
+      "episodes": 10,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125491-8DuV6JfT3KkM.jpg",
+      "color": "#e4c935",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/125491-2lhE0HClnYXa.jpg",
+      "rating": 59
+    }
+  ],
+  "episodes": [
+    {
+      "id": "fireball-humorous-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/100282-vLo96yvYezTW.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//fireball-humorous-episode-1"
+    },
+    {
+      "id": "fireball-humorous-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/100282-vLo96yvYezTW.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//fireball-humorous-episode-2"
+    },
+    {
+      "id": "fireball-humorous-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/100282-vLo96yvYezTW.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//fireball-humorous-episode-3"
+    }
+  ]
+}

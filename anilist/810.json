@@ -1,0 +1,511 @@
+{
+  "id": "810",
+  "title": {
+    "romaji": "Android Ana MAICO 2010",
+    "english": "Android Announcer Maico 2010",
+    "native": "アンドロイド・アナ　MAICO ２０１０"
+  },
+  "malId": 810,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/810.jpg",
+  "popularity": 807,
+  "color": "#e48650",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/810.jpg",
+  "description": "In the year 2010, the Japanese radio industry is in decline. To reverse their flagging ratings, a station staffed with perennial losers makes a daring gamble: to hire the industry's first android on-air host. Maico is cute, but it will take more than novelty to win over the fickle audience -- especially with a crew as inept as this one. ",
+  "status": "Completed",
+  "releaseDate": 1998,
+  "startDate": {
+    "year": 1998,
+    "month": 4,
+    "day": 6
+  },
+  "endDate": {
+    "year": 1998,
+    "month": 9,
+    "day": 28
+  },
+  "totalEpisodes": 24,
+  "currentEpisode": 24,
+  "rating": 56,
+  "duration": 14,
+  "genres": [
+    "Comedy",
+    "Sci-Fi"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Group TAC",
+    "Ekura Animal"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 112353,
+      "malId": 40513,
+      "title": {
+        "romaji": "Nami yo Kiitekure",
+        "english": "Wave, Listen to Me!",
+        "native": "波よ聞いてくれ",
+        "userPreferred": "Nami yo Kiitekure"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112353-hAtUOoapou7V.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112353-cyIzHUCz2pML.jpg",
+      "rating": 70,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 23197,
+      "role": "MAIN",
+      "name": {
+        "first": "Densuke",
+        "last": "Matsuo",
+        "full": "Densuke Matsuo",
+        "native": "松尾伝助",
+        "userPreferred": "Densuke Matsuo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/23197.jpg",
+      "voiceActors": [
+        {
+          "id": 95177,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryoutarou",
+            "last": "Okiayu",
+            "full": "Ryoutarou Okiayu",
+            "native": "置鮎龍太郎",
+            "userPreferred": "Ryoutarou Okiayu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95177-6SiaUTf3CLkN.png"
+        }
+      ]
+    },
+    {
+      "id": 13216,
+      "role": "MAIN",
+      "name": {
+        "first": "Maico",
+        "last": null,
+        "full": "Maico",
+        "native": "ＭＡＩＣＯ",
+        "userPreferred": "Maico"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/13216.jpg",
+      "voiceActors": [
+        {
+          "id": 95115,
+          "language": "Japanese",
+          "name": {
+            "first": "Sakura",
+            "last": "Tange",
+            "full": "Sakura Tange",
+            "native": "丹下桜",
+            "userPreferred": "Sakura Tange"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95115-AtF7VsdIk51q.png"
+        }
+      ]
+    },
+    {
+      "id": 20136,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Akira",
+        "last": "Tenpoin",
+        "full": "Akira Tenpoin",
+        "native": null,
+        "userPreferred": "Akira Tenpoin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20136.jpg",
+      "voiceActors": [
+        {
+          "id": 95017,
+          "language": "Japanese",
+          "name": {
+            "first": "Akira",
+            "last": "Ishida",
+            "full": "Akira Ishida",
+            "native": "石田彰",
+            "userPreferred": "Akira Ishida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95017-GSRcmQ97a8ZT.png"
+        }
+      ]
+    },
+    {
+      "id": 23194,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Izumi",
+        "last": null,
+        "full": "Izumi",
+        "native": null,
+        "userPreferred": "Izumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/23194.jpg",
+      "voiceActors": [
+        {
+          "id": 100482,
+          "language": "Japanese",
+          "name": {
+            "first": "Nao",
+            "last": "Takamori",
+            "full": "Nao Takamori",
+            "native": "高森奈緒",
+            "userPreferred": "Nao Takamori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5482.jpg"
+        }
+      ]
+    },
+    {
+      "id": 23195,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Matsuan",
+        "last": null,
+        "full": "Matsuan",
+        "native": "松つぁん",
+        "userPreferred": "Matsuan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/23195.jpg",
+      "voiceActors": [
+        {
+          "id": 95529,
+          "language": "Japanese",
+          "name": {
+            "first": "Tooru",
+            "last": "Furusawa",
+            "full": "Tooru Furusawa",
+            "native": "古澤徹",
+            "userPreferred": "Tooru Furusawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95529-XJ4k8Hx7pOnY.png"
+        }
+      ]
+    },
+    {
+      "id": 23196,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ryoko",
+        "last": "Masudamasu",
+        "full": "Ryoko Masudamasu",
+        "native": null,
+        "userPreferred": "Ryoko Masudamasu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/23196.jpg",
+      "voiceActors": [
+        {
+          "id": 95287,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Ogata",
+            "full": "Megumi Ogata",
+            "native": "緒方恵美",
+            "userPreferred": "Megumi Ogata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95287-3moX16xmYedv.png"
+        }
+      ]
+    },
+    {
+      "id": 23199,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Suga",
+        "last": null,
+        "full": "Suga",
+        "native": "スガ",
+        "userPreferred": "Suga"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/23199.jpg",
+      "voiceActors": [
+        {
+          "id": 95109,
+          "language": "Japanese",
+          "name": {
+            "first": "Ken",
+            "last": "Narita",
+            "full": "Ken Narita",
+            "native": "成田剣",
+            "userPreferred": "Ken Narita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95109-iOWKX2uxDWnj.png"
+        }
+      ]
+    },
+    {
+      "id": 30490,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kacchan",
+        "last": null,
+        "full": "Kacchan",
+        "native": null,
+        "userPreferred": "Kacchan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/30490.jpg",
+      "voiceActors": [
+        {
+          "id": 202758,
+          "language": "Japanese",
+          "name": {
+            "first": "Mitsura",
+            "last": "Ogata",
+            "full": "Mitsura Ogata",
+            "native": null,
+            "userPreferred": "Mitsura Ogata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 36865,
+      "relationType": "ADAPTATION",
+      "malId": 6865,
+      "title": {
+        "romaji": "MAICO 2010",
+        "english": "Maico 2010",
+        "native": "MAICO2010",
+        "userPreferred": "MAICO 2010"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/6865.jpg",
+      "color": "#f10d50",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/6865.jpg",
+      "rating": 60
+    }
+  ],
+  "episodes": [
+    {
+      "id": "android-ana-maico-2010-episode-1",
+      "title": "Cue",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/810.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:21:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//android-ana-maico-2010-episode-1"
+    },
+    {
+      "id": "android-ana-maico-2010-episode-2",
+      "title": "Watch Out, Adachi-san",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/810.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:21:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//android-ana-maico-2010-episode-2"
+    },
+    {
+      "id": "android-ana-maico-2010-episode-3",
+      "title": "Pnyo~n",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/810.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:21:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//android-ana-maico-2010-episode-3"
+    },
+    {
+      "id": "android-ana-maico-2010-episode-4",
+      "title": "Useless",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/810.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:21:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//android-ana-maico-2010-episode-4"
+    },
+    {
+      "id": "android-ana-maico-2010-episode-5",
+      "title": "The Lowest",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/810.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:21:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//android-ana-maico-2010-episode-5"
+    },
+    {
+      "id": "android-ana-maico-2010-episode-6",
+      "title": "You Know",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/810.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:21:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//android-ana-maico-2010-episode-6"
+    },
+    {
+      "id": "android-ana-maico-2010-episode-7",
+      "title": "Miso Cucumber",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/810.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:21:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//android-ana-maico-2010-episode-7"
+    },
+    {
+      "id": "android-ana-maico-2010-episode-8",
+      "title": "I Want to See You Right Now",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/810.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:21:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//android-ana-maico-2010-episode-8"
+    },
+    {
+      "id": "android-ana-maico-2010-episode-9",
+      "title": "Robo-fetish!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/810.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:21:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//android-ana-maico-2010-episode-9"
+    },
+    {
+      "id": "android-ana-maico-2010-episode-10",
+      "title": "!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/810.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:21:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//android-ana-maico-2010-episode-10"
+    },
+    {
+      "id": "android-ana-maico-2010-episode-11",
+      "title": "You're Evil",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/810.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:21:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//android-ana-maico-2010-episode-11"
+    },
+    {
+      "id": "android-ana-maico-2010-episode-12",
+      "title": "Morse!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/810.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:21:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//android-ana-maico-2010-episode-12"
+    },
+    {
+      "id": "android-ana-maico-2010-episode-13",
+      "title": "Flower? or Kokeshi?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/810.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:21:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//android-ana-maico-2010-episode-13"
+    },
+    {
+      "id": "android-ana-maico-2010-episode-14",
+      "title": "Je t'aime",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/810.jpg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:21:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//android-ana-maico-2010-episode-14"
+    },
+    {
+      "id": "android-ana-maico-2010-episode-15",
+      "title": "G-Shaped",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/810.jpg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:21:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//android-ana-maico-2010-episode-15"
+    },
+    {
+      "id": "android-ana-maico-2010-episode-16",
+      "title": "Fly",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/810.jpg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:21:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//android-ana-maico-2010-episode-16"
+    },
+    {
+      "id": "android-ana-maico-2010-episode-17",
+      "title": "I Don't Understand",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/810.jpg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:21:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//android-ana-maico-2010-episode-17"
+    },
+    {
+      "id": "android-ana-maico-2010-episode-18",
+      "title": "Storm",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/810.jpg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:21:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//android-ana-maico-2010-episode-18"
+    },
+    {
+      "id": "android-ana-maico-2010-episode-19",
+      "title": "Love and Kiss",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/810.jpg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:21:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//android-ana-maico-2010-episode-19"
+    },
+    {
+      "id": "android-ana-maico-2010-episode-20",
+      "title": "Obedient, Right?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/810.jpg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:21:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//android-ana-maico-2010-episode-20"
+    },
+    {
+      "id": "android-ana-maico-2010-episode-21",
+      "title": "The Blood Sucking Corps",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/810.jpg",
+      "number": 21,
+      "createdAt": "2013-02-20T18:21:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//android-ana-maico-2010-episode-21"
+    },
+    {
+      "id": "android-ana-maico-2010-episode-22",
+      "title": "Super MAICO",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/810.jpg",
+      "number": 22,
+      "createdAt": "2013-02-20T18:21:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//android-ana-maico-2010-episode-22"
+    },
+    {
+      "id": "android-ana-maico-2010-episode-23",
+      "title": "Back Me Up!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/810.jpg",
+      "number": 23,
+      "createdAt": "2013-02-20T18:21:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//android-ana-maico-2010-episode-23"
+    },
+    {
+      "id": "android-ana-maico-2010-episode-24",
+      "title": "Can You Hear Me?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/810.jpg",
+      "number": 24,
+      "createdAt": "2013-02-20T18:21:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//android-ana-maico-2010-episode-24"
+    }
+  ]
+}

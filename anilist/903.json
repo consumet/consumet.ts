@@ -1,0 +1,592 @@
+{
+  "id": "903",
+  "title": {
+    "romaji": "Dragon Ball Z: Kiken na Futari! Super Senshi wa Nemurenai",
+    "english": "Dragon Ball Z: Broly - Second Coming",
+    "native": "ドラゴンボールZ 危険なふたり! 超戦士はねむれない"
+  },
+  "malId": 903,
+  "synonyms": [
+    "Dragon Ball Z: Dangerous Rivals",
+    "Dragon Ball Z: Dangerous Partners! Super Warriors Never Rest",
+    "Dragon Ball Z: Dangerous Two! Super Warriors Can't Sleep",
+    "ดราก้อนบอล Z เดอะมูฟวี่ 10 การกลับมาของโบรลี่",
+    "Bảy Viên Ngọc Rồng Z: Broly Trở Lại Lần Nữa"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/903.jpg",
+  "popularity": 25255,
+  "color": "#e49343",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/903-5svBMULsJJ9c.png",
+  "description": "After his loss to Goku, Brolly crash lands and hibernates on earth. After some time, he is awakened by Trunks and Goten, who Brolly believes is Kakarott, and goes on a rampage to kill both of them. At the same time, Gohan is on his way to challenge the Legendary Super Saiyan alone.",
+  "status": "Completed",
+  "releaseDate": 1994,
+  "startDate": {
+    "year": 1994,
+    "month": 3,
+    "day": 12
+  },
+  "endDate": {
+    "year": 1994,
+    "month": 3,
+    "day": 12
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 63,
+  "duration": 50,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Toei Animation"
+  ],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [
+    {
+      "id": 101302,
+      "malId": 36946,
+      "title": {
+        "romaji": "Dragon Ball Super: Broly",
+        "english": "Dragon Ball Super: Broly",
+        "native": "ドラゴンボール超 ブロリー",
+        "userPreferred": "Dragon Ball Super: Broly"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101302-7L0lcwYeFQQM.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101302-2ix6Nti3Y11Q.jpg",
+      "rating": 80,
+      "type": "MOVIE"
+    },
+    {
+      "id": 902,
+      "malId": 902,
+      "title": {
+        "romaji": "Dragon Ball Z: Ginga Girigiri!! Bucchigiri no Sugoi Yatsu",
+        "english": "Dragon Ball Z: Bojack Unbound",
+        "native": "ドラゴンボールZ 銀河ギリギリ!! ぶっちぎりの凄い奴",
+        "userPreferred": "Dragon Ball Z: Ginga Girigiri!! Bucchigiri no Sugoi Yatsu"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/902-OC9WhTInSUvU.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/902-e2Ywly480iIc.jpg",
+      "rating": 67,
+      "type": "MOVIE"
+    }
+  ],
+  "characters": [
+    {
+      "id": 2093,
+      "role": "MAIN",
+      "name": {
+        "first": "Gohan",
+        "last": "Son",
+        "full": "Gohan Son",
+        "native": "孫悟飯",
+        "userPreferred": "Gohan Son"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2093-kdFZhqcNSsqW.png",
+      "voiceActors": [
+        {
+          "id": 95557,
+          "language": "Japanese",
+          "name": {
+            "first": "Masako",
+            "last": "Nozawa",
+            "full": "Masako Nozawa",
+            "native": "野沢雅子",
+            "userPreferred": "Masako Nozawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95557-5a2nnIBK05ul.png"
+        },
+        {
+          "id": 95336,
+          "language": "English",
+          "name": {
+            "first": "Kyle",
+            "last": "Hebert",
+            "full": "Kyle Hebert",
+            "native": null,
+            "userPreferred": "Kyle Hebert"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95336-VVMKFINwPYZ8.jpg"
+        },
+        {
+          "id": 100138,
+          "language": "Portuguese",
+          "name": {
+            "first": "Vagner",
+            "last": "Fagundes",
+            "full": "Vagner Fagundes",
+            "native": null,
+            "userPreferred": "Vagner Fagundes"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100138-5aMzO7vjUu0J.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4945,
+      "role": "MAIN",
+      "name": {
+        "first": "Broly",
+        "last": "",
+        "full": "Broly",
+        "native": "ブロリー",
+        "userPreferred": "Broly"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4945-iE59qIP7TxPu.png",
+      "voiceActors": [
+        {
+          "id": 95651,
+          "language": "Japanese",
+          "name": {
+            "first": "Bin",
+            "last": "Shimada",
+            "full": "Bin Shimada",
+            "native": "島田敏",
+            "userPreferred": "Bin Shimada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95651-6kRo7F4yb6Yt.png"
+        },
+        {
+          "id": 95043,
+          "language": "English",
+          "name": {
+            "first": "Vic",
+            "last": "Mignogna",
+            "full": "Vic Mignogna",
+            "native": "Victor Joseph Mignogna",
+            "userPreferred": "Vic Mignogna"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95043-cgQunZolvkPW.png"
+        },
+        {
+          "id": 100605,
+          "language": "Portuguese",
+          "name": {
+            "first": "Cássius",
+            "last": "Romero",
+            "full": "Cássius Romero",
+            "native": null,
+            "userPreferred": "Cássius Romero"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100605-g4xVhk3m7Hw2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 914,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Piccolo",
+        "last": null,
+        "full": "Piccolo",
+        "native": "ピッコロ",
+        "userPreferred": "Piccolo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b914-KuS8AWjqBrqa.jpg",
+      "voiceActors": [
+        {
+          "id": 108319,
+          "language": "Portuguese",
+          "name": {
+            "first": "Luiz Antonio",
+            "last": "Lobue",
+            "full": "Luiz Antonio Lobue",
+            "native": "Luiz Antônio Lobue",
+            "userPreferred": "Luiz Antonio Lobue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/13319.jpg"
+        }
+      ]
+    },
+    {
+      "id": 246,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gokuu",
+        "last": "Son",
+        "full": "Gokuu Son",
+        "native": "孫悟空",
+        "userPreferred": "Gokuu Son"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/246-wsRRr6z1kii8.png",
+      "voiceActors": [
+        {
+          "id": 95557,
+          "language": "Japanese",
+          "name": {
+            "first": "Masako",
+            "last": "Nozawa",
+            "full": "Masako Nozawa",
+            "native": "野沢雅子",
+            "userPreferred": "Masako Nozawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95557-5a2nnIBK05ul.png"
+        },
+        {
+          "id": 96000,
+          "language": "English",
+          "name": {
+            "first": "Sean",
+            "last": "Schemmel",
+            "full": "Sean Schemmel",
+            "native": null,
+            "userPreferred": "Sean Schemmel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96000-2o6VuDoBKFam.png"
+        },
+        {
+          "id": 96830,
+          "language": "Portuguese",
+          "name": {
+            "first": "Wendel",
+            "last": "Bezerra",
+            "full": "Wendel Bezerra",
+            "native": null,
+            "userPreferred": "Wendel Bezerra"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96830-z4QYyXcQgjHB.png"
+        }
+      ]
+    },
+    {
+      "id": 2707,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Trunks",
+        "last": "",
+        "full": "Trunks",
+        "native": "トランクス",
+        "userPreferred": "Trunks"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2707-YKWmn4q87oF8.png",
+      "voiceActors": [
+        {
+          "id": 95134,
+          "language": "Japanese",
+          "name": {
+            "first": "Takeshi",
+            "last": "Kusao",
+            "full": "Takeshi Kusao",
+            "native": "草尾毅",
+            "userPreferred": "Takeshi Kusao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95134-OZzRIDS8eAUd.png"
+        },
+        {
+          "id": 95187,
+          "language": "English",
+          "name": {
+            "first": "Laura",
+            "last": "Bailey",
+            "full": "Laura Bailey",
+            "native": null,
+            "userPreferred": "Laura Bailey"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95187-QeezFM0GP4tu.jpg"
+        },
+        {
+          "id": 180905,
+          "language": "Portuguese",
+          "name": {
+            "first": "Diego",
+            "last": "Marques",
+            "full": "Diego Marques",
+            "native": null,
+            "userPreferred": "Diego Marques"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n180905-vRhazvo634nQ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2111,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Videl",
+        "last": null,
+        "full": "Videl",
+        "native": "ビーデル",
+        "userPreferred": "Videl"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2111-9XqkV0tpjRPB.png",
+      "voiceActors": [
+        {
+          "id": 95170,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Minaguchi",
+            "full": "Yuuko Minaguchi",
+            "native": "皆口裕子",
+            "userPreferred": "Yuuko Minaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95170-oAiTh7t2T1J0.png"
+        },
+        {
+          "id": 95773,
+          "language": "English",
+          "name": {
+            "first": "Kara",
+            "last": "Edwards",
+            "full": "Kara Edwards",
+            "native": null,
+            "userPreferred": "Kara Edwards"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/773.jpg"
+        },
+        {
+          "id": 103053,
+          "language": "Portuguese",
+          "name": {
+            "first": "Melissa",
+            "last": "Garcia",
+            "full": "Melissa Garcia",
+            "native": null,
+            "userPreferred": "Melissa Garcia"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103053-j3eO8njXDg90.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2551,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Goten",
+        "last": "Son",
+        "full": "Goten Son",
+        "native": "孫悟天",
+        "userPreferred": "Goten Son"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2551.jpg",
+      "voiceActors": [
+        {
+          "id": 95557,
+          "language": "Japanese",
+          "name": {
+            "first": "Masako",
+            "last": "Nozawa",
+            "full": "Masako Nozawa",
+            "native": "野沢雅子",
+            "userPreferred": "Masako Nozawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95557-5a2nnIBK05ul.png"
+        },
+        {
+          "id": 95773,
+          "language": "English",
+          "name": {
+            "first": "Kara",
+            "last": "Edwards",
+            "full": "Kara Edwards",
+            "native": null,
+            "userPreferred": "Kara Edwards"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/773.jpg"
+        },
+        {
+          "id": 106518,
+          "language": "Portuguese",
+          "name": {
+            "first": "Fátima",
+            "last": "Noya",
+            "full": "Fátima Noya",
+            "native": null,
+            "userPreferred": "Fátima Noya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/11518.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2159,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kuririn",
+        "last": null,
+        "full": "Kuririn",
+        "native": "クリリン",
+        "userPreferred": "Kuririn"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2159-qtEuMYyOUkwY.jpg",
+      "voiceActors": [
+        {
+          "id": 95075,
+          "language": "Japanese",
+          "name": {
+            "first": "Mayumi",
+            "last": "Tanaka",
+            "full": "Mayumi Tanaka",
+            "native": "田中真弓",
+            "userPreferred": "Mayumi Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95075-1qD4TeW1ON92.png"
+        },
+        {
+          "id": 95360,
+          "language": "English",
+          "name": {
+            "first": "Sonny",
+            "last": "Strait",
+            "full": "Sonny Strait",
+            "native": null,
+            "userPreferred": "Sonny Strait"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/360.jpg"
+        },
+        {
+          "id": 96108,
+          "language": "Portuguese",
+          "name": {
+            "first": "Fábio",
+            "last": "Lucindo",
+            "full": "Fábio Lucindo",
+            "native": null,
+            "userPreferred": "Fábio Lucindo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96108-MuX1nYAfR6za.png"
+        }
+      ]
+    },
+    {
+      "id": 41523,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Exorcist",
+        "last": null,
+        "full": "Exorcist",
+        "native": null,
+        "userPreferred": "Exorcist"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/41523.jpg",
+      "voiceActors": [
+        {
+          "id": 95831,
+          "language": "Japanese",
+          "name": {
+            "first": "",
+            "last": "Chafuurin",
+            "full": "Chafuurin",
+            "native": "茶風林 ",
+            "userPreferred": "Chafuurin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95831-yMEQTpN1WEtp.jpg"
+        },
+        {
+          "id": 95666,
+          "language": "English",
+          "name": {
+            "first": "Robert",
+            "last": "McCollum",
+            "full": "Robert McCollum",
+            "native": null,
+            "userPreferred": "Robert McCollum"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95666-er3JLtqV1TLy.jpg"
+        },
+        {
+          "id": 96289,
+          "language": "Italian",
+          "name": {
+            "first": "Claudio",
+            "last": "Moneta",
+            "full": "Claudio Moneta",
+            "native": null,
+            "userPreferred": "Claudio Moneta"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96289-6WavF68OhjWa.png"
+        },
+        {
+          "id": 179633,
+          "language": "Portuguese",
+          "name": {
+            "first": "Leonardo",
+            "last": "Camillo",
+            "full": "Leonardo Camillo",
+            "native": null,
+            "userPreferred": "Leonardo Camillo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n179633-BpWPR28VLxeQ.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 901,
+      "relationType": "PREQUEL",
+      "malId": 901,
+      "title": {
+        "romaji": "Dragon Ball Z: Moetsukiro!! Nessen - Ressen - Chou Gekisen",
+        "english": "Dragon Ball Z: Broly - The Legendary Super Saiyan",
+        "native": "ドラゴンボールZ 燃えつきろ!!熱戦・烈戦・超激戦",
+        "userPreferred": "Dragon Ball Z: Moetsukiro!! Nessen - Ressen - Chou Gekisen"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/901-gB41PQJWFXjp.jpg",
+      "color": "#ae5d28",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/901-MS08KTgF7UUu.jpg",
+      "rating": 69
+    },
+    {
+      "id": 904,
+      "relationType": "SEQUEL",
+      "malId": 904,
+      "title": {
+        "romaji": "Dragon Ball Z: Super Senshi Gekiha!! Katsu no wa Ore da",
+        "english": "Dragon Ball Z: Bio-Broly",
+        "native": "ドラゴンボールＺ 超戦士撃破!!勝のはオレだ",
+        "userPreferred": "Dragon Ball Z: Super Senshi Gekiha!! Katsu no wa Ore da"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/904-nuPbNMkv1uX2.jpg",
+      "color": null,
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/904-gowezIX2SK2p.jpg",
+      "rating": 52
+    },
+    {
+      "id": 813,
+      "relationType": "PARENT",
+      "malId": 813,
+      "title": {
+        "romaji": "Dragon Ball Z",
+        "english": "Dragon Ball Z",
+        "native": "ドラゴンボールZ",
+        "userPreferred": "Dragon Ball Z"
+      },
+      "status": "Completed",
+      "episodes": 291,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx813-QBIvCQgHcjcF.png",
+      "color": "#f1a150",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/813-03ZLvWJgR6Wd.jpg",
+      "rating": 79
+    }
+  ],
+  "episodes": [
+    {
+      "id": "dragon-ball-z-movie-10-broly-second-coming-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/903.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//dragon-ball-z-movie-10-broly-second-coming-episode-1"
+    }
+  ]
+}

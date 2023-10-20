@@ -1,0 +1,559 @@
+{
+  "id": "9332",
+  "title": {
+    "romaji": ".hack//Quantum",
+    "english": null,
+    "native": "ドットハック クワンタム"
+  },
+  "malId": 9332,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9332.jpg",
+  "popularity": 6174,
+  "color": "#3543a1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9332.jpg",
+  "description": "Tobias, Mary, and Sakuya challenge the impregnable \"The One Sin\", but they lose their way in the maze and unintentionally trap other guild members. A mysterious cat is watching their blunder. Is it another player character or NPC? ",
+  "status": "Completed",
+  "releaseDate": 2011,
+  "startDate": {
+    "year": 2011,
+    "month": 1,
+    "day": 28
+  },
+  "endDate": {
+    "year": 2011,
+    "month": 4,
+    "day": 7
+  },
+  "totalEpisodes": 3,
+  "currentEpisode": 3,
+  "rating": 67,
+  "duration": 26,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy",
+    "Sci-Fi"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "Kinema Citrus"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 112649,
+      "malId": 40594,
+      "title": {
+        "romaji": "Tatoeba Last Dungeon Mae no Mura no Shounen ga Joban no Machi de Kurasu Youna Monogatari",
+        "english": "Suppose a Kid from the Last Dungeon Boonies moved to a starter town?",
+        "native": "たとえばラストダンジョン前の村の少年が序盤の街で暮らすような物語",
+        "userPreferred": "Tatoeba Last Dungeon Mae no Mura no Shounen ga Joban no Machi de Kurasu Youna Monogatari"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112649-Wdcxo6cQZbhx.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112649-jonCCVLHopXa.jpg",
+      "rating": 62,
+      "type": "TV"
+    },
+    {
+      "id": 101227,
+      "malId": 37393,
+      "title": {
+        "romaji": "Watashi, Nouryoku wa Heikinchi de tte Itta yo ne!",
+        "english": "Didn't I Say to Make My Abilities Average in the Next Life?!",
+        "native": "私、能力は平均値でって言ったよね！",
+        "userPreferred": "Watashi, Nouryoku wa Heikinchi de tte Itta yo ne!"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101227-PUPavhaClwfa.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101227-hGIZHBjTowqe.jpg",
+      "rating": 66,
+      "type": "TV"
+    },
+    {
+      "id": 298,
+      "malId": 298,
+      "title": {
+        "romaji": ".hack//Tasogare no Udewa Densetsu",
+        "english": ".hack//Legend Of The Twilight",
+        "native": ".hack//黄昏の腕輪伝説",
+        "userPreferred": ".hack//Tasogare no Udewa Densetsu"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx298-4NawsRDRVaHR.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx298-4NawsRDRVaHR.jpg",
+      "rating": 61,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 36022,
+      "role": "MAIN",
+      "name": {
+        "first": "Tobias",
+        "last": null,
+        "full": "Tobias",
+        "native": null,
+        "userPreferred": "Tobias"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/36022.jpg",
+      "voiceActors": [
+        {
+          "id": 95099,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyuki",
+            "last": "Sawashiro",
+            "full": "Miyuki Sawashiro",
+            "native": "沢城みゆき",
+            "userPreferred": "Miyuki Sawashiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95099-jKP4LfPWqetk.jpg"
+        },
+        {
+          "id": 105292,
+          "language": "English",
+          "name": {
+            "first": "Anastasia",
+            "last": "Muñoz",
+            "full": "Anastasia Muñoz",
+            "native": null,
+            "userPreferred": "Anastasia Muñoz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10292.jpg"
+        },
+        {
+          "id": 198839,
+          "language": "German",
+          "name": {
+            "first": "Iris",
+            "last": "Hochenberger",
+            "full": "Iris Hochenberger",
+            "native": null,
+            "userPreferred": "Iris Hochenberger"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 37881,
+      "role": "MAIN",
+      "name": {
+        "first": "Shamrock",
+        "last": null,
+        "full": "Shamrock",
+        "native": null,
+        "userPreferred": "Shamrock"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/37881.jpg",
+      "voiceActors": [
+        {
+          "id": 95149,
+          "language": "Japanese",
+          "name": {
+            "first": "Sanae",
+            "last": "Kobayashi",
+            "full": "Sanae Kobayashi",
+            "native": "小林沙苗",
+            "userPreferred": "Sanae Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95149-xNDmN92Feq8y.png"
+        },
+        {
+          "id": 95475,
+          "language": "English",
+          "name": {
+            "first": "Stephanie",
+            "last": "Young",
+            "full": "Stephanie Young",
+            "native": null,
+            "userPreferred": "Stephanie Young"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95475-QV9KFgsYrsPb.jpg"
+        },
+        {
+          "id": 144932,
+          "language": "German",
+          "name": {
+            "first": "Dagmar",
+            "last": "Bittner",
+            "full": "Dagmar Bittner",
+            "native": null,
+            "userPreferred": "Dagmar Bittner"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n144932-Z94USAFeZ64g.png"
+        }
+      ]
+    },
+    {
+      "id": 36023,
+      "role": "MAIN",
+      "name": {
+        "first": "Sakuya",
+        "last": null,
+        "full": "Sakuya",
+        "native": "サクヤ",
+        "userPreferred": "Sakuya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/36023.jpg",
+      "voiceActors": [
+        {
+          "id": 95185,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Hanazawa",
+            "full": "Kana Hanazawa",
+            "native": "花澤香菜",
+            "userPreferred": "Kana Hanazawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95185-vZ6nmfBKQgw1.jpg"
+        },
+        {
+          "id": 96804,
+          "language": "English",
+          "name": {
+            "first": "Trina",
+            "last": "Nishimura",
+            "full": "Trina Nishimura",
+            "native": null,
+            "userPreferred": "Trina Nishimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96804-0OKQgacznkZ4.png"
+        },
+        {
+          "id": 141216,
+          "language": "German",
+          "name": {
+            "first": "Lisa",
+            "last": "Braun",
+            "full": "Lisa Braun",
+            "native": null,
+            "userPreferred": "Lisa Braun"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n141216-uXeUdqk1yors.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36021,
+      "role": "MAIN",
+      "name": {
+        "first": "Mary",
+        "last": null,
+        "full": "Mary",
+        "native": null,
+        "userPreferred": "Mary"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/36021.jpg",
+      "voiceActors": [
+        {
+          "id": 95247,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumi",
+            "last": "Fujimura",
+            "full": "Ayumi Fujimura",
+            "native": "藤村歩",
+            "userPreferred": "Ayumi Fujimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95247-3jzUQFPN8clW.png"
+        },
+        {
+          "id": 110441,
+          "language": "English",
+          "name": {
+            "first": "Lara",
+            "last": "Woodhull",
+            "full": "Lara Woodhull",
+            "native": null,
+            "userPreferred": "Lara Woodhull"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15441.jpg"
+        },
+        {
+          "id": 112135,
+          "language": "German",
+          "name": {
+            "first": "Nicole",
+            "last": "Hise",
+            "full": "Nicole Hise",
+            "native": null,
+            "userPreferred": "Nicole Hise"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/17135.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36077,
+      "role": "MAIN",
+      "name": {
+        "first": "Hermit",
+        "last": null,
+        "full": "Hermit",
+        "native": null,
+        "userPreferred": "Hermit"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/36077.jpg",
+      "voiceActors": [
+        {
+          "id": 105981,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Ogura",
+            "full": "Yui Ogura",
+            "native": "小倉唯",
+            "userPreferred": "Yui Ogura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105981-CDMPx1Q79Aum.png"
+        },
+        {
+          "id": 105881,
+          "language": "English",
+          "name": {
+            "first": "Lindsay",
+            "last": "Seidel",
+            "full": "Lindsay Seidel",
+            "native": null,
+            "userPreferred": "Lindsay Seidel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105881-R2gLLpOtfReq.jpg"
+        },
+        {
+          "id": 198838,
+          "language": "German",
+          "name": {
+            "first": "Monika",
+            "last": "Lachenmeir",
+            "full": "Monika Lachenmeir",
+            "native": null,
+            "userPreferred": "Monika Lachenmeir"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29013,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "IYOTEN",
+        "last": null,
+        "full": "IYOTEN",
+        "native": null,
+        "userPreferred": "IYOTEN"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29013.jpg",
+      "voiceActors": [
+        {
+          "id": 95087,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Namikawa",
+            "full": "Daisuke Namikawa",
+            "native": "浪川大輔",
+            "userPreferred": "Daisuke Namikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95087-6dlBBbejsPyg.png"
+        },
+        {
+          "id": 95611,
+          "language": "English",
+          "name": {
+            "first": "Brandon",
+            "last": "Potter",
+            "full": "Brandon Potter",
+            "native": null,
+            "userPreferred": "Brandon Potter"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/611.jpg"
+        },
+        {
+          "id": 156810,
+          "language": "German",
+          "name": {
+            "first": "Sascha",
+            "last": "Kaufmann",
+            "full": "Sascha Kaufmann",
+            "native": null,
+            "userPreferred": "Sascha Kaufmann"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 37882,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Smith",
+        "last": null,
+        "full": "Smith",
+        "native": null,
+        "userPreferred": "Smith"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/37882.jpg",
+      "voiceActors": [
+        {
+          "id": 95710,
+          "language": "Japanese",
+          "name": {
+            "first": "Masami",
+            "last": "Iwasaki",
+            "full": "Masami Iwasaki",
+            "native": "岩崎征実",
+            "userPreferred": "Masami Iwasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95710-FJIApacylT8A.png"
+        },
+        {
+          "id": 96602,
+          "language": "English",
+          "name": {
+            "first": "J. Michael",
+            "last": "Tatum",
+            "full": "J. Michael Tatum",
+            "native": "John Michael Tatum",
+            "userPreferred": "J. Michael Tatum"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96602-ztTfuo3nzu5t.png"
+        }
+      ]
+    },
+    {
+      "id": 29009,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Asta",
+        "last": null,
+        "full": "Asta",
+        "native": "アスタ",
+        "userPreferred": "Asta"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29009.jpg",
+      "voiceActors": [
+        {
+          "id": 95769,
+          "language": "Japanese",
+          "name": {
+            "first": "Youko",
+            "last": "Honna",
+            "full": "Youko Honna",
+            "native": "本名陽子",
+            "userPreferred": "Youko Honna"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95769-nR18ewc78vzz.png"
+        },
+        {
+          "id": 95773,
+          "language": "English",
+          "name": {
+            "first": "Kara",
+            "last": "Edwards",
+            "full": "Kara Edwards",
+            "native": null,
+            "userPreferred": "Kara Edwards"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/773.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 61397,
+      "relationType": "ADAPTATION",
+      "malId": 31397,
+      "title": {
+        "romaji": ".hack//Quantum+",
+        "english": null,
+        "native": null,
+        "userPreferred": ".hack//Quantum+"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/31397.jpg",
+      "color": "#e45d6b",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/31397.jpg",
+      "rating": 65
+    },
+    {
+      "id": 10390,
+      "relationType": "SIDE_STORY",
+      "malId": 10390,
+      "title": {
+        "romaji": ".hack//Quantum: Kantamu Eizou Tokuten Sore Ike! Bokura no Chim Chim-chan!!",
+        "english": null,
+        "native": ".hack//Quantum 映像特典 それいけ！ぼくらのチムチムちゃん！！",
+        "userPreferred": ".hack//Quantum: Kantamu Eizou Tokuten Sore Ike! Bokura no Chim Chim-chan!!"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10390.jpg",
+      "color": "#e48650",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10390.jpg",
+      "rating": 57
+    },
+    {
+      "id": 110286,
+      "relationType": "SUMMARY",
+      "malId": 36646,
+      "title": {
+        "romaji": "Daitai 3-pun de Wakaru .hack History",
+        "english": null,
+        "native": "だいたい3分でわかる.hackヒストリー",
+        "userPreferred": "Daitai 3-pun de Wakaru .hack History"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b110286-zUdr2pzguTga.jpg",
+      "color": "#e48635",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b110286-zUdr2pzguTga.jpg",
+      "rating": 51
+    }
+  ],
+  "episodes": [
+    {
+      "id": "hackquantum--episode-1",
+      "title": "Walking Party",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9332.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:27:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hackquantum--episode-1"
+    },
+    {
+      "id": "hackquantum--episode-2",
+      "title": "Wired Prisoner",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9332.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:27:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hackquantum--episode-2"
+    },
+    {
+      "id": "hackquantum--episode-3",
+      "title": "The Worldend Pallbearer",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9332.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:27:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hackquantum--episode-3"
+    }
+  ]
+}

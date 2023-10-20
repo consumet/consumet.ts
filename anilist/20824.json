@@ -1,0 +1,335 @@
+{
+  "id": "20824",
+  "title": {
+    "romaji": "Haiyore! Nyaruko-san F",
+    "english": "Nyaruko-san: Another Crawling Chaos F",
+    "native": "這いよれ！ニャル子さん F"
+  },
+  "malId": 26023,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "iBTDg5O9Bmk",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/iBTDg5O9Bmk/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20824-ARIVkvWl0OQj.jpg",
+  "popularity": 12355,
+  "color": "#e45043",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20824-ARIVkvWl0OQj.jpg",
+  "status": "Completed",
+  "releaseDate": 2015,
+  "startDate": {
+    "year": 2015,
+    "month": 6,
+    "day": 19
+  },
+  "endDate": {
+    "year": 2015,
+    "month": 6,
+    "day": 19
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 71,
+  "duration": 27,
+  "genres": [
+    "Comedy",
+    "Romance",
+    "Sci-Fi"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Xebec"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 31418,
+      "role": "MAIN",
+      "name": {
+        "first": "Nyaruko",
+        "last": null,
+        "full": "Nyaruko",
+        "native": "ニャル子",
+        "userPreferred": "Nyaruko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b31418-Pvm5XKQsiRAj.jpg",
+      "voiceActors": [
+        {
+          "id": 95817,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Asumi",
+            "full": "Kana Asumi",
+            "native": "阿澄佳奈",
+            "userPreferred": "Kana Asumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95817-UHqRZ5xuSJgW.png"
+        }
+      ]
+    },
+    {
+      "id": 31419,
+      "role": "MAIN",
+      "name": {
+        "first": "Cthuko",
+        "last": null,
+        "full": "Cthuko",
+        "native": "クー子",
+        "userPreferred": "Cthuko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/31419.jpg",
+      "voiceActors": [
+        {
+          "id": 95401,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyu",
+            "last": "Matsuki",
+            "full": "Miyu Matsuki",
+            "native": "松来未祐",
+            "userPreferred": "Miyu Matsuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95401-2ffju56ewc36.png"
+        }
+      ]
+    },
+    {
+      "id": 31417,
+      "role": "MAIN",
+      "name": {
+        "first": "Mahiro",
+        "last": "Yasaka",
+        "full": "Mahiro Yasaka",
+        "native": "八坂 真尋",
+        "userPreferred": "Mahiro Yasaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/31417.jpg",
+      "voiceActors": [
+        {
+          "id": 95413,
+          "language": "Japanese",
+          "name": {
+            "first": "Eri",
+            "last": "Kitamura",
+            "full": "Eri Kitamura",
+            "native": "喜多村英梨",
+            "userPreferred": "Eri Kitamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95413-FwAIrc8Ishpt.png"
+        }
+      ]
+    },
+    {
+      "id": 60929,
+      "role": "MAIN",
+      "name": {
+        "first": "Hasta",
+        "last": null,
+        "full": "Hasta",
+        "native": "ハス太",
+        "userPreferred": "Hasta"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b60929-fgKUKwV7oxcH.png",
+      "voiceActors": [
+        {
+          "id": 95008,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Kugimiya",
+            "full": "Rie Kugimiya",
+            "native": "釘宮理恵",
+            "userPreferred": "Rie Kugimiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95008-2y0EeuSTHIri.png"
+        }
+      ]
+    },
+    {
+      "id": 40486,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Atoko",
+        "last": null,
+        "full": "Atoko",
+        "native": "アト子",
+        "userPreferred": "Atoko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/40486.jpg",
+      "voiceActors": [
+        {
+          "id": 107490,
+          "language": "Japanese",
+          "name": {
+            "first": "Nozomi",
+            "last": "Yamamoto",
+            "full": "Nozomi Yamamoto",
+            "native": "山本希望",
+            "userPreferred": "Nozomi Yamamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107490-O3FSLNKmFUdF.png"
+        }
+      ]
+    },
+    {
+      "id": 60927,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Takehiko",
+        "last": "Yoichi",
+        "full": "Takehiko Yoichi",
+        "native": "余市健彦",
+        "userPreferred": "Takehiko Yoichi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/60927.jpg",
+      "voiceActors": [
+        {
+          "id": 95098,
+          "language": "Japanese",
+          "name": {
+            "first": "Wataru",
+            "last": "Hatano",
+            "full": "Wataru Hatano",
+            "native": "羽多野渉",
+            "userPreferred": "Wataru Hatano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95098-x6T2xOTuvkuY.jpg"
+        }
+      ]
+    },
+    {
+      "id": 62153,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yoriko",
+        "last": "Yasaka",
+        "full": "Yoriko Yasaka",
+        "native": "八坂頼子",
+        "userPreferred": "Yoriko Yasaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/62153.jpg",
+      "voiceActors": [
+        {
+          "id": 95080,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Hisakawa",
+            "full": "Aya Hisakawa",
+            "native": "久川綾",
+            "userPreferred": "Aya Hisakawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95080-7dOAcrnsSghI.jpg"
+        }
+      ]
+    },
+    {
+      "id": 62311,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shantak-kun",
+        "last": null,
+        "full": "Shantak-kun",
+        "native": "シャンタッ君",
+        "userPreferred": "Shantak-kun"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/62311.jpg",
+      "voiceActors": [
+        {
+          "id": 95124,
+          "language": "Japanese",
+          "name": {
+            "first": "Satomi",
+            "last": "Arai",
+            "full": "Satomi Arai",
+            "native": "新井里美",
+            "userPreferred": "Satomi Arai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95124-8C0BORTX7Bfd.jpg"
+        }
+      ]
+    },
+    {
+      "id": 60939,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tamao",
+        "last": "Kurei",
+        "full": "Tamao Kurei",
+        "native": "暮井珠緒",
+        "userPreferred": "Tamao Kurei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/60939.jpg",
+      "voiceActors": [
+        {
+          "id": 107452,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuka",
+            "last": "Ootsubo",
+            "full": "Yuka Ootsubo",
+            "native": "大坪由佳",
+            "userPreferred": "Yuka Ootsubo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107452-PcfGagaON83G.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 15699,
+      "relationType": "PREQUEL",
+      "malId": 15699,
+      "title": {
+        "romaji": "Haiyore! Nyaruko-san W",
+        "english": "Nyaruko-san: Another Crawling Chaos W",
+        "native": "這いよれ！ニャル子さん W",
+        "userPreferred": "Haiyore! Nyaruko-san W"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15699-x4ifamV2eqrh.jpg",
+      "color": "#e4c950",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15699-iye5sJEmdHxS.jpg",
+      "rating": 69
+    },
+    {
+      "id": 53485,
+      "relationType": "ADAPTATION",
+      "malId": 23485,
+      "title": {
+        "romaji": "Haiyore! Nyaruko-san",
+        "english": null,
+        "native": "這いよれ！ニャル子さん",
+        "userPreferred": "Haiyore! Nyaruko-san"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx53485-ktMOJG522MfA.jpg",
+      "color": "#f10d93",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx53485-ktMOJG522MfA.jpg",
+      "rating": 75
+    }
+  ],
+  "episodes": [
+    {
+      "id": "haiyore-nyaruko-san-f-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20824-ARIVkvWl0OQj.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//haiyore-nyaruko-san-f-episode-1"
+    }
+  ]
+}

@@ -1,0 +1,681 @@
+{
+  "id": "6375",
+  "title": {
+    "romaji": "Kagaku Ninja-Tai Gatchaman F",
+    "english": "Eagle Riders (2)",
+    "native": "科学忍者隊ガッチャマンF"
+  },
+  "malId": 6375,
+  "synonyms": [
+    "Gatchaman Fighter",
+    "Science Ninja Team Gatchaman Fighter",
+    "Science Ninja Team Gatchaman F"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+  "popularity": 545,
+  "color": "#5dbbe4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+  "description": "After Leader X is seemingly destroyed for good at the end of Gatchaman II, a fragment of him that survived grows and mutates into Z. With the head of the Egobossler family, Count Egobossler (and his two subordinates Mechandol and Kempler), Z is bent on destroying the Earth, and the Science Ninja Team, once more.<br><br>\nIn the wake of Anderson's death, Dr.Nambu has become the new head of the ISO, while the team is now confined to the Gallatown (aka \"G-Town\") underwater base. Engineer Kamo is introduced, and after the New GodPhoenix is destroyed early on, the team receives the new Gatchaspartan as their mecha. The Gatchaspartan has a special mode as well, called Hypershoot, that can only be utilized by Ken (with his new \"Gatchafencer\" sword).<br><br>\nAs the series progresses, it is learned that the radiation exposure from constant use of the Hypershoot is slowly killing Ken, and that continued use would mean death. Meanwhile, Z plans to destroy the earth with an antimatter asteroid, codenamed \"Poison Apple\".<br>",
+  "status": "Completed",
+  "releaseDate": 1979,
+  "startDate": {
+    "year": 1979,
+    "month": 10,
+    "day": 7
+  },
+  "endDate": {
+    "year": 1980,
+    "month": 8,
+    "day": 31
+  },
+  "totalEpisodes": 48,
+  "currentEpisode": 48,
+  "rating": 55,
+  "duration": 24,
+  "genres": [
+    "Action"
+  ],
+  "season": "FALL",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 1458,
+      "malId": 1458,
+      "title": {
+        "romaji": "Uchuu no Kishi Tekkaman",
+        "english": "Space Knight Tekkaman",
+        "native": "宇宙の騎士テッカマン",
+        "userPreferred": "Uchuu no Kishi Tekkaman"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1458-KYkrFAIi5vvb.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1458-p1UtZE8wZl6v.jpg",
+      "rating": 57,
+      "type": "TV"
+    },
+    {
+      "id": 4810,
+      "malId": 4810,
+      "title": {
+        "romaji": "Shinzou Ningen Casshern",
+        "english": "Neo Human Casshan",
+        "native": "新造人間キャシャーン",
+        "userPreferred": "Shinzou Ningen Casshern"
+      },
+      "status": "Completed",
+      "episodes": 35,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4810-z6hzFJ09abAC.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n4810-sVl431wBc162.jpg",
+      "rating": 62,
+      "type": "TV"
+    },
+    {
+      "id": 4808,
+      "malId": 4808,
+      "title": {
+        "romaji": "Hurricane Polymar",
+        "english": "Hurricane Polymar",
+        "native": "破裏拳ポリマー",
+        "userPreferred": "Hurricane Polymar"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4808-45jvGLaEFH9J.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4808-PDCFz34GKAK2.jpg",
+      "rating": 61,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 17953,
+      "role": "MAIN",
+      "name": {
+        "first": "Jun",
+        "last": null,
+        "full": "Jun",
+        "native": "白鳥のジュン",
+        "userPreferred": "Jun"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17953.jpg",
+      "voiceActors": [
+        {
+          "id": 95786,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuko",
+            "last": "Sugiyama",
+            "full": "Kazuko Sugiyama",
+            "native": "杉山佳寿子",
+            "userPreferred": "Kazuko Sugiyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95786-faCWVJgFUw8i.png"
+        }
+      ]
+    },
+    {
+      "id": 17954,
+      "role": "MAIN",
+      "name": {
+        "first": "Jinpei",
+        "last": null,
+        "full": "Jinpei",
+        "native": "燕（ツバクロ）の甚平",
+        "userPreferred": "Jinpei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17954.jpg",
+      "voiceActors": [
+        {
+          "id": 96506,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoku",
+            "last": "Shioya",
+            "full": "Yoku Shioya",
+            "native": "塩屋翼",
+            "userPreferred": "Yoku Shioya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96506-toS3CQBXCrnR.png"
+        }
+      ]
+    },
+    {
+      "id": 17952,
+      "role": "MAIN",
+      "name": {
+        "first": "Joe",
+        "last": "Asakura",
+        "full": "Joe Asakura",
+        "native": "コンドルのジョー",
+        "userPreferred": "Joe Asakura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17952.jpg",
+      "voiceActors": [
+        {
+          "id": 96595,
+          "language": "Japanese",
+          "name": {
+            "first": "Isao",
+            "last": "Sasaki",
+            "full": "Isao Sasaki",
+            "native": "ささきいさお",
+            "userPreferred": "Isao Sasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1595.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17956,
+      "role": "MAIN",
+      "name": {
+        "first": "Nambu",
+        "last": "Kozaburou",
+        "full": "Nambu Kozaburou",
+        "native": "南部博士",
+        "userPreferred": "Nambu Kozaburou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17956.jpg",
+      "voiceActors": [
+        {
+          "id": 100430,
+          "language": "Japanese",
+          "name": {
+            "first": "Tooru",
+            "last": "Oohira",
+            "full": "Tooru Oohira",
+            "native": "大平透",
+            "userPreferred": "Tooru Oohira"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100430-avSEX6ZE0Q8i.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17955,
+      "role": "MAIN",
+      "name": {
+        "first": "Ryuu",
+        "last": "Nakanishi",
+        "full": "Ryuu Nakanishi",
+        "native": "ミミズクの竜",
+        "userPreferred": "Ryuu Nakanishi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17955.jpg",
+      "voiceActors": [
+        {
+          "id": 102178,
+          "language": "Japanese",
+          "name": {
+            "first": "Shingo",
+            "last": "Kanemoto",
+            "full": "Shingo Kanemoto",
+            "native": "兼本新吾",
+            "userPreferred": "Shingo Kanemoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7178.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 6374,
+      "relationType": "PREQUEL",
+      "malId": 6374,
+      "title": {
+        "romaji": "Kagaku Ninja-Tai Gatchaman II",
+        "english": "Eagle Riders",
+        "native": "科学忍者隊ガッチャマンII",
+        "userPreferred": "Kagaku Ninja-Tai Gatchaman II"
+      },
+      "status": "Completed",
+      "episodes": 52,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6374.jpg",
+      "color": "#e4355d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6374.jpg",
+      "rating": 61
+    }
+  ],
+  "episodes": [
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-1",
+      "title": "New Dark Clouds",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-1"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-2",
+      "title": "Debut! Gatcha Spartan",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-2"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-3",
+      "title": "A Tainted Oasis",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-3"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-4",
+      "title": "The Challenge of the Iron Commandos",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-4"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-5",
+      "title": "Charge! The Terrible Soldiers",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-5"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-6",
+      "title": "Burn! Gatchaman Fencer",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-6"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-7",
+      "title": "Steal the Giant Iron Beast",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-7"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-8",
+      "title": "The Desperate Outlaw Squad",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-8"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-9",
+      "title": "Fear of the Extinction Ray Gun",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-9"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-10",
+      "title": "Danger! Gatchaman Base",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-10"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-11",
+      "title": "The Saturn Limited Express Z-Press",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-11"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-12",
+      "title": "The Order to Destroy the Mantle Base",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-12"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-13",
+      "title": "Violence?! The Decisive Battle of Agrika",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-13"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-14",
+      "title": "Destruction by Fire! Egobossler's Palace",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-14"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-15",
+      "title": "Hell's Burning Ambition",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-15"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-16",
+      "title": "A Deadly Butterfly Dances in the Dark",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-16"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-17",
+      "title": "Horror of the Evil Smoke City",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-17"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-18",
+      "title": "The Spectacular Crash of G-1",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-18"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-19",
+      "title": "Don't Touch the Super Stuff!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-19"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-20",
+      "title": "Appearance! Terror of the Triple Iron Beast",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-20"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-21",
+      "title": "Angry Joe! Fright of the Flaming Bird",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 21,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-21"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-22",
+      "title": "Order to Blast the Satellite",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 22,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-22"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-23",
+      "title": "The Evil of Mechaland",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 23,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-23"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-24",
+      "title": "A Warrior's Pride",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 24,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-24"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-25",
+      "title": "Sky Riders from Hell",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 25,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-25"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-26",
+      "title": "G-1 Enraged! A New Way to Kill",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 26,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-26"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-27",
+      "title": "The Mystery of Egobossler's Birth",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 27,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-27"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-28",
+      "title": "Desperate Fight! Valley of Betrayal",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 28,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-28"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-29",
+      "title": "Cruelty! The Separation of Brother and Sister",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 29,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-29"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-30",
+      "title": "The Creeping Alien",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 30,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-30"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-31",
+      "title": "Runaway! The Great Train Chase",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 31,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-31"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-32",
+      "title": "Mystery of the Space Pulse",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 32,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-32"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-33",
+      "title": "A Promise Kept",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 33,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-33"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-34",
+      "title": "Egobossler's Strategy",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 34,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-34"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-35",
+      "title": "The Shadow of Death Approaches G-1",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 35,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-35"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-36",
+      "title": "Hypershoot Crisis",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 36,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-36"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-37",
+      "title": "Revive Gatchaman",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 37,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-37"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-38",
+      "title": "Bracelet of Friendship",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 38,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-38"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-39",
+      "title": "Downfall! Count Egobossler",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 39,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-39"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-40",
+      "title": "Surprise Attack of the Mecha Waterspout",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 40,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-40"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-41",
+      "title": "Collapse! Gatchaman Base",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 41,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-41"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-42",
+      "title": "The Death of Chief Nambu",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 42,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-42"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-43",
+      "title": "The Destruction of Gallatown",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 43,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-43"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-44",
+      "title": "The Space Devil Draws Near",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 44,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-44"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-45",
+      "title": "Threat of the Antimatter Planet",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 45,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-45"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-46",
+      "title": "G-1 Desperate for High Power",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 46,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-46"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-47",
+      "title": "Earth Extinction! 3 2 1",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 47,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-47"
+    },
+    {
+      "id": "kagaku-ninja-tai-gatchaman-f-episode-48",
+      "title": "Gatchaman Eternal",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6375.jpg",
+      "number": 48,
+      "createdAt": "2013-02-20T18:27:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagaku-ninja-tai-gatchaman-f-episode-48"
+    }
+  ]
+}

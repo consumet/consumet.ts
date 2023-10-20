@@ -1,0 +1,1028 @@
+{
+  "id": "3101",
+  "title": {
+    "romaji": "F-ZERO: Falcon Densetsu",
+    "english": "F-Zero: GP Legend",
+    "native": "F-ZERO ファルコン伝説"
+  },
+  "malId": 3101,
+  "synonyms": [
+    "Efu Zero Farukon Densetsu",
+    "F-Zero: The Legend of Falcon"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+  "popularity": 2054,
+  "color": "#5d86e4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+  "description": "Rick Wheeler was a police detective who got into a fatal car accident while pursuing the criminal Zoda. He was placed into artificial coldsleep for 150 years. Wheeler is brought back to life by Jody Summer and Dr. Stewart, who work with a group of good racers who try to keep prize money out of the hands of unsavory people like the Dark Million Organization run by Black Shadow and Deathborn.",
+  "status": "Completed",
+  "releaseDate": 2003,
+  "startDate": {
+    "year": 2003,
+    "month": 10,
+    "day": 7
+  },
+  "endDate": {
+    "year": 2004,
+    "month": 9,
+    "day": 28
+  },
+  "totalEpisodes": 51,
+  "currentEpisode": 51,
+  "rating": 61,
+  "duration": 23,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Mecha",
+    "Sci-Fi",
+    "Sports"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Ashi Productions"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 1816,
+      "malId": 1816,
+      "title": {
+        "romaji": "Sonic X",
+        "english": "Sonic X",
+        "native": "ソニックX",
+        "userPreferred": "Sonic X"
+      },
+      "status": "Completed",
+      "episodes": 52,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1816-wOnz97Eb1sZJ.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1816-Kht0BR1Ft5An.jpg",
+      "rating": 63,
+      "type": "TV"
+    },
+    {
+      "id": 3571,
+      "malId": 3571,
+      "title": {
+        "romaji": "Mach GoGoGo (1997)",
+        "english": "Speed Racer X",
+        "native": "マッハGoGoGo (1997)",
+        "userPreferred": "Mach GoGoGo (1997)"
+      },
+      "status": "Completed",
+      "episodes": 34,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3571-LqtGxKpHYVAe.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3571-LqtGxKpHYVAe.jpg",
+      "rating": 59,
+      "type": "TV"
+    },
+    {
+      "id": 6675,
+      "malId": 6675,
+      "title": {
+        "romaji": "REDLINE",
+        "english": "Redline",
+        "native": "REDLINE",
+        "userPreferred": "REDLINE"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6675-fFFoRB7FqNau.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6675-E49elTPWWrcl.jpg",
+      "rating": 81,
+      "type": "MOVIE"
+    }
+  ],
+  "characters": [
+    {
+      "id": 12007,
+      "role": "MAIN",
+      "name": {
+        "first": "Suzaku",
+        "last": "Ryuu",
+        "full": "Suzaku Ryuu",
+        "native": "リュウ スザク",
+        "userPreferred": "Suzaku Ryuu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12007.jpg",
+      "voiceActors": [
+        {
+          "id": 95006,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiyuki",
+            "last": "Morikawa",
+            "full": "Toshiyuki Morikawa",
+            "native": "森川智之",
+            "userPreferred": "Toshiyuki Morikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95006-hoLuiZANeD3Q.png"
+        },
+        {
+          "id": 101008,
+          "language": "English",
+          "name": {
+            "first": "Greg",
+            "last": "Abbey",
+            "full": "Greg Abbey",
+            "native": null,
+            "userPreferred": "Greg Abbey"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101008-3cAEVEFdwSTA.jpg"
+        },
+        {
+          "id": 109753,
+          "language": "Korean",
+          "name": {
+            "first": "Su Jin",
+            "last": "Kang",
+            "full": "Su Jin Kang",
+            "native": "수진강",
+            "userPreferred": "Su Jin Kang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109753-qqOQlkfARIzX.jpg"
+        },
+        {
+          "id": 102814,
+          "language": "Hungarian",
+          "name": {
+            "first": "Szabolcs",
+            "last": "Pálmai",
+            "full": "Szabolcs Pálmai",
+            "native": null,
+            "userPreferred": "Szabolcs Pálmai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7814.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12006,
+      "role": "MAIN",
+      "name": {
+        "first": "Black Shadow",
+        "last": null,
+        "full": "Black Shadow",
+        "native": null,
+        "userPreferred": "Black Shadow"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12006.jpg",
+      "voiceActors": [
+        {
+          "id": 95084,
+          "language": "Japanese",
+          "name": {
+            "first": "Norio",
+            "last": "Wakamoto",
+            "full": "Norio Wakamoto",
+            "native": "若本規夫",
+            "userPreferred": "Norio Wakamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95084-RTrZSU38POPF.png"
+        },
+        {
+          "id": 95722,
+          "language": "English",
+          "name": {
+            "first": "Eric",
+            "last": "Stuart",
+            "full": "Eric Stuart",
+            "native": null,
+            "userPreferred": "Eric Stuart"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95722-l3ITekG6CkFW.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10540,
+      "role": "MAIN",
+      "name": {
+        "first": "Captain Falcon",
+        "last": null,
+        "full": "Captain Falcon",
+        "native": "キャプテン ファルコン",
+        "userPreferred": "Captain Falcon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10540.jpg",
+      "voiceActors": [
+        {
+          "id": 95234,
+          "language": "Japanese",
+          "name": {
+            "first": "Hideyuki",
+            "last": "Tanaka",
+            "full": "Hideyuki Tanaka",
+            "native": "田中秀幸",
+            "userPreferred": "Hideyuki Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95234-YAu7XmoSIIS7.png"
+        },
+        {
+          "id": 96479,
+          "language": "English",
+          "name": {
+            "first": "David",
+            "last": "Wills",
+            "full": "David Wills",
+            "native": null,
+            "userPreferred": "David Wills"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96479-L2MQ7DGI9D1v.png"
+        },
+        {
+          "id": 109923,
+          "language": "Korean",
+          "name": {
+            "first": "Seong Jun",
+            "last": "Bang",
+            "full": "Seong Jun Bang",
+            "native": "성준 방",
+            "userPreferred": "Seong Jun Bang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14923.jpg"
+        }
+      ]
+    },
+    {
+      "id": 41031,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lisa",
+        "last": "Brilliant",
+        "full": "Lisa Brilliant",
+        "native": "リサ・ブリリアント",
+        "userPreferred": "Lisa Brilliant"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/41031.jpg",
+      "voiceActors": [
+        {
+          "id": 95400,
+          "language": "Japanese",
+          "name": {
+            "first": "Mayumi",
+            "last": "Asano",
+            "full": "Mayumi Asano",
+            "native": "浅野まゆみ",
+            "userPreferred": "Mayumi Asano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95400-BUUDA2OwVREh.png"
+        },
+        {
+          "id": 95783,
+          "language": "English",
+          "name": {
+            "first": "Lisa",
+            "last": "Ortiz",
+            "full": "Lisa Ortiz",
+            "native": null,
+            "userPreferred": "Lisa Ortiz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95783-B8D6v4SFpgA7.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12017,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lucy",
+        "last": "Liberty",
+        "full": "Lucy Liberty",
+        "native": "ルーシー リバティ",
+        "userPreferred": "Lucy Liberty"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12017.jpg",
+      "voiceActors": [
+        {
+          "id": 95081,
+          "language": "Japanese",
+          "name": {
+            "first": "Nana",
+            "last": "Mizuki",
+            "full": "Nana Mizuki",
+            "native": "水樹奈々",
+            "userPreferred": "Nana Mizuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95081-qto4UanYkpQT.png"
+        },
+        {
+          "id": 102478,
+          "language": "English",
+          "name": {
+            "first": "Amy",
+            "last": "Birnbaum",
+            "full": "Amy Birnbaum",
+            "native": null,
+            "userPreferred": "Amy Birnbaum"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102478-mFC7C5gffV0M.jpg"
+        },
+        {
+          "id": 95788,
+          "language": "Korean",
+          "name": {
+            "first": "Yong Sin",
+            "last": "Lee",
+            "full": "Yong Sin Lee",
+            "native": "용신 이",
+            "userPreferred": "Yong Sin Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95788-6EPSNNAjYDly.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12018,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dr. Clash",
+        "last": null,
+        "full": "Dr. Clash",
+        "native": "クラッシュ",
+        "userPreferred": "Dr. Clash"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b12018-4HtdBLtH8ebN.jpg",
+      "voiceActors": [
+        {
+          "id": 95899,
+          "language": "Japanese",
+          "name": {
+            "first": "Isshin",
+            "last": "Chiba",
+            "full": "Isshin Chiba",
+            "native": "千葉一伸",
+            "userPreferred": "Isshin Chiba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95899-AMM2JgmiM26f.png"
+        },
+        {
+          "id": 96297,
+          "language": "English",
+          "name": {
+            "first": "Maddie",
+            "last": "Blaustein",
+            "full": "Maddie Blaustein",
+            "native": null,
+            "userPreferred": "Maddie Blaustein"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1297.jpg"
+        },
+        {
+          "id": 102856,
+          "language": "Hungarian",
+          "name": {
+            "first": "András",
+            "last": "Faragó",
+            "full": "András Faragó",
+            "native": null,
+            "userPreferred": "András Faragó"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7856.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12009,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jack",
+        "last": "Levin",
+        "full": "Jack Levin",
+        "native": "ジャック レビン",
+        "userPreferred": "Jack Levin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12009.jpg",
+      "voiceActors": [
+        {
+          "id": 95131,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuki",
+            "last": "Yao",
+            "full": "Kazuki Yao",
+            "native": "矢尾一樹",
+            "userPreferred": "Kazuki Yao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95131-TCVTgxb08tfE.png"
+        },
+        {
+          "id": 96487,
+          "language": "English",
+          "name": {
+            "first": "Marc",
+            "last": "Thompson",
+            "full": "Marc Thompson",
+            "native": null,
+            "userPreferred": "Marc Thompson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96487-hErla1ztlq8c.jpg"
+        },
+        {
+          "id": 109857,
+          "language": "Korean",
+          "name": {
+            "first": "Tae Yeol",
+            "last": "Jeon",
+            "full": "Tae Yeol Jeon",
+            "native": "태열 전",
+            "userPreferred": "Tae Yeol Jeon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14857.jpg"
+        },
+        {
+          "id": 102829,
+          "language": "Hungarian",
+          "name": {
+            "first": "Péter",
+            "last": "Szokol",
+            "full": "Péter Szokol",
+            "native": null,
+            "userPreferred": "Péter Szokol"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7829.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12016,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Robert",
+        "last": "Stewart",
+        "full": "Robert Stewart",
+        "native": "ドクター スチュアート",
+        "userPreferred": "Robert Stewart"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12016.jpg",
+      "voiceActors": [
+        {
+          "id": 95157,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobuo",
+            "last": "Tobita",
+            "full": "Nobuo Tobita",
+            "native": "飛田展男",
+            "userPreferred": "Nobuo Tobita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95157-td6WhlGehuDJ.png"
+        },
+        {
+          "id": 95320,
+          "language": "English",
+          "name": {
+            "first": "Jay",
+            "last": "Snyder",
+            "full": "Jay Snyder",
+            "native": null,
+            "userPreferred": "Jay Snyder"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95320-1oFO9A7X7pKb.png"
+        }
+      ]
+    },
+    {
+      "id": 12008,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jody",
+        "last": "Summer",
+        "full": "Jody Summer",
+        "native": "ジョディ サマー",
+        "userPreferred": "Jody Summer"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b12008-j6H3Gmexlks1.png",
+      "voiceActors": [
+        {
+          "id": 95195,
+          "language": "Japanese",
+          "name": {
+            "first": "Kikuko",
+            "last": "Inoue",
+            "full": "Kikuko Inoue",
+            "native": "井上喜久子",
+            "userPreferred": "Kikuko Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95195-nLvtZl5sCK0D.png"
+        },
+        {
+          "id": 95905,
+          "language": "English",
+          "name": {
+            "first": "Veronica",
+            "last": "Taylor",
+            "full": "Veronica Taylor",
+            "native": null,
+            "userPreferred": "Veronica Taylor"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95905-X3mxkcZkmmKN.jpg"
+        },
+        {
+          "id": 109823,
+          "language": "Korean",
+          "name": {
+            "first": "Mi Na",
+            "last": "Yun",
+            "full": "Mi Na Yun",
+            "native": "미나 윤",
+            "userPreferred": "Mi Na Yun"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14823.jpg"
+        }
+      ]
+    },
+    {
+      "id": 42672,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Blood",
+        "last": "Falcon",
+        "full": "Blood Falcon",
+        "native": "ブラッドファルコン",
+        "userPreferred": "Blood Falcon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/42672.jpg",
+      "voiceActors": [
+        {
+          "id": 95330,
+          "language": "Japanese",
+          "name": {
+            "first": "Banjou",
+            "last": "Ginga",
+            "full": "Banjou Ginga",
+            "native": "銀河万丈",
+            "userPreferred": "Banjou Ginga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95330-PHDm9uDhKAsT.png"
+        }
+      ]
+    }
+  ],
+  "relations": [],
+  "episodes": [
+    {
+      "id": "f-zero-falcon-densetsu-episode-1",
+      "title": "Legendary Start!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:24:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-1"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-2",
+      "title": "Captain Falcon",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:24:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-2"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-3",
+      "title": "Apprentice Trooper Lucy",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:24:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-3"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-4",
+      "title": "Calling on Samurai Goroh!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:24:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-4"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-5",
+      "title": "Brilliant Trap!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:24:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-5"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-6",
+      "title": "Songstress Kate Allen",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:24:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-6"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-7",
+      "title": "The Trap of Michael Chain",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-7"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-8",
+      "title": "Miss Killer Puzzle",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-8"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-9",
+      "title": "Jody`s Secret",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-9"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-10",
+      "title": "Roger and Draq",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-10"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-11",
+      "title": "The Boy From Planet Heiru",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-11"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-12",
+      "title": "Black Shadow Laughs",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-12"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-13",
+      "title": "Humanity and Justice",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-13"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-14",
+      "title": "Iron Man Neelsen",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-14"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-15",
+      "title": "Sniper Pico",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-15"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-16",
+      "title": "Leave it to Super Arrow",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-16"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-17",
+      "title": "Ryu`s Magnificent Day Off",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-17"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-18",
+      "title": "Clark`s Adventure",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-18"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-19",
+      "title": "Lucy`s Epic Duel Between Gomar-Shioh",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-19"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-20",
+      "title": "The Dissaperance of Mrs. Arrow",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-20"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-21",
+      "title": "The Feverish Womens` Battle!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 21,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-21"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-22",
+      "title": "Ryu and Falcon",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 22,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-22"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-23",
+      "title": "Running Through! Spin Booster!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 23,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-23"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-24",
+      "title": "Octoman`s Dream",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 24,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-24"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-25",
+      "title": "Super Substance Reactor Dynamite!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 25,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-25"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-26",
+      "title": "Ambition of Zoda",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 26,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-26"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-27",
+      "title": "Hunter Beastman",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 27,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-27"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-28",
+      "title": "Invitation from Black Shadow",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 28,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-28"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-29",
+      "title": "Mighty Gazelle!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 29,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-29"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-30",
+      "title": "Only One Falcon",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 30,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-30"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-31",
+      "title": "Vestige",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 31,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-31"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-32",
+      "title": "Scream from the Darkness",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 32,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-32"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-33",
+      "title": "James McCloud",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 33,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-33"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-34",
+      "title": "Clark and Gazelle",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 34,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-34"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-35",
+      "title": "Falcon`s Confession",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 35,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-35"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-36",
+      "title": "Haruka",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 36,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-36"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-37",
+      "title": "Grim Reaper Jack Levin",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 37,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-37"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-38",
+      "title": "Falcon`s Crimson Flower",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 38,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-38"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-39",
+      "title": "Elite Mobile Platoon Breakup!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 39,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-39"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-40",
+      "title": "Coffee Break",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 40,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-40"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-41",
+      "title": "Annihilate Black Shadow!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 41,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-41"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-42",
+      "title": "The Castle of Don Genie",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 42,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-42"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-43",
+      "title": "Awakening",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 43,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-43"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-44",
+      "title": "Black Shadow`s Undertaking",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 44,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-44"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-45",
+      "title": "Zoda",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 45,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-45"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-46",
+      "title": "The Legendary Man",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 46,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-46"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-47",
+      "title": "Fate",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 47,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-47"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-48",
+      "title": "The Dark Reactor",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 48,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-48"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-49",
+      "title": "The 150-Year Decision",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 49,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-49"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-50",
+      "title": "Black Shadow",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 50,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-50"
+    },
+    {
+      "id": "f-zero-falcon-densetsu-episode-51",
+      "title": "The Legend of Falcon!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3101-e2ahQRuSCGBV.jpg",
+      "number": 51,
+      "createdAt": "2013-02-20T18:24:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//f-zero-falcon-densetsu-episode-51"
+    }
+  ]
+}

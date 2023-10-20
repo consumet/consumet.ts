@@ -1,0 +1,733 @@
+{
+  "id": "20842",
+  "title": {
+    "romaji": "New Initial D Movie: Legend 1 - Kakusei",
+    "english": "Initial D Legend 1: Awakening",
+    "native": "新劇場版 頭文字D Legend1-覚醒-"
+  },
+  "malId": 19613,
+  "synonyms": [
+    "Shin Gekijouban Initial D: Legend 1 - Kakusei"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "3cOD-DWLcqg",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/3cOD-DWLcqg/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20842.jpg",
+  "popularity": 8448,
+  "color": "#c9bb50",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20842-vDMcrym7TbEv.jpg",
+  "description": "First of the three part theatrical film remake of <i>Initial D First Stage</i>.<br><br>\n\nKoichiro of the Akina Speedstars witnesses a mysterious driver outmaneuver rival Keisuke of the Akagi RedSuns. The race, he later discovers, was won by none other than his own co-worker, Takumi. What happens next is the stuff of street racing legend!<br><br>\n(Source: HIDIVE)\n",
+  "status": "Completed",
+  "releaseDate": 2014,
+  "startDate": {
+    "year": 2014,
+    "month": 8,
+    "day": 24
+  },
+  "endDate": {
+    "year": 2014,
+    "month": 8,
+    "day": 24
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 74,
+  "duration": 62,
+  "genres": [
+    "Action",
+    "Drama",
+    "Sports"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "LIDENFILMS"
+  ],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [
+    {
+      "id": 2608,
+      "malId": 2608,
+      "title": {
+        "romaji": "Wangan Midnight",
+        "english": null,
+        "native": "湾岸ミッドナイト",
+        "userPreferred": "Wangan Midnight"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2608-J8zVMG1LO7CS.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2608-J8zVMG1LO7CS.jpg",
+      "rating": 71,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 2819,
+      "role": "MAIN",
+      "name": {
+        "first": "Takumi",
+        "last": "Fujiwara",
+        "full": "Takumi Fujiwara",
+        "native": "藤原拓海",
+        "userPreferred": "Takumi Fujiwara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2819-FaPLslMytO9p.png",
+      "voiceActors": [
+        {
+          "id": 95065,
+          "language": "Japanese",
+          "name": {
+            "first": "Mamoru",
+            "last": "Miyano",
+            "full": "Mamoru Miyano",
+            "native": "宮野真守",
+            "userPreferred": "Mamoru Miyano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95065-eyynywrhombR.png"
+        },
+        {
+          "id": 102152,
+          "language": "English",
+          "name": {
+            "first": "Joel",
+            "last": "Mcdonald",
+            "full": "Joel Mcdonald",
+            "native": null,
+            "userPreferred": "Joel Mcdonald"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7152.jpg"
+        },
+        {
+          "id": 104237,
+          "language": "French",
+          "name": {
+            "first": "Yann",
+            "last": "Pichon",
+            "full": "Yann Pichon",
+            "native": null,
+            "userPreferred": "Yann Pichon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9237.jpg"
+        }
+      ]
+    },
+    {
+      "id": 37067,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kenta",
+        "last": "Nakamura",
+        "full": "Kenta Nakamura",
+        "native": "中村賢太",
+        "userPreferred": "Kenta Nakamura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/37067.jpg",
+      "voiceActors": [
+        {
+          "id": 104635,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshiya",
+            "last": "Naruke",
+            "full": "Yoshiya Naruke",
+            "native": "成家義哉",
+            "userPreferred": "Yoshiya Naruke"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104635-rZOyKAezK6mE.jpg"
+        },
+        {
+          "id": 275480,
+          "language": "English",
+          "name": {
+            "first": "Jeff",
+            "last": "Collins",
+            "full": "Jeff Collins",
+            "native": null,
+            "userPreferred": "Jeff Collins"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2820,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bunta",
+        "last": "Fujiwara",
+        "full": "Bunta Fujiwara",
+        "native": "藤原文太",
+        "userPreferred": "Bunta Fujiwara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2820-QtJ4afUnTjzw.png",
+      "voiceActors": [
+        {
+          "id": 95125,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroaki",
+            "last": "Hirata",
+            "full": "Hiroaki Hirata",
+            "native": "平田広明",
+            "userPreferred": "Hiroaki Hirata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95125-NeFFiJupoDVj.png"
+        },
+        {
+          "id": 101571,
+          "language": "English",
+          "name": {
+            "first": "Bill",
+            "last": "Wise",
+            "full": "Bill Wise",
+            "native": null,
+            "userPreferred": "Bill Wise"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6571.jpg"
+        },
+        {
+          "id": 104868,
+          "language": "French",
+          "name": {
+            "first": "Frédéric",
+            "last": "Souterelle",
+            "full": "Frédéric Souterelle",
+            "native": null,
+            "userPreferred": "Frédéric Souterelle"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104868-7WbmksR5cloP.jpg"
+        }
+      ]
+    },
+    {
+      "id": 37069,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hiroshi",
+        "last": "Fumihiro",
+        "full": "Hiroshi Fumihiro",
+        "native": "史浩弘",
+        "userPreferred": "Hiroshi Fumihiro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b37069-xK1R8B1d9wjf.png",
+      "voiceActors": [
+        {
+          "id": 107708,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenji",
+            "last": "Fukuda",
+            "full": "Kenji Fukuda",
+            "native": "福田賢二",
+            "userPreferred": "Kenji Fukuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107708-0PH2NmJ3vVIU.png"
+        },
+        {
+          "id": 275479,
+          "language": "English",
+          "name": {
+            "first": "Michael",
+            "last": "Federico",
+            "full": "Michael Federico",
+            "native": null,
+            "userPreferred": "Michael Federico"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n275479-MRNoXKLfwiWL.jpg"
+        },
+        {
+          "id": 138010,
+          "language": "French",
+          "name": {
+            "first": "Jean-Pierre",
+            "last": "Leblan",
+            "full": "Jean-Pierre Leblan",
+            "native": null,
+            "userPreferred": "Jean-Pierre Leblan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2821,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ryousuke",
+        "last": "Takahashi",
+        "full": "Ryousuke Takahashi",
+        "native": "高橋涼介",
+        "userPreferred": "Ryousuke Takahashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2821-riOywKuCISDx.png",
+      "voiceActors": [
+        {
+          "id": 95212,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Ono",
+            "full": "Daisuke Ono",
+            "native": "小野大輔",
+            "userPreferred": "Daisuke Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95212-wX1M4LJN96q2.png"
+        },
+        {
+          "id": 96602,
+          "language": "English",
+          "name": {
+            "first": "J. Michael",
+            "last": "Tatum",
+            "full": "J. Michael Tatum",
+            "native": "John Michael Tatum",
+            "userPreferred": "J. Michael Tatum"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96602-ztTfuo3nzu5t.png"
+        },
+        {
+          "id": 104870,
+          "language": "French",
+          "name": {
+            "first": "Jochen",
+            "last": "Haegele",
+            "full": "Jochen Haegele",
+            "native": null,
+            "userPreferred": "Jochen Haegele"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 37074,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kenji",
+        "last": null,
+        "full": "Kenji",
+        "native": "健二",
+        "userPreferred": "Kenji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/37074.jpg",
+      "voiceActors": [
+        {
+          "id": 95756,
+          "language": "Japanese",
+          "name": {
+            "first": "Anri",
+            "last": "Katsu",
+            "full": "Anri Katsu",
+            "native": "勝杏里",
+            "userPreferred": "Anri Katsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95756-MmmuyQK4Thzl.png"
+        },
+        {
+          "id": 95610,
+          "language": "English",
+          "name": {
+            "first": "Christopher",
+            "last": "Bevins",
+            "full": "Christopher Bevins",
+            "native": null,
+            "userPreferred": "Christopher Bevins"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95610-4FScrXVJmH3V.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2822,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Keisuke",
+        "last": "Takahashi",
+        "full": "Keisuke Takahashi",
+        "native": "高橋啓介",
+        "userPreferred": "Keisuke Takahashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2822-HsgCNP5rMXHU.png",
+      "voiceActors": [
+        {
+          "id": 95513,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuichi",
+            "last": "Nakamura",
+            "full": "Yuuichi Nakamura",
+            "native": "中村悠一",
+            "userPreferred": "Yuuichi Nakamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95513-up9ZDuocHgRs.png"
+        },
+        {
+          "id": 95453,
+          "language": "English",
+          "name": {
+            "first": "Gray G.",
+            "last": "Haddock",
+            "full": "Gray G. Haddock",
+            "native": null,
+            "userPreferred": "Gray G. Haddock"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/453.jpg"
+        },
+        {
+          "id": 102715,
+          "language": "French",
+          "name": {
+            "first": "François",
+            "last": "Creton",
+            "full": "François Creton",
+            "native": null,
+            "userPreferred": "François Creton"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102715-f8pb1eUkOKwQ.png"
+        }
+      ]
+    },
+    {
+      "id": 37062,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuuichi",
+        "last": "Tachibana",
+        "full": "Yuuichi Tachibana",
+        "native": "立花 祐一",
+        "userPreferred": "Yuuichi Tachibana"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/37062.jpg",
+      "voiceActors": [
+        {
+          "id": 96520,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoyuki",
+            "last": "Shimura",
+            "full": "Tomoyuki Shimura",
+            "native": "志村知幸",
+            "userPreferred": "Tomoyuki Shimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1520.jpg"
+        },
+        {
+          "id": 100990,
+          "language": "English",
+          "name": {
+            "first": "Charles",
+            "last": "Campbell",
+            "full": "Charles Campbell",
+            "native": null,
+            "userPreferred": "Charles Campbell"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5990.jpg"
+        },
+        {
+          "id": 104871,
+          "language": "French",
+          "name": {
+            "first": "Julien",
+            "last": "Chatelet",
+            "full": "Julien Chatelet",
+            "native": null,
+            "userPreferred": "Julien Chatelet"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7955,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Itsuki",
+        "last": "Takeuchi",
+        "full": "Itsuki Takeuchi",
+        "native": "武内樹",
+        "userPreferred": "Itsuki Takeuchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7955-fJpOaM6vC0Q2.png",
+      "voiceActors": [
+        {
+          "id": 95261,
+          "language": "Japanese",
+          "name": {
+            "first": "Minoru",
+            "last": "Shiraishi",
+            "full": "Minoru Shiraishi",
+            "native": "白石稔",
+            "userPreferred": "Minoru Shiraishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95261-nWwWGChb84Yo.png"
+        },
+        {
+          "id": 96047,
+          "language": "English",
+          "name": {
+            "first": "Jessie James",
+            "last": "Grelle",
+            "full": "Jessie James Grelle",
+            "native": null,
+            "userPreferred": "Jessie James Grelle"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96047-E9nBWn3YL0Tn.jpg"
+        },
+        {
+          "id": 171755,
+          "language": "French",
+          "name": {
+            "first": "Alan",
+            "last": "Aubert",
+            "full": "Alan Aubert",
+            "native": null,
+            "userPreferred": "Alan Aubert"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17255,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Natsuki",
+        "last": "Mogi",
+        "full": "Natsuki Mogi",
+        "native": "茂木 なつき",
+        "userPreferred": "Natsuki Mogi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b17255-FyQe48duTmEW.png",
+      "voiceActors": [
+        {
+          "id": 108639,
+          "language": "Japanese",
+          "name": {
+            "first": "Maaya",
+            "last": "Uchida",
+            "full": "Maaya Uchida",
+            "native": "内田真礼",
+            "userPreferred": "Maaya Uchida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n108639-LLrR4WptCh5s.png"
+        },
+        {
+          "id": 95659,
+          "language": "English",
+          "name": {
+            "first": "Brina",
+            "last": "Palencia",
+            "full": "Brina Palencia",
+            "native": null,
+            "userPreferred": "Brina Palencia"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/659.jpg"
+        },
+        {
+          "id": 165978,
+          "language": "French",
+          "name": {
+            "first": "Clara",
+            "last": "Soares",
+            "full": "Clara Soares",
+            "native": null,
+            "userPreferred": "Clara Soares"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n165978-BhMLANgEZpeB.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15003,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kouichirou",
+        "last": "Iketani",
+        "full": "Kouichirou Iketani",
+        "native": "池谷浩一郎",
+        "userPreferred": "Kouichirou Iketani"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15003.jpg",
+      "voiceActors": [
+        {
+          "id": 101214,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Tsuchida",
+            "full": "Hiroshi Tsuchida",
+            "native": "土田大",
+            "userPreferred": "Hiroshi Tsuchida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101214-kvHCKwu88FcF.png"
+        },
+        {
+          "id": 95312,
+          "language": "English",
+          "name": {
+            "first": "Eric",
+            "last": "Vale",
+            "full": "Eric Vale",
+            "native": null,
+            "userPreferred": "Eric Vale"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95312-lixmVhwE8AXE.png"
+        },
+        {
+          "id": 139131,
+          "language": "French",
+          "name": {
+            "first": "Jean-Marco",
+            "last": "Montalto",
+            "full": "Jean-Marco Montalto",
+            "native": null,
+            "userPreferred": "Jean-Marco Montalto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n139131-IkMju3n42K4u.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3867,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Takeshi",
+        "last": "Nakazato",
+        "full": "Takeshi Nakazato",
+        "native": "中里毅",
+        "userPreferred": "Takeshi Nakazato"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b3867-Ay48n2wq6WER.png",
+      "voiceActors": [
+        {
+          "id": 95095,
+          "language": "Japanese",
+          "name": {
+            "first": "Junichi",
+            "last": "Suwabe",
+            "full": "Junichi Suwabe",
+            "native": "諏訪部順一",
+            "userPreferred": "Junichi Suwabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95095-DvSjTQnqcgXP.png"
+        },
+        {
+          "id": 275478,
+          "language": "English",
+          "name": {
+            "first": "Brian",
+            "last": "Mountbatten",
+            "full": "Brian Mountbatten",
+            "native": null,
+            "userPreferred": "Brian Mountbatten"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 104870,
+          "language": "French",
+          "name": {
+            "first": "Jochen",
+            "last": "Haegele",
+            "full": "Jochen Haegele",
+            "native": null,
+            "userPreferred": "Jochen Haegele"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 20990,
+      "relationType": "SEQUEL",
+      "malId": 28881,
+      "title": {
+        "romaji": "New Initial D Movie: Legend 2 - Dokusou",
+        "english": "Initial D Legend 2: Racer",
+        "native": "新劇場版 頭文字D Legend2 -闘走-",
+        "userPreferred": "New Initial D Movie: Legend 2 - Dokusou"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20990-zjBrKc3r0mqO.jpg",
+      "color": "#e4bb28",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20990-zCw9iYm2vOf9.jpg",
+      "rating": 75
+    },
+    {
+      "id": 30375,
+      "relationType": "ADAPTATION",
+      "malId": 375,
+      "title": {
+        "romaji": "Initial D",
+        "english": "Initial D",
+        "native": "頭文字D",
+        "userPreferred": "Initial D"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx30375-YFIIOwp5kSqW.jpg",
+      "color": "#e4860d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/n30375-CgsR4Bc75EPi.jpg",
+      "rating": 81
+    },
+    {
+      "id": 185,
+      "relationType": "ALTERNATIVE",
+      "malId": 185,
+      "title": {
+        "romaji": "Initial D",
+        "english": "Initial D 1st Stage",
+        "native": "頭文字D",
+        "userPreferred": "Initial D"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b185-kcYw18EEmh59.jpg",
+      "color": "#e45043",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/185-Z724xydTic8N.jpg",
+      "rating": 81
+    },
+    {
+      "id": 145405,
+      "relationType": "ALTERNATIVE",
+      "malId": 50846,
+      "title": {
+        "romaji": "New Initial D Movie: BATTLE DIGEST",
+        "english": null,
+        "native": "新劇場版 頭文字D BATTLE DIGEST",
+        "userPreferred": "New Initial D Movie: BATTLE DIGEST"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx145405-2GPZk0jdxsya.png",
+      "color": "#e4d65d",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/145405-0CqwahF2l9iE.jpg",
+      "rating": 74
+    }
+  ],
+  "episodes": [
+    {
+      "id": "new-initial-d-movie-legend-1---kakusei-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20842.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//new-initial-d-movie-legend-1---kakusei-episode-1"
+    }
+  ]
+}

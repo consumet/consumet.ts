@@ -1,0 +1,678 @@
+{
+  "id": "3288",
+  "title": {
+    "romaji": "Gundam EVOLVE",
+    "english": "Gundam Evolve",
+    "native": "ガンダムEVOLVE"
+  },
+  "malId": 3288,
+  "synonyms": [
+    "Mobile Suit Gundam Evolve"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3288.jpg",
+  "popularity": 2418,
+  "color": "#e4f150",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3288.jpg",
+  "description": "A series of short films packaged with certain model kits and aired at conventions, the Gundam Evolve series chronicles a number of side-stories, alternative scenes, and even bonus omake from all around the Gundam canon. Featuring a mix of animation media—from traditional cels to 3-D CG rendering to even cel-shaded 2-D animation—these often 3-5 minute shorts cover such events as Domon Kasshu's training (and a bit of a romantic tift with Rain Mikamura) from G Gundam, Amuro Ray battling Quess Paraya from Char's Counterattack, Kamille Bidan training in the Gundam Mk.II from Zeta Gundam, and Canard Pars dueling Prayer Reverie from the Gundam SEED X Astray manga.<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2001,
+  "startDate": {
+    "year": 2001,
+    "month": null,
+    "day": null
+  },
+  "endDate": {
+    "year": 2007,
+    "month": 1,
+    "day": 26
+  },
+  "totalEpisodes": 15,
+  "currentEpisode": 15,
+  "rating": 56,
+  "duration": 7,
+  "genres": [
+    "Action",
+    "Mecha"
+  ],
+  "season": null,
+  "studios": [
+    "Sunrise"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 1398,
+      "role": "MAIN",
+      "name": {
+        "first": "Domon",
+        "last": "Kasshu",
+        "full": "Domon Kasshu",
+        "native": "ドモン・カッシュ",
+        "userPreferred": "Domon Kasshu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1398-mPvd7vzTZYBQ.jpg",
+      "voiceActors": [
+        {
+          "id": 95001,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Seki",
+            "full": "Tomokazu Seki",
+            "native": "関智一",
+            "userPreferred": "Tomokazu Seki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95001-vm0RtZhmlzhK.png"
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "role": "MAIN",
+      "name": {
+        "first": "Heero",
+        "last": "Yuy",
+        "full": "Heero Yuy",
+        "native": "ヒイロ・ユイ",
+        "userPreferred": "Heero Yuy"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/99.jpg",
+      "voiceActors": [
+        {
+          "id": 95112,
+          "language": "Japanese",
+          "name": {
+            "first": "Hikaru",
+            "last": "Midorikawa",
+            "full": "Hikaru Midorikawa",
+            "native": "緑川光",
+            "userPreferred": "Hikaru Midorikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95112-c275OLptkSYO.png"
+        }
+      ]
+    },
+    {
+      "id": 7904,
+      "role": "MAIN",
+      "name": {
+        "first": "Judau",
+        "last": "Ashta",
+        "full": "Judau Ashta",
+        "native": "ジュドー・アーシタ",
+        "userPreferred": "Judau Ashta"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7904.jpg",
+      "voiceActors": [
+        {
+          "id": 95131,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuki",
+            "last": "Yao",
+            "full": "Kazuki Yao",
+            "native": "矢尾一樹",
+            "userPreferred": "Kazuki Yao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95131-TCVTgxb08tfE.png"
+        }
+      ]
+    },
+    {
+      "id": 1399,
+      "role": "MAIN",
+      "name": {
+        "first": "Rain",
+        "last": "Mikamura",
+        "full": "Rain Mikamura",
+        "native": "レイン・ミカムラ",
+        "userPreferred": "Rain Mikamura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1399.jpg",
+      "voiceActors": [
+        {
+          "id": 96600,
+          "language": "Japanese",
+          "name": {
+            "first": "Miki",
+            "last": "Narahashi",
+            "full": "Miki Narahashi",
+            "native": "ならはしみき",
+            "userPreferred": "Miki Narahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96600-v6elhY0JP2iR.png"
+        }
+      ]
+    },
+    {
+      "id": 1341,
+      "role": "MAIN",
+      "name": {
+        "first": "Kamille",
+        "last": "Bidan",
+        "full": "Kamille Bidan",
+        "native": "カミーユ・ビダン",
+        "userPreferred": "Kamille Bidan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1341-E0NXpUlBGuuJ.png",
+      "voiceActors": [
+        {
+          "id": 95157,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobuo",
+            "last": "Tobita",
+            "full": "Nobuo Tobita",
+            "native": "飛田展男",
+            "userPreferred": "Nobuo Tobita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95157-td6WhlGehuDJ.png"
+        }
+      ]
+    },
+    {
+      "id": 1335,
+      "role": "MAIN",
+      "name": {
+        "first": "Amuro",
+        "last": "Ray",
+        "full": "Amuro Ray",
+        "native": "アムロ・レイ",
+        "userPreferred": "Amuro Ray"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1335-AMNQHe3IPA8v.png",
+      "voiceActors": [
+        {
+          "id": 95326,
+          "language": "Japanese",
+          "name": {
+            "first": "Tooru",
+            "last": "Furuya",
+            "full": "Tooru Furuya",
+            "native": "古谷徹",
+            "userPreferred": "Tooru Furuya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95326-OfRv2DBnFVZU.png"
+        }
+      ]
+    },
+    {
+      "id": 268808,
+      "role": "MAIN",
+      "name": {
+        "first": "Shin",
+        "last": "Matsunaga",
+        "full": "Shin Matsunaga",
+        "native": "シン・マツナガ)",
+        "userPreferred": "Shin Matsunaga"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b268808-Hq9OdtaDUNhc.png",
+      "voiceActors": [
+        {
+          "id": 95091,
+          "language": "Japanese",
+          "name": {
+            "first": "Jouji",
+            "last": "Nakata",
+            "full": "Jouji Nakata",
+            "native": "中田譲治",
+            "userPreferred": "Jouji Nakata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95091-idoMaN26z80B.png"
+        }
+      ]
+    },
+    {
+      "id": 1336,
+      "role": "MAIN",
+      "name": {
+        "first": "Char",
+        "last": "Aznable",
+        "full": "Char Aznable",
+        "native": "シャア・アズナブル",
+        "userPreferred": "Char Aznable"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1336-73LQxWKUWy78.png",
+      "voiceActors": [
+        {
+          "id": 95598,
+          "language": "Japanese",
+          "name": {
+            "first": "Shuuichi",
+            "last": "Ikeda",
+            "full": "Shuuichi Ikeda",
+            "native": "池田秀一",
+            "userPreferred": "Shuuichi Ikeda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95598-IZBrsaxRsACg.png"
+        }
+      ]
+    },
+    {
+      "id": 1386,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lalah",
+        "last": "Sune",
+        "full": "Lalah Sune",
+        "native": "ララァ・スン",
+        "userPreferred": "Lalah Sune"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1386-fIq9Mgd3pAZ2.png",
+      "voiceActors": [
+        {
+          "id": 95760,
+          "language": "Japanese",
+          "name": {
+            "first": "Keiko",
+            "last": "Han",
+            "full": "Keiko Han",
+            "native": "潘恵子",
+            "userPreferred": "Keiko Han"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95760-aatvqsrxbFZN.png"
+        }
+      ]
+    },
+    {
+      "id": 16883,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Quess",
+        "last": "Paraya",
+        "full": "Quess Paraya",
+        "native": "クェス・パラヤ",
+        "userPreferred": "Quess Paraya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b16883-fTmmCAmAgStr.png",
+      "voiceActors": [
+        {
+          "id": 96295,
+          "language": "Japanese",
+          "name": {
+            "first": "Maria",
+            "last": "Kawamura",
+            "full": "Maria Kawamura",
+            "native": "川村万梨阿",
+            "userPreferred": "Maria Kawamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96295-i8Ve82EZ373Y.png"
+        }
+      ]
+    },
+    {
+      "id": 7533,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Doctor J",
+        "last": null,
+        "full": "Doctor J",
+        "native": "ドクターJ",
+        "userPreferred": "Doctor J"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7533.jpg",
+      "voiceActors": [
+        {
+          "id": 102913,
+          "language": "Japanese",
+          "name": {
+            "first": "Minoru",
+            "last": "Inaba",
+            "full": "Minoru Inaba",
+            "native": "稲葉実",
+            "userPreferred": "Minoru Inaba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7913.jpg"
+        }
+      ]
+    },
+    {
+      "id": 40465,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hathaway",
+        "last": "Noa",
+        "full": "Hathaway Noa",
+        "native": "ハサウェイ・ノア",
+        "userPreferred": "Hathaway Noa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b40465-DmFzAQtt6GSC.png",
+      "voiceActors": [
+        {
+          "id": 95286,
+          "language": "Japanese",
+          "name": {
+            "first": "Nozomu",
+            "last": "Sasaki",
+            "full": "Nozomu Sasaki",
+            "native": "佐々木望",
+            "userPreferred": "Nozomu Sasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95286-1RlrFeFKx3jn.png"
+        }
+      ]
+    },
+    {
+      "id": 236713,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuri",
+        "last": "Ajissah",
+        "full": "Yuri Ajissah",
+        "native": "ユウリ・アジッサ",
+        "userPreferred": "Yuri Ajissah"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b236713-Bf445nZitKCy.png",
+      "voiceActors": [
+        {
+          "id": 95013,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayako",
+            "last": "Kawasumi",
+            "full": "Ayako Kawasumi",
+            "native": "川澄綾子",
+            "userPreferred": "Ayako Kawasumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95013-cwl64qXuP2r7.png"
+        }
+      ]
+    },
+    {
+      "id": 14316,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Roux",
+        "last": "Louka",
+        "full": "Roux Louka",
+        "native": "ルー・ルカ",
+        "userPreferred": "Roux Louka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14316.jpg",
+      "voiceActors": [
+        {
+          "id": 95516,
+          "language": "Japanese",
+          "name": {
+            "first": "Naoko",
+            "last": "Matsui",
+            "full": "Naoko Matsui",
+            "native": "松井菜桜子",
+            "userPreferred": "Naoko Matsui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95516-N94jWbOCyDd7.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 87,
+      "relationType": "PARENT",
+      "malId": 87,
+      "title": {
+        "romaji": "Kidou Senshi Gundam: Gyakushuu no Char",
+        "english": "Mobile Suit Gundam: Char's Counterattack",
+        "native": "機動戦士ガンダム 逆襲のシャア",
+        "userPreferred": "Kidou Senshi Gundam: Gyakushuu no Char"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx87-SCCIlaJZjSvz.png",
+      "color": "#e4ae43",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/87-YhOEoJL9FMOr.jpg",
+      "rating": 74
+    },
+    {
+      "id": 85,
+      "relationType": "PARENT",
+      "malId": 85,
+      "title": {
+        "romaji": "Kidou Senshi Zeta Gundam",
+        "english": "Mobile Suit Zeta Gundam",
+        "native": "機動戦士Zガンダム",
+        "userPreferred": "Kidou Senshi Zeta Gundam"
+      },
+      "status": "Completed",
+      "episodes": 50,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx85-Ds1SJjiy7kfw.jpg",
+      "color": "#d6501a",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/85-DcFgPYUElRVu.jpg",
+      "rating": 77
+    },
+    {
+      "id": 93,
+      "relationType": "PARENT",
+      "malId": 93,
+      "title": {
+        "romaji": "Kidou Senshi Gundam SEED",
+        "english": "Mobile Suit Gundam Seed",
+        "native": "機動戦士ガンダムSEED",
+        "userPreferred": "Kidou Senshi Gundam SEED"
+      },
+      "status": "Completed",
+      "episodes": 50,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx93-3b9jdMQjxEFf.png",
+      "color": "#e4930d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/93-KZlqRAri1Os5.jpg",
+      "rating": 72
+    },
+    {
+      "id": 86,
+      "relationType": "PARENT",
+      "malId": 86,
+      "title": {
+        "romaji": "Kidou Senshi Gundam Double Zeta",
+        "english": "Mobile Suit Gundam ZZ",
+        "native": "機動戦士ガンダムZZ",
+        "userPreferred": "Kidou Senshi Gundam Double Zeta"
+      },
+      "status": "Completed",
+      "episodes": 47,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b86-vaOa1TaV0T0K.png",
+      "color": "#e45043",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/86-TWbUNZ84tfI0.jpg",
+      "rating": 64
+    },
+    {
+      "id": 96,
+      "relationType": "PARENT",
+      "malId": 96,
+      "title": {
+        "romaji": "Kidou Butouden G Gundam",
+        "english": "Mobile Fighter G Gundam",
+        "native": "機動武闘伝Gガンダム",
+        "userPreferred": "Kidou Butouden G Gundam"
+      },
+      "status": "Completed",
+      "episodes": 49,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx96-YZuRuVza9Qgc.png",
+      "color": "#3586e4",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/96-GUFHtfLF4KjF.jpg",
+      "rating": 74
+    },
+    {
+      "id": 90,
+      "relationType": "PARENT",
+      "malId": 90,
+      "title": {
+        "romaji": "Shin Kidou Senki Gundam Wing",
+        "english": "Mobile Suit Gundam Wing",
+        "native": "新機動戦記ガンダムW",
+        "userPreferred": "Shin Kidou Senki Gundam Wing"
+      },
+      "status": "Completed",
+      "episodes": 49,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b90-umBjF3yaeIdo.png",
+      "color": "#f1935d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/90-hhE4GDd5rx1G.jpg",
+      "rating": 71
+    },
+    {
+      "id": 80,
+      "relationType": "PARENT",
+      "malId": 80,
+      "title": {
+        "romaji": "Kidou Senshi Gundam",
+        "english": "Mobile Suit Gundam",
+        "native": "機動戦士ガンダム",
+        "userPreferred": "Kidou Senshi Gundam"
+      },
+      "status": "Completed",
+      "episodes": 43,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx80-HKQTjSNuFlHu.jpg",
+      "color": "#934328",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/80-LcQhJ600WeDn.jpg",
+      "rating": 76
+    }
+  ],
+  "episodes": [
+    {
+      "id": "gundam-evolve-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3288.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gundam-evolve-episode-1"
+    },
+    {
+      "id": "gundam-evolve-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3288.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gundam-evolve-episode-2"
+    },
+    {
+      "id": "gundam-evolve-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3288.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gundam-evolve-episode-3"
+    },
+    {
+      "id": "gundam-evolve-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3288.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gundam-evolve-episode-4"
+    },
+    {
+      "id": "gundam-evolve-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3288.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gundam-evolve-episode-5"
+    },
+    {
+      "id": "gundam-evolve-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3288.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gundam-evolve-episode-6"
+    },
+    {
+      "id": "gundam-evolve-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3288.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gundam-evolve-episode-7"
+    },
+    {
+      "id": "gundam-evolve-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3288.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gundam-evolve-episode-8"
+    },
+    {
+      "id": "gundam-evolve-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3288.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gundam-evolve-episode-9"
+    },
+    {
+      "id": "gundam-evolve-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3288.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gundam-evolve-episode-10"
+    },
+    {
+      "id": "gundam-evolve-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3288.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gundam-evolve-episode-11"
+    },
+    {
+      "id": "gundam-evolve-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3288.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gundam-evolve-episode-12"
+    },
+    {
+      "id": "gundam-evolve-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3288.jpg",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gundam-evolve-episode-13"
+    },
+    {
+      "id": "gundam-evolve-episode-14",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3288.jpg",
+      "number": 14,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gundam-evolve-episode-14"
+    },
+    {
+      "id": "gundam-evolve-episode-15",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3288.jpg",
+      "number": 15,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gundam-evolve-episode-15"
+    }
+  ]
+}

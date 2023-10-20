@@ -1,0 +1,556 @@
+{
+  "id": "21186",
+  "title": {
+    "romaji": "Kamisama Hajimemashita: Kako-hen",
+    "english": "Kamisama Kiss◎ OVA",
+    "native": "神様はじめました ～過去編～"
+  },
+  "malId": 30709,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21186-v6A5xZwvomDK.jpg",
+  "popularity": 26286,
+  "color": "#5dd6e4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21186-v6A5xZwvomDK.jpg",
+  "description": "Four OVA episodes bundled with the 22nd, 23rd, 24th, and 25th volumes of the manga.<br>\n<br>\nThe OAD project will adapt the \"past arc,\" which spans from mid-volume 14 to volume 17 in the manga.\n\n",
+  "status": "Completed",
+  "releaseDate": 2015,
+  "startDate": {
+    "year": 2015,
+    "month": 8,
+    "day": 20
+  },
+  "endDate": {
+    "year": 2016,
+    "month": 8,
+    "day": 19
+  },
+  "totalEpisodes": 4,
+  "currentEpisode": 4,
+  "rating": 82,
+  "duration": 30,
+  "genres": [
+    "Comedy",
+    "Fantasy",
+    "Romance",
+    "Supernatural"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "TMS Entertainment"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 20598,
+      "malId": 22057,
+      "title": {
+        "romaji": "Inari, Konkon, Koi Iroha.: Inari, Konkon, Semishigure.",
+        "english": null,
+        "native": "いなり、こんこん、恋いろは。いなり、コンコン、蝉しぐれ。",
+        "userPreferred": "Inari, Konkon, Koi Iroha.: Inari, Konkon, Semishigure."
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20598.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20598.jpg",
+      "rating": 67,
+      "type": "OVA"
+    },
+    {
+      "id": 100500,
+      "malId": 36754,
+      "title": {
+        "romaji": "Kakuriyo no Yadomeshi",
+        "english": "Kakuriyo -Bed & Breakfast for Spirits-",
+        "native": "かくりよの宿飯",
+        "userPreferred": "Kakuriyo no Yadomeshi"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100500-D1InEy2GriJV.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100500-oP4JhVMZsnE7.jpg",
+      "rating": 72,
+      "type": "TV"
+    },
+    {
+      "id": 530,
+      "malId": 530,
+      "title": {
+        "romaji": "Bishoujo Senshi Sailor Moon",
+        "english": "Sailor Moon",
+        "native": "美少女戦士セーラームーン",
+        "userPreferred": "Bishoujo Senshi Sailor Moon"
+      },
+      "status": "Completed",
+      "episodes": 46,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx530-DsF6LirJUEii.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/530.jpg",
+      "rating": 75,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 18344,
+      "role": "MAIN",
+      "name": {
+        "first": "Tomoe",
+        "last": null,
+        "full": "Tomoe",
+        "native": "巴衛",
+        "userPreferred": "Tomoe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b18344-2d8Ao1wHDZ7U.png",
+      "voiceActors": [
+        {
+          "id": 95792,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinnosuke",
+            "last": "Tachibana",
+            "full": "Shinnosuke Tachibana",
+            "native": "立花慎之介",
+            "userPreferred": "Shinnosuke Tachibana"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95792-5413Ip70mSdV.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18343,
+      "role": "MAIN",
+      "name": {
+        "first": "Nanami",
+        "last": "Momozono",
+        "full": "Nanami Momozono",
+        "native": "桃園奈々生",
+        "userPreferred": "Nanami Momozono"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b18343-8UwcePmQy3AY.png",
+      "voiceActors": [
+        {
+          "id": 106359,
+          "language": "Japanese",
+          "name": {
+            "first": "Suzuko",
+            "last": "Mimori",
+            "full": "Suzuko Mimori",
+            "native": "三森すずこ",
+            "userPreferred": "Suzuko Mimori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106359-G8dROMWpwlM6.png"
+        }
+      ]
+    },
+    {
+      "id": 37872,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mizuki",
+        "last": null,
+        "full": "Mizuki",
+        "native": "瑞希",
+        "userPreferred": "Mizuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b37872-y9ECZBxdEZwS.jpg",
+      "voiceActors": [
+        {
+          "id": 95270,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobuhiko",
+            "last": "Okamoto",
+            "full": "Nobuhiko Okamoto",
+            "native": "岡本信彦",
+            "userPreferred": "Nobuhiko Okamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95270-LqNIF238L59u.png"
+        }
+      ]
+    },
+    {
+      "id": 37877,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Numa no Himemiko",
+        "last": null,
+        "full": "Numa no Himemiko",
+        "native": "沼皇女",
+        "userPreferred": "Numa no Himemiko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/37877.jpg",
+      "voiceActors": [
+        {
+          "id": 95028,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Horie",
+            "full": "Yui Horie",
+            "native": "堀江由衣",
+            "userPreferred": "Yui Horie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95028-MHT1m3E5wGZx.png"
+        }
+      ]
+    },
+    {
+      "id": 24252,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shinjirou",
+        "last": "Kurama",
+        "full": "Shinjirou Kurama",
+        "native": "鞍馬",
+        "userPreferred": "Shinjirou Kurama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b24252-ZSowWBQK0cxJ.png",
+      "voiceActors": [
+        {
+          "id": 95440,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Kishio",
+            "full": "Daisuke Kishio",
+            "native": "岸尾だいすけ",
+            "userPreferred": "Daisuke Kishio"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95440-j4iWV0MGWtBh.png"
+        }
+      ]
+    },
+    {
+      "id": 50683,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ryuuou",
+        "last": "Sukuna",
+        "full": "Ryuuou Sukuna",
+        "native": "龍王・宿儺",
+        "userPreferred": "Ryuuou Sukuna"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/50683.jpg",
+      "voiceActors": [
+        {
+          "id": 95087,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Namikawa",
+            "full": "Daisuke Namikawa",
+            "native": "浪川大輔",
+            "userPreferred": "Daisuke Namikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95087-6dlBBbejsPyg.png"
+        }
+      ]
+    },
+    {
+      "id": 73655,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Akuraou",
+        "last": null,
+        "full": "Akuraou",
+        "native": "悪羅王",
+        "userPreferred": "Akuraou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/73655.jpg",
+      "voiceActors": [
+        {
+          "id": 95095,
+          "language": "Japanese",
+          "name": {
+            "first": "Junichi",
+            "last": "Suwabe",
+            "full": "Junichi Suwabe",
+            "native": "諏訪部順一",
+            "userPreferred": "Junichi Suwabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95095-DvSjTQnqcgXP.png"
+        }
+      ]
+    },
+    {
+      "id": 72295,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kotarou",
+        "last": "Urashima",
+        "full": "Kotarou Urashima",
+        "native": "裏嶋小太郎 ",
+        "userPreferred": "Kotarou Urashima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/72295.jpg",
+      "voiceActors": [
+        {
+          "id": 96762,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouhei",
+            "last": "Kimura",
+            "full": "Ryouhei Kimura",
+            "native": "木村良平",
+            "userPreferred": "Ryouhei Kimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96762-DNKMFBA2vWRr.jpg"
+        }
+      ]
+    },
+    {
+      "id": 74625,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kamehime",
+        "last": null,
+        "full": "Kamehime",
+        "native": "亀姫",
+        "userPreferred": "Kamehime"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/74625.jpg",
+      "voiceActors": [
+        {
+          "id": 95076,
+          "language": "Japanese",
+          "name": {
+            "first": "Akemi",
+            "last": "Okamura",
+            "full": "Akemi Okamura",
+            "native": "岡村明美",
+            "userPreferred": "Akemi Okamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95076-itRGy8F3x5Em.png"
+        }
+      ]
+    },
+    {
+      "id": 50685,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yukiji",
+        "last": null,
+        "full": "Yukiji",
+        "native": "雪路",
+        "userPreferred": "Yukiji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/50685.jpg",
+      "voiceActors": [
+        {
+          "id": 95152,
+          "language": "Japanese",
+          "name": {
+            "first": "Fumiko",
+            "last": "Orikasa",
+            "full": "Fumiko Orikasa",
+            "native": "折笠富美子",
+            "userPreferred": "Fumiko Orikasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95152-X9K5ciNGSX35.jpg"
+        }
+      ]
+    },
+    {
+      "id": 37874,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kotetsu",
+        "last": null,
+        "full": "Kotetsu",
+        "native": null,
+        "userPreferred": "Kotetsu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/37874.jpg",
+      "voiceActors": [
+        {
+          "id": 115060,
+          "language": "Japanese",
+          "name": {
+            "first": "Chika",
+            "last": "Ookubo",
+            "full": "Chika Ookubo",
+            "native": "大久保ちか",
+            "userPreferred": "Chika Ookubo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n115060-1pWety7T33Ed.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36309,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Narrator",
+        "last": null,
+        "full": "Narrator",
+        "native": "ナレーター",
+        "userPreferred": "Narrator"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36309-yRLEQYd2dDI5.jpg",
+      "voiceActors": [
+        {
+          "id": 95903,
+          "language": "Japanese",
+          "name": {
+            "first": "Vanilla",
+            "last": "Yamazaki",
+            "full": "Vanilla Yamazaki",
+            "native": "バニラ 山崎",
+            "userPreferred": "Vanilla Yamazaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/903.jpg"
+        }
+      ]
+    },
+    {
+      "id": 37871,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mikage",
+        "last": null,
+        "full": "Mikage",
+        "native": "ミカゲ",
+        "userPreferred": "Mikage"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b37871-e9fzoh9wAIu8.jpg",
+      "voiceActors": [
+        {
+          "id": 95017,
+          "language": "Japanese",
+          "name": {
+            "first": "Akira",
+            "last": "Ishida",
+            "full": "Akira Ishida",
+            "native": "石田彰",
+            "userPreferred": "Akira Ishida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95017-GSRcmQ97a8ZT.png"
+        }
+      ]
+    },
+    {
+      "id": 37873,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Onikiri",
+        "last": null,
+        "full": "Onikiri",
+        "native": null,
+        "userPreferred": "Onikiri"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/37873.jpg",
+      "voiceActors": [
+        {
+          "id": 95516,
+          "language": "Japanese",
+          "name": {
+            "first": "Naoko",
+            "last": "Matsui",
+            "full": "Naoko Matsui",
+            "native": "松井菜桜子",
+            "userPreferred": "Naoko Matsui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95516-N94jWbOCyDd7.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 20801,
+      "relationType": "PARENT",
+      "malId": 25681,
+      "title": {
+        "romaji": "Kamisama Hajimemashita◎",
+        "english": "Kamisama Kiss◎",
+        "native": "神様はじめました◎",
+        "userPreferred": "Kamisama Hajimemashita◎"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20801-2wtvmLpaM8hY.jpg",
+      "color": "#aef1f1",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20801-XpbvG91zj2fl.jpg",
+      "rating": 81
+    },
+    {
+      "id": 98033,
+      "relationType": "SEQUEL",
+      "malId": 33323,
+      "title": {
+        "romaji": "Kamisama Hajimemashita: Kamisama, Shiawase ni Naru",
+        "english": null,
+        "native": "神様はじめました「神様、幸せになる」",
+        "userPreferred": "Kamisama Hajimemashita: Kamisama, Shiawase ni Naru"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/98033-9fwilTwhdKB2.jpg",
+      "color": "#e48650",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/98033-9fwilTwhdKB2.jpg",
+      "rating": 81
+    },
+    {
+      "id": 38157,
+      "relationType": "ADAPTATION",
+      "malId": 8157,
+      "title": {
+        "romaji": "Kamisama Hajimemashita",
+        "english": "Kamisama Kiss",
+        "native": "神様はじめました",
+        "userPreferred": "Kamisama Hajimemashita"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx38157-CCtYXzoNb2bc.jpg",
+      "color": "#fea128",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/38157-p7ORWL79Vxrt.jpg",
+      "rating": 84
+    }
+  ],
+  "episodes": [
+    {
+      "id": "kamisama-hajimemashita-kako-hen-episode-1",
+      "title": "Kamisama, Kako ni Tobu",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21186-v6A5xZwvomDK.jpg",
+      "number": 1,
+      "createdAt": "2015-05-03T00:08:15Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kamisama-hajimemashita-kako-hen-episode-1"
+    },
+    {
+      "id": "kamisama-hajimemashita-kako-hen-episode-2",
+      "title": "Kitsune, Koi ni Ochiru",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21186-v6A5xZwvomDK.jpg",
+      "number": 2,
+      "createdAt": "2015-05-03T00:08:15Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kamisama-hajimemashita-kako-hen-episode-2"
+    },
+    {
+      "id": "kamisama-hajimemashita-kako-hen-episode-3",
+      "title": "Kamisama, Hanayome ni Naru",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21186-v6A5xZwvomDK.jpg",
+      "number": 3,
+      "createdAt": "2015-08-21T19:20:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kamisama-hajimemashita-kako-hen-episode-3"
+    },
+    {
+      "id": "kamisama-hajimemashita-kako-hen-episode-4",
+      "title": "Kamisama, Mukae ni Iku",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21186-v6A5xZwvomDK.jpg",
+      "number": 4,
+      "createdAt": "2015-08-21T19:20:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kamisama-hajimemashita-kako-hen-episode-4"
+    }
+  ]
+}

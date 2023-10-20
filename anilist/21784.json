@@ -1,0 +1,119 @@
+{
+  "id": "21784",
+  "title": {
+    "romaji": "Kuma Miko Specials",
+    "english": "Kumamiko -Girl Meets Bear Specials",
+    "native": "くまみこ"
+  },
+  "malId": 33118,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21784-Fw0CjBGzqZoT.jpg",
+  "popularity": 1899,
+  "color": "#e4ae5d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21784-Fw0CjBGzqZoT.jpg",
+  "description": "Special episodes included in the Blu-ray and DVD boxes of Kuma Miko.",
+  "status": "Completed",
+  "releaseDate": 2016,
+  "startDate": {
+    "year": 2016,
+    "month": 6,
+    "day": 24
+  },
+  "endDate": {
+    "year": 2016,
+    "month": 8,
+    "day": 24
+  },
+  "totalEpisodes": 2,
+  "currentEpisode": 2,
+  "rating": 60,
+  "duration": 16,
+  "genres": [
+    "Comedy"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Kinema Citrus"
+  ],
+  "subOrDub": "sub",
+  "type": "SPECIAL",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 89713,
+      "role": "MAIN",
+      "name": {
+        "first": "Machi",
+        "last": "Amayadori",
+        "full": "Machi Amayadori",
+        "native": "雨宿まち",
+        "userPreferred": "Machi Amayadori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/89713-HBVfmAmX8X0i.png",
+      "voiceActors": [
+        {
+          "id": 112777,
+          "language": "Japanese",
+          "name": {
+            "first": "Natsumi",
+            "last": "Hioka",
+            "full": "Natsumi Hioka",
+            "native": "日岡なつみ",
+            "userPreferred": "Natsumi Hioka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n112777-ZK3Jxr4CpZiC.png"
+        }
+      ]
+    },
+    {
+      "id": 89714,
+      "role": "MAIN",
+      "name": {
+        "first": "Natsu",
+        "last": "Kumai",
+        "full": "Natsu Kumai",
+        "native": "クマ井 ナツ",
+        "userPreferred": "Natsu Kumai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/89714-FTg5cup0F1Z8.png",
+      "voiceActors": [
+        {
+          "id": 95025,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroki",
+            "last": "Yasumoto",
+            "full": "Hiroki Yasumoto",
+            "native": "安元洋貴",
+            "userPreferred": "Hiroki Yasumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95025-LGHr4VufmfCc.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 21423,
+      "relationType": "PARENT",
+      "malId": 31804,
+      "title": {
+        "romaji": "Kuma Miko",
+        "english": "Kumamiko -Girl Meets Bear",
+        "native": "くまみこ",
+        "userPreferred": "Kuma Miko"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21423-vQsDNNIfRLS6.jpg",
+      "color": "#e4a150",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n21423-CkXk0ynrZGUh.jpg",
+      "rating": 59
+    }
+  ],
+  "episodes": []
+}

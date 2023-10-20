@@ -1,0 +1,426 @@
+{
+  "id": "4385",
+  "title": {
+    "romaji": "Great Mazinger tai Getter Robo",
+    "english": null,
+    "native": "グレートマジンガー対ゲッターロボ"
+  },
+  "malId": 4385,
+  "synonyms": [
+    "Great Mazinger vs. Getter Robo"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4385.jpg",
+  "popularity": 764,
+  "color": "#f1c900",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4385.jpg",
+  "description": "From the far end of the universe, the terrifying space monster Gilgilgan attacks the Earth. The Science Fortress Laboratory and the Saotome Institute both fight against this threat. Distracted by their rivalry, Getter Robo and Great Mazinger are forced to retreat from Gilgilgan's sharp fangs, but once they agree to work together they begin their combined attack!",
+  "status": "Completed",
+  "releaseDate": 1975,
+  "startDate": {
+    "year": 1975,
+    "month": 3,
+    "day": 21
+  },
+  "endDate": {
+    "year": 1975,
+    "month": 3,
+    "day": 21
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 54,
+  "duration": 30,
+  "genres": [
+    "Action",
+    "Mecha",
+    "Sci-Fi"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Toei Animation"
+  ],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [
+    {
+      "id": 4387,
+      "malId": 4387,
+      "title": {
+        "romaji": "UFO Robo Grendizer tai Great Mazinger",
+        "english": null,
+        "native": "UFOロボ グレンダイザー対グレートマジンガー",
+        "userPreferred": "UFO Robo Grendizer tai Great Mazinger"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4387.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4387.jpg",
+      "rating": 59,
+      "type": "MOVIE"
+    },
+    {
+      "id": 4386,
+      "malId": 4386,
+      "title": {
+        "romaji": "Great Mazinger vs. Getter Robo G: Kuuchuu Dai-Gekitotsu",
+        "english": null,
+        "native": "グレートマジンガー対ゲッターロボＧ 空中大激突",
+        "userPreferred": "Great Mazinger vs. Getter Robo G: Kuuchuu Dai-Gekitotsu"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4386.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4386.jpg",
+      "rating": 54,
+      "type": "MOVIE"
+    },
+    {
+      "id": 3898,
+      "malId": 3898,
+      "title": {
+        "romaji": "Mazinger Z vs. Devilman",
+        "english": "Mazinger Z vs. Devilman",
+        "native": "マジンガーＺ対デビルマン",
+        "userPreferred": "Mazinger Z vs. Devilman"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3898.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3898.jpg",
+      "rating": 57,
+      "type": "MOVIE"
+    }
+  ],
+  "characters": [
+    {
+      "id": 6107,
+      "role": "MAIN",
+      "name": {
+        "first": "Ryouma",
+        "last": "Nagare",
+        "full": "Ryouma Nagare",
+        "native": "流竜馬",
+        "userPreferred": "Ryouma Nagare"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6107-jDp1qzjQAsxL.jpg",
+      "voiceActors": [
+        {
+          "id": 95416,
+          "language": "Japanese",
+          "name": {
+            "first": "Akira",
+            "last": "Kamiya",
+            "full": "Akira Kamiya",
+            "native": "神谷明",
+            "userPreferred": "Akira Kamiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95416-8rk0Oq3ZXYjt.png"
+        }
+      ]
+    },
+    {
+      "id": 8663,
+      "role": "MAIN",
+      "name": {
+        "first": "Hayato",
+        "last": "Jin",
+        "full": "Hayato Jin",
+        "native": "神隼人",
+        "userPreferred": "Hayato Jin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/8663.jpg",
+      "voiceActors": [
+        {
+          "id": 95916,
+          "language": "Japanese",
+          "name": {
+            "first": "Keaton",
+            "last": "Yamada",
+            "full": "Keaton Yamada",
+            "native": "山田キートン",
+            "userPreferred": "Keaton Yamada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/916.jpg"
+        }
+      ]
+    },
+    {
+      "id": 24943,
+      "role": "MAIN",
+      "name": {
+        "first": "Tetsuya",
+        "last": "Tsurugi",
+        "full": "Tetsuya Tsurugi",
+        "native": "剣 鉄也",
+        "userPreferred": "Tetsuya Tsurugi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24943.jpg",
+      "voiceActors": [
+        {
+          "id": 100177,
+          "language": "Japanese",
+          "name": {
+            "first": "Keiichi",
+            "last": "Noda",
+            "full": "Keiichi Noda",
+            "native": "野田圭一",
+            "userPreferred": "Keiichi Noda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100177-ZfGV5vhrDCEB.png"
+        }
+      ]
+    },
+    {
+      "id": 18490,
+      "role": "MAIN",
+      "name": {
+        "first": "Musashi",
+        "last": "Tomoe",
+        "full": "Musashi Tomoe",
+        "native": "巴武蔵",
+        "userPreferred": "Musashi Tomoe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18490.jpg",
+      "voiceActors": [
+        {
+          "id": 102578,
+          "language": "Japanese",
+          "name": {
+            "first": "Toku",
+            "last": "Nishio",
+            "full": "Toku Nishio",
+            "native": "西尾徳",
+            "userPreferred": "Toku Nishio"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102578-uMx77FlKfo95.png"
+        }
+      ]
+    },
+    {
+      "id": 5734,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shiro",
+        "last": "Kabuto",
+        "full": "Shiro Kabuto",
+        "native": "兜シロー",
+        "userPreferred": "Shiro Kabuto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5734.jpg",
+      "voiceActors": [
+        {
+          "id": 115070,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuko",
+            "last": "Sawada",
+            "full": "Kazuko Sawada",
+            "native": "沢田和子",
+            "userPreferred": "Kazuko Sawada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n115070-nMIlOsR2wzBA.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17723,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Professor Saotome",
+        "last": null,
+        "full": "Professor Saotome",
+        "native": "早乙女博士",
+        "userPreferred": "Professor Saotome"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b17723-pUGqDboAPZNm.png",
+      "voiceActors": [
+        {
+          "id": 101792,
+          "language": "Japanese",
+          "name": {
+            "first": "Kousei",
+            "last": "Tomita",
+            "full": "Kousei Tomita",
+            "native": "富田耕生",
+            "userPreferred": "Kousei Tomita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101792-hWklcmOIkrDO.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14500,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Boss",
+        "last": null,
+        "full": "Boss",
+        "native": "ボス",
+        "userPreferred": "Boss"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14500.jpg",
+      "voiceActors": [
+        {
+          "id": 96572,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Ootake",
+            "full": "Hiroshi Ootake",
+            "native": "大竹宏",
+            "userPreferred": "Hiroshi Ootake"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96572-z9s5fXiwJFum.png"
+        }
+      ]
+    },
+    {
+      "id": 83677,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jun",
+        "last": "Honoo",
+        "full": "Jun Honoo",
+        "native": "ジュン 炎",
+        "userPreferred": "Jun Honoo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/83677.jpg",
+      "voiceActors": [
+        {
+          "id": 100855,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Nakatani",
+            "full": "Yumi Nakatani",
+            "native": "中谷ゆみ",
+            "userPreferred": "Yumi Nakatani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100855-QZf0q1T9yttC.png"
+        }
+      ]
+    },
+    {
+      "id": 25242,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kenzo",
+        "last": "Kabuto",
+        "full": "Kenzo Kabuto",
+        "native": "兜 剣造",
+        "userPreferred": "Kenzo Kabuto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/25242.jpg",
+      "voiceActors": [
+        {
+          "id": 95018,
+          "language": "Japanese",
+          "name": {
+            "first": "Hidekatsu",
+            "last": "Shibata",
+            "full": "Hidekatsu Shibata",
+            "native": "柴田秀勝",
+            "userPreferred": "Hidekatsu Shibata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95018-HXJMMED74SVO.png"
+        }
+      ]
+    },
+    {
+      "id": 25613,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Michiru",
+        "last": "Saotome",
+        "full": "Michiru Saotome",
+        "native": "早乙女 ミチル",
+        "userPreferred": "Michiru Saotome"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/25613.jpg",
+      "voiceActors": [
+        {
+          "id": 95920,
+          "language": "Japanese",
+          "name": {
+            "first": "Rihoko",
+            "last": "Yoshida",
+            "full": "Rihoko Yoshida",
+            "native": "吉田理保子",
+            "userPreferred": "Rihoko Yoshida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95920-loaTHS2gUR39.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 3579,
+      "relationType": "CHARACTER",
+      "malId": 3579,
+      "title": {
+        "romaji": "Getter Robo",
+        "english": "Getter Robo",
+        "native": "ゲッターロボ",
+        "userPreferred": "Getter Robo"
+      },
+      "status": "Completed",
+      "episodes": 51,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3579-U2gqGxuuoGkM.jpg",
+      "color": "#e49343",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n3579-9kypGOgFsKxk.jpg",
+      "rating": 62
+    },
+    {
+      "id": 5658,
+      "relationType": "CHARACTER",
+      "malId": 5658,
+      "title": {
+        "romaji": "Great Mazinger",
+        "english": "Great Mazinger",
+        "native": "グレートマジンガー",
+        "userPreferred": "Great Mazinger"
+      },
+      "status": "Completed",
+      "episodes": 56,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5658-Bm8Dw0Mcd5Aj.jpg",
+      "color": "#f1ae5d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n5658-x7yNZw90eD6i.jpg",
+      "rating": 66
+    },
+    {
+      "id": 4386,
+      "relationType": "SEQUEL",
+      "malId": 4386,
+      "title": {
+        "romaji": "Great Mazinger vs. Getter Robo G: Kuuchuu Dai-Gekitotsu",
+        "english": null,
+        "native": "グレートマジンガー対ゲッターロボＧ 空中大激突",
+        "userPreferred": "Great Mazinger vs. Getter Robo G: Kuuchuu Dai-Gekitotsu"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4386.jpg",
+      "color": "#e49335",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4386.jpg",
+      "rating": 54
+    }
+  ],
+  "episodes": [
+    {
+      "id": "great-mazinger-tai-getter-robo-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4385.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-tai-getter-robo-episode-1"
+    }
+  ]
+}

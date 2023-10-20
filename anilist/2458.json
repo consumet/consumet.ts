@@ -1,0 +1,345 @@
+{
+  "id": "2458",
+  "title": {
+    "romaji": "Kimagure Orange☆Road OVA",
+    "english": null,
+    "native": "きまぐれオレンジ☆ロード"
+  },
+  "malId": 2458,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2458-5cbeZogZ2fVB.jpg",
+  "popularity": 1837,
+  "color": "#ff6b00",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2458-8jh23oy5NC3G.jpg",
+  "description": "Kimagure Orange Road OVA is basically the extension from the TV series. The time frame is probably in the middle of the TV series.<br><br>\nOrder to view with the TV series.<br>\nWhite Lovers - among the episodes 35 and 45<br>\nHawai Suspence - among the episodes 17 and 25<br>\nI was a cat, I was a fish - among the episodes 17 and 30<br>\nHurricane Akane, the shape-shifting girl - among the episodes 20 and 25<br>\nSpring is for Idols - among the episodes 23 and 30<br>\nBirth of a Star - Right after \"Spring is for Idols\"<br>\nUnexpected Situation - after the OAV of Akane<br>\nMessage in Rouge - after the episode 48 ",
+  "status": "Completed",
+  "releaseDate": 1989,
+  "startDate": {
+    "year": 1989,
+    "month": 3,
+    "day": 1
+  },
+  "endDate": {
+    "year": 1991,
+    "month": 4,
+    "day": 1
+  },
+  "totalEpisodes": 8,
+  "currentEpisode": 8,
+  "rating": 68,
+  "duration": 25,
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Studio Pierrot"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 472,
+      "malId": 472,
+      "title": {
+        "romaji": "ToHeart",
+        "english": "To Heart",
+        "native": "ToHeart",
+        "userPreferred": "ToHeart"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx472-xH5Ia6fpPE6c.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/472-SNXJ4aiBVhO8.jpg",
+      "rating": 62,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 9014,
+      "role": "MAIN",
+      "name": {
+        "first": "Kyosuke",
+        "last": "Kasuga",
+        "full": "Kyosuke Kasuga",
+        "native": "春日恭介",
+        "userPreferred": "Kyosuke Kasuga"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b9014-QRo7WiRNMNyY.png",
+      "voiceActors": [
+        {
+          "id": 95326,
+          "language": "Japanese",
+          "name": {
+            "first": "Tooru",
+            "last": "Furuya",
+            "full": "Tooru Furuya",
+            "native": "古谷徹",
+            "userPreferred": "Tooru Furuya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95326-OfRv2DBnFVZU.png"
+        }
+      ]
+    },
+    {
+      "id": 2756,
+      "role": "MAIN",
+      "name": {
+        "first": "Madoka",
+        "last": "Ayukawa",
+        "full": "Madoka Ayukawa",
+        "native": "鮎川まどか",
+        "userPreferred": "Madoka Ayukawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2756-Y9hlv7LV95D7.png",
+      "voiceActors": [
+        {
+          "id": 95354,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiromi",
+            "last": "Tsuru",
+            "full": "Hiromi Tsuru",
+            "native": "鶴ひろみ",
+            "userPreferred": "Hiromi Tsuru"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/95354-Ds90swc530OH.jpg"
+        },
+        {
+          "id": 96625,
+          "language": "French",
+          "name": {
+            "first": "Dorothée",
+            "last": "Jemma",
+            "full": "Dorothée Jemma",
+            "native": null,
+            "userPreferred": "Dorothée Jemma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1625.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12938,
+      "role": "MAIN",
+      "name": {
+        "first": "Hikaru",
+        "last": "Hiyama",
+        "full": "Hikaru Hiyama",
+        "native": "檜山ひかる",
+        "userPreferred": "Hikaru Hiyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12938.jpg",
+      "voiceActors": [
+        {
+          "id": 96407,
+          "language": "Japanese",
+          "name": {
+            "first": "Eriko",
+            "last": "Hara",
+            "full": "Eriko Hara",
+            "native": "原えりこ",
+            "userPreferred": "Eriko Hara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96407-zvQ89WIomdL4.png"
+        }
+      ]
+    },
+    {
+      "id": 12939,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Manami",
+        "last": "Kasuga",
+        "full": "Manami Kasuga",
+        "native": "春日まなみ",
+        "userPreferred": "Manami Kasuga"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12939.jpg",
+      "voiceActors": [
+        {
+          "id": 95437,
+          "language": "Japanese",
+          "name": {
+            "first": "Michie",
+            "last": "Tomizawa",
+            "full": "Michie Tomizawa",
+            "native": "富沢美智恵",
+            "userPreferred": "Michie Tomizawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95437-E2FrR8aqJoFm.png"
+        }
+      ]
+    },
+    {
+      "id": 43586,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Akane",
+        "last": "Kasuga",
+        "full": "Akane Kasuga",
+        "native": "春日あかね",
+        "userPreferred": "Akane Kasuga"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43586.jpg",
+      "voiceActors": [
+        {
+          "id": 95516,
+          "language": "Japanese",
+          "name": {
+            "first": "Naoko",
+            "last": "Matsui",
+            "full": "Naoko Matsui",
+            "native": "松井菜桜子",
+            "userPreferred": "Naoko Matsui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95516-N94jWbOCyDd7.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11076,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kurumi",
+        "last": "Kasuga",
+        "full": "Kurumi Kasuga",
+        "native": "春日くるみ",
+        "userPreferred": "Kurumi Kasuga"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11076.jpg",
+      "voiceActors": [
+        {
+          "id": 95677,
+          "language": "Japanese",
+          "name": {
+            "first": "Chieko",
+            "last": "Honda",
+            "full": "Chieko Honda",
+            "native": "本多知恵子",
+            "userPreferred": "Chieko Honda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95677-5luaaavs3b8I.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 31407,
+      "relationType": "ADAPTATION",
+      "malId": 1407,
+      "title": {
+        "romaji": "Kimagure Orange☆Road",
+        "english": "Kimagure Orange Road",
+        "native": "きまぐれオレンジ☆ロード",
+        "userPreferred": "Kimagure Orange☆Road"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx31407-s2juAJZI6ayF.jpg",
+      "color": "#ff8635",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/31407-6RBy1XngfVqm.jpg",
+      "rating": 70
+    },
+    {
+      "id": 1087,
+      "relationType": "PARENT",
+      "malId": 1087,
+      "title": {
+        "romaji": "Kimagure Orange☆Road",
+        "english": null,
+        "native": "きまぐれオレンジ☆ロード",
+        "userPreferred": "Kimagure Orange☆Road"
+      },
+      "status": "Completed",
+      "episodes": 48,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1087-zqIJ1FZjwilM.png",
+      "color": "#e4bb50",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1087-ibInHaGwOFPg.jpg",
+      "rating": 71
+    }
+  ],
+  "episodes": [
+    {
+      "id": "kimagure-orange-road-ova-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2458-5cbeZogZ2fVB.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//kimagure-orange-road-ova-episode-1"
+    },
+    {
+      "id": "kimagure-orange-road-ova-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2458-5cbeZogZ2fVB.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//kimagure-orange-road-ova-episode-2"
+    },
+    {
+      "id": "kimagure-orange-road-ova-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2458-5cbeZogZ2fVB.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//kimagure-orange-road-ova-episode-3"
+    },
+    {
+      "id": "kimagure-orange-road-ova-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2458-5cbeZogZ2fVB.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//kimagure-orange-road-ova-episode-4"
+    },
+    {
+      "id": "kimagure-orange-road-ova-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2458-5cbeZogZ2fVB.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//kimagure-orange-road-ova-episode-5"
+    },
+    {
+      "id": "kimagure-orange-road-ova-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2458-5cbeZogZ2fVB.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//kimagure-orange-road-ova-episode-6"
+    },
+    {
+      "id": "kimagure-orange-road-ova-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2458-5cbeZogZ2fVB.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//kimagure-orange-road-ova-episode-7"
+    },
+    {
+      "id": "kimagure-orange-road-ova-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2458-5cbeZogZ2fVB.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//kimagure-orange-road-ova-episode-8"
+    }
+  ]
+}

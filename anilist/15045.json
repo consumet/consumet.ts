@@ -1,0 +1,231 @@
+{
+  "id": "15045",
+  "title": {
+    "romaji": "Lychee DE Hikari Club",
+    "english": "Lychee Light Club",
+    "native": "ライチ DE 光クラブ"
+  },
+  "malId": 15045,
+  "synonyms": [
+    "Litchi☆Hikari Club"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15045-3urZciUhS281.jpg",
+  "popularity": 2755,
+  "color": "#0dc9e4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15045-h4xx1lmfgi5R.jpg",
+  "description": "A short, <em>comical</em> anime adaptation of the psychological-horror manga, Litchi☆Hikari Club. <br><br>\r\nThe story is about nine boys who are members of the Hikari Club and their self-made AI robot, Litchi. They are led by their leader Zera and keep a kidnapped girl named Kanon. ",
+  "status": "Completed",
+  "releaseDate": 2012,
+  "startDate": {
+    "year": 2012,
+    "month": 10,
+    "day": 2
+  },
+  "endDate": {
+    "year": 2012,
+    "month": 11,
+    "day": 20
+  },
+  "totalEpisodes": 8,
+  "currentEpisode": 8,
+  "rating": 46,
+  "duration": 3,
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Horror",
+    "Psychological",
+    "Romance"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Kachidoki Studio"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 10191,
+      "malId": 10191,
+      "title": {
+        "romaji": "Katte ni Kaizou",
+        "english": null,
+        "native": "かってに改蔵",
+        "userPreferred": "Katte ni Kaizou"
+      },
+      "status": "Completed",
+      "episodes": 6,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10191-jvNwmWZ4h6Go.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10191-otqdYfTWcxQq.jpg",
+      "rating": 65,
+      "type": "OVA"
+    },
+    {
+      "id": 1148,
+      "malId": 1148,
+      "title": {
+        "romaji": "Teito Monogatari",
+        "english": "Doomed Megalopolis",
+        "native": "帝都物語",
+        "userPreferred": "Teito Monogatari"
+      },
+      "status": "Completed",
+      "episodes": 4,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1148-UfNwrPBvEKfa.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1148-UfNwrPBvEKfa.jpg",
+      "rating": 53,
+      "type": "OVA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 30934,
+      "role": "MAIN",
+      "name": {
+        "first": "Hiroshi",
+        "last": "Tamiya",
+        "full": "Hiroshi Tamiya",
+        "native": "田宮博",
+        "userPreferred": "Hiroshi Tamiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/30934.jpg",
+      "voiceActors": [
+        {
+          "id": 108345,
+          "language": "Japanese",
+          "name": {
+            "first": "Akiyoshi",
+            "last": "Nakao",
+            "full": "Akiyoshi Nakao",
+            "native": "中尾明慶",
+            "userPreferred": "Akiyoshi Nakao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/13345.jpg"
+        }
+      ]
+    },
+    {
+      "id": 33186,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kobuhei",
+        "last": "Yamada",
+        "full": "Kobuhei Yamada",
+        "native": "山田こぶ平",
+        "userPreferred": "Kobuhei Yamada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/33186.jpg",
+      "voiceActors": [
+        {
+          "id": 96692,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuya",
+            "last": "Miyashita",
+            "full": "Yuya Miyashita",
+            "native": "雄也 宮下",
+            "userPreferred": "Yuya Miyashita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96692-M7nSD36mWsf9.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 35709,
+      "relationType": "ADAPTATION",
+      "malId": 5709,
+      "title": {
+        "romaji": "Litchi☆Hikari Club",
+        "english": "Lychee Light Club",
+        "native": "ライチ☆光クラブ",
+        "userPreferred": "Litchi☆Hikari Club"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx35709-C2JDfrqKNrYo.jpg",
+      "color": "#f1bb28",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/35709-20b3da2WUCiB.jpg",
+      "rating": 66
+    }
+  ],
+  "episodes": [
+    {
+      "id": "litchi-de-hikari-club-episode-1",
+      "title": "Death Penalty IN the Light Club",
+      "image": "https://media.kitsu.io/episodes/thumbnails/101484/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:29:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//litchi-de-hikari-club-episode-1"
+    },
+    {
+      "id": "litchi-de-hikari-club-episode-2",
+      "title": "Modifications IN the Light Club",
+      "image": "https://media.kitsu.io/episodes/thumbnails/101485/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:29:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//litchi-de-hikari-club-episode-2"
+    },
+    {
+      "id": "litchi-de-hikari-club-episode-3",
+      "title": "Patents IN the Light Club",
+      "image": "https://media.kitsu.io/episodes/thumbnails/101486/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:29:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//litchi-de-hikari-club-episode-3"
+    },
+    {
+      "id": "litchi-de-hikari-club-episode-4",
+      "title": "Investigation IN the Light Club",
+      "image": "https://media.kitsu.io/episodes/thumbnails/101487/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:29:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//litchi-de-hikari-club-episode-4"
+    },
+    {
+      "id": "litchi-de-hikari-club-episode-5",
+      "title": "Band IN the Light Club",
+      "image": "https://media.kitsu.io/episodes/thumbnails/101488/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:29:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//litchi-de-hikari-club-episode-5"
+    },
+    {
+      "id": "litchi-de-hikari-club-episode-6",
+      "title": "Fuel IN the Light Club",
+      "image": "https://media.kitsu.io/episodes/thumbnails/101489/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:29:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//litchi-de-hikari-club-episode-6"
+    },
+    {
+      "id": "litchi-de-hikari-club-episode-7",
+      "title": "Beach IN the Light Club",
+      "image": "https://media.kitsu.io/episodes/thumbnails/101490/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:29:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//litchi-de-hikari-club-episode-7"
+    },
+    {
+      "id": "litchi-de-hikari-club-episode-8",
+      "title": "Loyalty IN the Light Club",
+      "image": "https://media.kitsu.io/episodes/thumbnails/101491/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:29:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//litchi-de-hikari-club-episode-8"
+    }
+  ]
+}

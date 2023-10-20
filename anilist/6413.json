@@ -1,0 +1,166 @@
+{
+  "id": "6413",
+  "title": {
+    "romaji": "Go! Go! Ackman",
+    "english": "Go! Go! Ackman",
+    "native": "ゴーゴーアックマン"
+  },
+  "malId": 6413,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6413-RZkUH06UPGhb.jpg",
+  "popularity": 669,
+  "color": "#e48628",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6413-RZkUH06UPGhb.jpg",
+  "description": "First released to public at 1994 V-Jump Festa, later it became a special video feature to be requested by V-Jump purchasers.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 1994,
+  "startDate": {
+    "year": 1994,
+    "month": null,
+    "day": null
+  },
+  "endDate": {
+    "year": 1994,
+    "month": null,
+    "day": null
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 54,
+  "duration": 16,
+  "genres": [
+    "Action",
+    "Comedy",
+    "Supernatural"
+  ],
+  "season": null,
+  "studios": [
+    "Toei Animation"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 6484,
+      "malId": 6484,
+      "title": {
+        "romaji": "Chokin Senshi Cashman",
+        "english": null,
+        "native": "儲金戰士",
+        "userPreferred": "Chokin Senshi Cashman"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6484.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6484.jpg",
+      "rating": 53,
+      "type": "OVA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 14026,
+      "role": "MAIN",
+      "name": {
+        "first": "Ackman",
+        "last": null,
+        "full": "Ackman",
+        "native": null,
+        "userPreferred": "Ackman"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14026.jpg",
+      "voiceActors": [
+        {
+          "id": 101663,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Urawa",
+            "full": "Megumi Urawa",
+            "native": "浦和めぐみ",
+            "userPreferred": "Megumi Urawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101663-0ioQAduoHX8j.jpg"
+        }
+      ]
+    },
+    {
+      "id": 284331,
+      "role": "MAIN",
+      "name": {
+        "first": "Tenshi-kun",
+        "last": null,
+        "full": "Tenshi-kun",
+        "native": "天使くん",
+        "userPreferred": "Tenshi-kun"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b284331-kq6iz5MNquK1.png",
+      "voiceActors": [
+        {
+          "id": 105516,
+          "language": "Japanese",
+          "name": {
+            "first": "Youko",
+            "last": "Teppouzuka",
+            "full": "Youko Teppouzuka",
+            "native": "鉄炮塚葉子",
+            "userPreferred": "Youko Teppouzuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105516-6b7EyowMGbGF.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 46038,
+      "relationType": "ADAPTATION",
+      "malId": 16038,
+      "title": {
+        "romaji": "Toriyama Akira Marusaku Gekijou",
+        "english": "Akira Toriyama's Manga Theater",
+        "native": "鳥山明○作劇場",
+        "userPreferred": "Toriyama Akira Marusaku Gekijou"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx46038-kPkYC8wsLxzq.jpg",
+      "color": "#d6931a",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/46038-Ej4nke54hC8H.jpg",
+      "rating": 68
+    },
+    {
+      "id": 134357,
+      "relationType": "ADAPTATION",
+      "malId": null,
+      "title": {
+        "romaji": "Go! Go! Ackman",
+        "english": "Go! Go! Ackman",
+        "native": "ゴーゴーアックマン",
+        "userPreferred": "Go! Go! Ackman"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b134357-JXdQz5k8FMXv.png",
+      "color": "#e45028",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b134357-JXdQz5k8FMXv.png",
+      "rating": 67
+    }
+  ],
+  "episodes": [
+    {
+      "id": "go-go-ackman-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6413-RZkUH06UPGhb.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//go-go-ackman-episode-1"
+    }
+  ]
+}

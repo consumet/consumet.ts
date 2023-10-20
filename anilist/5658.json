@@ -1,0 +1,1059 @@
+{
+  "id": "5658",
+  "title": {
+    "romaji": "Great Mazinger",
+    "english": "Great Mazinger",
+    "native": "グレートマジンガー"
+  },
+  "malId": 5658,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5658-Bm8Dw0Mcd5Aj.jpg",
+  "popularity": 1660,
+  "color": "#f1ae5d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n5658-x7yNZw90eD6i.jpg",
+  "description": "A manga comic book and anime television series by manga artist Go Nagai, made as a direct continuation of the successful Mazinger Z series. It was aired on Japan in 1974, immediately following the end of the first Mazinger series.",
+  "status": "Completed",
+  "releaseDate": 1974,
+  "startDate": {
+    "year": 1974,
+    "month": 9,
+    "day": 8
+  },
+  "endDate": {
+    "year": 1975,
+    "month": 9,
+    "day": 26
+  },
+  "totalEpisodes": 56,
+  "currentEpisode": 56,
+  "rating": 64,
+  "duration": 25,
+  "genres": [
+    "Mecha"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Toei Animation"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 19799,
+      "malId": 19799,
+      "title": {
+        "romaji": "Robot Girls Z",
+        "english": null,
+        "native": "ロボットガールズＺ",
+        "userPreferred": "Robot Girls Z"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx19799-v2FsN9odXqiR.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/19799-8eKE4UaB2ufZ.jpg",
+      "rating": 63,
+      "type": "TV"
+    },
+    {
+      "id": 3579,
+      "malId": 3579,
+      "title": {
+        "romaji": "Getter Robo",
+        "english": "Getter Robo",
+        "native": "ゲッターロボ",
+        "userPreferred": "Getter Robo"
+      },
+      "status": "Completed",
+      "episodes": 51,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3579-U2gqGxuuoGkM.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n3579-9kypGOgFsKxk.jpg",
+      "rating": 62,
+      "type": "TV"
+    },
+    {
+      "id": 3294,
+      "malId": 3294,
+      "title": {
+        "romaji": "Gasshin Sentai Mechander Robo",
+        "english": "Combining Squadron Mechander Robo",
+        "native": "合身戦隊メカンダーロボ",
+        "userPreferred": "Gasshin Sentai Mechander Robo"
+      },
+      "status": "Completed",
+      "episodes": 35,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3294.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3294.jpg",
+      "rating": 52,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 24943,
+      "role": "MAIN",
+      "name": {
+        "first": "Tetsuya",
+        "last": "Tsurugi",
+        "full": "Tetsuya Tsurugi",
+        "native": "剣 鉄也",
+        "userPreferred": "Tetsuya Tsurugi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24943.jpg",
+      "voiceActors": [
+        {
+          "id": 100177,
+          "language": "Japanese",
+          "name": {
+            "first": "Keiichi",
+            "last": "Noda",
+            "full": "Keiichi Noda",
+            "native": "野田圭一",
+            "userPreferred": "Keiichi Noda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100177-ZfGV5vhrDCEB.png"
+        }
+      ]
+    },
+    {
+      "id": 83677,
+      "role": "MAIN",
+      "name": {
+        "first": "Jun",
+        "last": "Honoo",
+        "full": "Jun Honoo",
+        "native": "ジュン 炎",
+        "userPreferred": "Jun Honoo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/83677.jpg",
+      "voiceActors": [
+        {
+          "id": 100855,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Nakatani",
+            "full": "Yumi Nakatani",
+            "native": "中谷ゆみ",
+            "userPreferred": "Yumi Nakatani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100855-QZf0q1T9yttC.png"
+        }
+      ]
+    },
+    {
+      "id": 25242,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kenzo",
+        "last": "Kabuto",
+        "full": "Kenzo Kabuto",
+        "native": "兜 剣造",
+        "userPreferred": "Kenzo Kabuto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/25242.jpg",
+      "voiceActors": [
+        {
+          "id": 95018,
+          "language": "Japanese",
+          "name": {
+            "first": "Hidekatsu",
+            "last": "Shibata",
+            "full": "Hidekatsu Shibata",
+            "native": "柴田秀勝",
+            "userPreferred": "Hidekatsu Shibata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95018-HXJMMED74SVO.png"
+        }
+      ]
+    },
+    {
+      "id": 23256,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nuke",
+        "last": null,
+        "full": "Nuke",
+        "native": "ヌケ",
+        "userPreferred": "Nuke"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/23256.jpg",
+      "voiceActors": [
+        {
+          "id": 101792,
+          "language": "Japanese",
+          "name": {
+            "first": "Kousei",
+            "last": "Tomita",
+            "full": "Kousei Tomita",
+            "native": "富田耕生",
+            "userPreferred": "Kousei Tomita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101792-hWklcmOIkrDO.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17400,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ankoku Daishogun",
+        "last": null,
+        "full": "Ankoku Daishogun",
+        "native": "闇黒大将軍",
+        "userPreferred": "Ankoku Daishogun"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b17400-mBOtwNXGt9rU.jpg",
+      "voiceActors": [
+        {
+          "id": 95481,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenichi",
+            "last": "Ogata",
+            "full": "Kenichi Ogata",
+            "native": "緒方賢一",
+            "userPreferred": "Kenichi Ogata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95481-1dPQbwMpvjul.png"
+        }
+      ]
+    },
+    {
+      "id": 25244,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Archduke Gorgon",
+        "last": null,
+        "full": "Archduke Gorgon",
+        "native": "ゴーゴン大公",
+        "userPreferred": "Archduke Gorgon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/25244.jpg",
+      "voiceActors": [
+        {
+          "id": 103867,
+          "language": "Japanese",
+          "name": {
+            "first": "Osamu",
+            "last": "Katou",
+            "full": "Osamu Katou",
+            "native": "加藤治",
+            "userPreferred": "Osamu Katou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103867-aQYAG7wMqiI1.png"
+        }
+      ]
+    },
+    {
+      "id": 7372,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kouji",
+        "last": "Kabuto",
+        "full": "Kouji Kabuto",
+        "native": "兜甲児",
+        "userPreferred": "Kouji Kabuto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7372.jpg",
+      "voiceActors": [
+        {
+          "id": 95718,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroya",
+            "last": "Ishimaru",
+            "full": "Hiroya Ishimaru",
+            "native": "石丸博也",
+            "userPreferred": "Hiroya Ishimaru"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95718-3ke4CyMs9um5.png"
+        }
+      ]
+    },
+    {
+      "id": 20201,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sayaka",
+        "last": "Yumi",
+        "full": "Sayaka Yumi",
+        "native": "弓さやか",
+        "userPreferred": "Sayaka Yumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b20201-5K7xg28hCkTu.jpg",
+      "voiceActors": [
+        {
+          "id": 106567,
+          "language": "Japanese",
+          "name": {
+            "first": "Kotoe",
+            "last": "Taichi",
+            "full": "Kotoe Taichi",
+            "native": "太地琴恵",
+            "userPreferred": "Kotoe Taichi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106567-mU7tkkmFyR8x.png"
+        }
+      ]
+    },
+    {
+      "id": 23257,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mucha",
+        "last": null,
+        "full": "Mucha",
+        "native": "ムチャ",
+        "userPreferred": "Mucha"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/23257.jpg",
+      "voiceActors": [
+        {
+          "id": 96427,
+          "language": "Japanese",
+          "name": {
+            "first": "Isamu",
+            "last": "Tanonaka",
+            "full": "Isamu Tanonaka",
+            "native": "田の中勇",
+            "userPreferred": "Isamu Tanonaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1427.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5734,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shiro",
+        "last": "Kabuto",
+        "full": "Shiro Kabuto",
+        "native": "兜シロー",
+        "userPreferred": "Shiro Kabuto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5734.jpg",
+      "voiceActors": [
+        {
+          "id": 115070,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuko",
+            "last": "Sawada",
+            "full": "Kazuko Sawada",
+            "native": "沢田和子",
+            "userPreferred": "Kazuko Sawada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n115070-nMIlOsR2wzBA.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14500,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Boss",
+        "last": null,
+        "full": "Boss",
+        "native": "ボス",
+        "userPreferred": "Boss"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14500.jpg",
+      "voiceActors": [
+        {
+          "id": 96572,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Ootake",
+            "full": "Hiroshi Ootake",
+            "native": "大竹宏",
+            "userPreferred": "Hiroshi Ootake"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96572-z9s5fXiwJFum.png"
+        }
+      ]
+    },
+    {
+      "id": 22753,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shun",
+        "last": "Azuma",
+        "full": "Shun Azuma",
+        "native": "東 しゅん",
+        "userPreferred": "Shun Azuma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/22753.jpg",
+      "voiceActors": [
+        {
+          "id": 100855,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Nakatani",
+            "full": "Yumi Nakatani",
+            "native": "中谷ゆみ",
+            "userPreferred": "Yumi Nakatani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100855-QZf0q1T9yttC.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 2253,
+      "relationType": "PREQUEL",
+      "malId": 2253,
+      "title": {
+        "romaji": "Mazinger Z",
+        "english": null,
+        "native": "マジンガーＺ",
+        "userPreferred": "Mazinger Z"
+      },
+      "status": "Completed",
+      "episodes": 92,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2253-nS4Os86CPB5a.png",
+      "color": "#e4c935",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n2253-5uGlpuUBKee3.jpg",
+      "rating": 67
+    },
+    {
+      "id": 5250,
+      "relationType": "SEQUEL",
+      "malId": 5250,
+      "title": {
+        "romaji": "God Mazinger",
+        "english": "GOD MAZINGER",
+        "native": "ゴッドマジンガー",
+        "userPreferred": "God Mazinger"
+      },
+      "status": "Completed",
+      "episodes": 23,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5250-UEb7OcniU0Ke.jpg",
+      "color": "#d6431a",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5250-UEb7OcniU0Ke.jpg",
+      "rating": 58
+    },
+    {
+      "id": 46943,
+      "relationType": "ADAPTATION",
+      "malId": 16943,
+      "title": {
+        "romaji": "Great Mazinger",
+        "english": null,
+        "native": "グレート・マジンガー",
+        "userPreferred": "Great Mazinger"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx46943-BaFUAF0XNtWq.jpg",
+      "color": "#43a1f1",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx46943-BaFUAF0XNtWq.jpg",
+      "rating": 60
+    },
+    {
+      "id": 1985,
+      "relationType": "SEQUEL",
+      "malId": 1985,
+      "title": {
+        "romaji": "UFO Robo Grendizer",
+        "english": "UFO Robo Grendizer",
+        "native": "ＵＦＯロボグレンダイザー",
+        "userPreferred": "UFO Robo Grendizer"
+      },
+      "status": "Completed",
+      "episodes": 74,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1985-BB32YokamiRs.jpg",
+      "color": "#f1ae28",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1985-kyrtocnMQsvE.jpg",
+      "rating": 70
+    },
+    {
+      "id": 129525,
+      "relationType": "CHARACTER",
+      "malId": 92833,
+      "title": {
+        "romaji": "Nagai Go Manga Gaiden: Dynamic Heroes",
+        "english": null,
+        "native": "永井豪まんが外伝 ダイナミックヒーローズ",
+        "userPreferred": "Nagai Go Manga Gaiden: Dynamic Heroes"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx129525-O6NpjTjN7qAp.jpg",
+      "color": "#e4d650",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx129525-O6NpjTjN7qAp.jpg",
+      "rating": 48
+    },
+    {
+      "id": 98516,
+      "relationType": "SEQUEL",
+      "malId": 34820,
+      "title": {
+        "romaji": "Mazinger Z: INFINITY",
+        "english": null,
+        "native": "劇場版 マジンガーZ ／ INFINITY",
+        "userPreferred": "Mazinger Z: INFINITY"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98516-VvOfjUvuoV39.jpg",
+      "color": "#780d0d",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98516-mkaGTRlakqag.jpg",
+      "rating": 67
+    },
+    {
+      "id": 4385,
+      "relationType": "CHARACTER",
+      "malId": 4385,
+      "title": {
+        "romaji": "Great Mazinger tai Getter Robo",
+        "english": null,
+        "native": "グレートマジンガー対ゲッターロボ",
+        "userPreferred": "Great Mazinger tai Getter Robo"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4385.jpg",
+      "color": "#f1c900",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4385.jpg",
+      "rating": 56
+    },
+    {
+      "id": 159248,
+      "relationType": "ADAPTATION",
+      "malId": 98118,
+      "title": {
+        "romaji": "Great Mazinger",
+        "english": null,
+        "native": "グレートマジンガー",
+        "userPreferred": "Great Mazinger"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b159248-hRqy7oJix3qo.jpg",
+      "color": "#febb50",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b159248-hRqy7oJix3qo.jpg",
+      "rating": 60
+    }
+  ],
+  "episodes": [
+    {
+      "id": "great-mazinger-episode-1",
+      "title": "The Hero of the Skies, Great Mazinger",
+      "image": "https://media.kitsu.io/episodes/thumbnails/170005/original.jpg",
+      "number": 1,
+      "createdAt": "2014-11-18T15:53:12Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-1"
+    },
+    {
+      "id": "great-mazinger-episode-2",
+      "title": "Hell's Messenger!! The Instigator of Darkness, Garalya",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69605/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-2"
+    },
+    {
+      "id": "great-mazinger-episode-3",
+      "title": "Honoo's Guts! The Wild Venus!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69606/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-3"
+    },
+    {
+      "id": "great-mazinger-episode-4",
+      "title": "Search and Destroy! Science Fortress Lab",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69607/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-4"
+    },
+    {
+      "id": "great-mazinger-episode-5",
+      "title": "Attack of the Combining Warbeast",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69608/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-5"
+    },
+    {
+      "id": "great-mazinger-episode-6",
+      "title": "Tetsuya Tsurugi in Hell",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69609/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-6"
+    },
+    {
+      "id": "great-mazinger-episode-7",
+      "title": "An Impossible Rescue?! The Little Braggart",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69610/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-7"
+    },
+    {
+      "id": "great-mazinger-episode-8",
+      "title": "Killer Blow! The Drill Pressure Punch!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69611/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-8"
+    },
+    {
+      "id": "great-mazinger-episode-9",
+      "title": "An Alien Beauty Amidst The Humans",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69612/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-9"
+    },
+    {
+      "id": "great-mazinger-episode-10",
+      "title": "Mazinger In Trouble! A Mobile Danger Zone",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69613/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-10"
+    },
+    {
+      "id": "great-mazinger-episode-11",
+      "title": "Open Your Eyes, Shiro!! Where Heartless Battles End!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69614/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-11"
+    },
+    {
+      "id": "great-mazinger-episode-12",
+      "title": "Attack of the Raging Bull, Bisonia",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69615/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-12"
+    },
+    {
+      "id": "great-mazinger-episode-13",
+      "title": "A Fierce Fight! Kenzo Kabuto vs. The Dark General!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69616/original.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-13"
+    },
+    {
+      "id": "great-mazinger-episode-14",
+      "title": "Operation Tsunami!! Save The Laboratory!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69617/original.jpg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-14"
+    },
+    {
+      "id": "great-mazinger-episode-15",
+      "title": "Attack of the Bloodsucking Lizards",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69618/original.jpg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-15"
+    },
+    {
+      "id": "great-mazinger-episode-16",
+      "title": "Rise! The Young Prince of Mycenae!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69619/original.jpg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-16"
+    },
+    {
+      "id": "great-mazinger-episode-17",
+      "title": "Tetsuya!! Depths of Hell",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69620/original.jpg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-17"
+    },
+    {
+      "id": "great-mazinger-episode-18",
+      "title": "A Trap! The Combining Warbeast!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69621/original.jpg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-18"
+    },
+    {
+      "id": "great-mazinger-episode-19",
+      "title": "May The Snow Be Stained With The Blood of Youth!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69622/original.jpg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-19"
+    },
+    {
+      "id": "great-mazinger-episode-20",
+      "title": "Do or Die!! The Myceanean Invasion!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69623/original.jpg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-20"
+    },
+    {
+      "id": "great-mazinger-episode-21",
+      "title": "Wrath!! The Emperor of Darkness Revealed!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69624/original.jpg",
+      "number": 21,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-21"
+    },
+    {
+      "id": "great-mazinger-episode-22",
+      "title": "Gorgon falls! Death on the Volcanic Island!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69625/original.jpg",
+      "number": 22,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-22"
+    },
+    {
+      "id": "great-mazinger-episode-23",
+      "title": "The Mysterious New Commander Yanus",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69626/original.jpg",
+      "number": 23,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-23"
+    },
+    {
+      "id": "great-mazinger-episode-24",
+      "title": "Mortal Combat!! The Big Bet!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69627/original.jpg",
+      "number": 24,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-24"
+    },
+    {
+      "id": "great-mazinger-episode-25",
+      "title": "Troubles!! Fly Venus A",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69628/original.jpg",
+      "number": 25,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-25"
+    },
+    {
+      "id": "great-mazinger-episode-26",
+      "title": "The secret of Dr. Kabuto",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69629/original.jpg",
+      "number": 26,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-26"
+    },
+    {
+      "id": "great-mazinger-episode-27",
+      "title": "Burn!! Desperate Counterattack of Anger!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69630/original.jpg",
+      "number": 27,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-27"
+    },
+    {
+      "id": "great-mazinger-episode-28",
+      "title": "Escape!! Chased by Yunus's Lava!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69631/original.jpg",
+      "number": 28,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-28"
+    },
+    {
+      "id": "great-mazinger-episode-29",
+      "title": "Great Counterattack! The Secret Weapon!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69632/original.jpg",
+      "number": 29,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-29"
+    },
+    {
+      "id": "great-mazinger-episode-30",
+      "title": "The Imminent Victory of The Dark General",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69633/original.jpg",
+      "number": 30,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-30"
+    },
+    {
+      "id": "great-mazinger-episode-31",
+      "title": "A duel! The Last Day of The Dark General",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69634/original.jpg",
+      "number": 31,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-31"
+    },
+    {
+      "id": "great-mazinger-episode-32",
+      "title": "Tetsuya! Solve the Mystery of your heart!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69635/original.jpg",
+      "number": 32,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-32"
+    },
+    {
+      "id": "great-mazinger-episode-33",
+      "title": "Great Mazinger Foot's Blown Away!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69636/original.jpg",
+      "number": 33,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-33"
+    },
+    {
+      "id": "great-mazinger-episode-34",
+      "title": "Now or Never!! Back Spin Kick!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69637/original.jpg",
+      "number": 34,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-34"
+    },
+    {
+      "id": "great-mazinger-episode-35",
+      "title": "Super Ninja! Cator Corps!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69638/original.jpg",
+      "number": 35,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-35"
+    },
+    {
+      "id": "great-mazinger-episode-36",
+      "title": "Resurrection! Love Beyond Hatred!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69639/original.jpg",
+      "number": 36,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-36"
+    },
+    {
+      "id": "great-mazinger-episode-37",
+      "title": "Morning Murderer",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69640/original.jpg",
+      "number": 37,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-37"
+    },
+    {
+      "id": "great-mazinger-episode-38",
+      "title": "Don't Cry Tetsuya!! Mazinger is Stolen!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69641/original.jpg",
+      "number": 38,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-38"
+    },
+    {
+      "id": "great-mazinger-episode-39",
+      "title": "The Last Challenge!! Fortress Mikerosu of the Sky!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69642/original.jpg",
+      "number": 39,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-39"
+    },
+    {
+      "id": "great-mazinger-episode-40",
+      "title": "Red Cross!! Calling the Death!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69643/original.jpg",
+      "number": 40,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-40"
+    },
+    {
+      "id": "great-mazinger-episode-41",
+      "title": "The Invincible Demon",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69644/original.jpg",
+      "number": 41,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-41"
+    },
+    {
+      "id": "great-mazinger-episode-42",
+      "title": "Deep Sea Grave!! Confession of Escape!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69645/original.jpg",
+      "number": 42,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-42"
+    },
+    {
+      "id": "great-mazinger-episode-43",
+      "title": "The Fortress of Science",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69646/original.jpg",
+      "number": 43,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-43"
+    },
+    {
+      "id": "great-mazinger-episode-44",
+      "title": "The Last Counterattack",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69647/original.jpg",
+      "number": 44,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-44"
+    },
+    {
+      "id": "great-mazinger-episode-45",
+      "title": "Crazy Great Mazinger!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69648/original.jpg",
+      "number": 45,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-45"
+    },
+    {
+      "id": "great-mazinger-episode-46",
+      "title": "Fighting Spirit!! Till your life burns!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69649/original.jpg",
+      "number": 46,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-46"
+    },
+    {
+      "id": "great-mazinger-episode-47",
+      "title": "Special!! Ultra-fast Great Booster!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69650/original.jpg",
+      "number": 47,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-47"
+    },
+    {
+      "id": "great-mazinger-episode-48",
+      "title": "Suicide Strategy!! Sayaka Appears!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69651/original.jpg",
+      "number": 48,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-48"
+    },
+    {
+      "id": "great-mazinger-episode-49",
+      "title": "Hang on Shiro! There is no Rest for Heroes!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69652/original.jpg",
+      "number": 49,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-49"
+    },
+    {
+      "id": "great-mazinger-episode-50",
+      "title": "Sun Beyond the Tears...!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69653/original.jpg",
+      "number": 50,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-50"
+    },
+    {
+      "id": "great-mazinger-episode-51",
+      "title": "Shining Star! Mazinger Z is Here!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69654/original.jpg",
+      "number": 51,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-51"
+    },
+    {
+      "id": "great-mazinger-episode-52",
+      "title": "He Died too Young!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69655/original.jpg",
+      "number": 52,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-52"
+    },
+    {
+      "id": "great-mazinger-episode-53",
+      "title": "Great Heroes! Fight Tetsuya, Hurry Up Kouji!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69656/original.jpg",
+      "number": 53,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-53"
+    },
+    {
+      "id": "great-mazinger-episode-54",
+      "title": "The Invincible Double Attack!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69657/original.jpg",
+      "number": 54,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-54"
+    },
+    {
+      "id": "great-mazinger-episode-55",
+      "title": "Send Tetsuya and Kouji to Hell!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69658/original.jpg",
+      "number": 55,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-55"
+    },
+    {
+      "id": "great-mazinger-episode-56",
+      "title": "The Peace Bells Rings for the Heroes!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/69659/original.jpg",
+      "number": 56,
+      "createdAt": "2013-02-20T18:26:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//great-mazinger-episode-56"
+    }
+  ]
+}

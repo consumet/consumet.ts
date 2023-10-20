@@ -1,0 +1,217 @@
+{
+  "id": "4646",
+  "title": {
+    "romaji": "COBRA THE ANIMATION: The Psycho-Gun",
+    "english": null,
+    "native": "COBRA THE ANIMATION ザ・サイコガン"
+  },
+  "malId": 4646,
+  "synonyms": [
+    "Cobra the Space Pirate",
+    "Space Adventure Cobra OVA"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4646.jpg",
+  "popularity": 1352,
+  "color": "#e4bb50",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4646.jpg",
+  "description": "When Utopia More discovers an ancient record that holds the key to unlocking the secrets of the universe, she becomes the target of the ruthless Gypsy Doc of the Pirate Guild. Utopia finds herself saved by the easy-going yet legendary space pirate, Cobra, whose custom made Psychogun makes him a force to be reckoned with. Together, the two of them attempt to stop Gypsy Doc (along with Cobra's revived arch-nemesis, Crystal Boy) and his efforts to steal the record and use its secrets to rule the universe.",
+  "status": "Completed",
+  "releaseDate": 2008,
+  "startDate": {
+    "year": 2008,
+    "month": 8,
+    "day": 29
+  },
+  "endDate": {
+    "year": 2009,
+    "month": 2,
+    "day": 27
+  },
+  "totalEpisodes": 4,
+  "currentEpisode": 4,
+  "rating": 63,
+  "duration": 30,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Mecha",
+    "Sci-Fi"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Magic Bus"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 17855,
+      "role": "MAIN",
+      "name": {
+        "first": "Lady",
+        "last": "Armaroid",
+        "full": "Lady Armaroid",
+        "native": "アーマロイド・レディ",
+        "userPreferred": "Lady Armaroid"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17855.jpg",
+      "voiceActors": [
+        {
+          "id": 95362,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshiko",
+            "last": "Sakakibara",
+            "full": "Yoshiko Sakakibara",
+            "native": "榊原良子",
+            "userPreferred": "Yoshiko Sakakibara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95362-OdfKlvHimh3b.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9916,
+      "role": "MAIN",
+      "name": {
+        "first": "Cobra",
+        "last": null,
+        "full": "Cobra",
+        "native": "コブラ",
+        "userPreferred": "Cobra"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9916.jpg",
+      "voiceActors": [
+        {
+          "id": 95364,
+          "language": "Japanese",
+          "name": {
+            "first": "Nachi",
+            "last": "Nozawa",
+            "full": "Nachi Nozawa",
+            "native": "野沢那智",
+            "userPreferred": "Nachi Nozawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95364-wHXpYvQxQ7Jf.png"
+        },
+        {
+          "id": 144166,
+          "language": "French",
+          "name": {
+            "first": "Jean-Claude",
+            "last": "Montalban",
+            "full": "Jean-Claude Montalban",
+            "native": null,
+            "userPreferred": "Jean-Claude Montalban"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n144166-ImDXgittovoK.jpg"
+        }
+      ]
+    },
+    {
+      "id": 23297,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Crystal Boy",
+        "last": null,
+        "full": "Crystal Boy",
+        "native": "クリスタル·ボーイ",
+        "userPreferred": "Crystal Boy"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/23297.jpg",
+      "voiceActors": [
+        {
+          "id": 95236,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroki",
+            "last": "Touchi",
+            "full": "Hiroki Touchi",
+            "native": "東地宏樹",
+            "userPreferred": "Hiroki Touchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95236-nlMo4dnjdT8p.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 2451,
+      "relationType": "PREQUEL",
+      "malId": 2451,
+      "title": {
+        "romaji": "Space Cobra",
+        "english": "Space Adventure Cobra",
+        "native": "スペースコブラ",
+        "userPreferred": "Space Cobra"
+      },
+      "status": "Completed",
+      "episodes": 31,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2451-nNs4TE6zKxjW.jpg",
+      "color": "#f15d1a",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2451-P5zq4gU8i8rk.jpg",
+      "rating": 74
+    },
+    {
+      "id": 5031,
+      "relationType": "SEQUEL",
+      "malId": 5031,
+      "title": {
+        "romaji": "COBRA THE ANIMATION: Time Drive",
+        "english": "Cobra Time Drive",
+        "native": "COBRA THE ANIMATION タイム・ドライブ",
+        "userPreferred": "COBRA THE ANIMATION: Time Drive"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/5031.jpg",
+      "color": "#a17835",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/5031.jpg",
+      "rating": 66
+    },
+    {
+      "id": 31062,
+      "relationType": "ADAPTATION",
+      "malId": 1062,
+      "title": {
+        "romaji": "Cobra",
+        "english": "Cobra",
+        "native": "コブラ",
+        "userPreferred": "Cobra"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx31062-5uQ2mmbAPA7K.jpg",
+      "color": "#e45043",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/31062-4CVx3adCVcoh.jpg",
+      "rating": 70
+    },
+    {
+      "id": 55683,
+      "relationType": "ADAPTATION",
+      "malId": 25683,
+      "title": {
+        "romaji": "Space Adventure Cobra: The Psychogun",
+        "english": null,
+        "native": null,
+        "userPreferred": "Space Adventure Cobra: The Psychogun"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/25683.jpg",
+      "color": "#e4d65d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/25683.jpg",
+      "rating": 63
+    }
+  ],
+  "episodes": []
+}

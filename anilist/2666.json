@@ -1,0 +1,260 @@
+{
+  "id": "2666",
+  "title": {
+    "romaji": "Doraemon: Nobita no Nippon Tanjou",
+    "english": "Doraemon: Nobita at the Birth of Japan",
+    "native": "ドラえもん のび太の日本誕生"
+  },
+  "malId": 2666,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2666-f0EGXLLgYU1a.jpg",
+  "popularity": 1377,
+  "color": "#e47843",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2666-f0EGXLLgYU1a.jpg",
+  "description": "<i>The 10th Doraemon movie.</i> \n<br><br>\nNobita wants to run away from home, again. He finds out that there is nowhere for him to go. All the land is owned by someone. His friends end up wanting to run away also, even Doraemon. They figure out that the only way to find land that isn't owned by anyone is to go back in time to when no humans existed. They end up helping a prehistoric boy rescue his tribe from Gigazombie.",
+  "status": "Completed",
+  "releaseDate": 1989,
+  "startDate": {
+    "year": 1989,
+    "month": 3,
+    "day": 11
+  },
+  "endDate": {
+    "year": 1989,
+    "month": 3,
+    "day": 11
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 65,
+  "duration": 100,
+  "genres": [
+    "Adventure",
+    "Comedy",
+    "Fantasy"
+  ],
+  "season": "WINTER",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [
+    {
+      "id": 8687,
+      "malId": 8687,
+      "title": {
+        "romaji": "Doraemon (2005)",
+        "english": null,
+        "native": "ドラえもん (2005)",
+        "userPreferred": "Doraemon (2005)"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8687.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/8687-aa3QbJjGfy3B.jpg",
+      "rating": 76,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 4303,
+      "role": "MAIN",
+      "name": {
+        "first": "Nobita",
+        "last": "Nobi",
+        "full": "Nobita Nobi",
+        "native": "野比のび太",
+        "userPreferred": "Nobita Nobi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4303.jpg",
+      "voiceActors": [
+        {
+          "id": 96151,
+          "language": "Japanese",
+          "name": {
+            "first": "Noriko",
+            "last": "Ohara",
+            "full": "Noriko Ohara",
+            "native": "小原乃梨子",
+            "userPreferred": "Noriko Ohara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96151-xIUthJb1PpkT.png"
+        }
+      ]
+    },
+    {
+      "id": 8262,
+      "role": "MAIN",
+      "name": {
+        "first": "Takeshi",
+        "last": "Gouda",
+        "full": "Takeshi Gouda",
+        "native": "剛田武",
+        "userPreferred": "Takeshi Gouda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b8262-N2Lsf46EjZBf.png",
+      "voiceActors": [
+        {
+          "id": 96222,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuya",
+            "last": "Tatekabe",
+            "full": "Kazuya Tatekabe",
+            "native": "たてかべ 和也",
+            "userPreferred": "Kazuya Tatekabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96222-JtWNPCGOM8oS.jpg"
+        }
+      ]
+    },
+    {
+      "id": 8261,
+      "role": "MAIN",
+      "name": {
+        "first": "Suneo",
+        "last": "Honekawa",
+        "full": "Suneo Honekawa",
+        "native": "骨川スネ夫",
+        "userPreferred": "Suneo Honekawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b8261-qGxKWau5iZrf.png",
+      "voiceActors": [
+        {
+          "id": 96237,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaneta",
+            "last": "Kimotsuki",
+            "full": "Kaneta Kimotsuki",
+            "native": "肝付兼太",
+            "userPreferred": "Kaneta Kimotsuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96237-GFQBOo52IOXm.png"
+        }
+      ]
+    },
+    {
+      "id": 4304,
+      "role": "MAIN",
+      "name": {
+        "first": "Doraemon",
+        "last": null,
+        "full": "Doraemon",
+        "native": "ドラえもん",
+        "userPreferred": "Doraemon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4304-4eXX8C1O4Pda.png",
+      "voiceActors": [
+        {
+          "id": 100902,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobuyo",
+            "last": "Ooyama",
+            "full": "Nobuyo Ooyama",
+            "native": "大山のぶ代",
+            "userPreferred": "Nobuyo Ooyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100902-J6Njn8XxBtYV.jpg"
+        }
+      ]
+    },
+    {
+      "id": 8260,
+      "role": "MAIN",
+      "name": {
+        "first": "Shizuka",
+        "last": "Minamoto",
+        "full": "Shizuka Minamoto",
+        "native": "源静香",
+        "userPreferred": "Shizuka Minamoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b8260-Hz17eZuElZ7U.png",
+      "voiceActors": [
+        {
+          "id": 101463,
+          "language": "Japanese",
+          "name": {
+            "first": "Michiko",
+            "last": "Nomura",
+            "full": "Michiko Nomura",
+            "native": "野村道子",
+            "userPreferred": "Michiko Nomura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101463-xn50C5YrV3P8.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 42471,
+      "relationType": "ADAPTATION",
+      "malId": 12471,
+      "title": {
+        "romaji": "Daichouhen Doraemon",
+        "english": "Doraemon's Long Tales",
+        "native": "大長編ドラえもん",
+        "userPreferred": "Daichouhen Doraemon"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx42471-bILCdlnrUqDu.jpg",
+      "color": "#f1bb5d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/42471-2R9SdUrfo3w3.jpg",
+      "rating": 79
+    },
+    {
+      "id": 2471,
+      "relationType": "PARENT",
+      "malId": 2471,
+      "title": {
+        "romaji": "Doraemon (1979)",
+        "english": "Doraemon",
+        "native": "ドラえもん",
+        "userPreferred": "Doraemon (1979)"
+      },
+      "status": "Completed",
+      "episodes": 1787,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx2471-EGZIEn6YT6kn.jpg",
+      "color": "#28aefe",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2471-A7h23JrH0ENK.jpg",
+      "rating": 75
+    },
+    {
+      "id": 87438,
+      "relationType": "ALTERNATIVE",
+      "malId": 31201,
+      "title": {
+        "romaji": "Doraemon: Shin Nobita no Nippon Tanjou",
+        "english": null,
+        "native": "映画ドラえもん　新・のび太の日本誕生",
+        "userPreferred": "Doraemon: Shin Nobita no Nippon Tanjou"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx87438-GcZMWkkCFL2S.jpg",
+      "color": "#e4c950",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/87438-JkFzpwp1LZLA.jpg",
+      "rating": 70
+    }
+  ],
+  "episodes": [
+    {
+      "id": "doraemon-nobita-and-the-birth-of-japan-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2666-f0EGXLLgYU1a.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//doraemon-nobita-and-the-birth-of-japan-episode-1"
+    }
+  ]
+}

@@ -1,0 +1,990 @@
+{
+  "id": "18411",
+  "title": {
+    "romaji": "Gingitsune",
+    "english": "Gingitsune: Messenger Fox of the Gods",
+    "native": "ぎんぎつね"
+  },
+  "malId": 18411,
+  "synonyms": [
+    "Silver Fox"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx18411-yKvlUayZ6Bz2.png",
+  "popularity": 10512,
+  "color": "#50aef1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/18411-ySg2FAEpbQYU.jpg",
+  "description": "Gintaro is a fox spirit that has been protecting the small Inari temple since the Edo era. Saeki Makoto's family possesses the power to see the gods' agent, but the ability is limited to one living relative at a time. When Makoto's mother passed away while she was still young, Makoto inherited the ability as the sole remaining family member. With the help of fox spirit's power, Makoto and Gintaro help the people of their community, in spite of their many differences.<br><br>\r\n(Source: MangaHelpers; edited)",
+  "status": "Completed",
+  "releaseDate": 2013,
+  "startDate": {
+    "year": 2013,
+    "month": 10,
+    "day": 6
+  },
+  "endDate": {
+    "year": 2013,
+    "month": 12,
+    "day": 23
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 68,
+  "duration": 24,
+  "genres": [
+    "Slice of Life",
+    "Supernatural"
+  ],
+  "season": "FALL",
+  "studios": [
+    "diomedéa"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 14713,
+      "malId": 14713,
+      "title": {
+        "romaji": "Kamisama Hajimemashita",
+        "english": "Kamisama Kiss",
+        "native": "神様はじめました",
+        "userPreferred": "Kamisama Hajimemashita"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx14713-RyZ7bA7CdvGw.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/14713-wvdTrUno1vNW.jpg",
+      "rating": 79,
+      "type": "TV"
+    },
+    {
+      "id": 4081,
+      "malId": 4081,
+      "title": {
+        "romaji": "Natsume Yuujinchou",
+        "english": "Natsume's Book of Friends",
+        "native": "夏目友人帳",
+        "userPreferred": "Natsume Yuujinchou"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4081-33BLrdaPdZjP.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4081-dbeE4uMExtgc.jpg",
+      "rating": 80,
+      "type": "TV"
+    },
+    {
+      "id": 457,
+      "malId": 457,
+      "title": {
+        "romaji": "Mushishi",
+        "english": "MUSHI-SHI",
+        "native": "蟲師",
+        "userPreferred": "Mushishi"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx457-Si9avlyStAXj.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n457-sWOJfqYC7s2I.jpg",
+      "rating": 85,
+      "type": "TV"
+    },
+    {
+      "id": 20488,
+      "malId": 20457,
+      "title": {
+        "romaji": "Inari, Konkon, Koi Iroha.",
+        "english": "Inari Kon Kon",
+        "native": "いなり、こんこん、恋いろは。",
+        "userPreferred": "Inari, Konkon, Koi Iroha."
+      },
+      "status": "Completed",
+      "episodes": 10,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20488-3kTJBoU55DeQ.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20488.jpg",
+      "rating": 69,
+      "type": "TV"
+    },
+    {
+      "id": 16417,
+      "malId": 16417,
+      "title": {
+        "romaji": "Tamako Market",
+        "english": "Tamako Market",
+        "native": "たまこまーけっと",
+        "userPreferred": "Tamako Market"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx16417-r8Njy5UnwvDE.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16417.jpg",
+      "rating": 72,
+      "type": "TV"
+    },
+    {
+      "id": 21423,
+      "malId": 31804,
+      "title": {
+        "romaji": "Kuma Miko",
+        "english": "Kumamiko -Girl Meets Bear",
+        "native": "くまみこ",
+        "userPreferred": "Kuma Miko"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21423-vQsDNNIfRLS6.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n21423-CkXk0ynrZGUh.jpg",
+      "rating": 59,
+      "type": "TV"
+    },
+    {
+      "id": 489,
+      "malId": 489,
+      "title": {
+        "romaji": "Kamichu!",
+        "english": "Kamichu!",
+        "native": "かみちゅ!",
+        "userPreferred": "Kamichu!"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx489-NKvW3coa4Q8D.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/489-iXMGdQwdTpnU.jpg",
+      "rating": 70,
+      "type": "TV"
+    },
+    {
+      "id": 9934,
+      "malId": 9934,
+      "title": {
+        "romaji": "Nekogami Yaoyorozu",
+        "english": "The Everyday Tales of a Cat God",
+        "native": "猫神やおよろず",
+        "userPreferred": "Nekogami Yaoyorozu"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9934.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9934.jpg",
+      "rating": 62,
+      "type": "TV"
+    },
+    {
+      "id": 150957,
+      "malId": 52081,
+      "title": {
+        "romaji": "Edomae Elf",
+        "english": "Otaku Elf",
+        "native": "江戸前エルフ",
+        "userPreferred": "Edomae Elf"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx150957-VFsWSLJgW9Bu.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx150957-VFsWSLJgW9Bu.jpg",
+      "rating": 70,
+      "type": "TV"
+    },
+    {
+      "id": 150972,
+      "malId": 52082,
+      "title": {
+        "romaji": "Shiro Seijo to Kuro Bokushi",
+        "english": "Saint Cecilia & Pastor Lawrence",
+        "native": "白聖女と黒牧師",
+        "userPreferred": "Shiro Seijo to Kuro Bokushi"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx150972-3gNJvsyu7lwP.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/150972-pqOOBVrxcTz0.jpg",
+      "rating": 73,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 82709,
+      "role": "MAIN",
+      "name": {
+        "first": "Makoto",
+        "last": "Saeki",
+        "full": "Makoto Saeki",
+        "native": "冴木まこと",
+        "userPreferred": "Makoto Saeki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/82709.jpg",
+      "voiceActors": [
+        {
+          "id": 95762,
+          "language": "Japanese",
+          "name": {
+            "first": "Kanae",
+            "last": "Itou",
+            "full": "Kanae Itou",
+            "native": "伊藤かな恵",
+            "userPreferred": "Kanae Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95762-qhWmwni3TT6Y.png"
+        }
+      ]
+    },
+    {
+      "id": 87836,
+      "role": "MAIN",
+      "name": {
+        "first": "Gintaro",
+        "last": null,
+        "full": "Gintaro",
+        "native": "銀太郎",
+        "userPreferred": "Gintaro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87836.jpg",
+      "voiceActors": [
+        {
+          "id": 95022,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinichirou",
+            "last": "Miki",
+            "full": "Shinichirou Miki",
+            "native": "三木眞一郎",
+            "userPreferred": "Shinichirou Miki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95022-BXggjIr4KHqd.png"
+        }
+      ]
+    },
+    {
+      "id": 87837,
+      "role": "MAIN",
+      "name": {
+        "first": "Satoru",
+        "last": "Kamio ",
+        "full": "Satoru Kamio ",
+        "native": "神尾 悟",
+        "userPreferred": "Satoru Kamio "
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87837.jpg",
+      "voiceActors": [
+        {
+          "id": 95819,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenshou",
+            "last": "Ono",
+            "full": "Kenshou Ono",
+            "native": "小野賢章",
+            "userPreferred": "Kenshou Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95819-O4fosAY0a1Ml.jpg"
+        }
+      ]
+    },
+    {
+      "id": 87843,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kame",
+        "last": null,
+        "full": "Kame",
+        "native": "カメ",
+        "userPreferred": "Kame"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87843.jpg",
+      "voiceActors": [
+        {
+          "id": 110543,
+          "language": "Japanese",
+          "name": {
+            "first": "Kanehira",
+            "last": "Yamamoto",
+            "full": "Kanehira Yamamoto",
+            "native": "山本兼平 ",
+            "userPreferred": "Kanehira Yamamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15543.jpg"
+        }
+      ]
+    },
+    {
+      "id": 87850,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mother",
+        "last": "Amamoto",
+        "full": "Mother Amamoto",
+        "native": null,
+        "userPreferred": "Mother Amamoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87850.jpg",
+      "voiceActors": [
+        {
+          "id": 100749,
+          "language": "Japanese",
+          "name": {
+            "first": "Sayuri",
+            "last": "Sadaoka",
+            "full": "Sayuri Sadaoka",
+            "native": "定岡小百合",
+            "userPreferred": "Sayuri Sadaoka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5749.jpg"
+        }
+      ]
+    },
+    {
+      "id": 87859,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nanami",
+        "last": "Kosugi",
+        "full": "Nanami Kosugi",
+        "native": "小杉七海",
+        "userPreferred": "Nanami Kosugi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87859.jpg",
+      "voiceActors": [
+        {
+          "id": 95283,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroyuki",
+            "last": "Yoshino",
+            "full": "Hiroyuki Yoshino",
+            "native": "吉野裕行",
+            "userPreferred": "Hiroyuki Yoshino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95283-g76zV4YacFfm.jpg"
+        }
+      ]
+    },
+    {
+      "id": 87844,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Otomatsu",
+        "last": null,
+        "full": "Otomatsu",
+        "native": "乙松",
+        "userPreferred": "Otomatsu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87844.jpg",
+      "voiceActors": [
+        {
+          "id": 105175,
+          "language": "Japanese",
+          "name": {
+            "first": "Bin",
+            "last": "Sasaki",
+            "full": "Bin Sasaki",
+            "native": "佐々木敏",
+            "userPreferred": "Bin Sasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105175-riTIcoW8rhOm.jpg"
+        }
+      ]
+    },
+    {
+      "id": 87849,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Father",
+        "last": "Amamoto",
+        "full": "Father Amamoto",
+        "native": null,
+        "userPreferred": "Father Amamoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87849.jpg",
+      "voiceActors": [
+        {
+          "id": 105777,
+          "language": "Japanese",
+          "name": {
+            "first": "Binbin",
+            "last": "Takaoka",
+            "full": "Binbin Takaoka",
+            "native": "高岡瓶々",
+            "userPreferred": "Binbin Takaoka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10777.jpg"
+        }
+      ]
+    },
+    {
+      "id": 87860,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tatsuo",
+        "last": "Saeki",
+        "full": "Tatsuo Saeki",
+        "native": "冴木 達夫",
+        "userPreferred": "Tatsuo Saeki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87860.jpg",
+      "voiceActors": [
+        {
+          "id": 95129,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshihiko",
+            "last": "Seki",
+            "full": "Toshihiko Seki",
+            "native": "関俊彦",
+            "userPreferred": "Toshihiko Seki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95129-AAL7kfwAPpgR.jpg"
+        }
+      ]
+    },
+    {
+      "id": 87845,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Utamaru",
+        "last": null,
+        "full": "Utamaru",
+        "native": "歌丸",
+        "userPreferred": "Utamaru"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87845.jpg",
+      "voiceActors": [
+        {
+          "id": 95926,
+          "language": "Japanese",
+          "name": {
+            "first": "Youji",
+            "last": "Ueda",
+            "full": "Youji Ueda",
+            "native": "上田燿司",
+            "userPreferred": "Youji Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95926-IzwXTUF5tUJD.png"
+        }
+      ]
+    },
+    {
+      "id": 87853,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kozue",
+        "last": "Ashihara",
+        "full": "Kozue Ashihara",
+        "native": "葦原 梢",
+        "userPreferred": "Kozue Ashihara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87853.jpg",
+      "voiceActors": [
+        {
+          "id": 109251,
+          "language": "Japanese",
+          "name": {
+            "first": "You",
+            "last": "Taichi",
+            "full": "You Taichi",
+            "native": "大地葉",
+            "userPreferred": "You Taichi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109251-ge8rmZwppqxy.png"
+        }
+      ]
+    },
+    {
+      "id": 87861,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sachina",
+        "last": "Seto",
+        "full": "Sachina Seto",
+        "native": "瀬戸 祥菜",
+        "userPreferred": "Sachina Seto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87861.jpg",
+      "voiceActors": [
+        {
+          "id": 162675,
+          "language": "Japanese",
+          "name": {
+            "first": "Chiaki",
+            "last": "Mori",
+            "full": "Chiaki Mori",
+            "native": "森千晃",
+            "userPreferred": "Chiaki Mori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n162675-TBMck7OWDxUc.jpg"
+        }
+      ]
+    },
+    {
+      "id": 87838,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Haru",
+        "last": null,
+        "full": "Haru",
+        "native": "ハル",
+        "userPreferred": "Haru"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87838.jpg",
+      "voiceActors": [
+        {
+          "id": 95247,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumi",
+            "last": "Fujimura",
+            "full": "Ayumi Fujimura",
+            "native": "藤村歩",
+            "userPreferred": "Ayumi Fujimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95247-3jzUQFPN8clW.png"
+        }
+      ]
+    },
+    {
+      "id": 87846,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Saimaru",
+        "last": null,
+        "full": "Saimaru",
+        "native": "才丸",
+        "userPreferred": "Saimaru"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87846.jpg",
+      "voiceActors": [
+        {
+          "id": 95742,
+          "language": "Japanese",
+          "name": {
+            "first": "Naomi",
+            "last": "Kusumi",
+            "full": "Naomi Kusumi",
+            "native": "楠見尚己",
+            "userPreferred": "Naomi Kusumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95742-Gkk1GsW2lEth.png"
+        }
+      ]
+    },
+    {
+      "id": 87854,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Aki",
+        "last": "Fukuda",
+        "full": "Aki Fukuda",
+        "native": "福田 朱輝",
+        "userPreferred": "Aki Fukuda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87854.jpg",
+      "voiceActors": [
+        {
+          "id": 119707,
+          "language": "Japanese",
+          "name": {
+            "first": "Mari",
+            "last": "Hino",
+            "full": "Mari Hino",
+            "native": "日野まり",
+            "userPreferred": "Mari Hino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119707-gZ4Zew3Pdulp.png"
+        }
+      ]
+    },
+    {
+      "id": 87862,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Saki\r\n",
+        "last": "Suzui",
+        "full": "Saki\r\n Suzui",
+        "native": "鈴井 咲",
+        "userPreferred": "Saki\r\n Suzui"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87862.jpg",
+      "voiceActors": [
+        {
+          "id": 115106,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayaka",
+            "last": "Suwa",
+            "full": "Ayaka Suwa",
+            "native": "諏訪彩花",
+            "userPreferred": "Ayaka Suwa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n115106-QsQwmOLeNILr.png"
+        }
+      ]
+    },
+    {
+      "id": 87839,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kinjiro",
+        "last": null,
+        "full": "Kinjiro",
+        "native": "金次郎",
+        "userPreferred": "Kinjiro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87839.jpg",
+      "voiceActors": [
+        {
+          "id": 95021,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuhiko",
+            "last": "Inoue",
+            "full": "Kazuhiko Inoue",
+            "native": "井上和彦",
+            "userPreferred": "Kazuhiko Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95021-9qAoAn6GNZ3S.png"
+        }
+      ]
+    },
+    {
+      "id": 87847,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shouhei",
+        "last": "Amamoto",
+        "full": "Shouhei Amamoto",
+        "native": "天本将平",
+        "userPreferred": "Shouhei Amamoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87847.jpg",
+      "voiceActors": [
+        {
+          "id": 95001,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Seki",
+            "full": "Tomokazu Seki",
+            "native": "関智一",
+            "userPreferred": "Tomokazu Seki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95001-vm0RtZhmlzhK.png"
+        }
+      ]
+    },
+    {
+      "id": 87855,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hiwako",
+        "last": "Funabashi",
+        "full": "Hiwako Funabashi",
+        "native": "船橋 日輪子",
+        "userPreferred": "Hiwako Funabashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87855.jpg",
+      "voiceActors": [
+        {
+          "id": 95070,
+          "language": "Japanese",
+          "name": {
+            "first": "Ami",
+            "last": "Koshimizu",
+            "full": "Ami Koshimizu",
+            "native": "小清水亜美",
+            "userPreferred": "Ami Koshimizu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95070-klkIfKz1VItS.png"
+        }
+      ]
+    },
+    {
+      "id": 87863,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yoshitomo\r\n",
+        "last": "Takami",
+        "full": "Yoshitomo\r\n Takami",
+        "native": "高見 義友",
+        "userPreferred": "Yoshitomo\r\n Takami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87863.jpg",
+      "voiceActors": [
+        {
+          "id": 95125,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroaki",
+            "last": "Hirata",
+            "full": "Hiroaki Hirata",
+            "native": "平田広明",
+            "userPreferred": "Hiroaki Hirata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95125-NeFFiJupoDVj.png"
+        }
+      ]
+    },
+    {
+      "id": 87840,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Fuku",
+        "last": null,
+        "full": "Fuku",
+        "native": "吹",
+        "userPreferred": "Fuku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87840.jpg",
+      "voiceActors": [
+        {
+          "id": 109131,
+          "language": "Japanese",
+          "name": {
+            "first": "Kotori",
+            "last": "Koiwai",
+            "full": "Kotori Koiwai",
+            "native": "小岩井ことり",
+            "userPreferred": "Kotori Koiwai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109131-IS92Cw9ldM2x.png"
+        }
+      ]
+    },
+    {
+      "id": 87848,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Fujino",
+        "last": "Amamoto",
+        "full": "Fujino Amamoto",
+        "native": null,
+        "userPreferred": "Fujino Amamoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87848.jpg",
+      "voiceActors": [
+        {
+          "id": 107041,
+          "language": "Japanese",
+          "name": {
+            "first": "Rumi",
+            "last": "Ookubo",
+            "full": "Rumi Ookubo",
+            "native": "大久保瑠美",
+            "userPreferred": "Rumi Ookubo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107041-ZqPloXZhcuQw.jpg"
+        }
+      ]
+    },
+    {
+      "id": 87856,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yumi",
+        "last": "Ikegami",
+        "full": "Yumi Ikegami",
+        "native": "池上 ユミ",
+        "userPreferred": "Yumi Ikegami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87856.jpg",
+      "voiceActors": [
+        {
+          "id": 107652,
+          "language": "Japanese",
+          "name": {
+            "first": "Chinatsu",
+            "last": "Akasaki",
+            "full": "Chinatsu Akasaki",
+            "native": "赤﨑千夏",
+            "userPreferred": "Chinatsu Akasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107652-wHdkKzhetbiH.jpg"
+        }
+      ]
+    },
+    {
+      "id": 87864,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Etsuko\r\n",
+        "last": "Toyokura",
+        "full": "Etsuko\r\n Toyokura",
+        "native": "豊倉 江津子",
+        "userPreferred": "Etsuko\r\n Toyokura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87864.jpg",
+      "voiceActors": [
+        {
+          "id": 95100,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsuko",
+            "last": "Tanaka",
+            "full": "Atsuko Tanaka",
+            "native": "田中敦子",
+            "userPreferred": "Atsuko Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95100-QZdjWZLCoWkf.png"
+        }
+      ]
+    },
+    {
+      "id": 87841,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Fuu",
+        "last": null,
+        "full": "Fuu",
+        "native": "風",
+        "userPreferred": "Fuu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87841.jpg",
+      "voiceActors": [
+        {
+          "id": 119857,
+          "language": "Japanese",
+          "name": {
+            "first": "Sanae",
+            "last": "Fuku",
+            "full": "Sanae Fuku",
+            "native": "福沙奈恵",
+            "userPreferred": "Sanae Fuku"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/24857-HPP9DXIXYdfi.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 54298,
+      "relationType": "ADAPTATION",
+      "malId": 24298,
+      "title": {
+        "romaji": "Gingitsune",
+        "english": null,
+        "native": "ぎんぎつね",
+        "userPreferred": "Gingitsune"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx54298-0WpcJPg7JJg6.jpg",
+      "color": "#e45d50",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx54298-0WpcJPg7JJg6.jpg",
+      "rating": 66
+    }
+  ],
+  "episodes": [
+    {
+      "id": "gingitsune-episode-1",
+      "title": "The 15th Successor and Gintaro",
+      "image": "https://media.kitsu.io/episodes/thumbnails/112575/original.jpg",
+      "number": 1,
+      "createdAt": "2013-10-02T20:51:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gingitsune-episode-1"
+    },
+    {
+      "id": "gingitsune-episode-2",
+      "title": "Learning to Compromise",
+      "image": "https://media.kitsu.io/episodes/thumbnails/112576/original.jpg",
+      "number": 2,
+      "createdAt": "2013-10-02T20:51:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gingitsune-episode-2"
+    },
+    {
+      "id": "gingitsune-episode-3",
+      "title": "Places for the Gods",
+      "image": "https://media.kitsu.io/episodes/thumbnails/112577/original.jpg",
+      "number": 3,
+      "createdAt": "2013-10-02T20:51:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gingitsune-episode-3"
+    },
+    {
+      "id": "gingitsune-episode-4",
+      "title": "Satoru and Haru",
+      "image": "https://media.kitsu.io/episodes/thumbnails/112578/original.jpg",
+      "number": 4,
+      "createdAt": "2013-10-02T20:51:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gingitsune-episode-4"
+    },
+    {
+      "id": "gingitsune-episode-5",
+      "title": "Season of Warmth",
+      "image": "https://media.kitsu.io/episodes/thumbnails/112579/original.jpg",
+      "number": 5,
+      "createdAt": "2013-10-02T20:51:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gingitsune-episode-5"
+    },
+    {
+      "id": "gingitsune-episode-6",
+      "title": "How Do I Look?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/112580/original.jpg",
+      "number": 6,
+      "createdAt": "2013-10-02T20:51:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gingitsune-episode-6"
+    },
+    {
+      "id": "gingitsune-episode-7",
+      "title": "Shrine and Temple",
+      "image": "https://media.kitsu.io/episodes/thumbnails/112581/original.jpg",
+      "number": 7,
+      "createdAt": "2013-10-02T20:51:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gingitsune-episode-7"
+    },
+    {
+      "id": "gingitsune-episode-8",
+      "title": "Humans are Strange",
+      "image": "https://media.kitsu.io/episodes/thumbnails/112582/original.jpg",
+      "number": 8,
+      "createdAt": "2013-10-02T20:51:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gingitsune-episode-8"
+    },
+    {
+      "id": "gingitsune-episode-9",
+      "title": "I'm Sorry",
+      "image": "https://media.kitsu.io/episodes/thumbnails/112583/original.jpg",
+      "number": 9,
+      "createdAt": "2013-10-02T20:51:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gingitsune-episode-9"
+    },
+    {
+      "id": "gingitsune-episode-10",
+      "title": "It Really Doesn't Matter",
+      "image": "https://media.kitsu.io/episodes/thumbnails/112584/original.jpg",
+      "number": 10,
+      "createdAt": "2013-10-02T20:51:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gingitsune-episode-10"
+    },
+    {
+      "id": "gingitsune-episode-11",
+      "title": "Makoto's Future",
+      "image": "https://media.kitsu.io/episodes/thumbnails/112585/original.jpg",
+      "number": 11,
+      "createdAt": "2013-10-02T20:51:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gingitsune-episode-11"
+    },
+    {
+      "id": "gingitsune-episode-12",
+      "title": "Summer Cleansing",
+      "image": "https://media.kitsu.io/episodes/thumbnails/112586/original.jpg",
+      "number": 12,
+      "createdAt": "2013-10-02T20:51:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gingitsune-episode-12"
+    }
+  ]
+}

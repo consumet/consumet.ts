@@ -1,0 +1,803 @@
+{
+  "id": "1344",
+  "title": {
+    "romaji": "8 Man AFTER",
+    "english": "8 Man After",
+    "native": "エイトマン AFTER"
+  },
+  "malId": 1344,
+  "synonyms": [
+    "Cyber Desperado",
+    "Oitavo Homem - O Policial do Futuro"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1344-IyomWaPtcmbM.jpg",
+  "popularity": 1017,
+  "color": "#e4d650",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n1344-YvBdtYorP6M3.jpg",
+  "description": "Since the recent disappearance of 8 Man, a mysterious cyborg super hero created by Professor Tani, the city reels under \"terrorist\" assaults from murderous drug-crazed street gangs. Hazuma, an ex-cop who now runs his own detective agency, is hired to track down a missing scientist alleged to have made off with cybernetics from Professor Tani's laboratory. The missing hardware is reappearing as psycho-activated weapons grafted onto the bodies of the rogue \"cyper-junkies.\" During his investigation Hazuma is brutally murdered. Dr. Tani uses Hazuma as a bio-template to replace the missing 8 Man. As a cover, 8 Man maintains the original persona of the detective, yet must cope with the duality of the cynical private eye and maintain the balance as an emotionless super-android hero.<br>\n<br>\n(Source: Crunchyroll)",
+  "status": "Completed",
+  "releaseDate": 1993,
+  "startDate": {
+    "year": 1993,
+    "month": 8,
+    "day": 21
+  },
+  "endDate": {
+    "year": 1993,
+    "month": 11,
+    "day": 22
+  },
+  "totalEpisodes": 4,
+  "currentEpisode": 4,
+  "rating": 55,
+  "duration": 25,
+  "genres": [
+    "Action",
+    "Drama",
+    "Sci-Fi"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "J.C. Staff",
+    "Sanctuary"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 1517,
+      "malId": 1517,
+      "title": {
+        "romaji": "Silent Mobius",
+        "english": "Silent Möbius",
+        "native": "サイレントメビウス",
+        "userPreferred": "Silent Mobius"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1517-3tAWkkT5qob1.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1517-uZi00ydI1vNA.jpg",
+      "rating": 62,
+      "type": "TV"
+    },
+    {
+      "id": 120377,
+      "malId": 42310,
+      "title": {
+        "romaji": "Cyberpunk: Edgerunners",
+        "english": "Cyberpunk: Edgerunners",
+        "native": "サイバーパンク エッジランナーズ",
+        "userPreferred": "Cyberpunk: Edgerunners"
+      },
+      "status": "Completed",
+      "episodes": 10,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120377-GdoVPT4ZVxJn.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/120377-c15oLS8CA31s.jpg",
+      "rating": 85,
+      "type": "ONA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 76230,
+      "role": "MAIN",
+      "name": {
+        "first": "Hazama",
+        "last": "Itsuro",
+        "full": "Hazama Itsuro",
+        "native": "羽座間逸郎",
+        "userPreferred": "Hazama Itsuro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b76230-ZprTi09hRSST.jpg",
+      "voiceActors": [
+        {
+          "id": 95237,
+          "language": "Japanese",
+          "name": {
+            "first": "Juurouta",
+            "last": "Kosugi",
+            "full": "Juurouta Kosugi",
+            "native": "小杉十郎太",
+            "userPreferred": "Juurouta Kosugi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95237-nelrZUfvh2FH.png"
+        },
+        {
+          "id": 102541,
+          "language": "English",
+          "name": {
+            "first": "Steve",
+            "last": "Bulen",
+            "full": "Steve Bulen",
+            "native": null,
+            "userPreferred": "Steve Bulen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102541-3MihBnim2amt.jpg"
+        },
+        {
+          "id": 109819,
+          "language": "Korean",
+          "name": {
+            "first": "Seung jun",
+            "last": "Kim",
+            "full": "Seung jun Kim",
+            "native": "승준 김",
+            "userPreferred": "Seung jun Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14819.jpg"
+        },
+        {
+          "id": 115378,
+          "language": "Spanish",
+          "name": {
+            "first": "Oriol",
+            "last": "Rafel",
+            "full": "Oriol Rafel",
+            "native": null,
+            "userPreferred": "Oriol Rafel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/20378.jpg"
+        },
+        {
+          "id": 179629,
+          "language": "Portuguese",
+          "name": {
+            "first": "Sidney",
+            "last": "Lilla",
+            "full": "Sidney Lilla",
+            "native": null,
+            "userPreferred": "Sidney Lilla"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n179629-HAPyYQItop0b.jpg"
+        },
+        {
+          "id": 188992,
+          "language": "French",
+          "name": {
+            "first": "Emmanuel",
+            "last": "Fouquet",
+            "full": "Emmanuel Fouquet",
+            "native": null,
+            "userPreferred": "Emmanuel Fouquet"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 139860,
+          "language": "German",
+          "name": {
+            "first": "Oliver",
+            "last": "Feld",
+            "full": "Oliver Feld",
+            "native": null,
+            "userPreferred": "Oliver Feld"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n139860-fYrDRhWMQI9n.png"
+        }
+      ]
+    },
+    {
+      "id": 203430,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Max",
+        "last": null,
+        "full": "Max",
+        "native": null,
+        "userPreferred": "Max"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b203430-dLBGsmUlCxy2.png",
+      "voiceActors": [
+        {
+          "id": 100386,
+          "language": "Japanese",
+          "name": {
+            "first": "Masaharu",
+            "last": "Satou",
+            "full": "Masaharu Satou",
+            "native": "佐藤正治",
+            "userPreferred": "Masaharu Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5386.jpg"
+        },
+        {
+          "id": 95693,
+          "language": "English",
+          "name": {
+            "first": "Stephen",
+            "last": "Apostolina",
+            "full": "Stephen Apostolina",
+            "native": null,
+            "userPreferred": "Stephen Apostolina"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95693-2l5Gl1TdnBIS.png"
+        },
+        {
+          "id": 108323,
+          "language": "Portuguese",
+          "name": {
+            "first": "Affonso",
+            "last": "Amajones",
+            "full": "Affonso Amajones",
+            "native": null,
+            "userPreferred": "Affonso Amajones"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n108323-gPvXawqV6veh.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20145,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Boris",
+        "last": "Daigo",
+        "full": "Boris Daigo",
+        "native": null,
+        "userPreferred": "Boris Daigo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20145.jpg",
+      "voiceActors": [
+        {
+          "id": 95188,
+          "language": "Japanese",
+          "name": {
+            "first": "Ikuya",
+            "last": "Sawaki",
+            "full": "Ikuya Sawaki",
+            "native": "沢木郁也",
+            "userPreferred": "Ikuya Sawaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95188-dclfjWi5si8U.png"
+        },
+        {
+          "id": 104906,
+          "language": "English",
+          "name": {
+            "first": "Barry",
+            "last": "Stigler",
+            "full": "Barry Stigler",
+            "native": null,
+            "userPreferred": "Barry Stigler"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9906.jpg"
+        }
+      ]
+    },
+    {
+      "id": 203431,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chen",
+        "last": null,
+        "full": "Chen",
+        "native": null,
+        "userPreferred": "Chen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b203431-5pvWLOhOWQFj.png",
+      "voiceActors": [
+        {
+          "id": 95445,
+          "language": "Japanese",
+          "name": {
+            "first": "Shigeru",
+            "last": "Nakahara",
+            "full": "Shigeru Nakahara",
+            "native": "中原茂",
+            "userPreferred": "Shigeru Nakahara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/445.jpg"
+        },
+        {
+          "id": 155197,
+          "language": "English",
+          "name": {
+            "first": "Ardwight",
+            "last": "Chamberlain",
+            "full": "Ardwight Chamberlain",
+            "native": null,
+            "userPreferred": "Ardwight Chamberlain"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n155197-2L0SC9hJZ1mu.jpg"
+        },
+        {
+          "id": 104613,
+          "language": "Portuguese",
+          "name": {
+            "first": "Tatá",
+            "last": "Guarnieri",
+            "full": "Tatá Guarnieri",
+            "native": null,
+            "userPreferred": "Tatá Guarnieri"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9613.jpg"
+        }
+      ]
+    },
+    {
+      "id": 203149,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Eddie",
+        "last": "Schmidt",
+        "full": "Eddie Schmidt",
+        "native": null,
+        "userPreferred": "Eddie Schmidt"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95157,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobuo",
+            "last": "Tobita",
+            "full": "Nobuo Tobita",
+            "native": "飛田展男",
+            "userPreferred": "Nobuo Tobita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95157-td6WhlGehuDJ.png"
+        },
+        {
+          "id": 95232,
+          "language": "English",
+          "name": {
+            "first": "Kirk",
+            "last": "Thornton",
+            "full": "Kirk Thornton",
+            "native": null,
+            "userPreferred": "Kirk Thornton"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/232.jpg"
+        },
+        {
+          "id": 144172,
+          "language": "Spanish",
+          "name": {
+            "first": "Jordi",
+            "last": "Ribes",
+            "full": "Jordi Ribes",
+            "native": null,
+            "userPreferred": "Jordi Ribes"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 203432,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sam",
+        "last": "O'Conner",
+        "full": "Sam O'Conner",
+        "native": null,
+        "userPreferred": "Sam O'Conner"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b203432-HszGrS1wc3qv.jpg",
+      "voiceActors": [
+        {
+          "id": 100763,
+          "language": "Japanese",
+          "name": {
+            "first": "Eiko",
+            "last": "Yamada",
+            "full": "Eiko Yamada",
+            "native": "山田栄子",
+            "userPreferred": "Eiko Yamada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100763-V7UZZ6qFEOeP.png"
+        },
+        {
+          "id": 111777,
+          "language": "English",
+          "name": {
+            "first": "Catherine",
+            "last": "Battistone",
+            "full": "Catherine Battistone",
+            "native": null,
+            "userPreferred": "Catherine Battistone"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/16777.jpg"
+        },
+        {
+          "id": 109755,
+          "language": "Korean",
+          "name": {
+            "first": "Jeong-Hwa",
+            "last": "Yang",
+            "full": "Jeong-Hwa Yang",
+            "native": "정화 양",
+            "userPreferred": "Jeong-Hwa Yang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14755.jpg"
+        },
+        {
+          "id": 106518,
+          "language": "Portuguese",
+          "name": {
+            "first": "Fátima",
+            "last": "Noya",
+            "full": "Fátima Noya",
+            "native": null,
+            "userPreferred": "Fátima Noya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/11518.jpg"
+        }
+      ]
+    },
+    {
+      "id": 203150,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sachiko",
+        "last": "Yokogawa",
+        "full": "Sachiko Yokogawa",
+        "native": null,
+        "userPreferred": "Sachiko Yokogawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b203150-g1Zh1zULzacy.png",
+      "voiceActors": [
+        {
+          "id": 95155,
+          "language": "Japanese",
+          "name": {
+            "first": "Mika",
+            "last": "Doi",
+            "full": "Mika Doi",
+            "native": "土井美加",
+            "userPreferred": "Mika Doi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95155-hLCyqylRTNOo.png"
+        },
+        {
+          "id": 95430,
+          "language": "English",
+          "name": {
+            "first": "Mari",
+            "last": "Devon",
+            "full": "Mari Devon",
+            "native": null,
+            "userPreferred": "Mari Devon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95430-F0ISHrgOD5iJ.jpg"
+        },
+        {
+          "id": 191345,
+          "language": "Spanish",
+          "name": {
+            "first": "Montse",
+            "last": "Moreno",
+            "full": "Montse Moreno",
+            "native": null,
+            "userPreferred": "Montse Moreno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 203434,
+          "language": "French",
+          "name": {
+            "first": "Annie",
+            "last": "Milon",
+            "full": "Annie Milon",
+            "native": null,
+            "userPreferred": "Annie Milon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 227850,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jack",
+        "last": "O'Conner",
+        "full": "Jack O'Conner",
+        "native": "ジャックオコナー",
+        "userPreferred": "Jack O'Conner"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b227850-SDvCeABERG2y.jpg",
+      "voiceActors": [
+        {
+          "id": 100386,
+          "language": "Japanese",
+          "name": {
+            "first": "Masaharu",
+            "last": "Satou",
+            "full": "Masaharu Satou",
+            "native": "佐藤正治",
+            "userPreferred": "Masaharu Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5386.jpg"
+        },
+        {
+          "id": 161854,
+          "language": "English",
+          "name": {
+            "first": "Richard",
+            "last": "Allen",
+            "full": "Richard Allen",
+            "native": null,
+            "userPreferred": "Richard Allen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 203651,
+          "language": "Portuguese",
+          "name": {
+            "first": "João",
+            "last": "Ângelo",
+            "full": "João Ângelo",
+            "native": null,
+            "userPreferred": "João Ângelo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n203651-v1kZCDZudomS.jpg"
+        }
+      ]
+    },
+    {
+      "id": 203151,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tony",
+        "last": "Gleck",
+        "full": "Tony Gleck",
+        "native": null,
+        "userPreferred": "Tony Gleck"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b203151-eNTkj84BwNR6.png",
+      "voiceActors": [
+        {
+          "id": 95629,
+          "language": "Japanese",
+          "name": {
+            "first": "Issei",
+            "last": "Futamata",
+            "full": "Issei Futamata",
+            "native": "二又一成",
+            "userPreferred": "Issei Futamata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95629-WgKFV9c2Wxpu.png"
+        },
+        {
+          "id": 105362,
+          "language": "English",
+          "name": {
+            "first": "Jeff",
+            "last": "Winkless",
+            "full": "Jeff Winkless",
+            "native": null,
+            "userPreferred": "Jeff Winkless"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105362-WIapcXowzaIi.jpg"
+        },
+        {
+          "id": 106695,
+          "language": "Portuguese",
+          "name": {
+            "first": "Fábio",
+            "last": "Moura",
+            "full": "Fábio Moura",
+            "native": null,
+            "userPreferred": "Fábio Moura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106695-uBv8hOvd9uoY.png"
+        }
+      ]
+    },
+    {
+      "id": 203153,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ichiro",
+        "last": null,
+        "full": "Ichiro",
+        "native": null,
+        "userPreferred": "Ichiro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b203153-0AceFBELGqkS.png",
+      "voiceActors": [
+        {
+          "id": 95445,
+          "language": "Japanese",
+          "name": {
+            "first": "Shigeru",
+            "last": "Nakahara",
+            "full": "Shigeru Nakahara",
+            "native": "中原茂",
+            "userPreferred": "Shigeru Nakahara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/445.jpg"
+        },
+        {
+          "id": 95308,
+          "language": "English",
+          "name": {
+            "first": "Richard",
+            "last": "Cansino",
+            "full": "Richard Cansino",
+            "native": null,
+            "userPreferred": "Richard Cansino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95308-7tsyfNu339Wl.jpg"
+        },
+        {
+          "id": 100069,
+          "language": "Portuguese",
+          "name": {
+            "first": "Hermes",
+            "last": "Baroli",
+            "full": "Hermes Baroli",
+            "native": null,
+            "userPreferred": "Hermes Baroli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100069-RPevZl0IOuJ2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 203154,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tanaka",
+        "last": null,
+        "full": "Tanaka",
+        "native": null,
+        "userPreferred": "Tanaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b203154-lJl9dRAPcmBQ.png",
+      "voiceActors": [
+        {
+          "id": 95803,
+          "language": "Japanese",
+          "name": {
+            "first": "Masaru",
+            "last": "Ikeda",
+            "full": "Masaru Ikeda",
+            "native": "池田勝",
+            "userPreferred": "Masaru Ikeda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/803.jpg"
+        },
+        {
+          "id": 110845,
+          "language": "English",
+          "name": {
+            "first": "Mike",
+            "last": "Reynolds",
+            "full": "Mike Reynolds",
+            "native": null,
+            "userPreferred": "Mike Reynolds"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n110845-gdj2LYdzEM4e.jpg"
+        },
+        {
+          "id": 208175,
+          "language": "Portuguese",
+          "name": {
+            "first": "Daoiz",
+            "last": "Cabezudo",
+            "full": "Daoiz Cabezudo",
+            "native": null,
+            "userPreferred": "Daoiz Cabezudo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 192448,
+          "language": "German",
+          "name": {
+            "first": "Gerhard",
+            "last": "Paul",
+            "full": "Gerhard Paul",
+            "native": null,
+            "userPreferred": "Gerhard Paul"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 203155,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dr. Tani",
+        "last": null,
+        "full": "Dr. Tani",
+        "native": null,
+        "userPreferred": "Dr. Tani"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b203155-cE7vfr4iuWp2.png",
+      "voiceActors": [
+        {
+          "id": 95916,
+          "language": "Japanese",
+          "name": {
+            "first": "Keaton",
+            "last": "Yamada",
+            "full": "Keaton Yamada",
+            "native": "山田キートン",
+            "userPreferred": "Keaton Yamada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/916.jpg"
+        },
+        {
+          "id": 96046,
+          "language": "English",
+          "name": {
+            "first": "Dan",
+            "last": "Woren",
+            "full": "Dan Woren",
+            "native": null,
+            "userPreferred": "Dan Woren"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96046-MAlMbeho8DQA.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 5052,
+      "relationType": "PREQUEL",
+      "malId": 5052,
+      "title": {
+        "romaji": "8 Man",
+        "english": "8 Man",
+        "native": "エイトマン",
+        "userPreferred": "8 Man"
+      },
+      "status": "Completed",
+      "episodes": 56,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5052-fsrQbKbJqNfS.png",
+      "color": null,
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5052-fsrQbKbJqNfS.png",
+      "rating": 50
+    }
+  ],
+  "episodes": [
+    {
+      "id": "eightman-after-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1344-IyomWaPtcmbM.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//eightman-after-episode-1"
+    },
+    {
+      "id": "eightman-after-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1344-IyomWaPtcmbM.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//eightman-after-episode-2"
+    },
+    {
+      "id": "eightman-after-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1344-IyomWaPtcmbM.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//eightman-after-episode-3"
+    },
+    {
+      "id": "eightman-after-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1344-IyomWaPtcmbM.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//eightman-after-episode-4"
+    }
+  ]
+}

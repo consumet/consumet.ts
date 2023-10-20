@@ -1,0 +1,506 @@
+{
+  "id": "21445",
+  "title": {
+    "romaji": "Big Order",
+    "english": "Big Order",
+    "native": "ビッグオーダー"
+  },
+  "malId": 31904,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21445-zXBAdDpNylRR.jpg",
+  "popularity": 41785,
+  "color": "#4328a1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21445-QegTh67p6JLV.jpg",
+  "description": "Ten years ago, a fairy by the name of Daisy appeared and asked the child Eiji Hoshimiya what his one and only wish was. Although his wish remains a mystery, the consequences were catastrophic. In an event called the \"Great Destruction,\" the world started to fall apart as everything collapsed and countless people died.<br><br>\nNow, Eiji is a high school student whose only concern is his sick sister. He does not remember what he wished for; all that he remembers is that his wish caused the Great Destruction. In the years since that event, thousands of other people have also received abilities to make their heart's desire come true. These people called \"Orders\" are believed to be evil and are hated by the general public. However, some of these Orders are after Eiji's life in vengeance for those that he killed. Will Eiji be able to survive the numerous assassination attempts? And the biggest mystery of all: what did he wish for, and what were his intentions in wishing for something that caused so much desolation? <br><br>\n(Source: MAL Rewrite)",
+  "status": "Completed",
+  "releaseDate": 2016,
+  "startDate": {
+    "year": 2016,
+    "month": 4,
+    "day": 16
+  },
+  "endDate": {
+    "year": 2016,
+    "month": 6,
+    "day": 18
+  },
+  "totalEpisodes": 10,
+  "currentEpisode": 10,
+  "rating": 47,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Supernatural"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Asread"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 10620,
+      "malId": 10620,
+      "title": {
+        "romaji": "Mirai Nikki",
+        "english": "The Future Diary",
+        "native": "未来日記",
+        "userPreferred": "Mirai Nikki"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10620-OMnOMuZBgEKy.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10620-CsZ2FFSbGpqV.jpg",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 100668,
+      "malId": 36882,
+      "title": {
+        "romaji": "Arifureta Shokugyou de Sekai Saikyou",
+        "english": "Arifureta: From Commonplace to World's Strongest",
+        "native": "ありふれた職業で世界最強",
+        "userPreferred": "Arifureta Shokugyou de Sekai Saikyou"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100668-DvOn5bMOt4cy.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100668-9ZQSB5x5St7c.jpg",
+      "rating": 64,
+      "type": "TV"
+    },
+    {
+      "id": 105190,
+      "malId": 38656,
+      "title": {
+        "romaji": "Darwin's Game",
+        "english": "Darwin's Game",
+        "native": "ダーウィンズゲーム",
+        "userPreferred": "Darwin's Game"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx105190-veG9YDZa0GzW.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/105190-HhqT6N5MJCpE.jpg",
+      "rating": 70,
+      "type": "TV"
+    },
+    {
+      "id": 108241,
+      "malId": 39463,
+      "title": {
+        "romaji": "Gleipnir",
+        "english": "Gleipnir",
+        "native": "グレイプニル",
+        "userPreferred": "Gleipnir"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108241-CZemOTbuE0Oj.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108241-Cbfv8GHRMFoQ.jpg",
+      "rating": 66,
+      "type": "TV"
+    },
+    {
+      "id": 21031,
+      "malId": 29758,
+      "title": {
+        "romaji": "Taboo Tattoo",
+        "english": null,
+        "native": "タブー・タトゥー",
+        "userPreferred": "Taboo Tattoo"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21031-9UQTsZfReeP6.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21031-l9ryVOqGrJ6c.jpg",
+      "rating": 53,
+      "type": "TV"
+    },
+    {
+      "id": 108725,
+      "malId": 39617,
+      "title": {
+        "romaji": "Yakusoku no Neverland 2",
+        "english": "The Promised Neverland Season 2",
+        "native": "約束のネバーランド2",
+        "userPreferred": "Yakusoku no Neverland 2"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108725-KM8SqUyaUd1o.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108725-lg940Urvxzfu.jpg",
+      "rating": 52,
+      "type": "TV"
+    },
+    {
+      "id": 112357,
+      "malId": 40515,
+      "title": {
+        "romaji": "Nihon Chinbotsu: 2020",
+        "english": "Japan Sinks: 2020",
+        "native": "日本沈没2020",
+        "userPreferred": "Nihon Chinbotsu: 2020"
+      },
+      "status": "Completed",
+      "episodes": 10,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112357-M4FLv7XAjauc.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112357-EYHpCNuYJXlZ.jpg",
+      "rating": 63,
+      "type": "ONA"
+    },
+    {
+      "id": 136947,
+      "malId": 49292,
+      "title": {
+        "romaji": "Deep Insanity: THE LOST CHILD",
+        "english": "Deep Insanity THE LOST CHILD",
+        "native": "Deep Insanity THE LOST CHILD",
+        "userPreferred": "Deep Insanity: THE LOST CHILD"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136947-ZtUWswedpbR6.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136947-ZtUWswedpbR6.jpg",
+      "rating": 49,
+      "type": "TV"
+    },
+    {
+      "id": 3064,
+      "malId": 3064,
+      "title": {
+        "romaji": "Kizuoibito",
+        "english": "Wounded Man",
+        "native": "傷追い人",
+        "userPreferred": "Kizuoibito"
+      },
+      "status": "Completed",
+      "episodes": 5,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3064-E92BJpoEeC95.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3064-E92BJpoEeC95.png",
+      "rating": 34,
+      "type": "OVA"
+    },
+    {
+      "id": 127401,
+      "malId": 44961,
+      "title": {
+        "romaji": "Platinum End",
+        "english": "Platinum End",
+        "native": "プラチナエンド",
+        "userPreferred": "Platinum End"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx127401-fVKVbuIE5W5Q.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/127401-e27CVSLfGjnb.jpg",
+      "rating": 58,
+      "type": "TV"
+    },
+    {
+      "id": 14075,
+      "malId": 14075,
+      "title": {
+        "romaji": "Zetsuen no Tempest",
+        "english": "Blast of Tempest",
+        "native": "絶園のテンペスト",
+        "userPreferred": "Zetsuen no Tempest"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx14075-EIJcGXq5hd9O.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/14075-BIU2xRpLnpZr.jpg",
+      "rating": 76,
+      "type": "TV"
+    },
+    {
+      "id": 99698,
+      "malId": 36027,
+      "title": {
+        "romaji": "Ousama Game The Animation",
+        "english": "King's Game",
+        "native": "王様ゲーム The Animation",
+        "userPreferred": "Ousama Game The Animation"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99698-5k8bDkhcJx9B.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99698-fBtpajusechX.jpg",
+      "rating": 45,
+      "type": "TV"
+    },
+    {
+      "id": 32,
+      "malId": 32,
+      "title": {
+        "romaji": "Shin Seiki Evangelion Movie: Air / Magokoro wo, Kimi ni",
+        "english": "Neon Genesis Evangelion: The End of Evangelion",
+        "native": "新世紀エヴァンゲリオン劇場版 Air/まごころを、君に",
+        "userPreferred": "Shin Seiki Evangelion Movie: Air / Magokoro wo, Kimi ni"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx32-i4ijZI4MuPiV.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n32-BH9yHJBQqeOa.jpg",
+      "rating": 85,
+      "type": "MOVIE"
+    },
+    {
+      "id": 162984,
+      "malId": 54798,
+      "title": {
+        "romaji": "Kamierabi",
+        "english": "KamiErabi GOD.app",
+        "native": "カミエラビ",
+        "userPreferred": "Kamierabi"
+      },
+      "status": "Ongoing",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx162984-UzH4iQYyqSwf.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/162984-n4hF0VowbPL5.jpg",
+      "rating": 48,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 49509,
+      "role": "MAIN",
+      "name": {
+        "first": "Rin",
+        "last": "Kurenai",
+        "full": "Rin Kurenai",
+        "native": null,
+        "userPreferred": "Rin Kurenai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b49509-6mm3Be09799f.png",
+      "voiceActors": [
+        {
+          "id": 106236,
+          "language": "Japanese",
+          "name": {
+            "first": "Shiori",
+            "last": "Mikami",
+            "full": "Shiori Mikami",
+            "native": "三上枝織",
+            "userPreferred": "Shiori Mikami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106236-aGhlIhHPPtjc.png"
+        }
+      ]
+    },
+    {
+      "id": 49505,
+      "role": "MAIN",
+      "name": {
+        "first": "Eiji",
+        "last": "Hoshimiya",
+        "full": "Eiji Hoshimiya",
+        "native": "星宮 エイジ",
+        "userPreferred": "Eiji Hoshimiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/49505.jpg",
+      "voiceActors": [
+        {
+          "id": 95205,
+          "language": "Japanese",
+          "name": {
+            "first": "Masakazu",
+            "last": "Morita",
+            "full": "Masakazu Morita",
+            "native": "森田成一",
+            "userPreferred": "Masakazu Morita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95205-5P3tKe3eTG9n.jpg"
+        }
+      ]
+    },
+    {
+      "id": 49507,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "DAISY",
+        "last": null,
+        "full": "DAISY",
+        "native": null,
+        "userPreferred": "DAISY"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b49507-ZvbrTXYJeUrN.jpg",
+      "voiceActors": [
+        {
+          "id": 119795,
+          "language": "Japanese",
+          "name": {
+            "first": "Mari",
+            "last": "Misaki",
+            "full": "Mari Misaki",
+            "native": "三咲麻里",
+            "userPreferred": "Mari Misaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/24795-F87Vz2BOWUIj.jpg"
+        }
+      ]
+    },
+    {
+      "id": 49511,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sena",
+        "last": "Hoshimiya",
+        "full": "Sena Hoshimiya",
+        "native": null,
+        "userPreferred": "Sena Hoshimiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/49511.jpg",
+      "voiceActors": [
+        {
+          "id": 106641,
+          "language": "Japanese",
+          "name": {
+            "first": "Misaki",
+            "last": "Kuno",
+            "full": "Misaki Kuno",
+            "native": "久野美咲",
+            "userPreferred": "Misaki Kuno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106641-zsyRkJ74NXvE.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 21075,
+      "relationType": "OTHER",
+      "malId": 30137,
+      "title": {
+        "romaji": "Big Order OVA",
+        "english": null,
+        "native": "ビッグオーダー OAD",
+        "userPreferred": "Big Order OVA"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21075-iSBxHiiJ9p5l.jpg",
+      "color": "#f1e4ae",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21075-iSBxHiiJ9p5l.jpg",
+      "rating": 51
+    },
+    {
+      "id": 58697,
+      "relationType": "ADAPTATION",
+      "malId": 28697,
+      "title": {
+        "romaji": "Big Order",
+        "english": "Big Order",
+        "native": "ビッグオーダー",
+        "userPreferred": "Big Order"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/28697.jpg",
+      "color": "#e40d6b",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/58697-8uZtoTLD1uIj.jpg",
+      "rating": 54
+    }
+  ],
+  "episodes": [
+    {
+      "id": "big-order-tv-episode-1",
+      "title": "Order! Awaken, Evil Powers! Big Destruction",
+      "image": "https://media.kitsu.io/episodes/thumbnails/185491/original.jpg",
+      "number": 1,
+      "createdAt": "2016-04-24T19:33:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//big-order-tv-episode-1"
+    },
+    {
+      "id": "big-order-tv-episode-2",
+      "title": "Order! Run, Don't Hesitate! Big Examination",
+      "image": "https://media.kitsu.io/episodes/thumbnails/185492/original.jpg",
+      "number": 2,
+      "createdAt": "2016-04-24T19:33:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//big-order-tv-episode-2"
+    },
+    {
+      "id": "big-order-tv-episode-3",
+      "title": "Order! Execute Strategies! Big Strategy",
+      "image": "https://media.kitsu.io/episodes/thumbnails/185493/original.jpg",
+      "number": 3,
+      "createdAt": "2016-04-24T19:33:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//big-order-tv-episode-3"
+    },
+    {
+      "id": "big-order-tv-episode-4",
+      "title": "Order! Amidst Resentment! Big Grudge",
+      "image": "https://media.kitsu.io/episodes/thumbnails/185494/original.jpg",
+      "number": 4,
+      "createdAt": "2016-04-24T19:33:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//big-order-tv-episode-4"
+    },
+    {
+      "id": "big-order-tv-episode-5",
+      "title": "Order! Don't Forget You Wish! Big Betrayal",
+      "image": "https://media.kitsu.io/episodes/thumbnails/185495/original.jpg",
+      "number": 5,
+      "createdAt": "2016-04-24T19:33:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//big-order-tv-episode-5"
+    },
+    {
+      "id": "big-order-tv-episode-6",
+      "title": "Order! Merge, Souls! Big Connect",
+      "image": "https://media.kitsu.io/episodes/thumbnails/185496/original.jpg",
+      "number": 6,
+      "createdAt": "2016-04-24T19:33:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//big-order-tv-episode-6"
+    },
+    {
+      "id": "big-order-tv-episode-7",
+      "title": "Order! Protect Your Beliefs! Big Belief",
+      "image": "https://media.kitsu.io/episodes/thumbnails/185497/original.jpg",
+      "number": 7,
+      "createdAt": "2016-04-24T19:33:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//big-order-tv-episode-7"
+    },
+    {
+      "id": "big-order-tv-episode-8",
+      "title": "Order! Hurry to the Battlefield! Big Battle",
+      "image": "https://media.kitsu.io/episodes/thumbnails/185498/original.jpg",
+      "number": 8,
+      "createdAt": "2016-04-24T19:33:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//big-order-tv-episode-8"
+    },
+    {
+      "id": "big-order-tv-episode-9",
+      "title": "Order! Uncover the Truth! Big Revelation",
+      "image": "https://media.kitsu.io/episodes/thumbnails/185499/original.jpg",
+      "number": 9,
+      "createdAt": "2016-04-24T19:33:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//big-order-tv-episode-9"
+    },
+    {
+      "id": "big-order-tv-episode-10",
+      "title": "Order! Fight and Believe in Yourself! Big Distortion",
+      "image": "https://media.kitsu.io/episodes/thumbnails/185500/original.jpg",
+      "number": 10,
+      "createdAt": "2016-04-24T19:33:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//big-order-tv-episode-10"
+    }
+  ]
+}

@@ -1,0 +1,718 @@
+{
+  "id": "799",
+  "title": {
+    "romaji": "Kokoro Toshokan",
+    "english": null,
+    "native": "ココロ図書館"
+  },
+  "malId": 799,
+  "synonyms": [
+    "Kokoro Library"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/799-Ehd8ihDNBLCm.jpg",
+  "popularity": 1653,
+  "color": "#e4c95d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/799-vurmmcBfnx83.jpg",
+  "description": "Kokoro Toshokan, a small library, lies nestled in an unpopulated mountain far away from town. Three sisters, Iina, Aruto and Kokoro, call the library home and run it from day to day. Kokoro is just beginning her adventures at the library. Will she become a full-fledged librarian? Will the remote library ever attract readers? Kokoro tries her best to make her dreams come true at Kokoro Library, a place where miracles can happen.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2001,
+  "startDate": {
+    "year": 2001,
+    "month": 10,
+    "day": 12
+  },
+  "endDate": {
+    "year": 2001,
+    "month": 12,
+    "day": 28
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 59,
+  "duration": 24,
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Slice of Life"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Studio DEEN"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 477,
+      "malId": 477,
+      "title": {
+        "romaji": "ARIA The ANIMATION",
+        "english": "ARIA The ANIMATION",
+        "native": "ARIA The ANIMATION",
+        "userPreferred": "ARIA The ANIMATION"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx477-IhmzyyzROh27.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/477.jpg",
+      "rating": 75,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 7101,
+      "role": "MAIN",
+      "name": {
+        "first": "Aruto",
+        "last": null,
+        "full": "Aruto",
+        "native": "あると",
+        "userPreferred": "Aruto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7101.jpg",
+      "voiceActors": [
+        {
+          "id": 100624,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Kuroda",
+            "full": "Yumi Kuroda",
+            "native": "ゆみ いちはら",
+            "userPreferred": "Yumi Kuroda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5624.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5604,
+      "role": "MAIN",
+      "name": {
+        "first": "Kokoro",
+        "last": null,
+        "full": "Kokoro",
+        "native": "ココロ",
+        "userPreferred": "Kokoro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5604-fSC5PxpEFRla.jpg",
+      "voiceActors": [
+        {
+          "id": 95061,
+          "language": "Japanese",
+          "name": {
+            "first": "Chiwa",
+            "last": "Saitou",
+            "full": "Chiwa Saitou",
+            "native": "斎藤千和",
+            "userPreferred": "Chiwa Saitou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95061-R8YSAYX7UFCO.png"
+        }
+      ]
+    },
+    {
+      "id": 7100,
+      "role": "MAIN",
+      "name": {
+        "first": "Iina",
+        "last": null,
+        "full": "Iina",
+        "native": "いいな",
+        "userPreferred": "Iina"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7100.jpg",
+      "voiceActors": [
+        {
+          "id": 95099,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyuki",
+            "last": "Sawashiro",
+            "full": "Miyuki Sawashiro",
+            "native": "沢城みゆき",
+            "userPreferred": "Miyuki Sawashiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95099-jKP4LfPWqetk.jpg"
+        }
+      ]
+    },
+    {
+      "id": 79375,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sarara",
+        "last": "Saeki",
+        "full": "Sarara Saeki",
+        "native": "佐伯 さらら",
+        "userPreferred": "Sarara Saeki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95003,
+          "language": "Japanese",
+          "name": {
+            "first": "Satsuki",
+            "last": "Yukino",
+            "full": "Satsuki Yukino",
+            "native": "ゆきのさつき",
+            "userPreferred": "Satsuki Yukino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95003-Du7wb5JJzb8P.png"
+        }
+      ]
+    },
+    {
+      "id": 79351,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jordi",
+        "last": "San",
+        "full": "Jordi San",
+        "native": "サン・ジョルディ",
+        "userPreferred": "Jordi San"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95260,
+          "language": "Japanese",
+          "name": {
+            "first": "Susumu",
+            "last": "Chiba",
+            "full": "Susumu Chiba",
+            "native": "千葉進歩",
+            "userPreferred": "Susumu Chiba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95260-pKyM0LbhEznc.png"
+        }
+      ]
+    },
+    {
+      "id": 79361,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sergeant",
+        "last": "Momochi",
+        "full": "Sergeant Momochi",
+        "native": "百千",
+        "userPreferred": "Sergeant Momochi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95906,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouzou",
+            "last": "Shioya",
+            "full": "Kouzou Shioya",
+            "native": "塩屋浩三",
+            "userPreferred": "Kouzou Shioya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95906-6f6glTy4TkXf.png"
+        }
+      ]
+    },
+    {
+      "id": 79381,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kameyan",
+        "last": "Aigame",
+        "full": "Kameyan Aigame",
+        "native": "愛亀",
+        "userPreferred": "Kameyan Aigame"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95005,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenichi",
+            "last": "Suzumura",
+            "full": "Kenichi Suzumura",
+            "native": "鈴村健一",
+            "userPreferred": "Kenichi Suzumura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95005-SkoVN02iOglr.png"
+        }
+      ]
+    },
+    {
+      "id": 79367,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Akaha",
+        "last": "Okajima",
+        "full": "Akaha Okajima",
+        "native": "岡嶋朱葉",
+        "userPreferred": "Akaha Okajima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95272,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoko",
+            "last": "Kaneda",
+            "full": "Tomoko Kaneda",
+            "native": "金田朋子",
+            "userPreferred": "Tomoko Kaneda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95272-qfGnqI0gkKK5.png"
+        }
+      ]
+    },
+    {
+      "id": 7102,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jun",
+        "last": "Uezawa",
+        "full": "Jun Uezawa",
+        "native": "上沢純",
+        "userPreferred": "Jun Uezawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95022,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinichirou",
+            "last": "Miki",
+            "full": "Shinichirou Miki",
+            "native": "三木眞一郎",
+            "userPreferred": "Shinichirou Miki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95022-BXggjIr4KHqd.png"
+        }
+      ]
+    },
+    {
+      "id": 79377,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Inspector",
+        "last": "Kajihara",
+        "full": "Inspector Kajihara",
+        "native": "梶原警部",
+        "userPreferred": "Inspector Kajihara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95284,
+          "language": "Japanese",
+          "name": {
+            "first": "Fumihiko",
+            "last": "Tachiki",
+            "full": "Fumihiko Tachiki",
+            "native": "立木文彦",
+            "userPreferred": "Fumihiko Tachiki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95284-k97k9dULn4vr.png"
+        }
+      ]
+    },
+    {
+      "id": 79365,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Midori",
+        "last": "Okajima",
+        "full": "Midori Okajima",
+        "native": "岡嶋 みどり",
+        "userPreferred": "Midori Okajima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 101224,
+          "language": "Japanese",
+          "name": {
+            "first": "Youko",
+            "last": "Sasaki",
+            "full": "Youko Sasaki",
+            "native": "佐々木瑶子",
+            "userPreferred": "Youko Sasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101224-fwgVjt0rSF4A.png"
+        }
+      ]
+    },
+    {
+      "id": 79363,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Marie",
+        "last": "Momochi",
+        "full": "Marie Momochi",
+        "native": "百千 万理恵",
+        "userPreferred": "Marie Momochi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95435,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Touma",
+            "full": "Yumi Touma",
+            "native": "冬馬由美",
+            "userPreferred": "Yumi Touma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95435-REiTyMQqIfH4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 79373,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "June",
+        "last": null,
+        "full": "June",
+        "native": "珠音",
+        "userPreferred": "June"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95090,
+          "language": "Japanese",
+          "name": {
+            "first": "Maaya",
+            "last": "Sakamoto",
+            "full": "Maaya Sakamoto",
+            "native": "坂本真綾",
+            "userPreferred": "Maaya Sakamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95090-oARRP42NEhu0.jpg"
+        }
+      ]
+    },
+    {
+      "id": 79357,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Akari",
+        "last": "Inoue",
+        "full": "Akari Inoue",
+        "native": "井上 あかり",
+        "userPreferred": "Akari Inoue"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95470,
+          "language": "Japanese",
+          "name": {
+            "first": "Satomi",
+            "last": "Koorogi",
+            "full": "Satomi Koorogi",
+            "native": "こおろぎさとみ",
+            "userPreferred": "Satomi Koorogi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95470-xZYG14WGMlmS.png"
+        }
+      ]
+    },
+    {
+      "id": 79359,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hikari",
+        "last": "Inoue",
+        "full": "Hikari Inoue",
+        "native": "井上 ひかり",
+        "userPreferred": "Hikari Inoue"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95470,
+          "language": "Japanese",
+          "name": {
+            "first": "Satomi",
+            "last": "Koorogi",
+            "full": "Satomi Koorogi",
+            "native": "こおろぎさとみ",
+            "userPreferred": "Satomi Koorogi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95470-xZYG14WGMlmS.png"
+        }
+      ]
+    },
+    {
+      "id": 79353,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kokoro",
+        "last": "Shindo",
+        "full": "Kokoro Shindo",
+        "native": "進藤 ココロ",
+        "userPreferred": "Kokoro Shindo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95099,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyuki",
+            "last": "Sawashiro",
+            "full": "Miyuki Sawashiro",
+            "native": "沢城みゆき",
+            "userPreferred": "Miyuki Sawashiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95099-jKP4LfPWqetk.jpg"
+        }
+      ]
+    },
+    {
+      "id": 79369,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Misato",
+        "last": "Fukami",
+        "full": "Misato Fukami",
+        "native": "深海 みさと",
+        "userPreferred": "Misato Fukami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95471,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoe",
+            "last": "Hanba",
+            "full": "Tomoe Hanba",
+            "native": "半場友恵",
+            "userPreferred": "Tomoe Hanba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95471-QFtcXqtRwhlS.png"
+        }
+      ]
+    },
+    {
+      "id": 79379,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hibiki",
+        "last": "Asakura",
+        "full": "Hibiki Asakura",
+        "native": "朝倉 ひびき",
+        "userPreferred": "Hibiki Asakura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95176,
+          "language": "Japanese",
+          "name": {
+            "first": "Michiko",
+            "last": "Neya",
+            "full": "Michiko Neya",
+            "native": "根谷美智子",
+            "userPreferred": "Michiko Neya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95176-3yZnUwXap7nX.png"
+        }
+      ]
+    },
+    {
+      "id": 24228,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaede",
+        "last": "Hoshino",
+        "full": "Kaede Hoshino",
+        "native": "星野かえで",
+        "userPreferred": "Kaede Hoshino"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24228.jpg",
+      "voiceActors": [
+        {
+          "id": 95728,
+          "language": "Japanese",
+          "name": {
+            "first": "Rio",
+            "last": "Natsuki",
+            "full": "Rio Natsuki",
+            "native": "夏樹リオ",
+            "userPreferred": "Rio Natsuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95728-K5yVk3APigVJ.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 5472,
+      "relationType": "SEQUEL",
+      "malId": 5472,
+      "title": {
+        "romaji": "Kokoro Toshokan: Communication wa Kiru",
+        "english": null,
+        "native": "ココロ図書館 - コミュニケーションは切る",
+        "userPreferred": "Kokoro Toshokan: Communication wa Kiru"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/5472.jpg",
+      "color": "#e4bb5d",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/5472.jpg",
+      "rating": 53
+    },
+    {
+      "id": 32702,
+      "relationType": "ADAPTATION",
+      "malId": 2702,
+      "title": {
+        "romaji": "Kokoro Toshokan",
+        "english": null,
+        "native": "ココロ図書館",
+        "userPreferred": "Kokoro Toshokan"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/2702-TMDCTyopyNCF.jpg",
+      "color": "#e4ae35",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/2702-TMDCTyopyNCF.jpg",
+      "rating": 61
+    }
+  ],
+  "episodes": [
+    {
+      "id": "kokoro-toshokan-episode-1",
+      "title": "I'll Become a Librarian",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/799-Ehd8ihDNBLCm.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:21:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kokoro-toshokan-episode-1"
+    },
+    {
+      "id": "kokoro-toshokan-episode-2",
+      "title": "What Can I Do at This Moment?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/799-Ehd8ihDNBLCm.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:21:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kokoro-toshokan-episode-2"
+    },
+    {
+      "id": "kokoro-toshokan-episode-3",
+      "title": "The Secret of Ms. Kirin",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/799-Ehd8ihDNBLCm.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:21:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kokoro-toshokan-episode-3"
+    },
+    {
+      "id": "kokoro-toshokan-episode-4",
+      "title": "A Librarian's Motto",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/799-Ehd8ihDNBLCm.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:21:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kokoro-toshokan-episode-4"
+    },
+    {
+      "id": "kokoro-toshokan-episode-5",
+      "title": "The Targeted Library",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/799-Ehd8ihDNBLCm.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:21:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kokoro-toshokan-episode-5"
+    },
+    {
+      "id": "kokoro-toshokan-episode-6",
+      "title": "The Comparoid Librarian",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/799-Ehd8ihDNBLCm.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:21:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kokoro-toshokan-episode-6"
+    },
+    {
+      "id": "kokoro-toshokan-episode-7",
+      "title": "The Day Kokoro Is Gone",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/799-Ehd8ihDNBLCm.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:21:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kokoro-toshokan-episode-7"
+    },
+    {
+      "id": "kokoro-toshokan-episode-8",
+      "title": "I Want to See My Mom",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/799-Ehd8ihDNBLCm.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:21:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kokoro-toshokan-episode-8"
+    },
+    {
+      "id": "kokoro-toshokan-episode-9",
+      "title": "A Miracle",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/799-Ehd8ihDNBLCm.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:21:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kokoro-toshokan-episode-9"
+    },
+    {
+      "id": "kokoro-toshokan-episode-10",
+      "title": "The Library May Disappear",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/799-Ehd8ihDNBLCm.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:21:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kokoro-toshokan-episode-10"
+    },
+    {
+      "id": "kokoro-toshokan-episode-11",
+      "title": "Joldy's Diary",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/799-Ehd8ihDNBLCm.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:21:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kokoro-toshokan-episode-11"
+    },
+    {
+      "id": "kokoro-toshokan-episode-12",
+      "title": "Kokoro Aruto Iina",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/799-Ehd8ihDNBLCm.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:21:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kokoro-toshokan-episode-12"
+    },
+    {
+      "id": "kokoro-toshokan-episode-13",
+      "title": "Kokoro Library's Winter",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/799-Ehd8ihDNBLCm.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:21:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kokoro-toshokan-episode-13"
+    }
+  ]
+}

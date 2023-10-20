@@ -1,0 +1,1644 @@
+{
+  "id": "21552",
+  "title": {
+    "romaji": "BONOBONO (2016)",
+    "english": "Bono Bono (2016)",
+    "native": "ぼのぼの (2016)"
+  },
+  "malId": 32353,
+  "synonyms": [
+    "Bonobono 2016"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+  "popularity": 621,
+  "color": "#5dbbe4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+  "description": "A new adaptation of the adventures of three forest friends - a raccoon, a squirrel and a sea otter.",
+  "status": "Ongoing",
+  "releaseDate": 2016,
+  "startDate": {
+    "year": 2016,
+    "month": 4,
+    "day": 2
+  },
+  "endDate": {
+    "year": null,
+    "month": null,
+    "day": null
+  },
+  "totalEpisodes": null,
+  "currentEpisode": null,
+  "rating": 56,
+  "duration": 8,
+  "genres": [
+    "Comedy"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Eiken"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 75410,
+      "role": "MAIN",
+      "name": {
+        "first": "Bonobono",
+        "last": null,
+        "full": "Bonobono",
+        "native": "ぼのぼの",
+        "userPreferred": "Bonobono"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b75410-tlLzX0AzspND.jpg",
+      "voiceActors": [
+        {
+          "id": 248418,
+          "language": "Japanese",
+          "name": {
+            "first": "Fukuko",
+            "last": "Yukimiyama",
+            "full": "Fukuko Yukimiyama",
+            "native": "雪深山福子",
+            "userPreferred": "Fukuko Yukimiyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n248418-hAYk6jWy0RGr.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 4286,
+      "relationType": "PREQUEL",
+      "malId": 4286,
+      "title": {
+        "romaji": "BONOBONO",
+        "english": "Bonobono",
+        "native": "ぼのぼの",
+        "userPreferred": "BONOBONO"
+      },
+      "status": "Completed",
+      "episodes": 48,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4286.jpg",
+      "color": "#e4a15d",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4286.jpg",
+      "rating": 61
+    },
+    {
+      "id": 96793,
+      "relationType": "ADAPTATION",
+      "malId": 96345,
+      "title": {
+        "romaji": "BONOBONO",
+        "english": null,
+        "native": "ぼのぼの",
+        "userPreferred": "BONOBONO"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx96793-5307F9Km4II8.png",
+      "color": "#f1a100",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx96793-5307F9Km4II8.png",
+      "rating": 65
+    },
+    {
+      "id": 139216,
+      "relationType": "CHARACTER",
+      "malId": null,
+      "title": {
+        "romaji": "Bono-chan",
+        "english": null,
+        "native": "ぼのちゃん",
+        "userPreferred": "Bono-chan"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx139216-GwImPhVTezj3.jpg",
+      "color": null,
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx139216-GwImPhVTezj3.jpg",
+      "rating": 40
+    },
+    {
+      "id": 139250,
+      "relationType": "CHARACTER",
+      "malId": null,
+      "title": {
+        "romaji": "Bono-chan to Maigo no Aka-chan Penguin",
+        "english": null,
+        "native": "ぼのちゃんと迷子の赤ちゃんペンギン",
+        "userPreferred": "Bono-chan to Maigo no Aka-chan Penguin"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b139250-37rTxTvUdzKj.jpg",
+      "color": "#f1c95d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b139250-37rTxTvUdzKj.jpg",
+      "rating": 50
+    },
+    {
+      "id": 139252,
+      "relationType": "CHARACTER",
+      "malId": null,
+      "title": {
+        "romaji": "Bono-chan to Yasashii Rakko-san",
+        "english": null,
+        "native": "ぼのちゃんとやさしいラッコさん",
+        "userPreferred": "Bono-chan to Yasashii Rakko-san"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx139252-3PYFXjKeqLI9.jpg",
+      "color": "#e4506b",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx139252-3PYFXjKeqLI9.jpg",
+      "rating": 50
+    },
+    {
+      "id": 139254,
+      "relationType": "CHARACTER",
+      "malId": null,
+      "title": {
+        "romaji": "Bono-chan: Araiguma-chan ga Inakunatta",
+        "english": null,
+        "native": "ぼのちゃん〜アライグマちゃんがいなくなった〜",
+        "userPreferred": "Bono-chan: Araiguma-chan ga Inakunatta"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx139254-UHXjwRFLyvPY.jpg",
+      "color": null,
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx139254-UHXjwRFLyvPY.jpg",
+      "rating": 40
+    },
+    {
+      "id": 139256,
+      "relationType": "CHARACTER",
+      "malId": null,
+      "title": {
+        "romaji": "Bono-chan: Boku no Kyoudai ga Dekita yo",
+        "english": null,
+        "native": "ぼのちゃん〜ボクに兄弟ができたよ〜",
+        "userPreferred": "Bono-chan: Boku no Kyoudai ga Dekita yo"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx139256-1qQMiYLenB1j.jpg",
+      "color": "#d6a11a",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx139256-1qQMiYLenB1j.jpg",
+      "rating": 50
+    },
+    {
+      "id": 139258,
+      "relationType": "CHARACTER",
+      "malId": null,
+      "title": {
+        "romaji": "Bono-chan to Shimacchau Ojisan",
+        "english": null,
+        "native": "ぼのちゃんとしまっちゃうおじさん",
+        "userPreferred": "Bono-chan to Shimacchau Ojisan"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx139258-GfBTMMetZsz6.jpg",
+      "color": "#50aee4",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx139258-GfBTMMetZsz6.jpg",
+      "rating": 50
+    },
+    {
+      "id": 139259,
+      "relationType": "CHARACTER",
+      "malId": null,
+      "title": {
+        "romaji": "Debubono",
+        "english": null,
+        "native": "でぶぼの",
+        "userPreferred": "Debubono"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx139259-8CFLDdwIKG3s.jpg",
+      "color": "#f1d60d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx139259-8CFLDdwIKG3s.jpg",
+      "rating": 30
+    },
+    {
+      "id": 139262,
+      "relationType": "CHARACTER",
+      "malId": null,
+      "title": {
+        "romaji": "Inubono",
+        "english": null,
+        "native": "いぬぼの",
+        "userPreferred": "Inubono"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx139262-aByIKItlRZV8.jpg",
+      "color": "#35bbf1",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx139262-aByIKItlRZV8.jpg",
+      "rating": 40
+    }
+  ],
+  "episodes": [
+    {
+      "id": "bonobono-2016-episode-1",
+      "title": "The Sea Is a Place to Play Alone",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 1,
+      "createdAt": "2017-08-09T04:52:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-1"
+    },
+    {
+      "id": "bonobono-2016-episode-2",
+      "title": "My Tooth Hurts, It Really Hurts",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 2,
+      "createdAt": "2017-08-09T04:52:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-2"
+    },
+    {
+      "id": "bonobono-2016-episode-3",
+      "title": "I Want to Climb a Tree",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 3,
+      "createdAt": "2017-08-09T04:52:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-3"
+    },
+    {
+      "id": "bonobono-2016-episode-4",
+      "title": "Where's Prairie Dog?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 4,
+      "createdAt": "2017-08-09T04:52:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-4"
+    },
+    {
+      "id": "bonobono-2016-episode-5",
+      "title": "Dreams Are Strange",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 5,
+      "createdAt": "2017-08-09T04:52:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-5"
+    },
+    {
+      "id": "bonobono-2016-episode-6",
+      "title": "Raccoon Has Made Up His Mind",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 6,
+      "createdAt": "2017-08-09T04:52:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-6"
+    },
+    {
+      "id": "bonobono-2016-episode-7",
+      "title": "I Got My Own Island",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 7,
+      "createdAt": "2017-08-09T04:52:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-7"
+    },
+    {
+      "id": "bonobono-2016-episode-8",
+      "title": "My Dad's and My House",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 8,
+      "createdAt": "2017-08-09T04:52:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-8"
+    },
+    {
+      "id": "bonobono-2016-episode-9",
+      "title": "Chewingyo with Everyone",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 9,
+      "createdAt": "2017-08-09T04:52:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-9"
+    },
+    {
+      "id": "bonobono-2016-episode-10",
+      "title": "How Does a Cold Get Better?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 10,
+      "createdAt": "2017-08-09T04:52:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-10"
+    },
+    {
+      "id": "bonobono-2016-episode-11",
+      "title": "I'm Staying Home by Myself Today",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 11,
+      "createdAt": "2017-08-09T04:52:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-11"
+    },
+    {
+      "id": "bonobono-2016-episode-12",
+      "title": "Something Valuable Has Been Stolen",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 12,
+      "createdAt": "2017-08-09T04:52:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-12"
+    },
+    {
+      "id": "bonobono-2016-episode-13",
+      "title": "Scary Ideas Are Scary",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 13,
+      "createdAt": "2017-08-09T04:52:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-13"
+    },
+    {
+      "id": "bonobono-2016-episode-14",
+      "title": "My Rock Broke",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 14,
+      "createdAt": "2017-08-09T04:52:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-14"
+    },
+    {
+      "id": "bonobono-2016-episode-15",
+      "title": "Sometimes I Feel Lonely",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 15,
+      "createdAt": "2017-08-09T04:52:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-15"
+    },
+    {
+      "id": "bonobono-2016-episode-16",
+      "title": "I Walk a Lot",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 16,
+      "createdAt": "2017-08-09T04:52:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-16"
+    },
+    {
+      "id": "bonobono-2016-episode-17",
+      "title": "Chipmunk's Sisters",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 17,
+      "createdAt": "2017-08-09T04:52:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-17"
+    },
+    {
+      "id": "bonobono-2016-episode-18",
+      "title": "What We Think Is Fun To Do",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 18,
+      "createdAt": "2017-08-09T04:52:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-18"
+    },
+    {
+      "id": "bonobono-2016-episode-19",
+      "title": "The Sights Inside Me",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 19,
+      "createdAt": "2017-08-09T04:52:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-19"
+    },
+    {
+      "id": "bonobono-2016-episode-20",
+      "title": "Fishing Cat at Play",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 20,
+      "createdAt": "2017-08-09T04:52:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-20"
+    },
+    {
+      "id": "bonobono-2016-episode-21",
+      "title": "Chipmunk's Duel",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 21,
+      "createdAt": "2017-08-09T04:52:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-21"
+    },
+    {
+      "id": "bonobono-2016-episode-22",
+      "title": "What I Once Had",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 22,
+      "createdAt": "2017-08-09T04:52:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-22"
+    },
+    {
+      "id": "bonobono-2016-episode-23",
+      "title": "Fenny Goes Aaah",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 23,
+      "createdAt": "2017-08-09T04:52:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-23"
+    },
+    {
+      "id": "bonobono-2016-episode-24",
+      "title": "The Big Rock of the Rock Tree",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 24,
+      "createdAt": "2017-08-09T04:52:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-24"
+    },
+    {
+      "id": "bonobono-2016-episode-25",
+      "title": "What the Clouds Bring",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 25,
+      "createdAt": "2017-08-09T04:52:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-25"
+    },
+    {
+      "id": "bonobono-2016-episode-26",
+      "title": "Sis is Back",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 26,
+      "createdAt": "2017-08-09T04:52:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-26"
+    },
+    {
+      "id": "bonobono-2016-episode-27",
+      "title": "About Bats",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 27,
+      "createdAt": "2017-08-09T04:52:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-27"
+    },
+    {
+      "id": "bonobono-2016-episode-28",
+      "title": "Fishing Cat Has Fun",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 28,
+      "createdAt": "2017-08-09T04:52:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-28"
+    },
+    {
+      "id": "bonobono-2016-episode-29",
+      "title": "Is Badger Strange?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 29,
+      "createdAt": "2017-08-09T04:52:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-29"
+    },
+    {
+      "id": "bonobono-2016-episode-30",
+      "title": "Let's Walk the Path",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 30,
+      "createdAt": "2017-08-09T04:52:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-30"
+    },
+    {
+      "id": "bonobono-2016-episode-31",
+      "title": "Chipmunk Finds the Culprit",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 31,
+      "createdAt": "2017-08-09T04:52:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-31"
+    },
+    {
+      "id": "bonobono-2016-episode-32",
+      "title": "Has It Really Been Fun, Lately?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 32,
+      "createdAt": "2017-08-09T04:52:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-32"
+    },
+    {
+      "id": "bonobono-2016-episode-33",
+      "title": "Dad Likes to Go On Journeys",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 33,
+      "createdAt": "2017-08-09T04:52:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-33"
+    },
+    {
+      "id": "bonobono-2016-episode-34",
+      "title": "I Can't Catch Fish",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 34,
+      "createdAt": "2017-08-09T04:52:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-34"
+    },
+    {
+      "id": "bonobono-2016-episode-35",
+      "title": "I Want to See a Landslide",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 35,
+      "createdAt": "2017-08-09T04:52:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-35"
+    },
+    {
+      "id": "bonobono-2016-episode-36",
+      "title": "Sis's Errand",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 36,
+      "createdAt": "2017-08-09T04:52:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-36"
+    },
+    {
+      "id": "bonobono-2016-episode-37",
+      "title": "How Do I Become Self-Reliant?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 37,
+      "createdAt": "2017-08-09T04:52:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-37"
+    },
+    {
+      "id": "bonobono-2016-episode-38",
+      "title": "What Chipmunk Learned",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 38,
+      "createdAt": "2017-08-09T04:52:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-38"
+    },
+    {
+      "id": "bonobono-2016-episode-39",
+      "title": "Let's Play at Divine Punishment",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 39,
+      "createdAt": "2017-08-09T04:52:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-39"
+    },
+    {
+      "id": "bonobono-2016-episode-40",
+      "title": "I Want to Meet My Twin",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 40,
+      "createdAt": "2017-08-09T04:52:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-40"
+    },
+    {
+      "id": "bonobono-2016-episode-41",
+      "title": "It's a Secret to Kids",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 41,
+      "createdAt": "2017-08-09T04:52:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-41"
+    },
+    {
+      "id": "bonobono-2016-episode-42",
+      "title": "Let's Sow Seeds with Chipmunk",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 42,
+      "createdAt": "2017-08-09T04:52:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-42"
+    },
+    {
+      "id": "bonobono-2016-episode-43",
+      "title": "A Sprout Appeared!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 43,
+      "createdAt": "2017-08-09T04:52:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-43"
+    },
+    {
+      "id": "bonobono-2016-episode-44",
+      "title": "A Boring Story",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 44,
+      "createdAt": "2017-08-09T04:52:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-44"
+    },
+    {
+      "id": "bonobono-2016-episode-45",
+      "title": "What's a Hobby?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 45,
+      "createdAt": "2017-08-09T04:52:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-45"
+    },
+    {
+      "id": "bonobono-2016-episode-46",
+      "title": "Dad's Friend",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 46,
+      "createdAt": "2017-08-09T04:52:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-46"
+    },
+    {
+      "id": "bonobono-2016-episode-47",
+      "title": "Fishing Cat is Gone",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 47,
+      "createdAt": "2017-08-09T04:52:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-47"
+    },
+    {
+      "id": "bonobono-2016-episode-48",
+      "title": "Find Fishing Cat",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 48,
+      "createdAt": "2017-08-09T04:52:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-48"
+    },
+    {
+      "id": "bonobono-2016-episode-49",
+      "title": "I Like Walks",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 49,
+      "createdAt": "2017-08-09T04:52:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-49"
+    },
+    {
+      "id": "bonobono-2016-episode-50",
+      "title": "Sis Has a Problem",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 50,
+      "createdAt": "2017-08-09T04:52:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-50"
+    },
+    {
+      "id": "bonobono-2016-episode-51",
+      "title": "Raccoon is Bored",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 51,
+      "createdAt": "2017-08-09T04:52:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-51"
+    },
+    {
+      "id": "bonobono-2016-episode-52",
+      "title": "Let's Go Meet a Twin",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 52,
+      "createdAt": "2017-08-09T04:52:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-52"
+    },
+    {
+      "id": "bonobono-2016-episode-53",
+      "title": "The Day Fishing Cat Came",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 53,
+      "createdAt": "2017-08-09T04:52:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-53"
+    },
+    {
+      "id": "bonobono-2016-episode-54",
+      "title": "Something Terrible Will Happen",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 54,
+      "createdAt": "2017-08-09T04:52:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-54"
+    },
+    {
+      "id": "bonobono-2016-episode-55",
+      "title": "Something Terrible Will Happen",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 55,
+      "createdAt": "2017-08-09T04:52:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-55"
+    },
+    {
+      "id": "bonobono-2016-episode-56",
+      "title": "Fenny's turned delinquent",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 56,
+      "createdAt": "2017-08-09T04:52:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-56"
+    },
+    {
+      "id": "bonobono-2016-episode-57",
+      "title": "Did Someone Throw This Away?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 57,
+      "createdAt": "2017-08-09T04:52:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-57"
+    },
+    {
+      "id": "bonobono-2016-episode-58",
+      "title": "Everybody Sleeps Outside",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 58,
+      "createdAt": "2017-08-09T04:52:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-58"
+    },
+    {
+      "id": "bonobono-2016-episode-59",
+      "title": "Waterfalls Are Amazing",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 59,
+      "createdAt": "2017-08-09T04:52:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-59"
+    },
+    {
+      "id": "bonobono-2016-episode-60",
+      "title": "It's Tough Being a Father",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 60,
+      "createdAt": "2017-08-09T04:52:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-60"
+    },
+    {
+      "id": "bonobono-2016-episode-61",
+      "title": "Raccoon Looks for a House",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 61,
+      "createdAt": "2017-08-09T04:52:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-61"
+    },
+    {
+      "id": "bonobono-2016-episode-62",
+      "title": "Let's Go See a Paw",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 62,
+      "createdAt": "2017-08-09T04:52:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-62"
+    },
+    {
+      "id": "bonobono-2016-episode-63",
+      "title": "Holes Start Appearing",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 63,
+      "createdAt": "2017-08-09T04:52:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-63"
+    },
+    {
+      "id": "bonobono-2016-episode-64",
+      "title": "Let's Play with Baby Bear",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 64,
+      "createdAt": "2017-08-09T04:52:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-64"
+    },
+    {
+      "id": "bonobono-2016-episode-65",
+      "title": "About the Kirokiro Bug",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 65,
+      "createdAt": "2017-08-09T04:52:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-65"
+    },
+    {
+      "id": "bonobono-2016-episode-66",
+      "title": "Raccoon Makes Up His Mind Again",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 66,
+      "createdAt": "2017-08-09T04:52:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-66"
+    },
+    {
+      "id": "bonobono-2016-episode-67",
+      "title": "Everybody's a Weird Creature",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 67,
+      "createdAt": "2017-08-09T04:52:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-67"
+    },
+    {
+      "id": "bonobono-2016-episode-68",
+      "title": "Yeah, It's Summer",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 68,
+      "createdAt": "2017-08-09T04:52:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-68"
+    },
+    {
+      "id": "bonobono-2016-episode-69",
+      "title": "The Boss is Here",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 69,
+      "createdAt": "2017-08-09T04:52:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-69"
+    },
+    {
+      "id": "bonobono-2016-episode-70",
+      "title": "I Caught a Fish",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 70,
+      "createdAt": "2017-08-09T04:52:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-70"
+    },
+    {
+      "id": "bonobono-2016-episode-71",
+      "title": "A Super-Funny Story",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 71,
+      "createdAt": "2017-08-11T23:08:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-71"
+    },
+    {
+      "id": "bonobono-2016-episode-72",
+      "title": "A Ghost Appeared!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 72,
+      "createdAt": "2017-08-19T03:00:18Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-72"
+    },
+    {
+      "id": "bonobono-2016-episode-73",
+      "title": "Let's Think of a New Game",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 73,
+      "createdAt": "2017-08-26T02:46:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-73"
+    },
+    {
+      "id": "bonobono-2016-episode-74",
+      "title": "About Poposu",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 74,
+      "createdAt": "2017-09-02T23:48:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-74"
+    },
+    {
+      "id": "bonobono-2016-episode-75",
+      "title": "I Go on a Journey",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 75,
+      "createdAt": "2017-09-09T03:05:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-75"
+    },
+    {
+      "id": "bonobono-2016-episode-76",
+      "title": "Chipmunk's Rival",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 76,
+      "createdAt": "2017-09-16T03:51:31Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-76"
+    },
+    {
+      "id": "bonobono-2016-episode-77",
+      "title": "Ear Cleaning is Fun",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 77,
+      "createdAt": "2017-09-23T01:30:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-77"
+    },
+    {
+      "id": "bonobono-2016-episode-78",
+      "title": "Let's be Friends With the Wind",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 78,
+      "createdAt": "2017-09-30T05:35:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-78"
+    },
+    {
+      "id": "bonobono-2016-episode-79",
+      "title": "What You Need and What You Don't Need",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 79,
+      "createdAt": "2017-10-07T03:57:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-79"
+    },
+    {
+      "id": "bonobono-2016-episode-80",
+      "title": "This Isn't Good!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 80,
+      "createdAt": "2017-10-14T03:27:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-80"
+    },
+    {
+      "id": "bonobono-2016-episode-81",
+      "title": "Untitled",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 81,
+      "createdAt": "2017-10-21T05:24:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-81"
+    },
+    {
+      "id": "bonobono-2016-episode-82",
+      "title": "Chipmunk Is a Great Detective",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 82,
+      "createdAt": "2017-10-28T05:57:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-82"
+    },
+    {
+      "id": "bonobono-2016-episode-83",
+      "title": "Let's Try Cooking",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 83,
+      "createdAt": "2017-11-04T06:55:24Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-83"
+    },
+    {
+      "id": "bonobono-2016-episode-84",
+      "title": "The Stomachache",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 84,
+      "createdAt": "2017-11-11T07:41:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-84"
+    },
+    {
+      "id": "bonobono-2016-episode-85",
+      "title": "The Mountain Where a Monster Lives",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 85,
+      "createdAt": "2017-11-18T08:40:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-85"
+    },
+    {
+      "id": "bonobono-2016-episode-86",
+      "title": "Raccoon Lost",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 86,
+      "createdAt": "2017-11-25T06:11:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-86"
+    },
+    {
+      "id": "bonobono-2016-episode-87",
+      "title": "Raccoon and Akaka",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 87,
+      "createdAt": "2017-12-02T08:20:12Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-87"
+    },
+    {
+      "id": "bonobono-2016-episode-88",
+      "title": "Big Sis Won't Leave",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 88,
+      "createdAt": "2017-12-09T08:59:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-88"
+    },
+    {
+      "id": "bonobono-2016-episode-89",
+      "title": "Why Do We Smack Into Each Other?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 89,
+      "createdAt": "2017-12-16T09:21:27Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-89"
+    },
+    {
+      "id": "bonobono-2016-episode-90",
+      "title": "Songs Don't Stop",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 90,
+      "createdAt": "2017-12-23T19:29:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-90"
+    },
+    {
+      "id": "bonobono-2016-episode-91",
+      "title": "The Happy Ladybug",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 91,
+      "createdAt": "2017-12-30T01:41:33Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-91"
+    },
+    {
+      "id": "bonobono-2016-episode-92",
+      "title": "Yamabii's Face",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 92,
+      "createdAt": "2018-01-06T06:51:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-92"
+    },
+    {
+      "id": "bonobono-2016-episode-93",
+      "title": "The Secret of the Putaway Man",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 93,
+      "createdAt": "2018-01-13T08:34:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-93"
+    },
+    {
+      "id": "bonobono-2016-episode-94",
+      "title": "I still couldn't swim yet",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 94,
+      "createdAt": "2018-01-20T08:32:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-94"
+    },
+    {
+      "id": "bonobono-2016-episode-95",
+      "title": "A Big Noise!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 95,
+      "createdAt": "2018-01-27T05:42:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-95"
+    },
+    {
+      "id": "bonobono-2016-episode-96",
+      "title": "There's a Fish",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 96,
+      "createdAt": "2018-02-03T09:30:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-96"
+    },
+    {
+      "id": "bonobono-2016-episode-97",
+      "title": "The Phantom Leaf",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 97,
+      "createdAt": "2018-02-10T07:06:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-97"
+    },
+    {
+      "id": "bonobono-2016-episode-98",
+      "title": "Find Big Sis Shouu!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 98,
+      "createdAt": "2018-02-17T07:21:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-98"
+    },
+    {
+      "id": "bonobono-2016-episode-99",
+      "title": "About UMA",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 99,
+      "createdAt": "2018-02-24T06:26:31Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-99"
+    },
+    {
+      "id": "bonobono-2016-episode-100",
+      "title": "Can You Tell What I'm Thinking?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 100,
+      "createdAt": "2018-03-03T04:20:24Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-100"
+    },
+    {
+      "id": "bonobono-2016-episode-101",
+      "title": "Chipmunk Hates Bugs",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 101,
+      "createdAt": "2018-03-10T02:24:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-101"
+    },
+    {
+      "id": "bonobono-2016-episode-102",
+      "title": "If I Gained Weight",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 102,
+      "createdAt": "2018-03-17T03:33:32Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-102"
+    },
+    {
+      "id": "bonobono-2016-episode-103",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 103,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-103"
+    },
+    {
+      "id": "bonobono-2016-episode-104",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 104,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-104"
+    },
+    {
+      "id": "bonobono-2016-episode-105",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 105,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-105"
+    },
+    {
+      "id": "bonobono-2016-episode-106",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 106,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-106"
+    },
+    {
+      "id": "bonobono-2016-episode-107",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 107,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-107"
+    },
+    {
+      "id": "bonobono-2016-episode-108",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 108,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-108"
+    },
+    {
+      "id": "bonobono-2016-episode-109",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 109,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-109"
+    },
+    {
+      "id": "bonobono-2016-episode-110",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 110,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-110"
+    },
+    {
+      "id": "bonobono-2016-episode-111",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 111,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-111"
+    },
+    {
+      "id": "bonobono-2016-episode-112",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 112,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-112"
+    },
+    {
+      "id": "bonobono-2016-episode-113",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 113,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-113"
+    },
+    {
+      "id": "bonobono-2016-episode-114",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 114,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-114"
+    },
+    {
+      "id": "bonobono-2016-episode-115",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 115,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-115"
+    },
+    {
+      "id": "bonobono-2016-episode-116",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 116,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-116"
+    },
+    {
+      "id": "bonobono-2016-episode-117",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 117,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-117"
+    },
+    {
+      "id": "bonobono-2016-episode-118",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 118,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-118"
+    },
+    {
+      "id": "bonobono-2016-episode-119",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 119,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-119"
+    },
+    {
+      "id": "bonobono-2016-episode-120",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 120,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-120"
+    },
+    {
+      "id": "bonobono-2016-episode-121",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 121,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-121"
+    },
+    {
+      "id": "bonobono-2016-episode-122",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 122,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-122"
+    },
+    {
+      "id": "bonobono-2016-episode-123",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 123,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-123"
+    },
+    {
+      "id": "bonobono-2016-episode-124",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 124,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-124"
+    },
+    {
+      "id": "bonobono-2016-episode-125",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 125,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-125"
+    },
+    {
+      "id": "bonobono-2016-episode-126",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 126,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-126"
+    },
+    {
+      "id": "bonobono-2016-episode-127",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 127,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-127"
+    },
+    {
+      "id": "bonobono-2016-episode-128",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 128,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-128"
+    },
+    {
+      "id": "bonobono-2016-episode-129",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 129,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-129"
+    },
+    {
+      "id": "bonobono-2016-episode-130",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 130,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-130"
+    },
+    {
+      "id": "bonobono-2016-episode-131",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 131,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-131"
+    },
+    {
+      "id": "bonobono-2016-episode-132",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 132,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-132"
+    },
+    {
+      "id": "bonobono-2016-episode-133",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 133,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-133"
+    },
+    {
+      "id": "bonobono-2016-episode-134",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 134,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-134"
+    },
+    {
+      "id": "bonobono-2016-episode-135",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 135,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-135"
+    },
+    {
+      "id": "bonobono-2016-episode-136",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 136,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-136"
+    },
+    {
+      "id": "bonobono-2016-episode-137",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 137,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-137"
+    },
+    {
+      "id": "bonobono-2016-episode-138",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 138,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-138"
+    },
+    {
+      "id": "bonobono-2016-episode-139",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 139,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-139"
+    },
+    {
+      "id": "bonobono-2016-episode-140",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 140,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-140"
+    },
+    {
+      "id": "bonobono-2016-episode-141",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 141,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-141"
+    },
+    {
+      "id": "bonobono-2016-episode-142",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 142,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-142"
+    },
+    {
+      "id": "bonobono-2016-episode-143",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 143,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-143"
+    },
+    {
+      "id": "bonobono-2016-episode-144",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 144,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-144"
+    },
+    {
+      "id": "bonobono-2016-episode-145",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 145,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-145"
+    },
+    {
+      "id": "bonobono-2016-episode-146",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 146,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-146"
+    },
+    {
+      "id": "bonobono-2016-episode-147",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 147,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-147"
+    },
+    {
+      "id": "bonobono-2016-episode-148",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 148,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-148"
+    },
+    {
+      "id": "bonobono-2016-episode-149",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 149,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-149"
+    },
+    {
+      "id": "bonobono-2016-episode-150",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 150,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-150"
+    },
+    {
+      "id": "bonobono-2016-episode-151",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 151,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-151"
+    },
+    {
+      "id": "bonobono-2016-episode-152",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 152,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-152"
+    },
+    {
+      "id": "bonobono-2016-episode-153",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 153,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-153"
+    },
+    {
+      "id": "bonobono-2016-episode-154",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21552-SwVBDBQS7xP6.jpg",
+      "number": 154,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bonobono-2016-episode-154"
+    }
+  ]
+}

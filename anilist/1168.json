@@ -1,0 +1,565 @@
+{
+  "id": "1168",
+  "title": {
+    "romaji": "Musekinin Kanchou Tylor OVA",
+    "english": "Irresponsible Captain Tylor OVA",
+    "native": "無責任艦長タイラー OVA"
+  },
+  "malId": 1168,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1168-PIeqe2W74s7F.jpg",
+  "popularity": 1882,
+  "color": "#0d5086",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1168-ODnL985hKBMj.jpg",
+  "description": "Six long months have passed. The Raalgon Empire has developed a horrible new type of weapon, and Tylor has been charged with the duty of intercepting it as it is being transported. But when all that could go wrong does go wrong, the crew members of the Soyokaze find themselves at the mercy of their enemies. As the hours tick down toward their execution, the crew wonders: has their irresponsible captain misled them? Or is this all a part of some greater strategy?<br><br>\n(Source: RightStuf)",
+  "status": "Completed",
+  "releaseDate": 1994,
+  "startDate": {
+    "year": 1994,
+    "month": 10,
+    "day": 1
+  },
+  "endDate": {
+    "year": 1996,
+    "month": 8,
+    "day": 1
+  },
+  "totalEpisodes": 10,
+  "currentEpisode": 10,
+  "rating": 66,
+  "duration": 48,
+  "genres": [
+    "Adventure",
+    "Comedy",
+    "Drama",
+    "Sci-Fi"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Studio DEEN"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 20057,
+      "malId": 20057,
+      "title": {
+        "romaji": "Space☆Dandy",
+        "english": "Space Dandy",
+        "native": "スペース☆ダンディ",
+        "userPreferred": "Space☆Dandy"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20057-yMtjgvyi8x7w.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20057.jpg",
+      "rating": 77,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 15060,
+      "role": "MAIN",
+      "name": {
+        "first": "Azalyn",
+        "last": "Goza",
+        "full": "Azalyn Goza",
+        "native": "アザリン",
+        "userPreferred": "Azalyn Goza"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15060.jpg",
+      "voiceActors": [
+        {
+          "id": 95690,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroko",
+            "last": "Kasahara",
+            "full": "Hiroko Kasahara",
+            "native": "笠原弘子",
+            "userPreferred": "Hiroko Kasahara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95690-tXJK0bhRJ0qf.jpg"
+        },
+        {
+          "id": 95783,
+          "language": "English",
+          "name": {
+            "first": "Lisa",
+            "last": "Ortiz",
+            "full": "Lisa Ortiz",
+            "native": null,
+            "userPreferred": "Lisa Ortiz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95783-B8D6v4SFpgA7.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3643,
+      "role": "MAIN",
+      "name": {
+        "first": "Justy Ueki",
+        "last": "Tylor",
+        "full": "Justy Ueki Tylor",
+        "native": "ジャスティ・ウエキ・タイラー",
+        "userPreferred": "Justy Ueki Tylor"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b3643-x1lE8gsXzEVy.png",
+      "voiceActors": [
+        {
+          "id": 95427,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouji",
+            "last": "Tsujitani",
+            "full": "Kouji Tsujitani",
+            "native": "辻谷耕史",
+            "userPreferred": "Kouji Tsujitani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95427-g0bwNKDLlROd.png"
+        },
+        {
+          "id": 95019,
+          "language": "English",
+          "name": {
+            "first": "Crispin",
+            "last": "Freeman",
+            "full": "Crispin Freeman",
+            "native": null,
+            "userPreferred": "Crispin Freeman"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95019-o7SDOiPsPXKs.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10324,
+      "role": "MAIN",
+      "name": {
+        "first": "Yuriko",
+        "last": "Star",
+        "full": "Yuriko Star",
+        "native": "ユリコ・スター",
+        "userPreferred": "Yuriko Star"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b10324-XgJQFRCZEt9S.png",
+      "voiceActors": [
+        {
+          "id": 95290,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuri",
+            "last": "Amano",
+            "full": "Yuri Amano",
+            "native": "天野由梨",
+            "userPreferred": "Yuri Amano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95290-nU8h5vWr8RCv.jpg"
+        },
+        {
+          "id": 96503,
+          "language": "English",
+          "name": {
+            "first": "Rachael",
+            "last": "Lillis",
+            "full": "Rachael Lillis",
+            "native": null,
+            "userPreferred": "Rachael Lillis"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96503-BpnE3dFXJnyF.jpg"
+        }
+      ]
+    },
+    {
+      "id": 52741,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kyung Hwa",
+        "last": "Kim",
+        "full": "Kyung Hwa Kim",
+        "native": "キョンファ・キム",
+        "userPreferred": "Kyung Hwa Kim"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b52741-aASjvK7dWgvh.png",
+      "voiceActors": [
+        {
+          "id": 95009,
+          "language": "Japanese",
+          "name": {
+            "first": "Kotono",
+            "last": "Mitsuishi",
+            "full": "Kotono Mitsuishi",
+            "native": "三石琴乃",
+            "userPreferred": "Kotono Mitsuishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95009-d01Dg8mMwcg6.png"
+        },
+        {
+          "id": 143442,
+          "language": "English",
+          "name": {
+            "first": "Jill",
+            "last": "Seifers-Walsh",
+            "full": "Jill Seifers-Walsh",
+            "native": null,
+            "userPreferred": "Jill Seifers-Walsh"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n143442-b2U9pGIGD1Wc.jpg"
+        }
+      ]
+    },
+    {
+      "id": 26367,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ru Baraba",
+        "last": "Dom",
+        "full": "Ru Baraba Dom",
+        "native": null,
+        "userPreferred": "Ru Baraba Dom"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b26367-ap6CTCIhdrpT.png",
+      "voiceActors": [
+        {
+          "id": 95129,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshihiko",
+            "last": "Seki",
+            "full": "Toshihiko Seki",
+            "native": "関俊彦",
+            "userPreferred": "Toshihiko Seki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95129-AAL7kfwAPpgR.jpg"
+        },
+        {
+          "id": 143440,
+          "language": "English",
+          "name": {
+            "first": "Josh",
+            "last": "Mosby",
+            "full": "Josh Mosby",
+            "native": null,
+            "userPreferred": "Josh Mosby"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n143440-kNAM5B2RVKH8.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13465,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Makoto",
+        "last": "Yamamoto",
+        "full": "Makoto Yamamoto",
+        "native": null,
+        "userPreferred": "Makoto Yamamoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/13465.jpg",
+      "voiceActors": [
+        {
+          "id": 95137,
+          "language": "Japanese",
+          "name": {
+            "first": "Shou",
+            "last": "Hayami",
+            "full": "Shou Hayami",
+            "native": "速水奨",
+            "userPreferred": "Shou Hayami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95137-2Q5l3Br9G7sk.png"
+        },
+        {
+          "id": 96477,
+          "language": "English",
+          "name": {
+            "first": "David",
+            "last": "Brimmer",
+            "full": "David Brimmer",
+            "native": null,
+            "userPreferred": "David Brimmer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96477-ktju4bT4kfJA.png"
+        }
+      ]
+    },
+    {
+      "id": 33704,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shia",
+        "last": "Has",
+        "full": "Shia Has",
+        "native": null,
+        "userPreferred": "Shia Has"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b33704-ju09EkKSgFt4.png",
+      "voiceActors": [
+        {
+          "id": 95638,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Iguchi",
+            "full": "Yuuko Iguchi",
+            "native": "井口友子",
+            "userPreferred": "Yuuko Iguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/638.jpg"
+        },
+        {
+          "id": 95905,
+          "language": "English",
+          "name": {
+            "first": "Veronica",
+            "last": "Taylor",
+            "full": "Veronica Taylor",
+            "native": null,
+            "userPreferred": "Veronica Taylor"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95905-X3mxkcZkmmKN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 52771,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jason",
+        "last": null,
+        "full": "Jason",
+        "native": null,
+        "userPreferred": "Jason"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/52771.jpg",
+      "voiceActors": [
+        {
+          "id": 95434,
+          "language": "Japanese",
+          "name": {
+            "first": "Kousuke",
+            "last": "Okano",
+            "full": "Kousuke Okano",
+            "native": "岡野浩介",
+            "userPreferred": "Kousuke Okano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95434-xQdjmxXTMJcU.png"
+        },
+        {
+          "id": 102231,
+          "language": "English",
+          "name": {
+            "first": "Anthony",
+            "last": "Salerno",
+            "full": "Anthony Salerno",
+            "native": null,
+            "userPreferred": "Anthony Salerno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102231-6WPyta62vcoL.jpg"
+        }
+      ]
+    },
+    {
+      "id": 52773,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bunta",
+        "last": null,
+        "full": "Bunta",
+        "native": null,
+        "userPreferred": "Bunta"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/52773.jpg",
+      "voiceActors": [
+        {
+          "id": 95058,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuji",
+            "last": "Ueda",
+            "full": "Yuuji Ueda",
+            "native": "うえだゆうじ",
+            "userPreferred": "Yuuji Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95058-fGnId7E4tgx3.jpg"
+        },
+        {
+          "id": 102231,
+          "language": "English",
+          "name": {
+            "first": "Anthony",
+            "last": "Salerno",
+            "full": "Anthony Salerno",
+            "native": null,
+            "userPreferred": "Anthony Salerno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102231-6WPyta62vcoL.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 569,
+      "relationType": "PREQUEL",
+      "malId": 569,
+      "title": {
+        "romaji": "Musekinin Kanchou Tylor",
+        "english": "The Irresponsible Captain Tylor",
+        "native": "無責任艦長タイラー",
+        "userPreferred": "Musekinin Kanchou Tylor"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx569-xlw4m3TkFBll.png",
+      "color": "#5dbbf1",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/569-tx53LgxBLaxX.jpg",
+      "rating": 75
+    },
+    {
+      "id": 45526,
+      "relationType": "SEQUEL",
+      "malId": 15526,
+      "title": {
+        "romaji": "Shin Musekinin Kanchou Tylor Gaiden: Love & War",
+        "english": null,
+        "native": "真・無責任艦長タイラー外伝 Love&War",
+        "userPreferred": "Shin Musekinin Kanchou Tylor Gaiden: Love & War"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b45526-Xc1d4BFZLsxk.png",
+      "color": "#d6bb1a",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b45526-Xc1d4BFZLsxk.png",
+      "rating": 81
+    },
+    {
+      "id": 119919,
+      "relationType": "OTHER",
+      "malId": null,
+      "title": {
+        "romaji": "Musekinin Kanchou Tylor Complete Collection \"Music Clip\"",
+        "english": null,
+        "native": "無責任艦長タイラー コンプリート・コレクション「ミュージック・クリップ」",
+        "userPreferred": "Musekinin Kanchou Tylor Complete Collection \"Music Clip\""
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b119919-ATnVuyBTALpE.png",
+      "color": "#ae7835",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/119919-kP8YBau518zM.jpg",
+      "rating": 58
+    },
+    {
+      "id": 99055,
+      "relationType": "OTHER",
+      "malId": 35730,
+      "title": {
+        "romaji": "Musekinin Galaxy☆Tylor",
+        "english": "The Irresponsible Galaxy Tylor",
+        "native": "無責任ギャラクシー☆タイラー",
+        "userPreferred": "Musekinin Galaxy☆Tylor"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99055-pQ51xUbe8A36.png",
+      "color": "#e4c95d",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99055-IL7rxfg28ZiG.jpg",
+      "rating": 32
+    }
+  ],
+  "episodes": [
+    {
+      "id": "musekinin-kanchou-tylor-ova-episode-1-2",
+      "title": "Tylor's War, Part 1",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20368/original.jpeg",
+      "number": 1.2,
+      "createdAt": "2013-02-20T18:22:20Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//musekinin-kanchou-tylor-ova-episode-1-2"
+    },
+    {
+      "id": "musekinin-kanchou-tylor-ova-episode-3",
+      "title": "Tylor's War, Part 2",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20369/original.jpeg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:22:20Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//musekinin-kanchou-tylor-ova-episode-3"
+    },
+    {
+      "id": "musekinin-kanchou-tylor-ova-episode-4",
+      "title": "The Samurai's Narrow Escape",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20370/original.jpeg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:22:20Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//musekinin-kanchou-tylor-ova-episode-4"
+    },
+    {
+      "id": "musekinin-kanchou-tylor-ova-episode-5",
+      "title": "The High-Tech Opposition",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20371/original.jpeg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:22:20Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//musekinin-kanchou-tylor-ova-episode-5"
+    },
+    {
+      "id": "musekinin-kanchou-tylor-ova-episode-6",
+      "title": "White Christmas",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20372/original.jpeg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:22:20Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//musekinin-kanchou-tylor-ova-episode-6"
+    },
+    {
+      "id": "musekinin-kanchou-tylor-ova-episode-7",
+      "title": "If Only the Skies Would Clear, Part 1",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20373/original.jpeg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:22:20Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//musekinin-kanchou-tylor-ova-episode-7"
+    },
+    {
+      "id": "musekinin-kanchou-tylor-ova-episode-8",
+      "title": "If Only the Skies Would Clear, Part 2",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20374/original.jpeg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:22:20Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//musekinin-kanchou-tylor-ova-episode-8"
+    },
+    {
+      "id": "musekinin-kanchou-tylor-ova-episode-9",
+      "title": "From Here to Eternity, Part 1",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20375/original.jpeg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:22:20Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//musekinin-kanchou-tylor-ova-episode-9"
+    },
+    {
+      "id": "musekinin-kanchou-tylor-ova-episode-10",
+      "title": "From Here to Eternity, Part 2",
+      "image": "https://media.kitsu.io/episodes/thumbnails/20376/original.jpeg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:22:20Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//musekinin-kanchou-tylor-ova-episode-10"
+    }
+  ]
+}

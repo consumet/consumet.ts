@@ -1,0 +1,616 @@
+{
+  "id": "1721",
+  "title": {
+    "romaji": "Hitohira",
+    "english": null,
+    "native": "ひとひら"
+  },
+  "malId": 1721,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1721.jpg",
+  "popularity": 2983,
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1721.jpg",
+  "description": "A transfer student Asai Mugi is a painfully shy girl. She is so shy that she can't speak when she becomes seriously nervous. However, for some reason, she is spotted and recruited as a member of the drama club.<br><br>\n(Source: AnimeNfo)",
+  "status": "Completed",
+  "releaseDate": 2007,
+  "startDate": {
+    "year": 2007,
+    "month": 3,
+    "day": 28
+  },
+  "endDate": {
+    "year": 2007,
+    "month": 6,
+    "day": 13
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 61,
+  "duration": 23,
+  "genres": [
+    "Drama",
+    "Romance",
+    "Slice of Life"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Xebec"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 87517,
+      "malId": 33948,
+      "title": {
+        "romaji": "Hinako Note",
+        "english": null,
+        "native": "ひなこのーと",
+        "userPreferred": "Hinako Note"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx87517-xktTn25rZrRZ.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n87517-jLlOUMG6aZoA.jpg",
+      "rating": 64,
+      "type": "TV"
+    },
+    {
+      "id": 20951,
+      "malId": 28387,
+      "title": {
+        "romaji": "Joukamachi no Dandelion",
+        "english": "Castle Town Dandelion",
+        "native": "城下町のダンデライオン",
+        "userPreferred": "Joukamachi no Dandelion"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20951-ZlzLXi9rG09L.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20951-lChQ440J1Yz3.png",
+      "rating": 69,
+      "type": "TV"
+    },
+    {
+      "id": 101573,
+      "malId": 37786,
+      "title": {
+        "romaji": "Yagate Kimi ni Naru",
+        "english": "Bloom Into You",
+        "native": "やがて君になる",
+        "userPreferred": "Yagate Kimi ni Naru"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx101573-Gql3Q3UX1jcu.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101573-yaDZ76cLeMBU.jpg",
+      "rating": 78,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 2997,
+      "role": "MAIN",
+      "name": {
+        "first": "Mugi",
+        "last": "Asai",
+        "full": "Mugi Asai",
+        "native": "麻井 麦",
+        "userPreferred": "Mugi Asai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2997.jpg",
+      "voiceActors": [
+        {
+          "id": 95940,
+          "language": "Japanese",
+          "name": {
+            "first": "Orie",
+            "last": "Kimoto",
+            "full": "Orie Kimoto",
+            "native": "樹元オリエ",
+            "userPreferred": "Orie Kimoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95940-MwyPERlm1FNX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2998,
+      "role": "MAIN",
+      "name": {
+        "first": "Nono",
+        "last": "Ichinose",
+        "full": "Nono Ichinose",
+        "native": "一ノ瀬 野乃",
+        "userPreferred": "Nono Ichinose"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2998.jpg",
+      "voiceActors": [
+        {
+          "id": 95013,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayako",
+            "last": "Kawasumi",
+            "full": "Ayako Kawasumi",
+            "native": "川澄綾子",
+            "userPreferred": "Ayako Kawasumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95013-cwl64qXuP2r7.png"
+        }
+      ]
+    },
+    {
+      "id": 2999,
+      "role": "MAIN",
+      "name": {
+        "first": "Risaki",
+        "last": "Nishida",
+        "full": "Risaki Nishida",
+        "native": "西田 理咲",
+        "userPreferred": "Risaki Nishida"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2999.jpg",
+      "voiceActors": [
+        {
+          "id": 95995,
+          "language": "Japanese",
+          "name": {
+            "first": "Kyouko",
+            "last": "Hikami",
+            "full": "Kyouko Hikami",
+            "native": "氷上恭子",
+            "userPreferred": "Kyouko Hikami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95995-zZU0UQQIQQ3N.png"
+        }
+      ]
+    },
+    {
+      "id": 3000,
+      "role": "MAIN",
+      "name": {
+        "first": "Takashi",
+        "last": "Katsuragi",
+        "full": "Takashi Katsuragi",
+        "native": "桂木 たかし",
+        "userPreferred": "Takashi Katsuragi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3000.jpg",
+      "voiceActors": [
+        {
+          "id": 95109,
+          "language": "Japanese",
+          "name": {
+            "first": "Ken",
+            "last": "Narita",
+            "full": "Ken Narita",
+            "native": "成田剣",
+            "userPreferred": "Ken Narita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95109-iOWKX2uxDWnj.png"
+        }
+      ]
+    },
+    {
+      "id": 2995,
+      "role": "MAIN",
+      "name": {
+        "first": "Kai",
+        "last": "Nishida",
+        "full": "Kai Nishida",
+        "native": "西田 甲斐",
+        "userPreferred": "Kai Nishida"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2995.jpg",
+      "voiceActors": [
+        {
+          "id": 95440,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Kishio",
+            "full": "Daisuke Kishio",
+            "native": "岸尾だいすけ",
+            "userPreferred": "Daisuke Kishio"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95440-j4iWV0MGWtBh.png"
+        }
+      ]
+    },
+    {
+      "id": 2996,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mirei",
+        "last": "Sakaki",
+        "full": "Mirei Sakaki",
+        "native": "榊 美麗",
+        "userPreferred": "Mirei Sakaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2996.jpg",
+      "voiceActors": [
+        {
+          "id": 95003,
+          "language": "Japanese",
+          "name": {
+            "first": "Satsuki",
+            "last": "Yukino",
+            "full": "Satsuki Yukino",
+            "native": "ゆきのさつき",
+            "userPreferred": "Satsuki Yukino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95003-Du7wb5JJzb8P.png"
+        }
+      ]
+    },
+    {
+      "id": 6491,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Minoru",
+        "last": "Yamaguchi",
+        "full": "Minoru Yamaguchi",
+        "native": "山口 実",
+        "userPreferred": "Minoru Yamaguchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95061,
+          "language": "Japanese",
+          "name": {
+            "first": "Chiwa",
+            "last": "Saitou",
+            "full": "Chiwa Saitou",
+            "native": "斎藤千和",
+            "userPreferred": "Chiwa Saitou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95061-R8YSAYX7UFCO.png"
+        }
+      ]
+    },
+    {
+      "id": 83079,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sachie",
+        "last": "Ayase",
+        "full": "Sachie Ayase",
+        "native": "綾瀬 幸枝",
+        "userPreferred": "Sachie Ayase"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 96504,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumi",
+            "last": "Tsunematsu",
+            "full": "Ayumi Tsunematsu",
+            "native": "恒松あゆみ",
+            "userPreferred": "Ayumi Tsunematsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96504-uR5BYvPwmSWR.png"
+        }
+      ]
+    },
+    {
+      "id": 83089,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "",
+        "last": "Kakei",
+        "full": "Kakei",
+        "native": "掛井",
+        "userPreferred": "Kakei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95061,
+          "language": "Japanese",
+          "name": {
+            "first": "Chiwa",
+            "last": "Saitou",
+            "full": "Chiwa Saitou",
+            "native": "斎藤千和",
+            "userPreferred": "Chiwa Saitou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95061-R8YSAYX7UFCO.png"
+        }
+      ]
+    },
+    {
+      "id": 21596,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kayo",
+        "last": "Tooyama",
+        "full": "Kayo Tooyama",
+        "native": "遠山 佳代",
+        "userPreferred": "Kayo Tooyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21596.jpg",
+      "voiceActors": [
+        {
+          "id": 100721,
+          "language": "Japanese",
+          "name": {
+            "first": "Miho",
+            "last": "Miyagawa",
+            "full": "Miho Miyagawa",
+            "native": "宮川美保",
+            "userPreferred": "Miho Miyagawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100721-uRUu4DMce3Dd.jpg"
+        }
+      ]
+    },
+    {
+      "id": 83087,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kyousuke",
+        "last": "Takeda",
+        "full": "Kyousuke Takeda",
+        "native": "武田 京介",
+        "userPreferred": "Kyousuke Takeda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 101611,
+          "language": "Japanese",
+          "name": {
+            "first": "Jun",
+            "last": "Oosuka",
+            "full": "Jun Oosuka",
+            "native": "大須賀純",
+            "userPreferred": "Jun Oosuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101611-jfBcAh1xzi2X.jpg"
+        }
+      ]
+    },
+    {
+      "id": 83077,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Haruko",
+        "last": "Tamashiro",
+        "full": "Haruko Tamashiro",
+        "native": "玉城 春子",
+        "userPreferred": "Haruko Tamashiro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95116,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Ueda",
+            "full": "Kana Ueda",
+            "native": "植田佳奈",
+            "userPreferred": "Kana Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95116-NvhEn6vNMiAq.png"
+        }
+      ]
+    },
+    {
+      "id": 28495,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chitose",
+        "last": "Kanna",
+        "full": "Chitose Kanna",
+        "native": "神奈 ちとせ",
+        "userPreferred": "Chitose Kanna"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28495.jpg",
+      "voiceActors": [
+        {
+          "id": 105050,
+          "language": "Japanese",
+          "name": {
+            "first": "Emi",
+            "last": "Yabusaki",
+            "full": "Emi Yabusaki",
+            "native": "えみ やぶさき",
+            "userPreferred": "Emi Yabusaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10050.jpg"
+        }
+      ]
+    },
+    {
+      "id": 83085,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hibiki",
+        "last": "Kawasaki",
+        "full": "Hibiki Kawasaki",
+        "native": "川崎 響",
+        "userPreferred": "Hibiki Kawasaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 108111,
+          "language": "Japanese",
+          "name": {
+            "first": "Akiko",
+            "last": "Tanaka",
+            "full": "Akiko Tanaka",
+            "native": "晶子 田中",
+            "userPreferred": "Akiko Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/13111.jpg"
+        }
+      ]
+    },
+    {
+      "id": 83081,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sadaharu",
+        "last": "Wakui",
+        "full": "Sadaharu Wakui",
+        "native": "和久井 貞治",
+        "userPreferred": "Sadaharu Wakui"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95633,
+          "language": "Japanese",
+          "name": {
+            "first": "Jin",
+            "last": "Domon",
+            "full": "Jin Domon",
+            "native": "土門仁",
+            "userPreferred": "Jin Domon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/633.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 31876,
+      "relationType": "ADAPTATION",
+      "malId": 1876,
+      "title": {
+        "romaji": "Hitohira",
+        "english": "Hitohira",
+        "native": "ひとひら",
+        "userPreferred": "Hitohira"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx31876-Td0sDjKgWflY.png",
+      "color": null,
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx31876-Td0sDjKgWflY.png",
+      "rating": 64
+    }
+  ],
+  "episodes": [
+    {
+      "id": "hitohira-episode-1",
+      "title": "It's, It's Impossible...",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1721.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:22:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hitohira-episode-1"
+    },
+    {
+      "id": "hitohira-episode-2",
+      "title": "Mistaken......one?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1721.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:22:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hitohira-episode-2"
+    },
+    {
+      "id": "hitohira-episode-3",
+      "title": "Debut",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1721.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:22:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hitohira-episode-3"
+    },
+    {
+      "id": "hitohira-episode-4",
+      "title": "I'm doing my best…？！",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1721.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:22:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hitohira-episode-4"
+    },
+    {
+      "id": "hitohira-episode-5",
+      "title": "Waaaaa",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1721.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:22:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hitohira-episode-5"
+    },
+    {
+      "id": "hitohira-episode-6",
+      "title": "…Will I be able to change？",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1721.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:22:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hitohira-episode-6"
+    },
+    {
+      "id": "hitohira-episode-7",
+      "title": "To Being the Friend...",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1721.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:22:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hitohira-episode-7"
+    },
+    {
+      "id": "hitohira-episode-8",
+      "title": "There is No One Person",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1721.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:22:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hitohira-episode-8"
+    },
+    {
+      "id": "hitohira-episode-9",
+      "title": "This Day is Not Forgotten!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1721.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:22:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hitohira-episode-9"
+    },
+    {
+      "id": "hitohira-episode-10",
+      "title": "Directly... Simultaneously...",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1721.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:22:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hitohira-episode-10"
+    },
+    {
+      "id": "hitohira-episode-11",
+      "title": "...Favorite Smiling Face!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1721.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:22:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hitohira-episode-11"
+    },
+    {
+      "id": "hitohira-episode-12",
+      "title": "Thank You, it was...!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1721.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:22:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hitohira-episode-12"
+    }
+  ]
+}

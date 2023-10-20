@@ -1,0 +1,579 @@
+{
+  "id": "1269",
+  "title": {
+    "romaji": "Bio Hunter",
+    "english": null,
+    "native": "バイオ・ハンター"
+  },
+  "malId": 1269,
+  "synonyms": [
+    "Biohunter"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1269.jpg",
+  "popularity": 2785,
+  "color": "#d6431a",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1269.jpg",
+  "description": "Two scientists are attempting to distribute the cure for a demon virus that is affecting people all over Japan, however, things have become complicated. One of them has become infected. So begins his battle with himself, as he attempts to not only control his emerging demon side, but also to save the lives of others by wielding its great strength. <br>",
+  "status": "Completed",
+  "releaseDate": 1995,
+  "startDate": {
+    "year": 1995,
+    "month": 12,
+    "day": 8
+  },
+  "endDate": {
+    "year": 1995,
+    "month": 12,
+    "day": 8
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 54,
+  "duration": 58,
+  "genres": [
+    "Action",
+    "Horror"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "MADHOUSE"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 3882,
+      "malId": 3882,
+      "title": {
+        "romaji": "Seijuuki Cyguard",
+        "english": "Cybernetics Guardian",
+        "native": "聖獣機サイガード",
+        "userPreferred": "Seijuuki Cyguard"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3882.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3882.jpg",
+      "rating": 48,
+      "type": "OVA"
+    },
+    {
+      "id": 2592,
+      "malId": 2592,
+      "title": {
+        "romaji": "Kimera",
+        "english": null,
+        "native": "祈明羅",
+        "userPreferred": "Kimera"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2592.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2592.jpg",
+      "rating": 42,
+      "type": "OVA"
+    },
+    {
+      "id": 1285,
+      "malId": 1285,
+      "title": {
+        "romaji": "Soukihei MD Geist",
+        "english": "MD Geist - The Most Dangerous Ever",
+        "native": "装鬼兵ＭＤガイスト",
+        "userPreferred": "Soukihei MD Geist"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1285-eIfSlxOlrwIi.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1285-eNkxC25ObMhJ.jpg",
+      "rating": 49,
+      "type": "OVA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 69469,
+      "role": "MAIN",
+      "name": {
+        "first": "Koshigaya",
+        "last": null,
+        "full": "Koshigaya",
+        "native": "越ヶ谷",
+        "userPreferred": "Koshigaya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/69469.jpg",
+      "voiceActors": [
+        {
+          "id": 95021,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuhiko",
+            "last": "Inoue",
+            "full": "Kazuhiko Inoue",
+            "native": "井上和彦",
+            "userPreferred": "Kazuhiko Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95021-9qAoAn6GNZ3S.png"
+        },
+        {
+          "id": 96007,
+          "language": "English",
+          "name": {
+            "first": "Matthew Kermit",
+            "last": "Miller",
+            "full": "Matthew Kermit Miller",
+            "native": null,
+            "userPreferred": "Matthew Kermit Miller"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1007.jpg"
+        },
+        {
+          "id": 96623,
+          "language": "French",
+          "name": {
+            "first": "Damien",
+            "last": "Boisseau",
+            "full": "Damien Boisseau",
+            "native": null,
+            "userPreferred": "Damien Boisseau"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1623.jpg"
+        },
+        {
+          "id": 140341,
+          "language": "German",
+          "name": {
+            "first": "Frank",
+            "last": "Röth",
+            "full": "Frank Röth",
+            "native": null,
+            "userPreferred": "Frank Röth"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n140341-t1PMP0aDt000.png"
+        }
+      ]
+    },
+    {
+      "id": 69475,
+      "role": "MAIN",
+      "name": {
+        "first": "Komada",
+        "last": null,
+        "full": "Komada",
+        "native": "駒田",
+        "userPreferred": "Komada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/69475.jpg",
+      "voiceActors": [
+        {
+          "id": 95129,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshihiko",
+            "last": "Seki",
+            "full": "Toshihiko Seki",
+            "native": "関俊彦",
+            "userPreferred": "Toshihiko Seki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95129-AAL7kfwAPpgR.jpg"
+        },
+        {
+          "id": 115454,
+          "language": "English",
+          "name": {
+            "first": "Matt",
+            "last": "McKenzie",
+            "full": "Matt McKenzie",
+            "native": null,
+            "userPreferred": "Matt McKenzie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/20454.jpg"
+        },
+        {
+          "id": 144769,
+          "language": "French",
+          "name": {
+            "first": "Philippe",
+            "last": "Peythieu",
+            "full": "Philippe Peythieu",
+            "native": null,
+            "userPreferred": "Philippe Peythieu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n144769-8sc2JN9JYeJy.png"
+        },
+        {
+          "id": 100916,
+          "language": "German",
+          "name": {
+            "first": "Philipp",
+            "last": "Moog",
+            "full": "Philipp Moog",
+            "native": null,
+            "userPreferred": "Philipp Moog"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 69471,
+      "role": "MAIN",
+      "name": {
+        "first": "Sayaka",
+        "last": "Murakami",
+        "full": "Sayaka Murakami",
+        "native": "さやか",
+        "userPreferred": "Sayaka Murakami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/69471.jpg",
+      "voiceActors": [
+        {
+          "id": 95170,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Minaguchi",
+            "full": "Yuuko Minaguchi",
+            "native": "皆口裕子",
+            "userPreferred": "Yuuko Minaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95170-oAiTh7t2T1J0.png"
+        },
+        {
+          "id": 95163,
+          "language": "English",
+          "name": {
+            "first": "Sherry",
+            "last": "Lynn",
+            "full": "Sherry Lynn",
+            "native": null,
+            "userPreferred": "Sherry Lynn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95163-q7DJQ5g1XEPJ.jpg"
+        },
+        {
+          "id": 167577,
+          "language": "French",
+          "name": {
+            "first": "Christiane",
+            "last": "Jean",
+            "full": "Christiane Jean",
+            "native": null,
+            "userPreferred": "Christiane Jean"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 114932,
+          "language": "German",
+          "name": {
+            "first": "Claudia",
+            "last": "Lossl",
+            "full": "Claudia Lossl",
+            "native": "Claudia Lössl",
+            "userPreferred": "Claudia Lossl"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/19932.jpg"
+        }
+      ]
+    },
+    {
+      "id": 78267,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "OL",
+        "last": null,
+        "full": "OL",
+        "native": null,
+        "userPreferred": "OL"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/78267.jpg",
+      "voiceActors": [
+        {
+          "id": 101397,
+          "language": "Japanese",
+          "name": {
+            "first": "Mizue",
+            "last": "Ootsuka",
+            "full": "Mizue Ootsuka",
+            "native": "大塚みずえ",
+            "userPreferred": "Mizue Ootsuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6397.jpg"
+        },
+        {
+          "id": 100917,
+          "language": "German",
+          "name": {
+            "first": "Martina",
+            "last": "Duncker",
+            "full": "Martina Duncker",
+            "native": null,
+            "userPreferred": "Martina Duncker"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 69477,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Marie",
+        "last": null,
+        "full": "Marie",
+        "native": "真理絵",
+        "userPreferred": "Marie"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/69477.jpg",
+      "voiceActors": [
+        {
+          "id": 102524,
+          "language": "Japanese",
+          "name": {
+            "first": "Rei",
+            "last": "Igarashi",
+            "full": "Rei Igarashi",
+            "native": "五十嵐麗",
+            "userPreferred": "Rei Igarashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102524-g3nz3coVOPFS.jpg"
+        },
+        {
+          "id": 95536,
+          "language": "English",
+          "name": {
+            "first": "Barbara",
+            "last": "Goodson",
+            "full": "Barbara Goodson",
+            "native": null,
+            "userPreferred": "Barbara Goodson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95536-jKbTvYfcrPaM.jpg"
+        },
+        {
+          "id": 146358,
+          "language": "German",
+          "name": {
+            "first": "Kathrin",
+            "last": "Simon",
+            "full": "Kathrin Simon",
+            "native": null,
+            "userPreferred": "Kathrin Simon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 78261,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yoshikawa",
+        "last": null,
+        "full": "Yoshikawa",
+        "native": "美川",
+        "userPreferred": "Yoshikawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/78261.jpg",
+      "voiceActors": [
+        {
+          "id": 95836,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryuuzaburou",
+            "last": "Ootomo",
+            "full": "Ryuuzaburou Ootomo",
+            "native": "大友龍三郎",
+            "userPreferred": "Ryuuzaburou Ootomo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95836-cHQyycQ0PWo2.jpg"
+        },
+        {
+          "id": 96007,
+          "language": "English",
+          "name": {
+            "first": "Matthew Kermit",
+            "last": "Miller",
+            "full": "Matthew Kermit Miller",
+            "native": null,
+            "userPreferred": "Matthew Kermit Miller"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1007.jpg"
+        },
+        {
+          "id": 107323,
+          "language": "German",
+          "name": {
+            "first": "Christoph",
+            "last": "Jablonka",
+            "full": "Christoph Jablonka",
+            "native": null,
+            "userPreferred": "Christoph Jablonka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12323.jpg"
+        }
+      ]
+    },
+    {
+      "id": 69473,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bokudo",
+        "last": "Murakami",
+        "full": "Bokudo Murakami",
+        "native": "ト堂",
+        "userPreferred": "Bokudo Murakami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/69473.jpg",
+      "voiceActors": [
+        {
+          "id": 95974,
+          "language": "Japanese",
+          "name": {
+            "first": "Chikao",
+            "last": "Ootsuka",
+            "full": "Chikao Ootsuka",
+            "native": "大塚周夫",
+            "userPreferred": "Chikao Ootsuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95974-SvJQqqEApoSf.png"
+        },
+        {
+          "id": 110845,
+          "language": "English",
+          "name": {
+            "first": "Mike",
+            "last": "Reynolds",
+            "full": "Mike Reynolds",
+            "native": null,
+            "userPreferred": "Mike Reynolds"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n110845-gdj2LYdzEM4e.jpg"
+        },
+        {
+          "id": 172677,
+          "language": "German",
+          "name": {
+            "first": "Horst",
+            "last": "Raspe",
+            "full": "Horst Raspe",
+            "native": null,
+            "userPreferred": "Horst Raspe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 78263,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Seijuro",
+        "last": "Tabe",
+        "full": "Seijuro Tabe",
+        "native": "多部",
+        "userPreferred": "Seijuro Tabe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/78263.jpg",
+      "voiceActors": [
+        {
+          "id": 96252,
+          "language": "Japanese",
+          "name": {
+            "first": "Tarou",
+            "last": "Ishida",
+            "full": "Tarou Ishida",
+            "native": "石田太郎",
+            "userPreferred": "Tarou Ishida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1252.jpg"
+        },
+        {
+          "id": 104906,
+          "language": "English",
+          "name": {
+            "first": "Barry",
+            "last": "Stigler",
+            "full": "Barry Stigler",
+            "native": null,
+            "userPreferred": "Barry Stigler"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9906.jpg"
+        },
+        {
+          "id": 156058,
+          "language": "German",
+          "name": {
+            "first": "Thomas",
+            "last": "Rau",
+            "full": "Thomas Rau",
+            "native": null,
+            "userPreferred": "Thomas Rau"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 78269,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Keikan",
+        "last": null,
+        "full": "Keikan",
+        "native": "警官",
+        "userPreferred": "Keikan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/78269.jpg",
+      "voiceActors": [
+        {
+          "id": 101207,
+          "language": "Japanese",
+          "name": {
+            "first": "Daiki",
+            "last": "Nakamura",
+            "full": "Daiki Nakamura",
+            "native": "中村大樹",
+            "userPreferred": "Daiki Nakamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101207-auZVaqSt1LfQ.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 72643,
+      "relationType": "ADAPTATION",
+      "malId": 42643,
+      "title": {
+        "romaji": "Bio Hunter",
+        "english": null,
+        "native": "バイオ・ハンター",
+        "userPreferred": "Bio Hunter"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b72643-MYanXwP19paE.png",
+      "color": "#a15d28",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b72643-MYanXwP19paE.png",
+      "rating": 35
+    }
+  ],
+  "episodes": [
+    {
+      "id": "bio-hunter-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1269.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bio-hunter-episode-1"
+    }
+  ]
+}

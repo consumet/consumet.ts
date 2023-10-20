@@ -1,0 +1,436 @@
+{
+  "id": "668",
+  "title": {
+    "romaji": "Koi Koi 7",
+    "english": "Love Love Seven",
+    "native": "こいこい7"
+  },
+  "malId": 668,
+  "synonyms": [
+    "Koi Koi Seven",
+    "Koikoi7",
+    "Koikoi 7"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/668.jpg",
+  "popularity": 2646,
+  "color": "#e4bb5d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/668.jpg",
+  "description": "Tanaka Tetsuro is excited at getting a full scholarship at a new high school, far away from his family. What he does not know is that he will be the only boy in an all girl school, and that there is a girl head-over-heels in love with him, waiting for his arrival. But his special friendship with the very cute and dynamic Asuka also causes him to get into a lot of trouble with the powerful student council leadership, as they are at open war with Asuka and her five friends, a group of super amazon warriors called the Koi Koi Seven. <br>",
+  "status": "Completed",
+  "releaseDate": 2005,
+  "startDate": {
+    "year": 2005,
+    "month": 4,
+    "day": 2
+  },
+  "endDate": {
+    "year": 2005,
+    "month": 6,
+    "day": 25
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 50,
+  "duration": 25,
+  "genres": [
+    "Comedy",
+    "Ecchi",
+    "Mecha",
+    "Romance"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Studio Flag",
+    "Trinet Entertainment"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 98491,
+      "malId": 35203,
+      "title": {
+        "romaji": "Isekai wa Smartphone to Tomo ni.",
+        "english": "In Another World With My Smartphone",
+        "native": "異世界はスマートフォンとともに。",
+        "userPreferred": "Isekai wa Smartphone to Tomo ni."
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98491-5vyX89aabiHz.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98491-6ot86unqGUj4.jpg",
+      "rating": 58,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 17846,
+      "role": "MAIN",
+      "name": {
+        "first": "Sakuya",
+        "last": "Kazamatsuri",
+        "full": "Sakuya Kazamatsuri",
+        "native": "風祭 サクヤ",
+        "userPreferred": "Sakuya Kazamatsuri"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17846.jpg",
+      "voiceActors": [
+        {
+          "id": 105922,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayako",
+            "last": "Itou",
+            "full": "Ayako Itou",
+            "native": "伊藤亜矢子",
+            "userPreferred": "Ayako Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10922.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17843,
+      "role": "MAIN",
+      "name": {
+        "first": "Tetsuro",
+        "last": "Tanaka",
+        "full": "Tetsuro Tanaka",
+        "native": "田中 哲朗",
+        "userPreferred": "Tetsuro Tanaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17843.jpg",
+      "voiceActors": [
+        {
+          "id": 95220,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Tai",
+            "full": "Yuuki Tai",
+            "native": "泰勇気",
+            "userPreferred": "Yuuki Tai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/220.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17847,
+      "role": "MAIN",
+      "name": {
+        "first": "Miyabi",
+        "last": "Tsukuyomi",
+        "full": "Miyabi Tsukuyomi",
+        "native": "月読 ミヤビ",
+        "userPreferred": "Miyabi Tsukuyomi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17847.jpg",
+      "voiceActors": [
+        {
+          "id": 96465,
+          "language": "Japanese",
+          "name": {
+            "first": "Akiko",
+            "last": "Kawase",
+            "full": "Akiko Kawase",
+            "native": "川瀬晶子",
+            "userPreferred": "Akiko Kawase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1465.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17848,
+      "role": "MAIN",
+      "name": {
+        "first": "Otome",
+        "last": "Chono",
+        "full": "Otome Chono",
+        "native": "蝶野 オトメ",
+        "userPreferred": "Otome Chono"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17848.jpg",
+      "voiceActors": [
+        {
+          "id": 95701,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuna",
+            "last": "Inamura",
+            "full": "Yuuna Inamura",
+            "native": "優奈 稲村",
+            "userPreferred": "Yuuna Inamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/701.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15040,
+      "role": "MAIN",
+      "name": {
+        "first": "Yayoi",
+        "last": "Asuka",
+        "full": "Yayoi Asuka",
+        "native": null,
+        "userPreferred": "Yayoi Asuka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15040.jpg",
+      "voiceActors": [
+        {
+          "id": 95211,
+          "language": "Japanese",
+          "name": {
+            "first": "Saori",
+            "last": "Gotou",
+            "full": "Saori Gotou",
+            "native": "後藤沙緒里",
+            "userPreferred": "Saori Gotou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95211-d04fFmOyVpfz.png"
+        }
+      ]
+    },
+    {
+      "id": 17845,
+      "role": "MAIN",
+      "name": {
+        "first": "Hifumi",
+        "last": "Inokai",
+        "full": "Hifumi Inokai",
+        "native": "猪飼 ヒフミ",
+        "userPreferred": "Hifumi Inokai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17845.jpg",
+      "voiceActors": [
+        {
+          "id": 95171,
+          "language": "Japanese",
+          "name": {
+            "first": "Kimiko",
+            "last": "Koyama",
+            "full": "Kimiko Koyama",
+            "native": "こやまきみこ",
+            "userPreferred": "Kimiko Koyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95171-3stlotkrIlFD.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17844,
+      "role": "MAIN",
+      "name": {
+        "first": "Akiwo",
+        "last": "Suzuka",
+        "full": "Akiwo Suzuka",
+        "native": "鈴鹿 アキヲ",
+        "userPreferred": "Akiwo Suzuka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17844.jpg",
+      "voiceActors": [
+        {
+          "id": 101625,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Gibu",
+            "full": "Yuuko Gibu",
+            "native": "儀武ゆう子",
+            "userPreferred": "Yuuko Gibu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/101625-xy2dEvGoLudC.jpg"
+        }
+      ]
+    },
+    {
+      "id": 27971,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Celonius 28",
+        "last": "Asuka Yayoi",
+        "full": "Celonius 28 Asuka Yayoi",
+        "native": "セロニアス28号",
+        "userPreferred": "Celonius 28 Asuka Yayoi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/27971.jpg",
+      "voiceActors": [
+        {
+          "id": 95081,
+          "language": "Japanese",
+          "name": {
+            "first": "Nana",
+            "last": "Mizuki",
+            "full": "Nana Mizuki",
+            "native": "水樹奈々",
+            "userPreferred": "Nana Mizuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95081-qto4UanYkpQT.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 36330,
+      "relationType": "ADAPTATION",
+      "malId": 6330,
+      "title": {
+        "romaji": "Koi Koi 7",
+        "english": null,
+        "native": "こいこい7",
+        "userPreferred": "Koi Koi 7"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/6330.jpg",
+      "color": "#f1350d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/6330.jpg",
+      "rating": 56
+    },
+    {
+      "id": 2910,
+      "relationType": "OTHER",
+      "malId": 2910,
+      "title": {
+        "romaji": "Koi Koi 7 Specials",
+        "english": "Love Love Seven Specials",
+        "native": "こいこい7 Specials",
+        "userPreferred": "Koi Koi 7 Specials"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2910.jpg",
+      "color": "#e4e486",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2910.jpg",
+      "rating": 52
+    }
+  ],
+  "episodes": [
+    {
+      "id": "koikoi-7-episode-1",
+      "title": "Flowers are in Full Bloom! Koi Koi Sevens Love is in Full Throttle",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/668.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:21:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//koikoi-7-episode-1"
+    },
+    {
+      "id": "koikoi-7-episode-2",
+      "title": "Bravo, Girls! Rocked and Drifted! Watch Miyas Counterattack!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/668.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:21:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//koikoi-7-episode-2"
+    },
+    {
+      "id": "koikoi-7-episode-3",
+      "title": "Special Effects Are On Fire! Beyond Akiwos Heart...What?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/668.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:21:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//koikoi-7-episode-3"
+    },
+    {
+      "id": "koikoi-7-episode-4",
+      "title": "Beautiful Flowers Are Soon Picked! What Is Otomeis Daydream?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/668.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:21:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//koikoi-7-episode-4"
+    },
+    {
+      "id": "koikoi-7-episode-5",
+      "title": "Splendides! Concours De Beaute, Traansperce Le Ciel D'Odaiba!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/668.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:21:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//koikoi-7-episode-5"
+    },
+    {
+      "id": "koikoi-7-episode-6",
+      "title": "Hot-Blooded Fighting Spirit! Pitiless Sergeant! Work Like a Devil, Sakuya!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/668.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:21:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//koikoi-7-episode-6"
+    },
+    {
+      "id": "koikoi-7-episode-7",
+      "title": "Storm of White Lilies! Ah! My Sweet Darling, I Think of You Wherever You Are!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/668.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:21:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//koikoi-7-episode-7"
+    },
+    {
+      "id": "koikoi-7-episode-8",
+      "title": "The Goddess Awakens!? Light and Darkness of Yayoi Asuka",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/668.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:21:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//koikoi-7-episode-8"
+    },
+    {
+      "id": "koikoi-7-episode-9",
+      "title": "Advent of a Little Girl! First Outing of Gantai, the Resurrected Girl.",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/668.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:21:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//koikoi-7-episode-9"
+    },
+    {
+      "id": "koikoi-7-episode-10",
+      "title": "Sigh of Love Sick!? Hifumi Is in High Mood! It is a Transient Day of Love!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/668.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:21:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//koikoi-7-episode-10"
+    },
+    {
+      "id": "koikoi-7-episode-11",
+      "title": "A Gorgeous Party!? Miya Explodes! Showdown at the Sand Castle.",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/668.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:21:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//koikoi-7-episode-11"
+    },
+    {
+      "id": "koikoi-7-episode-12",
+      "title": "A Sensational Incident! What Do Two of You Cry Out in the Center of World!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/668.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:21:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//koikoi-7-episode-12"
+    },
+    {
+      "id": "koikoi-7-episode-13",
+      "title": "Tropical Paradise!? Fight With Naked Bodies! the Decisive Battle Field Is Tora Tora Tora",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/668.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:21:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//koikoi-7-episode-13"
+    }
+  ]
+}

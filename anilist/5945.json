@@ -1,0 +1,664 @@
+{
+  "id": "5945",
+  "title": {
+    "romaji": "Element Hunters",
+    "english": null,
+    "native": "エレメントハンター"
+  },
+  "malId": 5945,
+  "synonyms": [
+    "Elementhunters",
+    "Element Hunter"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+  "popularity": 2008,
+  "color": "#f1bb43",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+  "description": "In 2029, a large scale ground sinkage occurred in the Mediterranean Sea. Chemical elements such as oxygen, carbon, gold, molybdenum, and cobalt disappeared from the earth's crust suddenly. The human population was decreased by 90% in sixty years. Researchers found out that the disappeared elements were drained into a planet \"Nega Earth\", located in another dimension. To save the Earth, a special team called the \"Element Hunters\" is organized. All of the members are under 13 years old, because young and flexible brains are needed to access \"Nega Earth\".",
+  "status": "Completed",
+  "releaseDate": 2009,
+  "startDate": {
+    "year": 2009,
+    "month": 7,
+    "day": 4
+  },
+  "endDate": {
+    "year": 2010,
+    "month": 3,
+    "day": 27
+  },
+  "totalEpisodes": 39,
+  "currentEpisode": 39,
+  "rating": 55,
+  "duration": 20,
+  "genres": [
+    "Sci-Fi"
+  ],
+  "season": "SUMMER",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 23658,
+      "role": "MAIN",
+      "name": {
+        "first": "Homi",
+        "last": "Nandie",
+        "full": "Homi Nandie",
+        "native": "ホミ・ナンディ",
+        "userPreferred": "Homi Nandie"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/23658.jpg",
+      "voiceActors": [
+        {
+          "id": 95057,
+          "language": "Japanese",
+          "name": {
+            "first": "Houko",
+            "last": "Kuwashima",
+            "full": "Houko Kuwashima",
+            "native": "桑島法子",
+            "userPreferred": "Houko Kuwashima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95057-nMZEwJet445W.jpg"
+        }
+      ]
+    },
+    {
+      "id": 23657,
+      "role": "MAIN",
+      "name": {
+        "first": "Chiara",
+        "last": "Ferina",
+        "full": "Chiara Ferina",
+        "native": "キアラ・フィリーナ",
+        "userPreferred": "Chiara Ferina"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/23657.jpg",
+      "voiceActors": [
+        {
+          "id": 95411,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsuko",
+            "last": "Enomoto",
+            "full": "Atsuko Enomoto",
+            "native": "榎本温子",
+            "userPreferred": "Atsuko Enomoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95411-yVQiIcuYzQXr.jpg"
+        }
+      ]
+    },
+    {
+      "id": 23656,
+      "role": "MAIN",
+      "name": {
+        "first": "Ren",
+        "last": "Karas",
+        "full": "Ren Karas",
+        "native": "レン・カラス",
+        "userPreferred": "Ren Karas"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/23656.jpg",
+      "voiceActors": [
+        {
+          "id": 101445,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuutaro",
+            "last": "Honjou",
+            "full": "Yuutaro Honjou",
+            "native": "雄太郎  本城 ",
+            "userPreferred": "Yuutaro Honjou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6445.jpg"
+        },
+        {
+          "id": 103812,
+          "language": "Korean",
+          "name": {
+            "first": "Mi Sook",
+            "last": "Jeong",
+            "full": "Mi Sook Jeong",
+            "native": "숙 정미",
+            "userPreferred": "Mi Sook Jeong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8812.jpg"
+        }
+      ]
+    },
+    {
+      "id": 27123,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ally",
+        "last": "Connolly",
+        "full": "Ally Connolly",
+        "native": "アリー・コナリー",
+        "userPreferred": "Ally Connolly"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/27123.jpg",
+      "voiceActors": [
+        {
+          "id": 95149,
+          "language": "Japanese",
+          "name": {
+            "first": "Sanae",
+            "last": "Kobayashi",
+            "full": "Sanae Kobayashi",
+            "native": "小林沙苗",
+            "userPreferred": "Sanae Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95149-xNDmN92Feq8y.png"
+        }
+      ]
+    },
+    {
+      "id": 27126,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rodney",
+        "last": "Ford",
+        "full": "Rodney Ford",
+        "native": "ロドニー・フォード",
+        "userPreferred": "Rodney Ford"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/27126.jpg",
+      "voiceActors": [
+        {
+          "id": 95286,
+          "language": "Japanese",
+          "name": {
+            "first": "Nozomu",
+            "last": "Sasaki",
+            "full": "Nozomu Sasaki",
+            "native": "佐々木望",
+            "userPreferred": "Nozomu Sasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95286-1RlrFeFKx3jn.png"
+        },
+        {
+          "id": 109775,
+          "language": "Korean",
+          "name": {
+            "first": "Seok jeong",
+            "last": "Yang",
+            "full": "Seok jeong Yang",
+            "native": "석정 양",
+            "userPreferred": "Seok jeong Yang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14775.jpg"
+        }
+      ]
+    },
+    {
+      "id": 27159,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tom",
+        "last": "Benson",
+        "full": "Tom Benson",
+        "native": "トム・ベンソン",
+        "userPreferred": "Tom Benson"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/27159.jpg",
+      "voiceActors": [
+        {
+          "id": 95583,
+          "language": "Japanese",
+          "name": {
+            "first": "Akio",
+            "last": "Suyama",
+            "full": "Akio Suyama",
+            "native": "章央陶山",
+            "userPreferred": "Akio Suyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95583-pcq7rkDjxRTl.jpg"
+        },
+        {
+          "id": 110299,
+          "language": "Korean",
+          "name": {
+            "first": "Min Seok",
+            "last": "Kim",
+            "full": "Min Seok Kim",
+            "native": "민석 김",
+            "userPreferred": "Min Seok Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15299.jpg"
+        }
+      ]
+    },
+    {
+      "id": 27118,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Juno",
+        "last": null,
+        "full": "Juno",
+        "native": "ユノ",
+        "userPreferred": "Juno"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/27118.jpg",
+      "voiceActors": [
+        {
+          "id": 96425,
+          "language": "Japanese",
+          "name": {
+            "first": "Sara",
+            "last": "Nakayama",
+            "full": "Sara Nakayama",
+            "native": "中山さら",
+            "userPreferred": "Sara Nakayama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96425-WlEn79iYg3FO.png"
+        }
+      ]
+    },
+    {
+      "id": 26996,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Aimee",
+        "last": "Carr",
+        "full": "Aimee Carr",
+        "native": "エイミー・カー博士",
+        "userPreferred": "Aimee Carr"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26996.jpg",
+      "voiceActors": [
+        {
+          "id": 100929,
+          "language": "Japanese",
+          "name": {
+            "first": "Ako",
+            "last": "Mayama",
+            "full": "Ako Mayama",
+            "native": "真山亜子",
+            "userPreferred": "Ako Mayama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100929-yT4l5qIkOG6v.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 163064,
+      "relationType": "ADAPTATION",
+      "malId": null,
+      "title": {
+        "romaji": "Element Hunters",
+        "english": null,
+        "native": "エレメントハンター",
+        "userPreferred": "Element Hunters"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b163064-YAQFcQ5R6JwP.png",
+      "color": "#e47843",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b163064-YAQFcQ5R6JwP.png",
+      "rating": null
+    }
+  ],
+  "episodes": [
+    {
+      "id": "elementhunters-episode-1",
+      "title": "To Another World!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-1"
+    },
+    {
+      "id": "elementhunters-episode-2",
+      "title": "Unexpected Dissociation!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-2"
+    },
+    {
+      "id": "elementhunters-episode-3",
+      "title": "Our Recrystallization!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-3"
+    },
+    {
+      "id": "elementhunters-episode-4",
+      "title": "Explosion of Burning Passion!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-4"
+    },
+    {
+      "id": "elementhunters-episode-5",
+      "title": "Kiara Boiling! I am Justice!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-5"
+    },
+    {
+      "id": "elementhunters-episode-6",
+      "title": "Positive Reaction of the Heart",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-6"
+    },
+    {
+      "id": "elementhunters-episode-7",
+      "title": "Dark Matter Inside the Memories",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-7"
+    },
+    {
+      "id": "elementhunters-episode-8",
+      "title": "Pride - Heat Conduction!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-8"
+    },
+    {
+      "id": "elementhunters-episode-9",
+      "title": "Ready for Isolation! Forgive me, Mom",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-9"
+    },
+    {
+      "id": "elementhunters-episode-10",
+      "title": "The Cosmos' Number One Man of Superfluidity!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-10"
+    },
+    {
+      "id": "elementhunters-episode-11",
+      "title": "Bond the Combination Command!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-11"
+    },
+    {
+      "id": "elementhunters-episode-12",
+      "title": "Curiosity Towards Devastation",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-12"
+    },
+    {
+      "id": "elementhunters-episode-13",
+      "title": "Singularity Called the Destruction",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-13"
+    },
+    {
+      "id": "elementhunters-episode-14",
+      "title": "Destiny's Free Fall",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-14"
+    },
+    {
+      "id": "elementhunters-episode-15",
+      "title": "Hearts on Fire! One-Time Blooming!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-15"
+    },
+    {
+      "id": "elementhunters-episode-16",
+      "title": "Birthday ! Low Pressure Leader",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-16"
+    },
+    {
+      "id": "elementhunters-episode-17",
+      "title": "The Day We Caught a Glimpse of a Symbiosis",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-17"
+    },
+    {
+      "id": "elementhunters-episode-18",
+      "title": "Sunset on the Third Planet",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-18"
+    },
+    {
+      "id": "elementhunters-episode-19",
+      "title": "The Autonomous Mineral is Here!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-19"
+    },
+    {
+      "id": "elementhunters-episode-20",
+      "title": "Mysterious Mimicry Object",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-20"
+    },
+    {
+      "id": "elementhunters-episode-21",
+      "title": "Unknown Threat! Metallic Lifeform",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 21,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-21"
+    },
+    {
+      "id": "elementhunters-episode-22",
+      "title": "The Manipulated Atomic Bonding",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 22,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-22"
+    },
+    {
+      "id": "elementhunters-episode-23",
+      "title": "Titanium Gone! Dreams, Don`t Disappear",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 23,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-23"
+    },
+    {
+      "id": "elementhunters-episode-24",
+      "title": "The Accelerating Elemental Dematerialization",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 24,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-24"
+    },
+    {
+      "id": "elementhunters-episode-25",
+      "title": "First Contact",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 25,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-25"
+    },
+    {
+      "id": "elementhunters-episode-26",
+      "title": "Deep Memory Diver",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 26,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-26"
+    },
+    {
+      "id": "elementhunters-episode-27",
+      "title": "A Gift From the External Braneworld",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 27,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-27"
+    },
+    {
+      "id": "elementhunters-episode-28",
+      "title": "Lava Lifeform Shapeshifter",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 28,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-28"
+    },
+    {
+      "id": "elementhunters-episode-29",
+      "title": "A Turning Point Towards a Solution",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 29,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-29"
+    },
+    {
+      "id": "elementhunters-episode-30",
+      "title": "Blizzard Kick",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 30,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-30"
+    },
+    {
+      "id": "elementhunters-episode-31",
+      "title": "Unforgivable Experimental Results",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 31,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-31"
+    },
+    {
+      "id": "elementhunters-episode-32",
+      "title": "Into the Mantle! The Subsurface Challenge",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 32,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-32"
+    },
+    {
+      "id": "elementhunters-episode-33",
+      "title": "No Return - The Cut-Off Future ",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 33,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-33"
+    },
+    {
+      "id": "elementhunters-episode-34",
+      "title": "Carr's Decision! The Advent Upon Colony",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 34,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-34"
+    },
+    {
+      "id": "elementhunters-episode-35",
+      "title": "An Android's Dream ",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 35,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-35"
+    },
+    {
+      "id": "elementhunters-episode-36",
+      "title": "A Miracle Beyond Time and Space ",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 36,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-36"
+    },
+    {
+      "id": "elementhunters-episode-37",
+      "title": "Tomorrow, to the Eleventh Dimension! ",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 37,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-37"
+    },
+    {
+      "id": "elementhunters-episode-38",
+      "title": "The Information Energy of Destruction ",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 38,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-38"
+    },
+    {
+      "id": "elementhunters-episode-39",
+      "title": "The Qualia Towards the Future ",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b5945-uUfPaLuNDk6F.jpg",
+      "number": 39,
+      "createdAt": "2013-02-20T18:26:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//elementhunters-episode-39"
+    }
+  ]
+}

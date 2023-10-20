@@ -1,0 +1,747 @@
+{
+  "id": "1180",
+  "title": {
+    "romaji": "Hyper Police",
+    "english": null,
+    "native": "はいぱーぽりす"
+  },
+  "malId": 1180,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1180.jpg",
+  "popularity": 2113,
+  "color": "#5043e4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1180-9hP1TNzFodN9.jpg",
+  "description": "Sasahara Natsuki is a poor bounty hunter in a world where monsters and humans live together. Most of her cases involve monsters infringing upon the rights of humans, who are protected by law from their generally more powerful neighbors. Being half-human and half cat-beast, Natsuki straddles the two societies and tries to understand and respect both while enforcing the law. She is assisted by a werewolf named Batanen who is afraid to admit he loves her; another werewolf named Tommy; and a Kyubi fox demon named Sakura who has her own plans--which include eating Natsuki to complete her her nine tails and thereby her magical powers.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 1997,
+  "startDate": {
+    "year": 1997,
+    "month": 4,
+    "day": 3
+  },
+  "endDate": {
+    "year": 1997,
+    "month": 9,
+    "day": 25
+  },
+  "totalEpisodes": 25,
+  "currentEpisode": 25,
+  "rating": 60,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Comedy",
+    "Fantasy",
+    "Sci-Fi"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Studio Pierrot"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 650,
+      "malId": 650,
+      "title": {
+        "romaji": "Gunsmith Cats",
+        "english": "Gunsmith Cats",
+        "native": "ガンスミスキャッツ",
+        "userPreferred": "Gunsmith Cats"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx650-he0bSyXq2pTz.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/650-NcuZIsS80rUS.jpg",
+      "rating": 73,
+      "type": "OVA"
+    },
+    {
+      "id": 400,
+      "malId": 400,
+      "title": {
+        "romaji": "Seihou Bukyou Outlaw Star",
+        "english": "Outlaw Star",
+        "native": "星方武侠アウトロースター",
+        "userPreferred": "Seihou Bukyou Outlaw Star"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx400-CJ2duQT3dCX1.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/400-rkltKfdzW10w.jpg",
+      "rating": 74,
+      "type": "TV"
+    },
+    {
+      "id": 687,
+      "malId": 687,
+      "title": {
+        "romaji": "Tokyo Mew Mew",
+        "english": "Tokyo Mew Mew",
+        "native": "東京ミュウミュウ",
+        "userPreferred": "Tokyo Mew Mew"
+      },
+      "status": "Completed",
+      "episodes": 52,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx687-ougpIBcWwva0.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/687-t1ULl5MrvhGO.jpg",
+      "rating": 68,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 12923,
+      "role": "MAIN",
+      "name": {
+        "first": "Batanen",
+        "last": "Fujioka",
+        "full": "Batanen Fujioka",
+        "native": "バタネン藤岡",
+        "userPreferred": "Batanen Fujioka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12923.jpg",
+      "voiceActors": [
+        {
+          "id": 95146,
+          "language": "Japanese",
+          "name": {
+            "first": "Akio",
+            "last": "Ootsuka",
+            "full": "Akio Ootsuka",
+            "native": "大塚明夫",
+            "userPreferred": "Akio Ootsuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95146-T6IEmqXW3xUN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11010,
+      "role": "MAIN",
+      "name": {
+        "first": "Natsuki",
+        "last": "Sasahara",
+        "full": "Natsuki Sasahara",
+        "native": "笹原夏姫",
+        "userPreferred": "Natsuki Sasahara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11010.jpg",
+      "voiceActors": [
+        {
+          "id": 95458,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Miyamura",
+            "full": "Yuuko Miyamura",
+            "native": "宮村優子",
+            "userPreferred": "Yuuko Miyamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95458-u1OCiMNqiswq.png"
+        }
+      ]
+    },
+    {
+      "id": 11012,
+      "role": "MAIN",
+      "name": {
+        "first": "Sakura",
+        "last": "Bokuseiinmonzeninari",
+        "full": "Sakura Bokuseiinmonzeninari",
+        "native": null,
+        "userPreferred": "Sakura Bokuseiinmonzeninari"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11012.jpg",
+      "voiceActors": [
+        {
+          "id": 96742,
+          "language": "Japanese",
+          "name": {
+            "first": "Chiyako",
+            "last": "Shibahara",
+            "full": "Chiyako Shibahara",
+            "native": "芝原チヤコ",
+            "userPreferred": "Chiyako Shibahara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96742-cFSSAhLT7l65.jpg"
+        },
+        {
+          "id": 95537,
+          "language": "English",
+          "name": {
+            "first": "Dorothy",
+            "last": "Elias-Fahn",
+            "full": "Dorothy Elias-Fahn",
+            "native": null,
+            "userPreferred": "Dorothy Elias-Fahn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/537.jpg"
+        }
+      ]
+    },
+    {
+      "id": 255158,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Samantha",
+        "last": "Grey",
+        "full": "Samantha Grey",
+        "native": "グレイ・サマンサ",
+        "userPreferred": "Samantha Grey"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b255158-8Ldt4FARf1lg.png",
+      "voiceActors": [
+        {
+          "id": 95546,
+          "language": "Japanese",
+          "name": {
+            "first": "Kanako",
+            "last": "Mitsuhashi",
+            "full": "Kanako Mitsuhashi",
+            "native": "三橋加奈子",
+            "userPreferred": "Kanako Mitsuhashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95546-5e9W5NbCZroo.png"
+        }
+      ]
+    },
+    {
+      "id": 32374,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sakunoshin",
+        "last": "Chikura",
+        "full": "Sakunoshin Chikura",
+        "native": "千倉朔之進",
+        "userPreferred": "Sakunoshin Chikura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32374.jpg",
+      "voiceActors": [
+        {
+          "id": 95129,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshihiko",
+            "last": "Seki",
+            "full": "Toshihiko Seki",
+            "native": "関俊彦",
+            "userPreferred": "Toshihiko Seki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95129-AAL7kfwAPpgR.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32372,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bob",
+        "last": null,
+        "full": "Bob",
+        "native": "ボブ",
+        "userPreferred": "Bob"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32372.jpg",
+      "voiceActors": [
+        {
+          "id": 95408,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouichi",
+            "last": "Toochika",
+            "full": "Kouichi Toochika",
+            "native": "遠近孝一",
+            "userPreferred": "Kouichi Toochika"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/408.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4874,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tommy",
+        "last": "Fujioka",
+        "full": "Tommy Fujioka",
+        "native": "トミィ藤岡",
+        "userPreferred": "Tommy Fujioka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4874.jpg",
+      "voiceActors": [
+        {
+          "id": 95679,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryuuzou",
+            "last": "Ishino",
+            "full": "Ryuuzou Ishino",
+            "native": "石野竜三",
+            "userPreferred": "Ryuuzou Ishino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95679-vT6wLZlpBsWI.jpg"
+        }
+      ]
+    },
+    {
+      "id": 255159,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Fonne",
+        "last": "Walkure",
+        "full": "Fonne Walkure",
+        "native": "フォンヌ・ウォークレイ",
+        "userPreferred": "Fonne Walkure"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b255159-1gYmitDkArE9.png",
+      "voiceActors": [
+        {
+          "id": 95009,
+          "language": "Japanese",
+          "name": {
+            "first": "Kotono",
+            "last": "Mitsuishi",
+            "full": "Kotono Mitsuishi",
+            "native": "三石琴乃",
+            "userPreferred": "Kotono Mitsuishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95009-d01Dg8mMwcg6.png"
+        }
+      ]
+    },
+    {
+      "id": 251929,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Naoko",
+        "last": "Kondou",
+        "full": "Naoko Kondou",
+        "native": "近藤直子",
+        "userPreferred": "Naoko Kondou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b251929-ZrLQn1pwarGn.png",
+      "voiceActors": [
+        {
+          "id": 103819,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Hikita",
+            "full": "Yumi Hikita",
+            "native": "有美 引田",
+            "userPreferred": "Yumi Hikita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8819.jpg"
+        }
+      ]
+    },
+    {
+      "id": 255160,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mao",
+        "last": null,
+        "full": "Mao",
+        "native": "真緒",
+        "userPreferred": "Mao"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b255160-vcU1xeDYx6Gp.png",
+      "voiceActors": [
+        {
+          "id": 95724,
+          "language": "Japanese",
+          "name": {
+            "first": "Shiho",
+            "last": "Niiyama",
+            "full": "Shiho Niiyama",
+            "native": "新山志保",
+            "userPreferred": "Shiho Niiyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/724.jpg"
+        }
+      ]
+    },
+    {
+      "id": 255155,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Makoto",
+        "last": "Tachibana",
+        "full": "Makoto Tachibana",
+        "native": "立花誠",
+        "userPreferred": "Makoto Tachibana"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b255155-XTn67Awvp0O3.png",
+      "voiceActors": [
+        {
+          "id": 95063,
+          "language": "Japanese",
+          "name": {
+            "first": "Keiji",
+            "last": "Fujiwara",
+            "full": "Keiji Fujiwara",
+            "native": "藤原啓治",
+            "userPreferred": "Keiji Fujiwara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95063-xAsEUzspuLMG.jpg"
+        }
+      ]
+    },
+    {
+      "id": 255161,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Peau",
+        "last": "D'Roquefort",
+        "full": "Peau D'Roquefort",
+        "native": "ポー・ド・ロックフォール",
+        "userPreferred": "Peau D'Roquefort"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b255161-mBH0i3GOxg0P.png",
+      "voiceActors": [
+        {
+          "id": 95290,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuri",
+            "last": "Amano",
+            "full": "Yuri Amano",
+            "native": "天野由梨",
+            "userPreferred": "Yuri Amano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95290-nU8h5vWr8RCv.jpg"
+        }
+      ]
+    },
+    {
+      "id": 255156,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ayami",
+        "last": "Tachibana",
+        "full": "Ayami Tachibana",
+        "native": "立花綾美",
+        "userPreferred": "Ayami Tachibana"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b255156-sRBPtHgToVSY.png",
+      "voiceActors": [
+        {
+          "id": 95496,
+          "language": "Japanese",
+          "name": {
+            "first": "Wakana",
+            "last": "Yamazaki",
+            "full": "Wakana Yamazaki",
+            "native": "山崎和佳奈",
+            "userPreferred": "Wakana Yamazaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95496-PAwWafRnHtEf.png"
+        }
+      ]
+    },
+    {
+      "id": 255162,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nupu",
+        "last": null,
+        "full": "Nupu",
+        "native": "ヌプー",
+        "userPreferred": "Nupu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b255162-iG7NooavGB83.png",
+      "voiceActors": [
+        {
+          "id": 101981,
+          "language": "Japanese",
+          "name": {
+            "first": "Takuma",
+            "last": "Suzuki",
+            "full": "Takuma Suzuki",
+            "native": "鈴木琢磨",
+            "userPreferred": "Takuma Suzuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101981-M1QHNfoBLovs.png"
+        }
+      ]
+    },
+    {
+      "id": 255157,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mudagami",
+        "last": null,
+        "full": "Mudagami",
+        "native": "無駄神",
+        "userPreferred": "Mudagami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b255157-yHvv7kpOM7mD.png",
+      "voiceActors": [
+        {
+          "id": 109557,
+          "language": "Japanese",
+          "name": {
+            "first": "Naoki",
+            "last": "Bandou",
+            "full": "Naoki Bandou",
+            "native": "坂東尚樹",
+            "userPreferred": "Naoki Bandou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109557-aRcQs7olJEKa.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 30367,
+      "relationType": "ADAPTATION",
+      "malId": 367,
+      "title": {
+        "romaji": "Hyper Police",
+        "english": "Hyper Police",
+        "native": "はいぱーぽりす",
+        "userPreferred": "Hyper Police"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b30367-eaNmbEVR8Aan.png",
+      "color": "#f1ae0d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b30367-eaNmbEVR8Aan.png",
+      "rating": 65
+    }
+  ],
+  "episodes": [
+    {
+      "id": "hyper-police-episode-1",
+      "title": "Bounty Hunter",
+      "image": "https://media.kitsu.io/episodes/thumbnails/167077/original.jpg",
+      "number": 1,
+      "createdAt": "2014-11-16T20:47:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyper-police-episode-1"
+    },
+    {
+      "id": "hyper-police-episode-2",
+      "title": "Nine-Tail Fox? Sakura Appears",
+      "image": "https://media.kitsu.io/episodes/thumbnails/167079/original.jpg",
+      "number": 2,
+      "createdAt": "2014-11-16T20:47:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyper-police-episode-2"
+    },
+    {
+      "id": "hyper-police-episode-3",
+      "title": "Combination Anxiety",
+      "image": "https://media.kitsu.io/episodes/thumbnails/167084/original.jpg",
+      "number": 3,
+      "createdAt": "2014-11-16T20:47:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyper-police-episode-3"
+    },
+    {
+      "id": "hyper-police-episode-4",
+      "title": "A Meal and a Night's Lodging",
+      "image": "https://media.kitsu.io/episodes/thumbnails/167090/original.jpg",
+      "number": 4,
+      "createdAt": "2014-11-16T20:47:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyper-police-episode-4"
+    },
+    {
+      "id": "hyper-police-episode-5",
+      "title": "A Night You Feel Like Crying",
+      "image": "https://media.kitsu.io/episodes/thumbnails/167094/original.jpg",
+      "number": 5,
+      "createdAt": "2014-11-16T20:47:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyper-police-episode-5"
+    },
+    {
+      "id": "hyper-police-episode-6",
+      "title": "A Bounty Hunter's Vacation",
+      "image": "https://media.kitsu.io/episodes/thumbnails/167099/original.jpg",
+      "number": 6,
+      "createdAt": "2014-11-16T20:47:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyper-police-episode-6"
+    },
+    {
+      "id": "hyper-police-episode-7",
+      "title": "Sorry!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/167103/original.jpg",
+      "number": 7,
+      "createdAt": "2014-11-16T20:47:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyper-police-episode-7"
+    },
+    {
+      "id": "hyper-police-episode-8",
+      "title": "No Time, No Money, No License",
+      "image": "https://media.kitsu.io/episodes/thumbnails/167107/original.jpg",
+      "number": 8,
+      "createdAt": "2014-11-16T20:47:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyper-police-episode-8"
+    },
+    {
+      "id": "hyper-police-episode-9",
+      "title": "Friendship Like Ice",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1180.jpg",
+      "number": 9,
+      "createdAt": "2014-11-16T20:47:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyper-police-episode-9"
+    },
+    {
+      "id": "hyper-police-episode-10",
+      "title": "Say Goodbye to a Cold Jail Cell",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1180.jpg",
+      "number": 10,
+      "createdAt": "2014-11-16T20:47:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyper-police-episode-10"
+    },
+    {
+      "id": "hyper-police-episode-11",
+      "title": "I Want the License",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1180.jpg",
+      "number": 11,
+      "createdAt": "2014-11-16T20:47:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyper-police-episode-11"
+    },
+    {
+      "id": "hyper-police-episode-12",
+      "title": "Osaka Rhapsody",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1180.jpg",
+      "number": 12,
+      "createdAt": "2014-11-16T20:47:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyper-police-episode-12"
+    },
+    {
+      "id": "hyper-police-episode-13",
+      "title": "Cat's Bell",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1180.jpg",
+      "number": 13,
+      "createdAt": "2014-11-16T20:47:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyper-police-episode-13"
+    },
+    {
+      "id": "hyper-police-episode-14",
+      "title": "Samurai Japan",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1180.jpg",
+      "number": 14,
+      "createdAt": "2014-11-16T20:47:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyper-police-episode-14"
+    },
+    {
+      "id": "hyper-police-episode-15",
+      "title": "Cherry (Sakura) Blossoms, or Does It?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1180.jpg",
+      "number": 15,
+      "createdAt": "2014-11-16T20:47:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyper-police-episode-15"
+    },
+    {
+      "id": "hyper-police-episode-16",
+      "title": "Everybody, Strange?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1180.jpg",
+      "number": 16,
+      "createdAt": "2014-11-16T20:47:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyper-police-episode-16"
+    },
+    {
+      "id": "hyper-police-episode-17",
+      "title": "Kids Floating, Natsuki Fainting",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1180.jpg",
+      "number": 17,
+      "createdAt": "2014-11-16T20:47:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyper-police-episode-17"
+    },
+    {
+      "id": "hyper-police-episode-18",
+      "title": "An Era of Cohabitation",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1180.jpg",
+      "number": 18,
+      "createdAt": "2014-11-16T20:47:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyper-police-episode-18"
+    },
+    {
+      "id": "hyper-police-episode-19",
+      "title": "There Is No Tomorrow for the Cats?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1180.jpg",
+      "number": 19,
+      "createdAt": "2014-11-16T20:47:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyper-police-episode-19"
+    },
+    {
+      "id": "hyper-police-episode-20",
+      "title": "A Mysterious Dome",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1180.jpg",
+      "number": 20,
+      "createdAt": "2014-11-16T20:47:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyper-police-episode-20"
+    },
+    {
+      "id": "hyper-police-episode-21",
+      "title": "The Good Sunny Side of the Verandah",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1180.jpg",
+      "number": 21,
+      "createdAt": "2014-11-16T20:47:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyper-police-episode-21"
+    },
+    {
+      "id": "hyper-police-episode-22",
+      "title": "Po's Depression",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1180.jpg",
+      "number": 22,
+      "createdAt": "2014-11-16T20:47:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyper-police-episode-22"
+    },
+    {
+      "id": "hyper-police-episode-23",
+      "title": "Sakura Becomes Insane",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1180.jpg",
+      "number": 23,
+      "createdAt": "2014-11-16T20:47:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyper-police-episode-23"
+    },
+    {
+      "id": "hyper-police-episode-24",
+      "title": "The Day of Catastrophe",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1180.jpg",
+      "number": 24,
+      "createdAt": "2014-11-16T20:47:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyper-police-episode-24"
+    },
+    {
+      "id": "hyper-police-episode-25",
+      "title": "Which Do You Like?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1180.jpg",
+      "number": 25,
+      "createdAt": "2014-11-16T20:47:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyper-police-episode-25"
+    }
+  ]
+}

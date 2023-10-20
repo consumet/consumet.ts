@@ -1,0 +1,346 @@
+{
+  "id": "3398",
+  "title": {
+    "romaji": "Shin Hurricane Polymar",
+    "english": "Hurricane Polymar: Holy Blood",
+    "native": "新・破裏拳ポリマー"
+  },
+  "malId": 3398,
+  "synonyms": [
+    "New Hurricane Polymar"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3398-zSwYlu05F7Br.jpg",
+  "popularity": 1020,
+  "color": "#e46b28",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/3398-XmrJL7ByEj83.jpg",
+  "description": "Remake of old superhero show of the same name.",
+  "status": "Completed",
+  "releaseDate": 1996,
+  "startDate": {
+    "year": 1996,
+    "month": 9,
+    "day": 21
+  },
+  "endDate": {
+    "year": 1997,
+    "month": 2,
+    "day": 21
+  },
+  "totalEpisodes": 2,
+  "currentEpisode": 2,
+  "rating": 54,
+  "duration": 30,
+  "genres": [
+    "Action",
+    "Sci-Fi"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Tatsunoko Production"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 3154,
+      "malId": 3154,
+      "title": {
+        "romaji": "GATCHAMAN",
+        "english": "GATCHAMAN",
+        "native": "GATCHAMAN",
+        "userPreferred": "GATCHAMAN"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3154-KXLtoO5gmQkZ.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/3154-k3UFNl7pDIS2.jpg",
+      "rating": 60,
+      "type": "OVA"
+    },
+    {
+      "id": 1598,
+      "malId": 1598,
+      "title": {
+        "romaji": "Casshern: Robot Hunter",
+        "english": "Casshan: Robot Hunter",
+        "native": "新造人間キャシャーン",
+        "userPreferred": "Casshern: Robot Hunter"
+      },
+      "status": "Completed",
+      "episodes": 4,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1598-2p6wAuyMHN7z.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n1598-dCIGIhK0aHuR.jpg",
+      "rating": 57,
+      "type": "OVA"
+    },
+    {
+      "id": 389,
+      "malId": 389,
+      "title": {
+        "romaji": "KARAS",
+        "english": "Karas",
+        "native": "鴉 -KARAS-",
+        "userPreferred": "KARAS"
+      },
+      "status": "Completed",
+      "episodes": 6,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/389.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/389-z6fmdtqkjitx.jpg",
+      "rating": 68,
+      "type": "OVA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 57169,
+      "role": "MAIN",
+      "name": {
+        "first": "Joe",
+        "last": "Kuruma",
+        "full": "Joe Kuruma",
+        "native": "車錠",
+        "userPreferred": "Joe Kuruma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b57169-Q7qzOyKPOODj.png",
+      "voiceActors": [
+        {
+          "id": 95142,
+          "language": "Japanese",
+          "name": {
+            "first": "Takeshi",
+            "last": "Aono",
+            "full": "Takeshi Aono",
+            "native": "青野武",
+            "userPreferred": "Takeshi Aono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95142-73E1XmGOOmhG.png"
+        }
+      ]
+    },
+    {
+      "id": 57171,
+      "role": "MAIN",
+      "name": {
+        "first": "Takeshi",
+        "last": "Yoroi",
+        "full": "Takeshi Yoroi",
+        "native": "鎧武士",
+        "userPreferred": "Takeshi Yoroi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b57171-0mz22irNLWyL.png",
+      "voiceActors": [
+        {
+          "id": 95177,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryoutarou",
+            "last": "Okiayu",
+            "full": "Ryoutarou Okiayu",
+            "native": "置鮎龍太郎",
+            "userPreferred": "Ryoutarou Okiayu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95177-6SiaUTf3CLkN.png"
+        }
+      ]
+    },
+    {
+      "id": 57177,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Pulsar",
+        "last": null,
+        "full": "Pulsar",
+        "native": "パルサー",
+        "userPreferred": "Pulsar"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b57177-XB7clXgeWxRx.png",
+      "voiceActors": [
+        {
+          "id": 95160,
+          "language": "Japanese",
+          "name": {
+            "first": "Takehito",
+            "last": "Koyasu",
+            "full": "Takehito Koyasu",
+            "native": "子安武人",
+            "userPreferred": "Takehito Koyasu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95160-jWevcH7BmfE1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 57165,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ryoko",
+        "last": "Nishida",
+        "full": "Ryoko Nishida",
+        "native": "西田涼子",
+        "userPreferred": "Ryoko Nishida"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b57165-ix9bq2reXhNz.png",
+      "voiceActors": [
+        {
+          "id": 95176,
+          "language": "Japanese",
+          "name": {
+            "first": "Michiko",
+            "last": "Neya",
+            "full": "Michiko Neya",
+            "native": "根谷美智子",
+            "userPreferred": "Michiko Neya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95176-3yZnUwXap7nX.png"
+        }
+      ]
+    },
+    {
+      "id": 57725,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nina",
+        "last": null,
+        "full": "Nina",
+        "native": "ニーナ",
+        "userPreferred": "Nina"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b57725-sIaxT0KFXgYL.png",
+      "voiceActors": [
+        {
+          "id": 95208,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Orikasa",
+            "full": "Ai Orikasa",
+            "native": "折笠愛",
+            "userPreferred": "Ai Orikasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95208-DIfpWvWN401M.png"
+        }
+      ]
+    },
+    {
+      "id": 57167,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Teru",
+        "last": "Nanba",
+        "full": "Teru Nanba",
+        "native": "難波テル",
+        "userPreferred": "Teru Nanba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b57167-sEDP7mdRVUSr.png",
+      "voiceActors": [
+        {
+          "id": 95458,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Miyamura",
+            "full": "Yuuko Miyamura",
+            "native": "宮村優子",
+            "userPreferred": "Yuuko Miyamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95458-u1OCiMNqiswq.png"
+        }
+      ]
+    },
+    {
+      "id": 57179,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nova",
+        "last": null,
+        "full": "Nova",
+        "native": "ノーヴァ",
+        "userPreferred": "Nova"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b57179-oOrGiOz4ldQx.png",
+      "voiceActors": [
+        {
+          "id": 95761,
+          "language": "Japanese",
+          "name": {
+            "first": "Tesshou",
+            "last": "Genda",
+            "full": "Tesshou Genda",
+            "native": "玄田哲章",
+            "userPreferred": "Tesshou Genda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95761-nwndYRCqJxno.png"
+        }
+      ]
+    },
+    {
+      "id": 57175,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Orega Hakase",
+        "last": null,
+        "full": "Orega Hakase",
+        "native": "オレガー博士",
+        "userPreferred": "Orega Hakase"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b57175-IdxZpzKRQt3d.png",
+      "voiceActors": [
+        {
+          "id": 95836,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryuuzaburou",
+            "last": "Ootomo",
+            "full": "Ryuuzaburou Ootomo",
+            "native": "大友龍三郎",
+            "userPreferred": "Ryuuzaburou Ootomo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95836-cHQyycQ0PWo2.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 4808,
+      "relationType": "ALTERNATIVE",
+      "malId": 4808,
+      "title": {
+        "romaji": "Hurricane Polymar",
+        "english": "Hurricane Polymar",
+        "native": "破裏拳ポリマー",
+        "userPreferred": "Hurricane Polymar"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4808-45jvGLaEFH9J.png",
+      "color": "#e45d50",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4808-PDCFz34GKAK2.jpg",
+      "rating": 61
+    }
+  ],
+  "episodes": [
+    {
+      "id": "shin-hurricane-polymar-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3398-zSwYlu05F7Br.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shin-hurricane-polymar-episode-1"
+    },
+    {
+      "id": "shin-hurricane-polymar-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3398-zSwYlu05F7Br.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shin-hurricane-polymar-episode-2"
+    }
+  ]
+}

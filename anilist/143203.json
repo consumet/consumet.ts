@@ -1,0 +1,550 @@
+{
+  "id": "143203",
+  "title": {
+    "romaji": "Kyoukai Senki Part 2",
+    "english": "AMAIM Warrior at the Borderline Part 2",
+    "native": "境界戦機 第二部"
+  },
+  "malId": 50678,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "5xDE0u4wt9U",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/5xDE0u4wt9U/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143203-WhXWagWXSg3Z.jpg",
+  "popularity": 3216,
+  "color": "#3586e4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/143203-jlZRsHLwDufE.jpg",
+  "description": "The second cour of <i>Kyoukai Senki</i>.",
+  "status": "Completed",
+  "releaseDate": 2022,
+  "startDate": {
+    "year": 2022,
+    "month": 4,
+    "day": 12
+  },
+  "endDate": {
+    "year": 2022,
+    "month": 6,
+    "day": 28
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 61,
+  "duration": 24,
+  "genres": [
+    "Fantasy",
+    "Mecha",
+    "Sci-Fi"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Sunrise Beyond"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 92,
+      "malId": 92,
+      "title": {
+        "romaji": "Kidou Shin Seiki Gundam X",
+        "english": "After War Gundam X",
+        "native": "機動新世紀ガンダムX",
+        "userPreferred": "Kidou Shin Seiki Gundam X"
+      },
+      "status": "Completed",
+      "episodes": 39,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx92-QICvHYE9HKyq.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/92-BjCXeUSzsW3Q.jpg",
+      "rating": 71,
+      "type": "TV"
+    },
+    {
+      "id": 2581,
+      "malId": 2581,
+      "title": {
+        "romaji": "Kidou Senshi Gundam 00",
+        "english": "Mobile Suit Gundam 00",
+        "native": "機動戦士ガンダム00",
+        "userPreferred": "Kidou Senshi Gundam 00"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2581-MLEf00dNAfqY.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2581-YJ1YJmB8QRJj.jpg",
+      "rating": 77,
+      "type": "TV"
+    },
+    {
+      "id": 80,
+      "malId": 80,
+      "title": {
+        "romaji": "Kidou Senshi Gundam",
+        "english": "Mobile Suit Gundam",
+        "native": "機動戦士ガンダム",
+        "userPreferred": "Kidou Senshi Gundam"
+      },
+      "status": "Completed",
+      "episodes": 43,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx80-HKQTjSNuFlHu.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/80-LcQhJ600WeDn.jpg",
+      "rating": 76,
+      "type": "TV"
+    },
+    {
+      "id": 93,
+      "malId": 93,
+      "title": {
+        "romaji": "Kidou Senshi Gundam SEED",
+        "english": "Mobile Suit Gundam Seed",
+        "native": "機動戦士ガンダムSEED",
+        "userPreferred": "Kidou Senshi Gundam SEED"
+      },
+      "status": "Completed",
+      "episodes": 50,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx93-3b9jdMQjxEFf.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/93-KZlqRAri1Os5.jpg",
+      "rating": 72,
+      "type": "TV"
+    },
+    {
+      "id": 20632,
+      "malId": 22729,
+      "title": {
+        "romaji": "Aldnoah.Zero",
+        "english": "ALDNOAH.ZERO",
+        "native": "アルドノア・ゼロ",
+        "userPreferred": "Aldnoah.Zero"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx20632-Mkgbtvi1kmhD.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20632.jpg",
+      "rating": 70,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 250349,
+      "role": "MAIN",
+      "name": {
+        "first": "Shion",
+        "last": "Shishibe",
+        "full": "Shion Shishibe",
+        "native": "紫々部シオン",
+        "userPreferred": "Shion Shishibe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b250349-7LV9RILnkoOH.jpg",
+      "voiceActors": [
+        {
+          "id": 124390,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Ichinose",
+            "full": "Kana Ichinose",
+            "native": "市ノ瀬加那",
+            "userPreferred": "Kana Ichinose"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n124390-eFIxDGxC7Vy8.png"
+        }
+      ]
+    },
+    {
+      "id": 250348,
+      "role": "MAIN",
+      "name": {
+        "first": "Gai",
+        "last": null,
+        "full": "Gai",
+        "native": "ガイ",
+        "userPreferred": "Gai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b250348-TRvPs9rL81ga.jpg",
+      "voiceActors": [
+        {
+          "id": 119740,
+          "language": "Japanese",
+          "name": {
+            "first": "Natsumi",
+            "last": "Fujiwara",
+            "full": "Natsumi Fujiwara",
+            "native": "藤原夏海",
+            "userPreferred": "Natsumi Fujiwara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119740-EEZ5DErQhOht.png"
+        }
+      ]
+    },
+    {
+      "id": 250347,
+      "role": "MAIN",
+      "name": {
+        "first": "Gashin",
+        "last": "Tezuka",
+        "full": "Gashin Tezuka",
+        "native": "鉄塚ガシン",
+        "userPreferred": "Gashin Tezuka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b250347-8oyEevxWdw2B.jpg",
+      "voiceActors": [
+        {
+          "id": 118498,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuto",
+            "last": "Uemura",
+            "full": "Yuuto Uemura",
+            "native": "上村祐翔",
+            "userPreferred": "Yuuto Uemura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118498-6YvZZS0HM2qD.jpg"
+        }
+      ]
+    },
+    {
+      "id": 250345,
+      "role": "MAIN",
+      "name": {
+        "first": "Kei",
+        "last": null,
+        "full": "Kei",
+        "native": "ケイ",
+        "userPreferred": "Kei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b250345-d8BK85f1slgC.jpg",
+      "voiceActors": [
+        {
+          "id": 100142,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Ishikawa",
+            "full": "Yui Ishikawa",
+            "native": "石川由依",
+            "userPreferred": "Yui Ishikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100142-k6RP0HzXffUG.png"
+        }
+      ]
+    },
+    {
+      "id": 250346,
+      "role": "MAIN",
+      "name": {
+        "first": "Nayuta",
+        "last": null,
+        "full": "Nayuta",
+        "native": "ナユタ",
+        "userPreferred": "Nayuta"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b250346-t0vF7gntmR2U.jpg",
+      "voiceActors": [
+        {
+          "id": 107705,
+          "language": "Japanese",
+          "name": {
+            "first": "Taishi",
+            "last": "Murata",
+            "full": "Taishi Murata",
+            "native": "村田太志",
+            "userPreferred": "Taishi Murata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107705-lVfYRzWY5AFW.jpg"
+        }
+      ]
+    },
+    {
+      "id": 250344,
+      "role": "MAIN",
+      "name": {
+        "first": "Amou",
+        "last": "Shiiba",
+        "full": "Amou Shiiba",
+        "native": "椎葉アモウ",
+        "userPreferred": "Amou Shiiba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b250344-XAmBXXwIZKpl.jpg",
+      "voiceActors": [
+        {
+          "id": 141083,
+          "language": "Japanese",
+          "name": {
+            "first": "Gen",
+            "last": "Satou",
+            "full": "Gen Satou",
+            "native": "佐藤元",
+            "userPreferred": "Gen Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n141083-Oc5rYAP6e3D7.jpg"
+        }
+      ]
+    },
+    {
+      "id": 314086,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dahlia",
+        "last": "Lvov",
+        "full": "Dahlia Lvov",
+        "native": "ダリア・リヴォフ",
+        "userPreferred": "Dahlia Lvov"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b314086-sosm57gsHxrK.png",
+      "voiceActors": [
+        {
+          "id": 95054,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Endou",
+            "full": "Aya Endou",
+            "native": "遠藤綾",
+            "userPreferred": "Aya Endou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95054-8VgnlGK5QX2A.png"
+        }
+      ]
+    },
+    {
+      "id": 255551,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gouken",
+        "last": "Kumai",
+        "full": "Gouken Kumai",
+        "native": "熊井ゴウケン",
+        "userPreferred": "Gouken Kumai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b255551-TUhVJ2bfxsAm.png",
+      "voiceActors": [
+        {
+          "id": 95563,
+          "language": "Japanese",
+          "name": {
+            "first": "Masaki",
+            "last": "Terasoma",
+            "full": "Masaki Terasoma",
+            "native": "てらそままさき",
+            "userPreferred": "Masaki Terasoma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95563-tMN0xtsy1qyh.png"
+        }
+      ]
+    },
+    {
+      "id": 314087,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Alexei",
+        "last": "Zelenoy",
+        "full": "Alexei Zelenoy",
+        "native": "アレクセイ・ゼレノイ",
+        "userPreferred": "Alexei Zelenoy"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b314087-ejONFgXupgdn.png",
+      "voiceActors": [
+        {
+          "id": 95087,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Namikawa",
+            "full": "Daisuke Namikawa",
+            "native": "浪川大輔",
+            "userPreferred": "Daisuke Namikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95087-6dlBBbejsPyg.png"
+        }
+      ]
+    },
+    {
+      "id": 255545,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Brad",
+        "last": "Watt",
+        "full": "Brad Watt",
+        "native": "ブラッド・ワット",
+        "userPreferred": "Brad Watt"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b255545-KnIMeEfMQZFz.png",
+      "voiceActors": [
+        {
+          "id": 96154,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Ono",
+            "full": "Yuuki Ono",
+            "native": "小野友樹",
+            "userPreferred": "Yuuki Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96154-B8GAO9wm1Fbd.jpg"
+        }
+      ]
+    },
+    {
+      "id": 255552,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Eiji",
+        "last": "Umasaki",
+        "full": "Eiji Umasaki",
+        "native": "馬﨑エイジ",
+        "userPreferred": "Eiji Umasaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b255552-tAaCtBUdjAoH.png",
+      "voiceActors": [
+        {
+          "id": 112627,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuhiro",
+            "last": "Nakaya",
+            "full": "Kazuhiro Nakaya",
+            "native": "中谷一博",
+            "userPreferred": "Kazuhiro Nakaya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/17627.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 131005,
+      "relationType": "PREQUEL",
+      "malId": 48466,
+      "title": {
+        "romaji": "Kyoukai Senki",
+        "english": "AMAIM Warrior at the Borderline",
+        "native": "境界戦機",
+        "userPreferred": "Kyoukai Senki"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx131005-khLbX1nMCBxB.jpg",
+      "color": "#f15d93",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/131005-X53CBI87n5tk.jpg",
+      "rating": 59
+    }
+  ],
+  "episodes": [
+    {
+      "id": "kyoukai-senki-part-2-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143203-WhXWagWXSg3Z.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-senki-part-2-episode-1"
+    },
+    {
+      "id": "kyoukai-senki-part-2-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143203-WhXWagWXSg3Z.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-senki-part-2-episode-2"
+    },
+    {
+      "id": "kyoukai-senki-part-2-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143203-WhXWagWXSg3Z.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-senki-part-2-episode-3"
+    },
+    {
+      "id": "kyoukai-senki-part-2-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143203-WhXWagWXSg3Z.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-senki-part-2-episode-4"
+    },
+    {
+      "id": "kyoukai-senki-part-2-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143203-WhXWagWXSg3Z.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-senki-part-2-episode-5"
+    },
+    {
+      "id": "kyoukai-senki-part-2-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143203-WhXWagWXSg3Z.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-senki-part-2-episode-6"
+    },
+    {
+      "id": "kyoukai-senki-part-2-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143203-WhXWagWXSg3Z.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-senki-part-2-episode-7"
+    },
+    {
+      "id": "kyoukai-senki-part-2-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143203-WhXWagWXSg3Z.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-senki-part-2-episode-8"
+    },
+    {
+      "id": "kyoukai-senki-part-2-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143203-WhXWagWXSg3Z.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-senki-part-2-episode-9"
+    },
+    {
+      "id": "kyoukai-senki-part-2-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143203-WhXWagWXSg3Z.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-senki-part-2-episode-10"
+    },
+    {
+      "id": "kyoukai-senki-part-2-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143203-WhXWagWXSg3Z.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-senki-part-2-episode-11"
+    },
+    {
+      "id": "kyoukai-senki-part-2-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143203-WhXWagWXSg3Z.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//kyoukai-senki-part-2-episode-12"
+    }
+  ]
+}

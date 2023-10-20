@@ -1,0 +1,675 @@
+{
+  "id": "19877",
+  "title": {
+    "romaji": "Battle Spirits: Sword Eyes Gekitouden",
+    "english": "Battle Spirits: Sword Eyes Fierce Battle Legend",
+    "native": "バトルスピリッツ ソードアイズ激闘伝"
+  },
+  "malId": 19877,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/19877.jpg",
+  "popularity": 557,
+  "color": "#f18635",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/19877-l0BGbslgdpVS.jpg",
+  "description": "The continuation of Battle Spirits Sword Eyes.",
+  "status": "Completed",
+  "releaseDate": 2013,
+  "startDate": {
+    "year": 2013,
+    "month": 4,
+    "day": 7
+  },
+  "endDate": {
+    "year": 2013,
+    "month": 9,
+    "day": 8
+  },
+  "totalEpisodes": 21,
+  "currentEpisode": 21,
+  "rating": 57,
+  "duration": 25,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Sunrise"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 67875,
+      "role": "MAIN",
+      "name": {
+        "first": "Tsurugi",
+        "last": "Tatewaki",
+        "full": "Tsurugi Tatewaki",
+        "native": "ツルギ タテワキ",
+        "userPreferred": "Tsurugi Tatewaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/67875.jpg",
+      "voiceActors": [
+        {
+          "id": 95062,
+          "language": "Japanese",
+          "name": {
+            "first": "Junko",
+            "last": "Minagawa",
+            "full": "Junko Minagawa",
+            "native": "皆川純子",
+            "userPreferred": "Junko Minagawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95062-YMTfpO89SgQp.jpg"
+        }
+      ]
+    },
+    {
+      "id": 69647,
+      "role": "MAIN",
+      "name": {
+        "first": "Bringer",
+        "last": null,
+        "full": "Bringer",
+        "native": "ブリンガー",
+        "userPreferred": "Bringer"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/69647.jpg",
+      "voiceActors": [
+        {
+          "id": 95095,
+          "language": "Japanese",
+          "name": {
+            "first": "Junichi",
+            "last": "Suwabe",
+            "full": "Junichi Suwabe",
+            "native": "諏訪部順一",
+            "userPreferred": "Junichi Suwabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95095-DvSjTQnqcgXP.png"
+        }
+      ]
+    },
+    {
+      "id": 71283,
+      "role": "MAIN",
+      "name": {
+        "first": "Long",
+        "last": null,
+        "full": "Long",
+        "native": "ロン",
+        "userPreferred": "Long"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/71283.jpg",
+      "voiceActors": [
+        {
+          "id": 95239,
+          "language": "Japanese",
+          "name": {
+            "first": "Akemi",
+            "last": "Kanda",
+            "full": "Akemi Kanda",
+            "native": "神田朱未",
+            "userPreferred": "Akemi Kanda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/239.jpg"
+        }
+      ]
+    },
+    {
+      "id": 71471,
+      "role": "MAIN",
+      "name": {
+        "first": "Grenada",
+        "last": null,
+        "full": "Grenada",
+        "native": "グレナダ",
+        "userPreferred": "Grenada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/71471.jpg",
+      "voiceActors": [
+        {
+          "id": 95176,
+          "language": "Japanese",
+          "name": {
+            "first": "Michiko",
+            "last": "Neya",
+            "full": "Michiko Neya",
+            "native": "根谷美智子",
+            "userPreferred": "Michiko Neya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95176-3yZnUwXap7nX.png"
+        }
+      ]
+    },
+    {
+      "id": 67883,
+      "role": "MAIN",
+      "name": {
+        "first": "Sora",
+        "last": "Ryuuyou",
+        "full": "Sora Ryuuyou",
+        "native": "ソラ リュウヨウ",
+        "userPreferred": "Sora Ryuuyou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/67883.jpg",
+      "voiceActors": [
+        {
+          "id": 96154,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Ono",
+            "full": "Yuuki Ono",
+            "native": "小野友樹",
+            "userPreferred": "Yuuki Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96154-B8GAO9wm1Fbd.jpg"
+        }
+      ]
+    },
+    {
+      "id": 70767,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Amarello",
+        "last": "Berge",
+        "full": "Amarello Berge",
+        "native": "アマレロ ベルジェ",
+        "userPreferred": "Amarello Berge"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/70767.jpg",
+      "voiceActors": [
+        {
+          "id": 95239,
+          "language": "Japanese",
+          "name": {
+            "first": "Akemi",
+            "last": "Kanda",
+            "full": "Akemi Kanda",
+            "native": "神田朱未",
+            "userPreferred": "Akemi Kanda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/239.jpg"
+        }
+      ]
+    },
+    {
+      "id": 70769,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Brau",
+        "last": "Balm",
+        "full": "Brau Balm",
+        "native": "ブラウ バルム",
+        "userPreferred": "Brau Balm"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/70769.jpg",
+      "voiceActors": [
+        {
+          "id": 95025,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroki",
+            "last": "Yasumoto",
+            "full": "Hiroki Yasumoto",
+            "native": "安元洋貴",
+            "userPreferred": "Hiroki Yasumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95025-LGHr4VufmfCc.jpg"
+        }
+      ]
+    },
+    {
+      "id": 70771,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gordy",
+        "last": "Dain",
+        "full": "Gordy Dain",
+        "native": "ゴーディー ダーイン",
+        "userPreferred": "Gordy Dain"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/70771.jpg",
+      "voiceActors": [
+        {
+          "id": 95477,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Yanaka",
+            "full": "Hiroshi Yanaka",
+            "native": "家中宏",
+            "userPreferred": "Hiroshi Yanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95477-zUeFZNtjTgap.png"
+        }
+      ]
+    },
+    {
+      "id": 71473,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Garudos",
+        "last": "Randall",
+        "full": "Garudos Randall",
+        "native": "ガルドス・ランダル",
+        "userPreferred": "Garudos Randall"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/71473.jpg",
+      "voiceActors": [
+        {
+          "id": 95137,
+          "language": "Japanese",
+          "name": {
+            "first": "Shou",
+            "last": "Hayami",
+            "full": "Shou Hayami",
+            "native": "速水奨",
+            "userPreferred": "Shou Hayami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95137-2Q5l3Br9G7sk.png"
+        }
+      ]
+    },
+    {
+      "id": 67877,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yaiba",
+        "last": "Byakuyaou",
+        "full": "Yaiba Byakuyaou",
+        "native": "白夜王ヤイバ",
+        "userPreferred": "Yaiba Byakuyaou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/67877.jpg",
+      "voiceActors": [
+        {
+          "id": 95112,
+          "language": "Japanese",
+          "name": {
+            "first": "Hikaru",
+            "last": "Midorikawa",
+            "full": "Hikaru Midorikawa",
+            "native": "緑川光",
+            "userPreferred": "Hikaru Midorikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95112-c275OLptkSYO.png"
+        }
+      ]
+    },
+    {
+      "id": 73925,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Suou",
+        "last": null,
+        "full": "Suou",
+        "native": "スオウ",
+        "userPreferred": "Suou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/73925.jpg",
+      "voiceActors": [
+        {
+          "id": 95278,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Sakaguchi",
+            "full": "Daisuke Sakaguchi",
+            "native": "阪口大助",
+            "userPreferred": "Daisuke Sakaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95278-IrUPhIvJCsF9.png"
+        }
+      ]
+    },
+    {
+      "id": 67879,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kizakura",
+        "last": "Kukuri",
+        "full": "Kizakura Kukuri",
+        "native": "キザクラ ククリ",
+        "userPreferred": "Kizakura Kukuri"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/67879.jpg",
+      "voiceActors": [
+        {
+          "id": 95028,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Horie",
+            "full": "Yui Horie",
+            "native": "堀江由衣",
+            "userPreferred": "Yui Horie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95028-MHT1m3E5wGZx.png"
+        }
+      ]
+    },
+    {
+      "id": 76966,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rirove",
+        "last": "Rakels",
+        "full": "Rirove Rakels",
+        "native": "リローヴ ラケルス",
+        "userPreferred": "Rirove Rakels"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/76966.jpg",
+      "voiceActors": [
+        {
+          "id": 95087,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Namikawa",
+            "full": "Daisuke Namikawa",
+            "native": "浪川大輔",
+            "userPreferred": "Daisuke Namikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95087-6dlBBbejsPyg.png"
+        }
+      ]
+    },
+    {
+      "id": 67881,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hagakure",
+        "last": "Shidou",
+        "full": "Hagakure Shidou",
+        "native": "ハガクレ シドー",
+        "userPreferred": "Hagakure Shidou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/67881.jpg",
+      "voiceActors": [
+        {
+          "id": 95086,
+          "language": "Japanese",
+          "name": {
+            "first": "Jun",
+            "last": "Fukuyama",
+            "full": "Jun Fukuyama",
+            "native": "福山潤",
+            "userPreferred": "Jun Fukuyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95086-cwKYmhOFNtH5.png"
+        }
+      ]
+    },
+    {
+      "id": 76974,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Haqua",
+        "last": "Estoc",
+        "full": "Haqua Estoc",
+        "native": "ハクア・エストック",
+        "userPreferred": "Haqua Estoc"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/76974.jpg",
+      "voiceActors": [
+        {
+          "id": 95008,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Kugimiya",
+            "full": "Rie Kugimiya",
+            "native": "釘宮理恵",
+            "userPreferred": "Rie Kugimiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95008-2y0EeuSTHIri.png"
+        }
+      ]
+    },
+    {
+      "id": 86619,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tachibana",
+        "last": "Justice",
+        "full": "Tachibana Justice",
+        "native": "ジャスティス 立花",
+        "userPreferred": "Tachibana Justice"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/86619.jpg",
+      "voiceActors": [
+        {
+          "id": 95792,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinnosuke",
+            "last": "Tachibana",
+            "full": "Shinnosuke Tachibana",
+            "native": "立花慎之介",
+            "userPreferred": "Shinnosuke Tachibana"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95792-5413Ip70mSdV.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 14913,
+      "relationType": "PREQUEL",
+      "malId": 14913,
+      "title": {
+        "romaji": "Battle Spirits: Sword Eyes",
+        "english": null,
+        "native": "バトルスピリッツ ソードアイズ",
+        "userPreferred": "Battle Spirits: Sword Eyes"
+      },
+      "status": "Completed",
+      "episodes": 29,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx14913-0loTaP0agXoa.jpg",
+      "color": "#f1930d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/14913-WJi69QlU25in.jpg",
+      "rating": 61
+    }
+  ],
+  "episodes": [
+    {
+      "id": "battle-spirits-sword-eyes-gekitouden-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/19877.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//battle-spirits-sword-eyes-gekitouden-episode-1"
+    },
+    {
+      "id": "battle-spirits-sword-eyes-gekitouden-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/19877.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//battle-spirits-sword-eyes-gekitouden-episode-2"
+    },
+    {
+      "id": "battle-spirits-sword-eyes-gekitouden-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/19877.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//battle-spirits-sword-eyes-gekitouden-episode-3"
+    },
+    {
+      "id": "battle-spirits-sword-eyes-gekitouden-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/19877.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//battle-spirits-sword-eyes-gekitouden-episode-4"
+    },
+    {
+      "id": "battle-spirits-sword-eyes-gekitouden-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/19877.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//battle-spirits-sword-eyes-gekitouden-episode-5"
+    },
+    {
+      "id": "battle-spirits-sword-eyes-gekitouden-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/19877.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//battle-spirits-sword-eyes-gekitouden-episode-6"
+    },
+    {
+      "id": "battle-spirits-sword-eyes-gekitouden-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/19877.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//battle-spirits-sword-eyes-gekitouden-episode-7"
+    },
+    {
+      "id": "battle-spirits-sword-eyes-gekitouden-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/19877.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//battle-spirits-sword-eyes-gekitouden-episode-8"
+    },
+    {
+      "id": "battle-spirits-sword-eyes-gekitouden-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/19877.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//battle-spirits-sword-eyes-gekitouden-episode-9"
+    },
+    {
+      "id": "battle-spirits-sword-eyes-gekitouden-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/19877.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//battle-spirits-sword-eyes-gekitouden-episode-10"
+    },
+    {
+      "id": "battle-spirits-sword-eyes-gekitouden-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/19877.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//battle-spirits-sword-eyes-gekitouden-episode-11"
+    },
+    {
+      "id": "battle-spirits-sword-eyes-gekitouden-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/19877.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//battle-spirits-sword-eyes-gekitouden-episode-12"
+    },
+    {
+      "id": "battle-spirits-sword-eyes-gekitouden-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/19877.jpg",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//battle-spirits-sword-eyes-gekitouden-episode-13"
+    },
+    {
+      "id": "battle-spirits-sword-eyes-gekitouden-episode-14",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/19877.jpg",
+      "number": 14,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//battle-spirits-sword-eyes-gekitouden-episode-14"
+    },
+    {
+      "id": "battle-spirits-sword-eyes-gekitouden-episode-15",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/19877.jpg",
+      "number": 15,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//battle-spirits-sword-eyes-gekitouden-episode-15"
+    },
+    {
+      "id": "battle-spirits-sword-eyes-gekitouden-episode-16",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/19877.jpg",
+      "number": 16,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//battle-spirits-sword-eyes-gekitouden-episode-16"
+    },
+    {
+      "id": "battle-spirits-sword-eyes-gekitouden-episode-17",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/19877.jpg",
+      "number": 17,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//battle-spirits-sword-eyes-gekitouden-episode-17"
+    },
+    {
+      "id": "battle-spirits-sword-eyes-gekitouden-episode-18",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/19877.jpg",
+      "number": 18,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//battle-spirits-sword-eyes-gekitouden-episode-18"
+    },
+    {
+      "id": "battle-spirits-sword-eyes-gekitouden-episode-19",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/19877.jpg",
+      "number": 19,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//battle-spirits-sword-eyes-gekitouden-episode-19"
+    },
+    {
+      "id": "battle-spirits-sword-eyes-gekitouden-episode-20",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/19877.jpg",
+      "number": 20,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//battle-spirits-sword-eyes-gekitouden-episode-20"
+    },
+    {
+      "id": "battle-spirits-sword-eyes-gekitouden-episode-21",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/19877.jpg",
+      "number": 21,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//battle-spirits-sword-eyes-gekitouden-episode-21"
+    }
+  ]
+}

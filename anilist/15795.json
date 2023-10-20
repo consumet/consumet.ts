@@ -1,0 +1,686 @@
+{
+  "id": "15795",
+  "title": {
+    "romaji": "Beast Saga",
+    "english": null,
+    "native": "ビーストサーガ"
+  },
+  "malId": 15795,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+  "popularity": 372,
+  "color": "#e4861a",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+  "description": "Beast Saga takes place on a distant planet in our galaxy called Beast where three beast tribes, the Sea Tribe, the Land Tribe, and the Sky Tribe, fight for their honor. Each of the tribes protect an infinite elemental power source called Godlot.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2013,
+  "startDate": {
+    "year": 2013,
+    "month": 1,
+    "day": 13
+  },
+  "endDate": {
+    "year": 2013,
+    "month": 9,
+    "day": 22
+  },
+  "totalEpisodes": 38,
+  "currentEpisode": 38,
+  "rating": 44,
+  "duration": 11,
+  "genres": [
+    "Action",
+    "Sci-Fi"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "SynergySP"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 392,
+      "malId": 392,
+      "title": {
+        "romaji": "Yuu☆Yuu☆Hakusho",
+        "english": "Yu Yu Hakusho: Ghostfiles",
+        "native": "幽☆遊☆白書",
+        "userPreferred": "Yuu☆Yuu☆Hakusho"
+      },
+      "status": "Completed",
+      "episodes": 112,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx392-z90299zIvYmx.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/392-nbB6cBnhHOFb.jpg",
+      "rating": 82,
+      "type": "TV"
+    },
+    {
+      "id": 113950,
+      "malId": 40870,
+      "title": {
+        "romaji": "SSSS.DYNAZENON",
+        "english": "SSSS.DYNAZENON",
+        "native": "SSSS.DYNAZENON",
+        "userPreferred": "SSSS.DYNAZENON"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113950-Yn7h0o1yD61j.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113950-466E1yrRgD0N.jpg",
+      "rating": 74,
+      "type": "TV"
+    },
+    {
+      "id": 107660,
+      "malId": 39195,
+      "title": {
+        "romaji": "BEASTARS",
+        "english": "BEASTARS",
+        "native": "BEASTARS",
+        "userPreferred": "BEASTARS"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107660-nANW2Fco3aDK.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/107660-AxwrzHkXzYYN.jpg",
+      "rating": 77,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 274359,
+      "role": "MAIN",
+      "name": {
+        "first": "Raioga",
+        "last": null,
+        "full": "Raioga",
+        "native": "ライオーガ",
+        "userPreferred": "Raioga"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95893,
+          "language": "Japanese",
+          "name": {
+            "first": "Taiten",
+            "last": "Kusunoki",
+            "full": "Taiten Kusunoki",
+            "native": "楠大典",
+            "userPreferred": "Taiten Kusunoki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95893-k0qEVnRygyIn.png"
+        }
+      ]
+    },
+    {
+      "id": 274357,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Banikisu",
+        "last": null,
+        "full": "Banikisu",
+        "native": "バニキス",
+        "userPreferred": "Banikisu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95884,
+          "language": "Japanese",
+          "name": {
+            "first": "Masahito",
+            "last": "Yabe",
+            "full": "Masahito Yabe",
+            "native": "矢部雅史",
+            "userPreferred": "Masahito Yabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/884.jpg"
+        }
+      ]
+    },
+    {
+      "id": 274358,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Arudairu",
+        "last": null,
+        "full": "Arudairu",
+        "native": "アルダイル",
+        "userPreferred": "Arudairu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 102321,
+          "language": "Japanese",
+          "name": {
+            "first": "Kousei",
+            "last": "Hirota",
+            "full": "Kousei Hirota",
+            "native": "廣田行生",
+            "userPreferred": "Kousei Hirota"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102321-RGZyzVH6DAhs.png"
+        }
+      ]
+    },
+    {
+      "id": 274360,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ogre",
+        "last": null,
+        "full": "Ogre",
+        "native": "オーガ",
+        "userPreferred": "Ogre"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 102695,
+          "language": "Japanese",
+          "name": {
+            "first": "Takuya",
+            "last": "Eguchi",
+            "full": "Takuya Eguchi",
+            "native": "江口拓也",
+            "userPreferred": "Takuya Eguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102695-dGzsJkor0KMj.jpg"
+        }
+      ]
+    },
+    {
+      "id": 274361,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gueru",
+        "last": null,
+        "full": "Gueru",
+        "native": "グエール",
+        "userPreferred": "Gueru"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 107705,
+          "language": "Japanese",
+          "name": {
+            "first": "Taishi",
+            "last": "Murata",
+            "full": "Taishi Murata",
+            "native": "村田太志",
+            "userPreferred": "Taishi Murata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107705-lVfYRzWY5AFW.jpg"
+        }
+      ]
+    },
+    {
+      "id": 274362,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Repamint",
+        "last": null,
+        "full": "Repamint",
+        "native": "レパーミント",
+        "userPreferred": "Repamint"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95271,
+          "language": "Japanese",
+          "name": {
+            "first": "Youko",
+            "last": "Honda",
+            "full": "Youko Honda",
+            "native": "陽子 本多",
+            "userPreferred": "Youko Honda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/271.jpg"
+        }
+      ]
+    },
+    {
+      "id": 274363,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bigserou",
+        "last": null,
+        "full": "Bigserou",
+        "native": "ビッグセロウ",
+        "userPreferred": "Bigserou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95527,
+          "language": "Japanese",
+          "name": {
+            "first": "Gou",
+            "last": "Inoue",
+            "full": "Gou Inoue",
+            "native": "井上剛",
+            "userPreferred": "Gou Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/527.jpg"
+        }
+      ]
+    },
+    {
+      "id": 274364,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dog-ya",
+        "last": null,
+        "full": "Dog-ya",
+        "native": "ドッグ屋",
+        "userPreferred": "Dog-ya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 101724,
+          "language": "Japanese",
+          "name": {
+            "first": "Gou",
+            "last": "Shinomiya",
+            "full": "Gou Shinomiya",
+            "native": "四宮豪",
+            "userPreferred": "Gou Shinomiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101724-MEUzOW3BRvy2.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 144602,
+      "relationType": "ALTERNATIVE",
+      "malId": null,
+      "title": {
+        "romaji": "Beast Saga",
+        "english": null,
+        "native": "ビーストサーガ",
+        "userPreferred": "Beast Saga"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx144602-2zEqbrDaRnVq.jpg",
+      "color": "#d6a11a",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx144602-2zEqbrDaRnVq.jpg",
+      "rating": null
+    },
+    {
+      "id": 145353,
+      "relationType": "SEQUEL",
+      "malId": null,
+      "title": {
+        "romaji": "Beast Saga (ONA)",
+        "english": null,
+        "native": "ビーストサーガ (ONA)",
+        "userPreferred": "Beast Saga (ONA)"
+      },
+      "status": "Completed",
+      "episodes": 7,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b145353-EcxXm8mQAvjH.jpg",
+      "color": "#e4861a",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b145353-EcxXm8mQAvjH.jpg",
+      "rating": 48
+    }
+  ],
+  "episodes": [
+    {
+      "id": "beast-saga--episode-1",
+      "title": "The Fist of Ferocity King, Liogre",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 1,
+      "createdAt": "2014-11-18T09:35:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-1"
+    },
+    {
+      "id": "beast-saga--episode-2",
+      "title": "Tyrant Lord Alldile",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 2,
+      "createdAt": "2017-06-30T08:07:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-2"
+    },
+    {
+      "id": "beast-saga--episode-3",
+      "title": "Beast Fight! Showdown between Warriors!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 3,
+      "createdAt": "2017-06-30T08:07:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-3"
+    },
+    {
+      "id": "beast-saga--episode-4",
+      "title": "Reversal! The Magiclot!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 4,
+      "createdAt": "2017-06-30T08:07:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-4"
+    },
+    {
+      "id": "beast-saga--episode-5",
+      "title": "The Trap of Mandal Mountain!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 5,
+      "createdAt": "2017-06-30T08:07:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-5"
+    },
+    {
+      "id": "beast-saga--episode-6",
+      "title": "The Counterattack of Gloria's Royal Guard!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 6,
+      "createdAt": "2017-06-30T08:07:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-6"
+    },
+    {
+      "id": "beast-saga--episode-7",
+      "title": "Golder's Rebellion!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 7,
+      "createdAt": "2017-06-30T08:07:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-7"
+    },
+    {
+      "id": "beast-saga--episode-8",
+      "title": "The Power of the Godlot",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 8,
+      "createdAt": "2017-06-30T08:07:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-8"
+    },
+    {
+      "id": "beast-saga--episode-9",
+      "title": "The Colossal Clash! Lion vs. Tiger!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 9,
+      "createdAt": "2017-06-30T08:07:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-9"
+    },
+    {
+      "id": "beast-saga--episode-10",
+      "title": "Liogre Dies?!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 10,
+      "createdAt": "2017-06-30T08:07:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-10"
+    },
+    {
+      "id": "beast-saga--episode-11",
+      "title": "A King's Fight",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 11,
+      "createdAt": "2017-06-30T08:07:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-11"
+    },
+    {
+      "id": "beast-saga--episode-12",
+      "title": "The Lone Gunman, Wolfen",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 12,
+      "createdAt": "2017-06-30T08:07:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-12"
+    },
+    {
+      "id": "beast-saga--episode-13",
+      "title": "The Death-Heart Gang's Plot",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 13,
+      "createdAt": "2017-06-30T08:07:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-13"
+    },
+    {
+      "id": "beast-saga--episode-14",
+      "title": "Calamity at the Zigzag River",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 14,
+      "createdAt": "2017-06-30T08:07:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-14"
+    },
+    {
+      "id": "beast-saga--episode-15",
+      "title": "Battle of the Fang Lock Fortress",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 15,
+      "createdAt": "2017-06-30T08:07:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-15"
+    },
+    {
+      "id": "beast-saga--episode-16",
+      "title": "The Pirate Lord, Killer Shark",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 16,
+      "createdAt": "2017-06-30T08:07:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-16"
+    },
+    {
+      "id": "beast-saga--episode-17",
+      "title": "Progress Under Attack",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 17,
+      "createdAt": "2017-06-30T08:07:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-17"
+    },
+    {
+      "id": "beast-saga--episode-18",
+      "title": "The Trials and Tribulations of the Heavy Armor Assault Force!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 18,
+      "createdAt": "2017-06-30T08:07:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-18"
+    },
+    {
+      "id": "beast-saga--episode-19",
+      "title": "The Stolen Godlot",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 19,
+      "createdAt": "2017-06-30T08:07:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-19"
+    },
+    {
+      "id": "beast-saga--episode-20",
+      "title": "Duel! Ogre vs. Cheetahbaton",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 20,
+      "createdAt": "2017-06-30T08:07:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-20"
+    },
+    {
+      "id": "beast-saga--episode-21",
+      "title": "The Looming Storm",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 21,
+      "createdAt": "2017-06-30T08:07:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-21"
+    },
+    {
+      "id": "beast-saga--episode-22",
+      "title": "Leoparmint's Determination",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 22,
+      "createdAt": "2017-06-30T08:07:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-22"
+    },
+    {
+      "id": "beast-saga--episode-23",
+      "title": "The Forbidden Spell: The Mega Tempest!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 23,
+      "createdAt": "2017-06-30T08:07:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-23"
+    },
+    {
+      "id": "beast-saga--episode-24",
+      "title": "Vanquish the Gigantic Dragon!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 24,
+      "createdAt": "2017-06-30T08:07:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-24"
+    },
+    {
+      "id": "beast-saga--episode-25",
+      "title": "Land, Sea, and Sky! An All-Out Battle!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 25,
+      "createdAt": "2017-06-30T08:07:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-25"
+    },
+    {
+      "id": "beast-saga--episode-26",
+      "title": "At the End of a Life-and-Death Struggle",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 26,
+      "createdAt": "2017-06-30T08:07:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-26"
+    },
+    {
+      "id": "beast-saga--episode-27",
+      "title": "Break into Deadlock!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 27,
+      "createdAt": "2017-06-30T08:07:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-27"
+    },
+    {
+      "id": "beast-saga--episode-28",
+      "title": "A Fierce Battle in the Deep Blue Sea",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 28,
+      "createdAt": "2017-06-30T08:07:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-28"
+    },
+    {
+      "id": "beast-saga--episode-29",
+      "title": "The Frightening Three Shark Brothers",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 29,
+      "createdAt": "2017-06-30T08:07:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-29"
+    },
+    {
+      "id": "beast-saga--episode-30",
+      "title": "Mantaray's Shout",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 30,
+      "createdAt": "2017-06-30T08:07:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-30"
+    },
+    {
+      "id": "beast-saga--episode-31",
+      "title": "Burst, Super Liogre!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 31,
+      "createdAt": "2017-06-30T08:07:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-31"
+    },
+    {
+      "id": "beast-saga--episode-32",
+      "title": "Big Serow and the Fist of Friendship",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 32,
+      "createdAt": "2017-06-30T08:07:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-32"
+    },
+    {
+      "id": "beast-saga--episode-33",
+      "title": "The Grand Opening of the Festival of Gloria",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 33,
+      "createdAt": "2017-06-30T08:07:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-33"
+    },
+    {
+      "id": "beast-saga--episode-34",
+      "title": "Showdown! Ogre vs. Liogre",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 34,
+      "createdAt": "2017-06-30T08:07:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-34"
+    },
+    {
+      "id": "beast-saga--episode-35",
+      "title": "Dark Clouds Gather over the Kingdom of Soarer",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 35,
+      "createdAt": "2017-06-30T08:07:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-35"
+    },
+    {
+      "id": "beast-saga--episode-36",
+      "title": "The Triple Alliance Summit: A Vow of Peace",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 36,
+      "createdAt": "2017-06-30T08:07:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-36"
+    },
+    {
+      "id": "beast-saga--episode-37",
+      "title": "Rematch! The Destined Rivals",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 37,
+      "createdAt": "2017-06-30T08:07:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-37"
+    },
+    {
+      "id": "beast-saga--episode-38",
+      "title": "Heading into the Future! Beast Fight!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15795.jpg",
+      "number": 38,
+      "createdAt": "2017-06-30T08:07:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//beast-saga--episode-38"
+    }
+  ]
+}

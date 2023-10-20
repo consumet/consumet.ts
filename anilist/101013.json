@@ -1,0 +1,817 @@
+{
+  "id": "101013",
+  "title": {
+    "romaji": "Anima Yell!",
+    "english": null,
+    "native": "アニマエール！"
+  },
+  "malId": 37206,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "QFe8KUjB7qA",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/QFe8KUjB7qA/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx101013-hFT0b0mqC1oY.jpg",
+  "popularity": 13663,
+  "color": "#e4ae50",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n101013-jecSkRN3pt5I.jpg",
+  "description": "The story follows Kohane Hatoya, a 1st year high school student who is a bit clumsy and scared of heights but who has a very bubbly and outgoing personality. Kohane decides to join the cheerleading club to try to make friends and overcome her weaknesses.<br><br>\n\n(Source: Crunchyroll)",
+  "status": "Completed",
+  "releaseDate": 2018,
+  "startDate": {
+    "year": 2018,
+    "month": 10,
+    "day": 7
+  },
+  "endDate": {
+    "year": 2018,
+    "month": 12,
+    "day": 23
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 66,
+  "duration": 24,
+  "genres": [
+    "Comedy",
+    "Sports"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Doga Kobo"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 5680,
+      "malId": 5680,
+      "title": {
+        "romaji": "K-ON!",
+        "english": "K-ON!",
+        "native": "けいおん!",
+        "userPreferred": "K-ON!"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5680-Xh6B67KuZ2PU.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n5680-aa5kyuG6154Y.jpg",
+      "rating": 78,
+      "type": "TV"
+    },
+    {
+      "id": 99131,
+      "malId": 35756,
+      "title": {
+        "romaji": "Comic Girls",
+        "english": "Comic Girls",
+        "native": "こみっくがーるず",
+        "userPreferred": "Comic Girls"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99131-Lnr99AnA1ncY.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99131-xQSIHqKTUmCc.jpg",
+      "rating": 72,
+      "type": "TV"
+    },
+    {
+      "id": 87517,
+      "malId": 33948,
+      "title": {
+        "romaji": "Hinako Note",
+        "english": null,
+        "native": "ひなこのーと",
+        "userPreferred": "Hinako Note"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx87517-xktTn25rZrRZ.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n87517-jLlOUMG6aZoA.jpg",
+      "rating": 64,
+      "type": "TV"
+    },
+    {
+      "id": 10495,
+      "malId": 10495,
+      "title": {
+        "romaji": "Yuru Yuri",
+        "english": "YuruYuri",
+        "native": "ゆるゆり",
+        "userPreferred": "Yuru Yuri"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10495-LC0vlFLHk2Ue.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10495-rIrvOpIurPXE.jpg",
+      "rating": 74,
+      "type": "TV"
+    },
+    {
+      "id": 108713,
+      "malId": 39609,
+      "title": {
+        "romaji": "Ochikobore Fruit Tart",
+        "english": "Dropout Idol Fruit Tart",
+        "native": "おちこぼれフルーツタルト",
+        "userPreferred": "Ochikobore Fruit Tart"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108713-6rHQTEA9ptyb.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108713-YE7zYLKdMsVW.jpg",
+      "rating": 64,
+      "type": "TV"
+    },
+    {
+      "id": 16732,
+      "malId": 16732,
+      "title": {
+        "romaji": "Kiniro Mosaic",
+        "english": "KINMOZA!",
+        "native": "きんいろモザイク",
+        "userPreferred": "Kiniro Mosaic"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16732-dQXm6lnmbWZ4.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16732-u35WwavOnNdH.jpg",
+      "rating": 70,
+      "type": "TV"
+    },
+    {
+      "id": 124223,
+      "malId": 42941,
+      "title": {
+        "romaji": "Uma Musume: Pretty Derby Season 2",
+        "english": "Umamusume: Pretty Derby Season 2",
+        "native": "ウマ娘 プリティーダービー Season 2",
+        "userPreferred": "Uma Musume: Pretty Derby Season 2"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx124223-A1D1ZAW0KQnH.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/124223-L3bh0nENS4gX.jpg",
+      "rating": 81,
+      "type": "TV"
+    },
+    {
+      "id": 21238,
+      "malId": 31080,
+      "title": {
+        "romaji": "Anne Happy♪",
+        "english": "Anne-Happy",
+        "native": "あんハピ♪",
+        "userPreferred": "Anne Happy♪"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21238-nCMUieIslAYI.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21238-0YiT4CJXOGGp.jpg",
+      "rating": 66,
+      "type": "TV"
+    },
+    {
+      "id": 1852,
+      "malId": 1852,
+      "title": {
+        "romaji": "Hidamari Sketch",
+        "english": "Hidamari Sketch",
+        "native": "ひだまりスケッチ",
+        "userPreferred": "Hidamari Sketch"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1852-ru4zOAvNn1Aq.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1852-luCP33l49lkR.jpg",
+      "rating": 73,
+      "type": "TV"
+    },
+    {
+      "id": 17549,
+      "malId": 17549,
+      "title": {
+        "romaji": "Non Non Biyori",
+        "english": "Non Non Biyori",
+        "native": "のんのんびより",
+        "userPreferred": "Non Non Biyori"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx17549-n5m9PEt8SKIW.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/17549-J7bDkafpjQ0D.jpg",
+      "rating": 78,
+      "type": "TV"
+    },
+    {
+      "id": 20694,
+      "malId": 23623,
+      "title": {
+        "romaji": "Non Non Biyori: Repeat",
+        "english": "Non Non Biyori Repeat",
+        "native": "のんのんびより りぴーと",
+        "userPreferred": "Non Non Biyori: Repeat"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20694-Brxd5Unqa5fP.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20694-LDqiSEBXz784.png",
+      "rating": 81,
+      "type": "TV"
+    },
+    {
+      "id": 109403,
+      "malId": 39808,
+      "title": {
+        "romaji": "Non Non Biyori: Nonstop",
+        "english": "Non Non Biyori Nonstop",
+        "native": "のんのんびより のんすとっぷ",
+        "userPreferred": "Non Non Biyori: Nonstop"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109403-g6QqMkqV1ayu.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/109403-sitiskO3Ewzj.jpg",
+      "rating": 83,
+      "type": "TV"
+    },
+    {
+      "id": 98439,
+      "malId": 35078,
+      "title": {
+        "romaji": "Mitsuboshi Colors",
+        "english": "Mitsuboshi Colors",
+        "native": "三ツ星カラーズ",
+        "userPreferred": "Mitsuboshi Colors"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98439-J6h5VEcZh9vK.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98439-JPdhih1rfB8f.png",
+      "rating": 72,
+      "type": "TV"
+    },
+    {
+      "id": 108092,
+      "malId": 39388,
+      "title": {
+        "romaji": "Koisuru Asteroid",
+        "english": "Asteroid in Love",
+        "native": "恋する小惑星〈アステロイド〉",
+        "userPreferred": "Koisuru Asteroid"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108092-vbL3rf0b23sp.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108092-y9c4xaGJU8m9.jpg",
+      "rating": 66,
+      "type": "TV"
+    },
+    {
+      "id": 127549,
+      "malId": 45425,
+      "title": {
+        "romaji": "Slow Loop",
+        "english": "Slow Loop",
+        "native": "スローループ",
+        "userPreferred": "Slow Loop"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx127549-fr324YPdXb3D.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/127549-9j4uHXMStHGX.jpg",
+      "rating": 71,
+      "type": "TV"
+    },
+    {
+      "id": 20575,
+      "malId": 21681,
+      "title": {
+        "romaji": "Hanayamata",
+        "english": "HaNaYaMaTa",
+        "native": "ハナヤマタ",
+        "userPreferred": "Hanayamata"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20575-SKNc01MWDyCi.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n20575-Em9HyKKRkilJ.jpg",
+      "rating": 70,
+      "type": "TV"
+    },
+    {
+      "id": 109019,
+      "malId": 39730,
+      "title": {
+        "romaji": "Houkago Teibou Nisshi",
+        "english": "Diary of Our Days at the Breakwater",
+        "native": "放課後ていぼう日誌",
+        "userPreferred": "Houkago Teibou Nisshi"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109019-xlrVQRdo1EQi.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/109019-CI5tlvudZ3zS.jpg",
+      "rating": 71,
+      "type": "TV"
+    },
+    {
+      "id": 140700,
+      "malId": 50209,
+      "title": {
+        "romaji": "Sorairo Utility",
+        "english": "Sorairo Utility",
+        "native": "空色ユーティリティ",
+        "userPreferred": "Sorairo Utility"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx140700-yTqSEkdWiLny.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/140700-DNKEhgunBikD.jpg",
+      "rating": 64,
+      "type": "SPECIAL"
+    },
+    {
+      "id": 155419,
+      "malId": 53262,
+      "title": {
+        "romaji": "Hoshikuzu Telepath",
+        "english": "Stardust Telepath",
+        "native": "星屑テレパス",
+        "userPreferred": "Hoshikuzu Telepath"
+      },
+      "status": "Ongoing",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx155419-tPkRvXYb9ffC.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/155419-yO6MTtDbaeDj.jpg",
+      "rating": 71,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 127930,
+      "role": "MAIN",
+      "name": {
+        "first": "Kana",
+        "last": "Ushiku",
+        "full": "Kana Ushiku",
+        "native": "牛久 花和",
+        "userPreferred": "Kana Ushiku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n127930-yFRCU8vJNyyf.jpg",
+      "voiceActors": [
+        {
+          "id": 112629,
+          "language": "Japanese",
+          "name": {
+            "first": "Haruka",
+            "last": "Shiraishi",
+            "full": "Haruka Shiraishi",
+            "native": "白石晴香",
+            "userPreferred": "Haruka Shiraishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n112629-7VH5IJtDBTn3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 127931,
+      "role": "MAIN",
+      "name": {
+        "first": "Kotetsu",
+        "last": "Tatejima",
+        "full": "Kotetsu Tatejima",
+        "native": "舘島虎徹",
+        "userPreferred": "Kotetsu Tatejima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n127931-LOnz50Syvwx6.jpg",
+      "voiceActors": [
+        {
+          "id": 124923,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomori",
+            "last": "Kusunoki",
+            "full": "Tomori Kusunoki",
+            "native": "楠木ともり",
+            "userPreferred": "Tomori Kusunoki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n124923-TggYFBvOpK3M.png"
+        }
+      ]
+    },
+    {
+      "id": 127932,
+      "role": "MAIN",
+      "name": {
+        "first": "Uki",
+        "last": "Sawatari",
+        "full": "Uki Sawatari",
+        "native": "猿渡宇希",
+        "userPreferred": "Uki Sawatari"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n127932-mg9uiwz8F07U.jpg",
+      "voiceActors": [
+        {
+          "id": 119401,
+          "language": "Japanese",
+          "name": {
+            "first": "Mikako",
+            "last": "Izawa",
+            "full": "Mikako Izawa",
+            "native": "井澤美香子",
+            "userPreferred": "Mikako Izawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119401-rCnDTIzPtuOc.png"
+        }
+      ]
+    },
+    {
+      "id": 127933,
+      "role": "MAIN",
+      "name": {
+        "first": "Kohane",
+        "last": "Hatoya",
+        "full": "Kohane Hatoya",
+        "native": "鳩谷こはね",
+        "userPreferred": "Kohane Hatoya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n127933-KO5Q9MUa6yI9.jpg",
+      "voiceActors": [
+        {
+          "id": 122322,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuka",
+            "last": "Ozaki",
+            "full": "Yuka Ozaki",
+            "native": "尾崎由香",
+            "userPreferred": "Yuka Ozaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/122322-xmIT4uI4lB5J.png"
+        }
+      ]
+    },
+    {
+      "id": 127934,
+      "role": "MAIN",
+      "name": {
+        "first": "Hizume",
+        "last": "Arima",
+        "full": "Hizume Arima",
+        "native": "有馬ひづめ",
+        "userPreferred": "Hizume Arima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n127934-GOv9p1FCsRX7.jpg",
+      "voiceActors": [
+        {
+          "id": 126074,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuina",
+            "last": "Yamada",
+            "full": "Yuina Yamada",
+            "native": "山田唯菜",
+            "userPreferred": "Yuina Yamada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n126074-odChu7Ft5Yif.jpg"
+        }
+      ]
+    },
+    {
+      "id": 128637,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Basket Senpai",
+        "last": null,
+        "full": "Basket Senpai",
+        "native": "バスケ先輩",
+        "userPreferred": "Basket Senpai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n128637-OfpGBc0Kw3Dm.jpg",
+      "voiceActors": [
+        {
+          "id": 119283,
+          "language": "Japanese",
+          "name": {
+            "first": "Yurina",
+            "last": "Furukawa",
+            "full": "Yurina Furukawa",
+            "native": "古川由利奈",
+            "userPreferred": "Yurina Furukawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119283-NZHh7WtMDSH7.png"
+        }
+      ]
+    },
+    {
+      "id": 128636,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kateika-bu Buchou",
+        "last": "",
+        "full": "Kateika-bu Buchou",
+        "native": "家庭科部部長",
+        "userPreferred": "Kateika-bu Buchou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n128636-v1orLxlLCghY.jpg",
+      "voiceActors": [
+        {
+          "id": 120100,
+          "language": "Japanese",
+          "name": {
+            "first": "Nao",
+            "last": "Natsuno",
+            "full": "Nao Natsuno",
+            "native": "菜緒 夏野",
+            "userPreferred": "Nao Natsuno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/25100-QP5d5zl4tNrM.jpg"
+        }
+      ]
+    },
+    {
+      "id": 128638,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hanayo",
+        "last": "Inukai",
+        "full": "Hanayo Inukai",
+        "native": "犬養花代",
+        "userPreferred": "Hanayo Inukai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n128638-XMJlUIHYAkfg.png",
+      "voiceActors": [
+        {
+          "id": 115835,
+          "language": "Japanese",
+          "name": {
+            "first": "Eriko",
+            "last": "Matsui",
+            "full": "Eriko Matsui",
+            "native": "松井恵理子",
+            "userPreferred": "Eriko Matsui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n115835-3uhE3pEKEsEN.png"
+        }
+      ]
+    },
+    {
+      "id": 128639,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kon",
+        "last": "Akitsune",
+        "full": "Kon Akitsune",
+        "native": "秋常紺",
+        "userPreferred": "Kon Akitsune"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n128639-iSyD8dmoAaJI.png",
+      "voiceActors": [
+        {
+          "id": 128640,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiyori",
+            "last": "Kouno",
+            "full": "Hiyori Kouno",
+            "native": "河野ひより",
+            "userPreferred": "Hiyori Kouno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n128640-A4tzr5vUxui9.png"
+        }
+      ]
+    },
+    {
+      "id": 128633,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Suzuko",
+        "last": "Nekoya",
+        "full": "Suzuko Nekoya",
+        "native": "根古屋 鈴子",
+        "userPreferred": "Suzuko Nekoya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n128633-PcfvAxYexVoG.jpg",
+      "voiceActors": [
+        {
+          "id": 119960,
+          "language": "Japanese",
+          "name": {
+            "first": "Risae",
+            "last": "Matsuda",
+            "full": "Risae Matsuda",
+            "native": "松田利冴",
+            "userPreferred": "Risae Matsuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119960-1b9eah3Af5f2.png"
+        }
+      ]
+    },
+    {
+      "id": 128634,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tamako",
+        "last": "Nekoya",
+        "full": "Tamako Nekoya",
+        "native": "根古屋 珠子",
+        "userPreferred": "Tamako Nekoya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n128634-y5utC4AqtN3I.jpg",
+      "voiceActors": [
+        {
+          "id": 119959,
+          "language": "Japanese",
+          "name": {
+            "first": "Satsumi",
+            "last": "Matsuda",
+            "full": "Satsumi Matsuda",
+            "native": "松田颯水",
+            "userPreferred": "Satsumi Matsuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119959-dN9jj8PMUmiU.png"
+        }
+      ]
+    },
+    {
+      "id": 128635,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Akane",
+        "last": "Sawatari",
+        "full": "Akane Sawatari",
+        "native": "猿渡 暁音",
+        "userPreferred": "Akane Sawatari"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n128635-Y7ujVKMxphnj.jpg",
+      "voiceActors": [
+        {
+          "id": 119281,
+          "language": "Japanese",
+          "name": {
+            "first": "Aimi",
+            "last": "Tanaka",
+            "full": "Aimi Tanaka",
+            "native": "田中あいみ",
+            "userPreferred": "Aimi Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119281-JTPeNOrPAx3O.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 101023,
+      "relationType": "ADAPTATION",
+      "malId": 110653,
+      "title": {
+        "romaji": "Anima Yell!",
+        "english": null,
+        "native": "アニマエール！",
+        "userPreferred": "Anima Yell!"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx101023-lB7raV5DMzdz.png",
+      "color": "#28aef1",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/101023-8huZsQk3bQHR.jpg",
+      "rating": 69
+    },
+    {
+      "id": 106674,
+      "relationType": "SIDE_STORY",
+      "malId": 38803,
+      "title": {
+        "romaji": "Anima Yell! Ouen Douga",
+        "english": null,
+        "native": "アニマエール！応援動画",
+        "userPreferred": "Anima Yell! Ouen Douga"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n106674-KC3IaTOcbZUw.jpg",
+      "color": "#e4d678",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n106674-KC3IaTOcbZUw.jpg",
+      "rating": 52
+    }
+  ],
+  "episodes": [
+    {
+      "id": "anima-yell-episode-1",
+      "title": "My First Time Cheerleading",
+      "image": "https://media.kitsu.io/episodes/thumbnails/255253/original.jpg",
+      "number": 1,
+      "createdAt": "2018-09-18T12:29:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//anima-yell-episode-1"
+    },
+    {
+      "id": "anima-yell-episode-2",
+      "title": "Cute Yet Cool",
+      "image": "https://media.kitsu.io/episodes/thumbnails/255254/original.jpg",
+      "number": 2,
+      "createdAt": "2018-09-18T12:29:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//anima-yell-episode-2"
+    },
+    {
+      "id": "anima-yell-episode-3",
+      "title": "The Cheer Association, Cheering for Love!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/255255/original.jpg",
+      "number": 3,
+      "createdAt": "2018-09-18T12:29:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//anima-yell-episode-3"
+    },
+    {
+      "id": "anima-yell-episode-4",
+      "title": "Let's Cheer UP!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/255256/original.jpg",
+      "number": 4,
+      "createdAt": "2018-09-18T12:29:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//anima-yell-episode-4"
+    },
+    {
+      "id": "anima-yell-episode-5",
+      "title": "Arm Motions With a Smile",
+      "image": "https://media.kitsu.io/episodes/thumbnails/255257/original.jpg",
+      "number": 5,
+      "createdAt": "2018-09-18T12:29:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//anima-yell-episode-5"
+    },
+    {
+      "id": "anima-yell-episode-6",
+      "title": "Super Exciting Double Base Thigh Stand!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/255258/original.jpg",
+      "number": 6,
+      "createdAt": "2018-09-18T12:29:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//anima-yell-episode-6"
+    },
+    {
+      "id": "anima-yell-episode-7",
+      "title": "The One on Top Is Scared of Heights",
+      "image": "https://media.kitsu.io/episodes/thumbnails/255259/original.jpg",
+      "number": 7,
+      "createdAt": "2018-09-18T12:29:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//anima-yell-episode-7"
+    },
+    {
+      "id": "anima-yell-episode-8",
+      "title": "Senpai and Me",
+      "image": "https://media.kitsu.io/episodes/thumbnails/255260/original.jpg",
+      "number": 8,
+      "createdAt": "2018-09-18T12:29:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//anima-yell-episode-8"
+    },
+    {
+      "id": "anima-yell-episode-9",
+      "title": "The Captain Is Chosen! Five-Person Cheer Squad",
+      "image": "https://media.kitsu.io/episodes/thumbnails/255261/original.jpg",
+      "number": 9,
+      "createdAt": "2018-09-18T12:29:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//anima-yell-episode-9"
+    },
+    {
+      "id": "anima-yell-episode-10",
+      "title": "Socks and Summer Training Camp",
+      "image": "https://media.kitsu.io/episodes/thumbnails/255262/original.jpg",
+      "number": 10,
+      "createdAt": "2018-09-18T12:29:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//anima-yell-episode-10"
+    },
+    {
+      "id": "anima-yell-episode-11",
+      "title": "Exciting Shoulder Straddle",
+      "image": "https://media.kitsu.io/episodes/thumbnails/255263/original.jpg",
+      "number": 11,
+      "createdAt": "2018-09-18T12:29:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//anima-yell-episode-11"
+    },
+    {
+      "id": "anima-yell-episode-12",
+      "title": "One for All, All for One",
+      "image": "https://media.kitsu.io/episodes/thumbnails/255264/original.jpg",
+      "number": 12,
+      "createdAt": "2018-09-18T12:29:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//anima-yell-episode-12"
+    }
+  ]
+}

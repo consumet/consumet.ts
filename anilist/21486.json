@@ -1,0 +1,454 @@
+{
+  "id": "21486",
+  "title": {
+    "romaji": "LET'S Nupu Nupu",
+    "english": null,
+    "native": "LET'S ぬぷぬぷっ"
+  },
+  "malId": 5132,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21486-ZpMlQMZfXRzq.png",
+  "popularity": 1804,
+  "color": "#ae7835",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21486-ZpMlQMZfXRzq.png",
+  "description": "With four-frame comic origins, this animated title preserves the same quick pace by following the regular cast of colorful characters through separate but interwoven story lines in every episode. From Ms. Shitara's relentless but always ineffective sexual pursuit of young Takagi to the adventures of the heroicly stupid but cute Sushi Cat, you will be mystified at the silliness of it all but find yourself laughing for the same reason!",
+  "status": "Completed",
+  "releaseDate": 1998,
+  "startDate": {
+    "year": 1998,
+    "month": 10,
+    "day": 5
+  },
+  "endDate": {
+    "year": 1998,
+    "month": 11,
+    "day": 2
+  },
+  "totalEpisodes": 16,
+  "currentEpisode": 16,
+  "rating": 55,
+  "duration": 5,
+  "genres": [
+    "Comedy",
+    "Ecchi"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Group TAC"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 1060,
+      "malId": 1060,
+      "title": {
+        "romaji": "Oruchuban Ebichu",
+        "english": null,
+        "native": "おるちゅばんエビちゅ",
+        "userPreferred": "Oruchuban Ebichu"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n1060-IlyURsFAuM9D.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1060-RGrtSPm6amMJ.jpg",
+      "rating": 68,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 841,
+      "malId": 841,
+      "title": {
+        "romaji": "COLORFUL",
+        "english": "Colorful",
+        "native": "COLORFUL",
+        "userPreferred": "COLORFUL"
+      },
+      "status": "Completed",
+      "episodes": 16,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx841-gdXOqxm7hUVl.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/841-qo5WpPqEgvz1.jpg",
+      "rating": 50,
+      "type": "TV_SHORT"
+    }
+  ],
+  "characters": [
+    {
+      "id": 145347,
+      "role": "MAIN",
+      "name": {
+        "first": "Sushi Neko",
+        "last": null,
+        "full": "Sushi Neko",
+        "native": "スシ猫",
+        "userPreferred": "Sushi Neko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b145347-HLQQQIO9q8hZ.png",
+      "voiceActors": [
+        {
+          "id": 95622,
+          "language": "Japanese",
+          "name": {
+            "first": "Urara",
+            "last": "Takano",
+            "full": "Urara Takano",
+            "native": "高乃麗",
+            "userPreferred": "Urara Takano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95622-dTBTsrkei7v4.png"
+        }
+      ]
+    },
+    {
+      "id": 180862,
+      "role": "MAIN",
+      "name": {
+        "first": "Fumio",
+        "last": "Takagi",
+        "full": "Fumio Takagi",
+        "native": "高木文男",
+        "userPreferred": "Fumio Takagi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b180862-1VBzL1shEwPD.jpg",
+      "voiceActors": [
+        {
+          "id": 95058,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuji",
+            "last": "Ueda",
+            "full": "Yuuji Ueda",
+            "native": "うえだゆうじ",
+            "userPreferred": "Yuuji Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95058-fGnId7E4tgx3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 180861,
+      "role": "MAIN",
+      "name": {
+        "first": "Sagara",
+        "last": "Shitara",
+        "full": "Sagara Shitara",
+        "native": "設楽先生",
+        "userPreferred": "Sagara Shitara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b180861-I9VtjUWXa7qo.jpg",
+      "voiceActors": [
+        {
+          "id": 95437,
+          "language": "Japanese",
+          "name": {
+            "first": "Michie",
+            "last": "Tomizawa",
+            "full": "Michie Tomizawa",
+            "native": "富沢美智恵",
+            "userPreferred": "Michie Tomizawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95437-E2FrR8aqJoFm.png"
+        }
+      ]
+    },
+    {
+      "id": 180865,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ani",
+        "last": "Oomori",
+        "full": "Ani Oomori",
+        "native": "大森兄夫",
+        "userPreferred": "Ani Oomori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b180865-td58lM7u8lSo.jpg",
+      "voiceActors": [
+        {
+          "id": 95017,
+          "language": "Japanese",
+          "name": {
+            "first": "Akira",
+            "last": "Ishida",
+            "full": "Akira Ishida",
+            "native": "石田彰",
+            "userPreferred": "Akira Ishida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95017-GSRcmQ97a8ZT.png"
+        }
+      ]
+    },
+    {
+      "id": 180866,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Takao-san",
+        "last": null,
+        "full": "Takao-san",
+        "native": "タカ男さん",
+        "userPreferred": "Takao-san"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b180866-zTdZsLCxXamr.jpg",
+      "voiceActors": [
+        {
+          "id": 95177,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryoutarou",
+            "last": "Okiayu",
+            "full": "Ryoutarou Okiayu",
+            "native": "置鮎龍太郎",
+            "userPreferred": "Ryoutarou Okiayu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95177-6SiaUTf3CLkN.png"
+        }
+      ]
+    },
+    {
+      "id": 180863,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kumi",
+        "last": "Kitamura",
+        "full": "Kumi Kitamura",
+        "native": "北村クミ",
+        "userPreferred": "Kumi Kitamura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b180863-Hbg0XxR7NNAE.jpg",
+      "voiceActors": [
+        {
+          "id": 95678,
+          "language": "Japanese",
+          "name": {
+            "first": "Rika",
+            "last": "Matsumoto",
+            "full": "Rika Matsumoto",
+            "native": "松本梨香",
+            "userPreferred": "Rika Matsumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95678-U0iKFbhteND6.png"
+        }
+      ]
+    },
+    {
+      "id": 180864,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kazumi",
+        "last": "Oomori",
+        "full": "Kazumi Oomori",
+        "native": "大森カズ美",
+        "userPreferred": "Kazumi Oomori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b180864-LWD8Bvg8gwuk.jpg",
+      "voiceActors": [
+        {
+          "id": 95910,
+          "language": "Japanese",
+          "name": {
+            "first": "Hitomi",
+            "last": "",
+            "full": "Hitomi",
+            "native": "ひと美",
+            "userPreferred": "Hitomi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95910-IPeEky7JTaU3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 252484,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hamster",
+        "last": null,
+        "full": "Hamster",
+        "native": "ハムスター",
+        "userPreferred": "Hamster"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b252484-ZccQB2s5yKXW.png",
+      "voiceActors": [
+        {
+          "id": 95386,
+          "language": "Japanese",
+          "name": {
+            "first": "Kae",
+            "last": "Araki",
+            "full": "Kae Araki",
+            "native": "荒木香衣",
+            "userPreferred": "Kae Araki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95386-rDwf29ehsbAt.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 121355,
+      "relationType": "ADAPTATION",
+      "malId": 42729,
+      "title": {
+        "romaji": "Let's Nupu Nupu",
+        "english": null,
+        "native": "LET'S ぬぷぬぷっ",
+        "userPreferred": "Let's Nupu Nupu"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b121355-mqPGFPBqC3eA.jpg",
+      "color": "#e4e45d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b121355-mqPGFPBqC3eA.jpg",
+      "rating": 70
+    }
+  ],
+  "episodes": [
+    {
+      "id": "lets-nupu-nupu-episode-1",
+      "title": "Lift Your Legs and Licky Licky",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21486-ZpMlQMZfXRzq.png",
+      "number": 1,
+      "createdAt": "2014-11-16T20:43:08Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lets-nupu-nupu-episode-1"
+    },
+    {
+      "id": "lets-nupu-nupu-episode-2",
+      "title": "Tongue in Cheek CPR",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21486-ZpMlQMZfXRzq.png",
+      "number": 2,
+      "createdAt": "2014-11-16T20:43:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lets-nupu-nupu-episode-2"
+    },
+    {
+      "id": "lets-nupu-nupu-episode-3",
+      "title": "Close Your Eyes and Pump It",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21486-ZpMlQMZfXRzq.png",
+      "number": 3,
+      "createdAt": "2014-11-16T20:43:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lets-nupu-nupu-episode-3"
+    },
+    {
+      "id": "lets-nupu-nupu-episode-4",
+      "title": "Get Your Grind on in That Thong",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21486-ZpMlQMZfXRzq.png",
+      "number": 4,
+      "createdAt": "2014-11-16T20:43:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lets-nupu-nupu-episode-4"
+    },
+    {
+      "id": "lets-nupu-nupu-episode-5",
+      "title": "Popping Cherries",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21486-ZpMlQMZfXRzq.png",
+      "number": 5,
+      "createdAt": "2014-11-16T20:43:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lets-nupu-nupu-episode-5"
+    },
+    {
+      "id": "lets-nupu-nupu-episode-6",
+      "title": "Sensitive Hot-Pot",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21486-ZpMlQMZfXRzq.png",
+      "number": 6,
+      "createdAt": "2014-11-16T20:43:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lets-nupu-nupu-episode-6"
+    },
+    {
+      "id": "lets-nupu-nupu-episode-7",
+      "title": "Help Me up, Nurse",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21486-ZpMlQMZfXRzq.png",
+      "number": 7,
+      "createdAt": "2014-11-16T20:43:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lets-nupu-nupu-episode-7"
+    },
+    {
+      "id": "lets-nupu-nupu-episode-8",
+      "title": "What Librarians do Best",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21486-ZpMlQMZfXRzq.png",
+      "number": 8,
+      "createdAt": "2014-11-16T20:43:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lets-nupu-nupu-episode-8"
+    },
+    {
+      "id": "lets-nupu-nupu-episode-9",
+      "title": "It`s a Stickup",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21486-ZpMlQMZfXRzq.png",
+      "number": 9,
+      "createdAt": "2014-11-16T20:43:12Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lets-nupu-nupu-episode-9"
+    },
+    {
+      "id": "lets-nupu-nupu-episode-10",
+      "title": "What Goes Bump in the Night",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21486-ZpMlQMZfXRzq.png",
+      "number": 10,
+      "createdAt": "2014-11-16T20:43:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lets-nupu-nupu-episode-10"
+    },
+    {
+      "id": "lets-nupu-nupu-episode-11",
+      "title": "Get That Head out and Let It Leak",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21486-ZpMlQMZfXRzq.png",
+      "number": 11,
+      "createdAt": "2014-11-16T20:43:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lets-nupu-nupu-episode-11"
+    },
+    {
+      "id": "lets-nupu-nupu-episode-12",
+      "title": "White Water Rafting",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21486-ZpMlQMZfXRzq.png",
+      "number": 12,
+      "createdAt": "2014-11-16T20:43:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lets-nupu-nupu-episode-12"
+    },
+    {
+      "id": "lets-nupu-nupu-episode-13",
+      "title": "Finger in the Spot",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21486-ZpMlQMZfXRzq.png",
+      "number": 13,
+      "createdAt": "2014-11-16T20:43:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lets-nupu-nupu-episode-13"
+    },
+    {
+      "id": "lets-nupu-nupu-episode-14",
+      "title": "A Thorough Checkup",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21486-ZpMlQMZfXRzq.png",
+      "number": 14,
+      "createdAt": "2014-11-16T20:43:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lets-nupu-nupu-episode-14"
+    },
+    {
+      "id": "lets-nupu-nupu-episode-15",
+      "title": "Simmering Geta",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21486-ZpMlQMZfXRzq.png",
+      "number": 15,
+      "createdAt": "2014-11-16T20:43:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lets-nupu-nupu-episode-15"
+    },
+    {
+      "id": "lets-nupu-nupu-episode-16",
+      "title": "Let`s Nupu Nupu",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21486-ZpMlQMZfXRzq.png",
+      "number": 16,
+      "createdAt": "2014-11-16T20:43:15Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//lets-nupu-nupu-episode-16"
+    }
+  ]
+}

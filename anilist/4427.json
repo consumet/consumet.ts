@@ -1,0 +1,629 @@
+{
+  "id": "4427",
+  "title": {
+    "romaji": "Tatakae!! Ramenman",
+    "english": "Fight!! Ramenman",
+    "native": "闘将!!拉麺男"
+  },
+  "malId": 4427,
+  "synonyms": [
+    "Toushou!! Ramenman"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+  "popularity": 434,
+  "color": "#d61a1a",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+  "description": "Set in a land where several martial arts styles collide, including (but not limited to) Chinese Kung Fu, Japanese Karate, and South Korean Taekwondo. Yet amongst these Shaolin-trained fighters and men powerful enough to cut the face of a mountain, Victory Ramenman is said to be the strongest of them all. At a young age, he witnessed his father Somenman being murdered by members of the Cobra Gang (who are still running rampant to this day). Found and taken in by the wise old Chen Sou-Mei, Ramenman trains for 12 years under his master and learns the great Essential Battle Dragon (&#38360;&#40845;&#26997;&#24847;&#26360;, To Ryuu Gokui Sho) style of Choujin Martial arts. Now, with his young sidekick Shao-Mai, Ramenman travels the land seeking vengeance for his father, fighting several villains along the way.<br><br>\n(Source: Wikipedia)",
+  "status": "Completed",
+  "releaseDate": 1988,
+  "startDate": {
+    "year": 1988,
+    "month": 1,
+    "day": 10
+  },
+  "endDate": {
+    "year": 1988,
+    "month": 9,
+    "day": 11
+  },
+  "totalEpisodes": 35,
+  "currentEpisode": 35,
+  "rating": 51,
+  "duration": 23,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Comedy"
+  ],
+  "season": "WINTER",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 8079,
+      "role": "MAIN",
+      "name": {
+        "first": "Ramenman",
+        "last": "",
+        "full": "Ramenman",
+        "native": "ラーメンマン",
+        "userPreferred": "Ramenman"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b8079-LPMhEDGXSfzj.png",
+      "voiceActors": [
+        {
+          "id": 95921,
+          "language": "Japanese",
+          "name": {
+            "first": "Katsuji",
+            "last": "Mori",
+            "full": "Katsuji Mori",
+            "native": "森功至",
+            "userPreferred": "Katsuji Mori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/921.jpg"
+        }
+      ]
+    },
+    {
+      "id": 75746,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kinnikuken",
+        "last": "Banboro",
+        "full": "Kinnikuken Banboro",
+        "native": "筋肉拳・蛮暴狼",
+        "userPreferred": "Kinnikuken Banboro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/75746.jpg",
+      "voiceActors": [
+        {
+          "id": 95084,
+          "language": "Japanese",
+          "name": {
+            "first": "Norio",
+            "last": "Wakamoto",
+            "full": "Norio Wakamoto",
+            "native": "若本規夫",
+            "userPreferred": "Norio Wakamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95084-RTrZSU38POPF.png"
+        }
+      ]
+    },
+    {
+      "id": 75662,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "King Kong Brody",
+        "last": null,
+        "full": "King Kong Brody",
+        "native": "筋具金具・武狼帝",
+        "userPreferred": "King Kong Brody"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/75662.jpg",
+      "voiceActors": [
+        {
+          "id": 95761,
+          "language": "Japanese",
+          "name": {
+            "first": "Tesshou",
+            "last": "Genda",
+            "full": "Tesshou Genda",
+            "native": "玄田哲章",
+            "userPreferred": "Tesshou Genda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95761-nwndYRCqJxno.png"
+        }
+      ]
+    },
+    {
+      "id": 75646,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kyonpi",
+        "last": null,
+        "full": "Kyonpi",
+        "native": "キョンピー",
+        "userPreferred": "Kyonpi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/75646.jpg",
+      "voiceActors": [
+        {
+          "id": 96427,
+          "language": "Japanese",
+          "name": {
+            "first": "Isamu",
+            "last": "Tanonaka",
+            "full": "Isamu Tanonaka",
+            "native": "田の中勇",
+            "userPreferred": "Isamu Tanonaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1427.jpg"
+        }
+      ]
+    },
+    {
+      "id": 75644,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shumai",
+        "last": null,
+        "full": "Shumai",
+        "native": "シューマイ",
+        "userPreferred": "Shumai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/75644.jpg",
+      "voiceActors": [
+        {
+          "id": 96441,
+          "language": "Japanese",
+          "name": {
+            "first": "Minori",
+            "last": "Matsushima",
+            "full": "Minori Matsushima",
+            "native": "松島みのり ",
+            "userPreferred": "Minori Matsushima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96441-O32yqnN6ITFd.png"
+        }
+      ]
+    },
+    {
+      "id": 75732,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "La-Niang",
+        "last": null,
+        "full": "La-Niang",
+        "native": "拉娘",
+        "userPreferred": "La-Niang"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/75732.jpg",
+      "voiceActors": [
+        {
+          "id": 96446,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuriko",
+            "last": "Yamamoto",
+            "full": "Yuriko Yamamoto",
+            "native": "山本百合子",
+            "userPreferred": "Yuriko Yamamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96446-RvbWlszQjfYu.png"
+        }
+      ]
+    },
+    {
+      "id": 75650,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Zong-Ming",
+        "last": "Chen",
+        "full": "Zong-Ming Chen",
+        "native": "陳宗明",
+        "userPreferred": "Zong-Ming Chen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/75650.jpg",
+      "voiceActors": [
+        {
+          "id": 101730,
+          "language": "Japanese",
+          "name": {
+            "first": "Ichirou",
+            "last": "Nagai",
+            "full": "Ichirou Nagai",
+            "native": "永井一郎",
+            "userPreferred": "Ichirou Nagai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101730-PQO9AMRtT5jB.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36309,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Narrator",
+        "last": null,
+        "full": "Narrator",
+        "native": "ナレーター",
+        "userPreferred": "Narrator"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36309-yRLEQYd2dDI5.jpg",
+      "voiceActors": [
+        {
+          "id": 101730,
+          "language": "Japanese",
+          "name": {
+            "first": "Ichirou",
+            "last": "Nagai",
+            "full": "Ichirou Nagai",
+            "native": "永井一郎",
+            "userPreferred": "Ichirou Nagai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101730-PQO9AMRtT5jB.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 51599,
+      "relationType": "ADAPTATION",
+      "malId": 21599,
+      "title": {
+        "romaji": "Tatakae!! Ramenman",
+        "english": null,
+        "native": "闘将!!拉麺男",
+        "userPreferred": "Tatakae!! Ramenman"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx51599-PVGCdGN8lL8I.png",
+      "color": "#e4935d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx51599-PVGCdGN8lL8I.png",
+      "rating": 75
+    },
+    {
+      "id": 16728,
+      "relationType": "SIDE_STORY",
+      "malId": 16728,
+      "title": {
+        "romaji": "Tatakae!! Ramenman (Movie)",
+        "english": null,
+        "native": "闘将!!拉麺男",
+        "userPreferred": "Tatakae!! Ramenman (Movie)"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/16728.jpg",
+      "color": "#e49350",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/16728.jpg",
+      "rating": 49
+    },
+    {
+      "id": 3272,
+      "relationType": "CHARACTER",
+      "malId": 3272,
+      "title": {
+        "romaji": "Kinnikuman",
+        "english": null,
+        "native": "キン肉マン",
+        "userPreferred": "Kinnikuman"
+      },
+      "status": "Completed",
+      "episodes": 137,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3272.jpg",
+      "color": "#e4a150",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/3272-z7ZhilwbvrKi.jpg",
+      "rating": 68
+    }
+  ],
+  "episodes": [
+    {
+      "id": "tatakae-ramenman-episode-1",
+      "title": "The Birth of Ramenman!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 1,
+      "createdAt": "2014-11-16T20:33:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-1"
+    },
+    {
+      "id": "tatakae-ramenman-episode-2",
+      "title": "The Killer Fist! The Poisoned Hand",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 2,
+      "createdAt": "2014-11-16T20:33:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-2"
+    },
+    {
+      "id": "tatakae-ramenman-episode-3",
+      "title": "The Ruined Fighting Dragon Scroll!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 3,
+      "createdAt": "2014-11-16T20:33:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-3"
+    },
+    {
+      "id": "tatakae-ramenman-episode-4",
+      "title": "Clash!! Ramenman vs. Charsiumen",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 4,
+      "createdAt": "2014-11-16T20:33:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-4"
+    },
+    {
+      "id": "tatakae-ramenman-episode-5",
+      "title": "Flaming Chronicles of Chojin Kung-fu!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 5,
+      "createdAt": "2014-11-16T20:33:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-5"
+    },
+    {
+      "id": "tatakae-ramenman-episode-6",
+      "title": "Fierce Battle!! The Seven Shogi Demons",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 6,
+      "createdAt": "2014-11-16T20:33:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-6"
+    },
+    {
+      "id": "tatakae-ramenman-episode-7",
+      "title": "Quan-Cao and the Duel of the Heat Wave!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 7,
+      "createdAt": "2014-11-16T20:33:47Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-7"
+    },
+    {
+      "id": "tatakae-ramenman-episode-8",
+      "title": "The Revenge of the Jewel King!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 8,
+      "createdAt": "2014-11-16T20:33:47Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-8"
+    },
+    {
+      "id": "tatakae-ramenman-episode-9",
+      "title": "Hogan of the Deadly Meteor Fist!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 9,
+      "createdAt": "2014-11-16T20:33:47Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-9"
+    },
+    {
+      "id": "tatakae-ramenman-episode-10",
+      "title": "Kinnikuken Banboro",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 10,
+      "createdAt": "2014-11-16T20:33:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-10"
+    },
+    {
+      "id": "tatakae-ramenman-episode-11",
+      "title": "The Dreaded Flesh Colosseum",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 11,
+      "createdAt": "2014-11-16T20:33:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-11"
+    },
+    {
+      "id": "tatakae-ramenman-episode-12",
+      "title": "The Great Showdown of Children Village",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 12,
+      "createdAt": "2014-11-16T20:33:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-12"
+    },
+    {
+      "id": "tatakae-ramenman-episode-13",
+      "title": "The San Akunin of the Choujouken",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 13,
+      "createdAt": "2014-11-16T20:33:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-13"
+    },
+    {
+      "id": "tatakae-ramenman-episode-14",
+      "title": "Mouko Ken vs. Byakuryuu Corps",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 14,
+      "createdAt": "2014-11-16T20:33:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-14"
+    },
+    {
+      "id": "tatakae-ramenman-episode-15",
+      "title": "The Strongest One!! Juujiken Kokuryuu",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 15,
+      "createdAt": "2014-11-16T20:33:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-15"
+    },
+    {
+      "id": "tatakae-ramenman-episode-16",
+      "title": "Spinning Crow Fist",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 16,
+      "createdAt": "2014-11-16T20:33:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-16"
+    },
+    {
+      "id": "tatakae-ramenman-episode-17",
+      "title": "The Secret of the Sasori Tank",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 17,
+      "createdAt": "2014-11-16T20:33:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-17"
+    },
+    {
+      "id": "tatakae-ramenman-episode-18",
+      "title": "Defeat the Poisonous Sasori!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 18,
+      "createdAt": "2014-11-16T20:33:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-18"
+    },
+    {
+      "id": "tatakae-ramenman-episode-19",
+      "title": "The Three Bangasaken Brothers",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 19,
+      "createdAt": "2014-11-16T20:33:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-19"
+    },
+    {
+      "id": "tatakae-ramenman-episode-20",
+      "title": "Mongol Tiger",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 20,
+      "createdAt": "2014-11-16T20:33:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-20"
+    },
+    {
+      "id": "tatakae-ramenman-episode-21",
+      "title": "The Golden Nunchaku",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 21,
+      "createdAt": "2014-11-16T20:33:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-21"
+    },
+    {
+      "id": "tatakae-ramenman-episode-22",
+      "title": "Gyoku'ou's Miracle Box",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 22,
+      "createdAt": "2014-11-16T20:33:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-22"
+    },
+    {
+      "id": "tatakae-ramenman-episode-23",
+      "title": "Destroy the Miracle Box!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 23,
+      "createdAt": "2014-11-16T20:33:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-23"
+    },
+    {
+      "id": "tatakae-ramenman-episode-24",
+      "title": "What is Ramenman's True Identity!?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 24,
+      "createdAt": "2014-11-16T20:33:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-24"
+    },
+    {
+      "id": "tatakae-ramenman-episode-25",
+      "title": "Clone Fighter #29",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 25,
+      "createdAt": "2014-11-16T20:33:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-25"
+    },
+    {
+      "id": "tatakae-ramenman-episode-26",
+      "title": "Defeat the Steel Tiger",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 26,
+      "createdAt": "2014-11-16T20:33:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-26"
+    },
+    {
+      "id": "tatakae-ramenman-episode-27",
+      "title": "Birth of the Kensei Go Kasen!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 27,
+      "createdAt": "2014-11-16T20:33:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-27"
+    },
+    {
+      "id": "tatakae-ramenman-episode-28",
+      "title": "Scramble for the Stones of Life!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 28,
+      "createdAt": "2014-11-16T20:33:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-28"
+    },
+    {
+      "id": "tatakae-ramenman-episode-29",
+      "title": "The Blind Spot of Kongou's Mask!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 29,
+      "createdAt": "2014-11-16T20:33:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-29"
+    },
+    {
+      "id": "tatakae-ramenman-episode-30",
+      "title": "Farewell, Love of 700 Years",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 30,
+      "createdAt": "2014-11-16T20:33:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-30"
+    },
+    {
+      "id": "tatakae-ramenman-episode-31",
+      "title": "The Second Ring of the Death Match",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 31,
+      "createdAt": "2014-11-16T20:33:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-31"
+    },
+    {
+      "id": "tatakae-ramenman-episode-32",
+      "title": "The Terrible Robo Kenshin!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 32,
+      "createdAt": "2014-11-16T20:33:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-32"
+    },
+    {
+      "id": "tatakae-ramenman-episode-33",
+      "title": "The Kensei Go Kasen's Great Victory",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 33,
+      "createdAt": "2014-11-16T20:33:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-33"
+    },
+    {
+      "id": "tatakae-ramenman-episode-34",
+      "title": "The Path to Choujin Ramenman",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 34,
+      "createdAt": "2014-11-16T20:33:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-34"
+    },
+    {
+      "id": "tatakae-ramenman-episode-35",
+      "title": "Spring, Summer, Autumn, Winter: The Training Journey",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "number": 35,
+      "createdAt": "2014-11-16T20:33:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//tatakae-ramenman-episode-35"
+    }
+  ]
+}

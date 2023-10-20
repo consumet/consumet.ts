@@ -1,0 +1,187 @@
+{
+  "id": "2249",
+  "title": {
+    "romaji": "Amon Saga",
+    "english": null,
+    "native": "アモン・サーガ"
+  },
+  "malId": 2249,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2249-PJ6vLuBggx3g.png",
+  "popularity": 1381,
+  "color": "#f1e4c9",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2249-PJ6vLuBggx3g.png",
+  "description": "Set in a world of fantasy and adventure, Amon is a young warrior embarking on a quest to avenge the death of his mother. When the hunt leads him ultimately to the kingdom of Valhiss, Amon enlists in the ranks of the Emperor's army in order to gain an opportunity to exact his revenge. However, a chance encounter with the Princess Lichia, being held captive by the Emperor in an effort to ransom a map away from his main rival, King Darai-Sem, Amon must decide whether to follow his path of revenge or to help rescue the Princess in an effort to save a lost kingdom.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 1986,
+  "startDate": {
+    "year": 1986,
+    "month": 7,
+    "day": 19
+  },
+  "endDate": {
+    "year": 1986,
+    "month": 7,
+    "day": 19
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 47,
+  "duration": 74,
+  "genres": [
+    "Adventure",
+    "Fantasy"
+  ],
+  "season": "SUMMER",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 33,
+      "malId": 33,
+      "title": {
+        "romaji": "Kenpuu Denki Berserk",
+        "english": "Berserk",
+        "native": "剣風伝奇ベルセルク",
+        "userPreferred": "Kenpuu Denki Berserk"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx33-CTtcRjqe7UnM.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/33-g7HwYRVm0ZkN.jpg",
+      "rating": 83,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 10033,
+      "role": "MAIN",
+      "name": {
+        "first": "Amon",
+        "last": null,
+        "full": "Amon",
+        "native": "アモン",
+        "userPreferred": "Amon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b10033-eTYDkNpuaUBN.png",
+      "voiceActors": [
+        {
+          "id": 95262,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenyuu",
+            "last": "Horiuchi",
+            "full": "Kenyuu Horiuchi",
+            "native": "堀内賢雄",
+            "userPreferred": "Kenyuu Horiuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/262.jpg"
+        },
+        {
+          "id": 105756,
+          "language": "English",
+          "name": {
+            "first": "Chris",
+            "last": "Orbach",
+            "full": "Chris Orbach",
+            "native": null,
+            "userPreferred": "Chris Orbach"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105756-OrPwJ4KcyEDP.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13924,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Denon",
+        "last": null,
+        "full": "Denon",
+        "native": "デノン",
+        "userPreferred": "Denon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b13924-YDV2I9rcj9z0.png",
+      "voiceActors": [
+        {
+          "id": 95084,
+          "language": "Japanese",
+          "name": {
+            "first": "Norio",
+            "last": "Wakamoto",
+            "full": "Norio Wakamoto",
+            "native": "若本規夫",
+            "userPreferred": "Norio Wakamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95084-RTrZSU38POPF.png"
+        },
+        {
+          "id": 143108,
+          "language": "English",
+          "name": {
+            "first": "Flavio",
+            "last": "Romeo",
+            "full": "Flavio Romeo",
+            "native": null,
+            "userPreferred": "Flavio Romeo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n143108-kmEWD7QkvPcM.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 93223,
+      "relationType": "ALTERNATIVE",
+      "malId": 82073,
+      "title": {
+        "romaji": "Amon Saga: Tsuki no Miko",
+        "english": null,
+        "native": "アーモンサーガ -月の御子-",
+        "userPreferred": "Amon Saga: Tsuki no Miko"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx93223-zAwDTkpukuvb.png",
+      "color": "#e4ae5d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/93223-vevWTVPfKNgz.jpg",
+      "rating": 59
+    },
+    {
+      "id": 162894,
+      "relationType": "ADAPTATION",
+      "malId": null,
+      "title": {
+        "romaji": "Amon Saga",
+        "english": null,
+        "native": "アモン・サーガ",
+        "userPreferred": "Amon Saga"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx162894-Yqv6lfKfXeKS.jpg",
+      "color": "#e4a143",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx162894-Yqv6lfKfXeKS.jpg",
+      "rating": 62
+    }
+  ],
+  "episodes": [
+    {
+      "id": "amon-saga-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2249-PJ6vLuBggx3g.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//amon-saga-episode-1"
+    }
+  ]
+}

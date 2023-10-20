@@ -1,0 +1,483 @@
+{
+  "id": "4182",
+  "title": {
+    "romaji": "DARKER THAN BLACK: Kuro no Keiyakusha - Sakura no Hana no Mankai no Shita",
+    "english": "Darker than Black: Beneath Cherry Blossoms in Full Bloom",
+    "native": "DARKER THAN BLACK -黒の契約者- 桜の花の満開の下"
+  },
+  "malId": 4182,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4182-Sj5g5kz2WPuT.jpg",
+  "popularity": 23437,
+  "color": "#f1e435",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n4182-G3Xo6NHOphDL.jpg",
+  "description": "A side story of Darker than BLACK, also known as Episode 26. A Contractor was killed and it was rumored that his corpse and possessions were buried under a Sakura tree. Hei and the others (including the Police) decide to investigate.",
+  "status": "Completed",
+  "releaseDate": 2008,
+  "startDate": {
+    "year": 2008,
+    "month": 3,
+    "day": 27
+  },
+  "endDate": {
+    "year": 2008,
+    "month": 3,
+    "day": 27
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 72,
+  "duration": 23,
+  "genres": [
+    "Comedy",
+    "Sci-Fi"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "bones"
+  ],
+  "subOrDub": "sub",
+  "type": "SPECIAL",
+  "recommendations": [
+    {
+      "id": 6573,
+      "malId": 6573,
+      "title": {
+        "romaji": "DARKER THAN BLACK: Ryuusei no Gemini",
+        "english": "Darker than Black: Gemini of the Meteor",
+        "native": "DARKER THAN BLACK -流星の双子-",
+        "userPreferred": "DARKER THAN BLACK: Ryuusei no Gemini"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6573-8D21dF6qwXQ2.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6573-D3QgsayY0eAY.jpg",
+      "rating": 71,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 2166,
+      "role": "MAIN",
+      "name": {
+        "first": "Misaki",
+        "last": "Kirihara",
+        "full": "Misaki Kirihara",
+        "native": "霧原未咲",
+        "userPreferred": "Misaki Kirihara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n2166-WXRpwEz7S55P.png",
+      "voiceActors": [
+        {
+          "id": 95081,
+          "language": "Japanese",
+          "name": {
+            "first": "Nana",
+            "last": "Mizuki",
+            "full": "Nana Mizuki",
+            "native": "水樹奈々",
+            "userPreferred": "Nana Mizuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95081-qto4UanYkpQT.png"
+        },
+        {
+          "id": 96550,
+          "language": "English",
+          "name": {
+            "first": "Kate",
+            "last": "Oxley",
+            "full": "Kate Oxley",
+            "native": null,
+            "userPreferred": "Kate Oxley"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1550.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2160,
+      "role": "MAIN",
+      "name": {
+        "first": "Hei",
+        "last": null,
+        "full": "Hei",
+        "native": "黒",
+        "userPreferred": "Hei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n2160-CbHDsANTwxg2.jpg",
+      "voiceActors": [
+        {
+          "id": 95174,
+          "language": "Japanese",
+          "name": {
+            "first": "Hidenobu",
+            "last": "Kiuchi",
+            "full": "Hidenobu Kiuchi",
+            "native": "木内秀信",
+            "userPreferred": "Hidenobu Kiuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95174-yTsadXRKchp7.png"
+        },
+        {
+          "id": 95650,
+          "language": "English",
+          "name": {
+            "first": "Jason",
+            "last": "Liebrecht",
+            "full": "Jason Liebrecht",
+            "native": null,
+            "userPreferred": "Jason Liebrecht"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95650-jLPHOvW60DX3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2164,
+      "role": "MAIN",
+      "name": {
+        "first": "Huang",
+        "last": null,
+        "full": "Huang",
+        "native": "黄（ホァン）",
+        "userPreferred": "Huang"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2164-izIIWifzutwm.png",
+      "voiceActors": [
+        {
+          "id": 95803,
+          "language": "Japanese",
+          "name": {
+            "first": "Masaru",
+            "last": "Ikeda",
+            "full": "Masaru Ikeda",
+            "native": "池田勝",
+            "userPreferred": "Masaru Ikeda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/803.jpg"
+        },
+        {
+          "id": 95201,
+          "language": "English",
+          "name": {
+            "first": "John",
+            "last": "Swasey",
+            "full": "John Swasey",
+            "native": null,
+            "userPreferred": "John Swasey"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95201-cas6XbtZmMay.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2163,
+      "role": "MAIN",
+      "name": {
+        "first": "Yin",
+        "last": null,
+        "full": "Yin",
+        "native": "銀",
+        "userPreferred": "Yin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n2163-nA1EMwU7E5oJ.png",
+      "voiceActors": [
+        {
+          "id": 95207,
+          "language": "Japanese",
+          "name": {
+            "first": "Misato",
+            "last": "Fukuen",
+            "full": "Misato Fukuen",
+            "native": "福圓美里",
+            "userPreferred": "Misato Fukuen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95207-TYPMa0JKUDAf.jpg"
+        },
+        {
+          "id": 95659,
+          "language": "English",
+          "name": {
+            "first": "Brina",
+            "last": "Palencia",
+            "full": "Brina Palencia",
+            "native": null,
+            "userPreferred": "Brina Palencia"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/659.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10787,
+      "role": "MAIN",
+      "name": {
+        "first": "Mayu",
+        "last": "Otsuka",
+        "full": "Mayu Otsuka",
+        "native": "大塚真由",
+        "userPreferred": "Mayu Otsuka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10787.jpg",
+      "voiceActors": [
+        {
+          "id": 95701,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuna",
+            "last": "Inamura",
+            "full": "Yuuna Inamura",
+            "native": "優奈 稲村",
+            "userPreferred": "Yuuna Inamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/701.jpg"
+        },
+        {
+          "id": 95859,
+          "language": "English",
+          "name": {
+            "first": "Leah",
+            "last": "Clark",
+            "full": "Leah Clark",
+            "native": null,
+            "userPreferred": "Leah Clark"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/859.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3214,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kiko",
+        "last": "Kayanuma",
+        "full": "Kiko Kayanuma",
+        "native": "茅沼 キコ",
+        "userPreferred": "Kiko Kayanuma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3214.jpg",
+      "voiceActors": [
+        {
+          "id": 95052,
+          "language": "Japanese",
+          "name": {
+            "first": "Emiri",
+            "last": "Katou",
+            "full": "Emiri Katou",
+            "native": "加藤英美里",
+            "userPreferred": "Emiri Katou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95052-OhSpZ8tqM3KY.png"
+        },
+        {
+          "id": 95414,
+          "language": "English",
+          "name": {
+            "first": "Brittney",
+            "last": "Karbowski",
+            "full": "Brittney Karbowski",
+            "native": null,
+            "userPreferred": "Brittney Karbowski"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/414.jpg"
+        }
+      ]
+    },
+    {
+      "id": 55117,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kunio",
+        "last": "Matsumoto",
+        "full": "Kunio Matsumoto",
+        "native": "松本 邦夫",
+        "userPreferred": "Kunio Matsumoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/55117.jpg",
+      "voiceActors": [
+        {
+          "id": 104514,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobuaki",
+            "last": "Fukuda",
+            "full": "Nobuaki Fukuda",
+            "native": "福田信昭 ",
+            "userPreferred": "Nobuaki Fukuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104514-k5kagDlGT7DJ.jpg"
+        },
+        {
+          "id": 104978,
+          "language": "English",
+          "name": {
+            "first": "Kenny",
+            "last": "Green",
+            "full": "Kenny Green",
+            "native": null,
+            "userPreferred": "Kenny Green"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104978-LUeUklhFVPZy.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19289,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yusuke",
+        "last": "Saito",
+        "full": "Yusuke Saito",
+        "native": "斎藤雄介",
+        "userPreferred": "Yusuke Saito"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/19289.jpg",
+      "voiceActors": [
+        {
+          "id": 96520,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoyuki",
+            "last": "Shimura",
+            "full": "Tomoyuki Shimura",
+            "native": "志村知幸",
+            "userPreferred": "Tomoyuki Shimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1520.jpg"
+        },
+        {
+          "id": 95253,
+          "language": "English",
+          "name": {
+            "first": "Christopher",
+            "last": "Sabat",
+            "full": "Christopher Sabat",
+            "native": null,
+            "userPreferred": "Christopher Sabat"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95253-Z7Yqog73M7E8.png"
+        }
+      ]
+    },
+    {
+      "id": 10730,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yutaka",
+        "last": "Kouno",
+        "full": "Yutaka Kouno",
+        "native": "河野豊",
+        "userPreferred": "Yutaka Kouno"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10730.jpg",
+      "voiceActors": [
+        {
+          "id": 95097,
+          "language": "Japanese",
+          "name": {
+            "first": "Kousuke",
+            "last": "Toriumi",
+            "full": "Kousuke Toriumi",
+            "native": "鳥海浩輔",
+            "userPreferred": "Kousuke Toriumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95097-BhSegy6KBLbE.png"
+        },
+        {
+          "id": 95860,
+          "language": "English",
+          "name": {
+            "first": "Todd",
+            "last": "Haberkorn",
+            "full": "Todd Haberkorn",
+            "native": "Todd Michael Haberkorn",
+            "userPreferred": "Todd Haberkorn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95860-RxBJH1Kt2TUW.png"
+        }
+      ]
+    },
+    {
+      "id": 2165,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mao",
+        "last": null,
+        "full": "Mao",
+        "native": "猫",
+        "userPreferred": "Mao"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n2165-LJwr5Cgg7J4n.png",
+      "voiceActors": [
+        {
+          "id": 95188,
+          "language": "Japanese",
+          "name": {
+            "first": "Ikuya",
+            "last": "Sawaki",
+            "full": "Ikuya Sawaki",
+            "native": "沢木郁也",
+            "userPreferred": "Ikuya Sawaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95188-dclfjWi5si8U.png"
+        },
+        {
+          "id": 95872,
+          "language": "English",
+          "name": {
+            "first": "Kent",
+            "last": "Williams",
+            "full": "Kent Williams",
+            "native": null,
+            "userPreferred": "Kent Williams"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/872.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 7338,
+      "relationType": "SEQUEL",
+      "malId": 7338,
+      "title": {
+        "romaji": "DARKER THAN BLACK: Kuro no Keiyakusha - Gaiden",
+        "english": "Darker than Black: Origins",
+        "native": "DARKER THAN BLACK -黒の契約者- 外伝",
+        "userPreferred": "DARKER THAN BLACK: Kuro no Keiyakusha - Gaiden"
+      },
+      "status": "Completed",
+      "episodes": 4,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx7338-c6Uq5DmlEPVs.png",
+      "color": "#5d7828",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/7338-rV4LzQxXwSXn.jpg",
+      "rating": 76
+    },
+    {
+      "id": 2025,
+      "relationType": "PREQUEL",
+      "malId": 2025,
+      "title": {
+        "romaji": "DARKER THAN BLACK: Kuro no Keiyakusha",
+        "english": "Darker than Black",
+        "native": "DARKER THAN BLACK -黒の契約者-",
+        "userPreferred": "DARKER THAN BLACK: Kuro no Keiyakusha"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2025-Osdi7gyQFTnr.png",
+      "color": "#c9781a",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2025-Fx3ALDmrOulv.jpg",
+      "rating": 77
+    }
+  ],
+  "episodes": []
+}

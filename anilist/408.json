@@ -1,0 +1,399 @@
+{
+  "id": "408",
+  "title": {
+    "romaji": "Final Fantasy VII: Last Order",
+    "english": "Final Fantasy VII: Last Order",
+    "native": "ラストオーダー -ファイナルファンタジーVII-"
+  },
+  "malId": 408,
+  "synonyms": [
+    "Last Order Final Fantasy VII"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx408-iQDfox4DSCGb.png",
+  "popularity": 7433,
+  "color": "#c9d6f1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx408-iQDfox4DSCGb.png",
+  "description": "After the destruction of Nibelheim at the hands of Sephiroth, Zack and Cloud are on the run from Shinra Inc. As they make their way back to Midgar, they recall the horrible events that happened at Nibelheim, as well as fight for survival against Shinra.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2005,
+  "startDate": {
+    "year": 2005,
+    "month": 9,
+    "day": 14
+  },
+  "endDate": {
+    "year": 2005,
+    "month": 9,
+    "day": 14
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 67,
+  "duration": 25,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Drama",
+    "Fantasy",
+    "Sci-Fi"
+  ],
+  "season": "FALL",
+  "studios": [
+    "MADHOUSE"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 2952,
+      "malId": 2952,
+      "title": {
+        "romaji": "Final Fantasy VII: Advent Children Complete",
+        "english": "FINAL FANTASY VII: ADVENT CHILDREN COMPLETE",
+        "native": "ファイナルファンタジーVII アドベント チルドレン コンプリート",
+        "userPreferred": "Final Fantasy VII: Advent Children Complete"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2952-9uRKqLWuET33.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2952-VWWXPnUWPciQ.jpg",
+      "rating": 74,
+      "type": "MOVIE"
+    }
+  ],
+  "characters": [
+    {
+      "id": 4319,
+      "role": "MAIN",
+      "name": {
+        "first": "Zack",
+        "last": "Fair",
+        "full": "Zack Fair",
+        "native": "ザック・フェア",
+        "userPreferred": "Zack Fair"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4319-B87gfpXecBTc.png",
+      "voiceActors": [
+        {
+          "id": 95005,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenichi",
+            "last": "Suzumura",
+            "full": "Kenichi Suzumura",
+            "native": "鈴村健一",
+            "userPreferred": "Kenichi Suzumura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95005-SkoVN02iOglr.png"
+        }
+      ]
+    },
+    {
+      "id": 1816,
+      "role": "MAIN",
+      "name": {
+        "first": "Sephiroth",
+        "last": null,
+        "full": "Sephiroth",
+        "native": "セフィロス",
+        "userPreferred": "Sephiroth"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1816-dUWCJJq7bKL7.png",
+      "voiceActors": [
+        {
+          "id": 95006,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiyuki",
+            "last": "Morikawa",
+            "full": "Toshiyuki Morikawa",
+            "native": "森川智之",
+            "userPreferred": "Toshiyuki Morikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95006-hoLuiZANeD3Q.png"
+        }
+      ]
+    },
+    {
+      "id": 456,
+      "role": "MAIN",
+      "name": {
+        "first": "Cloud",
+        "last": "Strife",
+        "full": "Cloud Strife",
+        "native": "クラウド・ストライフ",
+        "userPreferred": "Cloud Strife"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b456-aqvvhzG5aUXV.png",
+      "voiceActors": [
+        {
+          "id": 95079,
+          "language": "Japanese",
+          "name": {
+            "first": "Takahiro",
+            "last": "Sakurai",
+            "full": "Takahiro Sakurai",
+            "native": "櫻井孝宏",
+            "userPreferred": "Takahiro Sakurai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95079-MdbWTLxPUvFf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 73561,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Old Man",
+        "last": null,
+        "full": "Old Man",
+        "native": "老人",
+        "userPreferred": "Old Man"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 100317,
+          "language": "Japanese",
+          "name": {
+            "first": "Katsuhisa",
+            "last": "Houki",
+            "full": "Katsuhisa Houki",
+            "native": "宝亀克寿",
+            "userPreferred": "Katsuhisa Houki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100317-8qR7ph0AKfXu.png"
+        }
+      ]
+    },
+    {
+      "id": 73563,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Villager",
+        "last": null,
+        "full": "Villager",
+        "native": null,
+        "userPreferred": "Villager"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 100691,
+          "language": "Japanese",
+          "name": {
+            "first": "Youhei",
+            "last": "Tadano",
+            "full": "Youhei Tadano",
+            "native": "多田野曜平 ",
+            "userPreferred": "Youhei Tadano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100691-3Z7NxFXFVoea.png"
+        }
+      ]
+    },
+    {
+      "id": 2860,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Reno",
+        "last": null,
+        "full": "Reno",
+        "native": "レノ",
+        "userPreferred": "Reno"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2860-AvuGBukL38Bq.jpg",
+      "voiceActors": [
+        {
+          "id": 95063,
+          "language": "Japanese",
+          "name": {
+            "first": "Keiji",
+            "last": "Fujiwara",
+            "full": "Keiji Fujiwara",
+            "native": "藤原啓治",
+            "userPreferred": "Keiji Fujiwara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95063-xAsEUzspuLMG.jpg"
+        }
+      ]
+    },
+    {
+      "id": 73559,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Zangan",
+        "last": null,
+        "full": "Zangan",
+        "native": "ザンガン",
+        "userPreferred": "Zangan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 104484,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Fujioka",
+            "full": "Hiroshi Fujioka",
+            "native": "藤岡弘",
+            "userPreferred": "Hiroshi Fujioka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9484.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10707,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jenova",
+        "last": null,
+        "full": "Jenova",
+        "native": "ジェノバ",
+        "userPreferred": "Jenova"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10707.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 4459,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tseng",
+        "last": null,
+        "full": "Tseng",
+        "native": "ツォン",
+        "userPreferred": "Tseng"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4459.jpg",
+      "voiceActors": [
+        {
+          "id": 95095,
+          "language": "Japanese",
+          "name": {
+            "first": "Junichi",
+            "last": "Suwabe",
+            "full": "Junichi Suwabe",
+            "native": "諏訪部順一",
+            "userPreferred": "Junichi Suwabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95095-DvSjTQnqcgXP.png"
+        }
+      ]
+    },
+    {
+      "id": 9468,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Professor",
+        "last": "Hojo",
+        "full": "Professor Hojo",
+        "native": "宝条",
+        "userPreferred": "Professor Hojo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9468.jpg",
+      "voiceActors": [
+        {
+          "id": 95364,
+          "language": "Japanese",
+          "name": {
+            "first": "Nachi",
+            "last": "Nozawa",
+            "full": "Nachi Nozawa",
+            "native": "野沢那智",
+            "userPreferred": "Nachi Nozawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95364-wHXpYvQxQ7Jf.png"
+        }
+      ]
+    },
+    {
+      "id": 758,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tifa",
+        "last": "Lockhart",
+        "full": "Tifa Lockhart",
+        "native": "ティファ・ロックハート",
+        "userPreferred": "Tifa Lockhart"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b758-3QZhbFVMajHC.png",
+      "voiceActors": [
+        {
+          "id": 95653,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumi",
+            "last": "Ito",
+            "full": "Ayumi Ito",
+            "native": "伊藤歩",
+            "userPreferred": "Ayumi Ito"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95653-tQ62kn4Zj0AM.png"
+        }
+      ]
+    },
+    {
+      "id": 2931,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rude",
+        "last": null,
+        "full": "Rude",
+        "native": "ルード",
+        "userPreferred": "Rude"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2931.jpg",
+      "voiceActors": [
+        {
+          "id": 95893,
+          "language": "Japanese",
+          "name": {
+            "first": "Taiten",
+            "last": "Kusunoki",
+            "full": "Taiten Kusunoki",
+            "native": "楠大典",
+            "userPreferred": "Taiten Kusunoki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95893-k0qEVnRygyIn.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 317,
+      "relationType": "SEQUEL",
+      "malId": 317,
+      "title": {
+        "romaji": "Final Fantasy VII: Advent Children",
+        "english": null,
+        "native": "ファイナルファンタジーVII アドベントチルドレン",
+        "userPreferred": "Final Fantasy VII: Advent Children"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b317-ay0Rw7kxgLVD.jpg",
+      "color": null,
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n317-I8gaZ4rexNQX.jpg",
+      "rating": 71
+    }
+  ],
+  "episodes": [
+    {
+      "id": "final-fantasy-vii-last-order-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx408-iQDfox4DSCGb.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//final-fantasy-vii-last-order-episode-1"
+    }
+  ]
+}

@@ -1,0 +1,525 @@
+{
+  "id": "20604",
+  "title": {
+    "romaji": "Inugami-san to Nekoyama-san",
+    "english": null,
+    "native": "犬神さんと猫山さん"
+  },
+  "malId": 22123,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "tmxCpvR4ReY",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/tmxCpvR4ReY/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20604-dBMA1S5sNRxy.jpg",
+  "popularity": 16241,
+  "color": "#ffc935",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20604-dBMA1S5sNRxy.jpg",
+  "description": "About best friends Inugami Yachiyo and Nekoyama Suzu.\r\nInugami likes cats and has a dog-like personality.\r\nNekoyama likes dogs and has a cat-like personality.",
+  "status": "Completed",
+  "releaseDate": 2014,
+  "startDate": {
+    "year": 2014,
+    "month": 4,
+    "day": 11
+  },
+  "endDate": {
+    "year": 2014,
+    "month": 6,
+    "day": 26
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 61,
+  "duration": 4,
+  "genres": [
+    "Comedy",
+    "Slice of Life"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Seven"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 21315,
+      "malId": 31498,
+      "title": {
+        "romaji": "Pan de Peace!",
+        "english": null,
+        "native": "パンでPeace！",
+        "userPreferred": "Pan de Peace!"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21315-3Q5gRBKza9Hs.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21315-3Q5gRBKza9Hs.jpg",
+      "rating": 52,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 11769,
+      "malId": 11769,
+      "title": {
+        "romaji": "Gokujo.",
+        "english": null,
+        "native": "ゴクジョッ。",
+        "userPreferred": "Gokujo."
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/11769.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/11769.jpg",
+      "rating": 56,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 100762,
+      "malId": 36943,
+      "title": {
+        "romaji": "Tachibanakan To Lie Angle",
+        "english": "Love To-LIE-Angle",
+        "native": "立花館To Lieあんぐる",
+        "userPreferred": "Tachibanakan To Lie Angle"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx100762-erCb6yxKQ6Qc.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100762-WpONqVuUaUIl.jpg",
+      "rating": 51,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 20047,
+      "malId": 20047,
+      "title": {
+        "romaji": "Sakura Trick",
+        "english": "Sakura Trick",
+        "native": "桜Trick",
+        "userPreferred": "Sakura Trick"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20047-QcFqHoZNuCIH.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20047-pmEmtKb0elL2.jpg",
+      "rating": 66,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 87972,
+      "role": "MAIN",
+      "name": {
+        "first": "Yachiyo",
+        "last": "Inugami",
+        "full": "Yachiyo Inugami",
+        "native": "犬神八千代",
+        "userPreferred": "Yachiyo Inugami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87972-RjDFGW5wpia6.jpg",
+      "voiceActors": [
+        {
+          "id": 109441,
+          "language": "Japanese",
+          "name": {
+            "first": "Sumire",
+            "last": "Uesaka",
+            "full": "Sumire Uesaka",
+            "native": "上坂すみれ",
+            "userPreferred": "Sumire Uesaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109441-lVHpd6BN2g16.png"
+        }
+      ]
+    },
+    {
+      "id": 87973,
+      "role": "MAIN",
+      "name": {
+        "first": "Suzu",
+        "last": "Nekoyama",
+        "full": "Suzu Nekoyama",
+        "native": "猫山鈴",
+        "userPreferred": "Suzu Nekoyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b87973-v3YKVwQS9vJu.jpg",
+      "voiceActors": [
+        {
+          "id": 106184,
+          "language": "Japanese",
+          "name": {
+            "first": "Nao",
+            "last": "Touyama",
+            "full": "Nao Touyama",
+            "native": "東山奈央",
+            "userPreferred": "Nao Touyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106184-rFA0sHFJrbk4.png"
+        }
+      ]
+    },
+    {
+      "id": 127266,
+      "role": "MAIN",
+      "name": {
+        "first": "Aki",
+        "last": "Hiiragi",
+        "full": "Aki Hiiragi",
+        "native": "柊木秋",
+        "userPreferred": "Aki Hiiragi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/127266-6pHaFs08FYxi.jpg",
+      "voiceActors": [
+        {
+          "id": 107452,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuka",
+            "last": "Ootsubo",
+            "full": "Yuka Ootsubo",
+            "native": "大坪由佳",
+            "userPreferred": "Yuka Ootsubo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107452-PcfGagaON83G.png"
+        }
+      ]
+    },
+    {
+      "id": 166472,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tamaki",
+        "last": "Nekoyama",
+        "full": "Tamaki Nekoyama",
+        "native": "猫山珠喜",
+        "userPreferred": "Tamaki Nekoyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b166472-GzTxFac8KzWH.png",
+      "voiceActors": [
+        {
+          "id": 103030,
+          "language": "Japanese",
+          "name": {
+            "first": "Hitomi",
+            "last": "Harada",
+            "full": "Hitomi Harada",
+            "native": "原田ひとみ",
+            "userPreferred": "Hitomi Harada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103030-CqmMNYO3QRCv.jpg"
+        }
+      ]
+    },
+    {
+      "id": 166474,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sora",
+        "last": "Sarutobi",
+        "full": "Sora Sarutobi",
+        "native": "猿飛空",
+        "userPreferred": "Sora Sarutobi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b166474-mX4uUuCkxJ6e.png",
+      "voiceActors": [
+        {
+          "id": 166484,
+          "language": "Japanese",
+          "name": {
+            "first": "Shouko",
+            "last": "Nagahiro",
+            "full": "Shouko Nagahiro",
+            "native": "長弘翔子",
+            "userPreferred": "Shouko Nagahiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n166484-kQQwhPnkcLXj.png"
+        }
+      ]
+    },
+    {
+      "id": 145079,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mikine",
+        "last": "Nezu",
+        "full": "Mikine Nezu",
+        "native": "杜松美希音",
+        "userPreferred": "Mikine Nezu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b145079-QC5f7RmPWRK5.png",
+      "voiceActors": [
+        {
+          "id": 133656,
+          "language": "Japanese",
+          "name": {
+            "first": "Sayaka",
+            "last": "Horino",
+            "full": "Sayaka Horino",
+            "native": "紗也加 堀野",
+            "userPreferred": "Sayaka Horino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n133656-2QTUbXcDINOB.jpg"
+        }
+      ]
+    },
+    {
+      "id": 145078,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yukiji",
+        "last": "Ushiwaka",
+        "full": "Yukiji Ushiwaka",
+        "native": "牛若雪路",
+        "userPreferred": "Yukiji Ushiwaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b145078-QGbaNxC2Rq4F.png",
+      "voiceActors": [
+        {
+          "id": 145081,
+          "language": "Japanese",
+          "name": {
+            "first": "Aoi",
+            "last": "Fujimoto",
+            "full": "Aoi Fujimoto",
+            "native": "藤本葵",
+            "userPreferred": "Aoi Fujimoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n145081-ncK1zMdZdgN4.png"
+        }
+      ]
+    },
+    {
+      "id": 145381,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hibari",
+        "last": "Torikai",
+        "full": "Hibari Torikai",
+        "native": "鳥飼ひばり",
+        "userPreferred": "Hibari Torikai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b145381-64vcasGTU7iD.png",
+      "voiceActors": [
+        {
+          "id": 117421,
+          "language": "Japanese",
+          "name": {
+            "first": "Erii",
+            "last": "Yamazaki",
+            "full": "Erii Yamazaki",
+            "native": "山崎エリイ",
+            "userPreferred": "Erii Yamazaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n117421-5NlOXOgi6Nah.png"
+        }
+      ]
+    },
+    {
+      "id": 166471,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaede",
+        "last": "Hiiragi",
+        "full": "Kaede Hiiragi",
+        "native": "柊木楓",
+        "userPreferred": "Kaede Hiiragi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b166471-b0Hohm9gTIux.png",
+      "voiceActors": [
+        {
+          "id": 107241,
+          "language": "Japanese",
+          "name": {
+            "first": "Sayako",
+            "last": "Toujou",
+            "full": "Sayako Toujou",
+            "native": "東城咲耶子",
+            "userPreferred": "Sayako Toujou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107241-3KOR5DPZ9t5B.png"
+        }
+      ]
+    },
+    {
+      "id": 166470,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kiri",
+        "last": "Hiiragi",
+        "full": "Kiri Hiiragi",
+        "native": "柊木桐",
+        "userPreferred": "Kiri Hiiragi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b166470-iCmOtsGjskXE.png",
+      "voiceActors": [
+        {
+          "id": 107137,
+          "language": "Japanese",
+          "name": {
+            "first": "Misaki",
+            "last": "Suzuki",
+            "full": "Misaki Suzuki",
+            "native": "美咲 鈴木",
+            "userPreferred": "Misaki Suzuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12137.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 81267,
+      "relationType": "ADAPTATION",
+      "malId": 51267,
+      "title": {
+        "romaji": "Inugami-san to Nekoyama-san",
+        "english": null,
+        "native": "犬神さんと猫山さん",
+        "userPreferred": "Inugami-san to Nekoyama-san"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx81267-plMk6at60Wx3.png",
+      "color": "#fea10d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/81267-03IpleIXJJmq.jpg",
+      "rating": 67
+    },
+    {
+      "id": 20846,
+      "relationType": "SIDE_STORY",
+      "malId": 25861,
+      "title": {
+        "romaji": "Inugami-san to Nekoyama-san: Nekoyama-san to Onsen Ryokou",
+        "english": null,
+        "native": "犬神さんと猫山さん 猫山さんと温泉旅行",
+        "userPreferred": "Inugami-san to Nekoyama-san: Nekoyama-san to Onsen Ryokou"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20846.jpg",
+      "color": "#aed6f1",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20846.jpg",
+      "rating": 60
+    }
+  ],
+  "episodes": [
+    {
+      "id": "inugami-san-to-nekoyama-san-episode-1",
+      "title": "Inugami-san and Nekoyama-san",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161067/original.jpg",
+      "number": 1,
+      "createdAt": "2014-11-16T20:31:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inugami-san-to-nekoyama-san-episode-1"
+    },
+    {
+      "id": "inugami-san-to-nekoyama-san-episode-2",
+      "title": "Ushiwaka-san and Nezu-san",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161081/original.jpg",
+      "number": 2,
+      "createdAt": "2014-11-16T20:31:24Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inugami-san-to-nekoyama-san-episode-2"
+    },
+    {
+      "id": "inugami-san-to-nekoyama-san-episode-3",
+      "title": "Nekoyama-san and Catnip Tea",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161098/original.jpg",
+      "number": 3,
+      "createdAt": "2014-11-16T20:31:27Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inugami-san-to-nekoyama-san-episode-3"
+    },
+    {
+      "id": "inugami-san-to-nekoyama-san-episode-4",
+      "title": "Nekoyama-san and Glasses",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161113/original.jpg",
+      "number": 4,
+      "createdAt": "2014-11-16T20:31:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inugami-san-to-nekoyama-san-episode-4"
+    },
+    {
+      "id": "inugami-san-to-nekoyama-san-episode-5",
+      "title": "Nekoyama-san and Karaoke",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161128/original.jpg",
+      "number": 5,
+      "createdAt": "2014-11-16T20:31:31Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inugami-san-to-nekoyama-san-episode-5"
+    },
+    {
+      "id": "inugami-san-to-nekoyama-san-episode-6",
+      "title": "Inugami-san, Nekoyama-san, and a Day Off",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161141/original.jpg",
+      "number": 6,
+      "createdAt": "2014-11-16T20:31:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inugami-san-to-nekoyama-san-episode-6"
+    },
+    {
+      "id": "inugami-san-to-nekoyama-san-episode-7",
+      "title": "Inugami-san and Sarutobi-san",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161171/original.jpg",
+      "number": 7,
+      "createdAt": "2014-11-16T20:31:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inugami-san-to-nekoyama-san-episode-7"
+    },
+    {
+      "id": "inugami-san-to-nekoyama-san-episode-8",
+      "title": "Nekoyama-san and Torikai-san",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161190/original.jpg",
+      "number": 8,
+      "createdAt": "2014-11-16T20:31:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inugami-san-to-nekoyama-san-episode-8"
+    },
+    {
+      "id": "inugami-san-to-nekoyama-san-episode-9",
+      "title": "Inugami-san and a Lovers' Quarrel",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161209/original.jpg",
+      "number": 9,
+      "createdAt": "2014-11-16T20:31:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inugami-san-to-nekoyama-san-episode-9"
+    },
+    {
+      "id": "inugami-san-to-nekoyama-san-episode-10",
+      "title": "Nekoyama-san and Pool Opening",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161217/original.jpg",
+      "number": 10,
+      "createdAt": "2014-11-16T20:31:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inugami-san-to-nekoyama-san-episode-10"
+    },
+    {
+      "id": "inugami-san-to-nekoyama-san-episode-11",
+      "title": "Nekoyama-san and the Sick Day",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161225/original.jpg",
+      "number": 11,
+      "createdAt": "2014-11-16T20:31:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inugami-san-to-nekoyama-san-episode-11"
+    },
+    {
+      "id": "inugami-san-to-nekoyama-san-episode-12",
+      "title": "Inugami-san, Nekoyama-san, and the Summer Festival",
+      "image": "https://media.kitsu.io/episodes/thumbnails/161240/original.jpg",
+      "number": 12,
+      "createdAt": "2014-11-16T20:31:47Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inugami-san-to-nekoyama-san-episode-12"
+    }
+  ]
+}

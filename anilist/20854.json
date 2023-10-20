@@ -1,0 +1,787 @@
+{
+  "id": "20854",
+  "title": {
+    "romaji": "Baby Steps 2",
+    "english": null,
+    "native": "ベイビーステップ 2"
+  },
+  "malId": 27663,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20854-F4myomjTV3Lt.jpg",
+  "popularity": 14625,
+  "color": "#2893e4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20854-F4myomjTV3Lt.jpg",
+  "description": "Season 2 of Baby Steps. Maruo Eiichirou has begun his training in America and quickly realizes that he has still a long way to go. Facing his comrades in the daily matches helps him to realize his own weaknesses and his time overseas proves to be extremely valuable for his development, both as a tennis player and as a person.",
+  "status": "Completed",
+  "releaseDate": 2015,
+  "startDate": {
+    "year": 2015,
+    "month": 4,
+    "day": 5
+  },
+  "endDate": {
+    "year": 2015,
+    "month": 9,
+    "day": 20
+  },
+  "totalEpisodes": 25,
+  "currentEpisode": 25,
+  "rating": 78,
+  "duration": 24,
+  "genres": [
+    "Romance",
+    "Sports"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Studio Pierrot"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 22,
+      "malId": 22,
+      "title": {
+        "romaji": "Tennis no Ouji-sama",
+        "english": "The Prince of Tennis",
+        "native": "テニスの王子様",
+        "userPreferred": "Tennis no Ouji-sama"
+      },
+      "status": "Completed",
+      "episodes": 178,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx22-8Qg3NZXH6asP.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/22-wVJjA9tGMt4k.jpg",
+      "rating": 75,
+      "type": "TV"
+    },
+    {
+      "id": 101903,
+      "malId": 37965,
+      "title": {
+        "romaji": "Kaze ga Tsuyoku Fuiteiru",
+        "english": "Run with the Wind",
+        "native": "風が強く吹いている",
+        "userPreferred": "Kaze ga Tsuyoku Fuiteiru"
+      },
+      "status": "Completed",
+      "episodes": 23,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101903-smbtaZBYXFop.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n101903-Jnoc7x0WFusx.jpg",
+      "rating": 83,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 43447,
+      "role": "MAIN",
+      "name": {
+        "first": "Natsu",
+        "last": "Takasaki",
+        "full": "Natsu Takasaki",
+        "native": "鷹崎 奈津",
+        "userPreferred": "Natsu Takasaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b43447-hd9gK6tFseO0.png",
+      "voiceActors": [
+        {
+          "id": 101634,
+          "language": "Japanese",
+          "name": {
+            "first": "Minako",
+            "last": "Kotobuki",
+            "full": "Minako Kotobuki",
+            "native": "寿美菜子",
+            "userPreferred": "Minako Kotobuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101634-IiPW117K0ybp.png"
+        }
+      ]
+    },
+    {
+      "id": 31667,
+      "role": "MAIN",
+      "name": {
+        "first": "Eiichirou",
+        "last": "Maruo",
+        "full": "Eiichirou Maruo",
+        "native": "丸尾 栄一郎",
+        "userPreferred": "Eiichirou Maruo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b31667-ckBMPdOuPPks.png",
+      "voiceActors": [
+        {
+          "id": 107705,
+          "language": "Japanese",
+          "name": {
+            "first": "Taishi",
+            "last": "Murata",
+            "full": "Taishi Murata",
+            "native": "村田太志",
+            "userPreferred": "Taishi Murata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107705-lVfYRzWY5AFW.jpg"
+        }
+      ]
+    },
+    {
+      "id": 43449,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuuki",
+        "last": "Tajima",
+        "full": "Yuuki Tajima",
+        "native": "田島 勇樹",
+        "userPreferred": "Yuuki Tajima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43449-mFzGE75vgs50.jpg",
+      "voiceActors": [
+        {
+          "id": 116163,
+          "language": "Japanese",
+          "name": {
+            "first": "",
+            "last": "Yuuki",
+            "full": "Yuuki",
+            "native": "優希 ",
+            "userPreferred": "Yuuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/21163.jpg"
+        }
+      ]
+    },
+    {
+      "id": 72401,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mike",
+        "last": null,
+        "full": "Mike",
+        "native": "マイク",
+        "userPreferred": "Mike"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/72401.jpg",
+      "voiceActors": [
+        {
+          "id": 95262,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenyuu",
+            "last": "Horiuchi",
+            "full": "Kenyuu Horiuchi",
+            "native": "堀内賢雄",
+            "userPreferred": "Kenyuu Horiuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/262.jpg"
+        }
+      ]
+    },
+    {
+      "id": 72399,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Souji",
+        "last": "Ike",
+        "full": "Souji Ike",
+        "native": "池 爽児",
+        "userPreferred": "Souji Ike"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/72399-OBBJ7QvsTml0.jpg",
+      "voiceActors": [
+        {
+          "id": 100626,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshimasa",
+            "last": "Hosoya",
+            "full": "Yoshimasa Hosoya",
+            "native": "細谷佳正",
+            "userPreferred": "Yoshimasa Hosoya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100626-bH8eZ0wv3HYX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 72363,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Akiko",
+        "last": "Kousaka",
+        "full": "Akiko Kousaka",
+        "native": "香坂明子",
+        "userPreferred": "Akiko Kousaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b72363-b3nZTQuyPvKh.png",
+      "voiceActors": []
+    },
+    {
+      "id": 43445,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kojirou",
+        "last": "Kageyama",
+        "full": "Kojirou Kageyama",
+        "native": "影山小次郎",
+        "userPreferred": "Kojirou Kageyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b43445-3yIUi2TQs8oK.png",
+      "voiceActors": [
+        {
+          "id": 95494,
+          "language": "Japanese",
+          "name": {
+            "first": "Takuma",
+            "last": "Terashima",
+            "full": "Takuma Terashima",
+            "native": "寺島拓篤",
+            "userPreferred": "Takuma Terashima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95494-HetCpJKbDy1B.png"
+        }
+      ]
+    },
+    {
+      "id": 72409,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Krishna",
+        "last": "Rames",
+        "full": "Krishna Rames",
+        "native": "ラメス・クリシュナ",
+        "userPreferred": "Krishna Rames"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/72409.jpg",
+      "voiceActors": [
+        {
+          "id": 111635,
+          "language": "Japanese",
+          "name": {
+            "first": "Natsuki",
+            "last": "Hanae",
+            "full": "Natsuki Hanae",
+            "native": "花江夏樹",
+            "userPreferred": "Natsuki Hanae"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n111635-L385UcjTKCBq.png"
+        }
+      ]
+    },
+    {
+      "id": 43444,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Takuma",
+        "last": "Egawa",
+        "full": "Takuma Egawa",
+        "native": "江川 逞",
+        "userPreferred": "Takuma Egawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b43444-6ashqU4Qmb9S.png",
+      "voiceActors": [
+        {
+          "id": 95087,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Namikawa",
+            "full": "Daisuke Namikawa",
+            "native": "浪川大輔",
+            "userPreferred": "Daisuke Namikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95087-6dlBBbejsPyg.png"
+        }
+      ]
+    },
+    {
+      "id": 139798,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kishi",
+        "last": "Teppei",
+        "full": "Kishi Teppei",
+        "native": "岸鉄平",
+        "userPreferred": "Kishi Teppei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b139798-HMsFLg69XBE6.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 72369,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Himeko",
+        "last": "Sasaki",
+        "full": "Himeko Sasaki",
+        "native": "佐々木 姫子",
+        "userPreferred": "Himeko Sasaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/72369.jpg",
+      "voiceActors": [
+        {
+          "id": 106787,
+          "language": "Japanese",
+          "name": {
+            "first": "Asami",
+            "last": "Seto",
+            "full": "Asami Seto",
+            "native": "瀬戸麻沙美",
+            "userPreferred": "Asami Seto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106787-pNRFEiywJuEx.png"
+        }
+      ]
+    },
+    {
+      "id": 72407,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Atsushi",
+        "last": "Taira",
+        "full": "Atsushi Taira",
+        "native": "平 敦士",
+        "userPreferred": "Atsushi Taira"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/72407.jpg",
+      "voiceActors": [
+        {
+          "id": 102695,
+          "language": "Japanese",
+          "name": {
+            "first": "Takuya",
+            "last": "Eguchi",
+            "full": "Takuya Eguchi",
+            "native": "江口拓也",
+            "userPreferred": "Takuya Eguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102695-dGzsJkor0KMj.jpg"
+        }
+      ]
+    },
+    {
+      "id": 72365,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Miura",
+        "last": null,
+        "full": "Miura",
+        "native": "三浦",
+        "userPreferred": "Miura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/72365.jpg",
+      "voiceActors": [
+        {
+          "id": 95893,
+          "language": "Japanese",
+          "name": {
+            "first": "Taiten",
+            "last": "Kusunoki",
+            "full": "Taiten Kusunoki",
+            "native": "楠大典",
+            "userPreferred": "Taiten Kusunoki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95893-k0qEVnRygyIn.png"
+        }
+      ]
+    },
+    {
+      "id": 174300,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Alex",
+        "last": "O'Brian",
+        "full": "Alex O'Brian",
+        "native": null,
+        "userPreferred": "Alex O'Brian"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b174300-NaVlbZsWdZgf.jpg",
+      "voiceActors": [
+        {
+          "id": 95118,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Kamiya",
+            "full": "Hiroshi Kamiya",
+            "native": "神谷浩史",
+            "userPreferred": "Hiroshi Kamiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95118-oOElrn1aSaiC.png"
+        }
+      ]
+    },
+    {
+      "id": 72373,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hiroshi",
+        "last": "Araya",
+        "full": "Hiroshi Araya",
+        "native": "荒谷寛",
+        "userPreferred": "Hiroshi Araya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b72373-0nHIaOVRwiu5.jpg",
+      "voiceActors": [
+        {
+          "id": 95098,
+          "language": "Japanese",
+          "name": {
+            "first": "Wataru",
+            "last": "Hatano",
+            "full": "Wataru Hatano",
+            "native": "羽多野渉",
+            "userPreferred": "Wataru Hatano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95098-x6T2xOTuvkuY.jpg"
+        }
+      ]
+    },
+    {
+      "id": 72391,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sakuya",
+        "last": "Takagi",
+        "full": "Sakuya Takagi",
+        "native": "高木朔夜",
+        "userPreferred": "Sakuya Takagi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b72391-hpDiC9ZjLWv1.png",
+      "voiceActors": [
+        {
+          "id": 95205,
+          "language": "Japanese",
+          "name": {
+            "first": "Masakazu",
+            "last": "Morita",
+            "full": "Masakazu Morita",
+            "native": "森田成一",
+            "userPreferred": "Masakazu Morita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95205-5P3tKe3eTG9n.jpg"
+        }
+      ]
+    },
+    {
+      "id": 72367,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ryuuhei",
+        "last": "Aoi",
+        "full": "Ryuuhei Aoi",
+        "native": "青井 竜平",
+        "userPreferred": "Ryuuhei Aoi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/72367.jpg",
+      "voiceActors": [
+        {
+          "id": 95097,
+          "language": "Japanese",
+          "name": {
+            "first": "Kousuke",
+            "last": "Toriumi",
+            "full": "Kousuke Toriumi",
+            "native": "鳥海浩輔",
+            "userPreferred": "Kousuke Toriumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95097-BhSegy6KBLbE.png"
+        }
+      ]
+    },
+    {
+      "id": 72413,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Eiichirou's Mother",
+        "last": null,
+        "full": "Eiichirou's Mother",
+        "native": "栄一郎の母",
+        "userPreferred": "Eiichirou's Mother"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b72413-A3RFKOFD4p7S.jpg",
+      "voiceActors": [
+        {
+          "id": 100132,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Katou",
+            "full": "Yuuko Katou",
+            "native": "加藤有生子",
+            "userPreferred": "Yuuko Katou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5132.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 20510,
+      "relationType": "PREQUEL",
+      "malId": 21185,
+      "title": {
+        "romaji": "Baby Steps",
+        "english": null,
+        "native": "ベイビーステップ",
+        "userPreferred": "Baby Steps"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20510-S72XBO504JWD.jpg",
+      "color": "#43aee4",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n20510-9SKDDNdPJlx5.jpg",
+      "rating": 75
+    },
+    {
+      "id": 38300,
+      "relationType": "ADAPTATION",
+      "malId": 8300,
+      "title": {
+        "romaji": "Baby Steps",
+        "english": "Baby Steps",
+        "native": "ベイビーステップ",
+        "userPreferred": "Baby Steps"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx38300-TXX5KLxitjb1.jpg",
+      "color": "#e45d1a",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/n38300-ULRvrzZtNU4M.jpg",
+      "rating": 79
+    }
+  ],
+  "episodes": [
+    {
+      "id": "baby-steps-2nd-season-episode-1",
+      "title": "The World and the Wall",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20854-F4myomjTV3Lt.jpg",
+      "number": 1,
+      "createdAt": "2017-06-30T08:08:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//baby-steps-2nd-season-episode-1"
+    },
+    {
+      "id": "baby-steps-2nd-season-episode-2",
+      "title": "A Vicious Circle is Lucky",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20854-F4myomjTV3Lt.jpg",
+      "number": 2,
+      "createdAt": "2017-06-30T08:08:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//baby-steps-2nd-season-episode-2"
+    },
+    {
+      "id": "baby-steps-2nd-season-episode-3",
+      "title": "Data for the Future",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20854-F4myomjTV3Lt.jpg",
+      "number": 3,
+      "createdAt": "2017-06-30T08:08:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//baby-steps-2nd-season-episode-3"
+    },
+    {
+      "id": "baby-steps-2nd-season-episode-4",
+      "title": "Awakening to Simplicity",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20854-F4myomjTV3Lt.jpg",
+      "number": 4,
+      "createdAt": "2017-06-30T08:08:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//baby-steps-2nd-season-episode-4"
+    },
+    {
+      "id": "baby-steps-2nd-season-episode-5",
+      "title": "Takuma's Decision",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20854-F4myomjTV3Lt.jpg",
+      "number": 5,
+      "createdAt": "2017-06-30T08:08:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//baby-steps-2nd-season-episode-5"
+    },
+    {
+      "id": "baby-steps-2nd-season-episode-6",
+      "title": "First Encounter by Scouting",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20854-F4myomjTV3Lt.jpg",
+      "number": 6,
+      "createdAt": "2017-06-30T08:08:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//baby-steps-2nd-season-episode-6"
+    },
+    {
+      "id": "baby-steps-2nd-season-episode-7",
+      "title": "Revenge at the Critical Moment",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20854-F4myomjTV3Lt.jpg",
+      "number": 7,
+      "createdAt": "2017-06-30T08:08:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//baby-steps-2nd-season-episode-7"
+    },
+    {
+      "id": "baby-steps-2nd-season-episode-8",
+      "title": "The Speed of Evolution",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20854-F4myomjTV3Lt.jpg",
+      "number": 8,
+      "createdAt": "2017-06-30T08:08:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//baby-steps-2nd-season-episode-8"
+    },
+    {
+      "id": "baby-steps-2nd-season-episode-9",
+      "title": "Baffled by Intuition",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20854-F4myomjTV3Lt.jpg",
+      "number": 9,
+      "createdAt": "2017-06-30T08:08:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//baby-steps-2nd-season-episode-9"
+    },
+    {
+      "id": "baby-steps-2nd-season-episode-10",
+      "title": "Start with a Roar",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20854-F4myomjTV3Lt.jpg",
+      "number": 10,
+      "createdAt": "2017-06-30T08:08:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//baby-steps-2nd-season-episode-10"
+    },
+    {
+      "id": "baby-steps-2nd-season-episode-11",
+      "title": "Choices and Explosive Power",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20854-F4myomjTV3Lt.jpg",
+      "number": 11,
+      "createdAt": "2017-06-30T08:08:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//baby-steps-2nd-season-episode-11"
+    },
+    {
+      "id": "baby-steps-2nd-season-episode-12",
+      "title": "Full Force Toward Adversity",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20854-F4myomjTV3Lt.jpg",
+      "number": 12,
+      "createdAt": "2017-06-30T08:08:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//baby-steps-2nd-season-episode-12"
+    },
+    {
+      "id": "baby-steps-2nd-season-episode-13",
+      "title": "Gathering of Rivals",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20854-F4myomjTV3Lt.jpg",
+      "number": 13,
+      "createdAt": "2017-06-30T08:08:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//baby-steps-2nd-season-episode-13"
+    },
+    {
+      "id": "baby-steps-2nd-season-episode-14",
+      "title": "Moonlight and the Sound of Waves",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20854-F4myomjTV3Lt.jpg",
+      "number": 14,
+      "createdAt": "2017-06-30T08:08:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//baby-steps-2nd-season-episode-14"
+    },
+    {
+      "id": "baby-steps-2nd-season-episode-15",
+      "title": "A Hero and Loud Cheers",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20854-F4myomjTV3Lt.jpg",
+      "number": 15,
+      "createdAt": "2017-06-30T08:08:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//baby-steps-2nd-season-episode-15"
+    },
+    {
+      "id": "baby-steps-2nd-season-episode-16",
+      "title": "Whish, Then Fwoom",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20854-F4myomjTV3Lt.jpg",
+      "number": 16,
+      "createdAt": "2017-06-30T08:08:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//baby-steps-2nd-season-episode-16"
+    },
+    {
+      "id": "baby-steps-2nd-season-episode-17",
+      "title": "Dramatic By Nature",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20854-F4myomjTV3Lt.jpg",
+      "number": 17,
+      "createdAt": "2017-06-30T08:08:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//baby-steps-2nd-season-episode-17"
+    },
+    {
+      "id": "baby-steps-2nd-season-episode-18",
+      "title": "Visualize the Pressure",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20854-F4myomjTV3Lt.jpg",
+      "number": 18,
+      "createdAt": "2017-06-30T08:08:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//baby-steps-2nd-season-episode-18"
+    },
+    {
+      "id": "baby-steps-2nd-season-episode-19",
+      "title": "A Rude First Meeting",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20854-F4myomjTV3Lt.jpg",
+      "number": 19,
+      "createdAt": "2017-06-30T08:08:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//baby-steps-2nd-season-episode-19"
+    },
+    {
+      "id": "baby-steps-2nd-season-episode-20",
+      "title": "Psychological Warfare and Self-Control",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20854-F4myomjTV3Lt.jpg",
+      "number": 20,
+      "createdAt": "2017-06-30T08:08:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//baby-steps-2nd-season-episode-20"
+    },
+    {
+      "id": "baby-steps-2nd-season-episode-21",
+      "title": "Good, Evil, and Rules",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20854-F4myomjTV3Lt.jpg",
+      "number": 21,
+      "createdAt": "2017-06-30T08:08:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//baby-steps-2nd-season-episode-21"
+    },
+    {
+      "id": "baby-steps-2nd-season-episode-22",
+      "title": "Existence is the Driving Force",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20854-F4myomjTV3Lt.jpg",
+      "number": 22,
+      "createdAt": "2017-06-30T08:08:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//baby-steps-2nd-season-episode-22"
+    },
+    {
+      "id": "baby-steps-2nd-season-episode-23",
+      "title": "Aggressive is Ideal",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20854-F4myomjTV3Lt.jpg",
+      "number": 23,
+      "createdAt": "2017-06-30T08:08:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//baby-steps-2nd-season-episode-23"
+    },
+    {
+      "id": "baby-steps-2nd-season-episode-24",
+      "title": "Recklessness and Surprise",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20854-F4myomjTV3Lt.jpg",
+      "number": 24,
+      "createdAt": "2017-06-30T08:08:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//baby-steps-2nd-season-episode-24"
+    },
+    {
+      "id": "baby-steps-2nd-season-episode-25",
+      "title": "Final Set",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20854-F4myomjTV3Lt.jpg",
+      "number": 25,
+      "createdAt": "2014-11-18T15:56:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//baby-steps-2nd-season-episode-25"
+    }
+  ]
+}

@@ -1,0 +1,551 @@
+{
+  "id": "10209",
+  "title": {
+    "romaji": "Kore wa Zombie desu ka? OVA",
+    "english": "Is this a Zombie? OVA",
+    "native": "これはゾンビですか? OVA"
+  },
+  "malId": 10209,
+  "synonyms": [
+    "เจ้านี่เหรอซอมบี้ OVA"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10209.jpg",
+  "popularity": 22076,
+  "color": "#e4ae43",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n10209-I3h4sdfVruIY.jpg",
+  "description": "Two OVAs released with the 8th and 10th volumes of the original novel. They fall chronologically between the first and second seasons.<br><br>\nSeason 1, Episode 13:<br>\nHaruna is given the task to hold a Spring Festival at the local shrine, in her own magical-Equipment-girl way, of course... Seraphim does not want to be a freeloader at Haruna's and Ayumu's place, so she starts cooking... And a concentration-game contest in the school's main assembly hall pushes Ayumu and Orito to their limits... (Source: AniDB)<br><br>\nSeason 2, Episode 0 part 1:<br>\nHaruna wants to play more with Hellscythe at a swimming pool.<br>\nSeason 2, Episode 0 part 2:<br>\nHellscythe's birthday is near! Haruna prepares a birthday party for Hellscythe in her own magical-Equipment-girl-way. What kind of party could Haruna be holding? What kind of birthday presents will Ayumu and gang give to Hellscythe?",
+  "status": "Completed",
+  "releaseDate": 2011,
+  "startDate": {
+    "year": 2011,
+    "month": 6,
+    "day": 10
+  },
+  "endDate": {
+    "year": 2012,
+    "month": 4,
+    "day": 25
+  },
+  "totalEpisodes": 2,
+  "currentEpisode": 2,
+  "rating": 70,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Comedy",
+    "Ecchi",
+    "Supernatural"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Studio DEEN"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 123769,
+      "malId": 42803,
+      "title": {
+        "romaji": "Dokyuu Hentai HxEros OVA",
+        "english": null,
+        "native": "ド級編隊エグゼロス OVA",
+        "userPreferred": "Dokyuu Hentai HxEros OVA"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx123769-ClztG4bhi1hD.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx123769-ClztG4bhi1hD.jpg",
+      "rating": 60,
+      "type": "OVA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 38538,
+      "role": "MAIN",
+      "name": {
+        "first": "Eucliwood",
+        "last": "Hellscythe",
+        "full": "Eucliwood Hellscythe",
+        "native": "ユークリウッド・ヘルサイズ",
+        "userPreferred": "Eucliwood Hellscythe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b38538-jWqupBK87AYp.jpg",
+      "voiceActors": [
+        {
+          "id": 95080,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Hisakawa",
+            "full": "Aya Hisakawa",
+            "native": "久川綾",
+            "userPreferred": "Aya Hisakawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95080-7dOAcrnsSghI.jpg"
+        },
+        {
+          "id": 96067,
+          "language": "Japanese",
+          "name": {
+            "first": "Fumi",
+            "last": "Hirano",
+            "full": "Fumi Hirano",
+            "native": "平野文",
+            "userPreferred": "Fumi Hirano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96067-Joe6uMJ9OgXF.png"
+        },
+        {
+          "id": 106742,
+          "language": "Japanese",
+          "name": {
+            "first": "Midori",
+            "last": "Tsukimiya",
+            "full": "Midori Tsukimiya",
+            "native": "みどり 月宮",
+            "userPreferred": "Midori Tsukimiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/11742.jpg"
+        },
+        {
+          "id": 96650,
+          "language": "English",
+          "name": {
+            "first": "Cherami",
+            "last": "Leigh",
+            "full": "Cherami Leigh",
+            "native": null,
+            "userPreferred": "Cherami Leigh"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96650-oYspSQuaFo3N.jpg"
+        },
+        {
+          "id": 95773,
+          "language": "English",
+          "name": {
+            "first": "Kara",
+            "last": "Edwards",
+            "full": "Kara Edwards",
+            "native": null,
+            "userPreferred": "Kara Edwards"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/773.jpg"
+        }
+      ]
+    },
+    {
+      "id": 38535,
+      "role": "MAIN",
+      "name": {
+        "first": "Ayumu",
+        "last": "Aikawa",
+        "full": "Ayumu Aikawa",
+        "native": "相川 歩",
+        "userPreferred": "Ayumu Aikawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/38535.jpg",
+      "voiceActors": [
+        {
+          "id": 95820,
+          "language": "Japanese",
+          "name": {
+            "first": "Junji",
+            "last": "Majima",
+            "full": "Junji Majima",
+            "native": "間島淳司",
+            "userPreferred": "Junji Majima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95820-5Fuosf1ljdSc.png"
+        },
+        {
+          "id": 111641,
+          "language": "English",
+          "name": {
+            "first": "Austin",
+            "last": "Tindle",
+            "full": "Austin Tindle",
+            "native": null,
+            "userPreferred": "Austin Tindle"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n111641-DbiOaZhYsNsi.jpg"
+        }
+      ]
+    },
+    {
+      "id": 38536,
+      "role": "MAIN",
+      "name": {
+        "first": "Haruna",
+        "last": null,
+        "full": "Haruna",
+        "native": "ハルナ",
+        "userPreferred": "Haruna"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/38536.jpg",
+      "voiceActors": [
+        {
+          "id": 103956,
+          "language": "Japanese",
+          "name": {
+            "first": "Iori",
+            "last": "Nomizu",
+            "full": "Iori Nomizu",
+            "native": "野水伊織",
+            "userPreferred": "Iori Nomizu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103956-SBfEe7v8hV4r.png"
+        },
+        {
+          "id": 101729,
+          "language": "English",
+          "name": {
+            "first": "Jad",
+            "last": "Saxton",
+            "full": "Jad Saxton",
+            "native": null,
+            "userPreferred": "Jad Saxton"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101729-tga5Umgm17Mj.jpg"
+        }
+      ]
+    },
+    {
+      "id": 38537,
+      "role": "MAIN",
+      "name": {
+        "first": "Seraphim",
+        "last": null,
+        "full": "Seraphim",
+        "native": "セラフィム",
+        "userPreferred": "Seraphim"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b38537-SZuq1UPgZd0W.jpg",
+      "voiceActors": [
+        {
+          "id": 102263,
+          "language": "Japanese",
+          "name": {
+            "first": "Youko",
+            "last": "Hikasa",
+            "full": "Youko Hikasa",
+            "native": "日笠陽子",
+            "userPreferred": "Youko Hikasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102263-aaPZtNXVUljW.jpg"
+        },
+        {
+          "id": 113057,
+          "language": "English",
+          "name": {
+            "first": "Morgan",
+            "last": "Lauré",
+            "full": "Morgan Lauré",
+            "native": null,
+            "userPreferred": "Morgan Lauré"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/18057.jpg"
+        }
+      ]
+    },
+    {
+      "id": 41549,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kanami",
+        "last": "Mihara",
+        "full": "Kanami Mihara",
+        "native": "三原かなみ",
+        "userPreferred": "Kanami Mihara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/41549.jpg",
+      "voiceActors": [
+        {
+          "id": 103930,
+          "language": "Japanese",
+          "name": {
+            "first": "Mina ",
+            "last": "Kasai",
+            "full": "Mina  Kasai",
+            "native": "葛西美名",
+            "userPreferred": "Mina  Kasai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8930.jpg"
+        },
+        {
+          "id": 109269,
+          "language": "English",
+          "name": {
+            "first": "Megan",
+            "last": "Miller",
+            "full": "Megan Miller",
+            "native": null,
+            "userPreferred": "Megan Miller"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14269.jpg"
+        }
+      ]
+    },
+    {
+      "id": 39950,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "",
+        "last": "Orito",
+        "full": "Orito",
+        "native": "織戸",
+        "userPreferred": "Orito"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/39950.jpg",
+      "voiceActors": [
+        {
+          "id": 95283,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroyuki",
+            "last": "Yoshino",
+            "full": "Hiroyuki Yoshino",
+            "native": "吉野裕行",
+            "userPreferred": "Hiroyuki Yoshino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95283-g76zV4YacFfm.jpg"
+        },
+        {
+          "id": 102450,
+          "language": "English",
+          "name": {
+            "first": "Anthony",
+            "last": "Bowling",
+            "full": "Anthony Bowling",
+            "native": null,
+            "userPreferred": "Anthony Bowling"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7450.jpg"
+        }
+      ]
+    },
+    {
+      "id": 41512,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Taeko",
+        "last": "Hiramatsu",
+        "full": "Taeko Hiramatsu",
+        "native": "平松妙子",
+        "userPreferred": "Taeko Hiramatsu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/41512-4Gr9wa0K8D9z.jpg",
+      "voiceActors": [
+        {
+          "id": 107042,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Yamaguchi",
+            "full": "Rie Yamaguchi",
+            "native": "理恵 山口",
+            "userPreferred": "Rie Yamaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12042.jpg"
+        },
+        {
+          "id": 114579,
+          "language": "English",
+          "name": {
+            "first": "Erica",
+            "last": "Harte",
+            "full": "Erica Harte",
+            "native": null,
+            "userPreferred": "Erica Harte"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/19579.jpg"
+        }
+      ]
+    },
+    {
+      "id": 40760,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sarasvati",
+        "last": null,
+        "full": "Sarasvati",
+        "native": "サラスバティ, 星川 輝羅々",
+        "userPreferred": "Sarasvati"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b40760-TaasJuYmjJfm.png",
+      "voiceActors": [
+        {
+          "id": 103929,
+          "language": "Japanese",
+          "name": {
+            "first": "Chiharu",
+            "last": "Kitaoka",
+            "full": "Chiharu Kitaoka",
+            "native": "喜多丘千陽",
+            "userPreferred": "Chiharu Kitaoka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8929.jpg"
+        },
+        {
+          "id": 95313,
+          "language": "English",
+          "name": {
+            "first": "Caitlin",
+            "last": "Glass",
+            "full": "Caitlin Glass",
+            "native": null,
+            "userPreferred": "Caitlin Glass"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95313-zK3WpeNtACvm.jpg"
+        }
+      ]
+    },
+    {
+      "id": 38539,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuki",
+        "last": "Yoshida",
+        "full": "Yuki Yoshida",
+        "native": "吉田友紀",
+        "userPreferred": "Yuki Yoshida"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b38539-fkALSyiZILIn.png",
+      "voiceActors": [
+        {
+          "id": 103555,
+          "language": "Japanese",
+          "name": {
+            "first": "Hisako",
+            "last": "Kanemoto",
+            "full": "Hisako Kanemoto",
+            "native": "金元寿子",
+            "userPreferred": "Hisako Kanemoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103555-2ZtBwZfy9DTi.jpg"
+        },
+        {
+          "id": 95414,
+          "language": "English",
+          "name": {
+            "first": "Brittney",
+            "last": "Karbowski",
+            "full": "Brittney Karbowski",
+            "native": null,
+            "userPreferred": "Brittney Karbowski"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/414.jpg"
+        }
+      ]
+    },
+    {
+      "id": 41550,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "",
+        "last": "Shimomura",
+        "full": "Shimomura",
+        "native": "下村（アンダーソン）",
+        "userPreferred": "Shimomura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/41550.jpg",
+      "voiceActors": [
+        {
+          "id": 104148,
+          "language": "Japanese",
+          "name": {
+            "first": "Itsuki",
+            "last": "Takizawa",
+            "full": "Itsuki Takizawa",
+            "native": "樹 瀧澤",
+            "userPreferred": "Itsuki Takizawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9148.jpg"
+        },
+        {
+          "id": 95860,
+          "language": "English",
+          "name": {
+            "first": "Todd",
+            "last": "Haberkorn",
+            "full": "Todd Haberkorn",
+            "native": "Todd Michael Haberkorn",
+            "userPreferred": "Todd Haberkorn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95860-RxBJH1Kt2TUW.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 8841,
+      "relationType": "PREQUEL",
+      "malId": 8841,
+      "title": {
+        "romaji": "Kore wa Zombie desu ka?",
+        "english": "Is this a Zombie?",
+        "native": "これはゾンビですか?",
+        "userPreferred": "Kore wa Zombie desu ka?"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx8841-pitrO5QSdfmA.png",
+      "color": "#aeaee4",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/8841-eHjwSMaFsWpM.jpg",
+      "rating": 69
+    },
+    {
+      "id": 10790,
+      "relationType": "SEQUEL",
+      "malId": 10790,
+      "title": {
+        "romaji": "Kore wa Zombie desu ka? of the Dead",
+        "english": "Is this A Zombie? of the Dead",
+        "native": "これはゾンビですか？オブ・ザ・デッド",
+        "userPreferred": "Kore wa Zombie desu ka? of the Dead"
+      },
+      "status": "Completed",
+      "episodes": 10,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10790-nmhjig0cTbI5.png",
+      "color": "#d61a78",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10790-o9iJjw2Id2J0.jpg",
+      "rating": 71
+    },
+    {
+      "id": 53067,
+      "relationType": "ADAPTATION",
+      "malId": 23067,
+      "title": {
+        "romaji": "Kore wa Zombie desu ka?",
+        "english": null,
+        "native": "これはゾンビですか?",
+        "userPreferred": "Kore wa Zombie desu ka?"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx53067-DHb8vsBuhDGn.jpg",
+      "color": "#e40d78",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx53067-DHb8vsBuhDGn.jpg",
+      "rating": 74
+    }
+  ],
+  "episodes": [
+    {
+      "id": "kore-wa-zombie-desu-ka-ova-episode-1",
+      "title": "Yes, This is 1% Miracle / Welcome, to the Danger Zone / The Sun Illuminates the Ground Most of the Year",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10209.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:28:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kore-wa-zombie-desu-ka-ova-episode-1"
+    }
+  ]
+}

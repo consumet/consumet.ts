@@ -1,0 +1,310 @@
+{
+  "id": "2524",
+  "title": {
+    "romaji": "Jungle DE Ikou!",
+    "english": "Let's Go to the Jungle!",
+    "native": "ジャングルDEいこう!"
+  },
+  "malId": 2524,
+  "synonyms": [
+    "Jungre de Ikou"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2524.jpg",
+  "popularity": 1828,
+  "color": "#e49328",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2524.jpg",
+  "description": "After meeting a dancing old man in what she thinks is just a crazy dream, a preteen schoolgirl embarks on a series of fanservice-filled magical girl adventures with a little creature named Ongo who might be evil and a shy girl with mysterious powers named Nami.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 1997,
+  "startDate": {
+    "year": 1997,
+    "month": 3,
+    "day": 26
+  },
+  "endDate": {
+    "year": 1997,
+    "month": 9,
+    "day": 26
+  },
+  "totalEpisodes": 3,
+  "currentEpisode": 3,
+  "rating": 45,
+  "duration": 30,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Ecchi",
+    "Mahou Shoujo"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Chaos Project"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 25485,
+      "role": "MAIN",
+      "name": {
+        "first": "Ongo",
+        "last": null,
+        "full": "Ongo",
+        "native": "オンゴ",
+        "userPreferred": "Ongo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b25485-Sn0FkhpMoHyr.png",
+      "voiceActors": [
+        {
+          "id": 95014,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Hayashibara",
+            "full": "Megumi Hayashibara",
+            "native": "林原めぐみ",
+            "userPreferred": "Megumi Hayashibara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95014-VqxNuufY94V3.png"
+        },
+        {
+          "id": 95319,
+          "language": "English",
+          "name": {
+            "first": "Mona",
+            "last": "Marshall",
+            "full": "Mona Marshall",
+            "native": null,
+            "userPreferred": "Mona Marshall"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95319-3WvgbpEGuhzQ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9128,
+      "role": "MAIN",
+      "name": {
+        "first": "Mii",
+        "last": null,
+        "full": "Mii",
+        "native": "ミィ",
+        "userPreferred": "Mii"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9128.jpg",
+      "voiceActors": [
+        {
+          "id": 95523,
+          "language": "Japanese",
+          "name": {
+            "first": "Eri",
+            "last": "Sendai",
+            "full": "Eri Sendai",
+            "native": "仙台エリ",
+            "userPreferred": "Eri Sendai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95523-Z2mIzxl8NgnE.png"
+        },
+        {
+          "id": 95452,
+          "language": "English",
+          "name": {
+            "first": "Melissa",
+            "last": "Fahn",
+            "full": "Melissa Fahn",
+            "native": null,
+            "userPreferred": "Melissa Fahn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95452-ID2nbW1E8fLk.png"
+        }
+      ]
+    },
+    {
+      "id": 29422,
+      "role": "MAIN",
+      "name": {
+        "first": "Natsumi",
+        "last": "Rokudo",
+        "full": "Natsumi Rokudo",
+        "native": "六道那柘美",
+        "userPreferred": "Natsumi Rokudo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b29422-Eyhrpd8jcxJl.png",
+      "voiceActors": [
+        {
+          "id": 95523,
+          "language": "Japanese",
+          "name": {
+            "first": "Eri",
+            "last": "Sendai",
+            "full": "Eri Sendai",
+            "native": "仙台エリ",
+            "userPreferred": "Eri Sendai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95523-Z2mIzxl8NgnE.png"
+        },
+        {
+          "id": 95452,
+          "language": "English",
+          "name": {
+            "first": "Melissa",
+            "last": "Fahn",
+            "full": "Melissa Fahn",
+            "native": null,
+            "userPreferred": "Melissa Fahn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95452-ID2nbW1E8fLk.png"
+        }
+      ]
+    },
+    {
+      "id": 29435,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nami",
+        "last": "Kuki",
+        "full": "Nami Kuki",
+        "native": "九鬼波美",
+        "userPreferred": "Nami Kuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b29435-17aigTUf9ghS.png",
+      "voiceActors": [
+        {
+          "id": 174921,
+          "language": "Japanese",
+          "name": {
+            "first": "Sumie",
+            "last": "Baba",
+            "full": "Sumie Baba",
+            "native": "馬場澄江",
+            "userPreferred": "Sumie Baba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n174921-GIqkplojW97o.jpg"
+        },
+        {
+          "id": 95085,
+          "language": "English",
+          "name": {
+            "first": "Michelle",
+            "last": "Ruff",
+            "full": "Michelle Ruff",
+            "native": null,
+            "userPreferred": "Michelle Ruff"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95085-zJmU0x2NLr3j.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29437,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rongo",
+        "last": null,
+        "full": "Rongo",
+        "native": "ロンゴ",
+        "userPreferred": "Rongo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b29437-XscjJLNYjOTc.png",
+      "voiceActors": [
+        {
+          "id": 95425,
+          "language": "Japanese",
+          "name": {
+            "first": "Sumi",
+            "last": "Shimamoto",
+            "full": "Sumi Shimamoto",
+            "native": "島本須美",
+            "userPreferred": "Sumi Shimamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95425-wEl09IWpLxIA.png"
+        },
+        {
+          "id": 95536,
+          "language": "English",
+          "name": {
+            "first": "Barbara",
+            "last": "Goodson",
+            "full": "Barbara Goodson",
+            "native": null,
+            "userPreferred": "Barbara Goodson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95536-jKbTvYfcrPaM.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29423,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Takuma",
+        "last": "Kusanagi",
+        "full": "Takuma Kusanagi",
+        "native": "草薙琢磨",
+        "userPreferred": "Takuma Kusanagi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b29423-QFrGCWMyhsid.png",
+      "voiceActors": [
+        {
+          "id": 95067,
+          "language": "Japanese",
+          "name": {
+            "first": "Kappei",
+            "last": "Yamaguchi",
+            "full": "Kappei Yamaguchi",
+            "native": "山口勝平",
+            "userPreferred": "Kappei Yamaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95067-hqIpNxMfAuN2.png"
+        },
+        {
+          "id": 95536,
+          "language": "English",
+          "name": {
+            "first": "Barbara",
+            "last": "Goodson",
+            "full": "Barbara Goodson",
+            "native": null,
+            "userPreferred": "Barbara Goodson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95536-jKbTvYfcrPaM.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [],
+  "episodes": [
+    {
+      "id": "jungle-de-ikou-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2524.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//jungle-de-ikou-episode-1"
+    },
+    {
+      "id": "jungle-de-ikou-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2524.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//jungle-de-ikou-episode-2"
+    },
+    {
+      "id": "jungle-de-ikou-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2524.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//jungle-de-ikou-episode-3"
+    }
+  ]
+}

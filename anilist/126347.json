@@ -1,0 +1,487 @@
+{
+  "id": "126347",
+  "title": {
+    "romaji": "Bai Yao Pu 2",
+    "english": "Fairies Albums S2",
+    "native": "百妖谱 第二季"
+  },
+  "malId": 44067,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "CN",
+  "trailer": {
+    "id": "arcw38xUUG4",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/arcw38xUUG4/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126347-nVa34u8PKYpb.png",
+  "popularity": 840,
+  "color": "#bbe443",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126347-nVa34u8PKYpb.png",
+  "description": "The second season of <i>Bai Yao Pu</i>.",
+  "status": "Completed",
+  "releaseDate": 2021,
+  "startDate": {
+    "year": 2021,
+    "month": 7,
+    "day": 18
+  },
+  "endDate": {
+    "year": 2021,
+    "month": 9,
+    "day": 26
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 66,
+  "duration": 20,
+  "genres": [
+    "Fantasy",
+    "Mystery",
+    "Supernatural"
+  ],
+  "season": null,
+  "studios": [
+    "Haoliners Animation"
+  ],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 222096,
+      "role": "MAIN",
+      "name": {
+        "first": "Taoyao",
+        "last": null,
+        "full": "Taoyao",
+        "native": "桃夭",
+        "userPreferred": "Taoyao"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b222096-19WqCm7hrYgx.png",
+      "voiceActors": [
+        {
+          "id": 222097,
+          "language": "Chinese",
+          "name": {
+            "first": "Xiaoshuang",
+            "last": "Zhao",
+            "full": "Xiaoshuang Zhao",
+            "native": "赵小双",
+            "userPreferred": "Xiaoshuang Zhao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n222097-gVGgUMPUbzvO.png"
+        }
+      ]
+    },
+    {
+      "id": 222101,
+      "role": "MAIN",
+      "name": {
+        "first": "",
+        "last": "Liu Gongzi",
+        "full": "Liu Gongzi",
+        "native": "柳公子",
+        "userPreferred": "Liu Gongzi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b222101-zDmz0kWNq45O.png",
+      "voiceActors": [
+        {
+          "id": 163267,
+          "language": "Chinese",
+          "name": {
+            "first": "Luofeng",
+            "last": "Xiaohou",
+            "full": "Luofeng Xiaohou",
+            "native": "夏侯落枫",
+            "userPreferred": "Luofeng Xiaohou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n163267-FDLqipiSUr4Y.png"
+        }
+      ]
+    },
+    {
+      "id": 222100,
+      "role": "MAIN",
+      "name": {
+        "first": "Moya",
+        "last": null,
+        "full": "Moya",
+        "native": "磨牙",
+        "userPreferred": "Moya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b222100-OtIA0g9jNTcA.png",
+      "voiceActors": [
+        {
+          "id": 217500,
+          "language": "Chinese",
+          "name": {
+            "first": "Rongshan",
+            "last": "Chang",
+            "full": "Rongshan Chang",
+            "native": "常蓉珊",
+            "userPreferred": "Rongshan Chang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n217500-YjTB0BftT331.png"
+        }
+      ]
+    },
+    {
+      "id": 232982,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Zhaohai",
+        "last": null,
+        "full": "Zhaohai",
+        "native": "照海",
+        "userPreferred": "Zhaohai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 163269,
+          "language": "Chinese",
+          "name": {
+            "first": "Siyu",
+            "last": "Chen",
+            "full": "Siyu Chen",
+            "native": "陈思宇",
+            "userPreferred": "Siyu Chen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n163269-yuQ26sh6vjJ8.png"
+        }
+      ]
+    },
+    {
+      "id": 232983,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jingzhe",
+        "last": null,
+        "full": "Jingzhe",
+        "native": "惊蛰",
+        "userPreferred": "Jingzhe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 229154,
+          "language": "Chinese",
+          "name": {
+            "first": "Lin",
+            "last": "Hu",
+            "full": "Lin Hu",
+            "native": "胡霖",
+            "userPreferred": "Lin Hu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n229154-DIfs6im4uXlc.jpg"
+        }
+      ]
+    },
+    {
+      "id": 232984,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shanhai",
+        "last": "Wen",
+        "full": "Shanhai Wen",
+        "native": "温山海",
+        "userPreferred": "Shanhai Wen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 188833,
+          "language": "Chinese",
+          "name": {
+            "first": "Nianru",
+            "last": "Shen",
+            "full": "Nianru Shen",
+            "native": "沈念如",
+            "userPreferred": "Nianru Shen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188833-KRGse7SWvLJx.png"
+        }
+      ]
+    },
+    {
+      "id": 232977,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shan",
+        "last": "He",
+        "full": "Shan He",
+        "native": "贺山",
+        "userPreferred": "Shan He"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 164993,
+          "language": "Chinese",
+          "name": {
+            "first": "Shanqing",
+            "last": "Su",
+            "full": "Shanqing Su",
+            "native": "苏尚卿",
+            "userPreferred": "Shanqing Su"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n164993-cN3KkpGgtz6O.png"
+        }
+      ]
+    },
+    {
+      "id": 232978,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yi",
+        "last": "Yun",
+        "full": "Yi Yun",
+        "native": "云姨",
+        "userPreferred": "Yi Yun"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 219265,
+          "language": "Chinese",
+          "name": {
+            "first": "Feifei",
+            "last": "Qiao",
+            "full": "Feifei Qiao",
+            "native": "乔菲菲",
+            "userPreferred": "Feifei Qiao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n219265-wdHafe23qh3Q.png"
+        }
+      ]
+    },
+    {
+      "id": 232979,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kongming Zhenren",
+        "last": null,
+        "full": "Kongming Zhenren",
+        "native": "空明真人",
+        "userPreferred": "Kongming Zhenren"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 229171,
+          "language": "Chinese",
+          "name": {
+            "first": "Jian",
+            "last": "Zhou",
+            "full": "Jian Zhou",
+            "native": "周健",
+            "userPreferred": "Jian Zhou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n229171-EPPGgVBjCXKk.png"
+        }
+      ]
+    },
+    {
+      "id": 232980,
+      "role": "SUPPORTING",
+      "name": {
+        "first": null,
+        "last": "Wen Furen",
+        "full": "Wen Furen",
+        "native": "温夫人",
+        "userPreferred": "Wen Furen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 217356,
+          "language": "Chinese",
+          "name": {
+            "first": "Meme",
+            "last": "Yan",
+            "full": "Meme Yan",
+            "native": "阎么么",
+            "userPreferred": "Meme Yan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n217356-v83Bzw8cePO6.png"
+        }
+      ]
+    },
+    {
+      "id": 232981,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Juehui",
+        "last": null,
+        "full": "Juehui",
+        "native": "觉悔",
+        "userPreferred": "Juehui"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 214164,
+          "language": "Chinese",
+          "name": {
+            "first": "Xiaotan",
+            "last": null,
+            "full": "Xiaotan",
+            "native": "笑谈",
+            "userPreferred": "Xiaotan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n214164-7rvLvnvqVpQw.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 114136,
+      "relationType": "PREQUEL",
+      "malId": 41224,
+      "title": {
+        "romaji": "Bai Yao Pu",
+        "english": "Fairies Albums",
+        "native": "百妖谱",
+        "userPreferred": "Bai Yao Pu"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114136-9bmTbEk4aV4x.png",
+      "color": "#f15d5d",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114136-ejBBuEMtw7Fq.jpg",
+      "rating": 70
+    },
+    {
+      "id": 141866,
+      "relationType": "SEQUEL",
+      "malId": 50537,
+      "title": {
+        "romaji": "Bai Yao Pu: Jingshi Pian",
+        "english": "Fairies Albums S3",
+        "native": "百妖谱·京师篇",
+        "userPreferred": "Bai Yao Pu: Jingshi Pian"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141866-3nNmU2gBKv21.png",
+      "color": "#f19343",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141866-3nNmU2gBKv21.png",
+      "rating": 78
+    }
+  ],
+  "episodes": [
+    {
+      "id": "bai-yao-pu-2nd-season-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126347-nVa34u8PKYpb.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bai-yao-pu-2nd-season-episode-1"
+    },
+    {
+      "id": "bai-yao-pu-2nd-season-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126347-nVa34u8PKYpb.png",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bai-yao-pu-2nd-season-episode-2"
+    },
+    {
+      "id": "bai-yao-pu-2nd-season-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126347-nVa34u8PKYpb.png",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bai-yao-pu-2nd-season-episode-3"
+    },
+    {
+      "id": "bai-yao-pu-2nd-season-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126347-nVa34u8PKYpb.png",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bai-yao-pu-2nd-season-episode-4"
+    },
+    {
+      "id": "bai-yao-pu-2nd-season-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126347-nVa34u8PKYpb.png",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bai-yao-pu-2nd-season-episode-5"
+    },
+    {
+      "id": "bai-yao-pu-2nd-season-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126347-nVa34u8PKYpb.png",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bai-yao-pu-2nd-season-episode-6"
+    },
+    {
+      "id": "bai-yao-pu-2nd-season-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126347-nVa34u8PKYpb.png",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bai-yao-pu-2nd-season-episode-7"
+    },
+    {
+      "id": "bai-yao-pu-2nd-season-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126347-nVa34u8PKYpb.png",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bai-yao-pu-2nd-season-episode-8"
+    },
+    {
+      "id": "bai-yao-pu-2nd-season-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126347-nVa34u8PKYpb.png",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bai-yao-pu-2nd-season-episode-9"
+    },
+    {
+      "id": "bai-yao-pu-2nd-season-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126347-nVa34u8PKYpb.png",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bai-yao-pu-2nd-season-episode-10"
+    },
+    {
+      "id": "bai-yao-pu-2nd-season-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126347-nVa34u8PKYpb.png",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bai-yao-pu-2nd-season-episode-11"
+    },
+    {
+      "id": "bai-yao-pu-2nd-season-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126347-nVa34u8PKYpb.png",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bai-yao-pu-2nd-season-episode-12"
+    }
+  ]
+}

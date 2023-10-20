@@ -1,0 +1,326 @@
+{
+  "id": "133510",
+  "title": {
+    "romaji": "GUNMACHAN",
+    "english": "Gunma Chan",
+    "native": "ぐんまちゃん"
+  },
+  "malId": 49184,
+  "synonyms": [
+    "Gunma-chan"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "1GHXcItfHs8",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/1GHXcItfHs8/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b133510-sCZf52CUxXvr.png",
+  "popularity": 326,
+  "color": "#e4c950",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b133510-sCZf52CUxXvr.png",
+  "description": "An anime series based on the Gunma prefecture mascot character, Gunma-chan.",
+  "status": "Completed",
+  "releaseDate": 2021,
+  "startDate": {
+    "year": 2021,
+    "month": 10,
+    "day": 3
+  },
+  "endDate": {
+    "year": 2021,
+    "month": 12,
+    "day": 26
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 51,
+  "duration": 24,
+  "genres": [
+    "Slice of Life"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Ascension"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 18155,
+      "malId": 18155,
+      "title": {
+        "romaji": "Line Town",
+        "english": null,
+        "native": "ラインタウン",
+        "userPreferred": "Line Town"
+      },
+      "status": "Completed",
+      "episodes": 50,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/18155.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/18155.jpg",
+      "rating": 63,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 222706,
+      "role": "MAIN",
+      "name": {
+        "first": "Gunma-chan",
+        "last": null,
+        "full": "Gunma-chan",
+        "native": "ぐんまちゃん",
+        "userPreferred": "Gunma-chan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b222706-OvrSc117zrjN.png",
+      "voiceActors": [
+        {
+          "id": 125920,
+          "language": "Japanese",
+          "name": {
+            "first": "Karin",
+            "last": "Takahashi",
+            "full": "Karin Takahashi",
+            "native": "高橋花林",
+            "userPreferred": "Karin Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n125920-eGCWlgvsrOyz.png"
+        }
+      ]
+    },
+    {
+      "id": 36309,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Narrator",
+        "last": null,
+        "full": "Narrator",
+        "native": "ナレーター",
+        "userPreferred": "Narrator"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36309-yRLEQYd2dDI5.jpg",
+      "voiceActors": [
+        {
+          "id": 95041,
+          "language": "Japanese",
+          "name": {
+            "first": "Takako",
+            "last": "Honda",
+            "full": "Takako Honda",
+            "native": "本田貴子",
+            "userPreferred": "Takako Honda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/41.jpg"
+        }
+      ]
+    },
+    {
+      "id": 235429,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Aoma",
+        "last": null,
+        "full": "Aoma",
+        "native": "あおま",
+        "userPreferred": "Aoma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b235429-E4SSwGDUdZJj.png",
+      "voiceActors": [
+        {
+          "id": 103921,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Uchida",
+            "full": "Aya Uchida",
+            "native": "内田彩",
+            "userPreferred": "Aya Uchida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103921-bnSaJsF0jgH1.png"
+        }
+      ]
+    },
+    {
+      "id": 235430,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mimi",
+        "last": null,
+        "full": "Mimi",
+        "native": "みーみ",
+        "userPreferred": "Mimi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b235430-fkN7S3YblSW1.png",
+      "voiceActors": [
+        {
+          "id": 105981,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Ogura",
+            "full": "Yui Ogura",
+            "native": "小倉唯",
+            "userPreferred": "Yui Ogura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105981-CDMPx1Q79Aum.png"
+        }
+      ]
+    },
+    {
+      "id": 268508,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Haniwa",
+        "last": null,
+        "full": "Haniwa",
+        "native": "ハニワ",
+        "userPreferred": "Haniwa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b268508-GyaC7vjUu2lW.jpg",
+      "voiceActors": []
+    }
+  ],
+  "relations": [
+    {
+      "id": 160173,
+      "relationType": "SEQUEL",
+      "malId": 54216,
+      "title": {
+        "romaji": "GUNMACHAN Season 2",
+        "english": null,
+        "native": "ぐんまちゃん シーズン２",
+        "userPreferred": "GUNMACHAN Season 2"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx160173-BAVY3lmBLqy2.png",
+      "color": "#e49328",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx160173-BAVY3lmBLqy2.png",
+      "rating": 54
+    }
+  ],
+  "episodes": [
+    {
+      "id": "gunma-chan-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b133510-sCZf52CUxXvr.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gunma-chan-episode-1"
+    },
+    {
+      "id": "gunma-chan-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b133510-sCZf52CUxXvr.png",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gunma-chan-episode-2"
+    },
+    {
+      "id": "gunma-chan-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b133510-sCZf52CUxXvr.png",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gunma-chan-episode-3"
+    },
+    {
+      "id": "gunma-chan-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b133510-sCZf52CUxXvr.png",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gunma-chan-episode-4"
+    },
+    {
+      "id": "gunma-chan-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b133510-sCZf52CUxXvr.png",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gunma-chan-episode-5"
+    },
+    {
+      "id": "gunma-chan-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b133510-sCZf52CUxXvr.png",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gunma-chan-episode-6"
+    },
+    {
+      "id": "gunma-chan-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b133510-sCZf52CUxXvr.png",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gunma-chan-episode-7"
+    },
+    {
+      "id": "gunma-chan-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b133510-sCZf52CUxXvr.png",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gunma-chan-episode-8"
+    },
+    {
+      "id": "gunma-chan-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b133510-sCZf52CUxXvr.png",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gunma-chan-episode-9"
+    },
+    {
+      "id": "gunma-chan-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b133510-sCZf52CUxXvr.png",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gunma-chan-episode-10"
+    },
+    {
+      "id": "gunma-chan-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b133510-sCZf52CUxXvr.png",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gunma-chan-episode-11"
+    },
+    {
+      "id": "gunma-chan-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b133510-sCZf52CUxXvr.png",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gunma-chan-episode-12"
+    },
+    {
+      "id": "gunma-chan-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b133510-sCZf52CUxXvr.png",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gunma-chan-episode-13"
+    }
+  ]
+}

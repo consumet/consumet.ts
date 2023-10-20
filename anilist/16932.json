@@ -1,0 +1,136 @@
+{
+  "id": "16932",
+  "title": {
+    "romaji": "Drifters (OVA)",
+    "english": null,
+    "native": "ドリフターズ"
+  },
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/16932.jpg",
+  "popularity": 2760,
+  "color": "#5093e4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/16932.jpg",
+  "description": "Short anime based on the <i>Drifters</i> manga bundled with the 10th and final volume of the Hellsing Ultimate OVAs.",
+  "status": "Completed",
+  "releaseDate": 2012,
+  "startDate": {
+    "year": 2012,
+    "month": 12,
+    "day": 26
+  },
+  "endDate": {
+    "year": 2012,
+    "month": 12,
+    "day": 26
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 70,
+  "duration": 2,
+  "genres": [
+    "Action",
+    "Fantasy",
+    "Supernatural"
+  ],
+  "season": "FALL",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 24183,
+      "role": "MAIN",
+      "name": {
+        "first": "Toyohisa",
+        "last": "Shimazu",
+        "full": "Toyohisa Shimazu",
+        "native": "島津 豊久",
+        "userPreferred": "Toyohisa Shimazu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b24183-zvUBfbdvEYyZ.jpg",
+      "voiceActors": [
+        {
+          "id": 95513,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuichi",
+            "last": "Nakamura",
+            "full": "Yuuichi Nakamura",
+            "native": "中村悠一",
+            "userPreferred": "Yuuichi Nakamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95513-up9ZDuocHgRs.png"
+        }
+      ]
+    },
+    {
+      "id": 43718,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Murasaki",
+        "last": null,
+        "full": "Murasaki",
+        "native": "紫",
+        "userPreferred": "Murasaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43718.jpg",
+      "voiceActors": [
+        {
+          "id": 96469,
+          "language": "Japanese",
+          "name": {
+            "first": "Mitsuru",
+            "last": "Miyamoto",
+            "full": "Mitsuru Miyamoto",
+            "native": "宮本充",
+            "userPreferred": "Mitsuru Miyamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96469-uVRO2mYXvXxP.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 43801,
+      "relationType": "ADAPTATION",
+      "malId": 13801,
+      "title": {
+        "romaji": "Drifters",
+        "english": "Drifters",
+        "native": "ドリフターズ",
+        "userPreferred": "Drifters"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx43801-eAjGz6G5d5Db.jpg",
+      "color": "#e46b50",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/43801-VcOcGLFWI2yO.jpg",
+      "rating": 75
+    },
+    {
+      "id": 21123,
+      "relationType": "ALTERNATIVE",
+      "malId": 31339,
+      "title": {
+        "romaji": "DRIFTERS",
+        "english": "DRIFTERS",
+        "native": "DRIFTERS",
+        "userPreferred": "DRIFTERS"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21123-bCuqm8wLDqOw.png",
+      "color": null,
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21123-AB6drAXL5FhN.jpg",
+      "rating": 75
+    }
+  ],
+  "episodes": []
+}

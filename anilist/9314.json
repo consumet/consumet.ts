@@ -1,0 +1,753 @@
+{
+  "id": "9314",
+  "title": {
+    "romaji": "Fractale",
+    "english": "Fractale",
+    "native": "フラクタル"
+  },
+  "malId": 9314,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9314-hDIYA5880Hw1.png",
+  "popularity": 13755,
+  "color": "#86bbf1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/9314-qoZWiugRyAXi.jpg",
+  "description": "The story takes place on an island, where a \"Fractale System\" is beginning to collapse. One day, Clain finds an injured girl called Phryne under a cliff. She disappears leaving a pendant. Clain sets out for a journey with the girl-shaped avatar Nessa to look for Phryne and discovers the secret of the Fractale System.",
+  "status": "Completed",
+  "releaseDate": 2011,
+  "startDate": {
+    "year": 2011,
+    "month": 1,
+    "day": 14
+  },
+  "endDate": {
+    "year": 2011,
+    "month": 4,
+    "day": 1
+  },
+  "totalEpisodes": 11,
+  "currentEpisode": 11,
+  "rating": 64,
+  "duration": 23,
+  "genres": [
+    "Adventure",
+    "Fantasy",
+    "Sci-Fi"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "A-1 Pictures",
+    "Ordet"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 97,
+      "malId": 97,
+      "title": {
+        "romaji": "Last Exile",
+        "english": "Last Exile",
+        "native": "ラストエグザイル",
+        "userPreferred": "Last Exile"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx97-Loi1Ppy4quXy.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97-kaw3UsKX7IkQ.jpg",
+      "rating": 74,
+      "type": "TV"
+    },
+    {
+      "id": 110353,
+      "malId": 40056,
+      "title": {
+        "romaji": "Deca-Dence",
+        "english": "DECA-DENCE",
+        "native": "デカダンス",
+        "userPreferred": "Deca-Dence"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110353-XGYSsii7qJeK.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110353-ZKkmemQSFP7L.jpg",
+      "rating": 71,
+      "type": "TV"
+    },
+    {
+      "id": 513,
+      "malId": 513,
+      "title": {
+        "romaji": "Tenkuu no Shiro Laputa",
+        "english": "Castle in the Sky",
+        "native": "天空の城ラピュタ",
+        "userPreferred": "Tenkuu no Shiro Laputa"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx513-G47zqEhndFBY.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/513-3zMLMyA0qH5n.jpg",
+      "rating": 80,
+      "type": "MOVIE"
+    },
+    {
+      "id": 879,
+      "malId": 879,
+      "title": {
+        "romaji": "Simoun",
+        "english": "Simoun",
+        "native": "シムーン",
+        "userPreferred": "Simoun"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx879-Y1AMwyonCMQf.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/879-87TegB6ZPbJE.jpg",
+      "rating": 69,
+      "type": "TV"
+    },
+    {
+      "id": 5681,
+      "malId": 5681,
+      "title": {
+        "romaji": "Summer Wars",
+        "english": "Summer Wars",
+        "native": "サマーウォーズ",
+        "userPreferred": "Summer Wars"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5681-3DmxUVn3grD0.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/5681-gANFEmT8uIFF.jpg",
+      "rating": 77,
+      "type": "MOVIE"
+    },
+    {
+      "id": 69,
+      "malId": 69,
+      "title": {
+        "romaji": "CLUSTER EDGE",
+        "english": null,
+        "native": "CLUSTER EDGE",
+        "userPreferred": "CLUSTER EDGE"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx69-OiowxBQs5McP.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/69-dSAI4LvEt358.jpg",
+      "rating": 55,
+      "type": "TV"
+    },
+    {
+      "id": 155783,
+      "malId": 53393,
+      "title": {
+        "romaji": "Tengoku Daimakyou",
+        "english": "Tengoku Daimakyo",
+        "native": "天国大魔境",
+        "userPreferred": "Tengoku Daimakyou"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx155783-X23WQwPmI9Sh.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/155783-MXHfdquIBoHA.jpg",
+      "rating": 82,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 37903,
+      "role": "MAIN",
+      "name": {
+        "first": "Clain",
+        "last": "Necran",
+        "full": "Clain Necran",
+        "native": "クレイン・ネクラン",
+        "userPreferred": "Clain Necran"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/37903.jpg",
+      "voiceActors": [
+        {
+          "id": 95034,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuu",
+            "last": "Kobayashi",
+            "full": "Yuu Kobayashi",
+            "native": "小林ゆう",
+            "userPreferred": "Yuu Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95034-AwobjrcmkMi9.png"
+        },
+        {
+          "id": 95659,
+          "language": "English",
+          "name": {
+            "first": "Brina",
+            "last": "Palencia",
+            "full": "Brina Palencia",
+            "native": null,
+            "userPreferred": "Brina Palencia"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/659.jpg"
+        }
+      ]
+    },
+    {
+      "id": 37905,
+      "role": "MAIN",
+      "name": {
+        "first": "Nessa",
+        "last": null,
+        "full": "Nessa",
+        "native": "ネッサ",
+        "userPreferred": "Nessa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/37905.jpg",
+      "voiceActors": [
+        {
+          "id": 95185,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Hanazawa",
+            "full": "Kana Hanazawa",
+            "native": "花澤香菜",
+            "userPreferred": "Kana Hanazawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95185-vZ6nmfBKQgw1.jpg"
+        },
+        {
+          "id": 95189,
+          "language": "English",
+          "name": {
+            "first": "Luci",
+            "last": "Christian",
+            "full": "Luci Christian",
+            "native": null,
+            "userPreferred": "Luci Christian"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95189-M2IkMNRzHYcF.jpg"
+        }
+      ]
+    },
+    {
+      "id": 37904,
+      "role": "MAIN",
+      "name": {
+        "first": "Phryne",
+        "last": null,
+        "full": "Phryne",
+        "native": "フリュネ",
+        "userPreferred": "Phryne"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/37904.jpg",
+      "voiceActors": [
+        {
+          "id": 106492,
+          "language": "Japanese",
+          "name": {
+            "first": "Minami",
+            "last": "Tsuda",
+            "full": "Minami Tsuda",
+            "native": "津田美波",
+            "userPreferred": "Minami Tsuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106492-hNpin1BODjBw.png"
+        },
+        {
+          "id": 95313,
+          "language": "English",
+          "name": {
+            "first": "Caitlin",
+            "last": "Glass",
+            "full": "Caitlin Glass",
+            "native": null,
+            "userPreferred": "Caitlin Glass"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95313-zK3WpeNtACvm.jpg"
+        }
+      ]
+    },
+    {
+      "id": 40869,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Meegan",
+        "last": null,
+        "full": "Meegan",
+        "native": "ミーガン",
+        "userPreferred": "Meegan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/40869.jpg",
+      "voiceActors": [
+        {
+          "id": 95599,
+          "language": "Japanese",
+          "name": {
+            "first": "Aki",
+            "last": "Toyosaki",
+            "full": "Aki Toyosaki",
+            "native": "豊崎愛生",
+            "userPreferred": "Aki Toyosaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95599-XDGiluZB7IXL.png"
+        },
+        {
+          "id": 95472,
+          "language": "English",
+          "name": {
+            "first": "Colleen",
+            "last": "Clinkenbeard",
+            "full": "Colleen Clinkenbeard",
+            "native": null,
+            "userPreferred": "Colleen Clinkenbeard"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95472-fznpewUW95vm.jpg"
+        }
+      ]
+    },
+    {
+      "id": 40871,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Collin",
+        "last": null,
+        "full": "Collin",
+        "native": "コリン",
+        "userPreferred": "Collin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/40871.jpg",
+      "voiceActors": [
+        {
+          "id": 95118,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Kamiya",
+            "full": "Hiroshi Kamiya",
+            "native": "神谷浩史",
+            "userPreferred": "Hiroshi Kamiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95118-oOElrn1aSaiC.png"
+        },
+        {
+          "id": 95860,
+          "language": "English",
+          "name": {
+            "first": "Todd",
+            "last": "Haberkorn",
+            "full": "Todd Haberkorn",
+            "native": "Todd Michael Haberkorn",
+            "userPreferred": "Todd Haberkorn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95860-RxBJH1Kt2TUW.png"
+        }
+      ]
+    },
+    {
+      "id": 40064,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Takami",
+        "last": null,
+        "full": "Takami",
+        "native": "タカミー",
+        "userPreferred": "Takami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/40064.jpg",
+      "voiceActors": [
+        {
+          "id": 95784,
+          "language": "Japanese",
+          "name": {
+            "first": "Eiji",
+            "last": "Miyashita",
+            "full": "Eiji Miyashita",
+            "native": "宮下栄治",
+            "userPreferred": "Eiji Miyashita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/784.jpg"
+        },
+        {
+          "id": 104087,
+          "language": "English",
+          "name": {
+            "first": "Ian",
+            "last": "Sinclair",
+            "full": "Ian Sinclair",
+            "native": null,
+            "userPreferred": "Ian Sinclair"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104087-3g10GTeSoeuW.jpg"
+        }
+      ]
+    },
+    {
+      "id": 37906,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Enri",
+        "last": "Granitz",
+        "full": "Enri Granitz",
+        "native": "エンリ・グラニッツ",
+        "userPreferred": "Enri Granitz"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/37906.jpg",
+      "voiceActors": [
+        {
+          "id": 95885,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuka",
+            "last": "Iguchi",
+            "full": "Yuka Iguchi",
+            "native": "井口裕香",
+            "userPreferred": "Yuka Iguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95885-8Le2NWyACKNt.png"
+        },
+        {
+          "id": 95159,
+          "language": "English",
+          "name": {
+            "first": "Monica",
+            "last": "Rial",
+            "full": "Monica Rial",
+            "native": null,
+            "userPreferred": "Monica Rial"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95159-iTd65o5LhA62.png"
+        }
+      ]
+    },
+    {
+      "id": 37959,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Barrot",
+        "last": null,
+        "full": "Barrot",
+        "native": "バロー",
+        "userPreferred": "Barrot"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n37959-HA2YBqqVdP92.png",
+      "voiceActors": [
+        {
+          "id": 96469,
+          "language": "Japanese",
+          "name": {
+            "first": "Mitsuru",
+            "last": "Miyamoto",
+            "full": "Mitsuru Miyamoto",
+            "native": "宮本充",
+            "userPreferred": "Mitsuru Miyamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96469-uVRO2mYXvXxP.png"
+        }
+      ]
+    },
+    {
+      "id": 40872,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gale",
+        "last": null,
+        "full": "Gale",
+        "native": "ゲイル",
+        "userPreferred": "Gale"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/40872.jpg",
+      "voiceActors": [
+        {
+          "id": 105183,
+          "language": "Japanese",
+          "name": {
+            "first": "Ikkyuu",
+            "last": "Juku",
+            "full": "Ikkyuu Juku",
+            "native": "塾一久",
+            "userPreferred": "Ikkyuu Juku"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10183.jpg"
+        },
+        {
+          "id": 100990,
+          "language": "English",
+          "name": {
+            "first": "Charles",
+            "last": "Campbell",
+            "full": "Charles Campbell",
+            "native": null,
+            "userPreferred": "Charles Campbell"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5990.jpg"
+        }
+      ]
+    },
+    {
+      "id": 37907,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sunda",
+        "last": "Granitz",
+        "full": "Sunda Granitz",
+        "native": "スンダ・グラニッツ",
+        "userPreferred": "Sunda Granitz"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/37907.jpg",
+      "voiceActors": [
+        {
+          "id": 95186,
+          "language": "Japanese",
+          "name": {
+            "first": "Shintarou",
+            "last": "Asanuma",
+            "full": "Shintarou Asanuma",
+            "native": "浅沼晋太郎",
+            "userPreferred": "Shintarou Asanuma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95186-XMdPPqYhMrwN.jpg"
+        },
+        {
+          "id": 105792,
+          "language": "English",
+          "name": {
+            "first": "Scott",
+            "last": "Freeman",
+            "full": "Scott Freeman",
+            "native": null,
+            "userPreferred": "Scott Freeman"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10792.jpg"
+        }
+      ]
+    },
+    {
+      "id": 40065,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Butcher",
+        "last": null,
+        "full": "Butcher",
+        "native": "ブッチャー",
+        "userPreferred": "Butcher"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/40065.jpg",
+      "voiceActors": [
+        {
+          "id": 106840,
+          "language": "Japanese",
+          "name": {
+            "first": "Hironori",
+            "last": "Kondou",
+            "full": "Hironori Kondou",
+            "native": "近藤浩徳",
+            "userPreferred": "Hironori Kondou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106840-AC03w0OTFovU.png"
+        }
+      ]
+    },
+    {
+      "id": 40694,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dias",
+        "last": null,
+        "full": "Dias",
+        "native": "ディアス",
+        "userPreferred": "Dias"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/40694.jpg",
+      "voiceActors": [
+        {
+          "id": 96489,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoaki",
+            "last": "Maeno",
+            "full": "Tomoaki Maeno",
+            "native": "前野智昭",
+            "userPreferred": "Tomoaki Maeno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96489-xTzYxgdC9g9l.png"
+        },
+        {
+          "id": 95312,
+          "language": "English",
+          "name": {
+            "first": "Eric",
+            "last": "Vale",
+            "full": "Eric Vale",
+            "native": null,
+            "userPreferred": "Eric Vale"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95312-lixmVhwE8AXE.png"
+        }
+      ]
+    },
+    {
+      "id": 37932,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Moeran",
+        "last": null,
+        "full": "Moeran",
+        "native": "モーラン",
+        "userPreferred": "Moeran"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/37932.jpg",
+      "voiceActors": [
+        {
+          "id": 95425,
+          "language": "Japanese",
+          "name": {
+            "first": "Sumi",
+            "last": "Shimamoto",
+            "full": "Sumi Shimamoto",
+            "native": "島本須美",
+            "userPreferred": "Sumi Shimamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95425-wEl09IWpLxIA.png"
+        },
+        {
+          "id": 95475,
+          "language": "English",
+          "name": {
+            "first": "Stephanie",
+            "last": "Young",
+            "full": "Stephanie Young",
+            "native": null,
+            "userPreferred": "Stephanie Young"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95475-QV9KFgsYrsPb.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 52900,
+      "relationType": "ADAPTATION",
+      "malId": 22900,
+      "title": {
+        "romaji": "Fractale",
+        "english": null,
+        "native": "フラクタル",
+        "userPreferred": "Fractale"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/22900.jpg",
+      "color": "#e4865d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/22900.jpg",
+      "rating": 57
+    }
+  ],
+  "episodes": [
+    {
+      "id": "fractale-episode-1",
+      "title": "Encounter",
+      "image": "https://media.kitsu.io/episodes/thumbnails/83673/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:27:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fractale-episode-1"
+    },
+    {
+      "id": "fractale-episode-2",
+      "title": "Nessa",
+      "image": "https://media.kitsu.io/episodes/thumbnails/83674/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:27:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fractale-episode-2"
+    },
+    {
+      "id": "fractale-episode-3",
+      "title": "The Village of Granites",
+      "image": "https://media.kitsu.io/episodes/thumbnails/83675/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:27:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fractale-episode-3"
+    },
+    {
+      "id": "fractale-episode-4",
+      "title": "Departure",
+      "image": "https://media.kitsu.io/episodes/thumbnails/83676/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:27:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fractale-episode-4"
+    },
+    {
+      "id": "fractale-episode-5",
+      "title": "Journey",
+      "image": "https://media.kitsu.io/episodes/thumbnails/83677/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:27:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fractale-episode-5"
+    },
+    {
+      "id": "fractale-episode-6",
+      "title": "The Farthest Town",
+      "image": "https://media.kitsu.io/episodes/thumbnails/83678/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:27:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fractale-episode-6"
+    },
+    {
+      "id": "fractale-episode-7",
+      "title": "Veneer Town",
+      "image": "https://media.kitsu.io/episodes/thumbnails/83679/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:27:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fractale-episode-7"
+    },
+    {
+      "id": "fractale-episode-8",
+      "title": "Secret of the Underground",
+      "image": "https://media.kitsu.io/episodes/thumbnails/83680/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:27:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fractale-episode-8"
+    },
+    {
+      "id": "fractale-episode-9",
+      "title": "No Way Out",
+      "image": "https://media.kitsu.io/episodes/thumbnails/83681/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:27:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fractale-episode-9"
+    },
+    {
+      "id": "fractale-episode-10",
+      "title": "To the Temple",
+      "image": "https://media.kitsu.io/episodes/thumbnails/83682/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:27:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fractale-episode-10"
+    },
+    {
+      "id": "fractale-episode-11",
+      "title": "Paradise",
+      "image": "https://media.kitsu.io/episodes/thumbnails/83683/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:27:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fractale-episode-11"
+    }
+  ]
+}

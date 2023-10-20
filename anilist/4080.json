@@ -1,0 +1,1230 @@
+{
+  "id": "4080",
+  "title": {
+    "romaji": "Kyou kara Maou! 3rd Series",
+    "english": "Kyo Kara Maoh! Season 3",
+    "native": "今日からマ王！第3シリーズ"
+  },
+  "malId": 4080,
+  "synonyms": [
+    "Kyou Kara Maou! Dai San Series",
+    "Kyou Kara Maoh! Third Series",
+    "Maruma Third Series"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+  "popularity": 3764,
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+  "description": "At the end of season 2. Yuuri defeats Shinou, but since Shinou had been defeated, Yuuri and Murata could no longer go to the Shin Makoku. However, because Yuuri had fought and defeated him, his powers had surpassed that of Shinou's, resulting in him being able to rely on his own power to return to Shin Makoku.<br><br>\nAfter the ceremony at the age of 16, Yuuri slowly begins to discover that much has happened while he was away. The ten officials of the noble family have decided to make Wolfram the next Maou, but now that Yuuri has returned and taken back his role as Maou, complications arise when one noble disagrees with Yuuri returning to the throne.<br><br>\nIn addition, an ancient secret society that threatens the peace of both humans and Mazoku has risen, and a fight for the throne that now leaves the nobles wondering who is the legitimate Maou. ",
+  "status": "Completed",
+  "releaseDate": 2008,
+  "startDate": {
+    "year": 2008,
+    "month": 4,
+    "day": 3
+  },
+  "endDate": {
+    "year": 2009,
+    "month": 2,
+    "day": 19
+  },
+  "totalEpisodes": 39,
+  "currentEpisode": 39,
+  "rating": 71,
+  "duration": 24,
+  "genres": [
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Romance"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Studio DEEN"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 116741,
+      "malId": 41488,
+      "title": {
+        "romaji": "Tensei Shitara Slime Datta Ken: Tensura Nikki",
+        "english": "The Slime Diaries",
+        "native": "転生したらスライムだった件 転スラ日記",
+        "userPreferred": "Tensei Shitara Slime Datta Ken: Tensura Nikki"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116741-rfUHo8Vh4WYF.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/116741-PUZqZptAPjox.jpg",
+      "rating": 74,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 1964,
+      "role": "MAIN",
+      "name": {
+        "first": "Conrad",
+        "last": "Weller",
+        "full": "Conrad Weller",
+        "native": "コンラッド/ウェラー卿コンラート",
+        "userPreferred": "Conrad Weller"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1964-R8wMC3Sb4MBL.jpg",
+      "voiceActors": [
+        {
+          "id": 95006,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiyuki",
+            "last": "Morikawa",
+            "full": "Toshiyuki Morikawa",
+            "native": "森川智之",
+            "userPreferred": "Toshiyuki Morikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95006-hoLuiZANeD3Q.png"
+        }
+      ]
+    },
+    {
+      "id": 6855,
+      "role": "MAIN",
+      "name": {
+        "first": "Saralegui",
+        "last": null,
+        "full": "Saralegui",
+        "native": null,
+        "userPreferred": "Saralegui"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6855.jpg",
+      "voiceActors": [
+        {
+          "id": 95017,
+          "language": "Japanese",
+          "name": {
+            "first": "Akira",
+            "last": "Ishida",
+            "full": "Akira Ishida",
+            "native": "石田彰",
+            "userPreferred": "Akira Ishida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95017-GSRcmQ97a8ZT.png"
+        }
+      ]
+    },
+    {
+      "id": 1967,
+      "role": "MAIN",
+      "name": {
+        "first": "Gwendal",
+        "last": "von Voltaire",
+        "full": "Gwendal von Voltaire",
+        "native": null,
+        "userPreferred": "Gwendal von Voltaire"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1967.jpg",
+      "voiceActors": [
+        {
+          "id": 95146,
+          "language": "Japanese",
+          "name": {
+            "first": "Akio",
+            "last": "Ootsuka",
+            "full": "Akio Ootsuka",
+            "native": "大塚明夫",
+            "userPreferred": "Akio Ootsuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95146-T6IEmqXW3xUN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1969,
+      "role": "MAIN",
+      "name": {
+        "first": "Ken",
+        "last": "Murata",
+        "full": "Ken Murata",
+        "native": null,
+        "userPreferred": "Ken Murata"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1969.jpg",
+      "voiceActors": [
+        {
+          "id": 95344,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouki",
+            "last": "Miyata",
+            "full": "Kouki Miyata",
+            "native": "宮田幸季",
+            "userPreferred": "Kouki Miyata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95344-wYgLhxYeWEp4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1968,
+      "role": "MAIN",
+      "name": {
+        "first": "Gunter",
+        "last": "von Christ",
+        "full": "Gunter von Christ",
+        "native": "フォンクライスト卿ギュンター",
+        "userPreferred": "Gunter von Christ"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1968.jpg",
+      "voiceActors": [
+        {
+          "id": 95021,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuhiko",
+            "last": "Inoue",
+            "full": "Kazuhiko Inoue",
+            "native": "井上和彦",
+            "userPreferred": "Kazuhiko Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95021-9qAoAn6GNZ3S.png"
+        }
+      ]
+    },
+    {
+      "id": 1966,
+      "role": "MAIN",
+      "name": {
+        "first": "Wolfram",
+        "last": "von Bielefeld",
+        "full": "Wolfram von Bielefeld",
+        "native": null,
+        "userPreferred": "Wolfram von Bielefeld"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1966.jpg",
+      "voiceActors": [
+        {
+          "id": 95197,
+          "language": "Japanese",
+          "name": {
+            "first": "Mitsuki",
+            "last": "Saiga",
+            "full": "Mitsuki Saiga",
+            "native": "斎賀みつき",
+            "userPreferred": "Mitsuki Saiga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95197-gcTFdBK9oPtY.png"
+        }
+      ]
+    },
+    {
+      "id": 1965,
+      "role": "MAIN",
+      "name": {
+        "first": "Yuuri",
+        "last": "Shibuya",
+        "full": "Yuuri Shibuya",
+        "native": "渋谷有利",
+        "userPreferred": "Yuuri Shibuya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1965.jpg",
+      "voiceActors": [
+        {
+          "id": 95079,
+          "language": "Japanese",
+          "name": {
+            "first": "Takahiro",
+            "last": "Sakurai",
+            "full": "Takahiro Sakurai",
+            "native": "櫻井孝宏",
+            "userPreferred": "Takahiro Sakurai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95079-MdbWTLxPUvFf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 35718,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Waltorana",
+        "last": "von Bielefeld",
+        "full": "Waltorana von Bielefeld",
+        "native": null,
+        "userPreferred": "Waltorana von Bielefeld"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95113,
+          "language": "Japanese",
+          "name": {
+            "first": "Rikiya",
+            "last": "Koyama",
+            "full": "Rikiya Koyama",
+            "native": "小山力也",
+            "userPreferred": "Rikiya Koyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95113-z9eyYjTKSTX4.png"
+        }
+      ]
+    },
+    {
+      "id": 3326,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Cecilie",
+        "last": "von Spitzberg",
+        "full": "Cecilie von Spitzberg",
+        "native": "フォンシュピッツヴェーグ卿シェシィーリエ",
+        "userPreferred": "Cecilie von Spitzberg"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3326.jpg",
+      "voiceActors": [
+        {
+          "id": 95342,
+          "language": "Japanese",
+          "name": {
+            "first": "Masako",
+            "last": "Katsuki",
+            "full": "Masako Katsuki",
+            "native": "勝生真沙子",
+            "userPreferred": "Masako Katsuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95342-pC8tGadzfTNb.jpg"
+        }
+      ]
+    },
+    {
+      "id": 65459,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Keenan",
+        "last": null,
+        "full": "Keenan",
+        "native": null,
+        "userPreferred": "Keenan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/65459.jpg",
+      "voiceActors": [
+        {
+          "id": 95295,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomohiro",
+            "last": "Nishimura",
+            "full": "Tomohiro Nishimura",
+            "native": "西村朋紘",
+            "userPreferred": "Tomohiro Nishimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95295-wAC8cLzBjWet.png"
+        }
+      ]
+    },
+    {
+      "id": 21393,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shoma",
+        "last": "Shibuya",
+        "full": "Shoma Shibuya",
+        "native": null,
+        "userPreferred": "Shoma Shibuya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21393.jpg",
+      "voiceActors": [
+        {
+          "id": 95427,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouji",
+            "last": "Tsujitani",
+            "full": "Kouji Tsujitani",
+            "native": "辻谷耕史",
+            "userPreferred": "Kouji Tsujitani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95427-g0bwNKDLlROd.png"
+        }
+      ]
+    },
+    {
+      "id": 12208,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shinou",
+        "last": null,
+        "full": "Shinou",
+        "native": null,
+        "userPreferred": "Shinou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12208.jpg",
+      "voiceActors": [
+        {
+          "id": 95022,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinichirou",
+            "last": "Miki",
+            "full": "Shinichirou Miki",
+            "native": "三木眞一郎",
+            "userPreferred": "Shinichirou Miki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95022-BXggjIr4KHqd.png"
+        }
+      ]
+    },
+    {
+      "id": 15458,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Alford",
+        "last": "Markina",
+        "full": "Alford Markina",
+        "native": "アルフォード・マキナー",
+        "userPreferred": "Alford Markina"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15458.jpg",
+      "voiceActors": [
+        {
+          "id": 95221,
+          "language": "Japanese",
+          "name": {
+            "first": "Kentarou",
+            "last": "Itou",
+            "full": "Kentarou Itou",
+            "native": "伊藤健太郎",
+            "userPreferred": "Kentarou Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95221-2rpvfpZXEAZB.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21389,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gisela",
+        "last": null,
+        "full": "Gisela",
+        "native": null,
+        "userPreferred": "Gisela"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21389.jpg",
+      "voiceActors": [
+        {
+          "id": 95548,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroko",
+            "last": "Taguchi",
+            "full": "Hiroko Taguchi",
+            "native": "田口宏子",
+            "userPreferred": "Hiroko Taguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/95548-Z1WQpFzJcvT9.jpg"
+        },
+        {
+          "id": 109983,
+          "language": "Korean",
+          "name": {
+            "first": "Ui Jin",
+            "last": "Chae",
+            "full": "Ui Jin Chae",
+            "native": "의진 채",
+            "userPreferred": "Ui Jin Chae"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14983.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15651,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Delchias",
+        "last": "Wincott",
+        "full": "Delchias Wincott",
+        "native": null,
+        "userPreferred": "Delchias Wincott"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15651.jpg",
+      "voiceActors": [
+        {
+          "id": 95065,
+          "language": "Japanese",
+          "name": {
+            "first": "Mamoru",
+            "last": "Miyano",
+            "full": "Mamoru Miyano",
+            "native": "宮野真守",
+            "userPreferred": "Mamoru Miyano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95065-eyynywrhombR.png"
+        }
+      ]
+    },
+    {
+      "id": 21395,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "DunHeely",
+        "last": "Weller",
+        "full": "DunHeely Weller",
+        "native": null,
+        "userPreferred": "DunHeely Weller"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21395.jpg",
+      "voiceActors": [
+        {
+          "id": 95262,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenyuu",
+            "last": "Horiuchi",
+            "full": "Kenyuu Horiuchi",
+            "native": "堀内賢雄",
+            "userPreferred": "Kenyuu Horiuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/262.jpg"
+        },
+        {
+          "id": 95232,
+          "language": "English",
+          "name": {
+            "first": "Kirk",
+            "last": "Thornton",
+            "full": "Kirk Thornton",
+            "native": null,
+            "userPreferred": "Kirk Thornton"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/232.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21390,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dorcas",
+        "last": null,
+        "full": "Dorcas",
+        "native": null,
+        "userPreferred": "Dorcas"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21390.jpg",
+      "voiceActors": [
+        {
+          "id": 95685,
+          "language": "Japanese",
+          "name": {
+            "first": "Takashi",
+            "last": "Matsuyama",
+            "full": "Takashi Matsuyama",
+            "native": "松山鷹志",
+            "userPreferred": "Takashi Matsuyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95685-hBzFgdWzq43x.jpg"
+        },
+        {
+          "id": 95952,
+          "language": "English",
+          "name": {
+            "first": "Eddie",
+            "last": "Frierson",
+            "full": "Eddie Frierson",
+            "native": null,
+            "userPreferred": "Eddie Frierson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/952.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21387,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Adelbert",
+        "last": "von Grantz",
+        "full": "Adelbert von Grantz",
+        "native": null,
+        "userPreferred": "Adelbert von Grantz"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21387.jpg",
+      "voiceActors": [
+        {
+          "id": 95563,
+          "language": "Japanese",
+          "name": {
+            "first": "Masaki",
+            "last": "Terasoma",
+            "full": "Masaki Terasoma",
+            "native": "てらそままさき",
+            "userPreferred": "Masaki Terasoma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95563-tMN0xtsy1qyh.png"
+        },
+        {
+          "id": 95232,
+          "language": "English",
+          "name": {
+            "first": "Kirk",
+            "last": "Thornton",
+            "full": "Kirk Thornton",
+            "native": null,
+            "userPreferred": "Kirk Thornton"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/232.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21742,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Greta",
+        "last": null,
+        "full": "Greta",
+        "native": null,
+        "userPreferred": "Greta"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21742.jpg",
+      "voiceActors": [
+        {
+          "id": 95746,
+          "language": "Japanese",
+          "name": {
+            "first": "Motoko",
+            "last": "Kumai",
+            "full": "Motoko Kumai",
+            "native": "くまいもとこ",
+            "userPreferred": "Motoko Kumai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95746-uCQ4Vz5v1St7.png"
+        },
+        {
+          "id": 96006,
+          "language": "English",
+          "name": {
+            "first": "Rebecca",
+            "last": "Forstadt",
+            "full": "Rebecca Forstadt",
+            "native": null,
+            "userPreferred": "Rebecca Forstadt"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1006.jpg"
+        },
+        {
+          "id": 109983,
+          "language": "Korean",
+          "name": {
+            "first": "Ui Jin",
+            "last": "Chae",
+            "full": "Ui Jin Chae",
+            "native": "의진 채",
+            "userPreferred": "Ui Jin Chae"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14983.jpg"
+        }
+      ]
+    },
+    {
+      "id": 30972,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mullem Desoive Eligh",
+        "last": "Morgif",
+        "full": "Mullem Desoive Eligh Morgif",
+        "native": "モルギフ",
+        "userPreferred": "Mullem Desoive Eligh Morgif"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/30972.jpg",
+      "voiceActors": [
+        {
+          "id": 95079,
+          "language": "Japanese",
+          "name": {
+            "first": "Takahiro",
+            "last": "Sakurai",
+            "full": "Takahiro Sakurai",
+            "native": "櫻井孝宏",
+            "userPreferred": "Takahiro Sakurai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95079-MdbWTLxPUvFf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 35770,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Geneus",
+        "last": null,
+        "full": "Geneus",
+        "native": null,
+        "userPreferred": "Geneus"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/35770.jpg",
+      "voiceActors": [
+        {
+          "id": 95286,
+          "language": "Japanese",
+          "name": {
+            "first": "Nozomu",
+            "last": "Sasaki",
+            "full": "Nozomu Sasaki",
+            "native": "佐々木望",
+            "userPreferred": "Nozomu Sasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95286-1RlrFeFKx3jn.png"
+        }
+      ]
+    },
+    {
+      "id": 21388,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Suzanna Julia",
+        "last": "von Wincott",
+        "full": "Suzanna Julia von Wincott",
+        "native": "フォンウィンコット卿スザナ・ジュリア",
+        "userPreferred": "Suzanna Julia von Wincott"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21388.jpg",
+      "voiceActors": [
+        {
+          "id": 96331,
+          "language": "Japanese",
+          "name": {
+            "first": "Risa",
+            "last": "Mizuno",
+            "full": "Risa Mizuno",
+            "native": "理紗水野",
+            "userPreferred": "Risa Mizuno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96331-NL72KlyVd8Wh.png"
+        }
+      ]
+    },
+    {
+      "id": 31445,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Antoine",
+        "last": "Jean-Pierre",
+        "full": "Antoine Jean-Pierre",
+        "native": "アントワーヌ",
+        "userPreferred": "Antoine Jean-Pierre"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/31445.jpg",
+      "voiceActors": [
+        {
+          "id": 95087,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Namikawa",
+            "full": "Daisuke Namikawa",
+            "native": "浪川大輔",
+            "userPreferred": "Daisuke Namikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95087-6dlBBbejsPyg.png"
+        }
+      ]
+    },
+    {
+      "id": 21392,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Miko",
+        "last": "Shibuya",
+        "full": "Miko Shibuya",
+        "native": "渋谷 美子",
+        "userPreferred": "Miko Shibuya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21392.jpg",
+      "voiceActors": [
+        {
+          "id": 95298,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Kakazu",
+            "full": "Yumi Kakazu",
+            "native": "かかずゆみ",
+            "userPreferred": "Yumi Kakazu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95298-wWENaJp9ERf7.jpg"
+        },
+        {
+          "id": 95537,
+          "language": "English",
+          "name": {
+            "first": "Dorothy",
+            "last": "Elias-Fahn",
+            "full": "Dorothy Elias-Fahn",
+            "native": null,
+            "userPreferred": "Dorothy Elias-Fahn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/537.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1970,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Josak",
+        "last": "Gurrier",
+        "full": "Josak Gurrier",
+        "native": null,
+        "userPreferred": "Josak Gurrier"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1970.jpg",
+      "voiceActors": [
+        {
+          "id": 100148,
+          "language": "Japanese",
+          "name": {
+            "first": "Masanori",
+            "last": "Takeda",
+            "full": "Masanori Takeda",
+            "native": "竹田雅則",
+            "userPreferred": "Masanori Takeda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100148-hFBLAJp8q5QI.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 251,
+      "relationType": "PREQUEL",
+      "malId": 251,
+      "title": {
+        "romaji": "Kyou kara Maou!",
+        "english": "Kyo Kara Maoh! - God (?) Save Our King!",
+        "native": "今日からマ王！",
+        "userPreferred": "Kyou kara Maou!"
+      },
+      "status": "Completed",
+      "episodes": 78,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx251-Ayui0ECuDPEe.png",
+      "color": "#d65d1a",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx251-Ayui0ECuDPEe.png",
+      "rating": 70
+    },
+    {
+      "id": 2971,
+      "relationType": "PREQUEL",
+      "malId": 2971,
+      "title": {
+        "romaji": "Kyou kara Maou! R",
+        "english": "Kyo Kara Maoh R",
+        "native": "今日からマ王！R",
+        "userPreferred": "Kyou kara Maou! R"
+      },
+      "status": "Completed",
+      "episodes": 5,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2971-7ZapuZNnTdzE.jpg",
+      "color": "#e45d93",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2971-7ZapuZNnTdzE.jpg",
+      "rating": 69
+    },
+    {
+      "id": 31048,
+      "relationType": "ADAPTATION",
+      "malId": 1048,
+      "title": {
+        "romaji": "Kyou Kara Ma no Tsuku Jiyuugyou!",
+        "english": "Kyo Kara MAOH!",
+        "native": "今日からマのつく自由業！",
+        "userPreferred": "Kyou Kara Ma no Tsuku Jiyuugyou!"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx31048-oe2vrNnaLUxZ.png",
+      "color": "#e45d86",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx31048-oe2vrNnaLUxZ.png",
+      "rating": 69
+    },
+    {
+      "id": 35489,
+      "relationType": "ADAPTATION",
+      "malId": 5489,
+      "title": {
+        "romaji": "Maruma Series",
+        "english": null,
+        "native": "まるマ シリーズ",
+        "userPreferred": "Maruma Series"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/5489.jpg",
+      "color": "#e44378",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/5489.jpg",
+      "rating": 77
+    }
+  ],
+  "episodes": [
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-1",
+      "title": "Maou, again",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 1,
+      "createdAt": "2014-11-16T20:41:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-1"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-2",
+      "title": "The Qualifications of a Maou",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 2,
+      "createdAt": "2014-11-16T20:41:47Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-2"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-3",
+      "title": "Resolve of the Maou",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 3,
+      "createdAt": "2014-11-16T20:41:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-3"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-4",
+      "title": "Greta and Yuuram",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 4,
+      "createdAt": "2014-11-16T20:41:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-4"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-5",
+      "title": "Leila`s Marriage",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 5,
+      "createdAt": "2014-11-16T20:41:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-5"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-6",
+      "title": "Infiltration! Big Shimaron",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 6,
+      "createdAt": "2014-11-16T20:41:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-6"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-7",
+      "title": "The Night of the Banquet",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 7,
+      "createdAt": "2014-11-16T20:41:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-7"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-8",
+      "title": "The Captured Maou",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 8,
+      "createdAt": "2014-11-16T20:41:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-8"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-9",
+      "title": "Black Janus",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 9,
+      "createdAt": "2014-11-16T20:41:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-9"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-10",
+      "title": "Conrad and Guenter",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 10,
+      "createdAt": "2014-11-16T20:41:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-10"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-11",
+      "title": "Annisina the Bride!?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 11,
+      "createdAt": "2014-11-16T20:41:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-11"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-12",
+      "title": "The Hero and the Three Swords",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 12,
+      "createdAt": "2014-11-16T20:41:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-12"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-13",
+      "title": "Shou Shimaron`s King, Saralegui",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 13,
+      "createdAt": "2014-11-16T20:41:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-13"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-14",
+      "title": "Moon Reflected in Water",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 14,
+      "createdAt": "2014-11-16T20:41:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-14"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-15",
+      "title": "The Wind`s Lullaby",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 15,
+      "createdAt": "2014-11-16T20:41:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-15"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-16",
+      "title": "The Wincott Inheritance",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 16,
+      "createdAt": "2014-11-16T20:41:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-16"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-17",
+      "title": "Invitation to Small Shimaron",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 17,
+      "createdAt": "2014-11-16T20:41:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-17"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-18",
+      "title": "The Two Kings",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 18,
+      "createdAt": "2014-11-16T20:41:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-18"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-19",
+      "title": "The King`s Guardian",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 19,
+      "createdAt": "2014-11-16T20:41:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-19"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-20",
+      "title": "For My Friend`s Sake",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 20,
+      "createdAt": "2014-11-16T20:41:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-20"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-21",
+      "title": "A Bitter Farewell",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 21,
+      "createdAt": "2014-11-16T20:41:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-21"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-22",
+      "title": "People of the Round Table",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 22,
+      "createdAt": "2014-11-16T20:41:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-22"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-23",
+      "title": "El`s Kidnapping",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 23,
+      "createdAt": "2014-11-16T20:41:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-23"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-24",
+      "title": "The Chosen One",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 24,
+      "createdAt": "2014-11-16T20:41:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-24"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-25",
+      "title": "Pursuit Across The Plains",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 25,
+      "createdAt": "2014-11-16T20:41:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-25"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-26",
+      "title": "The White Crow",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 26,
+      "createdAt": "2014-11-16T20:41:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-26"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-27",
+      "title": "Holy Sword",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 27,
+      "createdAt": "2014-11-16T20:41:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-27"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-28",
+      "title": "Invocation",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 28,
+      "createdAt": "2014-11-16T20:41:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-28"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-29",
+      "title": "The Edge of Imagination",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 29,
+      "createdAt": "2014-11-16T20:41:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-29"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-30",
+      "title": "Outbreak of War",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 30,
+      "createdAt": "2014-11-16T20:41:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-30"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-31",
+      "title": "Quitting As Maou",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 31,
+      "createdAt": "2014-11-16T20:41:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-31"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-32",
+      "title": "A Blue Wind Blowing Through",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 32,
+      "createdAt": "2014-11-16T20:41:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-32"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-33",
+      "title": "An Unexpected Union",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 33,
+      "createdAt": "2014-11-16T20:41:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-33"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-34",
+      "title": "The Holy Kingdom",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 34,
+      "createdAt": "2014-11-16T20:41:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-34"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-35",
+      "title": "The Unfulfilled Promise",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 35,
+      "createdAt": "2014-11-16T20:41:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-35"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-36",
+      "title": "The Power of Truth",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 36,
+      "createdAt": "2014-11-16T20:41:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-36"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-37",
+      "title": "Sad Howl",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 37,
+      "createdAt": "2014-11-16T20:41:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-37"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-38",
+      "title": "A Place to Return to",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 38,
+      "createdAt": "2014-11-16T20:41:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-38"
+    },
+    {
+      "id": "kyou-kara-maou-3rd-season-episode-39",
+      "title": "Until the Day We Can Meet Again",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4080-TcGSCwBQIN1q.jpg",
+      "number": 39,
+      "createdAt": "2014-11-16T20:42:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kyou-kara-maou-3rd-season-episode-39"
+    }
+  ]
+}

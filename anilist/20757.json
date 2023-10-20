@@ -1,0 +1,562 @@
+{
+  "id": "20757",
+  "title": {
+    "romaji": "Girlfriend (Kari)",
+    "english": "Girl Friend BETA",
+    "native": "ガールフレンド(仮)"
+  },
+  "malId": 24855,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "fS29q-Fcbo4",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/fS29q-Fcbo4/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20757-7XEajTJoKu8e.jpg",
+  "popularity": 9477,
+  "color": "#e45d93",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20757-7XEajTJoKu8e.jpg",
+  "description": "An anime adaptation of the mobile game \"Girlfriend (Kari)\", a game where the player has a girlfriend.",
+  "status": "Completed",
+  "releaseDate": 2014,
+  "startDate": {
+    "year": 2014,
+    "month": 10,
+    "day": 13
+  },
+  "endDate": {
+    "year": 2014,
+    "month": 12,
+    "day": 29
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 52,
+  "duration": 24,
+  "genres": [
+    "Slice of Life"
+  ],
+  "season": "FALL",
+  "studios": [
+    "SILVER LINK."
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 104937,
+      "malId": 37587,
+      "title": {
+        "romaji": "Lapis Re:LiGHTs",
+        "english": "Lapis Re:LiGHTs",
+        "native": "Lapis Re:LiGHTs（ラピスリライツ）",
+        "userPreferred": "Lapis Re:LiGHTs"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104937-2TM6AffYAvxM.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/104937-kZrHZnooNBNV.jpg",
+      "rating": 63,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 88878,
+      "role": "MAIN",
+      "name": {
+        "first": "Chloe",
+        "last": "Lemaire",
+        "full": "Chloe Lemaire",
+        "native": "クロエ・ルメール",
+        "userPreferred": "Chloe Lemaire"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/88878-cGuCsHaHpU7q.jpg",
+      "voiceActors": [
+        {
+          "id": 95115,
+          "language": "Japanese",
+          "name": {
+            "first": "Sakura",
+            "last": "Tange",
+            "full": "Sakura Tange",
+            "native": "丹下桜",
+            "userPreferred": "Sakura Tange"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95115-AtF7VsdIk51q.png"
+        }
+      ]
+    },
+    {
+      "id": 169017,
+      "role": "MAIN",
+      "name": {
+        "first": "Kokomi ",
+        "last": "Shiina",
+        "full": "Kokomi  Shiina",
+        "native": "椎名 心実",
+        "userPreferred": "Kokomi  Shiina"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b169017-LlBKlQIABFGc.jpg",
+      "voiceActors": [
+        {
+          "id": 101560,
+          "language": "Japanese",
+          "name": {
+            "first": "Satomi",
+            "last": "Satou",
+            "full": "Satomi Satou",
+            "native": "佐藤聡美",
+            "userPreferred": "Satomi Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101560-x0Va6GS2YMeH.png"
+        }
+      ]
+    },
+    {
+      "id": 174769,
+      "role": "MAIN",
+      "name": {
+        "first": "Akane",
+        "last": "Sakurai ",
+        "full": "Akane Sakurai ",
+        "native": "櫻井明音",
+        "userPreferred": "Akane Sakurai "
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b174769-e0NavqY3VH3w.jpg",
+      "voiceActors": [
+        {
+          "id": 95241,
+          "language": "Japanese",
+          "name": {
+            "first": "Rina",
+            "last": "Satou",
+            "full": "Rina Satou",
+            "native": "佐藤利奈",
+            "userPreferred": "Rina Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95241-4XvR64oguxwS.png"
+        }
+      ]
+    },
+    {
+      "id": 174770,
+      "role": "MAIN",
+      "name": {
+        "first": "Erena ",
+        "last": "Mochizuki",
+        "full": "Erena  Mochizuki",
+        "native": "望月エレナ",
+        "userPreferred": "Erena  Mochizuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b174770-UA75uwx4R3rN.jpg",
+      "voiceActors": [
+        {
+          "id": 103030,
+          "language": "Japanese",
+          "name": {
+            "first": "Hitomi",
+            "last": "Harada",
+            "full": "Hitomi Harada",
+            "native": "原田ひとみ",
+            "userPreferred": "Hitomi Harada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103030-CqmMNYO3QRCv.jpg"
+        }
+      ]
+    },
+    {
+      "id": 174771,
+      "role": "MAIN",
+      "name": {
+        "first": "Fumio ",
+        "last": "Murakami",
+        "full": "Fumio  Murakami",
+        "native": "村上文緒",
+        "userPreferred": "Fumio  Murakami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b174771-LXAMPYx2WUJX.jpg",
+      "voiceActors": [
+        {
+          "id": 95078,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaori",
+            "last": "Nazuka",
+            "full": "Kaori Nazuka",
+            "native": "名塚佳織",
+            "userPreferred": "Kaori Nazuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95078-tMm7zdlRNZ3P.jpg"
+        }
+      ]
+    },
+    {
+      "id": 273977,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Haruka",
+        "last": "Kazemachi",
+        "full": "Haruka Kazemachi",
+        "native": "風町陽歌",
+        "userPreferred": "Haruka Kazemachi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b273977-qrPQ2Q7CfM7P.jpg",
+      "voiceActors": [
+        {
+          "id": 95869,
+          "language": "Japanese",
+          "name": {
+            "first": "Saori",
+            "last": "Hayami",
+            "full": "Saori Hayami",
+            "native": "早見沙織",
+            "userPreferred": "Saori Hayami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95869-qCQ0EaWpq1QT.png"
+        }
+      ]
+    },
+    {
+      "id": 273978,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Haruko",
+        "last": "Yumesaki",
+        "full": "Haruko Yumesaki",
+        "native": "夢前春瑚",
+        "userPreferred": "Haruko Yumesaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b273978-A0a6jx8Lqo6k.jpg",
+      "voiceActors": [
+        {
+          "id": 105765,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Kayano",
+            "full": "Ai Kayano",
+            "native": "茅野愛衣",
+            "userPreferred": "Ai Kayano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105765-DDK94me8axVv.png"
+        }
+      ]
+    },
+    {
+      "id": 273979,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Risa",
+        "last": "Shinomiya",
+        "full": "Risa Shinomiya",
+        "native": "篠宮りさ",
+        "userPreferred": "Risa Shinomiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b273979-UBhMzkD64O04.jpg",
+      "voiceActors": [
+        {
+          "id": 102263,
+          "language": "Japanese",
+          "name": {
+            "first": "Youko",
+            "last": "Hikasa",
+            "full": "Youko Hikasa",
+            "native": "日笠陽子",
+            "userPreferred": "Youko Hikasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102263-aaPZtNXVUljW.jpg"
+        }
+      ]
+    },
+    {
+      "id": 273980,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Momoko",
+        "last": "Asahina",
+        "full": "Momoko Asahina",
+        "native": "朝比奈桃子",
+        "userPreferred": "Momoko Asahina"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b273980-QhyiCh3EhtCN.jpg",
+      "voiceActors": [
+        {
+          "id": 105981,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Ogura",
+            "full": "Yui Ogura",
+            "native": "小倉唯",
+            "userPreferred": "Yui Ogura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105981-CDMPx1Q79Aum.png"
+        }
+      ]
+    },
+    {
+      "id": 273981,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rei",
+        "last": "Shinonome",
+        "full": "Rei Shinonome",
+        "native": "東雲レイ",
+        "userPreferred": "Rei Shinonome"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b273981-pM9v60o5aJpH.jpg",
+      "voiceActors": [
+        {
+          "id": 95413,
+          "language": "Japanese",
+          "name": {
+            "first": "Eri",
+            "last": "Kitamura",
+            "full": "Eri Kitamura",
+            "native": "喜多村英梨",
+            "userPreferred": "Eri Kitamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95413-FwAIrc8Ishpt.png"
+        }
+      ]
+    },
+    {
+      "id": 202538,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Matsuri",
+        "last": "Kagami",
+        "full": "Matsuri Kagami",
+        "native": "加賀美茉莉",
+        "userPreferred": "Matsuri Kagami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b202538-kVQgMobcCpnC.jpg",
+      "voiceActors": [
+        {
+          "id": 95008,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Kugimiya",
+            "full": "Rie Kugimiya",
+            "native": "釘宮理恵",
+            "userPreferred": "Rie Kugimiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95008-2y0EeuSTHIri.png"
+        }
+      ]
+    },
+    {
+      "id": 300007,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Isuzu",
+        "last": "Shiranui",
+        "full": "Isuzu Shiranui",
+        "native": "不知火五十鈴",
+        "userPreferred": "Isuzu Shiranui"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b300007-qSWPFlJCVZE3.jpg",
+      "voiceActors": [
+        {
+          "id": 101686,
+          "language": "Japanese",
+          "name": {
+            "first": "Aoi",
+            "last": "Yuuki",
+            "full": "Aoi Yuuki",
+            "native": "悠木碧",
+            "userPreferred": "Aoi Yuuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101686-PTd0lQZMsmcv.png"
+        }
+      ]
+    },
+    {
+      "id": 209051,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mei",
+        "last": "Morizono",
+        "full": "Mei Morizono",
+        "native": "森園芽以",
+        "userPreferred": "Mei Morizono"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b209051-Ce6xCvhqzg3X.png",
+      "voiceActors": [
+        {
+          "id": 106236,
+          "language": "Japanese",
+          "name": {
+            "first": "Shiori",
+            "last": "Mikami",
+            "full": "Shiori Mikami",
+            "native": "三上枝織",
+            "userPreferred": "Shiori Mikami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106236-aGhlIhHPPtjc.png"
+        }
+      ]
+    },
+    {
+      "id": 87619,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Miss Monochrome",
+        "last": null,
+        "full": "Miss Monochrome",
+        "native": "ミス・モノクローム",
+        "userPreferred": "Miss Monochrome"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87619-KnHaX72Tqehn.jpg",
+      "voiceActors": [
+        {
+          "id": 95028,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Horie",
+            "full": "Yui Horie",
+            "native": "堀江由衣",
+            "userPreferred": "Yui Horie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95028-MHT1m3E5wGZx.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 87484,
+      "relationType": "OTHER",
+      "malId": 33808,
+      "title": {
+        "romaji": "Girlfriend (♪)",
+        "english": null,
+        "native": "ガールフレンド（♪）",
+        "userPreferred": "Girlfriend (♪)"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/87484-9N9Q4jEKVKPI.jpg",
+      "color": "#5daef1",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/87484-9N9Q4jEKVKPI.jpg",
+      "rating": 57
+    }
+  ],
+  "episodes": [
+    {
+      "id": "girlfriend-kari-episode-1",
+      "title": "Our First Promise",
+      "image": "https://media.kitsu.io/episodes/thumbnails/149247/original.jpg",
+      "number": 1,
+      "createdAt": "2014-10-15T05:35:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//girlfriend-kari-episode-1"
+    },
+    {
+      "id": "girlfriend-kari-episode-2",
+      "title": "Blue Melon Buns",
+      "image": "https://media.kitsu.io/episodes/thumbnails/149248/original.jpg",
+      "number": 2,
+      "createdAt": "2014-10-15T05:35:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//girlfriend-kari-episode-2"
+    },
+    {
+      "id": "girlfriend-kari-episode-3",
+      "title": "Cameras and Shortcake",
+      "image": "https://media.kitsu.io/episodes/thumbnails/149249/original.jpg",
+      "number": 3,
+      "createdAt": "2014-10-15T05:35:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//girlfriend-kari-episode-3"
+    },
+    {
+      "id": "girlfriend-kari-episode-4",
+      "title": "Cats and a Rainy Night",
+      "image": "https://media.kitsu.io/episodes/thumbnails/149250/original.jpg",
+      "number": 4,
+      "createdAt": "2014-10-15T05:35:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//girlfriend-kari-episode-4"
+    },
+    {
+      "id": "girlfriend-kari-episode-5",
+      "title": "Darjeeling with Everyone",
+      "image": "https://media.kitsu.io/episodes/thumbnails/149251/original.jpg",
+      "number": 5,
+      "createdAt": "2014-10-15T05:35:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//girlfriend-kari-episode-5"
+    },
+    {
+      "id": "girlfriend-kari-episode-6",
+      "title": "Sweet Bitter Potato",
+      "image": "https://media.kitsu.io/episodes/thumbnails/149252/original.jpg",
+      "number": 6,
+      "createdAt": "2014-10-15T05:35:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//girlfriend-kari-episode-6"
+    },
+    {
+      "id": "girlfriend-kari-episode-7",
+      "title": "Doggy & Scramble",
+      "image": "https://media.kitsu.io/episodes/thumbnails/149253/original.jpg",
+      "number": 7,
+      "createdAt": "2014-10-15T05:35:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//girlfriend-kari-episode-7"
+    },
+    {
+      "id": "girlfriend-kari-episode-8",
+      "title": "On the Other Side of the Cream Soda",
+      "image": "https://media.kitsu.io/episodes/thumbnails/149254/original.jpg",
+      "number": 8,
+      "createdAt": "2014-10-15T05:35:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//girlfriend-kari-episode-8"
+    },
+    {
+      "id": "girlfriend-kari-episode-9",
+      "title": "Evolutionary Girl",
+      "image": "https://media.kitsu.io/episodes/thumbnails/149255/original.jpg",
+      "number": 9,
+      "createdAt": "2014-10-15T05:35:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//girlfriend-kari-episode-9"
+    },
+    {
+      "id": "girlfriend-kari-episode-10",
+      "title": "Princess & Pride",
+      "image": "https://media.kitsu.io/episodes/thumbnails/149256/original.jpg",
+      "number": 10,
+      "createdAt": "2014-10-15T05:35:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//girlfriend-kari-episode-10"
+    },
+    {
+      "id": "girlfriend-kari-episode-11",
+      "title": "Goodbye à la Mode",
+      "image": "https://media.kitsu.io/episodes/thumbnails/149257/original.jpg",
+      "number": 11,
+      "createdAt": "2014-10-15T05:35:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//girlfriend-kari-episode-11"
+    },
+    {
+      "id": "girlfriend-kari-episode-12",
+      "title": "Girlfriend xxx",
+      "image": "https://media.kitsu.io/episodes/thumbnails/149258/original.jpg",
+      "number": 12,
+      "createdAt": "2014-10-15T05:35:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//girlfriend-kari-episode-12"
+    }
+  ]
+}

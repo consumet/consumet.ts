@@ -1,0 +1,91 @@
+{
+  "id": "102576",
+  "title": {
+    "romaji": "Wangu Xian Qiong 2",
+    "english": null,
+    "native": "万古仙穹 第二季"
+  },
+  "malId": 37294,
+  "synonyms": [
+    "Everlasting Immortal Firmament 2",
+    "Ancient Celestial Firmament 2",
+    "Ancient Divine Pinnacle 2",
+    "The Ancient Welkin 2"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "CN",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102576-nVpg3FQ26rKn.png",
+  "popularity": 442,
+  "color": "#ffbb35",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102576-nVpg3FQ26rKn.png",
+  "description": "The second season of <i>Wangu Xian Qiong</i>",
+  "status": "Completed",
+  "releaseDate": 2018,
+  "startDate": {
+    "year": 2018,
+    "month": 3,
+    "day": 15
+  },
+  "endDate": {
+    "year": 2018,
+    "month": 5,
+    "day": 31
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 55,
+  "duration": 16,
+  "genres": [
+    "Adventure",
+    "Comedy",
+    "Fantasy"
+  ],
+  "season": null,
+  "studios": [
+    "ASK Animation Studio"
+  ],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [],
+  "characters": [],
+  "relations": [
+    {
+      "id": 102575,
+      "relationType": "PREQUEL",
+      "malId": 36148,
+      "title": {
+        "romaji": "Wangu Xian Qiong",
+        "english": null,
+        "native": "万古仙穹",
+        "userPreferred": "Wangu Xian Qiong"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102575-R7MDsOQ8jdV6.png",
+      "color": "#865028",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102575-R7MDsOQ8jdV6.png",
+      "rating": 63
+    },
+    {
+      "id": 114111,
+      "relationType": "SEQUEL",
+      "malId": 39572,
+      "title": {
+        "romaji": "Wangu Xian Qiong 3",
+        "english": null,
+        "native": "万古仙穹 第三季",
+        "userPreferred": "Wangu Xian Qiong 3"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114111-cRz8RtlhBbOR.png",
+      "color": "#feae50",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114111-cRz8RtlhBbOR.png",
+      "rating": 62
+    }
+  ],
+  "episodes": []
+}

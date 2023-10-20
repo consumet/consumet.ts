@@ -1,0 +1,1006 @@
+{
+  "id": "825",
+  "title": {
+    "romaji": "King of Fighters: Another Day",
+    "english": null,
+    "native": "ザ・キング・オブ・ファイターズ アナザーデイ"
+  },
+  "malId": 825,
+  "synonyms": [
+    "KOF"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b825-1JmwDIQkfNZF.jpg",
+  "popularity": 1835,
+  "color": "#f1c993",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b825-1JmwDIQkfNZF.jpg",
+  "description": "The four episodes are set in Southtown, the imaginary city well known to all fans as the stage of numerous death matches throughout the KOF series. Many past heroes of the saga make their appearance here, and the four plots intertwine to create a large-scale drama, that is also linked to the story of KOF Maximum Impact 2. ",
+  "status": "Completed",
+  "releaseDate": 2005,
+  "startDate": {
+    "year": 2005,
+    "month": 12,
+    "day": 2
+  },
+  "endDate": {
+    "year": 2006,
+    "month": 3,
+    "day": 3
+  },
+  "totalEpisodes": 4,
+  "currentEpisode": 4,
+  "rating": 56,
+  "duration": 10,
+  "genres": [
+    "Adventure",
+    "Drama"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "Production I.G"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 979,
+      "malId": 979,
+      "title": {
+        "romaji": "Street Fighter ZERO: THE ANIMATION",
+        "english": "Street Fighter Alpha",
+        "native": "ストリートファイターZERO - THE ANIMATION -",
+        "userPreferred": "Street Fighter ZERO: THE ANIMATION"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx979-xmxAyIxWBSld.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx979-xmxAyIxWBSld.png",
+      "rating": 60,
+      "type": "OVA"
+    },
+    {
+      "id": 950,
+      "malId": 950,
+      "title": {
+        "romaji": "Street Fighter ZERO: Generations",
+        "english": "Street Fighter Alpha: Generations",
+        "native": "ストリートファイターZERO: ジェネレーションズ",
+        "userPreferred": "Street Fighter ZERO: Generations"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx950-xFgkUWzN82Dv.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/950-QerAIxhF18Br.jpg",
+      "rating": 59,
+      "type": "OVA"
+    },
+    {
+      "id": 1362,
+      "malId": 1362,
+      "title": {
+        "romaji": "Street Fighter II: The Movie",
+        "english": "Street Fighter II: The Animated Movie",
+        "native": "ストリートファイターII",
+        "userPreferred": "Street Fighter II: The Movie"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1362-Z5U3WEbo0Q6H.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1362-nHJkSyx5rOPr.jpg",
+      "rating": 67,
+      "type": "MOVIE"
+    }
+  ],
+  "characters": [
+    {
+      "id": 15234,
+      "role": "MAIN",
+      "name": {
+        "first": "K'",
+        "last": null,
+        "full": "K'",
+        "native": null,
+        "userPreferred": "K'"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b15234-YbNWB6OPMFzo.jpg",
+      "voiceActors": [
+        {
+          "id": 101244,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuki",
+            "last": "Matsuda",
+            "full": "Yuki Matsuda",
+            "native": "松田佑貴",
+            "userPreferred": "Yuki Matsuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101244-JTmUPFXIY5q2.png"
+        },
+        {
+          "id": 145321,
+          "language": "English",
+          "name": {
+            "first": "Andrew",
+            "last": "Scott",
+            "full": "Andrew Scott",
+            "native": null,
+            "userPreferred": "Andrew Scott"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 109819,
+          "language": "Korean",
+          "name": {
+            "first": "Seung jun",
+            "last": "Kim",
+            "full": "Seung jun Kim",
+            "native": "승준 김",
+            "userPreferred": "Seung jun Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14819.jpg"
+        }
+      ]
+    },
+    {
+      "id": 145316,
+      "role": "MAIN",
+      "name": {
+        "first": "Soware",
+        "last": "Meira",
+        "full": "Soware Meira",
+        "native": "メイラ・ソワレ",
+        "userPreferred": "Soware Meira"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 107622,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouji",
+            "last": "Haramaki",
+            "full": "Kouji Haramaki",
+            "native": "服巻浩司",
+            "userPreferred": "Kouji Haramaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12622.jpg"
+        },
+        {
+          "id": 145317,
+          "language": "English",
+          "name": {
+            "first": "Ed",
+            "last": "Bishop",
+            "full": "Ed Bishop",
+            "native": null,
+            "userPreferred": "Ed Bishop"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 145319,
+      "role": "MAIN",
+      "name": {
+        "first": "Alba",
+        "last": "Meira",
+        "full": "Alba Meira",
+        "native": "メイラ・アルバ",
+        "userPreferred": "Alba Meira"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 96385,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuki",
+            "last": "Sato",
+            "full": "Yuki Sato",
+            "native": "佑暉佐藤",
+            "userPreferred": "Yuki Sato"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1385.jpg"
+        },
+        {
+          "id": 145320,
+          "language": "English",
+          "name": {
+            "first": "Jayson",
+            "last": "Wooley",
+            "full": "Jayson Wooley",
+            "native": null,
+            "userPreferred": "Jayson Wooley"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32989,
+      "role": "MAIN",
+      "name": {
+        "first": "Rock",
+        "last": "Howard",
+        "full": "Rock Howard",
+        "native": "ロック・ハワード",
+        "userPreferred": "Rock Howard"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32989.jpg",
+      "voiceActors": [
+        {
+          "id": 95576,
+          "language": "Japanese",
+          "name": {
+            "first": "Eiji",
+            "last": "Takemoto",
+            "full": "Eiji Takemoto",
+            "native": "竹本英史",
+            "userPreferred": "Eiji Takemoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95576-daJz6YMxGaX6.png"
+        },
+        {
+          "id": 145329,
+          "language": "English",
+          "name": {
+            "first": "Mike",
+            "last": "Lane",
+            "full": "Mike Lane",
+            "native": null,
+            "userPreferred": "Mike Lane"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 109857,
+          "language": "Korean",
+          "name": {
+            "first": "Tae Yeol",
+            "last": "Jeon",
+            "full": "Tae Yeol Jeon",
+            "native": "태열 전",
+            "userPreferred": "Tae Yeol Jeon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14857.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10411,
+      "role": "MAIN",
+      "name": {
+        "first": "Iori",
+        "last": "Yagami",
+        "full": "Iori Yagami",
+        "native": "八神庵",
+        "userPreferred": "Iori Yagami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10411.jpg",
+      "voiceActors": [
+        {
+          "id": 96243,
+          "language": "Japanese",
+          "name": {
+            "first": "Kunihiko",
+            "last": "Yasui",
+            "full": "Kunihiko Yasui",
+            "native": "安井邦彦",
+            "userPreferred": "Kunihiko Yasui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96243-8Dh4B8TraUJn.jpg"
+        },
+        {
+          "id": 145318,
+          "language": "English",
+          "name": {
+            "first": "Eric",
+            "last": "Summerer",
+            "full": "Eric Summerer",
+            "native": null,
+            "userPreferred": "Eric Summerer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 109933,
+          "language": "Korean",
+          "name": {
+            "first": "Myeong Jun",
+            "last": "Jeong",
+            "full": "Myeong Jun Jeong",
+            "native": "명준 정",
+            "userPreferred": "Myeong Jun Jeong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14933.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6295,
+      "role": "MAIN",
+      "name": {
+        "first": "Kyo",
+        "last": "Kusanagi",
+        "full": "Kyo Kusanagi",
+        "native": "草薙京",
+        "userPreferred": "Kyo Kusanagi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6295.jpg",
+      "voiceActors": [
+        {
+          "id": 96473,
+          "language": "Japanese",
+          "name": {
+            "first": "Nonaka",
+            "last": "Masahiro",
+            "full": "Nonaka Masahiro",
+            "native": "野中 政宏",
+            "userPreferred": "Nonaka Masahiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1473.jpg"
+        },
+        {
+          "id": 145315,
+          "language": "English",
+          "name": {
+            "first": "Andrew",
+            "last": "Roth",
+            "full": "Andrew Roth",
+            "native": null,
+            "userPreferred": "Andrew Roth"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 109853,
+          "language": "Korean",
+          "name": {
+            "first": "Yong-Woo",
+            "last": "Shin",
+            "full": "Yong-Woo Shin",
+            "native": "신용우",
+            "userPreferred": "Yong-Woo Shin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109853-j96EqRUBocBE.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13388,
+      "role": "MAIN",
+      "name": {
+        "first": "Ash",
+        "last": "Crimson",
+        "full": "Ash Crimson",
+        "native": "アッシュ・クリムゾン",
+        "userPreferred": "Ash Crimson"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b13388-me71FxiEYbJY.jpg",
+      "voiceActors": [
+        {
+          "id": 101243,
+          "language": "Japanese",
+          "name": {
+            "first": "Sonosuke",
+            "last": "Nagashiro",
+            "full": "Sonosuke Nagashiro",
+            "native": "聡之介 長代",
+            "userPreferred": "Sonosuke Nagashiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6243.jpg"
+        },
+        {
+          "id": 145335,
+          "language": "English",
+          "name": {
+            "first": "Duke",
+            "last": "Clement",
+            "full": "Duke Clement",
+            "native": null,
+            "userPreferred": "Duke Clement"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 52407,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Maxima",
+        "last": null,
+        "full": "Maxima",
+        "native": "マキシマ",
+        "userPreferred": "Maxima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/52407.jpg",
+      "voiceActors": [
+        {
+          "id": 95020,
+          "language": "Japanese",
+          "name": {
+            "first": "Katsuyuki",
+            "last": "Konishi",
+            "full": "Katsuyuki Konishi",
+            "native": "小西克幸",
+            "userPreferred": "Katsuyuki Konishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95020-uOJO2IlwpcX0.png"
+        },
+        {
+          "id": 145324,
+          "language": "English",
+          "name": {
+            "first": "Mike",
+            "last": "Jarmus",
+            "full": "Mike Jarmus",
+            "native": null,
+            "userPreferred": "Mike Jarmus"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19000,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kula",
+        "last": "Diamond",
+        "full": "Kula Diamond",
+        "native": "クーラ・ダイアモン",
+        "userPreferred": "Kula Diamond"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/19000.jpg",
+      "voiceActors": [
+        {
+          "id": 95298,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Kakazu",
+            "full": "Yumi Kakazu",
+            "native": "かかずゆみ",
+            "userPreferred": "Yumi Kakazu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95298-wWENaJp9ERf7.jpg"
+        },
+        {
+          "id": 109929,
+          "language": "Korean",
+          "name": {
+            "first": "Seo Yeong",
+            "last": "Kim",
+            "full": "Seo Yeong Kim",
+            "native": "서영 김",
+            "userPreferred": "Seo Yeong Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14929.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6819,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Terry",
+        "last": "Bogard",
+        "full": "Terry Bogard",
+        "native": "テリー・ボガード",
+        "userPreferred": "Terry Bogard"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6819-IiqZ44xi4WSY.jpg",
+      "voiceActors": [
+        {
+          "id": 104442,
+          "language": "Japanese",
+          "name": {
+            "first": "Satoshi",
+            "last": "Hashimoto",
+            "full": "Satoshi Hashimoto",
+            "native": "橋本さとし",
+            "userPreferred": "Satoshi Hashimoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104442-f6bD2QBAT1vX.png"
+        },
+        {
+          "id": 145334,
+          "language": "English",
+          "name": {
+            "first": "Tony",
+            "last": "Carroll",
+            "full": "Tony Carroll",
+            "native": null,
+            "userPreferred": "Tony Carroll"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 109777,
+          "language": "Korean",
+          "name": {
+            "first": "Sang-Hyeon",
+            "last": "Eom",
+            "full": "Sang-Hyeon Eom",
+            "native": "엄상현",
+            "userPreferred": "Sang-Hyeon Eom"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14777.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21032,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Athena",
+        "last": "Asamiya",
+        "full": "Athena Asamiya",
+        "native": "麻宮アテナ",
+        "userPreferred": "Athena Asamiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b21032-NNcHwnbsQKSH.png",
+      "voiceActors": [
+        {
+          "id": 95439,
+          "language": "Japanese",
+          "name": {
+            "first": "Haruna",
+            "last": "Ikezawa",
+            "full": "Haruna Ikezawa",
+            "native": "池澤春菜",
+            "userPreferred": "Haruna Ikezawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95439-8EqzBBucWWvE.png"
+        },
+        {
+          "id": 145323,
+          "language": "English",
+          "name": {
+            "first": "Lily",
+            "last": "Kong",
+            "full": "Lily Kong",
+            "native": null,
+            "userPreferred": "Lily Kong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 109835,
+          "language": "Korean",
+          "name": {
+            "first": "Hyeon-Jin",
+            "last": "Lee",
+            "full": "Hyeon-Jin Lee",
+            "native": "이현진",
+            "userPreferred": "Hyeon-Jin Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14835.jpg"
+        }
+      ]
+    },
+    {
+      "id": 8873,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mai",
+        "last": "Shiranui",
+        "full": "Mai Shiranui",
+        "native": "不知火舞",
+        "userPreferred": "Mai Shiranui"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b8873-1Leh3Joqa8nd.png",
+      "voiceActors": [
+        {
+          "id": 105171,
+          "language": "Japanese",
+          "name": {
+            "first": "Akoya",
+            "last": "Sogi",
+            "full": "Akoya Sogi",
+            "native": "亜古弥曽木",
+            "userPreferred": "Akoya Sogi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10171.jpg"
+        },
+        {
+          "id": 145336,
+          "language": "English",
+          "name": {
+            "first": "Sheryl",
+            "last": "Stanley",
+            "full": "Sheryl Stanley",
+            "native": null,
+            "userPreferred": "Sheryl Stanley"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 109851,
+          "language": "Korean",
+          "name": {
+            "first": "Jeong Mi",
+            "last": "Bae",
+            "full": "Jeong Mi Bae",
+            "native": "정미 배",
+            "userPreferred": "Jeong Mi Bae"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14851.jpg"
+        }
+      ]
+    },
+    {
+      "id": 145322,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lien",
+        "last": "Neville",
+        "full": "Lien Neville",
+        "native": "ネヴィル・リアン",
+        "userPreferred": "Lien Neville"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 107660,
+          "language": "Japanese",
+          "name": {
+            "first": "Fumiko",
+            "last": "Inoue",
+            "full": "Fumiko Inoue",
+            "native": "井上富美子",
+            "userPreferred": "Fumiko Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12660.jpg"
+        },
+        {
+          "id": 145325,
+          "language": "English",
+          "name": {
+            "first": "Claire",
+            "last": "Caponigro",
+            "full": "Claire Caponigro",
+            "native": null,
+            "userPreferred": "Claire Caponigro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 52417,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ralf",
+        "last": "Jones",
+        "full": "Ralf Jones",
+        "native": "ラルフ・ジョーンズ",
+        "userPreferred": "Ralf Jones"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/52417.jpg",
+      "voiceActors": [
+        {
+          "id": 145330,
+          "language": "Japanese",
+          "name": {
+            "first": "Monster",
+            "last": "Maezuka",
+            "full": "Monster Maezuka",
+            "native": "前塚モンスター",
+            "userPreferred": "Monster Maezuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n145330-y74FIaqoudHk.jpg"
+        },
+        {
+          "id": 145328,
+          "language": "English",
+          "name": {
+            "first": "Scott",
+            "last": "Casey",
+            "full": "Scott Casey",
+            "native": null,
+            "userPreferred": "Scott Casey"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 109753,
+          "language": "Korean",
+          "name": {
+            "first": "Su Jin",
+            "last": "Kang",
+            "full": "Su Jin Kang",
+            "native": "수진강",
+            "userPreferred": "Su Jin Kang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109753-qqOQlkfARIzX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 145331,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Luise",
+        "last": "Meyrink",
+        "full": "Luise Meyrink",
+        "native": "マイリンク・ルイーゼ",
+        "userPreferred": "Luise Meyrink"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 145332,
+          "language": "English",
+          "name": {
+            "first": "Katrin",
+            "last": "Biemann",
+            "full": "Katrin Biemann",
+            "native": null,
+            "userPreferred": "Katrin Biemann"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 52411,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Leona",
+        "last": "Heidern",
+        "full": "Leona Heidern",
+        "native": "レオナ・ハイデルン",
+        "userPreferred": "Leona Heidern"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b52411-BUqLCEMeJvEq.png",
+      "voiceActors": [
+        {
+          "id": 95788,
+          "language": "Korean",
+          "name": {
+            "first": "Yong Sin",
+            "last": "Lee",
+            "full": "Yong Sin Lee",
+            "native": "용신 이",
+            "userPreferred": "Yong Sin Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95788-6EPSNNAjYDly.jpg"
+        }
+      ]
+    },
+    {
+      "id": 52415,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Clark",
+        "last": "Still",
+        "full": "Clark Still",
+        "native": "クラーク・スティル",
+        "userPreferred": "Clark Still"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/52415.jpg",
+      "voiceActors": [
+        {
+          "id": 145337,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshinori",
+            "last": "Shima",
+            "full": "Yoshinori Shima",
+            "native": "島よしのり",
+            "userPreferred": "Yoshinori Shima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 145333,
+          "language": "English",
+          "name": {
+            "first": "Sean",
+            "last": "Michaels",
+            "full": "Sean Michaels",
+            "native": null,
+            "userPreferred": "Sean Michaels"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 109757,
+          "language": "Korean",
+          "name": {
+            "first": "Won Hyeong",
+            "last": "Choi",
+            "full": "Won Hyeong Choi",
+            "native": "원형 최",
+            "userPreferred": "Won Hyeong Choi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14757.jpg"
+        }
+      ]
+    },
+    {
+      "id": 52405,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Billy",
+        "last": "Kane",
+        "full": "Billy Kane",
+        "native": "ビリー・カーン",
+        "userPreferred": "Billy Kane"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b52405-PNnGMwKnnRrU.png",
+      "voiceActors": [
+        {
+          "id": 145326,
+          "language": "Japanese",
+          "name": {
+            "first": "Seijirou",
+            "last": null,
+            "full": "Seijirou",
+            "native": "せいじろう",
+            "userPreferred": "Seijirou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 145327,
+          "language": "English",
+          "name": {
+            "first": "Marc",
+            "last": "Donovan",
+            "full": "Marc Donovan",
+            "native": null,
+            "userPreferred": "Marc Donovan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 109833,
+          "language": "Korean",
+          "name": {
+            "first": "Gyeng Su",
+            "last": "Hyeon",
+            "full": "Gyeng Su Hyeon",
+            "native": "경수 현",
+            "userPreferred": "Gyeng Su Hyeon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14833.jpg"
+        }
+      ]
+    },
+    {
+      "id": 52413,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Elisabeth",
+        "last": "Blanctorche",
+        "full": "Elisabeth Blanctorche",
+        "native": "エリザベート・ブラントルシュ",
+        "userPreferred": "Elisabeth Blanctorche"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/52413.jpg",
+      "voiceActors": [
+        {
+          "id": 109921,
+          "language": "Korean",
+          "name": {
+            "first": "Seon-Yeong",
+            "last": "Park",
+            "full": "Seon-Yeong Park",
+            "native": "박선영",
+            "userPreferred": "Seon-Yeong Park"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14921.jpg"
+        }
+      ]
+    },
+    {
+      "id": 52409,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Whip",
+        "last": null,
+        "full": "Whip",
+        "native": null,
+        "userPreferred": "Whip"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b52409-fnVChN1iP3VL.png",
+      "voiceActors": [
+        {
+          "id": 109927,
+          "language": "Korean",
+          "name": {
+            "first": "Seon Hye",
+            "last": "Kim",
+            "full": "Seon Hye Kim",
+            "native": "선혜 김",
+            "userPreferred": "Seon Hye Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14927.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 99934,
+      "relationType": "ALTERNATIVE",
+      "malId": 35204,
+      "title": {
+        "romaji": "Quanhuang Mingyun",
+        "english": null,
+        "native": "拳皇命运",
+        "userPreferred": "Quanhuang Mingyun"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99934-HIwrhaD4omJd.png",
+      "color": "#f1a128",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99934-6xTdPbQPS2cj.jpg",
+      "rating": 62
+    },
+    {
+      "id": 33001,
+      "relationType": "ADAPTATION",
+      "malId": 3001,
+      "title": {
+        "romaji": "The King of Fighters: Kyo",
+        "english": null,
+        "native": "ザ・キング・オブ・ファイターズ京",
+        "userPreferred": "The King of Fighters: Kyo"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx33001-nkumvAyKEGer.png",
+      "color": "#e4a150",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx33001-nkumvAyKEGer.png",
+      "rating": 61
+    }
+  ],
+  "episodes": [
+    {
+      "id": "king-of-fighters-another-day-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b825-1JmwDIQkfNZF.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//king-of-fighters-another-day-episode-1"
+    },
+    {
+      "id": "king-of-fighters-another-day-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b825-1JmwDIQkfNZF.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//king-of-fighters-another-day-episode-2"
+    },
+    {
+      "id": "king-of-fighters-another-day-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b825-1JmwDIQkfNZF.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//king-of-fighters-another-day-episode-3"
+    },
+    {
+      "id": "king-of-fighters-another-day-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b825-1JmwDIQkfNZF.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//king-of-fighters-another-day-episode-4"
+    }
+  ]
+}

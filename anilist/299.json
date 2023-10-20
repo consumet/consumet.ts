@@ -1,0 +1,540 @@
+{
+  "id": "299",
+  "title": {
+    "romaji": ".hack//Liminality",
+    "english": ".hack//Liminality",
+    "native": ".hack//Liminality"
+  },
+  "malId": 299,
+  "synonyms": [
+    "Hack OVA"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/299.jpg",
+  "popularity": 4758,
+  "color": "#e4bb93",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/299.jpg",
+  "description": "While playing the newly released MMORPG &lsquo;The World&rsquo;, Minase Mai and Tomonari Kasumi collapsed in the real world and were sent to the hospital after hearing a mysterious sound. Only Mai had recovered while her friend Kasumi had slipped into a mysterious coma. Mai is later approached by the creator of &lsquo;The World&rsquo;, Tokuoka Junichiro, who unveils to her that, just like her friend, six other players across the country had also collapsed while playing &lsquo;The World&rsquo; and are now in mysterious comas. What exactly is &lsquo;The World&rsquo;, what is this mysterious sound Mai keeps on hearing, and why are people slipping into comas from this game? Minase, Junichiro and their acquaintances set off to get to the bottom of this problem before any further harm happens.<br><br>\n[Written by MAL Rewrite]",
+  "status": "Completed",
+  "releaseDate": 2002,
+  "startDate": {
+    "year": 2002,
+    "month": 6,
+    "day": 20
+  },
+  "endDate": {
+    "year": 2003,
+    "month": 4,
+    "day": 12
+  },
+  "totalEpisodes": 4,
+  "currentEpisode": 4,
+  "rating": 61,
+  "duration": 33,
+  "genres": [
+    "Mystery",
+    "Sci-Fi"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Bee Train"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 339,
+      "malId": 339,
+      "title": {
+        "romaji": "serial experiments lain",
+        "english": "Serial Experiments Lain",
+        "native": "serial experiments lain",
+        "userPreferred": "serial experiments lain"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx339-4438BQupScYO.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/339-Lh0tuuwRLRgI.jpg",
+      "rating": 80,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 10264,
+      "role": "MAIN",
+      "name": {
+        "first": "Kyoko",
+        "last": "Tohno",
+        "full": "Kyoko Tohno",
+        "native": "遠野京子",
+        "userPreferred": "Kyoko Tohno"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10264.jpg",
+      "voiceActors": [
+        {
+          "id": 95080,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Hisakawa",
+            "full": "Aya Hisakawa",
+            "native": "久川綾",
+            "userPreferred": "Aya Hisakawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95080-7dOAcrnsSghI.jpg"
+        },
+        {
+          "id": 104927,
+          "language": "English",
+          "name": {
+            "first": "Jane",
+            "last": "Lanier",
+            "full": "Jane Lanier",
+            "native": null,
+            "userPreferred": "Jane Lanier"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10261,
+      "role": "MAIN",
+      "name": {
+        "first": "Mai",
+        "last": "Minase",
+        "full": "Mai Minase",
+        "native": null,
+        "userPreferred": "Mai Minase"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10261.jpg",
+      "voiceActors": [
+        {
+          "id": 95149,
+          "language": "Japanese",
+          "name": {
+            "first": "Sanae",
+            "last": "Kobayashi",
+            "full": "Sanae Kobayashi",
+            "native": "小林沙苗",
+            "userPreferred": "Sanae Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95149-xNDmN92Feq8y.png"
+        },
+        {
+          "id": 95085,
+          "language": "English",
+          "name": {
+            "first": "Michelle",
+            "last": "Ruff",
+            "full": "Michelle Ruff",
+            "native": null,
+            "userPreferred": "Michelle Ruff"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95085-zJmU0x2NLr3j.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10263,
+      "role": "MAIN",
+      "name": {
+        "first": "Yuki",
+        "last": "Aihara",
+        "full": "Yuki Aihara",
+        "native": "相原有紀",
+        "userPreferred": "Yuki Aihara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10263.jpg",
+      "voiceActors": [
+        {
+          "id": 95135,
+          "language": "Japanese",
+          "name": {
+            "first": "Saeko",
+            "last": "Chiba",
+            "full": "Saeko Chiba",
+            "native": "千葉紗子",
+            "userPreferred": "Saeko Chiba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95135-zptQ6sZjTSU9.png"
+        },
+        {
+          "id": 95163,
+          "language": "English",
+          "name": {
+            "first": "Sherry",
+            "last": "Lynn",
+            "full": "Sherry Lynn",
+            "native": null,
+            "userPreferred": "Sherry Lynn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95163-q7DJQ5g1XEPJ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18974,
+      "role": "MAIN",
+      "name": {
+        "first": "Junichiro",
+        "last": "Tokuoka",
+        "full": "Junichiro Tokuoka",
+        "native": "徳岡 純一郎",
+        "userPreferred": "Junichiro Tokuoka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18974.jpg",
+      "voiceActors": [
+        {
+          "id": 95179,
+          "language": "Japanese",
+          "name": {
+            "first": "Masashi",
+            "last": "Ebara",
+            "full": "Masashi Ebara",
+            "native": "江原正士",
+            "userPreferred": "Masashi Ebara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95179-ZXxATX9muGcD.png"
+        },
+        {
+          "id": 95353,
+          "language": "English",
+          "name": {
+            "first": "Jamieson",
+            "last": "Price",
+            "full": "Jamieson Price",
+            "native": null,
+            "userPreferred": "Jamieson K. Price"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95353-Oe3Ehd7Yo37k.png"
+        }
+      ]
+    },
+    {
+      "id": 5846,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Harald",
+        "last": "Hoerwick",
+        "full": "Harald Hoerwick",
+        "native": "ハロルド・ヒューイック",
+        "userPreferred": "Harald Hoerwick"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5846.jpg",
+      "voiceActors": [
+        {
+          "id": 95346,
+          "language": "Japanese",
+          "name": {
+            "first": "Takumi",
+            "last": "Yamazaki",
+            "full": "Takumi Yamazaki",
+            "native": "山崎たくみ",
+            "userPreferred": "Takumi Yamazaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95346-YNXEZtXvJttr.png"
+        },
+        {
+          "id": 95019,
+          "language": "English",
+          "name": {
+            "first": "Crispin",
+            "last": "Freeman",
+            "full": "Crispin Freeman",
+            "native": null,
+            "userPreferred": "Crispin Freeman"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95019-o7SDOiPsPXKs.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28283,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaoru",
+        "last": "Asaba",
+        "full": "Kaoru Asaba",
+        "native": "浅羽",
+        "userPreferred": "Kaoru Asaba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28283.jpg",
+      "voiceActors": [
+        {
+          "id": 95435,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Touma",
+            "full": "Yumi Touma",
+            "native": "冬馬由美",
+            "userPreferred": "Yumi Touma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95435-REiTyMQqIfH4.jpg"
+        },
+        {
+          "id": 95269,
+          "language": "English",
+          "name": {
+            "first": "Mary Elizabeth",
+            "last": "McGlynn",
+            "full": "Mary Elizabeth McGlynn",
+            "native": null,
+            "userPreferred": "Mary Elizabeth McGlynn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95269-PhQ87wkVzLBb.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28285,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Masaya",
+        "last": "Makino",
+        "full": "Masaya Makino",
+        "native": "牧野雅弥",
+        "userPreferred": "Masaya Makino"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28285.jpg",
+      "voiceActors": [
+        {
+          "id": 95030,
+          "language": "Japanese",
+          "name": {
+            "first": "Souichirou",
+            "last": "Hoshi",
+            "full": "Souichirou Hoshi",
+            "native": "保志総一朗",
+            "userPreferred": "Souichirou Hoshi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95030-kj64Uy6Zr3bq.png"
+        },
+        {
+          "id": 104928,
+          "language": "English",
+          "name": {
+            "first": "Kirk",
+            "last": "Baily",
+            "full": "Kirk Baily",
+            "native": null,
+            "userPreferred": "Kirk William Baily"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28284,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Miho",
+        "last": "Aihara",
+        "full": "Miho Aihara",
+        "native": "相原美穂",
+        "userPreferred": "Miho Aihara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28284.jpg",
+      "voiceActors": [
+        {
+          "id": 95438,
+          "language": "Japanese",
+          "name": {
+            "first": "Emi",
+            "last": "Shinohara",
+            "full": "Emi Shinohara",
+            "native": "篠原恵美",
+            "userPreferred": "Emi Shinohara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95438-dNxTPna4mfhR.jpg"
+        },
+        {
+          "id": 104905,
+          "language": "English",
+          "name": {
+            "first": "Annie",
+            "last": "Heller",
+            "full": "Annie Heller",
+            "native": null,
+            "userPreferred": "Annie Heller"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28286,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tomonari",
+        "last": "Kasumi",
+        "full": "Tomonari Kasumi",
+        "native": "香住 智成",
+        "userPreferred": "Tomonari Kasumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28286.jpg",
+      "voiceActors": [
+        {
+          "id": 95079,
+          "language": "Japanese",
+          "name": {
+            "first": "Takahiro",
+            "last": "Sakurai",
+            "full": "Takahiro Sakurai",
+            "native": "櫻井孝宏",
+            "userPreferred": "Takahiro Sakurai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95079-MdbWTLxPUvFf.jpg"
+        },
+        {
+          "id": 104345,
+          "language": "English",
+          "name": {
+            "first": "Anthony",
+            "last": "Pulcini",
+            "full": "Anthony Pulcini",
+            "native": null,
+            "userPreferred": "Anthony Pulcini"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9345.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28282,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ichiro",
+        "last": "Sato",
+        "full": "Ichiro Sato",
+        "native": "佐藤一郎",
+        "userPreferred": "Ichiro Sato"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28282.jpg",
+      "voiceActors": [
+        {
+          "id": 95129,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshihiko",
+            "last": "Seki",
+            "full": "Toshihiko Seki",
+            "native": "関俊彦",
+            "userPreferred": "Toshihiko Seki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95129-AAL7kfwAPpgR.jpg"
+        },
+        {
+          "id": 96544,
+          "language": "English",
+          "name": {
+            "first": "Michael",
+            "last": "Reisz",
+            "full": "Michael Reisz",
+            "native": null,
+            "userPreferred": "Michael Reisz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96544-GBjc928knN51.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 298,
+      "relationType": "SEQUEL",
+      "malId": 298,
+      "title": {
+        "romaji": ".hack//Tasogare no Udewa Densetsu",
+        "english": ".hack//Legend Of The Twilight",
+        "native": ".hack//黄昏の腕輪伝説",
+        "userPreferred": ".hack//Tasogare no Udewa Densetsu"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx298-4NawsRDRVaHR.jpg",
+      "color": "#e4bb5d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx298-4NawsRDRVaHR.jpg",
+      "rating": 61
+    },
+    {
+      "id": 48,
+      "relationType": "PREQUEL",
+      "malId": 48,
+      "title": {
+        "romaji": ".hack//SIGN",
+        "english": ".hack//Sign",
+        "native": ".hack//SIGN",
+        "userPreferred": ".hack//SIGN"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx48-YKktSuM10DRK.png",
+      "color": "#5d1ad6",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/48-IaBXY5cf1ZpE.jpg",
+      "rating": 65
+    },
+    {
+      "id": 31355,
+      "relationType": "PARENT",
+      "malId": 1355,
+      "title": {
+        "romaji": ".hack//Another Birth",
+        "english": ".hack//Another Birth",
+        "native": ".hack//もうひとつの誕生",
+        "userPreferred": ".hack//Another Birth"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx31355-E5KGZhMCWqMr.png",
+      "color": "#fe9350",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx31355-E5KGZhMCWqMr.png",
+      "rating": 73
+    }
+  ],
+  "episodes": [
+    {
+      "id": "hackliminality-episode-1",
+      "title": "In the Case of Mai Minase",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/299.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:21:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hackliminality-episode-1"
+    },
+    {
+      "id": "hackliminality-episode-2",
+      "title": "In the Case of Yuki Aihara",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/299.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:21:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hackliminality-episode-2"
+    },
+    {
+      "id": "hackliminality-episode-3",
+      "title": "In the Case of Kyoko Tohno",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/299.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:21:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hackliminality-episode-3"
+    },
+    {
+      "id": "hackliminality-episode-4",
+      "title": "Trismegistus",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/299.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:21:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hackliminality-episode-4"
+    }
+  ]
+}

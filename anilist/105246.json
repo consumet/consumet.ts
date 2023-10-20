@@ -1,0 +1,832 @@
+{
+  "id": "105246",
+  "title": {
+    "romaji": "ACTORS: Songs Connection",
+    "english": "Actors: Songs Connection",
+    "native": "ACTORS -Songs Connection-"
+  },
+  "malId": 38670,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "ti5xuBC7WaE",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/ti5xuBC7WaE/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx105246-xQ5Mx0g1cM5a.jpg",
+  "popularity": 5058,
+  "color": "#e4a15d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx105246-xQ5Mx0g1cM5a.jpg",
+  "description": "The story of the franchise centers on the everyday lives of students and teachers at the Private Amaka Academy, a school established by the the large university town group Slive Central.<br><br>\n\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2019,
+  "startDate": {
+    "year": 2019,
+    "month": 10,
+    "day": 6
+  },
+  "endDate": {
+    "year": 2019,
+    "month": 12,
+    "day": 22
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 56,
+  "duration": 24,
+  "genres": [
+    "Comedy",
+    "Music",
+    "Mystery",
+    "Slice of Life"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Drive"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 21512,
+      "malId": 32212,
+      "title": {
+        "romaji": "Ensemble Stars!",
+        "english": "Ensemble Stars!",
+        "native": "あんさんぶるスターズ！",
+        "userPreferred": "Ensemble Stars!"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21512-I6e1ms2cDpCE.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21512-IsLRLFvi2Amb.jpg",
+      "rating": 66,
+      "type": "TV"
+    },
+    {
+      "id": 98217,
+      "malId": 34839,
+      "title": {
+        "romaji": "Sanrio Danshi",
+        "english": "SANRIO BOYS",
+        "native": "サンリオ男子",
+        "userPreferred": "Sanrio Danshi"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98217-DWbR4bvaa65O.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98217-WCrbqsEKQv94.jpg",
+      "rating": 65,
+      "type": "TV"
+    },
+    {
+      "id": 21645,
+      "malId": 33788,
+      "title": {
+        "romaji": "MARGINAL#4: KISS kara Tsukuru Big Bang",
+        "english": "MARGINAL #4 the Animation",
+        "native": "MARGINAL#4 KISSから創造るBig Bang",
+        "userPreferred": "MARGINAL#4: KISS kara Tsukuru Big Bang"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21645-XN8vOm2VPEbO.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21645-XN8vOm2VPEbO.jpg",
+      "rating": 61,
+      "type": "TV"
+    },
+    {
+      "id": 111145,
+      "malId": 40272,
+      "title": {
+        "romaji": "A3! SEASON AUTUMN & WINTER",
+        "english": "A3! Season Autumn & Winter",
+        "native": "A3! SEASON AUTUMN & WINTER",
+        "userPreferred": "A3! SEASON AUTUMN & WINTER"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111145-bYNGacLaqHQq.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/111145-oDV3AKlFHt5r.jpg",
+      "rating": 71,
+      "type": "TV"
+    },
+    {
+      "id": 141062,
+      "malId": 50284,
+      "title": {
+        "romaji": "TECHNOROID: OVERMIND",
+        "english": "Technoroid OVERMIND",
+        "native": "テクノロイド オーバーマインド",
+        "userPreferred": "TECHNOROID: OVERMIND"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141062-ylZrIsNqM7rA.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141062-ylZrIsNqM7rA.png",
+      "rating": 58,
+      "type": "TV"
+    },
+    {
+      "id": 162209,
+      "malId": 54638,
+      "title": {
+        "romaji": "Kawagoe Boys Sing",
+        "english": "KAWAGOE BOYS SING -Now or Never-",
+        "native": "川越ボーイズ・シング",
+        "userPreferred": "Kawagoe Boys Sing"
+      },
+      "status": "Ongoing",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx162209-EdG4Pyn37Il8.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx162209-EdG4Pyn37Il8.jpg",
+      "rating": 48,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 147761,
+      "role": "MAIN",
+      "name": {
+        "first": "Kai",
+        "last": "Akizuki",
+        "full": "Kai Akizuki",
+        "native": "秋月甲斐",
+        "userPreferred": "Kai Akizuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b147761-EqUZ9LrovW4S.png",
+      "voiceActors": [
+        {
+          "id": 102695,
+          "language": "Japanese",
+          "name": {
+            "first": "Takuya",
+            "last": "Eguchi",
+            "full": "Takuya Eguchi",
+            "native": "江口拓也",
+            "userPreferred": "Takuya Eguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102695-dGzsJkor0KMj.jpg"
+        },
+        {
+          "id": 129212,
+          "language": "English",
+          "name": {
+            "first": "Kyle",
+            "last": "Igneczi",
+            "full": "Kyle Igneczi",
+            "native": null,
+            "userPreferred": "Kyle Igneczi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n129212-bZ6AFfgrxuaw.jpg"
+        }
+      ]
+    },
+    {
+      "id": 147769,
+      "role": "MAIN",
+      "name": {
+        "first": "Ryou",
+        "last": "Saotome",
+        "full": "Ryou Saotome",
+        "native": "五月女燎",
+        "userPreferred": "Ryou Saotome"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b147769-b5X4Pfm34NKt.png",
+      "voiceActors": [
+        {
+          "id": 95846,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomohiro",
+            "last": "Tsuboi",
+            "full": "Tomohiro Tsuboi",
+            "native": "坪井智浩",
+            "userPreferred": "Tomohiro Tsuboi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95846-xrlHyretf2oT.png"
+        },
+        {
+          "id": 152253,
+          "language": "English",
+          "name": {
+            "first": "Steven",
+            "last": "Kelly",
+            "full": "Steven Kelly",
+            "native": null,
+            "userPreferred": "Steven Kelly"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n152253-0u86uQJwsQCI.jpg"
+        }
+      ]
+    },
+    {
+      "id": 147762,
+      "role": "MAIN",
+      "name": {
+        "first": "Mike",
+        "last": "Enjouji",
+        "full": "Mike Enjouji",
+        "native": "円城寺三毛",
+        "userPreferred": "Mike Enjouji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b147762-QOLYudVSicxQ.jpg",
+      "voiceActors": [
+        {
+          "id": 96154,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Ono",
+            "full": "Yuuki Ono",
+            "native": "小野友樹",
+            "userPreferred": "Yuuki Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96154-B8GAO9wm1Fbd.jpg"
+        },
+        {
+          "id": 127682,
+          "language": "English",
+          "name": {
+            "first": "Daman",
+            "last": "Mills",
+            "full": "Daman Mills",
+            "native": null,
+            "userPreferred": "Daman Mills"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n127682-J5tZnKTPfo5D.jpg"
+        }
+      ]
+    },
+    {
+      "id": 147770,
+      "role": "MAIN",
+      "name": {
+        "first": "Mitsuki",
+        "last": "Akika",
+        "full": "Mitsuki Akika",
+        "native": "鑑香水月",
+        "userPreferred": "Mitsuki Akika"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b147770-7H6tL9upcRwM.png",
+      "voiceActors": [
+        {
+          "id": 95074,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenji",
+            "last": "Nojima",
+            "full": "Kenji Nojima",
+            "native": "野島健児",
+            "userPreferred": "Kenji Nojima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95074-ilLCdbpWIgrF.png"
+        },
+        {
+          "id": 152255,
+          "language": "English",
+          "name": {
+            "first": "Reagan",
+            "last": "Murdock",
+            "full": "Reagan Murdock",
+            "native": null,
+            "userPreferred": "Reagan Murdock"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n152255-zrHg8QRIaNDK.png"
+        }
+      ]
+    },
+    {
+      "id": 147763,
+      "role": "MAIN",
+      "name": {
+        "first": "Sousuke",
+        "last": "Kagura",
+        "full": "Sousuke Kagura",
+        "native": "神樂蒼介",
+        "userPreferred": "Sousuke Kagura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b147763-gSngjCn4FPDo.jpg",
+      "voiceActors": [
+        {
+          "id": 120293,
+          "language": "Japanese",
+          "name": {
+            "first": "Wataru",
+            "last": "Urata",
+            "full": "Wataru Urata",
+            "native": "浦田わたる",
+            "userPreferred": "Wataru Urata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n120293-5MFOdjud8KJT.jpg"
+        },
+        {
+          "id": 138441,
+          "language": "English",
+          "name": {
+            "first": "Aaron",
+            "last": "Campbell",
+            "full": "Aaron Campbell",
+            "native": null,
+            "userPreferred": "Aaron Campbell"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n138441-AUeCgOsrf1oa.png"
+        }
+      ]
+    },
+    {
+      "id": 147771,
+      "role": "MAIN",
+      "name": {
+        "first": "Satsuma",
+        "last": "Kadonoouji",
+        "full": "Satsuma Kadonoouji",
+        "native": "葛野大路颯馬",
+        "userPreferred": "Satsuma Kadonoouji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b147771-qUEEELKVfFoL.png",
+      "voiceActors": [
+        {
+          "id": 95177,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryoutarou",
+            "last": "Okiayu",
+            "full": "Ryoutarou Okiayu",
+            "native": "置鮎龍太郎",
+            "userPreferred": "Ryoutarou Okiayu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95177-6SiaUTf3CLkN.png"
+        },
+        {
+          "id": 127748,
+          "language": "English",
+          "name": {
+            "first": "Josh",
+            "last": "Bangle",
+            "full": "Josh Bangle",
+            "native": null,
+            "userPreferred": "Josh Bangle"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n127748-u3HPb1cuCo8o.jpg"
+        }
+      ]
+    },
+    {
+      "id": 147764,
+      "role": "MAIN",
+      "name": {
+        "first": "Chiguma",
+        "last": "Marume",
+        "full": "Chiguma Marume",
+        "native": "丸目千熊",
+        "userPreferred": "Chiguma Marume"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b147764-OB8cTMi2J8S1.jpg",
+      "voiceActors": [
+        {
+          "id": 107480,
+          "language": "Japanese",
+          "name": {
+            "first": "Subaru",
+            "last": "Kimura",
+            "full": "Subaru Kimura",
+            "native": "木村昴",
+            "userPreferred": "Subaru Kimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107480-h2RgLXNP7hcj.png"
+        },
+        {
+          "id": 152254,
+          "language": "English",
+          "name": {
+            "first": "Blake",
+            "last": "Jackson",
+            "full": "Blake Jackson",
+            "native": null,
+            "userPreferred": "Blake Jackson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n152254-YcEZXUkHGF8r.png"
+        }
+      ]
+    },
+    {
+      "id": 147765,
+      "role": "MAIN",
+      "name": {
+        "first": "Saku",
+        "last": "Otonomiya",
+        "full": "Saku Otonomiya",
+        "native": "音之宮朔",
+        "userPreferred": "Saku Otonomiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b147765-68jrOp8nbuwj.jpg",
+      "voiceActors": [
+        {
+          "id": 123286,
+          "language": "Japanese",
+          "name": {
+            "first": "Gakuto",
+            "last": "Kajiwara",
+            "full": "Gakuto Kajiwara",
+            "native": "梶原岳人",
+            "userPreferred": "Gakuto Kajiwara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n123286-TfHayiK4hqbk.png"
+        },
+        {
+          "id": 127809,
+          "language": "English",
+          "name": {
+            "first": "Brandon",
+            "last": "McInnis",
+            "full": "Brandon McInnis",
+            "native": "Brandon McInnis",
+            "userPreferred": "Brandon McInnis"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n127809-uLM2ITKWUSCl.png"
+        }
+      ]
+    },
+    {
+      "id": 147773,
+      "role": "MAIN",
+      "name": {
+        "first": "Hinata",
+        "last": "Mitsutsuka",
+        "full": "Hinata Mitsutsuka",
+        "native": "光司陽太",
+        "userPreferred": "Hinata Mitsutsuka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b147773-gmH7EOMbID2P.png",
+      "voiceActors": [
+        {
+          "id": 95030,
+          "language": "Japanese",
+          "name": {
+            "first": "Souichirou",
+            "last": "Hoshi",
+            "full": "Souichirou Hoshi",
+            "native": "保志総一朗",
+            "userPreferred": "Souichirou Hoshi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95030-kj64Uy6Zr3bq.png"
+        },
+        {
+          "id": 128751,
+          "language": "English",
+          "name": {
+            "first": "Bryson",
+            "last": "Baugus",
+            "full": "Bryson Baugus",
+            "native": null,
+            "userPreferred": "Bryson Baugus"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n128751-F22P5B8FUBh5.jpg"
+        }
+      ]
+    },
+    {
+      "id": 147767,
+      "role": "MAIN",
+      "name": {
+        "first": "Keishi",
+        "last": "Harumoto",
+        "full": "Keishi Harumoto",
+        "native": "東本桂士",
+        "userPreferred": "Keishi Harumoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b147767-f3VsFetqrgNA.png",
+      "voiceActors": [
+        {
+          "id": 95016,
+          "language": "Japanese",
+          "name": {
+            "first": "Noriaki",
+            "last": "Sugiyama",
+            "full": "Noriaki Sugiyama",
+            "native": "杉山紀彰",
+            "userPreferred": "Noriaki Sugiyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95016-03m7lAUZBMDv.png"
+        },
+        {
+          "id": 111775,
+          "language": "English",
+          "name": {
+            "first": "Ricco",
+            "last": "Fajardo",
+            "full": "Ricco Fajardo",
+            "native": null,
+            "userPreferred": "Ricco Fajardo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n111775-TVUcuiV0X1Dg.png"
+        }
+      ]
+    },
+    {
+      "id": 147775,
+      "role": "MAIN",
+      "name": {
+        "first": "Uta",
+        "last": "Outa",
+        "full": "Uta Outa",
+        "native": "往田詩",
+        "userPreferred": "Uta Outa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b147775-stNpRYw67x2y.jpg",
+      "voiceActors": [
+        {
+          "id": 147776,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuya",
+            "last": "Hozumi",
+            "full": "Yuuya Hozumi",
+            "native": "保住有哉",
+            "userPreferred": "Yuuya Hozumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n147776-mY74u14dReeg.png"
+        },
+        {
+          "id": 129028,
+          "language": "English",
+          "name": {
+            "first": "Howard",
+            "last": "Wang",
+            "full": "Howard Wang",
+            "native": null,
+            "userPreferred": "Howard Wang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n129028-hTeFoH3Uql4p.png"
+        }
+      ]
+    },
+    {
+      "id": 147772,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Washiho",
+        "last": "Usuki",
+        "full": "Washiho Usuki",
+        "native": "臼杵鷲帆",
+        "userPreferred": "Washiho Usuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b147772-bFlNLpOAfdR3.png",
+      "voiceActors": [
+        {
+          "id": 107615,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouta",
+            "last": "Takeuchi",
+            "full": "Ryouta Takeuchi",
+            "native": "竹内良太",
+            "userPreferred": "Ryouta Takeuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107615-e4FrG8jtyQKY.png"
+        },
+        {
+          "id": 104777,
+          "language": "English",
+          "name": {
+            "first": "David",
+            "last": "Wald",
+            "full": "David Wald",
+            "native": null,
+            "userPreferred": "David Wald"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9777.jpg"
+        }
+      ]
+    },
+    {
+      "id": 147766,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Minori",
+        "last": "Shido",
+        "full": "Minori Shido",
+        "native": "志戸穂",
+        "userPreferred": "Minori Shido"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b147766-NqYgytP0T59E.png",
+      "voiceActors": [
+        {
+          "id": 95047,
+          "language": "Japanese",
+          "name": {
+            "first": "Naozumi",
+            "last": "Takahashi",
+            "full": "Naozumi Takahashi",
+            "native": "高橋直純",
+            "userPreferred": "Naozumi Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95047-TpYPJprWRBE3.jpg"
+        },
+        {
+          "id": 119611,
+          "language": "English",
+          "name": {
+            "first": "Justin",
+            "last": "Briner",
+            "full": "Justin Briner",
+            "native": null,
+            "userPreferred": "Justin Briner"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/119611-CwI54lOhSnDQ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 147774,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kagetora",
+        "last": "Chouno",
+        "full": "Kagetora Chouno",
+        "native": "長野影虎",
+        "userPreferred": "Kagetora Chouno"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b147774-t6KknyPCEZjf.jpg",
+      "voiceActors": [
+        {
+          "id": 95518,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryou",
+            "last": "Horikawa",
+            "full": "Ryou Horikawa",
+            "native": "堀川りょう",
+            "userPreferred": "Ryou Horikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95518-6VFuLBDEPjTa.png"
+        },
+        {
+          "id": 117629,
+          "language": "English",
+          "name": {
+            "first": "Christopher",
+            "last": "Wehkamp",
+            "full": "Christopher Wehkamp",
+            "native": null,
+            "userPreferred": "Christopher Wehkamp"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n117629-w22t54KeomD3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 147768,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tsukasa",
+        "last": "Odawara",
+        "full": "Tsukasa Odawara",
+        "native": "小田原牧",
+        "userPreferred": "Tsukasa Odawara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b147768-bKQ8H1uEJvFs.jpg",
+      "voiceActors": [
+        {
+          "id": 95137,
+          "language": "Japanese",
+          "name": {
+            "first": "Shou",
+            "last": "Hayami",
+            "full": "Shou Hayami",
+            "native": "速水奨",
+            "userPreferred": "Shou Hayami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95137-2Q5l3Br9G7sk.png"
+        },
+        {
+          "id": 96602,
+          "language": "English",
+          "name": {
+            "first": "J. Michael",
+            "last": "Tatum",
+            "full": "J. Michael Tatum",
+            "native": "John Michael Tatum",
+            "userPreferred": "J. Michael Tatum"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96602-ztTfuo3nzu5t.png"
+        }
+      ]
+    }
+  ],
+  "relations": [],
+  "episodes": [
+    {
+      "id": "actors-songs-connection-episode-1",
+      "title": "Adagio",
+      "image": "https://media.kitsu.io/episodes/thumbnails/270718/original.jpg",
+      "number": 1,
+      "createdAt": "2019-10-06T15:16:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//actors-songs-connection-episode-1"
+    },
+    {
+      "id": "actors-songs-connection-episode-2",
+      "title": "con brio",
+      "image": "https://media.kitsu.io/episodes/thumbnails/270719/original.jpg",
+      "number": 2,
+      "createdAt": "2019-10-06T15:16:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//actors-songs-connection-episode-2"
+    },
+    {
+      "id": "actors-songs-connection-episode-3",
+      "title": "dolente",
+      "image": "https://media.kitsu.io/episodes/thumbnails/270724/original.jpg",
+      "number": 3,
+      "createdAt": "2019-10-07T04:09:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//actors-songs-connection-episode-3"
+    },
+    {
+      "id": "actors-songs-connection-episode-4",
+      "title": "abandone",
+      "image": "https://media.kitsu.io/episodes/thumbnails/271072/original.jpg",
+      "number": 4,
+      "createdAt": "2019-10-14T20:40:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//actors-songs-connection-episode-4"
+    },
+    {
+      "id": "actors-songs-connection-episode-5",
+      "title": "traumend",
+      "image": "https://media.kitsu.io/episodes/thumbnails/271187/original.jpg",
+      "number": 5,
+      "createdAt": "2019-10-20T14:41:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//actors-songs-connection-episode-5"
+    },
+    {
+      "id": "actors-songs-connection-episode-6",
+      "title": "appassionato",
+      "image": "https://media.kitsu.io/episodes/thumbnails/271188/original.jpg",
+      "number": 6,
+      "createdAt": "2019-10-20T14:41:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//actors-songs-connection-episode-6"
+    },
+    {
+      "id": "actors-songs-connection-episode-7",
+      "title": "stravagante",
+      "image": "https://media.kitsu.io/episodes/thumbnails/271189/original.jpg",
+      "number": 7,
+      "createdAt": "2019-10-20T14:41:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//actors-songs-connection-episode-7"
+    },
+    {
+      "id": "actors-songs-connection-episode-8",
+      "title": "concerto",
+      "image": "https://media.kitsu.io/episodes/thumbnails/271839/original.jpg",
+      "number": 8,
+      "createdAt": "2019-11-17T16:17:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//actors-songs-connection-episode-8"
+    },
+    {
+      "id": "actors-songs-connection-episode-9",
+      "title": "agitato",
+      "image": "https://media.kitsu.io/episodes/thumbnails/271864/original.jpg",
+      "number": 9,
+      "createdAt": "2019-11-19T22:14:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//actors-songs-connection-episode-9"
+    },
+    {
+      "id": "actors-songs-connection-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx105246-xQ5Mx0g1cM5a.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//actors-songs-connection-episode-10"
+    },
+    {
+      "id": "actors-songs-connection-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx105246-xQ5Mx0g1cM5a.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//actors-songs-connection-episode-11"
+    },
+    {
+      "id": "actors-songs-connection-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx105246-xQ5Mx0g1cM5a.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//actors-songs-connection-episode-12"
+    }
+  ]
+}

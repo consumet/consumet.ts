@@ -1,0 +1,1390 @@
+{
+  "id": "1826",
+  "title": {
+    "romaji": "Deltora Quest",
+    "english": "Deltora Quest",
+    "native": "デルトラクエスト"
+  },
+  "malId": 1826,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1826.jpg",
+  "popularity": 4982,
+  "color": "#e4bb50",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1826.jpg",
+  "description": "The evil Shadow Lord has taken control of the kingdom of Deltora and has driven the land and its people into misfortune and suffering. Lief, the son of a blacksmith, has just turned sixteen and is entrusted, along with his two companions Barda and Jasmine, with an important mission: to retrieve the stolen seven magical stones that once reunited within the Belt of Deltora, will bring power to the true heir of Deltora and give him the power to free the kingdom from the tyranny of the Shadow Lord. There is just one problem; the seven stones have been scattered all across Deltora and currently reside in the hands of seven wicked men who are not easily willing to give them up.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2007,
+  "startDate": {
+    "year": 2007,
+    "month": 1,
+    "day": 6
+  },
+  "endDate": {
+    "year": 2008,
+    "month": 3,
+    "day": 29
+  },
+  "totalEpisodes": 65,
+  "currentEpisode": 65,
+  "rating": 65,
+  "duration": 25,
+  "genres": [
+    "Adventure",
+    "Fantasy"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "OLM"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 3185,
+      "malId": 3185,
+      "title": {
+        "romaji": "Fortune Quest L",
+        "english": null,
+        "native": "フォーチュン·クエストL",
+        "userPreferred": "Fortune Quest L"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3185-nYLtqNTnh7Q5.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3185-nYLtqNTnh7Q5.jpg",
+      "rating": 57,
+      "type": "TV"
+    },
+    {
+      "id": 153,
+      "malId": 153,
+      "title": {
+        "romaji": "Juuni Kokuki",
+        "english": "The Twelve Kingdoms",
+        "native": "十二国記",
+        "userPreferred": "Juuni Kokuki"
+      },
+      "status": "Completed",
+      "episodes": 45,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx153-pLhZPQCYk7hl.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/153-69eJS2eBYxus.jpg",
+      "rating": 77,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 6362,
+      "role": "MAIN",
+      "name": {
+        "first": "Jasmine",
+        "last": null,
+        "full": "Jasmine",
+        "native": null,
+        "userPreferred": "Jasmine"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6362.jpg",
+      "voiceActors": [
+        {
+          "id": 95823,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayahi",
+            "last": "Takagaki",
+            "full": "Ayahi Takagaki",
+            "native": "高垣彩陽",
+            "userPreferred": "Ayahi Takagaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95823-gJC6Tr9HDOqy.png"
+        },
+        {
+          "id": 109527,
+          "language": "English",
+          "name": {
+            "first": "Laura",
+            "last": "Rushfeldt",
+            "full": "Laura Rushfeldt",
+            "native": null,
+            "userPreferred": "Laura Rushfeldt"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109527-yZCJmmyR20fK.jpg"
+        },
+        {
+          "id": 109997,
+          "language": "Korean",
+          "name": {
+            "first": "Yeo Jin",
+            "last": "Yun",
+            "full": "Yeo Jin Yun",
+            "native": "여진 윤",
+            "userPreferred": "Yeo Jin Yun"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14997.jpg"
+        },
+        {
+          "id": 103066,
+          "language": "Italian",
+          "name": {
+            "first": "Veronica",
+            "last": "Puccio",
+            "full": "Veronica Puccio",
+            "native": null,
+            "userPreferred": "Veronica Puccio"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8066.jpg"
+        },
+        {
+          "id": 102765,
+          "language": "Hungarian",
+          "name": {
+            "first": "Titanilla",
+            "last": "Bogdányi",
+            "full": "Titanilla Bogdányi",
+            "native": null,
+            "userPreferred": "Titanilla Bogdányi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102765-OYsgMI1EOmfp.png"
+        }
+      ]
+    },
+    {
+      "id": 6359,
+      "role": "MAIN",
+      "name": {
+        "first": "Lief",
+        "last": null,
+        "full": "Lief",
+        "native": null,
+        "userPreferred": "Lief"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6359.jpg",
+      "voiceActors": [
+        {
+          "id": 103941,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryousuke",
+            "last": "Sakamaki",
+            "full": "Ryousuke Sakamaki",
+            "native": "坂巻亮祐",
+            "userPreferred": "Ryousuke Sakamaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8941.jpg"
+        },
+        {
+          "id": 100668,
+          "language": "English",
+          "name": {
+            "first": "Cole",
+            "last": "Howard",
+            "full": "Cole Howard",
+            "native": null,
+            "userPreferred": "Cole Howard"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100668-At51yH2n4TWj.jpg"
+        },
+        {
+          "id": 109825,
+          "language": "Korean",
+          "name": {
+            "first": "Gwang ju",
+            "last": "Jeon",
+            "full": "Gwang ju Jeon",
+            "native": "광주 전",
+            "userPreferred": "Gwang ju Jeon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14825.jpg"
+        },
+        {
+          "id": 172903,
+          "language": "Italian",
+          "name": {
+            "first": "Gabriele",
+            "last": "Lopez",
+            "full": "Gabriele Lopez",
+            "native": null,
+            "userPreferred": "Gabriele Lopez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 96462,
+          "language": "Spanish",
+          "name": {
+            "first": "Irwin",
+            "last": "Daayán",
+            "full": "Irwin Daayán",
+            "native": "Irwin Daayán Rosenthal Sarlí",
+            "userPreferred": "Irwin Daayán"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96462-PWlPtfZ1sHX7.png"
+        },
+        {
+          "id": 102831,
+          "language": "Hungarian",
+          "name": {
+            "first": "Balázs",
+            "last": "Szvetlov",
+            "full": "Balázs Szvetlov",
+            "native": null,
+            "userPreferred": "Balázs Szvetlov"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7831.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6360,
+      "role": "MAIN",
+      "name": {
+        "first": "Barda",
+        "last": null,
+        "full": "Barda",
+        "native": null,
+        "userPreferred": "Barda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6360.jpg",
+      "voiceActors": [
+        {
+          "id": 100770,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuusaku",
+            "last": "Yara",
+            "full": "Yuusaku Yara",
+            "native": "屋良有作",
+            "userPreferred": "Yuusaku Yara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100770-UwcMoND5FIgC.png"
+        },
+        {
+          "id": 115989,
+          "language": "English",
+          "name": {
+            "first": "Tom",
+            "last": "Edwards",
+            "full": "Tom Edwards",
+            "native": null,
+            "userPreferred": "Tom Edwards"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/20989.jpg"
+        },
+        {
+          "id": 158348,
+          "language": "Italian",
+          "name": {
+            "first": "Fabrizio",
+            "last": "Pucci",
+            "full": "Fabrizio Pucci",
+            "native": null,
+            "userPreferred": "Fabrizio Pucci"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n158348-PkKYeM7cIoXR.jpg"
+        }
+      ]
+    },
+    {
+      "id": 122779,
+      "role": "MAIN",
+      "name": {
+        "first": "Dain",
+        "last": null,
+        "full": "Dain",
+        "native": "デイン",
+        "userPreferred": "Dain"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/122779-cFOXsslRctII.jpg",
+      "voiceActors": [
+        {
+          "id": 95197,
+          "language": "Japanese",
+          "name": {
+            "first": "Mitsuki",
+            "last": "Saiga",
+            "full": "Mitsuki Saiga",
+            "native": "斎賀みつき",
+            "userPreferred": "Mitsuki Saiga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95197-gcTFdBK9oPtY.png"
+        },
+        {
+          "id": 142392,
+          "language": "English",
+          "name": {
+            "first": "Arlen",
+            "last": "Konopaki",
+            "full": "Arlen Konopaki",
+            "native": null,
+            "userPreferred": "Arlen Konopaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 95776,
+          "language": "Italian",
+          "name": {
+            "first": "Daniele",
+            "last": "Raffaeli",
+            "full": "Daniele Raffaeli",
+            "native": null,
+            "userPreferred": "Daniele Raffaeli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/776.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18418,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Neridah",
+        "last": null,
+        "full": "Neridah",
+        "native": "ネリダ",
+        "userPreferred": "Neridah"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18418.jpg",
+      "voiceActors": [
+        {
+          "id": 95008,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Kugimiya",
+            "full": "Rie Kugimiya",
+            "native": "釘宮理恵",
+            "userPreferred": "Rie Kugimiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95008-2y0EeuSTHIri.png"
+        },
+        {
+          "id": 185564,
+          "language": "English",
+          "name": {
+            "first": "Shannon",
+            "last": "Casorso",
+            "full": "Shannon Casorso",
+            "native": null,
+            "userPreferred": "Shannon Casorso"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 100029,
+          "language": "Spanish",
+          "name": {
+            "first": "Patricia",
+            "last": "Acevedo",
+            "full": "Patricia Acevedo",
+            "native": "María del Socorro Patricia Acevedo Limón",
+            "userPreferred": "Patricia Acevedo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5029.jpg"
+        }
+      ]
+    },
+    {
+      "id": 256497,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Fallow",
+        "last": null,
+        "full": "Fallow",
+        "native": "ファロー",
+        "userPreferred": "Fallow"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b256497-Vbbchu83MSD2.png",
+      "voiceActors": [
+        {
+          "id": 95179,
+          "language": "Japanese",
+          "name": {
+            "first": "Masashi",
+            "last": "Ebara",
+            "full": "Masashi Ebara",
+            "native": "江原正士",
+            "userPreferred": "Masashi Ebara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95179-ZXxATX9muGcD.png"
+        },
+        {
+          "id": 141602,
+          "language": "Italian",
+          "name": {
+            "first": "Luigi",
+            "last": "Ferraro",
+            "full": "Luigi Ferraro",
+            "native": null,
+            "userPreferred": "Luigi Ferraro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n141602-S8Mv1rHI1Hkf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 256505,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jarred",
+        "last": null,
+        "full": "Jarred",
+        "native": "ジャード",
+        "userPreferred": "Jarred"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b256505-0c5QXrsZsRn0.png",
+      "voiceActors": [
+        {
+          "id": 100791,
+          "language": "Japanese",
+          "name": {
+            "first": "Hidetoshi",
+            "last": "Nakamura",
+            "full": "Hidetoshi Nakamura",
+            "native": "中村秀利",
+            "userPreferred": "Hidetoshi Nakamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100791-5CeE20GspsfK.jpg"
+        },
+        {
+          "id": 230942,
+          "language": "Italian",
+          "name": {
+            "first": "Enrico",
+            "last": "Di Troia",
+            "full": "Enrico Di Troia",
+            "native": null,
+            "userPreferred": "Enrico Di Troia"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 74503,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Glock",
+        "last": null,
+        "full": "Glock",
+        "native": "グロック",
+        "userPreferred": "Glock"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/74503.jpg",
+      "voiceActors": [
+        {
+          "id": 95284,
+          "language": "Japanese",
+          "name": {
+            "first": "Fumihiko",
+            "last": "Tachiki",
+            "full": "Fumihiko Tachiki",
+            "native": "立木文彦",
+            "userPreferred": "Fumihiko Tachiki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95284-k97k9dULn4vr.png"
+        },
+        {
+          "id": 166738,
+          "language": "English",
+          "name": {
+            "first": "Doug",
+            "last": "McKeag",
+            "full": "Doug McKeag",
+            "native": null,
+            "userPreferred": "Doug McKeag"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 256498,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Prin",
+        "last": null,
+        "full": "Prin",
+        "native": "プリン",
+        "userPreferred": "Prin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b256498-apLgM6pJabQs.png",
+      "voiceActors": [
+        {
+          "id": 95500,
+          "language": "Japanese",
+          "name": {
+            "first": "Kurumi",
+            "last": "Mamiya",
+            "full": "Kurumi Mamiya",
+            "native": "間宮くるみ",
+            "userPreferred": "Kurumi Mamiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95500-eEWlj7eCm3Ab.jpg"
+        },
+        {
+          "id": 143817,
+          "language": "English",
+          "name": {
+            "first": "Wendy",
+            "last": "Morrison",
+            "full": "Wendy Morrison",
+            "native": null,
+            "userPreferred": "Wendy Morrison"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 256499,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Joker",
+        "last": null,
+        "full": "Joker",
+        "native": "ジョーカー",
+        "userPreferred": "Joker"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b256499-5cOtNmtP7KzV.png",
+      "voiceActors": [
+        {
+          "id": 105694,
+          "language": "Japanese",
+          "name": {
+            "first": "Junpei",
+            "last": "Morita",
+            "full": "Junpei Morita",
+            "native": "森田順平",
+            "userPreferred": "Junpei Morita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105694-rfYpkYacbQYr.png"
+        }
+      ]
+    },
+    {
+      "id": 256500,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Prandine",
+        "last": null,
+        "full": "Prandine",
+        "native": "プランディン",
+        "userPreferred": "Prandine"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b256500-SFTpttqDMdWo.png",
+      "voiceActors": [
+        {
+          "id": 95179,
+          "language": "Japanese",
+          "name": {
+            "first": "Masashi",
+            "last": "Ebara",
+            "full": "Masashi Ebara",
+            "native": "江原正士",
+            "userPreferred": "Masashi Ebara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95179-ZXxATX9muGcD.png"
+        }
+      ]
+    },
+    {
+      "id": 256501,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Oacus",
+        "last": null,
+        "full": "Oacus",
+        "native": "オーカス",
+        "userPreferred": "Oacus"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b256501-hrQnw9I4h0vS.png",
+      "voiceActors": [
+        {
+          "id": 95118,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Kamiya",
+            "full": "Hiroshi Kamiya",
+            "native": "神谷浩史",
+            "userPreferred": "Hiroshi Kamiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95118-oOElrn1aSaiC.png"
+        },
+        {
+          "id": 107871,
+          "language": "English",
+          "name": {
+            "first": "Brendan",
+            "last": "Hunter",
+            "full": "Brendan Hunter",
+            "native": null,
+            "userPreferred": "Brendan Hunter"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12871.jpg"
+        }
+      ]
+    },
+    {
+      "id": 256503,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kree",
+        "last": null,
+        "full": "Kree",
+        "native": "クリー",
+        "userPreferred": "Kree"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b256503-Ktx6Pocm9vIw.png",
+      "voiceActors": [
+        {
+          "id": 96421,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyako",
+            "last": "Itou",
+            "full": "Miyako Itou",
+            "native": "伊東みやこ",
+            "userPreferred": "Miyako Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1421.jpg"
+        },
+        {
+          "id": 95878,
+          "language": "English",
+          "name": {
+            "first": "Don",
+            "last": "Brown",
+            "full": "Don Brown",
+            "native": null,
+            "userPreferred": "Don Brown"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95878-XxZjgQOZKL40.jpg"
+        }
+      ]
+    },
+    {
+      "id": 73533,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Anna",
+        "last": null,
+        "full": "Anna",
+        "native": null,
+        "userPreferred": "Anna"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b73533-fOVlz66PBQ8M.jpg",
+      "voiceActors": [
+        {
+          "id": 95003,
+          "language": "Japanese",
+          "name": {
+            "first": "Satsuki",
+            "last": "Yukino",
+            "full": "Satsuki Yukino",
+            "native": "ゆきのさつき",
+            "userPreferred": "Satsuki Yukino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95003-Du7wb5JJzb8P.png"
+        },
+        {
+          "id": 109533,
+          "language": "English",
+          "name": {
+            "first": "Onalea",
+            "last": "Gilbertson",
+            "full": "Onalea Gilbertson",
+            "native": null,
+            "userPreferred": "Onalea Gilbertson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14533.jpg"
+        },
+        {
+          "id": 226597,
+          "language": "Italian",
+          "name": {
+            "first": "Marzia",
+            "last": "Dal Fabbro",
+            "full": "Marzia Dal Fabbro",
+            "native": null,
+            "userPreferred": "Marzia Dal Fabbro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 256502,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Filli",
+        "last": null,
+        "full": "Filli",
+        "native": "フィリ",
+        "userPreferred": "Filli"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b256502-lVFPf5sEoy39.png",
+      "voiceActors": [
+        {
+          "id": 100853,
+          "language": "Japanese",
+          "name": {
+            "first": "Chigusa",
+            "last": "Ikeda",
+            "full": "Chigusa Ikeda",
+            "native": "池田千草",
+            "userPreferred": "Chigusa Ikeda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5853.jpg"
+        },
+        {
+          "id": 95878,
+          "language": "English",
+          "name": {
+            "first": "Don",
+            "last": "Brown",
+            "full": "Don Brown",
+            "native": null,
+            "userPreferred": "Don Brown"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95878-XxZjgQOZKL40.jpg"
+        },
+        {
+          "id": 141602,
+          "language": "Italian",
+          "name": {
+            "first": "Luigi",
+            "last": "Ferraro",
+            "full": "Luigi Ferraro",
+            "native": null,
+            "userPreferred": "Luigi Ferraro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n141602-S8Mv1rHI1Hkf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 256496,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Thaegan",
+        "last": null,
+        "full": "Thaegan",
+        "native": "テーガン",
+        "userPreferred": "Thaegan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b256496-WyW1xgen5Nix.png",
+      "voiceActors": [
+        {
+          "id": 95483,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiko",
+            "last": "Fujita",
+            "full": "Toshiko Fujita",
+            "native": "藤田淑子",
+            "userPreferred": "Toshiko Fujita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95483-q3MQ7a7tYsFO.png"
+        },
+        {
+          "id": 185563,
+          "language": "English",
+          "name": {
+            "first": "April",
+            "last": "McGregor",
+            "full": "April McGregor",
+            "native": null,
+            "userPreferred": "April McGregor"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 256504,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Manus",
+        "last": null,
+        "full": "Manus",
+        "native": "マナス",
+        "userPreferred": "Manus"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b256504-pjxNiiixsdZa.png",
+      "voiceActors": [
+        {
+          "id": 95820,
+          "language": "Japanese",
+          "name": {
+            "first": "Junji",
+            "last": "Majima",
+            "full": "Junji Majima",
+            "native": "間島淳司",
+            "userPreferred": "Junji Majima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95820-5Fuosf1ljdSc.png"
+        },
+        {
+          "id": 114009,
+          "language": "English",
+          "name": {
+            "first": "Tim",
+            "last": "Hamaguchi",
+            "full": "Tim Hamaguchi",
+            "native": null,
+            "userPreferred": "Tim Hamaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n114009-ru0qS1QfpT2Z.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 39482,
+      "relationType": "ALTERNATIVE",
+      "malId": 9482,
+      "title": {
+        "romaji": "Deltora Quest",
+        "english": "Deltora Quest",
+        "native": "デルトラクエスト",
+        "userPreferred": "Deltora Quest"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/39482-YvHlt2IzwolS.jpg",
+      "color": "#f15d1a",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/39482-YvHlt2IzwolS.jpg",
+      "rating": 69
+    }
+  ],
+  "episodes": [
+    {
+      "id": "deltora-quest-episode-1",
+      "title": "The Adventure Begins",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29161/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:23:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-1"
+    },
+    {
+      "id": "deltora-quest-episode-2",
+      "title": "Jasmine, Girl of the Forests",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29162/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:23:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-2"
+    },
+    {
+      "id": "deltora-quest-episode-3",
+      "title": "The Golden Knight",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29163/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:23:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-3"
+    },
+    {
+      "id": "deltora-quest-episode-4",
+      "title": "The Enigmatic Giant",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29164/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:23:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-4"
+    },
+    {
+      "id": "deltora-quest-episode-5",
+      "title": "Nij and Doj’s Trap",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29165/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:23:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-5"
+    },
+    {
+      "id": "deltora-quest-episode-6",
+      "title": "The Monster in the Lake of Tears",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29166/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:23:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-6"
+    },
+    {
+      "id": "deltora-quest-episode-7",
+      "title": "Sorceress Thaegan",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29167/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:23:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-7"
+    },
+    {
+      "id": "deltora-quest-episode-8",
+      "title": "Tom’s Curious Shop",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29168/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:23:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-8"
+    },
+    {
+      "id": "deltora-quest-episode-9",
+      "title": "Noradz the Clean",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29169/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:23:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-9"
+    },
+    {
+      "id": "deltora-quest-episode-10",
+      "title": "Escape",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29170/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:23:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-10"
+    },
+    {
+      "id": "deltora-quest-episode-11",
+      "title": "Cross the River",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29171/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:23:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-11"
+    },
+    {
+      "id": "deltora-quest-episode-12",
+      "title": "The King of the Rats",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29172/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:23:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-12"
+    },
+    {
+      "id": "deltora-quest-episode-13",
+      "title": "Endon and Jarred",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29173/original.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:23:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-13"
+    },
+    {
+      "id": "deltora-quest-episode-14",
+      "title": "The Stolen Gems",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29174/original.jpg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:23:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-14"
+    },
+    {
+      "id": "deltora-quest-episode-15",
+      "title": "Good Luck! Bad Luck!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29175/original.jpg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:23:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-15"
+    },
+    {
+      "id": "deltora-quest-episode-16",
+      "title": "The Rithmere Games",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29176/original.jpg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:23:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-16"
+    },
+    {
+      "id": "deltora-quest-episode-17",
+      "title": "Test of Endurance",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29177/original.jpg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:23:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-17"
+    },
+    {
+      "id": "deltora-quest-episode-18",
+      "title": "Jasmine vs. Doom",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29178/original.jpeg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:23:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-18"
+    },
+    {
+      "id": "deltora-quest-episode-19",
+      "title": "The Boy from the Resistance",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29179/original.jpeg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:23:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-19"
+    },
+    {
+      "id": "deltora-quest-episode-20",
+      "title": "The Shifting Sands",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29180/original.jpeg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:23:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-20"
+    },
+    {
+      "id": "deltora-quest-episode-21",
+      "title": "The Heavenly Stone",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29181/original.jpeg",
+      "number": 21,
+      "createdAt": "2013-02-20T18:23:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-21"
+    },
+    {
+      "id": "deltora-quest-episode-22",
+      "title": "Thaegan’s Return",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29182/original.jpeg",
+      "number": 22,
+      "createdAt": "2013-02-20T18:23:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-22"
+    },
+    {
+      "id": "deltora-quest-episode-23",
+      "title": "Thaegan’s Trap",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29183/original.jpeg",
+      "number": 23,
+      "createdAt": "2013-02-20T18:23:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-23"
+    },
+    {
+      "id": "deltora-quest-episode-24",
+      "title": "Meeting Prin",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29184/original.jpeg",
+      "number": 24,
+      "createdAt": "2013-02-20T18:23:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-24"
+    },
+    {
+      "id": "deltora-quest-episode-25",
+      "title": "Kin to the Air",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29185/original.jpeg",
+      "number": 25,
+      "createdAt": "2013-02-20T18:23:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-25"
+    },
+    {
+      "id": "deltora-quest-episode-26",
+      "title": "Vraal Attack!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29186/original.jpeg",
+      "number": 26,
+      "createdAt": "2013-02-20T18:23:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-26"
+    },
+    {
+      "id": "deltora-quest-episode-27",
+      "title": "Trapped under Dread Mountain",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29187/original.jpeg",
+      "number": 27,
+      "createdAt": "2013-02-20T18:23:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-27"
+    },
+    {
+      "id": "deltora-quest-episode-28",
+      "title": "The Great Gellick!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29188/original.jpeg",
+      "number": 28,
+      "createdAt": "2013-02-20T18:23:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-28"
+    },
+    {
+      "id": "deltora-quest-episode-29",
+      "title": "The End of the Carn Squad?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29189/original.jpeg",
+      "number": 29,
+      "createdAt": "2013-02-20T18:23:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-29"
+    },
+    {
+      "id": "deltora-quest-episode-30",
+      "title": "The Mysterious Ols",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29190/original.jpeg",
+      "number": 30,
+      "createdAt": "2013-02-20T18:23:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-30"
+    },
+    {
+      "id": "deltora-quest-episode-31",
+      "title": "Goodbye, Jasmine",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29191/original.jpeg",
+      "number": 31,
+      "createdAt": "2013-02-20T18:23:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-31"
+    },
+    {
+      "id": "deltora-quest-episode-32",
+      "title": "The River Queen",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29192/original.jpeg",
+      "number": 32,
+      "createdAt": "2013-02-20T18:23:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-32"
+    },
+    {
+      "id": "deltora-quest-episode-33",
+      "title": "Pirate Attack",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29193/original.jpeg",
+      "number": 33,
+      "createdAt": "2013-02-20T18:23:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-33"
+    },
+    {
+      "id": "deltora-quest-episode-34",
+      "title": "The Pirates’ Feast",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29194/original.jpeg",
+      "number": 34,
+      "createdAt": "2013-02-20T18:23:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-34"
+    },
+    {
+      "id": "deltora-quest-episode-35",
+      "title": "Maze of the Beast",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29195/original.jpeg",
+      "number": 35,
+      "createdAt": "2013-02-20T18:23:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-35"
+    },
+    {
+      "id": "deltora-quest-episode-36",
+      "title": "Sorceress Thaegan Is Back!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29196/original.jpeg",
+      "number": 36,
+      "createdAt": "2013-02-20T18:23:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-36"
+    },
+    {
+      "id": "deltora-quest-episode-37",
+      "title": "Mirror of Fear",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29197/original.jpeg",
+      "number": 37,
+      "createdAt": "2013-02-20T18:23:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-37"
+    },
+    {
+      "id": "deltora-quest-episode-38",
+      "title": "Sorcerer Oacus",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29198/original.jpeg",
+      "number": 38,
+      "createdAt": "2013-02-20T18:23:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-38"
+    },
+    {
+      "id": "deltora-quest-episode-39",
+      "title": "The Vow of the Torans",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29199/original.jpeg",
+      "number": 39,
+      "createdAt": "2013-02-20T18:23:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-39"
+    },
+    {
+      "id": "deltora-quest-episode-40",
+      "title": "The Valley of the Lost",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29200/original.jpeg",
+      "number": 40,
+      "createdAt": "2013-02-20T18:23:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-40"
+    },
+    {
+      "id": "deltora-quest-episode-41",
+      "title": "The Last Gem",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29201/original.jpeg",
+      "number": 41,
+      "createdAt": "2013-02-20T18:23:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-41"
+    },
+    {
+      "id": "deltora-quest-episode-42",
+      "title": "The Seven Gems United",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29202/original.jpeg",
+      "number": 42,
+      "createdAt": "2013-02-20T18:23:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-42"
+    },
+    {
+      "id": "deltora-quest-episode-43",
+      "title": "Nevets Goes Wild",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29203/original.jpeg",
+      "number": 43,
+      "createdAt": "2013-02-20T18:23:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-43"
+    },
+    {
+      "id": "deltora-quest-episode-44",
+      "title": "Battle At Withick Mire",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29204/original.jpeg",
+      "number": 44,
+      "createdAt": "2013-02-20T18:23:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-44"
+    },
+    {
+      "id": "deltora-quest-episode-45",
+      "title": "The Oath",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29205/original.jpeg",
+      "number": 45,
+      "createdAt": "2013-02-20T18:23:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-45"
+    },
+    {
+      "id": "deltora-quest-episode-46",
+      "title": "The Last Battle of Fire",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29206/original.jpeg",
+      "number": 46,
+      "createdAt": "2013-02-20T18:23:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-46"
+    },
+    {
+      "id": "deltora-quest-episode-47",
+      "title": "The Seven Tribes!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29207/original.jpeg",
+      "number": 47,
+      "createdAt": "2013-02-20T18:23:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-47"
+    },
+    {
+      "id": "deltora-quest-episode-48",
+      "title": "Who Is Dain?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29208/original.jpeg",
+      "number": 48,
+      "createdAt": "2013-02-20T18:23:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-48"
+    },
+    {
+      "id": "deltora-quest-episode-49",
+      "title": "A Desperate Rescue",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29209/original.jpeg",
+      "number": 49,
+      "createdAt": "2013-02-20T18:23:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-49"
+    },
+    {
+      "id": "deltora-quest-episode-50",
+      "title": "Who’s the Next King?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29210/original.jpeg",
+      "number": 50,
+      "createdAt": "2013-02-20T18:23:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-50"
+    },
+    {
+      "id": "deltora-quest-episode-51",
+      "title": "Battle of the Ak-Babas",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29211/original.jpeg",
+      "number": 51,
+      "createdAt": "2013-02-20T18:23:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-51"
+    },
+    {
+      "id": "deltora-quest-episode-52",
+      "title": "When the Seven Gems Shine",
+      "image": "https://media.kitsu.io/episodes/thumbnails/29212/original.jpeg",
+      "number": 52,
+      "createdAt": "2013-02-20T18:23:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-52"
+    },
+    {
+      "id": "deltora-quest-episode-53",
+      "title": "Leaving on a new adventure",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1826.jpg",
+      "number": 53,
+      "createdAt": "2013-02-20T18:23:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-53"
+    },
+    {
+      "id": "deltora-quest-episode-54",
+      "title": "Jasmine returns to forest",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1826.jpg",
+      "number": 54,
+      "createdAt": "2013-02-20T18:23:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-54"
+    },
+    {
+      "id": "deltora-quest-episode-55",
+      "title": "A trap labyrinth underground",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1826.jpg",
+      "number": 55,
+      "createdAt": "2013-02-20T18:23:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-55"
+    },
+    {
+      "id": "deltora-quest-episode-56",
+      "title": "Filli In Big Trouble",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1826.jpg",
+      "number": 56,
+      "createdAt": "2013-02-20T18:23:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-56"
+    },
+    {
+      "id": "deltora-quest-episode-57",
+      "title": "The Solitary Guard",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1826.jpg",
+      "number": 57,
+      "createdAt": "2013-02-20T18:23:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-57"
+    },
+    {
+      "id": "deltora-quest-episode-58",
+      "title": "Taking account of Tom's shop",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1826.jpg",
+      "number": 58,
+      "createdAt": "2013-02-20T18:23:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//deltora-quest-episode-58"
+    }
+  ]
+}

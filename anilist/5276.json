@@ -1,0 +1,732 @@
+{
+  "id": "5276",
+  "title": {
+    "romaji": "Happy Happy Clover",
+    "english": null,
+    "native": "はぴはぴクローバー"
+  },
+  "malId": 5276,
+  "synonyms": [
+    "Happy Clover"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5276-VCu3CuWhIEAb.jpg",
+  "popularity": 527,
+  "color": "#f1e450",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5276-VCu3CuWhIEAb.jpg",
+  "description": "Happy Happy Clover recounts the everyday life of a bunny named Chima and the other animals in the Crescent Moon Forest.",
+  "status": "Completed",
+  "releaseDate": 2007,
+  "startDate": {
+    "year": 2007,
+    "month": 7,
+    "day": 6
+  },
+  "endDate": {
+    "year": 2007,
+    "month": 9,
+    "day": 28
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 55,
+  "duration": 25,
+  "genres": [
+    "Comedy",
+    "Fantasy",
+    "Slice of Life"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Group TAC"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 3704,
+      "malId": 3704,
+      "title": {
+        "romaji": "Zenryoku Usagi",
+        "english": null,
+        "native": "全力ウサギ",
+        "userPreferred": "Zenryoku Usagi"
+      },
+      "status": "Completed",
+      "episodes": 52,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3704.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3704.jpg",
+      "rating": 54,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 2223,
+      "malId": 2223,
+      "title": {
+        "romaji": "Maple Town Monogatari",
+        "english": null,
+        "native": "メイプルタウン物語",
+        "userPreferred": "Maple Town Monogatari"
+      },
+      "status": "Completed",
+      "episodes": 52,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2223-nV2ALvaTBRK9.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2223-nV2ALvaTBRK9.jpg",
+      "rating": 62,
+      "type": "TV"
+    },
+    {
+      "id": 5203,
+      "malId": 5203,
+      "title": {
+        "romaji": "Shin Maple Town Monogatari: Palm Town-hen",
+        "english": "Palm Town",
+        "native": "新メイプルタウン物語 パームタウン編",
+        "userPreferred": "Shin Maple Town Monogatari: Palm Town-hen"
+      },
+      "status": "Completed",
+      "episodes": 44,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/5203.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/5203.jpg",
+      "rating": 65,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 36069,
+      "role": "MAIN",
+      "name": {
+        "first": "Chima",
+        "last": null,
+        "full": "Chima",
+        "native": "ちま",
+        "userPreferred": "Chima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36069-xjjVj0V5FYe3.png",
+      "voiceActors": [
+        {
+          "id": 95895,
+          "language": "Japanese",
+          "name": {
+            "first": "Sayaka",
+            "last": "Narita",
+            "full": "Sayaka Narita",
+            "native": "成田紗矢香",
+            "userPreferred": "Sayaka Narita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95895-pQTEbJH3YGbO.jpg"
+        }
+      ]
+    },
+    {
+      "id": 162446,
+      "role": "MAIN",
+      "name": {
+        "first": "Mel",
+        "last": null,
+        "full": "Mel",
+        "native": "メル",
+        "userPreferred": "Mel"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b162446-IjyqBtmAWXZm.png",
+      "voiceActors": [
+        {
+          "id": 95568,
+          "language": "Japanese",
+          "name": {
+            "first": "Tae",
+            "last": "Okajima",
+            "full": "Tae Okajima",
+            "native": "岡嶋妙",
+            "userPreferred": "Tae Okajima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95568-LIiGKb6leaBa.jpg"
+        }
+      ]
+    },
+    {
+      "id": 285151,
+      "role": "MAIN",
+      "name": {
+        "first": "Gaku",
+        "last": null,
+        "full": "Gaku",
+        "native": "ガク",
+        "userPreferred": "Gaku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b285151-7ZARvEDkZK8a.png",
+      "voiceActors": [
+        {
+          "id": 95539,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumiko",
+            "last": "Kobayashi",
+            "full": "Yumiko Kobayashi",
+            "native": "小林由美子",
+            "userPreferred": "Yumiko Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95539-vFLypMio70hC.png"
+        }
+      ]
+    },
+    {
+      "id": 285154,
+      "role": "MAIN",
+      "name": {
+        "first": "Haru",
+        "last": null,
+        "full": "Haru",
+        "native": "ハル",
+        "userPreferred": "Haru"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b285154-ZYzZ31G89F44.png",
+      "voiceActors": [
+        {
+          "id": 95094,
+          "language": "Japanese",
+          "name": {
+            "first": "Akeno",
+            "last": "Watanabe",
+            "full": "Akeno Watanabe",
+            "native": "渡边明乃",
+            "userPreferred": "Akeno Watanabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95094-nRPWBG1cVGo5.png"
+        }
+      ]
+    },
+    {
+      "id": 285157,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hohhoo-sensei",
+        "last": null,
+        "full": "Hohhoo-sensei",
+        "native": "ホッホー先生",
+        "userPreferred": "Hohhoo-sensei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b285157-xHN6uCqypzsY.png",
+      "voiceActors": [
+        {
+          "id": 95898,
+          "language": "Japanese",
+          "name": {
+            "first": "Choo",
+            "last": null,
+            "full": "Choo",
+            "native": "チョー ",
+            "userPreferred": "Choo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95898-XHSESV65G8Jv.png"
+        }
+      ]
+    },
+    {
+      "id": 285165,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Meru no Mama",
+        "last": null,
+        "full": "Meru no Mama",
+        "native": "メルのママ",
+        "userPreferred": "Meru no Mama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b285165-qS3IpCtG1Xcm.png",
+      "voiceActors": [
+        {
+          "id": 101480,
+          "language": "Japanese",
+          "name": {
+            "first": "Kotomi",
+            "last": "Iwamura",
+            "full": "Kotomi Iwamura",
+            "native": "琴美 岩村",
+            "userPreferred": "Kotomi Iwamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6480.jpg"
+        }
+      ]
+    },
+    {
+      "id": 285158,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Haru no Mama",
+        "last": null,
+        "full": "Haru no Mama",
+        "native": "ハルのママ",
+        "userPreferred": "Haru no Mama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b285158-iLcy9C7NqKfe.png",
+      "voiceActors": [
+        {
+          "id": 105204,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuka",
+            "last": "Nakatsukasa",
+            "full": "Yuuka Nakatsukasa",
+            "native": "中司ゆう花",
+            "userPreferred": "Yuuka Nakatsukasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105204-2khBUDFxH2zD.jpg"
+        }
+      ]
+    },
+    {
+      "id": 285166,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Haru no Papa",
+        "last": null,
+        "full": "Haru no Papa",
+        "native": "ハルのパパ",
+        "userPreferred": "Haru no Papa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b285166-g7vELgKS8IR8.png",
+      "voiceActors": [
+        {
+          "id": 95409,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshihisa",
+            "last": "Kawahara",
+            "full": "Yoshihisa Kawahara",
+            "native": "川原慶久",
+            "userPreferred": "Yoshihisa Kawahara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95409-87S6L0u8gQNf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 285159,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kururi-san",
+        "last": null,
+        "full": "Kururi-san",
+        "native": "クルリさん",
+        "userPreferred": "Kururi-san"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b285159-tM4UJQyBqSAi.png",
+      "voiceActors": [
+        {
+          "id": 95072,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Shimizu",
+            "full": "Ai Shimizu",
+            "native": "清水愛",
+            "userPreferred": "Ai Shimizu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95072-V8FWqUIDJ57b.png"
+        }
+      ]
+    },
+    {
+      "id": 285167,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hiyo",
+        "last": null,
+        "full": "Hiyo",
+        "native": "ヒーヨ",
+        "userPreferred": "Hiyo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b285167-TxsjE7sObBN4.png",
+      "voiceActors": [
+        {
+          "id": 95955,
+          "language": "Japanese",
+          "name": {
+            "first": "Tetsuharu",
+            "last": "Oota",
+            "full": "Tetsuharu Oota",
+            "native": "太田哲治",
+            "userPreferred": "Tetsuharu Oota"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95955-7VtRKoCevQaG.png"
+        }
+      ]
+    },
+    {
+      "id": 285152,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chima no Papa",
+        "last": null,
+        "full": "Chima no Papa",
+        "native": "ちまのパパ",
+        "userPreferred": "Chima no Papa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b285152-OqSlCqQXP1pd.png",
+      "voiceActors": [
+        {
+          "id": 95955,
+          "language": "Japanese",
+          "name": {
+            "first": "Tetsuharu",
+            "last": "Oota",
+            "full": "Tetsuharu Oota",
+            "native": "太田哲治",
+            "userPreferred": "Tetsuharu Oota"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95955-7VtRKoCevQaG.png"
+        }
+      ]
+    },
+    {
+      "id": 285160,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gaku no Mama",
+        "last": null,
+        "full": "Gaku no Mama",
+        "native": "ガクのママ",
+        "userPreferred": "Gaku no Mama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b285160-u8FiiF9Wxx0F.png",
+      "voiceActors": [
+        {
+          "id": 100721,
+          "language": "Japanese",
+          "name": {
+            "first": "Miho",
+            "last": "Miyagawa",
+            "full": "Miho Miyagawa",
+            "native": "宮川美保",
+            "userPreferred": "Miho Miyagawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100721-uRUu4DMce3Dd.jpg"
+        }
+      ]
+    },
+    {
+      "id": 285153,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chima no Mama",
+        "last": null,
+        "full": "Chima no Mama",
+        "native": "ちまのママ",
+        "userPreferred": "Chima no Mama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b285153-q49diau9WZ5q.png",
+      "voiceActors": [
+        {
+          "id": 105215,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Uetake",
+            "full": "Kana Uetake",
+            "native": "香菜植竹",
+            "userPreferred": "Kana Uetake"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10215.jpg"
+        }
+      ]
+    },
+    {
+      "id": 285161,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dori",
+        "last": null,
+        "full": "Dori",
+        "native": "ドリー",
+        "userPreferred": "Dori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b285161-5k1tCMdAIOcB.png",
+      "voiceActors": [
+        {
+          "id": 95409,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshihisa",
+            "last": "Kawahara",
+            "full": "Yoshihisa Kawahara",
+            "native": "川原慶久",
+            "userPreferred": "Yoshihisa Kawahara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95409-87S6L0u8gQNf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 285162,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Meru no Papa",
+        "last": null,
+        "full": "Meru no Papa",
+        "native": "メルのパパ",
+        "userPreferred": "Meru no Papa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b285162-JzRsoqJqwkvN.png",
+      "voiceActors": [
+        {
+          "id": 95409,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshihisa",
+            "last": "Kawahara",
+            "full": "Yoshihisa Kawahara",
+            "native": "川原慶久",
+            "userPreferred": "Yoshihisa Kawahara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95409-87S6L0u8gQNf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 285155,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Eru",
+        "last": null,
+        "full": "Eru",
+        "native": "エル",
+        "userPreferred": "Eru"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b285155-eKnz8uksiBID.png",
+      "voiceActors": [
+        {
+          "id": 101480,
+          "language": "Japanese",
+          "name": {
+            "first": "Kotomi",
+            "last": "Iwamura",
+            "full": "Kotomi Iwamura",
+            "native": "琴美 岩村",
+            "userPreferred": "Kotomi Iwamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6480.jpg"
+        }
+      ]
+    },
+    {
+      "id": 285163,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tabi Usagi-san",
+        "last": null,
+        "full": "Tabi Usagi-san",
+        "native": "旅うさぎさん",
+        "userPreferred": "Tabi Usagi-san"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b285163-UFBWPasjydFi.png",
+      "voiceActors": [
+        {
+          "id": 95160,
+          "language": "Japanese",
+          "name": {
+            "first": "Takehito",
+            "last": "Koyasu",
+            "full": "Takehito Koyasu",
+            "native": "子安武人",
+            "userPreferred": "Takehito Koyasu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95160-jWevcH7BmfE1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 285156,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hirari-san",
+        "last": null,
+        "full": "Hirari-san",
+        "native": "ひらりさん",
+        "userPreferred": "Hirari-san"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b285156-gymrEyBvRFMP.png",
+      "voiceActors": [
+        {
+          "id": 95709,
+          "language": "Japanese",
+          "name": {
+            "first": "Rumi",
+            "last": "Shishido",
+            "full": "Rumi Shishido",
+            "native": "宍戸留美",
+            "userPreferred": "Rumi Shishido"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95709-1rUYsS5GXdN3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 285164,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Charaku-san",
+        "last": null,
+        "full": "Charaku-san",
+        "native": "チャラクさん",
+        "userPreferred": "Charaku-san"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b285164-KAk49vfyXY4T.png",
+      "voiceActors": [
+        {
+          "id": 95735,
+          "language": "Japanese",
+          "name": {
+            "first": "Tatsuhisa",
+            "last": "Suzuki",
+            "full": "Tatsuhisa Suzuki",
+            "native": "鈴木達央",
+            "userPreferred": "Tatsuhisa Suzuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95735-xssSe5BRSkaq.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 40461,
+      "relationType": "ADAPTATION",
+      "malId": 10461,
+      "title": {
+        "romaji": "Happy Happy Clover",
+        "english": "Happy Happy Clover",
+        "native": "はぴはぴクローバー",
+        "userPreferred": "Happy Happy Clover"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx40461-4Feo1bkjPEpF.png",
+      "color": "#e4a135",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx40461-4Feo1bkjPEpF.png",
+      "rating": 73
+    }
+  ],
+  "episodes": [
+    {
+      "id": "happy-happy-clover-episode-1",
+      "title": "Welcome to Mikazuki forest / Mikazuki forest house call",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5276-VCu3CuWhIEAb.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:26:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//happy-happy-clover-episode-1"
+    },
+    {
+      "id": "happy-happy-clover-episode-2",
+      "title": "Mr Traveling Rabbit appears! / Let's defeat the monster!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5276-VCu3CuWhIEAb.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:26:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//happy-happy-clover-episode-2"
+    },
+    {
+      "id": "happy-happy-clover-episode-3",
+      "title": "The secret of the spring / Chima is a postman?!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5276-VCu3CuWhIEAb.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:26:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//happy-happy-clover-episode-3"
+    },
+    {
+      "id": "happy-happy-clover-episode-4",
+      "title": "Meru's feelings / Showdown with the Brown-eared Bulbul Brothers!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5276-VCu3CuWhIEAb.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:26:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//happy-happy-clover-episode-4"
+    },
+    {
+      "id": "happy-happy-clover-episode-5",
+      "title": "usa posuto tai kessei ! / ookina nimotsu !?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5276-VCu3CuWhIEAb.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:26:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//happy-happy-clover-episode-5"
+    },
+    {
+      "id": "happy-happy-clover-episode-6",
+      "title": "tesuto wa himitsu !? / tabiusagisan to reusu !",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5276-VCu3CuWhIEAb.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:26:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//happy-happy-clover-episode-6"
+    },
+    {
+      "id": "happy-happy-clover-episode-7",
+      "title": "oomono suketto toujou ! / hirarisan no jakuten hakken !",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5276-VCu3CuWhIEAb.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:26:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//happy-happy-clover-episode-7"
+    },
+    {
+      "id": "happy-happy-clover-episode-8",
+      "title": "kawaii obake / akari kusa o mamore !",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5276-VCu3CuWhIEAb.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:26:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//happy-happy-clover-episode-8"
+    },
+    {
+      "id": "happy-happy-clover-episode-9",
+      "title": "chima no hatsuchousen / hirarisan no bakansu",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5276-VCu3CuWhIEAb.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:26:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//happy-happy-clover-episode-9"
+    },
+    {
+      "id": "happy-happy-clover-episode-10",
+      "title": "papa no ichinichi sensei / usa posuto tai , hipparidako !",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5276-VCu3CuWhIEAb.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:26:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//happy-happy-clover-episode-10"
+    },
+    {
+      "id": "happy-happy-clover-episode-11",
+      "title": "muttsugo chuuihou ! / chima hitori no orusuban !",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5276-VCu3CuWhIEAb.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:26:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//happy-happy-clover-episode-11"
+    },
+    {
+      "id": "happy-happy-clover-episode-12",
+      "title": "chima , mafuraa o amu / kimyou na dai dorobou",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5276-VCu3CuWhIEAb.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:26:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//happy-happy-clover-episode-12"
+    },
+    {
+      "id": "happy-happy-clover-episode-13",
+      "title": "ganbare haru ! / haru matsuri ha yattekuru !",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5276-VCu3CuWhIEAb.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:26:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//happy-happy-clover-episode-13"
+    }
+  ]
+}

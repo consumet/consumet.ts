@@ -1,0 +1,835 @@
+{
+  "id": "2398",
+  "title": {
+    "romaji": "Digimon Adventure 02: Diablomon no Gyakushuu",
+    "english": "Digimon Adventure 02: Revenge of Diaboromon",
+    "native": "デジモンアドベンチャー02 ディアボロモンの逆襲"
+  },
+  "malId": 2398,
+  "synonyms": [
+    "Digimon Adventure 02: Return of Diablomon",
+    "Digimon Adventure 02: Diablomon Strikes Back"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2398.jpg",
+  "popularity": 9315,
+  "color": "#e4e45d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2398.jpg",
+  "description": "After the events of 02, everything is finally getting back to normal. That is, until a strangely familiar icon starts showing up on computer systems around the Japan. And not just computer systems... TVs, mobile phones, video games; anything with a screen with online capabilities. And this icon seems to be looking for somone... Yagami Taichi, and Ishida Yamato, who defeated it several years before. Yes, it turns out that this jellyfish digimon is in fact Diablomon, the Virus-type Digimon that was defeated in the second movie. But this time, he's learned to make himself physical, and is sending thousands of copies of himself into the real world.<br><br>\nKoushiro and Ken devise a plan to rid the world of the virus once and for all, but it'll take the help of all the Destined, past and present. Once again, it's a race against time to put a stop to Diablomon's plot... but even that is cloaked in shadow.<br><br>\nWill the revival of Omagamon be enough to stop Diablomon a second time, or will the millions of copies prove enough of a power boost to shrug off the \"Digimon Champion of Justice\"? Of course, he hasn't seen the new breed of Chosen, nor the new techniques. It's a fight to the finish, with the destruction of Tokyo resting on the line. <br><br>\n(Source: AniDB)",
+  "status": "Completed",
+  "releaseDate": 2001,
+  "startDate": {
+    "year": 2001,
+    "month": 3,
+    "day": 3
+  },
+  "endDate": {
+    "year": 2001,
+    "month": 3,
+    "day": 3
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 69,
+  "duration": 30,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Drama",
+    "Sci-Fi"
+  ],
+  "season": "SPRING",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [
+    {
+      "id": 2397,
+      "malId": 2397,
+      "title": {
+        "romaji": "Digimon Adventure: Bokura no War Game!",
+        "english": "Digimon: Our War Game",
+        "native": "デジモンアドベンチャー ぼくらのウォーゲーム!",
+        "userPreferred": "Digimon Adventure: Bokura no War Game!"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2397-jFhwpduFwf3r.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2397-183F6iiPX3yh.jpg",
+      "rating": 75,
+      "type": "MOVIE"
+    }
+  ],
+  "characters": [
+    {
+      "id": 1962,
+      "role": "MAIN",
+      "name": {
+        "first": "Ken",
+        "last": "Ichijouji",
+        "full": "Ken Ichijouji",
+        "native": "一乗寺賢",
+        "userPreferred": "Ken Ichijouji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1962-Ullc11tNI6fU.png",
+      "voiceActors": [
+        {
+          "id": 95082,
+          "language": "Japanese",
+          "name": {
+            "first": "Romi",
+            "last": "Park",
+            "full": "Romi Park",
+            "native": "朴璐美",
+            "userPreferred": "Romi Park"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95082-pNGbnYv4cHAK.png"
+        },
+        {
+          "id": 95390,
+          "language": "English",
+          "name": {
+            "first": "Derek",
+            "last": "Prince",
+            "full": "Derek Prince",
+            "native": null,
+            "userPreferred": "Derek Stephen Prince"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95390-R8mt1qvD1qGX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9950,
+      "role": "MAIN",
+      "name": {
+        "first": "Patamon",
+        "last": null,
+        "full": "Patamon",
+        "native": "パタモン",
+        "userPreferred": "Patamon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9950.jpg",
+      "voiceActors": [
+        {
+          "id": 95937,
+          "language": "Japanese",
+          "name": {
+            "first": "Miwa",
+            "last": "Matsumoto",
+            "full": "Miwa Matsumoto",
+            "native": "松本美和",
+            "userPreferred": "Miwa Matsumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/937.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6680,
+      "role": "MAIN",
+      "name": {
+        "first": "Wormmon",
+        "last": null,
+        "full": "Wormmon",
+        "native": "ワームモン",
+        "userPreferred": "Wormmon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6680.jpg",
+      "voiceActors": [
+        {
+          "id": 95047,
+          "language": "Japanese",
+          "name": {
+            "first": "Naozumi",
+            "last": "Takahashi",
+            "full": "Naozumi Takahashi",
+            "native": "高橋直純",
+            "userPreferred": "Naozumi Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95047-TpYPJprWRBE3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1960,
+      "role": "MAIN",
+      "name": {
+        "first": "Daisuke",
+        "last": "Motomiya",
+        "full": "Daisuke Motomiya",
+        "native": "本宮 大輔",
+        "userPreferred": "Daisuke Motomiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1960-oYyird0GsbgC.png",
+      "voiceActors": [
+        {
+          "id": 95447,
+          "language": "Japanese",
+          "name": {
+            "first": "Reiko",
+            "last": "Kiuchi",
+            "full": "Reiko Kiuchi",
+            "native": "木内レイコ",
+            "userPreferred": "Reiko Kiuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95447-azSzomyrIIUR.png"
+        },
+        {
+          "id": 95403,
+          "language": "English",
+          "name": {
+            "first": "Brian",
+            "last": "Donovan",
+            "full": "Brian Donovan",
+            "native": null,
+            "userPreferred": "Brian Donovan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/403.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9954,
+      "role": "MAIN",
+      "name": {
+        "first": "Tailmon",
+        "last": null,
+        "full": "Tailmon",
+        "native": "テイルモン",
+        "userPreferred": "Tailmon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9954.jpg",
+      "voiceActors": [
+        {
+          "id": 96456,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuka",
+            "last": "Tokumitsu",
+            "full": "Yuka Tokumitsu",
+            "native": "徳光由禾",
+            "userPreferred": "Yuka Tokumitsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96456-UGEu0zMdfRx9.jpg"
+        },
+        {
+          "id": 96561,
+          "language": "English",
+          "name": {
+            "first": "Edie",
+            "last": "Mirman",
+            "full": "Edie Mirman",
+            "native": null,
+            "userPreferred": "Edie Mirman"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1561.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9953,
+      "role": "MAIN",
+      "name": {
+        "first": "Tentomon",
+        "last": null,
+        "full": "Tentomon",
+        "native": "テントモン",
+        "userPreferred": "Tentomon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9953.jpg",
+      "voiceActors": [
+        {
+          "id": 95079,
+          "language": "Japanese",
+          "name": {
+            "first": "Takahiro",
+            "last": "Sakurai",
+            "full": "Takahiro Sakurai",
+            "native": "櫻井孝宏",
+            "userPreferred": "Takahiro Sakurai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95079-MdbWTLxPUvFf.jpg"
+        },
+        {
+          "id": 96448,
+          "language": "English",
+          "name": {
+            "first": "Jeff",
+            "last": "Nimoy",
+            "full": "Jeff Nimoy",
+            "native": null,
+            "userPreferred": "Jeff Nimoy"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96448-3IUyRxB2luzB.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1961,
+      "role": "MAIN",
+      "name": {
+        "first": "Takeru",
+        "last": "Takaishi",
+        "full": "Takeru Takaishi",
+        "native": "高石タケル",
+        "userPreferred": "Takeru Takaishi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1961-tH2XftpODD7y.png",
+      "voiceActors": [
+        {
+          "id": 96546,
+          "language": "Japanese",
+          "name": {
+            "first": "Taisuke",
+            "last": "Yamamoto",
+            "full": "Taisuke Yamamoto",
+            "native": "泰輔 山本",
+            "userPreferred": "Taisuke Yamamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96546-7brc5zt0laeM.png"
+        }
+      ]
+    },
+    {
+      "id": 16295,
+      "role": "MAIN",
+      "name": {
+        "first": "V-Mon",
+        "last": null,
+        "full": "V-Mon",
+        "native": "ブイモン",
+        "userPreferred": "V-Mon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16295.jpg",
+      "voiceActors": [
+        {
+          "id": 95277,
+          "language": "Japanese",
+          "name": {
+            "first": "Junko",
+            "last": "Noda",
+            "full": "Junko Noda",
+            "native": "野田順子",
+            "userPreferred": "Junko Noda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95277-hcE9l52SPjNP.jpg"
+        },
+        {
+          "id": 95390,
+          "language": "English",
+          "name": {
+            "first": "Derek",
+            "last": "Prince",
+            "full": "Derek Prince",
+            "native": null,
+            "userPreferred": "Derek Stephen Prince"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95390-R8mt1qvD1qGX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1907,
+      "role": "MAIN",
+      "name": {
+        "first": "Taichi",
+        "last": "Yagami",
+        "full": "Taichi Yagami",
+        "native": "八神太一",
+        "userPreferred": "Taichi Yagami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1907-ZWmX1dVGPfqn.png",
+      "voiceActors": [
+        {
+          "id": 95483,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiko",
+            "last": "Fujita",
+            "full": "Toshiko Fujita",
+            "native": "藤田淑子",
+            "userPreferred": "Toshiko Fujita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95483-q3MQ7a7tYsFO.png"
+        },
+        {
+          "id": 101514,
+          "language": "English",
+          "name": {
+            "first": "Jason",
+            "last": "Spisak",
+            "full": "Jason Spisak",
+            "native": null,
+            "userPreferred": "Jason Spisak"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101514-19rdvLziJNAj.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9952,
+      "role": "MAIN",
+      "name": {
+        "first": "Gabumon",
+        "last": null,
+        "full": "Gabumon",
+        "native": "ガブモン",
+        "userPreferred": "Gabumon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9952.jpg",
+      "voiceActors": [
+        {
+          "id": 95316,
+          "language": "Japanese",
+          "name": {
+            "first": "Mayumi",
+            "last": "Yamaguchi",
+            "full": "Mayumi Yamaguchi",
+            "native": "山口眞弓",
+            "userPreferred": "Mayumi Yamaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95316-sp5oQEI6tURH.png"
+        }
+      ]
+    },
+    {
+      "id": 1909,
+      "role": "MAIN",
+      "name": {
+        "first": "Yamato",
+        "last": "Ishida",
+        "full": "Yamato Ishida",
+        "native": "石田ヤマト",
+        "userPreferred": "Yamato Ishida"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1909-BFIYnrdbeLhB.png",
+      "voiceActors": [
+        {
+          "id": 95484,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuto",
+            "last": "Kazama",
+            "full": "Yuuto Kazama",
+            "native": "風間勇刀",
+            "userPreferred": "Yuuto Kazama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/484.jpg"
+        },
+        {
+          "id": 96544,
+          "language": "English",
+          "name": {
+            "first": "Michael",
+            "last": "Reisz",
+            "full": "Michael Reisz",
+            "native": null,
+            "userPreferred": "Michael Reisz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96544-GBjc928knN51.jpg"
+        }
+      ]
+    },
+    {
+      "id": 24801,
+      "role": "MAIN",
+      "name": {
+        "first": "Hawkmon",
+        "last": null,
+        "full": "Hawkmon",
+        "native": "ホークモン",
+        "userPreferred": "Hawkmon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24801.jpg",
+      "voiceActors": [
+        {
+          "id": 95408,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouichi",
+            "last": "Toochika",
+            "full": "Kouichi Toochika",
+            "native": "遠近孝一",
+            "userPreferred": "Kouichi Toochika"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/408.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1963,
+      "role": "MAIN",
+      "name": {
+        "first": "Hikari",
+        "last": "Yagami",
+        "full": "Hikari Yagami",
+        "native": "八神ヒカリ",
+        "userPreferred": "Hikari Yagami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1963-dOvRGlPBRIYw.png",
+      "voiceActors": [
+        {
+          "id": 95386,
+          "language": "Japanese",
+          "name": {
+            "first": "Kae",
+            "last": "Araki",
+            "full": "Kae Araki",
+            "native": "荒木香衣",
+            "userPreferred": "Kae Araki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95386-rDwf29ehsbAt.jpg"
+        },
+        {
+          "id": 96015,
+          "language": "English",
+          "name": {
+            "first": "Lara",
+            "last": "Miller",
+            "full": "Lara Miller",
+            "native": null,
+            "userPreferred": "Lara Jill Miller"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96015-RIjF70O574WR.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2277,
+      "role": "MAIN",
+      "name": {
+        "first": "Koushirou",
+        "last": "Izumi",
+        "full": "Koushirou Izumi",
+        "native": "泉光子郎",
+        "userPreferred": "Koushirou Izumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2277-4iS5JyV5uyjS.png",
+      "voiceActors": [
+        {
+          "id": 95486,
+          "language": "Japanese",
+          "name": {
+            "first": "Umi",
+            "last": "Tenjin",
+            "full": "Umi Tenjin",
+            "native": "有海 天神",
+            "userPreferred": "Umi Tenjin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/486.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4950,
+      "role": "MAIN",
+      "name": {
+        "first": "Agumon",
+        "last": null,
+        "full": "Agumon",
+        "native": "アグモン",
+        "userPreferred": "Agumon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4950.jpg",
+      "voiceActors": [
+        {
+          "id": 95387,
+          "language": "Japanese",
+          "name": {
+            "first": "Chika",
+            "last": "Sakamoto",
+            "full": "Chika Sakamoto",
+            "native": "坂本千夏",
+            "userPreferred": "Chika Sakamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95387-CLYs2OZwhe9c.png"
+        },
+        {
+          "id": 95771,
+          "language": "English",
+          "name": {
+            "first": "Tom",
+            "last": "Fahn",
+            "full": "Tom Fahn",
+            "native": null,
+            "userPreferred": "Tom Fahn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95771-l8xYc7jIvq3o.png"
+        }
+      ]
+    },
+    {
+      "id": 5977,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gomamon",
+        "last": null,
+        "full": "Gomamon",
+        "native": "ゴマモン",
+        "userPreferred": "Gomamon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5977.jpg",
+      "voiceActors": [
+        {
+          "id": 95015,
+          "language": "Japanese",
+          "name": {
+            "first": "Junko",
+            "last": "Takeuchi",
+            "full": "Junko Takeuchi",
+            "native": "竹内順子",
+            "userPreferred": "Junko Takeuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95015-QwI9K4FRe4Cq.png"
+        }
+      ]
+    },
+    {
+      "id": 2278,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mimi",
+        "last": "Tachikawa",
+        "full": "Mimi Tachikawa",
+        "native": "太刀川ミミ",
+        "userPreferred": "Mimi Tachikawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2278-2pznB5TswqIk.png",
+      "voiceActors": [
+        {
+          "id": 95487,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Maeda",
+            "full": "Ai Maeda",
+            "native": "前田愛",
+            "userPreferred": "Ai Maeda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95487-AryHTm78n9to.png"
+        },
+        {
+          "id": 95406,
+          "language": "English",
+          "name": {
+            "first": "Philece",
+            "last": "Sampler",
+            "full": "Philece Sampler",
+            "native": null,
+            "userPreferred": "Philece Sampler"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95406-2ZSSErZT2xNL.png"
+        }
+      ]
+    },
+    {
+      "id": 2276,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sora",
+        "last": "Takenouchi",
+        "full": "Sora Takenouchi",
+        "native": "武之内空 ",
+        "userPreferred": "Sora Takenouchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2276-edQsS9qzUbm5.png",
+      "voiceActors": [
+        {
+          "id": 95485,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Mizutani",
+            "full": "Yuuko Mizutani",
+            "native": "水谷優子",
+            "userPreferred": "Yuuko Mizutani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95485-fKXiqJdcVHHs.png"
+        },
+        {
+          "id": 95264,
+          "language": "English",
+          "name": {
+            "first": "Colleen",
+            "last": "O'Shaughnessey",
+            "full": "Colleen O'Shaughnessey",
+            "native": null,
+            "userPreferred": "Colleen O'Shaughnessey"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95264-t2i84EKOw71G.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4166,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Iori",
+        "last": "Hida",
+        "full": "Iori Hida",
+        "native": "火田伊織",
+        "userPreferred": "Iori Hida"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4166-vulwWadUPjP1.png",
+      "voiceActors": [
+        {
+          "id": 101663,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Urawa",
+            "full": "Megumi Urawa",
+            "native": "浦和めぐみ",
+            "userPreferred": "Megumi Urawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101663-0ioQAduoHX8j.jpg"
+        },
+        {
+          "id": 95406,
+          "language": "English",
+          "name": {
+            "first": "Philece",
+            "last": "Sampler",
+            "full": "Philece Sampler",
+            "native": null,
+            "userPreferred": "Philece Sampler"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95406-2ZSSErZT2xNL.png"
+        }
+      ]
+    },
+    {
+      "id": 4165,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Miyako",
+        "last": "Inoue",
+        "full": "Miyako Inoue",
+        "native": "井ノ上京",
+        "userPreferred": "Miyako Inoue"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4165-eFV2qR1q7t66.jpg",
+      "voiceActors": [
+        {
+          "id": 95728,
+          "language": "Japanese",
+          "name": {
+            "first": "Rio",
+            "last": "Natsuki",
+            "full": "Rio Natsuki",
+            "native": "夏樹リオ",
+            "userPreferred": "Rio Natsuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95728-K5yVk3APigVJ.png"
+        },
+        {
+          "id": 100489,
+          "language": "Portuguese",
+          "name": {
+            "first": "Adriana",
+            "last": "Torres",
+            "full": "Adriana Torres",
+            "native": null,
+            "userPreferred": "Adriana Torres"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5489.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18444,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Armadimon",
+        "last": null,
+        "full": "Armadimon",
+        "native": "アルマジモン",
+        "userPreferred": "Armadimon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18444.jpg",
+      "voiceActors": [
+        {
+          "id": 101663,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Urawa",
+            "full": "Megumi Urawa",
+            "native": "浦和めぐみ",
+            "userPreferred": "Megumi Urawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101663-0ioQAduoHX8j.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2812,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jou",
+        "last": "Kido",
+        "full": "Jou Kido",
+        "native": "城戸丈",
+        "userPreferred": "Jou Kido"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2812-UkLkIUhVyrU8.jpg",
+      "voiceActors": [
+        {
+          "id": 95488,
+          "language": "Japanese",
+          "name": {
+            "first": "Masami",
+            "last": "Kikuchi",
+            "full": "Masami Kikuchi",
+            "native": "菊池正美",
+            "userPreferred": "Masami Kikuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95488-XPg4VA6rW4jJ.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 1313,
+      "relationType": "PREQUEL",
+      "malId": 1313,
+      "title": {
+        "romaji": "Digimon Adventure 02",
+        "english": "Digimon: Digital Monsters 02",
+        "native": "デジモンアドベンチャー０２",
+        "userPreferred": "Digimon Adventure 02"
+      },
+      "status": "Completed",
+      "episodes": 50,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1313-oCvzzU6fiCZB.png",
+      "color": "#e4a135",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1313-wiSJWvPXTwGF.jpg",
+      "rating": 68
+    },
+    {
+      "id": 20802,
+      "relationType": "SEQUEL",
+      "malId": 25687,
+      "title": {
+        "romaji": "Digimon Adventure tri. 1: Saikai",
+        "english": "Digimon Adventure tri. Chapter 1: Reunion",
+        "native": "デジモンアドベンチャー tri. 第1章「再会」",
+        "userPreferred": "Digimon Adventure tri. 1: Saikai"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20802-4fra401ry8FT.png",
+      "color": "#785d28",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20802-7KZd1B3KBJgB.jpg",
+      "rating": 71
+    }
+  ],
+  "episodes": []
+}

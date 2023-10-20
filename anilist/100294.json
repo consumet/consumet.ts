@@ -1,0 +1,879 @@
+{
+  "id": "100294",
+  "title": {
+    "romaji": "Quanzhi Fashi 2",
+    "english": "Full-Time Magister S2",
+    "native": "全职法师 第2季"
+  },
+  "malId": 36318,
+  "synonyms": [
+    "Full-Time Magister 2"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "CN",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100294-Am3ipeQmJEkM.jpg",
+  "popularity": 13691,
+  "color": "#5d93f1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100294-Am3ipeQmJEkM.jpg",
+  "description": "Second season of Quanzhi Fashi.",
+  "status": "Completed",
+  "releaseDate": 2017,
+  "startDate": {
+    "year": 2017,
+    "month": 9,
+    "day": 15
+  },
+  "endDate": {
+    "year": 2017,
+    "month": 12,
+    "day": 1
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 66,
+  "duration": 18,
+  "genres": [
+    "Action",
+    "Fantasy",
+    "Romance"
+  ],
+  "season": null,
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [
+    {
+      "id": 120193,
+      "malId": 40979,
+      "title": {
+        "romaji": "Yingxiong Zailin",
+        "english": null,
+        "native": "英雄再临",
+        "userPreferred": "Yingxiong Zailin"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120193-KAMiBZ4Nw3xA.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120193-KAMiBZ4Nw3xA.png",
+      "rating": 68,
+      "type": "ONA"
+    },
+    {
+      "id": 122671,
+      "malId": 48941,
+      "title": {
+        "romaji": "Quanzhi Fashi 5",
+        "english": null,
+        "native": "全职法师 第5季",
+        "userPreferred": "Quanzhi Fashi 5"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx122671-0ie6U9LGaILt.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx122671-0ie6U9LGaILt.png",
+      "rating": 72,
+      "type": "ONA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 132351,
+      "role": "MAIN",
+      "name": {
+        "first": "Fan",
+        "last": "Mo",
+        "full": "Fan Mo",
+        "native": "莫凡",
+        "userPreferred": "Fan Mo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n132351-OuK4B2ykm9Ss.jpg",
+      "voiceActors": [
+        {
+          "id": 188404,
+          "language": "Chinese",
+          "name": {
+            "first": "Shuiren",
+            "last": "Hei",
+            "full": "Shuiren Hei",
+            "native": "黑石稔",
+            "userPreferred": "Shuiren Hei"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188404-x5y5yQg0uozc.png"
+        }
+      ]
+    },
+    {
+      "id": 219661,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuang",
+        "last": null,
+        "full": "Yuang",
+        "native": "宇昂",
+        "userPreferred": "Yuang"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 174200,
+          "language": "Chinese",
+          "name": {
+            "first": "Lei",
+            "last": "Xia",
+            "full": "Lei Xia",
+            "native": "夏磊",
+            "userPreferred": "Lei Xia"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n174200-8lyQ0y4TbAxA.png"
+        }
+      ]
+    },
+    {
+      "id": 219827,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dahuang",
+        "last": "Xu",
+        "full": "Dahuang Xu",
+        "native": "徐大荒",
+        "userPreferred": "Dahuang Xu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 217458,
+          "language": "Chinese",
+          "name": {
+            "first": "Beichen",
+            "last": "Liu",
+            "full": "Beichen Liu",
+            "native": "刘北辰",
+            "userPreferred": "Beichen Liu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n217458-kbcccFl4lLQ8.png"
+        }
+      ]
+    },
+    {
+      "id": 219858,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lijun",
+        "last": "Pan",
+        "full": "Lijun Pan",
+        "native": "潘丽君",
+        "userPreferred": "Lijun Pan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 219859,
+          "language": "Chinese",
+          "name": {
+            "first": "Yuan",
+            "last": "Weng",
+            "full": "Yuan Weng",
+            "native": "翁媛",
+            "userPreferred": "Yuan Weng"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n219859-izUNgpjCK0Hf.png"
+        }
+      ]
+    },
+    {
+      "id": 219864,
+      "role": "SUPPORTING",
+      "name": {
+        "first": null,
+        "last": "Loashi Yi",
+        "full": "Loashi Yi",
+        "native": "老师乙",
+        "userPreferred": "Loashi Yi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 219666,
+          "language": "Chinese",
+          "name": {
+            "first": "Yunpeng",
+            "last": "Bian",
+            "full": "Yunpeng Bian",
+            "native": "卞云鹏",
+            "userPreferred": "Yunpeng Bian"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n219666-D3T3HddBXlot.png"
+        }
+      ]
+    },
+    {
+      "id": 219484,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mu",
+        "last": "Bai",
+        "full": "Mu Bai",
+        "native": "穆白",
+        "userPreferred": "Mu Bai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b219484-Bg0bMkc9dcoX.png",
+      "voiceActors": [
+        {
+          "id": 180731,
+          "language": "Chinese",
+          "name": {
+            "first": "Lu",
+            "last": "Zhao",
+            "full": "Lu Zhao",
+            "native": "赵路",
+            "userPreferred": "Lu Zhao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n180731-rYfjXUloFowZ.png"
+        }
+      ]
+    },
+    {
+      "id": 219660,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jiaxing",
+        "last": "Mo",
+        "full": "Jiaxing Mo",
+        "native": "莫家兴",
+        "userPreferred": "Jiaxing Mo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b219660-Aq54rtIklPUM.png",
+      "voiceActors": [
+        {
+          "id": 217690,
+          "language": "Chinese",
+          "name": {
+            "first": "Xin",
+            "last": "Su",
+            "full": "Xin Su",
+            "native": "苏鑫",
+            "userPreferred": "Xin Su"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n217690-ZvAquEQU4Fsk.png"
+        }
+      ]
+    },
+    {
+      "id": 219852,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yinglu",
+        "last": "Zhang",
+        "full": "Yinglu Zhang",
+        "native": "张英璐",
+        "userPreferred": "Yinglu Zhang"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b219852-b21hto5y0QRc.png",
+      "voiceActors": [
+        {
+          "id": 188838,
+          "language": "Chinese",
+          "name": {
+            "first": "Wen",
+            "last": "Jiang",
+            "full": "Wen Jiang",
+            "native": "降温",
+            "userPreferred": "Wen Jiang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188838-JQGpDcWSmFfR.png"
+        }
+      ]
+    },
+    {
+      "id": 219830,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Wenjie",
+        "last": "Li",
+        "full": "Wenjie Li",
+        "native": "黎文杰",
+        "userPreferred": "Wenjie Li"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 219487,
+          "language": "Chinese",
+          "name": {
+            "first": "Muqing",
+            "last": "Ke",
+            "full": "Muqing Ke",
+            "native": "柯暮卿",
+            "userPreferred": "Muqing Ke"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n219487-USRgme2T9tYa.png"
+        }
+      ]
+    },
+    {
+      "id": 219866,
+      "role": "SUPPORTING",
+      "name": {
+        "first": null,
+        "last": "Fengxi Laoshi",
+        "full": "Fengxi Laoshi",
+        "native": "风系老师",
+        "userPreferred": "Fengxi Laoshi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 219867,
+          "language": "Chinese",
+          "name": {
+            "first": "Mogu",
+            "last": null,
+            "full": "Mogu",
+            "native": "蘑菇",
+            "userPreferred": "Mogu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 210671,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Zhankong",
+        "last": "",
+        "full": "Zhankong",
+        "native": "斩空",
+        "userPreferred": "Zhankong"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b210671-sAGlkUoXkTmB.png",
+      "voiceActors": [
+        {
+          "id": 219666,
+          "language": "Chinese",
+          "name": {
+            "first": "Yunpeng",
+            "last": "Bian",
+            "full": "Yunpeng Bian",
+            "native": "卞云鹏",
+            "userPreferred": "Yunpeng Bian"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n219666-D3T3HddBXlot.png"
+        }
+      ]
+    },
+    {
+      "id": 219663,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Zhouyun",
+        "last": "Mu",
+        "full": "Zhouyun Mu",
+        "native": "穆卓云",
+        "userPreferred": "Zhouyun Mu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b219663-zmFEhdJVyy0f.png",
+      "voiceActors": [
+        {
+          "id": 217458,
+          "language": "Chinese",
+          "name": {
+            "first": "Beichen",
+            "last": "Liu",
+            "full": "Beichen Liu",
+            "native": "刘北辰",
+            "userPreferred": "Beichen Liu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n217458-kbcccFl4lLQ8.png"
+        }
+      ]
+    },
+    {
+      "id": 219662,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Musheng",
+        "last": "Xue",
+        "full": "Musheng Xue",
+        "native": "薛木生",
+        "userPreferred": "Musheng Xue"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 174200,
+          "language": "Chinese",
+          "name": {
+            "first": "Lei",
+            "last": "Xia",
+            "full": "Lei Xia",
+            "native": "夏磊",
+            "userPreferred": "Lei Xia"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n174200-8lyQ0y4TbAxA.png"
+        }
+      ]
+    },
+    {
+      "id": 219829,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Feishi",
+        "last": null,
+        "full": "Feishi",
+        "native": "肥石",
+        "userPreferred": "Feishi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 217690,
+          "language": "Chinese",
+          "name": {
+            "first": "Xin",
+            "last": "Su",
+            "full": "Xin Su",
+            "native": "苏鑫",
+            "userPreferred": "Xin Su"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n217690-ZvAquEQU4Fsk.png"
+        }
+      ]
+    },
+    {
+      "id": 219868,
+      "role": "SUPPORTING",
+      "name": {
+        "first": null,
+        "last": "Nanmin Jia",
+        "full": "Nanmin Jia",
+        "native": "难民甲",
+        "userPreferred": "Nanmin Jia"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 219869,
+          "language": "Chinese",
+          "name": {
+            "first": "Manyin",
+            "last": null,
+            "full": "Manyin",
+            "native": "忙音",
+            "userPreferred": "Manyin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n219869-QpRWjYjEHIF7.png"
+        }
+      ]
+    },
+    {
+      "id": 210668,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Xinxia",
+        "last": "Ye",
+        "full": "Xinxia Ye",
+        "native": "叶心夏",
+        "userPreferred": "Xinxia Ye"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b210668-2uHZdCoJuHJN.png",
+      "voiceActors": [
+        {
+          "id": 188805,
+          "language": "Chinese",
+          "name": {
+            "first": "Yue",
+            "last": "Gui",
+            "full": "Yue Gui",
+            "native": "鬼月",
+            "userPreferred": "Yue Gui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188805-WS0IXwErIXCS.png"
+        }
+      ]
+    },
+    {
+      "id": 219658,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "He",
+        "last": "Mu",
+        "full": "He Mu",
+        "native": "穆贺",
+        "userPreferred": "He Mu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 219659,
+          "language": "Chinese",
+          "name": {
+            "first": "Tiantian",
+            "last": "Xie",
+            "full": "Tiantian Xie",
+            "native": "谢添天",
+            "userPreferred": "Tiantian Xie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n219659-NBA5z0uws2LL.png"
+        }
+      ]
+    },
+    {
+      "id": 219828,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "",
+        "last": "Zhu Xiaozheng",
+        "full": "Zhu Xiaozheng",
+        "native": "朱校长",
+        "userPreferred": "Zhu Xiaozheng"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 219666,
+          "language": "Chinese",
+          "name": {
+            "first": "Yunpeng",
+            "last": "Bian",
+            "full": "Yunpeng Bian",
+            "native": "卞云鹏",
+            "userPreferred": "Yunpeng Bian"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n219666-D3T3HddBXlot.png"
+        }
+      ]
+    },
+    {
+      "id": 219832,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Xiaoke",
+        "last": null,
+        "full": "Xiaoke",
+        "native": "小可",
+        "userPreferred": "Xiaoke"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b219832-RYbKBmmvqhAd.png",
+      "voiceActors": [
+        {
+          "id": 217588,
+          "language": "Chinese",
+          "name": {
+            "first": "Wan",
+            "last": "Su",
+            "full": "Wan Su",
+            "native": "苏婉",
+            "userPreferred": "Wan Su"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n217588-am2Vwwee63dJ.png"
+        }
+      ]
+    },
+    {
+      "id": 219870,
+      "role": "SUPPORTING",
+      "name": {
+        "first": null,
+        "last": "Nanmin Yi",
+        "full": "Nanmin Yi",
+        "native": "难民乙",
+        "userPreferred": "Nanmin Yi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 219867,
+          "language": "Chinese",
+          "name": {
+            "first": "Mogu",
+            "last": null,
+            "full": "Mogu",
+            "native": "蘑菇",
+            "userPreferred": "Mogu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 210665,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ningxue",
+        "last": "Mu",
+        "full": "Ningxue Mu",
+        "native": "穆宁雪",
+        "userPreferred": "Ningxue Mu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b210665-8yN2j6YZNajN.png",
+      "voiceActors": [
+        {
+          "id": 188835,
+          "language": "Chinese",
+          "name": {
+            "first": "Cucu",
+            "last": null,
+            "full": "Cucu",
+            "native": "醋醋",
+            "userPreferred": "Cucu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188835-jj1HnA6RMZ2h.png"
+        }
+      ]
+    },
+    {
+      "id": 219815,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Min",
+        "last": "Zhou",
+        "full": "Min Zhou",
+        "native": "周敏",
+        "userPreferred": "Min Zhou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b219815-4D4CpeJn7q5T.png",
+      "voiceActors": [
+        {
+          "id": 219841,
+          "language": "Chinese",
+          "name": {
+            "first": "Shisi",
+            "last": null,
+            "full": "Shisi",
+            "native": "十四",
+            "userPreferred": "Shisi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n219841-bCLvZudWhEIW.png"
+        }
+      ]
+    },
+    {
+      "id": 219833,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Zuohe",
+        "last": "Yang",
+        "full": "Zuohe Yang",
+        "native": "杨作河",
+        "userPreferred": "Zuohe Yang"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 219834,
+          "language": "Chinese",
+          "name": {
+            "first": "Qichang",
+            "last": "Gao",
+            "full": "Qichang Gao",
+            "native": "高其昌",
+            "userPreferred": "Qichang Gao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n219834-REdIfwDV9Jd9.png"
+        }
+      ]
+    },
+    {
+      "id": 219831,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Caitang",
+        "last": "Guo",
+        "full": "Caitang Guo",
+        "native": "郭彩棠",
+        "userPreferred": "Caitang Guo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b219831-pE9bSI3kbTC5.png",
+      "voiceActors": [
+        {
+          "id": 219860,
+          "language": "Chinese",
+          "name": {
+            "first": "Feimu",
+            "last": null,
+            "full": "Feimu",
+            "native": "沐霏",
+            "userPreferred": "Feimu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n219860-MKSJ9M5cQNMu.png"
+        }
+      ]
+    },
+    {
+      "id": 219871,
+      "role": "SUPPORTING",
+      "name": {
+        "first": null,
+        "last": "Nanmin Bing",
+        "full": "Nanmin Bing",
+        "native": "难民丙",
+        "userPreferred": "Nanmin Bing"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 217587,
+          "language": "Chinese",
+          "name": {
+            "first": "Hongbo",
+            "last": "Guo",
+            "full": "Hongbo Guo",
+            "native": "郭鸿博",
+            "userPreferred": "Hongbo Guo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n217587-BicOTyxmLoOo.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 99200,
+      "relationType": "PREQUEL",
+      "malId": 34300,
+      "title": {
+        "romaji": "Quanzhi Fashi",
+        "english": "Full-Time Magister",
+        "native": "全职法师",
+        "userPreferred": "Quanzhi Fashi"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99200-DuLcVrpoGq8w.png",
+      "color": "#1abbd6",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99200-DuLcVrpoGq8w.png",
+      "rating": 68
+    },
+    {
+      "id": 104745,
+      "relationType": "SEQUEL",
+      "malId": 38528,
+      "title": {
+        "romaji": "Quanzhi Fashi 3",
+        "english": "Full-Time Magister S3",
+        "native": "全职法师 第3季",
+        "userPreferred": "Quanzhi Fashi 3"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104745-nhUQ61TomI4D.jpg",
+      "color": "#f1865d",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104745-nhUQ61TomI4D.jpg",
+      "rating": 72
+    }
+  ],
+  "episodes": [
+    {
+      "id": "quanzhi-fashi-2nd-season-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100294-Am3ipeQmJEkM.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//quanzhi-fashi-2nd-season-episode-1"
+    },
+    {
+      "id": "quanzhi-fashi-2nd-season-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100294-Am3ipeQmJEkM.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//quanzhi-fashi-2nd-season-episode-2"
+    },
+    {
+      "id": "quanzhi-fashi-2nd-season-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100294-Am3ipeQmJEkM.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//quanzhi-fashi-2nd-season-episode-3"
+    },
+    {
+      "id": "quanzhi-fashi-2nd-season-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100294-Am3ipeQmJEkM.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//quanzhi-fashi-2nd-season-episode-4"
+    },
+    {
+      "id": "quanzhi-fashi-2nd-season-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100294-Am3ipeQmJEkM.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//quanzhi-fashi-2nd-season-episode-5"
+    },
+    {
+      "id": "quanzhi-fashi-2nd-season-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100294-Am3ipeQmJEkM.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//quanzhi-fashi-2nd-season-episode-6"
+    },
+    {
+      "id": "quanzhi-fashi-2nd-season-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100294-Am3ipeQmJEkM.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//quanzhi-fashi-2nd-season-episode-7"
+    },
+    {
+      "id": "quanzhi-fashi-2nd-season-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100294-Am3ipeQmJEkM.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//quanzhi-fashi-2nd-season-episode-8"
+    },
+    {
+      "id": "quanzhi-fashi-2nd-season-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100294-Am3ipeQmJEkM.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//quanzhi-fashi-2nd-season-episode-9"
+    },
+    {
+      "id": "quanzhi-fashi-2nd-season-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100294-Am3ipeQmJEkM.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//quanzhi-fashi-2nd-season-episode-10"
+    },
+    {
+      "id": "quanzhi-fashi-2nd-season-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100294-Am3ipeQmJEkM.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//quanzhi-fashi-2nd-season-episode-11"
+    },
+    {
+      "id": "quanzhi-fashi-2nd-season-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100294-Am3ipeQmJEkM.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//quanzhi-fashi-2nd-season-episode-12"
+    }
+  ]
+}

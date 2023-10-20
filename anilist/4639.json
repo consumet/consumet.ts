@@ -1,0 +1,664 @@
+{
+  "id": "4639",
+  "title": {
+    "romaji": "Gosenzo-sama Banbanzai!",
+    "english": null,
+    "native": "御先祖様万々歳!"
+  },
+  "malId": 4639,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4639-MMpC9cBIdfg4.png",
+  "popularity": 3999,
+  "color": "#e4bb35",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4639-Fs0dcwfwZBBJ.jpg",
+  "description": "The Yomota family is small and typical: father Kinekuni (42), mother Tamiko (38), and son Inumaru (17). One day, a beautiful girl appears at their front door, calling herself \"Maroko Yomota,\" granddaughter of Inumaru who travels back in time with a time machine to visit her ancestors. Even with Tamiko's strong objection, Kinekuni and Inumaru welcome her to stay with them, and the structure of a happy family has begun to collapse.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 1989,
+  "startDate": {
+    "year": 1989,
+    "month": 8,
+    "day": 5
+  },
+  "endDate": {
+    "year": 1990,
+    "month": 1,
+    "day": 25
+  },
+  "totalEpisodes": 6,
+  "currentEpisode": 6,
+  "rating": 70,
+  "duration": 30,
+  "genres": [
+    "Comedy",
+    "Sci-Fi"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Studio Pierrot"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 5081,
+      "malId": 5081,
+      "title": {
+        "romaji": "Bakemonogatari",
+        "english": "Bakemonogatari",
+        "native": "化物語",
+        "userPreferred": "Bakemonogatari"
+      },
+      "status": "Completed",
+      "episodes": 15,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5081-mzWo8ZayqhES.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n5081-0Zcn5GOFYHMc.jpg",
+      "rating": 82,
+      "type": "TV"
+    },
+    {
+      "id": 110200,
+      "malId": 39990,
+      "title": {
+        "romaji": "Vlad Love",
+        "english": "VLAD LOVE",
+        "native": "ぶらどらぶ",
+        "userPreferred": "Vlad Love"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110200-QB9smw3HWyQC.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110200-w9PiOKLQm0z9.jpg",
+      "rating": 55,
+      "type": "ONA"
+    },
+    {
+      "id": 227,
+      "malId": 227,
+      "title": {
+        "romaji": "FLCL",
+        "english": "FLCL",
+        "native": "フリクリ",
+        "userPreferred": "FLCL"
+      },
+      "status": "Completed",
+      "episodes": 6,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx227-kxQ3PDHrrqp5.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/227.jpg",
+      "rating": 78,
+      "type": "OVA"
+    },
+    {
+      "id": 1293,
+      "malId": 1293,
+      "title": {
+        "romaji": "Urusei Yatsura",
+        "english": "Urusei Yatsura",
+        "native": "うる星やつら",
+        "userPreferred": "Urusei Yatsura"
+      },
+      "status": "Completed",
+      "episodes": 195,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1293-T6Ev080pKoum.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1293-XmAkK3xVNmQh.jpg",
+      "rating": 73,
+      "type": "TV"
+    },
+    {
+      "id": 1921,
+      "malId": 1921,
+      "title": {
+        "romaji": "Urusei Yatsura 2: Beautiful Dreamer",
+        "english": "Urusei Yatsura Movie 2: Beautiful Dreamer",
+        "native": "うる星やつら2 ビューティフル・ドリーマー",
+        "userPreferred": "Urusei Yatsura 2: Beautiful Dreamer"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1921-YYKPVDPdHXbH.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1921-gAGwBnhbMce1.jpg",
+      "rating": 78,
+      "type": "MOVIE"
+    },
+    {
+      "id": 7785,
+      "malId": 7785,
+      "title": {
+        "romaji": "Yojouhan Shinwa Taikei",
+        "english": "The Tatami Galaxy",
+        "native": "四畳半神話大系",
+        "userPreferred": "Yojouhan Shinwa Taikei"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx7785-TMqYIFkWDCgy.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/7785.jpg",
+      "rating": 85,
+      "type": "TV"
+    },
+    {
+      "id": 323,
+      "malId": 323,
+      "title": {
+        "romaji": "Mousou Dairinin",
+        "english": "Paranoia Agent",
+        "native": "妄想代理人",
+        "userPreferred": "Mousou Dairinin"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx323-CxrgvoTwF7oe.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/323-tQCOVrhiRgeU.jpg",
+      "rating": 76,
+      "type": "TV"
+    },
+    {
+      "id": 601,
+      "malId": 601,
+      "title": {
+        "romaji": "Nekojiru-sou",
+        "english": "Cat Soup",
+        "native": "ねこぢる草",
+        "userPreferred": "Nekojiru-sou"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b601-mNOmYLLYEPIT.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/601-jTlPnUQJXdey.jpg",
+      "rating": 70,
+      "type": "OVA"
+    },
+    {
+      "id": 440,
+      "malId": 440,
+      "title": {
+        "romaji": "Shoujo Kakumei Utena",
+        "english": "Revolutionary Girl Utena",
+        "native": "少女革命ウテナ",
+        "userPreferred": "Shoujo Kakumei Utena"
+      },
+      "status": "Completed",
+      "episodes": 39,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx440-7muMZaQ7r84M.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/440-0Gzds5AlVDN6.jpg",
+      "rating": 82,
+      "type": "TV"
+    },
+    {
+      "id": 3077,
+      "malId": 3077,
+      "title": {
+        "romaji": "Warau Salesman",
+        "english": "Laughing Salesman",
+        "native": "笑ゥせぇるすまん",
+        "userPreferred": "Warau Salesman"
+      },
+      "status": "Completed",
+      "episodes": 104,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3077-r93tm0fXWl46.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3077-r93tm0fXWl46.jpg",
+      "rating": 65,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 139983,
+      "malId": 41325,
+      "title": {
+        "romaji": "Kageyama Tamio no Double Fantasy",
+        "english": null,
+        "native": "景山民夫のダブルファンタジー",
+        "userPreferred": "Kageyama Tamio no Double Fantasy"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b139983-BwkHailDpAGy.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/139983-ePRE85RFWTqw.jpg",
+      "rating": 56,
+      "type": "SPECIAL"
+    },
+    {
+      "id": 1951,
+      "malId": 1951,
+      "title": {
+        "romaji": "Meikyuu Monogatari",
+        "english": "Neo Tokyo",
+        "native": "迷宮物語",
+        "userPreferred": "Meikyuu Monogatari"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1951-88OR0FQqiYiL.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1951-YwXlkI4rKCjI.jpg",
+      "rating": 68,
+      "type": "MOVIE"
+    },
+    {
+      "id": 101316,
+      "malId": 37497,
+      "title": {
+        "romaji": "Irozuku Sekai no Ashita kara",
+        "english": "IRODUKU: The World in Colors",
+        "native": "色づく世界の明日から",
+        "userPreferred": "Irozuku Sekai no Ashita kara"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101316-yI1ZvMrsDUn9.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n101316-UpEVwWWyOx1i.jpg",
+      "rating": 73,
+      "type": "TV"
+    },
+    {
+      "id": 2314,
+      "malId": 2314,
+      "title": {
+        "romaji": "Tobe! Kujira no Peek",
+        "english": "Fly! Peek the Whale",
+        "native": "とべ! くじらのピーク",
+        "userPreferred": "Tobe! Kujira no Peek"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2314-3wBBVlXJPGvV.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2314-XIHOn8eeBxdN.jpg",
+      "rating": 60,
+      "type": "MOVIE"
+    },
+    {
+      "id": 1973,
+      "malId": 1973,
+      "title": {
+        "romaji": "X Densha de Ikou",
+        "english": null,
+        "native": "X電車で行こう",
+        "userPreferred": "X Densha de Ikou"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1973-EsznsB6Vrb7Y.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1973-EsznsB6Vrb7Y.jpg",
+      "rating": 55,
+      "type": "OVA"
+    },
+    {
+      "id": 975,
+      "malId": 975,
+      "title": {
+        "romaji": "Yokohama Kaidashi Kikou",
+        "english": null,
+        "native": "ヨコハマ買い出し紀行",
+        "userPreferred": "Yokohama Kaidashi Kikou"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/975-EDNYnBJCctSD.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/975-6Fcen4DGT5vD.jpg",
+      "rating": 73,
+      "type": "OVA"
+    },
+    {
+      "id": 563,
+      "malId": 563,
+      "title": {
+        "romaji": "DNA² ~Dokoka de Nakushita Aitsu no Aitsu~",
+        "english": "DNA²",
+        "native": "Ｄ・Ｎ・Ａ² ～何処かで失くしたあいつのアイツ～",
+        "userPreferred": "DNA² ~Dokoka de Nakushita Aitsu no Aitsu~"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx563-uWAjiVhjgQzV.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/563-EZfDk16JaaAN.jpg",
+      "rating": 61,
+      "type": "TV"
+    },
+    {
+      "id": 3152,
+      "malId": 3152,
+      "title": {
+        "romaji": "Download: Namu Amida Butsu wa Ai no Uta",
+        "english": null,
+        "native": "ダウンロード -南無阿弥陀仏は愛の詩-",
+        "userPreferred": "Download: Namu Amida Butsu wa Ai no Uta"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3152.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/3152-WmTaMyZ46y6p.jpg",
+      "rating": 57,
+      "type": "OVA"
+    },
+    {
+      "id": 10721,
+      "malId": 10721,
+      "title": {
+        "romaji": "Mawaru Penguindrum",
+        "english": "Penguindrum",
+        "native": "輪るピングドラム",
+        "userPreferred": "Mawaru Penguindrum"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx10721-2QWmrqbmyYil.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10721-tN8SLwirGDAB.jpg",
+      "rating": 79,
+      "type": "TV"
+    },
+    {
+      "id": 137819,
+      "malId": 49590,
+      "title": {
+        "romaji": "Yojouhan Time Machine Blues",
+        "english": "The Tatami Time Machine Blues",
+        "native": "四畳半タイムマシンブルース",
+        "userPreferred": "Yojouhan Time Machine Blues"
+      },
+      "status": "Completed",
+      "episodes": 6,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137819-oAlpXHXPkNFV.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/137819-cMk7KwtDMGE3.jpg",
+      "rating": 82,
+      "type": "ONA"
+    },
+    {
+      "id": 1,
+      "malId": 1,
+      "title": {
+        "romaji": "Cowboy Bebop",
+        "english": "Cowboy Bebop",
+        "native": "カウボーイビバップ",
+        "userPreferred": "Cowboy Bebop"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1-CXtrrkMpJ8Zq.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1-OquNCNB6srGe.jpg",
+      "rating": 86,
+      "type": "TV"
+    },
+    {
+      "id": 5,
+      "malId": 5,
+      "title": {
+        "romaji": "Cowboy Bebop: Tengoku no Tobira",
+        "english": "Cowboy Bebop: The Movie - Knockin' on Heaven's Door",
+        "native": "カウボーイビバップ天国の扉",
+        "userPreferred": "Cowboy Bebop: Tengoku no Tobira"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5-NozHwXWdNLCz.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/5-VOcSZFepDDhm.jpg",
+      "rating": 82,
+      "type": "MOVIE"
+    },
+    {
+      "id": 2623,
+      "malId": 2623,
+      "title": {
+        "romaji": "THE DOG OF FLANDERS",
+        "english": "Dog of Flanders",
+        "native": "THE DOG OF FLANDERS",
+        "userPreferred": "THE DOG OF FLANDERS"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2623-PQhbDjaUfnpd.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2623-0yW6KqklcIiE.jpg",
+      "rating": 74,
+      "type": "MOVIE"
+    },
+    {
+      "id": 21234,
+      "malId": 31043,
+      "title": {
+        "romaji": "Boku dake ga Inai Machi",
+        "english": "ERASED",
+        "native": "僕だけがいない街",
+        "userPreferred": "Boku dake ga Inai Machi"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21234-v2NMgPyoVRoM.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21234-7lfSSPoMmwr2.jpg",
+      "rating": 81,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 15424,
+      "role": "MAIN",
+      "name": {
+        "first": "Maroko",
+        "last": "Yomota",
+        "full": "Maroko Yomota",
+        "native": "四方田麿子",
+        "userPreferred": "Maroko Yomota"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15424.jpg",
+      "voiceActors": [
+        {
+          "id": 95342,
+          "language": "Japanese",
+          "name": {
+            "first": "Masako",
+            "last": "Katsuki",
+            "full": "Masako Katsuki",
+            "native": "勝生真沙子",
+            "userPreferred": "Masako Katsuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95342-pC8tGadzfTNb.jpg"
+        }
+      ]
+    },
+    {
+      "id": 86099,
+      "role": "MAIN",
+      "name": {
+        "first": "Kinekuni",
+        "last": "Yomota",
+        "full": "Kinekuni Yomota",
+        "native": "四方田甲子国",
+        "userPreferred": "Kinekuni Yomota"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/86099.jpg",
+      "voiceActors": [
+        {
+          "id": 95481,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenichi",
+            "last": "Ogata",
+            "full": "Kenichi Ogata",
+            "native": "緒方賢一",
+            "userPreferred": "Kenichi Ogata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95481-1dPQbwMpvjul.png"
+        }
+      ]
+    },
+    {
+      "id": 15423,
+      "role": "MAIN",
+      "name": {
+        "first": "Inumaru",
+        "last": "Yomota",
+        "full": "Inumaru Yomota",
+        "native": "四方田犬丸",
+        "userPreferred": "Inumaru Yomota"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b15423-lBUxMl5hl1cJ.jpg",
+      "voiceActors": [
+        {
+          "id": 95673,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshio",
+            "last": "Furukawa",
+            "full": "Toshio Furukawa",
+            "native": "古川登志夫",
+            "userPreferred": "Toshio Furukawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95673-jNN4GqGgpssj.png"
+        }
+      ]
+    },
+    {
+      "id": 26475,
+      "role": "MAIN",
+      "name": {
+        "first": "Tamiko",
+        "last": "Yomota",
+        "full": "Tamiko Yomota",
+        "native": "四方田多美子",
+        "userPreferred": "Tamiko Yomota"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26475.jpg",
+      "voiceActors": [
+        {
+          "id": 95961,
+          "language": "Japanese",
+          "name": {
+            "first": "Machiko",
+            "last": "Washio",
+            "full": "Machiko Washio",
+            "native": "鷲尾真知子",
+            "userPreferred": "Machiko Washio"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/961.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36309,
+      "role": "MAIN",
+      "name": {
+        "first": "Narrator",
+        "last": null,
+        "full": "Narrator",
+        "native": "ナレーター",
+        "userPreferred": "Narrator"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36309-yRLEQYd2dDI5.jpg",
+      "voiceActors": [
+        {
+          "id": 101730,
+          "language": "Japanese",
+          "name": {
+            "first": "Ichirou",
+            "last": "Nagai",
+            "full": "Ichirou Nagai",
+            "native": "永井一郎",
+            "userPreferred": "Ichirou Nagai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101730-PQO9AMRtT5jB.jpg"
+        }
+      ]
+    },
+    {
+      "id": 141234,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bunmei",
+        "last": "Muroto",
+        "full": "Bunmei Muroto",
+        "native": "室戸文明",
+        "userPreferred": "Bunmei Muroto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b141234-SSb8EPVLUu88.png",
+      "voiceActors": [
+        {
+          "id": 95761,
+          "language": "Japanese",
+          "name": {
+            "first": "Tesshou",
+            "last": "Genda",
+            "full": "Tesshou Genda",
+            "native": "玄田哲章",
+            "userPreferred": "Tesshou Genda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95761-nwndYRCqJxno.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 4640,
+      "relationType": "SUMMARY",
+      "malId": 4640,
+      "title": {
+        "romaji": "MAROKO",
+        "english": null,
+        "native": "MAROKO 麿子",
+        "userPreferred": "MAROKO"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4640-PJ3p9VGEoVUb.png",
+      "color": "#f1d643",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4640-PJ3p9VGEoVUb.png",
+      "rating": 62
+    }
+  ],
+  "episodes": [
+    {
+      "id": "gosenzo-sama-banbanzai-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4639-MMpC9cBIdfg4.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gosenzo-sama-banbanzai-episode-1"
+    },
+    {
+      "id": "gosenzo-sama-banbanzai-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4639-MMpC9cBIdfg4.png",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gosenzo-sama-banbanzai-episode-2"
+    },
+    {
+      "id": "gosenzo-sama-banbanzai-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4639-MMpC9cBIdfg4.png",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gosenzo-sama-banbanzai-episode-3"
+    },
+    {
+      "id": "gosenzo-sama-banbanzai-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4639-MMpC9cBIdfg4.png",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gosenzo-sama-banbanzai-episode-4"
+    },
+    {
+      "id": "gosenzo-sama-banbanzai-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4639-MMpC9cBIdfg4.png",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gosenzo-sama-banbanzai-episode-5"
+    },
+    {
+      "id": "gosenzo-sama-banbanzai-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4639-MMpC9cBIdfg4.png",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gosenzo-sama-banbanzai-episode-6"
+    }
+  ]
+}

@@ -1,0 +1,768 @@
+{
+  "id": "10338",
+  "title": {
+    "romaji": "Honto ni Atta! Reibai Sensei",
+    "english": null,
+    "native": "ほんとにあった! 霊媒先生"
+  },
+  "malId": 10338,
+  "synonyms": [
+    "Yuruani"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10338-03iQKCbdWpGO.png",
+  "popularity": 1590,
+  "color": "#e43543",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10338-03iQKCbdWpGO.png",
+  "description": "The story revolves around Kibayashi, a teacher whose hobby is speaking with the dead and whose special talent is exorcism. She seems to know everything about the other world, yet nothing about our own.",
+  "status": "Completed",
+  "releaseDate": 2011,
+  "startDate": {
+    "year": 2011,
+    "month": 4,
+    "day": 13
+  },
+  "endDate": {
+    "year": 2011,
+    "month": 9,
+    "day": 14
+  },
+  "totalEpisodes": 22,
+  "currentEpisode": 22,
+  "rating": 56,
+  "duration": 5,
+  "genres": [
+    "Comedy",
+    "Supernatural"
+  ],
+  "season": "SPRING",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 10838,
+      "malId": 10838,
+      "title": {
+        "romaji": "Double-J",
+        "english": "Double J",
+        "native": "だぶるじぇい",
+        "userPreferred": "Double-J"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10838.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10838.jpg",
+      "rating": 49,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 13139,
+      "malId": 13139,
+      "title": {
+        "romaji": "Gakkatsu!",
+        "english": null,
+        "native": "ガッ活!",
+        "userPreferred": "Gakkatsu!"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13139.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13139.jpg",
+      "rating": 59,
+      "type": "TV_SHORT"
+    }
+  ],
+  "characters": [
+    {
+      "id": 43069,
+      "role": "MAIN",
+      "name": {
+        "first": "Akiko",
+        "last": "Yoshii",
+        "full": "Akiko Yoshii",
+        "native": null,
+        "userPreferred": "Akiko Yoshii"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43069.jpg",
+      "voiceActors": [
+        {
+          "id": 95401,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyu",
+            "last": "Matsuki",
+            "full": "Miyu Matsuki",
+            "native": "松来未祐",
+            "userPreferred": "Miyu Matsuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95401-2ffju56ewc36.png"
+        }
+      ]
+    },
+    {
+      "id": 41299,
+      "role": "MAIN",
+      "name": {
+        "first": "Juri",
+        "last": "Kibayashi",
+        "full": "Juri Kibayashi",
+        "native": "木林呪理",
+        "userPreferred": "Juri Kibayashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/41299.jpg",
+      "voiceActors": [
+        {
+          "id": 95579,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaoru",
+            "last": "Mizuhara",
+            "full": "Kaoru Mizuhara",
+            "native": "水原薫",
+            "userPreferred": "Kaoru Mizuhara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95579-5ZsNx7VamyqG.png"
+        }
+      ]
+    },
+    {
+      "id": 43072,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Eri",
+        "last": "Nitta",
+        "full": "Eri Nitta",
+        "native": null,
+        "userPreferred": "Eri Nitta"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43072.jpg",
+      "voiceActors": [
+        {
+          "id": 95052,
+          "language": "Japanese",
+          "name": {
+            "first": "Emiri",
+            "last": "Katou",
+            "full": "Emiri Katou",
+            "native": "加藤英美里",
+            "userPreferred": "Emiri Katou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95052-OhSpZ8tqM3KY.png"
+        }
+      ]
+    },
+    {
+      "id": 50189,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Romeo",
+        "last": null,
+        "full": "Romeo",
+        "native": null,
+        "userPreferred": "Romeo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/50189.jpg",
+      "voiceActors": [
+        {
+          "id": 96154,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Ono",
+            "full": "Yuuki Ono",
+            "native": "小野友樹",
+            "userPreferred": "Yuuki Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96154-B8GAO9wm1Fbd.jpg"
+        }
+      ]
+    },
+    {
+      "id": 45643,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Marujolene",
+        "last": null,
+        "full": "Marujolene",
+        "native": null,
+        "userPreferred": "Marujolene"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/45643.jpg",
+      "voiceActors": [
+        {
+          "id": 104593,
+          "language": "Japanese",
+          "name": {
+            "first": "Mai",
+            "last": "Fuchigami",
+            "full": "Mai Fuchigami",
+            "native": "渕上舞",
+            "userPreferred": "Mai Fuchigami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104593-yZz5rvm3oIXH.png"
+        }
+      ]
+    },
+    {
+      "id": 49595,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Akira",
+        "last": "Yashima",
+        "full": "Akira Yashima",
+        "native": "八島 アキラ",
+        "userPreferred": "Akira Yashima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/49595.jpg",
+      "voiceActors": [
+        {
+          "id": 101996,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayana",
+            "last": "Taketatsu",
+            "full": "Ayana Taketatsu",
+            "native": "竹達彩奈",
+            "userPreferred": "Ayana Taketatsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101996-W14XnDV34VpO.jpg"
+        }
+      ]
+    },
+    {
+      "id": 50187,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kanako",
+        "last": null,
+        "full": "Kanako",
+        "native": null,
+        "userPreferred": "Kanako"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/50187.jpg",
+      "voiceActors": [
+        {
+          "id": 95052,
+          "language": "Japanese",
+          "name": {
+            "first": "Emiri",
+            "last": "Katou",
+            "full": "Emiri Katou",
+            "native": "加藤英美里",
+            "userPreferred": "Emiri Katou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95052-OhSpZ8tqM3KY.png"
+        }
+      ]
+    },
+    {
+      "id": 43804,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "",
+        "last": "Nagara-sensei",
+        "full": "Nagara-sensei",
+        "native": null,
+        "userPreferred": "Nagara-sensei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43804.jpg",
+      "voiceActors": [
+        {
+          "id": 95401,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyu",
+            "last": "Matsuki",
+            "full": "Miyu Matsuki",
+            "native": "松来未祐",
+            "userPreferred": "Miyu Matsuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95401-2ffju56ewc36.png"
+        }
+      ]
+    },
+    {
+      "id": 43075,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hinako",
+        "last": "Wakamiya",
+        "full": "Hinako Wakamiya",
+        "native": null,
+        "userPreferred": "Hinako Wakamiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43075.jpg",
+      "voiceActors": [
+        {
+          "id": 104593,
+          "language": "Japanese",
+          "name": {
+            "first": "Mai",
+            "last": "Fuchigami",
+            "full": "Mai Fuchigami",
+            "native": "渕上舞",
+            "userPreferred": "Mai Fuchigami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104593-yZz5rvm3oIXH.png"
+        }
+      ]
+    },
+    {
+      "id": 43073,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Motoko",
+        "last": "Mihoro",
+        "full": "Motoko Mihoro",
+        "native": null,
+        "userPreferred": "Motoko Mihoro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43073.jpg",
+      "voiceActors": [
+        {
+          "id": 105065,
+          "language": "Japanese",
+          "name": {
+            "first": "Ikumi",
+            "last": "Hayama",
+            "full": "Ikumi Hayama",
+            "native": "葉山いくみ",
+            "userPreferred": "Ikumi Hayama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105065-h1ysNglouHXs.png"
+        }
+      ]
+    },
+    {
+      "id": 43074,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kuroneko",
+        "last": null,
+        "full": "Kuroneko",
+        "native": null,
+        "userPreferred": "Kuroneko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43074.jpg",
+      "voiceActors": [
+        {
+          "id": 95579,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaoru",
+            "last": "Mizuhara",
+            "full": "Kaoru Mizuhara",
+            "native": "水原薫",
+            "userPreferred": "Kaoru Mizuhara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95579-5ZsNx7VamyqG.png"
+        }
+      ]
+    },
+    {
+      "id": 43077,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "",
+        "last": "Saitou",
+        "full": "Saitou",
+        "native": null,
+        "userPreferred": "Saitou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43077.jpg",
+      "voiceActors": [
+        {
+          "id": 105148,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinya",
+            "last": "Takahashi",
+            "full": "Shinya Takahashi",
+            "native": "高橋伸也",
+            "userPreferred": "Shinya Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105148-X6NTB0Q8Yxs8.png"
+        }
+      ]
+    },
+    {
+      "id": 43076,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chinatsu",
+        "last": "Akagi",
+        "full": "Chinatsu Akagi",
+        "native": null,
+        "userPreferred": "Chinatsu Akagi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43076.jpg",
+      "voiceActors": [
+        {
+          "id": 95580,
+          "language": "Japanese",
+          "name": {
+            "first": "Nozomi",
+            "last": "Sasaki",
+            "full": "Nozomi Sasaki",
+            "native": "ささきのぞみ",
+            "userPreferred": "Nozomi Sasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95580-QzU7DKsQZ2Tt.jpg"
+        }
+      ]
+    },
+    {
+      "id": 43803,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Principal",
+        "last": null,
+        "full": "Principal",
+        "native": null,
+        "userPreferred": "Principal"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43803.jpg",
+      "voiceActors": [
+        {
+          "id": 106158,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroki",
+            "last": "Gotou",
+            "full": "Hiroki Gotou",
+            "native": "後藤ヒロキ",
+            "userPreferred": "Hiroki Gotou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/11158.jpg"
+        }
+      ]
+    },
+    {
+      "id": 43078,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "",
+        "last": "Wanibuchi",
+        "full": "Wanibuchi",
+        "native": null,
+        "userPreferred": "Wanibuchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43078.jpg",
+      "voiceActors": [
+        {
+          "id": 96154,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Ono",
+            "full": "Yuuki Ono",
+            "native": "小野友樹",
+            "userPreferred": "Yuuki Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96154-B8GAO9wm1Fbd.jpg"
+        }
+      ]
+    },
+    {
+      "id": 43053,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Emma",
+        "last": null,
+        "full": "Emma",
+        "native": null,
+        "userPreferred": "Emma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43053.jpg",
+      "voiceActors": [
+        {
+          "id": 107477,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayano",
+            "last": "Yamamoto",
+            "full": "Ayano Yamamoto",
+            "native": "山本彩乃",
+            "userPreferred": "Ayano Yamamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107477-ErLvIi8kYcDp.png"
+        }
+      ]
+    },
+    {
+      "id": 43802,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Assistant Principal",
+        "last": null,
+        "full": "Assistant Principal",
+        "native": null,
+        "userPreferred": "Assistant Principal"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43802.jpg",
+      "voiceActors": [
+        {
+          "id": 96154,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Ono",
+            "full": "Yuuki Ono",
+            "native": "小野友樹",
+            "userPreferred": "Yuuki Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96154-B8GAO9wm1Fbd.jpg"
+        }
+      ]
+    },
+    {
+      "id": 43057,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kame-chan",
+        "last": null,
+        "full": "Kame-chan",
+        "native": null,
+        "userPreferred": "Kame-chan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43057.jpg",
+      "voiceActors": [
+        {
+          "id": 95052,
+          "language": "Japanese",
+          "name": {
+            "first": "Emiri",
+            "last": "Katou",
+            "full": "Emiri Katou",
+            "native": "加藤英美里",
+            "userPreferred": "Emiri Katou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95052-OhSpZ8tqM3KY.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 51529,
+      "relationType": "ADAPTATION",
+      "malId": 21529,
+      "title": {
+        "romaji": "Honto ni Atta! Reibai Sensei",
+        "english": null,
+        "native": "ほんとにあった！霊媒先生",
+        "userPreferred": "Honto ni Atta! Reibai Sensei"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx51529-I9pZGh4T0u12.jpg",
+      "color": "#e44335",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx51529-I9pZGh4T0u12.jpg",
+      "rating": 73
+    }
+  ],
+  "episodes": [
+    {
+      "id": "honto-ni-atta-reibai-sensei-episode-1",
+      "title": "Kibayashi Juri Appears",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10338-03iQKCbdWpGO.png",
+      "number": 1,
+      "createdAt": "2014-11-16T20:40:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//honto-ni-atta-reibai-sensei-episode-1"
+    },
+    {
+      "id": "honto-ni-atta-reibai-sensei-episode-2",
+      "title": "Proof of Rampage",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10338-03iQKCbdWpGO.png",
+      "number": 2,
+      "createdAt": "2014-11-16T20:40:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//honto-ni-atta-reibai-sensei-episode-2"
+    },
+    {
+      "id": "honto-ni-atta-reibai-sensei-episode-3",
+      "title": "Biggest Physical Examination Ever!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10338-03iQKCbdWpGO.png",
+      "number": 3,
+      "createdAt": "2014-11-16T20:40:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//honto-ni-atta-reibai-sensei-episode-3"
+    },
+    {
+      "id": "honto-ni-atta-reibai-sensei-episode-4",
+      "title": "King of Cats",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10338-03iQKCbdWpGO.png",
+      "number": 4,
+      "createdAt": "2014-11-16T20:40:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//honto-ni-atta-reibai-sensei-episode-4"
+    },
+    {
+      "id": "honto-ni-atta-reibai-sensei-episode-5",
+      "title": "Emma-San Has Blue Eyes",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10338-03iQKCbdWpGO.png",
+      "number": 5,
+      "createdAt": "2014-11-16T20:40:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//honto-ni-atta-reibai-sensei-episode-5"
+    },
+    {
+      "id": "honto-ni-atta-reibai-sensei-episode-6",
+      "title": "A Zashiki Warashi Appears",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10338-03iQKCbdWpGO.png",
+      "number": 6,
+      "createdAt": "2014-11-16T20:40:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//honto-ni-atta-reibai-sensei-episode-6"
+    },
+    {
+      "id": "honto-ni-atta-reibai-sensei-episode-7",
+      "title": "The Night Before the Invasion of the ''We Wanna'' Squad",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10338-03iQKCbdWpGO.png",
+      "number": 7,
+      "createdAt": "2014-11-16T20:40:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//honto-ni-atta-reibai-sensei-episode-7"
+    },
+    {
+      "id": "honto-ni-atta-reibai-sensei-episode-8",
+      "title": "In the Darkness of a Motionless Chemistry Lab",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10338-03iQKCbdWpGO.png",
+      "number": 8,
+      "createdAt": "2014-11-16T20:40:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//honto-ni-atta-reibai-sensei-episode-8"
+    },
+    {
+      "id": "honto-ni-atta-reibai-sensei-episode-9",
+      "title": "Nobunaga Cooking!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10338-03iQKCbdWpGO.png",
+      "number": 9,
+      "createdAt": "2014-11-16T20:40:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//honto-ni-atta-reibai-sensei-episode-9"
+    },
+    {
+      "id": "honto-ni-atta-reibai-sensei-episode-10",
+      "title": "Higher Beings",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10338-03iQKCbdWpGO.png",
+      "number": 10,
+      "createdAt": "2014-11-16T20:40:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//honto-ni-atta-reibai-sensei-episode-10"
+    },
+    {
+      "id": "honto-ni-atta-reibai-sensei-episode-11",
+      "title": "How to Enjoy Tanabata",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10338-03iQKCbdWpGO.png",
+      "number": 11,
+      "createdAt": "2014-11-16T20:40:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//honto-ni-atta-reibai-sensei-episode-11"
+    },
+    {
+      "id": "honto-ni-atta-reibai-sensei-episode-12",
+      "title": "Thou Shan't See",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10338-03iQKCbdWpGO.png",
+      "number": 12,
+      "createdAt": "2014-11-16T20:40:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//honto-ni-atta-reibai-sensei-episode-12"
+    },
+    {
+      "id": "honto-ni-atta-reibai-sensei-episode-13",
+      "title": "Thou Shan't See:  The Sequel",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10338-03iQKCbdWpGO.png",
+      "number": 13,
+      "createdAt": "2014-11-16T20:40:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//honto-ni-atta-reibai-sensei-episode-13"
+    },
+    {
+      "id": "honto-ni-atta-reibai-sensei-episode-14",
+      "title": "After School Advice Center",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10338-03iQKCbdWpGO.png",
+      "number": 14,
+      "createdAt": "2014-11-16T20:40:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//honto-ni-atta-reibai-sensei-episode-14"
+    },
+    {
+      "id": "honto-ni-atta-reibai-sensei-episode-15",
+      "title": "His First Apprentice",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10338-03iQKCbdWpGO.png",
+      "number": 15,
+      "createdAt": "2014-11-16T20:40:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//honto-ni-atta-reibai-sensei-episode-15"
+    },
+    {
+      "id": "honto-ni-atta-reibai-sensei-episode-16",
+      "title": "Repaying the Cat",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10338-03iQKCbdWpGO.png",
+      "number": 16,
+      "createdAt": "2014-11-16T20:40:47Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//honto-ni-atta-reibai-sensei-episode-16"
+    },
+    {
+      "id": "honto-ni-atta-reibai-sensei-episode-17",
+      "title": "The Three Cordon Sisters",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10338-03iQKCbdWpGO.png",
+      "number": 17,
+      "createdAt": "2014-11-16T20:40:47Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//honto-ni-atta-reibai-sensei-episode-17"
+    },
+    {
+      "id": "honto-ni-atta-reibai-sensei-episode-18",
+      "title": "A Midsummer Night's Dream",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10338-03iQKCbdWpGO.png",
+      "number": 18,
+      "createdAt": "2014-11-16T20:40:47Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//honto-ni-atta-reibai-sensei-episode-18"
+    },
+    {
+      "id": "honto-ni-atta-reibai-sensei-episode-19",
+      "title": "We Wanna Squad Meets Squid. ",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10338-03iQKCbdWpGO.png",
+      "number": 19,
+      "createdAt": "2014-11-16T20:40:47Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//honto-ni-atta-reibai-sensei-episode-19"
+    },
+    {
+      "id": "honto-ni-atta-reibai-sensei-episode-20",
+      "title": "Mt. Cat",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10338-03iQKCbdWpGO.png",
+      "number": 20,
+      "createdAt": "2014-11-16T20:40:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//honto-ni-atta-reibai-sensei-episode-20"
+    },
+    {
+      "id": "honto-ni-atta-reibai-sensei-episode-21",
+      "title": "Mt. Cat, Continued",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10338-03iQKCbdWpGO.png",
+      "number": 21,
+      "createdAt": "2014-11-16T20:40:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//honto-ni-atta-reibai-sensei-episode-21"
+    },
+    {
+      "id": "honto-ni-atta-reibai-sensei-episode-22",
+      "title": "On the Way Home on a Midsummer Day",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10338-03iQKCbdWpGO.png",
+      "number": 22,
+      "createdAt": "2014-11-16T20:40:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//honto-ni-atta-reibai-sensei-episode-22"
+    }
+  ]
+}

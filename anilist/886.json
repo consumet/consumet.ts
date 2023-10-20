@@ -1,0 +1,634 @@
+{
+  "id": "886",
+  "title": {
+    "romaji": "Amaenaide yo!! Katsu!!",
+    "english": "Ah My Buddha Katsu",
+    "native": "あまえないでよっ!! 喝!!"
+  },
+  "malId": 886,
+  "synonyms": [
+    "Amaenaideyo!! 2",
+    "Amaenaideyo!! Katsu"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/886.jpg",
+  "popularity": 5831,
+  "color": "#00c9f1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/886.jpg",
+  "description": "In this sequel, a girl named Kazusano Kazuki join up with the 6 girls and Ikko. With Kazuki around, Ikko will find himself in more embarassing situations with these priestesses-in-training.<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2006,
+  "startDate": {
+    "year": 2006,
+    "month": 1,
+    "day": 4
+  },
+  "endDate": {
+    "year": 2006,
+    "month": 3,
+    "day": 22
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 60,
+  "duration": 24,
+  "genres": [
+    "Comedy",
+    "Ecchi",
+    "Romance",
+    "Slice of Life",
+    "Supernatural"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "Studio DEEN"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 160447,
+      "malId": 54275,
+      "title": {
+        "romaji": "Temple",
+        "english": "TenPuru",
+        "native": "てんぷる",
+        "userPreferred": "Temple"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx160447-we52M5P85oaJ.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/160447-n9vY5MrU8baz.jpg",
+      "rating": 66,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 5015,
+      "role": "MAIN",
+      "name": {
+        "first": "Chitose",
+        "last": "Nanbu",
+        "full": "Chitose Nanbu",
+        "native": "南部千歳",
+        "userPreferred": "Chitose Nanbu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5015.jpg",
+      "voiceActors": [
+        {
+          "id": 95031,
+          "language": "Japanese",
+          "name": {
+            "first": "Mai",
+            "last": "Nakahara",
+            "full": "Mai Nakahara",
+            "native": "中原麻衣",
+            "userPreferred": "Mai Nakahara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95031-tipPIz2k0Ncw.png"
+        },
+        {
+          "id": 95733,
+          "language": "English",
+          "name": {
+            "first": "Cindy",
+            "last": "Robinson",
+            "full": "Cindy Robinson",
+            "native": null,
+            "userPreferred": "Cindy Robinson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95733-34PimWRfaPKr.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5016,
+      "role": "MAIN",
+      "name": {
+        "first": "Yuuko",
+        "last": "Atouda",
+        "full": "Yuuko Atouda",
+        "native": "阿刀田結子",
+        "userPreferred": "Yuuko Atouda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5016-NDyZ9aExiQJS.jpg",
+      "voiceActors": [
+        {
+          "id": 95050,
+          "language": "Japanese",
+          "name": {
+            "first": "Chieko",
+            "last": "Higuchi",
+            "full": "Chieko Higuchi",
+            "native": "樋口智恵子",
+            "userPreferred": "Chieko Higuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/50.jpg"
+        },
+        {
+          "id": 198269,
+          "language": "English",
+          "name": {
+            "first": "Camilla",
+            "last": "Debry",
+            "full": "Camilla Debry",
+            "native": null,
+            "userPreferred": "Camilla Debry"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5020,
+      "role": "MAIN",
+      "name": {
+        "first": "Sakura",
+        "last": "Sugai",
+        "full": "Sakura Sugai",
+        "native": "為我井さくら",
+        "userPreferred": "Sakura Sugai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5020.jpg",
+      "voiceActors": [
+        {
+          "id": 96501,
+          "language": "Japanese",
+          "name": {
+            "first": "Haruhi",
+            "last": "Nanao",
+            "full": "Haruhi Nanao",
+            "native": "七緒はるひ",
+            "userPreferred": "Haruhi Nanao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96501-YdNWqvlQGpIE.png"
+        },
+        {
+          "id": 95319,
+          "language": "English",
+          "name": {
+            "first": "Mona",
+            "last": "Marshall",
+            "full": "Mona Marshall",
+            "native": null,
+            "userPreferred": "Mona Marshall"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95319-3WvgbpEGuhzQ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5017,
+      "role": "MAIN",
+      "name": {
+        "first": "Sumi",
+        "last": "Ikuina",
+        "full": "Sumi Ikuina",
+        "native": "生稲雛美",
+        "userPreferred": "Sumi Ikuina"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5017.jpg",
+      "voiceActors": [
+        {
+          "id": 95071,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoko",
+            "last": "Kawakami",
+            "full": "Tomoko Kawakami",
+            "native": "川上とも子",
+            "userPreferred": "Tomoko Kawakami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95071-bmS9MxvAdsTr.png"
+        }
+      ]
+    },
+    {
+      "id": 5018,
+      "role": "MAIN",
+      "name": {
+        "first": "Haruka",
+        "last": "Amanogawa",
+        "full": "Haruka Amanogawa",
+        "native": "天川春佳 ",
+        "userPreferred": "Haruka Amanogawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5018.jpg",
+      "voiceActors": [
+        {
+          "id": 95094,
+          "language": "Japanese",
+          "name": {
+            "first": "Akeno",
+            "last": "Watanabe",
+            "full": "Akeno Watanabe",
+            "native": "渡边明乃",
+            "userPreferred": "Akeno Watanabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95094-nRPWBG1cVGo5.png"
+        },
+        {
+          "id": 95396,
+          "language": "English",
+          "name": {
+            "first": "Stephanie",
+            "last": "Sheh",
+            "full": "Stephanie Sheh",
+            "native": null,
+            "userPreferred": "Stephanie Sheh"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95396-tNpkTyDD9Y1g.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5551,
+      "role": "MAIN",
+      "name": {
+        "first": "Kazuki",
+        "last": "Kazusano",
+        "full": "Kazuki Kazusano",
+        "native": null,
+        "userPreferred": "Kazuki Kazusano"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5551.jpg",
+      "voiceActors": [
+        {
+          "id": 95126,
+          "language": "Japanese",
+          "name": {
+            "first": "Asami",
+            "last": "Sanada",
+            "full": "Asami Sanada",
+            "native": "真田アサミ",
+            "userPreferred": "Asami Sanada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95126-5riJAYwazk5K.jpg"
+        },
+        {
+          "id": 95537,
+          "language": "English",
+          "name": {
+            "first": "Dorothy",
+            "last": "Elias-Fahn",
+            "full": "Dorothy Elias-Fahn",
+            "native": null,
+            "userPreferred": "Dorothy Elias-Fahn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/537.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4826,
+      "role": "MAIN",
+      "name": {
+        "first": "Ikkou",
+        "last": "Satonaka",
+        "full": "Ikkou Satonaka",
+        "native": "里中逸剛",
+        "userPreferred": "Ikkou Satonaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4826.jpg",
+      "voiceActors": [
+        {
+          "id": 95164,
+          "language": "Japanese",
+          "name": {
+            "first": "Chihiro",
+            "last": "Suzuki",
+            "full": "Chihiro Suzuki",
+            "native": "鈴木千尋",
+            "userPreferred": "Chihiro Suzuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95164-q5cxbs9WUnTU.png"
+        },
+        {
+          "id": 95732,
+          "language": "English",
+          "name": {
+            "first": "Bryce",
+            "last": "Papenbrook",
+            "full": "Bryce Papenbrook",
+            "native": null,
+            "userPreferred": "Bryce Papenbrook"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/732.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5019,
+      "role": "MAIN",
+      "name": {
+        "first": "Hinata",
+        "last": "Sugai",
+        "full": "Hinata Sugai",
+        "native": "為我井陽",
+        "userPreferred": "Hinata Sugai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5019.jpg",
+      "voiceActors": [
+        {
+          "id": 95315,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouko",
+            "last": "Shintani",
+            "full": "Ryouko Shintani",
+            "native": "新谷良子",
+            "userPreferred": "Ryouko Shintani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95315-6lzPWFB0mhh8.png"
+        },
+        {
+          "id": 103144,
+          "language": "English",
+          "name": {
+            "first": "Sandra",
+            "last": "Edwards",
+            "full": "Sandra Edwards",
+            "native": null,
+            "userPreferred": "Sandra Edwards"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 23122,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Miyako",
+        "last": "Amanogawa",
+        "full": "Miyako Amanogawa",
+        "native": "天川京",
+        "userPreferred": "Miyako Amanogawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/23122.jpg",
+      "voiceActors": [
+        {
+          "id": 95009,
+          "language": "Japanese",
+          "name": {
+            "first": "Kotono",
+            "last": "Mitsuishi",
+            "full": "Kotono Mitsuishi",
+            "native": "三石琴乃",
+            "userPreferred": "Kotono Mitsuishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95009-d01Dg8mMwcg6.png"
+        },
+        {
+          "id": 95036,
+          "language": "English",
+          "name": {
+            "first": "Wendee",
+            "last": "Lee",
+            "full": "Wendee Lee",
+            "native": null,
+            "userPreferred": "Wendee Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95036-UkyIYVtEhoPk.png"
+        }
+      ]
+    },
+    {
+      "id": 23121,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jotoko",
+        "last": "Kawahara",
+        "full": "Jotoko Kawahara",
+        "native": "河原浄徳,",
+        "userPreferred": "Jotoko Kawahara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/23121.jpg",
+      "voiceActors": [
+        {
+          "id": 95786,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuko",
+            "last": "Sugiyama",
+            "full": "Kazuko Sugiyama",
+            "native": "杉山佳寿子",
+            "userPreferred": "Kazuko Sugiyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95786-faCWVJgFUw8i.png"
+        },
+        {
+          "id": 95430,
+          "language": "English",
+          "name": {
+            "first": "Mari",
+            "last": "Devon",
+            "full": "Mari Devon",
+            "native": null,
+            "userPreferred": "Mari Devon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95430-F0ISHrgOD5iJ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 23123,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kougen",
+        "last": null,
+        "full": "Kougen",
+        "native": null,
+        "userPreferred": "Kougen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/23123.jpg",
+      "voiceActors": [
+        {
+          "id": 96436,
+          "language": "Japanese",
+          "name": {
+            "first": "Mugihito",
+            "last": "",
+            "full": "Mugihito",
+            "native": "麦人 ",
+            "userPreferred": "Mugihito"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1436.jpg"
+        }
+      ]
+    },
+    {
+      "id": 268509,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Haniwa",
+        "last": null,
+        "full": "Haniwa",
+        "native": "ハニワ",
+        "userPreferred": "Haniwa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b268509-GaM9McZxfkQ5.jpg",
+      "voiceActors": []
+    }
+  ],
+  "relations": [
+    {
+      "id": 591,
+      "relationType": "PREQUEL",
+      "malId": 591,
+      "title": {
+        "romaji": "Amaenaide yo!!",
+        "english": "Ah My Buddha!!",
+        "native": "あまえないでよっ!!",
+        "userPreferred": "Amaenaide yo!!"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx591-mXQD7F0lzkcN.png",
+      "color": "#e4d643",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx591-mXQD7F0lzkcN.png",
+      "rating": 58
+    },
+    {
+      "id": 1750,
+      "relationType": "SIDE_STORY",
+      "malId": 1750,
+      "title": {
+        "romaji": "Amaenaide yo!! Katsu!! Special",
+        "english": "Ah My Buddha Katsu Special",
+        "native": null,
+        "userPreferred": "Amaenaide yo!! Katsu!! Special"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1750.jpg",
+      "color": "#d6d61a",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1750.jpg",
+      "rating": 61
+    }
+  ],
+  "episodes": [
+    {
+      "id": "amaenaideyo-katsu-episode-1",
+      "title": "Don't Tempt Me!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/16393/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:22:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//amaenaideyo-katsu-episode-1"
+    },
+    {
+      "id": "amaenaideyo-katsu-episode-2",
+      "title": "Don't Fan Me!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/16394/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:22:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//amaenaideyo-katsu-episode-2"
+    },
+    {
+      "id": "amaenaideyo-katsu-episode-3",
+      "title": "Don't Come Back!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/16395/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:22:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//amaenaideyo-katsu-episode-3"
+    },
+    {
+      "id": "amaenaideyo-katsu-episode-4",
+      "title": "Don't Haniwa Me!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/16396/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:22:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//amaenaideyo-katsu-episode-4"
+    },
+    {
+      "id": "amaenaideyo-katsu-episode-5",
+      "title": "Don't Fall!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/16397/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:22:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//amaenaideyo-katsu-episode-5"
+    },
+    {
+      "id": "amaenaideyo-katsu-episode-6",
+      "title": "Don't Lose Yourself!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/16398/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:22:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//amaenaideyo-katsu-episode-6"
+    },
+    {
+      "id": "amaenaideyo-katsu-episode-7",
+      "title": "Don't Be In Heat!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/16399/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:22:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//amaenaideyo-katsu-episode-7"
+    },
+    {
+      "id": "amaenaideyo-katsu-episode-8",
+      "title": "Don't Egg Me!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/16400/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:22:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//amaenaideyo-katsu-episode-8"
+    },
+    {
+      "id": "amaenaideyo-katsu-episode-9",
+      "title": "Don't Cry!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/16401/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:22:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//amaenaideyo-katsu-episode-9"
+    },
+    {
+      "id": "amaenaideyo-katsu-episode-10",
+      "title": "Don't Meddle!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/16402/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:22:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//amaenaideyo-katsu-episode-10"
+    },
+    {
+      "id": "amaenaideyo-katsu-episode-11",
+      "title": "Don't Act Spoiled!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/16403/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:22:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//amaenaideyo-katsu-episode-11"
+    },
+    {
+      "id": "amaenaideyo-katsu-episode-12",
+      "title": "Don't End!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/16404/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:22:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//amaenaideyo-katsu-episode-12"
+    },
+    {
+      "id": "amaenaideyo-katsu-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/886.jpg",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//amaenaideyo-katsu-episode-13"
+    }
+  ]
+}

@@ -1,0 +1,1040 @@
+{
+  "id": "1473",
+  "title": {
+    "romaji": "City Hunter '91",
+    "english": "City Hunter '91",
+    "native": "シティーハンター'91"
+  },
+  "malId": 1473,
+  "synonyms": [
+    "City Hunter 4"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1473-2L3kL5SdYdqU.jpg",
+  "popularity": 4214,
+  "color": "#d6a16b",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n1473-tJxGphGZkcl6.jpg",
+  "description": "Ryo Saeba is back as the City Hunter, a \"sweeper\" (private detective) working on the streets of Tokyo. He and sidekick Kaori Makimura are hired to solve the problems of desperate people. When Ryo is not using his sharp shooting skills against bad guys, he's aiming his sites on pretty ladies. Kaori uses a giant anti-ecchi hammer to make sure he behaves",
+  "status": "Completed",
+  "releaseDate": 1991,
+  "startDate": {
+    "year": 1991,
+    "month": 4,
+    "day": 28
+  },
+  "endDate": {
+    "year": 1991,
+    "month": 10,
+    "day": 10
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 74,
+  "duration": 23,
+  "genres": [
+    "Action",
+    "Comedy",
+    "Mystery"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Sunrise"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 4039,
+      "malId": 4039,
+      "title": {
+        "romaji": "Golgo 13 (TV)",
+        "english": null,
+        "native": "ゴルゴ13 (TV)",
+        "userPreferred": "Golgo 13 (TV)"
+      },
+      "status": "Completed",
+      "episodes": 50,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4039-oClm06wOAmog.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4039-TqDaHWbK6hZA.jpg",
+      "rating": 71,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 2065,
+      "role": "MAIN",
+      "name": {
+        "first": "Ryou",
+        "last": "Saeba",
+        "full": "Ryou Saeba",
+        "native": "冴羽獠",
+        "userPreferred": "Ryou Saeba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2065-s4bAoQPf3ef4.jpg",
+      "voiceActors": [
+        {
+          "id": 95416,
+          "language": "Japanese",
+          "name": {
+            "first": "Akira",
+            "last": "Kamiya",
+            "full": "Akira Kamiya",
+            "native": "神谷明",
+            "userPreferred": "Akira Kamiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95416-8rk0Oq3ZXYjt.png"
+        },
+        {
+          "id": 96185,
+          "language": "Italian",
+          "name": {
+            "first": "Massimo",
+            "last": "Rossi",
+            "full": "Massimo Rossi",
+            "native": null,
+            "userPreferred": "Massimo Rossi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1185.jpg"
+        },
+        {
+          "id": 156218,
+          "language": "French",
+          "name": {
+            "first": "Vincent",
+            "last": "Ropion",
+            "full": "Vincent Ropion",
+            "native": null,
+            "userPreferred": "Vincent Ropion"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n156218-Nnr3dA3ADxTh.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2066,
+      "role": "MAIN",
+      "name": {
+        "first": "Kaori",
+        "last": "Makimura",
+        "full": "Kaori Makimura",
+        "native": "槇村香",
+        "userPreferred": "Kaori Makimura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2066-RKopts19cACm.jpg",
+      "voiceActors": [
+        {
+          "id": 95420,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazue",
+            "last": "Ikura",
+            "full": "Kazue Ikura",
+            "native": "伊倉一恵",
+            "userPreferred": "Kazue Ikura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95420-or3epAZNwUdi.png"
+        },
+        {
+          "id": 144893,
+          "language": "Italian",
+          "name": {
+            "first": "Chiara",
+            "last": "Colizzi",
+            "full": "Chiara Colizzi",
+            "native": null,
+            "userPreferred": "Chiara Colizzi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 96619,
+          "language": "French",
+          "name": {
+            "first": "Danièle",
+            "last": "Douet",
+            "full": "Danièle Douet",
+            "native": null,
+            "userPreferred": "Danièle Douet"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1619.jpg"
+        }
+      ]
+    },
+    {
+      "id": 63715,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuuki",
+        "last": "Grace",
+        "full": "Yuuki Grace",
+        "native": "優希",
+        "userPreferred": "Yuuki Grace"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/63715.jpg",
+      "voiceActors": [
+        {
+          "id": 95984,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Takada",
+            "full": "Yumi Takada",
+            "native": "高田由美",
+            "userPreferred": "Yumi Takada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95984-CH3CaTnNBoQv.jpg"
+        },
+        {
+          "id": 146250,
+          "language": "Italian",
+          "name": {
+            "first": "Rita",
+            "last": "Baldini",
+            "full": "Rita Baldini",
+            "native": null,
+            "userPreferred": "Rita Baldini"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 63731,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hou Xian",
+        "last": "Lin",
+        "full": "Hou Xian Lin",
+        "native": "林候賢",
+        "userPreferred": "Hou Xian Lin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/63731.jpg",
+      "voiceActors": [
+        {
+          "id": 104017,
+          "language": "Japanese",
+          "name": {
+            "first": "Shigezou",
+            "last": "Sasaoka",
+            "full": "Shigezou Sasaoka",
+            "native": "笹岡繁蔵",
+            "userPreferred": "Shigezou Sasaoka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104017-SZZ291MuKMWY.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2068,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hayato",
+        "last": "Ijuuin",
+        "full": "Hayato Ijuuin",
+        "native": "海坊主",
+        "userPreferred": "Hayato Ijuuin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2068-g6bVAiNPCCj9.jpg",
+      "voiceActors": [
+        {
+          "id": 95761,
+          "language": "Japanese",
+          "name": {
+            "first": "Tesshou",
+            "last": "Genda",
+            "full": "Tesshou Genda",
+            "native": "玄田哲章",
+            "userPreferred": "Tesshou Genda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95761-nwndYRCqJxno.png"
+        },
+        {
+          "id": 144629,
+          "language": "Italian",
+          "name": {
+            "first": "Paolo",
+            "last": "Buglioni",
+            "full": "Paolo Buglioni",
+            "native": null,
+            "userPreferred": "Paolo Buglioni"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n144629-5Pz0oWYU03WA.jpg"
+        },
+        {
+          "id": 161915,
+          "language": "French",
+          "name": {
+            "first": "Michel",
+            "last": "Barbey",
+            "full": "Michel Barbey",
+            "native": null,
+            "userPreferred": "Michel Barbey"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 63717,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Miyuki",
+        "last": "Kobayashi",
+        "full": "Miyuki Kobayashi",
+        "native": "小林みゆき",
+        "userPreferred": "Miyuki Kobayashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/63717.jpg",
+      "voiceActors": [
+        {
+          "id": 96446,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuriko",
+            "last": "Yamamoto",
+            "full": "Yuriko Yamamoto",
+            "native": "山本百合子",
+            "userPreferred": "Yuriko Yamamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96446-RvbWlszQjfYu.png"
+        },
+        {
+          "id": 101715,
+          "language": "Italian",
+          "name": {
+            "first": "Liliana",
+            "last": "Sorrentino",
+            "full": "Liliana Sorrentino",
+            "native": null,
+            "userPreferred": "Liliana Sorrentino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6715.jpg"
+        }
+      ]
+    },
+    {
+      "id": 63733,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Zhang Mou",
+        "last": "Lin",
+        "full": "Zhang Mou Lin",
+        "native": "林張謀",
+        "userPreferred": "Zhang Mou Lin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/63733.jpg",
+      "voiceActors": [
+        {
+          "id": 95179,
+          "language": "Japanese",
+          "name": {
+            "first": "Masashi",
+            "last": "Ebara",
+            "full": "Masashi Ebara",
+            "native": "江原正士",
+            "userPreferred": "Masashi Ebara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95179-ZXxATX9muGcD.png"
+        }
+      ]
+    },
+    {
+      "id": 63719,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ami",
+        "last": "Asaka",
+        "full": "Ami Asaka",
+        "native": "浅香亜美",
+        "userPreferred": "Ami Asaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/63719.jpg",
+      "voiceActors": [
+        {
+          "id": 100192,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuko",
+            "last": "Sasaki",
+            "full": "Yuko Sasaki",
+            "native": "佐々木優子",
+            "userPreferred": "Yuko Sasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100192-CVPCiU6RNdWr.png"
+        },
+        {
+          "id": 175820,
+          "language": "Italian",
+          "name": {
+            "first": "Sabrina",
+            "last": "Duranti",
+            "full": "Sabrina Duranti",
+            "native": null,
+            "userPreferred": "Sabrina Duranti"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 63735,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rika",
+        "last": "Shiraishi",
+        "full": "Rika Shiraishi",
+        "native": "白石リカ",
+        "userPreferred": "Rika Shiraishi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/63735.jpg",
+      "voiceActors": [
+        {
+          "id": 95983,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Kobayashi",
+            "full": "Yuuko Kobayashi",
+            "native": "小林優子",
+            "userPreferred": "Yuuko Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/983.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2069,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Saeko",
+        "last": "Nogami",
+        "full": "Saeko Nogami",
+        "native": "野上冴子",
+        "userPreferred": "Saeko Nogami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2069-dCgcoZxvQuKK.png",
+      "voiceActors": [
+        {
+          "id": 96119,
+          "language": "Japanese",
+          "name": {
+            "first": "Harumi",
+            "last": "Ichiryuusai",
+            "full": "Harumi Ichiryuusai",
+            "native": "一龍斎春水",
+            "userPreferred": "Harumi Ichiryuusai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96119-fc73Td5Qm6RB.jpg"
+        },
+        {
+          "id": 163361,
+          "language": "Italian",
+          "name": {
+            "first": "Roberta",
+            "last": "Greganti",
+            "full": "Roberta Greganti",
+            "native": null,
+            "userPreferred": "Roberta Greganti"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 96614,
+          "language": "French",
+          "name": {
+            "first": "Agnès",
+            "last": "Gribe",
+            "full": "Agnès Gribe",
+            "native": null,
+            "userPreferred": "Agnès Gribe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96614-cN4fy93VqVCz.png"
+        }
+      ]
+    },
+    {
+      "id": 63721,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mami",
+        "last": "Asaka",
+        "full": "Mami Asaka",
+        "native": "朝香麻美",
+        "userPreferred": "Mami Asaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/63721.jpg",
+      "voiceActors": [
+        {
+          "id": 95639,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuriko",
+            "last": "Fuchizaki",
+            "full": "Yuriko Fuchizaki",
+            "native": "渕崎ゆり子",
+            "userPreferred": "Yuriko Fuchizaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95639-mdpUJQ0yHZIo.png"
+        },
+        {
+          "id": 146217,
+          "language": "Italian",
+          "name": {
+            "first": "Paola",
+            "last": "Valentini",
+            "full": "Paola Valentini",
+            "native": null,
+            "userPreferred": "Paola Valentini"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 63737,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Junko",
+        "last": null,
+        "full": "Junko",
+        "native": "ジュンコ",
+        "userPreferred": "Junko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/63737.jpg",
+      "voiceActors": [
+        {
+          "id": 95128,
+          "language": "Japanese",
+          "name": {
+            "first": "Ikue",
+            "last": "Ootani",
+            "full": "Ikue Ootani",
+            "native": "大谷育江",
+            "userPreferred": "Ikue Ootani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95128-9YWpE1d2U8Sj.png"
+        }
+      ]
+    },
+    {
+      "id": 61529,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Miki",
+        "last": null,
+        "full": "Miki",
+        "native": "美樹",
+        "userPreferred": "Miki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b61529-ZUP7lJ1wvynh.png",
+      "voiceActors": [
+        {
+          "id": 95571,
+          "language": "Japanese",
+          "name": {
+            "first": "Mami",
+            "last": "Koyama",
+            "full": "Mami Koyama",
+            "native": "小山茉美",
+            "userPreferred": "Mami Koyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95571-QuL7zlRwRcxa.png"
+        },
+        {
+          "id": 163360,
+          "language": "Italian",
+          "name": {
+            "first": "Roberta",
+            "last": "Paladini",
+            "full": "Roberta Paladini",
+            "native": null,
+            "userPreferred": "Roberta Paladini"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 96614,
+          "language": "French",
+          "name": {
+            "first": "Agnès",
+            "last": "Gribe",
+            "full": "Agnès Gribe",
+            "native": null,
+            "userPreferred": "Agnès Gribe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96614-cN4fy93VqVCz.png"
+        }
+      ]
+    },
+    {
+      "id": 63723,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kenny",
+        "last": "Field",
+        "full": "Kenny Field",
+        "native": "ケニー・フィールド",
+        "userPreferred": "Kenny Field"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/63723.jpg",
+      "voiceActors": [
+        {
+          "id": 95018,
+          "language": "Japanese",
+          "name": {
+            "first": "Hidekatsu",
+            "last": "Shibata",
+            "full": "Hidekatsu Shibata",
+            "native": "柴田秀勝",
+            "userPreferred": "Hidekatsu Shibata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95018-HXJMMED74SVO.png"
+        }
+      ]
+    },
+    {
+      "id": 63739,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rie",
+        "last": null,
+        "full": "Rie",
+        "native": "リエ",
+        "userPreferred": "Rie"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/63739.jpg",
+      "voiceActors": [
+        {
+          "id": 101663,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Urawa",
+            "full": "Megumi Urawa",
+            "native": "浦和めぐみ",
+            "userPreferred": "Megumi Urawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101663-0ioQAduoHX8j.jpg"
+        }
+      ]
+    },
+    {
+      "id": 34775,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hans",
+        "last": "Siegfried",
+        "full": "Hans Siegfried",
+        "native": "ハンス＝ジークフリート",
+        "userPreferred": "Hans Siegfried"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/34775.jpg",
+      "voiceActors": [
+        {
+          "id": 95286,
+          "language": "Japanese",
+          "name": {
+            "first": "Nozomu",
+            "last": "Sasaki",
+            "full": "Nozomu Sasaki",
+            "native": "佐々木望",
+            "userPreferred": "Nozomu Sasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95286-1RlrFeFKx3jn.png"
+        }
+      ]
+    },
+    {
+      "id": 63725,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sonia",
+        "last": "Field",
+        "full": "Sonia Field",
+        "native": "ソニア・フィールド",
+        "userPreferred": "Sonia Field"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/63725.jpg",
+      "voiceActors": [
+        {
+          "id": 95678,
+          "language": "Japanese",
+          "name": {
+            "first": "Rika",
+            "last": "Matsumoto",
+            "full": "Rika Matsumoto",
+            "native": "松本梨香",
+            "userPreferred": "Rika Matsumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95678-U0iKFbhteND6.png"
+        }
+      ]
+    },
+    {
+      "id": 63741,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yumi",
+        "last": null,
+        "full": "Yumi",
+        "native": "ユミ",
+        "userPreferred": "Yumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/63741.jpg",
+      "voiceActors": [
+        {
+          "id": 107078,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Sakaguchi",
+            "full": "Aya Sakaguchi",
+            "native": "あや 阪口",
+            "userPreferred": "Aya Sakaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12078.jpg"
+        }
+      ]
+    },
+    {
+      "id": 38755,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kuwata",
+        "last": null,
+        "full": "Kuwata",
+        "native": "桑田刑事",
+        "userPreferred": "Kuwata"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/38755.jpg",
+      "voiceActors": [
+        {
+          "id": 95598,
+          "language": "Japanese",
+          "name": {
+            "first": "Shuuichi",
+            "last": "Ikeda",
+            "full": "Shuuichi Ikeda",
+            "native": "池田秀一",
+            "userPreferred": "Shuuichi Ikeda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95598-IZBrsaxRsACg.png"
+        },
+        {
+          "id": 96224,
+          "language": "Italian",
+          "name": {
+            "first": "Andrea",
+            "last": "Ward",
+            "full": "Andrea Ward",
+            "native": null,
+            "userPreferred": "Andrea Ward"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96224-fNHNFZUyr3Bd.png"
+        }
+      ]
+    },
+    {
+      "id": 63727,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Eriko",
+        "last": "Kitahara",
+        "full": "Eriko Kitahara",
+        "native": "北原絵梨子",
+        "userPreferred": "Eriko Kitahara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/63727.jpg",
+      "voiceActors": [
+        {
+          "id": 95438,
+          "language": "Japanese",
+          "name": {
+            "first": "Emi",
+            "last": "Shinohara",
+            "full": "Emi Shinohara",
+            "native": "篠原恵美",
+            "userPreferred": "Emi Shinohara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95438-dNxTPna4mfhR.jpg"
+        }
+      ]
+    },
+    {
+      "id": 63743,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Togawa",
+        "last": null,
+        "full": "Togawa",
+        "native": "戸川",
+        "userPreferred": "Togawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/63743.jpg",
+      "voiceActors": [
+        {
+          "id": 95084,
+          "language": "Japanese",
+          "name": {
+            "first": "Norio",
+            "last": "Wakamoto",
+            "full": "Norio Wakamoto",
+            "native": "若本規夫",
+            "userPreferred": "Norio Wakamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95084-RTrZSU38POPF.png"
+        }
+      ]
+    },
+    {
+      "id": 63713,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shouko",
+        "last": "Amano",
+        "full": "Shouko Amano",
+        "native": "天野翔子",
+        "userPreferred": "Shouko Amano"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/63713.jpg",
+      "voiceActors": [
+        {
+          "id": 95516,
+          "language": "Japanese",
+          "name": {
+            "first": "Naoko",
+            "last": "Matsui",
+            "full": "Naoko Matsui",
+            "native": "松井菜桜子",
+            "userPreferred": "Naoko Matsui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95516-N94jWbOCyDd7.jpg"
+        },
+        {
+          "id": 144774,
+          "language": "Italian",
+          "name": {
+            "first": "Alessandra",
+            "last": "Korompay",
+            "full": "Alessandra Korompay",
+            "native": null,
+            "userPreferred": "Alessandra Korompay"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n144774-NXwEs5Rm4nn4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 63729,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Asakura",
+        "last": null,
+        "full": "Asakura",
+        "native": "朝倉",
+        "userPreferred": "Asakura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/63729.jpg",
+      "voiceActors": [
+        {
+          "id": 100791,
+          "language": "Japanese",
+          "name": {
+            "first": "Hidetoshi",
+            "last": "Nakamura",
+            "full": "Hidetoshi Nakamura",
+            "native": "中村秀利",
+            "userPreferred": "Hidetoshi Nakamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100791-5CeE20GspsfK.jpg"
+        }
+      ]
+    },
+    {
+      "id": 63841,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Koumori",
+        "last": null,
+        "full": "Koumori",
+        "native": "蝙蝠",
+        "userPreferred": "Koumori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/63841.jpg",
+      "voiceActors": [
+        {
+          "id": 96123,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukitoshi",
+            "last": "Hori",
+            "full": "Yukitoshi Hori",
+            "native": "堀之紀",
+            "userPreferred": "Yukitoshi Hori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96123-NX5sJ29RPyUC.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 1472,
+      "relationType": "PREQUEL",
+      "malId": 1472,
+      "title": {
+        "romaji": "City Hunter 3",
+        "english": "City Hunter 3",
+        "native": "シティーハンター3",
+        "userPreferred": "City Hunter 3"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1472-xs6VFKpwztMe.jpg",
+      "color": "#f1bb50",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n1472-oBj1YX89fvNK.jpg",
+      "rating": 76
+    },
+    {
+      "id": 1477,
+      "relationType": "PREQUEL",
+      "malId": 1477,
+      "title": {
+        "romaji": "City Hunter: The Secret Service",
+        "english": "City Hunter: The Secret Service",
+        "native": "シティーハンタースペシャル ザ・シークレット・サービス",
+        "userPreferred": "City Hunter: The Secret Service"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1477-RdeLezgVD8Mn.jpg",
+      "color": "#e48650",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1477-RdeLezgVD8Mn.jpg",
+      "rating": 72
+    }
+  ],
+  "episodes": [
+    {
+      "id": "city-hunter-season-4-episode-1",
+      "title": "Big Revival of the Funny Pair! The Beauty Fallen from the Sky",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160613/original.jpg",
+      "number": 1,
+      "createdAt": "2014-11-16T20:30:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//city-hunter-season-4-episode-1"
+    },
+    {
+      "id": "city-hunter-season-4-episode-2",
+      "title": "Farewell Kaori! Orders to capture City Hunter",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160624/original.jpg",
+      "number": 2,
+      "createdAt": "2014-11-16T20:30:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//city-hunter-season-4-episode-2"
+    },
+    {
+      "id": "city-hunter-season-4-episode-3",
+      "title": "Combination of puzzlement & recovery! Memories are a distant light",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160633/original.jpg",
+      "number": 3,
+      "createdAt": "2014-11-16T20:30:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//city-hunter-season-4-episode-3"
+    },
+    {
+      "id": "city-hunter-season-4-episode-4",
+      "title": "Love is also an A-license. The beautiful wheelman visiting the store! ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160646/original.jpg",
+      "number": 4,
+      "createdAt": "2014-11-16T20:30:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//city-hunter-season-4-episode-4"
+    },
+    {
+      "id": "city-hunter-season-4-episode-5",
+      "title": "Fear! Shinjuku Ghost Story!! The Wandering Soul of a Beautiful Woman",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160653/original.jpg",
+      "number": 5,
+      "createdAt": "2014-11-16T20:30:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//city-hunter-season-4-episode-5"
+    },
+    {
+      "id": "city-hunter-season-4-episode-6",
+      "title": "Farewell Requiem Your Visage, Once Again",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160660/original.jpg",
+      "number": 6,
+      "createdAt": "2014-11-16T20:30:08Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//city-hunter-season-4-episode-6"
+    },
+    {
+      "id": "city-hunter-season-4-episode-7",
+      "title": "Revenge of the beautiful woman! The sorrowful blues for Ryo",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160666/original.jpg",
+      "number": 7,
+      "createdAt": "2014-11-16T20:30:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//city-hunter-season-4-episode-7"
+    },
+    {
+      "id": "city-hunter-season-4-episode-8",
+      "title": "Looking for gunpowder smoke. . . City Hunter dies at dawn!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160676/original.jpg",
+      "number": 8,
+      "createdAt": "2014-11-16T20:30:12Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//city-hunter-season-4-episode-8"
+    },
+    {
+      "id": "city-hunter-season-4-episode-9",
+      "title": "Ishuin Hayato's peaceful day",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160683/original.jpg",
+      "number": 9,
+      "createdAt": "2014-11-16T20:30:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//city-hunter-season-4-episode-9"
+    },
+    {
+      "id": "city-hunter-season-4-episode-10",
+      "title": "My Love For Tonight Only Cinderella Story in the City",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160698/original.jpg",
+      "number": 10,
+      "createdAt": "2014-11-16T20:30:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//city-hunter-season-4-episode-10"
+    },
+    {
+      "id": "city-hunter-season-4-episode-11",
+      "title": "A Trigger Covered with Scratches! The Detective Saeko Loved",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160706/original.jpg",
+      "number": 11,
+      "createdAt": "2014-11-16T20:30:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//city-hunter-season-4-episode-11"
+    },
+    {
+      "id": "city-hunter-season-4-episode-12",
+      "title": "Memories of the Necklace Incident Ryo, a Bad Girl & Makimura",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160710/original.jpg",
+      "number": 12,
+      "createdAt": "2014-11-16T20:30:19Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//city-hunter-season-4-episode-12"
+    },
+    {
+      "id": "city-hunter-season-4-episode-13",
+      "title": "Lullaby requiem. The young nobleman who came from a distant country",
+      "image": "https://media.kitsu.io/episodes/thumbnails/160715/original.jpg",
+      "number": 13,
+      "createdAt": "2014-11-16T20:30:21Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//city-hunter-season-4-episode-13"
+    }
+  ]
+}

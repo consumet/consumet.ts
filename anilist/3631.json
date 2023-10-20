@@ -1,0 +1,533 @@
+{
+  "id": "3631",
+  "title": {
+    "romaji": "Aoi Blink",
+    "english": "Blue Blink",
+    "native": "青いブリンク"
+  },
+  "malId": 3631,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+  "popularity": 440,
+  "color": "#e4c9a1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+  "description": "Story of a young boy named Kakeru and his adventures together with a magical blue pony named Blink.",
+  "status": "Completed",
+  "releaseDate": 1989,
+  "startDate": {
+    "year": 1989,
+    "month": 4,
+    "day": 7
+  },
+  "endDate": {
+    "year": 1990,
+    "month": 3,
+    "day": 16
+  },
+  "totalEpisodes": 39,
+  "currentEpisode": 39,
+  "rating": 51,
+  "duration": 25,
+  "genres": [
+    "Fantasy"
+  ],
+  "season": "SPRING",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 283,
+      "malId": 283,
+      "title": {
+        "romaji": "Akage no Anne",
+        "english": "Anne of Green Gables",
+        "native": "赤毛のアン",
+        "userPreferred": "Akage no Anne"
+      },
+      "status": "Completed",
+      "episodes": 50,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx283-SfZh7XERqZjy.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/283-ayiNXKSSQpE7.jpg",
+      "rating": 79,
+      "type": "TV"
+    },
+    {
+      "id": 9547,
+      "malId": 9547,
+      "title": {
+        "romaji": "Alps no Shoujo Heidi (1979)",
+        "english": "The Story of Heidi",
+        "native": "アルプスの少女ハイジ (1979)",
+        "userPreferred": "Alps no Shoujo Heidi (1979)"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9547.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9547.jpg",
+      "rating": 67,
+      "type": "MOVIE"
+    },
+    {
+      "id": 2150,
+      "malId": 2150,
+      "title": {
+        "romaji": "Tanoshii Moomin Ikka",
+        "english": "Moomin",
+        "native": "楽しいムーミン一家",
+        "userPreferred": "Tanoshii Moomin Ikka"
+      },
+      "status": "Completed",
+      "episodes": 78,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2150.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2150-XgTbZ0DGcL5a.jpg",
+      "rating": 78,
+      "type": "TV"
+    },
+    {
+      "id": 2826,
+      "malId": 2826,
+      "title": {
+        "romaji": "Oz no Mahoutsukai (1986)",
+        "english": "The Wonderful Wizard of Oz",
+        "native": "オズの魔法使い",
+        "userPreferred": "Oz no Mahoutsukai (1986)"
+      },
+      "status": "Completed",
+      "episodes": 52,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2826-DZaQKJ27jurZ.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2826-DZaQKJ27jurZ.jpg",
+      "rating": 60,
+      "type": "TV"
+    },
+    {
+      "id": 2577,
+      "malId": 2577,
+      "title": {
+        "romaji": "Tom Sawyer no Bouken",
+        "english": "The Adventures of Tom Sawyer",
+        "native": "トム・ソーヤーの冒険",
+        "userPreferred": "Tom Sawyer no Bouken"
+      },
+      "status": "Completed",
+      "episodes": 49,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2577-hQ3UqXtVoHn3.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2577-PQudkN84UwP2.jpg",
+      "rating": 69,
+      "type": "TV"
+    },
+    {
+      "id": 2333,
+      "malId": 2333,
+      "title": {
+        "romaji": "Anime Sanjuushi",
+        "english": "The Three Musketeers",
+        "native": "アニメ三銃士",
+        "userPreferred": "Anime Sanjuushi"
+      },
+      "status": "Completed",
+      "episodes": 52,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2333.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2333-zljD8QAJsQAk.jpg",
+      "rating": 64,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 26296,
+      "role": "MAIN",
+      "name": {
+        "first": "Blink",
+        "last": null,
+        "full": "Blink",
+        "native": null,
+        "userPreferred": "Blink"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26296.jpg",
+      "voiceActors": [
+        {
+          "id": 95557,
+          "language": "Japanese",
+          "name": {
+            "first": "Masako",
+            "last": "Nozawa",
+            "full": "Masako Nozawa",
+            "native": "野沢雅子",
+            "userPreferred": "Masako Nozawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95557-5a2nnIBK05ul.png"
+        },
+        {
+          "id": 103812,
+          "language": "Korean",
+          "name": {
+            "first": "Mi Sook",
+            "last": "Jeong",
+            "full": "Mi Sook Jeong",
+            "native": "숙 정미",
+            "userPreferred": "Mi Sook Jeong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8812.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [],
+  "episodes": [
+    {
+      "id": "aoi-blink-episode-1",
+      "title": "A Departure Toward the Faraway Future",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 1,
+      "createdAt": "2014-11-16T20:47:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-1"
+    },
+    {
+      "id": "aoi-blink-episode-2",
+      "title": "The Secret of ",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 2,
+      "createdAt": "2014-11-16T20:47:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-2"
+    },
+    {
+      "id": "aoi-blink-episode-3",
+      "title": "The Hostage in Rose Mansion",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 3,
+      "createdAt": "2014-11-16T20:47:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-3"
+    },
+    {
+      "id": "aoi-blink-episode-4",
+      "title": "The Tilted Ivory Castle",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 4,
+      "createdAt": "2014-11-16T20:47:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-4"
+    },
+    {
+      "id": "aoi-blink-episode-5",
+      "title": "Monster Dogizura in Yellow Fortress",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 5,
+      "createdAt": "2014-11-16T20:47:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-5"
+    },
+    {
+      "id": "aoi-blink-episode-6",
+      "title": "Strange Fruit in Blue Town",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 6,
+      "createdAt": "2014-11-16T20:47:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-6"
+    },
+    {
+      "id": "aoi-blink-episode-7",
+      "title": "Crash! Moss Green Car Race",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 7,
+      "createdAt": "2014-11-16T20:47:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-7"
+    },
+    {
+      "id": "aoi-blink-episode-8",
+      "title": "The Tempting Island: Cobalt",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 8,
+      "createdAt": "2014-11-16T20:47:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-8"
+    },
+    {
+      "id": "aoi-blink-episode-9",
+      "title": "A Country of Fighters: Red Ball",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 9,
+      "createdAt": "2014-11-16T20:47:12Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-9"
+    },
+    {
+      "id": "aoi-blink-episode-10",
+      "title": "The Mysterious Forest Sepia",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 10,
+      "createdAt": "2014-11-16T20:47:12Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-10"
+    },
+    {
+      "id": "aoi-blink-episode-11",
+      "title": "The City of the Three Primary Colors: Terrace",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 11,
+      "createdAt": "2014-11-16T20:47:12Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-11"
+    },
+    {
+      "id": "aoi-blink-episode-12",
+      "title": "Heart Stealers of Purple Town",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 12,
+      "createdAt": "2014-11-16T20:47:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-12"
+    },
+    {
+      "id": "aoi-blink-episode-13",
+      "title": "The Fortress Train in Brown Town",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 13,
+      "createdAt": "2014-11-16T20:47:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-13"
+    },
+    {
+      "id": "aoi-blink-episode-14",
+      "title": "Children's Town, Rainbow Town",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 14,
+      "createdAt": "2014-11-16T20:47:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-14"
+    },
+    {
+      "id": "aoi-blink-episode-15",
+      "title": "The Light Ark of Gold Valley",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 15,
+      "createdAt": "2014-11-16T20:47:15Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-15"
+    },
+    {
+      "id": "aoi-blink-episode-16",
+      "title": "The Town of Fortune-Telling: Mint Green",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 16,
+      "createdAt": "2014-11-16T20:47:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-16"
+    },
+    {
+      "id": "aoi-blink-episode-17",
+      "title": "Milky White: The Secret of the Temple in the Air",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 17,
+      "createdAt": "2014-11-16T20:47:16Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-17"
+    },
+    {
+      "id": "aoi-blink-episode-18",
+      "title": "Will It Bloom?: The Flower of Dark in Emerald Forest",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 18,
+      "createdAt": "2014-11-16T20:47:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-18"
+    },
+    {
+      "id": "aoi-blink-episode-19",
+      "title": "To The Dark River! The Mysterious Ultra-Marine Plain!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 19,
+      "createdAt": "2014-11-16T20:47:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-19"
+    },
+    {
+      "id": "aoi-blink-episode-20",
+      "title": "Animal Paradise: Harpy Green",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 20,
+      "createdAt": "2014-11-16T20:47:18Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-20"
+    },
+    {
+      "id": "aoi-blink-episode-21",
+      "title": "Yellow Oaker: The Town With No Greenery or Flowers",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 21,
+      "createdAt": "2014-11-16T20:47:20Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-21"
+    },
+    {
+      "id": "aoi-blink-episode-22",
+      "title": "The Plane of Love! Fly in the Persian Blue!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 22,
+      "createdAt": "2014-11-16T20:47:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-22"
+    },
+    {
+      "id": "aoi-blink-episode-23",
+      "title": "The Legend of Davies Gray! Blink Turns into a Fossil!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 23,
+      "createdAt": "2014-11-16T20:47:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-23"
+    },
+    {
+      "id": "aoi-blink-episode-24",
+      "title": "Submarine City: The Mermaid Princess of Pearl Muu",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 24,
+      "createdAt": "2014-11-16T20:47:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-24"
+    },
+    {
+      "id": "aoi-blink-episode-25",
+      "title": "Blink Disappears in Opera Town",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 25,
+      "createdAt": "2014-11-16T20:47:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-25"
+    },
+    {
+      "id": "aoi-blink-episode-26",
+      "title": "Revive! The Hotaru Butterflies of Scarlet River",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 26,
+      "createdAt": "2014-11-16T20:47:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-26"
+    },
+    {
+      "id": "aoi-blink-episode-27",
+      "title": "Mystery! The Castle of Adventures, Indigo",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 27,
+      "createdAt": "2014-11-16T20:47:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-27"
+    },
+    {
+      "id": "aoi-blink-episode-28",
+      "title": "Love Again! Fierce Fight in the Wine Red Sea",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 28,
+      "createdAt": "2014-11-16T20:47:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-28"
+    },
+    {
+      "id": "aoi-blink-episode-29",
+      "title": "Enemy or Friend? The Detective of Orange Stone",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 29,
+      "createdAt": "2014-11-16T20:47:31Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-29"
+    },
+    {
+      "id": "aoi-blink-episode-30",
+      "title": "Find the Key of Truth! The Remains of Dark Purple Lake",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 30,
+      "createdAt": "2014-11-16T20:47:31Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-30"
+    },
+    {
+      "id": "aoi-blink-episode-31",
+      "title": "Gold Amber Valley",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 31,
+      "createdAt": "2014-11-16T20:47:31Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-31"
+    },
+    {
+      "id": "aoi-blink-episode-32",
+      "title": "The Upside Down City, Sky Blue",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 32,
+      "createdAt": "2014-11-16T20:47:31Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-32"
+    },
+    {
+      "id": "aoi-blink-episode-33",
+      "title": "Meeting Again! Mother and Child in the Dark Jail",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 33,
+      "createdAt": "2014-11-16T20:47:32Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-33"
+    },
+    {
+      "id": "aoi-blink-episode-34",
+      "title": "Lonely Kakeru! The Nightmare of the Dark Sea!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 34,
+      "createdAt": "2014-11-16T20:47:32Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-34"
+    },
+    {
+      "id": "aoi-blink-episode-35",
+      "title": "The Strongest Soldier: Black Warrior",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 35,
+      "createdAt": "2014-11-16T20:47:32Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-35"
+    },
+    {
+      "id": "aoi-blink-episode-36",
+      "title": "To the Dark Castle! Face Up with Courage",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 36,
+      "createdAt": "2014-11-16T20:47:33Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-36"
+    },
+    {
+      "id": "aoi-blink-episode-37",
+      "title": "Prince Horo: The Bronze Trap",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 37,
+      "createdAt": "2014-11-16T20:47:33Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-37"
+    },
+    {
+      "id": "aoi-blink-episode-38",
+      "title": "Gross Castle in Light and Darkness",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 38,
+      "createdAt": "2014-11-16T20:47:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-38"
+    },
+    {
+      "id": "aoi-blink-episode-39",
+      "title": "Goodbye to the Endless Journey and Blink",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3631-gp2iOBWuZqj3.jpg",
+      "number": 39,
+      "createdAt": "2014-11-16T20:47:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aoi-blink-episode-39"
+    }
+  ]
+}

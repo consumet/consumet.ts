@@ -1,0 +1,957 @@
+{
+  "id": "8503",
+  "title": {
+    "romaji": "Fushigi Mahou Fun Fun Pharmacy",
+    "english": null,
+    "native": "ふしぎ魔法 ファンファン・ファーマシィー"
+  },
+  "malId": 8503,
+  "synonyms": [
+    "Mysterious Magic Fun Fun Pharmacy",
+    "Anime Shuukan DX! Mi-Pha-Pu"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+  "popularity": 1641,
+  "color": "#e49350",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/8503-0XTk8JbVWUc1.jpg",
+  "description": "In a small town, there is a small pharmacy called Fun Fun Pharmacy. Popuri, a girl who recently moved in downtown, discovers this pharmacy and meets Miss Fukiko, who is actually a witch. Miss Fukiko gives Popuri a mysterious bottle that can create magic spirits.",
+  "status": "Completed",
+  "releaseDate": 1998,
+  "startDate": {
+    "year": 1998,
+    "month": 2,
+    "day": 15
+  },
+  "endDate": {
+    "year": 1999,
+    "month": 2,
+    "day": 6
+  },
+  "totalEpisodes": 48,
+  "currentEpisode": 48,
+  "rating": 63,
+  "duration": 12,
+  "genres": [
+    "Fantasy",
+    "Mahou Shoujo",
+    "Slice of Life",
+    "Supernatural"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "Toei Animation"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 350,
+      "malId": 350,
+      "title": {
+        "romaji": "Ojamajo Doremi",
+        "english": "Magical DoReMi",
+        "native": "おジャ魔女どれみ",
+        "userPreferred": "Ojamajo Doremi"
+      },
+      "status": "Completed",
+      "episodes": 51,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx350-qhqB286Za32Y.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/350-oGY6MInyVjpO.jpg",
+      "rating": 72,
+      "type": "TV"
+    },
+    {
+      "id": 327,
+      "malId": 327,
+      "title": {
+        "romaji": "Puchi Puri * Yuushi",
+        "english": "Petite Princess Yucie",
+        "native": "ぷちぷり*ユーシィ",
+        "userPreferred": "Puchi Puri * Yuushi"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx327-wiB9azurNfU3.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/327-GeXlrx9JCTd9.jpg",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 2036,
+      "malId": 2036,
+      "title": {
+        "romaji": "Cosmic Baton Girl Comet-san",
+        "english": null,
+        "native": "Cosmic Baton Girl コメットさん",
+        "userPreferred": "Cosmic Baton Girl Comet-san"
+      },
+      "status": "Completed",
+      "episodes": 43,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2036-kTPjhEV7uFOb.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2036-2kCQkmqYInGL.jpg",
+      "rating": 66,
+      "type": "TV"
+    },
+    {
+      "id": 351,
+      "malId": 351,
+      "title": {
+        "romaji": "Ojamajo Doremi Sharp",
+        "english": null,
+        "native": "おジャ魔女どれみ＃",
+        "userPreferred": "Ojamajo Doremi Sharp"
+      },
+      "status": "Completed",
+      "episodes": 49,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b351-d77vjiz5qpni.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/351-l6wjsgC3EXUr.jpg",
+      "rating": 74,
+      "type": "TV"
+    },
+    {
+      "id": 9935,
+      "malId": 9935,
+      "title": {
+        "romaji": "Chocolat no Mahou",
+        "english": "The Magic of Chocolate",
+        "native": "ショコラの魔法",
+        "userPreferred": "Chocolat no Mahou"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9935.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9935.jpg",
+      "rating": 55,
+      "type": "OVA"
+    },
+    {
+      "id": 2804,
+      "malId": 2804,
+      "title": {
+        "romaji": "Hana no Mahou Tsukai Mary Bell",
+        "english": null,
+        "native": "花の魔法使いマリーベル",
+        "userPreferred": "Hana no Mahou Tsukai Mary Bell"
+      },
+      "status": "Completed",
+      "episodes": 50,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2804-V9GMn6XxlfUK.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2804-V9GMn6XxlfUK.jpg",
+      "rating": 62,
+      "type": "TV"
+    },
+    {
+      "id": 4651,
+      "malId": 4651,
+      "title": {
+        "romaji": "Yume no Crayon Oukoku",
+        "english": "Crayon Kingdom of Dreams",
+        "native": "夢のクレヨン王国",
+        "userPreferred": "Yume no Crayon Oukoku"
+      },
+      "status": "Completed",
+      "episodes": 70,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4651.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4651-fiym4yy0lZPg.jpg",
+      "rating": 70,
+      "type": "TV"
+    },
+    {
+      "id": 353,
+      "malId": 353,
+      "title": {
+        "romaji": "Ojamajo Doremi Dokkaan!",
+        "english": null,
+        "native": "おジャ魔女どれみドッカ〜ン！",
+        "userPreferred": "Ojamajo Doremi Dokkaan!"
+      },
+      "status": "Completed",
+      "episodes": 51,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b353-7ssC6w5bSLMO.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/353-tTjmRsQf41CE.jpg",
+      "rating": 78,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 41461,
+      "role": "MAIN",
+      "name": {
+        "first": "Miss",
+        "last": "Fukiko",
+        "full": "Miss Fukiko",
+        "native": "ふきこ",
+        "userPreferred": "Miss Fukiko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/41461.jpg",
+      "voiceActors": [
+        {
+          "id": 96441,
+          "language": "Japanese",
+          "name": {
+            "first": "Minori",
+            "last": "Matsushima",
+            "full": "Minori Matsushima",
+            "native": "松島みのり ",
+            "userPreferred": "Minori Matsushima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96441-O32yqnN6ITFd.png"
+        }
+      ]
+    },
+    {
+      "id": 41460,
+      "role": "MAIN",
+      "name": {
+        "first": "Kaori",
+        "last": "Nishino",
+        "full": "Kaori Nishino",
+        "native": "ぽぷり〈西野かおり〉",
+        "userPreferred": "Kaori Nishino"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b41460-txRyR8VJV7pU.jpg",
+      "voiceActors": [
+        {
+          "id": 96545,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroko",
+            "last": "Konishi",
+            "full": "Hiroko Konishi",
+            "native": "小西寛子",
+            "userPreferred": "Hiroko Konishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96545-TI2rYK3bPHhn.png"
+        }
+      ]
+    },
+    {
+      "id": 77713,
+      "role": "MAIN",
+      "name": {
+        "first": "Niboshi",
+        "last": null,
+        "full": "Niboshi",
+        "native": "ニボシ",
+        "userPreferred": "Niboshi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/77713.jpg",
+      "voiceActors": [
+        {
+          "id": 95148,
+          "language": "Japanese",
+          "name": {
+            "first": "Akiko",
+            "last": "Yajima",
+            "full": "Akiko Yajima",
+            "native": "矢島晶子",
+            "userPreferred": "Akiko Yajima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95148-JiNi79wg9ScS.png"
+        }
+      ]
+    },
+    {
+      "id": 302480,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rick",
+        "last": null,
+        "full": "Rick",
+        "native": "リック",
+        "userPreferred": "Rick"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95009,
+          "language": "Japanese",
+          "name": {
+            "first": "Kotono",
+            "last": "Mitsuishi",
+            "full": "Kotono Mitsuishi",
+            "native": "三石琴乃",
+            "userPreferred": "Kotono Mitsuishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95009-d01Dg8mMwcg6.png"
+        }
+      ]
+    },
+    {
+      "id": 302481,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Grim",
+        "last": null,
+        "full": "Grim",
+        "native": "グリム",
+        "userPreferred": "Grim"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 302483,
+          "language": "Japanese",
+          "name": {
+            "first": "Naritoshi",
+            "last": "Tajitsu",
+            "full": "Naritoshi Tajitsu",
+            "native": "田実成寿",
+            "userPreferred": "Naritoshi Tajitsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n302483-EJToXh4cBKPx.jpg"
+        }
+      ]
+    },
+    {
+      "id": 302482,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Laluu",
+        "last": null,
+        "full": "Laluu",
+        "native": "ラルウ",
+        "userPreferred": "Laluu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 302484,
+          "language": "Japanese",
+          "name": {
+            "first": "Akemi",
+            "last": "Misaki",
+            "full": "Akemi Misaki",
+            "native": "御崎朱美",
+            "userPreferred": "Akemi Misaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n302484-b5IZayCcfO3M.png"
+        }
+      ]
+    },
+    {
+      "id": 302475,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Amane",
+        "last": null,
+        "full": "Amane",
+        "native": "アマネ",
+        "userPreferred": "Amane"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b302475-oc43dSdAYruS.png",
+      "voiceActors": [
+        {
+          "id": 95009,
+          "language": "Japanese",
+          "name": {
+            "first": "Kotono",
+            "last": "Mitsuishi",
+            "full": "Kotono Mitsuishi",
+            "native": "三石琴乃",
+            "userPreferred": "Kotono Mitsuishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95009-d01Dg8mMwcg6.png"
+        }
+      ]
+    },
+    {
+      "id": 302476,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Garu",
+        "last": null,
+        "full": "Garu",
+        "native": "ガル",
+        "userPreferred": "Garu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95009,
+          "language": "Japanese",
+          "name": {
+            "first": "Kotono",
+            "last": "Mitsuishi",
+            "full": "Kotono Mitsuishi",
+            "native": "三石琴乃",
+            "userPreferred": "Kotono Mitsuishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95009-d01Dg8mMwcg6.png"
+        }
+      ]
+    },
+    {
+      "id": 302477,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Natsumi",
+        "last": null,
+        "full": "Natsumi",
+        "native": "なつみ",
+        "userPreferred": "Natsumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b302477-GnmimKbaANLC.png",
+      "voiceActors": [
+        {
+          "id": 95148,
+          "language": "Japanese",
+          "name": {
+            "first": "Akiko",
+            "last": "Yajima",
+            "full": "Akiko Yajima",
+            "native": "矢島晶子",
+            "userPreferred": "Akiko Yajima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95148-JiNi79wg9ScS.png"
+        }
+      ]
+    },
+    {
+      "id": 302478,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Pinch",
+        "last": null,
+        "full": "Pinch",
+        "native": "ピンチイ",
+        "userPreferred": "Pinch"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95486,
+          "language": "Japanese",
+          "name": {
+            "first": "Umi",
+            "last": "Tenjin",
+            "full": "Umi Tenjin",
+            "native": "有海 天神",
+            "userPreferred": "Umi Tenjin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/486.jpg"
+        }
+      ]
+    },
+    {
+      "id": 302479,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shibu",
+        "last": null,
+        "full": "Shibu",
+        "native": "シブ",
+        "userPreferred": "Shibu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95656,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Nagano",
+            "full": "Ai Nagano",
+            "native": "愛 永野",
+            "userPreferred": "Ai Nagano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/656.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 49028,
+      "relationType": "ADAPTATION",
+      "malId": 19028,
+      "title": {
+        "romaji": "Fushigi Mahou Fun Fun Pharmacy",
+        "english": null,
+        "native": "ファンファン・ファーマシィー",
+        "userPreferred": "Fushigi Mahou Fun Fun Pharmacy"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx49028-oVlPMdn9QmG3.jpg",
+      "color": "#e4e443",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx49028-oVlPMdn9QmG3.jpg",
+      "rating": 80
+    },
+    {
+      "id": 169096,
+      "relationType": "OTHER",
+      "malId": 24465,
+      "title": {
+        "romaji": "Heli-Tako Puu-chan",
+        "english": null,
+        "native": "ヘリタコぷーちゃん",
+        "userPreferred": "Heli-Tako Puu-chan"
+      },
+      "status": "Completed",
+      "episodes": 42,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx169096-h7tPqwshEvCV.png",
+      "color": "#e45d50",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx169096-h7tPqwshEvCV.png",
+      "rating": 10
+    },
+    {
+      "id": 143540,
+      "relationType": "OTHER",
+      "malId": 42083,
+      "title": {
+        "romaji": "Kocchi Muite Miiko",
+        "english": null,
+        "native": "こっちむいてみい子",
+        "userPreferred": "Kocchi Muite Miiko"
+      },
+      "status": "Completed",
+      "episodes": 42,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b143540-y6j5UsAg568r.jpg",
+      "color": "#f1e41a",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b143540-y6j5UsAg568r.jpg",
+      "rating": 62
+    }
+  ],
+  "episodes": [
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-1",
+      "title": "A Witch's Pharmacy",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-1"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-2",
+      "title": "The Magic Vial",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-2"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-3",
+      "title": "The Honey Thief",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-3"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-4",
+      "title": "Potpourri's Fish Store",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-4"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-5",
+      "title": "Shopping with Miss Fukiko",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-5"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-6",
+      "title": "A Snowman Fell",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-6"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-7",
+      "title": "Magic is Wonderful",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-7"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-8",
+      "title": "Flower Viewing at the Smiling Ginza",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-8"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-9",
+      "title": "The Magic of Bread",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-9"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-10",
+      "title": "The Secret of Sneezing",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-10"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-11",
+      "title": "Niboshi on a Walk",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-11"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-12",
+      "title": "The Feelings of a Camera",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-12"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-13",
+      "title": "The Magic of the Black Seeds",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-13"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-14",
+      "title": "Hello Natsumi",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-14"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-15",
+      "title": "The Magic Loupe",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-15"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-16",
+      "title": "The Rainbow Colored Snail",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-16"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-17",
+      "title": "The Running Bride",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-17"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-18",
+      "title": "The Scary Antiquarium",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-18"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-19",
+      "title": "The Disappearing Scents",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-19"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-20",
+      "title": "Potpourri's Adventure",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-20"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-21",
+      "title": "Cake Everywhere",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 21,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-21"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-22",
+      "title": "Three Part Summer Special Mystery: Story of a Mysterious Box",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 22,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-22"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-23",
+      "title": "Trouble at the Pool",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 23,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-23"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-24",
+      "title": "The Door that Must not be Opened",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 24,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-24"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-25",
+      "title": "The Lonely Earthwhale",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 25,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-25"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-26",
+      "title": "All Smiles Ginza Gathering",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 26,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-26"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-27",
+      "title": "Amane the Witch",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 27,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-27"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-28",
+      "title": "I Put Lipstick On!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 28,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-28"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-29",
+      "title": "30-Minute Special",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 29,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-29"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-30",
+      "title": "Heart-throbbing Magic",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 30,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-30"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-31",
+      "title": "The Gnome's Yard",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 31,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-31"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-32",
+      "title": "Behind You",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 32,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-32"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-33",
+      "title": "Lost and Found of the Heart",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 33,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-33"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-34",
+      "title": "Magic to Make You Want Soba",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 34,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-34"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-35",
+      "title": "Smiling Ginza in Danger",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 35,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-35"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-36",
+      "title": "Potpourri's New Magic Jirmu and Jirmo",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 36,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-36"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-37",
+      "title": "Potpourri Becomes a Cat",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 37,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-37"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-38",
+      "title": "Mr. Yaohichi's Present",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 38,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-38"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-39",
+      "title": "Something Coming Along the Road",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 39,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-39"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-40",
+      "title": "The Witches of the World Gather!  The Witching Summit",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 40,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-40"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-41",
+      "title": "The Secret of the Lake",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 41,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-41"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-42",
+      "title": "The Circus Comes to Town",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 42,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-42"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-43",
+      "title": "Adventure in the Book",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 43,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-43"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-44",
+      "title": "The Lonely Shadow",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 44,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-44"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-45",
+      "title": "Go With the Wind",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 45,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-45"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-46",
+      "title": "Potpourri`s Pocket",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 46,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-46"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-47",
+      "title": "Wish Upon a Shooting Star",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 47,
+      "createdAt": "2013-02-20T18:28:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-47"
+    },
+    {
+      "id": "fushigi-mahou-fun-fun-pharmacy-episode-48",
+      "title": "Farewell to Smiling Ginza",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8503-XauC6VH8R0Lq.jpg",
+      "number": 48,
+      "createdAt": "2013-02-20T18:28:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fushigi-mahou-fun-fun-pharmacy-episode-48"
+    }
+  ]
+}

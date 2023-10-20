@@ -1,0 +1,613 @@
+{
+  "id": "21596",
+  "title": {
+    "romaji": "Digimon Adventure tri. 3: Kokuhaku",
+    "english": "Digimon Adventure tri. Chapter 3: Confession",
+    "native": "デジモンアドベンチャー tri. 第3章「告白」"
+  },
+  "malId": 32551,
+  "synonyms": [
+    "Digimon tri. 3"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "HGHQD06htTA",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/HGHQD06htTA/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21596-KnjJA2qwVtdI.jpg",
+  "popularity": 13186,
+  "color": "#f1e450",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21596-9GRglt3LYkED.jpg",
+  "description": "The third movie in the new <i>Digimon Adventure</i> series. <br><br>\nAfter seeing Meicoomon's abrupt transformation and killing of Leomon, Agumon and the other Digimon are kept isolated in Koushiro's office in order to prevent them from infection, but signs of infection begin to appear in Patamon.<br><br>\n(Source: Crunchyroll)",
+  "status": "Completed",
+  "releaseDate": 2016,
+  "startDate": {
+    "year": 2016,
+    "month": 9,
+    "day": 24
+  },
+  "endDate": {
+    "year": 2016,
+    "month": 9,
+    "day": 24
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 73,
+  "duration": 105,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Drama",
+    "Fantasy",
+    "Sci-Fi"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Toei Animation"
+  ],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [
+    {
+      "id": 552,
+      "malId": 552,
+      "title": {
+        "romaji": "Digimon Adventure",
+        "english": "Digimon: Digital Monsters",
+        "native": "デジモンアドベンチャー",
+        "userPreferred": "Digimon Adventure"
+      },
+      "status": "Completed",
+      "episodes": 54,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx552-zad0ts5hylQJ.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/552-xAHaRMpoco2e.jpg",
+      "rating": 75,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 5977,
+      "role": "MAIN",
+      "name": {
+        "first": "Gomamon",
+        "last": null,
+        "full": "Gomamon",
+        "native": "ゴマモン",
+        "userPreferred": "Gomamon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5977.jpg",
+      "voiceActors": [
+        {
+          "id": 95015,
+          "language": "Japanese",
+          "name": {
+            "first": "Junko",
+            "last": "Takeuchi",
+            "full": "Junko Takeuchi",
+            "native": "竹内順子",
+            "userPreferred": "Junko Takeuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95015-QwI9K4FRe4Cq.png"
+        }
+      ]
+    },
+    {
+      "id": 1961,
+      "role": "MAIN",
+      "name": {
+        "first": "Takeru",
+        "last": "Takaishi",
+        "full": "Takeru Takaishi",
+        "native": "高石タケル",
+        "userPreferred": "Takeru Takaishi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1961-tH2XftpODD7y.png",
+      "voiceActors": [
+        {
+          "id": 119319,
+          "language": "Japanese",
+          "name": {
+            "first": "Junya",
+            "last": "Enoki",
+            "full": "Junya Enoki",
+            "native": "榎木淳弥",
+            "userPreferred": "Junya Enoki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119319-yIrrUOUaJuSm.png"
+        }
+      ]
+    },
+    {
+      "id": 9950,
+      "role": "MAIN",
+      "name": {
+        "first": "Patamon",
+        "last": null,
+        "full": "Patamon",
+        "native": "パタモン",
+        "userPreferred": "Patamon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9950.jpg",
+      "voiceActors": [
+        {
+          "id": 95937,
+          "language": "Japanese",
+          "name": {
+            "first": "Miwa",
+            "last": "Matsumoto",
+            "full": "Miwa Matsumoto",
+            "native": "松本美和",
+            "userPreferred": "Miwa Matsumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/937.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9954,
+      "role": "MAIN",
+      "name": {
+        "first": "Tailmon",
+        "last": null,
+        "full": "Tailmon",
+        "native": "テイルモン",
+        "userPreferred": "Tailmon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9954.jpg",
+      "voiceActors": [
+        {
+          "id": 96456,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuka",
+            "last": "Tokumitsu",
+            "full": "Yuka Tokumitsu",
+            "native": "徳光由禾",
+            "userPreferred": "Yuka Tokumitsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96456-UGEu0zMdfRx9.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9953,
+      "role": "MAIN",
+      "name": {
+        "first": "Tentomon",
+        "last": null,
+        "full": "Tentomon",
+        "native": "テントモン",
+        "userPreferred": "Tentomon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9953.jpg",
+      "voiceActors": [
+        {
+          "id": 95079,
+          "language": "Japanese",
+          "name": {
+            "first": "Takahiro",
+            "last": "Sakurai",
+            "full": "Takahiro Sakurai",
+            "native": "櫻井孝宏",
+            "userPreferred": "Takahiro Sakurai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95079-MdbWTLxPUvFf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1907,
+      "role": "MAIN",
+      "name": {
+        "first": "Taichi",
+        "last": "Yagami",
+        "full": "Taichi Yagami",
+        "native": "八神太一",
+        "userPreferred": "Taichi Yagami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1907-ZWmX1dVGPfqn.png",
+      "voiceActors": [
+        {
+          "id": 111635,
+          "language": "Japanese",
+          "name": {
+            "first": "Natsuki",
+            "last": "Hanae",
+            "full": "Natsuki Hanae",
+            "native": "花江夏樹",
+            "userPreferred": "Natsuki Hanae"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n111635-L385UcjTKCBq.png"
+        }
+      ]
+    },
+    {
+      "id": 9952,
+      "role": "MAIN",
+      "name": {
+        "first": "Gabumon",
+        "last": null,
+        "full": "Gabumon",
+        "native": "ガブモン",
+        "userPreferred": "Gabumon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9952.jpg",
+      "voiceActors": [
+        {
+          "id": 95316,
+          "language": "Japanese",
+          "name": {
+            "first": "Mayumi",
+            "last": "Yamaguchi",
+            "full": "Mayumi Yamaguchi",
+            "native": "山口眞弓",
+            "userPreferred": "Mayumi Yamaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95316-sp5oQEI6tURH.png"
+        }
+      ]
+    },
+    {
+      "id": 2276,
+      "role": "MAIN",
+      "name": {
+        "first": "Sora",
+        "last": "Takenouchi",
+        "full": "Sora Takenouchi",
+        "native": "武之内空 ",
+        "userPreferred": "Sora Takenouchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2276-edQsS9qzUbm5.png",
+      "voiceActors": [
+        {
+          "id": 106359,
+          "language": "Japanese",
+          "name": {
+            "first": "Suzuko",
+            "last": "Mimori",
+            "full": "Suzuko Mimori",
+            "native": "三森すずこ",
+            "userPreferred": "Suzuko Mimori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106359-G8dROMWpwlM6.png"
+        }
+      ]
+    },
+    {
+      "id": 9949,
+      "role": "MAIN",
+      "name": {
+        "first": "Piyomon",
+        "last": null,
+        "full": "Piyomon",
+        "native": "ピヨモン",
+        "userPreferred": "Piyomon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9949.jpg",
+      "voiceActors": [
+        {
+          "id": 96556,
+          "language": "Japanese",
+          "name": {
+            "first": "Atori",
+            "last": "Shigematsu",
+            "full": "Atori Shigematsu",
+            "native": "重松花鳥",
+            "userPreferred": "Atori Shigematsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1556.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1909,
+      "role": "MAIN",
+      "name": {
+        "first": "Yamato",
+        "last": "Ishida",
+        "full": "Yamato Ishida",
+        "native": "石田ヤマト",
+        "userPreferred": "Yamato Ishida"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1909-BFIYnrdbeLhB.png",
+      "voiceActors": [
+        {
+          "id": 100626,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshimasa",
+            "last": "Hosoya",
+            "full": "Yoshimasa Hosoya",
+            "native": "細谷佳正",
+            "userPreferred": "Yoshimasa Hosoya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100626-bH8eZ0wv3HYX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4950,
+      "role": "MAIN",
+      "name": {
+        "first": "Agumon",
+        "last": null,
+        "full": "Agumon",
+        "native": "アグモン",
+        "userPreferred": "Agumon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4950.jpg",
+      "voiceActors": [
+        {
+          "id": 95387,
+          "language": "Japanese",
+          "name": {
+            "first": "Chika",
+            "last": "Sakamoto",
+            "full": "Chika Sakamoto",
+            "native": "坂本千夏",
+            "userPreferred": "Chika Sakamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95387-CLYs2OZwhe9c.png"
+        }
+      ]
+    },
+    {
+      "id": 2277,
+      "role": "MAIN",
+      "name": {
+        "first": "Koushirou",
+        "last": "Izumi",
+        "full": "Koushirou Izumi",
+        "native": "泉光子郎",
+        "userPreferred": "Koushirou Izumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2277-4iS5JyV5uyjS.png",
+      "voiceActors": [
+        {
+          "id": 105013,
+          "language": "Japanese",
+          "name": {
+            "first": "Mutsumi",
+            "last": "Tamura",
+            "full": "Mutsumi Tamura",
+            "native": "田村睦心",
+            "userPreferred": "Mutsumi Tamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105013-DffN0XN2Zw7G.png"
+        },
+        {
+          "id": 119591,
+          "language": "German",
+          "name": {
+            "first": "Christian",
+            "last": "Zeiger",
+            "full": "Christian Zeiger",
+            "native": null,
+            "userPreferred": "Christian Zeiger"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119591-Cqkp0MiISslJ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1963,
+      "role": "MAIN",
+      "name": {
+        "first": "Hikari",
+        "last": "Yagami",
+        "full": "Hikari Yagami",
+        "native": "八神ヒカリ",
+        "userPreferred": "Hikari Yagami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1963-dOvRGlPBRIYw.png",
+      "voiceActors": [
+        {
+          "id": 118510,
+          "language": "Japanese",
+          "name": {
+            "first": "Mao",
+            "last": "Ichimichi",
+            "full": "Mao Ichimichi",
+            "native": "市道真央",
+            "userPreferred": "Mao Ichimichi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118510-iMUv5D7W99C1.png"
+        }
+      ]
+    },
+    {
+      "id": 2278,
+      "role": "MAIN",
+      "name": {
+        "first": "Mimi",
+        "last": "Tachikawa",
+        "full": "Mimi Tachikawa",
+        "native": "太刀川ミミ",
+        "userPreferred": "Mimi Tachikawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2278-2pznB5TswqIk.png",
+      "voiceActors": [
+        {
+          "id": 101088,
+          "language": "Japanese",
+          "name": {
+            "first": "Hitomi",
+            "last": "Yoshida",
+            "full": "Hitomi Yoshida",
+            "native": "吉田仁美",
+            "userPreferred": "Hitomi Yoshida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101088-AlkU6RyhPXxh.png"
+        }
+      ]
+    },
+    {
+      "id": 2812,
+      "role": "MAIN",
+      "name": {
+        "first": "Jou",
+        "last": "Kido",
+        "full": "Jou Kido",
+        "native": "城戸丈",
+        "userPreferred": "Jou Kido"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2812-UkLkIUhVyrU8.jpg",
+      "voiceActors": [
+        {
+          "id": 116019,
+          "language": "Japanese",
+          "name": {
+            "first": "Junya",
+            "last": "Ikeda",
+            "full": "Junya Ikeda",
+            "native": "池田純矢",
+            "userPreferred": "Junya Ikeda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n116019-rKdfswX9Jc1u.png"
+        }
+      ]
+    },
+    {
+      "id": 89274,
+      "role": "MAIN",
+      "name": {
+        "first": "Meiko",
+        "last": "Mochizuki",
+        "full": "Meiko Mochizuki",
+        "native": "望月芽心",
+        "userPreferred": "Meiko Mochizuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/89274-AhuSUJasEqOj.png",
+      "voiceActors": [
+        {
+          "id": 107554,
+          "language": "Japanese",
+          "name": {
+            "first": "Miho",
+            "last": "Arakawa",
+            "full": "Miho Arakawa",
+            "native": "荒川美穂",
+            "userPreferred": "Miho Arakawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107554-gxfVm7R8pFJ6.png"
+        }
+      ]
+    },
+    {
+      "id": 303606,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Meicoomon",
+        "last": null,
+        "full": "Meicoomon",
+        "native": "メイクーモン",
+        "userPreferred": "Meicoomon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b303606-G5UWFtwiEsjZ.jpg",
+      "voiceActors": [
+        {
+          "id": 129443,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukiko",
+            "last": "Morishita",
+            "full": "Yukiko Morishita",
+            "native": "森下由樹子",
+            "userPreferred": "Yukiko Morishita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n129443-Fz7fJMfzuu2o.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 21500,
+      "relationType": "PREQUEL",
+      "malId": 32108,
+      "title": {
+        "romaji": "Digimon Adventure tri. 2: Ketsui",
+        "english": "Digimon Adventure tri. Chapter 2: Determination",
+        "native": "デジモンアドベンチャー tri. 第2章「決意」",
+        "userPreferred": "Digimon Adventure tri. 2: Ketsui"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21500-hC4Nhs2kNnZ3.png",
+      "color": "#86ae35",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21500-IaUtzh7Yv4vi.jpg",
+      "rating": 71
+    },
+    {
+      "id": 97734,
+      "relationType": "SEQUEL",
+      "malId": 34299,
+      "title": {
+        "romaji": "Digimon Adventure tri. 4: Soushitsu",
+        "english": "Digimon Adventure tri. Chapter 4: Loss",
+        "native": "デジモンアドベンチャー tri. 第4章「喪失」",
+        "userPreferred": "Digimon Adventure tri. 4: Soushitsu"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97734-44dAngCA1PU2.png",
+      "color": "#d61a1a",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97734-nFJp9LhdHerI.jpg",
+      "rating": 69
+    }
+  ],
+  "episodes": [
+    {
+      "id": "digimon-adventure-tri-3-kokuhaku-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21596-KnjJA2qwVtdI.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//digimon-adventure-tri-3-kokuhaku-episode-1"
+    },
+    {
+      "id": "digimon-adventure-tri-3-kokuhaku-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21596-KnjJA2qwVtdI.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//digimon-adventure-tri-3-kokuhaku-episode-2"
+    },
+    {
+      "id": "digimon-adventure-tri-3-kokuhaku-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21596-KnjJA2qwVtdI.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//digimon-adventure-tri-3-kokuhaku-episode-3"
+    },
+    {
+      "id": "digimon-adventure-tri-3-kokuhaku-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21596-KnjJA2qwVtdI.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//digimon-adventure-tri-3-kokuhaku-episode-4"
+    },
+    {
+      "id": "digimon-adventure-tri-3-kokuhaku-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21596-KnjJA2qwVtdI.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//digimon-adventure-tri-3-kokuhaku-episode-5"
+    }
+  ]
+}

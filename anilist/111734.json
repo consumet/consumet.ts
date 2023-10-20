@@ -1,0 +1,455 @@
+{
+  "id": "111734",
+  "title": {
+    "romaji": "Given Movie",
+    "english": "Given The Movie",
+    "native": "映画 ギヴン"
+  },
+  "malId": 40421,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "XGKGjMGZwtk",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/XGKGjMGZwtk/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111734-82sWJBotlzE8.png",
+  "popularity": 75277,
+  "color": "#28a1f1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/111734-e9qFEmADPAzs.jpg",
+  "description": "The film centers on the love relationship among the band's bassist Haruki Nakayama, drummer Akihiko Kaji, and Akihiko's roommate and ex-boyfriend Ugetsu Murata.<br>\n<br>\n(Source: Crunchyroll)",
+  "status": "Completed",
+  "releaseDate": 2020,
+  "startDate": {
+    "year": 2020,
+    "month": 8,
+    "day": 22
+  },
+  "endDate": {
+    "year": 2020,
+    "month": 8,
+    "day": 22
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 81,
+  "duration": 60,
+  "genres": [
+    "Drama",
+    "Music",
+    "Romance"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Lerche"
+  ],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [
+    {
+      "id": 877,
+      "malId": 877,
+      "title": {
+        "romaji": "NANA",
+        "english": "NANA",
+        "native": "NANA-ナナ-",
+        "userPreferred": "NANA"
+      },
+      "status": "Completed",
+      "episodes": 47,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx877-rgaDbTMM9R59.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/877-5yVMHXHApFzf.jpg",
+      "rating": 84,
+      "type": "TV"
+    },
+    {
+      "id": 57,
+      "malId": 57,
+      "title": {
+        "romaji": "BECK",
+        "english": "Beck: Mongolian Chop Squad",
+        "native": "BECK",
+        "userPreferred": "BECK"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx57-HhnvbHS4ujea.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/57-fLzMIA5ZXvwp.jpg",
+      "rating": 80,
+      "type": "TV"
+    },
+    {
+      "id": 12531,
+      "malId": 12531,
+      "title": {
+        "romaji": "Sakamichi no Apollon",
+        "english": "Kids on the Slope",
+        "native": "坂道のアポロン",
+        "userPreferred": "Sakamichi no Apollon"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx12531-Z5K3przHadiD.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/12531-S7FaZwnZPCWQ.jpg",
+      "rating": 80,
+      "type": "TV"
+    },
+    {
+      "id": 1698,
+      "malId": 1698,
+      "title": {
+        "romaji": "Nodame Cantabile",
+        "english": null,
+        "native": "のだめカンタービレ",
+        "userPreferred": "Nodame Cantabile"
+      },
+      "status": "Completed",
+      "episodes": 23,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1698-VhVaiOLkcGCp.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n1698-YhbmezYfngCk.jpg",
+      "rating": 80,
+      "type": "TV"
+    },
+    {
+      "id": 110211,
+      "malId": 50201,
+      "title": {
+        "romaji": "Namui BL Manhwa Animation",
+        "english": "Someone Else's BL Comic Animation",
+        "native": "남의 BL만화’ 애니메이션",
+        "userPreferred": "Namui BL Manhwa Animation"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b110211-J0bjqrO2wL8e.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110211-CaJt4PL2TXTT.jpg",
+      "rating": 53,
+      "type": "ONA"
+    },
+    {
+      "id": 100401,
+      "malId": 36652,
+      "title": {
+        "romaji": "Piano no Mori (TV)",
+        "english": "Forest of Piano",
+        "native": "ピアノの森 (TV)",
+        "userPreferred": "Piano no Mori (TV)"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx100401-frKNiXOnRKdu.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100401-ox7dBr8i1q35.jpg",
+      "rating": 70,
+      "type": "TV"
+    },
+    {
+      "id": 9926,
+      "malId": 9926,
+      "title": {
+        "romaji": "Sekaiichi Hatsukoi",
+        "english": "Sekai Ichi Hatsukoi - The World's Greatest First Love",
+        "native": "世界一初恋 TV",
+        "userPreferred": "Sekaiichi Hatsukoi"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9926-AhRNkKBBbsNq.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/9926-6ip6IrbvtFkT.jpg",
+      "rating": 70,
+      "type": "TV"
+    },
+    {
+      "id": 21096,
+      "malId": 30346,
+      "title": {
+        "romaji": "Doukyuusei",
+        "english": "Doukyuusei -Classmates-",
+        "native": "同級生",
+        "userPreferred": "Doukyuusei"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21096-1wIOxpjtXb7J.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21096-Rs4Rtz03qbO3.jpg",
+      "rating": 81,
+      "type": "MOVIE"
+    },
+    {
+      "id": 101922,
+      "malId": 38000,
+      "title": {
+        "romaji": "Kimetsu no Yaiba",
+        "english": "Demon Slayer: Kimetsu no Yaiba",
+        "native": "鬼滅の刃",
+        "userPreferred": "Kimetsu no Yaiba"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101922-PEn1CTc93blC.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101922-YfZhKBUDDS6L.jpg",
+      "rating": 83,
+      "type": "TV"
+    },
+    {
+      "id": 146743,
+      "malId": 51440,
+      "title": {
+        "romaji": "Sasaki to Miyano: Sotsugyou-hen",
+        "english": "Sasaki and Miyano: Graduation",
+        "native": "佐々木と宮野ー卒業編ー",
+        "userPreferred": "Sasaki to Miyano: Sotsugyou-hen"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146743-MQNPLbWH0mI9.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146743-MQNPLbWH0mI9.jpg",
+      "rating": 83,
+      "type": "MOVIE"
+    }
+  ],
+  "characters": [
+    {
+      "id": 136845,
+      "role": "MAIN",
+      "name": {
+        "first": "Haruki",
+        "last": "Nakayama",
+        "full": "Haruki Nakayama",
+        "native": "中山春樹",
+        "userPreferred": "Haruki Nakayama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b136845-4jHomiPMsJ6n.png",
+      "voiceActors": [
+        {
+          "id": 118658,
+          "language": "Japanese",
+          "name": {
+            "first": "Masatomo",
+            "last": "Nakazawa",
+            "full": "Masatomo Nakazawa",
+            "native": "中澤匡智 ",
+            "userPreferred": "Masatomo Nakazawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118658-797WoxHKZkp1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 136842,
+      "role": "MAIN",
+      "name": {
+        "first": "Akihiko",
+        "last": "Kaji",
+        "full": "Akihiko Kaji",
+        "native": "梶秋彦",
+        "userPreferred": "Akihiko Kaji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b136842-Ip5LDrd7qwE1.png",
+      "voiceActors": [
+        {
+          "id": 102695,
+          "language": "Japanese",
+          "name": {
+            "first": "Takuya",
+            "last": "Eguchi",
+            "full": "Takuya Eguchi",
+            "native": "江口拓也",
+            "userPreferred": "Takuya Eguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102695-dGzsJkor0KMj.jpg"
+        }
+      ]
+    },
+    {
+      "id": 146260,
+      "role": "MAIN",
+      "name": {
+        "first": "Ugetsu",
+        "last": "Murata",
+        "full": "Ugetsu Murata",
+        "native": "村田雨月",
+        "userPreferred": "Ugetsu Murata"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b146260-nvHPDaD6FvTM.png",
+      "voiceActors": [
+        {
+          "id": 95186,
+          "language": "Japanese",
+          "name": {
+            "first": "Shintarou",
+            "last": "Asanuma",
+            "full": "Shintarou Asanuma",
+            "native": "浅沼晋太郎",
+            "userPreferred": "Shintarou Asanuma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95186-XMdPPqYhMrwN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 136843,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ritsuka",
+        "last": "Uenoyama",
+        "full": "Ritsuka Uenoyama",
+        "native": "上ノ山立夏",
+        "userPreferred": "Ritsuka Uenoyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b136843-z6IjhOi636WT.png",
+      "voiceActors": [
+        {
+          "id": 119617,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuma",
+            "last": "Uchida",
+            "full": "Yuuma Uchida",
+            "native": "内田雄馬",
+            "userPreferred": "Yuuma Uchida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119617-icFDk96OdV5k.png"
+        }
+      ]
+    },
+    {
+      "id": 136844,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mafuyu",
+        "last": "Satou",
+        "full": "Mafuyu Satou",
+        "native": "佐藤真冬",
+        "userPreferred": "Mafuyu Satou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b136844-UoqciaLvz5Jf.png",
+      "voiceActors": [
+        {
+          "id": 123609,
+          "language": "Japanese",
+          "name": {
+            "first": "Shougo",
+            "last": "Yano",
+            "full": "Shougo Yano",
+            "native": "矢野奨吾",
+            "userPreferred": "Shougo Yano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n123609-u6wq4FibEfzO.png"
+        }
+      ]
+    },
+    {
+      "id": 174907,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Koji",
+        "last": "Yatake",
+        "full": "Koji Yatake",
+        "native": "矢岳光司",
+        "userPreferred": "Koji Yatake"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b174907-owS1iNCIh6u3.png",
+      "voiceActors": [
+        {
+          "id": 107615,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouta",
+            "last": "Takeuchi",
+            "full": "Ryouta Takeuchi",
+            "native": "竹内良太",
+            "userPreferred": "Ryouta Takeuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107615-e4FrG8jtyQKY.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 108430,
+      "relationType": "PREQUEL",
+      "malId": 39533,
+      "title": {
+        "romaji": "Given",
+        "english": "given",
+        "native": "ギヴン",
+        "userPreferred": "Given"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108430-LcVOT7ntUbjT.jpg",
+      "color": "#e4a150",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108430-L8rZPUpXjDzv.jpg",
+      "rating": 82
+    },
+    {
+      "id": 87347,
+      "relationType": "ADAPTATION",
+      "malId": 79085,
+      "title": {
+        "romaji": "Given",
+        "english": "Given",
+        "native": "ギヴン",
+        "userPreferred": "Given"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx87347-GOCU76cl37dK.png",
+      "color": "#f19300",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/87347-ULjNayqDMVTI.jpg",
+      "rating": 84
+    },
+    {
+      "id": 134710,
+      "relationType": "SIDE_STORY",
+      "malId": 49053,
+      "title": {
+        "romaji": "Given: Uragawa no Sonzai",
+        "english": "given: on the other hand",
+        "native": "ギヴン うらがわの存在",
+        "userPreferred": "Given: Uragawa no Sonzai"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx134710-m3VYouLXKIYv.jpg",
+      "color": "#f1bb5d",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx134710-m3VYouLXKIYv.jpg",
+      "rating": 81
+    },
+    {
+      "id": 162987,
+      "relationType": "SEQUEL",
+      "malId": 54791,
+      "title": {
+        "romaji": "Given Movie (Zoku-hen)",
+        "english": null,
+        "native": "映画 ギヴン 続編アニメ",
+        "userPreferred": "Given Movie (Zoku-hen)"
+      },
+      "status": "Not yet aired",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx162987-DlFJtSQujrK6.jpg",
+      "color": "#781a1a",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx162987-DlFJtSQujrK6.jpg",
+      "rating": null
+    }
+  ],
+  "episodes": [
+    {
+      "id": "given-movie-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111734-82sWJBotlzE8.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//given-movie-episode-1"
+    }
+  ]
+}

@@ -1,0 +1,520 @@
+{
+  "id": "7338",
+  "title": {
+    "romaji": "DARKER THAN BLACK: Kuro no Keiyakusha - Gaiden",
+    "english": "Darker than Black: Origins",
+    "native": "DARKER THAN BLACK -黒の契約者- 外伝"
+  },
+  "malId": 7338,
+  "synonyms": [
+    "Darker than BLACK: Origin"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx7338-c6Uq5DmlEPVs.png",
+  "popularity": 34796,
+  "color": "#5d7828",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/7338-rV4LzQxXwSXn.jpg",
+  "description": "Tells the story of what happened to Yin and Hei between the first and second series.",
+  "status": "Completed",
+  "releaseDate": 2010,
+  "startDate": {
+    "year": 2010,
+    "month": 1,
+    "day": 27
+  },
+  "endDate": {
+    "year": 2010,
+    "month": 7,
+    "day": 21
+  },
+  "totalEpisodes": 4,
+  "currentEpisode": 4,
+  "rating": 76,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Mystery",
+    "Psychological",
+    "Sci-Fi"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "bones"
+  ],
+  "subOrDub": "sub",
+  "type": "SPECIAL",
+  "recommendations": [
+    {
+      "id": 2025,
+      "malId": 2025,
+      "title": {
+        "romaji": "DARKER THAN BLACK: Kuro no Keiyakusha",
+        "english": "Darker than Black",
+        "native": "DARKER THAN BLACK -黒の契約者-",
+        "userPreferred": "DARKER THAN BLACK: Kuro no Keiyakusha"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2025-Osdi7gyQFTnr.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2025-Fx3ALDmrOulv.jpg",
+      "rating": 77,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 2160,
+      "role": "MAIN",
+      "name": {
+        "first": "Hei",
+        "last": null,
+        "full": "Hei",
+        "native": "黒",
+        "userPreferred": "Hei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n2160-CbHDsANTwxg2.jpg",
+      "voiceActors": [
+        {
+          "id": 95174,
+          "language": "Japanese",
+          "name": {
+            "first": "Hidenobu",
+            "last": "Kiuchi",
+            "full": "Hidenobu Kiuchi",
+            "native": "木内秀信",
+            "userPreferred": "Hidenobu Kiuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95174-yTsadXRKchp7.png"
+        },
+        {
+          "id": 95650,
+          "language": "English",
+          "name": {
+            "first": "Jason",
+            "last": "Liebrecht",
+            "full": "Jason Liebrecht",
+            "native": null,
+            "userPreferred": "Jason Liebrecht"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95650-jLPHOvW60DX3.jpg"
+        },
+        {
+          "id": 109855,
+          "language": "Korean",
+          "name": {
+            "first": "Ju Chang",
+            "last": "Lee",
+            "full": "Ju Chang Lee",
+            "native": "주창 이",
+            "userPreferred": "Ju Chang Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14855.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2163,
+      "role": "MAIN",
+      "name": {
+        "first": "Yin",
+        "last": null,
+        "full": "Yin",
+        "native": "銀",
+        "userPreferred": "Yin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n2163-nA1EMwU7E5oJ.png",
+      "voiceActors": [
+        {
+          "id": 95207,
+          "language": "Japanese",
+          "name": {
+            "first": "Misato",
+            "last": "Fukuen",
+            "full": "Misato Fukuen",
+            "native": "福圓美里",
+            "userPreferred": "Misato Fukuen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95207-TYPMa0JKUDAf.jpg"
+        },
+        {
+          "id": 95659,
+          "language": "English",
+          "name": {
+            "first": "Brina",
+            "last": "Palencia",
+            "full": "Brina Palencia",
+            "native": null,
+            "userPreferred": "Brina Palencia"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/659.jpg"
+        },
+        {
+          "id": 109987,
+          "language": "Korean",
+          "name": {
+            "first": "Seong Hye",
+            "last": "Yun",
+            "full": "Seong Hye Yun",
+            "native": "성혜 윤",
+            "userPreferred": "Seong Hye Yun"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14987.jpg"
+        }
+      ]
+    },
+    {
+      "id": 31503,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Claude",
+        "last": null,
+        "full": "Claude",
+        "native": null,
+        "userPreferred": "Claude"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/31503.jpg",
+      "voiceActors": [
+        {
+          "id": 95694,
+          "language": "Japanese",
+          "name": {
+            "first": "Tetsuya",
+            "last": "Iwanaga",
+            "full": "Tetsuya Iwanaga",
+            "native": "岩永哲哉",
+            "userPreferred": "Tetsuya Iwanaga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95694-jZqfhOJ54AqZ.jpg"
+        },
+        {
+          "id": 95010,
+          "language": "English",
+          "name": {
+            "first": "Johnny Yong",
+            "last": "Bosch",
+            "full": "Johnny Yong Bosch",
+            "native": null,
+            "userPreferred": "Johnny Yong Bosch"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95010-56EByXYI2PjI.jpg"
+        },
+        {
+          "id": 109819,
+          "language": "Korean",
+          "name": {
+            "first": "Seung jun",
+            "last": "Kim",
+            "full": "Seung jun Kim",
+            "native": "승준 김",
+            "userPreferred": "Seung jun Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14819.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28897,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Amagiri",
+        "last": null,
+        "full": "Amagiri",
+        "native": null,
+        "userPreferred": "Amagiri"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28897.jpg",
+      "voiceActors": [
+        {
+          "id": 95296,
+          "language": "Japanese",
+          "name": {
+            "first": "Takuya",
+            "last": "Kirimoto",
+            "full": "Takuya Kirimoto",
+            "native": "桐本拓哉",
+            "userPreferred": "Takuya Kirimoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95296-fYLp5Ff3eDI3.png"
+        },
+        {
+          "id": 95026,
+          "language": "English",
+          "name": {
+            "first": "Travis",
+            "last": "Willingham",
+            "full": "Travis Willingham",
+            "native": null,
+            "userPreferred": "Travis Willingham"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95026-8rP8eX7zsekz.jpg"
+        }
+      ]
+    },
+    {
+      "id": 41414,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Xiao",
+        "last": "Jie",
+        "full": "Xiao Jie",
+        "native": null,
+        "userPreferred": "Xiao Jie"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/41414.jpg",
+      "voiceActors": [
+        {
+          "id": 95062,
+          "language": "Japanese",
+          "name": {
+            "first": "Junko",
+            "last": "Minagawa",
+            "full": "Junko Minagawa",
+            "native": "皆川純子",
+            "userPreferred": "Junko Minagawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95062-YMTfpO89SgQp.jpg"
+        },
+        {
+          "id": 96726,
+          "language": "English",
+          "name": {
+            "first": "Dana",
+            "last": "Schultes",
+            "full": "Dana Schultes",
+            "native": null,
+            "userPreferred": "Dana Schultes"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1726.jpg"
+        },
+        {
+          "id": 110135,
+          "language": "Korean",
+          "name": {
+            "first": "Do Yeong",
+            "last": "Song",
+            "full": "Do Yeong Song",
+            "native": "도영송",
+            "userPreferred": "Do Yeong Song"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15135.jpg"
+        }
+      ]
+    },
+    {
+      "id": 26903,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mina",
+        "last": "Hazuki",
+        "full": "Mina Hazuki",
+        "native": "葉月水無",
+        "userPreferred": "Mina Hazuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26903.jpg",
+      "voiceActors": [
+        {
+          "id": 95197,
+          "language": "Japanese",
+          "name": {
+            "first": "Mitsuki",
+            "last": "Saiga",
+            "full": "Mitsuki Saiga",
+            "native": "斎賀みつき",
+            "userPreferred": "Mitsuki Saiga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95197-gcTFdBK9oPtY.png"
+        },
+        {
+          "id": 95773,
+          "language": "English",
+          "name": {
+            "first": "Kara",
+            "last": "Edwards",
+            "full": "Kara Edwards",
+            "native": null,
+            "userPreferred": "Kara Edwards"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/773.jpg"
+        },
+        {
+          "id": 110135,
+          "language": "Korean",
+          "name": {
+            "first": "Do Yeong",
+            "last": "Song",
+            "full": "Do Yeong Song",
+            "native": "도영송",
+            "userPreferred": "Do Yeong Song"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15135.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28738,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Youko",
+        "last": "Sawasaki",
+        "full": "Youko Sawasaki",
+        "native": "沢崎照子",
+        "userPreferred": "Youko Sawasaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28738.jpg",
+      "voiceActors": [
+        {
+          "id": 95499,
+          "language": "Japanese",
+          "name": {
+            "first": "Kozue",
+            "last": "Yoshizumi",
+            "full": "Kozue Yoshizumi",
+            "native": "吉住梢",
+            "userPreferred": "Kozue Yoshizumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/499.jpg"
+        },
+        {
+          "id": 104526,
+          "language": "English",
+          "name": {
+            "first": "Tia",
+            "last": "Ballard",
+            "full": "Tia Ballard",
+            "native": null,
+            "userPreferred": "Tia Ballard"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9526.jpg"
+        },
+        {
+          "id": 109851,
+          "language": "Korean",
+          "name": {
+            "first": "Jeong Mi",
+            "last": "Bae",
+            "full": "Jeong Mi Bae",
+            "native": "정미 배",
+            "userPreferred": "Jeong Mi Bae"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14851.jpg"
+        }
+      ]
+    },
+    {
+      "id": 27371,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Oreille",
+        "last": null,
+        "full": "Oreille",
+        "native": "マダム・オレイユ",
+        "userPreferred": "Oreille"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/27371.jpg",
+      "voiceActors": [
+        {
+          "id": 96474,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaho",
+            "last": "Kouda",
+            "full": "Kaho Kouda",
+            "native": "幸田夏穂",
+            "userPreferred": "Kaho Kouda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96474-lc3RZvrMlJcb.jpg"
+        },
+        {
+          "id": 109475,
+          "language": "English",
+          "name": {
+            "first": "Jennifer",
+            "last": "Green",
+            "full": "Jennifer Green",
+            "native": null,
+            "userPreferred": "Jennifer Green"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14475.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 6573,
+      "relationType": "SEQUEL",
+      "malId": 6573,
+      "title": {
+        "romaji": "DARKER THAN BLACK: Ryuusei no Gemini",
+        "english": "Darker than Black: Gemini of the Meteor",
+        "native": "DARKER THAN BLACK -流星の双子-",
+        "userPreferred": "DARKER THAN BLACK: Ryuusei no Gemini"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6573-8D21dF6qwXQ2.png",
+      "color": "#f1a15d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6573-D3QgsayY0eAY.jpg",
+      "rating": 71
+    },
+    {
+      "id": 4182,
+      "relationType": "PREQUEL",
+      "malId": 4182,
+      "title": {
+        "romaji": "DARKER THAN BLACK: Kuro no Keiyakusha - Sakura no Hana no Mankai no Shita",
+        "english": "Darker than Black: Beneath Cherry Blossoms in Full Bloom",
+        "native": "DARKER THAN BLACK -黒の契約者- 桜の花の満開の下",
+        "userPreferred": "DARKER THAN BLACK: Kuro no Keiyakusha - Sakura no Hana no Mankai no Shita"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4182-Sj5g5kz2WPuT.jpg",
+      "color": "#f1e435",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n4182-G3Xo6NHOphDL.jpg",
+      "rating": 72
+    }
+  ],
+  "episodes": [
+    {
+      "id": "darker-than-black-gaiden-episode-1",
+      "title": "Darker than Black: Kuro no Keiyakusha Gaiden 1",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx7338-c6Uq5DmlEPVs.png",
+      "number": 1,
+      "createdAt": "2013-02-20T18:23:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//darker-than-black-gaiden-episode-1"
+    },
+    {
+      "id": "darker-than-black-gaiden-episode-2",
+      "title": "Part Two",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx7338-c6Uq5DmlEPVs.png",
+      "number": 2,
+      "createdAt": "2013-02-20T18:23:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//darker-than-black-gaiden-episode-2"
+    },
+    {
+      "id": "darker-than-black-gaiden-episode-3",
+      "title": "Part Three",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx7338-c6Uq5DmlEPVs.png",
+      "number": 3,
+      "createdAt": "2013-02-20T18:23:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//darker-than-black-gaiden-episode-3"
+    },
+    {
+      "id": "darker-than-black-gaiden-episode-4",
+      "title": "Part Four",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx7338-c6Uq5DmlEPVs.png",
+      "number": 4,
+      "createdAt": "2013-02-20T18:23:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//darker-than-black-gaiden-episode-4"
+    }
+  ]
+}

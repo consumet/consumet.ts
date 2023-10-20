@@ -1,0 +1,169 @@
+{
+  "id": "17273",
+  "title": {
+    "romaji": "Hetalia: The Beautiful World OVA",
+    "english": "Hetalia: The Beautiful World OVA",
+    "native": "ヘタリア The Beautiful World"
+  },
+  "malId": 17273,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/17273.jpg",
+  "popularity": 2972,
+  "color": "#f1d6c9",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/17273.jpg",
+  "description": "The long-awaited Buon San Valentino episodes, in which Germany gets hilariously… confused about his relationship with Italy (let’s just say there’s a tomato-shaped ring involved…)<br>\n<br>\n(Source: Funimation)",
+  "status": "Completed",
+  "releaseDate": 2013,
+  "startDate": {
+    "year": 2013,
+    "month": 4,
+    "day": 24
+  },
+  "endDate": {
+    "year": 2013,
+    "month": 10,
+    "day": 30
+  },
+  "totalEpisodes": 4,
+  "currentEpisode": 4,
+  "rating": 68,
+  "duration": 5,
+  "genres": [
+    "Comedy"
+  ],
+  "season": "SPRING",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 14792,
+      "role": "MAIN",
+      "name": {
+        "first": "Germany",
+        "last": null,
+        "full": "Germany",
+        "native": "ドイツ, ルートヴィッヒ, ウェースト",
+        "userPreferred": "Germany"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14792.jpg",
+      "voiceActors": [
+        {
+          "id": 95025,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroki",
+            "last": "Yasumoto",
+            "full": "Hiroki Yasumoto",
+            "native": "安元洋貴",
+            "userPreferred": "Hiroki Yasumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95025-LGHr4VufmfCc.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14790,
+      "role": "MAIN",
+      "name": {
+        "first": "North Italy",
+        "last": null,
+        "full": "North Italy",
+        "native": "イタリア, フェリシアーノ・ヴァルガス, ヴェネチアーノ, イタちゃん, ヘタリア",
+        "userPreferred": "North Italy"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b14790-BkrOGbT5Cogr.jpg",
+      "voiceActors": [
+        {
+          "id": 95087,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Namikawa",
+            "full": "Daisuke Namikawa",
+            "native": "浪川大輔",
+            "userPreferred": "Daisuke Namikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95087-6dlBBbejsPyg.png"
+        }
+      ]
+    },
+    {
+      "id": 16576,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hungary",
+        "last": null,
+        "full": "Hungary",
+        "native": "ハンガリー, エリザベータ・ヘーデルヴァーリ",
+        "userPreferred": "Hungary"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b16576-lSnLLmgPjCdo.png",
+      "voiceActors": [
+        {
+          "id": 95176,
+          "language": "Japanese",
+          "name": {
+            "first": "Michiko",
+            "last": "Neya",
+            "full": "Michiko Neya",
+            "native": "根谷美智子",
+            "userPreferred": "Michiko Neya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95176-3yZnUwXap7nX.png"
+        }
+      ]
+    },
+    {
+      "id": 14797,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Austria",
+        "last": null,
+        "full": "Austria",
+        "native": "オーストリア, ローデリヒ・エーデルシュタイン",
+        "userPreferred": "Austria"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14797.jpg",
+      "voiceActors": [
+        {
+          "id": 101239,
+          "language": "Japanese",
+          "name": {
+            "first": "Akira",
+            "last": "Sasanuma",
+            "full": "Akira Sasanuma",
+            "native": "笹沼晃",
+            "userPreferred": "Akira Sasanuma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101239-thK51pXFiXOz.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 15195,
+      "relationType": "PARENT",
+      "malId": 15195,
+      "title": {
+        "romaji": "Hetalia: The Beautiful World",
+        "english": "Hetalia: The Beautiful World",
+        "native": "ヘタリア The Beautiful World",
+        "userPreferred": "Hetalia: The Beautiful World"
+      },
+      "status": "Completed",
+      "episodes": 20,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15195.jpg",
+      "color": "#d61a1a",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/15195.jpg",
+      "rating": 69
+    }
+  ],
+  "episodes": []
+}

@@ -1,0 +1,784 @@
+{
+  "id": "126316",
+  "title": {
+    "romaji": "B-PROJECT: Netsuretsu*Love Call",
+    "english": "B-PROJECT Passion*Love Call",
+    "native": "B-PROJECT 熱烈＊ラブコール"
+  },
+  "malId": 44081,
+  "synonyms": [
+    "B-PROJECT 3",
+    "B-PROJECT: Love Call*Apaixonada"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "Z_XBDAj1kKU",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/Z_XBDAj1kKU/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126316-TvYc2Njn1eRS.jpg",
+  "popularity": 1031,
+  "color": "#a11aff",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/126316-3xTe0FoN6Fkw.jpg",
+  "description": "The third season of <i>B-PROJECT</i>.",
+  "status": "Ongoing",
+  "releaseDate": 2023,
+  "startDate": {
+    "year": 2023,
+    "month": 10,
+    "day": 2
+  },
+  "endDate": {
+    "year": 2023,
+    "month": 12,
+    "day": 18
+  },
+  "nextAiringEpisode": {
+    "airingTime": 1697994000,
+    "timeUntilAiring": 190600,
+    "episode": 4
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 3,
+  "rating": null,
+  "duration": 24,
+  "genres": [
+    "Music"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Asahi Production"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 89881,
+      "role": "MAIN",
+      "name": {
+        "first": "Tsubasa",
+        "last": "Sumisora",
+        "full": "Tsubasa Sumisora",
+        "native": "澄空つばさ",
+        "userPreferred": "Tsubasa Sumisora"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/89881-s6fmD0F7wPrq.png",
+      "voiceActors": [
+        {
+          "id": 106787,
+          "language": "Japanese",
+          "name": {
+            "first": "Asami",
+            "last": "Seto",
+            "full": "Asami Seto",
+            "native": "瀬戸麻沙美",
+            "userPreferred": "Asami Seto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106787-pNRFEiywJuEx.png"
+        },
+        {
+          "id": 139013,
+          "language": "Spanish",
+          "name": {
+            "first": "Montserrat",
+            "last": "Aguilar",
+            "full": "Montserrat Aguilar",
+            "native": "Montserrat Alejandra Aguilar Ortiz",
+            "userPreferred": "Montserrat Aguilar"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n139013-G54ZhBGpZqmC.png"
+        }
+      ]
+    },
+    {
+      "id": 137419,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuzuki",
+        "last": "Teramitsu",
+        "full": "Yuzuki Teramitsu",
+        "native": "寺光唯月",
+        "userPreferred": "Yuzuki Teramitsu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b137419-lXV9H7dDa0Vq.jpg",
+      "voiceActors": [
+        {
+          "id": 112075,
+          "language": "Japanese",
+          "name": {
+            "first": "Koutarou",
+            "last": "Nishiyama",
+            "full": "Koutarou Nishiyama",
+            "native": "西山宏太朗",
+            "userPreferred": "Koutarou Nishiyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n112075-3XkMb12Pl3Mx.jpg"
+        },
+        {
+          "id": 139012,
+          "language": "Spanish",
+          "name": {
+            "first": "Tommy",
+            "last": "Rojas",
+            "full": "Tommy Rojas",
+            "native": "Tomás Gerardo González Rojas",
+            "userPreferred": "Tommy Rojas"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n139012-GfYJJpdQXqyS.png"
+        }
+      ]
+    },
+    {
+      "id": 89884,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shuji",
+        "last": "Daikoku",
+        "full": "Shuji Daikoku",
+        "native": "大黒修二",
+        "userPreferred": "Shuji Daikoku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/89884-o0nnrOF8XHBJ.png",
+      "voiceActors": [
+        {
+          "id": 95087,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Namikawa",
+            "full": "Daisuke Namikawa",
+            "native": "浪川大輔",
+            "userPreferred": "Daisuke Namikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95087-6dlBBbejsPyg.png"
+        }
+      ]
+    },
+    {
+      "id": 89866,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tomohisa",
+        "last": "Kitakado",
+        "full": "Tomohisa Kitakado",
+        "native": "北門倫毘沙",
+        "userPreferred": "Tomohisa Kitakado"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b89866-IGPtIbs95wHz.png",
+      "voiceActors": [
+        {
+          "id": 95212,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Ono",
+            "full": "Daisuke Ono",
+            "native": "小野大輔",
+            "userPreferred": "Daisuke Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95212-wX1M4LJN96q2.png"
+        },
+        {
+          "id": 228156,
+          "language": "Spanish",
+          "name": {
+            "first": "Nacho",
+            "last": "Rodríguez",
+            "full": "Nacho Rodríguez",
+            "native": "Ignacio Jesús Rodríguez Olmos",
+            "userPreferred": "Nacho Rodríguez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n228156-KuMGLigVZVzM.png"
+        }
+      ]
+    },
+    {
+      "id": 89873,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tatsuhiro",
+        "last": "Nome",
+        "full": "Tatsuhiro Nome",
+        "native": "野目龍広",
+        "userPreferred": "Tatsuhiro Nome"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b89873-57zzmaNctN0Y.png",
+      "voiceActors": [
+        {
+          "id": 114946,
+          "language": "Japanese",
+          "name": {
+            "first": "Genki",
+            "last": "Okawa",
+            "full": "Genki Okawa",
+            "native": "大河元気",
+            "userPreferred": "Genki Okawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n114946-P0yRoqSm5swu.png"
+        },
+        {
+          "id": 233526,
+          "language": "Spanish",
+          "name": {
+            "first": "Carlos",
+            "last": "Domínguez",
+            "full": "Carlos Domínguez",
+            "native": "Carlos Domínguez Pineda",
+            "userPreferred": "Carlos Domínguez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n233526-0v9UbasgFCX7.png"
+        }
+      ]
+    },
+    {
+      "id": 313811,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Eisuke",
+        "last": "Kurata",
+        "full": "Eisuke Kurata",
+        "native": "倉田永輔",
+        "userPreferred": "Eisuke Kurata"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 107018,
+          "language": "Japanese",
+          "name": {
+            "first": "Tasuku",
+            "last": "Hatanaka",
+            "full": "Tasuku Hatanaka",
+            "native": "畠中祐",
+            "userPreferred": "Tasuku Hatanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107018-UwRPnTdllbPT.png"
+        },
+        {
+          "id": 285929,
+          "language": "Spanish",
+          "name": {
+            "first": "Carlos",
+            "last": "Ramos",
+            "full": "Carlos Ramos",
+            "native": "Carlos Alejandro Ramos Vargas",
+            "userPreferred": "Carlos Ramos"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n285929-HKOlIayhWbzM.png"
+        }
+      ]
+    },
+    {
+      "id": 89865,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ryuuji",
+        "last": "Korekuni",
+        "full": "Ryuuji Korekuni",
+        "native": "是国竜持",
+        "userPreferred": "Ryuuji Korekuni"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b89865-q0PXUK7wVtML.png",
+      "voiceActors": [
+        {
+          "id": 95440,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Kishio",
+            "full": "Daisuke Kishio",
+            "native": "岸尾だいすけ",
+            "userPreferred": "Daisuke Kishio"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95440-j4iWV0MGWtBh.png"
+        },
+        {
+          "id": 189427,
+          "language": "Spanish",
+          "name": {
+            "first": "Alejandra",
+            "last": "Delint",
+            "full": "Alejandra Delint",
+            "native": "Alejandra Delint González",
+            "userPreferred": "Alejandra Delint"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n189427-iu3TiiKWsZvu.png"
+        }
+      ]
+    },
+    {
+      "id": 89870,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kazuna",
+        "last": "Masunaga",
+        "full": "Kazuna Masunaga",
+        "native": "増長和南",
+        "userPreferred": "Kazuna Masunaga"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b89870-1GbJWFlBSbic.png",
+      "voiceActors": [
+        {
+          "id": 118498,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuto",
+            "last": "Uemura",
+            "full": "Yuuto Uemura",
+            "native": "上村祐翔",
+            "userPreferred": "Yuuto Uemura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118498-6YvZZS0HM2qD.jpg"
+        },
+        {
+          "id": 285928,
+          "language": "Spanish",
+          "name": {
+            "first": "Iván",
+            "last": "García",
+            "full": "Iván García",
+            "native": null,
+            "userPreferred": "Iván García"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n285928-yUQqbp54AmSK.png"
+        }
+      ]
+    },
+    {
+      "id": 313812,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bunta",
+        "last": "Kashiwagi",
+        "full": "Bunta Kashiwagi",
+        "native": "柏木文太",
+        "userPreferred": "Bunta Kashiwagi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 122874,
+          "language": "Japanese",
+          "name": {
+            "first": "Kento",
+            "last": "Itou",
+            "full": "Kento Itou",
+            "native": "伊東健人",
+            "userPreferred": "Kento Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n122874-Ay8XWEJ7ljUf.jpg"
+        },
+        {
+          "id": 290089,
+          "language": "Spanish",
+          "name": {
+            "first": "Luis",
+            "last": "Flores",
+            "full": "Luis Flores",
+            "native": null,
+            "userPreferred": "Luis Flores"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n290089-48h7VGkGOxb7.png"
+        }
+      ]
+    },
+    {
+      "id": 89867,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Goushi",
+        "last": "Kaneshiro",
+        "full": "Goushi Kaneshiro",
+        "native": "金城剛士",
+        "userPreferred": "Goushi Kaneshiro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b89867-cexfbWJwpc0d.png",
+      "voiceActors": [
+        {
+          "id": 95600,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiyuki",
+            "last": "Toyonaga",
+            "full": "Toshiyuki Toyonaga",
+            "native": "豊永利行",
+            "userPreferred": "Toshiyuki Toyonaga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95600-giNVqkdeWKuF.png"
+        },
+        {
+          "id": 189431,
+          "language": "Spanish",
+          "name": {
+            "first": "Víctor",
+            "last": "Ruiz",
+            "full": "Víctor Ruiz",
+            "native": "Víctor Miguel Ruiz Cabrera",
+            "userPreferred": "Víctor Ruiz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n189431-oGVmmVdly4jp.png"
+        }
+      ]
+    },
+    {
+      "id": 89874,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mikado",
+        "last": "Sekimura",
+        "full": "Mikado Sekimura",
+        "native": "釈村帝人",
+        "userPreferred": "Mikado Sekimura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b89874-j2VsRzwAFdMA.png",
+      "voiceActors": [
+        {
+          "id": 107017,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiki",
+            "last": "Masuda",
+            "full": "Toshiki Masuda",
+            "native": "増田俊樹",
+            "userPreferred": "Toshiki Masuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107017-Jv96B9DBJOy9.png"
+        },
+        {
+          "id": 184396,
+          "language": "Spanish",
+          "name": {
+            "first": "Héctor",
+            "last": "Mena",
+            "full": "Héctor Mena",
+            "native": null,
+            "userPreferred": "Héctor Mena"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n184396-xWboaE1KVAY3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 89871,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Momotarou",
+        "last": "Onzai",
+        "full": "Momotarou Onzai",
+        "native": "音済百太郎",
+        "userPreferred": "Momotarou Onzai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b89871-UBpGIc9nHk7L.png",
+      "voiceActors": [
+        {
+          "id": 95167,
+          "language": "Japanese",
+          "name": {
+            "first": "Tetsuya",
+            "last": "Kakihara",
+            "full": "Tetsuya Kakihara",
+            "native": "柿原徹也",
+            "userPreferred": "Tetsuya Kakihara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95167-wjIShzThRTlS.png"
+        }
+      ]
+    },
+    {
+      "id": 137422,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Akane",
+        "last": "Fudou",
+        "full": "Akane Fudou",
+        "native": "不動明謙",
+        "userPreferred": "Akane Fudou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b137422-EqWxV2x18FUj.jpg",
+      "voiceActors": [
+        {
+          "id": 119672,
+          "language": "Japanese",
+          "name": {
+            "first": "Shouya",
+            "last": "Chiba",
+            "full": "Shouya Chiba",
+            "native": "千葉翔也",
+            "userPreferred": "Shouya Chiba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119672-4RIzYsFUy8EH.png"
+        }
+      ]
+    },
+    {
+      "id": 89869,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kento",
+        "last": "Aizome",
+        "full": "Kento Aizome",
+        "native": "愛染健十",
+        "userPreferred": "Kento Aizome"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b89869-Ey173YdMYZlQ.png",
+      "voiceActors": [
+        {
+          "id": 103994,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuki",
+            "last": "Katou",
+            "full": "Kazuki Katou",
+            "native": "加藤和樹",
+            "userPreferred": "Kazuki Katou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103994-PqH4smQNJebt.png"
+        },
+        {
+          "id": 208660,
+          "language": "Spanish",
+          "name": {
+            "first": "Miguel",
+            "last": "de León",
+            "full": "Miguel de León",
+            "native": "Miguel Ángel de León",
+            "userPreferred": "Miguel de León"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n208660-3oQgPoVBU6qR.png"
+        }
+      ]
+    },
+    {
+      "id": 89883,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Atsushi",
+        "last": "Daikoku",
+        "full": "Atsushi Daikoku",
+        "native": "大黒篤志",
+        "userPreferred": "Atsushi Daikoku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/89883-MF3z94VGvxE1.png",
+      "voiceActors": [
+        {
+          "id": 102288,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuyuki",
+            "last": "Okitsu",
+            "full": "Kazuyuki Okitsu",
+            "native": "興津和幸",
+            "userPreferred": "Kazuyuki Okitsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102288-xqcBKreDyZYN.png"
+        },
+        {
+          "id": 182632,
+          "language": "Spanish",
+          "name": {
+            "first": "Carlos",
+            "last": "Hernández",
+            "full": "Carlos Hernández",
+            "native": null,
+            "userPreferred": "Carlos Hernández"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n182632-e2nWGMpffbnC.png"
+        }
+      ]
+    },
+    {
+      "id": 89868,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuuta",
+        "last": "Ashuu",
+        "full": "Yuuta Ashuu",
+        "native": "阿修悠太",
+        "userPreferred": "Yuuta Ashuu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b89868-ePlUSZE2jHxt.png",
+      "voiceActors": [
+        {
+          "id": 111635,
+          "language": "Japanese",
+          "name": {
+            "first": "Natsuki",
+            "last": "Hanae",
+            "full": "Natsuki Hanae",
+            "native": "花江夏樹",
+            "userPreferred": "Natsuki Hanae"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n111635-L385UcjTKCBq.png"
+        },
+        {
+          "id": 194008,
+          "language": "Spanish",
+          "name": {
+            "first": "Carlos",
+            "last": "Siller",
+            "full": "Carlos Siller",
+            "native": "Carlos Miguel Siller Abbadie",
+            "userPreferred": "Carlos Siller"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n194008-XImkFIhhs3RU.png"
+        }
+      ]
+    },
+    {
+      "id": 137421,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Haruhi",
+        "last": "Teramitsu",
+        "full": "Haruhi Teramitsu",
+        "native": "寺光遙日",
+        "userPreferred": "Haruhi Teramitsu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b137421-YGaVxtXw5COB.jpg",
+      "voiceActors": [
+        {
+          "id": 119833,
+          "language": "Japanese",
+          "name": {
+            "first": "Taku",
+            "last": "Yashiro",
+            "full": "Taku Yashiro",
+            "native": "八代拓",
+            "userPreferred": "Taku Yashiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119833-0SP13A92YLm4.jpg"
+        },
+        {
+          "id": 139012,
+          "language": "Spanish",
+          "name": {
+            "first": "Tommy",
+            "last": "Rojas",
+            "full": "Tommy Rojas",
+            "native": "Tomás Gerardo González Rojas",
+            "userPreferred": "Tommy Rojas"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n139012-GfYJJpdQXqyS.png"
+        }
+      ]
+    },
+    {
+      "id": 89872,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hikaru",
+        "last": "Ousari",
+        "full": "Hikaru Ousari",
+        "native": "王茶利 暉",
+        "userPreferred": "Hikaru Ousari"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b89872-hR0SrBFd4AGa.png",
+      "voiceActors": [
+        {
+          "id": 95178,
+          "language": "Japanese",
+          "name": {
+            "first": "Shoutarou",
+            "last": "Morikubo",
+            "full": "Shoutarou Morikubo",
+            "native": "森久保祥太郎",
+            "userPreferred": "Shoutarou Morikubo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95178-8R9Itg3Y1v24.png"
+        },
+        {
+          "id": 206475,
+          "language": "Spanish",
+          "name": {
+            "first": "Dalí",
+            "last": "González",
+            "full": "Dalí González",
+            "native": null,
+            "userPreferred": "Dalí González"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n206475-JoH0sBGz10Da.png"
+        }
+      ]
+    },
+    {
+      "id": 137420,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Miroku",
+        "last": "Shingari",
+        "full": "Miroku Shingari",
+        "native": "殿弥勒",
+        "userPreferred": "Miroku Shingari"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b137420-9JNajWU7eAiU.jpg",
+      "voiceActors": [
+        {
+          "id": 102695,
+          "language": "Japanese",
+          "name": {
+            "first": "Takuya",
+            "last": "Eguchi",
+            "full": "Takuya Eguchi",
+            "native": "江口拓也",
+            "userPreferred": "Takuya Eguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102695-dGzsJkor0KMj.jpg"
+        },
+        {
+          "id": 189477,
+          "language": "Spanish",
+          "name": {
+            "first": "David",
+            "last": "Allende",
+            "full": "David Allende",
+            "native": null,
+            "userPreferred": "David Allende"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n189477-c4iFMANX6L6R.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 100186,
+      "relationType": "PREQUEL",
+      "malId": 36483,
+      "title": {
+        "romaji": "B-PROJECT: Zecchou*Emotion",
+        "english": "B-PROJECT-Zeccho＊Emotion-",
+        "native": "B-PROJECT～絶頂＊エモーション～",
+        "userPreferred": "B-PROJECT: Zecchou*Emotion"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx100186-77UN1ObCPzm6.jpg",
+      "color": "#e45d93",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx100186-77UN1ObCPzm6.jpg",
+      "rating": 64
+    },
+    {
+      "id": 97157,
+      "relationType": "ADAPTATION",
+      "malId": 98184,
+      "title": {
+        "romaji": "B-Project: Mousou*Scandal",
+        "english": null,
+        "native": "B-PROJECT 妄想＊スキャンダル",
+        "userPreferred": "B-Project: Mousou*Scandal"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/97157-UtThexGtYvHs.jpg",
+      "color": "#e4935d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/97157-UtThexGtYvHs.jpg",
+      "rating": 63
+    }
+  ],
+  "episodes": []
+}

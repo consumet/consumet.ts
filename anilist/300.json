@@ -1,0 +1,859 @@
+{
+  "id": "300",
+  "title": {
+    "romaji": "3x3 EYES",
+    "english": "3x3 Eyes",
+    "native": "3×3EYES"
+  },
+  "malId": 300,
+  "synonyms": [
+    "Sazan Eyes",
+    "3x3 Eyes: Immortals",
+    "3x3 occhi",
+    "3x3 Augen",
+    "3x3 Oczy"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx300-s0fnKC5q0EU4.png",
+  "popularity": 4656,
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/300-owekp2LasH10.jpg",
+  "description": "3X3 Eyes is the story of a young man named Yakumo Fuuji, who through a strange series of events becomes the immortal slave of the last of a race of 3 Eyed immortals. The immortal absorbs his soul to save his life, making him immortal in the process. Now, he begins a journey with the female immortal in an attempt to find a way of becoming human. Of course, there are many complications along the way, not the least of which being that the immortal is a female with a split personality, one achingly cute and the other being no-nonsense destructive power, and the romances that develop between. <br>",
+  "status": "Completed",
+  "releaseDate": 1991,
+  "startDate": {
+    "year": 1991,
+    "month": 7,
+    "day": 25
+  },
+  "endDate": {
+    "year": 1992,
+    "month": 3,
+    "day": 19
+  },
+  "totalEpisodes": 4,
+  "currentEpisode": 4,
+  "rating": 61,
+  "duration": 30,
+  "genres": [
+    "Action",
+    "Fantasy",
+    "Horror",
+    "Romance"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Toei Animation"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 1457,
+      "malId": 1457,
+      "title": {
+        "romaji": "KEY THE METAL IDOL",
+        "english": "Key the Metal Idol",
+        "native": "KEY THE METAL IDOL",
+        "userPreferred": "KEY THE METAL IDOL"
+      },
+      "status": "Completed",
+      "episodes": 15,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1457-2fMgN8MtD4mZ.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1457-MTfRddGoswwj.jpg",
+      "rating": 66,
+      "type": "OVA"
+    },
+    {
+      "id": 392,
+      "malId": 392,
+      "title": {
+        "romaji": "Yuu☆Yuu☆Hakusho",
+        "english": "Yu Yu Hakusho: Ghostfiles",
+        "native": "幽☆遊☆白書",
+        "userPreferred": "Yuu☆Yuu☆Hakusho"
+      },
+      "status": "Completed",
+      "episodes": 112,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx392-z90299zIvYmx.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/392-nbB6cBnhHOFb.jpg",
+      "rating": 82,
+      "type": "TV"
+    },
+    {
+      "id": 2775,
+      "malId": 2775,
+      "title": {
+        "romaji": "Genocyber",
+        "english": "Genocyber",
+        "native": "ジェノサイバー",
+        "userPreferred": "Genocyber"
+      },
+      "status": "Completed",
+      "episodes": 5,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2775-GrmImvJgETGn.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2775-BmdomjS6s9pM.jpg",
+      "rating": 51,
+      "type": "OVA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 7160,
+      "role": "MAIN",
+      "name": {
+        "first": "Yakumo",
+        "last": "Fujii",
+        "full": "Yakumo Fujii",
+        "native": "藤井八雲",
+        "userPreferred": "Yakumo Fujii"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7160-1tnovf7lvNLF.png",
+      "voiceActors": [
+        {
+          "id": 95427,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouji",
+            "last": "Tsujitani",
+            "full": "Kouji Tsujitani",
+            "native": "辻谷耕史",
+            "userPreferred": "Kouji Tsujitani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95427-g0bwNKDLlROd.png"
+        },
+        {
+          "id": 141326,
+          "language": "English",
+          "name": {
+            "first": "Christian",
+            "last": "Campbell",
+            "full": "Christian Campbell",
+            "native": null,
+            "userPreferred": "Christian Campbell"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n141326-7xkUUnfOSSFh.jpg"
+        },
+        {
+          "id": 95952,
+          "language": "English",
+          "name": {
+            "first": "Eddie",
+            "last": "Frierson",
+            "full": "Eddie Frierson",
+            "native": null,
+            "userPreferred": "Eddie Frierson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/952.jpg"
+        },
+        {
+          "id": 95764,
+          "language": "Italian",
+          "name": {
+            "first": "Massimiliano",
+            "last": "Alto",
+            "full": "Massimiliano Alto",
+            "native": null,
+            "userPreferred": "Massimiliano Alto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95764-V0S9qoAYcnnj.jpg"
+        },
+        {
+          "id": 172665,
+          "language": "French",
+          "name": {
+            "first": "Alexandre",
+            "last": "Gillet",
+            "full": "Alexandre Gillet",
+            "native": null,
+            "userPreferred": "Alexandre Gillet"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 102670,
+          "language": "French",
+          "name": {
+            "first": "Cédric",
+            "last": "Dumond",
+            "full": "Cédric Dumond",
+            "native": null,
+            "userPreferred": "Cédric Dumond"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7670.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5492,
+      "role": "MAIN",
+      "name": {
+        "first": "Pai",
+        "last": "Ayanokoji",
+        "full": "Pai Ayanokoji",
+        "native": "アヤノコジパイ",
+        "userPreferred": "Pai Ayanokoji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5492-IzB7ey67A3kW.png",
+      "voiceActors": [
+        {
+          "id": 95014,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Hayashibara",
+            "full": "Megumi Hayashibara",
+            "native": "林原めぐみ",
+            "userPreferred": "Megumi Hayashibara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95014-VqxNuufY94V3.png"
+        },
+        {
+          "id": 141324,
+          "language": "English",
+          "name": {
+            "first": "Brigitte",
+            "last": "Bako",
+            "full": "Brigitte Bako",
+            "native": null,
+            "userPreferred": "Brigitte Bako"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n141324-1OX9lDN11bAd.jpg"
+        },
+        {
+          "id": 96006,
+          "language": "English",
+          "name": {
+            "first": "Rebecca",
+            "last": "Forstadt",
+            "full": "Rebecca Forstadt",
+            "native": null,
+            "userPreferred": "Rebecca Forstadt"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1006.jpg"
+        },
+        {
+          "id": 95980,
+          "language": "Italian",
+          "name": {
+            "first": "Monica",
+            "last": "Ward",
+            "full": "Monica Ward",
+            "native": null,
+            "userPreferred": "Monica Ward"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95980-AwMCHkkBjMSv.png"
+        },
+        {
+          "id": 183982,
+          "language": "French",
+          "name": {
+            "first": "Catherine",
+            "last": "Privat",
+            "full": "Catherine Privat",
+            "native": null,
+            "userPreferred": "Catherine Privat"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n183982-hARluaBZEXfB.png"
+        },
+        {
+          "id": 104886,
+          "language": "French",
+          "name": {
+            "first": "Nathalie",
+            "last": "Bienaime",
+            "full": "Nathalie Bienaime",
+            "native": null,
+            "userPreferred": "Nathalie Bienaime"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104886-E7gDTPBtLRoa.jpg"
+        },
+        {
+          "id": 161917,
+          "language": "French",
+          "name": {
+            "first": "Anne",
+            "last": "Rondeleux",
+            "full": "Anne Rondeleux",
+            "native": null,
+            "userPreferred": "Anne Rondeleux"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n161917-qLHFepfT5UxV.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14075,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Benares",
+        "last": null,
+        "full": "Benares",
+        "native": "ベナレス",
+        "userPreferred": "Benares"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b14075-a44kVLGG3ybT.jpg",
+      "voiceActors": [
+        {
+          "id": 95146,
+          "language": "Japanese",
+          "name": {
+            "first": "Akio",
+            "last": "Ootsuka",
+            "full": "Akio Ootsuka",
+            "native": "大塚明夫",
+            "userPreferred": "Akio Ootsuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95146-T6IEmqXW3xUN.jpg"
+        },
+        {
+          "id": 111057,
+          "language": "English",
+          "name": {
+            "first": "David",
+            "last": "Povall",
+            "full": "David Povall",
+            "native": null,
+            "userPreferred": "David Povall"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/16057.jpg"
+        },
+        {
+          "id": 141327,
+          "language": "English",
+          "name": {
+            "first": "Earl",
+            "last": "Boen",
+            "full": "Earl Boen",
+            "native": null,
+            "userPreferred": "Earl Boen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n141327-6nQwrCH6hyUB.jpg"
+        },
+        {
+          "id": 144629,
+          "language": "Italian",
+          "name": {
+            "first": "Paolo",
+            "last": "Buglioni",
+            "full": "Paolo Buglioni",
+            "native": null,
+            "userPreferred": "Paolo Buglioni"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n144629-5Pz0oWYU03WA.jpg"
+        }
+      ]
+    },
+    {
+      "id": 185066,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Steve",
+        "last": "Long",
+        "full": "Steve Long",
+        "native": "スティーブロング",
+        "userPreferred": "Steve Long"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b185066-xPohcvYpwfX7.png",
+      "voiceActors": [
+        {
+          "id": 95330,
+          "language": "Japanese",
+          "name": {
+            "first": "Banjou",
+            "last": "Ginga",
+            "full": "Banjou Ginga",
+            "native": "銀河万丈",
+            "userPreferred": "Banjou Ginga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95330-PHDm9uDhKAsT.png"
+        },
+        {
+          "id": 102541,
+          "language": "English",
+          "name": {
+            "first": "Steve",
+            "last": "Bulen",
+            "full": "Steve Bulen",
+            "native": null,
+            "userPreferred": "Steve Bulen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102541-3MihBnim2amt.jpg"
+        },
+        {
+          "id": 185069,
+          "language": "English",
+          "name": {
+            "first": "Bill",
+            "last": "Fagerbakke",
+            "full": "Bill Fagerbakke",
+            "native": null,
+            "userPreferred": "Bill Fagerbakke"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n185069-L5AenADCHeeu.jpg"
+        },
+        {
+          "id": 96229,
+          "language": "Italian",
+          "name": {
+            "first": "Vittorio",
+            "last": "Guerrieri",
+            "full": "Vittorio Guerrieri",
+            "native": null,
+            "userPreferred": "Vittorio Guerrieri"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96229-OxzoZS8xqZL5.jpg"
+        },
+        {
+          "id": 200197,
+          "language": "French",
+          "name": {
+            "first": "Philippe",
+            "last": "Vincent",
+            "full": "Philippe Vincent",
+            "native": null,
+            "userPreferred": "Philippe Vincent"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 185068,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Zhou",
+        "last": null,
+        "full": "Zhou",
+        "native": null,
+        "userPreferred": "Zhou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b185068-x3xkFDzU3226.jpg",
+      "voiceActors": [
+        {
+          "id": 95142,
+          "language": "Japanese",
+          "name": {
+            "first": "Takeshi",
+            "last": "Aono",
+            "full": "Takeshi Aono",
+            "native": "青野武",
+            "userPreferred": "Takeshi Aono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95142-73E1XmGOOmhG.png"
+        },
+        {
+          "id": 95351,
+          "language": "English",
+          "name": {
+            "first": "Michael",
+            "last": "McConnohie",
+            "full": "Michael McConnohie",
+            "native": null,
+            "userPreferred": "Michael McConnohie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95351-sfzuSJSC0wKK.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16922,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Parvati",
+        "last": "IV",
+        "full": "Parvati IV",
+        "native": null,
+        "userPreferred": "Parvati IV"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16922.jpg",
+      "voiceActors": [
+        {
+          "id": 95014,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Hayashibara",
+            "full": "Megumi Hayashibara",
+            "native": "林原めぐみ",
+            "userPreferred": "Megumi Hayashibara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95014-VqxNuufY94V3.png"
+        },
+        {
+          "id": 110831,
+          "language": "English",
+          "name": {
+            "first": "Alexandra",
+            "last": "Kenworthy",
+            "full": "Alexandra Kenworthy",
+            "native": null,
+            "userPreferred": "Alexandra Kenworthy"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15831.jpg"
+        },
+        {
+          "id": 141324,
+          "language": "English",
+          "name": {
+            "first": "Brigitte",
+            "last": "Bako",
+            "full": "Brigitte Bako",
+            "native": null,
+            "userPreferred": "Brigitte Bako"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n141324-1OX9lDN11bAd.jpg"
+        },
+        {
+          "id": 95980,
+          "language": "Italian",
+          "name": {
+            "first": "Monica",
+            "last": "Ward",
+            "full": "Monica Ward",
+            "native": null,
+            "userPreferred": "Monica Ward"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95980-AwMCHkkBjMSv.png"
+        },
+        {
+          "id": 183982,
+          "language": "French",
+          "name": {
+            "first": "Catherine",
+            "last": "Privat",
+            "full": "Catherine Privat",
+            "native": null,
+            "userPreferred": "Catherine Privat"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n183982-hARluaBZEXfB.png"
+        },
+        {
+          "id": 161917,
+          "language": "French",
+          "name": {
+            "first": "Anne",
+            "last": "Rondeleux",
+            "full": "Anne Rondeleux",
+            "native": null,
+            "userPreferred": "Anne Rondeleux"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n161917-qLHFepfT5UxV.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36870,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Meixing",
+        "last": "Long",
+        "full": "Meixing Long",
+        "native": null,
+        "userPreferred": "Meixing Long"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36870-meIQ63nGsYK9.jpg",
+      "voiceActors": [
+        {
+          "id": 95075,
+          "language": "Japanese",
+          "name": {
+            "first": "Mayumi",
+            "last": "Tanaka",
+            "full": "Mayumi Tanaka",
+            "native": "田中真弓",
+            "userPreferred": "Mayumi Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95075-1qD4TeW1ON92.png"
+        },
+        {
+          "id": 141328,
+          "language": "English",
+          "name": {
+            "first": "Erin",
+            "last": "Matthews",
+            "full": "Erin Matthews",
+            "native": null,
+            "userPreferred": "Erin Matthews"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n141328-HDbv3PADKUmm.jpg"
+        },
+        {
+          "id": 95835,
+          "language": "English",
+          "name": {
+            "first": "Lia",
+            "last": "Sargent",
+            "full": "Lia Sargent",
+            "native": null,
+            "userPreferred": "Lia Sargent"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/835.jpg"
+        },
+        {
+          "id": 96182,
+          "language": "Italian",
+          "name": {
+            "first": "Antonella",
+            "last": "Baldini",
+            "full": "Antonella Baldini",
+            "native": null,
+            "userPreferred": "Antonella Baldini"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1182.jpg"
+        }
+      ]
+    },
+    {
+      "id": 25036,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ling-Ling",
+        "last": "Li",
+        "full": "Ling-Ling Li",
+        "native": "リンリンリー",
+        "userPreferred": "Ling-Ling Li"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b25036-ubZC93mRDP4M.png",
+      "voiceActors": [
+        {
+          "id": 95208,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Orikasa",
+            "full": "Ai Orikasa",
+            "native": "折笠愛",
+            "userPreferred": "Ai Orikasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95208-DIfpWvWN401M.png"
+        },
+        {
+          "id": 111059,
+          "language": "English",
+          "name": {
+            "first": "Joyce",
+            "last": "Kurtz",
+            "full": "Joyce Kurtz",
+            "native": null,
+            "userPreferred": "Joyce Kurtz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n111059-uy5pkPqaUPDy.jpg"
+        },
+        {
+          "id": 141325,
+          "language": "English",
+          "name": {
+            "first": "Susan",
+            "last": "Chesler",
+            "full": "Susan Chesler",
+            "native": null,
+            "userPreferred": "Susan Chesler"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n141325-W3mfIQUhGB20.jpg"
+        },
+        {
+          "id": 154494,
+          "language": "Italian",
+          "name": {
+            "first": "Paola",
+            "last": "Majano",
+            "full": "Paola Majano",
+            "native": null,
+            "userPreferred": "Paola Majano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 115448,
+          "language": "French",
+          "name": {
+            "first": "Céline",
+            "last": "Monsarrat",
+            "full": "Céline Monsarrat",
+            "native": null,
+            "userPreferred": "Céline Monsarrat"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/20448.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11600,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mama",
+        "last": null,
+        "full": "Mama",
+        "native": null,
+        "userPreferred": "Mama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11600.jpg",
+      "voiceActors": [
+        {
+          "id": 100845,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukimasa",
+            "last": "Kishino",
+            "full": "Yukimasa Kishino",
+            "native": "岸野幸正",
+            "userPreferred": "Yukimasa Kishino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100845-LOsfDDyjfnfj.jpg"
+        },
+        {
+          "id": 95990,
+          "language": "English",
+          "name": {
+            "first": "Steve",
+            "last": "Kramer",
+            "full": "Steve Kramer",
+            "native": null,
+            "userPreferred": "Steve Kramer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95990-YWt5nzmqPAwB.jpg"
+        },
+        {
+          "id": 96417,
+          "language": "English",
+          "name": {
+            "first": "Keith",
+            "last": "David",
+            "full": "Keith David",
+            "native": null,
+            "userPreferred": "Keith David"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1417.jpg"
+        }
+      ]
+    },
+    {
+      "id": 185067,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gesu",
+        "last": null,
+        "full": "Gesu",
+        "native": null,
+        "userPreferred": "Gesu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b185067-OvcqJrMWGFE1.jpg",
+      "voiceActors": [
+        {
+          "id": 95906,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouzou",
+            "last": "Shioya",
+            "full": "Kouzou Shioya",
+            "native": "塩屋浩三",
+            "userPreferred": "Kouzou Shioya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95906-6f6glTy4TkXf.png"
+        },
+        {
+          "id": 101358,
+          "language": "English",
+          "name": {
+            "first": "Taliesin",
+            "last": "Jaffe",
+            "full": "Taliesin Jaffe",
+            "native": null,
+            "userPreferred": "Taliesin Jaffe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101358-6CA1XHeYVhQ8.jpg"
+        },
+        {
+          "id": 95990,
+          "language": "English",
+          "name": {
+            "first": "Steve",
+            "last": "Kramer",
+            "full": "Steve Kramer",
+            "native": null,
+            "userPreferred": "Steve Kramer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95990-YWt5nzmqPAwB.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 1225,
+      "relationType": "SEQUEL",
+      "malId": 1225,
+      "title": {
+        "romaji": "3x3 EYES Seima Densetsu",
+        "english": "3x3 Eyes: Legend of the Divine Demon",
+        "native": "3×3 EYES聖魔伝説",
+        "userPreferred": "3x3 EYES Seima Densetsu"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1225-FXHCKAknHdG7.png",
+      "color": "#e4e45d",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1225-FXHCKAknHdG7.png",
+      "rating": 65
+    },
+    {
+      "id": 30662,
+      "relationType": "ADAPTATION",
+      "malId": 662,
+      "title": {
+        "romaji": "3×3 EYES",
+        "english": null,
+        "native": "3×3 EYES",
+        "userPreferred": "3×3 EYES"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30662-KyqAx9ki5jBx.png",
+      "color": "#f1d6a1",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/30662-oycTmBbANDix.jpg",
+      "rating": 69
+    }
+  ],
+  "episodes": [
+    {
+      "id": "3-x-3-eyes-episode-1",
+      "title": "Transmigration",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx300-s0fnKC5q0EU4.png",
+      "number": 1,
+      "createdAt": "2013-05-29T16:39:26Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//3-x-3-eyes-episode-1"
+    },
+    {
+      "id": "3-x-3-eyes-episode-2",
+      "title": "Yakumo",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx300-s0fnKC5q0EU4.png",
+      "number": 2,
+      "createdAt": "2013-05-29T16:39:26Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//3-x-3-eyes-episode-2"
+    },
+    {
+      "id": "3-x-3-eyes-episode-3",
+      "title": "Sacrifice",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx300-s0fnKC5q0EU4.png",
+      "number": 3,
+      "createdAt": "2013-05-29T16:39:26Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//3-x-3-eyes-episode-3"
+    },
+    {
+      "id": "3-x-3-eyes-episode-4",
+      "title": "Straying",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx300-s0fnKC5q0EU4.png",
+      "number": 4,
+      "createdAt": "2013-05-29T16:39:26Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//3-x-3-eyes-episode-4"
+    }
+  ]
+}

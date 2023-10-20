@@ -1,0 +1,563 @@
+{
+  "id": "3840",
+  "title": {
+    "romaji": "Crystal Blaze",
+    "english": null,
+    "native": "クリスタル ブレイズ"
+  },
+  "malId": 3840,
+  "synonyms": [
+    "Glass Maiden"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3840.jpg",
+  "popularity": 2464,
+  "color": "#1a6b78",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3840.jpg",
+  "description": "Rags Town is the garbage dump of Japan. The place where people who want to forget their pasts run to. In this town, where the rules strictly forbid asking about the past or getting to know people, there is small detective agency called S&amp;A Detectives. <br><br>\nThe story revolves around Ayamana, the inseparable pair of misfit wannabe detectives, the case Manami takes on impulse, and the trouble that arises from it. On the case they find a woman who is abnormally hot, and who is being chased by a bunch of women with guns. After being dubbed Sara, the detectives try and figure out just what is going on with her. At the same time, all over town teenage girls are burning up and turning into glass. The government is covering everything up, but the detectives, as well as a nosy reporter and the local police, are determined to find out what is happening.",
+  "status": "Completed",
+  "releaseDate": 2008,
+  "startDate": {
+    "year": 2008,
+    "month": 4,
+    "day": 9
+  },
+  "endDate": {
+    "year": 2008,
+    "month": 6,
+    "day": 25
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 54,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Sci-Fi"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Studio Fantasia"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 11224,
+      "role": "MAIN",
+      "name": {
+        "first": "Shu",
+        "last": null,
+        "full": "Shu",
+        "native": "シュウ",
+        "userPreferred": "Shu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11224.jpg",
+      "voiceActors": [
+        {
+          "id": 95022,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinichirou",
+            "last": "Miki",
+            "full": "Shinichirou Miki",
+            "native": "三木眞一郎",
+            "userPreferred": "Shinichirou Miki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95022-BXggjIr4KHqd.png"
+        }
+      ]
+    },
+    {
+      "id": 11939,
+      "role": "MAIN",
+      "name": {
+        "first": "Sara",
+        "last": null,
+        "full": "Sara",
+        "native": "サラ",
+        "userPreferred": "Sara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11939.jpg",
+      "voiceActors": [
+        {
+          "id": 95034,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuu",
+            "last": "Kobayashi",
+            "full": "Yuu Kobayashi",
+            "native": "小林ゆう",
+            "userPreferred": "Yuu Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95034-AwobjrcmkMi9.png"
+        }
+      ]
+    },
+    {
+      "id": 11226,
+      "role": "MAIN",
+      "name": {
+        "first": "Akira",
+        "last": null,
+        "full": "Akira",
+        "native": "アキラ",
+        "userPreferred": "Akira"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11226.jpg",
+      "voiceActors": [
+        {
+          "id": 95058,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuji",
+            "last": "Ueda",
+            "full": "Yuuji Ueda",
+            "native": "うえだゆうじ",
+            "userPreferred": "Yuuji Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95058-fGnId7E4tgx3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11228,
+      "role": "MAIN",
+      "name": {
+        "first": "Manami",
+        "last": null,
+        "full": "Manami",
+        "native": "マナミ",
+        "userPreferred": "Manami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11228.jpg",
+      "voiceActors": [
+        {
+          "id": 95124,
+          "language": "Japanese",
+          "name": {
+            "first": "Satomi",
+            "last": "Arai",
+            "full": "Satomi Arai",
+            "native": "新井里美",
+            "userPreferred": "Satomi Arai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95124-8C0BORTX7Bfd.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11232,
+      "role": "MAIN",
+      "name": {
+        "first": "Porilyn",
+        "last": null,
+        "full": "Porilyn",
+        "native": "ポリリン",
+        "userPreferred": "Porilyn"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11232.jpg",
+      "voiceActors": [
+        {
+          "id": 96766,
+          "language": "Japanese",
+          "name": {
+            "first": "Seiji",
+            "last": "Rokkaku",
+            "full": "Seiji Rokkaku",
+            "native": "精児 六角",
+            "userPreferred": "Seiji Rokkaku"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1766.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11230,
+      "role": "MAIN",
+      "name": {
+        "first": "Ayaka",
+        "last": null,
+        "full": "Ayaka",
+        "native": "アヤカ",
+        "userPreferred": "Ayaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11230.jpg",
+      "voiceActors": [
+        {
+          "id": 95132,
+          "language": "Japanese",
+          "name": {
+            "first": "Mikako",
+            "last": "Takahashi",
+            "full": "Mikako Takahashi",
+            "native": "高橋美佳子",
+            "userPreferred": "Mikako Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95132-TpIFKL0tJg84.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11952,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sophie",
+        "last": null,
+        "full": "Sophie",
+        "native": "ソフィア",
+        "userPreferred": "Sophie"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11952.jpg",
+      "voiceActors": [
+        {
+          "id": 95135,
+          "language": "Japanese",
+          "name": {
+            "first": "Saeko",
+            "last": "Chiba",
+            "full": "Saeko Chiba",
+            "native": "千葉紗子",
+            "userPreferred": "Saeko Chiba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95135-zptQ6sZjTSU9.png"
+        }
+      ]
+    },
+    {
+      "id": 11954,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kito",
+        "last": null,
+        "full": "Kito",
+        "native": "キトー",
+        "userPreferred": "Kito"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11954.jpg",
+      "voiceActors": [
+        {
+          "id": 95372,
+          "language": "Japanese",
+          "name": {
+            "first": "Norihiro",
+            "last": "Inoue",
+            "full": "Norihiro Inoue",
+            "native": "井上倫宏",
+            "userPreferred": "Norihiro Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95372-P6iPthP2UEMK.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11953,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Job",
+        "last": null,
+        "full": "Job",
+        "native": "ヨブ",
+        "userPreferred": "Job"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11953.jpg",
+      "voiceActors": [
+        {
+          "id": 95685,
+          "language": "Japanese",
+          "name": {
+            "first": "Takashi",
+            "last": "Matsuyama",
+            "full": "Takashi Matsuyama",
+            "native": "松山鷹志",
+            "userPreferred": "Takashi Matsuyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95685-hBzFgdWzq43x.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11951,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "JJ",
+        "last": null,
+        "full": "JJ",
+        "native": null,
+        "userPreferred": "JJ"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11951.jpg",
+      "voiceActors": [
+        {
+          "id": 95064,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroki",
+            "last": "Takahashi",
+            "full": "Hiroki Takahashi",
+            "native": "高橋広樹",
+            "userPreferred": "Hiroki Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95064-p83l3UvfQ6n6.png"
+        }
+      ]
+    },
+    {
+      "id": 11948,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lawrence",
+        "last": null,
+        "full": "Lawrence",
+        "native": "ローレンス",
+        "userPreferred": "Lawrence"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11948.jpg",
+      "voiceActors": [
+        {
+          "id": 95742,
+          "language": "Japanese",
+          "name": {
+            "first": "Naomi",
+            "last": "Kusumi",
+            "full": "Naomi Kusumi",
+            "native": "楠見尚己",
+            "userPreferred": "Naomi Kusumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95742-Gkk1GsW2lEth.png"
+        }
+      ]
+    },
+    {
+      "id": 11955,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kyrie",
+        "last": null,
+        "full": "Kyrie",
+        "native": "キリエ",
+        "userPreferred": "Kyrie"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11955.jpg",
+      "voiceActors": [
+        {
+          "id": 95099,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyuki",
+            "last": "Sawashiro",
+            "full": "Miyuki Sawashiro",
+            "native": "沢城みゆき",
+            "userPreferred": "Miyuki Sawashiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95099-jKP4LfPWqetk.jpg"
+        }
+      ]
+    },
+    {
+      "id": 30611,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Seiji",
+        "last": null,
+        "full": "Seiji",
+        "native": "セージ",
+        "userPreferred": "Seiji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95756,
+          "language": "Japanese",
+          "name": {
+            "first": "Anri",
+            "last": "Katsu",
+            "full": "Anri Katsu",
+            "native": "勝杏里",
+            "userPreferred": "Anri Katsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95756-MmmuyQK4Thzl.png"
+        }
+      ]
+    },
+    {
+      "id": 11938,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Monica",
+        "last": null,
+        "full": "Monica",
+        "native": "モニカ",
+        "userPreferred": "Monica"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11938.jpg",
+      "voiceActors": [
+        {
+          "id": 95121,
+          "language": "Japanese",
+          "name": {
+            "first": "Miki",
+            "last": "Itou",
+            "full": "Miki Itou",
+            "native": "伊藤美紀 ",
+            "userPreferred": "Miki Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95121-FCp9NcoFgKZk.png"
+        }
+      ]
+    },
+    {
+      "id": 11937,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Doc",
+        "last": null,
+        "full": "Doc",
+        "native": "先生",
+        "userPreferred": "Doc"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11937.jpg",
+      "voiceActors": [
+        {
+          "id": 95954,
+          "language": "Japanese",
+          "name": {
+            "first": "Eiji",
+            "last": "Maruyama",
+            "full": "Eiji Maruyama",
+            "native": "丸山詠二",
+            "userPreferred": "Eiji Maruyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/954.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11936,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Li'l Q",
+        "last": null,
+        "full": "Li'l Q",
+        "native": "キューちゃん",
+        "userPreferred": "Li'l Q"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11936.jpg",
+      "voiceActors": []
+    }
+  ],
+  "relations": [],
+  "episodes": [
+    {
+      "id": "crystal-blaze-episode-1",
+      "title": "Episode 1",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3840.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:25:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//crystal-blaze-episode-1"
+    },
+    {
+      "id": "crystal-blaze-episode-2",
+      "title": "Episode 2",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3840.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:25:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//crystal-blaze-episode-2"
+    },
+    {
+      "id": "crystal-blaze-episode-3",
+      "title": "Episode 3",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3840.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:25:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//crystal-blaze-episode-3"
+    },
+    {
+      "id": "crystal-blaze-episode-4",
+      "title": "episode 4",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3840.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:25:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//crystal-blaze-episode-4"
+    },
+    {
+      "id": "crystal-blaze-episode-5",
+      "title": "episode 5",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3840.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:25:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//crystal-blaze-episode-5"
+    },
+    {
+      "id": "crystal-blaze-episode-6",
+      "title": "episode 6",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3840.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:25:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//crystal-blaze-episode-6"
+    },
+    {
+      "id": "crystal-blaze-episode-7",
+      "title": "episode 7",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3840.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:25:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//crystal-blaze-episode-7"
+    },
+    {
+      "id": "crystal-blaze-episode-8",
+      "title": "episode 8",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3840.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:25:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//crystal-blaze-episode-8"
+    },
+    {
+      "id": "crystal-blaze-episode-9",
+      "title": "episode 9",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3840.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:25:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//crystal-blaze-episode-9"
+    },
+    {
+      "id": "crystal-blaze-episode-10",
+      "title": "episode 10",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3840.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:25:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//crystal-blaze-episode-10"
+    },
+    {
+      "id": "crystal-blaze-episode-11",
+      "title": "episode 11",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3840.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:25:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//crystal-blaze-episode-11"
+    },
+    {
+      "id": "crystal-blaze-episode-12",
+      "title": "episode 12",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3840.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:25:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//crystal-blaze-episode-12"
+    }
+  ]
+}

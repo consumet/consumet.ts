@@ -1,0 +1,150 @@
+{
+  "id": "7669",
+  "title": {
+    "romaji": "Bungaku Shoujo: Kyou no Oyatsu - Hatsukoi",
+    "english": null,
+    "native": "文学少女 今日のおやつ 〜はつ恋〜"
+  },
+  "malId": 7669,
+  "synonyms": [
+    "Bungaku Shoujo OVA",
+    "Book Girl OVA",
+    "Literature Girl OVA"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/7669.jpg",
+  "popularity": 3632,
+  "color": "#f1bb43",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/7669.jpg",
+  "description": "Amano Tooko and Inoue Konoha are the only members of their high school literature club. After school, they meet so that Tooko can assign topics that will guide Konoha in writing a short story — the Literature Girl Tooko's daily \"snack\" — within fifty minutes.<br>\n<br>\n<i>Note: Bundled with a limited edition version of the second Bungaku Shoujo: Minarai light novel.</i>",
+  "status": "Completed",
+  "releaseDate": 2009,
+  "startDate": {
+    "year": 2009,
+    "month": 12,
+    "day": 26
+  },
+  "endDate": {
+    "year": 2009,
+    "month": 12,
+    "day": 26
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 64,
+  "duration": 17,
+  "genres": [
+    "Comedy",
+    "Fantasy"
+  ],
+  "season": "WINTER",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 24792,
+      "role": "MAIN",
+      "name": {
+        "first": "Konoha",
+        "last": "Inoue",
+        "full": "Konoha Inoue",
+        "native": "井上心葉",
+        "userPreferred": "Konoha Inoue"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b24792-kkDurhyTehPH.jpg",
+      "voiceActors": [
+        {
+          "id": 95088,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyu",
+            "last": "Irino",
+            "full": "Miyu Irino",
+            "native": "入野自由",
+            "userPreferred": "Miyu Irino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95088-BHyqnkadBEqi.png"
+        }
+      ]
+    },
+    {
+      "id": 28451,
+      "role": "MAIN",
+      "name": {
+        "first": "Touko",
+        "last": "Amano",
+        "full": "Touko Amano",
+        "native": "天野遠子",
+        "userPreferred": "Touko Amano"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b28451-joDcYzyQwsvh.png",
+      "voiceActors": [
+        {
+          "id": 95185,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Hanazawa",
+            "full": "Kana Hanazawa",
+            "native": "花澤香菜",
+            "userPreferred": "Kana Hanazawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95185-vZ6nmfBKQgw1.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 6408,
+      "relationType": "SEQUEL",
+      "malId": 6408,
+      "title": {
+        "romaji": "Bungaku Shoujo",
+        "english": null,
+        "native": "文学少女",
+        "userPreferred": "Bungaku Shoujo"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6408-UsXM2RcYTCZd.jpg",
+      "color": "#78e45d",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6408-UsXM2RcYTCZd.jpg",
+      "rating": 69
+    },
+    {
+      "id": 40000,
+      "relationType": "ADAPTATION",
+      "malId": 10000,
+      "title": {
+        "romaji": "\"Bungaku Shoujo\" to Shinitagari no Pierrot",
+        "english": "Book Girl and the Suicidal Mime",
+        "native": "“文学少女”と死にたがりの道化【ピエロ】",
+        "userPreferred": "\"Bungaku Shoujo\" to Shinitagari no Pierrot"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx40000-keoh55oPXhko.jpg",
+      "color": "#e4861a",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx40000-keoh55oPXhko.jpg",
+      "rating": 77
+    }
+  ],
+  "episodes": [
+    {
+      "id": "bungaku-shoujo-kyou-no-oyatsu-hatsukoi-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/7669.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bungaku-shoujo-kyou-no-oyatsu-hatsukoi-episode-1"
+    }
+  ]
+}

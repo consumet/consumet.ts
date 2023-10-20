@@ -1,0 +1,1231 @@
+{
+  "id": "10447",
+  "title": {
+    "romaji": "Aquarion EVOL",
+    "english": "Aquarion EVOL",
+    "native": "アクエリオンEVOL"
+  },
+  "malId": 10447,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10447-NDvwjLUF9znA.png",
+  "popularity": 15157,
+  "color": "#f15035",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10447-NDvwjLUF9znA.png",
+  "description": "The \"Abductors\" Invaders from Altea come to Earth with only one purpose, to harvest humans. DEAVA the Aquaria Academy exists to train men and women to use Aquaria, but they cannot ever merge because of Guize stones, these block an \"unholy union\" between genders. The story follows Amata and Mikono in their enrollment into DEAVA, and fight their fight with Abductors. <br><br>\n(Source: FUNimation) ",
+  "status": "Completed",
+  "releaseDate": 2012,
+  "startDate": {
+    "year": 2012,
+    "month": 1,
+    "day": 9
+  },
+  "endDate": {
+    "year": 2012,
+    "month": 6,
+    "day": 25
+  },
+  "totalEpisodes": 26,
+  "currentEpisode": 26,
+  "rating": 66,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Drama",
+    "Fantasy",
+    "Mecha",
+    "Romance",
+    "Sci-Fi"
+  ],
+  "season": "WINTER",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 180,
+      "malId": 180,
+      "title": {
+        "romaji": "Vandread",
+        "english": "Vandread",
+        "native": "ヴァンドレッド",
+        "userPreferred": "Vandread"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180-67CAKcXsjpUt.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/180-85UXZOoQp5qf.jpg",
+      "rating": 67,
+      "type": "TV"
+    },
+    {
+      "id": 99423,
+      "malId": 35849,
+      "title": {
+        "romaji": "Darling in the Franxx",
+        "english": "DARLING in the FRANXX",
+        "native": "ダーリン・イン・ザ・フランキス",
+        "userPreferred": "Darling in the Franxx"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99423-8MBxtwCeHf8B.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99423-OQfem628gdxD.jpg",
+      "rating": 68,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 52777,
+      "role": "MAIN",
+      "name": {
+        "first": "Amata",
+        "last": "Sora",
+        "full": "Amata Sora",
+        "native": "アマタ・ソラ",
+        "userPreferred": "Amata Sora"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/52777.jpg",
+      "voiceActors": [
+        {
+          "id": 95672,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Kaji",
+            "full": "Yuuki Kaji",
+            "native": "梶裕貴",
+            "userPreferred": "Yuuki Kaji"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95672-RN4nm0OFwCyU.png"
+        },
+        {
+          "id": 95610,
+          "language": "English",
+          "name": {
+            "first": "Christopher",
+            "last": "Bevins",
+            "full": "Christopher Bevins",
+            "native": null,
+            "userPreferred": "Christopher Bevins"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95610-4FScrXVJmH3V.jpg"
+        }
+      ]
+    },
+    {
+      "id": 52783,
+      "role": "MAIN",
+      "name": {
+        "first": "Kagura",
+        "last": "Demuri",
+        "full": "Kagura Demuri",
+        "native": "カグラ・デムリ",
+        "userPreferred": "Kagura Demuri"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/52783.jpg",
+      "voiceActors": [
+        {
+          "id": 96764,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouki",
+            "last": "Uchiyama",
+            "full": "Kouki Uchiyama",
+            "native": "内山昂輝",
+            "userPreferred": "Kouki Uchiyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96764-yJWGrhjanDJQ.png"
+        },
+        {
+          "id": 101358,
+          "language": "English",
+          "name": {
+            "first": "Taliesin",
+            "last": "Jaffe",
+            "full": "Taliesin Jaffe",
+            "native": null,
+            "userPreferred": "Taliesin Jaffe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101358-6CA1XHeYVhQ8.jpg"
+        }
+      ]
+    },
+    {
+      "id": 52781,
+      "role": "MAIN",
+      "name": {
+        "first": "Zessica",
+        "last": "Wong",
+        "full": "Zessica Wong",
+        "native": "ゼシカ・ウォン",
+        "userPreferred": "Zessica Wong"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/52781.jpg",
+      "voiceActors": [
+        {
+          "id": 95185,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Hanazawa",
+            "full": "Kana Hanazawa",
+            "native": "花澤香菜",
+            "userPreferred": "Kana Hanazawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95185-vZ6nmfBKQgw1.jpg"
+        },
+        {
+          "id": 95313,
+          "language": "English",
+          "name": {
+            "first": "Caitlin",
+            "last": "Glass",
+            "full": "Caitlin Glass",
+            "native": null,
+            "userPreferred": "Caitlin Glass"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95313-zK3WpeNtACvm.jpg"
+        }
+      ]
+    },
+    {
+      "id": 52779,
+      "role": "MAIN",
+      "name": {
+        "first": "Mikono",
+        "last": "Suzushiro",
+        "full": "Mikono Suzushiro",
+        "native": "ミコノ・スズシロ",
+        "userPreferred": "Mikono Suzushiro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/52779.jpg",
+      "voiceActors": [
+        {
+          "id": 105765,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Kayano",
+            "full": "Ai Kayano",
+            "native": "茅野愛衣",
+            "userPreferred": "Ai Kayano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105765-DDK94me8axVv.png"
+        },
+        {
+          "id": 95659,
+          "language": "English",
+          "name": {
+            "first": "Brina",
+            "last": "Palencia",
+            "full": "Brina Palencia",
+            "native": null,
+            "userPreferred": "Brina Palencia"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/659.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4145,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sirius",
+        "last": "de Alisia",
+        "full": "Sirius de Alisia",
+        "native": "シリウス・ド・アリシア",
+        "userPreferred": "Sirius de Alisia"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4145.jpg",
+      "voiceActors": [
+        {
+          "id": 95002,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Sugita",
+            "full": "Tomokazu Sugita",
+            "native": "杉田智和",
+            "userPreferred": "Tomokazu Sugita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95002-nDIvHaynicEg.png"
+        }
+      ]
+    },
+    {
+      "id": 52793,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Andy W.",
+        "last": "Hole",
+        "full": "Andy W. Hole",
+        "native": "アンディ・W・ホール",
+        "userPreferred": "Andy W. Hole"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/52793.jpg",
+      "voiceActors": [
+        {
+          "id": 95097,
+          "language": "Japanese",
+          "name": {
+            "first": "Kousuke",
+            "last": "Toriumi",
+            "full": "Kousuke Toriumi",
+            "native": "鳥海浩輔",
+            "userPreferred": "Kousuke Toriumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95097-BhSegy6KBLbE.png"
+        },
+        {
+          "id": 96047,
+          "language": "English",
+          "name": {
+            "first": "Jessie James",
+            "last": "Grelle",
+            "full": "Jessie James Grelle",
+            "native": null,
+            "userPreferred": "Jessie James Grelle"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96047-E9nBWn3YL0Tn.jpg"
+        }
+      ]
+    },
+    {
+      "id": 57563,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Aye",
+        "last": "Chang",
+        "full": "Aye Chang",
+        "native": "エイ・チャン",
+        "userPreferred": "Aye Chang"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/57563.jpg",
+      "voiceActors": [
+        {
+          "id": 111223,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuka",
+            "last": "Hirose",
+            "full": "Yuuka Hirose",
+            "native": "広瀬有香",
+            "userPreferred": "Yuuka Hirose"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/16223.jpg"
+        },
+        {
+          "id": 95859,
+          "language": "English",
+          "name": {
+            "first": "Leah",
+            "last": "Clark",
+            "full": "Leah Clark",
+            "native": null,
+            "userPreferred": "Leah Clark"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/859.jpg"
+        }
+      ]
+    },
+    {
+      "id": 52791,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Cayenne",
+        "last": "Suzushiro",
+        "full": "Cayenne Suzushiro",
+        "native": "カイエン・スズシロ",
+        "userPreferred": "Cayenne Suzushiro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/52791.jpg",
+      "voiceActors": [
+        {
+          "id": 95005,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenichi",
+            "last": "Suzumura",
+            "full": "Kenichi Suzumura",
+            "native": "鈴村健一",
+            "userPreferred": "Kenichi Suzumura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95005-SkoVN02iOglr.png"
+        },
+        {
+          "id": 105013,
+          "language": "Japanese",
+          "name": {
+            "first": "Mutsumi",
+            "last": "Tamura",
+            "full": "Mutsumi Tamura",
+            "native": "田村睦心",
+            "userPreferred": "Mutsumi Tamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105013-DffN0XN2Zw7G.png"
+        },
+        {
+          "id": 95650,
+          "language": "English",
+          "name": {
+            "first": "Jason",
+            "last": "Liebrecht",
+            "full": "Jason Liebrecht",
+            "native": null,
+            "userPreferred": "Jason Liebrecht"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95650-jLPHOvW60DX3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 52799,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Crea",
+        "last": "Dolosera",
+        "full": "Crea Dolosera",
+        "native": "クレア・ドロセラ",
+        "userPreferred": "Crea Dolosera"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/52799.jpg",
+      "voiceActors": [
+        {
+          "id": 95115,
+          "language": "Japanese",
+          "name": {
+            "first": "Sakura",
+            "last": "Tange",
+            "full": "Sakura Tange",
+            "native": "丹下桜",
+            "userPreferred": "Sakura Tange"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95115-AtF7VsdIk51q.png"
+        },
+        {
+          "id": 95327,
+          "language": "English",
+          "name": {
+            "first": "Carrie",
+            "last": "Savage",
+            "full": "Carrie Savage",
+            "native": null,
+            "userPreferred": "Carrie Savage"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/327.jpg"
+        }
+      ]
+    },
+    {
+      "id": 52797,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sazanka",
+        "last": "Bianca",
+        "full": "Sazanka Bianca",
+        "native": "サザンカ・ビアンカ",
+        "userPreferred": "Sazanka Bianca"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/52797.jpg",
+      "voiceActors": [
+        {
+          "id": 96105,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Nakajima",
+            "full": "Megumi Nakajima",
+            "native": "中島愛",
+            "userPreferred": "Megumi Nakajima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96105-KqV1Jn0RelZg.jpg"
+        },
+        {
+          "id": 104526,
+          "language": "English",
+          "name": {
+            "first": "Tia",
+            "last": "Ballard",
+            "full": "Tia Ballard",
+            "native": null,
+            "userPreferred": "Tia Ballard"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9526.jpg"
+        }
+      ]
+    },
+    {
+      "id": 58253,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nanaon",
+        "last": null,
+        "full": "Nanaon",
+        "native": "ナナオン",
+        "userPreferred": "Nanaon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/58253.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 4152,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Toma",
+        "last": null,
+        "full": "Toma",
+        "native": "トーマ",
+        "userPreferred": "Toma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4152.jpg",
+      "voiceActors": [
+        {
+          "id": 95006,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiyuki",
+            "last": "Morikawa",
+            "full": "Toshiyuki Morikawa",
+            "native": "森川智之",
+            "userPreferred": "Toshiyuki Morikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95006-hoLuiZANeD3Q.png"
+        }
+      ]
+    },
+    {
+      "id": 52807,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Suomi",
+        "last": "Konepi",
+        "full": "Suomi Konepi",
+        "native": "スオミ・コネピ",
+        "userPreferred": "Suomi Konepi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/52807.jpg",
+      "voiceActors": [
+        {
+          "id": 95149,
+          "language": "Japanese",
+          "name": {
+            "first": "Sanae",
+            "last": "Kobayashi",
+            "full": "Sanae Kobayashi",
+            "native": "小林沙苗",
+            "userPreferred": "Sanae Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95149-xNDmN92Feq8y.png"
+        },
+        {
+          "id": 95472,
+          "language": "English",
+          "name": {
+            "first": "Colleen",
+            "last": "Clinkenbeard",
+            "full": "Colleen Clinkenbeard",
+            "native": null,
+            "userPreferred": "Colleen Clinkenbeard"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95472-fznpewUW95vm.jpg"
+        }
+      ]
+    },
+    {
+      "id": 58259,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Youka",
+        "last": "Drum",
+        "full": "Youka Drum",
+        "native": "ヨウカ・ドラム",
+        "userPreferred": "Youka Drum"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/58259.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 52803,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Izumo",
+        "last": "Kamurogi",
+        "full": "Izumo Kamurogi",
+        "native": "イズモ・カムロギ",
+        "userPreferred": "Izumo Kamurogi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/52803.jpg",
+      "voiceActors": [
+        {
+          "id": 95025,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroki",
+            "last": "Yasumoto",
+            "full": "Hiroki Yasumoto",
+            "native": "安元洋貴",
+            "userPreferred": "Hiroki Yasumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95025-LGHr4VufmfCc.jpg"
+        },
+        {
+          "id": 95202,
+          "language": "English",
+          "name": {
+            "first": "Mike",
+            "last": "McFarland",
+            "full": "Mike McFarland",
+            "native": null,
+            "userPreferred": "Mike McFarland"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/202.jpg"
+        }
+      ]
+    },
+    {
+      "id": 52787,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jin",
+        "last": "Muso",
+        "full": "Jin Muso",
+        "native": "ムソウ・ジン",
+        "userPreferred": "Jin Muso"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b52787-OZF8vvVr5CGb.png",
+      "voiceActors": [
+        {
+          "id": 105094,
+          "language": "Japanese",
+          "name": {
+            "first": "Jun",
+            "last": "Fukushima",
+            "full": "Jun Fukushima",
+            "native": "福島潤",
+            "userPreferred": "Jun Fukushima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105094-Udz3lBFTZa5W.png"
+        },
+        {
+          "id": 95860,
+          "language": "English",
+          "name": {
+            "first": "Todd",
+            "last": "Haberkorn",
+            "full": "Todd Haberkorn",
+            "native": "Todd Michael Haberkorn",
+            "userPreferred": "Todd Haberkorn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95860-RxBJH1Kt2TUW.png"
+        }
+      ]
+    },
+    {
+      "id": 58269,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mist",
+        "last": null,
+        "full": "Mist",
+        "native": "ミスト",
+        "userPreferred": "Mist"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/58269.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 59133,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Alicia",
+        "last": null,
+        "full": "Alicia",
+        "native": "アリシア",
+        "userPreferred": "Alicia"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/59133.jpg",
+      "voiceActors": [
+        {
+          "id": 95060,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Tanaka",
+            "full": "Rie Tanaka",
+            "native": "田中理恵",
+            "userPreferred": "Rie Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95060-Rw0HZghxH1hF.jpg"
+        },
+        {
+          "id": 95475,
+          "language": "English",
+          "name": {
+            "first": "Stephanie",
+            "last": "Young",
+            "full": "Stephanie Young",
+            "native": null,
+            "userPreferred": "Stephanie Young"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95475-QV9KFgsYrsPb.jpg"
+        }
+      ]
+    },
+    {
+      "id": 52795,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "MIX",
+        "last": null,
+        "full": "MIX",
+        "native": null,
+        "userPreferred": "MIX"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/52795.jpg",
+      "voiceActors": [
+        {
+          "id": 95247,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumi",
+            "last": "Fujimura",
+            "full": "Ayumi Fujimura",
+            "native": "藤村歩",
+            "userPreferred": "Ayumi Fujimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95247-3jzUQFPN8clW.png"
+        },
+        {
+          "id": 104091,
+          "language": "English",
+          "name": {
+            "first": "Alexis",
+            "last": "Tipton",
+            "full": "Alexis Tipton",
+            "native": null,
+            "userPreferred": "Alexis Tipton"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104091-OZpJbFWFwnvV.jpg"
+        }
+      ]
+    },
+    {
+      "id": 55767,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Zen",
+        "last": "Fudou",
+        "full": "Zen Fudou",
+        "native": "不動ZEN",
+        "userPreferred": "Zen Fudou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/55767.jpg",
+      "voiceActors": [
+        {
+          "id": 95063,
+          "language": "Japanese",
+          "name": {
+            "first": "Keiji",
+            "last": "Fujiwara",
+            "full": "Keiji Fujiwara",
+            "native": "藤原啓治",
+            "userPreferred": "Keiji Fujiwara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95063-xAsEUzspuLMG.jpg"
+        },
+        {
+          "id": 95611,
+          "language": "English",
+          "name": {
+            "first": "Brandon",
+            "last": "Potter",
+            "full": "Brandon Potter",
+            "native": null,
+            "userPreferred": "Brandon Potter"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/611.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4144,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Silvia",
+        "last": "de Alisia",
+        "full": "Silvia de Alisia",
+        "native": "シルヴィア",
+        "userPreferred": "Silvia de Alisia"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4144.jpg",
+      "voiceActors": [
+        {
+          "id": 95298,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Kakazu",
+            "full": "Yumi Kakazu",
+            "native": "かかずゆみ",
+            "userPreferred": "Yumi Kakazu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95298-wWENaJp9ERf7.jpg"
+        }
+      ]
+    },
+    {
+      "id": 57263,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yunoha",
+        "last": "Suroor",
+        "full": "Yunoha Suroor",
+        "native": "ユノハ・スルール",
+        "userPreferred": "Yunoha Suroor"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/57263.jpg",
+      "voiceActors": [
+        {
+          "id": 105981,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Ogura",
+            "full": "Yui Ogura",
+            "native": "小倉唯",
+            "userPreferred": "Yui Ogura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105981-CDMPx1Q79Aum.png"
+        },
+        {
+          "id": 95189,
+          "language": "English",
+          "name": {
+            "first": "Luci",
+            "last": "Christian",
+            "full": "Luci Christian",
+            "native": null,
+            "userPreferred": "Luci Christian"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95189-M2IkMNRzHYcF.jpg"
+        }
+      ]
+    },
+    {
+      "id": 52789,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shrade",
+        "last": "Elan",
+        "full": "Shrade Elan",
+        "native": "シュレード・エラン",
+        "userPreferred": "Shrade Elan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/52789.jpg",
+      "voiceActors": [
+        {
+          "id": 95087,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Namikawa",
+            "full": "Daisuke Namikawa",
+            "native": "浪川大輔",
+            "userPreferred": "Daisuke Namikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95087-6dlBBbejsPyg.png"
+        },
+        {
+          "id": 95312,
+          "language": "English",
+          "name": {
+            "first": "Eric",
+            "last": "Vale",
+            "full": "Eric Vale",
+            "native": null,
+            "userPreferred": "Eric Vale"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95312-lixmVhwE8AXE.png"
+        }
+      ]
+    },
+    {
+      "id": 4143,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Apollo",
+        "last": null,
+        "full": "Apollo",
+        "native": "アポロ",
+        "userPreferred": "Apollo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4143.jpg",
+      "voiceActors": [
+        {
+          "id": 95494,
+          "language": "Japanese",
+          "name": {
+            "first": "Takuma",
+            "last": "Terashima",
+            "full": "Takuma Terashima",
+            "native": "寺島拓篤",
+            "userPreferred": "Takuma Terashima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95494-HetCpJKbDy1B.png"
+        }
+      ]
+    },
+    {
+      "id": 52801,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Malloy",
+        "last": "Direzza",
+        "full": "Malloy Direzza",
+        "native": "モロイ・ドレッツァ",
+        "userPreferred": "Malloy Direzza"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/52801.jpg",
+      "voiceActors": [
+        {
+          "id": 106133,
+          "language": "Japanese",
+          "name": {
+            "first": "Kensuke",
+            "last": "Satou",
+            "full": "Kensuke Satou",
+            "native": "佐藤健輔",
+            "userPreferred": "Kensuke Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106133-4tm6PaftW91h.png"
+        },
+        {
+          "id": 104087,
+          "language": "English",
+          "name": {
+            "first": "Ian",
+            "last": "Sinclair",
+            "full": "Ian Sinclair",
+            "native": null,
+            "userPreferred": "Ian Sinclair"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104087-3g10GTeSoeuW.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 478,
+      "relationType": "PREQUEL",
+      "malId": 478,
+      "title": {
+        "romaji": "Sousei no Aquarion",
+        "english": "Aquarion",
+        "native": "創聖のアクエリオン",
+        "userPreferred": "Sousei no Aquarion"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx478-aRiAdGczAsMg.jpg",
+      "color": "#d6431a",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx478-aRiAdGczAsMg.jpg",
+      "rating": 67
+    },
+    {
+      "id": 21115,
+      "relationType": "SEQUEL",
+      "malId": 30382,
+      "title": {
+        "romaji": "Aquarion Logos",
+        "english": "Aquarion Logos",
+        "native": "アクエリオンロゴス",
+        "userPreferred": "Aquarion Logos"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21115-jkOCEIYlWRCQ.jpg",
+      "color": "#e45d50",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21115-y7ll8s8Vo3Bn.jpg",
+      "rating": 52
+    },
+    {
+      "id": 21119,
+      "relationType": "OTHER",
+      "malId": 30381,
+      "title": {
+        "romaji": "Sousei no Aquarion EVOL",
+        "english": null,
+        "native": "創勢のアクエリオンEVOL",
+        "userPreferred": "Sousei no Aquarion EVOL"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21119-5URAzjGgjSBA.jpg",
+      "color": null,
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21119-5URAzjGgjSBA.jpg",
+      "rating": 65
+    },
+    {
+      "id": 68719,
+      "relationType": "ADAPTATION",
+      "malId": 38719,
+      "title": {
+        "romaji": "Aquarion Evol",
+        "english": "Aquarion Evol",
+        "native": "アクエリオンEVOL",
+        "userPreferred": "Aquarion Evol"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx68719-AphnzbvDQ5BV.png",
+      "color": null,
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx68719-AphnzbvDQ5BV.png",
+      "rating": 77
+    }
+  ],
+  "episodes": [
+    {
+      "id": "aquarion-evol-episode-1",
+      "title": "A Myth That Holds An End",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10447-NDvwjLUF9znA.png",
+      "number": 1,
+      "createdAt": "2013-02-20T18:28:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-evol-episode-1"
+    },
+    {
+      "id": "aquarion-evol-episode-2",
+      "title": "Forbidden Gattai",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10447-NDvwjLUF9znA.png",
+      "number": 2,
+      "createdAt": "2013-02-20T18:28:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-evol-episode-2"
+    },
+    {
+      "id": "aquarion-evol-episode-3",
+      "title": "Love Index Skyrockets",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10447-NDvwjLUF9znA.png",
+      "number": 3,
+      "createdAt": "2013-02-20T18:28:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-evol-episode-3"
+    },
+    {
+      "id": "aquarion-evol-episode-4",
+      "title": "The Wall - Conquer Oneself -",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10447-NDvwjLUF9znA.png",
+      "number": 4,
+      "createdAt": "2013-02-20T18:28:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-evol-episode-4"
+    },
+    {
+      "id": "aquarion-evol-episode-5",
+      "title": "Romance Prohibition Order",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10447-NDvwjLUF9znA.png",
+      "number": 5,
+      "createdAt": "2013-02-20T18:28:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-evol-episode-5"
+    },
+    {
+      "id": "aquarion-evol-episode-6",
+      "title": "Agitato of Life",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10447-NDvwjLUF9znA.png",
+      "number": 6,
+      "createdAt": "2013-02-20T18:28:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-evol-episode-6"
+    },
+    {
+      "id": "aquarion-evol-episode-7",
+      "title": "Midnight Girl",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10447-NDvwjLUF9znA.png",
+      "number": 7,
+      "createdAt": "2013-02-20T18:28:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-evol-episode-7"
+    },
+    {
+      "id": "aquarion-evol-episode-8",
+      "title": "Expose",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10447-NDvwjLUF9znA.png",
+      "number": 8,
+      "createdAt": "2013-02-20T18:28:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-evol-episode-8"
+    },
+    {
+      "id": "aquarion-evol-episode-9",
+      "title": "Anagram of Man and Woman",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10447-NDvwjLUF9znA.png",
+      "number": 9,
+      "createdAt": "2013-02-20T18:28:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-evol-episode-9"
+    },
+    {
+      "id": "aquarion-evol-episode-10",
+      "title": "One-Eyed Transfer Student",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10447-NDvwjLUF9znA.png",
+      "number": 10,
+      "createdAt": "2013-02-20T18:28:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-evol-episode-10"
+    },
+    {
+      "id": "aquarion-evol-episode-11",
+      "title": "Calling of the Wild",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10447-NDvwjLUF9znA.png",
+      "number": 11,
+      "createdAt": "2013-02-20T18:28:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-evol-episode-11"
+    },
+    {
+      "id": "aquarion-evol-episode-12",
+      "title": "The Skies Aquaria Flies",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10447-NDvwjLUF9znA.png",
+      "number": 12,
+      "createdAt": "2013-02-20T18:28:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-evol-episode-12"
+    },
+    {
+      "id": "aquarion-evol-episode-13",
+      "title": "Fallen Giant",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10447-NDvwjLUF9znA.png",
+      "number": 13,
+      "createdAt": "2013-02-20T18:28:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-evol-episode-13"
+    },
+    {
+      "id": "aquarion-evol-episode-14",
+      "title": "Beyond an Individual",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10447-NDvwjLUF9znA.png",
+      "number": 14,
+      "createdAt": "2013-02-20T18:28:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-evol-episode-14"
+    },
+    {
+      "id": "aquarion-evol-episode-15",
+      "title": "Love Beasts",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10447-NDvwjLUF9znA.png",
+      "number": 15,
+      "createdAt": "2013-02-20T18:28:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-evol-episode-15"
+    },
+    {
+      "id": "aquarion-evol-episode-16",
+      "title": "Soul's Confession",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10447-NDvwjLUF9znA.png",
+      "number": 16,
+      "createdAt": "2013-02-20T18:28:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-evol-episode-16"
+    },
+    {
+      "id": "aquarion-evol-episode-17",
+      "title": "Well up, Life!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10447-NDvwjLUF9znA.png",
+      "number": 17,
+      "createdAt": "2013-02-20T18:28:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-evol-episode-17"
+    },
+    {
+      "id": "aquarion-evol-episode-18",
+      "title": "Rare Igura",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10447-NDvwjLUF9znA.png",
+      "number": 18,
+      "createdAt": "2013-02-20T18:28:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-evol-episode-18"
+    },
+    {
+      "id": "aquarion-evol-episode-19",
+      "title": "First Reunion",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10447-NDvwjLUF9znA.png",
+      "number": 19,
+      "createdAt": "2013-02-20T18:28:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-evol-episode-19"
+    },
+    {
+      "id": "aquarion-evol-episode-20",
+      "title": "MI⋅XY",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10447-NDvwjLUF9znA.png",
+      "number": 20,
+      "createdAt": "2013-02-20T18:28:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-evol-episode-20"
+    },
+    {
+      "id": "aquarion-evol-episode-21",
+      "title": "Kiss",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10447-NDvwjLUF9znA.png",
+      "number": 21,
+      "createdAt": "2013-02-20T18:28:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-evol-episode-21"
+    },
+    {
+      "id": "aquarion-evol-episode-22",
+      "title": "Wing of Revival",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10447-NDvwjLUF9znA.png",
+      "number": 22,
+      "createdAt": "2013-02-20T18:28:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-evol-episode-22"
+    },
+    {
+      "id": "aquarion-evol-episode-23",
+      "title": "Melody of Myth",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10447-NDvwjLUF9znA.png",
+      "number": 23,
+      "createdAt": "2013-02-20T18:28:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-evol-episode-23"
+    },
+    {
+      "id": "aquarion-evol-episode-24",
+      "title": "ephemera",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10447-NDvwjLUF9znA.png",
+      "number": 24,
+      "createdAt": "2013-02-20T18:28:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-evol-episode-24"
+    },
+    {
+      "id": "aquarion-evol-episode-25",
+      "title": "Fragment of Adam",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10447-NDvwjLUF9znA.png",
+      "number": 25,
+      "createdAt": "2013-02-20T18:28:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-evol-episode-25"
+    },
+    {
+      "id": "aquarion-evol-episode-26",
+      "title": "LOVE",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10447-NDvwjLUF9znA.png",
+      "number": 26,
+      "createdAt": "2013-02-20T18:28:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//aquarion-evol-episode-26"
+    }
+  ]
+}

@@ -1,0 +1,787 @@
+{
+  "id": "20431",
+  "title": {
+    "romaji": "Hoozuki no Reitetsu",
+    "english": "Hozuki's Coolheadedness",
+    "native": "鬼灯の冷徹"
+  },
+  "malId": 20431,
+  "synonyms": [
+    "Hozuki no Reitetsu"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "bS3djf3uCjo",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/bS3djf3uCjo/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx20431-01EHi0CpWKx0.png",
+  "popularity": 24578,
+  "color": "#f1c95d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20431-S0BhJaPcjAAP.jpg",
+  "description": "Hoozuki is the aide to the great king of Hell, King Enma. Calm and super-sadistic, Hoozuki tries to resolve the various problems in Hell, including a rampaging Momotarou and his companions. However, he also likes spending his free time on his hobbies, such as fawning over cute animals and raising \"Goldfish Flowers.\"\n<br><br>\n(Source: Crunchyroll)",
+  "status": "Completed",
+  "releaseDate": 2014,
+  "startDate": {
+    "year": 2014,
+    "month": 1,
+    "day": 10
+  },
+  "endDate": {
+    "year": 2014,
+    "month": 4,
+    "day": 4
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 73,
+  "duration": 24,
+  "genres": [
+    "Comedy",
+    "Fantasy",
+    "Supernatural"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "Wit Studio"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 107693,
+      "malId": 39196,
+      "title": {
+        "romaji": "Mairimashita! Iruma-kun",
+        "english": "Welcome to Demon School! Iruma-kun",
+        "native": "魔入りました！入間くん",
+        "userPreferred": "Mairimashita! Iruma-kun"
+      },
+      "status": "Completed",
+      "episodes": 23,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107693-A9bSSFAMxA6j.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/107693-h0syT88giDiw.jpg",
+      "rating": 77,
+      "type": "TV"
+    },
+    {
+      "id": 21804,
+      "malId": 33255,
+      "title": {
+        "romaji": "Saiki Kusuo no Ψ-nan",
+        "english": "The Disastrous Life of Saiki K.",
+        "native": "斉木楠雄のΨ難",
+        "userPreferred": "Saiki Kusuo no Ψ-nan"
+      },
+      "status": "Completed",
+      "episodes": 120,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21804-AAjWfz9JY1EO.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21804-QaKs5bDSGX6W.jpg",
+      "rating": 83,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 100714,
+      "malId": 36906,
+      "title": {
+        "romaji": "Jashin-chan Dropkick",
+        "english": "Dropkick on My Devil!",
+        "native": "邪神ちゃんドロップキック",
+        "userPreferred": "Jashin-chan Dropkick"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100714-1glYB8znGJ5W.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100714-frMoYtJu32jK.jpg",
+      "rating": 67,
+      "type": "TV"
+    },
+    {
+      "id": 10216,
+      "malId": 10216,
+      "title": {
+        "romaji": "Yondemasu yo, Azazel-san. (TV)",
+        "english": "You're Being Summoned, Azazel",
+        "native": "よんでますよ、アザゼルさん。",
+        "userPreferred": "Yondemasu yo, Azazel-san. (TV)"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10216.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10216.jpg",
+      "rating": 72,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 4081,
+      "malId": 4081,
+      "title": {
+        "romaji": "Natsume Yuujinchou",
+        "english": "Natsume's Book of Friends",
+        "native": "夏目友人帳",
+        "userPreferred": "Natsume Yuujinchou"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4081-33BLrdaPdZjP.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4081-dbeE4uMExtgc.jpg",
+      "rating": 80,
+      "type": "TV"
+    },
+    {
+      "id": 101340,
+      "malId": 37487,
+      "title": {
+        "romaji": "Muhyo to Rouji no Mahouritsu Soudan Jimusho",
+        "english": "Muhyo & Roji's Bureau of Supernatural Investigation",
+        "native": "ムヒョとロージーの魔法律相談事務所",
+        "userPreferred": "Muhyo to Rouji no Mahouritsu Soudan Jimusho"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101340-OstJznHblBXq.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101340-OstJznHblBXq.jpg",
+      "rating": 63,
+      "type": "TV"
+    },
+    {
+      "id": 111428,
+      "malId": 40397,
+      "title": {
+        "romaji": "Maou-jou de Oyasumi",
+        "english": "Sleepy Princess in the Demon Castle",
+        "native": "魔王城でおやすみ",
+        "userPreferred": "Maou-jou de Oyasumi"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111428-uL8XLKQ4c09u.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/111428-jGHk7h5pg6ab.jpg",
+      "rating": 78,
+      "type": "TV"
+    },
+    {
+      "id": 112802,
+      "malId": 40620,
+      "title": {
+        "romaji": "Uramichi Oniisan",
+        "english": "Life Lessons with Uramichi Oniisan",
+        "native": "うらみちお兄さん",
+        "userPreferred": "Uramichi Oniisan"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112802-FUNqgb2R1LS8.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112802-kAgVXuTQCElh.jpg",
+      "rating": 76,
+      "type": "TV"
+    },
+    {
+      "id": 918,
+      "malId": 918,
+      "title": {
+        "romaji": "Gintama",
+        "english": "Gintama",
+        "native": "銀魂",
+        "userPreferred": "Gintama"
+      },
+      "status": "Completed",
+      "episodes": 201,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/918-bljqHE1PFArH.jpg",
+      "rating": 85,
+      "type": "TV"
+    },
+    {
+      "id": 12679,
+      "malId": 12679,
+      "title": {
+        "romaji": "Joshiraku",
+        "english": "Joshiraku",
+        "native": "じょしらく",
+        "userPreferred": "Joshiraku"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12679-0zlvLP7KyxjH.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/12679-cXrmdF0XMJC9.jpg",
+      "rating": 73,
+      "type": "TV"
+    },
+    {
+      "id": 116338,
+      "malId": 41402,
+      "title": {
+        "romaji": "Mairimashita! Iruma-kun 2",
+        "english": "Welcome to Demon School! Iruma-kun Season 2",
+        "native": "魔入りました！入間くん 第2シリーズ",
+        "userPreferred": "Mairimashita! Iruma-kun 2"
+      },
+      "status": "Completed",
+      "episodes": 21,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116338-jbuJnLkPMcm7.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/116338-LexsWZ3dXsod.jpg",
+      "rating": 80,
+      "type": "TV"
+    },
+    {
+      "id": 101505,
+      "malId": 37716,
+      "title": {
+        "romaji": "Beelzebub-jou no Okinimesu mama.",
+        "english": "As Miss Beelzebub Likes it.",
+        "native": "ベルゼブブ嬢のお気に召すまま。",
+        "userPreferred": "Beelzebub-jou no Okinimesu mama."
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101505-jhNHjv7Ng3ku.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101505-CryzUUjVYZ54.jpg",
+      "rating": 69,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 79669,
+      "role": "MAIN",
+      "name": {
+        "first": "Hoozuki",
+        "last": "",
+        "full": "Hoozuki",
+        "native": "鬼灯",
+        "userPreferred": "Hoozuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b79669-kijIoLXt2Mq1.png",
+      "voiceActors": [
+        {
+          "id": 95025,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroki",
+            "last": "Yasumoto",
+            "full": "Hiroki Yasumoto",
+            "native": "安元洋貴",
+            "userPreferred": "Hiroki Yasumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95025-LGHr4VufmfCc.jpg"
+        }
+      ]
+    },
+    {
+      "id": 87652,
+      "role": "MAIN",
+      "name": {
+        "first": "Daio",
+        "last": "Enma",
+        "full": "Daio Enma",
+        "native": "閻魔大王",
+        "userPreferred": "Daio Enma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b87652-DTI1EKTmZA5p.png",
+      "voiceActors": [
+        {
+          "id": 96260,
+          "language": "Japanese",
+          "name": {
+            "first": "Takashi",
+            "last": "Nagasako",
+            "full": "Takashi Nagasako",
+            "native": "長嶝高士",
+            "userPreferred": "Takashi Nagasako"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96260-IhjrEBKbw8aN.png"
+        }
+      ]
+    },
+    {
+      "id": 124071,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Koban",
+        "last": "",
+        "full": "Koban",
+        "native": "小判",
+        "userPreferred": "Koban"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/124071-7jEhJqYtQwui.png",
+      "voiceActors": [
+        {
+          "id": 95016,
+          "language": "Japanese",
+          "name": {
+            "first": "Noriaki",
+            "last": "Sugiyama",
+            "full": "Noriaki Sugiyama",
+            "native": "杉山紀彰",
+            "userPreferred": "Noriaki Sugiyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95016-03m7lAUZBMDv.png"
+        }
+      ]
+    },
+    {
+      "id": 124063,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kakisuke",
+        "last": "",
+        "full": "Kakisuke",
+        "native": "柿助",
+        "userPreferred": "Kakisuke"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/124063-6k753GXEY2iV.jpg",
+      "voiceActors": [
+        {
+          "id": 106158,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroki",
+            "last": "Gotou",
+            "full": "Hiroki Gotou",
+            "native": "後藤ヒロキ",
+            "userPreferred": "Hiroki Gotou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/11158.jpg"
+        }
+      ]
+    },
+    {
+      "id": 79671,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hakutaku",
+        "last": "",
+        "full": "Hakutaku",
+        "native": "白澤",
+        "userPreferred": "Hakutaku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b79671-c5qeskQYhydl.png",
+      "voiceActors": [
+        {
+          "id": 95068,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouji",
+            "last": "Yusa",
+            "full": "Kouji Yusa",
+            "native": "遊佐浩二",
+            "userPreferred": "Kouji Yusa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95068-nf823DpvyKof.jpg"
+        }
+      ]
+    },
+    {
+      "id": 124073,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Karashi",
+        "last": "",
+        "full": "Karashi",
+        "native": "芥子",
+        "userPreferred": "Karashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/124073-8y5MpgAZxGNh.png",
+      "voiceActors": [
+        {
+          "id": 112215,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsumi",
+            "last": "Tanezaki",
+            "full": "Atsumi Tanezaki",
+            "native": "種﨑敦美",
+            "userPreferred": "Atsumi Tanezaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n112215-kfABGD8W2YSJ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 124061,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nasubi",
+        "last": "",
+        "full": "Nasubi",
+        "native": "茄子",
+        "userPreferred": "Nasubi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b124061-SIzZHkMXYt1y.png",
+      "voiceActors": [
+        {
+          "id": 96278,
+          "language": "Japanese",
+          "name": {
+            "first": "Touko",
+            "last": "Aoyama",
+            "full": "Touko Aoyama",
+            "native": "青山桐子",
+            "userPreferred": "Touko Aoyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96278-DIPQYeUBOIhd.png"
+        }
+      ]
+    },
+    {
+      "id": 124060,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Karauri",
+        "last": "",
+        "full": "Karauri",
+        "native": "唐瓜",
+        "userPreferred": "Karauri"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/124060-L5BydnuyULPV.jpg",
+      "voiceActors": [
+        {
+          "id": 95167,
+          "language": "Japanese",
+          "name": {
+            "first": "Tetsuya",
+            "last": "Kakihara",
+            "full": "Tetsuya Kakihara",
+            "native": "柿原徹也",
+            "userPreferred": "Tetsuya Kakihara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95167-wjIShzThRTlS.png"
+        }
+      ]
+    },
+    {
+      "id": 124072,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Peach Maki",
+        "last": "",
+        "full": "Peach Maki",
+        "native": "ピーチ・マキ",
+        "userPreferred": "Peach Maki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b124072-9fnZkSvkDMHU.png",
+      "voiceActors": [
+        {
+          "id": 109441,
+          "language": "Japanese",
+          "name": {
+            "first": "Sumire",
+            "last": "Uesaka",
+            "full": "Sumire Uesaka",
+            "native": "上坂すみれ",
+            "userPreferred": "Sumire Uesaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109441-lVHpd6BN2g16.png"
+        }
+      ]
+    },
+    {
+      "id": 124112,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ono no Takamura",
+        "last": "",
+        "full": "Ono no Takamura",
+        "native": "小野 篁",
+        "userPreferred": "Ono no Takamura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/124112-nMAarxWkn5sL.jpg",
+      "voiceActors": [
+        {
+          "id": 95527,
+          "language": "Japanese",
+          "name": {
+            "first": "Gou",
+            "last": "Inoue",
+            "full": "Gou Inoue",
+            "native": "井上剛",
+            "userPreferred": "Gou Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/527.jpg"
+        }
+      ]
+    },
+    {
+      "id": 87653,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shiro",
+        "last": "",
+        "full": "Shiro",
+        "native": "シロ",
+        "userPreferred": "Shiro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87653-l5L3CxqK0jgr.png",
+      "voiceActors": [
+        {
+          "id": 95539,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumiko",
+            "last": "Kobayashi",
+            "full": "Yumiko Kobayashi",
+            "native": "小林由美子",
+            "userPreferred": "Yumiko Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95539-vFLypMio70hC.png"
+        }
+      ]
+    },
+    {
+      "id": 124064,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rurio",
+        "last": "",
+        "full": "Rurio",
+        "native": "ルリオ",
+        "userPreferred": "Rurio"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/124064-rnpiylkwVynZ.jpg",
+      "voiceActors": [
+        {
+          "id": 95685,
+          "language": "Japanese",
+          "name": {
+            "first": "Takashi",
+            "last": "Matsuyama",
+            "full": "Takashi Matsuyama",
+            "native": "松山鷹志",
+            "userPreferred": "Takashi Matsuyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95685-hBzFgdWzq43x.jpg"
+        }
+      ]
+    },
+    {
+      "id": 124062,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Okou",
+        "last": "",
+        "full": "Okou",
+        "native": "お香",
+        "userPreferred": "Okou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b124062-BWvHtd38eysu.png",
+      "voiceActors": [
+        {
+          "id": 95413,
+          "language": "Japanese",
+          "name": {
+            "first": "Eri",
+            "last": "Kitamura",
+            "full": "Eri Kitamura",
+            "native": "喜多村英梨",
+            "userPreferred": "Eri Kitamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95413-FwAIrc8Ishpt.png"
+        }
+      ]
+    },
+    {
+      "id": 124074,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Momotarou",
+        "last": "",
+        "full": "Momotarou",
+        "native": "桃太郎",
+        "userPreferred": "Momotarou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/124074-j3WBvABn4UWI.png",
+      "voiceActors": [
+        {
+          "id": 95183,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Hirakawa",
+            "full": "Daisuke Hirakawa",
+            "native": "平川大輔",
+            "userPreferred": "Daisuke Hirakawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95183-5C42gbrKIP7L.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 66113,
+      "relationType": "ADAPTATION",
+      "malId": 36113,
+      "title": {
+        "romaji": "Hoozuki no Reitetsu",
+        "english": "Hozuki’s Coolheadedness",
+        "native": "鬼灯の冷徹",
+        "userPreferred": "Hoozuki no Reitetsu"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx66113-kCE4Q7zm8oZM.jpg",
+      "color": "#f1c9ae",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/66113-L5MLs9IEuUuu.jpg",
+      "rating": 73
+    },
+    {
+      "id": 20732,
+      "relationType": "SIDE_STORY",
+      "malId": 24471,
+      "title": {
+        "romaji": "Hoozuki no Reitetsu OVA",
+        "english": "Cool-headed Hoozuki OVA",
+        "native": "鬼灯の冷徹 OVA",
+        "userPreferred": "Hoozuki no Reitetsu OVA"
+      },
+      "status": "Completed",
+      "episodes": 4,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20732-afdGULWzD2M0.jpg",
+      "color": "#e45028",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20732-afdGULWzD2M0.jpg",
+      "rating": 76
+    },
+    {
+      "id": 98438,
+      "relationType": "SEQUEL",
+      "malId": 35075,
+      "title": {
+        "romaji": "Hoozuki no Reitetsu 2",
+        "english": "Hozuki’s Coolheadedness 2",
+        "native": "鬼灯の冷徹 2",
+        "userPreferred": "Hoozuki no Reitetsu 2"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98438-DdWr6KxfD5v4.jpg",
+      "color": "#f1d643",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98438-QjTO0wY6KuyJ.jpg",
+      "rating": 77
+    }
+  ],
+  "episodes": [
+    {
+      "id": "hoozuki-reitetsu-episode-1",
+      "title": "Making or Breaking Hell and The Discovery of Hell's Mysteries",
+      "image": "https://media.kitsu.io/episodes/thumbnails/159682/original.jpg",
+      "number": 1,
+      "createdAt": "2014-11-16T20:27:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hoozuki-reitetsu-episode-1"
+    },
+    {
+      "id": "hoozuki-reitetsu-episode-2",
+      "title": "Demons and Underwear and Crabs and The State of Hell, and This and That",
+      "image": "https://media.kitsu.io/episodes/thumbnails/159691/original.jpg",
+      "number": 2,
+      "createdAt": "2014-11-16T20:27:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hoozuki-reitetsu-episode-2"
+    },
+    {
+      "id": "hoozuki-reitetsu-episode-3",
+      "title": "Hakutaku and How their discord came to be",
+      "image": "https://media.kitsu.io/episodes/thumbnails/159709/original.jpg",
+      "number": 3,
+      "createdAt": "2014-11-16T20:27:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hoozuki-reitetsu-episode-3"
+    },
+    {
+      "id": "hoozuki-reitetsu-episode-4",
+      "title": "Pretty boys need love too and Kajika Hell",
+      "image": "https://media.kitsu.io/episodes/thumbnails/159718/original.jpg",
+      "number": 4,
+      "createdAt": "2014-11-16T20:27:06Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hoozuki-reitetsu-episode-4"
+    },
+    {
+      "id": "hoozuki-reitetsu-episode-5",
+      "title": "The Instrumental Duo of the Mighty Rivals and Mental Sports Day",
+      "image": "https://media.kitsu.io/episodes/thumbnails/159720/original.jpg",
+      "number": 5,
+      "createdAt": "2014-11-16T20:27:08Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hoozuki-reitetsu-episode-5"
+    },
+    {
+      "id": "hoozuki-reitetsu-episode-6",
+      "title": "Hell Idol: Peach Make and The Right Arm Blues",
+      "image": "https://media.kitsu.io/episodes/thumbnails/159727/original.jpg",
+      "number": 6,
+      "createdAt": "2014-11-16T20:27:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hoozuki-reitetsu-episode-6"
+    },
+    {
+      "id": "hoozuki-reitetsu-episode-7",
+      "title": "Man and Woman and Mortal Hell \\ Hell-Style Acupunture and Moxibustion Techniques \\ How-to use the Johari Mirror",
+      "image": "https://media.kitsu.io/episodes/thumbnails/159741/original.jpg",
+      "number": 7,
+      "createdAt": "2014-11-16T20:27:12Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hoozuki-reitetsu-episode-7"
+    },
+    {
+      "id": "hoozuki-reitetsu-episode-8",
+      "title": "The Vulgar Battle and The 36 Views of Hell",
+      "image": "https://media.kitsu.io/episodes/thumbnails/159757/original.jpg",
+      "number": 8,
+      "createdAt": "2014-11-16T20:27:15Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hoozuki-reitetsu-episode-8"
+    },
+    {
+      "id": "hoozuki-reitetsu-episode-9",
+      "title": "The Ultimate Example of Ruin Through Wine and Women and Awash with Drunks",
+      "image": "https://media.kitsu.io/episodes/thumbnails/159770/original.jpg",
+      "number": 9,
+      "createdAt": "2014-11-16T20:27:17Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hoozuki-reitetsu-episode-9"
+    },
+    {
+      "id": "hoozuki-reitetsu-episode-10",
+      "title": "Dinner of the Ten Kings of the Afterlife and Diets are Hell",
+      "image": "https://media.kitsu.io/episodes/thumbnails/159779/original.jpg",
+      "number": 10,
+      "createdAt": "2014-11-16T20:27:19Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hoozuki-reitetsu-episode-10"
+    },
+    {
+      "id": "hoozuki-reitetsu-episode-11",
+      "title": "The Samurai Who was Inch High and Marsh Sisters on the Mountain",
+      "image": "https://media.kitsu.io/episodes/thumbnails/159783/original.jpg",
+      "number": 11,
+      "createdAt": "2014-11-16T20:27:20Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hoozuki-reitetsu-episode-11"
+    },
+    {
+      "id": "hoozuki-reitetsu-episode-12",
+      "title": "Lady Lilith and her Husband and Why Monsters are so Widely Spread Throughout the Mundane World of China",
+      "image": "https://media.kitsu.io/episodes/thumbnails/159789/original.jpg",
+      "number": 12,
+      "createdAt": "2014-11-16T20:27:21Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hoozuki-reitetsu-episode-12"
+    },
+    {
+      "id": "hoozuki-reitetsu-episode-13",
+      "title": "Hell's Bon Festival of Lights and Idle Chat with the Great King Enma",
+      "image": "https://media.kitsu.io/episodes/thumbnails/159794/original.jpg",
+      "number": 13,
+      "createdAt": "2014-11-16T20:27:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hoozuki-reitetsu-episode-13"
+    }
+  ]
+}

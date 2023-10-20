@@ -1,0 +1,629 @@
+{
+  "id": "55",
+  "title": {
+    "romaji": "Arc the Lad",
+    "english": null,
+    "native": "アークザラッド"
+  },
+  "malId": 55,
+  "synonyms": [
+    "Arc"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx55-uG26UwIxEJkJ.png",
+  "popularity": 2122,
+  "color": "#e4c95d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n55-GkpzkjVbaMxb.jpg",
+  "description": "The story follows Elk, a bounty hunter in some strange futuristic world. On this world archaic but advanced technology exists side by side with primitive attitudes, beasts and magic. In other words it's got a bit of everything. It also has an evil conspiracy who are able to produce powerful monsters called chimera, who can also appear as human. Naturally it is not long before Elk has rescued a young female beast-master and gained himself some serious enemies.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 1999,
+  "startDate": {
+    "year": 1999,
+    "month": 4,
+    "day": 5
+  },
+  "endDate": {
+    "year": 1999,
+    "month": 9,
+    "day": 11
+  },
+  "totalEpisodes": 26,
+  "currentEpisode": 26,
+  "rating": 59,
+  "duration": 22,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy",
+    "Horror",
+    "Sci-Fi"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Bee Train"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 1017,
+      "malId": 1017,
+      "title": {
+        "romaji": "Majutsushi Orphen",
+        "english": "Orphen",
+        "native": "魔術士オーフェン",
+        "userPreferred": "Majutsushi Orphen"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1017-tPKIClRY3XhN.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1017-yXTNK95rFOsA.png",
+      "rating": 67,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 10036,
+      "role": "MAIN",
+      "name": {
+        "first": "Lieza",
+        "last": "Flora Meruno",
+        "full": "Lieza Flora Meruno",
+        "native": "リーザ・フローラ・メルノ",
+        "userPreferred": "Lieza Flora Meruno"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10036.jpg",
+      "voiceActors": [
+        {
+          "id": 95028,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Horie",
+            "full": "Yui Horie",
+            "native": "堀江由衣",
+            "userPreferred": "Yui Horie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95028-MHT1m3E5wGZx.png"
+        },
+        {
+          "id": 95537,
+          "language": "English",
+          "name": {
+            "first": "Dorothy",
+            "last": "Elias-Fahn",
+            "full": "Dorothy Elias-Fahn",
+            "native": null,
+            "userPreferred": "Dorothy Elias-Fahn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/537.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10037,
+      "role": "MAIN",
+      "name": {
+        "first": "Kukuru",
+        "last": "Lill Wight",
+        "full": "Kukuru Lill Wight",
+        "native": "ククル・リル・ワイト",
+        "userPreferred": "Kukuru Lill Wight"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10037.jpg",
+      "voiceActors": [
+        {
+          "id": 95485,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Mizutani",
+            "full": "Yuuko Mizutani",
+            "native": "水谷優子",
+            "userPreferred": "Yuuko Mizutani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95485-fKXiqJdcVHHs.png"
+        },
+        {
+          "id": 95036,
+          "language": "English",
+          "name": {
+            "first": "Wendee",
+            "last": "Lee",
+            "full": "Wendee Lee",
+            "native": null,
+            "userPreferred": "Wendee Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95036-UkyIYVtEhoPk.png"
+        }
+      ]
+    },
+    {
+      "id": 3808,
+      "role": "MAIN",
+      "name": {
+        "first": "Elk",
+        "last": "Kowalapule",
+        "full": "Elk Kowalapule",
+        "native": "エルクコワラピュール",
+        "userPreferred": "Elk Kowalapule"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3808.jpg",
+      "voiceActors": [
+        {
+          "id": 95087,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Namikawa",
+            "full": "Daisuke Namikawa",
+            "native": "浪川大輔",
+            "userPreferred": "Daisuke Namikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95087-6dlBBbejsPyg.png"
+        },
+        {
+          "id": 95367,
+          "language": "English",
+          "name": {
+            "first": "Joshua",
+            "last": "Seth",
+            "full": "Joshua Seth",
+            "native": null,
+            "userPreferred": "Joshua Seth"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95367-lUCb8pOCMGVb.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3807,
+      "role": "MAIN",
+      "name": {
+        "first": "Arc",
+        "last": "Eda Ricolne",
+        "full": "Arc Eda Ricolne",
+        "native": "アーク・エダ・リコルヌ",
+        "userPreferred": "Arc Eda Ricolne"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b3807-yAnmT4eXxv1l.jpg",
+      "voiceActors": [
+        {
+          "id": 95322,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiro",
+            "last": "Yuuki",
+            "full": "Hiro Yuuki",
+            "native": "優希比呂",
+            "userPreferred": "Hiro Yuuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95322-c2F72UgC1exn.jpg"
+        },
+        {
+          "id": 95281,
+          "language": "English",
+          "name": {
+            "first": "Steve",
+            "last": "Staley",
+            "full": "Steve Staley",
+            "native": null,
+            "userPreferred": "Steve Staley"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95281-pM54mfq6s7F8.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20507,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Clive",
+        "last": null,
+        "full": "Clive",
+        "native": "クライブ",
+        "userPreferred": "Clive"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20507.jpg",
+      "voiceActors": [
+        {
+          "id": 95157,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobuo",
+            "last": "Tobita",
+            "full": "Nobuo Tobita",
+            "native": "飛田展男",
+            "userPreferred": "Nobuo Tobita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95157-td6WhlGehuDJ.png"
+        },
+        {
+          "id": 102075,
+          "language": "English",
+          "name": {
+            "first": "Ezra",
+            "last": "Weisz",
+            "full": "Ezra Weisz",
+            "native": null,
+            "userPreferred": "Ezra Weisz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102075-pubuw5FFajUv.jpg"
+        }
+      ]
+    },
+    {
+      "id": 60821,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shu",
+        "last": null,
+        "full": "Shu",
+        "native": "シュウ",
+        "userPreferred": "Shu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/60821.jpg",
+      "voiceActors": [
+        {
+          "id": 95598,
+          "language": "Japanese",
+          "name": {
+            "first": "Shuuichi",
+            "last": "Ikeda",
+            "full": "Shuuichi Ikeda",
+            "native": "池田秀一",
+            "userPreferred": "Shuuichi Ikeda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95598-IZBrsaxRsACg.png"
+        },
+        {
+          "id": 96828,
+          "language": "English",
+          "name": {
+            "first": "Dave",
+            "last": "Mallow",
+            "full": "Dave Mallow",
+            "native": "David J. Mallow ",
+            "userPreferred": "Dave Mallow"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96828-CIfHs83C57oX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 60823,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Poco",
+        "last": null,
+        "full": "Poco",
+        "native": "ポコ・ア・メルヴィル",
+        "userPreferred": "Poco"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/60823.jpg",
+      "voiceActors": [
+        {
+          "id": 95387,
+          "language": "Japanese",
+          "name": {
+            "first": "Chika",
+            "last": "Sakamoto",
+            "full": "Chika Sakamoto",
+            "native": "坂本千夏",
+            "userPreferred": "Chika Sakamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95387-CLYs2OZwhe9c.png"
+        },
+        {
+          "id": 95319,
+          "language": "English",
+          "name": {
+            "first": "Mona",
+            "last": "Marshall",
+            "full": "Mona Marshall",
+            "native": null,
+            "userPreferred": "Mona Marshall"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95319-3WvgbpEGuhzQ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 53509,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Pandit",
+        "last": null,
+        "full": "Pandit",
+        "native": "パンディット",
+        "userPreferred": "Pandit"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/53509.jpg",
+      "voiceActors": [
+        {
+          "id": 201986,
+          "language": "Japanese",
+          "name": {
+            "first": "Takeshi",
+            "last": "Uchida",
+            "full": "Takeshi Uchida",
+            "native": "内田岳志",
+            "userPreferred": "Takeshi Uchida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n201986-i8Nrxl48RYxc.jpg"
+        },
+        {
+          "id": 95012,
+          "language": "English",
+          "name": {
+            "first": "Steven",
+            "last": "Blum",
+            "full": "Steven Blum",
+            "native": null,
+            "userPreferred": "Steven Blum"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95012-jnlK6VyCTf9P.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 64551,
+      "relationType": "ADAPTATION",
+      "malId": 34551,
+      "title": {
+        "romaji": "Arc the Lad II: Honoo no Elk",
+        "english": null,
+        "native": "アークザラッドII 炎のエルク",
+        "userPreferred": "Arc the Lad II: Honoo no Elk"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/34551.jpg",
+      "color": "#e46b43",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/34551.jpg",
+      "rating": 38
+    }
+  ],
+  "episodes": [
+    {
+      "id": "arc-the-lad-episode-1",
+      "title": "The Boy with Flame",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163827/original.jpg",
+      "number": 1,
+      "createdAt": "2014-11-16T20:38:24Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//arc-the-lad-episode-1"
+    },
+    {
+      "id": "arc-the-lad-episode-2",
+      "title": "Beginning of the Destiny",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163831/original.jpg",
+      "number": 2,
+      "createdAt": "2014-11-16T20:38:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//arc-the-lad-episode-2"
+    },
+    {
+      "id": "arc-the-lad-episode-3",
+      "title": "Feeling in the Rain",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163842/original.jpg",
+      "number": 3,
+      "createdAt": "2014-11-16T20:38:26Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//arc-the-lad-episode-3"
+    },
+    {
+      "id": "arc-the-lad-episode-4",
+      "title": "Pale Goddess",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163854/original.jpg",
+      "number": 4,
+      "createdAt": "2014-11-16T20:38:27Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//arc-the-lad-episode-4"
+    },
+    {
+      "id": "arc-the-lad-episode-5",
+      "title": "The Criminals",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163876/original.jpg",
+      "number": 5,
+      "createdAt": "2014-11-16T20:38:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//arc-the-lad-episode-5"
+    },
+    {
+      "id": "arc-the-lad-episode-6",
+      "title": "Beyond the Sound of Waves",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163891/original.jpg",
+      "number": 6,
+      "createdAt": "2014-11-16T20:38:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//arc-the-lad-episode-6"
+    },
+    {
+      "id": "arc-the-lad-episode-7",
+      "title": "Ancient Guardian",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163903/original.jpg",
+      "number": 7,
+      "createdAt": "2014-11-16T20:38:32Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//arc-the-lad-episode-7"
+    },
+    {
+      "id": "arc-the-lad-episode-8",
+      "title": "Runaway",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163920/original.jpg",
+      "number": 8,
+      "createdAt": "2014-11-16T20:38:34Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//arc-the-lad-episode-8"
+    },
+    {
+      "id": "arc-the-lad-episode-9",
+      "title": "Friend Who was Left Behind",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163927/original.jpg",
+      "number": 9,
+      "createdAt": "2014-11-16T20:38:35Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//arc-the-lad-episode-9"
+    },
+    {
+      "id": "arc-the-lad-episode-10",
+      "title": "The Crusade with No Name",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163939/original.jpg",
+      "number": 10,
+      "createdAt": "2014-11-16T20:38:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//arc-the-lad-episode-10"
+    },
+    {
+      "id": "arc-the-lad-episode-11",
+      "title": "Lonely Brave Man",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163949/original.jpg",
+      "number": 11,
+      "createdAt": "2014-11-16T20:38:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//arc-the-lad-episode-11"
+    },
+    {
+      "id": "arc-the-lad-episode-12",
+      "title": "White House",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163962/original.jpg",
+      "number": 12,
+      "createdAt": "2014-11-16T20:38:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//arc-the-lad-episode-12"
+    },
+    {
+      "id": "arc-the-lad-episode-13",
+      "title": "Smiling Holy Mother",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163975/original.jpg",
+      "number": 13,
+      "createdAt": "2014-11-16T20:38:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//arc-the-lad-episode-13"
+    },
+    {
+      "id": "arc-the-lad-episode-14",
+      "title": "Shrine Maiden of the Spirit",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163985/original.jpg",
+      "number": 14,
+      "createdAt": "2014-11-16T20:38:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//arc-the-lad-episode-14"
+    },
+    {
+      "id": "arc-the-lad-episode-15",
+      "title": "Blaze has Stood",
+      "image": "https://media.kitsu.io/episodes/thumbnails/163998/original.jpg",
+      "number": 15,
+      "createdAt": "2014-11-16T20:38:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//arc-the-lad-episode-15"
+    },
+    {
+      "id": "arc-the-lad-episode-16",
+      "title": "Reconquer",
+      "image": "https://media.kitsu.io/episodes/thumbnails/164017/original.jpg",
+      "number": 16,
+      "createdAt": "2014-11-16T20:38:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//arc-the-lad-episode-16"
+    },
+    {
+      "id": "arc-the-lad-episode-17",
+      "title": "Scarlet Castle",
+      "image": "https://media.kitsu.io/episodes/thumbnails/164029/original.jpg",
+      "number": 17,
+      "createdAt": "2014-11-16T20:38:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//arc-the-lad-episode-17"
+    },
+    {
+      "id": "arc-the-lad-episode-18",
+      "title": "Chimera Tower",
+      "image": "https://media.kitsu.io/episodes/thumbnails/164037/original.jpg",
+      "number": 18,
+      "createdAt": "2014-11-16T20:38:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//arc-the-lad-episode-18"
+    },
+    {
+      "id": "arc-the-lad-episode-19",
+      "title": "Confrontation of Two Great Men",
+      "image": "https://media.kitsu.io/episodes/thumbnails/164047/original.jpg",
+      "number": 19,
+      "createdAt": "2014-11-16T20:38:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//arc-the-lad-episode-19"
+    },
+    {
+      "id": "arc-the-lad-episode-20",
+      "title": "Meet Again",
+      "image": "https://media.kitsu.io/episodes/thumbnails/164059/original.jpg",
+      "number": 20,
+      "createdAt": "2014-11-16T20:38:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//arc-the-lad-episode-20"
+    },
+    {
+      "id": "arc-the-lad-episode-21",
+      "title": "The Place Where the Truth Is",
+      "image": "https://media.kitsu.io/episodes/thumbnails/164068/original.jpg",
+      "number": 21,
+      "createdAt": "2014-11-16T20:38:58Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//arc-the-lad-episode-21"
+    },
+    {
+      "id": "arc-the-lad-episode-22",
+      "title": "Hiding in the Shadows",
+      "image": "https://media.kitsu.io/episodes/thumbnails/164077/original.jpg",
+      "number": 22,
+      "createdAt": "2014-11-16T20:39:00Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//arc-the-lad-episode-22"
+    },
+    {
+      "id": "arc-the-lad-episode-23",
+      "title": "Frozen Eyes",
+      "image": "https://media.kitsu.io/episodes/thumbnails/164087/original.jpg",
+      "number": 23,
+      "createdAt": "2014-11-16T20:39:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//arc-the-lad-episode-23"
+    },
+    {
+      "id": "arc-the-lad-episode-24",
+      "title": "Quickening of the Darkness",
+      "image": "https://media.kitsu.io/episodes/thumbnails/164099/original.jpg",
+      "number": 24,
+      "createdAt": "2014-11-16T20:39:04Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//arc-the-lad-episode-24"
+    },
+    {
+      "id": "arc-the-lad-episode-25",
+      "title": "Holy Ark",
+      "image": "https://media.kitsu.io/episodes/thumbnails/164120/original.jpg",
+      "number": 25,
+      "createdAt": "2014-11-16T20:39:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//arc-the-lad-episode-25"
+    },
+    {
+      "id": "arc-the-lad-episode-26",
+      "title": "Shining Boy",
+      "image": "https://media.kitsu.io/episodes/thumbnails/164135/original.jpg",
+      "number": 26,
+      "createdAt": "2014-11-16T20:39:07Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//arc-the-lad-episode-26"
+    }
+  ]
+}

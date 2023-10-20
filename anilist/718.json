@@ -1,0 +1,395 @@
+{
+  "id": "718",
+  "title": {
+    "romaji": "Yume de Aetara (TV)",
+    "english": "If I See You in My Dreams",
+    "native": "夢で逢えたら"
+  },
+  "malId": 718,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx718-PsV5iR29nAiz.png",
+  "popularity": 1480,
+  "color": "#ffc935",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx718-PsV5iR29nAiz.png",
+  "description": "Fuguno Matsuo has never had a girlfriend all his 22 years in life and what makes things worse is that a fortune teller predicted that he never will. However, when he laid his eye on Nagisa-sensei he fell in-love right away and began earnestly wooing her. Along comes Hamaoka, a co-worker who is smitten with Fuguno, and a love-triangle ensues.<br>",
+  "status": "Completed",
+  "releaseDate": 1998,
+  "startDate": {
+    "year": 1998,
+    "month": 11,
+    "day": 30
+  },
+  "endDate": {
+    "year": 1998,
+    "month": 12,
+    "day": 24
+  },
+  "totalEpisodes": 16,
+  "currentEpisode": 16,
+  "rating": 56,
+  "duration": 7,
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+  ],
+  "season": "FALL",
+  "studios": [
+    "J.C. Staff"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 189,
+      "malId": 189,
+      "title": {
+        "romaji": "Love Hina",
+        "english": "Love Hina",
+        "native": "ラブひな",
+        "userPreferred": "Love Hina"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189-ybxKAazvr7cH.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/189-GKJY2UPwRIqi.jpg",
+      "rating": 66,
+      "type": "TV"
+    },
+    {
+      "id": 50,
+      "malId": 50,
+      "title": {
+        "romaji": "Aa! Megami-sama! (TV)",
+        "english": "Oh! My Goddess (TV)",
+        "native": "ああっ女神さまっ (TV)",
+        "userPreferred": "Aa! Megami-sama! (TV)"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx50-OdzAFLX6X6Hf.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx50-OdzAFLX6X6Hf.png",
+      "rating": 69,
+      "type": "TV"
+    },
+    {
+      "id": 195,
+      "malId": 195,
+      "title": {
+        "romaji": "Onegai☆Teacher",
+        "english": "Please☆Teacher!",
+        "native": "おねがい☆ティーチャー",
+        "userPreferred": "Onegai☆Teacher"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195-0qMiRJbg60Tc.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/195-bJP2XyNS08sG.jpg",
+      "rating": 66,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 3502,
+      "role": "MAIN",
+      "name": {
+        "first": "Masuo",
+        "last": "Fuguno",
+        "full": "Masuo Fuguno",
+        "native": "フグ野マスオ",
+        "userPreferred": "Masuo Fuguno"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b3502-e8RWpSY91UUp.png",
+      "voiceActors": [
+        {
+          "id": 95322,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiro",
+            "last": "Yuuki",
+            "full": "Hiro Yuuki",
+            "native": "優希比呂",
+            "userPreferred": "Hiro Yuuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95322-c2F72UgC1exn.jpg"
+        },
+        {
+          "id": 95281,
+          "language": "English",
+          "name": {
+            "first": "Steve",
+            "last": "Staley",
+            "full": "Steve Staley",
+            "native": null,
+            "userPreferred": "Steve Staley"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95281-pM54mfq6s7F8.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11977,
+      "role": "MAIN",
+      "name": {
+        "first": "Nagisa",
+        "last": "Shiozaki",
+        "full": "Nagisa Shiozaki",
+        "native": "潮崎渚",
+        "userPreferred": "Nagisa Shiozaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b11977-rr3AYPQe7eYX.png",
+      "voiceActors": [
+        {
+          "id": 95538,
+          "language": "Japanese",
+          "name": {
+            "first": "Mami",
+            "last": "Kingetsu",
+            "full": "Mami Kingetsu",
+            "native": "金月真美",
+            "userPreferred": "Mami Kingetsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95538-nSDqRQxKlb9E.png"
+        },
+        {
+          "id": 95396,
+          "language": "English",
+          "name": {
+            "first": "Stephanie",
+            "last": "Sheh",
+            "full": "Stephanie Sheh",
+            "native": null,
+            "userPreferred": "Stephanie Sheh"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95396-tNpkTyDD9Y1g.jpg"
+        }
+      ]
+    },
+    {
+      "id": 83403,
+      "role": "MAIN",
+      "name": {
+        "first": "Miho",
+        "last": "Hamaoka",
+        "full": "Miho Hamaoka",
+        "native": "浜岡美帆",
+        "userPreferred": "Miho Hamaoka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/83403.jpg",
+      "voiceActors": [
+        {
+          "id": 96545,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroko",
+            "last": "Konishi",
+            "full": "Hiroko Konishi",
+            "native": "小西寛子",
+            "userPreferred": "Hiroko Konishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96545-TI2rYK3bPHhn.png"
+        },
+        {
+          "id": 244153,
+          "language": "English",
+          "name": {
+            "first": "Susan",
+            "last": "Marque",
+            "full": "Susan Marque",
+            "native": null,
+            "userPreferred": "Susan Marque"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 30815,
+      "relationType": "ADAPTATION",
+      "malId": 815,
+      "title": {
+        "romaji": "Yume de Aetara",
+        "english": null,
+        "native": "夢で逢えたら",
+        "userPreferred": "Yume de Aetara"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30815-yVZo47f0Ighz.png",
+      "color": "#f1ae50",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30815-yVZo47f0Ighz.png",
+      "rating": 69
+    },
+    {
+      "id": 715,
+      "relationType": "ALTERNATIVE",
+      "malId": 715,
+      "title": {
+        "romaji": "Yume de Aetara",
+        "english": "If I See You in My Dreams",
+        "native": "夢で逢えたら (1999)",
+        "userPreferred": "Yume de Aetara"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx715-KP3czCDX5lgW.png",
+      "color": "#f1d6ae",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx715-KP3czCDX5lgW.png",
+      "rating": 58
+    }
+  ],
+  "episodes": [
+    {
+      "id": "yume-de-aetara-tv-episode-1",
+      "title": "Love of a Businessman",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx718-PsV5iR29nAiz.png",
+      "number": 1,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yume-de-aetara-tv-episode-1"
+    },
+    {
+      "id": "yume-de-aetara-tv-episode-2",
+      "title": "Run Masuo Run",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx718-PsV5iR29nAiz.png",
+      "number": 2,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yume-de-aetara-tv-episode-2"
+    },
+    {
+      "id": "yume-de-aetara-tv-episode-3",
+      "title": "The First Date",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx718-PsV5iR29nAiz.png",
+      "number": 3,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yume-de-aetara-tv-episode-3"
+    },
+    {
+      "id": "yume-de-aetara-tv-episode-4",
+      "title": "Be a Man",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx718-PsV5iR29nAiz.png",
+      "number": 4,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yume-de-aetara-tv-episode-4"
+    },
+    {
+      "id": "yume-de-aetara-tv-episode-5",
+      "title": "The Entrance to a Labyrinth",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx718-PsV5iR29nAiz.png",
+      "number": 5,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yume-de-aetara-tv-episode-5"
+    },
+    {
+      "id": "yume-de-aetara-tv-episode-6",
+      "title": "How can I be honest?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx718-PsV5iR29nAiz.png",
+      "number": 6,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yume-de-aetara-tv-episode-6"
+    },
+    {
+      "id": "yume-de-aetara-tv-episode-7",
+      "title": " Set my Heart on Fire",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx718-PsV5iR29nAiz.png",
+      "number": 7,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yume-de-aetara-tv-episode-7"
+    },
+    {
+      "id": "yume-de-aetara-tv-episode-8",
+      "title": "My Boyfriend is a Santa Claus",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx718-PsV5iR29nAiz.png",
+      "number": 8,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yume-de-aetara-tv-episode-8"
+    },
+    {
+      "id": "yume-de-aetara-tv-episode-9",
+      "title": "Masuo's Feelings",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx718-PsV5iR29nAiz.png",
+      "number": 9,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yume-de-aetara-tv-episode-9"
+    },
+    {
+      "id": "yume-de-aetara-tv-episode-10",
+      "title": "Prologue",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx718-PsV5iR29nAiz.png",
+      "number": 10,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yume-de-aetara-tv-episode-10"
+    },
+    {
+      "id": "yume-de-aetara-tv-episode-11",
+      "title": " Masuo's Dream",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx718-PsV5iR29nAiz.png",
+      "number": 11,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yume-de-aetara-tv-episode-11"
+    },
+    {
+      "id": "yume-de-aetara-tv-episode-12",
+      "title": "A Kiss",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx718-PsV5iR29nAiz.png",
+      "number": 12,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yume-de-aetara-tv-episode-12"
+    },
+    {
+      "id": "yume-de-aetara-tv-episode-13",
+      "title": "Where are we going?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx718-PsV5iR29nAiz.png",
+      "number": 13,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yume-de-aetara-tv-episode-13"
+    },
+    {
+      "id": "yume-de-aetara-tv-episode-14",
+      "title": "Broken Heart",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx718-PsV5iR29nAiz.png",
+      "number": 14,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yume-de-aetara-tv-episode-14"
+    },
+    {
+      "id": "yume-de-aetara-tv-episode-15",
+      "title": "Sleepless Night",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx718-PsV5iR29nAiz.png",
+      "number": 15,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yume-de-aetara-tv-episode-15"
+    },
+    {
+      "id": "yume-de-aetara-tv-episode-16",
+      "title": "Stop Time",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx718-PsV5iR29nAiz.png",
+      "number": 16,
+      "createdAt": "2013-02-20T18:21:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//yume-de-aetara-tv-episode-16"
+    }
+  ]
+}

@@ -1,0 +1,864 @@
+{
+  "id": "20618",
+  "title": {
+    "romaji": "Break Blade",
+    "english": "Broken Blade",
+    "native": "ブレイク ブレイド"
+  },
+  "malId": 22433,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20618-IHq8mYgQAKFn.jpg",
+  "popularity": 14315,
+  "color": "#e4a150",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20618.jpg",
+  "description": "In the continent of Cruzon, an impending war between the Kingdom of Krisna and the nation of Athens is brimming. The people of this land are able to use quartz for whatever purpose they desire. Yet one person, Rygart Arrow, is not. He is an \"un-sorcerer,\" a person unable to use quartz. But this characteristic will enable him to pilot an ancient Golem, one strong enough to put up a fight against the invading army of Athens.",
+  "status": "Completed",
+  "releaseDate": 2014,
+  "startDate": {
+    "year": 2014,
+    "month": 4,
+    "day": 6
+  },
+  "endDate": {
+    "year": 2014,
+    "month": 6,
+    "day": 22
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 68,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Fantasy",
+    "Mecha"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Production I.G",
+    "Xebec"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 80,
+      "malId": 80,
+      "title": {
+        "romaji": "Kidou Senshi Gundam",
+        "english": "Mobile Suit Gundam",
+        "native": "機動戦士ガンダム",
+        "userPreferred": "Kidou Senshi Gundam"
+      },
+      "status": "Completed",
+      "episodes": 43,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx80-HKQTjSNuFlHu.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/80-LcQhJ600WeDn.jpg",
+      "rating": 76,
+      "type": "TV"
+    },
+    {
+      "id": 1575,
+      "malId": 1575,
+      "title": {
+        "romaji": "Code Geass: Hangyaku no Lelouch",
+        "english": "Code Geass: Lelouch of the Rebellion",
+        "native": "コードギアス 反逆のルルーシュ",
+        "userPreferred": "Code Geass: Hangyaku no Lelouch"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1575-ZJYlg8yjvMKI.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1575.jpg",
+      "rating": 84,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 21292,
+      "role": "MAIN",
+      "name": {
+        "first": "Rygart",
+        "last": "Arrow",
+        "full": "Rygart Arrow",
+        "native": "ライガット・アロー",
+        "userPreferred": "Rygart Arrow"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21292.jpg",
+      "voiceActors": [
+        {
+          "id": 95030,
+          "language": "Japanese",
+          "name": {
+            "first": "Souichirou",
+            "last": "Hoshi",
+            "full": "Souichirou Hoshi",
+            "native": "保志総一朗",
+            "userPreferred": "Souichirou Hoshi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95030-kj64Uy6Zr3bq.png"
+        }
+      ]
+    },
+    {
+      "id": 21293,
+      "role": "MAIN",
+      "name": {
+        "first": "Sigyn",
+        "last": "Erster",
+        "full": "Sigyn Erster",
+        "native": "シギュン・エルステル",
+        "userPreferred": "Sigyn Erster"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21293.jpg",
+      "voiceActors": [
+        {
+          "id": 95061,
+          "language": "Japanese",
+          "name": {
+            "first": "Chiwa",
+            "last": "Saitou",
+            "full": "Chiwa Saitou",
+            "native": "斎藤千和",
+            "userPreferred": "Chiwa Saitou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95061-R8YSAYX7UFCO.png"
+        }
+      ]
+    },
+    {
+      "id": 28202,
+      "role": "MAIN",
+      "name": {
+        "first": "Hodr",
+        "last": null,
+        "full": "Hodr",
+        "native": "ホズル",
+        "userPreferred": "Hodr"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28202.jpg",
+      "voiceActors": [
+        {
+          "id": 95513,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuichi",
+            "last": "Nakamura",
+            "full": "Yuuichi Nakamura",
+            "native": "中村悠一",
+            "userPreferred": "Yuuichi Nakamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95513-up9ZDuocHgRs.png"
+        }
+      ]
+    },
+    {
+      "id": 28203,
+      "role": "MAIN",
+      "name": {
+        "first": "Zess",
+        "last": null,
+        "full": "Zess",
+        "native": "ゼス",
+        "userPreferred": "Zess"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28203.jpg",
+      "voiceActors": [
+        {
+          "id": 95118,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Kamiya",
+            "full": "Hiroshi Kamiya",
+            "native": "神谷浩史",
+            "userPreferred": "Hiroshi Kamiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95118-oOElrn1aSaiC.png"
+        }
+      ]
+    },
+    {
+      "id": 30141,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "True",
+        "last": null,
+        "full": "True",
+        "native": "トゥル",
+        "userPreferred": "True"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/30141.jpg",
+      "voiceActors": [
+        {
+          "id": 95481,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenichi",
+            "last": "Ogata",
+            "full": "Kenichi Ogata",
+            "native": "緒方賢一",
+            "userPreferred": "Kenichi Ogata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95481-1dPQbwMpvjul.png"
+        }
+      ]
+    },
+    {
+      "id": 32740,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Borcuse",
+        "last": null,
+        "full": "Borcuse",
+        "native": "ボルキュス",
+        "userPreferred": "Borcuse"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32740.jpg",
+      "voiceActors": [
+        {
+          "id": 95123,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuya",
+            "last": "Nakai",
+            "full": "Kazuya Nakai",
+            "native": "中井和哉",
+            "userPreferred": "Kazuya Nakai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95123-qdVFNraYmQ5K.png"
+        }
+      ]
+    },
+    {
+      "id": 35097,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Io",
+        "last": null,
+        "full": "Io",
+        "native": "イオ",
+        "userPreferred": "Io"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/35097.jpg",
+      "voiceActors": [
+        {
+          "id": 95494,
+          "language": "Japanese",
+          "name": {
+            "first": "Takuma",
+            "last": "Terashima",
+            "full": "Takuma Terashima",
+            "native": "寺島拓篤",
+            "userPreferred": "Takuma Terashima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95494-HetCpJKbDy1B.png"
+        }
+      ]
+    },
+    {
+      "id": 32827,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Regarz",
+        "last": "Arrow",
+        "full": "Regarz Arrow",
+        "native": "レガッツ・アロー",
+        "userPreferred": "Regarz Arrow"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32827.jpg",
+      "voiceActors": [
+        {
+          "id": 95077,
+          "language": "Japanese",
+          "name": {
+            "first": "Masumi",
+            "last": "Asano",
+            "full": "Masumi Asano",
+            "native": "浅野真澄",
+            "userPreferred": "Masumi Asano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95077-d2OK4xiiRWAu.png"
+        }
+      ]
+    },
+    {
+      "id": 31650,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sakura",
+        "last": null,
+        "full": "Sakura",
+        "native": "サクラ",
+        "userPreferred": "Sakura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/31650.jpg",
+      "voiceActors": [
+        {
+          "id": 95554,
+          "language": "Japanese",
+          "name": {
+            "first": "Nanaho",
+            "last": "Katsuragi",
+            "full": "Nanaho Katsuragi",
+            "native": "葛城七穂",
+            "userPreferred": "Nanaho Katsuragi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/554.jpg"
+        }
+      ]
+    },
+    {
+      "id": 40193,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Loquis",
+        "last": null,
+        "full": "Loquis",
+        "native": "ロキス",
+        "userPreferred": "Loquis"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/40193.jpg",
+      "voiceActors": [
+        {
+          "id": 100427,
+          "language": "Japanese",
+          "name": {
+            "first": "Takaya",
+            "last": "Hashi",
+            "full": "Takaya Hashi",
+            "native": "土師孝也",
+            "userPreferred": "Takaya Hashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100427-rXj5mx6gGNfH.png"
+        }
+      ]
+    },
+    {
+      "id": 31652,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Argath",
+        "last": null,
+        "full": "Argath",
+        "native": "アルガス",
+        "userPreferred": "Argath"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/31652.jpg",
+      "voiceActors": [
+        {
+          "id": 96030,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenji",
+            "last": "Takahashi",
+            "full": "Kenji Takahashi",
+            "native": "高橋研二",
+            "userPreferred": "Kenji Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96030-1lePCWAH7pfP.jpg"
+        }
+      ]
+    },
+    {
+      "id": 45385,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Elsa",
+        "last": null,
+        "full": "Elsa",
+        "native": "エルザ",
+        "userPreferred": "Elsa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/45385.jpg",
+      "voiceActors": [
+        {
+          "id": 101612,
+          "language": "Japanese",
+          "name": {
+            "first": "Mayumi",
+            "last": "Yanagisawa",
+            "full": "Mayumi Yanagisawa",
+            "native": "真由美 柳沢 ",
+            "userPreferred": "Mayumi Yanagisawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6612.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29513,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Narvi",
+        "last": "Stryze",
+        "full": "Narvi Stryze",
+        "native": "ナルヴィ・ストライズ",
+        "userPreferred": "Narvi Stryze"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29513.jpg",
+      "voiceActors": [
+        {
+          "id": 95158,
+          "language": "Japanese",
+          "name": {
+            "first": "Marina",
+            "last": "Inoue",
+            "full": "Marina Inoue",
+            "native": "井上麻里奈",
+            "userPreferred": "Marina Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95158-OLhgs8zv5xsp.jpg"
+        }
+      ]
+    },
+    {
+      "id": 31651,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Elekt",
+        "last": null,
+        "full": "Elekt",
+        "native": "エレクト",
+        "userPreferred": "Elekt"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/31651.jpg",
+      "voiceActors": [
+        {
+          "id": 101602,
+          "language": "Japanese",
+          "name": {
+            "first": "Hideyuki",
+            "last": "Umezu",
+            "full": "Hideyuki Umezu",
+            "native": "梅津秀行",
+            "userPreferred": "Hideyuki Umezu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101602-wUvWtCkvNGNB.jpg"
+        }
+      ]
+    },
+    {
+      "id": 35095,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nike",
+        "last": null,
+        "full": "Nike",
+        "native": null,
+        "userPreferred": "Nike"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/35095.jpg",
+      "voiceActors": [
+        {
+          "id": 95348,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouko",
+            "last": "Shiraishi",
+            "full": "Ryouko Shiraishi",
+            "native": "白石涼子",
+            "userPreferred": "Ryouko Shiraishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95348-sLIy7IMrgZeA.png"
+        }
+      ]
+    },
+    {
+      "id": 29447,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Cleo",
+        "last": "Zaubraff",
+        "full": "Cleo Zaubraff",
+        "native": "クレオ・サーブラフ",
+        "userPreferred": "Cleo Zaubraff"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29447.jpg",
+      "voiceActors": [
+        {
+          "id": 95185,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Hanazawa",
+            "full": "Kana Hanazawa",
+            "native": "花澤香菜",
+            "userPreferred": "Kana Hanazawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95185-vZ6nmfBKQgw1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 31649,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Logen",
+        "last": "G. Garf Ensance",
+        "full": "Logen G. Garf Ensance",
+        "native": "ロギン・ジー・ガルフ・エンサンス",
+        "userPreferred": "Logen G. Garf Ensance"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/31649.jpg",
+      "voiceActors": [
+        {
+          "id": 106635,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoya",
+            "last": "Kawai",
+            "full": "Tomoya Kawai",
+            "native": "河相智哉",
+            "userPreferred": "Tomoya Kawai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/11635.jpg"
+        }
+      ]
+    },
+    {
+      "id": 43204,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bades",
+        "last": null,
+        "full": "Bades",
+        "native": "バデス",
+        "userPreferred": "Bades"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43204.jpg",
+      "voiceActors": [
+        {
+          "id": 107572,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuyoshi",
+            "last": "Hayashi",
+            "full": "Kazuyoshi Hayashi",
+            "native": "林和良",
+            "userPreferred": "Kazuyoshi Hayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12572.jpg"
+        }
+      ]
+    },
+    {
+      "id": 31648,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nile",
+        "last": "Stryze",
+        "full": "Nile Stryze",
+        "native": "ナイル・ストライズ",
+        "userPreferred": "Nile Stryze"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/31648.jpg",
+      "voiceActors": [
+        {
+          "id": 95261,
+          "language": "Japanese",
+          "name": {
+            "first": "Minoru",
+            "last": "Shiraishi",
+            "full": "Minoru Shiraishi",
+            "native": "白石稔",
+            "userPreferred": "Minoru Shiraishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95261-nWwWGChb84Yo.png"
+        }
+      ]
+    },
+    {
+      "id": 30140,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Baldr",
+        "last": null,
+        "full": "Baldr",
+        "native": "バルド",
+        "userPreferred": "Baldr"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/30140.jpg",
+      "voiceActors": [
+        {
+          "id": 101380,
+          "language": "Japanese",
+          "name": {
+            "first": "Masashi",
+            "last": "Sugawara",
+            "full": "Masashi Sugawara",
+            "native": "菅原正志",
+            "userPreferred": "Masashi Sugawara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101380-P0sxcizKReoe.jpg"
+        }
+      ]
+    },
+    {
+      "id": 43195,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Leto",
+        "last": null,
+        "full": "Leto",
+        "native": "レト",
+        "userPreferred": "Leto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/43195.jpg",
+      "voiceActors": [
+        {
+          "id": 95413,
+          "language": "Japanese",
+          "name": {
+            "first": "Eri",
+            "last": "Kitamura",
+            "full": "Eri Kitamura",
+            "native": "喜多村英梨",
+            "userPreferred": "Eri Kitamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95413-FwAIrc8Ishpt.png"
+        }
+      ]
+    },
+    {
+      "id": 31632,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lee",
+        "last": null,
+        "full": "Lee",
+        "native": "リィ",
+        "userPreferred": "Lee"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/31632.jpg",
+      "voiceActors": [
+        {
+          "id": 95428,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Kaida",
+            "full": "Yuuko Kaida",
+            "native": "甲斐田裕子",
+            "userPreferred": "Yuuko Kaida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95428-1e4kSvr5fkmQ.png"
+        }
+      ]
+    },
+    {
+      "id": 31653,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Girge",
+        "last": null,
+        "full": "Girge",
+        "native": "ジルグ",
+        "userPreferred": "Girge"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/31653.jpg",
+      "voiceActors": [
+        {
+          "id": 95097,
+          "language": "Japanese",
+          "name": {
+            "first": "Kousuke",
+            "last": "Toriumi",
+            "full": "Kousuke Toriumi",
+            "native": "鳥海浩輔",
+            "userPreferred": "Kousuke Toriumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95097-BhSegy6KBLbE.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 34608,
+      "relationType": "ADAPTATION",
+      "malId": 4608,
+      "title": {
+        "romaji": "Break Blade",
+        "english": "Broken Blade",
+        "native": "ブレイクブレイド",
+        "userPreferred": "Break Blade"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx34608-hCb6DaK2EqWE.png",
+      "color": "#e4d66b",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/34608-S80YpHs5XCrj.jpg",
+      "rating": 73
+    },
+    {
+      "id": 6772,
+      "relationType": "ALTERNATIVE",
+      "malId": 6772,
+      "title": {
+        "romaji": "Break Blade 1: Kakusei no Toki",
+        "english": "Broken Blade",
+        "native": "ブレイク ブレイド 覚醒ノ刻",
+        "userPreferred": "Break Blade 1: Kakusei no Toki"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6772.jpg",
+      "color": "#5093e4",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6772.jpg",
+      "rating": 72
+    },
+    {
+      "id": 8514,
+      "relationType": "ALTERNATIVE",
+      "malId": 8514,
+      "title": {
+        "romaji": "Break Blade 2: Ketsubetsu no Michi",
+        "english": "Broken Blade 2",
+        "native": "ブレイクブレイド 訣別ノ路",
+        "userPreferred": "Break Blade 2: Ketsubetsu no Michi"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8514.jpg",
+      "color": "#5daed6",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8514.jpg",
+      "rating": 73
+    },
+    {
+      "id": 9252,
+      "relationType": "ALTERNATIVE",
+      "malId": 9252,
+      "title": {
+        "romaji": "Break Blade 3: Kyoujin no Ato",
+        "english": "Broken Blade 3",
+        "native": "ブレイク ブレイド 第三章 凶刃ノ痕",
+        "userPreferred": "Break Blade 3: Kyoujin no Ato"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9252.jpg",
+      "color": "#5dbbf1",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9252.jpg",
+      "rating": 74
+    },
+    {
+      "id": 9465,
+      "relationType": "ALTERNATIVE",
+      "malId": 9465,
+      "title": {
+        "romaji": "Break Blade 4: Sanka no Chi",
+        "english": "Broken Blade 4",
+        "native": "ブレイク ブレイド 第四章 惨禍ノ地",
+        "userPreferred": "Break Blade 4: Sanka no Chi"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9465.jpg",
+      "color": "#0d5093",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9465.jpg",
+      "rating": 75
+    },
+    {
+      "id": 9724,
+      "relationType": "ALTERNATIVE",
+      "malId": 9724,
+      "title": {
+        "romaji": "Break Blade 5: Shisen no Hate",
+        "english": "Broken Blade 5",
+        "native": "ブレイク ブレイド 死線ノ涯",
+        "userPreferred": "Break Blade 5: Shisen no Hate"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9724.jpg",
+      "color": "#50a1e4",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9724.jpg",
+      "rating": 74
+    },
+    {
+      "id": 10092,
+      "relationType": "ALTERNATIVE",
+      "malId": 10092,
+      "title": {
+        "romaji": "Break Blade 6: Doukoku no Toride",
+        "english": "Broken Blade 6",
+        "native": "ブレイク ブレイド 第六章 慟哭ノ砦",
+        "userPreferred": "Break Blade 6: Doukoku no Toride"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10092.jpg",
+      "color": "#f1c993",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10092.jpg",
+      "rating": 73
+    }
+  ],
+  "episodes": [
+    {
+      "id": "break-blade-episode-1",
+      "title": "Un Sorcerer",
+      "image": "https://media.kitsu.io/episodes/thumbnails/114485/original.jpg",
+      "number": 1,
+      "createdAt": "2014-04-06T04:09:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//break-blade-episode-1"
+    },
+    {
+      "id": "break-blade-episode-2",
+      "title": "Under Golem",
+      "image": "https://media.kitsu.io/episodes/thumbnails/114486/original.jpg",
+      "number": 2,
+      "createdAt": "2014-04-06T04:09:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//break-blade-episode-2"
+    },
+    {
+      "id": "break-blade-episode-3",
+      "title": "Not Bad",
+      "image": "https://media.kitsu.io/episodes/thumbnails/114487/original.jpg",
+      "number": 3,
+      "createdAt": "2014-04-06T04:09:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//break-blade-episode-3"
+    },
+    {
+      "id": "break-blade-episode-4",
+      "title": "Cross Combat",
+      "image": "https://media.kitsu.io/episodes/thumbnails/114488/original.jpg",
+      "number": 4,
+      "createdAt": "2014-04-06T04:09:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//break-blade-episode-4"
+    },
+    {
+      "id": "break-blade-episode-5",
+      "title": "Counter Attack",
+      "image": "https://media.kitsu.io/episodes/thumbnails/114489/original.jpg",
+      "number": 5,
+      "createdAt": "2014-04-06T04:09:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//break-blade-episode-5"
+    },
+    {
+      "id": "break-blade-episode-6",
+      "title": "World Wind",
+      "image": "https://media.kitsu.io/episodes/thumbnails/114490/original.jpg",
+      "number": 6,
+      "createdAt": "2014-04-06T04:09:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//break-blade-episode-6"
+    }
+  ]
+}

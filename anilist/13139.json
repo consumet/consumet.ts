@@ -1,0 +1,778 @@
+{
+  "id": "13139",
+  "title": {
+    "romaji": "Gakkatsu!",
+    "english": null,
+    "native": "ガッ活!"
+  },
+  "malId": 13139,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13139.jpg",
+  "popularity": 1535,
+  "color": "#e4a150",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13139.jpg",
+  "description": "In a fictional school, \"Tender Tank\" Rareko is constantly opening absurd yet strangely enthusiastic debates, this way creating a lively classroom life. Bringing up tremendous themes, she and her classmates exchange words like sword-strokes, and here and there even a profound remark is slipped in. <br><br>\nA fun and informative debate comedy, packed into only five minutes each time. <br><br>\n(Source: AniDB) ",
+  "status": "Completed",
+  "releaseDate": 2012,
+  "startDate": {
+    "year": 2012,
+    "month": 4,
+    "day": 3
+  },
+  "endDate": {
+    "year": 2012,
+    "month": 9,
+    "day": 18
+  },
+  "totalEpisodes": 25,
+  "currentEpisode": 25,
+  "rating": 57,
+  "duration": 5,
+  "genres": [
+    "Comedy"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "NHK"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 10338,
+      "malId": 10338,
+      "title": {
+        "romaji": "Honto ni Atta! Reibai Sensei",
+        "english": null,
+        "native": "ほんとにあった! 霊媒先生",
+        "userPreferred": "Honto ni Atta! Reibai Sensei"
+      },
+      "status": "Completed",
+      "episodes": 22,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10338-03iQKCbdWpGO.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10338-03iQKCbdWpGO.png",
+      "rating": 58,
+      "type": "TV_SHORT"
+    }
+  ],
+  "characters": [
+    {
+      "id": 60471,
+      "role": "MAIN",
+      "name": {
+        "first": "Chiho",
+        "last": "Takachiho",
+        "full": "Chiho Takachiho",
+        "native": "高千穂 ちほ",
+        "userPreferred": "Chiho Takachiho"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/60471.jpg",
+      "voiceActors": [
+        {
+          "id": 101056,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyuki",
+            "last": "Kawasho",
+            "full": "Miyuki Kawasho",
+            "native": "川庄美雪",
+            "userPreferred": "Miyuki Kawasho"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6056.jpg"
+        }
+      ]
+    },
+    {
+      "id": 60839,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Inaba",
+        "last": null,
+        "full": "Inaba",
+        "native": "イナバ",
+        "userPreferred": "Inaba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/60839.jpg",
+      "voiceActors": [
+        {
+          "id": 109161,
+          "language": "Japanese",
+          "name": {
+            "first": "Haruka",
+            "last": "Terui",
+            "full": "Haruka Terui",
+            "native": "照井春佳",
+            "userPreferred": "Haruka Terui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109161-vJHWg4PyYW0a.png"
+        }
+      ]
+    },
+    {
+      "id": 77853,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Abe",
+        "last": null,
+        "full": "Abe",
+        "native": "安倍",
+        "userPreferred": "Abe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/77853.jpg",
+      "voiceActors": [
+        {
+          "id": 111895,
+          "language": "Japanese",
+          "name": {
+            "first": "Ami",
+            "last": "Naga",
+            "full": "Ami Naga",
+            "native": "名賀亜美",
+            "userPreferred": "Ami Naga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n111895-POpS3Hoeolye.jpg"
+        }
+      ]
+    },
+    {
+      "id": 61083,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Miyamoto",
+        "last": null,
+        "full": "Miyamoto",
+        "native": "宮本",
+        "userPreferred": "Miyamoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/61083.jpg",
+      "voiceActors": [
+        {
+          "id": 107939,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouta",
+            "last": "Fukihara",
+            "full": "Kouta Fukihara",
+            "native": "吹原幸太",
+            "userPreferred": "Kouta Fukihara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12939.jpg"
+        }
+      ]
+    },
+    {
+      "id": 61087,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kimoto",
+        "last": null,
+        "full": "Kimoto",
+        "native": "木元",
+        "userPreferred": "Kimoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/61087.jpg",
+      "voiceActors": [
+        {
+          "id": 109161,
+          "language": "Japanese",
+          "name": {
+            "first": "Haruka",
+            "last": "Terui",
+            "full": "Haruka Terui",
+            "native": "照井春佳",
+            "userPreferred": "Haruka Terui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109161-vJHWg4PyYW0a.png"
+        }
+      ]
+    },
+    {
+      "id": 60841,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ngvangida",
+        "last": null,
+        "full": "Ngvangida",
+        "native": "ンヴァンギダ",
+        "userPreferred": "Ngvangida"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/60841.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 60835,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kuroda",
+        "last": null,
+        "full": "Kuroda",
+        "native": "黒田",
+        "userPreferred": "Kuroda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/60835.jpg",
+      "voiceActors": [
+        {
+          "id": 108807,
+          "language": "Japanese",
+          "name": {
+            "first": "Souta",
+            "last": "Arai",
+            "full": "Souta Arai",
+            "native": "荒井聡太",
+            "userPreferred": "Souta Arai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/13807.jpg"
+        }
+      ]
+    },
+    {
+      "id": 77857,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Saionji",
+        "last": null,
+        "full": "Saionji",
+        "native": "西園寺先生",
+        "userPreferred": "Saionji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/77857.jpg",
+      "voiceActors": [
+        {
+          "id": 109161,
+          "language": "Japanese",
+          "name": {
+            "first": "Haruka",
+            "last": "Terui",
+            "full": "Haruka Terui",
+            "native": "照井春佳",
+            "userPreferred": "Haruka Terui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109161-vJHWg4PyYW0a.png"
+        }
+      ]
+    },
+    {
+      "id": 61085,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sakurada",
+        "last": null,
+        "full": "Sakurada",
+        "native": "桜田",
+        "userPreferred": "Sakurada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/61085.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 62783,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Announcer",
+        "last": null,
+        "full": "Announcer",
+        "native": "アナウンサー",
+        "userPreferred": "Announcer"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/62783.jpg",
+      "voiceActors": [
+        {
+          "id": 108807,
+          "language": "Japanese",
+          "name": {
+            "first": "Souta",
+            "last": "Arai",
+            "full": "Souta Arai",
+            "native": "荒井聡太",
+            "userPreferred": "Souta Arai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/13807.jpg"
+        }
+      ]
+    },
+    {
+      "id": 62663,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sensei",
+        "last": null,
+        "full": "Sensei",
+        "native": "先生",
+        "userPreferred": "Sensei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/62663.jpg",
+      "voiceActors": [
+        {
+          "id": 111895,
+          "language": "Japanese",
+          "name": {
+            "first": "Ami",
+            "last": "Naga",
+            "full": "Ami Naga",
+            "native": "名賀亜美",
+            "userPreferred": "Ami Naga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n111895-POpS3Hoeolye.jpg"
+        }
+      ]
+    },
+    {
+      "id": 63751,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tanaka",
+        "last": null,
+        "full": "Tanaka",
+        "native": "田中",
+        "userPreferred": "Tanaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/63751.jpg",
+      "voiceActors": [
+        {
+          "id": 108807,
+          "language": "Japanese",
+          "name": {
+            "first": "Souta",
+            "last": "Arai",
+            "full": "Souta Arai",
+            "native": "荒井聡太",
+            "userPreferred": "Souta Arai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/13807.jpg"
+        }
+      ]
+    },
+    {
+      "id": 63753,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tsukahara",
+        "last": null,
+        "full": "Tsukahara",
+        "native": "塚原",
+        "userPreferred": "Tsukahara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/63753.jpg",
+      "voiceActors": [
+        {
+          "id": 111895,
+          "language": "Japanese",
+          "name": {
+            "first": "Ami",
+            "last": "Naga",
+            "full": "Ami Naga",
+            "native": "名賀亜美",
+            "userPreferred": "Ami Naga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n111895-POpS3Hoeolye.jpg"
+        }
+      ]
+    },
+    {
+      "id": 77855,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hokura",
+        "last": null,
+        "full": "Hokura",
+        "native": "保倉",
+        "userPreferred": "Hokura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/77855.jpg",
+      "voiceActors": [
+        {
+          "id": 108807,
+          "language": "Japanese",
+          "name": {
+            "first": "Souta",
+            "last": "Arai",
+            "full": "Souta Arai",
+            "native": "荒井聡太",
+            "userPreferred": "Souta Arai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/13807.jpg"
+        }
+      ]
+    },
+    {
+      "id": 63755,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kuriyama",
+        "last": null,
+        "full": "Kuriyama",
+        "native": "栗山",
+        "userPreferred": "Kuriyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/63755.jpg",
+      "voiceActors": [
+        {
+          "id": 111895,
+          "language": "Japanese",
+          "name": {
+            "first": "Ami",
+            "last": "Naga",
+            "full": "Ami Naga",
+            "native": "名賀亜美",
+            "userPreferred": "Ami Naga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n111895-POpS3Hoeolye.jpg"
+        }
+      ]
+    },
+    {
+      "id": 60837,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hiroshi",
+        "last": null,
+        "full": "Hiroshi",
+        "native": "ヒロシ",
+        "userPreferred": "Hiroshi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/60837.jpg",
+      "voiceActors": [
+        {
+          "id": 109155,
+          "language": "Japanese",
+          "name": {
+            "first": "Youhei",
+            "last": "Azakami",
+            "full": "Youhei Azakami",
+            "native": "阿座上洋平",
+            "userPreferred": "Youhei Azakami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109155-kQHazg0bG4Pv.png"
+        }
+      ]
+    },
+    {
+      "id": 67275,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Alpako",
+        "last": null,
+        "full": "Alpako",
+        "native": "アルパ子",
+        "userPreferred": "Alpako"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/67275.jpg",
+      "voiceActors": [
+        {
+          "id": 111895,
+          "language": "Japanese",
+          "name": {
+            "first": "Ami",
+            "last": "Naga",
+            "full": "Ami Naga",
+            "native": "名賀亜美",
+            "userPreferred": "Ami Naga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n111895-POpS3Hoeolye.jpg"
+        }
+      ]
+    },
+    {
+      "id": 77851,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Charaotoko",
+        "last": null,
+        "full": "Charaotoko",
+        "native": "チャラ男",
+        "userPreferred": "Charaotoko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/77851.jpg",
+      "voiceActors": [
+        {
+          "id": 109155,
+          "language": "Japanese",
+          "name": {
+            "first": "Youhei",
+            "last": "Azakami",
+            "full": "Youhei Azakami",
+            "native": "阿座上洋平",
+            "userPreferred": "Youhei Azakami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109155-kQHazg0bG4Pv.png"
+        }
+      ]
+    },
+    {
+      "id": 77849,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Saeki",
+        "last": null,
+        "full": "Saeki",
+        "native": "佐伯",
+        "userPreferred": "Saeki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/77849.jpg",
+      "voiceActors": [
+        {
+          "id": 111895,
+          "language": "Japanese",
+          "name": {
+            "first": "Ami",
+            "last": "Naga",
+            "full": "Ami Naga",
+            "native": "名賀亜美",
+            "userPreferred": "Ami Naga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n111895-POpS3Hoeolye.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 17147,
+      "relationType": "SEQUEL",
+      "malId": 17147,
+      "title": {
+        "romaji": "Gakkatsu! 2nd Season",
+        "english": null,
+        "native": "ガッ活！ 第2シーズン",
+        "userPreferred": "Gakkatsu! 2nd Season"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/17147.jpg",
+      "color": null,
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/17147.jpg",
+      "rating": 58
+    }
+  ],
+  "episodes": [
+    {
+      "id": "gakkatsu-episode-1",
+      "title": "What Is That Bump?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13139.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:29:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gakkatsu-episode-1"
+    },
+    {
+      "id": "gakkatsu-episode-2",
+      "title": "Why Can't You Do Your Business in School?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13139.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:29:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gakkatsu-episode-2"
+    },
+    {
+      "id": "gakkatsu-episode-3",
+      "title": "Why Are Aliens Coming to Earth?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13139.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:29:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gakkatsu-episode-3"
+    },
+    {
+      "id": "gakkatsu-episode-4",
+      "title": "What Do You Call Your Mother?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13139.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:29:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gakkatsu-episode-4"
+    },
+    {
+      "id": "gakkatsu-episode-5",
+      "title": "I Have a Sad Announcement to Make Today",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13139.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:29:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gakkatsu-episode-5"
+    },
+    {
+      "id": "gakkatsu-episode-6",
+      "title": "What Did You Write for Your Future Dreams?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13139.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:29:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gakkatsu-episode-6"
+    },
+    {
+      "id": "gakkatsu-episode-7",
+      "title": "Something Happened to the Class Rep",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13139.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:29:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gakkatsu-episode-7"
+    },
+    {
+      "id": "gakkatsu-episode-8",
+      "title": "What Does It Mean to Be an Adult?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13139.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:29:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gakkatsu-episode-8"
+    },
+    {
+      "id": "gakkatsu-episode-9",
+      "title": "What Should Our Next Class Pet Be?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13139.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:29:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gakkatsu-episode-9"
+    },
+    {
+      "id": "gakkatsu-episode-10",
+      "title": "Do You Bring Your Umbrellas When There's a 20% Chance of Rain?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13139.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:29:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gakkatsu-episode-10"
+    },
+    {
+      "id": "gakkatsu-episode-11",
+      "title": "Why Do Mothers Come Into Our Rooms at the Worst Times?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13139.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:29:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gakkatsu-episode-11"
+    },
+    {
+      "id": "gakkatsu-episode-12",
+      "title": "It Appears That Sakurda-kun Needs Our Help Today",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13139.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:29:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gakkatsu-episode-12"
+    },
+    {
+      "id": "gakkatsu-episode-13",
+      "title": "About Today's Tyrannosaurus Rex",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13139.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:29:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gakkatsu-episode-13"
+    },
+    {
+      "id": "gakkatsu-episode-14",
+      "title": "Kuroda-kun Needs to Stop Stalling at the Ticket Gate",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13139.jpg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:29:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gakkatsu-episode-14"
+    },
+    {
+      "id": "gakkatsu-episode-15",
+      "title": "Let's Call Each Other By Our Nicknames!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13139.jpg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:29:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gakkatsu-episode-15"
+    },
+    {
+      "id": "gakkatsu-episode-16",
+      "title": "Do You Believe in Ghosts?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13139.jpg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:29:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gakkatsu-episode-16"
+    },
+    {
+      "id": "gakkatsu-episode-17",
+      "title": "Why Do Dogs Come into the Classroom Even If We Don't Call for Them?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13139.jpg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:29:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gakkatsu-episode-17"
+    },
+    {
+      "id": "gakkatsu-episode-18",
+      "title": "Why Summer is So Hot",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13139.jpg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:29:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gakkatsu-episode-18"
+    },
+    {
+      "id": "gakkatsu-episode-19",
+      "title": "What to Do With the Last Piece",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13139.jpg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:29:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gakkatsu-episode-19"
+    },
+    {
+      "id": "gakkatsu-episode-20",
+      "title": "How to Make Sweet-and-Sour Pork Delicious",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13139.jpg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:29:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gakkatsu-episode-20"
+    },
+    {
+      "id": "gakkatsu-episode-21",
+      "title": "There Is Someone in this Class Who's Always Tardy",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13139.jpg",
+      "number": 21,
+      "createdAt": "2013-02-20T18:29:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gakkatsu-episode-21"
+    },
+    {
+      "id": "gakkatsu-episode-22",
+      "title": "I Don't Give Up My Seat to the Elderly",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13139.jpg",
+      "number": 22,
+      "createdAt": "2013-02-20T18:29:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gakkatsu-episode-22"
+    },
+    {
+      "id": "gakkatsu-episode-23",
+      "title": "I Want to Get Rid of the Mole",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13139.jpg",
+      "number": 23,
+      "createdAt": "2013-02-20T18:29:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gakkatsu-episode-23"
+    },
+    {
+      "id": "gakkatsu-episode-24",
+      "title": "Regarding Willpower",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13139.jpg",
+      "number": 24,
+      "createdAt": "2013-02-20T18:29:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gakkatsu-episode-24"
+    },
+    {
+      "id": "gakkatsu-episode-25",
+      "title": "Independent Study",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13139.jpg",
+      "number": 25,
+      "createdAt": "2013-02-20T18:29:29Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gakkatsu-episode-25"
+    }
+  ]
+}

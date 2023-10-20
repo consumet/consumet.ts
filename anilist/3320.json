@@ -1,0 +1,396 @@
+{
+  "id": "3320",
+  "title": {
+    "romaji": "Harbor Light Monogatari: Fashion Lala yori",
+    "english": null,
+    "native": "ハーバーライト物語 ファッションララより"
+  },
+  "malId": 3320,
+  "synonyms": [
+    "Fashion Lala: The Story of the Harbor Light",
+    "Fancy Lala OVA"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3320-SFYAerxinGzK.png",
+  "popularity": 832,
+  "color": "#285d86",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3320-SFYAerxinGzK.png",
+  "description": "A Cinderella story of sorts, Fashion Lala stars a little girl named Miho who doesn't get along with her family. Miho loves to design clothing, but her aunt and three cousins don't believe that such a young girl is capable and mock her designs. Meanwhile, a contest for the new \"Disco Queen\" is coming up, and Miho wants nothing more than to be able to design a dress for someone to wear to the competition, since she's too young to enter herself. With determination and a little bit of magic, Miho's dreams just might come true!",
+  "status": "Completed",
+  "releaseDate": 1988,
+  "startDate": {
+    "year": 1988,
+    "month": 3,
+    "day": 11
+  },
+  "endDate": {
+    "year": 1988,
+    "month": 3,
+    "day": 11
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 47,
+  "duration": 48,
+  "genres": [
+    "Mahou Shoujo"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Studio Pierrot"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 4908,
+      "malId": 4908,
+      "title": {
+        "romaji": "Bihada Ichizoku",
+        "english": null,
+        "native": "美肌一族",
+        "userPreferred": "Bihada Ichizoku"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4908-UDoy8eGoUsCE.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4908-UDoy8eGoUsCE.png",
+      "rating": 52,
+      "type": "TV_SHORT"
+    }
+  ],
+  "characters": [
+    {
+      "id": 302453,
+      "role": "MAIN",
+      "name": {
+        "first": "Kid",
+        "last": null,
+        "full": "Kid",
+        "native": "キッド",
+        "userPreferred": "Kid"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b302453-9zwIZhiMYKiG.png",
+      "voiceActors": [
+        {
+          "id": 95021,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuhiko",
+            "last": "Inoue",
+            "full": "Kazuhiko Inoue",
+            "native": "井上和彦",
+            "userPreferred": "Kazuhiko Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95021-9qAoAn6GNZ3S.png"
+        }
+      ]
+    },
+    {
+      "id": 27346,
+      "role": "MAIN",
+      "name": {
+        "first": "Miho",
+        "last": null,
+        "full": "Miho",
+        "native": "ミホ／ファッションララ",
+        "userPreferred": "Miho"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b27346-IQLCLcBdip8K.png",
+      "voiceActors": [
+        {
+          "id": 96446,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuriko",
+            "last": "Yamamoto",
+            "full": "Yuriko Yamamoto",
+            "native": "山本百合子",
+            "userPreferred": "Yuriko Yamamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96446-RvbWlszQjfYu.png"
+        }
+      ]
+    },
+    {
+      "id": 27348,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mayor",
+        "last": null,
+        "full": "Mayor",
+        "native": null,
+        "userPreferred": "Mayor"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b27348-smlyZP3uWECV.png",
+      "voiceActors": [
+        {
+          "id": 95018,
+          "language": "Japanese",
+          "name": {
+            "first": "Hidekatsu",
+            "last": "Shibata",
+            "full": "Hidekatsu Shibata",
+            "native": "柴田秀勝",
+            "userPreferred": "Hidekatsu Shibata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95018-HXJMMED74SVO.png"
+        }
+      ]
+    },
+    {
+      "id": 27349,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Aunt",
+        "last": null,
+        "full": "Aunt",
+        "native": null,
+        "userPreferred": "Aunt"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b27349-NKHD7bO6FcyY.png",
+      "voiceActors": [
+        {
+          "id": 95497,
+          "language": "Japanese",
+          "name": {
+            "first": "Gara",
+            "last": "Takashima",
+            "full": "Gara Takashima",
+            "native": "高島雅羅",
+            "userPreferred": "Gara Takashima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95497-ZisMmeLQfZr7.png"
+        }
+      ]
+    },
+    {
+      "id": 302454,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shoujo",
+        "last": null,
+        "full": "Shoujo",
+        "native": "少女",
+        "userPreferred": "Shoujo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 295500,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Nagahata",
+            "full": "Yumi Nagahata",
+            "native": "長畑由美",
+            "userPreferred": "Yumi Nagahata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n295500-m1ekTFXvwMM3.png"
+        }
+      ]
+    },
+    {
+      "id": 27347,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shuri",
+        "last": null,
+        "full": "Shuri",
+        "native": "シュリ",
+        "userPreferred": "Shuri"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b27347-mEK2JiMhsqul.png",
+      "voiceActors": [
+        {
+          "id": 96407,
+          "language": "Japanese",
+          "name": {
+            "first": "Eriko",
+            "last": "Hara",
+            "full": "Eriko Hara",
+            "native": "原えりこ",
+            "userPreferred": "Eriko Hara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96407-zvQ89WIomdL4.png"
+        }
+      ]
+    },
+    {
+      "id": 302455,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shounen",
+        "last": null,
+        "full": "Shounen",
+        "native": "少年",
+        "userPreferred": "Shounen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95134,
+          "language": "Japanese",
+          "name": {
+            "first": "Takeshi",
+            "last": "Kusao",
+            "full": "Takeshi Kusao",
+            "native": "草尾毅",
+            "userPreferred": "Takeshi Kusao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95134-OZzRIDS8eAUd.png"
+        }
+      ]
+    },
+    {
+      "id": 44028,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mogu",
+        "last": null,
+        "full": "Mogu",
+        "native": "モグ",
+        "userPreferred": "Mogu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n44028-getwgEldzg3z.jpg",
+      "voiceActors": [
+        {
+          "id": 104156,
+          "language": "Japanese",
+          "name": {
+            "first": "",
+            "last": "Chiko",
+            "full": "Chiko",
+            "native": "ちこ ",
+            "userPreferred": "Chiko"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9156.jpg"
+        }
+      ]
+    },
+    {
+      "id": 44029,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Pigu",
+        "last": null,
+        "full": "Pigu",
+        "native": "ピグ",
+        "userPreferred": "Pigu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/44029-l5s5ttQ5mhU1.png",
+      "voiceActors": [
+        {
+          "id": 95288,
+          "language": "Japanese",
+          "name": {
+            "first": "Sanae",
+            "last": "Miyuki",
+            "full": "Sanae Miyuki",
+            "native": "深雪さなえ",
+            "userPreferred": "Sanae Miyuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95288-TdNgN8EdRH6V.png"
+        }
+      ]
+    },
+    {
+      "id": 302451,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Erina",
+        "last": null,
+        "full": "Erina",
+        "native": "エリナ",
+        "userPreferred": "Erina"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b302451-vY8wNeYUhbAd.png",
+      "voiceActors": [
+        {
+          "id": 95516,
+          "language": "Japanese",
+          "name": {
+            "first": "Naoko",
+            "last": "Matsui",
+            "full": "Naoko Matsui",
+            "native": "松井菜桜子",
+            "userPreferred": "Naoko Matsui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95516-N94jWbOCyDd7.jpg"
+        }
+      ]
+    },
+    {
+      "id": 302452,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Marie",
+        "last": null,
+        "full": "Marie",
+        "native": "マリエ",
+        "userPreferred": "Marie"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b302452-FBQJz7nm6ZfC.png",
+      "voiceActors": [
+        {
+          "id": 100396,
+          "language": "Japanese",
+          "name": {
+            "first": "Manami",
+            "last": "Komori",
+            "full": "Manami Komori",
+            "native": "小森まなみ",
+            "userPreferred": "Manami Komori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5396.jpg"
+        }
+      ]
+    },
+    {
+      "id": 302491,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Big Guy",
+        "last": null,
+        "full": "Big Guy",
+        "native": "巨男",
+        "userPreferred": "Big Guy"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b302491-iZopYiuOGzZA.png",
+      "voiceActors": []
+    }
+  ],
+  "relations": [
+    {
+      "id": 604,
+      "relationType": "ALTERNATIVE",
+      "malId": 604,
+      "title": {
+        "romaji": "Mahou no Stage Fancy Lala",
+        "english": "Fancy Lala",
+        "native": "魔法のステージ ファンシーララ",
+        "userPreferred": "Mahou no Stage Fancy Lala"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx604-gZkEfz6DBhGu.jpg",
+      "color": "#3586e4",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n604-xqfj4imyf54u.jpg",
+      "rating": 68
+    }
+  ],
+  "episodes": [
+    {
+      "id": "harbor-light-monogatari-fashion-lala-yori-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b3320-SFYAerxinGzK.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//harbor-light-monogatari-fashion-lala-yori-episode-1"
+    }
+  ]
+}

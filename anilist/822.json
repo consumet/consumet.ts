@@ -1,0 +1,597 @@
+{
+  "id": "822",
+  "title": {
+    "romaji": "Initial D EXTRA STAGE",
+    "english": "Initial D Extra Stage",
+    "native": "頭文字〈イニシャル〉D EXTRA STAGE"
+  },
+  "malId": 822,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx822-JgdEklwoIOxm.jpg",
+  "popularity": 10720,
+  "color": "#d61a1a",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx822-JgdEklwoIOxm.jpg",
+  "description": "The Lancer EVO-driving group \"Emperor\" have defeated every racing team they've met in the Gunma region. Now they're out to challenge the duo of Mako and Sayuki and their SilEighty - the Impact Blue of Usui Mountain.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2001,
+  "startDate": {
+    "year": 2001,
+    "month": 3,
+    "day": 22
+  },
+  "endDate": {
+    "year": 2001,
+    "month": 3,
+    "day": 22
+  },
+  "totalEpisodes": 2,
+  "currentEpisode": 2,
+  "rating": 70,
+  "duration": 27,
+  "genres": [
+    "Action",
+    "Drama",
+    "Sports"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Pastel"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 2608,
+      "malId": 2608,
+      "title": {
+        "romaji": "Wangan Midnight",
+        "english": null,
+        "native": "湾岸ミッドナイト",
+        "userPreferred": "Wangan Midnight"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2608-J8zVMG1LO7CS.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2608-J8zVMG1LO7CS.jpg",
+      "rating": 71,
+      "type": "TV"
+    },
+    {
+      "id": 388,
+      "malId": 388,
+      "title": {
+        "romaji": "capeta",
+        "english": null,
+        "native": "capeta",
+        "userPreferred": "capeta"
+      },
+      "status": "Completed",
+      "episodes": 52,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx388-4vycJx3nZhdF.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx388-4vycJx3nZhdF.png",
+      "rating": 75,
+      "type": "TV"
+    },
+    {
+      "id": 9646,
+      "malId": 9646,
+      "title": {
+        "romaji": "Goddamn",
+        "english": null,
+        "native": "ガッデム",
+        "userPreferred": "Goddamn"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9646-gsyoORQpJMQh.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9646-gsyoORQpJMQh.jpg",
+      "rating": 54,
+      "type": "OVA"
+    },
+    {
+      "id": 185,
+      "malId": 185,
+      "title": {
+        "romaji": "Initial D",
+        "english": "Initial D 1st Stage",
+        "native": "頭文字D",
+        "userPreferred": "Initial D"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b185-kcYw18EEmh59.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/185-Z724xydTic8N.jpg",
+      "rating": 81,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 11652,
+      "role": "MAIN",
+      "name": {
+        "first": "Mako",
+        "last": "Satou",
+        "full": "Mako Satou",
+        "native": "佐藤真子",
+        "userPreferred": "Mako Satou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b11652-PP03K2IoyWLc.jpg",
+      "voiceActors": [
+        {
+          "id": 95176,
+          "language": "Japanese",
+          "name": {
+            "first": "Michiko",
+            "last": "Neya",
+            "full": "Michiko Neya",
+            "native": "根谷美智子",
+            "userPreferred": "Michiko Neya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95176-3yZnUwXap7nX.png"
+        },
+        {
+          "id": 95514,
+          "language": "English",
+          "name": {
+            "first": "Bridget",
+            "last": "Hoffman",
+            "full": "Bridget Hoffman",
+            "native": null,
+            "userPreferred": "Bridget Hoffman"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/514.jpg"
+        },
+        {
+          "id": 95472,
+          "language": "English",
+          "name": {
+            "first": "Colleen",
+            "last": "Clinkenbeard",
+            "full": "Colleen Clinkenbeard",
+            "native": null,
+            "userPreferred": "Colleen Clinkenbeard"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95472-fznpewUW95vm.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21175,
+      "role": "MAIN",
+      "name": {
+        "first": "Sayuki",
+        "last": null,
+        "full": "Sayuki",
+        "native": "沙雪",
+        "userPreferred": "Sayuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b21175-t7hsvYvMYzow.jpg",
+      "voiceActors": [
+        {
+          "id": 95298,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Kakazu",
+            "full": "Yumi Kakazu",
+            "native": "かかずゆみ",
+            "userPreferred": "Yumi Kakazu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95298-wWENaJp9ERf7.jpg"
+        },
+        {
+          "id": 95159,
+          "language": "English",
+          "name": {
+            "first": "Monica",
+            "last": "Rial",
+            "full": "Monica Rial",
+            "native": null,
+            "userPreferred": "Monica Rial"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95159-iTd65o5LhA62.png"
+        },
+        {
+          "id": 95318,
+          "language": "English",
+          "name": {
+            "first": "Kate",
+            "last": "Higgins",
+            "full": "Kate Higgins",
+            "native": null,
+            "userPreferred": "Kate Higgins"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95318-TvQyppjjRIH2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2822,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Keisuke",
+        "last": "Takahashi",
+        "full": "Keisuke Takahashi",
+        "native": "高橋啓介",
+        "userPreferred": "Keisuke Takahashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2822-HsgCNP5rMXHU.png",
+      "voiceActors": [
+        {
+          "id": 95001,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Seki",
+            "full": "Tomokazu Seki",
+            "native": "関智一",
+            "userPreferred": "Tomokazu Seki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95001-vm0RtZhmlzhK.png"
+        },
+        {
+          "id": 95860,
+          "language": "English",
+          "name": {
+            "first": "Todd",
+            "last": "Haberkorn",
+            "full": "Todd Haberkorn",
+            "native": "Todd Michael Haberkorn",
+            "userPreferred": "Todd Haberkorn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95860-RxBJH1Kt2TUW.png"
+        },
+        {
+          "id": 95012,
+          "language": "English",
+          "name": {
+            "first": "Steven",
+            "last": "Blum",
+            "full": "Steven Blum",
+            "native": null,
+            "userPreferred": "Steven Blum"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95012-jnlK6VyCTf9P.png"
+        }
+      ]
+    },
+    {
+      "id": 7955,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Itsuki",
+        "last": "Takeuchi",
+        "full": "Itsuki Takeuchi",
+        "native": "武内樹",
+        "userPreferred": "Itsuki Takeuchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7955-fJpOaM6vC0Q2.png",
+      "voiceActors": [
+        {
+          "id": 95399,
+          "language": "Japanese",
+          "name": {
+            "first": "Mitsuo",
+            "last": "Iwata",
+            "full": "Mitsuo Iwata",
+            "native": "岩田光央",
+            "userPreferred": "Mitsuo Iwata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/95399-HGKWUmKmZ1el.jpg"
+        },
+        {
+          "id": 96047,
+          "language": "English",
+          "name": {
+            "first": "Jessie James",
+            "last": "Grelle",
+            "full": "Jessie James Grelle",
+            "native": null,
+            "userPreferred": "Jessie James Grelle"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96047-E9nBWn3YL0Tn.jpg"
+        },
+        {
+          "id": 103212,
+          "language": "English",
+          "name": {
+            "first": "Robbie",
+            "last": "Rist",
+            "full": "Robbie Rist",
+            "native": null,
+            "userPreferred": "Robbie Rist"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8212.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15003,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kouichirou",
+        "last": "Iketani",
+        "full": "Kouichirou Iketani",
+        "native": "池谷浩一郎",
+        "userPreferred": "Kouichirou Iketani"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15003.jpg",
+      "voiceActors": [
+        {
+          "id": 95131,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuki",
+            "last": "Yao",
+            "full": "Kazuki Yao",
+            "native": "矢尾一樹",
+            "userPreferred": "Kazuki Yao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95131-TCVTgxb08tfE.png"
+        },
+        {
+          "id": 95312,
+          "language": "English",
+          "name": {
+            "first": "Eric",
+            "last": "Vale",
+            "full": "Eric Vale",
+            "native": null,
+            "userPreferred": "Eric Vale"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95312-lixmVhwE8AXE.png"
+        },
+        {
+          "id": 95019,
+          "language": "English",
+          "name": {
+            "first": "Crispin",
+            "last": "Freeman",
+            "full": "Crispin Freeman",
+            "native": null,
+            "userPreferred": "Crispin Freeman"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95019-o7SDOiPsPXKs.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2819,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Takumi",
+        "last": "Fujiwara",
+        "full": "Takumi Fujiwara",
+        "native": "藤原拓海",
+        "userPreferred": "Takumi Fujiwara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2819-FaPLslMytO9p.png",
+      "voiceActors": [
+        {
+          "id": 95022,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinichirou",
+            "last": "Miki",
+            "full": "Shinichirou Miki",
+            "native": "三木眞一郎",
+            "userPreferred": "Shinichirou Miki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95022-BXggjIr4KHqd.png"
+        }
+      ]
+    },
+    {
+      "id": 32008,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shingo",
+        "last": "Shouji",
+        "full": "Shingo Shouji",
+        "native": "庄司真吾",
+        "userPreferred": "Shingo Shouji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b32008-DwmzYlJXLIsT.png",
+      "voiceActors": [
+        {
+          "id": 95063,
+          "language": "Japanese",
+          "name": {
+            "first": "Keiji",
+            "last": "Fujiwara",
+            "full": "Keiji Fujiwara",
+            "native": "藤原啓治",
+            "userPreferred": "Keiji Fujiwara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95063-xAsEUzspuLMG.jpg"
+        },
+        {
+          "id": 95632,
+          "language": "English",
+          "name": {
+            "first": "Quinton",
+            "last": "Flynn",
+            "full": "Quinton Flynn",
+            "native": null,
+            "userPreferred": "Quinton Flynn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95632-Df8aNwfOBV7A.jpg"
+        },
+        {
+          "id": 95043,
+          "language": "English",
+          "name": {
+            "first": "Vic",
+            "last": "Mignogna",
+            "full": "Vic Mignogna",
+            "native": "Victor Joseph Mignogna",
+            "userPreferred": "Vic Mignogna"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95043-cgQunZolvkPW.png"
+        }
+      ]
+    },
+    {
+      "id": 2821,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ryousuke",
+        "last": "Takahashi",
+        "full": "Ryousuke Takahashi",
+        "native": "高橋涼介",
+        "userPreferred": "Ryousuke Takahashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2821-riOywKuCISDx.png",
+      "voiceActors": [
+        {
+          "id": 95160,
+          "language": "Japanese",
+          "name": {
+            "first": "Takehito",
+            "last": "Koyasu",
+            "full": "Takehito Koyasu",
+            "native": "子安武人",
+            "userPreferred": "Takehito Koyasu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95160-jWevcH7BmfE1.jpg"
+        },
+        {
+          "id": 96602,
+          "language": "English",
+          "name": {
+            "first": "J. Michael",
+            "last": "Tatum",
+            "full": "J. Michael Tatum",
+            "native": "John Michael Tatum",
+            "userPreferred": "J. Michael Tatum"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96602-ztTfuo3nzu5t.png"
+        },
+        {
+          "id": 95180,
+          "language": "English",
+          "name": {
+            "first": "Lex",
+            "last": "Lang",
+            "full": "Lex Lang",
+            "native": null,
+            "userPreferred": "Lex Lang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95180-lBWAdPZISYWf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3867,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Takeshi",
+        "last": "Nakazato",
+        "full": "Takeshi Nakazato",
+        "native": "中里毅",
+        "userPreferred": "Takeshi Nakazato"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b3867-Ay48n2wq6WER.png",
+      "voiceActors": [
+        {
+          "id": 95257,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobuyuki",
+            "last": "Hiyama",
+            "full": "Nobuyuki Hiyama",
+            "native": "檜山修之",
+            "userPreferred": "Nobuyuki Hiyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95257-PgYwsBplRSJa.png"
+        },
+        {
+          "id": 103060,
+          "language": "English",
+          "name": {
+            "first": "Chris",
+            "last": "Burnett",
+            "full": "Chris Burnett",
+            "native": null,
+            "userPreferred": "Chris Burnett"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103060-hdVm0NPURbMl.jpg"
+        },
+        {
+          "id": 95355,
+          "language": "English",
+          "name": {
+            "first": "Wally",
+            "last": "Wingert",
+            "full": "Wally Wingert",
+            "native": null,
+            "userPreferred": "Wally Wingert"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/355.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 5228,
+      "relationType": "SEQUEL",
+      "malId": 5228,
+      "title": {
+        "romaji": "Initial D Extra Stage 2",
+        "english": "Initial D Extra Stage 2",
+        "native": "頭文字〈イニシャル〉D Extra Stage 2",
+        "userPreferred": "Initial D Extra Stage 2"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/5228.jpg",
+      "color": "#5dbbe4",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/5228.jpg",
+      "rating": 70
+    },
+    {
+      "id": 187,
+      "relationType": "PARENT",
+      "malId": 187,
+      "title": {
+        "romaji": "Initial D THIRD STAGE",
+        "english": "Initial D 3rd Stage",
+        "native": "頭文字〈イニシャル〉D THIRD STAGE",
+        "userPreferred": "Initial D THIRD STAGE"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx187-QyCAlBGY3EWw.jpg",
+      "color": "#e4ae1a",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/187-EPd7ahDZZHyg.jpg",
+      "rating": 78
+    }
+  ],
+  "episodes": [
+    {
+      "id": "initial-d-extra-stage-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx822-JgdEklwoIOxm.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//initial-d-extra-stage-episode-1"
+    },
+    {
+      "id": "initial-d-extra-stage-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx822-JgdEklwoIOxm.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//initial-d-extra-stage-episode-2"
+    }
+  ]
+}

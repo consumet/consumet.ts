@@ -1,0 +1,1480 @@
+{
+  "id": "873",
+  "title": {
+    "romaji": ".hack//Roots",
+    "english": ".hack//Roots",
+    "native": ".hack//Roots"
+  },
+  "malId": 873,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx873-u8VHoxnMDd4r.png",
+  "popularity": 9191,
+  "color": "#e45d5d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx873-u8VHoxnMDd4r.png",
+  "description": "After the destruction of \"The World\" in 2015, CC Corporation rebuilt the game using data from what was previously to be another game. \"The World R:2\" was then released in 2016. A newcomer to the game, Haseo, is instantly PKed and then revived by a mysterious man known as Ovan. With the problem of PKs occupying the game, Haseo soon after receives help from a female Harvest known as Shino. Amidst curiosity and confusion, Haseo is lead to joining the guild known as the Twilight Brigade. The guild that searches for the legendary object known as the \"Key of the Twilight\". Set before the .hack//G.U. game.",
+  "status": "Completed",
+  "releaseDate": 2006,
+  "startDate": {
+    "year": 2006,
+    "month": 4,
+    "day": 6
+  },
+  "endDate": {
+    "year": 2006,
+    "month": 9,
+    "day": 28
+  },
+  "totalEpisodes": 26,
+  "currentEpisode": 26,
+  "rating": 64,
+  "duration": 24,
+  "genres": [
+    "Adventure",
+    "Drama",
+    "Fantasy",
+    "Sci-Fi"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Bee Train"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 107420,
+      "malId": 38909,
+      "title": {
+        "romaji": "Infinite Dendrogram",
+        "english": "Infinite Dendrogram",
+        "native": "インフィニット・デンドログラム",
+        "userPreferred": "Infinite Dendrogram"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107420-fTC53wOorIsl.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/107420-nH4M41MFz0kt.jpg",
+      "rating": 58,
+      "type": "TV"
+    },
+    {
+      "id": 20594,
+      "malId": 21881,
+      "title": {
+        "romaji": "Sword Art Online II",
+        "english": "Sword Art Online II",
+        "native": "ソードアート・オンライン II",
+        "userPreferred": "Sword Art Online II"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx20594-FhRgZ1H9Istt.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20594-BZOLwqidcS1G.jpg",
+      "rating": 65,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 32,
+      "role": "MAIN",
+      "name": {
+        "first": "Ovan",
+        "last": null,
+        "full": "Ovan",
+        "native": "オーヴァン",
+        "userPreferred": "Ovan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b32-QwdtmCejUcPj.png",
+      "voiceActors": [
+        {
+          "id": 95236,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroki",
+            "last": "Touchi",
+            "full": "Hiroki Touchi",
+            "native": "東地宏樹",
+            "userPreferred": "Hiroki Touchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95236-nlMo4dnjdT8p.png"
+        },
+        {
+          "id": 101835,
+          "language": "English",
+          "name": {
+            "first": "Michael",
+            "last": "Kopsa",
+            "full": "Michael Kopsa",
+            "native": null,
+            "userPreferred": "Michael Kopsa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101835-GIn02PcSIOEy.jpg"
+        },
+        {
+          "id": 104908,
+          "language": "French",
+          "name": {
+            "first": "Mathieu",
+            "last": "Moreau",
+            "full": "Mathieu Moreau",
+            "native": null,
+            "userPreferred": "Mathieu Moreau"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104908-SQCbXPyxFPUf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "role": "MAIN",
+      "name": {
+        "first": "Phyllo",
+        "last": null,
+        "full": "Phyllo",
+        "native": "フィロ",
+        "userPreferred": "Phyllo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/36.jpg",
+      "voiceActors": [
+        {
+          "id": 95478,
+          "language": "Japanese",
+          "name": {
+            "first": "Junpei",
+            "last": "Takiguchi",
+            "full": "Junpei Takiguchi",
+            "native": "滝口順平",
+            "userPreferred": "Junpei Takiguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95478-OmoNR62eCi7t.png"
+        },
+        {
+          "id": 106092,
+          "language": "English",
+          "name": {
+            "first": "Dave",
+            "last": "Bridges",
+            "full": "Dave Bridges",
+            "native": null,
+            "userPreferred": "Dave Bridges"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/11092.jpg"
+        },
+        {
+          "id": 95849,
+          "language": "English",
+          "name": {
+            "first": "Russell",
+            "last": "Roberts",
+            "full": "Russell Roberts",
+            "native": null,
+            "userPreferred": "Russell Roberts"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/849.jpg"
+        },
+        {
+          "id": 104933,
+          "language": "French",
+          "name": {
+            "first": "Benoît",
+            "last": "Van Dorslaer",
+            "full": "Benoît Van Dorslaer",
+            "native": null,
+            "userPreferred": "Benoît Van Dorslaer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104933-Ys2U9uVVKTq2.png"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "role": "MAIN",
+      "name": {
+        "first": "Tabby",
+        "last": null,
+        "full": "Tabby",
+        "native": "タビー",
+        "userPreferred": "Tabby"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/35.jpg",
+      "voiceActors": [
+        {
+          "id": 95144,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Toyoguchi",
+            "full": "Megumi Toyoguchi",
+            "native": "豊口めぐみ",
+            "userPreferred": "Megumi Toyoguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95144-9Y8CtDVmxogE.jpg"
+        },
+        {
+          "id": 106093,
+          "language": "English",
+          "name": {
+            "first": "Sarah",
+            "last": "Hauser",
+            "full": "Sarah Hauser",
+            "native": null,
+            "userPreferred": "Sarah Hauser"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 95887,
+          "language": "English",
+          "name": {
+            "first": "Marÿke",
+            "last": "Hendrikse",
+            "full": "Marÿke Hendrikse",
+            "native": null,
+            "userPreferred": "Marÿke Hendrikse"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95887-lcsKJzni0sG1.jpg"
+        },
+        {
+          "id": 102285,
+          "language": "French",
+          "name": {
+            "first": "Claire",
+            "last": "Tefnin",
+            "full": "Claire Tefnin",
+            "native": null,
+            "userPreferred": "Claire Tefnin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102285-1LVSATuZ7kxJ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "role": "MAIN",
+      "name": {
+        "first": "Shino",
+        "last": null,
+        "full": "Shino",
+        "native": "志乃",
+        "userPreferred": "Shino"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/34.jpg",
+      "voiceActors": [
+        {
+          "id": 95078,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaori",
+            "last": "Nazuka",
+            "full": "Kaori Nazuka",
+            "native": "名塚佳織",
+            "userPreferred": "Kaori Nazuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95078-tMm7zdlRNZ3P.jpg"
+        },
+        {
+          "id": 95643,
+          "language": "English",
+          "name": {
+            "first": "Kelly",
+            "last": "Sheridan",
+            "full": "Kelly Sheridan",
+            "native": null,
+            "userPreferred": "Kelly Sheridan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95643-B3gyHS8kh4Kr.jpg"
+        },
+        {
+          "id": 104907,
+          "language": "French",
+          "name": {
+            "first": "Cécile",
+            "last": "Boland",
+            "full": "Cécile Boland",
+            "native": null,
+            "userPreferred": "Cécile Boland"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "role": "MAIN",
+      "name": {
+        "first": "Haseo",
+        "last": null,
+        "full": "Haseo",
+        "native": "ハセヲ",
+        "userPreferred": "Haseo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b33-cYEpl0VXygH0.png",
+      "voiceActors": [
+        {
+          "id": 95079,
+          "language": "Japanese",
+          "name": {
+            "first": "Takahiro",
+            "last": "Sakurai",
+            "full": "Takahiro Sakurai",
+            "native": "櫻井孝宏",
+            "userPreferred": "Takahiro Sakurai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95079-MdbWTLxPUvFf.jpg"
+        },
+        {
+          "id": 95880,
+          "language": "English",
+          "name": {
+            "first": "Andrew",
+            "last": "Francis",
+            "full": "Andrew Francis",
+            "native": null,
+            "userPreferred": "Andrew Francis"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/880.jpg"
+        },
+        {
+          "id": 104909,
+          "language": "French",
+          "name": {
+            "first": "Sebastien",
+            "last": "Hebrant",
+            "full": "Sebastien Hebrant",
+            "native": "Sébastien Hebrant",
+            "userPreferred": "Sebastien Hebrant"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29014,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Midori",
+        "last": null,
+        "full": "Midori",
+        "native": "碧",
+        "userPreferred": "Midori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29014.jpg",
+      "voiceActors": [
+        {
+          "id": 95003,
+          "language": "Japanese",
+          "name": {
+            "first": "Satsuki",
+            "last": "Yukino",
+            "full": "Satsuki Yukino",
+            "native": "ゆきのさつき",
+            "userPreferred": "Satsuki Yukino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95003-Du7wb5JJzb8P.png"
+        },
+        {
+          "id": 95842,
+          "language": "English",
+          "name": {
+            "first": "Saffron",
+            "last": "Henderson",
+            "full": "Saffron Henderson",
+            "native": null,
+            "userPreferred": "Saffron Henderson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95842-lVQroqdgO3jj.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11824,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Saburou",
+        "last": null,
+        "full": "Saburou",
+        "native": "三郎",
+        "userPreferred": "Saburou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11824.jpg",
+      "voiceActors": [
+        {
+          "id": 95093,
+          "language": "Japanese",
+          "name": {
+            "first": "Shizuka",
+            "last": "Itou",
+            "full": "Shizuka Itou",
+            "native": "伊藤静",
+            "userPreferred": "Shizuka Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95093-MApaH7qqtmVN.jpg"
+        },
+        {
+          "id": 101833,
+          "language": "English",
+          "name": {
+            "first": "Rebecca",
+            "last": "Shoichet",
+            "full": "Rebecca Shoichet",
+            "native": null,
+            "userPreferred": "Rebecca Shoichet"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101833-doRKFfIm5Uvv.png"
+        }
+      ]
+    },
+    {
+      "id": 29020,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Pilocchio",
+        "last": null,
+        "full": "Pilocchio",
+        "native": "ピロキオ",
+        "userPreferred": "Pilocchio"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29020.jpg",
+      "voiceActors": [
+        {
+          "id": 101244,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuki",
+            "last": "Matsuda",
+            "full": "Yuki Matsuda",
+            "native": "松田佑貴",
+            "userPreferred": "Yuki Matsuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101244-JTmUPFXIY5q2.png"
+        },
+        {
+          "id": 96080,
+          "language": "English",
+          "name": {
+            "first": "Brent",
+            "last": "Miller",
+            "full": "Brent Miller",
+            "native": null,
+            "userPreferred": "Brent Miller"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1080.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29018,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Wool",
+        "last": null,
+        "full": "Wool",
+        "native": "ウール",
+        "userPreferred": "Wool"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29018.jpg",
+      "voiceActors": [
+        {
+          "id": 95013,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayako",
+            "last": "Kawasumi",
+            "full": "Ayako Kawasumi",
+            "native": "川澄綾子",
+            "userPreferred": "Ayako Kawasumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95013-cwl64qXuP2r7.png"
+        },
+        {
+          "id": 104931,
+          "language": "English",
+          "name": {
+            "first": "Kelly",
+            "last": "Metzger",
+            "full": "Kelly Metzger",
+            "native": null,
+            "userPreferred": "Kelly Metzger"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104931-T2vzbpfogNQw.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29019,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Taihaku",
+        "last": null,
+        "full": "Taihaku",
+        "native": "太白",
+        "userPreferred": "Taihaku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29019.jpg",
+      "voiceActors": [
+        {
+          "id": 95122,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuhiro",
+            "last": "Nakata",
+            "full": "Kazuhiro Nakata",
+            "native": "中田和宏",
+            "userPreferred": "Kazuhiro Nakata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/122.jpg"
+        },
+        {
+          "id": 103292,
+          "language": "English",
+          "name": {
+            "first": "Ross",
+            "last": "Douglas",
+            "full": "Ross Douglas",
+            "native": null,
+            "userPreferred": "Ross Douglas"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8292.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29017,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ochi",
+        "last": null,
+        "full": "Ochi",
+        "native": "オチ",
+        "userPreferred": "Ochi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29017.jpg",
+      "voiceActors": [
+        {
+          "id": 95238,
+          "language": "Japanese",
+          "name": {
+            "first": "Junichi",
+            "last": "Kanemaru",
+            "full": "Junichi Kanemaru",
+            "native": "金丸淳一",
+            "userPreferred": "Junichi Kanemaru"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/238.jpg"
+        },
+        {
+          "id": 103665,
+          "language": "English",
+          "name": {
+            "first": "Lee",
+            "last": "Tockar",
+            "full": "Lee Tockar",
+            "native": null,
+            "userPreferred": "Lee Tockar"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103665-FfLAp8TWSa20.png"
+        }
+      ]
+    },
+    {
+      "id": 29015,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nasubi",
+        "last": null,
+        "full": "Nasubi",
+        "native": "なすび",
+        "userPreferred": "Nasubi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29015.jpg",
+      "voiceActors": [
+        {
+          "id": 95899,
+          "language": "Japanese",
+          "name": {
+            "first": "Isshin",
+            "last": "Chiba",
+            "full": "Isshin Chiba",
+            "native": "千葉一伸",
+            "userPreferred": "Isshin Chiba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95899-AMM2JgmiM26f.png"
+        },
+        {
+          "id": 95515,
+          "language": "English",
+          "name": {
+            "first": "Brian",
+            "last": "Drummond",
+            "full": "Brian Drummond",
+            "native": null,
+            "userPreferred": "Brian Drummond"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95515-jCqOzlX9iNhC.png"
+        }
+      ]
+    },
+    {
+      "id": 20312,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sakaki",
+        "last": null,
+        "full": "Sakaki",
+        "native": "榊",
+        "userPreferred": "Sakaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20312.jpg",
+      "voiceActors": [
+        {
+          "id": 95020,
+          "language": "Japanese",
+          "name": {
+            "first": "Katsuyuki",
+            "last": "Konishi",
+            "full": "Katsuyuki Konishi",
+            "native": "小西克幸",
+            "userPreferred": "Katsuyuki Konishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95020-uOJO2IlwpcX0.png"
+        }
+      ]
+    },
+    {
+      "id": 12245,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Silabus",
+        "last": null,
+        "full": "Silabus",
+        "native": "シラバス",
+        "userPreferred": "Silabus"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12245.jpg",
+      "voiceActors": [
+        {
+          "id": 95278,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Sakaguchi",
+            "full": "Daisuke Sakaguchi",
+            "native": "阪口大助",
+            "userPreferred": "Daisuke Sakaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95278-IrUPhIvJCsF9.png"
+        },
+        {
+          "id": 105473,
+          "language": "English",
+          "name": {
+            "first": "Reece",
+            "last": "Thompson",
+            "full": "Reece Thompson",
+            "native": null,
+            "userPreferred": "Reece Thompson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10473.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29009,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Asta",
+        "last": null,
+        "full": "Asta",
+        "native": "アスタ",
+        "userPreferred": "Asta"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29009.jpg",
+      "voiceActors": [
+        {
+          "id": 95769,
+          "language": "Japanese",
+          "name": {
+            "first": "Youko",
+            "last": "Honna",
+            "full": "Youko Honna",
+            "native": "本名陽子",
+            "userPreferred": "Youko Honna"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95769-nR18ewc78vzz.png"
+        },
+        {
+          "id": 95545,
+          "language": "English",
+          "name": {
+            "first": "Tabitha",
+            "last": "St. Germain",
+            "full": "Tabitha St. Germain",
+            "native": null,
+            "userPreferred": "Tabitha St. Germain"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95545-HhIJnzm6gV1M.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5782,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kuhn",
+        "last": null,
+        "full": "Kuhn",
+        "native": "クーン",
+        "userPreferred": "Kuhn"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5782.jpg",
+      "voiceActors": [
+        {
+          "id": 95022,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinichirou",
+            "last": "Miki",
+            "full": "Shinichirou Miki",
+            "native": "三木眞一郎",
+            "userPreferred": "Shinichirou Miki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95022-BXggjIr4KHqd.png"
+        },
+        {
+          "id": 101834,
+          "language": "English",
+          "name": {
+            "first": "Louis",
+            "last": "Chirillo",
+            "full": "Louis Chirillo",
+            "native": null,
+            "userPreferred": "Louis Chirillo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6834.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28978,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gaspard",
+        "last": null,
+        "full": "Gaspard",
+        "native": "ガスパー",
+        "userPreferred": "Gaspard"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28978.jpg",
+      "voiceActors": [
+        {
+          "id": 95148,
+          "language": "Japanese",
+          "name": {
+            "first": "Akiko",
+            "last": "Yajima",
+            "full": "Akiko Yajima",
+            "native": "矢島晶子",
+            "userPreferred": "Akiko Yajima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95148-JiNi79wg9ScS.png"
+        },
+        {
+          "id": 95306,
+          "language": "English",
+          "name": {
+            "first": "Richard Ian",
+            "last": "Cox",
+            "full": "Richard Ian Cox",
+            "native": null,
+            "userPreferred": "Richard Ian Cox"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95306-aRS4cm1GScFW.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29012,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ita",
+        "last": null,
+        "full": "Ita",
+        "native": "イータ",
+        "userPreferred": "Ita"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29012.jpg",
+      "voiceActors": [
+        {
+          "id": 95583,
+          "language": "Japanese",
+          "name": {
+            "first": "Akio",
+            "last": "Suyama",
+            "full": "Akio Suyama",
+            "native": "章央陶山",
+            "userPreferred": "Akio Suyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95583-pcq7rkDjxRTl.jpg"
+        },
+        {
+          "id": 95306,
+          "language": "English",
+          "name": {
+            "first": "Richard Ian",
+            "last": "Cox",
+            "full": "Richard Ian Cox",
+            "native": null,
+            "userPreferred": "Richard Ian Cox"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95306-aRS4cm1GScFW.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28979,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tohta",
+        "last": null,
+        "full": "Tohta",
+        "native": "藤太",
+        "userPreferred": "Tohta"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28979.jpg",
+      "voiceActors": [
+        {
+          "id": 95720,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenta",
+            "last": "Miyake",
+            "full": "Kenta Miyake",
+            "native": "三宅健太",
+            "userPreferred": "Kenta Miyake"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95720-enxx6kZKuwGi.jpg"
+        },
+        {
+          "id": 104929,
+          "language": "English",
+          "name": {
+            "first": "Mark",
+            "last": "Acheson",
+            "full": "Mark Acheson",
+            "native": null,
+            "userPreferred": "Mark Acheson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9929.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28982,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bordeaux",
+        "last": null,
+        "full": "Bordeaux",
+        "native": "ボルドー",
+        "userPreferred": "Bordeaux"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28982.jpg",
+      "voiceActors": [
+        {
+          "id": 95066,
+          "language": "Japanese",
+          "name": {
+            "first": "Akiko",
+            "last": "Hiramatsu",
+            "full": "Akiko Hiramatsu",
+            "native": "平松晶子",
+            "userPreferred": "Akiko Hiramatsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95066-oCD0liGFKqlH.png"
+        },
+        {
+          "id": 95841,
+          "language": "English",
+          "name": {
+            "first": "Alison",
+            "last": "Matthews",
+            "full": "Alison Matthews",
+            "native": null,
+            "userPreferred": "Alison Matthews"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/841.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5817,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Pi",
+        "last": null,
+        "full": "Pi",
+        "native": "パイ",
+        "userPreferred": "Pi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5817.jpg",
+      "voiceActors": [
+        {
+          "id": 95149,
+          "language": "Japanese",
+          "name": {
+            "first": "Sanae",
+            "last": "Kobayashi",
+            "full": "Sanae Kobayashi",
+            "native": "小林沙苗",
+            "userPreferred": "Sanae Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95149-xNDmN92Feq8y.png"
+        },
+        {
+          "id": 96377,
+          "language": "English",
+          "name": {
+            "first": "Lisa Ann",
+            "last": "Beley",
+            "full": "Lisa Ann Beley",
+            "native": null,
+            "userPreferred": "Lisa Ann Beley"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96377-3LeyzlP7Rcy2.jpg"
+        },
+        {
+          "id": 104936,
+          "language": "French",
+          "name": {
+            "first": "Sophie",
+            "last": "Landresse",
+            "full": "Sophie Landresse",
+            "native": null,
+            "userPreferred": "Sophie Landresse"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104936-YEpfu4hWDUjo.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5983,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gord",
+        "last": null,
+        "full": "Gord",
+        "native": null,
+        "userPreferred": "Gord"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5983.jpg",
+      "voiceActors": [
+        {
+          "id": 95477,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Yanaka",
+            "full": "Hiroshi Yanaka",
+            "native": "家中宏",
+            "userPreferred": "Hiroshi Yanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95477-zUeFZNtjTgap.png"
+        },
+        {
+          "id": 95307,
+          "language": "English",
+          "name": {
+            "first": "Kirby",
+            "last": "Morrow",
+            "full": "Kirby Morrow",
+            "native": null,
+            "userPreferred": "Kirby Morrow"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95307-KnqG1E5BgQpn.jpg"
+        },
+        {
+          "id": 104935,
+          "language": "French",
+          "name": {
+            "first": "Grégory",
+            "last": "Praet",
+            "full": "Grégory Praet",
+            "native": null,
+            "userPreferred": "Grégory Praet"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tawaraya",
+        "last": null,
+        "full": "Tawaraya",
+        "native": "俵屋",
+        "userPreferred": "Tawaraya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/38.jpg",
+      "voiceActors": [
+        {
+          "id": 95720,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenta",
+            "last": "Miyake",
+            "full": "Kenta Miyake",
+            "native": "三宅健太",
+            "userPreferred": "Kenta Miyake"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95720-enxx6kZKuwGi.jpg"
+        },
+        {
+          "id": 104929,
+          "language": "English",
+          "name": {
+            "first": "Mark",
+            "last": "Acheson",
+            "full": "Mark Acheson",
+            "native": null,
+            "userPreferred": "Mark Acheson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9929.jpg"
+        },
+        {
+          "id": 104937,
+          "language": "French",
+          "name": {
+            "first": "Tony",
+            "last": "Beck",
+            "full": "Tony Beck",
+            "native": null,
+            "userPreferred": "Tony Beck"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104937-yzBT4LiZik5C.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20262,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Seisaku",
+        "last": null,
+        "full": "Seisaku",
+        "native": null,
+        "userPreferred": "Seisaku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20262.jpg",
+      "voiceActors": [
+        {
+          "id": 95177,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryoutarou",
+            "last": "Okiayu",
+            "full": "Ryoutarou Okiayu",
+            "native": "置鮎龍太郎",
+            "userPreferred": "Ryoutarou Okiayu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95177-6SiaUTf3CLkN.png"
+        },
+        {
+          "id": 95370,
+          "language": "English",
+          "name": {
+            "first": "Brad",
+            "last": "Swaile",
+            "full": "Brad Swaile",
+            "native": null,
+            "userPreferred": "Brad Swaile"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95370-1Z9Us8CD2IVs.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5818,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yata",
+        "last": null,
+        "full": "Yata",
+        "native": "八咫",
+        "userPreferred": "Yata"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5818.jpg",
+      "voiceActors": [
+        {
+          "id": 95346,
+          "language": "Japanese",
+          "name": {
+            "first": "Takumi",
+            "last": "Yamazaki",
+            "full": "Takumi Yamazaki",
+            "native": "山崎たくみ",
+            "userPreferred": "Takumi Yamazaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95346-YNXEZtXvJttr.png"
+        },
+        {
+          "id": 95881,
+          "language": "English",
+          "name": {
+            "first": "Paul",
+            "last": "Dobson",
+            "full": "Paul Dobson",
+            "native": null,
+            "userPreferred": "Paul Dobson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95881-QeKJF0towjRg.png"
+        },
+        {
+          "id": 104938,
+          "language": "French",
+          "name": {
+            "first": "David",
+            "last": "Macaluso",
+            "full": "David Macaluso",
+            "native": null,
+            "userPreferred": "David Macaluso"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 298,
+      "relationType": "PREQUEL",
+      "malId": 298,
+      "title": {
+        "romaji": ".hack//Tasogare no Udewa Densetsu",
+        "english": ".hack//Legend Of The Twilight",
+        "native": ".hack//黄昏の腕輪伝説",
+        "userPreferred": ".hack//Tasogare no Udewa Densetsu"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx298-4NawsRDRVaHR.jpg",
+      "color": "#e4bb5d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx298-4NawsRDRVaHR.jpg",
+      "rating": 61
+    },
+    {
+      "id": 3269,
+      "relationType": "SEQUEL",
+      "malId": 3269,
+      "title": {
+        "romaji": ".hack//G.U. Trilogy",
+        "english": null,
+        "native": null,
+        "userPreferred": ".hack//G.U. Trilogy"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3269-8LX2zM2vgr4f.jpg",
+      "color": "#a13528",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3269-8LX2zM2vgr4f.jpg",
+      "rating": 66
+    },
+    {
+      "id": 110286,
+      "relationType": "SUMMARY",
+      "malId": 36646,
+      "title": {
+        "romaji": "Daitai 3-pun de Wakaru .hack History",
+        "english": null,
+        "native": "だいたい3分でわかる.hackヒストリー",
+        "userPreferred": "Daitai 3-pun de Wakaru .hack History"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b110286-zUdr2pzguTga.jpg",
+      "color": "#e48635",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b110286-zUdr2pzguTga.jpg",
+      "rating": 51
+    },
+    {
+      "id": 30117,
+      "relationType": "PREQUEL",
+      "malId": 117,
+      "title": {
+        "romaji": ".hack//Tasogare no Udewa Densetsu",
+        "english": ".hack//Legend of the Twilight",
+        "native": ".hack//黄昏の腕輪伝説",
+        "userPreferred": ".hack//Tasogare no Udewa Densetsu"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30117-VCEwNTubXpQy.jpg",
+      "color": "#e46b1a",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/30117-6xVI85APM5Tq.jpg",
+      "rating": 65
+    },
+    {
+      "id": 145398,
+      "relationType": "ALTERNATIVE",
+      "malId": null,
+      "title": {
+        "romaji": ".hack//G.U. Begins",
+        "english": ".hack//G.U. Begins",
+        "native": ".hack//G.U. Begins",
+        "userPreferred": ".hack//G.U. Begins"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx145398-jMoeamx4eSn2.jpg",
+      "color": "#d6351a",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx145398-jMoeamx4eSn2.jpg",
+      "rating": 57
+    }
+  ],
+  "episodes": [
+    {
+      "id": "hackroots-episode-1",
+      "title": "Welcome to The World",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx873-u8VHoxnMDd4r.png",
+      "number": 1,
+      "createdAt": "2013-02-20T18:21:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hackroots-episode-1"
+    },
+    {
+      "id": "hackroots-episode-2",
+      "title": "Twilight Brigade",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx873-u8VHoxnMDd4r.png",
+      "number": 2,
+      "createdAt": "2013-02-20T18:21:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hackroots-episode-2"
+    },
+    {
+      "id": "hackroots-episode-3",
+      "title": "Join",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx873-u8VHoxnMDd4r.png",
+      "number": 3,
+      "createdAt": "2013-02-20T18:21:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hackroots-episode-3"
+    },
+    {
+      "id": "hackroots-episode-4",
+      "title": "Forefeel",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx873-u8VHoxnMDd4r.png",
+      "number": 4,
+      "createdAt": "2013-02-20T18:21:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hackroots-episode-4"
+    },
+    {
+      "id": "hackroots-episode-5",
+      "title": "Distrust",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx873-u8VHoxnMDd4r.png",
+      "number": 5,
+      "createdAt": "2013-02-20T18:21:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hackroots-episode-5"
+    },
+    {
+      "id": "hackroots-episode-6",
+      "title": "Conflict",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx873-u8VHoxnMDd4r.png",
+      "number": 6,
+      "createdAt": "2013-02-20T18:21:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hackroots-episode-6"
+    },
+    {
+      "id": "hackroots-episode-7",
+      "title": "Intrigue",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx873-u8VHoxnMDd4r.png",
+      "number": 7,
+      "createdAt": "2013-02-20T18:21:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hackroots-episode-7"
+    },
+    {
+      "id": "hackroots-episode-8",
+      "title": "Starting",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx873-u8VHoxnMDd4r.png",
+      "number": 8,
+      "createdAt": "2013-02-20T18:21:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hackroots-episode-8"
+    },
+    {
+      "id": "hackroots-episode-9",
+      "title": "Melee",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx873-u8VHoxnMDd4r.png",
+      "number": 9,
+      "createdAt": "2013-02-20T18:21:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hackroots-episode-9"
+    },
+    {
+      "id": "hackroots-episode-10",
+      "title": "Missing",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx873-u8VHoxnMDd4r.png",
+      "number": 10,
+      "createdAt": "2013-02-20T18:21:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hackroots-episode-10"
+    },
+    {
+      "id": "hackroots-episode-11",
+      "title": "Discord",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx873-u8VHoxnMDd4r.png",
+      "number": 11,
+      "createdAt": "2013-02-20T18:21:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hackroots-episode-11"
+    },
+    {
+      "id": "hackroots-episode-12",
+      "title": "Breakup",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx873-u8VHoxnMDd4r.png",
+      "number": 12,
+      "createdAt": "2013-02-20T18:21:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hackroots-episode-12"
+    },
+    {
+      "id": "hackroots-episode-13",
+      "title": "Tragedy",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx873-u8VHoxnMDd4r.png",
+      "number": 13,
+      "createdAt": "2013-02-20T18:21:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hackroots-episode-13"
+    },
+    {
+      "id": "hackroots-episode-14",
+      "title": "Lost One",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx873-u8VHoxnMDd4r.png",
+      "number": 14,
+      "createdAt": "2013-02-20T18:21:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hackroots-episode-14"
+    },
+    {
+      "id": "hackroots-episode-15",
+      "title": "Pad",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx873-u8VHoxnMDd4r.png",
+      "number": 15,
+      "createdAt": "2013-02-20T18:21:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hackroots-episode-15"
+    },
+    {
+      "id": "hackroots-episode-16",
+      "title": "Resolution",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx873-u8VHoxnMDd4r.png",
+      "number": 16,
+      "createdAt": "2013-02-20T18:21:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hackroots-episode-16"
+    },
+    {
+      "id": "hackroots-episode-17",
+      "title": "Painful Forest",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx873-u8VHoxnMDd4r.png",
+      "number": 17,
+      "createdAt": "2013-02-20T18:21:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hackroots-episode-17"
+    },
+    {
+      "id": "hackroots-episode-18",
+      "title": "Limit",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx873-u8VHoxnMDd4r.png",
+      "number": 18,
+      "createdAt": "2013-02-20T18:21:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hackroots-episode-18"
+    },
+    {
+      "id": "hackroots-episode-19",
+      "title": "Violation",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx873-u8VHoxnMDd4r.png",
+      "number": 19,
+      "createdAt": "2013-02-20T18:21:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hackroots-episode-19"
+    },
+    {
+      "id": "hackroots-episode-20",
+      "title": "Pursuit",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx873-u8VHoxnMDd4r.png",
+      "number": 20,
+      "createdAt": "2013-02-20T18:21:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hackroots-episode-20"
+    },
+    {
+      "id": "hackroots-episode-21",
+      "title": "Defeat",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx873-u8VHoxnMDd4r.png",
+      "number": 21,
+      "createdAt": "2013-02-20T18:21:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hackroots-episode-21"
+    },
+    {
+      "id": "hackroots-episode-22",
+      "title": "Bonds",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx873-u8VHoxnMDd4r.png",
+      "number": 22,
+      "createdAt": "2013-02-20T18:21:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hackroots-episode-22"
+    },
+    {
+      "id": "hackroots-episode-23",
+      "title": "Trial",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx873-u8VHoxnMDd4r.png",
+      "number": 23,
+      "createdAt": "2013-02-20T18:21:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hackroots-episode-23"
+    },
+    {
+      "id": "hackroots-episode-24",
+      "title": "Confront",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx873-u8VHoxnMDd4r.png",
+      "number": 24,
+      "createdAt": "2013-02-20T18:21:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hackroots-episode-24"
+    },
+    {
+      "id": "hackroots-episode-25",
+      "title": "Truth",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx873-u8VHoxnMDd4r.png",
+      "number": 25,
+      "createdAt": "2013-02-20T18:21:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hackroots-episode-25"
+    },
+    {
+      "id": "hackroots-episode-26",
+      "title": "Determination",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx873-u8VHoxnMDd4r.png",
+      "number": 26,
+      "createdAt": "2013-02-20T18:21:59Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hackroots-episode-26"
+    }
+  ]
+}

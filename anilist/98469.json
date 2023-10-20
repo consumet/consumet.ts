@@ -1,0 +1,684 @@
+{
+  "id": "98469",
+  "title": {
+    "romaji": "Koukyoushihen Eureka Seven Hi-Evolution 1",
+    "english": "Eureka Seven Hi-Evolution 1",
+    "native": "交響詩篇エウレカセブン ハイエボリューション 1"
+  },
+  "malId": 35134,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "DWV3kFQyTZ8",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/DWV3kFQyTZ8/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98469-yAUcfoLGLHTk.jpg",
+  "popularity": 4403,
+  "color": "#6b1a1a",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98469-yAUcfoLGLHTk.jpg",
+  "description": "It all begins with the story that was left untold – the earth-shattering incident where Renton’s father disappeared. With the mysterious Eureka by his side, only Adroc Thurston could undo his own mistake, sparking the event that changed everything and earned him the title of a hero. Now, ten years later, Eureka lies in critical condition as Renton leaves the crew of the Gekko. But when he finds himself in the care of his father’s old friends, he has a choice to make. Either stay with the loving family he’s always wanted, or earn the love he seeks.",
+  "status": "Completed",
+  "releaseDate": 2017,
+  "startDate": {
+    "year": 2017,
+    "month": 9,
+    "day": 16
+  },
+  "endDate": {
+    "year": 2017,
+    "month": 9,
+    "day": 16
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 58,
+  "duration": 93,
+  "genres": [
+    "Adventure",
+    "Drama",
+    "Mecha",
+    "Sci-Fi"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "bones"
+  ],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [
+    {
+      "id": 2759,
+      "malId": 2759,
+      "title": {
+        "romaji": "Evangelion Shin Movie: Jo",
+        "english": "Evangelion: 1.0 You Are (Not) Alone",
+        "native": "ヱヴァンゲリヲン新劇場版:序",
+        "userPreferred": "Evangelion Shin Movie: Jo"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2759-z07kq8Pnw5B1.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2759-EzK5WpFQz5ZT.jpg",
+      "rating": 77,
+      "type": "MOVIE"
+    }
+  ],
+  "characters": [
+    {
+      "id": 477,
+      "role": "MAIN",
+      "name": {
+        "first": "Renton",
+        "last": "Thurston",
+        "full": "Renton Thurston",
+        "native": "レントン・サーストン",
+        "userPreferred": "Renton Thurston"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n477-NvR2RtpSYSis.jpg",
+      "voiceActors": [
+        {
+          "id": 95407,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Sanpei",
+            "full": "Yuuko Sanpei",
+            "native": "三瓶由布子",
+            "userPreferred": "Yuuko Sanpei"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95407-u8MV6kcAJNV6.png"
+        },
+        {
+          "id": 175191,
+          "language": "Portuguese",
+          "name": {
+            "first": "Renan",
+            "last": "Vidal",
+            "full": "Renan Vidal",
+            "native": null,
+            "userPreferred": "Renan Vidal"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n175191-9OUSzcMpzXaJ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1709,
+      "role": "MAIN",
+      "name": {
+        "first": "Eureka",
+        "last": null,
+        "full": "Eureka",
+        "native": "エウレカ",
+        "userPreferred": "Eureka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1709-EheQXhGFPX9e.png",
+      "voiceActors": [
+        {
+          "id": 95078,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaori",
+            "last": "Nazuka",
+            "full": "Kaori Nazuka",
+            "native": "名塚佳織",
+            "userPreferred": "Kaori Nazuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95078-tMm7zdlRNZ3P.jpg"
+        },
+        {
+          "id": 231378,
+          "language": "Portuguese",
+          "name": {
+            "first": "Fabiana",
+            "last": "Aveiro",
+            "full": "Fabiana Aveiro",
+            "native": null,
+            "userPreferred": "Fabiana Aveiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n231378-taM9DgnKDpTb.jpg"
+        }
+      ]
+    },
+    {
+      "id": 50701,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Coda",
+        "last": "Lovell",
+        "full": "Coda Lovell",
+        "native": "コーダ・ラベル",
+        "userPreferred": "Coda Lovell"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b50701-AWRZIgn0CXlq.png",
+      "voiceActors": [
+        {
+          "id": 109517,
+          "language": "Japanese",
+          "name": {
+            "first": "Mariko",
+            "last": "Akashi",
+            "full": "Mariko Akashi",
+            "native": "赤司まり子",
+            "userPreferred": "Mariko Akashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14517.jpg"
+        },
+        {
+          "id": 190541,
+          "language": "Portuguese",
+          "name": {
+            "first": "Cristiane",
+            "last": "Louise",
+            "full": "Cristiane Louise",
+            "native": null,
+            "userPreferred": "Cristiane Louise"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n190541-BBIaI7RQhfIY.jpg"
+        }
+      ]
+    },
+    {
+      "id": 48763,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Uno",
+        "last": null,
+        "full": "Uno",
+        "native": "ウーノ",
+        "userPreferred": "Uno"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b48763-QV5HdTH3AMI2.png",
+      "voiceActors": [
+        {
+          "id": 100148,
+          "language": "Japanese",
+          "name": {
+            "first": "Masanori",
+            "last": "Takeda",
+            "full": "Masanori Takeda",
+            "native": "竹田雅則",
+            "userPreferred": "Masanori Takeda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100148-hFBLAJp8q5QI.png"
+        },
+        {
+          "id": 180474,
+          "language": "Portuguese",
+          "name": {
+            "first": "Ricardo",
+            "last": "Schnetzer",
+            "full": "Ricardo Schnetzer",
+            "native": "Ricardo Schnetzer",
+            "userPreferred": "Ricardo Schnetzer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n180474-or84Rrd8F0bN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6718,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ray",
+        "last": "Beams",
+        "full": "Ray Beams",
+        "native": "レイ・ビームス",
+        "userPreferred": "Ray Beams"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6718-rrJS4aPgpdSy.png",
+      "voiceActors": [
+        {
+          "id": 95080,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Hisakawa",
+            "full": "Aya Hisakawa",
+            "native": "久川綾",
+            "userPreferred": "Aya Hisakawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95080-7dOAcrnsSghI.jpg"
+        },
+        {
+          "id": 180902,
+          "language": "Portuguese",
+          "name": {
+            "first": "Guilene",
+            "last": "Conte",
+            "full": "Guilene Conte",
+            "native": null,
+            "userPreferred": "Guilene Conte"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n180902-Z4NF20Dnookv.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2920,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Matthieu",
+        "last": null,
+        "full": "Matthieu",
+        "native": "マシュー",
+        "userPreferred": "Matthieu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2920-6bGrO6PfA5kp.png",
+      "voiceActors": [
+        {
+          "id": 100404,
+          "language": "Japanese",
+          "name": {
+            "first": "Akio",
+            "last": "Nakamura",
+            "full": "Akio Nakamura",
+            "native": "彰男中村",
+            "userPreferred": "Akio Nakamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5404.jpg"
+        },
+        {
+          "id": 182111,
+          "language": "Portuguese",
+          "name": {
+            "first": "Sílvio",
+            "last": "Gonzalez",
+            "full": "Sílvio Gonzalez",
+            "native": "Sílvio Gonzalez",
+            "userPreferred": "Sílvio Gonzalez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n182111-BoNhr5a9ijxX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5552,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Charles",
+        "last": "Beams",
+        "full": "Charles Beams",
+        "native": "チャールズ・ビームス",
+        "userPreferred": "Charles Beams"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5552-3fQSIe1UFT8L.png",
+      "voiceActors": [
+        {
+          "id": 95237,
+          "language": "Japanese",
+          "name": {
+            "first": "Juurouta",
+            "last": "Kosugi",
+            "full": "Juurouta Kosugi",
+            "native": "小杉十郎太",
+            "userPreferred": "Juurouta Kosugi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95237-nelrZUfvh2FH.png"
+        },
+        {
+          "id": 182481,
+          "language": "Portuguese",
+          "name": {
+            "first": "Ronaldo",
+            "last": "Júlio",
+            "full": "Ronaldo Júlio",
+            "native": null,
+            "userPreferred": "Ronaldo Júlio"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n182481-6owdSPaiqCp8.jpg"
+        }
+      ]
+    },
+    {
+      "id": 50993,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kuzemi",
+        "last": "Swigert",
+        "full": "Kuzemi Swigert",
+        "native": "クゼミ・スワイガード",
+        "userPreferred": "Kuzemi Swigert"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b50993-yUgyfWod7vKv.png",
+      "voiceActors": [
+        {
+          "id": 100435,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Iwasaki",
+            "full": "Hiroshi Iwasaki",
+            "native": "岩崎ひろし",
+            "userPreferred": "Hiroshi Iwasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100435-Wmks380EzmJv.png"
+        },
+        {
+          "id": 180474,
+          "language": "Portuguese",
+          "name": {
+            "first": "Ricardo",
+            "last": "Schnetzer",
+            "full": "Ricardo Schnetzer",
+            "native": "Ricardo Schnetzer",
+            "userPreferred": "Ricardo Schnetzer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n180474-or84Rrd8F0bN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4005,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dewey",
+        "last": "Novak",
+        "full": "Dewey Novak",
+        "native": "デューイ・ノヴァク",
+        "userPreferred": "Dewey Novak"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4005-HugI2oVVv1L4.png",
+      "voiceActors": [
+        {
+          "id": 95427,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouji",
+            "last": "Tsujitani",
+            "full": "Kouji Tsujitani",
+            "native": "辻谷耕史",
+            "userPreferred": "Kouji Tsujitani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95427-g0bwNKDLlROd.png"
+        },
+        {
+          "id": 190265,
+          "language": "Portuguese",
+          "name": {
+            "first": "Bruno",
+            "last": "Sangregório",
+            "full": "Bruno Sangregório",
+            "native": null,
+            "userPreferred": "Bruno Sangregório"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n190265-ECLpJul29fUS.png"
+        }
+      ]
+    },
+    {
+      "id": 50991,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Braya",
+        "last": "Mattingly",
+        "full": "Braya Mattingly",
+        "native": "ブラヤ・マッティングリー",
+        "userPreferred": "Braya Mattingly"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b50991-sdKEas7amq7c.jpg",
+      "voiceActors": [
+        {
+          "id": 96436,
+          "language": "Japanese",
+          "name": {
+            "first": "Mugihito",
+            "last": "",
+            "full": "Mugihito",
+            "native": "麦人 ",
+            "userPreferred": "Mugihito"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1436.jpg"
+        },
+        {
+          "id": 182692,
+          "language": "Portuguese",
+          "name": {
+            "first": "Bruno",
+            "last": "Rocha",
+            "full": "Bruno Rocha",
+            "native": null,
+            "userPreferred": "Bruno Rocha"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n182692-Sj2LTHw8XMgR.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1530,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Talho",
+        "last": "Yuuki",
+        "full": "Talho Yuuki",
+        "native": "タルホ・ユーキ",
+        "userPreferred": "Talho Yuuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1530-BjvFdpGZslfB.png",
+      "voiceActors": [
+        {
+          "id": 95176,
+          "language": "Japanese",
+          "name": {
+            "first": "Michiko",
+            "last": "Neya",
+            "full": "Michiko Neya",
+            "native": "根谷美智子",
+            "userPreferred": "Michiko Neya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95176-3yZnUwXap7nX.png"
+        },
+        {
+          "id": 175522,
+          "language": "Portuguese",
+          "name": {
+            "first": "Teline",
+            "last": "Carvalho",
+            "full": "Teline Carvalho",
+            "native": null,
+            "userPreferred": "Teline Carvalho"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n175522-FGAU6IUni2ma.jpg"
+        }
+      ]
+    },
+    {
+      "id": 30855,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Adroc",
+        "last": "Thurston",
+        "full": "Adroc Thurston",
+        "native": "アドロック",
+        "userPreferred": "Adroc Thurston"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b30855-4icrYm46SKvV.png",
+      "voiceActors": [
+        {
+          "id": 95326,
+          "language": "Japanese",
+          "name": {
+            "first": "Tooru",
+            "last": "Furuya",
+            "full": "Tooru Furuya",
+            "native": "古谷徹",
+            "userPreferred": "Tooru Furuya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95326-OfRv2DBnFVZU.png"
+        },
+        {
+          "id": 195092,
+          "language": "Portuguese",
+          "name": {
+            "first": "Guilherme",
+            "last": "Marques",
+            "full": "Guilherme Marques",
+            "native": null,
+            "userPreferred": "Guilherme Marques"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n195092-e5zNFTfGRO2F.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1512,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Holland",
+        "last": "Novak",
+        "full": "Holland Novak",
+        "native": "ホランド・ノヴァク",
+        "userPreferred": "Holland Novak"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1512-jitPkpgYJuBq.png",
+      "voiceActors": [
+        {
+          "id": 95006,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiyuki",
+            "last": "Morikawa",
+            "full": "Toshiyuki Morikawa",
+            "native": "森川智之",
+            "userPreferred": "Toshiyuki Morikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95006-hoLuiZANeD3Q.png"
+        },
+        {
+          "id": 190340,
+          "language": "Portuguese",
+          "name": {
+            "first": "Fábio",
+            "last": "Campos",
+            "full": "Fábio Campos",
+            "native": null,
+            "userPreferred": "Fábio Campos"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n190340-v5uDkJaD3jVv.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7105,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Ken-Goh",
+        "last": null,
+        "full": "Ken-Goh",
+        "native": "ケンゴー",
+        "userPreferred": "Ken-Goh"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7105-Mg4IXsejyiSD.png",
+      "voiceActors": []
+    },
+    {
+      "id": 12570,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Woz",
+        "last": null,
+        "full": "Woz",
+        "native": "ウォズ",
+        "userPreferred": "Woz"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b12570-gmp7A7VTYA69.png",
+      "voiceActors": []
+    },
+    {
+      "id": 12368,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Jobs",
+        "last": null,
+        "full": "Jobs",
+        "native": "ジョブス",
+        "userPreferred": "Jobs"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b12368-wglTWkF9X4FE.png",
+      "voiceActors": []
+    },
+    {
+      "id": 6775,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Hap",
+        "last": null,
+        "full": "Hap",
+        "native": "ハップ",
+        "userPreferred": "Hap"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6775-Lvl82RxNoQWv.png",
+      "voiceActors": []
+    }
+  ],
+  "relations": [
+    {
+      "id": 98470,
+      "relationType": "SEQUEL",
+      "malId": 35135,
+      "title": {
+        "romaji": "ANEMONE: Koukyoushihen Eureka Seven Hi-Evolution",
+        "english": "ANEMONE: Eureka Seven Hi-Evolution",
+        "native": "ANEMONE／交響詩篇エウレカセブン ハイエボリューション",
+        "userPreferred": "ANEMONE: Koukyoushihen Eureka Seven Hi-Evolution"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98470-y6GgN9h1bj1Q.jpg",
+      "color": "#e4f1c9",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98470-y6GgN9h1bj1Q.jpg",
+      "rating": 65
+    },
+    {
+      "id": 237,
+      "relationType": "ALTERNATIVE",
+      "malId": 237,
+      "title": {
+        "romaji": "Koukyoushihen Eureka Seven",
+        "english": "Eureka Seven",
+        "native": "交響詩篇エウレカセブン",
+        "userPreferred": "Koukyoushihen Eureka Seven"
+      },
+      "status": "Completed",
+      "episodes": 50,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx237-P1YEQQFqZ1An.jpg",
+      "color": null,
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/237-2w9hQ1THtj3C.jpg",
+      "rating": 77
+    },
+    {
+      "id": 118077,
+      "relationType": "PREQUEL",
+      "malId": null,
+      "title": {
+        "romaji": "Pachislot Eureka Seven 3",
+        "english": null,
+        "native": "パチスロエウレカセブン3",
+        "userPreferred": "Pachislot Eureka Seven 3"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx118077-jIxMjIASqJ4U.jpg",
+      "color": "#f143bb",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx118077-jIxMjIASqJ4U.jpg",
+      "rating": 63
+    }
+  ],
+  "episodes": [
+    {
+      "id": "koukyoushihen-eureka-seven-hi-evolution-1-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98469-yAUcfoLGLHTk.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//koukyoushihen-eureka-seven-hi-evolution-1-episode-1"
+    }
+  ]
+}

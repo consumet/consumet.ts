@@ -1,0 +1,149 @@
+{
+  "id": "4886",
+  "title": {
+    "romaji": "Inuyasha: Kuroi Tessaiga",
+    "english": null,
+    "native": "犬夜叉 黒い鉄砕牙"
+  },
+  "malId": 4886,
+  "synonyms": [
+    "Inu Yasha Special",
+    "Black Tessaiga",
+    "Black Tetsusaiga",
+    "Kuroi Tetsusaiga"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4886-xzcW3fD6rmoK.jpg",
+  "popularity": 4054,
+  "color": "#78281a",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4886-xzcW3fD6rmoK.jpg",
+  "description": "A 30-minute Inuyasha feature titled Kuroi Tessaiga screened on Takahashi Rumiko's picture exhibitions across Japan.<br><br>\nIn January 2010, this special ended up, slightly edited, as episode 15 of Inuyasha Kanketsu-hen.",
+  "status": "Completed",
+  "releaseDate": 2008,
+  "startDate": {
+    "year": 2008,
+    "month": 7,
+    "day": 30
+  },
+  "endDate": {
+    "year": 2008,
+    "month": 7,
+    "day": 30
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 71,
+  "duration": 30,
+  "genres": [
+    "Action"
+  ],
+  "season": "SUMMER",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "SPECIAL",
+  "recommendations": [
+    {
+      "id": 6811,
+      "malId": 6811,
+      "title": {
+        "romaji": "Inuyasha: Kanketsu-hen",
+        "english": "InuYasha: The Final Act",
+        "native": "犬夜叉 完結編",
+        "userPreferred": "Inuyasha: Kanketsu-hen"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6811-DUsNLwQAOB7o.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6811-dEHuP8TFsD7W.jpg",
+      "rating": 80,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 1353,
+      "role": "MAIN",
+      "name": {
+        "first": "Inuyasha",
+        "last": null,
+        "full": "Inuyasha",
+        "native": "犬夜叉",
+        "userPreferred": "Inuyasha"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1353-xsZhvfi7IFzT.png",
+      "voiceActors": [
+        {
+          "id": 109753,
+          "language": "Korean",
+          "name": {
+            "first": "Su Jin",
+            "last": "Kang",
+            "full": "Su Jin Kang",
+            "native": "수진강",
+            "userPreferred": "Su Jin Kang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109753-qqOQlkfARIzX.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 6811,
+      "relationType": "ALTERNATIVE",
+      "malId": 6811,
+      "title": {
+        "romaji": "Inuyasha: Kanketsu-hen",
+        "english": "InuYasha: The Final Act",
+        "native": "犬夜叉 完結編",
+        "userPreferred": "Inuyasha: Kanketsu-hen"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6811-DUsNLwQAOB7o.png",
+      "color": "#a1c9f1",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6811-dEHuP8TFsD7W.jpg",
+      "rating": 80
+    },
+    {
+      "id": 30676,
+      "relationType": "ADAPTATION",
+      "malId": 676,
+      "title": {
+        "romaji": "Inuyasha",
+        "english": "InuYasha",
+        "native": "犬夜叉",
+        "userPreferred": "Inuyasha"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30676-kQTOiNRyKwqL.jpg",
+      "color": "#d6351a",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/30676-APd8McxEz6Re.jpg",
+      "rating": 76
+    },
+    {
+      "id": 249,
+      "relationType": "PREQUEL",
+      "malId": 249,
+      "title": {
+        "romaji": "Inuyasha",
+        "english": "InuYasha",
+        "native": "犬夜叉",
+        "userPreferred": "Inuyasha"
+      },
+      "status": "Completed",
+      "episodes": 167,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "color": "#f15093",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/249-9ufXhmXxncry.jpg",
+      "rating": 76
+    }
+  ],
+  "episodes": []
+}

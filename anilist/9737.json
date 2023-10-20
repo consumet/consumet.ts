@@ -1,0 +1,668 @@
+{
+  "id": "9737",
+  "title": {
+    "romaji": "Appleseed XIII",
+    "english": null,
+    "native": "アップルシード XIII"
+  },
+  "malId": 9737,
+  "synonyms": [
+    "Appleseed (2011)"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9737-5ScTxWyYT3DH.png",
+  "popularity": 2157,
+  "color": "#f1935d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9737-5ScTxWyYT3DH.png",
+  "description": "After facing massive destruction from a devastating war, the city Olympus has become the last stronghold as the center of command for the world. In order to protect the city from a group of terrorists known as the Argonauts, former LAPD SWAT member, Deunan Knotts, runs special military forces consisting of Biroids (cloned humans) and her cyborg partner Brialeos. Knotts must protect the city at all costs but is met with difficulties when Al Ceides, the Argonaut leader thought to be dead, resurfaces and causes problems. <br><br>\n(Source: FUNimation) ",
+  "status": "Completed",
+  "releaseDate": 2011,
+  "startDate": {
+    "year": 2011,
+    "month": 6,
+    "day": 3
+  },
+  "endDate": {
+    "year": 2012,
+    "month": 1,
+    "day": 25
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 54,
+  "duration": 22,
+  "genres": [
+    "Action",
+    "Mecha",
+    "Sci-Fi"
+  ],
+  "season": "SUMMER",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 99424,
+      "malId": 35847,
+      "title": {
+        "romaji": "SSSS.GRIDMAN",
+        "english": "SSSS.GRIDMAN",
+        "native": "SSSS.GRIDMAN",
+        "userPreferred": "SSSS.GRIDMAN"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99424-9bV9lbUhynar.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99424-siL3zkjLWjUc.jpg",
+      "rating": 71,
+      "type": "TV"
+    },
+    {
+      "id": 2746,
+      "malId": 2746,
+      "title": {
+        "romaji": "Vexille: 2077 Nihon Sakoku",
+        "english": "Vexille: 2077 Japan National Isolation",
+        "native": "ベクシル 2077日本鎖国",
+        "userPreferred": "Vexille: 2077 Nihon Sakoku"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2746-Nz1qZjj7wSs6.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2746-Nz1qZjj7wSs6.jpg",
+      "rating": 64,
+      "type": "MOVIE"
+    }
+  ],
+  "characters": [
+    {
+      "id": 2211,
+      "role": "MAIN",
+      "name": {
+        "first": "Briareos",
+        "last": "Hecatonchires",
+        "full": "Briareos Hecatonchires",
+        "native": "ブリアレオス・ヘカトンケイレス",
+        "userPreferred": "Briareos Hecatonchires"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2211.jpg",
+      "voiceActors": [
+        {
+          "id": 95011,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouichi",
+            "last": "Yamadera",
+            "full": "Kouichi Yamadera",
+            "native": "山寺宏一",
+            "userPreferred": "Kouichi Yamadera"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95011-2RfLzncNyvbR.png"
+        },
+        {
+          "id": 95379,
+          "language": "English",
+          "name": {
+            "first": "David",
+            "last": "Matranga",
+            "full": "David Matranga",
+            "native": null,
+            "userPreferred": "David Matranga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95379-GMh9EncYDh5n.png"
+        },
+        {
+          "id": 145516,
+          "language": "German",
+          "name": {
+            "first": "Michael",
+            "last": "Iwannek",
+            "full": "Michael Iwannek",
+            "native": null,
+            "userPreferred": "Michael Iwannek"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2210,
+      "role": "MAIN",
+      "name": {
+        "first": "Deunan",
+        "last": "Knute",
+        "full": "Deunan Knute",
+        "native": "デュナン・ナッツ ",
+        "userPreferred": "Deunan Knute"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2210.jpg",
+      "voiceActors": [
+        {
+          "id": 95090,
+          "language": "Japanese",
+          "name": {
+            "first": "Maaya",
+            "last": "Sakamoto",
+            "full": "Maaya Sakamoto",
+            "native": "坂本真綾",
+            "userPreferred": "Maaya Sakamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95090-oARRP42NEhu0.jpg"
+        },
+        {
+          "id": 95189,
+          "language": "English",
+          "name": {
+            "first": "Luci",
+            "last": "Christian",
+            "full": "Luci Christian",
+            "native": null,
+            "userPreferred": "Luci Christian"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95189-M2IkMNRzHYcF.jpg"
+        },
+        {
+          "id": 102594,
+          "language": "German",
+          "name": {
+            "first": "Esra",
+            "last": "Vural",
+            "full": "Esra Vural",
+            "native": null,
+            "userPreferred": "Esra Vural"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102594-zXkmqWQsZsQJ.png"
+        }
+      ]
+    },
+    {
+      "id": 6860,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hitomi",
+        "last": null,
+        "full": "Hitomi",
+        "native": "ヒトミ（人美）",
+        "userPreferred": "Hitomi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6860-nDoTI1xBLBhe.png",
+      "voiceActors": [
+        {
+          "id": 95132,
+          "language": "Japanese",
+          "name": {
+            "first": "Mikako",
+            "last": "Takahashi",
+            "full": "Mikako Takahashi",
+            "native": "高橋美佳子",
+            "userPreferred": "Mikako Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95132-TpIFKL0tJg84.jpg"
+        },
+        {
+          "id": 105073,
+          "language": "English",
+          "name": {
+            "first": "Emily",
+            "last": "Neves",
+            "full": "Emily Neves",
+            "native": null,
+            "userPreferred": "Emily Neves"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105073-S4JMuSDQbiTt.jpg"
+        },
+        {
+          "id": 103846,
+          "language": "German",
+          "name": {
+            "first": "Julia",
+            "last": "Stoepel",
+            "full": "Julia Stoepel",
+            "native": null,
+            "userPreferred": "Julia Stoepel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8846.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36297,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nike",
+        "last": null,
+        "full": "Nike",
+        "native": "ニケ",
+        "userPreferred": "Nike"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36297-MR0QRaFbgtZq.png",
+      "voiceActors": [
+        {
+          "id": 101612,
+          "language": "Japanese",
+          "name": {
+            "first": "Mayumi",
+            "last": "Yanagisawa",
+            "full": "Mayumi Yanagisawa",
+            "native": "真由美 柳沢 ",
+            "userPreferred": "Mayumi Yanagisawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6612.jpg"
+        },
+        {
+          "id": 95193,
+          "language": "English",
+          "name": {
+            "first": "Shelley",
+            "last": "Calene-Black",
+            "full": "Shelley Calene-Black",
+            "native": null,
+            "userPreferred": "Shelley Calene-Black"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95193-Nvdjk8BIcEJb.png"
+        },
+        {
+          "id": 103549,
+          "language": "German",
+          "name": {
+            "first": "Antje",
+            "last": "von der Ahe",
+            "full": "Antje von der Ahe",
+            "native": null,
+            "userPreferred": "Antje von der Ahe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8549.jpg"
+        }
+      ]
+    },
+    {
+      "id": 44276,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lance",
+        "last": null,
+        "full": "Lance",
+        "native": null,
+        "userPreferred": "Lance"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95338,
+          "language": "Japanese",
+          "name": {
+            "first": "Naoya",
+            "last": "Uchida",
+            "full": "Naoya Uchida",
+            "native": "内田直哉",
+            "userPreferred": "Naoya Uchida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95338-i2Jdgc5rQNMa.png"
+        },
+        {
+          "id": 100990,
+          "language": "English",
+          "name": {
+            "first": "Charles",
+            "last": "Campbell",
+            "full": "Charles Campbell",
+            "native": null,
+            "userPreferred": "Charles Campbell"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5990.jpg"
+        },
+        {
+          "id": 106915,
+          "language": "German",
+          "name": {
+            "first": "Jan",
+            "last": "Spitzer",
+            "full": "Jan Spitzer",
+            "native": null,
+            "userPreferred": "Jan Spitzer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106915-db97odlTCdhb.png"
+        }
+      ]
+    },
+    {
+      "id": 36298,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yoshitsune",
+        "last": null,
+        "full": "Yoshitsune",
+        "native": "義経",
+        "userPreferred": "Yoshitsune"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/36298.jpg",
+      "voiceActors": [
+        {
+          "id": 95356,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiro",
+            "last": "Shimono",
+            "full": "Hiro Shimono",
+            "native": "下野紘",
+            "userPreferred": "Hiro Shimono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95356-PFaZRlI9oJ56.png"
+        },
+        {
+          "id": 103686,
+          "language": "English",
+          "name": {
+            "first": "Micah",
+            "last": "Solusod",
+            "full": "Micah Solusod",
+            "native": null,
+            "userPreferred": "Micah Solusod"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8686.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5373,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Athena",
+        "last": "Areios",
+        "full": "Athena Areios",
+        "native": "アテナ・アレイアス",
+        "userPreferred": "Athena Areios"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5373-Jx6cbp7gtndx.png",
+      "voiceActors": [
+        {
+          "id": 95448,
+          "language": "Japanese",
+          "name": {
+            "first": "Sakiko",
+            "last": "Tamagawa",
+            "full": "Sakiko Tamagawa",
+            "native": "玉川砂記子",
+            "userPreferred": "Sakiko Tamagawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95448-aZ4oV0K3UJf2.png"
+        },
+        {
+          "id": 96606,
+          "language": "English",
+          "name": {
+            "first": "Allison",
+            "last": "Sumrall",
+            "full": "Allison Sumrall",
+            "native": null,
+            "userPreferred": "Allison Sumrall"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96606-oaTOj5bbSpDs.jpg"
+        },
+        {
+          "id": 101102,
+          "language": "German",
+          "name": {
+            "first": "Heide",
+            "last": "Domanowski",
+            "full": "Heide Domanowski",
+            "native": null,
+            "userPreferred": "Heide Domanowski"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6102.jpg"
+        }
+      ]
+    },
+    {
+      "id": 149939,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Erinyes",
+        "last": null,
+        "full": "Erinyes",
+        "native": null,
+        "userPreferred": "Erinyes"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95342,
+          "language": "Japanese",
+          "name": {
+            "first": "Masako",
+            "last": "Katsuki",
+            "full": "Masako Katsuki",
+            "native": "勝生真沙子",
+            "userPreferred": "Masako Katsuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95342-pC8tGadzfTNb.jpg"
+        },
+        {
+          "id": 187296,
+          "language": "German",
+          "name": {
+            "first": "Daniela",
+            "last": "Hoffmann",
+            "full": "Daniela Hoffmann",
+            "native": null,
+            "userPreferred": "Daniela Hoffmann"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n187296-FPABLWtnKzoy.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 77369,
+      "relationType": "ADAPTATION",
+      "malId": 47369,
+      "title": {
+        "romaji": "Appleseed XIII",
+        "english": null,
+        "native": "アップルシード XIII",
+        "userPreferred": "Appleseed XIII"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx77369-mRhF7kc6UrUg.jpg",
+      "color": "#f1e486",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx77369-mRhF7kc6UrUg.jpg",
+      "rating": 60
+    },
+    {
+      "id": 10689,
+      "relationType": "SUMMARY",
+      "malId": 10689,
+      "title": {
+        "romaji": "APPLESEED XIII Remix Movie: Yuigon",
+        "english": "Appleseed XIII: Tartaros",
+        "native": "劇場リミックス版 APPLESEED XIII ～遺言～",
+        "userPreferred": "APPLESEED XIII Remix Movie: Yuigon"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10689.jpg",
+      "color": "#86431a",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10689.jpg",
+      "rating": 57
+    },
+    {
+      "id": 10693,
+      "relationType": "SUMMARY",
+      "malId": 10693,
+      "title": {
+        "romaji": "APPLESEED XIII Remix Movie: Yogen",
+        "english": "Appleseed XIII: Ouranos",
+        "native": "劇場リミックス版 APPLESEED XIII ～予言～",
+        "userPreferred": "APPLESEED XIII Remix Movie: Yogen"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10693.jpg",
+      "color": "#f1785d",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10693.jpg",
+      "rating": 57
+    },
+    {
+      "id": 937,
+      "relationType": "ALTERNATIVE",
+      "malId": 937,
+      "title": {
+        "romaji": "Appleseed",
+        "english": "Appleseed",
+        "native": "アップルシード",
+        "userPreferred": "Appleseed"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx937-2SYiMKI3qPkp.jpg",
+      "color": "#e49350",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/937-QB6I9ZzJ3Jwp.jpg",
+      "rating": 59
+    },
+    {
+      "id": 54,
+      "relationType": "ALTERNATIVE",
+      "malId": 54,
+      "title": {
+        "romaji": "Appleseed (Movie)",
+        "english": null,
+        "native": "アップルシード",
+        "userPreferred": "Appleseed (Movie)"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx54-EIMIUlH3FuJb.jpg",
+      "color": "#0d786b",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx54-EIMIUlH3FuJb.jpg",
+      "rating": 65
+    }
+  ],
+  "episodes": [
+    {
+      "id": "appleseed-xiii-episode-1",
+      "title": "The Nemean Lion",
+      "image": "https://media.kitsu.io/episodes/thumbnails/87760/original.jpeg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:28:21Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//appleseed-xiii-episode-1"
+    },
+    {
+      "id": "appleseed-xiii-episode-2",
+      "title": "The Augean Stables",
+      "image": "https://media.kitsu.io/episodes/thumbnails/87761/original.jpeg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:28:21Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//appleseed-xiii-episode-2"
+    },
+    {
+      "id": "appleseed-xiii-episode-3",
+      "title": "The Ceryneian Hind",
+      "image": "https://media.kitsu.io/episodes/thumbnails/87762/original.jpeg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:28:21Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//appleseed-xiii-episode-3"
+    },
+    {
+      "id": "appleseed-xiii-episode-4",
+      "title": "The Cattle of Geryon",
+      "image": "https://media.kitsu.io/episodes/thumbnails/87763/original.jpeg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:28:21Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//appleseed-xiii-episode-4"
+    },
+    {
+      "id": "appleseed-xiii-episode-5",
+      "title": "The Cretan Bull",
+      "image": "https://media.kitsu.io/episodes/thumbnails/87764/original.jpeg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:28:21Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//appleseed-xiii-episode-5"
+    },
+    {
+      "id": "appleseed-xiii-episode-6",
+      "title": "The Erymanthian Boar",
+      "image": "https://media.kitsu.io/episodes/thumbnails/87765/original.jpeg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:28:21Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//appleseed-xiii-episode-6"
+    },
+    {
+      "id": "appleseed-xiii-episode-7",
+      "title": "The Stymphalean Birds",
+      "image": "https://media.kitsu.io/episodes/thumbnails/87766/original.jpeg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:28:21Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//appleseed-xiii-episode-7"
+    },
+    {
+      "id": "appleseed-xiii-episode-8",
+      "title": "The Mares of Diomedes",
+      "image": "https://media.kitsu.io/episodes/thumbnails/87767/original.jpeg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:28:21Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//appleseed-xiii-episode-8"
+    },
+    {
+      "id": "appleseed-xiii-episode-9",
+      "title": "The Girdle of Hippolyta",
+      "image": "https://media.kitsu.io/episodes/thumbnails/87768/original.jpeg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:28:21Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//appleseed-xiii-episode-9"
+    },
+    {
+      "id": "appleseed-xiii-episode-10",
+      "title": "The Lernaean Hydra",
+      "image": "https://media.kitsu.io/episodes/thumbnails/87769/original.jpeg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:28:21Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//appleseed-xiii-episode-10"
+    },
+    {
+      "id": "appleseed-xiii-episode-11",
+      "title": "The Apples of Hesperides",
+      "image": "https://media.kitsu.io/episodes/thumbnails/87770/original.jpeg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:28:21Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//appleseed-xiii-episode-11"
+    },
+    {
+      "id": "appleseed-xiii-episode-12",
+      "title": "The Capture of Cerberus",
+      "image": "https://media.kitsu.io/episodes/thumbnails/87771/original.jpeg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:28:21Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//appleseed-xiii-episode-12"
+    },
+    {
+      "id": "appleseed-xiii-episode-13",
+      "title": "Paradeisos",
+      "image": "https://media.kitsu.io/episodes/thumbnails/87772/original.jpeg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:28:21Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//appleseed-xiii-episode-13"
+    }
+  ]
+}

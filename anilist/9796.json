@@ -1,0 +1,84 @@
+{
+  "id": "9796",
+  "title": {
+    "romaji": "Atashin'chi 3D Movie: Jounetsu no Chou Chounouryoku♪Haha Dai Bousou",
+    "english": null,
+    "native": "劇場版3D あたしンち 情熱のちょ～超能力♪母大暴走!"
+  },
+  "malId": 9796,
+  "synonyms": [
+    "Gekijouban 3D Atashin'chi Jounetsu no Chou Chounouryoku Haha Dai Bousou"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9796.jpg",
+  "popularity": 265,
+  "color": "#e4ae1a",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9796.jpg",
+  "description": "A 3D theatrical anime adaptation.",
+  "status": "Completed",
+  "releaseDate": 2010,
+  "startDate": {
+    "year": 2010,
+    "month": 11,
+    "day": 13
+  },
+  "endDate": {
+    "year": 2010,
+    "month": 11,
+    "day": 13
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 55,
+  "duration": 40,
+  "genres": [
+    "Comedy"
+  ],
+  "season": "FALL",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [],
+  "characters": [],
+  "relations": [
+    {
+      "id": 46621,
+      "relationType": "ADAPTATION",
+      "malId": 16621,
+      "title": {
+        "romaji": "Atashin'chi",
+        "english": null,
+        "native": "あたしンち",
+        "userPreferred": "Atashin'chi"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx46621-ev5y1rKuymiY.jpg",
+      "color": "#d6a11a",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx46621-ev5y1rKuymiY.jpg",
+      "rating": 64
+    },
+    {
+      "id": 3006,
+      "relationType": "PARENT",
+      "malId": 3006,
+      "title": {
+        "romaji": "Atashin'chi",
+        "english": null,
+        "native": "あたしンち",
+        "userPreferred": "Atashin'chi"
+      },
+      "status": "Completed",
+      "episodes": 330,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3006.jpg",
+      "color": "#28aee4",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3006.jpg",
+      "rating": 70
+    }
+  ],
+  "episodes": []
+}

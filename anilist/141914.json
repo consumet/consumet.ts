@@ -1,0 +1,742 @@
+{
+  "id": "141914",
+  "title": {
+    "romaji": "Wu Nao Monü",
+    "english": "Agate",
+    "native": "无脑魔女"
+  },
+  "malId": 55731,
+  "synonyms": [
+    "Agate",
+    "Brainless Witch"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "CN",
+  "trailer": {
+    "id": "qPmP8-0Pwuw",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/qPmP8-0Pwuw/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141914-y9QRJEfNb2SS.jpg",
+  "popularity": 694,
+  "color": "#bbd6ff",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141914-y9QRJEfNb2SS.jpg",
+  "description": "Having lost something important, the immortal witch could not stop her tears, and accidentally provoked the Prince of Hell when she tried various ways to stop her own tears! Hence, a daily life of pandemonium ensues!\n<br><br>\n(Source: Bilibili)",
+  "status": "Completed",
+  "releaseDate": 2023,
+  "startDate": {
+    "year": 2023,
+    "month": 7,
+    "day": 4
+  },
+  "endDate": {
+    "year": 2023,
+    "month": 10,
+    "day": 3
+  },
+  "totalEpisodes": 15,
+  "currentEpisode": 15,
+  "rating": 54,
+  "duration": 6,
+  "genres": [
+    "Comedy",
+    "Fantasy",
+    "Slice of Life"
+  ],
+  "season": null,
+  "studios": [
+    "Unity of Knowledge and Action Animation"
+  ],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [
+    {
+      "id": 154587,
+      "malId": 52991,
+      "title": {
+        "romaji": "Sousou no Frieren",
+        "english": "Frieren: Beyond Journey’s End",
+        "native": "葬送のフリーレン",
+        "userPreferred": "Sousou no Frieren"
+      },
+      "status": "Ongoing",
+      "episodes": 28,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154587-n1fmjRv4JQUd.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/154587-ivXNJ23SM1xB.jpg",
+      "rating": 87,
+      "type": "TV"
+    },
+    {
+      "id": 114535,
+      "malId": 41025,
+      "title": {
+        "romaji": "Fumetsu no Anata e",
+        "english": "To Your Eternity",
+        "native": "不滅のあなたへ",
+        "userPreferred": "Fumetsu no Anata e"
+      },
+      "status": "Completed",
+      "episodes": 20,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114535-y3NnjexcqKG1.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114535-ASUprf4AsNwC.jpg",
+      "rating": 81,
+      "type": "TV"
+    },
+    {
+      "id": 112609,
+      "malId": 40571,
+      "title": {
+        "romaji": "Majo no Tabitabi",
+        "english": "Wandering Witch: The Journey of Elaina",
+        "native": "魔女の旅々",
+        "userPreferred": "Majo no Tabitabi"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112609-dbpOh4fdXAlC.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112609-P969sQ0jIU6S.jpg",
+      "rating": 74,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 308320,
+      "role": "MAIN",
+      "name": {
+        "first": "Manao",
+        "last": null,
+        "full": "Manao",
+        "native": "玛瑙",
+        "userPreferred": "Manao"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b308320-Y5Mff8G5sOW8.png",
+      "voiceActors": [
+        {
+          "id": 188464,
+          "language": "Chinese",
+          "name": {
+            "first": "Sha",
+            "last": "Xiaolian",
+            "full": "Sha Xiaolian",
+            "native": "小连杀",
+            "userPreferred": "Sha Xiaolian"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188464-Vd5KhPVv8gYJ.png"
+        }
+      ]
+    },
+    {
+      "id": 308324,
+      "role": "MAIN",
+      "name": {
+        "first": "Alois",
+        "last": null,
+        "full": "Alois",
+        "native": "阿洛伊斯",
+        "userPreferred": "Alois"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b308324-HlYsiQj8Kv3l.png",
+      "voiceActors": [
+        {
+          "id": 308327,
+          "language": "Chinese",
+          "name": {
+            "first": "Xuan",
+            "last": "Qi",
+            "full": "Xuan Qi",
+            "native": "齐璇",
+            "userPreferred": "Xuan Qi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n308327-Zea4Bes7Xs9r.png"
+        }
+      ]
+    },
+    {
+      "id": 308332,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Char",
+        "last": null,
+        "full": "Char",
+        "native": "查尔",
+        "userPreferred": "Char"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 280626,
+          "language": "Chinese",
+          "name": {
+            "first": "Yuantao",
+            "last": "Zhang",
+            "full": "Yuantao Zhang",
+            "native": "张远韬",
+            "userPreferred": "Yuantao Zhang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n280626-d5zdIite6T5f.png"
+        }
+      ]
+    },
+    {
+      "id": 308335,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dibu",
+        "last": null,
+        "full": "Dibu",
+        "native": "迪布",
+        "userPreferred": "Dibu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 308344,
+          "language": "Chinese",
+          "name": {
+            "first": "Wei",
+            "last": "Huang",
+            "full": "Wei Huang",
+            "native": "黄玮",
+            "userPreferred": "Wei Huang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n308344-V2lOhfbQq79K.png"
+        }
+      ]
+    },
+    {
+      "id": 308321,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Xiaolü",
+        "last": null,
+        "full": "Xiaolü",
+        "native": "小绿",
+        "userPreferred": "Xiaolü"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 249066,
+          "language": "Chinese",
+          "name": {
+            "first": "Zhixuan",
+            "last": "Li",
+            "full": "Zhixuan Li",
+            "native": "李芷暶",
+            "userPreferred": "Zhixuan Li"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n249066-AMSkdHGAZybU.png"
+        }
+      ]
+    },
+    {
+      "id": 308331,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Diyu Zhi Wang",
+        "last": null,
+        "full": "Diyu Zhi Wang",
+        "native": "地狱之王",
+        "userPreferred": "Diyu Zhi Wang"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 163169,
+          "language": "Chinese",
+          "name": {
+            "first": "Zhen",
+            "last": "Zhang",
+            "full": "Zhen Zhang",
+            "native": "张震",
+            "userPreferred": "Zhen Zhang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n163169-3oaHxD12U0zN.png"
+        }
+      ]
+    },
+    {
+      "id": 308340,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shuang Monü",
+        "last": null,
+        "full": "Shuang Monü",
+        "native": "霜魔女",
+        "userPreferred": "Shuang Monü"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 308342,
+          "language": "Chinese",
+          "name": {
+            "first": "Yuer",
+            "last": "Wang",
+            "full": "Yuer Wang",
+            "native": "王钰儿",
+            "userPreferred": "Yuer Wang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n308342-zFfv8UQowTch.jpg"
+        }
+      ]
+    },
+    {
+      "id": 308322,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Azhu",
+        "last": null,
+        "full": "Azhu",
+        "native": "阿珠",
+        "userPreferred": "Azhu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b308322-9MjMkhCntZwh.png",
+      "voiceActors": [
+        {
+          "id": 243065,
+          "language": "Chinese",
+          "name": {
+            "first": "Ai",
+            "last": "Li",
+            "full": "Ai Li",
+            "native": "李哎",
+            "userPreferred": "Ai Li"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n243065-VJIgKuYMpyxv.png"
+        }
+      ]
+    },
+    {
+      "id": 308330,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dylan",
+        "last": null,
+        "full": "Dylan",
+        "native": "狄兰",
+        "userPreferred": "Dylan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 308333,
+          "language": "Chinese",
+          "name": {
+            "first": "Qiuzi",
+            "last": "Xiao",
+            "full": "Qiuzi Xiao",
+            "native": "萧秋子",
+            "userPreferred": "Qiuzi Xiao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n308333-sM0tyhQC3wri.png"
+        }
+      ]
+    },
+    {
+      "id": 308325,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yanbo",
+        "last": null,
+        "full": "Yanbo",
+        "native": "烟伯",
+        "userPreferred": "Yanbo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 217358,
+          "language": "Chinese",
+          "name": {
+            "first": "Zhengjian",
+            "last": "Guo",
+            "full": "Zhengjian Guo",
+            "native": "郭政建",
+            "userPreferred": "Zhengjian Guo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n217358-ShmYyPz3t5Iy.png"
+        }
+      ]
+    },
+    {
+      "id": 308337,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dongling Wang",
+        "last": null,
+        "full": "Dongling Wang",
+        "native": "东陵王",
+        "userPreferred": "Dongling Wang"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 163272,
+          "language": "Chinese",
+          "name": {
+            "first": "Hameng",
+            "last": "Tute",
+            "full": "Hameng Tute",
+            "native": "图特哈蒙",
+            "userPreferred": "Hameng Tute"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n163272-zMPUL6ULEbrP.png"
+        }
+      ]
+    },
+    {
+      "id": 308323,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tong",
+        "last": null,
+        "full": "Tong",
+        "native": "桐",
+        "userPreferred": "Tong"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 175033,
+          "language": "Chinese",
+          "name": {
+            "first": "Youwu",
+            "last": "Yueshan",
+            "full": "Youwu Yueshan",
+            "native": "幽舞越山",
+            "userPreferred": "Youwu Yueshan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n175033-e6OrviitiK7b.png"
+        },
+        {
+          "id": 308326,
+          "language": "Chinese",
+          "name": {
+            "first": "Bai",
+            "last": "Li",
+            "full": "Bai Li",
+            "native": "李白",
+            "userPreferred": "Bai Li"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n308326-BIX1RILWr1PN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 308338,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Feicui Nüwang",
+        "last": null,
+        "full": "Feicui Nüwang",
+        "native": "翡翠女王",
+        "userPreferred": "Feicui Nüwang"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 217498,
+          "language": "Chinese",
+          "name": {
+            "first": "Huizhang",
+            "last": "Sidao",
+            "full": "Huizhang Sidao",
+            "native": "四刀辉彰",
+            "userPreferred": "Huizhang Sidao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n217498-6YQovwiM87e1.png"
+        }
+      ]
+    },
+    {
+      "id": 308336,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dongling Wangfei",
+        "last": null,
+        "full": "Dongling Wangfei",
+        "native": "东陵王妃",
+        "userPreferred": "Dongling Wangfei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 217500,
+          "language": "Chinese",
+          "name": {
+            "first": "Rongshan",
+            "last": "Chang",
+            "full": "Rongshan Chang",
+            "native": "常蓉珊",
+            "userPreferred": "Rongshan Chang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n217500-YjTB0BftT331.png"
+        }
+      ]
+    },
+    {
+      "id": 308328,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Oris",
+        "last": null,
+        "full": "Oris",
+        "native": "奥里斯",
+        "userPreferred": "Oris"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 218483,
+          "language": "Chinese",
+          "name": {
+            "first": "Enze",
+            "last": "Zhang",
+            "full": "Enze Zhang",
+            "native": "张恩泽",
+            "userPreferred": "Enze Zhang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n218483-pulGhn4xqijv.png"
+        }
+      ]
+    },
+    {
+      "id": 308334,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ying Monü",
+        "last": null,
+        "full": "Ying Monü",
+        "native": "影魔女",
+        "userPreferred": "Ying Monü"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 308341,
+          "language": "Chinese",
+          "name": {
+            "first": "Yuechen",
+            "last": null,
+            "full": "Yuechen",
+            "native": "玥辰",
+            "userPreferred": "Yuechen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n308341-QsH8nwz67ltQ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 308329,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Zhongning",
+        "last": null,
+        "full": "Zhongning",
+        "native": "仲宁",
+        "userPreferred": "Zhongning"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 218608,
+          "language": "Chinese",
+          "name": {
+            "first": "Yingjun",
+            "last": "Jiang",
+            "full": "Yingjun Jiang",
+            "native": "姜英俊",
+            "userPreferred": "Yingjun Jiang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n218608-gYaQ7UdI9ZFK.png"
+        }
+      ]
+    },
+    {
+      "id": 308339,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yinci",
+        "last": "Hai",
+        "full": "Yinci Hai",
+        "native": "海因茨",
+        "userPreferred": "Yinci Hai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 308343,
+          "language": "Chinese",
+          "name": {
+            "first": "Zhihao",
+            "last": "Cui",
+            "full": "Zhihao Cui",
+            "native": "崔郅昊",
+            "userPreferred": "Zhihao Cui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n308343-UKRLtHs2leZe.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 136271,
+      "relationType": "ADAPTATION",
+      "malId": null,
+      "title": {
+        "romaji": "Wu Nao Monü",
+        "english": "Brainless Witch",
+        "native": "无脑魔女",
+        "userPreferred": "Wu Nao Monü"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx136271-CrbcVMp3QwMY.jpg",
+      "color": "#a1c9e4",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx136271-CrbcVMp3QwMY.jpg",
+      "rating": 75
+    }
+  ],
+  "episodes": [
+    {
+      "id": "wu-nao-monu-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141914-y9QRJEfNb2SS.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//wu-nao-monu-episode-1"
+    },
+    {
+      "id": "wu-nao-monu-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141914-y9QRJEfNb2SS.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//wu-nao-monu-episode-2"
+    },
+    {
+      "id": "wu-nao-monu-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141914-y9QRJEfNb2SS.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//wu-nao-monu-episode-3"
+    },
+    {
+      "id": "wu-nao-monu-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141914-y9QRJEfNb2SS.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//wu-nao-monu-episode-4"
+    },
+    {
+      "id": "wu-nao-monu-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141914-y9QRJEfNb2SS.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//wu-nao-monu-episode-5"
+    },
+    {
+      "id": "wu-nao-monu-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141914-y9QRJEfNb2SS.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//wu-nao-monu-episode-6"
+    },
+    {
+      "id": "wu-nao-monu-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141914-y9QRJEfNb2SS.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//wu-nao-monu-episode-7"
+    },
+    {
+      "id": "wu-nao-monu-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141914-y9QRJEfNb2SS.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//wu-nao-monu-episode-8"
+    },
+    {
+      "id": "wu-nao-monu-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141914-y9QRJEfNb2SS.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//wu-nao-monu-episode-9"
+    },
+    {
+      "id": "wu-nao-monu-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141914-y9QRJEfNb2SS.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//wu-nao-monu-episode-10"
+    },
+    {
+      "id": "wu-nao-monu-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141914-y9QRJEfNb2SS.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//wu-nao-monu-episode-11"
+    },
+    {
+      "id": "wu-nao-monu-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141914-y9QRJEfNb2SS.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//wu-nao-monu-episode-12"
+    },
+    {
+      "id": "wu-nao-monu-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141914-y9QRJEfNb2SS.jpg",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//wu-nao-monu-episode-13"
+    },
+    {
+      "id": "wu-nao-monu-episode-14",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141914-y9QRJEfNb2SS.jpg",
+      "number": 14,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//wu-nao-monu-episode-14"
+    },
+    {
+      "id": "wu-nao-monu-episode-15",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141914-y9QRJEfNb2SS.jpg",
+      "number": 15,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//wu-nao-monu-episode-15"
+    }
+  ]
+}

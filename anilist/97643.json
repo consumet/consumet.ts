@@ -1,0 +1,763 @@
+{
+  "id": "97643",
+  "title": {
+    "romaji": "Berserk 2",
+    "english": "Berserk 2",
+    "native": "ベルセルク 2"
+  },
+  "malId": 34055,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "ImzOBnMhUho",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/ImzOBnMhUho/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97643-5s3MVIfTYIuQ.jpg",
+  "popularity": 28992,
+  "color": "#f1c943",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97643-ggveKlc8ffbd.jpg",
+  "description": "Second season of <i>Berserk.</i><br><br>\nDemons have now become commonplace around the kingdom of Midland, which has fallen into chaos. The swordsman Guts still cannot stay in one place for long due to his demonic brand. He could always manage to protect himself when he was alone, but now he has the added challenge of protecting former Commander Casca, a shell of her former self who neither remembers nor trusts him. They never have a moment's rest with the constant threat of demons, and they need a place where Casca will be safe till they find a way to heal her. Their elf ally, Puck, tells of the mystical land of Elfhelm, which is supposed to be a safe haven from the demons that ravage the lands. Tired and with only a vague hope, they struggle on to find a place to live—and they still need to find those responsible for the madness they are forced to endure.\n",
+  "status": "Completed",
+  "releaseDate": 2017,
+  "startDate": {
+    "year": 2017,
+    "month": 4,
+    "day": 7
+  },
+  "endDate": {
+    "year": 2017,
+    "month": 6,
+    "day": 23
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 59,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Drama",
+    "Fantasy",
+    "Horror",
+    "Supernatural"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Millepensee",
+    "GEMBA"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 106503,
+      "malId": 38853,
+      "title": {
+        "romaji": "EX-ARM",
+        "english": "EX-ARM",
+        "native": "EX-ARM エクスアーム",
+        "userPreferred": "EX-ARM"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx106503-7pbrod3B9HJF.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/106503-brwe9NTd9B8M.jpg",
+      "rating": 21,
+      "type": "TV"
+    },
+    {
+      "id": 1139,
+      "malId": 1139,
+      "title": {
+        "romaji": "Monkey Magic",
+        "english": null,
+        "native": "モンキーマジック",
+        "userPreferred": "Monkey Magic"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1139.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1139.jpg",
+      "rating": 46,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 422,
+      "role": "MAIN",
+      "name": {
+        "first": "Guts",
+        "last": null,
+        "full": "Guts",
+        "native": "ガッツ",
+        "userPreferred": "Guts"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b422-YX53yaUYoEaD.png",
+      "voiceActors": [
+        {
+          "id": 108553,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroaki",
+            "last": "Iwanaga",
+            "full": "Hiroaki Iwanaga",
+            "native": "岩永洋昭",
+            "userPreferred": "Hiroaki Iwanaga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/13553.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7857,
+      "role": "MAIN",
+      "name": {
+        "first": "Farnese",
+        "last": "de Vandimion",
+        "full": "Farnese de Vandimion",
+        "native": "ファルネーゼ・ド・ヴァンディミオン",
+        "userPreferred": "Farnese de Vandimion"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7857-W7WpcGlw2aeH.png",
+      "voiceActors": [
+        {
+          "id": 102263,
+          "language": "Japanese",
+          "name": {
+            "first": "Youko",
+            "last": "Hikasa",
+            "full": "Youko Hikasa",
+            "native": "日笠陽子",
+            "userPreferred": "Youko Hikasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102263-aaPZtNXVUljW.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5060,
+      "role": "MAIN",
+      "name": {
+        "first": "Puck",
+        "last": null,
+        "full": "Puck",
+        "native": "パック ",
+        "userPreferred": "Puck"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5060-PWn2hc2nBy9J.jpg",
+      "voiceActors": [
+        {
+          "id": 95579,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaoru",
+            "last": "Mizuhara",
+            "full": "Kaoru Mizuhara",
+            "native": "水原薫",
+            "userPreferred": "Kaoru Mizuhara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95579-5ZsNx7VamyqG.png"
+        }
+      ]
+    },
+    {
+      "id": 7859,
+      "role": "MAIN",
+      "name": {
+        "first": "Isidro",
+        "last": null,
+        "full": "Isidro",
+        "native": null,
+        "userPreferred": "Isidro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7859-ThWoSQUjRlKU.png",
+      "voiceActors": [
+        {
+          "id": 95356,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiro",
+            "last": "Shimono",
+            "full": "Hiro Shimono",
+            "native": "下野紘",
+            "userPreferred": "Hiro Shimono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95356-PFaZRlI9oJ56.png"
+        }
+      ]
+    },
+    {
+      "id": 7866,
+      "role": "MAIN",
+      "name": {
+        "first": "Evarella",
+        "last": null,
+        "full": "Evarella",
+        "native": null,
+        "userPreferred": "Evarella"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7866-Z7zTpNVdC8DP.png",
+      "voiceActors": [
+        {
+          "id": 95124,
+          "language": "Japanese",
+          "name": {
+            "first": "Satomi",
+            "last": "Arai",
+            "full": "Satomi Arai",
+            "native": "新井里美",
+            "userPreferred": "Satomi Arai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95124-8C0BORTX7Bfd.jpg"
+        }
+      ]
+    },
+    {
+      "id": 423,
+      "role": "MAIN",
+      "name": {
+        "first": "Casca",
+        "last": null,
+        "full": "Casca",
+        "native": "キャスカ",
+        "userPreferred": "Casca"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b423-AmVFCaJJOBsc.png",
+      "voiceActors": [
+        {
+          "id": 108551,
+          "language": "Japanese",
+          "name": {
+            "first": "Toa",
+            "last": "Yukinari",
+            "full": "Toa Yukinari",
+            "native": "行成とあ",
+            "userPreferred": "Toa Yukinari"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n108551-R4Ro9eFab55G.png"
+        }
+      ]
+    },
+    {
+      "id": 5059,
+      "role": "MAIN",
+      "name": {
+        "first": "Serpico",
+        "last": null,
+        "full": "Serpico",
+        "native": "セルピコ",
+        "userPreferred": "Serpico"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5059-wWVkoasyfJNk.png",
+      "voiceActors": [
+        {
+          "id": 102288,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuyuki",
+            "last": "Okitsu",
+            "full": "Kazuyuki Okitsu",
+            "native": "興津和幸",
+            "userPreferred": "Kazuyuki Okitsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102288-xqcBKreDyZYN.png"
+        }
+      ]
+    },
+    {
+      "id": 7864,
+      "role": "MAIN",
+      "name": {
+        "first": "Schierke",
+        "last": null,
+        "full": "Schierke",
+        "native": "シールケ",
+        "userPreferred": "Schierke"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7864-GYAwPktajKmt.png",
+      "voiceActors": [
+        {
+          "id": 95061,
+          "language": "Japanese",
+          "name": {
+            "first": "Chiwa",
+            "last": "Saitou",
+            "full": "Chiwa Saitou",
+            "native": "斎藤千和",
+            "userPreferred": "Chiwa Saitou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95061-R8YSAYX7UFCO.png"
+        }
+      ]
+    },
+    {
+      "id": 424,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Griffith",
+        "last": null,
+        "full": "Griffith",
+        "native": "グリフィス",
+        "userPreferred": "Griffith"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b424-Jfrsf8I7zBps.png",
+      "voiceActors": [
+        {
+          "id": 95079,
+          "language": "Japanese",
+          "name": {
+            "first": "Takahiro",
+            "last": "Sakurai",
+            "full": "Takahiro Sakurai",
+            "native": "櫻井孝宏",
+            "userPreferred": "Takahiro Sakurai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95079-MdbWTLxPUvFf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7881,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "The Skull Knight",
+        "last": null,
+        "full": "The Skull Knight",
+        "native": "髑髏の騎士",
+        "userPreferred": "The Skull Knight"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7881-7znm1LO40kA9.png",
+      "voiceActors": [
+        {
+          "id": 95146,
+          "language": "Japanese",
+          "name": {
+            "first": "Akio",
+            "last": "Ootsuka",
+            "full": "Akio Ootsuka",
+            "native": "大塚明夫",
+            "userPreferred": "Akio Ootsuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95146-T6IEmqXW3xUN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 605,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Slan",
+        "last": null,
+        "full": "Slan",
+        "native": "スラン",
+        "userPreferred": "Slan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b605-ZsoC0t5dH12S.png",
+      "voiceActors": [
+        {
+          "id": 95099,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyuki",
+            "last": "Sawashiro",
+            "full": "Miyuki Sawashiro",
+            "native": "沢城みゆき",
+            "userPreferred": "Miyuki Sawashiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95099-jKP4LfPWqetk.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29388,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Flora",
+        "last": null,
+        "full": "Flora",
+        "native": "フローラ",
+        "userPreferred": "Flora"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b29388-QmxbfQlqCXMx.jpg",
+      "voiceActors": [
+        {
+          "id": 95425,
+          "language": "Japanese",
+          "name": {
+            "first": "Sumi",
+            "last": "Shimamoto",
+            "full": "Sumi Shimamoto",
+            "native": "島本須美",
+            "userPreferred": "Sumi Shimamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95425-wEl09IWpLxIA.png"
+        }
+      ]
+    },
+    {
+      "id": 598,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rickert",
+        "last": null,
+        "full": "Rickert",
+        "native": "リッケルト",
+        "userPreferred": "Rickert"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b598-2r2X1nQmr3qP.jpg",
+      "voiceActors": [
+        {
+          "id": 101634,
+          "language": "Japanese",
+          "name": {
+            "first": "Minako",
+            "last": "Kotobuki",
+            "full": "Minako Kotobuki",
+            "native": "寿美菜子",
+            "userPreferred": "Minako Kotobuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101634-IiPW117K0ybp.png"
+        }
+      ]
+    },
+    {
+      "id": 7871,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Irvine",
+        "last": null,
+        "full": "Irvine",
+        "native": "アーヴァン",
+        "userPreferred": "Irvine"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7871-YWkTzBL2BOp0.png",
+      "voiceActors": []
+    },
+    {
+      "id": 600,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Zodd",
+        "last": "",
+        "full": "Zodd",
+        "native": "ゾッド",
+        "userPreferred": "Zodd"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b600-nLLiWsK0GcVI.png",
+      "voiceActors": [
+        {
+          "id": 95720,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenta",
+            "last": "Miyake",
+            "full": "Kenta Miyake",
+            "native": "三宅健太",
+            "userPreferred": "Kenta Miyake"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95720-enxx6kZKuwGi.jpg"
+        }
+      ]
+    },
+    {
+      "id": 27213,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yami no Kemono",
+        "last": null,
+        "full": "Yami no Kemono",
+        "native": "闇の獣",
+        "userPreferred": "Yami no Kemono"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b27213-96eMPmdvCm1D.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 7882,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Azan",
+        "last": null,
+        "full": "Azan",
+        "native": "アザン",
+        "userPreferred": "Azan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7882-pTZRwQA6onyf.png",
+      "voiceActors": [
+        {
+          "id": 95025,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroki",
+            "last": "Yasumoto",
+            "full": "Hiroki Yasumoto",
+            "native": "安元洋貴",
+            "userPreferred": "Hiroki Yasumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95025-LGHr4VufmfCc.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7874,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sonia",
+        "last": null,
+        "full": "Sonia",
+        "native": "ソーニャ",
+        "userPreferred": "Sonia"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7874-fzJmDCTfbm4N.png",
+      "voiceActors": [
+        {
+          "id": 96592,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshino",
+            "last": "Nanjou",
+            "full": "Yoshino Nanjou",
+            "native": "南條愛乃",
+            "userPreferred": "Yoshino Nanjou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96592-yC5OOGtWXv6r.png"
+        }
+      ]
+    },
+    {
+      "id": 7876,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mule",
+        "last": "Wolflame",
+        "full": "Mule Wolflame",
+        "native": "ミュール・ウォーフレイム",
+        "userPreferred": "Mule Wolflame"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7876-OWslFHIUQYdO.png",
+      "voiceActors": [
+        {
+          "id": 95197,
+          "language": "Japanese",
+          "name": {
+            "first": "Mitsuki",
+            "last": "Saiga",
+            "full": "Mitsuki Saiga",
+            "native": "斎賀みつき",
+            "userPreferred": "Mitsuki Saiga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95197-gcTFdBK9oPtY.png"
+        }
+      ]
+    },
+    {
+      "id": 58301,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Foss",
+        "last": null,
+        "full": "Foss",
+        "native": "フォス",
+        "userPreferred": "Foss"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b58301-MYjTqF9aUsqD.png",
+      "voiceActors": []
+    },
+    {
+      "id": 36309,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Narrator",
+        "last": null,
+        "full": "Narrator",
+        "native": "ナレーター",
+        "userPreferred": "Narrator"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36309-yRLEQYd2dDI5.jpg",
+      "voiceActors": [
+        {
+          "id": 95357,
+          "language": "Japanese",
+          "name": {
+            "first": "Unshou",
+            "last": "Ishizuka",
+            "full": "Unshou Ishizuka",
+            "native": "石塚運昇",
+            "userPreferred": "Unshou Ishizuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95357-umndcceko65h.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 30002,
+      "relationType": "ADAPTATION",
+      "malId": 2,
+      "title": {
+        "romaji": "Berserk",
+        "english": "Berserk",
+        "native": "ベルセルク",
+        "userPreferred": "Berserk"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30002-7EzO7o21jzeF.jpg",
+      "color": "#e4a143",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/30002-3TuoSMl20fUX.jpg",
+      "rating": 93
+    },
+    {
+      "id": 21560,
+      "relationType": "PREQUEL",
+      "malId": 32379,
+      "title": {
+        "romaji": "Berserk",
+        "english": "Berserk (2016)",
+        "native": "ベルセルク",
+        "userPreferred": "Berserk"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21560-6iifjdssfebJ.jpg",
+      "color": "#ffa135",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21560-YHMcjOm7YkbG.jpg",
+      "rating": 54
+    }
+  ],
+  "episodes": [
+    {
+      "id": "berserk-2017",
+      "title": "The Rent World",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97643-5s3MVIfTYIuQ.jpg",
+      "number": 0,
+      "createdAt": "2017-06-30T15:26:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//berserk-2017"
+    },
+    {
+      "id": "berserk-2017-episode-1",
+      "title": "Winter Journey",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97643-5s3MVIfTYIuQ.jpg",
+      "number": 1,
+      "createdAt": "2017-06-30T15:26:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//berserk-2017-episode-1"
+    },
+    {
+      "id": "berserk-2017-episode-2",
+      "title": "Banner of the Flying Sword",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97643-5s3MVIfTYIuQ.jpg",
+      "number": 2,
+      "createdAt": "2017-06-30T15:26:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//berserk-2017-episode-2"
+    },
+    {
+      "id": "berserk-2017-episode-3",
+      "title": "Forest of Demonic Beasts",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97643-5s3MVIfTYIuQ.jpg",
+      "number": 3,
+      "createdAt": "2017-06-30T15:26:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//berserk-2017-episode-3"
+    },
+    {
+      "id": "berserk-2017-episode-4",
+      "title": "Spirit Realm",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97643-5s3MVIfTYIuQ.jpg",
+      "number": 4,
+      "createdAt": "2017-06-30T15:26:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//berserk-2017-episode-4"
+    },
+    {
+      "id": "berserk-2017-episode-5",
+      "title": "Fight for Survival Against the Demonic Legion",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97643-5s3MVIfTYIuQ.jpg",
+      "number": 5,
+      "createdAt": "2017-06-30T15:26:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//berserk-2017-episode-5"
+    },
+    {
+      "id": "berserk-2017-episode-6",
+      "title": "The Arcana of Invocation",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97643-5s3MVIfTYIuQ.jpg",
+      "number": 6,
+      "createdAt": "2017-06-30T15:26:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//berserk-2017-episode-6"
+    },
+    {
+      "id": "berserk-2017-episode-7",
+      "title": "The Corruption of Qliphoth",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97643-5s3MVIfTYIuQ.jpg",
+      "number": 7,
+      "createdAt": "2017-06-30T15:26:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//berserk-2017-episode-7"
+    },
+    {
+      "id": "berserk-2017-episode-8",
+      "title": "The Berserker Armor",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97643-5s3MVIfTYIuQ.jpg",
+      "number": 8,
+      "createdAt": "2017-06-30T15:26:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//berserk-2017-episode-8"
+    },
+    {
+      "id": "berserk-2017-episode-9",
+      "title": "A Journey Begins in Flames",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97643-5s3MVIfTYIuQ.jpg",
+      "number": 9,
+      "createdAt": "2017-06-30T15:26:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//berserk-2017-episode-9"
+    },
+    {
+      "id": "berserk-2017-episode-9-5",
+      "title": "Proclaimed Omens",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97643-5s3MVIfTYIuQ.jpg",
+      "number": 9.5,
+      "createdAt": "2017-06-30T15:26:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//berserk-2017-episode-9-5"
+    },
+    {
+      "id": "berserk-2017-episode-10",
+      "title": "City of Humans",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97643-5s3MVIfTYIuQ.jpg",
+      "number": 10,
+      "createdAt": "2017-06-30T15:26:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//berserk-2017-episode-10"
+    },
+    {
+      "id": "berserk-2017-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97643-5s3MVIfTYIuQ.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//berserk-2017-episode-11"
+    },
+    {
+      "id": "berserk-2017-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97643-5s3MVIfTYIuQ.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//berserk-2017-episode-12"
+    }
+  ]
+}

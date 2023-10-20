@@ -1,0 +1,470 @@
+{
+  "id": "16934",
+  "title": {
+    "romaji": "Chuunibyou demo Koi ga Shitai!: Kirameki no… Slapstick Noel",
+    "english": "Love, Chunibyo & Other Delusions: Glimmering...Explosive Festival (Slapstick Noel)",
+    "native": "中二病でも恋がしたい! 煌めきの... 聖爆誕祭（スラップステック・ノエル）"
+  },
+  "malId": 16934,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16934-tq1Ytb82cwwa.png",
+  "popularity": 58191,
+  "color": "#bbd6f1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16934.jpg",
+  "description": "Episode 13, included in the final volume of the BD/DVD.<br><br>\nTaking place directly after the events of <i>Chuunibyou demo Koi ga Shitai!</i>, Christmas is coming up and Rikka is told by Nibutani that this is an opportunity for her to get closer to Yuuta. Under Makoto's suggestion, they plan a Christmas party at Sanae's Mansion.",
+  "status": "Completed",
+  "releaseDate": 2013,
+  "startDate": {
+    "year": 2013,
+    "month": 6,
+    "day": 19
+  },
+  "endDate": {
+    "year": 2013,
+    "month": 6,
+    "day": 19
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 73,
+  "duration": 24,
+  "genres": [
+    "Comedy",
+    "Romance",
+    "Slice of Life"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Kyoto Animation"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 21878,
+      "malId": 33731,
+      "title": {
+        "romaji": "Gabriel Dropout",
+        "english": "Gabriel DropOut",
+        "native": "ガヴリールドロップアウト",
+        "userPreferred": "Gabriel Dropout"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21878-bOwTOgyhTp7h.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21878-QVYm5dI7QOmy.jpg",
+      "rating": 73,
+      "type": "TV"
+    },
+    {
+      "id": 21202,
+      "malId": 30831,
+      "title": {
+        "romaji": "Kono Subarashii Sekai ni Shukufuku wo!",
+        "english": "KONOSUBA -God's blessing on this wonderful world!",
+        "native": "この素晴らしい世界に祝福を！",
+        "userPreferred": "Kono Subarashii Sekai ni Shukufuku wo!"
+      },
+      "status": "Completed",
+      "episodes": 10,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21202-TfzXuWQf2oLQ.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21202-UWijdV7RMnXo.jpg",
+      "rating": 79,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 65869,
+      "role": "MAIN",
+      "name": {
+        "first": "Makoto",
+        "last": "Isshiki",
+        "full": "Makoto Isshiki",
+        "native": "一色誠",
+        "userPreferred": "Makoto Isshiki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b65869-lwMeglnCIm0F.png",
+      "voiceActors": [
+        {
+          "id": 95030,
+          "language": "Japanese",
+          "name": {
+            "first": "Souichirou",
+            "last": "Hoshi",
+            "full": "Souichirou Hoshi",
+            "native": "保志総一朗",
+            "userPreferred": "Souichirou Hoshi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95030-kj64Uy6Zr3bq.png"
+        },
+        {
+          "id": 95192,
+          "language": "English",
+          "name": {
+            "first": "Greg",
+            "last": "Ayres",
+            "full": "Greg Ayres",
+            "native": null,
+            "userPreferred": "Greg Ayres"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95192-igLHZjSO4eE0.png"
+        },
+        {
+          "id": 132513,
+          "language": "German",
+          "name": {
+            "first": "Sebastian",
+            "last": "Kluckert",
+            "full": "Sebastian Kluckert",
+            "native": null,
+            "userPreferred": "Sebastian Kluckert"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n132513-qKjhH89ffAt1.png"
+        }
+      ]
+    },
+    {
+      "id": 65863,
+      "role": "MAIN",
+      "name": {
+        "first": "Yuuta",
+        "last": "Togashi",
+        "full": "Yuuta Togashi",
+        "native": "富樫勇太",
+        "userPreferred": "Yuuta Togashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b65863-blMgFqD1EnPs.png",
+      "voiceActors": [
+        {
+          "id": 95086,
+          "language": "Japanese",
+          "name": {
+            "first": "Jun",
+            "last": "Fukuyama",
+            "full": "Jun Fukuyama",
+            "native": "福山潤",
+            "userPreferred": "Jun Fukuyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95086-cwKYmhOFNtH5.png"
+        },
+        {
+          "id": 100989,
+          "language": "English",
+          "name": {
+            "first": "Leraldo",
+            "last": "Anzaldua",
+            "full": "Leraldo Anzaldua",
+            "native": null,
+            "userPreferred": "Leraldo Anzaldua"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5989.jpg"
+        },
+        {
+          "id": 119591,
+          "language": "German",
+          "name": {
+            "first": "Christian",
+            "last": "Zeiger",
+            "full": "Christian Zeiger",
+            "native": null,
+            "userPreferred": "Christian Zeiger"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119591-Cqkp0MiISslJ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 67213,
+      "role": "MAIN",
+      "name": {
+        "first": "Kumin",
+        "last": "Tsuyuri",
+        "full": "Kumin Tsuyuri",
+        "native": "五月七日くみん",
+        "userPreferred": "Kumin Tsuyuri"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b67213-ullAaqYtUG1N.png",
+      "voiceActors": [
+        {
+          "id": 96722,
+          "language": "Japanese",
+          "name": {
+            "first": "Azumi",
+            "last": "Asakura",
+            "full": "Azumi Asakura",
+            "native": "浅倉杏美",
+            "userPreferred": "Azumi Asakura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96722-Vf3KI8BbYnYZ.jpg"
+        },
+        {
+          "id": 105073,
+          "language": "English",
+          "name": {
+            "first": "Emily",
+            "last": "Neves",
+            "full": "Emily Neves",
+            "native": null,
+            "userPreferred": "Emily Neves"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105073-S4JMuSDQbiTt.jpg"
+        },
+        {
+          "id": 102109,
+          "language": "German",
+          "name": {
+            "first": "Jennifer",
+            "last": "Weiß",
+            "full": "Jennifer Weiß",
+            "native": null,
+            "userPreferred": "Jennifer Weiß"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7109.jpg"
+        }
+      ]
+    },
+    {
+      "id": 65871,
+      "role": "MAIN",
+      "name": {
+        "first": "Shinka",
+        "last": "Nibutani",
+        "full": "Shinka Nibutani",
+        "native": "丹生谷森夏",
+        "userPreferred": "Shinka Nibutani"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b65871-yuJ1aq2vynvC.png",
+      "voiceActors": [
+        {
+          "id": 107652,
+          "language": "Japanese",
+          "name": {
+            "first": "Chinatsu",
+            "last": "Akasaki",
+            "full": "Chinatsu Akasaki",
+            "native": "赤﨑千夏",
+            "userPreferred": "Chinatsu Akasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107652-wHdkKzhetbiH.jpg"
+        },
+        {
+          "id": 95418,
+          "language": "English",
+          "name": {
+            "first": "Maggie",
+            "last": "Flecknoe",
+            "full": "Maggie Flecknoe",
+            "native": null,
+            "userPreferred": "Maggie Flecknoe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/418.jpg"
+        },
+        {
+          "id": 96653,
+          "language": "German",
+          "name": {
+            "first": "Julia",
+            "last": "Meynen",
+            "full": "Julia Meynen",
+            "native": null,
+            "userPreferred": "Julia Meynen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96653-gHy4EvG6FSqx.png"
+        }
+      ]
+    },
+    {
+      "id": 65865,
+      "role": "MAIN",
+      "name": {
+        "first": "Rikka",
+        "last": "Takanashi",
+        "full": "Rikka Takanashi",
+        "native": "小鳥遊六花",
+        "userPreferred": "Rikka Takanashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b65865-AC0ru7cDXUgK.png",
+      "voiceActors": [
+        {
+          "id": 108639,
+          "language": "Japanese",
+          "name": {
+            "first": "Maaya",
+            "last": "Uchida",
+            "full": "Maaya Uchida",
+            "native": "内田真礼",
+            "userPreferred": "Maaya Uchida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n108639-LLrR4WptCh5s.png"
+        },
+        {
+          "id": 114309,
+          "language": "English",
+          "name": {
+            "first": "Margaret",
+            "last": "McDonald",
+            "full": "Margaret McDonald",
+            "native": null,
+            "userPreferred": "Margaret McDonald"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n114309-Ku5Kk0XHxZp1.png"
+        },
+        {
+          "id": 140690,
+          "language": "German",
+          "name": {
+            "first": "Friedel",
+            "last": "Morgenstern",
+            "full": "Friedel Morgenstern",
+            "native": null,
+            "userPreferred": "Friedel Morgenstern"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n140690-jsjoWBpcNbSi.png"
+        }
+      ]
+    },
+    {
+      "id": 67215,
+      "role": "MAIN",
+      "name": {
+        "first": "Sanae",
+        "last": "Dekomori",
+        "full": "Sanae Dekomori",
+        "native": "凸守早苗",
+        "userPreferred": "Sanae Dekomori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b67215-J87mEugyhVRO.png",
+      "voiceActors": [
+        {
+          "id": 109441,
+          "language": "Japanese",
+          "name": {
+            "first": "Sumire",
+            "last": "Uesaka",
+            "full": "Sumire Uesaka",
+            "native": "上坂すみれ",
+            "userPreferred": "Sumire Uesaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109441-lVHpd6BN2g16.png"
+        },
+        {
+          "id": 95414,
+          "language": "English",
+          "name": {
+            "first": "Brittney",
+            "last": "Karbowski",
+            "full": "Brittney Karbowski",
+            "native": null,
+            "userPreferred": "Brittney Karbowski"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/414.jpg"
+        },
+        {
+          "id": 105710,
+          "language": "German",
+          "name": {
+            "first": "Luisa",
+            "last": "Wietzorek",
+            "full": "Luisa Wietzorek",
+            "native": null,
+            "userPreferred": "Luisa Wietzorek"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10710.jpg"
+        }
+      ]
+    },
+    {
+      "id": 73129,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nanase",
+        "last": "Tsukumo",
+        "full": "Nanase Tsukumo",
+        "native": "九十九七瀬",
+        "userPreferred": "Nanase Tsukumo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b73129-IYwVOx7YWUwA.png",
+      "voiceActors": [
+        {
+          "id": 95195,
+          "language": "Japanese",
+          "name": {
+            "first": "Kikuko",
+            "last": "Inoue",
+            "full": "Kikuko Inoue",
+            "native": "井上喜久子",
+            "userPreferred": "Kikuko Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95195-nLvtZl5sCK0D.png"
+        },
+        {
+          "id": 101181,
+          "language": "English",
+          "name": {
+            "first": "Carli",
+            "last": "Mosier",
+            "full": "Carli Mosier",
+            "native": "Carlin Cyd Mosier",
+            "userPreferred": "Carli Mosier"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101181-LTc5rfaUef91.png"
+        },
+        {
+          "id": 103550,
+          "language": "German",
+          "name": {
+            "first": "Silvia",
+            "last": "Mißbach",
+            "full": "Silvia Mißbach",
+            "native": null,
+            "userPreferred": "Silvia Mißbach"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 14741,
+      "relationType": "PREQUEL",
+      "malId": 14741,
+      "title": {
+        "romaji": "Chuunibyou demo Koi ga Shitai!",
+        "english": "Love, Chunibyo & Other Delusions",
+        "native": "中二病でも恋がしたい!",
+        "userPreferred": "Chuunibyou demo Koi ga Shitai!"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx14741-alxqoP4yx6WF.jpg",
+      "color": "#1a93f1",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/14741-7RMdUd7tVfSu.jpg",
+      "rating": 75
+    },
+    {
+      "id": 18671,
+      "relationType": "SEQUEL",
+      "malId": 18671,
+      "title": {
+        "romaji": "Chuunibyou demo Koi ga Shitai! Ren",
+        "english": "Love, Chunibyo & Other Delusions - Heart Throb -",
+        "native": "中二病でも恋がしたい！戀",
+        "userPreferred": "Chuunibyou demo Koi ga Shitai! Ren"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx18671-RVIY9TGd737H.jpg",
+      "color": null,
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/18671.jpg",
+      "rating": 73
+    }
+  ],
+  "episodes": []
+}

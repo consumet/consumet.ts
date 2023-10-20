@@ -1,0 +1,567 @@
+{
+  "id": "21712",
+  "title": {
+    "romaji": "Island",
+    "english": "ISLAND",
+    "native": "アイランド"
+  },
+  "malId": 33012,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "-bj9Slfi3YY",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/-bj9Slfi3YY/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21712-To9Y3VNCf5a6.jpg",
+  "popularity": 31691,
+  "color": "#5dbbe4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21712-QVSt9jDVddY0.jpg",
+  "description": "Urashima, an island far from the mainland. The people who live there lead carefree lives. But five years ago, the island's three great families suffered a series of misfortunes, and succumbed to suspicion. The people of the island cut off all contact with the mainland, and began a slow decline. The key to saving the island lies in three girls who belong to the three families. But they are bound by old traditions, and are conflicted. On that island, a lone man washes ashore. The man claims to be from the future, and he begins a solitary struggle to change the island's fate.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2018,
+  "startDate": {
+    "year": 2018,
+    "month": 7,
+    "day": 1
+  },
+  "endDate": {
+    "year": 2018,
+    "month": 9,
+    "day": 16
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 57,
+  "duration": 24,
+  "genres": [
+    "Drama",
+    "Mystery",
+    "Romance",
+    "Sci-Fi"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "feel."
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 20997,
+      "malId": 28999,
+      "title": {
+        "romaji": "Charlotte",
+        "english": null,
+        "native": "Charlotte(シャーロット)",
+        "userPreferred": "Charlotte"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx20997-FGhaAtfnXCsH.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20997-nE9VyUa08vS0.jpg",
+      "rating": 75,
+      "type": "TV"
+    },
+    {
+      "id": 97995,
+      "malId": 34620,
+      "title": {
+        "romaji": "Kono Yo no Hate de Koi wo Utau Shoujo YU-NO",
+        "english": "YU-NO: A Girl Who Chants Love at the Bound of This World",
+        "native": "この世の果てで恋を唄う少女YU-NO",
+        "userPreferred": "Kono Yo no Hate de Koi wo Utau Shoujo YU-NO"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97995-VO6rXNU0fmBq.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97995-DxgVs30ejV6Y.jpg",
+      "rating": 61,
+      "type": "TV"
+    },
+    {
+      "id": 98073,
+      "malId": 34338,
+      "title": {
+        "romaji": "LOST SONG",
+        "english": "LOST SONG",
+        "native": "LOST SONG",
+        "userPreferred": "LOST SONG"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98073-yiaft0K0QeuX.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98073-UfShL8KfCuwr.jpg",
+      "rating": 66,
+      "type": "ONA"
+    },
+    {
+      "id": 20591,
+      "malId": 21845,
+      "title": {
+        "romaji": "Ushinawareta Mirai wo Motomete",
+        "english": "In Search of the Lost Future",
+        "native": "失われた未来を求めて",
+        "userPreferred": "Ushinawareta Mirai wo Motomete"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b20591-xeTJt8QoFCXA.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20591.jpg",
+      "rating": 62,
+      "type": "TV"
+    },
+    {
+      "id": 934,
+      "malId": 934,
+      "title": {
+        "romaji": "Higurashi no Naku Koro ni",
+        "english": "When They Cry",
+        "native": "ひぐらしのなく頃に",
+        "userPreferred": "Higurashi no Naku Koro ni"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx934-EOn2UlXaLUtj.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n934-p227WvkFZ7XX.jpg",
+      "rating": 75,
+      "type": "TV"
+    },
+    {
+      "id": 129201,
+      "malId": 47194,
+      "title": {
+        "romaji": "Summer Time Render",
+        "english": "Summer Time Rendering",
+        "native": "サマータイムレンダ",
+        "userPreferred": "Summer Time Render"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129201-HJBauga2be8I.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/129201-eeCsKFrCSQPS.jpg",
+      "rating": 83,
+      "type": "TV"
+    },
+    {
+      "id": 101,
+      "malId": 101,
+      "title": {
+        "romaji": "AIR",
+        "english": "Air",
+        "native": "AIR",
+        "userPreferred": "AIR"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx101-x3YmfrzYZ9kM.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101-EDcz219IrCEc.jpg",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 97604,
+      "malId": 33966,
+      "title": {
+        "romaji": "Yume Oukoku to Nemureru 100-nin no Ouji-sama",
+        "english": "100 Sleeping Princes & the Kingdom of Dreams",
+        "native": "夢王国と眠れる100人の王子様",
+        "userPreferred": "Yume Oukoku to Nemureru 100-nin no Ouji-sama"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx97604-XI3cTN0i3nZK.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97604-zBedwjSxgyUq.png",
+      "rating": 50,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 125001,
+      "role": "MAIN",
+      "name": {
+        "first": "Rinne",
+        "last": "Ohara",
+        "full": "Rinne Ohara",
+        "native": "御原凛音",
+        "userPreferred": "Rinne Ohara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b125001-RKtwoOsd4AIk.png",
+      "voiceActors": [
+        {
+          "id": 95027,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukari",
+            "last": "Tamura",
+            "full": "Yukari Tamura",
+            "native": "田村ゆかり",
+            "userPreferred": "Yukari Tamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95027-Zm9onZDUN7ih.jpg"
+        },
+        {
+          "id": 101729,
+          "language": "English",
+          "name": {
+            "first": "Jad",
+            "last": "Saxton",
+            "full": "Jad Saxton",
+            "native": null,
+            "userPreferred": "Jad Saxton"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101729-tga5Umgm17Mj.jpg"
+        }
+      ]
+    },
+    {
+      "id": 125002,
+      "role": "MAIN",
+      "name": {
+        "first": "Karen",
+        "last": "Kurutsu",
+        "full": "Karen Kurutsu",
+        "native": "枢都夏蓮",
+        "userPreferred": "Karen Kurutsu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b125002-UBbXIyodmifx.png",
+      "voiceActors": [
+        {
+          "id": 95817,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Asumi",
+            "full": "Kana Asumi",
+            "native": "阿澄佳奈",
+            "userPreferred": "Kana Asumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95817-UHqRZ5xuSJgW.png"
+        },
+        {
+          "id": 104091,
+          "language": "English",
+          "name": {
+            "first": "Alexis",
+            "last": "Tipton",
+            "full": "Alexis Tipton",
+            "native": null,
+            "userPreferred": "Alexis Tipton"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104091-OZpJbFWFwnvV.jpg"
+        }
+      ]
+    },
+    {
+      "id": 125004,
+      "role": "MAIN",
+      "name": {
+        "first": "Sara",
+        "last": "Garandou",
+        "full": "Sara Garandou",
+        "native": "伽藍堂紗羅",
+        "userPreferred": "Sara Garandou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b125004-wlfqzplm8uNt.png",
+      "voiceActors": [
+        {
+          "id": 107750,
+          "language": "Japanese",
+          "name": {
+            "first": "Hibiku",
+            "last": "Yamamura",
+            "full": "Hibiku Yamamura",
+            "native": "山村響",
+            "userPreferred": "Hibiku Yamamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107750-ncaOycwTveFP.png"
+        },
+        {
+          "id": 129030,
+          "language": "English",
+          "name": {
+            "first": "Dani",
+            "last": "Chambers",
+            "full": "Dani Chambers",
+            "native": null,
+            "userPreferred": "Dani Chambers"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n129030-JpDHbjigIejb.jpg"
+        }
+      ]
+    },
+    {
+      "id": 125003,
+      "role": "MAIN",
+      "name": {
+        "first": "Setsuna",
+        "last": "Sanzenkai",
+        "full": "Setsuna Sanzenkai",
+        "native": "三千界切那",
+        "userPreferred": "Setsuna Sanzenkai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b125003-2u89Hrg2kHtN.png",
+      "voiceActors": [
+        {
+          "id": 95735,
+          "language": "Japanese",
+          "name": {
+            "first": "Tatsuhisa",
+            "last": "Suzuki",
+            "full": "Tatsuhisa Suzuki",
+            "native": "鈴木達央",
+            "userPreferred": "Tatsuhisa Suzuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95735-xssSe5BRSkaq.jpg"
+        },
+        {
+          "id": 111641,
+          "language": "English",
+          "name": {
+            "first": "Austin",
+            "last": "Tindle",
+            "full": "Austin Tindle",
+            "native": null,
+            "userPreferred": "Austin Tindle"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n111641-DbiOaZhYsNsi.jpg"
+        }
+      ]
+    },
+    {
+      "id": 125360,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Emiri",
+        "last": "Sunda",
+        "full": "Emiri Sunda",
+        "native": "砂田 笑里",
+        "userPreferred": "Emiri Sunda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/125360-TdUFhJIVEA0b.jpg",
+      "voiceActors": [
+        {
+          "id": 125361,
+          "language": "Japanese",
+          "name": {
+            "first": "Takako",
+            "last": "Tanaka",
+            "full": "Takako Tanaka",
+            "native": "田中貴子",
+            "userPreferred": "Takako Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n125361-2LA9IYJ9A8Ix.png"
+        },
+        {
+          "id": 128531,
+          "language": "English",
+          "name": {
+            "first": "Emily ",
+            "last": "Fajardo",
+            "full": "Emily  Fajardo",
+            "native": null,
+            "userPreferred": "Emily  J. Fajardo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n128531-SazEpmyG0Qb5.jpg"
+        }
+      ]
+    },
+    {
+      "id": 168629,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kuon",
+        "last": "Ohara",
+        "full": "Kuon Ohara",
+        "native": "御原玖音",
+        "userPreferred": "Kuon Ohara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b168629-BrZpHdxAHK1n.jpg",
+      "voiceActors": [
+        {
+          "id": 95241,
+          "language": "Japanese",
+          "name": {
+            "first": "Rina",
+            "last": "Satou",
+            "full": "Rina Satou",
+            "native": "佐藤利奈",
+            "userPreferred": "Rina Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95241-4XvR64oguxwS.png"
+        },
+        {
+          "id": 113057,
+          "language": "English",
+          "name": {
+            "first": "Morgan",
+            "last": "Lauré",
+            "full": "Morgan Lauré",
+            "native": null,
+            "userPreferred": "Morgan Lauré"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/18057.jpg"
+        }
+      ]
+    },
+    {
+      "id": 286036,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rinné",
+        "last": "O'hara",
+        "full": "Rinné O'hara",
+        "native": "リンネ・オハラ",
+        "userPreferred": "Rinné O'hara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b286036-sHed16AqbIso.png",
+      "voiceActors": [
+        {
+          "id": 95027,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukari",
+            "last": "Tamura",
+            "full": "Yukari Tamura",
+            "native": "田村ゆかり",
+            "userPreferred": "Yukari Tamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95027-Zm9onZDUN7ih.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 97196,
+      "relationType": "ALTERNATIVE",
+      "malId": 98323,
+      "title": {
+        "romaji": "ISLAND",
+        "english": null,
+        "native": "ISLAND",
+        "userPreferred": "ISLAND"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b97196-ddAHkUo3RJwL.jpg",
+      "color": null,
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b97196-ddAHkUo3RJwL.jpg",
+      "rating": 79
+    }
+  ],
+  "episodes": [
+    {
+      "id": "island-episode-1",
+      "title": "We Meet Again",
+      "image": "https://media.kitsu.io/episodes/thumbnails/215149/original.jpg",
+      "number": 1,
+      "createdAt": "2017-08-09T04:48:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//island-episode-1"
+    },
+    {
+      "id": "island-episode-2",
+      "title": "I Don't Want You to Feel Bad",
+      "image": "https://media.kitsu.io/episodes/thumbnails/237733/original.jpg",
+      "number": 2,
+      "createdAt": "2018-02-28T02:41:11Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//island-episode-2"
+    },
+    {
+      "id": "island-episode-3",
+      "title": "The Right Way to Spin Dreams",
+      "image": "https://media.kitsu.io/episodes/thumbnails/237981/original.jpg",
+      "number": 3,
+      "createdAt": "2018-03-01T03:54:20Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//island-episode-3"
+    },
+    {
+      "id": "island-episode-4",
+      "title": "This World is Full of Secrets",
+      "image": "https://media.kitsu.io/episodes/thumbnails/238405/original.jpg",
+      "number": 4,
+      "createdAt": "2018-03-05T18:28:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//island-episode-4"
+    },
+    {
+      "id": "island-episode-5",
+      "title": "That's Why I Trust You",
+      "image": "https://media.kitsu.io/episodes/thumbnails/238406/original.jpg",
+      "number": 5,
+      "createdAt": "2018-03-05T18:28:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//island-episode-5"
+    },
+    {
+      "id": "island-episode-6",
+      "title": "As Long as You Are There",
+      "image": "https://media.kitsu.io/episodes/thumbnails/238407/original.jpg",
+      "number": 6,
+      "createdAt": "2018-03-05T18:28:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//island-episode-6"
+    },
+    {
+      "id": "island-episode-7",
+      "title": "I Want to Keep Liking You",
+      "image": "https://media.kitsu.io/episodes/thumbnails/238408/original.jpg",
+      "number": 7,
+      "createdAt": "2018-03-05T18:28:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//island-episode-7"
+    },
+    {
+      "id": "island-episode-8",
+      "title": "Love Me When We Meet Again",
+      "image": "https://media.kitsu.io/episodes/thumbnails/238409/original.jpg",
+      "number": 8,
+      "createdAt": "2018-03-05T18:28:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//island-episode-8"
+    },
+    {
+      "id": "island-episode-9",
+      "title": "I Got to See You Again",
+      "image": "https://media.kitsu.io/episodes/thumbnails/238894/original.jpg",
+      "number": 9,
+      "createdAt": "2018-03-10T01:00:25Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//island-episode-9"
+    },
+    {
+      "id": "island-episode-10",
+      "title": "I Don't Want to Grieve Anymore",
+      "image": "https://media.kitsu.io/episodes/thumbnails/239177/original.jpg",
+      "number": 10,
+      "createdAt": "2018-03-12T09:31:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//island-episode-10"
+    },
+    {
+      "id": "island-episode-11",
+      "title": "We've Met Again, But Who Are You...",
+      "image": "https://media.kitsu.io/episodes/thumbnails/241547/original.jpg",
+      "number": 11,
+      "createdAt": "2018-04-03T02:59:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//island-episode-11"
+    },
+    {
+      "id": "island-episode-12",
+      "title": "Holding Hands to Tomorrow",
+      "image": "https://media.kitsu.io/episodes/thumbnails/243333/original.jpg",
+      "number": 12,
+      "createdAt": "2018-04-29T17:38:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//island-episode-12"
+    }
+  ]
+}

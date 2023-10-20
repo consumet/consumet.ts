@@ -1,0 +1,786 @@
+{
+  "id": "20533",
+  "title": {
+    "romaji": "Buddy Complex",
+    "english": "Buddy Complex",
+    "native": "バディ・コンプレックス"
+  },
+  "malId": 21437,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "t_Y5PEEmwQw",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/t_Y5PEEmwQw/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20533-uzmLvRDe7LBt.jpg",
+  "popularity": 14938,
+  "color": "#4378f1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20533-uzmLvRDe7LBt.jpg",
+  "description": "On the first day back after summer break, high-school student Aoba is attacked by a giant robot that appears out of the sky. As he's pursued through the city, his classmate Hina appears in a robot of her own. She rescues him, and tells him cryptically that \"Dio is waiting for you,\" before she disappears. This begins Aoba's new life as the pilot of the Free Treaty Alliance against the Great Zogiria Republic.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2014,
+  "startDate": {
+    "year": 2014,
+    "month": 1,
+    "day": 6
+  },
+  "endDate": {
+    "year": 2014,
+    "month": 3,
+    "day": 31
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 66,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Drama",
+    "Mecha",
+    "Sci-Fi"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "Sunrise"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 15863,
+      "malId": 15863,
+      "title": {
+        "romaji": "Ginga Kikoutai Majestic Prince",
+        "english": "Majestic Prince",
+        "native": "銀河機攻隊 マジェスティックプリンス",
+        "userPreferred": "Ginga Kikoutai Majestic Prince"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15863-QskWXArq9Gqh.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15863-kUDzWFB2DXp3.jpg",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 16524,
+      "malId": 16524,
+      "title": {
+        "romaji": "Suisei no Gargantia",
+        "english": "Gargantia on the Verdurous Planet",
+        "native": "翠星のガルガンティア",
+        "userPreferred": "Suisei no Gargantia"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16524-xox2OUR3L1at.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16524-VZcsun4YqkrI.jpg",
+      "rating": 72,
+      "type": "TV"
+    },
+    {
+      "id": 97663,
+      "malId": 34104,
+      "title": {
+        "romaji": "Knight's & Magic",
+        "english": "Knight's & Magic",
+        "native": "ナイツ&マジック",
+        "userPreferred": "Knight's & Magic"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97663-4TMJDIpm3toz.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97663-6WrHd4Gc9ld0.jpg",
+      "rating": 67,
+      "type": "TV"
+    },
+    {
+      "id": 128546,
+      "malId": 46095,
+      "title": {
+        "romaji": "Vivy: Fluorite Eye’s Song",
+        "english": "Vivy -Fluorite Eye's Song-",
+        "native": "Vivy -Fluorite Eye’s Song-",
+        "userPreferred": "Vivy: Fluorite Eye’s Song"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx128546-UIwyhuhjxmL0.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/128546-V5KVgbzQwFYm.jpg",
+      "rating": 82,
+      "type": "TV"
+    },
+    {
+      "id": 93,
+      "malId": 93,
+      "title": {
+        "romaji": "Kidou Senshi Gundam SEED",
+        "english": "Mobile Suit Gundam Seed",
+        "native": "機動戦士ガンダムSEED",
+        "userPreferred": "Kidou Senshi Gundam SEED"
+      },
+      "status": "Completed",
+      "episodes": 50,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx93-3b9jdMQjxEFf.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/93-KZlqRAri1Os5.jpg",
+      "rating": 72,
+      "type": "TV"
+    },
+    {
+      "id": 80,
+      "malId": 80,
+      "title": {
+        "romaji": "Kidou Senshi Gundam",
+        "english": "Mobile Suit Gundam",
+        "native": "機動戦士ガンダム",
+        "userPreferred": "Kidou Senshi Gundam"
+      },
+      "status": "Completed",
+      "episodes": 43,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx80-HKQTjSNuFlHu.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/80-LcQhJ600WeDn.jpg",
+      "rating": 76,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 87714,
+      "role": "MAIN",
+      "name": {
+        "first": "Aoba",
+        "last": "Watase",
+        "full": "Aoba Watase",
+        "native": "渡瀬 青葉",
+        "userPreferred": "Aoba Watase"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87714-uxJE9XCLpaPC.png",
+      "voiceActors": [
+        {
+          "id": 106817,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshitsugu",
+            "last": "Matsuoka",
+            "full": "Yoshitsugu Matsuoka",
+            "native": "松岡禎丞",
+            "userPreferred": "Yoshitsugu Matsuoka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106817-mioGQjbTWWQ6.png"
+        }
+      ]
+    },
+    {
+      "id": 87715,
+      "role": "MAIN",
+      "name": {
+        "first": "Hina",
+        "last": "Yumihara",
+        "full": "Hina Yumihara",
+        "native": "弓原 雛",
+        "userPreferred": "Hina Yumihara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87715-izAaLHlx2KPM.png",
+      "voiceActors": [
+        {
+          "id": 95869,
+          "language": "Japanese",
+          "name": {
+            "first": "Saori",
+            "last": "Hayami",
+            "full": "Saori Hayami",
+            "native": "早見沙織",
+            "userPreferred": "Saori Hayami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95869-qCQ0EaWpq1QT.png"
+        }
+      ]
+    },
+    {
+      "id": 87716,
+      "role": "MAIN",
+      "name": {
+        "first": "Jyunyou",
+        "last": "Dio Weinburg",
+        "full": "Jyunyou Dio Weinburg",
+        "native": "隼鷹・ディオ・ウェインバーグ",
+        "userPreferred": "Jyunyou Dio Weinburg"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87716-tlLS62WMbyQR.png",
+      "voiceActors": [
+        {
+          "id": 96764,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouki",
+            "last": "Uchiyama",
+            "full": "Kouki Uchiyama",
+            "native": "内山昂輝",
+            "userPreferred": "Kouki Uchiyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96764-yJWGrhjanDJQ.png"
+        }
+      ]
+    },
+    {
+      "id": 87722,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mayuka",
+        "last": "Nasu",
+        "full": "Mayuka Nasu",
+        "native": "奈須 まゆか",
+        "userPreferred": "Mayuka Nasu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87722-Cuw9A4Kgeb5l.png",
+      "voiceActors": [
+        {
+          "id": 95185,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Hanazawa",
+            "full": "Kana Hanazawa",
+            "native": "花澤香菜",
+            "userPreferred": "Kana Hanazawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95185-vZ6nmfBKQgw1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 300663,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Fiona",
+        "last": "Junyou Weinberg",
+        "full": "Fiona Junyou Weinberg",
+        "native": "隼鷹・フィオナ・ウェインバーグ",
+        "userPreferred": "Fiona Junyou Weinberg"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b300663-iKMH6Or1FtEc.jpg",
+      "voiceActors": [
+        {
+          "id": 101686,
+          "language": "Japanese",
+          "name": {
+            "first": "Aoi",
+            "last": "Yuuki",
+            "full": "Aoi Yuuki",
+            "native": "悠木碧",
+            "userPreferred": "Aoi Yuuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101686-PTd0lQZMsmcv.png"
+        }
+      ]
+    },
+    {
+      "id": 87723,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Anessa",
+        "last": "Rossetti",
+        "full": "Anessa Rossetti",
+        "native": "アネッサ・ロセッティ",
+        "userPreferred": "Anessa Rossetti"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87723-A38ByKWshl1w.png",
+      "voiceActors": [
+        {
+          "id": 95158,
+          "language": "Japanese",
+          "name": {
+            "first": "Marina",
+            "last": "Inoue",
+            "full": "Marina Inoue",
+            "native": "井上麻里奈",
+            "userPreferred": "Marina Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95158-OLhgs8zv5xsp.jpg"
+        }
+      ]
+    },
+    {
+      "id": 87724,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Alfried",
+        "last": "Gallant",
+        "full": "Alfried Gallant",
+        "native": "アルフリード・ガラント",
+        "userPreferred": "Alfried Gallant"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87724-d1V7EC5HNlVq.png",
+      "voiceActors": [
+        {
+          "id": 95006,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiyuki",
+            "last": "Morikawa",
+            "full": "Toshiyuki Morikawa",
+            "native": "森川智之",
+            "userPreferred": "Toshiyuki Morikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95006-hoLuiZANeD3Q.png"
+        }
+      ]
+    },
+    {
+      "id": 87717,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gengo",
+        "last": "Kuramitsu",
+        "full": "Gengo Kuramitsu",
+        "native": "倉光 源吾",
+        "userPreferred": "Gengo Kuramitsu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87717-f3NwCbYInVNm.png",
+      "voiceActors": [
+        {
+          "id": 95137,
+          "language": "Japanese",
+          "name": {
+            "first": "Shou",
+            "last": "Hayami",
+            "full": "Shou Hayami",
+            "native": "速水奨",
+            "userPreferred": "Shou Hayami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95137-2Q5l3Br9G7sk.png"
+        }
+      ]
+    },
+    {
+      "id": 87725,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bizon",
+        "last": "Geravil",
+        "full": "Bizon Geravil",
+        "native": "ビゾン・ジェラフィル",
+        "userPreferred": "Bizon Geravil"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87725-trFyVwM207Yw.png",
+      "voiceActors": [
+        {
+          "id": 95079,
+          "language": "Japanese",
+          "name": {
+            "first": "Takahiro",
+            "last": "Sakurai",
+            "full": "Takahiro Sakurai",
+            "native": "櫻井孝宏",
+            "userPreferred": "Takahiro Sakurai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95079-MdbWTLxPUvFf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 87718,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lene",
+        "last": "Kleinbeck",
+        "full": "Lene Kleinbeck",
+        "native": "レーネ・クラインベック",
+        "userPreferred": "Lene Kleinbeck"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87718-qQfK9OiScB4M.png",
+      "voiceActors": [
+        {
+          "id": 95247,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumi",
+            "last": "Fujimura",
+            "full": "Ayumi Fujimura",
+            "native": "藤村歩",
+            "userPreferred": "Ayumi Fujimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95247-3jzUQFPN8clW.png"
+        }
+      ]
+    },
+    {
+      "id": 87726,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tarjim",
+        "last": "Vasily",
+        "full": "Tarjim Vasily",
+        "native": "タルジム・ヴァシリー",
+        "userPreferred": "Tarjim Vasily"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b87726-87802rVyshkk.png",
+      "voiceActors": [
+        {
+          "id": 105989,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobunaga",
+            "last": "Shimazaki",
+            "full": "Nobunaga Shimazaki",
+            "native": "島崎信長",
+            "userPreferred": "Nobunaga Shimazaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105989-96etzH1dLNug.jpg"
+        }
+      ]
+    },
+    {
+      "id": 87719,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lee",
+        "last": "Conrad",
+        "full": "Lee Conrad",
+        "native": "リー・コンラッド",
+        "userPreferred": "Lee Conrad"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87719-JhtTaNSkozN8.png",
+      "voiceActors": [
+        {
+          "id": 95002,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Sugita",
+            "full": "Tomokazu Sugita",
+            "native": "杉田智和",
+            "userPreferred": "Tomokazu Sugita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95002-nDIvHaynicEg.png"
+        }
+      ]
+    },
+    {
+      "id": 87727,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lasha",
+        "last": "Hakkarainen",
+        "full": "Lasha Hakkarainen",
+        "native": "ラーシャ・ハッカライネン",
+        "userPreferred": "Lasha Hakkarainen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87727-mPLQl2JuhjDy.png",
+      "voiceActors": [
+        {
+          "id": 105013,
+          "language": "Japanese",
+          "name": {
+            "first": "Mutsumi",
+            "last": "Tamura",
+            "full": "Mutsumi Tamura",
+            "native": "田村睦心",
+            "userPreferred": "Mutsumi Tamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105013-DffN0XN2Zw7G.png"
+        }
+      ]
+    },
+    {
+      "id": 87720,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jarl",
+        "last": "Duran",
+        "full": "Jarl Duran",
+        "native": "ヤール・ドゥラン",
+        "userPreferred": "Jarl Duran"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87720-8UEdMKs9FDFN.png",
+      "voiceActors": [
+        {
+          "id": 95283,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroyuki",
+            "last": "Yoshino",
+            "full": "Hiroyuki Yoshino",
+            "native": "吉野裕行",
+            "userPreferred": "Hiroyuki Yoshino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95283-g76zV4YacFfm.jpg"
+        }
+      ]
+    },
+    {
+      "id": 87728,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Margaret",
+        "last": "O'Keefe",
+        "full": "Margaret O'Keefe",
+        "native": "マルガレタ・オキーフ",
+        "userPreferred": "Margaret O'Keefe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b87728-6XqzgVldLjaK.png",
+      "voiceActors": [
+        {
+          "id": 106784,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Uchiyama",
+            "full": "Yumi Uchiyama",
+            "native": "内山夕実",
+            "userPreferred": "Yumi Uchiyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106784-reDoHBLWxi7J.jpg"
+        }
+      ]
+    },
+    {
+      "id": 87721,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Elvira",
+        "last": "Hill",
+        "full": "Elvira Hill",
+        "native": "エルヴィラ・ヒル",
+        "userPreferred": "Elvira Hill"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/87721-sp6bRQyDP06u.png",
+      "voiceActors": [
+        {
+          "id": 95241,
+          "language": "Japanese",
+          "name": {
+            "first": "Rina",
+            "last": "Satou",
+            "full": "Rina Satou",
+            "native": "佐藤利奈",
+            "userPreferred": "Rina Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95241-4XvR64oguxwS.png"
+        }
+      ]
+    },
+    {
+      "id": 169046,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Fromm ",
+        "last": "Vantarhei",
+        "full": "Fromm  Vantarhei",
+        "native": "フロム・ヴァンタレイ",
+        "userPreferred": "Fromm  Vantarhei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b169046-e2Q6PmpXax8s.png",
+      "voiceActors": [
+        {
+          "id": 95672,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Kaji",
+            "full": "Yuuki Kaji",
+            "native": "梶裕貴",
+            "userPreferred": "Yuuki Kaji"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95672-RN4nm0OFwCyU.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 20685,
+      "relationType": "SEQUEL",
+      "malId": 24469,
+      "title": {
+        "romaji": "Buddy Complex Kanketsu-hen - Ano Sora ni Kaeru Mirai de",
+        "english": "Buddy Complex: Into the Skies of Tomorrow",
+        "native": "バディ・コンプレックス 完結編 ―あの空に還る未来で―",
+        "userPreferred": "Buddy Complex Kanketsu-hen - Ano Sora ni Kaeru Mirai de"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20685-pq6d6iD0DLHV.jpg",
+      "color": "#505de4",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20685-pq6d6iD0DLHV.jpg",
+      "rating": 69
+    },
+    {
+      "id": 119665,
+      "relationType": "SUMMARY",
+      "malId": 31105,
+      "title": {
+        "romaji": "Buddy Complex: Daremo Shiranai Ashita e",
+        "english": null,
+        "native": "バディ・コンプレックス 特別編集版「―誰も知らない明日へ―」",
+        "userPreferred": "Buddy Complex: Daremo Shiranai Ashita e"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx119665-g9Z8ck25AdCh.jpg",
+      "color": "#4378f1",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx119665-g9Z8ck25AdCh.jpg",
+      "rating": 61
+    },
+    {
+      "id": 90577,
+      "relationType": "ADAPTATION",
+      "malId": 67187,
+      "title": {
+        "romaji": "Buddy Complex",
+        "english": null,
+        "native": "バディ・コンプレックス",
+        "userPreferred": "Buddy Complex"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/90577-i5qJEHTK0SXu.jpg",
+      "color": "#1aa1d6",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/90577-i5qJEHTK0SXu.jpg",
+      "rating": 75
+    },
+    {
+      "id": 91280,
+      "relationType": "SPIN_OFF",
+      "malId": 70885,
+      "title": {
+        "romaji": "Buddy Complex: Senjou no Coupling",
+        "english": null,
+        "native": "バディ・コンプレックス 戦場のカップリング",
+        "userPreferred": "Buddy Complex: Senjou no Coupling"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/91280-1Y0XOVNGy8uv.jpg",
+      "color": "#e4e435",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/91280-1Y0XOVNGy8uv.jpg",
+      "rating": 80
+    }
+  ],
+  "episodes": [
+    {
+      "id": "buddy-complex-episode-1",
+      "title": "Encounter",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113609/original.jpg",
+      "number": 1,
+      "createdAt": "2014-01-24T02:06:27Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//buddy-complex-episode-1"
+    },
+    {
+      "id": "buddy-complex-episode-2",
+      "title": "Nice Coupling",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113610/original.jpg",
+      "number": 2,
+      "createdAt": "2014-01-24T02:06:27Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//buddy-complex-episode-2"
+    },
+    {
+      "id": "buddy-complex-episode-3",
+      "title": "Meeting Again",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113611/original.jpg",
+      "number": 3,
+      "createdAt": "2014-01-24T02:06:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//buddy-complex-episode-3"
+    },
+    {
+      "id": "buddy-complex-episode-4",
+      "title": "The Time for Resolve",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113612/original.jpg",
+      "number": 4,
+      "createdAt": "2014-01-24T02:06:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//buddy-complex-episode-4"
+    },
+    {
+      "id": "buddy-complex-episode-5",
+      "title": "Scars",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113613/original.jpg",
+      "number": 5,
+      "createdAt": "2014-01-24T02:06:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//buddy-complex-episode-5"
+    },
+    {
+      "id": "buddy-complex-episode-6",
+      "title": "The Other Coupler",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113614/original.jpg",
+      "number": 6,
+      "createdAt": "2014-01-24T02:06:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//buddy-complex-episode-6"
+    },
+    {
+      "id": "buddy-complex-episode-7",
+      "title": "Buddy",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113615/original.jpg",
+      "number": 7,
+      "createdAt": "2014-01-24T02:06:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//buddy-complex-episode-7"
+    },
+    {
+      "id": "buddy-complex-episode-8",
+      "title": "Stormy Night",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113616/original.jpg",
+      "number": 8,
+      "createdAt": "2014-01-24T02:06:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//buddy-complex-episode-8"
+    },
+    {
+      "id": "buddy-complex-episode-9",
+      "title": "The Coupling System",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113617/original.jpg",
+      "number": 9,
+      "createdAt": "2014-01-24T02:06:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//buddy-complex-episode-9"
+    },
+    {
+      "id": "buddy-complex-episode-10",
+      "title": "Father and Child",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113618/original.jpg",
+      "number": 10,
+      "createdAt": "2014-01-24T02:06:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//buddy-complex-episode-10"
+    },
+    {
+      "id": "buddy-complex-episode-11",
+      "title": "The Truth",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113619/original.jpg",
+      "number": 11,
+      "createdAt": "2014-01-24T02:06:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//buddy-complex-episode-11"
+    },
+    {
+      "id": "buddy-complex-episode-12",
+      "title": "The Bond Between Them",
+      "image": "https://media.kitsu.io/episodes/thumbnails/113620/original.jpg",
+      "number": 12,
+      "createdAt": "2014-01-24T02:06:28Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//buddy-complex-episode-12"
+    },
+    {
+      "id": "buddy-complex-episode-13",
+      "title": "Acception",
+      "image": "https://media.kitsu.io/episodes/thumbnails/114043/original.jpg",
+      "number": 13,
+      "createdAt": "2014-03-24T22:11:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//buddy-complex-episode-13"
+    }
+  ]
+}

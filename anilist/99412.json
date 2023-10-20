@@ -1,0 +1,837 @@
+{
+  "id": "99412",
+  "title": {
+    "romaji": "Angolmois: Genkou Kassenki",
+    "english": "Angolmois: Record of Mongol Invasion",
+    "native": "アンゴルモア 元寇合戦記"
+  },
+  "malId": 35834,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "9h8o9oX3kz8",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/9h8o9oX3kz8/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99412-RaN6ykXuwjvK.jpg",
+  "popularity": 13167,
+  "color": "#35bbf1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99412-7wQiGdmBmAJu.jpg",
+  "description": "The traditional historical epic adventure centers around a samurai defending Japan against the first Mongol invasion of 1274.<br><br>\n\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2018,
+  "startDate": {
+    "year": 2018,
+    "month": 7,
+    "day": 11
+  },
+  "endDate": {
+    "year": 2018,
+    "month": 9,
+    "day": 26
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 67,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Drama"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "NAZ"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 97984,
+      "malId": 34547,
+      "title": {
+        "romaji": "Shoukoku no Altair",
+        "english": "Altair: A Record of Battles",
+        "native": "将国のアルタイル",
+        "userPreferred": "Shoukoku no Altair"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97984-6xwATnrownC5.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97984-ugdKygbuCANB.png",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 101348,
+      "malId": 37521,
+      "title": {
+        "romaji": "VINLAND SAGA",
+        "english": "Vinland Saga",
+        "native": "ヴィンランド・サガ",
+        "userPreferred": "VINLAND SAGA"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101348-msJS8z91mG0P.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101348-pivKKffCAwAY.jpg",
+      "rating": 87,
+      "type": "TV"
+    },
+    {
+      "id": 21123,
+      "malId": 31339,
+      "title": {
+        "romaji": "DRIFTERS",
+        "english": "DRIFTERS",
+        "native": "DRIFTERS",
+        "userPreferred": "DRIFTERS"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21123-bCuqm8wLDqOw.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21123-AB6drAXL5FhN.jpg",
+      "rating": 75,
+      "type": "TV"
+    },
+    {
+      "id": 106894,
+      "malId": 38920,
+      "title": {
+        "romaji": "Kochoki: Wakaki Nobunaga",
+        "english": "Kochoki",
+        "native": "胡蝶綺 ～若き信長～",
+        "userPreferred": "Kochoki: Wakaki Nobunaga"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx106894-h6NeGxiWYq5a.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/106894-J4HnzqBxdpmi.jpg",
+      "rating": 59,
+      "type": "TV"
+    },
+    {
+      "id": 113108,
+      "malId": 40682,
+      "title": {
+        "romaji": "Kingdom 3rd Season",
+        "english": "Kingdom Season 3",
+        "native": "キングダム 第3シリーズ",
+        "userPreferred": "Kingdom 3rd Season"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113108-ArjAmFLubVyu.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113108-ArjAmFLubVyu.jpg",
+      "rating": 85,
+      "type": "TV"
+    },
+    {
+      "id": 99699,
+      "malId": 36028,
+      "title": {
+        "romaji": "Golden Kamuy",
+        "english": "Golden Kamuy",
+        "native": "ゴールデンカムイ",
+        "userPreferred": "Golden Kamuy"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99699-mBCjpoWpAVGX.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99699-95D2XWA6eWAH.jpg",
+      "rating": 77,
+      "type": "TV"
+    },
+    {
+      "id": 16498,
+      "malId": 16498,
+      "title": {
+        "romaji": "Shingeki no Kyojin",
+        "english": "Attack on Titan",
+        "native": "進撃の巨人",
+        "userPreferred": "Shingeki no Kyojin"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16498-C6FPmWm59CyP.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16498-8jpFCOcDmneX.jpg",
+      "rating": 84,
+      "type": "TV"
+    },
+    {
+      "id": 146650,
+      "malId": 51371,
+      "title": {
+        "romaji": "Bucchigire!",
+        "english": "Shine on! Bakumatsu Bad Boys",
+        "native": "ブッチギレ！",
+        "userPreferred": "Bucchigire!"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146650-wZ1L2pbn6gvn.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146650-wZ1L2pbn6gvn.jpg",
+      "rating": 57,
+      "type": "TV"
+    },
+    {
+      "id": 142343,
+      "malId": 50528,
+      "title": {
+        "romaji": "Golden Kamuy 4th Season",
+        "english": "Golden Kamuy Season 4",
+        "native": "ゴールデンカムイ 第四期",
+        "userPreferred": "Golden Kamuy 4th Season"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142343-o8gkjIF434qZ.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142343-o8gkjIF434qZ.jpg",
+      "rating": 81,
+      "type": "TV"
+    },
+    {
+      "id": 128893,
+      "malId": 46569,
+      "title": {
+        "romaji": "Jigokuraku",
+        "english": "Hell’s Paradise",
+        "native": "地獄楽",
+        "userPreferred": "Jigokuraku"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx128893-l0R0GFHplDKW.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/128893-pAA7PjY8l7dy.jpg",
+      "rating": 80,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 135322,
+      "role": "MAIN",
+      "name": {
+        "first": null,
+        "last": "Teruhi",
+        "full": "Teruhi",
+        "native": "輝日",
+        "userPreferred": "Teruhi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b135322-fIdfb5QRUysg.jpg",
+      "voiceActors": [
+        {
+          "id": 118806,
+          "language": "Japanese",
+          "name": {
+            "first": "Lynn",
+            "last": "",
+            "full": "Lynn",
+            "native": "Lynn",
+            "userPreferred": "Lynn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118806-AlHvdje5aHje.png"
+        }
+      ]
+    },
+    {
+      "id": 135318,
+      "role": "MAIN",
+      "name": {
+        "first": "Kuchii",
+        "last": "Jinzaburou",
+        "full": "Kuchii Jinzaburou",
+        "native": "朽井迅三郎",
+        "userPreferred": "Kuchii Jinzaburou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b135318-fTLPfIe6QeJ8.jpg",
+      "voiceActors": [
+        {
+          "id": 96154,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Ono",
+            "full": "Yuuki Ono",
+            "native": "小野友樹",
+            "userPreferred": "Yuuki Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96154-B8GAO9wm1Fbd.jpg"
+        }
+      ]
+    },
+    {
+      "id": 135333,
+      "role": "SUPPORTING",
+      "name": {
+        "first": null,
+        "last": "Tatsu",
+        "full": "Tatsu",
+        "native": "タツ",
+        "userPreferred": "Tatsu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b135333-dI93q3h1DE0C.jpg",
+      "voiceActors": [
+        {
+          "id": 135334,
+          "language": "Japanese",
+          "name": {
+            "first": "Asumi",
+            "last": "Yoneyama",
+            "full": "Asumi Yoneyama",
+            "native": "米山明日美",
+            "userPreferred": "Asumi Yoneyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n135334-0fXeobWES6ah.jpg"
+        }
+      ]
+    },
+    {
+      "id": 135330,
+      "role": "SUPPORTING",
+      "name": {
+        "first": null,
+        "last": "Kano",
+        "full": "Kano",
+        "native": "鹿乃",
+        "userPreferred": "Kano"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b135330-VeIh728AXg7N.jpg",
+      "voiceActors": [
+        {
+          "id": 105071,
+          "language": "Japanese",
+          "name": {
+            "first": "Mikako",
+            "last": "Komatsu",
+            "full": "Mikako Komatsu",
+            "native": "小松未可子",
+            "userPreferred": "Mikako Komatsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105071-Hcj0X2gcliPq.png"
+        }
+      ]
+    },
+    {
+      "id": 135315,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "",
+        "last": "Sana",
+        "full": "Sana",
+        "native": "サナ",
+        "userPreferred": "Sana"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b135315-d7gkiRE6i8sy.jpg",
+      "voiceActors": [
+        {
+          "id": 120401,
+          "language": "Japanese",
+          "name": {
+            "first": "Natsuko",
+            "last": "Hara",
+            "full": "Natsuko Hara",
+            "native": "原奈津子",
+            "userPreferred": "Natsuko Hara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n120401-d2ZRGd57NIbZ.png"
+        }
+      ]
+    },
+    {
+      "id": 135323,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chou",
+        "last": "Minpuku",
+        "full": "Chou Minpuku",
+        "native": "張明福",
+        "userPreferred": "Chou Minpuku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b135323-2QUusB1hoWhx.jpg",
+      "voiceActors": [
+        {
+          "id": 96431,
+          "language": "Japanese",
+          "name": {
+            "first": "Shirou",
+            "last": "Saitou",
+            "full": "Shirou Saitou",
+            "native": "斎藤志郎",
+            "userPreferred": "Shirou Saitou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1431.jpg"
+        }
+      ]
+    },
+    {
+      "id": 135331,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Liu",
+        "last": "Fuheng",
+        "full": "Liu Fuheng",
+        "native": "劉復亨",
+        "userPreferred": "Liu Fuheng"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b135331-nvJ62TR9Vwb6.jpg",
+      "voiceActors": [
+        {
+          "id": 95160,
+          "language": "Japanese",
+          "name": {
+            "first": "Takehito",
+            "last": "Koyasu",
+            "full": "Takehito Koyasu",
+            "native": "子安武人",
+            "userPreferred": "Takehito Koyasu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95160-jWevcH7BmfE1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 135316,
+      "role": "SUPPORTING",
+      "name": {
+        "first": null,
+        "last": "Onitakemaru",
+        "full": "Onitakemaru",
+        "native": "鬼剛丸",
+        "userPreferred": "Onitakemaru"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b135316-61xXTAr6HrDw.jpg",
+      "voiceActors": [
+        {
+          "id": 95113,
+          "language": "Japanese",
+          "name": {
+            "first": "Rikiya",
+            "last": "Koyama",
+            "full": "Rikiya Koyama",
+            "native": "小山力也",
+            "userPreferred": "Rikiya Koyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95113-z9eyYjTKSTX4.png"
+        }
+      ]
+    },
+    {
+      "id": 135324,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gontarou",
+        "last": "Kaitani",
+        "full": "Gontarou Kaitani",
+        "native": "貝谷権太郎",
+        "userPreferred": "Gontarou Kaitani"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b135324-2PUUH7RdqaV5.jpg",
+      "voiceActors": [
+        {
+          "id": 131173,
+          "language": "Japanese",
+          "name": {
+            "first": "Volcano",
+            "last": "Oota",
+            "full": "Volcano Oota",
+            "native": "ボルケーノ太田",
+            "userPreferred": "Volcano Oota"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n131173-rYdOkQIW8lSn.jpg"
+        }
+      ]
+    },
+    {
+      "id": 135332,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hangan",
+        "last": "Nagamine",
+        "full": "Hangan Nagamine",
+        "native": "長嶺判官",
+        "userPreferred": "Hangan Nagamine"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b135332-zfKrSk3jWKt9.jpg",
+      "voiceActors": [
+        {
+          "id": 95819,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenshou",
+            "last": "Ono",
+            "full": "Kenshou Ono",
+            "native": "小野賢章",
+            "userPreferred": "Kenshou Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95819-O4fosAY0a1Ml.jpg"
+        }
+      ]
+    },
+    {
+      "id": 135317,
+      "role": "SUPPORTING",
+      "name": {
+        "first": null,
+        "last": "Amushi",
+        "full": "Amushi",
+        "native": "阿無志",
+        "userPreferred": "Amushi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b135317-9Nu12Wooyiw9.jpg",
+      "voiceActors": [
+        {
+          "id": 119869,
+          "language": "Japanese",
+          "name": {
+            "first": "Shun",
+            "last": "Horie",
+            "full": "Shun Horie",
+            "native": "堀江瞬",
+            "userPreferred": "Shun Horie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119869-mUUrORIQBlnB.png"
+        }
+      ]
+    },
+    {
+      "id": 135325,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kagesuke",
+        "last": "Shouni",
+        "full": "Kagesuke Shouni",
+        "native": "少弐景資",
+        "userPreferred": "Kagesuke Shouni"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b135325-tnpKzN4mX3FB.jpg",
+      "voiceActors": [
+        {
+          "id": 95792,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinnosuke",
+            "last": "Tachibana",
+            "full": "Shinnosuke Tachibana",
+            "native": "立花慎之介",
+            "userPreferred": "Shinnosuke Tachibana"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95792-5413Ip70mSdV.jpg"
+        }
+      ]
+    },
+    {
+      "id": 135326,
+      "role": "SUPPORTING",
+      "name": {
+        "first": null,
+        "last": "Uriyanedei",
+        "full": "Uriyanedei",
+        "native": "ウリヤンエデイ",
+        "userPreferred": "Uriyanedei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b135326-pBNTc3gQHAbf.jpg",
+      "voiceActors": [
+        {
+          "id": 105571,
+          "language": "Japanese",
+          "name": {
+            "first": "Kentarou",
+            "last": "Tone",
+            "full": "Kentarou Tone",
+            "native": "利根健太朗",
+            "userPreferred": "Kentarou Tone"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105571-bdvwKfB2SvwH.jpg"
+        }
+      ]
+    },
+    {
+      "id": 135319,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kazuhisa",
+        "last": "Shiraishi",
+        "full": "Kazuhisa Shiraishi",
+        "native": "白石和久",
+        "userPreferred": "Kazuhisa Shiraishi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b135319-JdDuk75dGl6E.jpg",
+      "voiceActors": [
+        {
+          "id": 95299,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenji",
+            "last": "Nomura",
+            "full": "Kenji Nomura",
+            "native": "乃村健次",
+            "userPreferred": "Kenji Nomura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95299-emNsgDYS4DBi.jpg"
+        }
+      ]
+    },
+    {
+      "id": 135327,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Saburou",
+        "last": "Obusuma",
+        "full": "Saburou Obusuma",
+        "native": "男衾三郎",
+        "userPreferred": "Saburou Obusuma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b135327-tEWwp8Uo56kj.jpg",
+      "voiceActors": [
+        {
+          "id": 95371,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenji",
+            "last": "Hamada",
+            "full": "Kenji Hamada",
+            "native": "浜田賢二",
+            "userPreferred": "Kenji Hamada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95371-nyA7w7nPrlPr.png"
+        }
+      ]
+    },
+    {
+      "id": 135320,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sou",
+        "last": "Sukekuni",
+        "full": "Sou Sukekuni",
+        "native": "宗助国",
+        "userPreferred": "Sou Sukekuni"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b135320-eVUrVqFoBUeO.jpg",
+      "voiceActors": [
+        {
+          "id": 95018,
+          "language": "Japanese",
+          "name": {
+            "first": "Hidekatsu",
+            "last": "Shibata",
+            "full": "Hidekatsu Shibata",
+            "native": "柴田秀勝",
+            "userPreferred": "Hidekatsu Shibata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95018-HXJMMED74SVO.png"
+        }
+      ]
+    },
+    {
+      "id": 135328,
+      "role": "SUPPORTING",
+      "name": {
+        "first": null,
+        "last": "Douen",
+        "full": "Douen",
+        "native": "導円",
+        "userPreferred": "Douen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b135328-PUTn8jgCXWvv.jpg",
+      "voiceActors": [
+        {
+          "id": 118407,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuusuke",
+            "last": "Kobayashi",
+            "full": "Yuusuke Kobayashi",
+            "native": "小林裕介",
+            "userPreferred": "Yuusuke Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118407-QvEt3bGtuRQM.png"
+        }
+      ]
+    },
+    {
+      "id": 135321,
+      "role": "SUPPORTING",
+      "name": {
+        "first": null,
+        "last": "Hitari",
+        "full": "Hitari",
+        "native": "火垂",
+        "userPreferred": "Hitari"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b135321-ZyoI5IuA2cTO.jpg",
+      "voiceActors": [
+        {
+          "id": 107615,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouta",
+            "last": "Takeuchi",
+            "full": "Ryouta Takeuchi",
+            "native": "竹内良太",
+            "userPreferred": "Ryouta Takeuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107615-e4FrG8jtyQKY.png"
+        }
+      ]
+    },
+    {
+      "id": 135329,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kim",
+        "last": "Bang-gyeong",
+        "full": "Kim Bang-gyeong",
+        "native": "金方慶",
+        "userPreferred": "Kim Bang-gyeong"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b135329-KckmvaHWzJij.jpg",
+      "voiceActors": [
+        {
+          "id": 95685,
+          "language": "Japanese",
+          "name": {
+            "first": "Takashi",
+            "last": "Matsuyama",
+            "full": "Takashi Matsuyama",
+            "native": "松山鷹志",
+            "userPreferred": "Takashi Matsuyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95685-hBzFgdWzq43x.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 96816,
+      "relationType": "ADAPTATION",
+      "malId": 96437,
+      "title": {
+        "romaji": "Angolmois: Genkou Kassenki",
+        "english": null,
+        "native": "アンゴルモア 元寇合戦記",
+        "userPreferred": "Angolmois: Genkou Kassenki"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/96816-HfkcpIjDFwGS.jpg",
+      "color": "#e45d1a",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/96816-RuDVlLpYAQVH.jpg",
+      "rating": 65
+    }
+  ],
+  "episodes": [
+    {
+      "id": "angolmois-genkou-kassenki-episode-1",
+      "title": "The Far End of Japan",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99412-RaN6ykXuwjvK.jpg",
+      "number": 1,
+      "createdAt": "2018-07-07T17:07:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//angolmois-genkou-kassenki-episode-1"
+    },
+    {
+      "id": "angolmois-genkou-kassenki-episode-2",
+      "title": "The War God of Sasu",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99412-RaN6ykXuwjvK.jpg",
+      "number": 2,
+      "createdAt": "2018-07-07T17:07:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//angolmois-genkou-kassenki-episode-2"
+    },
+    {
+      "id": "angolmois-genkou-kassenki-episode-3",
+      "title": "Time To Strike",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99412-RaN6ykXuwjvK.jpg",
+      "number": 3,
+      "createdAt": "2018-07-11T11:48:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//angolmois-genkou-kassenki-episode-3"
+    },
+    {
+      "id": "angolmois-genkou-kassenki-episode-4",
+      "title": "Back to the Capital",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99412-RaN6ykXuwjvK.jpg",
+      "number": 4,
+      "createdAt": "2018-07-11T11:48:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//angolmois-genkou-kassenki-episode-4"
+    },
+    {
+      "id": "angolmois-genkou-kassenki-episode-5",
+      "title": "Resolve",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99412-RaN6ykXuwjvK.jpg",
+      "number": 5,
+      "createdAt": "2018-07-11T11:48:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//angolmois-genkou-kassenki-episode-5"
+    },
+    {
+      "id": "angolmois-genkou-kassenki-episode-6",
+      "title": "Where Death Leads",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99412-RaN6ykXuwjvK.jpg",
+      "number": 6,
+      "createdAt": "2018-07-11T11:48:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//angolmois-genkou-kassenki-episode-6"
+    },
+    {
+      "id": "angolmois-genkou-kassenki-episode-7",
+      "title": "Kanatanoki",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99412-RaN6ykXuwjvK.jpg",
+      "number": 7,
+      "createdAt": "2018-07-11T11:48:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//angolmois-genkou-kassenki-episode-7"
+    },
+    {
+      "id": "angolmois-genkou-kassenki-episode-8",
+      "title": "Betrayer's Strike",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99412-RaN6ykXuwjvK.jpg",
+      "number": 8,
+      "createdAt": "2018-07-11T11:48:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//angolmois-genkou-kassenki-episode-8"
+    },
+    {
+      "id": "angolmois-genkou-kassenki-episode-9",
+      "title": "The Battle of the Mountain Castle",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99412-RaN6ykXuwjvK.jpg",
+      "number": 9,
+      "createdAt": "2018-07-11T11:48:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//angolmois-genkou-kassenki-episode-9"
+    },
+    {
+      "id": "angolmois-genkou-kassenki-episode-10",
+      "title": "Bad Omen",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99412-RaN6ykXuwjvK.jpg",
+      "number": 10,
+      "createdAt": "2018-07-11T11:48:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//angolmois-genkou-kassenki-episode-10"
+    },
+    {
+      "id": "angolmois-genkou-kassenki-episode-11",
+      "title": "The Sun God of Tsushima",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99412-RaN6ykXuwjvK.jpg",
+      "number": 11,
+      "createdAt": "2018-07-11T11:48:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//angolmois-genkou-kassenki-episode-11"
+    },
+    {
+      "id": "angolmois-genkou-kassenki-episode-12",
+      "title": "The Best You Can Do",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99412-RaN6ykXuwjvK.jpg",
+      "number": 12,
+      "createdAt": "2018-07-11T11:48:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//angolmois-genkou-kassenki-episode-12"
+    }
+  ]
+}

@@ -1,0 +1,597 @@
+{
+  "id": "990",
+  "title": {
+    "romaji": "Kamisama Kazoku",
+    "english": "God Family",
+    "native": "神様家族"
+  },
+  "malId": 990,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx990-KyGlBfHi16sA.png",
+  "popularity": 6453,
+  "color": "#28bbf1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx990-KyGlBfHi16sA.png",
+  "description": "Samatarou is not just an average high-school boy, the truth is that he is the son of a god, his mother is a goddess and his sisters are candidates to become goddesses. They are living in the human world, because they want their boy learn about the human customs and the habits of the creatures that they are protecting, so that in this way Samatarou will become a better god. Tenko is a angel assigned to look after Samatarou. She's born the same day, same year as Samatarou and have been close friends ever since. Life seems normal but things start to change with the appearance of a transfer student named Kumiko. Samatarou falls in love with her and from now on, things will be a lot more different for him. His decision of making her fall in love with him without using his powers will put him in trouble. <br>",
+  "status": "Completed",
+  "releaseDate": 2006,
+  "startDate": {
+    "year": 2006,
+    "month": 5,
+    "day": 18
+  },
+  "endDate": {
+    "year": 2006,
+    "month": 8,
+    "day": 10
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 66,
+  "duration": 25,
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Fantasy",
+    "Romance"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Toei Animation"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 61,
+      "malId": 61,
+      "title": {
+        "romaji": "D.N.Angel",
+        "english": "D.N.Angel",
+        "native": "Ｄ・Ｎ・ＡＮＧＥＬ",
+        "userPreferred": "D.N.Angel"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/61.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/61-VZW3RDx4ZDem.jpg",
+      "rating": 66,
+      "type": "TV"
+    },
+    {
+      "id": 469,
+      "malId": 469,
+      "title": {
+        "romaji": "Karin",
+        "english": "Karin: Chibi Vampire",
+        "native": "かりん",
+        "userPreferred": "Karin"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx469-8v2Am0gCrwvH.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx469-8v2Am0gCrwvH.png",
+      "rating": 67,
+      "type": "TV"
+    },
+    {
+      "id": 965,
+      "malId": 965,
+      "title": {
+        "romaji": "Yoshinaga-sanchi no Gargoyle",
+        "english": "Gargoyle of Yoshinaga House",
+        "native": "吉永さん家のガーゴイル",
+        "userPreferred": "Yoshinaga-sanchi no Gargoyle"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx965-wSNF2I6OyOjL.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx965-wSNF2I6OyOjL.png",
+      "rating": 63,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 4568,
+      "role": "MAIN",
+      "name": {
+        "first": "Kumiko",
+        "last": "Komori",
+        "full": "Kumiko Komori",
+        "native": "小森 久美子",
+        "userPreferred": "Kumiko Komori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4568.jpg",
+      "voiceActors": [
+        {
+          "id": 95487,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Maeda",
+            "full": "Ai Maeda",
+            "native": "前田愛",
+            "userPreferred": "Ai Maeda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95487-AryHTm78n9to.png"
+        },
+        {
+          "id": 109995,
+          "language": "Korean",
+          "name": {
+            "first": "Hye Ok",
+            "last": "Jeong",
+            "full": "Hye Ok Jeong",
+            "native": "혜옥 정",
+            "userPreferred": "Hye Ok Jeong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14995.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4563,
+      "role": "MAIN",
+      "name": {
+        "first": "Tenko",
+        "last": "Kamiyama",
+        "full": "Tenko Kamiyama",
+        "native": "テンコ",
+        "userPreferred": "Tenko Kamiyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4563.jpg",
+      "voiceActors": [
+        {
+          "id": 95070,
+          "language": "Japanese",
+          "name": {
+            "first": "Ami",
+            "last": "Koshimizu",
+            "full": "Ami Koshimizu",
+            "native": "小清水亜美",
+            "userPreferred": "Ami Koshimizu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95070-klkIfKz1VItS.png"
+        },
+        {
+          "id": 109769,
+          "language": "Korean",
+          "name": {
+            "first": "Min-Jeong",
+            "last": "Yeo",
+            "full": "Min-Jeong Yeo",
+            "native": "여민정",
+            "userPreferred": "Min-Jeong Yeo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14769.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4562,
+      "role": "MAIN",
+      "name": {
+        "first": "Samatarou",
+        "last": "Kamiyama",
+        "full": "Samatarou Kamiyama",
+        "native": "神山 佐間太郎",
+        "userPreferred": "Samatarou Kamiyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4562.jpg",
+      "voiceActors": [
+        {
+          "id": 95440,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Kishio",
+            "full": "Daisuke Kishio",
+            "native": "岸尾だいすけ",
+            "userPreferred": "Daisuke Kishio"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95440-j4iWV0MGWtBh.png"
+        },
+        {
+          "id": 109757,
+          "language": "Korean",
+          "name": {
+            "first": "Won Hyeong",
+            "last": "Choi",
+            "full": "Won Hyeong Choi",
+            "native": "원형 최",
+            "userPreferred": "Won Hyeong Choi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14757.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4571,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ai",
+        "last": "Tachibana",
+        "full": "Ai Tachibana",
+        "native": "橘愛",
+        "userPreferred": "Ai Tachibana"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4571.jpg",
+      "voiceActors": [
+        {
+          "id": 95040,
+          "language": "Japanese",
+          "name": {
+            "first": "Mamiko",
+            "last": "Noto",
+            "full": "Mamiko Noto",
+            "native": "能登麻美子",
+            "userPreferred": "Mamiko Noto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95040-CskhFn4LiOti.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4358,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Venus",
+        "last": "Kamiyama",
+        "full": "Venus Kamiyama",
+        "native": "神山 ビーナス",
+        "userPreferred": "Venus Kamiyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4358.jpg",
+      "voiceActors": [
+        {
+          "id": 95554,
+          "language": "Japanese",
+          "name": {
+            "first": "Nanaho",
+            "last": "Katsuragi",
+            "full": "Nanaho Katsuragi",
+            "native": "葛城七穂",
+            "userPreferred": "Nanaho Katsuragi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/554.jpg"
+        }
+      ]
+    },
+    {
+      "id": 45593,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lulu",
+        "last": null,
+        "full": "Lulu",
+        "native": "ルル",
+        "userPreferred": "Lulu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/45593.jpg",
+      "voiceActors": [
+        {
+          "id": 95111,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryou",
+            "last": "Hirohashi",
+            "full": "Ryou Hirohashi",
+            "native": "広橋涼",
+            "userPreferred": "Ryou Hirohashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/95111-iw76EbsupYkS.jpg"
+        },
+        {
+          "id": 95272,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoko",
+            "last": "Kaneda",
+            "full": "Tomoko Kaneda",
+            "native": "金田朋子",
+            "userPreferred": "Tomoko Kaneda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95272-qfGnqI0gkKK5.png"
+        }
+      ]
+    },
+    {
+      "id": 4570,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Suguru",
+        "last": null,
+        "full": "Suguru",
+        "native": "スグル",
+        "userPreferred": "Suguru"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4570.jpg",
+      "voiceActors": [
+        {
+          "id": 95752,
+          "language": "Japanese",
+          "name": {
+            "first": "Yasuhiro",
+            "last": "Takato",
+            "full": "Yasuhiro Takato",
+            "native": "高戸靖広",
+            "userPreferred": "Yasuhiro Takato"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95752-5TwWScSx7Noc.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4564,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Osamu",
+        "last": "Kamiyama",
+        "full": "Osamu Kamiyama",
+        "native": "神山治",
+        "userPreferred": "Osamu Kamiyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4564.jpg",
+      "voiceActors": [
+        {
+          "id": 95179,
+          "language": "Japanese",
+          "name": {
+            "first": "Masashi",
+            "last": "Ebara",
+            "full": "Masashi Ebara",
+            "native": "江原正士",
+            "userPreferred": "Masashi Ebara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95179-ZXxATX9muGcD.png"
+        }
+      ]
+    },
+    {
+      "id": 4567,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shinichi",
+        "last": "Kirishima",
+        "full": "Shinichi Kirishima",
+        "native": "霧島進一",
+        "userPreferred": "Shinichi Kirishima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4567.jpg",
+      "voiceActors": [
+        {
+          "id": 96526,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroaki",
+            "last": "Miura",
+            "full": "Hiroaki Miura",
+            "native": "三浦祥朗",
+            "userPreferred": "Hiroaki Miura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96526-1x3xdWelQg3D.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4566,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Meme",
+        "last": "Kamiyama",
+        "full": "Meme Kamiyama",
+        "native": "神山メメ",
+        "userPreferred": "Meme Kamiyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4566.jpg",
+      "voiceActors": [
+        {
+          "id": 95239,
+          "language": "Japanese",
+          "name": {
+            "first": "Akemi",
+            "last": "Kanda",
+            "full": "Akemi Kanda",
+            "native": "神田朱未",
+            "userPreferred": "Akemi Kanda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/239.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4569,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Fumiko",
+        "last": "Komori",
+        "full": "Fumiko Komori",
+        "native": "小森フミコ",
+        "userPreferred": "Fumiko Komori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4569.jpg",
+      "voiceActors": [
+        {
+          "id": 95275,
+          "language": "Japanese",
+          "name": {
+            "first": "Mariko",
+            "last": "Kouda",
+            "full": "Mariko Kouda",
+            "native": "國府田マリ子",
+            "userPreferred": "Mariko Kouda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95275-qm6Ep9IcLAv7.png"
+        }
+      ]
+    },
+    {
+      "id": 4565,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Misa",
+        "last": "Kamiyama",
+        "full": "Misa Kamiyama",
+        "native": "神山美佐",
+        "userPreferred": "Misa Kamiyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4565.jpg",
+      "voiceActors": [
+        {
+          "id": 95435,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Touma",
+            "full": "Yumi Touma",
+            "native": "冬馬由美",
+            "userPreferred": "Yumi Touma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95435-REiTyMQqIfH4.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 41395,
+      "relationType": "ADAPTATION",
+      "malId": 11395,
+      "title": {
+        "romaji": "Kamisama Kazoku",
+        "english": null,
+        "native": "神様家族",
+        "userPreferred": "Kamisama Kazoku"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/11395.jpg",
+      "color": "#d6786b",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/41395-EIAqmo4pbpyq.jpg",
+      "rating": 60
+    }
+  ],
+  "episodes": [
+    {
+      "id": "kami-sama-kazoku-episode-1",
+      "title": "Do you believe in God?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/18175/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:22:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kami-sama-kazoku-episode-1"
+    },
+    {
+      "id": "kami-sama-kazoku-episode-2",
+      "title": "Samatarou's Violent, Epic First Love Battle",
+      "image": "https://media.kitsu.io/episodes/thumbnails/18176/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kami-sama-kazoku-episode-2"
+    },
+    {
+      "id": "kami-sama-kazoku-episode-3",
+      "title": "Trembling Heart's Roulette",
+      "image": "https://media.kitsu.io/episodes/thumbnails/18177/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kami-sama-kazoku-episode-3"
+    },
+    {
+      "id": "kami-sama-kazoku-episode-4",
+      "title": "Samatarou's Miracle",
+      "image": "https://media.kitsu.io/episodes/thumbnails/18178/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kami-sama-kazoku-episode-4"
+    },
+    {
+      "id": "kami-sama-kazoku-episode-5",
+      "title": "The Season Of Love? Interested In Him?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/18179/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kami-sama-kazoku-episode-5"
+    },
+    {
+      "id": "kami-sama-kazoku-episode-6",
+      "title": "Tenko's Baby",
+      "image": "https://media.kitsu.io/episodes/thumbnails/18180/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kami-sama-kazoku-episode-6"
+    },
+    {
+      "id": "kami-sama-kazoku-episode-7",
+      "title": "Growing Girl",
+      "image": "https://media.kitsu.io/episodes/thumbnails/18181/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kami-sama-kazoku-episode-7"
+    },
+    {
+      "id": "kami-sama-kazoku-episode-8",
+      "title": "Important Friend",
+      "image": "https://media.kitsu.io/episodes/thumbnails/18182/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kami-sama-kazoku-episode-8"
+    },
+    {
+      "id": "kami-sama-kazoku-episode-9",
+      "title": "First Love Once More...",
+      "image": "https://media.kitsu.io/episodes/thumbnails/18183/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kami-sama-kazoku-episode-9"
+    },
+    {
+      "id": "kami-sama-kazoku-episode-10",
+      "title": "Pink Savings In A Teary Heart?!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/18184/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kami-sama-kazoku-episode-10"
+    },
+    {
+      "id": "kami-sama-kazoku-episode-11",
+      "title": "Midnight Girl",
+      "image": "https://media.kitsu.io/episodes/thumbnails/18185/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kami-sama-kazoku-episode-11"
+    },
+    {
+      "id": "kami-sama-kazoku-episode-12",
+      "title": "Kiss",
+      "image": "https://media.kitsu.io/episodes/thumbnails/18186/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kami-sama-kazoku-episode-12"
+    },
+    {
+      "id": "kami-sama-kazoku-episode-13",
+      "title": "The Bonds That Connect Angels' Prayers",
+      "image": "https://media.kitsu.io/episodes/thumbnails/18187/original.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kami-sama-kazoku-episode-13"
+    }
+  ]
+}

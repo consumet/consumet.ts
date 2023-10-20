@@ -1,0 +1,117 @@
+{
+  "id": "113180",
+  "title": {
+    "romaji": "BE-BOP Kaizokuban",
+    "english": null,
+    "native": "BE-BOP 海賊版"
+  },
+  "malId": 24087,
+  "synonyms": [
+    "Be-Bop Highschool Kaizokuban",
+    "Be-Bop Highschool Pirate Edition",
+    "Be-Bop Pirated",
+    "Bii Bappu Kaizokuban"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b113180-0Ssx0UeDayDe.jpg",
+  "popularity": 277,
+  "color": "#e45d78",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b113180-0Ssx0UeDayDe.jpg",
+  "description": "A parody spin-off of Be-Bop Highschool. Based on the official parody manga.",
+  "status": "Completed",
+  "releaseDate": 1991,
+  "startDate": {
+    "year": 1991,
+    "month": 3,
+    "day": 22
+  },
+  "endDate": {
+    "year": 1993,
+    "month": 6,
+    "day": 25
+  },
+  "totalEpisodes": 3,
+  "currentEpisode": 3,
+  "rating": 43,
+  "duration": 35,
+  "genres": [
+    "Comedy"
+  ],
+  "season": null,
+  "studios": [
+    "Toei Animation"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [],
+  "characters": [],
+  "relations": [
+    {
+      "id": 9645,
+      "relationType": "PARENT",
+      "malId": 9645,
+      "title": {
+        "romaji": "Be-Bop High School",
+        "english": null,
+        "native": "ビー・バップ・ハイスクール",
+        "userPreferred": "Be-Bop High School"
+      },
+      "status": "Completed",
+      "episodes": 7,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx9645-Vx2xMtVXdQ5P.jpg",
+      "color": "#e4a15d",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/9645-EPZ6KPWBd1SN.jpg",
+      "rating": 71
+    },
+    {
+      "id": 159828,
+      "relationType": "ADAPTATION",
+      "malId": null,
+      "title": {
+        "romaji": "BE-BOP Kaizokuban",
+        "english": null,
+        "native": "BE-BOP 海賊版",
+        "userPreferred": "BE-BOP Kaizokuban"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx159828-6NyvoFSyFhCj.png",
+      "color": "#d6bb1a",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx159828-6NyvoFSyFhCj.png",
+      "rating": null
+    }
+  ],
+  "episodes": [
+    {
+      "id": "be-bop-kaizokuban-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b113180-0Ssx0UeDayDe.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//be-bop-kaizokuban-episode-1"
+    },
+    {
+      "id": "be-bop-kaizokuban-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b113180-0Ssx0UeDayDe.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//be-bop-kaizokuban-episode-2"
+    },
+    {
+      "id": "be-bop-kaizokuban-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b113180-0Ssx0UeDayDe.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//be-bop-kaizokuban-episode-3"
+    }
+  ]
+}

@@ -1,0 +1,412 @@
+{
+  "id": "154037",
+  "title": {
+    "romaji": "BLEACH: memories in the rain",
+    "english": null,
+    "native": "BLEACH memories in the rain"
+  },
+  "malId": 762,
+  "synonyms": [
+    "Bleach: Jump Festa 2004",
+    "ブリーチ Memories in the Rain"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b154037-7VSs4aDUL2ZG.jpg",
+  "popularity": 3772,
+  "color": "#e49335",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b154037-7VSs4aDUL2ZG.jpg",
+  "description": "Kurosaki Ichigo, the temporary Shinigami (Death God) for Kuchiki Rukia, discovers his mother's killer as one of the Hollows he has been hunting. He does battle with it in a prideful battle of revenge.",
+  "status": "Completed",
+  "releaseDate": 2004,
+  "startDate": {
+    "year": 2004,
+    "month": 12,
+    "day": 18
+  },
+  "endDate": {
+    "year": 2004,
+    "month": 12,
+    "day": 18
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 68,
+  "duration": 29,
+  "genres": [
+    "Action",
+    "Drama",
+    "Supernatural"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Studio Pierrot"
+  ],
+  "subOrDub": "sub",
+  "type": "SPECIAL",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 5,
+      "role": "MAIN",
+      "name": {
+        "first": "Ichigo",
+        "last": "Kurosaki",
+        "full": "Ichigo Kurosaki",
+        "native": "黒崎一護",
+        "userPreferred": "Ichigo Kurosaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5-RxGEMJZLW4cy.png",
+      "voiceActors": [
+        {
+          "id": 95205,
+          "language": "Japanese",
+          "name": {
+            "first": "Masakazu",
+            "last": "Morita",
+            "full": "Masakazu Morita",
+            "native": "森田成一",
+            "userPreferred": "Masakazu Morita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95205-5P3tKe3eTG9n.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7345,
+      "role": "MAIN",
+      "name": {
+        "first": "Grand Fisher",
+        "last": null,
+        "full": "Grand Fisher",
+        "native": "グランドフィッシャー",
+        "userPreferred": "Grand Fisher"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7345.jpg",
+      "voiceActors": [
+        {
+          "id": 95831,
+          "language": "Japanese",
+          "name": {
+            "first": "",
+            "last": "Chafuurin",
+            "full": "Chafuurin",
+            "native": "茶風林 ",
+            "userPreferred": "Chafuurin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95831-yMEQTpN1WEtp.jpg"
+        }
+      ]
+    },
+    {
+      "id": 22849,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Masaki",
+        "last": "Kurosaki",
+        "full": "Masaki Kurosaki",
+        "native": "黒崎 真咲",
+        "userPreferred": "Masaki Kurosaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b22849-otOHGvyllWxD.png",
+      "voiceActors": [
+        {
+          "id": 95092,
+          "language": "Japanese",
+          "name": {
+            "first": "Sayaka",
+            "last": "Oohara",
+            "full": "Sayaka Oohara",
+            "native": "大原さやか",
+            "userPreferred": "Sayaka Oohara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95092-dQXsTFQXLg3o.png"
+        }
+      ]
+    },
+    {
+      "id": 1094,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tatsuki",
+        "last": "Arisawa",
+        "full": "Tatsuki Arisawa",
+        "native": "有沢 竜貴",
+        "userPreferred": "Tatsuki Arisawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1094-NQUclNUVyIaF.jpg",
+      "voiceActors": [
+        {
+          "id": 95277,
+          "language": "Japanese",
+          "name": {
+            "first": "Junko",
+            "last": "Noda",
+            "full": "Junko Noda",
+            "native": "野田順子",
+            "userPreferred": "Junko Noda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95277-hcE9l52SPjNP.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rukia",
+        "last": "Kuchiki",
+        "full": "Rukia Kuchiki",
+        "native": "朽木ルキア",
+        "userPreferred": "Rukia Kuchiki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6-25WoBeWMZXBc.png",
+      "voiceActors": [
+        {
+          "id": 95152,
+          "language": "Japanese",
+          "name": {
+            "first": "Fumiko",
+            "last": "Orikasa",
+            "full": "Fumiko Orikasa",
+            "native": "折笠富美子",
+            "userPreferred": "Fumiko Orikasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95152-X9K5ciNGSX35.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Orihime",
+        "last": "Inoue",
+        "full": "Orihime Inoue",
+        "native": "井上織姫",
+        "userPreferred": "Orihime Inoue"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7-JdR4betokDjR.jpg",
+      "voiceActors": [
+        {
+          "id": 95073,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuki",
+            "last": "Matsuoka",
+            "full": "Yuki Matsuoka",
+            "native": "松岡由貴",
+            "userPreferred": "Yuki Matsuoka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95073-HIjUyhssrxGs.png"
+        }
+      ]
+    },
+    {
+      "id": 2553,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Isshin",
+        "last": "Kurosaki",
+        "full": "Isshin Kurosaki",
+        "native": "黒崎 一心",
+        "userPreferred": "Isshin Kurosaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2553-tDUlab4F0lFJ.png",
+      "voiceActors": [
+        {
+          "id": 95006,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiyuki",
+            "last": "Morikawa",
+            "full": "Toshiyuki Morikawa",
+            "native": "森川智之",
+            "userPreferred": "Toshiyuki Morikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95006-hoLuiZANeD3Q.png"
+        }
+      ]
+    },
+    {
+      "id": 2682,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Juushirou",
+        "last": "Ukitake",
+        "full": "Juushirou Ukitake",
+        "native": "浮竹十四郎",
+        "userPreferred": "Juushirou Ukitake"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2682-4BB6qdB296iG.png",
+      "voiceActors": [
+        {
+          "id": 95412,
+          "language": "Japanese",
+          "name": {
+            "first": "Hideo",
+            "last": "Ishikawa",
+            "full": "Hideo Ishikawa",
+            "native": "石川英郎",
+            "userPreferred": "Hideo Ishikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95412-czaGpvAm5pWx.png"
+        }
+      ]
+    },
+    {
+      "id": 22851,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Michiru",
+        "last": "Ogawa",
+        "full": "Michiru Ogawa",
+        "native": "小川みちる",
+        "userPreferred": "Michiru Ogawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/22851.jpg",
+      "voiceActors": [
+        {
+          "id": 95126,
+          "language": "Japanese",
+          "name": {
+            "first": "Asami",
+            "last": "Sanada",
+            "full": "Asami Sanada",
+            "native": "真田アサミ",
+            "userPreferred": "Asami Sanada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95126-5riJAYwazk5K.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1089,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kon",
+        "last": null,
+        "full": "Kon",
+        "native": "コン",
+        "userPreferred": "Kon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1089.jpg",
+      "voiceActors": [
+        {
+          "id": 96880,
+          "language": "Japanese",
+          "name": {
+            "first": "Tite",
+            "last": "Kubo",
+            "full": "Tite Kubo",
+            "native": "久保帯人",
+            "userPreferred": "Tite Kubo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96880-wrPEaY74sV5V.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4018,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Karin",
+        "last": "Kurosaki",
+        "full": "Karin Kurosaki",
+        "native": "黒崎 夏梨",
+        "userPreferred": "Karin Kurosaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4018.jpg",
+      "voiceActors": [
+        {
+          "id": 95008,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Kugimiya",
+            "full": "Rie Kugimiya",
+            "native": "釘宮理恵",
+            "userPreferred": "Rie Kugimiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95008-2y0EeuSTHIri.png"
+        }
+      ]
+    },
+    {
+      "id": 1096,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuzu",
+        "last": "Kurosaki",
+        "full": "Yuzu Kurosaki",
+        "native": "黒崎 遊子",
+        "userPreferred": "Yuzu Kurosaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1096.jpg",
+      "voiceActors": [
+        {
+          "id": 95743,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumi",
+            "last": "Sena",
+            "full": "Ayumi Sena",
+            "native": "瀬那歩美",
+            "userPreferred": "Ayumi Sena"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/743.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 269,
+      "relationType": "ALTERNATIVE",
+      "malId": 269,
+      "title": {
+        "romaji": "BLEACH",
+        "english": "Bleach",
+        "native": "BLEACH",
+        "userPreferred": "BLEACH"
+      },
+      "status": "Completed",
+      "episodes": 366,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx269-KxkqTIuQgJ6v.png",
+      "color": "#f19335",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/269-08ar2HJOUAuL.jpg",
+      "rating": 77
+    },
+    {
+      "id": 30012,
+      "relationType": "ADAPTATION",
+      "malId": 12,
+      "title": {
+        "romaji": "BLEACH",
+        "english": "Bleach",
+        "native": "BLEACH",
+        "userPreferred": "BLEACH"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30012-z7U138mUaPdN.png",
+      "color": "#3586e4",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/30012-RpbdVc2yNxhw.jpg",
+      "rating": 78
+    }
+  ],
+  "episodes": [
+    {
+      "id": "bleach-memories-in-the-rain-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b154037-7VSs4aDUL2ZG.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//bleach-memories-in-the-rain-episode-1"
+    }
+  ]
+}

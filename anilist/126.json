@@ -1,0 +1,632 @@
+{
+  "id": "126",
+  "title": {
+    "romaji": "Futakoi Alternative",
+    "english": "Twin Love Alternative",
+    "native": "フタコイ オルタナティブ"
+  },
+  "malId": 126,
+  "synonyms": [
+    "Futakoi 2"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/126.jpg",
+  "popularity": 4958,
+  "color": "#e4a150",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/126-4ZTMFFoEJUum.jpg",
+  "description": "The Futaba Detective Agency, being run by Rentarou, who has taken over the family business, after his father's death 3 weeks ago. Along with Sara &amp; Souju, his live-in identical twin assistants, he ends up running afoul of the local Yakuza.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2005,
+  "startDate": {
+    "year": 2005,
+    "month": 4,
+    "day": 7
+  },
+  "endDate": {
+    "year": 2005,
+    "month": 6,
+    "day": 30
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 64,
+  "duration": 24,
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "ufotable",
+    "feel.",
+    "Studio Flag"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 1210,
+      "malId": 1210,
+      "title": {
+        "romaji": "NHK ni Youkoso!",
+        "english": "Welcome to the N-H-K",
+        "native": "N・H・Kにようこそ！",
+        "userPreferred": "NHK ni Youkoso!"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1210-spaA00zoDoqr.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1210-3HzGH3tahHmC.jpg",
+      "rating": 82,
+      "type": "TV"
+    },
+    {
+      "id": 196,
+      "malId": 196,
+      "title": {
+        "romaji": "Onegai☆Twins",
+        "english": "Please☆Twins!",
+        "native": "おねがい☆ツインズ",
+        "userPreferred": "Onegai☆Twins"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/196.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/196-B9iY87lYJxDp.jpg",
+      "rating": 63,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 4112,
+      "role": "MAIN",
+      "name": {
+        "first": "Rentarou",
+        "last": "Futaba",
+        "full": "Rentarou Futaba",
+        "native": "双葉恋太郎",
+        "userPreferred": "Rentarou Futaba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4112-5MtrTTnxOV6W.png",
+      "voiceActors": [
+        {
+          "id": 95001,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Seki",
+            "full": "Tomokazu Seki",
+            "native": "関智一",
+            "userPreferred": "Tomokazu Seki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95001-vm0RtZhmlzhK.png"
+        }
+      ]
+    },
+    {
+      "id": 4207,
+      "role": "MAIN",
+      "name": {
+        "first": "Souju",
+        "last": "Shirogane",
+        "full": "Souju Shirogane",
+        "native": "白鐘双樹",
+        "userPreferred": "Souju Shirogane"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4207.jpg",
+      "voiceActors": [
+        {
+          "id": 95117,
+          "language": "Japanese",
+          "name": {
+            "first": "Mai",
+            "last": "Kadowaki",
+            "full": "Mai Kadowaki",
+            "native": "門脇舞以",
+            "userPreferred": "Mai Kadowaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95117-TpLo1AeJRfVJ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4206,
+      "role": "MAIN",
+      "name": {
+        "first": "Sara",
+        "last": "Shirogane",
+        "full": "Sara Shirogane",
+        "native": "白鐘沙羅",
+        "userPreferred": "Sara Shirogane"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4206.jpg",
+      "voiceActors": [
+        {
+          "id": 95156,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaori",
+            "last": "Mizuhashi",
+            "full": "Kaori Mizuhashi",
+            "native": "水橋かおり",
+            "userPreferred": "Kaori Mizuhashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95156-7tw0zP396ecG.png"
+        }
+      ]
+    },
+    {
+      "id": 22013,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ui",
+        "last": "Chigusa",
+        "full": "Ui Chigusa",
+        "native": "千草初",
+        "userPreferred": "Ui Chigusa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/22013.jpg",
+      "voiceActors": [
+        {
+          "id": 95499,
+          "language": "Japanese",
+          "name": {
+            "first": "Kozue",
+            "last": "Yoshizumi",
+            "full": "Kozue Yoshizumi",
+            "native": "吉住梢",
+            "userPreferred": "Kozue Yoshizumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/499.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5030,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaoruko",
+        "last": "Ichijou",
+        "full": "Kaoruko Ichijou",
+        "native": "一条薫子",
+        "userPreferred": "Kaoruko Ichijou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5030.jpg",
+      "voiceActors": [
+        {
+          "id": 95028,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Horie",
+            "full": "Yui Horie",
+            "native": "堀江由衣",
+            "userPreferred": "Yui Horie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95028-MHT1m3E5wGZx.png"
+        }
+      ]
+    },
+    {
+      "id": 22017,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ai",
+        "last": "Momoi",
+        "full": "Ai Momoi",
+        "native": "桃衣愛",
+        "userPreferred": "Ai Momoi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/22017.jpg",
+      "voiceActors": [
+        {
+          "id": 95584,
+          "language": "Japanese",
+          "name": {
+            "first": "Chiaki",
+            "last": "Takahashi",
+            "full": "Chiaki Takahashi",
+            "native": "たかはし智秋",
+            "userPreferred": "Chiaki Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95584-TgaiagGVcsSp.jpg"
+        }
+      ]
+    },
+    {
+      "id": 22015,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lala",
+        "last": "Hinagiku",
+        "full": "Lala Hinagiku",
+        "native": "雛菊らら",
+        "userPreferred": "Lala Hinagiku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/22015.jpg",
+      "voiceActors": [
+        {
+          "id": 95049,
+          "language": "Japanese",
+          "name": {
+            "first": "Yurina",
+            "last": "Hase",
+            "full": "Yurina Hase",
+            "native": "長谷優里奈",
+            "userPreferred": "Yurina Hase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95049-kOO0H03y43pW.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16323,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ikafire",
+        "last": null,
+        "full": "Ikafire",
+        "native": null,
+        "userPreferred": "Ikafire"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16323.jpg",
+      "voiceActors": [
+        {
+          "id": 95898,
+          "language": "Japanese",
+          "name": {
+            "first": "Choo",
+            "last": null,
+            "full": "Choo",
+            "native": "チョー ",
+            "userPreferred": "Choo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95898-XHSESV65G8Jv.png"
+        }
+      ]
+    },
+    {
+      "id": 22016,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lulu",
+        "last": "Hinagiku",
+        "full": "Lulu Hinagiku",
+        "native": "雛菊るる",
+        "userPreferred": "Lulu Hinagiku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/22016.jpg",
+      "voiceActors": [
+        {
+          "id": 95055,
+          "language": "Japanese",
+          "name": {
+            "first": "Shizuka",
+            "last": "Hasegawa",
+            "full": "Shizuka Hasegawa",
+            "native": "長谷川静香",
+            "userPreferred": "Shizuka Hasegawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/55.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16506,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nishimori",
+        "last": "Hariyama",
+        "full": "Nishimori Hariyama",
+        "native": null,
+        "userPreferred": "Nishimori Hariyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16506.jpg",
+      "voiceActors": [
+        {
+          "id": 96074,
+          "language": "Japanese",
+          "name": {
+            "first": "Makoto",
+            "last": "Yasumura",
+            "full": "Makoto Yasumura",
+            "native": "保村真",
+            "userPreferred": "Makoto Yasumura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96074-mcIujin2kl4o.png"
+        }
+      ]
+    },
+    {
+      "id": 5029,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sumireko",
+        "last": "Ichijou",
+        "full": "Sumireko Ichijou",
+        "native": "一条董子",
+        "userPreferred": "Sumireko Ichijou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5029.jpg",
+      "voiceActors": [
+        {
+          "id": 95070,
+          "language": "Japanese",
+          "name": {
+            "first": "Ami",
+            "last": "Koshimizu",
+            "full": "Ami Koshimizu",
+            "native": "小清水亜美",
+            "userPreferred": "Ami Koshimizu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95070-klkIfKz1VItS.png"
+        }
+      ]
+    },
+    {
+      "id": 5032,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kira",
+        "last": "Sakurazuki",
+        "full": "Kira Sakurazuki",
+        "native": "桜月キラ",
+        "userPreferred": "Kira Sakurazuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5032.jpg",
+      "voiceActors": [
+        {
+          "id": 100450,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Itsuki",
+            "full": "Yui Itsuki",
+            "native": "伊月ゆい",
+            "userPreferred": "Yui Itsuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100450-8UPaPmqMDH5u.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5031,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yura",
+        "last": "Sakurazuki",
+        "full": "Yura Sakurazuki",
+        "native": "桜月ユラ",
+        "userPreferred": "Yura Sakurazuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5031.jpg",
+      "voiceActors": [
+        {
+          "id": 101250,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiromi",
+            "last": "Tsunakake",
+            "full": "Hiromi Tsunakake",
+            "native": "裕美 綱掛",
+            "userPreferred": "Hiromi Tsunakake"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101250-iduIvc6j3QuF.jpg"
+        }
+      ]
+    },
+    {
+      "id": 22014,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Koi",
+        "last": "Chigusa",
+        "full": "Koi Chigusa",
+        "native": "千草恋",
+        "userPreferred": "Koi Chigusa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/22014.jpg",
+      "voiceActors": [
+        {
+          "id": 95136,
+          "language": "Japanese",
+          "name": {
+            "first": "Natsuko",
+            "last": "Kuwatani",
+            "full": "Natsuko Kuwatani",
+            "native": "桑谷夏子",
+            "userPreferred": "Natsuko Kuwatani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95136-8dAGkiwq7Htk.png"
+        }
+      ]
+    },
+    {
+      "id": 22114,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mai",
+        "last": "Momoi",
+        "full": "Mai Momoi",
+        "native": "桃衣舞",
+        "userPreferred": "Mai Momoi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/22114.jpg",
+      "voiceActors": [
+        {
+          "id": 102743,
+          "language": "Japanese",
+          "name": {
+            "first": "Minako",
+            "last": "Sango",
+            "full": "Minako Sango",
+            "native": "美奈子 三五",
+            "userPreferred": "Minako Sango"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7743.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 125,
+      "relationType": "ALTERNATIVE",
+      "malId": 125,
+      "title": {
+        "romaji": "Futakoi",
+        "english": "Twin Love",
+        "native": "双恋",
+        "userPreferred": "Futakoi"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/125.jpg",
+      "color": "#e4bb50",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/125.jpg",
+      "rating": 59
+    },
+    {
+      "id": 42913,
+      "relationType": "ALTERNATIVE",
+      "malId": 12913,
+      "title": {
+        "romaji": "Futakoi Alternative",
+        "english": "Twin love Alternative",
+        "native": "フタコイ オルタナティブ",
+        "userPreferred": "Futakoi Alternative"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/12913.jpg",
+      "color": "#e49343",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/12913.jpg",
+      "rating": 62
+    }
+  ],
+  "episodes": [
+    {
+      "id": "futakoi-alternative-episode-1",
+      "title": "Croquette, Copter, Underground Boxing and Me",
+      "image": "https://media.kitsu.io/episodes/thumbnails/3187/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:20:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//futakoi-alternative-episode-1"
+    },
+    {
+      "id": "futakoi-alternative-episode-2",
+      "title": "No-name Day",
+      "image": "https://media.kitsu.io/episodes/thumbnails/3188/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:20:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//futakoi-alternative-episode-2"
+    },
+    {
+      "id": "futakoi-alternative-episode-3",
+      "title": "Emerald Mountain Yeah!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/3189/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:20:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//futakoi-alternative-episode-3"
+    },
+    {
+      "id": "futakoi-alternative-episode-4",
+      "title": "Nico Paku Rhapsody",
+      "image": "https://media.kitsu.io/episodes/thumbnails/3190/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:20:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//futakoi-alternative-episode-4"
+    },
+    {
+      "id": "futakoi-alternative-episode-5",
+      "title": "7 DAYZ (...and Happy Dayz)",
+      "image": "https://media.kitsu.io/episodes/thumbnails/3191/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:20:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//futakoi-alternative-episode-5"
+    },
+    {
+      "id": "futakoi-alternative-episode-6",
+      "title": "Why Did You Part, Even Though You Loved Each Other?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/3192/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:20:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//futakoi-alternative-episode-6"
+    },
+    {
+      "id": "futakoi-alternative-episode-7",
+      "title": "Futaba Rentarou`s First Case",
+      "image": "https://media.kitsu.io/episodes/thumbnails/3193/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:20:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//futakoi-alternative-episode-7"
+    },
+    {
+      "id": "futakoi-alternative-episode-8",
+      "title": "'Sa' is the 'Sa' in Sayonara",
+      "image": "https://media.kitsu.io/episodes/thumbnails/3194/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:20:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//futakoi-alternative-episode-8"
+    },
+    {
+      "id": "futakoi-alternative-episode-9",
+      "title": "Futakoi",
+      "image": "https://media.kitsu.io/episodes/thumbnails/3195/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:20:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//futakoi-alternative-episode-9"
+    },
+    {
+      "id": "futakoi-alternative-episode-10",
+      "title": "Dance Like a Bear, Sting Like a Squid",
+      "image": "https://media.kitsu.io/episodes/thumbnails/3196/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:20:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//futakoi-alternative-episode-10"
+    },
+    {
+      "id": "futakoi-alternative-episode-11",
+      "title": "Burning Nikotamagawa",
+      "image": "https://media.kitsu.io/episodes/thumbnails/3197/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:20:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//futakoi-alternative-episode-11"
+    },
+    {
+      "id": "futakoi-alternative-episode-12",
+      "title": "To the Place with Light",
+      "image": "https://media.kitsu.io/episodes/thumbnails/3198/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:20:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//futakoi-alternative-episode-12"
+    },
+    {
+      "id": "futakoi-alternative-episode-13",
+      "title": " We Want to be Three",
+      "image": "https://media.kitsu.io/episodes/thumbnails/3199/original.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:20:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//futakoi-alternative-episode-13"
+    }
+  ]
+}

@@ -1,0 +1,723 @@
+{
+  "id": "579",
+  "title": {
+    "romaji": "Battle Programmer Shirase",
+    "english": null,
+    "native": "バトルプログラマーシラセ"
+  },
+  "malId": 579,
+  "synonyms": [
+    "BPS"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/579.jpg",
+  "popularity": 5920,
+  "color": "#f1d60d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/579.jpg",
+  "description": "Battle Programmer Shirase, also known as BPS, is a free programmer with super hacking abilities who doesn't work for money. What he does work for is certainly something that only people like him would appreciate. But, his demeanor certainly doesn't suit the jobs he is hired for. With the evil King of America causing trouble via the internet, Shirase is nothing but busy as each new adventure brings even more interesting people into the picture.\n<br><br>\n(Source: Anime News Network)\n<br>",
+  "status": "Completed",
+  "releaseDate": 2003,
+  "startDate": {
+    "year": 2003,
+    "month": 10,
+    "day": 4
+  },
+  "endDate": {
+    "year": 2004,
+    "month": 1,
+    "day": 4
+  },
+  "totalEpisodes": 15,
+  "currentEpisode": 15,
+  "rating": 63,
+  "duration": 12,
+  "genres": [
+    "Comedy",
+    "Ecchi",
+    "Sci-Fi"
+  ],
+  "season": "FALL",
+  "studios": [
+    "AIC"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 4051,
+      "malId": 4051,
+      "title": {
+        "romaji": "Net Ghost PIPOPA",
+        "english": "Web Ghosts PiPoPa",
+        "native": "ネットゴーストPIPOPA",
+        "userPreferred": "Net Ghost PIPOPA"
+      },
+      "status": "Completed",
+      "episodes": 51,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4051.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4051.jpg",
+      "rating": 60,
+      "type": "TV"
+    },
+    {
+      "id": 268,
+      "malId": 268,
+      "title": {
+        "romaji": "GOLDEN BOY: Sasurai no Obenkyou Yarou",
+        "english": "GOLDEN BOY",
+        "native": "GOLDEN BOY さすらいのお勉強野郎",
+        "userPreferred": "GOLDEN BOY: Sasurai no Obenkyou Yarou"
+      },
+      "status": "Completed",
+      "episodes": 6,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx268-O1hqy3Uea1ns.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/268-jNnYUyUe4vKC.jpg",
+      "rating": 77,
+      "type": "OVA"
+    },
+    {
+      "id": 624,
+      "malId": 624,
+      "title": {
+        "romaji": "Mouse",
+        "english": null,
+        "native": "マウス",
+        "userPreferred": "Mouse"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx624-iYQoq6ztwsnR.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/624-1QElYC2tIHgq.jpg",
+      "rating": 52,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 458,
+      "malId": 458,
+      "title": {
+        "romaji": "Buttobi!! CPU",
+        "english": "I Dream of Mimi",
+        "native": "ぶっとび!!CPU",
+        "userPreferred": "Buttobi!! CPU"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx458-sTHXWuCaQ4ky.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx458-sTHXWuCaQ4ky.jpg",
+      "rating": 58,
+      "type": "OVA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 6221,
+      "role": "MAIN",
+      "name": {
+        "first": "Misao",
+        "last": "Amano",
+        "full": "Misao Amano",
+        "native": "天野美紗緒",
+        "userPreferred": "Misao Amano"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6221.jpg",
+      "voiceActors": [
+        {
+          "id": 95207,
+          "language": "Japanese",
+          "name": {
+            "first": "Misato",
+            "last": "Fukuen",
+            "full": "Misato Fukuen",
+            "native": "福圓美里",
+            "userPreferred": "Misato Fukuen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95207-TYPMa0JKUDAf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2887,
+      "role": "MAIN",
+      "name": {
+        "first": "Akira",
+        "last": "Shirase",
+        "full": "Akira Shirase",
+        "native": "白瀬慧",
+        "userPreferred": "Akira Shirase"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2887.jpg",
+      "voiceActors": [
+        {
+          "id": 95123,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuya",
+            "last": "Nakai",
+            "full": "Kazuya Nakai",
+            "native": "中井和哉",
+            "userPreferred": "Kazuya Nakai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95123-qdVFNraYmQ5K.png"
+        }
+      ]
+    },
+    {
+      "id": 4438,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hideki",
+        "last": "Saitou",
+        "full": "Hideki Saitou",
+        "native": "斎藤英樹",
+        "userPreferred": "Hideki Saitou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4438.jpg",
+      "voiceActors": [
+        {
+          "id": 95064,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroki",
+            "last": "Takahashi",
+            "full": "Hiroki Takahashi",
+            "native": "高橋広樹",
+            "userPreferred": "Hiroki Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95064-p83l3UvfQ6n6.png"
+        }
+      ]
+    },
+    {
+      "id": 218031,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaoru",
+        "last": "Akizuki",
+        "full": "Kaoru Akizuki",
+        "native": "秋月郁",
+        "userPreferred": "Kaoru Akizuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b218031-thUwLe0y2ISx.png",
+      "voiceActors": [
+        {
+          "id": 95743,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumi",
+            "last": "Sena",
+            "full": "Ayumi Sena",
+            "native": "瀬那歩美",
+            "userPreferred": "Ayumi Sena"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/743.jpg"
+        },
+        {
+          "id": 95477,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Yanaka",
+            "full": "Hiroshi Yanaka",
+            "native": "家中宏",
+            "userPreferred": "Hiroshi Yanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95477-zUeFZNtjTgap.png"
+        }
+      ]
+    },
+    {
+      "id": 217980,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kotoe",
+        "last": "Amano",
+        "full": "Kotoe Amano",
+        "native": "天野琴恵",
+        "userPreferred": "Kotoe Amano"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b217980-OzTLBgkpCjw4.png",
+      "voiceActors": [
+        {
+          "id": 95100,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsuko",
+            "last": "Tanaka",
+            "full": "Atsuko Tanaka",
+            "native": "田中敦子",
+            "userPreferred": "Atsuko Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95100-QZdjWZLCoWkf.png"
+        }
+      ]
+    },
+    {
+      "id": 218032,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaoru",
+        "last": "Akizuki",
+        "full": "Kaoru Akizuki",
+        "native": "秋月郁",
+        "userPreferred": "Kaoru Akizuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b218032-uoxvfb7lBFMv.png",
+      "voiceActors": [
+        {
+          "id": 95743,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumi",
+            "last": "Sena",
+            "full": "Ayumi Sena",
+            "native": "瀬那歩美",
+            "userPreferred": "Ayumi Sena"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/743.jpg"
+        },
+        {
+          "id": 95477,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Yanaka",
+            "full": "Hiroshi Yanaka",
+            "native": "家中宏",
+            "userPreferred": "Hiroshi Yanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95477-zUeFZNtjTgap.png"
+        }
+      ]
+    },
+    {
+      "id": 14814,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yoriko",
+        "last": "Yunoki",
+        "full": "Yoriko Yunoki",
+        "native": "柚木頼子",
+        "userPreferred": "Yoriko Yunoki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14814.jpg",
+      "voiceActors": [
+        {
+          "id": 95152,
+          "language": "Japanese",
+          "name": {
+            "first": "Fumiko",
+            "last": "Orikasa",
+            "full": "Fumiko Orikasa",
+            "native": "折笠富美子",
+            "userPreferred": "Fumiko Orikasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95152-X9K5ciNGSX35.jpg"
+        }
+      ]
+    },
+    {
+      "id": 218033,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaoru",
+        "last": "Akizuki",
+        "full": "Kaoru Akizuki",
+        "native": "秋月郁",
+        "userPreferred": "Kaoru Akizuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b218033-CZCsjv99WOD9.png",
+      "voiceActors": [
+        {
+          "id": 95743,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumi",
+            "last": "Sena",
+            "full": "Ayumi Sena",
+            "native": "瀬那歩美",
+            "userPreferred": "Ayumi Sena"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/743.jpg"
+        },
+        {
+          "id": 95477,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Yanaka",
+            "full": "Hiroshi Yanaka",
+            "native": "家中宏",
+            "userPreferred": "Hiroshi Yanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95477-zUeFZNtjTgap.png"
+        }
+      ]
+    },
+    {
+      "id": 14818,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jou",
+        "last": "Kawahara",
+        "full": "Jou Kawahara",
+        "native": "川原丈",
+        "userPreferred": "Jou Kawahara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14818.jpg",
+      "voiceActors": [
+        {
+          "id": 95164,
+          "language": "Japanese",
+          "name": {
+            "first": "Chihiro",
+            "last": "Suzuki",
+            "full": "Chihiro Suzuki",
+            "native": "鈴木千尋",
+            "userPreferred": "Chihiro Suzuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95164-q5cxbs9WUnTU.png"
+        }
+      ]
+    },
+    {
+      "id": 217982,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mitsuko",
+        "last": "Shirase",
+        "full": "Mitsuko Shirase",
+        "native": "白瀬美津子",
+        "userPreferred": "Mitsuko Shirase"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 104472,
+          "language": "Japanese",
+          "name": {
+            "first": "Mari",
+            "last": "Yokoo",
+            "full": "Mari Yokoo",
+            "native": "横尾まり",
+            "userPreferred": "Mari Yokoo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104472-lwGxYMW80n8P.png"
+        }
+      ]
+    },
+    {
+      "id": 14815,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaoru",
+        "last": "Akizuki",
+        "full": "Kaoru Akizuki",
+        "native": "秋月郁",
+        "userPreferred": "Kaoru Akizuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14815.jpg",
+      "voiceActors": [
+        {
+          "id": 95743,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumi",
+            "last": "Sena",
+            "full": "Ayumi Sena",
+            "native": "瀬那歩美",
+            "userPreferred": "Ayumi Sena"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/743.jpg"
+        },
+        {
+          "id": 95477,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Yanaka",
+            "full": "Hiroshi Yanaka",
+            "native": "家中宏",
+            "userPreferred": "Hiroshi Yanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95477-zUeFZNtjTgap.png"
+        }
+      ]
+    },
+    {
+      "id": 217983,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Etsuko",
+        "last": "Sakamoto",
+        "full": "Etsuko Sakamoto",
+        "native": "坂本悦子",
+        "userPreferred": "Etsuko Sakamoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95743,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumi",
+            "last": "Sena",
+            "full": "Ayumi Sena",
+            "native": "瀬那歩美",
+            "userPreferred": "Ayumi Sena"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/743.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14819,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rintarou",
+        "last": "Ose",
+        "full": "Rintarou Ose",
+        "native": "尾瀬倫太郎",
+        "userPreferred": "Rintarou Ose"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14819.jpg",
+      "voiceActors": [
+        {
+          "id": 95752,
+          "language": "Japanese",
+          "name": {
+            "first": "Yasuhiro",
+            "last": "Takato",
+            "full": "Yasuhiro Takato",
+            "native": "高戸靖広",
+            "userPreferred": "Yasuhiro Takato"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95752-5TwWScSx7Noc.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14817,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Saki",
+        "last": "Kawahara",
+        "full": "Saki Kawahara",
+        "native": "川原砂姫",
+        "userPreferred": "Saki Kawahara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14817.jpg",
+      "voiceActors": [
+        {
+          "id": 95971,
+          "language": "Japanese",
+          "name": {
+            "first": "Kumiko",
+            "last": "Yokote",
+            "full": "Kumiko Yokote",
+            "native": "横手久美子",
+            "userPreferred": "Kumiko Yokote"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95971-XrJXCMjLDt7m.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14816,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sae",
+        "last": "Motoki",
+        "full": "Sae Motoki",
+        "native": "本木紗英",
+        "userPreferred": "Sae Motoki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14816.jpg",
+      "voiceActors": [
+        {
+          "id": 96582,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Nagashima",
+            "full": "Yuuko Nagashima",
+            "native": "永島由子",
+            "userPreferred": "Yuuko Nagashima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96582-pZIoOXgpxn1y.jpg"
+        }
+      ]
+    },
+    {
+      "id": 218030,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaoru",
+        "last": "Akizuki",
+        "full": "Kaoru Akizuki",
+        "native": "秋月郁",
+        "userPreferred": "Kaoru Akizuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b218030-K8vLvdPkY7TZ.png",
+      "voiceActors": [
+        {
+          "id": 95743,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumi",
+            "last": "Sena",
+            "full": "Ayumi Sena",
+            "native": "瀬那歩美",
+            "userPreferred": "Ayumi Sena"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/743.jpg"
+        },
+        {
+          "id": 95477,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Yanaka",
+            "full": "Hiroshi Yanaka",
+            "native": "家中宏",
+            "userPreferred": "Hiroshi Yanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95477-zUeFZNtjTgap.png"
+        }
+      ]
+    },
+    {
+      "id": 217981,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Shigeki",
+        "last": "Amano",
+        "full": "Shigeki Amano",
+        "native": "天野繁樹",
+        "userPreferred": "Shigeki Amano"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 36309,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Narrator",
+        "last": null,
+        "full": "Narrator",
+        "native": "ナレーター",
+        "userPreferred": "Narrator"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36309-yRLEQYd2dDI5.jpg",
+      "voiceActors": [
+        {
+          "id": 100427,
+          "language": "Japanese",
+          "name": {
+            "first": "Takaya",
+            "last": "Hashi",
+            "full": "Takaya Hashi",
+            "native": "土師孝也",
+            "userPreferred": "Takaya Hashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100427-rXj5mx6gGNfH.png"
+        }
+      ]
+    },
+    {
+      "id": 217984,
+      "role": "BACKGROUND",
+      "name": {
+        "first": null,
+        "last": "Haitatsuin",
+        "full": "Haitatsuin",
+        "native": "配達員",
+        "userPreferred": "Haitatsuin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b217984-OLz7VxdxRxop.png",
+      "voiceActors": [
+        {
+          "id": 104684,
+          "language": "Japanese",
+          "name": {
+            "first": "Susumu",
+            "last": "Akagi",
+            "full": "Susumu Akagi",
+            "native": "赤城進",
+            "userPreferred": "Susumu Akagi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104684-4QBfS1nlrvN5.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 1918,
+      "relationType": "CHARACTER",
+      "malId": 1918,
+      "title": {
+        "romaji": "Mahou Shoujo Pretty Sammy",
+        "english": "Magical Girl Pretty Sammy",
+        "native": "魔法少女プリティサミー",
+        "userPreferred": "Mahou Shoujo Pretty Sammy"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1918.jpg",
+      "color": "#e4e443",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1918.jpg",
+      "rating": 59
+    }
+  ],
+  "episodes": [
+    {
+      "id": "battle-programmer-shirase-episode-1",
+      "title": "BPS Arrives! E-Mode vs. Super Computer, Guest Appearance by the King of America! Part 1",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12701/original.jpg",
+      "number": 1.3,
+      "createdAt": "2013-02-20T18:21:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//battle-programmer-shirase-episode-1"
+    },
+    {
+      "id": "battle-programmer-shirase-episode-2",
+      "title": "BPS Arrives! E-Mode vs. Super Computer, Guest Appearance by the King of America! Part 2",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12702/original.jpg",
+      "number": 4.6,
+      "createdAt": "2013-02-20T18:21:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//battle-programmer-shirase-episode-2"
+    },
+    {
+      "id": "battle-programmer-shirase-episode-3",
+      "title": "BPS Arrives! E-Mode vs. Super Computer, Guest Appearance by the King of America! Part 3",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12703/original.jpg",
+      "number": 7.9,
+      "createdAt": "2013-02-20T18:21:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//battle-programmer-shirase-episode-3"
+    },
+    {
+      "id": "battle-programmer-shirase-episode-4",
+      "title": "Burning BPS! Seaside School in Swimsuits is Sweet but Dangerous, Misao-chan's Crisis! Part 1",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12704/original.jpg",
+      "number": 10.12,
+      "createdAt": "2013-02-20T18:21:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//battle-programmer-shirase-episode-4"
+    },
+    {
+      "id": "battle-programmer-shirase-episode-5",
+      "title": "Burning BPS! Seaside School in Swimsuits is Sweet but Dangerous, Misao-chan's Crisis! Part 2",
+      "image": "https://media.kitsu.io/episodes/thumbnails/12705/original.jpg",
+      "number": 13.15,
+      "createdAt": "2013-02-20T18:21:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//battle-programmer-shirase-episode-5"
+    }
+  ]
+}

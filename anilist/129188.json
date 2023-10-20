@@ -1,0 +1,387 @@
+{
+  "id": "129188",
+  "title": {
+    "romaji": "Goblin Slayer II",
+    "english": "GOBLIN SLAYER II",
+    "native": "ゴブリンスレイヤーⅡ"
+  },
+  "malId": 47160,
+  "synonyms": [
+    "ก็อบลิน สเลเยอร์ ภาค 2"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "gRdlSnN6lww",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/gRdlSnN6lww/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129188-zWPBGutZXgjZ.jpg",
+  "popularity": 58006,
+  "color": "#e44335",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/129188-3PyIXSkmcOPH.jpg",
+  "description": "The second season of <i>Goblin Slayer</i>.",
+  "status": "Ongoing",
+  "releaseDate": 2023,
+  "startDate": {
+    "year": 2023,
+    "month": 10,
+    "day": 6
+  },
+  "endDate": {
+    "year": 2023,
+    "month": 12,
+    "day": 22
+  },
+  "nextAiringEpisode": {
+    "airingTime": 1697806800,
+    "timeUntilAiring": 577,
+    "episode": 3
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 2,
+  "rating": 74,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+  ],
+  "season": "FALL",
+  "studios": [
+    "LIDENFILMS"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 101165,
+      "malId": 37349,
+      "title": {
+        "romaji": "Goblin Slayer",
+        "english": "GOBLIN SLAYER",
+        "native": "ゴブリンスレイヤー",
+        "userPreferred": "Goblin Slayer"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx101165-dVgOyGhEP4mB.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101165-bXPZrNiQGPHd.jpg",
+      "rating": 71,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 126458,
+      "role": "MAIN",
+      "name": {
+        "first": "Goblin Slayer",
+        "last": null,
+        "full": "Goblin Slayer",
+        "native": "ゴブリンスレイヤー",
+        "userPreferred": "Goblin Slayer"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b126458-wCulCEFEPZSK.png",
+      "voiceActors": [
+        {
+          "id": 118908,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuichirou",
+            "last": "Umehara",
+            "full": "Yuuichirou Umehara",
+            "native": "梅原裕一郎",
+            "userPreferred": "Yuuichirou Umehara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/118908-f16PugVCnZfT.jpg"
+        }
+      ]
+    },
+    {
+      "id": 126483,
+      "role": "MAIN",
+      "name": {
+        "first": "Onna Shinkan",
+        "last": null,
+        "full": "Onna Shinkan",
+        "native": "女神官",
+        "userPreferred": "Onna Shinkan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b126483-NQuBqaXHUJO2.jpg",
+      "voiceActors": [
+        {
+          "id": 105981,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Ogura",
+            "full": "Yui Ogura",
+            "native": "小倉唯",
+            "userPreferred": "Yui Ogura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105981-CDMPx1Q79Aum.png"
+        }
+      ]
+    },
+    {
+      "id": 126457,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yousei Yunde",
+        "last": null,
+        "full": "Yousei Yunde",
+        "native": "妖精弓手",
+        "userPreferred": "Yousei Yunde"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b126457-leHoOLIOZy2a.png",
+      "voiceActors": [
+        {
+          "id": 106184,
+          "language": "Japanese",
+          "name": {
+            "first": "Nao",
+            "last": "Touyama",
+            "full": "Nao Touyama",
+            "native": "東山奈央",
+            "userPreferred": "Nao Touyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106184-rFA0sHFJrbk4.png"
+        }
+      ]
+    },
+    {
+      "id": 126488,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yaritsukai",
+        "last": null,
+        "full": "Yaritsukai",
+        "native": "槍使い",
+        "userPreferred": "Yaritsukai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n126488-fW2f7wryREzj.jpg",
+      "voiceActors": [
+        {
+          "id": 106817,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshitsugu",
+            "last": "Matsuoka",
+            "full": "Yoshitsugu Matsuoka",
+            "native": "松岡禎丞",
+            "userPreferred": "Yoshitsugu Matsuoka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106817-mioGQjbTWWQ6.png"
+        }
+      ]
+    },
+    {
+      "id": 126487,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tokage Souryo",
+        "last": null,
+        "full": "Tokage Souryo",
+        "native": "蜥蜴僧侶",
+        "userPreferred": "Tokage Souryo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n126487-TErPQ7ADCryW.jpg",
+      "voiceActors": [
+        {
+          "id": 95002,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Sugita",
+            "full": "Tomokazu Sugita",
+            "native": "杉田智和",
+            "userPreferred": "Tomokazu Sugita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95002-nDIvHaynicEg.png"
+        }
+      ]
+    },
+    {
+      "id": 128254,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kouhito Doushi",
+        "last": null,
+        "full": "Kouhito Doushi",
+        "native": "鉱人道士",
+        "userPreferred": "Kouhito Doushi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n128254-6x8qS52q9Q0n.jpg",
+      "voiceActors": [
+        {
+          "id": 95513,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuichi",
+            "last": "Nakamura",
+            "full": "Yuuichi Nakamura",
+            "native": "中村悠一",
+            "userPreferred": "Yuuichi Nakamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95513-up9ZDuocHgRs.png"
+        }
+      ]
+    },
+    {
+      "id": 126484,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ushikai Musume",
+        "last": null,
+        "full": "Ushikai Musume",
+        "native": "牛飼娘",
+        "userPreferred": "Ushikai Musume"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/126484-izE4ON548jnn.jpg",
+      "voiceActors": [
+        {
+          "id": 95885,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuka",
+            "last": "Iguchi",
+            "full": "Yuka Iguchi",
+            "native": "井口裕香",
+            "userPreferred": "Yuka Iguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95885-8Le2NWyACKNt.png"
+        }
+      ]
+    },
+    {
+      "id": 126485,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Uketsuke-jou",
+        "last": null,
+        "full": "Uketsuke-jou",
+        "native": "受付嬢",
+        "userPreferred": "Uketsuke-jou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/126485-2zo57ux4EMeC.jpg",
+      "voiceActors": [
+        {
+          "id": 108639,
+          "language": "Japanese",
+          "name": {
+            "first": "Maaya",
+            "last": "Uchida",
+            "full": "Maaya Uchida",
+            "native": "内田真礼",
+            "userPreferred": "Maaya Uchida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n108639-LLrR4WptCh5s.png"
+        }
+      ]
+    },
+    {
+      "id": 126486,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Majo",
+        "last": null,
+        "full": "Majo",
+        "native": "魔女",
+        "userPreferred": "Majo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n126486-e0DjNT3rBOT7.png",
+      "voiceActors": [
+        {
+          "id": 102263,
+          "language": "Japanese",
+          "name": {
+            "first": "Youko",
+            "last": "Hikasa",
+            "full": "Youko Hikasa",
+            "native": "日笠陽子",
+            "userPreferred": "Youko Hikasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102263-aaPZtNXVUljW.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 87321,
+      "relationType": "ALTERNATIVE",
+      "malId": 98720,
+      "title": {
+        "romaji": "Goblin Slayer",
+        "english": "Goblin Slayer",
+        "native": "ゴブリンスレイヤー",
+        "userPreferred": "Goblin Slayer"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx87321-ijdB0SNr1JSs.jpg",
+      "color": "#e49343",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/87321-lV4TLFKrDTGv.jpg",
+      "rating": 74
+    },
+    {
+      "id": 87320,
+      "relationType": "ADAPTATION",
+      "malId": 95311,
+      "title": {
+        "romaji": "Goblin Slayer",
+        "english": "Goblin Slayer!",
+        "native": "ゴブリンスレイヤー",
+        "userPreferred": "Goblin Slayer"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx87320-Q7A3KfMPykcm.jpg",
+      "color": "#e4505d",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/87320-KYJvl7EQTX10.jpg",
+      "rating": 74
+    },
+    {
+      "id": 108623,
+      "relationType": "PREQUEL",
+      "malId": 39576,
+      "title": {
+        "romaji": "Goblin Slayer: GOBLIN'S CROWN",
+        "english": "GOBLIN SLAYER -GOBLIN’S CROWN-",
+        "native": "ゴブリンスレイヤー -GOBLIN'S CROWN-",
+        "userPreferred": "Goblin Slayer: GOBLIN'S CROWN"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108623-pREPeutedpc2.jpg",
+      "color": "#e4c95d",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108623-9FL63jABa1N9.jpg",
+      "rating": 71
+    }
+  ],
+  "episodes": [
+    {
+      "id": "goblin-slayer-ii-episode-1",
+      "title": "An Ordinary Spring Day",
+      "image": "https://media.kitsu.io/episode/298063/thumbnail/befa5f44ec07c0b74c5df06513f460dd.jpg",
+      "number": 1,
+      "createdAt": "2021-03-20T08:12:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//goblin-slayer-ii-episode-1"
+    },
+    {
+      "id": "goblin-slayer-ii-episode-2",
+      "title": "The Red-Haired Wizard Boy",
+      "image": "https://media.kitsu.io/episode/298064/thumbnail/6b34d64ac217ec71e69d5bff2b599c19.jpg",
+      "number": 2,
+      "createdAt": "2021-03-20T08:12:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//goblin-slayer-ii-episode-2"
+    }
+  ]
+}

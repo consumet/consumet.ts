@@ -1,0 +1,486 @@
+{
+  "id": "4765",
+  "title": {
+    "romaji": "GUNSLINGER GIRL -IL TEATRINO- OVA",
+    "english": "Gunslinger Girl: Il Teatrino OVA",
+    "native": "GUNSLINGER GIRL -IL TEATRINO- OVA"
+  },
+  "malId": 4765,
+  "synonyms": [
+    "ガンスリンガー・ガール -IL TEATRINO- OVA",
+    "Gunslinger Girl OVA"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx4765-h3AwHcF2UEM7.png",
+  "popularity": 3887,
+  "color": "#f1c993",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx4765-h3AwHcF2UEM7.png",
+  "description": "Episodes 14 and 15 of Gunslinger Girl: Il Teatrino.",
+  "status": "Completed",
+  "releaseDate": 2008,
+  "startDate": {
+    "year": 2008,
+    "month": 10,
+    "day": 24
+  },
+  "endDate": {
+    "year": 2008,
+    "month": 10,
+    "day": 24
+  },
+  "totalEpisodes": 2,
+  "currentEpisode": 2,
+  "rating": 65,
+  "duration": 23,
+  "genres": [
+    "Action",
+    "Drama",
+    "Sci-Fi"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Artland"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 143270,
+      "malId": 50709,
+      "title": {
+        "romaji": "Lycoris Recoil",
+        "english": "Lycoris Recoil",
+        "native": "リコリス・リコイル",
+        "userPreferred": "Lycoris Recoil"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143270-iZOJX2DMUFMC.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/143270-Ivjs2nVpARtS.jpg",
+      "rating": 81,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 2021,
+      "role": "MAIN",
+      "name": {
+        "first": "Claes",
+        "last": null,
+        "full": "Claes",
+        "native": "クラエス",
+        "userPreferred": "Claes"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2021.jpg",
+      "voiceActors": [
+        {
+          "id": 96331,
+          "language": "Japanese",
+          "name": {
+            "first": "Risa",
+            "last": "Mizuno",
+            "full": "Risa Mizuno",
+            "native": "理紗水野",
+            "userPreferred": "Risa Mizuno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96331-NL72KlyVd8Wh.png"
+        },
+        {
+          "id": 103000,
+          "language": "English",
+          "name": {
+            "first": "Alese",
+            "last": "Johnson",
+            "full": "Alese Johnson",
+            "native": null,
+            "userPreferred": "Alese Johnson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8000.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2022,
+      "role": "MAIN",
+      "name": {
+        "first": "Angelica",
+        "last": null,
+        "full": "Angelica",
+        "native": "アンジェリカ",
+        "userPreferred": "Angelica"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2022.jpg",
+      "voiceActors": [
+        {
+          "id": 95185,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Hanazawa",
+            "full": "Kana Hanazawa",
+            "native": "花澤香菜",
+            "userPreferred": "Kana Hanazawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95185-vZ6nmfBKQgw1.jpg"
+        },
+        {
+          "id": 95159,
+          "language": "English",
+          "name": {
+            "first": "Monica",
+            "last": "Rial",
+            "full": "Monica Rial",
+            "native": null,
+            "userPreferred": "Monica Rial"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95159-iTd65o5LhA62.png"
+        }
+      ]
+    },
+    {
+      "id": 2018,
+      "role": "MAIN",
+      "name": {
+        "first": "Henrietta",
+        "last": null,
+        "full": "Henrietta",
+        "native": "ヘンリエッタ",
+        "userPreferred": "Henrietta"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2018-OXIxnwqsh4C8.jpg",
+      "voiceActors": [
+        {
+          "id": 102385,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Akutsu",
+            "full": "Kana Akutsu",
+            "native": "阿久津加菜",
+            "userPreferred": "Kana Akutsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/102385-paOwpSbUcHtG.jpg"
+        },
+        {
+          "id": 95187,
+          "language": "English",
+          "name": {
+            "first": "Laura",
+            "last": "Bailey",
+            "full": "Laura Bailey",
+            "native": null,
+            "userPreferred": "Laura Bailey"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95187-QeezFM0GP4tu.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2020,
+      "role": "MAIN",
+      "name": {
+        "first": "Rico",
+        "last": null,
+        "full": "Rico",
+        "native": "リコ",
+        "userPreferred": "Rico"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2020.jpg",
+      "voiceActors": [
+        {
+          "id": 101344,
+          "language": "Japanese",
+          "name": {
+            "first": "Anri",
+            "last": "Shiono",
+            "full": "Anri Shiono",
+            "native": "アンリ 塩野",
+            "userPreferred": "Anri Shiono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6344.jpg"
+        },
+        {
+          "id": 95189,
+          "language": "English",
+          "name": {
+            "first": "Luci",
+            "last": "Christian",
+            "full": "Luci Christian",
+            "native": null,
+            "userPreferred": "Luci Christian"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95189-M2IkMNRzHYcF.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2019,
+      "role": "MAIN",
+      "name": {
+        "first": "Triela",
+        "last": null,
+        "full": "Triela",
+        "native": "トリエラ",
+        "userPreferred": "Triela"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2019-Ute2SDjpctzZ.png",
+      "voiceActors": [
+        {
+          "id": 95411,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsuko",
+            "last": "Enomoto",
+            "full": "Atsuko Enomoto",
+            "native": "榎本温子",
+            "userPreferred": "Atsuko Enomoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95411-yVQiIcuYzQXr.jpg"
+        },
+        {
+          "id": 95313,
+          "language": "English",
+          "name": {
+            "first": "Caitlin",
+            "last": "Glass",
+            "full": "Caitlin Glass",
+            "native": null,
+            "userPreferred": "Caitlin Glass"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95313-zK3WpeNtACvm.jpg"
+        },
+        {
+          "id": 105699,
+          "language": "German",
+          "name": {
+            "first": "Melanie",
+            "last": "Hinze",
+            "full": "Melanie Hinze",
+            "native": null,
+            "userPreferred": "Melanie Hinze"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10699.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2028,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Marco",
+        "last": "Tongi",
+        "full": "Marco Tongi",
+        "native": "マルコー・トーニ",
+        "userPreferred": "Marco Tongi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2028.jpg",
+      "voiceActors": [
+        {
+          "id": 95131,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuki",
+            "last": "Yao",
+            "full": "Kazuki Yao",
+            "native": "矢尾一樹",
+            "userPreferred": "Kazuki Yao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95131-TCVTgxb08tfE.png"
+        },
+        {
+          "id": 107026,
+          "language": "English",
+          "name": {
+            "first": "Jim",
+            "last": "Foronda",
+            "full": "Jim Foronda",
+            "native": null,
+            "userPreferred": "Jim Foronda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12026.jpg"
+        },
+        {
+          "id": 106913,
+          "language": "German",
+          "name": {
+            "first": "Alexander",
+            "last": "Doering",
+            "full": "Alexander Doering",
+            "native": null,
+            "userPreferred": "Alexander Doering"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/11913.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2025,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jean",
+        "last": "Croce",
+        "full": "Jean Croce",
+        "native": "ジャン",
+        "userPreferred": "Jean Croce"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2025.jpg",
+      "voiceActors": [
+        {
+          "id": 95160,
+          "language": "Japanese",
+          "name": {
+            "first": "Takehito",
+            "last": "Koyasu",
+            "full": "Takehito Koyasu",
+            "native": "子安武人",
+            "userPreferred": "Takehito Koyasu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95160-jWevcH7BmfE1.jpg"
+        },
+        {
+          "id": 95312,
+          "language": "English",
+          "name": {
+            "first": "Eric",
+            "last": "Vale",
+            "full": "Eric Vale",
+            "native": null,
+            "userPreferred": "Eric Vale"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95312-lixmVhwE8AXE.png"
+        },
+        {
+          "id": 107321,
+          "language": "German",
+          "name": {
+            "first": "Tobias",
+            "last": "Nath",
+            "full": "Tobias Nath",
+            "native": null,
+            "userPreferred": "Tobias Nath"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12321.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2024,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jose",
+        "last": "Croce",
+        "full": "Jose Croce",
+        "native": "ジョゼ",
+        "userPreferred": "Jose Croce"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2024.jpg",
+      "voiceActors": [
+        {
+          "id": 96814,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouzou",
+            "last": "Mito",
+            "full": "Kouzou Mito",
+            "native": "三戸耕三",
+            "userPreferred": "Kouzou Mito"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1814.jpg"
+        },
+        {
+          "id": 95251,
+          "language": "English",
+          "name": {
+            "first": "John",
+            "last": "Burgmeier",
+            "full": "John Burgmeier",
+            "native": null,
+            "userPreferred": "John Burgmeier"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95251-XG6OaR9iU39R.png"
+        }
+      ]
+    },
+    {
+      "id": 29668,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Enrica",
+        "last": "Croce",
+        "full": "Enrica Croce",
+        "native": "エンリカ・クローチェ",
+        "userPreferred": "Enrica Croce"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29668.jpg",
+      "voiceActors": [
+        {
+          "id": 102385,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Akutsu",
+            "full": "Kana Akutsu",
+            "native": "阿久津加菜",
+            "userPreferred": "Kana Akutsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/102385-paOwpSbUcHtG.jpg"
+        },
+        {
+          "id": 95414,
+          "language": "English",
+          "name": {
+            "first": "Brittney",
+            "last": "Karbowski",
+            "full": "Brittney Karbowski",
+            "native": null,
+            "userPreferred": "Brittney Karbowski"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/414.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 3231,
+      "relationType": "PREQUEL",
+      "malId": 3231,
+      "title": {
+        "romaji": "GUNSLINGER GIRL -IL TEATRINO-",
+        "english": "Gunslinger Girl -Il Teatrino-",
+        "native": "GUNSLINGER GIRL -IL TEATRINO-",
+        "userPreferred": "GUNSLINGER GIRL -IL TEATRINO-"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n3231-MP0WwB4XBx6u.png",
+      "color": "#c98643",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n3231-MP0WwB4XBx6u.png",
+      "rating": 67
+    }
+  ],
+  "episodes": [
+    {
+      "id": "gunslinger-girl-ii-teatrino-ova-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx4765-h3AwHcF2UEM7.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gunslinger-girl-ii-teatrino-ova-episode-1"
+    },
+    {
+      "id": "gunslinger-girl-ii-teatrino-ova-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx4765-h3AwHcF2UEM7.png",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gunslinger-girl-ii-teatrino-ova-episode-2"
+    }
+  ]
+}

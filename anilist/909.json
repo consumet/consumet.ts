@@ -1,0 +1,635 @@
+{
+  "id": "909",
+  "title": {
+    "romaji": "Geneshaft",
+    "english": null,
+    "native": "ジーンシャフト"
+  },
+  "malId": 909,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/909.jpg",
+  "popularity": 2391,
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/909.jpg",
+  "description": "In the 21st century mankind was on the brink of destruction. Through genetic engineering however they eradicated such feelings as love and the desire for power. Since women are naturally less agressive than men, women to man ratio was set to 9:1. Now people are engineered to have skills that others view as being necessary. There is a giant ring that now orbits the earth, that sits there and relays information back to an alien race that sent it. Now a team of five women will try to eradicate the alien threat.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2001,
+  "startDate": {
+    "year": 2001,
+    "month": 4,
+    "day": 5
+  },
+  "endDate": {
+    "year": 2001,
+    "month": 6,
+    "day": 28
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 56,
+  "duration": 23,
+  "genres": [
+    "Adventure",
+    "Mecha",
+    "Sci-Fi"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Satelight"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 1602,
+      "malId": 1602,
+      "title": {
+        "romaji": "Soukou no Strain",
+        "english": "STRAIN: Strategic Armored Infantry",
+        "native": "奏光のストレイン",
+        "userPreferred": "Soukou no Strain"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1602.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1602.jpg",
+      "rating": 65,
+      "type": "TV"
+    },
+    {
+      "id": 342,
+      "malId": 342,
+      "title": {
+        "romaji": "Starship Operators",
+        "english": null,
+        "native": "スターシップ・オペレーターズ",
+        "userPreferred": "Starship Operators"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/342.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/342.jpg",
+      "rating": 64,
+      "type": "TV"
+    },
+    {
+      "id": 58,
+      "malId": 58,
+      "title": {
+        "romaji": "BLUE GENDER",
+        "english": "Blue Gender",
+        "native": "BLUE GENDER",
+        "userPreferred": "BLUE GENDER"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b58-2KarB5N1dB0P.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/58-1D6mRkmvjRs4.jpg",
+      "rating": 65,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 4939,
+      "role": "MAIN",
+      "name": {
+        "first": "Sofia",
+        "last": "Galgalim",
+        "full": "Sofia Galgalim",
+        "native": "ソフィア・ガルガリン",
+        "userPreferred": "Sofia Galgalim"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4939.jpg",
+      "voiceActors": [
+        {
+          "id": 95428,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Kaida",
+            "full": "Yuuko Kaida",
+            "native": "甲斐田裕子",
+            "userPreferred": "Yuuko Kaida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95428-1e4kSvr5fkmQ.png"
+        },
+        {
+          "id": 95269,
+          "language": "English",
+          "name": {
+            "first": "Mary Elizabeth",
+            "last": "McGlynn",
+            "full": "Mary Elizabeth McGlynn",
+            "native": null,
+            "userPreferred": "Mary Elizabeth McGlynn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95269-PhQ87wkVzLBb.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4938,
+      "role": "MAIN",
+      "name": {
+        "first": "Mika",
+        "last": "Seido",
+        "full": "Mika Seido",
+        "native": "ミカ・セイドウ",
+        "userPreferred": "Mika Seido"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4938.jpg",
+      "voiceActors": [
+        {
+          "id": 95689,
+          "language": "Japanese",
+          "name": {
+            "first": "Kumiko",
+            "last": "Higa",
+            "full": "Kumiko Higa",
+            "native": "久美子 比嘉",
+            "userPreferred": "Kumiko Higa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95689-PvLEP1UuCwHl.png"
+        },
+        {
+          "id": 95873,
+          "language": "English",
+          "name": {
+            "first": "Amanda Winn",
+            "last": "Lee",
+            "full": "Amanda Winn Lee",
+            "native": null,
+            "userPreferred": "Amanda Winn Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/873.jpg"
+        },
+        {
+          "id": 103812,
+          "language": "Korean",
+          "name": {
+            "first": "Mi Sook",
+            "last": "Jeong",
+            "full": "Mi Sook Jeong",
+            "native": "숙 정미",
+            "userPreferred": "Mi Sook Jeong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8812.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14396,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mario",
+        "last": "Musicanova",
+        "full": "Mario Musicanova",
+        "native": null,
+        "userPreferred": "Mario Musicanova"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b14396-1TZD2Iw91Gkm.jpg",
+      "voiceActors": [
+        {
+          "id": 95371,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenji",
+            "last": "Hamada",
+            "full": "Kenji Hamada",
+            "native": "浜田賢二",
+            "userPreferred": "Kenji Hamada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95371-nyA7w7nPrlPr.png"
+        },
+        {
+          "id": 95019,
+          "language": "English",
+          "name": {
+            "first": "Crispin",
+            "last": "Freeman",
+            "full": "Crispin Freeman",
+            "native": null,
+            "userPreferred": "Crispin Freeman"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95019-o7SDOiPsPXKs.jpg"
+        },
+        {
+          "id": 110097,
+          "language": "Korean",
+          "name": {
+            "first": "In-Seong",
+            "last": "Oh",
+            "full": "In-Seong Oh",
+            "native": "오인성",
+            "userPreferred": "In-Seong Oh"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15097.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15197,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tiki",
+        "last": "Musicanova",
+        "full": "Tiki Musicanova",
+        "native": null,
+        "userPreferred": "Tiki Musicanova"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15197.jpg",
+      "voiceActors": [
+        {
+          "id": 95057,
+          "language": "Japanese",
+          "name": {
+            "first": "Houko",
+            "last": "Kuwashima",
+            "full": "Houko Kuwashima",
+            "native": "桑島法子",
+            "userPreferred": "Houko Kuwashima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95057-nMZEwJet445W.jpg"
+        },
+        {
+          "id": 95830,
+          "language": "English",
+          "name": {
+            "first": "Sandy",
+            "last": "Fox",
+            "full": "Sandy Fox",
+            "native": null,
+            "userPreferred": "Sandy Fox"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95830-FYXOhYYPrqOe.jpg"
+        },
+        {
+          "id": 109929,
+          "language": "Korean",
+          "name": {
+            "first": "Seo Yeong",
+            "last": "Kim",
+            "full": "Seo Yeong Kim",
+            "native": "서영 김",
+            "userPreferred": "Seo Yeong Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14929.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4940,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hiroto",
+        "last": "Amagiwa",
+        "full": "Hiroto Amagiwa",
+        "native": "天際博人",
+        "userPreferred": "Hiroto Amagiwa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4940.jpg",
+      "voiceActors": [
+        {
+          "id": 95079,
+          "language": "Japanese",
+          "name": {
+            "first": "Takahiro",
+            "last": "Sakurai",
+            "full": "Takahiro Sakurai",
+            "native": "櫻井孝宏",
+            "userPreferred": "Takahiro Sakurai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95079-MdbWTLxPUvFf.jpg"
+        },
+        {
+          "id": 291771,
+          "language": "English",
+          "name": {
+            "first": "Dominic",
+            "last": "Armato",
+            "full": "Dominic Armato",
+            "native": null,
+            "userPreferred": "Dominic Armato"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 109825,
+          "language": "Korean",
+          "name": {
+            "first": "Gwang ju",
+            "last": "Jeon",
+            "full": "Gwang ju Jeon",
+            "native": "광주 전",
+            "userPreferred": "Gwang ju Jeon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14825.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15198,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Beatrice",
+        "last": "Ratio",
+        "full": "Beatrice Ratio",
+        "native": null,
+        "userPreferred": "Beatrice Ratio"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15198.jpg",
+      "voiceActors": [
+        {
+          "id": 95090,
+          "language": "Japanese",
+          "name": {
+            "first": "Maaya",
+            "last": "Sakamoto",
+            "full": "Maaya Sakamoto",
+            "native": "坂本真綾",
+            "userPreferred": "Maaya Sakamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95090-oARRP42NEhu0.jpg"
+        },
+        {
+          "id": 104248,
+          "language": "English",
+          "name": {
+            "first": "Valerie",
+            "last": "Arem",
+            "full": "Valerie Arem",
+            "native": null,
+            "userPreferred": "Valerie Arem"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104248-xfOEbDy7gMiE.jpg"
+        },
+        {
+          "id": 110135,
+          "language": "Korean",
+          "name": {
+            "first": "Do Yeong",
+            "last": "Song",
+            "full": "Do Yeong Song",
+            "native": "도영송",
+            "userPreferred": "Do Yeong Song"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15135.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15200,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Remmy",
+        "last": "Levistrauss",
+        "full": "Remmy Levistrauss",
+        "native": null,
+        "userPreferred": "Remmy Levistrauss"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95141,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouka",
+            "last": "Yuzuki",
+            "full": "Ryouka Yuzuki",
+            "native": "柚木涼香",
+            "userPreferred": "Ryouka Yuzuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95141-RUTdfZUbNcUv.png"
+        },
+        {
+          "id": 95620,
+          "language": "English",
+          "name": {
+            "first": "Brianne",
+            "last": "Siddall",
+            "full": "Brianne Siddall",
+            "native": null,
+            "userPreferred": "Brianne Siddall"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/620.jpg"
+        },
+        {
+          "id": 109755,
+          "language": "Korean",
+          "name": {
+            "first": "Jeong-Hwa",
+            "last": "Yang",
+            "full": "Jeong-Hwa Yang",
+            "native": "정화 양",
+            "userPreferred": "Jeong-Hwa Yang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14755.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15199,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mir",
+        "last": "Lotus",
+        "full": "Mir Lotus",
+        "native": null,
+        "userPreferred": "Mir Lotus"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15199.jpg",
+      "voiceActors": [
+        {
+          "id": 95298,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Kakazu",
+            "full": "Yumi Kakazu",
+            "native": "かかずゆみ",
+            "userPreferred": "Yumi Kakazu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95298-wWENaJp9ERf7.jpg"
+        },
+        {
+          "id": 104874,
+          "language": "English",
+          "name": {
+            "first": "Paula",
+            "last": "Tiso",
+            "full": "Paula Tiso",
+            "native": null,
+            "userPreferred": "Paula Tiso"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104874-SLAyzndFR2Na.jpg"
+        },
+        {
+          "id": 109851,
+          "language": "Korean",
+          "name": {
+            "first": "Jeong Mi",
+            "last": "Bae",
+            "full": "Jeong Mi Bae",
+            "native": "정미 배",
+            "userPreferred": "Jeong Mi Bae"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14851.jpg"
+        },
+        {
+          "id": 105015,
+          "language": "Spanish",
+          "name": {
+            "first": "Lucila",
+            "last": "Gómez",
+            "full": "Lucila Gómez",
+            "native": null,
+            "userPreferred": "Lucila Gómez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10015.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 39473,
+      "relationType": "ADAPTATION",
+      "malId": 9473,
+      "title": {
+        "romaji": "Lunashaft",
+        "english": null,
+        "native": "未完兵装ルナシャフト",
+        "userPreferred": "Lunashaft"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/9473.jpg",
+      "color": "#e4ae43",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/9473.jpg",
+      "rating": 88
+    }
+  ],
+  "episodes": [
+    {
+      "id": "geneshaft-episode-1",
+      "title": "Inherit The Stars",
+      "image": "https://media.kitsu.io/episodes/thumbnails/16508/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:22:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//geneshaft-episode-1"
+    },
+    {
+      "id": "geneshaft-episode-2",
+      "title": "The Ship Who Sang",
+      "image": "https://media.kitsu.io/episodes/thumbnails/16509/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:22:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//geneshaft-episode-2"
+    },
+    {
+      "id": "geneshaft-episode-3",
+      "title": "Rendezvous in Space",
+      "image": "https://media.kitsu.io/episodes/thumbnails/16510/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:22:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//geneshaft-episode-3"
+    },
+    {
+      "id": "geneshaft-episode-4",
+      "title": "The Sentinel",
+      "image": "https://media.kitsu.io/episodes/thumbnails/16511/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:22:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//geneshaft-episode-4"
+    },
+    {
+      "id": "geneshaft-episode-5",
+      "title": "Angels and Spaceships",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/909.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:22:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//geneshaft-episode-5"
+    },
+    {
+      "id": "geneshaft-episode-6",
+      "title": "Hotline from the Past",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/909.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:22:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//geneshaft-episode-6"
+    },
+    {
+      "id": "geneshaft-episode-7",
+      "title": "Ring World",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/909.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:22:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//geneshaft-episode-7"
+    },
+    {
+      "id": "geneshaft-episode-8",
+      "title": "The Moon Is a Harsh Master",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/909.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:22:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//geneshaft-episode-8"
+    },
+    {
+      "id": "geneshaft-episode-9",
+      "title": "Less Than Human",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/909.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:22:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//geneshaft-episode-9"
+    },
+    {
+      "id": "geneshaft-episode-10",
+      "title": "The Men Women Don't See",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/909.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:22:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//geneshaft-episode-10"
+    },
+    {
+      "id": "geneshaft-episode-11",
+      "title": "Rite of Passage",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/909.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:22:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//geneshaft-episode-11"
+    },
+    {
+      "id": "geneshaft-episode-12",
+      "title": "The Gentle Man of Ganymede",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/909.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:22:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//geneshaft-episode-12"
+    },
+    {
+      "id": "geneshaft-episode-13",
+      "title": "Childhood's Beginning",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/909.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:22:01Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//geneshaft-episode-13"
+    }
+  ]
+}

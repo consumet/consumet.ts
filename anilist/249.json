@@ -1,0 +1,4707 @@
+{
+  "id": "249",
+  "title": {
+    "romaji": "Inuyasha",
+    "english": "InuYasha",
+    "native": "犬夜叉"
+  },
+  "malId": 249,
+  "synonyms": [
+    "Inu Yasha",
+    "이누야샤",
+    "אינויאשה",
+    "อินุยาฉะ เทพอสูรจิ้งจอกเงิน"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+  "popularity": 124495,
+  "color": "#f15093",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/249-9ufXhmXxncry.jpg",
+  "description": "Kagome Higurashi, an average ninth grader, gets pulled into an ancient well by a demon, bringing her 500 years in the past to the feudal era. There, she meets Inuyasha, a half-demon who seeks the Shikon Jewel to make himself a full-fledged demon. With Inuyasha and new friends, Kagome's search for the Jewel of Four Souls begins...<br>\n<br>\n(Source: Viz Media)",
+  "status": "Completed",
+  "releaseDate": 2000,
+  "startDate": {
+    "year": 2000,
+    "month": 10,
+    "day": 16
+  },
+  "endDate": {
+    "year": 2004,
+    "month": 9,
+    "day": 13
+  },
+  "totalEpisodes": 167,
+  "currentEpisode": 167,
+  "rating": 76,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Romance"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Sunrise"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 13335,
+      "malId": 13335,
+      "title": {
+        "romaji": "Fuse Teppou Musume no Torimonochou",
+        "english": "FUSE - Memoirs of the Hunter Girl",
+        "native": "伏 鉄砲娘の捕物帳",
+        "userPreferred": "Fuse Teppou Musume no Torimonochou"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx13335-u8p97Q1XJA0V.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/13335-ohuzqRCUCf4J.jpg",
+      "rating": 68,
+      "type": "MOVIE"
+    },
+    {
+      "id": 20770,
+      "malId": 25013,
+      "title": {
+        "romaji": "Akatsuki no Yona",
+        "english": "Yona of the Dawn",
+        "native": "暁のヨナ",
+        "userPreferred": "Akatsuki no Yona"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20770-brCDvhTXlums.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20770-tZZMsglzAUAe.jpg",
+      "rating": 79,
+      "type": "TV"
+    },
+    {
+      "id": 182,
+      "malId": 182,
+      "title": {
+        "romaji": "Tenkuu no Escaflowne",
+        "english": "Vision of Escaflowne",
+        "native": "天空のエスカフローネ",
+        "userPreferred": "Tenkuu no Escaflowne"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182-YzZtZWMZCSFf.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/182-jYvvtYE14yi4.jpg",
+      "rating": 73,
+      "type": "TV"
+    },
+    {
+      "id": 14713,
+      "malId": 14713,
+      "title": {
+        "romaji": "Kamisama Hajimemashita",
+        "english": "Kamisama Kiss",
+        "native": "神様はじめました",
+        "userPreferred": "Kamisama Hajimemashita"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx14713-RyZ7bA7CdvGw.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/14713-wvdTrUno1vNW.jpg",
+      "rating": 79,
+      "type": "TV"
+    },
+    {
+      "id": 101922,
+      "malId": 38000,
+      "title": {
+        "romaji": "Kimetsu no Yaiba",
+        "english": "Demon Slayer: Kimetsu no Yaiba",
+        "native": "鬼滅の刃",
+        "userPreferred": "Kimetsu no Yaiba"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101922-PEn1CTc93blC.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101922-YfZhKBUDDS6L.jpg",
+      "rating": 83,
+      "type": "TV"
+    },
+    {
+      "id": 1293,
+      "malId": 1293,
+      "title": {
+        "romaji": "Urusei Yatsura",
+        "english": "Urusei Yatsura",
+        "native": "うる星やつら",
+        "userPreferred": "Urusei Yatsura"
+      },
+      "status": "Completed",
+      "episodes": 195,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1293-T6Ev080pKoum.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1293-XmAkK3xVNmQh.jpg",
+      "rating": 73,
+      "type": "TV"
+    },
+    {
+      "id": 123,
+      "malId": 123,
+      "title": {
+        "romaji": "Fushigi Yuugi",
+        "english": "Fushigi Yugi: The Mysterious Play",
+        "native": "ふしぎ遊戯",
+        "userPreferred": "Fushigi Yuugi"
+      },
+      "status": "Completed",
+      "episodes": 52,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx123-nTVq4CHgK5Ly.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/123-aB3o7LLZrWWV.png",
+      "rating": 71,
+      "type": "TV"
+    },
+    {
+      "id": 210,
+      "malId": 210,
+      "title": {
+        "romaji": "Ranma 1/2",
+        "english": "Ranma ½",
+        "native": "らんま1/2",
+        "userPreferred": "Ranma 1/2"
+      },
+      "status": "Completed",
+      "episodes": 18,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx210-qgahLDYT0t9b.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/210-XD1uaTCNg8th.jpg",
+      "rating": 74,
+      "type": "TV"
+    },
+    {
+      "id": 45,
+      "malId": 45,
+      "title": {
+        "romaji": "Rurouni Kenshin: Meiji Kenkaku Romantan",
+        "english": "Rurouni Kenshin",
+        "native": "るろうに剣心 -明治剣客浪漫譚-",
+        "userPreferred": "Rurouni Kenshin: Meiji Kenkaku Romantan"
+      },
+      "status": "Completed",
+      "episodes": 94,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx45-DEFgZRCxiGmF.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/45-JVUpMKU0HzRW.jpg",
+      "rating": 79,
+      "type": "TV"
+    },
+    {
+      "id": 177,
+      "malId": 177,
+      "title": {
+        "romaji": "Tsubasa Chronicle",
+        "english": "Tsubasa RESERVoir CHRoNiCLE",
+        "native": "ツバサ・クロニクル",
+        "userPreferred": "Tsubasa Chronicle"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177-tU0wjdXRw5u8.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/177-IHqN2HjMaQnN.jpg",
+      "rating": 70,
+      "type": "TV"
+    },
+    {
+      "id": 534,
+      "malId": 534,
+      "title": {
+        "romaji": "Slayers",
+        "english": "The Slayers",
+        "native": "スレイヤーズ",
+        "userPreferred": "Slayers"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx534-3KJsf5SHSJ9N.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/534-NdEKPCbTQqGb.jpg",
+      "rating": 73,
+      "type": "TV"
+    },
+    {
+      "id": 20447,
+      "malId": 20507,
+      "title": {
+        "romaji": "Noragami",
+        "english": "Noragami",
+        "native": "ノラガミ",
+        "userPreferred": "Noragami"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20447-EoQXeygHaVCK.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20447-nlgQQzcgWbgw.jpg",
+      "rating": 78,
+      "type": "TV"
+    },
+    {
+      "id": 530,
+      "malId": 530,
+      "title": {
+        "romaji": "Bishoujo Senshi Sailor Moon",
+        "english": "Sailor Moon",
+        "native": "美少女戦士セーラームーン",
+        "userPreferred": "Bishoujo Senshi Sailor Moon"
+      },
+      "status": "Completed",
+      "episodes": 46,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx530-DsF6LirJUEii.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/530.jpg",
+      "rating": 75,
+      "type": "TV"
+    },
+    {
+      "id": 2016,
+      "malId": 2016,
+      "title": {
+        "romaji": "Ningyo no Mori",
+        "english": "Mermaid Forest",
+        "native": "人魚の森",
+        "userPreferred": "Ningyo no Mori"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2016-EtNpvNa1j6dG.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2016-EtNpvNa1j6dG.jpg",
+      "rating": 61,
+      "type": "OVA"
+    },
+    {
+      "id": 2973,
+      "malId": 2973,
+      "title": {
+        "romaji": "Fire Tripper",
+        "english": "Fire Tripper",
+        "native": "炎トリッパー",
+        "userPreferred": "Fire Tripper"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2973.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2973-GRcdEOJyCBD9.jpg",
+      "rating": 57,
+      "type": "OVA"
+    },
+    {
+      "id": 1860,
+      "malId": 1860,
+      "title": {
+        "romaji": "Tokyo Majin Gakuen Kenpucho: Tou",
+        "english": "Tokyo Majin",
+        "native": "東京魔人學園剣風帖　龖（トウ）",
+        "userPreferred": "Tokyo Majin Gakuen Kenpucho: Tou"
+      },
+      "status": "Completed",
+      "episodes": 14,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1860-1TRWh93iE2Kf.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1860-1TRWh93iE2Kf.jpg",
+      "rating": 65,
+      "type": "TV"
+    },
+    {
+      "id": 21038,
+      "malId": 29854,
+      "title": {
+        "romaji": "Ushio to Tora (TV)",
+        "english": "Ushio and Tora (TV)",
+        "native": "うしおととら (TV)",
+        "userPreferred": "Ushio to Tora (TV)"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21038-BcR2t2y6zORx.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21038-JFoGwVb7bkni.jpg",
+      "rating": 73,
+      "type": "TV"
+    },
+    {
+      "id": 21241,
+      "malId": 31098,
+      "title": {
+        "romaji": "Ushio to Tora 2 (TV)",
+        "english": "Ushio and Tora 2 (TV)",
+        "native": "うしおととら 2 (TV)",
+        "userPreferred": "Ushio to Tora 2 (TV)"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21241-Avzz7tcb0yTy.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21241-I0Qk27jIK3UB.png",
+      "rating": 77,
+      "type": "TV"
+    },
+    {
+      "id": 20953,
+      "malId": 28423,
+      "title": {
+        "romaji": "Kyoukai no Rinne",
+        "english": "Rin-ne",
+        "native": "境界のRinne",
+        "userPreferred": "Kyoukai no Rinne"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20953-ZWTPj5AplXtX.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20953-ZWTPj5AplXtX.jpg",
+      "rating": 64,
+      "type": "TV"
+    },
+    {
+      "id": 392,
+      "malId": 392,
+      "title": {
+        "romaji": "Yuu☆Yuu☆Hakusho",
+        "english": "Yu Yu Hakusho: Ghostfiles",
+        "native": "幽☆遊☆白書",
+        "userPreferred": "Yuu☆Yuu☆Hakusho"
+      },
+      "status": "Completed",
+      "episodes": 112,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx392-z90299zIvYmx.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/392-nbB6cBnhHOFb.jpg",
+      "rating": 82,
+      "type": "TV"
+    },
+    {
+      "id": 101347,
+      "malId": 37520,
+      "title": {
+        "romaji": "Dororo",
+        "english": "Dororo",
+        "native": "どろろ",
+        "userPreferred": "Dororo"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx101347-2J2p8qJpxpfZ.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n101347-tHurKfTlhtFl.jpg",
+      "rating": 81,
+      "type": "TV"
+    },
+    {
+      "id": 246,
+      "malId": 246,
+      "title": {
+        "romaji": "GROOVE ADVENTURE RAVE",
+        "english": "Rave Master",
+        "native": "GROOVE ADVENTURE RAVE",
+        "userPreferred": "GROOVE ADVENTURE RAVE"
+      },
+      "status": "Completed",
+      "episodes": 51,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx246-xhP6u3tih2Wc.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/246-s20eYYdRGsGN.jpg",
+      "rating": 66,
+      "type": "TV"
+    },
+    {
+      "id": 7592,
+      "malId": 7592,
+      "title": {
+        "romaji": "Nurarihyon no Mago",
+        "english": "Nura: Rise of the Yokai Clan",
+        "native": "ぬらりひょんの孫",
+        "userPreferred": "Nurarihyon no Mago"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx7592-28Qy7SBbSquT.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/7592-wwjLCtVIGpF4.jpg",
+      "rating": 73,
+      "type": "TV"
+    },
+    {
+      "id": 164,
+      "malId": 164,
+      "title": {
+        "romaji": "Mononoke-hime",
+        "english": "Princess Mononoke",
+        "native": "もののけ姫",
+        "userPreferred": "Mononoke-hime"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx164-QYmGmG2k09pL.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/164-Aj6MINy7VTfs.jpg",
+      "rating": 84,
+      "type": "MOVIE"
+    },
+    {
+      "id": 118399,
+      "malId": 41911,
+      "title": {
+        "romaji": "Hanyou no Yashahime",
+        "english": "Yashahime: Princess Half-Demon",
+        "native": "半妖の夜叉姫",
+        "userPreferred": "Hanyou no Yashahime"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx118399-sgHg8NQVQixB.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/118399-4KrsagqbRsgD.jpg",
+      "rating": 65,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 1357,
+      "role": "MAIN",
+      "name": {
+        "first": "Shippo",
+        "last": null,
+        "full": "Shippo",
+        "native": "七宝",
+        "userPreferred": "Shippo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1357-q81pBzC7ynld.jpg",
+      "voiceActors": [
+        {
+          "id": 95248,
+          "language": "Japanese",
+          "name": {
+            "first": "Kumiko",
+            "last": "Watanabe",
+            "full": "Kumiko Watanabe",
+            "native": "渡辺久美子",
+            "userPreferred": "Kumiko Watanabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95248-UzMyBDiMD7LM.jpg"
+        },
+        {
+          "id": 96370,
+          "language": "English",
+          "name": {
+            "first": "Jillian",
+            "last": "Michaels",
+            "full": "Jillian Michaels",
+            "native": null,
+            "userPreferred": "Jillian Michaels"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96370-COImdRiSWcxu.png"
+        },
+        {
+          "id": 106091,
+          "language": "English",
+          "name": {
+            "first": "Candice",
+            "last": "Moore",
+            "full": "Candice Moore",
+            "native": null,
+            "userPreferred": "Candice Moore"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/11091.jpg"
+        },
+        {
+          "id": 113859,
+          "language": "Italian",
+          "name": {
+            "first": "Ilaria",
+            "last": "Stagni",
+            "full": "Ilaria Stagni",
+            "native": null,
+            "userPreferred": "Ilaria Stagni"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/18859.jpg"
+        },
+        {
+          "id": 96191,
+          "language": "Italian",
+          "name": {
+            "first": "Maura",
+            "last": "Cenciarelli",
+            "full": "Maura Cenciarelli",
+            "native": null,
+            "userPreferred": "Maura Cenciarelli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1191.jpg"
+        },
+        {
+          "id": 100682,
+          "language": "Spanish",
+          "name": {
+            "first": "Laura",
+            "last": "Torres",
+            "full": "Laura Torres",
+            "native": null,
+            "userPreferred": "Laura Torres"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100682-ZmEiSYSR5l0n.png"
+        },
+        {
+          "id": 106834,
+          "language": "Portuguese",
+          "name": {
+            "first": "Priscilla",
+            "last": "Concépcion",
+            "full": "Priscilla Concépcion",
+            "native": null,
+            "userPreferred": "Priscilla Concépcion"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106834-vNS9xUqKnIrc.png"
+        },
+        {
+          "id": 100897,
+          "language": "German",
+          "name": {
+            "first": "Julia",
+            "last": "Haacke",
+            "full": "Julia Haacke",
+            "native": null,
+            "userPreferred": "Julia Haacke"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5897.jpg"
+        },
+        {
+          "id": 102822,
+          "language": "Hungarian",
+          "name": {
+            "first": "Kristóf",
+            "last": "Steiner",
+            "full": "Kristóf Steiner",
+            "native": null,
+            "userPreferred": "Kristóf Steiner"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102822-bEIFv5yTtnPd.png"
+        }
+      ]
+    },
+    {
+      "id": 1354,
+      "role": "MAIN",
+      "name": {
+        "first": "Kagome",
+        "last": "Higurashi",
+        "full": "Kagome Higurashi",
+        "native": "日暮かごめ",
+        "userPreferred": "Kagome Higurashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1354-PuUTCSX7UzKA.png",
+      "voiceActors": [
+        {
+          "id": 95003,
+          "language": "Japanese",
+          "name": {
+            "first": "Satsuki",
+            "last": "Yukino",
+            "full": "Satsuki Yukino",
+            "native": "ゆきのさつき",
+            "userPreferred": "Satsuki Yukino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95003-Du7wb5JJzb8P.png"
+        },
+        {
+          "id": 95305,
+          "language": "English",
+          "name": {
+            "first": "Moneca",
+            "last": "Stori",
+            "full": "Moneca Stori",
+            "native": null,
+            "userPreferred": "Moneca Stori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/305.jpg"
+        },
+        {
+          "id": 105894,
+          "language": "English",
+          "name": {
+            "first": "Andrea",
+            "last": "Kwan",
+            "full": "Andrea Kwan",
+            "native": null,
+            "userPreferred": "Andrea Kwan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10894.jpg"
+        },
+        {
+          "id": 103812,
+          "language": "Korean",
+          "name": {
+            "first": "Mi Sook",
+            "last": "Jeong",
+            "full": "Mi Sook Jeong",
+            "native": "숙 정미",
+            "userPreferred": "Mi Sook Jeong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8812.jpg"
+        },
+        {
+          "id": 95767,
+          "language": "Italian",
+          "name": {
+            "first": "Federica",
+            "last": "De Bortoli",
+            "full": "Federica De Bortoli",
+            "native": null,
+            "userPreferred": "Federica De Bortoli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95767-7CE7WZx7bDe1.jpg"
+        },
+        {
+          "id": 96676,
+          "language": "Italian",
+          "name": {
+            "first": "Maria Letizia",
+            "last": "Scifoni",
+            "full": "Maria Letizia Scifoni",
+            "native": null,
+            "userPreferred": "Maria Letizia Scifoni"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96676-m7oyUn6uET8x.png"
+        },
+        {
+          "id": 96662,
+          "language": "Spanish",
+          "name": {
+            "first": "Ana",
+            "last": "Lobo",
+            "full": "Ana Lobo",
+            "native": "Ana Mylhán Lobo Peralta",
+            "userPreferred": "Ana Lobo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96662-shb9mPUzkp2T.png"
+        },
+        {
+          "id": 100136,
+          "language": "Portuguese",
+          "name": {
+            "first": "Letícia",
+            "last": "Quinto",
+            "full": "Letícia Quinto",
+            "native": null,
+            "userPreferred": "Letícia Quinto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100136-x5kzXdgnFpS2.jpg"
+        },
+        {
+          "id": 113965,
+          "language": "French",
+          "name": {
+            "first": "Maëlys",
+            "last": "Ricordeau",
+            "full": "Maëlys Ricordeau",
+            "native": null,
+            "userPreferred": "Maëlys Ricordeau"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/18965.jpg"
+        },
+        {
+          "id": 103174,
+          "language": "German",
+          "name": {
+            "first": "Ulrike",
+            "last": "Jennie",
+            "full": "Ulrike Jennie",
+            "native": null,
+            "userPreferred": "Ulrike Jennie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8174.jpg"
+        },
+        {
+          "id": 102805,
+          "language": "Hungarian",
+          "name": {
+            "first": "Ilona",
+            "last": "Molnár",
+            "full": "Ilona Molnár",
+            "native": null,
+            "userPreferred": "Ilona Molnár"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102805-x7JHDXdowF4c.png"
+        }
+      ]
+    },
+    {
+      "id": 1353,
+      "role": "MAIN",
+      "name": {
+        "first": "Inuyasha",
+        "last": null,
+        "full": "Inuyasha",
+        "native": "犬夜叉",
+        "userPreferred": "Inuyasha"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1353-xsZhvfi7IFzT.png",
+      "voiceActors": [
+        {
+          "id": 95067,
+          "language": "Japanese",
+          "name": {
+            "first": "Kappei",
+            "last": "Yamaguchi",
+            "full": "Kappei Yamaguchi",
+            "native": "山口勝平",
+            "userPreferred": "Kappei Yamaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95067-hqIpNxMfAuN2.png"
+        },
+        {
+          "id": 95306,
+          "language": "English",
+          "name": {
+            "first": "Richard Ian",
+            "last": "Cox",
+            "full": "Richard Ian Cox",
+            "native": null,
+            "userPreferred": "Richard Ian Cox"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95306-aRS4cm1GScFW.jpg"
+        },
+        {
+          "id": 105754,
+          "language": "English",
+          "name": {
+            "first": "Darren",
+            "last": "Pleavin",
+            "full": "Darren Pleavin",
+            "native": null,
+            "userPreferred": "Darren Pleavin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10754.jpg"
+        },
+        {
+          "id": 109753,
+          "language": "Korean",
+          "name": {
+            "first": "Su Jin",
+            "last": "Kang",
+            "full": "Su Jin Kang",
+            "native": "수진강",
+            "userPreferred": "Su Jin Kang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109753-qqOQlkfARIzX.jpg"
+        },
+        {
+          "id": 95764,
+          "language": "Italian",
+          "name": {
+            "first": "Massimiliano",
+            "last": "Alto",
+            "full": "Massimiliano Alto",
+            "native": null,
+            "userPreferred": "Massimiliano Alto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95764-V0S9qoAYcnnj.jpg"
+        },
+        {
+          "id": 165553,
+          "language": "Italian",
+          "name": {
+            "first": "Francesco",
+            "last": "Pezzulli",
+            "full": "Francesco Pezzulli",
+            "native": null,
+            "userPreferred": "Francesco Pezzulli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 100486,
+          "language": "Spanish",
+          "name": {
+            "first": "Enzo",
+            "last": "Fortuny",
+            "full": "Enzo Fortuny",
+            "native": "Enzo Favio Fortuny Romero",
+            "userPreferred": "Enzo Fortuny"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100486-0Sv0euaLpbyh.jpg"
+        },
+        {
+          "id": 102438,
+          "language": "Portuguese",
+          "name": {
+            "first": "Mauro",
+            "last": "Eduardo Lima",
+            "full": "Mauro Eduardo Lima",
+            "native": null,
+            "userPreferred": "Mauro Eduardo Lima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102438-uNCQvVfAkWtk.jpg"
+        },
+        {
+          "id": 182342,
+          "language": "French",
+          "name": {
+            "first": "Jérôme",
+            "last": "Wiggins",
+            "full": "Jérôme Wiggins",
+            "native": null,
+            "userPreferred": "Jérôme Wiggins"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 105593,
+          "language": "German",
+          "name": {
+            "first": "Dominik",
+            "last": "Auer",
+            "full": "Dominik Auer",
+            "native": null,
+            "userPreferred": "Dominik Auer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10593.jpg"
+        },
+        {
+          "id": 101870,
+          "language": "Hungarian",
+          "name": {
+            "first": "Károly",
+            "last": "Moser",
+            "full": "Károly Moser",
+            "native": null,
+            "userPreferred": "Károly Moser"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101870-cEfWkqwnXSMW.jpg"
+        },
+        {
+          "id": 218640,
+          "language": "Catalan",
+          "name": {
+            "first": "Aleix",
+            "last": "Estadella",
+            "full": "Aleix Estadella",
+            "native": null,
+            "userPreferred": "Aleix Estadella"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1356,
+      "role": "MAIN",
+      "name": {
+        "first": "Miroku",
+        "last": null,
+        "full": "Miroku",
+        "native": "弥勒",
+        "userPreferred": "Miroku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1356-rLhVHJzPY0Mp.jpg",
+      "voiceActors": [
+        {
+          "id": 95427,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouji",
+            "last": "Tsujitani",
+            "full": "Kouji Tsujitani",
+            "native": "辻谷耕史",
+            "userPreferred": "Kouji Tsujitani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95427-g0bwNKDLlROd.png"
+        },
+        {
+          "id": 95449,
+          "language": "Japanese",
+          "name": {
+            "first": "Rieko",
+            "last": "Takahashi",
+            "full": "Rieko Takahashi",
+            "native": "高橋理恵子",
+            "userPreferred": "Rieko Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95449-nd1tBCHFufCs.jpg"
+        },
+        {
+          "id": 95307,
+          "language": "English",
+          "name": {
+            "first": "Kirby",
+            "last": "Morrow",
+            "full": "Kirby Morrow",
+            "native": null,
+            "userPreferred": "Kirby Morrow"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95307-KnqG1E5BgQpn.jpg"
+        },
+        {
+          "id": 106092,
+          "language": "English",
+          "name": {
+            "first": "Dave",
+            "last": "Bridges",
+            "full": "Dave Bridges",
+            "native": null,
+            "userPreferred": "Dave Bridges"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/11092.jpg"
+        },
+        {
+          "id": 109781,
+          "language": "Korean",
+          "name": {
+            "first": "Ja hyeong",
+            "last": "Gu",
+            "full": "Ja hyeong Gu",
+            "native": "자형 구",
+            "userPreferred": "Ja hyeong Gu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14781.jpg"
+        },
+        {
+          "id": 95779,
+          "language": "Italian",
+          "name": {
+            "first": "Fabio",
+            "last": "Boccanera",
+            "full": "Fabio Boccanera",
+            "native": null,
+            "userPreferred": "Fabio Boccanera"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/779.jpg"
+        },
+        {
+          "id": 104206,
+          "language": "Spanish",
+          "name": {
+            "first": "Óscar",
+            "last": "Redondo",
+            "full": "Óscar Redondo",
+            "native": null,
+            "userPreferred": "Óscar Redondo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 116453,
+          "language": "Spanish",
+          "name": {
+            "first": "Gabriel",
+            "last": "Gama",
+            "full": "Gabriel Gama",
+            "native": null,
+            "userPreferred": "Gabriel Gama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n116453-QvCizGoCgZh5.jpg"
+        },
+        {
+          "id": 96108,
+          "language": "Portuguese",
+          "name": {
+            "first": "Fábio",
+            "last": "Lucindo",
+            "full": "Fábio Lucindo",
+            "native": null,
+            "userPreferred": "Fábio Lucindo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96108-MuX1nYAfR6za.png"
+        },
+        {
+          "id": 100892,
+          "language": "German",
+          "name": {
+            "first": "Florian",
+            "last": "Halm",
+            "full": "Florian Halm",
+            "native": null,
+            "userPreferred": "Florian Halm"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5892.jpg"
+        },
+        {
+          "id": 102800,
+          "language": "Hungarian",
+          "name": {
+            "first": "Tamás",
+            "last": "Markovics",
+            "full": "Tamás Markovics",
+            "native": null,
+            "userPreferred": "Tamás Markovics"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7800.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1355,
+      "role": "MAIN",
+      "name": {
+        "first": "Sango",
+        "last": null,
+        "full": "Sango",
+        "native": "珊瑚",
+        "userPreferred": "Sango"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1355-0AyQkL0vYDsj.png",
+      "voiceActors": [
+        {
+          "id": 95057,
+          "language": "Japanese",
+          "name": {
+            "first": "Houko",
+            "last": "Kuwashima",
+            "full": "Houko Kuwashima",
+            "native": "桑島法子",
+            "userPreferred": "Houko Kuwashima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95057-nMZEwJet445W.jpg"
+        },
+        {
+          "id": 95643,
+          "language": "English",
+          "name": {
+            "first": "Kelly",
+            "last": "Sheridan",
+            "full": "Kelly Sheridan",
+            "native": null,
+            "userPreferred": "Kelly Sheridan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95643-B3gyHS8kh4Kr.jpg"
+        },
+        {
+          "id": 106091,
+          "language": "English",
+          "name": {
+            "first": "Candice",
+            "last": "Moore",
+            "full": "Candice Moore",
+            "native": null,
+            "userPreferred": "Candice Moore"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/11091.jpg"
+        },
+        {
+          "id": 109773,
+          "language": "Korean",
+          "name": {
+            "first": "Jeong sin",
+            "last": "Wu",
+            "full": "Jeong sin Wu",
+            "native": "정신 우",
+            "userPreferred": "Jeong sin Wu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14773.jpg"
+        },
+        {
+          "id": 95765,
+          "language": "Italian",
+          "name": {
+            "first": "Stella",
+            "last": "Musy",
+            "full": "Stella Musy",
+            "native": null,
+            "userPreferred": "Stella Musy"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/765.jpg"
+        },
+        {
+          "id": 144245,
+          "language": "Italian",
+          "name": {
+            "first": "Emanuela",
+            "last": "D'Amico",
+            "full": "Emanuela D'Amico",
+            "native": null,
+            "userPreferred": "Emanuela D'Amico"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n144245-I61ggWv5wIoZ.jpg"
+        },
+        {
+          "id": 116455,
+          "language": "Spanish",
+          "name": {
+            "first": "Liliana",
+            "last": "Barba",
+            "full": "Liliana Barba",
+            "native": null,
+            "userPreferred": "Liliana Barba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n116455-oV4zERYf9v2u.jpg"
+        },
+        {
+          "id": 106518,
+          "language": "Portuguese",
+          "name": {
+            "first": "Fátima",
+            "last": "Noya",
+            "full": "Fátima Noya",
+            "native": null,
+            "userPreferred": "Fátima Noya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/11518.jpg"
+        },
+        {
+          "id": 182343,
+          "language": "French",
+          "name": {
+            "first": "Yael",
+            "last": "Elhadad",
+            "full": "Yael Elhadad",
+            "native": null,
+            "userPreferred": "Yael Elhadad"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 101899,
+          "language": "German",
+          "name": {
+            "first": "Angela",
+            "last": "Wiederhut",
+            "full": "Angela Wiederhut",
+            "native": null,
+            "userPreferred": "Angela Konstanze Wiederhut"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6899.jpg"
+        },
+        {
+          "id": 102765,
+          "language": "Hungarian",
+          "name": {
+            "first": "Titanilla",
+            "last": "Bogdányi",
+            "full": "Titanilla Bogdányi",
+            "native": null,
+            "userPreferred": "Titanilla Bogdányi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102765-OYsgMI1EOmfp.png"
+        }
+      ]
+    },
+    {
+      "id": 9733,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Renkotsu",
+        "last": null,
+        "full": "Renkotsu",
+        "native": "煉骨",
+        "userPreferred": "Renkotsu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9733.jpg",
+      "voiceActors": [
+        {
+          "id": 95002,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Sugita",
+            "full": "Tomokazu Sugita",
+            "native": "杉田智和",
+            "userPreferred": "Tomokazu Sugita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95002-nDIvHaynicEg.png"
+        },
+        {
+          "id": 95515,
+          "language": "English",
+          "name": {
+            "first": "Brian",
+            "last": "Drummond",
+            "full": "Brian Drummond",
+            "native": null,
+            "userPreferred": "Brian Drummond"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95515-jCqOzlX9iNhC.png"
+        },
+        {
+          "id": 101499,
+          "language": "Korean",
+          "name": {
+            "first": "Yeong-seon",
+            "last": "Kim",
+            "full": "Yeong-seon Kim",
+            "native": "김영선",
+            "userPreferred": "Yeong-seon Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101499-aHFkv5mYhE5m.png"
+        },
+        {
+          "id": 230427,
+          "language": "Italian",
+          "name": {
+            "first": "Maurizio",
+            "last": "Fiorentini",
+            "full": "Maurizio Fiorentini",
+            "native": null,
+            "userPreferred": "Maurizio Fiorentini"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 105019,
+          "language": "Spanish",
+          "name": {
+            "first": "Ricardo",
+            "last": "Mendoza",
+            "full": "Ricardo Mendoza",
+            "native": "Ricardo Mendoza Soberano",
+            "userPreferred": "Ricardo Mendoza"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105019-tJ4gep8doBhi.png"
+        },
+        {
+          "id": 192670,
+          "language": "Portuguese",
+          "name": {
+            "first": "Faduli",
+            "last": "Costa",
+            "full": "Faduli Costa",
+            "native": null,
+            "userPreferred": "Faduli Costa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n192670-gRv93mDicD0H.jpg"
+        },
+        {
+          "id": 237906,
+          "language": "Portuguese",
+          "name": {
+            "first": "José",
+            "last": "Parisi Jr",
+            "full": "José Parisi Jr",
+            "native": null,
+            "userPreferred": "José Parisi Jr"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n237906-RuZZGZPKYLWg.jpg"
+        },
+        {
+          "id": 103416,
+          "language": "German",
+          "name": {
+            "first": "Marc",
+            "last": "Stachel",
+            "full": "Marc Stachel",
+            "native": null,
+            "userPreferred": "Marc Stachel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8416.jpg"
+        },
+        {
+          "id": 102840,
+          "language": "Hungarian",
+          "name": {
+            "first": "Rókus",
+            "last": "Varga",
+            "full": "Rókus Varga",
+            "native": null,
+            "userPreferred": "Rókus Varga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7840.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21689,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "",
+        "last": "Hojo",
+        "full": "Hojo",
+        "native": "宝条",
+        "userPreferred": "Hojo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21689.jpg",
+      "voiceActors": [
+        {
+          "id": 95058,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuji",
+            "last": "Ueda",
+            "full": "Yuuji Ueda",
+            "native": "うえだゆうじ",
+            "userPreferred": "Yuuji Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95058-fGnId7E4tgx3.jpg"
+        },
+        {
+          "id": 105720,
+          "language": "English",
+          "name": {
+            "first": "Matt",
+            "last": "Smith",
+            "full": "Matt Smith",
+            "native": null,
+            "userPreferred": "Matt Smith"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105720-JJtMimIq5LML.jpg"
+        },
+        {
+          "id": 109825,
+          "language": "Korean",
+          "name": {
+            "first": "Gwang ju",
+            "last": "Jeon",
+            "full": "Gwang ju Jeon",
+            "native": "광주 전",
+            "userPreferred": "Gwang ju Jeon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14825.jpg"
+        },
+        {
+          "id": 95776,
+          "language": "Italian",
+          "name": {
+            "first": "Daniele",
+            "last": "Raffaeli",
+            "full": "Daniele Raffaeli",
+            "native": null,
+            "userPreferred": "Daniele Raffaeli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/776.jpg"
+        },
+        {
+          "id": 182555,
+          "language": "Spanish",
+          "name": {
+            "first": "José Antonio",
+            "last": "Macías",
+            "full": "José Antonio Macías",
+            "native": null,
+            "userPreferred": "José Antonio Macías"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n182555-6mhBvkqtmnHG.jpg"
+        },
+        {
+          "id": 96534,
+          "language": "Portuguese",
+          "name": {
+            "first": "Thiago",
+            "last": "Longo",
+            "full": "Thiago Longo",
+            "native": null,
+            "userPreferred": "Thiago Longo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96534-lV4sfbdCcMRa.jpg"
+        },
+        {
+          "id": 167917,
+          "language": "German",
+          "name": {
+            "first": "Christian Heiner",
+            "last": "Wolf",
+            "full": "Christian Heiner Wolf",
+            "native": null,
+            "userPreferred": "Christian Heiner Wolf"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 142787,
+          "language": "German",
+          "name": {
+            "first": "Niko",
+            "last": "Macoulis",
+            "full": "Niko Macoulis",
+            "native": null,
+            "userPreferred": "Niko Macoulis"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n142787-6rVIRPltmwHx.jpg"
+        },
+        {
+          "id": 130122,
+          "language": "German",
+          "name": {
+            "first": "Felix",
+            "last": "Mayer",
+            "full": "Felix Mayer",
+            "native": null,
+            "userPreferred": "Felix Mayer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n130122-BlIgtEz3JWrm.png"
+        }
+      ]
+    },
+    {
+      "id": 34397,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Suikotsu",
+        "last": null,
+        "full": "Suikotsu",
+        "native": "睡骨",
+        "userPreferred": "Suikotsu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/34397-m2O23wRRxk7N.png",
+      "voiceActors": [
+        {
+          "id": 95125,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroaki",
+            "last": "Hirata",
+            "full": "Hiroaki Hirata",
+            "native": "平田広明",
+            "userPreferred": "Hiroaki Hirata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95125-NeFFiJupoDVj.png"
+        },
+        {
+          "id": 100973,
+          "language": "English",
+          "name": {
+            "first": "Michael",
+            "last": "Donovan",
+            "full": "Michael Donovan",
+            "native": null,
+            "userPreferred": "Michael Donovan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100973-m6QO3BdjYIuq.jpg"
+        },
+        {
+          "id": 109931,
+          "language": "Korean",
+          "name": {
+            "first": "Yeong Jae",
+            "last": "Pyo",
+            "full": "Yeong Jae Pyo",
+            "native": "영재 표",
+            "userPreferred": "Yeong Jae Pyo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14931.jpg"
+        },
+        {
+          "id": 236833,
+          "language": "Italian",
+          "name": {
+            "first": "Mirko",
+            "last": "Mazzanti",
+            "full": "Mirko Mazzanti",
+            "native": null,
+            "userPreferred": "Mirko Mazzanti"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 182226,
+          "language": "Spanish",
+          "name": {
+            "first": "José Luis",
+            "last": "Orozco",
+            "full": "José Luis Orozco",
+            "native": "José Luis Orozco Flores",
+            "userPreferred": "José Luis Orozco"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n182226-a5yX20hpnBwh.png"
+        },
+        {
+          "id": 204790,
+          "language": "Portuguese",
+          "name": {
+            "first": "Alex",
+            "last": "Wendel",
+            "full": "Alex Wendel",
+            "native": null,
+            "userPreferred": "Alex Wendel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n204790-eyXk84mhjaX4.png"
+        },
+        {
+          "id": 117119,
+          "language": "German",
+          "name": {
+            "first": "Patrick",
+            "last": "Schröder",
+            "full": "Patrick Schröder",
+            "native": null,
+            "userPreferred": "Patrick Schröder"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n117119-m3NZJpCARhtb.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11696,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gatenmaru",
+        "last": null,
+        "full": "Gatenmaru",
+        "native": null,
+        "userPreferred": "Gatenmaru"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11696.jpg",
+      "voiceActors": [
+        {
+          "id": 95160,
+          "language": "Japanese",
+          "name": {
+            "first": "Takehito",
+            "last": "Koyasu",
+            "full": "Takehito Koyasu",
+            "native": "子安武人",
+            "userPreferred": "Takehito Koyasu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95160-jWevcH7BmfE1.jpg"
+        },
+        {
+          "id": 104951,
+          "language": "English",
+          "name": {
+            "first": "Adam",
+            "last": "Henderson",
+            "full": "Adam Henderson",
+            "native": null,
+            "userPreferred": "Adam Henderson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9951.jpg"
+        },
+        {
+          "id": 103882,
+          "language": "Portuguese",
+          "name": {
+            "first": "Élcio",
+            "last": "Sodré",
+            "full": "Élcio Sodré",
+            "native": "Élcio Sodré",
+            "userPreferred": "Élcio Sodré"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103882-5ARxuNV5TBBu.jpg"
+        },
+        {
+          "id": 116361,
+          "language": "German",
+          "name": {
+            "first": "Claus",
+            "last": "Brockmeyer",
+            "full": "Claus Brockmeyer",
+            "native": null,
+            "userPreferred": "Claus Brockmeyer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/21361.jpg"
+        }
+      ]
+    },
+    {
+      "id": 34396,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mukotsu",
+        "last": null,
+        "full": "Mukotsu",
+        "native": "霧骨",
+        "userPreferred": "Mukotsu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/34396-FF8taoGaP1Je.png",
+      "voiceActors": [
+        {
+          "id": 95395,
+          "language": "Japanese",
+          "name": {
+            "first": "Tetsu",
+            "last": "Inada",
+            "full": "Tetsu Inada",
+            "native": "稲田徹",
+            "userPreferred": "Tetsu Inada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95395-HpxLuh4ysrzJ.png"
+        },
+        {
+          "id": 95543,
+          "language": "English",
+          "name": {
+            "first": "Trevor",
+            "last": "Devall",
+            "full": "Trevor Devall",
+            "native": null,
+            "userPreferred": "Trevor Devall"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95543-Sc6GfraoSCc7.jpg"
+        },
+        {
+          "id": 151661,
+          "language": "Italian",
+          "name": {
+            "first": "Danilo",
+            "last": "De Girolamo",
+            "full": "Danilo De Girolamo",
+            "native": null,
+            "userPreferred": "Danilo De Girolamo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n151661-s97UIQX9lD1J.png"
+        },
+        {
+          "id": 102974,
+          "language": "Portuguese",
+          "name": {
+            "first": "Wellington",
+            "last": "Lima",
+            "full": "Wellington Lima",
+            "native": null,
+            "userPreferred": "Wellington Lima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102974-PW4xc2DMIK0d.png"
+        },
+        {
+          "id": 237906,
+          "language": "Portuguese",
+          "name": {
+            "first": "José",
+            "last": "Parisi Jr",
+            "full": "José Parisi Jr",
+            "native": null,
+            "userPreferred": "José Parisi Jr"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n237906-RuZZGZPKYLWg.jpg"
+        },
+        {
+          "id": 306920,
+          "language": "Portuguese",
+          "name": {
+            "first": "Ricardo",
+            "last": "Bressan",
+            "full": "Ricardo Bressan",
+            "native": null,
+            "userPreferred": "Ricardo Bressan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n306920-oGKKYgPcSNwf.jpg"
+        },
+        {
+          "id": 131209,
+          "language": "German",
+          "name": {
+            "first": "Thomas",
+            "last": "Albus",
+            "full": "Thomas Albus",
+            "native": null,
+            "userPreferred": "Thomas Albus"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n131209-eLmNcAWxgn8V.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1371,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Koga",
+        "last": null,
+        "full": "Koga",
+        "native": "鋼牙",
+        "userPreferred": "Koga"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1371.jpg",
+      "voiceActors": [
+        {
+          "id": 95686,
+          "language": "Japanese",
+          "name": {
+            "first": "Taiki",
+            "last": "Matsuno",
+            "full": "Taiki Matsuno",
+            "native": "太紀松野",
+            "userPreferred": "Taiki Matsuno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95686-Jp4dtMyEDfC2.jpg"
+        },
+        {
+          "id": 95551,
+          "language": "English",
+          "name": {
+            "first": "Scott",
+            "last": "McNeil",
+            "full": "Scott McNeil",
+            "native": null,
+            "userPreferred": "Scott McNeil"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95551-Rr0m2lNWoZTw.png"
+        },
+        {
+          "id": 106101,
+          "language": "English",
+          "name": {
+            "first": "Russell",
+            "last": "Wait",
+            "full": "Russell Wait",
+            "native": null,
+            "userPreferred": "Russell Wait"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106101-KprCq2TspE3V.jpg"
+        },
+        {
+          "id": 109777,
+          "language": "Korean",
+          "name": {
+            "first": "Sang-Hyeon",
+            "last": "Eom",
+            "full": "Sang-Hyeon Eom",
+            "native": "엄상현",
+            "userPreferred": "Sang-Hyeon Eom"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14777.jpg"
+        },
+        {
+          "id": 95780,
+          "language": "Italian",
+          "name": {
+            "first": "Corrado",
+            "last": "Conforti",
+            "full": "Corrado Conforti",
+            "native": null,
+            "userPreferred": "Corrado Conforti"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/780.jpg"
+        },
+        {
+          "id": 96462,
+          "language": "Spanish",
+          "name": {
+            "first": "Irwin",
+            "last": "Daayán",
+            "full": "Irwin Daayán",
+            "native": "Irwin Daayán Rosenthal Sarlí",
+            "userPreferred": "Irwin Daayán"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96462-PWlPtfZ1sHX7.png"
+        },
+        {
+          "id": 185103,
+          "language": "Portuguese",
+          "name": {
+            "first": "Sérgio",
+            "last": "Rufino",
+            "full": "Sérgio Rufino",
+            "native": null,
+            "userPreferred": "Sérgio Rufino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n185103-VltYrGnspAhf.jpg"
+        },
+        {
+          "id": 102964,
+          "language": "German",
+          "name": {
+            "first": "Hubertus",
+            "last": "von Lerchenfeld",
+            "full": "Hubertus von Lerchenfeld",
+            "native": null,
+            "userPreferred": "Hubertus von Lerchenfeld"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102964-OF7rN1qtFSA3.png"
+        },
+        {
+          "id": 102779,
+          "language": "Hungarian",
+          "name": {
+            "first": "Álmos",
+            "last": "Előd",
+            "full": "Álmos Előd",
+            "native": null,
+            "userPreferred": "Álmos Előd"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7779.jpg"
+        }
+      ]
+    },
+    {
+      "id": 25228,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Izumo",
+        "last": null,
+        "full": "Izumo",
+        "native": "出雲",
+        "userPreferred": "Izumo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/25228.jpg",
+      "voiceActors": [
+        {
+          "id": 95838,
+          "language": "Japanese",
+          "name": {
+            "first": "Dai",
+            "last": "Matsumoto",
+            "full": "Dai Matsumoto",
+            "native": "松本大",
+            "userPreferred": "Dai Matsumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/838.jpg"
+        },
+        {
+          "id": 103665,
+          "language": "English",
+          "name": {
+            "first": "Lee",
+            "last": "Tockar",
+            "full": "Lee Tockar",
+            "native": null,
+            "userPreferred": "Lee Tockar"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103665-FfLAp8TWSa20.png"
+        },
+        {
+          "id": 101499,
+          "language": "Korean",
+          "name": {
+            "first": "Yeong-seon",
+            "last": "Kim",
+            "full": "Yeong-seon Kim",
+            "native": "김영선",
+            "userPreferred": "Yeong-seon Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101499-aHFkv5mYhE5m.png"
+        },
+        {
+          "id": 102974,
+          "language": "Portuguese",
+          "name": {
+            "first": "Wellington",
+            "last": "Lima",
+            "full": "Wellington Lima",
+            "native": null,
+            "userPreferred": "Wellington Lima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102974-PW4xc2DMIK0d.png"
+        },
+        {
+          "id": 237906,
+          "language": "Portuguese",
+          "name": {
+            "first": "José",
+            "last": "Parisi Jr",
+            "full": "José Parisi Jr",
+            "native": null,
+            "userPreferred": "José Parisi Jr"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n237906-RuZZGZPKYLWg.jpg"
+        },
+        {
+          "id": 117117,
+          "language": "German",
+          "name": {
+            "first": "Stefan",
+            "last": "Günther",
+            "full": "Stefan Günther",
+            "native": null,
+            "userPreferred": "Stefan Günther"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/22117.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1370,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Goshinki",
+        "last": null,
+        "full": "Goshinki",
+        "native": "悟心鬼",
+        "userPreferred": "Goshinki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1370-6IDvqoGqWFUM.jpg",
+      "voiceActors": [
+        {
+          "id": 100386,
+          "language": "Japanese",
+          "name": {
+            "first": "Masaharu",
+            "last": "Satou",
+            "full": "Masaharu Satou",
+            "native": "佐藤正治",
+            "userPreferred": "Masaharu Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5386.jpg"
+        },
+        {
+          "id": 101835,
+          "language": "English",
+          "name": {
+            "first": "Michael",
+            "last": "Kopsa",
+            "full": "Michael Kopsa",
+            "native": null,
+            "userPreferred": "Michael Kopsa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101835-GIn02PcSIOEy.jpg"
+        },
+        {
+          "id": 109777,
+          "language": "Korean",
+          "name": {
+            "first": "Sang-Hyeon",
+            "last": "Eom",
+            "full": "Sang-Hyeon Eom",
+            "native": "엄상현",
+            "userPreferred": "Sang-Hyeon Eom"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14777.jpg"
+        },
+        {
+          "id": 182655,
+          "language": "Italian",
+          "name": {
+            "first": "Mario",
+            "last": "Bombardieri",
+            "full": "Mario Bombardieri",
+            "native": null,
+            "userPreferred": "Mario Bombardieri"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n182655-QdxFOqU89UKI.jpg"
+        },
+        {
+          "id": 163759,
+          "language": "Portuguese",
+          "name": {
+            "first": "Ivo",
+            "last": "Roberto",
+            "full": "Ivo Roberto",
+            "native": null,
+            "userPreferred": "Ivo Roberto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n163759-yZDtU2k0BO4Q.jpg"
+        },
+        {
+          "id": 139849,
+          "language": "German",
+          "name": {
+            "first": "Thomas",
+            "last": "Rauscher",
+            "full": "Thomas Rauscher",
+            "native": null,
+            "userPreferred": "Thomas Rauscher"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21690,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Akitoki",
+        "last": "Houjou",
+        "full": "Akitoki Houjou",
+        "native": "北条秋時",
+        "userPreferred": "Akitoki Houjou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b21690-GpTJ9M8xGsPG.png",
+      "voiceActors": [
+        {
+          "id": 95058,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuji",
+            "last": "Ueda",
+            "full": "Yuuji Ueda",
+            "native": "うえだゆうじ",
+            "userPreferred": "Yuuji Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95058-fGnId7E4tgx3.jpg"
+        },
+        {
+          "id": 105720,
+          "language": "English",
+          "name": {
+            "first": "Matt",
+            "last": "Smith",
+            "full": "Matt Smith",
+            "native": null,
+            "userPreferred": "Matt Smith"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105720-JJtMimIq5LML.jpg"
+        },
+        {
+          "id": 109825,
+          "language": "Korean",
+          "name": {
+            "first": "Gwang ju",
+            "last": "Jeon",
+            "full": "Gwang ju Jeon",
+            "native": "광주 전",
+            "userPreferred": "Gwang ju Jeon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14825.jpg"
+        },
+        {
+          "id": 95776,
+          "language": "Italian",
+          "name": {
+            "first": "Daniele",
+            "last": "Raffaeli",
+            "full": "Daniele Raffaeli",
+            "native": null,
+            "userPreferred": "Daniele Raffaeli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/776.jpg"
+        },
+        {
+          "id": 96534,
+          "language": "Portuguese",
+          "name": {
+            "first": "Thiago",
+            "last": "Longo",
+            "full": "Thiago Longo",
+            "native": null,
+            "userPreferred": "Thiago Longo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96534-lV4sfbdCcMRa.jpg"
+        },
+        {
+          "id": 130122,
+          "language": "German",
+          "name": {
+            "first": "Felix",
+            "last": "Mayer",
+            "full": "Felix Mayer",
+            "native": null,
+            "userPreferred": "Felix Mayer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n130122-BlIgtEz3JWrm.png"
+        }
+      ]
+    },
+    {
+      "id": 8534,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Garamaru",
+        "last": null,
+        "full": "Garamaru",
+        "native": null,
+        "userPreferred": "Garamaru"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/8534.jpg",
+      "voiceActors": [
+        {
+          "id": 95129,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshihiko",
+            "last": "Seki",
+            "full": "Toshihiko Seki",
+            "native": "関俊彦",
+            "userPreferred": "Toshihiko Seki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95129-AAL7kfwAPpgR.jpg"
+        },
+        {
+          "id": 96300,
+          "language": "English",
+          "name": {
+            "first": "Mark",
+            "last": "Oliver",
+            "full": "Mark Oliver",
+            "native": null,
+            "userPreferred": "Mark Oliver"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1300.jpg"
+        },
+        {
+          "id": 100826,
+          "language": "Portuguese",
+          "name": {
+            "first": "Raul",
+            "last": "Schlosser",
+            "full": "Raul Schlosser",
+            "native": null,
+            "userPreferred": "Raul Schlosser"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100826-23H6d1OrVATl.png"
+        },
+        {
+          "id": 145015,
+          "language": "German",
+          "name": {
+            "first": "Jens-Holger",
+            "last": "Kretschmer",
+            "full": "Jens-Holger Kretschmer",
+            "native": null,
+            "userPreferred": "Jens-Holger Kretschmer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1360,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaede",
+        "last": null,
+        "full": "Kaede",
+        "native": "楓",
+        "userPreferred": "Kaede"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1360-nvgYPaUEMeG6.jpg",
+      "voiceActors": [
+        {
+          "id": 95168,
+          "language": "Japanese",
+          "name": {
+            "first": "Mika",
+            "last": "Itou",
+            "full": "Mika Itou",
+            "native": "実華伊藤",
+            "userPreferred": "Mika Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/168.jpg"
+        },
+        {
+          "id": 95927,
+          "language": "Japanese",
+          "name": {
+            "first": "Hisako",
+            "last": "Kyouda",
+            "full": "Hisako Kyouda",
+            "native": "京田尚子",
+            "userPreferred": "Hisako Kyouda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95927-kFsZv4EhvQZy.png"
+        },
+        {
+          "id": 106091,
+          "language": "English",
+          "name": {
+            "first": "Candice",
+            "last": "Moore",
+            "full": "Candice Moore",
+            "native": null,
+            "userPreferred": "Candice Moore"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/11091.jpg"
+        },
+        {
+          "id": 96370,
+          "language": "English",
+          "name": {
+            "first": "Jillian",
+            "last": "Michaels",
+            "full": "Jillian Michaels",
+            "native": null,
+            "userPreferred": "Jillian Michaels"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96370-COImdRiSWcxu.png"
+        },
+        {
+          "id": 182344,
+          "language": "English",
+          "name": {
+            "first": "Pam",
+            "last": "Hyatt",
+            "full": "Pam Hyatt",
+            "native": null,
+            "userPreferred": "Pam Hyatt"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 165554,
+          "language": "Italian",
+          "name": {
+            "first": "Solvejg",
+            "last": "D'Assunta",
+            "full": "Solvejg D'Assunta",
+            "native": null,
+            "userPreferred": "Solvejg D'Assunta"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n165554-nPXV1RsRYWaQ.jpg"
+        },
+        {
+          "id": 160936,
+          "language": "Italian",
+          "name": {
+            "first": "Cristina",
+            "last": "Grado",
+            "full": "Cristina Grado",
+            "native": null,
+            "userPreferred": "Cristina Grado"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 145012,
+          "language": "German",
+          "name": {
+            "first": "Ilona",
+            "last": "Grandke",
+            "full": "Ilona Grandke",
+            "native": null,
+            "userPreferred": "Ilona Grandke"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n145012-fwn5JNDki5vQ.png"
+        },
+        {
+          "id": 102790,
+          "language": "Hungarian",
+          "name": {
+            "first": "Ilona",
+            "last": "Kassai",
+            "full": "Ilona Kassai",
+            "native": null,
+            "userPreferred": "Ilona Kassai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102790-YqJD9zT84lEC.png"
+        }
+      ]
+    },
+    {
+      "id": 6274,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ginta",
+        "last": null,
+        "full": "Ginta",
+        "native": "銀太",
+        "userPreferred": "Ginta"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6274.jpg",
+      "voiceActors": [
+        {
+          "id": 95283,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroyuki",
+            "last": "Yoshino",
+            "full": "Hiroyuki Yoshino",
+            "native": "吉野裕行",
+            "userPreferred": "Hiroyuki Yoshino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95283-g76zV4YacFfm.jpg"
+        },
+        {
+          "id": 95881,
+          "language": "English",
+          "name": {
+            "first": "Paul",
+            "last": "Dobson",
+            "full": "Paul Dobson",
+            "native": null,
+            "userPreferred": "Paul Dobson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95881-QeKJF0towjRg.png"
+        },
+        {
+          "id": 109825,
+          "language": "Korean",
+          "name": {
+            "first": "Gwang ju",
+            "last": "Jeon",
+            "full": "Gwang ju Jeon",
+            "native": "광주 전",
+            "userPreferred": "Gwang ju Jeon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14825.jpg"
+        },
+        {
+          "id": 172903,
+          "language": "Italian",
+          "name": {
+            "first": "Gabriele",
+            "last": "Lopez",
+            "full": "Gabriele Lopez",
+            "native": null,
+            "userPreferred": "Gabriele Lopez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 100084,
+          "language": "Portuguese",
+          "name": {
+            "first": "Rodrigo",
+            "last": "Andreatto",
+            "full": "Rodrigo Andreatto",
+            "native": null,
+            "userPreferred": "Rodrigo Andreatto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5084.jpg"
+        },
+        {
+          "id": 142787,
+          "language": "German",
+          "name": {
+            "first": "Niko",
+            "last": "Macoulis",
+            "full": "Niko Macoulis",
+            "native": null,
+            "userPreferred": "Niko Macoulis"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n142787-6rVIRPltmwHx.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17074,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Manten",
+        "last": "Raijou",
+        "full": "Manten Raijou",
+        "native": null,
+        "userPreferred": "Manten Raijou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17074.jpg",
+      "voiceActors": [
+        {
+          "id": 95395,
+          "language": "Japanese",
+          "name": {
+            "first": "Tetsu",
+            "last": "Inada",
+            "full": "Tetsu Inada",
+            "native": "稲田徹",
+            "userPreferred": "Tetsu Inada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95395-HpxLuh4ysrzJ.png"
+        },
+        {
+          "id": 114872,
+          "language": "English",
+          "name": {
+            "first": "Alvin",
+            "last": "Sanders",
+            "full": "Alvin Sanders",
+            "native": null,
+            "userPreferred": "Alvin Sanders"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/19872.jpg"
+        },
+        {
+          "id": 102751,
+          "language": "Italian",
+          "name": {
+            "first": "Nanni",
+            "last": "Baldini",
+            "full": "Nanni Baldini",
+            "native": null,
+            "userPreferred": "Nanni Baldini"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7751.jpg"
+        },
+        {
+          "id": 185164,
+          "language": "Portuguese",
+          "name": {
+            "first": "Paulo",
+            "last": "Porto",
+            "full": "Paulo Porto",
+            "native": null,
+            "userPreferred": "Paulo Porto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n185164-rkNEdLUOexQe.png"
+        },
+        {
+          "id": 103416,
+          "language": "German",
+          "name": {
+            "first": "Marc",
+            "last": "Stachel",
+            "full": "Marc Stachel",
+            "native": null,
+            "userPreferred": "Marc Stachel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8416.jpg"
+        },
+        {
+          "id": 102819,
+          "language": "Hungarian",
+          "name": {
+            "first": "Szabolcs",
+            "last": "Seszták",
+            "full": "Szabolcs Seszták",
+            "native": null,
+            "userPreferred": "Szabolcs Seszták"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7819.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32248,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Botan",
+        "last": null,
+        "full": "Botan",
+        "native": "牡丹",
+        "userPreferred": "Botan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32248.jpg",
+      "voiceActors": [
+        {
+          "id": 95553,
+          "language": "Japanese",
+          "name": {
+            "first": "Chinami",
+            "last": "Nishimura",
+            "full": "Chinami Nishimura",
+            "native": "西村ちなみ",
+            "userPreferred": "Chinami Nishimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95553-m1IIC7sNSQ2h.png"
+        },
+        {
+          "id": 95443,
+          "language": "English",
+          "name": {
+            "first": "Nicole",
+            "last": "Bouma",
+            "full": "Nicole Bouma",
+            "native": null,
+            "userPreferred": "Nicole Bouma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95443-iQ2opI1W3srj.png"
+        },
+        {
+          "id": 167646,
+          "language": "Italian",
+          "name": {
+            "first": "Alessandra",
+            "last": "Chiari",
+            "full": "Alessandra Chiari",
+            "native": null,
+            "userPreferred": "Alessandra Chiari"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 107681,
+          "language": "Spanish",
+          "name": {
+            "first": "María Fernanda",
+            "last": "Morales",
+            "full": "María Fernanda Morales",
+            "native": "María Fernanda del Carmen Morales Ponce de León",
+            "userPreferred": "María Fernanda Morales"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107681-iVC3CSUHtc6j.png"
+        },
+        {
+          "id": 100137,
+          "language": "Portuguese",
+          "name": {
+            "first": "Silvia",
+            "last": "Suzy",
+            "full": "Silvia Suzy",
+            "native": null,
+            "userPreferred": "Silvia Suzy"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5137.jpg"
+        },
+        {
+          "id": 105717,
+          "language": "German",
+          "name": {
+            "first": "Stephanie",
+            "last": "Kellner",
+            "full": "Stephanie Kellner",
+            "native": null,
+            "userPreferred": "Stephanie Kellner"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10717.jpg"
+        }
+      ]
+    },
+    {
+      "id": 34395,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ginkotsu",
+        "last": null,
+        "full": "Ginkotsu",
+        "native": "銀骨",
+        "userPreferred": "Ginkotsu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/34395-l4GGLNzP0zP6.png",
+      "voiceActors": [
+        {
+          "id": 96481,
+          "language": "Japanese",
+          "name": {
+            "first": "Hisao",
+            "last": "Egawa",
+            "full": "Hisao Egawa",
+            "native": "江川央生",
+            "userPreferred": "Hisao Egawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96481-7houCLOMkp3g.png"
+        },
+        {
+          "id": 95845,
+          "language": "English",
+          "name": {
+            "first": "Mark",
+            "last": "Gibbon",
+            "full": "Mark Gibbon",
+            "native": null,
+            "userPreferred": "Mark Gibbon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95845-dY146DzsYIXb.jpg"
+        },
+        {
+          "id": 295845,
+          "language": "Italian",
+          "name": {
+            "first": "Alessandro",
+            "last": "Pala",
+            "full": "Alessandro Pala",
+            "native": null,
+            "userPreferred": "Alessandro Pala"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n295845-2LZwLo4C82dY.jpg"
+        },
+        {
+          "id": 237906,
+          "language": "Portuguese",
+          "name": {
+            "first": "José",
+            "last": "Parisi Jr",
+            "full": "José Parisi Jr",
+            "native": null,
+            "userPreferred": "José Parisi Jr"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n237906-RuZZGZPKYLWg.jpg"
+        },
+        {
+          "id": 132373,
+          "language": "German",
+          "name": {
+            "first": "Gerd",
+            "last": "Meyer",
+            "full": "Gerd Meyer",
+            "native": null,
+            "userPreferred": "Gerd Meyer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29664,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Koharu",
+        "last": null,
+        "full": "Koharu",
+        "native": null,
+        "userPreferred": "Koharu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29664.jpg",
+      "voiceActors": [
+        {
+          "id": 103788,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Iwatsubo",
+            "full": "Rie Iwatsubo",
+            "native": "岩坪理江",
+            "userPreferred": "Rie Iwatsubo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8788.jpg"
+        },
+        {
+          "id": 109407,
+          "language": "English",
+          "name": {
+            "first": "Brittney",
+            "last": "Irvin",
+            "full": "Brittney Irvin",
+            "native": null,
+            "userPreferred": "Brittney Irvin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109407-LL2e64PGWiu0.png"
+        },
+        {
+          "id": 103053,
+          "language": "Portuguese",
+          "name": {
+            "first": "Melissa",
+            "last": "Garcia",
+            "full": "Melissa Garcia",
+            "native": null,
+            "userPreferred": "Melissa Garcia"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103053-j3eO8njXDg90.jpg"
+        },
+        {
+          "id": 100885,
+          "language": "German",
+          "name": {
+            "first": "Andrea",
+            "last": "Wick",
+            "full": "Andrea Wick",
+            "native": null,
+            "userPreferred": "Andrea Wick"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1367,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Naraku",
+        "last": null,
+        "full": "Naraku",
+        "native": "奈落",
+        "userPreferred": "Naraku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1367.jpg",
+      "voiceActors": [
+        {
+          "id": 95006,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiyuki",
+            "last": "Morikawa",
+            "full": "Toshiyuki Morikawa",
+            "native": "森川智之",
+            "userPreferred": "Toshiyuki Morikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95006-hoLuiZANeD3Q.png"
+        },
+        {
+          "id": 95477,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Yanaka",
+            "full": "Hiroshi Yanaka",
+            "native": "家中宏",
+            "userPreferred": "Hiroshi Yanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95477-zUeFZNtjTgap.png"
+        },
+        {
+          "id": 95881,
+          "language": "English",
+          "name": {
+            "first": "Paul",
+            "last": "Dobson",
+            "full": "Paul Dobson",
+            "native": null,
+            "userPreferred": "Paul Dobson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95881-QeKJF0towjRg.png"
+        },
+        {
+          "id": 106101,
+          "language": "English",
+          "name": {
+            "first": "Russell",
+            "last": "Wait",
+            "full": "Russell Wait",
+            "native": null,
+            "userPreferred": "Russell Wait"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106101-KprCq2TspE3V.jpg"
+        },
+        {
+          "id": 110099,
+          "language": "Korean",
+          "name": {
+            "first": "Si Ho",
+            "last": "Hong",
+            "full": "Si Ho Hong",
+            "native": "시호 홍",
+            "userPreferred": "Si Ho Hong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15099.jpg"
+        },
+        {
+          "id": 96224,
+          "language": "Italian",
+          "name": {
+            "first": "Andrea",
+            "last": "Ward",
+            "full": "Andrea Ward",
+            "native": null,
+            "userPreferred": "Andrea Ward"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96224-fNHNFZUyr3Bd.png"
+        },
+        {
+          "id": 116887,
+          "language": "Spanish",
+          "name": {
+            "first": "Luis Alfonso",
+            "last": "Padilla",
+            "full": "Luis Alfonso Padilla",
+            "native": null,
+            "userPreferred": "Luis Alfonso Padilla"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/21887.jpg"
+        },
+        {
+          "id": 185537,
+          "language": "Portuguese",
+          "name": {
+            "first": "Armando",
+            "last": "Tiraboschi",
+            "full": "Armando Tiraboschi",
+            "native": null,
+            "userPreferred": "Armando Tiraboschi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n185537-VBBm8Z80PwnC.png"
+        },
+        {
+          "id": 182340,
+          "language": "German",
+          "name": {
+            "first": "Dieter",
+            "last": "Landuris",
+            "full": "Dieter Landuris",
+            "native": null,
+            "userPreferred": "Dieter Landuris"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 102797,
+          "language": "Hungarian",
+          "name": {
+            "first": "Balázs",
+            "last": "Láng",
+            "full": "Balázs Láng",
+            "native": null,
+            "userPreferred": "Balázs Láng"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7797.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1899,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bankotsu",
+        "last": null,
+        "full": "Bankotsu",
+        "native": "蛮骨",
+        "userPreferred": "Bankotsu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1899.jpg",
+      "voiceActors": [
+        {
+          "id": 95134,
+          "language": "Japanese",
+          "name": {
+            "first": "Takeshi",
+            "last": "Kusao",
+            "full": "Takeshi Kusao",
+            "native": "草尾毅",
+            "userPreferred": "Takeshi Kusao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95134-OZzRIDS8eAUd.png"
+        },
+        {
+          "id": 95303,
+          "language": "English",
+          "name": {
+            "first": "Matt",
+            "last": "Hill",
+            "full": "Matt Hill",
+            "native": null,
+            "userPreferred": "Matt Hill"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95303-3VFEfMzsR2Q6.jpg"
+        },
+        {
+          "id": 110097,
+          "language": "Korean",
+          "name": {
+            "first": "In-Seong",
+            "last": "Oh",
+            "full": "In-Seong Oh",
+            "native": "오인성",
+            "userPreferred": "In-Seong Oh"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15097.jpg"
+        },
+        {
+          "id": 166682,
+          "language": "Italian",
+          "name": {
+            "first": "Giorgio",
+            "last": "Borghetti",
+            "full": "Giorgio Borghetti",
+            "native": null,
+            "userPreferred": "Giorgio Borghetti"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 184119,
+          "language": "Spanish",
+          "name": {
+            "first": "Gerardo",
+            "last": "García",
+            "full": "Gerardo García",
+            "native": null,
+            "userPreferred": "Gerardo García"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n184119-SlqhUsw4YnAn.png"
+        },
+        {
+          "id": 103609,
+          "language": "Portuguese",
+          "name": {
+            "first": "Márcio",
+            "last": "Araújo",
+            "full": "Márcio Araújo",
+            "native": "Márcio José Araújo",
+            "userPreferred": "Márcio Araújo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103609-le01QWguLrUK.jpg"
+        },
+        {
+          "id": 132486,
+          "language": "German",
+          "name": {
+            "first": "Tim",
+            "last": "Schwarzmaier",
+            "full": "Tim Schwarzmaier",
+            "native": null,
+            "userPreferred": "Tim Schwarzmaier"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n132486-VQ8o7ToC8ij7.png"
+        }
+      ]
+    },
+    {
+      "id": 35247,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuka",
+        "last": null,
+        "full": "Yuka",
+        "native": "由加",
+        "userPreferred": "Yuka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/35247.jpg",
+      "voiceActors": [
+        {
+          "id": 95169,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaori",
+            "last": "Shimizu",
+            "full": "Kaori Shimizu",
+            "native": "清水香里",
+            "userPreferred": "Kaori Shimizu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95169-EfU6qQdPxHRv.jpg"
+        },
+        {
+          "id": 96370,
+          "language": "English",
+          "name": {
+            "first": "Jillian",
+            "last": "Michaels",
+            "full": "Jillian Michaels",
+            "native": null,
+            "userPreferred": "Jillian Michaels"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96370-COImdRiSWcxu.png"
+        },
+        {
+          "id": 109921,
+          "language": "Korean",
+          "name": {
+            "first": "Seon-Yeong",
+            "last": "Park",
+            "full": "Seon-Yeong Park",
+            "native": "박선영",
+            "userPreferred": "Seon-Yeong Park"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14921.jpg"
+        },
+        {
+          "id": 103066,
+          "language": "Italian",
+          "name": {
+            "first": "Veronica",
+            "last": "Puccio",
+            "full": "Veronica Puccio",
+            "native": null,
+            "userPreferred": "Veronica Puccio"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8066.jpg"
+        },
+        {
+          "id": 100178,
+          "language": "Portuguese",
+          "name": {
+            "first": "Samira",
+            "last": "Fernandes",
+            "full": "Samira Fernandes",
+            "native": null,
+            "userPreferred": "Samira Fernandes"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5178.jpg"
+        },
+        {
+          "id": 190979,
+          "language": "Portuguese",
+          "name": {
+            "first": "Lene",
+            "last": "Bastos",
+            "full": "Lene Bastos",
+            "native": null,
+            "userPreferred": "Lene Bastos"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n190979-uOW5As8QaB6S.jpg"
+        },
+        {
+          "id": 136684,
+          "language": "German",
+          "name": {
+            "first": "Leslie-Vanessa",
+            "last": "Lill",
+            "full": "Leslie-Vanessa Lill",
+            "native": null,
+            "userPreferred": "Leslie-Vanessa Lill"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n136684-2gwq3JnA6Z50.png"
+        },
+        {
+          "id": 104916,
+          "language": "German",
+          "name": {
+            "first": "Kathrin",
+            "last": "Gaube",
+            "full": "Kathrin Gaube",
+            "native": null,
+            "userPreferred": "Kathrin Gaube"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 34151,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tsukiyomi",
+        "last": null,
+        "full": "Tsukiyomi",
+        "native": null,
+        "userPreferred": "Tsukiyomi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/34151-gr3DvjzUMzoR.png",
+      "voiceActors": [
+        {
+          "id": 95290,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuri",
+            "last": "Amano",
+            "full": "Yuri Amano",
+            "native": "天野由梨",
+            "userPreferred": "Yuri Amano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95290-nU8h5vWr8RCv.jpg"
+        },
+        {
+          "id": 95887,
+          "language": "English",
+          "name": {
+            "first": "Marÿke",
+            "last": "Hendrikse",
+            "full": "Marÿke Hendrikse",
+            "native": null,
+            "userPreferred": "Marÿke Hendrikse"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95887-lcsKJzni0sG1.jpg"
+        },
+        {
+          "id": 108325,
+          "language": "Portuguese",
+          "name": {
+            "first": "Rita",
+            "last": "Almeida",
+            "full": "Rita Almeida",
+            "native": null,
+            "userPreferred": "Rita Almeida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/13325.jpg"
+        },
+        {
+          "id": 137969,
+          "language": "German",
+          "name": {
+            "first": "Anna",
+            "last": "Ewelina",
+            "full": "Anna Ewelina",
+            "native": null,
+            "userPreferred": "Anna Ewelina"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n137969-19sfCyvNn90b.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 6811,
+      "relationType": "SEQUEL",
+      "malId": 6811,
+      "title": {
+        "romaji": "Inuyasha: Kanketsu-hen",
+        "english": "InuYasha: The Final Act",
+        "native": "犬夜叉 完結編",
+        "userPreferred": "Inuyasha: Kanketsu-hen"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6811-DUsNLwQAOB7o.png",
+      "color": "#a1c9f1",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6811-dEHuP8TFsD7W.jpg",
+      "rating": 80
+    },
+    {
+      "id": 30676,
+      "relationType": "ADAPTATION",
+      "malId": 676,
+      "title": {
+        "romaji": "Inuyasha",
+        "english": "InuYasha",
+        "native": "犬夜叉",
+        "userPreferred": "Inuyasha"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30676-kQTOiNRyKwqL.jpg",
+      "color": "#d6351a",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/30676-APd8McxEz6Re.jpg",
+      "rating": 76
+    },
+    {
+      "id": 449,
+      "relationType": "SIDE_STORY",
+      "malId": 449,
+      "title": {
+        "romaji": "Inuyasha: Guren no Houraijima",
+        "english": "InuYasha the Movie 4: Fire on the Mystic Island",
+        "native": "犬夜叉 紅蓮の蓬莱島",
+        "userPreferred": "Inuyasha: Guren no Houraijima"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx449-B9HGKZFh0wUC.jpg",
+      "color": "#e45d35",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx449-B9HGKZFh0wUC.jpg",
+      "rating": 72
+    },
+    {
+      "id": 450,
+      "relationType": "SIDE_STORY",
+      "malId": 450,
+      "title": {
+        "romaji": "Inuyasha: Kagami no Naka no Mugenjo",
+        "english": "InuYasha the Movie 2: The Castle Beyond the Looking Glass",
+        "native": "犬夜叉 鏡の中の夢幻城",
+        "userPreferred": "Inuyasha: Kagami no Naka no Mugenjo"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx450-7uVVkg9N3uMF.png",
+      "color": "#937828",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx450-7uVVkg9N3uMF.png",
+      "rating": 73
+    },
+    {
+      "id": 451,
+      "relationType": "SIDE_STORY",
+      "malId": 451,
+      "title": {
+        "romaji": "Inuyasha: Tenka Hadou no Ken",
+        "english": "InuYasha the Movie 3: Swords of an Honorable Ruler",
+        "native": "犬夜叉 天下覇道の剣",
+        "userPreferred": "Inuyasha: Tenka Hadou no Ken"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx451-t0IlENS6jPDG.png",
+      "color": "#e4bb35",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx451-t0IlENS6jPDG.png",
+      "rating": 75
+    },
+    {
+      "id": 452,
+      "relationType": "SIDE_STORY",
+      "malId": 452,
+      "title": {
+        "romaji": "Inuyasha: Toki wo Koeru Omoi",
+        "english": "InuYasha the Movie: Affections Touching Across Time",
+        "native": "犬夜叉 時代を越える想い",
+        "userPreferred": "Inuyasha: Toki wo Koeru Omoi"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx452-8Gc0rCcsXwLj.png",
+      "color": "#e45d78",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx452-8Gc0rCcsXwLj.png",
+      "rating": 72
+    },
+    {
+      "id": 6566,
+      "relationType": "CHARACTER",
+      "malId": 6566,
+      "title": {
+        "romaji": "It's a Rumic World: 50th Anniversary Weekly★Shonen Sunday",
+        "english": null,
+        "native": "It's a Rumic World: 50th Anniversary Weekly★Shonen Sunday",
+        "userPreferred": "It's a Rumic World: 50th Anniversary Weekly★Shonen Sunday"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6566-2vCBGgyUl4CS.jpg",
+      "color": "#f1a128",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6566-2JU7gf7N2s6K.jpg",
+      "rating": 65
+    },
+    {
+      "id": 6567,
+      "relationType": "CHARACTER",
+      "malId": 6567,
+      "title": {
+        "romaji": "Urusei Yatsura: The Shougaibutsu Suieitaikai",
+        "english": "Urusei Yatsura: The Obstacle Course Swim Meet",
+        "native": "うる星やつら ザ・障害物水泳大会",
+        "userPreferred": "Urusei Yatsura: The Shougaibutsu Suieitaikai"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6567.jpg",
+      "color": "#e47835",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6567-0UD90PSOakfa.jpg",
+      "rating": 69
+    },
+    {
+      "id": 4886,
+      "relationType": "SEQUEL",
+      "malId": 4886,
+      "title": {
+        "romaji": "Inuyasha: Kuroi Tessaiga",
+        "english": null,
+        "native": "犬夜叉 黒い鉄砕牙",
+        "userPreferred": "Inuyasha: Kuroi Tessaiga"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4886-xzcW3fD6rmoK.jpg",
+      "color": "#78281a",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4886-xzcW3fD6rmoK.jpg",
+      "rating": 72
+    }
+  ],
+  "episodes": [
+    {
+      "id": "inuyasha-episode-1",
+      "title": "The Girl Who Overcame Time... and the Boy Who Was Just Overcome",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6213/original.jpeg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-1"
+    },
+    {
+      "id": "inuyasha-episode-2",
+      "title": "Seekers of the Sacred Jewel",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6214/original.jpeg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-2"
+    },
+    {
+      "id": "inuyasha-episode-3",
+      "title": "Down the Rabbit Hole and Back Again",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6215/original.jpeg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-3"
+    },
+    {
+      "id": "inuyasha-episode-4",
+      "title": "Yura of the Demon-Hair",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6216/original.jpeg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-4"
+    },
+    {
+      "id": "inuyasha-episode-5",
+      "title": "Aristocratic Assassin, Sesshomaru",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6217/original.jpeg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-5"
+    },
+    {
+      "id": "inuyasha-episode-6",
+      "title": "Tetsusaiga, the Phantom Sword",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6218/original.jpeg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-6"
+    },
+    {
+      "id": "inuyasha-episode-7",
+      "title": "Showdown! Inuyasha vs. Sesshomaru",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6219/original.jpeg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-7"
+    },
+    {
+      "id": "inuyasha-episode-8",
+      "title": "The Toad Who Would Be Prince",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6220/original.jpeg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-8"
+    },
+    {
+      "id": "inuyasha-episode-9",
+      "title": "Enter Shippo... Plus, The Amazing Thunder Brothers",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6221/original.jpeg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-9"
+    },
+    {
+      "id": "inuyasha-episode-10",
+      "title": "Phantom Showdown: The Thunder Brothers vs. Tetsusaiga",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6222/original.jpeg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-10"
+    },
+    {
+      "id": "inuyasha-episode-11",
+      "title": "Terror of the Ancient Noh Mask",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6223/original.jpeg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-11"
+    },
+    {
+      "id": "inuyasha-episode-12",
+      "title": "The Soul Piper and the Mischievous Little Soul",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6224/original.jpeg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-12"
+    },
+    {
+      "id": "inuyasha-episode-13",
+      "title": "The Mystery of the New Moon and the Black-haired InuYasha",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6225/original.jpeg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-13"
+    },
+    {
+      "id": "inuyasha-episode-14",
+      "title": "Kikyo's Stolen Ashes",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6226/original.jpeg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-14"
+    },
+    {
+      "id": "inuyasha-episode-15",
+      "title": "Return of the Tragic Priestess, Kikyo",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6227/original.jpeg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-15"
+    },
+    {
+      "id": "inuyasha-episode-16",
+      "title": "Mystical Hand of the Amorous Monk, Miroku",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6228/original.jpeg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-16"
+    },
+    {
+      "id": "inuyasha-episode-17",
+      "title": "Cursed Ink of the Hell-Painter",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6229/original.jpeg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-17"
+    },
+    {
+      "id": "inuyasha-episode-18",
+      "title": "Naraku and Sesshomaru Join Forces",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6230/original.jpeg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-18"
+    },
+    {
+      "id": "inuyasha-episode-19",
+      "title": "Go Home To Your Own Time, Kagome!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6231/original.jpeg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-19"
+    },
+    {
+      "id": "inuyasha-episode-20",
+      "title": "Despicable Villain! The Mystery of Onigumo!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6232/original.jpeg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-20"
+    },
+    {
+      "id": "inuyasha-episode-21",
+      "title": "Naraku's True Identity Unveiled",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6233/original.jpeg",
+      "number": 21,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-21"
+    },
+    {
+      "id": "inuyasha-episode-22",
+      "title": "A Wicked Smile; Kikyo's Wandering Soul",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6234/original.jpeg",
+      "number": 22,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-22"
+    },
+    {
+      "id": "inuyasha-episode-23",
+      "title": "Kagome's Voice and Kikyo's Kiss",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6235/original.jpeg",
+      "number": 23,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-23"
+    },
+    {
+      "id": "inuyasha-episode-24",
+      "title": "Enter Sango the Demon Slayer",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6236/original.jpeg",
+      "number": 24,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-24"
+    },
+    {
+      "id": "inuyasha-episode-25",
+      "title": "Naraku's Insidious Plot",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6237/original.jpeg",
+      "number": 25,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-25"
+    },
+    {
+      "id": "inuyasha-episode-26",
+      "title": "The Secret of the Jewel of Four Souls Revealed",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6238/original.jpeg",
+      "number": 26,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-26"
+    },
+    {
+      "id": "inuyasha-episode-27",
+      "title": "The Lake of the Evil Water God",
+      "image": "https://media.kitsu.io/episodes/thumbnails/6239/original.jpeg",
+      "number": 27,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-27"
+    },
+    {
+      "id": "inuyasha-episode-28",
+      "title": "Miroku Falls Into a Dangerous Trap",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 28,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-28"
+    },
+    {
+      "id": "inuyasha-episode-29",
+      "title": "Sango's Suffering and Kohaku's Life",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 29,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-29"
+    },
+    {
+      "id": "inuyasha-episode-30",
+      "title": "Tetsusaiga Is Stolen! Showdown At Naraku's Castle!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 30,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-30"
+    },
+    {
+      "id": "inuyasha-episode-31",
+      "title": "Jinenji, Kind Yet Sad",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 31,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-31"
+    },
+    {
+      "id": "inuyasha-episode-32",
+      "title": "Kikyo and Inuyasha, Into the Miasma",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 32,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-32"
+    },
+    {
+      "id": "inuyasha-episode-33",
+      "title": "Kikyo, Captured by Naraku",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 33,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-33"
+    },
+    {
+      "id": "inuyasha-episode-34",
+      "title": "Tetsusaiga and Tenseiga",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 34,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-34"
+    },
+    {
+      "id": "inuyasha-episode-35",
+      "title": "The True Owner of the Great Sword",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 35,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-35"
+    },
+    {
+      "id": "inuyasha-episode-36",
+      "title": "Kagome Kidnapped by Koga, the Wolf-Demon",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 36,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-36"
+    },
+    {
+      "id": "inuyasha-episode-37",
+      "title": "The Man Who Fell In Love With Kagome",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 37,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-37"
+    },
+    {
+      "id": "inuyasha-episode-38",
+      "title": "Two Hearts, One Mind",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 38,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-38"
+    },
+    {
+      "id": "inuyasha-episode-39",
+      "title": "Trapped In A Duel To The Death",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 39,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-39"
+    },
+    {
+      "id": "inuyasha-episode-40",
+      "title": "The Deadly Trap of Kagura the Wind Sorceress",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 40,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-40"
+    },
+    {
+      "id": "inuyasha-episode-41",
+      "title": "Kagura's Dance and Kanna's Mirror",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 41,
+      "createdAt": "2013-02-20T18:21:09Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-41"
+    },
+    {
+      "id": "inuyasha-episode-42",
+      "title": "The Wind Scar Fails",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 42,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-42"
+    },
+    {
+      "id": "inuyasha-episode-43",
+      "title": "Tetsusaiga Breaks",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 43,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-43"
+    },
+    {
+      "id": "inuyasha-episode-44",
+      "title": "Kaijinbo's Evil Sword",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 44,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-44"
+    },
+    {
+      "id": "inuyasha-episode-45",
+      "title": "Sesshomaru Wields Tokijin",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 45,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-45"
+    },
+    {
+      "id": "inuyasha-episode-46",
+      "title": "Juromaru and Kageromaru",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 46,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-46"
+    },
+    {
+      "id": "inuyasha-episode-47",
+      "title": "Onigumo's Heart Still Beats Within Naraku",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 47,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-47"
+    },
+    {
+      "id": "inuyasha-episode-48",
+      "title": "Return to the Place Where We First Met",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 48,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-48"
+    },
+    {
+      "id": "inuyasha-episode-49",
+      "title": "Kohaku's Lost Memory",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 49,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-49"
+    },
+    {
+      "id": "inuyasha-episode-50",
+      "title": "That Unforgettable Face",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 50,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-50"
+    },
+    {
+      "id": "inuyasha-episode-51",
+      "title": "Inuyasha's Soul, Devoured",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 51,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-51"
+    },
+    {
+      "id": "inuyasha-episode-52",
+      "title": "The Demon's True Nature",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 52,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-52"
+    },
+    {
+      "id": "inuyasha-episode-53",
+      "title": "Father's Old Enemy: Ryukotsusei",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 53,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-53"
+    },
+    {
+      "id": "inuyasha-episode-54",
+      "title": "The Backlash Wave: Tetsusaiga's Ultimate Technique",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 54,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-54"
+    },
+    {
+      "id": "inuyasha-episode-55",
+      "title": "The Stone Flower and Shippo's First Love",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 55,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-55"
+    },
+    {
+      "id": "inuyasha-episode-56",
+      "title": "Temptress in the Mist",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 56,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-56"
+    },
+    {
+      "id": "inuyasha-episode-57",
+      "title": "Fateful Night in Togenkyo, Part I",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 57,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-57"
+    },
+    {
+      "id": "inuyasha-episode-58",
+      "title": "Fateful Night in Togenkyo, Part II",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 58,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-58"
+    },
+    {
+      "id": "inuyasha-episode-59",
+      "title": "The Beautiful Sister Apprentices",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 59,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-59"
+    },
+    {
+      "id": "inuyasha-episode-60",
+      "title": "The 50 Year-Old Curse of the Dark Priestess",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 60,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-60"
+    },
+    {
+      "id": "inuyasha-episode-61",
+      "title": "Kikyo and the Dark Priestess",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 61,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-61"
+    },
+    {
+      "id": "inuyasha-episode-62",
+      "title": "Tsubaki's Unrelenting Evil Spell",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 62,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-62"
+    },
+    {
+      "id": "inuyasha-episode-63",
+      "title": "The Red and White Priestesses",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 63,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-63"
+    },
+    {
+      "id": "inuyasha-episode-64",
+      "title": "Giant Ogre of the Forbidden Tower",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 64,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-64"
+    },
+    {
+      "id": "inuyasha-episode-65",
+      "title": "Farewell, Days of My Youth",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 65,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-65"
+    },
+    {
+      "id": "inuyasha-episode-66",
+      "title": "Naraku's Barrier - Kagura's Decision",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 66,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-66"
+    },
+    {
+      "id": "inuyasha-episode-67",
+      "title": "The Howling Wind of Betrayal",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 67,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-67"
+    },
+    {
+      "id": "inuyasha-episode-68",
+      "title": "Shippo Receives an Angry Challenge",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 68,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-68"
+    },
+    {
+      "id": "inuyasha-episode-69",
+      "title": "Terror of the Faceless Man",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 69,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-69"
+    },
+    {
+      "id": "inuyasha-episode-70",
+      "title": "Onigumo's Memory Restored",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 70,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-70"
+    },
+    {
+      "id": "inuyasha-episode-71",
+      "title": "Three-Sided Battle to the Death",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 71,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-71"
+    },
+    {
+      "id": "inuyasha-episode-72",
+      "title": "Totosai's Rigid Training",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 72,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-72"
+    },
+    {
+      "id": "inuyasha-episode-73",
+      "title": "Shiori's Family and Inuyasha's Feelings",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 73,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-73"
+    },
+    {
+      "id": "inuyasha-episode-74",
+      "title": "The Red Tetsusaiga Breaks the Barrier",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 74,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-74"
+    },
+    {
+      "id": "inuyasha-episode-75",
+      "title": "The Plot of the Panther Devas",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 75,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-75"
+    },
+    {
+      "id": "inuyasha-episode-76",
+      "title": "Target: Sesshomaru and Inuyasha",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 76,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-76"
+    },
+    {
+      "id": "inuyasha-episode-77",
+      "title": "The Panther Tribe and the Two Swords of the Fang",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 77,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-77"
+    },
+    {
+      "id": "inuyasha-episode-78",
+      "title": "Only You, Sango",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 78,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-78"
+    },
+    {
+      "id": "inuyasha-episode-79",
+      "title": "Jaken's Plan to Steal Tetsusaiga",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 79,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-79"
+    },
+    {
+      "id": "inuyasha-episode-80",
+      "title": "Sesshomaru and the Abducted Rin",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 80,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-80"
+    },
+    {
+      "id": "inuyasha-episode-81",
+      "title": "Vanishing Point: Naraku Disappears",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 81,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-81"
+    },
+    {
+      "id": "inuyasha-episode-82",
+      "title": "Gap Between the Ages",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 82,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-82"
+    },
+    {
+      "id": "inuyasha-episode-83",
+      "title": "The Female Wolf Demon and the Lunar Rainbow Promise",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 83,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-83"
+    },
+    {
+      "id": "inuyasha-episode-84",
+      "title": "Koga's Bride-to-Be",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 84,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-84"
+    },
+    {
+      "id": "inuyasha-episode-85",
+      "title": "The Evil Within Demon's Head Castle",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 85,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-85"
+    },
+    {
+      "id": "inuyasha-episode-86",
+      "title": "Secret of the Possessed Princess",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 86,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-86"
+    },
+    {
+      "id": "inuyasha-episode-87",
+      "title": "Kikyo's Lonely Journey",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 87,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-87"
+    },
+    {
+      "id": "inuyasha-episode-88",
+      "title": "Three Sprites of the Monkey God",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 88,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-88"
+    },
+    {
+      "id": "inuyasha-episode-89",
+      "title": "Nursing Battle of the Rival Lovers",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 89,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-89"
+    },
+    {
+      "id": "inuyasha-episode-90",
+      "title": "Sota's Brave Confession of Love",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 90,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-90"
+    },
+    {
+      "id": "inuyasha-episode-91",
+      "title": "The Suspicious Faith Healer and the Black Kirara",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 91,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-91"
+    },
+    {
+      "id": "inuyasha-episode-92",
+      "title": "Plot of the Walking Dead",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 92,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-92"
+    },
+    {
+      "id": "inuyasha-episode-93",
+      "title": "The Mysterious, Lecherous Monk",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 93,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-93"
+    },
+    {
+      "id": "inuyasha-episode-94",
+      "title": "The Sacred Jewel Maker, Part I",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 94,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-94"
+    },
+    {
+      "id": "inuyasha-episode-95",
+      "title": "The Sacred Jewel Maker, Part II",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 95,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-95"
+    },
+    {
+      "id": "inuyasha-episode-96",
+      "title": "Jaken Falls ill",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 96,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-96"
+    },
+    {
+      "id": "inuyasha-episode-97",
+      "title": "Kirara, Come Home!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 97,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-97"
+    },
+    {
+      "id": "inuyasha-episode-98",
+      "title": "Kikyo and Kagome: Alone in a Cave",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 98,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-98"
+    },
+    {
+      "id": "inuyasha-episode-99",
+      "title": "Koga and Sesshomaru, A Dangerous Encounter",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 99,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-99"
+    },
+    {
+      "id": "inuyasha-episode-100",
+      "title": "Truth Behind the Nightmare: Battle in the Forest of Sorrow",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 100,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-100"
+    },
+    {
+      "id": "inuyasha-episode-101",
+      "title": "The Snow from Seven Years Past",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 101,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-101"
+    },
+    {
+      "id": "inuyasha-episode-102",
+      "title": "Assault on the Wolf-Demon Tribe",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 102,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-102"
+    },
+    {
+      "id": "inuyasha-episode-103",
+      "title": "The Band of Seven, Resurrected",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 103,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-103"
+    },
+    {
+      "id": "inuyasha-episode-104",
+      "title": "The Stealthy Poison User, Mukotsu",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 104,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-104"
+    },
+    {
+      "id": "inuyasha-episode-105",
+      "title": "The Ghastly Steel Machine",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 105,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-105"
+    },
+    {
+      "id": "inuyasha-episode-106",
+      "title": "Kagome, Miroku, and Sango: A Desperate Situation",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 106,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-106"
+    },
+    {
+      "id": "inuyasha-episode-107",
+      "title": "Inuyasha Shows His Tears For the First Time",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 107,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-107"
+    },
+    {
+      "id": "inuyasha-episode-108",
+      "title": "The Secret of the Pure Light",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 108,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-108"
+    },
+    {
+      "id": "inuyasha-episode-109",
+      "title": "Hidden in the Mist: Onward to Mt. Hakurei",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 109,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-109"
+    },
+    {
+      "id": "inuyasha-episode-110",
+      "title": "Enter Bankotsu, The Leader of the Band of Seven",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 110,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-110"
+    },
+    {
+      "id": "inuyasha-episode-111",
+      "title": "The Big Clash: Banryu vs Wind Scar!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 111,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-111"
+    },
+    {
+      "id": "inuyasha-episode-112",
+      "title": "Afloat on the Lake Surface: The Barrier of Hijiri Island",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 112,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-112"
+    },
+    {
+      "id": "inuyasha-episode-113",
+      "title": "The Sacred Vajra and the Mystery of the Living Buddha",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 113,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-113"
+    },
+    {
+      "id": "inuyasha-episode-114",
+      "title": "Koga's Solitary Battle",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 114,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-114"
+    },
+    {
+      "id": "inuyasha-episode-115",
+      "title": "Lured by the Black Light",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 115,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-115"
+    },
+    {
+      "id": "inuyasha-episode-116",
+      "title": "The Exposed Face of Truth",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 116,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-116"
+    },
+    {
+      "id": "inuyasha-episode-117",
+      "title": "Vanished in a River of Flames",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 117,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-117"
+    },
+    {
+      "id": "inuyasha-episode-118",
+      "title": "Into the Depths of Mt. Hakurei",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 118,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-118"
+    },
+    {
+      "id": "inuyasha-episode-119",
+      "title": "Divine Malice of the Saint",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 119,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-119"
+    },
+    {
+      "id": "inuyasha-episode-120",
+      "title": "Fare Thee Well: Jakotsu's Requiem",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 120,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-120"
+    },
+    {
+      "id": "inuyasha-episode-121",
+      "title": "Final Battle: The Last and Strongest of the Band of Seven",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 121,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-121"
+    },
+    {
+      "id": "inuyasha-episode-122",
+      "title": "The Power of Banryu! Duel to the Death on Mt. Hakurei",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 122,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-122"
+    },
+    {
+      "id": "inuyasha-episode-123",
+      "title": "Beyond the Darkness: Naraku Reborn",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 123,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-123"
+    },
+    {
+      "id": "inuyasha-episode-124",
+      "title": "Farewell Kikyo, My Beloved",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 124,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-124"
+    },
+    {
+      "id": "inuyasha-episode-125",
+      "title": "The Darkness in Kagome's Heart",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 125,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-125"
+    },
+    {
+      "id": "inuyasha-episode-126",
+      "title": "Transform Heartache into Courage",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 126,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-126"
+    },
+    {
+      "id": "inuyasha-episode-127",
+      "title": "Don't Boil It! The Terrifying Dried-Up Demon",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 127,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-127"
+    },
+    {
+      "id": "inuyasha-episode-128",
+      "title": "Battle Against the Dried-Up Demons at the Cultural Festival",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 128,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-128"
+    },
+    {
+      "id": "inuyasha-episode-129",
+      "title": "Chokyukai and the Abducted Bride",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 129,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-129"
+    },
+    {
+      "id": "inuyasha-episode-130",
+      "title": "Shippo's New Technique, The Heart Scar!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 130,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-130"
+    },
+    {
+      "id": "inuyasha-episode-131",
+      "title": "Trap of The Cursed Wall Hanging",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 131,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-131"
+    },
+    {
+      "id": "inuyasha-episode-132",
+      "title": "Miroku's Most Dangerous Confession",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 132,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-132"
+    },
+    {
+      "id": "inuyasha-episode-133",
+      "title": "The Woman Who Loved Sesshomaru (Part 1)",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 133,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-133"
+    },
+    {
+      "id": "inuyasha-episode-134",
+      "title": "The Woman Who Loved Sesshomaru (Part 2)",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 134,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-134"
+    },
+    {
+      "id": "inuyasha-episode-135",
+      "title": "The Last Banquet of Miroku's Master",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 135,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-135"
+    },
+    {
+      "id": "inuyasha-episode-136",
+      "title": "A Strange Invisible Demon Appears!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 136,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-136"
+    },
+    {
+      "id": "inuyasha-episode-137",
+      "title": "An Ancestor Named Kagome",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 137,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-137"
+    },
+    {
+      "id": "inuyasha-episode-138",
+      "title": "Mountain of Demons: Survival of the Duo",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 138,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-138"
+    },
+    {
+      "id": "inuyasha-episode-139",
+      "title": "The Great Duel at Shoun Falls",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 139,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-139"
+    },
+    {
+      "id": "inuyasha-episode-140",
+      "title": "Eternal Love, The Naginata of Kenkon",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 140,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-140"
+    },
+    {
+      "id": "inuyasha-episode-141",
+      "title": "Entei, The Demon Horse Unleashed",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 141,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-141"
+    },
+    {
+      "id": "inuyasha-episode-142",
+      "title": "Untamed Entei and Horrible Hakudoshi",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 142,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-142"
+    },
+    {
+      "id": "inuyasha-episode-143",
+      "title": "3000 Leagues in Search of Father",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 143,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-143"
+    },
+    {
+      "id": "inuyasha-episode-144",
+      "title": "Hosenki and the Last Shard",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 144,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-144"
+    },
+    {
+      "id": "inuyasha-episode-145",
+      "title": "Bizarre Guards at the Border of the Afterlife",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 145,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-145"
+    },
+    {
+      "id": "inuyasha-episode-146",
+      "title": "The Fiery Bird Master, Princess Abi",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 146,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-146"
+    },
+    {
+      "id": "inuyasha-episode-147",
+      "title": "The Tragic Love Song of Destiny (Part 1)",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 147,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-147"
+    },
+    {
+      "id": "inuyasha-episode-148",
+      "title": "The Tragic Love Song of Destiny (Part 2)",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 148,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-148"
+    },
+    {
+      "id": "inuyasha-episode-149",
+      "title": "The Single Arrow of Chaos",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 149,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-149"
+    },
+    {
+      "id": "inuyasha-episode-150",
+      "title": "The Mysterious Light that Guides the Saint",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 150,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-150"
+    },
+    {
+      "id": "inuyasha-episode-151",
+      "title": "Kagome's Instinctive Choice",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 151,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-151"
+    },
+    {
+      "id": "inuyasha-episode-152",
+      "title": "Protect and Plunder!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 152,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-152"
+    },
+    {
+      "id": "inuyasha-episode-153",
+      "title": "The Cruel Reunion of Fate",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 153,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-153"
+    },
+    {
+      "id": "inuyasha-episode-154",
+      "title": "The Demon Linked with the Netherworld",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 154,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-154"
+    },
+    {
+      "id": "inuyasha-episode-155",
+      "title": "The Demon Protector of the Sacred Jewel Shard",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 155,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-155"
+    },
+    {
+      "id": "inuyasha-episode-156",
+      "title": "Final Battle at the Graveside! Sesshomaru vs. Inuyasha",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 156,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-156"
+    },
+    {
+      "id": "inuyasha-episode-157",
+      "title": "Destroy Naraku with the Adamant Barrage",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 157,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-157"
+    },
+    {
+      "id": "inuyasha-episode-158",
+      "title": "Stampede of the Countless Demon Rats",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 158,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-158"
+    },
+    {
+      "id": "inuyasha-episode-159",
+      "title": "Kohaku's Decision and Sango's Heart",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 159,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-159"
+    },
+    {
+      "id": "inuyasha-episode-160",
+      "title": "The Lucky but Two-Timing Scoundrel",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 160,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-160"
+    },
+    {
+      "id": "inuyasha-episode-161",
+      "title": "Miroku's Past Mistake",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 161,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-161"
+    },
+    {
+      "id": "inuyasha-episode-162",
+      "title": "Forever with Lord Sesshomaru",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 162,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-162"
+    },
+    {
+      "id": "inuyasha-episode-163",
+      "title": "Kohaku, Sango and Kirara: The Secret Flower Garden",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 163,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-163"
+    },
+    {
+      "id": "inuyasha-episode-164",
+      "title": "Possessed by a Parasite: Shippo, Our Worst Enemy!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 164,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-164"
+    },
+    {
+      "id": "inuyasha-episode-165",
+      "title": "The Ultimate Key to Defeating Naraku",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 165,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-165"
+    },
+    {
+      "id": "inuyasha-episode-166",
+      "title": "The Bond Between Them, Use the Sacred Jewel Shard! (Part 1)",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 166,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-166"
+    },
+    {
+      "id": "inuyasha-episode-167",
+      "title": "The Bond Between Them, Use the Sacred Jewel Shard! (Part 2)",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "number": 167,
+      "createdAt": "2013-02-20T18:21:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inuyasha-episode-167"
+    }
+  ]
+}

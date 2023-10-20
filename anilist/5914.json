@@ -1,0 +1,486 @@
+{
+  "id": "5914",
+  "title": {
+    "romaji": "Kanamemo",
+    "english": "Kanamemo",
+    "native": "かなめも"
+  },
+  "malId": 5914,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/5914.jpg",
+  "popularity": 7282,
+  "color": "#50bbfe",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/5914.jpg",
+  "description": "Nakamachi Kana is a junior high school girl. Her grandmother passed away and she was left all alone. She finds a newspaper carrier station and starts working as a live-in carrier. Her room has a hole on the wall. Other female workers living next door comes in through the hole and start a wild merrymaking.",
+  "status": "Completed",
+  "releaseDate": 2009,
+  "startDate": {
+    "year": 2009,
+    "month": 7,
+    "day": 6
+  },
+  "endDate": {
+    "year": 2009,
+    "month": 9,
+    "day": 28
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 64,
+  "duration": 24,
+  "genres": [
+    "Comedy",
+    "Ecchi",
+    "Slice of Life"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "feel."
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 10495,
+      "malId": 10495,
+      "title": {
+        "romaji": "Yuru Yuri",
+        "english": "YuruYuri",
+        "native": "ゆるゆり",
+        "userPreferred": "Yuru Yuri"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10495-LC0vlFLHk2Ue.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10495-rIrvOpIurPXE.jpg",
+      "rating": 74,
+      "type": "TV"
+    },
+    {
+      "id": 16732,
+      "malId": 16732,
+      "title": {
+        "romaji": "Kiniro Mosaic",
+        "english": "KINMOZA!",
+        "native": "きんいろモザイク",
+        "userPreferred": "Kiniro Mosaic"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16732-dQXm6lnmbWZ4.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16732-u35WwavOnNdH.jpg",
+      "rating": 70,
+      "type": "TV"
+    },
+    {
+      "id": 4535,
+      "malId": 4535,
+      "title": {
+        "romaji": "Candy☆Boy",
+        "english": null,
+        "native": "Candy☆Boy",
+        "userPreferred": "Candy☆Boy"
+      },
+      "status": "Completed",
+      "episodes": 7,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4535-5BgYPK9MfJaR.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4535-uu4fECgP6Qk2.jpg",
+      "rating": 63,
+      "type": "ONA"
+    },
+    {
+      "id": 1852,
+      "malId": 1852,
+      "title": {
+        "romaji": "Hidamari Sketch",
+        "english": "Hidamari Sketch",
+        "native": "ひだまりスケッチ",
+        "userPreferred": "Hidamari Sketch"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1852-ru4zOAvNn1Aq.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1852-luCP33l49lkR.jpg",
+      "rating": 73,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 22748,
+      "role": "MAIN",
+      "name": {
+        "first": "Mika",
+        "last": "Kujiin",
+        "full": "Mika Kujiin",
+        "native": "久地院美華",
+        "userPreferred": "Mika Kujiin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/22748.jpg",
+      "voiceActors": [
+        {
+          "id": 95008,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Kugimiya",
+            "full": "Rie Kugimiya",
+            "native": "釘宮理恵",
+            "userPreferred": "Rie Kugimiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95008-2y0EeuSTHIri.png"
+        }
+      ]
+    },
+    {
+      "id": 22747,
+      "role": "MAIN",
+      "name": {
+        "first": "Haruka",
+        "last": "Nishida",
+        "full": "Haruka Nishida",
+        "native": "西田はるか",
+        "userPreferred": "Haruka Nishida"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/22747.jpg",
+      "voiceActors": [
+        {
+          "id": 95028,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Horie",
+            "full": "Yui Horie",
+            "native": "堀江由衣",
+            "userPreferred": "Yui Horie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95028-MHT1m3E5wGZx.png"
+        }
+      ]
+    },
+    {
+      "id": 22745,
+      "role": "MAIN",
+      "name": {
+        "first": "Yuuki",
+        "last": "Minami",
+        "full": "Yuuki Minami",
+        "native": "南ゆうき",
+        "userPreferred": "Yuuki Minami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b22745-XPQV1LMLikE8.png",
+      "voiceActors": [
+        {
+          "id": 95054,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Endou",
+            "full": "Aya Endou",
+            "native": "遠藤綾",
+            "userPreferred": "Aya Endou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95054-8VgnlGK5QX2A.png"
+        }
+      ]
+    },
+    {
+      "id": 22744,
+      "role": "MAIN",
+      "name": {
+        "first": "Yume",
+        "last": "Kitaoka",
+        "full": "Yume Kitaoka",
+        "native": "北岡ゆめ",
+        "userPreferred": "Yume Kitaoka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b22744-Qn2uvycDqwY5.png",
+      "voiceActors": [
+        {
+          "id": 95111,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryou",
+            "last": "Hirohashi",
+            "full": "Ryou Hirohashi",
+            "native": "広橋涼",
+            "userPreferred": "Ryou Hirohashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/95111-iw76EbsupYkS.jpg"
+        }
+      ]
+    },
+    {
+      "id": 22746,
+      "role": "MAIN",
+      "name": {
+        "first": "Hinata",
+        "last": "Azuma",
+        "full": "Hinata Azuma",
+        "native": "東ひなた",
+        "userPreferred": "Hinata Azuma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/22746.jpg",
+      "voiceActors": [
+        {
+          "id": 95413,
+          "language": "Japanese",
+          "name": {
+            "first": "Eri",
+            "last": "Kitamura",
+            "full": "Eri Kitamura",
+            "native": "喜多村英梨",
+            "userPreferred": "Eri Kitamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95413-FwAIrc8Ishpt.png"
+        }
+      ]
+    },
+    {
+      "id": 22743,
+      "role": "MAIN",
+      "name": {
+        "first": "Saki",
+        "last": "Amano",
+        "full": "Saki Amano",
+        "native": "天野咲妃",
+        "userPreferred": "Saki Amano"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/22743.jpg",
+      "voiceActors": [
+        {
+          "id": 95579,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaoru",
+            "last": "Mizuhara",
+            "full": "Kaoru Mizuhara",
+            "native": "水原薫",
+            "userPreferred": "Kaoru Mizuhara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95579-5ZsNx7VamyqG.png"
+        }
+      ]
+    },
+    {
+      "id": 21354,
+      "role": "MAIN",
+      "name": {
+        "first": "Kana",
+        "last": "Nakamachi",
+        "full": "Kana Nakamachi",
+        "native": "中町かな",
+        "userPreferred": "Kana Nakamachi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21354.jpg",
+      "voiceActors": [
+        {
+          "id": 95599,
+          "language": "Japanese",
+          "name": {
+            "first": "Aki",
+            "last": "Toyosaki",
+            "full": "Aki Toyosaki",
+            "native": "豊崎愛生",
+            "userPreferred": "Aki Toyosaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95599-XDGiluZB7IXL.png"
+        }
+      ]
+    },
+    {
+      "id": 26398,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nao-chan",
+        "last": null,
+        "full": "Nao-chan",
+        "native": "直ちゃん",
+        "userPreferred": "Nao-chan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95988,
+          "language": "Japanese",
+          "name": {
+            "first": "Momoko",
+            "last": "Ohara",
+            "full": "Momoko Ohara",
+            "native": "大原桃子",
+            "userPreferred": "Momoko Ohara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95988-bcaJ30tSzdfL.png"
+        }
+      ]
+    },
+    {
+      "id": 36379,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Marimo",
+        "last": null,
+        "full": "Marimo",
+        "native": "まりも",
+        "userPreferred": "Marimo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/36379.jpg",
+      "voiceActors": [
+        {
+          "id": 95132,
+          "language": "Japanese",
+          "name": {
+            "first": "Mikako",
+            "last": "Takahashi",
+            "full": "Mikako Takahashi",
+            "native": "高橋美佳子",
+            "userPreferred": "Mikako Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95132-TpIFKL0tJg84.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 42242,
+      "relationType": "ADAPTATION",
+      "malId": 12242,
+      "title": {
+        "romaji": "Kanamemo",
+        "english": null,
+        "native": "かなめも",
+        "userPreferred": "Kanamemo"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx42242-IH9GsivTx43l.jpg",
+      "color": "#e45d86",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx42242-IH9GsivTx43l.jpg",
+      "rating": 69
+    }
+  ],
+  "episodes": [
+    {
+      "id": "kanamemo-episode-1",
+      "title": "Solitude, For the First Time",
+      "image": "https://media.kitsu.io/episodes/thumbnails/70996/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:26:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kanamemo-episode-1"
+    },
+    {
+      "id": "kanamemo-episode-2",
+      "title": "My First Paper Delivery",
+      "image": "https://media.kitsu.io/episodes/thumbnails/70997/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:26:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kanamemo-episode-2"
+    },
+    {
+      "id": "kanamemo-episode-3",
+      "title": "The First Smile",
+      "image": "https://media.kitsu.io/episodes/thumbnails/70998/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:26:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kanamemo-episode-3"
+    },
+    {
+      "id": "kanamemo-episode-4",
+      "title": "My First Time at the Pool",
+      "image": "https://media.kitsu.io/episodes/thumbnails/70999/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:26:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kanamemo-episode-4"
+    },
+    {
+      "id": "kanamemo-episode-5",
+      "title": "My First Time at the Bath with Everyone",
+      "image": "https://media.kitsu.io/episodes/thumbnails/71000/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:26:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kanamemo-episode-5"
+    },
+    {
+      "id": "kanamemo-episode-6",
+      "title": "My First Scary Story",
+      "image": "https://media.kitsu.io/episodes/thumbnails/71001/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:26:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kanamemo-episode-6"
+    },
+    {
+      "id": "kanamemo-episode-7",
+      "title": "My First Welcome",
+      "image": "https://media.kitsu.io/episodes/thumbnails/71002/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:26:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kanamemo-episode-7"
+    },
+    {
+      "id": "kanamemo-episode-8",
+      "title": "My First Talk About Memories",
+      "image": "https://media.kitsu.io/episodes/thumbnails/71003/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:26:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kanamemo-episode-8"
+    },
+    {
+      "id": "kanamemo-episode-9",
+      "title": "My First Diet?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/71004/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:26:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kanamemo-episode-9"
+    },
+    {
+      "id": "kanamemo-episode-10",
+      "title": "My First Feelings",
+      "image": "https://media.kitsu.io/episodes/thumbnails/71005/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:26:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kanamemo-episode-10"
+    },
+    {
+      "id": "kanamemo-episode-11",
+      "title": "My First Time Nursing",
+      "image": "https://media.kitsu.io/episodes/thumbnails/71006/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:26:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kanamemo-episode-11"
+    },
+    {
+      "id": "kanamemo-episode-12",
+      "title": "The First Person",
+      "image": "https://media.kitsu.io/episodes/thumbnails/71007/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:26:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kanamemo-episode-12"
+    },
+    {
+      "id": "kanamemo-episode-13",
+      "title": "And the first...",
+      "image": "https://media.kitsu.io/episodes/thumbnails/71008/original.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:26:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kanamemo-episode-13"
+    }
+  ]
+}

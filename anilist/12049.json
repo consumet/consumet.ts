@@ -1,0 +1,1044 @@
+{
+  "id": "12049",
+  "title": {
+    "romaji": "FAIRY TAIL Movie: Houou no Miko",
+    "english": "Fairy Tail: Phoenix Priestess",
+    "native": "劇場版 FAIRY TAIL 鳳凰の巫女"
+  },
+  "malId": 12049,
+  "synonyms": [
+    "Fairy Tail - 1er Film - La prêtresse du Phoenix"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12049-FIx0K2s81SPa.png",
+  "popularity": 34944,
+  "color": "#f1ae1a",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n12049-kyR6RCH0IAgo.jpg",
+  "description": "The film revolves around a mysterious girl named &Eacute;clair who appears before Fairy Tail, the world's most notorious wizard's guild. She lost all of her memories, except for the imperative that she must deliver two Phoenix Stones somewhere. The stones may spell the collapse of the magical world, and Natsu, Lucy, and the rest of the Fairy Tail guild are caught up in the intrigue.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2012,
+  "startDate": {
+    "year": 2012,
+    "month": 8,
+    "day": 18
+  },
+  "endDate": {
+    "year": 2012,
+    "month": 8,
+    "day": 18
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 70,
+  "duration": 86,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Fantasy"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Satelight",
+    "A-1 Pictures"
+  ],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [
+    {
+      "id": 20626,
+      "malId": 22043,
+      "title": {
+        "romaji": "FAIRY TAIL (2014)",
+        "english": "Fairy Tail Series 2",
+        "native": "FAIRY TAIL (2014)",
+        "userPreferred": "FAIRY TAIL (2014)"
+      },
+      "status": "Completed",
+      "episodes": 102,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20626-9LTreIofBgnu.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20626-0Uc2nuJjFQRw.jpg",
+      "rating": 74,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 5186,
+      "role": "MAIN",
+      "name": {
+        "first": "Lucy",
+        "last": "Heartfilia",
+        "full": "Lucy Heartfilia",
+        "native": "ルーシィ・ハートフィリア",
+        "userPreferred": "Lucy Heartfilia"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5186-izgXf2S86K9u.png",
+      "voiceActors": [
+        {
+          "id": 95004,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Hirano",
+            "full": "Aya Hirano",
+            "native": "平野綾",
+            "userPreferred": "Aya Hirano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95004-qWQQHGzY3wqr.png"
+        },
+        {
+          "id": 96650,
+          "language": "English",
+          "name": {
+            "first": "Cherami",
+            "last": "Leigh",
+            "full": "Cherami Leigh",
+            "native": null,
+            "userPreferred": "Cherami Leigh"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96650-oYspSQuaFo3N.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5189,
+      "role": "MAIN",
+      "name": {
+        "first": "Erza",
+        "last": "Scarlet",
+        "full": "Erza Scarlet",
+        "native": "エルザ・スカーレツト",
+        "userPreferred": "Erza Scarlet"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5189-GR1xdok9SFsN.jpg",
+      "voiceActors": [
+        {
+          "id": 95092,
+          "language": "Japanese",
+          "name": {
+            "first": "Sayaka",
+            "last": "Oohara",
+            "full": "Sayaka Oohara",
+            "native": "大原さやか",
+            "userPreferred": "Sayaka Oohara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95092-dQXsTFQXLg3o.png"
+        },
+        {
+          "id": 95472,
+          "language": "English",
+          "name": {
+            "first": "Colleen",
+            "last": "Clinkenbeard",
+            "full": "Colleen Clinkenbeard",
+            "native": null,
+            "userPreferred": "Colleen Clinkenbeard"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95472-fznpewUW95vm.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5188,
+      "role": "MAIN",
+      "name": {
+        "first": "Happy",
+        "last": null,
+        "full": "Happy",
+        "native": "ハッピー",
+        "userPreferred": "Happy"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5188-1jTaic3aJ7Ds.jpg",
+      "voiceActors": [
+        {
+          "id": 95008,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Kugimiya",
+            "full": "Rie Kugimiya",
+            "native": "釘宮理恵",
+            "userPreferred": "Rie Kugimiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95008-2y0EeuSTHIri.png"
+        },
+        {
+          "id": 104526,
+          "language": "English",
+          "name": {
+            "first": "Tia",
+            "last": "Ballard",
+            "full": "Tia Ballard",
+            "native": null,
+            "userPreferred": "Tia Ballard"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9526.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4839,
+      "role": "MAIN",
+      "name": {
+        "first": "Gray",
+        "last": "Fullbuster",
+        "full": "Gray Fullbuster",
+        "native": "グレイ・フルバスター",
+        "userPreferred": "Gray Fullbuster"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4839-p2SBgjdTxHxk.png",
+      "voiceActors": [
+        {
+          "id": 95513,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuichi",
+            "last": "Nakamura",
+            "full": "Yuuichi Nakamura",
+            "native": "中村悠一",
+            "userPreferred": "Yuuichi Nakamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95513-up9ZDuocHgRs.png"
+        },
+        {
+          "id": 105880,
+          "language": "English",
+          "name": {
+            "first": "Newton",
+            "last": "Pittman",
+            "full": "Newton Pittman",
+            "native": null,
+            "userPreferred": "Newton Pittman"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10880.jpg"
+        }
+      ]
+    },
+    {
+      "id": 79455,
+      "role": "MAIN",
+      "name": {
+        "first": "Momon",
+        "last": null,
+        "full": "Momon",
+        "native": "モモン",
+        "userPreferred": "Momon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/79455.jpg",
+      "voiceActors": [
+        {
+          "id": 95029,
+          "language": "Japanese",
+          "name": {
+            "first": "Mika",
+            "last": "Kanai",
+            "full": "Mika Kanai",
+            "native": "かないみか",
+            "userPreferred": "Mika Kanai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95029-XUWWmrBWrwYm.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5187,
+      "role": "MAIN",
+      "name": {
+        "first": "Natsu",
+        "last": "Dragneel",
+        "full": "Natsu Dragneel",
+        "native": "ナツ・ドラグニル",
+        "userPreferred": "Natsu Dragneel"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5187-y1OEdRu9sPN2.png",
+      "voiceActors": [
+        {
+          "id": 95167,
+          "language": "Japanese",
+          "name": {
+            "first": "Tetsuya",
+            "last": "Kakihara",
+            "full": "Tetsuya Kakihara",
+            "native": "柿原徹也",
+            "userPreferred": "Tetsuya Kakihara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95167-wjIShzThRTlS.png"
+        },
+        {
+          "id": 95860,
+          "language": "English",
+          "name": {
+            "first": "Todd",
+            "last": "Haberkorn",
+            "full": "Todd Haberkorn",
+            "native": "Todd Michael Haberkorn",
+            "userPreferred": "Todd Haberkorn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95860-RxBJH1Kt2TUW.png"
+        },
+        {
+          "id": 116639,
+          "language": "Korean",
+          "name": {
+            "first": "Doh Hyeong",
+            "last": "Nam",
+            "full": "Doh Hyeong Nam",
+            "native": "도형 남",
+            "userPreferred": "Doh Hyeong Nam"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/21639.jpg"
+        }
+      ]
+    },
+    {
+      "id": 59343,
+      "role": "MAIN",
+      "name": {
+        "first": "Eclair",
+        "last": null,
+        "full": "Eclair",
+        "native": "エクレア",
+        "userPreferred": "Eclair"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/59343.jpg",
+      "voiceActors": [
+        {
+          "id": 95054,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Endou",
+            "full": "Aya Endou",
+            "native": "遠藤綾",
+            "userPreferred": "Aya Endou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95054-8VgnlGK5QX2A.png"
+        }
+      ]
+    },
+    {
+      "id": 28886,
+      "role": "MAIN",
+      "name": {
+        "first": "Wendy",
+        "last": "Marvell",
+        "full": "Wendy Marvell",
+        "native": "ウェンディマベル",
+        "userPreferred": "Wendy Marvell"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b28886-unO1rEi3zdyF.jpg",
+      "voiceActors": [
+        {
+          "id": 101560,
+          "language": "Japanese",
+          "name": {
+            "first": "Satomi",
+            "last": "Satou",
+            "full": "Satomi Satou",
+            "native": "佐藤聡美",
+            "userPreferred": "Satomi Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101560-x0Va6GS2YMeH.png"
+        },
+        {
+          "id": 95414,
+          "language": "English",
+          "name": {
+            "first": "Brittney",
+            "last": "Karbowski",
+            "full": "Brittney Karbowski",
+            "native": null,
+            "userPreferred": "Brittney Karbowski"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/414.jpg"
+        }
+      ]
+    },
+    {
+      "id": 33526,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Pantherlily",
+        "last": null,
+        "full": "Pantherlily",
+        "native": "パンサー・リリー",
+        "userPreferred": "Pantherlily"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n33526-zvLiNNJY0BYO.jpg",
+      "voiceActors": [
+        {
+          "id": 95236,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroki",
+            "last": "Touchi",
+            "full": "Hiroki Touchi",
+            "native": "東地宏樹",
+            "userPreferred": "Hiroki Touchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95236-nlMo4dnjdT8p.png"
+        }
+      ]
+    },
+    {
+      "id": 5333,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Makarov",
+        "last": "Dreyar",
+        "full": "Makarov Dreyar",
+        "native": "マカロフ・ドレアー",
+        "userPreferred": "Makarov Dreyar"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5333.jpg",
+      "voiceActors": [
+        {
+          "id": 95800,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinpachi",
+            "last": "Tsuji",
+            "full": "Shinpachi Tsuji",
+            "native": "辻親八",
+            "userPreferred": "Shinpachi Tsuji"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95800-TBMYjwu8Wy6T.png"
+        },
+        {
+          "id": 95480,
+          "language": "English",
+          "name": {
+            "first": "R. Bruce",
+            "last": "Elliott",
+            "full": "R. Bruce Elliott",
+            "native": null,
+            "userPreferred": "R. Bruce Elliott"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/480.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29754,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Freed",
+        "last": "Justine",
+        "full": "Freed Justine",
+        "native": "フリード・ジャスティーン ",
+        "userPreferred": "Freed Justine"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29754.jpg",
+      "voiceActors": [
+        {
+          "id": 95095,
+          "language": "Japanese",
+          "name": {
+            "first": "Junichi",
+            "last": "Suwabe",
+            "full": "Junichi Suwabe",
+            "native": "諏訪部順一",
+            "userPreferred": "Junichi Suwabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95095-DvSjTQnqcgXP.png"
+        },
+        {
+          "id": 95251,
+          "language": "English",
+          "name": {
+            "first": "John",
+            "last": "Burgmeier",
+            "full": "John Burgmeier",
+            "native": null,
+            "userPreferred": "John Burgmeier"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95251-XG6OaR9iU39R.png"
+        }
+      ]
+    },
+    {
+      "id": 8295,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Loke",
+        "last": null,
+        "full": "Loke",
+        "native": "ロキ",
+        "userPreferred": "Loke"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/8295.jpg",
+      "voiceActors": [
+        {
+          "id": 95440,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Kishio",
+            "full": "Daisuke Kishio",
+            "native": "岸尾だいすけ",
+            "userPreferred": "Daisuke Kishio"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95440-j4iWV0MGWtBh.png"
+        },
+        {
+          "id": 95312,
+          "language": "English",
+          "name": {
+            "first": "Eric",
+            "last": "Vale",
+            "full": "Eric Vale",
+            "native": null,
+            "userPreferred": "Eric Vale"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95312-lixmVhwE8AXE.png"
+        }
+      ]
+    },
+    {
+      "id": 8294,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Laxus",
+        "last": "Dreyar",
+        "full": "Laxus Dreyar",
+        "native": "ラクサス・ドレアー",
+        "userPreferred": "Laxus Dreyar"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b8294-6yum0CoYVAHV.jpg",
+      "voiceActors": [
+        {
+          "id": 95020,
+          "language": "Japanese",
+          "name": {
+            "first": "Katsuyuki",
+            "last": "Konishi",
+            "full": "Katsuyuki Konishi",
+            "native": "小西克幸",
+            "userPreferred": "Katsuyuki Konishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95020-uOJO2IlwpcX0.png"
+        },
+        {
+          "id": 95340,
+          "language": "English",
+          "name": {
+            "first": "Patrick",
+            "last": "Seitz",
+            "full": "Patrick Seitz",
+            "native": null,
+            "userPreferred": "Patrick Seitz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95340-W5PAwurtgtXs.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16893,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gajeel",
+        "last": "Redfox",
+        "full": "Gajeel Redfox",
+        "native": "ガジル レッドフォックス",
+        "userPreferred": "Gajeel Redfox"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b16893-4hjBdRc7TN6g.jpg",
+      "voiceActors": [
+        {
+          "id": 95098,
+          "language": "Japanese",
+          "name": {
+            "first": "Wataru",
+            "last": "Hatano",
+            "full": "Wataru Hatano",
+            "native": "羽多野渉",
+            "userPreferred": "Wataru Hatano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95098-x6T2xOTuvkuY.jpg"
+        },
+        {
+          "id": 104777,
+          "language": "English",
+          "name": {
+            "first": "David",
+            "last": "Wald",
+            "full": "David Wald",
+            "native": null,
+            "userPreferred": "David Wald"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9777.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29755,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Evergreen",
+        "last": null,
+        "full": "Evergreen",
+        "native": "エバーグリーン",
+        "userPreferred": "Evergreen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b29755-wZBPALuFyi90.png",
+      "voiceActors": [
+        {
+          "id": 100451,
+          "language": "Japanese",
+          "name": {
+            "first": "Saori",
+            "last": "Seto",
+            "full": "Saori Seto",
+            "native": "世戸さおり",
+            "userPreferred": "Saori Seto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100451-gqig1id3oWIl.png"
+        },
+        {
+          "id": 95313,
+          "language": "English",
+          "name": {
+            "first": "Caitlin",
+            "last": "Glass",
+            "full": "Caitlin Glass",
+            "native": null,
+            "userPreferred": "Caitlin Glass"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95313-zK3WpeNtACvm.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29493,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Levy",
+        "last": "McGarden",
+        "full": "Levy McGarden",
+        "native": "レビィマグガーデン",
+        "userPreferred": "Levy McGarden"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b29493-XcqFX69oipzX.jpg",
+      "voiceActors": [
+        {
+          "id": 95655,
+          "language": "Japanese",
+          "name": {
+            "first": "Mariya",
+            "last": "Ise",
+            "full": "Mariya Ise",
+            "native": "伊瀬茉莉也",
+            "userPreferred": "Mariya Ise"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95655-KbQUnQTroukJ.png"
+        },
+        {
+          "id": 105943,
+          "language": "English",
+          "name": {
+            "first": "Kristi",
+            "last": "Kang",
+            "full": "Kristi Kang",
+            "native": null,
+            "userPreferred": "Kristi Kang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10943.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5334,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Elfman",
+        "last": "Strauss",
+        "full": "Elfman Strauss",
+        "native": "エルフマン・ストラウス",
+        "userPreferred": "Elfman Strauss"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5334-jJiCoq8kJAUB.png",
+      "voiceActors": [
+        {
+          "id": 95025,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroki",
+            "last": "Yasumoto",
+            "full": "Hiroki Yasumoto",
+            "native": "安元洋貴",
+            "userPreferred": "Hiroki Yasumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95025-LGHr4VufmfCc.jpg"
+        },
+        {
+          "id": 95253,
+          "language": "English",
+          "name": {
+            "first": "Christopher",
+            "last": "Sabat",
+            "full": "Christopher Sabat",
+            "native": null,
+            "userPreferred": "Christopher Sabat"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95253-Z7Yqog73M7E8.png"
+        }
+      ]
+    },
+    {
+      "id": 28116,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Virgo",
+        "last": null,
+        "full": "Virgo",
+        "native": "バルゴ",
+        "userPreferred": "Virgo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b28116-XRYJ0Z6i8VqC.png",
+      "voiceActors": [
+        {
+          "id": 95099,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyuki",
+            "last": "Sawashiro",
+            "full": "Miyuki Sawashiro",
+            "native": "沢城みゆき",
+            "userPreferred": "Miyuki Sawashiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95099-jKP4LfPWqetk.jpg"
+        },
+        {
+          "id": 104078,
+          "language": "English",
+          "name": {
+            "first": "Terri",
+            "last": "Doty",
+            "full": "Terri Doty",
+            "native": null,
+            "userPreferred": "Terri Doty"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9078.jpg"
+        }
+      ]
+    },
+    {
+      "id": 30225,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lisanna",
+        "last": "Strauss",
+        "full": "Lisanna Strauss",
+        "native": "リサーナ・ストラウス ",
+        "userPreferred": "Lisanna Strauss"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b30225-E6CfhyR2ZrpN.jpg",
+      "voiceActors": [
+        {
+          "id": 96133,
+          "language": "Japanese",
+          "name": {
+            "first": "Harumi",
+            "last": "Sakurai",
+            "full": "Harumi Sakurai",
+            "native": "櫻井浩美",
+            "userPreferred": "Harumi Sakurai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96133-UY6PksdMPanW.png"
+        },
+        {
+          "id": 95327,
+          "language": "English",
+          "name": {
+            "first": "Carrie",
+            "last": "Savage",
+            "full": "Carrie Savage",
+            "native": null,
+            "userPreferred": "Carrie Savage"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/327.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28440,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Taurus",
+        "last": null,
+        "full": "Taurus",
+        "native": "タウロス",
+        "userPreferred": "Taurus"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b28440-037Sr1qbOFKC.jpg",
+      "voiceActors": [
+        {
+          "id": 96433,
+          "language": "Japanese",
+          "name": {
+            "first": "Eiji",
+            "last": "Sekiguchi",
+            "full": "Eiji Sekiguchi",
+            "native": "関口英司",
+            "userPreferred": "Eiji Sekiguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1433.jpg"
+        },
+        {
+          "id": 96339,
+          "language": "English",
+          "name": {
+            "first": "Jeremy",
+            "last": "Inman",
+            "full": "Jeremy Inman",
+            "native": null,
+            "userPreferred": "Jeremy Inman"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1339.jpg"
+        }
+      ]
+    },
+    {
+      "id": 22723,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Charlés",
+        "last": null,
+        "full": "Charlés",
+        "native": "シャルル",
+        "userPreferred": "Charlés"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b22723-tAU59GCaf2H4.png",
+      "voiceActors": [
+        {
+          "id": 95028,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Horie",
+            "full": "Yui Horie",
+            "native": "堀江由衣",
+            "userPreferred": "Yui Horie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95028-MHT1m3E5wGZx.png"
+        },
+        {
+          "id": 101729,
+          "language": "English",
+          "name": {
+            "first": "Jad",
+            "last": "Saxton",
+            "full": "Jad Saxton",
+            "native": null,
+            "userPreferred": "Jad Saxton"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101729-tga5Umgm17Mj.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28548,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bisca",
+        "last": "Mulan",
+        "full": "Bisca Mulan",
+        "native": "ビスカ・ムーラン",
+        "userPreferred": "Bisca Mulan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28548.jpg",
+      "voiceActors": [
+        {
+          "id": 95124,
+          "language": "Japanese",
+          "name": {
+            "first": "Satomi",
+            "last": "Arai",
+            "full": "Satomi Arai",
+            "native": "新井里美",
+            "userPreferred": "Satomi Arai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95124-8C0BORTX7Bfd.jpg"
+        },
+        {
+          "id": 115811,
+          "language": "English",
+          "name": {
+            "first": "Angela",
+            "last": "Chase",
+            "full": "Angela Chase",
+            "native": null,
+            "userPreferred": "Angela Chase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/20811.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29752,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bickslow",
+        "last": null,
+        "full": "Bickslow",
+        "native": "ビックスロー",
+        "userPreferred": "Bickslow"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b29752-j9In6z6TGNwL.jpg",
+      "voiceActors": [
+        {
+          "id": 95409,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshihisa",
+            "last": "Kawahara",
+            "full": "Yoshihisa Kawahara",
+            "native": "川原慶久",
+            "userPreferred": "Yoshihisa Kawahara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95409-87S6L0u8gQNf.jpg"
+        },
+        {
+          "id": 105792,
+          "language": "English",
+          "name": {
+            "first": "Scott",
+            "last": "Freeman",
+            "full": "Scott Freeman",
+            "native": null,
+            "userPreferred": "Scott Freeman"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10792.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29491,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Droy",
+        "last": null,
+        "full": "Droy",
+        "native": "ドロイ",
+        "userPreferred": "Droy"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29491.jpg",
+      "voiceActors": [
+        {
+          "id": 96433,
+          "language": "Japanese",
+          "name": {
+            "first": "Eiji",
+            "last": "Sekiguchi",
+            "full": "Eiji Sekiguchi",
+            "native": "関口英司",
+            "userPreferred": "Eiji Sekiguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1433.jpg"
+        },
+        {
+          "id": 103970,
+          "language": "English",
+          "name": {
+            "first": "Zachary",
+            "last": "Bolton",
+            "full": "Zachary Bolton",
+            "native": null,
+            "userPreferred": "Zachary Charles Bolton"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8970.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5190,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mirajane",
+        "last": "Strauss",
+        "full": "Mirajane Strauss",
+        "native": "ミラジェーン・ストラウス ",
+        "userPreferred": "Mirajane Strauss"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5190-Xql1rGKUv1ql.png",
+      "voiceActors": [
+        {
+          "id": 96683,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouko",
+            "last": "Ono",
+            "full": "Ryouko Ono",
+            "native": "小野涼子",
+            "userPreferred": "Ryouko Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96683-XB7Xlhmw91Vf.jpg"
+        },
+        {
+          "id": 95159,
+          "language": "English",
+          "name": {
+            "first": "Monica",
+            "last": "Rial",
+            "full": "Monica Rial",
+            "native": null,
+            "userPreferred": "Monica Rial"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95159-iTd65o5LhA62.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 17535,
+      "relationType": "PREQUEL",
+      "malId": 17535,
+      "title": {
+        "romaji": "FAIRY TAIL: Houou no Miko - Hajimari no Asa",
+        "english": "Fairy Tail the Movie: Prologue - The First Morning",
+        "native": "劇場版 FAIRY TAIL 鳳凰の巫女「はじまりの朝」",
+        "userPreferred": "FAIRY TAIL: Houou no Miko - Hajimari no Asa"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx17535-9WPwCKsR2S5W.png",
+      "color": "#e49350",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx17535-9WPwCKsR2S5W.png",
+      "rating": 69
+    },
+    {
+      "id": 6702,
+      "relationType": "PARENT",
+      "malId": 6702,
+      "title": {
+        "romaji": "FAIRY TAIL",
+        "english": "Fairy Tail",
+        "native": "FAIRY TAIL",
+        "userPreferred": "FAIRY TAIL"
+      },
+      "status": "Completed",
+      "episodes": 175,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6702-4cW6E5AqQqqB.png",
+      "color": "#e45d43",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6702-eTxtGRn7hD0R.jpg",
+      "rating": 71
+    }
+  ],
+  "episodes": [
+    {
+      "id": "fairy-tail-houou-no-miko-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12049-FIx0K2s81SPa.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//fairy-tail-houou-no-miko-episode-1"
+    }
+  ]
+}

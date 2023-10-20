@@ -1,0 +1,323 @@
+{
+  "id": "6031",
+  "title": {
+    "romaji": "Osu!! Karate Bu",
+    "english": null,
+    "native": "押忍!!空手部"
+  },
+  "malId": 6031,
+  "synonyms": [
+    "Go!! Karate Club"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b6031-BInHOWoq97Cr.jpg",
+  "popularity": 639,
+  "color": "#f1935d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b6031-BInHOWoq97Cr.jpg",
+  "description": "Osu!! Karate Bu was popular in Japan, but never really caught on in the West. It is still respected and wildly acclaimed as the best 'delinquent shonen manga', and has influenced many other works, and even been parodied by some (Cromartie High School is a loving parody of this particular series).<br><br>\nThe story initially focuses on Matsushita Tadashi, but the supporting character Takagi Yoshiyuki ended up becomign much more popular, so the manga's focus eventually shifted to him becoming the lead character.",
+  "status": "Completed",
+  "releaseDate": 1990,
+  "startDate": {
+    "year": 1990,
+    "month": 10,
+    "day": 21
+  },
+  "endDate": {
+    "year": 1992,
+    "month": 7,
+    "day": 25
+  },
+  "totalEpisodes": 4,
+  "currentEpisode": 4,
+  "rating": 58,
+  "duration": 50,
+  "genres": [],
+  "season": "FALL",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 2903,
+      "malId": 2903,
+      "title": {
+        "romaji": "Sakigake!! Otokojuku",
+        "english": null,
+        "native": "魁!!男塾",
+        "userPreferred": "Sakigake!! Otokojuku"
+      },
+      "status": "Completed",
+      "episodes": 34,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2903-w6JQtYpB5p0l.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2903-6dmXkhRRfhY7.jpg",
+      "rating": 70,
+      "type": "TV"
+    },
+    {
+      "id": 851,
+      "malId": 851,
+      "title": {
+        "romaji": "Kyou kara Ore wa!!",
+        "english": null,
+        "native": "今日から俺は!!",
+        "userPreferred": "Kyou kara Ore wa!!"
+      },
+      "status": "Completed",
+      "episodes": 10,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx851-iuPWbPLMlUgs.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/851-KdNhkQBeeJv4.jpg",
+      "rating": 77,
+      "type": "OVA"
+    },
+    {
+      "id": 6293,
+      "malId": 6293,
+      "title": {
+        "romaji": "Koukou Butouden Crows",
+        "english": null,
+        "native": "高校武闘伝 クローズ",
+        "userPreferred": "Koukou Butouden Crows"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6293.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6293.jpg",
+      "rating": 63,
+      "type": "OVA"
+    },
+    {
+      "id": 7479,
+      "malId": 7479,
+      "title": {
+        "romaji": "Karate Baka Ichidai",
+        "english": "The Fanatical Karate Generation",
+        "native": "空手バカ一代",
+        "userPreferred": "Karate Baka Ichidai"
+      },
+      "status": "Completed",
+      "episodes": 47,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx7479-gHjGeIXbHYGS.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx7479-gHjGeIXbHYGS.jpg",
+      "rating": 59,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 19440,
+      "role": "MAIN",
+      "name": {
+        "first": "Matsushita",
+        "last": "Tadashi",
+        "full": "Matsushita Tadashi",
+        "native": null,
+        "userPreferred": "Matsushita Tadashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/19440.jpg",
+      "voiceActors": [
+        {
+          "id": 95310,
+          "language": "Japanese",
+          "name": {
+            "first": "Yasunori",
+            "last": "Matsumoto",
+            "full": "Yasunori Matsumoto",
+            "native": "松本保典",
+            "userPreferred": "Yasunori Matsumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95310-n59AcIeJBg9W.png"
+        }
+      ]
+    },
+    {
+      "id": 19441,
+      "role": "MAIN",
+      "name": {
+        "first": "Takagi",
+        "last": "Yoshiyuki",
+        "full": "Takagi Yoshiyuki",
+        "native": null,
+        "userPreferred": "Takagi Yoshiyuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/19441.jpg",
+      "voiceActors": [
+        {
+          "id": 95761,
+          "language": "Japanese",
+          "name": {
+            "first": "Tesshou",
+            "last": "Genda",
+            "full": "Tesshou Genda",
+            "native": "玄田哲章",
+            "userPreferred": "Tesshou Genda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95761-nwndYRCqJxno.png"
+        }
+      ]
+    },
+    {
+      "id": 19444,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Honda",
+        "last": "Momochiyo",
+        "full": "Honda Momochiyo",
+        "native": null,
+        "userPreferred": "Honda Momochiyo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/19444.jpg",
+      "voiceActors": [
+        {
+          "id": 95014,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Hayashibara",
+            "full": "Megumi Hayashibara",
+            "native": "林原めぐみ",
+            "userPreferred": "Megumi Hayashibara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95014-VqxNuufY94V3.png"
+        }
+      ]
+    },
+    {
+      "id": 19442,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Saitou",
+        "last": "Takaaki",
+        "full": "Saitou Takaaki",
+        "native": null,
+        "userPreferred": "Saitou Takaaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/19442.jpg",
+      "voiceActors": [
+        {
+          "id": 95518,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryou",
+            "last": "Horikawa",
+            "full": "Ryou Horikawa",
+            "native": "堀川りょう",
+            "userPreferred": "Ryou Horikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95518-6VFuLBDEPjTa.png"
+        }
+      ]
+    },
+    {
+      "id": 19445,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kabada",
+        "last": "Wasaku",
+        "full": "Kabada Wasaku",
+        "native": null,
+        "userPreferred": "Kabada Wasaku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/19445.jpg",
+      "voiceActors": [
+        {
+          "id": 96222,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuya",
+            "last": "Tatekabe",
+            "full": "Kazuya Tatekabe",
+            "native": "たてかべ 和也",
+            "userPreferred": "Kazuya Tatekabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96222-JtWNPCGOM8oS.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19443,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Morigami",
+        "last": "Shingo",
+        "full": "Morigami Shingo",
+        "native": null,
+        "userPreferred": "Morigami Shingo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/19443.jpg",
+      "voiceActors": [
+        {
+          "id": 104080,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinya",
+            "last": "Ootaki",
+            "full": "Shinya Ootaki",
+            "native": "大滝進矢",
+            "userPreferred": "Shinya Ootaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9080.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 42530,
+      "relationType": "ADAPTATION",
+      "malId": 12530,
+      "title": {
+        "romaji": "Osu!! Karate Bu",
+        "english": "Osu! Karate Club",
+        "native": "押忍!!空手部",
+        "userPreferred": "Osu!! Karate Bu"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx42530-X4wooAhrgwCv.png",
+      "color": "#e4d60d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx42530-X4wooAhrgwCv.png",
+      "rating": 66
+    }
+  ],
+  "episodes": [
+    {
+      "id": "osu-karate-bu-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b6031-BInHOWoq97Cr.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osu-karate-bu-episode-1"
+    },
+    {
+      "id": "osu-karate-bu-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b6031-BInHOWoq97Cr.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osu-karate-bu-episode-2"
+    },
+    {
+      "id": "osu-karate-bu-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b6031-BInHOWoq97Cr.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osu-karate-bu-episode-3"
+    },
+    {
+      "id": "osu-karate-bu-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b6031-BInHOWoq97Cr.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//osu-karate-bu-episode-4"
+    }
+  ]
+}

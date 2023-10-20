@@ -1,0 +1,267 @@
+{
+  "id": "102463",
+  "title": {
+    "romaji": "Dou Po Cangqiong 2",
+    "english": "Fights Break Sphere S2",
+    "native": "斗破苍穹 第二季"
+  },
+  "malId": 37176,
+  "synonyms": [
+    "Battle Through the Heavens 2",
+    "Fights Break Sphere 2",
+    "สัประยุทธ์ทะลุฟ้า ภาค 2"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "CN",
+  "trailer": {
+    "id": "ILqciwEO3FM",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/ILqciwEO3FM/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102463-5opReVQoz0zb.jpg",
+  "popularity": 1616,
+  "color": "#50aee4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102463-5opReVQoz0zb.jpg",
+  "description": "The second season of Doupo Cangqiong",
+  "status": "Completed",
+  "releaseDate": 2018,
+  "startDate": {
+    "year": 2018,
+    "month": 3,
+    "day": 3
+  },
+  "endDate": {
+    "year": 2018,
+    "month": 5,
+    "day": 13
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 72,
+  "duration": 20,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy",
+    "Romance"
+  ],
+  "season": null,
+  "studios": [
+    "Motion Magic"
+  ],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [
+    {
+      "id": 140645,
+      "malId": 50207,
+      "title": {
+        "romaji": "Fanren Xiu Xian Zhuan: Modao Zhengfeng",
+        "english": null,
+        "native": "凡人修仙传 魔道争锋",
+        "userPreferred": "Fanren Xiu Xian Zhuan: Modao Zhengfeng"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx140645-4HNzOl7du9UE.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx140645-4HNzOl7du9UE.png",
+      "rating": 81,
+      "type": "ONA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 146584,
+      "role": "MAIN",
+      "name": {
+        "first": "Yan",
+        "last": "Xiao",
+        "full": "Yan Xiao",
+        "native": "萧炎",
+        "userPreferred": "Yan Xiao"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b146584-4aP9ukOzMnse.png",
+      "voiceActors": [
+        {
+          "id": 188393,
+          "language": "Chinese",
+          "name": {
+            "first": "Sanmu",
+            "last": "Liu",
+            "full": "Sanmu Liu",
+            "native": "刘三木",
+            "userPreferred": "Sanmu Liu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188393-58DrWsrUzL0m.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 102464,
+      "relationType": "PREQUEL",
+      "malId": 36491,
+      "title": {
+        "romaji": "Dou Po Cangqiong",
+        "english": "Fights Break Sphere S1",
+        "native": "斗破苍穹",
+        "userPreferred": "Dou Po Cangqiong"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102464-jgCh7bsSI0Bg.jpg",
+      "color": "#e4c9ae",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102464-jgCh7bsSI0Bg.jpg",
+      "rating": 70
+    },
+    {
+      "id": 104922,
+      "relationType": "SEQUEL",
+      "malId": 38436,
+      "title": {
+        "romaji": "Dou Po Cangqiong 3",
+        "english": "Fights Break Sphere S3",
+        "native": "斗破苍穹 第3季",
+        "userPreferred": "Dou Po Cangqiong 3"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104922-pohVsMKm2n9H.jpg",
+      "color": "#3593e4",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104922-pohVsMKm2n9H.jpg",
+      "rating": 78
+    },
+    {
+      "id": 109484,
+      "relationType": "SIDE_STORY",
+      "malId": 39178,
+      "title": {
+        "romaji": "Dou Po Cangqiong Specials 2: Sha Zhi Lan Ge",
+        "english": null,
+        "native": "斗破苍穹特别篇2沙之澜歌",
+        "userPreferred": "Dou Po Cangqiong Specials 2: Sha Zhi Lan Ge"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b109484-UZTic7LLQHuc.jpg",
+      "color": "#e49343",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b109484-UZTic7LLQHuc.jpg",
+      "rating": 76
+    }
+  ],
+  "episodes": [
+    {
+      "id": "doupo-cangqiong-2nd-season-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102463-5opReVQoz0zb.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//doupo-cangqiong-2nd-season-episode-1"
+    },
+    {
+      "id": "doupo-cangqiong-2nd-season-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102463-5opReVQoz0zb.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//doupo-cangqiong-2nd-season-episode-2"
+    },
+    {
+      "id": "doupo-cangqiong-2nd-season-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102463-5opReVQoz0zb.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//doupo-cangqiong-2nd-season-episode-3"
+    },
+    {
+      "id": "doupo-cangqiong-2nd-season-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102463-5opReVQoz0zb.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//doupo-cangqiong-2nd-season-episode-4"
+    },
+    {
+      "id": "doupo-cangqiong-2nd-season-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102463-5opReVQoz0zb.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//doupo-cangqiong-2nd-season-episode-5"
+    },
+    {
+      "id": "doupo-cangqiong-2nd-season-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102463-5opReVQoz0zb.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//doupo-cangqiong-2nd-season-episode-6"
+    },
+    {
+      "id": "doupo-cangqiong-2nd-season-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102463-5opReVQoz0zb.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//doupo-cangqiong-2nd-season-episode-7"
+    },
+    {
+      "id": "doupo-cangqiong-2nd-season-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102463-5opReVQoz0zb.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//doupo-cangqiong-2nd-season-episode-8"
+    },
+    {
+      "id": "doupo-cangqiong-2nd-season-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102463-5opReVQoz0zb.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//doupo-cangqiong-2nd-season-episode-9"
+    },
+    {
+      "id": "doupo-cangqiong-2nd-season-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102463-5opReVQoz0zb.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//doupo-cangqiong-2nd-season-episode-10"
+    },
+    {
+      "id": "doupo-cangqiong-2nd-season-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102463-5opReVQoz0zb.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//doupo-cangqiong-2nd-season-episode-11"
+    },
+    {
+      "id": "doupo-cangqiong-2nd-season-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102463-5opReVQoz0zb.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//doupo-cangqiong-2nd-season-episode-12"
+    }
+  ]
+}

@@ -1,0 +1,987 @@
+{
+  "id": "10681",
+  "title": {
+    "romaji": "BLOOD-C: The Last Dark",
+    "english": "BLOOD-C: The Last Dark",
+    "native": "劇場版 BLOOD-C The Last Dark"
+  },
+  "malId": 10681,
+  "synonyms": [
+    "Blood-C Movie"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b10681-uogOpLtvaUX2.jpg",
+  "popularity": 19231,
+  "color": "#5093c9",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10681-3t28j15HfTtW.jpg",
+  "description": "Despite the use of the Youth Ordinance Bill to enforce curfews for minors and regulate the use of the internet, young people continue to fight for their own freedom through underground methods. One such group calls themselves SIRRUT. They have decided to take on Fumito Nanahara, a man who has great influence on the political world, and basically controls Tokyo with an iron fist. While using the internet as a weapon to discover more information about Fumito, they learn about \"Tower\", the secret organization behind Fumito which engages in human experimentation.<br><br>\nWhen members of Surat attempt to set up an ambush in the subway to expose the truth behind \"Tower\", mysterious creatures suddenly appear and attack the passengers. During this crisis, Saya appears - a young girl who uses a Japanese blade to slay the Old Ones. The same Saya who lost everything dear to her in that horrifying incident in Ukishima Province. What sort of \"experiment\" is Fumito and \"Tower\" trying to conduct using the Old Ones? And can Saya finally deliver vengeance to Fumito?<br><br>\nNow, the final battle begins...<br><br>\n(Source: Official site)",
+  "status": "Completed",
+  "releaseDate": 2012,
+  "startDate": {
+    "year": 2012,
+    "month": 6,
+    "day": 2
+  },
+  "endDate": {
+    "year": 2012,
+    "month": 6,
+    "day": 2
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 68,
+  "duration": 110,
+  "genres": [
+    "Action",
+    "Horror",
+    "Supernatural"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Production I.G"
+  ],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 42661,
+      "role": "MAIN",
+      "name": {
+        "first": "Fumito",
+        "last": "Nanahara",
+        "full": "Fumito Nanahara",
+        "native": "七原文人",
+        "userPreferred": "Fumito Nanahara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/42661.jpg",
+      "voiceActors": [
+        {
+          "id": 95074,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenji",
+            "last": "Nojima",
+            "full": "Kenji Nojima",
+            "native": "野島健児",
+            "userPreferred": "Kenji Nojima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95074-ilLCdbpWIgrF.png"
+        },
+        {
+          "id": 95666,
+          "language": "English",
+          "name": {
+            "first": "Robert",
+            "last": "McCollum",
+            "full": "Robert McCollum",
+            "native": null,
+            "userPreferred": "Robert McCollum"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95666-er3JLtqV1TLy.jpg"
+        },
+        {
+          "id": 143682,
+          "language": "German",
+          "name": {
+            "first": "Jan",
+            "last": "Kurbjuweit",
+            "full": "Jan Kurbjuweit",
+            "native": null,
+            "userPreferred": "Jan Kurbjuweit"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n143682-UJgGKIiE5MIp.jpg"
+        }
+      ]
+    },
+    {
+      "id": 58405,
+      "role": "MAIN",
+      "name": {
+        "first": "Mana",
+        "last": "Hiiragi",
+        "full": "Mana Hiiragi",
+        "native": "柊 真奈",
+        "userPreferred": "Mana Hiiragi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/58405.jpg",
+      "voiceActors": [
+        {
+          "id": 111299,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Hashimoto",
+            "full": "Ai Hashimoto",
+            "native": "橋本愛",
+            "userPreferred": "Ai Hashimoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n111299-PtmMx51efkFw.png"
+        },
+        {
+          "id": 222252,
+          "language": "German",
+          "name": {
+            "first": "Elisabeth",
+            "last": "Frank",
+            "full": "Elisabeth Frank",
+            "native": null,
+            "userPreferred": "Elisabeth Frank"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 41966,
+      "role": "MAIN",
+      "name": {
+        "first": "Saya",
+        "last": "Kisaragi",
+        "full": "Saya Kisaragi",
+        "native": "更衣小夜",
+        "userPreferred": "Saya Kisaragi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b41966-dEgkJTt0ZR8A.jpg",
+      "voiceActors": [
+        {
+          "id": 95081,
+          "language": "Japanese",
+          "name": {
+            "first": "Nana",
+            "last": "Mizuki",
+            "full": "Nana Mizuki",
+            "native": "水樹奈々",
+            "userPreferred": "Nana Mizuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95081-qto4UanYkpQT.png"
+        },
+        {
+          "id": 104091,
+          "language": "English",
+          "name": {
+            "first": "Alexis",
+            "last": "Tipton",
+            "full": "Alexis Tipton",
+            "native": null,
+            "userPreferred": "Alexis Tipton"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104091-OZpJbFWFwnvV.jpg"
+        },
+        {
+          "id": 116669,
+          "language": "Spanish",
+          "name": {
+            "first": "Carmen",
+            "last": "Calvell",
+            "full": "Carmen Calvell",
+            "native": null,
+            "userPreferred": "Carmen Calvell"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/21669.jpg"
+        },
+        {
+          "id": 141216,
+          "language": "German",
+          "name": {
+            "first": "Lisa",
+            "last": "Braun",
+            "full": "Lisa Braun",
+            "native": null,
+            "userPreferred": "Lisa Braun"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n141216-uXeUdqk1yors.jpg"
+        }
+      ]
+    },
+    {
+      "id": 42660,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tadayoshi",
+        "last": "Kisaragi",
+        "full": "Tadayoshi Kisaragi",
+        "native": "更衣唯芳",
+        "userPreferred": "Tadayoshi Kisaragi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/42660.jpg",
+      "voiceActors": [
+        {
+          "id": 95063,
+          "language": "Japanese",
+          "name": {
+            "first": "Keiji",
+            "last": "Fujiwara",
+            "full": "Keiji Fujiwara",
+            "native": "藤原啓治",
+            "userPreferred": "Keiji Fujiwara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95063-xAsEUzspuLMG.jpg"
+        },
+        {
+          "id": 104867,
+          "language": "English",
+          "name": {
+            "first": "Bill",
+            "last": "Jenkins",
+            "full": "Bill Jenkins",
+            "native": null,
+            "userPreferred": "Bill Jenkins"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9867.jpg"
+        },
+        {
+          "id": 143679,
+          "language": "German",
+          "name": {
+            "first": "Felix",
+            "last": "Würgler",
+            "full": "Felix Würgler",
+            "native": null,
+            "userPreferred": "Felix Würgler"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 58411,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hiro",
+        "last": "Tsukiyama",
+        "full": "Hiro Tsukiyama",
+        "native": "月山比呂",
+        "userPreferred": "Hiro Tsukiyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/58411.jpg",
+      "voiceActors": [
+        {
+          "id": 95185,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Hanazawa",
+            "full": "Kana Hanazawa",
+            "native": "花澤香菜",
+            "userPreferred": "Kana Hanazawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95185-vZ6nmfBKQgw1.jpg"
+        },
+        {
+          "id": 102109,
+          "language": "German",
+          "name": {
+            "first": "Jennifer",
+            "last": "Weiß",
+            "full": "Jennifer Weiß",
+            "native": null,
+            "userPreferred": "Jennifer Weiß"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7109.jpg"
+        }
+      ]
+    },
+    {
+      "id": 42665,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Itsuki",
+        "last": "Tomofusa",
+        "full": "Itsuki Tomofusa",
+        "native": "鞘総逸樹",
+        "userPreferred": "Itsuki Tomofusa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/42665.jpg",
+      "voiceActors": [
+        {
+          "id": 95991,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsushi",
+            "last": "Abe",
+            "full": "Atsushi Abe",
+            "native": "阿部敦",
+            "userPreferred": "Atsushi Abe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95991-4u24gUBgqeTA.jpg"
+        },
+        {
+          "id": 103060,
+          "language": "English",
+          "name": {
+            "first": "Chris",
+            "last": "Burnett",
+            "full": "Chris Burnett",
+            "native": null,
+            "userPreferred": "Chris Burnett"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103060-hdVm0NPURbMl.jpg"
+        },
+        {
+          "id": 143684,
+          "language": "German",
+          "name": {
+            "first": "Klemens",
+            "last": "Fuhrmann",
+            "full": "Klemens Fuhrmann",
+            "native": null,
+            "userPreferred": "Klemens Fuhrmann"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 42663,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nene",
+        "last": "Motoe",
+        "full": "Nene Motoe",
+        "native": "求衛 ねね",
+        "userPreferred": "Nene Motoe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/42663.jpg",
+      "voiceActors": [
+        {
+          "id": 95207,
+          "language": "Japanese",
+          "name": {
+            "first": "Misato",
+            "last": "Fukuen",
+            "full": "Misato Fukuen",
+            "native": "福圓美里",
+            "userPreferred": "Misato Fukuen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95207-TYPMa0JKUDAf.jpg"
+        },
+        {
+          "id": 105881,
+          "language": "English",
+          "name": {
+            "first": "Lindsay",
+            "last": "Seidel",
+            "full": "Lindsay Seidel",
+            "native": null,
+            "userPreferred": "Lindsay Seidel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105881-R2gLLpOtfReq.jpg"
+        },
+        {
+          "id": 138244,
+          "language": "German",
+          "name": {
+            "first": "Angelina",
+            "last": "Geisler",
+            "full": "Angelina Geisler",
+            "native": null,
+            "userPreferred": "Angelina Geisler"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n138244-9VIgusllvWUv.png"
+        }
+      ]
+    },
+    {
+      "id": 42662,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuuka",
+        "last": "Amino",
+        "full": "Yuuka Amino",
+        "native": "網埜優花",
+        "userPreferred": "Yuuka Amino"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/42662.jpg",
+      "voiceActors": [
+        {
+          "id": 95077,
+          "language": "Japanese",
+          "name": {
+            "first": "Masumi",
+            "last": "Asano",
+            "full": "Masumi Asano",
+            "native": "浅野真澄",
+            "userPreferred": "Masumi Asano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95077-d2OK4xiiRWAu.png"
+        },
+        {
+          "id": 111087,
+          "language": "English",
+          "name": {
+            "first": "Martha",
+            "last": "Harms",
+            "full": "Martha Harms",
+            "native": null,
+            "userPreferred": "Martha Harms"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/16087.jpg"
+        },
+        {
+          "id": 222253,
+          "language": "German",
+          "name": {
+            "first": "Katja",
+            "last": "Hirsch",
+            "full": "Katja Hirsch",
+            "native": null,
+            "userPreferred": "Katja Hirsch"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 42664,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nono",
+        "last": "Motoe",
+        "full": "Nono Motoe",
+        "native": "求衛 のの",
+        "userPreferred": "Nono Motoe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/42664.jpg",
+      "voiceActors": [
+        {
+          "id": 95207,
+          "language": "Japanese",
+          "name": {
+            "first": "Misato",
+            "last": "Fukuen",
+            "full": "Misato Fukuen",
+            "native": "福圓美里",
+            "userPreferred": "Misato Fukuen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95207-TYPMa0JKUDAf.jpg"
+        },
+        {
+          "id": 105881,
+          "language": "English",
+          "name": {
+            "first": "Lindsay",
+            "last": "Seidel",
+            "full": "Lindsay Seidel",
+            "native": null,
+            "userPreferred": "Lindsay Seidel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105881-R2gLLpOtfReq.jpg"
+        },
+        {
+          "id": 138244,
+          "language": "German",
+          "name": {
+            "first": "Angelina",
+            "last": "Geisler",
+            "full": "Angelina Geisler",
+            "native": null,
+            "userPreferred": "Angelina Geisler"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n138244-9VIgusllvWUv.png"
+        }
+      ]
+    },
+    {
+      "id": 58413,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Haruno",
+        "last": "Yanagi",
+        "full": "Haruno Yanagi",
+        "native": "矢薙春乃",
+        "userPreferred": "Haruno Yanagi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/58413.jpg",
+      "voiceActors": [
+        {
+          "id": 95428,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Kaida",
+            "full": "Yuuko Kaida",
+            "native": "甲斐田裕子",
+            "userPreferred": "Yuuko Kaida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95428-1e4kSvr5fkmQ.png"
+        },
+        {
+          "id": 185334,
+          "language": "German",
+          "name": {
+            "first": "Greta",
+            "last": "Galisch de Palma",
+            "full": "Greta Galisch de Palma",
+            "native": null,
+            "userPreferred": "Greta Galisch de Palma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 46585,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "",
+        "last": "Dog",
+        "full": "Dog",
+        "native": "犬",
+        "userPreferred": "Dog"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/46585.jpg",
+      "voiceActors": [
+        {
+          "id": 95086,
+          "language": "Japanese",
+          "name": {
+            "first": "Jun",
+            "last": "Fukuyama",
+            "full": "Jun Fukuyama",
+            "native": "福山潤",
+            "userPreferred": "Jun Fukuyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95086-cwKYmhOFNtH5.png"
+        },
+        {
+          "id": 95860,
+          "language": "English",
+          "name": {
+            "first": "Todd",
+            "last": "Haberkorn",
+            "full": "Todd Haberkorn",
+            "native": "Todd Michael Haberkorn",
+            "userPreferred": "Todd Haberkorn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95860-RxBJH1Kt2TUW.png"
+        },
+        {
+          "id": 114938,
+          "language": "German",
+          "name": {
+            "first": "Christoph",
+            "last": "Banken",
+            "full": "Christoph Banken",
+            "native": null,
+            "userPreferred": "Christoph Banken"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/19938.jpg"
+        }
+      ]
+    },
+    {
+      "id": 42667,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kanako",
+        "last": "Tsutsutori",
+        "full": "Kanako Tsutsutori",
+        "native": "筒島 香奈子",
+        "userPreferred": "Kanako Tsutsutori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/42667.jpg",
+      "voiceActors": [
+        {
+          "id": 100721,
+          "language": "Japanese",
+          "name": {
+            "first": "Miho",
+            "last": "Miyagawa",
+            "full": "Miho Miyagawa",
+            "native": "宮川美保",
+            "userPreferred": "Miho Miyagawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100721-uRUu4DMce3Dd.jpg"
+        },
+        {
+          "id": 95511,
+          "language": "English",
+          "name": {
+            "first": "Lydia",
+            "last": "Mackay",
+            "full": "Lydia Mackay",
+            "native": null,
+            "userPreferred": "Lydia Mackay"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/511.jpg"
+        },
+        {
+          "id": 142854,
+          "language": "German",
+          "name": {
+            "first": "Carmen",
+            "last": "Katt",
+            "full": "Carmen Katt",
+            "native": null,
+            "userPreferred": "Carmen Katt"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 235,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kimihiro",
+        "last": "Watanuki",
+        "full": "Kimihiro Watanuki",
+        "native": "四月一日君尋",
+        "userPreferred": "Kimihiro Watanuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b235-TUmZb6fdlJmL.png",
+      "voiceActors": [
+        {
+          "id": 95086,
+          "language": "Japanese",
+          "name": {
+            "first": "Jun",
+            "last": "Fukuyama",
+            "full": "Jun Fukuyama",
+            "native": "福山潤",
+            "userPreferred": "Jun Fukuyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95086-cwKYmhOFNtH5.png"
+        },
+        {
+          "id": 95860,
+          "language": "English",
+          "name": {
+            "first": "Todd",
+            "last": "Haberkorn",
+            "full": "Todd Haberkorn",
+            "native": "Todd Michael Haberkorn",
+            "userPreferred": "Todd Haberkorn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95860-RxBJH1Kt2TUW.png"
+        },
+        {
+          "id": 114938,
+          "language": "German",
+          "name": {
+            "first": "Christoph",
+            "last": "Banken",
+            "full": "Christoph Banken",
+            "native": null,
+            "userPreferred": "Christoph Banken"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/19938.jpg"
+        }
+      ]
+    },
+    {
+      "id": 58407,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Iori",
+        "last": "Matsuo",
+        "full": "Iori Matsuo",
+        "native": "松尾伊織",
+        "userPreferred": "Iori Matsuo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/58407.jpg",
+      "voiceActors": [
+        {
+          "id": 95513,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuichi",
+            "last": "Nakamura",
+            "full": "Yuuichi Nakamura",
+            "native": "中村悠一",
+            "userPreferred": "Yuuichi Nakamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95513-up9ZDuocHgRs.png"
+        },
+        {
+          "id": 143684,
+          "language": "German",
+          "name": {
+            "first": "Klemens",
+            "last": "Fuhrmann",
+            "full": "Klemens Fuhrmann",
+            "native": null,
+            "userPreferred": "Klemens Fuhrmann"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 58415,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "",
+        "last": "Kutou",
+        "full": "Kutou",
+        "native": "九頭",
+        "userPreferred": "Kutou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/58415.jpg",
+      "voiceActors": [
+        {
+          "id": 95095,
+          "language": "Japanese",
+          "name": {
+            "first": "Junichi",
+            "last": "Suwabe",
+            "full": "Junichi Suwabe",
+            "native": "諏訪部順一",
+            "userPreferred": "Junichi Suwabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95095-DvSjTQnqcgXP.png"
+        },
+        {
+          "id": 135842,
+          "language": "German",
+          "name": {
+            "first": "Sven",
+            "last": "Gerhardt",
+            "full": "Sven Gerhardt",
+            "native": null,
+            "userPreferred": "Sven Gerhardt"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n135842-THUloFvy58Dg.png"
+        }
+      ]
+    },
+    {
+      "id": 58409,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shun",
+        "last": "Fujimura",
+        "full": "Shun Fujimura",
+        "native": "藤村 駿",
+        "userPreferred": "Shun Fujimura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/58409.jpg",
+      "voiceActors": [
+        {
+          "id": 95672,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Kaji",
+            "full": "Yuuki Kaji",
+            "native": "梶裕貴",
+            "userPreferred": "Yuuki Kaji"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95672-RN4nm0OFwCyU.png"
+        },
+        {
+          "id": 140228,
+          "language": "German",
+          "name": {
+            "first": "Amadeus",
+            "last": "Strobl",
+            "full": "Amadeus Strobl",
+            "native": null,
+            "userPreferred": "Amadeus Strobl"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n140228-QkcDFuPKFd9t.jpg"
+        }
+      ]
+    },
+    {
+      "id": 58403,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kuroto",
+        "last": "Mogari",
+        "full": "Kuroto Mogari",
+        "native": "殯 蔵人",
+        "userPreferred": "Kuroto Mogari"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/58403.jpg",
+      "voiceActors": [
+        {
+          "id": 95118,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Kamiya",
+            "full": "Hiroshi Kamiya",
+            "native": "神谷浩史",
+            "userPreferred": "Hiroshi Kamiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95118-oOElrn1aSaiC.png"
+        },
+        {
+          "id": 222254,
+          "language": "German",
+          "name": {
+            "first": "Manolo",
+            "last": "Palma",
+            "full": "Manolo Palma",
+            "native": null,
+            "userPreferred": "Manolo Palma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 42666,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shinichirou",
+        "last": "Tokizane",
+        "full": "Shinichirou Tokizane",
+        "native": "敦時真慎一郎",
+        "userPreferred": "Shinichirou Tokizane"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/42666.jpg",
+      "voiceActors": [
+        {
+          "id": 95735,
+          "language": "Japanese",
+          "name": {
+            "first": "Tatsuhisa",
+            "last": "Suzuki",
+            "full": "Tatsuhisa Suzuki",
+            "native": "鈴木達央",
+            "userPreferred": "Tatsuhisa Suzuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95735-xssSe5BRSkaq.jpg"
+        },
+        {
+          "id": 105792,
+          "language": "English",
+          "name": {
+            "first": "Scott",
+            "last": "Freeman",
+            "full": "Scott Freeman",
+            "native": null,
+            "userPreferred": "Scott Freeman"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10792.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 10490,
+      "relationType": "PREQUEL",
+      "malId": 10490,
+      "title": {
+        "romaji": "BLOOD-C",
+        "english": "Blood-C",
+        "native": "BLOOD-C",
+        "userPreferred": "BLOOD-C"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10490-Rqx4jlTOMFWx.jpg",
+      "color": "#863528",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10490-N8ycOPxYdLda.jpg",
+      "rating": 61
+    },
+    {
+      "id": 14117,
+      "relationType": "PREQUEL",
+      "malId": 14117,
+      "title": {
+        "romaji": "BLOOD-C: Tokubetsu Henshuu ver",
+        "english": null,
+        "native": "『BLOOD-C』特別編集ver",
+        "userPreferred": "BLOOD-C: Tokubetsu Henshuu ver"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx14117-rx1RrZPz6C4F.png",
+      "color": "#6b1a1a",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx14117-rx1RrZPz6C4F.png",
+      "rating": 62
+    },
+    {
+      "id": 150,
+      "relationType": "OTHER",
+      "malId": 150,
+      "title": {
+        "romaji": "BLOOD+",
+        "english": "Blood+",
+        "native": "BLOOD+",
+        "userPreferred": "BLOOD+"
+      },
+      "status": "Completed",
+      "episodes": 50,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx150-YRcwKiJEXcLx.png",
+      "color": null,
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/150-zwoYr5tDxtOw.jpg",
+      "rating": 71
+    },
+    {
+      "id": 405,
+      "relationType": "OTHER",
+      "malId": 405,
+      "title": {
+        "romaji": "BLOOD THE LAST VAMPIRE",
+        "english": "Blood: The Last Vampire",
+        "native": "BLOOD THE LAST VAMPIRE",
+        "userPreferred": "BLOOD THE LAST VAMPIRE"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/405-umT1upaBF6VG.jpg",
+      "color": "#6b281a",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/405-yNU6meEyJuFs.jpg",
+      "rating": 65
+    },
+    {
+      "id": 861,
+      "relationType": "CHARACTER",
+      "malId": 861,
+      "title": {
+        "romaji": "xxxHOLiC",
+        "english": "xxxHOLiC",
+        "native": "XXX ホリック",
+        "userPreferred": "xxxHOLiC"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx861-rbZNhIXwS4JE.png",
+      "color": "#864328",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/861-9LoNqdFERLvT.jpg",
+      "rating": 76
+    },
+    {
+      "id": 67473,
+      "relationType": "ADAPTATION",
+      "malId": 37473,
+      "title": {
+        "romaji": "Blood-C: The Last Dark",
+        "english": null,
+        "native": "ブラッド・シー　ザ・ラストダーク",
+        "userPreferred": "Blood-C: The Last Dark"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/37473.jpg",
+      "color": "#1a3578",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/37473.jpg",
+      "rating": 69
+    }
+  ],
+  "episodes": [
+    {
+      "id": "blood-c-the-last-dark-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b10681-uogOpLtvaUX2.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//blood-c-the-last-dark-episode-1"
+    }
+  ]
+}

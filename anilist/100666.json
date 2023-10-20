@@ -1,0 +1,216 @@
+{
+  "id": "100666",
+  "title": {
+    "romaji": "Akuma no Memumemu-chan",
+    "english": "Akuma no Memumemu-chan",
+    "native": "悪魔のメムメムちゃん"
+  },
+  "malId": 36875,
+  "synonyms": [
+    "Devil Girl Memumemu"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100666-mRVRipOkwQmD.png",
+  "popularity": 1295,
+  "color": "#f150f1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100666-mRVRipOkwQmD.png",
+  "description": "The \"only slightly erotic comedy\" anime centers on the titular Memumemu-chan, a succubus who isn't lewd, isn't erotic, and doesn't try hard. The anime follows her struggle to harvest souls.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2018,
+  "startDate": {
+    "year": 2018,
+    "month": 1,
+    "day": 23
+  },
+  "endDate": {
+    "year": 2018,
+    "month": 1,
+    "day": 23
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 51,
+  "duration": 6,
+  "genres": [
+    "Comedy"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "Shaft"
+  ],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [
+    {
+      "id": 21654,
+      "malId": 38957,
+      "title": {
+        "romaji": "Shake-chan",
+        "english": null,
+        "native": "シャケちゃん",
+        "userPreferred": "Shake-chan"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21654-MyRXXpktzX5t.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21654-R15smsSBw12Z.png",
+      "rating": 59,
+      "type": "ONA"
+    },
+    {
+      "id": 10258,
+      "malId": 10258,
+      "title": {
+        "romaji": "Gokicha!! Cockroach Girl!",
+        "english": null,
+        "native": "ごきチャ!!",
+        "userPreferred": "Gokicha!! Cockroach Girl!"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10258.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10258.jpg",
+      "rating": 51,
+      "type": "ONA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 157378,
+      "role": "MAIN",
+      "name": {
+        "first": "Memumemu",
+        "last": null,
+        "full": "Memumemu",
+        "native": "メムメム",
+        "userPreferred": "Memumemu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b157378-RYi8krB6CwJ8.jpg",
+      "voiceActors": [
+        {
+          "id": 125920,
+          "language": "Japanese",
+          "name": {
+            "first": "Karin",
+            "last": "Takahashi",
+            "full": "Karin Takahashi",
+            "native": "高橋花林",
+            "userPreferred": "Karin Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n125920-eGCWlgvsrOyz.png"
+        }
+      ]
+    },
+    {
+      "id": 157379,
+      "role": "MAIN",
+      "name": {
+        "first": "Hyouta",
+        "last": "Kohinata",
+        "full": "Hyouta Kohinata",
+        "native": "小日向日太",
+        "userPreferred": "Hyouta Kohinata"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b157379-EfpH5ss2xgso.png",
+      "voiceActors": [
+        {
+          "id": 101686,
+          "language": "Japanese",
+          "name": {
+            "first": "Aoi",
+            "last": "Yuuki",
+            "full": "Aoi Yuuki",
+            "native": "悠木碧",
+            "userPreferred": "Aoi Yuuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101686-PTd0lQZMsmcv.png"
+        }
+      ]
+    },
+    {
+      "id": 157380,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ooya",
+        "last": null,
+        "full": "Ooya",
+        "native": "大家",
+        "userPreferred": "Ooya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b157380-2WVqBtWbkqu6.png",
+      "voiceActors": [
+        {
+          "id": 95031,
+          "language": "Japanese",
+          "name": {
+            "first": "Mai",
+            "last": "Nakahara",
+            "full": "Mai Nakahara",
+            "native": "中原麻衣",
+            "userPreferred": "Mai Nakahara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95031-tipPIz2k0Ncw.png"
+        }
+      ]
+    },
+    {
+      "id": 157381,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Anzu",
+        "last": "Itsuki",
+        "full": "Anzu Itsuki",
+        "native": "五木杏",
+        "userPreferred": "Anzu Itsuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b157381-KaGv4YjH4Qp7.png",
+      "voiceActors": [
+        {
+          "id": 104876,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiromi",
+            "last": "Igarashi",
+            "full": "Hiromi Igarashi",
+            "native": "五十嵐裕美",
+            "userPreferred": "Hiromi Igarashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104876-CF5LzglyzCXx.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 97960,
+      "relationType": "ADAPTATION",
+      "malId": 100776,
+      "title": {
+        "romaji": "Akuma no Memumemu-chan",
+        "english": null,
+        "native": "悪魔のメムメムちゃん",
+        "userPreferred": "Akuma no Memumemu-chan"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx97960-2GGHbucFhDhK.jpg",
+      "color": "#93c9f1",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx97960-2GGHbucFhDhK.jpg",
+      "rating": 57
+    }
+  ],
+  "episodes": [
+    {
+      "id": "akuma-no-memumemu-chan-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100666-mRVRipOkwQmD.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//akuma-no-memumemu-chan-episode-1"
+    }
+  ]
+}

@@ -1,0 +1,952 @@
+{
+  "id": "2563",
+  "title": {
+    "romaji": "ARIA The OVA: ARIETTA",
+    "english": "ARIA The OVA ~ARIETTA~",
+    "native": "ARIA The OVA ~ARIETTA~"
+  },
+  "malId": 2563,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2563-0rwQlDs37Yb8.png",
+  "popularity": 10099,
+  "color": "#e4935d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2563.jpg",
+  "description": "Akari Mizunashi dreams of life after attaining her goal of becoming a Prima Undine, but upon waking realizes that she might not actually have the confidence to run Aria Company on her own. Wary of the future, she seeks advice from her mentor Alicia Florence—one of the three great \"Water Fairies\" of Neo-Venezia.\n\nMuch to Akari's surprise, Alicia reveals her own struggles of the past, but also shares the steps she took in overcoming her self-doubt of running the company and taking on an apprentice. Finding solace in her teacher's words, Akari prepares to embrace whatever trials she must overcome on her path toward achieving her dreams.\n",
+  "status": "Completed",
+  "releaseDate": 2007,
+  "startDate": {
+    "year": 2007,
+    "month": 9,
+    "day": 21
+  },
+  "endDate": {
+    "year": 2007,
+    "month": 9,
+    "day": 21
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 78,
+  "duration": 30,
+  "genres": [
+    "Fantasy",
+    "Sci-Fi",
+    "Slice of Life"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Hal Film Maker"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 21284,
+      "malId": 31376,
+      "title": {
+        "romaji": "Flying Witch",
+        "english": "Flying Witch",
+        "native": "ふらいんぐうぃっち",
+        "userPreferred": "Flying Witch"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21284-vQcCLIWt1o5O.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21284-9gAbP4x5ziD1.jpg",
+      "rating": 74,
+      "type": "TV"
+    },
+    {
+      "id": 17739,
+      "malId": 17739,
+      "title": {
+        "romaji": "Hidamari Sketch: Sae Hiro Sotsugyou-hen",
+        "english": null,
+        "native": "ひだまりスケッチ 沙英ヒロ 卒業編",
+        "userPreferred": "Hidamari Sketch: Sae Hiro Sotsugyou-hen"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx17739-RWF701d4svmX.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/17739-1lTfnuAt5kdF.jpg",
+      "rating": 82,
+      "type": "OVA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 4786,
+      "role": "MAIN",
+      "name": {
+        "first": "Aria",
+        "last": "Pokoteng",
+        "full": "Aria Pokoteng",
+        "native": "アリア",
+        "userPreferred": "Aria Pokoteng"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4786.jpg",
+      "voiceActors": [
+        {
+          "id": 95553,
+          "language": "Japanese",
+          "name": {
+            "first": "Chinami",
+            "last": "Nishimura",
+            "full": "Chinami Nishimura",
+            "native": "西村ちなみ",
+            "userPreferred": "Chinami Nishimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95553-m1IIC7sNSQ2h.png"
+        },
+        {
+          "id": 144929,
+          "language": "English",
+          "name": {
+            "first": "Tara",
+            "last": "Tisch-Wallace",
+            "full": "Tara Tisch-Wallace",
+            "native": null,
+            "userPreferred": "Tara Tisch-Wallace"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n144929-oGgQ7YOQ1Usg.jpg"
+        },
+        {
+          "id": 96291,
+          "language": "Italian",
+          "name": {
+            "first": "Federica",
+            "last": "Valenti",
+            "full": "Federica Valenti",
+            "native": null,
+            "userPreferred": "Federica Valenti"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1291.jpg"
+        },
+        {
+          "id": 202438,
+          "language": "Spanish",
+          "name": {
+            "first": "Desireé",
+            "last": "González",
+            "full": "Desireé González",
+            "native": null,
+            "userPreferred": "Desireé González"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n202438-Ov4z4EIy8W0T.png"
+        }
+      ]
+    },
+    {
+      "id": 378,
+      "role": "MAIN",
+      "name": {
+        "first": "Akari",
+        "last": "Mizunashi",
+        "full": "Akari Mizunashi",
+        "native": "水無灯里",
+        "userPreferred": "Akari Mizunashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b378-pjsuS5BGmjQw.png",
+      "voiceActors": [
+        {
+          "id": 95585,
+          "language": "Japanese",
+          "name": {
+            "first": "Erino",
+            "last": "Hazuki",
+            "full": "Erino Hazuki",
+            "native": "葉月絵理乃",
+            "userPreferred": "Erino Hazuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95585-q5noKAfKT13Z.png"
+        },
+        {
+          "id": 95905,
+          "language": "English",
+          "name": {
+            "first": "Veronica",
+            "last": "Taylor",
+            "full": "Veronica Taylor",
+            "native": null,
+            "userPreferred": "Veronica Taylor"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95905-X3mxkcZkmmKN.jpg"
+        },
+        {
+          "id": 109773,
+          "language": "Korean",
+          "name": {
+            "first": "Jeong sin",
+            "last": "Wu",
+            "full": "Jeong sin Wu",
+            "native": "정신 우",
+            "userPreferred": "Jeong sin Wu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14773.jpg"
+        },
+        {
+          "id": 96162,
+          "language": "Italian",
+          "name": {
+            "first": "Benedetta",
+            "last": "Ponticelli",
+            "full": "Benedetta Ponticelli",
+            "native": null,
+            "userPreferred": "Benedetta Ponticelli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1162.jpg"
+        },
+        {
+          "id": 182197,
+          "language": "Spanish",
+          "name": {
+            "first": "Gabriela",
+            "last": "Hernández",
+            "full": "Gabriela Hernández",
+            "native": null,
+            "userPreferred": "Gabriela Hernández"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 379,
+      "role": "MAIN",
+      "name": {
+        "first": "Alicia",
+        "last": "Florence",
+        "full": "Alicia Florence",
+        "native": "アリシア・フローレンス",
+        "userPreferred": "Alicia Florence"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b379-R8Dj8uP0fB7B.png",
+      "voiceActors": [
+        {
+          "id": 95092,
+          "language": "Japanese",
+          "name": {
+            "first": "Sayaka",
+            "last": "Oohara",
+            "full": "Sayaka Oohara",
+            "native": "大原さやか",
+            "userPreferred": "Sayaka Oohara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95092-dQXsTFQXLg3o.png"
+        },
+        {
+          "id": 128533,
+          "language": "English",
+          "name": {
+            "first": "Marissa",
+            "last": "Lenti",
+            "full": "Marissa Lenti",
+            "native": null,
+            "userPreferred": "Marissa Lenti"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n128533-9yEK44FbdKLu.jpg"
+        },
+        {
+          "id": 109835,
+          "language": "Korean",
+          "name": {
+            "first": "Hyeon-Jin",
+            "last": "Lee",
+            "full": "Hyeon-Jin Lee",
+            "native": "이현진",
+            "userPreferred": "Hyeon-Jin Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14835.jpg"
+        },
+        {
+          "id": 96280,
+          "language": "Italian",
+          "name": {
+            "first": "Elisabetta",
+            "last": "Spinelli",
+            "full": "Elisabetta Spinelli",
+            "native": null,
+            "userPreferred": "Elisabetta Spinelli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96280-Z4a9OF7HxJ75.jpg"
+        },
+        {
+          "id": 129793,
+          "language": "Spanish",
+          "name": {
+            "first": "Betzabé",
+            "last": "Jara",
+            "full": "Betzabé Jara",
+            "native": null,
+            "userPreferred": "Betzabé Jara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n129793-y84cKVCwce6q.png"
+        }
+      ]
+    },
+    {
+      "id": 380,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Aika",
+        "last": "Granzchesta",
+        "full": "Aika Granzchesta",
+        "native": "藍華・S・グランチェスタ",
+        "userPreferred": "Aika S. Granzchesta"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b380-ulDFBnzGg2wy.png",
+      "voiceActors": [
+        {
+          "id": 95061,
+          "language": "Japanese",
+          "name": {
+            "first": "Chiwa",
+            "last": "Saitou",
+            "full": "Chiwa Saitou",
+            "native": "斎藤千和",
+            "userPreferred": "Chiwa Saitou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95061-R8YSAYX7UFCO.png"
+        },
+        {
+          "id": 96048,
+          "language": "English",
+          "name": {
+            "first": "Jessica",
+            "last": "Calvello",
+            "full": "Jessica Calvello",
+            "native": null,
+            "userPreferred": "Jessica Calvello"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96048-jnCHXjbHtDMh.jpg"
+        },
+        {
+          "id": 109921,
+          "language": "Korean",
+          "name": {
+            "first": "Seon-Yeong",
+            "last": "Park",
+            "full": "Seon-Yeong Park",
+            "native": "박선영",
+            "userPreferred": "Seon-Yeong Park"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14921.jpg"
+        },
+        {
+          "id": 104991,
+          "language": "Italian",
+          "name": {
+            "first": "Giuliana",
+            "last": "Atepi",
+            "full": "Giuliana Atepi",
+            "native": null,
+            "userPreferred": "Giuliana Atepi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104991-9eWTfVyMactS.png"
+        },
+        {
+          "id": 181975,
+          "language": "Spanish",
+          "name": {
+            "first": "Wendy",
+            "last": "Malvárez",
+            "full": "Wendy Malvárez",
+            "native": "Evelyn Wendolyne Malvárez Juárez",
+            "userPreferred": "Wendy Malvárez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n181975-DeoqH841Qo1E.png"
+        }
+      ]
+    },
+    {
+      "id": 381,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Akira",
+        "last": "Ferrari",
+        "full": "Akira Ferrari",
+        "native": "晃・E・フェラーリ",
+        "userPreferred": "Akira E. Ferrari"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b381-4jCeUpGjfyRU.png",
+      "voiceActors": [
+        {
+          "id": 95062,
+          "language": "Japanese",
+          "name": {
+            "first": "Junko",
+            "last": "Minagawa",
+            "full": "Junko Minagawa",
+            "native": "皆川純子",
+            "userPreferred": "Junko Minagawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95062-YMTfpO89SgQp.jpg"
+        },
+        {
+          "id": 102053,
+          "language": "English",
+          "name": {
+            "first": "Carol",
+            "last": "Jacobanis",
+            "full": "Carol Jacobanis",
+            "native": null,
+            "userPreferred": "Carol Jacobanis"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7053.jpg"
+        },
+        {
+          "id": 104985,
+          "language": "Italian",
+          "name": {
+            "first": "Cinzia",
+            "last": "Massironi",
+            "full": "Cinzia Massironi",
+            "native": null,
+            "userPreferred": "Cinzia Massironi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9985.jpg"
+        },
+        {
+          "id": 199497,
+          "language": "Spanish",
+          "name": {
+            "first": "Cynthia",
+            "last": "Chong",
+            "full": "Cynthia Chong",
+            "native": null,
+            "userPreferred": "Cynthia Chong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n199497-LhzFCYyRHcOm.png"
+        }
+      ]
+    },
+    {
+      "id": 383,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Athena",
+        "last": "Glory",
+        "full": "Athena Glory",
+        "native": "アテナ・グローリィ",
+        "userPreferred": "Athena Glory"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b383-flKt5cF0kBxN.png",
+      "voiceActors": [
+        {
+          "id": 95071,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoko",
+            "last": "Kawakami",
+            "full": "Tomoko Kawakami",
+            "native": "川上とも子",
+            "userPreferred": "Tomoko Kawakami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95071-bmS9MxvAdsTr.png"
+        },
+        {
+          "id": 96325,
+          "language": "English",
+          "name": {
+            "first": "Michele",
+            "last": "Knotz",
+            "full": "Michele Knotz",
+            "native": null,
+            "userPreferred": "Michele Knotz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1325.jpg"
+        },
+        {
+          "id": 104992,
+          "language": "Italian",
+          "name": {
+            "first": "Laura",
+            "last": "Brambilla",
+            "full": "Laura Brambilla",
+            "native": null,
+            "userPreferred": "Laura Brambilla"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 190696,
+          "language": "Spanish",
+          "name": {
+            "first": "Adriana",
+            "last": "Olmedo",
+            "full": "Adriana Olmedo",
+            "native": null,
+            "userPreferred": "Adriana Olmedo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n190696-dIRaRbHDIOIG.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10711,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Akino",
+        "last": "Ametsuchi",
+        "full": "Akino Ametsuchi",
+        "native": "天地秋乃",
+        "userPreferred": "Akino Ametsuchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/10711.jpg",
+      "voiceActors": [
+        {
+          "id": 96195,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshiko",
+            "last": "Matsuo",
+            "full": "Yoshiko Matsuo",
+            "native": "松尾佳子",
+            "userPreferred": "Yoshiko Matsuo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96195-ozwuXmxjpEBj.png"
+        },
+        {
+          "id": 160511,
+          "language": "English",
+          "name": {
+            "first": "Karen",
+            "last": "Smith",
+            "full": "Karen Smith",
+            "native": null,
+            "userPreferred": "Karen Smith"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n160511-glPwxcjVeZ5d.jpg"
+        },
+        {
+          "id": 197592,
+          "language": "Spanish",
+          "name": {
+            "first": "Monserrat",
+            "last": "Pérez",
+            "full": "Monserrat Pérez",
+            "native": null,
+            "userPreferred": "Monserrat Pérez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n197592-pczbVt8q0Rv6.png"
+        }
+      ]
+    },
+    {
+      "id": 13417,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Udo",
+        "last": "Ayanokouji the 51st",
+        "full": "Udo Ayanokouji the 51st",
+        "native": "ウッデイー",
+        "userPreferred": "Udo Ayanokouji the 51st"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b13417-HbjCRehjEuxe.png",
+      "voiceActors": [
+        {
+          "id": 95058,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuji",
+            "last": "Ueda",
+            "full": "Yuuji Ueda",
+            "native": "うえだゆうじ",
+            "userPreferred": "Yuuji Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95058-fGnId7E4tgx3.jpg"
+        },
+        {
+          "id": 96529,
+          "language": "English",
+          "name": {
+            "first": "James Carter",
+            "last": "Cathcart",
+            "full": "James Carter Cathcart",
+            "native": null,
+            "userPreferred": "James Carter Cathcart"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96529-m3EVtlOSNeUB.jpg"
+        },
+        {
+          "id": 96282,
+          "language": "Italian",
+          "name": {
+            "first": "Paolo",
+            "last": "De Santis",
+            "full": "Paolo De Santis",
+            "native": null,
+            "userPreferred": "Paolo De Santis"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1282.jpg"
+        },
+        {
+          "id": 190692,
+          "language": "Spanish",
+          "name": {
+            "first": "Mark",
+            "last": "Pokora",
+            "full": "Mark Pokora",
+            "native": "Marco Antonio Urbalejo González",
+            "userPreferred": "Mark Pokora"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n190692-sQI5yBOzNbBa.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14141,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Albert",
+        "last": "Pitt",
+        "full": "Albert Pitt",
+        "native": "アルバート・ピット",
+        "userPreferred": "Albert Pitt"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b14141-ELzAkCcNzbru.png",
+      "voiceActors": [
+        {
+          "id": 95094,
+          "language": "Japanese",
+          "name": {
+            "first": "Akeno",
+            "last": "Watanabe",
+            "full": "Akeno Watanabe",
+            "native": "渡边明乃",
+            "userPreferred": "Akeno Watanabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95094-nRPWBG1cVGo5.png"
+        },
+        {
+          "id": 135373,
+          "language": "English",
+          "name": {
+            "first": "Graham",
+            "last": "Halstead",
+            "full": "Graham Halstead",
+            "native": null,
+            "userPreferred": "Graham Halstead"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n135373-JblOGrQszDFu.jpg"
+        },
+        {
+          "id": 109829,
+          "language": "Korean",
+          "name": {
+            "first": "Il",
+            "last": "Kim",
+            "full": "Il Kim",
+            "native": "일 김",
+            "userPreferred": "Il Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14829.jpg"
+        },
+        {
+          "id": 106919,
+          "language": "Italian",
+          "name": {
+            "first": "Patrizia",
+            "last": "Mottola",
+            "full": "Patrizia Mottola",
+            "native": null,
+            "userPreferred": "Patrizia Mottola"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106919-yK2xGS8rnYfT.png"
+        },
+        {
+          "id": 221469,
+          "language": "Spanish",
+          "name": {
+            "first": "Sebastián",
+            "last": "Albavera",
+            "full": "Sebastián Albavera",
+            "native": "Sebastián Albavera Flores",
+            "userPreferred": "Sebastián Albavera"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n221469-2jvWva6IRPLL.png"
+        }
+      ]
+    },
+    {
+      "id": 382,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Alice",
+        "last": "Carroll",
+        "full": "Alice Carroll",
+        "native": "アリス・キャロル",
+        "userPreferred": "Alice Carroll"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b382-vEjUZDfwwsdY.png",
+      "voiceActors": [
+        {
+          "id": 95111,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryou",
+            "last": "Hirohashi",
+            "full": "Ryou Hirohashi",
+            "native": "広橋涼",
+            "userPreferred": "Ryou Hirohashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/95111-iw76EbsupYkS.jpg"
+        },
+        {
+          "id": 144929,
+          "language": "English",
+          "name": {
+            "first": "Tara",
+            "last": "Tisch-Wallace",
+            "full": "Tara Tisch-Wallace",
+            "native": null,
+            "userPreferred": "Tara Tisch-Wallace"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n144929-oGgQ7YOQ1Usg.jpg"
+        },
+        {
+          "id": 109769,
+          "language": "Korean",
+          "name": {
+            "first": "Min-Jeong",
+            "last": "Yeo",
+            "full": "Min-Jeong Yeo",
+            "native": "여민정",
+            "userPreferred": "Min-Jeong Yeo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14769.jpg"
+        },
+        {
+          "id": 104993,
+          "language": "Italian",
+          "name": {
+            "first": "Loretta",
+            "last": "Di Pisa",
+            "full": "Loretta Di Pisa",
+            "native": null,
+            "userPreferred": "Loretta Di Pisa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104993-jWWlVaHCcxbB.png"
+        },
+        {
+          "id": 303423,
+          "language": "Spanish",
+          "name": {
+            "first": "Sofía",
+            "last": "Baltazar",
+            "full": "Sofía Baltazar",
+            "native": null,
+            "userPreferred": "Sofía Baltazar"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n303423-aPlToH7HzXW8.png"
+        }
+      ]
+    },
+    {
+      "id": 12388,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ai",
+        "last": "Aino",
+        "full": "Ai Aino",
+        "native": "愛野アイ",
+        "userPreferred": "Ai Aino"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12388.jpg",
+      "voiceActors": [
+        {
+          "id": 95156,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaori",
+            "last": "Mizuhashi",
+            "full": "Kaori Mizuhashi",
+            "native": "水橋かおり",
+            "userPreferred": "Kaori Mizuhashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95156-7tw0zP396ecG.png"
+        },
+        {
+          "id": 95783,
+          "language": "English",
+          "name": {
+            "first": "Lisa",
+            "last": "Ortiz",
+            "full": "Lisa Ortiz",
+            "native": null,
+            "userPreferred": "Lisa Ortiz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95783-B8D6v4SFpgA7.jpg"
+        },
+        {
+          "id": 96233,
+          "language": "Italian",
+          "name": {
+            "first": "Serena",
+            "last": "Clerici",
+            "full": "Serena Clerici",
+            "native": null,
+            "userPreferred": "Serena Clerici"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1233.jpg"
+        },
+        {
+          "id": 218293,
+          "language": "Spanish",
+          "name": {
+            "first": "Lilian",
+            "last": "Vela",
+            "full": "Lilian Vela",
+            "native": null,
+            "userPreferred": "Lilian Vela"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n218293-71lpw3vf8EZm.png"
+        }
+      ]
+    },
+    {
+      "id": 10710,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Akatsuki",
+        "last": "Izumo",
+        "full": "Akatsuki Izumo",
+        "native": "出雲暁",
+        "userPreferred": "Akatsuki Izumo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b10710-mpdyY01s3eIe.png",
+      "voiceActors": [
+        {
+          "id": 95341,
+          "language": "Japanese",
+          "name": {
+            "first": "Hirofumi",
+            "last": "Nojima",
+            "full": "Hirofumi Nojima",
+            "native": "野島裕史",
+            "userPreferred": "Hirofumi Nojima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95341-SOsBuzcMtYe8.png"
+        },
+        {
+          "id": 95717,
+          "language": "English",
+          "name": {
+            "first": "Vinnie",
+            "last": "Penna",
+            "full": "Vinnie Penna",
+            "native": null,
+            "userPreferred": "Vinnie Penna"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95717-UpQJ4joT0hTb.png"
+        },
+        {
+          "id": 109825,
+          "language": "Korean",
+          "name": {
+            "first": "Gwang ju",
+            "last": "Jeon",
+            "full": "Gwang ju Jeon",
+            "native": "광주 전",
+            "userPreferred": "Gwang ju Jeon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14825.jpg"
+        },
+        {
+          "id": 102728,
+          "language": "Italian",
+          "name": {
+            "first": "Maurizio",
+            "last": "Merluzzo",
+            "full": "Maurizio Merluzzo",
+            "native": null,
+            "userPreferred": "Maurizio Merluzzo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102728-8UzPoLJ45Gha.jpg"
+        },
+        {
+          "id": 190706,
+          "language": "Spanish",
+          "name": {
+            "first": "Gerardo",
+            "last": "Ortega",
+            "full": "Gerardo Ortega",
+            "native": null,
+            "userPreferred": "Gerardo Ortega"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n190706-PjIN2ssB6SyH.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 962,
+      "relationType": "PREQUEL",
+      "malId": 962,
+      "title": {
+        "romaji": "ARIA The NATURAL",
+        "english": "ARIA The NATURAL",
+        "native": "ARIA The NATURAL",
+        "userPreferred": "ARIA The NATURAL"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx962-hMxjrjZYObAw.png",
+      "color": "#3586e4",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/962.jpg",
+      "rating": 81
+    },
+    {
+      "id": 3297,
+      "relationType": "SEQUEL",
+      "malId": 3297,
+      "title": {
+        "romaji": "ARIA The ORIGINATION",
+        "english": "ARIA The ORIGINATION",
+        "native": "ARIA The ORIGINATION",
+        "userPreferred": "ARIA The ORIGINATION"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3297-FHuyO7uiefNg.png",
+      "color": "#5daef1",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/3297.jpg",
+      "rating": 86
+    },
+    {
+      "id": 30081,
+      "relationType": "ADAPTATION",
+      "malId": 81,
+      "title": {
+        "romaji": "ARIA",
+        "english": "Aria",
+        "native": "ARIA",
+        "userPreferred": "ARIA"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30081-oCRaPkTGq4vP.jpg",
+      "color": "#f1e435",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/30081-JYNed0PplksD.png",
+      "rating": 86
+    }
+  ],
+  "episodes": [
+    {
+      "id": "aria-the-ova-arietta-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2563-0rwQlDs37Yb8.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//aria-the-ova-arietta-episode-1"
+    }
+  ]
+}

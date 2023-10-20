@@ -1,0 +1,990 @@
+{
+  "id": "4197",
+  "title": {
+    "romaji": "BLUE DRAGON: Tenkai no Shichi Ryuu",
+    "english": "Blue Dragon: The Seven Dragons of the Heavens",
+    "native": "BLUE DRAGON 天界の七竜"
+  },
+  "malId": 4197,
+  "synonyms": [
+    "Blue Dragon: Tenkuu no Nana Ryuu",
+    "Blue Dragon: The Seven Dragons of Heaven"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4197.jpg",
+  "popularity": 2931,
+  "color": "#e4a135",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4197.jpg",
+  "description": "After the events of the Blue Dragon series, Shu and Bouquet join a resistance group to fight General Rogi's army of invasion.They encounter a mysterious child , Noi, who has the power to revive Shu's shadow counter-part Blue Dragon, and save her from the pursuit of a red dragon. Now Shu and his company have to set foot once again on a journey to discover the purpose of the dragons, undergo their tests and stop the chains of events which threatens the fate of humanity.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2008,
+  "startDate": {
+    "year": 2008,
+    "month": 4,
+    "day": 5
+  },
+  "endDate": {
+    "year": 2009,
+    "month": 3,
+    "day": 28
+  },
+  "totalEpisodes": 51,
+  "currentEpisode": 51,
+  "rating": 60,
+  "duration": 20,
+  "genres": [
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Supernatural"
+  ],
+  "season": "SPRING",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 250,
+      "malId": 250,
+      "title": {
+        "romaji": "Konjiki no Gash Bell!!",
+        "english": "Zatch Bell!",
+        "native": "金色のガッシュベル!!",
+        "userPreferred": "Konjiki no Gash Bell!!"
+      },
+      "status": "Completed",
+      "episodes": 150,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b250-K6QoqgSmtsPo.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/250-JpXhinXPqpNE.jpg",
+      "rating": 72,
+      "type": "TV"
+    },
+    {
+      "id": 223,
+      "malId": 223,
+      "title": {
+        "romaji": "Dragon Ball",
+        "english": "Dragon Ball",
+        "native": "ドラゴンボール",
+        "userPreferred": "Dragon Ball"
+      },
+      "status": "Completed",
+      "episodes": 153,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx223-Ld6vrSnd081L.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/223-vyRuUBBYfcUb.jpg",
+      "rating": 77,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 35262,
+      "role": "MAIN",
+      "name": {
+        "first": "Andropov",
+        "last": null,
+        "full": "Andropov",
+        "native": "アンドロポフ",
+        "userPreferred": "Andropov"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/35262.jpg",
+      "voiceActors": [
+        {
+          "id": 95067,
+          "language": "Japanese",
+          "name": {
+            "first": "Kappei",
+            "last": "Yamaguchi",
+            "full": "Kappei Yamaguchi",
+            "native": "山口勝平",
+            "userPreferred": "Kappei Yamaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95067-hqIpNxMfAuN2.png"
+        },
+        {
+          "id": 96160,
+          "language": "Italian",
+          "name": {
+            "first": "Davide",
+            "last": "Garbolino",
+            "full": "Davide Garbolino",
+            "native": null,
+            "userPreferred": "Davide Garbolino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96160-f2iHwGVbtmun.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20634,
+      "role": "MAIN",
+      "name": {
+        "first": "Blue Dragon",
+        "last": null,
+        "full": "Blue Dragon",
+        "native": null,
+        "userPreferred": "Blue Dragon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20634.jpg",
+      "voiceActors": [
+        {
+          "id": 95180,
+          "language": "English",
+          "name": {
+            "first": "Lex",
+            "last": "Lang",
+            "full": "Lex Lang",
+            "native": null,
+            "userPreferred": "Lex Lang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95180-lBWAdPZISYWf.jpg"
+        },
+        {
+          "id": 96232,
+          "language": "Italian",
+          "name": {
+            "first": "Alessandro",
+            "last": "D'Errico",
+            "full": "Alessandro D'Errico",
+            "native": null,
+            "userPreferred": "Alessandro D'Errico"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96232-IIIfLggIYqZd.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12481,
+      "role": "MAIN",
+      "name": {
+        "first": "Noi",
+        "last": null,
+        "full": "Noi",
+        "native": "ノイ",
+        "userPreferred": "Noi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12481.jpg",
+      "voiceActors": [
+        {
+          "id": 95184,
+          "language": "Japanese",
+          "name": {
+            "first": "Hitomi",
+            "last": "Nabatame",
+            "full": "Hitomi Nabatame",
+            "native": "生天目仁美",
+            "userPreferred": "Hitomi Nabatame"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95184-OpXCWNXhJJpg.png"
+        },
+        {
+          "id": 96291,
+          "language": "Italian",
+          "name": {
+            "first": "Federica",
+            "last": "Valenti",
+            "full": "Federica Valenti",
+            "native": null,
+            "userPreferred": "Federica Valenti"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1291.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11767,
+      "role": "MAIN",
+      "name": {
+        "first": "Shu",
+        "last": null,
+        "full": "Shu",
+        "native": "シュウ",
+        "userPreferred": "Shu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b11767-SY7YsC0rM8CW.jpg",
+      "voiceActors": [
+        {
+          "id": 95635,
+          "language": "Japanese",
+          "name": {
+            "first": "Keiko",
+            "last": "Nemoto",
+            "full": "Keiko Nemoto",
+            "native": "根本圭子",
+            "userPreferred": "Keiko Nemoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/635.jpg"
+        },
+        {
+          "id": 95225,
+          "language": "English",
+          "name": {
+            "first": "Yuri",
+            "last": "Lowenthal",
+            "full": "Yuri Lowenthal",
+            "native": null,
+            "userPreferred": "Yuri Lowenthal"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95225-CbmI6oDkbbkL.jpg"
+        },
+        {
+          "id": 110567,
+          "language": "Italian",
+          "name": {
+            "first": "Gabriele",
+            "last": "Patriarca",
+            "full": "Gabriele Patriarca",
+            "native": null,
+            "userPreferred": "Gabriele Patriarca"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15567.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12528,
+      "role": "MAIN",
+      "name": {
+        "first": "Bouquet",
+        "last": null,
+        "full": "Bouquet",
+        "native": "ブーケ",
+        "userPreferred": "Bouquet"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12528.jpg",
+      "voiceActors": [
+        {
+          "id": 95329,
+          "language": "Japanese",
+          "name": {
+            "first": "Saki",
+            "last": "Nakajima",
+            "full": "Saki Nakajima",
+            "native": "中島沙樹",
+            "userPreferred": "Saki Nakajima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/329.jpg"
+        },
+        {
+          "id": 95452,
+          "language": "English",
+          "name": {
+            "first": "Melissa",
+            "last": "Fahn",
+            "full": "Melissa Fahn",
+            "native": null,
+            "userPreferred": "Melissa Fahn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95452-ID2nbW1E8fLk.png"
+        },
+        {
+          "id": 104657,
+          "language": "Italian",
+          "name": {
+            "first": "Lara",
+            "last": "Parmiani",
+            "full": "Lara Parmiani",
+            "native": null,
+            "userPreferred": "Lara Parmiani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9657.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11956,
+      "role": "MAIN",
+      "name": {
+        "first": "Marumaro",
+        "last": null,
+        "full": "Marumaro",
+        "native": "マルマロ",
+        "userPreferred": "Marumaro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b11956-CQQFmzpEWYTG.jpg",
+      "voiceActors": [
+        {
+          "id": 106716,
+          "language": "Japanese",
+          "name": {
+            "first": "Sakiko",
+            "last": "Uran",
+            "full": "Sakiko Uran",
+            "native": "雨蘭咲木子",
+            "userPreferred": "Sakiko Uran"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106716-xyIur3ZCW8cR.png"
+        },
+        {
+          "id": 95730,
+          "language": "English",
+          "name": {
+            "first": "Robert",
+            "last": "Klein",
+            "full": "Robert Klein",
+            "native": null,
+            "userPreferred": "Robert Klein"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/730.jpg"
+        },
+        {
+          "id": 109923,
+          "language": "Korean",
+          "name": {
+            "first": "Seong Jun",
+            "last": "Bang",
+            "full": "Seong Jun Bang",
+            "native": "성준 방",
+            "userPreferred": "Seong Jun Bang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14923.jpg"
+        },
+        {
+          "id": 96286,
+          "language": "Italian",
+          "name": {
+            "first": "Massimo",
+            "last": "Di Benedetto",
+            "full": "Massimo Di Benedetto",
+            "native": null,
+            "userPreferred": "Massimo Di Benedetto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96286-TD02rKR1qiHV.png"
+        }
+      ]
+    },
+    {
+      "id": 20639,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Logi",
+        "last": null,
+        "full": "Logi",
+        "native": "ゼネラル・ロギ",
+        "userPreferred": "Logi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b20639-YhjhuD3aVUZc.jpg",
+      "voiceActors": [
+        {
+          "id": 101457,
+          "language": "English",
+          "name": {
+            "first": "David",
+            "last": "Vincent",
+            "full": "David Vincent",
+            "native": null,
+            "userPreferred": "David Vincent"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101457-DXEZhScJUr5I.png"
+        },
+        {
+          "id": 196969,
+          "language": "Italian",
+          "name": {
+            "first": "Riccardo",
+            "last": "Onorato",
+            "full": "Riccardo Onorato",
+            "native": null,
+            "userPreferred": "Riccardo Onorato"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11769,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kluke",
+        "last": null,
+        "full": "Kluke",
+        "native": "クルック",
+        "userPreferred": "Kluke"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11769.jpg",
+      "voiceActors": [
+        {
+          "id": 95585,
+          "language": "Japanese",
+          "name": {
+            "first": "Erino",
+            "last": "Hazuki",
+            "full": "Erino Hazuki",
+            "native": "葉月絵理乃",
+            "userPreferred": "Erino Hazuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95585-q5noKAfKT13Z.png"
+        },
+        {
+          "id": 95085,
+          "language": "English",
+          "name": {
+            "first": "Michelle",
+            "last": "Ruff",
+            "full": "Michelle Ruff",
+            "native": null,
+            "userPreferred": "Michelle Ruff"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95085-zJmU0x2NLr3j.jpg"
+        },
+        {
+          "id": 96088,
+          "language": "Italian",
+          "name": {
+            "first": "Debora",
+            "last": "Magnaghi",
+            "full": "Debora Magnaghi",
+            "native": null,
+            "userPreferred": "Debora Magnaghi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96088-1Jx4hCFT3624.png"
+        }
+      ]
+    },
+    {
+      "id": 11779,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jiro",
+        "last": null,
+        "full": "Jiro",
+        "native": "ジーロ",
+        "userPreferred": "Jiro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11779.jpg",
+      "voiceActors": [
+        {
+          "id": 95087,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Namikawa",
+            "full": "Daisuke Namikawa",
+            "native": "浪川大輔",
+            "userPreferred": "Daisuke Namikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95087-6dlBBbejsPyg.png"
+        },
+        {
+          "id": 95669,
+          "language": "English",
+          "name": {
+            "first": "Sam",
+            "last": "Riegel",
+            "full": "Sam Riegel",
+            "native": null,
+            "userPreferred": "Sam Riegel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95669-SRLnXSqkz2iy.jpg"
+        },
+        {
+          "id": 109853,
+          "language": "Korean",
+          "name": {
+            "first": "Yong-Woo",
+            "last": "Shin",
+            "full": "Yong-Woo Shin",
+            "native": "신용우",
+            "userPreferred": "Yong-Woo Shin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109853-j96EqRUBocBE.jpg"
+        },
+        {
+          "id": 95774,
+          "language": "Italian",
+          "name": {
+            "first": "Simone",
+            "last": "D'Andrea",
+            "full": "Simone D'Andrea",
+            "native": null,
+            "userPreferred": "Simone D'Andrea"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95774-VV3pJui4Ee1T.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 2142,
+      "relationType": "PREQUEL",
+      "malId": 2142,
+      "title": {
+        "romaji": "Blue Dragon",
+        "english": null,
+        "native": "ブルー・ドラゴン",
+        "userPreferred": "Blue Dragon"
+      },
+      "status": "Completed",
+      "episodes": 51,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2142.jpg",
+      "color": "#1aa1d6",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2142-HJsF1zFBQyTb.jpg",
+      "rating": 59
+    }
+  ],
+  "episodes": [
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-1",
+      "title": "Red Dragon",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59140/original.jpeg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-1"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-2",
+      "title": "Nöe",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59141/original.jpeg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-2"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-3",
+      "title": "A Manly Challenge",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59142/original.jpeg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-3"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-4",
+      "title": "Scales of Ambition",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59143/original.jpeg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-4"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-5",
+      "title": "Wake of the Pyramid",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59144/original.jpeg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-5"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-6",
+      "title": "Crossing Paths",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59145/original.jpeg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-6"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-7",
+      "title": "First Love",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59146/original.jpeg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-7"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-8",
+      "title": "Her Decision",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59147/original.jpeg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-8"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-9",
+      "title": "Dance of Love",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59148/original.jpeg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-9"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-10",
+      "title": "Heart-Pounding Bliss",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59149/original.jpeg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-10"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-11",
+      "title": "Mikhail",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59150/original.jpeg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-11"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-12",
+      "title": "Nöe's Decision",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59151/original.jpeg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-12"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-13",
+      "title": "The White Guardians",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59152/original.jpeg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-13"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-14",
+      "title": "The Oracle",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59153/original.jpeg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-14"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-15",
+      "title": "Exhausted Collapse",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59154/original.jpeg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-15"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-16",
+      "title": "Enter Nirvana",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59155/original.jpeg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-16"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-17",
+      "title": "Slurping Sigh",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59156/original.jpeg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-17"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-18",
+      "title": "City of Dragons",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59157/original.jpeg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-18"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-19",
+      "title": "What Lies Underground",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59158/original.jpeg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-19"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-20",
+      "title": "Rotta and Nöe",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59159/original.jpeg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-20"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-21",
+      "title": "A New Dragon",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59160/original.jpeg",
+      "number": 21,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-21"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-22",
+      "title": "Hippoman",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59161/original.jpeg",
+      "number": 22,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-22"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-23",
+      "title": "Madam's Whisper",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59162/original.jpeg",
+      "number": 23,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-23"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-24",
+      "title": "A Ghost's Return",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59163/original.jpeg",
+      "number": 24,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-24"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-25",
+      "title": "Unheard Pleas",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59164/original.jpeg",
+      "number": 25,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-25"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-26",
+      "title": "Her Wish",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59165/original.jpeg",
+      "number": 26,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-26"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-27",
+      "title": "The Battle Begins",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59166/original.jpeg",
+      "number": 27,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-27"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-28",
+      "title": "Soaring of the Sleipnir",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59167/original.jpeg",
+      "number": 28,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-28"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-29",
+      "title": "Power of the Oracle",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59168/original.jpeg",
+      "number": 29,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-29"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-30",
+      "title": "A Divided World",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59169/original.jpeg",
+      "number": 30,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-30"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-31",
+      "title": "The Knight and the Girl",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59170/original.jpeg",
+      "number": 31,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-31"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-32",
+      "title": "The Town of Gourmets",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59171/original.jpeg",
+      "number": 32,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-32"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-33",
+      "title": "Matilda Strikes",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59172/original.jpeg",
+      "number": 33,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-33"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-34",
+      "title": "A Fake Smile",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59173/original.jpeg",
+      "number": 34,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-34"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-35",
+      "title": "The Final Trial",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59174/original.jpeg",
+      "number": 35,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-35"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-36",
+      "title": "The Deciding Moment",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59175/original.jpeg",
+      "number": 36,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-36"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-37",
+      "title": "Vermillion",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59176/original.jpeg",
+      "number": 37,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-37"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-38",
+      "title": "A Beautiful World",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59177/original.jpeg",
+      "number": 38,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-38"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-39",
+      "title": "Resurrecting Powers",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59178/original.jpeg",
+      "number": 39,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-39"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-40",
+      "title": "The Lost Palace",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59179/original.jpeg",
+      "number": 40,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-40"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-41",
+      "title": "Flower Garden",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59180/original.jpeg",
+      "number": 41,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-41"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-42",
+      "title": "Munchy-Bafoon",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59181/original.jpeg",
+      "number": 42,
+      "createdAt": "2013-02-20T18:25:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-42"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-43",
+      "title": "Battle of Zmey",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59182/original.jpeg",
+      "number": 43,
+      "createdAt": "2013-02-20T18:25:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-43"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-44",
+      "title": "To the Sky",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59183/original.jpeg",
+      "number": 44,
+      "createdAt": "2013-02-20T18:25:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-44"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-45",
+      "title": "Legion of Elite Species",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59184/original.jpeg",
+      "number": 45,
+      "createdAt": "2013-02-20T18:25:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-45"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-46",
+      "title": "Castle Azure",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59185/original.jpeg",
+      "number": 46,
+      "createdAt": "2013-02-20T18:25:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-46"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-47",
+      "title": "Rotta",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59186/original.jpeg",
+      "number": 47,
+      "createdAt": "2013-02-20T18:25:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-47"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-48",
+      "title": "The Final Battle",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59187/original.jpeg",
+      "number": 48,
+      "createdAt": "2013-02-20T18:25:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-48"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-49",
+      "title": "Kaizer Suvert",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59188/original.jpeg",
+      "number": 49,
+      "createdAt": "2013-02-20T18:25:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-49"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-50",
+      "title": "Memories",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59189/original.jpeg",
+      "number": 50,
+      "createdAt": "2013-02-20T18:25:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-50"
+    },
+    {
+      "id": "-blue-dragon-tenkai-no-shichi-ryu-episode-51",
+      "title": "Blue Sky",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59190/original.jpeg",
+      "number": 51,
+      "createdAt": "2013-02-20T18:25:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//-blue-dragon-tenkai-no-shichi-ryu-episode-51"
+    }
+  ]
+}

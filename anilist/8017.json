@@ -1,0 +1,331 @@
+{
+  "id": "8017",
+  "title": {
+    "romaji": "Soukou Kihei Votoms: Genei-hen",
+    "english": "Armored Trooper Votoms: Genei ~ Phantom Arc",
+    "native": "装甲騎兵ボトムズ 幻影篇"
+  },
+  "malId": 8017,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8017.jpg",
+  "popularity": 896,
+  "color": "#f1e450",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8017.jpg",
+  "description": "For their silver anniversary, Vanilla and Coconna return to Uoodo along with Gotho in the hopes of reuniting with Chirico. Once there they find a red shouldered AT at the Battling arena.",
+  "status": "Completed",
+  "releaseDate": 2010,
+  "startDate": {
+    "year": 2010,
+    "month": 3,
+    "day": 26
+  },
+  "endDate": {
+    "year": 2010,
+    "month": 10,
+    "day": 27
+  },
+  "totalEpisodes": 6,
+  "currentEpisode": 6,
+  "rating": 62,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Drama",
+    "Mecha",
+    "Sci-Fi"
+  ],
+  "season": "SPRING",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 21824,
+      "role": "MAIN",
+      "name": {
+        "first": "Vanilla",
+        "last": "Vartla",
+        "full": "Vanilla Vartla",
+        "native": "バニラ・バートラー",
+        "userPreferred": "Vanilla Vartla"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21824.jpg",
+      "voiceActors": [
+        {
+          "id": 95255,
+          "language": "Japanese",
+          "name": {
+            "first": "Shigeru",
+            "last": "Chiba",
+            "full": "Shigeru Chiba",
+            "native": "千葉繁",
+            "userPreferred": "Shigeru Chiba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95255-VOwYfPMZuZGQ.png"
+        }
+      ]
+    },
+    {
+      "id": 8081,
+      "role": "MAIN",
+      "name": {
+        "first": "Chirico",
+        "last": "Cuvie",
+        "full": "Chirico Cuvie",
+        "native": "キリコ・キュービィ",
+        "userPreferred": "Chirico Cuvie"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b8081-afgZwI01Tdxd.png",
+      "voiceActors": [
+        {
+          "id": 95936,
+          "language": "Japanese",
+          "name": {
+            "first": "Hozumi",
+            "last": "Gouda",
+            "full": "Hozumi Gouda",
+            "native": "郷田ほづみ",
+            "userPreferred": "Hozumi Gouda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95936-cBkm9F8KgrRD.png"
+        }
+      ]
+    },
+    {
+      "id": 21822,
+      "role": "MAIN",
+      "name": {
+        "first": "Bouleuse",
+        "last": "Gotho",
+        "full": "Bouleuse Gotho",
+        "native": "ブールーズ・ゴウト",
+        "userPreferred": "Bouleuse Gotho"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21822.jpg",
+      "voiceActors": [
+        {
+          "id": 101792,
+          "language": "Japanese",
+          "name": {
+            "first": "Kousei",
+            "last": "Tomita",
+            "full": "Kousei Tomita",
+            "native": "富田耕生",
+            "userPreferred": "Kousei Tomita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101792-hWklcmOIkrDO.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21825,
+      "role": "MAIN",
+      "name": {
+        "first": "Coconna",
+        "last": "Vartla",
+        "full": "Coconna Vartla",
+        "native": "ココナ",
+        "userPreferred": "Coconna Vartla"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21825.jpg",
+      "voiceActors": [
+        {
+          "id": 103793,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoko",
+            "last": "Kawanami",
+            "full": "Yoko Kawanami",
+            "native": "川浪葉子",
+            "userPreferred": "Yoko Kawanami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103793-ABOn8cqigHMb.png"
+        }
+      ]
+    },
+    {
+      "id": 42613,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Stevia",
+        "last": "Vartla",
+        "full": "Stevia Vartla",
+        "native": null,
+        "userPreferred": "Stevia Vartla"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b42613-2SSu8CraWsvU.jpg",
+      "voiceActors": [
+        {
+          "id": 95057,
+          "language": "Japanese",
+          "name": {
+            "first": "Houko",
+            "last": "Kuwashima",
+            "full": "Houko Kuwashima",
+            "native": "桑島法子",
+            "userPreferred": "Houko Kuwashima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95057-nMZEwJet445W.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21833,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Pol",
+        "last": "Potaria",
+        "full": "Pol Potaria",
+        "native": "ポル・ポタリア",
+        "userPreferred": "Pol Potaria"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21833.jpg",
+      "voiceActors": [
+        {
+          "id": 95137,
+          "language": "Japanese",
+          "name": {
+            "first": "Shou",
+            "last": "Hayami",
+            "full": "Shou Hayami",
+            "native": "速水奨",
+            "userPreferred": "Shou Hayami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95137-2Q5l3Br9G7sk.png"
+        }
+      ]
+    },
+    {
+      "id": 21823,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jean Paul",
+        "last": "Rochina",
+        "full": "Jean Paul Rochina",
+        "native": "コッタ・ルスケ",
+        "userPreferred": "Jean Paul Rochina"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21823.jpg",
+      "voiceActors": [
+        {
+          "id": 95330,
+          "language": "Japanese",
+          "name": {
+            "first": "Banjou",
+            "last": "Ginga",
+            "full": "Banjou Ginga",
+            "native": "銀河万丈",
+            "userPreferred": "Banjou Ginga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95330-PHDm9uDhKAsT.png"
+        }
+      ]
+    },
+    {
+      "id": 21829,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ru",
+        "last": "Shako",
+        "full": "Ru Shako",
+        "native": null,
+        "userPreferred": "Ru Shako"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21829.jpg",
+      "voiceActors": [
+        {
+          "id": 100469,
+          "language": "Japanese",
+          "name": {
+            "first": "Issei",
+            "last": "Masamune",
+            "full": "Issei Masamune",
+            "native": "一成政宗",
+            "userPreferred": "Issei Masamune"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5469.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 8250,
+      "relationType": "PREQUEL",
+      "malId": 8250,
+      "title": {
+        "romaji": "Soukou Kihei Votoms: Koei Futatabi",
+        "english": "Armored Trooper Votoms: Chirico's Return",
+        "native": "装甲騎兵ボトムズ 孤影再び",
+        "userPreferred": "Soukou Kihei Votoms: Koei Futatabi"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8250.jpg",
+      "color": "#43bbf1",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8250.jpg",
+      "rating": 68
+    }
+  ],
+  "episodes": [
+    {
+      "id": "soukou-kihei-votoms-genei-hen-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8017.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//soukou-kihei-votoms-genei-hen-episode-1"
+    },
+    {
+      "id": "soukou-kihei-votoms-genei-hen-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8017.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//soukou-kihei-votoms-genei-hen-episode-2"
+    },
+    {
+      "id": "soukou-kihei-votoms-genei-hen-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8017.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//soukou-kihei-votoms-genei-hen-episode-3"
+    },
+    {
+      "id": "soukou-kihei-votoms-genei-hen-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8017.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//soukou-kihei-votoms-genei-hen-episode-4"
+    },
+    {
+      "id": "soukou-kihei-votoms-genei-hen-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8017.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//soukou-kihei-votoms-genei-hen-episode-5"
+    },
+    {
+      "id": "soukou-kihei-votoms-genei-hen-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8017.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//soukou-kihei-votoms-genei-hen-episode-6"
+    }
+  ]
+}

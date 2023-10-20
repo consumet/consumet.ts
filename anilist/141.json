@@ -1,0 +1,738 @@
+{
+  "id": "141",
+  "title": {
+    "romaji": "Jinki:Extend",
+    "english": "Jinki:Extend",
+    "native": "ジンキ・エクステンド"
+  },
+  "malId": 141,
+  "synonyms": [
+    "Jinki : Extend"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/141.jpg",
+  "popularity": 2031,
+  "color": "#e43535",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/141.jpg",
+  "description": "Aoba used to spend all her time building model robots. But after a strange enemy emerges from beneath the planet’s surface, she joins an elite unit that uses giant robots to save the world! Aoba’s new life is dangerous, and the action can only intensify when a greater threat appears from the shadows. <br><br>\n(Source: Crunchyroll)",
+  "status": "Completed",
+  "releaseDate": 2005,
+  "startDate": {
+    "year": 2005,
+    "month": 1,
+    "day": 5
+  },
+  "endDate": {
+    "year": 2005,
+    "month": 3,
+    "day": 23
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 52,
+  "duration": 23,
+  "genres": [
+    "Mecha",
+    "Sci-Fi"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "feel."
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 3607,
+      "role": "MAIN",
+      "name": {
+        "first": "Aoba",
+        "last": "Tsuzaki",
+        "full": "Aoba Tsuzaki",
+        "native": "津崎青葉",
+        "userPreferred": "Aoba Tsuzaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3607.jpg",
+      "voiceActors": [
+        {
+          "id": 95152,
+          "language": "Japanese",
+          "name": {
+            "first": "Fumiko",
+            "last": "Orikasa",
+            "full": "Fumiko Orikasa",
+            "native": "折笠富美子",
+            "userPreferred": "Fumiko Orikasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95152-X9K5ciNGSX35.jpg"
+        },
+        {
+          "id": 95414,
+          "language": "English",
+          "name": {
+            "first": "Brittney",
+            "last": "Karbowski",
+            "full": "Brittney Karbowski",
+            "native": null,
+            "userPreferred": "Brittney Karbowski"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/414.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3608,
+      "role": "MAIN",
+      "name": {
+        "first": "Ryouhei",
+        "last": "Ogawara",
+        "full": "Ryouhei Ogawara",
+        "native": "小河原両兵",
+        "userPreferred": "Ryouhei Ogawara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3608.jpg",
+      "voiceActors": [
+        {
+          "id": 95737,
+          "language": "Japanese",
+          "name": {
+            "first": "Takuma",
+            "last": "Takewaka",
+            "full": "Takuma Takewaka",
+            "native": "竹若拓磨",
+            "userPreferred": "Takuma Takewaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95737-09geFhaEL9OB.png"
+        },
+        {
+          "id": 95039,
+          "language": "English",
+          "name": {
+            "first": "Jason",
+            "last": "Douglas",
+            "full": "Jason Douglas",
+            "native": null,
+            "userPreferred": "Jason Douglas"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95039-F0UuxfqLslls.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20753,
+      "role": "MAIN",
+      "name": {
+        "first": "Akao",
+        "last": "Hiiragi",
+        "full": "Akao Hiiragi",
+        "native": "柊赤緒",
+        "userPreferred": "Akao Hiiragi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20753.jpg",
+      "voiceActors": [
+        {
+          "id": 95701,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuna",
+            "last": "Inamura",
+            "full": "Yuuna Inamura",
+            "native": "優奈 稲村",
+            "userPreferred": "Yuuna Inamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/701.jpg"
+        },
+        {
+          "id": 95199,
+          "language": "English",
+          "name": {
+            "first": "Jessica",
+            "last": "Boone",
+            "full": "Jessica Boone",
+            "native": null,
+            "userPreferred": "Jessica Boone"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95199-0ArwCGT722iO.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21644,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shizuka",
+        "last": "Tsuzaki",
+        "full": "Shizuka Tsuzaki",
+        "native": "津崎静花",
+        "userPreferred": "Shizuka Tsuzaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21644.jpg",
+      "voiceActors": [
+        {
+          "id": 95003,
+          "language": "Japanese",
+          "name": {
+            "first": "Satsuki",
+            "last": "Yukino",
+            "full": "Satsuki Yukino",
+            "native": "ゆきのさつき",
+            "userPreferred": "Satsuki Yukino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95003-Du7wb5JJzb8P.png"
+        },
+        {
+          "id": 95159,
+          "language": "English",
+          "name": {
+            "first": "Monica",
+            "last": "Rial",
+            "full": "Monica Rial",
+            "native": null,
+            "userPreferred": "Monica Rial"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95159-iTd65o5LhA62.png"
+        }
+      ]
+    },
+    {
+      "id": 26586,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kokusho",
+        "last": null,
+        "full": "Kokusho",
+        "native": null,
+        "userPreferred": "Kokusho"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95087,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Namikawa",
+            "full": "Daisuke Namikawa",
+            "native": "浪川大輔",
+            "userPreferred": "Daisuke Namikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95087-6dlBBbejsPyg.png"
+        },
+        {
+          "id": 95473,
+          "language": "English",
+          "name": {
+            "first": "John",
+            "last": "Gremillion",
+            "full": "John Gremillion",
+            "native": null,
+            "userPreferred": "John Gremillion"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/473.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13469,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rui",
+        "last": "Kousaka",
+        "full": "Rui Kousaka",
+        "native": "黄坂ルイ",
+        "userPreferred": "Rui Kousaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b13469-7SnzcmvCwMbA.jpg",
+      "voiceActors": [
+        {
+          "id": 95027,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukari",
+            "last": "Tamura",
+            "full": "Yukari Tamura",
+            "native": "田村ゆかり",
+            "userPreferred": "Yukari Tamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95027-Zm9onZDUN7ih.jpg"
+        },
+        {
+          "id": 95189,
+          "language": "English",
+          "name": {
+            "first": "Luci",
+            "last": "Christian",
+            "full": "Luci Christian",
+            "native": null,
+            "userPreferred": "Luci Christian"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95189-M2IkMNRzHYcF.jpg"
+        }
+      ]
+    },
+    {
+      "id": 26583,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Satsuki",
+        "last": "Kawamoto",
+        "full": "Satsuki Kawamoto",
+        "native": "川本さつき",
+        "userPreferred": "Satsuki Kawamoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26583.jpg",
+      "voiceActors": [
+        {
+          "id": 95032,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Nonaka",
+            "full": "Ai Nonaka",
+            "native": "野中藍",
+            "userPreferred": "Ai Nonaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95032-P8Hvtz5iaaoI.png"
+        },
+        {
+          "id": 96606,
+          "language": "English",
+          "name": {
+            "first": "Allison",
+            "last": "Sumrall",
+            "full": "Allison Sumrall",
+            "native": null,
+            "userPreferred": "Allison Sumrall"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96606-oaTOj5bbSpDs.jpg"
+        }
+      ]
+    },
+    {
+      "id": 26585,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hiroshi",
+        "last": "Kawamoto",
+        "full": "Hiroshi Kawamoto",
+        "native": "川本宏",
+        "userPreferred": "Hiroshi Kawamoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95183,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Hirakawa",
+            "full": "Daisuke Hirakawa",
+            "native": "平川大輔",
+            "userPreferred": "Daisuke Hirakawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95183-5C42gbrKIP7L.png"
+        },
+        {
+          "id": 95190,
+          "language": "English",
+          "name": {
+            "first": "Chris",
+            "last": "Patton",
+            "full": "Chris Patton",
+            "native": null,
+            "userPreferred": "Chris Patton"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95190-Ht5ukZFcl0PX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21643,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Minami",
+        "last": "Kousaka",
+        "full": "Minami Kousaka",
+        "native": "黄坂南",
+        "userPreferred": "Minami Kousaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21643.jpg",
+      "voiceActors": [
+        {
+          "id": 96057,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshino",
+            "last": "Takamori",
+            "full": "Yoshino Takamori",
+            "native": "鷹森淑乃",
+            "userPreferred": "Yoshino Takamori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96057-sTfYZjMdWTRu.png"
+        },
+        {
+          "id": 95193,
+          "language": "English",
+          "name": {
+            "first": "Shelley",
+            "last": "Calene-Black",
+            "full": "Shelley Calene-Black",
+            "native": null,
+            "userPreferred": "Shelley Calene-Black"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95193-Nvdjk8BIcEJb.png"
+        }
+      ]
+    },
+    {
+      "id": 26584,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mel J",
+        "last": "Vanette",
+        "full": "Mel J Vanette",
+        "native": "メル・J・ヴァネット",
+        "userPreferred": "Mel J Vanette"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26584.jpg",
+      "voiceActors": [
+        {
+          "id": 95062,
+          "language": "Japanese",
+          "name": {
+            "first": "Junko",
+            "last": "Minagawa",
+            "full": "Junko Minagawa",
+            "native": "皆川純子",
+            "userPreferred": "Junko Minagawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95062-YMTfpO89SgQp.jpg"
+        },
+        {
+          "id": 95509,
+          "language": "English",
+          "name": {
+            "first": "Christine",
+            "last": "Auten",
+            "full": "Christine Auten",
+            "native": null,
+            "userPreferred": "Christine Auten"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95509-fSwGUErqAkmA.jpg"
+        }
+      ]
+    },
+    {
+      "id": 25182,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kouse",
+        "last": null,
+        "full": "Kouse",
+        "native": null,
+        "userPreferred": "Kouse"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/25182.jpg",
+      "voiceActors": [
+        {
+          "id": 95065,
+          "language": "Japanese",
+          "name": {
+            "first": "Mamoru",
+            "last": "Miyano",
+            "full": "Mamoru Miyano",
+            "native": "宮野真守",
+            "userPreferred": "Mamoru Miyano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95065-eyynywrhombR.png"
+        },
+        {
+          "id": 95454,
+          "language": "English",
+          "name": {
+            "first": "Blake",
+            "last": "Shepard",
+            "full": "Blake Shepard",
+            "native": null,
+            "userPreferred": "Blake Shepard"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/454.jpg"
+        }
+      ]
+    },
+    {
+      "id": 26581,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Genta",
+        "last": "Ogawara",
+        "full": "Genta Ogawara",
+        "native": "小河原現太",
+        "userPreferred": "Genta Ogawara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 96128,
+          "language": "Japanese",
+          "name": {
+            "first": "Rokuro",
+            "last": "Naya",
+            "full": "Rokuro Naya",
+            "native": "納谷六朗",
+            "userPreferred": "Rokuro Naya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96128-cHvdKhF6dgK9.png"
+        },
+        {
+          "id": 95201,
+          "language": "English",
+          "name": {
+            "first": "John",
+            "last": "Swasey",
+            "full": "John Swasey",
+            "native": null,
+            "userPreferred": "John Swasey"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95201-cas6XbtZmMay.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21991,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shiva",
+        "last": null,
+        "full": "Shiva",
+        "native": "シバ",
+        "userPreferred": "Shiva"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21991.jpg",
+      "voiceActors": [
+        {
+          "id": 95066,
+          "language": "Japanese",
+          "name": {
+            "first": "Akiko",
+            "last": "Hiramatsu",
+            "full": "Akiko Hiramatsu",
+            "native": "平松晶子",
+            "userPreferred": "Akiko Hiramatsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95066-oCD0liGFKqlH.png"
+        },
+        {
+          "id": 95162,
+          "language": "English",
+          "name": {
+            "first": "Kira",
+            "last": "Vincent-Davis",
+            "full": "Kira Vincent-Davis",
+            "native": null,
+            "userPreferred": "Kira Vincent-Davis"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/162.jpg"
+        }
+      ]
+    },
+    {
+      "id": 26582,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Elny",
+        "last": "Tachibana",
+        "full": "Elny Tachibana",
+        "native": "エルニィ立花",
+        "userPreferred": "Elny Tachibana"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/26582.jpg",
+      "voiceActors": [
+        {
+          "id": 95071,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoko",
+            "last": "Kawakami",
+            "full": "Tomoko Kawakami",
+            "native": "川上とも子",
+            "userPreferred": "Tomoko Kawakami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95071-bmS9MxvAdsTr.png"
+        },
+        {
+          "id": 95721,
+          "language": "English",
+          "name": {
+            "first": "Cynthia",
+            "last": "Martinez",
+            "full": "Cynthia Martinez",
+            "native": null,
+            "userPreferred": "Cynthia Martinez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95721-4wGzyO12bXAP.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 31850,
+      "relationType": "ADAPTATION",
+      "malId": 1850,
+      "title": {
+        "romaji": "Jinki: Extended",
+        "english": "JINKI: EXTEND",
+        "native": "ジンキ・エクステンド",
+        "userPreferred": "Jinki: Extended"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/1850.jpg",
+      "color": "#e48628",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/1850.jpg",
+      "rating": 46
+    },
+    {
+      "id": 848,
+      "relationType": "SIDE_STORY",
+      "malId": 848,
+      "title": {
+        "romaji": "Jinki:Extend - Sorekara",
+        "english": "Jinki:Extend - And Then...",
+        "native": "ジンキ・エクステンド それから",
+        "userPreferred": "Jinki:Extend - Sorekara"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/848.jpg",
+      "color": "#93c9f1",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/848.jpg",
+      "rating": 54
+    }
+  ],
+  "episodes": [
+    {
+      "id": "jinkiextend-episode-1",
+      "title": "The Battlefield the Girl Saw",
+      "image": "https://media.kitsu.io/episodes/thumbnails/108375/original.jpeg",
+      "number": 1,
+      "createdAt": "2013-06-17T01:46:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jinkiextend-episode-1"
+    },
+    {
+      "id": "jinkiextend-episode-2",
+      "title": "After the Tears",
+      "image": "https://media.kitsu.io/episodes/thumbnails/108376/original.jpeg",
+      "number": 2,
+      "createdAt": "2013-06-17T01:46:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jinkiextend-episode-2"
+    },
+    {
+      "id": "jinkiextend-episode-3",
+      "title": "Quality and Quantity",
+      "image": "https://media.kitsu.io/episodes/thumbnails/108377/original.jpeg",
+      "number": 3,
+      "createdAt": "2013-06-17T01:46:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jinkiextend-episode-3"
+    },
+    {
+      "id": "jinkiextend-episode-4",
+      "title": "Face-to-Face",
+      "image": "https://media.kitsu.io/episodes/thumbnails/108378/original.jpeg",
+      "number": 4,
+      "createdAt": "2013-06-17T01:46:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jinkiextend-episode-4"
+    },
+    {
+      "id": "jinkiextend-episode-5",
+      "title": "Of Enemies and Allies",
+      "image": "https://media.kitsu.io/episodes/thumbnails/108379/original.jpeg",
+      "number": 5,
+      "createdAt": "2013-06-17T01:46:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jinkiextend-episode-5"
+    },
+    {
+      "id": "jinkiextend-episode-6",
+      "title": "The Pilot in Black",
+      "image": "https://media.kitsu.io/episodes/thumbnails/108380/original.jpeg",
+      "number": 6,
+      "createdAt": "2013-06-17T01:46:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jinkiextend-episode-6"
+    },
+    {
+      "id": "jinkiextend-episode-7",
+      "title": "The Ends of Ambition",
+      "image": "https://media.kitsu.io/episodes/thumbnails/108381/original.jpeg",
+      "number": 7,
+      "createdAt": "2013-06-17T01:46:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jinkiextend-episode-7"
+    },
+    {
+      "id": "jinkiextend-episode-8",
+      "title": "Silvery-Winged Visitor",
+      "image": "https://media.kitsu.io/episodes/thumbnails/108382/original.jpeg",
+      "number": 8,
+      "createdAt": "2013-06-17T01:46:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jinkiextend-episode-8"
+    },
+    {
+      "id": "jinkiextend-episode-9",
+      "title": "Winner of the Game",
+      "image": "https://media.kitsu.io/episodes/thumbnails/108383/original.jpeg",
+      "number": 9,
+      "createdAt": "2013-06-17T01:46:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jinkiextend-episode-9"
+    },
+    {
+      "id": "jinkiextend-episode-10",
+      "title": "Red and Black",
+      "image": "https://media.kitsu.io/episodes/thumbnails/108384/original.jpeg",
+      "number": 10,
+      "createdAt": "2013-06-17T01:46:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jinkiextend-episode-10"
+    },
+    {
+      "id": "jinkiextend-episode-11",
+      "title": "Family",
+      "image": "https://media.kitsu.io/episodes/thumbnails/108385/original.jpeg",
+      "number": 11,
+      "createdAt": "2013-06-17T01:46:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jinkiextend-episode-11"
+    },
+    {
+      "id": "jinkiextend-episode-12",
+      "title": "Blue and Red",
+      "image": "https://media.kitsu.io/episodes/thumbnails/108386/original.jpeg",
+      "number": 12,
+      "createdAt": "2013-06-17T01:46:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jinkiextend-episode-12"
+    },
+    {
+      "id": "jinkiextend-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/141.jpg",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//jinkiextend-episode-13"
+    }
+  ]
+}

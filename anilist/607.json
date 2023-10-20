@@ -1,0 +1,620 @@
+{
+  "id": "607",
+  "title": {
+    "romaji": "Otogi-juushi Akazukin",
+    "english": "Fairy Musketeers",
+    "native": "おとぎ銃士 赤ずきん"
+  },
+  "malId": 607,
+  "synonyms": [
+    "Otogi-juushi Akazukin (TV)",
+    "Fairy Musketeers (TV)",
+    "Otogi-juushi Little Red Riding Hood (TV)"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx607-fGOLnb9F55qV.png",
+  "popularity": 1725,
+  "color": "#28bbe4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/607-XBSlKfdtWD98.jpg",
+  "description": "Long, long ago, there existed a world of magic and science. God, afraid of man's potential, split the world in to the world of science, Elde, and the world of magic, Fandavale. One day in Fandavale, a terrible witch named Cendrillon revives. Cendrillon plots to rule both worlds, and searches for the \"key\" which holds tremendous power.<br>\n<br>\nA young boy from Elde by the name of Souta meets a mysterious girl from Fandavale, Akazukin, and her talking wolf companion, Val. Souta learns that he is the key Cendrillon is searching for. Now it is up to Akazukin, Val, and the other Fairy Musketeers to protect Souta from Cendrillon and her Nightmarelians who wish to obtain the power he mysteriously possesses.",
+  "status": "Completed",
+  "releaseDate": 2006,
+  "startDate": {
+    "year": 2006,
+    "month": 7,
+    "day": 1
+  },
+  "endDate": {
+    "year": 2007,
+    "month": 3,
+    "day": 31
+  },
+  "totalEpisodes": 39,
+  "currentEpisode": 39,
+  "rating": 59,
+  "duration": 24,
+  "genres": [
+    "Adventure",
+    "Comedy",
+    "Fantasy"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "MADHOUSE"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 97986,
+      "malId": 34599,
+      "title": {
+        "romaji": "Made in Abyss",
+        "english": "Made in Abyss",
+        "native": "メイドインアビス",
+        "userPreferred": "Made in Abyss"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97986-8oxwTF84hzue.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97986-C55UnbJKB7ZF.jpg",
+      "rating": 85,
+      "type": "TV"
+    },
+    {
+      "id": 103,
+      "malId": 103,
+      "title": {
+        "romaji": "Akazukin Chacha",
+        "english": "Red Riding Hood Chacha",
+        "native": "赤ずきんチャチャ",
+        "userPreferred": "Akazukin Chacha"
+      },
+      "status": "Completed",
+      "episodes": 74,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx103-v029gLfcQajN.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n103-dPxprIcIeq1Q.jpg",
+      "rating": 68,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 8826,
+      "role": "MAIN",
+      "name": {
+        "first": "Ringo",
+        "last": "Kinoshita",
+        "full": "Ringo Kinoshita",
+        "native": "木ノ下りんご",
+        "userPreferred": "Ringo Kinoshita"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/8826.jpg",
+      "voiceActors": [
+        {
+          "id": 95008,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Kugimiya",
+            "full": "Rie Kugimiya",
+            "native": "釘宮理恵",
+            "userPreferred": "Rie Kugimiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95008-2y0EeuSTHIri.png"
+        }
+      ]
+    },
+    {
+      "id": 8824,
+      "role": "MAIN",
+      "name": {
+        "first": "Val",
+        "last": null,
+        "full": "Val",
+        "native": "銀狼ヴァル",
+        "userPreferred": "Val"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/8824.jpg",
+      "voiceActors": [
+        {
+          "id": 95257,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobuyuki",
+            "last": "Hiyama",
+            "full": "Nobuyuki Hiyama",
+            "native": "檜山修之",
+            "userPreferred": "Nobuyuki Hiyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95257-PgYwsBplRSJa.png"
+        }
+      ]
+    },
+    {
+      "id": 8416,
+      "role": "MAIN",
+      "name": {
+        "first": "Akazukin",
+        "last": null,
+        "full": "Akazukin",
+        "native": "赤ずきん",
+        "userPreferred": "Akazukin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/8416.jpg",
+      "voiceActors": [
+        {
+          "id": 95027,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukari",
+            "last": "Tamura",
+            "full": "Yukari Tamura",
+            "native": "田村ゆかり",
+            "userPreferred": "Yukari Tamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95027-Zm9onZDUN7ih.jpg"
+        },
+        {
+          "id": 109851,
+          "language": "Korean",
+          "name": {
+            "first": "Jeong Mi",
+            "last": "Bae",
+            "full": "Jeong Mi Bae",
+            "native": "정미 배",
+            "userPreferred": "Jeong Mi Bae"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14851.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32774,
+      "role": "MAIN",
+      "name": {
+        "first": "Souta",
+        "last": "Suzukaze",
+        "full": "Souta Suzukaze",
+        "native": "鈴風草太",
+        "userPreferred": "Souta Suzukaze"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32774.jpg",
+      "voiceActors": [
+        {
+          "id": 95746,
+          "language": "Japanese",
+          "name": {
+            "first": "Motoko",
+            "last": "Kumai",
+            "full": "Motoko Kumai",
+            "native": "くまいもとこ",
+            "userPreferred": "Motoko Kumai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95746-uCQ4Vz5v1St7.png"
+        },
+        {
+          "id": 95407,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Sanpei",
+            "full": "Yuuko Sanpei",
+            "native": "三瓶由布子",
+            "userPreferred": "Yuuko Sanpei"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95407-u8MV6kcAJNV6.png"
+        },
+        {
+          "id": 110101,
+          "language": "Korean",
+          "name": {
+            "first": "Hyeon Wu",
+            "last": "Byeon",
+            "full": "Hyeon Wu Byeon",
+            "native": "현우 변",
+            "userPreferred": "Hyeon Wu Byeon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15101.jpg"
+        }
+      ]
+    },
+    {
+      "id": 8417,
+      "role": "MAIN",
+      "name": {
+        "first": "Ibara-hime",
+        "last": null,
+        "full": "Ibara-hime",
+        "native": "いばら姫",
+        "userPreferred": "Ibara-hime"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/8417.jpg",
+      "voiceActors": [
+        {
+          "id": 95099,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyuki",
+            "last": "Sawashiro",
+            "full": "Miyuki Sawashiro",
+            "native": "沢城みゆき",
+            "userPreferred": "Miyuki Sawashiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95099-jKP4LfPWqetk.jpg"
+        },
+        {
+          "id": 109995,
+          "language": "Korean",
+          "name": {
+            "first": "Hye Ok",
+            "last": "Jeong",
+            "full": "Hye Ok Jeong",
+            "native": "혜옥 정",
+            "userPreferred": "Hye Ok Jeong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14995.jpg"
+        }
+      ]
+    },
+    {
+      "id": 24697,
+      "role": "MAIN",
+      "name": {
+        "first": "Shirayuki-hime",
+        "last": null,
+        "full": "Shirayuki-hime",
+        "native": "白雪姫",
+        "userPreferred": "Shirayuki-hime"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24697.jpg",
+      "voiceActors": [
+        {
+          "id": 105278,
+          "language": "Japanese",
+          "name": {
+            "first": "Kanako",
+            "last": "Tateno",
+            "full": "Kanako Tateno",
+            "native": "香菜子 立野",
+            "userPreferred": "Kanako Tateno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10278.jpg"
+        },
+        {
+          "id": 103812,
+          "language": "Korean",
+          "name": {
+            "first": "Mi Sook",
+            "last": "Jeong",
+            "full": "Mi Sook Jeong",
+            "native": "숙 정미",
+            "userPreferred": "Mi Sook Jeong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8812.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5342,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gretel",
+        "last": null,
+        "full": "Gretel",
+        "native": "グレーテル",
+        "userPreferred": "Gretel"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5342.jpg",
+      "voiceActors": [
+        {
+          "id": 95380,
+          "language": "Japanese",
+          "name": {
+            "first": "Sayuri",
+            "last": "Yahagi",
+            "full": "Sayuri Yahagi",
+            "native": "矢作紗友里",
+            "userPreferred": "Sayuri Yahagi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95380-mOdqKPb6xYnI.png"
+        },
+        {
+          "id": 110135,
+          "language": "Korean",
+          "name": {
+            "first": "Do Yeong",
+            "last": "Song",
+            "full": "Do Yeong Song",
+            "native": "도영송",
+            "userPreferred": "Do Yeong Song"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15135.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6497,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Cane",
+        "last": null,
+        "full": "Cane",
+        "native": null,
+        "userPreferred": "Cane"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95061,
+          "language": "Japanese",
+          "name": {
+            "first": "Chiwa",
+            "last": "Saitou",
+            "full": "Chiwa Saitou",
+            "native": "斎藤千和",
+            "userPreferred": "Chiwa Saitou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95061-R8YSAYX7UFCO.png"
+        }
+      ]
+    },
+    {
+      "id": 8825,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hamelin",
+        "last": null,
+        "full": "Hamelin",
+        "native": null,
+        "userPreferred": "Hamelin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/8825.jpg",
+      "voiceActors": [
+        {
+          "id": 95074,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenji",
+            "last": "Nojima",
+            "full": "Kenji Nojima",
+            "native": "野島健児",
+            "userPreferred": "Kenji Nojima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95074-ilLCdbpWIgrF.png"
+        },
+        {
+          "id": 109825,
+          "language": "Korean",
+          "name": {
+            "first": "Gwang ju",
+            "last": "Jeon",
+            "full": "Gwang ju Jeon",
+            "native": "광주 전",
+            "userPreferred": "Gwang ju Jeon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14825.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6474,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Randarjo",
+        "last": null,
+        "full": "Randarjo",
+        "native": "ランダージョ",
+        "userPreferred": "Randarjo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6474.jpg",
+      "voiceActors": [
+        {
+          "id": 95810,
+          "language": "Japanese",
+          "name": {
+            "first": "Akiko",
+            "last": "Kobayashi",
+            "full": "Akiko Kobayashi",
+            "native": "晃子 小林",
+            "userPreferred": "Akiko Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/810.jpg"
+        },
+        {
+          "id": 109777,
+          "language": "Korean",
+          "name": {
+            "first": "Sang-Hyeon",
+            "last": "Eom",
+            "full": "Sang-Hyeon Eom",
+            "native": "엄상현",
+            "userPreferred": "Sang-Hyeon Eom"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14777.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6481,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuuki",
+        "last": "Hoshino",
+        "full": "Yuuki Hoshino",
+        "native": null,
+        "userPreferred": "Yuuki Hoshino"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95931,
+          "language": "Japanese",
+          "name": {
+            "first": "Asami",
+            "last": "Yaguchi",
+            "full": "Asami Yaguchi",
+            "native": "矢口アサミ",
+            "userPreferred": "Asami Yaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95931-wW2ljSdYbkDa.jpg"
+        }
+      ]
+    },
+    {
+      "id": 22056,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Trude",
+        "last": null,
+        "full": "Trude",
+        "native": "トゥルーデ",
+        "userPreferred": "Trude"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/22056.jpg",
+      "voiceActors": [
+        {
+          "id": 95169,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaori",
+            "last": "Shimizu",
+            "full": "Kaori Shimizu",
+            "native": "清水香里",
+            "userPreferred": "Kaori Shimizu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95169-EfU6qQdPxHRv.jpg"
+        },
+        {
+          "id": 110593,
+          "language": "Korean",
+          "name": {
+            "first": "Mun Ja",
+            "last": "Choi",
+            "full": "Mun Ja Choi",
+            "native": "문자 최",
+            "userPreferred": "Mun Ja Choi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15593.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13026,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hansel",
+        "last": null,
+        "full": "Hansel",
+        "native": "ヘンゼル",
+        "userPreferred": "Hansel"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/13026.jpg",
+      "voiceActors": [
+        {
+          "id": 95169,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaori",
+            "last": "Shimizu",
+            "full": "Kaori Shimizu",
+            "native": "清水香里",
+            "userPreferred": "Kaori Shimizu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95169-EfU6qQdPxHRv.jpg"
+        },
+        {
+          "id": 109777,
+          "language": "Korean",
+          "name": {
+            "first": "Sang-Hyeon",
+            "last": "Eom",
+            "full": "Sang-Hyeon Eom",
+            "native": "엄상현",
+            "userPreferred": "Sang-Hyeon Eom"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14777.jpg"
+        }
+      ]
+    },
+    {
+      "id": 24698,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Cendrillon",
+        "last": null,
+        "full": "Cendrillon",
+        "native": "サンドリヨン",
+        "userPreferred": "Cendrillon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24698.jpg",
+      "voiceActors": [
+        {
+          "id": 95230,
+          "language": "Japanese",
+          "name": {
+            "first": "Misa",
+            "last": "Watanabe",
+            "full": "Misa Watanabe",
+            "native": "渡辺美佐",
+            "userPreferred": "Misa Watanabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95230-lCHOeyeVaISA.png"
+        },
+        {
+          "id": 110593,
+          "language": "Korean",
+          "name": {
+            "first": "Mun Ja",
+            "last": "Choi",
+            "full": "Mun Ja Choi",
+            "native": "문자 최",
+            "userPreferred": "Mun Ja Choi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15593.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 46655,
+      "relationType": "ADAPTATION",
+      "malId": 16655,
+      "title": {
+        "romaji": "Otogi-juushi Akazukin",
+        "english": null,
+        "native": "おとぎ銃士 赤ずきん",
+        "userPreferred": "Otogi-juushi Akazukin"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/46655-sgrLJi0sXftF.jpg",
+      "color": "#e4ae50",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/46655-sgrLJi0sXftF.jpg",
+      "rating": 75
+    },
+    {
+      "id": 402,
+      "relationType": "ALTERNATIVE",
+      "malId": 402,
+      "title": {
+        "romaji": "Otogi-juushi Akazukin (OVA)",
+        "english": null,
+        "native": "おとぎ銃士 赤ずきん (OVA)",
+        "userPreferred": "Otogi-juushi Akazukin (OVA)"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx402-Xkz8RLoOxqWA.png",
+      "color": "#f15028",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx402-Xkz8RLoOxqWA.png",
+      "rating": 60
+    }
+  ],
+  "episodes": []
+}

@@ -1,0 +1,404 @@
+{
+  "id": "858",
+  "title": {
+    "romaji": "Gunparade Orchestra",
+    "english": null,
+    "native": "ガンパレード・オーケストラ"
+  },
+  "malId": 858,
+  "synonyms": [
+    "GPO"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b858-PUfsBakM2C1v.jpg",
+  "popularity": 978,
+  "color": "#a18635",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b858-PUfsBakM2C1v.jpg",
+  "description": "The story focuses and revolves around the 108th Guard Squad, stationed in Aomori. A poorly equipped unit with very little military standing, it is often viewed as a 'reject camp' for pilots not making the grade for the elite units based in Hokkaido. The apparent helpless nature of this force is hardly a deterrent for the encroaching enemy armies, ever closing in on both the 108th and the rest of the empire. The young pilots of the 108th, who had dreamed on returning home, are plunged forcefully and unwillingly into a war.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2005,
+  "startDate": {
+    "year": 2005,
+    "month": 10,
+    "day": 4
+  },
+  "endDate": {
+    "year": 2006,
+    "month": 3,
+    "day": 28
+  },
+  "totalEpisodes": 24,
+  "currentEpisode": 24,
+  "rating": 49,
+  "duration": 25,
+  "genres": [
+    "Drama",
+    "Mecha",
+    "Romance",
+    "Sci-Fi",
+    "Slice of Life"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Brain's Base"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 9370,
+      "role": "MAIN",
+      "name": {
+        "first": "Sara",
+        "last": "Ishida",
+        "full": "Sara Ishida",
+        "native": "石田咲良",
+        "userPreferred": "Sara Ishida"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9370.jpg",
+      "voiceActors": [
+        {
+          "id": 95144,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Toyoguchi",
+            "full": "Megumi Toyoguchi",
+            "native": "豊口めぐみ",
+            "userPreferred": "Megumi Toyoguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95144-9Y8CtDVmxogE.jpg"
+        }
+      ]
+    },
+    {
+      "id": 22489,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hard-Boiled",
+        "last": "Penguin",
+        "full": "Hard-Boiled Penguin",
+        "native": null,
+        "userPreferred": "Hard-Boiled Penguin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/22489.jpg",
+      "voiceActors": [
+        {
+          "id": 95084,
+          "language": "Japanese",
+          "name": {
+            "first": "Norio",
+            "last": "Wakamoto",
+            "full": "Norio Wakamoto",
+            "native": "若本規夫",
+            "userPreferred": "Norio Wakamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95084-RTrZSU38POPF.png"
+        }
+      ]
+    },
+    {
+      "id": 5765,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Michiya",
+        "last": "Noguchi",
+        "full": "Michiya Noguchi",
+        "native": null,
+        "userPreferred": "Michiya Noguchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95095,
+          "language": "Japanese",
+          "name": {
+            "first": "Junichi",
+            "last": "Suwabe",
+            "full": "Junichi Suwabe",
+            "native": "諏訪部順一",
+            "userPreferred": "Junichi Suwabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95095-DvSjTQnqcgXP.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 60305,
+      "relationType": "ADAPTATION",
+      "malId": 30305,
+      "title": {
+        "romaji": "Gunparade Orchestra",
+        "english": null,
+        "native": "ガンパレード・オーケストラ",
+        "userPreferred": "Gunparade Orchestra"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/30305.jpg",
+      "color": "#f19335",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/30305.jpg",
+      "rating": 60
+    },
+    {
+      "id": 9445,
+      "relationType": "SIDE_STORY",
+      "malId": 9445,
+      "title": {
+        "romaji": "Gunparade Orchestra OVA",
+        "english": null,
+        "native": "ガンパレード・オーケストラ",
+        "userPreferred": "Gunparade Orchestra OVA"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9445.jpg",
+      "color": "#e4e443",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9445.jpg",
+      "rating": 49
+    },
+    {
+      "id": 266,
+      "relationType": "PARENT",
+      "malId": 266,
+      "title": {
+        "romaji": "Gunparade March: Arata Naru Kougunka",
+        "english": "Gunparade March",
+        "native": "ガンパレード・マーチ -新たなる行軍歌-",
+        "userPreferred": "Gunparade March: Arata Naru Kougunka"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx266-nZSGUqJ58zWf.jpg",
+      "color": "#6b1a28",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx266-nZSGUqJ58zWf.jpg",
+      "rating": 61
+    }
+  ],
+  "episodes": [
+    {
+      "id": "gunparade-orchestra-episode-1",
+      "title": "First Battle",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b858-PUfsBakM2C1v.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:21:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gunparade-orchestra-episode-1"
+    },
+    {
+      "id": "gunparade-orchestra-episode-2",
+      "title": "Outbreak",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b858-PUfsBakM2C1v.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:21:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gunparade-orchestra-episode-2"
+    },
+    {
+      "id": "gunparade-orchestra-episode-3",
+      "title": "Distant Bridge",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b858-PUfsBakM2C1v.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:21:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gunparade-orchestra-episode-3"
+    },
+    {
+      "id": "gunparade-orchestra-episode-4",
+      "title": "A Special Day",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b858-PUfsBakM2C1v.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:21:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gunparade-orchestra-episode-4"
+    },
+    {
+      "id": "gunparade-orchestra-episode-5",
+      "title": "Underground",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b858-PUfsBakM2C1v.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:21:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gunparade-orchestra-episode-5"
+    },
+    {
+      "id": "gunparade-orchestra-episode-6",
+      "title": "Golden Seven",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b858-PUfsBakM2C1v.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:21:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gunparade-orchestra-episode-6"
+    },
+    {
+      "id": "gunparade-orchestra-episode-7",
+      "title": "Spring is Near",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b858-PUfsBakM2C1v.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:21:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gunparade-orchestra-episode-7"
+    },
+    {
+      "id": "gunparade-orchestra-episode-8",
+      "title": "Unfinished Symphony",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b858-PUfsBakM2C1v.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:21:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gunparade-orchestra-episode-8"
+    },
+    {
+      "id": "gunparade-orchestra-episode-9",
+      "title": "Beyond War",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b858-PUfsBakM2C1v.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:21:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gunparade-orchestra-episode-9"
+    },
+    {
+      "id": "gunparade-orchestra-episode-10",
+      "title": "Dogs of War",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b858-PUfsBakM2C1v.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:21:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gunparade-orchestra-episode-10"
+    },
+    {
+      "id": "gunparade-orchestra-episode-11",
+      "title": "Mid-day Duel",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b858-PUfsBakM2C1v.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:21:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gunparade-orchestra-episode-11"
+    },
+    {
+      "id": "gunparade-orchestra-episode-12",
+      "title": "The Wind Rises",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b858-PUfsBakM2C1v.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:21:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gunparade-orchestra-episode-12"
+    },
+    {
+      "id": "gunparade-orchestra-episode-13",
+      "title": "Pursuers",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b858-PUfsBakM2C1v.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:21:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gunparade-orchestra-episode-13"
+    },
+    {
+      "id": "gunparade-orchestra-episode-14",
+      "title": "Wild Strawberries",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b858-PUfsBakM2C1v.jpg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:21:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gunparade-orchestra-episode-14"
+    },
+    {
+      "id": "gunparade-orchestra-episode-15",
+      "title": "Opposition WIthout Reason",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b858-PUfsBakM2C1v.jpg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:21:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gunparade-orchestra-episode-15"
+    },
+    {
+      "id": "gunparade-orchestra-episode-16",
+      "title": "Clash!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b858-PUfsBakM2C1v.jpg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:21:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gunparade-orchestra-episode-16"
+    },
+    {
+      "id": "gunparade-orchestra-episode-17",
+      "title": "All Quiet on the Western Front",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b858-PUfsBakM2C1v.jpg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:21:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gunparade-orchestra-episode-17"
+    },
+    {
+      "id": "gunparade-orchestra-episode-18",
+      "title": "The Door to Summer",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b858-PUfsBakM2C1v.jpg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:21:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gunparade-orchestra-episode-18"
+    },
+    {
+      "id": "gunparade-orchestra-episode-19",
+      "title": "Beloved Planet",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b858-PUfsBakM2C1v.jpg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:21:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gunparade-orchestra-episode-19"
+    },
+    {
+      "id": "gunparade-orchestra-episode-20",
+      "title": "Sea of Prayers",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b858-PUfsBakM2C1v.jpg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:21:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gunparade-orchestra-episode-20"
+    },
+    {
+      "id": "gunparade-orchestra-episode-21",
+      "title": "Satomi's World",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b858-PUfsBakM2C1v.jpg",
+      "number": 21,
+      "createdAt": "2013-02-20T18:21:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gunparade-orchestra-episode-21"
+    },
+    {
+      "id": "gunparade-orchestra-episode-22",
+      "title": "Senju From the Southern Island",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b858-PUfsBakM2C1v.jpg",
+      "number": 22,
+      "createdAt": "2013-02-20T18:21:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gunparade-orchestra-episode-22"
+    },
+    {
+      "id": "gunparade-orchestra-episode-23",
+      "title": "Marathon Man",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b858-PUfsBakM2C1v.jpg",
+      "number": 23,
+      "createdAt": "2013-02-20T18:21:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gunparade-orchestra-episode-23"
+    },
+    {
+      "id": "gunparade-orchestra-episode-24",
+      "title": "At the End of Summer",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b858-PUfsBakM2C1v.jpg",
+      "number": 24,
+      "createdAt": "2013-02-20T18:21:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gunparade-orchestra-episode-24"
+    }
+  ]
+}

@@ -1,0 +1,460 @@
+{
+  "id": "127957",
+  "title": {
+    "romaji": "Holy Knight Light",
+    "english": null,
+    "native": "Holy Knight Light"
+  },
+  "malId": 45574,
+  "synonyms": [
+    "Arknights 1st Anniversary Special Animation",
+    "アークナイツ 1周年記念アニメ"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "u82r6NIkTbU",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/u82r6NIkTbU/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx127957-pO4WwM8WhgRQ.png",
+  "popularity": 1988,
+  "color": "#e4a15d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/127957-YIvZjuImo7WZ.jpg",
+  "description": "A special animation made by Yostar Pictures to celebrate Arknights 1st Anniversary (outside of China).",
+  "status": "Completed",
+  "releaseDate": 2020,
+  "startDate": {
+    "year": 2020,
+    "month": 12,
+    "day": 25
+  },
+  "endDate": {
+    "year": 2020,
+    "month": 12,
+    "day": 25
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 70,
+  "duration": 10,
+  "genres": [
+    "Action",
+    "Fantasy"
+  ],
+  "season": null,
+  "studios": [
+    "Yostar Pictures"
+  ],
+  "subOrDub": "sub",
+  "type": "SPECIAL",
+  "recommendations": [
+    {
+      "id": 119080,
+      "malId": 42163,
+      "title": {
+        "romaji": "Arknights Anime PVs",
+        "english": "Arknights Animation PVs",
+        "native": "アークナイツ アニメPVs",
+        "userPreferred": "Arknights Anime PVs"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx119080-z78DHgQr0ovq.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/119080-zFaYijQ7c4NH.jpg",
+      "rating": 75,
+      "type": "SPECIAL"
+    },
+    {
+      "id": 134120,
+      "malId": 49066,
+      "title": {
+        "romaji": "Artiswitch",
+        "english": "Artiswitch",
+        "native": "Artiswitch",
+        "userPreferred": "Artiswitch"
+      },
+      "status": "Completed",
+      "episodes": 6,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx134120-KvcC6jMnAWSb.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/134120-UH2csuBZnAMY.jpg",
+      "rating": 70,
+      "type": "ONA"
+    },
+    {
+      "id": 138416,
+      "malId": 48824,
+      "title": {
+        "romaji": "Blue Archive Anime PV",
+        "english": null,
+        "native": "ブルーアーカイブ アニメPV",
+        "userPreferred": "Blue Archive Anime PV"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx138416-Ez4Zd3nd3oz3.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx138416-Ez4Zd3nd3oz3.jpg",
+      "rating": 72,
+      "type": "SPECIAL"
+    }
+  ],
+  "characters": [
+    {
+      "id": 174800,
+      "role": "MAIN",
+      "name": {
+        "first": "Hoshiguma",
+        "last": null,
+        "full": "Hoshiguma",
+        "native": "星熊",
+        "userPreferred": "Hoshiguma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b174800-G33v3uhBrYPr.jpg",
+      "voiceActors": [
+        {
+          "id": 107711,
+          "language": "Japanese",
+          "name": {
+            "first": "Kiyono",
+            "last": "Yasuno",
+            "full": "Kiyono Yasuno",
+            "native": "安野希世乃",
+            "userPreferred": "Kiyono Yasuno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107711-xaS7giEK9UIU.png"
+        }
+      ]
+    },
+    {
+      "id": 218724,
+      "role": "MAIN",
+      "name": {
+        "first": "Emperor",
+        "last": null,
+        "full": "Emperor",
+        "native": "皇帝",
+        "userPreferred": "Emperor"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b218724-gcPQVkeY4QYH.jpg",
+      "voiceActors": [
+        {
+          "id": 95591,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenjirou",
+            "last": "Tsuda",
+            "full": "Kenjirou Tsuda",
+            "native": "津田健次郎",
+            "userPreferred": "Kenjirou Tsuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95591-WQGdD3ubbeoq.jpg"
+        }
+      ]
+    },
+    {
+      "id": 174797,
+      "role": "MAIN",
+      "name": {
+        "first": "Ch'en",
+        "last": null,
+        "full": "Ch'en",
+        "native": "陈",
+        "userPreferred": "Ch'en"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b174797-uy1fMpcOlHj2.jpg",
+      "voiceActors": [
+        {
+          "id": 118738,
+          "language": "Japanese",
+          "name": {
+            "first": "Shizuka",
+            "last": "Ishigami",
+            "full": "Shizuka Ishigami",
+            "native": "石上静香",
+            "userPreferred": "Shizuka Ishigami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118738-60gKflxjl80c.png"
+        }
+      ]
+    },
+    {
+      "id": 174801,
+      "role": "MAIN",
+      "name": {
+        "first": "Amiya",
+        "last": null,
+        "full": "Amiya",
+        "native": " 阿米娅",
+        "userPreferred": "Amiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b174801-TMQak4mRHb1p.jpg",
+      "voiceActors": [
+        {
+          "id": 106661,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoyo",
+            "last": "Kurosawa",
+            "full": "Tomoyo Kurosawa",
+            "native": "黒沢ともよ",
+            "userPreferred": "Tomoyo Kurosawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106661-r5f4gxJEyU67.jpg"
+        }
+      ]
+    },
+    {
+      "id": 174796,
+      "role": "MAIN",
+      "name": {
+        "first": "Texas",
+        "last": null,
+        "full": "Texas",
+        "native": "德克萨斯",
+        "userPreferred": "Texas"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b174796-2A6FqY7qBjXB.jpg",
+      "voiceActors": [
+        {
+          "id": 112297,
+          "language": "Japanese",
+          "name": {
+            "first": "Azusa",
+            "last": "Tadokoro",
+            "full": "Azusa Tadokoro",
+            "native": "田所あずさ",
+            "userPreferred": "Azusa Tadokoro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n112297-seUP8O4obuYO.png"
+        }
+      ]
+    },
+    {
+      "id": 174794,
+      "role": "MAIN",
+      "name": {
+        "first": "Exusiai",
+        "last": null,
+        "full": "Exusiai",
+        "native": "能天使",
+        "userPreferred": "Exusiai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b174794-q0q5O1742hd5.png",
+      "voiceActors": [
+        {
+          "id": 121821,
+          "language": "Japanese",
+          "name": {
+            "first": "Manaka",
+            "last": "Iwami",
+            "full": "Manaka Iwami",
+            "native": "石見舞菜香",
+            "userPreferred": "Manaka Iwami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n121821-LLWUOipBoYxJ.png"
+        }
+      ]
+    },
+    {
+      "id": 182729,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Doctor",
+        "last": null,
+        "full": "Doctor",
+        "native": "博士",
+        "userPreferred": "Doctor"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b182729-1uJe1ghqllBs.png",
+      "voiceActors": []
+    },
+    {
+      "id": 218723,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dobermann",
+        "last": null,
+        "full": "Dobermann",
+        "native": "杜宾",
+        "userPreferred": "Dobermann"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b218723-WCrWQ1QyjSWa.jpg",
+      "voiceActors": [
+        {
+          "id": 112215,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsumi",
+            "last": "Tanezaki",
+            "full": "Atsumi Tanezaki",
+            "native": "種﨑敦美",
+            "userPreferred": "Atsumi Tanezaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n112215-kfABGD8W2YSJ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 218725,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Croissant",
+        "last": null,
+        "full": "Croissant",
+        "native": "可颂",
+        "userPreferred": "Croissant"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b218725-DLCrgpYmNI2a.jpg",
+      "voiceActors": [
+        {
+          "id": 112209,
+          "language": "Japanese",
+          "name": {
+            "first": "Yurika",
+            "last": "Kubo",
+            "full": "Yurika Kubo",
+            "native": "久保ユリカ",
+            "userPreferred": "Yurika Kubo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n112209-6rgze0vZlnG6.png"
+        }
+      ]
+    },
+    {
+      "id": 218726,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sora",
+        "last": null,
+        "full": "Sora",
+        "native": "空",
+        "userPreferred": "Sora"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b218726-2FOedFp7O1Mw.jpg",
+      "voiceActors": [
+        {
+          "id": 120134,
+          "language": "Japanese",
+          "name": {
+            "first": "Minori",
+            "last": "Suzuki",
+            "full": "Minori Suzuki",
+            "native": "鈴木みのり",
+            "userPreferred": "Minori Suzuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n120134-RJ2camxQoR5E.jpg"
+        }
+      ]
+    },
+    {
+      "id": 182074,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jessica",
+        "last": null,
+        "full": "Jessica",
+        "native": "杰西卡",
+        "userPreferred": "Jessica"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b182074-P4gBVgofuMIK.jpg",
+      "voiceActors": [
+        {
+          "id": 95111,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryou",
+            "last": "Hirohashi",
+            "full": "Ryou Hirohashi",
+            "native": "広橋涼",
+            "userPreferred": "Ryou Hirohashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/95111-iw76EbsupYkS.jpg"
+        }
+      ]
+    },
+    {
+      "id": 275518,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shoujo",
+        "last": null,
+        "full": "Shoujo",
+        "native": "少女",
+        "userPreferred": "Shoujo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b275518-rO6hTy0Gu7ry.png",
+      "voiceActors": [
+        {
+          "id": 121961,
+          "language": "Japanese",
+          "name": {
+            "first": "Konomi",
+            "last": "Kohara",
+            "full": "Konomi Kohara",
+            "native": "小原好美",
+            "userPreferred": "Konomi Kohara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n121961-TaMewK1taQm6.png"
+        }
+      ]
+    },
+    {
+      "id": 212043,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nearl",
+        "last": null,
+        "full": "Nearl",
+        "native": "临光",
+        "userPreferred": "Nearl"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b212043-k7Dp77CWJuwF.png",
+      "voiceActors": [
+        {
+          "id": 106622,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayane",
+            "last": "Sakura",
+            "full": "Ayane Sakura",
+            "native": "佐倉綾音",
+            "userPreferred": "Ayane Sakura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106622-yemj6ymLz4lY.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 140660,
+      "relationType": "CHARACTER",
+      "malId": 50205,
+      "title": {
+        "romaji": "Arknights: Reimei Zensou",
+        "english": "Arknights: PRELUDE TO DAWN",
+        "native": "アークナイツ 黎明前奏",
+        "userPreferred": "Arknights: Reimei Zensou"
+      },
+      "status": "Completed",
+      "episodes": 8,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx140660-iJAS9omOJdzU.jpg",
+      "color": null,
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/140660-NUPbNxp8Ed2L.jpg",
+      "rating": 70
+    }
+  ],
+  "episodes": [
+    {
+      "id": "holy-knight-light-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx127957-pO4WwM8WhgRQ.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//holy-knight-light-episode-1"
+    }
+  ]
+}

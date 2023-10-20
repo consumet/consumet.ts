@@ -1,0 +1,301 @@
+{
+  "id": "11313",
+  "title": {
+    "romaji": "Kimi no Iru Machi: Tasogare Kousaten",
+    "english": null,
+    "native": "君のいる町 黄昏交差点"
+  },
+  "malId": 11313,
+  "synonyms": [
+    "A Town Where You Live: Twilight Intersection"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11313-GhHV6Pnhy4FA.jpg",
+  "popularity": 7795,
+  "color": "#86bbe4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11313-GhHV6Pnhy4FA.jpg",
+  "description": "Eba Yuzuki has mysteriously decided to go to high school in the countryside. But despite Kirishima Haruto's objections, she is living in his home. Now he has to put up with a freeloading city girl and even worse, make sure Kanzaki Nanami, the girl he likes, doesn't get the wrong idea!",
+  "status": "Completed",
+  "releaseDate": 2012,
+  "startDate": {
+    "year": 2012,
+    "month": 3,
+    "day": 16
+  },
+  "endDate": {
+    "year": 2012,
+    "month": 6,
+    "day": 15
+  },
+  "totalEpisodes": 2,
+  "currentEpisode": 2,
+  "rating": 67,
+  "duration": 24,
+  "genres": [
+    "Drama",
+    "Romance"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Tatsunoko Production"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 17402,
+      "role": "MAIN",
+      "name": {
+        "first": "Haruto",
+        "last": "Kirishima",
+        "full": "Haruto Kirishima",
+        "native": "桐島 青大",
+        "userPreferred": "Haruto Kirishima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17402.jpg",
+      "voiceActors": [
+        {
+          "id": 95099,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyuki",
+            "last": "Sawashiro",
+            "full": "Miyuki Sawashiro",
+            "native": "沢城みゆき",
+            "userPreferred": "Miyuki Sawashiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95099-jKP4LfPWqetk.jpg"
+        },
+        {
+          "id": 100626,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshimasa",
+            "last": "Hosoya",
+            "full": "Yoshimasa Hosoya",
+            "native": "細谷佳正",
+            "userPreferred": "Yoshimasa Hosoya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100626-bH8eZ0wv3HYX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17712,
+      "role": "MAIN",
+      "name": {
+        "first": "Yuzuki",
+        "last": "Eba",
+        "full": "Yuzuki Eba",
+        "native": "枝葉 柚希",
+        "userPreferred": "Yuzuki Eba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17712.jpg",
+      "voiceActors": [
+        {
+          "id": 96105,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Nakajima",
+            "full": "Megumi Nakajima",
+            "native": "中島愛",
+            "userPreferred": "Megumi Nakajima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96105-KqV1Jn0RelZg.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17403,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nanami",
+        "last": "Kanzaki",
+        "full": "Nanami Kanzaki",
+        "native": "神咲 七海",
+        "userPreferred": "Nanami Kanzaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17403.jpg",
+      "voiceActors": [
+        {
+          "id": 95869,
+          "language": "Japanese",
+          "name": {
+            "first": "Saori",
+            "last": "Hayami",
+            "full": "Saori Hayami",
+            "native": "早見沙織",
+            "userPreferred": "Saori Hayami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95869-qCQ0EaWpq1QT.png"
+        }
+      ]
+    },
+    {
+      "id": 29102,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rin",
+        "last": "Eba",
+        "full": "Rin Eba",
+        "native": "枝葉 懍",
+        "userPreferred": "Rin Eba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29102.jpg",
+      "voiceActors": [
+        {
+          "id": 101686,
+          "language": "Japanese",
+          "name": {
+            "first": "Aoi",
+            "last": "Yuuki",
+            "full": "Aoi Yuuki",
+            "native": "悠木碧",
+            "userPreferred": "Aoi Yuuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101686-PTd0lQZMsmcv.png"
+        }
+      ]
+    },
+    {
+      "id": 29294,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Takashi",
+        "last": "Yura",
+        "full": "Takashi Yura",
+        "native": "由良 尊",
+        "userPreferred": "Takashi Yura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29294.jpg",
+      "voiceActors": [
+        {
+          "id": 107017,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiki",
+            "last": "Masuda",
+            "full": "Toshiki Masuda",
+            "native": "増田俊樹",
+            "userPreferred": "Toshiki Masuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107017-Jv96B9DBJOy9.png"
+        }
+      ]
+    },
+    {
+      "id": 29295,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Akari",
+        "last": "Kaga",
+        "full": "Akari Kaga",
+        "native": "加賀 月",
+        "userPreferred": "Akari Kaga"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29295.jpg",
+      "voiceActors": [
+        {
+          "id": 109503,
+          "language": "Japanese",
+          "name": {
+            "first": "Nana",
+            "last": "Kouno",
+            "full": "Nana Kouno",
+            "native": "菜々 高野",
+            "userPreferred": "Nana Kouno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14503.jpg"
+        }
+      ]
+    },
+    {
+      "id": 83695,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Haruna",
+        "last": "Koba",
+        "full": "Haruna Koba",
+        "native": "古葉遥奈",
+        "userPreferred": "Haruna Koba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b83695-jalqDlq9uikG.png",
+      "voiceActors": [
+        {
+          "id": 114974,
+          "language": "Japanese",
+          "name": {
+            "first": "Erina",
+            "last": "Mano",
+            "full": "Erina Mano",
+            "native": "真野恵里菜",
+            "userPreferred": "Erina Mano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n114974-ydD7VMjLNRXB.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 38483,
+      "relationType": "ADAPTATION",
+      "malId": 8483,
+      "title": {
+        "romaji": "Kimi no Iru Machi",
+        "english": "A Town Where You Live",
+        "native": "君のいる町",
+        "userPreferred": "Kimi no Iru Machi"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx38483-Hx46f7UBwzqK.jpg",
+      "color": "#d61a50",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/n38483-vOWaWao2TRsD.jpg",
+      "rating": 74
+    },
+    {
+      "id": 17741,
+      "relationType": "SEQUEL",
+      "malId": 17741,
+      "title": {
+        "romaji": "Kimi no Iru Machi",
+        "english": "A Town Where You Live",
+        "native": "君のいる町",
+        "userPreferred": "Kimi no Iru Machi"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx17741-0PUdx0BSMot6.png",
+      "color": "#35e4f1",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/17741-sYYi1X8t1zbw.jpg",
+      "rating": 64
+    }
+  ],
+  "episodes": [
+    {
+      "id": "kimi-no-iru-machi-tasogare-kousaten-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11313-GhHV6Pnhy4FA.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//kimi-no-iru-machi-tasogare-kousaten-episode-1"
+    },
+    {
+      "id": "kimi-no-iru-machi-tasogare-kousaten-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11313-GhHV6Pnhy4FA.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//kimi-no-iru-machi-tasogare-kousaten-episode-2"
+    }
+  ]
+}

@@ -1,0 +1,808 @@
+{
+  "id": "108623",
+  "title": {
+    "romaji": "Goblin Slayer: GOBLIN'S CROWN",
+    "english": "GOBLIN SLAYER -GOBLIN’S CROWN-",
+    "native": "ゴブリンスレイヤー -GOBLIN'S CROWN-"
+  },
+  "malId": 39576,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "ulKqQPha3SQ",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/ulKqQPha3SQ/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108623-pREPeutedpc2.jpg",
+  "popularity": 66901,
+  "color": "#e4c95d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108623-9FL63jABa1N9.jpg",
+  "description": "“Please find any information on the Noble Fencer that disappeared after leaving to slay some goblins.”<br>\n<br>\nGoblin Slayer and his party head up to the snowy mountains in the north after receiving that request from the Sword Maiden. A small village gets attacked, they encounter a mysterious chapel, and something about how these goblins are acting bothers the Goblin slayer.<br>\n<br>\n“I’m going to take back everything that I’ve lost!”<br>\n<br>\nIn order to save the captured Noble Fencer, the Goblin Slayer and his party head to an ancient fortress covered in snow to face off with a powerful foe and a horde of goblins!<br>\n<br>\n(Source: Crunchyroll)",
+  "status": "Completed",
+  "releaseDate": 2020,
+  "startDate": {
+    "year": 2020,
+    "month": 2,
+    "day": 1
+  },
+  "endDate": {
+    "year": 2020,
+    "month": 2,
+    "day": 1
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 71,
+  "duration": 60,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "White Fox"
+  ],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [
+    {
+      "id": 97768,
+      "malId": 34279,
+      "title": {
+        "romaji": "Grancrest Senki",
+        "english": "Record of Grancrest War",
+        "native": "グランクレスト戦記",
+        "userPreferred": "Grancrest Senki"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97768-atbPjYJNXnIo.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97768-NL4b20YyPIDs.jpg",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 99263,
+      "malId": 35790,
+      "title": {
+        "romaji": "Tate no Yuusha no Nariagari",
+        "english": "The Rising of the Shield Hero",
+        "native": "盾の勇者の成り上がり",
+        "userPreferred": "Tate no Yuusha no Nariagari"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99263-SJSk5d6mhQZO.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99263-IwkmdCTsDY1t.jpg",
+      "rating": 77,
+      "type": "TV"
+    },
+    {
+      "id": 20832,
+      "malId": 29803,
+      "title": {
+        "romaji": "Overlord",
+        "english": "Overlord",
+        "native": "オーバーロード",
+        "userPreferred": "Overlord"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx20832-Kz7PMdGT0JI6.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20832-NswCiSYMoI2k.jpg",
+      "rating": 76,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 126458,
+      "role": "MAIN",
+      "name": {
+        "first": "Goblin Slayer",
+        "last": null,
+        "full": "Goblin Slayer",
+        "native": "ゴブリンスレイヤー",
+        "userPreferred": "Goblin Slayer"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b126458-wCulCEFEPZSK.png",
+      "voiceActors": [
+        {
+          "id": 118908,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuichirou",
+            "last": "Umehara",
+            "full": "Yuuichirou Umehara",
+            "native": "梅原裕一郎",
+            "userPreferred": "Yuuichirou Umehara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/118908-f16PugVCnZfT.jpg"
+        },
+        {
+          "id": 103028,
+          "language": "English",
+          "name": {
+            "first": "Brad",
+            "last": "Hawkins",
+            "full": "Brad Hawkins",
+            "native": null,
+            "userPreferred": "Brad Hawkins"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8028.jpg"
+        },
+        {
+          "id": 119594,
+          "language": "Italian",
+          "name": {
+            "first": "Federico",
+            "last": "Viola",
+            "full": "Federico Viola",
+            "native": null,
+            "userPreferred": "Federico Viola"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119594-5QEcveRvgjbP.png"
+        },
+        {
+          "id": 155760,
+          "language": "French",
+          "name": {
+            "first": "Pascal",
+            "last": "Gimenez",
+            "full": "Pascal Gimenez",
+            "native": null,
+            "userPreferred": "Pascal Gimenez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n155760-l50tHah2LlMq.jpg"
+        },
+        {
+          "id": 116417,
+          "language": "German",
+          "name": {
+            "first": "Roman",
+            "last": "Wolko",
+            "full": "Roman Wolko",
+            "native": null,
+            "userPreferred": "Roman Wolko"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n116417-TJXhgYKKp2hs.jpg"
+        }
+      ]
+    },
+    {
+      "id": 126483,
+      "role": "MAIN",
+      "name": {
+        "first": "Onna Shinkan",
+        "last": null,
+        "full": "Onna Shinkan",
+        "native": "女神官",
+        "userPreferred": "Onna Shinkan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b126483-NQuBqaXHUJO2.jpg",
+      "voiceActors": [
+        {
+          "id": 105981,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Ogura",
+            "full": "Yui Ogura",
+            "native": "小倉唯",
+            "userPreferred": "Yui Ogura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105981-CDMPx1Q79Aum.png"
+        },
+        {
+          "id": 129211,
+          "language": "English",
+          "name": {
+            "first": "Hayden",
+            "last": "Daviau",
+            "full": "Hayden Daviau",
+            "native": null,
+            "userPreferred": "Hayden Daviau"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n129211-WGGfYI7WsnsH.jpg"
+        },
+        {
+          "id": 157477,
+          "language": "Italian",
+          "name": {
+            "first": "Laura ",
+            "last": "Cherubelli",
+            "full": "Laura  Cherubelli",
+            "native": "Laura Cherubelli",
+            "userPreferred": "Laura  Cherubelli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n157477-pnobMnTNWaQ3.jpg"
+        },
+        {
+          "id": 139698,
+          "language": "German",
+          "name": {
+            "first": "Victoria",
+            "last": "Frenz",
+            "full": "Victoria Frenz",
+            "native": null,
+            "userPreferred": "Victoria Frenz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 126487,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tokage Souryo",
+        "last": null,
+        "full": "Tokage Souryo",
+        "native": "蜥蜴僧侶",
+        "userPreferred": "Tokage Souryo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n126487-TErPQ7ADCryW.jpg",
+      "voiceActors": [
+        {
+          "id": 95002,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Sugita",
+            "full": "Tomokazu Sugita",
+            "native": "杉田智和",
+            "userPreferred": "Tomokazu Sugita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95002-nDIvHaynicEg.png"
+        },
+        {
+          "id": 127748,
+          "language": "English",
+          "name": {
+            "first": "Josh",
+            "last": "Bangle",
+            "full": "Josh Bangle",
+            "native": null,
+            "userPreferred": "Josh Bangle"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n127748-u3HPb1cuCo8o.jpg"
+        },
+        {
+          "id": 164445,
+          "language": "Italian",
+          "name": {
+            "first": "Luca",
+            "last": "Ghignone",
+            "full": "Luca Ghignone",
+            "native": null,
+            "userPreferred": "Luca Ghignone"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n164445-CWKeycJ0TJuP.png"
+        },
+        {
+          "id": 139699,
+          "language": "German",
+          "name": {
+            "first": "Marlin",
+            "last": "Wick",
+            "full": "Marlin Wick",
+            "native": null,
+            "userPreferred": "Marlin Wick"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n139699-N006LcEUmCTo.png"
+        }
+      ]
+    },
+    {
+      "id": 132632,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Goblins",
+        "last": null,
+        "full": "Goblins",
+        "native": "ゴブリン",
+        "userPreferred": "Goblins"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n132632-rHa6hK46MzYb.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 128254,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kouhito Doushi",
+        "last": null,
+        "full": "Kouhito Doushi",
+        "native": "鉱人道士",
+        "userPreferred": "Kouhito Doushi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n128254-6x8qS52q9Q0n.jpg",
+      "voiceActors": [
+        {
+          "id": 95513,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuichi",
+            "last": "Nakamura",
+            "full": "Yuuichi Nakamura",
+            "native": "中村悠一",
+            "userPreferred": "Yuuichi Nakamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95513-up9ZDuocHgRs.png"
+        },
+        {
+          "id": 95872,
+          "language": "English",
+          "name": {
+            "first": "Kent",
+            "last": "Williams",
+            "full": "Kent Williams",
+            "native": null,
+            "userPreferred": "Kent Williams"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/872.jpg"
+        },
+        {
+          "id": 101797,
+          "language": "Italian",
+          "name": {
+            "first": "Riccardo",
+            "last": "Rovatti",
+            "full": "Riccardo Rovatti",
+            "native": null,
+            "userPreferred": "Riccardo Rovatti"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6797.jpg"
+        },
+        {
+          "id": 135845,
+          "language": "German",
+          "name": {
+            "first": "Elmar",
+            "last": "Gutmann",
+            "full": "Elmar Gutmann",
+            "native": null,
+            "userPreferred": "Elmar Gutmann"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n135845-SH5HyIeTZ7iI.png"
+        }
+      ]
+    },
+    {
+      "id": 188204,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Reijou Kenshi",
+        "last": "",
+        "full": "Reijou Kenshi",
+        "native": "令嬢剣士",
+        "userPreferred": "Reijou Kenshi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b188204-i0puFnVSEyTg.png",
+      "voiceActors": [
+        {
+          "id": 109441,
+          "language": "Japanese",
+          "name": {
+            "first": "Sumire",
+            "last": "Uesaka",
+            "full": "Sumire Uesaka",
+            "native": "上坂すみれ",
+            "userPreferred": "Sumire Uesaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109441-lVHpd6BN2g16.png"
+        },
+        {
+          "id": 156013,
+          "language": "English",
+          "name": {
+            "first": "Anairis",
+            "last": "Quiñones",
+            "full": "Anairis Quiñones",
+            "native": null,
+            "userPreferred": "Anairis Quiñones"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n156013-v06CHeYgx1JL.png"
+        },
+        {
+          "id": 104076,
+          "language": "German",
+          "name": {
+            "first": "Tanya",
+            "last": "Kahana",
+            "full": "Tanya Kahana",
+            "native": null,
+            "userPreferred": "Tanya Kahana"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9076.jpg"
+        }
+      ]
+    },
+    {
+      "id": 126485,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Uketsuke-jou",
+        "last": null,
+        "full": "Uketsuke-jou",
+        "native": "受付嬢",
+        "userPreferred": "Uketsuke-jou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/126485-2zo57ux4EMeC.jpg",
+      "voiceActors": [
+        {
+          "id": 108639,
+          "language": "Japanese",
+          "name": {
+            "first": "Maaya",
+            "last": "Uchida",
+            "full": "Maaya Uchida",
+            "native": "内田真礼",
+            "userPreferred": "Maaya Uchida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n108639-LLrR4WptCh5s.png"
+        },
+        {
+          "id": 119613,
+          "language": "English",
+          "name": {
+            "first": "Sara",
+            "last": "Ragsdale",
+            "full": "Sara Ragsdale",
+            "native": null,
+            "userPreferred": "Sara Ragsdale"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/24613-2XHgMx9R7AzO.jpg"
+        },
+        {
+          "id": 102533,
+          "language": "Italian",
+          "name": {
+            "first": "Francesca",
+            "last": "Bielli",
+            "full": "Francesca Bielli",
+            "native": null,
+            "userPreferred": "Francesca Bielli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7533.jpg"
+        },
+        {
+          "id": 133021,
+          "language": "German",
+          "name": {
+            "first": "Daniela",
+            "last": "Molina",
+            "full": "Daniela Molina",
+            "native": null,
+            "userPreferred": "Daniela Molina"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n133021-ernYdy9fTkVe.png"
+        }
+      ]
+    },
+    {
+      "id": 126484,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ushikai Musume",
+        "last": null,
+        "full": "Ushikai Musume",
+        "native": "牛飼娘",
+        "userPreferred": "Ushikai Musume"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/126484-izE4ON548jnn.jpg",
+      "voiceActors": [
+        {
+          "id": 95885,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuka",
+            "last": "Iguchi",
+            "full": "Yuka Iguchi",
+            "native": "井口裕香",
+            "userPreferred": "Yuka Iguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95885-8Le2NWyACKNt.png"
+        },
+        {
+          "id": 127740,
+          "language": "English",
+          "name": {
+            "first": "Brittany",
+            "last": "Lauda",
+            "full": "Brittany Lauda",
+            "native": null,
+            "userPreferred": "Brittany Lauda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n127740-O7kEd5orxMeM.jpg"
+        },
+        {
+          "id": 96284,
+          "language": "Italian",
+          "name": {
+            "first": "Jolanda",
+            "last": "Granato",
+            "full": "Jolanda Granato",
+            "native": null,
+            "userPreferred": "Jolanda Granato"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1284.jpg"
+        },
+        {
+          "id": 102109,
+          "language": "German",
+          "name": {
+            "first": "Jennifer",
+            "last": "Weiß",
+            "full": "Jennifer Weiß",
+            "native": null,
+            "userPreferred": "Jennifer Weiß"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7109.jpg"
+        }
+      ]
+    },
+    {
+      "id": 126486,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Majo",
+        "last": null,
+        "full": "Majo",
+        "native": "魔女",
+        "userPreferred": "Majo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n126486-e0DjNT3rBOT7.png",
+      "voiceActors": [
+        {
+          "id": 102263,
+          "language": "Japanese",
+          "name": {
+            "first": "Youko",
+            "last": "Hikasa",
+            "full": "Youko Hikasa",
+            "native": "日笠陽子",
+            "userPreferred": "Youko Hikasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102263-aaPZtNXVUljW.jpg"
+        },
+        {
+          "id": 129213,
+          "language": "English",
+          "name": {
+            "first": "Amanda",
+            "last": "Gish",
+            "full": "Amanda Gish",
+            "native": null,
+            "userPreferred": "Amanda Gish"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n129213-Zt3XLFyQFMRW.jpg"
+        },
+        {
+          "id": 138242,
+          "language": "German",
+          "name": {
+            "first": "Cornelia",
+            "last": "Waibel",
+            "full": "Cornelia Waibel",
+            "native": null,
+            "userPreferred": "Cornelia Waibel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n138242-PYzp8lbaz4OR.png"
+        }
+      ]
+    },
+    {
+      "id": 126488,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yaritsukai",
+        "last": null,
+        "full": "Yaritsukai",
+        "native": "槍使い",
+        "userPreferred": "Yaritsukai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n126488-fW2f7wryREzj.jpg",
+      "voiceActors": [
+        {
+          "id": 106817,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshitsugu",
+            "last": "Matsuoka",
+            "full": "Yoshitsugu Matsuoka",
+            "native": "松岡禎丞",
+            "userPreferred": "Yoshitsugu Matsuoka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106817-mioGQjbTWWQ6.png"
+        },
+        {
+          "id": 129212,
+          "language": "English",
+          "name": {
+            "first": "Kyle",
+            "last": "Igneczi",
+            "full": "Kyle Igneczi",
+            "native": null,
+            "userPreferred": "Kyle Igneczi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n129212-bZ6AFfgrxuaw.jpg"
+        },
+        {
+          "id": 115082,
+          "language": "Italian",
+          "name": {
+            "first": "Ruggero",
+            "last": "Andreozzi",
+            "full": "Ruggero Andreozzi",
+            "native": null,
+            "userPreferred": "Ruggero Andreozzi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/20082.jpg"
+        },
+        {
+          "id": 139694,
+          "language": "German",
+          "name": {
+            "first": "David",
+            "last": "Riedel",
+            "full": "David Riedel",
+            "native": null,
+            "userPreferred": "David Riedel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 126457,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yousei Yunde",
+        "last": null,
+        "full": "Yousei Yunde",
+        "native": "妖精弓手",
+        "userPreferred": "Yousei Yunde"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b126457-leHoOLIOZy2a.png",
+      "voiceActors": [
+        {
+          "id": 106184,
+          "language": "Japanese",
+          "name": {
+            "first": "Nao",
+            "last": "Touyama",
+            "full": "Nao Touyama",
+            "native": "東山奈央",
+            "userPreferred": "Nao Touyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106184-rFA0sHFJrbk4.png"
+        },
+        {
+          "id": 119697,
+          "language": "English",
+          "name": {
+            "first": "Mallorie",
+            "last": "Rodak",
+            "full": "Mallorie Rodak",
+            "native": null,
+            "userPreferred": "Mallorie Rodak"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/24697-qQBZowFoHEye.jpg"
+        },
+        {
+          "id": 158950,
+          "language": "Italian",
+          "name": {
+            "first": "Martina",
+            "last": "Tamburello",
+            "full": "Martina Tamburello",
+            "native": null,
+            "userPreferred": "Martina Tamburello"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n158950-IhZBU2Gp4kG8.png"
+        },
+        {
+          "id": 139695,
+          "language": "German",
+          "name": {
+            "first": "Anja",
+            "last": "Stadlober",
+            "full": "Anja Stadlober",
+            "native": null,
+            "userPreferred": "Anja Stadlober"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n139695-1jFPW1iunblc.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 87320,
+      "relationType": "ADAPTATION",
+      "malId": 95311,
+      "title": {
+        "romaji": "Goblin Slayer",
+        "english": "Goblin Slayer!",
+        "native": "ゴブリンスレイヤー",
+        "userPreferred": "Goblin Slayer"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx87320-Q7A3KfMPykcm.jpg",
+      "color": "#e4505d",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/87320-KYJvl7EQTX10.jpg",
+      "rating": 74
+    },
+    {
+      "id": 101165,
+      "relationType": "PREQUEL",
+      "malId": 37349,
+      "title": {
+        "romaji": "Goblin Slayer",
+        "english": "GOBLIN SLAYER",
+        "native": "ゴブリンスレイヤー",
+        "userPreferred": "Goblin Slayer"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx101165-dVgOyGhEP4mB.jpg",
+      "color": "#5d93e4",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101165-bXPZrNiQGPHd.jpg",
+      "rating": 71
+    },
+    {
+      "id": 87321,
+      "relationType": "ALTERNATIVE",
+      "malId": 98720,
+      "title": {
+        "romaji": "Goblin Slayer",
+        "english": "Goblin Slayer",
+        "native": "ゴブリンスレイヤー",
+        "userPreferred": "Goblin Slayer"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx87321-ijdB0SNr1JSs.jpg",
+      "color": "#e49343",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/87321-lV4TLFKrDTGv.jpg",
+      "rating": 74
+    },
+    {
+      "id": 129188,
+      "relationType": "SEQUEL",
+      "malId": 47160,
+      "title": {
+        "romaji": "Goblin Slayer II",
+        "english": "GOBLIN SLAYER II",
+        "native": "ゴブリンスレイヤーⅡ",
+        "userPreferred": "Goblin Slayer II"
+      },
+      "status": "Ongoing",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129188-zWPBGutZXgjZ.jpg",
+      "color": "#e44335",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/129188-3PyIXSkmcOPH.jpg",
+      "rating": 75
+    }
+  ],
+  "episodes": [
+    {
+      "id": "goblin-slayer-goblins-crown-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108623-pREPeutedpc2.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//goblin-slayer-goblins-crown-episode-1"
+    }
+  ]
+}

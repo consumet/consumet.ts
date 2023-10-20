@@ -1,0 +1,734 @@
+{
+  "id": "1587",
+  "title": {
+    "romaji": "Tenpou Ibun Ayakashi Ayashi",
+    "english": "Ghost Slayers Ayashi",
+    "native": "天保異聞 妖奇士"
+  },
+  "malId": 1587,
+  "synonyms": [
+    "Tenpouibun Ayakashiayashi",
+    "Strange Story of Tempou Era: Ayakashiayashi",
+    "Strange Tale from Tempou Era Ayakashi Ayashi"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1587-YnQ7GVlrmn1f.png",
+  "popularity": 2675,
+  "color": "#f19328",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1587-mHRTpuJWMOfa.jpg",
+  "description": "All things have a name by which they are defined. Amongst the named are the many long-forgotten gods that dwell within the world brought about by the prayers, fears and desires of humanity. In the famine stricken and riot plagued city of Edo, alarming events are visited upon the populace by these otherworldly beasts. Descending from the mountain tops or rising from the earth are these old gods, the Youi.<br>\n<br>\nFor nearly twenty-five years Yukiatsu Ryuudou has wandered the country-sides of Japan posing as a bodyguard, living the life of a gambler and thief, all the while denying his name. Through a chance encounter with a Youi and the members of the Office of Barbarian Knowledge Enforcement, Yukiatsu is forced to face the life he's been running from and rediscover his long hidden power of Ayagami, the ability to find true names and use them as a weapon to exorcise these beasts plaguing the material world.<br>\n<br>\n(Source: Bandai Entertainment)",
+  "status": "Completed",
+  "releaseDate": 2006,
+  "startDate": {
+    "year": 2006,
+    "month": 10,
+    "day": 7
+  },
+  "endDate": {
+    "year": 2007,
+    "month": 3,
+    "day": 31
+  },
+  "totalEpisodes": 25,
+  "currentEpisode": 25,
+  "rating": 61,
+  "duration": 20,
+  "genres": [
+    "Supernatural"
+  ],
+  "season": "FALL",
+  "studios": [
+    "bones"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 430,
+      "malId": 430,
+      "title": {
+        "romaji": "Hagane no Renkinjutsushi: Shamballa wo Yuku Mono",
+        "english": "Fullmetal Alchemist: The Movie - Conqueror of Shamballa",
+        "native": "劇場版 鋼の錬金術師 シャンバラを征く者",
+        "userPreferred": "Hagane no Renkinjutsushi: Shamballa wo Yuku Mono"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx430-Fx7lVxpcwArH.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/430-G07rfvPsD2Zg.jpg",
+      "rating": 70,
+      "type": "MOVIE"
+    },
+    {
+      "id": 21249,
+      "malId": 31147,
+      "title": {
+        "romaji": "Concrete Revolutio: Choujin Gensou",
+        "english": "Concrete Revolutio",
+        "native": "コンクリート・レボルティオ～超人幻想～",
+        "userPreferred": "Concrete Revolutio: Choujin Gensou"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21249-CoKfTRixRUis.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21249-7JvF8Np7RJ1X.jpg",
+      "rating": 63,
+      "type": "TV"
+    },
+    {
+      "id": 2152,
+      "malId": 2152,
+      "title": {
+        "romaji": "Oh! Edo Rocket",
+        "english": null,
+        "native": "大江戸ロケット",
+        "userPreferred": "Oh! Edo Rocket"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2152-9q9cihFfHlCJ.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2152-9q9cihFfHlCJ.jpg",
+      "rating": 65,
+      "type": "TV"
+    },
+    {
+      "id": 3935,
+      "malId": 3935,
+      "title": {
+        "romaji": "Karakuri Kiden: Hiwou Senki",
+        "english": "Clockwork Fighters Hiwou's War",
+        "native": "機巧奇傳 ヒヲウ戦記",
+        "userPreferred": "Karakuri Kiden: Hiwou Senki"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3935-SVAnvZL9qlW7.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3935-SVAnvZL9qlW7.jpg",
+      "rating": 55,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 4364,
+      "role": "MAIN",
+      "name": {
+        "first": "Yukiatsu",
+        "last": "Ryuudou",
+        "full": "Yukiatsu Ryuudou",
+        "native": "竜導往壓",
+        "userPreferred": "Yukiatsu Ryuudou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4364-8wRNfd9D9Eiu.png",
+      "voiceActors": [
+        {
+          "id": 95063,
+          "language": "Japanese",
+          "name": {
+            "first": "Keiji",
+            "last": "Fujiwara",
+            "full": "Keiji Fujiwara",
+            "native": "藤原啓治",
+            "userPreferred": "Keiji Fujiwara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95063-xAsEUzspuLMG.jpg"
+        },
+        {
+          "id": 95012,
+          "language": "English",
+          "name": {
+            "first": "Steven",
+            "last": "Blum",
+            "full": "Steven Blum",
+            "native": null,
+            "userPreferred": "Steven Blum"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95012-jnlK6VyCTf9P.png"
+        }
+      ]
+    },
+    {
+      "id": 4367,
+      "role": "MAIN",
+      "name": {
+        "first": "Saizou",
+        "last": null,
+        "full": "Saizou",
+        "native": "宰蔵",
+        "userPreferred": "Saizou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4367.jpg",
+      "voiceActors": [
+        {
+          "id": 100919,
+          "language": "Japanese",
+          "name": {
+            "first": "Michi",
+            "last": "Niino",
+            "full": "Michi Niino",
+            "native": "新野美知",
+            "userPreferred": "Michi Niino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100919-1bMmksbycN0f.jpg"
+        },
+        {
+          "id": 95396,
+          "language": "English",
+          "name": {
+            "first": "Stephanie",
+            "last": "Sheh",
+            "full": "Stephanie Sheh",
+            "native": null,
+            "userPreferred": "Stephanie Sheh"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95396-tNpkTyDD9Y1g.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4366,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Genbatsu",
+        "last": "Edo",
+        "full": "Genbatsu Edo",
+        "native": "江戸元閥",
+        "userPreferred": "Genbatsu Edo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4366.jpg",
+      "voiceActors": [
+        {
+          "id": 95022,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinichirou",
+            "last": "Miki",
+            "full": "Shinichirou Miki",
+            "native": "三木眞一郎",
+            "userPreferred": "Shinichirou Miki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95022-BXggjIr4KHqd.png"
+        },
+        {
+          "id": 95019,
+          "language": "English",
+          "name": {
+            "first": "Crispin",
+            "last": "Freeman",
+            "full": "Crispin Freeman",
+            "native": null,
+            "userPreferred": "Crispin Freeman"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95019-o7SDOiPsPXKs.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13717,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kyosai",
+        "last": "Kawanabe",
+        "full": "Kyosai Kawanabe",
+        "native": null,
+        "userPreferred": "Kyosai Kawanabe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/13717.jpg",
+      "voiceActors": [
+        {
+          "id": 95945,
+          "language": "Japanese",
+          "name": {
+            "first": "Mitsuaki",
+            "last": "Hoshino",
+            "full": "Mitsuaki Hoshino",
+            "native": "星野充昭",
+            "userPreferred": "Mitsuaki Hoshino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95945-SnY7HVDqchdI.jpg"
+        },
+        {
+          "id": 95024,
+          "language": "Japanese",
+          "name": {
+            "first": "Minami",
+            "last": "Takayama",
+            "full": "Minami Takayama",
+            "native": "高山みなみ",
+            "userPreferred": "Minami Takayama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95024-qsZgGp8VHqMP.png"
+        },
+        {
+          "id": 95319,
+          "language": "English",
+          "name": {
+            "first": "Mona",
+            "last": "Marshall",
+            "full": "Mona Marshall",
+            "native": null,
+            "userPreferred": "Mona Marshall"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95319-3WvgbpEGuhzQ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29801,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kumoshichi",
+        "last": null,
+        "full": "Kumoshichi",
+        "native": "雲七",
+        "userPreferred": "Kumoshichi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29801.jpg",
+      "voiceActors": [
+        {
+          "id": 95058,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuji",
+            "last": "Ueda",
+            "full": "Yuuji Ueda",
+            "native": "うえだゆうじ",
+            "userPreferred": "Yuuji Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95058-fGnId7E4tgx3.jpg"
+        },
+        {
+          "id": 96035,
+          "language": "English",
+          "name": {
+            "first": "Doug",
+            "last": "Stone",
+            "full": "Doug Stone",
+            "native": null,
+            "userPreferred": "Doug Stone"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1035.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4456,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Atl",
+        "last": null,
+        "full": "Atl",
+        "native": "アトル",
+        "userPreferred": "Atl"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4456.jpg",
+      "voiceActors": [
+        {
+          "id": 95152,
+          "language": "Japanese",
+          "name": {
+            "first": "Fumiko",
+            "last": "Orikasa",
+            "full": "Fumiko Orikasa",
+            "native": "折笠富美子",
+            "userPreferred": "Fumiko Orikasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95152-X9K5ciNGSX35.jpg"
+        },
+        {
+          "id": 95069,
+          "language": "English",
+          "name": {
+            "first": "Julie Ann",
+            "last": "Taylor",
+            "full": "Julie Ann Taylor",
+            "native": null,
+            "userPreferred": "Julie Ann Taylor"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95069-p9hAHPHgmu8Y.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9935,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Youzou",
+        "last": "Torii",
+        "full": "Youzou Torii",
+        "native": "鳥居耀蔵",
+        "userPreferred": "Youzou Torii"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/9935.jpg",
+      "voiceActors": [
+        {
+          "id": 95084,
+          "language": "Japanese",
+          "name": {
+            "first": "Norio",
+            "last": "Wakamoto",
+            "full": "Norio Wakamoto",
+            "native": "若本規夫",
+            "userPreferred": "Norio Wakamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95084-RTrZSU38POPF.png"
+        },
+        {
+          "id": 95990,
+          "language": "English",
+          "name": {
+            "first": "Steve",
+            "last": "Kramer",
+            "full": "Steve Kramer",
+            "native": null,
+            "userPreferred": "Steve Kramer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95990-YWt5nzmqPAwB.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4380,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Abi",
+        "last": null,
+        "full": "Abi",
+        "native": "アビ",
+        "userPreferred": "Abi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4380.jpg",
+      "voiceActors": [
+        {
+          "id": 95113,
+          "language": "Japanese",
+          "name": {
+            "first": "Rikiya",
+            "last": "Koyama",
+            "full": "Rikiya Koyama",
+            "native": "小山力也",
+            "userPreferred": "Rikiya Koyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95113-z9eyYjTKSTX4.png"
+        },
+        {
+          "id": 95353,
+          "language": "English",
+          "name": {
+            "first": "Jamieson",
+            "last": "Price",
+            "full": "Jamieson Price",
+            "native": null,
+            "userPreferred": "Jamieson K. Price"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95353-Oe3Ehd7Yo37k.png"
+        }
+      ]
+    },
+    {
+      "id": 4365,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hozaburo",
+        "last": "Ogasawara",
+        "full": "Hozaburo Ogasawara",
+        "native": "小笠原放三郎",
+        "userPreferred": "Hozaburo Ogasawara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/4365.jpg",
+      "voiceActors": [
+        {
+          "id": 95911,
+          "language": "Japanese",
+          "name": {
+            "first": "Tokuyoshi",
+            "last": "Kawashima",
+            "full": "Tokuyoshi Kawashima",
+            "native": "川島得愛",
+            "userPreferred": "Tokuyoshi Kawashima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95911-OTi0Qqvbjphr.jpg"
+        },
+        {
+          "id": 95336,
+          "language": "English",
+          "name": {
+            "first": "Kyle",
+            "last": "Hebert",
+            "full": "Kyle Hebert",
+            "native": null,
+            "userPreferred": "Kyle Hebert"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95336-VVMKFINwPYZ8.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 3248,
+      "relationType": "SEQUEL",
+      "malId": 3248,
+      "title": {
+        "romaji": "Tenpou Ibun Ayakashi Ayashi: Ayashi Shinkyoku",
+        "english": "Ghost Slayers Ayashi: Inferno OVA",
+        "native": "天保異聞 妖奇士 奇士神曲",
+        "userPreferred": "Tenpou Ibun Ayakashi Ayashi: Ayashi Shinkyoku"
+      },
+      "status": "Completed",
+      "episodes": 5,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3248.jpg",
+      "color": "#e4785d",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3248.jpg",
+      "rating": 63
+    },
+    {
+      "id": 40525,
+      "relationType": "ADAPTATION",
+      "malId": 10525,
+      "title": {
+        "romaji": "Tenpou Ibun Ayakashi Ayashi",
+        "english": "Strange Tale from Tempou Era Ayakashi Ayashi",
+        "native": "天保異聞 妖奇士",
+        "userPreferred": "Tenpou Ibun Ayakashi Ayashi"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b40525-gn97eziYp6oT.png",
+      "color": "#d6931a",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b40525-gn97eziYp6oT.png",
+      "rating": 61
+    }
+  ],
+  "episodes": [
+    {
+      "id": "ghost-slayers-ayashi-episode-1",
+      "title": "The Youi Cometh",
+      "image": "https://media.kitsu.io/episodes/thumbnails/25936/original.jpeg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:22:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ghost-slayers-ayashi-episode-1"
+    },
+    {
+      "id": "ghost-slayers-ayashi-episode-2",
+      "title": "After the Fall of the Mountain God",
+      "image": "https://media.kitsu.io/episodes/thumbnails/25937/original.jpeg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:22:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ghost-slayers-ayashi-episode-2"
+    },
+    {
+      "id": "ghost-slayers-ayashi-episode-3",
+      "title": "The Undercurrents of Beautiful Edo",
+      "image": "https://media.kitsu.io/episodes/thumbnails/25938/original.jpeg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:22:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ghost-slayers-ayashi-episode-3"
+    },
+    {
+      "id": "ghost-slayers-ayashi-episode-4",
+      "title": "Life-Size Dolls",
+      "image": "https://media.kitsu.io/episodes/thumbnails/25939/original.jpeg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:22:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ghost-slayers-ayashi-episode-4"
+    },
+    {
+      "id": "ghost-slayers-ayashi-episode-5",
+      "title": "The Tale of a Murder",
+      "image": "https://media.kitsu.io/episodes/thumbnails/25940/original.jpeg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:22:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ghost-slayers-ayashi-episode-5"
+    },
+    {
+      "id": "ghost-slayers-ayashi-episode-6",
+      "title": "Racing Dragon Aura",
+      "image": "https://media.kitsu.io/episodes/thumbnails/25941/original.jpeg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:22:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ghost-slayers-ayashi-episode-6"
+    },
+    {
+      "id": "ghost-slayers-ayashi-episode-7",
+      "title": "The Dragon is Within the Cloud",
+      "image": "https://media.kitsu.io/episodes/thumbnails/25942/original.jpeg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:22:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ghost-slayers-ayashi-episode-7"
+    },
+    {
+      "id": "ghost-slayers-ayashi-episode-8",
+      "title": "Fox Theater",
+      "image": "https://media.kitsu.io/episodes/thumbnails/25943/original.jpeg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:22:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ghost-slayers-ayashi-episode-8"
+    },
+    {
+      "id": "ghost-slayers-ayashi-episode-9",
+      "title": "Front and Back",
+      "image": "https://media.kitsu.io/episodes/thumbnails/25944/original.jpeg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:22:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ghost-slayers-ayashi-episode-9"
+    },
+    {
+      "id": "ghost-slayers-ayashi-episode-10",
+      "title": "A Maiden's Dance, Fragrance of Spring Flowers",
+      "image": "https://media.kitsu.io/episodes/thumbnails/25945/original.jpeg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:22:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ghost-slayers-ayashi-episode-10"
+    },
+    {
+      "id": "ghost-slayers-ayashi-episode-11",
+      "title": "Nikko Fey Road",
+      "image": "https://media.kitsu.io/episodes/thumbnails/25946/original.jpeg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:22:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ghost-slayers-ayashi-episode-11"
+    },
+    {
+      "id": "ghost-slayers-ayashi-episode-12",
+      "title": "Hakuryu Howls To the Moon",
+      "image": "https://media.kitsu.io/episodes/thumbnails/25947/original.jpeg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:22:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ghost-slayers-ayashi-episode-12"
+    },
+    {
+      "id": "ghost-slayers-ayashi-episode-13",
+      "title": "Heaven, Hell, and a Book of Rumors",
+      "image": "https://media.kitsu.io/episodes/thumbnails/25948/original.jpeg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:22:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ghost-slayers-ayashi-episode-13"
+    },
+    {
+      "id": "ghost-slayers-ayashi-episode-14",
+      "title": "Butterfly Dance",
+      "image": "https://media.kitsu.io/episodes/thumbnails/25949/original.jpeg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:22:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ghost-slayers-ayashi-episode-14"
+    },
+    {
+      "id": "ghost-slayers-ayashi-episode-15",
+      "title": "Woman of Rashomon Alley",
+      "image": "https://media.kitsu.io/episodes/thumbnails/25950/original.jpeg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:22:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ghost-slayers-ayashi-episode-15"
+    },
+    {
+      "id": "ghost-slayers-ayashi-episode-16",
+      "title": "People of Craft",
+      "image": "https://media.kitsu.io/episodes/thumbnails/25951/original.jpeg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:22:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ghost-slayers-ayashi-episode-16"
+    },
+    {
+      "id": "ghost-slayers-ayashi-episode-17",
+      "title": "The Shrouded World",
+      "image": "https://media.kitsu.io/episodes/thumbnails/25952/original.jpeg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:22:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ghost-slayers-ayashi-episode-17"
+    },
+    {
+      "id": "ghost-slayers-ayashi-episode-18",
+      "title": "Wanderer's Paradise",
+      "image": "https://media.kitsu.io/episodes/thumbnails/25953/original.jpeg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:22:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ghost-slayers-ayashi-episode-18"
+    },
+    {
+      "id": "ghost-slayers-ayashi-episode-19",
+      "title": "Three Yukiatsus",
+      "image": "https://media.kitsu.io/episodes/thumbnails/25954/original.jpeg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:22:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ghost-slayers-ayashi-episode-19"
+    },
+    {
+      "id": "ghost-slayers-ayashi-episode-20",
+      "title": "Shinobazu Pond Lullaby",
+      "image": "https://media.kitsu.io/episodes/thumbnails/25955/original.jpeg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:22:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ghost-slayers-ayashi-episode-20"
+    },
+    {
+      "id": "ghost-slayers-ayashi-episode-21",
+      "title": "To Perish in the Starlit Night",
+      "image": "https://media.kitsu.io/episodes/thumbnails/25956/original.jpeg",
+      "number": 21,
+      "createdAt": "2013-02-20T18:22:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ghost-slayers-ayashi-episode-21"
+    },
+    {
+      "id": "ghost-slayers-ayashi-episode-22",
+      "title": "The Drunk Who Does Not Come Home",
+      "image": "https://media.kitsu.io/episodes/thumbnails/25957/original.jpeg",
+      "number": 22,
+      "createdAt": "2013-02-20T18:22:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ghost-slayers-ayashi-episode-22"
+    },
+    {
+      "id": "ghost-slayers-ayashi-episode-23",
+      "title": "Inba Swamp Construction Along the Old Canal",
+      "image": "https://media.kitsu.io/episodes/thumbnails/25958/original.jpeg",
+      "number": 23,
+      "createdAt": "2013-02-20T18:22:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ghost-slayers-ayashi-episode-23"
+    },
+    {
+      "id": "ghost-slayers-ayashi-episode-24",
+      "title": "Fantasy of the Latter Southern Court",
+      "image": "https://media.kitsu.io/episodes/thumbnails/25959/original.jpeg",
+      "number": 24,
+      "createdAt": "2013-02-20T18:22:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ghost-slayers-ayashi-episode-24"
+    },
+    {
+      "id": "ghost-slayers-ayashi-episode-25",
+      "title": "People Are Ayashi",
+      "image": "https://media.kitsu.io/episodes/thumbnails/25960/original.jpeg",
+      "number": 25,
+      "createdAt": "2013-02-20T18:22:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//ghost-slayers-ayashi-episode-25"
+    }
+  ]
+}

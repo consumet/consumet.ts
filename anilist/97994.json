@@ -1,0 +1,864 @@
+{
+  "id": "97994",
+  "title": {
+    "romaji": "Blend S",
+    "english": "BLEND-S",
+    "native": "ブレンド・S"
+  },
+  "malId": 34618,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97994-5k4ISEsvDl5x.png",
+  "popularity": 141864,
+  "color": "#e45d78",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97994-3JZ05K3Idjco.jpg",
+  "description": "The story centers on a girl named Maika who gets a job at a cafe where all the waitresses are given certain attributes — such as \"tsundere\" or \"little sister\" — to embody while serving customers. The manager asks Maika to be the \"Do S\" (extreme sadist) waitress, so she will have to adopt a dominant and aggressive persona.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2017,
+  "startDate": {
+    "year": 2017,
+    "month": 10,
+    "day": 8
+  },
+  "endDate": {
+    "year": 2017,
+    "month": 12,
+    "day": 24
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 71,
+  "duration": 24,
+  "genres": [
+    "Comedy",
+    "Slice of Life"
+  ],
+  "season": "FALL",
+  "studios": [
+    "A-1 Pictures"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 21455,
+      "malId": 31953,
+      "title": {
+        "romaji": "NEW GAME!",
+        "english": "NEW GAME!",
+        "native": "NEW GAME!",
+        "userPreferred": "NEW GAME!"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21455-XZTQ8Fmii75j.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21455-jdmsPdbQoZFk.png",
+      "rating": 74,
+      "type": "TV"
+    },
+    {
+      "id": 20517,
+      "malId": 21273,
+      "title": {
+        "romaji": "Gochuumon wa Usagi desu ka?",
+        "english": "Is the Order a Rabbit?",
+        "native": "ご注文はうさぎですか？",
+        "userPreferred": "Gochuumon wa Usagi desu ka?"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20517-SNNUtav2knou.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20517.jpg",
+      "rating": 73,
+      "type": "TV"
+    },
+    {
+      "id": 98292,
+      "malId": 34914,
+      "title": {
+        "romaji": "NEW GAME!!",
+        "english": "NEW GAME!!",
+        "native": "NEW GAME!!",
+        "userPreferred": "NEW GAME!!"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98292-MjBqoQt8fjzF.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n98292-QChutdQfKyme.jpg",
+      "rating": 76,
+      "type": "TV"
+    },
+    {
+      "id": 18119,
+      "malId": 18119,
+      "title": {
+        "romaji": "Servant x Service",
+        "english": "Servant x Service",
+        "native": "サーバント×サービス",
+        "userPreferred": "Servant x Service"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx18119-L4l1JsqrzATj.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/18119-E1t5vS9XHovZ.jpg",
+      "rating": 74,
+      "type": "TV"
+    },
+    {
+      "id": 6956,
+      "malId": 6956,
+      "title": {
+        "romaji": "Working!!",
+        "english": "Wagnaria!!",
+        "native": "Working!!",
+        "userPreferred": "Working!!"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6956-Nxs7H25yHLNS.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6956-V7ovHknjKRlc.jpg",
+      "rating": 74,
+      "type": "TV"
+    },
+    {
+      "id": 20819,
+      "malId": 25879,
+      "title": {
+        "romaji": "Working!!!",
+        "english": "Wagnaria!!3",
+        "native": "Working!!!",
+        "userPreferred": "Working!!!"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20819-w8PLekO22Sc8.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20819-c6rR4iliUOSB.jpg",
+      "rating": 78,
+      "type": "TV"
+    },
+    {
+      "id": 10521,
+      "malId": 10521,
+      "title": {
+        "romaji": "Working'!!",
+        "english": "Wagnaria!! 2",
+        "native": "Working'!!",
+        "userPreferred": "Working'!!"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10521-dx9L5dLNJXun.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10521-DmsoEtDbMAc6.jpg",
+      "rating": 76,
+      "type": "TV"
+    },
+    {
+      "id": 20710,
+      "malId": 24031,
+      "title": {
+        "romaji": "Denki-Gai no Honya-san",
+        "english": "DENKI-GAI",
+        "native": "デンキ街の本屋さん",
+        "userPreferred": "Denki-Gai no Honya-san"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20710-MMAlTvOqkQEV.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20710-fgogt0I8ZPhK.jpg",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 21878,
+      "malId": 33731,
+      "title": {
+        "romaji": "Gabriel Dropout",
+        "english": "Gabriel DropOut",
+        "native": "ガヴリールドロップアウト",
+        "userPreferred": "Gabriel Dropout"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21878-bOwTOgyhTp7h.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21878-QVYm5dI7QOmy.jpg",
+      "rating": 73,
+      "type": "TV"
+    },
+    {
+      "id": 21517,
+      "malId": 32262,
+      "title": {
+        "romaji": "Renai Boukun",
+        "english": "Love Tyrant",
+        "native": "恋愛暴君",
+        "userPreferred": "Renai Boukun"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21517-huYdImj17Sr3.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21517-rRAzWHjDBXxM.jpg",
+      "rating": 62,
+      "type": "TV"
+    },
+    {
+      "id": 106863,
+      "malId": 38924,
+      "title": {
+        "romaji": "Nekopara",
+        "english": "Nekopara",
+        "native": "ネコぱら",
+        "userPreferred": "Nekopara"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx106863-CxiCK7HejySK.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n106863-87foKqUmpj2G.jpg",
+      "rating": 64,
+      "type": "TV"
+    },
+    {
+      "id": 21776,
+      "malId": 33206,
+      "title": {
+        "romaji": "Kobayashi-san Chi no Maidragon",
+        "english": "Miss Kobayashi's Dragon Maid",
+        "native": "小林さんちのメイドラゴン",
+        "userPreferred": "Kobayashi-san Chi no Maidragon"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21776-FJiPcLQHeTiV.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21776-hI5smQyXFK7G.jpg",
+      "rating": 78,
+      "type": "TV"
+    },
+    {
+      "id": 7054,
+      "malId": 7054,
+      "title": {
+        "romaji": "Kaichou wa Maid-sama!",
+        "english": "Maid-Sama!",
+        "native": "会長はメイド様!",
+        "userPreferred": "Kaichou wa Maid-sama!"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx7054-GW4D7VAZG19W.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/7054-iTfiX8juTvRV.jpg",
+      "rating": 77,
+      "type": "TV"
+    },
+    {
+      "id": 21764,
+      "malId": 33094,
+      "title": {
+        "romaji": "WWW.WORKING!!",
+        "english": "WWW.WAGNARIA!!",
+        "native": "WWW.WORKING!!",
+        "userPreferred": "WWW.WORKING!!"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21764-tItSTDi0QB31.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21764-jnDSG4asKWms.png",
+      "rating": 72,
+      "type": "TV"
+    },
+    {
+      "id": 99939,
+      "malId": 34658,
+      "title": {
+        "romaji": "Nekopara OVA",
+        "english": null,
+        "native": "ネコぱらOVA",
+        "userPreferred": "Nekopara OVA"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99939-O1rlvaP0UdTG.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99939-kDhj9oc1G79o.jpg",
+      "rating": 65,
+      "type": "OVA"
+    },
+    {
+      "id": 21715,
+      "malId": 33031,
+      "title": {
+        "romaji": "Shakunetsu no Takkyuu Musume",
+        "english": "Scorching Ping Pong Girls",
+        "native": "灼熱の卓球娘",
+        "userPreferred": "Shakunetsu no Takkyuu Musume"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21715-lruOD46Lr3jT.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21715-OOAMDbsHTopd.png",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 853,
+      "malId": 853,
+      "title": {
+        "romaji": "Ouran Koukou Host Club",
+        "english": "Ouran High School Host Club",
+        "native": "桜蘭高校ホスト部",
+        "userPreferred": "Ouran Koukou Host Club"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx853-OGmpjzPaRfz5.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/853-zyKz6O0grlf4.jpg",
+      "rating": 80,
+      "type": "TV"
+    },
+    {
+      "id": 104198,
+      "malId": 38337,
+      "title": {
+        "romaji": "Gochuumon wa Usagi desu ka? BLOOM",
+        "english": "Is the Order a Rabbit? BLOOM",
+        "native": "ご注文はうさぎですか？ BLOOM",
+        "userPreferred": "Gochuumon wa Usagi desu ka? BLOOM"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104198-bT8qBPJWxtiY.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/104198-z44oIGYnR5Zf.jpg",
+      "rating": 78,
+      "type": "TV"
+    },
+    {
+      "id": 20755,
+      "malId": 24833,
+      "title": {
+        "romaji": "Ansatsu Kyoushitsu",
+        "english": "Assassination Classroom",
+        "native": "暗殺教室",
+        "userPreferred": "Ansatsu Kyoushitsu"
+      },
+      "status": "Completed",
+      "episodes": 22,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20755-q0b3Ok1cAbPd.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20755-D4ipww9U8YkC.jpg",
+      "rating": 79,
+      "type": "TV"
+    },
+    {
+      "id": 98444,
+      "malId": 34798,
+      "title": {
+        "romaji": "Yuru Camp△",
+        "english": "Laid-Back Camp",
+        "native": "ゆるキャン△",
+        "userPreferred": "Yuru Camp△"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98444-zzhSw9o3LJSy.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98444-FpH9lzLiafe9.jpg",
+      "rating": 81,
+      "type": "TV"
+    },
+    {
+      "id": 5680,
+      "malId": 5680,
+      "title": {
+        "romaji": "K-ON!",
+        "english": "K-ON!",
+        "native": "けいおん!",
+        "userPreferred": "K-ON!"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5680-Xh6B67KuZ2PU.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n5680-aa5kyuG6154Y.jpg",
+      "rating": 78,
+      "type": "TV"
+    },
+    {
+      "id": 124965,
+      "malId": 43779,
+      "title": {
+        "romaji": "Eoneu Nal Jameseo Kkaeeoboni Bagelyeoga Doeeo Isseotda",
+        "english": "Bagel Girl",
+        "native": "어느 날 잠에서 깨어보니 베이글녀가 되어 있었다",
+        "userPreferred": "Eoneu Nal Jameseo Kkaeeoboni Bagelyeoga Doeeo Isseotda"
+      },
+      "status": "Completed",
+      "episodes": 15,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx124965-dWh5pfTOfRhm.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/124965-GdDQpFGvTmUi.jpg",
+      "rating": 59,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 101505,
+      "malId": 37716,
+      "title": {
+        "romaji": "Beelzebub-jou no Okinimesu mama.",
+        "english": "As Miss Beelzebub Likes it.",
+        "native": "ベルゼブブ嬢のお気に召すまま。",
+        "userPreferred": "Beelzebub-jou no Okinimesu mama."
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101505-jhNHjv7Ng3ku.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101505-CryzUUjVYZ54.jpg",
+      "rating": 69,
+      "type": "TV"
+    },
+    {
+      "id": 87517,
+      "malId": 33948,
+      "title": {
+        "romaji": "Hinako Note",
+        "english": null,
+        "native": "ひなこのーと",
+        "userPreferred": "Hinako Note"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx87517-xktTn25rZrRZ.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n87517-jLlOUMG6aZoA.jpg",
+      "rating": 64,
+      "type": "TV"
+    },
+    {
+      "id": 114840,
+      "malId": 41103,
+      "title": {
+        "romaji": "Koi to Yobu ni wa Kimochi Warui",
+        "english": "Koikimo",
+        "native": "恋と呼ぶには気持ち悪い",
+        "userPreferred": "Koi to Yobu ni wa Kimochi Warui"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114840-FlmPI0oBQjjO.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114840-hBCovojAtgG0.jpg",
+      "rating": 68,
+      "type": "ONA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 123078,
+      "role": "MAIN",
+      "name": {
+        "first": "Maika",
+        "last": "Sakuranomiya",
+        "full": "Maika Sakuranomiya",
+        "native": "桜ノ宮苺香",
+        "userPreferred": "Maika Sakuranomiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b123078-N577aCVZim8Z.png",
+      "voiceActors": [
+        {
+          "id": 119517,
+          "language": "Japanese",
+          "name": {
+            "first": "Azumi",
+            "last": "Waki",
+            "full": "Azumi Waki",
+            "native": "和氣あず未",
+            "userPreferred": "Azumi Waki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119517-ggxWaTnTOrxW.jpg"
+        }
+      ]
+    },
+    {
+      "id": 123079,
+      "role": "MAIN",
+      "name": {
+        "first": "Mafuyu",
+        "last": "Hoshikawa",
+        "full": "Mafuyu Hoshikawa",
+        "native": "星川麻冬",
+        "userPreferred": "Mafuyu Hoshikawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b123079-yIi9ZmtZrlS1.png",
+      "voiceActors": [
+        {
+          "id": 122615,
+          "language": "Japanese",
+          "name": {
+            "first": "Anzu",
+            "last": "Haruno",
+            "full": "Anzu Haruno",
+            "native": "春野杏",
+            "userPreferred": "Anzu Haruno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n122615-ccA7AB2eYvFb.png"
+        }
+      ]
+    },
+    {
+      "id": 123080,
+      "role": "MAIN",
+      "name": {
+        "first": "Kaho",
+        "last": "Hinata",
+        "full": "Kaho Hinata",
+        "native": "日向夏帆",
+        "userPreferred": "Kaho Hinata"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b123080-Gd7kKqIvnwog.png",
+      "voiceActors": [
+        {
+          "id": 119722,
+          "language": "Japanese",
+          "name": {
+            "first": "Akari",
+            "last": "Kitou",
+            "full": "Akari Kitou",
+            "native": "鬼頭明里",
+            "userPreferred": "Akari Kitou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119722-5dLCvvv1Rbcc.png"
+        }
+      ]
+    },
+    {
+      "id": 123293,
+      "role": "MAIN",
+      "name": {
+        "first": "Kouyou",
+        "last": "Akizuki",
+        "full": "Kouyou Akizuki",
+        "native": "秋月紅葉",
+        "userPreferred": "Kouyou Akizuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b123293-TeIt9KUcgEoJ.png",
+      "voiceActors": [
+        {
+          "id": 95735,
+          "language": "Japanese",
+          "name": {
+            "first": "Tatsuhisa",
+            "last": "Suzuki",
+            "full": "Tatsuhisa Suzuki",
+            "native": "鈴木達央",
+            "userPreferred": "Tatsuhisa Suzuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95735-xssSe5BRSkaq.jpg"
+        }
+      ]
+    },
+    {
+      "id": 123294,
+      "role": "MAIN",
+      "name": {
+        "first": "Dino",
+        "last": "",
+        "full": "Dino",
+        "native": "ディーノ",
+        "userPreferred": "Dino"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b123294-MYYGkYoLiDy3.jpg",
+      "voiceActors": [
+        {
+          "id": 96489,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoaki",
+            "last": "Maeno",
+            "full": "Tomoaki Maeno",
+            "native": "前野智昭",
+            "userPreferred": "Tomoaki Maeno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96489-xTzYxgdC9g9l.png"
+        }
+      ]
+    },
+    {
+      "id": 224396,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Aika",
+        "last": "Sakuranomiya",
+        "full": "Aika Sakuranomiya",
+        "native": "桜ノ宮愛香",
+        "userPreferred": "Aika Sakuranomiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b224396-PeL5jfCcEo33.jpg",
+      "voiceActors": [
+        {
+          "id": 106844,
+          "language": "Japanese",
+          "name": {
+            "first": "Rei",
+            "last": "Matsuzaki",
+            "full": "Rei Matsuzaki",
+            "native": "松嵜麗",
+            "userPreferred": "Rei Matsuzaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106844-9vOY3hQLRsQJ.png"
+        }
+      ]
+    },
+    {
+      "id": 247995,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kouichi",
+        "last": "Sakuranomiya",
+        "full": "Kouichi Sakuranomiya",
+        "native": "桜ノ宮 香",
+        "userPreferred": "Kouichi Sakuranomiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b247995-TSL2mtH4JTco.png",
+      "voiceActors": [
+        {
+          "id": 170531,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinki",
+            "last": "Satou",
+            "full": "Shinki Satou",
+            "native": "佐藤信希",
+            "userPreferred": "Shinki Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n170531-DyPTWuFcQkMr.png"
+        }
+      ]
+    },
+    {
+      "id": 123295,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hideri",
+        "last": "Kanzaki",
+        "full": "Hideri Kanzaki",
+        "native": "神崎ひでり",
+        "userPreferred": "Hideri Kanzaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b123295-BYBbgGHKg41l.png",
+      "voiceActors": [
+        {
+          "id": 106361,
+          "language": "Japanese",
+          "name": {
+            "first": "Sora",
+            "last": "Tokui",
+            "full": "Sora Tokui",
+            "native": "徳井青空",
+            "userPreferred": "Sora Tokui"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106361-EMvWLkEKavEM.png"
+        }
+      ]
+    },
+    {
+      "id": 123296,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Miu",
+        "last": "Amano",
+        "full": "Miu Amano",
+        "native": "天野美雨",
+        "userPreferred": "Miu Amano"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b123296-W6j0hqP3sxS7.png",
+      "voiceActors": [
+        {
+          "id": 112215,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsumi",
+            "last": "Tanezaki",
+            "full": "Atsumi Tanezaki",
+            "native": "種﨑敦美",
+            "userPreferred": "Atsumi Tanezaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n112215-kfABGD8W2YSJ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 137890,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Owner",
+        "last": null,
+        "full": "Owner",
+        "native": "オーナー",
+        "userPreferred": "Owner"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b137890-XJvmWph3Cw96.jpg",
+      "voiceActors": [
+        {
+          "id": 95735,
+          "language": "Japanese",
+          "name": {
+            "first": "Tatsuhisa",
+            "last": "Suzuki",
+            "full": "Tatsuhisa Suzuki",
+            "native": "鈴木達央",
+            "userPreferred": "Tatsuhisa Suzuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95735-xssSe5BRSkaq.jpg"
+        }
+      ]
+    },
+    {
+      "id": 89644,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Hifumi",
+        "last": "Takimoto",
+        "full": "Hifumi Takimoto",
+        "native": "滝本ひふみ",
+        "userPreferred": "Hifumi Takimoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b89644-p8wdh7nlI17S.png",
+      "voiceActors": []
+    },
+    {
+      "id": 50225,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Shinobu",
+        "last": "Oomiya",
+        "full": "Shinobu Oomiya",
+        "native": "大宮 忍",
+        "userPreferred": "Shinobu Oomiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/50225.jpg",
+      "voiceActors": []
+    }
+  ],
+  "relations": [
+    {
+      "id": 93940,
+      "relationType": "ADAPTATION",
+      "malId": 86330,
+      "title": {
+        "romaji": "Blend S",
+        "english": "Blend S",
+        "native": "ブレンド・S",
+        "userPreferred": "Blend S"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx93940-DKdod9zcSFjJ.jpg",
+      "color": "#f19343",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/93940-5B0Moh2B08xk.jpg",
+      "rating": 70
+    }
+  ],
+  "episodes": [
+    {
+      "id": "blend-s-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97994-5k4ISEsvDl5x.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//blend-s-episode-1"
+    },
+    {
+      "id": "blend-s-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97994-5k4ISEsvDl5x.png",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//blend-s-episode-2"
+    },
+    {
+      "id": "blend-s-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97994-5k4ISEsvDl5x.png",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//blend-s-episode-3"
+    },
+    {
+      "id": "blend-s-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97994-5k4ISEsvDl5x.png",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//blend-s-episode-4"
+    },
+    {
+      "id": "blend-s-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97994-5k4ISEsvDl5x.png",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//blend-s-episode-5"
+    },
+    {
+      "id": "blend-s-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97994-5k4ISEsvDl5x.png",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//blend-s-episode-6"
+    },
+    {
+      "id": "blend-s-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97994-5k4ISEsvDl5x.png",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//blend-s-episode-7"
+    },
+    {
+      "id": "blend-s-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97994-5k4ISEsvDl5x.png",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//blend-s-episode-8"
+    },
+    {
+      "id": "blend-s-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97994-5k4ISEsvDl5x.png",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//blend-s-episode-9"
+    },
+    {
+      "id": "blend-s-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97994-5k4ISEsvDl5x.png",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//blend-s-episode-10"
+    },
+    {
+      "id": "blend-s-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97994-5k4ISEsvDl5x.png",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//blend-s-episode-11"
+    },
+    {
+      "id": "blend-s-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97994-5k4ISEsvDl5x.png",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//blend-s-episode-12"
+    }
+  ]
+}

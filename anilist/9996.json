@@ -1,0 +1,865 @@
+{
+  "id": "9996",
+  "title": {
+    "romaji": "Hyouge Mono",
+    "english": null,
+    "native": "へうげもの"
+  },
+  "malId": 9996,
+  "synonyms": [
+    "Hyougemono"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+  "popularity": 8229,
+  "color": "#e45d0d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/9996-wgb7rRx0WNRx.jpg",
+  "description": "The story is set during Japan's Sengoku Jidai (Era of the Warring States) and centers on Furuta Sasuke, a vassal of the great warlord Oda Nobunaga and a man obsessed with tea ceremony and material desires in his pursuit of a fortuitous life. Having learned from Oda and the legendary tea master Sen no Soueki, Furuta walks the way of the Hyouge Mono.\n<br><br>\n(Source: Anime News Network)<br><br>",
+  "status": "Completed",
+  "releaseDate": 2011,
+  "startDate": {
+    "year": 2011,
+    "month": 4,
+    "day": 7
+  },
+  "endDate": {
+    "year": 2012,
+    "month": 1,
+    "day": 26
+  },
+  "totalEpisodes": 39,
+  "currentEpisode": 39,
+  "rating": 76,
+  "duration": 25,
+  "genres": [
+    "Comedy",
+    "Drama"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Bee Train"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 2694,
+      "malId": 2694,
+      "title": {
+        "romaji": "Hidamari no Ki",
+        "english": null,
+        "native": "陽だまりの樹",
+        "userPreferred": "Hidamari no Ki"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx2694-dwv7yXbOb8n2.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n2694-Ui6A4TXJI4ow.jpg",
+      "rating": 72,
+      "type": "TV"
+    },
+    {
+      "id": 20972,
+      "malId": 28735,
+      "title": {
+        "romaji": "Shouwa Genroku Rakugo Shinjuu",
+        "english": "Showa Genroku Rakugo Shinju",
+        "native": "昭和元禄落語心中",
+        "userPreferred": "Shouwa Genroku Rakugo Shinjuu"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20972-95dyLz6lkCZ8.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20972-xSI4gHlmzPpK.jpg",
+      "rating": 84,
+      "type": "TV"
+    },
+    {
+      "id": 7588,
+      "malId": 7588,
+      "title": {
+        "romaji": "Saraiya Goyou",
+        "english": "House of Five Leaves",
+        "native": "さらい屋 五葉",
+        "userPreferred": "Saraiya Goyou"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx7588-iXCwrmgHGJbd.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/7588-8MeRXtXObuZT.png",
+      "rating": 75,
+      "type": "TV"
+    },
+    {
+      "id": 97590,
+      "malId": 33983,
+      "title": {
+        "romaji": "Onihei",
+        "english": "ONIHEI",
+        "native": "鬼平",
+        "userPreferred": "Onihei"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97590-T68FhBBV6QV4.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97590-qCyv7tGmyETs.png",
+      "rating": 67,
+      "type": "TV"
+    },
+    {
+      "id": 2216,
+      "malId": 2216,
+      "title": {
+        "romaji": "Shigurui",
+        "english": "Shigurui: Death Frenzy",
+        "native": "シグルイ",
+        "userPreferred": "Shigurui"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx2216-90YquKJllawX.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2216-a9QyHwfmU2Lj.jpg",
+      "rating": 69,
+      "type": "TV"
+    },
+    {
+      "id": 1589,
+      "malId": 1589,
+      "title": {
+        "romaji": "Bartender",
+        "english": "Bartender",
+        "native": "バーテンダー",
+        "userPreferred": "Bartender"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1589-DNBuqRpnVu8Y.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1589-u7jza0OrNy7T.jpg",
+      "rating": 69,
+      "type": "TV"
+    },
+    {
+      "id": 21703,
+      "malId": 32948,
+      "title": {
+        "romaji": "Fune wo Amu",
+        "english": "The Great Passage",
+        "native": "舟を編む",
+        "userPreferred": "Fune wo Amu"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21703-rXiXsRgiIO12.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21703-3JiMHroUgMTB.jpg",
+      "rating": 74,
+      "type": "TV"
+    },
+    {
+      "id": 2246,
+      "malId": 2246,
+      "title": {
+        "romaji": "Mononoke",
+        "english": "Mononoke",
+        "native": "モノノ怪",
+        "userPreferred": "Mononoke"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2246-WHkSkgyuxfgD.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2246-8DKsjLTMEFJq.png",
+      "rating": 81,
+      "type": "TV"
+    },
+    {
+      "id": 138714,
+      "malId": 49738,
+      "title": {
+        "romaji": "Heike Monogatari",
+        "english": "The Heike Story",
+        "native": "平家物語",
+        "userPreferred": "Heike Monogatari"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx138714-dLyXT5qyTYbr.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/138714-XnVrQIlHvu9J.jpg",
+      "rating": 76,
+      "type": "ONA"
+    },
+    {
+      "id": 1093,
+      "malId": 1093,
+      "title": {
+        "romaji": "Oishinbo",
+        "english": null,
+        "native": "美味しんぼ",
+        "userPreferred": "Oishinbo"
+      },
+      "status": "Completed",
+      "episodes": 136,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1093-oNUjFBdNsYlU.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1093-Qx3xozlzOSOF.jpg",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 20717,
+      "malId": 24135,
+      "title": {
+        "romaji": "Nobunaga Concerto",
+        "english": "Nobunaga Concerto",
+        "native": "信長協奏曲〈コンツェルト〉",
+        "userPreferred": "Nobunaga Concerto"
+      },
+      "status": "Completed",
+      "episodes": 10,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20717.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20717-6WvQhj0YokHT.jpg",
+      "rating": 71,
+      "type": "TV"
+    },
+    {
+      "id": 820,
+      "malId": 820,
+      "title": {
+        "romaji": "Ginga Eiyuu Densetsu",
+        "english": "Legend of the Galactic Heroes",
+        "native": "銀河英雄伝説",
+        "userPreferred": "Ginga Eiyuu Densetsu"
+      },
+      "status": "Completed",
+      "episodes": 110,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx820-K4aNRli1faSJ.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/820-FcKc3kvg60z8.jpg",
+      "rating": 88,
+      "type": "OVA"
+    },
+    {
+      "id": 20709,
+      "malId": 23987,
+      "title": {
+        "romaji": "Sarusuberi: Miss HOKUSAI",
+        "english": "Miss Hokusai",
+        "native": "百日紅 〜Miss HOKUSAI〜",
+        "userPreferred": "Sarusuberi: Miss HOKUSAI"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20709-3hRxtuoucQRI.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20709-z4z6BXg1NdHW.jpg",
+      "rating": 70,
+      "type": "MOVIE"
+    }
+  ],
+  "characters": [
+    {
+      "id": 41100,
+      "role": "MAIN",
+      "name": {
+        "first": "Sasuke",
+        "last": "Furuta",
+        "full": "Sasuke Furuta",
+        "native": "古田左介",
+        "userPreferred": "Sasuke Furuta"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b41100-8YZu8OaYo9PI.png",
+      "voiceActors": [
+        {
+          "id": 96492,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouji",
+            "last": "Ohkura",
+            "full": "Kouji Ohkura",
+            "native": "大倉孝二",
+            "userPreferred": "Kouji Ohkura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96492-6yLPe1xgq1Nv.jpg"
+        }
+      ]
+    },
+    {
+      "id": 41101,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nobunaga",
+        "last": "Oda",
+        "full": "Nobunaga Oda",
+        "native": "織田信長",
+        "userPreferred": "Nobunaga Oda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/41101.jpg",
+      "voiceActors": [
+        {
+          "id": 95113,
+          "language": "Japanese",
+          "name": {
+            "first": "Rikiya",
+            "last": "Koyama",
+            "full": "Rikiya Koyama",
+            "native": "小山力也",
+            "userPreferred": "Rikiya Koyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95113-z9eyYjTKSTX4.png"
+        }
+      ]
+    },
+    {
+      "id": 203973,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ukon",
+        "last": "Takayama",
+        "full": "Ukon Takayama",
+        "native": "高山右近",
+        "userPreferred": "Ukon Takayama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b203973-ivHR3cyeKX1N.jpg",
+      "voiceActors": [
+        {
+          "id": 95022,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinichirou",
+            "last": "Miki",
+            "full": "Shinichirou Miki",
+            "native": "三木眞一郎",
+            "userPreferred": "Shinichirou Miki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95022-BXggjIr4KHqd.png"
+        }
+      ]
+    },
+    {
+      "id": 49307,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Masamune",
+        "last": "Date",
+        "full": "Masamune Date",
+        "native": "伊達 政宗",
+        "userPreferred": "Masamune Date"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/49307.jpg",
+      "voiceActors": [
+        {
+          "id": 95123,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuya",
+            "last": "Nakai",
+            "full": "Kazuya Nakai",
+            "native": "中井和哉",
+            "userPreferred": "Kazuya Nakai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95123-qdVFNraYmQ5K.png"
+        }
+      ]
+    },
+    {
+      "id": 41102,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hideyoshi",
+        "last": "Hashiba",
+        "full": "Hideyoshi Hashiba",
+        "native": "羽柴秀吉",
+        "userPreferred": "Hideyoshi Hashiba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/41102.jpg",
+      "voiceActors": [
+        {
+          "id": 95179,
+          "language": "Japanese",
+          "name": {
+            "first": "Masashi",
+            "last": "Ebara",
+            "full": "Masashi Ebara",
+            "native": "江原正士",
+            "userPreferred": "Masashi Ebara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95179-ZXxATX9muGcD.png"
+        }
+      ]
+    },
+    {
+      "id": 41104,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mitsuhide",
+        "last": "Akechi",
+        "full": "Mitsuhide Akechi",
+        "native": "明智光秀",
+        "userPreferred": "Mitsuhide Akechi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/41104.jpg",
+      "voiceActors": [
+        {
+          "id": 95234,
+          "language": "Japanese",
+          "name": {
+            "first": "Hideyuki",
+            "last": "Tanaka",
+            "full": "Hideyuki Tanaka",
+            "native": "田中秀幸",
+            "userPreferred": "Hideyuki Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95234-YAu7XmoSIIS7.png"
+        }
+      ]
+    },
+    {
+      "id": 42048,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hisahide",
+        "last": "Matsunaga",
+        "full": "Hisahide Matsunaga",
+        "native": "松永久秀",
+        "userPreferred": "Hisahide Matsunaga"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/42048.jpg",
+      "voiceActors": [
+        {
+          "id": 95726,
+          "language": "Japanese",
+          "name": {
+            "first": "Shouzou",
+            "last": "Iizuka",
+            "full": "Shouzou Iizuka",
+            "native": "飯塚昭三",
+            "userPreferred": "Shouzou Iizuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95726-SddF7dYKZshB.png"
+        }
+      ]
+    },
+    {
+      "id": 41103,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Soueki",
+        "last": "Senno",
+        "full": "Soueki Senno",
+        "native": "千宗易",
+        "userPreferred": "Soueki Senno"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b41103-FYn9uom445nP.png",
+      "voiceActors": [
+        {
+          "id": 104212,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobuo",
+            "last": "Tanaka",
+            "full": "Nobuo Tanaka",
+            "native": "田中信夫",
+            "userPreferred": "Nobuo Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9212.jpg"
+        }
+      ]
+    },
+    {
+      "id": 41105,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ieyasu",
+        "last": "Tokugawa",
+        "full": "Ieyasu Tokugawa",
+        "native": "徳川家康",
+        "userPreferred": "Ieyasu Tokugawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/41105.jpg",
+      "voiceActors": [
+        {
+          "id": 107082,
+          "language": "Japanese",
+          "name": {
+            "first": "Shingo",
+            "last": "Tsurumi",
+            "full": "Shingo Tsurumi",
+            "native": "鶴見辰吾",
+            "userPreferred": "Shingo Tsurumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12082.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 35380,
+      "relationType": "ADAPTATION",
+      "malId": 5380,
+      "title": {
+        "romaji": "Hyouge Mono",
+        "english": null,
+        "native": "へうげもの",
+        "userPreferred": "Hyouge Mono"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx35380-9zOqmtKg9fOA.jpg",
+      "color": "#ffc900",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/35380-ri1DMJaxhC2W.jpg",
+      "rating": 81
+    }
+  ],
+  "episodes": [
+    {
+      "id": "hyouge-mono-episode-1",
+      "title": "Would You Die for a Teakettle!?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 1,
+      "createdAt": "2014-11-16T20:37:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-1"
+    },
+    {
+      "id": "hyouge-mono-episode-2",
+      "title": "Fantasy of the Tea Room",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 2,
+      "createdAt": "2014-11-16T20:37:37Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-2"
+    },
+    {
+      "id": "hyouge-mono-episode-3",
+      "title": "Stairway to the Heavens",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 3,
+      "createdAt": "2014-11-16T20:37:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-3"
+    },
+    {
+      "id": "hyouge-mono-episode-4",
+      "title": "Kind of Black",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 4,
+      "createdAt": "2014-11-16T20:37:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-4"
+    },
+    {
+      "id": "hyouge-mono-episode-5",
+      "title": "Strategic Incitation",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 5,
+      "createdAt": "2014-11-16T20:37:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-5"
+    },
+    {
+      "id": "hyouge-mono-episode-6",
+      "title": "Topple Takeda",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 6,
+      "createdAt": "2014-11-16T20:37:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-6"
+    },
+    {
+      "id": "hyouge-mono-episode-7",
+      "title": "Mount Fuji Skyline",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 7,
+      "createdAt": "2014-11-16T20:37:39Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-7"
+    },
+    {
+      "id": "hyouge-mono-episode-8",
+      "title": "Dining in Hell",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 8,
+      "createdAt": "2014-11-16T20:37:40Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-8"
+    },
+    {
+      "id": "hyouge-mono-episode-9",
+      "title": "Ruthless License",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 9,
+      "createdAt": "2014-11-16T20:37:41Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-9"
+    },
+    {
+      "id": "hyouge-mono-episode-10",
+      "title": "God of Sorrow",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 10,
+      "createdAt": "2014-11-16T20:37:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-10"
+    },
+    {
+      "id": "hyouge-mono-episode-11",
+      "title": "Orphan Message",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 11,
+      "createdAt": "2014-11-16T20:37:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-11"
+    },
+    {
+      "id": "hyouge-mono-episode-12",
+      "title": "White Castle Blues",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 12,
+      "createdAt": "2014-11-16T20:37:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-12"
+    },
+    {
+      "id": "hyouge-mono-episode-13",
+      "title": "Sukiyaki",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 13,
+      "createdAt": "2014-11-16T20:37:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-13"
+    },
+    {
+      "id": "hyouge-mono-episode-14",
+      "title": "Midnight Purple Sorrow",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 14,
+      "createdAt": "2014-11-16T20:37:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-14"
+    },
+    {
+      "id": "hyouge-mono-episode-15",
+      "title": "The Times, They Are A-Changin'",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 15,
+      "createdAt": "2014-11-16T20:37:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-15"
+    },
+    {
+      "id": "hyouge-mono-episode-16",
+      "title": "Tweets of Separation",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 16,
+      "createdAt": "2014-11-16T20:37:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-16"
+    },
+    {
+      "id": "hyouge-mono-episode-17",
+      "title": "Changing Man",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 17,
+      "createdAt": "2014-11-16T20:37:45Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-17"
+    },
+    {
+      "id": "hyouge-mono-episode-18",
+      "title": "Only One Flower in the World",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 18,
+      "createdAt": "2014-11-16T20:37:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-18"
+    },
+    {
+      "id": "hyouge-mono-episode-19",
+      "title": "Woman from Nagoya",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 19,
+      "createdAt": "2014-11-16T20:37:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-19"
+    },
+    {
+      "id": "hyouge-mono-episode-20",
+      "title": "A Big Hunk O' Apology",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 20,
+      "createdAt": "2014-11-16T20:37:47Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-20"
+    },
+    {
+      "id": "hyouge-mono-episode-21",
+      "title": "First Love",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 21,
+      "createdAt": "2014-11-16T20:37:47Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-21"
+    },
+    {
+      "id": "hyouge-mono-episode-22",
+      "title": "The Devil's Whisper",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 22,
+      "createdAt": "2014-11-16T20:37:47Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-22"
+    },
+    {
+      "id": "hyouge-mono-episode-23",
+      "title": "My Juraku Kamona",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 23,
+      "createdAt": "2014-11-16T20:37:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-23"
+    },
+    {
+      "id": "hyouge-mono-episode-24",
+      "title": "Take me to my Kitano",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 24,
+      "createdAt": "2014-11-16T20:37:48Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-24"
+    },
+    {
+      "id": "hyouge-mono-episode-25",
+      "title": "You start over from scratch",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 25,
+      "createdAt": "2014-11-16T20:37:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-25"
+    },
+    {
+      "id": "hyouge-mono-episode-26",
+      "title": "The Cursed Night ",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 26,
+      "createdAt": "2014-11-16T20:37:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-26"
+    },
+    {
+      "id": "hyouge-mono-episode-27",
+      "title": "Anarchy in Japan ",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 27,
+      "createdAt": "2014-11-16T20:37:49Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-27"
+    },
+    {
+      "id": "hyouge-mono-episode-28",
+      "title": "Furuta Oribe and Fires ",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 28,
+      "createdAt": "2014-11-16T20:37:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-28"
+    },
+    {
+      "id": "hyouge-mono-episode-29",
+      "title": "Kanto Survival ",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 29,
+      "createdAt": "2014-11-16T20:37:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-29"
+    },
+    {
+      "id": "hyouge-mono-episode-30",
+      "title": "Edo Frontier ",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 30,
+      "createdAt": "2014-11-16T20:37:50Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-30"
+    },
+    {
+      "id": "hyouge-mono-episode-31",
+      "title": "Forgive My Silence",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 31,
+      "createdAt": "2014-11-16T20:37:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-31"
+    },
+    {
+      "id": "hyouge-mono-episode-32",
+      "title": "Aesthete`s Crossroad ",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 32,
+      "createdAt": "2014-11-16T20:37:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-32"
+    },
+    {
+      "id": "hyouge-mono-episode-33",
+      "title": "The Shadow Tea King ",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 33,
+      "createdAt": "2014-11-16T20:37:51Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-33"
+    },
+    {
+      "id": "hyouge-mono-episode-34",
+      "title": "The Crybaby Under the Sun ",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 34,
+      "createdAt": "2014-11-16T20:37:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-34"
+    },
+    {
+      "id": "hyouge-mono-episode-35",
+      "title": "New Guilty Partner",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 35,
+      "createdAt": "2014-11-16T20:37:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-35"
+    },
+    {
+      "id": "hyouge-mono-episode-36",
+      "title": "You`re the Chosen One ",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 36,
+      "createdAt": "2014-11-16T20:37:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-36"
+    },
+    {
+      "id": "hyouge-mono-episode-37",
+      "title": "The Man Who Destroyed the ",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 37,
+      "createdAt": "2014-11-16T20:37:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-37"
+    },
+    {
+      "id": "hyouge-mono-episode-38",
+      "title": "Dusk at Yodo River ",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 38,
+      "createdAt": "2014-11-16T20:37:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-38"
+    },
+    {
+      "id": "hyouge-mono-episode-39",
+      "title": "Aren`t You a Fan of Imperfection? ",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n9996-yiKzcR26bkSS.jpg",
+      "number": 39,
+      "createdAt": "2014-11-16T20:37:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hyouge-mono-episode-39"
+    }
+  ]
+}

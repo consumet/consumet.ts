@@ -1,0 +1,888 @@
+{
+  "id": "4262",
+  "title": {
+    "romaji": "Koihime†Musou",
+    "english": null,
+    "native": "恋姫†無双"
+  },
+  "malId": 4262,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4262-O8yfbzjIef0a.png",
+  "popularity": 7458,
+  "color": "#e4c978",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4262-fUFj6W5TLGp4.jpg",
+  "description": "This anime is based on an eroge game by Baseson, which was loosely based on the classic Chinese novel Romance of the Three Kingdoms.<br><br>\nHaving lost her family to bandits during night raid, Kanu swears she will not let others share the same pain. She quickly becomes a well-known and feared by villains bandit hunter. During her journey she comes across others who wish to join her cause. One of them is a girl RinRin, who had similar experience with bandits in the past. ",
+  "status": "Completed",
+  "releaseDate": 2008,
+  "startDate": {
+    "year": 2008,
+    "month": 7,
+    "day": 9
+  },
+  "endDate": {
+    "year": 2008,
+    "month": 9,
+    "day": 24
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 62,
+  "duration": 25,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Ecchi",
+    "Fantasy"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Doga Kobo"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 8630,
+      "malId": 8630,
+      "title": {
+        "romaji": "Hidan no Aria",
+        "english": "Aria the Scarlet Ammo",
+        "native": "緋弾のアリア",
+        "userPreferred": "Hidan no Aria"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx8630-n8Ipf0NlVXjy.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/8630.jpg",
+      "rating": 63,
+      "type": "TV"
+    },
+    {
+      "id": 205,
+      "malId": 205,
+      "title": {
+        "romaji": "Samurai Champloo",
+        "english": "Samurai Champloo",
+        "native": "サムライチャンプルー",
+        "userPreferred": "Samurai Champloo"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx205-xxonQKyJtVcw.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/205-L7WpOOWUmVjh.jpg",
+      "rating": 84,
+      "type": "TV"
+    },
+    {
+      "id": 15119,
+      "malId": 15119,
+      "title": {
+        "romaji": "Senran Kagura",
+        "english": "Senran Kagura: Ninja Flash!",
+        "native": "閃乱カグラ",
+        "userPreferred": "Senran Kagura"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15119-rcnXA3JFYvU1.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n15119-GsjMSnI93ZUF.jpg",
+      "rating": 57,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 14839,
+      "role": "MAIN",
+      "name": {
+        "first": "Shokatsuryou",
+        "last": "Koumei",
+        "full": "Shokatsuryou Koumei",
+        "native": "諸葛亮孔明",
+        "userPreferred": "Shokatsuryou Koumei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14839.jpg",
+      "voiceActors": [
+        {
+          "id": 101418,
+          "language": "Japanese",
+          "name": {
+            "first": "Erika",
+            "last": "Narumi",
+            "full": "Erika Narumi",
+            "native": "エリカ鳴海",
+            "userPreferred": "Erika Narumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101418-Llv6IeqH8HkJ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14456,
+      "role": "MAIN",
+      "name": {
+        "first": "Bachou",
+        "last": "Mouki",
+        "full": "Bachou Mouki",
+        "native": "馬超 孟起/翠 （すい）",
+        "userPreferred": "Bachou Mouki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14456.jpg",
+      "voiceActors": [
+        {
+          "id": 101509,
+          "language": "Japanese",
+          "name": {
+            "first": "Maki",
+            "last": "Kobayashi",
+            "full": "Maki Kobayashi",
+            "native": "小林眞紀",
+            "userPreferred": "Maki Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101509-Wat4NHJPFISx.png"
+        }
+      ]
+    },
+    {
+      "id": 13958,
+      "role": "MAIN",
+      "name": {
+        "first": "Kan'u",
+        "last": "Unchou",
+        "full": "Kan'u Unchou",
+        "native": "関羽 雲長/愛紗",
+        "userPreferred": "Kan'u Unchou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/13958.jpg",
+      "voiceActors": [
+        {
+          "id": 95691,
+          "language": "Japanese",
+          "name": {
+            "first": "Nami",
+            "last": "Kurokawa",
+            "full": "Nami Kurokawa",
+            "native": "黒河奈美 ",
+            "userPreferred": "Nami Kurokawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/691.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14335,
+      "role": "MAIN",
+      "name": {
+        "first": "Chouhi",
+        "last": "Yokutoku",
+        "full": "Chouhi Yokutoku",
+        "native": "張飛 翼徳/鈴々",
+        "userPreferred": "Chouhi Yokutoku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14335.jpg",
+      "voiceActors": [
+        {
+          "id": 100983,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroka",
+            "last": "Nishizawa",
+            "full": "Hiroka Nishizawa",
+            "native": "西沢広香",
+            "userPreferred": "Hiroka Nishizawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5983.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14336,
+      "role": "MAIN",
+      "name": {
+        "first": "Chouun",
+        "last": "Shiryuu",
+        "full": "Chouun Shiryuu",
+        "native": "趙雲 子龍/星（せい）",
+        "userPreferred": "Chouun Shiryuu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14336.jpg",
+      "voiceActors": [
+        {
+          "id": 100984,
+          "language": "Japanese",
+          "name": {
+            "first": "Emi",
+            "last": "Motoi",
+            "full": "Emi Motoi",
+            "native": "本井えみ",
+            "userPreferred": "Emi Motoi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100984-46LnGUcUWtfX.png"
+        }
+      ]
+    },
+    {
+      "id": 32543,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kan'u's Brother",
+        "last": null,
+        "full": "Kan'u's Brother",
+        "native": "関羽の兄",
+        "userPreferred": "Kan'u's Brother"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32543.jpg",
+      "voiceActors": [
+        {
+          "id": 95001,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Seki",
+            "full": "Tomokazu Seki",
+            "native": "関智一",
+            "userPreferred": "Tomokazu Seki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95001-vm0RtZhmlzhK.png"
+        }
+      ]
+    },
+    {
+      "id": 24212,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rikuson",
+        "last": "Hakugen",
+        "full": "Rikuson Hakugen",
+        "native": "陸遜 伯言/穏(のん）",
+        "userPreferred": "Rikuson Hakugen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24212.jpg",
+      "voiceActors": [
+        {
+          "id": 95549,
+          "language": "Japanese",
+          "name": {
+            "first": "Natsumi",
+            "last": "Yanase",
+            "full": "Natsumi Yanase",
+            "native": "やなせなつみ",
+            "userPreferred": "Natsumi Yanase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95549-TfvubIQq9yAa.jpg"
+        }
+      ]
+    },
+    {
+      "id": 24268,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sonken",
+        "last": "Chuubou",
+        "full": "Sonken Chuubou",
+        "native": "孫権 仲謀/蓮華",
+        "userPreferred": "Sonken Chuubou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24268.jpg",
+      "voiceActors": [
+        {
+          "id": 96133,
+          "language": "Japanese",
+          "name": {
+            "first": "Harumi",
+            "last": "Sakurai",
+            "full": "Harumi Sakurai",
+            "native": "櫻井浩美",
+            "userPreferred": "Harumi Sakurai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96133-UY6PksdMPanW.png"
+        }
+      ]
+    },
+    {
+      "id": 24211,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shuuyu",
+        "last": "Koukin",
+        "full": "Shuuyu Koukin",
+        "native": "周瑜 公謹/冥琳",
+        "userPreferred": "Shuuyu Koukin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24211.jpg",
+      "voiceActors": [
+        {
+          "id": 103916,
+          "language": "Japanese",
+          "name": {
+            "first": "Kei",
+            "last": "Mizusawa",
+            "full": "Kei Mizusawa",
+            "native": "瑞沢渓",
+            "userPreferred": "Kei Mizusawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103916-MU8BGiaUkkVK.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15869,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ryuubi",
+        "last": "(Fake)",
+        "full": "Ryuubi (Fake)",
+        "native": "劉備 (りゅうび)",
+        "userPreferred": "Ryuubi (Fake)"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15869.jpg",
+      "voiceActors": [
+        {
+          "id": 95001,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Seki",
+            "full": "Tomokazu Seki",
+            "native": "関智一",
+            "userPreferred": "Tomokazu Seki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95001-vm0RtZhmlzhK.png"
+        }
+      ]
+    },
+    {
+      "id": 14613,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ryofu",
+        "last": "Housen",
+        "full": "Ryofu Housen",
+        "native": "呂布 奉先/恋 (れん)",
+        "userPreferred": "Ryofu Housen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14613.jpg",
+      "voiceActors": [
+        {
+          "id": 95552,
+          "language": "Japanese",
+          "name": {
+            "first": "Emiko",
+            "last": "Hagiwara",
+            "full": "Emiko Hagiwara",
+            "native": "萩原えみこ",
+            "userPreferred": "Emiko Hagiwara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95552-Aw7xWu5a8Y2N.png"
+        }
+      ]
+    },
+    {
+      "id": 15083,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kouchuu",
+        "last": "Kanshou",
+        "full": "Kouchuu Kanshou",
+        "native": "黄忠 漢升/紫苑（しおん）",
+        "userPreferred": "Kouchuu Kanshou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15083.jpg",
+      "voiceActors": [
+        {
+          "id": 96273,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuu",
+            "last": "Amamiya",
+            "full": "Yuu Amamiya",
+            "native": "雨宮侑布",
+            "userPreferred": "Yuu Amamiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1273.jpg"
+        }
+      ]
+    },
+    {
+      "id": 24213,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kakouen",
+        "last": "Myousai",
+        "full": "Kakouen Myousai",
+        "native": "夏侯淵 妙才/秋蘭(しゅらん）",
+        "userPreferred": "Kakouen Myousai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24213.jpg",
+      "voiceActors": [
+        {
+          "id": 103918,
+          "language": "Japanese",
+          "name": {
+            "first": "Airi",
+            "last": "Yoshida",
+            "full": "Airi Yoshida",
+            "native": "愛理 吉田",
+            "userPreferred": "Airi Yoshida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 31524,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kashin",
+        "last": "Suikou",
+        "full": "Kashin Suikou",
+        "native": "何進 遂高",
+        "userPreferred": "Kashin Suikou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/31524.jpg",
+      "voiceActors": [
+        {
+          "id": 95208,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Orikasa",
+            "full": "Ai Orikasa",
+            "native": "折笠愛",
+            "userPreferred": "Ai Orikasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95208-DIfpWvWN401M.png"
+        }
+      ]
+    },
+    {
+      "id": 24290,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jun'iku",
+        "last": "Bunjaku",
+        "full": "Jun'iku Bunjaku",
+        "native": "荀彧 文若/桂花(けいふぁ）",
+        "userPreferred": "Jun'iku Bunjaku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24290.jpg",
+      "voiceActors": [
+        {
+          "id": 96548,
+          "language": "Japanese",
+          "name": {
+            "first": "Oma",
+            "last": "Ichimura",
+            "full": "Oma Ichimura",
+            "native": "壱智村小真",
+            "userPreferred": "Oma Ichimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96548-ezn9BohzyOJy.png"
+        }
+      ]
+    },
+    {
+      "id": 15108,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kyocho",
+        "last": "Chuukou",
+        "full": "Kyocho Chuukou",
+        "native": "許楮 仲庚/季衣 (きい)",
+        "userPreferred": "Kyocho Chuukou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15108.jpg",
+      "voiceActors": [
+        {
+          "id": 101510,
+          "language": "Japanese",
+          "name": {
+            "first": "Mariya",
+            "last": "Sumita",
+            "full": "Mariya Sumita",
+            "native": "澄田まりや",
+            "userPreferred": "Mariya Sumita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/101510-Ql2j1ZUghtHj.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32515,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sonsei",
+        "last": null,
+        "full": "Sonsei",
+        "native": "孫靜",
+        "userPreferred": "Sonsei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32515.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 14618,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Toutaku",
+        "last": "Chuuei",
+        "full": "Toutaku Chuuei",
+        "native": "董卓 仲穎 / 月",
+        "userPreferred": "Toutaku Chuuei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14618.jpg",
+      "voiceActors": [
+        {
+          "id": 95246,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuka",
+            "last": "Inokuchi",
+            "full": "Yuka Inokuchi",
+            "native": "いのくちゆか",
+            "userPreferred": "Yuka Inokuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95246-SuMvw46iBvbI.png"
+        }
+      ]
+    },
+    {
+      "id": 15448,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sonshoukou",
+        "last": null,
+        "full": "Sonshoukou",
+        "native": "孫尚香/小蓮",
+        "userPreferred": "Sonshoukou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15448.jpg",
+      "voiceActors": [
+        {
+          "id": 95910,
+          "language": "Japanese",
+          "name": {
+            "first": "Hitomi",
+            "last": "",
+            "full": "Hitomi",
+            "native": "ひと美",
+            "userPreferred": "Hitomi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95910-IPeEky7JTaU3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 24210,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Riri",
+        "last": null,
+        "full": "Riri",
+        "native": "璃々(りり）",
+        "userPreferred": "Riri"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24210.jpg",
+      "voiceActors": [
+        {
+          "id": 101510,
+          "language": "Japanese",
+          "name": {
+            "first": "Mariya",
+            "last": "Sumita",
+            "full": "Mariya Sumita",
+            "native": "澄田まりや",
+            "userPreferred": "Mariya Sumita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/101510-Ql2j1ZUghtHj.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32516,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Choushou",
+        "last": "Shifu",
+        "full": "Choushou Shifu",
+        "native": "張昭 子布",
+        "userPreferred": "Choushou Shifu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32516.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 29242,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Daikyou",
+        "last": null,
+        "full": "Daikyou",
+        "native": "大喬 (だいきょう)",
+        "userPreferred": "Daikyou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29242.jpg",
+      "voiceActors": [
+        {
+          "id": 95376,
+          "language": "Japanese",
+          "name": {
+            "first": "Michiru",
+            "last": "Yuimoto",
+            "full": "Michiru Yuimoto",
+            "native": "結本ミチル",
+            "userPreferred": "Michiru Yuimoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/376.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14455,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Moutoku",
+        "last": "Sousou",
+        "full": "Moutoku Sousou",
+        "native": "曹操 孟徳/華琳",
+        "userPreferred": "Moutoku Sousou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14455.jpg",
+      "voiceActors": [
+        {
+          "id": 95932,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukie",
+            "last": "Maeda",
+            "full": "Yukie Maeda",
+            "native": "前田ゆきえ",
+            "userPreferred": "Yukie Maeda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95932-8t03zDjNg5TC.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14614,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kayuu",
+        "last": null,
+        "full": "Kayuu",
+        "native": "華雄",
+        "userPreferred": "Kayuu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14614.jpg",
+      "voiceActors": [
+        {
+          "id": 100983,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroka",
+            "last": "Nishizawa",
+            "full": "Hiroka Nishizawa",
+            "native": "西沢広香",
+            "userPreferred": "Hiroka Nishizawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5983.jpg"
+        }
+      ]
+    },
+    {
+      "id": 24208,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bunshuu",
+        "last": null,
+        "full": "Bunshuu",
+        "native": "文醜/猪々子(ぃしぇ）",
+        "userPreferred": "Bunshuu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/24208.jpg",
+      "voiceActors": [
+        {
+          "id": 102084,
+          "language": "Japanese",
+          "name": {
+            "first": "Chiro",
+            "last": "Kanzaki",
+            "full": "Chiro Kanzaki",
+            "native": "ちろ 神崎",
+            "userPreferred": "Chiro Kanzaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7084.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 6112,
+      "relationType": "SEQUEL",
+      "malId": 6112,
+      "title": {
+        "romaji": "Shin Koihime†Musou: Otome Ryouran☆Sangokushi Engi",
+        "english": null,
+        "native": "真恋姫†無双 ～乙女繚乱☆三国志演義～",
+        "userPreferred": "Shin Koihime†Musou: Otome Ryouran☆Sangokushi Engi"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6112.jpg",
+      "color": "#43aee4",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6112.jpg",
+      "rating": 63
+    },
+    {
+      "id": 5305,
+      "relationType": "SIDE_STORY",
+      "malId": 5305,
+      "title": {
+        "romaji": "Koihime†Musou OVA",
+        "english": null,
+        "native": "恋姫†無双 OVA",
+        "userPreferred": "Koihime†Musou OVA"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/5305.jpg",
+      "color": "#e4ae5d",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/5305.jpg",
+      "rating": 62
+    },
+    {
+      "id": 41720,
+      "relationType": "ALTERNATIVE",
+      "malId": 11720,
+      "title": {
+        "romaji": "Koihime†Musou",
+        "english": null,
+        "native": "恋姫†夢想",
+        "userPreferred": "Koihime†Musou"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/11720.jpg",
+      "color": "#28786b",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/11720.jpg",
+      "rating": 63
+    }
+  ],
+  "episodes": [
+    {
+      "id": "koihime-musou-episode-1",
+      "title": "The Sisterhood of Kan'u, Chōhi and the Sisters",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59544/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:25:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//koihime-musou-episode-1"
+    },
+    {
+      "id": "koihime-musou-episode-2",
+      "title": "Kan'u is Going to Die with Chōun",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59545/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:25:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//koihime-musou-episode-2"
+    },
+    {
+      "id": "koihime-musou-episode-3",
+      "title": "Chōhi Battles with Bachō",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59546/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:25:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//koihime-musou-episode-3"
+    },
+    {
+      "id": "koihime-musou-episode-4",
+      "title": "Bachō Attacks Sōsō",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59547/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:25:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//koihime-musou-episode-4"
+    },
+    {
+      "id": "koihime-musou-episode-5",
+      "title": "Kan'u Exterminates a Monster",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59548/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:25:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//koihime-musou-episode-5"
+    },
+    {
+      "id": "koihime-musou-episode-6",
+      "title": "Chohi Competes with Koumei",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59549/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:25:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//koihime-musou-episode-6"
+    },
+    {
+      "id": "koihime-musou-episode-7",
+      "title": "Chohi has a Fight with Kan'u",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59550/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:25:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//koihime-musou-episode-7"
+    },
+    {
+      "id": "koihime-musou-episode-8",
+      "title": "Kan'u Interrupts Kouchuu's Plot",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59551/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:25:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//koihime-musou-episode-8"
+    },
+    {
+      "id": "koihime-musou-episode-9",
+      "title": "Enshou Finds a Treasure",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59552/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:25:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//koihime-musou-episode-9"
+    },
+    {
+      "id": "koihime-musou-episode-10",
+      "title": "Sonsaku’s Life is Threatened",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59553/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:25:42Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//koihime-musou-episode-10"
+    },
+    {
+      "id": "koihime-musou-episode-11",
+      "title": "Kan’u Encounters Ryuubi",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59554/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:25:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//koihime-musou-episode-11"
+    },
+    {
+      "id": "koihime-musou-episode-12",
+      "title": "Kan’u Accomplishes her Goal",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59555/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:25:43Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//koihime-musou-episode-12"
+    }
+  ]
+}

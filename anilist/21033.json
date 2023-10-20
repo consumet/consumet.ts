@@ -1,0 +1,792 @@
+{
+  "id": "21033",
+  "title": {
+    "romaji": "Jitsu wa Watashi wa",
+    "english": "Actually, I Am",
+    "native": "実は私は"
+  },
+  "malId": 29785,
+  "synonyms": [
+    "จุ๊จุ๊ จะบอกว่าฉันคือ…",
+    "My Monster Secret",
+    "Na verdade, eu sou..."
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "BDonHeTke1w",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/BDonHeTke1w/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21033-EmMtV4Hh4zep.jpg",
+  "popularity": 48417,
+  "color": "#35bbe4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21033-5WaIbIprnQ1z.jpg",
+  "description": "The romantic comedy centers around Asahi Kuromine, who has a crush on a cute girl named Yōko Shiragami. Shiragami just happens to be a vampire. Asahi cannot keep a secret, but he is determined to keep Shiragami's secret anyways.<br>\n<br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2015,
+  "startDate": {
+    "year": 2015,
+    "month": 7,
+    "day": 7
+  },
+  "endDate": {
+    "year": 2015,
+    "month": 9,
+    "day": 29
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 65,
+  "duration": 24,
+  "genres": [
+    "Comedy",
+    "Fantasy",
+    "Romance"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "TMS Entertainment",
+    "3xCube"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 2104,
+      "malId": 2104,
+      "title": {
+        "romaji": "Seto no Hanayome",
+        "english": "My Bride is a Mermaid",
+        "native": "瀬戸の花嫁",
+        "userPreferred": "Seto no Hanayome"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2104-8nyExxxIKd3P.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2104-kAmCZ6O27DoA.jpg",
+      "rating": 73,
+      "type": "TV"
+    },
+    {
+      "id": 195,
+      "malId": 195,
+      "title": {
+        "romaji": "Onegai☆Teacher",
+        "english": "Please☆Teacher!",
+        "native": "おねがい☆ティーチャー",
+        "userPreferred": "Onegai☆Teacher"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195-0qMiRJbg60Tc.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/195-bJP2XyNS08sG.jpg",
+      "rating": 66,
+      "type": "TV"
+    },
+    {
+      "id": 3958,
+      "malId": 3958,
+      "title": {
+        "romaji": "Kannagi",
+        "english": "Kannagi: Crazy Shrine Maidens",
+        "native": "かんなぎ",
+        "userPreferred": "Kannagi"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx3958-SztG03yWCG5G.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/3958-kZJUl1sHD2Fi.jpg",
+      "rating": 69,
+      "type": "TV"
+    },
+    {
+      "id": 107693,
+      "malId": 39196,
+      "title": {
+        "romaji": "Mairimashita! Iruma-kun",
+        "english": "Welcome to Demon School! Iruma-kun",
+        "native": "魔入りました！入間くん",
+        "userPreferred": "Mairimashita! Iruma-kun"
+      },
+      "status": "Completed",
+      "episodes": 23,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107693-A9bSSFAMxA6j.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/107693-h0syT88giDiw.jpg",
+      "rating": 77,
+      "type": "TV"
+    },
+    {
+      "id": 97592,
+      "malId": 33988,
+      "title": {
+        "romaji": "Demi-chan wa Kataritai",
+        "english": "Interviews with Monster Girls",
+        "native": "亜人ちゃんは語りたい",
+        "userPreferred": "Demi-chan wa Kataritai"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97592-2m8qtzJLuGY3.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97592-4xX73GaqvbL6.png",
+      "rating": 74,
+      "type": "TV"
+    },
+    {
+      "id": 2993,
+      "malId": 2993,
+      "title": {
+        "romaji": "Rosario to Vampire",
+        "english": "Rosario + Vampire",
+        "native": "ロザリオとバンパイア",
+        "userPreferred": "Rosario to Vampire"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2993.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2993-wZmgsXUSnJUa.jpg",
+      "rating": 62,
+      "type": "TV"
+    },
+    {
+      "id": 108463,
+      "malId": 39534,
+      "title": {
+        "romaji": "Jibaku Shounen Hanako-kun",
+        "english": "Toilet-bound Hanako-kun",
+        "native": "地縛少年 花子くん",
+        "userPreferred": "Jibaku Shounen Hanako-kun"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108463-knWkFUR311ho.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108463-pJ5XS6oJwvKh.jpg",
+      "rating": 77,
+      "type": "TV"
+    },
+    {
+      "id": 469,
+      "malId": 469,
+      "title": {
+        "romaji": "Karin",
+        "english": "Karin: Chibi Vampire",
+        "native": "かりん",
+        "userPreferred": "Karin"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx469-8v2Am0gCrwvH.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx469-8v2Am0gCrwvH.png",
+      "rating": 67,
+      "type": "TV"
+    },
+    {
+      "id": 18677,
+      "malId": 18677,
+      "title": {
+        "romaji": "Yuusha ni Narenakatta Ore wa Shibushibu Shuushoku wo Ketsui Shimashita.",
+        "english": "I Couldn’t Become a Hero, So I Reluctantly Decided to Get a Job.",
+        "native": "勇者になれなかった俺はしぶしぶ就職を決意しました。",
+        "userPreferred": "Yuusha ni Narenakatta Ore wa Shibushibu Shuushoku wo Ketsui Shimashita."
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx18677-RslU1i7Ke7zL.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/18677-9KTep1CUxQy0.jpg",
+      "rating": 64,
+      "type": "TV"
+    },
+    {
+      "id": 20966,
+      "malId": 28677,
+      "title": {
+        "romaji": "Yamada-kun to 7-nin no Majo",
+        "english": "Yamada and the Seven Witches",
+        "native": "山田くんと7人の魔女",
+        "userPreferred": "Yamada-kun to 7-nin no Majo"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20966-HboUtUzEKWl6.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20966-0KwHGdCF9Ie1.jpg",
+      "rating": 73,
+      "type": "TV"
+    },
+    {
+      "id": 141391,
+      "malId": 50346,
+      "title": {
+        "romaji": "Yofukashi no Uta",
+        "english": "Call of the Night",
+        "native": "よふかしのうた",
+        "userPreferred": "Yofukashi no Uta"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141391-bLWpXKGAKebr.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/141391-JErChZ8G3b49.jpg",
+      "rating": 79,
+      "type": "TV"
+    },
+    {
+      "id": 3467,
+      "malId": 3467,
+      "title": {
+        "romaji": "Nogizaka Haruka no Himitsu",
+        "english": "Haruka Nogizaka's Secret",
+        "native": "乃木坂春香の秘密",
+        "userPreferred": "Nogizaka Haruka no Himitsu"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3467-gOLRgPv8F2BT.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/3467-nmhOnNrwEA4y.jpg",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 146676,
+      "malId": 51403,
+      "title": {
+        "romaji": "Renai Flops",
+        "english": "LOVE FLOPS",
+        "native": "恋愛フロップス",
+        "userPreferred": "Renai Flops"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146676-8hkJxhY3b4tX.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/146676-puPd4socxvXT.jpg",
+      "rating": 65,
+      "type": "TV"
+    },
+    {
+      "id": 108266,
+      "malId": 39469,
+      "title": {
+        "romaji": "Tsugu Tsugumomo",
+        "english": "Tsugumomo2",
+        "native": "継つぐもも",
+        "userPreferred": "Tsugu Tsugumomo"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108266-XIxj8RVcidLX.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108266-XIxj8RVcidLX.jpg",
+      "rating": 72,
+      "type": "TV"
+    },
+    {
+      "id": 139606,
+      "malId": 49894,
+      "title": {
+        "romaji": "Eiyuu Kyoushitsu",
+        "english": "Classroom for Heroes",
+        "native": "英雄教室",
+        "userPreferred": "Eiyuu Kyoushitsu"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx139606-LrYkytn7fVwt.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/139606-LsCPhXLqaL0j.jpg",
+      "rating": 60,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 89018,
+      "role": "MAIN",
+      "name": {
+        "first": "Youko",
+        "last": "Shiragami",
+        "full": "Youko Shiragami",
+        "native": "白神葉子",
+        "userPreferred": "Youko Shiragami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b89018-4BnXuxnNZFOp.jpg",
+      "voiceActors": [
+        {
+          "id": 116515,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuu",
+            "last": "Serizawa",
+            "full": "Yuu Serizawa",
+            "native": "芹澤優",
+            "userPreferred": "Yuu Serizawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n116515-Bt3kiKlNq1nK.png"
+        },
+        {
+          "id": 193992,
+          "language": "Spanish",
+          "name": {
+            "first": "Casandra",
+            "last": "Acevedo",
+            "full": "Casandra Acevedo",
+            "native": null,
+            "userPreferred": "Casandra Acevedo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n193992-LzwLEc50U9TU.png"
+        }
+      ]
+    },
+    {
+      "id": 89084,
+      "role": "MAIN",
+      "name": {
+        "first": "Asahi",
+        "last": "Kuromine",
+        "full": "Asahi Kuromine",
+        "native": "黒峰朝陽",
+        "userPreferred": "Asahi Kuromine"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/89084-fz80yOtO1S8Q.jpg",
+      "voiceActors": [
+        {
+          "id": 111635,
+          "language": "Japanese",
+          "name": {
+            "first": "Natsuki",
+            "last": "Hanae",
+            "full": "Natsuki Hanae",
+            "native": "花江夏樹",
+            "userPreferred": "Natsuki Hanae"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n111635-L385UcjTKCBq.png"
+        },
+        {
+          "id": 262718,
+          "language": "Spanish",
+          "name": {
+            "first": "Aidan",
+            "last": "Vallejo",
+            "full": "Aidan Vallejo",
+            "native": null,
+            "userPreferred": "Aidan Vallejo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n262718-54VEqAz7IFv6.png"
+        }
+      ]
+    },
+    {
+      "id": 89085,
+      "role": "MAIN",
+      "name": {
+        "first": "Nagisa",
+        "last": "Aizawa",
+        "full": "Nagisa Aizawa",
+        "native": "藍澤渚",
+        "userPreferred": "Nagisa Aizawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b89085-xPKOTKjvTHY9.jpg",
+      "voiceActors": [
+        {
+          "id": 106297,
+          "language": "Japanese",
+          "name": {
+            "first": "Inori",
+            "last": "Minase",
+            "full": "Inori Minase",
+            "native": "水瀬いのり",
+            "userPreferred": "Inori Minase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106297-KnzvgfxB1byY.png"
+        },
+        {
+          "id": 181978,
+          "language": "Spanish",
+          "name": {
+            "first": "Nycolle",
+            "last": "González",
+            "full": "Nycolle González",
+            "native": "Nycolle González Andrade",
+            "userPreferred": "Nycolle González"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n181978-Tyh9cab7w2M3.png"
+        }
+      ]
+    },
+    {
+      "id": 89087,
+      "role": "MAIN",
+      "name": {
+        "first": "Akane",
+        "last": "Koumoto",
+        "full": "Akane Koumoto",
+        "native": "紅本茜",
+        "userPreferred": "Akane Koumoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b89087-eKKfquLuwG2M.jpg",
+      "voiceActors": [
+        {
+          "id": 118510,
+          "language": "Japanese",
+          "name": {
+            "first": "Mao",
+            "last": "Ichimichi",
+            "full": "Mao Ichimichi",
+            "native": "市道真央",
+            "userPreferred": "Mao Ichimichi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118510-iMUv5D7W99C1.png"
+        },
+        {
+          "id": 120437,
+          "language": "Japanese",
+          "name": {
+            "first": "Sho",
+            "last": "Nakijin",
+            "full": "Sho Nakijin",
+            "native": "今帰仁翔",
+            "userPreferred": "Sho Nakijin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/120437-ssdYAR4r776F.png"
+        },
+        {
+          "id": 139013,
+          "language": "Spanish",
+          "name": {
+            "first": "Montserrat",
+            "last": "Aguilar",
+            "full": "Montserrat Aguilar",
+            "native": "Montserrat Alejandra Aguilar Ortiz",
+            "userPreferred": "Montserrat Aguilar"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n139013-G54ZhBGpZqmC.png"
+        }
+      ]
+    },
+    {
+      "id": 89086,
+      "role": "MAIN",
+      "name": {
+        "first": "Mikan",
+        "last": "Akemi",
+        "full": "Mikan Akemi",
+        "native": "朱美 みかん",
+        "userPreferred": "Mikan Akemi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b89086-8Zl07RK7PHoj.jpg",
+      "voiceActors": [
+        {
+          "id": 118602,
+          "language": "Japanese",
+          "name": {
+            "first": "Reina",
+            "last": "Ueda",
+            "full": "Reina Ueda",
+            "native": "上田麗奈",
+            "userPreferred": "Reina Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118602-SFsQabl6KLu9.png"
+        },
+        {
+          "id": 232015,
+          "language": "Spanish",
+          "name": {
+            "first": "Harumi",
+            "last": "Nishizawa",
+            "full": "Harumi Nishizawa",
+            "native": "西澤晴美",
+            "userPreferred": "Harumi Nishizawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n232015-YUCwhjVazhdb.png"
+        }
+      ]
+    },
+    {
+      "id": 183512,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuuta",
+        "last": "Shimada",
+        "full": "Yuuta Shimada",
+        "native": "嶋田結太",
+        "userPreferred": "Yuuta Shimada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b183512-ZflUO1rkA21N.png",
+      "voiceActors": [
+        {
+          "id": 95356,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiro",
+            "last": "Shimono",
+            "full": "Hiro Shimono",
+            "native": "下野紘",
+            "userPreferred": "Hiro Shimono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95356-PFaZRlI9oJ56.png"
+        },
+        {
+          "id": 105550,
+          "language": "Spanish",
+          "name": {
+            "first": "Uraz",
+            "last": "Huerta",
+            "full": "Uraz Huerta",
+            "native": "Uraz Disraeli Huerta Uribe",
+            "userPreferred": "Uraz Huerta"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105550-hpRp0Z8f8GZu.png"
+        }
+      ]
+    },
+    {
+      "id": 89088,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shiho",
+        "last": "Shishido",
+        "full": "Shiho Shishido",
+        "native": "紫々戸獅穂",
+        "userPreferred": "Shiho Shishido"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b89088-NnhR1Tdptj58.jpg",
+      "voiceActors": [
+        {
+          "id": 103921,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Uchida",
+            "full": "Aya Uchida",
+            "native": "内田彩",
+            "userPreferred": "Aya Uchida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103921-bnSaJsF0jgH1.png"
+        },
+        {
+          "id": 182193,
+          "language": "Spanish",
+          "name": {
+            "first": "Alicia",
+            "last": "Vélez",
+            "full": "Alicia Vélez",
+            "native": null,
+            "userPreferred": "Alicia Vélez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n182193-ccFLirPjaXJi.png"
+        }
+      ]
+    },
+    {
+      "id": 89089,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Akari",
+        "last": "Koumoto",
+        "full": "Akari Koumoto",
+        "native": "紅本明里",
+        "userPreferred": "Akari Koumoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b89089-Kf6acKyGI8cX.jpg",
+      "voiceActors": [
+        {
+          "id": 109409,
+          "language": "Japanese",
+          "name": {
+            "first": "Emi",
+            "last": "Nitta",
+            "full": "Emi Nitta",
+            "native": "新田恵海",
+            "userPreferred": "Emi Nitta"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109409-TKu56WtuAxMx.png"
+        },
+        {
+          "id": 209106,
+          "language": "Spanish",
+          "name": {
+            "first": "Gwendolyne",
+            "last": "Flores",
+            "full": "Gwendolyne Flores",
+            "native": null,
+            "userPreferred": "Gwendolyne Flores"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n209106-omvyiavEd00u.png"
+        }
+      ]
+    },
+    {
+      "id": 183497,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kanade",
+        "last": "Okada",
+        "full": "Kanade Okada",
+        "native": "岡田奏",
+        "userPreferred": "Kanade Okada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b183497-YDbpC9XZxvJS.jpg",
+      "voiceActors": [
+        {
+          "id": 95183,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Hirakawa",
+            "full": "Daisuke Hirakawa",
+            "native": "平川大輔",
+            "userPreferred": "Daisuke Hirakawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95183-5C42gbrKIP7L.png"
+        },
+        {
+          "id": 190706,
+          "language": "Spanish",
+          "name": {
+            "first": "Gerardo",
+            "last": "Ortega",
+            "full": "Gerardo Ortega",
+            "native": null,
+            "userPreferred": "Gerardo Ortega"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n190706-PjIN2ssB6SyH.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 85139,
+      "relationType": "ADAPTATION",
+      "malId": 57015,
+      "title": {
+        "romaji": "Jitsu wa Watashi wa",
+        "english": "My Monster Secret: Actually, I Am…",
+        "native": "実は私は",
+        "userPreferred": "Jitsu wa Watashi wa"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx85139-vBIvJiRLeyE4.jpg",
+      "color": "#f1a10d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/85139-gvi6tfEV7gCp.jpg",
+      "rating": 78
+    }
+  ],
+  "episodes": [
+    {
+      "id": "jitsu-wa-watashi-wa-episode-1",
+      "title": "I'll Confess!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/178190/original.jpg",
+      "number": 1,
+      "createdAt": "2015-07-07T17:01:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jitsu-wa-watashi-wa-episode-1"
+    },
+    {
+      "id": "jitsu-wa-watashi-wa-episode-2",
+      "title": "I'll Keep This Secret!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/178191/original.jpg",
+      "number": 2,
+      "createdAt": "2015-07-07T17:01:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jitsu-wa-watashi-wa-episode-2"
+    },
+    {
+      "id": "jitsu-wa-watashi-wa-episode-3",
+      "title": "Beware Childhood Friends!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/178192/original.jpg",
+      "number": 3,
+      "createdAt": "2015-07-07T17:01:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jitsu-wa-watashi-wa-episode-3"
+    },
+    {
+      "id": "jitsu-wa-watashi-wa-episode-4",
+      "title": "Help the Class Rep!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/178193/original.jpg",
+      "number": 4,
+      "createdAt": "2015-07-07T17:01:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jitsu-wa-watashi-wa-episode-4"
+    },
+    {
+      "id": "jitsu-wa-watashi-wa-episode-5",
+      "title": "Let's Go on a... Date?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/178194/original.jpg",
+      "number": 5,
+      "createdAt": "2015-07-07T17:01:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jitsu-wa-watashi-wa-episode-5"
+    },
+    {
+      "id": "jitsu-wa-watashi-wa-episode-6",
+      "title": "Beware of the Wolf Man!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/178195/original.jpg",
+      "number": 6,
+      "createdAt": "2015-07-07T17:01:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jitsu-wa-watashi-wa-episode-6"
+    },
+    {
+      "id": "jitsu-wa-watashi-wa-episode-7",
+      "title": "Let's Get Sexy!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/178196/original.jpg",
+      "number": 7,
+      "createdAt": "2015-07-07T17:01:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jitsu-wa-watashi-wa-episode-7"
+    },
+    {
+      "id": "jitsu-wa-watashi-wa-episode-8",
+      "title": "Let's Save the World!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/178197/original.jpg",
+      "number": 8,
+      "createdAt": "2015-07-07T17:01:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jitsu-wa-watashi-wa-episode-8"
+    },
+    {
+      "id": "jitsu-wa-watashi-wa-episode-9",
+      "title": "Let's Put On Our Swimsuits!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/178198/original.jpg",
+      "number": 9,
+      "createdAt": "2015-07-07T17:01:15Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jitsu-wa-watashi-wa-episode-9"
+    },
+    {
+      "id": "jitsu-wa-watashi-wa-episode-10",
+      "title": "Let's Be Honest!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/178199/original.jpg",
+      "number": 10,
+      "createdAt": "2015-07-07T17:01:15Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jitsu-wa-watashi-wa-episode-10"
+    },
+    {
+      "id": "jitsu-wa-watashi-wa-episode-11",
+      "title": "Let's Go to the Summer Festival!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/178200/original.jpg",
+      "number": 11,
+      "createdAt": "2015-07-07T17:01:15Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jitsu-wa-watashi-wa-episode-11"
+    },
+    {
+      "id": "jitsu-wa-watashi-wa-episode-12",
+      "title": "Let's Stop This Confession!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/178201/original.jpg",
+      "number": 12,
+      "createdAt": "2015-07-07T17:01:15Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jitsu-wa-watashi-wa-episode-12"
+    },
+    {
+      "id": "jitsu-wa-watashi-wa-episode-13",
+      "title": "Let's Go Home Together!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/178202/original.jpg",
+      "number": 13,
+      "createdAt": "2015-07-07T17:01:15Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jitsu-wa-watashi-wa-episode-13"
+    }
+  ]
+}

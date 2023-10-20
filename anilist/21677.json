@@ -1,0 +1,877 @@
+{
+  "id": "21677",
+  "title": {
+    "romaji": "ēlDLIVE",
+    "english": "elDLIVE",
+    "native": "エルドライブ 【ēlDLIVE】"
+  },
+  "malId": 32878,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "Yv8IO7efUvY",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/Yv8IO7efUvY/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21677-jVe7bGD1x1dJ.jpg",
+  "popularity": 9029,
+  "color": "#785de4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n21677-wAzsc7dPQ6yX.jpg",
+  "description": "Chuuta Kokonose is an orphan who lives with his aunt. For as long as he can remember he's had a voice in his head, but other than that he's a normal boy - right until the day when a strangely-looking thing follows him home and teleports him to a place filled with more fantastic creatures. It's a space police station, and Rein Brickke, the Chief of Solar System Department, tells him that he's been chosen by the computer as a possible candidate to join the police force, although Misuzu Sonokata, a girl from Chuuta's school with an angelic face and ill temper who turns out to be one of Rein Brickke's subordinates, doesn't think him suitable for such a job. Chuuta, who was shocked at first, decides to take aptitude test after being urged by the voice in his head and to prove Misuzu wrong.\n",
+  "status": "Completed",
+  "releaseDate": 2017,
+  "startDate": {
+    "year": 2017,
+    "month": 1,
+    "day": 8
+  },
+  "endDate": {
+    "year": 2017,
+    "month": 3,
+    "day": 26
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 55,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Sci-Fi"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "Studio Pierrot"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 1604,
+      "malId": 1604,
+      "title": {
+        "romaji": "Katekyou Hitman REBORN!",
+        "english": "REBORN!",
+        "native": "家庭教師ヒットマンREBORN!",
+        "userPreferred": "Katekyou Hitman REBORN!"
+      },
+      "status": "Completed",
+      "episodes": 203,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1604-H53bcO7VSWGU.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1604-n7a4gHUeqmba.jpg",
+      "rating": 76,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 88092,
+      "role": "MAIN",
+      "name": {
+        "first": "Misuzu",
+        "last": "Sonokata",
+        "full": "Misuzu Sonokata",
+        "native": "其方美鈴",
+        "userPreferred": "Misuzu Sonokata"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/88092.jpg",
+      "voiceActors": [
+        {
+          "id": 95869,
+          "language": "Japanese",
+          "name": {
+            "first": "Saori",
+            "last": "Hayami",
+            "full": "Saori Hayami",
+            "native": "早見沙織",
+            "userPreferred": "Saori Hayami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95869-qCQ0EaWpq1QT.png"
+        },
+        {
+          "id": 124164,
+          "language": "English",
+          "name": {
+            "first": "Dawn",
+            "last": "Bennett",
+            "full": "Dawn Bennett",
+            "native": null,
+            "userPreferred": "Dawn M. Bennett"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n124164-S1pPyOrjgRpg.png"
+        }
+      ]
+    },
+    {
+      "id": 88090,
+      "role": "MAIN",
+      "name": {
+        "first": "Laine",
+        "last": "Brick",
+        "full": "Laine Brick",
+        "native": "レイン・ブリック",
+        "userPreferred": "Laine Brick"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/88090.jpg",
+      "voiceActors": [
+        {
+          "id": 95735,
+          "language": "Japanese",
+          "name": {
+            "first": "Tatsuhisa",
+            "last": "Suzuki",
+            "full": "Tatsuhisa Suzuki",
+            "native": "鈴木達央",
+            "userPreferred": "Tatsuhisa Suzuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95735-xssSe5BRSkaq.jpg"
+        },
+        {
+          "id": 127682,
+          "language": "English",
+          "name": {
+            "first": "Daman",
+            "last": "Mills",
+            "full": "Daman Mills",
+            "native": null,
+            "userPreferred": "Daman Mills"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n127682-J5tZnKTPfo5D.jpg"
+        }
+      ]
+    },
+    {
+      "id": 88091,
+      "role": "MAIN",
+      "name": {
+        "first": "Chuuta",
+        "last": "Kokonose",
+        "full": "Chuuta Kokonose",
+        "native": "九ノ瀬 宙太",
+        "userPreferred": "Chuuta Kokonose"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b88091-XcAG2FMGBRsq.png",
+      "voiceActors": [
+        {
+          "id": 110919,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumu",
+            "last": "Murase",
+            "full": "Ayumu Murase",
+            "native": "村瀬歩",
+            "userPreferred": "Ayumu Murase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n110919-zz5dq39kyzNC.png"
+        },
+        {
+          "id": 120246,
+          "language": "English",
+          "name": {
+            "first": "Morgan",
+            "last": "Berry",
+            "full": "Morgan Berry",
+            "native": null,
+            "userPreferred": "Morgan Berry"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n120246-G6NPhgCxKDg5.png"
+        }
+      ]
+    },
+    {
+      "id": 227521,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dolugh",
+        "last": null,
+        "full": "Dolugh",
+        "native": "ドルー",
+        "userPreferred": "Dolugh"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b227521-LHbYCjOrhIRr.jpg",
+      "voiceActors": [
+        {
+          "id": 95008,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Kugimiya",
+            "full": "Rie Kugimiya",
+            "native": "釘宮理恵",
+            "userPreferred": "Rie Kugimiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95008-2y0EeuSTHIri.png"
+        },
+        {
+          "id": 120664,
+          "language": "English",
+          "name": {
+            "first": "Kristen",
+            "last": "McGuire",
+            "full": "Kristen McGuire",
+            "native": null,
+            "userPreferred": "Kristen McGuire"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n120664-R9g32vsbhPaO.jpg"
+        }
+      ]
+    },
+    {
+      "id": 227535,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Marley",
+        "last": null,
+        "full": "Marley",
+        "native": "マーリー",
+        "userPreferred": "Marley"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 116159,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayako",
+            "last": "Uemura",
+            "full": "Ayako Uemura",
+            "native": "上村彩子",
+            "userPreferred": "Ayako Uemura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/21159.jpg"
+        }
+      ]
+    },
+    {
+      "id": 154390,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Veronica",
+        "last": "Borowczyk",
+        "full": "Veronica Borowczyk",
+        "native": "ベロニカ・ボロズウィック",
+        "userPreferred": "Veronica Borowczyk"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b154390-AWjn20sdUoqy.jpg",
+      "voiceActors": [
+        {
+          "id": 112207,
+          "language": "Japanese",
+          "name": {
+            "first": "Riho",
+            "last": "Iida",
+            "full": "Riho Iida",
+            "native": "飯田里穂",
+            "userPreferred": "Riho Iida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n112207-FZGGO2a34Wqt.png"
+        },
+        {
+          "id": 113057,
+          "language": "English",
+          "name": {
+            "first": "Morgan",
+            "last": "Lauré",
+            "full": "Morgan Lauré",
+            "native": null,
+            "userPreferred": "Morgan Lauré"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/18057.jpg"
+        }
+      ]
+    },
+    {
+      "id": 227523,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Erwin",
+        "last": null,
+        "full": "Erwin",
+        "native": "エルヴィン",
+        "userPreferred": "Erwin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95178,
+          "language": "Japanese",
+          "name": {
+            "first": "Shoutarou",
+            "last": "Morikubo",
+            "full": "Shoutarou Morikubo",
+            "native": "森久保祥太郎",
+            "userPreferred": "Shoutarou Morikubo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95178-8R9Itg3Y1v24.png"
+        }
+      ]
+    },
+    {
+      "id": 227545,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Meeru",
+        "last": "Riggs",
+        "full": "Meeru Riggs",
+        "native": "メェル・リッグス",
+        "userPreferred": "Meeru Riggs"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b227545-iDqqMVQdz4pe.jpg",
+      "voiceActors": [
+        {
+          "id": 105273,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenichirou",
+            "last": "Matsuda",
+            "full": "Kenichirou Matsuda",
+            "native": "松田健一郎",
+            "userPreferred": "Kenichirou Matsuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105273-asextl049B2s.png"
+        },
+        {
+          "id": 96342,
+          "language": "English",
+          "name": {
+            "first": "Chris",
+            "last": "Rager",
+            "full": "Chris Rager",
+            "native": null,
+            "userPreferred": "Chris Rager"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1342.jpg"
+        }
+      ]
+    },
+    {
+      "id": 154392,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Taklamakan Strange",
+        "last": "Love",
+        "full": "Taklamakan Strange Love",
+        "native": "クラマカン・ストレインジ・ラヴ",
+        "userPreferred": "Taklamakan Strange Love"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b154392-7pJnSvnO0O0D.jpg",
+      "voiceActors": [
+        {
+          "id": 106817,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshitsugu",
+            "last": "Matsuoka",
+            "full": "Yoshitsugu Matsuoka",
+            "native": "松岡禎丞",
+            "userPreferred": "Yoshitsugu Matsuoka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106817-mioGQjbTWWQ6.png"
+        },
+        {
+          "id": 127809,
+          "language": "English",
+          "name": {
+            "first": "Brandon",
+            "last": "McInnis",
+            "full": "Brandon McInnis",
+            "native": "Brandon McInnis",
+            "userPreferred": "Brandon McInnis"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n127809-uLM2ITKWUSCl.png"
+        }
+      ]
+    },
+    {
+      "id": 227524,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ken",
+        "last": "Mizoguchi",
+        "full": "Ken Mizoguchi",
+        "native": "溝口健",
+        "userPreferred": "Ken Mizoguchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b227524-R6LDnzWjhzVA.png",
+      "voiceActors": [
+        {
+          "id": 95206,
+          "language": "Japanese",
+          "name": {
+            "first": "Takashi",
+            "last": "Kondou",
+            "full": "Takashi Kondou",
+            "native": "近藤隆",
+            "userPreferred": "Takashi Kondou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95206-xbnvRIrUO77y.jpg"
+        },
+        {
+          "id": 128534,
+          "language": "English",
+          "name": {
+            "first": "Kristi",
+            "last": "Rothrock",
+            "full": "Kristi Rothrock",
+            "native": null,
+            "userPreferred": "Kristi Rothrock"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n128534-eqvLKndZMeK1.jpg"
+        },
+        {
+          "id": 120666,
+          "language": "English",
+          "name": {
+            "first": "Alejandro",
+            "last": "Saab",
+            "full": "Alejandro Saab",
+            "native": null,
+            "userPreferred": "Alejandro Saab"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n120666-w1w9s5Y9z6vW.png"
+        }
+      ]
+    },
+    {
+      "id": 227516,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nina",
+        "last": "Bavurovua",
+        "full": "Nina Bavurovua",
+        "native": "ニーナ・ミハイロヴナ・パーヴロヴァ",
+        "userPreferred": "Nina Mihairovna Bavurovua"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b227516-yMKJkmRih7Qh.jpg",
+      "voiceActors": [
+        {
+          "id": 118806,
+          "language": "Japanese",
+          "name": {
+            "first": "Lynn",
+            "last": "",
+            "full": "Lynn",
+            "native": "Lynn",
+            "userPreferred": "Lynn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118806-AlHvdje5aHje.png"
+        },
+        {
+          "id": 104091,
+          "language": "English",
+          "name": {
+            "first": "Alexis",
+            "last": "Tipton",
+            "full": "Alexis Tipton",
+            "native": null,
+            "userPreferred": "Alexis Tipton"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104091-OZpJbFWFwnvV.jpg"
+        }
+      ]
+    },
+    {
+      "id": 227526,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tateyan",
+        "last": null,
+        "full": "Tateyan",
+        "native": "タテヤン",
+        "userPreferred": "Tateyan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b227526-yid0kzBXuJ4Y.png",
+      "voiceActors": [
+        {
+          "id": 95583,
+          "language": "Japanese",
+          "name": {
+            "first": "Akio",
+            "last": "Suyama",
+            "full": "Akio Suyama",
+            "native": "章央陶山",
+            "userPreferred": "Akio Suyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95583-pcq7rkDjxRTl.jpg"
+        },
+        {
+          "id": 120665,
+          "language": "English",
+          "name": {
+            "first": "Stephen",
+            "last": "Sanders",
+            "full": "Stephen Sanders",
+            "native": null,
+            "userPreferred": "Stephen Sanders"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/120665-vWxkWsW3qk2p.jpg"
+        }
+      ]
+    },
+    {
+      "id": 227517,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Vega",
+        "last": "Victor",
+        "full": "Vega Victor",
+        "native": "ヴェガ・ヴィクタ",
+        "userPreferred": "Vega Victor"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b227517-gDL126XrC3Ku.png",
+      "voiceActors": [
+        {
+          "id": 95118,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Kamiya",
+            "full": "Hiroshi Kamiya",
+            "native": "神谷浩史",
+            "userPreferred": "Hiroshi Kamiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95118-oOElrn1aSaiC.png"
+        },
+        {
+          "id": 119609,
+          "language": "English",
+          "name": {
+            "first": "Clifford",
+            "last": "Chapin",
+            "full": "Clifford Chapin",
+            "native": null,
+            "userPreferred": "Clifford Chapin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119609-0LGmxEBb7PS9.jpg"
+        }
+      ]
+    },
+    {
+      "id": 227527,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mimi",
+        "last": "Kokonose",
+        "full": "Mimi Kokonose",
+        "native": "九ノ瀬ミミ",
+        "userPreferred": "Mimi Kokonose"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b227527-mgYkz9LiMO6B.jpg",
+      "voiceActors": [
+        {
+          "id": 95467,
+          "language": "Japanese",
+          "name": {
+            "first": "Akiko",
+            "last": "Kimura",
+            "full": "Akiko Kimura",
+            "native": "木村亜希子",
+            "userPreferred": "Akiko Kimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/467.jpg"
+        },
+        {
+          "id": 120245,
+          "language": "English",
+          "name": {
+            "first": "Michelle",
+            "last": "Rojas",
+            "full": "Michelle Rojas",
+            "native": null,
+            "userPreferred": "Michelle Rojas"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n120245-caA11LwLmwZR.jpg"
+        }
+      ]
+    },
+    {
+      "id": 227518,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chips",
+        "last": "Tuuru",
+        "full": "Chips Tuuru",
+        "native": "チップス・オ・トゥール",
+        "userPreferred": "Chips O. Tuuru"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b227518-S5j2gvX0s65P.jpg",
+      "voiceActors": [
+        {
+          "id": 120264,
+          "language": "Japanese",
+          "name": {
+            "first": "Daiki",
+            "last": "Kobayashi",
+            "full": "Daiki Kobayashi",
+            "native": "小林大紀",
+            "userPreferred": "Daiki Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n120264-tFX9T4R9BhnV.png"
+        },
+        {
+          "id": 110441,
+          "language": "English",
+          "name": {
+            "first": "Lara",
+            "last": "Woodhull",
+            "full": "Lara Woodhull",
+            "native": null,
+            "userPreferred": "Lara Woodhull"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15441.jpg"
+        }
+      ]
+    },
+    {
+      "id": 227534,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shizu-chan",
+        "last": null,
+        "full": "Shizu-chan",
+        "native": "シズちゃん",
+        "userPreferred": "Shizu-chan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 116159,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayako",
+            "last": "Uemura",
+            "full": "Ayako Uemura",
+            "native": "上村彩子",
+            "userPreferred": "Ayako Uemura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/21159.jpg"
+        },
+        {
+          "id": 128534,
+          "language": "English",
+          "name": {
+            "first": "Kristi",
+            "last": "Rothrock",
+            "full": "Kristi Rothrock",
+            "native": null,
+            "userPreferred": "Kristi Rothrock"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n128534-eqvLKndZMeK1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 227519,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Harry",
+        "last": null,
+        "full": "Harry",
+        "native": "ハリー",
+        "userPreferred": "Harry"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b227519-r8WL2099nOW7.jpg",
+      "voiceActors": [
+        {
+          "id": 95589,
+          "language": "Japanese",
+          "name": {
+            "first": "",
+            "last": "Neeko",
+            "full": "Neeko",
+            "native": "ニーコ ",
+            "userPreferred": "Neeko"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95589-FdmWw9KYxBeE.jpg"
+        },
+        {
+          "id": 106630,
+          "language": "English",
+          "name": {
+            "first": "Tyler",
+            "last": "Walker",
+            "full": "Tyler Walker",
+            "native": null,
+            "userPreferred": "Tyler Walker"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106630-2fGxgxHVMNgk.png"
+        }
+      ]
+    },
+    {
+      "id": 227533,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dahli",
+        "last": "Lime",
+        "full": "Dahli Lime",
+        "native": "ダリイ・ライム",
+        "userPreferred": "Dahli Lime"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 210469,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshihiro",
+            "last": "Okubo",
+            "full": "Toshihiro Okubo",
+            "native": "大久保 利洋",
+            "userPreferred": "Toshihiro Okubo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n210469-6qTrefhDxSVd.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 85227,
+      "relationType": "ADAPTATION",
+      "malId": 56945,
+      "title": {
+        "romaji": "ēlDLIVE",
+        "english": "élDLIVE",
+        "native": "エルドライブ 【ēlDLIVE】",
+        "userPreferred": "ēlDLIVE"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx85227-nYRXrENSOdFJ.png",
+      "color": "#e4d628",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/85227-YQV33F9Wcscc.jpg",
+      "rating": 61
+    },
+    {
+      "id": 143393,
+      "relationType": "OTHER",
+      "malId": 33740,
+      "title": {
+        "romaji": "Katekyo Hitman REBORN! x ēlDLIVE SP Collaboration Mini Anime (24H)",
+        "english": null,
+        "native": "家庭教師ヒットマンREBORN!×エルドライブ【ēlDLIVE】』SPコラボミニアニメ[24H] ",
+        "userPreferred": "Katekyo Hitman REBORN! x ēlDLIVE SP Collaboration Mini Anime (24H)"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143393-wv4bYZf1PBIH.png",
+      "color": "#785de4",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143393-wv4bYZf1PBIH.png",
+      "rating": 61
+    }
+  ],
+  "episodes": [
+    {
+      "id": "eldlive-episode-1",
+      "title": "Chuta, the Voice, and the Qualifying Exam",
+      "image": "https://media.kitsu.io/episodes/thumbnails/200309/original.jpg",
+      "number": 1,
+      "createdAt": "2017-06-30T15:26:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//eldlive-episode-1"
+    },
+    {
+      "id": "eldlive-episode-2",
+      "title": "Super Cool Space Girl",
+      "image": "https://media.kitsu.io/episodes/thumbnails/200310/original.jpg",
+      "number": 2,
+      "createdAt": "2017-06-30T15:26:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//eldlive-episode-2"
+    },
+    {
+      "id": "eldlive-episode-3",
+      "title": "After the Shoplifter!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/200311/original.jpg",
+      "number": 3,
+      "createdAt": "2017-06-30T15:26:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//eldlive-episode-3"
+    },
+    {
+      "id": "eldlive-episode-4",
+      "title": "A Pursuer From the Past: Part 1",
+      "image": "https://media.kitsu.io/episodes/thumbnails/200312/original.jpg",
+      "number": 4,
+      "createdAt": "2017-06-30T15:26:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//eldlive-episode-4"
+    },
+    {
+      "id": "eldlive-episode-5",
+      "title": "A Pursuer From the Past: Part 2",
+      "image": "https://media.kitsu.io/episodes/thumbnails/200313/original.jpg",
+      "number": 5,
+      "createdAt": "2017-06-30T15:26:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//eldlive-episode-5"
+    },
+    {
+      "id": "eldlive-episode-6",
+      "title": "Something to Believe in: Part 1",
+      "image": "https://media.kitsu.io/episodes/thumbnails/200314/original.jpg",
+      "number": 6,
+      "createdAt": "2017-06-30T15:26:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//eldlive-episode-6"
+    },
+    {
+      "id": "eldlive-episode-7",
+      "title": "Something to Believe In: Part 2",
+      "image": "https://media.kitsu.io/episodes/thumbnails/200315/original.jpg",
+      "number": 7,
+      "createdAt": "2017-06-30T15:26:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//eldlive-episode-7"
+    },
+    {
+      "id": "eldlive-episode-8",
+      "title": "Something to Believe in: Part 3",
+      "image": "https://media.kitsu.io/episodes/thumbnails/200316/original.jpg",
+      "number": 8,
+      "createdAt": "2017-06-30T15:26:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//eldlive-episode-8"
+    },
+    {
+      "id": "eldlive-episode-9",
+      "title": "Misuzu's Lie",
+      "image": "https://media.kitsu.io/episodes/thumbnails/200317/original.jpg",
+      "number": 9,
+      "createdAt": "2017-06-30T15:26:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//eldlive-episode-9"
+    },
+    {
+      "id": "eldlive-episode-10",
+      "title": "Capture That Face",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21677-jVe7bGD1x1dJ.jpg",
+      "number": 10,
+      "createdAt": "2017-06-30T15:26:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//eldlive-episode-10"
+    },
+    {
+      "id": "eldlive-episode-11",
+      "title": "Your Voice...",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21677-jVe7bGD1x1dJ.jpg",
+      "number": 11,
+      "createdAt": "2017-06-30T15:26:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//eldlive-episode-11"
+    },
+    {
+      "id": "eldlive-episode-12",
+      "title": "Our sympathy",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21677-jVe7bGD1x1dJ.jpg",
+      "number": 12,
+      "createdAt": "2017-06-30T15:26:38Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//eldlive-episode-12"
+    }
+  ]
+}

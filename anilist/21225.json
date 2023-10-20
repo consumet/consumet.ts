@@ -1,0 +1,903 @@
+{
+  "id": "21225",
+  "title": {
+    "romaji": "KAGEWANI",
+    "english": "KAGEWANI",
+    "native": "影鰐 -KAGEWANI-"
+  },
+  "malId": 30524,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21225-5tYcq03RU6RL.jpg",
+  "popularity": 6636,
+  "color": "#e4ae78",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21225-uAdCo1jXc5md.jpg",
+  "description": "Mysterious monsters that appear and attack in present time.\nThe people can only be played with by them in this extreme situation.\nWhy do these monsters appear to attack people...?\nSousuke Banba, a scientist, searches for the truth with the keyword \"Kagewani\"\nA new feeling of panic suspense animation begins.\n\n(Source: MAL News)",
+  "status": "Completed",
+  "releaseDate": 2015,
+  "startDate": {
+    "year": 2015,
+    "month": 10,
+    "day": 2
+  },
+  "endDate": {
+    "year": 2015,
+    "month": 12,
+    "day": 25
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 57,
+  "duration": 8,
+  "genres": [
+    "Horror",
+    "Mystery",
+    "Supernatural",
+    "Thriller"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Tomovies"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 19383,
+      "malId": 19383,
+      "title": {
+        "romaji": "Yami Shibai",
+        "english": "Theatre of Darkness: Yamishibai",
+        "native": "闇芝居",
+        "userPreferred": "Yami Shibai"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/19383.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/19383-3GoardwKU3u5.jpg",
+      "rating": 65,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 21224,
+      "malId": 30948,
+      "title": {
+        "romaji": "Kowabon",
+        "english": null,
+        "native": "こわぼん",
+        "userPreferred": "Kowabon"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21224-eQoxsSrPZEA2.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21224-RJYgu9dgRkCr.jpg",
+      "rating": 47,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 98442,
+      "malId": 35069,
+      "title": {
+        "romaji": "Sekai no Yami Zukan",
+        "english": "The World YAMIZUKAN",
+        "native": "世界の闇図鑑",
+        "userPreferred": "Sekai no Yami Zukan"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/98442-IR77h747nvhV.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98442-HBKPA1WxafMr.jpg",
+      "rating": 41,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 99940,
+      "malId": 36124,
+      "title": {
+        "romaji": "Itou Junji: Collection",
+        "english": "Junji Ito Collection",
+        "native": "伊藤潤二「コレクション」",
+        "userPreferred": "Itou Junji: Collection"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99940-pxsliSVHi0sj.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99940-A6OUzUuwTFxw.jpg",
+      "rating": 60,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 135763,
+      "role": "MAIN",
+      "name": {
+        "first": "Masaki",
+        "last": "Kimura",
+        "full": "Masaki Kimura",
+        "native": "木村雅貴",
+        "userPreferred": "Masaki Kimura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b135763-nsW5UuIHmvZA.jpg",
+      "voiceActors": [
+        {
+          "id": 95177,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryoutarou",
+            "last": "Okiayu",
+            "full": "Ryoutarou Okiayu",
+            "native": "置鮎龍太郎",
+            "userPreferred": "Ryoutarou Okiayu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95177-6SiaUTf3CLkN.png"
+        }
+      ]
+    },
+    {
+      "id": 135764,
+      "role": "MAIN",
+      "name": {
+        "first": "Sousuke",
+        "last": "Banba",
+        "full": "Sousuke Banba",
+        "native": "番場宗介",
+        "userPreferred": "Sousuke Banba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b135764-3WFKVIyWe8Rn.jpg",
+      "voiceActors": [
+        {
+          "id": 95002,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Sugita",
+            "full": "Tomokazu Sugita",
+            "native": "杉田智和",
+            "userPreferred": "Tomokazu Sugita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95002-nDIvHaynicEg.png"
+        }
+      ]
+    },
+    {
+      "id": 178431,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Juri",
+        "last": null,
+        "full": "Juri",
+        "native": "ジュリ",
+        "userPreferred": "Juri"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b178431-sAyYjOkWV7kk.jpg",
+      "voiceActors": [
+        {
+          "id": 129443,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukiko",
+            "last": "Morishita",
+            "full": "Yukiko Morishita",
+            "native": "森下由樹子",
+            "userPreferred": "Yukiko Morishita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n129443-Fz7fJMfzuu2o.png"
+        }
+      ]
+    },
+    {
+      "id": 178436,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Machizou",
+        "last": null,
+        "full": "Machizou",
+        "native": "町蔵",
+        "userPreferred": "Machizou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b178436-bbWyxjcW03SO.jpg",
+      "voiceActors": [
+        {
+          "id": 102953,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouhei",
+            "last": "Fukuhara",
+            "full": "Kouhei Fukuhara",
+            "native": "福原耕平",
+            "userPreferred": "Kouhei Fukuhara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7953.jpg"
+        }
+      ]
+    },
+    {
+      "id": 178444,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Saori",
+        "last": null,
+        "full": "Saori",
+        "native": "サオリ",
+        "userPreferred": "Saori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b178444-RWfhUShusIUR.jpg",
+      "voiceActors": [
+        {
+          "id": 95256,
+          "language": "Japanese",
+          "name": {
+            "first": "Naomi",
+            "last": "Shindou",
+            "full": "Naomi Shindou",
+            "native": "進藤尚美",
+            "userPreferred": "Naomi Shindou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95256-4emdBHqQ5S7m.png"
+        }
+      ]
+    },
+    {
+      "id": 178451,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sonchou",
+        "last": "",
+        "full": "Sonchou",
+        "native": "村長",
+        "userPreferred": "Sonchou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b178451-2zPJ8IrvTh4b.jpg",
+      "voiceActors": [
+        {
+          "id": 104945,
+          "language": "Japanese",
+          "name": {
+            "first": "Keiji",
+            "last": "Hirai",
+            "full": "Keiji Hirai",
+            "native": "平井啓二",
+            "userPreferred": "Keiji Hirai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104945-xUIkSE8xR0If.png"
+        }
+      ]
+    },
+    {
+      "id": 178432,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kazuto",
+        "last": null,
+        "full": "Kazuto",
+        "native": "カズト",
+        "userPreferred": "Kazuto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b178432-2jZjavIEP43V.jpg",
+      "voiceActors": [
+        {
+          "id": 95256,
+          "language": "Japanese",
+          "name": {
+            "first": "Naomi",
+            "last": "Shindou",
+            "full": "Naomi Shindou",
+            "native": "進藤尚美",
+            "userPreferred": "Naomi Shindou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95256-4emdBHqQ5S7m.png"
+        }
+      ]
+    },
+    {
+      "id": 178437,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Minori",
+        "last": null,
+        "full": "Minori",
+        "native": "ミノリ",
+        "userPreferred": "Minori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b178437-upSspV4PUTuM.jpg",
+      "voiceActors": [
+        {
+          "id": 95581,
+          "language": "Japanese",
+          "name": {
+            "first": "Mai",
+            "last": "Aizawa",
+            "full": "Mai Aizawa",
+            "native": "相沢舞",
+            "userPreferred": "Mai Aizawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95581-gWE4vp0f75q0.png"
+        }
+      ]
+    },
+    {
+      "id": 178445,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Satoshi",
+        "last": null,
+        "full": "Satoshi",
+        "native": "サトシ",
+        "userPreferred": "Satoshi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b178445-56MLurCSPgny.jpg",
+      "voiceActors": [
+        {
+          "id": 178457,
+          "language": "Japanese",
+          "name": {
+            "first": "Fumiya",
+            "last": "Kosugi",
+            "full": "Fumiya Kosugi",
+            "native": "小杉史哉",
+            "userPreferred": "Fumiya Kosugi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n178457-76uVsk3eAfMN.png"
+        }
+      ]
+    },
+    {
+      "id": 178453,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yosuke",
+        "last": null,
+        "full": "Yosuke",
+        "native": "ヨウスケ",
+        "userPreferred": "Yosuke"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b178453-IH5E0KiX4Grs.jpg",
+      "voiceActors": [
+        {
+          "id": 95074,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenji",
+            "last": "Nojima",
+            "full": "Kenji Nojima",
+            "native": "野島健児",
+            "userPreferred": "Kenji Nojima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95074-ilLCdbpWIgrF.png"
+        }
+      ]
+    },
+    {
+      "id": 178422,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ayumi",
+        "last": null,
+        "full": "Ayumi",
+        "native": "アユミ",
+        "userPreferred": "Ayumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b178422-txUvCGor3SWs.jpg",
+      "voiceActors": [
+        {
+          "id": 107448,
+          "language": "Japanese",
+          "name": {
+            "first": "Sayaka",
+            "last": "Hirao",
+            "full": "Sayaka Hirao",
+            "native": "明香平尾",
+            "userPreferred": "Sayaka Hirao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12448.jpg"
+        }
+      ]
+    },
+    {
+      "id": 178430,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jirou",
+        "last": null,
+        "full": "Jirou",
+        "native": "ジロウ",
+        "userPreferred": "Jirou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b178430-ztqgOZumOFQL.jpg",
+      "voiceActors": [
+        {
+          "id": 178455,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukinori",
+            "last": "Okuhata",
+            "full": "Yukinori Okuhata",
+            "native": "奥畑幸典",
+            "userPreferred": "Yukinori Okuhata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n178455-AtwLKHzzbNyO.png"
+        }
+      ]
+    },
+    {
+      "id": 178438,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mizusaki",
+        "last": null,
+        "full": "Mizusaki",
+        "native": "水崎",
+        "userPreferred": "Mizusaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b178438-syQAvFEG9bgb.jpg",
+      "voiceActors": [
+        {
+          "id": 178456,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuusuke",
+            "last": "Handa",
+            "full": "Yuusuke Handa",
+            "native": "半田裕典",
+            "userPreferred": "Yuusuke Handa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n178456-UNzmZt6VYWOy.jpg"
+        }
+      ]
+    },
+    {
+      "id": 178446,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shigeru",
+        "last": null,
+        "full": "Shigeru",
+        "native": "シゲル",
+        "userPreferred": "Shigeru"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b178446-rncddV2VLPfY.jpg",
+      "voiceActors": [
+        {
+          "id": 178460,
+          "language": "Japanese",
+          "name": {
+            "first": "eoheoh",
+            "last": null,
+            "full": "eoheoh",
+            "native": "eoheoh",
+            "userPreferred": "eoheoh"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n178460-CPoo8kdD2SVl.png"
+        }
+      ]
+    },
+    {
+      "id": 178454,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuta",
+        "last": null,
+        "full": "Yuta",
+        "native": "ユウタ",
+        "userPreferred": "Yuta"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b178454-F0DucWqjnAw4.jpg",
+      "voiceActors": [
+        {
+          "id": 103776,
+          "language": "Japanese",
+          "name": {
+            "first": "Chie",
+            "last": "Satou",
+            "full": "Chie Satou",
+            "native": "佐藤智恵",
+            "userPreferred": "Chie Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8776.jpg"
+        }
+      ]
+    },
+    {
+      "id": 178423,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yumiko",
+        "last": "Banba",
+        "full": "Yumiko Banba",
+        "native": "番場由美子",
+        "userPreferred": "Yumiko Banba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b178423-kQlUeNJvWNfJ.jpg",
+      "voiceActors": [
+        {
+          "id": 114854,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Kaneko",
+            "full": "Yuuki Kaneko",
+            "native": "金子有希",
+            "userPreferred": "Yuuki Kaneko"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n114854-H8ZFBXBhvjym.png"
+        }
+      ]
+    },
+    {
+      "id": 178433,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kenta",
+        "last": null,
+        "full": "Kenta",
+        "native": "ケンタ",
+        "userPreferred": "Kenta"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b178433-dy1T1yGjzhgC.jpg",
+      "voiceActors": [
+        {
+          "id": 178457,
+          "language": "Japanese",
+          "name": {
+            "first": "Fumiya",
+            "last": "Kosugi",
+            "full": "Fumiya Kosugi",
+            "native": "小杉史哉",
+            "userPreferred": "Fumiya Kosugi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n178457-76uVsk3eAfMN.png"
+        }
+      ]
+    },
+    {
+      "id": 178440,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ren",
+        "last": null,
+        "full": "Ren",
+        "native": "レン",
+        "userPreferred": "Ren"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b178440-ynd7eieo4wZx.jpg",
+      "voiceActors": [
+        {
+          "id": 95074,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenji",
+            "last": "Nojima",
+            "full": "Kenji Nojima",
+            "native": "野島健児",
+            "userPreferred": "Kenji Nojima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95074-ilLCdbpWIgrF.png"
+        }
+      ]
+    },
+    {
+      "id": 178447,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sho",
+        "last": null,
+        "full": "Sho",
+        "native": "ショウ",
+        "userPreferred": "Sho"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b178447-JNvNVG7Io6bP.jpg",
+      "voiceActors": [
+        {
+          "id": 178461,
+          "language": "Japanese",
+          "name": {
+            "first": "KIKKUN-MK-II",
+            "last": null,
+            "full": "KIKKUN-MK-II",
+            "native": "KIKKUN-MK-II",
+            "userPreferred": "KIKKUN-MK-II"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n178461-TSZxx5edjcsl.png"
+        }
+      ]
+    },
+    {
+      "id": 178424,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Makoto",
+        "last": "Banba",
+        "full": "Makoto Banba",
+        "native": "番場眞",
+        "userPreferred": "Makoto Banba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b178424-Luk50HWgNyFB.jpg",
+      "voiceActors": [
+        {
+          "id": 102953,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouhei",
+            "last": "Fukuhara",
+            "full": "Kouhei Fukuhara",
+            "native": "福原耕平",
+            "userPreferred": "Kouhei Fukuhara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7953.jpg"
+        }
+      ]
+    },
+    {
+      "id": 178428,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Haruko",
+        "last": null,
+        "full": "Haruko",
+        "native": "ハルコ",
+        "userPreferred": "Haruko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b178428-MgtaCZ8KHAmN.jpg",
+      "voiceActors": [
+        {
+          "id": 95111,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryou",
+            "last": "Hirohashi",
+            "full": "Ryou Hirohashi",
+            "native": "広橋涼",
+            "userPreferred": "Ryou Hirohashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/95111-iw76EbsupYkS.jpg"
+        }
+      ]
+    },
+    {
+      "id": 178441,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rin",
+        "last": null,
+        "full": "Rin",
+        "native": "凜",
+        "userPreferred": "Rin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b178441-UKigpF3k6d95.jpg",
+      "voiceActors": [
+        {
+          "id": 114854,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Kaneko",
+            "full": "Yuuki Kaneko",
+            "native": "金子有希",
+            "userPreferred": "Yuuki Kaneko"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n114854-H8ZFBXBhvjym.png"
+        }
+      ]
+    },
+    {
+      "id": 178448,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shougo",
+        "last": null,
+        "full": "Shougo",
+        "native": "ショウゴ",
+        "userPreferred": "Shougo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b178448-vUu3tZlb3wrX.jpg",
+      "voiceActors": [
+        {
+          "id": 178455,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukinori",
+            "last": "Okuhata",
+            "full": "Yukinori Okuhata",
+            "native": "奥畑幸典",
+            "userPreferred": "Yukinori Okuhata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n178455-AtwLKHzzbNyO.png"
+        }
+      ]
+    },
+    {
+      "id": 178425,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Senchou",
+        "last": null,
+        "full": "Senchou",
+        "native": "船長",
+        "userPreferred": "Senchou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b178425-kM2vkWVaKemZ.jpg",
+      "voiceActors": [
+        {
+          "id": 95651,
+          "language": "Japanese",
+          "name": {
+            "first": "Bin",
+            "last": "Shimada",
+            "full": "Bin Shimada",
+            "native": "島田敏",
+            "userPreferred": "Bin Shimada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95651-6kRo7F4yb6Yt.png"
+        }
+      ]
+    },
+    {
+      "id": 178434,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Satoru",
+        "last": "Komori",
+        "full": "Satoru Komori",
+        "native": "小森智",
+        "userPreferred": "Satoru Komori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b178434-T8YxSXSMtaaV.jpg",
+      "voiceActors": [
+        {
+          "id": 178459,
+          "language": "Japanese",
+          "name": {
+            "first": "Aromahot",
+            "last": null,
+            "full": "Aromahot",
+            "native": "あろまほっと",
+            "userPreferred": "Aromahot"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n178459-Nq4VnD2c4ESX.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 21636,
+      "relationType": "SEQUEL",
+      "malId": 32682,
+      "title": {
+        "romaji": "KAGEWANI: Shou",
+        "english": "Kagewani ~II~",
+        "native": "影鰐-承-",
+        "userPreferred": "KAGEWANI: Shou"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21636-9iIglokvMTu2.jpg",
+      "color": "#780d0d",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21636-9iIglokvMTu2.jpg",
+      "rating": 60
+    }
+  ],
+  "episodes": [
+    {
+      "id": "kagewani-episode-1",
+      "title": "Doba",
+      "image": "https://media.kitsu.io/episodes/thumbnails/179839/original.jpg",
+      "number": 1,
+      "createdAt": "2015-10-03T20:10:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagewani-episode-1"
+    },
+    {
+      "id": "kagewani-episode-2",
+      "title": "Ice Fang",
+      "image": "https://media.kitsu.io/episodes/thumbnails/179840/original.jpg",
+      "number": 2,
+      "createdAt": "2015-10-03T20:10:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagewani-episode-2"
+    },
+    {
+      "id": "kagewani-episode-3",
+      "title": "Return",
+      "image": "https://media.kitsu.io/episodes/thumbnails/179841/original.jpg",
+      "number": 3,
+      "createdAt": "2015-10-03T20:10:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagewani-episode-3"
+    },
+    {
+      "id": "kagewani-episode-4",
+      "title": "Double Bow",
+      "image": "https://media.kitsu.io/episodes/thumbnails/179842/original.jpg",
+      "number": 4,
+      "createdAt": "2015-10-03T20:10:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagewani-episode-4"
+    },
+    {
+      "id": "kagewani-episode-5",
+      "title": "Strange Color",
+      "image": "https://media.kitsu.io/episodes/thumbnails/179843/original.jpg",
+      "number": 5,
+      "createdAt": "2015-10-03T20:10:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagewani-episode-5"
+    },
+    {
+      "id": "kagewani-episode-6",
+      "title": "Deep Abyss",
+      "image": "https://media.kitsu.io/episodes/thumbnails/179844/original.jpg",
+      "number": 6,
+      "createdAt": "2015-10-03T20:10:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagewani-episode-6"
+    },
+    {
+      "id": "kagewani-episode-7",
+      "title": "Slashing Strike",
+      "image": "https://media.kitsu.io/episodes/thumbnails/179845/original.jpg",
+      "number": 7,
+      "createdAt": "2015-10-03T20:10:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagewani-episode-7"
+    },
+    {
+      "id": "kagewani-episode-8",
+      "title": "Camouflage",
+      "image": "https://media.kitsu.io/episodes/thumbnails/179846/original.jpg",
+      "number": 8,
+      "createdAt": "2015-10-03T20:10:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagewani-episode-8"
+    },
+    {
+      "id": "kagewani-episode-9",
+      "title": "Flytrap",
+      "image": "https://media.kitsu.io/episodes/thumbnails/179847/original.jpg",
+      "number": 9,
+      "createdAt": "2015-10-03T20:10:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagewani-episode-9"
+    },
+    {
+      "id": "kagewani-episode-10",
+      "title": "Shadow Crocodile",
+      "image": "https://media.kitsu.io/episodes/thumbnails/179848/original.jpg",
+      "number": 10,
+      "createdAt": "2015-10-03T20:10:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagewani-episode-10"
+    },
+    {
+      "id": "kagewani-episode-11",
+      "title": "Encounter",
+      "image": "https://media.kitsu.io/episodes/thumbnails/179849/original.jpg",
+      "number": 11,
+      "createdAt": "2015-10-03T20:10:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagewani-episode-11"
+    },
+    {
+      "id": "kagewani-episode-12",
+      "title": "Pitch Black",
+      "image": "https://media.kitsu.io/episodes/thumbnails/179850/original.jpg",
+      "number": 12,
+      "createdAt": "2015-10-03T20:10:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagewani-episode-12"
+    },
+    {
+      "id": "kagewani-episode-13",
+      "title": "His Highness Returns",
+      "image": "https://media.kitsu.io/episodes/thumbnails/179851/original.jpg",
+      "number": 13,
+      "createdAt": "2015-10-03T20:10:55Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kagewani-episode-13"
+    }
+  ]
+}

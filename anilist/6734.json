@@ -1,0 +1,121 @@
+{
+  "id": "6734",
+  "title": {
+    "romaji": "Ginga Tetsudou 999: Eien no Tabibito Emeraldas",
+    "english": "Galaxy Express 999: Eternal Traveller Emeraldas",
+    "native": "銀河鉄道９９９　永遠の旅人エメラルダス"
+  },
+  "malId": 6734,
+  "synonyms": [
+    "Ginga Tetsudo 999: Eien no Tabibito Emeraldas"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx6734-mkiTWzdULi6J.jpg",
+  "popularity": 631,
+  "color": "#e4ae35",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx6734-mkiTWzdULi6J.jpg",
+  "description": "A remake of episode 22 of the TV version.",
+  "status": "Completed",
+  "releaseDate": 1980,
+  "startDate": {
+    "year": 1980,
+    "month": 4,
+    "day": 3
+  },
+  "endDate": {
+    "year": 1980,
+    "month": 4,
+    "day": 3
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 59,
+  "duration": 48,
+  "genres": [
+    "Sci-Fi"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Toei Animation"
+  ],
+  "subOrDub": "sub",
+  "type": "SPECIAL",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 7952,
+      "role": "MAIN",
+      "name": {
+        "first": "Emeraldas",
+        "last": null,
+        "full": "Emeraldas",
+        "native": "エメラルダス",
+        "userPreferred": "Emeraldas"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7952-hkBjM2liTLlL.jpg",
+      "voiceActors": [
+        {
+          "id": 95917,
+          "language": "Japanese",
+          "name": {
+            "first": "Reiko",
+            "last": "Tajima",
+            "full": "Reiko Tajima",
+            "native": "田島令子",
+            "userPreferred": "Reiko Tajima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95917-HSs8eoGJqzXm.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6321,
+      "role": "MAIN",
+      "name": {
+        "first": "Maetel",
+        "last": "",
+        "full": "Maetel",
+        "native": "メーテル",
+        "userPreferred": "Maetel"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6321-zecC2IPZiFxq.jpg",
+      "voiceActors": [
+        {
+          "id": 96149,
+          "language": "Japanese",
+          "name": {
+            "first": "Masako",
+            "last": "Ikeda",
+            "full": "Masako Ikeda",
+            "native": "池田昌子",
+            "userPreferred": "Masako Ikeda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96149-oZnf7Y3W77bl.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 1491,
+      "relationType": "ALTERNATIVE",
+      "malId": 1491,
+      "title": {
+        "romaji": "Ginga Tetsudou 999",
+        "english": "Galaxy Express 999",
+        "native": "銀河鉄道９９９",
+        "userPreferred": "Ginga Tetsudou 999"
+      },
+      "status": "Completed",
+      "episodes": 113,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1491-XfYiHNYKDR2P.jpg",
+      "color": "#e4780d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1491-Y0zzsr3VsxgN.jpg",
+      "rating": 74
+    }
+  ],
+  "episodes": []
+}

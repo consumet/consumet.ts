@@ -1,0 +1,975 @@
+{
+  "id": "10359",
+  "title": {
+    "romaji": "Jewelpet Sunshine",
+    "english": null,
+    "native": "ジュエルペット サンシャイン"
+  },
+  "malId": 10359,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+  "popularity": 1444,
+  "color": "#1ac9d6",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+  "description": "The Plum Section of the 3rd grade class at the Sunshine Academy in Jewel Land are also known as \"the Leftovers.\" Ruby and her classmates aim to graduate and follow their dreams.",
+  "status": "Completed",
+  "releaseDate": 2011,
+  "startDate": {
+    "year": 2011,
+    "month": 4,
+    "day": 9
+  },
+  "endDate": {
+    "year": 2012,
+    "month": 3,
+    "day": 31
+  },
+  "totalEpisodes": 52,
+  "currentEpisode": 52,
+  "rating": 61,
+  "duration": 25,
+  "genres": [
+    "Comedy",
+    "Fantasy",
+    "Mahou Shoujo"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Studio Comet"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 6008,
+      "malId": 6008,
+      "title": {
+        "romaji": "Jewelpet",
+        "english": "Jewelpet",
+        "native": "ジュエルペット",
+        "userPreferred": "Jewelpet"
+      },
+      "status": "Completed",
+      "episodes": 52,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6008-di6Irqm37I5s.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6008-di6Irqm37I5s.jpg",
+      "rating": 64,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 20502,
+      "role": "MAIN",
+      "name": {
+        "first": "Garnet",
+        "last": null,
+        "full": "Garnet",
+        "native": "ガーネット",
+        "userPreferred": "Garnet"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b20502-uRdpuwBokIXS.png",
+      "voiceActors": [
+        {
+          "id": 95004,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Hirano",
+            "full": "Aya Hirano",
+            "native": "平野綾",
+            "userPreferred": "Aya Hirano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95004-qWQQHGzY3wqr.png"
+        }
+      ]
+    },
+    {
+      "id": 33646,
+      "role": "MAIN",
+      "name": {
+        "first": "Peridot",
+        "last": null,
+        "full": "Peridot",
+        "native": "ペリドット",
+        "userPreferred": "Peridot"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/33646.jpg",
+      "voiceActors": [
+        {
+          "id": 95688,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuki",
+            "last": "Kaida",
+            "full": "Yuki Kaida",
+            "native": "甲斐田ゆき",
+            "userPreferred": "Yuki Kaida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95688-uK5svGURlbgS.png"
+        }
+      ]
+    },
+    {
+      "id": 33649,
+      "role": "MAIN",
+      "name": {
+        "first": "Sango",
+        "last": null,
+        "full": "Sango",
+        "native": "サンゴ",
+        "userPreferred": "Sango"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/33649.jpg",
+      "voiceActors": [
+        {
+          "id": 95072,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Shimizu",
+            "full": "Ai Shimizu",
+            "native": "清水愛",
+            "userPreferred": "Ai Shimizu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95072-V8FWqUIDJ57b.png"
+        }
+      ]
+    },
+    {
+      "id": 33642,
+      "role": "MAIN",
+      "name": {
+        "first": "Titana",
+        "last": null,
+        "full": "Titana",
+        "native": "チターナ",
+        "userPreferred": "Titana"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/33642.jpg",
+      "voiceActors": [
+        {
+          "id": 103890,
+          "language": "Japanese",
+          "name": {
+            "first": "",
+            "last": "Erika",
+            "full": "Erika",
+            "native": "江里夏 ",
+            "userPreferred": "Erika"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103890-HXLTfsiOHMzi.jpg"
+        }
+      ]
+    },
+    {
+      "id": 33647,
+      "role": "MAIN",
+      "name": {
+        "first": "Labra",
+        "last": null,
+        "full": "Labra",
+        "native": "ラブラ",
+        "userPreferred": "Labra"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b33647-nfbtZLlIptx8.png",
+      "voiceActors": [
+        {
+          "id": 95099,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyuki",
+            "last": "Sawashiro",
+            "full": "Miyuki Sawashiro",
+            "native": "沢城みゆき",
+            "userPreferred": "Miyuki Sawashiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95099-jKP4LfPWqetk.jpg"
+        }
+      ]
+    },
+    {
+      "id": 47843,
+      "role": "MAIN",
+      "name": {
+        "first": "Kanon",
+        "last": "Mizushiro",
+        "full": "Kanon Mizushiro",
+        "native": "水城花音",
+        "userPreferred": "Kanon Mizushiro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b47843-H9ksbsF0qdRn.jpg",
+      "voiceActors": [
+        {
+          "id": 106844,
+          "language": "Japanese",
+          "name": {
+            "first": "Rei",
+            "last": "Matsuzaki",
+            "full": "Rei Matsuzaki",
+            "native": "松嵜麗",
+            "userPreferred": "Rei Matsuzaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106844-9vOY3hQLRsQJ.png"
+        }
+      ]
+    },
+    {
+      "id": 47845,
+      "role": "MAIN",
+      "name": {
+        "first": "Shouko",
+        "last": "Aizawa",
+        "full": "Shouko Aizawa",
+        "native": "藍沢晶子",
+        "userPreferred": "Shouko Aizawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/47845.jpg",
+      "voiceActors": [
+        {
+          "id": 95099,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyuki",
+            "last": "Sawashiro",
+            "full": "Miyuki Sawashiro",
+            "native": "沢城みゆき",
+            "userPreferred": "Miyuki Sawashiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95099-jKP4LfPWqetk.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20499,
+      "role": "MAIN",
+      "name": {
+        "first": "Ruby",
+        "last": null,
+        "full": "Ruby",
+        "native": "ルビー",
+        "userPreferred": "Ruby"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b20499-VEpEus2k26fp.png",
+      "voiceActors": [
+        {
+          "id": 95222,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayaka",
+            "last": "Saitou",
+            "full": "Ayaka Saitou",
+            "native": "齋藤彩夏",
+            "userPreferred": "Ayaka Saitou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95222-aS9fwwSk3xZR.png"
+        }
+      ]
+    },
+    {
+      "id": 20504,
+      "role": "MAIN",
+      "name": {
+        "first": "Sapphie",
+        "last": null,
+        "full": "Sapphie",
+        "native": "サフィー",
+        "userPreferred": "Sapphie"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b20504-1QZaaszu1dqj.png",
+      "voiceActors": [
+        {
+          "id": 95580,
+          "language": "Japanese",
+          "name": {
+            "first": "Nozomi",
+            "last": "Sasaki",
+            "full": "Nozomi Sasaki",
+            "native": "ささきのぞみ",
+            "userPreferred": "Nozomi Sasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95580-QzU7DKsQZ2Tt.jpg"
+        }
+      ]
+    },
+    {
+      "id": 47847,
+      "role": "MAIN",
+      "name": {
+        "first": "Hinata",
+        "last": "Asaka",
+        "full": "Hinata Asaka",
+        "native": "浅香ひなた",
+        "userPreferred": "Hinata Asaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/47847.jpg",
+      "voiceActors": [
+        {
+          "id": 95599,
+          "language": "Japanese",
+          "name": {
+            "first": "Aki",
+            "last": "Toyosaki",
+            "full": "Aki Toyosaki",
+            "native": "豊崎愛生",
+            "userPreferred": "Aki Toyosaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95599-XDGiluZB7IXL.png"
+        }
+      ]
+    },
+    {
+      "id": 27771,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kris",
+        "last": null,
+        "full": "Kris",
+        "native": "クリソコーラ",
+        "userPreferred": "Kris"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/27771.jpg",
+      "voiceActors": [
+        {
+          "id": 95930,
+          "language": "Japanese",
+          "name": {
+            "first": "Aki",
+            "last": "Kanada",
+            "full": "Aki Kanada",
+            "native": "金田アキ",
+            "userPreferred": "Aki Kanada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95930-tn7fNp6AXwUY.png"
+        }
+      ]
+    },
+    {
+      "id": 50397,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Angela",
+        "last": null,
+        "full": "Angela",
+        "native": "エンジェラ",
+        "userPreferred": "Angela"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/50397.jpg",
+      "voiceActors": [
+        {
+          "id": 95599,
+          "language": "Japanese",
+          "name": {
+            "first": "Aki",
+            "last": "Toyosaki",
+            "full": "Aki Toyosaki",
+            "native": "豊崎愛生",
+            "userPreferred": "Aki Toyosaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95599-XDGiluZB7IXL.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 6008,
+      "relationType": "ALTERNATIVE",
+      "malId": 6008,
+      "title": {
+        "romaji": "Jewelpet",
+        "english": "Jewelpet",
+        "native": "ジュエルペット",
+        "userPreferred": "Jewelpet"
+      },
+      "status": "Completed",
+      "episodes": 52,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6008-di6Irqm37I5s.jpg",
+      "color": "#e45d5d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6008-di6Irqm37I5s.jpg",
+      "rating": 64
+    },
+    {
+      "id": 8217,
+      "relationType": "ALTERNATIVE",
+      "malId": 8217,
+      "title": {
+        "romaji": "Jewelpet Twinkle☆",
+        "english": null,
+        "native": "ジュエルペット てぃんくる☆",
+        "userPreferred": "Jewelpet Twinkle☆"
+      },
+      "status": "Completed",
+      "episodes": 52,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx8217-0AdC5k7zWMwu.png",
+      "color": "#bbe4f1",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/8217-CNQfyzZKZ3oa.jpg",
+      "rating": 72
+    },
+    {
+      "id": 12963,
+      "relationType": "ALTERNATIVE",
+      "malId": 12963,
+      "title": {
+        "romaji": "Jewelpet Kira☆Deco!",
+        "english": null,
+        "native": "ジュエルペットきら☆デコッ!",
+        "userPreferred": "Jewelpet Kira☆Deco!"
+      },
+      "status": "Completed",
+      "episodes": 52,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12963-et2cMSnaKF1r.jpg",
+      "color": "#f1c95d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12963-et2cMSnaKF1r.jpg",
+      "rating": 68
+    },
+    {
+      "id": 17497,
+      "relationType": "ALTERNATIVE",
+      "malId": 17497,
+      "title": {
+        "romaji": "Jewelpet Happiness",
+        "english": null,
+        "native": "ジュエルペット ハッピネス",
+        "userPreferred": "Jewelpet Happiness"
+      },
+      "status": "Completed",
+      "episodes": 52,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx17497-cnlpNKbtMIBC.jpg",
+      "color": "#43bbe4",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx17497-cnlpNKbtMIBC.jpg",
+      "rating": 67
+    },
+    {
+      "id": 113689,
+      "relationType": "ALTERNATIVE",
+      "malId": 40808,
+      "title": {
+        "romaji": "Jewelpet: Attack Travel!",
+        "english": null,
+        "native": "ジュエルペット あたっくとらべる！",
+        "userPreferred": "Jewelpet: Attack Travel!"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113689-pQWKfrPYYzYk.jpg",
+      "color": "#f1a15d",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113689-pQWKfrPYYzYk.jpg",
+      "rating": 54
+    },
+    {
+      "id": 20784,
+      "relationType": "ALTERNATIVE",
+      "malId": 22693,
+      "title": {
+        "romaji": "Lady Jewelpet",
+        "english": null,
+        "native": "レディ ジュエルペット",
+        "userPreferred": "Lady Jewelpet"
+      },
+      "status": "Completed",
+      "episodes": 52,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20784-RtpspoDarLfH.jpg",
+      "color": "#aef150",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20784-RtpspoDarLfH.jpg",
+      "rating": 71
+    },
+    {
+      "id": 21134,
+      "relationType": "ALTERNATIVE",
+      "malId": 30030,
+      "title": {
+        "romaji": "Jewelpet Magical Change",
+        "english": null,
+        "native": "ジュエルペット マジカルチェンジ",
+        "userPreferred": "Jewelpet Magical Change"
+      },
+      "status": "Completed",
+      "episodes": 39,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21134-5UjvL6OWAnK9.jpg",
+      "color": "#28f135",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21134-5UjvL6OWAnK9.jpg",
+      "rating": 62
+    }
+  ],
+  "episodes": [
+    {
+      "id": "jewelpet-sunshine-episode-1",
+      "title": "Teacher Iruka Came Yay! / Love Letters Found Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 1,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-1"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-2",
+      "title": "Labra and Angela Yay! / Hinata and Peridot Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 2,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-2"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-3",
+      "title": "Garnet Keeps Up Yay! / Me and Somebody... Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 3,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-3"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-4",
+      "title": "Sapphie`s Secret Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 4,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-4"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-5",
+      "title": "Iruka Grand Prix Yay! / Goodbye Plum Section Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 5,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-5"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-6",
+      "title": "Ruby`s Making Cookies Yay! / Rald`s Prohibition Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 6,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-6"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-7",
+      "title": "Thanks to Jewel Day Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 7,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-7"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-8",
+      "title": "Charotte`s Love Story Yay! / Jasper`s Curry Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 8,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-8"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-9",
+      "title": "The Human World Yay",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 9,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-9"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-10",
+      "title": "Strawberry Cafe Yay! / Aim for the Scoop! Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 10,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-10"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-11",
+      "title": "Welcome Queen Jewelina Yay! / Opal and The Chairman Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 11,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-11"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-12",
+      "title": "Full of Mud Yay! / The Black Magic Terror Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 12,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-12"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-13",
+      "title": "Course Consultation Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 13,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-13"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-14",
+      "title": "Throbbing Fireworks Yay! / Paca Paca Paca Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 14,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-14"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-15",
+      "title": "Road Man Titana Yay! / Ghosts Coming Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 15,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-15"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-16",
+      "title": "Ruby and Sapphie Yay! / Phantom Ruby Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 16,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-16"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-17",
+      "title": "Desert Island Survival? Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 17,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-17"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-18",
+      "title": "Dragon Land Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 18,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-18"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-19",
+      "title": "Pirate`s Treasure Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 19,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-19"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-20",
+      "title": "Summer, Love, and Adventure Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 20,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-20"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-21",
+      "title": "Triple Axel Yay! / Homework Pinch Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 21,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-21"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-22",
+      "title": "Shouko and Master Yay! / Garnet and Masago Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 22,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-22"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-23",
+      "title": "That's Terrible Yay! / Double Secret Diary Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 23,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-23"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-24",
+      "title": "O-Le! Tour Yay! / Mr. Yaginuma Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 24,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-24"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-25",
+      "title": "Tears in the Rain Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 25,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-25"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-26",
+      "title": "Stress Explosion of Love Yay! / Party Debut Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 26,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-26"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-27",
+      "title": "It's the Sports Festival! Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 27,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-27"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-28",
+      "title": "Double Date Yay! / Girl Talk Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 28,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-28"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-29",
+      "title": "Poorly Tasted Omelet Yay! / Ruby and Kanon Yay! Part 1",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 29,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-29"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-30",
+      "title": "Look Behind You Yay! / Ruby and Kanon Yay! Part 2",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 30,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-30"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-31",
+      "title": "Disappearing Jewel Bread Yay! / M-kage of the Rose Yay! Part 1",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 31,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-31"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-32",
+      "title": "Baby Plum Section Yay! / M-kage of the Rose Yay! Part 2",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 32,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-32"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-33",
+      "title": "Suit up! Jewel Shoes Yay! / Fluola's Pasture Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 33,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-33"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-34",
+      "title": "t's a Musical! Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 34,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-34"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-35",
+      "title": "Tour's Secret Yay! / Good Bye, Kanon Yay! Part 1",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 35,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-35"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-36",
+      "title": "Jugempet Uhyoitsu! / Good Bye, Kanon Yay! Part 2",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 36,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-36"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-37",
+      "title": "Year In, Year Out Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 37,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-37"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-38",
+      "title": "Sweetspet Yay! / Holy Light's Prayer Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 38,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-38"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-39",
+      "title": "Duo in the Wilderness Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 39,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-39"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-40",
+      "title": "Everything Freezes Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 40,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-40"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-41",
+      "title": "Labra's Trial Yay! / Mikage's Secret Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 41,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-41"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-42",
+      "title": "Angela of the Wind Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 42,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-42"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-43",
+      "title": "Hinata's Dreams Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 43,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-43"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-44",
+      "title": "A Star is Born Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 44,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-44"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-45",
+      "title": "It's Valentines! Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 45,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-45"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-46",
+      "title": "Forbidden Love Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 46,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-46"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-47",
+      "title": "When you Wish upon a Star...Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 47,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-47"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-48",
+      "title": "Create an Album Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 48,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-48"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-49",
+      "title": "Call me Dark Queen! Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 49,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-49"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-50",
+      "title": "Dark Jewel War Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 50,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-50"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-51",
+      "title": "Ruby's Ring Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 51,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-51"
+    },
+    {
+      "id": "jewelpet-sunshine-episode-52",
+      "title": "Graduation Ceremony! Yay!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10359-oSqstUoDBDIl.png",
+      "number": 52,
+      "createdAt": "2013-02-20T18:28:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//jewelpet-sunshine-episode-52"
+    }
+  ]
+}

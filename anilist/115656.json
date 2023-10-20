@@ -1,0 +1,984 @@
+{
+  "id": "115656",
+  "title": {
+    "romaji": "Cardfight!! Vanguard Gaiden: if",
+    "english": "Cardfight!! Vanguard Extra Story -if-",
+    "native": "カードファイト!! ヴァンガード外伝 イフ-if-"
+  },
+  "malId": 41283,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "Kpaqcps2SUA",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/Kpaqcps2SUA/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115656-Dt4eRb2enm3p.jpg",
+  "popularity": 1364,
+  "color": "#f1a150",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/115656-tNhjPXB3FYfa.jpg",
+  "description": "The history of -IF- world has been distorted and cardfights do not exist. Ibuki and Suiko get involved with Emi and Shuka.\n<br><br>\nA journey to regain the true history by four people begins—! <br><br>(Source: Cardfight!! Vanguard Wiki)",
+  "status": "Completed",
+  "releaseDate": 2020,
+  "startDate": {
+    "year": 2020,
+    "month": 5,
+    "day": 30
+  },
+  "endDate": {
+    "year": 2020,
+    "month": 11,
+    "day": 28
+  },
+  "totalEpisodes": 25,
+  "currentEpisode": 25,
+  "rating": 58,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Mahou Shoujo"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "OLM"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 111144,
+      "malId": 40167,
+      "title": {
+        "romaji": "Cardfight!! Vanguard: Shinemon-hen",
+        "english": "Cardfight!! Vanguard Shinemon Arc",
+        "native": "カードファイト!! ヴァンガード 新右衛門編",
+        "userPreferred": "Cardfight!! Vanguard: Shinemon-hen"
+      },
+      "status": "Completed",
+      "episodes": 31,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111144-jOEuHdot5Ihs.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/111144-3fFWqGKPZ57o.jpg",
+      "rating": 64,
+      "type": "TV"
+    },
+    {
+      "id": 2703,
+      "malId": 2703,
+      "title": {
+        "romaji": "Chousoku Spinner",
+        "english": "Super YoYo",
+        "native": "超速スピナー",
+        "userPreferred": "Chousoku Spinner"
+      },
+      "status": "Completed",
+      "episodes": 22,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2703-8dt4G5QU1JXS.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2703-8dt4G5QU1JXS.jpg",
+      "rating": 60,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 53425,
+      "role": "MAIN",
+      "name": {
+        "first": "Suiko",
+        "last": "Tatsunagi",
+        "full": "Suiko Tatsunagi",
+        "native": "立凪スイコ",
+        "userPreferred": "Suiko Tatsunagi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b53425-zWb7laX0DaXf.png",
+      "voiceActors": [
+        {
+          "id": 109519,
+          "language": "Japanese",
+          "name": {
+            "first": "Aimi",
+            "last": "",
+            "full": "Aimi",
+            "native": "愛美",
+            "userPreferred": "Aimi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109519-YA8OsgIUdWbM.png"
+        }
+      ]
+    },
+    {
+      "id": 158981,
+      "role": "MAIN",
+      "name": {
+        "first": "Kouji",
+        "last": "Ibuki",
+        "full": "Kouji Ibuki",
+        "native": "伊吹コウジ",
+        "userPreferred": "Kouji Ibuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b158981-XtJ16X3v5S0j.png",
+      "voiceActors": [
+        {
+          "id": 95065,
+          "language": "Japanese",
+          "name": {
+            "first": "Mamoru",
+            "last": "Miyano",
+            "full": "Mamoru Miyano",
+            "native": "宮野真守",
+            "userPreferred": "Mamoru Miyano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95065-eyynywrhombR.png"
+        }
+      ]
+    },
+    {
+      "id": 40693,
+      "role": "MAIN",
+      "name": {
+        "first": "Emi",
+        "last": "Sendou",
+        "full": "Emi Sendou",
+        "native": "先導エミ",
+        "userPreferred": "Emi Sendou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b40693-JY6O5Ce3QCfg.png",
+      "voiceActors": [
+        {
+          "id": 95411,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsuko",
+            "last": "Enomoto",
+            "full": "Atsuko Enomoto",
+            "native": "榎本温子",
+            "userPreferred": "Atsuko Enomoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95411-yVQiIcuYzQXr.jpg"
+        }
+      ]
+    },
+    {
+      "id": 165522,
+      "role": "MAIN",
+      "name": {
+        "first": "Shuka",
+        "last": null,
+        "full": "Shuka",
+        "native": "シュカ",
+        "userPreferred": "Shuka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b165522-nN7F1E57miAO.png",
+      "voiceActors": [
+        {
+          "id": 118392,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuri",
+            "last": "Yoshida",
+            "full": "Yuri Yoshida",
+            "native": "吉田有里",
+            "userPreferred": "Yuri Yoshida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118392-N0nQvAhtO1WX.png"
+        }
+      ]
+    },
+    {
+      "id": 61709,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rekka",
+        "last": "Tatsunagi",
+        "full": "Rekka Tatsunagi",
+        "native": "立凪レッカ",
+        "userPreferred": "Rekka Tatsunagi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/61709-46OVgQD9CxmH.jpg",
+      "voiceActors": [
+        {
+          "id": 96592,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshino",
+            "last": "Nanjou",
+            "full": "Yoshino Nanjou",
+            "native": "南條愛乃",
+            "userPreferred": "Yoshino Nanjou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96592-yC5OOGtWXv6r.png"
+        }
+      ]
+    },
+    {
+      "id": 177235,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gouki",
+        "last": "Daimonji",
+        "full": "Gouki Daimonji",
+        "native": "大文字ゴウキ",
+        "userPreferred": "Gouki Daimonji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b177235-eP8ZebIRMPAE.png",
+      "voiceActors": [
+        {
+          "id": 95221,
+          "language": "Japanese",
+          "name": {
+            "first": "Kentarou",
+            "last": "Itou",
+            "full": "Kentarou Itou",
+            "native": "伊藤健太郎",
+            "userPreferred": "Kentarou Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95221-2rpvfpZXEAZB.jpg"
+        }
+      ]
+    },
+    {
+      "id": 177244,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ryuutarou",
+        "last": "Oyama",
+        "full": "Ryuutarou Oyama",
+        "native": "大山リュウタロウ",
+        "userPreferred": "Ryuutarou Oyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b177244-0Savrb6tMxI9.png",
+      "voiceActors": [
+        {
+          "id": 95177,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryoutarou",
+            "last": "Okiayu",
+            "full": "Ryoutarou Okiayu",
+            "native": "置鮎龍太郎",
+            "userPreferred": "Ryoutarou Okiayu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95177-6SiaUTf3CLkN.png"
+        }
+      ]
+    },
+    {
+      "id": 180171,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Esuka",
+        "last": "Hibino",
+        "full": "Esuka Hibino",
+        "native": "日比野エスカ",
+        "userPreferred": "Esuka Hibino"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b180171-Dx4LWoP0GY87.png",
+      "voiceActors": [
+        {
+          "id": 104593,
+          "language": "Japanese",
+          "name": {
+            "first": "Mai",
+            "last": "Fuchigami",
+            "full": "Mai Fuchigami",
+            "native": "渕上舞",
+            "userPreferred": "Mai Fuchigami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104593-yZz5rvm3oIXH.png"
+        }
+      ]
+    },
+    {
+      "id": 39594,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kamui",
+        "last": "Katsuragi",
+        "full": "Kamui Katsuragi",
+        "native": "葛木カムイ",
+        "userPreferred": "Kamui Katsuragi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b39594-1mAPG1qZDW0m.png",
+      "voiceActors": [
+        {
+          "id": 106744,
+          "language": "Japanese",
+          "name": {
+            "first": "Shizuka",
+            "last": "Ishikawa",
+            "full": "Shizuka Ishikawa",
+            "native": "石川静",
+            "userPreferred": "Shizuka Ishikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106744-alqGqG9FQOMh.png"
+        }
+      ]
+    },
+    {
+      "id": 39589,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Taishi",
+        "last": "Miwa",
+        "full": "Taishi Miwa",
+        "native": "三和タイシ",
+        "userPreferred": "Taishi Miwa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b39589-CRrtviKkfR1Z.png",
+      "voiceActors": [
+        {
+          "id": 95178,
+          "language": "Japanese",
+          "name": {
+            "first": "Shoutarou",
+            "last": "Morikubo",
+            "full": "Shoutarou Morikubo",
+            "native": "森久保祥太郎",
+            "userPreferred": "Shoutarou Morikubo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95178-8R9Itg3Y1v24.png"
+        }
+      ]
+    },
+    {
+      "id": 67157,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kyou",
+        "last": "Yahagi",
+        "full": "Kyou Yahagi",
+        "native": "矢作キョウ",
+        "userPreferred": "Kyou Yahagi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/67157.jpg",
+      "voiceActors": [
+        {
+          "id": 95094,
+          "language": "Japanese",
+          "name": {
+            "first": "Akeno",
+            "last": "Watanabe",
+            "full": "Akeno Watanabe",
+            "native": "渡边明乃",
+            "userPreferred": "Akeno Watanabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95094-nRPWBG1cVGo5.png"
+        }
+      ]
+    },
+    {
+      "id": 177233,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ryuzu ",
+        "last": "Myoujin",
+        "full": "Ryuzu  Myoujin",
+        "native": "明神リューズ",
+        "userPreferred": "Ryuzu  Myoujin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b177233-l7mZeOAH9XPD.jpg",
+      "voiceActors": [
+        {
+          "id": 104983,
+          "language": "Japanese",
+          "name": {
+            "first": "Keiichi",
+            "last": "Nakagawa",
+            "full": "Keiichi Nakagawa",
+            "native": "中川慶一",
+            "userPreferred": "Keiichi Nakagawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104983-Ntf3ZBY3ckFN.png"
+        }
+      ]
+    },
+    {
+      "id": 77827,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Naoki",
+        "last": "Ishida",
+        "full": "Naoki Ishida",
+        "native": "石田 ナオキ",
+        "userPreferred": "Naoki Ishida"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/77827.jpg",
+      "voiceActors": [
+        {
+          "id": 96659,
+          "language": "Japanese",
+          "name": {
+            "first": "Tooru",
+            "last": "Nara",
+            "full": "Tooru Nara",
+            "native": "奈良徹",
+            "userPreferred": "Tooru Nara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96659-zLvDfHLoxCne.png"
+        }
+      ]
+    },
+    {
+      "id": 40427,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kourin",
+        "last": "Tatsunagi",
+        "full": "Kourin Tatsunagi",
+        "native": "立凪コーリン",
+        "userPreferred": "Kourin Tatsunagi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b40427-i95xfkh5gsxg.png",
+      "voiceActors": [
+        {
+          "id": 106359,
+          "language": "Japanese",
+          "name": {
+            "first": "Suzuko",
+            "last": "Mimori",
+            "full": "Suzuko Mimori",
+            "native": "三森すずこ",
+            "userPreferred": "Suzuko Mimori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106359-G8dROMWpwlM6.png"
+        }
+      ]
+    },
+    {
+      "id": 180168,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tatsuya",
+        "last": "Tachibana",
+        "full": "Tatsuya Tachibana",
+        "native": "橘タツヤ",
+        "userPreferred": "Tatsuya Tachibana"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b180168-YHkPwfhqzGVe.png",
+      "voiceActors": [
+        {
+          "id": 128082,
+          "language": "Japanese",
+          "name": {
+            "first": "Seiji",
+            "last": "Maeda",
+            "full": "Seiji Maeda",
+            "native": "前田誠二",
+            "userPreferred": "Seiji Maeda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n128082-tIWD9f3t8lPX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 50299,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tetsu",
+        "last": "Shinjou",
+        "full": "Tetsu Shinjou",
+        "native": "新城テツ",
+        "userPreferred": "Tetsu Shinjou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/50299.jpg",
+      "voiceActors": [
+        {
+          "id": 95395,
+          "language": "Japanese",
+          "name": {
+            "first": "Tetsu",
+            "last": "Inada",
+            "full": "Tetsu Inada",
+            "native": "稲田徹",
+            "userPreferred": "Tetsu Inada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95395-HpxLuh4ysrzJ.png"
+        }
+      ]
+    },
+    {
+      "id": 180219,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nome",
+        "last": "Tatsunagi",
+        "full": "Nome Tatsunagi",
+        "native": "立凪ノーム",
+        "userPreferred": "Nome Tatsunagi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b180219-jBTR6OaT7k1A.png",
+      "voiceActors": [
+        {
+          "id": 95002,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Sugita",
+            "full": "Tomokazu Sugita",
+            "native": "杉田智和",
+            "userPreferred": "Tomokazu Sugita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95002-nDIvHaynicEg.png"
+        }
+      ]
+    },
+    {
+      "id": 82377,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shingo",
+        "last": "Komoi",
+        "full": "Shingo Komoi",
+        "native": "小茂井シンゴ",
+        "userPreferred": "Shingo Komoi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b82377-7x5vn3dc8f1i.jpg",
+      "voiceActors": [
+        {
+          "id": 95283,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroyuki",
+            "last": "Yoshino",
+            "full": "Hiroyuki Yoshino",
+            "native": "吉野裕行",
+            "userPreferred": "Hiroyuki Yoshino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95283-g76zV4YacFfm.jpg"
+        }
+      ]
+    },
+    {
+      "id": 39539,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Aichi",
+        "last": "Sendou",
+        "full": "Aichi Sendou",
+        "native": "先導アイチ",
+        "userPreferred": "Aichi Sendou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b39539-IcQVDwvS8FFc.png",
+      "voiceActors": [
+        {
+          "id": 95556,
+          "language": "Japanese",
+          "name": {
+            "first": "Tsubasa",
+            "last": "Yonaga",
+            "full": "Tsubasa Yonaga",
+            "native": "代永翼",
+            "userPreferred": "Tsubasa Yonaga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95556-Tgolp8AzO49n.png"
+        }
+      ]
+    },
+    {
+      "id": 39595,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shinemon",
+        "last": "Nitta",
+        "full": "Shinemon Nitta",
+        "native": "新田新右衛門",
+        "userPreferred": "Shinemon Nitta"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b39595-9HMtZS4h11qP.jpg",
+      "voiceActors": [
+        {
+          "id": 106743,
+          "language": "Japanese",
+          "name": {
+            "first": "Shuuta",
+            "last": "Morishima",
+            "full": "Shuuta Morishima",
+            "native": "森嶋秀太",
+            "userPreferred": "Shuuta Morishima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106743-a37RvMZbYnfP.jpg"
+        }
+      ]
+    },
+    {
+      "id": 39492,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Toshiki",
+        "last": "Kai",
+        "full": "Toshiki Kai",
+        "native": "櫂トシキ",
+        "userPreferred": "Toshiki Kai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b39492-eE40Tw1DuQCj.png",
+      "voiceActors": [
+        {
+          "id": 104580,
+          "language": "Japanese",
+          "name": {
+            "first": "Takuya",
+            "last": "Satou",
+            "full": "Takuya Satou",
+            "native": "佐藤拓也",
+            "userPreferred": "Takuya Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104580-UtA5zydwu3ai.png"
+        }
+      ]
+    },
+    {
+      "id": 44292,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ren",
+        "last": "Suzugamori",
+        "full": "Ren Suzugamori",
+        "native": "雀ヶ森レン",
+        "userPreferred": "Ren Suzugamori"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b44292-Bp6N7gOrWisR.jpg",
+      "voiceActors": [
+        {
+          "id": 95991,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsushi",
+            "last": "Abe",
+            "full": "Atsushi Abe",
+            "native": "阿部敦",
+            "userPreferred": "Atsushi Abe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95991-4u24gUBgqeTA.jpg"
+        }
+      ]
+    },
+    {
+      "id": 39494,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Misaki",
+        "last": "Tokura",
+        "full": "Misaki Tokura",
+        "native": "戸倉ミサキ",
+        "userPreferred": "Misaki Tokura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b39494-n4kL5PXeO1wD.jpg",
+      "voiceActors": [
+        {
+          "id": 102899,
+          "language": "Japanese",
+          "name": {
+            "first": "Izumi",
+            "last": "Kitta",
+            "full": "Izumi Kitta",
+            "native": "橘田いずみ",
+            "userPreferred": "Izumi Kitta"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102899-4uiePLus0JmW.png"
+        }
+      ]
+    },
+    {
+      "id": 180268,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Minami",
+        "last": "Kawanami",
+        "full": "Minami Kawanami",
+        "native": "川並ミナミ",
+        "userPreferred": "Minami Kawanami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b180268-naHzdS0XnwoP.png",
+      "voiceActors": [
+        {
+          "id": 95756,
+          "language": "Japanese",
+          "name": {
+            "first": "Anri",
+            "last": "Katsu",
+            "full": "Anri Katsu",
+            "native": "勝杏里",
+            "userPreferred": "Anri Katsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95756-MmmuyQK4Thzl.png"
+        }
+      ]
+    },
+    {
+      "id": 62679,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Asaka",
+        "last": "Narumi",
+        "full": "Asaka Narumi",
+        "native": "鳴海アサカ",
+        "userPreferred": "Asaka Narumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b62679-0bwxT2Ua0osq.png",
+      "voiceActors": [
+        {
+          "id": 95184,
+          "language": "Japanese",
+          "name": {
+            "first": "Hitomi",
+            "last": "Nabatame",
+            "full": "Hitomi Nabatame",
+            "native": "生天目仁美",
+            "userPreferred": "Hitomi Nabatame"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95184-OpXCWNXhJJpg.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 109260,
+      "relationType": "PARENT",
+      "malId": 39244,
+      "title": {
+        "romaji": "Cardfight!! Vanguard: Zoku Koukousei-hen",
+        "english": "Cardfight!! Vanguard: High School Arc Cont.",
+        "native": "カードファイト!! ヴァンガード 続・高校生編",
+        "userPreferred": "Cardfight!! Vanguard: Zoku Koukousei-hen"
+      },
+      "status": "Completed",
+      "episodes": 14,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109260-zePS0ib87Pho.jpg",
+      "color": "#28bbf1",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/109260-pwLPCIuG2QNJ.jpg",
+      "rating": 62
+    }
+  ],
+  "episodes": [
+    {
+      "id": "cardfight-vanguard-gaiden-if-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115656-Dt4eRb2enm3p.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cardfight-vanguard-gaiden-if-episode-1"
+    },
+    {
+      "id": "cardfight-vanguard-gaiden-if-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115656-Dt4eRb2enm3p.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cardfight-vanguard-gaiden-if-episode-2"
+    },
+    {
+      "id": "cardfight-vanguard-gaiden-if-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115656-Dt4eRb2enm3p.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cardfight-vanguard-gaiden-if-episode-3"
+    },
+    {
+      "id": "cardfight-vanguard-gaiden-if-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115656-Dt4eRb2enm3p.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cardfight-vanguard-gaiden-if-episode-4"
+    },
+    {
+      "id": "cardfight-vanguard-gaiden-if-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115656-Dt4eRb2enm3p.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cardfight-vanguard-gaiden-if-episode-5"
+    },
+    {
+      "id": "cardfight-vanguard-gaiden-if-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115656-Dt4eRb2enm3p.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cardfight-vanguard-gaiden-if-episode-6"
+    },
+    {
+      "id": "cardfight-vanguard-gaiden-if-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115656-Dt4eRb2enm3p.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cardfight-vanguard-gaiden-if-episode-7"
+    },
+    {
+      "id": "cardfight-vanguard-gaiden-if-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115656-Dt4eRb2enm3p.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cardfight-vanguard-gaiden-if-episode-8"
+    },
+    {
+      "id": "cardfight-vanguard-gaiden-if-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115656-Dt4eRb2enm3p.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cardfight-vanguard-gaiden-if-episode-9"
+    },
+    {
+      "id": "cardfight-vanguard-gaiden-if-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115656-Dt4eRb2enm3p.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cardfight-vanguard-gaiden-if-episode-10"
+    },
+    {
+      "id": "cardfight-vanguard-gaiden-if-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115656-Dt4eRb2enm3p.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cardfight-vanguard-gaiden-if-episode-11"
+    },
+    {
+      "id": "cardfight-vanguard-gaiden-if-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115656-Dt4eRb2enm3p.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cardfight-vanguard-gaiden-if-episode-12"
+    },
+    {
+      "id": "cardfight-vanguard-gaiden-if-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115656-Dt4eRb2enm3p.jpg",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cardfight-vanguard-gaiden-if-episode-13"
+    },
+    {
+      "id": "cardfight-vanguard-gaiden-if-episode-14",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115656-Dt4eRb2enm3p.jpg",
+      "number": 14,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cardfight-vanguard-gaiden-if-episode-14"
+    },
+    {
+      "id": "cardfight-vanguard-gaiden-if-episode-15",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115656-Dt4eRb2enm3p.jpg",
+      "number": 15,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cardfight-vanguard-gaiden-if-episode-15"
+    },
+    {
+      "id": "cardfight-vanguard-gaiden-if-episode-16",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115656-Dt4eRb2enm3p.jpg",
+      "number": 16,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cardfight-vanguard-gaiden-if-episode-16"
+    },
+    {
+      "id": "cardfight-vanguard-gaiden-if-episode-17",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115656-Dt4eRb2enm3p.jpg",
+      "number": 17,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cardfight-vanguard-gaiden-if-episode-17"
+    },
+    {
+      "id": "cardfight-vanguard-gaiden-if-episode-18",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115656-Dt4eRb2enm3p.jpg",
+      "number": 18,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cardfight-vanguard-gaiden-if-episode-18"
+    },
+    {
+      "id": "cardfight-vanguard-gaiden-if-episode-19",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115656-Dt4eRb2enm3p.jpg",
+      "number": 19,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cardfight-vanguard-gaiden-if-episode-19"
+    },
+    {
+      "id": "cardfight-vanguard-gaiden-if-episode-20",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115656-Dt4eRb2enm3p.jpg",
+      "number": 20,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cardfight-vanguard-gaiden-if-episode-20"
+    },
+    {
+      "id": "cardfight-vanguard-gaiden-if-episode-21",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115656-Dt4eRb2enm3p.jpg",
+      "number": 21,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cardfight-vanguard-gaiden-if-episode-21"
+    },
+    {
+      "id": "cardfight-vanguard-gaiden-if-episode-22",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115656-Dt4eRb2enm3p.jpg",
+      "number": 22,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cardfight-vanguard-gaiden-if-episode-22"
+    },
+    {
+      "id": "cardfight-vanguard-gaiden-if-episode-23",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115656-Dt4eRb2enm3p.jpg",
+      "number": 23,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cardfight-vanguard-gaiden-if-episode-23"
+    },
+    {
+      "id": "cardfight-vanguard-gaiden-if-episode-24",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115656-Dt4eRb2enm3p.jpg",
+      "number": 24,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cardfight-vanguard-gaiden-if-episode-24"
+    },
+    {
+      "id": "cardfight-vanguard-gaiden-if-episode-25",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115656-Dt4eRb2enm3p.jpg",
+      "number": 25,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cardfight-vanguard-gaiden-if-episode-25"
+    }
+  ]
+}

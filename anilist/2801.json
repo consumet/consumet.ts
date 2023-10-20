@@ -1,0 +1,130 @@
+{
+  "id": "2801",
+  "title": {
+    "romaji": "Candy Candy: Haru no Yobigoe",
+    "english": null,
+    "native": "キャンディ・キャンディ 春の呼び声"
+  },
+  "malId": 2801,
+  "synonyms": [
+    "Candy Candy: The Call of Spring"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2801-DolWQZD9UscB.jpg",
+  "popularity": 530,
+  "color": "#feae0d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2801-DolWQZD9UscB.jpg",
+  "description": "Candy returns to Pony's Home and she meets a girl who has lost her parents and doesn't associate with the other kids. In order to cheer her up she decides to tell her about herself from the moment she was found by Miss Pony and sister Lane to her decision to leave the boarding school in England and walk her own path.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 1978,
+  "startDate": {
+    "year": 1978,
+    "month": 3,
+    "day": 18
+  },
+  "endDate": {
+    "year": 1978,
+    "month": 3,
+    "day": 18
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 55,
+  "duration": 25,
+  "genres": [
+    "Drama",
+    "Slice of Life"
+  ],
+  "season": "SPRING",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 5459,
+      "role": "MAIN",
+      "name": {
+        "first": "Candice",
+        "last": "White Adley",
+        "full": "Candice White Adley",
+        "native": null,
+        "userPreferred": "Candice White Adley"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5459.jpg",
+      "voiceActors": [
+        {
+          "id": 96441,
+          "language": "Japanese",
+          "name": {
+            "first": "Minori",
+            "last": "Matsushima",
+            "full": "Minori Matsushima",
+            "native": "松島みのり ",
+            "userPreferred": "Minori Matsushima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96441-O32yqnN6ITFd.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 2800,
+      "relationType": "PREQUEL",
+      "malId": 2800,
+      "title": {
+        "romaji": "Candy Candy",
+        "english": null,
+        "native": "キャンディ・キャンディ",
+        "userPreferred": "Candy Candy"
+      },
+      "status": "Completed",
+      "episodes": 115,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2800-YbzQOTWszvst.png",
+      "color": "#e4bb43",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2800-22SJdozJRoOH.jpg",
+      "rating": 72
+    },
+    {
+      "id": 2802,
+      "relationType": "SEQUEL",
+      "malId": 2802,
+      "title": {
+        "romaji": "Candy Candy: Candy no Natsuyasumi",
+        "english": null,
+        "native": "キャンディ・キャンディ キャンディの夏休み",
+        "userPreferred": "Candy Candy: Candy no Natsuyasumi"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2802-FmMzQsWuPjZM.jpg",
+      "color": "#fec928",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n2802-NhgrSIyyWFbS.jpg",
+      "rating": 60
+    },
+    {
+      "id": 31388,
+      "relationType": "ADAPTATION",
+      "malId": 1388,
+      "title": {
+        "romaji": "Candy Candy",
+        "english": null,
+        "native": "キャンディ・キャンディ",
+        "userPreferred": "Candy Candy"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx31388-JDIwg74gvgt3.jpg",
+      "color": "#f1ae5d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/31388-frmBCeh4zXMV.jpg",
+      "rating": 77
+    }
+  ],
+  "episodes": []
+}

@@ -1,0 +1,482 @@
+{
+  "id": "21756",
+  "title": {
+    "romaji": "Infini-T Force",
+    "english": "Infini-T Force",
+    "native": "インフィニティフォース"
+  },
+  "malId": 33027,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "BFwaCywIHUM",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/BFwaCywIHUM/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21756-nAxST1ag5idY.jpg",
+  "popularity": 2065,
+  "color": "#2886e4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21756-nAxST1ag5idY.jpg",
+  "description": "A full 3DCG anime project to celebrate the 55th anniversary of Tatsunoko Productions. The anime has a different story from the original manga.",
+  "status": "Completed",
+  "releaseDate": 2017,
+  "startDate": {
+    "year": 2017,
+    "month": 10,
+    "day": 3
+  },
+  "endDate": {
+    "year": 2017,
+    "month": 12,
+    "day": 19
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 58,
+  "duration": 22,
+  "genres": [
+    "Action"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Tatsunoko Production"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 4578,
+      "malId": 4578,
+      "title": {
+        "romaji": "Time Bokan Oudou Fukko",
+        "english": "Time Bokan: Royal Revival",
+        "native": "タイムボカン王道復古",
+        "userPreferred": "Time Bokan Oudou Fukko"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4578-RoyGEp6wyL8u.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4578-8jRWR82sS8HJ.jpg",
+      "rating": 56,
+      "type": "OVA"
+    },
+    {
+      "id": 107908,
+      "malId": 39249,
+      "title": {
+        "romaji": "Pandora to Akubi",
+        "english": null,
+        "native": "パンドラとアクビ",
+        "userPreferred": "Pandora to Akubi"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107908-ElAOLjBJCuWd.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107908-ElAOLjBJCuWd.png",
+      "rating": 60,
+      "type": "MOVIE"
+    },
+    {
+      "id": 145358,
+      "malId": null,
+      "title": {
+        "romaji": "Seikimatsu Densetsu Wonderful Tatsunoko Land",
+        "english": null,
+        "native": "世紀末伝説 ワンダフル タツノコランド",
+        "userPreferred": "Seikimatsu Densetsu Wonderful Tatsunoko Land"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx145358-AGNMLz4WmqtC.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx145358-AGNMLz4WmqtC.jpg",
+      "rating": 47,
+      "type": "SPECIAL"
+    }
+  ],
+  "characters": [
+    {
+      "id": 17951,
+      "role": "MAIN",
+      "name": {
+        "first": "Ken",
+        "last": "Washio",
+        "full": "Ken Washio",
+        "native": "大鷲のケン・ガッチャマン",
+        "userPreferred": "Ken Washio"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b17951-aXnoLD6D8XnL.jpg",
+      "voiceActors": [
+        {
+          "id": 95001,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Seki",
+            "full": "Tomokazu Seki",
+            "native": "関智一",
+            "userPreferred": "Tomokazu Seki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95001-vm0RtZhmlzhK.png"
+        }
+      ]
+    },
+    {
+      "id": 38978,
+      "role": "MAIN",
+      "name": {
+        "first": "Jouji",
+        "last": "Minami",
+        "full": "Jouji Minami",
+        "native": "南城二",
+        "userPreferred": "Jouji Minami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b38978-Yj0syTJNjzNb.png",
+      "voiceActors": [
+        {
+          "id": 95079,
+          "language": "Japanese",
+          "name": {
+            "first": "Takahiro",
+            "last": "Sakurai",
+            "full": "Takahiro Sakurai",
+            "native": "櫻井孝宏",
+            "userPreferred": "Takahiro Sakurai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95079-MdbWTLxPUvFf.jpg"
+        }
+      ]
+    },
+    {
+      "id": 57171,
+      "role": "MAIN",
+      "name": {
+        "first": "Takeshi",
+        "last": "Yoroi",
+        "full": "Takeshi Yoroi",
+        "native": "鎧武士",
+        "userPreferred": "Takeshi Yoroi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b57171-0mz22irNLWyL.png",
+      "voiceActors": [
+        {
+          "id": 95005,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenichi",
+            "last": "Suzumura",
+            "full": "Kenichi Suzumura",
+            "native": "鈴村健一",
+            "userPreferred": "Kenichi Suzumura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95005-SkoVN02iOglr.png"
+        }
+      ]
+    },
+    {
+      "id": 16181,
+      "role": "MAIN",
+      "name": {
+        "first": "Casshern",
+        "last": null,
+        "full": "Casshern",
+        "native": "キャシャーン",
+        "userPreferred": "Casshern"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b16181-FlSqZ8qFZ17W.png",
+      "voiceActors": [
+        {
+          "id": 113227,
+          "language": "Japanese",
+          "name": {
+            "first": "Souma",
+            "last": "Saitou",
+            "full": "Souma Saitou",
+            "native": "斉藤壮馬",
+            "userPreferred": "Souma Saitou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n113227-x0UXLNL6v08X.png"
+        }
+      ]
+    },
+    {
+      "id": 124844,
+      "role": "MAIN",
+      "name": {
+        "first": "Emi",
+        "last": "Kaidou",
+        "full": "Emi Kaidou",
+        "native": "界堂笑",
+        "userPreferred": "Emi Kaidou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/124844-85vPN4qiLpvP.jpg",
+      "voiceActors": [
+        {
+          "id": 105765,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Kayano",
+            "full": "Ai Kayano",
+            "native": "茅野愛衣",
+            "userPreferred": "Ai Kayano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105765-DDK94me8axVv.png"
+        }
+      ]
+    },
+    {
+      "id": 208717,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Damian",
+        "last": "Grey",
+        "full": "Damian Grey",
+        "native": "ダミアン・グレイ",
+        "userPreferred": "Damian Grey"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95183,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Hirakawa",
+            "full": "Daisuke Hirakawa",
+            "native": "平川大輔",
+            "userPreferred": "Daisuke Hirakawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95183-5C42gbrKIP7L.png"
+        }
+      ]
+    },
+    {
+      "id": 208714,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Z",
+        "last": null,
+        "full": "Z",
+        "native": "Z",
+        "userPreferred": "Z"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 100491,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsushi",
+            "last": "Ono",
+            "full": "Atsushi Ono",
+            "native": "斧アツシ",
+            "userPreferred": "Atsushi Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100491-6xlkDMFJdADo.png"
+        }
+      ]
+    },
+    {
+      "id": 208715,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Raja",
+        "last": "Kaan",
+        "full": "Raja Kaan",
+        "native": "ラジャ・カーン",
+        "userPreferred": "Raja Kaan"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95025,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroki",
+            "last": "Yasumoto",
+            "full": "Hiroki Yasumoto",
+            "native": "安元洋貴",
+            "userPreferred": "Hiroki Yasumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95025-LGHr4VufmfCc.jpg"
+        }
+      ]
+    },
+    {
+      "id": 208716,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Belle",
+        "last": "Lynn",
+        "full": "Belle Lynn",
+        "native": "ベル・リン",
+        "userPreferred": "Belle Lynn"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95185,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Hanazawa",
+            "full": "Kana Hanazawa",
+            "native": "花澤香菜",
+            "userPreferred": "Kana Hanazawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95185-vZ6nmfBKQgw1.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 101078,
+      "relationType": "ALTERNATIVE",
+      "malId": 36197,
+      "title": {
+        "romaji": "Infini-T Force: Gatchaman - Saraba Tomo yo",
+        "english": null,
+        "native": "劇場版 Infini-T Force/ガッチャマン さらば友よ",
+        "userPreferred": "Infini-T Force: Gatchaman - Saraba Tomo yo"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx101078-91IhdA8zBLXk.jpg",
+      "color": "#0d4386",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx101078-91IhdA8zBLXk.jpg",
+      "rating": 56
+    },
+    {
+      "id": 101079,
+      "relationType": "ADAPTATION",
+      "malId": 95653,
+      "title": {
+        "romaji": "Infini-T Force: Mirai no Byousen",
+        "english": "Infini-T Force: Arc to the Future",
+        "native": "Infini-T Force 未来の描線",
+        "userPreferred": "Infini-T Force: Mirai no Byousen"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx101079-LHtn4LAnzCt4.jpg",
+      "color": "#f16b5d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx101079-LHtn4LAnzCt4.jpg",
+      "rating": 70
+    }
+  ],
+  "episodes": [
+    {
+      "id": "infini-t-force-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21756-nAxST1ag5idY.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//infini-t-force-episode-1"
+    },
+    {
+      "id": "infini-t-force-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21756-nAxST1ag5idY.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//infini-t-force-episode-2"
+    },
+    {
+      "id": "infini-t-force-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21756-nAxST1ag5idY.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//infini-t-force-episode-3"
+    },
+    {
+      "id": "infini-t-force-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21756-nAxST1ag5idY.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//infini-t-force-episode-4"
+    },
+    {
+      "id": "infini-t-force-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21756-nAxST1ag5idY.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//infini-t-force-episode-5"
+    },
+    {
+      "id": "infini-t-force-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21756-nAxST1ag5idY.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//infini-t-force-episode-6"
+    },
+    {
+      "id": "infini-t-force-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21756-nAxST1ag5idY.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//infini-t-force-episode-7"
+    },
+    {
+      "id": "infini-t-force-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21756-nAxST1ag5idY.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//infini-t-force-episode-8"
+    },
+    {
+      "id": "infini-t-force-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21756-nAxST1ag5idY.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//infini-t-force-episode-9"
+    },
+    {
+      "id": "infini-t-force-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21756-nAxST1ag5idY.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//infini-t-force-episode-10"
+    },
+    {
+      "id": "infini-t-force-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21756-nAxST1ag5idY.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//infini-t-force-episode-11"
+    },
+    {
+      "id": "infini-t-force-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21756-nAxST1ag5idY.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//infini-t-force-episode-12"
+    }
+  ]
+}

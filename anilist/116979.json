@@ -1,0 +1,434 @@
+{
+  "id": "116979",
+  "title": {
+    "romaji": "Aikatsu on Parade! (ONA)",
+    "english": null,
+    "native": "アイカツオンパレード！(ONA)"
+  },
+  "malId": 41555,
+  "synonyms": [
+    "Aikatsu on Parade! Dream Story"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "0p4aUH_27gA",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/0p4aUH_27gA/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116979-tBMPi7SqfMPO.png",
+  "popularity": 1167,
+  "color": "#e4c95d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/116979-ZfxPGD5KUKyM.jpg",
+  "description": "\"Dream School Grand Prix\" to decide the No.1 idol school among five schools representing the Aikatsu world will be held! In this competition where top idols representing each school compete on stage, Dream Academy's new idol Noel Otoshiro is selected as one of them?! For each idol's dream, a new story starts running into the shining future! <br><br>(Source: Crunchyroll)",
+  "status": "Completed",
+  "releaseDate": 2020,
+  "startDate": {
+    "year": 2020,
+    "month": 3,
+    "day": 28
+  },
+  "endDate": {
+    "year": 2020,
+    "month": 7,
+    "day": 11
+  },
+  "totalEpisodes": 6,
+  "currentEpisode": 6,
+  "rating": 63,
+  "duration": 12,
+  "genres": [
+    "Music",
+    "Slice of Life"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Bandai Namco Pictures"
+  ],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 143711,
+      "role": "MAIN",
+      "name": {
+        "first": "Raki",
+        "last": "Kiseki",
+        "full": "Raki Kiseki",
+        "native": "姫石らき",
+        "userPreferred": "Raki Kiseki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b143711-MQw0BDPto1R8.png",
+      "voiceActors": [
+        {
+          "id": 143712,
+          "language": "Japanese",
+          "name": {
+            "first": "Rin",
+            "last": "Aira",
+            "full": "Rin Aira",
+            "native": "逢来りん",
+            "userPreferred": "Rin Aira"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n143712-7to1zjoc9gGc.png"
+        }
+      ]
+    },
+    {
+      "id": 128173,
+      "role": "MAIN",
+      "name": {
+        "first": "Noel",
+        "last": "Otoshiro",
+        "full": "Noel Otoshiro",
+        "native": "音城ノエル",
+        "userPreferred": "Noel Otoshiro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n128173-9UYw55bo07vN.jpg",
+      "voiceActors": [
+        {
+          "id": 113511,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Kakuma",
+            "full": "Ai Kakuma",
+            "native": "加隈亜衣",
+            "userPreferred": "Ai Kakuma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n113511-9zlSX9E2ne5G.jpg"
+        }
+      ]
+    },
+    {
+      "id": 88866,
+      "role": "MAIN",
+      "name": {
+        "first": "Seira",
+        "last": "Otoshiro",
+        "full": "Seira Otoshiro",
+        "native": "音城セイラ",
+        "userPreferred": "Seira Otoshiro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b88866-irJwtMgM2Wec.png",
+      "voiceActors": [
+        {
+          "id": 105217,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaori",
+            "last": "Ishihara",
+            "full": "Kaori Ishihara",
+            "native": "石原夏織",
+            "userPreferred": "Kaori Ishihara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105217-PyXOw2omIHuJ.png"
+        }
+      ]
+    },
+    {
+      "id": 88867,
+      "role": "MAIN",
+      "name": {
+        "first": "Kii",
+        "last": "Saegusa",
+        "full": "Kii Saegusa",
+        "native": "冴草きい",
+        "userPreferred": "Kii Saegusa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b88867-K5qqNHWrtQ7y.jpg",
+      "voiceActors": [
+        {
+          "id": 113453,
+          "language": "Japanese",
+          "name": {
+            "first": "Akina",
+            "last": "",
+            "full": "Akina",
+            "native": "秋奈",
+            "userPreferred": "Akina"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n113453-Ts39WasvKpjn.png"
+        }
+      ]
+    },
+    {
+      "id": 88874,
+      "role": "MAIN",
+      "name": {
+        "first": "Maria",
+        "last": "Himesato",
+        "full": "Maria Himesato",
+        "native": "姫里マリア",
+        "userPreferred": "Maria Himesato"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b88874-wCF7oUedR2xD.png",
+      "voiceActors": [
+        {
+          "id": 119153,
+          "language": "Japanese",
+          "name": {
+            "first": "Misako",
+            "last": "Tomioka",
+            "full": "Misako Tomioka",
+            "native": "冨岡美沙子",
+            "userPreferred": "Misako Tomioka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119153-6eM2JgFXgGjV.png"
+        }
+      ]
+    },
+    {
+      "id": 88868,
+      "role": "MAIN",
+      "name": {
+        "first": "Sora",
+        "last": "Kazesawa",
+        "full": "Sora Kazesawa",
+        "native": "風沢そら",
+        "userPreferred": "Sora Kazesawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b88868-9AtQHSC5iRD2.png",
+      "voiceActors": [
+        {
+          "id": 117003,
+          "language": "Japanese",
+          "name": {
+            "first": "Minami",
+            "last": "Takahashi",
+            "full": "Minami Takahashi",
+            "native": "髙橋ミナミ",
+            "userPreferred": "Minami Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n117003-UucaZmQjVSV7.png"
+        }
+      ]
+    },
+    {
+      "id": 125940,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mio",
+        "last": "Minato",
+        "full": "Mio Minato",
+        "native": "湊 みお",
+        "userPreferred": "Mio Minato"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b125940-Voib4WjBf9VA.jpg",
+      "voiceActors": [
+        {
+          "id": 112091,
+          "language": "Japanese",
+          "name": {
+            "first": "Ibuki",
+            "last": "Kido",
+            "full": "Ibuki Kido",
+            "native": "木戸衣吹",
+            "userPreferred": "Ibuki Kido"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n112091-aO2WqvCmTFz9.png"
+        }
+      ]
+    },
+    {
+      "id": 89893,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yume",
+        "last": "Nijino",
+        "full": "Yume Nijino",
+        "native": "虹野ゆめ",
+        "userPreferred": "Yume Nijino"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b89893-WASrZEiLYkqk.png",
+      "voiceActors": [
+        {
+          "id": 119518,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyu",
+            "last": "Tomita",
+            "full": "Miyu Tomita",
+            "native": "富田美憂",
+            "userPreferred": "Miyu Tomita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119518-vZN7TPy12iuu.png"
+        }
+      ]
+    },
+    {
+      "id": 125938,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Aine",
+        "last": "Yuuki",
+        "full": "Aine Yuuki",
+        "native": "友希あいね",
+        "userPreferred": "Aine Yuuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b125938-Av2Zine3Fqtu.jpg",
+      "voiceActors": [
+        {
+          "id": 125939,
+          "language": "Japanese",
+          "name": {
+            "first": "Akane",
+            "last": "Matsunaga",
+            "full": "Akane Matsunaga",
+            "native": "松永あかね",
+            "userPreferred": "Akane Matsunaga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n125939-mkdxiBTIvNVN.png"
+        }
+      ]
+    },
+    {
+      "id": 67451,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ichigo",
+        "last": "Hoshimiya",
+        "full": "Ichigo Hoshimiya",
+        "native": "星宮いちご",
+        "userPreferred": "Ichigo Hoshimiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b67451-83RAG4Solfdv.jpg",
+      "voiceActors": [
+        {
+          "id": 106404,
+          "language": "Japanese",
+          "name": {
+            "first": "Sumire",
+            "last": "Morohoshi",
+            "full": "Sumire Morohoshi",
+            "native": "諸星すみれ",
+            "userPreferred": "Sumire Morohoshi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106404-uodatsBbsnJh.png"
+        }
+      ]
+    },
+    {
+      "id": 88523,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Akari\r\n",
+        "last": "Oozora",
+        "full": "Akari\r\n Oozora",
+        "native": "大空あかり",
+        "userPreferred": "Akari\r\n Oozora"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/88523-mBiyaWFZIUYJ.png",
+      "voiceActors": [
+        {
+          "id": 118841,
+          "language": "Japanese",
+          "name": {
+            "first": "Shino",
+            "last": "Shimoji",
+            "full": "Shino Shimoji",
+            "native": "下地紫野",
+            "userPreferred": "Shino Shimoji"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118841-X6nIv6aMxf0m.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 111082,
+      "relationType": "PREQUEL",
+      "malId": 40266,
+      "title": {
+        "romaji": "Aikatsu on Parade!",
+        "english": null,
+        "native": "アイカツオンパレード！",
+        "userPreferred": "Aikatsu on Parade!"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111082-T2wx2iPk9jHS.png",
+      "color": "#43aeff",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/111082-w4AEfiWpL4hz.jpg",
+      "rating": 69
+    },
+    {
+      "id": 20181,
+      "relationType": "ALTERNATIVE",
+      "malId": null,
+      "title": {
+        "romaji": "Aikatsu! 2",
+        "english": null,
+        "native": "アイカツ! 2",
+        "userPreferred": "Aikatsu! 2"
+      },
+      "status": "Completed",
+      "episodes": 51,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20181-7Guz6yHESWQY.jpg",
+      "color": "#5dbbe4",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20181-C00qIlSy6S6e.png",
+      "rating": 78
+    }
+  ],
+  "episodes": [
+    {
+      "id": "aikatsu-on-parade-ona-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116979-tBMPi7SqfMPO.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//aikatsu-on-parade-ona-episode-1"
+    },
+    {
+      "id": "aikatsu-on-parade-ona-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116979-tBMPi7SqfMPO.png",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//aikatsu-on-parade-ona-episode-2"
+    },
+    {
+      "id": "aikatsu-on-parade-ona-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116979-tBMPi7SqfMPO.png",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//aikatsu-on-parade-ona-episode-3"
+    },
+    {
+      "id": "aikatsu-on-parade-ona-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116979-tBMPi7SqfMPO.png",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//aikatsu-on-parade-ona-episode-4"
+    },
+    {
+      "id": "aikatsu-on-parade-ona-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116979-tBMPi7SqfMPO.png",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//aikatsu-on-parade-ona-episode-5"
+    },
+    {
+      "id": "aikatsu-on-parade-ona-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116979-tBMPi7SqfMPO.png",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//aikatsu-on-parade-ona-episode-6"
+    }
+  ]
+}

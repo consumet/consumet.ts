@@ -1,0 +1,444 @@
+{
+  "id": "126439",
+  "title": {
+    "romaji": "Shan Hai Juelun",
+    "english": "Fairy Mountain",
+    "native": "山海绝伦"
+  },
+  "malId": 51558,
+  "synonyms": [
+    "仙山缭乱之山海绝伦",
+    "Shan Hai Juelun: Xian Shan Liaoluan"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "CN",
+  "trailer": {
+    "id": "z8vIJhK0m84",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/z8vIJhK0m84/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126439-nTeadaJACObX.jpg",
+  "popularity": 103,
+  "color": "#e4bb50",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126439-nTeadaJACObX.jpg",
+  "status": "Completed",
+  "releaseDate": 2022,
+  "startDate": {
+    "year": 2022,
+    "month": 8,
+    "day": 23
+  },
+  "endDate": {
+    "year": 2022,
+    "month": 12,
+    "day": 6
+  },
+  "totalEpisodes": 17,
+  "currentEpisode": 17,
+  "rating": null,
+  "duration": 18,
+  "genres": [
+    "Action",
+    "Fantasy"
+  ],
+  "season": null,
+  "studios": [
+    "KIO STUDIO"
+  ],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 280125,
+      "role": "MAIN",
+      "name": {
+        "first": "Liangshan",
+        "last": "Gong",
+        "full": "Liangshan Gong",
+        "native": "公良潸",
+        "userPreferred": "Liangshan Gong"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b280125-jztbpn41tfis.png",
+      "voiceActors": [
+        {
+          "id": 188426,
+          "language": "Chinese",
+          "name": {
+            "first": "Qi",
+            "last": "Lü",
+            "full": "Qi Lü",
+            "native": "绿绮",
+            "userPreferred": "Qi Lü"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188426-64TvotLm7itm.png"
+        }
+      ]
+    },
+    {
+      "id": 280129,
+      "role": "MAIN",
+      "name": {
+        "first": "Mao",
+        "last": "Li",
+        "full": "Mao Li",
+        "native": "李茂",
+        "userPreferred": "Mao Li"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b280129-3s3WLh3M6pXv.png",
+      "voiceActors": [
+        {
+          "id": 188423,
+          "language": "Chinese",
+          "name": {
+            "first": "Sefu",
+            "last": "Jiongsen",
+            "full": "Sefu Jiongsen",
+            "native": "囧森瑟夫",
+            "userPreferred": "Sefu Jiongsen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188423-mBqtTSi11GmI.png"
+        }
+      ]
+    },
+    {
+      "id": 280130,
+      "role": "SUPPORTING",
+      "name": {
+        "first": null,
+        "last": "Li Taihou",
+        "full": "Li Taihou",
+        "native": "李太后",
+        "userPreferred": "Li Taihou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 188426,
+          "language": "Chinese",
+          "name": {
+            "first": "Qi",
+            "last": "Lü",
+            "full": "Qi Lü",
+            "native": "绿绮",
+            "userPreferred": "Qi Lü"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188426-64TvotLm7itm.png"
+        }
+      ]
+    },
+    {
+      "id": 280134,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Xian",
+        "last": "Wei",
+        "full": "Xian Wei",
+        "native": "韦贤",
+        "userPreferred": "Xian Wei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 280135,
+          "language": "Chinese",
+          "name": {
+            "first": "Chuan",
+            "last": "Gu",
+            "full": "Chuan Gu",
+            "native": "古川",
+            "userPreferred": "Chuan Gu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 280127,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Fantian",
+        "last": "Yida",
+        "full": "Fantian Yida",
+        "native": "伊达梵天",
+        "userPreferred": "Fantian Yida"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 188423,
+          "language": "Chinese",
+          "name": {
+            "first": "Sefu",
+            "last": "Jiongsen",
+            "full": "Sefu Jiongsen",
+            "native": "囧森瑟夫",
+            "userPreferred": "Sefu Jiongsen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188423-mBqtTSi11GmI.png"
+        }
+      ]
+    },
+    {
+      "id": 280128,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Weimen",
+        "last": "Luyou",
+        "full": "Weimen Luyou",
+        "native": "鹿右卫门",
+        "userPreferred": "Weimen Luyou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 188423,
+          "language": "Chinese",
+          "name": {
+            "first": "Sefu",
+            "last": "Jiongsen",
+            "full": "Sefu Jiongsen",
+            "native": "囧森瑟夫",
+            "userPreferred": "Sefu Jiongsen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188423-mBqtTSi11GmI.png"
+        }
+      ]
+    },
+    {
+      "id": 280124,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Qu",
+        "last": "Hong",
+        "full": "Qu Hong",
+        "native": null,
+        "userPreferred": "Qu Hong"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 188426,
+          "language": "Chinese",
+          "name": {
+            "first": "Qi",
+            "last": "Lü",
+            "full": "Qi Lü",
+            "native": "绿绮",
+            "userPreferred": "Qi Lü"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188426-64TvotLm7itm.png"
+        }
+      ]
+    },
+    {
+      "id": 280126,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shitai",
+        "last": "Hongyin",
+        "full": "Shitai Hongyin",
+        "native": "虹引师太",
+        "userPreferred": "Shitai Hongyin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 188426,
+          "language": "Chinese",
+          "name": {
+            "first": "Qi",
+            "last": "Lü",
+            "full": "Qi Lü",
+            "native": "绿绮",
+            "userPreferred": "Qi Lü"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188426-64TvotLm7itm.png"
+        }
+      ]
+    },
+    {
+      "id": 280133,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gugu",
+        "last": "Lihua",
+        "full": "Gugu Lihua",
+        "native": "立花咕咕",
+        "userPreferred": "Gugu Lihua"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 223123,
+          "language": "Chinese",
+          "name": {
+            "first": "Juhua Shu",
+            "last": null,
+            "full": "Juhua Shu",
+            "native": "菊花叔",
+            "userPreferred": "Juhua Shu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [],
+  "episodes": [
+    {
+      "id": "shan-hai-juelun-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126439-nTeadaJACObX.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shan-hai-juelun-episode-1"
+    },
+    {
+      "id": "shan-hai-juelun-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126439-nTeadaJACObX.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shan-hai-juelun-episode-2"
+    },
+    {
+      "id": "shan-hai-juelun-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126439-nTeadaJACObX.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shan-hai-juelun-episode-3"
+    },
+    {
+      "id": "shan-hai-juelun-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126439-nTeadaJACObX.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shan-hai-juelun-episode-4"
+    },
+    {
+      "id": "shan-hai-juelun-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126439-nTeadaJACObX.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shan-hai-juelun-episode-5"
+    },
+    {
+      "id": "shan-hai-juelun-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126439-nTeadaJACObX.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shan-hai-juelun-episode-6"
+    },
+    {
+      "id": "shan-hai-juelun-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126439-nTeadaJACObX.jpg",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shan-hai-juelun-episode-7"
+    },
+    {
+      "id": "shan-hai-juelun-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126439-nTeadaJACObX.jpg",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shan-hai-juelun-episode-8"
+    },
+    {
+      "id": "shan-hai-juelun-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126439-nTeadaJACObX.jpg",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shan-hai-juelun-episode-9"
+    },
+    {
+      "id": "shan-hai-juelun-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126439-nTeadaJACObX.jpg",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shan-hai-juelun-episode-10"
+    },
+    {
+      "id": "shan-hai-juelun-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126439-nTeadaJACObX.jpg",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shan-hai-juelun-episode-11"
+    },
+    {
+      "id": "shan-hai-juelun-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126439-nTeadaJACObX.jpg",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shan-hai-juelun-episode-12"
+    },
+    {
+      "id": "shan-hai-juelun-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126439-nTeadaJACObX.jpg",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shan-hai-juelun-episode-13"
+    },
+    {
+      "id": "shan-hai-juelun-episode-14",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126439-nTeadaJACObX.jpg",
+      "number": 14,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shan-hai-juelun-episode-14"
+    },
+    {
+      "id": "shan-hai-juelun-episode-15",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126439-nTeadaJACObX.jpg",
+      "number": 15,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shan-hai-juelun-episode-15"
+    },
+    {
+      "id": "shan-hai-juelun-episode-16",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126439-nTeadaJACObX.jpg",
+      "number": 16,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shan-hai-juelun-episode-16"
+    },
+    {
+      "id": "shan-hai-juelun-episode-17",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126439-nTeadaJACObX.jpg",
+      "number": 17,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//shan-hai-juelun-episode-17"
+    }
+  ]
+}

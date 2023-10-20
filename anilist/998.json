@@ -1,0 +1,1142 @@
+{
+  "id": "998",
+  "title": {
+    "romaji": "BLUE SEED",
+    "english": "Blue Seed",
+    "native": "BLUE SEED"
+  },
+  "malId": 998,
+  "synonyms": [
+    "ブルーシード"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx998-sd9hvMtHysHW.jpg",
+  "popularity": 4780,
+  "color": "#e48643",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/998-VCW2x53iwpZb.jpg",
+  "description": "Momiji is an average girl until the day she finds she is the descendant of the great Kushinada family. Only she, with her Kushinada blood, can stop the Aragami, demonic plant-like monsters threatening to destroy Japan. Along to help her is the TAC, and a possible love interest in a young man named Kusanagi.\n<br><br>\n(Source: Anime News Network)\n<br>",
+  "status": "Completed",
+  "releaseDate": 1994,
+  "startDate": {
+    "year": 1994,
+    "month": 10,
+    "day": 5
+  },
+  "endDate": {
+    "year": 1995,
+    "month": 3,
+    "day": 29
+  },
+  "totalEpisodes": 26,
+  "currentEpisode": 26,
+  "rating": 64,
+  "duration": 23,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Drama",
+    "Mystery"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Production I.G",
+    "Ashi Productions"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 104,
+      "malId": 104,
+      "title": {
+        "romaji": "Ayashi no Ceres",
+        "english": "Ceres, Celestial Legend",
+        "native": "妖しのセレス",
+        "userPreferred": "Ayashi no Ceres"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104-fUBucj3ywYzH.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/104-mDlXkxzl27ja.jpg",
+      "rating": 65,
+      "type": "TV"
+    },
+    {
+      "id": 123,
+      "malId": 123,
+      "title": {
+        "romaji": "Fushigi Yuugi",
+        "english": "Fushigi Yugi: The Mysterious Play",
+        "native": "ふしぎ遊戯",
+        "userPreferred": "Fushigi Yuugi"
+      },
+      "status": "Completed",
+      "episodes": 52,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx123-nTVq4CHgK5Ly.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/123-aB3o7LLZrWWV.png",
+      "rating": 71,
+      "type": "TV"
+    },
+    {
+      "id": 249,
+      "malId": 249,
+      "title": {
+        "romaji": "Inuyasha",
+        "english": "InuYasha",
+        "native": "犬夜叉",
+        "userPreferred": "Inuyasha"
+      },
+      "status": "Completed",
+      "episodes": 167,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx249-YN54jZrItGgZ.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/249-9ufXhmXxncry.jpg",
+      "rating": 76,
+      "type": "TV"
+    },
+    {
+      "id": 99725,
+      "malId": 36039,
+      "title": {
+        "romaji": "A.I.C.O. -Incarnation-",
+        "english": "A.I.C.O. -Incarnation-",
+        "native": "A.I.C.O. -Incarnation-",
+        "userPreferred": "A.I.C.O. -Incarnation-"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99725-7kukTkRRmgT1.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n99725-WzLQ74z1eZzG.jpg",
+      "rating": 63,
+      "type": "ONA"
+    },
+    {
+      "id": 530,
+      "malId": 530,
+      "title": {
+        "romaji": "Bishoujo Senshi Sailor Moon",
+        "english": "Sailor Moon",
+        "native": "美少女戦士セーラームーン",
+        "userPreferred": "Bishoujo Senshi Sailor Moon"
+      },
+      "status": "Completed",
+      "episodes": 46,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx530-DsF6LirJUEii.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/530.jpg",
+      "rating": 75,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 6506,
+      "role": "MAIN",
+      "name": {
+        "first": "Koume",
+        "last": "Sawaguchi",
+        "full": "Koume Sawaguchi",
+        "native": "沢口 小梅",
+        "userPreferred": "Koume Sawaguchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6506.jpg",
+      "voiceActors": [
+        {
+          "id": 95009,
+          "language": "Japanese",
+          "name": {
+            "first": "Kotono",
+            "last": "Mitsuishi",
+            "full": "Kotono Mitsuishi",
+            "native": "三石琴乃",
+            "userPreferred": "Kotono Mitsuishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95009-d01Dg8mMwcg6.png"
+        },
+        {
+          "id": 95145,
+          "language": "English",
+          "name": {
+            "first": "Tiffany",
+            "last": "Grant",
+            "full": "Tiffany Grant",
+            "native": null,
+            "userPreferred": "Tiffany Lynn Grant"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95145-c3MjV5tshGXX.jpg"
+        },
+        {
+          "id": 115138,
+          "language": "Spanish",
+          "name": {
+            "first": "Mónica",
+            "last": "Villaseñor",
+            "full": "Mónica Villaseñor",
+            "native": "Mónica Villaseñor Martínez",
+            "userPreferred": "Mónica Villaseñor"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n115138-aeMJhrk7afEX.png"
+        }
+      ]
+    },
+    {
+      "id": 6704,
+      "role": "MAIN",
+      "name": {
+        "first": "Azusa",
+        "last": "Matsudaira",
+        "full": "Azusa Matsudaira",
+        "native": "松平 梓",
+        "userPreferred": "Azusa Matsudaira"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6704.jpg",
+      "voiceActors": [
+        {
+          "id": 95362,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshiko",
+            "last": "Sakakibara",
+            "full": "Yoshiko Sakakibara",
+            "native": "榊原良子",
+            "userPreferred": "Yoshiko Sakakibara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95362-OdfKlvHimh3b.jpg"
+        },
+        {
+          "id": 110809,
+          "language": "English",
+          "name": {
+            "first": "Sharon",
+            "last": "Shawnessey",
+            "full": "Sharon Shawnessey",
+            "native": null,
+            "userPreferred": "Sharon Shawnessey"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 108307,
+          "language": "Spanish",
+          "name": {
+            "first": "Rocío",
+            "last": "Garcel",
+            "full": "Rocío Garcel",
+            "native": "Sofía María del Rocío Garza Ramírez",
+            "userPreferred": "Rocío Garcel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n108307-39jDEzSQVMKv.png"
+        },
+        {
+          "id": 113865,
+          "language": "French",
+          "name": {
+            "first": "Dominique",
+            "last": "Vallée",
+            "full": "Dominique Vallée",
+            "native": null,
+            "userPreferred": "Dominique Vallée"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n113865-s1EqUZQ0ZprX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5280,
+      "role": "MAIN",
+      "name": {
+        "first": "Momiji",
+        "last": "Fujimiya",
+        "full": "Momiji Fujimiya",
+        "native": "藤宮 紅葉",
+        "userPreferred": "Momiji Fujimiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/5280.jpg",
+      "voiceActors": [
+        {
+          "id": 95014,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Hayashibara",
+            "full": "Megumi Hayashibara",
+            "native": "林原めぐみ",
+            "userPreferred": "Megumi Hayashibara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95014-VqxNuufY94V3.png"
+        },
+        {
+          "id": 95873,
+          "language": "English",
+          "name": {
+            "first": "Amanda Winn",
+            "last": "Lee",
+            "full": "Amanda Winn Lee",
+            "native": null,
+            "userPreferred": "Amanda Winn Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/873.jpg"
+        },
+        {
+          "id": 107681,
+          "language": "Spanish",
+          "name": {
+            "first": "María Fernanda",
+            "last": "Morales",
+            "full": "María Fernanda Morales",
+            "native": "María Fernanda del Carmen Morales Ponce de León",
+            "userPreferred": "María Fernanda Morales"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107681-iVC3CSUHtc6j.png"
+        }
+      ]
+    },
+    {
+      "id": 6171,
+      "role": "MAIN",
+      "name": {
+        "first": "Mamoru",
+        "last": "Kusanagi",
+        "full": "Mamoru Kusanagi",
+        "native": "草薙護",
+        "userPreferred": "Mamoru Kusanagi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6171.jpg",
+      "voiceActors": [
+        {
+          "id": 95021,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuhiko",
+            "last": "Inoue",
+            "full": "Kazuhiko Inoue",
+            "native": "井上和彦",
+            "userPreferred": "Kazuhiko Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95021-9qAoAn6GNZ3S.png"
+        },
+        {
+          "id": 95871,
+          "language": "English",
+          "name": {
+            "first": "Jason C.",
+            "last": "Lee",
+            "full": "Jason C. Lee",
+            "native": null,
+            "userPreferred": "Jason C. Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/871.jpg"
+        },
+        {
+          "id": 105019,
+          "language": "Spanish",
+          "name": {
+            "first": "Ricardo",
+            "last": "Mendoza",
+            "full": "Ricardo Mendoza",
+            "native": "Ricardo Mendoza Soberano",
+            "userPreferred": "Ricardo Mendoza"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105019-tJ4gep8doBhi.png"
+        }
+      ]
+    },
+    {
+      "id": 6701,
+      "role": "MAIN",
+      "name": {
+        "first": "Yoshiki",
+        "last": "Yaegashi",
+        "full": "Yoshiki Yaegashi",
+        "native": "八重樫 良樹",
+        "userPreferred": "Yoshiki Yaegashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6701.jpg",
+      "voiceActors": [
+        {
+          "id": 95058,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuji",
+            "last": "Ueda",
+            "full": "Yuuji Ueda",
+            "native": "うえだゆうじ",
+            "userPreferred": "Yuuji Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95058-fGnId7E4tgx3.jpg"
+        },
+        {
+          "id": 102556,
+          "language": "English",
+          "name": {
+            "first": "Kurt",
+            "last": "Stoll",
+            "full": "Kurt Stoll",
+            "native": null,
+            "userPreferred": "Kurt Stoll"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102556-Fjb1ZH9A38kc.jpg"
+        },
+        {
+          "id": 113969,
+          "language": "Spanish",
+          "name": {
+            "first": "Benjamín",
+            "last": "Rivera",
+            "full": "Benjamín Rivera",
+            "native": null,
+            "userPreferred": "Benjamín Rivera"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n113969-IEor7Wbq2Nyq.png"
+        }
+      ]
+    },
+    {
+      "id": 6517,
+      "role": "MAIN",
+      "name": {
+        "first": "Daitetsu",
+        "last": "Kunikida",
+        "full": "Daitetsu Kunikida",
+        "native": "国木田 大哲",
+        "userPreferred": "Daitetsu Kunikida"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6517.jpg",
+      "voiceActors": [
+        {
+          "id": 95146,
+          "language": "Japanese",
+          "name": {
+            "first": "Akio",
+            "last": "Ootsuka",
+            "full": "Akio Ootsuka",
+            "native": "大塚明夫",
+            "userPreferred": "Akio Ootsuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95146-T6IEmqXW3xUN.jpg"
+        },
+        {
+          "id": 96860,
+          "language": "English",
+          "name": {
+            "first": "Rob",
+            "last": "Mungle",
+            "full": "Rob Mungle",
+            "native": null,
+            "userPreferred": "Rob Mungle"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96860-U6glesem35Hn.jpg"
+        },
+        {
+          "id": 105024,
+          "language": "Spanish",
+          "name": {
+            "first": "Gerardo",
+            "last": "Reyero",
+            "full": "Gerardo Reyero",
+            "native": "Gerardo Reyero Muñoz",
+            "userPreferred": "Gerardo Reyero"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105024-xEhNocWa1Rew.png"
+        },
+        {
+          "id": 96629,
+          "language": "French",
+          "name": {
+            "first": "Mathieu",
+            "last": "Rivolier",
+            "full": "Mathieu Rivolier",
+            "native": null,
+            "userPreferred": "Mathieu Rivolier"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1629.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6518,
+      "role": "MAIN",
+      "name": {
+        "first": "Ryoko",
+        "last": "Takeuchi",
+        "full": "Ryoko Takeuchi",
+        "native": "竹内 涼子",
+        "userPreferred": "Ryoko Takeuchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6518.jpg",
+      "voiceActors": [
+        {
+          "id": 95208,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Orikasa",
+            "full": "Ai Orikasa",
+            "native": "折笠愛",
+            "userPreferred": "Ai Orikasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95208-DIfpWvWN401M.png"
+        },
+        {
+          "id": 101303,
+          "language": "English",
+          "name": {
+            "first": "Marcy",
+            "last": "Rae",
+            "full": "Marcy Rae",
+            "native": null,
+            "userPreferred": "Marcy Rae"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6303.jpg"
+        },
+        {
+          "id": 113327,
+          "language": "Spanish",
+          "name": {
+            "first": "Circe",
+            "last": "Luna",
+            "full": "Circe Luna",
+            "native": null,
+            "userPreferred": "Circe Luna"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/18327.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6706,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Moe",
+        "last": "Fujimiya",
+        "full": "Moe Fujimiya",
+        "native": null,
+        "userPreferred": "Moe Fujimiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6706-7auChSyntxBH.png",
+      "voiceActors": [
+        {
+          "id": 107393,
+          "language": "English",
+          "name": {
+            "first": "Carol",
+            "last": "Amerson",
+            "full": "Carol Amerson",
+            "native": null,
+            "userPreferred": "Carol Amerson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107393-HzoY3RXSqj21.jpg"
+        },
+        {
+          "id": 95596,
+          "language": "English",
+          "name": {
+            "first": "Kim",
+            "last": "Sevier",
+            "full": "Kim Sevier",
+            "native": "Kimberly Robertson",
+            "userPreferred": "Kim Sevier"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95596-8jZBO56dXFTy.jpg"
+        },
+        {
+          "id": 225037,
+          "language": "Spanish",
+          "name": {
+            "first": "Ilia",
+            "last": "Gil",
+            "full": "Ilia Gil",
+            "native": "Ilia Gil García",
+            "userPreferred": "Ilia Gil"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n225037-nTEoOIqyvHFm.png"
+        }
+      ]
+    },
+    {
+      "id": 6698,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaede",
+        "last": "Fujimiya",
+        "full": "Kaede Fujimiya",
+        "native": "国木田 楓",
+        "userPreferred": "Kaede Fujimiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6698.jpg",
+      "voiceActors": [
+        {
+          "id": 96850,
+          "language": "Japanese",
+          "name": {
+            "first": "Mitsuki",
+            "last": "Yayoi",
+            "full": "Mitsuki Yayoi",
+            "native": "弥生みつき",
+            "userPreferred": "Mitsuki Yayoi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1850.jpg"
+        },
+        {
+          "id": 95873,
+          "language": "English",
+          "name": {
+            "first": "Amanda Winn",
+            "last": "Lee",
+            "full": "Amanda Winn Lee",
+            "native": null,
+            "userPreferred": "Amanda Winn Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/873.jpg"
+        },
+        {
+          "id": 153194,
+          "language": "Spanish",
+          "name": {
+            "first": "Elsa",
+            "last": "Covián",
+            "full": "Elsa Covián",
+            "native": null,
+            "userPreferred": "Elsa Covián"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n153194-gLoOTnSq8k6H.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6702,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shunichi",
+        "last": "Sugishita",
+        "full": "Shunichi Sugishita",
+        "native": null,
+        "userPreferred": "Shunichi Sugishita"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6702.jpg",
+      "voiceActors": [
+        {
+          "id": 96026,
+          "language": "Japanese",
+          "name": {
+            "first": "Keiichi",
+            "last": "Nanba",
+            "full": "Keiichi Nanba",
+            "native": "難波圭一",
+            "userPreferred": "Keiichi Nanba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96026-lC6TRnpmiqpU.jpg"
+        },
+        {
+          "id": 101497,
+          "language": "English",
+          "name": {
+            "first": "Matt",
+            "last": "Greenfield",
+            "full": "Matt Greenfield",
+            "native": null,
+            "userPreferred": "Matt Greenfield"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6497.jpg"
+        },
+        {
+          "id": 102094,
+          "language": "Spanish",
+          "name": {
+            "first": "Eduardo",
+            "last": "Garza",
+            "full": "Eduardo Garza",
+            "native": "José Eduardo Garza Escudero",
+            "userPreferred": "Eduardo Garza"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102094-IK5XCbLdQNrZ.png"
+        }
+      ]
+    },
+    {
+      "id": 6700,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Murakumo",
+        "last": "Yagami",
+        "full": "Murakumo Yagami",
+        "native": "八神ムラクモ",
+        "userPreferred": "Murakumo Yagami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6700.jpg",
+      "voiceActors": [
+        {
+          "id": 95091,
+          "language": "Japanese",
+          "name": {
+            "first": "Jouji",
+            "last": "Nakata",
+            "full": "Jouji Nakata",
+            "native": "中田譲治",
+            "userPreferred": "Jouji Nakata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95091-idoMaN26z80B.png"
+        },
+        {
+          "id": 101312,
+          "language": "English",
+          "name": {
+            "first": "Aaron",
+            "last": "Krohn",
+            "full": "Aaron Krohn",
+            "native": null,
+            "userPreferred": "Aaron Krohn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101312-K9NpIebi7pi6.jpg"
+        },
+        {
+          "id": 105023,
+          "language": "Spanish",
+          "name": {
+            "first": "Salvador",
+            "last": "Delgado",
+            "full": "Salvador Delgado",
+            "native": "Salvador Delgado Solórzano",
+            "userPreferred": "Salvador Delgado"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105023-ecFwozFa2vkA.png"
+        }
+      ]
+    },
+    {
+      "id": 6703,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jun",
+        "last": "Matsudaira",
+        "full": "Jun Matsudaira",
+        "native": null,
+        "userPreferred": "Jun Matsudaira"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6703.jpg",
+      "voiceActors": [
+        {
+          "id": 103872,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinobu",
+            "last": "Adachi",
+            "full": "Shinobu Adachi",
+            "native": "安達忍",
+            "userPreferred": "Shinobu Adachi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8872.jpg"
+        },
+        {
+          "id": 211857,
+          "language": "English",
+          "name": {
+            "first": "Jay",
+            "last": "Zeidman",
+            "full": "Jay Zeidman",
+            "native": null,
+            "userPreferred": "Jay Zeidman"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 107395,
+          "language": "English",
+          "name": {
+            "first": "Traci",
+            "last": "Shannon",
+            "full": "Traci Shannon",
+            "native": null,
+            "userPreferred": "Traci Shannon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12395.jpg"
+        },
+        {
+          "id": 96686,
+          "language": "Spanish",
+          "name": {
+            "first": "Isabel",
+            "last": "Martiñón",
+            "full": "Isabel Martiñón",
+            "native": null,
+            "userPreferred": "Isabel Martiñón"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1686.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6699,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sakura",
+        "last": "Yamazaki",
+        "full": "Sakura Yamazaki",
+        "native": "山咲 桜",
+        "userPreferred": "Sakura Yamazaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6699.jpg",
+      "voiceActors": [
+        {
+          "id": 95448,
+          "language": "Japanese",
+          "name": {
+            "first": "Sakiko",
+            "last": "Tamagawa",
+            "full": "Sakiko Tamagawa",
+            "native": "玉川砂記子",
+            "userPreferred": "Sakiko Tamagawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95448-aZ4oV0K3UJf2.png"
+        },
+        {
+          "id": 95194,
+          "language": "English",
+          "name": {
+            "first": "Allison",
+            "last": "Keith-Shipp",
+            "full": "Allison Keith-Shipp",
+            "native": null,
+            "userPreferred": "Allison Keith-Shipp"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95194-Ij7tty2nbUFi.jpg"
+        },
+        {
+          "id": 102259,
+          "language": "Spanish",
+          "name": {
+            "first": "Gaby",
+            "last": "Ugarte",
+            "full": "Gaby Ugarte",
+            "native": null,
+            "userPreferred": "Gaby Ugarte"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102259-jCeOk0tKKk6i.jpg"
+        },
+        {
+          "id": 96686,
+          "language": "Spanish",
+          "name": {
+            "first": "Isabel",
+            "last": "Martiñón",
+            "full": "Isabel Martiñón",
+            "native": null,
+            "userPreferred": "Isabel Martiñón"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1686.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 999,
+      "relationType": "SEQUEL",
+      "malId": 999,
+      "title": {
+        "romaji": "BLUE SEED 2",
+        "english": "Blue Seed Beyond",
+        "native": "BLUE SEED 2",
+        "userPreferred": "BLUE SEED 2"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/999.jpg",
+      "color": "#d6781a",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/999.jpg",
+      "rating": 58
+    },
+    {
+      "id": 31540,
+      "relationType": "ADAPTATION",
+      "malId": 1540,
+      "title": {
+        "romaji": "Aokushimitama Blue Seed",
+        "english": "Blue seed",
+        "native": "碧奇魂ブルーシード ",
+        "userPreferred": "Aokushimitama Blue Seed"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/1540.jpg",
+      "color": "#fe9350",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/1540.jpg",
+      "rating": 51
+    },
+    {
+      "id": 3620,
+      "relationType": "SIDE_STORY",
+      "malId": 3620,
+      "title": {
+        "romaji": "Blue Seed Omake",
+        "english": null,
+        "native": "ブルーシード おまけ",
+        "userPreferred": "Blue Seed Omake"
+      },
+      "status": "Completed",
+      "episodes": 14,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3620.jpg",
+      "color": "#e4ae5d",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3620.jpg",
+      "rating": 62
+    },
+    {
+      "id": 3952,
+      "relationType": "ALTERNATIVE",
+      "malId": 3952,
+      "title": {
+        "romaji": "Blue Seed 1.5",
+        "english": null,
+        "native": "ブルーシード 1.5",
+        "userPreferred": "Blue Seed 1.5"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3952.jpg",
+      "color": "#e49343",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3952.jpg",
+      "rating": 54
+    }
+  ],
+  "episodes": [
+    {
+      "id": "blue-seed-episode-1",
+      "title": "Princess Kushinada",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx998-sd9hvMtHysHW.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-seed-episode-1"
+    },
+    {
+      "id": "blue-seed-episode-2",
+      "title": "It's Cruel! It's Mysterious! It's My Destiny!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx998-sd9hvMtHysHW.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-seed-episode-2"
+    },
+    {
+      "id": "blue-seed-episode-3",
+      "title": "It's Spring! It's the Capital! I'll Do My Best!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx998-sd9hvMtHysHW.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-seed-episode-3"
+    },
+    {
+      "id": "blue-seed-episode-4",
+      "title": "More Bad Luck? Why Does This Always Happen to Me?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx998-sd9hvMtHysHW.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-seed-episode-4"
+    },
+    {
+      "id": "blue-seed-episode-5",
+      "title": "Surprise! She's the Mother of Science!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx998-sd9hvMtHysHW.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-seed-episode-5"
+    },
+    {
+      "id": "blue-seed-episode-6",
+      "title": "Complicated and Hard to Understand! Being a Man Puts You Into Such a Difficult Position!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx998-sd9hvMtHysHW.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-seed-episode-6"
+    },
+    {
+      "id": "blue-seed-episode-7",
+      "title": "I'm Fired Up! I'll Do It! Because I'm the Kushinada!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx998-sd9hvMtHysHW.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-seed-episode-7"
+    },
+    {
+      "id": "blue-seed-episode-8",
+      "title": "What? How Strange! A Rival Appears!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx998-sd9hvMtHysHW.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-seed-episode-8"
+    },
+    {
+      "id": "blue-seed-episode-9",
+      "title": "Are You Serious? Is This a Dream? An Exciting Date!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx998-sd9hvMtHysHW.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-seed-episode-9"
+    },
+    {
+      "id": "blue-seed-episode-10",
+      "title": "Innocence! Love! My First Kiss?!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx998-sd9hvMtHysHW.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-seed-episode-10"
+    },
+    {
+      "id": "blue-seed-episode-11",
+      "title": "Irritating! Jealous?! Unbelievable!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx998-sd9hvMtHysHW.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-seed-episode-11"
+    },
+    {
+      "id": "blue-seed-episode-12",
+      "title": "Can You Feel It? I Can't Ignore It! An Ominous Premonition of Catastrophe!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx998-sd9hvMtHysHW.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-seed-episode-12"
+    },
+    {
+      "id": "blue-seed-episode-13",
+      "title": "I Love You! This is Extreme! It's Time to Confess!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx998-sd9hvMtHysHW.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-seed-episode-13"
+    },
+    {
+      "id": "blue-seed-episode-14",
+      "title": "A Chase Down Yamato Highway! Love Under Fire!!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx998-sd9hvMtHysHW.jpg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-seed-episode-14"
+    },
+    {
+      "id": "blue-seed-episode-15",
+      "title": "Lost and Trembling on a Trip to Michinoku!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx998-sd9hvMtHysHW.jpg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-seed-episode-15"
+    },
+    {
+      "id": "blue-seed-episode-16",
+      "title": "Japan is a Paradise! Tears in Wakasa!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx998-sd9hvMtHysHW.jpg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-seed-episode-16"
+    },
+    {
+      "id": "blue-seed-episode-17",
+      "title": "Let It Bloom, Japan! A Blizzard of One-Sided Love!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx998-sd9hvMtHysHW.jpg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-seed-episode-17"
+    },
+    {
+      "id": "blue-seed-episode-18",
+      "title": "Geez! Oh, Man! Sakura's Not Good Enough?!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx998-sd9hvMtHysHW.jpg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-seed-episode-18"
+    },
+    {
+      "id": "blue-seed-episode-19",
+      "title": "Heat Haze! Love, Start on a Journey! I Won't Be Far From You!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx998-sd9hvMtHysHW.jpg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-seed-episode-19"
+    },
+    {
+      "id": "blue-seed-episode-20",
+      "title": "I'm Home! Izumo! The Prologue of Hope!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx998-sd9hvMtHysHW.jpg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-seed-episode-20"
+    },
+    {
+      "id": "blue-seed-episode-21",
+      "title": "Goodbye? No Way! A Tearful Farewell?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx998-sd9hvMtHysHW.jpg",
+      "number": 21,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-seed-episode-21"
+    },
+    {
+      "id": "blue-seed-episode-22",
+      "title": "Sadness! Fate! Momiji Kushinada!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx998-sd9hvMtHysHW.jpg",
+      "number": 22,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-seed-episode-22"
+    },
+    {
+      "id": "blue-seed-episode-23",
+      "title": "Meeting Again! Starting the Journey! I Won't Lose!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx998-sd9hvMtHysHW.jpg",
+      "number": 23,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-seed-episode-23"
+    },
+    {
+      "id": "blue-seed-episode-24",
+      "title": "The Setting Sun! The Coming Day! A Private Time for Each of Us!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx998-sd9hvMtHysHW.jpg",
+      "number": 24,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-seed-episode-24"
+    },
+    {
+      "id": "blue-seed-episode-25",
+      "title": "All or Nothing! Decision! My Fate!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx998-sd9hvMtHysHW.jpg",
+      "number": 25,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-seed-episode-25"
+    },
+    {
+      "id": "blue-seed-episode-26",
+      "title": "New Soul",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx998-sd9hvMtHysHW.jpg",
+      "number": 26,
+      "createdAt": "2013-02-20T18:22:10Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-seed-episode-26"
+    }
+  ]
+}

@@ -1,0 +1,879 @@
+{
+  "id": "116415",
+  "title": {
+    "romaji": "Bakugan Armored Alliance",
+    "english": "Bakugan Armored Alliance",
+    "native": "爆丸アーマードアライアンス"
+  },
+  "malId": 41405,
+  "synonyms": [
+    "Bakugan Battle Planet 2",
+    "Bakugan: Przymierze wojowników"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b116415-5EavwM1M0Av2.jpg",
+  "popularity": 909,
+  "color": "#ffbb43",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b116415-5EavwM1M0Av2.jpg",
+  "description": "The second season of <i>Bakugan Battle Planet</i>.",
+  "status": "Completed",
+  "releaseDate": 2020,
+  "startDate": {
+    "year": 2020,
+    "month": 4,
+    "day": 3
+  },
+  "endDate": {
+    "year": 2021,
+    "month": 3,
+    "day": 26
+  },
+  "totalEpisodes": 52,
+  "currentEpisode": 52,
+  "rating": 51,
+  "duration": 23,
+  "genres": [
+    "Action",
+    "Comedy",
+    "Fantasy"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "TMS Entertainment"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 2156,
+      "malId": 2156,
+      "title": {
+        "romaji": "Bakugan Battle Brawlers",
+        "english": null,
+        "native": "爆丸バトルブローラーズ",
+        "userPreferred": "Bakugan Battle Brawlers"
+      },
+      "status": "Completed",
+      "episodes": 52,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2156-z3AqxkRNfxov.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2156-qoiiC8D0Noqq.jpg",
+      "rating": 61,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 138978,
+      "role": "MAIN",
+      "name": {
+        "first": "Wynton",
+        "last": "Styles",
+        "full": "Wynton Styles",
+        "native": "ウィントン・スタイルズ",
+        "userPreferred": "Wynton Styles"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b138978-rC4DR1Rl4AjM.jpg",
+      "voiceActors": [
+        {
+          "id": 105094,
+          "language": "Japanese",
+          "name": {
+            "first": "Jun",
+            "last": "Fukushima",
+            "full": "Jun Fukushima",
+            "native": "福島潤",
+            "userPreferred": "Jun Fukushima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105094-Udz3lBFTZa5W.png"
+        },
+        {
+          "id": 164429,
+          "language": "English",
+          "name": {
+            "first": "Deven",
+            "last": "Mack",
+            "full": "Deven Mack",
+            "native": "Matthew Christian Heywood",
+            "userPreferred": "Deven Mack"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n164429-r9moPcF48Rsv.jpg"
+        },
+        {
+          "id": 185552,
+          "language": "Portuguese",
+          "name": {
+            "first": "Marcus",
+            "last": "Pejon",
+            "full": "Marcus Pejon",
+            "native": null,
+            "userPreferred": "Marcus Pejon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n185552-GcFdQps4hXrr.jpg"
+        },
+        {
+          "id": 102219,
+          "language": "German",
+          "name": {
+            "first": "Konrad",
+            "last": "Bösherz",
+            "full": "Konrad Bösherz",
+            "native": null,
+            "userPreferred": "Konrad Bösherz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102219-Od3pasyGCIbf.jpg"
+        },
+        {
+          "id": 310057,
+          "language": "Polish",
+          "name": {
+            "first": "Filip",
+            "last": "Rogowski",
+            "full": "Filip Rogowski",
+            "native": null,
+            "userPreferred": "Filip Rogowski"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n310057-hNBkOTtVgA7V.png"
+        }
+      ]
+    },
+    {
+      "id": 138976,
+      "role": "MAIN",
+      "name": {
+        "first": "Shun",
+        "last": "Kazami",
+        "full": "Shun Kazami",
+        "native": "シュン・カザミ",
+        "userPreferred": "Shun Kazami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b138976-eliOsqhOhzRM.jpg",
+      "voiceActors": [
+        {
+          "id": 106784,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumi",
+            "last": "Uchiyama",
+            "full": "Yumi Uchiyama",
+            "native": "内山夕実",
+            "userPreferred": "Yumi Uchiyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106784-reDoHBLWxi7J.jpg"
+        },
+        {
+          "id": 175195,
+          "language": "Portuguese",
+          "name": {
+            "first": "Lipe",
+            "last": "Volpato",
+            "full": "Lipe Volpato",
+            "native": null,
+            "userPreferred": "Lipe Volpato"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n175195-vIv8LgrkG8fd.png"
+        },
+        {
+          "id": 126218,
+          "language": "German",
+          "name": {
+            "first": "Maximilian",
+            "last": "Artajo",
+            "full": "Maximilian Artajo",
+            "native": null,
+            "userPreferred": "Maximilian Artajo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/126218-Xmu7THcLlI66.jpg"
+        },
+        {
+          "id": 306053,
+          "language": "Polish",
+          "name": {
+            "first": "Klaudiusz",
+            "last": "Kaufmann",
+            "full": "Klaudiusz Kaufmann",
+            "native": null,
+            "userPreferred": "Klaudiusz Kaufmann"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n306053-wgoNxogcLef7.png"
+        }
+      ]
+    },
+    {
+      "id": 210056,
+      "role": "MAIN",
+      "name": {
+        "first": "Dragonoid",
+        "last": null,
+        "full": "Dragonoid",
+        "native": "ドラゴノイド",
+        "userPreferred": "Dragonoid"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b210056-gZ6KuWaObyvk.jpg",
+      "voiceActors": [
+        {
+          "id": 198669,
+          "language": "Portuguese",
+          "name": {
+            "first": "Roberto",
+            "last": "Garcia",
+            "full": "Roberto Garcia",
+            "native": null,
+            "userPreferred": "Roberto Garcia"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n198669-62K6dXKpPDVv.png"
+        },
+        {
+          "id": 253176,
+          "language": "Polish",
+          "name": {
+            "first": "Jarosław",
+            "last": "Boberek",
+            "full": "Jarosław Boberek",
+            "native": null,
+            "userPreferred": "Jarosław Boberek"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n253176-ARjw554DpYEb.jpg"
+        }
+      ]
+    },
+    {
+      "id": 138974,
+      "role": "MAIN",
+      "name": {
+        "first": "Lightning",
+        "last": null,
+        "full": "Lightning",
+        "native": "ライトニング",
+        "userPreferred": "Lightning"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b138974-fn5o3PKyAf4m.jpg",
+      "voiceActors": [
+        {
+          "id": 95930,
+          "language": "Japanese",
+          "name": {
+            "first": "Aki",
+            "last": "Kanada",
+            "full": "Aki Kanada",
+            "native": "金田アキ",
+            "userPreferred": "Aki Kanada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95930-tn7fNp6AXwUY.png"
+        },
+        {
+          "id": 164432,
+          "language": "English",
+          "name": {
+            "first": "Will",
+            "last": "Bowes",
+            "full": "Will Bowes",
+            "native": null,
+            "userPreferred": "Will Bowes"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n164432-QIVb3kFqYwqK.jpg"
+        },
+        {
+          "id": 218965,
+          "language": "Polish",
+          "name": {
+            "first": "Krzysztof",
+            "last": "Cybiński",
+            "full": "Krzysztof Cybiński",
+            "native": null,
+            "userPreferred": "Krzysztof Cybiński"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n218965-83dijIBDLde9.png"
+        }
+      ]
+    },
+    {
+      "id": 138977,
+      "role": "MAIN",
+      "name": {
+        "first": "Lia",
+        "last": "Venegas",
+        "full": "Lia Venegas",
+        "native": "リア・ヴェネガス",
+        "userPreferred": "Lia Venegas"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b138977-GcQhNxGferjY.jpg",
+      "voiceActors": [
+        {
+          "id": 107652,
+          "language": "Japanese",
+          "name": {
+            "first": "Chinatsu",
+            "last": "Akasaki",
+            "full": "Chinatsu Akasaki",
+            "native": "赤﨑千夏",
+            "userPreferred": "Chinatsu Akasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107652-wHdkKzhetbiH.jpg"
+        },
+        {
+          "id": 163093,
+          "language": "English",
+          "name": {
+            "first": "Margarita",
+            "last": "Valderrama",
+            "full": "Margarita Valderrama",
+            "native": null,
+            "userPreferred": "Margarita Valderrama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n163093-HJXtSCzEFCKh.jpg"
+        },
+        {
+          "id": 190549,
+          "language": "Portuguese",
+          "name": {
+            "first": "Sicília",
+            "last": "Vidal",
+            "full": "Sicília Vidal",
+            "native": null,
+            "userPreferred": "Sicília Vidal"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n190549-m7qECWGkoORi.png"
+        },
+        {
+          "id": 115554,
+          "language": "German",
+          "name": {
+            "first": "Laura",
+            "last": "Oettel",
+            "full": "Laura Oettel",
+            "native": null,
+            "userPreferred": "Laura Oettel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/20554.jpg"
+        },
+        {
+          "id": 278977,
+          "language": "Polish",
+          "name": {
+            "first": "Zuzanna",
+            "last": "Jaźwińska",
+            "full": "Zuzanna Jaźwińska",
+            "native": null,
+            "userPreferred": "Zuzanna Jaźwińska"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n278977-MJcpjeP4apD3.png"
+        }
+      ]
+    },
+    {
+      "id": 138975,
+      "role": "MAIN",
+      "name": {
+        "first": "Dan",
+        "last": "Kouzo",
+        "full": "Dan Kouzo",
+        "native": "ダン・クーソー",
+        "userPreferred": "Dan Kouzo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b138975-7tIui7jXKoN8.jpg",
+      "voiceActors": [
+        {
+          "id": 119331,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Takahashi",
+            "full": "Rie Takahashi",
+            "native": "高橋李依",
+            "userPreferred": "Rie Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119331-0CYDTh2mwy62.png"
+        },
+        {
+          "id": 163096,
+          "language": "English",
+          "name": {
+            "first": "Jonah",
+            "last": "Wineberg",
+            "full": "Jonah Wineberg",
+            "native": null,
+            "userPreferred": "Jonah Wineberg"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n163096-olDB6ynFLm4u.jpg"
+        },
+        {
+          "id": 188229,
+          "language": "Portuguese",
+          "name": {
+            "first": "Gabriel",
+            "last": "Martins",
+            "full": "Gabriel Martins",
+            "native": "Gabriel Martins Oliveira da Costa",
+            "userPreferred": "Gabriel Martins"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188229-Zgt4hxNUOEK7.png"
+        },
+        {
+          "id": 138737,
+          "language": "German",
+          "name": {
+            "first": "Vincent",
+            "last": "Borko",
+            "full": "Vincent Borko",
+            "native": null,
+            "userPreferred": "Vincent Borko"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n138737-EGpod1fiaRWf.png"
+        },
+        {
+          "id": 262439,
+          "language": "Polish",
+          "name": {
+            "first": "Przemysław",
+            "last": "Niedzielski",
+            "full": "Przemysław Niedzielski",
+            "native": null,
+            "userPreferred": "Przemysław Niedzielski"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n262439-T13WGO0VdblR.png"
+        }
+      ]
+    },
+    {
+      "id": 162733,
+      "role": "MAIN",
+      "name": {
+        "first": "Ajit",
+        "last": null,
+        "full": "Ajit",
+        "native": "アジット",
+        "userPreferred": "Ajit"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b162733-d4QLKYLYgKEJ.jpg",
+      "voiceActors": [
+        {
+          "id": 107705,
+          "language": "Japanese",
+          "name": {
+            "first": "Taishi",
+            "last": "Murata",
+            "full": "Taishi Murata",
+            "native": "村田太志",
+            "userPreferred": "Taishi Murata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107705-lVfYRzWY5AFW.jpg"
+        },
+        {
+          "id": 198144,
+          "language": "English",
+          "name": {
+            "first": "Sharjil",
+            "last": "Rasool",
+            "full": "Sharjil Rasool",
+            "native": null,
+            "userPreferred": "Sharjil Rasool"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 179632,
+          "language": "Portuguese",
+          "name": {
+            "first": "Matheus",
+            "last": "Ferreira",
+            "full": "Matheus Ferreira",
+            "native": null,
+            "userPreferred": "Matheus Ferreira"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n179632-EXTsnfvDL7P8.jpg"
+        },
+        {
+          "id": 279428,
+          "language": "Polish",
+          "name": {
+            "first": "Jakub",
+            "last": "Szyperski",
+            "full": "Jakub Szyperski",
+            "native": null,
+            "userPreferred": "Jakub Szyperski"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n279428-JiaIudzpEEL7.png"
+        }
+      ]
+    },
+    {
+      "id": 141525,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "China",
+        "last": "Riot",
+        "full": "China Riot",
+        "native": "チャイナ・リオット",
+        "userPreferred": "China Riot"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b141525-2LGMPFUy0VsK.jpg",
+      "voiceActors": [
+        {
+          "id": 199857,
+          "language": "Portuguese",
+          "name": {
+            "first": "Monalisa",
+            "last": "Capella",
+            "full": "Monalisa Capella",
+            "native": null,
+            "userPreferred": "Monalisa Capella"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n199857-IsI800Vx9wOc.png"
+        },
+        {
+          "id": 230526,
+          "language": "Polish",
+          "name": {
+            "first": "Magdalena",
+            "last": "Krylik",
+            "full": "Magdalena Krylik",
+            "native": null,
+            "userPreferred": "Magdalena Krylik"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n230526-CLylhGQNSKtT.png"
+        }
+      ]
+    },
+    {
+      "id": 140002,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Magnus",
+        "last": "Black",
+        "full": "Magnus Black",
+        "native": "マグナス・ブラック",
+        "userPreferred": "Magnus Black"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b140002-1QYDNyfOqb2n.jpg",
+      "voiceActors": [
+        {
+          "id": 108745,
+          "language": "Japanese",
+          "name": {
+            "first": "Shouhei",
+            "last": "Kajikawa",
+            "full": "Shouhei Kajikawa",
+            "native": "梶川翔平",
+            "userPreferred": "Shouhei Kajikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/108745-q3Rngk5Es6Ni.jpg"
+        },
+        {
+          "id": 164431,
+          "language": "English",
+          "name": {
+            "first": "Julius",
+            "last": "Cho",
+            "full": "Julius Cho",
+            "native": null,
+            "userPreferred": "Julius Cho"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 116937,
+          "language": "Portuguese",
+          "name": {
+            "first": "Alex",
+            "last": "Minei",
+            "full": "Alex Minei",
+            "native": null,
+            "userPreferred": "Alex Minei"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/21937.jpg"
+        },
+        {
+          "id": 283816,
+          "language": "Polish",
+          "name": {
+            "first": "Jędrzej",
+            "last": "Hycnar",
+            "full": "Jędrzej Hycnar",
+            "native": null,
+            "userPreferred": "Jędrzej Hycnar"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n283816-e7UaRVTbkAjP.png"
+        }
+      ]
+    },
+    {
+      "id": 141528,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Benton",
+        "last": "Dusk",
+        "full": "Benton Dusk",
+        "native": "ベントン・ダスク",
+        "userPreferred": "Benton Dusk"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b141528-DYLo3QbaGaIw.jpg",
+      "voiceActors": [
+        {
+          "id": 199860,
+          "language": "Portuguese",
+          "name": {
+            "first": "Alex",
+            "last": "Morales",
+            "full": "Alex Morales",
+            "native": null,
+            "userPreferred": "Alex Morales"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n199860-TLVz6bpXfnVF.jpg"
+        },
+        {
+          "id": 310062,
+          "language": "Polish",
+          "name": {
+            "first": "Emil",
+            "last": "Lipski",
+            "full": "Emil Lipski",
+            "native": null,
+            "userPreferred": "Emil Lipski"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n310062-dW3MKXCucURi.png"
+        }
+      ]
+    },
+    {
+      "id": 210061,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kravitz",
+        "last": null,
+        "full": "Kravitz",
+        "native": "クラビッツ",
+        "userPreferred": "Kravitz"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b210061-liacVoGg9ZTx.jpg",
+      "voiceActors": [
+        {
+          "id": 96445,
+          "language": "Portuguese",
+          "name": {
+            "first": "Fernanda",
+            "last": "Bullara",
+            "full": "Fernanda Bullara",
+            "native": null,
+            "userPreferred": "Fernanda Bullara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96445-74PzPrUhV5pi.jpg"
+        },
+        {
+          "id": 280843,
+          "language": "Polish",
+          "name": {
+            "first": "Anna",
+            "last": "Wodzyńska",
+            "full": "Anna Wodzyńska",
+            "native": null,
+            "userPreferred": "Anna Wodzyńska"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n280843-9r69KTGQXXOG.png"
+        }
+      ]
+    },
+    {
+      "id": 234770,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Emily",
+        "last": "Black",
+        "full": "Emily Black",
+        "native": "エミリー・ブラック",
+        "userPreferred": "Emily Black"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b234770-94znCdvWgOJy.png",
+      "voiceActors": [
+        {
+          "id": 144963,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuki",
+            "last": "Harukawa",
+            "full": "Yuki Harukawa",
+            "native": "春川友紀",
+            "userPreferred": "Yuki Harukawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n144963-B6xKTghS3I7W.png"
+        },
+        {
+          "id": 164439,
+          "language": "English",
+          "name": {
+            "first": "Ana",
+            "last": "Sani",
+            "full": "Ana Sani",
+            "native": null,
+            "userPreferred": "Ana Sani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n164439-GUES0rxCLeWV.jpg"
+        },
+        {
+          "id": 185302,
+          "language": "Portuguese",
+          "name": {
+            "first": "Gláucia",
+            "last": "Franchi",
+            "full": "Gláucia Franchi",
+            "native": null,
+            "userPreferred": "Gláucia Franchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n185302-6bEaJKjAvp2o.png"
+        },
+        {
+          "id": 283815,
+          "language": "Polish",
+          "name": {
+            "first": "Aleksandra",
+            "last": "Nowicka",
+            "full": "Aleksandra Nowicka",
+            "native": null,
+            "userPreferred": "Aleksandra Nowicka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n283815-prvV1qwGzbfF.png"
+        }
+      ]
+    },
+    {
+      "id": 234771,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Calloway",
+        "last": "Storm",
+        "full": "Calloway Storm",
+        "native": "キャロウェイストーム",
+        "userPreferred": "Calloway Storm"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b234771-X4CcbkQozyj2.png",
+      "voiceActors": [
+        {
+          "id": 95283,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroyuki",
+            "last": "Yoshino",
+            "full": "Hiroyuki Yoshino",
+            "native": "吉野裕行",
+            "userPreferred": "Hiroyuki Yoshino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95283-g76zV4YacFfm.jpg"
+        },
+        {
+          "id": 185881,
+          "language": "Portuguese",
+          "name": {
+            "first": "Cassiano",
+            "last": "Ávila",
+            "full": "Cassiano Ávila",
+            "native": null,
+            "userPreferred": "Cassiano Ávila"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n185881-tlLhn9XhlurL.jpg"
+        },
+        {
+          "id": 313245,
+          "language": "Polish",
+          "name": {
+            "first": "Paweł",
+            "last": "Krucz",
+            "full": "Paweł Krucz",
+            "native": null,
+            "userPreferred": "Paweł Krucz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n313245-24mq6OK5Nzuy.png"
+        }
+      ]
+    },
+    {
+      "id": 142095,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Veronica",
+        "last": "Venegas",
+        "full": "Veronica Venegas",
+        "native": "ヴェロニカ・ヴェネガス",
+        "userPreferred": "Veronica Venegas"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b142095-JIgEJnjpv2gu.png",
+      "voiceActors": [
+        {
+          "id": 100085,
+          "language": "Portuguese",
+          "name": {
+            "first": "Daniela",
+            "last": "Piquet",
+            "full": "Daniela Piquet",
+            "native": null,
+            "userPreferred": "Daniela Piquet"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5085.jpg"
+        },
+        {
+          "id": 280843,
+          "language": "Polish",
+          "name": {
+            "first": "Anna",
+            "last": "Wodzyńska",
+            "full": "Anna Wodzyńska",
+            "native": null,
+            "userPreferred": "Anna Wodzyńska"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n280843-9r69KTGQXXOG.png"
+        },
+        {
+          "id": 284379,
+          "language": "Polish",
+          "name": {
+            "first": "Kim",
+            "last": "Grygierzec",
+            "full": "Kim Grygierzec",
+            "native": null,
+            "userPreferred": "Kim Eva Grygierzec"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n284379-A7dDYSKG4bsY.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 108852,
+      "relationType": "PREQUEL",
+      "malId": 39622,
+      "title": {
+        "romaji": "Bakugan Battle Planet",
+        "english": "Bakugan: Battle Planet",
+        "native": "爆丸バトルプラネット",
+        "userPreferred": "Bakugan Battle Planet"
+      },
+      "status": "Completed",
+      "episodes": 50,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108852-Hbg9Va5sEJQz.jpg",
+      "color": "#e48628",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108852-Hbg9Va5sEJQz.jpg",
+      "rating": 46
+    },
+    {
+      "id": 131096,
+      "relationType": "SEQUEL",
+      "malId": 48555,
+      "title": {
+        "romaji": "Bakugan: Geogan Rising",
+        "english": "Bakugan: Geogan Rising",
+        "native": "爆丸ジオガンライジング",
+        "userPreferred": "Bakugan: Geogan Rising"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx131096-h8aDl2NjJoNM.jpg",
+      "color": "#e4ae50",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx131096-h8aDl2NjJoNM.jpg",
+      "rating": 55
+    }
+  ],
+  "episodes": []
+}

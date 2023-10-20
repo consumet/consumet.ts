@@ -1,0 +1,754 @@
+{
+  "id": "1723",
+  "title": {
+    "romaji": "Clannad Movie",
+    "english": "Clannad: The Motion Picture",
+    "native": "劇場版 クラナド"
+  },
+  "malId": 1723,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "_bDkwezvFbE",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/_bDkwezvFbE/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1723-PzMdQPvfcxxA.png",
+  "popularity": 24085,
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1723-elyPZO1iWjgS.jpg",
+  "description": "Clannad is set in a high-school located in some Japanese town. Okazaki Tomoya is a third-year student who doesn't take his studies seriously. Always late for class, he's seen as a delinquent by the rest of his classmates who are busy preparing for their entrance examinations. Needless to say, he hasn't too many close friends either.<br><br>\nTomoya seems not to mind too - until one day he meets a girl, Furukawa Nagisa, who is left alone without friends on this school, because everybody she knew already graduated. What a clumsy girl, he thinks at first. But he can't leave her alone and so, while helping her, he meets a few other girls from his school. Although he doesn't care much about them at first, he soon opens his heart to them as they get to know each other better.<br><br>\n(Source: AniDB)",
+  "status": "Completed",
+  "releaseDate": 2007,
+  "startDate": {
+    "year": 2007,
+    "month": 9,
+    "day": 15
+  },
+  "endDate": {
+    "year": 2007,
+    "month": 9,
+    "day": 15
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 66,
+  "duration": 94,
+  "genres": [
+    "Drama",
+    "Fantasy",
+    "Romance"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Toei Animation"
+  ],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [
+    {
+      "id": 144,
+      "malId": 144,
+      "title": {
+        "romaji": "Kanon",
+        "english": null,
+        "native": "カノン",
+        "userPreferred": "Kanon"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx144-YdWsrDNssRIX.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/144-QWsc7jOc2qTU.jpg",
+      "rating": 63,
+      "type": "TV"
+    },
+    {
+      "id": 713,
+      "malId": 713,
+      "title": {
+        "romaji": "AIR (Movie)",
+        "english": "Air: The Motion Picture",
+        "native": "AIR (劇場版)",
+        "userPreferred": "AIR (Movie)"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx713-NMntmhlt9mV5.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx713-NMntmhlt9mV5.jpg",
+      "rating": 66,
+      "type": "MOVIE"
+    },
+    {
+      "id": 10408,
+      "malId": 10408,
+      "title": {
+        "romaji": "Hotarubi no Mori e",
+        "english": "Into the Forest of Fireflies' Light",
+        "native": "蛍火の杜へ",
+        "userPreferred": "Hotarubi no Mori e"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10408-PlKJ6DAyvMk2.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10408-kZhXe0uVrAd2.jpg",
+      "rating": 79,
+      "type": "MOVIE"
+    },
+    {
+      "id": 4789,
+      "malId": 4789,
+      "title": {
+        "romaji": "ef: a tale of melodies.",
+        "english": "ef ~ A Tale of Melodies",
+        "native": "ef - a tale of melodies.",
+        "userPreferred": "ef: a tale of melodies."
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4789-zpt5UsK70dJh.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4789-vI3WUKB98Zg9.jpg",
+      "rating": 77,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 4604,
+      "role": "MAIN",
+      "name": {
+        "first": "Nagisa",
+        "last": "Furukawa",
+        "full": "Nagisa Furukawa",
+        "native": "古河渚",
+        "userPreferred": "Nagisa Furukawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4604-YFJiWeuGSIYf.png",
+      "voiceActors": [
+        {
+          "id": 95031,
+          "language": "Japanese",
+          "name": {
+            "first": "Mai",
+            "last": "Nakahara",
+            "full": "Mai Nakahara",
+            "native": "中原麻衣",
+            "userPreferred": "Mai Nakahara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95031-tipPIz2k0Ncw.png"
+        },
+        {
+          "id": 95189,
+          "language": "English",
+          "name": {
+            "first": "Luci",
+            "last": "Christian",
+            "full": "Luci Christian",
+            "native": null,
+            "userPreferred": "Luci Christian"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95189-M2IkMNRzHYcF.jpg"
+        },
+        {
+          "id": 117361,
+          "language": "German",
+          "name": {
+            "first": "Shanti",
+            "last": "Chakraborty",
+            "full": "Shanti Chakraborty",
+            "native": null,
+            "userPreferred": "Shanti Chakraborty"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/22361.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10342,
+      "role": "MAIN",
+      "name": {
+        "first": "Ushio",
+        "last": "Okazaki",
+        "full": "Ushio Okazaki",
+        "native": "岡崎汐",
+        "userPreferred": "Ushio Okazaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b10342-phfYzfGOw5WD.png",
+      "voiceActors": [
+        {
+          "id": 95470,
+          "language": "Japanese",
+          "name": {
+            "first": "Satomi",
+            "last": "Koorogi",
+            "full": "Satomi Koorogi",
+            "native": "こおろぎさとみ",
+            "userPreferred": "Satomi Koorogi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95470-xZYG14WGMlmS.png"
+        },
+        {
+          "id": 95189,
+          "language": "English",
+          "name": {
+            "first": "Luci",
+            "last": "Christian",
+            "full": "Luci Christian",
+            "native": null,
+            "userPreferred": "Luci Christian"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95189-M2IkMNRzHYcF.jpg"
+        },
+        {
+          "id": 199068,
+          "language": "German",
+          "name": {
+            "first": "Marija",
+            "last": "Mauer",
+            "full": "Marija Mauer",
+            "native": null,
+            "userPreferred": "Marija Mauer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4606,
+      "role": "MAIN",
+      "name": {
+        "first": "Tomoya",
+        "last": "Okazaki",
+        "full": "Tomoya Okazaki",
+        "native": "岡崎朋也",
+        "userPreferred": "Tomoya Okazaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4606-61r9h3WUrkA9.png",
+      "voiceActors": [
+        {
+          "id": 95074,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenji",
+            "last": "Nojima",
+            "full": "Kenji Nojima",
+            "native": "野島健児",
+            "userPreferred": "Kenji Nojima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95074-ilLCdbpWIgrF.png"
+        },
+        {
+          "id": 95379,
+          "language": "English",
+          "name": {
+            "first": "David",
+            "last": "Matranga",
+            "full": "David Matranga",
+            "native": null,
+            "userPreferred": "David Matranga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95379-GMh9EncYDh5n.png"
+        },
+        {
+          "id": 140228,
+          "language": "German",
+          "name": {
+            "first": "Amadeus",
+            "last": "Strobl",
+            "full": "Amadeus Strobl",
+            "native": null,
+            "userPreferred": "Amadeus Strobl"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n140228-QkcDFuPKFd9t.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4602,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kotomi",
+        "last": "Ichinose",
+        "full": "Kotomi Ichinose",
+        "native": "一ノ瀬ことみ",
+        "userPreferred": "Kotomi Ichinose"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4602-L9sSmkyQhZeC.jpg",
+      "voiceActors": [
+        {
+          "id": 95040,
+          "language": "Japanese",
+          "name": {
+            "first": "Mamiko",
+            "last": "Noto",
+            "full": "Mamiko Noto",
+            "native": "能登麻美子",
+            "userPreferred": "Mamiko Noto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95040-CskhFn4LiOti.jpg"
+        },
+        {
+          "id": 105073,
+          "language": "English",
+          "name": {
+            "first": "Emily",
+            "last": "Neves",
+            "full": "Emily Neves",
+            "native": null,
+            "userPreferred": "Emily Neves"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105073-S4JMuSDQbiTt.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4610,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Youhei",
+        "last": "Sunohara",
+        "full": "Youhei Sunohara",
+        "native": "春原陽平",
+        "userPreferred": "Youhei Sunohara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4610-tMnUyYDlUbX1.jpg",
+      "voiceActors": [
+        {
+          "id": 95278,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Sakaguchi",
+            "full": "Daisuke Sakaguchi",
+            "native": "阪口大助",
+            "userPreferred": "Daisuke Sakaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95278-IrUPhIvJCsF9.png"
+        },
+        {
+          "id": 95192,
+          "language": "English",
+          "name": {
+            "first": "Greg",
+            "last": "Ayres",
+            "full": "Greg Ayres",
+            "native": null,
+            "userPreferred": "Greg Ayres"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95192-igLHZjSO4eE0.png"
+        },
+        {
+          "id": 105706,
+          "language": "German",
+          "name": {
+            "first": "Dirk",
+            "last": "Petrick",
+            "full": "Dirk Petrick",
+            "native": null,
+            "userPreferred": "Dirk Petrick"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10706.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4603,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tomoyo",
+        "last": "Sakagami",
+        "full": "Tomoyo Sakagami",
+        "native": "坂上智代",
+        "userPreferred": "Tomoyo Sakagami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4603-pq4b7UGmmOyH.png",
+      "voiceActors": [
+        {
+          "id": 95057,
+          "language": "Japanese",
+          "name": {
+            "first": "Houko",
+            "last": "Kuwashima",
+            "full": "Houko Kuwashima",
+            "native": "桑島法子",
+            "userPreferred": "Houko Kuwashima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95057-nMZEwJet445W.jpg"
+        },
+        {
+          "id": 101435,
+          "language": "English",
+          "name": {
+            "first": "Kaytha",
+            "last": "Coker",
+            "full": "Kaytha Coker",
+            "native": null,
+            "userPreferred": "Kaytha Coker"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6435.jpg"
+        },
+        {
+          "id": 105710,
+          "language": "German",
+          "name": {
+            "first": "Luisa",
+            "last": "Wietzorek",
+            "full": "Luisa Wietzorek",
+            "native": null,
+            "userPreferred": "Luisa Wietzorek"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10710.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6831,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sanae",
+        "last": "Furukawa",
+        "full": "Sanae Furukawa",
+        "native": "古河早苗",
+        "userPreferred": "Sanae Furukawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6831-8jUtY6oLk5bp.png",
+      "voiceActors": [
+        {
+          "id": 95195,
+          "language": "Japanese",
+          "name": {
+            "first": "Kikuko",
+            "last": "Inoue",
+            "full": "Kikuko Inoue",
+            "native": "井上喜久子",
+            "userPreferred": "Kikuko Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95195-nLvtZl5sCK0D.png"
+        },
+        {
+          "id": 95417,
+          "language": "English",
+          "name": {
+            "first": "Kara",
+            "last": "Greenberg",
+            "full": "Kara Greenberg",
+            "native": null,
+            "userPreferred": "Kara Greenberg"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/417.jpg"
+        },
+        {
+          "id": 140883,
+          "language": "German",
+          "name": {
+            "first": "Tina",
+            "last": "Haseney",
+            "full": "Tina Haseney",
+            "native": null,
+            "userPreferred": "Tina Haseney"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n140883-KSN0uK0KTR3Z.png"
+        }
+      ]
+    },
+    {
+      "id": 16054,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Naoyuki",
+        "last": "Okazaki",
+        "full": "Naoyuki Okazaki",
+        "native": "岡崎 直幸",
+        "userPreferred": "Naoyuki Okazaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b16054-OlxLgcJxZNHz.png",
+      "voiceActors": [
+        {
+          "id": 96174,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Naka",
+            "full": "Hiroshi Naka",
+            "native": "中博史",
+            "userPreferred": "Hiroshi Naka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96174-xESRSYS5NSwN.jpg"
+        },
+        {
+          "id": 105074,
+          "language": "English",
+          "name": {
+            "first": "Chris",
+            "last": "Hutchison",
+            "full": "Chris Hutchison",
+            "native": null,
+            "userPreferred": "Chris Hutchison"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10074.jpg"
+        },
+        {
+          "id": 140886,
+          "language": "German",
+          "name": {
+            "first": "Roman",
+            "last": "Kretschmer",
+            "full": "Roman Kretschmer",
+            "native": null,
+            "userPreferred": "Roman Kretschmer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4605,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kyou",
+        "last": "Fujibayashi",
+        "full": "Kyou Fujibayashi",
+        "native": "藤林杏",
+        "userPreferred": "Kyou Fujibayashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4605-a0D3NeVbCz1m.jpg",
+      "voiceActors": [
+        {
+          "id": 95111,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryou",
+            "last": "Hirohashi",
+            "full": "Ryou Hirohashi",
+            "native": "広橋涼",
+            "userPreferred": "Ryou Hirohashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/95111-iw76EbsupYkS.jpg"
+        },
+        {
+          "id": 95193,
+          "language": "English",
+          "name": {
+            "first": "Shelley",
+            "last": "Calene-Black",
+            "full": "Shelley Calene-Black",
+            "native": null,
+            "userPreferred": "Shelley Calene-Black"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95193-Nvdjk8BIcEJb.png"
+        },
+        {
+          "id": 104076,
+          "language": "German",
+          "name": {
+            "first": "Tanya",
+            "last": "Kahana",
+            "full": "Tanya Kahana",
+            "native": null,
+            "userPreferred": "Tanya Kahana"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9076.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7096,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yusuke",
+        "last": "Yoshino",
+        "full": "Yusuke Yoshino",
+        "native": "芳野祐介",
+        "userPreferred": "Yusuke Yoshino"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7096-WO9iY1KKOABn.jpg",
+      "voiceActors": [
+        {
+          "id": 95112,
+          "language": "Japanese",
+          "name": {
+            "first": "Hikaru",
+            "last": "Midorikawa",
+            "full": "Hikaru Midorikawa",
+            "native": "緑川光",
+            "userPreferred": "Hikaru Midorikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95112-c275OLptkSYO.png"
+        },
+        {
+          "id": 95282,
+          "language": "English",
+          "name": {
+            "first": "Illich",
+            "last": "Guardiola",
+            "full": "Illich Guardiola",
+            "native": null,
+            "userPreferred": "Illich Guardiola"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/282.jpg"
+        },
+        {
+          "id": 131935,
+          "language": "German",
+          "name": {
+            "first": "Arne",
+            "last": "Stephan",
+            "full": "Arne Stephan",
+            "native": null,
+            "userPreferred": "Arne Stephan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n131935-kPjvi1wTWHhC.png"
+        }
+      ]
+    },
+    {
+      "id": 6971,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kouko",
+        "last": "Ibuki",
+        "full": "Kouko Ibuki",
+        "native": "伊吹公子",
+        "userPreferred": "Kouko Ibuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6971-EHkQK34Sriqi.jpg",
+      "voiceActors": [
+        {
+          "id": 95170,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Minaguchi",
+            "full": "Yuuko Minaguchi",
+            "native": "皆口裕子",
+            "userPreferred": "Yuuko Minaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95170-oAiTh7t2T1J0.png"
+        },
+        {
+          "id": 95811,
+          "language": "English",
+          "name": {
+            "first": "Stephanie",
+            "last": "Wittels",
+            "full": "Stephanie Wittels",
+            "native": null,
+            "userPreferred": "Stephanie Wittels"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95811-o2fnOs9BXUQv.png"
+        },
+        {
+          "id": 140260,
+          "language": "German",
+          "name": {
+            "first": "Nadine",
+            "last": "Heidenreich",
+            "full": "Nadine Heidenreich",
+            "native": null,
+            "userPreferred": "Nadine Heidenreich"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n140260-QpMCSz2fsJdF.png"
+        }
+      ]
+    },
+    {
+      "id": 7095,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Akio",
+        "last": "Furukawa",
+        "full": "Akio Furukawa",
+        "native": "古河秋生",
+        "userPreferred": "Akio Furukawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7095-C1tzbivkPU0A.png",
+      "voiceActors": [
+        {
+          "id": 95177,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryoutarou",
+            "last": "Okiayu",
+            "full": "Ryoutarou Okiayu",
+            "native": "置鮎龍太郎",
+            "userPreferred": "Ryoutarou Okiayu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95177-6SiaUTf3CLkN.png"
+        },
+        {
+          "id": 96848,
+          "language": "English",
+          "name": {
+            "first": "Andrew",
+            "last": "Love",
+            "full": "Andrew Love",
+            "native": null,
+            "userPreferred": "Andrew Love"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1848.jpg"
+        },
+        {
+          "id": 103548,
+          "language": "German",
+          "name": {
+            "first": "Jan-David",
+            "last": "Rönfeldt",
+            "full": "Jan-David Rönfeldt",
+            "native": null,
+            "userPreferred": "Jan-David Rönfeldt"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8548.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 2167,
+      "relationType": "ALTERNATIVE",
+      "malId": 2167,
+      "title": {
+        "romaji": "CLANNAD",
+        "english": "Clannad",
+        "native": "ＣＬＡＮＮＡＤ -クラナド-",
+        "userPreferred": "CLANNAD"
+      },
+      "status": "Completed",
+      "episodes": 23,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2167-ubU2875AFRTH.jpg",
+      "color": "#bbbbff",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2167.jpg",
+      "rating": 76
+    },
+    {
+      "id": 4181,
+      "relationType": "ALTERNATIVE",
+      "malId": 4181,
+      "title": {
+        "romaji": "CLANNAD: After Story",
+        "english": "Clannad: After Story",
+        "native": "ＣＬＡＮＮＡＤ ~After Story~ クラナド アフターストーリー",
+        "userPreferred": "CLANNAD: After Story"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4181-V1LCtX1rJgbR.png",
+      "color": "#e4d643",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4181.jpg",
+      "rating": 87
+    }
+  ],
+  "episodes": [
+    {
+      "id": "clannad-the-movie-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1723-PzMdQPvfcxxA.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//clannad-the-movie-episode-1"
+    }
+  ]
+}

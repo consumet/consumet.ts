@@ -1,0 +1,723 @@
+{
+  "id": "20655",
+  "title": {
+    "romaji": "Hero Bank",
+    "english": null,
+    "native": "ヒーローバンク"
+  },
+  "malId": 22099,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "GZGpW5EKu6c",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/GZGpW5EKu6c/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+  "popularity": 712,
+  "color": "#e4bb50",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+  "description": "The anime centers around Kaito, an elementary school boy who is suddenly burdened with 10 billion yen (about US$100 million) in debt one day. The only way he can pay off the debt is to master \"Hero-Gi\" (downloaded off the net) and win matches in \"Hero Battle,\" a new-generation cyber sport. The tagline of the game \"Change your money with justice!\"\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2014,
+  "startDate": {
+    "year": 2014,
+    "month": 4,
+    "day": 7
+  },
+  "endDate": {
+    "year": 2015,
+    "month": 3,
+    "day": 30
+  },
+  "totalEpisodes": 51,
+  "currentEpisode": 51,
+  "rating": 49,
+  "duration": 23,
+  "genres": [
+    "Action",
+    "Comedy",
+    "Sci-Fi"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "TMS Entertainment"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 1707,
+      "malId": 1707,
+      "title": {
+        "romaji": "Kinnikuman Nisei",
+        "english": "Ultimate Muscle",
+        "native": "キン肉マンII世",
+        "userPreferred": "Kinnikuman Nisei"
+      },
+      "status": "Completed",
+      "episodes": 51,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1707.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1707-7GnpRwi1Wylf.jpg",
+      "rating": 67,
+      "type": "TV"
+    },
+    {
+      "id": 3272,
+      "malId": 3272,
+      "title": {
+        "romaji": "Kinnikuman",
+        "english": null,
+        "native": "キン肉マン",
+        "userPreferred": "Kinnikuman"
+      },
+      "status": "Completed",
+      "episodes": 137,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3272.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/3272-z7ZhilwbvrKi.jpg",
+      "rating": 68,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 88492,
+      "role": "MAIN",
+      "name": {
+        "first": "Nagare",
+        "last": "Amano",
+        "full": "Nagare Amano",
+        "native": "天野 ナガレ",
+        "userPreferred": "Nagare Amano"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/88492.jpg",
+      "voiceActors": [
+        {
+          "id": 95118,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroshi",
+            "last": "Kamiya",
+            "full": "Hiroshi Kamiya",
+            "native": "神谷浩史",
+            "userPreferred": "Hiroshi Kamiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95118-oOElrn1aSaiC.png"
+        }
+      ]
+    },
+    {
+      "id": 88493,
+      "role": "MAIN",
+      "name": {
+        "first": "Kaito",
+        "last": "Goushou",
+        "full": "Kaito Goushou",
+        "native": "豪勝 カイト",
+        "userPreferred": "Kaito Goushou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/88493.jpg",
+      "voiceActors": [
+        {
+          "id": 95407,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Sanpei",
+            "full": "Yuuko Sanpei",
+            "native": "三瓶由布子",
+            "userPreferred": "Yuuko Sanpei"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95407-u8MV6kcAJNV6.png"
+        }
+      ]
+    },
+    {
+      "id": 88494,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sennen",
+        "last": null,
+        "full": "Sennen",
+        "native": "銭念",
+        "userPreferred": "Sennen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/88494.jpg",
+      "voiceActors": [
+        {
+          "id": 95330,
+          "language": "Japanese",
+          "name": {
+            "first": "Banjou",
+            "last": "Ginga",
+            "full": "Banjou Ginga",
+            "native": "銀河万丈",
+            "userPreferred": "Banjou Ginga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95330-PHDm9uDhKAsT.png"
+        }
+      ]
+    },
+    {
+      "id": 88495,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ai",
+        "last": "Goushou",
+        "full": "Ai Goushou",
+        "native": "豪勝 アイ",
+        "userPreferred": "Ai Goushou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/88495.jpg",
+      "voiceActors": [
+        {
+          "id": 95057,
+          "language": "Japanese",
+          "name": {
+            "first": "Houko",
+            "last": "Kuwashima",
+            "full": "Houko Kuwashima",
+            "native": "桑島法子",
+            "userPreferred": "Houko Kuwashima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95057-nMZEwJet445W.jpg"
+        }
+      ]
+    },
+    {
+      "id": 88496,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Fukuta",
+        "last": "Kanemaru",
+        "full": "Fukuta Kanemaru",
+        "native": "兼丸 フクタ",
+        "userPreferred": "Fukuta Kanemaru"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/88496.jpg",
+      "voiceActors": [
+        {
+          "id": 95123,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuya",
+            "last": "Nakai",
+            "full": "Kazuya Nakai",
+            "native": "中井和哉",
+            "userPreferred": "Kazuya Nakai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95123-qdVFNraYmQ5K.png"
+        }
+      ]
+    },
+    {
+      "id": 88497,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mitsuo",
+        "last": "Zaizen",
+        "full": "Mitsuo Zaizen",
+        "native": "財前 ミツオ",
+        "userPreferred": "Mitsuo Zaizen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/88497.jpg",
+      "voiceActors": [
+        {
+          "id": 95099,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyuki",
+            "last": "Sawashiro",
+            "full": "Miyuki Sawashiro",
+            "native": "沢城みゆき",
+            "userPreferred": "Miyuki Sawashiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95099-jKP4LfPWqetk.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 124762,
+      "relationType": "ALTERNATIVE",
+      "malId": null,
+      "title": {
+        "romaji": "Hero Bank",
+        "english": null,
+        "native": "ヒーローバンク",
+        "userPreferred": "Hero Bank"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx124762-3ezPqwtDo3pe.jpg",
+      "color": "#e4a128",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx124762-3ezPqwtDo3pe.jpg",
+      "rating": null
+    }
+  ],
+  "episodes": [
+    {
+      "id": "hero-bank-episode-1",
+      "title": "Clang Clang, Enter the Gold Appears!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 1,
+      "createdAt": "2014-09-30T03:09:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-1"
+    },
+    {
+      "id": "hero-bank-episode-2",
+      "title": "Big Sniping Cleanup Nagare Amano's Determination!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 2,
+      "createdAt": "2014-09-30T03:09:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-2"
+    },
+    {
+      "id": "hero-bank-episode-3",
+      "title": "Aim for Ten Billion Yen! The Hero Wars Curtain Rises!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 3,
+      "createdAt": "2014-09-30T03:09:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-3"
+    },
+    {
+      "id": "hero-bank-episode-4",
+      "title": "Perilous! Kaito's Regent!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 4,
+      "createdAt": "2014-09-30T03:09:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-4"
+    },
+    {
+      "id": "hero-bank-episode-5",
+      "title": "Burst Angler! A Meeting with Piscesamurai!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 5,
+      "createdAt": "2014-09-30T03:09:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-5"
+    },
+    {
+      "id": "hero-bank-episode-6",
+      "title": "Big Detention Panic! Black Cat Shadow Kitty!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 6,
+      "createdAt": "2014-09-30T03:09:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-6"
+    },
+    {
+      "id": "hero-bank-episode-7",
+      "title": "Big Money Company Breakup! Tea Picking Battle Royale!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 7,
+      "createdAt": "2014-09-30T03:09:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-7"
+    },
+    {
+      "id": "hero-bank-episode-8",
+      "title": "Blue Impact! The Dominion Dollar!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 8,
+      "createdAt": "2014-09-30T03:09:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-8"
+    },
+    {
+      "id": "hero-bank-episode-9",
+      "title": "Looks Like a Traveler in Trouble!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 9,
+      "createdAt": "2014-09-30T03:09:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-9"
+    },
+    {
+      "id": "hero-bank-episode-10",
+      "title": "Protect It! Steamy Hot Springs Job Switch Shock!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 10,
+      "createdAt": "2014-09-30T03:09:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-10"
+    },
+    {
+      "id": "hero-bank-episode-11",
+      "title": "100 Bullseyes Out of 100! A Big Riot at the Fortune-telling Battle, Though!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 11,
+      "createdAt": "2014-09-30T03:09:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-11"
+    },
+    {
+      "id": "hero-bank-episode-12",
+      "title": "Man of Steel! Kintetsu!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 12,
+      "createdAt": "2014-09-30T03:09:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-12"
+    },
+    {
+      "id": "hero-bank-episode-13",
+      "title": "Flash Descent! Deborah Kizaki!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 13,
+      "createdAt": "2014-09-30T03:09:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-13"
+    },
+    {
+      "id": "hero-bank-episode-14",
+      "title": "Trillion Swiftness! Enter the Speed!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 14,
+      "createdAt": "2014-09-30T03:09:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-14"
+    },
+    {
+      "id": "hero-bank-episode-15",
+      "title": "Off-site Sprint! Catch Up, Overtake, Uproot!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 15,
+      "createdAt": "2014-09-30T03:09:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-15"
+    },
+    {
+      "id": "hero-bank-episode-16",
+      "title": "Stormy Transfer Student! Li-Chi Long!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 16,
+      "createdAt": "2014-09-30T03:09:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-16"
+    },
+    {
+      "id": "hero-bank-episode-17",
+      "title": "Round 2! Adults Have Their Own Big Problems!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 17,
+      "createdAt": "2014-09-30T03:09:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-17"
+    },
+    {
+      "id": "hero-bank-episode-18",
+      "title": "Heavy Attire! The Dostorbrewski!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 18,
+      "createdAt": "2014-09-30T03:09:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-18"
+    },
+    {
+      "id": "hero-bank-episode-19",
+      "title": "Merciless! The All-powerful Ura Dragon's Rampage!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 19,
+      "createdAt": "2014-09-30T03:09:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-19"
+    },
+    {
+      "id": "hero-bank-episode-20",
+      "title": "Drastic Measures! Nagare vs. Isshin!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 20,
+      "createdAt": "2014-09-30T03:09:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-20"
+    },
+    {
+      "id": "hero-bank-episode-21",
+      "title": "The Semifinal! Even If You're Broke, Smiles Are Free!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 21,
+      "createdAt": "2014-09-30T03:09:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-21"
+    },
+    {
+      "id": "hero-bank-episode-22",
+      "title": "Final Round! Gold VS Dominion!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 22,
+      "createdAt": "2014-09-30T03:09:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-22"
+    },
+    {
+      "id": "hero-bank-episode-23",
+      "title": "Battle of the Century! Challenge Segalion!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 23,
+      "createdAt": "2014-09-30T03:09:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-23"
+    },
+    {
+      "id": "hero-bank-episode-24",
+      "title": "Cash Extinction! The Money Ghost's Counterattack!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 24,
+      "createdAt": "2014-09-30T03:09:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-24"
+    },
+    {
+      "id": "hero-bank-episode-25",
+      "title": "Mega Explosive Birth! Enter the Hero!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 25,
+      "createdAt": "2014-09-30T03:09:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-25"
+    },
+    {
+      "id": "hero-bank-episode-26",
+      "title": "Conclusion! The First and Last Big Brawl!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 26,
+      "createdAt": "2014-09-30T03:09:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-26"
+    },
+    {
+      "id": "hero-bank-episode-27",
+      "title": "The Money Fairy! Boochokkin Ka-ching!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 27,
+      "createdAt": "2014-09-30T03:09:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-27"
+    },
+    {
+      "id": "hero-bank-episode-28",
+      "title": "Friend or Foe?! Sekito Sakurada!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 28,
+      "createdAt": "2014-09-30T03:09:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-28"
+    },
+    {
+      "id": "hero-bank-episode-29",
+      "title": "Money is Power! Ryuuga Tennouji Makes Landfall!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 29,
+      "createdAt": "2014-09-30T03:09:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-29"
+    },
+    {
+      "id": "hero-bank-episode-30",
+      "title": "Take Down the Seven Gods of Suits! Kaito's a Special Agent!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 30,
+      "createdAt": "2014-09-30T03:09:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-30"
+    },
+    {
+      "id": "hero-bank-episode-31",
+      "title": "Osaka Business Trip! That Man is Taiga!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 31,
+      "createdAt": "2014-09-30T03:09:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-31"
+    },
+    {
+      "id": "hero-bank-episode-32",
+      "title": "Business Partnership! It's Ryouma Ishin!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 32,
+      "createdAt": "2014-09-30T03:09:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-32"
+    },
+    {
+      "id": "hero-bank-episode-33",
+      "title": "Ultra Evolution! Enter the Prize!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 33,
+      "createdAt": "2014-09-30T03:09:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-33"
+    },
+    {
+      "id": "hero-bank-episode-34",
+      "title": "Searing Hot Revenge! Kaito vs. Ryuuga!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 34,
+      "createdAt": "2014-09-30T03:09:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-34"
+    },
+    {
+      "id": "hero-bank-episode-35",
+      "title": "Absolute Obedience! Do as Torai-sama Says!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 35,
+      "createdAt": "2014-09-30T03:09:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-35"
+    },
+    {
+      "id": "hero-bank-episode-36",
+      "title": "Okinawa Business Trip! The Money of the Dead!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 36,
+      "createdAt": "2014-09-30T03:09:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-36"
+    },
+    {
+      "id": "hero-bank-episode-37",
+      "title": "Strongest Tag-team Formation! Kaito and Sekito!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 37,
+      "createdAt": "2014-09-30T03:09:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-37"
+    },
+    {
+      "id": "hero-bank-episode-38",
+      "title": "Hiroshima Business Trip! Honorless Money Battle!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 38,
+      "createdAt": "2014-09-30T03:09:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-38"
+    },
+    {
+      "id": "hero-bank-episode-39",
+      "title": "Seizure Robo! King Benten!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 39,
+      "createdAt": "2014-09-30T03:09:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-39"
+    },
+    {
+      "id": "hero-bank-episode-40",
+      "title": "Frugality is Justice! The Nagoya Cheapskate Battle!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 40,
+      "createdAt": "2014-09-30T03:09:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-40"
+    },
+    {
+      "id": "hero-bank-episode-41",
+      "title": "To Tohoku! Toilet Recovery Mission!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 41,
+      "createdAt": "2014-09-30T03:09:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-41"
+    },
+    {
+      "id": "hero-bank-episode-42",
+      "title": "Castaways! Big Money Company Assemble!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 42,
+      "createdAt": "2014-09-30T03:09:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-42"
+    },
+    {
+      "id": "hero-bank-episode-43",
+      "title": "A Shock! Kaito Has Amnesia!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 43,
+      "createdAt": "2014-09-30T03:09:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-43"
+    },
+    {
+      "id": "hero-bank-episode-44",
+      "title": "Cyber Spirit World! The Kaito Rescue Mission!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 44,
+      "createdAt": "2014-09-30T03:09:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-44"
+    },
+    {
+      "id": "hero-bank-episode-45",
+      "title": "Best of the Best! The Prize Yen Dragon!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 45,
+      "createdAt": "2014-09-30T03:09:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-45"
+    },
+    {
+      "id": "hero-bank-episode-46",
+      "title": "Promotion! What is Sekito the Head of?!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 46,
+      "createdAt": "2014-09-30T03:09:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-46"
+    },
+    {
+      "id": "hero-bank-episode-47",
+      "title": "Risky Battle! Rescue Sekito Sakurada!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 47,
+      "createdAt": "2014-09-30T03:09:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-47"
+    },
+    {
+      "id": "hero-bank-episode-48",
+      "title": "The Last of the Seven Gods of Suits! The Risky Life!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 48,
+      "createdAt": "2014-09-30T03:09:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-48"
+    },
+    {
+      "id": "hero-bank-episode-49",
+      "title": "Astonishing! Butt-naked in a Money Tornado!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 49,
+      "createdAt": "2014-09-30T03:09:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-49"
+    },
+    {
+      "id": "hero-bank-episode-50",
+      "title": "Union of Friendship! The Yen-Dollar Million!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 50,
+      "createdAt": "2014-09-30T03:09:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-50"
+    },
+    {
+      "id": "hero-bank-episode-51",
+      "title": "Smiles Are Free! We Are Big Money Company!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20655.jpg",
+      "number": 51,
+      "createdAt": "2014-09-30T03:09:53Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hero-bank-episode-51"
+    }
+  ]
+}

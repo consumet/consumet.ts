@@ -1,0 +1,583 @@
+{
+  "id": "21228",
+  "title": {
+    "romaji": "Itoshi no Muco",
+    "english": "Lovely Muuuuuuuco!",
+    "native": "いとしのムーコ"
+  },
+  "malId": 30651,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "0JTvjYLjUwQ",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/0JTvjYLjUwQ/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21228-MjCN5xVPgigR.png",
+  "popularity": 1535,
+  "color": "#e40d43",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21228-MjCN5xVPgigR.png",
+  "description": "The happy daily life of Muco, a not-too-bright Akita dog, and his owner Komatsu-san the glass-blower.",
+  "status": "Completed",
+  "releaseDate": 2015,
+  "startDate": {
+    "year": 2015,
+    "month": 10,
+    "day": 3
+  },
+  "endDate": {
+    "year": 2016,
+    "month": 3,
+    "day": 26
+  },
+  "totalEpisodes": 25,
+  "currentEpisode": 25,
+  "rating": 56,
+  "duration": 13,
+  "genres": [
+    "Slice of Life"
+  ],
+  "season": "FALL",
+  "studios": [
+    "DLE"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 99478,
+      "malId": 36418,
+      "title": {
+        "romaji": "Koneko no Chii: Ponponra Dairyokou",
+        "english": "Chi's Sweet Adventure Season 2",
+        "native": "こねこのチー 〜ポンポンらー大旅行〜",
+        "userPreferred": "Koneko no Chii: Ponponra Dairyokou"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99478-51yPecTKIGaN.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99478-51yPecTKIGaN.jpg",
+      "rating": 63,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 116700,
+      "malId": 40833,
+      "title": {
+        "romaji": "Inu to Neko Docchi mo Katteru to Mainichi Tanoshii",
+        "english": "With a Dog AND a Cat, Every Day is Fun",
+        "native": "犬と猫どっちも飼ってると毎日たのしい",
+        "userPreferred": "Inu to Neko Docchi mo Katteru to Mainichi Tanoshii"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116700-5BXjWj2zSx4S.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/116700-VPHQyStAWi5m.jpg",
+      "rating": 69,
+      "type": "TV_SHORT"
+    }
+  ],
+  "characters": [
+    {
+      "id": 161974,
+      "role": "MAIN",
+      "name": {
+        "first": "Muuco",
+        "last": null,
+        "full": "Muuco",
+        "native": "ムーコ",
+        "userPreferred": "Muuco"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b161974-Ru0JbIEYmaBl.jpg",
+      "voiceActors": [
+        {
+          "id": 101088,
+          "language": "Japanese",
+          "name": {
+            "first": "Hitomi",
+            "last": "Yoshida",
+            "full": "Hitomi Yoshida",
+            "native": "吉田仁美",
+            "userPreferred": "Hitomi Yoshida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101088-AlkU6RyhPXxh.png"
+        }
+      ]
+    },
+    {
+      "id": 161975,
+      "role": "MAIN",
+      "name": {
+        "first": "Seiji",
+        "last": "Komatsu",
+        "full": "Seiji Komatsu",
+        "native": "小松誠二",
+        "userPreferred": "Seiji Komatsu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b161975-20AuBVaJRgRJ.jpg",
+      "voiceActors": [
+        {
+          "id": 95245,
+          "language": "Japanese",
+          "name": {
+            "first": "Satoshi",
+            "last": "Hino",
+            "full": "Satoshi Hino",
+            "native": "日野聡",
+            "userPreferred": "Satoshi Hino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95245-prBoWpg0HaGX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 193563,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaede",
+        "last": "Sendagi",
+        "full": "Kaede Sendagi",
+        "native": "千駄木楓",
+        "userPreferred": "Kaede Sendagi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 193562,
+      "role": "SUPPORTING",
+      "name": {
+        "first": null,
+        "last": "Mutou",
+        "full": "Mutou",
+        "native": "獣医",
+        "userPreferred": "Mutou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95064,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroki",
+            "last": "Takahashi",
+            "full": "Hiroki Takahashi",
+            "native": "高橋広樹",
+            "userPreferred": "Hiroki Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95064-p83l3UvfQ6n6.png"
+        }
+      ]
+    },
+    {
+      "id": 193559,
+      "role": "SUPPORTING",
+      "name": {
+        "first": null,
+        "last": "Rena",
+        "full": "Rena",
+        "native": "玲奈",
+        "userPreferred": "Rena"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 109441,
+          "language": "Japanese",
+          "name": {
+            "first": "Sumire",
+            "last": "Uesaka",
+            "full": "Sumire Uesaka",
+            "native": "上坂すみれ",
+            "userPreferred": "Sumire Uesaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109441-lVHpd6BN2g16.png"
+        }
+      ]
+    },
+    {
+      "id": 193557,
+      "role": "SUPPORTING",
+      "name": {
+        "first": null,
+        "last": "Ushikou",
+        "full": "Ushikou",
+        "native": "うしこう",
+        "userPreferred": "Ushikou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95820,
+          "language": "Japanese",
+          "name": {
+            "first": "Junji",
+            "last": "Majima",
+            "full": "Junji Majima",
+            "native": "間島淳司",
+            "userPreferred": "Junji Majima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95820-5Fuosf1ljdSc.png"
+        }
+      ]
+    },
+    {
+      "id": 193560,
+      "role": "SUPPORTING",
+      "name": {
+        "first": null,
+        "last": "Tamaki-kun",
+        "full": "Tamaki-kun",
+        "native": "環くん",
+        "userPreferred": "Tamaki-kun"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95034,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuu",
+            "last": "Kobayashi",
+            "full": "Yuu Kobayashi",
+            "native": "小林ゆう",
+            "userPreferred": "Yuu Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95034-AwobjrcmkMi9.png"
+        }
+      ]
+    },
+    {
+      "id": 193558,
+      "role": "SUPPORTING",
+      "name": {
+        "first": null,
+        "last": "Bouda",
+        "full": "Bouda",
+        "native": "棒田",
+        "userPreferred": "Bouda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95063,
+          "language": "Japanese",
+          "name": {
+            "first": "Keiji",
+            "last": "Fujiwara",
+            "full": "Keiji Fujiwara",
+            "native": "藤原啓治",
+            "userPreferred": "Keiji Fujiwara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95063-xAsEUzspuLMG.jpg"
+        }
+      ]
+    },
+    {
+      "id": 193561,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Miyu",
+        "last": "Shinohara",
+        "full": "Miyu Shinohara",
+        "native": "篠原みゆ",
+        "userPreferred": "Miyu Shinohara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95078,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaori",
+            "last": "Nazuka",
+            "full": "Kaori Nazuka",
+            "native": "名塚佳織",
+            "userPreferred": "Kaori Nazuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95078-tMm7zdlRNZ3P.jpg"
+        }
+      ]
+    },
+    {
+      "id": 193564,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rika",
+        "last": "Tsutsumi",
+        "full": "Rika Tsutsumi",
+        "native": "津々見リカ",
+        "userPreferred": "Rika Tsutsumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": []
+    }
+  ],
+  "relations": [
+    {
+      "id": 21226,
+      "relationType": "ALTERNATIVE",
+      "malId": 23897,
+      "title": {
+        "romaji": "Lovely Movie: Itoshi no Muco",
+        "english": "Lovely Movie: Lovely Muuuuuuuco!",
+        "native": "ラブリームービー　いとしのムーコ",
+        "userPreferred": "Lovely Movie: Itoshi no Muco"
+      },
+      "status": "Completed",
+      "episodes": 20,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21226-GXgJ2rnzJmDI.jpg",
+      "color": "#f1c928",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21226-GXgJ2rnzJmDI.jpg",
+      "rating": 55
+    },
+    {
+      "id": 21572,
+      "relationType": "SIDE_STORY",
+      "malId": 32107,
+      "title": {
+        "romaji": "Itoshi no Muco OVA",
+        "english": "Lovely Muuuuuuuco! OVA",
+        "native": "いとしのムーコ OVA",
+        "userPreferred": "Itoshi no Muco OVA"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21572-bwr4pOg9tfH3.jpg",
+      "color": "#d61a43",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21572-bwr4pOg9tfH3.jpg",
+      "rating": 51
+    }
+  ],
+  "episodes": [
+    {
+      "id": "itoshi-no-muco-episode-1",
+      "title": "Shiny-Nosed Muco Loves Komatsu-san!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21228-MjCN5xVPgigR.png",
+      "number": 1,
+      "createdAt": "2015-12-28T20:24:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//itoshi-no-muco-episode-1"
+    },
+    {
+      "id": "itoshi-no-muco-episode-2",
+      "title": "Let's Go for a Car Ride! Muco Becomes the Wind",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21228-MjCN5xVPgigR.png",
+      "number": 2,
+      "createdAt": "2015-12-28T20:24:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//itoshi-no-muco-episode-2"
+    },
+    {
+      "id": "itoshi-no-muco-episode-3",
+      "title": "We Have a Customer! Muco's Tummy Growls with Jealousy",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21228-MjCN5xVPgigR.png",
+      "number": 3,
+      "createdAt": "2015-12-28T20:24:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//itoshi-no-muco-episode-3"
+    },
+    {
+      "id": "itoshi-no-muco-episode-4",
+      "title": "Wait!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21228-MjCN5xVPgigR.png",
+      "number": 4,
+      "createdAt": "2015-12-28T20:24:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//itoshi-no-muco-episode-4"
+    },
+    {
+      "id": "itoshi-no-muco-episode-5",
+      "title": "I Love Walks! Today, We Take A Different Path.",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21228-MjCN5xVPgigR.png",
+      "number": 5,
+      "createdAt": "2015-12-28T20:24:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//itoshi-no-muco-episode-5"
+    },
+    {
+      "id": "itoshi-no-muco-episode-6",
+      "title": "Summer Is Here! Typhoons, Fireworks, and Cold Packs",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21228-MjCN5xVPgigR.png",
+      "number": 6,
+      "createdAt": "2015-12-28T20:24:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//itoshi-no-muco-episode-6"
+    },
+    {
+      "id": "itoshi-no-muco-episode-7",
+      "title": "The Hottest Day of the Summer!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21228-MjCN5xVPgigR.png",
+      "number": 7,
+      "createdAt": "2015-12-28T20:24:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//itoshi-no-muco-episode-7"
+    },
+    {
+      "id": "itoshi-no-muco-episode-8",
+      "title": "Stick",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21228-MjCN5xVPgigR.png",
+      "number": 8,
+      "createdAt": "2015-12-28T20:24:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//itoshi-no-muco-episode-8"
+    },
+    {
+      "id": "itoshi-no-muco-episode-9",
+      "title": "Ushikoi",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21228-MjCN5xVPgigR.png",
+      "number": 9,
+      "createdAt": "2015-12-28T20:24:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//itoshi-no-muco-episode-9"
+    },
+    {
+      "id": "itoshi-no-muco-episode-10",
+      "title": "Rena's Glass Blowing Experience",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21228-MjCN5xVPgigR.png",
+      "number": 10,
+      "createdAt": "2015-12-28T20:24:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//itoshi-no-muco-episode-10"
+    },
+    {
+      "id": "itoshi-no-muco-episode-11",
+      "title": "Ushicou, Keep an Eye on the Shop",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21228-MjCN5xVPgigR.png",
+      "number": 11,
+      "createdAt": "2015-12-28T20:24:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//itoshi-no-muco-episode-11"
+    },
+    {
+      "id": "itoshi-no-muco-episode-12",
+      "title": "All About the Snow, Etc.",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21228-MjCN5xVPgigR.png",
+      "number": 12,
+      "createdAt": "2015-12-28T20:24:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//itoshi-no-muco-episode-12"
+    },
+    {
+      "id": "itoshi-no-muco-episode-13",
+      "title": "Christmas Date With Shinohara-san!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21228-MjCN5xVPgigR.png",
+      "number": 13,
+      "createdAt": "2015-12-28T20:24:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//itoshi-no-muco-episode-13"
+    },
+    {
+      "id": "itoshi-no-muco-episode-14",
+      "title": "First Sunrise",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21228-MjCN5xVPgigR.png",
+      "number": 14,
+      "createdAt": "2015-12-28T20:24:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//itoshi-no-muco-episode-14"
+    },
+    {
+      "id": "itoshi-no-muco-episode-15",
+      "title": "The Snowplow Brings Misery",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21228-MjCN5xVPgigR.png",
+      "number": 15,
+      "createdAt": "2015-12-28T20:24:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//itoshi-no-muco-episode-15"
+    },
+    {
+      "id": "itoshi-no-muco-episode-16",
+      "title": "The Thaw",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21228-MjCN5xVPgigR.png",
+      "number": 16,
+      "createdAt": "2015-12-28T20:24:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//itoshi-no-muco-episode-16"
+    },
+    {
+      "id": "itoshi-no-muco-episode-17",
+      "title": "The Path to Mastery Is Lined With Thorns!?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21228-MjCN5xVPgigR.png",
+      "number": 17,
+      "createdAt": "2015-12-28T20:24:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//itoshi-no-muco-episode-17"
+    },
+    {
+      "id": "itoshi-no-muco-episode-18",
+      "title": "A Fight I Can't Afford to Lose",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21228-MjCN5xVPgigR.png",
+      "number": 18,
+      "createdAt": "2015-12-28T20:24:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//itoshi-no-muco-episode-18"
+    },
+    {
+      "id": "itoshi-no-muco-episode-19",
+      "title": "Muco Won't Stop Growling!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21228-MjCN5xVPgigR.png",
+      "number": 19,
+      "createdAt": "2015-12-28T20:24:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//itoshi-no-muco-episode-19"
+    },
+    {
+      "id": "itoshi-no-muco-episode-20",
+      "title": "Komatsu-san, the Morning Glories Are Blooming!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21228-MjCN5xVPgigR.png",
+      "number": 20,
+      "createdAt": "2015-12-28T20:24:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//itoshi-no-muco-episode-20"
+    },
+    {
+      "id": "itoshi-no-muco-episode-21",
+      "title": "I Love Fireworks!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21228-MjCN5xVPgigR.png",
+      "number": 21,
+      "createdAt": "2015-12-28T20:24:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//itoshi-no-muco-episode-21"
+    },
+    {
+      "id": "itoshi-no-muco-episode-22",
+      "title": "A Fated Encounter: Ushicou, Komatsu, and Salad Bowl",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21228-MjCN5xVPgigR.png",
+      "number": 22,
+      "createdAt": "2015-12-28T20:24:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//itoshi-no-muco-episode-22"
+    },
+    {
+      "id": "itoshi-no-muco-episode-23",
+      "title": "Powers Awaken! The Ability to Enter the Pond Unnoticed",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21228-MjCN5xVPgigR.png",
+      "number": 23,
+      "createdAt": "2015-12-28T20:24:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//itoshi-no-muco-episode-23"
+    },
+    {
+      "id": "itoshi-no-muco-episode-24",
+      "title": "Enter Tamaki-kun! Why Ushicou Cried",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21228-MjCN5xVPgigR.png",
+      "number": 24,
+      "createdAt": "2015-12-28T20:24:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//itoshi-no-muco-episode-24"
+    },
+    {
+      "id": "itoshi-no-muco-episode-25",
+      "title": "Muco and Komatsu-otome",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21228-MjCN5xVPgigR.png",
+      "number": 25,
+      "createdAt": "2015-12-28T20:24:54Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//itoshi-no-muco-episode-25"
+    }
+  ]
+}

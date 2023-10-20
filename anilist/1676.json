@@ -1,0 +1,612 @@
+{
+  "id": "1676",
+  "title": {
+    "romaji": "Cosmo Warrior Zero",
+    "english": "Cosmo Warrior Zero",
+    "native": "コスモウォーリアー零"
+  },
+  "malId": 1676,
+  "synonyms": [
+    "Cosmowarrior Zero"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1676-jyzYP3JwkaUj.png",
+  "popularity": 1294,
+  "color": "#e4c935",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1676-jyzYP3JwkaUj.png",
+  "description": "The long war between the planet Earth and the machine men is finally over, resulting in a peace that is more a victory for the machine men than the Earth. Warrius Zero lost his family in the war to the machine men but despite this he is still is a member of the Earth fleet that is now working in concert with the machine men. His ship, made up of both humans and machine men, has been given a near impossible task: capture the space pirate Captain Harlock. While Zero struggles to accomplish this task, evidence begins to surface that the peace between machine men and Earth may not be as it seems....<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2001,
+  "startDate": {
+    "year": 2001,
+    "month": 7,
+    "day": 6
+  },
+  "endDate": {
+    "year": 2001,
+    "month": 9,
+    "day": 28
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 58,
+  "duration": 25,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Vega Entertainment"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 2202,
+      "malId": 2202,
+      "title": {
+        "romaji": "Waga Seishun no Arcadia",
+        "english": "Captain Harlock: Arcadia of my Youth",
+        "native": "わが青春のアルカディア",
+        "userPreferred": "Waga Seishun no Arcadia"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2202-mARxwjZ7oXO4.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2202-YoNdDED7oDhj.jpg",
+      "rating": 72,
+      "type": "MOVIE"
+    }
+  ],
+  "characters": [
+    {
+      "id": 18878,
+      "role": "MAIN",
+      "name": {
+        "first": "Warrius",
+        "last": "Zero",
+        "full": "Warrius Zero",
+        "native": "ウォーリアス・ゼロ",
+        "userPreferred": "Warrius Zero"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18878.jpg",
+      "voiceActors": [
+        {
+          "id": 95006,
+          "language": "Japanese",
+          "name": {
+            "first": "Toshiyuki",
+            "last": "Morikawa",
+            "full": "Toshiyuki Morikawa",
+            "native": "森川智之",
+            "userPreferred": "Toshiyuki Morikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95006-hoLuiZANeD3Q.png"
+        },
+        {
+          "id": 95019,
+          "language": "English",
+          "name": {
+            "first": "Crispin",
+            "last": "Freeman",
+            "full": "Crispin Freeman",
+            "native": null,
+            "userPreferred": "Crispin Freeman"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95019-o7SDOiPsPXKs.jpg"
+        },
+        {
+          "id": 106530,
+          "language": "Portuguese",
+          "name": {
+            "first": "Alexandre",
+            "last": "Marconatto",
+            "full": "Alexandre Marconatto",
+            "native": null,
+            "userPreferred": "Alexandre Marconatto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106530-KkrIvrO4BQii.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18879,
+      "role": "MAIN",
+      "name": {
+        "first": "Marina",
+        "last": "Oki",
+        "full": "Marina Oki",
+        "native": "マリーナ・沖",
+        "userPreferred": "Marina Oki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/18879.jpg",
+      "voiceActors": [
+        {
+          "id": 95080,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Hisakawa",
+            "full": "Aya Hisakawa",
+            "native": "久川綾",
+            "userPreferred": "Aya Hisakawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95080-7dOAcrnsSghI.jpg"
+        },
+        {
+          "id": 95835,
+          "language": "English",
+          "name": {
+            "first": "Lia",
+            "last": "Sargent",
+            "full": "Lia Sargent",
+            "native": null,
+            "userPreferred": "Lia Sargent"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/835.jpg"
+        },
+        {
+          "id": 109837,
+          "language": "Korean",
+          "name": {
+            "first": "Myeong-seon",
+            "last": "Lee",
+            "full": "Myeong-seon Lee",
+            "native": "명선 이",
+            "userPreferred": "Myeong-seon Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14837.jpg"
+        },
+        {
+          "id": 95826,
+          "language": "French",
+          "name": {
+            "first": "Hélène",
+            "last": "Bizot",
+            "full": "Hélène Bizot",
+            "native": null,
+            "userPreferred": "Hélène Bizot"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/826.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6321,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Maetel",
+        "last": "",
+        "full": "Maetel",
+        "native": "メーテル",
+        "userPreferred": "Maetel"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6321-zecC2IPZiFxq.jpg",
+      "voiceActors": [
+        {
+          "id": 95003,
+          "language": "Japanese",
+          "name": {
+            "first": "Satsuki",
+            "last": "Yukino",
+            "full": "Satsuki Yukino",
+            "native": "ゆきのさつき",
+            "userPreferred": "Satsuki Yukino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95003-Du7wb5JJzb8P.png"
+        },
+        {
+          "id": 95036,
+          "language": "English",
+          "name": {
+            "first": "Wendee",
+            "last": "Lee",
+            "full": "Wendee Lee",
+            "native": null,
+            "userPreferred": "Wendee Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95036-UkyIYVtEhoPk.png"
+        },
+        {
+          "id": 117181,
+          "language": "Spanish",
+          "name": {
+            "first": "Erika",
+            "last": "Rendón",
+            "full": "Erika Rendón",
+            "native": null,
+            "userPreferred": "Erika Rendón"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/22181.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2888,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Captain Harlock",
+        "last": "",
+        "full": "Captain Harlock",
+        "native": "キャプテン・ハーロック",
+        "userPreferred": "Captain Harlock"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2888.jpg",
+      "voiceActors": [
+        {
+          "id": 95576,
+          "language": "Japanese",
+          "name": {
+            "first": "Eiji",
+            "last": "Takemoto",
+            "full": "Eiji Takemoto",
+            "native": "竹本英史",
+            "userPreferred": "Eiji Takemoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95576-daJz6YMxGaX6.png"
+        },
+        {
+          "id": 95012,
+          "language": "English",
+          "name": {
+            "first": "Steven",
+            "last": "Blum",
+            "full": "Steven Blum",
+            "native": null,
+            "userPreferred": "Steven Blum"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95012-jnlK6VyCTf9P.png"
+        },
+        {
+          "id": 107217,
+          "language": "Portuguese",
+          "name": {
+            "first": "Sílvio",
+            "last": "Giraldi",
+            "full": "Sílvio Giraldi",
+            "native": null,
+            "userPreferred": "Sílvio Giraldi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12217.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7952,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Emeraldas",
+        "last": null,
+        "full": "Emeraldas",
+        "native": "エメラルダス",
+        "userPreferred": "Emeraldas"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7952-hkBjM2liTLlL.jpg",
+      "voiceActors": [
+        {
+          "id": 95195,
+          "language": "Japanese",
+          "name": {
+            "first": "Kikuko",
+            "last": "Inoue",
+            "full": "Kikuko Inoue",
+            "native": "井上喜久子",
+            "userPreferred": "Kikuko Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95195-nLvtZl5sCK0D.png"
+        },
+        {
+          "id": 107094,
+          "language": "Portuguese",
+          "name": {
+            "first": "Marli",
+            "last": "Bortoletto",
+            "full": "Marli Bortoletto",
+            "native": null,
+            "userPreferred": "Marli Bortoletto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12094.jpg"
+        },
+        {
+          "id": 104747,
+          "language": "French",
+          "name": {
+            "first": "Susan",
+            "last": "Sindberg",
+            "full": "Susan Sindberg",
+            "native": null,
+            "userPreferred": "Susan Sindberg"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104747-3HN1vSuPSlEb.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14004,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yattaran",
+        "last": null,
+        "full": "Yattaran",
+        "native": "ヤッタラン",
+        "userPreferred": "Yattaran"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14004.jpg",
+      "voiceActors": [
+        {
+          "id": 96468,
+          "language": "Japanese",
+          "name": {
+            "first": "Yoshirou",
+            "last": "Matsumoto",
+            "full": "Yoshirou Matsumoto",
+            "native": "松本ヨシロウ",
+            "userPreferred": "Yoshirou Matsumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96468-jFLECHd4VR4P.png"
+        },
+        {
+          "id": 95232,
+          "language": "English",
+          "name": {
+            "first": "Kirk",
+            "last": "Thornton",
+            "full": "Kirk Thornton",
+            "native": null,
+            "userPreferred": "Kirk Thornton"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/232.jpg"
+        }
+      ]
+    },
+    {
+      "id": 63887,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Silviana",
+        "last": null,
+        "full": "Silviana",
+        "native": null,
+        "userPreferred": "Silviana"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/63887.jpg",
+      "voiceActors": [
+        {
+          "id": 95249,
+          "language": "Japanese",
+          "name": {
+            "first": "KAORI.",
+            "last": "",
+            "full": "KAORI.",
+            "native": null,
+            "userPreferred": "KAORI."
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/249.jpg"
+        },
+        {
+          "id": 96862,
+          "language": "English",
+          "name": {
+            "first": "Mela",
+            "last": "Lee",
+            "full": "Mela Lee",
+            "native": null,
+            "userPreferred": "Mela Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1862.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7951,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tochiro",
+        "last": "Ooyama",
+        "full": "Tochiro Ooyama",
+        "native": "大山トチロー",
+        "userPreferred": "Tochiro Ooyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7951.jpg",
+      "voiceActors": [
+        {
+          "id": 95295,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomohiro",
+            "last": "Nishimura",
+            "full": "Tomohiro Nishimura",
+            "native": "西村朋紘",
+            "userPreferred": "Tomohiro Nishimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95295-wAC8cLzBjWet.png"
+        },
+        {
+          "id": 95771,
+          "language": "English",
+          "name": {
+            "first": "Tom",
+            "last": "Fahn",
+            "full": "Tom Fahn",
+            "native": null,
+            "userPreferred": "Tom Fahn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95771-l8xYc7jIvq3o.png"
+        },
+        {
+          "id": 96423,
+          "language": "Portuguese",
+          "name": {
+            "first": "Marcelo",
+            "last": "Campos",
+            "full": "Marcelo Campos",
+            "native": null,
+            "userPreferred": "Marcelo Campos"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96423-YaAvwaxG5fNk.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 1000,
+      "relationType": "PARENT",
+      "malId": 1000,
+      "title": {
+        "romaji": "Uchuu Kaizoku Captain Harlock",
+        "english": "Space Pirate Captain Harlock",
+        "native": "宇宙海賊キャプテンハーロック",
+        "userPreferred": "Uchuu Kaizoku Captain Harlock"
+      },
+      "status": "Completed",
+      "episodes": 42,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1000-dxR1NyPZXVbm.png",
+      "color": "#93351a",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1000-bRbPiTJ2PAYp.jpg",
+      "rating": 72
+    },
+    {
+      "id": 1677,
+      "relationType": "PREQUEL",
+      "malId": 1677,
+      "title": {
+        "romaji": "Young Harlock o Oe! Cosmo Warrior Zero Gaiden",
+        "english": null,
+        "native": "ヤングハーロックを追え! コスモウォーリアー零外伝",
+        "userPreferred": "Young Harlock o Oe! Cosmo Warrior Zero Gaiden"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1677.jpg",
+      "color": "#e4ae43",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1677.jpg",
+      "rating": 58
+    }
+  ],
+  "episodes": [
+    {
+      "id": "cosmo-warrior-zero-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1676-jyzYP3JwkaUj.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cosmo-warrior-zero-episode-1"
+    },
+    {
+      "id": "cosmo-warrior-zero-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1676-jyzYP3JwkaUj.png",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cosmo-warrior-zero-episode-2"
+    },
+    {
+      "id": "cosmo-warrior-zero-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1676-jyzYP3JwkaUj.png",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cosmo-warrior-zero-episode-3"
+    },
+    {
+      "id": "cosmo-warrior-zero-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1676-jyzYP3JwkaUj.png",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cosmo-warrior-zero-episode-4"
+    },
+    {
+      "id": "cosmo-warrior-zero-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1676-jyzYP3JwkaUj.png",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cosmo-warrior-zero-episode-5"
+    },
+    {
+      "id": "cosmo-warrior-zero-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1676-jyzYP3JwkaUj.png",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cosmo-warrior-zero-episode-6"
+    },
+    {
+      "id": "cosmo-warrior-zero-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1676-jyzYP3JwkaUj.png",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cosmo-warrior-zero-episode-7"
+    },
+    {
+      "id": "cosmo-warrior-zero-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1676-jyzYP3JwkaUj.png",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cosmo-warrior-zero-episode-8"
+    },
+    {
+      "id": "cosmo-warrior-zero-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1676-jyzYP3JwkaUj.png",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cosmo-warrior-zero-episode-9"
+    },
+    {
+      "id": "cosmo-warrior-zero-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1676-jyzYP3JwkaUj.png",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cosmo-warrior-zero-episode-10"
+    },
+    {
+      "id": "cosmo-warrior-zero-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1676-jyzYP3JwkaUj.png",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cosmo-warrior-zero-episode-11"
+    },
+    {
+      "id": "cosmo-warrior-zero-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1676-jyzYP3JwkaUj.png",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cosmo-warrior-zero-episode-12"
+    },
+    {
+      "id": "cosmo-warrior-zero-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1676-jyzYP3JwkaUj.png",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//cosmo-warrior-zero-episode-13"
+    }
+  ]
+}

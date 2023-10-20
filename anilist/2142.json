@@ -1,0 +1,1761 @@
+{
+  "id": "2142",
+  "title": {
+    "romaji": "Blue Dragon",
+    "english": null,
+    "native": "ブルー・ドラゴン"
+  },
+  "malId": 2142,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2142.jpg",
+  "popularity": 8422,
+  "color": "#1aa1d6",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2142-HJsF1zFBQyTb.jpg",
+  "description": "As Shu's village was being attacked by an unknown enemy, he and his friends, Jiro and Kluke decide to defend their home. They soon meet warrior Zola and receive the powers of Shadow, an ability that let's them transform their shadow into a powerful monster. Shu receives one of the most powerful monsters, Blue Dragon, and they all set out to defeat their enemy.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2007,
+  "startDate": {
+    "year": 2007,
+    "month": 4,
+    "day": 7
+  },
+  "endDate": {
+    "year": 2008,
+    "month": 3,
+    "day": 29
+  },
+  "totalEpisodes": 51,
+  "currentEpisode": 51,
+  "rating": 59,
+  "duration": 25,
+  "genres": [
+    "Adventure",
+    "Comedy",
+    "Fantasy",
+    "Supernatural"
+  ],
+  "season": "SPRING",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 136,
+      "malId": 136,
+      "title": {
+        "romaji": "HUNTER×HUNTER",
+        "english": "Hunter x Hunter",
+        "native": "HUNTER×HUNTER",
+        "userPreferred": "HUNTER×HUNTER"
+      },
+      "status": "Completed",
+      "episodes": 62,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136-gj0bbCpDNrKG.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/136-uHALFo2vGOGd.jpg",
+      "rating": 82,
+      "type": "TV"
+    },
+    {
+      "id": 223,
+      "malId": 223,
+      "title": {
+        "romaji": "Dragon Ball",
+        "english": "Dragon Ball",
+        "native": "ドラゴンボール",
+        "userPreferred": "Dragon Ball"
+      },
+      "status": "Completed",
+      "episodes": 153,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx223-Ld6vrSnd081L.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/223-vyRuUBBYfcUb.jpg",
+      "rating": 77,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 3857,
+      "role": "MAIN",
+      "name": {
+        "first": "Zola",
+        "last": null,
+        "full": "Zola",
+        "native": "ゾラ",
+        "userPreferred": "Zola"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3857.jpg",
+      "voiceActors": [
+        {
+          "id": 101480,
+          "language": "Japanese",
+          "name": {
+            "first": "Kotomi",
+            "last": "Iwamura",
+            "full": "Kotomi Iwamura",
+            "native": "琴美 岩村",
+            "userPreferred": "Kotomi Iwamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6480.jpg"
+        },
+        {
+          "id": 95082,
+          "language": "Japanese",
+          "name": {
+            "first": "Romi",
+            "last": "Park",
+            "full": "Romi Park",
+            "native": "朴璐美",
+            "userPreferred": "Romi Park"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95082-pNGbnYv4cHAK.png"
+        },
+        {
+          "id": 95733,
+          "language": "English",
+          "name": {
+            "first": "Cindy",
+            "last": "Robinson",
+            "full": "Cindy Robinson",
+            "native": null,
+            "userPreferred": "Cindy Robinson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95733-34PimWRfaPKr.jpg"
+        },
+        {
+          "id": 110291,
+          "language": "Korean",
+          "name": {
+            "first": "Chea Eun",
+            "last": "Han",
+            "full": "Chea Eun Han",
+            "native": "채언 한",
+            "userPreferred": "Chea Eun Han"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15291.jpg"
+        },
+        {
+          "id": 158217,
+          "language": "Italian",
+          "name": {
+            "first": "Maddalena",
+            "last": "Vadacca",
+            "full": "Maddalena Vadacca",
+            "native": null,
+            "userPreferred": "Maddalena Vadacca"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 105232,
+          "language": "Spanish",
+          "name": {
+            "first": "Lileana",
+            "last": "Chacón",
+            "full": "Lileana Chacón",
+            "native": null,
+            "userPreferred": "Lileana Chacón"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10232.jpg"
+        },
+        {
+          "id": 306692,
+          "language": "Portuguese",
+          "name": {
+            "first": "Carla",
+            "last": "Cardoso",
+            "full": "Carla Cardoso",
+            "native": null,
+            "userPreferred": "Carla Cardoso"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n306692-wsKksgvGC5os.jpg"
+        },
+        {
+          "id": 140883,
+          "language": "German",
+          "name": {
+            "first": "Tina",
+            "last": "Haseney",
+            "full": "Tina Haseney",
+            "native": null,
+            "userPreferred": "Tina Haseney"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n140883-KSN0uK0KTR3Z.png"
+        }
+      ]
+    },
+    {
+      "id": 11769,
+      "role": "MAIN",
+      "name": {
+        "first": "Kluke",
+        "last": null,
+        "full": "Kluke",
+        "native": "クルック",
+        "userPreferred": "Kluke"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11769.jpg",
+      "voiceActors": [
+        {
+          "id": 95585,
+          "language": "Japanese",
+          "name": {
+            "first": "Erino",
+            "last": "Hazuki",
+            "full": "Erino Hazuki",
+            "native": "葉月絵理乃",
+            "userPreferred": "Erino Hazuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95585-q5noKAfKT13Z.png"
+        },
+        {
+          "id": 95085,
+          "language": "English",
+          "name": {
+            "first": "Michelle",
+            "last": "Ruff",
+            "full": "Michelle Ruff",
+            "native": null,
+            "userPreferred": "Michelle Ruff"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95085-zJmU0x2NLr3j.jpg"
+        },
+        {
+          "id": 96088,
+          "language": "Italian",
+          "name": {
+            "first": "Debora",
+            "last": "Magnaghi",
+            "full": "Debora Magnaghi",
+            "native": null,
+            "userPreferred": "Debora Magnaghi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96088-1Jx4hCFT3624.png"
+        },
+        {
+          "id": 103846,
+          "language": "German",
+          "name": {
+            "first": "Julia",
+            "last": "Stoepel",
+            "full": "Julia Stoepel",
+            "native": null,
+            "userPreferred": "Julia Stoepel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8846.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12528,
+      "role": "MAIN",
+      "name": {
+        "first": "Bouquet",
+        "last": null,
+        "full": "Bouquet",
+        "native": "ブーケ",
+        "userPreferred": "Bouquet"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12528.jpg",
+      "voiceActors": [
+        {
+          "id": 95329,
+          "language": "Japanese",
+          "name": {
+            "first": "Saki",
+            "last": "Nakajima",
+            "full": "Saki Nakajima",
+            "native": "中島沙樹",
+            "userPreferred": "Saki Nakajima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/329.jpg"
+        },
+        {
+          "id": 95452,
+          "language": "English",
+          "name": {
+            "first": "Melissa",
+            "last": "Fahn",
+            "full": "Melissa Fahn",
+            "native": null,
+            "userPreferred": "Melissa Fahn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95452-ID2nbW1E8fLk.png"
+        },
+        {
+          "id": 104657,
+          "language": "Italian",
+          "name": {
+            "first": "Lara",
+            "last": "Parmiani",
+            "full": "Lara Parmiani",
+            "native": null,
+            "userPreferred": "Lara Parmiani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9657.jpg"
+        },
+        {
+          "id": 104898,
+          "language": "Spanish",
+          "name": {
+            "first": "Yensi",
+            "last": "Rivero",
+            "full": "Yensi Rivero",
+            "native": null,
+            "userPreferred": "Yensi Rivero"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9898.jpg"
+        },
+        {
+          "id": 306396,
+          "language": "Portuguese",
+          "name": {
+            "first": "Ana Paula",
+            "last": "Apollonio",
+            "full": "Ana Paula Apollonio",
+            "native": null,
+            "userPreferred": "Ana Paula Apollonio"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n306396-8kA0OFn94k18.jpg"
+        },
+        {
+          "id": 141257,
+          "language": "German",
+          "name": {
+            "first": "Isabelle",
+            "last": "Schmidt",
+            "full": "Isabelle Schmidt",
+            "native": null,
+            "userPreferred": "Isabelle Schmidt"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11779,
+      "role": "MAIN",
+      "name": {
+        "first": "Jiro",
+        "last": null,
+        "full": "Jiro",
+        "native": "ジーロ",
+        "userPreferred": "Jiro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11779.jpg",
+      "voiceActors": [
+        {
+          "id": 95087,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Namikawa",
+            "full": "Daisuke Namikawa",
+            "native": "浪川大輔",
+            "userPreferred": "Daisuke Namikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95087-6dlBBbejsPyg.png"
+        },
+        {
+          "id": 95669,
+          "language": "English",
+          "name": {
+            "first": "Sam",
+            "last": "Riegel",
+            "full": "Sam Riegel",
+            "native": null,
+            "userPreferred": "Sam Riegel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95669-SRLnXSqkz2iy.jpg"
+        },
+        {
+          "id": 109853,
+          "language": "Korean",
+          "name": {
+            "first": "Yong-Woo",
+            "last": "Shin",
+            "full": "Yong-Woo Shin",
+            "native": "신용우",
+            "userPreferred": "Yong-Woo Shin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109853-j96EqRUBocBE.jpg"
+        },
+        {
+          "id": 95774,
+          "language": "Italian",
+          "name": {
+            "first": "Simone",
+            "last": "D'Andrea",
+            "full": "Simone D'Andrea",
+            "native": null,
+            "userPreferred": "Simone D'Andrea"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95774-VV3pJui4Ee1T.jpg"
+        },
+        {
+          "id": 306395,
+          "language": "Portuguese",
+          "name": {
+            "first": "Paulo Roberto",
+            "last": "Carvalho",
+            "full": "Paulo Roberto Carvalho",
+            "native": null,
+            "userPreferred": "Paulo Roberto Carvalho"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n306395-37ROXUKMQWiw.jpg"
+        },
+        {
+          "id": 140283,
+          "language": "German",
+          "name": {
+            "first": "Carsten",
+            "last": "Otto",
+            "full": "Carsten Otto",
+            "native": null,
+            "userPreferred": "Carsten Otto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20634,
+      "role": "MAIN",
+      "name": {
+        "first": "Blue Dragon",
+        "last": null,
+        "full": "Blue Dragon",
+        "native": null,
+        "userPreferred": "Blue Dragon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20634.jpg",
+      "voiceActors": [
+        {
+          "id": 96832,
+          "language": "Japanese",
+          "name": {
+            "first": "Masaya",
+            "last": "Takatsuka",
+            "full": "Masaya Takatsuka",
+            "native": "高塚正也",
+            "userPreferred": "Masaya Takatsuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96832-mZ5khNnGAfB9.jpg"
+        },
+        {
+          "id": 95180,
+          "language": "English",
+          "name": {
+            "first": "Lex",
+            "last": "Lang",
+            "full": "Lex Lang",
+            "native": null,
+            "userPreferred": "Lex Lang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95180-lBWAdPZISYWf.jpg"
+        },
+        {
+          "id": 96232,
+          "language": "Italian",
+          "name": {
+            "first": "Alessandro",
+            "last": "D'Errico",
+            "full": "Alessandro D'Errico",
+            "native": null,
+            "userPreferred": "Alessandro D'Errico"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96232-IIIfLggIYqZd.jpg"
+        },
+        {
+          "id": 306056,
+          "language": "Portuguese",
+          "name": {
+            "first": "Cléber",
+            "last": "de Castro",
+            "full": "Cléber de Castro",
+            "native": null,
+            "userPreferred": "Cléber de Castro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n306056-G5MY4Ricxhf4.jpg"
+        },
+        {
+          "id": 139859,
+          "language": "German",
+          "name": {
+            "first": "Gerald",
+            "last": "Paradies",
+            "full": "Gerald Paradies",
+            "native": null,
+            "userPreferred": "Gerald Paradies"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n139859-QkkqYm0dONqV.png"
+        }
+      ]
+    },
+    {
+      "id": 11956,
+      "role": "MAIN",
+      "name": {
+        "first": "Marumaro",
+        "last": null,
+        "full": "Marumaro",
+        "native": "マルマロ",
+        "userPreferred": "Marumaro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b11956-CQQFmzpEWYTG.jpg",
+      "voiceActors": [
+        {
+          "id": 106716,
+          "language": "Japanese",
+          "name": {
+            "first": "Sakiko",
+            "last": "Uran",
+            "full": "Sakiko Uran",
+            "native": "雨蘭咲木子",
+            "userPreferred": "Sakiko Uran"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106716-xyIur3ZCW8cR.png"
+        },
+        {
+          "id": 95730,
+          "language": "English",
+          "name": {
+            "first": "Robert",
+            "last": "Klein",
+            "full": "Robert Klein",
+            "native": null,
+            "userPreferred": "Robert Klein"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/730.jpg"
+        },
+        {
+          "id": 109923,
+          "language": "Korean",
+          "name": {
+            "first": "Seong Jun",
+            "last": "Bang",
+            "full": "Seong Jun Bang",
+            "native": "성준 방",
+            "userPreferred": "Seong Jun Bang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14923.jpg"
+        },
+        {
+          "id": 96286,
+          "language": "Italian",
+          "name": {
+            "first": "Massimo",
+            "last": "Di Benedetto",
+            "full": "Massimo Di Benedetto",
+            "native": null,
+            "userPreferred": "Massimo Di Benedetto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96286-TD02rKR1qiHV.png"
+        },
+        {
+          "id": 104246,
+          "language": "Spanish",
+          "name": {
+            "first": "Maythe",
+            "last": "Guedes",
+            "full": "Maythe Guedes",
+            "native": null,
+            "userPreferred": "Maythe Guedes"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 96670,
+          "language": "German",
+          "name": {
+            "first": "Michael",
+            "last": "Bauer",
+            "full": "Michael Bauer",
+            "native": null,
+            "userPreferred": "Michael Bauer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11767,
+      "role": "MAIN",
+      "name": {
+        "first": "Shu",
+        "last": null,
+        "full": "Shu",
+        "native": "シュウ",
+        "userPreferred": "Shu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b11767-SY7YsC0rM8CW.jpg",
+      "voiceActors": [
+        {
+          "id": 95635,
+          "language": "Japanese",
+          "name": {
+            "first": "Keiko",
+            "last": "Nemoto",
+            "full": "Keiko Nemoto",
+            "native": "根本圭子",
+            "userPreferred": "Keiko Nemoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/635.jpg"
+        },
+        {
+          "id": 95225,
+          "language": "English",
+          "name": {
+            "first": "Yuri",
+            "last": "Lowenthal",
+            "full": "Yuri Lowenthal",
+            "native": null,
+            "userPreferred": "Yuri Lowenthal"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95225-CbmI6oDkbbkL.jpg"
+        },
+        {
+          "id": 110299,
+          "language": "Korean",
+          "name": {
+            "first": "Min Seok",
+            "last": "Kim",
+            "full": "Min Seok Kim",
+            "native": "민석 김",
+            "userPreferred": "Min Seok Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15299.jpg"
+        },
+        {
+          "id": 110567,
+          "language": "Italian",
+          "name": {
+            "first": "Gabriele",
+            "last": "Patriarca",
+            "full": "Gabriele Patriarca",
+            "native": null,
+            "userPreferred": "Gabriele Patriarca"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15567.jpg"
+        },
+        {
+          "id": 104237,
+          "language": "French",
+          "name": {
+            "first": "Yann",
+            "last": "Pichon",
+            "full": "Yann Pichon",
+            "native": null,
+            "userPreferred": "Yann Pichon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9237.jpg"
+        },
+        {
+          "id": 141043,
+          "language": "German",
+          "name": {
+            "first": "Sandro",
+            "last": "Blümel",
+            "full": "Sandro Blümel",
+            "native": null,
+            "userPreferred": "Sandro Blümel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n141043-Dof4GTzLisED.png"
+        }
+      ]
+    },
+    {
+      "id": 35262,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Andropov",
+        "last": null,
+        "full": "Andropov",
+        "native": "アンドロポフ",
+        "userPreferred": "Andropov"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/35262.jpg",
+      "voiceActors": [
+        {
+          "id": 95067,
+          "language": "Japanese",
+          "name": {
+            "first": "Kappei",
+            "last": "Yamaguchi",
+            "full": "Kappei Yamaguchi",
+            "native": "山口勝平",
+            "userPreferred": "Kappei Yamaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95067-hqIpNxMfAuN2.png"
+        },
+        {
+          "id": 96361,
+          "language": "English",
+          "name": {
+            "first": "Brian",
+            "last": "Beacock",
+            "full": "Brian Beacock",
+            "native": null,
+            "userPreferred": "Brian Beacock"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96361-2Qhjphgjt2QV.jpg"
+        },
+        {
+          "id": 110101,
+          "language": "Korean",
+          "name": {
+            "first": "Hyeon Wu",
+            "last": "Byeon",
+            "full": "Hyeon Wu Byeon",
+            "native": "현우 변",
+            "userPreferred": "Hyeon Wu Byeon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15101.jpg"
+        },
+        {
+          "id": 96160,
+          "language": "Italian",
+          "name": {
+            "first": "Davide",
+            "last": "Garbolino",
+            "full": "Davide Garbolino",
+            "native": null,
+            "userPreferred": "Davide Garbolino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96160-f2iHwGVbtmun.jpg"
+        },
+        {
+          "id": 104896,
+          "language": "Spanish",
+          "name": {
+            "first": "Angel",
+            "last": "Balam",
+            "full": "Angel Balam",
+            "native": null,
+            "userPreferred": "Angel Balam"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20635,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Minotaur",
+        "last": null,
+        "full": "Minotaur",
+        "native": null,
+        "userPreferred": "Minotaur"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20635.jpg",
+      "voiceActors": [
+        {
+          "id": 96644,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouji",
+            "last": "Ochiai",
+            "full": "Kouji Ochiai",
+            "native": "落合弘治",
+            "userPreferred": "Kouji Ochiai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96644-3WlufNKDIC8N.png"
+        },
+        {
+          "id": 95232,
+          "language": "English",
+          "name": {
+            "first": "Kirk",
+            "last": "Thornton",
+            "full": "Kirk Thornton",
+            "native": null,
+            "userPreferred": "Kirk Thornton"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/232.jpg"
+        },
+        {
+          "id": 104534,
+          "language": "Italian",
+          "name": {
+            "first": "Marco",
+            "last": "Balzarotti",
+            "full": "Marco Balzarotti",
+            "native": null,
+            "userPreferred": "Marco Balzarotti"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104534-lE9qihaiasGl.jpg"
+        },
+        {
+          "id": 140827,
+          "language": "German",
+          "name": {
+            "first": "Uli",
+            "last": "Krohm",
+            "full": "Uli Krohm",
+            "native": null,
+            "userPreferred": "Uli Krohm"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n140827-bHEjyJJ2jX4W.png"
+        }
+      ]
+    },
+    {
+      "id": 20636,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Saber Tiger",
+        "last": null,
+        "full": "Saber Tiger",
+        "native": null,
+        "userPreferred": "Saber Tiger"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20636.jpg",
+      "voiceActors": [
+        {
+          "id": 96580,
+          "language": "Japanese",
+          "name": {
+            "first": "Jin",
+            "last": "Horikawa",
+            "full": "Jin Horikawa",
+            "native": "仁堀川",
+            "userPreferred": "Jin Horikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1580.jpg"
+        },
+        {
+          "id": 107935,
+          "language": "English",
+          "name": {
+            "first": "Neil",
+            "last": "Kaplan",
+            "full": "Neil Kaplan",
+            "native": null,
+            "userPreferred": "Neil Kaplan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12935.jpg"
+        },
+        {
+          "id": 306690,
+          "language": "Portuguese",
+          "name": {
+            "first": "Roberto",
+            "last": "Ciantelli",
+            "full": "Roberto Ciantelli",
+            "native": null,
+            "userPreferred": "Roberto Ciantelli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n306690-Lp4HWPp6yRaj.jpg"
+        },
+        {
+          "id": 138580,
+          "language": "German",
+          "name": {
+            "first": "Axel",
+            "last": "Lutter",
+            "full": "Axel Lutter",
+            "native": null,
+            "userPreferred": "Axel Lutter"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n138580-0EoAOyyoZ9m8.png"
+        }
+      ]
+    },
+    {
+      "id": 26316,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Cynthia",
+        "last": null,
+        "full": "Cynthia",
+        "native": "シンシア",
+        "userPreferred": "Cynthia"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b26316-Z3gMJl95tpnu.jpg",
+      "voiceActors": [
+        {
+          "id": 101566,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukiko",
+            "last": "Takaguchi",
+            "full": "Yukiko Takaguchi",
+            "native": "高口幸子",
+            "userPreferred": "Yukiko Takaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6566.jpg"
+        },
+        {
+          "id": 95244,
+          "language": "English",
+          "name": {
+            "first": "Tara",
+            "last": "Platt",
+            "full": "Tara Platt",
+            "native": null,
+            "userPreferred": "Tara Platt"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95244-AyrXVoH1Ctlg.png"
+        },
+        {
+          "id": 96090,
+          "language": "Italian",
+          "name": {
+            "first": "Emanuela",
+            "last": "Pacotto",
+            "full": "Emanuela Pacotto",
+            "native": null,
+            "userPreferred": "Emanuela Pacotto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96090-UnDifVZ6rNS2.png"
+        },
+        {
+          "id": 196961,
+          "language": "Portuguese",
+          "name": {
+            "first": "Marta",
+            "last": "Rhaulin",
+            "full": "Marta Rhaulin",
+            "native": null,
+            "userPreferred": "Marta Rhaulin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n196961-0SRPlv5mELtO.jpg"
+        },
+        {
+          "id": 105702,
+          "language": "German",
+          "name": {
+            "first": "Nadine",
+            "last": "Pasta",
+            "full": "Nadine Pasta",
+            "native": null,
+            "userPreferred": "Nadine Pasta"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105702-eOWuMRKlQh5W.png"
+        }
+      ]
+    },
+    {
+      "id": 198644,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Delphinium",
+        "last": null,
+        "full": "Delphinium",
+        "native": "デルフィニュウム",
+        "userPreferred": "Delphinium"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 116811,
+          "language": "Italian",
+          "name": {
+            "first": "Alessandra",
+            "last": "Karpoff",
+            "full": "Alessandra Karpoff",
+            "native": null,
+            "userPreferred": "Alessandra Karpoff"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/21811.jpg"
+        },
+        {
+          "id": 196961,
+          "language": "Portuguese",
+          "name": {
+            "first": "Marta",
+            "last": "Rhaulin",
+            "full": "Marta Rhaulin",
+            "native": null,
+            "userPreferred": "Marta Rhaulin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n196961-0SRPlv5mELtO.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20638,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Phoenix",
+        "last": null,
+        "full": "Phoenix",
+        "native": "フェニックス",
+        "userPreferred": "Phoenix"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20638.jpg",
+      "voiceActors": [
+        {
+          "id": 111565,
+          "language": "Japanese",
+          "name": {
+            "first": "Konomi",
+            "last": "Tsuboi",
+            "full": "Konomi Tsuboi",
+            "native": "坪井木の実",
+            "userPreferred": "Konomi Tsuboi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/16565.jpg"
+        },
+        {
+          "id": 95085,
+          "language": "English",
+          "name": {
+            "first": "Michelle",
+            "last": "Ruff",
+            "full": "Michelle Ruff",
+            "native": null,
+            "userPreferred": "Michelle Ruff"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95085-zJmU0x2NLr3j.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20641,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Legolas",
+        "last": null,
+        "full": "Legolas",
+        "native": "レゴラス",
+        "userPreferred": "Legolas"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20641.jpg",
+      "voiceActors": [
+        {
+          "id": 95262,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenyuu",
+            "last": "Horiuchi",
+            "full": "Kenyuu Horiuchi",
+            "native": "堀内賢雄",
+            "userPreferred": "Kenyuu Horiuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/262.jpg"
+        },
+        {
+          "id": 95336,
+          "language": "English",
+          "name": {
+            "first": "Kyle",
+            "last": "Hebert",
+            "full": "Kyle Hebert",
+            "native": null,
+            "userPreferred": "Kyle Hebert"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95336-VVMKFINwPYZ8.jpg"
+        },
+        {
+          "id": 145114,
+          "language": "Italian",
+          "name": {
+            "first": "Tony",
+            "last": "Fuochi",
+            "full": "Tony Fuochi",
+            "native": null,
+            "userPreferred": "Tony Fuochi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n145114-bpVafAq7FdOW.png"
+        },
+        {
+          "id": 145366,
+          "language": "German",
+          "name": {
+            "first": "Tim",
+            "last": "Moeseritz",
+            "full": "Tim Moeseritz",
+            "native": null,
+            "userPreferred": "Tim Moeseritz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n145366-39sIVSK8g4iB.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20642,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nene",
+        "last": null,
+        "full": "Nene",
+        "native": null,
+        "userPreferred": "Nene"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20642.jpg",
+      "voiceActors": [
+        {
+          "id": 96431,
+          "language": "Japanese",
+          "name": {
+            "first": "Shirou",
+            "last": "Saitou",
+            "full": "Shirou Saitou",
+            "native": "斎藤志郎",
+            "userPreferred": "Shirou Saitou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1431.jpg"
+        },
+        {
+          "id": 95404,
+          "language": "English",
+          "name": {
+            "first": "David",
+            "last": "Lodge",
+            "full": "David Lodge",
+            "native": null,
+            "userPreferred": "David Lodge"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95404-hQy4V6k19Qu1.jpg"
+        },
+        {
+          "id": 140884,
+          "language": "German",
+          "name": {
+            "first": "Frank",
+            "last": "Ciazynski",
+            "full": "Frank Ciazynski",
+            "native": null,
+            "userPreferred": "Frank Ciazynski"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20637,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hippopotamus",
+        "last": null,
+        "full": "Hippopotamus",
+        "native": null,
+        "userPreferred": "Hippopotamus"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20637.jpg",
+      "voiceActors": [
+        {
+          "id": 95898,
+          "language": "Japanese",
+          "name": {
+            "first": "Choo",
+            "last": null,
+            "full": "Choo",
+            "native": "チョー ",
+            "userPreferred": "Choo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95898-XHSESV65G8Jv.png"
+        },
+        {
+          "id": 95512,
+          "language": "English",
+          "name": {
+            "first": "Michael",
+            "last": "Sorich",
+            "full": "Michael Sorich",
+            "native": null,
+            "userPreferred": "Michael Sorich"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95512-ZF7RSh28tB0l.jpg"
+        },
+        {
+          "id": 110301,
+          "language": "Korean",
+          "name": {
+            "first": "Jong Gu",
+            "last": "Lee",
+            "full": "Jong Gu Lee",
+            "native": "종구 이",
+            "userPreferred": "Jong Gu Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15301.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20639,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Logi",
+        "last": null,
+        "full": "Logi",
+        "native": "ゼネラル・ロギ",
+        "userPreferred": "Logi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b20639-YhjhuD3aVUZc.jpg",
+      "voiceActors": [
+        {
+          "id": 95221,
+          "language": "Japanese",
+          "name": {
+            "first": "Kentarou",
+            "last": "Itou",
+            "full": "Kentarou Itou",
+            "native": "伊藤健太郎",
+            "userPreferred": "Kentarou Itou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95221-2rpvfpZXEAZB.jpg"
+        },
+        {
+          "id": 101457,
+          "language": "English",
+          "name": {
+            "first": "David",
+            "last": "Vincent",
+            "full": "David Vincent",
+            "native": null,
+            "userPreferred": "David Vincent"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101457-DXEZhScJUr5I.png"
+        },
+        {
+          "id": 196969,
+          "language": "Italian",
+          "name": {
+            "first": "Riccardo",
+            "last": "Onorato",
+            "full": "Riccardo Onorato",
+            "native": null,
+            "userPreferred": "Riccardo Onorato"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 105700,
+          "language": "German",
+          "name": {
+            "first": "Felix",
+            "last": "Spieß",
+            "full": "Felix Spieß",
+            "native": null,
+            "userPreferred": "Felix Spieß"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10700.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20640,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Valkyrie",
+        "last": null,
+        "full": "Valkyrie",
+        "native": null,
+        "userPreferred": "Valkyrie"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20640.jpg",
+      "voiceActors": [
+        {
+          "id": 101479,
+          "language": "Japanese",
+          "name": {
+            "first": "Sayaka",
+            "last": "Kinoshita",
+            "full": "Sayaka Kinoshita",
+            "native": "木下紗華",
+            "userPreferred": "Sayaka Kinoshita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101479-59KTNOCwdAFL.png"
+        },
+        {
+          "id": 96054,
+          "language": "English",
+          "name": {
+            "first": "Karen",
+            "last": "Strassman",
+            "full": "Karen Strassman",
+            "native": null,
+            "userPreferred": "Karen Strassman"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96054-1OfcQBS5znbB.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 4197,
+      "relationType": "SEQUEL",
+      "malId": 4197,
+      "title": {
+        "romaji": "BLUE DRAGON: Tenkai no Shichi Ryuu",
+        "english": "Blue Dragon: The Seven Dragons of the Heavens",
+        "native": "BLUE DRAGON 天界の七竜",
+        "userPreferred": "BLUE DRAGON: Tenkai no Shichi Ryuu"
+      },
+      "status": "Completed",
+      "episodes": 51,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4197.jpg",
+      "color": "#e4a135",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4197.jpg",
+      "rating": 61
+    }
+  ],
+  "episodes": [
+    {
+      "id": "blue-dragon-episode-1",
+      "title": "The Shadow Comes Forth",
+      "image": "https://media.kitsu.io/episodes/thumbnails/32978/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-1"
+    },
+    {
+      "id": "blue-dragon-episode-2",
+      "title": "The Blue Power",
+      "image": "https://media.kitsu.io/episodes/thumbnails/32979/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-2"
+    },
+    {
+      "id": "blue-dragon-episode-3",
+      "title": "Shu and Jiro",
+      "image": "https://media.kitsu.io/episodes/thumbnails/32980/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-3"
+    },
+    {
+      "id": "blue-dragon-episode-4",
+      "title": "Underwear Is The Trump Card",
+      "image": "https://media.kitsu.io/episodes/thumbnails/32981/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-4"
+    },
+    {
+      "id": "blue-dragon-episode-5",
+      "title": "General Logi",
+      "image": "https://media.kitsu.io/episodes/thumbnails/32982/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-5"
+    },
+    {
+      "id": "blue-dragon-episode-6",
+      "title": "Fluffy Fluffy Squeezy!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/32983/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-6"
+    },
+    {
+      "id": "blue-dragon-episode-7",
+      "title": "The Noblewoman's Trap",
+      "image": "https://media.kitsu.io/episodes/thumbnails/32984/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-7"
+    },
+    {
+      "id": "blue-dragon-episode-8",
+      "title": "Knight Master",
+      "image": "https://media.kitsu.io/episodes/thumbnails/32985/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-8"
+    },
+    {
+      "id": "blue-dragon-episode-9",
+      "title": "Operation Marriage Proposal",
+      "image": "https://media.kitsu.io/episodes/thumbnails/32986/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-9"
+    },
+    {
+      "id": "blue-dragon-episode-10",
+      "title": "Logi Strikes",
+      "image": "https://media.kitsu.io/episodes/thumbnails/32987/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-10"
+    },
+    {
+      "id": "blue-dragon-episode-11",
+      "title": "Escape Through The Enemy Front",
+      "image": "https://media.kitsu.io/episodes/thumbnails/32988/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-11"
+    },
+    {
+      "id": "blue-dragon-episode-12",
+      "title": "Dragnov's Last Stand",
+      "image": "https://media.kitsu.io/episodes/thumbnails/32989/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-12"
+    },
+    {
+      "id": "blue-dragon-episode-13",
+      "title": "Infiltrate!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/32990/original.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-13"
+    },
+    {
+      "id": "blue-dragon-episode-14",
+      "title": "Kluke's Feelings",
+      "image": "https://media.kitsu.io/episodes/thumbnails/32991/original.jpg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-14"
+    },
+    {
+      "id": "blue-dragon-episode-15",
+      "title": "A Path Towards Hope",
+      "image": "https://media.kitsu.io/episodes/thumbnails/32992/original.jpg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-15"
+    },
+    {
+      "id": "blue-dragon-episode-16",
+      "title": "The Book Of The Beginning",
+      "image": "https://media.kitsu.io/episodes/thumbnails/32993/original.jpg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-16"
+    },
+    {
+      "id": "blue-dragon-episode-17",
+      "title": "Homeron Has Died",
+      "image": "https://media.kitsu.io/episodes/thumbnails/32994/original.jpg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-17"
+    },
+    {
+      "id": "blue-dragon-episode-18",
+      "title": "Dear Shadow",
+      "image": "https://media.kitsu.io/episodes/thumbnails/32995/original.jpg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-18"
+    },
+    {
+      "id": "blue-dragon-episode-19",
+      "title": "The Mystery of the Ruins",
+      "image": "https://media.kitsu.io/episodes/thumbnails/32996/original.jpg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-19"
+    },
+    {
+      "id": "blue-dragon-episode-20",
+      "title": "The Captive Knight",
+      "image": "https://media.kitsu.io/episodes/thumbnails/32997/original.jpg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-20"
+    },
+    {
+      "id": "blue-dragon-episode-21",
+      "title": "The Informant's Pursuit",
+      "image": "https://media.kitsu.io/episodes/thumbnails/32998/original.jpg",
+      "number": 21,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-21"
+    },
+    {
+      "id": "blue-dragon-episode-22",
+      "title": "Vanish Vanish Don't!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/32999/original.jpg",
+      "number": 22,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-22"
+    },
+    {
+      "id": "blue-dragon-episode-23",
+      "title": "Towards the Great Blue Sky",
+      "image": "https://media.kitsu.io/episodes/thumbnails/33000/original.jpg",
+      "number": 23,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-23"
+    },
+    {
+      "id": "blue-dragon-episode-24",
+      "title": "Pursuit of the Devil",
+      "image": "https://media.kitsu.io/episodes/thumbnails/33001/original.jpg",
+      "number": 24,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-24"
+    },
+    {
+      "id": "blue-dragon-episode-25",
+      "title": "Versus the Independent Flying Squadron",
+      "image": "https://media.kitsu.io/episodes/thumbnails/33002/original.jpg",
+      "number": 25,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-25"
+    },
+    {
+      "id": "blue-dragon-episode-26",
+      "title": "Cynthia's Madness",
+      "image": "https://media.kitsu.io/episodes/thumbnails/33003/original.jpg",
+      "number": 26,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-26"
+    },
+    {
+      "id": "blue-dragon-episode-27",
+      "title": "Into Logi's Ship",
+      "image": "https://media.kitsu.io/episodes/thumbnails/33004/original.jpg",
+      "number": 27,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-27"
+    },
+    {
+      "id": "blue-dragon-episode-28",
+      "title": "Sneaky Sneaky Shock!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/33005/original.jpg",
+      "number": 28,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-28"
+    },
+    {
+      "id": "blue-dragon-episode-29",
+      "title": "The Extra Seven",
+      "image": "https://media.kitsu.io/episodes/thumbnails/33006/original.jpg",
+      "number": 29,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-29"
+    },
+    {
+      "id": "blue-dragon-episode-30",
+      "title": "The Dark Dragon",
+      "image": "https://media.kitsu.io/episodes/thumbnails/33007/original.jpg",
+      "number": 30,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-30"
+    },
+    {
+      "id": "blue-dragon-episode-31",
+      "title": "The Powerful One",
+      "image": "https://media.kitsu.io/episodes/thumbnails/33008/original.jpg",
+      "number": 31,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-31"
+    },
+    {
+      "id": "blue-dragon-episode-32",
+      "title": "The Shadow Wielder's Apprentice",
+      "image": "https://media.kitsu.io/episodes/thumbnails/33009/original.jpg",
+      "number": 32,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-32"
+    },
+    {
+      "id": "blue-dragon-episode-33",
+      "title": "Panty Heaven",
+      "image": "https://media.kitsu.io/episodes/thumbnails/33010/original.jpg",
+      "number": 33,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-33"
+    },
+    {
+      "id": "blue-dragon-episode-34",
+      "title": "Gilliam Returns",
+      "image": "https://media.kitsu.io/episodes/thumbnails/33011/original.jpg",
+      "number": 34,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-34"
+    },
+    {
+      "id": "blue-dragon-episode-35",
+      "title": "The Shining Hippo",
+      "image": "https://media.kitsu.io/episodes/thumbnails/33012/original.jpg",
+      "number": 35,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-35"
+    },
+    {
+      "id": "blue-dragon-episode-36",
+      "title": "Whisper Whisper Boom!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/33013/original.jpg",
+      "number": 36,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-36"
+    },
+    {
+      "id": "blue-dragon-episode-37",
+      "title": "Aerial Fortress Showdown",
+      "image": "https://media.kitsu.io/episodes/thumbnails/33014/original.jpeg",
+      "number": 37,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-37"
+    },
+    {
+      "id": "blue-dragon-episode-38",
+      "title": "The Final Battle",
+      "image": "https://media.kitsu.io/episodes/thumbnails/33015/original.jpeg",
+      "number": 38,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-38"
+    },
+    {
+      "id": "blue-dragon-episode-39",
+      "title": "The Triumphant Return",
+      "image": "https://media.kitsu.io/episodes/thumbnails/33016/original.jpeg",
+      "number": 39,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-39"
+    },
+    {
+      "id": "blue-dragon-episode-40",
+      "title": "Rosekstan",
+      "image": "https://media.kitsu.io/episodes/thumbnails/33017/original.jpeg",
+      "number": 40,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-40"
+    },
+    {
+      "id": "blue-dragon-episode-41",
+      "title": "Bird in a Cage",
+      "image": "https://media.kitsu.io/episodes/thumbnails/33018/original.jpeg",
+      "number": 41,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-41"
+    },
+    {
+      "id": "blue-dragon-episode-42",
+      "title": "Awakening",
+      "image": "https://media.kitsu.io/episodes/thumbnails/33019/original.jpeg",
+      "number": 42,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-42"
+    },
+    {
+      "id": "blue-dragon-episode-43",
+      "title": "The Seven Soldiers of Light",
+      "image": "https://media.kitsu.io/episodes/thumbnails/33020/original.jpeg",
+      "number": 43,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-43"
+    },
+    {
+      "id": "blue-dragon-episode-44",
+      "title": "The Truth",
+      "image": "https://media.kitsu.io/episodes/thumbnails/33021/original.jpeg",
+      "number": 44,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-44"
+    },
+    {
+      "id": "blue-dragon-episode-45",
+      "title": "Quiver Quiver Boing!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/33022/original.jpeg",
+      "number": 45,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-45"
+    },
+    {
+      "id": "blue-dragon-episode-46",
+      "title": "Dissension",
+      "image": "https://media.kitsu.io/episodes/thumbnails/33023/original.jpeg",
+      "number": 46,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-46"
+    },
+    {
+      "id": "blue-dragon-episode-47",
+      "title": "Into the Darkness",
+      "image": "https://media.kitsu.io/episodes/thumbnails/33024/original.jpeg",
+      "number": 47,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-47"
+    },
+    {
+      "id": "blue-dragon-episode-48",
+      "title": "The Two Pledges",
+      "image": "https://media.kitsu.io/episodes/thumbnails/33025/original.jpeg",
+      "number": 48,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-48"
+    },
+    {
+      "id": "blue-dragon-episode-49",
+      "title": "Zola",
+      "image": "https://media.kitsu.io/episodes/thumbnails/33026/original.jpeg",
+      "number": 49,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-49"
+    },
+    {
+      "id": "blue-dragon-episode-50",
+      "title": "Bonds",
+      "image": "https://media.kitsu.io/episodes/thumbnails/33027/original.jpeg",
+      "number": 50,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-50"
+    },
+    {
+      "id": "blue-dragon-episode-51",
+      "title": "Shu",
+      "image": "https://media.kitsu.io/episodes/thumbnails/33028/original.jpeg",
+      "number": 51,
+      "createdAt": "2013-02-20T18:23:22Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//blue-dragon-episode-51"
+    }
+  ]
+}

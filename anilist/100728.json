@@ -1,0 +1,547 @@
+{
+  "id": "100728",
+  "title": {
+    "romaji": "Fate/Grand Order: MOONLIGHT/LOSTROOM",
+    "english": "Fate/Grand Order -MOONLIGHT/LOSTROOM-",
+    "native": "Fate/Grand Order -MOONLIGHT/LOSTROOM-"
+  },
+  "malId": 36915,
+  "synonyms": [
+    "Fate/Grand Order: Moonlight/Lostroom"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100728-rChlxr9tE5qx.png",
+  "popularity": 16467,
+  "color": "#78e4f1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100728-k33qsytFb8ik.jpg",
+  "description": "The Lost Room.\nA place where you can see what was lost, or maybe what will be lost to you in time.\nExisting in the innermost part of Chaldea, it is the boundary line between dream and reality where the light of the moon shines through.\nProduced by the Chaldea Summoning System, the room holds a small number of worthwhile benefits to enjoy.",
+  "status": "Completed",
+  "releaseDate": 2017,
+  "startDate": {
+    "year": 2017,
+    "month": 12,
+    "day": 31
+  },
+  "endDate": {
+    "year": 2017,
+    "month": 12,
+    "day": 31
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 61,
+  "duration": 32,
+  "genres": [
+    "Action",
+    "Fantasy"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Lay-duce"
+  ],
+  "subOrDub": "sub",
+  "type": "SPECIAL",
+  "recommendations": [
+    {
+      "id": 101184,
+      "malId": 36064,
+      "title": {
+        "romaji": "Fate/Grand Order CMs",
+        "english": "Fate/Grand Order CMs",
+        "native": "Fate/Grand Order CMs",
+        "userPreferred": "Fate/Grand Order CMs"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101184-WXr7zfS6aqNY.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101184-DAX3YdU5vCeA.jpg",
+      "rating": 73,
+      "type": "SPECIAL"
+    },
+    {
+      "id": 159569,
+      "malId": 54042,
+      "title": {
+        "romaji": "Fate/Grand Order: Fujimaru Ritsuka wa Wakaranai",
+        "english": "Fate/Grand Order: You've Lost Ritsuka Fujimaru",
+        "native": "Fate/Grand Order 藤丸立香はわからない",
+        "userPreferred": "Fate/Grand Order: Fujimaru Ritsuka wa Wakaranai"
+      },
+      "status": "Completed",
+      "episodes": 33,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx159569-7UanLTkqLJOy.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx159569-7UanLTkqLJOy.jpg",
+      "rating": 71,
+      "type": "TV_SHORT"
+    }
+  ],
+  "characters": [
+    {
+      "id": 120734,
+      "role": "MAIN",
+      "name": {
+        "first": "Ritsuka",
+        "last": "Fujimaru",
+        "full": "Ritsuka Fujimaru",
+        "native": "藤丸立香",
+        "userPreferred": "Ritsuka Fujimaru"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b120734-c6G802LzxRNG.jpg",
+      "voiceActors": [
+        {
+          "id": 105989,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobunaga",
+            "last": "Shimazaki",
+            "full": "Nobunaga Shimazaki",
+            "native": "島崎信長",
+            "userPreferred": "Nobunaga Shimazaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105989-96etzH1dLNug.jpg"
+        }
+      ]
+    },
+    {
+      "id": 120735,
+      "role": "MAIN",
+      "name": {
+        "first": "Mash",
+        "last": "Kyrielight",
+        "full": "Mash Kyrielight",
+        "native": "マシュ・キリエライト",
+        "userPreferred": "Mash Kyrielight"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b120735-TjIeTlsKNaMl.jpg",
+      "voiceActors": [
+        {
+          "id": 119331,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Takahashi",
+            "full": "Rie Takahashi",
+            "native": "高橋李依",
+            "userPreferred": "Rie Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119331-0CYDTh2mwy62.png"
+        }
+      ]
+    },
+    {
+      "id": 135704,
+      "role": "MAIN",
+      "name": {
+        "first": "Lev ",
+        "last": "Flauros",
+        "full": "Lev  Flauros",
+        "native": "レフ・ライノール・フラウロス",
+        "userPreferred": "Lev  Lainur Flauros"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b135704-natUypQ0evAi.jpg",
+      "voiceActors": [
+        {
+          "id": 95002,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Sugita",
+            "full": "Tomokazu Sugita",
+            "native": "杉田智和",
+            "userPreferred": "Tomokazu Sugita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95002-nDIvHaynicEg.png"
+        }
+      ]
+    },
+    {
+      "id": 130834,
+      "role": "MAIN",
+      "name": {
+        "first": "Olga Marie",
+        "last": "Animusphere",
+        "full": "Olga Marie Animusphere",
+        "native": "オルガマリー・アニムスフィア",
+        "userPreferred": "Olga Marie Asmleit Animusphere"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b130834-MC4zvT4nQWAl.jpg",
+      "voiceActors": [
+        {
+          "id": 102254,
+          "language": "Japanese",
+          "name": {
+            "first": "Madoka",
+            "last": "Yonezawa",
+            "full": "Madoka Yonezawa",
+            "native": "米澤円",
+            "userPreferred": "Madoka Yonezawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102254-LUKI5fI8aFPF.jpg"
+        }
+      ]
+    },
+    {
+      "id": 143921,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Florence ",
+        "last": "Nightingale",
+        "full": "Florence  Nightingale",
+        "native": "フローレンス・ナイチンゲール",
+        "userPreferred": "Florence  Nightingale"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b143921-f1ji6l5ANf1E.png",
+      "voiceActors": []
+    },
+    {
+      "id": 2087,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Archer",
+        "last": null,
+        "full": "Archer",
+        "native": "アーチャー",
+        "userPreferred": "Archer"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2087-l5WP4W4vmfJJ.png",
+      "voiceActors": []
+    },
+    {
+      "id": 135743,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ishtar ",
+        "last": null,
+        "full": "Ishtar ",
+        "native": "イシュタル",
+        "userPreferred": "Ishtar "
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b135743-K9rrQKqxWB5q.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 189145,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Fionn",
+        "last": "mac Cumhail",
+        "full": "Fionn mac Cumhail",
+        "native": "フィン・マックール",
+        "userPreferred": "Fionn mac Cumhail"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b189145-XhzXs6XB5wdN.png",
+      "voiceActors": []
+    },
+    {
+      "id": 143922,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Medb",
+        "last": null,
+        "full": "Medb",
+        "native": "女王メイヴ",
+        "userPreferred": "Medb"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b143922-mtD6wWhbMkCT.png",
+      "voiceActors": []
+    },
+    {
+      "id": 210711,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Isei no Kami no Miko",
+        "last": null,
+        "full": "Isei no Kami no Miko",
+        "native": "異星の神の巫女",
+        "userPreferred": "Isei no Kami no Miko"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b210711-A4PpWIas902X.png",
+      "voiceActors": []
+    },
+    {
+      "id": 499,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Cú ",
+        "last": "Chulainn",
+        "full": "Cú  Chulainn",
+        "native": "クー・フーリン",
+        "userPreferred": "Cú  Chulainn"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b499-gS5RAdupSKWQ.png",
+      "voiceActors": []
+    },
+    {
+      "id": 187812,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mephistopheles",
+        "last": null,
+        "full": "Mephistopheles",
+        "native": "メフィストフェレス",
+        "userPreferred": "Mephistopheles"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b187812-k3e2voxWMVbe.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 210712,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Grigori",
+        "last": "Rasputin",
+        "full": "Grigori Rasputin",
+        "native": "グリゴリー・ラスプーチン",
+        "userPreferred": "Grigori Rasputin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b210712-GlbS4zPVD5GP.png",
+      "voiceActors": []
+    },
+    {
+      "id": 137154,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Romani",
+        "last": "Archaman",
+        "full": "Romani Archaman",
+        "native": "ロマニ・アーキマン",
+        "userPreferred": "Romani Archaman"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b137154-pa65jCryA6yl.jpg",
+      "voiceActors": [
+        {
+          "id": 95005,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenichi",
+            "last": "Suzumura",
+            "full": "Kenichi Suzumura",
+            "native": "鈴村健一",
+            "userPreferred": "Kenichi Suzumura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95005-SkoVN02iOglr.png"
+        }
+      ]
+    },
+    {
+      "id": 2514,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gilgamesh",
+        "last": "",
+        "full": "Gilgamesh",
+        "native": "ギルガメッシュ",
+        "userPreferred": "Gilgamesh"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2514-hnE6LEdqm7Su.png",
+      "voiceActors": []
+    },
+    {
+      "id": 136944,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Galahad",
+        "last": null,
+        "full": "Galahad",
+        "native": "ガラハッド",
+        "userPreferred": "Galahad"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b136944-Xb6Dzpg07IzY.png",
+      "voiceActors": [
+        {
+          "id": 119869,
+          "language": "Japanese",
+          "name": {
+            "first": "Shun",
+            "last": "Horie",
+            "full": "Shun Horie",
+            "native": "堀江瞬",
+            "userPreferred": "Shun Horie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119869-mUUrORIQBlnB.png"
+        }
+      ]
+    },
+    {
+      "id": 497,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Artoria",
+        "last": "Pendragon",
+        "full": "Artoria Pendragon",
+        "native": "アルトリア・ペンドラゴン",
+        "userPreferred": "Artoria Pendragon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b497-t5ugW1trntCB.png",
+      "voiceActors": []
+    },
+    {
+      "id": 231182,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Duston",
+        "last": null,
+        "full": "Duston",
+        "native": "ダストン",
+        "userPreferred": "Duston"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b231182-tj4n0GWONEFC.png",
+      "voiceActors": [
+        {
+          "id": 134431,
+          "language": "Japanese",
+          "name": {
+            "first": "Hayato",
+            "last": "Fujii",
+            "full": "Hayato Fujii",
+            "native": "藤井隼",
+            "userPreferred": "Hayato Fujii"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n134431-cpatR11dneJA.png"
+        }
+      ]
+    },
+    {
+      "id": 160367,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Li",
+        "last": "Shuwen",
+        "full": "Li Shuwen",
+        "native": "李書文",
+        "userPreferred": "Li Shuwen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b160367-JbICquxwaAcj.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 146299,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dr. Jekyll and Mr. Hyde",
+        "last": "",
+        "full": "Dr. Jekyll and Mr. Hyde",
+        "native": "ジキル博士とハイド氏",
+        "userPreferred": "Dr. Jekyll and Mr. Hyde"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b146299-Q0fjMxd7RJub.png",
+      "voiceActors": []
+    },
+    {
+      "id": 188769,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rama",
+        "last": null,
+        "full": "Rama",
+        "native": "ラーマ",
+        "userPreferred": "Rama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b188769-O1fz843FX5Vz.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 144830,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ushiwakamaru",
+        "last": null,
+        "full": "Ushiwakamaru",
+        "native": "牛若丸",
+        "userPreferred": "Ushiwakamaru"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b144830-OIaY2NFmYryL.png",
+      "voiceActors": []
+    },
+    {
+      "id": 137153,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Leonardo",
+        "last": "da Vinci",
+        "full": "Leonardo da Vinci",
+        "native": "レオナルド・ダ・ヴィンチ",
+        "userPreferred": "Leonardo da Vinci"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b137153-z1OAHznRE0rq.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 172548,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Kiyohime",
+        "last": null,
+        "full": "Kiyohime",
+        "native": "清姫",
+        "userPreferred": "Kiyohime"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b172548-lHhjiIPXQjFZ.png",
+      "voiceActors": []
+    },
+    {
+      "id": 198020,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Goredolf ",
+        "last": "Musik",
+        "full": "Goredolf  Musik",
+        "native": "ゴルドルフ・ムジーク",
+        "userPreferred": "Goredolf  Musik"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b198020-4Z3w9ogb0I5q.png",
+      "voiceActors": []
+    }
+  ],
+  "relations": [
+    {
+      "id": 127149,
+      "relationType": "CHARACTER",
+      "malId": 44248,
+      "title": {
+        "romaji": "Fate/Grand Carnival",
+        "english": "Fate/Grand Carnival",
+        "native": "Fate/Grand Carnival",
+        "userPreferred": "Fate/Grand Carnival"
+      },
+      "status": "Completed",
+      "episodes": 4,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx127149-7dzvudxMb9ep.jpg",
+      "color": "#ffa11a",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/127149-GM94EEdeNcWh.jpg",
+      "rating": 76
+    },
+    {
+      "id": 116756,
+      "relationType": "PREQUEL",
+      "malId": 41497,
+      "title": {
+        "romaji": "Fate/Grand Order: Shuukyoku Tokuiten - Kani Jikan Shinden Solomon",
+        "english": "Fate/Grand Order Final Singularity - Grand Temple of Time: Solomon",
+        "native": "Fate/Grand Order -終局特異点 冠位時間神殿ソロモン-",
+        "userPreferred": "Fate/Grand Order: Shuukyoku Tokuiten - Kani Jikan Shinden Solomon"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116756-jIU2HrnEsDjR.jpg",
+      "color": "#e49335",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/116756-Bb7BkeRMTpaP.jpg",
+      "rating": 77
+    }
+  ],
+  "episodes": [
+    {
+      "id": "fategrand-order-moonlightlostroom-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100728-rChlxr9tE5qx.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//fategrand-order-moonlightlostroom-episode-1"
+    }
+  ]
+}

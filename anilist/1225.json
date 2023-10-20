@@ -1,0 +1,443 @@
+{
+  "id": "1225",
+  "title": {
+    "romaji": "3x3 EYES Seima Densetsu",
+    "english": "3x3 Eyes: Legend of the Divine Demon",
+    "native": "3×3 EYES聖魔伝説"
+  },
+  "malId": 1225,
+  "synonyms": [
+    "Shin 3x3 Eyes",
+    "Sazan Eyes: Seima Densetsu"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1225-FXHCKAknHdG7.png",
+  "popularity": 2327,
+  "color": "#e4e45d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1225-FXHCKAknHdG7.png",
+  "description": "Yakumo has trained and searched for 4 years, following Pai's mysterious dissapearance. However, when he finally finds her, not all is well as her memory seems to be gone. They attempt to return her memory by going to the Holy Land, birthplace of the immortal race of Sanjiyans. <br>",
+  "status": "Completed",
+  "releaseDate": 1995,
+  "startDate": {
+    "year": 1995,
+    "month": 7,
+    "day": 25
+  },
+  "endDate": {
+    "year": 1996,
+    "month": 6,
+    "day": 25
+  },
+  "totalEpisodes": 3,
+  "currentEpisode": 3,
+  "rating": 64,
+  "duration": 45,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy",
+    "Horror",
+    "Romance"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Studio Junio"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 107201,
+      "malId": 39017,
+      "title": {
+        "romaji": "Kyokou Suiri",
+        "english": "In/Spectre",
+        "native": "虚構推理",
+        "userPreferred": "Kyokou Suiri"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107201-XwayV7vVveFS.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/107201-XZHSg0HdC9kR.jpg",
+      "rating": 68,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 5492,
+      "role": "MAIN",
+      "name": {
+        "first": "Pai",
+        "last": "Ayanokoji",
+        "full": "Pai Ayanokoji",
+        "native": "アヤノコジパイ",
+        "userPreferred": "Pai Ayanokoji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5492-IzB7ey67A3kW.png",
+      "voiceActors": [
+        {
+          "id": 95014,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Hayashibara",
+            "full": "Megumi Hayashibara",
+            "native": "林原めぐみ",
+            "userPreferred": "Megumi Hayashibara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95014-VqxNuufY94V3.png"
+        },
+        {
+          "id": 96006,
+          "language": "English",
+          "name": {
+            "first": "Rebecca",
+            "last": "Forstadt",
+            "full": "Rebecca Forstadt",
+            "native": null,
+            "userPreferred": "Rebecca Forstadt"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1006.jpg"
+        },
+        {
+          "id": 141324,
+          "language": "English",
+          "name": {
+            "first": "Brigitte",
+            "last": "Bako",
+            "full": "Brigitte Bako",
+            "native": null,
+            "userPreferred": "Brigitte Bako"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n141324-1OX9lDN11bAd.jpg"
+        },
+        {
+          "id": 104886,
+          "language": "French",
+          "name": {
+            "first": "Nathalie",
+            "last": "Bienaime",
+            "full": "Nathalie Bienaime",
+            "native": null,
+            "userPreferred": "Nathalie Bienaime"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104886-E7gDTPBtLRoa.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7160,
+      "role": "MAIN",
+      "name": {
+        "first": "Yakumo",
+        "last": "Fujii",
+        "full": "Yakumo Fujii",
+        "native": "藤井八雲",
+        "userPreferred": "Yakumo Fujii"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7160-1tnovf7lvNLF.png",
+      "voiceActors": [
+        {
+          "id": 95427,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouji",
+            "last": "Tsujitani",
+            "full": "Kouji Tsujitani",
+            "native": "辻谷耕史",
+            "userPreferred": "Kouji Tsujitani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95427-g0bwNKDLlROd.png"
+        },
+        {
+          "id": 95952,
+          "language": "English",
+          "name": {
+            "first": "Eddie",
+            "last": "Frierson",
+            "full": "Eddie Frierson",
+            "native": null,
+            "userPreferred": "Eddie Frierson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/952.jpg"
+        },
+        {
+          "id": 141326,
+          "language": "English",
+          "name": {
+            "first": "Christian",
+            "last": "Campbell",
+            "full": "Christian Campbell",
+            "native": null,
+            "userPreferred": "Christian Campbell"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n141326-7xkUUnfOSSFh.jpg"
+        },
+        {
+          "id": 104882,
+          "language": "French",
+          "name": {
+            "first": "Benjamin",
+            "last": "Pascal",
+            "full": "Benjamin Pascal",
+            "native": null,
+            "userPreferred": "Benjamin Pascal"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9882.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14075,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Benares",
+        "last": null,
+        "full": "Benares",
+        "native": "ベナレス",
+        "userPreferred": "Benares"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b14075-a44kVLGG3ybT.jpg",
+      "voiceActors": [
+        {
+          "id": 95146,
+          "language": "Japanese",
+          "name": {
+            "first": "Akio",
+            "last": "Ootsuka",
+            "full": "Akio Ootsuka",
+            "native": "大塚明夫",
+            "userPreferred": "Akio Ootsuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95146-T6IEmqXW3xUN.jpg"
+        },
+        {
+          "id": 95232,
+          "language": "English",
+          "name": {
+            "first": "Kirk",
+            "last": "Thornton",
+            "full": "Kirk Thornton",
+            "native": null,
+            "userPreferred": "Kirk Thornton"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/232.jpg"
+        },
+        {
+          "id": 141327,
+          "language": "English",
+          "name": {
+            "first": "Earl",
+            "last": "Boen",
+            "full": "Earl Boen",
+            "native": null,
+            "userPreferred": "Earl Boen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n141327-6nQwrCH6hyUB.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16922,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Parvati",
+        "last": "IV",
+        "full": "Parvati IV",
+        "native": null,
+        "userPreferred": "Parvati IV"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16922.jpg",
+      "voiceActors": [
+        {
+          "id": 95014,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Hayashibara",
+            "full": "Megumi Hayashibara",
+            "native": "林原めぐみ",
+            "userPreferred": "Megumi Hayashibara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95014-VqxNuufY94V3.png"
+        },
+        {
+          "id": 95036,
+          "language": "English",
+          "name": {
+            "first": "Wendee",
+            "last": "Lee",
+            "full": "Wendee Lee",
+            "native": null,
+            "userPreferred": "Wendee Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95036-UkyIYVtEhoPk.png"
+        },
+        {
+          "id": 110831,
+          "language": "English",
+          "name": {
+            "first": "Alexandra",
+            "last": "Kenworthy",
+            "full": "Alexandra Kenworthy",
+            "native": null,
+            "userPreferred": "Alexandra Kenworthy"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15831.jpg"
+        },
+        {
+          "id": 141324,
+          "language": "English",
+          "name": {
+            "first": "Brigitte",
+            "last": "Bako",
+            "full": "Brigitte Bako",
+            "native": null,
+            "userPreferred": "Brigitte Bako"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n141324-1OX9lDN11bAd.jpg"
+        }
+      ]
+    },
+    {
+      "id": 133430,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jake",
+        "last": "McDonald",
+        "full": "Jake McDonald",
+        "native": "ジェイク・マクドナルド",
+        "userPreferred": "Jake McDonald"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n133430-PPbHoi5yiayz.jpg",
+      "voiceActors": [
+        {
+          "id": 95337,
+          "language": "Japanese",
+          "name": {
+            "first": "Houchuu",
+            "last": "Ootsuka",
+            "full": "Houchuu Ootsuka",
+            "native": "大塚芳忠",
+            "userPreferred": "Houchuu Ootsuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95337-NnvEQEBKV2dR.jpg"
+        },
+        {
+          "id": 95012,
+          "language": "English",
+          "name": {
+            "first": "Steven",
+            "last": "Blum",
+            "full": "Steven Blum",
+            "native": null,
+            "userPreferred": "Steven Blum"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95012-jnlK6VyCTf9P.png"
+        },
+        {
+          "id": 152282,
+          "language": "English",
+          "name": {
+            "first": "Gregg",
+            "last": "Rainwater",
+            "full": "Gregg Rainwater",
+            "native": null,
+            "userPreferred": "Gregg Rainwater"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n152282-LFI5lC8iWtG7.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36185,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tinzin",
+        "last": null,
+        "full": "Tinzin",
+        "native": null,
+        "userPreferred": "Tinzin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 104012,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryuuji",
+            "last": "Saikachi",
+            "full": "Ryuuji Saikachi",
+            "native": "槐柳二",
+            "userPreferred": "Ryuuji Saikachi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9012.jpg"
+        },
+        {
+          "id": 95012,
+          "language": "English",
+          "name": {
+            "first": "Steven",
+            "last": "Blum",
+            "full": "Steven Blum",
+            "native": null,
+            "userPreferred": "Steven Blum"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95012-jnlK6VyCTf9P.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 300,
+      "relationType": "PREQUEL",
+      "malId": 300,
+      "title": {
+        "romaji": "3x3 EYES",
+        "english": "3x3 Eyes",
+        "native": "3×3EYES",
+        "userPreferred": "3x3 EYES"
+      },
+      "status": "Completed",
+      "episodes": 4,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx300-s0fnKC5q0EU4.png",
+      "color": null,
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/300-owekp2LasH10.jpg",
+      "rating": 62
+    }
+  ],
+  "episodes": [
+    {
+      "id": "3x3-eyes-seima-densetsu-episode-1",
+      "title": "Descent",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1225-FXHCKAknHdG7.png",
+      "number": 1,
+      "createdAt": "2013-02-20T18:22:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//3x3-eyes-seima-densetsu-episode-1"
+    },
+    {
+      "id": "3x3-eyes-seima-densetsu-episode-2",
+      "title": "The Key",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1225-FXHCKAknHdG7.png",
+      "number": 2,
+      "createdAt": "2013-02-20T18:22:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//3x3-eyes-seima-densetsu-episode-2"
+    },
+    {
+      "id": "3x3-eyes-seima-densetsu-episode-3",
+      "title": "The Return",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1225-FXHCKAknHdG7.png",
+      "number": 3,
+      "createdAt": "2013-02-20T18:22:23Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//3x3-eyes-seima-densetsu-episode-3"
+    }
+  ]
+}

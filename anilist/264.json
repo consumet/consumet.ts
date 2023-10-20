@@ -1,0 +1,714 @@
+{
+  "id": "264",
+  "title": {
+    "romaji": "Hajime no Ippo: Champion Road",
+    "english": "Hajime no Ippo: The Fighting! - Champion Road",
+    "native": "はじめの一歩 -Champion Road-"
+  },
+  "malId": 264,
+  "synonyms": [
+    "The First Step - Champion Road"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx264-YQJiFF9LDiUr.png",
+  "popularity": 22516,
+  "color": "#e4bb50",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx264-YQJiFF9LDiUr.png",
+  "description": "As the new Champion, Ippo must protect his title against some of the best boxers available.<br><br>\nMakunouchi Ippo is the new Featherweight champion of Japan and is now ready for his first title defense. His opponent, the former Jr. Featherweight champion and a medical student, Sanada Kazuki. In addition to this feud, Sanada is being coached by Kamogawa's former rival, Hama Dankichi. What makes things worse is that Sanada works at the same hospital where Kumi is a nurse at and everybody at the hospital wants Sanada to win. Not only does Ippo have to defend his title, he has to reclaim his love.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2003,
+  "startDate": {
+    "year": 2003,
+    "month": 4,
+    "day": 18
+  },
+  "endDate": {
+    "year": 2003,
+    "month": 4,
+    "day": 18
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 80,
+  "duration": 90,
+  "genres": [
+    "Comedy",
+    "Sports"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "MADHOUSE"
+  ],
+  "subOrDub": "sub",
+  "type": "SPECIAL",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 16460,
+      "role": "MAIN",
+      "name": {
+        "first": "Kazuki",
+        "last": "Sanada",
+        "full": "Kazuki Sanada",
+        "native": "真田 一機",
+        "userPreferred": "Kazuki Sanada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/16460.jpg",
+      "voiceActors": [
+        {
+          "id": 95011,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouichi",
+            "last": "Yamadera",
+            "full": "Kouichi Yamadera",
+            "native": "山寺宏一",
+            "userPreferred": "Kouichi Yamadera"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95011-2RfLzncNyvbR.png"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "role": "MAIN",
+      "name": {
+        "first": "Ippo",
+        "last": "Makunouchi",
+        "full": "Ippo Makunouchi",
+        "native": "幕之内一歩",
+        "userPreferred": "Ippo Makunouchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b15-AAj73hDX9bor.jpg",
+      "voiceActors": [
+        {
+          "id": 95619,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouhei",
+            "last": "Kiyasu",
+            "full": "Kouhei Kiyasu",
+            "native": "喜安浩平",
+            "userPreferred": "Kouhei Kiyasu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/619.jpg"
+        },
+        {
+          "id": 95281,
+          "language": "English",
+          "name": {
+            "first": "Steve",
+            "last": "Staley",
+            "full": "Steve Staley",
+            "native": null,
+            "userPreferred": "Steve Staley"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95281-pM54mfq6s7F8.jpg"
+        }
+      ]
+    },
+    {
+      "id": 845,
+      "role": "MAIN",
+      "name": {
+        "first": "Mamoru",
+        "last": "Takamura",
+        "full": "Mamoru Takamura",
+        "native": "鷹村守",
+        "userPreferred": "Mamoru Takamura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b845-yzHSqt8WpnO5.png",
+      "voiceActors": [
+        {
+          "id": 95113,
+          "language": "Japanese",
+          "name": {
+            "first": "Rikiya",
+            "last": "Koyama",
+            "full": "Rikiya Koyama",
+            "native": "小山力也",
+            "userPreferred": "Rikiya Koyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95113-z9eyYjTKSTX4.png"
+        },
+        {
+          "id": 95952,
+          "language": "English",
+          "name": {
+            "first": "Eddie",
+            "last": "Frierson",
+            "full": "Eddie Frierson",
+            "native": null,
+            "userPreferred": "Eddie Frierson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/952.jpg"
+        }
+      ]
+    },
+    {
+      "id": 83533,
+      "role": "MAIN",
+      "name": {
+        "first": "Dankichi",
+        "last": "Hama",
+        "full": "Dankichi Hama",
+        "native": "浜 団吉",
+        "userPreferred": "Dankichi Hama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/83533.jpg",
+      "voiceActors": [
+        {
+          "id": 96036,
+          "language": "Japanese",
+          "name": {
+            "first": "Seizou",
+            "last": "Katou",
+            "full": "Seizou Katou",
+            "native": "加藤精三",
+            "userPreferred": "Seizou Katou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96036-i2L5KwYbS8KR.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10156,
+      "role": "MAIN",
+      "name": {
+        "first": "Genji",
+        "last": "Kamogawa",
+        "full": "Genji Kamogawa",
+        "native": "鴨川源二",
+        "userPreferred": "Genji Kamogawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b10156-um8cGNzGHxW5.png",
+      "voiceActors": [
+        {
+          "id": 95138,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenji",
+            "last": "Utsumi",
+            "full": "Kenji Utsumi",
+            "native": "内海賢二",
+            "userPreferred": "Kenji Utsumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95138-0iK7jnkuJb6o.png"
+        },
+        {
+          "id": 95352,
+          "language": "English",
+          "name": {
+            "first": "Richard",
+            "last": "Epcar",
+            "full": "Richard Epcar",
+            "native": null,
+            "userPreferred": "Richard Epcar"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95352-kin2JggyOwqx.png"
+        }
+      ]
+    },
+    {
+      "id": 4110,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ichirou",
+        "last": "Miyata",
+        "full": "Ichirou Miyata",
+        "native": "宮田一郎",
+        "userPreferred": "Ichirou Miyata"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4110-DpRhFgHxH3YQ.png",
+      "voiceActors": [
+        {
+          "id": 95001,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Seki",
+            "full": "Tomokazu Seki",
+            "native": "関智一",
+            "userPreferred": "Tomokazu Seki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95001-vm0RtZhmlzhK.png"
+        },
+        {
+          "id": 108863,
+          "language": "English",
+          "name": {
+            "first": "Jason",
+            "last": "Palmer",
+            "full": "Jason Palmer",
+            "native": null,
+            "userPreferred": "Jason Palmer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/13863.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1821,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Takeshi",
+        "last": "Sendo",
+        "full": "Takeshi Sendo",
+        "native": "千堂 武士",
+        "userPreferred": "Takeshi Sendo"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/1821.jpg",
+      "voiceActors": [
+        {
+          "id": 95173,
+          "language": "Japanese",
+          "name": {
+            "first": "Masaya",
+            "last": "Onosaka",
+            "full": "Masaya Onosaka",
+            "native": "小野坂昌也",
+            "userPreferred": "Masaya Onosaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95173-LIuN04REF5eA.png"
+        },
+        {
+          "id": 96547,
+          "language": "English",
+          "name": {
+            "first": "Doug",
+            "last": "Erholtz",
+            "full": "Doug Erholtz",
+            "native": null,
+            "userPreferred": "Doug Erholtz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96547-AH4pebJhH8yY.png"
+        }
+      ]
+    },
+    {
+      "id": 36881,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hiroko",
+        "last": "Makunouchi",
+        "full": "Hiroko Makunouchi",
+        "native": "幕之内 寛子",
+        "userPreferred": "Hiroko Makunouchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/36881.jpg",
+      "voiceActors": [
+        {
+          "id": 106027,
+          "language": "Japanese",
+          "name": {
+            "first": "Yorie",
+            "last": "Terauchi",
+            "full": "Yorie Terauchi",
+            "native": "寺内よりえ",
+            "userPreferred": "Yorie Terauchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/11027.jpg"
+        },
+        {
+          "id": 109691,
+          "language": "English",
+          "name": {
+            "first": "Joan-Carol",
+            "last": "O'Connell",
+            "full": "Joan-Carol O'Connell",
+            "native": null,
+            "userPreferred": "Joan-Carol O'Connell"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14691.jpg"
+        }
+      ]
+    },
+    {
+      "id": 30130,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jikkyou Announcer",
+        "last": null,
+        "full": "Jikkyou Announcer",
+        "native": "実況アナウンサー",
+        "userPreferred": "Jikkyou Announcer"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/30130.jpg",
+      "voiceActors": [
+        {
+          "id": 96580,
+          "language": "Japanese",
+          "name": {
+            "first": "Jin",
+            "last": "Horikawa",
+            "full": "Jin Horikawa",
+            "native": "仁堀川",
+            "userPreferred": "Jin Horikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1580.jpg"
+        },
+        {
+          "id": 95232,
+          "language": "English",
+          "name": {
+            "first": "Kirk",
+            "last": "Thornton",
+            "full": "Kirk Thornton",
+            "native": null,
+            "userPreferred": "Kirk Thornton"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/232.jpg"
+        }
+      ]
+    },
+    {
+      "id": 847,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tatsuya",
+        "last": "Kimura",
+        "full": "Tatsuya Kimura",
+        "native": "木村達也",
+        "userPreferred": "Tatsuya Kimura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b847-Rp9l5vkXT79E.jpg",
+      "voiceActors": [
+        {
+          "id": 95063,
+          "language": "Japanese",
+          "name": {
+            "first": "Keiji",
+            "last": "Fujiwara",
+            "full": "Keiji Fujiwara",
+            "native": "藤原啓治",
+            "userPreferred": "Keiji Fujiwara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95063-xAsEUzspuLMG.jpg"
+        },
+        {
+          "id": 96072,
+          "language": "English",
+          "name": {
+            "first": "Grant",
+            "last": "George",
+            "full": "Grant George",
+            "native": null,
+            "userPreferred": "Grant George"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1072.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12796,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Masahiko",
+        "last": "Umezawa",
+        "full": "Masahiko Umezawa",
+        "native": "梅沢 正彦",
+        "userPreferred": "Masahiko Umezawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12796.jpg",
+      "voiceActors": [
+        {
+          "id": 95394,
+          "language": "Japanese",
+          "name": {
+            "first": "Mitsuaki",
+            "last": "Madono",
+            "full": "Mitsuaki Madono",
+            "native": "真殿光昭",
+            "userPreferred": "Mitsuaki Madono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95394-BMiqrbgY0gIp.jpg"
+        },
+        {
+          "id": 95232,
+          "language": "English",
+          "name": {
+            "first": "Kirk",
+            "last": "Thornton",
+            "full": "Kirk Thornton",
+            "native": null,
+            "userPreferred": "Kirk Thornton"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/232.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19267,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mari",
+        "last": "Iimura",
+        "full": "Mari Iimura",
+        "native": "飯村 真理",
+        "userPreferred": "Mari Iimura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b19267-Pkb07ZiIlqWS.jpg",
+      "voiceActors": [
+        {
+          "id": 95085,
+          "language": "English",
+          "name": {
+            "first": "Michelle",
+            "last": "Ruff",
+            "full": "Michelle Ruff",
+            "native": null,
+            "userPreferred": "Michelle Ruff"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95085-zJmU0x2NLr3j.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1817,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ryo",
+        "last": "Mashiba",
+        "full": "Ryo Mashiba",
+        "native": "間柴 了",
+        "userPreferred": "Ryo Mashiba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1817-zHq0XMkq9ETg.jpg",
+      "voiceActors": [
+        {
+          "id": 96414,
+          "language": "Japanese",
+          "name": {
+            "first": "Masahiko",
+            "last": "Tanaka",
+            "full": "Masahiko Tanaka",
+            "native": "田中正彦",
+            "userPreferred": "Masahiko Tanaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96414-0dvcgzJwFZO4.png"
+        },
+        {
+          "id": 95321,
+          "language": "English",
+          "name": {
+            "first": "Terrence",
+            "last": "Stone",
+            "full": "Terrence Stone",
+            "native": null,
+            "userPreferred": "Terrence Stone"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95321-OHD0RmMYGh71.jpg"
+        }
+      ]
+    },
+    {
+      "id": 846,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Masaru",
+        "last": "Aoki",
+        "full": "Masaru Aoki",
+        "native": "青木勝",
+        "userPreferred": "Masaru Aoki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b846-x62keRQk14p9.jpg",
+      "voiceActors": [
+        {
+          "id": 95133,
+          "language": "Japanese",
+          "name": {
+            "first": "Wataru",
+            "last": "Takagi",
+            "full": "Wataru Takagi",
+            "native": "高木渉",
+            "userPreferred": "Wataru Takagi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95133-cqDtu078voZ1.png"
+        },
+        {
+          "id": 95693,
+          "language": "English",
+          "name": {
+            "first": "Stephen",
+            "last": "Apostolina",
+            "full": "Stephen Apostolina",
+            "native": null,
+            "userPreferred": "Stephen Apostolina"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95693-2l5Gl1TdnBIS.png"
+        }
+      ]
+    },
+    {
+      "id": 36885,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Minoru",
+        "last": "Fujii",
+        "full": "Minoru Fujii",
+        "native": "藤井 稔",
+        "userPreferred": "Minoru Fujii"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/36885.jpg",
+      "voiceActors": [
+        {
+          "id": 96173,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenichi",
+            "last": "Ono",
+            "full": "Kenichi Ono",
+            "native": "小野健一",
+            "userPreferred": "Kenichi Ono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1173.jpg"
+        },
+        {
+          "id": 105565,
+          "language": "English",
+          "name": {
+            "first": "Joe",
+            "last": "Cappelletti",
+            "full": "Joe Cappelletti",
+            "native": null,
+            "userPreferred": "Joe Cappelletti"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105565-SUZzeAuPNJ4o.jpg"
+        }
+      ]
+    },
+    {
+      "id": 1818,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kumi",
+        "last": "Mashiba",
+        "full": "Kumi Mashiba",
+        "native": "間柴久美",
+        "userPreferred": "Kumi Mashiba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1818-9NwFptwpyihp.jpg",
+      "voiceActors": [
+        {
+          "id": 95149,
+          "language": "Japanese",
+          "name": {
+            "first": "Sanae",
+            "last": "Kobayashi",
+            "full": "Sanae Kobayashi",
+            "native": "小林沙苗",
+            "userPreferred": "Sanae Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95149-xNDmN92Feq8y.png"
+        },
+        {
+          "id": 95396,
+          "language": "English",
+          "name": {
+            "first": "Stephanie",
+            "last": "Sheh",
+            "full": "Stephanie Sheh",
+            "native": null,
+            "userPreferred": "Stephanie Sheh"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95396-tNpkTyDD9Y1g.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15978,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Haruhiko",
+        "last": "Yagi",
+        "full": "Haruhiko Yagi",
+        "native": "八木晴彦",
+        "userPreferred": "Haruhiko Yagi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15978.jpg",
+      "voiceActors": [
+        {
+          "id": 96562,
+          "language": "English",
+          "name": {
+            "first": "Paul",
+            "last": "St. Peter",
+            "full": "Paul St. Peter",
+            "native": null,
+            "userPreferred": "Paul St. Peter"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96562-2ycAuMOiEUGX.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 263,
+      "relationType": "PREQUEL",
+      "malId": 263,
+      "title": {
+        "romaji": "Hajime no Ippo: THE FIGHTING!",
+        "english": "Hajime no Ippo: The Fighting!",
+        "native": "はじめの一歩 THE FIGHTING!",
+        "userPreferred": "Hajime no Ippo: THE FIGHTING!"
+      },
+      "status": "Completed",
+      "episodes": 75,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx263-G7RlubsM73YY.png",
+      "color": "#f1935d",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/263-8Zejtdb3r2bI.jpg",
+      "rating": 86
+    },
+    {
+      "id": 265,
+      "relationType": "SEQUEL",
+      "malId": 265,
+      "title": {
+        "romaji": "Hajime no Ippo: Mashiba vs Kimura - Shikei Shikkou",
+        "english": "Hajime no Ippo: The Fighting! - Mashiba vs Kimura",
+        "native": "はじめの一歩 間柴vs木村 死刑執行",
+        "userPreferred": "Hajime no Ippo: Mashiba vs Kimura - Shikei Shikkou"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx265-6H1q2JBs7tB7.jpg",
+      "color": "#e44350",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx265-6H1q2JBs7tB7.jpg",
+      "rating": 81
+    },
+    {
+      "id": 30007,
+      "relationType": "ADAPTATION",
+      "malId": 7,
+      "title": {
+        "romaji": "Hajime no Ippo",
+        "english": "Hajime no Ippo: The Fighting!",
+        "native": "はじめの一歩",
+        "userPreferred": "Hajime no Ippo"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx30007-jVUNk721L0Uz.jpg",
+      "color": "#e49350",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/30007-lPJnvyj6zJvD.jpg",
+      "rating": 87
+    }
+  ],
+  "episodes": [
+    {
+      "id": "hajime-no-ippo-champion-road-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx264-YQJiFF9LDiUr.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//hajime-no-ippo-champion-road-episode-1"
+    }
+  ]
+}

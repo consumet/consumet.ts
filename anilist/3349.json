@@ -1,0 +1,974 @@
+{
+  "id": "3349",
+  "title": {
+    "romaji": "Kiddy GiRL-AND",
+    "english": null,
+    "native": "キディ・ガーランド"
+  },
+  "malId": 3349,
+  "synonyms": [
+    "Kiddy Grade 2"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3349-3LDC3MSexlf4.png",
+  "popularity": 2673,
+  "color": "#e4506b",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3349-3LDC3MSexlf4.png",
+  "description": "Twenty-five years after &Eacute;clair and Lumi&egrave;re, (from the flagship Kiddy Grade series), rescued the galaxy from destruction's doorstep, the GTO (Galactic Trade Organization), created after the defeat of the GOTT (Galactic Organization of Trade and Tariffs), act on behalf of universal peace by combating criminal activity.<br><br>\nTheir special ES division mirrored after the GOTT's ES (Encounter of Shadow-work) force, now includes publicly acknowledged ES member candidates. The series follows two such trainees, Ascoeur and Q-feuille, as they work their way to ES membership.<br><br>\n(Source: Wikipedia)",
+  "status": "Completed",
+  "releaseDate": 2009,
+  "startDate": {
+    "year": 2009,
+    "month": 10,
+    "day": 16
+  },
+  "endDate": {
+    "year": 2010,
+    "month": 3,
+    "day": 26
+  },
+  "totalEpisodes": 24,
+  "currentEpisode": 24,
+  "rating": 61,
+  "duration": 25,
+  "genres": [
+    "Action",
+    "Comedy",
+    "Sci-Fi"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Satelight"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 6098,
+      "role": "MAIN",
+      "name": {
+        "first": "Ascoeur",
+        "last": null,
+        "full": "Ascoeur",
+        "native": "アスクール",
+        "userPreferred": "Ascoeur"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6098.jpg",
+      "voiceActors": [
+        {
+          "id": 103921,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Uchida",
+            "full": "Aya Uchida",
+            "native": "内田彩",
+            "userPreferred": "Aya Uchida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n103921-bnSaJsF0jgH1.png"
+        }
+      ]
+    },
+    {
+      "id": 6097,
+      "role": "MAIN",
+      "name": {
+        "first": "Q-feuille",
+        "last": null,
+        "full": "Q-feuille",
+        "native": "ク･フィーユ",
+        "userPreferred": "Q-feuille"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/6097.jpg",
+      "voiceActors": [
+        {
+          "id": 103929,
+          "language": "Japanese",
+          "name": {
+            "first": "Chiharu",
+            "last": "Kitaoka",
+            "full": "Chiharu Kitaoka",
+            "native": "喜多丘千陽",
+            "userPreferred": "Chiharu Kitaoka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8929.jpg"
+        }
+      ]
+    },
+    {
+      "id": 27663,
+      "role": "MAIN",
+      "name": {
+        "first": "Di-air",
+        "last": null,
+        "full": "Di-air",
+        "native": "ディア",
+        "userPreferred": "Di-air"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/27663.jpg",
+      "voiceActors": [
+        {
+          "id": 104147,
+          "language": "Japanese",
+          "name": {
+            "first": "Yumeha",
+            "last": "Kouda",
+            "full": "Yumeha Kouda",
+            "native": "幸田夢波",
+            "userPreferred": "Yumeha Kouda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9147.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2662,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lumière",
+        "last": null,
+        "full": "Lumière",
+        "native": "リュミエール",
+        "userPreferred": "Lumière"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2662.jpg",
+      "voiceActors": [
+        {
+          "id": 95004,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Hirano",
+            "full": "Aya Hirano",
+            "native": "平野綾",
+            "userPreferred": "Aya Hirano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95004-qWQQHGzY3wqr.png"
+        }
+      ]
+    },
+    {
+      "id": 28767,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Troisienne",
+        "last": null,
+        "full": "Troisienne",
+        "native": "トロワジェイン",
+        "userPreferred": "Troisienne"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28767.jpg",
+      "voiceActors": [
+        {
+          "id": 95140,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukana",
+            "last": "",
+            "full": "Yukana",
+            "native": "ゆかな",
+            "userPreferred": "Yukana"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95140-sFp0uedEmZ9f.png"
+        }
+      ]
+    },
+    {
+      "id": 25640,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Alisa",
+        "last": null,
+        "full": "Alisa",
+        "native": "アリサ",
+        "userPreferred": "Alisa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/25640.jpg",
+      "voiceActors": [
+        {
+          "id": 95581,
+          "language": "Japanese",
+          "name": {
+            "first": "Mai",
+            "last": "Aizawa",
+            "full": "Mai Aizawa",
+            "native": "相沢舞",
+            "userPreferred": "Mai Aizawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95581-gWE4vp0f75q0.png"
+        }
+      ]
+    },
+    {
+      "id": 29415,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rubis",
+        "last": null,
+        "full": "Rubis",
+        "native": "リュビス",
+        "userPreferred": "Rubis"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29415.jpg",
+      "voiceActors": [
+        {
+          "id": 104862,
+          "language": "Japanese",
+          "name": {
+            "first": "Fuko",
+            "last": "Saito",
+            "full": "Fuko Saito",
+            "native": "斎藤楓子",
+            "userPreferred": "Fuko Saito"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9862.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17162,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Un-ou",
+        "last": null,
+        "full": "Un-ou",
+        "native": "アンオウ",
+        "userPreferred": "Un-ou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17162.jpg",
+      "voiceActors": [
+        {
+          "id": 95017,
+          "language": "Japanese",
+          "name": {
+            "first": "Akira",
+            "last": "Ishida",
+            "full": "Akira Ishida",
+            "native": "石田彰",
+            "userPreferred": "Akira Ishida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95017-GSRcmQ97a8ZT.png"
+        }
+      ]
+    },
+    {
+      "id": 2661,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Éclair",
+        "last": null,
+        "full": "Éclair",
+        "native": "エクレール",
+        "userPreferred": "Éclair"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2661.jpg",
+      "voiceActors": [
+        {
+          "id": 95154,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouko",
+            "last": "Nagata",
+            "full": "Ryouko Nagata",
+            "native": "永田亮子",
+            "userPreferred": "Ryouko Nagata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/154.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28448,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Pauk",
+        "last": null,
+        "full": "Pauk",
+        "native": "パウーク",
+        "userPreferred": "Pauk"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28448.jpg",
+      "voiceActors": [
+        {
+          "id": 95630,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Matsumoto",
+            "full": "Megumi Matsumoto",
+            "native": "松元惠",
+            "userPreferred": "Megumi Matsumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/630.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28447,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Letuchie",
+        "last": null,
+        "full": "Letuchie",
+        "native": "リトゥーシャ",
+        "userPreferred": "Letuchie"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28447.jpg",
+      "voiceActors": [
+        {
+          "id": 95056,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiromi",
+            "last": "Konno",
+            "full": "Hiromi Konno",
+            "native": "今野宏美",
+            "userPreferred": "Hiromi Konno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95056-QAsT1PIBuIh3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 25641,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hiver",
+        "last": null,
+        "full": "Hiver",
+        "native": "イヴェール",
+        "userPreferred": "Hiver"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/25641.jpg",
+      "voiceActors": [
+        {
+          "id": 95156,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaori",
+            "last": "Mizuhashi",
+            "full": "Kaori Mizuhashi",
+            "native": "水橋かおり",
+            "userPreferred": "Kaori Mizuhashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95156-7tw0zP396ecG.png"
+        }
+      ]
+    },
+    {
+      "id": 29412,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Core",
+        "last": null,
+        "full": "Core",
+        "native": "コア",
+        "userPreferred": "Core"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 101268,
+          "language": "Japanese",
+          "name": {
+            "first": "Mami",
+            "last": "Kosuge",
+            "full": "Mami Kosuge",
+            "native": "真美 小菅",
+            "userPreferred": "Mami Kosuge"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6268.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28391,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Trixie",
+        "last": null,
+        "full": "Trixie",
+        "native": "トリクシー",
+        "userPreferred": "Trixie"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28391.jpg",
+      "voiceActors": [
+        {
+          "id": 95073,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuki",
+            "last": "Matsuoka",
+            "full": "Yuki Matsuoka",
+            "native": "松岡由貴",
+            "userPreferred": "Yuki Matsuoka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95073-HIjUyhssrxGs.png"
+        }
+      ]
+    },
+    {
+      "id": 28449,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shade",
+        "last": null,
+        "full": "Shade",
+        "native": "シェイド",
+        "userPreferred": "Shade"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28449.jpg",
+      "voiceActors": [
+        {
+          "id": 95157,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobuo",
+            "last": "Tobita",
+            "full": "Nobuo Tobita",
+            "native": "飛田展男",
+            "userPreferred": "Nobuo Tobita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95157-td6WhlGehuDJ.png"
+        }
+      ]
+    },
+    {
+      "id": 27883,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "T.A.M.A",
+        "last": null,
+        "full": "T.A.M.A",
+        "native": "タマ",
+        "userPreferred": "T.A.M.A"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/27883.jpg",
+      "voiceActors": [
+        {
+          "id": 95084,
+          "language": "Japanese",
+          "name": {
+            "first": "Norio",
+            "last": "Wakamoto",
+            "full": "Norio Wakamoto",
+            "native": "若本規夫",
+            "userPreferred": "Norio Wakamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95084-RTrZSU38POPF.png"
+        }
+      ]
+    },
+    {
+      "id": 29413,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Geacht'er",
+        "last": null,
+        "full": "Geacht'er",
+        "native": "ガクトエル",
+        "userPreferred": "Geacht'er"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29413.jpg",
+      "voiceActors": [
+        {
+          "id": 95245,
+          "language": "Japanese",
+          "name": {
+            "first": "Satoshi",
+            "last": "Hino",
+            "full": "Satoshi Hino",
+            "native": "日野聡",
+            "userPreferred": "Satoshi Hino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95245-prBoWpg0HaGX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2666,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tweedledum",
+        "last": null,
+        "full": "Tweedledum",
+        "native": "トゥイードゥルダム",
+        "userPreferred": "Tweedledum"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2666.jpg",
+      "voiceActors": [
+        {
+          "id": 95086,
+          "language": "Japanese",
+          "name": {
+            "first": "Jun",
+            "last": "Fukuyama",
+            "full": "Jun Fukuyama",
+            "native": "福山潤",
+            "userPreferred": "Jun Fukuyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95086-cwKYmhOFNtH5.png"
+        }
+      ]
+    },
+    {
+      "id": 25643,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mi Nourose",
+        "last": null,
+        "full": "Mi Nourose",
+        "native": "ミ･ヌゥルーズ",
+        "userPreferred": "Mi Nourose"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/25643.jpg",
+      "voiceActors": [
+        {
+          "id": 95261,
+          "language": "Japanese",
+          "name": {
+            "first": "Minoru",
+            "last": "Shiraishi",
+            "full": "Minoru Shiraishi",
+            "native": "白石稔",
+            "userPreferred": "Minoru Shiraishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95261-nWwWGChb84Yo.png"
+        }
+      ]
+    },
+    {
+      "id": 28450,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Torch",
+        "last": null,
+        "full": "Torch",
+        "native": "トーチ",
+        "userPreferred": "Torch"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/28450.jpg",
+      "voiceActors": [
+        {
+          "id": 95123,
+          "language": "Japanese",
+          "name": {
+            "first": "Kazuya",
+            "last": "Nakai",
+            "full": "Kazuya Nakai",
+            "native": "中井和哉",
+            "userPreferred": "Kazuya Nakai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95123-qdVFNraYmQ5K.png"
+        }
+      ]
+    },
+    {
+      "id": 20605,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "A-ou",
+        "last": null,
+        "full": "A-ou",
+        "native": "エイオウ",
+        "userPreferred": "A-ou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20605.jpg",
+      "voiceActors": [
+        {
+          "id": 95395,
+          "language": "Japanese",
+          "name": {
+            "first": "Tetsu",
+            "last": "Inada",
+            "full": "Tetsu Inada",
+            "native": "稲田徹",
+            "userPreferred": "Tetsu Inada"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95395-HpxLuh4ysrzJ.png"
+        }
+      ]
+    },
+    {
+      "id": 25642,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sommer",
+        "last": null,
+        "full": "Sommer",
+        "native": "ゾマ",
+        "userPreferred": "Sommer"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/25642.jpg",
+      "voiceActors": [
+        {
+          "id": 104148,
+          "language": "Japanese",
+          "name": {
+            "first": "Itsuki",
+            "last": "Takizawa",
+            "full": "Itsuki Takizawa",
+            "native": "樹 瀧澤",
+            "userPreferred": "Itsuki Takizawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9148.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2665,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tweedledee",
+        "last": null,
+        "full": "Tweedledee",
+        "native": "トゥイードゥルディ",
+        "userPreferred": "Tweedledee"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2665.jpg",
+      "voiceActors": [
+        {
+          "id": 95136,
+          "language": "Japanese",
+          "name": {
+            "first": "Natsuko",
+            "last": "Kuwatani",
+            "full": "Natsuko Kuwatani",
+            "native": "桑谷夏子",
+            "userPreferred": "Natsuko Kuwatani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95136-8dAGkiwq7Htk.png"
+        }
+      ]
+    },
+    {
+      "id": 29414,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Saphir",
+        "last": null,
+        "full": "Saphir",
+        "native": "サフィル",
+        "userPreferred": "Saphir"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29414.jpg",
+      "voiceActors": [
+        {
+          "id": 95579,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaoru",
+            "last": "Mizuhara",
+            "full": "Kaoru Mizuhara",
+            "native": "水原薫",
+            "userPreferred": "Kaoru Mizuhara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95579-5ZsNx7VamyqG.png"
+        }
+      ]
+    },
+    {
+      "id": 25639,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Belle",
+        "last": null,
+        "full": "Belle",
+        "native": "ベル",
+        "userPreferred": "Belle"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/25639.jpg",
+      "voiceActors": [
+        {
+          "id": 104149,
+          "language": "Japanese",
+          "name": {
+            "first": "Chika",
+            "last": "Horikawa",
+            "full": "Chika Horikawa",
+            "native": "千華 堀川",
+            "userPreferred": "Chika Horikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9149.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 274,
+      "relationType": "PREQUEL",
+      "malId": 274,
+      "title": {
+        "romaji": "Kiddy Grade",
+        "english": "Kiddy Grade",
+        "native": "キディ・グレイド",
+        "userPreferred": "Kiddy Grade"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx274-pFKbRi3Tg6PH.png",
+      "color": "#e45086",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/274-BOt3ZOGjn3zw.jpg",
+      "rating": 67
+    },
+    {
+      "id": 5859,
+      "relationType": "PREQUEL",
+      "malId": 5859,
+      "title": {
+        "romaji": "Kiddy GiRL-AND Pilot",
+        "english": null,
+        "native": null,
+        "userPreferred": "Kiddy GiRL-AND Pilot"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5859-XQTRY8jGC8xx.png",
+      "color": "#284378",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5859-XQTRY8jGC8xx.png",
+      "rating": 62
+    },
+    {
+      "id": 42884,
+      "relationType": "ADAPTATION",
+      "malId": 12884,
+      "title": {
+        "romaji": "Kiddy GiRL-AND Pure",
+        "english": null,
+        "native": "キディ・ガーランド ぴゅあ",
+        "userPreferred": "Kiddy GiRL-AND Pure"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx42884-HrkCKQ0rPA0Y.png",
+      "color": "#d6e45d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx42884-HrkCKQ0rPA0Y.png",
+      "rating": 75
+    }
+  ],
+  "episodes": [
+    {
+      "id": "kiddy-girl-and-episode-1",
+      "title": "Lucky Item",
+      "image": "https://media.kitsu.io/episodes/thumbnails/49831/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:24:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kiddy-girl-and-episode-1"
+    },
+    {
+      "id": "kiddy-girl-and-episode-2",
+      "title": "Sweet, trap",
+      "image": "https://media.kitsu.io/episodes/thumbnails/49832/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:24:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kiddy-girl-and-episode-2"
+    },
+    {
+      "id": "kiddy-girl-and-episode-3",
+      "title": "The Worst Compatibility?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/49833/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:24:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kiddy-girl-and-episode-3"
+    },
+    {
+      "id": "kiddy-girl-and-episode-4",
+      "title": "Babysitting Special Duty",
+      "image": "https://media.kitsu.io/episodes/thumbnails/49834/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:24:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kiddy-girl-and-episode-4"
+    },
+    {
+      "id": "kiddy-girl-and-episode-5",
+      "title": "Ghost of the GOTT",
+      "image": "https://media.kitsu.io/episodes/thumbnails/49835/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:24:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kiddy-girl-and-episode-5"
+    },
+    {
+      "id": "kiddy-girl-and-episode-6",
+      "title": "Suspicion of the Bureau Chief's office",
+      "image": "https://media.kitsu.io/episodes/thumbnails/49836/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:24:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kiddy-girl-and-episode-6"
+    },
+    {
+      "id": "kiddy-girl-and-episode-7",
+      "title": "The two we admire",
+      "image": "https://media.kitsu.io/episodes/thumbnails/49837/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:24:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kiddy-girl-and-episode-7"
+    },
+    {
+      "id": "kiddy-girl-and-episode-8",
+      "title": "G-Society",
+      "image": "https://media.kitsu.io/episodes/thumbnails/49838/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:24:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kiddy-girl-and-episode-8"
+    },
+    {
+      "id": "kiddy-girl-and-episode-9",
+      "title": "Memorial Ceremony",
+      "image": "https://media.kitsu.io/episodes/thumbnails/49839/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:24:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kiddy-girl-and-episode-9"
+    },
+    {
+      "id": "kiddy-girl-and-episode-10",
+      "title": "The 2 who lived",
+      "image": "https://media.kitsu.io/episodes/thumbnails/49840/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:24:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kiddy-girl-and-episode-10"
+    },
+    {
+      "id": "kiddy-girl-and-episode-11",
+      "title": "Shadow Worker",
+      "image": "https://media.kitsu.io/episodes/thumbnails/49841/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:24:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kiddy-girl-and-episode-11"
+    },
+    {
+      "id": "kiddy-girl-and-episode-12",
+      "title": "The Space Frozen in Time",
+      "image": "https://media.kitsu.io/episodes/thumbnails/49842/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:24:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kiddy-girl-and-episode-12"
+    },
+    {
+      "id": "kiddy-girl-and-episode-13",
+      "title": "Vacation²",
+      "image": "https://media.kitsu.io/episodes/thumbnails/49843/original.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:24:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kiddy-girl-and-episode-13"
+    },
+    {
+      "id": "kiddy-girl-and-episode-14",
+      "title": "Moment of Encounter",
+      "image": "https://media.kitsu.io/episodes/thumbnails/49844/original.jpg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:24:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kiddy-girl-and-episode-14"
+    },
+    {
+      "id": "kiddy-girl-and-episode-15",
+      "title": "A Bad Dream",
+      "image": "https://media.kitsu.io/episodes/thumbnails/49845/original.jpg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:24:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kiddy-girl-and-episode-15"
+    },
+    {
+      "id": "kiddy-girl-and-episode-16",
+      "title": "Cold Tears",
+      "image": "https://media.kitsu.io/episodes/thumbnails/49846/original.jpg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:24:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kiddy-girl-and-episode-16"
+    },
+    {
+      "id": "kiddy-girl-and-episode-17",
+      "title": "Unknown Name",
+      "image": "https://media.kitsu.io/episodes/thumbnails/49847/original.jpg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:24:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kiddy-girl-and-episode-17"
+    },
+    {
+      "id": "kiddy-girl-and-episode-18",
+      "title": "Sister Princess",
+      "image": "https://media.kitsu.io/episodes/thumbnails/49848/original.jpg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:24:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kiddy-girl-and-episode-18"
+    },
+    {
+      "id": "kiddy-girl-and-episode-19",
+      "title": "Partner",
+      "image": "https://media.kitsu.io/episodes/thumbnails/49849/original.jpg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:24:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kiddy-girl-and-episode-19"
+    },
+    {
+      "id": "kiddy-girl-and-episode-20",
+      "title": "The Real Me",
+      "image": "https://media.kitsu.io/episodes/thumbnails/49850/original.jpg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:24:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kiddy-girl-and-episode-20"
+    },
+    {
+      "id": "kiddy-girl-and-episode-21",
+      "title": "Reviving Memories",
+      "image": "https://media.kitsu.io/episodes/thumbnails/49851/original.jpg",
+      "number": 21,
+      "createdAt": "2013-02-20T18:24:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kiddy-girl-and-episode-21"
+    },
+    {
+      "id": "kiddy-girl-and-episode-22",
+      "title": "Time That Starts Flowing",
+      "image": "https://media.kitsu.io/episodes/thumbnails/49852/original.jpg",
+      "number": 22,
+      "createdAt": "2013-02-20T18:24:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kiddy-girl-and-episode-22"
+    },
+    {
+      "id": "kiddy-girl-and-episode-23",
+      "title": "Unstoppable Thoughts",
+      "image": "https://media.kitsu.io/episodes/thumbnails/49853/original.jpg",
+      "number": 23,
+      "createdAt": "2013-02-20T18:24:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kiddy-girl-and-episode-23"
+    },
+    {
+      "id": "kiddy-girl-and-episode-24",
+      "title": "Forever Together!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/49854/original.jpg",
+      "number": 24,
+      "createdAt": "2013-02-20T18:24:52Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//kiddy-girl-and-episode-24"
+    }
+  ]
+}

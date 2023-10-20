@@ -1,0 +1,1830 @@
+{
+  "id": "21220",
+  "title": {
+    "romaji": "BORUTO: NARUTO THE MOVIE",
+    "english": "Boruto: Naruto the Movie",
+    "native": "BORUTO -NARUTO THE MOVIE-"
+  },
+  "malId": 28755,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21220-3cWAUtR1Ih5h.jpg",
+  "popularity": 75595,
+  "color": "#e46b50",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21220-tdeNPd6YFzIo.jpg",
+  "description": "Boruto is the son of Naruto who completely rejects his father. Behind this, he has feelings of wanting to surpass Naruto, who is respected as a hero. He ends up meeting his father's friend Sasuke, and requests to become... his apprentice!? The curtain rises on the story of the new generation written by Masashi Kishimoto!<br>\n<br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2015,
+  "startDate": {
+    "year": 2015,
+    "month": 8,
+    "day": 7
+  },
+  "endDate": {
+    "year": 2015,
+    "month": 8,
+    "day": 7
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 71,
+  "duration": 95,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Comedy"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "Studio Pierrot"
+  ],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [
+    {
+      "id": 16870,
+      "malId": 16870,
+      "title": {
+        "romaji": "THE LAST: NARUTO THE MOVIE",
+        "english": "The Last: Naruto the Movie",
+        "native": "THE LAST -NARUTO THE MOVIE-",
+        "userPreferred": "THE LAST: NARUTO THE MOVIE"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16870-Wg0XQKHcwV1r.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16870-xz6KbaGC0jas.jpg",
+      "rating": 75,
+      "type": "MOVIE"
+    },
+    {
+      "id": 1686,
+      "malId": 1686,
+      "title": {
+        "romaji": "BLEACH: MEMORIES OF NOBODY",
+        "english": "Bleach the Movie: Memories of Nobody",
+        "native": "BLEACH MEMORIES OF NOBODY",
+        "userPreferred": "BLEACH: MEMORIES OF NOBODY"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1686-oZQepxP4SRQ2.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n1686-dYv44wJMzT4t.jpg",
+      "rating": 70,
+      "type": "MOVIE"
+    },
+    {
+      "id": 100721,
+      "malId": 35072,
+      "title": {
+        "romaji": "BORUTO: Jump Festa 2016 Special",
+        "english": "Boruto: Jump Festa 2016 Special",
+        "native": "BORUTOジャンプフェスタ 2016",
+        "userPreferred": "BORUTO: Jump Festa 2016 Special"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/100721-46LfyRVclD8k.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/100721-46LfyRVclD8k.jpg",
+      "rating": 56,
+      "type": "SPECIAL"
+    },
+    {
+      "id": 155348,
+      "malId": 53236,
+      "title": {
+        "romaji": "ROAD OF NARUTO",
+        "english": null,
+        "native": "ROAD OF NARUTO",
+        "userPreferred": "ROAD OF NARUTO"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx155348-4ipji8SvTjyh.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/155348-I6f4TQKslVx2.jpg",
+      "rating": 83,
+      "type": "SPECIAL"
+    },
+    {
+      "id": 103140,
+      "malId": 29597,
+      "title": {
+        "romaji": "Hana",
+        "english": null,
+        "native": "花",
+        "userPreferred": "Hana"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/103140-CoF1FmPrTFXv.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/103140-CoF1FmPrTFXv.jpg",
+      "rating": 35,
+      "type": "MOVIE"
+    }
+  ],
+  "characters": [
+    {
+      "id": 121439,
+      "role": "MAIN",
+      "name": {
+        "first": "Boruto",
+        "last": "Uzumaki",
+        "full": "Boruto Uzumaki",
+        "native": "うずまきボルト",
+        "userPreferred": "Boruto Uzumaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b121439-iQhKwYau18dK.jpg",
+      "voiceActors": [
+        {
+          "id": 95407,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Sanpei",
+            "full": "Yuuko Sanpei",
+            "native": "三瓶由布子",
+            "userPreferred": "Yuuko Sanpei"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95407-u8MV6kcAJNV6.png"
+        },
+        {
+          "id": 182195,
+          "language": "Spanish",
+          "name": {
+            "first": "Karen",
+            "last": "Vallejo",
+            "full": "Karen Vallejo",
+            "native": "Karen Alicia Vallejo Servín",
+            "userPreferred": "Karen Vallejo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n182195-fZkA9KYKJN51.png"
+        },
+        {
+          "id": 185888,
+          "language": "Portuguese",
+          "name": {
+            "first": "Ma",
+            "last": "Zink",
+            "full": "Ma Zink",
+            "native": null,
+            "userPreferred": "Ma Zink"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n185888-oSOPvwG9FS4o.jpg"
+        },
+        {
+          "id": 141772,
+          "language": "German",
+          "name": {
+            "first": "Daniel",
+            "last": "Kirchberger",
+            "full": "Daniel Kirchberger",
+            "native": null,
+            "userPreferred": "Daniel Kirchberger"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 163264,
+          "language": "Chinese",
+          "name": {
+            "first": "Xin",
+            "last": "Shan",
+            "full": "Xin Shan",
+            "native": "山新",
+            "userPreferred": "Xin Shan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n163264-uAqkdQmp7QwE.png"
+        }
+      ]
+    },
+    {
+      "id": 121440,
+      "role": "MAIN",
+      "name": {
+        "first": "Sarada",
+        "last": "Uchiha",
+        "full": "Sarada Uchiha",
+        "native": "うちはサラダ",
+        "userPreferred": "Sarada Uchiha"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b121440-ahwbJAyQaS9P.png",
+      "voiceActors": [
+        {
+          "id": 96172,
+          "language": "Japanese",
+          "name": {
+            "first": "Kokoro",
+            "last": "Kikuchi",
+            "full": "Kokoro Kikuchi",
+            "native": "菊池こころ",
+            "userPreferred": "Kokoro Kikuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96172-dgERUIzNtAoG.png"
+        },
+        {
+          "id": 189430,
+          "language": "Spanish",
+          "name": {
+            "first": "Azul",
+            "last": "Valadez",
+            "full": "Azul Valadez",
+            "native": "Azucena Valadez Romero",
+            "userPreferred": "Azul Valadez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n189430-Mkuq464GJSnL.jpg"
+        },
+        {
+          "id": 179915,
+          "language": "Portuguese",
+          "name": {
+            "first": "Luiza",
+            "last": "Porto",
+            "full": "Luiza Porto",
+            "native": "Luíza Porto",
+            "userPreferred": "Luiza Porto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n179915-qK1JBDP2bcG9.jpg"
+        },
+        {
+          "id": 145357,
+          "language": "German",
+          "name": {
+            "first": "Selina",
+            "last": "Böttcher",
+            "full": "Selina Böttcher",
+            "native": null,
+            "userPreferred": "Selina Böttcher"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 174197,
+          "language": "Chinese",
+          "name": {
+            "first": "Xinzhu",
+            "last": "Tong",
+            "full": "Xinzhu Tong",
+            "native": "佟心竹",
+            "userPreferred": "Xinzhu Tong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n174197-DHEHKCvz0eUo.png"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "role": "MAIN",
+      "name": {
+        "first": "Naruto",
+        "last": "Uzumaki",
+        "full": "Naruto Uzumaki",
+        "native": "うずまきナルト",
+        "userPreferred": "Naruto Uzumaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b17-IazKGogQwJ1p.png",
+      "voiceActors": [
+        {
+          "id": 95015,
+          "language": "Japanese",
+          "name": {
+            "first": "Junko",
+            "last": "Takeuchi",
+            "full": "Junko Takeuchi",
+            "native": "竹内順子",
+            "userPreferred": "Junko Takeuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95015-QwI9K4FRe4Cq.png"
+        },
+        {
+          "id": 96686,
+          "language": "Spanish",
+          "name": {
+            "first": "Isabel",
+            "last": "Martiñón",
+            "full": "Isabel Martiñón",
+            "native": null,
+            "userPreferred": "Isabel Martiñón"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1686.jpg"
+        },
+        {
+          "id": 103241,
+          "language": "Portuguese",
+          "name": {
+            "first": "Úrsula",
+            "last": "Bezerra",
+            "full": "Úrsula Bezerra",
+            "native": null,
+            "userPreferred": "Úrsula Bezerra"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8241.jpg"
+        },
+        {
+          "id": 140229,
+          "language": "German",
+          "name": {
+            "first": "Henning",
+            "last": "Nöhren",
+            "full": "Henning Nöhren",
+            "native": null,
+            "userPreferred": "Henning Nöhren"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n140229-n8EtiiIO93ei.png"
+        },
+        {
+          "id": 163165,
+          "language": "Chinese",
+          "name": {
+            "first": "Tengxin",
+            "last": "",
+            "full": "Tengxin",
+            "native": "藤新",
+            "userPreferred": "Tengxin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n163165-M71Ui3wUubzz.png"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "role": "MAIN",
+      "name": {
+        "first": "Sasuke",
+        "last": "Uchiha",
+        "full": "Sasuke Uchiha",
+        "native": "うちはサスケ",
+        "userPreferred": "Sasuke Uchiha"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b13-SISLEw1oAD7a.png",
+      "voiceActors": [
+        {
+          "id": 95016,
+          "language": "Japanese",
+          "name": {
+            "first": "Noriaki",
+            "last": "Sugiyama",
+            "full": "Noriaki Sugiyama",
+            "native": "杉山紀彰",
+            "userPreferred": "Noriaki Sugiyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95016-03m7lAUZBMDv.png"
+        },
+        {
+          "id": 102694,
+          "language": "Spanish",
+          "name": {
+            "first": "Víctor",
+            "last": "Ugarte",
+            "full": "Víctor Ugarte",
+            "native": "Víctor Ugarte Fonseca",
+            "userPreferred": "Víctor Ugarte"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102694-xWqlc4cFqipg.jpg"
+        },
+        {
+          "id": 100141,
+          "language": "Portuguese",
+          "name": {
+            "first": "Robson",
+            "last": "Kumode",
+            "full": "Robson Kumode",
+            "native": null,
+            "userPreferred": "Robson Kumode"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100141-pmhoTwGILWzB.jpg"
+        },
+        {
+          "id": 102002,
+          "language": "German",
+          "name": {
+            "first": "Jannik",
+            "last": "Endemann",
+            "full": "Jannik Endemann",
+            "native": null,
+            "userPreferred": "Jannik Endemann"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102002-3Xk1bkO1hWkN.png"
+        },
+        {
+          "id": 217579,
+          "language": "Chinese",
+          "name": {
+            "first": "Zhenji",
+            "last": "Huang",
+            "full": "Zhenji Huang",
+            "native": "皇贞季",
+            "userPreferred": "Zhenji Huang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n217579-QKtCvwQVNGIt.png"
+        }
+      ]
+    },
+    {
+      "id": 23476,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Darui",
+        "last": null,
+        "full": "Darui",
+        "native": "ダルイ",
+        "userPreferred": "Darui"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/23476.jpg",
+      "voiceActors": [
+        {
+          "id": 107615,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouta",
+            "last": "Takeuchi",
+            "full": "Ryouta Takeuchi",
+            "native": "竹内良太",
+            "userPreferred": "Ryouta Takeuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107615-e4FrG8jtyQKY.png"
+        },
+        {
+          "id": 184397,
+          "language": "Spanish",
+          "name": {
+            "first": "Octavio",
+            "last": "Rojas",
+            "full": "Octavio Rojas",
+            "native": null,
+            "userPreferred": "Octavio Rojas"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n184397-AVFS6OxXj0aI.jpg"
+        },
+        {
+          "id": 177125,
+          "language": "Portuguese",
+          "name": {
+            "first": "Francisco",
+            "last": "Junior",
+            "full": "Francisco Junior",
+            "native": "Francisco Júnior",
+            "userPreferred": "Francisco Junior"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n177125-bfwA5g2AW0oX.jpg"
+        },
+        {
+          "id": 145354,
+          "language": "German",
+          "name": {
+            "first": "Tobias",
+            "last": "Diakow",
+            "full": "Tobias Diakow",
+            "native": null,
+            "userPreferred": "Tobias Diakow"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n145354-NY6nhor4E4zB.png"
+        },
+        {
+          "id": 218617,
+          "language": "Chinese",
+          "name": {
+            "first": "Kaixin",
+            "last": "Xing",
+            "full": "Kaixin Xing",
+            "native": "邢凯新",
+            "userPreferred": "Kaixin Xing"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n218617-sGXfrlqZEYgW.png"
+        }
+      ]
+    },
+    {
+      "id": 23474,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kurotsuchi",
+        "last": null,
+        "full": "Kurotsuchi",
+        "native": "黒ツチ",
+        "userPreferred": "Kurotsuchi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b23474-A2jtQe3eCGYF.jpg",
+      "voiceActors": [
+        {
+          "id": 95587,
+          "language": "Japanese",
+          "name": {
+            "first": "Hana",
+            "last": "Takeda",
+            "full": "Hana Takeda",
+            "native": "武田華",
+            "userPreferred": "Hana Takeda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95587-LQv7Cj8rOueO.png"
+        },
+        {
+          "id": 95587,
+          "language": "Japanese",
+          "name": {
+            "first": "Hana",
+            "last": "Takeda",
+            "full": "Hana Takeda",
+            "native": "武田華",
+            "userPreferred": "Hana Takeda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95587-LQv7Cj8rOueO.png"
+        },
+        {
+          "id": 202437,
+          "language": "Spanish",
+          "name": {
+            "first": "Vanessa",
+            "last": "Olea",
+            "full": "Vanessa Olea",
+            "native": null,
+            "userPreferred": "Vanessa Olea"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n202437-kjSAeMjrnaFP.png"
+        },
+        {
+          "id": 184113,
+          "language": "Portuguese",
+          "name": {
+            "first": "Patt",
+            "last": "Souza",
+            "full": "Patt Souza",
+            "native": null,
+            "userPreferred": "Patt Souza"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n184113-CtpoOFeDQe5q.jpg"
+        },
+        {
+          "id": 145355,
+          "language": "German",
+          "name": {
+            "first": "Anna",
+            "last": "Kumosiak",
+            "full": "Anna Kumosiak",
+            "native": null,
+            "userPreferred": "Anna Kumosiak"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n145355-0wBCQykorvIC.png"
+        },
+        {
+          "id": 219265,
+          "language": "Chinese",
+          "name": {
+            "first": "Feifei",
+            "last": "Qiao",
+            "full": "Feifei Qiao",
+            "native": "乔菲菲",
+            "userPreferred": "Feifei Qiao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n219265-wdHafe23qh3Q.png"
+        }
+      ]
+    },
+    {
+      "id": 130419,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tono",
+        "last": "Katasuke",
+        "full": "Tono Katasuke",
+        "native": "遠野カタスケ",
+        "userPreferred": "Tono Katasuke"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b130419-ialDM1UCJABT.png",
+      "voiceActors": [
+        {
+          "id": 106677,
+          "language": "Japanese",
+          "name": {
+            "first": "Taira",
+            "last": "Kikumoto",
+            "full": "Taira Kikumoto",
+            "native": "菊本平",
+            "userPreferred": "Taira Kikumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/11677.jpg"
+        },
+        {
+          "id": 193990,
+          "language": "Spanish",
+          "name": {
+            "first": "Igor",
+            "last": "Cruz",
+            "full": "Igor Cruz",
+            "native": null,
+            "userPreferred": "Igor Cruz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n193990-G3X3vSklX2P9.png"
+        },
+        {
+          "id": 154552,
+          "language": "Portuguese",
+          "name": {
+            "first": "Cesar",
+            "last": "Marchetti",
+            "full": "Cesar Marchetti",
+            "native": "César Marchetti",
+            "userPreferred": "Cesar Marchetti"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n154552-JXRCgweROAlW.jpg"
+        },
+        {
+          "id": 145353,
+          "language": "German",
+          "name": {
+            "first": "Wolfgang",
+            "last": "Berger",
+            "full": "Wolfgang Berger",
+            "native": null,
+            "userPreferred": "Wolfgang Berger"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 228422,
+          "language": "Chinese",
+          "name": {
+            "first": "Zhe",
+            "last": "Chen",
+            "full": "Zhe Chen",
+            "native": "陈喆",
+            "userPreferred": "Zhe Chen"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n228422-1rYO0fcLZxXI.png"
+        }
+      ]
+    },
+    {
+      "id": 145350,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yurui",
+        "last": null,
+        "full": "Yurui",
+        "native": "ユルイ",
+        "userPreferred": "Yurui"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b145350-FmZKCTXyNWVB.jpg",
+      "voiceActors": [
+        {
+          "id": 110877,
+          "language": "Japanese",
+          "name": {
+            "first": "Kengo",
+            "last": "Kawanishi",
+            "full": "Kengo Kawanishi",
+            "native": "河西健吾",
+            "userPreferred": "Kengo Kawanishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n110877-zSEL81OrcDwR.png"
+        }
+      ]
+    },
+    {
+      "id": 1662,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Gaara",
+        "last": null,
+        "full": "Gaara",
+        "native": "我愛羅",
+        "userPreferred": "Gaara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1662-90BUBhf8PHGz.png",
+      "voiceActors": [
+        {
+          "id": 95017,
+          "language": "Japanese",
+          "name": {
+            "first": "Akira",
+            "last": "Ishida",
+            "full": "Akira Ishida",
+            "native": "石田彰",
+            "userPreferred": "Akira Ishida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95017-GSRcmQ97a8ZT.png"
+        },
+        {
+          "id": 102094,
+          "language": "Spanish",
+          "name": {
+            "first": "Eduardo",
+            "last": "Garza",
+            "full": "Eduardo Garza",
+            "native": "José Eduardo Garza Escudero",
+            "userPreferred": "Eduardo Garza"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102094-IK5XCbLdQNrZ.png"
+        },
+        {
+          "id": 106521,
+          "language": "Portuguese",
+          "name": {
+            "first": "Yuri",
+            "last": "Chesman",
+            "full": "Yuri Chesman",
+            "native": "Yuri Chessman da Costa Bomfim",
+            "userPreferred": "Yuri Chesman"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106521-GUVA3QJQyx64.jpg"
+        },
+        {
+          "id": 141768,
+          "language": "German",
+          "name": {
+            "first": "Robert",
+            "last": "Kotulla",
+            "full": "Robert Kotulla",
+            "native": null,
+            "userPreferred": "Robert Kotulla"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n141768-JuDGbugsgMHW.png"
+        },
+        {
+          "id": 188374,
+          "language": "Chinese",
+          "name": {
+            "first": "Lanling",
+            "last": "Li",
+            "full": "Lanling Li",
+            "native": "李兰陵",
+            "userPreferred": "Lanling Li"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188374-kWjAs9h1w4Oi.png"
+        }
+      ]
+    },
+    {
+      "id": 306,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rock",
+        "last": "Lee",
+        "full": "Rock Lee",
+        "native": "リーロック",
+        "userPreferred": "Rock Lee"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b306-oUTOO45xInXt.png",
+      "voiceActors": [
+        {
+          "id": 95143,
+          "language": "Japanese",
+          "name": {
+            "first": "Youichi",
+            "last": "Masukawa",
+            "full": "Youichi Masukawa",
+            "native": "増川洋一",
+            "userPreferred": "Youichi Masukawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/143.jpg"
+        },
+        {
+          "id": 182552,
+          "language": "Spanish",
+          "name": {
+            "first": "Carlos",
+            "last": "Díaz",
+            "full": "Carlos Díaz",
+            "native": null,
+            "userPreferred": "Carlos Díaz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n182552-b3ZjJ7N37HsL.jpg"
+        },
+        {
+          "id": 100133,
+          "language": "Portuguese",
+          "name": {
+            "first": "Thiago",
+            "last": "Keplmair",
+            "full": "Thiago Keplmair",
+            "native": "Thiago Keplermair",
+            "userPreferred": "Thiago Keplmair"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100133-rToxAMM1lpDu.jpg"
+        },
+        {
+          "id": 136566,
+          "language": "German",
+          "name": {
+            "first": "Tim",
+            "last": "Kreuer",
+            "full": "Tim Kreuer",
+            "native": null,
+            "userPreferred": "Tim Kreuer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n136566-IYlc3EJysofH.png"
+        },
+        {
+          "id": 219405,
+          "language": "Chinese",
+          "name": {
+            "first": "Sheng",
+            "last": "Guo",
+            "full": "Sheng Guo",
+            "native": "郭盛",
+            "userPreferred": "Sheng Guo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n219405-lrDqLPfY8M4T.png"
+        }
+      ]
+    },
+    {
+      "id": 33854,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yurui",
+        "last": "",
+        "full": "Yurui",
+        "native": "ユルイ",
+        "userPreferred": "Yurui"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b33854-5C1fl1dcOsYv.jpg",
+      "voiceActors": [
+        {
+          "id": 110877,
+          "language": "Japanese",
+          "name": {
+            "first": "Kengo",
+            "last": "Kawanishi",
+            "full": "Kengo Kawanishi",
+            "native": "河西健吾",
+            "userPreferred": "Kengo Kawanishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n110877-zSEL81OrcDwR.png"
+        },
+        {
+          "id": 184301,
+          "language": "Spanish",
+          "name": {
+            "first": "Oliver",
+            "last": "Díaz",
+            "full": "Oliver Díaz",
+            "native": null,
+            "userPreferred": "Oliver Díaz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n184301-vbfTwBcD7ZfF.jpg"
+        },
+        {
+          "id": 116937,
+          "language": "Portuguese",
+          "name": {
+            "first": "Alex",
+            "last": "Minei",
+            "full": "Alex Minei",
+            "native": null,
+            "userPreferred": "Alex Minei"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/21937.jpg"
+        }
+      ]
+    },
+    {
+      "id": 23418,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chojuro",
+        "last": null,
+        "full": "Chojuro",
+        "native": "長十郎",
+        "userPreferred": "Chojuro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/23418.jpg",
+      "voiceActors": [
+        {
+          "id": 95344,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouki",
+            "last": "Miyata",
+            "full": "Kouki Miyata",
+            "native": "宮田幸季",
+            "userPreferred": "Kouki Miyata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95344-wYgLhxYeWEp4.jpg"
+        },
+        {
+          "id": 190006,
+          "language": "Spanish",
+          "name": {
+            "first": "Ferso",
+            "last": "Velázquez",
+            "full": "Ferso Velázquez",
+            "native": "José Fernando Velázquez Soto",
+            "userPreferred": "Ferso Velázquez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n190006-i5uXMXkiiReH.jpg"
+        },
+        {
+          "id": 155420,
+          "language": "Portuguese",
+          "name": {
+            "first": "Marco Aurélio",
+            "last": "Campos",
+            "full": "Marco Aurélio Campos",
+            "native": "Marco Aurélio Campos",
+            "userPreferred": "Marco Aurélio Campos"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n155420-6UF8ruASqRiK.jpg"
+        },
+        {
+          "id": 141542,
+          "language": "German",
+          "name": {
+            "first": "Jesse",
+            "last": "Grimm",
+            "full": "Jesse Grimm",
+            "native": null,
+            "userPreferred": "Jesse Grimm"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n141542-LOApJQ6N3bq4.jpg"
+        },
+        {
+          "id": 214164,
+          "language": "Chinese",
+          "name": {
+            "first": "Xiaotan",
+            "last": null,
+            "full": "Xiaotan",
+            "native": "笑谈",
+            "userPreferred": "Xiaotan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n214164-7rvLvnvqVpQw.png"
+        }
+      ]
+    },
+    {
+      "id": 3889,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Konohamaru",
+        "last": "Sarutobi",
+        "full": "Konohamaru Sarutobi",
+        "native": "猿飛木ノ葉丸",
+        "userPreferred": "Konohamaru Sarutobi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n3889-gCUewPsRY2kD.png",
+      "voiceActors": [
+        {
+          "id": 107039,
+          "language": "Japanese",
+          "name": {
+            "first": "Hidenori",
+            "last": "Takahashi",
+            "full": "Hidenori Takahashi",
+            "native": "高橋英則",
+            "userPreferred": "Hidenori Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n107039-V9fnzjlqlixv.png"
+        },
+        {
+          "id": 194015,
+          "language": "Spanish",
+          "name": {
+            "first": "José Antonio",
+            "last": "Toledano",
+            "full": "José Antonio Toledano",
+            "native": "José Antonio Toledano Ayala",
+            "userPreferred": "José Antonio Toledano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n194015-qFEeHMiJNp5L.png"
+        },
+        {
+          "id": 116197,
+          "language": "Portuguese",
+          "name": {
+            "first": "Diego",
+            "last": "Lima",
+            "full": "Diego Lima",
+            "native": "Diego Lima",
+            "userPreferred": "Diego Lima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n116197-MVrQO9RTifP1.png"
+        },
+        {
+          "id": 145352,
+          "language": "German",
+          "name": {
+            "first": "Marco",
+            "last": "Schäffler",
+            "full": "Marco Schäffler",
+            "native": null,
+            "userPreferred": "Marco Schäffler"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 175031,
+          "language": "Chinese",
+          "name": {
+            "first": "Zhongyang",
+            "last": "Baomu",
+            "full": "Zhongyang Baomu",
+            "native": "宝木中阳",
+            "userPreferred": "Zhongyang Baomu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n175031-zsl22ZzSAJiY.png"
+        }
+      ]
+    },
+    {
+      "id": 27218,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Takanami",
+        "last": "Senka",
+        "full": "Takanami Senka",
+        "native": "撰歌高波",
+        "userPreferred": "Takanami Senka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b27218-YkaWXmy2XjMC.jpg",
+      "voiceActors": [
+        {
+          "id": 172200,
+          "language": "Japanese",
+          "name": {
+            "first": "Shou",
+            "last": "Okumura",
+            "full": "Shou Okumura",
+            "native": "奥村翔",
+            "userPreferred": "Shou Okumura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n172200-OTOKA2GqyQxb.jpg"
+        },
+        {
+          "id": 193882,
+          "language": "Portuguese",
+          "name": {
+            "first": "Bruno ",
+            "last": "Camargo",
+            "full": "Bruno  Camargo",
+            "native": null,
+            "userPreferred": "Bruno  Camargo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n193882-mE57TMP0e3bF.png"
+        }
+      ]
+    },
+    {
+      "id": 126154,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shinki",
+        "last": null,
+        "full": "Shinki",
+        "native": "シンキ",
+        "userPreferred": "Shinki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b126154-OXDIMpLeHnlU.jpg",
+      "voiceActors": [
+        {
+          "id": 118498,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuto",
+            "last": "Uemura",
+            "full": "Yuuto Uemura",
+            "native": "上村祐翔",
+            "userPreferred": "Yuuto Uemura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118498-6YvZZS0HM2qD.jpg"
+        },
+        {
+          "id": 254773,
+          "language": "Portuguese",
+          "name": {
+            "first": "Vini",
+            "last": "Estefanuto",
+            "full": "Vini Estefanuto",
+            "native": null,
+            "userPreferred": "Vini Estefanuto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n254773-zSOk1Krv9MgV.png"
+        }
+      ]
+    },
+    {
+      "id": 7407,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kurama",
+        "last": null,
+        "full": "Kurama",
+        "native": "九喇嘛, 九尾の妖狐",
+        "userPreferred": "Kurama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7407-D8MYzhbuy8zu.jpg",
+      "voiceActors": [
+        {
+          "id": 95761,
+          "language": "Japanese",
+          "name": {
+            "first": "Tesshou",
+            "last": "Genda",
+            "full": "Tesshou Genda",
+            "native": "玄田哲章",
+            "userPreferred": "Tesshou Genda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95761-nwndYRCqJxno.png"
+        },
+        {
+          "id": 96462,
+          "language": "Spanish",
+          "name": {
+            "first": "Irwin",
+            "last": "Daayán",
+            "full": "Irwin Daayán",
+            "native": "Irwin Daayán Rosenthal Sarlí",
+            "userPreferred": "Irwin Daayán"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96462-PWlPtfZ1sHX7.png"
+        },
+        {
+          "id": 102974,
+          "language": "Portuguese",
+          "name": {
+            "first": "Wellington",
+            "last": "Lima",
+            "full": "Wellington Lima",
+            "native": null,
+            "userPreferred": "Wellington Lima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102974-PW4xc2DMIK0d.png"
+        },
+        {
+          "id": 145356,
+          "language": "German",
+          "name": {
+            "first": "Reent",
+            "last": "Reins",
+            "full": "Reent Reins",
+            "native": null,
+            "userPreferred": "Reent Reins"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 229407,
+          "language": "Chinese",
+          "name": {
+            "first": "Yunming",
+            "last": "Zhang",
+            "full": "Yunming Zhang",
+            "native": "张云明",
+            "userPreferred": "Yunming Zhang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n229407-WoWngfXa9mYb.png"
+        }
+      ]
+    },
+    {
+      "id": 27219,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Makinami",
+        "last": "Senka",
+        "full": "Makinami Senka",
+        "native": "撰歌巻波",
+        "userPreferred": "Makinami Senka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b27219-sqFX2AjqulVg.jpg",
+      "voiceActors": [
+        {
+          "id": 172200,
+          "language": "Japanese",
+          "name": {
+            "first": "Shou",
+            "last": "Okumura",
+            "full": "Shou Okumura",
+            "native": "奥村翔",
+            "userPreferred": "Shou Okumura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n172200-OTOKA2GqyQxb.jpg"
+        },
+        {
+          "id": 193882,
+          "language": "Portuguese",
+          "name": {
+            "first": "Bruno ",
+            "last": "Camargo",
+            "full": "Bruno  Camargo",
+            "native": null,
+            "userPreferred": "Bruno  Camargo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n193882-mE57TMP0e3bF.png"
+        }
+      ]
+    },
+    {
+      "id": 127027,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Momoshiki",
+        "last": "Ootsutsuki",
+        "full": "Momoshiki Ootsutsuki",
+        "native": "大筒木モモシキ",
+        "userPreferred": "Momoshiki Ootsutsuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/127027-m7MCB7YNuvGe.png",
+      "voiceActors": [
+        {
+          "id": 95087,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Namikawa",
+            "full": "Daisuke Namikawa",
+            "native": "浪川大輔",
+            "userPreferred": "Daisuke Namikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95087-6dlBBbejsPyg.png"
+        },
+        {
+          "id": 184297,
+          "language": "Spanish",
+          "name": {
+            "first": "Jaime Alberto",
+            "last": "Carrillo",
+            "full": "Jaime Alberto Carrillo",
+            "native": null,
+            "userPreferred": "Jaime Alberto Carrillo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n184297-m65ZMwWuO3yT.jpg"
+        },
+        {
+          "id": 100084,
+          "language": "Portuguese",
+          "name": {
+            "first": "Rodrigo",
+            "last": "Andreatto",
+            "full": "Rodrigo Andreatto",
+            "native": null,
+            "userPreferred": "Rodrigo Andreatto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5084.jpg"
+        },
+        {
+          "id": 135850,
+          "language": "German",
+          "name": {
+            "first": "Marios",
+            "last": "Gavrilis",
+            "full": "Marios Gavrilis",
+            "native": null,
+            "userPreferred": "Marios Gavrilis"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n135850-ozr10JLFwKxz.png"
+        },
+        {
+          "id": 188806,
+          "language": "Chinese",
+          "name": {
+            "first": "Yi",
+            "last": "Zhao",
+            "full": "Yi Zhao",
+            "native": "赵毅",
+            "userPreferred": "Yi Zhao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188806-3BrP35ZYTlml.png"
+        }
+      ]
+    },
+    {
+      "id": 1901,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sai",
+        "last": null,
+        "full": "Sai",
+        "native": "サイ",
+        "userPreferred": "Sai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1901-vJRGRONNpaiG.jpg",
+      "voiceActors": [
+        {
+          "id": 95245,
+          "language": "Japanese",
+          "name": {
+            "first": "Satoshi",
+            "last": "Hino",
+            "full": "Satoshi Hino",
+            "native": "日野聡",
+            "userPreferred": "Satoshi Hino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95245-prBoWpg0HaGX.jpg"
+        },
+        {
+          "id": 182216,
+          "language": "Spanish",
+          "name": {
+            "first": "Miguel Ángel",
+            "last": "Leal ",
+            "full": "Miguel Ángel Leal ",
+            "native": null,
+            "userPreferred": "Miguel Ángel Leal "
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n182216-NYnHyG9gPhEw.png"
+        },
+        {
+          "id": 185552,
+          "language": "Portuguese",
+          "name": {
+            "first": "Marcus",
+            "last": "Pejon",
+            "full": "Marcus Pejon",
+            "native": null,
+            "userPreferred": "Marcus Pejon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n185552-GcFdQps4hXrr.jpg"
+        },
+        {
+          "id": 143794,
+          "language": "German",
+          "name": {
+            "first": "Nils",
+            "last": "Rieke",
+            "full": "Nils Rieke",
+            "native": null,
+            "userPreferred": "Nils Rieke"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n143794-L0rt0JGDOuei.png"
+        },
+        {
+          "id": 188395,
+          "language": "Chinese",
+          "name": {
+            "first": "Taikang",
+            "last": "Chenzhang",
+            "full": "Taikang Chenzhang",
+            "native": "陈张太康",
+            "userPreferred": "Taikang Chenzhang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n188395-LCag2XjBhygE.png"
+        }
+      ]
+    },
+    {
+      "id": 27465,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sazanami",
+        "last": "Senka",
+        "full": "Sazanami Senka",
+        "native": "撰歌細波",
+        "userPreferred": "Sazanami Senka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b27465-hDHo4FuinpOT.jpg",
+      "voiceActors": [
+        {
+          "id": 172200,
+          "language": "Japanese",
+          "name": {
+            "first": "Shou",
+            "last": "Okumura",
+            "full": "Shou Okumura",
+            "native": "奥村翔",
+            "userPreferred": "Shou Okumura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n172200-OTOKA2GqyQxb.jpg"
+        },
+        {
+          "id": 193882,
+          "language": "Portuguese",
+          "name": {
+            "first": "Bruno ",
+            "last": "Camargo",
+            "full": "Bruno  Camargo",
+            "native": null,
+            "userPreferred": "Bruno  Camargo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n193882-mE57TMP0e3bF.png"
+        }
+      ]
+    },
+    {
+      "id": 121444,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mitsuki",
+        "last": "",
+        "full": "Mitsuki",
+        "native": "ミツキ",
+        "userPreferred": "Mitsuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b121444-efjlKLZCvGhz.png",
+      "voiceActors": [
+        {
+          "id": 106407,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryuuichi",
+            "last": "Kijima",
+            "full": "Ryuuichi Kijima",
+            "native": "木島隆一",
+            "userPreferred": "Ryuuichi Kijima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106407-wimVpBHnuCFW.png"
+        },
+        {
+          "id": 182199,
+          "language": "Spanish",
+          "name": {
+            "first": "Alan Fernando",
+            "last": "Velázquez",
+            "full": "Alan Fernando Velázquez",
+            "native": null,
+            "userPreferred": "Alan Fernando Velázquez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n182199-jQt3eVObCAfT.png"
+        },
+        {
+          "id": 185307,
+          "language": "Portuguese",
+          "name": {
+            "first": "Lucas",
+            "last": "Gama",
+            "full": "Lucas Gama",
+            "native": null,
+            "userPreferred": "Lucas Gama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n185307-72SiMiLUWKSV.png"
+        },
+        {
+          "id": 139165,
+          "language": "German",
+          "name": {
+            "first": "Janek",
+            "last": "Schächter",
+            "full": "Janek Schächter",
+            "native": null,
+            "userPreferred": "Janek Schächter"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 163267,
+          "language": "Chinese",
+          "name": {
+            "first": "Luofeng",
+            "last": "Xiaohou",
+            "full": "Luofeng Xiaohou",
+            "native": "夏侯落枫",
+            "userPreferred": "Luofeng Xiaohou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n163267-FDLqipiSUr4Y.png"
+        }
+      ]
+    },
+    {
+      "id": 127028,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kinshiki",
+        "last": "Ootsutsuki",
+        "full": "Kinshiki Ootsutsuki",
+        "native": "大筒木 キンシキ",
+        "userPreferred": "Kinshiki Ootsutsuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b127028-zhqCDbCzA6EK.jpg",
+      "voiceActors": [
+        {
+          "id": 95025,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroki",
+            "last": "Yasumoto",
+            "full": "Hiroki Yasumoto",
+            "native": "安元洋貴",
+            "userPreferred": "Hiroki Yasumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95025-LGHr4VufmfCc.jpg"
+        },
+        {
+          "id": 208658,
+          "language": "Spanish",
+          "name": {
+            "first": "Jaime",
+            "last": "Collepardo",
+            "full": "Jaime Collepardo",
+            "native": null,
+            "userPreferred": "Jaime Collepardo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n208658-bTRSp5hLlvNx.png"
+        },
+        {
+          "id": 185760,
+          "language": "Portuguese",
+          "name": {
+            "first": "Zeca",
+            "last": "Rodrigues",
+            "full": "Zeca Rodrigues",
+            "native": null,
+            "userPreferred": "Zeca Rodrigues"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n185760-KtKh2YczhsbA.jpg"
+        },
+        {
+          "id": 145351,
+          "language": "German",
+          "name": {
+            "first": "Kailas",
+            "last": "Mahadevan",
+            "full": "Kailas Mahadevan",
+            "native": null,
+            "userPreferred": "Kailas Mahadevan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n145351-kNarQydSEJ9b.png"
+        },
+        {
+          "id": 163272,
+          "language": "Chinese",
+          "name": {
+            "first": "Hameng",
+            "last": "Tute",
+            "full": "Hameng Tute",
+            "native": "图特哈蒙",
+            "userPreferred": "Hameng Tute"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n163272-zMPUL6ULEbrP.png"
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sakura",
+        "last": "Haruno",
+        "full": "Sakura Haruno",
+        "native": "春野サクラ",
+        "userPreferred": "Sakura Haruno"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b145-IorfpI8arxeX.png",
+      "voiceActors": [
+        {
+          "id": 95300,
+          "language": "Japanese",
+          "name": {
+            "first": "Chie",
+            "last": "Nakamura",
+            "full": "Chie Nakamura",
+            "native": "中村千絵",
+            "userPreferred": "Chie Nakamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95300-84lMPsAHkPP3.png"
+        },
+        {
+          "id": 139013,
+          "language": "Spanish",
+          "name": {
+            "first": "Montserrat",
+            "last": "Aguilar",
+            "full": "Montserrat Aguilar",
+            "native": "Montserrat Alejandra Aguilar Ortiz",
+            "userPreferred": "Montserrat Aguilar"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n139013-G54ZhBGpZqmC.png"
+        },
+        {
+          "id": 96442,
+          "language": "Portuguese",
+          "name": {
+            "first": "Tatiane",
+            "last": "Keplmair",
+            "full": "Tatiane Keplmair",
+            "native": null,
+            "userPreferred": "Tatiane Keplmair"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96442-gv5GmEg0qPEK.jpg"
+        },
+        {
+          "id": 103517,
+          "language": "German",
+          "name": {
+            "first": "Katharina",
+            "last": "von Keller",
+            "full": "Katharina von Keller",
+            "native": null,
+            "userPreferred": "Katharina von Keller"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8517.jpg"
+        },
+        {
+          "id": 228995,
+          "language": "Chinese",
+          "name": {
+            "first": "Shao Yuanyuan",
+            "last": null,
+            "full": "Shao Yuanyuan",
+            "native": "少愿愿",
+            "userPreferred": "Shao Yuanyuan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n228995-81BVbhSbGAd7.png"
+        }
+      ]
+    },
+    {
+      "id": 18473,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Killer Bee",
+        "last": null,
+        "full": "Killer Bee",
+        "native": "キラービー",
+        "userPreferred": "Killer Bee"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b18473-AiI3mk28a1Nm.png",
+      "voiceActors": [
+        {
+          "id": 96481,
+          "language": "Japanese",
+          "name": {
+            "first": "Hisao",
+            "last": "Egawa",
+            "full": "Hisao Egawa",
+            "native": "江川央生",
+            "userPreferred": "Hisao Egawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96481-7houCLOMkp3g.png"
+        },
+        {
+          "id": 222315,
+          "language": "English",
+          "name": {
+            "first": "Catero",
+            "last": "Colbert",
+            "full": "Catero Colbert",
+            "native": null,
+            "userPreferred": "Catero Colbert"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n222315-5Jahq9FZ9rkl.jpg"
+        },
+        {
+          "id": 184122,
+          "language": "Spanish",
+          "name": {
+            "first": "Alberto",
+            "last": "Castillo",
+            "full": "Alberto Castillo",
+            "native": "José Alberto Castillo Peláez",
+            "userPreferred": "Alberto Castillo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n184122-dVttJHWiFnOR.jpg"
+        },
+        {
+          "id": 231431,
+          "language": "Portuguese",
+          "name": {
+            "first": "Gilmar",
+            "last": "Lourenço",
+            "full": "Gilmar Lourenço",
+            "native": null,
+            "userPreferred": "Gilmar Lourenço"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n231431-Eu7iOOX4LdhN.png"
+        }
+      ]
+    },
+    {
+      "id": 121441,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Inojin",
+        "last": "Yamanaka",
+        "full": "Inojin Yamanaka",
+        "native": "山中 いのじん",
+        "userPreferred": "Inojin Yamanaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b121441-75mrucTuKv3D.jpg",
+      "voiceActors": [
+        {
+          "id": 95991,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsushi",
+            "last": "Abe",
+            "full": "Atsushi Abe",
+            "native": "阿部敦",
+            "userPreferred": "Atsushi Abe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95991-4u24gUBgqeTA.jpg"
+        },
+        {
+          "id": 184120,
+          "language": "Spanish",
+          "name": {
+            "first": "Diego",
+            "last": "Becerril",
+            "full": "Diego Becerril",
+            "native": null,
+            "userPreferred": "Diego Becerril"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n184120-eNsy8lrRiqge.png"
+        },
+        {
+          "id": 185759,
+          "language": "Portuguese",
+          "name": {
+            "first": "Vitor",
+            "last": "Mello",
+            "full": "Vitor Mello",
+            "native": null,
+            "userPreferred": "Vitor Mello"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n185759-sAr8HgFg7z8s.jpg"
+        },
+        {
+          "id": 145358,
+          "language": "German",
+          "name": {
+            "first": "Florian",
+            "last": "Marissal",
+            "full": "Florian Marissal",
+            "native": null,
+            "userPreferred": "Florian Marissal"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 163270,
+          "language": "Chinese",
+          "name": {
+            "first": "Dingdang",
+            "last": null,
+            "full": "Dingdang",
+            "native": "叮当",
+            "userPreferred": "Dingdang"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n163270-IOzMSemyjR1P.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 21579,
+      "relationType": "PREQUEL",
+      "malId": 32365,
+      "title": {
+        "romaji": "BORUTO: NARUTO THE MOVIE - Naruto ga Hokage ni Natta Hi",
+        "english": "Boruto: Naruto the Movie - The Day Naruto Became Hokage",
+        "native": "BORUTO -NARUTO THE MOVIE- ナルトが火影になった日",
+        "userPreferred": "BORUTO: NARUTO THE MOVIE - Naruto ga Hokage ni Natta Hi"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21579-AKxouF9BidMD.jpg",
+      "color": "#35aee4",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21579-yXgNYDhYev70.jpg",
+      "rating": 70
+    },
+    {
+      "id": 97938,
+      "relationType": "ALTERNATIVE",
+      "malId": 34566,
+      "title": {
+        "romaji": "BORUTO: NARUTO NEXT GENERATIONS",
+        "english": "Boruto: Naruto Next Generations",
+        "native": "BORUTO-ボルト- NARUTO NEXT GENERATIONS",
+        "userPreferred": "BORUTO: NARUTO NEXT GENERATIONS"
+      },
+      "status": "Completed",
+      "episodes": 293,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97938-BnF6M5yTaNB1.jpg",
+      "color": "#00c9ff",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97938-cT6wkSRifTEC.jpg",
+      "rating": 57
+    },
+    {
+      "id": 95781,
+      "relationType": "ADAPTATION",
+      "malId": 92131,
+      "title": {
+        "romaji": "BORUTO: NARUTO THE MOVIE",
+        "english": null,
+        "native": "BORUTO -NARUTO THE MOVIE-",
+        "userPreferred": "BORUTO: NARUTO THE MOVIE"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx95781-qlfiGbi0ubCa.jpg",
+      "color": "#e48650",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx95781-qlfiGbi0ubCa.jpg",
+      "rating": 71
+    }
+  ],
+  "episodes": [
+    {
+      "id": "boruto-naruto-the-movie-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21220-3cWAUtR1Ih5h.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//boruto-naruto-the-movie-episode-1"
+    }
+  ]
+}

@@ -1,0 +1,896 @@
+{
+  "id": "870",
+  "title": {
+    "romaji": "Dragon Half",
+    "english": null,
+    "native": "ドラゴンハーフ"
+  },
+  "malId": 870,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx870-yGEqk8uKxv2J.jpg",
+  "popularity": 4324,
+  "color": "#e45d35",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n870-ks6pu0ThyGCJ.jpg",
+  "description": "Mink&mdash;the daughter of a dragon and a retired dragonslaying knight&mdash;sets out on a journey to get tickets for a concert held by Dick Saucer, world-famous teen idol and dragon hunter. Meanwhile, the corrupt king of the land is trying to take her hostage to get at her mother, and his magic-using daughter seeks to foil Mink's quest out of sheer spite.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 1993,
+  "startDate": {
+    "year": 1993,
+    "month": 3,
+    "day": 26
+  },
+  "endDate": {
+    "year": 1993,
+    "month": 5,
+    "day": 28
+  },
+  "totalEpisodes": 2,
+  "currentEpisode": 2,
+  "rating": 63,
+  "duration": 26,
+  "genres": [
+    "Comedy",
+    "Fantasy"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Production I.G"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 534,
+      "malId": 534,
+      "title": {
+        "romaji": "Slayers",
+        "english": "The Slayers",
+        "native": "スレイヤーズ",
+        "userPreferred": "Slayers"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx534-3KJsf5SHSJ9N.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/534-NdEKPCbTQqGb.jpg",
+      "rating": 73,
+      "type": "TV"
+    },
+    {
+      "id": 373,
+      "malId": 373,
+      "title": {
+        "romaji": "Bannou Bunka Neko-Musume",
+        "english": "All Purpose Cultural Cat Girl Nuku Nuku",
+        "native": "万能文化猫娘",
+        "userPreferred": "Bannou Bunka Neko-Musume"
+      },
+      "status": "Completed",
+      "episodes": 6,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx373-8EE4GGNMeXhn.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n373-yZAAEXthlFcg.jpg",
+      "rating": 62,
+      "type": "OVA"
+    },
+    {
+      "id": 1630,
+      "malId": 1630,
+      "title": {
+        "romaji": "Elf Princess Rane",
+        "english": null,
+        "native": "妖精姫レーン",
+        "userPreferred": "Elf Princess Rane"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1630-EbOD945uqEaI.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1630-EbOD945uqEaI.jpg",
+      "rating": 53,
+      "type": "OVA"
+    },
+    {
+      "id": 2693,
+      "malId": 2693,
+      "title": {
+        "romaji": "Detatoko Princess",
+        "english": "Suddenly Princess",
+        "native": "でたとこプリンセス",
+        "userPreferred": "Detatoko Princess"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2693-MzGWfukMHca6.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2693-MzGWfukMHca6.jpg",
+      "rating": 55,
+      "type": "OVA"
+    },
+    {
+      "id": 1170,
+      "malId": 1170,
+      "title": {
+        "romaji": "Slayers Special",
+        "english": "Slayers: The Book of Spells",
+        "native": "スレイヤーズすぺしゃる",
+        "userPreferred": "Slayers Special"
+      },
+      "status": "Completed",
+      "episodes": 3,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1170-lx0HlchPLEVa.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1170-lx0HlchPLEVa.png",
+      "rating": 69,
+      "type": "OVA"
+    },
+    {
+      "id": 103,
+      "malId": 103,
+      "title": {
+        "romaji": "Akazukin Chacha",
+        "english": "Red Riding Hood Chacha",
+        "native": "赤ずきんチャチャ",
+        "userPreferred": "Akazukin Chacha"
+      },
+      "status": "Completed",
+      "episodes": 74,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx103-v029gLfcQajN.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n103-dPxprIcIeq1Q.jpg",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 223,
+      "malId": 223,
+      "title": {
+        "romaji": "Dragon Ball",
+        "english": "Dragon Ball",
+        "native": "ドラゴンボール",
+        "userPreferred": "Dragon Ball"
+      },
+      "status": "Completed",
+      "episodes": 153,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx223-Ld6vrSnd081L.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/223-vyRuUBBYfcUb.jpg",
+      "rating": 77,
+      "type": "TV"
+    },
+    {
+      "id": 1940,
+      "malId": 1940,
+      "title": {
+        "romaji": "Outlanders",
+        "english": null,
+        "native": "アウトランダーズ",
+        "userPreferred": "Outlanders"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1940-YnTDiD43H3mI.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1940-Jdithp7ltyBI.jpg",
+      "rating": 53,
+      "type": "OVA"
+    },
+    {
+      "id": 2053,
+      "malId": 2053,
+      "title": {
+        "romaji": "Capricorn",
+        "english": null,
+        "native": "カプリコン",
+        "userPreferred": "Capricorn"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2053.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2053.jpg",
+      "rating": 47,
+      "type": "OVA"
+    },
+    {
+      "id": 918,
+      "malId": 918,
+      "title": {
+        "romaji": "Gintama",
+        "english": "Gintama",
+        "native": "銀魂",
+        "userPreferred": "Gintama"
+      },
+      "status": "Completed",
+      "episodes": 201,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/918-bljqHE1PFArH.jpg",
+      "rating": 85,
+      "type": "TV"
+    },
+    {
+      "id": 2529,
+      "malId": 2529,
+      "title": {
+        "romaji": "Princess Minerva",
+        "english": "Princess Minerva",
+        "native": "プリンセス ミネルバ",
+        "userPreferred": "Princess Minerva"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2529-sFqcEXUl20kc.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2529-sFqcEXUl20kc.jpg",
+      "rating": 50,
+      "type": "OVA"
+    },
+    {
+      "id": 6557,
+      "malId": 6557,
+      "title": {
+        "romaji": "Fortune Quest: Yo ni mo Shiawase na Boukensha-tachi",
+        "english": null,
+        "native": "フォーチュン·クエスト 世にも幸せな冒険者たち",
+        "userPreferred": "Fortune Quest: Yo ni mo Shiawase na Boukensha-tachi"
+      },
+      "status": "Completed",
+      "episodes": 4,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6557-kv7Z2G2oeguW.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6557-kv7Z2G2oeguW.jpg",
+      "rating": 55,
+      "type": "OVA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 14662,
+      "role": "MAIN",
+      "name": {
+        "first": "Mink",
+        "last": null,
+        "full": "Mink",
+        "native": "ミンク",
+        "userPreferred": "Mink"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/14662.jpg",
+      "voiceActors": [
+        {
+          "id": 95009,
+          "language": "Japanese",
+          "name": {
+            "first": "Kotono",
+            "last": "Mitsuishi",
+            "full": "Kotono Mitsuishi",
+            "native": "三石琴乃",
+            "userPreferred": "Kotono Mitsuishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95009-d01Dg8mMwcg6.png"
+        },
+        {
+          "id": 96048,
+          "language": "English",
+          "name": {
+            "first": "Jessica",
+            "last": "Calvello",
+            "full": "Jessica Calvello",
+            "native": null,
+            "userPreferred": "Jessica Calvello"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96048-jnCHXjbHtDMh.jpg"
+        },
+        {
+          "id": 96453,
+          "language": "German",
+          "name": {
+            "first": "Susanne",
+            "last": "Dobrusskin",
+            "full": "Susanne Dobrusskin",
+            "native": null,
+            "userPreferred": "Susanne Dobrusskin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1453.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21419,
+      "role": "MAIN",
+      "name": {
+        "first": "Pia",
+        "last": null,
+        "full": "Pia",
+        "native": null,
+        "userPreferred": "Pia"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21419.jpg",
+      "voiceActors": [
+        {
+          "id": 96410,
+          "language": "Japanese",
+          "name": {
+            "first": "Taeko",
+            "last": "Kawata",
+            "full": "Taeko Kawata",
+            "native": "川田妙子",
+            "userPreferred": "Taeko Kawata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96410-l2Mnnebzk6M1.png"
+        },
+        {
+          "id": 95151,
+          "language": "English",
+          "name": {
+            "first": "Hilary",
+            "last": "Haag",
+            "full": "Hilary Haag",
+            "native": null,
+            "userPreferred": "Hilary Haag"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/151.jpg"
+        },
+        {
+          "id": 185225,
+          "language": "German",
+          "name": {
+            "first": "Mirjam",
+            "last": "Wiesemann",
+            "full": "Mirjam Wiesemann",
+            "native": null,
+            "userPreferred": "Mirjam Wiesemann"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21418,
+      "role": "MAIN",
+      "name": {
+        "first": "Lufa",
+        "last": null,
+        "full": "Lufa",
+        "native": null,
+        "userPreferred": "Lufa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21418.jpg",
+      "voiceActors": [
+        {
+          "id": 95275,
+          "language": "Japanese",
+          "name": {
+            "first": "Mariko",
+            "last": "Kouda",
+            "full": "Mariko Kouda",
+            "native": "國府田マリ子",
+            "userPreferred": "Mariko Kouda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95275-qm6Ep9IcLAv7.png"
+        },
+        {
+          "id": 102618,
+          "language": "English",
+          "name": {
+            "first": "Jennifer K.",
+            "last": "Earhart",
+            "full": "Jennifer K. Earhart",
+            "native": null,
+            "userPreferred": "Jennifer K. Earhart"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 101122,
+          "language": "German",
+          "name": {
+            "first": "Petra",
+            "last": "Glunz-grosch",
+            "full": "Petra Glunz-grosch",
+            "native": null,
+            "userPreferred": "Petra Glunz-grosch"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6122.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15749,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dick",
+        "last": "Saucer",
+        "full": "Dick Saucer",
+        "native": "ディック・ソーサー",
+        "userPreferred": "Dick Saucer"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15749.jpg",
+      "voiceActors": [
+        {
+          "id": 95310,
+          "language": "Japanese",
+          "name": {
+            "first": "Yasunori",
+            "last": "Matsumoto",
+            "full": "Yasunori Matsumoto",
+            "native": "松本保典",
+            "userPreferred": "Yasunori Matsumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95310-n59AcIeJBg9W.png"
+        },
+        {
+          "id": 101312,
+          "language": "English",
+          "name": {
+            "first": "Aaron",
+            "last": "Krohn",
+            "full": "Aaron Krohn",
+            "native": null,
+            "userPreferred": "Aaron Krohn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101312-K9NpIebi7pi6.jpg"
+        },
+        {
+          "id": 185224,
+          "language": "German",
+          "name": {
+            "first": "Jan",
+            "last": "Walravens",
+            "full": "Jan Walravens",
+            "native": null,
+            "userPreferred": "Jan Walravens"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 39853,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rouce the Red Lightning",
+        "last": null,
+        "full": "Rouce the Red Lightning",
+        "native": "ルース",
+        "userPreferred": "Rouce the Red Lightning"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/39853.jpg",
+      "voiceActors": [
+        {
+          "id": 95142,
+          "language": "Japanese",
+          "name": {
+            "first": "Takeshi",
+            "last": "Aono",
+            "full": "Takeshi Aono",
+            "native": "青野武",
+            "userPreferred": "Takeshi Aono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95142-73E1XmGOOmhG.png"
+        },
+        {
+          "id": 96860,
+          "language": "English",
+          "name": {
+            "first": "Rob",
+            "last": "Mungle",
+            "full": "Rob Mungle",
+            "native": null,
+            "userPreferred": "Rob Mungle"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96860-U6glesem35Hn.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15750,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "King Siva",
+        "last": null,
+        "full": "King Siva",
+        "native": null,
+        "userPreferred": "King Siva"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15750.jpg",
+      "voiceActors": [
+        {
+          "id": 95481,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenichi",
+            "last": "Ogata",
+            "full": "Kenichi Ogata",
+            "native": "緒方賢一",
+            "userPreferred": "Kenichi Ogata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95481-1dPQbwMpvjul.png"
+        },
+        {
+          "id": 101626,
+          "language": "English",
+          "name": {
+            "first": "Paul",
+            "last": "Sidello",
+            "full": "Paul Sidello",
+            "native": null,
+            "userPreferred": "Paul Sidello"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101626-hNKZntOVOv0U.png"
+        },
+        {
+          "id": 139138,
+          "language": "German",
+          "name": {
+            "first": "Hans-Gerd",
+            "last": "Kilbinger",
+            "full": "Hans-Gerd Kilbinger",
+            "native": null,
+            "userPreferred": "Hans-Gerd Kilbinger"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n139138-3s9KGBE9YtEc.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21417,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dug Finn",
+        "last": null,
+        "full": "Dug Finn",
+        "native": null,
+        "userPreferred": "Dug Finn"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21417.jpg",
+      "voiceActors": [
+        {
+          "id": 101663,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Urawa",
+            "full": "Megumi Urawa",
+            "native": "浦和めぐみ",
+            "userPreferred": "Megumi Urawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101663-0ioQAduoHX8j.jpg"
+        },
+        {
+          "id": 95145,
+          "language": "English",
+          "name": {
+            "first": "Tiffany",
+            "last": "Grant",
+            "full": "Tiffany Grant",
+            "native": null,
+            "userPreferred": "Tiffany Lynn Grant"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95145-c3MjV5tshGXX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15748,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Vena",
+        "last": null,
+        "full": "Vena",
+        "native": null,
+        "userPreferred": "Vena"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15748.jpg",
+      "voiceActors": [
+        {
+          "id": 96111,
+          "language": "Japanese",
+          "name": {
+            "first": "Rei",
+            "last": "Sakuma",
+            "full": "Rei Sakuma",
+            "native": "佐久間レイ ",
+            "userPreferred": "Rei Sakuma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96111-69cAO9T9llGo.png"
+        },
+        {
+          "id": 95873,
+          "language": "English",
+          "name": {
+            "first": "Amanda Winn",
+            "last": "Lee",
+            "full": "Amanda Winn Lee",
+            "native": null,
+            "userPreferred": "Amanda Winn Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/873.jpg"
+        },
+        {
+          "id": 140334,
+          "language": "German",
+          "name": {
+            "first": "Sibylle",
+            "last": "Kuhne",
+            "full": "Sibylle Kuhne",
+            "native": null,
+            "userPreferred": "Sibylle Kuhne"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n140334-QzyglbILe0Ui.png"
+        }
+      ]
+    },
+    {
+      "id": 15751,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Damaramu",
+        "last": null,
+        "full": "Damaramu",
+        "native": null,
+        "userPreferred": "Damaramu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15751.jpg",
+      "voiceActors": [
+        {
+          "id": 95146,
+          "language": "Japanese",
+          "name": {
+            "first": "Akio",
+            "last": "Ootsuka",
+            "full": "Akio Ootsuka",
+            "native": "大塚明夫",
+            "userPreferred": "Akio Ootsuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95146-T6IEmqXW3xUN.jpg"
+        },
+        {
+          "id": 95822,
+          "language": "English",
+          "name": {
+            "first": "Brett",
+            "last": "Weaver",
+            "full": "Brett Weaver",
+            "native": null,
+            "userPreferred": "Brett Weaver"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95822-NsMPkQBkrH7i.jpg"
+        }
+      ]
+    },
+    {
+      "id": 40669,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Venus",
+        "last": null,
+        "full": "Venus",
+        "native": null,
+        "userPreferred": "Venus"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/40669.jpg",
+      "voiceActors": [
+        {
+          "id": 106327,
+          "language": "Japanese",
+          "name": {
+            "first": "Noriko",
+            "last": "Asano",
+            "full": "Noriko Asano",
+            "native": "浅野典子",
+            "userPreferred": "Noriko Asano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 95607,
+          "language": "English",
+          "name": {
+            "first": "Kelly",
+            "last": "Manison",
+            "full": "Kelly Manison",
+            "native": null,
+            "userPreferred": "Kelly Manison"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/607.jpg"
+        }
+      ]
+    },
+    {
+      "id": 40671,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Minotaurus",
+        "last": null,
+        "full": "Minotaurus",
+        "native": null,
+        "userPreferred": "Minotaurus"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/40671.jpg",
+      "voiceActors": [
+        {
+          "id": 106995,
+          "language": "Japanese",
+          "name": {
+            "first": "Kosuke",
+            "last": "Tomita",
+            "full": "Kosuke Tomita",
+            "native": "吉川晃介",
+            "userPreferred": "Kosuke Tomita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/11995.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15752,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rosario",
+        "last": null,
+        "full": "Rosario",
+        "native": null,
+        "userPreferred": "Rosario"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/15752.jpg",
+      "voiceActors": [
+        {
+          "id": 95424,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaneto",
+            "last": "Shiozawa",
+            "full": "Kaneto Shiozawa",
+            "native": "塩沢兼人",
+            "userPreferred": "Kaneto Shiozawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95424-Zd7vHDVhSWKs.jpg"
+        },
+        {
+          "id": 95153,
+          "language": "English",
+          "name": {
+            "first": "Andy",
+            "last": "McAvin",
+            "full": "Andy McAvin",
+            "native": null,
+            "userPreferred": "Andy McAvin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/153.jpg"
+        },
+        {
+          "id": 131997,
+          "language": "German",
+          "name": {
+            "first": "Rolf",
+            "last": "Berg",
+            "full": "Rolf Berg",
+            "native": null,
+            "userPreferred": "Rolf Berg"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n131997-lfxx8xx7uTNS.png"
+        }
+      ]
+    },
+    {
+      "id": 36309,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Narrator",
+        "last": null,
+        "full": "Narrator",
+        "native": "ナレーター",
+        "userPreferred": "Narrator"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36309-yRLEQYd2dDI5.jpg",
+      "voiceActors": [
+        {
+          "id": 106995,
+          "language": "Japanese",
+          "name": {
+            "first": "Kosuke",
+            "last": "Tomita",
+            "full": "Kosuke Tomita",
+            "native": "吉川晃介",
+            "userPreferred": "Kosuke Tomita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/11995.jpg"
+        },
+        {
+          "id": 95201,
+          "language": "English",
+          "name": {
+            "first": "John",
+            "last": "Swasey",
+            "full": "John Swasey",
+            "native": null,
+            "userPreferred": "John Swasey"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95201-cas6XbtZmMay.jpg"
+        },
+        {
+          "id": 185226,
+          "language": "German",
+          "name": {
+            "first": "Axel",
+            "last": "Ludwig",
+            "full": "Axel Ludwig",
+            "native": null,
+            "userPreferred": "Axel Ludwig"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20428,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mana",
+        "last": null,
+        "full": "Mana",
+        "native": "マナ",
+        "userPreferred": "Mana"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/20428.jpg",
+      "voiceActors": [
+        {
+          "id": 95195,
+          "language": "Japanese",
+          "name": {
+            "first": "Kikuko",
+            "last": "Inoue",
+            "full": "Kikuko Inoue",
+            "native": "井上喜久子",
+            "userPreferred": "Kikuko Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95195-nLvtZl5sCK0D.png"
+        },
+        {
+          "id": 101303,
+          "language": "English",
+          "name": {
+            "first": "Marcy",
+            "last": "Rae",
+            "full": "Marcy Rae",
+            "native": null,
+            "userPreferred": "Marcy Rae"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6303.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 33239,
+      "relationType": "ADAPTATION",
+      "malId": 3239,
+      "title": {
+        "romaji": "Dragon Half",
+        "english": "Dragon Half",
+        "native": "ドラゴンハーフ",
+        "userPreferred": "Dragon Half"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b33239-ZGoQGhz2KVol.jpg",
+      "color": "#e48628",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/33239-P7NV0Z3iTNDd.jpg",
+      "rating": 70
+    }
+  ],
+  "episodes": [
+    {
+      "id": "dragon-half-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx870-yGEqk8uKxv2J.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//dragon-half-episode-1"
+    },
+    {
+      "id": "dragon-half-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx870-yGEqk8uKxv2J.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//dragon-half-episode-2"
+    }
+  ]
+}

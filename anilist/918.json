@@ -1,0 +1,4399 @@
+{
+  "id": "918",
+  "title": {
+    "romaji": "Gintama",
+    "english": "Gintama",
+    "native": "銀魂"
+  },
+  "malId": 918,
+  "synonyms": [
+    "Gin Tama",
+    "Silver Soul",
+    "גינטאמה"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+  "popularity": 208051,
+  "color": "#f1865d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/918-bljqHE1PFArH.jpg",
+  "description": "Life isn't easy in feudal Japan... especially since the aliens landed and conquered everything! Oh sure, the new health care is great, but the public ban on the use of swords has left a lot of defeated samurai with a difficult decision to make concerning their future career paths! This is especially true if, as in the case of Gintoki Sakata, they're not particularly inclined towards holding a day job, which is why Gintoki's opted for the freelance route, taking any job that's offered to him as long as the financial remuneration sounds right. Unfortunately, in a brave new world filled with stray bug-eyed monsters, upwardly mobile Yakuza and overly ambitious E.T. entrepreneurs, those jobs usually don't pay as well as they should for the pain, suffering and indignities endured!<br><br>\n(Source: Sentai Filmworks)",
+  "status": "Completed",
+  "releaseDate": 2006,
+  "startDate": {
+    "year": 2006,
+    "month": 4,
+    "day": 4
+  },
+  "endDate": {
+    "year": 2010,
+    "month": 3,
+    "day": 25
+  },
+  "totalEpisodes": 201,
+  "currentEpisode": 201,
+  "rating": 85,
+  "duration": 25,
+  "genres": [
+    "Action",
+    "Comedy",
+    "Drama",
+    "Sci-Fi"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Sunrise"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 28,
+      "malId": 28,
+      "title": {
+        "romaji": "Yakitate!! Japan",
+        "english": null,
+        "native": "焼きたて!! ジャぱん",
+        "userPreferred": "Yakitate!! Japan"
+      },
+      "status": "Completed",
+      "episodes": 69,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx28-QuKcZpUjTXzV.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/28-XGCH1SoNhyiC.jpg",
+      "rating": 75,
+      "type": "TV"
+    },
+    {
+      "id": 21804,
+      "malId": 33255,
+      "title": {
+        "romaji": "Saiki Kusuo no Ψ-nan",
+        "english": "The Disastrous Life of Saiki K.",
+        "native": "斉木楠雄のΨ難",
+        "userPreferred": "Saiki Kusuo no Ψ-nan"
+      },
+      "status": "Completed",
+      "episodes": 120,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21804-AAjWfz9JY1EO.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21804-QaKs5bDSGX6W.jpg",
+      "rating": 83,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 9863,
+      "malId": 9863,
+      "title": {
+        "romaji": "SKET DANCE",
+        "english": "SKET Dance",
+        "native": "SKET DANCE",
+        "userPreferred": "SKET DANCE"
+      },
+      "status": "Completed",
+      "episodes": 77,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9863-G6dAvTVsfLRO.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/9863-wcUnIQxQySKb.jpg",
+      "rating": 78,
+      "type": "TV"
+    },
+    {
+      "id": 9513,
+      "malId": 9513,
+      "title": {
+        "romaji": "Beelzebub",
+        "english": "Beelzebub",
+        "native": "べるぜバブ",
+        "userPreferred": "Beelzebub"
+      },
+      "status": "Completed",
+      "episodes": 60,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx9513-is6YiSgKbyQX.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/9513-yRdRyD9wdsln.jpg",
+      "rating": 75,
+      "type": "TV"
+    },
+    {
+      "id": 11843,
+      "malId": 11843,
+      "title": {
+        "romaji": "Danshi Koukousei no Nichijou",
+        "english": "Daily Lives of High School Boys",
+        "native": "男子高校生の日常",
+        "userPreferred": "Danshi Koukousei no Nichijou"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx11843-KK3X2ccAlUwI.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11843-2GxMdvjHLn6v.jpg",
+      "rating": 80,
+      "type": "TV"
+    },
+    {
+      "id": 21202,
+      "malId": 30831,
+      "title": {
+        "romaji": "Kono Subarashii Sekai ni Shukufuku wo!",
+        "english": "KONOSUBA -God's blessing on this wonderful world!",
+        "native": "この素晴らしい世界に祝福を！",
+        "userPreferred": "Kono Subarashii Sekai ni Shukufuku wo!"
+      },
+      "status": "Completed",
+      "episodes": 10,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21202-TfzXuWQf2oLQ.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21202-UWijdV7RMnXo.jpg",
+      "rating": 79,
+      "type": "TV"
+    },
+    {
+      "id": 100077,
+      "malId": 36296,
+      "title": {
+        "romaji": "Hinamatsuri",
+        "english": "HINAMATSURI",
+        "native": "ヒナまつり",
+        "userPreferred": "Hinamatsuri"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100077-B4bfXz0wVOPO.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100077-XKMTrxaMGhBj.jpg",
+      "rating": 80,
+      "type": "TV"
+    },
+    {
+      "id": 99699,
+      "malId": 36028,
+      "title": {
+        "romaji": "Golden Kamuy",
+        "english": "Golden Kamuy",
+        "native": "ゴールデンカムイ",
+        "userPreferred": "Golden Kamuy"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99699-mBCjpoWpAVGX.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99699-95D2XWA6eWAH.jpg",
+      "rating": 77,
+      "type": "TV"
+    },
+    {
+      "id": 1604,
+      "malId": 1604,
+      "title": {
+        "romaji": "Katekyou Hitman REBORN!",
+        "english": "REBORN!",
+        "native": "家庭教師ヒットマンREBORN!",
+        "userPreferred": "Katekyou Hitman REBORN!"
+      },
+      "status": "Completed",
+      "episodes": 203,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1604-H53bcO7VSWGU.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1604-n7a4gHUeqmba.jpg",
+      "rating": 76,
+      "type": "TV"
+    },
+    {
+      "id": 245,
+      "malId": 245,
+      "title": {
+        "romaji": "GTO",
+        "english": "GTO: Great Teacher Onizuka",
+        "native": "GTO",
+        "userPreferred": "GTO"
+      },
+      "status": "Completed",
+      "episodes": 43,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx245-By9unwQf1nPZ.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/245-sIPMF9vNDnaJ.jpg",
+      "rating": 84,
+      "type": "TV"
+    },
+    {
+      "id": 10165,
+      "malId": 10165,
+      "title": {
+        "romaji": "Nichijou",
+        "english": "Nichijou - My Ordinary Life",
+        "native": "日常",
+        "userPreferred": "Nichijou"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10165-1j2Qn8wIIn5S.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10165.jpg",
+      "rating": 83,
+      "type": "TV"
+    },
+    {
+      "id": 21261,
+      "malId": 31174,
+      "title": {
+        "romaji": "Osomatsu-san",
+        "english": "Mr. Osomatsu",
+        "native": "おそ松さん",
+        "userPreferred": "Osomatsu-san"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21261-jLm2IGonsEzU.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21261-BMbsmqX9g1M7.jpg",
+      "rating": 76,
+      "type": "TV"
+    },
+    {
+      "id": 13535,
+      "malId": 13535,
+      "title": {
+        "romaji": "Binbougami ga!",
+        "english": "Good Luck Girl!",
+        "native": "貧乏神が!",
+        "userPreferred": "Binbougami ga!"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx13535-3TFMnKs0CDls.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/13535-wNcONynXJe2o.jpg",
+      "rating": 74,
+      "type": "TV"
+    },
+    {
+      "id": 20447,
+      "malId": 20507,
+      "title": {
+        "romaji": "Noragami",
+        "english": "Noragami",
+        "native": "ノラガミ",
+        "userPreferred": "Noragami"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20447-EoQXeygHaVCK.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20447-nlgQQzcgWbgw.jpg",
+      "rating": 78,
+      "type": "TV"
+    },
+    {
+      "id": 45,
+      "malId": 45,
+      "title": {
+        "romaji": "Rurouni Kenshin: Meiji Kenkaku Romantan",
+        "english": "Rurouni Kenshin",
+        "native": "るろうに剣心 -明治剣客浪漫譚-",
+        "userPreferred": "Rurouni Kenshin: Meiji Kenkaku Romantan"
+      },
+      "status": "Completed",
+      "episodes": 94,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx45-DEFgZRCxiGmF.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/45-JVUpMKU0HzRW.jpg",
+      "rating": 79,
+      "type": "TV"
+    },
+    {
+      "id": 15809,
+      "malId": 15809,
+      "title": {
+        "romaji": "Hataraku Maou-sama!",
+        "english": "The Devil is a Part-Timer!",
+        "native": "はたらく魔王さま!",
+        "userPreferred": "Hataraku Maou-sama!"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15809-5Ddu3w7wq9F9.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15809-KFll9sEHGJ3i.jpg",
+      "rating": 76,
+      "type": "TV"
+    },
+    {
+      "id": 379,
+      "malId": 379,
+      "title": {
+        "romaji": "Heppoko Jikken Animation Excel Saga",
+        "english": "Excel Saga",
+        "native": "へっぽこ実験アニメーション エクセル・サーガ",
+        "userPreferred": "Heppoko Jikken Animation Excel Saga"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx379-qjgzMfG8vQAo.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/379-J2EE0Fq4d02K.jpg",
+      "rating": 71,
+      "type": "TV"
+    },
+    {
+      "id": 21,
+      "malId": 21,
+      "title": {
+        "romaji": "ONE PIECE",
+        "english": "ONE PIECE",
+        "native": "ONE PIECE",
+        "userPreferred": "ONE PIECE"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21-tXMN3Y20PIL9.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21-wf37VakJmZqs.jpg",
+      "rating": 88,
+      "type": "TV"
+    },
+    {
+      "id": 102977,
+      "malId": 37989,
+      "title": {
+        "romaji": "Golden Kamuy 2nd Season",
+        "english": "Golden Kamuy Season 2",
+        "native": "ゴールデンカムイ 第二期",
+        "userPreferred": "Golden Kamuy 2nd Season"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx102977-gUejfwQWpnzX.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/102977-kqlenTvimAZj.jpg",
+      "rating": 81,
+      "type": "TV"
+    },
+    {
+      "id": 112625,
+      "malId": 40542,
+      "title": {
+        "romaji": "Saiki Kusuo no Ψ-nan: Ψ-shidou-hen",
+        "english": "The Disastrous Life of Saiki K.: Reawakened",
+        "native": "斉木楠雄のΨ難 Ψ始動編",
+        "userPreferred": "Saiki Kusuo no Ψ-nan: Ψ-shidou-hen"
+      },
+      "status": "Completed",
+      "episodes": 6,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b112625-5Qi2PEQqITCa.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112625-Ksf3LJQVXSqN.jpg",
+      "rating": 81,
+      "type": "ONA"
+    },
+    {
+      "id": 100922,
+      "malId": 37105,
+      "title": {
+        "romaji": "Grand Blue",
+        "english": "Grand Blue Dreaming",
+        "native": "ぐらんぶる",
+        "userPreferred": "Grand Blue"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100922-ltoQa6rosUyP.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100922-ef1bBJCUCfxk.jpg",
+      "rating": 82,
+      "type": "TV"
+    },
+    {
+      "id": 1050,
+      "malId": 1050,
+      "title": {
+        "romaji": "Bobobo-bo Bo-bobo",
+        "english": "Bobobo-bo Bo-bobo",
+        "native": "ボボボーボ・ボーボボ",
+        "userPreferred": "Bobobo-bo Bo-bobo"
+      },
+      "status": "Completed",
+      "episodes": 76,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1050-qQAPEPu1kNKP.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1050.jpg",
+      "rating": 71,
+      "type": "TV"
+    },
+    {
+      "id": 205,
+      "malId": 205,
+      "title": {
+        "romaji": "Samurai Champloo",
+        "english": "Samurai Champloo",
+        "native": "サムライチャンプルー",
+        "userPreferred": "Samurai Champloo"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx205-xxonQKyJtVcw.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/205-L7WpOOWUmVjh.jpg",
+      "rating": 84,
+      "type": "TV"
+    },
+    {
+      "id": 6347,
+      "malId": 6347,
+      "title": {
+        "romaji": "Baka to Test to Shoukanjuu",
+        "english": "Baka and Test - Summon the Beasts",
+        "native": "バカとテストと召喚獣",
+        "userPreferred": "Baka to Test to Shoukanjuu"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6347-wmkZ4HD6EG8O.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6347-ZDzk4GrlQdag.jpg",
+      "rating": 71,
+      "type": "TV"
+    },
+    {
+      "id": 20727,
+      "malId": 24439,
+      "title": {
+        "romaji": "Kekkai Sensen",
+        "english": "Blood Blockade Battlefront",
+        "native": "血界戦線",
+        "userPreferred": "Kekkai Sensen"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20727-jgVnxLCHAKqZ.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20727-jcGXKLo3lLDP.jpg",
+      "rating": 74,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 673,
+      "role": "MAIN",
+      "name": {
+        "first": "Shinpachi",
+        "last": "Shimura",
+        "full": "Shinpachi Shimura",
+        "native": "志村新八",
+        "userPreferred": "Shinpachi Shimura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b673-omeYXvqwrNwL.jpg",
+      "voiceActors": [
+        {
+          "id": 95278,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Sakaguchi",
+            "full": "Daisuke Sakaguchi",
+            "native": "阪口大助",
+            "userPreferred": "Daisuke Sakaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95278-IrUPhIvJCsF9.png"
+        },
+        {
+          "id": 160116,
+          "language": "English",
+          "name": {
+            "first": "Clay",
+            "last": "Cartland",
+            "full": "Clay Cartland",
+            "native": null,
+            "userPreferred": "Clay Cartland"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n160116-P3mfT1MAgmH2.png"
+        },
+        {
+          "id": 109863,
+          "language": "Korean",
+          "name": {
+            "first": "Beom Gi",
+            "last": "Hong",
+            "full": "Beom Gi Hong",
+            "native": "범기 홍",
+            "userPreferred": "Beom Gi Hong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14863.jpg"
+        },
+        {
+          "id": 95776,
+          "language": "Italian",
+          "name": {
+            "first": "Daniele",
+            "last": "Raffaeli",
+            "full": "Daniele Raffaeli",
+            "native": null,
+            "userPreferred": "Daniele Raffaeli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/776.jpg"
+        },
+        {
+          "id": 157476,
+          "language": "Italian",
+          "name": {
+            "first": "Mosè ",
+            "last": "Singh",
+            "full": "Mosè  Singh",
+            "native": "Mosè Singh",
+            "userPreferred": "Mosè  Singh"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n157476-Aqhj80XXKHHa.jpg"
+        },
+        {
+          "id": 256524,
+          "language": "Portuguese",
+          "name": {
+            "first": "Erlaine",
+            "last": "Fonseca",
+            "full": "Erlaine Fonseca",
+            "native": null,
+            "userPreferred": "Erlaine Fonseca"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 145354,
+          "language": "German",
+          "name": {
+            "first": "Tobias",
+            "last": "Diakow",
+            "full": "Tobias Diakow",
+            "native": null,
+            "userPreferred": "Tobias Diakow"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n145354-NY6nhor4E4zB.png"
+        }
+      ]
+    },
+    {
+      "id": 672,
+      "role": "MAIN",
+      "name": {
+        "first": "Gintoki",
+        "last": "Sakata",
+        "full": "Gintoki Sakata",
+        "native": "坂田銀時",
+        "userPreferred": "Gintoki Sakata"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b672-gqeWnyXzOjyX.png",
+      "voiceActors": [
+        {
+          "id": 95931,
+          "language": "Japanese",
+          "name": {
+            "first": "Asami",
+            "last": "Yaguchi",
+            "full": "Asami Yaguchi",
+            "native": "矢口アサミ",
+            "userPreferred": "Asami Yaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95931-wW2ljSdYbkDa.jpg"
+        },
+        {
+          "id": 95002,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Sugita",
+            "full": "Tomokazu Sugita",
+            "native": "杉田智和",
+            "userPreferred": "Tomokazu Sugita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95002-nDIvHaynicEg.png"
+        },
+        {
+          "id": 160115,
+          "language": "English",
+          "name": {
+            "first": "Roly",
+            "last": "Gutierrez",
+            "full": "Roly Gutierrez",
+            "native": null,
+            "userPreferred": "Roly Gutierrez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n160115-oUXpzNhVHQNF.jpg"
+        },
+        {
+          "id": 109781,
+          "language": "Korean",
+          "name": {
+            "first": "Ja hyeong",
+            "last": "Gu",
+            "full": "Ja hyeong Gu",
+            "native": "자형 구",
+            "userPreferred": "Ja hyeong Gu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14781.jpg"
+        },
+        {
+          "id": 96230,
+          "language": "Italian",
+          "name": {
+            "first": "Marco",
+            "last": "Guadagno",
+            "full": "Marco Guadagno",
+            "native": null,
+            "userPreferred": "Marco Guadagno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1230.jpg"
+        },
+        {
+          "id": 119594,
+          "language": "Italian",
+          "name": {
+            "first": "Federico",
+            "last": "Viola",
+            "full": "Federico Viola",
+            "native": null,
+            "userPreferred": "Federico Viola"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119594-5QEcveRvgjbP.png"
+        },
+        {
+          "id": 108975,
+          "language": "Spanish",
+          "name": {
+            "first": "Alfredo",
+            "last": "Martínez",
+            "full": "Alfredo Martínez",
+            "native": null,
+            "userPreferred": "Alfredo Martínez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n108975-wHCCR3U7SwGg.jpg"
+        },
+        {
+          "id": 100684,
+          "language": "Spanish",
+          "name": {
+            "first": "Jesús",
+            "last": "Barrero",
+            "full": "Jesús Barrero",
+            "native": "José de Jesús Barrero Andrade",
+            "userPreferred": "Jesús Barrero"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100684-emn51ownT9uE.jpg"
+        },
+        {
+          "id": 256523,
+          "language": "Portuguese",
+          "name": {
+            "first": "Arnaldo",
+            "last": "Tavares",
+            "full": "Arnaldo Tavares",
+            "native": null,
+            "userPreferred": "Arnaldo Tavares"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n256523-kZA4cNvYchiq.jpg"
+        },
+        {
+          "id": 135847,
+          "language": "German",
+          "name": {
+            "first": "Jacob",
+            "last": "Weigert",
+            "full": "Jacob Weigert",
+            "native": null,
+            "userPreferred": "Jacob Weigert"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n135847-wdMiGecB8cj0.png"
+        }
+      ]
+    },
+    {
+      "id": 674,
+      "role": "MAIN",
+      "name": {
+        "first": "Kagura",
+        "last": null,
+        "full": "Kagura",
+        "native": "神楽",
+        "userPreferred": "Kagura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b674-w8wCh0A5Qa8R.png",
+      "voiceActors": [
+        {
+          "id": 95008,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Kugimiya",
+            "full": "Rie Kugimiya",
+            "native": "釘宮理恵",
+            "userPreferred": "Rie Kugimiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95008-2y0EeuSTHIri.png"
+        },
+        {
+          "id": 160118,
+          "language": "English",
+          "name": {
+            "first": "Crystal",
+            "last": "Lopez",
+            "full": "Crystal Lopez",
+            "native": null,
+            "userPreferred": "Crystal Lopez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n160118-Nd4UeOqBfrIU.png"
+        },
+        {
+          "id": 109771,
+          "language": "Korean",
+          "name": {
+            "first": "Sun-Hee",
+            "last": "Moon",
+            "full": "Sun-Hee Moon",
+            "native": "문선희",
+            "userPreferred": "Sun-Hee Moon"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14771.jpg"
+        },
+        {
+          "id": 156992,
+          "language": "Italian",
+          "name": {
+            "first": "Gemma",
+            "last": "Donati",
+            "full": "Gemma Donati",
+            "native": null,
+            "userPreferred": "Gemma Donati"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 96284,
+          "language": "Italian",
+          "name": {
+            "first": "Jolanda",
+            "last": "Granato",
+            "full": "Jolanda Granato",
+            "native": null,
+            "userPreferred": "Jolanda Granato"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1284.jpg"
+        },
+        {
+          "id": 262525,
+          "language": "Spanish",
+          "name": {
+            "first": "Marisol",
+            "last": "Castro",
+            "full": "Marisol Castro",
+            "native": null,
+            "userPreferred": "Marisol Castro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n262525-g7dN8kWpqxAZ.png"
+        },
+        {
+          "id": 196961,
+          "language": "Portuguese",
+          "name": {
+            "first": "Marta",
+            "last": "Rhaulin",
+            "full": "Marta Rhaulin",
+            "native": null,
+            "userPreferred": "Marta Rhaulin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n196961-0SRPlv5mELtO.jpg"
+        },
+        {
+          "id": 105034,
+          "language": "German",
+          "name": {
+            "first": "Kaya Marie",
+            "last": "Möller",
+            "full": "Kaya Marie Möller",
+            "native": null,
+            "userPreferred": "Kaya Marie Möller"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10034.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2651,
+      "role": "MAIN",
+      "name": {
+        "first": "Sadaharu",
+        "last": null,
+        "full": "Sadaharu",
+        "native": "定春",
+        "userPreferred": "Sadaharu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n2651-e8BTqVZl8lK2.jpg",
+      "voiceActors": [
+        {
+          "id": 95132,
+          "language": "Japanese",
+          "name": {
+            "first": "Mikako",
+            "last": "Takahashi",
+            "full": "Mikako Takahashi",
+            "native": "高橋美佳子",
+            "userPreferred": "Mikako Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95132-TpIFKL0tJg84.jpg"
+        },
+        {
+          "id": 226771,
+          "language": "Italian",
+          "name": {
+            "first": "Erica",
+            "last": "Laiolo",
+            "full": "Erica Laiolo",
+            "native": null,
+            "userPreferred": "Erica Laiolo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n226771-9g1xHFh4c0CP.jpg"
+        },
+        {
+          "id": 306471,
+          "language": "Portuguese",
+          "name": {
+            "first": "Lilian",
+            "last": "Viana",
+            "full": "Lilian Viana",
+            "native": null,
+            "userPreferred": "Lilian Viana"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n306471-o44p40YXQVio.jpg"
+        },
+        {
+          "id": 110555,
+          "language": "German",
+          "name": {
+            "first": "Josephine",
+            "last": "Schmidt",
+            "full": "Josephine Schmidt",
+            "native": null,
+            "userPreferred": "Josephine Schmidt"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15555.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32259,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hakkekkyuu Ou",
+        "last": null,
+        "full": "Hakkekkyuu Ou",
+        "native": "白血球王",
+        "userPreferred": "Hakkekkyuu Ou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32259.jpg",
+      "voiceActors": [
+        {
+          "id": 95002,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Sugita",
+            "full": "Tomokazu Sugita",
+            "native": "杉田智和",
+            "userPreferred": "Tomokazu Sugita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95002-nDIvHaynicEg.png"
+        },
+        {
+          "id": 119594,
+          "language": "Italian",
+          "name": {
+            "first": "Federico",
+            "last": "Viola",
+            "full": "Federico Viola",
+            "native": null,
+            "userPreferred": "Federico Viola"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119594-5QEcveRvgjbP.png"
+        }
+      ]
+    },
+    {
+      "id": 28144,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shouyou",
+        "last": "Yoshida",
+        "full": "Shouyou Yoshida",
+        "native": "吉田松陽",
+        "userPreferred": "Shouyou Yoshida"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b28144-QsZ8pBkqo4rj.jpg",
+      "voiceActors": [
+        {
+          "id": 95011,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouichi",
+            "last": "Yamadera",
+            "full": "Kouichi Yamadera",
+            "native": "山寺宏一",
+            "userPreferred": "Kouichi Yamadera"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95011-2RfLzncNyvbR.png"
+        },
+        {
+          "id": 159631,
+          "language": "Italian",
+          "name": {
+            "first": "Andrea",
+            "last": "Oldani",
+            "full": "Andrea Oldani",
+            "native": null,
+            "userPreferred": "Andrea Oldani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n159631-okKoTeucFaB3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32661,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Atsumasuke",
+        "last": "Watanabe",
+        "full": "Atsumasuke Watanabe",
+        "native": null,
+        "userPreferred": "Atsumasuke Watanabe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32661.jpg",
+      "voiceActors": [
+        {
+          "id": 95022,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinichirou",
+            "last": "Miki",
+            "full": "Shinichirou Miki",
+            "native": "三木眞一郎",
+            "userPreferred": "Shinichirou Miki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95022-BXggjIr4KHqd.png"
+        },
+        {
+          "id": 154419,
+          "language": "Italian",
+          "name": {
+            "first": "Andrea",
+            "last": "Lavagnino",
+            "full": "Andrea Lavagnino",
+            "native": null,
+            "userPreferred": "Andrea Lavagnino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32153,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kuriko",
+        "last": "Matsudaira",
+        "full": "Kuriko Matsudaira",
+        "native": "松平栗子",
+        "userPreferred": "Kuriko Matsudaira"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b32153-CRE6SYhdAgnp.jpg",
+      "voiceActors": [
+        {
+          "id": 95061,
+          "language": "Japanese",
+          "name": {
+            "first": "Chiwa",
+            "last": "Saitou",
+            "full": "Chiwa Saitou",
+            "native": "斎藤千和",
+            "userPreferred": "Chiwa Saitou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95061-R8YSAYX7UFCO.png"
+        },
+        {
+          "id": 237616,
+          "language": "Italian",
+          "name": {
+            "first": "Laura",
+            "last": "Amadei",
+            "full": "Laura Amadei",
+            "native": null,
+            "userPreferred": "Laura Amadei"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 164991,
+          "language": "Italian",
+          "name": {
+            "first": "Sabrina",
+            "last": "Bonfitto",
+            "full": "Sabrina Bonfitto",
+            "native": null,
+            "userPreferred": "Sabrina Bonfitto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n164991-6PbHUWR4aZf5.png"
+        },
+        {
+          "id": 145357,
+          "language": "German",
+          "name": {
+            "first": "Selina",
+            "last": "Böttcher",
+            "full": "Selina Böttcher",
+            "native": null,
+            "userPreferred": "Selina Böttcher"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32340,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Goemon",
+        "last": null,
+        "full": "Goemon",
+        "native": null,
+        "userPreferred": "Goemon"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32340.jpg",
+      "voiceActors": [
+        {
+          "id": 95095,
+          "language": "Japanese",
+          "name": {
+            "first": "Junichi",
+            "last": "Suwabe",
+            "full": "Junichi Suwabe",
+            "native": "諏訪部順一",
+            "userPreferred": "Junichi Suwabe"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95095-DvSjTQnqcgXP.png"
+        },
+        {
+          "id": 172903,
+          "language": "Italian",
+          "name": {
+            "first": "Gabriele",
+            "last": "Lopez",
+            "full": "Gabriele Lopez",
+            "native": null,
+            "userPreferred": "Gabriele Lopez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 30643,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Seimei",
+        "last": "Ketsuno",
+        "full": "Seimei Ketsuno",
+        "native": "結野晴明",
+        "userPreferred": "Seimei Ketsuno"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n30643-ac68LiCZzwrY.jpg",
+      "voiceActors": [
+        {
+          "id": 95988,
+          "language": "Japanese",
+          "name": {
+            "first": "Momoko",
+            "last": "Ohara",
+            "full": "Momoko Ohara",
+            "native": "大原桃子",
+            "userPreferred": "Momoko Ohara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95988-bcaJ30tSzdfL.png"
+        },
+        {
+          "id": 95112,
+          "language": "Japanese",
+          "name": {
+            "first": "Hikaru",
+            "last": "Midorikawa",
+            "full": "Hikaru Midorikawa",
+            "native": "緑川光",
+            "userPreferred": "Hikaru Midorikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95112-c275OLptkSYO.png"
+        },
+        {
+          "id": 240255,
+          "language": "Italian",
+          "name": {
+            "first": "Alessandro",
+            "last": "Fattori",
+            "full": "Alessandro Fattori",
+            "native": null,
+            "userPreferred": "Alessandro Fattori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n240255-YUlZqPsayoZA.png"
+        }
+      ]
+    },
+    {
+      "id": 6187,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tsuu",
+        "last": "Terakado",
+        "full": "Tsuu Terakado",
+        "native": "寺門通",
+        "userPreferred": "Tsuu Terakado"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n6187-8sGEwWKV15xb.jpg",
+      "voiceActors": [
+        {
+          "id": 95132,
+          "language": "Japanese",
+          "name": {
+            "first": "Mikako",
+            "last": "Takahashi",
+            "full": "Mikako Takahashi",
+            "native": "高橋美佳子",
+            "userPreferred": "Mikako Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95132-TpIFKL0tJg84.jpg"
+        },
+        {
+          "id": 162536,
+          "language": "English",
+          "name": {
+            "first": "Christina",
+            "last": "Jopling",
+            "full": "Christina Jopling",
+            "native": null,
+            "userPreferred": "Christina Jopling"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n162536-zxQwybDsQSah.jpg"
+        },
+        {
+          "id": 110135,
+          "language": "Korean",
+          "name": {
+            "first": "Do Yeong",
+            "last": "Song",
+            "full": "Do Yeong Song",
+            "native": "도영송",
+            "userPreferred": "Do Yeong Song"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15135.jpg"
+        },
+        {
+          "id": 261683,
+          "language": "Italian",
+          "name": {
+            "first": "Barbara",
+            "last": "Sacchelli",
+            "full": "Barbara Sacchelli",
+            "native": null,
+            "userPreferred": "Barbara Sacchelli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 226771,
+          "language": "Italian",
+          "name": {
+            "first": "Erica",
+            "last": "Laiolo",
+            "full": "Erica Laiolo",
+            "native": null,
+            "userPreferred": "Erica Laiolo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n226771-9g1xHFh4c0CP.jpg"
+        },
+        {
+          "id": 140280,
+          "language": "German",
+          "name": {
+            "first": "Mia",
+            "last": "Diekow",
+            "full": "Mia Diekow",
+            "native": null,
+            "userPreferred": "Mia Diekow"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n140280-OY67DPoUiihX.png"
+        }
+      ]
+    },
+    {
+      "id": 33953,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rei",
+        "last": null,
+        "full": "Rei",
+        "native": null,
+        "userPreferred": "Rei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n33953-dgQlx7zroCz7.jpg",
+      "voiceActors": [
+        {
+          "id": 95149,
+          "language": "Japanese",
+          "name": {
+            "first": "Sanae",
+            "last": "Kobayashi",
+            "full": "Sanae Kobayashi",
+            "native": "小林沙苗",
+            "userPreferred": "Sanae Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95149-xNDmN92Feq8y.png"
+        },
+        {
+          "id": 158950,
+          "language": "Italian",
+          "name": {
+            "first": "Martina",
+            "last": "Tamburello",
+            "full": "Martina Tamburello",
+            "native": null,
+            "userPreferred": "Martina Tamburello"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n158950-IhZBU2Gp4kG8.png"
+        }
+      ]
+    },
+    {
+      "id": 32967,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kamenashi",
+        "last": null,
+        "full": "Kamenashi",
+        "native": "亀梨",
+        "userPreferred": "Kamenashi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n32967-TYUmyAeicNlQ.jpg",
+      "voiceActors": [
+        {
+          "id": 95218,
+          "language": "Japanese",
+          "name": {
+            "first": "Tetsu",
+            "last": "Shiratori",
+            "full": "Tetsu Shiratori",
+            "native": "白鳥哲",
+            "userPreferred": "Tetsu Shiratori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95218-0yuGjjjk53Ez.png"
+        },
+        {
+          "id": 158679,
+          "language": "Italian",
+          "name": {
+            "first": "Federico",
+            "last": "Danti",
+            "full": "Federico Danti",
+            "native": null,
+            "userPreferred": "Federico Danti"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n158679-xZAFhTcBkp9d.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2947,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bansai",
+        "last": "Kawakami",
+        "full": "Bansai Kawakami",
+        "native": "河上万斉",
+        "userPreferred": "Bansai Kawakami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2947-sbdT3jDNmzS2.png",
+      "voiceActors": [
+        {
+          "id": 95346,
+          "language": "Japanese",
+          "name": {
+            "first": "Takumi",
+            "last": "Yamazaki",
+            "full": "Takumi Yamazaki",
+            "native": "山崎たくみ",
+            "userPreferred": "Takumi Yamazaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95346-YNXEZtXvJttr.png"
+        },
+        {
+          "id": 231314,
+          "language": "Italian",
+          "name": {
+            "first": "Roberto",
+            "last": "Fedele",
+            "full": "Roberto Fedele",
+            "native": null,
+            "userPreferred": "Roberto Fedele"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15146,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mitsuba",
+        "last": "Okita",
+        "full": "Mitsuba Okita",
+        "native": "沖田ミツバ",
+        "userPreferred": "Mitsuba Okita"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n15146-tESRXrkdZjmH.jpg",
+      "voiceActors": [
+        {
+          "id": 95425,
+          "language": "Japanese",
+          "name": {
+            "first": "Sumi",
+            "last": "Shimamoto",
+            "full": "Sumi Shimamoto",
+            "native": "島本須美",
+            "userPreferred": "Sumi Shimamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95425-wEl09IWpLxIA.png"
+        },
+        {
+          "id": 96280,
+          "language": "Italian",
+          "name": {
+            "first": "Elisabetta",
+            "last": "Spinelli",
+            "full": "Elisabetta Spinelli",
+            "native": null,
+            "userPreferred": "Elisabetta Spinelli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96280-Z4a9OF7HxJ75.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32124,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kyoshirou",
+        "last": "Honjou",
+        "full": "Kyoshirou Honjou",
+        "native": "本城狂死郎",
+        "userPreferred": "Kyoshirou Honjou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n32124-shdHjFz5jFJG.jpg",
+      "voiceActors": [
+        {
+          "id": 95560,
+          "language": "Japanese",
+          "name": {
+            "first": "Atsushi",
+            "last": "Kisaichi",
+            "full": "Atsushi Kisaichi",
+            "native": "私市淳",
+            "userPreferred": "Atsushi Kisaichi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95560-zMj9LRxhYkMX.jpg"
+        },
+        {
+          "id": 157484,
+          "language": "Italian",
+          "name": {
+            "first": "Jacopo",
+            "last": "Calatroni",
+            "full": "Jacopo Calatroni",
+            "native": null,
+            "userPreferred": "Jacopo Calatroni"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n157484-s0pcFLG0e3Pz.jpg"
+        }
+      ]
+    },
+    {
+      "id": 22633,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dragon Taichou",
+        "last": null,
+        "full": "Dragon Taichou",
+        "native": null,
+        "userPreferred": "Dragon Taichou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n22633-k4ql5ZjfrrYf.jpg",
+      "voiceActors": [
+        {
+          "id": 95718,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroya",
+            "last": "Ishimaru",
+            "full": "Hiroya Ishimaru",
+            "native": "石丸博也",
+            "userPreferred": "Hiroya Ishimaru"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95718-3ke4CyMs9um5.png"
+        },
+        {
+          "id": 96283,
+          "language": "Italian",
+          "name": {
+            "first": "Federico",
+            "last": "Zanandrea",
+            "full": "Federico Zanandrea",
+            "native": null,
+            "userPreferred": "Federico Zanandrea"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96283-YUsH0Bw7dANE.jpg"
+        }
+      ]
+    },
+    {
+      "id": 30609,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaikei",
+        "last": null,
+        "full": "Kaikei",
+        "native": "カイケイ",
+        "userPreferred": "Kaikei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/30609.jpg",
+      "voiceActors": [
+        {
+          "id": 95756,
+          "language": "Japanese",
+          "name": {
+            "first": "Anri",
+            "last": "Katsu",
+            "full": "Anri Katsu",
+            "native": "勝杏里",
+            "userPreferred": "Anri Katsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95756-MmmuyQK4Thzl.png"
+        },
+        {
+          "id": 162530,
+          "language": "English",
+          "name": {
+            "first": "Gregg",
+            "last": "Weiner",
+            "full": "Gregg Weiner",
+            "native": null,
+            "userPreferred": "Gregg Weiner"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n162530-zPDrDJQtfC1m.jpg"
+        },
+        {
+          "id": 169134,
+          "language": "Italian",
+          "name": {
+            "first": "Teo",
+            "last": "Bellia",
+            "full": "Teo Bellia",
+            "native": null,
+            "userPreferred": "Teo Bellia"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n169134-WGHWmgL9V7PN.jpg"
+        },
+        {
+          "id": 143172,
+          "language": "German",
+          "name": {
+            "first": "Daniel",
+            "last": "Welbat",
+            "full": "Daniel Welbat",
+            "native": null,
+            "userPreferred": "Daniel Welbat"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n143172-pQ0llksE6Lk8.png"
+        }
+      ]
+    },
+    {
+      "id": 32966,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Seizou",
+        "last": "Kumanaku",
+        "full": "Seizou Kumanaku",
+        "native": "隈無 清蔵",
+        "userPreferred": "Seizou Kumanaku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32966.jpg",
+      "voiceActors": [
+        {
+          "id": 95893,
+          "language": "Japanese",
+          "name": {
+            "first": "Taiten",
+            "last": "Kusunoki",
+            "full": "Taiten Kusunoki",
+            "native": "楠大典",
+            "userPreferred": "Taiten Kusunoki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95893-k0qEVnRygyIn.png"
+        },
+        {
+          "id": 227019,
+          "language": "Italian",
+          "name": {
+            "first": "Walter",
+            "last": "Rivetti",
+            "full": "Walter Rivetti",
+            "native": null,
+            "userPreferred": "Walter Rivetti"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32238,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hinowa",
+        "last": null,
+        "full": "Hinowa",
+        "native": "日輪 (吉原の太陽) ",
+        "userPreferred": "Hinowa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32238.jpg",
+      "voiceActors": [
+        {
+          "id": 95959,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomo",
+            "last": "Sakurai",
+            "full": "Tomo Sakurai",
+            "native": "櫻井智",
+            "userPreferred": "Tomo Sakurai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95959-zTcfPXL5PBEO.jpg"
+        },
+        {
+          "id": 231690,
+          "language": "Italian",
+          "name": {
+            "first": "Ilaria",
+            "last": "Silvestri",
+            "full": "Ilaria Silvestri",
+            "native": null,
+            "userPreferred": "Ilaria Silvestri"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n231690-fST9RY5fot0O.png"
+        }
+      ]
+    },
+    {
+      "id": 7930,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Catherine",
+        "last": null,
+        "full": "Catherine",
+        "native": "キャサリン",
+        "userPreferred": "Catherine"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n7930-HPv7rh74r6bl.jpg",
+      "voiceActors": [
+        {
+          "id": 96153,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuu",
+            "last": "Sugimoto",
+            "full": "Yuu Sugimoto",
+            "native": "杉本ゆう",
+            "userPreferred": "Yuu Sugimoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1153.jpg"
+        },
+        {
+          "id": 162534,
+          "language": "English",
+          "name": {
+            "first": "Connie",
+            "last": "Fernandez",
+            "full": "Connie Fernandez",
+            "native": null,
+            "userPreferred": "Connie Fernandez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n162534-hlAVabXZVy7R.jpg"
+        },
+        {
+          "id": 110291,
+          "language": "Korean",
+          "name": {
+            "first": "Chea Eun",
+            "last": "Han",
+            "full": "Chea Eun Han",
+            "native": "채언 한",
+            "userPreferred": "Chea Eun Han"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15291.jpg"
+        },
+        {
+          "id": 261682,
+          "language": "Italian",
+          "name": {
+            "first": "Deborah",
+            "last": "Ciccorelli",
+            "full": "Deborah Ciccorelli",
+            "native": null,
+            "userPreferred": "Deborah Ciccorelli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 158216,
+          "language": "Italian",
+          "name": {
+            "first": "Tania De",
+            "last": "Domenico",
+            "full": "Tania De Domenico",
+            "native": null,
+            "userPreferred": "Tania De Domenico"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 313177,
+          "language": "Portuguese",
+          "name": {
+            "first": "Sylvia",
+            "last": "Gonçalves",
+            "full": "Sylvia Gonçalves",
+            "native": null,
+            "userPreferred": "Sylvia Gonçalves"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n313177-JnPZZMMdDDtI.jpg"
+        },
+        {
+          "id": 158505,
+          "language": "German",
+          "name": {
+            "first": "Angela",
+            "last": "Quast",
+            "full": "Angela Quast",
+            "native": null,
+            "userPreferred": "Angela Quast"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n158505-8SgQA4iJ37Zn.png"
+        }
+      ]
+    },
+    {
+      "id": 43218,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ojii-san",
+        "last": null,
+        "full": "Ojii-san",
+        "native": "おじいさん",
+        "userPreferred": "Ojii-san"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n43218-vrO9Z7LAO3rZ.jpg",
+      "voiceActors": [
+        {
+          "id": 96436,
+          "language": "Japanese",
+          "name": {
+            "first": "Mugihito",
+            "last": "",
+            "full": "Mugihito",
+            "native": "麦人 ",
+            "userPreferred": "Mugihito"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1436.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15580,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Binbokusai",
+        "last": "Yagyuu",
+        "full": "Binbokusai Yagyuu",
+        "native": "柳生敏木斎",
+        "userPreferred": "Binbokusai Yagyuu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n15580-sOuVFsP9cZlz.jpg",
+      "voiceActors": [
+        {
+          "id": 96522,
+          "language": "Japanese",
+          "name": {
+            "first": "Naoki",
+            "last": "Tatsuta",
+            "full": "Naoki Tatsuta",
+            "native": "龍田直樹",
+            "userPreferred": "Naoki Tatsuta"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1522.jpg"
+        },
+        {
+          "id": 277209,
+          "language": "Italian",
+          "name": {
+            "first": "Silvano",
+            "last": "Piccardi",
+            "full": "Silvano Piccardi",
+            "native": null,
+            "userPreferred": "Silvano Piccardi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 27892,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Danzou",
+        "last": "Tobita",
+        "full": "Danzou Tobita",
+        "native": "鳶田 段蔵,",
+        "userPreferred": "Danzou Tobita"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n27892-5JcnZWkiTONN.jpg",
+      "voiceActors": [
+        {
+          "id": 100770,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuusaku",
+            "last": "Yara",
+            "full": "Yuusaku Yara",
+            "native": "屋良有作",
+            "userPreferred": "Yuusaku Yara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100770-UwcMoND5FIgC.png"
+        },
+        {
+          "id": 96289,
+          "language": "Italian",
+          "name": {
+            "first": "Claudio",
+            "last": "Moneta",
+            "full": "Claudio Moneta",
+            "native": null,
+            "userPreferred": "Claudio Moneta"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96289-6WavF68OhjWa.png"
+        }
+      ]
+    },
+    {
+      "id": 46973,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Magistrate",
+        "last": null,
+        "full": "Magistrate",
+        "native": "奉行",
+        "userPreferred": "Magistrate"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n46973-ySePcHOoT0WT.jpg",
+      "voiceActors": [
+        {
+          "id": 101602,
+          "language": "Japanese",
+          "name": {
+            "first": "Hideyuki",
+            "last": "Umezu",
+            "full": "Hideyuki Umezu",
+            "native": "梅津秀行",
+            "userPreferred": "Hideyuki Umezu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101602-wUvWtCkvNGNB.jpg"
+        },
+        {
+          "id": 189488,
+          "language": "Italian",
+          "name": {
+            "first": "Raffaele",
+            "last": "Fallica",
+            "full": "Raffaele Fallica",
+            "native": "Umberto Francesco Raffaele Fallica",
+            "userPreferred": "Raffaele Fallica"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 9969,
+      "relationType": "SEQUEL",
+      "malId": 9969,
+      "title": {
+        "romaji": "Gintama'",
+        "english": "Gintama Season 2",
+        "native": "銀魂’",
+        "userPreferred": "Gintama'"
+      },
+      "status": "Completed",
+      "episodes": 51,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9969-XyP8TZwb3L6S.png",
+      "color": "#3586bb",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/9969-pxE6nSzGGyUB.jpg",
+      "rating": 89
+    },
+    {
+      "id": 2951,
+      "relationType": "SIDE_STORY",
+      "malId": 2951,
+      "title": {
+        "romaji": "Gintama: Jump Festa 2005 Special",
+        "english": null,
+        "native": "銀魂ジャンプフェスタアニメツアー’０５",
+        "userPreferred": "Gintama: Jump Festa 2005 Special"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2951-rl0US7OuMXbA.jpg",
+      "color": "#f1931a",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2951-rl0US7OuMXbA.jpg",
+      "rating": 77
+    },
+    {
+      "id": 6945,
+      "relationType": "SIDE_STORY",
+      "malId": 6945,
+      "title": {
+        "romaji": "Gintama: Jump Festa 2008 Special",
+        "english": null,
+        "native": "ジャンプアニメツアー 2008 白夜叉降誕",
+        "userPreferred": "Gintama: Jump Festa 2008 Special"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6945.jpg",
+      "color": "#f17828",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6945-om1PnE30YoPh.jpg",
+      "rating": 79
+    },
+    {
+      "id": 10643,
+      "relationType": "SIDE_STORY",
+      "malId": 10643,
+      "title": {
+        "romaji": "Gintama: Dai Hanseikai",
+        "english": null,
+        "native": "アニメ銀魂　大反省会",
+        "userPreferred": "Gintama: Dai Hanseikai"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10643.jpg",
+      "color": "#e4d65d",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10643.jpg",
+      "rating": 76
+    },
+    {
+      "id": 7472,
+      "relationType": "ALTERNATIVE",
+      "malId": 7472,
+      "title": {
+        "romaji": "Gintama: Shinyaku Benizakura-hen",
+        "english": "Gintama - The Movie",
+        "native": "銀魂 新訳紅桜篇",
+        "userPreferred": "Gintama: Shinyaku Benizakura-hen"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx7472-RveDgQsIZUNG.jpg",
+      "color": "#e4ae50",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/7472-twXDSWVrxXMT.jpg",
+      "rating": 83
+    },
+    {
+      "id": 20760,
+      "relationType": "ALTERNATIVE",
+      "malId": 21899,
+      "title": {
+        "romaji": "Gintama: Yorinuki Gintama-san on Theater 2D",
+        "english": null,
+        "native": "銀魂 よりぬき銀魂さんオンシアター2D",
+        "userPreferred": "Gintama: Yorinuki Gintama-san on Theater 2D"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20760-6JlxgXfJh92a.jpg",
+      "color": "#d61a43",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20760-6JlxgXfJh92a.jpg",
+      "rating": 81
+    },
+    {
+      "id": 15335,
+      "relationType": "OTHER",
+      "malId": 15335,
+      "title": {
+        "romaji": "Gintama: Kanketsu-hen - Yorozuya yo Eien Nare",
+        "english": "Gintama: The Final Chapter - Be Forever Yorozuya",
+        "native": "劇場版 銀魂 完結篇 万事屋よ永遠なれ",
+        "userPreferred": "Gintama: Kanketsu-hen - Yorozuya yo Eien Nare"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15335-QjijwChGTBs0.png",
+      "color": "#bbd6f1",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15335-uARkRgyx8adp.jpg",
+      "rating": 87
+    },
+    {
+      "id": 30044,
+      "relationType": "ADAPTATION",
+      "malId": 44,
+      "title": {
+        "romaji": "Gintama",
+        "english": "Gin Tama",
+        "native": "銀魂",
+        "userPreferred": "Gintama"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30044-vPmoz3vTPvZs.jpg",
+      "color": "#e4435d",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/30044-3Q6rPDp3ZBIZ.jpg",
+      "rating": 87
+    },
+    {
+      "id": 111952,
+      "relationType": "CHARACTER",
+      "malId": 40323,
+      "title": {
+        "romaji": "Gintama: Monster Strike-hen",
+        "english": null,
+        "native": "銀魂 ～モンスターストライク編～",
+        "userPreferred": "Gintama: Monster Strike-hen"
+      },
+      "status": "Completed",
+      "episodes": 2,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111952-9b5f1ojvmgcc.jpg",
+      "color": "#f15d35",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111952-9b5f1ojvmgcc.jpg",
+      "rating": 71
+    },
+    {
+      "id": 98034,
+      "relationType": "CHARACTER",
+      "malId": 34612,
+      "title": {
+        "romaji": "Saiki Kusuo no Ψ-nan 2",
+        "english": "The Disastrous Life of Saiki K. Season 2",
+        "native": "斉木楠雄のΨ難 2",
+        "userPreferred": "Saiki Kusuo no Ψ-nan 2"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98034-1eQ4F7SKxVas.jpg",
+      "color": "#e44393",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98034-l0B37CgF6yby.jpg",
+      "rating": 84
+    },
+    {
+      "id": 162890,
+      "relationType": "SPIN_OFF",
+      "malId": 54757,
+      "title": {
+        "romaji": "3-nen Z-gumi Ginpachi-sensei",
+        "english": null,
+        "native": "3年Z組銀八先生",
+        "userPreferred": "3-nen Z-gumi Ginpachi-sensei"
+      },
+      "status": "Not yet aired",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx162890-KNjtzgKZM5Ah.jpg",
+      "color": "#f1c9a1",
+      "type": null,
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx162890-KNjtzgKZM5Ah.jpg",
+      "rating": null
+    }
+  ],
+  "episodes": [
+    {
+      "id": "gintama-episode-1",
+      "title": "You Jerks! And You Claim To Have Gintama?! (part 1)",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-1"
+    },
+    {
+      "id": "gintama-episode-2",
+      "title": "You Jerks! And You Claim To Have Gintama?! (part 2)",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-2"
+    },
+    {
+      "id": "gintama-episode-3",
+      "title": "Nobody With Naturally Wavy Hair Can Be That Bad",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-3"
+    },
+    {
+      "id": "gintama-episode-4",
+      "title": "Watch Out! Weekly Shonen JUMP Sometimes Comes Out On Saturdays!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-4"
+    },
+    {
+      "id": "gintama-episode-5",
+      "title": "Make Friends You Can Call By Their Nicknames, Even When You're An Old Fart",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-5"
+    },
+    {
+      "id": "gintama-episode-6",
+      "title": "Keep Your Promise Even If It Kills You",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-6"
+    },
+    {
+      "id": "gintama-episode-7",
+      "title": "Responsible Owners Should Clean Up After Their Pets",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-7"
+    },
+    {
+      "id": "gintama-episode-8",
+      "title": "There Is Butt A Fine Line Between Persistence And Stubbornness",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-8"
+    },
+    {
+      "id": "gintama-episode-9",
+      "title": "Fighting Should Be Done With Fists",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-9"
+    },
+    {
+      "id": "gintama-episode-10",
+      "title": "Eat Something Sour When You're Tired",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-10"
+    },
+    {
+      "id": "gintama-episode-11",
+      "title": "Look, Overly Sticky Sweet Dumplings Are Not Real Dumplings, You Idiot!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-11"
+    },
+    {
+      "id": "gintama-episode-12",
+      "title": "People Who Make Good First Impressions Usually Suck",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-12"
+    },
+    {
+      "id": "gintama-episode-13",
+      "title": "If You're Going To Cosplay, Go All Out",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-13"
+    },
+    {
+      "id": "gintama-episode-14",
+      "title": "Boys Have A Weird Ritual That Makes Them Think They Turn Into Men When They Touch A Frog You Only Gotta Wash Under Your Armpits - Just The Armpits",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-14"
+    },
+    {
+      "id": "gintama-episode-15",
+      "title": "Pets Resemble Their Owners",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-15"
+    },
+    {
+      "id": "gintama-episode-16",
+      "title": "If You Stop And Think About It, Your Life's A Lot Longer As An Old Guy Than A Kid! Whoa, Scary!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-16"
+    },
+    {
+      "id": "gintama-episode-17",
+      "title": "Sons Only Take After Their Fathers' Negative Attributes",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-17"
+    },
+    {
+      "id": "gintama-episode-18",
+      "title": "Oh, Yeah! Our Crib Is Number One!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-18"
+    },
+    {
+      "id": "gintama-episode-19",
+      "title": "Why Is The Sea So Salty? Because You City Folk Pee Whenever You Go Swimming!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-19"
+    },
+    {
+      "id": "gintama-episode-20",
+      "title": "Watch Out For Conveyor Belts!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-20"
+    },
+    {
+      "id": "gintama-episode-21",
+      "title": "If You're A Man, Try The Swordfish! If You Go To Sleep With The Fan On You'll Get A Stomachache, So Be Careful",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 21,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-21"
+    },
+    {
+      "id": "gintama-episode-22",
+      "title": "Marriage Is Prolonging An Illusion For Your Whole Life",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 22,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-22"
+    },
+    {
+      "id": "gintama-episode-23",
+      "title": "When You're In A Fix, Keep On Laughing, Laughing...",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 23,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-23"
+    },
+    {
+      "id": "gintama-episode-24",
+      "title": "Cute Faces Are Always Hiding Something",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 24,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-24"
+    },
+    {
+      "id": "gintama-episode-25",
+      "title": "A Shared Soup Pot Is A Microcosm Of Life",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 25,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-25"
+    },
+    {
+      "id": "gintama-episode-26",
+      "title": "Don't Be Shy - Just Raise Your Hand And Say It",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 26,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-26"
+    },
+    {
+      "id": "gintama-episode-27",
+      "title": "Some Things Can't Be Cut With A Sword",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 27,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-27"
+    },
+    {
+      "id": "gintama-episode-28",
+      "title": "Good Things Never Come In Twos (But Bad Things Do)",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 28,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-28"
+    },
+    {
+      "id": "gintama-episode-29",
+      "title": "Don't Panic - There's A Return Policy! I Told You To Pay Attention To The News!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 29,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-29"
+    },
+    {
+      "id": "gintama-episode-30",
+      "title": "Even Teen Idols Act Like You Guys",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 30,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-30"
+    },
+    {
+      "id": "gintama-episode-31",
+      "title": "You Always Remember The Things That Matter The Least",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 31,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-31"
+    },
+    {
+      "id": "gintama-episode-32",
+      "title": "Life Moves On Like A Conveyor Belt",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 32,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-32"
+    },
+    {
+      "id": "gintama-episode-33",
+      "title": "Mistaking Someone's Name Is Rude!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 33,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-33"
+    },
+    {
+      "id": "gintama-episode-34",
+      "title": "Love Doesn't Require A Manual",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 34,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-34"
+    },
+    {
+      "id": "gintama-episode-35",
+      "title": "Love Doesn't Require A Manual (Continued) You Can't Judge A Person By His Appearance, Either",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 35,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-35"
+    },
+    {
+      "id": "gintama-episode-36",
+      "title": "People With Dark Pasts Can't Shut Up",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 36,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-36"
+    },
+    {
+      "id": "gintama-episode-37",
+      "title": "People Who Say That Santa Doesn't Really Exist Actually Want To Believe In Him Prayer Won't Make Your Worldly Desires Go Away! Control Yourself",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 37,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-37"
+    },
+    {
+      "id": "gintama-episode-38",
+      "title": "Only Children Play In The Snow Eating Ice Cream In Winter Is Awesome",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 38,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-38"
+    },
+    {
+      "id": "gintama-episode-39",
+      "title": "Ramen Shops With Long Menus Never Do Well",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 39,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-39"
+    },
+    {
+      "id": "gintama-episode-40",
+      "title": "Give A Thought To Planned Pregnancy",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 40,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-40"
+    },
+    {
+      "id": "gintama-episode-41",
+      "title": "You Can't Judge A Movie By Its Title",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 41,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-41"
+    },
+    {
+      "id": "gintama-episode-42",
+      "title": "You Know What Happens If You Pee On A Worm",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 42,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-42"
+    },
+    {
+      "id": "gintama-episode-43",
+      "title": "Make Characters So Anybody Can Tell Who They Are By Just Their Silhouettes Since It Ended A Bit Early, We're Starting The Next One",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 43,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-43"
+    },
+    {
+      "id": "gintama-episode-44",
+      "title": "Mom's Busy, Too, So Quit Complaining About What's For Dinner",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 44,
+      "createdAt": "2013-02-20T18:22:02Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-44"
+    },
+    {
+      "id": "gintama-episode-45",
+      "title": "Walk Your Dog At An Appropriate Speed",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 45,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-45"
+    },
+    {
+      "id": "gintama-episode-46",
+      "title": "Adults Only. We Wouldn't Want Anyone Immature In Here...",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 46,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-46"
+    },
+    {
+      "id": "gintama-episode-47",
+      "title": "Do Cherries Come From Cherry Trees?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 47,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-47"
+    },
+    {
+      "id": "gintama-episode-48",
+      "title": "The More You're Alike, The More You Fight Whatever You Play, Play To Win",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 48,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-48"
+    },
+    {
+      "id": "gintama-episode-49",
+      "title": "A Life Without Gambling Is Like Sushi Without Wasabi",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 49,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-49"
+    },
+    {
+      "id": "gintama-episode-50",
+      "title": "Pending Means Pending, It's Not Final",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 50,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-50"
+    },
+    {
+      "id": "gintama-episode-51",
+      "title": "Milk Should Be Served At Body Temperature",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 51,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-51"
+    },
+    {
+      "id": "gintama-episode-52",
+      "title": "If You Want To See Someone, Make An Appo First",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 52,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-52"
+    },
+    {
+      "id": "gintama-episode-53",
+      "title": "Stress Makes You Bald, But It's Stressful To Avoid Stress, So You End Up Stressed Out Anyway, So In The End There's Nothing You Can Do",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 53,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-53"
+    },
+    {
+      "id": "gintama-episode-54",
+      "title": "Mothers Everywhere Are All The Same",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 54,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-54"
+    },
+    {
+      "id": "gintama-episode-55",
+      "title": "Don't Make Munching Noises When You Eat",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 55,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-55"
+    },
+    {
+      "id": "gintama-episode-56",
+      "title": "Keep An Eye On The Chief For The Day",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 56,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-56"
+    },
+    {
+      "id": "gintama-episode-57",
+      "title": "When Looking For Things You've Lost, Remember What You Were Doing On The Day You Lost It",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 57,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-57"
+    },
+    {
+      "id": "gintama-episode-58",
+      "title": "Croquette Sandwiches Are Always The Most Popular Food Sold At The Stalls",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 58,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-58"
+    },
+    {
+      "id": "gintama-episode-59",
+      "title": "Be Careful Not To Leave Your Umbrella Somewhere",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 59,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-59"
+    },
+    {
+      "id": "gintama-episode-60",
+      "title": "The Sun Will Rise Again",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 60,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-60"
+    },
+    {
+      "id": "gintama-episode-61",
+      "title": "On A Moonless Night, Insects Are Drawn To The Light",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 61,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-61"
+    },
+    {
+      "id": "gintama-episode-62",
+      "title": "Even Mummy Hunters Sometimes Turn into Mummys",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 62,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-62"
+    },
+    {
+      "id": "gintama-episode-63",
+      "title": "The Preview Section in JUMP is Always Unreliable",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 63,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-63"
+    },
+    {
+      "id": "gintama-episode-64",
+      "title": "Eating Nmaibo Can Make You Full in No Time!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 64,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-64"
+    },
+    {
+      "id": "gintama-episode-65",
+      "title": "Rhinoceros Beetles Teach Boys that Life is Precious",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 65,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-65"
+    },
+    {
+      "id": "gintama-episode-66",
+      "title": "Dango Over Flowers",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 66,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-66"
+    },
+    {
+      "id": "gintama-episode-67",
+      "title": "For the Wind Is the Life",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 67,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-67"
+    },
+    {
+      "id": "gintama-episode-68",
+      "title": "Like a Haunted House, Life is Filled with Horrors",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 68,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-68"
+    },
+    {
+      "id": "gintama-episode-69",
+      "title": "Please Help by Separating Your Trash",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 69,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-69"
+    },
+    {
+      "id": "gintama-episode-70",
+      "title": "Too Many Cuties Can Make You Sick",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 70,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-70"
+    },
+    {
+      "id": "gintama-episode-71",
+      "title": "Some Data Cannot Be Erased",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 71,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-71"
+    },
+    {
+      "id": "gintama-episode-72",
+      "title": "A Dog's Paws Smell Fragrant Drive With A Might Attitude",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 72,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-72"
+    },
+    {
+      "id": "gintama-episode-73",
+      "title": "Think For A Minute Now, Do Matsutake Mushrooms Really Taste All That Good?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 73,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-73"
+    },
+    {
+      "id": "gintama-episode-74",
+      "title": "The Manga Writer Becomes A Pro, After Doing A Stock Of Manuscripts",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 74,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-74"
+    },
+    {
+      "id": "gintama-episode-75",
+      "title": "Don't Complain About Your Job At Home, Do It Somewhere Else",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 75,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-75"
+    },
+    {
+      "id": "gintama-episode-76",
+      "title": "In Those Situations, Keep Quiet And Cook Red Rice With Beans",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 76,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-76"
+    },
+    {
+      "id": "gintama-episode-77",
+      "title": "Yesterday's Enemy, After All Is Said And Done, Is Still The Enemy",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 77,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-77"
+    },
+    {
+      "id": "gintama-episode-78",
+      "title": "People Who Are Picky About Food Are Also Picky About People, Too",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 78,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-78"
+    },
+    {
+      "id": "gintama-episode-79",
+      "title": "Four Heads Are Better Than One",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 79,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-79"
+    },
+    {
+      "id": "gintama-episode-80",
+      "title": "When Someone Who Wears Glasses Takes Them Off, It Looks Like Something's Missing",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 80,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-80"
+    },
+    {
+      "id": "gintama-episode-81",
+      "title": "A Woman's Best Make Up Is Her Smile",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 81,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-81"
+    },
+    {
+      "id": "gintama-episode-82",
+      "title": "You Don't Stand In Line For The Ramen, You Stand In Line For The Self Satisfaction You Say Kawaii So Often, You Must Really Think You're Cute Stuff",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 82,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-82"
+    },
+    {
+      "id": "gintama-episode-83",
+      "title": "Rank Has Nothing To Do With Luck",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 83,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-83"
+    },
+    {
+      "id": "gintama-episode-84",
+      "title": "Hard-Boiled Egg On A Man's Heart",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 84,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-84"
+    },
+    {
+      "id": "gintama-episode-85",
+      "title": "Hard-Boiled Eggs Don't Crack",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 85,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-85"
+    },
+    {
+      "id": "gintama-episode-86",
+      "title": "It's Often Difficult To Sleep When You're Engrossed With Counting Sheep",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 86,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-86"
+    },
+    {
+      "id": "gintama-episode-87",
+      "title": "Perform A German Suplex On A Woman Who Asks If She Or The Job Is More Important",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 87,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-87"
+    },
+    {
+      "id": "gintama-episode-88",
+      "title": "The Most Exciting Part Of A Group Date Is Before It Starts",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 88,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-88"
+    },
+    {
+      "id": "gintama-episode-89",
+      "title": "What Happens Twice, Happens Thrice",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 89,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-89"
+    },
+    {
+      "id": "gintama-episode-90",
+      "title": "The More Delicious The Food, The Nastier It Is When It Goes Bad",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 90,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-90"
+    },
+    {
+      "id": "gintama-episode-91",
+      "title": "If You Want To Lose Weight, Then Stop Eating And Start Moving",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 91,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-91"
+    },
+    {
+      "id": "gintama-episode-92",
+      "title": "Be A Person Who Can See People's Strong Points And Not Their Weak Points",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 92,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-92"
+    },
+    {
+      "id": "gintama-episode-93",
+      "title": "Even A Hero Has Issues",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 93,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-93"
+    },
+    {
+      "id": "gintama-episode-94",
+      "title": "When Riding A Train, Make Sure You Grab The Straps With Both Hands",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 94,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-94"
+    },
+    {
+      "id": "gintama-episode-95",
+      "title": "Men, Be A Madao",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 95,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-95"
+    },
+    {
+      "id": "gintama-episode-96",
+      "title": "If You're A Man, Don't Give Up",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 96,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-96"
+    },
+    {
+      "id": "gintama-episode-97",
+      "title": "Exaggerate The Tales Of Your Exploits By A Third, So Everyone Has A Good Time\n Men Have A Weakness For Girls Who Sell Flowers And Work In Pastry Shops",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 97,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-97"
+    },
+    {
+      "id": "gintama-episode-98",
+      "title": "Play Video Games For Only An Hour A Day",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 98,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-98"
+    },
+    {
+      "id": "gintama-episode-99",
+      "title": "Life And Video Games Are Full Of Bugs",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 99,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-99"
+    },
+    {
+      "id": "gintama-episode-100",
+      "title": "The More Something Is Disliked, The More Lovely It Is",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 100,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-100"
+    },
+    {
+      "id": "gintama-episode-101",
+      "title": "Rules Are Made To Be Broken",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 101,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-101"
+    },
+    {
+      "id": "gintama-episode-102",
+      "title": "Otaku Are Talkative",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 102,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-102"
+    },
+    {
+      "id": "gintama-episode-103",
+      "title": "There's A Thin Line Between Strengths And Weaknesses",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 103,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-103"
+    },
+    {
+      "id": "gintama-episode-104",
+      "title": "Important Things Are Hard To See",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 104,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-104"
+    },
+    {
+      "id": "gintama-episode-105",
+      "title": "It's All About The Beat And Timing",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 105,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-105"
+    },
+    {
+      "id": "gintama-episode-106",
+      "title": "Love Is Often Played Out In Sudden Death",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 106,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-106"
+    },
+    {
+      "id": "gintama-episode-107",
+      "title": "Kids Don't Understand How Their Parents Feel",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 107,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-107"
+    },
+    {
+      "id": "gintama-episode-108",
+      "title": "Some Things Are Better Left Unsaid",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 108,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-108"
+    },
+    {
+      "id": "gintama-episode-109",
+      "title": "Life Is A Test",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 109,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-109"
+    },
+    {
+      "id": "gintama-episode-110",
+      "title": "People Are All Escapees Of Their Own Inner Prisons",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 110,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-110"
+    },
+    {
+      "id": "gintama-episode-111",
+      "title": "Definitely Do Not Let Your Girlfriend See The Things You Use For Cross-Dressing There's Almost A 100% Chance You'll Forget Your Umbrella And Hate Yourself For It",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 111,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-111"
+    },
+    {
+      "id": "gintama-episode-112",
+      "title": "Lucky Is A Man Who Gets Up And Goes To Work",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 112,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-112"
+    },
+    {
+      "id": "gintama-episode-113",
+      "title": "The Act of Polishing a Urinal Is Like the Act of Polishing One`s Heart / Subtitle Undecided",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 113,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-113"
+    },
+    {
+      "id": "gintama-episode-114",
+      "title": "When Sweet and Spicy Things Are Switched... / They Say That Adding Soy Sauce to Pudding Gives the Taste of Sea Urchin, but Really, Adding Soy Sauce to Pudding Only Gives the Taste of Soy Sauce and Pudding",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 114,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-114"
+    },
+    {
+      "id": "gintama-episode-115",
+      "title": "Summer Vacation Is The Most Fun Right Before It Begins",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 115,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-115"
+    },
+    {
+      "id": "gintama-episode-116",
+      "title": "The Older, The Wiser",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 116,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-116"
+    },
+    {
+      "id": "gintama-episode-117",
+      "title": "Beauty Is Like A Summer Fruit",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 117,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-117"
+    },
+    {
+      "id": "gintama-episode-118",
+      "title": "Even If Your Back Is Bent, Go Straight Forward",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 118,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-118"
+    },
+    {
+      "id": "gintama-episode-119",
+      "title": "Within Each Box Of Cigarettes, Are One Or Two Cigarettes That Smell Like Horse Dung",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 119,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-119"
+    },
+    {
+      "id": "gintama-episode-120",
+      "title": "Japanese Restaurants Abroad Taste Pretty Much Like School Cafeteria Lunches Once You've Taken A Dish, You Can't Put It Back",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 120,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-120"
+    },
+    {
+      "id": "gintama-episode-121",
+      "title": "Novices Only Need A Flathead And A Phillips",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 121,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-121"
+    },
+    {
+      "id": "gintama-episode-122",
+      "title": "Imagination Is Nurtured In The 8th Grade",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 122,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-122"
+    },
+    {
+      "id": "gintama-episode-123",
+      "title": "Always Keep A Screwdriver In Your Heart",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 123,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-123"
+    },
+    {
+      "id": "gintama-episode-124",
+      "title": "When Nagging Goes Too Far It Becomes Intimidating",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 124,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-124"
+    },
+    {
+      "id": "gintama-episode-125",
+      "title": "Entering The Final Chapter!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 125,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-125"
+    },
+    {
+      "id": "gintama-episode-126",
+      "title": "Some Things Can Only Be Conveyed Through The Written Word",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 126,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-126"
+    },
+    {
+      "id": "gintama-episode-127",
+      "title": "Sometimes You Must Meet To Understand",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 127,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-127"
+    },
+    {
+      "id": "gintama-episode-128",
+      "title": "Sometimes You Can't Tell Just By Meeting Someone",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 128,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-128"
+    },
+    {
+      "id": "gintama-episode-129",
+      "title": "Beware Of Food You Pick Up Off The Ground",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 129,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-129"
+    },
+    {
+      "id": "gintama-episode-130",
+      "title": "Cat Lovers And Dog Lovers Are Mutually Exclusive",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 130,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-130"
+    },
+    {
+      "id": "gintama-episode-131",
+      "title": "Fights Often Ensue During Trips",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 131,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-131"
+    },
+    {
+      "id": "gintama-episode-132",
+      "title": "Briefs Will Unavoidably Get Skidmarks",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 132,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-132"
+    },
+    {
+      "id": "gintama-episode-133",
+      "title": "Gin And His Excellency's Good-For-Nothings",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 133,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-133"
+    },
+    {
+      "id": "gintama-episode-134",
+      "title": "Be Very Careful When Using Ghost Stories",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 134,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-134"
+    },
+    {
+      "id": "gintama-episode-135",
+      "title": "Before Worrying About The Earth, Think About The Even More Endangered Future Of 'Gintaman'",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 135,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-135"
+    },
+    {
+      "id": "gintama-episode-136",
+      "title": "It's Your House, You Build It",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 136,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-136"
+    },
+    {
+      "id": "gintama-episode-137",
+      "title": "99% Of Men Aren't Confident In Confessing Their Love People Who Don't Believe In Santa Are The Very Ones Who Want To Believe, You Contentious Bastard",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 137,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-137"
+    },
+    {
+      "id": "gintama-episode-138",
+      "title": "Let's Talk About The Old Days Once In A While",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 138,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-138"
+    },
+    {
+      "id": "gintama-episode-139",
+      "title": "Don't Put Your Wallet In Your Back Pocket",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 139,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-139"
+    },
+    {
+      "id": "gintama-episode-140",
+      "title": "Beware Of Those Who Use An Umbrella On A Sunny Day!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 140,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-140"
+    },
+    {
+      "id": "gintama-episode-141",
+      "title": "Butting Into A Fight Is Dangerous",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 141,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-141"
+    },
+    {
+      "id": "gintama-episode-142",
+      "title": "Life Is A Series Of Choices",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 142,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-142"
+    },
+    {
+      "id": "gintama-episode-143",
+      "title": "Those Who Stand On Four Legs Are Beasts. Those Who Stand On Two Legs, Guts, And Glory Are Men",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 143,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-143"
+    },
+    {
+      "id": "gintama-episode-144",
+      "title": "Don't Trust Bedtime Stories",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 144,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-144"
+    },
+    {
+      "id": "gintama-episode-145",
+      "title": "The Color For Each Person's Bond Comes In Various Colors",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 145,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-145"
+    },
+    {
+      "id": "gintama-episode-146",
+      "title": "The Taste Of Drinking Under Broad Daylight Is Something Special",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 146,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-146"
+    },
+    {
+      "id": "gintama-episode-147",
+      "title": "All Adults Are Instructors For All Children",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 147,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-147"
+    },
+    {
+      "id": "gintama-episode-148",
+      "title": "Zip Up Your Fly Nice And Slowly",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 148,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-148"
+    },
+    {
+      "id": "gintama-episode-149",
+      "title": "When Breaking A Chuubert In Half, The End With The Knob Should Be Better. It's Also Tasty To Drink From There",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 149,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-149"
+    },
+    {
+      "id": "gintama-episode-150",
+      "title": "If You Can't Beat Them, Join Them",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 150,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-150"
+    },
+    {
+      "id": "gintama-episode-151",
+      "title": "A Conversation With A Barber, During A Haircut, Is The Most Pointless Thing In The World",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 151,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-151"
+    },
+    {
+      "id": "gintama-episode-152",
+      "title": "The Heavens Created Chonmage Above Man Instead Of Another Man",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 152,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-152"
+    },
+    {
+      "id": "gintama-episode-153",
+      "title": "Sleep Helps A Child Grow",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 153,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-153"
+    },
+    {
+      "id": "gintama-episode-154",
+      "title": "That Person Looks Different From Usual During A Birthday Party",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 154,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-154"
+    },
+    {
+      "id": "gintama-episode-155",
+      "title": "The Other Side Of The Other Side Of The Other Side Would Be The Other Side",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 155,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-155"
+    },
+    {
+      "id": "gintama-episode-156",
+      "title": "It Takes A Bit Of Courage To Enter A Street Vendor's Stand",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 156,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-156"
+    },
+    {
+      "id": "gintama-episode-157",
+      "title": "Any Place With A Bunch Of Men Gathered Around Will Turn Into A Battlefield",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 157,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-157"
+    },
+    {
+      "id": "gintama-episode-158",
+      "title": "If A Friend Gets Injured, Take Him To The Hospital, Stat!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 158,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-158"
+    },
+    {
+      "id": "gintama-episode-159",
+      "title": "If One Orange In The Box Is Rotten, The Rest Of Them Will Become Rotten Before You Realize It",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 159,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-159"
+    },
+    {
+      "id": "gintama-episode-160",
+      "title": "From A Foreigner's Perspective, You're The Foreigner. From An Alien's Perspective, You're The Alien",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 160,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-160"
+    },
+    {
+      "id": "gintama-episode-161",
+      "title": "Laputa's Still Good After Seeing It So Many Times",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 161,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-161"
+    },
+    {
+      "id": "gintama-episode-162",
+      "title": "Love Is Unconditional",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 162,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-162"
+    },
+    {
+      "id": "gintama-episode-163",
+      "title": "The Black Ships Even Make A Scene When They Sink",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 163,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-163"
+    },
+    {
+      "id": "gintama-episode-164",
+      "title": "That Matsutake Soup Stuff Tastes Better Than The Real Deal People Who Die Stay Dead",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 164,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-164"
+    },
+    {
+      "id": "gintama-episode-165",
+      "title": "If It Works Once, It'll Work Over And Over Again",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 165,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-165"
+    },
+    {
+      "id": "gintama-episode-166",
+      "title": "Two Is Better Than One. Two People Are Better Than One",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 166,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-166"
+    },
+    {
+      "id": "gintama-episode-167",
+      "title": "Smooth Polygons Smooth Men's Hearts Too",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 167,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-167"
+    },
+    {
+      "id": "gintama-episode-168",
+      "title": "The Human Body Is Like A Little Universe",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 168,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-168"
+    },
+    {
+      "id": "gintama-episode-169",
+      "title": "The Chosen Idiots",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 169,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-169"
+    },
+    {
+      "id": "gintama-episode-170",
+      "title": "And Into The Legend...",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 170,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-170"
+    },
+    {
+      "id": "gintama-episode-171",
+      "title": "You'll Get Sued If All You Do Is Copy Others You Don't Know What You've Got Till It's Gone",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 171,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-171"
+    },
+    {
+      "id": "gintama-episode-172",
+      "title": "It All Depends On How You Use The 'Carrot And Stick' Method",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 172,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-172"
+    },
+    {
+      "id": "gintama-episode-173",
+      "title": "It's What's On The Inside That Counts It's What's On The Inside That Counts, But Only To A Certain Extent",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 173,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-173"
+    },
+    {
+      "id": "gintama-episode-174",
+      "title": "Are There Still People Who Go To The Ocean And Yell Out 'Bakayaro'? When A Person Is Trapped, Their Inner Door Opens",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 174,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-174"
+    },
+    {
+      "id": "gintama-episode-175",
+      "title": "People Of All Ages Hate The Dentist!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 175,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-175"
+    },
+    {
+      "id": "gintama-episode-176",
+      "title": "Countdown Begins",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 176,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-176"
+    },
+    {
+      "id": "gintama-episode-177",
+      "title": "It's Bad Luck To See A Spider At Night",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 177,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-177"
+    },
+    {
+      "id": "gintama-episode-178",
+      "title": "Once You're Entangled In A Spiderweb, It's Hard To Get It Off",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 178,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-178"
+    },
+    {
+      "id": "gintama-episode-179",
+      "title": "It's The Irresponsible One Who's Scary When Pissed",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 179,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-179"
+    },
+    {
+      "id": "gintama-episode-180",
+      "title": "The More Precious The Burden, The Heavier And More Difficult It Is To Shoulder It",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 180,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-180"
+    },
+    {
+      "id": "gintama-episode-181",
+      "title": "Watch Out For A Set Of Women And A Drink",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 181,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-181"
+    },
+    {
+      "id": "gintama-episode-182",
+      "title": "Screw Popularity Polls",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 182,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-182"
+    },
+    {
+      "id": "gintama-episode-183",
+      "title": "Popularity Polls Can Burn In Hell",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 183,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-183"
+    },
+    {
+      "id": "gintama-episode-184",
+      "title": "Popularity Polls Can...",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 184,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-184"
+    },
+    {
+      "id": "gintama-episode-185",
+      "title": "Hometowns And Boobs Are Best Thought From Afar The Whole Peeing On A Bee Sting Is A Myth. You'll Get Germs, So Don't Do It!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 185,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-185"
+    },
+    {
+      "id": "gintama-episode-186",
+      "title": "Beware Of Foreshadows",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 186,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-186"
+    },
+    {
+      "id": "gintama-episode-187",
+      "title": "It's Goodbye Once A Flag Is Set",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 187,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-187"
+    },
+    {
+      "id": "gintama-episode-188",
+      "title": "An Observation Journal Should Be Seen Through To The Very End",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 188,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-188"
+    },
+    {
+      "id": "gintama-episode-189",
+      "title": "It's Better To Take Care Of This Year's Business Within The Year, But Once The Year Is About To End, You Figure That You Might As Well Put It Off Till Next Year For A Fresh Start. That's How The End Of The Year Goes Radio Exercises Are Socials For Boys And Girls",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 189,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-189"
+    },
+    {
+      "id": "gintama-episode-190",
+      "title": "When Looking For Something, Try Using Its Perspective",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 190,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-190"
+    },
+    {
+      "id": "gintama-episode-191",
+      "title": "Freedom Means To Live True To Yourself, Not Without Law!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 191,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-191"
+    },
+    {
+      "id": "gintama-episode-192",
+      "title": "Kabukicho Stray Cat Blues",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 192,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-192"
+    },
+    {
+      "id": "gintama-episode-193",
+      "title": "Cooking Is About Guts",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 193,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-193"
+    },
+    {
+      "id": "gintama-episode-194",
+      "title": "Whenever I Hear Leviathan, I Think Of Sazae-san. Stupid Me!!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 194,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-194"
+    },
+    {
+      "id": "gintama-episode-195",
+      "title": "Not Losing To The Rain",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 195,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-195"
+    },
+    {
+      "id": "gintama-episode-196",
+      "title": "Not Losing To The Wind",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 196,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-196"
+    },
+    {
+      "id": "gintama-episode-197",
+      "title": "Not Losing To The Storm",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 197,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-197"
+    },
+    {
+      "id": "gintama-episode-198",
+      "title": "Never Losing That Smile",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 198,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-198"
+    },
+    {
+      "id": "gintama-episode-199",
+      "title": "That's How I Wish To Be, Beautiful And Strong",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 199,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-199"
+    },
+    {
+      "id": "gintama-episode-200",
+      "title": "Santa Claus Red Is Blood Red",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 200,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-200"
+    },
+    {
+      "id": "gintama-episode-201",
+      "title": "Everybody's A Santa",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 201,
+      "createdAt": "2013-02-20T18:22:03Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-201"
+    },
+    {
+      "id": "gintama-episode-202",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 202,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-202"
+    },
+    {
+      "id": "gintama-episode-203",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 203,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-203"
+    },
+    {
+      "id": "gintama-episode-204",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 204,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-204"
+    },
+    {
+      "id": "gintama-episode-205",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 205,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-205"
+    },
+    {
+      "id": "gintama-episode-206",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 206,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-206"
+    },
+    {
+      "id": "gintama-episode-207",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 207,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-207"
+    },
+    {
+      "id": "gintama-episode-208",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 208,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-208"
+    },
+    {
+      "id": "gintama-episode-209",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 209,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-209"
+    },
+    {
+      "id": "gintama-episode-210",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 210,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-210"
+    },
+    {
+      "id": "gintama-episode-211",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 211,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-211"
+    },
+    {
+      "id": "gintama-episode-212",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 212,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-212"
+    },
+    {
+      "id": "gintama-episode-213",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 213,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-213"
+    },
+    {
+      "id": "gintama-episode-214",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 214,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-214"
+    },
+    {
+      "id": "gintama-episode-215",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 215,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-215"
+    },
+    {
+      "id": "gintama-episode-216",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 216,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-216"
+    },
+    {
+      "id": "gintama-episode-217",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 217,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-217"
+    },
+    {
+      "id": "gintama-episode-218",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 218,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-218"
+    },
+    {
+      "id": "gintama-episode-219",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 219,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-219"
+    },
+    {
+      "id": "gintama-episode-220",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 220,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-220"
+    },
+    {
+      "id": "gintama-episode-221",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 221,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-221"
+    },
+    {
+      "id": "gintama-episode-222",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 222,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-222"
+    },
+    {
+      "id": "gintama-episode-223",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 223,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-223"
+    },
+    {
+      "id": "gintama-episode-224",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 224,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-224"
+    },
+    {
+      "id": "gintama-episode-225",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 225,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-225"
+    },
+    {
+      "id": "gintama-episode-226",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 226,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-226"
+    },
+    {
+      "id": "gintama-episode-227",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 227,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-227"
+    },
+    {
+      "id": "gintama-episode-228",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 228,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-228"
+    },
+    {
+      "id": "gintama-episode-229",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 229,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-229"
+    },
+    {
+      "id": "gintama-episode-230",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 230,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-230"
+    },
+    {
+      "id": "gintama-episode-231",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 231,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-231"
+    },
+    {
+      "id": "gintama-episode-232",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 232,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-232"
+    },
+    {
+      "id": "gintama-episode-233",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 233,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-233"
+    },
+    {
+      "id": "gintama-episode-234",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 234,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-234"
+    },
+    {
+      "id": "gintama-episode-235",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 235,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-235"
+    },
+    {
+      "id": "gintama-episode-236",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 236,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-236"
+    },
+    {
+      "id": "gintama-episode-237",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 237,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-237"
+    },
+    {
+      "id": "gintama-episode-238",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 238,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-238"
+    },
+    {
+      "id": "gintama-episode-239",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 239,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-239"
+    },
+    {
+      "id": "gintama-episode-240",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 240,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-240"
+    },
+    {
+      "id": "gintama-episode-241",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 241,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-241"
+    },
+    {
+      "id": "gintama-episode-242",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 242,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-242"
+    },
+    {
+      "id": "gintama-episode-243",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 243,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-243"
+    },
+    {
+      "id": "gintama-episode-244",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 244,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-244"
+    },
+    {
+      "id": "gintama-episode-245",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 245,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-245"
+    },
+    {
+      "id": "gintama-episode-246",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 246,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-246"
+    },
+    {
+      "id": "gintama-episode-247",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 247,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-247"
+    },
+    {
+      "id": "gintama-episode-248",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 248,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-248"
+    },
+    {
+      "id": "gintama-episode-249",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 249,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-249"
+    },
+    {
+      "id": "gintama-episode-250",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 250,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-250"
+    },
+    {
+      "id": "gintama-episode-251",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 251,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-251"
+    },
+    {
+      "id": "gintama-episode-252",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 252,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-252"
+    },
+    {
+      "id": "gintama-episode-253",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 253,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-253"
+    },
+    {
+      "id": "gintama-episode-254",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 254,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-254"
+    },
+    {
+      "id": "gintama-episode-255",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 255,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-255"
+    },
+    {
+      "id": "gintama-episode-256",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 256,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-256"
+    },
+    {
+      "id": "gintama-episode-257",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 257,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-257"
+    },
+    {
+      "id": "gintama-episode-258",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 258,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-258"
+    },
+    {
+      "id": "gintama-episode-259",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 259,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-259"
+    },
+    {
+      "id": "gintama-episode-260",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 260,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-260"
+    },
+    {
+      "id": "gintama-episode-261",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 261,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-261"
+    },
+    {
+      "id": "gintama-episode-262",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 262,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-262"
+    },
+    {
+      "id": "gintama-episode-263",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 263,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-263"
+    },
+    {
+      "id": "gintama-episode-264",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 264,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-264"
+    },
+    {
+      "id": "gintama-episode-265",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx918-hRbQHIkRUebX.jpg",
+      "number": 265,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//gintama-episode-265"
+    }
+  ]
+}

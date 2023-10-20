@@ -1,0 +1,234 @@
+{
+  "id": "1734",
+  "title": {
+    "romaji": "Ajimu: Kaigan Monogatari",
+    "english": null,
+    "native": "あじむ ～海岸物語～"
+  },
+  "malId": 1734,
+  "synonyms": [
+    "Ajimu: Beach Story"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1734.jpg",
+  "popularity": 2052,
+  "color": "#e4bba1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1734.jpg",
+  "description": "Seventeen year old Nakaido Hirosuke is just your average high school student. One morning as he arrives at the train station on his way to school, he catches sight of a beautiful girl, Ajimu Yasuna, and immediately falls for her. The two of them get to know each other and become friends, but he can't confess his feelings and she is unsure of hers. As events and other people present obstacles for the potential couple to clear, their relationship begins to develop and their feelings become clear.<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2001,
+  "startDate": {
+    "year": 2001,
+    "month": 6,
+    "day": 15
+  },
+  "endDate": {
+    "year": 2002,
+    "month": 2,
+    "day": 24
+  },
+  "totalEpisodes": 4,
+  "currentEpisode": 4,
+  "rating": 56,
+  "duration": 28,
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+  ],
+  "season": "SUMMER",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [
+    {
+      "id": 102425,
+      "malId": 42632,
+      "title": {
+        "romaji": "Yeonae Haru Jeon",
+        "english": "A Day Before Us",
+        "native": "연애하루전",
+        "userPreferred": "Yeonae Haru Jeon"
+      },
+      "status": "Completed",
+      "episodes": 10,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx102425-GNArxcTC0XVu.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/102425-Y0FAb3MB2D4V.png",
+      "rating": 72,
+      "type": "ONA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 8387,
+      "role": "MAIN",
+      "name": {
+        "first": "Nakaido",
+        "last": "Hirosuke",
+        "full": "Nakaido Hirosuke",
+        "native": "仲井戸尋祐",
+        "userPreferred": "Nakaido Hirosuke"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/8387.jpg",
+      "voiceActors": [
+        {
+          "id": 95017,
+          "language": "Japanese",
+          "name": {
+            "first": "Akira",
+            "last": "Ishida",
+            "full": "Akira Ishida",
+            "native": "石田彰",
+            "userPreferred": "Akira Ishida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95017-GSRcmQ97a8ZT.png"
+        }
+      ]
+    },
+    {
+      "id": 8386,
+      "role": "MAIN",
+      "name": {
+        "first": "Ajimu",
+        "last": "Yasuna",
+        "full": "Ajimu Yasuna",
+        "native": "安心院保奈",
+        "userPreferred": "Ajimu Yasuna"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/8386.jpg",
+      "voiceActors": [
+        {
+          "id": 95135,
+          "language": "Japanese",
+          "name": {
+            "first": "Saeko",
+            "last": "Chiba",
+            "full": "Saeko Chiba",
+            "native": "千葉紗子",
+            "userPreferred": "Saeko Chiba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95135-zptQ6sZjTSU9.png"
+        }
+      ]
+    },
+    {
+      "id": 8412,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Izumiya",
+        "last": "Kazuki",
+        "full": "Izumiya Kazuki",
+        "native": "泉谷和樹",
+        "userPreferred": "Izumiya Kazuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/8412.jpg",
+      "voiceActors": [
+        {
+          "id": 95178,
+          "language": "Japanese",
+          "name": {
+            "first": "Shoutarou",
+            "last": "Morikubo",
+            "full": "Shoutarou Morikubo",
+            "native": "森久保祥太郎",
+            "userPreferred": "Shoutarou Morikubo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95178-8R9Itg3Y1v24.png"
+        }
+      ]
+    },
+    {
+      "id": 8414,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Otomine",
+        "last": "Yuuma",
+        "full": "Otomine Yuuma",
+        "native": "音峰結真",
+        "userPreferred": "Otomine Yuuma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/8414.jpg",
+      "voiceActors": [
+        {
+          "id": 95394,
+          "language": "Japanese",
+          "name": {
+            "first": "Mitsuaki",
+            "last": "Madono",
+            "full": "Mitsuaki Madono",
+            "native": "真殿光昭",
+            "userPreferred": "Mitsuaki Madono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95394-BMiqrbgY0gIp.jpg"
+        }
+      ]
+    },
+    {
+      "id": 8413,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Suzue",
+        "last": "Takemoto",
+        "full": "Suzue Takemoto",
+        "native": "竹元涼愛",
+        "userPreferred": "Suzue Takemoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/8413.jpg",
+      "voiceActors": [
+        {
+          "id": 95458,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Miyamura",
+            "full": "Yuuko Miyamura",
+            "native": "宮村優子",
+            "userPreferred": "Yuuko Miyamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95458-u1OCiMNqiswq.png"
+        }
+      ]
+    }
+  ],
+  "relations": [],
+  "episodes": [
+    {
+      "id": "ajimu-kaigan-monogatari-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1734.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ajimu-kaigan-monogatari-episode-1"
+    },
+    {
+      "id": "ajimu-kaigan-monogatari-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1734.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ajimu-kaigan-monogatari-episode-2"
+    },
+    {
+      "id": "ajimu-kaigan-monogatari-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1734.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ajimu-kaigan-monogatari-episode-3"
+    },
+    {
+      "id": "ajimu-kaigan-monogatari-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1734.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//ajimu-kaigan-monogatari-episode-4"
+    }
+  ]
+}

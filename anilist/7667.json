@@ -1,0 +1,82 @@
+{
+  "id": "7667",
+  "title": {
+    "romaji": "Dr. Slump Movie 3: Arale-chan Hoyoyo Sekai Isshuu Dai Race",
+    "english": "Dr. Slump and Arale-chan: The Great Round-the-World Race",
+    "native": "Dr.スランプ アラレちゃん ほよよ世界一周大レース"
+  },
+  "malId": 7667,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/7667.jpg",
+  "popularity": 424,
+  "color": "#e48628",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/7667.jpg",
+  "description": "Dr. Slump Movie 3.",
+  "status": "Completed",
+  "releaseDate": 1983,
+  "startDate": {
+    "year": 1983,
+    "month": 3,
+    "day": 13
+  },
+  "endDate": {
+    "year": 1983,
+    "month": 3,
+    "day": 13
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 53,
+  "duration": 52,
+  "genres": [
+    "Comedy",
+    "Slice of Life"
+  ],
+  "season": "SPRING",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [
+    {
+      "id": 2466,
+      "malId": 2466,
+      "title": {
+        "romaji": "Scramble Wars: Tsuppashire! Genom Trophy Rally",
+        "english": null,
+        "native": "スクランブル・ウォーズ　突っ走る！ゲノムトロフィーラリー",
+        "userPreferred": "Scramble Wars: Tsuppashire! Genom Trophy Rally"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2466.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2466.jpg",
+      "rating": 55,
+      "type": "OVA"
+    }
+  ],
+  "characters": [],
+  "relations": [
+    {
+      "id": 2222,
+      "relationType": "PARENT",
+      "malId": 2222,
+      "title": {
+        "romaji": "Dr. Slump: Arale-chan",
+        "english": null,
+        "native": "Dr.スランプ・アラレちゃん",
+        "userPreferred": "Dr. Slump: Arale-chan"
+      },
+      "status": "Completed",
+      "episodes": 243,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2222-wJc3oXlh4SDV.jpg",
+      "color": "#ffd600",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2222-v9bANWdxPTd4.jpg",
+      "rating": 68
+    }
+  ],
+  "episodes": []
+}

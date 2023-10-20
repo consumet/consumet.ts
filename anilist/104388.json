@@ -1,0 +1,105 @@
+{
+  "id": "104388",
+  "title": {
+    "romaji": "Hipira-kun ONA",
+    "english": "Hipira-kun ONA",
+    "native": "ヒピラくん"
+  },
+  "malId": 22983,
+  "synonyms": [
+    "Hipira-kun Episode 11",
+    "Hipira-kun Episode 12"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/104388-pG8HzZ9mmlha.jpg",
+  "popularity": 279,
+  "color": "#e45d50",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/104388-pG8HzZ9mmlha.jpg",
+  "description": "The phone-only episodes 11 & 12 of Hipira-kun.",
+  "status": "Completed",
+  "releaseDate": 2010,
+  "startDate": {
+    "year": 2010,
+    "month": 4,
+    "day": 7
+  },
+  "endDate": {
+    "year": 2010,
+    "month": 4,
+    "day": 7
+  },
+  "totalEpisodes": 2,
+  "currentEpisode": 2,
+  "rating": 50,
+  "duration": 5,
+  "genres": [
+    "Comedy",
+    "Fantasy",
+    "Supernatural"
+  ],
+  "season": null,
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [],
+  "characters": [],
+  "relations": [
+    {
+      "id": 7723,
+      "relationType": "PREQUEL",
+      "malId": 7723,
+      "title": {
+        "romaji": "Hipira-kun",
+        "english": null,
+        "native": "ヒピラくん",
+        "userPreferred": "Hipira-kun"
+      },
+      "status": "Completed",
+      "episodes": 10,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b7723-Y2Kjg4YSv1bI.jpg",
+      "color": "#f1d693",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/7723-vH1gW8DjmzrP.jpg",
+      "rating": 55
+    },
+    {
+      "id": 37755,
+      "relationType": "ADAPTATION",
+      "malId": 7755,
+      "title": {
+        "romaji": "Hipira-kun",
+        "english": "Hipira",
+        "native": "ヒピラくん",
+        "userPreferred": "Hipira-kun"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx37755-g9UXi3v3Zkq1.jpg",
+      "color": "#f1e4c9",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/banner/37755-U1Ure8M0PHJV.jpg",
+      "rating": 66
+    },
+    {
+      "id": 104435,
+      "relationType": "SEQUEL",
+      "malId": 22985,
+      "title": {
+        "romaji": "Hipira-kun Special",
+        "english": null,
+        "native": "ヒピラくん",
+        "userPreferred": "Hipira-kun Special"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/104435-Nu3SC9GczyRa.jpg",
+      "color": "#d6ae1a",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/104435-Nu3SC9GczyRa.jpg",
+      "rating": 53
+    }
+  ],
+  "episodes": []
+}

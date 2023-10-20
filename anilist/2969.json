@@ -1,0 +1,687 @@
+{
+  "id": "2969",
+  "title": {
+    "romaji": "Appleseed Saga Ex Machina",
+    "english": null,
+    "native": "エクスマキナ"
+  },
+  "malId": 2969,
+  "synonyms": [
+    "Appleseed: Ex Machina",
+    "Appleseed 2",
+    "Appleseed 2007"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2969-8rKdPrGZX9dt.jpg",
+  "popularity": 4116,
+  "color": "#1a7850",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2969-8rKdPrGZX9dt.jpg",
+  "description": "Deunan, a young female warrior, and Briareos, a veteran cyborg-soldier, are both partners and lovers. As members of E.S.W.A.T., the elite special forces serving Olympus, they are deployed whenever trouble strikes. The two fighters find their partnership tested in a new way by the arrival of a new member to their ranks - an experimental Bioroid named Tereus.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2007,
+  "startDate": {
+    "year": 2007,
+    "month": 10,
+    "day": 20
+  },
+  "endDate": {
+    "year": 2007,
+    "month": 10,
+    "day": 20
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 67,
+  "duration": 104,
+  "genres": [
+    "Action",
+    "Mecha",
+    "Sci-Fi"
+  ],
+  "season": "FALL",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 2211,
+      "role": "MAIN",
+      "name": {
+        "first": "Briareos",
+        "last": "Hecatonchires",
+        "full": "Briareos Hecatonchires",
+        "native": "ブリアレオス・ヘカトンケイレス",
+        "userPreferred": "Briareos Hecatonchires"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2211.jpg",
+      "voiceActors": [
+        {
+          "id": 95011,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouichi",
+            "last": "Yamadera",
+            "full": "Kouichi Yamadera",
+            "native": "山寺宏一",
+            "userPreferred": "Kouichi Yamadera"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95011-2RfLzncNyvbR.png"
+        },
+        {
+          "id": 95379,
+          "language": "English",
+          "name": {
+            "first": "David",
+            "last": "Matranga",
+            "full": "David Matranga",
+            "native": null,
+            "userPreferred": "David Matranga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95379-GMh9EncYDh5n.png"
+        },
+        {
+          "id": 176918,
+          "language": "Portuguese",
+          "name": {
+            "first": "Marcelo",
+            "last": "Garcia",
+            "full": "Marcelo Garcia",
+            "native": null,
+            "userPreferred": "Marcelo Garcia"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n176918-ewiRTdh5rclR.jpg"
+        },
+        {
+          "id": 155782,
+          "language": "German",
+          "name": {
+            "first": "Boris",
+            "last": "Tessmann",
+            "full": "Boris Tessmann",
+            "native": null,
+            "userPreferred": "Boris Tessmann"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17490,
+      "role": "MAIN",
+      "name": {
+        "first": "Tereus",
+        "last": null,
+        "full": "Tereus",
+        "native": "テレウス",
+        "userPreferred": "Tereus"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/17490.jpg",
+      "voiceActors": [
+        {
+          "id": 95104,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuji",
+            "last": "Kishi",
+            "full": "Yuuji Kishi",
+            "native": "岸祐二",
+            "userPreferred": "Yuuji Kishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95104-5si9cIuH9ENm.png"
+        },
+        {
+          "id": 95282,
+          "language": "English",
+          "name": {
+            "first": "Illich",
+            "last": "Guardiola",
+            "full": "Illich Guardiola",
+            "native": null,
+            "userPreferred": "Illich Guardiola"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/282.jpg"
+        },
+        {
+          "id": 153004,
+          "language": "Portuguese",
+          "name": {
+            "first": "Felipe",
+            "last": "Grinnan",
+            "full": "Felipe Grinnan",
+            "native": null,
+            "userPreferred": "Felipe Grinnan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n153004-CgGmVAsohWRg.png"
+        },
+        {
+          "id": 116769,
+          "language": "French",
+          "name": {
+            "first": "Nicolas",
+            "last": "Charbonneaux-Collombet",
+            "full": "Nicolas Charbonneaux-Collombet",
+            "native": null,
+            "userPreferred": "Nicolas Charbonneaux-Collombet"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/21769.jpg"
+        },
+        {
+          "id": 96623,
+          "language": "French",
+          "name": {
+            "first": "Damien",
+            "last": "Boisseau",
+            "full": "Damien Boisseau",
+            "native": null,
+            "userPreferred": "Damien Boisseau"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1623.jpg"
+        },
+        {
+          "id": 101103,
+          "language": "German",
+          "name": {
+            "first": "Robin",
+            "last": "Kahnmeyer",
+            "full": "Robin Kahnmeyer",
+            "native": null,
+            "userPreferred": "Robin Kahnmeyer"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101103-ScLUpoFgiGZD.png"
+        }
+      ]
+    },
+    {
+      "id": 2210,
+      "role": "MAIN",
+      "name": {
+        "first": "Deunan",
+        "last": "Knute",
+        "full": "Deunan Knute",
+        "native": "デュナン・ナッツ ",
+        "userPreferred": "Deunan Knute"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2210.jpg",
+      "voiceActors": [
+        {
+          "id": 96019,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Kobayashi",
+            "full": "Ai Kobayashi",
+            "native": "小林愛",
+            "userPreferred": "Ai Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1019.jpg"
+        },
+        {
+          "id": 95189,
+          "language": "English",
+          "name": {
+            "first": "Luci",
+            "last": "Christian",
+            "full": "Luci Christian",
+            "native": null,
+            "userPreferred": "Luci Christian"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95189-M2IkMNRzHYcF.jpg"
+        },
+        {
+          "id": 100105,
+          "language": "Portuguese",
+          "name": {
+            "first": "Priscila",
+            "last": "Amorim",
+            "full": "Priscila Amorim",
+            "native": null,
+            "userPreferred": "Priscila Amorim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5105.jpg"
+        },
+        {
+          "id": 167578,
+          "language": "French",
+          "name": {
+            "first": "Aurélie",
+            "last": "Morgane",
+            "full": "Aurélie Morgane",
+            "native": null,
+            "userPreferred": "Aurélie Morgane"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n167578-hhQ480z81TqY.jpg"
+        },
+        {
+          "id": 143209,
+          "language": "French",
+          "name": {
+            "first": "Laurence",
+            "last": "Saquet",
+            "full": "Laurence Saquet",
+            "native": null,
+            "userPreferred": "Laurence Saquet"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n143209-skFngndsbMU5.jpg"
+        },
+        {
+          "id": 103586,
+          "language": "German",
+          "name": {
+            "first": "Luise",
+            "last": "Helm",
+            "full": "Luise Helm",
+            "native": null,
+            "userPreferred": "Luise Helm"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8586.jpg"
+        }
+      ]
+    },
+    {
+      "id": 35905,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Aeacus",
+        "last": null,
+        "full": "Aeacus",
+        "native": null,
+        "userPreferred": "Aeacus"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/35905.jpg",
+      "voiceActors": [
+        {
+          "id": 95909,
+          "language": "Japanese",
+          "name": {
+            "first": "Kuwata",
+            "last": "Kong",
+            "full": "Kuwata Kong",
+            "native": "桑田コング",
+            "userPreferred": "Kuwata Kong"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/909.jpg"
+        },
+        {
+          "id": 96605,
+          "language": "English",
+          "name": {
+            "first": "Mike",
+            "last": "MacRae",
+            "full": "Mike MacRae",
+            "native": null,
+            "userPreferred": "Mike MacRae"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96605-TzkWu528mzCU.jpg"
+        },
+        {
+          "id": 96099,
+          "language": "Portuguese",
+          "name": {
+            "first": "Guilherme",
+            "last": "Briggs",
+            "full": "Guilherme Briggs",
+            "native": "Guilherme Neves Briggs",
+            "userPreferred": "Guilherme Briggs"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96099-n1wxTRslU9gj.jpg"
+        },
+        {
+          "id": 163978,
+          "language": "French",
+          "name": {
+            "first": "Michel",
+            "last": "Vigné",
+            "full": "Michel Vigné",
+            "native": null,
+            "userPreferred": "Michel Vigné"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6860,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hitomi",
+        "last": null,
+        "full": "Hitomi",
+        "native": "ヒトミ（人美）",
+        "userPreferred": "Hitomi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6860-nDoTI1xBLBhe.png",
+      "voiceActors": [
+        {
+          "id": 95099,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyuki",
+            "last": "Sawashiro",
+            "full": "Miyuki Sawashiro",
+            "native": "沢城みゆき",
+            "userPreferred": "Miyuki Sawashiro"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95099-jKP4LfPWqetk.jpg"
+        },
+        {
+          "id": 95151,
+          "language": "English",
+          "name": {
+            "first": "Hilary",
+            "last": "Haag",
+            "full": "Hilary Haag",
+            "native": null,
+            "userPreferred": "Hilary Haag"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/151.jpg"
+        },
+        {
+          "id": 107507,
+          "language": "Portuguese",
+          "name": {
+            "first": "Iara",
+            "last": "Riça",
+            "full": "Iara Riça",
+            "native": null,
+            "userPreferred": "Iara Riça"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12507.jpg"
+        },
+        {
+          "id": 118257,
+          "language": "German",
+          "name": {
+            "first": "Ghadah",
+            "last": "Al-Akel",
+            "full": "Ghadah Al-Akel",
+            "native": null,
+            "userPreferred": "Ghadah Al-Akel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/23257.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36298,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yoshitsune",
+        "last": null,
+        "full": "Yoshitsune",
+        "native": "義経",
+        "userPreferred": "Yoshitsune"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/36298.jpg",
+      "voiceActors": [
+        {
+          "id": 95801,
+          "language": "Japanese",
+          "name": {
+            "first": "Yasuyuki",
+            "last": "Kase",
+            "full": "Yasuyuki Kase",
+            "native": "加瀬康之",
+            "userPreferred": "Yasuyuki Kase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95801-Jno6Y2OawOII.png"
+        },
+        {
+          "id": 95190,
+          "language": "English",
+          "name": {
+            "first": "Chris",
+            "last": "Patton",
+            "full": "Chris Patton",
+            "native": null,
+            "userPreferred": "Chris Patton"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95190-Ht5ukZFcl0PX.jpg"
+        },
+        {
+          "id": 177165,
+          "language": "Portuguese",
+          "name": {
+            "first": "Reginaldo",
+            "last": "Primo",
+            "full": "Reginaldo Primo",
+            "native": null,
+            "userPreferred": "Reginaldo Primo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n177165-qD2TSPk8oMRZ.jpg"
+        },
+        {
+          "id": 96656,
+          "language": "German",
+          "name": {
+            "first": "Sebastian",
+            "last": "Schulz",
+            "full": "Sebastian Schulz",
+            "native": null,
+            "userPreferred": "Sebastian Schulz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1656.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36297,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nike",
+        "last": null,
+        "full": "Nike",
+        "native": "ニケ",
+        "userPreferred": "Nike"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36297-MR0QRaFbgtZq.png",
+      "voiceActors": [
+        {
+          "id": 102524,
+          "language": "Japanese",
+          "name": {
+            "first": "Rei",
+            "last": "Igarashi",
+            "full": "Rei Igarashi",
+            "native": "五十嵐麗",
+            "userPreferred": "Rei Igarashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102524-g3nz3coVOPFS.jpg"
+        },
+        {
+          "id": 95193,
+          "language": "English",
+          "name": {
+            "first": "Shelley",
+            "last": "Calene-Black",
+            "full": "Shelley Calene-Black",
+            "native": null,
+            "userPreferred": "Shelley Calene-Black"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95193-Nvdjk8BIcEJb.png"
+        },
+        {
+          "id": 191884,
+          "language": "Portuguese",
+          "name": {
+            "first": "Fernanda",
+            "last": "Crispim",
+            "full": "Fernanda Crispim",
+            "native": null,
+            "userPreferred": "Fernanda Crispim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n191884-XqDe0Y4yphYy.png"
+        },
+        {
+          "id": 96668,
+          "language": "German",
+          "name": {
+            "first": "Christin",
+            "last": "Marquitan",
+            "full": "Christin Marquitan",
+            "native": null,
+            "userPreferred": "Christin Marquitan"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1668.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5373,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Athena",
+        "last": "Areios",
+        "full": "Athena Areios",
+        "native": "アテナ・アレイアス",
+        "userPreferred": "Athena Areios"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5373-Jx6cbp7gtndx.png",
+      "voiceActors": [
+        {
+          "id": 95497,
+          "language": "Japanese",
+          "name": {
+            "first": "Gara",
+            "last": "Takashima",
+            "full": "Gara Takashima",
+            "native": "高島雅羅",
+            "userPreferred": "Gara Takashima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95497-ZisMmeLQfZr7.png"
+        },
+        {
+          "id": 96606,
+          "language": "English",
+          "name": {
+            "first": "Allison",
+            "last": "Sumrall",
+            "full": "Allison Sumrall",
+            "native": null,
+            "userPreferred": "Allison Sumrall"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96606-oaTOj5bbSpDs.jpg"
+        },
+        {
+          "id": 190320,
+          "language": "Portuguese",
+          "name": {
+            "first": "Mabel",
+            "last": "Cezar",
+            "full": "Mabel Cezar",
+            "native": null,
+            "userPreferred": "Mabel Cezar"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n190320-Oh0FuuUWYoMq.jpg"
+        },
+        {
+          "id": 159893,
+          "language": "French",
+          "name": {
+            "first": "Magali",
+            "last": "Barney",
+            "full": "Magali Barney",
+            "native": null,
+            "userPreferred": "Magali Barney"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n159893-PzZuH9dGpP81.jpg"
+        },
+        {
+          "id": 145367,
+          "language": "German",
+          "name": {
+            "first": "Arianne",
+            "last": "Borbach",
+            "full": "Arianne Borbach",
+            "native": null,
+            "userPreferred": "Arianne Borbach"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n145367-6LfWTHdqhoVp.png"
+        }
+      ]
+    },
+    {
+      "id": 44276,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lance",
+        "last": null,
+        "full": "Lance",
+        "native": null,
+        "userPreferred": "Lance"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95800,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinpachi",
+            "last": "Tsuji",
+            "full": "Shinpachi Tsuji",
+            "native": "辻親八",
+            "userPreferred": "Shinpachi Tsuji"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95800-TBMYjwu8Wy6T.png"
+        },
+        {
+          "id": 105074,
+          "language": "English",
+          "name": {
+            "first": "Chris",
+            "last": "Hutchison",
+            "full": "Chris Hutchison",
+            "native": null,
+            "userPreferred": "Chris Hutchison"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10074.jpg"
+        },
+        {
+          "id": 101125,
+          "language": "German",
+          "name": {
+            "first": "Detlef",
+            "last": "Bierstedt",
+            "full": "Detlef Bierstedt",
+            "native": null,
+            "userPreferred": "Detlef Bierstedt"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6125.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 54,
+      "relationType": "PREQUEL",
+      "malId": 54,
+      "title": {
+        "romaji": "Appleseed (Movie)",
+        "english": null,
+        "native": "アップルシード",
+        "userPreferred": "Appleseed (Movie)"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx54-EIMIUlH3FuJb.jpg",
+      "color": "#0d786b",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx54-EIMIUlH3FuJb.jpg",
+      "rating": 65
+    }
+  ],
+  "episodes": [
+    {
+      "id": "appleseed-ex-machina-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2969-8rKdPrGZX9dt.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//appleseed-ex-machina-episode-1"
+    }
+  ]
+}

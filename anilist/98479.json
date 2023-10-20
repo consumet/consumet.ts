@@ -1,0 +1,486 @@
+{
+  "id": "98479",
+  "title": {
+    "romaji": "Gurazeni",
+    "english": "Gurazeni: Money Pitch",
+    "native": "グラゼニ"
+  },
+  "malId": 35183,
+  "synonyms": [
+    "Money Diamond"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "x6e96yp",
+    "site": "dailymotion",
+    "thumbnail": "https://www.dailymotion.com/thumbnail/video/x6e96yp"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98479-YteIiMYKnVP3.jpg",
+  "popularity": 3371,
+  "color": "#5daee4",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98479-BCnglozOlch3.jpg",
+  "description": "The \"baseball money survival\" story focuses on a baseball team that operates as a highly-stratified society, where the player's performance determines his annual salary. The story follows an eight-year relief pitcher with an odd left-handed side-arm throw as he fights to survive under the team's strict system.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2018,
+  "startDate": {
+    "year": 2018,
+    "month": 4,
+    "day": 6
+  },
+  "endDate": {
+    "year": 2018,
+    "month": 6,
+    "day": 22
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 55,
+  "duration": 24,
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Sports"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Studio DEEN"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 21702,
+      "malId": 32947,
+      "title": {
+        "romaji": "Battery",
+        "english": "BATTERY the animation",
+        "native": "バッテリー",
+        "userPreferred": "Battery"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21702-CKiyEpxtRWBp.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21702-iL4hOTh3ERbk.jpg",
+      "rating": 52,
+      "type": "TV"
+    },
+    {
+      "id": 139804,
+      "malId": 49969,
+      "title": {
+        "romaji": "TRIBE NINE",
+        "english": "Tribe Nine",
+        "native": "トライブナイン",
+        "userPreferred": "TRIBE NINE"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx139804-kpZVaUQvisjl.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx139804-kpZVaUQvisjl.jpg",
+      "rating": 56,
+      "type": "TV"
+    },
+    {
+      "id": 5040,
+      "malId": 5040,
+      "title": {
+        "romaji": "One Outs",
+        "english": "One Outs",
+        "native": "ワンナウツ",
+        "userPreferred": "One Outs"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5040-OpWkR6shhDv1.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/5040-Vpk8PmvE5o27.png",
+      "rating": 81,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 133029,
+      "role": "MAIN",
+      "name": {
+        "first": "Natsunosuke",
+        "last": "Bonda",
+        "full": "Natsunosuke Bonda",
+        "native": "凡田夏之介",
+        "userPreferred": "Natsunosuke Bonda"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n133029-EM39KqzvzKe3.png",
+      "voiceActors": [
+        {
+          "id": 119506,
+          "language": "Japanese",
+          "name": {
+            "first": "Fukushi",
+            "last": "Ochiai",
+            "full": "Fukushi Ochiai",
+            "native": "福嗣 落合",
+            "userPreferred": "Fukushi Ochiai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119506-kCsXHHjcQca6.png"
+        }
+      ]
+    },
+    {
+      "id": 133030,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tokunaga",
+        "last": null,
+        "full": "Tokunaga",
+        "native": "徳永",
+        "userPreferred": "Tokunaga"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n133030-iU1k3OtSgXqr.jpg",
+      "voiceActors": [
+        {
+          "id": 95087,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Namikawa",
+            "full": "Daisuke Namikawa",
+            "native": "浪川大輔",
+            "userPreferred": "Daisuke Namikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95087-6dlBBbejsPyg.png"
+        }
+      ]
+    },
+    {
+      "id": 133031,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Akira",
+        "last": "Shibuya",
+        "full": "Akira Shibuya",
+        "native": null,
+        "userPreferred": "Akira Shibuya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n133031-x2XttQQpCuSk.jpg",
+      "voiceActors": [
+        {
+          "id": 96052,
+          "language": "Japanese",
+          "name": {
+            "first": "Takanori",
+            "last": "Hoshino",
+            "full": "Takanori Hoshino",
+            "native": "星野貴紀",
+            "userPreferred": "Takanori Hoshino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1052.jpg"
+        }
+      ]
+    },
+    {
+      "id": 133032,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tanabe",
+        "last": null,
+        "full": "Tanabe",
+        "native": "田辺",
+        "userPreferred": "Tanabe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n133032-jNf7loFY7uWx.jpg",
+      "voiceActors": [
+        {
+          "id": 95629,
+          "language": "Japanese",
+          "name": {
+            "first": "Issei",
+            "last": "Futamata",
+            "full": "Issei Futamata",
+            "native": "二又一成",
+            "userPreferred": "Issei Futamata"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95629-WgKFV9c2Wxpu.png"
+        }
+      ]
+    },
+    {
+      "id": 133033,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sakota",
+        "last": null,
+        "full": "Sakota",
+        "native": "迫田",
+        "userPreferred": "Sakota"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n133033-XuguoQchBfov.jpg",
+      "voiceActors": [
+        {
+          "id": 95299,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenji",
+            "last": "Nomura",
+            "full": "Kenji Nomura",
+            "native": "乃村健次",
+            "userPreferred": "Kenji Nomura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95299-emNsgDYS4DBi.jpg"
+        }
+      ]
+    },
+    {
+      "id": 133034,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuki",
+        "last": null,
+        "full": "Yuki",
+        "native": "ユキ",
+        "userPreferred": "Yuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n133034-T231decczR4M.jpg",
+      "voiceActors": [
+        {
+          "id": 118510,
+          "language": "Japanese",
+          "name": {
+            "first": "Mao",
+            "last": "Ichimichi",
+            "full": "Mao Ichimichi",
+            "native": "市道真央",
+            "userPreferred": "Mao Ichimichi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118510-iMUv5D7W99C1.png"
+        }
+      ]
+    },
+    {
+      "id": 133035,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kozato",
+        "last": null,
+        "full": "Kozato",
+        "native": "小里",
+        "userPreferred": "Kozato"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n133035-ZkiqBBFJDtsf.jpg",
+      "voiceActors": [
+        {
+          "id": 95679,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryuuzou",
+            "last": "Ishino",
+            "full": "Ryuuzou Ishino",
+            "native": "石野竜三",
+            "userPreferred": "Ryuuzou Ishino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95679-vT6wLZlpBsWI.jpg"
+        }
+      ]
+    },
+    {
+      "id": 133036,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hideo",
+        "last": "Matsumoto",
+        "full": "Hideo Matsumoto",
+        "native": "松本ひでお",
+        "userPreferred": "Hideo Matsumoto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n133036-VdBYSpjd3ZBv.jpg",
+      "voiceActors": [
+        {
+          "id": 133037,
+          "language": "Japanese",
+          "name": {
+            "first": "Hideo",
+            "last": "Matsumoto",
+            "full": "Hideo Matsumoto",
+            "native": "松本秀夫",
+            "userPreferred": "Hideo Matsumoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n133037-vEo6ztfjtCdr.jpg"
+        }
+      ]
+    },
+    {
+      "id": 287929,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Beat Takeshi",
+        "last": null,
+        "full": "Beat Takeshi",
+        "native": "ビートたけし",
+        "userPreferred": "Beat Takeshi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b287929-4bZfUMb6lPEq.jpg",
+      "voiceActors": [
+        {
+          "id": 262608,
+          "language": "Japanese",
+          "name": {
+            "first": "Takeshi",
+            "last": "Kitano",
+            "full": "Takeshi Kitano",
+            "native": "北野武",
+            "userPreferred": "Takeshi Kitano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n262608-fzRhLElLWMwm.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 69757,
+      "relationType": "ADAPTATION",
+      "malId": 39757,
+      "title": {
+        "romaji": "Gurazeni",
+        "english": null,
+        "native": "グラゼニ",
+        "userPreferred": "Gurazeni"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx69757-L645MRUoryFj.jpg",
+      "color": "#e4d650",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx69757-L645MRUoryFj.jpg",
+      "rating": 78
+    },
+    {
+      "id": 102974,
+      "relationType": "SEQUEL",
+      "malId": 37990,
+      "title": {
+        "romaji": "Gurazeni 2",
+        "english": "Gurazeni: Money Pitch 2",
+        "native": "グラゼニ 2",
+        "userPreferred": "Gurazeni 2"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx102974-VYTKOyFzyuNz.jpg",
+      "color": "#bb7835",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/102974-a1GHLzhbW9RB.jpg",
+      "rating": 64
+    }
+  ],
+  "episodes": [
+    {
+      "id": "gurazeni-episode-1",
+      "title": "My Workplace / Spot Starter",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98479-YteIiMYKnVP3.jpg",
+      "number": 1,
+      "createdAt": "2018-02-17T15:20:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gurazeni-episode-1"
+    },
+    {
+      "id": "gurazeni-episode-2",
+      "title": "Tendency / Buddies",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98479-YteIiMYKnVP3.jpg",
+      "number": 2,
+      "createdAt": "2018-02-17T15:20:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gurazeni-episode-2"
+    },
+    {
+      "id": "gurazeni-episode-3",
+      "title": "Prefecture Clique",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98479-YteIiMYKnVP3.jpg",
+      "number": 3,
+      "createdAt": "2018-02-17T15:20:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gurazeni-episode-3"
+    },
+    {
+      "id": "gurazeni-episode-4",
+      "title": "Railroad to Retirement / The Man Who Couldn't Make Pro",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98479-YteIiMYKnVP3.jpg",
+      "number": 4,
+      "createdAt": "2018-02-17T15:20:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gurazeni-episode-4"
+    },
+    {
+      "id": "gurazeni-episode-5",
+      "title": "Safe Bets, Risky Bets",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98479-YteIiMYKnVP3.jpg",
+      "number": 5,
+      "createdAt": "2018-02-17T15:20:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gurazeni-episode-5"
+    },
+    {
+      "id": "gurazeni-episode-6",
+      "title": "Multiplier",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98479-YteIiMYKnVP3.jpg",
+      "number": 6,
+      "createdAt": "2018-02-17T15:20:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gurazeni-episode-6"
+    },
+    {
+      "id": "gurazeni-episode-7",
+      "title": "A Minor League Player in the Majors",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98479-YteIiMYKnVP3.jpg",
+      "number": 7,
+      "createdAt": "2018-02-17T15:20:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gurazeni-episode-7"
+    },
+    {
+      "id": "gurazeni-episode-8",
+      "title": "The Commute to the Stadium",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98479-YteIiMYKnVP3.jpg",
+      "number": 8,
+      "createdAt": "2018-02-17T15:20:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gurazeni-episode-8"
+    },
+    {
+      "id": "gurazeni-episode-9",
+      "title": "Teacher or Cautionary Tale?",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98479-YteIiMYKnVP3.jpg",
+      "number": 9,
+      "createdAt": "2018-02-17T15:20:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gurazeni-episode-9"
+    },
+    {
+      "id": "gurazeni-episode-10",
+      "title": "High School Recruit, College Recruit",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98479-YteIiMYKnVP3.jpg",
+      "number": 10,
+      "createdAt": "2018-02-17T15:20:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gurazeni-episode-10"
+    },
+    {
+      "id": "gurazeni-episode-11",
+      "title": "No Pitch to Throw",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98479-YteIiMYKnVP3.jpg",
+      "number": 11,
+      "createdAt": "2018-02-17T15:20:13Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gurazeni-episode-11"
+    },
+    {
+      "id": "gurazeni-episode-12",
+      "title": "The Lonely Gourmet",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98479-YteIiMYKnVP3.jpg",
+      "number": 12,
+      "createdAt": "2018-02-17T15:20:14Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gurazeni-episode-12"
+    }
+  ]
+}

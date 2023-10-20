@@ -1,0 +1,349 @@
+{
+  "id": "1725",
+  "title": {
+    "romaji": "Keitai Shoujo",
+    "english": null,
+    "native": "ケータイ少女"
+  },
+  "malId": 1725,
+  "synonyms": [
+    "Cell Phone Girl"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1725.jpg",
+  "popularity": 1305,
+  "color": "#e43593",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1725.jpg",
+  "description": "This is about Hiro Aida and his friends. Their daily life at school and first romantic encounters with all the fun and confusion. All these people are connected to each other through cell phone messages.<br><br>\n<i>Note: The anime has 5 regular episodes and 1 Epilogue episode, spanning the length of 12 minutes.</i>",
+  "status": "Completed",
+  "releaseDate": 2007,
+  "startDate": {
+    "year": 2007,
+    "month": 3,
+    "day": 20
+  },
+  "endDate": {
+    "year": 2007,
+    "month": 3,
+    "day": 20
+  },
+  "totalEpisodes": 6,
+  "currentEpisode": 6,
+  "rating": 47,
+  "duration": 8,
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+  ],
+  "season": "SPRING",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "ONA",
+  "recommendations": [
+    {
+      "id": 8676,
+      "malId": 8676,
+      "title": {
+        "romaji": "Amagami SS",
+        "english": "Amagami SS",
+        "native": "アマガミSS",
+        "userPreferred": "Amagami SS"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx8676-rpRpE8lD4tbw.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/8676-xPUw6MBP5vqB.jpg",
+      "rating": 69,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 6838,
+      "role": "MAIN",
+      "name": {
+        "first": "Hiro",
+        "last": "Aida",
+        "full": "Hiro Aida",
+        "native": null,
+        "userPreferred": "Hiro Aida"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95017,
+          "language": "Japanese",
+          "name": {
+            "first": "Akira",
+            "last": "Ishida",
+            "full": "Akira Ishida",
+            "native": "石田彰",
+            "userPreferred": "Akira Ishida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95017-GSRcmQ97a8ZT.png"
+        }
+      ]
+    },
+    {
+      "id": 3057,
+      "role": "MAIN",
+      "name": {
+        "first": "Ichiru",
+        "last": "Mishima",
+        "full": "Ichiru Mishima",
+        "native": null,
+        "userPreferred": "Ichiru Mishima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/3057.jpg",
+      "voiceActors": [
+        {
+          "id": 95070,
+          "language": "Japanese",
+          "name": {
+            "first": "Ami",
+            "last": "Koshimizu",
+            "full": "Ami Koshimizu",
+            "native": "小清水亜美",
+            "userPreferred": "Ami Koshimizu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95070-klkIfKz1VItS.png"
+        }
+      ]
+    },
+    {
+      "id": 21482,
+      "role": "MAIN",
+      "name": {
+        "first": "Momoka",
+        "last": "Fujimiya",
+        "full": "Momoka Fujimiya",
+        "native": null,
+        "userPreferred": "Momoka Fujimiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b21482-0QBY9qV9XZpU.jpg",
+      "voiceActors": [
+        {
+          "id": 95078,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaori",
+            "last": "Nazuka",
+            "full": "Kaori Nazuka",
+            "native": "名塚佳織",
+            "userPreferred": "Kaori Nazuka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95078-tMm7zdlRNZ3P.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21481,
+      "role": "MAIN",
+      "name": {
+        "first": "Miya",
+        "last": "Gotou",
+        "full": "Miya Gotou",
+        "native": null,
+        "userPreferred": "Miya Gotou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21481.jpg",
+      "voiceActors": [
+        {
+          "id": 95116,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Ueda",
+            "full": "Kana Ueda",
+            "native": "植田佳奈",
+            "userPreferred": "Kana Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95116-NvhEn6vNMiAq.png"
+        }
+      ]
+    },
+    {
+      "id": 21483,
+      "role": "MAIN",
+      "name": {
+        "first": "Sayo",
+        "last": "Tomoe",
+        "full": "Sayo Tomoe",
+        "native": null,
+        "userPreferred": "Sayo Tomoe"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95132,
+          "language": "Japanese",
+          "name": {
+            "first": "Mikako",
+            "last": "Takahashi",
+            "full": "Mikako Takahashi",
+            "native": "高橋美佳子",
+            "userPreferred": "Mikako Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95132-TpIFKL0tJg84.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21484,
+      "role": "MAIN",
+      "name": {
+        "first": "Ayano",
+        "last": "Yamada",
+        "full": "Ayano Yamada",
+        "native": null,
+        "userPreferred": "Ayano Yamada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21484.jpg",
+      "voiceActors": [
+        {
+          "id": 95241,
+          "language": "Japanese",
+          "name": {
+            "first": "Rina",
+            "last": "Satou",
+            "full": "Rina Satou",
+            "native": "佐藤利奈",
+            "userPreferred": "Rina Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95241-4XvR64oguxwS.png"
+        }
+      ]
+    },
+    {
+      "id": 21485,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Keisuke",
+        "last": "Kotaka",
+        "full": "Keisuke Kotaka",
+        "native": null,
+        "userPreferred": "Keisuke Kotaka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 95164,
+          "language": "Japanese",
+          "name": {
+            "first": "Chihiro",
+            "last": "Suzuki",
+            "full": "Chihiro Suzuki",
+            "native": "鈴木千尋",
+            "userPreferred": "Chihiro Suzuki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95164-q5cxbs9WUnTU.png"
+        }
+      ]
+    },
+    {
+      "id": 21486,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rin",
+        "last": null,
+        "full": "Rin",
+        "native": "りん",
+        "userPreferred": "Rin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/21486.jpg",
+      "voiceActors": [
+        {
+          "id": 96501,
+          "language": "Japanese",
+          "name": {
+            "first": "Haruhi",
+            "last": "Nanao",
+            "full": "Haruhi Nanao",
+            "native": "七緒はるひ",
+            "userPreferred": "Haruhi Nanao"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96501-YdNWqvlQGpIE.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 97167,
+      "relationType": "ALTERNATIVE",
+      "malId": 98202,
+      "title": {
+        "romaji": "Keitai Shoujo: Triangle Spirits",
+        "english": null,
+        "native": "ケータイ少女～トライアングルスピリッツ～",
+        "userPreferred": "Keitai Shoujo: Triangle Spirits"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/97167-nYpQNYsiMpv4.jpg",
+      "color": "#e4ae50",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/97167-nYpQNYsiMpv4.jpg",
+      "rating": 10
+    }
+  ],
+  "episodes": [
+    {
+      "id": "keitai-shoujo-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1725.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//keitai-shoujo-episode-1"
+    },
+    {
+      "id": "keitai-shoujo-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1725.jpg",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//keitai-shoujo-episode-2"
+    },
+    {
+      "id": "keitai-shoujo-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1725.jpg",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//keitai-shoujo-episode-3"
+    },
+    {
+      "id": "keitai-shoujo-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1725.jpg",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//keitai-shoujo-episode-4"
+    },
+    {
+      "id": "keitai-shoujo-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1725.jpg",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//keitai-shoujo-episode-5"
+    },
+    {
+      "id": "keitai-shoujo-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1725.jpg",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//keitai-shoujo-episode-6"
+    }
+  ]
+}

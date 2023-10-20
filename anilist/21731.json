@@ -1,0 +1,926 @@
+{
+  "id": "21731",
+  "title": {
+    "romaji": "Hand Shakers",
+    "english": "Hand Shakers",
+    "native": "ハンドシェイカー"
+  },
+  "malId": 32981,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "xN0vt5Ca8lE",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/xN0vt5Ca8lE/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21731-jhhJdeuCnFjB.jpg",
+  "popularity": 20970,
+  "color": "#0d6bf1",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21731-Lbf7R7OdN9Xa.jpg",
+  "description": "In Osaka in the year \"AD20XX,\" Hand Shakers are partners who can summon \"Nimrodes,\" weapons born from their deep psyche by joining hands. In order to grant the pair's wish, the Hand Shakers compete with and fight other Hand Shaker pairs. The top pair will then meet and challenge \"God.\"<br><br>\n\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2017,
+  "startDate": {
+    "year": 2017,
+    "month": 1,
+    "day": 11
+  },
+  "endDate": {
+    "year": 2017,
+    "month": 3,
+    "day": 29
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 42,
+  "duration": 23,
+  "genres": [
+    "Action"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "GoHands"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 2776,
+      "malId": 2776,
+      "title": {
+        "romaji": "Generation of Chaos",
+        "english": null,
+        "native": "ジェネレーション オブ カオス",
+        "userPreferred": "Generation of Chaos"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2776.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2776.jpg",
+      "rating": 27,
+      "type": "OVA"
+    },
+    {
+      "id": 123785,
+      "malId": 42825,
+      "title": {
+        "romaji": "Praeter no Kizu",
+        "english": "Scar on the Praeter",
+        "native": "プレイタの傷",
+        "userPreferred": "Praeter no Kizu"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx123785-ciGZuIesWH7l.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/123785-RPyFqAw3o3Nx.jpg",
+      "rating": 50,
+      "type": "TV"
+    },
+    {
+      "id": 120376,
+      "malId": 42307,
+      "title": {
+        "romaji": "Subarashiki Kono Sekai The Animation",
+        "english": "The World Ends with You The Animation",
+        "native": "すばらしきこのせかい The Animation",
+        "userPreferred": "Subarashiki Kono Sekai The Animation"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120376-t98raKtxXLtF.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/120376-z2I2lRDTULd9.jpg",
+      "rating": 57,
+      "type": "TV"
+    },
+    {
+      "id": 20913,
+      "malId": 27991,
+      "title": {
+        "romaji": "K: RETURN OF KINGS",
+        "english": null,
+        "native": "K RETURN OF KINGS",
+        "userPreferred": "K: RETURN OF KINGS"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20913-gtriPcPNUwAQ.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20913-0Dt52EJfG9d1.jpg",
+      "rating": 73,
+      "type": "TV"
+    },
+    {
+      "id": 20785,
+      "malId": 25397,
+      "title": {
+        "romaji": "Absolute Duo",
+        "english": "Absolute Duo",
+        "native": "アブソリュート・デュオ",
+        "userPreferred": "Absolute Duo"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20785-AsFpG5XMj7ip.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20785-S8JEdeE0e5oe.jpg",
+      "rating": 60,
+      "type": "TV"
+    },
+    {
+      "id": 21499,
+      "malId": 32105,
+      "title": {
+        "romaji": "Sousei no Onmyouji",
+        "english": "Twin Star Exorcists",
+        "native": "双星の陰陽師",
+        "userPreferred": "Sousei no Onmyouji"
+      },
+      "status": "Completed",
+      "episodes": 50,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21499-JCxvIXc27mVT.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21499-LQ6dvd4zrmTR.jpg",
+      "rating": 69,
+      "type": "TV"
+    },
+    {
+      "id": 21413,
+      "malId": 31736,
+      "title": {
+        "romaji": "Valkyrie Drive: Mermaid Mini OVA",
+        "english": null,
+        "native": "ヴァルキリードライヴ マーメイド ミニOVA",
+        "userPreferred": "Valkyrie Drive: Mermaid Mini OVA"
+      },
+      "status": "Completed",
+      "episodes": 6,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21413-fPvW8uD5XIfM.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21413-fPvW8uD5XIfM.jpg",
+      "rating": 57,
+      "type": "SPECIAL"
+    }
+  ],
+  "characters": [
+    {
+      "id": 120943,
+      "role": "MAIN",
+      "name": {
+        "first": "Tazuna",
+        "last": "Takatsuki",
+        "full": "Tazuna Takatsuki",
+        "native": "高槻手綱",
+        "userPreferred": "Tazuna Takatsuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/120943-EYjRPDFoFn0S.jpg",
+      "voiceActors": [
+        {
+          "id": 113227,
+          "language": "Japanese",
+          "name": {
+            "first": "Souma",
+            "last": "Saitou",
+            "full": "Souma Saitou",
+            "native": "斉藤壮馬",
+            "userPreferred": "Souma Saitou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n113227-x0UXLNL6v08X.png"
+        },
+        {
+          "id": 119611,
+          "language": "English",
+          "name": {
+            "first": "Justin",
+            "last": "Briner",
+            "full": "Justin Briner",
+            "native": null,
+            "userPreferred": "Justin Briner"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/119611-CwI54lOhSnDQ.jpg"
+        }
+      ]
+    },
+    {
+      "id": 120944,
+      "role": "MAIN",
+      "name": {
+        "first": "Koyori",
+        "last": "Akutagawa",
+        "full": "Koyori Akutagawa",
+        "native": "芥川小代理",
+        "userPreferred": "Koyori Akutagawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/120944-kBGpOXjv6NVY.jpg",
+      "voiceActors": [
+        {
+          "id": 106404,
+          "language": "Japanese",
+          "name": {
+            "first": "Sumire",
+            "last": "Morohoshi",
+            "full": "Sumire Morohoshi",
+            "native": "諸星すみれ",
+            "userPreferred": "Sumire Morohoshi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106404-uodatsBbsnJh.png"
+        },
+        {
+          "id": 110441,
+          "language": "English",
+          "name": {
+            "first": "Lara",
+            "last": "Woodhull",
+            "full": "Lara Woodhull",
+            "native": null,
+            "userPreferred": "Lara Woodhull"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/15441.jpg"
+        }
+      ]
+    },
+    {
+      "id": 120951,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chizuru",
+        "last": "Mitsudera",
+        "full": "Chizuru Mitsudera",
+        "native": "三津寺千鶴",
+        "userPreferred": "Chizuru Mitsudera"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/120951-bHhIM7aGFmuh.jpg",
+      "voiceActors": [
+        {
+          "id": 109441,
+          "language": "Japanese",
+          "name": {
+            "first": "Sumire",
+            "last": "Uesaka",
+            "full": "Sumire Uesaka",
+            "native": "上坂すみれ",
+            "userPreferred": "Sumire Uesaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109441-lVHpd6BN2g16.png"
+        },
+        {
+          "id": 119619,
+          "language": "English",
+          "name": {
+            "first": "Sarah",
+            "last": "Wiedenheft",
+            "full": "Sarah Wiedenheft",
+            "native": null,
+            "userPreferred": "Sarah Wiedenheft"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119619-ozgAK9to6Ijy.jpg"
+        }
+      ]
+    },
+    {
+      "id": 120952,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hibiki",
+        "last": "",
+        "full": "Hibiki",
+        "native": "ヒビキ",
+        "userPreferred": "Hibiki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/120952-67M6QJLzl1zv.jpg",
+      "voiceActors": [
+        {
+          "id": 95002,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomokazu",
+            "last": "Sugita",
+            "full": "Tomokazu Sugita",
+            "native": "杉田智和",
+            "userPreferred": "Tomokazu Sugita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95002-nDIvHaynicEg.png"
+        },
+        {
+          "id": 95360,
+          "language": "English",
+          "name": {
+            "first": "Sonny",
+            "last": "Strait",
+            "full": "Sonny Strait",
+            "native": null,
+            "userPreferred": "Sonny Strait"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/360.jpg"
+        }
+      ]
+    },
+    {
+      "id": 120945,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Riri",
+        "last": "Houjou",
+        "full": "Riri Houjou",
+        "native": "北条璃々",
+        "userPreferred": "Riri Houjou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/120945-42QMxLrnF7Nn.jpg",
+      "voiceActors": [
+        {
+          "id": 105765,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Kayano",
+            "full": "Ai Kayano",
+            "native": "茅野愛衣",
+            "userPreferred": "Ai Kayano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105765-DDK94me8axVv.png"
+        },
+        {
+          "id": 119608,
+          "language": "English",
+          "name": {
+            "first": "Natalie",
+            "last": "Hoover",
+            "full": "Natalie Hoover",
+            "native": null,
+            "userPreferred": "Natalie Hoover"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/24608-8e7vlPXuIcop.jpg"
+        }
+      ]
+    },
+    {
+      "id": 120953,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bind",
+        "last": "",
+        "full": "Bind",
+        "native": "バインド",
+        "userPreferred": "Bind"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/120953-x9iB731y4Vtr.jpg",
+      "voiceActors": [
+        {
+          "id": 102263,
+          "language": "Japanese",
+          "name": {
+            "first": "Youko",
+            "last": "Hikasa",
+            "full": "Youko Hikasa",
+            "native": "日笠陽子",
+            "userPreferred": "Youko Hikasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102263-aaPZtNXVUljW.jpg"
+        },
+        {
+          "id": 95159,
+          "language": "English",
+          "name": {
+            "first": "Monica",
+            "last": "Rial",
+            "full": "Monica Rial",
+            "native": null,
+            "userPreferred": "Monica Rial"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95159-iTd65o5LhA62.png"
+        }
+      ]
+    },
+    {
+      "id": 120946,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Masaru",
+        "last": "Houjou",
+        "full": "Masaru Houjou",
+        "native": "北条勝",
+        "userPreferred": "Masaru Houjou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/120946-Iyt3UmuB0m4A.jpg",
+      "voiceActors": [
+        {
+          "id": 110919,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumu",
+            "last": "Murase",
+            "full": "Ayumu Murase",
+            "native": "村瀬歩",
+            "userPreferred": "Ayumu Murase"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n110919-zz5dq39kyzNC.png"
+        },
+        {
+          "id": 96804,
+          "language": "English",
+          "name": {
+            "first": "Trina",
+            "last": "Nishimura",
+            "full": "Trina Nishimura",
+            "native": null,
+            "userPreferred": "Trina Nishimura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96804-0OKQgacznkZ4.png"
+        }
+      ]
+    },
+    {
+      "id": 136165,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Daichi",
+        "last": "Nagaoka",
+        "full": "Daichi Nagaoka",
+        "native": "長岡大地",
+        "userPreferred": "Daichi Nagaoka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b136165-WTO9b0CsRzpY.jpg",
+      "voiceActors": [
+        {
+          "id": 95591,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenjirou",
+            "last": "Tsuda",
+            "full": "Kenjirou Tsuda",
+            "native": "津田健次郎",
+            "userPreferred": "Kenjirou Tsuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95591-WQGdD3ubbeoq.jpg"
+        }
+      ]
+    },
+    {
+      "id": 120947,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Break",
+        "last": "",
+        "full": "Break",
+        "native": "ブレイク",
+        "userPreferred": "Break"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/120947-XDxvEaEyaMSi.jpg",
+      "voiceActors": [
+        {
+          "id": 95086,
+          "language": "Japanese",
+          "name": {
+            "first": "Jun",
+            "last": "Fukuyama",
+            "full": "Jun Fukuyama",
+            "native": "福山潤",
+            "userPreferred": "Jun Fukuyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95086-cwKYmhOFNtH5.png"
+        },
+        {
+          "id": 120666,
+          "language": "English",
+          "name": {
+            "first": "Alejandro",
+            "last": "Saab",
+            "full": "Alejandro Saab",
+            "native": null,
+            "userPreferred": "Alejandro Saab"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n120666-w1w9s5Y9z6vW.png"
+        }
+      ]
+    },
+    {
+      "id": 159101,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Musubu",
+        "last": "Takatsuki",
+        "full": "Musubu Takatsuki",
+        "native": "高槻結",
+        "userPreferred": "Musubu Takatsuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b159101-afFkxEU7G2Xj.png",
+      "voiceActors": [
+        {
+          "id": 116517,
+          "language": "Japanese",
+          "name": {
+            "first": "Sora",
+            "last": "Amamiya",
+            "full": "Sora Amamiya",
+            "native": "雨宮天",
+            "userPreferred": "Sora Amamiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n116517-NQh6ewlCwzBN.jpg"
+        },
+        {
+          "id": 101729,
+          "language": "English",
+          "name": {
+            "first": "Jad",
+            "last": "Saxton",
+            "full": "Jad Saxton",
+            "native": null,
+            "userPreferred": "Jad Saxton"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101729-tga5Umgm17Mj.jpg"
+        }
+      ]
+    },
+    {
+      "id": 120948,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hayate",
+        "last": "Azuma",
+        "full": "Hayate Azuma",
+        "native": "東颯",
+        "userPreferred": "Hayate Azuma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/120948-HZpEfP5diJzk.jpg",
+      "voiceActors": [
+        {
+          "id": 115156,
+          "language": "Japanese",
+          "name": {
+            "first": "Kaito",
+            "last": "Ishikawa",
+            "full": "Kaito Ishikawa",
+            "native": "石川界人",
+            "userPreferred": "Kaito Ishikawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n115156-ngYfqBazlxYQ.png"
+        },
+        {
+          "id": 114283,
+          "language": "English",
+          "name": {
+            "first": "Aaron",
+            "last": "Roberts",
+            "full": "Aaron Roberts",
+            "native": null,
+            "userPreferred": "Aaron Roberts"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n114283-Th1dEKNmrHCQ.png"
+        }
+      ]
+    },
+    {
+      "id": 169015,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tazuna's Mother",
+        "last": null,
+        "full": "Tazuna's Mother",
+        "native": "タヅナの母",
+        "userPreferred": "Tazuna's Mother"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b169015-cEV1oK9S6Th9.png",
+      "voiceActors": [
+        {
+          "id": 101560,
+          "language": "Japanese",
+          "name": {
+            "first": "Satomi",
+            "last": "Satou",
+            "full": "Satomi Satou",
+            "native": "佐藤聡美",
+            "userPreferred": "Satomi Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101560-x0Va6GS2YMeH.png"
+        },
+        {
+          "id": 104526,
+          "language": "English",
+          "name": {
+            "first": "Tia",
+            "last": "Ballard",
+            "full": "Tia Ballard",
+            "native": null,
+            "userPreferred": "Tia Ballard"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9526.jpg"
+        }
+      ]
+    },
+    {
+      "id": 120949,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kodama",
+        "last": "",
+        "full": "Kodama",
+        "native": "コダマ",
+        "userPreferred": "Kodama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/120949-vXyPcZGUHjE7.jpg",
+      "voiceActors": [
+        {
+          "id": 105071,
+          "language": "Japanese",
+          "name": {
+            "first": "Mikako",
+            "last": "Komatsu",
+            "full": "Mikako Komatsu",
+            "native": "小松未可子",
+            "userPreferred": "Mikako Komatsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105071-Hcj0X2gcliPq.png"
+        },
+        {
+          "id": 119700,
+          "language": "English",
+          "name": {
+            "first": "Bryn",
+            "last": "Apprill",
+            "full": "Bryn Apprill",
+            "native": null,
+            "userPreferred": "Bryn Apprill"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119700-wRlpXjJevNVi.jpg"
+        }
+      ]
+    },
+    {
+      "id": 212223,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mayumi",
+        "last": "Akutagawa",
+        "full": "Mayumi Akutagawa",
+        "native": "芥川檀",
+        "userPreferred": "Mayumi Akutagawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b212223-pYD3caSlyOdQ.png",
+      "voiceActors": [
+        {
+          "id": 113511,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Kakuma",
+            "full": "Ai Kakuma",
+            "native": "加隈亜衣",
+            "userPreferred": "Ai Kakuma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n113511-9zlSX9E2ne5G.jpg"
+        },
+        {
+          "id": 119613,
+          "language": "English",
+          "name": {
+            "first": "Sara",
+            "last": "Ragsdale",
+            "full": "Sara Ragsdale",
+            "native": null,
+            "userPreferred": "Sara Ragsdale"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/24613-2XHgMx9R7AzO.jpg"
+        }
+      ]
+    },
+    {
+      "id": 120950,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Makihara",
+        "last": "",
+        "full": "Makihara",
+        "native": "マキハラ",
+        "userPreferred": "Makihara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/120950-Pv83mkwx62ur.jpg",
+      "voiceActors": [
+        {
+          "id": 95178,
+          "language": "Japanese",
+          "name": {
+            "first": "Shoutarou",
+            "last": "Morikubo",
+            "full": "Shoutarou Morikubo",
+            "native": "森久保祥太郎",
+            "userPreferred": "Shoutarou Morikubo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95178-8R9Itg3Y1v24.png"
+        },
+        {
+          "id": 102450,
+          "language": "English",
+          "name": {
+            "first": "Anthony",
+            "last": "Bowling",
+            "full": "Anthony Bowling",
+            "native": null,
+            "userPreferred": "Anthony Bowling"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7450.jpg"
+        }
+      ]
+    },
+    {
+      "id": 218931,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tomoki",
+        "last": "Tachibana",
+        "full": "Tomoki Tachibana",
+        "native": "橘友樹",
+        "userPreferred": "Tomoki Tachibana"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b218931-e3B9pRX30Nzd.jpg",
+      "voiceActors": [
+        {
+          "id": 118407,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuusuke",
+            "last": "Kobayashi",
+            "full": "Yuusuke Kobayashi",
+            "native": "小林裕介",
+            "userPreferred": "Yuusuke Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n118407-QvEt3bGtuRQM.png"
+        },
+        {
+          "id": 129490,
+          "language": "English",
+          "name": {
+            "first": "Derick",
+            "last": "Snow",
+            "full": "Derick Snow",
+            "native": null,
+            "userPreferred": "Derick Snow"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n129490-L9VSJJtAl9wv.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 98507,
+      "relationType": "PREQUEL",
+      "malId": 35202,
+      "title": {
+        "romaji": "Hand Shakers: Go ago Go",
+        "english": "Hand Shakers: Go ago Go",
+        "native": "ハンドシェイカー: Go ago Go",
+        "userPreferred": "Hand Shakers: Go ago Go"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx98507-dUU9Ax1kc46R.jpg",
+      "color": "#e45d86",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98507-OCv1o4IaisU5.jpg",
+      "rating": 50
+    },
+    {
+      "id": 107172,
+      "relationType": "ADAPTATION",
+      "malId": 103404,
+      "title": {
+        "romaji": "Hand Shakers",
+        "english": null,
+        "native": "ハンドシェイカー",
+        "userPreferred": "Hand Shakers"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx107172-glxPJ1wmBdzI.jpg",
+      "color": "#5dbbe4",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/nx107172-glxPJ1wmBdzI.jpg",
+      "rating": 55
+    },
+    {
+      "id": 101337,
+      "relationType": "SEQUEL",
+      "malId": 37509,
+      "title": {
+        "romaji": "W'z",
+        "english": null,
+        "native": "W’ｚ《ウィズ》",
+        "userPreferred": "W'z"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx101337-I2ZudqRGHaYT.jpg",
+      "color": "#e450bb",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n101337-WzFt9Tqcs9Jv.jpg",
+      "rating": 47
+    }
+  ],
+  "episodes": [
+    {
+      "id": "hand-shakers-episode-1",
+      "title": "Conductor to Contact",
+      "image": "https://media.kitsu.io/episodes/thumbnails/5468/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:21:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hand-shakers-episode-1"
+    },
+    {
+      "id": "hand-shakers-episode-2",
+      "title": "Lead by Red",
+      "image": "https://media.kitsu.io/episodes/thumbnails/5408/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:21:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hand-shakers-episode-2"
+    },
+    {
+      "id": "hand-shakers-episode-3",
+      "title": "Blade and Dagger",
+      "image": "https://media.kitsu.io/episodes/thumbnails/5469/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:21:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hand-shakers-episode-3"
+    },
+    {
+      "id": "hand-shakers-episode-4",
+      "title": "Live Lab",
+      "image": "https://media.kitsu.io/episodes/thumbnails/5426/original.png",
+      "number": 4,
+      "createdAt": "2013-02-20T18:21:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hand-shakers-episode-4"
+    },
+    {
+      "id": "hand-shakers-episode-5",
+      "title": "Meet Yet",
+      "image": "https://media.kitsu.io/episodes/thumbnails/5427/original.png",
+      "number": 5,
+      "createdAt": "2013-02-20T18:21:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hand-shakers-episode-5"
+    },
+    {
+      "id": "hand-shakers-episode-6",
+      "title": "Emperor of Fortune",
+      "image": "https://media.kitsu.io/episodes/thumbnails/5428/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:21:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hand-shakers-episode-6"
+    },
+    {
+      "id": "hand-shakers-episode-7",
+      "title": "Festival and Carnival",
+      "image": "https://media.kitsu.io/episodes/thumbnails/5429/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:21:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hand-shakers-episode-7"
+    },
+    {
+      "id": "hand-shakers-episode-8",
+      "title": "Sing a Sonic",
+      "image": "https://media.kitsu.io/episodes/thumbnails/5430/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:21:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hand-shakers-episode-8"
+    },
+    {
+      "id": "hand-shakers-episode-9",
+      "title": "Finally Fairy",
+      "image": "https://media.kitsu.io/episodes/thumbnails/5431/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:21:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hand-shakers-episode-9"
+    },
+    {
+      "id": "hand-shakers-episode-10",
+      "title": "Kitten Kitchen",
+      "image": "https://media.kitsu.io/episodes/thumbnails/5432/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:21:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hand-shakers-episode-10"
+    },
+    {
+      "id": "hand-shakers-episode-11",
+      "title": "Cocoon Cocoon",
+      "image": "https://media.kitsu.io/episodes/thumbnails/5433/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:21:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hand-shakers-episode-11"
+    },
+    {
+      "id": "hand-shakers-episode-12",
+      "title": "Shake the Hands",
+      "image": "https://media.kitsu.io/episodes/thumbnails/5434/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:21:05Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hand-shakers-episode-12"
+    }
+  ]
+}

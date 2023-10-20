@@ -1,0 +1,317 @@
+{
+  "id": "4362",
+  "title": {
+    "romaji": "Fireball",
+    "english": "Fireball",
+    "native": "ファイアボール"
+  },
+  "malId": 4362,
+  "synonyms": [
+    "Fireball Shorts"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4362-FQXr9Ds459IK.jpg",
+  "popularity": 2237,
+  "color": "#f1931a",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4362-QSK5QVj4pDx4.jpg",
+  "description": "Fireball takes place during the war between humans and robots. There is no real story, just individual episode skits.",
+  "status": "Completed",
+  "releaseDate": 2008,
+  "startDate": {
+    "year": 2008,
+    "month": 4,
+    "day": 7
+  },
+  "endDate": {
+    "year": 2008,
+    "month": 6,
+    "day": 30
+  },
+  "totalEpisodes": 13,
+  "currentEpisode": 13,
+  "rating": 61,
+  "duration": 2,
+  "genres": [
+    "Comedy",
+    "Sci-Fi"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "Jinni's Animation Studios"
+  ],
+  "subOrDub": "sub",
+  "type": "TV_SHORT",
+  "recommendations": [
+    {
+      "id": 20033,
+      "malId": 20033,
+      "title": {
+        "romaji": "Miss Monochrome - The Animation",
+        "english": "Miss Monochrome - The Animation",
+        "native": "ミス・モノクローム -The Animation-",
+        "userPreferred": "Miss Monochrome - The Animation"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20033-rJv0C1BASZMJ.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20033-YGHBbXv0fdWn.png",
+      "rating": 60,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 125491,
+      "malId": 43350,
+      "title": {
+        "romaji": "Gebaude=Baude",
+        "english": null,
+        "native": "ゲボイデ＝ボイデ",
+        "userPreferred": "Gebaude=Baude"
+      },
+      "status": "Completed",
+      "episodes": 10,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125491-8DuV6JfT3KkM.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/125491-2lhE0HClnYXa.jpg",
+      "rating": 59,
+      "type": "TV_SHORT"
+    }
+  ],
+  "characters": [
+    {
+      "id": 12296,
+      "role": "MAIN",
+      "name": {
+        "first": "Gedächtnis",
+        "last": null,
+        "full": "Gedächtnis",
+        "native": "ゲデヒトニス",
+        "userPreferred": "Gedächtnis"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/12296.jpg",
+      "voiceActors": [
+        {
+          "id": 95243,
+          "language": "Japanese",
+          "name": {
+            "first": "Tooru",
+            "last": "Ookawa",
+            "full": "Tooru Ookawa",
+            "native": "大川透",
+            "userPreferred": "Tooru Ookawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95243-zhk18RRqSAmx.png"
+        }
+      ]
+    },
+    {
+      "id": 12297,
+      "role": "MAIN",
+      "name": {
+        "first": "Drossel",
+        "last": "von Flügel",
+        "full": "Drossel von Flügel",
+        "native": "ドロッセル",
+        "userPreferred": "Drossel von Flügel"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b12297-vqXhZwp7paGd.png",
+      "voiceActors": [
+        {
+          "id": 101056,
+          "language": "Japanese",
+          "name": {
+            "first": "Miyuki",
+            "last": "Kawasho",
+            "full": "Miyuki Kawasho",
+            "native": "川庄美雪",
+            "userPreferred": "Miyuki Kawasho"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/6056.jpg"
+        }
+      ]
+    },
+    {
+      "id": 237891,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Die Schadenfreude",
+        "last": "",
+        "full": "Die Schadenfreude",
+        "native": "シャーデンフロイデ",
+        "userPreferred": "Die Schadenfreude"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b237891-lJ1EggPK9zWb.png",
+      "voiceActors": [
+        {
+          "id": 95744,
+          "language": "Japanese",
+          "name": {
+            "first": "Daisuke",
+            "last": "Gouri",
+            "full": "Daisuke Gouri",
+            "native": "郷里大輔",
+            "userPreferred": "Daisuke Gouri"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95744-Iu1p0eNvShfN.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 10348,
+      "relationType": "PREQUEL",
+      "malId": 10348,
+      "title": {
+        "romaji": "Fireball Charming",
+        "english": null,
+        "native": "ファイアボール チャーミング",
+        "userPreferred": "Fireball Charming"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10348.jpg",
+      "color": "#f1a135",
+      "type": "TV_SHORT",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10348-vNMoILNeJhMU.jpg",
+      "rating": 64
+    },
+    {
+      "id": 10666,
+      "relationType": "SIDE_STORY",
+      "malId": 10666,
+      "title": {
+        "romaji": "Fireball Special: Making of Fireball",
+        "english": null,
+        "native": "ファイアボールスペシャル メイキング・オブ・ファイアボール",
+        "userPreferred": "Fireball Special: Making of Fireball"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10666-tvvWiwyL72Dc.jpg",
+      "color": "#e4860d",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10666-tvvWiwyL72Dc.jpg",
+      "rating": 59
+    }
+  ],
+  "episodes": [
+    {
+      "id": "fireball-episode-1",
+      "title": "Watching the Water-Living Animals",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59880/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:25:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fireball-episode-1"
+    },
+    {
+      "id": "fireball-episode-2",
+      "title": "9:25",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59881/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:25:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fireball-episode-2"
+    },
+    {
+      "id": "fireball-episode-3",
+      "title": "The Day the Dolphin Flew",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59882/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:25:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fireball-episode-3"
+    },
+    {
+      "id": "fireball-episode-4",
+      "title": "St. Elmo's Fire",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59883/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:25:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fireball-episode-4"
+    },
+    {
+      "id": "fireball-episode-5",
+      "title": "Demon of the Frontal Lobe",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59884/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:25:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fireball-episode-5"
+    },
+    {
+      "id": "fireball-episode-6",
+      "title": "An Unwavering Heart",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59885/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:25:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fireball-episode-6"
+    },
+    {
+      "id": "fireball-episode-7",
+      "title": "Prophecy",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59886/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:25:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fireball-episode-7"
+    },
+    {
+      "id": "fireball-episode-8",
+      "title": "The Monkey in the Seat",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59887/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:25:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fireball-episode-8"
+    },
+    {
+      "id": "fireball-episode-9",
+      "title": "Butterfly",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59888/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:25:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fireball-episode-9"
+    },
+    {
+      "id": "fireball-episode-10",
+      "title": "Final Stop",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59889/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:25:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fireball-episode-10"
+    },
+    {
+      "id": "fireball-episode-11",
+      "title": "Intruders",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59890/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:25:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fireball-episode-11"
+    },
+    {
+      "id": "fireball-episode-12",
+      "title": "The Virtual Eye",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59891/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:25:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fireball-episode-12"
+    },
+    {
+      "id": "fireball-episode-13",
+      "title": "The Place Where Dreams Are Born",
+      "image": "https://media.kitsu.io/episodes/thumbnails/59892/original.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:25:44Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//fireball-episode-13"
+    }
+  ]
+}

@@ -1,0 +1,772 @@
+{
+  "id": "318",
+  "title": {
+    "romaji": "HAND MAID May",
+    "english": null,
+    "native": "HAND MAID メイ"
+  },
+  "malId": 318,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx318-y6XU23XQD8pC.png",
+  "popularity": 4212,
+  "color": "#e4ae50",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/318-RB1jmvggxD7W.jpg",
+  "description": "Saotome Kazuya is a computer whiz. One day his friend Nanbara, threatens him with a computer virus. Trying to stop the virus, Kazuya ends up making a special order. May is a cyberdoll that arrives at his door a few minutes later and she is 1/6th the size of a normal person, which makes for many awkward situations. Not to mention the fact Kazuya can't even afford to keep May. Cyberdyne is not satisfied with Kazuya's non-payments and will do anything to retrieve CBD May.\n<br><br>\n(Source: Anime News Network)",
+  "status": "Completed",
+  "releaseDate": 2000,
+  "startDate": {
+    "year": 2000,
+    "month": 7,
+    "day": 26
+  },
+  "endDate": {
+    "year": 2000,
+    "month": 9,
+    "day": 27
+  },
+  "totalEpisodes": 10,
+  "currentEpisode": 10,
+  "rating": 61,
+  "duration": 23,
+  "genres": [
+    "Comedy",
+    "Ecchi",
+    "Romance",
+    "Sci-Fi"
+  ],
+  "season": "SUMMER",
+  "studios": [
+    "TNK"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 403,
+      "malId": 403,
+      "title": {
+        "romaji": "Hanaukyou Maid-tai",
+        "english": "Hanaukyo Maids",
+        "native": "花右京メイド隊",
+        "userPreferred": "Hanaukyou Maid-tai"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/403.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/403-BnxtPEuTOQV0.jpg",
+      "rating": 60,
+      "type": "TV_SHORT"
+    },
+    {
+      "id": 59,
+      "malId": 59,
+      "title": {
+        "romaji": "Chobits",
+        "english": "Chobits",
+        "native": "ちょびっツ",
+        "userPreferred": "Chobits"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx59-0J95ZHgt4uyP.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n59-A3U3L90yUEWQ.jpg",
+      "rating": 70,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 7115,
+      "role": "MAIN",
+      "name": {
+        "first": "Kazuya",
+        "last": "Saotome",
+        "full": "Kazuya Saotome",
+        "native": null,
+        "userPreferred": "Kazuya Saotome"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7115.jpg",
+      "voiceActors": [
+        {
+          "id": 95852,
+          "language": "Japanese",
+          "name": {
+            "first": "Takayuki",
+            "last": "Yamaguchi",
+            "full": "Takayuki Yamaguchi",
+            "native": "山口隆行",
+            "userPreferred": "Takayuki Yamaguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/852.jpg"
+        },
+        {
+          "id": 95281,
+          "language": "English",
+          "name": {
+            "first": "Steve",
+            "last": "Staley",
+            "full": "Steve Staley",
+            "native": null,
+            "userPreferred": "Steve Staley"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95281-pM54mfq6s7F8.jpg"
+        },
+        {
+          "id": 95774,
+          "language": "Italian",
+          "name": {
+            "first": "Simone",
+            "last": "D'Andrea",
+            "full": "Simone D'Andrea",
+            "native": null,
+            "userPreferred": "Simone D'Andrea"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95774-VV3pJui4Ee1T.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7109,
+      "role": "MAIN",
+      "name": {
+        "first": "May",
+        "last": null,
+        "full": "May",
+        "native": "サイバドール・メイ",
+        "userPreferred": "May"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7109.jpg",
+      "voiceActors": [
+        {
+          "id": 95044,
+          "language": "Japanese",
+          "name": {
+            "first": "Maria",
+            "last": "Yamamoto",
+            "full": "Maria Yamamoto",
+            "native": "山本麻里安",
+            "userPreferred": "Maria Yamamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/44.jpg"
+        },
+        {
+          "id": 95835,
+          "language": "English",
+          "name": {
+            "first": "Lia",
+            "last": "Sargent",
+            "full": "Lia Sargent",
+            "native": null,
+            "userPreferred": "Lia Sargent"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/835.jpg"
+        },
+        {
+          "id": 95778,
+          "language": "Italian",
+          "name": {
+            "first": "Domitilla",
+            "last": "D'Amico",
+            "full": "Domitilla D'Amico",
+            "native": null,
+            "userPreferred": "Domitilla D'Amico"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/778.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7112,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rena",
+        "last": null,
+        "full": "Rena",
+        "native": "サイバドール・レナ",
+        "userPreferred": "Rena"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7112.jpg",
+      "voiceActors": [
+        {
+          "id": 95008,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Kugimiya",
+            "full": "Rie Kugimiya",
+            "native": "釘宮理恵",
+            "userPreferred": "Rie Kugimiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95008-2y0EeuSTHIri.png"
+        },
+        {
+          "id": 96006,
+          "language": "English",
+          "name": {
+            "first": "Rebecca",
+            "last": "Forstadt",
+            "full": "Rebecca Forstadt",
+            "native": null,
+            "userPreferred": "Rebecca Forstadt"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1006.jpg"
+        },
+        {
+          "id": 95768,
+          "language": "Italian",
+          "name": {
+            "first": "Perla",
+            "last": "Liberatori",
+            "full": "Perla Liberatori",
+            "native": null,
+            "userPreferred": "Perla Liberatori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95768-yFfBr9YadCpl.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36986,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Takuya",
+        "last": "Saotome",
+        "full": "Takuya Saotome",
+        "native": null,
+        "userPreferred": "Takuya Saotome"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/36986.jpg",
+      "voiceActors": [
+        {
+          "id": 95022,
+          "language": "Japanese",
+          "name": {
+            "first": "Shinichirou",
+            "last": "Miki",
+            "full": "Shinichirou Miki",
+            "native": "三木眞一郎",
+            "userPreferred": "Shinichirou Miki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95022-BXggjIr4KHqd.png"
+        },
+        {
+          "id": 130349,
+          "language": "English",
+          "name": {
+            "first": "Christopher",
+            "last": "Carroll",
+            "full": "Christopher Carroll",
+            "native": null,
+            "userPreferred": "Christopher Carroll"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7110,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kei",
+        "last": null,
+        "full": "Kei",
+        "native": "サイバドール・ケイ",
+        "userPreferred": "Kei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7110-94OwejECO0Ab.jpg",
+      "voiceActors": [
+        {
+          "id": 95323,
+          "language": "Japanese",
+          "name": {
+            "first": "Omi",
+            "last": "Minami",
+            "full": "Omi Minami",
+            "native": "南央美",
+            "userPreferred": "Omi Minami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95323-IEzYhIR4WaHK.jpg"
+        },
+        {
+          "id": 95514,
+          "language": "English",
+          "name": {
+            "first": "Bridget",
+            "last": "Hoffman",
+            "full": "Bridget Hoffman",
+            "native": null,
+            "userPreferred": "Bridget Hoffman"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/514.jpg"
+        },
+        {
+          "id": 96184,
+          "language": "Italian",
+          "name": {
+            "first": "Laura",
+            "last": "Lenghi",
+            "full": "Laura Lenghi",
+            "native": null,
+            "userPreferred": "Laura Lenghi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1184.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7113,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sara",
+        "last": null,
+        "full": "Sara",
+        "native": "サイバドール ・サラ",
+        "userPreferred": "Sara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7113.jpg",
+      "voiceActors": [
+        {
+          "id": 95995,
+          "language": "Japanese",
+          "name": {
+            "first": "Kyouko",
+            "last": "Hikami",
+            "full": "Kyouko Hikami",
+            "native": "氷上恭子",
+            "userPreferred": "Kyouko Hikami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95995-zZU0UQQIQQ3N.png"
+        },
+        {
+          "id": 95036,
+          "language": "English",
+          "name": {
+            "first": "Wendee",
+            "last": "Lee",
+            "full": "Wendee Lee",
+            "native": null,
+            "userPreferred": "Wendee Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95036-UkyIYVtEhoPk.png"
+        },
+        {
+          "id": 96202,
+          "language": "Italian",
+          "name": {
+            "first": "Cinzia",
+            "last": "De Carolis",
+            "full": "Cinzia De Carolis",
+            "native": null,
+            "userPreferred": "Cinzia De Carolis"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96202-pkknl4lgfxMY.png"
+        }
+      ]
+    },
+    {
+      "id": 36983,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ikariya",
+        "last": null,
+        "full": "Ikariya",
+        "native": "イカリヤ",
+        "userPreferred": "Ikariya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/36983.jpg",
+      "voiceActors": [
+        {
+          "id": 100357,
+          "language": "Japanese",
+          "name": {
+            "first": "Miwa",
+            "last": "Yasuda",
+            "full": "Miwa Yasuda",
+            "native": "美和 安田",
+            "userPreferred": "Miwa Yasuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5357.jpg"
+        },
+        {
+          "id": 95620,
+          "language": "English",
+          "name": {
+            "first": "Brianne",
+            "last": "Siddall",
+            "full": "Brianne Siddall",
+            "native": null,
+            "userPreferred": "Brianne Siddall"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/620.jpg"
+        },
+        {
+          "id": 102896,
+          "language": "Italian",
+          "name": {
+            "first": "Laura",
+            "last": "Latini",
+            "full": "Laura Latini",
+            "native": null,
+            "userPreferred": "Laura Latini"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7896.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36984,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shikishima",
+        "last": null,
+        "full": "Shikishima",
+        "native": null,
+        "userPreferred": "Shikishima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": []
+    },
+    {
+      "id": 7116,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Nanbara",
+        "last": "Kotaro",
+        "full": "Nanbara Kotaro",
+        "native": "(南原 耕太郎,",
+        "userPreferred": "Nanbara Kotaro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7116.jpg",
+      "voiceActors": [
+        {
+          "id": 95058,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuji",
+            "last": "Ueda",
+            "full": "Yuuji Ueda",
+            "native": "うえだゆうじ",
+            "userPreferred": "Yuuji Ueda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95058-fGnId7E4tgx3.jpg"
+        },
+        {
+          "id": 95730,
+          "language": "English",
+          "name": {
+            "first": "Robert",
+            "last": "Klein",
+            "full": "Robert Klein",
+            "native": null,
+            "userPreferred": "Robert Klein"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/730.jpg"
+        },
+        {
+          "id": 102519,
+          "language": "Italian",
+          "name": {
+            "first": "Christian",
+            "last": "Iansante",
+            "full": "Christian Iansante",
+            "native": null,
+            "userPreferred": "Christian Iansante"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102519-pmovcEKOax6u.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7114,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kasumi",
+        "last": "Tani",
+        "full": "Kasumi Tani",
+        "native": "谷 かすみ",
+        "userPreferred": "Kasumi Tani"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/n7114-P4wtQCP0l4R6.jpg",
+      "voiceActors": [
+        {
+          "id": 95132,
+          "language": "Japanese",
+          "name": {
+            "first": "Mikako",
+            "last": "Takahashi",
+            "full": "Mikako Takahashi",
+            "native": "高橋美佳子",
+            "userPreferred": "Mikako Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95132-TpIFKL0tJg84.jpg"
+        },
+        {
+          "id": 95085,
+          "language": "English",
+          "name": {
+            "first": "Michelle",
+            "last": "Ruff",
+            "full": "Michelle Ruff",
+            "native": null,
+            "userPreferred": "Michelle Ruff"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95085-zJmU0x2NLr3j.jpg"
+        },
+        {
+          "id": 104247,
+          "language": "Italian",
+          "name": {
+            "first": "Francesca",
+            "last": "Manicone",
+            "full": "Francesca Manicone",
+            "native": null,
+            "userPreferred": "Francesca Manicone"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9247.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36987,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Totaro",
+        "last": "Nanbara",
+        "full": "Totaro Nanbara",
+        "native": null,
+        "userPreferred": "Totaro Nanbara"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/36987.jpg",
+      "voiceActors": [
+        {
+          "id": 95096,
+          "language": "Japanese",
+          "name": {
+            "first": "Nobutoshi",
+            "last": "Kanna",
+            "full": "Nobutoshi Kanna",
+            "native": "神奈延年",
+            "userPreferred": "Nobutoshi Kanna"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95096-7XONtZWj5lIw.png"
+        },
+        {
+          "id": 132010,
+          "language": "English",
+          "name": {
+            "first": "Kevin",
+            "last": "Seymour",
+            "full": "Kevin Seymour",
+            "native": null,
+            "userPreferred": "Kevin Seymour"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n132010-xkOMBeK0Tfk3.jpg"
+        },
+        {
+          "id": 155748,
+          "language": "Italian",
+          "name": {
+            "first": "Stefano",
+            "last": "Mondini",
+            "full": "Stefano Mondini",
+            "native": null,
+            "userPreferred": "Stefano Mondini"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n155748-uiKkDKBDseWx.png"
+        }
+      ]
+    },
+    {
+      "id": 7111,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mami",
+        "last": null,
+        "full": "Mami",
+        "native": "サイバドール・マミ",
+        "userPreferred": "Mami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/7111.jpg",
+      "voiceActors": [
+        {
+          "id": 95195,
+          "language": "Japanese",
+          "name": {
+            "first": "Kikuko",
+            "last": "Inoue",
+            "full": "Kikuko Inoue",
+            "native": "井上喜久子",
+            "userPreferred": "Kikuko Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95195-nLvtZl5sCK0D.png"
+        },
+        {
+          "id": 95537,
+          "language": "English",
+          "name": {
+            "first": "Dorothy",
+            "last": "Elias-Fahn",
+            "full": "Dorothy Elias-Fahn",
+            "native": null,
+            "userPreferred": "Dorothy Elias-Fahn"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/537.jpg"
+        },
+        {
+          "id": 152565,
+          "language": "Italian",
+          "name": {
+            "first": "Barbara",
+            "last": "Berengo Gardin",
+            "full": "Barbara Berengo Gardin",
+            "native": null,
+            "userPreferred": "Barbara Berengo Gardin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n152565-n9gYBNfy8mi1.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 2217,
+      "relationType": "SEQUEL",
+      "malId": 2217,
+      "title": {
+        "romaji": "HAND MAID May: Akiramemasen",
+        "english": null,
+        "native": "HAND MAID メイ「あきらめません」",
+        "userPreferred": "HAND MAID May: Akiramemasen"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2217-BvLBa4lqJTYG.png",
+      "color": "#f1bb50",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2217-BvLBa4lqJTYG.png",
+      "rating": 61
+    },
+    {
+      "id": 1234,
+      "relationType": "SPIN_OFF",
+      "malId": 1234,
+      "title": {
+        "romaji": "Hand Maid Mai",
+        "english": null,
+        "native": "ハンドメイドマイ",
+        "userPreferred": "Hand Maid Mai"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1234-FxtX1sh0KkLy.png",
+      "color": "#d6a16b",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1234-FxtX1sh0KkLy.png",
+      "rating": 55
+    }
+  ],
+  "episodes": [
+    {
+      "id": "hand-maid-may-episode-1",
+      "title": "How Do You Do?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/110436/original.jpg",
+      "number": 1,
+      "createdAt": "2013-08-07T00:33:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hand-maid-may-episode-1"
+    },
+    {
+      "id": "hand-maid-may-episode-2",
+      "title": "Am I Any Use At All?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/110437/original.jpg",
+      "number": 2,
+      "createdAt": "2013-08-07T00:33:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hand-maid-may-episode-2"
+    },
+    {
+      "id": "hand-maid-may-episode-3",
+      "title": "What Should I Do?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/110438/original.jpg",
+      "number": 3,
+      "createdAt": "2013-08-07T00:33:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hand-maid-may-episode-3"
+    },
+    {
+      "id": "hand-maid-may-episode-4",
+      "title": "Please Don't Look!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/110439/original.jpg",
+      "number": 4,
+      "createdAt": "2013-08-07T00:33:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hand-maid-may-episode-4"
+    },
+    {
+      "id": "hand-maid-may-episode-5",
+      "title": "Until Today, I've Really...",
+      "image": "https://media.kitsu.io/episodes/thumbnails/110440/original.jpg",
+      "number": 5,
+      "createdAt": "2013-08-07T00:33:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hand-maid-may-episode-5"
+    },
+    {
+      "id": "hand-maid-may-episode-6",
+      "title": "More! More!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/110441/original.jpg",
+      "number": 6,
+      "createdAt": "2013-08-07T00:33:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hand-maid-may-episode-6"
+    },
+    {
+      "id": "hand-maid-may-episode-7",
+      "title": "I Don't Have Much Time?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/110442/original.jpg",
+      "number": 7,
+      "createdAt": "2013-08-07T00:33:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hand-maid-may-episode-7"
+    },
+    {
+      "id": "hand-maid-may-episode-8",
+      "title": "There's So Much I Want!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/110443/original.jpg",
+      "number": 8,
+      "createdAt": "2013-08-07T00:33:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hand-maid-may-episode-8"
+    },
+    {
+      "id": "hand-maid-may-episode-9",
+      "title": "Besides That... I Believe You",
+      "image": "https://media.kitsu.io/episodes/thumbnails/110444/original.jpg",
+      "number": 9,
+      "createdAt": "2013-08-07T00:33:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hand-maid-may-episode-9"
+    },
+    {
+      "id": "hand-maid-may-episode-10",
+      "title": "My Best",
+      "image": "https://media.kitsu.io/episodes/thumbnails/110445/original.jpg",
+      "number": 10,
+      "createdAt": "2013-08-07T00:33:46Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//hand-maid-may-episode-10"
+    },
+    {
+      "id": "hand-maid-may-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx318-y6XU23XQD8pC.png",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//hand-maid-may-episode-11"
+    }
+  ]
+}

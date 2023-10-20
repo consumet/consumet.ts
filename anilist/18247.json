@@ -1,0 +1,917 @@
+{
+  "id": "18247",
+  "title": {
+    "romaji": "IS: Infinite Stratos 2",
+    "english": "Infinite Stratos 2",
+    "native": "IS〈インフィニット・ストラトス〉2"
+  },
+  "malId": 18247,
+  "synonyms": [
+    "IS2"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "trailer": {
+    "id": "6D6xnLd6isw",
+    "site": "youtube",
+    "thumbnail": "https://i.ytimg.com/vi/6D6xnLd6isw/hqdefault.jpg"
+  },
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/18247.jpg",
+  "popularity": 61479,
+  "color": "#e4505d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/18247.jpg",
+  "description": "Second season of Infinite Stratos.",
+  "status": "Completed",
+  "releaseDate": 2013,
+  "startDate": {
+    "year": 2013,
+    "month": 10,
+    "day": 4
+  },
+  "endDate": {
+    "year": 2013,
+    "month": 12,
+    "day": 20
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 60,
+  "duration": 24,
+  "genres": [
+    "Action",
+    "Comedy",
+    "Ecchi",
+    "Mecha",
+    "Romance",
+    "Sci-Fi"
+  ],
+  "season": "FALL",
+  "studios": [
+    "8-bit"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 15583,
+      "malId": 15583,
+      "title": {
+        "romaji": "Date A Live",
+        "english": "Date A Live",
+        "native": "デート・ア・ライブ",
+        "userPreferred": "Date A Live"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15583-Sxd2J4RJdRhj.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15583.jpg",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 21362,
+      "malId": 31338,
+      "title": {
+        "romaji": "Hundred",
+        "english": "Hundred",
+        "native": "ハンドレッド",
+        "userPreferred": "Hundred"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21362-kXBkIa9tP3WO.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21362-x9quCoBS5cTg.jpg",
+      "rating": 58,
+      "type": "TV"
+    },
+    {
+      "id": 21378,
+      "malId": 31845,
+      "title": {
+        "romaji": "Masou Gakuen HxH",
+        "english": "Hybrid x Heart Magias Academy Ataraxia",
+        "native": "魔装学園H×H",
+        "userPreferred": "Masou Gakuen HxH"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21378-83u2Jo9aACxx.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21378-GY0wHMo8lcdS.png",
+      "rating": 55,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 36111,
+      "role": "MAIN",
+      "name": {
+        "first": "Cecilia",
+        "last": "Alcott",
+        "full": "Cecilia Alcott",
+        "native": "セシリア・オルコット",
+        "userPreferred": "Cecilia Alcott"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/36111.jpg",
+      "voiceActors": [
+        {
+          "id": 95140,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukana",
+            "last": "",
+            "full": "Yukana",
+            "native": "ゆかな",
+            "userPreferred": "Yukana"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95140-sFp0uedEmZ9f.png"
+        },
+        {
+          "id": 95414,
+          "language": "English",
+          "name": {
+            "first": "Brittney",
+            "last": "Karbowski",
+            "full": "Brittney Karbowski",
+            "native": null,
+            "userPreferred": "Brittney Karbowski"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/414.jpg"
+        }
+      ]
+    },
+    {
+      "id": 35663,
+      "role": "MAIN",
+      "name": {
+        "first": "Laura",
+        "last": "Bodewig",
+        "full": "Laura Bodewig",
+        "native": "ラウラ・ボーデヴィッヒ",
+        "userPreferred": "Laura Bodewig"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b35663-o1ObPNk2cR1d.jpg",
+      "voiceActors": [
+        {
+          "id": 95158,
+          "language": "Japanese",
+          "name": {
+            "first": "Marina",
+            "last": "Inoue",
+            "full": "Marina Inoue",
+            "native": "井上麻里奈",
+            "userPreferred": "Marina Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95158-OLhgs8zv5xsp.jpg"
+        },
+        {
+          "id": 95145,
+          "language": "English",
+          "name": {
+            "first": "Tiffany",
+            "last": "Grant",
+            "full": "Tiffany Grant",
+            "native": null,
+            "userPreferred": "Tiffany Lynn Grant"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95145-c3MjV5tshGXX.jpg"
+        }
+      ]
+    },
+    {
+      "id": 35662,
+      "role": "MAIN",
+      "name": {
+        "first": "Charlotte",
+        "last": "Dunois",
+        "full": "Charlotte Dunois",
+        "native": "シャルロット デュノア",
+        "userPreferred": "Charlotte Dunois"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b35662-6B012eUCJfpB.jpg",
+      "voiceActors": [
+        {
+          "id": 95185,
+          "language": "Japanese",
+          "name": {
+            "first": "Kana",
+            "last": "Hanazawa",
+            "full": "Kana Hanazawa",
+            "native": "花澤香菜",
+            "userPreferred": "Kana Hanazawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95185-vZ6nmfBKQgw1.jpg"
+        },
+        {
+          "id": 95603,
+          "language": "English",
+          "name": {
+            "first": "Shannon",
+            "last": "Emerick",
+            "full": "Shannon Emerick",
+            "native": null,
+            "userPreferred": "Shannon Emerick"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95603-86oUTjGBLgvi.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36110,
+      "role": "MAIN",
+      "name": {
+        "first": "Lingyin",
+        "last": "Huang",
+        "full": "Lingyin Huang",
+        "native": "凰鈴音",
+        "userPreferred": "Lingyin Huang"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/36110.jpg",
+      "voiceActors": [
+        {
+          "id": 96696,
+          "language": "Japanese",
+          "name": {
+            "first": "Asami",
+            "last": "Shimoda",
+            "full": "Asami Shimoda",
+            "native": "下田麻美",
+            "userPreferred": "Asami Shimoda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96696-nWJbm04iuOWW.jpg"
+        },
+        {
+          "id": 95151,
+          "language": "English",
+          "name": {
+            "first": "Hilary",
+            "last": "Haag",
+            "full": "Hilary Haag",
+            "native": null,
+            "userPreferred": "Hilary Haag"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/151.jpg"
+        }
+      ]
+    },
+    {
+      "id": 35659,
+      "role": "MAIN",
+      "name": {
+        "first": "Ichika",
+        "last": "Orimura",
+        "full": "Ichika Orimura",
+        "native": "織斑一夏",
+        "userPreferred": "Ichika Orimura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/35659.jpg",
+      "voiceActors": [
+        {
+          "id": 96764,
+          "language": "Japanese",
+          "name": {
+            "first": "Kouki",
+            "last": "Uchiyama",
+            "full": "Kouki Uchiyama",
+            "native": "内山昂輝",
+            "userPreferred": "Kouki Uchiyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96764-yJWGrhjanDJQ.png"
+        },
+        {
+          "id": 96047,
+          "language": "English",
+          "name": {
+            "first": "Jessie James",
+            "last": "Grelle",
+            "full": "Jessie James Grelle",
+            "native": null,
+            "userPreferred": "Jessie James Grelle"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96047-E9nBWn3YL0Tn.jpg"
+        }
+      ]
+    },
+    {
+      "id": 35660,
+      "role": "MAIN",
+      "name": {
+        "first": "Houki",
+        "last": "Shinonono",
+        "full": "Houki Shinonono",
+        "native": "篠ノ之箒",
+        "userPreferred": "Houki Shinonono"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b35660-kHfdwJ4ZOubg.jpg",
+      "voiceActors": [
+        {
+          "id": 102263,
+          "language": "Japanese",
+          "name": {
+            "first": "Youko",
+            "last": "Hikasa",
+            "full": "Youko Hikasa",
+            "native": "日笠陽子",
+            "userPreferred": "Youko Hikasa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102263-aaPZtNXVUljW.jpg"
+        },
+        {
+          "id": 95159,
+          "language": "English",
+          "name": {
+            "first": "Monica",
+            "last": "Rial",
+            "full": "Monica Rial",
+            "native": null,
+            "userPreferred": "Monica Rial"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95159-iTd65o5LhA62.png"
+        }
+      ]
+    },
+    {
+      "id": 45919,
+      "role": "MAIN",
+      "name": {
+        "first": "Tatenashi",
+        "last": "Sarashiki",
+        "full": "Tatenashi Sarashiki",
+        "native": "更識楯無",
+        "userPreferred": "Tatenashi Sarashiki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/45919.jpg",
+      "voiceActors": [
+        {
+          "id": 95061,
+          "language": "Japanese",
+          "name": {
+            "first": "Chiwa",
+            "last": "Saitou",
+            "full": "Chiwa Saitou",
+            "native": "斎藤千和",
+            "userPreferred": "Chiwa Saitou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95061-R8YSAYX7UFCO.png"
+        },
+        {
+          "id": 96048,
+          "language": "English",
+          "name": {
+            "first": "Jessica",
+            "last": "Calvello",
+            "full": "Jessica Calvello",
+            "native": null,
+            "userPreferred": "Jessica Calvello"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96048-jnCHXjbHtDMh.jpg"
+        }
+      ]
+    },
+    {
+      "id": 38343,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Chifuyu",
+        "last": "Orimura",
+        "full": "Chifuyu Orimura",
+        "native": "織斑千冬",
+        "userPreferred": "Chifuyu Orimura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/38343.jpg",
+      "voiceActors": [
+        {
+          "id": 95144,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Toyoguchi",
+            "full": "Megumi Toyoguchi",
+            "native": "豊口めぐみ",
+            "userPreferred": "Megumi Toyoguchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95144-9Y8CtDVmxogE.jpg"
+        },
+        {
+          "id": 95189,
+          "language": "English",
+          "name": {
+            "first": "Luci",
+            "last": "Christian",
+            "full": "Luci Christian",
+            "native": null,
+            "userPreferred": "Luci Christian"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95189-M2IkMNRzHYcF.jpg"
+        }
+      ]
+    },
+    {
+      "id": 57261,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kanzashi",
+        "last": "Sarashiki",
+        "full": "Kanzashi Sarashiki",
+        "native": "更識 簪",
+        "userPreferred": "Kanzashi Sarashiki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/57261.jpg",
+      "voiceActors": [
+        {
+          "id": 106359,
+          "language": "Japanese",
+          "name": {
+            "first": "Suzuko",
+            "last": "Mimori",
+            "full": "Suzuko Mimori",
+            "native": "三森すずこ",
+            "userPreferred": "Suzuko Mimori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106359-G8dROMWpwlM6.png"
+        },
+        {
+          "id": 95162,
+          "language": "English",
+          "name": {
+            "first": "Kira",
+            "last": "Vincent-Davis",
+            "full": "Kira Vincent-Davis",
+            "native": null,
+            "userPreferred": "Kira Vincent-Davis"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/162.jpg"
+        }
+      ]
+    },
+    {
+      "id": 40844,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Honne",
+        "last": "Nohotoke",
+        "full": "Honne Nohotoke",
+        "native": "布仏本音",
+        "userPreferred": "Honne Nohotoke"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/40844.jpg",
+      "voiceActors": [
+        {
+          "id": 95117,
+          "language": "Japanese",
+          "name": {
+            "first": "Mai",
+            "last": "Kadowaki",
+            "full": "Mai Kadowaki",
+            "native": "門脇舞以",
+            "userPreferred": "Mai Kadowaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95117-TpLo1AeJRfVJ.jpg"
+        },
+        {
+          "id": 95652,
+          "language": "English",
+          "name": {
+            "first": "Monica",
+            "last": "Passley",
+            "full": "Monica Passley",
+            "native": null,
+            "userPreferred": "Monica Passley"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/652.jpg"
+        }
+      ]
+    },
+    {
+      "id": 78781,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kiyoka",
+        "last": "Aikawa",
+        "full": "Kiyoka Aikawa",
+        "native": "相川清香",
+        "userPreferred": "Kiyoka Aikawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/78781.jpg",
+      "voiceActors": [
+        {
+          "id": 96063,
+          "language": "Japanese",
+          "name": {
+            "first": "Arise",
+            "last": "Satou",
+            "full": "Arise Satou",
+            "native": "佐藤有世 ",
+            "userPreferred": "Arise Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96063-37RS2uEtFiuR.jpg"
+        },
+        {
+          "id": 96606,
+          "language": "English",
+          "name": {
+            "first": "Allison",
+            "last": "Sumrall",
+            "full": "Allison Sumrall",
+            "native": null,
+            "userPreferred": "Allison Sumrall"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96606-oaTOj5bbSpDs.jpg"
+        }
+      ]
+    },
+    {
+      "id": 40976,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Tabane",
+        "last": "Shinonono",
+        "full": "Tabane Shinonono",
+        "native": "篠ノ之束",
+        "userPreferred": "Tabane Shinonono"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b40976-LR8ZmaRQhapK.png",
+      "voiceActors": [
+        {
+          "id": 95027,
+          "language": "Japanese",
+          "name": {
+            "first": "Yukari",
+            "last": "Tamura",
+            "full": "Yukari Tamura",
+            "native": "田村ゆかり",
+            "userPreferred": "Yukari Tamura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95027-Zm9onZDUN7ih.jpg"
+        },
+        {
+          "id": 95194,
+          "language": "English",
+          "name": {
+            "first": "Allison",
+            "last": "Keith-Shipp",
+            "full": "Allison Keith-Shipp",
+            "native": null,
+            "userPreferred": "Allison Keith-Shipp"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95194-Ij7tty2nbUFi.jpg"
+        }
+      ]
+    },
+    {
+      "id": 78979,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Reiko",
+        "last": "Makigami",
+        "full": "Reiko Makigami",
+        "native": "巻紙礼子",
+        "userPreferred": "Reiko Makigami"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/78979.jpg",
+      "voiceActors": [
+        {
+          "id": 105045,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuka",
+            "last": "Nishigaki",
+            "full": "Yuka Nishigaki",
+            "native": "西墻由香",
+            "userPreferred": "Yuka Nishigaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105045-23ydNj8A5MfY.png"
+        },
+        {
+          "id": 95193,
+          "language": "English",
+          "name": {
+            "first": "Shelley",
+            "last": "Calene-Black",
+            "full": "Shelley Calene-Black",
+            "native": null,
+            "userPreferred": "Shelley Calene-Black"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95193-Nvdjk8BIcEJb.png"
+        }
+      ]
+    },
+    {
+      "id": 79023,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Madoka",
+        "last": "Orimura",
+        "full": "Madoka Orimura",
+        "native": "織斑マドカ",
+        "userPreferred": "Madoka Orimura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b79023-hbDlMP2zVLNp.jpg",
+      "voiceActors": [
+        {
+          "id": 105765,
+          "language": "Japanese",
+          "name": {
+            "first": "Ai",
+            "last": "Kayano",
+            "full": "Ai Kayano",
+            "native": "茅野愛衣",
+            "userPreferred": "Ai Kayano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105765-DDK94me8axVv.png"
+        },
+        {
+          "id": 95189,
+          "language": "English",
+          "name": {
+            "first": "Luci",
+            "last": "Christian",
+            "full": "Luci Christian",
+            "native": null,
+            "userPreferred": "Luci Christian"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95189-M2IkMNRzHYcF.jpg"
+        }
+      ]
+    },
+    {
+      "id": 38344,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Maya",
+        "last": "Yamada",
+        "full": "Maya Yamada",
+        "native": "山田真耶",
+        "userPreferred": "Maya Yamada"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/38344.jpg",
+      "voiceActors": [
+        {
+          "id": 95120,
+          "language": "Japanese",
+          "name": {
+            "first": "Noriko",
+            "last": "Shitaya",
+            "full": "Noriko Shitaya",
+            "native": "下屋則子",
+            "userPreferred": "Noriko Shitaya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95120-XwX1WdxBi5C2.png"
+        },
+        {
+          "id": 95721,
+          "language": "English",
+          "name": {
+            "first": "Cynthia",
+            "last": "Martinez",
+            "full": "Cynthia Martinez",
+            "native": null,
+            "userPreferred": "Cynthia Martinez"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95721-4wGzyO12bXAP.jpg"
+        }
+      ]
+    },
+    {
+      "id": 155957,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Squall",
+        "last": "Meusel",
+        "full": "Squall Meusel",
+        "native": "スコール・ミューゼル",
+        "userPreferred": "Squall Meusel"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b155957-UrKpX5fLxC8F.png",
+      "voiceActors": [
+        {
+          "id": 96067,
+          "language": "Japanese",
+          "name": {
+            "first": "Fumi",
+            "last": "Hirano",
+            "full": "Fumi Hirano",
+            "native": "平野文",
+            "userPreferred": "Fumi Hirano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96067-Joe6uMJ9OgXF.png"
+        },
+        {
+          "id": 101181,
+          "language": "English",
+          "name": {
+            "first": "Carli",
+            "last": "Mosier",
+            "full": "Carli Mosier",
+            "native": "Carlin Cyd Mosier",
+            "userPreferred": "Carli Mosier"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101181-LTc5rfaUef91.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 10794,
+      "relationType": "PREQUEL",
+      "malId": 10794,
+      "title": {
+        "romaji": "IS: Infinite Stratos Encore - Koi ni Kogareru Sextet",
+        "english": "IS: Infinite Stratos Encore: A Sextet Yearning for Love",
+        "native": "IS ＜インフィニット・ストラトス＞ アンコール『恋に焦がれる六重奏』",
+        "userPreferred": "IS: Infinite Stratos Encore - Koi ni Kogareru Sextet"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10794.jpg",
+      "color": null,
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10794.jpg",
+      "rating": 64
+    },
+    {
+      "id": 53881,
+      "relationType": "ADAPTATION",
+      "malId": 23881,
+      "title": {
+        "romaji": "IS: Infinite Stratos",
+        "english": null,
+        "native": "IS〈インフィニット・ストラトス〉",
+        "userPreferred": "IS: Infinite Stratos"
+      },
+      "status": "Ongoing",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/23881.jpg",
+      "color": "#e46b5d",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/23881.jpg",
+      "rating": 68
+    },
+    {
+      "id": 20571,
+      "relationType": "SEQUEL",
+      "malId": 21653,
+      "title": {
+        "romaji": "IS: Infinite Stratos - World Purge-hen",
+        "english": null,
+        "native": "IS〈インフィニット・ストラトス〉ワールド・パージ編",
+        "userPreferred": "IS: Infinite Stratos - World Purge-hen"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20571.jpg",
+      "color": "#d61a5d",
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20571.jpg",
+      "rating": 65
+    },
+    {
+      "id": 20045,
+      "relationType": "ALTERNATIVE",
+      "malId": 20045,
+      "title": {
+        "romaji": "IS: Infinite Stratos 2 - Hitonatsu no Omoide",
+        "english": null,
+        "native": "IS＜インフィニット・ストラトス＞2  ロングバケーション 一夏（ひとなつ）の想いで",
+        "userPreferred": "IS: Infinite Stratos 2 - Hitonatsu no Omoide"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20045.jpg",
+      "color": null,
+      "type": "OVA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20045.jpg",
+      "rating": 64
+    },
+    {
+      "id": 98860,
+      "relationType": "SIDE_STORY",
+      "malId": 33242,
+      "title": {
+        "romaji": "IS: Infinite Stratos 2 - Infinite Wedding",
+        "english": "IS: Infinite Stratos 2 - Infinite Wedding",
+        "native": "IS〈インフィニット・ストラトス〉2 インフィニット・ウエディング",
+        "userPreferred": "IS: Infinite Stratos 2 - Infinite Wedding"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/98860-vVRlcm1NjFTB.jpg",
+      "color": null,
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/98860-vVRlcm1NjFTB.jpg",
+      "rating": 59
+    }
+  ],
+  "episodes": [
+    {
+      "id": "infinite-stratos-2-episode-1",
+      "title": "The Memory of a Summer",
+      "image": "https://media.kitsu.io/episodes/thumbnails/111976/original.jpg",
+      "number": 1,
+      "createdAt": "2013-09-13T00:51:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//infinite-stratos-2-episode-1"
+    },
+    {
+      "id": "infinite-stratos-2-episode-2",
+      "title": "Heart Pain Killer",
+      "image": "https://media.kitsu.io/episodes/thumbnails/111977/original.jpg",
+      "number": 2,
+      "createdAt": "2013-09-13T00:51:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//infinite-stratos-2-episode-2"
+    },
+    {
+      "id": "infinite-stratos-2-episode-3",
+      "title": "Translucent Chord of Cinderella's Heel",
+      "image": "https://media.kitsu.io/episodes/thumbnails/111978/original.jpg",
+      "number": 3,
+      "createdAt": "2013-09-13T00:51:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//infinite-stratos-2-episode-3"
+    },
+    {
+      "id": "infinite-stratos-2-episode-4",
+      "title": "The Mysterious Lady",
+      "image": "https://media.kitsu.io/episodes/thumbnails/111979/original.jpg",
+      "number": 4,
+      "createdAt": "2013-09-13T00:51:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//infinite-stratos-2-episode-4"
+    },
+    {
+      "id": "infinite-stratos-2-episode-5",
+      "title": "Lovely Style",
+      "image": "https://media.kitsu.io/episodes/thumbnails/111980/original.jpg",
+      "number": 5,
+      "createdAt": "2013-09-13T00:51:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//infinite-stratos-2-episode-5"
+    },
+    {
+      "id": "infinite-stratos-2-episode-6",
+      "title": "The Secret Base",
+      "image": "https://media.kitsu.io/episodes/thumbnails/111981/original.jpg",
+      "number": 6,
+      "createdAt": "2013-09-13T00:51:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//infinite-stratos-2-episode-6"
+    },
+    {
+      "id": "infinite-stratos-2-episode-7",
+      "title": "Sisters",
+      "image": "https://media.kitsu.io/episodes/thumbnails/111982/original.jpg",
+      "number": 7,
+      "createdAt": "2013-09-13T00:51:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//infinite-stratos-2-episode-7"
+    },
+    {
+      "id": "infinite-stratos-2-episode-8",
+      "title": "Open Your Heart",
+      "image": "https://media.kitsu.io/episodes/thumbnails/111983/original.jpg",
+      "number": 8,
+      "createdAt": "2013-09-13T00:51:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//infinite-stratos-2-episode-8"
+    },
+    {
+      "id": "infinite-stratos-2-episode-9",
+      "title": "The Requirements for a Hero",
+      "image": "https://media.kitsu.io/episodes/thumbnails/111984/original.jpg",
+      "number": 9,
+      "createdAt": "2013-09-13T00:51:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//infinite-stratos-2-episode-9"
+    },
+    {
+      "id": "infinite-stratos-2-episode-10",
+      "title": "Cooking My Way",
+      "image": "https://media.kitsu.io/episodes/thumbnails/111985/original.jpg",
+      "number": 10,
+      "createdAt": "2013-09-13T00:51:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//infinite-stratos-2-episode-10"
+    },
+    {
+      "id": "infinite-stratos-2-episode-11",
+      "title": "Looking For Memories",
+      "image": "https://media.kitsu.io/episodes/thumbnails/111986/original.jpg",
+      "number": 11,
+      "createdAt": "2013-09-13T00:51:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//infinite-stratos-2-episode-11"
+    },
+    {
+      "id": "infinite-stratos-2-episode-12",
+      "title": "Girls Over",
+      "image": "https://media.kitsu.io/episodes/thumbnails/111987/original.jpg",
+      "number": 12,
+      "createdAt": "2013-09-13T00:51:30Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//infinite-stratos-2-episode-12"
+    }
+  ]
+}

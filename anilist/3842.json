@@ -1,0 +1,266 @@
+{
+  "id": "3842",
+  "title": {
+    "romaji": "Doubutsu Takarajima",
+    "english": "Animal Treasure Island",
+    "native": "どうぶつ宝島"
+  },
+  "malId": 3842,
+  "synonyms": [
+    "Les Joyeux pirates de l'île au trésor"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3842-ZyFg07J2Jdb8.jpg",
+  "popularity": 934,
+  "color": "#ff5000",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3842-ZyFg07J2Jdb8.jpg",
+  "description": "Jim and his mouse friend Gran toll away working as innkeepers. They dream of sailing far away on their own boat. One day, a mysterious fellow appears at the inn and gives them a map. It's the map to Treasure Island. So they decide to make their own boat, and sail away treasure hunting. But it’s not as easy as they think when the run into a group of unsavory pirates led by the dastardly Captain Silver. Silver wants the treasure for himself, and it is up to Jim, Gran, and their new friend Kathy, to beat him to it.<br>\n<br>\n(Source: Discotek)",
+  "status": "Completed",
+  "releaseDate": 1971,
+  "startDate": {
+    "year": 1971,
+    "month": 3,
+    "day": 20
+  },
+  "endDate": {
+    "year": 1971,
+    "month": 3,
+    "day": 20
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 56,
+  "duration": 75,
+  "genres": [
+    "Adventure"
+  ],
+  "season": "SPRING",
+  "studios": [],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [
+    {
+      "id": 2811,
+      "malId": 2811,
+      "title": {
+        "romaji": "Sora Tobu Yuurei Sen",
+        "english": "The Flying Ghost Ship",
+        "native": "空飛ぶゆうれい船",
+        "userPreferred": "Sora Tobu Yuurei Sen"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2811.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2811-T6KKtMANmCzM.jpg",
+      "rating": 57,
+      "type": "MOVIE"
+    },
+    {
+      "id": 2279,
+      "malId": 2279,
+      "title": {
+        "romaji": "Nagagutsu wo Haita Neko",
+        "english": "Puss 'n Boots",
+        "native": "長靴をはいた猫",
+        "userPreferred": "Nagagutsu wo Haita Neko"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2279.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2279.jpg",
+      "rating": 63,
+      "type": "MOVIE"
+    }
+  ],
+  "characters": [
+    {
+      "id": 236096,
+      "role": "MAIN",
+      "name": {
+        "first": "Gran",
+        "last": null,
+        "full": "Gran",
+        "native": "グラン",
+        "userPreferred": "Gran"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b236096-rpmDPJcDNwKH.png",
+      "voiceActors": [
+        {
+          "id": 96157,
+          "language": "Japanese",
+          "name": {
+            "first": "Eiko",
+            "last": "Masuyama",
+            "full": "Eiko Masuyama",
+            "native": "増山江威子",
+            "userPreferred": "Eiko Masuyama"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96157-0nZkq8xrko3y.jpg"
+        }
+      ]
+    },
+    {
+      "id": 236097,
+      "role": "MAIN",
+      "name": {
+        "first": "Jim",
+        "last": null,
+        "full": "Jim",
+        "native": "ジム",
+        "userPreferred": "Jim"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b236097-NWJkJdW994DI.png",
+      "voiceActors": [
+        {
+          "id": 96441,
+          "language": "Japanese",
+          "name": {
+            "first": "Minori",
+            "last": "Matsushima",
+            "full": "Minori Matsushima",
+            "native": "松島みのり ",
+            "userPreferred": "Minori Matsushima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96441-O32yqnN6ITFd.png"
+        }
+      ]
+    },
+    {
+      "id": 236095,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Cathy",
+        "last": null,
+        "full": "Cathy",
+        "native": "キャシー",
+        "userPreferred": "Cathy"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b236095-D1NqB5s6hOro.png",
+      "voiceActors": [
+        {
+          "id": 160145,
+          "language": "Japanese",
+          "name": {
+            "first": "Fusako",
+            "last": "Amachi",
+            "full": "Fusako Amachi",
+            "native": "天地総子",
+            "userPreferred": "Fusako Amachi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n160145-hH6nXwIxtwiE.png"
+        }
+      ]
+    },
+    {
+      "id": 236098,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Otto",
+        "last": null,
+        "full": "Otto",
+        "native": "オットー",
+        "userPreferred": "Otto"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b236098-LlFhVUjVcvsw.png",
+      "voiceActors": [
+        {
+          "id": 101792,
+          "language": "Japanese",
+          "name": {
+            "first": "Kousei",
+            "last": "Tomita",
+            "full": "Kousei Tomita",
+            "native": "富田耕生",
+            "userPreferred": "Kousei Tomita"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101792-hWklcmOIkrDO.jpg"
+        }
+      ]
+    },
+    {
+      "id": 236099,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Danshaku",
+        "last": null,
+        "full": "Danshaku",
+        "native": "男爵",
+        "userPreferred": "Danshaku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b236099-CY5zlWMv0Amh.png",
+      "voiceActors": [
+        {
+          "id": 95670,
+          "language": "Japanese",
+          "name": {
+            "first": "Jouji",
+            "last": "Yanami",
+            "full": "Jouji Yanami",
+            "native": "八奈見乗児",
+            "userPreferred": "Jouji Yanami"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95670-fTFcKuDyrOjc.png"
+        }
+      ]
+    },
+    {
+      "id": 236100,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Silver",
+        "last": null,
+        "full": "Silver",
+        "native": "シルバー",
+        "userPreferred": "Silver"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b236100-7LDSpCahR49i.png",
+      "voiceActors": [
+        {
+          "id": 108757,
+          "language": "Japanese",
+          "name": {
+            "first": "Asao",
+            "last": "Koike",
+            "full": "Asao Koike",
+            "native": "朝雄  小池",
+            "userPreferred": "Asao Koike"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n108757-9QHjJoGlThRg.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 43971,
+      "relationType": "ADAPTATION",
+      "malId": 13971,
+      "title": {
+        "romaji": "Doubutsu Takarajima",
+        "english": null,
+        "native": "どうぶつ宝島",
+        "userPreferred": "Doubutsu Takarajima"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx43971-nG0AqUj8R3r0.png",
+      "color": "#e45d86",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx43971-nG0AqUj8R3r0.png",
+      "rating": 56
+    }
+  ],
+  "episodes": [
+    {
+      "id": "doubutsu-takarajima-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3842-ZyFg07J2Jdb8.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//doubutsu-takarajima-episode-1"
+    }
+  ]
+}

@@ -1,0 +1,920 @@
+{
+  "id": "101115",
+  "title": {
+    "romaji": "Beyblade Burst Chouzetsu",
+    "english": "Beyblade Burst Turbo",
+    "native": "ベイブレードバースト超セツ"
+  },
+  "malId": 37283,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+  "popularity": 3261,
+  "color": "#50aefe",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101115-4FLEBjhD8FSJ.jpg",
+  "description": "Aiger Akabane is a wild child, who grew up surrounded by nature. Inspired by a chance Bey battle with Valt Aoi, Aiger sets his sights on becoming an invincible Blader with the help of his Turbo Bey, Z Achilles.<br><br>\nBattling powerful opponents and seeking strength; Aiger sets out to defeat Valt and claim the title of World Champion. Here begins Aiger's tale of epic adventures and fierce battles on his way to the top.<br><br>(Source: d-rights)",
+  "status": "Completed",
+  "releaseDate": 2018,
+  "startDate": {
+    "year": 2018,
+    "month": 4,
+    "day": 2
+  },
+  "endDate": {
+    "year": 2019,
+    "month": 3,
+    "day": 25
+  },
+  "totalEpisodes": 51,
+  "currentEpisode": 51,
+  "rating": 63,
+  "duration": 23,
+  "genres": [
+    "Action",
+    "Sci-Fi",
+    "Sports"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "OLM"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 116786,
+      "malId": 41439,
+      "title": {
+        "romaji": "Beyblade Burst Sparking",
+        "english": "Beyblade Burst Surge ",
+        "native": "ベイブレードバースト スパーキング",
+        "userPreferred": "Beyblade Burst Sparking"
+      },
+      "status": "Completed",
+      "episodes": 52,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116786-ZIUM2E11AK0y.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/116786-pFUeB9WaAtJs.jpg",
+      "rating": 65,
+      "type": "ONA"
+    }
+  ],
+  "characters": [
+    {
+      "id": 133962,
+      "role": "MAIN",
+      "name": {
+        "first": "Valt",
+        "last": "Aoi",
+        "full": "Valt Aoi",
+        "native": "蒼井バルト",
+        "userPreferred": "Valt Aoi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b133962-85u8C0R6uRGn.jpg",
+      "voiceActors": [
+        {
+          "id": 95158,
+          "language": "Japanese",
+          "name": {
+            "first": "Marina",
+            "last": "Inoue",
+            "full": "Marina Inoue",
+            "native": "井上麻里奈",
+            "userPreferred": "Marina Inoue"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95158-OLhgs8zv5xsp.jpg"
+        },
+        {
+          "id": 176952,
+          "language": "Portuguese",
+          "name": {
+            "first": "Carloz",
+            "last": "Magno",
+            "full": "Carloz Magno",
+            "native": null,
+            "userPreferred": "Carloz Magno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n176952-81gMj2L22bBb.jpg"
+        },
+        {
+          "id": 106906,
+          "language": "German",
+          "name": {
+            "first": "Sebastian",
+            "last": "Fitzner",
+            "full": "Sebastian Fitzner",
+            "native": null,
+            "userPreferred": "Sebastian Fitzner"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106906-Vpij6JzOEfFQ.png"
+        }
+      ]
+    },
+    {
+      "id": 134090,
+      "role": "MAIN",
+      "name": {
+        "first": "Aiga",
+        "last": "Akaba",
+        "full": "Aiga Akaba",
+        "native": "赤刃アイガ",
+        "userPreferred": "Aiga Akaba"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b134090-m3zCh3nsU0gW.jpg",
+      "voiceActors": [
+        {
+          "id": 216451,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoko",
+            "last": "Ikeda",
+            "full": "Tomoko Ikeda",
+            "native": "池田朋子",
+            "userPreferred": "Tomoko Ikeda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n216451-wbIFcABc6Hk3.png"
+        },
+        {
+          "id": 190261,
+          "language": "Portuguese",
+          "name": {
+            "first": "Danilo",
+            "last": "Diniz",
+            "full": "Danilo Diniz",
+            "native": "Danilo Diniz de Souza",
+            "userPreferred": "Danilo Diniz"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n190261-pFBE227yNhqi.png"
+        },
+        {
+          "id": 187297,
+          "language": "German",
+          "name": {
+            "first": "Ben",
+            "last": "Hadad",
+            "full": "Ben Hadad",
+            "native": null,
+            "userPreferred": "Ben Hadad"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 134177,
+      "role": "MAIN",
+      "name": {
+        "first": "Shu",
+        "last": "Kurenai",
+        "full": "Shu Kurenai",
+        "native": "紅シュウ",
+        "userPreferred": "Shu Kurenai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b134177-MzIO2Eo47flJ.jpg",
+      "voiceActors": [
+        {
+          "id": 119319,
+          "language": "Japanese",
+          "name": {
+            "first": "Junya",
+            "last": "Enoki",
+            "full": "Junya Enoki",
+            "native": "榎木淳弥",
+            "userPreferred": "Junya Enoki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119319-yIrrUOUaJuSm.png"
+        },
+        {
+          "id": 176946,
+          "language": "Portuguese",
+          "name": {
+            "first": "Rafael",
+            "last": "Quelle",
+            "full": "Rafael Quelle",
+            "native": null,
+            "userPreferred": "Rafael Quelle"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n176946-L3sqT0aixwTe.jpg"
+        },
+        {
+          "id": 140226,
+          "language": "German",
+          "name": {
+            "first": "Robert",
+            "last": "Levin",
+            "full": "Robert Levin",
+            "native": null,
+            "userPreferred": "Robert Levin"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 133720,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Free",
+        "last": "De La Hoya",
+        "full": "Free De La Hoya",
+        "native": "フリー・デラホーヤ",
+        "userPreferred": "Free De La Hoya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b133720-RjcbPr2laHSo.jpg",
+      "voiceActors": [
+        {
+          "id": 95348,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryouko",
+            "last": "Shiraishi",
+            "full": "Ryouko Shiraishi",
+            "native": "白石涼子",
+            "userPreferred": "Ryouko Shiraishi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95348-sLIy7IMrgZeA.png"
+        },
+        {
+          "id": 176967,
+          "language": "Portuguese",
+          "name": {
+            "first": "João",
+            "last": "Vieira",
+            "full": "João Vieira",
+            "native": null,
+            "userPreferred": "João Vieira"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n176967-sjgOnkyJsrNV.jpg"
+        },
+        {
+          "id": 105706,
+          "language": "German",
+          "name": {
+            "first": "Dirk",
+            "last": "Petrick",
+            "full": "Dirk Petrick",
+            "native": null,
+            "userPreferred": "Dirk Petrick"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10706.jpg"
+        }
+      ]
+    },
+    {
+      "id": 133961,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Lui",
+        "last": "Shirasagijou",
+        "full": "Lui Shirasagijou",
+        "native": "白鷺城ルイ",
+        "userPreferred": "Lui Shirasagijou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b133961-BK7rxuWlz31c.jpg",
+      "voiceActors": [
+        {
+          "id": 95082,
+          "language": "Japanese",
+          "name": {
+            "first": "Romi",
+            "last": "Park",
+            "full": "Romi Park",
+            "native": "朴璐美",
+            "userPreferred": "Romi Park"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95082-pNGbnYv4cHAK.png"
+        },
+        {
+          "id": 176960,
+          "language": "Portuguese",
+          "name": {
+            "first": "Demétrios",
+            "last": "Augustus",
+            "full": "Demétrios Augustus",
+            "native": null,
+            "userPreferred": "Demétrios Augustus"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n176960-QLr1kKIikttv.jpg"
+        },
+        {
+          "id": 102453,
+          "language": "German",
+          "name": {
+            "first": "Constantin",
+            "last": "von Jascheroff",
+            "full": "Constantin von Jascheroff",
+            "native": null,
+            "userPreferred": "Constantin von Jascheroff"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7453.jpg"
+        }
+      ]
+    },
+    {
+      "id": 184063,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kit",
+        "last": "Lopez",
+        "full": "Kit Lopez",
+        "native": " キット・ロペス",
+        "userPreferred": "Kit Lopez"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b184063-JaFgK9YtPi6B.png",
+      "voiceActors": [
+        {
+          "id": 119959,
+          "language": "Japanese",
+          "name": {
+            "first": "Satsumi",
+            "last": "Matsuda",
+            "full": "Satsumi Matsuda",
+            "native": "松田颯水",
+            "userPreferred": "Satsumi Matsuda"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n119959-dN9jj8PMUmiU.png"
+        },
+        {
+          "id": 288064,
+          "language": "Portuguese",
+          "name": {
+            "first": "Bruno",
+            "last": "Ferian",
+            "full": "Bruno Ferian",
+            "native": null,
+            "userPreferred": "Bruno Ferian"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n288064-fR0KeTUMRqSF.jpg"
+        },
+        {
+          "id": 195608,
+          "language": "German",
+          "name": {
+            "first": "Nicolas",
+            "last": "Rathod",
+            "full": "Nicolas Rathod",
+            "native": null,
+            "userPreferred": "Nicolas Rathod"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n195608-lWSll3q1LcvW.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36309,
+      "role": "BACKGROUND",
+      "name": {
+        "first": "Narrator",
+        "last": null,
+        "full": "Narrator",
+        "native": "ナレーター",
+        "userPreferred": "Narrator"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b36309-yRLEQYd2dDI5.jpg",
+      "voiceActors": [
+        {
+          "id": 107112,
+          "language": "Japanese",
+          "name": {
+            "first": "Tsutomu",
+            "last": "Tareki",
+            "full": "Tsutomu Tareki",
+            "native": "垂木勉",
+            "userPreferred": "Tsutomu Tareki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12112.jpg"
+        },
+        {
+          "id": 176958,
+          "language": "Portuguese",
+          "name": {
+            "first": "Jonathan",
+            "last": "Guedes",
+            "full": "Jonathan Guedes",
+            "native": null,
+            "userPreferred": "Jonathan Guedes"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n176958-sG0EwAJ5yH3O.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 98289,
+      "relationType": "PREQUEL",
+      "malId": 34901,
+      "title": {
+        "romaji": "Beyblade Burst God",
+        "english": "Beyblade Burst Evolution",
+        "native": "ベイブレードバースト 神[ゴッド]",
+        "userPreferred": "Beyblade Burst God"
+      },
+      "status": "Completed",
+      "episodes": 51,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98289-JS2P2rGuzKNk.jpg",
+      "color": "#f1c943",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98289-FQgyPczbJwez.jpg",
+      "rating": 68
+    },
+    {
+      "id": 108853,
+      "relationType": "SEQUEL",
+      "malId": 39282,
+      "title": {
+        "romaji": "Beyblade Burst Gachi",
+        "english": "Beyblade Burst Rise",
+        "native": "ベイブレードバーストGT(ガチ)",
+        "userPreferred": "Beyblade Burst Gachi"
+      },
+      "status": "Completed",
+      "episodes": 52,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108853-ebznx715AJ9x.jpg",
+      "color": "#f1d65d",
+      "type": "ONA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108853-ebznx715AJ9x.jpg",
+      "rating": 60
+    },
+    {
+      "id": 288,
+      "relationType": "OTHER",
+      "malId": 288,
+      "title": {
+        "romaji": "Bakuten Shoot Beyblade",
+        "english": "Beyblade",
+        "native": "爆転シュート　ベイブレード",
+        "userPreferred": "Bakuten Shoot Beyblade"
+      },
+      "status": "Completed",
+      "episodes": 51,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b288-QLBdXz8n34yP.png",
+      "color": "#5dbbf1",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/288-vt6IVT62fuk5.jpg",
+      "rating": 64
+    }
+  ],
+  "episodes": [
+    {
+      "id": "beyblade-burst-chouzetsu-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-1"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-2"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-3",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 3,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-3"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-4",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 4,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-4"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-5",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 5,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-5"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-6",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 6,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-6"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-7",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 7,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-7"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-8",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 8,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-8"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-9",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 9,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-9"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-10",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 10,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-10"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-11",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 11,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-11"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-12",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 12,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-12"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-13",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 13,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-13"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-14",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 14,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-14"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-15",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 15,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-15"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-16",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 16,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-16"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-17",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 17,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-17"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-18",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 18,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-18"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-19",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 19,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-19"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-20",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 20,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-20"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-21",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 21,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-21"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-22",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 22,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-22"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-23",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 23,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-23"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-24",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 24,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-24"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-25",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 25,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-25"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-26",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 26,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-26"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-27",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 27,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-27"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-28",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 28,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-28"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-29",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 29,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-29"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-30",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 30,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-30"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-31",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 31,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-31"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-32",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 32,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-32"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-33",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 33,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-33"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-34",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 34,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-34"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-35",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 35,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-35"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-36",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 36,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-36"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-37",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 37,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-37"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-38",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 38,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-38"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-39",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 39,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-39"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-40",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 40,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-40"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-41",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 41,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-41"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-42",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 42,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-42"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-43",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 43,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-43"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-44",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 44,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-44"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-45",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 45,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-45"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-46",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 46,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-46"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-47",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 47,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-47"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-48",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 48,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-48"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-49",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 49,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-49"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-50",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 50,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-50"
+    },
+    {
+      "id": "beyblade-burst-chouzetsu-episode-51",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101115-D0LrlWZtbOeX.png",
+      "number": 51,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//beyblade-burst-chouzetsu-episode-51"
+    }
+  ]
+}

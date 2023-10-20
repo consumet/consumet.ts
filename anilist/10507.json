@@ -1,0 +1,1723 @@
+{
+  "id": "10507",
+  "title": {
+    "romaji": "Inazuma Eleven GO",
+    "english": null,
+    "native": "イナズマイレブン GO"
+  },
+  "malId": 10507,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10507-LqauNCTPrKfq.jpg",
+  "popularity": 17239,
+  "color": "#e4a10d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10507-eI71i4Za09Xf.jpg",
+  "description": "Matsukaze Tenma, a first year who loves soccer, has exceptional dribbling skills, but still has lots of room for improvement. The story starts with him entering Raimon Jr. High ten years after the first Football Frontier International, where Raimon has become famous for its soccer. However, an organization called Fifth Sector has taken control of soccer over the years, and the passion that Raimon once had for soccer is no longer there.",
+  "status": "Completed",
+  "releaseDate": 2011,
+  "startDate": {
+    "year": 2011,
+    "month": 5,
+    "day": 4
+  },
+  "endDate": {
+    "year": 2012,
+    "month": 4,
+    "day": 11
+  },
+  "totalEpisodes": 47,
+  "currentEpisode": 47,
+  "rating": 68,
+  "duration": 24,
+  "genres": [
+    "Sports"
+  ],
+  "season": "SPRING",
+  "studios": [
+    "OLM"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 104077,
+      "malId": 38235,
+      "title": {
+        "romaji": "Inazuma Eleven: Orion no Kokuin",
+        "english": "Inazuma Eleven: The Seal of Orion",
+        "native": "イナズマイレブン オリオンの刻印",
+        "userPreferred": "Inazuma Eleven: Orion no Kokuin"
+      },
+      "status": "Completed",
+      "episodes": 49,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx104077-Huh0rmL67Z6d.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/104077-fH1cK3HIYqdc.jpg",
+      "rating": 66,
+      "type": "TV"
+    },
+    {
+      "id": 21879,
+      "malId": 33733,
+      "title": {
+        "romaji": "Inazuma Eleven: Ares no Tenbin",
+        "english": "Inazuma Eleven Ares",
+        "native": "イナズマイレブン アレスの天秤",
+        "userPreferred": "Inazuma Eleven: Ares no Tenbin"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21879-h5RaJDRqPg8N.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21879-Ac6WnBmgL5T0.jpg",
+      "rating": 64,
+      "type": "TV"
+    },
+    {
+      "id": 141775,
+      "malId": 50379,
+      "title": {
+        "romaji": "Shoot! Goal to the Future",
+        "english": "Shoot! Goal to the Future",
+        "native": "シュート！Goal to the Future",
+        "userPreferred": "Shoot! Goal to the Future"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141775-2ixoFSe09cxA.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141775-2ixoFSe09cxA.jpg",
+      "rating": 47,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 41961,
+      "role": "MAIN",
+      "name": {
+        "first": "Takuto",
+        "last": "Shindou",
+        "full": "Takuto Shindou",
+        "native": "神童拓人",
+        "userPreferred": "Takuto Shindou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b41961-LFI97KskRPyY.png",
+      "voiceActors": [
+        {
+          "id": 95197,
+          "language": "Japanese",
+          "name": {
+            "first": "Mitsuki",
+            "last": "Saiga",
+            "full": "Mitsuki Saiga",
+            "native": "斎賀みつき",
+            "userPreferred": "Mitsuki Saiga"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95197-gcTFdBK9oPtY.png"
+        },
+        {
+          "id": 109851,
+          "language": "Korean",
+          "name": {
+            "first": "Jeong Mi",
+            "last": "Bae",
+            "full": "Jeong Mi Bae",
+            "native": "정미 배",
+            "userPreferred": "Jeong Mi Bae"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14851.jpg"
+        },
+        {
+          "id": 96286,
+          "language": "Italian",
+          "name": {
+            "first": "Massimo",
+            "last": "Di Benedetto",
+            "full": "Massimo Di Benedetto",
+            "native": null,
+            "userPreferred": "Massimo Di Benedetto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96286-TD02rKR1qiHV.png"
+        },
+        {
+          "id": 277539,
+          "language": "Polish",
+          "name": {
+            "first": "Marcin",
+            "last": "Franc",
+            "full": "Marcin Franc",
+            "native": null,
+            "userPreferred": "Marcin Franc"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n277539-zjziAwlaSboB.png"
+        }
+      ]
+    },
+    {
+      "id": 16413,
+      "role": "MAIN",
+      "name": {
+        "first": "Shuuya",
+        "last": "Gouenji",
+        "full": "Shuuya Gouenji",
+        "native": "豪炎寺 修也",
+        "userPreferred": "Shuuya Gouenji"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b16413-CpiNlFdblxau.png",
+      "voiceActors": [
+        {
+          "id": 95341,
+          "language": "Japanese",
+          "name": {
+            "first": "Hirofumi",
+            "last": "Nojima",
+            "full": "Hirofumi Nojima",
+            "native": "野島裕史",
+            "userPreferred": "Hirofumi Nojima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95341-SOsBuzcMtYe8.png"
+        },
+        {
+          "id": 96283,
+          "language": "Italian",
+          "name": {
+            "first": "Federico",
+            "last": "Zanandrea",
+            "full": "Federico Zanandrea",
+            "native": null,
+            "userPreferred": "Federico Zanandrea"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96283-YUsH0Bw7dANE.jpg"
+        },
+        {
+          "id": 262174,
+          "language": "Polish",
+          "name": {
+            "first": "Michał",
+            "last": "Klawiter",
+            "full": "Michał Klawiter",
+            "native": null,
+            "userPreferred": "Michał Klawiter"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n262174-uatt1cDa23f0.png"
+        }
+      ]
+    },
+    {
+      "id": 16412,
+      "role": "MAIN",
+      "name": {
+        "first": "Mamoru",
+        "last": "Endou",
+        "full": "Mamoru Endou",
+        "native": "円堂守",
+        "userPreferred": "Mamoru Endou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b16412-ZsvITu2WWg6Q.jpg",
+      "voiceActors": [
+        {
+          "id": 95015,
+          "language": "Japanese",
+          "name": {
+            "first": "Junko",
+            "last": "Takeuchi",
+            "full": "Junko Takeuchi",
+            "native": "竹内順子",
+            "userPreferred": "Junko Takeuchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95015-QwI9K4FRe4Cq.png"
+        },
+        {
+          "id": 96163,
+          "language": "Italian",
+          "name": {
+            "first": "Renato",
+            "last": "Novara",
+            "full": "Renato Novara",
+            "native": null,
+            "userPreferred": "Renato Novara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96163-YaGjTo1XM8qd.png"
+        },
+        {
+          "id": 317559,
+          "language": "Polish",
+          "name": {
+            "first": "Miłosz",
+            "last": "Konkel",
+            "full": "Miłosz Konkel",
+            "native": null,
+            "userPreferred": "Miłosz Konkel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n317559-1SlJCSaXv57u.png"
+        }
+      ]
+    },
+    {
+      "id": 41960,
+      "role": "MAIN",
+      "name": {
+        "first": "Kyousuke",
+        "last": "Tsurugi",
+        "full": "Kyousuke Tsurugi",
+        "native": "剣城京介",
+        "userPreferred": "Kyousuke Tsurugi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b41960-wVuedD1Ey8Ls.png",
+      "voiceActors": [
+        {
+          "id": 96636,
+          "language": "Japanese",
+          "name": {
+            "first": "Takashi",
+            "last": "Oohara",
+            "full": "Takashi Oohara",
+            "native": "大原崇",
+            "userPreferred": "Takashi Oohara"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96636-RoY4fHzb8Rjc.jpg"
+        },
+        {
+          "id": 109829,
+          "language": "Korean",
+          "name": {
+            "first": "Il",
+            "last": "Kim",
+            "full": "Il Kim",
+            "native": "일 김",
+            "userPreferred": "Il Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14829.jpg"
+        },
+        {
+          "id": 96160,
+          "language": "Italian",
+          "name": {
+            "first": "Davide",
+            "last": "Garbolino",
+            "full": "Davide Garbolino",
+            "native": null,
+            "userPreferred": "Davide Garbolino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96160-f2iHwGVbtmun.jpg"
+        },
+        {
+          "id": 316691,
+          "language": "Polish",
+          "name": {
+            "first": "Błażej",
+            "last": "Stencel",
+            "full": "Błażej Stencel",
+            "native": null,
+            "userPreferred": "Błażej Stencel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n316691-0USnnnOrRBm1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 42878,
+      "role": "MAIN",
+      "name": {
+        "first": "Shinsuke",
+        "last": "Nishizono",
+        "full": "Shinsuke Nishizono",
+        "native": "西園 信助",
+        "userPreferred": "Shinsuke Nishizono"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b42878-FoApplzu65mU.png",
+      "voiceActors": [
+        {
+          "id": 95890,
+          "language": "Japanese",
+          "name": {
+            "first": "Haruka",
+            "last": "Tomatsu",
+            "full": "Haruka Tomatsu",
+            "native": "戸松遥",
+            "userPreferred": "Haruka Tomatsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95890-pDWHkOm4ncq0.png"
+        },
+        {
+          "id": 109837,
+          "language": "Korean",
+          "name": {
+            "first": "Myeong-seon",
+            "last": "Lee",
+            "full": "Myeong-seon Lee",
+            "native": "명선 이",
+            "userPreferred": "Myeong-seon Lee"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14837.jpg"
+        },
+        {
+          "id": 158850,
+          "language": "Italian",
+          "name": {
+            "first": "Renata",
+            "last": "Bertolas",
+            "full": "Renata Bertolas",
+            "native": null,
+            "userPreferred": "Renata Bertolas"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n158850-i6WeOVox5RdR.jpg"
+        },
+        {
+          "id": 102228,
+          "language": "Spanish",
+          "name": {
+            "first": "Diana",
+            "last": "Torres",
+            "full": "Diana Torres",
+            "native": null,
+            "userPreferred": "Diana Torres"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102228-wJ4LMWvbwJ0n.jpg"
+        },
+        {
+          "id": 287776,
+          "language": "Polish",
+          "name": {
+            "first": "Antoni",
+            "last": "Jędrak",
+            "full": "Antoni Jędrak",
+            "native": null,
+            "userPreferred": "Antoni Jędrak"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 41766,
+      "role": "MAIN",
+      "name": {
+        "first": "Tenma",
+        "last": "Matsukaze",
+        "full": "Tenma Matsukaze",
+        "native": "松風天馬",
+        "userPreferred": "Tenma Matsukaze"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b41766-9gpqLtVHETiO.png",
+      "voiceActors": [
+        {
+          "id": 95671,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuka",
+            "last": "Terasaki",
+            "full": "Yuka Terasaki",
+            "native": "寺崎裕香",
+            "userPreferred": "Yuka Terasaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95671-iXGq2oxE1DlW.png"
+        },
+        {
+          "id": 116529,
+          "language": "English",
+          "name": {
+            "first": "Daniella",
+            "last": "Down",
+            "full": "Daniella Down",
+            "native": null,
+            "userPreferred": "Daniella Down"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/21529.jpg"
+        },
+        {
+          "id": 101499,
+          "language": "Korean",
+          "name": {
+            "first": "Yeong-seon",
+            "last": "Kim",
+            "full": "Yeong-seon Kim",
+            "native": "김영선",
+            "userPreferred": "Yeong-seon Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101499-aHFkv5mYhE5m.png"
+        },
+        {
+          "id": 159631,
+          "language": "Italian",
+          "name": {
+            "first": "Andrea",
+            "last": "Oldani",
+            "full": "Andrea Oldani",
+            "native": null,
+            "userPreferred": "Andrea Oldani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n159631-okKoTeucFaB3.jpg"
+        },
+        {
+          "id": 287770,
+          "language": "Polish",
+          "name": {
+            "first": "Paweł",
+            "last": "Szymański",
+            "full": "Paweł Szymański",
+            "native": null,
+            "userPreferred": "Paweł Szymański"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n287770-hTSQRzQZVi50.png"
+        }
+      ]
+    },
+    {
+      "id": 32575,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Toramaru",
+        "last": "Utsunomiya",
+        "full": "Toramaru Utsunomiya",
+        "native": "宇都宮 虎丸",
+        "userPreferred": "Toramaru Utsunomiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32575.jpg",
+      "voiceActors": [
+        {
+          "id": 95008,
+          "language": "Japanese",
+          "name": {
+            "first": "Rie",
+            "last": "Kugimiya",
+            "full": "Rie Kugimiya",
+            "native": "釘宮理恵",
+            "userPreferred": "Rie Kugimiya"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95008-2y0EeuSTHIri.png"
+        }
+      ]
+    },
+    {
+      "id": 32307,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ryuuji",
+        "last": "Midorikawa",
+        "full": "Ryuuji Midorikawa",
+        "native": "緑川 リュウジ",
+        "userPreferred": "Ryuuji Midorikawa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b32307-cmzddWV4BU5T.png",
+      "voiceActors": [
+        {
+          "id": 95716,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Kodaira",
+            "full": "Yuuki Kodaira",
+            "native": "小平有希",
+            "userPreferred": "Yuuki Kodaira"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95716-BDejHbIYkT7O.jpg"
+        },
+        {
+          "id": 96285,
+          "language": "Italian",
+          "name": {
+            "first": "Felice",
+            "last": "Invernici",
+            "full": "Felice Invernici",
+            "native": null,
+            "userPreferred": "Felice Invernici"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1285.jpg"
+        }
+      ]
+    },
+    {
+      "id": 38544,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Furukabu",
+        "last": null,
+        "full": "Furukabu",
+        "native": "古株",
+        "userPreferred": "Furukabu"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/38544.jpg",
+      "voiceActors": [
+        {
+          "id": 95854,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomohisa",
+            "last": "Asou",
+            "full": "Tomohisa Asou",
+            "native": "麻生智久",
+            "userPreferred": "Tomohisa Asou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95854-DovWtfrg4gRV.png"
+        },
+        {
+          "id": 100033,
+          "language": "Italian",
+          "name": {
+            "first": "Pietro",
+            "last": "Ubaldi",
+            "full": "Pietro Ubaldi",
+            "native": null,
+            "userPreferred": "Pietro Ubaldi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/5033.jpg"
+        },
+        {
+          "id": 277482,
+          "language": "Polish",
+          "name": {
+            "first": "Paweł",
+            "last": "Szczesny",
+            "full": "Paweł Szczesny",
+            "native": null,
+            "userPreferred": "Paweł Szczesny"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n277482-xJXuFsgV9OJA.png"
+        }
+      ]
+    },
+    {
+      "id": 61309,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuuichi",
+        "last": "Tsurugi",
+        "full": "Yuuichi Tsurugi",
+        "native": "剣城優一",
+        "userPreferred": "Yuuichi Tsurugi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b61309-yTDDbEFAeJyq.jpg",
+      "voiceActors": [
+        {
+          "id": 96489,
+          "language": "Japanese",
+          "name": {
+            "first": "Tomoaki",
+            "last": "Maeno",
+            "full": "Tomoaki Maeno",
+            "native": "前野智昭",
+            "userPreferred": "Tomoaki Maeno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96489-xTzYxgdC9g9l.png"
+        },
+        {
+          "id": 240490,
+          "language": "Italian",
+          "name": {
+            "first": "Roger",
+            "last": "Mantovani",
+            "full": "Roger Mantovani",
+            "native": null,
+            "userPreferred": "Roger Mantovani"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 317581,
+          "language": "Polish",
+          "name": {
+            "first": "Maciej",
+            "last": "Tomaszewski",
+            "full": "Maciej Tomaszewski",
+            "native": null,
+            "userPreferred": "Maciej Marcin Tomaszewski"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n317581-P7zTahej2qwz.png"
+        }
+      ]
+    },
+    {
+      "id": 42874,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kaiji",
+        "last": "Hamano",
+        "full": "Kaiji Hamano",
+        "native": "浜野海士",
+        "userPreferred": "Kaiji Hamano"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b42874-6ni7VTiqNnI5.jpg",
+      "voiceActors": [
+        {
+          "id": 102429,
+          "language": "Japanese",
+          "name": {
+            "first": "Jun",
+            "last": "Konno",
+            "full": "Jun Konno",
+            "native": "金野潤",
+            "userPreferred": "Jun Konno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102429-RqZnqxjrbtnA.jpg"
+        },
+        {
+          "id": 116639,
+          "language": "Korean",
+          "name": {
+            "first": "Doh Hyeong",
+            "last": "Nam",
+            "full": "Doh Hyeong Nam",
+            "native": "도형 남",
+            "userPreferred": "Doh Hyeong Nam"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/21639.jpg"
+        },
+        {
+          "id": 115242,
+          "language": "Italian",
+          "name": {
+            "first": "Stefano",
+            "last": "Pozzi",
+            "full": "Stefano Pozzi",
+            "native": null,
+            "userPreferred": "Stefano Pozzi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/20242.jpg"
+        },
+        {
+          "id": 280480,
+          "language": "Polish",
+          "name": {
+            "first": "Jakub",
+            "last": "Strach",
+            "full": "Jakub Strach",
+            "native": null,
+            "userPreferred": "Jakub Strach"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n280480-24Fpf9tW6QxO.png"
+        }
+      ]
+    },
+    {
+      "id": 50095,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Haruma",
+        "last": "Mikado",
+        "full": "Haruma Mikado",
+        "native": "御門春馬",
+        "userPreferred": "Haruma Mikado"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/50095.jpg",
+      "voiceActors": [
+        {
+          "id": 104968,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Hayashi",
+            "full": "Yuuki Hayashi",
+            "native": "早志勇紀",
+            "userPreferred": "Yuuki Hayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104968-Y5TlnRjg5Hr6.png"
+        }
+      ]
+    },
+    {
+      "id": 42877,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Taichi",
+        "last": "Sangoku",
+        "full": "Taichi Sangoku",
+        "native": "三国太一",
+        "userPreferred": "Taichi Sangoku"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b42877-jCC4EJ9LNK8x.jpg",
+      "voiceActors": [
+        {
+          "id": 106133,
+          "language": "Japanese",
+          "name": {
+            "first": "Kensuke",
+            "last": "Satou",
+            "full": "Kensuke Satou",
+            "native": "佐藤健輔",
+            "userPreferred": "Kensuke Satou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106133-4tm6PaftW91h.png"
+        },
+        {
+          "id": 116931,
+          "language": "Italian",
+          "name": {
+            "first": "Matteo",
+            "last": "Zanotti",
+            "full": "Matteo Zanotti",
+            "native": null,
+            "userPreferred": "Matteo Zanotti"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/21931.jpg"
+        },
+        {
+          "id": 262155,
+          "language": "Polish",
+          "name": {
+            "first": "Grzegorz",
+            "last": "Borowski",
+            "full": "Grzegorz Borowski",
+            "native": null,
+            "userPreferred": "Grzegorz Borowski"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n262155-MVkfWOqrYkQR.png"
+        }
+      ]
+    },
+    {
+      "id": 66203,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Sousuke",
+        "last": "Zaizen",
+        "full": "Sousuke Zaizen",
+        "native": "財前 宗助",
+        "userPreferred": "Sousuke Zaizen"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b66203-hWxqYlPRsuya.png",
+      "voiceActors": []
+    },
+    {
+      "id": 49383,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Masaki",
+        "last": "Kariya",
+        "full": "Masaki Kariya",
+        "native": "狩屋マサキ",
+        "userPreferred": "Masaki Kariya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b49383-mmCsWtbegFzg.jpg",
+      "voiceActors": [
+        {
+          "id": 95220,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Tai",
+            "full": "Yuuki Tai",
+            "native": "泰勇気",
+            "userPreferred": "Yuuki Tai"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/220.jpg"
+        },
+        {
+          "id": 115819,
+          "language": "English",
+          "name": {
+            "first": "Seth",
+            "last": "Leslie",
+            "full": "Seth Leslie",
+            "native": null,
+            "userPreferred": "Seth Leslie"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/20819.jpg"
+        },
+        {
+          "id": 157484,
+          "language": "Italian",
+          "name": {
+            "first": "Jacopo",
+            "last": "Calatroni",
+            "full": "Jacopo Calatroni",
+            "native": null,
+            "userPreferred": "Jacopo Calatroni"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n157484-s0pcFLG0e3Pz.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29852,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shinichi",
+        "last": "Handa",
+        "full": "Shinichi Handa",
+        "native": "半田 真一",
+        "userPreferred": "Shinichi Handa"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b29852-SLiWYfGXH9Tl.png",
+      "voiceActors": [
+        {
+          "id": 95356,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiro",
+            "last": "Shimono",
+            "full": "Hiro Shimono",
+            "native": "下野紘",
+            "userPreferred": "Hiro Shimono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95356-PFaZRlI9oJ56.png"
+        }
+      ]
+    },
+    {
+      "id": 54809,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yozakura",
+        "last": "Mitsuyoshi",
+        "full": "Yozakura Mitsuyoshi",
+        "native": "光良夜桜",
+        "userPreferred": "Yozakura Mitsuyoshi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/54809.jpg",
+      "voiceActors": [
+        {
+          "id": 95716,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Kodaira",
+            "full": "Yuuki Kodaira",
+            "native": "小平有希",
+            "userPreferred": "Yuuki Kodaira"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95716-BDejHbIYkT7O.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32622,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Fuyuka",
+        "last": "Kudou",
+        "full": "Fuyuka Kudou",
+        "native": "久遠冬花",
+        "userPreferred": "Fuyuka Kudou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32622.jpg",
+      "voiceActors": [
+        {
+          "id": 95890,
+          "language": "Japanese",
+          "name": {
+            "first": "Haruka",
+            "last": "Tomatsu",
+            "full": "Haruka Tomatsu",
+            "native": "戸松遥",
+            "userPreferred": "Haruka Tomatsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95890-pDWHkOm4ncq0.png"
+        },
+        {
+          "id": 96162,
+          "language": "Italian",
+          "name": {
+            "first": "Benedetta",
+            "last": "Ponticelli",
+            "full": "Benedetta Ponticelli",
+            "native": null,
+            "userPreferred": "Benedetta Ponticelli"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/1162.jpg"
+        }
+      ]
+    },
+    {
+      "id": 55179,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mitsuru",
+        "last": "Shinoyama",
+        "full": "Mitsuru Shinoyama",
+        "native": "篠山ミツル",
+        "userPreferred": "Mitsuru Shinoyama"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/55179.jpg",
+      "voiceActors": [
+        {
+          "id": 102429,
+          "language": "Japanese",
+          "name": {
+            "first": "Jun",
+            "last": "Konno",
+            "full": "Jun Konno",
+            "native": "金野潤",
+            "userPreferred": "Jun Konno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102429-RqZnqxjrbtnA.jpg"
+        },
+        {
+          "id": 231473,
+          "language": "Italian",
+          "name": {
+            "first": "Roberto",
+            "last": "Palermo",
+            "full": "Roberto Palermo",
+            "native": null,
+            "userPreferred": "Roberto Palermo"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        },
+        {
+          "id": 313010,
+          "language": "Polish",
+          "name": {
+            "first": "Oskar",
+            "last": "Stencel",
+            "full": "Oskar Stencel",
+            "native": null,
+            "userPreferred": "Oskar Stencel"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n313010-6aTkIMkI0A6y.png"
+        }
+      ]
+    },
+    {
+      "id": 32306,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jirou",
+        "last": "Sakuma",
+        "full": "Jirou Sakuma",
+        "native": "佐久間次郎",
+        "userPreferred": "Jirou Sakuma"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/32306.jpg",
+      "voiceActors": [
+        {
+          "id": 105368,
+          "language": "Japanese",
+          "name": {
+            "first": "Megumi",
+            "last": "Tano",
+            "full": "Megumi Tano",
+            "native": "田野めぐみ",
+            "userPreferred": "Megumi Tano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n105368-Mua8sH2sF9Jj.png"
+        }
+      ]
+    },
+    {
+      "id": 54805,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Hyouga",
+        "last": "Yukimura",
+        "full": "Hyouga Yukimura",
+        "native": "雪村豹牙",
+        "userPreferred": "Hyouga Yukimura"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b54805-j4opi5e7954m.png",
+      "voiceActors": [
+        {
+          "id": 110461,
+          "language": "Japanese",
+          "name": {
+            "first": "Junta",
+            "last": "Terashima",
+            "full": "Junta Terashima",
+            "native": "寺島惇太",
+            "userPreferred": "Junta Terashima"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/110461-rvAKIkh34SiU.png"
+        }
+      ]
+    },
+    {
+      "id": 42504,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ranmaru",
+        "last": "Kirino",
+        "full": "Ranmaru Kirino",
+        "native": "霧野 蘭丸",
+        "userPreferred": "Ranmaru Kirino"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b42504-DbyH9ao8BWSI.png",
+      "voiceActors": [
+        {
+          "id": 95034,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuu",
+            "last": "Kobayashi",
+            "full": "Yuu Kobayashi",
+            "native": "小林ゆう",
+            "userPreferred": "Yuu Kobayashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95034-AwobjrcmkMi9.png"
+        },
+        {
+          "id": 109819,
+          "language": "Korean",
+          "name": {
+            "first": "Seung jun",
+            "last": "Kim",
+            "full": "Seung jun Kim",
+            "native": "승준 김",
+            "userPreferred": "Seung jun Kim"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/14819.jpg"
+        },
+        {
+          "id": 115248,
+          "language": "Italian",
+          "name": {
+            "first": "Davide",
+            "last": "Albano",
+            "full": "Davide Albano",
+            "native": null,
+            "userPreferred": "Davide Albano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/20248.jpg"
+        },
+        {
+          "id": 262171,
+          "language": "Polish",
+          "name": {
+            "first": "Krzysztof",
+            "last": "Rogucki",
+            "full": "Krzysztof Rogucki",
+            "native": null,
+            "userPreferred": "Krzysztof Rogucki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n262171-HT74fRVC3CmY.png"
+        }
+      ]
+    },
+    {
+      "id": 36729,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Michiya",
+        "last": "Kudou",
+        "full": "Michiya Kudou",
+        "native": "久遠道也",
+        "userPreferred": "Michiya Kudou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/36729.jpg",
+      "voiceActors": [
+        {
+          "id": 95236,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiroki",
+            "last": "Touchi",
+            "full": "Hiroki Touchi",
+            "native": "東地宏樹",
+            "userPreferred": "Hiroki Touchi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95236-nlMo4dnjdT8p.png"
+        },
+        {
+          "id": 106921,
+          "language": "Italian",
+          "name": {
+            "first": "Pino",
+            "last": "Pirovano",
+            "full": "Pino Pirovano",
+            "native": null,
+            "userPreferred": "Pino Pirovano"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106921-RETH1foEtb5G.jpg"
+        }
+      ]
+    },
+    {
+      "id": 31006,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Terumi",
+        "last": "Afuro",
+        "full": "Terumi Afuro",
+        "native": "亜風炉照美",
+        "userPreferred": "Terumi Afuro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b31006-p8j9IGKL5Bcu.png",
+      "voiceActors": [
+        {
+          "id": 95407,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuko",
+            "last": "Sanpei",
+            "full": "Yuuko Sanpei",
+            "native": "三瓶由布子",
+            "userPreferred": "Yuuko Sanpei"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95407-u8MV6kcAJNV6.png"
+        },
+        {
+          "id": 167448,
+          "language": "Italian",
+          "name": {
+            "first": "Alessandro",
+            "last": "Capra",
+            "full": "Alessandro Capra",
+            "native": null,
+            "userPreferred": "Alessandro Capra"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+        }
+      ]
+    },
+    {
+      "id": 31851,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kakeru",
+        "last": "Megane",
+        "full": "Kakeru Megane",
+        "native": "目金欠流",
+        "userPreferred": "Kakeru Megane"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/31851.jpg",
+      "voiceActors": [
+        {
+          "id": 95740,
+          "language": "Japanese",
+          "name": {
+            "first": "Nanae",
+            "last": "Katou",
+            "full": "Nanae Katou",
+            "native": "加藤奈々絵",
+            "userPreferred": "Nanae Katou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/740.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 5231,
+      "relationType": "PREQUEL",
+      "malId": 5231,
+      "title": {
+        "romaji": "Inazuma Eleven",
+        "english": null,
+        "native": "イナズマイレブン",
+        "userPreferred": "Inazuma Eleven"
+      },
+      "status": "Completed",
+      "episodes": 127,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5231-LOB6lgM2Coto.png",
+      "color": "#e4a143",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/5231-Ts5f27IliDgL.jpg",
+      "rating": 75
+    },
+    {
+      "id": 13261,
+      "relationType": "SEQUEL",
+      "malId": 13261,
+      "title": {
+        "romaji": "Inazuma Eleven GO: Chrono Stone",
+        "english": null,
+        "native": "イナズマイレブンGO クロノ・ストーン",
+        "userPreferred": "Inazuma Eleven GO: Chrono Stone"
+      },
+      "status": "Completed",
+      "episodes": 51,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx13261-ONMwQFlAEKqO.jpg",
+      "color": "#f19328",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/13261-VBvWLxkmQZqy.jpg",
+      "rating": 71
+    },
+    {
+      "id": 10999,
+      "relationType": "SIDE_STORY",
+      "malId": 10999,
+      "title": {
+        "romaji": "Inazuma Eleven GO: Kyuukyoku no Kizuna Gryphon",
+        "english": "Inazuma Eleven GO the Movie: The Ultimate Bonds Gryphon",
+        "native": "劇場版イナズマイレブンGO 究極の絆 グリフォン",
+        "userPreferred": "Inazuma Eleven GO: Kyuukyoku no Kizuna Gryphon"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b10999-csB5JL9s2NfJ.png",
+      "color": "#f19328",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10999-oqw2yq6bT2AL.jpg",
+      "rating": 71
+    },
+    {
+      "id": 80161,
+      "relationType": "SPIN_OFF",
+      "malId": 50161,
+      "title": {
+        "romaji": "Inazuma Eleven Go Anthology!",
+        "english": null,
+        "native": "イナズマイレブンGO アンソロジー!",
+        "userPreferred": "Inazuma Eleven Go Anthology!"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/50161.jpg",
+      "color": "#ffc943",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/50161.jpg",
+      "rating": 77
+    },
+    {
+      "id": 67999,
+      "relationType": "ALTERNATIVE",
+      "malId": 37999,
+      "title": {
+        "romaji": "Inazuma Eleven Go",
+        "english": null,
+        "native": "イナズマイレブン GO",
+        "userPreferred": "Inazuma Eleven Go"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/37999.jpg",
+      "color": "#f1a135",
+      "type": "MANGA",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/37999.jpg",
+      "rating": 63
+    },
+    {
+      "id": 16964,
+      "relationType": "OTHER",
+      "malId": 16964,
+      "title": {
+        "romaji": "Inazuma Eleven GO: TCG CM NG-shuu",
+        "english": null,
+        "native": "イナズマイレブンGO TCG CM NG集",
+        "userPreferred": "Inazuma Eleven GO: TCG CM NG-shuu"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/16964.jpg",
+      "color": "#ffd635",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/16964.jpg",
+      "rating": 61
+    }
+  ],
+  "episodes": [
+    {
+      "id": "inazuma-eleven-go-episode-1",
+      "title": "Raimon's New Wind Blowing!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/93978/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:28:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-1"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-2",
+      "title": "This is the Avatar! ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/93979/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:28:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-2"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-3",
+      "title": "Collapse! Raimon soccer club",
+      "image": "https://media.kitsu.io/episodes/thumbnails/93980/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:28:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-3"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-4",
+      "title": "Tenma's Entrance Test! ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/93981/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:28:56Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-4"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-5",
+      "title": "Fixed Game",
+      "image": "https://media.kitsu.io/episodes/thumbnails/93982/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-5"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-6",
+      "title": "The Feelings Put In The Last Pass",
+      "image": "https://media.kitsu.io/episodes/thumbnails/93983/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-6"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-7",
+      "title": "Coach Endou Makes His Appearance",
+      "image": "https://media.kitsu.io/episodes/thumbnails/93984/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-7"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-8",
+      "title": "Captainship",
+      "image": "https://media.kitsu.io/episodes/thumbnails/93985/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-8"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-9",
+      "title": "Finally raising the courtains! Holy Road",
+      "image": "https://media.kitsu.io/episodes/thumbnails/93986/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-9"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-10",
+      "title": "Rebellion To Victory",
+      "image": "https://media.kitsu.io/episodes/thumbnails/93987/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-10"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-11",
+      "title": "Tsurugi's Secret",
+      "image": "https://media.kitsu.io/episodes/thumbnails/93988/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-11"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-12",
+      "title": "The Miracle of Keshins! Mannozaka School",
+      "image": "https://media.kitsu.io/episodes/thumbnails/93989/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-12"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-13",
+      "title": "Raimon's Awakening?! ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/93990/original.jpg",
+      "number": 13,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-13"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-14",
+      "title": "Shinsuke's Hissatsu Technique ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/93991/original.jpg",
+      "number": 14,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-14"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-15",
+      "title": "The Battle against Kidou Yuuto !",
+      "image": "https://media.kitsu.io/episodes/thumbnails/93992/original.jpg",
+      "number": 15,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-15"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-16",
+      "title": "The Fearsome Teikoku Academy",
+      "image": "https://media.kitsu.io/episodes/thumbnails/93993/original.jpg",
+      "number": 16,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-16"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-17",
+      "title": "Explosion! Ultimate Thunder",
+      "image": "https://media.kitsu.io/episodes/thumbnails/93994/original.jpg",
+      "number": 17,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-17"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-18",
+      "title": "Do it! The Revolution!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/93995/original.jpg",
+      "number": 18,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-18"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-19",
+      "title": "The Raging Neptunus Fang!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/93996/original.jpg",
+      "number": 19,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-19"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-20",
+      "title": "Wings! Tenma's Keshin!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/93997/original.jpg",
+      "number": 20,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-20"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-21",
+      "title": "The Autumn Sky Challenger! ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/93998/original.jpg",
+      "number": 21,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-21"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-22",
+      "title": "Wave! The Flag of Revolution",
+      "image": "https://media.kitsu.io/episodes/thumbnails/93999/original.jpg",
+      "number": 22,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-22"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-23",
+      "title": "The Terryfing Cyclone Stadium! ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94000/original.jpg",
+      "number": 23,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-23"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-24",
+      "title": "Remember! Our Soccer",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94001/original.jpg",
+      "number": 24,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-24"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-25",
+      "title": "He is Coming Back! ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94002/original.jpg",
+      "number": 25,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-25"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-26",
+      "title": "Confronting the White Devil!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94003/original.jpg",
+      "number": 26,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-26"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-27",
+      "title": "The Ice Stadium! Vs Hakuren School",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94004/original.jpg",
+      "number": 27,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-27"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-28",
+      "title": "Coach Kidou's Concern ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94005/original.jpg",
+      "number": 28,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-28"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-29",
+      "title": "The Fated Confrontation! Kidokawa Seishuu",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94006/original.jpg",
+      "number": 29,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-29"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-30",
+      "title": "Magnificant Tactics! Kidou Vs. Aphrodi",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94007/original.jpg",
+      "number": 30,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-30"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-31",
+      "title": "Keshin! Sengoku Bushin Musashi Appear! ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94008/original.jpg",
+      "number": 31,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-31"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-32",
+      "title": "Miracle of wind",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94009/original.jpg",
+      "number": 32,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-32"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-33",
+      "title": "Mysterious enemy! Genei Gakuen!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94010/original.jpg",
+      "number": 33,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-33"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-34",
+      "title": "Non-defense! Maboroshi Shot!!!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94011/original.jpg",
+      "number": 34,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-34"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-35",
+      "title": "The Shock! Goalkeeper's Subtitution!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94012/original.jpg",
+      "number": 35,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-35"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-36",
+      "title": "Reunion of Fate",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94013/original.jpg",
+      "number": 36,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-36"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-37",
+      "title": "A Genius of Glasswork",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94014/original.jpg",
+      "number": 37,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-37"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-38",
+      "title": "Taiyou's Keshin Unleashed ",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94015/original.jpg",
+      "number": 38,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-38"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-39",
+      "title": "Tenma VS Taiyou",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94016/original.jpg",
+      "number": 39,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-39"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-40",
+      "title": "The New Captain! Matsukaze Tenma",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94017/original.jpg",
+      "number": 40,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-40"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-41",
+      "title": "Battle! Amano Mikado Stadium",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94018/original.jpg",
+      "number": 41,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-41"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-42",
+      "title": "The Strongest Enemy Appears! Dragonlink",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94019/original.jpg",
+      "number": 42,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-42"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-43",
+      "title": "Heroic! The Last Battle",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94020/original.jpg",
+      "number": 43,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-43"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-44",
+      "title": "Reach for the Sky! Everyone's Soccer",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94021/original.jpg",
+      "number": 44,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-44"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-45",
+      "title": "The Pass to Tomorrow",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94022/original.jpg",
+      "number": 45,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-45"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-46",
+      "title": "The TV Reporter is Here!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94023/original.jpg",
+      "number": 46,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-46"
+    },
+    {
+      "id": "inazuma-eleven-go-episode-47",
+      "title": "This is the Raimon Soccer Club!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/94024/original.jpg",
+      "number": 47,
+      "createdAt": "2013-02-20T18:28:57Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//inazuma-eleven-go-episode-47"
+    }
+  ]
+}

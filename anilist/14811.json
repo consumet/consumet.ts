@@ -1,0 +1,878 @@
+{
+  "id": "14811",
+  "title": {
+    "romaji": "GJ-bu",
+    "english": "GJ Club",
+    "native": "GJ部"
+  },
+  "malId": 14811,
+  "synonyms": [
+    "Good Job-bu"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx14811-lTAtgO4OHE3I.png",
+  "popularity": 33408,
+  "color": "#f1d65d",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/14811-MeLHgtFpJkfy.jpg",
+  "description": "Shinomiya Kyouya is forced to become a new member of the GJ, an unidentified club that dwells in a room of the former building of a certain school. Here he meets the club leader, Mao, a short girl with a big attitude; Mao's younger sister, Megumi, who has the heart of a bipolar angel; the recognized genius with a lack of common sense, Shion; and the always-hungry and mysterious Kirara. Time flies with these unique girls around. ",
+  "status": "Completed",
+  "releaseDate": 2013,
+  "startDate": {
+    "year": 2013,
+    "month": 1,
+    "day": 10
+  },
+  "endDate": {
+    "year": 2013,
+    "month": 3,
+    "day": 28
+  },
+  "totalEpisodes": 12,
+  "currentEpisode": 12,
+  "rating": 70,
+  "duration": 23,
+  "genres": [
+    "Comedy",
+    "Slice of Life"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "Doga Kobo"
+  ],
+  "subOrDub": "sub",
+  "type": "TV",
+  "recommendations": [
+    {
+      "id": 5909,
+      "malId": 5909,
+      "title": {
+        "romaji": "Seitokai no Ichizon",
+        "english": "Student Council's Discretion",
+        "native": "生徒会の一存",
+        "userPreferred": "Seitokai no Ichizon"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5909-cqlzezmvzLWa.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/5909-rEXZ2P2kciZ1.jpg",
+      "rating": 69,
+      "type": "TV"
+    },
+    {
+      "id": 20031,
+      "malId": 20031,
+      "title": {
+        "romaji": "D-Frag!",
+        "english": null,
+        "native": "ディーふらぐ!",
+        "userPreferred": "D-Frag!"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20031-WOR6bly9HOr1.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20031-fpW87JXEFUGZ.jpg",
+      "rating": 73,
+      "type": "TV"
+    },
+    {
+      "id": 104115,
+      "malId": 38276,
+      "title": {
+        "romaji": "Houkago Saikoro Club",
+        "english": "After School Dice Club",
+        "native": "放課後さいころ倶楽部",
+        "userPreferred": "Houkago Saikoro Club"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104115-7aStzqclhn6z.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/104115-hTIuAGYjjAL4.jpg",
+      "rating": 63,
+      "type": "TV"
+    },
+    {
+      "id": 98596,
+      "malId": 35413,
+      "title": {
+        "romaji": "Imouto sae Ireba Ii.",
+        "english": "A Sister's All You Need.",
+        "native": "妹さえいればいい。",
+        "userPreferred": "Imouto sae Ireba Ii."
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98596-E2aZouOyuQ8G.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98596-w7gpbUP7QESX.jpg",
+      "rating": 70,
+      "type": "TV"
+    },
+    {
+      "id": 18495,
+      "malId": 18495,
+      "title": {
+        "romaji": "Kitakubu Katsudou Kiroku",
+        "english": "Chronicles of the Going Home Club",
+        "native": "帰宅部活動記録",
+        "userPreferred": "Kitakubu Katsudou Kiroku"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/18495.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/18495-yOtrLG9R4cQt.jpg",
+      "rating": 64,
+      "type": "TV"
+    },
+    {
+      "id": 4224,
+      "malId": 4224,
+      "title": {
+        "romaji": "Toradora!",
+        "english": "Toradora!",
+        "native": "とらドラ！",
+        "userPreferred": "Toradora!"
+      },
+      "status": "Completed",
+      "episodes": 25,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4224-3Bh0rm99N6Vl.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4224-iPUOHdMde27j.jpg",
+      "rating": 78,
+      "type": "TV"
+    },
+    {
+      "id": 10495,
+      "malId": 10495,
+      "title": {
+        "romaji": "Yuru Yuri",
+        "english": "YuruYuri",
+        "native": "ゆるゆり",
+        "userPreferred": "Yuru Yuri"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10495-LC0vlFLHk2Ue.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10495-rIrvOpIurPXE.jpg",
+      "rating": 74,
+      "type": "TV"
+    },
+    {
+      "id": 6347,
+      "malId": 6347,
+      "title": {
+        "romaji": "Baka to Test to Shoukanjuu",
+        "english": "Baka and Test - Summon the Beasts",
+        "native": "バカとテストと召喚獣",
+        "userPreferred": "Baka to Test to Shoukanjuu"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6347-wmkZ4HD6EG8O.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6347-ZDzk4GrlQdag.jpg",
+      "rating": 71,
+      "type": "TV"
+    },
+    {
+      "id": 5680,
+      "malId": 5680,
+      "title": {
+        "romaji": "K-ON!",
+        "english": "K-ON!",
+        "native": "けいおん!",
+        "userPreferred": "K-ON!"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5680-Xh6B67KuZ2PU.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n5680-aa5kyuG6154Y.jpg",
+      "rating": 78,
+      "type": "TV"
+    },
+    {
+      "id": 21457,
+      "malId": 31952,
+      "title": {
+        "romaji": "Kono Bijutsu-bu ni wa Mondai ga Aru!",
+        "english": "This Art Club Has a Problem!",
+        "native": "この美術部には問題がある!",
+        "userPreferred": "Kono Bijutsu-bu ni wa Mondai ga Aru!"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21457-MzWktnoD67PO.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21457-OGyc1ZZ0hHht.jpg",
+      "rating": 70,
+      "type": "TV"
+    },
+    {
+      "id": 12291,
+      "malId": 12291,
+      "title": {
+        "romaji": "Acchi Kocchi",
+        "english": "Place to Place",
+        "native": "あっちこっち",
+        "userPreferred": "Acchi Kocchi"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12291-NKo7qYW674Wo.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/12291-ZCo0XM1RShUw.png",
+      "rating": 72,
+      "type": "TV"
+    },
+    {
+      "id": 110632,
+      "malId": 40085,
+      "title": {
+        "romaji": "Maesetsu!",
+        "english": "Maesetsu! Opening Act",
+        "native": "まえせつ！",
+        "userPreferred": "Maesetsu!"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110632-WxTfHGRIZ4BJ.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110632-TabT4x381ad9.jpg",
+      "rating": 51,
+      "type": "TV"
+    },
+    {
+      "id": 21495,
+      "malId": 32093,
+      "title": {
+        "romaji": "Tanaka-kun wa Itsumo Kedaruge",
+        "english": "Tanaka-kun is Always Listless",
+        "native": "田中くんはいつもけだるげ",
+        "userPreferred": "Tanaka-kun wa Itsumo Kedaruge"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21495-Xn1lHxRKDBXW.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21495-HDkVTovzfNQA.jpg",
+      "rating": 77,
+      "type": "TV"
+    },
+    {
+      "id": 120646,
+      "malId": 42351,
+      "title": {
+        "romaji": "Senpai ga Uzai Kouhai no Hanashi",
+        "english": "My Senpai is Annoying",
+        "native": "先輩がうざい後輩の話",
+        "userPreferred": "Senpai ga Uzai Kouhai no Hanashi"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120646-3GUSMpqx0mVw.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/120646-RsYJHXzMdnXp.jpg",
+      "rating": 76,
+      "type": "TV"
+    },
+    {
+      "id": 10464,
+      "malId": 10464,
+      "title": {
+        "romaji": "Seitokai no Ichizon Lv.2",
+        "english": "Student Council's Discretion Level 2",
+        "native": "生徒会の一存 Lv.2",
+        "userPreferred": "Seitokai no Ichizon Lv.2"
+      },
+      "status": "Completed",
+      "episodes": 10,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10464-BlUWhUYM8DWz.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10464-BlUWhUYM8DWz.png",
+      "rating": 71,
+      "type": "ONA"
+    },
+    {
+      "id": 20518,
+      "malId": 23121,
+      "title": {
+        "romaji": "Jinsei",
+        "english": "JINSEI - Life Consulting",
+        "native": "人生",
+        "userPreferred": "Jinsei"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20518.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20518-G7pLvJQMrg7s.jpg",
+      "rating": 60,
+      "type": "TV"
+    },
+    {
+      "id": 16353,
+      "malId": 16353,
+      "title": {
+        "romaji": "Love Lab",
+        "english": "Love Lab",
+        "native": "恋愛ラボ",
+        "userPreferred": "Love Lab"
+      },
+      "status": "Completed",
+      "episodes": 13,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16353-vtAcsGobmaSA.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16353-L2p2ZzL7mjoy.jpg",
+      "rating": 71,
+      "type": "TV"
+    },
+    {
+      "id": 20646,
+      "malId": 25159,
+      "title": {
+        "romaji": "Inou-Battle wa Nichijou-kei no Naka de",
+        "english": "When Supernatural Battles Became Commonplace",
+        "native": "異能バトルは日常系のなかで",
+        "userPreferred": "Inou-Battle wa Nichijou-kei no Naka de"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20646-LgR1T1MSR493.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20646-RM78bN938yII.jpg",
+      "rating": 67,
+      "type": "TV"
+    },
+    {
+      "id": 66,
+      "malId": 66,
+      "title": {
+        "romaji": "Azumanga Daiou THE ANIMATION",
+        "english": "Azumanga Daioh",
+        "native": "あずまんが大王 THE ANIMATION",
+        "userPreferred": "Azumanga Daiou THE ANIMATION"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx66-1LTNhVTnttZv.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/66-9q6Y6bMBwqrX.jpg",
+      "rating": 78,
+      "type": "TV"
+    },
+    {
+      "id": 7769,
+      "malId": 7769,
+      "title": {
+        "romaji": "Ookami-san to Shichinin no Nakama-tachi",
+        "english": "Okami-san and Her Seven Companions",
+        "native": "オオカミさんと七人の仲間たち",
+        "userPreferred": "Ookami-san to Shichinin no Nakama-tachi"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx7769-4SPih8uS2E4j.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/7769-uHUwsRv2a32Y.jpg",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 20710,
+      "malId": 24031,
+      "title": {
+        "romaji": "Denki-Gai no Honya-san",
+        "english": "DENKI-GAI",
+        "native": "デンキ街の本屋さん",
+        "userPreferred": "Denki-Gai no Honya-san"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20710-MMAlTvOqkQEV.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20710-fgogt0I8ZPhK.jpg",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 146962,
+      "malId": 51464,
+      "title": {
+        "romaji": "4-nin wa Sorezore Uso wo Tsuku",
+        "english": "The Little Lies We All Tell",
+        "native": "4人はそれぞれウソをつく",
+        "userPreferred": "4-nin wa Sorezore Uso wo Tsuku"
+      },
+      "status": "Completed",
+      "episodes": 11,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146962-mBcqIslFD83F.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146962-mBcqIslFD83F.png",
+      "rating": 68,
+      "type": "TV"
+    },
+    {
+      "id": 21878,
+      "malId": 33731,
+      "title": {
+        "romaji": "Gabriel Dropout",
+        "english": "Gabriel DropOut",
+        "native": "ガヴリールドロップアウト",
+        "userPreferred": "Gabriel Dropout"
+      },
+      "status": "Completed",
+      "episodes": 12,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21878-bOwTOgyhTp7h.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21878-QVYm5dI7QOmy.jpg",
+      "rating": 73,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 74085,
+      "role": "MAIN",
+      "name": {
+        "first": "Kyouya",
+        "last": "Shinomiya",
+        "full": "Kyouya Shinomiya",
+        "native": "四ノ宮 京夜",
+        "userPreferred": "Kyouya Shinomiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/74085.jpg",
+      "voiceActors": [
+        {
+          "id": 95356,
+          "language": "Japanese",
+          "name": {
+            "first": "Hiro",
+            "last": "Shimono",
+            "full": "Hiro Shimono",
+            "native": "下野紘",
+            "userPreferred": "Hiro Shimono"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95356-PFaZRlI9oJ56.png"
+        }
+      ]
+    },
+    {
+      "id": 74087,
+      "role": "MAIN",
+      "name": {
+        "first": "Kirara",
+        "last": "Bernstein",
+        "full": "Kirara Bernstein",
+        "native": "綺羅々・バーンシュタイン",
+        "userPreferred": "Kirara Bernstein"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b74087-C2K32LLVvlvK.png",
+      "voiceActors": [
+        {
+          "id": 114777,
+          "language": "Japanese",
+          "name": {
+            "first": "Chika",
+            "last": "Arakawa",
+            "full": "Chika Arakawa",
+            "native": "ちか荒川",
+            "userPreferred": "Chika Arakawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/19777.jpg"
+        }
+      ]
+    },
+    {
+      "id": 74081,
+      "role": "MAIN",
+      "name": {
+        "first": "Megumi",
+        "last": "Amatsuka",
+        "full": "Megumi Amatsuka",
+        "native": "天使 恵",
+        "userPreferred": "Megumi Amatsuka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/74081.jpg",
+      "voiceActors": [
+        {
+          "id": 104510,
+          "language": "Japanese",
+          "name": {
+            "first": "Yume",
+            "last": "Miyamoto",
+            "full": "Yume Miyamoto",
+            "native": "宮本侑芽",
+            "userPreferred": "Yume Miyamoto"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n104510-hB8YLsPRLNKq.png"
+        }
+      ]
+    },
+    {
+      "id": 74083,
+      "role": "MAIN",
+      "name": {
+        "first": "Shion",
+        "last": "Sumeragi",
+        "full": "Shion Sumeragi",
+        "native": "皇 紫音",
+        "userPreferred": "Shion Sumeragi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/74083.jpg",
+      "voiceActors": [
+        {
+          "id": 106359,
+          "language": "Japanese",
+          "name": {
+            "first": "Suzuko",
+            "last": "Mimori",
+            "full": "Suzuko Mimori",
+            "native": "三森すずこ",
+            "userPreferred": "Suzuko Mimori"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106359-G8dROMWpwlM6.png"
+        }
+      ]
+    },
+    {
+      "id": 74079,
+      "role": "MAIN",
+      "name": {
+        "first": "Mao",
+        "last": "Amatsuka",
+        "full": "Mao Amatsuka",
+        "native": "天使 真央",
+        "userPreferred": "Mao Amatsuka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/74079.jpg",
+      "voiceActors": [
+        {
+          "id": 108639,
+          "language": "Japanese",
+          "name": {
+            "first": "Maaya",
+            "last": "Uchida",
+            "full": "Maaya Uchida",
+            "native": "内田真礼",
+            "userPreferred": "Maaya Uchida"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n108639-LLrR4WptCh5s.png"
+        }
+      ]
+    },
+    {
+      "id": 76999,
+      "role": "MAIN",
+      "name": {
+        "first": "Tamaki",
+        "last": "Kannadzuki",
+        "full": "Tamaki Kannadzuki",
+        "native": "神無月 環",
+        "userPreferred": "Tamaki Kannadzuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/76999.jpg",
+      "voiceActors": [
+        {
+          "id": 109441,
+          "language": "Japanese",
+          "name": {
+            "first": "Sumire",
+            "last": "Uesaka",
+            "full": "Sumire Uesaka",
+            "native": "上坂すみれ",
+            "userPreferred": "Sumire Uesaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n109441-lVHpd6BN2g16.png"
+        }
+      ]
+    },
+    {
+      "id": 76997,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shinrabanshou",
+        "last": null,
+        "full": "Shinrabanshou",
+        "native": "森羅万象",
+        "userPreferred": "Shinrabanshou"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/76997.jpg",
+      "voiceActors": [
+        {
+          "id": 96504,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayumi",
+            "last": "Tsunematsu",
+            "full": "Ayumi Tsunematsu",
+            "native": "恒松あゆみ",
+            "userPreferred": "Ayumi Tsunematsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n96504-uR5BYvPwmSWR.png"
+        }
+      ]
+    },
+    {
+      "id": 76995,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Geraldine",
+        "last": "Bernstein",
+        "full": "Geraldine Bernstein",
+        "native": "ジェラルディン・バーンシュタイン",
+        "userPreferred": "Geraldine Bernstein"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/76995.jpg",
+      "voiceActors": [
+        {
+          "id": 116037,
+          "language": "Japanese",
+          "name": {
+            "first": "Wakana",
+            "last": "Aoi",
+            "full": "Wakana Aoi",
+            "native": "葵わかな",
+            "userPreferred": "Wakana Aoi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n116037-lucH9hovzbe9.jpg"
+        }
+      ]
+    },
+    {
+      "id": 81433,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yurika",
+        "last": null,
+        "full": "Yurika",
+        "native": "ゆりか",
+        "userPreferred": "Yurika"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 116689,
+          "language": "Japanese",
+          "name": {
+            "first": "Yurika",
+            "last": "Takahashi",
+            "full": "Yurika Takahashi",
+            "native": "優里花 高橋",
+            "userPreferred": "Yurika Takahashi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/21689.jpg"
+        }
+      ]
+    },
+    {
+      "id": 81431,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ayame",
+        "last": null,
+        "full": "Ayame",
+        "native": "あやめ",
+        "userPreferred": "Ayame"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+      "voiceActors": [
+        {
+          "id": 116691,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayame",
+            "last": "Tajiri",
+            "full": "Ayame Tajiri",
+            "native": "あやめ 田尻",
+            "userPreferred": "Ayame Tajiri"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/21691.jpg"
+        }
+      ]
+    },
+    {
+      "id": 76993,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Seira",
+        "last": "Amatsuka",
+        "full": "Seira Amatsuka",
+        "native": "天使 聖羅",
+        "userPreferred": "Seira Amatsuka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/76993.jpg",
+      "voiceActors": [
+        {
+          "id": 106404,
+          "language": "Japanese",
+          "name": {
+            "first": "Sumire",
+            "last": "Morohoshi",
+            "full": "Sumire Morohoshi",
+            "native": "諸星すみれ",
+            "userPreferred": "Sumire Morohoshi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n106404-uodatsBbsnJh.png"
+        }
+      ]
+    },
+    {
+      "id": 76991,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Kasumi",
+        "last": "Shinomiya",
+        "full": "Kasumi Shinomiya",
+        "native": "四ノ宮 霞",
+        "userPreferred": "Kasumi Shinomiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/76991.jpg",
+      "voiceActors": [
+        {
+          "id": 112091,
+          "language": "Japanese",
+          "name": {
+            "first": "Ibuki",
+            "last": "Kido",
+            "full": "Ibuki Kido",
+            "native": "木戸衣吹",
+            "userPreferred": "Ibuki Kido"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n112091-aO2WqvCmTFz9.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 77811,
+      "relationType": "ADAPTATION",
+      "malId": 47811,
+      "title": {
+        "romaji": "GJ-bu",
+        "english": null,
+        "native": "GJ部",
+        "userPreferred": "GJ-bu"
+      },
+      "status": "Completed",
+      "episodes": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/47811.jpg",
+      "color": "#aed61a",
+      "type": "NOVEL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/47811.jpg",
+      "rating": 73
+    },
+    {
+      "id": 20567,
+      "relationType": "SEQUEL",
+      "malId": 21635,
+      "title": {
+        "romaji": "GJ-bu@",
+        "english": null,
+        "native": "GJ部@",
+        "userPreferred": "GJ-bu@"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20567.jpg",
+      "color": "#f1a143",
+      "type": "SPECIAL",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20567-zEqh0UIiNqHY.jpg",
+      "rating": 70
+    }
+  ],
+  "episodes": [
+    {
+      "id": "gj-bu-episode-1",
+      "title": "I am the GJ Club!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/101373/original.jpg",
+      "number": 1,
+      "createdAt": "2013-02-20T18:29:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gj-bu-episode-1"
+    },
+    {
+      "id": "gj-bu-episode-2",
+      "title": "Friendship, Love, Her Abnormality?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/101374/original.jpg",
+      "number": 2,
+      "createdAt": "2013-02-20T18:29:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gj-bu-episode-2"
+    },
+    {
+      "id": "gj-bu-episode-3",
+      "title": "Kyoro on the GJ Line",
+      "image": "https://media.kitsu.io/episodes/thumbnails/101375/original.jpg",
+      "number": 3,
+      "createdAt": "2013-02-20T18:29:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gj-bu-episode-3"
+    },
+    {
+      "id": "gj-bu-episode-4",
+      "title": "After School Cultural Festival Party",
+      "image": "https://media.kitsu.io/episodes/thumbnails/101376/original.jpg",
+      "number": 4,
+      "createdAt": "2013-02-20T18:29:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gj-bu-episode-4"
+    },
+    {
+      "id": "gj-bu-episode-5",
+      "title": "Double Fantasy",
+      "image": "https://media.kitsu.io/episodes/thumbnails/101377/original.jpg",
+      "number": 5,
+      "createdAt": "2013-02-20T18:29:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gj-bu-episode-5"
+    },
+    {
+      "id": "gj-bu-episode-6",
+      "title": "4 Little Sisters!?",
+      "image": "https://media.kitsu.io/episodes/thumbnails/101378/original.jpg",
+      "number": 6,
+      "createdAt": "2013-02-20T18:29:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gj-bu-episode-6"
+    },
+    {
+      "id": "gj-bu-episode-7",
+      "title": "A New Club Member Appears!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/101379/original.jpg",
+      "number": 7,
+      "createdAt": "2013-02-20T18:29:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gj-bu-episode-7"
+    },
+    {
+      "id": "gj-bu-episode-8",
+      "title": "Sisters Attack!",
+      "image": "https://media.kitsu.io/episodes/thumbnails/101380/original.jpg",
+      "number": 8,
+      "createdAt": "2013-02-20T18:29:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gj-bu-episode-8"
+    },
+    {
+      "id": "gj-bu-episode-9",
+      "title": "Kyoro on the GJ Line, REBIRTH",
+      "image": "https://media.kitsu.io/episodes/thumbnails/101381/original.jpg",
+      "number": 9,
+      "createdAt": "2013-02-20T18:29:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gj-bu-episode-9"
+    },
+    {
+      "id": "gj-bu-episode-10",
+      "title": "Autumn of Arts, Appetite, and Attack",
+      "image": "https://media.kitsu.io/episodes/thumbnails/101382/original.jpg",
+      "number": 10,
+      "createdAt": "2013-02-20T18:29:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gj-bu-episode-10"
+    },
+    {
+      "id": "gj-bu-episode-11",
+      "title": "Agreement Cancelled",
+      "image": "https://media.kitsu.io/episodes/thumbnails/101383/original.jpg",
+      "number": 11,
+      "createdAt": "2013-02-20T18:29:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gj-bu-episode-11"
+    },
+    {
+      "id": "gj-bu-episode-12",
+      "title": "Let Us Say Good Bye, GJ Club",
+      "image": "https://media.kitsu.io/episodes/thumbnails/101384/original.jpg",
+      "number": 12,
+      "createdAt": "2013-02-20T18:29:36Z",
+      "description": null,
+      "url": "https://gogoanimehd.io//gj-bu-episode-12"
+    }
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "id": "13939",
+  "title": {
+    "romaji": "Accel World EX",
+    "english": null,
+    "native": "アクセル・ワールド EX"
+  },
+  "malId": 13939,
+  "synonyms": [
+    "Accel World OVA",
+    "Accel World: Reverberation",
+    "Accel World: Ginyoku no Kakusei",
+    "Accel World: Kasoku no Chouten"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx13939-ZwDOMGMYUu4N.png",
+  "popularity": 20527,
+  "color": "#f12893",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/13939-jMYSmL78ZV70.jpg",
+  "description": "OVA bundled with the Accel World simulation and action games.  The Blu-ray OVA discs came with the PS3 limited edition versions and the DVD with the PSP limited edition versions.<br><br>\nThe project was split into two PSP and PS3 titles, and one episode was released with each game:<br>\n#EX01: Reverberation;Zankyou (bundled with Stage:01 Ginyoku no Kakusei)<br>\n#EX02: Vacation;Onsen (bundled with Stage:02 Kasoku no Chouten)",
+  "status": "Completed",
+  "releaseDate": 2012,
+  "startDate": {
+    "year": 2012,
+    "month": 9,
+    "day": 13
+  },
+  "endDate": {
+    "year": 2013,
+    "month": 1,
+    "day": 31
+  },
+  "totalEpisodes": 2,
+  "currentEpisode": 2,
+  "rating": 67,
+  "duration": 26,
+  "genres": [
+    "Action",
+    "Romance",
+    "Sci-Fi"
+  ],
+  "season": "FALL",
+  "studios": [
+    "Sunrise"
+  ],
+  "subOrDub": "sub",
+  "type": "OVA",
+  "recommendations": [
+    {
+      "id": 21404,
+      "malId": 31763,
+      "title": {
+        "romaji": "Accel World: Infinite∞Burst",
+        "english": "Accel World: Infinite∞Burst",
+        "native": "アクセル・ワールド -インフィニット・バースト-",
+        "userPreferred": "Accel World: Infinite∞Burst"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21404-2jkb1Gidfb18.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21404-5m9WccNHziK7.jpg",
+      "rating": 63,
+      "type": "MOVIE"
+    }
+  ],
+  "characters": [
+    {
+      "id": 46305,
+      "role": "MAIN",
+      "name": {
+        "first": "Kuroyukihime",
+        "last": null,
+        "full": "Kuroyukihime",
+        "native": "黒雪姫",
+        "userPreferred": "Kuroyukihime"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b46305-CiZOEqz5u1mk.png",
+      "voiceActors": [
+        {
+          "id": 102337,
+          "language": "Japanese",
+          "name": {
+            "first": "Sachika",
+            "last": "Misawa",
+            "full": "Sachika Misawa",
+            "native": "三澤紗千香",
+            "userPreferred": "Sachika Misawa"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102337-iHJMCOTE1eVT.jpg"
+        }
+      ]
+    },
+    {
+      "id": 49631,
+      "role": "MAIN",
+      "name": {
+        "first": "Takumu",
+        "last": "Mayuzumi",
+        "full": "Takumu Mayuzumi",
+        "native": "黛 拓武",
+        "userPreferred": "Takumu Mayuzumi"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/49631.jpg",
+      "voiceActors": [
+        {
+          "id": 95186,
+          "language": "Japanese",
+          "name": {
+            "first": "Shintarou",
+            "last": "Asanuma",
+            "full": "Shintarou Asanuma",
+            "native": "浅沼晋太郎",
+            "userPreferred": "Shintarou Asanuma"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95186-XMdPPqYhMrwN.jpg"
+        }
+      ]
+    },
+    {
+      "id": 49635,
+      "role": "MAIN",
+      "name": {
+        "first": "Chiyuri",
+        "last": "Kurashima",
+        "full": "Chiyuri Kurashima",
+        "native": "倉嶋 千百合",
+        "userPreferred": "Chiyuri Kurashima"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b49635-lDQ1nWr4gBRX.png",
+      "voiceActors": [
+        {
+          "id": 95599,
+          "language": "Japanese",
+          "name": {
+            "first": "Aki",
+            "last": "Toyosaki",
+            "full": "Aki Toyosaki",
+            "native": "豊崎愛生",
+            "userPreferred": "Aki Toyosaki"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95599-XDGiluZB7IXL.png"
+        }
+      ]
+    },
+    {
+      "id": 49637,
+      "role": "MAIN",
+      "name": {
+        "first": "Haruyuki",
+        "last": "Arita",
+        "full": "Haruyuki Arita",
+        "native": "有田 春雪",
+        "userPreferred": "Haruyuki Arita"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b49637-GlkoT7x40TAV.png",
+      "voiceActors": [
+        {
+          "id": 95672,
+          "language": "Japanese",
+          "name": {
+            "first": "Yuuki",
+            "last": "Kaji",
+            "full": "Yuuki Kaji",
+            "native": "梶裕貴",
+            "userPreferred": "Yuuki Kaji"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95672-RN4nm0OFwCyU.png"
+        }
+      ]
+    },
+    {
+      "id": 61949,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ash Roller",
+        "last": null,
+        "full": "Ash Roller",
+        "native": "アッシュ・ローラー",
+        "userPreferred": "Ash Roller"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b61949-bJcVsuo9vJ3g.png",
+      "voiceActors": [
+        {
+          "id": 95005,
+          "language": "Japanese",
+          "name": {
+            "first": "Kenichi",
+            "last": "Suzumura",
+            "full": "Kenichi Suzumura",
+            "native": "鈴村健一",
+            "userPreferred": "Kenichi Suzumura"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95005-SkoVN02iOglr.png"
+        }
+      ]
+    },
+    {
+      "id": 62607,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Yuniko",
+        "last": "Kouzuki",
+        "full": "Yuniko Kouzuki",
+        "native": "上月由仁子",
+        "userPreferred": "Yuniko Kouzuki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/62607.jpg",
+      "voiceActors": [
+        {
+          "id": 100250,
+          "language": "Japanese",
+          "name": {
+            "first": "Rina",
+            "last": "Hidaka",
+            "full": "Rina Hidaka",
+            "native": "日高里菜",
+            "userPreferred": "Rina Hidaka"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n100250-JhNN2vxQ311M.png"
+        }
+      ]
+    },
+    {
+      "id": 65013,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Mihaya",
+        "last": "Kakei",
+        "full": "Mihaya Kakei",
+        "native": "掛居 美早",
+        "userPreferred": "Mihaya Kakei"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/65013.jpg",
+      "voiceActors": [
+        {
+          "id": 95013,
+          "language": "Japanese",
+          "name": {
+            "first": "Ayako",
+            "last": "Kawasumi",
+            "full": "Ayako Kawasumi",
+            "native": "川澄綾子",
+            "userPreferred": "Ayako Kawasumi"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95013-cwl64qXuP2r7.png"
+        }
+      ]
+    },
+    {
+      "id": 66893,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Fuuko",
+        "last": "Kurasaki",
+        "full": "Fuuko Kurasaki",
+        "native": "倉崎 楓子",
+        "userPreferred": "Fuuko Kurasaki"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b66893-aIlETuRqnscf.png",
+      "voiceActors": [
+        {
+          "id": 95054,
+          "language": "Japanese",
+          "name": {
+            "first": "Aya",
+            "last": "Endou",
+            "full": "Aya Endou",
+            "native": "遠藤綾",
+            "userPreferred": "Aya Endou"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95054-8VgnlGK5QX2A.png"
+        }
+      ]
+    },
+    {
+      "id": 71469,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Dushka",
+        "last": null,
+        "full": "Dushka",
+        "native": "ダシュカ",
+        "userPreferred": "Dushka"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/71469.jpg",
+      "voiceActors": [
+        {
+          "id": 95089,
+          "language": "Japanese",
+          "name": {
+            "first": "Yui",
+            "last": "Makino",
+            "full": "Yui Makino",
+            "native": "牧野由依",
+            "userPreferred": "Yui Makino"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95089-DCoCxSfkD1HC.png"
+        }
+      ]
+    },
+    {
+      "id": 58573,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Megumi",
+        "last": "Wakamiya",
+        "full": "Megumi Wakamiya",
+        "native": "若宮恵",
+        "userPreferred": "Megumi Wakamiya"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b58573-C5hsTBNxhCb5.png",
+      "voiceActors": [
+        {
+          "id": 95890,
+          "language": "Japanese",
+          "name": {
+            "first": "Haruka",
+            "last": "Tomatsu",
+            "full": "Haruka Tomatsu",
+            "native": "戸松遥",
+            "userPreferred": "Haruka Tomatsu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95890-pDWHkOm4ncq0.png"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 11759,
+      "relationType": "PREQUEL",
+      "malId": 11759,
+      "title": {
+        "romaji": "Accel World",
+        "english": "Accel World",
+        "native": "アクセル・ワールド",
+        "userPreferred": "Accel World"
+      },
+      "status": "Completed",
+      "episodes": 24,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11759-o3ZRpFYnP5Lc.jpg",
+      "color": "#f1ae43",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11759-KUzlQmgCx275.jpg",
+      "rating": 67
+    }
+  ],
+  "episodes": [
+    {
+      "id": "accel-world-ex-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx13939-ZwDOMGMYUu4N.png",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//accel-world-ex-episode-1"
+    },
+    {
+      "id": "accel-world-ex-episode-2",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx13939-ZwDOMGMYUu4N.png",
+      "number": 2,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//accel-world-ex-episode-2"
+    }
+  ]
+}

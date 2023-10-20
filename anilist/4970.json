@@ -1,0 +1,374 @@
+{
+  "id": "4970",
+  "title": {
+    "romaji": "Afro Samurai: Resurrection",
+    "english": "Afro Samurai: Resurrection",
+    "native": "アフロサムライ：レザレクション"
+  },
+  "malId": 4970,
+  "synonyms": [],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4970-RtaPhHFnrjpb.jpg",
+  "popularity": 15811,
+  "color": "#d6c91a",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4970-Z2RkL6I35hLN.jpg",
+  "description": "Afro Samurai found peace after avenging his father. But the master is forced back into the game by sexy Sio, a deadly woman from his past who won’t quit until Afro pays for his sins. <br><br>\n(Source: Funimation)",
+  "status": "Completed",
+  "releaseDate": 2009,
+  "startDate": {
+    "year": 2009,
+    "month": 1,
+    "day": 25
+  },
+  "endDate": {
+    "year": 2009,
+    "month": 1,
+    "day": 25
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 69,
+  "duration": 97,
+  "genres": [
+    "Action"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "GONZO"
+  ],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [
+    {
+      "id": 111932,
+      "malId": 40480,
+      "title": {
+        "romaji": "SOUND & FURY",
+        "english": "SOUND & FURY",
+        "native": "SOUND & FURY",
+        "userPreferred": "SOUND & FURY"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111932-v06Ip045i81T.jpg",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/111932-2lGaKI4huG6v.jpg",
+      "rating": 58,
+      "type": "ONA"
+    },
+    {
+      "id": 205,
+      "malId": 205,
+      "title": {
+        "romaji": "Samurai Champloo",
+        "english": "Samurai Champloo",
+        "native": "サムライチャンプルー",
+        "userPreferred": "Samurai Champloo"
+      },
+      "status": "Completed",
+      "episodes": 26,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx205-xxonQKyJtVcw.png",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/205-L7WpOOWUmVjh.jpg",
+      "rating": 84,
+      "type": "TV"
+    }
+  ],
+  "characters": [
+    {
+      "id": 2549,
+      "role": "MAIN",
+      "name": {
+        "first": "Afro Samurai",
+        "last": "",
+        "full": "Afro Samurai",
+        "native": "アフロサムライ",
+        "userPreferred": "Afro Samurai"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2549.jpg",
+      "voiceActors": [
+        {
+          "id": 95311,
+          "language": "English",
+          "name": {
+            "first": "Samuel L.",
+            "last": "Jackson",
+            "full": "Samuel L. Jackson",
+            "native": "Samuel Leroy Jackson",
+            "userPreferred": "Samuel L. Jackson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95311-FPCYeXJQRFfe.png"
+        },
+        {
+          "id": 111535,
+          "language": "English",
+          "name": {
+            "first": "Phil",
+            "last": "LaMarr",
+            "full": "Phil LaMarr",
+            "native": null,
+            "userPreferred": "Phil LaMarr"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/16535.jpg"
+        },
+        {
+          "id": 103548,
+          "language": "German",
+          "name": {
+            "first": "Jan-David",
+            "last": "Rönfeldt",
+            "full": "Jan-David Rönfeldt",
+            "native": null,
+            "userPreferred": "Jan-David Rönfeldt"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/8548.jpg"
+        },
+        {
+          "id": 105395,
+          "language": "Hungarian",
+          "name": {
+            "first": "Péter",
+            "last": "Galambos",
+            "full": "Péter Galambos",
+            "native": null,
+            "userPreferred": "Péter Galambos"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/10395.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19152,
+      "role": "MAIN",
+      "name": {
+        "first": "Sio",
+        "last": null,
+        "full": "Sio",
+        "native": null,
+        "userPreferred": "Sio"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/19152.jpg",
+      "voiceActors": [
+        {
+          "id": 102147,
+          "language": "English",
+          "name": {
+            "first": "Lucy",
+            "last": "Liu",
+            "full": "Lucy Liu",
+            "native": null,
+            "userPreferred": "Lucy Liu"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n102147-uGd9zP5Ex8J0.png"
+        }
+      ]
+    },
+    {
+      "id": 11780,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Jinno",
+        "last": null,
+        "full": "Jinno",
+        "native": null,
+        "userPreferred": "Jinno"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/11780.jpg",
+      "voiceActors": [
+        {
+          "id": 95225,
+          "language": "English",
+          "name": {
+            "first": "Yuri",
+            "last": "Lowenthal",
+            "full": "Yuri Lowenthal",
+            "native": null,
+            "userPreferred": "Yuri Lowenthal"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95225-CbmI6oDkbbkL.jpg"
+        },
+        {
+          "id": 102806,
+          "language": "Hungarian",
+          "name": {
+            "first": "Levente",
+            "last": "Molnár",
+            "full": "Levente Molnár",
+            "native": null,
+            "userPreferred": "Levente Molnár"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/7806.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2587,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Ninja Ninja",
+        "last": null,
+        "full": "Ninja Ninja",
+        "native": "忍者忍者",
+        "userPreferred": "Ninja Ninja"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2587-yJqWLbrmkOVh.png",
+      "voiceActors": [
+        {
+          "id": 95311,
+          "language": "English",
+          "name": {
+            "first": "Samuel L.",
+            "last": "Jackson",
+            "full": "Samuel L. Jackson",
+            "native": "Samuel Leroy Jackson",
+            "userPreferred": "Samuel L. Jackson"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95311-FPCYeXJQRFfe.png"
+        }
+      ]
+    },
+    {
+      "id": 30473,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Shichigoro",
+        "last": null,
+        "full": "Shichigoro",
+        "native": null,
+        "userPreferred": "Shichigoro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/30473.jpg",
+      "voiceActors": [
+        {
+          "id": 95317,
+          "language": "English",
+          "name": {
+            "first": "Liam",
+            "last": "O'Brien",
+            "full": "Liam O'Brien",
+            "native": null,
+            "userPreferred": "Liam O'Brien"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95317-1H9A9jxTNsCP.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19227,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Bin",
+        "last": null,
+        "full": "Bin",
+        "native": null,
+        "userPreferred": "Bin"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/19227.jpg",
+      "voiceActors": [
+        {
+          "id": 95335,
+          "language": "English",
+          "name": {
+            "first": "Mark",
+            "last": "Hamill",
+            "full": "Mark Hamill",
+            "native": null,
+            "userPreferred": "Mark Hamill"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n95335-8LAf1aJJgEUh.png"
+        }
+      ]
+    },
+    {
+      "id": 29587,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Rukotaro",
+        "last": null,
+        "full": "Rukotaro",
+        "native": null,
+        "userPreferred": "Rukotaro"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/29587.jpg",
+      "voiceActors": [
+        {
+          "id": 104700,
+          "language": "English",
+          "name": {
+            "first": "Greg",
+            "last": "Eagles",
+            "full": "Greg Eagles",
+            "native": null,
+            "userPreferred": "Greg Eagles"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/9700.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19185,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Brother One",
+        "last": null,
+        "full": "Brother One",
+        "native": null,
+        "userPreferred": "Brother One"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/19185.jpg",
+      "voiceActors": [
+        {
+          "id": 111535,
+          "language": "English",
+          "name": {
+            "first": "Phil",
+            "last": "LaMarr",
+            "full": "Phil LaMarr",
+            "native": null,
+            "userPreferred": "Phil LaMarr"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/16535.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 1292,
+      "relationType": "PREQUEL",
+      "malId": 1292,
+      "title": {
+        "romaji": "Afro Samurai",
+        "english": null,
+        "native": "アフロサムライ",
+        "userPreferred": "Afro Samurai"
+      },
+      "status": "Completed",
+      "episodes": 5,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1292-FcyYgq7Ly34H.png",
+      "color": null,
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1292-eucruhMiEZxx.jpg",
+      "rating": 70
+    },
+    {
+      "id": 13709,
+      "relationType": "PREQUEL",
+      "malId": 13709,
+      "title": {
+        "romaji": "AFRO SAMURAI Movie",
+        "english": "Afro Samurai the Movie",
+        "native": "AFRO SAMURAI 劇場版",
+        "userPreferred": "AFRO SAMURAI Movie"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx13709-nUNyhw7NOiLr.png",
+      "color": null,
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/13709-qFBtEwucVgte.jpg",
+      "rating": 72
+    }
+  ],
+  "episodes": []
+}

@@ -1,0 +1,152 @@
+{
+  "id": "3964",
+  "title": {
+    "romaji": "Turn A Gundam II: Moonlight Butterfly",
+    "english": "∀ Gundam II: Moonlight Butterfly",
+    "native": "劇場版∀ガンダムII 月光蝶"
+  },
+  "malId": 3964,
+  "synonyms": [
+    "∀ Gundam II: Gekkou Chou"
+  ],
+  "isLicensed": true,
+  "isAdult": false,
+  "countryOfOrigin": "JP",
+  "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3964.jpg",
+  "popularity": 1272,
+  "color": "#f1bb50",
+  "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3964.jpg",
+  "description": "The movie retelling of the final half of the Turn A Gundam series. ",
+  "status": "Completed",
+  "releaseDate": 2002,
+  "startDate": {
+    "year": 2002,
+    "month": 2,
+    "day": 10
+  },
+  "endDate": {
+    "year": 2002,
+    "month": 2,
+    "day": 10
+  },
+  "totalEpisodes": 1,
+  "currentEpisode": 1,
+  "rating": 59,
+  "duration": 128,
+  "genres": [
+    "Action",
+    "Drama",
+    "Mecha",
+    "Sci-Fi"
+  ],
+  "season": "WINTER",
+  "studios": [
+    "Sunrise"
+  ],
+  "subOrDub": "sub",
+  "type": "MOVIE",
+  "recommendations": [],
+  "characters": [
+    {
+      "id": 2222,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Guin Sard",
+        "last": "Rhineford",
+        "full": "Guin Sard Rhineford",
+        "native": "グエン・サード・ラインフォード",
+        "userPreferred": "Guin Sard Rhineford"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/2222.jpg",
+      "voiceActors": [
+        {
+          "id": 101324,
+          "language": "Japanese",
+          "name": {
+            "first": "Gou",
+            "last": "Aoba",
+            "full": "Gou Aoba",
+            "native": "青羽剛",
+            "userPreferred": "Gou Aoba"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/n101324-wLy1op0eLsn4.png"
+        }
+      ]
+    },
+    {
+      "id": 45511,
+      "role": "SUPPORTING",
+      "name": {
+        "first": "Meam",
+        "last": "Midgard",
+        "full": "Meam Midgard",
+        "native": "ミーム・ミドガルド",
+        "userPreferred": "Meam Midgard"
+      },
+      "image": "https://s4.anilist.co/file/anilistcdn/character/large/45511.jpg",
+      "voiceActors": [
+        {
+          "id": 107751,
+          "language": "Japanese",
+          "name": {
+            "first": "Ryuji",
+            "last": "Mizuno",
+            "full": "Ryuji Mizuno",
+            "native": "水野龍司",
+            "userPreferred": "Ryuji Mizuno"
+          },
+          "image": "https://s4.anilist.co/file/anilistcdn/staff/large/12751.jpg"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": 3963,
+      "relationType": "PREQUEL",
+      "malId": 3963,
+      "title": {
+        "romaji": "Turn A Gundam I: Earth Light",
+        "english": "∀ Gundam I: Earth Light",
+        "native": "劇場版∀ガンダムI 地球光",
+        "userPreferred": "Turn A Gundam I: Earth Light"
+      },
+      "status": "Completed",
+      "episodes": 1,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3963.jpg",
+      "color": "#e4bb43",
+      "type": "MOVIE",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3963.jpg",
+      "rating": 60
+    },
+    {
+      "id": 95,
+      "relationType": "PARENT",
+      "malId": 95,
+      "title": {
+        "romaji": "∀ Gundam",
+        "english": "Turn A Gundam",
+        "native": "∀ガンダム",
+        "userPreferred": "∀ Gundam"
+      },
+      "status": "Completed",
+      "episodes": 50,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx95-5okHk1B0VKro.jpg",
+      "color": "#f1ae43",
+      "type": "TV",
+      "cover": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/95-kLBJfcuG0Yb7.jpg",
+      "rating": 79
+    }
+  ],
+  "episodes": [
+    {
+      "id": "turn-a-gundam-ii-movie-moonlight-butterfly-episode-1",
+      "title": null,
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/3964.jpg",
+      "number": 1,
+      "createdAt": null,
+      "description": null,
+      "url": "https://gogoanimehd.io//turn-a-gundam-ii-movie-moonlight-butterfly-episode-1"
+    }
+  ]
+}
