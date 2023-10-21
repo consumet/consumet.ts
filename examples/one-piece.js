@@ -5096,7 +5096,7 @@ var main = function () { return __awaiter(void 0, void 0, void 0, function () {
                 _b.label = 3;
             case 3:
                 _b.trys.push([3, 7, , 8]);
-                if (!!fs.existsSync(animeFilePath)) return [3 /*break*/, 5];
+                if (fs.existsSync(animeFilePath)) return [3 /*break*/, 5];
                 console.log(animeID);
                 return [4 /*yield*/, Anilist.fetchAnimeInfo(animeID.toString())];
             case 4:
